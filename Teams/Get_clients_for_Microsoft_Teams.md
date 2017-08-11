@@ -52,7 +52,7 @@ IT admins can choose their preferred method to distribute the installation files
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.emf)<br></br>Note    |Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.         |
+|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.         |
 
 #### Windows
 
@@ -60,7 +60,7 @@ The Microsoft Teams installation for Windows provides downloadable installers in
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.emf)<br></br>Note    |The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.        |
+|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.        |
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
@@ -74,7 +74,7 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 
 | | |
 |---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image2.emf)<br></br>Note    |Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.        |
+|![](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.        |
 
 #### Mac
 
@@ -100,8 +100,8 @@ Mobile apps are distributed and updated through the respective mobile platform�
 
 | | | |
 |---------|---------|---------|
-|![](media/Get_clients_for_Microsoft_Teams_image4.emf)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
-|![](media/Get_clients_for_Microsoft_Teams_image5.emf)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
+|![](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
+|![](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
 
 
   <span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?

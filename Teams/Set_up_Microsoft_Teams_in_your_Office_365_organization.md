@@ -35,4 +35,4 @@ Organizations who wish to change whether Microsoft Teams is enabled or not can f
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.emf)<br></br>Note     |The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.         |
+|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Note     |The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.         |

@@ -43,16 +43,16 @@ The first rule of a successful adoption, is to create a dynamic team comprised o
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.emf)     |**Executive Sponsors** are key leaders within the organization and their participation is essential in driving employee adoption. They have the greatest influence on company culture and can actively communicate the value and benefits of a new technology and way.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.emf)     |**Service Owners** are responsible for ensuring people use the service and get value from it. Setting Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.emf)     |Gaining buy-in from every user across an organization is a challenge. **Champions** can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.         |
+|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Executive Sponsors** are key leaders within the organization and their participation is essential in driving employee adoption. They have the greatest influence on company culture and can actively communicate the value and benefits of a new technology and way.         |
+|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Service Owners** are responsible for ensuring people use the service and get value from it. Setting Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.         |
+|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Gaining buy-in from every user across an organization is a challenge. **Champions** can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.         |
 
 We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a “collaboration council” to allow for feedback and discussion can be a useful tool depending on your corporate culture.
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.emf)<br></br>Tip    |Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.         |
+|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Tip    |Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.         |
 
 User profiles
 -------------

@@ -25,7 +25,7 @@ The following Office 365 subscriptions enable users for Microsoft Teams:
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.emf)<br></br>Note     |Microsoft Teams is also available for non-profit organizations. Government licensing is not currently supported, but are being investigated for future support.         |
+|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Note     |Microsoft Teams is also available for non-profit organizations. Government licensing is not currently supported, but are being investigated for future support.         |
         
 
 

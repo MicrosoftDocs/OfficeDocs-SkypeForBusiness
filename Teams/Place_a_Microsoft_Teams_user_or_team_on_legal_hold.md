@@ -16,7 +16,7 @@ To put a user or a team on Legal Hold, navigate to the [Security and Compliance 
 
 |||
 |---------|---------|
-|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.emf)<br></br> Note     |Placing a user on hold does not automatically place a group on hold or vice-versa.         |
+|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Note     |Placing a user on hold does not automatically place a group on hold or vice-versa.         |
 |![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Important     |When a user or group is placed on hold, all message copies will be retained. Example: Bob posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.         |
 
 In the figure below, there is an investigation involving Bob. Bob is a member of the Manufacturing Specs team.

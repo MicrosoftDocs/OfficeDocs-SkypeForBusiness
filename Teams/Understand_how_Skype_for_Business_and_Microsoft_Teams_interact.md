@@ -28,7 +28,7 @@ Users on Skype for Business can reply to the instant messages, which will arrive
 
 Users on Microsoft Teams, if enabled for Skype for Business as well, can sign in to Microsoft Teams and Skype for Business using their own respective clients simultaneously.
 
-![](media/Understand_how_Skype_for_Business_and_Microsoft_Teams_interact_image3.emf)
+![](media/Understand_how_Skype_for_Business_and_Microsoft_Teams_interact_image3.png)
 
 The last active endpoint will be honored, so if the user is actively using Microsoft Teams, any instant messages sent from a Skype for Business user will arrive in the Microsoft Teams chat window. If the user is currently using Skype for Business to receive/make phone calls or just finished taking a call using Skype for Business, and have not returned to Microsoft Teams client, incoming instant messages sent from a Skype for Business user will arrive in Skype for Business client as this will be the most active endpoint.
 
@@ -39,6 +39,6 @@ With the above behavior, end users can comfortably use both Microsoft Teams and 
 
 |  |  |
 |---------|---------|
-|![](media/Understand_how_Skype_for_Business_and_Microsoft_Teams_interact_image3.emf)<br>Note</br>      |With Skype for Business interoperability, instant messages that arrive in Teams will not be recorded in Skype for Business conversation history.         |
+|![](media/Understand_how_Skype_for_Business_and_Microsoft_Teams_interact_image3.png)<br>Note</br>      |With Skype for Business interoperability, instant messages that arrive in Teams will not be recorded in Skype for Business conversation history.         |
 
 Microsoft Teams provides the ability for users to disable Skype for Business interoperability from within the Notification settings. This setting is user controlled, allowing each user to decide on the behavior they prefer.

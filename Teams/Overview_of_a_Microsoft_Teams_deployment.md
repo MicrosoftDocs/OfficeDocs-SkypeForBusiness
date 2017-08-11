@@ -42,8 +42,8 @@ This setup would look like this in Microsoft Teams:
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.emf)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.emf)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
+|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
+|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
 
 
  
