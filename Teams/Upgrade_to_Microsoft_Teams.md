@@ -1,3 +1,4 @@
+---
 title: Upgrade to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
