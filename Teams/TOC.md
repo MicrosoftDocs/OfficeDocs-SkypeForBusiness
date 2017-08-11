@@ -1,5 +1,5 @@
 # Upgrade to Microsoft Teams
-## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md) - placeholder
+## [Upgrade to Microsoft Teams - placeholder](Upgrade_to_Microsoft_Teams.md)
 
 # Get started
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
@@ -18,10 +18,10 @@
 ## Plan for Microsoft Teams features - doesn't exist yet
 ## Plan for PSTN conferencing in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
 ## Plan for PSTN calling in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
-## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted
-## Prepare your organization's network for Microsoft Teams
-## Office 365 URLs and IP address ranges
-## Prepare your network for Microsoft Teams
+## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted - hmmmm
+## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
+## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
+## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 
 # Adopt
 ## Create a change management strategy for Microsoft Teams
