@@ -36,7 +36,7 @@ The table below shows the difference in permissions between an owner and a membe
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Note     |Owners can make other members owners in the View teams option. A team can have up to 10 owners.         |
+|<img src="media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png" width="70" height="70"> <br></br>Note     |Owners can make other members owners in the View teams option. A team can have up to 10 owners.         |
 
 Permissions to create teams
 ---------------------------
