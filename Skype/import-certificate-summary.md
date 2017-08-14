@@ -1,0 +1,15 @@
+---
+title: Import Certificate (Summary)
+ms.prod: SKYPEFORBUSINESS
+ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
+---
+
+
+# Import Certificate (Summary)
+[]
+On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.
+  
+    
+    
+
+

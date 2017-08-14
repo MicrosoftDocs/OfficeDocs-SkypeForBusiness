@@ -1,0 +1,25 @@
+---
+title: Topology View Simple URL Detail
+ms.prod: SKYPEFORBUSINESS
+ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
+---
+
+
+# Topology: View Simple URL Detail
+[]
+What do you want to do? Click the link to the task that you want to perform.
+  
+    
+    
+
+
+-  [Edit or Configure Simple URLs](http://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+    
+  
+-  [View Simple URL Details](http://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+    
+  
+-  [Managing Simple URLs](http://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+    
+  
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see  [Manage Skype for Business Server 2015](manage-skype-for-business-server-2015.md).
