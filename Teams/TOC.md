@@ -1,3 +1,4 @@
+# [Welcome to Microsoft Teams](../Welcome_to_Microsoft_Teams.md)
 # Upgrade to Microsoft Teams
 ## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
