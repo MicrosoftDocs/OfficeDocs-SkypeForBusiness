@@ -12,5 +12,6 @@ description: Everything you need to know to upgrade to Microsoft Teams from Skyp
 Upgrade to Microsoft Teams
 ==========================================================
 
-PLACEHOLDER topic for main "Upgrade" landing page that we'll link to from MC posts.
-This topic will link off to all other "Upgrade" content
+PLACEHOLDER topic for main "Upgrade" landing page.
+This topic will link off to all other "Upgrade" content.
+TBD whether "Additional Information" link from MC posts will go to this page or to the main "Upgrade" page on FastTrack. Working with Sarah Goodwin & Debbie Arbeeny - designing FastTrack content set for "Upgrade."
