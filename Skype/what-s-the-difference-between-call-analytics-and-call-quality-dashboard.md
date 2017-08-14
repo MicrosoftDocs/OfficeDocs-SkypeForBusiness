@@ -1,0 +1,79 @@
+---
+title: What's the difference between Call Analytics and Call Quality Dashboard?
+ms.prod: SKYPEFORBUSINESS
+ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
+---
+
+
+# What's the difference between Call Analytics and Call Quality Dashboard?
+
+Skype for Business gives you two ways to monitor and troubleshoot call-quality problems: Call Analytics and Call Quality Dashboard. This article describes both and tells you when to use each one.
+  
+    
+    
+
+
+> [!NOTE]
+> Call Analytics is currently in preview. Text and images described here may not match your experience. 
+  
+    
+    
+
+
+## What's Call Analytics, and when should I use it?
+
+Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Skype for Business account. If you're a Skype for Business admin, you can use Call Analytics to troubleshoot Skype for Business call quality and connection problems.
+  
+    
+    
+If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics but they can't access the rest of the Skype for Business Admin center: 
+  
+    
+    
+
+- **Helpdesk agents with Tier 1 permissions**: Agents see a limited set of data and personally identifiable information (PII) in Call Analytics. They can troubleshoot calls, but they will hand off problems with meetings to a Tier 2 agent.
+    
+  
+- **Helpdesk agents with Tier 2 permissions**: Agents see all available data in Call Analytics and troubleshoot both calls and meetings. They have full access to call logs and customer information.
+    
+  
+For details about setting up Call Analytics, see  [Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md). For more information about how Helpdesk agents can work with Call Analytics, see  [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md).
+  
+    
+    
+
+## What's the Call Quality Dashboard, and when should I use it?
+
+Call Analytics gives you detailed, specific information about the call quality experienced by users. Why did user Tony Smith have a poor call this afternoon? Using Call Analytics, a Skype for Business admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to Tony's call.
+  
+    
+    
+Where CA is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, the Call Quality Dashboard (CQD) is designed to help Skype for Business admins and network engineers optimize a network. CQD shifts focus from specific users and instead looks at aggregate information for an entire Skype for Business organization. 
+  
+    
+    
+Maybe Tony's poor call quality is due to a network issue that's also affecting many other users. Tony's individual call experience isn't visible in CQD, but the overall quality of calls made using Skype for Business is captured. With the CQD, overall patterns may become apparent, allowing network engineers to make informed assessments of call quality. CQD provides reports of call quality metrics that give you insights into overall call quality, server-client and client-client streams, and voice quality  [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252). 
+  
+    
+    
+![Screenshot of Call Quality Dashboard in the Skype for Business Admin Center. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and View Quality SLA.](images/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+  
+    
+    
+
+  
+    
+    
+For more details, see  [Features of the Call Quality Dashboard for Skype for Business Online](turning-on-and-using-call-quality-dashboard-in-skype-for-business-online.md#BKMK_FeaturesOfTheCQD).
+  
+    
+    
+Call Analytics and CQD run in parallel and can be used independently or together. For example, say a Tier 1 agent determines that they need more help troubleshooting a call problem. The Tier 1 agent passes the call to a Tier 2 agent, who has access to more information in Call Analytics than the Tier 1 agent. In turn, the Tier 2 agent can alert a network engineer to an issue. The network engineer may check CQD to see if an overall site-related issue could be a contributing cause of call problems.
+  
+    
+    
+For more information about CQD, see  [Turning on and using Call Quality Dashboard in Skype for Business Online](turning-on-and-using-call-quality-dashboard-in-skype-for-business-online.md) and [Dimensions and measures available in Call Quality Dashboard in Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-in-skype-for-busines.md).
+  
+    
+    
+

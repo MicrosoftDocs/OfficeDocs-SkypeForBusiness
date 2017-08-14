@@ -1,0 +1,22 @@
+---
+title: Federated Domains Create New or Edit Existing
+ms.prod: SKYPEFORBUSINESS
+ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
+---
+
+
+# Federated Domains: Create New or Edit Existing
+[]
+What do you want to do? Click the link to the task that you want to perform.
+  
+    
+    
+
+
+-  [Configure Access for Federated Partners](http://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+    
+  
+-  [Monitor and Control Federated Partner Access](http://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+    
+  
+

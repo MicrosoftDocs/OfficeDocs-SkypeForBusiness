@@ -1,76 +1,42 @@
-# [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
-# Upgrade to Microsoft Teams
-## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
-
-# Get started
-## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
-## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
-## [Understand Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
-## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
-## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
-## Accessibility in Microsoft Teams - topic doesn't exist yet
-## [Understand Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
-## [Understand how Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
-## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
-## [Understand how Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
-
-# Plan
-## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
-## Plan for Microsoft Teams features - doesn't exist yet
-## Plan for PSTN conferencing in Microsoft Teams - doesn't exist yet
-## Plan for PSTN calling in Microsoft Teams - doesn't exist yet
-## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted
-## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
-## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
-## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
-
-# Adopt
-## [Create a change management strategy for Microsoft Teams](Create_a_change_management_strategy_for_Microsoft_Teams.md)
-## [Best practices for user feedback methods in Microsoft Teams](Best_practices_for_user_feedback_methods_in_Microsoft_Teams.md)
-## [Get tools to support a rollout of Microsoft Teams](Get_tools_to_support_a_rollout_of_Microsoft_Teams.md)
-## [Use T-Bot to help users with Microsoft Teams](Use_T-Bot_to_help_users_with_Microsoft_Teams.md)
-
-
-# Manage
-## [Get clients for Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
-## [Set up Microsoft Teams in your Office 365 organization](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
-## [Manage user access to Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
-## Guest access in Microsoft Teams - topic in tech review, publishing first on SOC
-## [Enable Microsoft Teams features in your Office 365 organization](Enable_Microsoft_Teams_features_in_your_Office_365_organization.md)
-## Manage PSTN conferencing in Microsoft Teams - doesn't exist yet
-## Manage PSTN calling in Microsoft Teams - doesn't exist yet
-## [Assign roles and permissions in Microsoft Teams](Assign_roles_and_permissions_in_Microsoft_Teams.md)
-## [Enhance existing Office 365 Groups with Microsoft Teams](Enhance_Existing_Office_365_groups_with_Microsoft_Teams.md)
-## Reports in Microsoft Teams - doesn't exist yet
-## [Configure an Exchange hybrid organization for use with Microsoft Teams](Configure_an_Exchange_hybrid_organization_for_use_with_Microsoft_Teams.md)
-## [Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online](Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online.md)
-## [Use built-in and custom tabs in Microsoft Teams](Use_built-in_and_custom_tabs_in_Microsoft_Teams.md)
-## [Use Office 365 and custom connectors in Microsoft Teams](Use_Office_365_and_custom_connectors_in_Microsoft_Teams.md)
-## [Add bots for private chats and channels in Microsoft Teams](Add_bots_for_private_chats_and_channels_in_Microsoft_Teams.md)
-## Create custom bots for Microsoft Teams - topic in Alison's list, no topic created or converted 
-## [Admin settings for apps in Microsoft Teams](Admin_settings_for_apps_in_Microsoft_Teams.md)
-## Dimensions and measures available in Call Quality Dashboard in Skype for Business Online - on SOC/SfB
-## Set up Skype for Business Call Analytics - on SOC/SfB
-## Turning on and using Call Quality Dashboard in Skype for Business Online - on SOC/SfB
-## What's the difference between Call Analytics and Call Quality Dashboard? - on SOC/SfB
-## Modern authentication and Microsoft Teams desktop clients - on SOC - MIGRATE
-
-# Security & Compliance
-## [Identity models and authentication in Microsoft Teams](Identity_models_and_authentication_in_Microsoft_Teams.md)
-## [Overview of security and compliance in Microsoft Teams](Overview_of_security_and_compliance_in_Microsoft_Teams.md)
-## Privacy in Microsoft Teams - Brendon & Tony updating existing content on SOC
-## [Search the audit log for events in Microsoft Teams](Search_the_audit_log_for_events_in_Microsoft_Teams.md)
-## [Conduct an eDiscovery investigation of content in Microsoft Teams](Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams.md)
-## [Use Content Search in Microsoft Teams](Use_Content_Search_in_Microsoft_Teams.md)
-## [Place a Microsoft Teams user or team on legal hold](Place_a_Microsoft_Teams_user_or_team_on_legal_hold.md)
-
-
-
-# Troubleshoot
-## Montoring Usage and Quality - doesn't exist yet
-## [Support resources for Microsoft Teams](Support_resources_for_Microsoft_Teams.md)
-## [Verify service health for Microsoft Teams](Verify_service_health_for_Microsoft_Teams.md)
-## [Troubleshoot connectivity issues with the Microsoft Teams client](Troubleshoot_connectivity_issues_with_the_Microsoft_Teams_client.md)
-## [Use log files in troubleshooting Microsoft Teams](Use_log_files_in_troubleshooting_Microsoft_Teams.md)
-## Use Call Analytics to troubleshoot poor Skype for Business call quality - on SOC/SfB
-
+﻿# Teams Test Table of Contents
+## [Add bots for private chats and channels in Microsoft Teams | Microsoft Support](Add_bots_for_private_chats_and_channels_in_Microsoft_)
+## [Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online | Microsoft Support](Add_the_Microsoft_)
+## [Admin settings for apps in Microsoft Teams | Microsoft Support](Admin_settings_for_apps_in_Microsoft_)
+## [Assign roles and permissions in Microsoft Teams | Microsoft Support](Assign_roles_and_permissions_in_Microsoft_)
+## [Best practices for organizing teams in Microsoft Teams | Microsoft Support](Best_practices_for_organizing_Microsoft_)
+## [Best practices for user feedback methods in Microsoft Teams | Microsoft Support](Best_practices_for_user_feedback_methods_in_Microsoft_)
+## [Check your environmentâ€™s readiness for Microsoft Teams | Microsoft Support](Check_your_environments_readiness_for_Microsoft_)
+## [TConduct an eDiscovery investigation of content in Microsoft Teams | Microsoft Support](Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_)
+## [Configure an Exchange hybrid organization for use with Microsoft Teams | Microsoft Support](Configure_an_Exchange_hybrid_organization_for_use_with_Microsoft_)
+## [Create a change management strategy for Microsoft Teams | Microsoft Support](Create_a_change_management_strategy_for_Microsoft_)
+## [Enable Microsoft Teams features in your Office 365 organization | Microsoft Support](Enable_Microsoft_)
+## [Enhance Existing Office 365 groups with Microsoft Teams | Microsoft Support](Enhance_Existing_Office_365_groups_with_Microsoft_)
+## [Get clients for Microsoft Teams | Microsoft Support](Get_clients_for_Microsoft_)
+## [Get tools to support a rollout of Microsoft Teams | Microsoft Support](Get_tools_to_support_a_rollout_of_Microsoft_)
+## [Identity models and authentication in Microsoft Teams | Microsoft Support](Identity_models_and_authentication_in_Microsoft_)
+## [No Title Found](index.md)
+## [Manage user access to Microsoft Teams | Microsoft Support](Manage_user_access_to_Microsoft_)
+## [Office 365 URLs and IP address ranges | Microsoft Support](Office_365_URLs_and_IP_address_ranges.md)
+## [Overview of a Microsoft Teams deployment | Microsoft Support](Overview_of_a_Microsoft_)
+## [Overview of Microsoft Teams | Microsoft Support](Overview_of_Microsoft_)
+## [Overview of security and compliance in Microsoft Teams | Microsoft Support](Overview_of_security_and_compliance_in_Microsoft_)
+## [Overview of teams and channels in Microsoft Teams | Microsoft Support](Overview_of_teams_and_channels_in_Microsoft_)
+## [Place a Microsoft Teams user or team on legal hold | Microsoft Support](Place_a_Microsoft_)
+## [Prepare your organization's network for Microsoft Teams | Microsoft Support](Prepare_your_organization's_network_for_Microsoft_)
+## [Search the audit log for events in Microsoft Teams | Microsoft Support](Search_the_audit_log_for_events_in_Microsoft_)
+## [Set up Microsoft Teams in your Office 365 organization | Microsoft Support](Set_up_Microsoft_)
+## [Support resources for Microsoft Teams | Microsoft Support](Support_resources_for_Microsoft_)
+## [Troubleshoot connectivity issues with the Microsoft Teams client | Microsoft Support](Troubleshoot_connectivity_issues_with_the_Microsoft_)
+## [Understand how Exchange and Microsoft Teams interact | Microsoft Support](Understand_how_Exchange_and_Microsoft_)
+## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams | Microsoft Support](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_)
+## [Understand how Skype for Business and Microsoft Teams interact | Microsoft Support](Understand_how_Skype_for_Business_and_Microsoft_)
+## [Understand Office 365 groups and Microsoft Teams | Microsoft Support](Understand_Office_365_groups_and_Microsoft_)
+## [Understand Office 365 licensing for Microsoft Teams | Microsoft Support](Understand_Office_365_Licensing__for_Microsoft_)
+## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_)
+## [Use built-in and custom tabs in Microsoft Teams | Microsoft Support](Use_built-in_and_custom_tabs_in_Microsoft_)
+## [Use Content Search in Microsoft Teams | Microsoft Support](Use_Content_Search_in_Microsoft_)
+## [Use log files in troubleshooting Microsoft Teams | Microsoft Support](Use_log_files_in_troubleshooting_Microsoft_)
+## [Use Office 365 and custom connectors in Microsoft Teams | Microsoft Support](Use_Office_365_and_custom_connectors_in_Microsoft_)
+## [Use T-Bot to help users with Microsoft Teams | Microsoft Support](Use_T-Bot_to_help_users_with_Microsoft_)
+## [Verify service health for Microsoft Teams | Microsoft Support](Verify_service_health_for_Microsoft_)
+## [Welcome to Microsoft Teams](Welcome_to_Microsoft_)
