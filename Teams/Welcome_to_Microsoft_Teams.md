@@ -11,6 +11,10 @@ description: Find the latest how to and support content that admins and IT pros 
 
 Welcome to Microsoft Teams
 ==========================================================
-This is the Teams Home page. Featured content, scenarios. 
+This is the Teams Home page. Featured content, scenarios, links to Upgrading, FastTrack, etc.
 
-Links to Upgrading, FastTrack, etc.
+What is Microsoft Teams?
+As an IT Admin, how do I manage it?
+I'm using Skype for Business Online. Where does Microsoft Teams fit in?
+I'm using Skype for Business v.Next Server (on-premises). Where does Microsoft Teams fit in?
+
