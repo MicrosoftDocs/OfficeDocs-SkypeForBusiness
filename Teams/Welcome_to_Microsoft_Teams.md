@@ -15,9 +15,9 @@ Microsoft Teams is the Office 365 digital equivalent of an open-space office env
 
 I'm new to Office 365 and Microsoft Teams - help me get started
 
-I'm already using Skype for Business Online, and some of my people are using Microsoft Teams
+We're already using Skype for Business Online, and some people in my organization are using Microsoft Teams
 
-I'm using Skype for Business Online, and I've been told we're upgrading to Microsoft Teams soon
+We're using Skype for Business Online, and I've been told we're upgrading to Microsoft Teams soon
 
 I need help managing or troubleshooting Microsoft Teams for my organization
 
