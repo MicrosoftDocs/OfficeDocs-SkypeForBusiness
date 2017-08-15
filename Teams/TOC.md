@@ -1,8 +1,9 @@
-# [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
+
 # Upgrade to Microsoft Teams
 ## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
 # Get started
+## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
 ## [Understand Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
