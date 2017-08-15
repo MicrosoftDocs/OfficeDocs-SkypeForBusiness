@@ -48,4 +48,4 @@ Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>    |If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.         |
+|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.         |
