@@ -1,5 +1,6 @@
+# [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 # Upgrade to Microsoft Teams
-## [Upgrade to Microsoft Teams - placeholder](Upgrade_to_Microsoft_Teams.md)
+## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
 # Get started
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
@@ -16,9 +17,9 @@
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
 ## Plan for Microsoft Teams features - doesn't exist yet
-## Plan for PSTN conferencing in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
-## Plan for PSTN calling in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
-## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted - hmmmm
+## Plan for PSTN conferencing in Microsoft Teams - doesn't exist yet
+## Plan for PSTN calling in Microsoft Teams - doesn't exist yet
+## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -36,8 +37,8 @@
 ## [Manage user access to Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
 ## Guest access in Microsoft Teams - topic in tech review, publishing first on SOC
 ## [Enable Microsoft Teams features in your Office 365 organization](Enable_Microsoft_Teams_features_in_your_Office_365_organization.md)
-## Manage PSTN conferencing in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
-## Manage PSTN calling in Microsoft Teams - Agus and Tony writing topic - doesn't exist yet
+## Manage PSTN conferencing in Microsoft Teams - doesn't exist yet
+## Manage PSTN calling in Microsoft Teams - doesn't exist yet
 ## [Assign roles and permissions in Microsoft Teams](Assign_roles_and_permissions_in_Microsoft_Teams.md)
 ## [Enhance existing Office 365 Groups with Microsoft Teams](Enhance_Existing_Office_365_groups_with_Microsoft_Teams.md)
 ## Reports in Microsoft Teams - doesn't exist yet
