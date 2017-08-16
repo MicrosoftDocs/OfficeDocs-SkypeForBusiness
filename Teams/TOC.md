@@ -1,7 +1,4 @@
 
-# Upgrade to Microsoft Teams
-## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
-
 # Get started
 ## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
@@ -14,6 +11,7 @@
 ## [Understand how Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
 ## [Understand how Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
+## [Upgrade to Microsoft Teams--do we want this in the TOC?](Upgrade_to_Microsoft_Teams.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
