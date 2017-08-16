@@ -6,12 +6,13 @@
 ## [Understand Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
-## Accessibility in Microsoft Teams - topic doesn't exist yet
+
 ## [Understand Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
 ## [Understand how Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
 ## [Understand how Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
-## [Upgrade to Microsoft Teams--do we want this in the TOC?](Upgrade_to_Microsoft_Teams.md)
+## Accessibility in Microsoft Teams - topic doesn't exist yet
+## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
@@ -62,8 +63,6 @@
 ## [Use Content Search in Microsoft Teams](Use_Content_Search_in_Microsoft_Teams.md)
 ## [Place a Microsoft Teams user or team on legal hold](Place_a_Microsoft_Teams_user_or_team_on_legal_hold.md)
 
-
-
 # Troubleshoot
 ## Montoring Usage and Quality - doesn't exist yet
 ## [Support resources for Microsoft Teams](Support_resources_for_Microsoft_Teams.md)
@@ -72,3 +71,7 @@
 ## [Use log files in troubleshooting Microsoft Teams](Use_log_files_in_troubleshooting_Microsoft_Teams.md)
 ## Use Call Analytics to troubleshoot poor Skype for Business call quality - on SOC/SfB
 
+# Cloud Voice Deployment
+## Cloud Voice for Microsoft Teams
+## Phones System with Calling Plans
+## Audio conferencing
