@@ -1,8 +1,6 @@
-# [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
-# Upgrade to Microsoft Teams
-## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
 # Get started
+## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
 ## [Understand Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
@@ -13,13 +11,14 @@
 ## [Understand how Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
 ## [Understand how Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
+## [Upgrade to Microsoft Teams--do we want this in the TOC?](Upgrade_to_Microsoft_Teams.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
 ## Plan for Microsoft Teams features - doesn't exist yet
 ## Plan for PSTN conferencing in Microsoft Teams - doesn't exist yet
 ## Plan for PSTN calling in Microsoft Teams - doesn't exist yet
-## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted
+## [Plan for Office 365 groups when creating teams in Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
@@ -47,7 +46,6 @@
 ## [Use built-in and custom tabs in Microsoft Teams](Use_built-in_and_custom_tabs_in_Microsoft_Teams.md)
 ## [Use Office 365 and custom connectors in Microsoft Teams](Use_Office_365_and_custom_connectors_in_Microsoft_Teams.md)
 ## [Add bots for private chats and channels in Microsoft Teams](Add_bots_for_private_chats_and_channels_in_Microsoft_Teams.md)
-## Create custom bots for Microsoft Teams - topic in Alison's list, no topic created or converted 
 ## [Admin settings for apps in Microsoft Teams](Admin_settings_for_apps_in_Microsoft_Teams.md)
 ## Dimensions and measures available in Call Quality Dashboard in Skype for Business Online - on SOC/SfB
 ## Set up Skype for Business Call Analytics - on SOC/SfB

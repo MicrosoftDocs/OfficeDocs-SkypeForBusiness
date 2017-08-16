@@ -1,0 +1,209 @@
+Error Type,Topic Guid,Message
+Error,,Checking for list in tables in file: message:System.Collections.ArrayList
+Error,,CHecking Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content in md file: message:System.Collections.ArrayList
+Error,,Checking for missing tables headers in file: message:System.Collections.ArrayList
+Error,,Running transform:ConceptualTransform.xslt on file: message:System.Collections.ArrayList
+Error,,Running github process on file: message:System.Collections.ArrayList
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Found a an ul list inside a table in html file:03a255d4-0e1d-4b24-b73d-7a62fae36254.xml
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Found nested table in md file:03a255d4-0e1d-4b24-b73d-7a62fae36254.md
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Fixing missing end table tag in file:03a255d4-0e1d-4b24-b73d-7a62fae36254.md
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Fixing missing end table tag in file:03a255d4-0e1d-4b24-b73d-7a62fae36254.md
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Fixing missing end table tag in file:03a255d4-0e1d-4b24-b73d-7a62fae36254.md
+Warning,03a255d4-0e1d-4b24-b73d-7a62fae36254,Found invalid tables saving file:03a255d4-0e1d-4b24-b73d-7a62fae36254.md
+Warning,0646580c-3f05-48a1-8f1f-b1e1d0740922,Missing tables headers in file:0646580c-3f05-48a1-8f1f-b1e1d0740922.md
+Warning,08666236-1894-42ae-8846-e49232bbc460,Found a an ul list inside a table in html file:08666236-1894-42ae-8846-e49232bbc460.xml
+Warning,0ac844b2-1b08-4e5a-addf-03cde7af7a40,Found a an ul list inside a table in html file:0ac844b2-1b08-4e5a-addf-03cde7af7a40.xml
+Warning,0ac844b2-1b08-4e5a-addf-03cde7af7a40,Missing tables headers in file:0ac844b2-1b08-4e5a-addf-03cde7af7a40.md
+Warning,28aa24b4-8c81-4327-9752-989ea7540db2,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<b>&lt;div&gt; 4255551234&lt;/div&gt;</b> in md file:28aa24b4-8c81-4327-9752-989ea7540db2.md total found:0
+Warning,2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b,Missing tables headers in file:2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b.md
+Warning,305984ec-3da8-4509-bb2b-6643dcf2cb7d,Missing tables headers in file:305984ec-3da8-4509-bb2b-6643dcf2cb7d.md
+Warning,3e55c5a2-baad-4573-9ad9-37d0c42dcb53,Missing tables headers in file:3e55c5a2-baad-4573-9ad9-37d0c42dcb53.md
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Found a an ol list inside a table in html file:3ed752b1-5983-43f9-bcfd-760619ab40a7.xml
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Missing tables headers in file:3ed752b1-5983-43f9-bcfd-760619ab40a7.md
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Found nested table in md file:3ed752b1-5983-43f9-bcfd-760619ab40a7.md
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Fixing missing end table tag in file:3ed752b1-5983-43f9-bcfd-760619ab40a7.md
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Fixing missing end table tag in file:3ed752b1-5983-43f9-bcfd-760619ab40a7.md
+Warning,3ed752b1-5983-43f9-bcfd-760619ab40a7,Found invalid tables saving file:3ed752b1-5983-43f9-bcfd-760619ab40a7.md
+Warning,413acb29-ad83-4393-9402-51d88e7561ab,Missing tables headers in file:413acb29-ad83-4393-9402-51d88e7561ab.md
+Warning,4935cddf-fafa-442d-91a3-246af01f8373,Found a an ul list inside a table in html file:4935cddf-fafa-442d-91a3-246af01f8373.xml
+Warning,4935cddf-fafa-442d-91a3-246af01f8373,Found nested table in md file:4935cddf-fafa-442d-91a3-246af01f8373.md
+Warning,4935cddf-fafa-442d-91a3-246af01f8373,Fixing missing end table tag in file:4935cddf-fafa-442d-91a3-246af01f8373.md
+Warning,4935cddf-fafa-442d-91a3-246af01f8373,Fixing missing end table tag in file:4935cddf-fafa-442d-91a3-246af01f8373.md
+Warning,4935cddf-fafa-442d-91a3-246af01f8373,Found invalid tables saving file:4935cddf-fafa-442d-91a3-246af01f8373.md
+Warning,4a57e3d0-8b08-494f-a195-b44afa9cbc0d,Missing tables headers in file:4a57e3d0-8b08-494f-a195-b44afa9cbc0d.md
+Warning,524dbea7-117f-493d-8005-6461f7f10059,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt; 250 </p> in md file:524dbea7-117f-493d-8005-6461f7f10059.md total found:0
+Warning,57893158-1acd-44ac-acaf-19f58264a9e0,Missing tables headers in file:57893158-1acd-44ac-acaf-19f58264a9e0.md
+Warning,5a0bd8ba-3334-46ee-becf-1025597737f6,Missing tables headers in file:5a0bd8ba-3334-46ee-becf-1025597737f6.md
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt; 50ms </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt; 100ms </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;10% during any 200ms interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;1% during any 15s interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;30ms during any 15s interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;0.05% out-of-order packets </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt; 30ms </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt; 60ms </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;1% during any 200 ms interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;0.1% during any 15s interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;15ms during any 15s interval </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>&lt;0.01% out-of-order packets </p> in md file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md total found:0
+Warning,5fe3e01b-34cf-44e0-b897-b0b2a83f0917,Missing tables headers in file:5fe3e01b-34cf-44e0-b897-b0b2a83f0917.md
+Warning,61dfb27c-5bfa-4481-a930-9c026e73ff3a,Found a an ul list inside a table in html file:61dfb27c-5bfa-4481-a930-9c026e73ff3a.xml
+Warning,61dfb27c-5bfa-4481-a930-9c026e73ff3a,Found nested table in md file:61dfb27c-5bfa-4481-a930-9c026e73ff3a.md
+Warning,61dfb27c-5bfa-4481-a930-9c026e73ff3a,Fixing missing end table tag in file:61dfb27c-5bfa-4481-a930-9c026e73ff3a.md
+Warning,61dfb27c-5bfa-4481-a930-9c026e73ff3a,Found invalid tables saving file:61dfb27c-5bfa-4481-a930-9c026e73ff3a.md
+Warning,66945036-ae87-4c08-a0bb-984e50d6b009,Found a an ul list inside a table in html file:66945036-ae87-4c08-a0bb-984e50d6b009.xml
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Found a an ul list inside a table in html file:67ccda94-1210-43fb-a25b-7b9785f8a061.xml
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Missing tables headers in file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Found nested table in md file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Fixing missing end table tag in file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Fixing missing end table tag in file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Fixing missing end table tag in file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,67ccda94-1210-43fb-a25b-7b9785f8a061,Found invalid tables saving file:67ccda94-1210-43fb-a25b-7b9785f8a061.md
+Warning,6b61cb3c-361c-48a8-a9ef-d81bddde27bb,Found a an ul list inside a table in html file:6b61cb3c-361c-48a8-a9ef-d81bddde27bb.xml
+Warning,6b61cb3c-361c-48a8-a9ef-d81bddde27bb,Found nested table in md file:6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md
+Warning,6b61cb3c-361c-48a8-a9ef-d81bddde27bb,Fixing missing end table tag in file:6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md
+Warning,6b61cb3c-361c-48a8-a9ef-d81bddde27bb,Fixing missing end table tag in file:6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md
+Warning,6b61cb3c-361c-48a8-a9ef-d81bddde27bb,Found invalid tables saving file:6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Missing tables headers in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Found nested table in md file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Fixing missing end table tag in file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Found invalid tables saving file:6ba72f37-d303-4795-aa8f-7e1845078ed7.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Found a an ul list inside a table in html file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.xml
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Missing tables headers in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Found nested table in md file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Fixing missing end table tag in file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,6fc2687c-0abf-43b8-aa54-7c3b2a84b67c,Found invalid tables saving file:6fc2687c-0abf-43b8-aa54-7c3b2a84b67c.md
+Warning,707198df-df85-4833-9c15-aa29b71f085c,Found nested table in md file:707198df-df85-4833-9c15-aa29b71f085c.md
+Warning,707198df-df85-4833-9c15-aa29b71f085c,Fixing missing end table tag in file:707198df-df85-4833-9c15-aa29b71f085c.md
+Warning,707198df-df85-4833-9c15-aa29b71f085c,Found invalid tables saving file:707198df-df85-4833-9c15-aa29b71f085c.md
+Warning,72979911-5319-4de2-a275-4dd9a0f44fe6,Found nested table in md file:72979911-5319-4de2-a275-4dd9a0f44fe6.md
+Warning,72979911-5319-4de2-a275-4dd9a0f44fe6,Fixing missing end table tag in file:72979911-5319-4de2-a275-4dd9a0f44fe6.md
+Warning,72979911-5319-4de2-a275-4dd9a0f44fe6,Found invalid tables saving file:72979911-5319-4de2-a275-4dd9a0f44fe6.md
+Warning,74eda791-c41f-4fd9-ae0b-913342e7ab04,Found a an ul list inside a table in html file:74eda791-c41f-4fd9-ae0b-913342e7ab04.xml
+Warning,74eda791-c41f-4fd9-ae0b-913342e7ab04,Missing tables headers in file:74eda791-c41f-4fd9-ae0b-913342e7ab04.md
+Warning,77b26eac-8228-4161-ba9f-733b187bd836,Found a an ul list inside a table in html file:77b26eac-8228-4161-ba9f-733b187bd836.xml
+Warning,77d36233-2aab-4802-ba9c-e9a8885ea643,Found a an ul list inside a table in html file:77d36233-2aab-4802-ba9c-e9a8885ea643.xml
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Found a an ul list inside a table in html file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.xml
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Found nested table in md file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Fixing missing end table tag in file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Fixing missing end table tag in file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Fixing missing end table tag in file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md
+Warning,8cbe2eb2-1194-4fd7-b1ee-9f9287c82424,Found invalid tables saving file:8cbe2eb2-1194-4fd7-b1ee-9f9287c82424.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Missing tables headers in file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Found nested table in md file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Fixing missing end table tag in file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Fixing missing end table tag in file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Fixing missing end table tag in file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,91f2d947-45fc-4fab-bd8b-2e313531c477,Found invalid tables saving file:91f2d947-45fc-4fab-bd8b-2e313531c477.md
+Warning,92f5a3ac-beec-4af5-bfe9-0cbf3d660298,Missing tables headers in file:92f5a3ac-beec-4af5-bfe9-0cbf3d660298.md
+Warning,a2394a4c-7522-484c-a047-7b3289742be0,Found a an ul list inside a table in html file:a2394a4c-7522-484c-a047-7b3289742be0.xml
+Warning,a2394a4c-7522-484c-a047-7b3289742be0,Found nested table in md file:a2394a4c-7522-484c-a047-7b3289742be0.md
+Warning,ab9f05a2-22cb-4692-a585-27f82d1b37c7,Missing tables headers in file:ab9f05a2-22cb-4692-a585-27f82d1b37c7.md
+Warning,b0d2b50e-def3-4bd8-82d4-a27f4b6f205c,Missing tables headers in file:b0d2b50e-def3-4bd8-82d4-a27f4b6f205c.md
+Warning,b9019c36-034f-40c7-acb0-c2a0400b03c3,Found a an ul list inside a table in html file:b9019c36-034f-40c7-acb0-c2a0400b03c3.xml
+Warning,b9019c36-034f-40c7-acb0-c2a0400b03c3,Missing tables headers in file:b9019c36-034f-40c7-acb0-c2a0400b03c3.md
+Warning,b9019c36-034f-40c7-acb0-c2a0400b03c3,Fixing missing end table tag in file:b9019c36-034f-40c7-acb0-c2a0400b03c3.md
+Warning,b9019c36-034f-40c7-acb0-c2a0400b03c3,Fixing missing end table tag in file:b9019c36-034f-40c7-acb0-c2a0400b03c3.md
+Warning,b9019c36-034f-40c7-acb0-c2a0400b03c3,Found invalid tables saving file:b9019c36-034f-40c7-acb0-c2a0400b03c3.md
+Warning,b9ec7289-e9cc-4ac2-896f-caaa6a1fa358,Missing tables headers in file:b9ec7289-e9cc-4ac2-896f-caaa6a1fa358.md
+Warning,baa3645a-0518-472e-942e-971c63ba4ca0,Found nested table in md file:baa3645a-0518-472e-942e-971c63ba4ca0.md
+Warning,baa3645a-0518-472e-942e-971c63ba4ca0,Fixing missing end table tag in file:baa3645a-0518-472e-942e-971c63ba4ca0.md
+Warning,baa3645a-0518-472e-942e-971c63ba4ca0,Found invalid tables saving file:baa3645a-0518-472e-942e-971c63ba4ca0.md
+Warning,bc9756d1-8a2f-42c4-98f6-afb17c29231c,Found a an ul list inside a table in html file:bc9756d1-8a2f-42c4-98f6-afb17c29231c.xml
+Warning,bc9756d1-8a2f-42c4-98f6-afb17c29231c,Missing tables headers in file:bc9756d1-8a2f-42c4-98f6-afb17c29231c.md
+Warning,bc9756d1-8a2f-42c4-98f6-afb17c29231c,Found nested table in md file:bc9756d1-8a2f-42c4-98f6-afb17c29231c.md
+Warning,bc9756d1-8a2f-42c4-98f6-afb17c29231c,Fixing missing end table tag in file:bc9756d1-8a2f-42c4-98f6-afb17c29231c.md
+Warning,bc9756d1-8a2f-42c4-98f6-afb17c29231c,Found invalid tables saving file:bc9756d1-8a2f-42c4-98f6-afb17c29231c.md
+Warning,bc9bd328-c5b2-44e5-af15-e02bf00e1c81,Found a an ul list inside a table in html file:bc9bd328-c5b2-44e5-af15-e02bf00e1c81.xml
+Warning,bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc,Found a an ul list inside a table in html file:bf4ea2ea-4f7c-4f41-8e4c-d9ceb11626cc.xml
+Warning,bfda8317-12a9-4594-9fb3-c0061a82711e,Missing tables headers in file:bfda8317-12a9-4594-9fb3-c0061a82711e.md
+Warning,c0295253-32cc-44ad-99bf-d4737a91a4aa,Found a an dl list inside a table in html file:c0295253-32cc-44ad-99bf-d4737a91a4aa.xml
+Error,c0295253-32cc-44ad-99bf-d4737a91a4aa,Checking for list in tables in file:c0295253-32cc-44ad-99bf-d4737a91a4aa.xml message:System.Collections.ArrayList
+Warning,c0295253-32cc-44ad-99bf-d4737a91a4aa,Found nested table in md file:c0295253-32cc-44ad-99bf-d4737a91a4aa.md
+Warning,c0295253-32cc-44ad-99bf-d4737a91a4aa,Fixing missing end table tag in file:c0295253-32cc-44ad-99bf-d4737a91a4aa.md
+Warning,c0295253-32cc-44ad-99bf-d4737a91a4aa,Fixing missing end table tag in file:c0295253-32cc-44ad-99bf-d4737a91a4aa.md
+Warning,c0295253-32cc-44ad-99bf-d4737a91a4aa,Found invalid tables saving file:c0295253-32cc-44ad-99bf-d4737a91a4aa.md
+Warning,c0ab5bc9-44f1-46dd-b401-828e4f10b7ac,Found a an ul list inside a table in html file:c0ab5bc9-44f1-46dd-b401-828e4f10b7ac.xml
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Found a an ul list inside a table in html file:c3c89995-65dd-4715-9e38-bb244c742c6b.xml
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Found nested table in md file:c3c89995-65dd-4715-9e38-bb244c742c6b.md
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Fixing missing end table tag in file:c3c89995-65dd-4715-9e38-bb244c742c6b.md
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Fixing missing end table tag in file:c3c89995-65dd-4715-9e38-bb244c742c6b.md
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Fixing missing end table tag in file:c3c89995-65dd-4715-9e38-bb244c742c6b.md
+Warning,c3c89995-65dd-4715-9e38-bb244c742c6b,Found invalid tables saving file:c3c89995-65dd-4715-9e38-bb244c742c6b.md
+Warning,cbafd5c3-e499-497b-a0cb-b0940d7afd20,Found a an ul list inside a table in html file:cbafd5c3-e499-497b-a0cb-b0940d7afd20.xml
+Warning,cbafd5c3-e499-497b-a0cb-b0940d7afd20,Missing tables headers in file:cbafd5c3-e499-497b-a0cb-b0940d7afd20.md
+Warning,cdd4801a-2fe1-4aab-bbb6-db5f95f972d1,Found a an ol list inside a table in html file:cdd4801a-2fe1-4aab-bbb6-db5f95f972d1.xml
+Warning,d01954f1-4f37-4cf5-a636-20039e5c59e9,Found a an ul list inside a table in html file:d01954f1-4f37-4cf5-a636-20039e5c59e9.xml
+Warning,d0b9c232-2970-41cb-adf3-df91f03347c1,Found nested table in md file:d0b9c232-2970-41cb-adf3-df91f03347c1.md
+Warning,d0b9c232-2970-41cb-adf3-df91f03347c1,Fixing missing end table tag in file:d0b9c232-2970-41cb-adf3-df91f03347c1.md
+Warning,d0b9c232-2970-41cb-adf3-df91f03347c1,Found invalid tables saving file:d0b9c232-2970-41cb-adf3-df91f03347c1.md
+Warning,d2be8c74-3ba2-4b2d-9807-634904e1f0e8,Missing tables headers in file:d2be8c74-3ba2-4b2d-9807-634904e1f0e8.md
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Found a an ul list inside a table in html file:d3b2d569-4ee9-44b8-92bf-d518142f0713.xml
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Found nested table in md file:d3b2d569-4ee9-44b8-92bf-d518142f0713.md
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Fixing missing end table tag in file:d3b2d569-4ee9-44b8-92bf-d518142f0713.md
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Fixing missing end table tag in file:d3b2d569-4ee9-44b8-92bf-d518142f0713.md
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Fixing missing end table tag in file:d3b2d569-4ee9-44b8-92bf-d518142f0713.md
+Warning,d3b2d569-4ee9-44b8-92bf-d518142f0713,Found invalid tables saving file:d3b2d569-4ee9-44b8-92bf-d518142f0713.md
+Warning,da3386ab-0397-4c55-b9f0-9dbeade93455,Found a an ul list inside a table in html file:da3386ab-0397-4c55-b9f0-9dbeade93455.xml
+Warning,dce3356e-83a3-4718-88e7-59885bbaa911,Found herf tag with an image in file:dce3356e-83a3-4718-88e7-59885bbaa911.md total found:3
+Warning,dfe5d76a-1d9f-48cf-bdc9-7681831b5d12,Missing tables headers in file:dfe5d76a-1d9f-48cf-bdc9-7681831b5d12.md
+Warning,e62ac09f-dfdc-4306-8e06-31349a3b27f0,Found a an ul list inside a table in html file:e62ac09f-dfdc-4306-8e06-31349a3b27f0.xml
+Warning,e62ac09f-dfdc-4306-8e06-31349a3b27f0,Missing tables headers in file:e62ac09f-dfdc-4306-8e06-31349a3b27f0.md
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found a an ul list inside a table in html file:e97aeeee-9e43-416f-b433-9cdd63d8874b.xml
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Percentage of time that the client is running &lt; 70% expected video processing capability for this type of CPU grouped by range </p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>1 minute &lt; = stream duration &lt; 2 minutes </p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>2 minutes &lt; = stream duration &lt; 3 minutes </p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>3 minutes &lt; = stream duration &lt; 4 minutes </p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>The &lt;sort order string&gt; is used to control the sort order when presenting the data and can be used for filtering. For example- a filter on Duration (Minutes) &lt; "065"- would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).</p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p>Average of percentage of time that the client is running &lt; 70% expected video processing capability for this type of CPU for streams. </p> in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md total found:0
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Missing tables headers in file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found nested table in md file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Fixing missing end table tag in file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Fixing missing end table tag in file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Found invalid tables saving file:e97aeeee-9e43-416f-b433-9cdd63d8874b.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Found a an ul list inside a table in html file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.xml
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Found < > tag Bug 1235997:Support Request: MD conversion issue: not escaped tags causing missing content line:<p> On the <b>New UM mailbox policy</b>  page- in the <b>Name</b>  box- enter the name of the new UM mailbox policy. Use this box to specify a unique name for the UM mailbox policy. It cannot include any of the following characters: " / \ [ ] : ; | = - + * ? &lt; &gt;.  </p> in md file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md total found:0
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Found nested table in md file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Fixing missing end table tag in file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,e9fa0009-34e2-4da0-98a7-0a395fcebf41,Found invalid tables saving file:e9fa0009-34e2-4da0-98a7-0a395fcebf41.md
+Warning,faa17eb3-7483-4984-87f2-815d981b68ae,Missing tables headers in file:faa17eb3-7483-4984-87f2-815d981b68ae.md
+
+
+Warning,e2cb5fb1-6b9a-4786-b79e-217cb965aa86,Topic title:supported-geographic-country-region-and-area-codes-where-you-can-get-phone-number-from-for-pstn-calling bigger then max length:80 new topic titile name:supported-geographic-country-region-and-area-codes-where-you-can-get-phone-numbe
+Warning,d7fc0d31-1ae8-4eae-a535-2aa303b0d418,Topic title:skype-for-business-client-on-lync-server-resources-awareness-and-readiness-planning bigger then max length:80 new topic titile name:skype-for-business-client-on-lync-server-resources-awareness-and-readiness-plann
+Warning,ebf5adf0-d848-4e99-baf4-387d1711e1d0,Topic title:setup-your-computer-for-skype-for-business-online-management-and-windows-powershell bigger then max length:80 new topic titile name:setup-your-computer-for-skype-for-business-online-management-and-windows-powersh
+Warning,c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a,Topic title:manage-skype-for-business-online-organizations-using-the-skype-for-business-online-connector bigger then max length:80 new topic titile name:manage-skype-for-business-online-organizations-using-the-skype-for-business-onli
+Warning,820c3892-1b7e-47d3-ae8d-6e27e7cbcf38,Topic title:change-the-default-language-for-voicemail-greetings-and-emails-in-your-organization bigger then max length:80 new topic titile name:change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat
+Warning,6ba72f37-d303-4795-aa8f-7e1845078ed7,Topic title:countries-and-regions-that-are-supported-for-skype-for-business-online-pstn-services bigger then max length:80 new topic titile name:countries-and-regions-that-are-supported-for-skype-for-business-online-pstn-serv
+Warning,e97aeeee-9e43-416f-b433-9cdd63d8874b,Topic title:dimensions-and-measures-available-in-call-quality-dashboard-in-skype-for-business-online bigger then max length:80 new topic titile name:dimensions-and-measures-available-in-call-quality-dashboard-in-skype-for-busines
+Warning,707198df-df85-4833-9c15-aa29b71f085c,Topic title:manage-exchange-unified-messaging-and-hosted-voicemail-in-skype-for-business-online bigger then max length:80 new topic titile name:manage-exchange-unified-messaging-and-hosted-voicemail-in-skype-for-business-onl
+Warning,1b46da6d-f93a-4cc0-9ae8-af765935b007,Topic title:emails-that-are-automatically-sent-to-users-when-their-dial-in-conferencing-settings-change bigger then max length:80 new topic titile name:emails-that-are-automatically-sent-to-users-when-their-dial-in-conferencing-sett
+Warning,32954439-d365-4125-872f-b37466ecb035,Topic title:set-the-dial-in-phone-numbers-for-meeting-organizers-that-are-included-on-invites bigger then max length:80 new topic titile name:set-the-dial-in-phone-numbers-for-meeting-organizers-that-are-included-on-invite
+Warning,6f51ee4a-d939-4ba3-8659-ccf012d069f8,Topic title:skype-for-business-pstn-callingcomplaint-handling-code-for-the-united-kingdom-u-k bigger then max length:80 new topic titile name:skype-for-business-pstn-callingcomplaint-handling-code-for-the-united-kingdom-u-
+Warning,N/A,Sql Query:use [DDCMS_MOD_IW] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
+                                        FROM [TopicKeywordsF] tkw join [dbo].[KeywordsF] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
+                                        join [dbo].[Topics] topics on topics.[topicGuid] = tkw.[topicGuid]
+                                        join [dbo].[Projects] pro on pro.[projectGuid] = topics.[homeProjectGuid]
+                                        where pro.[projectName] = 'SFB_Admin' or pro.[projectName]='F1Help_LAC' retuned no rows for project:SFB_Admin server:ocpubcms for database:DDCMS_MOD_IW
+Warning,N/A,Sql Query:use [DDCMS_MOD_IW] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
+                                        FROM [TopicKeywordsF] tkw join [dbo].[KeywordsF] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
+                                        join [dbo].[Topics] topics on topics.[topicGuid] = tkw.[topicGuid]
+                                        join [dbo].[Projects] pro on pro.[projectGuid] = topics.[homeProjectGuid]
+                                        where pro.[projectName] = 'SFB_Admin' or pro.[projectName]='F1Help_LAC' retuned no rows for project:SFB_Admin server:ocpubcms for database:DDCMS_MOD_IW
