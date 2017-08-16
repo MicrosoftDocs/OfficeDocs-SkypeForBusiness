@@ -71,7 +71,7 @@
 ## [Use log files in troubleshooting Microsoft Teams](Use_log_files_in_troubleshooting_Microsoft_Teams.md)
 ## Use Call Analytics to troubleshoot poor Skype for Business call quality - on SOC/SfB
 
-# Cloud Voice Deployment
-## Cloud Voice for Microsoft Teams
-## Phones System with Calling Plans
-## Audio conferencing
+# [Cloud Voice Deployment](Cloud_Voice_Deployment.md)
+## [Cloud Voice for Microsoft Teams](Cloud_Voice_for_Microsoft_Teams.md)
+## [Phones System with Calling Plans](Phones_System_With_Calling_Plans.md)
+## [Audio conferencing](Audio_Conferencing.md)
