@@ -1,4 +1,15 @@
-﻿### Plan for Office 365 groups when creating teams in Microsoft Teams
+﻿---
+title: Plan for Office 365 groups when creating teams in Microsoft Teams | Microsoft Support
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdar
+ms.date: 08/16/2017
+ms.topic: overview
+ms.prod: teams
+description: Learn the decisions you should make when planning for Office 365 groups such as choosing Public and Private groups, using the Teams client or the Office 365 admin web console, and how to educate your Teams about using conversations.
+---
+
+### Plan for Office 365 groups when creating teams in Microsoft Teams
 
 When considering the use of Office 365 Groups or when creating teams, consider what the team will be used for, who should have access, and what outcome the team will expect to achieve. Pay special attention to the number of channels you create as people can quickly become overrun by content spread too thin (across too many channels).
 
