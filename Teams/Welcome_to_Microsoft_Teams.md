@@ -13,6 +13,7 @@ Welcome to Microsoft Teams
 ==========================================================
 Microsoft Teams is the Office 365 digital equivalent of an open-space office environment. *What's the approved blurb we should put here?*
 
+**Key scenarios**
 I'm new to Office 365 and Microsoft Teams - help me get started
 
 We're already using Skype for Business Online, and some people in my organization are using Microsoft Teams
