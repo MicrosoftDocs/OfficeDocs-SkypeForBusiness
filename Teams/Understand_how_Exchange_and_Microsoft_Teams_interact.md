@@ -1,5 +1,5 @@
 ---
-title: Understand how Exchange and Microsoft Teams interact | Microsoft Support
+title: How Exchange and Microsoft Teams interact | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,8 +9,8 @@ ms.prod: teams
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
 ---
 
-Understand how Exchange and Microsoft Teams interact 
-=====================================================
+How Exchange and Microsoft Teams interact 
+=========================================
 
 For the full Microsoft Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 

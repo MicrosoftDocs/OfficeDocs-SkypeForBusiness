@@ -1,5 +1,5 @@
 ---
-title: Understand how Skype for Business and Microsoft Teams interact | Microsoft Support
+title: How Skype for Business and Microsoft Teams interact | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,8 +9,8 @@ ms.prod: teams
 description: Learn how Skype for Business and Microsoft teams interact, from chats to calls.
 ---
 
-Understand how Skype for Business and Microsoft Teams interact
-==============================================================
+How Skype for Business and Microsoft Teams interact
+===================================================
 
 If your organization uses Skype for Business today, it is important to understand how Skype for Business and Microsoft Teams will interact.
 
