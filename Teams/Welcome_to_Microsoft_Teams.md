@@ -13,7 +13,12 @@ Welcome to Microsoft Teams
 ==========================================================
 Microsoft Teams is the Office 365 digital equivalent of an open-space office environment. *What's the approved blurb we should put here?*
 
+This will be the landing page when people come to docs.microsoft.com/MicrosoftTeams. Karuana is delivering first draft of this page Fri 8/18. TBD: Whether we'll create it in MD or as an .aspx (create through Apex - the DOCS people). This will be a highly designed page, with tiles, pictures, etc.
+
+Note: We may decide to put this page one level up, as a Teams node page. We can try it both ways and see what flows best. 
+
 **Key scenarios**
+*This is a sample set only - replace with the "real" set.*
 I'm new to Office 365 and Microsoft Teams - help me get started
 
 We're already using Skype for Business Online, and some people in my organization are using Microsoft Teams
