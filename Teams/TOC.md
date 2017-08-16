@@ -18,7 +18,7 @@
 ## Plan for Microsoft Teams features - doesn't exist yet
 ## Plan for PSTN conferencing in Microsoft Teams - doesn't exist yet
 ## Plan for PSTN calling in Microsoft Teams - doesn't exist yet
-## Plan for Office 365 groups when creating teams in Microsoft Teams - topic in Alison's list, no topic created or converted
+## [Plan for Office 365 groups when creating teams in Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)

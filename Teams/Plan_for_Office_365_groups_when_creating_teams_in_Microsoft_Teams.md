@@ -2,7 +2,7 @@
 
 When considering the use of Office 365 Groups or when creating teams, consider what the team will be used for, who should have access, and what outcome the team will expect to achieve. Pay special attention to the number of channels you create as people can quickly become overrun by content spread too thin (across too many channels).
 
-There are two scenarios that warrant some discussion around planning of Office 365 Groups and their impact on (or by) Teams:
+There are two scenarios that warrant some discussion around planning of Office 365 Groups and their impact on (or by) Microsoft Teams:
 
 -   First, since customers could have existing investments in Groups, we currently support both Public and Private groups of less than 999 members. As mentioned previously, you want to manage the membership of people to a Team using the Teams client rather than the Office 365 admin web console. Given this scenario, if people are used to threaded conversations in Office 365 Groups, it is worthwhile noting that a Groups conversation is essentially email and not the same as a chat message in a Team channel. Educate your people about this difference and suggest they adopt the more flexible chat message format in Teams versus emailing the Group using Outlook or OWA.
 
