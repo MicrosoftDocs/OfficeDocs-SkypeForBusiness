@@ -46,7 +46,6 @@
 ## [Use built-in and custom tabs in Microsoft Teams](Use_built-in_and_custom_tabs_in_Microsoft_Teams.md)
 ## [Use Office 365 and custom connectors in Microsoft Teams](Use_Office_365_and_custom_connectors_in_Microsoft_Teams.md)
 ## [Add bots for private chats and channels in Microsoft Teams](Add_bots_for_private_chats_and_channels_in_Microsoft_Teams.md)
-## Create custom bots for Microsoft Teams - topic in Alison's list, no topic created or converted 
 ## [Admin settings for apps in Microsoft Teams](Admin_settings_for_apps_in_Microsoft_Teams.md)
 ## Dimensions and measures available in Call Quality Dashboard in Skype for Business Online - on SOC/SfB
 ## Set up Skype for Business Call Analytics - on SOC/SfB
