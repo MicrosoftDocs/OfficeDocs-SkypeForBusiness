@@ -23,6 +23,7 @@
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
+## [Planning workshop kit and practical guide for Microsoft Teams ](Planning_workshop_kit_and_practical_guide_for_Microsoft_Teams.md)
 
 # Adopt
 ## [Create a change management strategy for Microsoft Teams](Create_a_change_management_strategy_for_Microsoft_Teams.md)
