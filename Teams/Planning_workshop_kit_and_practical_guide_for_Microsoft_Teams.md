@@ -29,4 +29,5 @@ Video: Plan, Deliver & Operate Microsoft Teams
 Video: Deploying & Operating Microsoft Teams
 Video: Bandwidth Calculator
 Bandwidth Calculator
+Download: Microsoft Teams Customer Success Kit
 
