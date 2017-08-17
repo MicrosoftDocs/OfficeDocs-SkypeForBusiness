@@ -28,7 +28,7 @@ Video: Introduction to Microsoft Teams
 Video: Plan, Deliver & Operate Microsoft Teams
 Video: Deploying & Operating Microsoft Teams
 Video: Bandwidth Calculator
-Bandwidth Calculator
-Download: Microsoft Teams Customer Success Kit
+Bandwidth Calculator (create fwlink, then hyperlink to: https://www.successwithteams.com/BandwidthCalculator)
+[Get tools to support a rollout of Microsoft Teams](Get_tools_to_support_a_rollout_of_Microsoft_Teams.md)
 
 
