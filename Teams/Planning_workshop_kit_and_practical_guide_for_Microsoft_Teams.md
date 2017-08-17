@@ -14,13 +14,13 @@ Planning workshop kit and practical guide for Microsoft Teams
 
 Download these planning tools and practical guidance to walk you through rolling out Microsoft Teams in your organization.
 
-- Microsoft Teams Pre-workshop Questionnaire.docx
+- Microsoft Teams Pre-workshop Questionnaire.docx (hyperlink to download for this doc)
     The Microsoft Teams Pre-workshop Questionnaire.docx is intended to be used to collect basic information about an organizations current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.
 
-- Planning Workshop for Microsoft Teams.pptx
+- Planning Workshop for Microsoft Teams.pptx (hyperlink to download for this doc)
     The Planning Workshop for Microsoft Teams.pptx is intended to be used by a knowledgeable resource to deliver an interactive conversation to assist with getting started with Microsoft Teams. The workshop will introduce the attendees to Microsoft Teams while also guiding them through decision points and next steps.
 
-- Microsoft Teams Workshop Decision Points Summary.docx
+- Microsoft Teams Workshop Decision Points Summary.docx (hyperlink to download for this doc)
     The Microsoft Teams Workshop Decision Points Summary.docx is single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and the Practical Guidance for Microsoft Teams document.
 
 See also
@@ -30,4 +30,5 @@ Video: Deploying & Operating Microsoft Teams
 Video: Bandwidth Calculator
 Bandwidth Calculator
 Download: Microsoft Teams Customer Success Kit
+
 
