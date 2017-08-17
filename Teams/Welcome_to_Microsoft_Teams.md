@@ -10,18 +10,26 @@ description: Find the latest how to and support content that admins and IT pros 
 ---
 
 Welcome to Microsoft Teams
-==========================================================
+==========================
+
 Microsoft Teams is the Office 365 digital equivalent of an open-space office environment. *What's the approved blurb we should put here?*
 
+This will be the landing page when people come to docs.microsoft.com/MicrosoftTeams. Karuana is delivering first draft of this page Fri 8/18. TBD: Whether we'll create it in MD or as an .aspx (create through Apex - the DOCS people). This will be a highly designed page, with tiles, pictures, etc.
+
+*Note: We may decide to put this page one level up, as a Teams node page. We can try it both ways and see what flows best.*
+
 **Key scenarios**
-I'm new to Office 365 and Microsoft Teams - help me get started
 
-We're already using Skype for Business Online, and some people in my organization are using Microsoft Teams
+*This is a sample set only - replace with the "real" set.*
 
-We're using Skype for Business Online, and I've been told we're upgrading to Microsoft Teams soon
+- I'm new to Office 365 and Microsoft Teams - help me get started
 
-I need help managing or troubleshooting Microsoft Teams for my organization
+- We're already using Skype for Business Online, and some people in my organization are using Microsoft Teams
 
-Help me set up PSTN calling in Microsoft Teams
+- We're using Skype for Business Online, and I've been told we're upgrading to Microsoft Teams soon
 
-Help me set up PSTN conferencing in Microsoft Teams
+- I need help managing or troubleshooting Microsoft Teams for my organization
+
+- Help me set up PSTN calling in Microsoft Teams
+
+- Help me set up PSTN conferencing in Microsoft Teams

@@ -1,5 +1,5 @@
 ---
-title: Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams | Microsoft Support
+title: How SharePoint Online and OneDrive for Business interact with Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,8 +9,8 @@ ms.prod: teams
 description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how provate chat files are stored, and the relationship between team, channel, and the document library.
 ---
 
-Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams
-========================================================================================
+How SharePoint Online and OneDrive for Business interact with Microsoft Teams
+=============================================================================
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 

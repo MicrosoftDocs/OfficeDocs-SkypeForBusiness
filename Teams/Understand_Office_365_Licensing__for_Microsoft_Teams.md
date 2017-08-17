@@ -1,5 +1,5 @@
 ---
-title: Understand Office 365 licensing for Microsoft Teams | Microsoft Support
+title: Office 365 licensing for Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,8 +9,8 @@ ms.prod: teams
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ---
 
-Understand Office 365 licensing for Microsoft Teams
-=============================
+Office 365 licensing for Microsoft Teams
+========================================
 
 The following Office 365 subscriptions enable users for Microsoft Teams:
 

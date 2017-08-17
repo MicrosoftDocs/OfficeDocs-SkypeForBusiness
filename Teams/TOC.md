@@ -3,15 +3,16 @@
 ## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
-## [Understand Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
+## [Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
+
+## [Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
+## [How Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
+## [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
+## [How Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## Accessibility in Microsoft Teams - topic doesn't exist yet
-## [Understand Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
-## [Understand how Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
-## [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
-## [Understand how Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
-## [Upgrade to Microsoft Teams--do we want this in the TOC?](Upgrade_to_Microsoft_Teams.md)
+## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
@@ -22,6 +23,7 @@
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
+## [Planning workshop kit and practical guide for Microsoft Teams ](Planning_workshop_kit_and_practical_guide_for_Microsoft_Teams.md)
 
 # Adopt
 ## [Create a change management strategy for Microsoft Teams](Create_a_change_management_strategy_for_Microsoft_Teams.md)
@@ -62,8 +64,6 @@
 ## [Use Content Search in Microsoft Teams](Use_Content_Search_in_Microsoft_Teams.md)
 ## [Place a Microsoft Teams user or team on legal hold](Place_a_Microsoft_Teams_user_or_team_on_legal_hold.md)
 
-
-
 # Troubleshoot
 ## Montoring Usage and Quality - doesn't exist yet
 ## [Support resources for Microsoft Teams](Support_resources_for_Microsoft_Teams.md)
@@ -72,3 +72,7 @@
 ## [Use log files in troubleshooting Microsoft Teams](Use_log_files_in_troubleshooting_Microsoft_Teams.md)
 ## Use Call Analytics to troubleshoot poor Skype for Business call quality - on SOC/SfB
 
+# [Cloud Voice Deployment](Cloud_Voice_Deployment.md)
+## [Cloud Voice for Microsoft Teams](Cloud_Voice_for_Microsoft_Teams.md)
+## [Phones System with Calling Plans](Phones_System_With_Calling_Plans.md)
+## [Audio conferencing](Audio_Conferencing.md)
