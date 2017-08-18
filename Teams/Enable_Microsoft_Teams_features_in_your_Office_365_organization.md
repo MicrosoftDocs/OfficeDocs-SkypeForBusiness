@@ -68,6 +68,7 @@ The **Apps** section lets you configure the following settings for your organiza
 ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
 -   **Allow external apps in Microsoft Teams:** When enabled, users can add tabs and bots that are available to the Office 365 tenant.
+![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
 -   **Allow sideloading of external apps:** When enabled, users can install and enable custom bots and tabs.
 

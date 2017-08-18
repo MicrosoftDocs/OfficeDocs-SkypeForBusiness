@@ -15,3 +15,5 @@ Upgrade to Microsoft Teams
 Do we need this topic? Could just link off to Upgrade content directly from TOC.
 
 TBD whether "Additional Information" link from MC posts will go to this page or to the main "Upgrade" page on FastTrack. Working with Sarah Goodwin & Debbie Arbeeny - designing FastTrack content set for "Upgrade."
+
+At the very least, this should be a highly designed page.
