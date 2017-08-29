@@ -6,6 +6,7 @@
 ## [Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
+## [Video: Introduction to Microsoft Teams](Video_Introduction_to_Microsoft_Teams.md)
 
 ## [Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
 ## [How Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
