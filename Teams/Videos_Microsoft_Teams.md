@@ -1,12 +1,12 @@
 ---
-title: Video: Bandwidth Calculator
+title: Videos - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
 ms.date: 08/10/2017
 ms.topic: solution
 ms.prod: teams
-description: Training video explaining to admins how to use the Bandwidth Calculator to plan your Microsoft Teams deployment
+description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams
 ---
 
 Video - Bandwidth Calculator
