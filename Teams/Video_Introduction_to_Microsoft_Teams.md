@@ -12,10 +12,7 @@ description: Training video explaining to admins how to get started with Microso
 Video - Introduction to Microsoft Teams
 =======================================
 
-<center>
-<iframe src=" https://www.youtube.com/watch?v=7oej3xIQy-Y" width="960" height="540" allowFullScreen frameBorder="0"></iframe></center>
-
-
+[!VIDEO https://www.youtube.com/watch?v=ujo65bBRQ4I]
 
 ### See also
 

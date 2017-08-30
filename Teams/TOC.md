@@ -2,12 +2,11 @@
 # Get started
 ## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
+## [Video: Introduction to Microsoft Teams](Video_Introduction_to_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
 ## [Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
-## [Video: Introduction to Microsoft Teams](Video_Introduction_to_Microsoft_Teams.md)
-
 ## [Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
 ## [How Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
@@ -54,7 +53,6 @@
 ## Set up Skype for Business Call Analytics - on SOC/SfB
 ## Turning on and using Call Quality Dashboard in Skype for Business Online - on SOC/SfB
 ## What's the difference between Call Analytics and Call Quality Dashboard? - on SOC/SfB
-## Modern authentication and Microsoft Teams desktop clients - on SOC - MIGRATE
 
 # Security & Compliance
 ## [Identity models and authentication in Microsoft Teams](Identity_models_and_authentication_in_Microsoft_Teams.md)
