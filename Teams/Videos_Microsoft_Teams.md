@@ -9,20 +9,11 @@ ms.prod: teams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams
 ---
 
-Video - Bandwidth Calculator
-============================
-
-[!VIDEO https://www.youtube.com/embed/watch?v=ujo65bBRQ4I]
-
-### See also
-
-Video: Introduction to Microsoft Teams
-
-Video: Overview of a Microsoft Teams deployment
-
-Video: Bandwidth Calculator
-
-Bandwidth Calculator (create fwlink, then hyperlink to: https://www.successwithteams.com/BandwidthCalculator)
-[Get tools to support a rollout of Microsoft Teams](Get_tools_to_support_a_rollout_of_Microsoft_Teams.md)
+Videos - Microsoft Teams
+========================
 
 
+|  |  |
+|---------|---------|
+|<iframe width="280" height="160" src="https://www.youtube.com/embed/ujo65bBRQ4I" frameborder="0" allowfullscreen></iframe>     |   <iframe width="280" height="160" src="https://www.youtube.com/embed/ujo65bBRQ4I" frameborder="0" allowfullscreen></iframe>      |
+|<iframe width="280" height="160" src="https://www.youtube.com/embed/ujo65bBRQ4I" frameborder="0" allowfullscreen></iframe>     | <iframe width="280" height="160" src="https://www.youtube.com/embed/ujo65bBRQ4I" frameborder="0" allowfullscreen></iframe>        |

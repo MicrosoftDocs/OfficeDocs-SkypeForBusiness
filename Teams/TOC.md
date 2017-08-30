@@ -2,7 +2,7 @@
 # Get started
 ## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
-## [Video: Introduction to Microsoft Teams](Video_Introduction_to_Microsoft_Teams.md)
+## [Videos: Microsoft Teams](Videos_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
 ## [Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
