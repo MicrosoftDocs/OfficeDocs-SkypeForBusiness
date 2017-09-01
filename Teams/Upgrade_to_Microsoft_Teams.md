@@ -1,5 +1,5 @@
 ---
-title: Upgrade to Microsoft Teams
+title: Upgrade from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,7 +9,7 @@ ms.prod: teams
 description: Everything you need to know to upgrade to Microsoft Teams from Skype for Business Online.
 ---
 
-Upgrade to Microsoft Teams
+Upgrade from Skype for Business to Microsoft Teams
 ==========================
 
 Landing page for upgrade content on FastTrack.

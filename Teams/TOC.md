@@ -12,7 +12,7 @@
 ## [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
 ## [How Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## Accessibility in Microsoft Teams - topic doesn't exist yet
-## [Upgrade to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
+
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
@@ -94,3 +94,6 @@
 ### [Boost user engagement and drive adoption](Audio_Conferencing.md#boost-user-engagement-and-drive-adoption)
 ### [Measure, share success, and iterate](Audio_Conferencing.md#measure-share-success-and-iterate)
 ### [Manage and prepare for change](Audio_Conferencing.md#manage-and-prepare-for-change)
+
+
+# [Upgrade Skype for Business to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
