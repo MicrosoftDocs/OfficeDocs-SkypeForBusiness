@@ -97,4 +97,4 @@
 
 
 # [Upgrade Skype for Business to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
-## FAQ - Upgrade from Skype for Business to Microsoft Teams
+## [FAQ - Upgrade from Skype for Business to Microsoft Teams](FAQ_Upgrade_to_Microsoft_Teams.md)
