@@ -12,9 +12,9 @@ description: Training videos introducing Microsoft Teams and explaining to admin
 Videos - Microsoft Teams
 ========================
 
-Use these videos to learn about Microsoft Teams. Check back frequently for new videos.
+Use these videos to learn about Microsoft Teams and how to drive usage in your organization. Check back frequently for new videos.
 
 |  |  |
 |---------|---------|
 |<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |   <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
-|<iframe width="350" height="200" src="https://www.youtube.com/embed/C6vhIA8hS7M" frameborder="0" allowfullscreen></iframe>     | <iframe width="350" height="200" src="https://www.youtube.com/embed/MOFwnaFOMno" frameborder="0" allowfullscreen></iframe>        |
+
