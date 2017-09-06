@@ -16,6 +16,7 @@ Use these videos to learn about Microsoft Teams and how to drive usage in your o
 
 |  |  |
 |---------|---------|
-|Introduction to Microsoft Teams
-<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |   <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
+| ## Introduction to Microsoft Teams
+<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     | ## Deploying and operating Microsoft Teams
+<iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
 
