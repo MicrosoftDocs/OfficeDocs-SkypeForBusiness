@@ -11,12 +11,9 @@
 ## [How Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
 ## [How Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
-## Accessibility in Microsoft Teams - topic doesn't exist yet
-
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
-## Plan for Microsoft Teams features - doesn't exist yet
 ## [Plan for Office 365 groups when creating teams in Microsoft Teams](Plan_for_Office_365_groups_when_creating_teams_in_Microsoft_Teams.md)
 ## [Prepare your organization's network for Microsoft Teams](Prepare_your_organization's_network_for_Microsoft_Teams.md)
 ## [Office 365 URLs and IP address ranges](Office_365_URLs_and_IP_address_ranges.md)
@@ -60,7 +57,6 @@
 ## [Place a Microsoft Teams user or team on legal hold](Place_a_Microsoft_Teams_user_or_team_on_legal_hold.md)
 
 # Troubleshoot
-## Montoring Usage and Quality - doesn't exist yet
 ## [Support resources for Microsoft Teams](Support_resources_for_Microsoft_Teams.md)
 ## [Verify service health for Microsoft Teams](Verify_service_health_for_Microsoft_Teams.md)
 ## [Troubleshoot connectivity issues with the Microsoft Teams client](Troubleshoot_connectivity_issues_with_the_Microsoft_Teams_client.md)
