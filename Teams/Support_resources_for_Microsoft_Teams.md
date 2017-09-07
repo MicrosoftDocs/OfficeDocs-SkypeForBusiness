@@ -33,7 +33,7 @@ The following are resources available to assist with Microsoft Teams:
 
 Feedback and support options include the following:
 
--   Microsoft Teams: [*Submit your questions, bugs, feature requests, and contributions | MSDN*](https://go.microsoft.com/fwlink/?linkid=854399)
+-   Microsoft Teams Dev Center: [Submit your questions, bugs, feature requests, and contributions](https://go.microsoft.com/fwlink/?linkid=854399)
 
 -   [Microsoft Teams feedback portal on UserVoice](https://go.microsoft.com/fwlink/?linkid=854400)
 
