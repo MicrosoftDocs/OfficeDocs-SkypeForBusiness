@@ -12,7 +12,7 @@ description: A list of support resources for Microsoft Teams to help you use it 
 Support resources for Microsoft Teams
 =====================================
 
-The following are resources available to assist with Microsoft Teams:
+## Help, practical guidance, and tools
 
 -   [Microsoft Teams Deployment Advisor](https://go.microsoft.com/fwlink/?linkid=843465)
 
@@ -26,12 +26,12 @@ The following are resources available to assist with Microsoft Teams:
 
 -   [Microsoft Teams Tech Community](https://go.microsoft.com/fwlink/p/?linkid=832751)
 
--   YouTube video channel: [Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=854398)
+-   [Microsoft Teams YouTube video channel](https://go.microsoft.com/fwlink/?linkid=854398)
 
 
 -   [Known Issues](https://support.office.com/en-US/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
 
-Feedback and support options include the following:
+## Feedback and support options
 
 -   Microsoft Teams Dev Center: [Submit your questions, bugs, feature requests, and contributions](https://go.microsoft.com/fwlink/?linkid=854399)
 
@@ -39,4 +39,4 @@ Feedback and support options include the following:
 
 -   [Microsoft Teams Tech Community](https://go.microsoft.com/fwlink/p/?linkid=832751)
 
--   In the Microsoft Teams client (desktop or web app), on the left side at the bottom, select **Feedback** > **Share an idea**.
+-   In the Microsoft Teams client (desktop or web app), select **Feedback** > **Share an idea**.
