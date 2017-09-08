@@ -14,7 +14,7 @@ Phones System with Calling Plans
 
 ## Introduction
 
-Lorem ipsum dolor sit amet consectetur adipiscing, elit suspendisse convallis duis quam. Tincidunt dis malesuada blandit posuere sed curabitur nisi eros magnis, cursus senectus hendrerit potenti ante fames odio varius. Lobortis consequat ut himenaeos class pharetra luctus ultrices congue, in libero laoreet etiam hac sed condimentum mattis ornare, per mi vulputate semper dictumst venenatis id.
+Lorem ipsum dolor sit amet consectetur adipiscing, elit suspendisse convallis duis quam. Tincidunt dis malesuada blandit posuere sed curabitur nisi eros magnis, in libero laoreet etiam hac sed condimentum mattis ornare, per mi vulputate semper dictumst venenatis id.
 
 ## Envision
 
