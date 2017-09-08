@@ -12,9 +12,9 @@ description: Learn which tools will help support your rollout of Microsoft Teams
 Get tools to support a rollout of Microsoft Teams
 =================================================
 
-Microsoft has provided tools to assist your organization with the successful rollout of Microsoft Teams for your organization. This includes email templates for announcements, flyers, posters, and countdown and tips and tricks email. It also includes Getting Started Guides for Team Leaders and IT Administrators. Download the assets here: [*https://www.microsoft.com/en-us/download/details.aspx?id=54244*](https://go.microsoft.com/fwlink/?linkid=854598)
+The Microsoft Teams Customer Success Kit provides tools to assist your organization with the successful rollout of Microsoft Teams for your organization. The kit includes email templates for announcements, flyers, posters, and countdown and tips and tricks email. It also includes Getting Started Guides for team leaders and IT administrators. Download the [Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=854598) today.
 
-### Learn, adjust, and repeat:
+### Learn, adjust, and repeat
 
 As you go through the steps recommended here using the Customer Success Kit resources your stakeholders, champions and users will share feedback. These valuable insights can assist you in adjusting your approach, messaging and models to drive additional adoption and ultimately land your business outcomes. Flexibility in an agile service management model is critical in delivering success at the pace of business today. If you are reading this document, you are one of the core individuals responsible for the success of this deployment and your ability to adjust your plan based on current conditions will accelerate the adoption curve in your company.
 
