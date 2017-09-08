@@ -12,7 +12,7 @@ description: Training resources an admin can use to successfully deploy Microsof
 Training - Microsoft Teams
 ==========================
 
-Use these training resources to help you with training, adoption, and deployment of Microsoft Teams in your organization. 
+Use these training resources to help you onboard your organization to Microsoft Teams. 
 
 |  |  |
 |---------|---------|
