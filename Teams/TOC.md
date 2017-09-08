@@ -80,7 +80,7 @@
 
 # Videos and Training
 ## [Videos: Microsoft Teams](Videos_Microsoft_Teams.md)
-## [Training - Microsoft Teams](Training_Microsoft_Teams.md)
+## [Training: Microsoft Teams](Training_Microsoft_Teams.md)
 
 # [Upgrade Skype for Business to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 ## [FAQ - Upgrade from Skype for Business to Microsoft Teams](FAQ_Upgrade_to_Microsoft_Teams.md)
