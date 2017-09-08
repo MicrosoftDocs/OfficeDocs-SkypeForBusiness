@@ -1,5 +1,5 @@
 ---
-title: Training - Microsoft Teams
+title: End user training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,8 +9,8 @@ ms.prod: teams
 description: Training resources an admin can use to successfully deploy Microsoft Teams
 ---
 
-Training - Microsoft Teams
-==========================
+End user training for Microsoft Teams
+=====================================
 
 Use these training resources to help you onboard your organization to Microsoft Teams. 
 
