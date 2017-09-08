@@ -2,7 +2,6 @@
 # Get started
 ## [Welcome to Microsoft Teams](Welcome_to_Microsoft_Teams.md)
 ## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
-## [Videos: Microsoft Teams](Videos_Microsoft_Teams.md)
 ## [Check your environment's readiness for Microsoft Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
 ## [Office 365 licensing for Microsoft Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
@@ -79,6 +78,9 @@
 ### [Measure, share success, and iterate](Audio_Conferencing.md#measure-share-success-and-iterate)
 ### [Manage and prepare for change](Audio_Conferencing.md#manage-and-prepare-for-change)
 
+# Videos and Training
+## [Videos: Microsoft Teams](Videos_Microsoft_Teams.md)
+## [Training - Microsoft Teams](Training_Microsoft_Teams.md)
 
 # [Upgrade Skype for Business to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
 ## [FAQ - Upgrade from Skype for Business to Microsoft Teams](FAQ_Upgrade_to_Microsoft_Teams.md)
