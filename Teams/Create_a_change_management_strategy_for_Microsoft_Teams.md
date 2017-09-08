@@ -68,7 +68,7 @@ Identifying the individuals who can become your collaboration champions provides
 
 ![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
-Learn more about creating a champion program with this [FastTrack resource](https://go.microsoft.com/fwlink/?linkid=854665).
+To learn about building a champion program, get [Build a champion program](https://go.microsoft.com/fwlink/?linkid=854665).
 
 Identify and select your business outcomes and success measures
 ---------------------------------------------------------------
