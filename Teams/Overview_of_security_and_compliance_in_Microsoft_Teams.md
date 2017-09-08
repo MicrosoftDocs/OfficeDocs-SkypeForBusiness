@@ -54,6 +54,7 @@ These tools reside in the Office 365 Security and Compliance Portal and provide 
 |Relevance Searches with Machine Learning    |-         |X         |
 |Unstructured Data Analysis      |-         |X         |
 
+
 -   Legal Hold
 
     -   When any Team within Microsoft Teams is put on In-Place Hold or Litigation Hold, the hold is placed on the groups mailbox.
