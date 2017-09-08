@@ -1,5 +1,5 @@
 ---
-title: Videos - Microsoft Teams
+title: Microsoft Teams Academy
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,10 +9,10 @@ ms.prod: teams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams
 ---
 
-Videos - Microsoft Teams
-========================
+Microsoft Teams Academy
+=======================
 
-Use these videos to learn about Microsoft Teams and how to drive usage in your organization. Check back frequently for new videos.
+Use these videos to learn about Microsoft Teams and help you drive usage in your organization. Check back frequently for new videos.
 
 |  |  |
 |---------|---------|

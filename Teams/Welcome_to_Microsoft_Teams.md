@@ -13,14 +13,3 @@ Welcome to Microsoft Teams
 ==========================
 
 Microsoft Teams is the Office 365 digital equivalent of an open-space office environment. 
-
-| |In-place eDiscovery  |Advanced eDiscovery  |
-|---------|---------|---------|
-|Case Management     |X        |X         |
-|Access Control  |X         |X         |
-|Content Searches     |X         | X        |
-|Hold(s)   |X         | X        |
-|Export     |X         |X         |
-|Duplication Detection     |-         |X         |
-|Relevance Searches with Machine Learning    |-         |X         |
-|Unstructured Data Analysis      |-         |X         |
