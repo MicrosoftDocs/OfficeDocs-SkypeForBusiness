@@ -16,10 +16,6 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams Deployment Advisor](https://go.microsoft.com/fwlink/?linkid=843465)
 
--   [SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)
-
--   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
-
 -   [Microsoft Teams Help](https://support.office.com/Teams)
 
 -   [Microsoft Teams Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=846006)
@@ -28,12 +24,11 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams YouTube video channel](https://go.microsoft.com/fwlink/?linkid=854398)
 
+-   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
 -   [Known Issues](https://support.office.com/en-US/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
 
 ## Feedback and support options
-
--   Microsoft Teams Dev Center: [Submit your questions, bugs, feature requests, and contributions](https://go.microsoft.com/fwlink/?linkid=854399)
 
 -   [Microsoft Teams feedback portal on UserVoice](https://go.microsoft.com/fwlink/?linkid=854400)
 
