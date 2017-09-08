@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet consectetur adipiscing, elit suspendisse convallis du
 
 ## Drive Value
 
-[Boost user engagement and drive adoption ](Phones_System_With_Calling_Plans.md#boost-user-engagement-and-drive-adoption-)
+[Boost user engagement and drive adoption](Phones_System_With_Calling_Plans.md#boost-user-engagement-and-drive-adoption)
 
 [Measure, share success, and iterate](Phones_System_With_Calling_Plans.md#measure-share-success-and-iterate)
 
