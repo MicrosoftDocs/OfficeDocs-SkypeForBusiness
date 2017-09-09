@@ -157,5 +157,5 @@ The Messaging section lets you configure the following settings for your organiz
 | |  |  |
 |---------|---------|---------|
 |![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Decision Point         |What settings for Microsoft Teams will your organization enable?         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Next Steps        |Document these decisions in the table below.         |
+|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Next Steps        |Document these decisions in the table in [Assign roles and permissions in Microsoft Teams](Assign_roles_and_permissions_in_Microsoft_Teams.md)].         |
 
