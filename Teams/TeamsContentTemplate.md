@@ -49,14 +49,14 @@ Tables are easy to create, but they definitely have some limitations. Best advic
 |**Add tabs**      |Yes         |Yes*         |
 |**Add connectors**      |Yes         |Yes*         |
 |**Add bots**      |Yes         |Yes*         |
-\* These items can be turned off by an owner at a team level, in which case members would not have access to that.
+\* If you want to use a plain ol' asterisk, preceed it with a \ character.
 
-\*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
+\*\*Same thing for 2 asterisks...
 
 
 | | |
 |---------|---------|
-|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Note     |Owners can make other members owners in the View teams option. A team can have up to 10 owners.         |
+|![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Note     |Here's how to do an image with a note.         |
 
 Permissions to create teams
 ---------------------------
