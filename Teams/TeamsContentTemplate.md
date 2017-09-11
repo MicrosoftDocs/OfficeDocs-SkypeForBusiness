@@ -60,10 +60,5 @@ Tables are easy to create, but they definitely have some limitations. Best advic
 
 Lola: add notes/alerts
 
-
-
-||||
-|---------|---------|---------|
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Decision Point         |Will all Microsoft Teams users be able to create Teams (recommended)?         |
-| ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Next Steps         |Modify the default permissions for who can create Office 365 groups if you need to limit who can create Teams         |
+Lola: Add voice guidelines
 
