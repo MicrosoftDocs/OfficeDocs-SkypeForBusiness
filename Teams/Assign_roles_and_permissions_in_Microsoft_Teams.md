@@ -59,7 +59,7 @@ If your organization is interested in doing this, the instructions below outline
 
     Get-MsolCompanyInformation
 
-    b. 	If this is not true, run the Set-MsolCompanySettings  cmdet **to set it to True**.
+    b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
 

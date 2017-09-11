@@ -40,3 +40,5 @@ With the above behavior, end users can comfortably use both Microsoft Teams and 
 |![](media/Understand_how_Skype_for_Business_and_Microsoft_Teams_interact_image3.png)<br>Note</br>      |With Skype for Business interoperability, instant messages that arrive in Teams will not be recorded in Skype for Business conversation history.         |
 
 Microsoft Teams provides the ability for users to disable Skype for Business interoperability from within the Notification settings. This setting is user controlled, allowing each user to decide on the behavior they prefer.
+
+Disabling Chats with Skype for Business can be considered to reduce impacts to the end user experience when using both Skype for Business and Microsoft Teams simultaneously.
