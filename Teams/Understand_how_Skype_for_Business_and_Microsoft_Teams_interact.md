@@ -42,3 +42,8 @@ With the above behavior, end users can comfortably use both Microsoft Teams and 
 Microsoft Teams provides the ability for users to disable Skype for Business interoperability from within the Notification settings. This setting is user controlled, allowing each user to decide on the behavior they prefer.
 
 Disabling Chats with Skype for Business can be considered to reduce impacts to the end user experience when using both Skype for Business and Microsoft Teams simultaneously.
+
+||||
+|---------|---------|---------|
+||Decision Point|Would you develop a plan to raise the awareness about Skype for Business interoperability in Microsoft Teams?|
+| |Next Steps|Document the approach your organization will take regarding enduser notification around Skype and Microsoft Teams interoperability.|
