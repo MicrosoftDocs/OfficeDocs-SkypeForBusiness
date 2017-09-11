@@ -29,7 +29,10 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/microsoftteams/toc.json"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams"
