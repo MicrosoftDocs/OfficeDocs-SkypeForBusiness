@@ -46,7 +46,7 @@ For a full list of all Markdown formatting & styles, see [Mastering Markdown](ht
     a. item 1 (again, TAB to indent one level)
     b. item 2
 
-Tables are easy to create, but they definitely have some limitations. Best advice: Keep your tables simple. No merged cells, no nesting. 
+Tables are easy to create, but they definitely have some limitations. Best practice: Keep your tables simple. No merged cells, no nesting. 
 
 |Column 1 heading  |Column 2 heading  |Column 3 heading  |
 |---------|---------|---------|
