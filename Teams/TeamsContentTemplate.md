@@ -12,19 +12,6 @@ description: Describe the main intent of the article. This description shows up 
 Article title goes here
 =======================
 
-Put this set of metadata at the very top of your article, above everything else:
----
-title: Article title goes here
-author: LolaJacobsen   *this is your GitHub user name*
-ms.author: lolaj       *this is your Microsoft alias*
-manager: serdar
-ms.date: 08/10/2017    *this is the last published date*
-ms.topic: solution
-ms.prod: Teams             
-description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
----
-
-
 ## Metadata guidance
 
 Put this set of metadata at the top of every article:
