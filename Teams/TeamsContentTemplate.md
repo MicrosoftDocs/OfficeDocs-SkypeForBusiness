@@ -19,10 +19,26 @@ author: LolaJacobsen   *this is your GitHub user name*
 ms.author: lolaj       *this is your Microsoft alias*
 manager: serdar
 ms.date: 08/10/2017    *this is the last published date*
-ms.topic: solution     *choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting*
+ms.topic: solution
 ms.prod: Teams             
 description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
 ---
+
+
+## Metadata guidance
+
+Put this set of metadata at the top of every article:
+
+title: Article title goes here
+author: LolaJacobsen   *this is your GitHub user name*
+ms.author: lolaj       *this is your Microsoft alias*
+manager: serdar
+ms.date: 08/10/2017    *this is the last published date*
+ms.topic: solution  *choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting*
+ms.prod: Teams             
+description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
+
+## Basic formatting     
 
 To format text, use this mark up: **For bold, enclose the text in \****. For italics, *enclose the text in 1 asterisk*.
 
@@ -43,8 +59,8 @@ For a full list of all Markdown formatting & styles, see [Mastering Markdown](ht
     - item 2
 
 1. Numbered lists look like this
-    a. item 1 (again, TAB to indent one level)
-    b. item 2
+    2. item 1 (again, TAB to indent one level)    
+    2. item 2
 
 Tables are easy to create, but they definitely have some limitations. Best practice: Keep your tables simple. No merged cells, no nesting. 
 
