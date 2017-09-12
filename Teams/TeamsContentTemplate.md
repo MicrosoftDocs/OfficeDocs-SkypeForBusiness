@@ -40,7 +40,7 @@ Check out the [Office Style Guide](http://aka.ms/OfficeStyleGuide) for the nitty
 
 ## Basic formatting     
 
-To format text, use this mark up: **For bold, enclose the text in \****. For italics, *enclose the text in 1 asterisk*.
+To format text, use this mark up: **For bold, enclose the text in 2 asterisks***. For italics, *enclose the text in 1 asterisk*.
 
 Use heading formatting to create hierarchy in articles. On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article.
 
