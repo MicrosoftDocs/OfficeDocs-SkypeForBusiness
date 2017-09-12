@@ -2,7 +2,7 @@
 title: Article title goes here
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 08/10/2017
 ms.topic: solution
 ms.prod: teams
@@ -14,23 +14,20 @@ Article title goes here
 
 ## Metadata guidance
 
-Put this set of metadata at the top of every article:
+Here are the metadata attributes that appear at the top of every article. Please add the correct value for each attribute.
 
-    title: Article title goes here
-    
-    author: LolaJacobsen   *this is your GitHub user name*
-    
-    ms.author: lolaj       *this is your Microsoft alias*
-    
-    manager: serdar
-    
-    ms.date: 08/10/2017    *this is the last published date*
-    
-    ms.topic: solution  *choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting*
-    
-    ms.prod: Teams             
-    
-    description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
+| Attribute | Value |
+| title: Article title goes here |    |   
+| author: LolaJacobsen |This is your GitHub user name |
+| ms.author: lolaj  | This is your Microsoft alias |
+| manager: serdars  | Please don't change this value - Serdar owns the all-up content set |
+| ms.date: 08/10/2017  | This is the last published date |
+| ms.topic: solution  | Choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting |
+| ms.prod: Teams | For Teams articles, don't change this value! |
+| description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO. |
+
+> [!IMPORTANT]
+> Don't delete any metadata from the header of your article! If you don't know what to enter for an attribute, ask LolaJ.
 
 ## Office voice guidelines
 
