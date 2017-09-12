@@ -50,7 +50,7 @@ For italics, *enclose the text in 1 asterisk*.
 
 # This is a Heading Level 1
 
-## This is a Heading Level 2
+## This is a Heading Level 2 - it shows up in the **In this article** list in the right rail
 
 ### This is a Heading Level 3
 
