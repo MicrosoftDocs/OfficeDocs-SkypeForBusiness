@@ -9,8 +9,8 @@ ms.prod: teams
 description: Use this template as a starting point for creating Teams Admin content for docs.microsoft.com.
 ---
 
-Article title goes here
-=======================
+Article template - Microsoft Teams Admin content
+================================================
 
 ## Metadata guidance
 
@@ -52,13 +52,12 @@ For italics, *enclose the text in 1 asterisk*.
 
 ## This is a Heading Level 2 - it shows up in the **In this article** list in the right rail
 
-### This is a Heading Level 3
-
-###### Heading Level 6 is as deep as you can go
-
 > [!TIP]
 > Use heading formatting to create hierarchy in articles. On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article.
 
+### This is a Heading Level 3
+
+###### Heading Level 6 is as deep as you can go
 
 - Bulleted lists look like this
     - item 1 (TAB to indent one level)
@@ -84,12 +83,12 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 
 ## Embedding videos
 
-Embedding videos is relatively straight forward. 
-
-> [!VIDEO <link>]
+Embedding videos is relatively straight forward. Just click the **Insert media** button in the Gauntlet toolbar, enter the URL for the video, and you're done!
 
 For example: 
-[!VIDEO https://www.youtube.com/embed/E7yDOfkpG48]
+
+> [!VIDEO https://www.youtube.com/embed/E7yDOfkpG48]
+
 
 If you want to embed a video in a table, here's how you do it:
 
