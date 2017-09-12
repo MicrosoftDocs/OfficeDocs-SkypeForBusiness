@@ -25,7 +25,7 @@ Here are the metadata attributes that appear at the top of every article. Please
 | ms.date: 08/10/2017  | This is the last published date |
 | ms.topic: solution  | Choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting |
 | ms.prod: Teams | For Teams articles, don't change this value! |
-| description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO. |
+| description: Describe the main intent of the article. | This description shows up in internet search results and impacts SEO. |
 
 > [!IMPORTANT]
 > Don't delete any metadata from the header of your article! If you don't know what to enter for an attribute, ask LolaJ.
@@ -81,6 +81,21 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 |Edit team name/description      |Yes         |No         |
 |Delete team      |Yes         |No         |
 
+
+## Embedding videos
+
+Embedding videos is relatively straight forward. 
+
+> [!VIDEO <link>]
+
+For example: 
+[!VIDEO https://www.youtube.com/embed/E7yDOfkpG48]
+
+If you want to embed a video in a table, here's how you do it:
+
+|  |  |
+|---------|---------|
+|<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |<iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
 
 > [!NOTE]
 > Here's a note
