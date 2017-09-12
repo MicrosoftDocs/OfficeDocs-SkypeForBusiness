@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -31,7 +32,7 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "breadcrumb_path": "/microsoftteams/toc.json"
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.yml"
     },
     "fileMetadata": {},
     "template": [],
