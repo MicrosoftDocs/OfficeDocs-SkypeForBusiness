@@ -1,12 +1,12 @@
 ---
-title: Article title goes here
+title: Article template - Microsoft Teams Admin content
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/10/2017
-ms.topic: solution
+ms.date: 09/12/2017
+ms.topic: contributor-guide
 ms.prod: teams
-description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
+description: Use this template as a starting point for creating Teams Admin content for docs.microsoft.com.
 ---
 
 Article title goes here
@@ -18,7 +18,7 @@ Here are the metadata attributes that appear at the top of every article. Please
 
 | Attribute | Value |
 |---------|---------|
-| title: Article title goes here |    |   
+| title: Article title goes here |  This is what shows up at the top of the article and in search results. A good title helps the reader decide whether your article contains the information they need.  |   
 | author: LolaJacobsen |This is your GitHub user name |
 | ms.author: lolaj  | This is your Microsoft alias |
 | manager: serdars  | Please don't change this value - Serdar owns the all-up content set |
@@ -32,7 +32,7 @@ Here are the metadata attributes that appear at the top of every article. Please
 
 ## Office voice guidelines
 
-Use the [Office Voice guidelines](https://worldready.cloudapp.net/Styleguide/Read?id=2665&topicid=29059) for writing style (including voice & tone), word choice, article organization, keywording for SEO, and so much more!
+Use the [Office Voice guidelines](https://worldready.cloudapp.net/Styleguide/Read?id=2665&topicid=29059) for writing style (including voice & tone), word choice, article organization, keywording for SEO, and so much more.
 
 Check out the [Office Style Guide](http://aka.ms/OfficeStyleGuide) for the nitty gritty.
 
@@ -40,11 +40,11 @@ Check out the [Office Style Guide](http://aka.ms/OfficeStyleGuide) for the nitty
 
 To format text, use this mark up: 
 
-**For bold, enclose the text in 2 asterisks***. 
+**For bold, enclose the text in 2 asterisks**. 
 
-\* If you want to use a plain ol' asterisk, preceed it with a \ character.
+\* If you want to use an asterisk as a character, preceed it with a \ character.
 
-\*\*Same thing for 2 asterisks...
+\*\* Same thing for 2 asterisks...
 
 For italics, *enclose the text in 1 asterisk*.
 
@@ -76,10 +76,10 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 
 |Column 1 heading  |Column 2 heading  |Column 3 heading  |
 |---------|---------|---------|
-|**Create team**     |Yes        |No         |
-|**Leave team**     |Yes         |Yes         |
-|**Edit team name/description**      |Yes         |No         |
-|**Delete team**      |Yes         |No         |
+|Create team     |Yes        |No         |
+|Leave team     |Yes         |Yes         |
+|Edit team name/description      |Yes         |No         |
+|Delete team      |Yes         |No         |
 
 
 > [!NOTE]
