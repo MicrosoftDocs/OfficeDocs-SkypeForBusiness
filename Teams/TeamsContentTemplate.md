@@ -17,6 +17,7 @@ Article title goes here
 Here are the metadata attributes that appear at the top of every article. Please add the correct value for each attribute.
 
 | Attribute | Value |
+|---------|---------|
 | title: Article title goes here |    |   
 | author: LolaJacobsen |This is your GitHub user name |
 | ms.author: lolaj  | This is your Microsoft alias |
@@ -37,9 +38,15 @@ Check out the [Office Style Guide](http://aka.ms/OfficeStyleGuide) for the nitty
 
 ## Basic formatting     
 
-To format text, use this mark up: **For bold, enclose the text in 2 asterisks***. For italics, *enclose the text in 1 asterisk*.
+To format text, use this mark up: 
 
-Use heading formatting to create hierarchy in articles. On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article.
+**For bold, enclose the text in 2 asterisks***. 
+
+\* If you want to use a plain ol' asterisk, preceed it with a \ character.
+
+\*\*Same thing for 2 asterisks...
+
+For italics, *enclose the text in 1 asterisk*.
 
 # This is a Heading Level 1
 
@@ -49,7 +56,9 @@ Use heading formatting to create hierarchy in articles. On docs.microsoft.com, l
 
 ###### Heading Level 6 is as deep as you can go
 
-For a full list of all Markdown formatting & styles, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). (By the way, this is what a link looks like. Use the Link button in Gauntlet to create internal or external links; you can also create links to a bookmark in this file or in other files.)
+> [!TIP]
+> Use heading formatting to create hierarchy in articles. On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article.
+
 
 - Bulleted lists look like this
     - item 1 (TAB to indent one level)
@@ -59,6 +68,10 @@ For a full list of all Markdown formatting & styles, see [Mastering Markdown](ht
     2. item 1 (again, TAB to indent one level)    
     2. item 2
 
+For a full list of all Markdown formatting & styles, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). (By the way, this is what a link looks like. Use the Link button in Gauntlet to create internal or external links; you can also create links to a bookmark in this file or in other files.)
+
+## Tables
+
 Tables are easy to create, but they definitely have some limitations. Best practice: Keep your tables simple. No merged cells, no nesting. 
 
 |Column 1 heading  |Column 2 heading  |Column 3 heading  |
@@ -67,9 +80,7 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 |**Leave team**     |Yes         |Yes         |
 |**Edit team name/description**      |Yes         |No         |
 |**Delete team**      |Yes         |No         |
-\* If you want to use a plain ol' asterisk, preceed it with a \ character.
 
-\*\*Same thing for 2 asterisks...
 
 > [!NOTE]
 > Here's a note
