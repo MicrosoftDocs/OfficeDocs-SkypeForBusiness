@@ -17,13 +17,26 @@ Article title goes here
 Put this set of metadata at the top of every article:
 
 title: Article title goes here
+
 author: LolaJacobsen   *this is your GitHub user name*
+
 ms.author: lolaj       *this is your Microsoft alias*
+
 manager: serdar
+
 ms.date: 08/10/2017    *this is the last published date*
+
 ms.topic: solution  *choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting*
+
 ms.prod: Teams             
+
 description: Describe the main intent of the article. This description shows up in internet search results and impacts SEO.
+
+## Office voice guidelines
+
+Use the [Office Voice guidelines](https://worldready.cloudapp.net/Styleguide/Read?id=2665&topicid=29059) for writing style (including voice & tone), word choice, article organization, keywording for SEO, and so much more!
+
+Check out the [Office Style Guide](http://aka.ms/OfficeStyleGuide) for the nitty gritty.
 
 ## Basic formatting     
 
@@ -61,7 +74,16 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 
 \*\*Same thing for 2 asterisks...
 
-Lola: add notes/alerts
+> [!NOTE]
+> Here's a note
 
-Lola: Add voice guidelines
+> [!IMPORTANT]
+> Here's an Important alert
+
+> [!WARNING]
+> Here's a warning
+
+> [!TIP]
+> Here's a tip
+
 
