@@ -50,14 +50,14 @@ To format text, use this mark up:
 
 For italics, *enclose the text in 1 asterisk*.
 
-# This is a Heading Level 1
+# This is a Level 1 Heading
 
-## This is a Heading Level 2 - it shows up in the **In this article** list in the right rail
+## This is a Level 2 Heading - it shows up in the **In this article** list in the right rail
 
 > [!TIP]
 > Use heading formatting to create hierarchy in articles. On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article.
 
-### This is a Heading Level 3
+### This is a Level 3 Heading 
 
 ###### Heading Level 6 is as deep as you can go
 
@@ -69,7 +69,7 @@ For italics, *enclose the text in 1 asterisk*.
     2. item 1 (again, TAB to indent one level)    
     2. item 2
 
-For a full list of all Markdown formatting & styles, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). (By the way, this is what a link looks like. Use the Link button in Gauntlet to create internal or external links; you can also create links to a bookmark in this file or in other files.)
+For a full list of all Markdown formatting & styles, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). (By the way, this is what a link looks like. Use the **Link** button in Gauntlet to create internal or external links; you can also create links to a bookmark in this file or in other files.)
 
 ## Tables
 
