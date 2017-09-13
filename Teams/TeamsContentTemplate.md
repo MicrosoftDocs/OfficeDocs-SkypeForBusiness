@@ -92,7 +92,7 @@ Use these guidelines for images and screen caps.
 
 ## Embedding videos
 
-Embedding videos is relatively straight forward. Just click the **Insert media** button in the Gauntlet toolbar, enter the URL for the video, and you're done!
+Embedding videos is relatively straightforward. Just click the **Insert media** button in the Gauntlet toolbar, enter the URL for the video, and you're done!
 
 For example: 
 
