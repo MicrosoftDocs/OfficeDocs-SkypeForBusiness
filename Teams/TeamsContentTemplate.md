@@ -12,6 +12,8 @@ description: Use this template as a starting point for creating Teams Admin cont
 Article template - Microsoft Teams Admin content
 ================================================
 
+Use this template as a starting point for your Teams Admin article. If you need to create something that's not here, tell LolaJ and she'll add it to the template. 
+
 ## Metadata guidance
 
 Here are the metadata attributes that appear at the top of every article. Please add the correct value for each attribute.
