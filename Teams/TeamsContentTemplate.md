@@ -80,6 +80,13 @@ Tables are easy to create, but they definitely have some limitations. Best pract
 |Edit team name/description      |Yes         |No         |
 |Delete team      |Yes         |No         |
 
+## Adding images and screen caps
+
+Use these guidelines for images and screen caps. 
+
+- [MAX art guidelines](https://msft.spoppe.com/teams/cpub/Resources/ToolsProcesses/DxStudio/DxStudio%2030%20Wiki/Art%20Guidelines%20(not%20DxStudio-related).aspx)
+
+- [Using Snagit to create and edit screenshots](https://msft.spoppe.com/teams/cpub/Resources/ToolsProcesses/DxStudio/DxStudio%2030%20Wiki/Install%20and%20use%20Snagit%20to%20create%20and%20edit%20screenshots.aspx)
 
 ## Embedding videos
 
@@ -95,6 +102,7 @@ If you want to embed a video in a table, here's how you do it:
 |  |  |
 |---------|---------|
 |<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |<iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
+
 
 > [!NOTE]
 > Here's a note. Highlight the note text, then click the **Alert** button in the Gauntlet toolbar. 
