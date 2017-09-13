@@ -97,15 +97,15 @@ If you want to embed a video in a table, here's how you do it:
 |<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |<iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
 
 > [!NOTE]
-> Here's a note
+> Here's a note. Highlight the note text, then click the **Alert** button in the Gauntlet toolbar. 
 
 > [!IMPORTANT]
-> Here's an Important alert
+> Get some exercise every day, and be sure to drink plenty of water.
 
 > [!WARNING]
-> Here's a warning
+> Never run with scissors
 
 > [!TIP]
-> Here's a tip
+> Tipping is always appreciated by your wait staff.
 
 
