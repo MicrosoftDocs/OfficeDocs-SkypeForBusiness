@@ -78,7 +78,7 @@
 ### [Measure, share success, and iterate](Audio_Conferencing.md#measure-share-success-and-iterate)
 ### [Manage and prepare for change](Audio_Conferencing.md#manage-and-prepare-for-change)
 
-# [Upgrade Skype for Business to Microsoft Teams](Upgrade_to_Microsoft_Teams.md)
+# [Journey from Skype for Business to Teams](Journey_from_SkypeforBusiness_to_Microsoft_Teams.md)
 ## [FAQ - Upgrade from Skype for Business to Microsoft Teams](FAQ_Upgrade_to_Microsoft_Teams.md)
 
 # Videos and Training
