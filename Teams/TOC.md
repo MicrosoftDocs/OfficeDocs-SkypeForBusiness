@@ -6,9 +6,10 @@
 ## [Overview of teams and channels in Microsoft Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Microsoft Teams](Best_practices_for_organizing_Microsoft_Teams.md)
 ## [Office 365 groups and Microsoft Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
+## [How Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
 ## [How Exchange and Microsoft Teams interact](Understand_how_Exchange_and_Microsoft_Teams_interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
-## [How Skype for Business and Microsoft Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
+
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](Overview_of_a_Microsoft_Teams_deployment.md)
