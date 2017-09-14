@@ -29,9 +29,10 @@
 # Manage
 ## [Get clients for Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
 ## [Set up Microsoft Teams in your Office 365 organization](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
-## [Manage user access to Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
-## [Enable Microsoft Teams features in your Office 365 organization](Enable_Microsoft_Teams_features_in_your_Office_365_organization.md)
 ## [Assign roles and permissions in Microsoft Teams](Assign_roles_and_permissions_in_Microsoft_Teams.md)
+## [Enable Microsoft Teams features in your Office 365 organization](Enable_Microsoft_Teams_features_in_your_Office_365_organization.md)
+## [Manage user access to Microsoft Teams](Manage_user_access_to_Microsoft_Teams.md)
+## [Manage guest access in Microsoft Teams](Guest_access_in_Microsoft_Teams.md)
 ## [Enhance existing Office 365 Groups with Microsoft Teams](Enhance_Existing_Office_365_groups_with_Microsoft_Teams.md)
 ## [Configure an Exchange hybrid organization for use with Microsoft Teams](Configure_an_Exchange_hybrid_organization_for_use_with_Microsoft_Teams.md)
 ## [Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online](Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online.md)
