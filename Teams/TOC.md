@@ -25,7 +25,6 @@
 ## [Get tools to support a rollout of Microsoft Teams](Get_tools_to_support_a_rollout_of_Microsoft_Teams.md)
 ## [Use T-Bot to help users with Microsoft Teams](Use_T-Bot_to_help_users_with_Microsoft_Teams.md)
 
-
 # Manage
 ## [Get clients for Microsoft Teams](Get_clients_for_Microsoft_Teams.md)
 ## [Set up Microsoft Teams in your Office 365 organization](Set_up_Microsoft_Teams_in_your_Office_365_organization.md)
