@@ -12,7 +12,7 @@ description: Training videos introducing Microsoft Teams and explaining to admin
 Admin training for Microsoft Teams
 ==================================
 
-Learn about Microsoft Teams and help you drive usage in your organization. Check back frequently for new videos.
+Learn about Microsoft Teams and drive usage in your organization. Check back frequently for new videos.
 
 > [!VIDEO https://www.youtube.com/embed/E7yDOfkpG48]
 
