@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Academy
+title: Admin training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
@@ -9,12 +9,10 @@ ms.prod: teams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams
 ---
 
-Microsoft Teams Academy
-=======================
+Admin training for Microsoft Teams
+==================================
 
-Use these videos to learn about Microsoft Teams and help you drive usage in your organization. Check back frequently for new videos.
+Learn about Microsoft Teams and help you drive usage in your organization. Check back frequently for new videos.
 
-|  |  |
-|---------|---------|
-|<iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>     |<iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>      |
+> [!VIDEO https://www.youtube.com/embed/E7yDOfkpG48]
 

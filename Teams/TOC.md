@@ -81,9 +81,9 @@
 # [Journey from Skype for Business to Teams](Journey_from_SkypeforBusiness_to_Microsoft_Teams.md)
 ## [Pilot essentials: Start your journey to Microsoft Teams](Pilot_essentials_Start_your_journey_to_Teams.md)
 ## [Side-by-Side Guidance: Skype for Business and Microsoft Teams](Side_by_Side_Guidance_SkypeforBusiness_and_MicrosoftTeams.md)
-## FAQ - [Journey from Skype for Business to Microsoft Teams](FAQ_Journey_From_SkypeforBusiness_to_Teams.md)
+## [FAQ - Journey from Skype for Business to Microsoft Teams](FAQ_Journey_From_SkypeforBusiness_to_Teams.md)
 
 # Videos and Training
-## [Microsoft Teams Academy](Videos_Microsoft_Teams.md)
+## [Admin training for Microsoft Teams](Videos_Microsoft_Teams.md)
 ## [End user training for Microsoft Teams](Training_Microsoft_Teams.md)
 
