@@ -1,8 +1,8 @@
 - name: Microsoft Teams
-  tocHref: /NonExistentPath
+  tocHref: /MicrosoftTeams/breadcrumb/
   topicHref: https://go.microsoft.com/fwlink/?linkid=858815
   items:
   - name: Teams documentation
-    tocHref: /MicrosofTeams
+    tocHref: /MicrosofTeams/
     topicHref: /MicrosofTeams/index
   
