@@ -3,10 +3,11 @@ title: Assign roles and permissions in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: solution
 ms.prod: teams
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Assign roles and permissions in Microsoft Teams
@@ -65,7 +66,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
 
-<!-- -->
+
 
 3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
 
