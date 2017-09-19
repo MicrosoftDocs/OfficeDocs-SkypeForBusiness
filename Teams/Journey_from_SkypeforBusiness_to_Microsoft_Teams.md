@@ -14,4 +14,8 @@ Journey from Skype for Business to Teams
 
 Landing page for Journey to Teams content
 
+FastTrack page: https://upgradeskype-dev.cloudapp.net/
+
+
+
 
