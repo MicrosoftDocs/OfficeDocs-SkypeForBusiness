@@ -17,7 +17,7 @@ Learn about Microsoft Teams and drive usage in your organization. Check back fre
 
 |  |  |
 |---------|---------|
-| Deployiong and operating Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Deploying and operating Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 
 
 
