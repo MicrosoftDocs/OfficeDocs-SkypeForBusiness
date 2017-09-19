@@ -3,10 +3,11 @@ title: Prepare your organization's network for Microsoft Teams | Microsoft Suppo
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: solution
 ms.prod: teams
 description: Learn how to prepare and manage your Microsoft Teams network. Information includes network requirements, bandwidth requirements, and additional considerations.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Prepare your organization's network for Microsoft Teams

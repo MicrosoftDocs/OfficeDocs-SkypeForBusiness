@@ -3,10 +3,11 @@ title: Office 365 URLs and IP address ranges | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: overview
 ms.prod: teams
 description: Learn how to properly configure Office 365 URLs and IP address ranges, bypass the forward proxy where available for connections with Microsoft Teams service, and the requirements for networking and security policies.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Office 365 URLs and IP address ranges

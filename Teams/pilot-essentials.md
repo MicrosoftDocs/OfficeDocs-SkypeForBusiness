@@ -7,6 +7,7 @@ ms.date: 09/25/17
 ms.topic: tutorial
 ms.prod: teams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Pilot essentials: Start your journey to Microsoft Teams
