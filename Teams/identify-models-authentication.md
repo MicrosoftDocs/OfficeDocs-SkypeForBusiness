@@ -3,10 +3,11 @@ title: Identity models and authentication in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: overview
 ms.prod: teams
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Identity models and authentication in Microsoft Teams

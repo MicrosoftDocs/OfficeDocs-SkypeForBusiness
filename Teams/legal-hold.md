@@ -3,10 +3,11 @@ title: Place a Microsoft Teams user or team on legal hold | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: solution
 ms.prod: teams
 description: Learn to place a Microsoft Teams user or team on Legal Hold using the Sucurity and Compliance Portal and learn what needs a Legal Hold based on data requirements.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Place a Microsoft Teams user or team on legal hold
