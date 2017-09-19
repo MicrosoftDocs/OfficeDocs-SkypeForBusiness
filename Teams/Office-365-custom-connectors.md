@@ -3,10 +3,11 @@ title: Use Office 365 and custom connectors in Microsoft Teams | Microsoft Suppo
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: tutorial
 ms.prod: teams
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Use Office 365 and custom connectors in Microsoft Teams

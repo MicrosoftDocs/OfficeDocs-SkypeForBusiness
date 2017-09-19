@@ -3,10 +3,11 @@ title: Get clients for Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: overview
 ms.prod: teams
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Get clients for Microsoft Teams 

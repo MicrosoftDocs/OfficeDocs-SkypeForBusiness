@@ -3,10 +3,11 @@ title: Welcome to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: tutorial
 ms.prod: teams
 description: Find the latest how to and support content that admins and IT pros need to evaluate, plan, deploy, and manage Microsoft Teams.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Welcome to Microsoft Teams

@@ -7,6 +7,7 @@ ms.date: 09/25/17
 ms.topic: tutorial
 ms.prod: teams
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Side-by-Side Guidance: Skype for Business and Microsoft Teams

@@ -3,10 +3,11 @@ title: Overview of teams and channels in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: overview
 ms.prod: teams
 description: Learn about the difference teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Overview of teams and channels in Microsoft Teams

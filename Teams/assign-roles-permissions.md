@@ -54,19 +54,19 @@ If your organization is interested in doing this, the instructions below outline
 
 2.  Verify that the company-wide control for users to create groups is enabled.
 
-    a.  **Action:** Run the following PowerShell script and verify UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
+    a. **Action:** Run the following PowerShell script and verify: UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
 
     Connect-MsolService
 
     Get-MsolCompanyInformation
+   
+    b. If this is not true, run the Set-MsolCompanySettings  cmdet **to set it to True**.
+    Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
+   
+    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#checkclevelsettings)
 
-    b. 	If this is not true, run the Set-MsolCompanySettings  cmdet **to set it to True**.
-Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
-
-
-    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
-
-
+    
+    
 
 3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
 

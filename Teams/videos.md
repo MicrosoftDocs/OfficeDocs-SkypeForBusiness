@@ -3,10 +3,11 @@ title: Admin training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: solution
 ms.prod: teams
-description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams
+description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Admin training for Microsoft Teams

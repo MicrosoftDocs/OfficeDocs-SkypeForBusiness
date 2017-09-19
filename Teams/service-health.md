@@ -3,10 +3,11 @@ title: Verify service health for Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: tutorial
 ms.prod: teams
 description: It's a good practice to verify that the Teams service is healthy as well as other Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Verify service health for Microsoft Teams

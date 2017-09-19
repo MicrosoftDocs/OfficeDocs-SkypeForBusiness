@@ -3,10 +3,11 @@ title: End user training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: solution
 ms.prod: teams
-description: Training resources an admin can use to successfully deploy Microsoft Teams
+description: Training resources an admin can use to successfully deploy Microsoft Teams.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 End user training for Microsoft Teams
