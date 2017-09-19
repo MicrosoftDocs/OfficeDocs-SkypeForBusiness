@@ -3,10 +3,11 @@ title: Overview of a Microsoft Teams deployment | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: overview
 ms.prod: teams
 description: Learn how to setup a deployment of Microsoft Teams.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Overview of a Microsoft Teams deployment

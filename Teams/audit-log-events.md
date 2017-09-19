@@ -3,10 +3,11 @@ title: Search the audit log for events in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 09/25/2017
 ms.topic: tutorial
 ms.prod: teams
 description: Learn how to retrieve Microsoft Teams data from the Audit log.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Search the audit log for events in Microsoft Teams
