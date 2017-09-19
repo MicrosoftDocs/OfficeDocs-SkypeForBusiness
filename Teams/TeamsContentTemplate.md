@@ -2,7 +2,6 @@
 title: Article template - Microsoft Teams Admin content
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
 ms.date: 09/12/2017
 ms.topic: contributor-guide
 ms.prod: teams
@@ -23,10 +22,9 @@ Here are the metadata attributes that appear at the top of every article. Please
 | title: Article title goes here |  This is what shows up at the top of the article and in search results. A good title helps the reader decide whether your article contains the information they need.  |   
 | author: LolaJacobsen |This is your GitHub user name |
 | ms.author: lolaj  | This is your Microsoft alias |
-| manager: serdars  | Please don't change this value - Serdar owns the all-up content set |
 | ms.date: 08/10/2017  | This is the last published date |
-| ms.topic: solution  | Choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting |
-| ms.prod: Teams | For Teams articles, don't change this value! |
+| ms.topic: article  | Choices: article, business-process, conceptual, contributor-guide, get-started-article, hero-article, hub-page, interactive-tutorial, landing-page, non-content, overview, quickstart, reference, sample, search, solution, tutorial, troubleshooting |
+| ms.service: msteams | For Teams articles, don't change this value! |
 | description: Describe the main intent of the article. | This description shows up in internet search results and impacts SEO. |
 
 > [!IMPORTANT]
