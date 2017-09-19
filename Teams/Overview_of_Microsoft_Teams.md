@@ -11,9 +11,10 @@ description: Learn about Microsoft teams, its infrastructure, and using Office 3
 
 Overview of Microsoft Teams
 ===========================
-|  |  |
-|---------|---------|
-| Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups.  |  ![Group of Microsoft Teams users waving](media/Teams-overview.png) |
+
+![Chat-based workspace in Office 365](media/Overview-Microsoft-Teams-image1.png)
+
+Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
 
 Out of the box, Microsoft Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
 
