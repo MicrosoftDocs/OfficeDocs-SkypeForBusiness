@@ -26,13 +26,13 @@ First, let's break down a few terms.
     
     
 
-- **Data center** This is the physical location where the information from your Office UNRESOLVED_TOKEN_VAL(365) organization is stored, for example your files and email messages. If you really want to dig into what Office UNRESOLVED_TOKEN_VAL(365) datacenters are, check out [this article](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Data center** This is the physical location where the information from your Office 365 organization is stored, for example your files and email messages. If you really want to dig into what Office 365 datacenters are, check out [this article](https://www.microsoft.com/online/legal/v2/?docid=25).
     
   
 - **Migrating** This is pretty much the same as "moving." In this case, it means we're moving your Skype for Business Online users and settings from one datacenter to another that's closer to you to improve your service.
     
   
-- **Latency** This is amount of time it takes you to access the Office UNRESOLVED_TOKEN_VAL(365) admin center, make a setting change and then save those changes.
+- **Latency** This is amount of time it takes you to access the Office 365 admin center, make a setting change and then save those changes.
     
   
 - **Correlation ID** You might have seen this listed in the message you just came from. This information is used by Microsoft support engineers to help you troubleshoot an error. If you contact Microsoft support, you might be asked for the Correlation ID.
@@ -75,7 +75,7 @@ Although you won't be able to access the Skype for Business Online admin center,
 
 ## Can I get other work done?
 
-Sure. While we're migrating your Skype for Business Online service, you can still use the other admin centers in Office UNRESOLVED_TOKEN_VAL(365) (for example, the Office UNRESOLVED_TOKEN_VAL(365) and Exchange admin centers). However, along with the Skype for Business Online admin center, you won't be able to use the Skype for Business Online Remote PowerShell cmdlets during the migration. 
+Sure. While we're migrating your Skype for Business Online service, you can still use the other admin centers in Office 365 (for example, the Office 365 and Exchange admin centers). However, along with the Skype for Business Online admin center, you won't be able to use the Skype for Business Online Remote PowerShell cmdlets during the migration. 
   
     
     

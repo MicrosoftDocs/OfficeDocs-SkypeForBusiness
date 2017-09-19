@@ -42,7 +42,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Feature** <br/> |**Description** <br/> |
 |**Dial-in conferencing** (also called PSTN conferencing) <br/> |Sometimes people in your organization will need to use a phone to call into a Skype for Business meeting, instead of using their computer. Use the dial-in conferencing feature for this situation.  <br/> To find out whether dial-in or PSTN conferencing is available in your country or region, see  [Is PSTN Conferencing with phone numbers available in my country or region?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx) <br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add dial-in conferencing, you can get this feature by  [How to sign up for PSTN Consumption billing](skype-for-business-add-on-licensing.md#bkmk_billing) for PSTN Consumption billing. [What is PSTN Consumption billing?](what-is-pstn-consumption-billing.md) <br/> |
-|**Cloud PBX** <br/> |A PBX is a telephone system in a business. Cloud PBX is a hosted telephone service in Office UNRESOLVED_TOKEN_VAL(365). It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment.  [Here's what you get with Cloud PBX](here-s-what-you-get-with-cloud-pbx.md).  <br/> |
+|**Cloud PBX** <br/> |A PBX is a telephone system in a business. Cloud PBX is a hosted telephone service in Office 365. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment.  [Here's what you get with Cloud PBX](here-s-what-you-get-with-cloud-pbx.md).  <br/> |
 |**PSTN calling telephone service** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get the  [PSTN Calling plans for Skype for Business](pstn-calling-plans-for-skype-for-business.md).  <br/> |
 |**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See  [Licensing for Skype Room Systems v2](skype-for-business-add-on-licensing.md#bkmk_srs).  <br/> |
    
@@ -175,7 +175,7 @@ The  [Office 365 Enterprise E5](https://products.office.com/en-us/business/offic
 ## How to see prices and buy add-on licenses
 <a name="bkmk_how"> </a>
 
- **After you buy an Office UNRESOLVED_TOKEN_VAL(365) plan, you see prices and buy add-ons through the Office 365 admin center**.
+ **After you buy an Office 365 plan, you see prices and buy add-ons through the Office 365 admin center**.
   
     
     
@@ -298,7 +298,7 @@ In a few situations, you won't see the option to buy Skype for Business add-ons 
     
     
 
-- **You purchased Office UNRESOLVED_TOKEN_VAL(365) Business Premium through GoDaddy**. In this case, you can't buy Skype for Business add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell) and then you can buy them. [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx#bkmk_call_support).
+- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell) and then you can buy them. [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx#bkmk_call_support).
     
   
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment cannot buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx#bkmk_call_support).
