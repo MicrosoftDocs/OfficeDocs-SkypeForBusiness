@@ -39,7 +39,7 @@ This article gives you tips about assigning Skype for Business licenses to your 
 
 ### How to assign a Cloud PBX and PSTN Calling license to one user
 
-The steps are the same as assigning an Office UNRESOLVED_TOKEN_VAL(365) license. See  [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
+The steps are the same as assigning an Office 365 license. See  [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
   
     
     
@@ -142,7 +142,7 @@ foreach ($user in $users)
 
 ### How to assign a PSTN Conferencing license to one user
 
-The steps are the same as assigning an Office UNRESOLVED_TOKEN_VAL(365) license. See  [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
+The steps are the same as assigning an Office 365 license. See  [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
   
     
     
@@ -231,7 +231,7 @@ foreach ($user in $users)
 
 ### How to assign a PSTN Consumption license to one user
 
- The steps are the same as assigning an Office UNRESOLVED_TOKEN_VAL(365) license. See [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
+ The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx). 
   
     
     

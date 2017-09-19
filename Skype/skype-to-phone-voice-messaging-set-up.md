@@ -7,7 +7,7 @@ ms.assetid: e9fa0009-34e2-4da0-98a7-0a395fcebf41
 
 # Skype-to-phone voice messaging set up
 
-Skype-to-phone for Office UNRESOLVED_TOKEN_VAL(365) is a cloud-based voice solution that's fully integrated with Skype for Business Online and Exchange Online. As an Office UNRESOLVED_TOKEN_VAL(365) admin, the network connectivity and routing has been deployed, and the Skype-to-phone syndicated partner delivers full datacenter resiliency and phone connectivity.
+Skype-to-phone for Office 365 is a cloud-based voice solution that's fully integrated with Skype for Business Online and Exchange Online. As an Office 365 admin, the network connectivity and routing has been deployed, and the Skype-to-phone syndicated partner delivers full datacenter resiliency and phone connectivity.
   
     
     

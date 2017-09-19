@@ -72,7 +72,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 5. Choose **Save**.
     
   
-6. Wait an hour or so for the changes to get populated across all Office UNRESOLVED_TOKEN_VAL(365) services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
+6. Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
     
     
   

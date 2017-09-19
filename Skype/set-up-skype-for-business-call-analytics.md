@@ -58,7 +58,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
     
     
 
-1. Create Office UNRESOLVED_TOKEN_VAL(365) security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see  [Create, edit, or delete a security group in the Office 365 admin center](http://technet.microsoft.com/library/55c96b32-e086-4c9e-948b-a018b44510cb%28Office.14%29.aspx).
+1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see  [Create, edit, or delete a security group in the Office 365 admin center](http://technet.microsoft.com/library/55c96b32-e086-4c9e-948b-a018b44510cb%28Office.14%29.aspx).
     
   
 2. In the Office 365 admin center, go to **Admin centers** > **Skype for Business**.
@@ -68,7 +68,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
 3. In the new Skype for Business admin center, click **Permissions**.
     
   
-4. Add the Office UNRESOLVED_TOKEN_VAL(365) security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
+4. Add the Office 365 security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
     
      ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   

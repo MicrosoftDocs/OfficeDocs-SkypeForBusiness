@@ -10,7 +10,7 @@ ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
 <a name="__top"> </a>
 
 
-1. Go to the **Office UNRESOLVED_TOKEN_VAL(365) admin center** > **Service Settings** > **Manage settings in the Skype for Business admin center**.
+1. Go to the **Office 365 admin center** > **Service Settings** > **Manage settings in the Skype for Business admin center**.
     
   
 2. On the **Users** page, select the user or users from the list and click **Edit**. 
