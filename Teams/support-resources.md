@@ -19,6 +19,8 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams Help](https://support.office.com/Teams)
 
+-   Office Training Center - Teams
+
 -   [Microsoft Teams Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=846006)
 
 -   [Microsoft Teams Tech Community](https://go.microsoft.com/fwlink/p/?linkid=832751)
