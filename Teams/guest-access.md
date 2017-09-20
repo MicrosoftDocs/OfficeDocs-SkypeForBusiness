@@ -2,9 +2,9 @@
 title: Manage guest access in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdarss
+manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
 Set_Free_Tag: Strat_MT_TeamsAdmin

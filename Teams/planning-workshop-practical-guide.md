@@ -29,8 +29,8 @@ Download these planning tools and practical guidance to walk you through rolling
 
 ### See also
 
-[Videos: Microsoft Teams](Videos_Microsoft_Teams.md)
+[IT admin readiness for Teams](ITAdmin-readiness.md)
 
-[Get tools to support a rollout of Microsoft Teams](Get_tools_to_support_a_rollout_of_Microsoft_Teams.md)
+[Get tools to support a rollout of Teams](rollout-tools.md)
 
 

@@ -99,7 +99,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: solution
+ms.topic: article
 ms.service: msteams
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
