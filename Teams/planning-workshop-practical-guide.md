@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
 ms.date: 09/25/2017
-ms.topic: solution
+ms.topic: article
 ms.prod: teams
 description: Planning tools and practical guidance to help an admin get started with Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
