@@ -72,6 +72,6 @@
 ## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
 
 # Videos and Training
-## [Admin training for Teams](ITAdmin-readiness.md)
+## [IT admin readiness resources for Teams](ITAdmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 
