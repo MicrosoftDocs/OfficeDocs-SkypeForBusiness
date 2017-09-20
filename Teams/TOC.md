@@ -66,12 +66,12 @@
 ### [Measure, share success, and iterate](audio-conferencing.md#measure-share-success-and-iterate)
 ### [Manage and prepare for change](audio-conferencing.md#manage-and-prepare-for-change)
 
-# [Journey from Skype for Business to Teams](Journey_from_SkypeforBusiness_to_Microsoft_Teams.md)
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Pilot essentials: Start your journey to Microsoft Teams](pilot-essentials.md)
-## Side-by-Side Guidance: Skype for Business and Teams
-## [FAQ - Journey from Skype for Business to Teams](FAQ_Journey_From_SkypeforBusiness_to_Teams.md)
+## [Side-by-Side Guidance: Skype for Business and Teams](guidance-SkypeforBusiness.md)
+## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
 
 # Videos and Training
-## [Admin training for Teams](Videos_Microsoft_Teams.md)
-## [End user training for Teams](Training_Microsoft_Teams.md)
+## [IT admin readiness resources for Teams](ITAdmin-readiness.md)
+## [End user training for Teams](enduser-training.md)
 
