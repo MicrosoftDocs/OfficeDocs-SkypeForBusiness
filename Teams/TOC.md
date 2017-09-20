@@ -1,8 +1,8 @@
 
 # Get started
-## [Overview of Microsoft Teams](Overview_of_Microsoft_Teams.md)
-## [Check your environment's readiness for Teams](Check_your_environments_readiness_for_Microsoft_Teams.md)
-## [Office 365 licensing for Teams](Understand_Office_365_Licensing__for_Microsoft_Teams.md)
+## [Overview of Microsoft Teams](Teams-Overview.md)
+## [Check your environment's readiness for Teams](environment-readiness.md)
+## [Office 365 licensing for Teams](Office-365-licensing.md)
 ## [Overview of teams and channels in Teams](Overview_of_teams_and_channels_in_Microsoft_Teams.md)
 ## [Best practices for organizing teams in Teams](Best_practices_for_organizing_Microsoft_Teams.md)
 ## [Office 365 groups and Teams](Understand_Office_365_groups_and_Microsoft_Teams.md)
