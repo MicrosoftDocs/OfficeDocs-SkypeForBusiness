@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: T-Bot is a bot which users can interact with to ask it questions about how to use Microsoft Teams and get answers to a wide range of questions.
 Set_Free_Tag: Strat_MT_TeamsAdmin

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Learn about the difference teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
 Set_Free_Tag: Strat_MT_TeamsAdmin

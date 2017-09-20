@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Learn the best practices for organizing teams in Microsoft Teams for structuring your team based on your specific needs.
 Set_Free_Tag: Strat_MT_TeamsAdmin

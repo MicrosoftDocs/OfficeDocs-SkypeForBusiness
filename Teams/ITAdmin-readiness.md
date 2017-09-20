@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: solution
+ms.topic: article
 ms.service: msteams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: Frequently asked questions about the journey from Skype for Business Online to  Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin

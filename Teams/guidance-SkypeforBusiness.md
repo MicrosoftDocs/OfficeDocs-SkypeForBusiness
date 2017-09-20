@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/17
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
 Set_Free_Tag: Strat_MT_TeamsAdmin
