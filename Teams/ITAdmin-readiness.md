@@ -19,6 +19,11 @@ Learn about Microsoft Teams and drive usage in your organization. Check back fre
 |  |  |
 |---------|---------|
 | Deploying and operating Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| [Microsoft Teams Academy Readiness - YouTube channel](https://www.youtube.com/playlist?list=PLfXJ1GA7BJR35_zmJkiSgwD-23RBKZVOS)  |  |
+| Deep dive into Guest Access | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| e-Discovery in Microsoft Teams | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Microsoft Mechanics - Microsoft Teams: Step-by-step intro for using, enabling and managing the experience |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 
