@@ -55,16 +55,7 @@
 
 # [Cloud Voice Deployment](cloud-voice-deployment.md)
 ## [Audio conferencing](audio-conferencing.md)
-### [Introduction](audio-conferencing.md#introduction)
-### [Define business use cases for PSTN Calling](audio-conferencing.md#define-business-use-cases-for-pstn-calling)
-### [Identify key stakeholders](audio-conferencing.md#identify-key-stakeholders)
-### [Define objectives and key results, key success indicators, and risks](audio-conferencing.md#define-objectives-and-key-results-key-success-indicators-and-risks)
-### [Assess environment and evaluate adoption readiness](audio-conferencing.md#assess-environment-and-evaluate-adoption-readiness)
-### [People Onboarding](audio-conferencing.md#people-onboarding)
-### [Technical Onboarding](audio-conferencing.md#technical-onboarding)
-### [Boost user engagement and drive adoption](audio-conferencing.md#boost-user-engagement-and-drive-adoption)
-### [Measure, share success, and iterate](audio-conferencing.md#measure-share-success-and-iterate)
-### [Manage and prepare for change](audio-conferencing.md#manage-and-prepare-for-change)
+
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Prepare for your journey to Microsoft Teams](prepare-teams.md)
