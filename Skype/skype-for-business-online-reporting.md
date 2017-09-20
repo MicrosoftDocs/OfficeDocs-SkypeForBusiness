@@ -13,9 +13,9 @@ As an administrator for your organization, it would be handy to have a complete 
     
     
 
-To access the Skype for Business Online reports, log on to the Office UNRESOLVED_TOKEN_VAL(365) admin center using your user account and password. The account you use to log on must be assigned either assigned either the Global admin role, or delegate Skype for Business Service Administrator role in order to view the reports. 
+To access the Skype for Business Online reports, log on to the Office 365 admin center using your user account and password. The account you use to log on must be assigned either assigned either the Global admin role, or delegate Skype for Business Service Administrator role in order to view the reports. 
 > [!NOTE]
-> To verify permissions, in the Office UNRESOLVED_TOKEN_VAL(365) admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> To verify permissions, in the Office 365 admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
     
     
@@ -23,7 +23,7 @@ To access the Skype for Business Online reports, log on to the Office UNRESOLVED
 
 ## Skype for Business Online reporting reference
 
-In the Office UNRESOLVED_TOKEN_VAL(365) admin center, you can use different types of reports, including those for Skype for Business Online. 
+In the Office 365 admin center, you can use different types of reports, including those for Skype for Business Online. 
   
     
     

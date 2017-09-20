@@ -39,15 +39,15 @@ To learn more, see  [Plan your setup of Office 365 for business](http://technet.
     
     
 
-## 2. Sign in to Office UNRESOLVED_TOKEN_VAL(365)
+## 2. Sign in to Office 365
 <a name="bkmk_signin"> </a>
 
-Skype for Business Online is part of the Office UNRESOLVED_TOKEN_VAL(365) suite of services. To set up Skype for Business Online you need to sign in to Office UNRESOLVED_TOKEN_VAL(365). Here's how you do that: 
+Skype for Business Online is part of the Office 365 suite of services. To set up Skype for Business Online you need to sign in to Office 365. Here's how you do that: 
   
     
     
 
-1. Locate your Office UNRESOLVED_TOKEN_VAL(365) user ID (for example,  *rob@fourthcoffee.com*  ). You received an email from the Microsoft Online Services Team that contains the Office UNRESOLVED_TOKEN_VAL(365) user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
+1. Locate your Office 365 user ID (for example,  *rob@fourthcoffee.com*  ). You received an email from the Microsoft Online Services Team that contains the Office 365 user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
     
     
   
@@ -68,7 +68,7 @@ Skype for Business Online is part of the Office UNRESOLVED_TOKEN_VAL(365) suite 
 
     
   
-2. Go to  [https://portal.office.com/](https://go.microsoft.com/fwlink/p/?linkid=402333) and enter your Office UNRESOLVED_TOKEN_VAL(365) user ID and password. After you sign in, you'll see the Office 365 admin center:
+2. Go to  [https://portal.office.com/](https://go.microsoft.com/fwlink/p/?linkid=402333) and enter your Office 365 user ID and password. After you sign in, you'll see the Office 365 admin center:
     
     
   
@@ -93,12 +93,12 @@ Skype for Business Online is part of the Office UNRESOLVED_TOKEN_VAL(365) suite 
 ## 3. Set up your domain and users
 <a name="bkmk_users"> </a>
 
-Now that you're signed in to Office UNRESOLVED_TOKEN_VAL(365), you can set up your domain and people in your organization to use Skype for Business Online.
+Now that you're signed in to Office 365, you can set up your domain and people in your organization to use Skype for Business Online.
   
     
     
 
-1.  [Add a domain and users to Office 365](http://technet.microsoft.com/library/6383f56d-3d09-4dcb-9b41-b5f5a5efd611%28Office.14%29.aspx): Use the Office UNRESOLVED_TOKEN_VAL(365) setup wizard to set up your custom domain (such as  *fourthcoffee.com*  ) with Office UNRESOLVED_TOKEN_VAL(365). **By default the Office UNRESOLVED_TOKEN_VAL(365) setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
+1.  [Add a domain and users to Office 365](http://technet.microsoft.com/library/6383f56d-3d09-4dcb-9b41-b5f5a5efd611%28Office.14%29.aspx): Use the Office 365 setup wizard to set up your custom domain (such as  *fourthcoffee.com*  ) with Office 365. **By default the Office 365 setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
     
   
 2.  [Check your domain and DNS connections](http://technet.microsoft.com/library/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0 .aspx): Use our tool - the domains troubleshooter - to check that your domain and DNS settings are correct. Doing this now will go a long way to helping figure out any setup issues later since you'll be able to eliminate DNS settings as the source of future issues. 
