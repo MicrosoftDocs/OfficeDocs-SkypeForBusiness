@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 ms.date: 09/25/2017
 ms.topic: contributor-guide
-ms.prod: teams
+ms.service: msteams
 description: Use this template as a starting point for creating Teams Admin content for docs.microsoft.com.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

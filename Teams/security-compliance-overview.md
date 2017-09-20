@@ -2,10 +2,10 @@
 title: Overview of security and compliance in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: An overview of security and compliance features of Microsoft Teams including auditing and reporting, compliance content search, eDiscovery, and more.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

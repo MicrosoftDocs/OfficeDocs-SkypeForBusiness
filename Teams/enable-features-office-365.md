@@ -2,10 +2,10 @@
 title: Enable Microsoft Teams features in your Office 365 organization | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: Learn all the Microsoft Teams features you can enable in your Office 365 organization, including tenant-wide settings, email integrations, apps, cloud storage, and more.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

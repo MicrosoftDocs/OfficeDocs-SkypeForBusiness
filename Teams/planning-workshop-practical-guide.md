@@ -2,10 +2,10 @@
 title: Planning workshop kit and practical guide for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
-ms.prod: teams
+ms.service: msteams
 description: Planning tools and practical guidance to help an admin get started with Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

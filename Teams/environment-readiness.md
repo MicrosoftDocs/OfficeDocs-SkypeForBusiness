@@ -2,10 +2,10 @@
 title: Check your environment’s readiness for Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

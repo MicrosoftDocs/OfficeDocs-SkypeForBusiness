@@ -2,10 +2,10 @@
 title: Office 365 groups and Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdar
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

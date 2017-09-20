@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 ms.date: 08/10/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.
 ---
 

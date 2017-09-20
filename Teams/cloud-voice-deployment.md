@@ -2,10 +2,10 @@
 title: Cloud voice deployment
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: serdarss
 ms.date: 09/25/2017
 ms.topic: overview
-ms.prod: teams
+ms.service: msteams
 description: Practical guidance for deploying Cloud Voice in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
