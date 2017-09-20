@@ -1,4 +1,13 @@
 - name: Microsoft Teams
+<<<<<<< HEAD
   tocHref: /MicrosoftTeams/
   topicHref: /MicrosoftTeams/index
+=======
+  tocHref: /MicrosoftTeams/breadcrumb/
+  topicHref: https://go.microsoft.com/fwlink/?linkid=858815
+  items:
+  - name: Teams documentation
+    tocHref: /MicrosofTeams/
+    topicHref: /MicrosofTeams/index
+>>>>>>> master
   
