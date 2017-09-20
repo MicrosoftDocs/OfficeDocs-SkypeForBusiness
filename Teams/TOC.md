@@ -67,5 +67,6 @@
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)
+### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ## [End user training for Teams](enduser-training.md)
 
