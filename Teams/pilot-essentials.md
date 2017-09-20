@@ -2,7 +2,7 @@
 title: Pilot essentials - Start your journey to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdarss
+manager: serdars
 ms.date: 09/25/17
 ms.topic: tutorial
 ms.service: msteams

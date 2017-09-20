@@ -67,11 +67,14 @@
 ### [Manage and prepare for change](audio-conferencing.md#manage-and-prepare-for-change)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Pilot essentials: Start your journey to Microsoft Teams](pilot-essentials.md)
+## [Prepare for your journey to Microsoft Teams](prepare-teams.md)
+## [Pilot essentials: Start your journey to Teams](pilot-essentials.md)
 ## [Side-by-Side Guidance: Skype for Business and Teams](guidance-SkypeforBusiness.md)
 ## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
+## [Continue your journey from Skype for Business to  Teams](continue-journey.md)
+
 
 # Videos and Training
-## [IT admin readiness resources for Teams](ITAdmin-readiness.md)
+## [IT admin readiness for Teams](ITAdmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 

@@ -13,7 +13,15 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Journey from Skype for Business to Teams
 ========================================
 
-Landing page for Journey to Teams content
+Microsoft recently announced that ……. (add in marketing messaging)
+
+Learn more
+
+As a valued Skype for Business customer, Microsoft is here to support you on your journey to Teams. We encourage you to begin exploring Teams today and begin realizing the value it can offer to your organization, while you continue to utilize Skype for Business. Click through the steps below to get started.
+
+
+insert final UC graphic with links to sub pages
+
 
 FastTrack page: https://upgradeskype-dev.cloudapp.net/
 

@@ -2,7 +2,7 @@
 title: Cloud voice deployment
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdarss
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: overview
 ms.service: msteams
