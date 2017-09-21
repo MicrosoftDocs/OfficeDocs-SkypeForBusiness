@@ -61,9 +61,8 @@
 ## [Prepare for your journey to Microsoft Teams](prepare-teams.md)
 ## [Pilot essentials: Start your journey to Teams](pilot-essentials.md)
 ## [Side-by-Side Guidance: Skype for Business and Teams](guidance-SkypeforBusiness.md)
-## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
 ## [Continue your journey from Skype for Business to  Teams](continue-journey.md)
-
+## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)
