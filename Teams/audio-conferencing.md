@@ -28,7 +28,7 @@ Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td align="left">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
+<td valign="center">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
 </tr>
 </thead>
 <tbody>
