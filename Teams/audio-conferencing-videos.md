@@ -26,6 +26,3 @@ Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).
 | Number porting for Audio Conferencing | <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |
 
 
-
-
-
