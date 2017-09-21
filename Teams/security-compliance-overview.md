@@ -67,10 +67,6 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 ![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
-| | |
-|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Important</br>    |There can be up to a 24-hr delay to discover Teams content.         |
-
 > [!IMPORTANT]
 > There can be up to a 24-hr delay to discover Teams content.
 
