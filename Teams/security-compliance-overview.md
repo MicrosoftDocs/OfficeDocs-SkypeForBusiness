@@ -69,7 +69,10 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 
 | | |
 |---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Important</br>    |There can be an up to 24hr delay to discover Teams content.         |
+|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image2.png)<br>Important</br>    |There can be up to a 24-hr delay to discover Teams content.         |
+
+> [!IMPORTANT]
+> There can be up to a 24-hr delay to discover Teams content.
 
 Additionally, Microsoft is considering providing the following security features for Microsoft Teams. Once available, guidance will be provided on how customers can leverage the features:
 
