@@ -13,11 +13,11 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Planning workshop kit and practical guide for Microsoft Teams
 =============================================================
 
-Download these planning tools and practical guidance to walk you through rolling out Microsoft Teams in your organization.
+Download these planning tools and practical guidance to walk you through rolling out Teams in your organization.
 
-- Microsoft Teams Pre-workshop Questionnaire.docx (hyperlink to download for this doc)
+- Microsoft Teams Pre-workshop Questionnaire (hyperlink to download for this doc)
     
-    The Microsoft Teams Pre-workshop Questionnaire.docx is intended to be used to collect basic information about an organizations current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.
+    The Microsoft Teams Pre-workshop Questionnaire is intended to be used to collect basic information about an organizations current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.
 
 - Planning Workshop for Microsoft Teams.pptx (hyperlink to download for this doc) 
     
