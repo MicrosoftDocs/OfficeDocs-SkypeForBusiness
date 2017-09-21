@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn about Microsoft teams, its infrastructure, and using Office 365 with it.
+description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
@@ -14,7 +14,7 @@ Overview of Microsoft Teams
 ===========================
 |  |  |
 |---------|---------|
-|  |<iframe width="560" height="315" src="https://www.youtube.com/embed/FFQszYALS_A" frameborder="0" allowfullscreen></iframe> |
+||<iframe width="560" height="315" src="https://www.youtube.com/embed/FFQszYALS_A" frameborder="0" allowfullscreen></iframe> |
 
 Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
 
