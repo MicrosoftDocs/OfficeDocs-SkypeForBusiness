@@ -3,7 +3,7 @@ title: Prepare for your journey to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/17
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting your journey from Skype for Business to Microsoft Teams.
@@ -36,7 +36,7 @@ Network Readiness Assessment
 
 You must perform a *Network Readiness Assessment* before implementing any Real Time Communications product such as Microsoft Teams. A *Network Reading Assessment* focusses on network performance, network planning, and other general networking aspects such as ports and protocols that must be opened. Even if you are currently using a Real-Time Communications product, such as Skype for Business, the Network Readiness Assessment will help validate your network readiness.
 
-A network readiness assessment can be found here: \<[Network Readiness Assessment](https://www.skypeoperationsframework.com/Offers/?pageState=NetworkReadiness)\>
+A network readiness assessment can be found here: [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=859069)
 
 My Advisor
 ----------
@@ -52,7 +52,7 @@ Before you start onboarding your users to Microsoft Teams, make sure that your c
 
 You can watch the CQD videos that provide guidance on how to use Call Quality Dashboard to Investigate media quality here: [CQD Videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-To learn more about Call Analytics: [Skype for Business Call Analytics](https://support.office.com/en-us/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd)
+To learn more about Call Analytics: [Skype for Business Call Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd)
 
 Quality Champion Role
 ---------------------
@@ -61,7 +61,7 @@ Organizations should identify a person to take on the role of Quality Champion. 
 
 The Quality Champion role should be the go-to person for any call quality related issues and should act as the subject matter expert (SME) for the identification of quality issues by reviewing ongoing usage and quality trends and identifying action items. The Quality Champion role should work with the respective teams to drive remediation actions, reporting to a steering committee on the progress and open issues. The best candidate for the Quality Champion role is typically the customer service owner. Depending on the organization size and complexity, any person who is passionate about user experience and has the skills to identify trends can act as a Quality Champion, supported by the right level of sponsorship to work with other teams to drive remediation.
 
-More information on the Quality Champion concept and the quality review tools and techniques can be found here: [Manage a quality and reliable service delivery workshop](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_4_0_14).
+More information on the Quality Champion concept and the quality review tools and techniques can be found here: [Manage a quality and reliable service delivery workshop](https://go.microsoft.com/fwlink/?linkid=859071).
 
  Environmental Requirements
 ===========================
@@ -70,7 +70,7 @@ Teams combines multiple Office 365 services and is therefore dependent on the co
 
 While not all services are required it is highly recommended to implement them. If you choose to not implement certain services, this will impact the functionality that Teams can offer your organization. For example, while you are not required to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in groups. Not implementing SharePoint Online will affect functionality offered through the client.
 
-You can find out the requirements by completing the following checklist here: [Success With Teams/Getting Started](https://www.successwithteams.com/GetStartedSection?name=MicrosoftTeams#headingSectionId=Checklist)
+You can find out the requirements by completing the following checklist here: [Success With Teams/Getting Started](https://go.microsoft.com/fwlink/?linkid=859072)
 
 
 
