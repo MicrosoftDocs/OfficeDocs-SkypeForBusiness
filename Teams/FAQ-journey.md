@@ -218,7 +218,7 @@ Microsoft has been evolving the visual design for UC continuously. Skype consume
 
 Yes, Microsoft provides a full Mac client for Microsoft Teams.
 
-### Wil there be parity between the Windows and MAC clients for Microsoft Teams?
+### Will there be parity between the Windows and MAC clients for Microsoft Teams?
 
 One platform delivers both Windows and MAC client experiences for Microsoft Teams.
 
