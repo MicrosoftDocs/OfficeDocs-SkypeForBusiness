@@ -83,21 +83,13 @@ A formal pilot should define your targeted path forward and include a project te
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<th align="left"><strong>Next Action:</strong></th>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><strong>Next Action:</strong><ul><li>Enlist your pilot program team</li><li>Articulate the business scenarios and features you will test as part of your pilot</li><li>Finalize your success criteria and goals</li><li>Establish your pilot timeline</li></ul></td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
-
--   Enlist your pilot program team
-
--   Articulate the business scenarios and features you will test as part of your pilot
-
--   Finalize your success criteria and goals
-
--   Establish your pilot timeline
 
 ### Step Two: Select your Pilot Participants
 
@@ -108,7 +100,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image1.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image1.png" /></p></td>
 <td align="left"><strong>TIP:</strong> When selecting your Teams pilot group participants, be sure to include both high-adopters of Skype for Business as well as users/groups who would benefit from the teamwork hub capabilities of Teams. Consider using a current cross-team project workstream for pilot user selection as well as a realistic use case for your test plan.</td>
 </tr>
 </thead>
@@ -119,7 +111,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
 </tr>
 </thead>
@@ -134,7 +126,7 @@ A successful pilot experience provides your participants with clearly defined ta
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left"><strong>Next Action:</strong> Tailor the sample test plan and feedback survey found in the <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> based on the use cases and features you will be testing.</td>
 </tr>
 </thead>
@@ -149,7 +141,7 @@ Educating your pilot participants on what is happening, when and why, as well as
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left"><strong>Next Action:</strong> Customize the sample email templates found in the <a href="https://go.microsoft.com/fwlink/?linkid=859067">Pilot Essentials Resources</a> based on the use cases and features you will be testing.</td>
 </tr>
 </thead>
@@ -180,7 +172,7 @@ A suggested timeline based on a 30-day pilot is provided below:
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td><p><strong>Next Action:</strong> Tailor the timeline actions based on your pilot timeline.</p></td>
 </tr>
 </thead>
@@ -232,7 +224,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image1.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image1.png" /></p></td>
 <td align="left"><strong>Note:</strong> Be sure to leverage your pilot participants as <a href="https://go.microsoft.com/fwlink/?linkid=859068">Champions</a> to help evangelize and onboard new users to Teams.</td>
 </tr>
 </thead>
@@ -243,18 +235,15 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image2.png" /></p></td>
+<td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left">
-<p><strong>Next Action:</strong></p></td>
+<p><strong>Next Action:</strong></p><ul><li>Analyze your pilot learnings and determine your path forward. If you opt to deploy Teams alongside Skype for Business, be sure to leverage the [user readiness templates](https://go.microsoft.com/fwlink/?linkid=859044) to help get your started.</li><li>View and bookmark the [Teams roadmap](https://go.microsoft.com/fwlink/?linkid=859047).</li></ul></td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
--   Analyze your pilot learnings and determine your path forward. If you opt to deploy Teams alongside Skype for Business, be sure to leverage the [user readiness templates](https://go.microsoft.com/fwlink/?linkid=859044) to help get your started.
-
--   View and bookmark the [Teams roadmap](https://go.microsoft.com/fwlink/?linkid=859047).
 
 
 
