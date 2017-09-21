@@ -15,6 +15,11 @@ Overview of Microsoft Teams
 
 ![Chat-based workspace in Office 365](media/Overview-Microsoft-Teams-image1.png)
 
+|  |  |
+|---------|---------|
+| Welcome to Microsoft Teams   |<iframe width="560" height="315" src="https://www.youtube.com/embed/FFQszYALS_A" frameborder="0" allowfullscreen></iframe> |
+
+
 Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
 
 Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
