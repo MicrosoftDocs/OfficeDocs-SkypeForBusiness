@@ -20,21 +20,21 @@ Microsoft is working hard to bring you tailored practical guidance to ensure tha
 
 -   **Promote adoption of Teams alongside Skype for Business with your end-users**
 
-    -   Customize and share Skype and Teams “side-by-side” [User Readiness](http://aka.ms/UserReadiness) resources
+    -   Customize and share Skype and Teams “side-by-side” [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources
 
     -   Share Teams [Training](https://support.office.com/en-us/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve
 
     -   Provide Teams [Help](https://support.office.com/) topics for users to accelerate their onboarding
 
-    -   New to adoption and change management? Leverage the [Office 365 Adoption Guide](http://aka.ms/office365adoptionguide)
+    -   New to adoption and change management? Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)
 
 -   **Ready your organization to implement your future move to Teams**
 
-    -   Utilize the[ Roadmap](http://aka.ms/TeamsRoadmap) to navigate your journey to Teams
+    -   Utilize the[ Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams
 
-    -   Leverage [Teams Resources](http://aka.ms/successwithteams) and [FastTrack](http://fasttrack.microsoft.com) for assistance with deploying Teams
+    -   Leverage [Teams Resources](https://go.microsoft.com/fwlink/?linkid=859048) and [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) for assistance with deploying Teams
 
-    -   Contact[ Partners](https://pinpoint.microsoft.com/en-US/Home/Office) should you need assistance with your Teams deployment or journey
+    -   Contact[ Partners](https://go.microsoft.com/fwlink/?linkid=859050) should you need assistance with your Teams deployment or journey
 
 
 
