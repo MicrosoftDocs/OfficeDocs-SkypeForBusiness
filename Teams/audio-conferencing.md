@@ -13,7 +13,8 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Audio Conferencing in Microsoft Teams
 =====================================
 
-*Before you start, please note that Audio Conferencing in Teams is currently available as Public Preview feature, and this guidance is still a work in progress.*
+> [!NOTE]
+> Audio conferencing is in Public Preview. It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.
 
 Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
 
@@ -42,7 +43,7 @@ Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?l
 Envision <a name="Envision_AudioConferencing"> </a>
 =========
 
-The Envision phase provides the foundation for the Office 365 customer journey, and is applicable to all workloads such as Audio Conferencing.
+The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads such as Audio Conferencing.
 
 In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:
 
@@ -1484,6 +1485,9 @@ In general, a technical implementation plan will contain the following main sect
 
 With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.
 
+### See also
+[Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-audio-conferencing-for-Skype-for-Business-and-Microsoft-Teams-d01954f1-4f37-4cf5-a636-20039e5c59e9)
+
 Onboard
 =======
 
@@ -1493,3 +1497,4 @@ Drive Value
 ===========
 
 *Coming soon.*
+
