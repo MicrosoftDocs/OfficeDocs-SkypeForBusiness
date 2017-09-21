@@ -1441,13 +1441,13 @@ The settings, available as tenant-level configurations, are applicable to all us
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Allow scheduling for private meetings</strong></th>
+<td align="left"><strong>Allow scheduling for private meetings</strong></td>
 <td align="left">Enabled</td>
 </tr>
 </thead>
 <thead>
 <tr class="odd">
-<th align="left"><strong>Allow scheduling for channel meetings</strong></th>
+<td align="left"><strong>Allow scheduling for channel meetings</strong></td>
 <td align="left">Disabled</td>
 </tr>
 </tbody>
