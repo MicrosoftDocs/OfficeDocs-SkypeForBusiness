@@ -91,7 +91,7 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Offers enterprise telephony functionality.
 
--   See [How Skype for Business and Teams interact](Understand_how_Skype_for_Business_and_Microsoft_Teams_interact.md)
+-   See [How Skype for Business and Teams interact](SkypeforBusiness-interact.md)
 
 ![](media/Overview_of_Microsoft_Teams_image5.png)
 
@@ -101,4 +101,4 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Full-powered SharePoint team site automatically provisioned for every Microsoft Team for file storage, team news, pages, lists and more.
 
--   See [How SharePoint Online and OneDrive for Business interact with Teams](Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams.md)
+-   See [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
