@@ -13,39 +13,33 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Audio Conferencing in Microsoft Teams
 =====================================
 
-
 *Before you start, please note that Audio Conferencing in Teams is currently available as Public Preview feature, and this guidance is still a work in progress.*
 
-Audio Conferencing Overview
-===========================
+Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
 
-The Audio Conferencing (formerly known as PSTN Conferencing) feature within Office 365 allows participants to join your meetings from any telephone. This feature is now available in Microsoft Teams, allowing users to join Teams meetings using their phones.
-
-Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) service in Office 365.
+Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
 <table>
 <thead>
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td align="left" valign="center">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
+<td align="left" valign="center">Audio Conferencing service supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
+> [!NOTE]
+> Audio Conferencing supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.
+
+
 |  |  |
 |---------|---------|
 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/cOOLZJCFjKw" frameborder="0" allowfullscreen></iframe>   | |
 
-
-Introduction
-============
-
-This Practical Guidance will step through the Office 365 FastTrack customer journey framework and its three phases, Envision, Onboard, and Drive Value, in relation to the Audio Conferencing service in Office 365.
-
-Envision 
+Envision <a name="Envision_AudioConferencing"> </a>
 =========
 
 The Envision phase provides the foundation for the Office 365 customer journey, and is applicable to all workloads such as Audio Conferencing.
