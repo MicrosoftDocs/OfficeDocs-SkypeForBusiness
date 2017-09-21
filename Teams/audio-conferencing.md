@@ -251,7 +251,7 @@ _Table 2 Stakeholder matrix template example_
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
 </tr>
@@ -450,7 +450,7 @@ To perform persona analysis, you can conduct a workshop by involving relevant pr
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Microsoft Teams. Feel free to modify and remove items that are not relevant to the project goals.</td>
 </tr>
@@ -608,14 +608,14 @@ After confirming your organization’s eligibility for obtaining the Audio Confe
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
 <td align="left"><p>Decide which user locations or offices will implement the Audio Conferencing service.</p></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><p>Document the user locations or offices to be enabled for the Audio Conferencing service.</p></td>
 </tr>
@@ -701,7 +701,7 @@ If your organization chooses to use auto-recharge, a recommendation on the trigg
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>If your organization has not already purchased the required Audio Conferencing licensing, decide whether Audio Conferencing licenses will be acquired by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-ons.</li>
 <li>Decide if Communications Credits is required for Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li></ul></td>
@@ -709,7 +709,7 @@ If your organization chooses to use auto-recharge, a recommendation on the trigg
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the users that will be assigned Audio Conferencing license.</li>
 <li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</li></ul></td>
@@ -830,7 +830,7 @@ Full description of the included capabilities can be referenced from [Set up dia
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/en-us/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</td>
 </tr>
@@ -844,7 +844,7 @@ If there are existing conference bridge phone numbers that must be transferred t
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> for the details.</td>
 </tr>
@@ -860,7 +860,7 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>Decide whether the organization requires dedicated conference bridge phone numbers</li>
 <li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (obtain from Microsoft or transfer existing phone numbers)</li>
@@ -871,7 +871,7 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</li>
 <li>If applicable, complete <a href="https://support.office.com/en-us/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</li>
@@ -924,7 +924,7 @@ _Table 10 Example of conference bridge details_
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
 </tr>
@@ -962,7 +962,7 @@ Additional configurations that can be applied for each user are available to con
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">These cost-related controls are currently available for preview customers only. You can enroll your organization to the preview program from <a href="https://go.microsoft.com/fwlink/?linkid=859013" class="uri">https://www.skypepreview.com</a></td>
 </tr>
@@ -976,7 +976,7 @@ With these controls, you can decide whether meeting organizers can provide toll-
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>Decide whether the organization requires entry and exit notifications, and if yes, the type of notification to be implemented (tones, phone number, or recorded name).</li>
 <li>Decide the Audio Conferencing PIN length that meets the organizational security requirements.</li>
@@ -989,7 +989,7 @@ With these controls, you can decide whether meeting organizers can provide toll-
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification).</li>
 <li>Document the conference bridge phone numbers to be assinged to each meeting organizer and the corresponding setting to control unauthenticated caller’s policy, and toll-free and dial out controls.</li></ul></td>
@@ -1175,7 +1175,7 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">Check out the <a href="https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</td>
 </tr>
@@ -1193,7 +1193,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</li>
 <li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li>
@@ -1203,7 +1203,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Audio Conferencing implementation.</li>
 <li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
@@ -1407,7 +1407,7 @@ Since Audio Conferencing is only available for scheduled meetings, tenant-level 
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left"><p>Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</p>
 <p>In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.</p></td>
@@ -1422,7 +1422,7 @@ The settings, available as tenant-level configurations, are applicable to all us
 <table>
 <thead>
 <tr class="header">
-<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Point</td>
 <td align="left"><p>Decide if the organization requires to enable or disable scheduling of private meetings.</p>
 <p>Decide if the organization requires to enable or disable scheduling of channel meetings.</p></td>
@@ -1430,7 +1430,7 @@ The settings, available as tenant-level configurations, are applicable to all us
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
+<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><p>Document the meeting scheduling configurations for Microsoft Teams.</p></td>
 </tr>
