@@ -49,4 +49,4 @@ This setup would look like this in Microsoft Teams:
 
  
 
-*In order to track these decision points, feel free to download the Decision Points Summary.*
+*In order to track these decision points, feel free to download the [Decision Points Summary](https://www.microsoft.com/en-us/download/55981).*

@@ -432,7 +432,7 @@ To achieve the intended OKRs, you may have to define the high-level architecture
 
 All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Audio Conferencing business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.
 
-Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://go.microsoft.com/fwlink/?linkid=858995).
+Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://go.microsoft.com/fwlink/?linkid=858995).
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of the Audio Conferencing service.
 
@@ -568,7 +568,7 @@ Following an adoption readiness assessment, further detailed planning must be co
 
 Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.
 
-The templates for adoption activities are available [here](https://www.microsoft.com/en-us/download/details.aspx?id=54244%22﷟HYPERLINK%20%22https://aka.ms/TeamsCloudVoiceResourceKit)[](https://aka.ms/TeamsCloudVoiceResourceKit).
+The templates for adoption activities are available [here](https://www.microsoft.com/download/details.aspx?id=54244%22﷟HYPERLINK%20%22https://aka.ms/TeamsCloudVoiceResourceKit)[](https://aka.ms/TeamsCloudVoiceResourceKit).
 
 ### Operational plan
 
@@ -588,7 +588,7 @@ To plan for the implementation of Audio Conferencing in Microsoft Teams, a serie
 
 ### Availability of Audio Conferencing
 
-Audio Conferencing is available in these [countries and regions](https://support.office.com/en-us/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).
+Audio Conferencing is available in these [countries and regions](https://support.office.com/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).
 
 <table>
 <thead>
@@ -664,7 +664,7 @@ _Table 7 Example of Audio Conferencing service site enablement list_
 
 ### Licensing for Audio Conferencing
 
-[Audio Conferencing license](https://support.office.com/en-us/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
+[Audio Conferencing license](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
 
 <table>
 <thead>
@@ -679,7 +679,7 @@ _Table 7 Example of Audio Conferencing service site enablement list_
 </tbody>
 </table>
 
-To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) for your organization.
+To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) for your organization.
 
 <table>
 <thead>
@@ -696,7 +696,7 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 
 The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from the [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation.
 
-If your organization chooses to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and the recharge amount needs to be adjusted as required.
+If your organization chooses to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and the recharge amount needs to be adjusted as required.
 
 <table>
 <thead>
@@ -825,14 +825,14 @@ The Audio Conferencing service in Office 365 includes:
 
 -   A default phone number for the tenant.
 
-Full description of the included capabilities can be referenced from [Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/en-us/article/Set-up-dial-in-or-PSTN-conferencing-for-Skype-for-Business-d01954f1-4f37-4cf5-a636-20039e5c59e9?ui=en-US&rs=en-US&ad=US) and [Phone numbers for dial-in conferencing](https://support.office.com/en-us/article/Phone-numbers-for-dial-in-conferencing-95a08f84-04e5-4f72-88a8-d6472a7c89d7?ui=en-US&rs=en-US&ad=US)**.**
+Full description of the included capabilities can be referenced from [Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-dial-in-or-PSTN-conferencing-for-Skype-for-Business-d01954f1-4f37-4cf5-a636-20039e5c59e9?ui=en-US&rs=en-US&ad=US) and [Phone numbers for dial-in conferencing](https://support.office.com/article/Phone-numbers-for-dial-in-conferencing-95a08f84-04e5-4f72-88a8-d6472a7c89d7?ui=en-US&rs=en-US&ad=US)**.**
 
 <table>
 <thead>
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/en-us/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</td>
+<td align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</td>
 </tr>
 </thead>
 <tbody>
@@ -855,7 +855,7 @@ If there are existing conference bridge phone numbers that must be transferred t
 
 | <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |  |
 
-Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
+Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
 
 <table>
 <thead>
@@ -874,7 +874,7 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 <td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</li>
-<li>If applicable, complete <a href="https://support.office.com/en-us/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</li>
+<li>If applicable, complete <a href="https://support.office.com/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</li>
 <li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Audio Conferencing implementation timeline accordingly.</li>
 <li>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number)</li></ul></td>
 </tr>
@@ -1156,7 +1156,7 @@ _Table 12 Example of conference bridge settings assignments_
 
 ### Dial Plans
 
-A [Dial Plan](https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
+A [Dial Plan](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
 
 A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out.
 
@@ -1177,7 +1177,7 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td align="left">Check out the <a href="https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</td>
+<td align="left">Check out the <a href="https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</td>
 </tr>
 </thead>
 <tbody>

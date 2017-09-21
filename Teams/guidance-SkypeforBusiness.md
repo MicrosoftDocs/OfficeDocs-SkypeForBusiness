@@ -32,12 +32,13 @@ In general, there are two major side-by-side- customer journeys. They are::
 
     IT controls the side-by-side experience, taking endusers through a journey of gradually introducing Teams to first introduce a new chat-based collaboration workspace, then meeting experiences, and finally chat and calling experiences in Teams.
 
+![](media/guidance_SkypeforBusiness_image1.png)
+
 Side-by-Side benefits and considerations
 ----------------------------------------
 
 Each journey has benefits and considerations to weigh when determining the right path forward based on your organization's profile. The table below provides the comparisons between managed and unmanaged side-by-side customer journeys.
 
-Table 1: Side-by-Side benefits and considerations
 
 <table>
 <thead>
@@ -50,69 +51,53 @@ Table 1: Side-by-Side benefits and considerations
 <tbody>
 <tr class="odd">
 <td align="left"><strong>Organization profile</strong></td>
-<td align="left"><blockquote>
-<p>Typically, smaller organizations with no dedicated IT resources</p>
-</blockquote>
-<blockquote>
-<p>IT allows user discretion in selecting right tools for their work</p>
-</blockquote>
-<blockquote>
-<p>Primary Skype for Business usage is IM/P and meetings</p>
-</blockquote></td>
-<td align="left"><p>Typically, mid-size to larger organizations</p>
-<p>IT wants to control roll out of new tools more rigorously</p>
-<p>Deeper adoption of Skype for Business today</p>
-<p>Increased complexity in network and infrastructure</p>
-<p>Multiple locations</p>
-<p>Preference for single app with unique UC capabilities</p></td>
+<td align="left"><ul>
+<li>Typically, smaller organizations with no dedicated IT resources</li>
+<li>IT allows user discretion in selecting right tools for their work</li>
+<li>Primary Skype for Business usage is IM/P and meetings</li>
+</ul></td>
+<td align="left"><ul><li>Typically, mid-size to larger organizations</li>
+<li>IT wants to control roll out of new tools more rigorously</li>
+<li>Deeper adoption of Skype for Business today</li>
+<li>Increased complexity in network and infrastructure</li>
+<li>Multiple locations</p>
+<li>Preference for single app with unique UC capabilities</li></ul></td>
 </tr>
 <tr class="even">
 <td align="left"><strong>Benefits</strong></td>
-<td align="left"><blockquote>
-<p>Leverage capabilities in Teams that are not available in Skype for Business</p>
-</blockquote>
-<blockquote>
-<p>Enhanced modern workplace within Office 365</p>
-</blockquote>
-<blockquote>
-<p>Increased user flexibility</p>
-</blockquote>
-<blockquote>
-<p>Enable all capabilities at once</p>
-</blockquote></td>
-<td align="left"><p>Leverage capabilities in Teams that are not available in Skype for Business</p>
-<p>Enhanced modern workplace within Office 365</p>
-<p>Minimize user productivity impact</p>
-<p>Reduce capability overlap</p>
-<p>Streamline tool choice for UC scenarios</p>
-<p>Empower IT and business to enable capabilities as appropriate in organization</p>
-<p>Control the pace of change for endusers</p></td>
+<td align="left"><ul>
+<li>Leverage capabilities in Teams that are not available in Skype for Business</li>
+<li>Enhanced modern workplace within Office 365</li>
+<li>Increased user flexibility</li>
+<li>Enable all capabilities at once</li>
+</ul></td>
+<td align="left"><ul><li>Leverage capabilities in Teams that are not available in Skype for Business</li>
+<li>Enhanced modern workplace within Office 365</li>
+<li>Minimize user productivity impact</li>
+<li>Reduce capability overlap</li>
+<li>Streamline tool choice for UC scenarios</li>
+<li>Empower IT and business to enable capabilities as appropriate in organization</li>
+<li>Control the pace of change for endusers</li></ul></td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>Considerations</strong></td>
-<td align="left"><blockquote>
-<p>Multiple apps with similar, overlapping capabilities</p>
-</blockquote>
-<blockquote>
-<p>Increased potential for user confusion which can lead to increased support calls, shadow IT, impacted productivity</p>
-</blockquote>
-<blockquote>
-<p>Network planning and monitoring must take usage of two services into consideration</p>
-</blockquote>
-<blockquote>
-<p>Increased and immediate change management efforts required—awareness, training, and support</p>
-</blockquote>
-<blockquote>
-<p>Users may experience interoperability limitations between apps</p>
-</blockquote></td>
-<td align="left"><p>IT has granular control, from licensing to enduser experiences, requiring additional cycles of planning and implementation</p>
-<p>User education and action required to disable select capabilities in Teams</p>
-<p>Change management efforts required to disable select capabilities i</p>
-<p>Network planning and monitoring must take usage of two services into consideration</p>
-<p>Users may experience interoperability limitations between apps</p></td>
+<td align="left"><ul>
+<li>Multiple apps with similar, overlapping capabilities</li>
+<li>Increased potential for user confusion which can lead to increased support calls, shadow IT, impacted productivity</li>
+<li>Network planning and monitoring must take usage of two services into consideration</li>
+<li>Increased and immediate change management efforts required—awareness, training, and support</li>
+<li>Users may experience interoperability limitations between apps</li>
+</ul></td>
+<td align="left"><ul><li>IT has granular control, from licensing to enduser experiences, requiring additional cycles of planning and implementation</li>
+<li>User education and action required to disable select capabilities in Teams</li>
+<li>Change management efforts required to disable select capabilities in Teams</li>
+<li>Network planning and monitoring must take usage of two services into consideration</li>
+<li>Users may experience interoperability limitations between apps</li></ul></td>
 </tr>
 </tbody>
 </table>
+
+_Table 1: Side-by-Side benefits and considerations_
 
 Unmanaged side-by-side customer journey
 ---------------------------------------
@@ -133,6 +118,8 @@ This side-by-side customer journey may be applicable to your organization, where
 
 Managed side-by-side customer journey
 -------------------------------------
+
+![](media/guidance_SkypeforBusiness_image2.png)
 
 A managed side-by-side customer journey starts with organization wanting more control over how Teams is introduced.
 
@@ -172,8 +159,6 @@ Since by default everybody in your organization with an eligible Office 365 subs
 
 To focus the release of Teams as a collaboration solution, and to avoid endusers' confusion due to overlapping capabilities with Skype for Business, the following settings can be configured at the Tenant level from their default values.
 
-Table 2 Teams for collaboration tenant settings
-
 <table>
 <thead>
 <tr class="header">
@@ -184,29 +169,31 @@ Table 2 Teams for collaboration tenant settings
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">General</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>General</strong></td>
+<td align="left"><p>Use Skype for Business for recipients who don’t have Microsoft Teams: <strong>Off</strong></p></td>
+<td align="left"><p>Disabling this setting disables interoperability between Microsoft Teams and Skype for Business Online</p></td>
 </tr>
 <tr class="even">
-<td align="left">Calls and meetings</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Calls and meetings</strong></td>
+<td align="left"><p>Allow scheduling for private meetings: <strong>Off</strong></p><p>Allow scheduling for channel meetings: <strong>Off</strong></p><p>Allow private calling: <strong>Off</strong></p></td>
+<td align="left"><p>Disabling this setting prevents users from scheduling private meetings</p><p>Disabling this setting prevents users from scheduling channel meetings</p><p>Disabling this setting prevents users from making private calls (audio and video)</p></td>
 </tr>
 <tr class="odd">
-<td align="left">Messaging</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Messaging</strong></td>
+<td align="left"><p>Allow users to chat privately: <strong>Off</strong></p></td>
+<td align="left"><p>Disabling this setting prevents users from chatting privately with other Microsoft Teams’ users</p></td>
 </tr>
 </tbody>
 </table>
 
+_Table 2 Teams for collaboration tenant settings_
+
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image3.emf" /></p>
-<p>Note</p></th>
-<th align="left">You need to disable private calling and private chat to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</th>
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">You need to disable private calling and private chat to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</td>
 </tr>
 </thead>
 <tbody>
@@ -224,9 +211,9 @@ As users are getting accustomed to collaborating using Microsoft Teams, schedule
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image3.emf" /></p>
-<p>Note</p></th>
-<th align="left">The organizers of scheduled meetings must have their mailboxes in Exchange Online multi-tenant (or Exchange Online Dedicated vNext).</th>
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">The organizers of scheduled meetings must have their mailboxes in Exchange Online multi-tenant (or Exchange Online Dedicated vNext).</td>
 </tr>
 </thead>
 <tbody>
@@ -235,8 +222,6 @@ As users are getting accustomed to collaborating using Microsoft Teams, schedule
 
 The following settings can be configured at the tenant level to enable scheduled meetings in Teams, and the settings are applicable to Business and Enterprise users only.
 
-Table 3: Teams for meetings tenant settings
-
 <table>
 <thead>
 <tr class="header">
@@ -247,12 +232,14 @@ Table 3: Teams for meetings tenant settings
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Calls and meetings</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Calls and meetings</strong></td>
+<td align="left"><p>Allow scheduling for private meetings: <strong>On</strong></p><p>Allow scheduling for channel meetings: <strong>On</strong></p></td>
+<td align="left"><p>Enabling this setting allows users to schedule private meetings</p><p>Enabling this setting allows users to schedule channel meetings</p></td>
 </tr>
 </tbody>
 </table>
+
+_Table 3: Teams for meetings tenant settings_
 
 Scheduled meetings can be organized via the Teams desktop client, a browser, or via Microsoft Outlook using the meeting add-in for Microsoft Teams. Once scheduled meetings in Teams is enabled, we recommend you start educating endusers to **create new Teams meetings or update existing Skype for Business meetings to Teams meetings.**
 
@@ -260,8 +247,6 @@ Scheduled meetings can be organized via the Teams desktop client, a browser, or 
 
 Private chat and calling are the capabilities in Microsoft Teams that will be continuously developed, and over time provide a compelling replacement to Skype for Business. When your organization considers that Teams private chat and calling capabilities meet key business requirements, the following settings can be configured at the tenant level to enable private chat and calling in Teams. The Calls and Meetings, and Messaging settings need to be applied to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).
 
-Table 4: Teams for chat and calling
-
 <table>
 <thead>
 <tr class="header">
@@ -272,22 +257,24 @@ Table 4: Teams for chat and calling
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">General</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>General</strong></td>
+<td align="left"><p>Use Skype for Business for recipients who don’t have Microsoft Teams: <strong>On</strong></p></td>
+<td align="left"><p>Enabling this setting allows interoperability between Microsoft Teams and Skype for Business Online for both chat and calling </p></td>
 </tr>
 <tr class="even">
-<td align="left">Calls and meetings</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Calls and meetings</strong></td>
+<td align="left"><p>Allow private calling: <strong>On</strong></p></td>
+<td align="left"><p>Enabling this setting allows users to place private calls (audio and video)</p></td>
 </tr>
 <tr class="odd">
-<td align="left">Messaging</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Messaging</strong></td>
+<td align="left"><p>Allow users to chat privately: <strong>On</strong></p></td>
+<td align="left"><p>Enabling this setting allows users to chat with other users privately</p></td>
 </tr>
 </tbody>
 </table>
+
+_Table 4: Teams for chat and calling_
 
 At this stage, all users must be instructed to choose Teams as the preferred chat and calling app.
 
@@ -296,9 +283,9 @@ With the enablement of private chat and calling, Teams will deliver all capabili
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image3.emf" /></p>
-<p>Note</p></th>
-<th align="left">To learn about Teams, please see the Get started section. &lt;insert link&gt;</th>
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">To learn about Teams, please see the Get started section. &lt;insert link&gt;</td>
 </tr>
 </thead>
 <tbody>
