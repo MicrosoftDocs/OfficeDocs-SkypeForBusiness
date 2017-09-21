@@ -35,7 +35,10 @@ Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?
 </tbody>
 </table>
 
-Please watch our [introduction to Audio Conferencing video](https://go.microsoft.com/fwlink/?linkid=858993).
+|  |  |
+|---------|---------|
+|  <iframe width="350" height="200" src="https://www.youtube.com/embed/cOOLZJCFjKw" frameborder="0" allowfullscreen></iframe>   | |
+
 
 Introduction
 ============
@@ -584,7 +587,10 @@ Planning for Audio Conferencing in Microsoft Teams
 
 To plan for the implementation of Audio Conferencing in Microsoft Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
 
-To better understand the technical steps for planning Audio Conferencing [please watch our video](https://youtu.be/Q3dnPyCOUKM).
+|  |  |
+|---------|---------|
+|  <iframe width="350" height="200" src="https://www.youtube.com/embed/Q3dnPyCOUKM" frameborder="0" allowfullscreen></iframe>    | |
+
 
 ### Availability of Audio Conferencing
 
@@ -853,7 +859,7 @@ If there are existing conference bridge phone numbers that must be transferred t
 </tbody>
 </table>
 
-To learn more about transferring phone number, [please watch this video](https://go.microsoft.com/fwlink/?linkid=859012). 
+| <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |  |
 
 Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
 
