@@ -15,11 +15,11 @@ Overview of security and compliance in Microsoft Teams
 
 Microsoft Teams is built on the Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect.
 
-Microsoft Teams is Tier C-compliant at launch. This includes the following standards: ISO 27001, ISO 27018, SSAE16 SOC 1 and SOC 2, HIPAA, and EU Model Clauses (EUMC). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
+Teams is Tier C-compliant at launch. This includes the following standards: ISO 27001, ISO 27018, SSAE16 SOC 1 and SOC 2, HIPAA, and EU Model Clauses (EUMC). Within the Microsoft compliance framework, Microsoft classifies Office 365 applications and services into four categories. Each category is defined by specific compliance commitments that must be met for an Office 365 service, or a related Microsoft service, to be listed in that category.
 
 Services in compliance categories C and D that have industry-leading compliance commitments are enabled by default. Services in categories A and B come with controls to turn on or turn off these services for an entire organization. Details can be found in the [Compliance Framework for Industry Standards and Regulations](https://go.microsoft.com/fwlink/?linkid=855777). Microsoft Teams also supports Cloud Security Alliance compliance.
 
-Microsoft Teams also enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption.
+Teams also enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption.
 
 We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune.
 
@@ -37,7 +37,7 @@ These tools reside in the Office 365 Security and Compliance Portal and provide 
 
     -   Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation.
 
-    -   Capabilities include case management, preservation, search, analysis and export of Microsoft Teams data. This includes chat, messaging and file data.
+    -   Capabilities include case management, preservation, search, analysis and export of Teams data. This includes chat, messaging and file data.
 
     -   Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
 
@@ -70,7 +70,7 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 > [!IMPORTANT]
 > There can be up to a 24-hr delay to discover Teams content.
 
-Additionally, Microsoft is considering providing the following security features for Microsoft Teams. Once available, guidance will be provided on how customers can leverage the features:
+Additionally, Microsoft is considering providing the following security features for Teams. Once available, guidance will be provided on how customers can leverage the features:
 
 -   Tenant-specific retention Policy
 
@@ -108,18 +108,18 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
 |![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next Steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
 
-Before enabling any of these features, ensure you have access to the Security and Compliance Center in the Office 365 Admin Center. By default, tenant admins have access.
+Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 Admin center. By default, tenant admins have access.
 
-Content Search and eDiscovery do not require enablement within the Security and Compliance center.
+Content Search and eDiscovery do not require enablement within the Security & Compliance Center.
 
 Location of data in Microsoft Teams
 -----------------------------------
 
-Data in Microsoft Teams resides in the region based on tenant affinity. Currently, Microsoft Teams supports the Americas, EMEA, and APAC regions. In the future, Microsoft Teams will provide GoLocal support, where data remains in country (not just in region). Stay tuned to the [*Office 365 Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) for updates.
+Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. In the future, Teams will provide GoLocal support, where data remains in country (not just in region). Stay tuned to the [*Office 365 Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) for updates.
 
 Privacy in Microsoft Teams
 --------------------------
 
 As a customer of Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn’t have access to uploaded content. Like OneDrive for Business and SharePoint Online, customer data stays within the tenant.
 
-Check out more about our trust and security related information at the [*Office 365 Trust Center*](https://go.microsoft.com/fwlink/?linkid=855779). Microsoft Teams follows the same guidance and principles as the Office 365 Trust Center.
+Check out more about our trust and security related information at the [*Office 365 Trust Center*](https://go.microsoft.com/fwlink/?linkid=855779). Teams follows the same guidance and principles as the Office 365 Trust Center.
