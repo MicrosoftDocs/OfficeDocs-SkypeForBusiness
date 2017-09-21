@@ -28,7 +28,7 @@ Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td valign="center">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
+<td align="left" valign="center">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
 </tr>
 </thead>
 <tbody>
@@ -253,7 +253,7 @@ _Table 2 Stakeholder matrix template example_
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td valign="center">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
+<td style="vertical-align:top">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
 </tr>
 </thead>
 <tbody>
