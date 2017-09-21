@@ -20,18 +20,6 @@ Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows pa
 
 Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left" valign="center">Audio Conferencing service supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-
 > [!NOTE]
 > Audio Conferencing supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.
 
