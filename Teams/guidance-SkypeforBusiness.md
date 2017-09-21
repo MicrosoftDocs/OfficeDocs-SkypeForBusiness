@@ -3,7 +3,7 @@ title: Side-by-Side Guidance - Skype for Business and Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/17
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
