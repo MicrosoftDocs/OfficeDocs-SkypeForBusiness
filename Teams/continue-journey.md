@@ -22,7 +22,7 @@ Microsoft is working hard to bring you tailored practical guidance to ensure tha
 
     -   Customize and share Skype and Teams “side-by-side” [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources
 
-    -   Share Teams [Training](https://support.office.com/en-us/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve
+    -   Share Teams [Training](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve
 
     -   Provide Teams [Help](https://support.office.com/) topics for users to accelerate their onboarding
 

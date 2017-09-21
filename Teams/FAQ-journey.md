@@ -74,7 +74,7 @@ Roadmap
 
 ### How can customers learn when Skype for Business capabilities will be available in Microsoft Teams?
 
-We will make information on upcoming Teams features available on the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap).
+We will make information on upcoming Teams features available on the [Office 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=859057).
 
 ### What is the roadmap for new features in Teams? 
 
