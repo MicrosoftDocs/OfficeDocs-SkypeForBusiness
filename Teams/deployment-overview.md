@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn how to setup a deployment of Microsoft Teams.
+description: Learn how to set up a deployment of Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
@@ -17,7 +17,7 @@ A typical Microsoft Teams journey may take the following form:
 
 1.  Technical and legal assessment in the early stages to identify and define what controls are required to implement Microsoft Teams in your organization.
 
-2.  Undertake a Network assessment and prepare for the rollout. At this point you can start to create the adoption and change management strategy and key user stories that drive user engagement during and after the rollout.
+2.  Undertake a network assessment and prepare for the rollout. At this point you can start to create the adoption and change management strategy and key user stories that drive user engagement during and after the rollout.
 
 3.  Test these change management and adoption strategies with an IT Pilot.
 
@@ -34,7 +34,7 @@ Here’s an example of how you could set up a team / channel structure to help d
 
 |Team name |Channels  |Tabs  |
 |---------|---------|---------|
-|Get teams deployed<br></br>Members:<ul><li>Project Sponsor</li><li>Business Analyst</li><li>Project Manager</li><li>Collaboration IT Pro</li><li>Networking IT Pro</li><li>Adoption Lead </li><li>Support Lead</li></ul>Owners: <ul><li>Project Manager</li><li>Collaboration IT Pro</li></ul>      |Planning  and Readiness<br></br> Adoption<br></br> Rollout<br></br> Support<br></br> Insights<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Link practical guidance for Microsoft Teams web page ([www.SuccessWithTeams.com](https://go.microsoft.com/fwlink/?linkid=854396)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Get teams deployed<br></br>Members:<ul><li>Project Sponsor</li><li>Business Analyst</li><li>Project Manager</li><li>Collaboration IT Pro</li><li>Networking IT Pro</li><li>Adoption Lead </li><li>Support Lead</li></ul>Owners: <ul><li>Project Manager</li><li>Collaboration IT Pro</li></ul>      |Planning  and Readiness<br></br> Adoption<br></br> Rollout<br></br> Support<br></br> Insights<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Link practical guidance for Microsoft Teams web page ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 This setup would look like this in Microsoft Teams:
 
