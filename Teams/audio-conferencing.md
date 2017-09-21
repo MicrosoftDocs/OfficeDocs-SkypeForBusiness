@@ -1001,25 +1001,25 @@ With these controls, you can decide whether meeting organizers can provide toll-
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Enable meeting entry and exit notifications</strong></th>
+<td align="left"><strong>Enable meeting entry and exit notifications</strong></td>
 <td align="left">Enabled</td>
 </tr>
 </thead>
 <thead>
 <tr class="header">
-<th align="left"><strong>Entry/exit announcement type</strong></th>
+<td align="left"><strong>Entry/exit announcement type</strong></td>
 <td align="left">Tones</td>
 </tr>
 <tr class="header">
-<th align="left"><strong>Ask callers to record their name before joining the meeting</strong></th>
+<td align="left"><strong>Ask callers to record their name before joining the meeting</strong></td>
 <td align="left">Disabled</td>
 </tr>
 <tr class="header">
-<th align="left"><strong>PIN length</strong></th>
+<td align="left"><strong>PIN length</strong></td>
 <td align="left">5</td>
 </tr>
 <tr class="header">
-<th align="left"><strong>Automatically send emails to users if their dial-in settings change</strong></th>
+<td align="left"><strong>Automatically send emails to users if their dial-in settings change</strong></td>
 <td align="left">Disabled</td>
 </tr>
 </tbody>
