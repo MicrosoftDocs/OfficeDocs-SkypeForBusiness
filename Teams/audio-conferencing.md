@@ -21,21 +21,21 @@ Audio Conferencing Overview
 
 The Audio Conferencing (formerly known as PSTN Conferencing) feature within Office 365 allows participants to join your meetings from any telephone. This feature is now available in Microsoft Teams, allowing users to join Teams meetings using their phones.
 
-Here is what you get with [Audio Conferencing](https://products.office.com/en-au/skype-for-business/pstn-conferencing) service in Office 365.
+Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) service in Office 365.
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-Please watch our introduction to Audio Conferencing video: <https://youtu.be/cOOLZJCFjKw>
+Please watch our [introduction to Audio Conferencing video](https://go.microsoft.com/fwlink/?linkid=858993).
 
 Introduction
 ============
@@ -73,34 +73,33 @@ Business use cases are meant to define and document the expected and measurable 
 -   The expected and measurable business outcome if these challenges are overcome.
 
 <table>
-<thead>
-<tr class="header">
-<th align="left"><img src="media/image2.png" /></th>
-<th align="left"><p><strong>Description of current business process</strong></p>
-<p>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.</p></th>
-</tr>
-</thead>
 <tbody>
+<tr class="header">
+<th align="left"><p><embed src="media/audio_conferencing_image2.png" /></p></th>
+<td align="left"><p><strong>Description of current business process</strong></p>
+<p>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.</p></td>
+</tr>
 <tr class="odd">
-<td align="left"><img src="media/image3.png" /></td>
+<td align="left"><p><embed src="media/audio_conferencing_image3.png" /></p></td>
 <td align="left"><p><strong>Challenges with existing business process</strong></p>
 <p>Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings.</p>
 <p>The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Microsoft Teams as modern communications and collaboration platform.</p></td>
 </tr>
 <tr class="even">
-<td align="left"><img src="media/image4.png" /></td>
+<td align="left"><p><embed src="media/audio_conferencing_image4.png" /></p></td>
 <td align="left"><p><strong>How technology can overcome these challenges</strong></p>
 <p>With the adoption of Microsoft Teams as modern communications and collaboration platform, internal users are expected to primarily join meetings using their PCs equipped with optimized headsets and meeting room devices. Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio is not favorable for the internal participants.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><img src="media/image5.png" /></td>
+<td align="left"><p><embed src="media/audio_conferencing_image5.png" /></p></td>
 <td align="left"><p><strong>Expected, measurable, business outcomes</strong></p>
 <p>The move to Microsoft Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</p></td>
 </tr>
 </tbody>
 </table>
 
-Table 1 Business use case example
+_Table 1 Business use case example_
+
 
 In addition to defining the business use cases, having a clarity around the organizational scope and project timelines at this step helps move onto the next step of the Envision phase.
 
@@ -119,142 +118,142 @@ The business use cases defined in the previous step will include organizational 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Project Executive Sponsor</td>
-<td align="left"><p>Ultimate authority and accountability for the project and delivery on project objectives</p>
-<p>Help resolve issues escalated by Project Lead</p>
-<p>Sponsors communication within the company about project goals</p>
-<p>Responsible for making key strategic decisions</p>
-<p>Responsible for availability of required resources and budget</p>
-<p>Leading Quarterly Business Reviews (QBR)</p>
-<p>Buy-In and support of awareness campaign effort</p>
-<p>Serving as the Project Sponsor to the program rollout</p></td>
+<td align="left"><strong>Project Executive Sponsor</strong></td>
+<td align="left"><ul><li>Ultimate authority and accountability for the project and delivery on project objectives</li>
+<li>Help resolve issues escalated by Project Lead</li>
+<li>Sponsors communication within the company about project goals</li>
+<li>Responsible for making key strategic decisions</li>
+<li>Responsible for availability of required resources and budget</p>
+<li>Leading Quarterly Business Reviews (QBR)</li>
+<li>Buy-In and support of awareness campaign effort</li>
+<li>Serving as the Project Sponsor to the program rollout</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Project Lead</td>
-<td align="left"><p>Managing and leading project team</p>
-<p>Coordinates partners and working teams engaged in the project</p>
-<p>Accountable for creating and managing project plans to meet quarterly key results</p>
-<p>Resolving cross-functional issues</p>
-<p>Providing regular updates to the project sponsors</p>
-<p>Incorporating Adoption aspects into the all-up project plan</p>
-<p>Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</p></td>
+<td align="left"><strong>Project Lead</strong></td>
+<td align="left"><ul><li>Managing and leading project team</li>
+<li>Coordinates partners and working teams engaged in the project</li>
+<li>Accountable for creating and managing project plans to meet quarterly key results</li>
+<li>Resolving cross-functional issues</li>
+<li>Providing regular updates to the project sponsors</li>
+<li>Incorporating Adoption aspects into the all-up project plan</li>
+<li>Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Collaboration Lead/Architect</td>
-<td align="left"><p>Responsible for execution on collaboration strategy defined by company executives</p>
-<p>Analyzing and choosing collaboration products for the company that meets business goals</p>
-<p>Responsible for the design of the operations for collaboration products</p>
-<p>Defines operation and support model</p>
-<p>Contributing to Monthly and Quarterly Business Reviews</p></td>
+<td align="left"><strong>Collaboration Lead/Architect</strong></td>
+<td align="left"><ul><li>Responsible for execution on collaboration strategy defined by company executives</li>
+<li>Analyzing and choosing collaboration products for the company that meets business goals</li>
+<li>Responsible for the design of the operations for collaboration products</li>
+<li>Defines operation and support model</li>
+<li>Contributing to Monthly and Quarterly Business Reviews</li><ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Consultant</td>
-<td align="left"><p>Responsible for configuration services</p>
-<p>Contributes in overall solution architecture</p></td>
+<td align="left"><strong>Consultant</strong></td>
+<td align="left"><ul><li>Responsible for configuration services</li>
+<li>Contributes in overall solution architecture</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Project Manager</td>
-<td align="left"><p>Developing and maintaining project plan</p>
-<p>Managing project deliverables in line with project plan and budget</p>
-<p>Recording and managing project issues, including escalations</p>
-<p>Conducting weekly stand up calls</p>
-<p>Liaises with, and provides updates to project executive sponsors</p>
-<p>Working with the Architect to define the Change Management approach and Communication Plans</p></td>
+<td align="left"><strong>Project Manager</strong></td>
+<td align="left"><ul><li>Developing and maintaining project plan</li>
+<li>Managing project deliverables in line with project plan and budget</li>
+<li>Recording and managing project issues, including escalations</li>
+<li>Conducting weekly stand up calls</li>
+<li>Liaises with, and provides updates to project executive sponsors</li>
+<li>Working with the Architect to define the Change Management approach and Communication Plans</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Change Management/Adoption Specialist</td>
-<td align="left"><p>Provide input on Discovery phase into adoption and training processes</p>
-<p>Participate in adoption strategy workshop</p>
-<p>Developing and responsible for adoption strategy</p>
-<p>Developing and executing communication plan</p>
-<p>Responsible for delivering trainings to end users</p>
-<p>Collect feedback and conduct surveys</p></td>
+<td align="left"><strong>Change Management/Adoption Specialist</strong></td>
+<td align="left"><ul><li>Provide input on Discovery phase into adoption and training processes</li>
+<li>Participate in adoption strategy workshop</li>
+<li>Developing and responsible for adoption strategy</li>
+<li>Developing and executing communication plan</li>
+<li>Responsible for delivering trainings to end users</li>
+<li>Collect feedback and conduct surveys</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Network Lead</td>
-<td align="left"><p>Providing input on Discovery phase into network design</p>
-<p>Participating in planning during Envisioning workshop</p>
-<p>Coordinates work of networking team during the project execution</p></td>
+<td align="left"><strong>Network Lead</strong></td>
+<td align="left"><ul><li>Providing input on Discovery phase into network design</li>
+<li>Participating in planning during Envisioning workshop</li>
+<li>Coordinates work of networking team during the project execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Security Lead</td>
-<td align="left"><p>Providing input on Discovery phase into security design and processes</p>
-<p>Participating in planning during Envisioning workshop</p>
-<p>Coordinates work of security team during the project execution</p></td>
+<td align="left"><strong>Security Lead</strong></td>
+<td align="left"><ul><li>Providing input on Discovery phase into security design and processes</li>
+<li>Participating in planning during Envisioning workshop</li>
+<li>Coordinates work of security team during the project execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Telephony Lead</td>
-<td align="left"><p>Providing input on Discovery phase into telephony design</p>
-<p>Participating in planning during envisioning workshop</p>
-<p>Coordinates work of telephony team during the project execution</p></td>
+<td align="left"><strong>Telephony Lead</strong></td>
+<td align="left"><ul><li>Providing input on Discovery phase into telephony design</li>
+<li>Participating in planning during envisioning workshop</li>
+<li>Coordinates work of telephony team during the project execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Desktop Lead</td>
-<td align="left"><p>Providing input on Discovery phase into clients and update process</p>
-<p>Participating in planning during envisioning workshop</p>
-<p>Coordinates work of desktop team during the project execution</p></td>
+<td align="left"><strong>Desktop Lead</strong></td>
+<td align="left"><ul><li>Providing input on Discovery phase into clients and update process</li>
+<li>Participating in planning during envisioning workshop</li>
+<li>Coordinates work of desktop team during the project execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Support/Help Desk Lead</td>
-<td align="left"><p>Providing input on Discovery phase into operational and support model</p>
-<p>Participating in planning during envisioning workshop</p>
-<p>Participating into support model planning</p>
-<p>Coordinates work of support teams/resources during the project execution</p></td>
+<td align="left"><strong>Support/Help Desk Lead</strong></td>
+<td align="left"><ul><li>Providing input on Discovery phase into operational and support model</li>
+<li>Participating in planning during envisioning workshop</li>
+<li>Participating into support model planning</li>
+<li>Coordinates work of support teams/resources during the project execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Business Unit Representatives</td>
-<td align="left"><p>Contribute in End User based adoption guides and materials</p>
-<p>Contribute to and review Business Use Cases</p></td>
+<td align="left"><strong>Business Unit Representatives</strong></td>
+<td align="left"><ul><li>Contribute in End User based adoption guides and materials</li>
+<li>Contribute to and review Business Use Cases</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Deployment Lead</td>
-<td align="left"><p>Ensure that deployment prerequisites are met</p>
-<p>Engage customer resources to engage on prepare and deploy stage activities</p>
-<p>Participate in meetings to review prepare and deploy status</p></td>
+<td align="left"><strong>Deployment Lead</strong></td>
+<td align="left"><ul><li>Ensure that deployment prerequisites are met</li>
+<li>Engage customer resources to engage on prepare and deploy stage activities</li>
+<li>Participate in meetings to review prepare and deploy status</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">IT Admins</td>
-<td align="left"><p>IT Pros responsible for assistance with test planning and execution</p></td>
+<td align="left"><strong>IT Admins</strong></td>
+<td align="left"><ul><li>IT Pros responsible for assistance with test planning and execution</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="odd">
-<td align="left">Service Owner</td>
-<td align="left"><p>Is responsible for the operation of the Audio Conferencing service all up</p>
-<p>Owner of Audio Conferencing service</p></td>
+<td align="left"><strong>Service Owner</strong></td>
+<td align="left"><ul><li>Is responsible for the operation of the Audio Conferencing service all up</li>
+<li>Owner of Audio Conferencing service</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 <tr class="even">
-<td align="left">Quality Champion</td>
-<td align="left"><p>Drives quality, reliability and user feedback</p>
-<p>Identifies the quality trends and drive remediation with the respective teams</p>
-<p>Reports through the steering committee back to leadership</p>
-<p>Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</p></td>
+<td align="left"><strong>Quality Champion</strong></td>
+<td align="left"><ul><li>Drives quality, reliability and user feedback</li>
+<li>Identifies the quality trends and drive remediation with the respective teams</li>
+<li>Reports through the steering committee back to leadership</li>
+<li>Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</li></ul></td>
 <td align="left">TBA</td>
 </tr>
 </tbody>
 </table>
 
-Table 2 Stakeholder matrix template example
+_Table 2 Stakeholder matrix template example_
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
 </tr>
 </thead>
 <tbody>
@@ -281,7 +280,7 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Objectives</td>
+<td align="left"><strong>Objectives</strong></td>
 <td align="left"><strong>Key Results</strong></td>
 <td align="left"><strong>To Do</strong></td>
 </tr>
@@ -289,24 +288,25 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 <td align="left">Deploy Audio Conferencing in Microsoft Teams by end of fiscal year 2018</td>
 <td align="left">FY18Q1: Deploy Audio Conferencing in Microsoft Teams globally</td>
 <td align="left"><p>Envision</p>
-<p>Create success plan</p>
-<p>Create detailed technical implementation plan</p>
+<ul><li>Create success plan</li>
+<li>Create detailed technical implementation plan</li></ul>
 <p>Onboard</p>
-<p>Execute success plan</p>
-<p>Execute technical implementation plan</p></td>
+<ul><li>Execute success plan</li>
+<li>Execute technical implementation plan</li></ul></td>
 </tr>
 <tr class="odd">
 <td align="left">Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018</td>
 <td align="left">FY18Q2: Decommission legacy PSTN Conferencing service globally</td>
 <td align="left"><p>Deliver Value</p>
-<p>Boost user engagement and drive adoption</p>
-<p>Manage and prepare change</p>
-<p>Measure, share success, and iterate</p></td>
+<ul><li>Boost user engagement and drive adoption</li>
+<li>Manage and prepare change</li>
+<li>Measure, share success, and iterate</li></ul></td>
 </tr>
 </tbody>
 </table>
 
-Table 3 Example of OKRs
+_Table 3 Example of OKRs_
+
 
 KSIs measure quality and success of the key results and complement the binary nature of OKRs (achieved or not achieved), by detailing the good and/or bad results. When defining KSIs, we recommend leveraging the “specific, measurable, assignable, realistic, time-related” or SMART criteria.
 
@@ -324,7 +324,7 @@ KSIs measure quality and success of the key results and complement the binary na
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Usage/adoption</td>
+<td align="left"><strong>Usage/adoption</strong></td>
 <td align="left">Call quality is equal to or better than the previous solution</td>
 <td align="left">Survey</td>
 <td align="left">80% of users agree or strongly agree</td>
@@ -332,7 +332,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Information Technology team</td>
 </tr>
 <tr class="even">
-<td align="left">Usage/adoption</td>
+<td align="left"><strong>Usage/adoption</strong></td>
 <td align="left">Microsoft Teams made the communication process easier</td>
 <td align="left">Survey</td>
 <td align="left">80% of users agree or strongly agree</td>
@@ -340,7 +340,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Change Management team</td>
 </tr>
 <tr class="odd">
-<td align="left">Usage/adoption</td>
+<td align="left"><strong>Usage/adoption</strong></td>
 <td align="left">Users actively use the solution</td>
 <td align="left">Office 365 reports, Call Quality Dashboard</td>
 <td align="left">80% of users are active daily users</td>
@@ -348,7 +348,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Change Management team</td>
 </tr>
 <tr class="even">
-<td align="left">Usage/quality</td>
+<td align="left"><strong>Usage/quality</strong></td>
 <td align="left">Percentage of poor calls/conferences should be minimal</td>
 <td align="left">Call Quality Dashboard</td>
 <td align="left">&lt; 5% of poor calls per month</td>
@@ -356,7 +356,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Information Technology team</td>
 </tr>
 <tr class="odd">
-<td align="left">Usage/support</td>
+<td align="left"><strong>Usage/support</strong></td>
 <td align="left">I know how to get technical support</td>
 <td align="left">Survey</td>
 <td align="left">90% of users agree or strongly agree</td>
@@ -364,7 +364,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Change Management team</td>
 </tr>
 <tr class="even">
-<td align="left">Usage/support</td>
+<td align="left"><strong>Usage/support</strong></td>
 <td align="left">I am satisfied with the quality of technical support</td>
 <td align="left">Survey</td>
 <td align="left">80% of users agree or strongly agree</td>
@@ -372,7 +372,7 @@ KSIs measure quality and success of the key results and complement the binary na
 <td align="left">Information Technology team</td>
 </tr>
 <tr class="odd">
-<td align="left">Financial</td>
+<td align="left"><strong>Financial</strong></td>
 <td align="left">Reduction of legacy conferencing minutes</td>
 <td align="left">Financial system</td>
 <td align="left">Meet defined ROI</td>
@@ -382,7 +382,8 @@ KSIs measure quality and success of the key results and complement the binary na
 </tbody>
 </table>
 
-Table 4 Example of KSIs
+_Table 4 Example of KSIs_
+
 
 You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk. This information can be captured into a risk plan.
 
@@ -424,7 +425,8 @@ You need to identify business risks as part of this exercise and define a mitiga
 </tbody>
 </table>
 
-Table 5 Risk plan example
+_Table 5 Risk plan example_
+
 
 Assess environment and evaluate adoption readiness
 --------------------------------------------------
@@ -433,24 +435,24 @@ To achieve the intended OKRs, you may have to define the high-level architecture
 
 All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Audio Conferencing business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.
 
-Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_1_0_3).
+Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://go.microsoft.com/fwlink/?linkid=858995).
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of the Audio Conferencing service.
 
-Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My](https://www.successwithteams.com/BandwidthCalculator) Advisor [Network](https://myadvisor.fasttrack.microsoft.com/) Planner tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://www.skypeoperationsframework.com/Partners?ToolPartners).
+Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and [available bandwidth](https://go.microsoft.com/fwlink/?linkid=858997)) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planner tool](https://go.microsoft.com/fwlink/?linkid=858999). To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://go.microsoft.com/fwlink/?linkid=859002) or by [Network Readiness Assessment tools partners](https://go.microsoft.com/fwlink/?linkid=859003).
 
 The results of the Network Readiness Assessment will paint a clearer picture of the required network optimization or remediation required for the success of Audio Conferencing implementation.
 
 Adoption readiness can be evaluated by executing persona analysis to come up with a list of personas in the organization who can be targeted for the implementation of Audio Conferencing service. The persona analysis includes the identification of additional peripherals or devices required to realize the intended business outcomes.
 
-To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_7) workshop deck and [Persona Feature Matrix](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_8). The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_9) template.
+To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://go.microsoft.com/fwlink/?linkid=859005) workshop deck and [Persona Feature Matrix](https://go.microsoft.com/fwlink/?linkid=859006). The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://go.microsoft.com/fwlink/?linkid=859007) template.
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Microsoft Teams. Feel free to modify and remove items that are not relevant to the project goals.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Microsoft Teams. Feel free to modify and remove items that are not relevant to the project goals.</td>
 </tr>
 </thead>
 <tbody>
@@ -531,7 +533,8 @@ Planning for operations and identifying the teams that will operate the Audio Co
 </tbody>
 </table>
 
-Table 6 Example of operational roles mapping
+_Table 6 Example of operational roles mapping_
+
 
 To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Audio Conferencing service.
 
@@ -581,7 +584,7 @@ Planning for Audio Conferencing in Microsoft Teams
 
 To plan for the implementation of Audio Conferencing in Microsoft Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
 
-To better understand the technical steps for planning Audio Conferencing please watch our video: <https://youtu.be/Q3dnPyCOUKM>
+To better understand the technical steps for planning Audio Conferencing [please watch our video](https://youtu.be/Q3dnPyCOUKM).
 
 ### Availability of Audio Conferencing
 
@@ -590,11 +593,10 @@ Audio Conferencing is available in these [countries and regions](https://support
 <table>
 <thead>
 <tr class="header">
-<th align="left"><blockquote>
-<p><img src="media/image6.png" /></p>
-</blockquote>
-<p>Important</p></th>
-<th align="left">Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.</th>
+<td align="center">
+<p><img src="media/audio_conferencing_image6.png" /></p>
+<p>Important</p></td>
+<td align="left">Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.</td>
 </tr>
 </thead>
 <tbody>
@@ -606,14 +608,14 @@ After confirming your organization’s eligibility for obtaining the Audio Confe
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Points</th>
-<th align="left"><p>Decide which user locations or offices will implement the Audio Conferencing service.</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Points</td>
+<td align="left"><p>Decide which user locations or offices will implement the Audio Conferencing service.</p></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><p>Document the user locations or offices to be enabled for the Audio Conferencing service.</p></td>
 </tr>
@@ -657,7 +659,8 @@ After confirming your organization’s eligibility for obtaining the Audio Confe
 </tbody>
 </table>
 
-Table 7 Example of Audio Conferencing service site enablement list
+_Table 7 Example of Audio Conferencing service site enablement list_
+
 
 ### Licensing for Audio Conferencing
 
@@ -666,10 +669,10 @@ Table 7 Example of Audio Conferencing service site enablement list
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left"><p>PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup> party Audio Conferencing Providers (ACPs).</p>
-<p>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</p></th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left"><p>PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup> party Audio Conferencing Providers (ACPs).</p>
+<p>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</p></td>
 </tr>
 </thead>
 <tbody>
@@ -681,11 +684,10 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 <table>
 <thead>
 <tr class="header">
-<th align="left"><blockquote>
-<p><img src="media/image6.png" /></p>
-</blockquote>
-<p>Important</p></th>
-<th align="left">Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.</th>
+<td align="center">
+<p><img src="media/audio_conferencing_image6.png" /></p>
+<p>Important</p></td>
+<td align="left">Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.</td>
 </tr>
 </thead>
 <tbody>
@@ -699,18 +701,18 @@ If your organization chooses to use auto-recharge, a recommendation on the trigg
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Points</th>
-<th align="left"><p>If your organization has not already purchased the required Audio Conferencing licensing, decide whether Audio Conferencing licenses will be acquired by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-ons.</p>
-<p>Decide if Communications Credits is required for Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Points</td>
+<td align="left"><ul><li>If your organization has not already purchased the required Audio Conferencing licensing, decide whether Audio Conferencing licenses will be acquired by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-ons.</li>
+<li>Decide if Communications Credits is required for Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li></ul></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><p>Document the users that will be assigned Audio Conferencing license.</p>
-<p>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</p></td>
+<td align="left"><ul><li>Document the users that will be assigned Audio Conferencing license.</li>
+<li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -787,28 +789,29 @@ If your organization chooses to use auto-recharge, a recommendation on the trigg
 </tbody>
 </table>
 
-Table 8 Example of license assignment list for Audio Conferencing meeting organizers
+_Table 8 Example of license assignment list for Audio Conferencing meeting organizers_
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Initial amount</strong></th>
-<th align="left">$ 1,000</th>
+<th align="left">Initial amount</th>
+<td align="left">$ 1,000</td>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Trigger amount</strong></td>
+<thead>
+<tr class="header">
+<th align="left">Trigger amount</th>
 <td align="left">$ 400</td>
 </tr>
-<tr class="even">
-<td align="left"><strong>Auto-recharge amount</strong></td>
+<tr class="header">
+<th align="left">Auto-recharge amount</th>
 <td align="left">TBA</td>
 </tr>
 </tbody>
 </table>
 
-Table 9 Example of Communications Credits planning numbers
+_Table 9 Example of Communications Credits planning numbers_
+
 
 ### Conference Bridge Phone Numbers
 
@@ -827,9 +830,9 @@ Full description of the included capabilities can be referenced from [Set up dia
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/en-us/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/en-us/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</td>
 </tr>
 </thead>
 <tbody>
@@ -841,39 +844,39 @@ If there are existing conference bridge phone numbers that must be transferred t
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the <a href="https://aka.ms/CloudVoiceNumberPorting">Number Porting Guide</a> for the details.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> for the details.</td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-To learn more about transferring phone number, please watch the following video: <https://youtu.be/Cjr2wkVa0lM>
+To learn more about transferring phone number, [please watch this video](https://go.microsoft.com/fwlink/?linkid=859012). 
 
 Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Points</th>
-<th align="left"><p>Decide whether the organization requires dedicated conference bridge phone numbers</p>
-<p>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (obtain from Microsoft or transfer existing phone numbers)</p>
-<p>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation</p>
-<p>Decide the language preferences to be set up for each dedicated conference bridge phone number</p>
-<p>Decide the tenant default conference bridge phone number</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Points</td>
+<td align="left"><ul><li>Decide whether the organization requires dedicated conference bridge phone numbers</li>
+<li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (obtain from Microsoft or transfer existing phone numbers)</li>
+<li>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation</li>
+<li>Decide the language preferences to be set up for each dedicated conference bridge phone number</li>
+<li>Decide the tenant default conference bridge phone number</li></ul></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><p>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</p>
-<p>If applicable, complete <a href="https://support.office.com/en-us/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</p>
-<p>If you choose to transfer existing phone numbers, check out the <a href="https://aka.ms/CloudVoiceNumberPorting">Number Porting Guide</a> to plan it and adjust Audio Conferencing implementation timeline accordingly.</p>
-<p>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number)</p></td>
+<td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Audio Conferencing implementation.</li>
+<li>If applicable, complete <a href="https://support.office.com/en-us/article/Get-phone-numbers-for-Skype-for-Business-Online-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US">the New Telephone Number Request form</a>, one form for each location or office</li>
+<li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Audio Conferencing implementation timeline accordingly.</li>
+<li>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number)</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -915,14 +918,15 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 </tbody>
 </table>
 
-Table 10 Example of conference bridge details
+_Table 10 Example of conference bridge details_
+
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
 </tr>
 </thead>
 <tbody>
@@ -958,9 +962,9 @@ Additional configurations that can be applied for each user are available to con
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">These cost-related controls are currently available for preview customers only. You can enroll your organization to the preview program from <a href="https://www.skypepreview.com" class="uri">https://www.skypepreview.com</a></th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">These cost-related controls are currently available for preview customers only. You can enroll your organization to the preview program from <a href="https://go.microsoft.com/fwlink/?linkid=859013" class="uri">https://www.skypepreview.com</a></td>
 </tr>
 </thead>
 <tbody>
@@ -972,23 +976,23 @@ With these controls, you can decide whether meeting organizers can provide toll-
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Points</th>
-<th align="left"><p>Decide whether the organization requires entry and exit notifications, and if yes, the type of notification to be implemented (tones, phone number, or recorded name).</p>
-<p>Decide the Audio Conferencing PIN length that meets the organizational security requirements.</p>
-<p>Decide if the organization wants to take control of end-user communications related to Audio Conferencing service.</p>
-<p>Decide the conference bridge phone numbers to be assigned to each meeting organizer.</p>
-<p>Decide whether some meeting organizers require the ability to use toll-free conference bridge phone numbers for their meeings</p>
-<p>Decide whether some meeting organizers require the ability to allow unauthenticated callers to start a meeting.</p>
-<p>Decide whether some meeting organizers require conference dial out to be controlled.</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Points</td>
+<td align="left"><ul><li>Decide whether the organization requires entry and exit notifications, and if yes, the type of notification to be implemented (tones, phone number, or recorded name).</li>
+<li>Decide the Audio Conferencing PIN length that meets the organizational security requirements.</li>
+<li>Decide if the organization wants to take control of end-user communications related to Audio Conferencing service.</li>
+<li>Decide the conference bridge phone numbers to be assigned to each meeting organizer.</li>
+<li>Decide whether some meeting organizers require the ability to use toll-free conference bridge phone numbers for their meeings</li>
+<li>Decide whether some meeting organizers require the ability to allow unauthenticated callers to start a meeting.</li>
+<li>Decide whether some meeting organizers require conference dial out to be controlled.</li></ul></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><p>Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification).</p>
-<p>Document the conference bridge phone numbers to be assinged to each meeting organizer and the corresponding setting to control unauthenticated caller’s policy, and toll-free and dial out controls.</p></td>
+<td align="left"><ul><li>Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification).</li>
+<li>Document the conference bridge phone numbers to be assinged to each meeting organizer and the corresponding setting to control unauthenticated caller’s policy, and toll-free and dial out controls.</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -997,30 +1001,31 @@ With these controls, you can decide whether meeting organizers can provide toll-
 <thead>
 <tr class="header">
 <th align="left"><strong>Enable meeting entry and exit notifications</strong></th>
-<th align="left">Enabled</th>
+<td align="left">Enabled</td>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Entry/exit announcement type</strong></td>
+<thead>
+<tr class="header">
+<th align="left"><strong>Entry/exit announcement type</strong></th>
 <td align="left">Tones</td>
 </tr>
-<tr class="even">
-<td align="left"><strong>Ask callers to record their name before joining the meeting</strong></td>
+<tr class="header">
+<th align="left"><strong>Ask callers to record their name before joining the meeting</strong></th>
 <td align="left">Disabled</td>
 </tr>
-<tr class="odd">
-<td align="left"><strong>PIN length</strong></td>
+<tr class="header">
+<th align="left"><strong>PIN length</strong></th>
 <td align="left">5</td>
 </tr>
-<tr class="even">
-<td align="left"><strong>Automatically send emails to users if their dial-in settings change</strong></td>
+<tr class="header">
+<th align="left"><strong>Automatically send emails to users if their dial-in settings change</strong></th>
 <td align="left">Disabled</td>
 </tr>
 </tbody>
 </table>
 
-Table 11 Example of conference bridge settings
+_Table 11 Example of conference bridge settings_
+
 
 <table>
 <thead>
@@ -1146,11 +1151,12 @@ Table 11 Example of conference bridge settings
 </tbody>
 </table>
 
-Table 12 Example of conference bridge settings assignments
+_Table 12 Example of conference bridge settings assignments_
+
 
 ### Dial Plans
 
-A [Dial Plan](https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](http://www.itu.int/ITU-T/recommendations/rec.aspx?rec=E.164) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
+A [Dial Plan](https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
 
 A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out.
 
@@ -1169,9 +1175,9 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left">Check out the <a href="https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left">Check out the <a href="https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</td>
 </tr>
 </thead>
 <tbody>
@@ -1180,27 +1186,27 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 
 The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 
-![](media/image8.png)
+![](media/audio_conferencing_image8.png)
 
 There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Points</th>
-<th align="left"><p>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</p>
-<p>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</p>
-<p>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Audio Conferencing implementation.</p>
-<p>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Points</td>
+<td align="left"><ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</li>
+<li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li>
+<li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Audio Conferencing implementation.</li>
+<li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><p>Document the customized dial plans and the associated normalization rules to be configured as part of Audio Conferencing implementation.</p>
-<p>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</p></td>
+<td align="left"><ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Audio Conferencing implementation.</li>
+<li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
 </tr>
 </tbody>
 </table>
@@ -1217,7 +1223,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>AU-NSW-NorthRyde-OER</p>
+<td align="left"><p><strong>AU-NSW-NorthRyde-OER</strong></p>
 <p><em>One Epping Road North Ryde, NSW, AU Dial Plan</em></p></td>
 <td align="left"><p><strong>AU-NSW-NorthRyde-OER-Internal</strong></p>
 <p><em>Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia</em></p></td>
@@ -1250,7 +1256,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <td align="left">False</td>
 </tr>
 <tr class="odd">
-<td align="left"><p>SG-Singapore-OMB</p>
+<td align="left"><p><strong>SG-Singapore-OMB</strong></p>
 <p><em>OMB Singapore, SG Dial Plan</em></p></td>
 <td align="left"><p><strong>SG-OMB-Internal</strong></p>
 <p><em>Internal number (x8000 – x8999) for OMB office, Singapore</em></p></td>
@@ -1275,7 +1281,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <td align="left">False</td>
 </tr>
 <tr class="even">
-<td align="left"><p>FR-Paris-Issy-39qdPR</p>
+<td align="left"><p><strong>FR-Paris-Issy-39qdPR</strong></p>
 <p><em>39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan</em></p></td>
 <td align="left"><p><strong>FR-39qdPR-Internal</strong></p>
 <p><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></p></td>
@@ -1303,7 +1309,8 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 </tbody>
 </table>
 
-Table 13 Example of tenant dial plans
+_Table 13 Example of tenant dial plans_
+
 
 <table>
 <thead>
@@ -1390,7 +1397,8 @@ Table 13 Example of tenant dial plans
 </tbody>
 </table>
 
-Table 14 Example of dial plan assignments
+_Table 14 Example of dial plan assignments_
+
 
 ### Microsoft Teams Configurations
 
@@ -1399,10 +1407,10 @@ Since Audio Conferencing is only available for scheduled meetings, tenant-level 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><embed src="media/image1.emf" /></p>
-<p>Note</p></th>
-<th align="left"><p>Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</p>
-<p>In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.</p></th>
+<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<p>Note</p></td>
+<td align="left"><p>Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</p>
+<p>In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.</p></td>
 </tr>
 </thead>
 <tbody>
@@ -1414,15 +1422,15 @@ The settings, available as tenant-level configurations, are applicable to all us
 <table>
 <thead>
 <tr class="header">
-<th align="left"><embed src="media/image7.emf" /></th>
-<th align="left">Decision Point</th>
-<th align="left"><p>Decide if the organization requires to enable or disable scheduling of private meetings.</p>
-<p>Decide if the organization requires to enable or disable scheduling of channel meetings.</p></th>
+<td align="left"><embed src="media/audio_conferencing_image7.png" /></td>
+<td align="left">Decision Point</td>
+<td align="left"><p>Decide if the organization requires to enable or disable scheduling of private meetings.</p>
+<p>Decide if the organization requires to enable or disable scheduling of channel meetings.</p></td>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><embed src="media/image9.emf" /></td>
+<td align="left"><embed src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><p>Document the meeting scheduling configurations for Microsoft Teams.</p></td>
 </tr>
@@ -1433,18 +1441,19 @@ The settings, available as tenant-level configurations, are applicable to all us
 <thead>
 <tr class="header">
 <th align="left"><strong>Allow scheduling for private meetings</strong></th>
-<th align="left">Enabled</th>
+<td align="left">Enabled</td>
 </tr>
 </thead>
-<tbody>
+<thead>
 <tr class="odd">
-<td align="left"><strong>Allow scheduling for channel meetings</strong></td>
+<th align="left"><strong>Allow scheduling for channel meetings</strong></th>
 <td align="left">Disabled</td>
 </tr>
 </tbody>
 </table>
 
-Table 15 Example of Microsoft Teams meetings configurations
+_Table 15 Example of Microsoft Teams meetings configurations_
+
 
 Document technical implementation plan
 --------------------------------------
