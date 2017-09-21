@@ -59,9 +59,9 @@
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current environment](prepare-teams.md)
-## [2. Pilot Teams with Skype for Business deployed](pilot-essentials.md)
-## [3  Side-by-Side Guidance: Skype for Business and Teams](guidance-SkypeforBusiness.md)
-## [4 Enable Teams side-by-side with Skype for Business](continue-journey.md)
+## [2 - Pilot Teams with Skype for Business deployed](pilot-essentials.md)
+## [3 - Enable Teams side-by-side with Skype for Business](continue-journey.md)
+## [4 - Drive value through user adoption](guidance-SkypeforBusiness.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 
 # Videos and Training
