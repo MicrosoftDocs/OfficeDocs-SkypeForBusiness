@@ -26,7 +26,7 @@ Here is what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left">Audio Conferencing service supports both Microsoft Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.</td>
 </tr>
@@ -75,23 +75,23 @@ Business use cases are meant to define and document the expected and measurable 
 <table>
 <tbody>
 <tr class="header">
-<th align="left"><p><embed src="media/audio_conferencing_image2.png" /></p></th>
+<th align="left"><p><img src="media/audio_conferencing_image2.png" /></p></th>
 <td align="left"><p><strong>Description of current business process</strong></p>
 <p>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><embed src="media/audio_conferencing_image3.png" /></p></td>
+<td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
 <td align="left"><p><strong>Challenges with existing business process</strong></p>
 <p>Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings.</p>
 <p>The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Microsoft Teams as modern communications and collaboration platform.</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p><embed src="media/audio_conferencing_image4.png" /></p></td>
+<td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
 <td align="left"><p><strong>How technology can overcome these challenges</strong></p>
 <p>With the adoption of Microsoft Teams as modern communications and collaboration platform, internal users are expected to primarily join meetings using their PCs equipped with optimized headsets and meeting room devices. Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio is not favorable for the internal participants.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p><embed src="media/audio_conferencing_image5.png" /></p></td>
+<td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
 <td align="left"><p><strong>Expected, measurable, business outcomes</strong></p>
 <p>The move to Microsoft Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</p></td>
 </tr>
@@ -669,7 +669,7 @@ _Table 7 Example of Audio Conferencing service site enablement list_
 <table>
 <thead>
 <tr class="header">
-<td align="center"><p><embed src="media/audio_conferencing_image1.png" /></p>
+<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
 <td align="left"><p>PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup> party Audio Conferencing Providers (ACPs).</p>
 <p>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</p></td>
