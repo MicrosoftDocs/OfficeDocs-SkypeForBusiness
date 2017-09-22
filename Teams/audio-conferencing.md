@@ -13,7 +13,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Audio Conferencing in Microsoft Teams
 =====================================
 
-> [!NOTE]
+> [!IMPORTANT]
 > Audio conferencing is in Public Preview. It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.
 
 Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
@@ -21,7 +21,7 @@ Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows pa
 Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
 > [!NOTE]
-> Audio Conferencing supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin Center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.
+> Audio Conferencing supports both Teams and Skype for Business Online. Currently, the existing Skype for Business Admin center and remote PowerShell provide the administrative interfaces to manage Audio Conferencing.
 
 
 |  |  |
@@ -69,7 +69,7 @@ Business use cases are meant to define and document the expected and measurable 
 <td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
 <td align="left"><p><strong>Challenges with existing business process</strong></p>
 <p>Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings.</p>
-<p>The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Microsoft Teams as modern communications and collaboration platform.</p></td>
+<p>The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service is not aligned with the plan for the organization to adopt Teams as modern communications and collaboration platform.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
@@ -79,7 +79,7 @@ Business use cases are meant to define and document the expected and measurable 
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
 <td align="left"><p><strong>Expected, measurable, business outcomes</strong></p>
-<p>The move to Microsoft Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</p></td>
+<p>The move to Teams as modern communications and collaboration platform, combined with Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service to the point that Contoso is expected to only spend approximately 20% of the annual cost of the existing PSTN conferencing service.</p></td>
 </tr>
 </tbody>
 </table>
@@ -271,8 +271,8 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 <td align="left"><strong>To Do</strong></td>
 </tr>
 <tr class="even">
-<td align="left">Deploy Audio Conferencing in Microsoft Teams by end of fiscal year 2018</td>
-<td align="left">FY18Q1: Deploy Audio Conferencing in Microsoft Teams globally</td>
+<td align="left">Deploy Audio Conferencing in Teams by end of fiscal year 2018</td>
+<td align="left">FY18Q1: Deploy Audio Conferencing in Teams globally</td>
 <td align="left"><p>Envision</p>
 <ul><li>Create success plan</li>
 <li>Create detailed technical implementation plan</li></ul>
@@ -319,7 +319,7 @@ KSIs measure quality and success of the key results and complement the binary na
 </tr>
 <tr class="even">
 <td align="left"><strong>Usage/adoption</strong></td>
-<td align="left">Microsoft Teams made the communication process easier</td>
+<td align="left">Teams made the communication process easier</td>
 <td align="left">Survey</td>
 <td align="left">80% of users agree or strongly agree</td>
 <td align="left">After enablement and quarterly</td>
@@ -406,7 +406,7 @@ You need to identify business risks as part of this exercise and define a mitiga
 <td align="left">High</td>
 <td align="left">Medium</td>
 <td align="left">Medium</td>
-<td align="left">Before implementing Microsoft Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</td>
+<td align="left">Before implementing Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</td>
 </tr>
 </tbody>
 </table>
@@ -438,7 +438,7 @@ To perform persona analysis, you can conduct a workshop by involving relevant pr
 <tr class="header">
 <td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
 <p>Note</p></td>
-<td align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Microsoft Teams. Feel free to modify and remove items that are not relevant to the project goals.</td>
+<td align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams. Feel free to modify and remove items that are not relevant to the project goals.</td>
 </tr>
 </thead>
 <tbody>
@@ -565,17 +565,17 @@ Operational roles mapping exercise will establish the roles and responsibilities
 
 You need to complete this and include the operational plan as part of the success plan to ensure operational readiness of the solution.
 
-Planning for Audio Conferencing in Microsoft Teams
---------------------------------------------------
+Planning for Audio Conferencing in Teams  <a name="Planning_AudioConferencing"> </a>
+========================================
 
-To plan for the implementation of Audio Conferencing in Microsoft Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
+To plan for the implementation of Audio Conferencing in Teams, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
 
 |  |  |
 |---------|---------|
 |  <iframe width="350" height="200" src="https://www.youtube.com/embed/Q3dnPyCOUKM" frameborder="0" allowfullscreen></iframe>    | |
 
 
-### Availability of Audio Conferencing
+## Availability of Audio Conferencing
 
 Audio Conferencing is available in these [countries and regions](https://support.office.com/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).
 
@@ -651,7 +651,7 @@ After confirming your organization’s eligibility for obtaining the Audio Confe
 _Table 7 Example of Audio Conferencing service site enablement list_
 
 
-### Licensing for Audio Conferencing
+## Licensing for Audio Conferencing
 
 [Audio Conferencing license](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
 
@@ -802,7 +802,7 @@ _Table 8 Example of license assignment list for Audio Conferencing meeting organ
 _Table 9 Example of Communications Credits planning numbers_
 
 
-### Conference Bridge Phone Numbers
+## Conference Bridge Phone Numbers
 
 The Audio Conferencing service in Office 365 includes:
 
@@ -922,7 +922,7 @@ _Table 10 Example of conference bridge details_
 </tbody>
 </table>
 
-### Conference Bridge Settings
+## Conference Bridge Settings
 
 Organization-wide configuration options around Audio Conferencing meeting join experience (meeting entry and exit notification and caller name recording), meeting organizer’s PIN length, and email notification are available to further tailor the end-user experience.
 
@@ -942,7 +942,7 @@ For users who are assigned an Audio Conferencing license, the default toll/toll-
 
 User-specific conference bridge phone numbers are typically useful in global or nationwide organizations where users are distributed and must provide local numbers as the default conference bridge phone numbers in the meeting invites.
 
-Participants joining from different cities or overseas can look up additional numbers configured at the tenant-level, but these numbers do not appear directly in the meeting invites. The meeting invites provide a link that will take participants to the Microsoft Teams Conference Dial-in Numbers page for them to lookup the closest conference bridge phone numbers available from their location.
+Participants joining from different cities or overseas can look up additional numbers configured at the tenant-level, but these numbers do not appear directly in the meeting invites. The meeting invites provide a link that will take participants to the Teams Conference Dial-in Numbers page for them to lookup the closest conference bridge phone numbers available from their location.
 
 You can also configure how unauthenticated callers are handled by each individual meeting organizer, whether to require meeting organizer to start the meeting before unauthenticated callers are admitted, or to allow unauthenticated callers to start a meeting.
 
@@ -1143,7 +1143,7 @@ _Table 11 Example of conference bridge settings_
 _Table 12 Example of conference bridge settings assignments_
 
 
-### Dial Plans
+## Dial Plans
 
 A [Dial Plan](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
 
@@ -1389,7 +1389,7 @@ _Table 13 Example of tenant dial plans_
 _Table 14 Example of dial plan assignments_
 
 
-### Microsoft Teams Configurations
+## Microsoft Teams Configurations
 
 Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.
 
@@ -1421,7 +1421,7 @@ The settings, available as tenant-level configurations, are applicable to all us
 <tr class="odd">
 <td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><p>Document the meeting scheduling configurations for Microsoft Teams.</p></td>
+<td align="left"><p>Document the meeting scheduling configurations for Teams.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1444,8 +1444,7 @@ The settings, available as tenant-level configurations, are applicable to all us
 _Table 15 Example of Microsoft Teams meetings configurations_
 
 
-Document technical implementation plan
---------------------------------------
+## Document technical implementation plan
 
 Use the decision points above to document your technical implementation plan.
 
