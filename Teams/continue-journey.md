@@ -14,9 +14,9 @@ Continue your journey from Skype for Business to Microsoft Teams
 ================================================================
 
 
-Change takes time, but value and benefit realization can begin today. While you continue to utilize Skype for Business, we encourage you to progress along your organization’s journey to Teams, unlocking the value of intelligent communications with Office 365 and helping facilitate a successful move to Teams in the future.
+Change takes time, but you can start to realize value and benefit today. While you continue to use Skype for Business, we encourage you to progress along your organization’s journey to Teams, unlocking the value of intelligent communications with Office 365 and helping facilitate a successful move to Teams in the future.
 
-Microsoft is working hard to bring you tailored practical guidance to ensure that you are set up for long-term success. Leverage the resources below to continue your path to Teams and look for more resources to be released in the months ahead.
+Microsoft is working hard to bring you tailored practical guidance to ensure that you're set up for long-term success. Leverage the resources below to continue your path to Teams and look for more resources to be released in the months ahead.
 
 -   **Promote adoption of Teams alongside Skype for Business with your end-users**
 

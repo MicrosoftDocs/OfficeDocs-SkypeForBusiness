@@ -66,16 +66,10 @@ A formal pilot should define your targeted path forward and include a project te
 
     -   Define a clear start and end-date for your pilot to maintain momentum and allow time to assess impact. A minimum 30-day pilot is recommended. Start small and add to your pilot as appropriate – whether additional workloads/features or additional users, making time to assess results and adjust your pilot as you iterate. You may even opt to run subsequent pilots as new Teams’ features are released per the roadmap.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/pilot_essentials_image1.png" /></p></td>
-<td align="left"><strong>TIP:</strong> Your pilot should be conducted in your production environment for optimal results. Confirm all technical prerequisites are completed prior to beginning your pilot such as ensuring your pilot users have the ability to create new teams and channels.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+
+> [!TIP]
+> Your pilot should be conducted in your production environment for optimal results. Confirm all technical prerequisites are completed prior to beginning your pilot such as ensuring your pilot users have the ability to create new teams and channels.
 
 <table>
 <thead>
@@ -94,16 +88,9 @@ One of the most important tasks of pilot planning is thoughtful participant sele
 
 For optimal validation, look to include approximately 2-5% of your user base, or a minimum of 50 users, whichever is most representative of your organization. Depending on your pilot timeline, you may opt to start small and expand to additional pilot users over time.
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image1.png" /></p></td>
-<td align="left"><strong>TIP:</strong> When selecting your Teams pilot group participants, be sure to include both high-adopters of Skype for Business as well as users/groups who would benefit from the teamwork hub capabilities of Teams. Consider using a current cross-team project workstream for pilot user selection as well as a realistic use case for your test plan.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!TIP]
+> When selecting your Teams pilot group participants, be sure to include both high-adopters of Skype for Business as well as users/groups who would benefit from the teamwork hub capabilities of Teams. Consider using a current cross-team project workstream for pilot user selection as well as a realistic use case for your test plan.
 
 <table>
 <thead>
@@ -220,16 +207,9 @@ Based on your outcomes, here are a few recommended paths your organization may t
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr class="header">
-<td align="left"><p><img src="media/pilot_essentials_image1.png" /></p></td>
-<td align="left"><strong>Note:</strong> Be sure to leverage your pilot participants as <a href="https://go.microsoft.com/fwlink/?linkid=859068">Champions</a> to help evangelize and onboard new users to Teams.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> Be sure to leverage your pilot participants as [Champions](https://go.microsoft.com/fwlink/?linkid=859068) to help evangelize and onboard new users to Teams.
 
 <table>
 <thead>
