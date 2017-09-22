@@ -16,7 +16,7 @@ Audio Conferencing in Microsoft Teams
 > [!IMPORTANT]
 > Audio conferencing is in Public Preview. It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.
 
-Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
+Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Microsoft Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
 
 Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
@@ -419,7 +419,7 @@ Environmental discovery can also uncover if there are requirements to [transfer 
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of the Audio Conferencing service.
 
-Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and [available bandwidth](https://go.microsoft.com/fwlink/?linkid=858997)) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planner tool](https://go.microsoft.com/fwlink/?linkid=858999). To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://go.microsoft.com/fwlink/?linkid=859002) or by [Network Readiness Assessment tools partners](https://go.microsoft.com/fwlink/?linkid=859003).
+Network readiness to support the Audio Conferencing service can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links, available bandwidth, and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planner tool](https://go.microsoft.com/fwlink/?linkid=858999). To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://go.microsoft.com/fwlink/?linkid=859002) or by [Network Readiness Assessment tools partners](https://go.microsoft.com/fwlink/?linkid=859003).
 
 The results of the Network Readiness Assessment will paint a clearer picture of the required network optimization or remediation required for the success of Audio Conferencing implementation.
 
@@ -544,7 +544,7 @@ Following an adoption readiness assessment, further detailed planning must be co
 
 Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.
 
-The templates for adoption activities are available [here](https://aka.ms/TeamsCloudVoiceResourceKit).
+The templates for adoption activities are available [here](https://www.microsoft.com/en-us/download/details.aspx?id=54244).
 
 ### Operational plan
 
@@ -840,7 +840,7 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 <tr class="odd">
 <td align="left">32 London Bridge Street</td>
 <td align="left">Port existing, dedicated</td>
-<td align="left">+44 20 7654 8001</td>
+<td align="left">+44 20 7946 0001/td>
 <td align="left">English (United Kingdom)</td>
 </tr>
 <tr class="even">
@@ -1013,7 +1013,7 @@ _Table 11 Example of conference bridge settings_
 <tr class="odd">
 <td align="left">Emily Braun</td>
 <td align="left">32 London Bridge Street</td>
-<td align="left">+44 20 7654 8001</td>
+<td align="left">+44 20 7946 0001</td>
 <td align="left">TBA</td>
 <td align="left">Yes</td>
 <td align="left">Enabled</td>
@@ -1022,7 +1022,7 @@ _Table 11 Example of conference bridge settings_
 <tr class="even">
 <td align="left">Lidia Holloway</td>
 <td align="left">32 London Bridge Street</td>
-<td align="left">+44 20 7654 8001</td>
+<td align="left">+44 20 7946 0001</td>
 <td align="left">TBA</td>
 <td align="left">Yes</td>
 <td align="left">Disabled</td>
@@ -1031,7 +1031,7 @@ _Table 11 Example of conference bridge settings_
 <tr class="odd">
 <td align="left">Pradeep Gupta</td>
 <td align="left">32 London Bridge Street</td>
-<td align="left">+44 20 7654 8001</td>
+<td align="left">+44 20 7946 0001</td>
 <td align="left">TBA</td>
 <td align="left">Yes</td>
 <td align="left">Disabled</td>
@@ -1136,7 +1136,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <td align="left"><p><strong>AU-NSW-NorthRyde-OER-Internal</strong></p>
 <p><em>Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia</em></p></td>
 <td align="left">^(7\d{3})$</td>
-<td align="left">+6123218$1</td>
+<td align="left">+6125550$1</td>
 <td align="left">True</td>
 </tr>
 <tr class="even">
@@ -1194,7 +1194,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <td align="left"><p><strong>FR-39qdPR-Internal</strong></p>
 <p><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></p></td>
 <td align="left">^(7\d{3})$</td>
-<td align="left">+3315885$1</td>
+<td align="left">+3319999$1</td>
 <td align="left">True</td>
 </tr>
 <tr class="odd">
