@@ -55,10 +55,10 @@ Here's how a guest becomes a member of a team:
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f#bkmk_guestexperience)
+- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](#guestexp)
     
   
-Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](#GuestExp)
+Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
   
     
     
@@ -71,7 +71,7 @@ Guests can leave the team at any time via Microsoft Teams web and desktop client
 
 
 ### What the guest experience is like
-<a name="GuestExp"></a>
+<a name="guestexp"></a>
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
