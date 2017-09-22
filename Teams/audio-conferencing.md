@@ -840,7 +840,7 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 <tr class="odd">
 <td align="left">32 London Bridge Street</td>
 <td align="left">Port existing, dedicated</td>
-<td align="left">+44 20 7946 0001/td>
+<td align="left">+44 20 7946 0001</td>
 <td align="left">English (United Kingdom)</td>
 </tr>
 <tr class="even">
