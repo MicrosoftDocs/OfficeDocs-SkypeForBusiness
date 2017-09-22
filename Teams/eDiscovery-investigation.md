@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
 Set_Free_Tag: Strat_MT_TeamsAdmin

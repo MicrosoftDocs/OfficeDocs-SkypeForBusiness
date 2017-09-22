@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: solution
+ms.topic: article
 ms.service: msteams
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
@@ -34,7 +34,6 @@ The table below shows the difference in permissions between an owner and a membe
 
 \*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
 
-
 | | |
 |---------|---------|
 |![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Note     |Owners can make other members owners in the View teams option. A team can have up to 10 owners.         |
@@ -54,19 +53,16 @@ If your organization is interested in doing this, the instructions below outline
 
 2.  Verify that the company-wide control for users to create groups is enabled.
 
-    a. **Action:** Run the following PowerShell script and verify: UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
+    a.  **Action:** Run the following PowerShell script and verify UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
 
     Connect-MsolService
 
     Get-MsolCompanyInformation
-   
-    b. If this is not true, run the Set-MsolCompanySettings  cmdet **to set it to True**.
-    Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
-   
-    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#checkclevelsettings)
 
-    
-    
+    b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
+Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
+
+    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
 
 3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
 
@@ -91,4 +87,3 @@ If your organization is interested in doing this, the instructions below outline
 |---------|---------|---------|
 | ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Decision Point         |Will all Microsoft Teams users be able to create Teams (recommended)?         |
 | ![](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Next Steps         |Modify the default permissions for who can create Office 365 groups if you need to limit who can create Teams         |
-

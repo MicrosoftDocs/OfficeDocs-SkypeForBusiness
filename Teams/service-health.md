@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: It's a good practice to verify that the Teams service is healthy as well as other Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
 Set_Free_Tag: Strat_MT_TeamsAdmin

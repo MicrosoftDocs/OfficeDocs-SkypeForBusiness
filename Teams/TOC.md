@@ -55,23 +55,18 @@
 
 # [Cloud Voice Deployment](cloud-voice-deployment.md)
 ## [Audio conferencing](audio-conferencing.md)
-### [Introduction](audio-conferencing.md#introduction)
-### [Define business use cases for PSTN Calling](audio-conferencing.md#define-business-use-cases-for-pstn-calling)
-### [Identify key stakeholders](audio-conferencing.md#identify-key-stakeholders)
-### [Define objectives and key results, key success indicators, and risks](audio-conferencing.md#define-objectives-and-key-results-key-success-indicators-and-risks)
-### [Assess environment and evaluate adoption readiness](audio-conferencing.md#assess-environment-and-evaluate-adoption-readiness)
-### [People Onboarding](audio-conferencing.md#people-onboarding)
-### [Technical Onboarding](audio-conferencing.md#technical-onboarding)
-### [Boost user engagement and drive adoption](audio-conferencing.md#boost-user-engagement-and-drive-adoption)
-### [Measure, share success, and iterate](audio-conferencing.md#measure-share-success-and-iterate)
-### [Manage and prepare for change](audio-conferencing.md#manage-and-prepare-for-change)
+### [Envision](audio-conferencing.md#Envision_AudioConferencing)
+### [Plan](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Pilot essentials: Start your journey to Microsoft Teams](pilot-essentials.md)
-## [Side-by-Side Guidance: Skype for Business and Teams](guidance-SkypeforBusiness.md)
-## [FAQ - Journey from Skype for Business to Teams](FAQ-journey.md)
+## [1 - Optimize your current environment](prepare-teams.md)
+## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
+## [4 - Drive value through user adoption](continue-journey.md)
+## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 
 # Videos and Training
-## [IT admin readiness resources for Teams](ITAdmin-readiness.md)
+## [IT admin readiness for Teams](ITAdmin-readiness.md)
+### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ## [End user training for Teams](enduser-training.md)
 

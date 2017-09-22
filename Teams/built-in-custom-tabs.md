@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: overview
+ms.topic: article
 ms.service: msteams
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
 Set_Free_Tag: Strat_MT_TeamsAdmin

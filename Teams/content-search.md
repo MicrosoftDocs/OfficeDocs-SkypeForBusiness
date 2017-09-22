@@ -4,22 +4,22 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
-description: Learn how about Content Search in Microsoft Teams and how to search against Channel chats from Exchange, file uploads/modifications from SharePoint, and OneNote as well.
+description: Learn about Content Search in Microsoft Teams and how to search against Channel chats from Exchange, file uploads/modifications from SharePoint, and OneNote as well.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Use Content Search in Microsoft Teams
 =====================================
 
-Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint and OneDrive for Business.
+Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
 
-In the example below, we created a new **Content Search**. Then, we selected the Manufacturing Specs mailbox and Manufacturing Specs SharePoint site. This allows us to search against Channel chats from Exchange, File uploads/modifications from SharePoint and OneNote changes as well.
+In the example below, we created a new **Content Search**. Then, we selected the Manufacturing Specs mailbox and Manufacturing Specs SharePoint site. This allows us to search against Channel chats from Exchange, File uploads/modifications from SharePoint Online, and OneNote changes as well.
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
 
-You can also add query criteria to the **Content Search** to narrow down the results returned. For example, below we wanted to search both Exchange and SharePoint locations for the Manufacturing Specs team to look for content where the keywords “**New Factory Specs”** were used.
+You can also add query criteria to the **Content Search** to narrow the results returned. For example, below we wanted to search both Exchange and SharePoint locations for the Manufacturing Specs team to look for content where the keywords “**New Factory Specs”** were used.
 
 ![](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 

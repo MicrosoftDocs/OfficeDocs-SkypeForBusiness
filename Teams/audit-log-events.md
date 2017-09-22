@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
-ms.topic: tutorial
+ms.topic: article
 ms.service: msteams
 description: Learn how to retrieve Microsoft Teams data from the Audit log.
 Set_Free_Tag: Strat_MT_TeamsAdmin
