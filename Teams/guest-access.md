@@ -12,11 +12,6 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 
 Manage guest access in Microsoft Teams
 ======================================
----
-title: Guest access in Microsoft Teams
-ms.prod: OFFICE365
-ms.assetid: bd4cdeec-4044-4b4b-9df1-beb139013a3f
----
 
 
 # Guest access in Microsoft Teams
@@ -28,18 +23,6 @@ Guest access in Microsoft Teams allows teams in your organization to collaborate
 
 Organizations using Microsoft Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data.
 Microsoft Teams is built upon Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Microsoft Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.
-  
-    
-    
-
-
-## 
-
-
-  
-    
-    
-Use
   
     
     
@@ -66,16 +49,16 @@ Here's how a guest becomes a member of a team:
     
     
 
-- **Step 1** A team owner or an Office 365 admin [Adding guests to teams](teams-and-channels.md#BKMK_addingguests).
+- **Step 1** A team owner or an Office 365 admin [adds a guest to a team](https://support.office.com/en-us/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
     
   
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [Working in channels](teams-and-channels.md#BKMK_channels), receive and respond to channel messages,  [Files](files.md), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see  [What the guest experience is like](guest-access-in-microsoft-teams.md#BKMK_GuestExperience)
+- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f#bkmk_guestexperience)
     
   
-Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](teams-and-channels.md#BKMK_HowDoILeaveATeam)
+Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
   
     
     
@@ -88,7 +71,6 @@ Guests can leave the team at any time via Microsoft Teams web and desktop client
 
 
 ### What the guest experience is like
-<a name="BKMK_GuestExperience"> </a>
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
@@ -98,7 +80,7 @@ When a guest is invited to join a team, they receive a welcome email message tha
   
     
     
-![Screenshot shows an example of a welcome email message sent by a team owner in Microsoft Teams to a guest user. The message includes text that can be customized by the team owner and brief descriptions of Teams features like chat, calls, and meetings.](images/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![Screenshot shows an example of a welcome email message sent by a team owner in Microsoft Teams to a guest user. The message includes text that can be customized by the team owner and brief descriptions of Teams features like chat, calls, and meetings.](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
   
     
     
