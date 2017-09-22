@@ -15,7 +15,7 @@ description: Microsoft Teams documentation and practical guidance
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/Teams-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -53,7 +53,7 @@ description: Microsoft Teams documentation and practical guidance
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/support-resources">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/support-resources">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -72,7 +72,7 @@ description: Microsoft Teams documentation and practical guidance
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -91,7 +91,7 @@ description: Microsoft Teams documentation and practical guidance
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/itadmin-readiness">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/itadmin-readiness">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -110,7 +110,7 @@ description: Microsoft Teams documentation and practical guidance
                                 </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
