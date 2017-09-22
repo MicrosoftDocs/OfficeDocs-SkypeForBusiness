@@ -283,7 +283,7 @@ With the enablement of private chat and calling, Teams will deliver all capabili
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left">
-<p><strong>Next Action:</strong></p><ul><li>Once Teams is up and running side-by-side with Skype for Business, [Drive Value through user adoption of Teams](continue-journey.md), while continuing your journey from Skype for Business to Teams.</li></ul></td>
+<p><strong>Next Action:</strong> Once Teams is up and running side-by-side with Skype for Business, [Drive Value through user adoption of Teams](continue-journey.md), while continuing your journey from Skype for Business to Teams.</td>
 </tr>
 </thead>
 <tbody>
