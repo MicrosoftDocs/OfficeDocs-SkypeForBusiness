@@ -557,7 +557,7 @@ Following an adoption readiness assessment, further detailed planning must be co
 
 Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.
 
-The templates for adoption activities are available [here](https://www.microsoft.com/download/details.aspx?id=54244%22﷟HYPERLINK%20%22https://aka.ms/TeamsCloudVoiceResourceKit)[](https://aka.ms/TeamsCloudVoiceResourceKit).
+The templates for adoption activities are available [here](https://aka.ms/TeamsCloudVoiceResourceKit).
 
 ### Operational plan
 
@@ -579,18 +579,9 @@ To plan for the implementation of Audio Conferencing in Teams, a series of decis
 
 Audio Conferencing is available in these [countries and regions](https://support.office.com/article/Countries-and-regions-that-are-supported-for-Skype-for-Business-Online-PSTN-Services-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).
 
-<table>
-<thead>
-<tr class="header">
-<td align="center">
-<p><img src="media/audio_conferencing_image6.png" /></p>
-<p>Important</p></td>
-<td align="left">Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service.
 
 After confirming your organization’s eligibility for obtaining the Audio Conferencing service, compile the list of user locations or offices where Audio Conferencing service will be implemented based on the list of available countries and regions.
 
@@ -655,33 +646,15 @@ _Table 7 Example of Audio Conferencing service site enablement list_
 
 [Audio Conferencing license](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), formerly known as Skype for Business PSTN Conferencing license, is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left"><p>PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup> party Audio Conferencing Providers (ACPs).</p>
-<p>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.</p></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup>-party Audio Conferencing Providers (ACPs).
+> <br>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.
 
 To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) for your organization.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center">
-<p><img src="media/audio_conferencing_image6.png" /></p>
-<p>Important</p></td>
-<td align="left">Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!IMPORTANT]
+> Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.
 
 The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from the [Communications Credits](https://support.office.com/en-us/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) documentation.
 
@@ -816,31 +789,14 @@ The Audio Conferencing service in Office 365 includes:
 
 Full description of the included capabilities can be referenced from [Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-dial-in-or-PSTN-conferencing-for-Skype-for-Business-d01954f1-4f37-4cf5-a636-20039e5c59e9?ui=en-US&rs=en-US&ad=US) and [Phone numbers for dial-in conferencing](https://support.office.com/article/Phone-numbers-for-dial-in-conferencing-95a08f84-04e5-4f72-88a8-d6472a7c89d7?ui=en-US&rs=en-US&ad=US)**.**
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in <a href="https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734">Getting Skype for Business service phone numbers</a>. Toll-Free conference bridge phone numbers require Communications Credits.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting Skype for Business service phone numbers](https://support.office.com/article/Getting-Skype-for-Business-service-phone-numbers-e434aeb2-af99-40e7-981e-a474f0383734). Toll-free conference bridge phone numbers require Communications Credits.
 
 If there are existing conference bridge phone numbers that must be transferred to the Audio Conferencing service, assuming they are meeting the country-specific requirements, then the existing conference bridge phone numbers can be transferred to Microsoft.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> for the details.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011).
 
 | <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |  |
 
@@ -910,17 +866,8 @@ Additional details on transferring phone numbers to Audio Conferencing service c
 _Table 10 Example of conference bridge details_
 
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> The example table above and subsequent tables throughout this document serve as a template. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
 
 ## Conference Bridge Settings
 
@@ -948,17 +895,8 @@ You can also configure how unauthenticated callers are handled by each individua
 
 Additional configurations that can be applied for each user are available to control the use of toll-free conference bridge phone numbers and dial-out from a conference.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">These cost-related controls are currently available for preview customers only. You can enroll your organization to the preview program from <a href="https://go.microsoft.com/fwlink/?linkid=859013" class="uri">https://www.skypepreview.com</a></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+> [!NOTE]
+> These cost-related controls are currently available for preview customers only. You can enroll your organization in the preview program from [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 With these controls, you can decide whether meeting organizers can provide toll-free conference bridge phone numbers for meetings organized by them, and to control whether participants can dial out from the meetings organized by them. The level of dial-out control spans from disallowing dial out, only allowing dial out to domestic numbers, to allowing dial out to both domestic and international numbers.
 
@@ -1161,17 +1099,9 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 
     -   **Tenant-user dial plan**—the dial plan applies only to specific users.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">Check out the <a href="https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b">Calling Plan dial plans</a> documentation for further details and examples.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> Check out the [Office 365 Calling Plan dial plans](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) documentation for further details and examples.
 
 The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 
@@ -1393,18 +1323,10 @@ _Table 14 Example of dial plan assignments_
 
 Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left"><p>Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.</p>
-<p>In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.</p></td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.<br>
+> In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.
 
 The settings, available as tenant-level configurations, are applicable to all users in the organization, and will impact all meeting scheduling in Teams, not specific to Teams meetings **with** Audio Conferencing.
 
