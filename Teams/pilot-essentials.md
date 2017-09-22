@@ -1,5 +1,5 @@
 ---
-title: Pilot essentials - Start your journey to Microsoft Teams
+title: Pilot Teams with Skype for Business deployed
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,11 +10,8 @@ description: Guidance for starting a Microsoft Teams pilot to explore all that T
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Pilot essentials: Start your journey to Microsoft Teams
-=======================================================
-
-Introduction
-============
+Pilot Teams with Skype for Business deployed
+============================================
 
 As an existing Skype for Business and Office 365 customer, your organization is already a part of the modern workplace movement, empowering your users to be more creative, innovative, and productive. Microsoft Teams further expands what’s possible, with added functionality, such as collaboration hubs for teamwork, app integration, and file storage. When you bring the current functionality of Skype for Business together with the value-add of Teams, you have a powerful communication and collaboration solution that can revolutionize how users work.
 
@@ -26,16 +23,16 @@ Tailored for current Skype for Business customers, this resource provides guidan
 
 -   Download and customize the communication and feedback templates found in the [Pilot Essentials Resources](https://go.microsoft.com/fwlink/?linkid=859067) to ensure your message resonates with your endusers.
 
-Getting Started
-=============================================================================================================
+Get started
+===========
 
 Designed to confirm organizational readiness, a pilot is a realistic validation of the resources and procedures needed on a larger scale prior to your organization-wide rollout.  To achieve the most realistic results, the pilot program should mimic how users communicate and collaborate today, verifying the ideal deployment scenario with Skype for Business and Microsoft Teams. Whether your organization is considering running Skype for Business and Teams side-by-side or transitioning to Teams at a future point in time, a pilot can help identify the right path forward for your organization. *Let’s get started!*
 
 ![](media/pilot_essentials_image3.png)
 
-### Step One: Define your Pilot Program Logistics
+## Step One: Define your Pilot Program Logistics
 
-A formal pilot should define your targeted path forward and include a project team, SMART goals, a set timeline, an articulated test plan, and feedback mechanisms. Take time to address these questions to help outline your pilot program logistics:
+A formal pilot should define your targeted path forward and include a project team, [SMART](https://wikipedia.org/wiki/SMART_criteria) goals, a set timeline, an articulated test plan, and feedback mechanisms. Take time to address these questions to help outline your pilot program logistics:
 
 -   Who are the project stakeholders for your pilot?
 
@@ -49,7 +46,7 @@ A formal pilot should define your targeted path forward and include a project te
 
         -   **Support Lead:** Accountable for readying the helpdesk for Teams.
 
-        -   **MarCom Lead:** Responsible for all awareness and training communications.
+        -   **Marketing/Communications Lead:** Responsible for all awareness and training communications.
 
 <!-- -->
 
@@ -91,7 +88,7 @@ A formal pilot should define your targeted path forward and include a project te
 </tbody>
 </table>
 
-### Step Two: Select your Pilot Participants
+## Step Two: Select your Pilot Participants
 
 One of the most important tasks of pilot planning is thoughtful participant selection. An ideal pilot group includes representative users of all usage scenarios designed to validate the organization's requirements and intended use of feature sets.  This includes representatives from a variety of roles within your organization (exec admin, management, project manager, conferencing power users), different departments/business units, multiple regions (if applicable). The pilot should extend to key people in IT, training and helpdesk.  This allows a thorough validation while fully optimizing project management resources.
 
@@ -119,7 +116,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 </tbody>
 </table>
 
-### Step Three: Design your Test Plan and Feedback Survey
+## Step Three: Design your Test Plan and Feedback Survey
 
 A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop. Your organization may opt to pilot all functionality at once, or leverage a gradual approach (e.g. collaboration, then meetings, then chat and calling.) A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios/features in the test plan.
 
@@ -134,9 +131,9 @@ A successful pilot experience provides your participants with clearly defined ta
 </tbody>
 </table>
 
-### Step Four: Create your Communications
+## Step Four: Create your Communications
 
-Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.
+Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants. In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.
 
 <table>
 <thead>
@@ -149,7 +146,7 @@ Educating your pilot participants on what is happening, when and why, as well as
 </tbody>
 </table>
 
-### Step Five: Conduct your Pilot 
+## Step Five: Conduct your Pilot 
 
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
@@ -161,9 +158,7 @@ A suggested timeline based on a 30-day pilot is provided below:
 
 -   Day 7: Weekly project team check-point (Meet with your pilot project team and review user feedback, usage data, network data and help desk tickets to ensure your pilot is running smoothly. Make any adjustments as needed)
 
--   Day 14: Send mid-point communication to your pilot users
-
--   Day 14: Weekly project team check-point
+-   Day 14: Send mid-point communication to your pilot users, weekly project team check-point
 
 -   Day 21: Weekly project team check-point
 
@@ -180,7 +175,7 @@ A suggested timeline based on a 30-day pilot is provided below:
 </tbody>
 </table>
 
-### Step Six: Assess Learnings and Evaluate Go-Forward Plan
+## Step Six: Assess Learnings and Evaluate Go-Forward Plan
 
 Once your pilot is complete, it’s time to gather all feedback surveys, final network stats and support tickets for analysis against your goals and determination of your go-forward plan.
 
@@ -195,28 +190,29 @@ Based on your outcomes, here are a few recommended paths your organization may t
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>IF your pilot results indicate</strong></td>
+<td align="left"><strong>IF</strong> your pilot results indicate</td>
 <td align="left"><strong>THEN</strong> you might consider</td>
 </tr>
 <tr class="even">
-<td align="left"><ul><strong><li>80% or higher agree that Teams can be easily utilized alongside Skype for Business</li></strong>
-<strong><li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li></strong>
-<strong><li>Satisfactory network health</li></strong></ul></td>
+<td align="left"><ul><li>80% or higher agree that Teams can be easily utilized alongside Skype for Business</li>
+<br><br>and<br><br>
+<li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li>
+<li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for some/all available scenarios. To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</p>
 <p>Learn more about running Skype for Business and Teams side-by-side.</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><ul><strong><li>80% or higher user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li></strong>
-<strong><li>Satisfactory network health</li></strong></ul></td>
-<td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Microsoft Teams.</p>
+<td align="left"><ul><li>80% or higher user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li>
+<li>Satisfactory network health</li></ul></td>
+<td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</p>
 <p>Learn more about running Skype for Business and Teams side-by-side.</p>
-<p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</p></td>
+<p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="even">
-<td align="left"><ul><strong><li>Less than 80% agree that Teams can be easily utilized alongside Skype for Business</li></strong>
-<strong><li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li></strong></ul></td>
-<td align="left">Continuing with Skype for Business for communication (e.g. IM, Meetings, Calling) while utilizing the modern collaboration functionality (e.g. Teams/Channels) of Teams. Revisit a Teams pilot to verify communications functionality as new features are released per <a href="https://go.microsoft.com/fwlink/?linkid=859047">roadmap.</a></td>
+<td align="left"><ul><li>Less than 80% agree that Teams can be easily utilized alongside Skype for Business</li>
+<li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li></ul></td>
+<td align="left">Continuing with Skype for Business for communication (e.g. IM, Meetings, Calling) while utilizing the modern collaboration functionality (e.g., Teams/Channels) of Teams. Revisit a Teams pilot to verify communications functionality as new features are released per <a href="https://go.microsoft.com/fwlink/?linkid=859047">roadmap.</a></td>
 </tr>
 </tbody>
 </table>
