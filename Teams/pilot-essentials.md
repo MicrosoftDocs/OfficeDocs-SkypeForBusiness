@@ -195,8 +195,9 @@ Based on your outcomes, here are a few recommended paths your organization may t
 </tr>
 <tr class="even">
 <td align="left"><ul><li>80% or higher agree that Teams can be easily utilized alongside Skype for Business</li>
-<br><br>and<br><br>
+<br>-and-<br><br>
 <li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li>
+<br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for some/all available scenarios. To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</p>
 <p>Learn more about running Skype for Business and Teams side-by-side.</p>
@@ -204,6 +205,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 </tr>
 <tr class="odd">
 <td align="left"><ul><li>80% or higher user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li>
+<br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</p>
 <p>Learn more about running Skype for Business and Teams side-by-side.</p>
@@ -211,6 +213,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 </tr>
 <tr class="even">
 <td align="left"><ul><li>Less than 80% agree that Teams can be easily utilized alongside Skype for Business</li>
+<br>-and-<br><br>
 <li>Less than 80% user agreement that Teams can replace Skype for Business based on current use cases and scenarios</li></ul></td>
 <td align="left">Continuing with Skype for Business for communication (e.g. IM, Meetings, Calling) while utilizing the modern collaboration functionality (e.g., Teams/Channels) of Teams. Revisit a Teams pilot to verify communications functionality as new features are released per <a href="https://go.microsoft.com/fwlink/?linkid=859047">roadmap.</a></td>
 </tr>

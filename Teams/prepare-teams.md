@@ -53,7 +53,7 @@ The Quality Champion role should be the go-to person for any call quality relate
 Get information on the Quality Champion concept and the quality review tools and techniques from [Manage a quality and reliable service delivery workshop](https://go.microsoft.com/fwlink/?linkid=859071).
 
 Environmental dependencies
-===========================
+---------------------------
 
 Teams combines multiple Office 365 services and is therefore dependent on the correct implementation and operation of these services. These services include but are not limited to SharePoint Online, Exchange Online, and OneDrive for Business.
 
