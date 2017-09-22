@@ -1,5 +1,5 @@
 ---
-title: Journey from Skype for Business to Teams
+title: Journey from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,20 +10,22 @@ description: Everything you need to know about the journey to Microsoft Teams fr
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Journey from Skype for Business to Teams
-========================================
+Journey from Skype for Business to Microsoft Teams
+==================================================
 
-Microsoft recently announced that ……. (add in marketing messaging)
+As part of Microsoft's vision to deliver smarter calling and meeting experiences with Intelligent Communications, we'll be bringing Skype for Business capabilities into Teams. As a valued Skype for Business customer, Microsoft is here to support you on your journey to Teams. We encourage you to begin exploring Teams today and begin realizing the value it can offer to your organization, while you continue to utilize Skype for Business. 
 
-Learn more
+For optimal results, we recommend that you follow the guidance in order:
+[1 - Optimize your current Skype for Business and Teams environment](prepare-teams.md)
+[2 - Pilot Teams with Skype for Business deployed](pilot-essentials.md)
+[3 - Enable Teams side-by-side with Skype for Business](continue-journey.md)
+[4 - Drive value through user adoption](guidance-SkypeforBusiness.md)
 
-As a valued Skype for Business customer, Microsoft is here to support you on your journey to Teams. We encourage you to begin exploring Teams today and begin realizing the value it can offer to your organization, while you continue to utilize Skype for Business. Click through the steps below to get started.
 
-
-insert final UC graphic with links to sub pages
-
-
-FastTrack page: https://upgradeskype-dev.cloudapp.net/
+ 
+### See also
+[FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+[FastTrack for Teams](https://upgradeskype-dev.cloudapp.net/) 
 
 
 
