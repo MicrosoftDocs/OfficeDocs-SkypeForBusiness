@@ -69,9 +69,8 @@ Guests can leave the team at any time via Microsoft Teams web and desktop client
     
     
 
-
-### What the guest experience is like
 <a name="guestexp"></a>
+### What the guest experience is like
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
@@ -125,16 +124,14 @@ The following table compares the Microsoft Teams functionality available for an 
 > Office 365 admins control the features available to guests. 
   
     
-    
+###Manage guests
 
-###Manage
-<a name="BKMK_GuestExperience"> </a>
 
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
   
     
     
-Microsoft Teams guest access is a tenant-level setting and is turned off by default. Admins can manage guest access via the Office 365 admin center. For more details, see  [Manage guest access to Microsoft Teams](guest-access-in-microsoft-teams.md#bkmk_ManageGuestAccess) and [Control guest access to Microsoft Teams](guest-access-in-microsoft-teams.md#bkmk_ControlGuestAccess).
+Microsoft Teams guest access is a tenant-level setting and is turned off by default. Admins can manage guest access via the Office 365 admin center. For more details, see [Manage guest access to Microsoft Teams](#manageguest) and [Control guest access to Microsoft Teams](#controlguest).
   
     
     
@@ -145,7 +142,7 @@ Microsoft Teams guest access is a tenant-level setting and is turned off by defa
     
     
 
-In addition, you can use the Azure Active Directory portal to manage guests and their access to Office 365 and Microsoft Teams resources. Microsoft Teams guest access makes use of Azure Active Directory business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure Active Directory B2B, see  [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
+In addition, you can use the Azure Active Directory portal to manage guests and their access to Office 365 and Microsoft Teams resources. Microsoft Teams guest access makes use of Azure Active Directory business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure Active Directory B2B, see [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
   
     
     
@@ -163,20 +160,20 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
 
 - In SharePoint Online: **Only allow sharing with external users already in the directory**
     
-    For more information, see  [Manage external sharing for your SharePoint Online environment](http://technet.microsoft.com/library/c8a462eb-0723-4b0b-8d0a-70feafe4be85%28Office.14%29.aspx).
+    For more information, see [Manage external sharing for your SharePoint Online environment](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
     
   
 - In Office 365 groups: **Let group owners add people outside the organization to groups**
     
-    For more information, see  [Control guest access to Microsoft Teams](guest-access-in-microsoft-teams.md#bkmk_ControlGuestAccess).
+    For more information, see [Control guest access to Microsoft Teams](#controlguest).
     
   
 
-### Turn on or off guest access for Microsoft Teams
+#### Turn on or off guest access for Microsoft Teams
 <a name="bkmk_TurnonOrTurnOff"> </a>
 
 
-1. Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
   
 2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
@@ -227,11 +224,11 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
     
 
 
-### Control adding guest users to Microsoft Teams and Office 365 groups
+#### Control adding guest users to Microsoft Teams and Office 365 groups
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
-1. Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
   
 2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
@@ -266,11 +263,11 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
 
     
   
-
+<a name="controlguest"> </a>
 ### Turn on or off the Sharing option for Office 365
-<a name="bkmk_TurnOnOffSharingOption"> </a>
 
-The Sharing option allows guests to be added to your organization. By default, the Sharing option is enabled. For information about how to turn off the Sharing option, see  [Control guest access to Office 365 Groups](http://technet.microsoft.com/library/7c713d74-a144-4eab-92e7-d50df526ff96%28Office.14%29.aspx#BKMK_Beforeyoubegin).
+
+The Sharing option allows guests to be added to your organization. By default, the Sharing option is enabled. For information about how to turn off the Sharing option, see [Turn on or off the Sharing option](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
   
     
     
@@ -282,7 +279,7 @@ The Sharing option allows guests to be added to your organization. By default, t
     
 
 
-### Use PowerShell to control guest access
+#### Use PowerShell to control guest access
 <a name="bkmk_UsePowerShell"> </a>
 
 In addition to using the Office 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access. With PowerShell, you can do the following:
@@ -299,17 +296,17 @@ In addition to using the Office 365 admin center and the Azure Active Directory 
 - Allow or block guest users from a specific team or Office 365 group
     
   
-For more details, see  [Guest access in Office 365 Groups](http://technet.microsoft.com/library/bfc7a840-868f-4fd6-a390-f347bf51aff6%28Office.14%29.aspx#bkmk_UsePowerShell).
+For more details, see [Use PowerShell to control guest access](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
   
     
     
-You can also use PowerShell to allow or block a guest user based on their domain. For example, let's say your business (Contoso) has a partnership with another business (Fabrikam). You can add Fabrikam to your Allow list so your users can add those guests to their groups. For more information, see  [Allow/Block guest access to Office 365 groups](https://go.microsoft.com/fwlink/?linkid=854001).
+You can also use PowerShell to allow or block a guest user based on their domain. For example, let's say your business (Contoso) has a partnership with another business (Fabrikam). You can add Fabrikam to your Allow list so your users can add those guests to their groups. For more information, see [Allow/Block guest access to Office 365 groups](https://go.microsoft.com/fwlink/?linkid=854001).
   
     
     
-
+<a name="manageguest"> </a>
 ### View guest users
-<a name="bkmk_UsePowerShell"> </a>
+
 
 
 1. Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
@@ -325,22 +322,21 @@ You can also use PowerShell to allow or block a guest user based on their domain
   
     
 
-### Invite guest users
+#### Invite guest users
 <a name="bkmk_UsePowerShell"> </a>
 
-A team owner or an Office 365 admin can  [How do I add a team member?](teams-channels-overview.md#BKMK_HowDoIAddATeamMember) on an individual basis. However, admins can't use the Office 365 admin center or the Azure Active Directory portal to invite multiple guests in one action. To invite guests centrally, consider using the Azure Active Directory B2B collaboration preview. For more information, see [About the Azure AD B2B collaboration preview](https://go.microsoft.com/fwlink/p/?linkid=853011).
+A team owner or an Office 365 admin can [invite a guest to a team](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) on an individual basis. However, admins can't use the Office 365 admin center or the Azure Active Directory portal to invite multiple guests in one action. To invite guests centrally, consider using the Azure Active Directory B2B collaboration preview. For more information, see [About the Azure AD B2B collaboration preview](https://go.microsoft.com/fwlink/p/?linkid=853011).
   
     
     
 
-### Edit guest user information
+#### Edit guest user information
 <a name="bkmk_UsePowerShell"> </a>
 
-Currently, you can't edit guest information from the Office 365 admin center or the Exchange admin center. To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal. For more information, see  [Understanding Office 365 identity and Azure Active Directory](http://technet.microsoft.com/library/06a189e7-5ec6-4af2-94bf-a22ea225a7a9%28Office.14%29.aspx).
+Currently, you can't edit guest information from the Office 365 admin center or the Exchange admin center. To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal. For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
   
     
     
-FAQ
 ### Frequently asked questions for admins
 <a name="bkmk_UsePowerShell"> </a>
 
@@ -392,10 +388,10 @@ As a global admin, you can add a new guest user to the organization in a couple 
     
     
 
-- Global admins who are owners of a team and owners of a team can  [How do I add a team member?](teams-and-channels.md#BKMK_HowDoIAddATeamMember) through either the Microsoft Teams desktop or the web clients.
+- Global admins who are owners of a team and owners of a team can [add a guest to a team](https://support.office.com/en-us/article/add-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) through either the Microsoft Teams desktop or the web clients.
     
   
-- Add guests to your organization through Azure Active Directory B2B collaboration. Azure Active Directory B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out  [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?LinkId=826383).
+- Add guests to your organization through Azure Active Directory B2B collaboration. Azure Active Directory B2B collaboration allows a global admin to invite and authorize a set of external users by uploading a comma-separated values (CSV) file of no more than 2,000 lines to the B2B collaboration portal. For more details, check out [Azure Active Directory B2B collaboration](https://go.microsoft.com/fwlink/p/?LinkId=826383).
     
   
 
@@ -454,7 +450,7 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 
 #### Can a global admin manage SharePoint Online external user settings for the Teams connected team site?
 
-Yes, you can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](http://technet.microsoft.com/library/8376034d-d0c7-446e-9178-6ab51c58df42%28Office.14%29.aspx).﻿
+Yes, you can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
   
     
     
@@ -479,7 +475,7 @@ Yes, the guest will get access to the team. Adding a guest via the Office 365 gr
 
 #### What event appears in the audit log to indicate a guest has been sent an invitation?
 
-You can track guest additions in Azure Active Directory or the Office 365 Security &amp; Compliance Center. Adding a guest in Microsoft Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see  [Auditing and reporting a B2B collaboration user](https://go.microsoft.com/fwlink/p/?linkid=858884) and [Search the audit log in the Office 365 Security &amp; Compliance Center](http://technet.microsoft.com/library/0d4d0f35-390b-4518-800e-0c7ec95e946c%28Office.14%29.aspx).
+You can track guest additions in Azure Active Directory or the Office 365 Security &amp; Compliance Center. Adding a guest in Microsoft Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see  [Auditing and reporting a B2B collaboration user](https://go.microsoft.com/fwlink/p/?linkid=858884) and [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
   
     
     
@@ -504,15 +500,15 @@ Admins can create guest accounts in Azure Active Directory, independent from ext
 
 ## More information
 
- [Administrator settings for Microsoft Teams](administrator-settings-for-microsoft-teams.md)
+ [Administrator settings for Microsoft Teams](https://support.office.com/en-us/article/Administrator-settings-for-Microsoft-Teams-3966a3f5-7e0f-4ea9-a402-41888f455ba2)
   
     
     
- [Frequently asked questions about Microsoft Teams - Admin Help](frequently-asked-questions-about-microsoft-teams-–-admin-help.md)
+ [Frequently asked questions about Microsoft Teams - Admin Help](https://support.office.com/en-us/article/Frequently-asked-questions-about-Microsoft-Teams-–-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc)
   
     
     
- [Adding guests to teams](teams-and-channels.md#BKMK_addingguests)
+ [Adding guests to teams](https://support.office.com/en-us/article/Adding-guests-to-teams-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests)
   
     
     
