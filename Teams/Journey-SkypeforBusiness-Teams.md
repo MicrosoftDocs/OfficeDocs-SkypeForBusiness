@@ -16,9 +16,13 @@ Journey from Skype for Business to Microsoft Teams
 As part of Microsoft's vision to deliver smarter calling and meeting experiences with Intelligent Communications, we'll be bringing Skype for Business capabilities into Teams. As a valued Skype for Business customer, Microsoft is here to support you on your journey to Teams. We encourage you to begin exploring Teams today and begin realizing the value it can offer to your organization, while you continue to utilize Skype for Business. 
 
 For optimal results, we recommend that you follow the guidance in order:
+
 [1 - Optimize your current Skype for Business and Teams environment](prepare-teams.md)
+
 [2 - Pilot Teams with Skype for Business deployed](pilot-essentials.md)
+
 [3 - Enable Teams side-by-side with Skype for Business](continue-journey.md)
+
 [4 - Drive value through user adoption](guidance-SkypeforBusiness.md)
 
 
