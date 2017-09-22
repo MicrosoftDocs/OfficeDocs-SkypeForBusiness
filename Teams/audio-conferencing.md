@@ -234,17 +234,11 @@ The business use cases defined in the previous step will include organizational 
 
 _Table 2 Stakeholder matrix template example_
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td style="vertical-align:top">The example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> The example table above and subsequent tables throughout this document serve as a template. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
+
+
 
 Define objectives and key results, key success indicators, and risks
 --------------------------------------------------------------------
@@ -258,8 +252,8 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p>Vision</p>
-<p>Increase productivity by maximizing Office 365 investments</p></th>
+<th align="left"><p><strong>Vision</strong>: Increase productivity by maximizing Office 365 investments</p>
+</th>
 <th align="left"></th>
 <th align="left"></th>
 </tr>
@@ -433,17 +427,10 @@ Adoption readiness can be evaluated by executing persona analysis to come up wit
 
 To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://go.microsoft.com/fwlink/?linkid=859005) workshop deck and [Persona Feature Matrix](https://go.microsoft.com/fwlink/?linkid=859006). The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://go.microsoft.com/fwlink/?linkid=859007) template.
 
-<table>
-<thead>
-<tr class="header">
-<td align="center"><p><img src="media/audio_conferencing_image1.png" /></p>
-<p>Note</p></td>
-<td align="left">While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams. Feel free to modify and remove items that are not relevant to the project goals.</td>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+
+> [!NOTE]
+> While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams. Feel free to modify and remove items that are not relevant to the project goals.
+
 
 You can identify technical risks as part of an environmental assessment and adoption readiness evaluation and develop a mitigation plan for each identified risk. This information should be incorporated as part of the risk plan.
 
@@ -798,6 +785,8 @@ If there are existing conference bridge phone numbers that must be transferred t
 > [!NOTE]
 > Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011).
 
+|  |  |
+|---------|---------|
 | <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |  |
 
 Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
@@ -1324,8 +1313,8 @@ _Table 14 Example of dial plan assignments_
 Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.
 
 
-> [!NOTE]
-> Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.<br>
+> [!NOTES]
+> Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.<br><br>
 > In another use case, if all meetings in the organization must be visible <strong>to invited parties</strong> only, to avoid disclosing meeting information to uninvited parties, we recommend that you disable the ability to schedule meetings in <strong>channels</strong>.
 
 The settings, available as tenant-level configurations, are applicable to all users in the organization, and will impact all meeting scheduling in Teams, not specific to Teams meetings **with** Audio Conferencing.
@@ -1394,9 +1383,6 @@ In general, a technical implementation plan will contain the following main sect
 
 With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.
 
-### See also
-[Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-audio-conferencing-for-Skype-for-Business-and-Microsoft-Teams-d01954f1-4f37-4cf5-a636-20039e5c59e9)
-
 Onboard
 =======
 
@@ -1407,3 +1393,7 @@ Drive Value
 
 *Coming soon.*
 
+
+
+### See also
+[Set up dial-in or PSTN conferencing for Skype for Business](https://support.office.com/article/Set-up-audio-conferencing-for-Skype-for-Business-and-Microsoft-Teams-d01954f1-4f37-4cf5-a636-20039e5c59e9)
