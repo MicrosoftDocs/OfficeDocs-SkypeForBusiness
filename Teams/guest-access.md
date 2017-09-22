@@ -358,7 +358,7 @@ You can also use PowerShell to allow or block a guest user based on their domain
 ### Invite guest users
 <a name="bkmk_UsePowerShell"> </a>
 
-A team owner or an Office 365 admin can  [How do I add a team member?](teams-and-channels.md#BKMK_HowDoIAddATeamMember) on an individual basis. However, admins can't use the Office 365 admin center or the Azure Active Directory portal to invite multiple guests in one action. To invite guests centrally, consider using the Azure Active Directory B2B collaboration preview. For more information, see [About the Azure AD B2B collaboration preview](https://go.microsoft.com/fwlink/p/?linkid=853011).
+A team owner or an Office 365 admin can  [How do I add a team member?](teams-channels-overview.md#BKMK_HowDoIAddATeamMember) on an individual basis. However, admins can't use the Office 365 admin center or the Azure Active Directory portal to invite multiple guests in one action. To invite guests centrally, consider using the Azure Active Directory B2B collaboration preview. For more information, see [About the Azure AD B2B collaboration preview](https://go.microsoft.com/fwlink/p/?linkid=853011).
   
     
     
