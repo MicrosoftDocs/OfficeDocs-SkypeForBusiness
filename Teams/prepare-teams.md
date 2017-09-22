@@ -1,5 +1,5 @@
 ---
-title: Optimize your current Skype for Business and Microsoft Teams environment
+title: Optimize your current Skype for Business environment for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,32 +10,32 @@ description: Guidance for starting your journey from Skype for Business to Micro
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Optimize your current Skype for Business and Teams environment
+Optimize your current Skype for Business environment for Microsoft Teams
 ==============================================================
 
 Change takes time. Your organization has deployment lifecycles, resource planning, technical readiness and change management to consider. We are working hard to ensure Microsoft Teams meets your needs for long-term success. While we work to get things ready for you, here are a few ways you can get started with your preparations today. By completing this guidance, you can drive a successful Teams implementation within your organization.
 
-Environmental readiness
------------------------
+## Environmental readiness
+
 
 The guidance below should be used to ensure a successful and healthy Teams implementation. This guidance will help validate your current Skype for Business environment to prepare for your Teams deployment.   
 
 
-Network readiness assessment
-----------------------------
+### Network readiness assessment
+
 
 You should perform a *Network Readiness Assessment* before implementing any real-time communications product such as Teams. A *Network Readiness Assessment* focuses on network performance, network planning, and other general networking aspects such as ports and protocols that must be opened. Even if you are currently using a real-time communications product, such as Skype for Business, the *Network Readiness Assessment* will help validate your network readiness.
 
 Get the [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=859069) guide.
 
-My Advisor
-----------
+### My Advisor
+
 
 Throughout your journey, we recommend the practical guidance you'll find in [My Advisor](http://aka.ms/myadvisor). My Advisor is a comprehensive, self-service guide and toolset for planning and managing Teams and Skype for Business Online for operational success.
 
 
-Quality assessment
-------------------
+### Quality assessment
+
 
 Before you start onboarding your users to Teams, make sure that your current Skype for Business deployment meets the quality bar when it comes to real-time media. Use Call Quality Dashboard (CQD) to monitor usage and identify quality trends and Call Analytics to troubleshoot or look at quality indicators of individual calls.
 
@@ -43,17 +43,17 @@ Watch the [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrain
 
 To learn more about Call Analytics, go to [Skype for Business Call Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd).
 
-Quality champion role
----------------------
+### Quality champion role
 
-Organizations should identify a person to take on the role of Quality Champion. The Quality Champion is accountable for reviewing quality metrics against usage, identifying quality trends and areas for improvement.
 
-The Quality Champion role should be the go-to person for any call quality related issues and should act as the subject matter expert (SME) for the identification of quality issues by reviewing ongoing usage and quality trends and identifying action items. The Quality Champion role should work with the respective teams to drive remediation actions, reporting to a steering committee on the progress and open issues. The best candidate for the Quality Champion role is typically the customer service owner. Depending on the organization size and complexity, any person who is passionate about user experience and has the skills to identify trends can act as a Quality Champion, supported by the right level of sponsorship to work with other teams to drive remediation.
+Organizations should identify a person, or group of people, for the role of Quality Champion. The quality champion reviews quality metrics against usage, identifying quality trends and areas for improvement.
 
-Get information on the Quality Champion concept and the quality review tools and techniques from [Manage a quality and reliable service delivery workshop](https://go.microsoft.com/fwlink/?linkid=859071).
+The quality champion is the go-to person for any call quality related issues and should act as the subject matter expert (SME) for the identification of quality issues by reviewing ongoing usage and quality trends and identifying action items. The quality champion should work with the respective teams to drive remediation actions, reporting to a steering committee on the progress and open issues. The best candidate for the quality champion is typically the customer service owner. Depending on the organization size and complexity, any person who is passionate about user experience and has the skills to identify trends can act as a quality champion, supported by the right level of sponsorship to work with other teams to drive remediation.
 
-Environmental dependencies
----------------------------
+Get information on the quality champion concept and the quality review tools and techniques from [Manage a quality and reliable service delivery workshop](https://go.microsoft.com/fwlink/?linkid=859071).
+
+## Environmental dependencies
+
 
 Teams combines multiple Office 365 services and is therefore dependent on the correct implementation and operation of these services. These services include but are not limited to SharePoint Online, Exchange Online, and OneDrive for Business.
 

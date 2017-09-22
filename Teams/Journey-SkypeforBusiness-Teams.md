@@ -30,8 +30,6 @@ For optimal results, we recommend that you follow the guidance in order:
 ### See also
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 
-[FastTrack for Teams](https://upgradeskype-dev.cloudapp.net/) 
-
 
 
 
