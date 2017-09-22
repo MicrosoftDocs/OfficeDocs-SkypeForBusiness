@@ -20,23 +20,22 @@ Microsoft is working hard to bring you tailored practical guidance to ensure tha
 
 ## Promote adoption of Teams alongside Skype for Business 
 
-    -   Customize and share Skype and Teams side-by-side [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources
+- Customize and share Skype and Teams side-by-side [User Readiness](https://go.microsoft.com/fwlink/?linkid=859044) resources
 
-    -   Share Teams [Training](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve
+- Share Teams [Training](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) resources to facilitate the learning curve
 
-    -   Provide Teams [Help](https://support.office.com/teams) topics for users to accelerate their onboarding
+- Provide Teams [Help](https://support.office.com/teams) topics for users to accelerate their onboarding
 
-    -   New to adoption and change management? Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)
-
+- New to adoption and change management? Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)
 
 
 ## Get your organizaton ready for your future move to Teams
 
-    -   Use the [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams
+- Use the [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams
 
-    -   Check out [Teams Resources](https://go.microsoft.com/fwlink/?linkid=859048) and [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) for assistance with deploying Teams
+- Check out [Teams Resources](https://go.microsoft.com/fwlink/?linkid=859048) and [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) for assistance with deploying Teams
 
-    -   Contact [Partners](https://go.microsoft.com/fwlink/?linkid=859050) if you need help with your Teams deployment or journey
+- Contact [Partners](https://go.microsoft.com/fwlink/?linkid=859050) if you need help with your Teams deployment or journey
 
 
 

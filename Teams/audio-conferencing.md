@@ -277,7 +277,7 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 <tr class="odd">
 <td align="left">Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018</td>
 <td align="left">FY18Q2: Decommission legacy PSTN Conferencing service globally</td>
-<td align="left"><p>Deliver Value</p>
+<td align="left"><p>Drive Value</p>
 <ul><li>Boost user engagement and drive adoption</li>
 <li>Manage and prepare change</li>
 <li>Measure, share success, and iterate</li></ul></td>
