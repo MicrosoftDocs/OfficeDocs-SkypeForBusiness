@@ -55,7 +55,7 @@ Here's how a guest becomes a member of a team:
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](https://support.office.com/en-us/article/Guest-access-in-Microsoft-Teams-bd4cdeec-4044-4b4b-9df1-beb139013a3f#bkmk_guestexperience)
+- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](#guestexp)
     
   
 Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
@@ -71,6 +71,7 @@ Guests can leave the team at any time via Microsoft Teams web and desktop client
 
 
 ### What the guest experience is like
+<a name="guestexp"></a>
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
@@ -92,7 +93,7 @@ All team members see a message in the channel thread announcing that the team ow
   
     
     
-![Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating "This team has guests" and users who are guests identified with the word "GUEST" next to their name.](images/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating "This team has guests" and users who are guests identified with the word "GUEST" next to their name.](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
   
     
     
@@ -105,18 +106,18 @@ The following table compares the Microsoft Teams functionality available for an 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
 ||||
-|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a private chat  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participate in a channel conversation  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Post, delete, and edit messages  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a channel file  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Share a chat file  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Add apps (tabs, bots, or connectors)  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Create tenant-wide and teams/channels guest access policies  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invite a user outside the Office 365 tenant's domain  <br/> ||![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Create a team  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Discover and join a public team  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|View organization chart  <br/> |![checkmark](images/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participate in a private chat  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participate in a channel conversation  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Post, delete, and edit messages  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Share a channel file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Share a chat file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Add apps (tabs, bots, or connectors)  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create tenant-wide and teams/channels guest access policies  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Invite a user outside the Office 365 tenant's domain  <br/> ||![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Create a team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Discover and join a public team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|View organization chart  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 
     
@@ -126,8 +127,7 @@ The following table compares the Microsoft Teams functionality available for an 
     
     
 
-Manage
-### 
+###Manage
 <a name="BKMK_GuestExperience"> </a>
 
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
@@ -181,7 +181,7 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
   
 2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
     
-     ![Sign in to Office 365, go to the Office 365 admin center, go to Settings, and then choose Services &amp; add-ins.](images/99e676d4-5b48-4525-9556-547031fa37d9.png)
+     ![Sign in to Office 365, go to the Office 365 admin center, go to Settings, and then choose Services &amp; add-ins.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
 
   
@@ -189,7 +189,7 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
   
 3. Select **Microsoft Teams**.
     
-     ![Screenshot shows the option for the Microsoft Teams add-in, as selected in the Office 365 admin center.](images/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
+     ![Screenshot shows the option for the Microsoft Teams add-in, as selected in the Office 365 admin center.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
 
   
@@ -201,7 +201,7 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
   
     
     
-![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](images/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
+![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
     
     
@@ -239,7 +239,7 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
   
 3. Select **Office 365 Groups**.
     
-     ![Office 365 groups](images/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
+     ![Office 365 groups](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
   
 
   
@@ -251,7 +251,7 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
   
     
     
-![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](images/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
     
     
@@ -321,21 +321,9 @@ You can also use PowerShell to allow or block a guest user based on their domain
   
     
     
-![Screenshot shows the guest users option selected from the Users section of the Office 365 admin center.](images/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+![Screenshot shows the guest users option selected from the Users section of the Office 365 admin center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
   
     
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
-  
 
 ### Invite guest users
 <a name="bkmk_UsePowerShell"> </a>
