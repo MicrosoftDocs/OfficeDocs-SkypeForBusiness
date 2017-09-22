@@ -762,7 +762,7 @@ _Table 8 Example of license assignment list for Audio Conferencing meeting organ
 _Table 9 Example of Communications Credits planning numbers_
 
 
-## Conference Bridge Phone Numbers
+## Conference bridge phone numbers
 
 The Audio Conferencing service in Office 365 includes:
 
@@ -858,7 +858,7 @@ _Table 10 Example of conference bridge details_
 > [!NOTE]
 > The example table above and subsequent tables throughout this document serve as a template. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
 
-## Conference Bridge Settings
+## Conference bridge settings
 
 Organization-wide configuration options around Audio Conferencing meeting join experience (meeting entry and exit notification and caller name recording), meeting organizer’s PIN length, and email notification are available to further tailor the end-user experience.
 
@@ -1070,7 +1070,7 @@ _Table 11 Example of conference bridge settings_
 _Table 12 Example of conference bridge settings assignments_
 
 
-## Dial Plans
+## Dial plans
 
 A [Dial Plan](https://support.office.com/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), a Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial out scenarios.
 
@@ -1308,7 +1308,7 @@ _Table 13 Example of tenant dial plans_
 _Table 14 Example of dial plan assignments_
 
 
-## Microsoft Teams Configurations
+## Microsoft Teams configurations
 
 Since Audio Conferencing is only available for scheduled meetings, tenant-level configurations that govern meeting scheduling (private and channel meetings) must be enabled.
 

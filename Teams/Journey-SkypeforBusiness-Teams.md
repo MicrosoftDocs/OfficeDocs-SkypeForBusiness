@@ -19,7 +19,7 @@ For optimal results, we recommend that you follow the guidance in order:
 
 [1 - Optimize your current Skype for Business and Teams environment](prepare-teams.md)
 
-[2 - Pilot Teams with Skype for Business deployed](pilot-essentials.md)
+[2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 
 [3 - Enable Teams side-by-side with Skype for Business](continue-journey.md)
 

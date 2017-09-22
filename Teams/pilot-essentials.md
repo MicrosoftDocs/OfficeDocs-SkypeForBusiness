@@ -1,5 +1,5 @@
 ---
-title: Pilot Teams with Skype for Business deployed
+title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,7 +10,7 @@ description: Guidance for starting a Microsoft Teams pilot to explore all that T
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Pilot Teams with Skype for Business deployed
+Pilot Microsoft Teams alongside Skype for Business
 ============================================
 
 As an existing Skype for Business and Office 365 customer, your organization is already a part of the modern workplace movement, empowering your users to be more creative, innovative, and productive. Microsoft Teams further expands what’s possible, with added functionality, such as collaboration hubs for teamwork, app integration, and file storage. When you bring the current functionality of Skype for Business together with the value-add of Teams, you have a powerful communication and collaboration solution that can revolutionize how users work.
