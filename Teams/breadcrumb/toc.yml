@@ -1,8 +1,7 @@
 - name: Microsoft Teams
-  tocHref: /MicrosoftTeams/breadcrumb/
-  topicHref: https://go.microsoft.com/fwlink/?linkid=858815
+  tocHref: /MicrosoftTeams/
+  topicHref: /MicrosoftTeams/top-level-breadcrumb-redirect
   items:
   - name: Teams documentation
     tocHref: /MicrosofTeams/
     topicHref: /MicrosofTeams/index
-  

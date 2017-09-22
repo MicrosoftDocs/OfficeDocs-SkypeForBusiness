@@ -13,9 +13,6 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 FAQ - Journey from Skype for Business to Microsoft Teams
 ==========================================================
 
-<span id="Basics" class="anchor"><span id="_Toc465418393" class="anchor"></span></span>Customer Ready - External
-================================================================================================================
-
 UC Vision
 ---------
 
@@ -227,7 +224,7 @@ Meetings and Meeting Room Devices
 
 ### What did Lenovo announce at Ignite?
 
-### Lenovo announced the Smart Hub 500, the latest member of the Skype Room System family. The Smart Hub 500 is focused on powering Skype for Business meetings and simplifying collaboration experiences in Small to Medium spaces. Advantages include its compact footprint for huddle spaces and simple out of the box setup for IT Pros. Lenovo expects availability in 2018. No pricing has been shared at this time.
+Lenovo announced the Smart Hub 500, the latest member of the Skype Room System family. The Smart Hub 500 is focused on powering Skype for Business meetings and simplifying collaboration experiences in Small to Medium spaces. Advantages include its compact footprint for huddle spaces and simple out of the box setup for IT Pros. Lenovo expects availability in 2018. No pricing has been shared at this time.
 
 ### What is the plan for video interoperability support for Teams meetings?
 
@@ -287,48 +284,3 @@ A rich partner ecosystem and robust set of platform capabilities as essential to
 
 All publicly available developer capabilities for Skype for Business Online (WebSDK, AppSDK for iOS / Android) will continue to be supported in their current versions. The current Trusted Application API capabilities and the Bot Framework for Skype for Business will remain available in public preview. Going forward, we intend to support similar scenarios and capabilities natively integrated with our next-gen core communications services and Teams client framework.
 
-Internal Only
-=============
-
-### <span id="_NDA_Pre-brief_for" class="anchor"><span id="_How_do_I" class="anchor"></span></span>Is Microsoft planning a forced migration or scheduled upgrade?
-
-Microsoft currently has no plans to force a migration or upgrade with customers. We will make our roadmap for Microsoft Teams available, so customers can assess the capabilities for Teams relative to their needs and plan their move to Teams. Customers can determine the timing for moving to Team that best meets their needs.
-
-### Microsoft briefed us and told us we would be forced to migrate – is that no longer true?
-
-In the early stages Microsoft was considering scheduled upgrades and consulted with customers on this approach. After feedback from customers like you, we decided this new approach would be more helpful to our customers. Customers can determine the timing for moving to Team that best meets their needs.
-
-### I heard you are turning off skype for business Online in 2020?
-
-We have no plans to shut down the service in 2020 at this time. Instead, customers should on an ongoing basis review our public roadmap and decide when is the right time to move to Teams.
-
-### Are you getting rid of SfB Server? SfB Clients?
-
-No. Microsoft continues to offer Skype for Business server to customers. We are announcing at Ignite the next version of server due in Late 2018. We continue to offer and support our Skype for business clients on Windows, Mac, and Mobile platforms. There is no change.
-
-### What are the key messages and tenets I should learn for all of my customer discussions?
-
-1.  Office 365 is the universal toolkit for the modern workplace and Teams is the hub for teamwork in Office 365
-
-2.  Our vision moves beyond Unified Communications to something bigger and more ambitious – Intelligent Communications
-
-3.  To achieve our Intelligent Communications vision, we are: (a) Building Skype for Business capabilities into Teams on a new, enterprise-grade Skype back-end that delivers higher quality experiences and increased speed of innovation, (b) Merging the Skype for Business client in Office 365 into the Teams client over time, creating one end-user experience, and (c) Innovating with cognitive and data services that leverage Microsoft graph, AI and machine learning
-
-4.  We will provide transparency and visibility into our roadmap, so customers can assess when a move to Teams is right for them
-
-5.  For customers not ready to move to Teams, we will continue to sell and support Skype for Business services in Office 365
-
-6.  Customers can run Teams and Skype for Business clients side-by-side until Teams fully meets their communication needs
-
-7.  We will help customers plan and execute their move to Teams through FastTrack
-
-8.  We are committed to deliver Skype for Business Server and client for on-premises customers, with a new Server release in 2H 2018
-
-9.  We encourage all Office 365 customers to begin using Microsoft Teams today and explore the benefits
-
-Partners
-========
-
-### What is this section for?
-
-For questions that are partner only – not for external consumption. Reserved for Chantal Barnes.
