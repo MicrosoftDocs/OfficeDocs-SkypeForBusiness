@@ -200,7 +200,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for some/all available scenarios. To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</p>
-<p>Learn more about running Skype for Business and Teams side-by-side.</p>
+<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="odd">
@@ -208,7 +208,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</p>
-<p>Learn more about running Skype for Business and Teams side-by-side.</p>
+<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="even">
@@ -236,7 +236,8 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
 <td align="left">
-<p><strong>Next Action:</strong></p><ul><li>Analyze your pilot learnings and determine your path forward. If you opt to deploy Teams alongside Skype for Business, be sure to leverage the [user readiness templates](https://go.microsoft.com/fwlink/?linkid=859044) to help get your started.</li><li>View and bookmark the [Teams roadmap](https://go.microsoft.com/fwlink/?linkid=859047).</li></ul></td>
+<p><strong>Next Actions:</strong></p><ul><li>Analyze your pilot learnings and determine your path forward. If you opt to deploy Teams alongside Skype for Business, be sure to leverage the [user readiness templates](https://go.microsoft.com/fwlink/?linkid=859044) to help get your started.</li><li>View and bookmark the [Teams roadmap](https://go.microsoft.com/fwlink/?linkid=859047).</li>
+<li>Once your pilot results indicate users are ready for Teams, [Enable Teams side-by-side for your organization](continue-journey.md).</li></ul></td>
 </tr>
 </thead>
 <tbody>

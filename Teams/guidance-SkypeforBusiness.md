@@ -10,7 +10,7 @@ description: Guidance for using Skype for Business and Microsoft Teams side by s
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Side-by-Side Guidance: Skype for Business and Microsoft Teams
+Side-by-side guidance: Skype for Business and Microsoft Teams
 =============================================================
 
 For organizations with existing deployments of Skype for Business Online, the recent introduction of Microsoft Teams presents an opportunity to evaluate the potential of Teams as a sole, communications and collaboration solution, and a challenge to tip the scale between the two solutions and how they can coexist in your environment.
@@ -31,7 +31,7 @@ In general, there are two major side-by-side- customer journeys. They are:
 
 ![](media/guidance_SkypeforBusiness_image1.png)
 
-Side-by-Side benefits and considerations
+Side-by-side benefits and considerations
 ----------------------------------------
 
 Each journey has benefits and considerations to weigh when determining the right path forward based on your organization's profile. The table below provides the comparisons between managed and unmanaged side-by-side customer journeys.
