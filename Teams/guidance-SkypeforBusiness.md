@@ -15,7 +15,7 @@ Enable Microsoft Teams side-by-side with Skype for Business
 
 For organizations with existing deployments of Skype for Business Online, the recent introduction of Microsoft Teams presents an opportunity to evaluate the potential of Teams as a sole, communications and collaboration solution, and a challenge to tip the scale between the two solutions and how they can coexist in your environment.
 
-If your business requirements can be met by Teams today, you can start adopting Teams to become your single communications and collaboration solution for your organization.
+If Teams can meet your business requirements today, you can start adopting Teams to become your single communications and collaboration solution for your organization.
 
 Teams is enabled by default, on all eligible tenants. Therefore, you need to decide on how to manage Teams side-by-side with Skype for Business, and continue to meet user expectations.
 
@@ -23,18 +23,18 @@ In general, there are two major side-by-side customer journeys. They are:
 
 -   **Option 1:** Unmanaged side-by-side customer journey.
 
-    IT does not actively control the side-by-side experience and, users are empowered to make the choice of preferred app.
+    IT does not actively control the side-by-side experience, and users are empowered to make the choice of preferred app.
 
 -   **Option 2:** Managed side-by-side customer journey.
 
-    IT controls the side-by-side experience, taking users through a journey of gradually introducing Teams to first introduce a new chat-based collaboration workspace, then meeting experiences, and finally chat and calling experiences in Teams.
+    IT controls the side-by-side experience, taking users through a journey of gradually introducing Teams to first introduce a new chat-based collaboration workspace with private chat, then meeting experiences, and finally the calling experiences in Teams.
 
 ![](media/guidance_SkypeforBusiness_image1.png)
 
 Side-by-side benefits and considerations
 ----------------------------------------
 
-Each journey has benefits and considerations to weigh when determining the right path forward based on your organization's profile. The table below provides the comparisons between managed and unmanaged side-by-side customer journeys.
+Each journey has benefits and considerations to evaluate when determining the right path forward based on your organization's profile. The table below provides the comparisons between managed and unmanaged side-by-side customer journeys.
 
 
 <table>
@@ -82,7 +82,7 @@ Each journey has benefits and considerations to weigh when determining the right
 <li>Multiple apps with similar, overlapping capabilities</li>
 <li>Increased potential for user confusion which can lead to increased support calls, shadow IT, impacted productivity</li>
 <li>Network planning and monitoring must take usage of two services into consideration</li>
-<li>Increased and immediate change management efforts required—awareness, training, and support</li>
+<li>Increased and immediate change management efforts required: awareness, training, and support</li>
 <li>Users may experience interoperability limitations between apps</li>
 </ul></td>
 <td align="left"><ul><li>IT has granular control, from licensing to user experiences, requiring additional cycles of planning and implementation</li>
@@ -94,12 +94,11 @@ Each journey has benefits and considerations to weigh when determining the right
 </tbody>
 </table>
 
-_Table 1: Side-by-Side benefits and considerations_
 
 Unmanaged side-by-side customer journey
 ---------------------------------------
 
-In an unmanaged side-by-side customer journey, Teams is introduced as a collaboration solution (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.) that involves client software and web client on desktop computers (PC or Mac) and mobile devices.
+In an unmanaged side-by-side customer journey, Teams is introduced as a collaboration solution (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.) that involves client software and web clients on desktop computers (PC or Mac) and mobile devices.
 
 By default, Teams also presents overlapping capabilities with Skype for Business, these include private chat and calling, and scheduled meetings. This means Teams ends up providing complete communications and collaboration for the organization, while at the same time Skype for Business provides similar capabilities.
 
@@ -120,25 +119,34 @@ Managed side-by-side customer journey
 
 A managed side-by-side customer journey starts with organization wanting more control over how Teams is introduced.
 
--   The **first step** of this journey is a limited pilot of Teams scoped to modern collaboration requirements (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.). Ad-hoc channel meetings in Teams is also enabled to provide a chance for pilot users to evaluate the Teams meetings experience. Scheduled meetings and private chat and calling capabilities in Teams are disabled at this stage. To get started with a pilot, go to [Pilot Teams with Skype for Business](pilot-essentials.md).
+-   The **first step** of this journey is a limited pilot of Teams scoped to modern collaboration requirements (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.). Ad-hoc channel meetings and private chat in Teams is also enabled to provide a chance for pilot users to evaluate the Teams meetings experience and private chat experiences. Scheduled meetings and private calling capabilities in Teams are disabled at this stage. To get started with a pilot, go to [Pilot Teams with Skype for Business](pilot-essentials.md).
     
--   The **second step** of this journey is by extending the rollout of Teams for modern collaboration throughout the organization. Scheduled meetings, and private chat and calling are continued to be disabled in Teams to avoid presenting users with overlapping capabilities with Skype for Business.
+-   The **second step** of this journey is extending the rollout of Teams for modern collaboration with private chat throughout the organization. Scheduled meetings, and private calling continue to be disabled in Teams to reduce the overlap  with with Skype for Business capabilities.
 
--   The **third step** of the managed side-by-side customer journey starts when the organization decides that Teams meeting experience and capabilities meet their business requirements. With scheduled private and channel meetings enabled in Teams, users will be presented with options to schedule both Teams meetings and Skype for Business meetings, and it is expected that over time users will naturally switch to Teams meetings given the continued innovations in Teams. To be successful in steering usage from Skype for Business to Teams, implement a robust change management program inclusive of training, support and communications that explains the value-add that Teams offers to the user, with clear guidance on how to get started with Teams. Leverage our [User Readiness](http://aka.ms/UserReadiness) resources to help design your awareness campaign.
+    At this stage, you may need to consider whether preferred chat application should be set to Teams or Skype for Business for the entire organization.
+
+    - If set to Teams, prepare your users to handle early interoperability challenges when communicating with other parties within and across the organization.
+    
+    - If set to Skype for Business, private chats within Teams will remain in Teams, and end users can immediately take advantage of the cross-platform persistent nature of chat capabilities within Teams, and they will continue to use Skype for Business for private chats among Skype for Business users, within the organization and across the organization.
+    
+    - Note that currently the configuration of preferred chat application is available at the client-level only. User training and adoption campaign will be required to drive the intended organization-wide configuration.
+    
+
+-   The **third step** of the managed side-by-side customer journey starts when the organization decides that Teams meeting experience and capabilities meet their business requirements. By enabling private and channel meetings in Teams, users are presented with options to schedule both Teams meetings and Skype for Business meetings. Therefore, it is expected that over time users will naturally switch to Teams meetings given the continued innovations in Teams. To be successful in steering usage from Skype for Business to Teams, implement a robust change management program inclusive of training, support and communications that explains the value-add that Teams offers to the user, with clear guidance on how to get started with Teams. Leverage our [User Readiness](http://aka.ms/UserReadiness) resources to help design your awareness campaign.
 
 
--   The **last step** of the managed side-by-side customer journey is when private chat and calling in Teams are enabled. Teams interoperability capabilities will feature heavily in this step to ensure a seamless side-by-side experience. Ideally, to enforce the use of Teams for private chat and calling, Teams is set as the default chat and calling app. Similar to the introduction of scheduled meetings in Teams, specific users adoption campaign featuring Teams private chat and calling experience will be required to steer usage to Teams.
+-   The **fourth step** of the managed side-by-side customer journey begins with the enablement of private chat and calling in Teams. Teams interoperability capabilities will feature heavily in this step to ensure a seamless side-by-side experience. Ideally, to enforce the use of Teams for private calling, Teams is set as the default calling app. 
 
-Over time, potentially the whole organization can rely solely on Teams to meet communications and collaboration requirements. To see when new features are coming in Teams, see the [Office 365 Roadmap](http://aka.ms/TeamsRoadmap). 
+Over time, potentially the whole organization can rely solely on Teams to meet communications and collaboration requirements and take the **fifth step**. To see when new features are coming in Teams, see the [Office 365 Roadmap](http://aka.ms/TeamsRoadmap). 
 
 Managing side-by-side experience
 --------------------------------
 
-Microsoft Teams is enabled, by default, for organizations with eligible Office 365 subscriptions, and if your organization fits the profile for unmanaged side-by-side customer journey, we highly recommend you keep it as-is to foster organic adoption of Microsoft Teams.
+By default, for organizations with eligible Office 365 subscriptions, Microsoft Teams is enabled. If your organization fits the profile for unmanaged side-by-side customer journey, we highly recommend you keep it as-is to foster organic adoption of Microsoft Teams.
 
-Teams is accessible via modern Web browsers and desktop client installation and requires no IT administrative privilege (applicable to PC only) and mobile client.
+Teams is accessible via modern Web browser desktop clients which require no IT administrative privilege (for installation, currently applicable to PC only) and mobile clients.
 
-All capabilities in Teams, from private chat and calling, ad-hoc and scheduled meetings, and apps are enabled by default, allowing users to experiment and use the capabilities that suit their needs. First run experience in Teams guides users to pick their preferred chat and calling application (Microsoft Teams or Skype for Business).
+All capabilities in Teams, from private chat and calling, ad-hoc and scheduled meetings, and apps are enabled by default, allowing users to experiment and use the capabilities that suit their needs. A first-run experience in Teams guides users to pick their preferred chat and calling application (Microsoft Teams or Skype for Business).
 
 Should your organization require a more controlled release of new tools such as Teams, the following options can be considered for your managed side-by-side customer journey, they are:
 
@@ -146,15 +154,15 @@ Should your organization require a more controlled release of new tools such as 
 
 -   Rollout of Teams for meetings
 
--   Rollout of Teams for chat and calling
+-   Rollout of Teams for calling
 
-### Pilot and rollout of Teams for collaboration
+### Teams pilot and rollout for collaboration
 
 At its core, Microsoft Teams was built around persistent chat and integration with Office 365 by enhancing Office 365 Groups.
 
-Since by default everybody in your organization with an eligible Office 365 subscription license is enabled for Teams, a limited pilot of Teams will involve disablement of Teams license for all users that are outside of the pilot group.
+Since by default users in your organization with an eligible Office 365 subscription license are enabled for Teams, a limited Teams pilot will involve disabling the Teams license for all users who are outside of the pilot group.
 
-To focus the release of Teams as a collaboration solution, and to avoid user confusion due to overlapping capabilities with Skype for Business, the following settings can be configured at the Tenant level from their default values.
+To focus the Teams release as a collaboration and private chat solution, and to reduce user confusion due to overlapping capabilities with Skype for Business, the following settings can be configured at the Tenant level from their default values.
 
 <table>
 <thead>
@@ -166,44 +174,46 @@ To focus the release of Teams as a collaboration solution, and to avoid user con
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>General</strong></td>
-<td align="left"><p>Use Skype for Business for recipients who don’t have Microsoft Teams: <strong>Off</strong></p></td>
-<td align="left"><p>Disabling this setting disables interoperability between Microsoft Teams and Skype for Business Online</p></td>
-</tr>
-<tr class="even">
 <td align="left"><strong>Calls and meetings</strong></td>
 <td align="left"><p>Allow scheduling for private meetings: <strong>Off</strong></p><p>Allow scheduling for channel meetings: <strong>Off</strong></p><p>Allow private calling: <strong>Off</strong></p></td>
 <td align="left"><p>Disabling this setting prevents users from scheduling private meetings</p><p>Disabling this setting prevents users from scheduling channel meetings</p><p>Disabling this setting prevents users from making private calls (audio and video)</p></td>
 </tr>
-<tr class="odd">
-<td align="left"><strong>Messaging</strong></td>
-<td align="left"><p>Allow users to chat privately: <strong>Off</strong></p></td>
-<td align="left"><p>Disabling this setting prevents users from chatting privately with other Microsoft Teams’ users</p></td>
-</tr>
 </tbody>
 </table>
 
-_Table 2: Teams for collaboration tenant settings_
 
 <table>
 <thead>
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">You need to disable private calling and private chat to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</td>
+<td align="left">You must disable Private Calling to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-With this configuration, users can be introduced to how meetings work in Teams by advocating the use of ad-hoc channel meetup, enabling the use of voice, video, and screen sharing as part of the modern collaboration experience.
+With this configuration, users can be introduced to how meetings work in Teams by advocating the use of ad-hoc channel meetup, enabling the use of voice, video, and screen sharing as part of the modern collaboration experience. End users can also benefit from Teams persistent, cross-platform, private chat capabilities.
 
-A successful pilot of Teams for collaboration can be followed up with broad rollout throughout the organization by enabling Teams license for all users.
+A successful Teams pilot for collaboration and private chat can be followed up with broad rollout throughout the organization by enabling Teams license for all users.
+
+<table>
+<thead>
+<tr class="header">
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">During the pilot, we recommend you allow users to pick their preferred chat application (Teams or Skype for Business), and then assess the most suitable application to be advocated across the organization.</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
 
 ### Rollout of Teams for meetings
 
-As users are getting accustomed to collaborating using Microsoft Teams, scheduled meetings can be considered as the next capability to be enabled in the organization.
+As users are getting accustomed to collaborating using Microsoft Teams, scheduled meetings can be considered as the next capability to enable in the organization.
 
 <table>
 <thead>
@@ -236,13 +246,12 @@ The following settings can be configured at the tenant level to enable scheduled
 </tbody>
 </table>
 
-_Table 3: Teams for meetings tenant settings_
 
 Scheduled meetings can be organized via the Teams desktop client, a browser, or via Microsoft Outlook using the meeting add-in for Microsoft Teams. Once scheduled meetings in Teams is enabled, we recommend you start educating users to create new Teams meetings or update existing Skype for Business meetings to Teams meetings.
 
-### Rollout of Teams for chat and calling
+### Rollout of Teams for calling
 
-Private chat and calling are the capabilities in Microsoft Teams that will be continuously developed, and over time provide a compelling replacement to Skype for Business. When your organization considers that Teams private chat and calling capabilities meet key business requirements, the following settings can be configured at the tenant level to enable private chat and calling in Teams. The Calls and Meetings, and Messaging settings need to be applied to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).
+Private calling is the Teams capability that will be continuously developed, and over time provide a compelling replacement to Skype for Business. When your organization considers that Teams private calling capabilities meet key business requirements, the following settings can be configured at the tenant level to enable private calling in Teams. 
 
 <table>
 <thead>
@@ -254,28 +263,29 @@ Private chat and calling are the capabilities in Microsoft Teams that will be co
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>General</strong></td>
-<td align="left"><p>Use Skype for Business for recipients who don’t have Microsoft Teams: <strong>On</strong></p></td>
-<td align="left"><p>Enabling this setting allows interoperability between Microsoft Teams and Skype for Business Online for both chat and calling </p></td>
-</tr>
-<tr class="even">
 <td align="left"><strong>Calls and meetings</strong></td>
 <td align="left"><p>Allow private calling: <strong>On</strong></p></td>
 <td align="left"><p>Enabling this setting allows users to place private calls (audio and video)</p></td>
 </tr>
-<tr class="odd">
-<td align="left"><strong>Messaging</strong></td>
-<td align="left"><p>Allow users to chat privately: <strong>On</strong></p></td>
-<td align="left"><p>Enabling this setting allows users to chat with other users privately</p></td>
-</tr>
 </tbody>
 </table>
 
-_Table 4: Teams for chat and calling_
+<table>
+<thead>
+<tr class="header">
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">Allow users to chat privately: Enabling this setting allows users to chat with other users privately.</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
-At this stage, all users must be instructed to choose Teams as the preferred chat and calling app.
 
-With the enablement of private chat and calling, Teams will deliver all capabilities currently provided by Skype for Business, and users can start using Teams client to fulfill their communications and collaboration requirements.
+At this stage, all users must be instructed to choose Teams as the preferred calling app.
+
+With the enablement of private calling, Teams will deliver all capabilities currently provided by Skype for Business, and users can start using Teams to fulfill their communications and collaboration requirements.
 
 
 <table>
