@@ -98,7 +98,13 @@ Each journey has benefits and considerations to evaluate when determining the ri
 Unmanaged side-by-side customer journey
 ---------------------------------------
 
+<<<<<<< HEAD
 In an unmanaged side-by-side customer journey, Teams is introduced as a collaboration solution (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.) that involves client software and web clients on desktop computers (PC or Mac) and mobile devices.
+=======
+![](media/guidance_SkypeforBusiness_image4.png)
+
+In an unmanaged side-by-side customer journey, Teams is introduced as a collaboration solution (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.) that involves client software and web client on desktop computers (PC or Mac) and mobile devices.
+>>>>>>> e1e1461f6ddec75575d9164e94c776957cf65290
 
 By default, Teams also presents overlapping capabilities with Skype for Business, these include private chat and calling, and scheduled meetings. This means Teams ends up providing complete communications and collaboration for the organization, while at the same time Skype for Business provides similar capabilities.
 
