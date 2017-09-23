@@ -10,7 +10,8 @@ description: Learn the decisions you should make when planning for Office 365 gr
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-### Plan for Office 365 groups when creating teams in Microsoft Teams
+Plan for Office 365 groups when creating teams in Microsoft Teams
+==========================================================
 
 When considering the use of Office 365 Groups or when creating teams, consider what the team will be used for, who should have access, and what outcome the team will expect to achieve. Pay special attention to the number of channels you create as people can quickly become overrun by content spread too thin (across too many channels).
 
