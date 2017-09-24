@@ -26,7 +26,7 @@ Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?l
 
 |  |  |
 |---------|---------|
-|  <iframe width="350" height="200" src="https://www.youtube.com/embed/cOOLZJCFjKw" frameborder="0" allowfullscreen></iframe>   | |
+|  <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   | |
 
 Envision <a name="Envision_AudioConferencing"> </a>
 =========
@@ -559,7 +559,7 @@ To plan for the implementation of Audio Conferencing in Teams, a series of decis
 
 |  |  |
 |---------|---------|
-|  <iframe width="350" height="200" src="https://www.youtube.com/embed/Q3dnPyCOUKM" frameborder="0" allowfullscreen></iframe>    | |
+|  <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>    | |
 
 
 ## Availability of Audio Conferencing
@@ -787,7 +787,7 @@ If there are existing conference bridge phone numbers that must be transferred t
 
 |  |  |
 |---------|---------|
-| <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |  |
+| <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |  |
 
 Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Skype for Business Online](https://support.office.com/article/Transfer-phone-numbers-to-Skype-for-Business-Online-47b3af8e-4171-4dec-8333-c956f108664e).
 

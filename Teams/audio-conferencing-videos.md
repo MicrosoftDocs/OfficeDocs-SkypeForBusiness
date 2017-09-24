@@ -21,8 +21,8 @@ Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).
 
 |  |  |
 |---------|---------|
-| Introduction to Audio Conferencing   | <iframe width="350" height="200" src="https://www.youtube.com/embed/cOOLZJCFjKw" frameborder="0" allowfullscreen></iframe>   |
-| Plan for Audio Conferencing  | <iframe width="350" height="200" src="https://www.youtube.com/embed/Q3dnPyCOUKM" frameborder="0" allowfullscreen></iframe>   |
-| Number porting for Audio Conferencing | <iframe width="350" height="200" src="https://www.youtube.com/embed/Cjr2wkVa0lM" frameborder="0" allowfullscreen></iframe>  |
+| Introduction to Audio Conferencing   | <iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe>   |
+| Plan for Audio Conferencing  | <iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe>   |
+| Number porting for Audio Conferencing | <iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe>  |
 
 
