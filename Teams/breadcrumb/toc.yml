@@ -1,7 +1,3 @@
 - name: Microsoft Teams
-  tocHref: /MicrosoftTeams/
-  topicHref: /MicrosoftTeams/top-level-breadcrumb-redirect
-  items:
-  - name: Teams documentation
-    tocHref: /MicrosofTeams/
-    topicHref: /MicrosofTeams/index
+  tocHref: /
+  topicHref: /
