@@ -6,7 +6,6 @@
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Office 365 groups and Teams](Office-365-groups.md)
-## [How Skype for Business and Teams interact](SkypeforBusiness-interact.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
 

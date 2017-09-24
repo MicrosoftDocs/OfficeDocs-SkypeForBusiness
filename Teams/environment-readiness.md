@@ -27,5 +27,4 @@ To get the best experience on Microsoft Teams, your organization must have deplo
 
 -   If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
--   If your organization has Skype for Business Deployed, see [Understand how Skype for Business and Microsoft Teams interact](SkypeforBusiness-interact.md).
 																			   
