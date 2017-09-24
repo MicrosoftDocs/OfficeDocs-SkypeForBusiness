@@ -544,7 +544,7 @@ Following an adoption readiness assessment, further detailed planning must be co
 
 Resources to support adoption activities such as flyers, welcome emails, and training materials are identified at this step, along with any customizations needed to meet organizational requirements.
 
-The templates for adoption activities are available [here](https://www.microsoft.com/en-us/download/details.aspx?id=54244).
+The templates for adoption activities are available [here](https://www.microsoft.com/download/details.aspx?id=54244).
 
 ### Operational plan
 
