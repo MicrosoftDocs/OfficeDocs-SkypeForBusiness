@@ -6,7 +6,6 @@
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Office 365 groups and Teams](Office-365-groups.md)
-## [How Skype for Business and Teams interact](SkypeforBusiness-interact.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
 
@@ -59,7 +58,7 @@
 ### [Plan](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current environment](prepare-teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Drive value through user adoption](continue-journey.md)

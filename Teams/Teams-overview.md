@@ -91,7 +91,6 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Offers enterprise telephony functionality.
 
--   See [How Skype for Business and Teams interact](SkypeforBusiness-interact.md)
 
 ![](media/Overview_of_Microsoft_Teams_image5.png)
 
