@@ -139,7 +139,7 @@ A managed side-by-side customer journey starts with organization wanting more co
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">Currently the preferred chat application setting is available only at the client level. User training and adoption campaign will be required to drive the intended organization-wide configuration.</td>
+<td align="left"><br>Currently the preferred chat application setting is available only at the client level. User training and adoption campaign will be required to drive the intended organization-wide configuration.</td>
 </tr>
 </thead>
 <tbody>
@@ -188,7 +188,7 @@ To focus the Teams release as a collaboration and private chat solution, and to 
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>Calls and meetings</strong></td>
+<td align="left"><strong><br>Calls and meetings</strong></td>
 <td align="left"><p>Allow scheduling for private meetings: <strong>Off</strong></p><p>Allow scheduling for channel meetings: <strong>Off</strong></p><p>Allow private calling: <strong>Off</strong></p></td>
 <td align="left"><p>Disabling this setting prevents users from scheduling private meetings</p><p>Disabling this setting prevents users from scheduling channel meetings</p><p>Disabling this setting prevents users from making private calls (audio and video)</p></td>
 </tr>
@@ -201,12 +201,14 @@ To focus the Teams release as a collaboration and private chat solution, and to 
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">You must disable Private Calling to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</td>
+<td align="left"><br>You must disable Private Calling to both Business and Enterprise users, and Guest users (if Guest Access is applicable to your organization).</td>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
+
+
 
 With this configuration, users can be introduced to how meetings work in Teams by advocating the use of ad-hoc channel meetup, enabling the use of voice, video, and screen sharing as part of the modern collaboration experience. End users can also benefit from Teams persistent, cross-platform, private chat capabilities.
 
@@ -217,7 +219,7 @@ A successful Teams pilot for collaboration and private chat can be followed up w
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">During the pilot, we recommend you allow users to pick their preferred chat application (Teams or Skype for Business), and then assess the most suitable application to be advocated across the organization.</td>
+<td align="left"><br>During the pilot, we recommend you allow users to pick their preferred chat application (Teams or Skype for Business), and then assess the most suitable application to be advocated across the organization.</td>
 </tr>
 </thead>
 <tbody>
@@ -234,7 +236,7 @@ As users are getting accustomed to collaborating using Microsoft Teams, schedule
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">The organizers of scheduled meetings must have their mailboxes in Exchange Online multi-tenant (or Exchange Online Dedicated vNext).</td>
+<td align="left"><br>The organizers of scheduled meetings must have their mailboxes in Exchange Online multi-tenant (or Exchange Online Dedicated vNext).</td>
 </tr>
 </thead>
 <tbody>
@@ -277,7 +279,7 @@ Private calling is the Teams capability that will be continuously developed, and
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>Calls and meetings</strong></td>
+<td align="left"><strong><br>Calls and meetings</strong></td>
 <td align="left"><p>Allow private calling: <strong>On</strong></p></td>
 <td align="left"><p>Enabling this setting allows users to place private calls (audio and video)</p></td>
 </tr>
@@ -289,7 +291,7 @@ Private calling is the Teams capability that will be continuously developed, and
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left">Allow users to chat privately: Enabling this setting allows users to chat with other users privately.</td>
+<td align="left"><br>Allow users to chat privately: Enabling this setting allows users to chat with other users privately.</td>
 </tr>
 </thead>
 <tbody>
