@@ -219,7 +219,7 @@ A successful Teams pilot for collaboration and private chat can be followed up w
 <tr class="header">
 <td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
 <p>Note</p></td>
-<td align="left"><br><br>During the pilot, and in phase two when private chat is enabled, a Teams user chatting with a Skype for Business user will not be able to do the following:<br><br>
+<td align="left"><br>During the pilot, and in phase two when private chat is enabled, a Teams user chatting with a Skype for Business user will not be able to do the following:<br><br>
 - Start video call from a chat session<br>
 - Transfers files <br>
 - Initiate a multiparty call from the chat session<br>

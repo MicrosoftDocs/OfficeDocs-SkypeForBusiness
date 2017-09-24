@@ -58,7 +58,7 @@
 ### [Plan](audio-conferencing.md#Planning_AudioConferencing)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Optimize your current environment](prepare-teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
