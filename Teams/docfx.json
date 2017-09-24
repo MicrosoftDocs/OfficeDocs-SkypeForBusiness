@@ -32,7 +32,8 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json"
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+       "extendBreadcrumb": "true"
     },
     "fileMetadata": {},
     "template": [],
