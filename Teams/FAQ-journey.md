@@ -80,7 +80,7 @@ Our vision for bringing together Intelligent Communications and collaboration is
 
 We plan to continue to support the Skype for Business service and client. We have no plan to remove Skype for Business from Office 365 subscriptions at this time.
 
-### When will the Skype for Business clients be retired? Will on-premises customers need to switch to the Teams client. 
+### When will the Skype for Business clients be retired? Will on-premises customers need to switch to the Teams client? 
 
 We plan to continue to support the Skype for Business clients to access on-premises server and online services.
 
