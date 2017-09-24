@@ -132,11 +132,21 @@ A managed side-by-side customer journey starts with organization wanting more co
     - If set to Teams, prepare your users to handle early interoperability challenges when communicating with other parties within and across the organization.
     
     - If set to Skype for Business, private chats within Teams will remain in Teams, and end users can immediately take advantage of the cross-platform persistent nature of chat capabilities within Teams, and they will continue to use Skype for Business for private chats among Skype for Business users, within the organization and across the organization.
-    
-    - Note that currently the configuration of preferred chat application is available at the client-level only. User training and adoption campaign will be required to drive the intended organization-wide configuration.
-    
 
--   The **third step** of the managed side-by-side customer journey starts when the organization decides that Teams meeting experience and capabilities meet their business requirements. By enabling private and channel meetings in Teams, users are presented with options to schedule both Teams meetings and Skype for Business meetings. Therefore, it is expected that over time users will naturally switch to Teams meetings given the continued innovations in Teams. To be successful in steering usage from Skype for Business to Teams, implement a robust change management program inclusive of training, support and communications that explains the value-add that Teams offers to the user, with clear guidance on how to get started with Teams. Leverage our [User Readiness](http://aka.ms/UserReadiness) resources to help design your awareness campaign.
+
+<table>
+<thead>
+<tr class="header">
+<td align="center"><p><img src="media/guidance_SkypeforBusiness_image3.png" /></p>
+<p>Note</p></td>
+<td align="left">Currently the preferred chat application setting is available only at the client level. User training and adoption campaign will be required to drive the intended organization-wide configuration.</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+The **third step** of the managed side-by-side customer journey starts when the organization decides that Teams meeting experience and capabilities meet their business requirements. By enabling private and channel meetings in Teams, users are presented with options to schedule both Teams meetings and Skype for Business meetings. Therefore, it is expected that over time users will naturally switch to Teams meetings given the continued innovations in Teams. To be successful in steering usage from Skype for Business to Teams, implement a robust change management program inclusive of training, support and communications that explains the value-add that Teams offers to the user, with clear guidance on how to get started with Teams. Leverage our [User Readiness](http://aka.ms/UserReadiness) resources to help design your awareness campaign.
 
 
 -   The **fourth step** of the managed side-by-side customer journey begins with the enablement of private chat and calling in Teams. Teams interoperability capabilities will feature heavily in this step to ensure a seamless side-by-side experience. Ideally, to enforce the use of Teams for private calling, Teams is set as the default calling app. 
