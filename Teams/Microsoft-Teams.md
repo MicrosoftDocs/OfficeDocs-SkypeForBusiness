@@ -34,7 +34,7 @@ description: Microsoft Teams documentation and practical guidance
                                 </a>
                             </li>
                             <li>
-                                <a href="https://fasttrack.microsoft.com/office">
+                                <a href="http://skypeandteams.fasttrack.microsoft.com/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
