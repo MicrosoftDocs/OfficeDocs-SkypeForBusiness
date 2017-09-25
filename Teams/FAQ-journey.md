@@ -13,8 +13,8 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 FAQ - Journey from Skype for Business to Microsoft Teams
 ==========================================================
 
-UC Vision
----------
+Intelligent Communications Vision
+----------------------------------
 
 ### What is Microsoft’s new vision for Intelligent Communications (aka Unified Communications vision)? 
 
