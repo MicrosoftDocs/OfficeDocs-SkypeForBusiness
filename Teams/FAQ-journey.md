@@ -106,7 +106,7 @@ One of the many advantages of using Microsoft Teams is that users gain access to
 
 ### What is the plan for video interoperability support for Teams meetings?
 
-Meeting room devices are critical to our vision for the modern workplace.  We are accouncing on September 25 at Ignite that we are working with Blue Jeans and Pexip to deliver cloud video interoperability with Microsoft Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Microsoft Teams for their business needs.
+Meeting room devices are critical to our vision for the modern workplace.  We are announcing on September 25 at Ignite that we are working with Blue Jeans and Pexip to deliver cloud video interoperability with Microsoft Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Microsoft Teams for their business needs.
 
 ### Will the latest generation of Skype Room Systems support meetings in Teams?
 

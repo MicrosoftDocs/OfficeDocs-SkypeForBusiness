@@ -19,7 +19,7 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams Help](https://support.office.com/Teams)
 
--   Office Training Center - Teams
+-   [Office Training Center - Teams](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 
 -   [Microsoft Teams Customer Success Kit](https://go.microsoft.com/fwlink/?linkid=846006)
 
