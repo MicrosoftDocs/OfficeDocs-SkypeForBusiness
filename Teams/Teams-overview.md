@@ -13,8 +13,6 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Overview of Microsoft Teams
 ===========================
 
-> [!VIDEO https://videoplayercdn.osi.office.net/embed/ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6?width=%22560&height=%22315&autoplay=%22false/]
-
 > [!VIDEO https://videoplayercdn.osi.office.net/embed/ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6?autoplay=%22false/]
 
 Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
