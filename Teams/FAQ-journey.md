@@ -110,9 +110,7 @@ Meeting room devices are critical to our vision for the modern workplace.  We a
 
 ### Will the latest generation of Skype Room Systems support meetings in Teams?
 
-Meeting room devices are critical to our vision for the modern workplace and we continue our momentum with Skype Room Systems. At Ignite, Lenovo announced
-
-Skype Rooms Systems will support meetings in Teams. Initially, Skype Room Systems will support single-click join to Teams meetings and most Skype Room Systems features except for dual screen support and panoramic video devices. Dual screens and panoramic devices are planned for later releases.
+Meeting room devices are critical to our vision for the modern workplace and we continue our momentum with Skype Room Systems. Initially, Skype Room Systems will support single-click join to Teams meetings and most Skype Room Systems features except for dual screen support and panoramic video devices. Dual screens and panoramic devices are planned for later releases.
 
 ### Will Skype Room Systems V1 be updated to support Microsoft Teams meetings? 
 
