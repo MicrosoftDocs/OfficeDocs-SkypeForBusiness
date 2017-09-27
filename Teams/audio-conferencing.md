@@ -14,9 +14,9 @@ Audio Conferencing in Microsoft Teams
 =====================================
 
 > [!IMPORTANT]
-> Audio conferencing is in Public Preview. It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.
+> Audio conferencing is in public preview. It's available to Early Adopters (EA) and preview customers and could change as it is released or updated.
 
-Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Microsoft Teams, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
+Audio Conferencing in Office 365 (formerly known as PSTN Conferencing) allows participants to join your meetings from any telephone. This feature is now available in Microsoft Teams, in public preview, allowing users to join Teams meetings using their phones. The practical guidance in this article steps you through the Office 365 FastTrack customer journey framework for Audio Conferencing - Envision, Onboard, and Drive value.
 
 Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
