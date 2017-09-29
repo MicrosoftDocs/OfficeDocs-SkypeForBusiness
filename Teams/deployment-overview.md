@@ -13,6 +13,8 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Overview of a Microsoft Teams deployment
 ========================================
 
+Before you start your deployment, make sure to review all the training.
+
 A typical Microsoft Teams journey may take the following form:
 
 1.  Technical and legal assessment in the early stages to identify and define what controls are required to implement Microsoft Teams in your organization.
