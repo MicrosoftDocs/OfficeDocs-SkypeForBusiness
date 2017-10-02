@@ -178,17 +178,13 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
     
      ![Sign in to Office 365, go to the Office 365 admin center, go to Settings, and then choose Services &amp; add-ins.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. Select **Microsoft Teams**.
     
      ![Screenshot shows the option for the Microsoft Teams add-in, as selected in the Office 365 admin center.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. In **Select the user/license type you want to configure**, select **Guest**.
     
@@ -203,7 +199,7 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 > It can take up to an hour for the settings to take effect. 
   
     
-## Control adding guest users to Microsoft Teams and Office 365 groups
+## Control adding guest users to Microsoft Teams and Office 365 Groups
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
