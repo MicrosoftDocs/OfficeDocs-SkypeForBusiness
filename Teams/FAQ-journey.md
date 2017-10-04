@@ -120,3 +120,6 @@ Meeting room devices are critical to our vision for the modern workplace.  Skyp
 
 Microsoft plans to launch a new administration portal for IT Pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for early CY18, is designed to support Administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we will be able to create custom presence, chat, app, meeting and voice policies and assign those policies to Teams users. 
 
+### Can I use Microsoft Teams on Surface Hub?
+
+Many of the Teams experiences work on Surface Hub today through the Edge browser. Sign in from the Welcome screen on your Surface Hub, open Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. Surface Hub supports Teams meetings, and we look forward to sharing more details in the future on additional integrated Teams experiences on Surface Hub.   
