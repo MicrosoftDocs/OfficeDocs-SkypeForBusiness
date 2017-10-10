@@ -50,10 +50,10 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
-    }
+    "path_to_root": "_themes.pdf",
+    "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+    "branch": "master"
+    }   
   ],
   "branch_target_mapping": {
     "live": [
@@ -61,11 +61,12 @@
       "Pdf"
     ]
   },
-  "Targets": {  
+    "Targets": {  
     "Pdf": {  
     "template_folder": "_themes.pdf"  
+    }
+  },  
     }  
-   },
   "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
   "need_generate_intellisense": false
