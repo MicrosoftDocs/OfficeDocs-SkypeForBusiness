@@ -14,32 +14,31 @@ Manage guest access in Microsoft Teams
 ======================================
 
 
-# Guest access in Microsoft Teams
-
 Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels. A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants.
   
     
     
 
-Organizations using Microsoft Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data.
-Microsoft Teams is built upon Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Microsoft Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.
+Organizations using Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data.
+
+Teams is built upon Office 365 Groups and provides a new way to access shared assets for an Office 365 group. Teams is the best solution for persistent chat among group/team members. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely.
   
     
     
 
-### How a guest joins a team
+## How a guest joins a team
 
 
   
     
     
-A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
+A team owner in Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
   
     
     
 
 > [!NOTE]
-> Before guests can join a team, an admin must enable guest access in Microsoft Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see "Turn on or off guest access for Microsoft Teams" on this article's Manage tab. 
+> Before guests can join a team, an admin must enable guest access in Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see "Turn on or off guest access for Microsoft Teams" on this article's Manage tab. 
   
     
     
@@ -55,10 +54,10 @@ Here's how a guest becomes a member of a team:
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Microsoft Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](#guestexp)
+- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [what the guest experience is like](#guestexp)
     
   
-Guests can leave the team at any time via Microsoft Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
   
     
     
@@ -70,7 +69,7 @@ Guests can leave the team at any time via Microsoft Teams web and desktop client
     
 
 <a name="guestexp"></a>
-### What the guest experience is like
+## What the guest experience is like
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
@@ -104,7 +103,6 @@ The following table compares the Microsoft Teams functionality available for an 
 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
-||||
 |Create a channel  <br/>  *Team owners control this setting.*  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participate in a private chat  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Participate in a channel conversation  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
@@ -124,36 +122,36 @@ The following table compares the Microsoft Teams functionality available for an 
 > Office 365 admins control the features available to guests. 
   
     
-###Manage guests
+## Manage guests
 
 
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
   
     
     
-Microsoft Teams guest access is a tenant-level setting and is turned off by default. Admins can manage guest access via the Office 365 admin center. For more details, see [Manage guest access to Microsoft Teams](#manageguest) and [Control guest access to Microsoft Teams](#controlguest).
+Teams guest access is a tenant-level setting and is turned off by default. Admins can manage guest access via the Office 365 admin center. For more details, see [Manage guest access to Microsoft Teams](#manageguest) and [Control guest access to Microsoft Teams](#controlguest).
   
     
     
 
 > [!NOTE]
-> The Microsoft Teams guest access tenant setting only prevents guest sign-in. Team owners will be able to invite new guests and add existing directory guest users to their respective teams. As a reminder, Microsoft Teams always honor Azure Active Directory external settings to allow or prevent guest user addition to the tenant. 
+> The Teams guest access tenant setting only prevents guest sign-in. Team owners will be able to invite new guests and add existing directory guest users to their respective teams. As a reminder, Teams always honors Azure Active Directory external settings to allow or prevent guest user addition to the tenant. 
   
     
     
 
-In addition, you can use the Azure Active Directory portal to manage guests and their access to Office 365 and Microsoft Teams resources. Microsoft Teams guest access makes use of Azure Active Directory business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure Active Directory B2B, see [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
+In addition, you can use the Azure Active Directory portal to manage guests and their access to Office 365 and Teams resources. Teams guest access makes use of Azure Active Directory business-to-business (B2B) collaboration capabilities as the underlying infrastructure to store security principles information such as identity properties, memberships, and multi-factor authentication settings. To learn more about Azure Active Directory B2B, see [What is Azure AD B2B collaboration?](https://go.microsoft.com/fwlink/p/?linkid=853011) and [Azure Active Directory B2B collaboration FAQs](https://go.microsoft.com/fwlink/p/?linkid=853020).
   
     
     
 
 #### Related key services and dependencies
 
-Microsoft Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations. In addition, Microsoft Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings.
+Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations. In addition, Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings.
   
     
     
-To enable the full Microsoft Teams guest access experience, Office 365 admins need to select **On** for the following settings:
+To enable the full Teams guest access experience, Office 365 admins need to select **On** for the following settings:
   
     
     
@@ -180,51 +178,28 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
     
      ![Sign in to Office 365, go to the Office 365 admin center, go to Settings, and then choose Services &amp; add-ins.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
   
-
-  
+ 
 
   
 3. Select **Microsoft Teams**.
     
      ![Screenshot shows the option for the Microsoft Teams add-in, as selected in the Office 365 admin center.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
   
-
-  
-
   
 4. In **Select the user/license type you want to configure**, select **Guest**.
     
-    
   
-    
-    
 ![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-
-    
   
 5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
     
   
-
 > [!NOTE]
 > It can take up to an hour for the settings to take effect. 
   
     
-    
-
-
-#### Control adding guest users to Microsoft Teams and Office 365 groups
+## Control adding guest users to Microsoft Teams and Office 365 Groups
 <a name="bkmk_ControlAddingGuestUsers"> </a>
 
 
@@ -250,21 +225,10 @@ To enable the full Microsoft Teams guest access experience, Office 365 admins ne
     
 ![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
   
-    
-    
-
   
-    
-    
-
-  
-    
-    
-
-    
   
 <a name="controlguest"> </a>
-### Turn on or off the Sharing option for Office 365
+## Turn on or off the Sharing option for Office 365
 
 
 The Sharing option allows guests to be added to your organization. By default, the Sharing option is enabled. For information about how to turn off the Sharing option, see [Turn on or off the Sharing option](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
@@ -275,11 +239,8 @@ The Sharing option allows guests to be added to your organization. By default, t
 > [!IMPORTANT]
 > If you turn off the Sharing option, guest access isn't available. 
   
-    
-    
 
-
-#### Use PowerShell to control guest access
+## Use PowerShell to control guest access
 <a name="bkmk_UsePowerShell"> </a>
 
 In addition to using the Office 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access. With PowerShell, you can do the following:
@@ -322,7 +283,7 @@ You can also use PowerShell to allow or block a guest user based on their domain
   
     
 
-#### Invite guest users
+## Invite guest users
 <a name="bkmk_UsePowerShell"> </a>
 
 A team owner or an Office 365 admin can [invite a guest to a team](https://support.office.com/en-us/article/invite-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoiaddateammember) on an individual basis. However, admins can't use the Office 365 admin center or the Azure Active Directory portal to invite multiple guests in one action. To invite guests centrally, consider using the Azure Active Directory B2B collaboration preview. For more information, see [About the Azure AD B2B collaboration preview](https://go.microsoft.com/fwlink/p/?linkid=853011).
@@ -330,14 +291,14 @@ A team owner or an Office 365 admin can [invite a guest to a team](https://suppo
     
     
 
-#### Edit guest user information
+## Edit guest user information
 <a name="bkmk_UsePowerShell"> </a>
 
 Currently, you can't edit guest information from the Office 365 admin center or the Exchange admin center. To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal. For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/en-us/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
   
     
     
-### Frequently asked questions for admins
+## Frequently asked questions for admins
 <a name="bkmk_UsePowerShell"> </a>
 
 Here are common questions Office 365 admins have about inviting guests to join a team in Microsoft Teams.

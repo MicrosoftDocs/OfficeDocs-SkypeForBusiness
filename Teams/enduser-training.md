@@ -17,7 +17,7 @@ Use these training resources to help you onboard your organization to Microsoft 
 
 |  |  |
 |---------|---------|
-| [Office Training Center](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) | Training to help your users get the most out of Microsoft Teams |
+| [Office Training Center](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Training to help your users get the most out of Microsoft Teams |
 | [Microsoft Teams Help](https://support.office.com/teams) | Teams end user product documentation |
 | [Microsoft Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [What is Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Short introduction to Teams, your hub for teamwork  |

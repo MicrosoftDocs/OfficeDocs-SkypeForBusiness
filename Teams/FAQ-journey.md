@@ -13,8 +13,8 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 FAQ - Journey from Skype for Business to Microsoft Teams
 ==========================================================
 
-UC Vision
----------
+Intelligent Communications Vision
+----------------------------------
 
 ### What is Microsoft’s new vision for Intelligent Communications (aka Unified Communications vision)? 
 
@@ -110,9 +110,7 @@ Meeting room devices are critical to our vision for the modern workplace.  We a
 
 ### Will the latest generation of Skype Room Systems support meetings in Teams?
 
-Meeting room devices are critical to our vision for the modern workplace and we continue our momentum with Skype Room Systems. At Ignite, Lenovo announced
-
-Skype Rooms Systems will support meetings in Teams. Initially, Skype Room Systems will support single-click join to Teams meetings and most Skype Room Systems features except for dual screen support and panoramic video devices. Dual screens and panoramic devices are planned for later releases.
+Meeting room devices are critical to our vision for the modern workplace and we continue our momentum with Skype Room Systems. Initially, Skype Room Systems will support single-click join to Teams meetings and most Skype Room Systems features except for dual screen support and panoramic video devices. Dual screens and panoramic devices are planned for later releases.
 
 ### Will Skype Room Systems V1 be updated to support Microsoft Teams meetings? 
 
@@ -122,3 +120,6 @@ Meeting room devices are critical to our vision for the modern workplace.  Skyp
 
 Microsoft plans to launch a new administration portal for IT Pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for early CY18, is designed to support Administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we will be able to create custom presence, chat, app, meeting and voice policies and assign those policies to Teams users. 
 
+### Can I use Microsoft Teams on Surface Hub?
+
+Many of the Teams experiences work on Surface Hub today through the Edge browser. Sign in from the Welcome screen on your Surface Hub, open Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. Surface Hub supports Teams meetings, and we look forward to sharing more details in the future on additional integrated Teams experiences on Surface Hub.   
