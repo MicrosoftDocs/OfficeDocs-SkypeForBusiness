@@ -17,7 +17,7 @@ By default, Microsoft Teams is enabled for organizations who have not tried Micr
 
 As an administrator for your organization, you can assign user licenses to control individual access to Microsoft Teams and you can allow or block what content sources can be used in Microsoft Teams. See [Administrator settings for Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) for more details.
 
-Organizations who wish to change whether Microsoft Teams is enabled or not can follow the steps below to in their Office 365 tenant:
+Organizations who wish to change whether Microsoft Teams is enabled or not can follow the steps below in their Office 365 tenant:
 
 1.  Sign in to [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) with an account that has Global Administrator privileges.
 
