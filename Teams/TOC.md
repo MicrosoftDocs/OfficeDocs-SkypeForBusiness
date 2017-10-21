@@ -52,8 +52,8 @@
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 
-# [Cloud Voice Deployment](cloud-voice-deployment.md)
-## [Audio conferencing](audio-conferencing.md)
+# [Cloud voice deployment](cloud-voice-deployment.md)
+## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ### [Plan](audio-conferencing.md#Planning_AudioConferencing)
 
