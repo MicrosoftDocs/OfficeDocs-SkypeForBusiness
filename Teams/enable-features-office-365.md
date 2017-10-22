@@ -98,7 +98,7 @@ NOTE: You can't create teams from the Groups dashboard. Teams must be created by
 
 By default, every user can create a team or group. Users can create teams by choosing Teams on the left side in the Microsoft Teams client (desktop client or web app), and then choosing Create team at the bottom of the client, below the team list.
 
-The default maximum number of teams that an Office 365 tenant can have is currently 500,000. A global admin can create an unlimited number of teams. A user can create 250 teams. A team owner can add 999 members to a team.
+The default maximum number of teams that an Office 365 tenant can have is currently 500,000. A global admin can create an unlimited number of teams. A user can create 250 teams. A team owner can add 2500 members to a team.
 
 ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 

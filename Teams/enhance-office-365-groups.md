@@ -13,7 +13,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Enhance Existing Office 365 groups with Microsoft Teams
 =======================================================
 
-Microsoft Teams users can enhance an existing Office 365 Group with Microsoft Teams functionality. When looking at enhancing a public Office 365 Group, users can do that if the number of members is equal to or less than 999.
+Microsoft Teams users can enhance an existing Office 365 Group with Microsoft Teams functionality. When looking at enhancing a public Office 365 Group, users can do that if the number of members is equal to or less than 2500.
 
 To do this, users should go through the flow of creating a new team from the Microsoft Teams client. Select **“Yes, add Microsoft Teams functionality”** at the bottom of the screen and then choose the existing group that they want to enhance with Microsoft Teams. Existing group members will be added as members to the team automatically.
 
