@@ -19,7 +19,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Teams can be created to be private to only invited users.
 
-    -   Teams can also be created to be public and open and anyone within the organization can join (up to 999 members).
+    -   Teams can also be created to be public and open and anyone within the organization can join (up to 2500 members).
 
 -   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—whatever works for your team!
 
