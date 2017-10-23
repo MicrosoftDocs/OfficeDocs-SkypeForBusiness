@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["Skype for Business"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness"
