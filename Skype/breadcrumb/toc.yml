@@ -1,3 +1,4 @@
-	- name: Skype for Business
-	  tocHref: /
+- name: Skype for Business
+	tocHref: /
   topicHref: /SkypeForBusiness/index
+	
