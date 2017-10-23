@@ -31,8 +31,6 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "searchScope": ["Skype for Business"]
     },
     "fileMetadata": {},
