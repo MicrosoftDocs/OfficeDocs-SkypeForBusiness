@@ -29,7 +29,6 @@
 ## [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ## [Enable Teams features in your Office 365 organization](enable-features-office-365.md)
 ## [Manage user access to Teams](user-access.md)
-## [Manage guest access in Teams](guest-access.md)
 ## [Enhance existing Office 365 Groups with Teams](enhance-office-365-groups.md)
 ## [Configure an Exchange hybrid organization for use with Teams](Exchange-hybrid-organization.md)
 ## [Add the Teams SMTP domain as an accepted domain in Exchange Online](SMTP-accepted-domain.md)
@@ -38,19 +37,18 @@
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 
-# Security & Compliance
-## [Overview of security and compliance in Teams](security-compliance-overview.md)
-## [Identity models and authentication in Microsoft Teams](identify-models-authentication.md)
-## [Search the audit log for events in Teams](audit-log-events.md)
-## [Conduct an eDiscovery investigation of content in Teams](eDiscovery-investigation.md)
-## [Use Content Search in Teams](content-search.md)
-## [Place a Teams user or team on legal hold](legal-hold.md)
 
-# Troubleshoot
-## [Support resources for Microsoft Teams](support-resources.md)
-## [Verify service health for Teams](service-health.md)
-## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-## [Use log files in troubleshooting Teams](log-files.md)
+# [Guest access in Teams](guest-access.md)
+## [How a guest joins a team](guest-joins.md)
+## [What the guest experience is like](guest-experience.md)
+## [Dependencies of Teams](Teams-dependencies.md)
+## [Set up guest access to Teams](set-up-guests.md)
+## [Manage guest access in Teams](guest-access.md)
+## [Add a guest to a team](add-guests.md)
+## [View guest users in a team](view-guests.md)
+## [Edit guest user information](edit-guests-information.md)
+## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+
 
 # [Cloud voice deployment](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
@@ -69,3 +67,18 @@
 ### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ## [End user training for Teams](enduser-training.md)
 
+
+# Security & Compliance
+## [Overview of security and compliance in Teams](security-compliance-overview.md)
+## [Identity models and authentication in Microsoft Teams](identify-models-authentication.md)
+## [Search the audit log for events in Teams](audit-log-events.md)
+## [Conduct an eDiscovery investigation of content in Teams](eDiscovery-investigation.md)
+## [Use Content Search in Teams](content-search.md)
+## [Place a Teams user or team on legal hold](legal-hold.md)
+
+
+# Troubleshoot
+## [Support resources for Microsoft Teams](support-resources.md)
+## [Verify service health for Teams](service-health.md)
+## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Use log files in troubleshooting Teams](log-files.md)
