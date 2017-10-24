@@ -15,7 +15,7 @@ Guest access is included with all Office 365 Business Premium, Office 365 Enterp
   
     
     
-Teams guest access is a tenant-level setting and is turned off by default. Admins can manage guest access via the Office 365 admin center. For more details, see [Manage guest access to Microsoft Teams](#manageguest) and [Control guest access to Microsoft Teams](#controlguest).
+Teams guest access is a tenant-level setting and is turned off by default. IT admins can add guests at the tenant level, set and manage guest user policies and permissions, determine which users can invite guests, and pull reports on guest user activity. These controls are available through the Office 365 admin center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
   
     
     
