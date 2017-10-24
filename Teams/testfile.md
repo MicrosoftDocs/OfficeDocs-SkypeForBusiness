@@ -7,4 +7,4 @@ ROBOTS: NOINDEX,NOFOLLOW
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
 
-Also check out the content on the [Fastttrack site](http://skypeandteams.fasttrack.microsoft.com/)
+Also check out the content on the [Fasttrack site](http://skypeandteams.fasttrack.microsoft.com/)
