@@ -10,8 +10,8 @@ description: Learn how an admin can view information about guest users in Micros
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-View guest users
-
+View guest users in a team
+==========================
 
 
 1. Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).

@@ -11,7 +11,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 How a guest joins a team
-
+========================
 
 A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
   

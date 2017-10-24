@@ -11,11 +11,11 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Dependencies of Microsoft Teams
-
+===============================
 
 Microsoft Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely. 
 
-Teams also relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations. In addition, Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings.
+Teams also relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations. In addition, Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings. Guests are subject to  [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) and [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) service limits.
   
     
     
@@ -32,4 +32,6 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 - In Office 365 groups: **Let group owners add people outside the organization to groups**
     
     For more information, see [Control guest access to Microsoft Teams](#controlguest).
-    
+  
+
+You can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).

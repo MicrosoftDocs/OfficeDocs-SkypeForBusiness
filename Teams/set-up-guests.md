@@ -12,7 +12,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 
 
 Set up guest access to Microsoft Teams
-
+======================================
 
 Microsoft Teams is built upon Office 365 Groups, and it also relies on SharePoint Online. That’s why specific settings must be enabled in Office 365 Groups and SharePoint Online in addition to turning on the guest access feature in Teams.
 
@@ -45,7 +45,7 @@ Microsoft Teams is built upon Office 365 Groups, and it also relies on SharePoin
 
 The Sharing option in SharePoint Online allows guests to be added to your organization. By default, the Sharing option is enabled. For information about how to turn off the Sharing option, see [Turn on or off the Sharing option](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
   
-    
+   Admins can create guest accounts in Azure Active Directory, independent from external sharing settings. If external sharing is off, only an admin can create guest accounts. 
     
 
 > [!IMPORTANT]
