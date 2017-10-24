@@ -1,13 +1,10 @@
-Contribution flow test
-Second contribution flow test
+---
+ROBOTS: NOINDEX,NOFOLLOW
+---
+
+# Welcome to Office content on docs.microsoft.com
 
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
 
-
-
-**Here's a good graphic.**
-
-
-Also go to [www.successwithteams.com](https://successwithteams.com)
 
