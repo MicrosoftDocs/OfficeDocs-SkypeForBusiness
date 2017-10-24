@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "searchScope": ["Skype for Business"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-SkypeForBusiness"
