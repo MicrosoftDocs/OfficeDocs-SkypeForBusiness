@@ -1,5 +1,5 @@
 ---
-title: Dependencies of Microsoft Teams
+title: Office 365 dependencies for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,8 +10,8 @@ description: Microsoft Teams relies on Office 365 groups, SharePoint Online, and
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Dependencies of Microsoft Teams
-===============================
+Office 365 dependencies for Microsoft Teams
+===========================================
 
 Microsoft Teams relies on Office 365 groups to store teams' memberships and other properties such as team data classification settings. Office 365 Groups is a service that provides cross-application membership for a set of shared team assets, like a SharePoint site or a Power BI dashboard, so that the team can collaborate effectively and securely. 
 
