@@ -6,4 +6,4 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
-[Search engine](https://www.bing.com)
+[Search engine](https://www.google.com)
