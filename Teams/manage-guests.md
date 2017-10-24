@@ -10,6 +10,8 @@ description:
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
+Manage guest access to Microsoft Teams
+======================================
 
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
   

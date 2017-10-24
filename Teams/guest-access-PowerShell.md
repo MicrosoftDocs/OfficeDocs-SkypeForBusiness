@@ -10,8 +10,8 @@ description: Use PowerShell to allow or block guest access to teams in Microsoft
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Use PowerShell to control guest access
-
+Use PowerShell to control guest access to a team
+================================================
 
 In addition to using the Office 365 admin center and the Azure Active Directory portal, you can use Windows PowerShell to control guest access. With PowerShell, you can do the following:
   

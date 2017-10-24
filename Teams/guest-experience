@@ -11,7 +11,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 What the guest experience is like
-
+=================================
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
   
