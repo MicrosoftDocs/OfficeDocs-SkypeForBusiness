@@ -189,7 +189,7 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 4. In **Select the user/license type you want to configure**, select **Guest**.
     
   
-![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
+    ![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
   
 5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
