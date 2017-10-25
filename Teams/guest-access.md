@@ -39,8 +39,12 @@ Teams is built upon Office 365 Groups and provides a new way to access shared as
   
 
     
-Video:  [Deep Dive into Guest Access](https://go.microsoft.com/fwlink/p/?linkid=858791)
+
   
-    
+|  |  |
+|---------|---------|
+| Deep Dive into Guest Access   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|---------|---------|
+  
     
 
