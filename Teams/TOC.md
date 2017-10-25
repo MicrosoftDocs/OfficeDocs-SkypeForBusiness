@@ -43,7 +43,7 @@
 ## [What the guest experience is like](guest-experience.md)
 ## [Office 365 dependencies for Teams](Teams-dependencies.md)
 ## [Set up guest access to Teams](set-up-guests.md)
-## [Manage guest access in Teams](guest-access.md)
+## [Manage guest access in Teams](manage-guests.md)
 ## [Add a guest to a team](add-guests.md)
 ## [View guest users in a team](view-guests.md)
 ## [Edit guest user information](edit-guests-information.md)
