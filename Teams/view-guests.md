@@ -20,8 +20,5 @@ View guest users in a team
 2. Go to **Users** > **Guest users**.
     
     
-  
-    
-    
-    ![Screenshot shows the guest users option selected from the Users section of the Office 365 admin center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+![Screenshot shows the guest users option selected from the Users section of the Office 365 admin center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
   
