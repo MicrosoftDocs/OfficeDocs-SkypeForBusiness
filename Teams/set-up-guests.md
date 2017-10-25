@@ -38,7 +38,7 @@ Microsoft Teams is built upon Office 365 Groups, and it also relies on SharePoin
 4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending if you want to let team and group owners outside your organization access Office 365 groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**.
 
 
-    ![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
+![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
     
 
 ## Enable sharing in SharePoint Online
@@ -79,7 +79,7 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 4. In **Select the user/license type you want to configure**, select **Guest**.
     
   
-    ![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
+![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
   
   
 5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
