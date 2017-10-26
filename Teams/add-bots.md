@@ -28,21 +28,21 @@ There are two ways to integrate a bot for private chats and channels:
 
 2.  Alternatively, to find bots, navigate to **Chat**, search for a **contact,** and click **Discover apps.**
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
+![Screenshot of the Search window with Discover apps shown as result of search.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
 3.  Select which **Bot** you want to have a conversation with, as shown below.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
+![Screenshot of the Discover apps window with the Bots tab selected.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
 4.  Once selected, provide the bot **permissions,** and select whether you want to use **bots in a private chat** or select a **Team** to use it in.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
+![Screenshot of the AzureBot app page.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
 
 5.  Alternatively, to use a bot within a channel of a team, simply click **View Team and Bots**. Here you can Discover additional bots.
 
 6.  At any time, a bot can be removed from the team. Simply click **View Team and Bots,** to see all bots and then **remove** the one you’d like.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+![Screenshot of the Bots tab with AzureBot description shown.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
 Create custom bots for Microsoft Teams
 --------------------------------------
@@ -58,10 +58,10 @@ Side load your own bot for private chat
 
 1.  Once you have created your Bot, navigate to the **Bot Dashboard** [page](https://go.microsoft.com/fwlink/?linkid=854374) for the bot you developed, and under **Details**, copy the **Microsoft App ID**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+![Screenshot of details page for a bot with the Microsoft App ID highlighted.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 2.  From within Microsoft Teams, on the **Chat** pane, select the **Add chat icon**. For **To:,** paste your bot's **Microsoft app ID**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+![Screenshot of a chat pane with the icon for Add chat and the To line with the Microsoft app ID highlighted.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3.  The app ID will resolve to your **bot name,** and then you can initiate a chat conversation with that bot.
