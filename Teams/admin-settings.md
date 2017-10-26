@@ -33,4 +33,4 @@ Only Team owners or members who are granted permissions, can side-load apps into
 
 To learn more about side loading apps into Microsoft Teams, visit: [Side loading your app in a team](https://go.microsoft.com/fwlink/?linkid=854631).
 
-![](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+![Screenshot of the Apps section of Microsoft Teams settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)

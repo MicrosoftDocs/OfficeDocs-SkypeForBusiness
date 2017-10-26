@@ -30,9 +30,9 @@ Before you can dig into audit insights, auditing must first be enabled. To enabl
 
 | |  |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Audit data is only available from the point at which Auditing was enabled.         |
+|![Screenshot of the home page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Audit data is only available from the point at which Auditing was enabled.         |
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
 Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
 
@@ -40,7 +40,7 @@ Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
 
     a.  Microsoft Teams has defined audit activities that can be selected as shown below.
 
-![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
 2.  After selecting the activities of interest, supply a date range and users to retrieve Microsoft Teams information from. Click **Search** to retrieve the results.
 
@@ -49,4 +49,4 @@ Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
 
 |  | |
 |---------|---------|
-|![](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.         |
+|![Exclamation point icon.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.         |

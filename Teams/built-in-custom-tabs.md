@@ -19,13 +19,13 @@ Tabs allow team members to access services on a dedicated canvas within a channe
 
 -   Files
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+![Screenshot of the Conversation section of the Marketing team.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 
 1.  Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.
 
 2.  Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs. Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![Screenshot of the Files tab with a PowerPoint file selected.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
 3.  To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.
 
@@ -33,11 +33,11 @@ Tabs allow team members to access services on a dedicated canvas within a channe
 
 5.  When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![Screenshot of a custom tab with a tab conversation on the right side of the window.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 6.  Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most. This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.
 
-    ![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+    ![Three screenshots of various content in tabs.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 Develop custom tabs
 -------------------
@@ -46,4 +46,4 @@ In addition to the built-in tabs, organizations can easily design and develop th
 
 The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.
 
-![](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![Screenshot of an example custom tab in Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)

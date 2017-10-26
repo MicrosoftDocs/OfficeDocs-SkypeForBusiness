@@ -1094,7 +1094,7 @@ Within the Phone System feature of Office 365, there are two types of dial plans
 
 The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 
-![](media/audio_conferencing_image8.png)
+![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png)
 
 There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.
 
