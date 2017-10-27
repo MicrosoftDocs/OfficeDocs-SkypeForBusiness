@@ -27,7 +27,7 @@ A typical Microsoft Teams journey may take the following form:
 
 5.  Refine and leverage the strategy and learnings for a wider rollout.
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Diagram of stages of Teams journey: Technical & Legal Evaluation, Assess/Prepare, IT Pilot, Business Pilot, and finally Rollout.](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 During the journey, one of the first uses of Microsoft Teams in your environment is the IT Pilot. Consider leveraging this pilot to help your team engage to plan, deliver, and operate Microsoft Teams and outreach to the business users.
 
@@ -40,13 +40,13 @@ Here’s an example of how you could set up a team / channel structure to help d
 
 This setup would look like this in Microsoft Teams:
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Screenshot of a team and its channels in Microsoft Teams.](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
+|![Decision Point icon.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
+|![Next Steps icon.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
 
 
  
