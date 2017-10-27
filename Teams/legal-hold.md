@@ -17,14 +17,14 @@ To put a user or a team on Legal Hold, navigate to the [Security & Compliance Ce
 
 |||
 |---------|---------|
-|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Note     |Placing a user on hold does not automatically place a group on hold or vice-versa.         |
-|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Important     |When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.         |
+|![Note icon.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Note     |Placing a user on hold does not automatically place a group on hold or vice-versa.         |
+|![Important icon.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Important     |When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.         |
 
 In the figure below, there is an investigation involving Clay. Clay is a member of the Brokers-Dealers team.
 
 If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.
 
-![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
+![Screenshot of a Create a new hold dialog box.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
 
 To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:
 

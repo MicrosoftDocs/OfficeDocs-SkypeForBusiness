@@ -28,7 +28,7 @@ Get started
 
 Designed to confirm organizational readiness, a pilot is a realistic validation of the resources and procedures needed on a larger scale prior to your organization-wide rollout.  To achieve the most realistic results, the pilot program should mimic how users communicate and collaborate today, verifying the ideal deployment scenario with Skype for Business and Microsoft Teams. Whether your organization is considering running Skype for Business and Teams side-by-side or transitioning to Teams at a future point in time, a pilot can help identify the right path forward for your organization. *Let’s get started!*
 
-![](media/pilot_essentials_image3.png)
+![Diagram of the process steps for a pilot project.](media/pilot_essentials_image3.png)
 
 ## Step One: Define your Pilot Program Logistics
 

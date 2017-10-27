@@ -23,19 +23,19 @@ Currently, connectors can be added by using Microsoft Teams desktop and web clie
 
 1.  To add a connector to a channel, click the **ellipses (…),** on the right of a channel name, then click **Connectors.**
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Screenshot of the Teams interface with a channel name selected and the Connectors option selected.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Users can select from a variety of available connectors, then click **Add**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Screenshot of the Connectors dialog showing the connectors available to add.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Fill in the required information of the selected connector and click **Save**. Each connector requires a diverse set of information to function properly, and some may require you to sign in to the service using the links provided on the connector configuration page.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    ![Screenshot of the configuration page for the RSS connector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4.  Data provided by the connector is automatically posted to the channel.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    ![Screenshot of the Teams interface showing a conversation in a channel.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 Develop custom connectors
 -----------------------------
@@ -44,18 +44,18 @@ It is very easy to develop custom connectors that can integrate into your Line-o
 
 1.  Add the **Incoming Webhook** like any other connector.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
+    ![Screenshot of the option to add the Incoming Webhook connector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image5.png)
 
 2.  To create a Webhook, specify a **name**, update the Webhook image, if necessary, and click **Create**.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Screenshot of the configuration page for the Incoming Webhook connector. ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Applications that push data to this channel, require the Webhook connector URL. A **unique URL** is created when you created the **Webhook**. Share this URL with your developers, so that they can configure their applications to push data, as needed.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
+    ![Screenshot of the unique URL of the Webhook.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image7.png)
 
 4.  When an external application pushes data to a connector, the message is shown in the channel conversation list as a special message called a **Connector Card** message.
 
-    ![](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
+    ![Screenshot of the Teams interface showing a Connector Card message.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
 Developers can configure their applications to create these cards, by sending an HTTP request with a simple JSON payload to a Microsoft Team’s Webhook address, that is a unique URL of that endpoint provided by the wizard. Have your developers refer to [Getting started with Office 365 Connectors for Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783), on the Microsoft Developer Network, with detailed instructions and connector samples. Other resources include [Connect apps to your groups in Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and the [Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).

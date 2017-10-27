@@ -27,7 +27,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Channels can be extended with Apps that include Tabs, Connectors, and Bots.
 
-![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
 One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Microsoft Teams can enhance collaboration in their day to day lives.
 
@@ -41,7 +41,7 @@ Below are a few functional examples of how different types of users may approach
 Microsoft Teams is great at breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about this as functional teams and not organizational silos.
 
 
-|Types of Teams  |Potential Channels  |Apps (Tabs ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Types of Teams  |Potential Channels  |Apps (Tabs ![Tabs icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Connectors icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Bots icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Sales     |Annual Sales Meeting<br></br> Quarterly Business Review<br></br> Monthly Sales Pipeline Review<br></br> Sales Playbook |Power BI<br></br>Trello<br></br>CRM<br></br>Summarize Bot         |
 |Public Relations     |Press Releases<br></br>News and Updates<br></br>Fact Checking         |RSS Feed<br></br>Twitter         |

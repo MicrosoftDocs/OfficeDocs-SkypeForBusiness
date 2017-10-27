@@ -22,7 +22,6 @@ All Teams 1:1 or group chats are journaled through to the respective users’ ma
 2.  Microsoft Teams data will appear as **IM or Conversations** in the Excel output, or you can mount the **.PST** in Outlook.
 
     a.  When mounting the .PST for the Team, note that all conversations are kept in the Team Chat folder under Conversation History. The title of the message aligns to Team and Channel. From reviewing the image below, you can see this message from Bob who messaged the Project 7 channel of the Manufacturing Specs team.
-
-![](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Screenshot of a Team Chat folder in a user's mailbox in Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 3.  To see private chats in a user’s Mailbox, they are also located inside the Team Chat folder under Conversation History.
