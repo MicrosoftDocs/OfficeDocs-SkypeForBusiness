@@ -1,0 +1,84 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: Deploy Microsoft Teams for Education Quick Start
+metadata:
+  title: Title of Tutorial
+  description: For IT Admins, deploy Microsoft Teams across your organization.
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  interactive: azurecli
+  content: |
+    Roll out Microsoft Teams across your institution by following the steps outlined in this tutorial. It includes all the resources you need to be successful. 
+    
+    Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
+
+    ## Before you begin
+
+    Make sure your network is ready for Microsoft Teams. For information, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+
+items:
+- durationInMinutes: 5
+  href: ./introduction.md
+  content: |
+    Markdown goes here.
+- title: Enable Teams from the Office 365 Admin Center
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-1-create.md
+  content: |
+    Use the Office 365 Admin Center to enable Microsoft Teams for your institution.
+    1. [Sign in to Office 365](https://portal.office.com/) with your work or school account.
+    2. Select **Admin** to go to the Office 365 admin center.
+    3. Navigate to **Settings** > **Services & add-ins**.
+    4. On the **Services & add-ins** page, select **Microsoft Teams**.
+    5. The Microsoft Teams settings screen will open, select the education license you want to configure – **Faculty and Staff** or **Student**.
+    6. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
+
+    You can control which users in your institution can use Microsoft Teams. By default, Office 365 Groups creation is enabled in Exchange Online. But, there are a couple of ways an IT Admin can limit the creation of new groups to specific users.
+
+    Every Exchange Online user has an OWA mailbox policy that governs what they can and can't do with their mailbox. By using the **Set-OwaMailboxPolicy** cmdlet, you can configure the *GroupCreationEnabled* parameter to be **$true** for users who are allowed to create groups and **$false** for users who are not authorized to create groups. At this time, the only way to update the mailbox policy is through Windows PowerShell. For more information, see [Use PowerShell to manage Office 365 Groups - Admin help](https://support.office.com/en-us/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540.
+
+    [!NOTE]
+     These commands turn off group creation only for OWA and Outlook.
+
+    If you want to turn off group creation in your institution, use Azure Active Directory settings. Or, the [General Availability of Office 365 Planner on June 6, 2016](https://blogs.office.com/en-us/2016/06/06/microsoft-planner-ready-for-showtime/) provides the opportunity to change the control mechanism to a policy stored in Azure Active Directory. 
+
+    The advantage of this approach is that Azure Active Directory provides a central point that all Office 365 applications can check. After a suitable policy is created, control over the creation of new Office 365 Groups is consistent everywhere.
+
+- title: Configure tenant-wide settings
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-2-add-disk.md
+  content: |
+    ### General
+    The General section lets you configure the following settings for your institution:
+- title: Configure user settings by license
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-3-install-app.md
+  content: |
+    ### Teams and channels
+    A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (e.g. curriculum development, planning school events), as well as ongoing, to reflect the internal structure of your institution (e.g. schools, departments and classes). 
+- title: Distribute to clients
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-4-configure-firewall.md
+  content: |
+    The setup file for the Microsoft Teams client is an executable that can be downloaded by administrators and end users from the [Microsoft Teams downloads page(https://teams.microsoft.com/downloads). End users on desktops can install the application provided they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
+- title: Enable or disable Microsoft Teams licenses
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-3-install-app.md
+  content: |
+    Administrators manage Microsoft Teams licenses by using the Office 365 admin center. You need to be an Office 365 global administrator or user management administrator to manage Microsoft Teams licenses. 
+- title: Launch
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-5-create-snapshot.md
+  content: |
+    Before you roll out Microsoft Teams to your entire institution, it is recommended that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. For more information, see [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
+- title: Blank
+  durationInMinutes: 5
+  href: ./virtual-machines-linux-tutorial-vm-6-common-tasks.md
+  content: |
+    Markdown goes here.
+- href: ./next-steps.md
+  content: |
+    Markdown goes here.
+
+
