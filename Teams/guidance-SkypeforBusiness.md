@@ -29,7 +29,7 @@ In general, there are two major side-by-side customer journeys. They are:
 
     IT controls the side-by-side experience, taking users through a journey of gradually introducing Teams to first introduce a new chat-based collaboration workspace with private chat, then meeting experiences, and finally the calling experiences in Teams.
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![Diagram of two side-by-side customer journeys: Managed and unmanaged.](media/guidance_SkypeforBusiness_image1.png)
 
 Side-by-side benefits and considerations
 ----------------------------------------
@@ -99,7 +99,7 @@ Unmanaged side-by-side customer journey
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![Diagram of unmanaged side-by-side customer journey.](media/guidance_SkypeforBusiness_image4.png)
 
 In an unmanaged side-by-side customer journey, Teams is introduced as a collaboration solution (chat-based workspace, channels, apps, integration with other Office 365 workloads, etc.) that involves client software and web client on desktop computers (PC or Mac) and mobile devices.
 
@@ -119,7 +119,7 @@ This side-by-side customer journey may be applicable to your organization, where
 Managed side-by-side customer journey
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![Diagram of managed side-by-side customer journey.](media/guidance_SkypeforBusiness_image2.png)
 
 A managed side-by-side customer journey starts with organization wanting more control over how Teams is introduced.
 

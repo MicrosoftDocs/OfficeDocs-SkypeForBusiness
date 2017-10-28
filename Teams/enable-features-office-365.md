@@ -30,19 +30,19 @@ In **Tenant-wide settings**, you can turn on or turn off options in General, Ema
 
 The General section lets you configure the following settings for your organization:
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+> ![Screenshot of the General section in Tenant-wide settings.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
 -   **Show organizational chart in personal profile:** When this setting is enabled, it shows the organizational chart icon in the user’s contact card and when clicked, it displays the detailed organizational chart.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
+    ![Screenshot of the organizational chart icon in a user's contact card.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
+    ![Screenshot of an organization chart.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
 
 -   **Use Skype for Business for recipients who don’t have Microsoft Teams:** When this setting is enabled, it allows Microsoft Teams users to contact other users in the organization that are not enabled for Microsoft Teams via Skype for Business.
 
 -   **Allow T-bot proactive help messages:** When this setting is enabled, T-bot will initiate a private chat session with users to guide them in using Microsoft Teams.
 
-    ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
+    ![Screenshot of T-Bot section in Microsoft Teams interface.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
 
 Email integration
 -----------------
@@ -51,7 +51,7 @@ Turn this feature on so that users can send an email to a channel in Microsoft T
 
 The Email integration section lets you configure the following settings for your organization:
 
-   ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Screenshot of the Email integration section in Tenant-wide settings.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
 -   **Allow users to send emails to channels:** When enabled, mail hooks are enabled, and users can post messages to a channel by sending an email to the email address of Microsoft Teams channel.
 
@@ -66,10 +66,10 @@ Apps in Microsoft Teams are a terrific way to integrate the tools and services y
 
 The **Apps** section lets you configure the following settings for your organization:
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+![Screenshot of the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
 
 -   **Allow external apps in Microsoft Teams:** When enabled, users can add tabs and bots that are available to the Office 365 tenant.
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Screenshot of the Allow external apps control in the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
 -   **Allow sideloading of external apps:** When enabled, users can install and enable custom bots and tabs.
 
@@ -78,7 +78,7 @@ Custom cloud storage
 
 Cloud storage options in Microsoft Teams currently include Box, Dropbox, Google Drive, and ShareFile. Users can upload and share files from cloud storage services in Microsoft Teams channels and chats. Click or tap the toggle switch next to the cloud storage providers that your organization wants to use.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+![Screenshot of the Custom cloud storage section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
 User settings by license
 ------------------------
@@ -100,7 +100,7 @@ By default, every user can create a team or group. Users can create teams by cho
 
 The default maximum number of teams that an Office 365 tenant can have is currently 500,000. A global admin can create an unlimited number of teams. A user can create 250 teams. A team owner can add 2500 members to a team.
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+![Screenshot of the User settings by license section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
 Channels are subcategories of teams. Anyone on the team can add a channel and participate in the conversations in a channel. You might create a channel for an activity or for a department. Conversations, files, and wikis are specific to each channel, but all members of the team can see them.
 
@@ -110,7 +110,7 @@ Channels are subcategories of teams. Anyone on the team can add a channel and pa
 
 The **Calls and meetings** section lets you configure the following settings for your organization:
 
-> ![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+> ![Screenshot of the Calls and meetings section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
 -   **Allow scheduling for private meetings:** When enabled, users can schedule private meetings that are not listed in any channel.
 
@@ -130,7 +130,7 @@ The maximum number of people in a meeting is 80. There can be 20 members in a pr
 
 The Messaging section lets you configure the following settings for your organization:
 
-![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
+![Screenshot of the Messaging section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
 -   **Enable Giphy so users can add gifs to conversations:** When enabled, users can use animated pictures within the conversations.
 
@@ -157,6 +157,6 @@ The Messaging section lets you configure the following settings for your organiz
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Decision Point         |What settings for Microsoft Teams will your organization enable?         |
-|![](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Next Steps        |Document these decisions in the table in [Assign roles and permissions in Microsoft Teams](assign-roles-permissions.md).         |
+|![Decision Point icon.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Decision Point         |What settings for Microsoft Teams will your organization enable?         |
+|![Next steps icon.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Next Steps        |Document these decisions in the table in [Assign roles and permissions in Microsoft Teams](assign-roles-permissions.md).         |
 
