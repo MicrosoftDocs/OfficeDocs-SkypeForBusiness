@@ -25,7 +25,7 @@ This impacts the network on two levels: traffic will flow between the Microsoft 
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Important    |Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone (support for Windows Phone is coming soon).       |
+|![Important icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Important    |Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone (support for Windows Phone is coming soon).       |
 
 To get an optimal experience with real time media within Microsoft Teams, it is required to meet the Networking Requirements for Office 365 (please see the following source for more details: [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US) )
 
@@ -45,7 +45,7 @@ To test both network segments a Network Assessment Tool can be used (source: [ht
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Note    |This is the same Network Readiness Assessment that is recommended to be run for customers who are looking to successfully deploy Skype for Business.         |
+|![Note icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Note    |This is the same Network Readiness Assessment that is recommended to be run for customers who are looking to successfully deploy Skype for Business.         |
 
 Bandwidth requirements
 ----------
@@ -56,7 +56,7 @@ The content you will find below can be used as supplemental background informati
 
 |  |  |
 |---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Note    |If the required bandwidth is not available, the media stack inside Microsoft Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Microsoft Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.       |
+|![Note icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Note    |If the required bandwidth is not available, the media stack inside Microsoft Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Microsoft Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.       |
 
 
 |Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
@@ -99,6 +99,6 @@ Should you not meet these criteria, this is the time to consider pausing the pro
 
 |  |  |  |
 |---------|---------|---------|
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Decision Point         |Have you evaluated your network capabilities for supporting real time media?<br></br>If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?         |
-|![](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Follow the Network Readiness Assessment guidance at skypeoperationsframework.com to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
+|![Decision Point icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Decision Point         |Have you evaluated your network capabilities for supporting real time media?<br></br>If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?         |
+|![Next Steps icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Follow the Network Readiness Assessment guidance at skypeoperationsframework.com to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
 

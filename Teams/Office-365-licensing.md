@@ -26,7 +26,7 @@ The following Office 365 subscriptions enable users for Microsoft Teams:
 
 |||
 |---------|---------|
-|![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Note     |Microsoft Teams is also available for non-profit organizations. Government licensing is not currently supported, but are being investigated for future support.         |
+|![Note icon.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Note     |Microsoft Teams is also available for non-profit organizations. Government licensing is not currently supported, but are being investigated for future support.         |
         
 
 
@@ -41,6 +41,6 @@ Microsoft Teams license
 
 By default, the Microsoft Teams license is enabled for all users assigned with the eligible Office 365 subscriptions.
 
-![](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
+![Screenshot of the settings in the license section in the Office 365 admin center, showing Microsoft Teams as On.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
 Microsoft Teams can be enabled or disabled for the entire organization and is enabled by default. **You can't turn on Microsoft Teams for only part of an organization.** If an organization intends to operate a pilot of Microsoft Teams with a selective set of users, while actively restricting access to Microsoft Teams for other users, then the Microsoft Teams license must be disabled for all users who are not part of the pilot group.

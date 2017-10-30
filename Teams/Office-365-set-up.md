@@ -21,19 +21,19 @@ Organizations who wish to change whether Microsoft Teams is enabled or not can f
 
 1.  Sign in to [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) with an account that has Global Administrator privileges.
 
-2.  Navigate to **Settings Services** & add-ins.
+2.  Navigate to **Settings** > **Services & add-ins**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
+    ![Screenshot of the Settings section in the Office 365 admin center with Services & add-ins selected. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
 3.  On the Services & add-ins page, click **Microsoft Teams**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+    ![Screenshot of the Services & add-ins page with Microsoft Teams selected.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
 4.  To enable Microsoft Teams for the organization, set the **Toggle** to **On** and then click **Save**.
 
-    ![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
 |  | |
 |---------|---------|
-|![](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Note     |The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.         |
+|![Note icon.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Note     |The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.         |
