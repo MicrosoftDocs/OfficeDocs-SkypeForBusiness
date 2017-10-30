@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +30,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+       "extendBreadcrumb": "true"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-MicrosoftTeams"
