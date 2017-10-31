@@ -9,7 +9,7 @@ metadata:
   displayType: one-column
   interactive: azurecli
   content: |
-    Roll out Microsoft Teams across your institution by following the steps outlined in this tutorial. It includes all the resources you need to be successful. 
+    Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
     
     Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
 
@@ -21,7 +21,7 @@ items:
   href: ./introduction.md
   content: |
     Markdown goes here.
-- title: Enable Teams from the Office 365 admin center
+- title: Enable Teams for your institution
   durationInMinutes: 5
   href: ./virtual-machines-linux-tutorial-vm-1-create.md
   content: |
@@ -31,8 +31,19 @@ items:
     2. Select **Admin** to go to the Office 365 admin center.
     3. Go to **Settings** > **Services & add-ins**.
     4. On the **Services & add-ins** page, select **Microsoft Teams**.
+
+    ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.]
+    (Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+
     5. The Microsoft Teams settings screen will open, select the education license you want to configure – **Faculty and Staff** or **Student**.
+
+    ![Screenshot of who to license in the Microsoft Teams settings section in the Office 365 admin center.]
+    (media/Pick_the_license_you_want_to_configure_image.png)
+
     6. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
+
+     ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.]
+    (media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
 
     You can control which users in your institution can use Microsoft Teams. By default, Office 365 Groups creation is enabled in Exchange Online. But, there are a couple of ways an IT Admin can limit the creation of new groups to specific users.
 
@@ -58,24 +69,37 @@ items:
 
     To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
+    ![Screenshot of the settings in the General section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
+
     ### Email integration
     You can enable email integration with channels as well create a restricted senders list.  To disable or enable the email integration, toggle the switch to **Off** or **On**, and then select **Save**. 
 
     To restrict a senders list, enter a domain, and then select **Save**.
 
-    ### Apps
-    You can enable external apps, new external apps and sideloading for apps in Microsoft Teams.
+    ![Screenshot of the settings in the Email integration section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
-    To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
+    ### Apps
+    You can enable external apps, new external apps and sideloading for apps in Microsoft Teams. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
+
+    ![Screenshot of the settings in the Apps section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
     Once external apps in Teams is enabled, the teachers can customize apps to make them available for their students through tabs. Tabs let you customize a channel to include content and capabilities your team needs every day. They provide quick access to frequently used documents and cloud services. There are several built-in tabs such as Files.
+
+    ![Screenshot of how to add tabs for apps to Microsoft Teams.]
+    (media/Add_a_tab_to_Microsoft_Teams_image.png)
 
     In the Microsoft Teams client, at the top of the channel, users can add tabs for Word documents, PowerPoint presentations, Excel spreadsheets, OneNote notebooks, plans from Planner, and more.
 
     Over time, more tabs will be added, both from Microsoft and from partners.
 
-    ### Custom Cloud storage options
+    ### Custom cloud storage
     You can enable various forms of Cloud storage within Microsoft Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
+
+    ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
 - title: Configure user settings by license
   durationInMinutes: 5
@@ -88,13 +112,22 @@ items:
 
     As an administrator, you can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center.
 
+    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+
     For more information about creating Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/en-us/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
 
     ### Calls and meetings
     Some schools may wish to restrict the amount of network traffic in their institution. For example, you may wish to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
+    
+    ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
     ### Messaging
     As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen.  You can also enable Faculty and Staff to delete all messages so teachers moderate class conversations and enable or disable private chat for Students.
+
+    ![Screenshot of the settings in the Messaging section in the Office 365 admin center.]
+    (media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
 
     To disable or enable Giphy's to allow users to add gifs to conversations, select **Off** or **On**, and then select **Save**.
 
