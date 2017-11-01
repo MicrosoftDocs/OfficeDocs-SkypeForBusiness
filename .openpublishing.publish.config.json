@@ -11,7 +11,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "Tutorial": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -34,7 +35,6 @@
       "template_folder": "_themes",
       "version": 0
     }
-    
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
