@@ -11,7 +11,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Phones System with Calling Plans in Microsoft Teams
-================================
+===================================================
 
 > [!IMPORTANT]
 > Phone System with Calling Plan in Teams is in public preview. It is available to all customers meeting the prerequisite Office 365 subscription plans and add-ons. Phone System with Calling Plan features and capabilities in Teams could change as additional features and capabilities are released.
@@ -25,7 +25,7 @@ Here is what you get with [Phone System](https://support.office.com/en-US/articl
 > Calling Plan service supports both Microsoft Teams and Skype for Business Online. The existing Skype for Business Online Admin Center and remote PowerShell provide the administrative interfaces to manage Calling Plan.
 
 Envision <a name="Envision_PhoneSystemWithCallingPlans"> </a>
-=========
+========
 
 The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads such as Phone System with Calling Plans.
 
