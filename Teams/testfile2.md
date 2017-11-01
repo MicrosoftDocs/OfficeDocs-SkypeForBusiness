@@ -14,3 +14,5 @@ Make sure to check out our [Technical Diagrams](https://technet.microsoft.com/en
 
 
 ![Thumnail for posters](media/testfile.png)
+
+[Check out the accessibility guidance as well](https://technet.microsoft.com/en-us/library/mt790686(v=office.16).aspx)
