@@ -115,7 +115,14 @@ Content Search and eDiscovery do not require enablement within the Security & Co
 Location of data in Microsoft Teams
 -----------------------------------
 
-Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. In the future, Teams will provide GoLocal support, where data remains in country (not just in region). Stay tuned to the [*Office 365 Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) for updates.
+Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. 
+
+As of November 1, 2017, Teams offers data residency in the United Kingdom for new tenants only. A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Microsoft Teams.
+
+> [!NOTE]
+> Existing tenants from the UK will continue to remain in EMEA, until a migration plan is published (which is anticipated in 2018).
+
+For more information, see the Microsoft Teams tech community [blog post](https://go.microsoft.com/fwlink/p/?linkid=862275) about the launch of UK data residency.
 
 Privacy in Microsoft Teams
 --------------------------
