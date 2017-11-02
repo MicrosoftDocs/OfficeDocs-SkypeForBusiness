@@ -4,10 +4,15 @@ title: Deploy Microsoft Teams for Education Quick Start
 metadata:
   title: Title of Tutorial
   description: For IT Admins, deploy Microsoft Teams across your organization.
-  audience: IT Pro
+  audience: IT Admin
   level: Intermediate
-  displayType: one-column
+  displayType: two-column
   interactive: azurecli
+  content: |
+    
+items:
+- durationInMinutes: 2
+  href: ./introduction.md
   content: |
     Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
     
@@ -16,11 +21,6 @@ metadata:
     ## Before you begin
     Make sure your network is ready for Microsoft Teams. To get started, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
-items:
-- durationInMinutes: 2
-  href: ./introduction.md
-  content: |
-    Markdown goes here.
 - title: Enable Teams for your school
   durationInMinutes: 5
   href: ./virtual-machines-linux-tutorial-vm-1-create.md
@@ -181,14 +181,18 @@ items:
     You assign or unassign the Microsoft Teams license to users in the same way you assign any other Office 365 Business or Enterprise license. Sign in to Office 365,go to the Office 365 admin center, and on the **Users** > **Active Users** page, assign or unassign the Microsoft Teams license for users.
 
 - title: Launch
-  durationInMinutes: 5
+  durationInMinutes: 3
   href: ./virtual-machines-linux-tutorial-vm-5-create-snapshot.md
   content: |
     Before you roll out Microsoft Teams to your entire institution, we recommend that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. To get started, follow the steps in [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
-- title: Feedback and support
-  durationInMinutes: 2
+- title: 
+  durationInMinutes: 
   href: ./virtual-machines-linux-tutorial-vm-6-common-tasks.md
   content: |
+    
+- href: ./next-steps.md
+  content: |
+    ### Feedback and support
     [Send a suggestion](https://aka.ms/eduuservoice)
 
     [Contact support](https://aka.ms/o365portal)
@@ -196,9 +200,5 @@ items:
     [Ask the community](https://aka.ms/msteamscommunity)
 
     [Explore the Office 365 for Education help center](https://support.office.com/en-us/education)
-
-- href: ./next-steps.md
-  content: |
-    Markdown goes here.
 
 
