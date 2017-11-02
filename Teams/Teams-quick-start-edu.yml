@@ -8,8 +8,7 @@ metadata:
   level: Intermediate
   displayType: two-column
   interactive: azurecli
-  content: |
-    
+     
 items:
 - durationInMinutes: 2
   href: ./introduction.md
@@ -174,10 +173,6 @@ items:
   href: ./virtual-machines-linux-tutorial-vm-5-create-snapshot.md
   content: |
     Before you roll out Microsoft Teams to your entire institution, we recommend that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. To get started, follow the steps in [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
-- title: 
-  durationInMinutes: 
-  href: ./virtual-machines-linux-tutorial-vm-6-common-tasks.md
-  content: |
     
 - href: ./next-steps.md
   content: |
