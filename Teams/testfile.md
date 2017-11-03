@@ -8,7 +8,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 *italics*
 **bold**
-
+some text
 [this is a link](Office-365-groups.md)
 
 ![alt text whatever](media/Overview-Microsoft-Teams-image1.png)
