@@ -2,7 +2,7 @@
 title: Set up Microsoft Teams in your Office 365 organization | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -34,6 +34,5 @@ Organizations who wish to change whether Microsoft Teams is enabled or not can f
     ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 
 
-|  | |
-|---------|---------|
-|![Note icon.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image4.png)<br></br>Note     |The tenant-level capability to control the on/off status of Microsoft Teams is temporary and will be removed at some point in the future. At that time, access to Microsoft Teams is controlled via user-level licensing only.         |
+> [!NOTE]
+> Tenant-level control of the on/off status for Teams is temporary and will be removed at some point in the future. At that time, access to Teams will be controlled via user-level licensing only. 

@@ -2,7 +2,7 @@
 title: Journey from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
