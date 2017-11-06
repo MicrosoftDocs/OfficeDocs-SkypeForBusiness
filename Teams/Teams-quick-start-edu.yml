@@ -13,7 +13,7 @@ items:
 - durationInMinutes: 2
   href: ./introduction.md
   content: |
-    Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
+    Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide.. 
     
     Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
 
