@@ -2,16 +2,16 @@
 documentType: Tutorial
 title: Deploy Microsoft Teams for Education Quick Start
 metadata:
-  title: Title of Tutorial
+  title: Deploy Microsoft Teams for Education Quick Start
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
+  nextTutorialHref: None
+  nextTutorialTitle: None
   displayType: two-column
   interactive: azurecli
-     
 items:
 - durationInMinutes: 2
-  href: ./introduction.md
   content: |
     Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
     
@@ -22,7 +22,6 @@ items:
 
 - title: Enable Teams for your school
   durationInMinutes: 5
-  href: ./virtual-machines-linux-tutorial-vm-1-create.md
   content: |
     You use the Office 365 admin center to set up Microsoft Teams for your school.
 
@@ -39,14 +38,14 @@ items:
 
     6. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
 
-     ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
+    ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
 
     You can control which users in your institution can use Microsoft Teams. By default, Office 365 Groups creation is enabled in Exchange Online. But, there are a couple of ways an IT Admin can limit the creation of new groups to specific users.
 
     Every Exchange Online user has an OWA mailbox policy that governs what they can and can't do with their mailbox. By using the **Set-OwaMailboxPolicy** cmdlet, you can configure the *GroupCreationEnabled* parameter to be **$true** for users who are allowed to create groups and **$false** for users who are not authorized to create groups. At this time, the only way to update the mailbox policy is through Windows PowerShell. For more information, see [Use PowerShell to manage Office 365 Groups - Admin help](https://support.office.com/en-us/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
 
-   > [!NOTE]
-   > These commands turn off group creation only for OWA and Outlook.
+    > [!NOTE]
+    > These commands turn off group creation only for OWA and Outlook.
 
     If you want to turn off group creation in your institution, use Azure Active Directory settings. Or, the [Microsoft Planner for Office 365](https://blogs.office.com/en-us/2016/06/06/microsoft-planner-ready-for-showtime/) provides the opportunity to change the control mechanism to a policy stored in Azure Active Directory. 
 
@@ -54,10 +53,9 @@ items:
 
 - title: Configure tenant-wide settings
   durationInMinutes: 5
-  href: ./virtual-machines-linux-tutorial-vm-2-add-disk.md
   content: |
     ### General
-    The General section lets you configure the following settings for your institution:
+    The General section lets you configure the following settings for your institution.
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Microsoft Teams.
@@ -94,7 +92,6 @@ items:
 
 - title: Configure user settings by license
   durationInMinutes: 5
-  href: ./virtual-machines-linux-tutorial-vm-3-install-app.md
   content: |
     ### Teams and channels
     A *team* is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as ongoing, to reflect the internal structure of your institution (for example, schools, departments, and classes).
@@ -148,7 +145,6 @@ items:
 
 - title: Distribute to clients
   durationInMinutes: 5
-  href: ./virtual-machines-linux-tutorial-vm-4-configure-firewall.md
   content: |
     The setup file for the Microsoft Teams client is an executable file that can be downloaded by administrators and end users from the [Microsoft Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application provided they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
 
@@ -156,11 +152,10 @@ items:
 
     Microsoft Teams is available on Windows (Windows 7 and later) and Mac desktop (Mac 10.10 and later). It is also available on iOS v9 and later (iPhone and iPad), Android 4.4 and later, and Windows Phone 10.0.10586 and later.  Support for Windows 10S will be coming at a later date.
 
-    Microsoft Teams supports the web client on Edge 12+, Internet Explorer 11+, Firefox 47.0+, and Chrome 51.0+. Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
+    Microsoft Teams supports the web client on Edge 12 or later, Internet Explorer 11 or later, Firefox 47.0 or later, and Chrome 51.0 or later. Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
 
 - title: Enable or disable Microsoft Teams licenses
   durationInMinutes: 5
-  href: ./virtual-machines-linux-tutorial-vm-3-install-app.md
   content: |
     Administrators manage Microsoft Teams licenses by using the Office 365 admin center. You need to be an Office 365 global administrator or user management administrator to manage Microsoft Teams licenses.
 
@@ -170,12 +165,10 @@ items:
 
 - title: Launch
   durationInMinutes: 3
-  href: ./virtual-machines-linux-tutorial-vm-5-create-snapshot.md
   content: |
     Before you roll out Microsoft Teams to your entire institution, we recommend that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. To get started, follow the steps in [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
     
-- href: ./next-steps.md
-  content: |
+- content: |
     ### Feedback and support
     [Send a suggestion](https://aka.ms/eduuservoice)
 
