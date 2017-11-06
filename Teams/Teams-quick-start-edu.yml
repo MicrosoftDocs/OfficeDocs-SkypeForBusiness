@@ -8,7 +8,7 @@ metadata:
   level: Intermediate
   nextTutorialHref: None
   nextTutorialTitle: None
-  displayType: two-column
+  displayType: one-column
   interactive: azurecli
 items:
 - durationInMinutes: 2
