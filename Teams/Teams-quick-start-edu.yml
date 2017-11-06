@@ -6,7 +6,7 @@ metadata:
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
-  displayType: one-column
+  displayType: two-column
   interactive: azurecli
 items:
 - durationInMinutes: 2
@@ -51,7 +51,7 @@ items:
 - title: Configure tenant-wide settings
   durationInMinutes: 5
   content: |
-    ### General
+    ## General
     The General section lets you configure the following settings for your institution.
 
     - Show organizational chart in personal profile.
@@ -62,14 +62,14 @@ items:
 
     ![Screenshot of the settings in the General section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
-    ### Email integration
+    ## Email integration
     You can enable email integration with channels, as well create a restricted senders list.  To disable or enable the email integration, toggle the switch to **Off** or **On**, and then select **Save**. 
 
     To restrict a senders list, enter a domain, and then select **Save**.
 
     ![Screenshot of the settings in the Email integration section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
-    ### Apps
+    ## Apps
     You can enable external apps, new external apps and sideloading for apps in Microsoft Teams. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
     ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
@@ -82,7 +82,7 @@ items:
 
     Over time, more tabs will be added, both from Microsoft and from partners.
 
-    ### Custom cloud storage
+    ## Custom cloud storage
     You can enable various forms of cloud storage within Microsoft Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
     ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
@@ -90,7 +90,7 @@ items:
 - title: Configure user settings by license
   durationInMinutes: 5
   content: |
-    ### Teams and channels
+    ## Teams and channels
     A *team* is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as ongoing, to reflect the internal structure of your institution (for example, schools, departments, and classes).
 
     A *channel* is a subcategory of a team. You might create a channel for an activity or for a topic. Conversations, files, and notes are specific to each channel, but all members of the team can see them.
@@ -101,12 +101,12 @@ items:
 
     For more information about creating Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/en-us/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
 
-    ### Calls and meetings
+    ## Calls and meetings
     Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
     
     ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
-    ### Messaging
+    ## Messaging
     As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen.  You can also enable Faculty and Staff to delete all messages so teachers moderate class conversations and enable or disable private chat for Students.
 
     ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
@@ -127,7 +127,7 @@ items:
     - Users to delete their own messages
     - Users to chat privately
 
-    ### Bots
+    ## Bots
     You can complete tasks such as querying information and performing commands by using bots. Currently, there are more than 20 native and third-party bots available in Teams with additional bots coming soon. 
      
     > [!NOTE]
@@ -135,7 +135,7 @@ items:
 
      If you’re interested in building a bot, review the [Microsoft Teams Bots Platform](https://msdn.microsoft.com/en-us/microsoft-teams/bots), which has step-by-step instructions for getting started with writing bots for Microsoft Teams. 
 
-     ### Connectors
+     ## Connectors
      Connectors allows users to receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services.
 
      For more information, see [Connect apps to your groups](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and [Office Connectors Platform](https://msdn.microsoft.com/en-us/microsoft-teams/connectors).
@@ -166,7 +166,7 @@ items:
     Before you roll out Microsoft Teams to your entire institution, we recommend that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. To get started, follow the steps in [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
     
 - content: |
-    ### Feedback and support
+    ## Feedback and support
     [Send a suggestion](https://aka.ms/eduuservoice)
 
     [Contact support](https://aka.ms/o365portal)
