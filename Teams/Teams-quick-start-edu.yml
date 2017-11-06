@@ -6,8 +6,6 @@ metadata:
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
-  nextTutorialHref: None
-  nextTutorialTitle: None
   displayType: one-column
   interactive: azurecli
 items:
@@ -18,7 +16,7 @@ items:
     Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
 
     ## Before you begin
-    Make sure your network is ready for Microsoft Teams. To get started, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+    Make sure your network is ready for Microsoft Teams. To do so, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 - title: Enable Teams for your school
   durationInMinutes: 5
   content: |
