@@ -2,7 +2,7 @@
 title: Overview of a Microsoft Teams deployment | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
