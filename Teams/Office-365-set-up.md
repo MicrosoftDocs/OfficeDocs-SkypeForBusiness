@@ -13,15 +13,20 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Set up Microsoft Teams in your Office 365 organization
 ======================================================
 
-By default, Microsoft Teams is enabled for organizations who have not tried Microsoft Teams during the preview. For organizations who have been testing in preview, the setting will remain as what was set prior to general availability of Microsoft Teams.
+By default, Teams is turned on for all organizations. If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.
 
-As an administrator for your organization, you can assign user licenses to control individual access to Microsoft Teams and you can allow or block what content sources can be used in Microsoft Teams. See [Administrator settings for Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) for more details.
 
-Organizations who wish to change whether Microsoft Teams is enabled or not can follow the steps below in their Office 365 tenant:
+As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams. See [Administrator settings for Microsoft Teams](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2) for more information.
 
-1.  Sign in to [Office 365 Admin Center](https://go.microsoft.com/fwlink/?linkid=854665) with an account that has Global Administrator privileges.
+To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
 
-2.  Navigate to **Settings** > **Services & add-ins**.
+
+## Turn Teams on or off for your entire organization
+
+
+1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
+
+2.  Go to **Settings** > **Services & add-ins**.
 
     ![Screenshot of the Settings section in the Office 365 admin center with Services & add-ins selected. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
 
@@ -29,7 +34,7 @@ Organizations who wish to change whether Microsoft Teams is enabled or not can f
 
     ![Screenshot of the Services & add-ins page with Microsoft Teams selected.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  To enable Microsoft Teams for the organization, set the **Toggle** to **On** and then click **Save**.
+4.  To turn on Teams for the organization, set the toggle to **On** and then click **Save**.
 
     ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
 

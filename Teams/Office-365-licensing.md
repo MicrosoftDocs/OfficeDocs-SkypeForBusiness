@@ -13,7 +13,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Office 365 licensing for Microsoft Teams
 ========================================
 
-The following Office 365 subscriptions enable users for Microsoft Teams:
+The following Office 365 subscriptions enable users for Teams:
 
 |Small Business Plans  |Enterprise Plans  |Education Plans  |
 |---------|---------|---------|
@@ -23,24 +23,22 @@ The following Office 365 subscriptions enable users for Microsoft Teams:
 |     |Office 365 Enterprise E5         |Office 365 for Education E5   
       |Office 365 Enterprise K1 |  |
 
-
-|||
-|---------|---------|
-|![Note icon.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image1.png)<br></br>Note     |Microsoft Teams is also available for non-profit organizations. Government licensing is not currently supported, but are being investigated for future support.         |
+> [!NOTE]
+> Teams is also available for non-profit organizations. Government licensing is not currently supported but is being investigated for future support.
         
 
 
-In terms of Microsoft Teams **core** functionalities, there are no differences between the different Office 365 subscriptions, the availability of the compliance capabilities does rely on the correct subscription level. (See [Information Protection Licensing](https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408) for more information.)
+In terms of Teams **core** functionalities, there are no differences between the different Office 365 subscriptions, the availability of the compliance capabilities does rely on the correct subscription level. (See [Information Protection Licensing](https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408) for more information.)
 
-All supported subscription plans are eligible for access to Microsoft Teams’ web client, desktop clients, and mobile apps.
+All supported subscription plans are eligible for access to the Teams web client, desktop clients, and mobile apps.
 
-Microsoft Teams is not available as a standalone service.
+Teams is not available as a standalone service.
 
-Microsoft Teams license
----------------------
+Teams license
+-------------
 
-By default, the Microsoft Teams license is enabled for all users assigned with the eligible Office 365 subscriptions.
+By default, the Teams license is enabled for all users with eligible Office 365 subscriptions.
 
 ![Screenshot of the settings in the license section in the Office 365 admin center, showing Microsoft Teams as On.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image2.png)
 
-Microsoft Teams can be enabled or disabled for the entire organization and is enabled by default. **You can't turn on Microsoft Teams for only part of an organization.** If an organization intends to operate a pilot of Microsoft Teams with a selective set of users, while actively restricting access to Microsoft Teams for other users, then the Microsoft Teams license must be disabled for all users who are not part of the pilot group.
+Teams can be turned on or off for the entire organization and is turned on by default. **You can't turn on Teams for only part of an organization.** If an organization intends to operate a pilot of Teams with a selective set of users, while actively restricting access to Teams for other users, the Teams license must be disabled for all users who are not part of the pilot group.
