@@ -15,7 +15,7 @@ Pilot Microsoft Teams alongside Skype for Business
 
 As an existing Skype for Business and Office 365 customer, your organization is already a part of the modern workplace movement, empowering your users to be more creative, innovative, and productive. Microsoft Teams further expands what’s possible, with added functionality, such as collaboration hubs for teamwork, app integration, and file storage. When you bring the current functionality of Skype for Business together with the value-add of Teams, you have a powerful communication and collaboration solution that can revolutionize how users work.
 
-Your Teams journey, as well as go-forward recommendations, is based on the outcome of your pilot. While you continue to utilize Skype for Business, we encourage you explore all that Teams can offer to your organization. Since there is some overlapping functionality between Teams and Skype for Business, it is important to begin with a user pilot. The pilot, is a small-scale deployment that enables you to validate the interoperability with Skype for Business in your environment as well as understand how your endusers can maximize their productivity while minimizing confusion with both products running side-by-side.
+Your Teams journey, as well as go-forward recommendations, is based on the outcome of your pilot. While you continue to utilize Skype for Business, we encourage you explore all that Teams can offer to your organization. Since there is some overlapping functionality between Teams and Skype for Business, it is important to begin with a user pilot. The pilot is a small-scale deployment that enables you to validate the interoperability with Skype for Business in your environment as well as understand how your endusers can maximize their productivity while minimizing confusion with both products running side-by-side.
 
 Tailored for current Skype for Business customers, this resource provides guidance and best practices to start you on your journey to:
 
@@ -75,7 +75,7 @@ A formal pilot should define your targeted path forward and include a project te
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong><ul><li>Enlist your pilot program team</li><li>Articulate the business scenarios and features you will test as part of your pilot</li><li>Finalize your success criteria and goals</li><li>Establish your pilot timeline</li></ul></td>
+<td align="left"><strong>Next Actions:</strong><ul><li>Enlist your pilot program team</li><li>Articulate the business scenarios and features you will test as part of your pilot</li><li>Finalize your success criteria and goals</li><li>Establish your pilot timeline</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -137,7 +137,11 @@ Educating your pilot participants on what is happening, when and why, as well as
 
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
-A suggested timeline based on a 30-day pilot is provided below:
+> [!IMPORTANT]
+> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+> 
+
+Here's a suggested timeline for a 30-day pilot:
 
 -   One week prior to Pilot kick off: Send initial communication to pilot users
 
