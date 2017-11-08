@@ -27,6 +27,8 @@ These different authorization levels provide you with flexibility in how you set
   The following diagram shows how guest access authorization dependency is granted and integrated between Azure Active Directory, Microsoft Teams, and Office 365.
 
 
+![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
+
 
 ##Azure Active Directory
 
@@ -34,6 +36,8 @@ With Azure AD business-to-business (B2B) collaboration, sending invitations to p
 
 The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level.
 
+
+![Screenshot of User settings in Azure Active Directory portal.](media/teams_dependencies_image2.png)
 
 
 You can set the following invitation policies:
