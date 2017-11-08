@@ -13,13 +13,14 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Enable Microsoft Teams features in your Office 365 organization
 ======================================================
 
-Microsoft Teams has multiple settings that can be enabled or disabled at the tenant level. With Microsoft Teams enabled for the tenant, any user that is also enabled for Microsoft Teams will inherit the settings from the tenant level.
+Microsoft Teams has multiple settings that can be enabled or disabled at the tenant level. With Teams enabled for the tenant, any user that is also enabled for Teams will inherit the settings from the tenant level.
 
-Below is the list of features an Office 365 Administrator can choose to enable or disable within Microsoft Teams.
+Below is the list of features an Office 365 administrator can choose to enable or disable in Teams.
 
 Unless otherwise noted, the default value for an option is On.
 
-Note: An Office 365 Administrator can turn off Microsoft Teams at any time via the Office 365 admin center. Be aware that users with active licenses for Microsoft Teams will continue to see the Teams app tile even if you turn off Teams. For details about how to remove licenses from users, see Manage user access to Microsoft Teams licenses. After Teams is disabled, access from the Microsoft Teams client is blocked, but data available through other clients and services is still available, such as files via SharePoint and OneDrive. All data remains in place unless the teams are explicitly deleted.
+> [!NOTE]
+> An Office 365 admin can turn off Microsoft Teams at any time in the Office 365 Admin center. Be aware that users with active Microsoft Teams licenses will continue to see the Teams app tile even if you turn off Teams. For details about how to remove licenses from users, see [Manage user access to Microsoft Teams](user-access.md). After Teams is disabled, access from the Teams client is blocked, but data available through other clients and services is still available, such as files via SharePoint and OneDrive. All data remains in place unless the teams are explicitly deleted.
 
 Tenant-wide settings 
 ---------------------
