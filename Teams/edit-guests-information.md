@@ -2,7 +2,7 @@
 title: Edit guest user information
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams

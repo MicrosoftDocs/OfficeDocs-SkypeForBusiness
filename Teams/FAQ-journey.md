@@ -2,7 +2,7 @@
 title: FAQ - Journey from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
