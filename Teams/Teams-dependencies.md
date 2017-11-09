@@ -53,7 +53,7 @@ In Microsoft Teams, you can control whether the guest experience is enabled or d
 
 
 
-You can manage Microsoft Teams guest access settings from the Office 365 admin center. For more information, see 
+You can manage Microsoft Teams guest access settings from the Office 365 admin center. For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
 
 
 ##Office 365 Groups
