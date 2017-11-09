@@ -1,5 +1,5 @@
 ---
-title: Set up guest access to Microsoft Teams
+title: Turn on or off guest access to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -11,49 +11,16 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 
-Set up guest access to Microsoft Teams
+Turn on or off guest access to Microsoft Teams
 ======================================
 
-Microsoft Teams is built upon Office 365 Groups, and it also relies on SharePoint Online. That’s why specific settings must be enabled in Office 365 Groups and SharePoint Online in addition to turning on the guest access feature in Teams.
 
 
-## Allow the addition of guests in Office 365 Groups
-<a name="bkmk_ControlAddingGuestUsers"> </a>
 
-
-1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
-    
-  
-2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
-    
-  
-3. Select **Office 365 Groups**.
-    
-     ![Office 365 groups](media/e25a7920-254c-4da3-bc5f-a8c7f6b61423.png)
-  
 
   
 
-  
-4. On the Office 365 Groups page, set the toggle to **On** or **Off**, depending if you want to let team and group owners outside your organization access Office 365 groups. Click or tap the toggle to **On** next to **Let group owners add people outside the organization to groups**.
 
-
-![Screenshot shows the Office 365 Groups panel with the options turned on to let group members outside the organization access group content and to let group owners add people outside the organization to groups.](media/eee77abd-4425-4585-91a8-5541c17ee7b2.png)
-    
-
-## Enable sharing in SharePoint Online
-
-The Sharing option in SharePoint Online allows guests to be added to your organization. By default, the Sharing option is enabled. For information about how to turn off the Sharing option, see [Turn on or off the Sharing option](https://support.office.com/en-us/article/Turn-on-or-off-the-Sharing-option-7c713d74-a144-4eab-92e7-d50df526ff96#bkmk_beforeyoubegin).
-  
-   Admins can create guest accounts in Azure Active Directory, independent from external sharing settings. If external sharing is off, only an admin can create guest accounts. 
-    
-
-> [!IMPORTANT]
-> If you turn off the Sharing option, guest access isn't available. 
-  
-
-## Turn on or off guest access to Microsoft Teams
-<a name="bkmk_TurnonOrTurnOff"> </a>
 
 As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests. 
 
