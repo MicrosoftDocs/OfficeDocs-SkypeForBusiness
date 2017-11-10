@@ -1,9 +1,9 @@
 ---
 title: Authorize guest access in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LaithAlShamri
+ms.author: laal
 manager: lolaj
-ms.date: 10/20/17
+ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.

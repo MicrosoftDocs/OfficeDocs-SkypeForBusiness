@@ -1,12 +1,12 @@
 ---
 title: Turn on or off guest access to Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LaithAlShamri
+ms.author: laal
 manager: lolaj
-ms.date: 10/20/17
+ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-description: Enable the guest access feature in Microsoft Teams.
+description: Turn on or turn off the guest access feature in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
