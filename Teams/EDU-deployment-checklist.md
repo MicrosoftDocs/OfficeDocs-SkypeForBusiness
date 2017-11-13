@@ -3,7 +3,7 @@ title: Deployment checklist for EDU - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/13/2017
 ms.topic: article
 ms.service: msteams
 description: Checklist for planning a Microsoft Teams deployment for EDU.
