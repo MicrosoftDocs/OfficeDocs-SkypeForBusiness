@@ -82,3 +82,7 @@
 ## [Verify service health for Teams](service-health.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
+
+# Teams for EDU
+## [Deployment checklist](EDU-deployment-checklist.md)
+
