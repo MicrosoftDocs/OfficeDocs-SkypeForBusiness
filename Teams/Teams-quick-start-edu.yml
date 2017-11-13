@@ -6,7 +6,7 @@ metadata:
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
-  displayType: two-column
+  displayType: one-column
   interactive: azurecli
 items:
 - durationInMinutes: 2
