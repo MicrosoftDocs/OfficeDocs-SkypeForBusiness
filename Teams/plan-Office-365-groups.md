@@ -1,8 +1,8 @@
-﻿---
-title: Plan for Office 365 groups when creating teams in Microsoft Teams | Microsoft Support
+---
+title: Plan for Office 365 Groups when creating teams in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams

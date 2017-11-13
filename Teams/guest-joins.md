@@ -1,8 +1,8 @@
 ---
 title: How a guest joins a team
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams

@@ -2,7 +2,7 @@
 title: Planning workshop kit and practical guide for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
