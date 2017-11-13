@@ -1,5 +1,5 @@
 ---
-title: Deployment checklist for EDU: Microsoft Teams
+title: Deployment checklist for EDU - Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
