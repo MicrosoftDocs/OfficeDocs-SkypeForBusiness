@@ -13,7 +13,7 @@ items:
   content: |
     Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
     
-    Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
+    Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus, and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
 
     ## Before you begin
     Make sure your network is ready for Microsoft Teams. To do so, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
@@ -29,7 +29,7 @@ items:
     
     ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-    5. The Microsoft Teams settings screen will open, select the education license you want to configure – **Faculty and Staff** or **Student**.
+    5. The Microsoft Teams settings screen will open. Select the education license you want to configure – **Faculty and Staff** or **Student**.
 
     ![Screenshot of who to license in the Microsoft Teams settings section in the Office 365 admin center.](media/Pick_the_license_you_want_to_configure_image.png)
 
@@ -56,7 +56,7 @@ items:
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Microsoft Teams.
-    - Allow T-bot proactive help measures.
+    - Allow T-bot proactive help messages.
 
     To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
@@ -70,7 +70,7 @@ items:
     ![Screenshot of the settings in the Email integration section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
 
     ## Apps
-    You can enable external apps, new external apps and sideloading for apps in Microsoft Teams. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
+    You can enable external apps, new external apps, and sideloading for apps in Microsoft Teams. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
     ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
 
@@ -91,7 +91,7 @@ items:
   durationInMinutes: 5
   content: |
     ## Teams and channels
-    A *team* is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as ongoing, to reflect the internal structure of your institution (for example, schools, departments, and classes).
+    A *team* is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as for ongoing work, to reflect the internal structure of your institution (for example, schools, departments, and classes).
 
     A *channel* is a subcategory of a team. You might create a channel for an activity or for a topic. Conversations, files, and notes are specific to each channel, but all members of the team can see them.
 
@@ -136,14 +136,14 @@ items:
      If you’re interested in building a bot, review the [Microsoft Teams Bots Platform](https://msdn.microsoft.com/en-us/microsoft-teams/bots), which has step-by-step instructions for getting started with writing bots for Microsoft Teams. 
 
      ## Connectors
-     Connectors allows users to receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services.
+     Connectors allow users to receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services.
 
      For more information, see [Connect apps to your groups](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and [Office Connectors Platform](https://msdn.microsoft.com/en-us/microsoft-teams/connectors).
 
 - title: Distribute to clients
   durationInMinutes: 5
   content: |
-    The setup file for the Microsoft Teams client is an executable file that can be downloaded by administrators and end users from the [Microsoft Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application provided they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
+    The setup file for the Microsoft Teams client is an executable file that can be downloaded by administrators and end users from the [Microsoft Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
 
     End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store. 
 
@@ -158,7 +158,7 @@ items:
 
     If you want to limit the users who have access to Microsoft Teams in your institution or remove a user you want to restrict, you can do so by disabling the Microsoft Teams license for that person or persons. Once the license is disabled, the user will no longer be able to see Microsoft Teams in the Office 365 app launcher and homepage.
 
-    You assign or unassign the Microsoft Teams license to users in the same way you assign any other Office 365 Business or Enterprise license. Sign in to Office 365,go to the Office 365 admin center, and on the **Users** > **Active Users** page, assign or unassign the Microsoft Teams license for users.
+    You assign or unassign the Microsoft Teams license to users in the same way you assign any other Office 365 Business or Enterprise license. Sign in to Office 365, go to the Office 365 admin center, and on the **Users** > **Active Users** page, assign or unassign the Microsoft Teams license for users.
 
 - title: Launch
   durationInMinutes: 3
