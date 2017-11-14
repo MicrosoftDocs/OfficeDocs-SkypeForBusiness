@@ -28,9 +28,13 @@ items:
     4. On the **Services & add-ins** page, select **Microsoft Teams**.
     
     ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+
     5. The Microsoft Teams settings screen will open, select the education license you want to configure – **Faculty and Staff** or **Student**.
+
     ![Screenshot of who to license in the Microsoft Teams settings section in the Office 365 admin center.](media/Pick_the_license_you_want_to_configure_image.png)
+
     6. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
+    
     ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
 
     You can control which users in your institution can use Microsoft Teams. By default, Office 365 Groups creation is enabled in Exchange Online. But, there are a couple of ways an IT Admin can limit the creation of new groups to specific users.
