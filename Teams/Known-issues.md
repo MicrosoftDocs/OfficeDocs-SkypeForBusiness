@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
@@ -12,7 +12,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 
 # Known issues for Microsoft Teams
  [Microsoft Teams help](microsoft-teams-help.md) > [Desktop and web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Known issues for Microsoft Teams
-Updated: September 14, 2017 
+Updated: November 15, 2017 
   
 The following table lists the known issues for Microsoft Teams.
 ## 
