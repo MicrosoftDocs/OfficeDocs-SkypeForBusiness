@@ -105,7 +105,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 
 ## Step Three: Design your Test Plan and Feedback Survey
 
-A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop. Your organization may opt to pilot all functionality at once, or leverage a gradual approach (e.g. collaboration, then meetings, then chat and calling.) A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios/features in the test plan.
+A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop. Group tasks together to present real-world scenarios to your users, demonstrating relevancy to their daily activities. Your organization may opt to pilot all functionality at once, or leverage a gradual approach (for example, first pilot collaboration, then meetings, then chat and calling). Ensure you have an open feedback channel to track progress and measure outcomes. A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios and features in your test plan.
 
 <table>
 <thead>
