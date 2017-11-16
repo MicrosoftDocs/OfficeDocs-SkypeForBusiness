@@ -17,6 +17,9 @@ items:
 
     ## Before you begin
     Make sure your network is ready for Microsoft Teams. To do so, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+
+    Choose which types of teams you want to use at your school to meet your teaching and learning goals. To learn more, see [Choose a team type to collaborate in Microsoft Teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+
 - title: Enable Teams for your school
   durationInMinutes: 5
   content: |
