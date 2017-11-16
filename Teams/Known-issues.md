@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
@@ -11,14 +11,16 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 # Known issues for Microsoft Teams
- [Microsoft Teams help](microsoft-teams-help.md) > [Desktop and web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Known issues for Microsoft Teams
-Updated: September 14, 2017 
   
 The following table lists the known issues for Microsoft Teams.
 ## 
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
+|When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under Internet Options &gt; Privacy &gt; Advanced, accept First-Party and Third-Party cookies, and check the box for Always allow session cookies Trusted Sites.</li><li>Click Internet Options &gt; Trusted Sites &gt; Sites, and add all of the following:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> <br/>|11/1/17  <br/> |
+|Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> <br/> ||10/16/17  <br/> |
+|Teams URL with parameters gets truncated after login redirection  <br/> | In Internet Explorer and Edge, when opening shared teams file link on a Teams web app for the first time after logging in, you'll be re-directed to the wrong document. If you are already signed in to team web app and click the shared file link, then the link works as expected.   <br/> <br/> ||10/11/17  <br/> |
 |Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates via the public Office 365 Roadmap.  <br/> |Use supported browsers, which include: Microsoft Edge 12+, Internet Explorer 11+, Firefox 47.0+, and Chrome 51.0+.  <br/> |11/2/16  <br/> |
 |Users can't recreate a pre-existing channel name  <br/> |Once a channel name has been created, even if it's deleted, it cannot be recreated. Our system maintains this data for information protection scenarios.  <br/> |No workaround.  <br/> |3/13/2017  <br/> |
 |Unable to insert stickers using mobile app  <br/> |You can't use stickers on the mobile apps.  <br/> |No workaround.  <br/> |3/13/2017  <br/> |
