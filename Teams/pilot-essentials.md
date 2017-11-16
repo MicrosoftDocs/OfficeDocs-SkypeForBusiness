@@ -2,7 +2,7 @@
 title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -15,7 +15,7 @@ Pilot Microsoft Teams alongside Skype for Business
 
 As an existing Skype for Business and Office 365 customer, your organization is already a part of the modern workplace movement, empowering your users to be more creative, innovative, and productive. Microsoft Teams further expands what’s possible, with added functionality, such as collaboration hubs for teamwork, app integration, and file storage. When you bring the current functionality of Skype for Business together with the value-add of Teams, you have a powerful communication and collaboration solution that can revolutionize how users work.
 
-Your Teams journey, as well as go-forward recommendations, is based on the outcome of your pilot. While you continue to utilize Skype for Business, we encourage you explore all that Teams can offer to your organization. Since there is some overlapping functionality between Teams and Skype for Business, it is important to begin with a user pilot. The pilot, is a small-scale deployment that enables you to validate the interoperability with Skype for Business in your environment as well as understand how your endusers can maximize their productivity while minimizing confusion with both products running side-by-side.
+Your Teams journey, as well as go-forward recommendations, is based on the outcome of your pilot. While you continue to utilize Skype for Business, we encourage you explore all that Teams can offer to your organization. Since there is some overlapping functionality between Teams and Skype for Business, it is important to begin with a user pilot. The pilot is a small-scale deployment that enables you to validate the interoperability with Skype for Business in your environment as well as understand how your endusers can maximize their productivity while minimizing confusion with both products running side-by-side.
 
 Tailored for current Skype for Business customers, this resource provides guidance and best practices to start you on your journey to:
 
@@ -75,7 +75,7 @@ A formal pilot should define your targeted path forward and include a project te
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong><ul><li>Enlist your pilot program team</li><li>Articulate the business scenarios and features you will test as part of your pilot</li><li>Finalize your success criteria and goals</li><li>Establish your pilot timeline</li></ul></td>
+<td align="left"><strong>Next Actions:</strong><ul><li>Enlist your pilot program team</li><li>Articulate the business scenarios and features you will test as part of your pilot</li><li>Finalize your success criteria and goals</li><li>Establish your pilot timeline</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -105,7 +105,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 
 ## Step Three: Design your Test Plan and Feedback Survey
 
-A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop. Your organization may opt to pilot all functionality at once, or leverage a gradual approach (e.g. collaboration, then meetings, then chat and calling.) A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios/features in the test plan.
+A successful pilot experience provides your participants with clearly defined tasks to complete, along with a feedback loop. Group tasks together to present real-world scenarios to your users, demonstrating relevancy to their daily activities. Your organization may opt to pilot all functionality at once, or leverage a gradual approach (for example, first pilot collaboration, then meetings, then chat and calling). Ensure you have an open feedback channel to track progress and measure outcomes. A pre-defined survey is an easy way to capture and assess pilot results and should be designed based on the scenarios and features in your test plan.
 
 <table>
 <thead>
@@ -137,7 +137,11 @@ Educating your pilot participants on what is happening, when and why, as well as
 
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
-A suggested timeline based on a 30-day pilot is provided below:
+> [!IMPORTANT]
+> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+> 
+
+Here's a suggested timeline for a 30-day pilot:
 
 -   One week prior to Pilot kick off: Send initial communication to pilot users
 
