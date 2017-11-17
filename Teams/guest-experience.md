@@ -1,7 +1,7 @@
 ---
 title: What the guest experience is like
-author: LolaJacobsen
-ms.author: lolaj
+author: LaithAlShamri
+ms.author: laal
 manager: lolaj
 ms.date: 10/20/17
 ms.topic: article

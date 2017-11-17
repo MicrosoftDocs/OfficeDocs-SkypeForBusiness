@@ -1,7 +1,7 @@
 ---
 title: Guest access in Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LaithAlShamri
+ms.author: laal
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article

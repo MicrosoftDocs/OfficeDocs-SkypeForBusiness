@@ -1,7 +1,7 @@
 ---
 title: View guest users in a team
-author: LolaJacobsen
-ms.author: lolaj
+author: LaithAlShamri
+ms.author: laal
 manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
