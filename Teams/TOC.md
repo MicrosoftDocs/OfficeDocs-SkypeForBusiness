@@ -89,5 +89,4 @@
 ## [Quick Start: Deploy Teams for Education](Teams-quick-start-edu)
 ## [Deployment checklist](EDU-deployment-checklist.md)
 
-
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
