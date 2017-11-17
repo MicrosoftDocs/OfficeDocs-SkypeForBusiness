@@ -11,45 +11,68 @@ metadata:
 items:
 - durationInMinutes: 2
   content: |
-    Roll out Microsoft Teams to faculty, staff, and students by following the steps outlined in this guide. 
     
-    Microsoft Teams is available to education customers as part of the Office 365 for Education suite licensing – Education, Education Plus, and Education E5, as well as existing Education E3 suites. To learn more about Teams, see [Overview of Microsoft Teams](Teams-overview.md).
+    Microsoft Teams lets you create collaborative classrooms, connect in professional learning communities, and communicate with school staff and students all from a single experience in Office 365 for Education.
+    
+| | |
+|---------|---------|
+| <iframe src="https://go.microsoft.com/fwlink/?linkid=860936" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>   |         |
+
+  This tutorial is for IT Admins who haven't yet deployed Microsoft Teams. It will help you understand how to enable Teams for your school, help you plan your deployment, and provide overall considerations, such as possibly limiting your deployment to a pilot while you figure out the requirements. 
+
+  To learn more about how to manage Teams for your school, see the [Microsoft Teams for Education Quick Start](https://support.office.com/en-us/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+  
+  To learn more about Teams infrastructure, see [Overview of Microsoft Teams](Teams-overview.md).
 
     ## Before you begin
-    Make sure your network is ready for Microsoft Teams. To do so, follow the steps in [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+    
+    1. Configure the correct ports and protocols for Microsoft Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
+    2. Prepare your school's network for Microsoft Teams. See [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+    3. Choose the type of team you want to use at your school. See [Choose a team type to collaborate in Microsoft Teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
-    Choose which types of teams you want to use at your school to meet your teaching and learning goals. To learn more, see [Choose a team type to collaborate in Microsoft Teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
-
-- title: Enable Teams for your school
+- title: Enable or disable Microsoft Teams licenses
   durationInMinutes: 5
   content: |
-    You use the Office 365 admin center to set up Microsoft Teams for your school.
+    Administrators manage Microsoft Teams licenses by using the Office 365 admin center. You need to be an Office 365 global administrator or user management administrator to manage Microsoft Teams licenses.
+
+    If you want to limit the users who have access to Microsoft Teams in your institution or remove a user you want to restrict, you can do so by disabling the Microsoft Teams license for that person or persons. Once the license is disabled, the user will no longer be able to see Microsoft Teams in the Office 365 app launcher and homepage.
+
+    You assign or unassign the Microsoft Teams license to users in the same way you assign any other Office 365 Business or Enterprise license.
 
     1. [Sign in to Office 365](https://portal.office.com/) with your work or school account.
     2. Select **Admin** to go to the Office 365 admin center.
-    3. Go to **Settings** > **Services & add-ins**.
-    4. On the **Services & add-ins** page, select **Microsoft Teams**.
+    3. Go to **Users** > **Active Users** to assign or disable the Microsoft Teams license for users.
+
+    ### Pilot Teams
+    
+    > [!IMPORTANT]
+    > Once you enable Teams for everyone, you cannot go back and pilot it to a smaller group of users.
+    Before you enable Teams for your entire institution, you should understand how to do a pilot program to make sure you have the proper controls in place. We recommend that you begin with a few pilot teams of teachers, students, and staff. See [Pilot Microsoft Teams](pilot-essentials.md).
+
+- title: Configure Teams for your school
+  durationInMinutes: 5
+  content: |
+    Use the Office 365 admin center to set up Microsoft Teams for your school.
+
+    1. From the Office 365 admin center, go to **Settings** > **Services & add-ins**.
+    2. On the **Services & add-ins** page, select **Microsoft Teams**.
     
          ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-    5. The Microsoft Teams settings screen will open. Select the education license you want to configure – **Faculty and Staff** or **Student**.
+    3. The Microsoft Teams settings screen will open. Select the education license you want to configure – **Faculty and Staff** or **Student**.
 
          ![Screenshot of who to license in the Microsoft Teams settings section in the Office 365 admin center.](media/Pick_the_license_you_want_to_configure_image.png)
 
-    6. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
+    4. After you select the license type you want to enable, set the toggle to **On**, and then select **Save**.
     
          ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
 
     You can control which users in your institution can use Microsoft Teams. By default, Office 365 Groups creation is enabled in Exchange Online. But, there are a couple of ways an IT Admin can limit the creation of new groups to specific users.
 
-    Every Exchange Online user has an OWA mailbox policy that governs what they can and can't do with their mailbox. By using the **Set-OwaMailboxPolicy** cmdlet, you can configure the *GroupCreationEnabled* parameter to be **$true** for users who are allowed to create groups and **$false** for users who are not authorized to create groups. At this time, the only way to update the mailbox policy is through Windows PowerShell. For more information, see [Use PowerShell to manage Office 365 Groups - Admin help](https://support.office.com/en-us/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
+    Every Exchange Online user has an OWA mailbox policy that governs what they can and can't do with their mailbox. See [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) to learn how to use PowerShell to control these permissions and the types of licenses that are required to take advantage of these features. 
 
     > [!NOTE]
-    > These commands turn off group creation only for OWA and Outlook.
-
-    If you want to turn off group creation in your institution, use Azure Active Directory settings. Or, the [Microsoft Planner for Office 365](https://blogs.office.com/en-us/2016/06/06/microsoft-planner-ready-for-showtime/) provides the opportunity to change the control mechanism to a policy stored in Azure Active Directory. 
-
-    The advantage of this approach is that Azure Active Directory provides a central point that all Office 365 applications can check. After a suitable policy is created, control over the creation of new Office 365 Groups is consistent everywhere.
+    > Disabling group creation has implications on other products.
 
 - title: Configure tenant-wide settings
   durationInMinutes: 5
@@ -81,14 +104,14 @@ items:
 
     ![Screenshot of how to add tabs for apps to Microsoft Teams.](media/Add_a_tab_to_Microsoft_Teams_image.png)
 
-    In the Microsoft Teams client, at the top of the channel, users can add tabs for Word documents, PowerPoint presentations, Excel spreadsheets, OneNote notebooks, plans from Planner, and more.
-
-    Over time, more tabs will be added, both from Microsoft and from partners.
+    In the Microsoft Teams client, at the top of the channel, users can add tabs for Word documents, PowerPoint presentations, Excel spreadsheets, OneNote notebooks, plans from Planner, and more.  Over time, more tabs will be added, both from Microsoft and from partners.
 
     ## Custom cloud storage
     You can enable various forms of cloud storage within Microsoft Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
     ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+
+    Microsoft Teams leverages SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md). To learn how your Quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/en-us/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to have to manage each site’s collection, you will also learn how to let the service automatically handle that for you. 
 
 - title: Configure user settings by license
   durationInMinutes: 5
@@ -102,7 +125,26 @@ items:
 
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
 
+    If you want to disable [Guest Access](guest-access.md) to your tenant, select the Guest license and toggle the switch to **Off**. You can use Guest Access to enable Guest Professor Scenario. 
+ 
     For more information about how to create Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/en-us/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
+
+    > [!NOTE]
+    > You need to use the **Groups** control panel, because all Teams are built on top of Groups. 
+
+    ### Team management
+    - Create an Office 365 Group in the Office 365 admin center.
+    - The Team Naming convention feature provided by Groups is in private preview, and will be available soon in public preview. To learn more about this feature, see [Office 365 Groups naming policy](https://support.office.com/en-us/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+    - Prevent Teams from showing up in the global address list (GAL). To learn more, see "Hide Office 365 Groups from GAL" in [Manage Office 365 Groups with PowerShell](https://support.office.com/en-gb/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
+    - Manage Team\Group Expiration policies. To learn more, see [Office 365 Group Expiration Policy](https://support.office.com/en-us/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+
+    ### Team creation
+    - Use School Data Sync. If you are already using School Data Sync, teams will get automatically created based on your roster details. Teachers and students will automatically be assigned. 
+    > [!TIP]
+    > If you are interested in learning more about School Data Sync, see [Overview of School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/overview-of-school-data-sync). You can sign up for School Data Sync [here](https://sdscrm.microsoftcrmportals.com/signup/).
+    - Use PowerShell to create groups. To learn more, see [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams). 
+    > [!IMPORTANT]
+    > For Office 365 for Education, IT Admins can create [four different types of teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
 
     ## Calls and meetings
     Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
@@ -130,19 +172,6 @@ items:
     - Users to delete their own messages
     - Users to chat privately
 
-    ## Bots
-    You can complete tasks such as querying information and performing commands by using bots. Currently, there are more than 20 native and third-party bots available in Teams with additional bots coming soon. 
-     
-    > [!NOTE]
-    > T-Bot is a part of the product’s help system and cannot be disabled.
-
-     If you’re interested in building a bot, review the [Microsoft Teams Bots Platform](https://msdn.microsoft.com/en-us/microsoft-teams/bots), which has step-by-step instructions for getting started with writing bots for Microsoft Teams. 
-
-     ## Connectors
-     Connectors allow users to receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services.
-
-     For more information, see [Connect apps to your groups](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and [Office Connectors Platform](https://msdn.microsoft.com/en-us/microsoft-teams/connectors).
-
 - title: Distribute to clients
   durationInMinutes: 5
   content: |
@@ -154,21 +183,9 @@ items:
 
     Microsoft Teams supports the web client on Edge 12 or later, Internet Explorer 11 or later, Firefox 47.0 or later, and Chrome 51.0 or later. Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
 
-- title: Enable or disable Microsoft Teams licenses
-  durationInMinutes: 5
-  content: |
-    Administrators manage Microsoft Teams licenses by using the Office 365 admin center. You need to be an Office 365 global administrator or user management administrator to manage Microsoft Teams licenses.
-
-    If you want to limit the users who have access to Microsoft Teams in your institution or remove a user you want to restrict, you can do so by disabling the Microsoft Teams license for that person or persons. Once the license is disabled, the user will no longer be able to see Microsoft Teams in the Office 365 app launcher and homepage.
-
-    You assign or unassign the Microsoft Teams license to users in the same way you assign any other Office 365 Business or Enterprise license. Sign in to Office 365, go to the Office 365 admin center, and on the **Users** > **Active Users** page, assign or unassign the Microsoft Teams license for users.
-
-- title: Launch
+- title: Feedback and support
   durationInMinutes: 3
   content: |
-    Before you roll out Microsoft Teams to your entire institution, we recommend that you begin with a few pilot teams of teachers, students, and staff. This helps you refine your launch plan and ensure you are ready for an institution-wide deployment. Successful pilots help generate excitement throughout the institution for the next wave of launch. To get started, follow the steps in [Pilot Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/pilot-essentials).
-    
-- content: |
     ## Feedback and support
     [Send a suggestion](https://aka.ms/eduuservoice)
 
@@ -177,5 +194,10 @@ items:
     [Ask the community](https://aka.ms/msteamscommunity)
 
     [Explore the Office 365 for Education help center](https://support.office.com/en-us/education)
+
+    [Find more resources for education](https://education.microsoft.com/)
+    
+- content: |
+    
 
 
