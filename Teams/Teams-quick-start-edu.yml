@@ -127,7 +127,7 @@ items:
 
     Toggle the switch to **On**, and then select **Save**.
  
-   ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
+    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
    
     If you want to disable [Guest Access](guest-access.md) to your tenant, select the **Guest** license and toggle the switch to **Off**. You can use Guest Access to enable Guest Professor Scenario. 
 
