@@ -78,7 +78,7 @@ items:
 - title: Configure tenant-wide settings
   durationInMinutes: 5
   content: |
-    ## General
+    ### General
     The General section lets you configure the following settings for your institution.
 
     - Show organizational chart in personal profile.
