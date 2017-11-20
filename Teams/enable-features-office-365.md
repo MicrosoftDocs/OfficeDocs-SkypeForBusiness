@@ -107,8 +107,6 @@ Channels are subcategories of teams. Anyone on the team can add a channel and pa
 
 ### Calls and meetings
 
-Channels are subcategories of teams. Anyone on the team can add a channel and participate in the conversations in a channel. You might create a channel for an activity or for a department. Conversations, files, and wikis are specific to each channel, but all members of the team can see them.
-
 The **Calls and meetings** section lets you configure the following settings for your organization:
 
 > ![Screenshot of the Calls and meetings section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
