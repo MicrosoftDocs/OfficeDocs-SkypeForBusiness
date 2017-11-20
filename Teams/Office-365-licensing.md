@@ -43,3 +43,5 @@ By default, the Teams license is enabled for all users with eligible Office 365 
 
 
 Teams can be turned on or off for an entire license type within an organization and is turned on by default for all licenses types except guest users. **You can't turn on Teams for only part of a license type by using the Teams switch in the Office 365 Admin center.** If you want to turn on Teams for some of your organization and turn it off for others (for example, if you're planning a Teams pilot with a select set of users), turn on the Teams license switch for everyone, then turn it off for individual users.
+
+![Screenshot of the Teams user/license type setting in the license section in the Office 365 admin center, showing Microsoft Teams as On.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
