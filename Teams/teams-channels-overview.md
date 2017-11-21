@@ -31,7 +31,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
 One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Microsoft Teams can enhance collaboration in their day to day lives.
 
-By default, all users have permissions to create a team within Microsoft Teams (to modify this, see here). Users of an existing Office 365 Group can also enhance them with Microsoft Teams functionality.
+By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md)). Users of an existing Office 365 Group can also enhance them with Microsoft Teams functionality.
 
 Sample Team Set up
 ------------------
