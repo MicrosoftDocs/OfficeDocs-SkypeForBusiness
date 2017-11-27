@@ -50,7 +50,7 @@ items:
 
     3. The Microsoft Teams settings screen will open. Below there are two sections, the top portion is controlls for all the users in your organization. The second half will allow you to manage the product per Office License sku type and for Guests.
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](mmedia/Services-and-addins-control-Microsoft-Teams.PNG.png)
+         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG.png)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 7
@@ -106,7 +106,7 @@ items:
 
     Toggle the switch to **On**, and then select **Save**.
     
-    ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Set_up_Microsoft_Teams_for_Education_in_your_Office_365_organization_image.png)
+    ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
     
     
     ### Teams and channels
@@ -120,8 +120,8 @@ items:
 
     > [!NOTE]
     > Disabling group creation has implications on other products. These implications are detailed in the article above.
- 
-    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
+
+    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
    
     If you want to disable [Guest Access](guest-access.md) to your tenant, select the **Guest** license and toggle the switch to **Off**. You can use Guest Access to enable Guest Professor Scenario. 
 
