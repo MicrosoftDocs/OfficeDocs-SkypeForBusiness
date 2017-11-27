@@ -35,8 +35,8 @@ items:
   content: |
     You can manage indivudual user licenses for Microsoft Teams by using the Office 365 admin center or through PowerShell. Our topic on [Office 365 licensing for Microsoft Teams](office-365-licensing.md) outlines how to accomplish this in either method. This will be valuable to understand if you are interested in piloting Microsoft teams before broad enablement. 
 
-    [!NOTE]
-    Before you enable Teams for your entire institution, you should  make sure you have the proper controls in place. A piloting program will help significatly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. If you are looking for guidance on how to plan and run a pilot, see [Pilot Microsoft Teams alongside Skype for Business](pilot-essentials.md). The concepts are still valid and valuable even if you aren't currently running Skype for Business. 
+    > [!NOTE]
+    > Before you enable Teams for your entire institution, you should  make sure you have the proper controls in place. A piloting program will help significatly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. If you are looking for guidance on how to plan and run a pilot, see [Pilot Microsoft Teams alongside Skype for Business](pilot-essentials.md). The concepts are still valid and valuable even if you aren't currently running Skype for Business. 
 
 - title: Configure Teams for your school
   durationInMinutes: 5
@@ -50,7 +50,7 @@ items:
 
     3. The Microsoft Teams settings screen will open. Below there are two sections, the top portion is controlls for all the users in your organization. The second half will allow you to manage the product per Office License sku type and for Guests.
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG.png)
+         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.]((media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 7
@@ -71,7 +71,7 @@ items:
     ### Email integration
     You can enable email integration with channels, as well create a restricted senders list.  To disable or enable the email integration, toggle the switch to **Off** or **On**, and then select **Save**. 
 
-    The allow senders list will help restrict the domains you want to allow emailing the channels in Teams. 
+    The allow senders list will help restrict the domains you want to allow to have the ability to email the Teams within your organization. 
 
     ![Screenshot of the settings in the Email integration section in the Office 365 admin center.](media/QS-edu-email-integration.png)
 
@@ -107,12 +107,18 @@ items:
     Toggle the switch to **On**, and then select **Save**.
     
     ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
-    
+
+    If you want to disable [Guest Access](guest-access.md) to your tenant, select the **Guest** license and toggle the switch to **Off**. You can use Guest Access to enable Guest Professor Scenario.     
     
     ### Teams and channels
     A *team* is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as for ongoing work, to reflect the internal structure of your institution (for example, schools, departments, and classes).
 
     A *channel* is a subcategory of a team. You might create a channel for an activity or for a topic. Conversations, files, and notes are specific to each channel, but all members of the team can see them.
+
+    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+
+    > [!NOTE]
+    > You need to use the **Groups** control panel, because all Teams are built on top of Groups. 
 
     You can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center. By default, Office 365 Groups creation is enabled, but can be disabled through the use of PowerShell. 
 
@@ -121,15 +127,7 @@ items:
     > [!NOTE]
     > Disabling group creation has implications on other products. These implications are detailed in the article above.
 
-    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
-   
-    If you want to disable [Guest Access](guest-access.md) to your tenant, select the **Guest** license and toggle the switch to **Off**. You can use Guest Access to enable Guest Professor Scenario. 
-
-    > [!NOTE]
-    > You need to use the **Groups** control panel, because all Teams are built on top of Groups. 
-
-    #### Highlights of team management and creation
-
+    ### Highlights of team management and creation
     ##### Team management
     - For more information about how to create Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/en-us/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
     - The Team Naming convention feature provided by Groups is in private preview, and will be available soon in public preview. To learn more about this feature, see [Office 365 Groups naming policy](https://support.office.com/en-us/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
