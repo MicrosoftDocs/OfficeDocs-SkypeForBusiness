@@ -54,7 +54,7 @@ items:
 
 - title: Configure tenant-wide settings
   durationInMinutes: 7
-  content:
+  content: |
     ### General
     The General section lets you configure the following settings for your entire institution.
 
