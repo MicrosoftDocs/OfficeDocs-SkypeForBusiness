@@ -36,6 +36,7 @@
 ## [Use Office 365 and custom connectors in Teams](Office-365-custom-connectors.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
+## [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Guest access in Teams](guest-access.md)
@@ -54,6 +55,7 @@
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ### [Plan](audio-conferencing.md#Planning_AudioConferencing)
+### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
@@ -64,7 +66,6 @@
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)
-### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ## [End user training for Teams](enduser-training.md)
 
 
@@ -78,7 +79,12 @@
 
 
 # Troubleshoot
-## [Support resources for Microsoft Teams](support-resources.md)
+## [Known issues for Teams](Known-issues.md)
+## [Support resources for Teams](support-resources.md)
 ## [Verify service health for Teams](service-health.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
+
+
+# [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+

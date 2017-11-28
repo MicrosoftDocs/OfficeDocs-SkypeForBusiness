@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Welcome to Office content on docs.microsoft.com
-## H2 header
+## This is a level 2 heading
 ### H3 header
 
 *italics*
