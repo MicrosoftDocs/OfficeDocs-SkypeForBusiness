@@ -14,7 +14,7 @@ items:
     
     Microsoft Teams lets you create collaborative classrooms, connect in professional learning communities, and communicate with school staff and students all from a single experience in Office 365 for Education.
 
-    Watch the Introducing classroom experiences in Microsoft Teams video (2:33 minutes)
+    Watch the Introducing classroom experiences in Microsoft Teams video (2:33 minutes).
     > [!VIDEO https://www.youtube.com/embed/N7uiMs4dPcg]
 
  
@@ -28,15 +28,15 @@ items:
     
     1. Configure the correct ports and protocols for Microsoft Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
     2. Prepare your school's network for Microsoft Teams. See [Prepare your organization's network for Microsoft Teams](prepare-network.md).
-    3. Microsoft Teams in EDU offers you 3 new types of teams (for a total of 4). To understand the differences and use cases of each see [Choose a team type to collaborate in Microsoft Teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+    3. Microsoft Teams in EDU offers you three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Microsoft Teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 - title: Enable or disable Microsoft Teams licenses
   durationInMinutes: 3
   content: |
-    You can manage indivudual user licenses for Microsoft Teams by using the Office 365 admin center or through PowerShell. Our topic on [Office 365 licensing for Microsoft Teams](office-365-licensing.md) outlines how to accomplish this in either method. This will be valuable to understand if you are interested in piloting Microsoft teams before broad enablement. 
+    You can manage individual user licenses for Microsoft Teams by using the Office 365 admin center or through PowerShell. Our topic on [Office 365 licensing for Microsoft Teams](office-365-licensing.md) outlines how to accomplish this in either method. This will be valuable to understand if you are interested in piloting Microsoft Teams before broad enablement. 
 
     > [!NOTE]
-    > Before you enable Teams for your entire institution, you should  make sure you have the proper controls in place. A piloting program will help significatly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. If you are looking for guidance on how to plan and run a pilot, see [Pilot Microsoft Teams alongside Skype for Business](pilot-essentials.md). The concepts are still valid and valuable even if you aren't currently running Skype for Business. 
+    > Before you enable Teams for your entire institution, you should  make sure you have the proper controls in place. A piloting program will help significantly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. If you are looking for guidance on how to plan and run a pilot, see [Pilot Microsoft Teams alongside Skype for Business](pilot-essentials.md). The concepts are still valid and valuable even if you aren't currently running Skype for Business. 
 
 - title: Configure Teams for your school
   durationInMinutes: 5
@@ -48,21 +48,21 @@ items:
     
          ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-    3. The Microsoft Teams settings screen will open. Below there are two sections, the top portion is controlls for all the users in your organization. The second half will allow you to manage the product per Office License sku type and for Guests.
+    3. The Microsoft Teams settings screen will open. There are two sections. The top portion is controls for all the users in your organization. The second half lets you manage the product per Office license SKU type and for Guests.
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.]((media/Services-and-addins-control-Microsoft-Teams.PNG)
+         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 7
   content: |
     ### General
-    The General section lets you configure the following settings for your entire institution.
+    The **General** section lets you configure the following settings for your entire institution.
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Microsoft Teams.
     - Allow T-bot proactive help messages.
 
-    T-Bot is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
+    T-bot is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
 
     To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
@@ -125,7 +125,7 @@ items:
     To learn how to use PowerShell to control the permissions, and the types of licenses that are required to take advantage of these features, see [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e61).
 
     > [!NOTE]
-    > Disabling group creation has implications on other products. These implications are detailed in the article above.
+    > Disabling group creation has implications on other products. These implications are detailed in [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e61).
 
     ### Highlights of team management and creation
     ##### Team management
@@ -143,19 +143,19 @@ items:
     - Using PowerShell to create groups. To learn more, see [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams). 
 
     > [!IMPORTANT]
-    > For Office 365 for Education, IT Admins can create [four different types of teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
+    > For Office 365 for Education, IT Admins can create [four different types of teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of team. Once a team is created, the type of team can't be changed. 
 
     ### Calls and meetings
-    Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
+    Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
     
     ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
     ### Messaging
-    As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen. You can also disable private chat and other messaging functions on the particular license type you are configuring. If you enable allow owners to delete messages for the faculty and staff License type, Teachers can become moderations of class discussions.
+    As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen. You can also disable private chat and other messaging functions on the particular license type you are configuring. If you enable **Allow owners to delete messages** for the faculty and staff license type, teachers can become moderations of class discussions.
 
     ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/QS-edu-messaging.png)
 
-    To disable or enable Giphy's to allow users to add gifs to conversations, select **Off** or **On**, and then select **Save**.
+    To disable or enable Giphy to allow users to add gifs to conversations, select **Off** or **On**, and then select **Save**.
 
     When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within the Microsoft Teams in your institution. Content ratings include the following.
 
@@ -182,11 +182,11 @@ items:
 
     Microsoft Teams supports the web client on Edge 12 or later, Internet Explorer 11 or later, Firefox 47.0 or later, and Chrome 51.0 or later. Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
 
-    ## Client Updates
+    ### Client updates
     TODO: Speak about how client auto updates.
 
 
-    ## Release Notes and In-Product Help
+    ### Release notes and in-product help
     TODO: Find out where to gather this information.
 
 
