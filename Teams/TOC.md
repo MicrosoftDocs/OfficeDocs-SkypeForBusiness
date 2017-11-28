@@ -85,4 +85,6 @@
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 
+
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+

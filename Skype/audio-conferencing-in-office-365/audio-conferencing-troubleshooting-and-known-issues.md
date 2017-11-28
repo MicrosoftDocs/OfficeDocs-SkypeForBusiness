@@ -1,0 +1,54 @@
+---
+title: "Audio Conferencing troubleshooting and known issues"
+ms.author: tonysmit
+author: tonysmit
+manager: scotv
+ms.date: 11/9/2017
+ms.audience: Admin
+ms.topic: troubleshooting
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection: Adm_Skype4B_Online
+ms.custom:
+- Adm_O365_FullSet
+- DianeF_Adm_Simplified
+ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
+
+description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+---
+
+# Audio Conferencing troubleshooting and known issues
+
+ **This article is for Skype for Business and Microsoft Teams users using Microsoft as their audio conferencing provider. It does not apply to customers who are using a third-party audio conferencing provider (ACP).**
+  
+## Troubleshooting and known issues
+
+Audio Conferencing that uses Microsoft as the audio conferencing provider has current issues that are being tracked and actively investigated and will be potentially resolved when the feature is updated in future releases of Office 365.
+  
+For now, use this as a reference when you are troubleshooting potential issues with getting Audio Conferencing set up and working for the people using the Skype for Business or Microsoft Teams apps in your organization.
+  
+### Microsoft Teams app
+
+|**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|PSTN callers with the same "From" number are shown as the same user in meeting roster.  <br/> |When multiple PSTN callers join a meeting, and their caller IDs are masked as a single number, they will show up as a single caller in the meeting roster.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Meeting Info panel is not showing up intermittently.  <br/> |Meeting Info panel may not show in Teams client when users are trying to look up for conference bridge phone numbers or conference ID.  <br/> |Look at meeting details or Outlook calendar to view conference bridge phone numbers or conference ID.  <br/> |9/25/2017  <br/> |
+|Meeting invites from Outlook Add-in show garbage characters in PSTN coordinates for non-US locales.  <br/> |When scheduling private meetings using Outlook Add-in for Microsoft Teams on a computer with non-US locales, PSTN coordinates may contain garbage characters.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Dial out needs to use 5 digits or more.  <br/> |Users trying to dial out from a meeting need to type in 5 or more digits, even though dial plan normalization rule is available to normalize short digit dialing to E.164.  <br/> |Dial out by typing the full DID number or local number format instead of internal extension number.  <br/> |9/25/2017  <br/> |
+|Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+   
+### Skype for Business app
+
+|**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Entry and exit notifications are turned on when a meeting starts, but they're turned off shortly after the meeting starts.  <br/> |By default, entry and exit notifications are disabled for meetings where participants join from both Skype for Business apps and when they dial in. You can enable the announcements in the **Skype Meeting Options** in the Skype for Business app. For a meeting where all participants dial in and join a meeting, entry and exit notifications are enabled by default as the participant roster isn't available to any participant. When a meeting has started with only participants calling in, the entry and exit notifications will be turned on, but when a participant joins using a Skype for Business app, the notifications will be turned off. When turned off, the notifications can be enabled back using **Skype Meeting Options** in the Skype for Business app. <br/> |No workaround.  <br/> |8/30/2017  <br/> |
+|If a user is provisioned the first time by being assigned an E5 license, it might be possible for the Audio Conferencing welcome email to not be delivered to the user if the mailbox isn't enabled.  <br/> |If this happens, you can always resend the audio conferencing information of the user using **Audio conferencing** in the Skype for Business admin center or using PowerShell. See[Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).  <br/> > [!NOTE]> In order to resend the audio conferencing PIN to the user, the PIN has to be reset. This can also be done by using **Audio conferencing** in the Skype for Business admin center or by using PowerShell.          |No workaround.  <br/> |8/30/2017  <br/> |
+|Audio conferencing calls could take up to 24 hours to show in the usage reports.  <br/> |We're looking forward to making improvements on this area in future service updates.  <br/> |No workaround.  <br/> |8/30/2017  <br/> |
+|When a caller dials in to a conference bridge after the meeting has been locked by a Skype for Business user, there isn't a notification in the Skype for Business app stating that the user is waiting in the lobby.  <br/> |This is currently by design, but we've taken the feedback in regard to supporting this capability in future service updates.  <br/> |No workaround.  <br/> |8/30/2017  <br/> |
+   
+## Related Topics
+
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+  
+

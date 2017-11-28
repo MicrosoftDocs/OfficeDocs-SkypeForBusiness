@@ -1,5 +1,5 @@
 ---
-title: TConduct an eDiscovery investigation of content in Microsoft Teams | Microsoft Support
+title: Conduct an eDiscovery investigation of content in Microsoft Teams | Microsoft Support
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
