@@ -12,15 +12,15 @@ items:
 - durationInMinutes: 4
   content: |
     
-    Microsoft Teams lets you create collaborative classrooms, connect in professional learning communities, and communicate with school staff and students all from a single experience in Office 365 for Education.
+   Create collaborative classrooms, connect in professional learning communities, and communicate with school staff and students all from a single experience with Microsoft Teams in Office 365 for Education.
 
-    Watch the Introducing classroom experiences in Microsoft Teams video (2:33 minutes).
+    Watch the "Introducing classroom experiences in Microsoft Teams" video (2:33 minutes).
     > [!VIDEO https://www.youtube.com/embed/N7uiMs4dPcg]
 
  
     This guide is for IT Admins who haven't yet deployed Microsoft Teams. It will help you understand how to enable Teams for your school, help you plan your deployment, and help you understand overall considerations, such as whether you should run a pilot program before you widely launch Teams. 
 
-    The guide is designed to get you started really quickly. To walk through our comprehensive guidance, see [Overview of Microsoft Teams](Teams-overview.md).
+    The guide is designed to get you started quickly. For more detailed and comprehensive guidance, see [Overview of Microsoft Teams](Teams-overview.md).
 
     If you have already deployed Teams (pilot or full) and are looking for pointers on how to use Teams, see [Microsoft Teams for Education Quick Start](https://support.office.com/en-us/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
   
@@ -48,11 +48,11 @@ items:
     
          ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-    3. The Microsoft Teams settings screen will open. There are two sections. The top portion is controls for all the users in your organization. The second half lets you manage the product per Office license SKU type and for Guests.
+    3. The Microsoft Teams settings screen will open. There are two sections. The top portion is controls for all the users in your organization. The lower portion lets you manage the product per Office license SKU type and for Guests.
 
          ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
-- title: Configure tenant-wide settings
+- title: Configure Tenant-wide settings
   durationInMinutes: 7
   content: |
     ### General
@@ -97,7 +97,7 @@ items:
 
     Microsoft Teams leverages SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md). To learn how your Quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/en-us/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to have to manage each site’s collection, you will also learn how to let the service automatically handle that for you. 
 
-- title: Configure user settings by license
+- title: Configure Settings by user/license type
   durationInMinutes: 10
   content: |
     Choose the type of user/license you want to configure – **Faculty and Staff** or **Student** or **Guest**.
