@@ -3,7 +3,7 @@ title: Phones System with Calling Plans in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
-ms.date: 08/10/2017
+ms.date: 12/07/2017
 ms.topic: overview
 ms.prod: teams
 description: Practical guidance for deploying Phones System with Calling Plans in Microsoft Teams.
@@ -71,7 +71,7 @@ Business use cases are meant to document expected, measurable business outcomes,
 <tr class="even">
 <td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
 <td align="left"><p><strong>How technology can overcome these challenges</strong></p>
-<p>Phone System with Calling Plan service will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
+<p>Phone System with Calling Plans service will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
@@ -407,17 +407,17 @@ To achieve the intended OKRs, you may have to define the high-level architecture
 
 All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Phone System with Calling Plans business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.
 
-Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e?ui=en-US&rs=en-US&ad=US). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_1_0_3).
+Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e?ui=en-US&rs=en-US&ad=US). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of Phone System with Calling Plans.
 
-Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://www.successwithteams.com/BandwidthCalculator) tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://www.skypeoperationsframework.com/Partners?ToolPartners).
+Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners).
 
 The results of network readiness assessment will paint a clearer picture of the required network optimization or remediation required for the success of Phone System with Calling Plans implementation.
 
 Adoption readiness can be evaluated by executing persona analysis to come up with a list of personas in the organization who can be targeted for the implementation of the Phone System with Calling Plans. The persona analysis includes the identification of additional peripherals or devices required to realize the intended business outcomes.
 
-To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_7) workshop deck and [Persona Feature Matrix](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_8). The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_2_0_9) template.
+To perform persona analysis, you can conduct a workshop by involving relevant project stakeholders, leveraging the [Persona Alignment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) workshop deck and [Persona Feature Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8). The result of persona analysis workshop can be summarized into a report using the [Persona Analysis Report](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) template.
 
 > [!NOTE]
 > While the Discovery Questionnaire and Persona Analysis examples were initially written for Skype for Business Online, a majority of the content is relevant to Teams. Feel free to modify and remove items that are not relevant to the project goals.
@@ -498,7 +498,7 @@ Planning for operations and identifying the teams that will operate the Phone Sy
 
 _Table 6 Example of operational roles mapping_
 
-To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://www.skypeoperationsframework.com/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Phone System with Calling Plans service.
+To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Phone System with Calling Plans service.
 
  Document success plan
 ---------------------
@@ -644,7 +644,7 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>If your organization does not have the required Phone System license, decide whether Phone System license will be acquired by stepping up existing Office 365 subscriptions or by acquiring Phone System add-ons.</li>
 <li>Decide which users require Domestic Calling Plan license and which users require Domestic and International Calling Plan license.</li>
-<li>Decide if Communications Credits is required for Calling Plan implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li>
+<li>Decide if Communications Credits is required for Calling Plans implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li>
 <li>Decide which users require the use of Communications Credits license.</li></ul></td>
 </tr>
 </thead>
@@ -733,12 +733,12 @@ _Table 9 Example of Communications Credits planning numbers_
 
 ## Phone Numbers and Emergency Locations
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique Direct Inward Dialing (DID) phone number and a corresponding [validated emergency address](https://support.office.com/en-us/article/What-are-emergency-locations-addresses-and-call-routing-589bf5f5-490a-4215-8588-99bab7d33e31?ui=en-US&rs=en-US&ad=US.
+With Calling Plans in Office 365, every user in your organization needs to have a unique Direct Inward Dialing (DID) phone number and a corresponding [validated emergency address](https://support.office.com/en-us/article/What-are-emergency-locations-addresses-and-call-routing-589bf5f5-490a-4215-8588-99bab7d33e31?ui=en-US&rs=en-US&ad=US).
 
 Phone numbers can be [obtained directly from Microsoft](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&rs=en-US&ad=US), or existing phone numbers can be [transferred (ported) to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e?ui=en-US&rs=en-US&ad=US).
 
 > [!NOTE]
-> Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://www.skypeoperationsframework.com/Feature?Name=NumberPorting) for the details.
+> Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011) for the details.
 
 When obtaining phone numbers from Microsoft directly, you can choose to use [Skype for Business admin center](https://support.office.com/en-us/article/Getting-Skype-for-Business-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5) or [remote PowerShell](https://technet.microsoft.com/en-us/library/mt228132.aspx), or to [submit a completed New Telephone Number Request form](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&rs=en-US&ad=US).
 
@@ -770,7 +770,7 @@ In addition to validated emergency address, emergency locations can be defined a
 <tr class="odd">
 <td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plan implementation.</li>
+<td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation.</li>
 <li>If applicable, complete <a href="https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp%3brs=en-US&amp%3bad=US&rs=en-AU&ad=AU">the New Telephone Number Request form</a>, one form for each location or office</li>
 <li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly.</li>
 <li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation.</li></ul></td>
@@ -842,7 +842,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 <tr class="header">
 <td align="left"><img src="media/audio_conferencing_image7.png" /></td>
 <td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide whether Caller ID manipulation is required for Calling Plan implementation.</li>
+<td align="left"><ul><li>Decide whether Caller ID manipulation is required for Calling Plans implementation.</li>
 <li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li>
 <li>•If applicable, decide which user require Caller ID manipulation, and the type of Caller ID manipulation to be assigned to each user.</li></ul></td>
 </tr>
@@ -935,7 +935,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <td align="left">Decision Points</td>
 <td align="left"><ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</li>
 <li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li>
-<li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plan implementation.</li>
+<li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation.</li>
 <li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
 </tr>
 </thead>
@@ -952,11 +952,9 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tenant Dial Plan Name/Description</th>
-<th align="left">Normalization Rules Name/Description</th>
-<th align="left">Pattern</th>
-<th align="left">Translation</th>
-<th align="left">IsInternalExtension</th>
+<th align="left"><p>Tenant Dial Plan Name</p><p>Description</p></th>
+<th align="left"><p>Normalization Rules Name</p><p>Description</p></th>
+<th align="left"><p>Pattern</p><p>Translation</p><p>IsInternalExtension</p></th>
 </tr>
 </thead>
 <tbody>
@@ -965,26 +963,19 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 <p><em>39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan</em></p></td>
 <td align="left"><p><strong>FR-39qdPR-Internal</strong></p>
 <p><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></p></td>
-<td align="left">^(7\d{3})$</td>
-<td align="left">+3319999$1</td>
-<td align="left">True</td>
+<td align="left"><p>^(7\d{3})$</p><p>+3319999$1</p><p>True</p></td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
 <td align="left"><p><strong>FR-TollFree</strong></p>
 <p><em>Toll Free number normalization for France</em></p></td>
-<td align="left">^0?(80\d{7})\d*$</td>
-<td align="left">+33$1</td>
-<td align="left">False</td>
+<td align="left"><p>^0?(80\d{7})\d*$</p><p>+33$1</p><p>False</p></td>
 </tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left"><p><strong>FR-Service</strong></p>
 <p><em>Service number normalization for France</em></p></td>
-<td align="left"><p>^(1\d{1,2}|11[68]\d{3}|</p>
-<p>10\d{2}|3\d{3})$</p></td>
-<td align="left">$1</td>
-<td align="left">False</td>
+<td align="left"><p>^(1\d{1,2}|11[68]\d{3}|10\d{2}|3\d{3})$</p><p>$1</p><p>False</p></td>
 </tr>
 </tbody>
 </table>
