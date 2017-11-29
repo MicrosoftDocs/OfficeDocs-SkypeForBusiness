@@ -33,6 +33,7 @@ For best results, we recommend that you follow this guidance in order:
  
 ### See also
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+[Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 
 
 
