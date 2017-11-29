@@ -20,7 +20,7 @@ description: "Each country or region has different instructions for getting phon
 Each country or region has different instructions for getting phone numbers for users in Skype for Business Online. Follow the link to your country or region below to get the information you need.
   
 > [!NOTE]
-> To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx)
+> To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md).
   

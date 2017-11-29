@@ -31,7 +31,7 @@ Users who are assigned phone numbers can make voice calls from all Skype for Bus
 
 Before you set this up, take a look at these topics for questions you might have:
   
-- To see if your country/region has Calling Plans available and the number of minutes you will get select the [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx) from the drop down.
+- To see if your country/region has Calling Plans available and the number of minutes you will get select the [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) from the drop down.
     
 - If you think you will go over the number of minutes, [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     

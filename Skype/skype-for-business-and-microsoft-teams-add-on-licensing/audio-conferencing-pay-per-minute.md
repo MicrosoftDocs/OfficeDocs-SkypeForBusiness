@@ -16,7 +16,7 @@ description: "In addition to the standard Audio Conferencing per-user license, V
 
 In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations.
   
-You can find out if your [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx) for Audio Conferencing.
+You can find out if your [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.
   
 > [!NOTE]
 > Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire licenses. 

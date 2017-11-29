@@ -17,7 +17,7 @@ The following are frequently asked questions about transferring phone numbers to
   
 ## What countries/regions support number porting?
 
-You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx). When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, [Manage phone numbers for your organization](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, [Manage phone numbers for your organization](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
   
 ## What numbers can be transferred?
 
@@ -50,7 +50,7 @@ In general, you can transfer any phone number that is from a supported provider,
  **YOU CANNOT TRANSFER:**
   
 > [!NOTE]
-> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx)
+> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
     

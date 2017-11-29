@@ -59,7 +59,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md).
   
-To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx).
+To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## What else should you know?
 
@@ -81,5 +81,5 @@ To see a list of those countries/regions that have phone numbers automatically a
 
 #### Other Resources
 
-[Dial-in conferencing in Office 365](http://technet.microsoft.com/library/90d51188-0ba9-4dc4-bd6c-ae11dd1f8551%28Office.14%29.aspx)
+[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
 

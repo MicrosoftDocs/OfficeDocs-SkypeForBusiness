@@ -36,7 +36,7 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
 
 You must be an [About Office 365 admin roles](http://technet.microsoft.com/library/da585eea-f576-4f55-a1e0-87090b6aaa9d%28Office.14%29.aspx) to perform this step.
   
-1. Find out if Audio Conferencing in Office 365 is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx). 
+1. Find out if Audio Conferencing in Office 365 is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Learn which licenses you need to buy for Audio Conferencing, and how much they will cost. See [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md), and buy the licenses. 
     
