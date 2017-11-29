@@ -60,9 +60,9 @@ items:
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Microsoft Teams.
-    - Allow T-bot proactive help messages.
+    - Allow T-Bot proactive help messages.
 
-    T-bot is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
+    T-Bot is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
 
     To disable or enable the setting, toggle the switch to **Off** or **On**, and then choose **Save**.
 
