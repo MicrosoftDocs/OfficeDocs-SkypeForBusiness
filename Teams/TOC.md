@@ -63,6 +63,7 @@
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)
