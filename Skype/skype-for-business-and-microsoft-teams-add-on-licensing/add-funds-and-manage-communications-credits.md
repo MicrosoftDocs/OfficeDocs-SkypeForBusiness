@@ -54,9 +54,9 @@ You can update your payment options at any time. On the **Subscriptions** page, 
 Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within twelve (12) months of the purchase date will expire and be forfeited.
   
 > [!TIP]
-> We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails, for example, when a credit card expires, and when your balance falls below zero. 
+> We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance falls below zero. 
   
-Want to know more about it, see [What are Communications Credits?](what-are-communications-credits.md)
+For more information, see [What are Communications Credits?](what-are-communications-credits.md)
   
 ## Want to know about plans and pricing?
 
@@ -68,7 +68,7 @@ You can see the plans and pricing by visiting one of the following links:
     
 - [Phone System plans](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-You can also see information by [signing into the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
