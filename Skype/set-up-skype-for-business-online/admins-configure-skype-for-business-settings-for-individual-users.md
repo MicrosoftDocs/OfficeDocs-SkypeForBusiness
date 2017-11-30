@@ -35,7 +35,7 @@ To allow (or block) everyone in your business to communicate with external peopl
 ## Configure general settings for one user
 <a name="__toc325019204"> </a>
 
-You must have [admin permissions](about-office-365-admin-roles) to perform these steps.
+You must have [admin permissions](about-office-365-admin-roles.md) to perform these steps.
   
 1. Sign in to Office 365 with your work or school account.
     
