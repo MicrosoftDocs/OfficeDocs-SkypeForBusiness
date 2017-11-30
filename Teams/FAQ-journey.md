@@ -28,6 +28,8 @@ As users are working on more teams, we see the opportunity to more seamlessly in
 
 We will make our roadmap for Microsoft Teams available, so customers can assess the capabilities for Teams relative to their needs and plan their move to Teams. Customers can determine the timing for moving to Teams that best meets their needs.
 
+A great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
+
 ### What is the future of Skype for Business Server? 
 
 We recognize that customers are using Skype for Business on-premises and many need to use Skype for Business on-premises for some users or geographies due to their requirements.  We are targeting the next version of the Skype for Business Server on-premises with a new set of server updates by end of CY2018 (dates subject to change).
