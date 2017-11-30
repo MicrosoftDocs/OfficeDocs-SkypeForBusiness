@@ -36,7 +36,7 @@ Communications Credits are a convenient way to pay for Phone System and Calling 
     
 - Dial out from an Audio Conferencing meeting to add someone else from anywhere in the world.
     
-- Dial out from an Audio conferencing meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed.
+- Dial out from an Audio Conferencing meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed.
     
 - Dial any international phone number when you have a **Domestic Calling Plan**.
     
