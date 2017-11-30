@@ -34,7 +34,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     
-5. In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1", and then click **Submit**.
+5. In the **Locations associated with**, click **Add new**, enter another associated location (for example, enter "Building 64 Floor 1"), and then click **Submit**.
     
 6. Click **Save**.
     
@@ -44,7 +44,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.
+3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     
@@ -58,7 +58,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.
+3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     
