@@ -1,16 +1,16 @@
 ---
-title: Phones System with Calling Plans in Microsoft Teams
+title: Phone System with Calling Plans in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdar
 ms.date: 12/07/2017
 ms.topic: overview
 ms.prod: teams
-description: Practical guidance for deploying Phones System with Calling Plans in Microsoft Teams.
+description: Practical guidance for deploying Phone System with Calling Plans in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Phones System with Calling Plans in Microsoft Teams
+Phone System with Calling Plans in Microsoft Teams
 ===================================================
 
 > [!IMPORTANT]
