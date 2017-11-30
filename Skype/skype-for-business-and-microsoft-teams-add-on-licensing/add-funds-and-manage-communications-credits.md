@@ -11,11 +11,10 @@ f1_keywords:
 - O365E_SFBVoiceCreditAether 
 - O365M_SFBVoiceCredit
 - O365M_SFBVoiceCreditAether
-O365P_SFBVoiceCreditAether
-O365E_SFBVoiceCreditAether 
+- O365P_SFBVoiceCreditAether
+- O365E_SFBVoiceCreditAether 
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether 
-
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection:
