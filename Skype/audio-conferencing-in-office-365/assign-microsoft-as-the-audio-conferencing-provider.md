@@ -62,8 +62,8 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -UserList <List of users>
-  ./Script.ps1 -UserList "user01@constoso.com,
-  user02@contoso.com, user03@contoso.com"
+
+  ./Script.ps1 -UserList "user01@constoso.com,   user02@contoso.com, user03@contoso.com"
   ```
 
 > **Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.
@@ -71,8 +71,7 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -CsvFile <Path of the csv file>
-  ```  
-  ```
+
   ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
@@ -90,6 +89,7 @@ You can save one or more of the following scripts as a PowerShell script file an
 > 
   ```
   Script.ps1 -ACPProviderName <Provider>
+
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
 
