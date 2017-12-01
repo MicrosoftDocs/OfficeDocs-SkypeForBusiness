@@ -33,25 +33,26 @@ Here are the Calling Plans option:
   
 - **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Office 365.
     
-- **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Office 365 license is assigned to the user based on the user's location, and to international numbers in[Users can make outbound calls to these countries and regions](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Monthly minutes available for each organization and each country/region are located [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Monthly minutes available for each organization and each country/region are located [here](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Office 365 admin center**. > ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+> The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Office 365 admin center**.   
+![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md).
   
 ## How to buy a Calling Plan
 
-1. **You must first purchase a **Phone System** add-on license**. To do that,[sign into the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing** > **Purchase services** > **Add-on subscriptions** > **Buy now**.
+1. **You must first purchase a **Phone System** add-on license**. To do that, [sign into the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing** > **Purchase services** > **Add-on subscriptions** > **Buy now**.
     
     ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Which add-on licenses do I need to buy to get more features?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
   
-2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Office 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions** > the click **Buy now** and you'll see the Calling Plans there.
+2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Office 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
     ![After you buy a Cloud PBX license, you can buy voice calling plans.](../images/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -61,7 +62,7 @@ You can buy and assign different Calling Plans to different users, depending on 
 
 If so, you don't need to buy a Calling Plan. Office 365 Enterprise E5 includes the **Phone System** add-on, so you can proceed to checkout.
   
-Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Office 365 admin center. To learn how, see[Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
+Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Office 365 admin center. To learn how, see [Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 ## Pricing information
 
