@@ -53,7 +53,7 @@ Use the following table to compare what you get if you choose Microsoft or a thi
 |International toll telephone numbers  <br/> |Yes  <br/> |Yes  <br/> |
 |Transfer existing phone numbers  <br/> |Yes  <br/> |No  <br/> |
 |Dial-out / Call-me - Domestic  <br/> |Yes  <br/> |Yes  <br/> |
-|Dial-out / Call-me - International  <br/> |Yes, but only available in some countries/regions. See [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx) for a list of supported countries/regions. <br/> |Yes  <br/> |
+|Dial-out / Call-me - International  <br/> |Yes, but only available in some countries/regions. See [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) for a list of supported countries/regions. <br/> |Yes  <br/> |
 |Meeting organizer can authenticate via a PIN  <br/> |Yes  <br/> |No  <br/> |
 |Any user in the organization can authenticate using a PIN  <br/> |No  <br/> |No  <br/> |
 |Meeting invitation page with default dial-in phone numbers  <br/> |Yes  <br/> |Yes  <br/> |
@@ -61,7 +61,7 @@ Use the following table to compare what you get if you choose Microsoft or a thi
 |Option for starting a third-party meeting without a PIN  <br/> |Yes  <br/> |No  <br/> |
 |Multiple language support  <br/> |Yes. See [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).  <br/> |Yes  <br/> |
 |Manage languages for the conferencing auto attendant  <br/> |Yes  <br/> |Yes  <br/> |
-|Multiple country/region support  <br/> |Yes. See [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx).  <br/> |Yes  <br/> |
+|Multiple country/region support  <br/> |Yes. See [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).  <br/> |Yes  <br/> |
 |Users listen to music on hold if meeting hasn't started or if the meeting has been locked  <br/> |Yes  <br/> |No  <br/> |
 |Set international number as default dial-in number (that shows in the meeting invite) for a user  <br/> |Yes  <br/> |No  <br/> |
 |Integrated experience for Skype for Business Online or Microsoft Teams user to reset the meeting conference ID and PIN  <br/> |Yes  <br/> |No  <br/> |

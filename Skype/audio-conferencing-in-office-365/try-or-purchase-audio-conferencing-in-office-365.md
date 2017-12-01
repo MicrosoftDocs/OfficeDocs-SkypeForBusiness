@@ -28,7 +28,7 @@ You must be an [About Office 365 admin roles](http://technet.microsoft.com/libra
   
 ### To buy and assign user Audio Conferencing licenses:
 
-1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx). 
+1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Get your ** Audio Conferencing** licenses. If you want to:
     
@@ -44,7 +44,7 @@ You must be an [About Office 365 admin roles](http://technet.microsoft.com/libra
 
 If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md). 
   
-1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx). 
+1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
     

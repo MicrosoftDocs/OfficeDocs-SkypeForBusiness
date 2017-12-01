@@ -34,7 +34,7 @@ As the meeting organizer, you can dial out using a Skype for Business or Microso
   
 ## Supported countries and regions
 
-Dial-out is only available to some countries/regions. For complete list, see [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx).
+Dial-out is only available to some countries/regions. For complete list, see [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## Want to know more about audio conferencing?
 

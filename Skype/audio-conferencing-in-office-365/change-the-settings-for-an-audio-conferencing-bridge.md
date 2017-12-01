@@ -102,5 +102,5 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 
 #### Other Resources
 
-[Dial-in conferencing in Office 365](http://technet.microsoft.com/library/90d51188-0ba9-4dc4-bd6c-ae11dd1f8551%28Office.14%29.aspx)
+[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
 

@@ -2,7 +2,7 @@
 title: "Change the toll or toll free numbers on your Audio Conferencing bridge"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/10/2017
+ms.date: 11/29/2017
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -21,7 +21,7 @@ When you buy **Audio Conferencing** licenses, Microsoft is hosting your *audio c
 In addition to the phone numbers already assigned to your conferencing bridge, you can [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) (toll and toll-free numbers used for audio conferencing) from other locations and then assign them to the conferencing bridge so you can expand coverage for your users.
   
 > [!NOTE]
-> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a ' *service*  ' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column.
+> To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a ' *service*  ' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column.> Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number. See [Change the toll or toll free numbers on your Audio Conferencing bridge](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md). 
   
 ## Steps when you are assigning a new service phone number to your conference bridge
 

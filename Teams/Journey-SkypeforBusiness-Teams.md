@@ -18,6 +18,8 @@ As a valued Skype for Business customer, Microsoft is here to support you every 
 
 Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.
 
+Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
+
 For best results, we recommend that you follow this guidance in order:
 
 
@@ -32,7 +34,10 @@ For best results, we recommend that you follow this guidance in order:
 
  
 ### See also
+[Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 
 
