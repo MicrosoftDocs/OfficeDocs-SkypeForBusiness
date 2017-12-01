@@ -41,12 +41,12 @@ Use the steps in this article when:
     
 - You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.
     
-- OR, you want everyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
+-You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
     
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-You must have [About Office 365 admin roles](about-office-365-admin-roles.md) in Office 365 to do this.
+You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 to do this.
   
 1. Sign in with your Office 365 admin account. 
     
@@ -66,18 +66,18 @@ You must have [About Office 365 admin roles](about-office-365-admin-roles.md) in
     
 7. If you're using Windows Firewall, Skype for Business opens the required ports automatically.
     
-    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: ***.api.skype.com, *.users.storage.live.com, and graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
+    If your organization is using a different firewall solution to restrict computers on your network from connecting to the Internet, ensure your client computers are able to access the following [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges). This may require adding the FQDNs to the outbound allow list in your firewall or proxy infrastructure configuration: **\*.api.skype.com**, \***.users.storage.live.com**, and **graph.skype.com**. For instructions on how to open these ports in your firewall, check the documentation that came with it.
     
-    For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx#bkmk_lyo) in the article[Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx).
+    For a list of all ports you need to open, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
 8. **WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.
     
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
   
 ## Test and troubleshoot
 <a name="bk_preview"> </a>
 
- **The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx) right.**
+ **The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) right.**
   
 To test your setup, you need a contact on Skype for Business who's not behind your company firewall.
   
@@ -85,7 +85,7 @@ To test your setup, you need a contact on Skype for Business who's not behind yo
     
 2. In Skype for Business, search for your contact in Skype for Business, and send a request to chat.
     
-    If you get a message that it couldn't be sent due to company policy, you need to doublecheck your [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx).
+    If you get a message that it couldn't be sent due to company policy, you need to doublecheck your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
     
