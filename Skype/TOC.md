@@ -1,7 +1,7 @@
 
   
 
-# [Skype for Business admin](skype-for-business-admin.md)
+# [Skype for Business admin]
 ## [Accessibility and regulatory]
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
 ### [Accessibility solutions for Skype for Business Online in France](accessibility-and-regulatory/accessibility-solutions-for-skype-for-business-online-in-france.md)
