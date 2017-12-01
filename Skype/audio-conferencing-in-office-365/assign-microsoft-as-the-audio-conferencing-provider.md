@@ -62,7 +62,8 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -UserList <List of users>
-
+  ```
+  ```
   ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
@@ -71,7 +72,8 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -CsvFile <Path of the csv file>
-
+  ```  
+  ```
   ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
@@ -89,7 +91,8 @@ You can save one or more of the following scripts as a PowerShell script file an
 > 
   ```
   Script.ps1 -ACPProviderName <Provider>
-
+  ```
+  ```
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
 
@@ -100,16 +103,13 @@ You can save one or more of the following scripts as a PowerShell script file an
   ```
   <#
   ```
-> 
   ```
   .SYNOPSIS
 
   ```
->
   ```
   This is a PowerShell script to set Microsoft as the audio conferencing provider of a set of users. It's required for applicable users to have a valid PSTN Conferencing license assigned before their provider is changed.
   ```
-> 
   ```
   .DESCRIPTION
   ```
