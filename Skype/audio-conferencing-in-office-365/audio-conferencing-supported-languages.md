@@ -23,7 +23,7 @@ When you are setting up and configuring Audio Conferencing in Office 365, you ca
   
 ## Currently supported languages
 
-|****Language****|****Country/Region****|****Culture ID****|
+|**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
 |Arabic  <br/> |Saudi Arabia  <br/> |ar-SA  <br/> |
 |Bulgarian  <br/> |Bulgaria  <br/> |bg-BG  <br/> |
@@ -70,13 +70,13 @@ When you are setting up and configuring Audio Conferencing in Office 365, you ca
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |
 |Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
    
-If you are looking for countries or regions where you can purchase Audio Conferencing, see [Is PSTN Conferencing with phone numbers available in my country or region?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx).
+If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 If you are looking for specific countries or regions that have phone numbers for Audio Conferencing, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).
   
 ## Want to know how to manage with Windows PowerShell?
 
-- To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) or[Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlets.
+- To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) or [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlets.
     
 -  Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
@@ -99,5 +99,6 @@ If you are looking for specific countries or regions that have phone numbers for
 
 #### Other Resources
 
-[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+
 
