@@ -41,7 +41,7 @@ Whether you're calling in using a phone or the Skype for Business or Microsoft T
   
 ## Can I add a toll-free number for my Audio Conferencing users?
 
-Yes, toll-free phone numbers (service numbers) are available but only in some countries/regions. To see a list of the numbers that are available, go [Where can I get toll-free numbers?](http://technet.microsoft.com/library/448bb563-c122-48ce-aab9-a97157a17bd3%28Office.14%29.aspx).
+Yes, toll-free phone numbers (service numbers) are available but only in some countries/regions. To see a list of the numbers that are available, go [here](countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## How many local dial-in numbers are currently supported?
 
@@ -75,7 +75,7 @@ To find out about meeting limits, see [Skype for Business Online Limits](https:/
   
 ## Why did users start receiving emails with their Audio Conferencing information?
 
-We added a new feature that allows you, the [Assign admin roles in Office 365 for business](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
+We added a new feature that allows you, the [admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
   
 ## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server 2015?
 
@@ -91,14 +91,14 @@ There isn't support currently for users enabled for Audio Conferencing to join a
   
 ## Can a user get operator assistance during a meeting?
 
-No, a user can't get any operator assistance or support by pressing *0 during the meeting. If there are issues with Audio Conferencing, an administrator for an organization can contact [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
+No, a user can't get any operator assistance or support by pressing *0 during the meeting. If there are issues with Audio Conferencing, an administrator for an organization can contact [Microsoft support for Office 365](https://support.office.com/en-us/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## How does a user access or change their conference ID?
 
 A Skype for Business or Microsoft Teams user can find the conference ID that is assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up.
   
 > [!NOTE]
-> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [Assign admin roles in Office 365 for business](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx), for the organization. 
+> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [admin](https://support.office.com/en-us/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization. 
   
 We are working on a solution that will let the user access and reset a conference ID without help from an organization's admin.
   
