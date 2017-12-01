@@ -19,12 +19,12 @@ description: "Learn how to assign Microsoft the dial-in conferencing provider fo
 
 # Assign Microsoft as the audio conferencing provider
 
-An audio conferencing provider supplies the  *conference bridge*  . The conference bridge provides the dial-in phone numbers, PINs, and conference IDs for meetings that are created. You only need to assign an audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
+An audio conferencing provider supplies the *conference bridge*. The conference bridge provides the dial-in phone numbers, PINs, and conference IDs for meetings that are created. You only need to assign an audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
   
-If you want to be able to see **Microsoft** listed as the audio provider, you must assign an ** Audio Conferencing** license to the user.
+If you want to be able to see **Microsoft** listed as the audio provider, you must assign an **Audio Conferencing** license to the user.
   
 > [!NOTE]
-> If you assign an **Audio Conferencing** license to a person who doesn't have a third-party audio conferencing provider, Microsoft is automatically assigned as the audio conferencing provider. You can[Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md) if needed.
+> If you assign an **Audio Conferencing** license to a person who doesn't have a third-party audio conferencing provider, Microsoft is automatically assigned as the audio conferencing provider. You can [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md) if needed.
   
 ## Assign Microsoft as the audio conferencing provider
 
@@ -62,10 +62,7 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -UserList <List of users>
-  ```
 
-> 
-  ```
   ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
@@ -74,10 +71,7 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -CsvFile <Path of the csv file>
-  ```
 
-> 
-  ```
   ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
@@ -95,457 +89,366 @@ You can save one or more of the following scripts as a PowerShell script file an
 > 
   ```
   Script.ps1 -ACPProviderName <Provider>
-  ```
 
-> 
-  ```
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
 
-    **Here is the script:**
+   **Here is the script:**
     
-> 
 
 > 
   ```
   <#
   ```
-
 > 
   ```
   .SYNOPSIS
 
   ```
-
+>
   ```
   This is a PowerShell script to set Microsoft as the audio conferencing provider of a set of users. It's required for applicable users to have a valid PSTN Conferencing license assigned before their provider is changed.
   ```
-
 > 
   ```
   .DESCRIPTION
   ```
-
 > 
   ```
   This is a PowerShell script to set Microsoft as the audio conferencing provider of a set of users. It's required for applicable users to have a valid PSTN Conferencing license assigned before their provider is changed.
   ```
-
 > 
   ```
   .EXAMPLE
   ```
-
 > 
   ```
   ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
-
 > 
   ```
   ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
-
 > 
   ```
   ./Script.ps1 -ACPProviderName ""Intercall""
   ```
-
 > 
   ```
   #>
   ```
-
 > 
   ```
   param (
   ```
-
 > 
   ```
   [Parameter(Mandatory = $true, ParameterSetName = "CsvFile")]
   ```
-
 > 
   ```
    [string]$CsvFile,
   ```
-
 > 
   ```
    [Parameter(Mandatory = $true, ParameterSetName = "UserList")]
   ```
-
 > 
   ```
    [string]$UserList,
   ```
-
 > 
   ```
    [Parameter(Mandatory = $true, ParameterSetName = "ACPProviderName")]
   ```
-
 > 
   ```
   [string]$ACPProviderName
   ```
-
 > 
   ```
   )
   ```
-
 > 
   ```
   if ($CsvFile)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   if(!(Test-Path $CsvFile))
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   Write-Error "File does not exist."
   ```
-
 > 
   ```
   Exit
   ```
-
 > 
   ```
    }
   ```
-
 > 
   ```
   $users = Get-Content $CsvFile
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   if ($UserList)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   $users = $UserList.Split(",")
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   if ($ACPProviderName)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   $supportedACPProviders = Get-csAudioConferencingProvider
   ```
-
 > 
   ```
   $providerNameMatch = $supportedACPProviders | ?{$_.Identity -eq $ACPProviderName}
   ```
-
 > 
   ```
   if ($providerNameMatch -eq $null)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   Write-Host "The provider name is not from a supported provider, please use any of the following values: "
   ```
-
 > 
   ```
   $supportedACPProviders      | %{$_.Identity}
   ```
-
 > 
   ```
   return
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   $allUsersInTenant = Get-csOnlineUser
   ```
-
 > 
   ```
   $users =  $allUsersInTenant | ?{$_.AcpInfo -ne $null -and $_.ACPInfo.Name -eq $ACPProviderName}
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   Write-Host "Number of users to have their audio conferencing provider set to Microsoft: " $users.counts
   ```
-
 > 
   ```
   foreach ($user in $users)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   if ($CsvFile -or $UserList)
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   try
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   $adUser = Get-csOnlineUser -Identity $user
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   catch
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   Write-Error "There was an exception while retrieving user: $user. "   $error[0].Exception.Message
   ```
-
 > 
   ```
   Continue
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   else
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   $adUser = $user
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   if ($adUser -ne $null -and ($adUser.OnlineDialInConferencingPOlicy -ne $null))
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   if ($adUser.AcpInfo -eq $null -Or $adUser.AcpInfo.Name -ne "Microsoft")
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   try
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   $enableUser = Enable-CsOnlineDialInConferencingUser -Identity $adUser.ObjectId -Tenant $adUser.TenantId -ReplaceProvider
   ```
-
 > 
   ```
   Write-Host "The provider of $user has changed to Microsoft."
   ```
-
 > 
   ```
   $enableUser
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   catch
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   Write-Error "There was an exception while enabling user: $user. "  $error[0].Exception.Message
   ```
-
 > 
   ```
   continue;
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
    else
   ```
-
 > 
   ```
   {
   ```
-
 > 
   ```
   Write-Warning "The provider of $user is already set to Microsoft."
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   else
   ```
-
 > 
   ```
               {
   ```
-
 > 
   ```
   Write-Error "$user does not have valid Audio Conferencing license assigned."
   ```
-
 > 
   ```
   }
   ```
-
 > 
   ```
   }
