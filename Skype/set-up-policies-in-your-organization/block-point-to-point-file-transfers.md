@@ -17,9 +17,9 @@ In Skype for Business Online, you have ability to control Point-to-Point (P2P) f
   
  A very common scenario is when you want to allow internal users to use P2P file transfer but block file transfer with federated partners. For this scenario, you would need to do:
   
-- Assign a conferencing policy with P2P file transfer enabled ( _EnableP2PFileTransfer_ set to _True_) to users in your organization.
+- Assign a conferencing policy with P2P file transfer enabled (_EnableP2PFileTransfer_ set to _True_) to users in your organization.
     
-- Create aglobal external user communication policy set to block external P2P file transfers ( _EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
+- Create aglobal external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
     
 You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
@@ -42,7 +42,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
 1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
-2. Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.
+2. Check the version by typing _Get-Host_ in the **Windows PowerShell** window.
     
 3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
     
@@ -83,7 +83,7 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
 ## Disable P2P file transfers for your organization
 
-By default,  _EnableP2PFileTransfer_ is enabled on the organization's global policy. When it was created, your users were assigned the _BposSAllModality_ policy.
+By default, _EnableP2PFileTransfer_ is enabled on the organization's global policy. When it was created, your users were assigned the _BposSAllModality_ policy.
   
 > To allow P2P transfers for inside your organization but block external file transfers to another organization, you just need to change it at a global level. To do that, run:
     
@@ -111,7 +111,7 @@ By default,  _EnableP2PFileTransfer_ is enabled on the organization's global pol
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
