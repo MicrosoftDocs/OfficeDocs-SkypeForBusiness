@@ -16,7 +16,7 @@ description: "In addition to the standard Audio Conferencing per-user license, V
 
 In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations.
   
-You can find out if your [Countries and region availability for Audio Conferencing and Calling Plans](http://technet.microsoft.com/library/6ba72f37-d303-4795-aa8f-7e1845078ed7%28Office.14%29.aspx) for Audio Conferencing.
+You can find out if your [country/region is supported](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.
   
 > [!NOTE]
 > Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire licenses. 
@@ -32,15 +32,15 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 - Outbound calls placed to external phone numbers from within a meeting of your organization.
     
 > [!NOTE]
-> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in[Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
   
-Pay-per-minute requires your organization to have [What are Communications Credits?](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see[Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or[Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 To enable Audio Conferencing pay-per-minute for users in your organization, see [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
   
 ## Want to find out more about pricing?
 
- **Looking for prices?** See[How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:.
+ **Looking for prices?** See [How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
   
 - [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
