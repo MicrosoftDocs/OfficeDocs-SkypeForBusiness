@@ -2,14 +2,14 @@
   
 
 # [Skype for Business admin](skype-for-business-admin.md)
-## [Accessibility and regulatory](accessibility-and-regulatory/accessibility-and-regulatory.md)
+## [Accessibility and regulatory]
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
 ### [Accessibility solutions for Skype for Business Online in France](accessibility-and-regulatory/accessibility-solutions-for-skype-for-business-online-in-france.md)
 ### [Audio Conferencing complimentary dial-out period](accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 ### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](accessibility-and-regulatory/calling-plans-in-office-365code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](accessibility-and-regulatory/calling-plans-in-office-365complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Skype for Business and Microsoft Teams data collection practices](accessibility-and-regulatory/skype-for-business-and-microsoft-teams-data-collection-practices.md)
-## [Audio Conferencing in Office 365](audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)
+## [Audio Conferencing in Office 365]
 ### [Assign a third-party as the audio conferencing provider](audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
 ### [Assign Microsoft as the audio conferencing provider](audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
@@ -134,7 +134,7 @@
 ### [ExpressRoute and QoS in Skype for Business Online](optimizing-your-network-for-skype-for-business-online/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Media Quality and Network Connectivity Performance in Skype for Business Online](optimizing-your-network-for-skype-for-business-online/media-quality-and-network-connectivity-performance-in-skype-for-business-online.md)
 ### [Proxy Servers for Skype for Business Online](optimizing-your-network-for-skype-for-business-online/proxy-servers-for-skype-for-business-online.md)
-## [Set up policies in your organization](set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
+## [Set up policies in your organization]
 ### [Block Point-to-Point file transfers](set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Create custom external access policies](set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Retaining large files attached to a Skype for Business meeting](set-up-policies-in-your-organization/retaining-large-files-attached-to-a-skype-for-business-meeting.md)
@@ -259,7 +259,7 @@
 ### [Toll free dialing restrictions in Uruguay](skype-for-business-toll-free-number-limits-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 ### [Toll free dialing restrictions in Venezuela](skype-for-business-toll-free-number-limits-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 ### [Toll free dialing restrictions in Vietnam](skype-for-business-toll-free-number-limits-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
-## [Using Call Quality in your organization](using-call-quality-in-your-organization/using-call-quality-in-your-organization.md)
+## [Using Call Quality in your organization]
 ### [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md)
 ### [Set up Skype for Business Call Analytics](using-call-quality-in-your-organization/set-up-skype-for-business-call-analytics.md)
 ### [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md)
@@ -322,7 +322,7 @@
 ### [Your port order was accepted](what-are-calling-plans-in-office-365/your-port-order-was-accepted.md)
 ### [What phone service providers or carriers are supported?](what-are-calling-plans-in-office-365/what-phone-service-providers-or-carriers-are-supported.md)
 ### [What if I can't find the city or area code that I want?](what-are-calling-plans-in-office-365/what-if-i-can-t-find-the-city-or-area-code-that-i-want.md)
-## [What is Phone System in Office 365?](what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [What is Phone System in Office 365?]
 ### [Create a Phone System call queue](what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
