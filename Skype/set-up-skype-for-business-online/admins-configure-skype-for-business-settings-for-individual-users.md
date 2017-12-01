@@ -28,14 +28,14 @@ This article explains how admins configure Skype for Business for a small number
   
 To allow (or block) everyone in your business to communicate with external people, see:
   
-- [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md) : You can let your organization use advanced Skype for Business features (share desktops, look for who's online) to communicate with people in a specific trusted (federated) business. Also explains how to block communication with specific domains.
+- [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md): You can let your organization use advanced Skype for Business features (share desktops, look for who's online, etc.) to communicate with people in a specific trusted (federated) business. The article also explains how to block communication with specific domains.
     
-- [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) . You can let your organization use Skype for Business to search for and IM people who use Skype, the free app.
+- [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md). You can let your organization use Skype for Business to search for and IM people who use Skype, the free app.
     
 ## Configure general settings for one user
 <a name="__toc325019204"> </a>
 
-You must have [About Office 365 admin roles](http://technet.microsoft.com/library/da585eea-f576-4f55-a1e0-87090b6aaa9d%28Office.14%29.aspx) to perform these steps.
+You must have [admin permissions](about-office-365-admin-roles.md) to perform these steps.
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -57,7 +57,7 @@ You must have [About Office 365 admin roles](http://technet.microsoft.com/librar
 |:-----|:-----|
 |Audio and HD video  <br/> |Allow this person to record audio meetings, audio and video meetings, or don't allow them to schedule any meeetings (none).  <br/> |
 |Record conversations and meetings  <br/> |Choose what this person is allowed to record.  <br/> This option is not available with Skype for Business Basic.  <br/> |
-|For compliance, turn off non-archived features  <br/> | Choose this option if you're legally required to preserve electronically stored information. <br/>  Selecting this option turns off features that aren't captured when you have an[In-Place Hold](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) set up in in the Exchange admin center. It turns off the following features: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/> |
+|For compliance, turn off non-archived features  <br/> | Choose this option if you're legally required to preserve electronically stored information. <br/>  Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) set up in in the Exchange admin center. It turns off the following features: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/> |
    
 To configure these settings in bulk, use PowerShell. See [Managing policies in Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
@@ -66,7 +66,7 @@ To configure these settings in bulk, use PowerShell. See [Managing policies in S
 
 After you [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) for everyone in your company, you can selectively block external communications for specific individuals using these steps.
   
-1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Choose **External communications**, and then clear the options as appropriate:
     
@@ -81,7 +81,7 @@ To configure these settings in bulk, use PowerShell. See [Managing communication
 ## Edit audio conferencing settings for one user
 <a name="__toc314837483"> </a>
 
-1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Choose **Audio conferencing**, select your audio conferencing provider, type or change the requested information, and then click **Save**.
     
@@ -104,6 +104,8 @@ To configure these settings in bulk, use PowerShell. See [Set the Audio Conferen
 ## Related Topics
 <a name="__toc314837483"> </a>
 
-[Set up Skype for Business Online](set-up-skype-for-business-online.md)[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
+[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
 
