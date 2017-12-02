@@ -1,29 +1,29 @@
 ---
-title: Phones System with Calling Plans in Microsoft Teams
+title: Phone System with Calling Plans in Microsoft Teams
 author: LolaJacobsen
-ms.author: lolaj
-manager: serdar
+ms.author: arachman
+manager: lolaj
 ms.date: 12/07/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: teams
-description: Practical guidance for deploying Phones System with Calling Plans in Microsoft Teams.
+description: Practical guidance for deploying Phone System with Calling Plans in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Phones System with Calling Plans in Microsoft Teams
+Phone System with Calling Plans in Microsoft Teams
 ===================================================
 
 > [!IMPORTANT]
-> Phone System with Calling Plans in Teams is in public preview. It is available to all customers meeting the prerequisite Office 365 subscription plans and add-ons. Phone System with Calling Plans features and capabilities in Teams could change as additional features and capabilities are released.
+> Office 365 Phone System with Calling Plans in Teams is in public preview. It is available to all customers who have an Office 365 subscription that includes Teams. Phone System with Calling Plans features and capabilities in Teams could change as additional features and capabilities are released.
 
-Phone System is a feature within Office 365 that provides the ability to manage call routing, policies and user provisioning. This includes phone calling management system, call routing, and call control.
+Phone System is an Office 365 feature that provides the ability to manage call routing, policies, and user provisioning. This includes phone calling management system, call routing, and call control.
 
-Calling Plan is an add-on service for the Phone System feature, delivered through Microsoft Teams and Skype for Business Online. Calling Plans service provides the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the public switched telephone network (PSTN).
+Office 365 Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans provides the people in your business with a primary phone number and lets them make and receive phone calls outside of your organization over the public switched telephone network (PSTN).
 
-Here is what you get with [Phone System](https://support.office.com/en-us/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c?ui=en-US&rs=en-US&ad=US) feature in Office 365 and the [Calling Plans](https://support.office.com/en-us/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&rs=en-US&ad=US) add-on.
+To learn more, read [Here's what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
 > [!NOTE]
-> Calling Plans service supports both Microsoft Teams and Skype for Business Online. The existing Skype for Business Online Admin Center and remote PowerShell provide the administrative interfaces to manage Calling Plans.
+> Calling Plans supports both Teams and Skype for Business Online. To manage Calling Plans, use the Skype for Business Admin center and remote PowerShell commands..
 
 Envision <a name="Envision_PhoneSystemWithCallingPlans"> </a>
 ========
@@ -32,15 +32,15 @@ The Envision phase provides the foundation for the Office 365 customer journey a
 
 In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:
 
--   a high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.
+-   A high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.
 
--   and subsequently, a detailed Phone System with Calling Plans technical implementation plan to achieve the desired end state.
+-   A detailed Phone System with Calling Plans technical implementation plan to achieve the desired end state.
 
 
 Define business use cases for Phone System with Calling Plans
 -------------------------------------------------------------
 
-Phone System with Calling Plans allows organizations to modernize their workplace by enabling users to empower their personal computer and mobile devices to place and receive business-related phone calls.
+Phone System with Calling Plans allows organizations to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices.
 
 Workplace modernization can be part of activity-based working implementation, office moves, office fit-out refresh, retirement of legacy private branch exchange (PBX) solutions, conclusion of a PSTN service provider contract, etc.
 
@@ -48,20 +48,20 @@ In this step, core project stakeholders will define business use cases that supp
 
 Business use cases are meant to document expected, measurable business outcomes, and include the following:
 
--   Description of current business process.
+-   Description of current business process
 
--   Challenges with existing business process defined.
+-   Challenges with existing business process defined
 
--   How technology can help overcome these challenges.
+-   How technology can help overcome these challenges
 
--   The expected, measurable, business outcomes if these challenges are overcome.
+-   The expected, measurable business outcomes if these challenges are overcome
 
 <table>
 <tbody>
 <tr class="header">
 <th align="left"><p><img src="media/audio_conferencing_image2.png" /></p></th>
 <td align="left"><p><strong>Description of current business process</strong></p>
-<p>Standard fit out of Contoso’s office workspaces includes a desktop phone for every desk and each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones. </p></td>
+<p>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones. </p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
@@ -71,7 +71,7 @@ Business use cases are meant to document expected, measurable business outcomes,
 <tr class="even">
 <td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
 <td align="left"><p><strong>How technology can overcome these challenges</strong></p>
-<p>Phone System with Calling Plans service will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
+<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
