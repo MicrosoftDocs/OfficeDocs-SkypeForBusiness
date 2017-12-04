@@ -20,7 +20,7 @@ description: "Learn how to plan and deploy Skype for Business in small, medium, 
 
 # Deploy the Skype for Business client in Office 365
 
-This article explains options for how you, the **[Assign admin roles in Office 365 for business](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx)**, can deploy the Skype for Business app to the people in your organization.
+This article explains options for how you, the **[admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US)**, can deploy the Skype for Business app to the people in your organization.
   
 Before you deploy Skype for Business to your users, make sure you've done steps 1-3 in the article [Set up Skype for Business Online](set-up-skype-for-business-online.md). This way, Skype for Business will be set up with your domain, everyone will have their licenses, and you will have configured IM and [Configure presence in Skype for Business Online](configure-presence-in-skype-for-business-online.md) for your organization.
   
@@ -29,13 +29,13 @@ Before you deploy Skype for Business to your users, make sure you've done steps 
   
 ## For most small and medium-sized businesses
 
- **Step-by-step installation instructions:** If you have a small or medium-sized business, we recommend that you simply ask your users to install the Skype for Business app on their PC. Point them to these instructions:[Install Skype for Business](http://technet.microsoft.com/library/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb%28Office.14%29.aspx). If they are using Macs, point them to [Set up Lync for Mac 2011 for Office 365](http://technet.microsoft.com/library/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88%28Office.14%29.aspx). The Skype for Business app is installed separately from the rest of the Office apps.
+ **Step-by-step installation instructions:** If you have a small or medium-sized business, we recommend that you simply ask your users to install the Skype for Business app on their PC. Point them to these instructions: [Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb?ui=en-US&rs=en-US&ad=US). If they are using Macs, point them to [Set up Lync for Mac 2011 for Office 365](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88?ui=en-US&rs=en-US&ad=US). The Skype for Business app is installed separately from the rest of the Office apps.
   
  **Office 365 ProPlus customers:** If your business is using an Office 365 plan that includes Office 365 ProPlus, such as the E3 plan, the Skype for Business app is installed at the same time your users download and install Word, Excel, PowerPoint, etc. This also means they can't uninstall Skype for Business unless they uninstall all of Office.
   
 ### Choose whether to make Skype for Business available to your users
 
-As the [Assign admin roles in Office 365 for business](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx) you can choose whether to make the Skype for Business app available to your users.
+As the [admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US) you can choose whether to make the Skype for Business app available to your users.
   
 - **To control whether everyone in your company gets the software**: Sign in to the Office 365 admin center, go to **Install my software**, and then select the software you want to be available for users.
     
@@ -76,11 +76,11 @@ With Office 365, you have several options for deploying the Skype for Business a
     
 ### More info on using the Office Deployment Tool
 
-For details on downloading the Office Deployment Tool and more information on installing the Skype for Business app and other Office 365 client apps, see [Manage user software in Office 365](http://technet.microsoft.com/library/365-c13051e6-f75c-4737-bc0d-7685dcedf360.aspx).
+For details on downloading the Office Deployment Tool and more information on installing the Skype for Business app and other Office 365 client apps, see [Manage user software in Office 365](https://support.office.com/en-us/article/c13051e6-f75c-4737-bc0d-7685dcedf360).
   
 Here's an overview of the steps involved in using the Office Deployment Tool to deploy an app:
   
-1. **[Download the newest Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** from the Microsoft Download Center.
+1. **[Download the newest Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)** from the Microsoft Download Center.
     
 2. Create the configuration.xml file to be used with the Office Deployment Tool that has the client app settings you want, such as setting the version (32-bit or 64-bit), the installation language, etc.
     
