@@ -166,12 +166,13 @@ items:
     > For Office 365 Education, you can create [four different types of teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
 
     ### Calls and meetings
-    Disabling private meetings requires your users to select a channel to schedule their meeting. 
+    Allowing private meetings enables your users to not having to select a Team and Channel to schedule their meeting in. This will allow them to have smaller meetings. 
 
-    ![Screenshot of Meeting scheduling UI when private meetings is disabled.](media/EDU-QSG/ChannelMeetingsOnly.PNG)
+    ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/EDU-QSG/Private_Meetings_No_Channel.PNG)
 
-    
+    Ad-hoc channel meetup allows users to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conersation. 
 
+    ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/EDU-QSG/Compose_Box_Meet_Now.PNG)
 
     Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
     
