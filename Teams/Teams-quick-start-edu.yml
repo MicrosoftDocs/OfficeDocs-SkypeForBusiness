@@ -140,7 +140,7 @@ items:
     > [!NOTE]
     > You need to use the **Groups** control panel, because all Teams are built on top of Groups. 
 
-    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center. By default, Office 365 Groups creation is enabled, but can be restricted to specific useres\groups (ie. Faculty and Staff) through the use of PowerShell.
+    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center. By default, Office 365 Groups creation is enabled, but can be restricted to specific useres\groups (ie. Education - Faculty and Staff) through the use of PowerShell.
 
     To learn how to use PowerShell to control the permissions, and the types of licenses that are required to take advantage of these features, see [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e61).
 
@@ -186,31 +186,37 @@ items:
     > [!NOTE]
     > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
     
-    Having the ability to escalate from a private chat to an audio\video call is enabled by "Allow private calling". When in a private chat, the top right corner will show these options. 
+    Having the ability to escalate from a private 1:1 chat or group chat to an audio\video call is enabled by "Allow private calling". When in a chat, the top right corner will show these options. 
 
-    ![Screenshot of meeting controls.](media/EDU-QSG/Private_Chat_Audio_Video.PNG)
+    ![Screenshot of private chat audio video controls.](media/EDU-QSG/Private_Chat_Audio_Video.PNG)
 
 
     ### Messaging
-    As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen. You can also disable private chat and other messaging functions on the particular license type you are configuring. If you enable allow owners to delete messages for the faculty and staff License type, Teachers can become moderations of class discussions.
 
     ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/QS-edu-messaging.png)
 
-    To disable or enable Giphy's to allow users to add gifs to conversations, select **Off** or **On**, and then select **Save**.
-
-    When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within the Microsoft Teams in your institution. Content ratings include the following.
+    As a tenant admin, if your school is not comfortable in Fun content with GIFs, memes, and stickers you can always disable it for students in the **Messaging** section of the Microsoft Teams settings screen. These options will disappear from below the compose box, but our standard set of Emojis will still be avaiable for use. When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within the Microsoft Teams in your institution. Content ratings include the following.
 
     - Strict 
     - Moderate
     - Allow all content
+    
+    You can also disable private chat just between students, while allowing Faculty to have the ability of private chats. If you do disable chat, for users who don't have this functionality they will no longer see Chat along the left side. 
 
-    Additionally, you can enable or allow the following.
+    ![Screenshot of left rail without chat.](media/EDU-QSG/Left_Rail_Without_Chat.PNG)
 
-    - Memes that users can edit to add to conversations
-    - Stickers that users can edit to add to conversations
-    - Owners to delete all messages
-    - Users to delete their own messages
-    - Users to chat privately
+    When users who are enabled for chat try to start a conversation with a particants who aren't, they'll see a notification in the compose chat window indication "Adminsistrator has disabled chat for user"
+
+    ![Screenshot of unable to start chat with disabled participant.](media/EDU-QSG/Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
+
+    Enabling owners to delete messages is recommended across all license types, as this really helps with Channel chat moderations. 
+
+    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging in the wrong channel can be corrected. 
+
+    > [!NOTE]
+    > If you place a user's mailbox on Legal Hold, all edited\deleted messages will be logged. See [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for more information.
+
+
 
 - title: Distribute to clients
   durationInMinutes: 5
