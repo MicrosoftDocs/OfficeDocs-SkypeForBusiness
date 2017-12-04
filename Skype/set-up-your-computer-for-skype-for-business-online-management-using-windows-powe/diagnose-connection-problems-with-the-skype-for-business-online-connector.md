@@ -60,7 +60,7 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 Import-Module : The version of the loaded PowerShell is '2.0'. The module 'D:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnector.psd1' requires a minimum PowerShell version of '3.0' to execute. Please verify the installation of the PowerShell and try again.
 ```
 
-The only way to fix this problem is to install Windows PowerShell 3.0, which is available from the Microsoft Download Center at [http://www.microsoft.com/en-us/download/details.aspx?id=29939](http://www.microsoft.com/en-us/download/details.aspx?id=29939).
+The only way to fix this problem is to install Windows PowerShell 3.0, which is available from the Microsoft Download Center at [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 ## Failed to connect to Live ID Server
 <a name="BKMK_FailedConnect"> </a>
