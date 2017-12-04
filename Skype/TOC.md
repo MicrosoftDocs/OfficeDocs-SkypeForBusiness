@@ -16,7 +16,7 @@
 ### [Audio Conferencing supported languages](audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
 ### [Audio Conferencing troubleshooting and known issues](audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 ### [Change the settings for an Audio Conferencing bridge](audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Change the toll or toll free numbers on your Audio Conferencing bridge](audio-conferencing-in-office-365/change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md)
+### [Change the toll or toll-free numbers on your Audio Conferencing bridge](audio-conferencing-in-office-365/change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md)
 ### [Compare audio conferencing providers](audio-conferencing-in-office-365/compare-audio-conferencing-providers.md)
 ### [Dialing out from a meeting so other people can join it](audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
 ### [Emails that are automatically sent to users when their Audio Conferencing settings change](audio-conferencing-in-office-365/emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md)

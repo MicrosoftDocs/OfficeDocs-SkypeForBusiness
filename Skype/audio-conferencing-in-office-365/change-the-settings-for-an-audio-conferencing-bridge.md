@@ -52,7 +52,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 5. After you make your changes, click **Save**.
     
- **Set the PIN length for meetings**
+**Set the PIN length for meetings**
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -65,7 +65,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     > [!IMPORTANT]
     > The PIN must be between 4 and 12 digits. 
   
- **Select whether to send email to your users**
+**Select whether to send email to your users**
   
 1. Sign in to Office 365 with your work or school account.
     
