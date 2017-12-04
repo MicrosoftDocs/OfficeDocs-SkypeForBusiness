@@ -25,7 +25,7 @@ When you set up Audio Conferencing for Skype for Business and Microsoft Teams, y
   
 Audio conferencing providers do the following: 
   
-- Provide an  *audio conferencing bridge*  . The conferencing bridge will set dial-in phone numbers, PINs, and conference IDs for meetings.
+- Provide an *audio conferencing bridge*. The conferencing bridge will set dial-in phone numbers, PINs, and conference IDs for meetings.
     
 - Give toll, toll-free, and international phone numbers that users will dial in to. These are the phone numbers included in the meeting invite.
     
@@ -41,7 +41,7 @@ Use the following table to compare what you get if you choose Microsoft or a thi
 |:-----|:-----|:-----|
 |**Feature** <br/> |**Microsoft (Office 365)** <br/> |**Third-party** <br/> |
 |Provider setup  <br/> |Easy to set up. Most settings are automatic.  <br/> |Difficult to set up; requires manual steps  <br/> |
-|Licensing  <br/> |An **Audio Conferencing** license is required. See[Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> |No license, but you still pay per user  <br/> |
+|Licensing  <br/> |An **Audio Conferencing** license is required. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).  <br/> |No license, but you still pay per user  <br/> |
 |Management  <br/> |Integrated into the Office 365 admin center.  <br/> |Manual management with third party  <br/> |
 |User setup  <br/> |Easy  <br/> |Difficult  <br/> |
 |Billing  <br/> |Through Office 365  <br/> | Additional, through the third party <br/> |

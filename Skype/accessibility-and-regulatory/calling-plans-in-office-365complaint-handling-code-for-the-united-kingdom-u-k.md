@@ -47,7 +47,7 @@ The steps for referring a complaint to Ombudsman Services can be found on the Om
   
 You may reach Ombudsman Services by filling out a contact form on the Ombudsman Services' website or by phone, letter, or email:
   
-- Contact Form: [https://www.ombudsman-services.org/about-us/contact-us.html](https://www.ombudsman-services.org/about-us/contact-us.mdl)
+- Contact Form: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Phone: 0330 440 1614
     

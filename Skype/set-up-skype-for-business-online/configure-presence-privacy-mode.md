@@ -27,7 +27,7 @@ The Skype for Business Online presence setting gives people more control over wh
     
 2. Under **Presence privacy mode**, choose the setting, and then click **Save**.
     
-|****Setting****|****Who can view a user's presence****|
+|**Setting**|**Who can view a user's presence**|
 |:-----|:-----|
 |**Automatically display presence information** <br/> |Any Skype for Business user who does not belong to the **External** or **Blocked** privacy group. <br/> |
 |**Display presence information only to a user's contacts** <br/> |Anyone in a user's contact list who does not belong to the **External** or **Blocked** privacy group. <br/> Individual users can change this setting in the Skype for Business **Options** dialog box. <br/> |
