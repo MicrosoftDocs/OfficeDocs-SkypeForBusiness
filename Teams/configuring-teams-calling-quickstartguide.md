@@ -35,7 +35,6 @@ To enable Teams to begin receiving calls, you will need to update `TeamsInteropP
 
 ##Default policy
 Teams has a default policy configuration designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling in Teams. This ensures that there are no unintended interruptions in voice service as you start to trial and deploy Teams.
-from Teams.
 
 `TeamsInteropPolicy` has the following default configuration:
 
@@ -54,7 +53,7 @@ The behaviors of the default configuration are the following:
 ###How to configure Teams to use the default policy
 By default, global `TeamsInteropPolicy` is applied to all users in your tenant, and it is configured with the default settings as described above. If for some reason you have granted different policies to your users and would like to revert to the default setting, you will need to apply the global [`TeamsInteropPolicy`](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps) via Skype for Business remote Windows PowerShell session:
 
-    PS C:\> Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
 
 ##Configuring Teams to receive inbound PSTN calls
 To receive inbound PSTN calls in Teams, you will need to configure Teams as the default calling application by applying `TeamsInteropPolicy` with `CallingDefaultClient` parameter set to Teams.
@@ -76,7 +75,7 @@ The behaviors of the policy above are the following:
 ###How to configure Teams to receive VoIP and PSTN calls
 Apply the [`TeamsInteropPolicy`](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps) as described above via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
 
-    PS C:\> Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ##Configuring Teams to allow users to change their preferred calling experience
 To let users to make their own decision over the preferred calling experience, whether to receive calls in Teams or Skype for Business, you need to create a custom `TeamsInteropPolicy` that enables `AllowEndUserClientOverride` parameter.
@@ -98,6 +97,6 @@ Once this custom policy is applied to the users, the option to change the prefer
 ###How to create and apply the custom TeamsInteropPolicy
 To create the custom [`TeamsInteropPolicy`](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps) as described above via Skype for Business remote Windows PowerShell session, perform the following:
 
-    PS C:\> New-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
+    New-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
 
-    PS C:\> Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
+    Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
