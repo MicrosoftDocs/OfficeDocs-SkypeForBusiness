@@ -38,7 +38,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
 |Minutes available for Calling Plans  <br/> |1200 domestic minutes or 600 international minutes (whichever is reached first per calendar month).  <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including[Users can make outbound calls to these countries and regions](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## Toll and toll-free numbers for services
 
@@ -48,7 +48,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
- If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendant, and Call queues, see[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md).
+ If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendant, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md).
   
 ## Communications Credits
 

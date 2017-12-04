@@ -23,7 +23,7 @@ As the meeting organizer, you can dial out using a Skype for Business or Microso
 - You can dial-out only if you join a meeting using a Skype for Business or Microsoft Teams app.
     
 - You as the meeting organizer have been enabled for audio conferencing.
-    
+
  **Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
@@ -46,5 +46,5 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 
 #### Other Resources
 
-[Install Skype for Business](http://technet.microsoft.com/library/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb%28Office.14%29.aspx)
+[Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 
