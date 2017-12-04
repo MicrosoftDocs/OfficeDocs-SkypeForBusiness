@@ -33,7 +33,7 @@ If a Skype for Business representative is unable to resolve the issue immediatel
   
 Skype for Business aims to resolve all complaints related to the Service within seven (7) business days of receipt. 
   
-If you are unhappy with the manner in which your complaint regarding the Service is managed, you may ask the Skype for Business representative handling your complaint, by phone or e-mail, to escalate the complaint to in accordance with your service agreement. Microsoft will evaluate the complaint within seven (7) days of receipt.
+If you are unhappy with the manner in which your complaint regarding the Service is managed, you may ask the Skype for Business representative handling your complaint, by phone or email, to escalate the complaint to in accordance with your service agreement. Microsoft will evaluate the complaint within seven (7) days of receipt.
   
 ## Alternative dispute resolution
 
@@ -45,9 +45,9 @@ All complaints must be sent to Ombudsman Services within twelve (12) months of f
   
 The steps for referring a complaint to Ombudsman Services can be found on the Ombudsman Services' [website](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
   
-You may reach Ombudsman Services by filling out a contact form on the Ombudsman Services' website or by phone, letter, or e-mail:
+You may reach Ombudsman Services by filling out a contact form on the Ombudsman Services' website or by phone, letter, or email:
   
-- Contact Form: [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- Contact Form: [https://www.ombudsman-services.org/about-us/contact-us.html](https://www.ombudsman-services.org/about-us/contact-us.mdl)
     
 - Phone: 0330 440 1614
     
