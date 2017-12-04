@@ -13,7 +13,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Configuring Calling Plans in Microsoft Teams Quick Start Guide
 ==============================================================
 
-We have provided this quick start guide so that you can get an initial set of users up and running to explore the exciting features of Phone System with Calling Plans in Microsoft Teams.
+We have provided this quick start guide so that you can get an initial set of users up and running to explore the exciting features of Calling Plans in Microsoft Teams.
 
 > [!NOTE]
 > We do recommend that in parallel to following this guide, you engage with our [practical guidance](https://docs.microsoft.com/en-us/MicrosoftTeams/phone-system-with-calling-plans), and [Fast Track and Partners](https://aka.ms/cloudvoide) to plan and drive your successful wider rollout.
