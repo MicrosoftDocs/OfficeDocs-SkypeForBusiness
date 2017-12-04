@@ -17,10 +17,10 @@ The following Office 365 subscriptions enable users for Teams:
 
 |Small Business Plans  |Enterprise Plans  |Education Plans  |
 |---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 for Education         |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 for Education Plus         |
-|     |Office 365 Enterprise E4 (retired)         |Office 365 for Education E3 (retired)         |
-|     |Office 365 Enterprise E5         |Office 365 for Education E5   
+|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 Education         |
+|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |
+|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |
+|     |Office 365 Enterprise E5         |Office 365 Education E5   
       |Office 365 Enterprise F1 |  |
 
 > [!NOTE]
