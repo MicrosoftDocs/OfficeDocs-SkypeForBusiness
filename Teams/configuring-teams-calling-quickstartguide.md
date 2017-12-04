@@ -35,7 +35,6 @@ To enable Teams to begin receiving calls, you will need to update `TeamsInteropP
 
 ##Default policy
 Teams has a default policy configuration designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling in Teams. This ensures that there are no unintended interruptions in voice service as you start to trial and deploy Teams.
-from Teams.
 
 `TeamsInteropPolicy` has the following default configuration:
 
