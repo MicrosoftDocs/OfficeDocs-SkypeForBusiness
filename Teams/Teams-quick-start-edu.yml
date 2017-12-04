@@ -1,8 +1,8 @@
 ### YamlMime:YamlDocument
 documentType: Tutorial
-title: Deploy Microsoft Teams for Education Quick Start
+title: Deploy Microsoft Teams in Office 365 Education Quick Start
 metadata:
-  title: Deploy Microsoft Teams for Education Quick Start
+  title: Deploy Microsoft Teams in Office 365 Education Quick Start
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
@@ -166,7 +166,12 @@ items:
     > For Office 365 Education, you can create [four different types of teams](https://support.office.com/en-us/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
 
     ### Calls and meetings
+
+    ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+
     Allowing private meetings enables your users to not having to select a Team and Channel to schedule their meeting in. This will allow them to have smaller meetings. 
+
+    Allowing scheduling for channel Meetings will allow users select a Team and Channel where the meeting will be hosted. This allows anyone interested in the meeting from that Team to join without needing an explicit invite. 
 
     ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/EDU-QSG/Private_Meetings_No_Channel.PNG)
 
@@ -174,9 +179,17 @@ items:
 
     ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/EDU-QSG/Compose_Box_Meet_Now.PNG)
 
-    Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions. The **Calls and Meetings** section lets you choose if users will be allowed to use video or screen sharing during meetings.
+    Meeting options such as "Allow videos in meetings" and "Allow screen sharing in meetings" will enhance the meeting experience by allowing the face to face communication and the ability to share what you see on your screen. When these options are enabled, users will be able to toggle video and screen sharing from within the meeting. 
     
-    ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+    ![Screenshot of meeting controls.](media/EDU-QSG/In_Meeting_Controls.PNG)
+    
+    > [!NOTE]
+    > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
+    
+    Having the ability to escalate from a private chat to an audio\video call is enabled by "Allow private calling". When in a private chat, the top right corner will show these options. 
+
+    ![Screenshot of meeting controls.](media/EDU-QSG/Private_Chat_Audio_Video.PNG)
+
 
     ### Messaging
     As a tenant admin, you can turn on or turn off media content such as GIFs, memes, and stickers in the **Messaging** section of the Microsoft Teams settings screen. You can also disable private chat and other messaging functions on the particular license type you are configuring. If you enable allow owners to delete messages for the faculty and staff License type, Teachers can become moderations of class discussions.
