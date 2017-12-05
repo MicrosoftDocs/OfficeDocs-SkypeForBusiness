@@ -49,7 +49,7 @@
 ### [Availability in Belarus](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ### [Availability in Belgium](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
 ### [Availability in Belize](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
-### [Availability in Bosnia &amp; Herzegovina](countries-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
+### [Availability in Bosnia and Herzegovina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md)
 ### [Availability in Brazil](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md)
 ### [Availability in Brunei](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ### [Availability in Bulgaria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
