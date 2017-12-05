@@ -297,7 +297,7 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 >|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
 
 >_Your Communications Credits planning numbers can be documented as the following:_
-
+>
 >|         |         |
 >|---------|---------|
 >|Initial amount|$ 1,000|
@@ -330,79 +330,21 @@ When you are configuring phone numbers for Calling Plans, it is required that an
 In addition to validated emergency address, emergency locations can be defined and associated with validated emergency address to give a more exact location within an address. An emergency location is typically building number, floor, building wing, or office number where the user is located.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide how phone numbers will be obtained for user locations or offices in-scope for the Calling Plans implementation (obtain from Microsoft or transfer existing phone numbers)</li>
-<li>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Calling Plans implementation.</li>
-<li>Decide the granularity of emergency locations information to be collected for user locations or offices in-scope for the Calling Plans implementation.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation.</li>
-<li>If applicable, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">the New Telephone Number Request form</a>, one form for each location or office</li>
-<li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly.</li>
-<li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide how phone numbers will be obtained for user locations or offices in-scope for the Calling Plans implementation (obtain from Microsoft or transfer existing phone numbers)</li><li>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Calling Plans implementation</li><li>Decide the granularity of emergency locations information to be collected for user locations or offices in-scope for the Calling Plans implementation</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation</li><li>If applicable, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">the New Telephone Number Request form</a>, one form for each location or office</li><li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly</li><li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation</li></ul>|
 
-<br>
 > _The details of phone number acquisition, phone numbers, and emergency location details can be documented using the following template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Emergency Location and Address</th>
-<th align="left">Phone Number Acquisition</th>
-<th align="left">Phone Number</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">1034/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0034</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">1023/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0065</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">1023/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0023</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Emergency Location and Address  |Phone Number Acquisition  |Phone Number  |
+>|---------|---------|---------|---------|
+>|Emily Braun|1034/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0034|
+>|Lidia Holloway|1023/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0065|
+>|Pradeep Gupta|1023/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0023|
+>|Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
+>|Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
+>|Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
 
 > [!NOTE]
 > Reminder, the example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.
