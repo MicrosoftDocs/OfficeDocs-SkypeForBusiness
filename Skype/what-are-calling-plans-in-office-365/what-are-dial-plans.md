@@ -120,8 +120,6 @@ The following table shows sample normalization rules that are written as .NET Fr
   
 The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
   
-||
-|:-----|
 |**Redmond dial plan** <br/> |
 |5digitExtension  <br/> |
 |7digitcallingRedmond  <br/> |
@@ -131,7 +129,7 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 > [!NOTE]
 > The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid. 
   
-## Related Topics
+## See also
 
 [Create and manage dial plans](create-and-manage-dial-plans.md)
   

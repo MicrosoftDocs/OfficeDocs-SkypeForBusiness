@@ -25,12 +25,5 @@ When you set up Calling Plans in Office 365, you will need to assign a phone num
 Validating a street or civic address involves making sure that it is correct and also correctly formatted. It is possible that a partially correct emergency address, such as a mistyped name of the city, may pass still pass validation. The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center. If so, it will be returned as validated and can then be assigned to a phone number.
   
 ## See also
-
-#### Other Resources
-
 [Set up Calling Plans](set-up-calling-plans.md)
-  
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-

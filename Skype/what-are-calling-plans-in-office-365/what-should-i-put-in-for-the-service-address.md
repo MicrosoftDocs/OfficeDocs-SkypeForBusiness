@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet
 ms.assetid: b7bcf334-1dc6-4fd7-8145-f89ce695fca0
-description: "Learn what your service address is, how it differes from your billing address, and where you can find it. "
+description: "Learn what your service address is, how it differs from your billing address, and where you can find it. "
 ---
 
 # What should I put in for the service address?
@@ -25,8 +25,5 @@ The service address is different from the billing or emergency address that you 
 ## See also
 
 #### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
