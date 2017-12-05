@@ -1,5 +1,5 @@
 ---
-title: "Countries and region availability for Audio Conferencing and Calling Plans"
+title: "Country and region availability for Audio Conferencing and Calling Plans"
 ms.author: tonysmit
 author: tonysmit
 ms.date: 11/22/2017
@@ -17,10 +17,96 @@ You can select a country/region to see if Audio Conferencing, Phone System, Call
   
 You can see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) for more information on licensing.
   
-## Select your country/region to see what's available
+## Select your country or region to see what's available for you!
 
-Insert !Include statement here
-  
+> [!div class="op_single_selector"]    
+> - [Argentina](availability-in-argentina.md)
+> - [Australia](availability-in-australia.md)
+> - [Austria](availability-in-austria.md)
+> - [Bahrain](availability-in-bahrain.md)
+> - [Belarus](availability-in-belarus.md)
+> - [Belgium](availability-in-belgium.md)
+> - [Belize](availability-in-belize.md)
+> - [Bosnia and Herzegovina](availability-in-bosniaherzegovina.md)
+> - [Brazil](availability-in-brazil.md)
+> - [Brunei](availability-in-brunei.md)
+> - [Bulgaria](availability-in-bulgaria.md)
+> - [Canada](availability-in-canada.md)
+> - [Chile](availability-in-chile.md)
+> - [China](availability-in-china.md)
+> - [Columbia](availability-in-columbia.md)
+> - [Costa Rica](availability-in-costa-rica.md)
+> - [Croatia](availability-in-croatia.md)
+> - [Cyprus](availability-in-cyprus.md)
+> - [Czech Republic](availability-in-the-czech-republic.md)
+> - [Denmark](availability-in-denmark.md)
+> - [Dominican Republic](availability-in-the-dominican-republic.md)
+> - [Ecuador](availability-in-ecuador.md)
+> - [Egypt](availability-in-egypt.md)
+> - [El Salvador](availability-in-el-salvador.md)
+> - [Estonia](availability-in-estonia.md)
+> - [Finland](availability-in-finland.md)
+> - [France](availability-in-france.md)
+> - [Georgia](availability-in-georgia.md)
+> - [Germany](availability-in-germany.md)
+> - [Greece](availability-in-greece.md)
+> - [Honduras](availability-in-honduras.md)
+> - [Hong Kong](availability-in-hong-kong.md)
+> - [Hungary](availability-in-hungary.md)
+> - [India](availability-in-india.md)
+> - [Indonesia](availability-in-indonesia.md)
+> - [Ireland](availability-in-ireland.md)
+> - [Israel](availability-in-israel.md)
+> - [Italy](availability-in-italy.md)
+> - [Japan](availability-in-japan.md)
+> - [Jordan](availability-in-jordan.md)
+> - [Kenya](availability-in-kenya.md)
+> - [Latvia](availability-in-latvia.md)
+> - [Lithuania](availability-in-lithuania.md)
+> - [Luxembourg](availability-in-luxembourg.md)
+> - [Macedonia](availability-in-macedonia.md)
+> - [Malaysia](availability-in-malaysia.md)
+> - [Malta](availability-in-malta.md)
+> - [Mexico](availability-in-mexico.md)
+> - [Moldova](availability-in-moldova.md)
+> - [Monaco](availability-in-monaco.md)
+> - [Netherlands](availability-in-the-netherlands.md)
+> - [New Zealand](availability-in-new-zealand.md)
+> - [Norway](availability-in-norway.md)
+> - [Pakistan](availability-in-pakistan.md)
+> - [Panama](availability-in-panama.md)
+> - [Paraguay](availability-in-paraguay.md)
+> - [Peru](availability-in-peru.md)
+> - [Philippines](availability-in-the-philippines.md)
+> - [Poland](availability-in-poland.md)
+> - [Portugal](availability-in-portugal.md)
+> - [Puerto Rico](availability-in-puerto-rico.md)
+> - [Qatar](availability-in-qatar.md)
+> - [Romania](availability-in-romania.md)
+> - [Russia](availability-in-russia.md)
+> - [Saudi Arabia](availability-in-saudi-arabia.md)
+> - [Serbia](availability-in-serbia.md)
+> - [Singapore](availability-in-singapore.md)
+> - [Slovakia](availability-in-slovakia.md)
+> - [Slovenia](availability-in-slovenia.md)
+> - [South Africa](availability-in-south-africa.md)
+> - [South Korea](availability-in-south-korea.md)
+> - [Spain](availability-in-spain.md)
+> - [Sri Lanka](availability-in-sri-lanka.md)
+> - [Sweden](availability-in-sweden.md)
+> - [Switzerland](availability-in-switzerland.md)
+> - [Taiwan](availability-in-taiwan.md)
+> - [Thailand](availability-in-thailand.md)
+> - [Trinidad and Tobago](availability-in-trinidad-and-tobago.md)
+> - [Turkey](availability-in-turkey.md)
+> - [Ukraine](availability-in-the-ukraine.md)
+> - [United Arab Emirates (UAE)](availability-in-the-united-arab-emirates-uae.md)
+> - [United Kingdom](availability-in-the-united-kingdom-u-k.md)
+> - [United States](availability-in-the-united-states-u-s.md)
+> - [Uruguay](availability-in-uruguay.md)
+> - [Venezuela](availability-in-venezuela.md)
+> - [Vietnam](availability-in-vietnam.md)
+
 ## Want to learn a little bit more about these services?
 
 ### Audio Conferencing
