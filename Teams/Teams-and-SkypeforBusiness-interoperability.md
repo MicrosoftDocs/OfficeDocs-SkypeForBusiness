@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams and Skype for Business Interoperability
-author: AgusRachman
+author: arachmanGitHub
 ms.author: arachman
 manager: lehewe
 ms.date: 12/07/2017
 ms.topic: article
 ms.prod: msteams
-description: Learn the interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
+description: Understand the interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
 ---
 
 Microsoft Teams and Skype for Business Interoperability
@@ -14,11 +14,11 @@ Microsoft Teams and Skype for Business Interoperability
 
 If your organization uses Skype for Business today and you intend to start using Teams, it is important to understand how the two applications can be configured to interoperate.
 
-Interoperability (or interop for short), enables Skype for Business and Teams users to chat and call with one another, ensuring that communications remain fluid across your organization. To help IT Pros manage the adoption of Teams, a new `TeamsInteropPolicy` has been added to configure Teams the way you need it to work in your organization.
+Interoperability (or interop for short), enables Skype for Business and Teams users to chat and call with one another, ensuring that communications remain fluid across your organization. To help IT Pros manage the adoption of Teams, a new Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets, has been added to configure Teams the way you need it to work in your organization.
 
-`TeamsInteropPolicy` enables IT Pros to designate a user’s preferred application for receiving chats and calls. It can be configured to keep communications in Teams and Skype for Business siloed, or it can be configured to enable users to communicate across application boundaries.
+Teams interop policy enables IT Pros to designate a user’s preferred application for receiving chats and calls. It can be configured to keep communications in Teams and Skype for Business siloed, or it can be configured to enable users to communicate across application boundaries.
 
-`TeamsInteropPolicy` can be defined at the tenant or per-user level, and can even be configured to enable users to choose what application they would like to use to receive their chats and calls.
+Teams interop policy can be defined at the tenant or per-user level, and can even be configured to enable users to choose what application they would like to use to receive their chats and calls.
 
 This built-in flexibility is intended to help your organization trial, evaluate, and migrate to Teams at the pace and in the manner that is best suited to your organization.
 
@@ -33,13 +33,13 @@ As organizations begin the journey from Skype for Business to Teams, the expecta
 To ensure continued productivity, Teams provides the ability for users to communicate with one another regardless of the application they use (Teams or Skype for Business).
 
 Supported interop experiences include the following:
-- Skype for Business users that do not use Teams can chat with Teams users, vice versa
+- Skype for Business users that do not use Teams can chat with Teams users, vice versa<p>
 ![Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png)
-- Skype for Business users can call Teams users over voice and video, vice versa. Advanced calling options, such as call transfer and call forwarding will continue to work, even for interop calls.
+- Skype for Business users can call Teams users over voice and video, vice versa. Advanced calling options, such as call transfer and call forwarding will continue to work, even for interop calls.<p>
 ![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png)
 
 > [!NOTE]
-> From a Skype for Business user point of view, chats and calls from Teams will appear as regular SKype for Business chats and calls.
+> From a Skype for Business user point of view, chats and calls from/to Teams will appear as regular Skype for Business chats and calls.
 
 > [!IMPORTANT]
 > Unified presence between Teams and Skype for Business is currently not supported, which means Teams and Skype for Business will show their own independent presence states. To find out when support for unified presence is going to be available, review [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
@@ -90,13 +90,12 @@ For calling interop, the following are the current list of limitations:
 - Escalation of ongoing peer to peer (P2P) voice and video call to multi-party call involving Teams and Skype for Business users is not supported
 
 # Managing interoperability
-To manage the interoperability between Teams and Skype for Business, a new policy called `TeamsInteropPolicy` can be utilized to control where to send chats and route calls, Teams or Skype for Business, and this policy can be configured for all users in the organization (global policy) or applied at the per user basis.
+To manage the interoperability between Teams and Skype for Business, a new policy called Teams interop policy can be utilized to control where to send chats and route calls, Teams or Skype for Business, and this policy can be configured for all users in the organization (global policy) or applied at the per user basis, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets.
 
 By default, this policy is configured to ensure that Teams and Skype for Business can be used side-by-side with minimal interop between them. This approach is intended to ensure that current business processes and communications within your organizations are not disrupted as a result of Teams adoption.
 
 ## Interop policy overview
-`TeamsInteropPolicy` consists of the following parameters:
-
+Teams interop policy consists of the following parameters:
 
 |Parameter                    |Possible values      |Description  |
 |-----------------------------|---------------------|---------|
@@ -115,7 +114,6 @@ The `CallingDefaultClient` parameter defines how calls are routed between Teams 
 
 Below is the detailed explanation of how each setting of this parameter influences Teams and Skype for Business client behavior.
 
-
 |Caller calling from  |Setting: Default; call received on  |Setting: Teams; call received on  |Setting: SfB; call received on  |
 |---------|---------|---------|---------|
 |**Skype for Business**     |Skype for Business         |Teams        |Skype for Business         |
@@ -124,7 +122,7 @@ Below is the detailed explanation of how each setting of this parameter influenc
 |**Federated Skype for Business**     |Skype for Business         |Skype for Business         |Skype for Business         |
 
 > [!IMPORTANT]
-> Changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business 3PIP phones. Incoming calls will not be received on the phones and will only ring Teams clients.
+> Changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients.
 
 ### Allowing user choice
 The `AllowEndUserClientOverride` parameter accepts Boolean value (**TRUE** or **FALSE**), and when it is set to **TRUE**, Teams will allow users to select where they want to receive their calls--Teams or Skype for Business, and users will be able to change their primary application at any time.
@@ -134,10 +132,10 @@ The `AllowEndUserClientOverride` parameter accepts Boolean value (**TRUE** or **
 The global default value for this parameter is **FALSE**, thereby users will not be allowed to choose their primary application without intervention from administrator.
 
 ## Teams interop policy special cases
-When assigning `TeamsInteropPolicy`, users that remain homed at Skype for Business on-premises--in a mixed (Hybrid) deployment topology, users with Hybrid Voice (both through CCE or OPCH), and users with specialized Skype for Business workflows are considered special cases, and they require special attention on the policy assigned to them.
+When assigning Teams interop policy, users that remain homed at Skype for Business on-premises--in a mixed (Hybrid) deployment topology, users with Hybrid Voice (both through CCE or OPCH), and users with specialized Skype for Business workflows are considered special cases, and they require special attention on the policy assigned to them.
 
 ### Policy for Skype for Business on-premises users
-In a mixed (Hybrid) deployment topology, users homed on the Skype for Business on-premises should never have their policy set to Teams for either `ChatDefaultClient` and `CallingDefaultClient` parameters. If they do, they will be unable to receive chats and calls. Use the following policy definition for on-prem users:
+In a mixed (Hybrid) deployment topology, users homed at Skype for Business on-premises should never have their policy set to Teams for either `ChatDefaultClient` and `CallingDefaultClient` parameters. If they do, they will be unable to receive chats and calls. Use the following policy definition for on-prem users:
 
 |Parameter  |Value  |
 |---------|---------|
@@ -146,10 +144,10 @@ In a mixed (Hybrid) deployment topology, users homed on the Skype for Business o
 |`AllowEndUserClientOverride`     |False         |
 
 > [!IMPORTANT]
-> When moving users from Skype for Business Online to Skype for Business on-premises, or vice versa, you need to make sure the `TeamsInteropPolicy` assigned to the user is aligned with the behavior that needs to be enforced. Remember that on-premises users cannot be configured to use Teams as primary chat and calling application.
+> When moving users from Skype for Business Online to Skype for Business on-premises, or vice versa, you need to make sure the Teams interop policy assigned to the user is aligned with the behavior that needs to be enforced. Remember that on-premises users cannot be configured to use Teams as primary chat and calling application.
 
 ### Policy for Hybrid Voice users (CCE or OPCH)
-Skype for Business Online users enabled for Phone System with Hybrid Voice (through CCE or OPCH) cannot receive PSTN calls in Teams. When assigning `TeamsInteropPolicy` for Hybrid Voice users, use the following policy definition
+Skype for Business Online users enabled for Phone System with Hybrid Voice (through CCE or OPCH) cannot receive PSTN calls in Teams. When assigning Teams interop policy for Hybrid Voice users, use the following policy definition
 
 |Parameter  |Value  |
 |---------|---------|
