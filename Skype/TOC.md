@@ -197,7 +197,7 @@
 ### [Skype for Business PSTN minute pools report](skype-for-business-online-reporting/skype-for-business-pstn-minute-pools-report.md)
 ### [Skype for Business PSTN usage report](skype-for-business-online-reporting/skype-for-business-pstn-usage-report.md)
 ### [Skype for Business session details report](skype-for-business-online-reporting/skype-for-business-session-details-report.md)
-## [Skype for Business toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
+## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
 ### [Toll free dialing restrictions in Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 ### [Toll free dialing restrictions in Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 ### [Toll free dialing restrictions in Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
