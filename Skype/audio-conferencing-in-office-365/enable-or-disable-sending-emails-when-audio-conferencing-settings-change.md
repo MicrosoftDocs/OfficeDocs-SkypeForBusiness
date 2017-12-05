@@ -57,7 +57,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 4. Click **Save**.
     
     > [!TIP]
-    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**. > If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN. > See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md) for more information.
+    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md) for more information.
   
  **Using Windows PowerShell**
   
@@ -121,5 +121,5 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 
 #### Other Resources
 
-[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md.md)
 
