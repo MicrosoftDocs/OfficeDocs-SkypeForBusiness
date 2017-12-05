@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 7619d889-19c8-48b8-8203-7c25db67a0ce
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for South Africa."

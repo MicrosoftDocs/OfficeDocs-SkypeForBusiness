@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/25/2017
 ms.audience: Admin
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."

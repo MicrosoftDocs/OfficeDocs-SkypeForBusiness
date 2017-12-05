@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 6/22/2017
 ms.audience: Admin
 ms.topic: troubleshooting
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."

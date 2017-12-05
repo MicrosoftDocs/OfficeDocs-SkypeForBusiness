@@ -15,7 +15,7 @@ f1_keywords:
 - O365E_SFBVoiceCreditAether 
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether 
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection:
 - Adm_Skype4B_Online

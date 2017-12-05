@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
 description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business Session details report to see <insert>."

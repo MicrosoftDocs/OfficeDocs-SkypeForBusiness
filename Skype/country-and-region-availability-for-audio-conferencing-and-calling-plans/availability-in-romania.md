@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: b96cfc51-5fc2-47e1-b98d-d9a098793273
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Romania."

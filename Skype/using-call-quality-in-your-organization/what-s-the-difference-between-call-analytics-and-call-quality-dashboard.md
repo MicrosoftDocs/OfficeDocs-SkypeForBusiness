@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/31/2017
 ms.audience: Admin
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business."

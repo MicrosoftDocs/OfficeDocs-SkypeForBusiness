@@ -7,7 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.GetNewNumbers
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa

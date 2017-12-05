@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 description: "Conferencing is an important part of Skype for Business Online: conferencing enables groups of users to come together online to view slides and video, share applications, exchange files, and otherwise communicate and collaborate."

@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 69eefb76-7a86-4469-a1ac-5fab4a6a9dc8
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Slovenia."

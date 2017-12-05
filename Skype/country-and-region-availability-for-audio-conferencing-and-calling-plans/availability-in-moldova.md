@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Moldova."

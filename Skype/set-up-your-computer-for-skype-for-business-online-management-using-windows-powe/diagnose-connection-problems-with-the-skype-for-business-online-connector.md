@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 5/17/2017
 ms.audience: Admin
 ms.topic: troubleshooting
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416

@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Russia."

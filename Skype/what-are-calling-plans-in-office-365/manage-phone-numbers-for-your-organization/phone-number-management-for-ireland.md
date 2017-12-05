@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 description: "Use this table to find information on getting and managing phone numbers in Ireland for Skype for Business Online."

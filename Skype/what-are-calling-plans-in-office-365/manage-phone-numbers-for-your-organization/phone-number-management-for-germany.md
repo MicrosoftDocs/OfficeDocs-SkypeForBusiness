@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 description: "Use this table to find information on getting and managing phone numbers in Germany for Skype for Business Online."

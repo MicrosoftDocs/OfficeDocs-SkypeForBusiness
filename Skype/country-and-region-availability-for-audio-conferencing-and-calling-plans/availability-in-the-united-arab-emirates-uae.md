@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for United Arab Emirates."

@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b
 description: "Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:"

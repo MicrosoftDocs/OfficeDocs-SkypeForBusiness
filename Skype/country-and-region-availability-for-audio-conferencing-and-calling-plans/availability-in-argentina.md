@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/17/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 3050548b-dc73-4bac-b03b-ade6cb28704a
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Argentina."

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 9/21/2016
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet

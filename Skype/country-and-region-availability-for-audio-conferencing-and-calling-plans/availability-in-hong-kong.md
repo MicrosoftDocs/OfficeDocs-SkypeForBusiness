@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 6ca09632-073d-497d-8075-32518917cf81
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Hong Kong."

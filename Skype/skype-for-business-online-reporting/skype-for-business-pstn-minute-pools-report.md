@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 description: "The new Skype for Business Admin Center Reports area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the Skype for Business PSTN minute pools report to see the number of minutes consumed during the current month within your organization."

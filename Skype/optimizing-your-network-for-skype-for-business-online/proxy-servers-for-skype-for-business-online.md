@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/6/2017
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 description: "This article will help you with guidance about using a proxy server with Skype for Business."

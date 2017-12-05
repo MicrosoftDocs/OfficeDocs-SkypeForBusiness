@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 description: "The following are frequently asked questions about transferring phone numbers to Skype for Business. After reviewing the answers, you should be ready to create a port order and transfer your phone numbers. See Transfer phone numbers to Office 365 for instructions."

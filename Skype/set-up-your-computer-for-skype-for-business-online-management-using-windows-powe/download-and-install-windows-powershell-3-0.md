@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/3/2017
 ms.audience: Admin
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: LIL_Placement

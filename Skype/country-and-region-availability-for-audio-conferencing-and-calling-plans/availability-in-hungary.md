@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 66b75985-d7ba-4731-88d8-2d48719eb02c
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Hungary."

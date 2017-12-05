@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - O365P_DialInConfDesc
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection:
 - Adm_Skype4B_Online

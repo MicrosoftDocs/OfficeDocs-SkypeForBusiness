@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Australia."

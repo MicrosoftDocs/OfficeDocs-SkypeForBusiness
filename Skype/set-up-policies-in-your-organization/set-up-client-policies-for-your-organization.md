@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 0326b19f-4fd1-4b74-8791-df4c09a964b9
 description: "Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users."
