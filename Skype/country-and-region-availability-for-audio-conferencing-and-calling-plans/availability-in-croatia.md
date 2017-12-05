@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Croatia."

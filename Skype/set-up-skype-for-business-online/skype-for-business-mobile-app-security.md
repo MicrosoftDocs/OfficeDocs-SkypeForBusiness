@@ -5,7 +5,7 @@ author: kenwith
 ms.date: 3/21/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
 

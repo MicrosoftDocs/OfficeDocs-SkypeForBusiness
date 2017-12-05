@@ -7,7 +7,7 @@ ms.audience: Admin
 ms.topic: troubleshooting
 f1_keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
 description: "Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.)."

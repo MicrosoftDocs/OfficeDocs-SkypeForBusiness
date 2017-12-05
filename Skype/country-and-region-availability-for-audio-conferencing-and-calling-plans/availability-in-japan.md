@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 4057f7de-09cd-400e-a583-ca1c3caa7613
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Japan."

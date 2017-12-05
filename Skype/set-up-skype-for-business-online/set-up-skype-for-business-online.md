@@ -10,7 +10,7 @@ f1_keywords:
 - O365E_SkypeforBusinessON
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Priority
 ms.collection:
 - Adm_O365_CommTopIssues

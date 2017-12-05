@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/17/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
 description: "This feature is currently in preview and could change as it is released or updated."

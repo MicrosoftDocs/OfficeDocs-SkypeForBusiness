@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Lithuania."

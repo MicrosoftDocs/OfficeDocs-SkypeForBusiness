@@ -8,7 +8,7 @@ ms.topic: article
 f1_keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
@@ -32,15 +32,15 @@ If you need help with setting up your phone numbers for your organization, you c
 
 For service numbers, if the country or region is listed but there aren't service numbers available in the **Skype for Business admin center**, send us a new phone number request.
   
-- For service numbers in the United States, please [download](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for the U.S. %28Service numbers%29 (v.1) (en.US).pdf) and fill out the form then[send it to us](mailto:ptn@microsoft.com).
+- For service numbers in the United States, please [download](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for the U.S. %28Service numbers%29 (v.1) (en.US).pdf) and fill out the form then [send it to us](mailto:ptn@microsoft.com).
     
-- For service numbers outside of the United States, please [download](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for all countries except the U.S. %28Service numbers%29 (v.1) (en.US).pdf) and fill out the form then[send it to us](mailto:ptneu@microsoft.com).
+- For service numbers outside of the United States, please [download](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for all countries except the U.S. %28Service numbers%29 (v.1) (en.US).pdf) and fill out the form then [send it to us](mailto:ptneu@microsoft.com).
     
 ## User numbers
 For user (also called subscriber) numbers, if you want to see about getting numbers that aren't available in the **Skype for Business admin center** or if your are porting numbers over to Office 365, you can find the forms below. 
 
-Select the country or region to find the correct forms:
-[!div class="op_single_selector"]    
+### Select your country or region to see what's available for you!
+> [!div class="op_single_selector"]
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
@@ -50,10 +50,9 @@ Select the country or region to find the correct forms:
 > - [U.K.](phone-number-management-for-the-u-k.md)
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
     
-## Related Topics
+## See Also
 
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
   
-[Audio Conferencing complimentary dial-out period](../../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
   
 

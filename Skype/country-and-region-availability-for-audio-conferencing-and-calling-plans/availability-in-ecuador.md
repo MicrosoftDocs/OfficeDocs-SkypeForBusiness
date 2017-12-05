@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 93419ae6-1f3d-4182-83d1-afe02060fd6a
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Ecuador."

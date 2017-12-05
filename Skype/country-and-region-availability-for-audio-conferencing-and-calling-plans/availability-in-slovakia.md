@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Slovakia."

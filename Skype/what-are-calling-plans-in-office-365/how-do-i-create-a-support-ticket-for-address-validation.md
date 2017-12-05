@@ -7,7 +7,7 @@ ms.audience: End User
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 description: "Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services."

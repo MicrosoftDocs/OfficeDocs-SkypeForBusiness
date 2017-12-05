@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 0aa7cb59-7479-415b-83a8-f51e1437af5e
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Bulgaria."

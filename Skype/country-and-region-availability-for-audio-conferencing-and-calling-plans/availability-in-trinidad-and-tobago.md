@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Trinidad and Tobago."

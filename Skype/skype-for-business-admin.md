@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 9941e5c5-a5e3-45fa-ae40-41802e4d92aa
 description: "Learn how to manage Skype for Business Online for your organization."

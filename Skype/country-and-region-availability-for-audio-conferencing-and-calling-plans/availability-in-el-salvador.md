@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for El Salvador."

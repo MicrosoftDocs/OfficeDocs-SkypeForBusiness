@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Estonia."

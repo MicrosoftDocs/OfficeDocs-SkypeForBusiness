@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/27/2017
 ms.audience: Admin
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
