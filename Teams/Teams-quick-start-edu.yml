@@ -209,18 +209,22 @@ items:
 
     ![Screenshot of unable to start chat with disabled participant.](media/EDU-QSG/Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
 
+    > [!TIP]
+    > If you disable private chat for a set of users, they will not be able to leverage T-Bot for help content. All of T-Bot's content can be found on [Microsoft Teams help center](https://support.office.com/en-US/Teams), so be sure to give this as an adoption resource to users who are not enabled for private chat. 
+
     Enabling owners to delete messages is recommended across all license types, as this really helps with Channel chat moderations. 
 
-    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging in the wrong channel can be corrected. 
+    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redudant messages can be corrected. 
 
     > [!NOTE]
     > If you place a user's mailbox on Legal Hold, all edited\deleted messages will be logged. See [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for more information.
 
-
-
 - title: Distribute to clients
   durationInMinutes: 5
   content: |
+
+    Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality of each of these clients, check out our topic to [Get clients for Microsoft Teams](get-clients.md)
+
     The setup file for the Microsoft Teams client is an executable file that can be downloaded by administrators and end users from the [Microsoft Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
 
     End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store. 
@@ -237,9 +241,19 @@ items:
     TODO: Find out where to gather this information.
 
 
-- title: Feedback and support
+- title: Next Steps, Feedback, and support
   durationInMinutes: 2
   content: |
+
+    Adoption Content (Coming Soon):
+        - E-mail templates for getting started guides (Jan 2018)
+        - Quick start short videos for end users (Jan 2018)
+        - Internal social campaign templaces (Feb 2018)
+
+
+    Call to action:
+        - Check out our hands on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/)
+        - Enable Microsoft Teams Education in your [Admin Portal](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)
     
     [Send a suggestion](https://aka.ms/eduuservoice)
 
