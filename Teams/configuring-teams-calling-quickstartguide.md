@@ -1,7 +1,7 @@
 ---
 title: Configuring Calling Plans in Microsoft Teams Quick Start Guide
 author: arachmanGitHub
-ms.author: arachman
+ms.author: MyAdvisor
 manager: lehewe
 ms.date: 12/07/2017
 ms.topic: quick start guide
@@ -111,4 +111,4 @@ To create the custom Teams interop policy as described above via Skype for Busin
 
 [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
 
-[Plan, Deliver, Operate Phone System with Calling Plans in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+[Practical Guidance for Phone System with Calling Plans in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
