@@ -237,62 +237,20 @@ Calling Plans service is available in these [countries and regions](https://supp
 After confirming your organization’s eligibility for obtaining the Calling Plans add-on, compile the list of user locations or offices where Calling Plans service will be implemented based on the list of available countries and regions.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><p>Decide which user locations or offices where Calling Plans service will be implemented .</p></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><p>Document the user locations or offices to be enabled for Calling Plans service.</p></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide which user locations or offices where Calling Plans service will be implemented</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices to be enabled for Calling Plans service</li></ul>|
 
-<br>
 > _Below is an example of a Phone System with Calling Plans site enablement list template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Office</th>
-<th align="left">Location</th>
-<th align="left">Phone System Service</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">One Epping Road</td>
-<td align="left">Australia</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="even">
-<td align="left">100 Cyberport Road</td>
-<td align="left">Hong Kong SAR</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="odd">
-<td align="left">One Marina Boulevard</td>
-<td align="left">Singapore</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="even">
-<td align="left">32 London Bridge Street</td>
-<td align="left">United Kingdom</td>
-<td align="left">Phone System with Calling Plans</td>
-</tr>
-<tr class="odd">
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">France</td>
-<td align="left">Phone System with Calling Plans</td>
-</tr>
-</tbody>
-</table>
+>
+>|Office   |Location |Phone System Service  |
+>|---------|---------|---------|
+>|One Epping Road|Australia|Legacy PSTN service|
+>|100 Cyberport Road|Hong Kong SAR|Legacy PSTN service|
+>|One Marina Boulevard|Singapore|Legacy PSTN service|
+>|32 London Bridge Street|United Kingdom|Phone System with Calling Plans|
+>|39 quai du Président Roosevelt|France|Phone System with Calling Plans|
 
 ## Licensing for Calling Plans
 
@@ -322,101 +280,29 @@ If your organization choose to use auto-recharge, a recommendation on the trigge
 The use of Communications Credits can be controlled at per user basis, allowing you to ensure the capability is assigned to individuals in the organization that have proper business needs.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>If your organization does not have the required Phone System license, decide whether Phone System license will be acquired by stepping up existing Office 365 subscriptions or by acquiring Phone System add-ons.</li>
-<li>Decide which users require Domestic Calling Plan license and which users require Domestic and International Calling Plan license.</li>
-<li>Decide if Communications Credits is required for Calling Plans implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li>
-<li>Decide which users require the use of Communications Credits license.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the users to be assigned with Phone System license along with Domestic Calling Plan license, and users to be assigned with Phone System license with Domestic and International Calling Plan license.</li>
-<li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</li>
-<li>Document the users to be enabled for Communications Credits license.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>If your organization does not have the required Phone System license, decide whether Phone System license will be acquired by stepping up existing Office 365 subscriptions or by acquiring Phone System add-ons</li><li>Decide which users require Domestic Calling Plan license and which users require Domestic and International Calling Plan license</li><li>Decide if Communications Credits is required for Calling Plans implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li><li>Decide which users require the use of Communications Credits license</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users to be assigned with Phone System license along with Domestic Calling Plan license, and users to be assigned with Phone System license with Domestic and International Calling Plan license</li><li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount)</li><li>Document the users to be enabled for Communications Credits license</li></ul>|
 
-<br>
 > _You can document the license assignment list for Phone System with Calling Plans users using the following example:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Office</th>
-<th align="left">Office 365 License</th>
-<th align="left">Communications Credtis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, International and Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E3, Phone System add-on, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Rachelle Cormier</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E5, International and Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E3, Phone System add-on, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Office  |Office 365 License  |Communications Credits  |
+>|---------|---------|---------|---------|
+>|Emily Braun|32 London Bridge Street|Office 365 E5, International and Domestic Calling Plan|Enabled|
+>|Lidia Holloway|32 London Bridge Street|Office 365 E5, Domestic Calling Plan|Disabled|
+>|Pradeep Gupta|32 London Bridge Street|Office 365 E5, Domestic Calling Plan|Enabled|
+>|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
+>|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, International and Domestic Calling Plan|Enabled|
+>|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
 
-<br>
 >_Your Communications Credits planning numbers can be documented as the following:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Initial amount</th>
-<td align="left">$ 1,000</td>
-</tr>
-</thead>
-<thead>
-<tr class="header">
-<th align="left">Trigger amount</th>
-<td align="left">$ 400</td>
-</tr>
-<tr class="header">
-<th align="left">Auto-recharge amount</th>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+
+>|         |         |
+>|---------|---------|
+>|Initial amount|$ 1,000|
+>|Trigger amount|$ 400|
+>|Auto-recharge amount|TBA|
 
 ## Phone Numbers and Emergency Locations
 
