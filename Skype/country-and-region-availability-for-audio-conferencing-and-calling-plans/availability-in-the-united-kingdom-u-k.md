@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 523a955c-5185-4a53-9234-d8a71f57be85
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for the United Kingdom."

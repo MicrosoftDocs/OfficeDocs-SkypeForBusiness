@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 298c6df7-0054-48cf-867c-082bdb695999
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Austria."

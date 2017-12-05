@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/7/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 description: "You can attach files to a Skype for Business meeting, which participants can then open and download. Files attached to Skype for Business meetings are retained in the mailboxes of any participant whose mailbox is placed on Litigation Hold, has an Office 365 retention policy applied, or is placed on a hold associated with an eDiscovery case in the Office 365 Security &amp; Compliance Center. This content is saved to participants' Recoverable Items folders in their mailboxes."

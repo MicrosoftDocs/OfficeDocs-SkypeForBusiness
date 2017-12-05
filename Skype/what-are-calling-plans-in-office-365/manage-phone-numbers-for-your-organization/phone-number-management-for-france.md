@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
 description: "Use this table to find information on getting and managing phone numbers in France for Skype for Business Online."

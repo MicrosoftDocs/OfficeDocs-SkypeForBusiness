@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c

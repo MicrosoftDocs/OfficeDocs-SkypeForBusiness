@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."

@@ -7,7 +7,7 @@ ms.audience: End User
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.BroadcastMeetings
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 8e46e857-f046-4e87-a633-0d7fb88d66d5
 description: "You can enable Skype Meeting Broadcast and make changes to settings and policies for those meetings."

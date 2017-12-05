@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 7/25/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: None
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 description: "Proposer à ses utilisateurs des expériences accessibles est au cœur de la mission que s'est fixée Microsoft : permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage, quelles que soit ses aptitudes. Microsoft a le plaisir de proposer, avec Skype Entreprise, un certain nombre de solutions d'accessibilité qui s'inscrivent dans son engagement fort pour l'accessibilité et l'inclusion numérique."

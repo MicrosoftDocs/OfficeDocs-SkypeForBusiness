@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Saudi Arabia."

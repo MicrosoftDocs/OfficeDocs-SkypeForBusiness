@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/17/2017
 ms.audience: Admin
 ms.topic: troubleshooting
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 description: "Learn common causes for Skype for Business Online sign-errors and Work through troubleshooting these problems. "

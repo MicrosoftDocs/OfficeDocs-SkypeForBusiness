@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 4f3430a6-141f-4842-817d-ca4355ae8fda
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Mexico."

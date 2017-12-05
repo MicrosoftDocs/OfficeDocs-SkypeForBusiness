@@ -7,7 +7,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.PSTNConferencingRemovePhoneNumberFromBridge
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4

@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: b8abc334-bd57-4bc9-ae17-43d543d895c8
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Cyprus."

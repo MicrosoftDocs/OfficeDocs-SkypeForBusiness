@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: e18d2274-cd69-47f6-9a65-1adc59dc5399
 description: "Use this table to find information on getting and managing phone numbers in Spain for Skype for Business Online."

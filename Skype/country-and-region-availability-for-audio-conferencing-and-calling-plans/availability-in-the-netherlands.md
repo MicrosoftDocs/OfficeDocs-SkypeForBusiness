@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 1ea8af70-bc19-454c-adba-b029a08de07c
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for the Netherlands."

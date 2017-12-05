@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: 42691c26-3b0a-43b6-bc92-012b2992c6fe
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Sweden."

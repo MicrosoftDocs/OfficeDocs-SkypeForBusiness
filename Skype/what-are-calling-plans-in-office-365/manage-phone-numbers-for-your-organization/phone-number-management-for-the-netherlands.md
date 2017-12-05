@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 description: "Use this table to find information on getting and managing phone numbers in the Netherlands for Skype for Business Online."

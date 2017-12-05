@@ -8,7 +8,7 @@ ms.topic: article
 f1_keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb

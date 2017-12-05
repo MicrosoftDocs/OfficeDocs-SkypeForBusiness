@@ -5,7 +5,7 @@ author: tonysmit
 ms.date: 11/21/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Jordan."
