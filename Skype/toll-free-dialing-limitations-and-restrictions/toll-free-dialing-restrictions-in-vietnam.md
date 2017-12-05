@@ -23,11 +23,12 @@ description: ""
 |Island/territory not covered  <br/> |Not applicable  <br/> |
 |Wired/fixed line availability  <br/> |Partial. See comments.  <br/> |
 |Mobile network availability  <br/> |Partial. See comments.  <br/> |
-|Comments, restrictions, and access issues  <br/> |The 120 XX XXX number format will work from Vietnam Telecom International (VTI) and VNPT (Vietnam Post and Telecommunications) fixed and mobile networks.  <br/> > [!NOTE]> Mobifone &amp; Vinaphone are part of VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours.           |
+|Comments, restrictions, and access issues  <br/> |The 120 XX XXX number format will work from Vietnam Telecom International (VTI) and VNPT (Vietnam Post and Telecommunications) fixed and mobile networks.  
+*Note* Mobifone &amp; Vinaphone are part of VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours.           |
    
 ## See also
 
 #### Other Resources
 
-[Toll free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
+[Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 
