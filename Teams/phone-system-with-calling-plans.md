@@ -1,10 +1,12 @@
 ---
 title: Phone System with Calling Plans in Microsoft Teams
 author: LolaJacobsen
-ms.author: lolaj
-manager: serdar
+
+ms.author: arachman
+manager: lolaj
 ms.date: 12/07/2017
-ms.topic: overview
+ms.topic: article
+
 ms.prod: teams
 description: Practical guidance for deploying Phone System with Calling Plans in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
@@ -14,16 +16,18 @@ Phone System with Calling Plans in Microsoft Teams
 ===================================================
 
 > [!IMPORTANT]
-> Phone System with Calling Plans in Teams is in public preview. It is available to all customers meeting the prerequisite Office 365 subscription plans and add-ons. Phone System with Calling Plans features and capabilities in Teams could change as additional features and capabilities are released.
 
-Phone System is a feature within Office 365 that provides the ability to manage call routing, policies and user provisioning. This includes phone calling management system, call routing, and call control.
+> Office 365 Phone System with Calling Plans in Teams is in public preview. It is available to all customers who have an Office 365 subscription that includes Teams. Phone System with Calling Plans features and capabilities in Teams could change as additional features and capabilities are released.
 
-Calling Plan is an add-on service for the Phone System feature, delivered through Microsoft Teams and Skype for Business Online. Calling Plans service provides the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the public switched telephone network (PSTN).
+Phone System is an Office 365 feature that provides the ability to manage call routing, policies, and user provisioning. This includes phone calling management system, call routing, and call control.
 
-Here is what you get with [Phone System](https://support.office.com/en-us/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c?ui=en-US&rs=en-US&ad=US) feature in Office 365 and the [Calling Plans](https://support.office.com/en-us/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&rs=en-US&ad=US) add-on.
+Office 365 Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans provides the people in your business with a primary phone number and lets them make and receive phone calls outside of your organization over the public switched telephone network (PSTN).
+
+To learn more, read [Here's what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
 > [!NOTE]
-> Calling Plans service supports both Microsoft Teams and Skype for Business Online. The existing Skype for Business Online Admin Center and remote PowerShell provide the administrative interfaces to manage Calling Plans.
+> Calling Plans supports both Teams and Skype for Business Online. To manage Calling Plans, use the Skype for Business Admin center and remote PowerShell commands.
+
 
 Envision <a name="Envision_PhoneSystemWithCallingPlans"> </a>
 ========
@@ -32,15 +36,20 @@ The Envision phase provides the foundation for the Office 365 customer journey a
 
 In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:
 
--   a high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.
 
--   and subsequently, a detailed Phone System with Calling Plans technical implementation plan to achieve the desired end state.
+-   A high-level success plan that contains business use cases, key stakeholders, objectives and key results (OKRs), key success indicators (KSIs), risks, environmental assessment, adoption readiness, and operational plan.
+
+-   A detailed Phone System with Calling Plans technical implementation plan to achieve the desired end state.
+
 
 
 Define business use cases for Phone System with Calling Plans
 -------------------------------------------------------------
 
-Phone System with Calling Plans allows organizations to modernize their workplace by enabling users to empower their personal computer and mobile devices to place and receive business-related phone calls.
+
+
+Phone System with Calling Plans allows organizations to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices.
+
 
 Workplace modernization can be part of activity-based working implementation, office moves, office fit-out refresh, retirement of legacy private branch exchange (PBX) solutions, conclusion of a PSTN service provider contract, etc.
 
@@ -48,20 +57,26 @@ In this step, core project stakeholders will define business use cases that supp
 
 Business use cases are meant to document expected, measurable business outcomes, and include the following:
 
--   Description of current business process.
 
--   Challenges with existing business process defined.
 
--   How technology can help overcome these challenges.
+-   Description of current business process
 
--   The expected, measurable, business outcomes if these challenges are overcome.
+-   Challenges with existing business process defined
+
+-   How technology can help overcome these challenges
+
+-   The expected, measurable business outcomes if these challenges are overcome
+
 
 <table>
 <tbody>
 <tr class="header">
 <th align="left"><p><img src="media/audio_conferencing_image2.png" /></p></th>
 <td align="left"><p><strong>Description of current business process</strong></p>
-<p>Standard fit out of Contoso’s office workspaces includes a desktop phone for every desk and each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones. </p></td>
+
+
+<p>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones. </p></td>
+
 </tr>
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
@@ -71,7 +86,10 @@ Business use cases are meant to document expected, measurable business outcomes,
 <tr class="even">
 <td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
 <td align="left"><p><strong>How technology can overcome these challenges</strong></p>
-<p>Phone System with Calling Plans service will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
+
+
+<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
+
 </tr>
 <tr class="odd">
 <td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
@@ -83,7 +101,10 @@ Business use cases are meant to document expected, measurable business outcomes,
 
 _Table 1 Business use case example_
 
-In addition to defining the business use cases, having a clarity around the organizational scope and project timelines at this step helps move onto the next step of the Envision phase.
+
+
+In addition to defining your business use cases, you should also get clarity around organizational scope and project timelines as you move into the next step of the Envision phase.
+
 
 Identify key stakeholders
 -------------------------
@@ -407,11 +428,14 @@ To achieve the intended OKRs, you may have to define the high-level architecture
 
 All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Phone System with Calling Plans business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.
 
-Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e?ui=en-US&rs=en-US&ad=US). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
+
+
+Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of Phone System with Calling Plans.
 
-Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners).
+Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners).
+
 
 The results of network readiness assessment will paint a clearer picture of the required network optimization or remediation required for the success of Phone System with Calling Plans implementation.
 
@@ -548,7 +572,10 @@ To plan for the implementation of Phone System with Calling plans, a series of d
 
 ## Availability of Calling Plans
 
-Calling Plans service is available in these [countries and regions](https://support.office.com/en-us/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US).
+
+
+Calling Plans service is available in these [countries and regions](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7).
+
 
 > [!IMPORTANT]
 > Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Calling Plans service, or where Calling Plans service is commercially available from.
@@ -615,25 +642,34 @@ _Table 7 Example of Phone System with Calling Plans site enablement list_
 
 Calling Plan is an add-on to Phone System feature in Office 365, therefore Phone System license is the prerequisite for users to be enabled for Calling Plans.
 
-[Phone System license](https://support.office.com/en-us/article/Skype-for-Business-and-Microsoft-Teams-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US) is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
-There are two types of [Calling Plan licenses](https://support.office.com/en-us/article/Calling-Plans-for-Office-365-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918?ui=en-US&rs=en-US&ad=US):
+
+
+[Phone System license](https://support.office.com/article/Skype-for-Business-and-Microsoft-Teams-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7) is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
+There are two types of [Calling Plan licenses](https://support.office.com/article/Calling-Plans-for-Office-365-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918):
+
 -	Domestic Calling Plan
 -	International and Domestic Calling Plan
 
 > [!NOTE]
 > What is considered “domestic” for a specific user is determined by the user’s assigned Office 365 usage location.
 
-Each Calling Plan type provides [calling minutes allocation](https://support.office.com/en-us/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7?ui=en-US&rs=en-US&ad=US) that users can use per month, either to make domestic calls or international calls. Domestic Calling Plan costs less compares to International and Domestic Calling Plan.
+
+
+Each Calling Plan type provides [calling minutes allocation](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7) that users can use per month, either to make domestic calls or international calls. Domestic Calling Plan costs less compares to International and Domestic Calling Plan.
+
 
 Typically, not everybody in an organization requires the ability to make international calls. The flexibility of subscribing and assigning the most appropriate Calling Plan type for individual user’s business requirements allows your organization to control the costs of Calling Plans implementation.
 
 For each Office 365 tenant, the combined number of calling minutes are pooled by country or region, and per Calling Plan type. When the monthly calling minutes cap for the tenant is reached, Calling Plans service (except for emergency calling) will be suspended for the remainder of the month. Calling Plans services will resume automatically on the first day of the next calendar month.
 
-To enable users to make outbound calls after the calling minutes are exhausted without having to wait until the next month billing cycle, you can setup Communications Credits for your organization. [Communications Credits](https://support.office.com/en-us/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059?ui=en-US&rs=en-US&ad=US) also gives the ability for users assigned with Domestic Calling Plan to make International calls charged by a “pay-per-minute” model.
 
-The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from [Communications Credits](https://support.office.com/en-us/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059?ui=en-US&rs=en-US&ad=US) article.
 
-If your organization choose to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/en-us/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059?ui=en-US&rs=en-US&ad=US) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
+To enable users to make outbound calls after the calling minutes are exhausted without having to wait until the next month billing cycle, you can setup Communications Credits for your organization. [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) also gives the ability for users assigned with Domestic Calling Plan to make International calls charged by a “pay-per-minute” model.
+
+The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) article.
+
+If your organization choose to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
+
 
 The use of Communications Credits can be controlled at per user basis, allowing you to ensure the capability is assigned to individuals in the organization that have proper business needs.
 
@@ -733,26 +769,38 @@ _Table 9 Example of Communications Credits planning numbers_
 
 ## Phone Numbers and Emergency Locations
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique Direct Inward Dialing (DID) phone number and a corresponding [validated emergency address](https://support.office.com/en-us/article/What-are-emergency-locations-addresses-and-call-routing-589bf5f5-490a-4215-8588-99bab7d33e31?ui=en-US&rs=en-US&ad=US).
 
-Phone numbers can be [obtained directly from Microsoft](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&rs=en-US&ad=US), or existing phone numbers can be [transferred (ported) to Microsoft](https://support.office.com/en-us/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e?ui=en-US&rs=en-US&ad=US).
+
+With Calling Plans in Office 365, every user in your organization needs to have a unique Direct Inward Dialing (DID) phone number and a corresponding [validated emergency address](https://support.office.com/article/What-are-emergency-locations-addresses-and-call-routing-589bf5f5-490a-4215-8588-99bab7d33e31).
+
+Phone numbers can be [obtained directly from Microsoft](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb), or existing phone numbers can be [transferred (ported) to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e).
+
 
 > [!NOTE]
 > Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011) for the details.
 
-When obtaining phone numbers from Microsoft directly, you can choose to use [Skype for Business admin center](https://support.office.com/en-us/article/Getting-Skype-for-Business-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5) or [remote PowerShell](https://technet.microsoft.com/en-us/library/mt228132.aspx), or to [submit a completed New Telephone Number Request form](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&rs=en-US&ad=US).
+
+
+When obtaining phone numbers from Microsoft directly, you can choose to use [Skype for Business admin center](https://support.office.com/article/Getting-Skype-for-Business-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5) or [remote PowerShell](https://technet.microsoft.com/library/mt228132.aspx), or to [submit a completed New Telephone Number Request form](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
+
 
 The manual form submission is preferred for a planned phone number acquisition since contiguous block of phone numbers can be requested. Obtaining phone numbers using Skype for Business admin center or remote PowerShell are not available in every countries or regions, and therefore the manual form submission method is the widely available method to obtain phone numbers.
 
 The other method, using Skype for Business admin center or remote PowerShell, will work for one-off, instantaneous, phone number acquisition, and when contiguous block of phone numbers is not required.
 
 > [!NOTE]
-> There is a limit on the [number of the phone numbers](https://support.office.com/en-us/article/How-many-phone-numbers-can-you-get-61dfb27c-5bfa-4481-a930-9c026e73ff3a?ui=en-US&rs=en-US&ad=US) that can be acquired from Microsoft based on the number of Calling Plan licenses subscribed by your organization. For user (subscriber) phone numbers, the formula is (Number of Domestic Calling Plan + Domestic and International Calling Plan licenses) x 1.1 +10. For example, if you have 50 users with Calling Plan licenses, you can acquire 65 phone numbers ((50 x 1.1) + 10).
+
+
+> There is a limit on the [number of the phone numbers](https://support.office.com/article/How-many-phone-numbers-can-you-get-61dfb27c-5bfa-4481-a930-9c026e73ff3a) that can be acquired from Microsoft based on the number of Calling Plan licenses subscribed by your organization. For user (subscriber) phone numbers, the formula is (Number of Domestic Calling Plan + Domestic and International Calling Plan licenses) x 1.1 +10. For example, if you have 50 users with Calling Plan licenses, you can acquire 65 phone numbers ((50 x 1.1) + 10).
+
 
 When you are configuring phone numbers for Calling Plans, it is required that an emergency address be assigned to each telephone number prior to assignment to a user. This is required to support emergency calling. The emergency address must be validated to ensure the emergency address is recognized that it is in a correct format that can be used by emergency response services.
 
 > [!IMPORTANT]
-> Emergency Services Calling operates differently with Calling Plans service than on traditional telephone services. It is important that you understand these differences and communicate them to all users. Check [Emergency calling terms and conditions](https://support.office.com/en-us/article/Emergency-calling-terms-and-conditions-ca2c751b-53ab-42c7-aed9-cfe27e662940) for further details.
+
+
+> Emergency Services Calling operates differently with Calling Plans service than on traditional telephone services. It is important that you understand these differences and communicate them to all users. Check [Emergency calling terms and conditions](https://support.office.com/article/Emergency-calling-terms-and-conditions-ca2c751b-53ab-42c7-aed9-cfe27e662940) for further details.
+
 
 In addition to validated emergency address, emergency locations can be defined and associated with validated emergency address to give a more exact location within an address. An emergency location is typically building number, floor, building wing, or office number where the user is located.
 
@@ -771,7 +819,10 @@ In addition to validated emergency address, emergency locations can be defined a
 <td align="left"><img src="media/audio_conferencing_image9.png" /></td>
 <td align="left">Next Steps</td>
 <td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation.</li>
-<li>If applicable, complete <a href="https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp%3brs=en-US&amp%3bad=US&rs=en-AU&ad=AU">the New Telephone Number Request form</a>, one form for each location or office</li>
+
+
+<li>If applicable, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">the New Telephone Number Request form</a>, one form for each location or office</li>
+
 <li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly.</li>
 <li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation.</li></ul></td>
 </tr>
@@ -835,7 +886,10 @@ _Table 10 Example of phone number acquisition, phone numbers and emegency locati
 
 
 ## Calling Identity
-By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/en-us/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7?ui=en-US&rs=en-US&ad=US) configuration—as Caller ID, or to block Caller ID presentation altogether.
+
+
+By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7) configuration—as Caller ID, or to block Caller ID presentation altogether.
+
 
 <table>
 <thead>
