@@ -223,15 +223,26 @@ items:
   durationInMinutes: 5
   content: |
 
-    Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality of each of these clients, check out our topic to [Get clients for Microsoft Teams](get-clients.md)
+    Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Microsoft Teams](get-clients.md)
 
     The setup file for the Microsoft Teams client is an executable file that can be downloaded by administrators and end users from the [Microsoft Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and distribute it through client distribution tools.
 
     End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store. 
 
-    Microsoft Teams is available on Windows (Windows 7 and later) and Mac desktop (Mac 10.10 and later). It is also available on iOS v9 and later (iPhone and iPad), Android 4.4 and later, and Windows Phone 10.0.10586 and later.  Support for Windows 10S will be coming at a later date.
+    Client OS Minimums:
 
-    Microsoft Teams supports the web client on Edge 12 or later, Internet Explorer 11 or later, Firefox 47.0 or later, and Chrome 51.0 or later. Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
+    |   	|Windows   	|MacOS   	|iOS   	|Android   	|Windows Phone   	|
+    |---	|---	|---	|---	|---	|---	|
+    |   	|7 and later   	|10.10 and later   	|10 or later   	|4.4 and later   	|10.0.10586 and later   	|
+
+    Web Browser Minimums: 
+
+    |   	|Edge   	|Internet Explorer   	|Firefox   	|Chrome   	|Safari   	|
+    |---	|---	|---	|---	|---	|---	|
+    |   	|12 or later   	|11 or later   	|47.0 or later   	|51.0 or later   	|Coming Soon   	|
+
+    > [!NOTE]
+    > Users trying to open the Microsoft Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
 
     ## Client Updates
     TODO: Speak about how client auto updates.
