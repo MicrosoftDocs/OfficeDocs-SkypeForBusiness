@@ -18,16 +18,16 @@ description: "Learn about what information is sent automatically to users by ema
 
 # Emails that are automatically sent to users when their Audio Conferencing settings change
 
-Emails will be automatically sent to users who are [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md) using Microsoft as the audio conferencing provider.
+Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md) using Microsoft as the audio conferencing provider.
   
 By default, there are four types of email that will be sent to your users who are enabled for Audio Conferencing. However, if you want to limit the number of emails sent to users, you can turn it off. Audio Conferencing in Office 365 will send email to your users' email when:
   
 - **An Audio Conferencing license is assigned to them or when you are changing the audio conferencing provider to Microsoft.**
     
-     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See[Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or[Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
+     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) or [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
-    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     Here is an example of this email:
     
@@ -40,7 +40,7 @@ By default, there are four types of email that will be sent to your users who ar
     This email contains the conference ID, default conference phone number, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. But this email doesn't include the user's audio conferencing PIN. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
     
     > [!NOTE]
-    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     Here is an example of this email:
     
@@ -51,7 +51,7 @@ By default, there are four types of email that will be sent to your users who ar
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md).
     
     > [!NOTE]
-    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
+    > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
   
     Here is an example of this email:
     
@@ -61,7 +61,7 @@ By default, there are four types of email that will be sent to your users who ar
     
     This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
     
-    See [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx) or[Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    See [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) or [Assign a third party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
     
     Here is an example of this email:
     
@@ -69,13 +69,13 @@ By default, there are four types of email that will be sent to your users who ar
   
 ## Make changes to the email messages that are sent to them
 
-You can make changes to the email that is automatically sent to users including the email address and the display name that is included in the  *From*  contact information. By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and the[Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
+You can make changes to the email that is automatically sent to users including the email address and the display name that is included in the *From* contact information. By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
   
 - Enter the email address in the  _SendEmailFromAddress_ parameter.
     
 - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
     
-- Set the  _SendEmailOverride_parameter to  _True_.
+- Set the  _SendEmailOverride_ parameter to  _True_.
     
 You can make changes to the email sent to users, such as the email address that the email is sent from and the display name for the email, by running:
   
@@ -84,7 +84,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 ```
 
 > [!NOTE]
->  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address.> If you decide to override the  *From*  contact information, you should verify that the emails are correctly sent to users. You can do this by testing this with one user in your organization.
+>  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address. If you decide to override the *From* contact information, you should verify that the emails are correctly sent to users. You can do this by testing this with one user in your organization.
   
 You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
   
@@ -120,7 +120,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
 
 - For more on enabling and disabling automatically sending email to your users, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
     
-- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md). However, this information doesn't include the audio conferencing PIN.
+- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md). However, this information doesn't include the audio conferencing PIN.
     
     Here is an example of this email that will be sent to them:
     
