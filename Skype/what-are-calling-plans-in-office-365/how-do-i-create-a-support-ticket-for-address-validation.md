@@ -64,16 +64,16 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
   - **Attach a file** if you have multiple addresses you need validated.
     
-8. Click **Next**.
+  - Click **Next**.
     
-9. Enter your contact phone number.
+  - Enter your contact phone number.
     
-10. Review the information, and then click **Submit request**.
+8. Review the information, and then click **Submit request**.
     
 > [!TIP]
 > The reference number will be listed on the **Service requests** page in the Office 365 admin center.
   
-## Related Topics
+## See also
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   
