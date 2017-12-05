@@ -1158,12 +1158,13 @@ In general, a technical implementation plan will contain the following main sect
 
 With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.
 
+<br>
 Onboard
 =======
 
 *Coming soon.*
 
-
+<br>
 Drive Value
 ===========
 
