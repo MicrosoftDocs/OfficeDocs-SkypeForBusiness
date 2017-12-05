@@ -11,7 +11,7 @@ ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
 ---
 
-# Countries and region availability for Audio Conferencing and Calling Plans
+# Country and region availability for Audio Conferencing and Calling Plans
 
 You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not.
   
