@@ -37,14 +37,14 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
 |Spain  <br/> |All numbers  <br/> |[Letter of Authorization (LOA) for Spain (All numbers) (v.1.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Spain (All numbers) (v.1.0) (es-ES).pdf) <br/> |
 |United Kingdom (U.K.)  <br/> |Service (auto attendants, conferencing, etc.)  <br/> |[Letter of Authorization (LOA) for the U.K. (Service numbers) (v.2.1)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/> |
 |United Kingdom (U.K.)  <br/> |Subscriber (user)  <br/> |[Letter of Authorization (LOA) for the U.K. (User numbers) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> |
-|United States (U.S.)  <br/> |Subscriber and service numbers ( *not toll-free*  ) <br/> |[Letter of Authorization (LOA) for the U.S. (User and Service numbers) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (User and Service numbers) (v.3.1) (en-US).pdf) <br/> |
+|United States (U.S.)  <br/> |Subscriber and service numbers (*not toll-free*) <br/> |[Letter of Authorization (LOA) for the U.S. (User and Service numbers) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (User and Service numbers) (v.3.1) (en-US).pdf) <br/> |
 |United States (U.S.)  <br/> |Toll-free  <br/> |[Letter of Authorization (LOA) for the U.S. (Toll Free numbers) (v.2.0)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.S. (Toll Free numbers) (v.3.1) (en-US).pdf) <br/> |
    
 ## Downloads for phone number management forms
 
 - You can see a listing and download all Letters of Authorization (LOA)s by going to [Skype for Business Online Letters of Authorization](https://go.microsoft.com/fwlink/?LinkID=623745).
     
-- You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests ](https://go.microsoft.com/fwlink/?linkid=851581).
+- You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
     
 ## Related Topics
 
