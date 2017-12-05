@@ -62,5 +62,4 @@ If you want to set them up, see [Set up Communications Credits for your organiza
 
 #### Other Resources
 
-[Country and region availability for Audio Conferencing and Calling Plans](../misctopics/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
