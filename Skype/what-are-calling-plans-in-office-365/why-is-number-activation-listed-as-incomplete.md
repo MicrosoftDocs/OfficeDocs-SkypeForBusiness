@@ -76,10 +76,5 @@ Address validation is an important part of setting up Calling Plans in Office 36
 > [!TIP]
 > The reference number will be listed on the **View service requests** page in the Office 365 admin center.
   
-## Related Topics
-
+## See also
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-

@@ -29,10 +29,4 @@ After you have submitted your port order, we will contact your carrier and work 
 - [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) .
     
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-

@@ -18,7 +18,7 @@ description: "Learn how to get the status of your port orders, and what the diff
 
 # What's the status of my port orders?
 
-You can see the status of your port order by going to the **Skype for Business admin center** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you help,[Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
+You can see the status of your port order by going to the **Skype for Business admin center** > **Voice** > **Port orders**. Each port order status will be listed in the **Status** column. If you help, [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
   
 The following table lists port order statuses, as well as actions you can take if needed. 
   
@@ -35,10 +35,4 @@ The following table lists port order statuses, as well as actions you can take i
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
   
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-
