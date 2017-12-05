@@ -53,9 +53,9 @@ items:
 - title: Configure Teams for your school
   durationInMinutes: 2
   content: |
-    You will need to have (Global Administrator)[https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d] privileges to use the Office 365 admin center to manage Microsoft Teams for your school.
+    You will need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) privileges to use the Office 365 admin center to manage Microsoft Teams for your school.
 
-    1. From the (Office 365 admin center)[https://portal.office.com/adminportal/home], sign-in with your Global Administrator crendentials and go to **Settings** > **Services & add-ins**.
+    1. From the [Office 365 admin center](https://portal.office.com/adminportal/home), sign-in with your Global Administrator crendentials and go to **Settings** > **Services & add-ins**.
     2. On the **Services & add-ins** page, select **Microsoft Teams**.
     
          ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
@@ -92,7 +92,7 @@ items:
 
     Enabling external apps provides a drop-down list for you to select the applications you'd like in your insitution. If you select to **Enable new external apps by default**, as publishers submit more apps, the new apps will automatically show up in your list. 
 
-    The ability to sideload an app will only be available to the Team owners. This will be useful if you have any programing courses or are testing any custom learning management systems that could integrate with Microsoft Teams. To learn more, see (The Microsoft Teams developer platform)[https://docs.microsoft.com/en-us/microsoftteams/platform/overview].
+    The ability to sideload an app will only be available to the Team owners. This will be useful if you have any programing courses or are testing any custom learning management systems that could integrate with Microsoft Teams. To learn more, see [The Microsoft Teams developer platform](https://docs.microsoft.com/en-us/microsoftteams/platform/overview).
 
     ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/QS-edu-apps.png)
 
@@ -169,13 +169,13 @@ items:
 
     ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
-    Allowing private meetings enables your users to not having to select a Team and Channel to schedule their meeting in. This will allow them to have smaller meetings. 
+    Private meetings enable your users to explicitly select the participants of their meetings opposed to leaving it open to everyone in the Team to join. This will allow them to have smaller meetings that don't disrupt the larger team. 
 
     Allowing scheduling for channel Meetings will allow users select a Team and Channel where the meeting will be hosted. This allows anyone interested in the meeting from that Team to join without needing an explicit invite. 
 
     ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/EDU-QSG/Private_Meetings_No_Channel.PNG)
 
-    Ad-hoc channel meetup allows users to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conersation. 
+    Ad-hoc channel meetup allows users to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conversation. 
 
     ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/EDU-QSG/Compose_Box_Meet_Now.PNG)
 
@@ -205,7 +205,7 @@ items:
 
     ![Screenshot of left rail without chat.](media/EDU-QSG/Left_Rail_Without_Chat.PNG)
 
-    When users who are enabled for chat try to start a conversation with a particants who aren't, they'll see a notification in the compose chat window indication "Adminsistrator has disabled chat for user"
+    When users who are enabled for chat try to start a conversation with particants who aren't, they'll see a notification in the compose chat window indicating that the "Adminsistrator has disabled chat for user"
 
     ![Screenshot of unable to start chat with disabled participant.](media/EDU-QSG/Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
 
@@ -214,7 +214,7 @@ items:
 
     Enabling owners to delete messages is recommended across all license types, as this really helps with Channel chat moderations. 
 
-    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redudant messages can be corrected. 
+    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redudant messages can be removed by the sender. 
 
     > [!NOTE]
     > If you place a user's mailbox on Legal Hold, all edited\deleted messages will be logged. See [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for more information.
@@ -252,7 +252,7 @@ items:
     TODO: Find out where to gather this information.
 
 
-- title: Next Steps, Feedback, and support
+- title: Adoption, Feedback, and support
   durationInMinutes: 2
   content: |
 
