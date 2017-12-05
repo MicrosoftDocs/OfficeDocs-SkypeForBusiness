@@ -17,7 +17,9 @@ The following are frequently asked questions about transferring phone numbers to
   
 ## What countries/regions support number porting?
 
-You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, [Manage phone numbers for your organization](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+
+When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
 ## What numbers can be transferred?
 
@@ -98,9 +100,9 @@ Here's more information about submitting number porting requests for each of the
   
 - **Telephone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
     
-- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must[Manually submit a custom service request](manually-submit-a-custom-service-request.md); they cannot be submitted in the Skype for Business admin center. ( **This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must [Manually submit a custom service request](manually-submit-a-custom-service-request.md); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
     
-    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOAs [Download a Letter of Authorization (LOA)](download-a-letter-of-authorization-loa.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOAs [Download a Letter of Authorization (LOA)](download-a-letter-of-authorization-loa.md). See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
     
 - **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
     
@@ -116,7 +118,7 @@ You can check the status of your port order by going to the Skype for Business a
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go [Manage phone numbers for your organization](6b61cb3c-361c-48a8-a9ef-d81bddde27bb.md). **(This is the new standard process, please update to match - https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)**
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md). 
   
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>
@@ -146,7 +148,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see[Set your PIN for transferring phone numbers to a new service provider](set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring phone numbers to a new service provider](set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).
   
 ## See also
 <a name="bkmk_type_1"> </a>
