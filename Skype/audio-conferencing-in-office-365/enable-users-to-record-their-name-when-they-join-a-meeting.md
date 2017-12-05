@@ -63,5 +63,5 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 #### Other Resources
 
-[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 

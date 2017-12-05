@@ -19,7 +19,7 @@ description: "Learn about using Azure ExpressRoute to have a network with bandwi
 Connect to Office 365 over a dedicated network connection using Azure ExpressRoute for Office 365 and Skype for Business Online. Your dedicated connection for your Skype for Business apps will give you reliable and predictable performance as well as privacy away from the public internet. You can now buy a better network connection to Office 365 and Skype for Business Online that adds predictability, business class reliability and comes with an uptime SLA.
   
 > [!NOTE]
-> There is a new version of the bandwidth calculator that is available [Skype for Business, Bandwidth Calculator ](https://go.microsoft.com/fwlink/?LinkId=715766), however, these directions in this document use the Lync 2010 and 2013 Bandwidth Calculator. 
+> A new version of the bandwidth calculator is available: [Skype for Business, Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkId=715766). However, the directions in this document use the Lync 2010 and 2013 Bandwidth Calculator. 
   
 ## Skype for Business Online and ExpressRoute
 
@@ -70,7 +70,7 @@ To deliver consistent and high quality real-time services for Dewey Law LLC., th
     
 - The networking switches and routers must also use uninterrupted power sources (UPS) so they can continue operating during a power failure.
     
-    They have a Wi-Fi connections to their LAN offices, so we highly recommend they use a certified Skype for Business Wi-Fi infrastructure partner from [Skype for Business Solutions](https://go.microsoft.com/fwlink/?LinkId=690281)
+    They have a Wi-Fi connections to their LAN offices, so we highly recommend they use a certified Skype for Business Wi-Fi infrastructure partner from [Skype for Business Solutions](https://go.microsoft.com/fwlink/?LinkId=690281).
     
     > [!TIP]
     >  802.11n and 802.11ac wireless access points are recommended.
@@ -89,7 +89,7 @@ There are two options for how data from Skype for Business applications can be m
     
 To implement Endpoint Marking, you must configure all domain joined Windows machines for Dewey Law LLC. to mark each packet with the appropriate DiffServ Control Point (DSCP) marking and then implement QoS on all network switches and routers across all of their office sites to make sure the QoS markings are maintained and aren't removed. DSCP markings on network packets tell the service provider how that network packet is prioritized. **There is more information on DSCP in the QoS section in Part 2.**
   
-For network ACL-based assignment, the DSCP priority markings are implemented at an upstream router and are based on the UDP source port. The recommended port ranges for each application are listed in Section 2.6.1.1 of [Network Planning, Monitoring, and Troubleshooting with Lync Server ](https://go.microsoft.com/fwlink/?LinkId=690286). It is important that you coordinate this with Dewey Law LLC's overall QoS implementation and design and be aware of different QoS policies and the potential for packet marking mismatches.
+For network ACL-based assignment, the DSCP priority markings are implemented at an upstream router and are based on the UDP source port. The recommended port ranges for each application are listed in Section 2.6.1.1 of [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286). It is important that you coordinate this with Dewey Law LLC's overall QoS implementation and design and be aware of different QoS policies and the potential for packet marking mismatches.
   
 Each ExpressRoute network service provider will have a class of service (QoS) that is appropriate for real-time voice and video. This COS is called 'Expedited Forwarding' (EF) for voice and 'Assured Forwarding' (AF) for video. You must be very careful in sizing the amount of bandwidth you purchase for voice EF traffic. The reason is that the voice class of service is very unforgiving in the event you send more voice traffic than the class of service is provisioned for.
   
@@ -98,12 +98,12 @@ Each ExpressRoute network service provider will have a class of service (QoS) th
   
 When looking at the overall design for Dewey Law LLC. it is extremely important that you accurately determine the amount of network bandwidth that they need to support the voice traffic across their network and be marking each voice packet (and only voice packets) with the DSCP setting for voice (i.e. DSCP EF 46).
   
-To implement QoS across their enterprise network, the endpoints or routers must mark each packet with the appropriate Layer 3 priority indicator (i.e. DSCP). Along the entire network path, each switch and router must have the QoS option turned on. Having even only one network switch or router that doesn't have QoS turned on, the QoS markings on voice or video packets passing through that switch or router could be stripped off. This effectively disables QoS in all downstream switches and routers which decreases the value of having ExpressRoute.
+To implement QoS across their enterprise network, the endpoints or routers must mark each packet with the appropriate Layer 3 priority indicator (i.e., DSCP). Along the entire network path, each switch and router must have the QoS option turned on. Having even only one network switch or router that doesn't have QoS turned on, the QoS markings on voice or video packets passing through that switch or router could be stripped off. This effectively disables QoS in all downstream switches and routers which decreases the value of having ExpressRoute.
   
 This also requires that the association of the Layer 3 and Layer 2 QoS priorities be defined at each point. The Layer 2 priority mechanisms are defined in IEEE 802.1p for wired networks and 802.11e/WMM for Wi-Fi networks. More importantly, the network router facing the network service provider's MPLS network must maintain the DSCP settings on all outbound packets so that they will maintain the appropriate MPLS class of service. 
   
 > [!TIP]
->  For the specific details regarding QoS set-up, refer to Section 2.6[Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287) for more network planning requirements.
+>  For the specific details regarding QoS set-up, refer to Section 2.6 [Network Planning, Monitoring, and Troubleshooting with Lync Server]( https://go.microsoft.com/fwlink/?LinkId=760669). You can also see [Plan network requirements for Skype for Business 2015](https://go.microsoft.com/fwlink/?LinkId=690287) for more network planning requirements.
   
 ### Ordering Network Access Services
 
@@ -175,7 +175,7 @@ It is very important that you don't exceed the bandwidth in the voice or 'Expedi
 > [!TIP]
 >  Again, while the EF class of service offers the best performance guarantee, if you exceed the defined bandwidth, any additional packets will immediately be discarded.
   
- **Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR) **
+ **Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR)**
   
 |**Site Name**|**Best effort class (DSCP 0)**|**Data traffic class (DSCP custom)**|**Real-time traffic class (DSCP 34, AF41)**|**Priority traffic class (DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -293,7 +293,7 @@ Differentiated Services (DiffServ) is referred to as a "coarse grained" mechanis
 |**Default** <br/> |AF11 (10)  <br/> |File transfer  <br/> |
 ||CS0 (0)  <br/> |Anything else  <br/> |
    
- ** IP Version 4 header**
+ **IP Version 4 header**
   
 ![IPv4 header](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
@@ -303,7 +303,7 @@ While DSCP is the standard mechanism for implementing QoS at Layer 3, there are 
   
 The IEEE 802.1p uses a 3-bit Priority Code Point (PCP) to identify the message's priority; the PCP is part of a 32-bit field in the Ethernet Header that also carries the VLAN identifier. The definitions for the PCP values are included below.
   
- ** IEEE 802.1p PCP values**
+ **IEEE 802.1p PCP values**
   
 |**PCP Value**|**Priority**|**Acronym**|**Traffic types**|
 |:-----|:-----|:-----|:-----|
@@ -324,7 +324,7 @@ To prioritize access to the radio channel, IEEE 802.11e/WMM defines different pr
   
 Priority is given by assigning shorter AFIS values to the higher priority frames. So if one station is waiting to send a voice frame and another is waiting to send a data frame, the voice frame will always be sent first. Technically, voice and video frames are assigned the same AFIS value, but the range of back-off intervals for video frames is higher. So while a voice and video frame may collide on the first attempt, the voice frame will always be retransmitted sooner. The correlation between IEEE 802.1p and IEEE 802.11e is shown below:
   
- ** IEEE 802.11e/Wi-Fi Multi-Media (WMM) to 802.1P mapping**
+ **IEEE 802.11e/Wi-Fi Multi-Media (WMM) to 802.1P mapping**
   
 |**WMM access category**|**WMM description**|**802.1P PCP value**|**802.1P designation**|
 |:-----|:-----|:-----|:-----|
@@ -358,7 +358,7 @@ The recommended association of Layer 3 to Layer 2 priorities is shown here:
 |Best Effort  <br/> |Per Hop Behavior (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
 |DSCP Value - 0  <br/> |
    
-It is important to note that there is a mismatch in the priority coding for IEEE 802.1p and WMM. The 802.1p the PCP value for voice is 5, however, in the standard equivalence mapping to WMM, PCP 5 is translated to Access Category 2, the WMM access category for video (AC_VI). If possible you should override that mapping so that PCP 5 translates to Access Category 1, or simply avoid using voice and video on the same Wi-Fi network until the Wi-Fi Alliance addresses this issue. For additional information on Wi-Fi, see [Wi-Fi Catalog Items]( https://go.microsoft.com/fwlink/?LinkId=690322)
+It is important to note that there is a mismatch in the priority coding for IEEE 802.1p and WMM. The 802.1p the PCP value for voice is 5, however, in the standard equivalence mapping to WMM, PCP 5 is translated to Access Category 2, the WMM access category for video (AC_VI). If possible you should override that mapping so that PCP 5 translates to Access Category 1, or simply avoid using voice and video on the same Wi-Fi network until the Wi-Fi Alliance addresses this issue. For additional information on Wi-Fi, see [Wi-Fi Catalog Items]( https://go.microsoft.com/fwlink/?LinkId=690322).
   
 ### Implementing QoS using Network Access Control List (ACL)
 
@@ -384,7 +384,7 @@ MPLS providers offer several class of service gradients that unfortunately uses 
 
 Skype for Business enhances the way business communications are conducted. Rather than having a telephone connected to a PBX, a stand-alone video conferencing system, a separate platform for email, an outside service for audio conferencing and some vehicle for IM and presence, Skype for Business can bring all of these capabilities together in a single user interface.
   
-Consistently delivering business grade real-time voice and video services requires an end-to-end network infrastructure that is capable of providing QoS. That would include both LAN and the WAN services. Microsoft provides tools like the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) to estimate the network capacity you will require for the various services. Also, there are partners in the IT Pro Tools program[Skype for Business Solutions: IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) that offer tools to pre-assess the network infrastructure and support monitoring, reporting and troubleshooting. Without a correctly sized and configured network infrastructure, you run the risk of having an ExpressRoute Skype of Business deployment that will not meet your user's expectations for quality and consistency.
+Consistently delivering business grade real-time voice and video services requires an end-to-end network infrastructure that is capable of providing QoS. That would include both LAN and the WAN services. Microsoft provides tools like the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) to estimate the network capacity you will require for the various services. Also, there are partners in the IT Pro Tools program [Skype for Business Solutions: IT Pro Tools](https://go.microsoft.com/fwlink/?LinkID=690307) that offer tools to pre-assess the network infrastructure and support monitoring, reporting and troubleshooting. Without a correctly sized and configured network infrastructure, you run the risk of having an ExpressRoute Skype of Business deployment that will not meet your user's expectations for quality and consistency.
   
 Effective business tools must perform reliably, consistently, and deliver a user experience that encourages user adoption. From a networking standpoint that means having a network infrastructure, both local and wide area, fixed and mobile, that can allow that to happen. Planning, designing, implementing and maintaining that infrastructure isn't always an easy feat. The hardware, tools and network services to accomplish that are available today, but it is the responsibility of IT Pro to see that they are designed, implemented and maintained in a way that ensures the users get a set of communications and collaboration services that allow them to work efficiently and effectively and that the organization can reap the full benefit of what this technology has to offer. 
   
