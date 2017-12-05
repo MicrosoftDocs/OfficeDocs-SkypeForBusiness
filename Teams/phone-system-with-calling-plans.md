@@ -536,11 +536,11 @@ Operational roles mapping exercise will establish the roles and responsibilities
 
 You need to complete this and include the operational plan as part of the success plan to ensure operational readiness of the solution.
 
+<br>
+Technical planning for Phone System with Calling Plans
+------------------------------------------------------
 
-Planning for Phone System with Calling Plans in Teams  <a name="Planning_PhoneSystemWithCallingPlans"> </a>
-=====================================================
-
-To plan for the implementation of Phone System with Calling Plans, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
+To plan for the technical implementation of Phone System with Calling Plans, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
 
 ## Availability of Calling Plans
 
@@ -551,6 +551,7 @@ Calling Plans service is available in these [countries and regions](https://supp
 
 After confirming your organization’s eligibility for obtaining the Calling Plans add-on, compile the list of user locations or offices where Calling Plans service will be implemented based on the list of available countries and regions.
 
+<br>
 <table>
 <thead>
 <tr class="header">
@@ -635,6 +636,7 @@ If your organization choose to use auto-recharge, a recommendation on the trigge
 
 The use of Communications Credits can be controlled at per user basis, allowing you to ensure the capability is assigned to individuals in the organization that have proper business needs.
 
+<br>
 <table>
 <thead>
 <tr class="header">
@@ -756,6 +758,7 @@ When you are configuring phone numbers for Calling Plans, it is required that an
 
 In addition to validated emergency address, emergency locations can be defined and associated with validated emergency address to give a more exact location within an address. An emergency location is typically building number, floor, building wing, or office number where the user is located.
 
+<br>
 <table>
 <thead>
 <tr class="header">
@@ -844,6 +847,7 @@ Phone System voicemail by default will work with Exchange Online, however it has
 
 Phone System voicemail features voicemail transcription and by default it is enabled for all users in your organization. In some cases, your business may have requirements to disable voicemail transcription for specific users or throughout the organization.
 
+<br>
 <table>
 <thead>
 <tr class="header">
@@ -920,6 +924,7 @@ Phone System voicemail features voicemail transcription and by default it is ena
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7) configuration—as Caller ID, or to block Caller ID presentation altogether.
 
+<br>
 <table>
 <thead>
 <tr class="header">
@@ -1020,6 +1025,7 @@ The effective dial plan assigned to users is the combination of service dial pla
 
 There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.
 
+<br>
 <table>
 <thead>
 <tr class="header">
