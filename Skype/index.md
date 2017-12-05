@@ -73,7 +73,7 @@ Learn how to manage Skype for Business Online for your organization.
         </a>
     </li>
     <li>
-        <a href="set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md">
+        <a href="/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -120,7 +120,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                        <p><a href="audio-conferencing-in-office-365/audio-conferencing-in-office-365.md ">Audio Conferencing in Office 365</a></p><p><a href="audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md">Manage the Audio Conferencing settings for my organization</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365.md ">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md">Manage the Audio Conferencing settings for my organization</a></p>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Set up</h3>
-						<p><a href="set-up-skype-for-business-online/set-up-skype-for-business-online.md">Set up Skype for Business Online</a></p><p><a href="set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md">Allow users to contact external Skype for Business users</a></p><p><a href="set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md">Let Skype for Business users add Skype contacts</a></p>
+						<p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online.md">Set up Skype for Business Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md">Allow users to contact external Skype for Business users</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md">Let Skype for Business users add Skype contacts</a></p>
                      </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Add-on licensing</h3>
-                        <p><a href="skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md">Skype for Business and Microsoft Teams add-on licensing</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md">Skype for Business and Microsoft Teams add-on licensing</a></p>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                        <p><a href="what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md">What are Calling Plans in Office 365?</a></p><p><a href="what-are-calling-plans-in-office-365/set-up-calling-plans.md">Set up Calling Plans</a></p>
+                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md">What are Calling Plans in Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans.md">Set up Calling Plans</a></p>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Phone System</h3>
-                        <p><a href="what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md">What is Phone System in Office 365?</a></p><p><a href="what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365.md">Here's what you get with Phone System in Office 365</a></p>
+                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md">What is Phone System in Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365.md">Here's what you get with Phone System in Office 365</a></p>
                     </div>
                 </div>
             </div>
