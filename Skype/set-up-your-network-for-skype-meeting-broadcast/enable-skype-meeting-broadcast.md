@@ -43,7 +43,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
 3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.
     
-4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
+4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
     
 2. From the **Start Menu**, choose **Windows PowerShell**.
     
@@ -84,7 +84,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     > [!TIP]
     > After you make the change, it may take up to an hour to take effect in the Skype Meeting Broadcast portal. 
   
-6. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](http://technet.microsoft.com/library/c472c76b-21f1-4e4b-ab58-329a6c33757d%28Office.14%29.aspx)
+6. Your users can now hold broadcast meetings with other users in your business. To get them started, point them to [What is a Skype Meeting Broadcast?](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## Configure your network to broadcast meetings with external attendees
 

@@ -121,5 +121,5 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 
 #### Other Resources
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 
