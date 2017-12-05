@@ -173,22 +173,22 @@ items:
 
     Allowing scheduling for channel Meetings will allow users select a Team and Channel where the meeting will be hosted. This allows anyone interested in the meeting from that Team to join without needing an explicit invite. 
 
-    ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/EDU-QSG/Private_Meetings_No_Channel.PNG)
+    ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/Teams-quick-start-edu-Private_Meetings_No_Channel.PNG)
 
     Ad-hoc channel meetup allows users to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conversation. 
 
-    ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/EDU-QSG/Compose_Box_Meet_Now.PNG)
+    ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/Teams-quick-start-edu-Compose_Box_Meet_Now.PNG)
 
     Meeting options such as "Allow videos in meetings" and "Allow screen sharing in meetings" will enhance the meeting experience by allowing the face to face communication and the ability to share what you see on your screen. When these options are enabled, users will be able to toggle video and screen sharing from within the meeting. 
     
-    ![Screenshot of meeting controls.](media/EDU-QSG/In_Meeting_Controls.PNG)
+    ![Screenshot of meeting controls.](media/Teams-quick-start-edu-In_Meeting_Controls.PNG)
     
     > [!NOTE]
     > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
     
     Having the ability to escalate from a private 1:1 chat or group chat to an audio\video call is enabled by "Allow private calling". When in a chat, the top right corner will show these options. 
 
-    ![Screenshot of private chat audio video controls.](media/EDU-QSG/Private_Chat_Audio_Video.PNG)
+    ![Screenshot of private chat audio video controls.](media/Teams-quick-start-edu-Private_Chat_Audio_Video.PNG)
 
 
     ### Messaging
@@ -203,11 +203,11 @@ items:
     
     You can also disable private chat just between students, while allowing Faculty to have the ability of private chats. If you do disable chat, for users who don't have this functionality they will no longer see Chat along the left side. 
 
-    ![Screenshot of left rail without chat.](media/EDU-QSG/Left_Rail_Without_Chat.PNG)
+    ![Screenshot of left rail without chat.](media/Teams-quick-start-edu-Left_Rail_Without_Chat.PNG)
 
     When users who are enabled for chat try to start a conversation with particants who aren't, they'll see a notification in the compose chat window indicating that the "Adminsistrator has disabled chat for user"
 
-    ![Screenshot of unable to start chat with disabled participant.](media/EDU-QSG/Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
+    ![Screenshot of unable to start chat with disabled participant.](media/Teams-quick-start-edu-Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
 
     > [!TIP]
     > If you disable private chat for a set of users, they will not be able to leverage T-Bot for help content. All of T-Bot's content can be found on [Microsoft Teams help center](https://support.office.com/en-US/Teams), so be sure to give this as an adoption resource to users who are not enabled for private chat. 
