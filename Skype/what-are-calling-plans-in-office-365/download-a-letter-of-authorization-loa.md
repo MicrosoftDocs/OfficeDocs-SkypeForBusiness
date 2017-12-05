@@ -15,7 +15,7 @@ description: "The Letter of Authorization (LOA) gives us permission to request, 
 
 # Download a Letter of Authorization (LOA) 
 
-The  * **Letter of Authorization (LOA)*** gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business (or if you don't want to use the **Local Number Porting wizard**). You must [Manually submit a custom service request](manually-submit-a-custom-service-request.md) with this LOA to get phone numbers transferred from your current service provider.
+The **Letter of Authorization (LOA)** gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business (or if you don't want to use the **Local Number Porting wizard**). You must [Manually submit a custom service request](manually-submit-a-custom-service-request.md) with this LOA to get phone numbers transferred from your current service provider.
   
 If you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user phone numbers that you need to transfer to Skype for Business, you need to manually submit a port order.
   
