@@ -19,15 +19,15 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
   
-To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalogue](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+To get the latest updates and most up-to-date information on supported devices, see the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 ## Supported Phones
 
-For Skype for Business Online users, you can choose from several models within the  *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the[Skype for Business Device Catalogue](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+For Skype for Business Online users, you can choose from several models within the *Certified for Skype for Business Phones*  and phones running Lync Phone Edition (LPE) listed under the Skype for Business Online category in the [Skype for Business Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Microsoft is partnering and working closely with Polycom, Yealink, and AudioCodes to develop and certify a wide variety of devices through the Partner IP Phone Program (PIP) for the Phone System in Office 365 and Skype for Business Server.
   
-When ordering new phones for Skype for Business, it is important to buy phones with the  *right product ID*  . These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
 |||
 |:-----|:-----|
@@ -75,7 +75,7 @@ For full device features and capabilities, check the manufacturer user guides.
 |**Feature** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Sign in with user credentials  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Sign in via PC (Pairing), Windows Only  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Sign in using (Web Sign-in)  <br/> > [!NOTE]> Check the supportability matrix in deployment guide.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
+|Sign in using (Web Sign-in)  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Single-click join meeting  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Click to dial (Pairing)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Meeting Controls  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
@@ -84,10 +84,10 @@ For full device features and capabilities, check the manufacturer user guides.
 |Device Update  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |In-band Provisioning  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |QoE  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Log Upload  <br/> > [!NOTE]> Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|Log Upload  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Modern Authentication  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Multiple Emergency Number  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Exchange Calendar Integration*  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> > [!NOTE]> Requires PC tethering           |
+|Exchange Calendar Integration*  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> <br/> **Note:** Requires PC tethering           |
 |Presence Integration  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Corporate Directory  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Delegation  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
