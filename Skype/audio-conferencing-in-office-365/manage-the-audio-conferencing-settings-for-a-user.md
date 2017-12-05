@@ -30,13 +30,13 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 |**Setting**|**Description**|
 |:-----|:-----|
-|**Provider name** <br/> |Choose your provider from the list.  <br/> > [!NOTE]> The remaining settings in this table apply only if you select Microsoft as the audio conferencing provider.           |
+|**Provider name** <br/> |Choose your provider from the list.  <br/><br/> **Note:** The remaining settings in this table apply only if you select Microsoft as the audio conferencing provider.           |
 |**Default toll number** (required) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Default toll-free umber** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Allow using toll-free numbers in the Microsoft bridge of your organization to join the meetings of this user** <br/> |Select this option if you want to allow the user of toll-free numbers for joining meetings.  <br/> |
 |**Send conference info via email** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md).  <br/> |
-|**Conference ID** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see[Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see[Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md).  <br/> |
+|**Conference ID** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
+|**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md).  <br/> |
 |**Allow unauthenticated callers to be the first people in a meeting** <br/> |Select this option to allow unauthenticated callers to be the first to join meetings.  <br/> |
 |**Restrictions to dial-outs from meetings of this user** <br/> |Select an option in this list if you want to restrict dial-outs to domestic only, or if you want to prevent all dial-outs from meetings.  <br/> |
    

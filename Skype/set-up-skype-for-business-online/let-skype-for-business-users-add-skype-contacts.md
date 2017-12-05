@@ -24,7 +24,7 @@ description: "See how to  let people who are using Skype for Business contact Sk
 
 With Skype for Business, your users can search for and IM with everyone who uses Skype, the free app! This article explains what you need to do so they can add Skype contacts. 
   
-You must have [admin permissions](about-office-365-admin-roles.md) in Office 365 to do this.
+You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Office 365 to do this.
   
 1. Sign in with your Office 365 admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
