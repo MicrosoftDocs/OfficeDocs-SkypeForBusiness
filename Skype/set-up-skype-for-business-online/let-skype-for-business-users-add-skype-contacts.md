@@ -24,7 +24,7 @@ description: "See how to  let people who are using Skype for Business contact Sk
 
 With Skype for Business, your users can search for and IM with everyone who uses Skype, the free app! This article explains what you need to do so they can add Skype contacts. 
   
-You must have [About Office 365 admin roles](about-office-365-admin-roles.md) in Office 365 to do this.
+You must have [admin permissions](about-office-365-admin-roles.md) in Office 365 to do this.
   
 1. Sign in with your Office 365 admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
@@ -46,11 +46,11 @@ You must have [About Office 365 admin roles](about-office-365-admin-roles.md) in
     
 6.  If you're using Windows Firewall, Skype for Business opens the required ports automatically.
     
-    If your organization uses another solution to restrict computers on your network from connecting to the Internet, ensure client computers are able to access all of the [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx) for Skype connectivity and Skype Directory Search. This may require adding them to the outbound allow list in your firewall or proxy infrastructure configuration.
+    If your organization uses another solution to restrict computers on your network from connecting to the Internet, ensure client computers are able to access all of the [IP addresses and URLs](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) for Skype connectivity and Skype Directory Search. This may require adding them to the outbound allow list in your firewall or proxy infrastructure configuration.
     
 7. **WAIT UP TO 24 HOURS TO TEST**. Any time you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.
     
-8. Show your users how to find and add Skype contacts to their list of Skype for Business contacts. Point them to [Search for people in Skype for Business](http://technet.microsoft.com/library/b12500ef-e37f-4d22-aade-c11277e53f19%28Office.14%29.aspx).
+8. Show your users how to find and add Skype contacts to their list of Skype for Business contacts. Point them to [Search for people in Skype for Business](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
     
 ## Test and troubleshoot
 
@@ -64,7 +64,7 @@ To test your setup, you need a contact on Skype who's not behind your company fi
   
 3. In Skype for Business, search for your contact in Skype, and send a request to chat. 
     
-    If you get the message it couldn't be sent due to company policy, you need to doublecheck your [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx). 
+    If you get the message it couldn't be sent due to company policy, you need to double-check your [firewall settings](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your Skype contact to chat. 
     
@@ -97,8 +97,6 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
 |![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
    
 ## See also
-
-#### Other Resources
 
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
   

@@ -52,7 +52,7 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |Yes  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
-## Related Topics
+## See also
 
 [Set up Calling Plans](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
