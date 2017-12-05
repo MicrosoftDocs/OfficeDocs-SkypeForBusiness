@@ -19,9 +19,7 @@ Office 365 Calling Plans is an add-on service for the Phone System feature, deli
 
 To learn more, read [Here's what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
-> [!NOTE]
-> Calling Plans supports both Teams and Skype for Business Online. To manage Calling Plans, use the Skype for Business Admin center and remote Windows PowerShell commands.
-
+This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases, Envision, Onboard, and Drive Value, to help you plan, deliver, and operate a Phone System with Calling Plans implementation towards succesful business outcomes.
 
 Envision <a name="Envision_PhoneSystemWithCallingPlans"> </a>
 ========
@@ -50,8 +48,9 @@ Business use cases are meant to document expected, measurable business outcomes,
 -   How technology can help overcome these challenges
 -   The expected, measurable business outcomes if these challenges are overcome
 
-> The following is an example of a completed business use case:
-> 
+<br>
+> _The following is an example of a completed business use case:_
+> <br>
 ><table>
 <tbody>
 <tr class="header">
@@ -86,8 +85,9 @@ Identify key stakeholders
 
 The business use cases defined in the previous step will include organizational scope of Phone System with Calling Plans implementation, and based on that, the comprehensive stakeholder matrix can be completed to include the right people to be involved in the project.
 
-> Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
->
+<br>
+> _Below is an example of stakeholder matrix template that you can use to document the project stakeholders:_
+> <br>
 > <table>
 <thead>
 <tr class="header">
@@ -238,8 +238,9 @@ Full participation from project stakeholders when defining the OKRs and KSIs wil
 
 OKRs will contain the list of objectives set in the beginning of the project, with measurable key results defined in a quarterly basis. The key results are reviewed monthly to track status of the overall project, and based on progress, adjustment to the quarterly plans can be made as needed.
 
-> Example of OKRs relevant to Phone System with Calling Plans implementation can be referenced below:
->
+<br>
+> _Example of OKRs relevant to Phone System with Calling Plans implementation can be referenced below:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -278,8 +279,9 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 
 KSIs measure quality and success of the key results and complement the binary nature of OKRs (achieved or not achieved), by detailing the good and/or bad results. When defining KSIs, we recommend leveraging the “specific, measurable, assignable, realistic, time-related” or SMART criteria.
 
-> The following is an example of KSI relevant to this project:
->
+<br>
+> _The following is an example of KSI relevant to this project:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -354,8 +356,9 @@ KSIs measure quality and success of the key results and complement the binary na
 
 You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk. This information can be captured into a risk plan.
 
-> Your risk plan can be documented as the example below:
->
+<br>
+> _Your risk plan can be documented as the example below:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -423,8 +426,9 @@ Map operational roles
 
 Planning for operations and identifying the teams that will operate the Phone System with Calling Plans service is an important step, as operations must start when the first pilot users are enabled. Each identified team must review and agree on the tasks and responsibilities identified and start the preparation to operate Phone System with Calling Plans service. The preparation might include training and readiness, additional staffing, or ensuring external providers are set up to deliver the service.
 
-> The following is an example of template to document the result of operational roles mapping exercise that you performed to support this project:
->
+<br>
+> _The following is an example of template to document the result of operational roles mapping exercise that you performed to support this project:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -532,6 +536,7 @@ Operational roles mapping exercise will establish the roles and responsibilities
 
 You need to complete this and include the operational plan as part of the success plan to ensure operational readiness of the solution.
 
+
 Planning for Phone System with Calling Plans in Teams  <a name="Planning_PhoneSystemWithCallingPlans"> </a>
 =====================================================
 
@@ -563,8 +568,9 @@ After confirming your organization’s eligibility for obtaining the Calling Pla
 </tbody>
 </table>
 
-> Below is an example of a Phone System with Calling Plans site enablement list template:
->
+<br>
+> _Below is an example of a Phone System with Calling Plans site enablement list template:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -651,8 +657,9 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 </tbody>
 </table>
 
-> You can document the license assignment list for Phone System with Calling Plans users using the following example:
->
+<br>
+> _You can document the license assignment list for Phone System with Calling Plans users using the following example:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -702,8 +709,9 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 </tbody>
 </table>
 
->Your Communications Credits planning numbers can be documented as the following:
->
+<br>
+>_Your Communications Credits planning numbers can be documented as the following:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -770,8 +778,9 @@ In addition to validated emergency address, emergency locations can be defined a
 </tbody>
 </table>
 
-> The details of phone number acquisition, phone numbers, and emergency location details can be document using the following template:
->
+<br>
+> _The details of phone number acquisition, phone numbers, and emergency location details can be documented using the following template:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -855,8 +864,9 @@ Phone System voicemail features voicemail transcription and by default it is ena
 </tbody>
 </table>
 
-> Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following:
->
+<br>
+> _Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -929,8 +939,9 @@ By default, all outbound calls use the assigned phone number as calling identity
 </tbody>
 </table>
 
-> The following is an example of Caller ID masking details documentation template:
->
+<br>
+> _The following is an example of Caller ID masking details documentation template:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -1030,8 +1041,9 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 </tbody>
 </table>
 
-> If it is applicable to your project, you can use the following template to document the tenant dial plans configurations
->
+<br>
+> _If it is applicable to your project, you can use the following template to document the tenant dial plans configurations_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -1063,8 +1075,9 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 </tbody>
 </table>
 
-> The example template below can be leveraged to document dial plan assignments to support your project:
->
+<br>
+> _The example template below can be leveraged to document dial plan assignments to support your project:_
+><br>
 ><table>
 <thead>
 <tr class="header">
@@ -1128,6 +1141,8 @@ In general, a technical implementation plan will contain the following main sect
 -	Communications Credits planning numbers
 
 -	Phone number acquisition, phone numbers, and emergency location details
+
+-	Voicemail configuration details
 
 -	Caller ID masking configuration details
 
