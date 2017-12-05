@@ -82,7 +82,6 @@ See [See, change, and reset a conference ID assigned to a user](see-change-and-r
   
 6. Click **Save**. 
     
-See [Change the dial-in conferencing provider for users](https://support.office.com/en-us/article/Moving-a-user-s-audio-conferencing-provider-to-Microsoft-3a518241-1ecc-406a-93a1-d2653eecc0f5?ui=en-US&rs=en-US&ad=US)).
   
 ## Enable or disable emails sent to audio conferencing users
 
