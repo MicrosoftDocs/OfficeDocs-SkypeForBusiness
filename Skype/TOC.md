@@ -1,7 +1,7 @@
 
   
 
-# [Skype for Business admin]
+# Skype for Business admin
 ## Accessibility and regulatory
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
 ### [Accessibility solutions for Skype for Business Online in France](accessibility-and-regulatory/accessibility-solutions-for-skype-for-business-online-in-france.md)
@@ -322,7 +322,7 @@
 ### [Your port order was accepted](what-are-calling-plans-in-office-365/your-port-order-was-accepted.md)
 ### [What phone service providers or carriers are supported?](what-are-calling-plans-in-office-365/what-phone-service-providers-or-carriers-are-supported.md)
 ### [What if I can't find the city or area code that I want?](what-are-calling-plans-in-office-365/what-if-i-can-t-find-the-city-or-area-code-that-i-want.md)
-## [What is Phone System in Office 365?]
+## What is Phone System in Office 365?
 ### [Create a Phone System call queue](what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
