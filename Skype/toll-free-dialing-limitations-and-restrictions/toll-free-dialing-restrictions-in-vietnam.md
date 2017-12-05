@@ -29,5 +29,5 @@ description: ""
 
 #### Other Resources
 
-[Toll free dialing limitations and restrictions](../misctopics/toll-free-dialing-limitations-and-restrictions.md)
+[Toll free dialing limitations and restrictions](../toll-free-dialing-limitations-and-restrictions.md)
 
