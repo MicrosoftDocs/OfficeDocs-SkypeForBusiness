@@ -29,7 +29,7 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
 5. On the **Identify the issue** page, select and enter in the following:
     
-  - **Feature:** Select **Domestic Calling Plan** and/or **International Plan**.
+  - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
     
   - **Symptom:** Enter **Emergency Calling**.
     
