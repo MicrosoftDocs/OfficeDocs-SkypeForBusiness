@@ -15,22 +15,22 @@ description: "Learn how to set up communication credits (PSTN Consumption) billi
 
 # Set up Communications Credits for your organization
 
-You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading[What are Communications Credits?](what-are-communications-credits.md)
+You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
   
 > [!NOTE]
 > To find out how much it costs, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
 ## Step 1: Assign an Audio Conferencing and Calling Plan license to your users
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get [Where can my PSTN Calling users call?](http://technet.microsoft.com/library/9fb78723-05f4-4b86-98e4-fa2a1da3ab5c%28Office.14%29.aspx). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
+When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here].(../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   
-- Assign an **Audio Conferencing** license to your users. See[Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
+- Assign an **Audio Conferencing** license to your users. See [Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
     After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md).
     
-- Assign **Phone System** and a domestic or international Calling Plan license to your users. See[Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
+- Assign **Phone System** and a domestic or international Calling Plan license to your users. See [Assign Skype for Business and Microsoft Teams licenses](assign-skype-for-business-and-microsoft-teams-licenses.md).
     
     > [!NOTE]
     > Although it's not required for Communications Credits, you still need to also assign a **Domestic Calling Plan** or an **International Calling Plan** license.
@@ -64,7 +64,7 @@ For more information, see [Skype for Business and Microsoft Teams add-on licensi
   
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you want to export the data for storage or create custom reports. To see usage, see[Skype for Business PSTN usage report](../skype-for-business-online-reporting/skype-for-business-pstn-usage-report.md)
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel if you want to export the data for storage or create custom reports. To see usage, see [Skype for Business PSTN usage report](../skype-for-business-online-reporting/skype-for-business-pstn-usage-report.md)
   
 ## Step 3: Assign a Communications Credits license to users
 
@@ -85,7 +85,7 @@ You can see the plans and pricing by visiting one of the following links:
   
 - [Calling Plans](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [ Audio Conferencing Plans](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Audio Conferencing Plans](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
 - [Phone System Plans](https://go.microsoft.com/fwlink/?LinkId=799763)
     
@@ -93,4 +93,3 @@ You can also see information by [signing in to the Office 365 admin center](http
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-
