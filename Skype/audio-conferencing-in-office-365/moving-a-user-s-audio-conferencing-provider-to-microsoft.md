@@ -20,7 +20,7 @@ description: "Change your Skype for Business users from third-party audio confer
 
 # Moving a user's audio conferencing provider to Microsoft
 
-To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an ** Audio Conferencing** license assigned to them and their audio conferencing provider must be set to Microsoft. See[Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
+To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an **Audio Conferencing** license assigned to them and their audio conferencing provider must be set to Microsoft. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
   
 ## To move a user's audio conferencing provider to Microsoft
 
@@ -34,7 +34,7 @@ To set Microsoft as the audio conferencing provider for a user that has an **Aud
     
 3. In the **Skype for Business admin center**, go to **Audio conferencing**.
     
-4. If you see a banner notifying you that there are users who have an ** Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
+4. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
 5. Select the users you want to move, and then in the Action pane, click **Edit**.
     
@@ -51,8 +51,8 @@ To set Microsoft as the audio conferencing provider for a user that has an **Aud
     
 - If you want to change audio conferencing settings for a user, you can select the user from the list and then click **Edit** and make your changes on the **Properties** page.
     
-## Related Topics
+## See also
 
-[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   
 
