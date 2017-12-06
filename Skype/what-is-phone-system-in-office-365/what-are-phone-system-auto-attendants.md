@@ -34,12 +34,12 @@ A Phone System auto attendant has the following features:
 
 To get started using auto attendants, it's important to remember that:
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned impacts the number of service numbers that are available to be used for auto attendants. The number of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned impacts the number of service numbers that are available to be used for auto attendants. The number of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
     > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See[Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) and[Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+- To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) and [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used. 
@@ -48,7 +48,7 @@ To get started using auto attendants, it's important to remember that:
 
 ### Dial by Name
 
-Dial by Name is a feature of an auto attendant that is known as directory search. It enables the people who call in to your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. If you have Skype for Business Online users, **they aren't required to have a phone number or have Calling Plans assigned to them, but they must have a **Phone System** license** for them to be reachable when they search using Dial by Name. Dial by Name will even be able to find and transfer calls to Skype for Business Online users who are hosted in different countries or regions for multi-national organizations.
+Dial by Name is a feature of an auto attendant that is known as directory search. It enables the people who call in to your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. If you have Skype for Business Online users, **they aren't required to have a phone number or have Calling Plans assigned to them, but they must have a Phone System license** for them to be reachable when they search using Dial by Name. Dial by Name will even be able to find and transfer calls to Skype for Business Online users who are hosted in different countries or regions for multi-national organizations.
   
 > [!CAUTION]
 > On-premises deployments of Lync Server 2010 users won't be listed in the directory when someone searches for them. 
@@ -228,7 +228,7 @@ To set up an auto attendant and the menu options, go [Set up a Phone System auto
   
 ### Getting service numbers for an auto attendant
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) or, if you want to transfer and existing service number, see[Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
@@ -251,10 +251,9 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
-## Related Topics
+## See also
 
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
   
 [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
-

@@ -25,7 +25,7 @@ Communications Credits﻿ are a convenient way to pay for Audio Conferencing and
     
 - Dial any international phone number when you have **Domestic Calling Plan** subscriptions.
     
-- Dial international phone numbers beyond what is included in an **International Calling Plan** subscription.
+- Dial international phone numbers beyond what is included in a **Domestic and International Calling Plan** subscription.
     
 - Dial out and pay per minute once you have exhausted your monthly minute allotment.
     
@@ -46,7 +46,7 @@ To use toll-free numbers in Skype for Business, Communications Credits are requi
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Office 365 admin center** > **Users** > **Active Users**. 
   
-It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [What are Calling Plans in Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) and[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md).
+It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [What are Calling Plans in Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) and [Audio Conferencing common questions](../audio-conferencing-in-office-365/Audio-Conferencing-common-questions.md).
   
 You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
@@ -81,8 +81,5 @@ You can also see information about pricing by [signing in to the Office 365 admi
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## Related Topics
-
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
+## See also
+[Skype for Business PSTN usage report](../skype-for-business-online-reporting/skype-for-business-PSTN-usage-report.md)

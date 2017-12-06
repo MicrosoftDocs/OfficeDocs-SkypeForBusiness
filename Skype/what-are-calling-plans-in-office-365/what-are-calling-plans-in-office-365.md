@@ -31,7 +31,7 @@ Users who are assigned phone numbers can make voice calls from all Skype for Bus
 
 Before you set this up, take a look at these topics for questions you might have:
   
-- To see if your country/region has Calling Plans available and the number of minutes you will get select the [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) from the drop down.
+- To see if your country/region has Calling Plans available and the number of minutes you will get select the [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) from the drop down.
     
 - If you think you will go over the number of minutes, [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
@@ -50,10 +50,7 @@ To learn more about Phone System, Calling Plans, and audio conferencing, see thi
 |![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
    
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
+
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
