@@ -41,12 +41,10 @@ Setting up and getting delegation to work correctly depends on you following the
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/Skype for Business Basic Client**|
-|:-----|
-|**Skype for Business 2015**|
-|:-----|
-|**Skype for Business 2016**|
-|:-----|
+|**Lync/Skype for Business Basic Client**| Not supported |Not supported
+|**Skype for Business 2015**|Supported| Supported|
+|**Skype for Business 2016**|Supported| Supported|
+
    
 ### Licensing requirements
 
@@ -103,13 +101,13 @@ If the setup is successful, the delegate should see the **You were added as a de
 
 ### Common issues
 
-> **Issue 1** The delegate entry continues to appear in the **People I Manage Calls For** group after the delegator has removed the delegate from the Outlook client.
+- > **Issue 1** The delegate entry continues to appear in the **People I Manage Calls For** group after the delegator has removed the delegate from the Outlook client.
     
-    **Resolution 1** On the Skype for Business client, right-click the delegate in the **Delegates** group, and then select **Remove from Group**.
+- - > **Resolution 1** On the Skype for Business client, right-click the delegate in the **Delegates** group, and then select **Remove from Group**.
     
-> **Issue 2** After delegate access is granted through the Outlook client, neither the confirmation message nor the **People I Manage Calls For** group appear for the delegate.
+- > **Issue 2** After delegate access is granted through the Outlook client, neither the confirmation message nor the **People I Manage Calls For** group appear for the delegate.
     
-    **Resolution 2** Remove the delegation from the Outlook client, wait about 15 minutes for replication, and then add the delegate again.
+- - > **Resolution 2** Remove the delegation from the Outlook client, wait about 15 minutes for replication, and then add the delegate again.
     
 ### Other common issues
 
