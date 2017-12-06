@@ -22,7 +22,7 @@ By adding Calling Plans, a feature in Office 365 which is powered by Skype, you 
 
 ![Calling in Teams](media/Calling_in_Teams.png)
 
-# Prerequisites for enabling the Calls tab in Teams
+## Prerequisites for enabling the Calls tab in Teams
 To enable the Calls tab in Teams and allow your users to place and receive PSTN calls, you will need to have users provisioned with **Phone System** and **Calling Plans**. For information on how to set this up, please refer to [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0) documentation.
 
 > [!IMPORTANT]
@@ -30,10 +30,10 @@ To enable the Calls tab in Teams and allow your users to place and receive PSTN 
 > * **Hybrid Voice is not supported in Teams** - Hybrid Voice is currently not supported by Microsoft Teams. Hybrid Voice customers are not advised to change any of the policies to receive calls in Teams as this will cause service interruptions.
 > * **Federated calling is not supported in Teams** - Please be aware that federated calling (calling between tenants/companies) is currently not supported in Teams. Federated calls will always be routed to Skype for Business regardless of how you configure calling until it is supported in Teams.
 
-# Policy configuration
+## Teams interop policy configuration
 To enable Teams to begin receiving calls, you will need to update Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets, to redirect calls to Teams. For more information about Teams interop policy, please refer to [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability) documentation.
 
-## Default policy
+### Default Teams interop policy
 Teams has a default policy configuration designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling to Teams. This ensures that there are no unintended interruptions in voice services as you start to trial and deploy Teams.
 
 Teams interop policy has the following default configuration:
@@ -50,7 +50,7 @@ The behaviors of the default configuration are the following:
 > [!NOTE]
 > Users that have been provisioned with Phone System and Calling Plans licenses for use with Skype for Business Online, and configured with the default global Teams interop policy, will have the Calls tab enabled in Teams and can place outbound PSTN calls from Teams without administrators having to take any administrative action.
 
-### How to configure Teams to use the default policy
+#### How to configure Teams to use the default policy
 By default, global Teams interop policy is applied to all users in your tenant, and it is configured with the default settings as described above. If for some reason you have granted different policies to your users and would like to revert to the default setting, you will need to apply the global Teams interop policy via Skype for Business remote Windows PowerShell session:
 
     Grant-CsTeamsInteropPolicy -PolicyName Global -Identity user@contoso.com
@@ -58,7 +58,7 @@ By default, global Teams interop policy is applied to all users in your tenant, 
 > [!WARNING]
 > While it is possible to modify the global Teams interop policy from the default values, we strongly advised against making modifications to the global Teams interop policy. 
 
-## Configuring Teams to receive inbound PSTN calls
+### Configuring Teams to receive inbound PSTN calls
 To receive inbound PSTN calls in Teams, you will need to configure Teams as the default calling application by applying Teams interop policy with `CallingDefaultClient` parameter set to Teams.
 
 > [!IMPORTANT]
@@ -78,12 +78,12 @@ The behaviors of the policy above are the following:
 > [!WARNING]
 > Currently, changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients. Please consult the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) for information about support for existing certified SIP phones.
 
-### How to configure Teams to receive PSTN calls
+#### How to configure Teams to receive PSTN calls
 Apply the Teams interop policy as described above via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-## Configuring Teams to allow users to change their preferred calling experience
+### Configuring Teams to allow users to change their preferred calling experience
 To let users to make their own decision over the preferred calling experience, whether to receive calls in Teams or Skype for Business, you need to create a custom Teams interop policy that enables `AllowEndUserClientOverride` parameter.
 
 The following is the example of Teams interop policy to enable user choice of the preferred calling experience:
@@ -100,7 +100,7 @@ Once this custom policy is applied to the users, the option to change the prefer
 > [!IMPORTANT]
 > It is recommended that you apply this configuration to an initial set of users prior to making wider or organization level changes.
 
-### How to create and apply the custom TeamsInteropPolicy
+#### How to create and apply the custom TeamsInteropPolicy
 To create the custom Teams interop policy as described above via Skype for Business remote Windows PowerShell session, perform the following:
 
     New-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
@@ -109,7 +109,7 @@ To create the custom Teams interop policy as described above via Skype for Busin
 
 
 
-### See also
+## See also
 [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
 
 [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
