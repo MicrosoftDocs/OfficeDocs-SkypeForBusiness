@@ -42,6 +42,7 @@ The following table lists the known issues for Microsoft Teams.
 |List of workspaces is not alphabetized  <br/> |Users switching workspaces when adding a PowerBI tab will encounter an unalphabetized list of workspaces to switch between.  <br/> |No workaround.  <br/> ||
 |Scroll bar disappears when selecting reports  <br/> |Users adding PowerBI reports can't scroll through a list longer than one screen of reports without losing their scroll bar.  <br/> |Use Up and Down arrows to scroll through the list.  <br/> ||
 |Can't add more than five users at a time  <br/> |Public teams do not currently support adding more than five users simultaneously. The limit is 2500 for total membership.  <br/> |A future release will address this issue.  <br/> |3/13/2017  <br/> |
+|No external access to the Teams workspace  <br/> |External access is not currently available, but guest access is on the Microsoft Teams roadmap for August 2017.  <br/> |No workaround.  <br/> |11/2/2016  <br/> |
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/2017  <br/> |
 |Team member maximum of 2500  <br/> |Each Microsoft Team can have a maximum of 2500 members per team.  <br/> |No workaround.  <br/> |3/13/2017  <br/> |
 |Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface.  <br/> |3/13/2017  <br/> |
@@ -52,6 +53,7 @@ The following table lists the known issues for Microsoft Teams.
 |Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
 |Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 |Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> ||
+|Guests using MFA might have issues accessing the **Files** tab <br/> |Guests using multi-factor authentication (MFA) might have intermittent issues accessing the **Files** tab. <br/> |If issues persist, disable MFA for those users.  <br/> ||
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> ||
    
 

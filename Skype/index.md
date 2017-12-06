@@ -120,7 +120,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365 ">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Manage the Audio Conferencing settings for my organization</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Manage the Audio Conferencing settings for my organization</a></p>
                     </div>
                 </div>
             </div>
@@ -169,10 +169,10 @@ Learn how to manage Skype for Business Online for your organization.
                     <div class="cardText">
                         <h3>Phone System</h3>
                         <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">What is Phone System in Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365">Here's what you get with Phone System in Office 365</a></p>
-                    </div>
+               </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </li>
     <li>
         <div class="cardSize">
