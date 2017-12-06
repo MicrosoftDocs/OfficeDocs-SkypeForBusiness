@@ -139,7 +139,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 This will give you a tabular view of all migration states like this:
   
-State UserCount----- ---------Pending 21InProgress 6Failed 2Succeeded 131
+State UserCount---------------<br/> Pending 21<br/>InProgress 6<br/> Failed 2 <br/> Succeeded 131
 > [!IMPORTANT]
 > If you see any migrations that have failed, take action to resolve these issues as soon as possible. People won't be able to dial-in to the meetings organized by those users until you address these. See the [What do I do if there is an error?](setting-up-the-meeting-migration-service-mms.md#Troubleshooting) section for more information.
   
