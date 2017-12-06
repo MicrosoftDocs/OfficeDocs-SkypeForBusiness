@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.PortingNumbersOverview
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -17,7 +17,6 @@ ms.custom:
 - LIL_Placement
 - Strat_SB_PSTN
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
-
 description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
 ---
 
@@ -25,7 +24,7 @@ description: "Learn what you need to know and do before porting phone numbers to
 
 It's easy to transfer your phone numbers from your current service provider to Skype for Business. After you port your phone numbers to Skype for Business, Microsoft will become your service provider and will bill you for those phone numbers.
   
-Before you start transferring phone numbers, we recommend that you review the information in [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manually submit a custom service request](manually-submit-a-custom-service-request.md) to download the correct forms and send them to us.
+Before you start transferring phone numbers, we recommend that you review the information in [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md). If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
 > [!NOTE]
 > We process port orders for transferring phone numbers only on U.S. business days and not on public holidays or weekends. 
   
@@ -33,7 +32,7 @@ Before you start transferring phone numbers, we recommend that you review the in
 <a name="bk_LNPcountries_1"> </a>
 
 > [!NOTE]
-> If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manually submit a custom service request](manually-submit-a-custom-service-request.md) to download the correct forms and send them to us.
+> If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md) to select the correct country/region and download the correct forms and send them to us.
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -106,4 +105,3 @@ Your port order request will be checked and updated daily and you will be notifi
 [Set up Calling Plans](set-up-calling-plans.md)
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
   
-

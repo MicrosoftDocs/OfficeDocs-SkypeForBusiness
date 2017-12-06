@@ -15,7 +15,7 @@ description: "Microsoft collects census, usage, and error data to understand how
 
 # Skype for Business and Microsoft Teams data collection practices
 
-Skype for Business Server 2015, Skype for Business Online, and Skype for Business clients collect data to help Microsoft understand how these products are being used and what kinds of errors, such as sign-in errors, have occurred. This information helps us understand usage patterns, plan new features, and troubleshoot and fix problem areas.
+Skype for Business Server 2015, Skype for Business Online, along with Skype for Business and Microsoft Teams apps collect data to help Microsoft understand how these products are being used and what kinds of errors, such as sign-in errors, have occurred. This information helps us understand usage patterns, plan new features, and troubleshoot and fix problem areas.
   
 While some usage data is collected automatically, other data can only be collected when the admin and/or user chooses to allow it. Data collection falls into these three categories:
   
@@ -27,10 +27,8 @@ While some usage data is collected automatically, other data can only be collect
     
 ## Census data
 
-Census data is acquired solely to provide, support, and improve Skype for Business and Skype for Business Online. It includes environmental information such as device and operating system versions, and regional and language settings. It also includes counters for sign-in attempts and failures. Here are some specific examples of the census data that's collected:
-  
-|
-|
+Census data is acquired solely to provide, support, and improve Skype for Business. Microsoft Teams and Skype for Business Online. It includes environmental information such as device and operating system versions, and regional and language settings. It also includes counters for sign-in attempts and failures. Here are some specific examples of the census data that's collected:
+
 |****Data type****|****Example****|****Notes****|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
@@ -51,8 +49,6 @@ Usage data includes information such as number of calls made, number of IMs sent
   
 Usage data might contain information that identifies your organization, such as contoso.com. Here are some specific examples of the usage data that's collected:
   
-|
-|
 |****Data type****|****Example****|****Notes****|
 |:-----|:-----|:-----|
 |IM Sent  <br/> |12  <br/> ||
@@ -78,14 +74,12 @@ This policy defaults to false, so telemetry collection is off by default. This s
 
 Error reporting data can include information about performance and reliability, device configuration, network connection quality, error codes, error logs, and exceptions. Here are some specific examples of error reporting data that's collected:
   
-|
-|
-|****Data type****|****Example****||
+|****Data type****|****Example****|****Notes****|
 |:-----|:-----|:-----|
 |Message direction  <br/> |Incoming  <br/> ||
 |Conversation state  <br/> |Idle  <br/> ||
 |Conversation thread ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA==  <br/> ||
-|UserID  <br/> ||The ID is sent in cleartext , which the telemetry service hashes before storing it  <br/> |
+|UserID  <br/> |amosmarble <br/> |The ID is sent in cleartext , which the telemetry service hashes before storing it  <br/> |
    
 Error reporting data may also contain personally identifiable information such as the user's IP address and Session Initiation Protocol Uniform Resource Identifier (SIP URI). See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) for a detailed explanation of what's collected.
   
@@ -101,16 +95,13 @@ Error reporting requires two things:
   
 For Skype Meetings App, the MeetingUxEnableTelemetry also controls error reporting, although for crashes on Windows, the Watson settings control uploading crash info. There is no user setting for Skype Meetings App like you see in the desktop client dialog box.
   
-See [Set General options in Skype for Business](http://technet.microsoft.com/library/e1a46d3e-dcea-437a-ba7b-6d442a40f439%28Office.14%29.aspx) for more information.
+See [Set General options in Skype for Business](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) for more information.
   
-You can see [Set up your network for Skype for Business Online](http://technet.microsoft.com/library/81fa5e16-418d-4698-a5f0-e666211c5c66%28Office.14%29.aspx) to set up your network.
+You can see [Set up your network for Skype for Business Online](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) to set up your network.
   
-If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](http://technet.microsoft.com/library/d21f89b0-3afc-432e-b735-036b2432fdbf%28Office.14%29.aspx).
+If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
   
-## Related Topics
-
+## See also
 [Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Office 365 URLs and IP address ranges](http://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
-[Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx)
-  
-
