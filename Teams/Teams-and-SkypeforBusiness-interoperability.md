@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams and Skype for Business Interoperability
 author: arachmanGitHub
-ms.author: arachman
+ms.author: MyAdvisor
 manager: lehewe
 ms.date: 12/07/2017
 ms.topic: article
@@ -122,7 +122,7 @@ Below is the detailed explanation of how each setting of this parameter influenc
 |**Federated Skype for Business**     |Skype for Business         |Skype for Business         |Skype for Business         |
 
 > [!IMPORTANT]
-> Changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients.
+> Currently, changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients. Please consult the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) for information about support for existing certified SIP phones.
 
 ### Allowing user choice
 The `AllowEndUserClientOverride` parameter accepts Boolean value (**TRUE** or **FALSE**), and when it is set to **TRUE**, Teams will allow users to select where they want to receive their calls--Teams or Skype for Business, and users will be able to change their primary application at any time.
