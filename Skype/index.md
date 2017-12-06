@@ -73,7 +73,7 @@ Learn how to manage Skype for Business Online for your organization.
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online">
+        <a href="/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
