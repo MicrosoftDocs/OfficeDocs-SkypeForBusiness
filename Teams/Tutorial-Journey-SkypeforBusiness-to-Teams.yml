@@ -90,7 +90,7 @@ items:
     
     We know that change takes time. From deployment lifecycles to resource planning to technical readiness, there is a lot to consider. In addition, Teams represents a shift in the ways users do their jobs, so organizational readiness, governance and user change management is just as crucial to implementing a successful upgrade to Teams. As you begin exploring your journey to Teams, be sure to include your Adoption/Change Manager in your planning activities. Aligning the roadmap with your technical requirements and organizational readiness, will help drive successful business outcomes.
     
-    This guidance will become more detailed over time, enabling you to determine the best time for your organization to make the move to Teams. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) frequently and visit [www.SkypeandTeams.com](www.skypeandteams.com) on a regular basis for the latest guidance.
+    This guidance will become more detailed over time, enabling you to determine the best time for your organization to make the move to Teams. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) frequently and visit [www.SkypeandTeams.com](http://skypeandteams.com) on a regular basis for the latest guidance.
     
     Another great resource is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
 - title: Prepare your current environment

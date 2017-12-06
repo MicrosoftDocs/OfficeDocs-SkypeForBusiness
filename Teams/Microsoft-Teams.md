@@ -82,7 +82,7 @@ description: Microsoft Teams documentation and practical guidance
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Cloud voice deployment</h3>
+                                                    <h3>Cloud voice</h3>
                                                     <p>Set up Audio Conferencing in Teams</p>
                                                 </div>
                                             </div>

@@ -1,6 +1,4 @@
 
-  
-
 # [Skype for Business admin](skype-for-business-admin.md)
 ## [Accessibility and regulatory](accessibility-and-regulatory/accessibility-and-regulatory.md)
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
@@ -332,4 +330,5 @@
 #### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
 
