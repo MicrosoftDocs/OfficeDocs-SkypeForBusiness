@@ -133,7 +133,7 @@ You can also see [Set up Skype for Business Online](../set-up-skype-for-business
   
 ## Use Phones and Devices Optimized for Skype for Business
 
-In a real-time media session, media devices that are used by all participants such as headsets and web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices, on the other hand, help with echo cancellation, noise filtering, video resolution and reduce latency.
+In a real-time media session, media devices that are used by all participants such as headsets and web cams have a great impact on the overall audio and video quality. Lower-quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices, on the other hand, help with echo cancellation, noise filtering, video resolution and reduce latency.
   
 Phones and devices make a huge difference in the quality of audio and video for end users. The Skype for Business certification program is an evolution of the "Lync Compatible" program and validates that the device meets Microsoft standards for audio and video. There are a number of IP Phones, USB audio and video devices, PCs and meeting room devices that have been tested and qualified by Microsoft. You should review the list of devices that are optimized for Skype for Business, and work to provide different devices in order to meet the various needs and personal preferences of your end users in your organization.
   
