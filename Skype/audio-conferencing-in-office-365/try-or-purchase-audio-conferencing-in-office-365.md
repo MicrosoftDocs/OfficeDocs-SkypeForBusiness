@@ -24,11 +24,11 @@ For pricing info, see [Pricing for Audio Conferencing](https://products.office.c
   
 ## Step 1: Buy and assign Audio Conferencing licenses
 
-You must be an [About Office 365 admin roles](http://technet.microsoft.com/library/da585eea-f576-4f55-a1e0-87090b6aaa9d%28Office.14%29.aspx) to perform these steps.
+You must be an [About Office 365 admin roles](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
   
 ### To buy and assign user Audio Conferencing licenses:
 
-1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Get your ** Audio Conferencing** licenses. If you want to:
     
@@ -36,7 +36,7 @@ You must be an [About Office 365 admin roles](http://technet.microsoft.com/libra
     
   - **Buy it**, see[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-3. [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx) you purchased to the people in your organization who are going to schedule or lead meetings.
+3. [Assign or remove licenses for Office 365 for business](http://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
 4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
@@ -44,23 +44,23 @@ You must be an [About Office 365 admin roles](http://technet.microsoft.com/libra
 
 If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md). 
   
-1. Find out if **Audio Conferencing** is available in your country/region.[Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+1. Find out if **Audio Conferencing** is available in your country/region.[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
     
 2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
     
-3. [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) for your organization. To set up Communications Credits, see[What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+3. [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) for your organization. To set up Communications Credits, see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
     
     > [!IMPORTANT]
     > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses. 
   
-4. [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx) you purchased to the people in your organization who are going to schedule or lead meetings.
+4. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
     > [!NOTE]
     > If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services). 
   
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.) But if you have users who have been using a third-party audio conferencing provider (ACP), you will need to[Moving a user's audio conferencing provider to Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.) But if you have users who have been using a third-party audio conferencing provider (ACP), you will need to [Moving a user's audio conferencing provider to Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
   
 > [!NOTE]
 > If you want to use a third-party ACP, choose **Audio conferencing** > **Microsoft bridge**. At the bottom of the page, click **If you would like to configure a third-party audio conferencing provider instead, click here**. 
@@ -80,15 +80,12 @@ The following steps are **optional**, but a lot of admins like to do them:
 ## 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](http://technet.microsoft.com/library/A8AB5061-3346-4DA0-BB7C-5260822B53AE%28Office.14%29.aspx). 
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](http://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
   
 ## See also
-
-#### Other Resources
 
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md)
   
-[Set options for online meetings and conference calls](http://technet.microsoft.com/library/DCD1CA39-0C1F-466C-9573-F04138FEF5E2%28Office.14%29.aspx)
-
+[Set options for online meetings and conference calls](http://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

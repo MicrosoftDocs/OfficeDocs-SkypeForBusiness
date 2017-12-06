@@ -55,7 +55,7 @@ Most sign-in issues can be traced to a small number of causes, and many of these
 |You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/> |First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/> |
 |System clock out of sync with server clock  <br/> |Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).  <br/> |
    
-[To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
   
 ## Follow resolution steps for a specific error (Enterprise only)
 <a name="__toc325626440"> </a>
@@ -180,7 +180,7 @@ To fix this issue, follow these steps:
     
 2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
     
-[To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
   
 ## Use the Microsoft Support troubleshooting guide
 <a name="__toc325626447"> </a>
@@ -198,6 +198,6 @@ If you've followed the guidance above and still can't resolve your sign-in issue
     
 You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](http://technet.microsoft.com/library/ddf1f52f-24a1-4675-abe0-141052c88b72%28Office.14%29.aspx).
   
-[To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
   
 

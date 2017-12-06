@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/22/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -60,8 +60,5 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## See also
-
-#### Other Resources
-
-[Dial-in conferencing in Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Audio Conferencing](audio-conferencing-common-questions.md)
 
