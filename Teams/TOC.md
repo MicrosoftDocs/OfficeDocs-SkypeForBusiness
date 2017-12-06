@@ -86,8 +86,6 @@
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 
-# Teams for Education
-## [Quick Start: Deploy Teams for Education](Teams-quick-start-edu.yml)
 
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
