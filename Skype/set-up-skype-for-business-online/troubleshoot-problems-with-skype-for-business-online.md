@@ -68,7 +68,7 @@ Most of the problems faced by Skype for Business Online users are related to for
 As an admin for Office 365 for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Office 365 users in your organization.
   
 - [Get help from the Office 365 community forums](../images/12a746cc-184b-4288-908c-f718ce9c4ba5.png)(https://go.microsoft.com/fwlink/p/?LinkId=518605)
-- [Admins: Sign in and create a service request](../images/10862798-181d-47a5-ae4f-3f8d5a2874d4.png) (https://go.microsoft.com/fwlink/p/?LinkId=519124)
+- (../images/10862798-181d-47a5-ae4f-3f8d5a2874d4.png) [Admins: Sign in and create a service request](https://go.microsoft.com/fwlink/p/?LinkId=519124)
 - [Admins: Call Support](../images/9f262e67-e8c9-4fc0-85c2-b3f4cfbc064e.png)(https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
 > [!NOTE]
