@@ -296,6 +296,7 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 >|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, International and Domestic Calling Plan|Enabled|
 >|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
 
+<br>
 >_Your Communications Credits planning numbers can be documented as the following:_
 >
 >|         |         |
@@ -353,168 +354,50 @@ In addition to validated emergency address, emergency locations can be defined a
 
 Phone System voicemail, powered by Azure Voicemail Services, supports voicemail deposits to Exchange mailbox only and does not support third-party email systems.
 
-> [!NOTE]
-> A fallback mechanism has been implemented so that Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages. There is no guaranteed service uptime or other voicemail features, such as changing voicemail greetings and other settings.
-
 Phone System voicemail by default will work with Exchange Online, however it has a minimum [supported Exchange on-premises version and deployment model](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
 
 Phone System voicemail features voicemail transcription and by default it is enabled for all users in your organization. In some cases, your business may have requirements to disable voicemail transcription for specific users or throughout the organization.
 
-<br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide whether Phone System voicemail will be enabled for the Calling Plans implementation</li>
-<li>If using Exchange On-premises and existing deployment does not meet the requirements to support Phone System voicemail, decide the available options (upgrade and setup for Phone System voicemail support, or migrate to Exchange Online, leverage fallback mechanism)</li>
-<li>Decide if voicemail transcription is to be enabled/disabled throughout the organization or to specific users</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>If applicable, document the Exchange decision points to support Phone System voicemail</li>
-<li>If voicemail and voicemail transcription are not going to be enabled for all users, document the users to be enabled for voicemail and voicemail transcription</li></ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> A fallback mechanism has been implemented so that Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages. There is no guaranteed service uptime or other voicemail features, such as changing voicemail greetings and other settings.
 
 <br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether Phone System voicemail will be enabled for the Calling Plans implementation</li><li>If using Exchange On-premises and existing deployment does not meet the requirements to support Phone System voicemail, decide the available options (upgrade and setup for Phone System voicemail support, or migrate to Exchange Online, leverage fallback mechanism)</li><li>Decide if voicemail transcription is to be enabled/disabled throughout the organization or to specific users</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail</li><li>If voicemail and voicemail transcription are not going to be enabled for all users, document the users to be enabled for voicemail and voicemail transcription</li></ul>|
+
 > _Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Exchange mailbox</th>
-<th align="left">Enable voicemail</th>
-<th align="left">Voicemail transcription</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Exchange Mailbox  |Enable Voicemail  |Voicemail Transcription  |
+>|---------|---------|---------|---------|
+>|Emily Braun|Online|Yes|Enabled|
+>|Lidia Holloway|Online|Yes|Enabled|
+>|Pradeep Gupta|On-premises|Yes|Enabled|
+>|Marcel Beauchamp|On-premises|Yes|Disabled|
+>|Rachelle Cormier|Online|Yes|Disabled|
+>|Isabell Potvin|On-premises|Yes|Disabled|
 
 ## Calling Identity
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7) configuration—as Caller ID, or to block Caller ID presentation altogether.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide whether Caller ID manipulation is required for Calling Plans implementation.</li>
-<li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li>
-<li>If applicable, decide which user require Caller ID manipulation, and the type of Caller ID manipulation to be assigned to each user.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the users to be assigned with Caller ID manipulation and Caller ID manipulation type applicable for each user.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether Caller ID manipulation is required for Calling Plans implementation</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented</li><li>If applicable, decide which user require Caller ID manipulation, and the type of Caller ID manipulation to be assigned to each user</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users to be assigned with Caller ID manipulation and Caller ID manipulation type applicable for each user</li></ul>|
 
-<br>
 > _The following is an example of Caller ID masking details documentation template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Enable outbound Caller ID masking</th>
-<th align="left">Caller ID masking type</th>
-<th align="left">Allow user override</th>
-<th align="left">Enable inbound Caller ID masking</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">No</td>
-<td align="left">N/A</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, +44 20 7946 0000)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">No</td>
-<td align="left">N/A</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, TBA)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">Yes</td>
-<td align="left">Anonymize</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, TBA)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Enable outbound Caller ID masking  |Caller ID masking type  |Allow user override  | Enable inbound Caller ID masking  |
+>|---------|---------|---------|---------|---------|
+>|Emily Braun|No|N/A|Yes|No|
+>|Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
+>|Pradeep Gupta|No|N/A|Yes|No|
+>|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
+>|Rachelle Cormier|Yes|Anonymize|Yes|No|
+>|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
 
 ## Dial plans
 
@@ -539,112 +422,30 @@ The effective dial plan assigned to users is the combination of service dial pla
 There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</li>
-<li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li>
-<li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation.</li>
-<li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation.</li>
-<li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.)</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans</li><li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation</li><li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation</li><li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
 
-<br>
 > _If it is applicable to your project, you can use the following template to document the tenant dial plans configurations_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left"><p>Tenant Dial Plan Name</p><p>Description</p></th>
-<th align="left"><p>Normalization Rules Name</p><p>Description</p></th>
-<th align="left"><p>Pattern</p><p>Translation</p><p>IsInternalExtension</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td align="left"><p><strong>FR-Paris-Issy-39qdPR</strong></p>
-<p><em>39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan</em></p></td>
-<td align="left"><p><strong>FR-39qdPR-Internal</strong></p>
-<p><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></p></td>
-<td align="left"><p>^(7\d{3})$</p><p>+3319999$1</p><p>True</p></td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><p><strong>FR-TollFree</strong></p>
-<p><em>Toll Free number normalization for France</em></p></td>
-<td align="left"><p>^0?(80\d{7})\d*$</p><p>+33$1</p><p>False</p></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><strong>FR-Service</strong></p>
-<p><em>Service number normalization for France</em></p></td>
-<td align="left"><p>^(1\d{1,2}|11[68]\d{3}|10\d{2}|3\d{3})$</p><p>$1</p><p>False</p></td>
-</tr>
-</tbody>
-</table>
+>
+>|<p>Tenant Dial Plan Name</p><p>Description</p>  |<p>Normalization Rules Name</p><p>Description</p>  |<p>Pattern</p><p>Translation</p><p>IsInternalExtension</p>  |
+>|---------|---------|---------|
+>|**FR-Paris-Issy-39qdPR**<p>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_</p>|**FR-39qdPR-Internal**<p>_Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_</p>|^(7\d{3})$<p>+3319999$1</p><p>True</p>|
+>||**FR-TollFree**<p>_Toll Free number normalization for France_</p>|^0?(80\d{7})\d*$<p>+33$1</p><p>False</p>|
+>||**FR-Service**<p>_Service number normalization for France_</p>|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<p>$1</p><p>False</p>|
 
 <br>
 > _The example template below can be leveraged to document dial plan assignments to support your project:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Office</th>
-<th align="left">Dial Plan Type</th>
-<th align="left">Dial Plan Name</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-<tr class="odd">
-<td align="left">Rachelle Cormier</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Office  |Dial Plan Type  |Dial Plan Name  |
+>|---------|---------|---------|---------|
+>|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+>|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+>|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+>|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+>|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+>|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
 
 ## Document technical implementation plan
 
@@ -669,6 +470,7 @@ In general, a technical implementation plan will contain the following main sect
 
 -	Dial plan assignments
 
+<br>
 With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.
 
 <br>
@@ -683,8 +485,7 @@ Drive Value
 
 *Coming soon.*
 
-
-
+<br>
 ### See also
 
 [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
