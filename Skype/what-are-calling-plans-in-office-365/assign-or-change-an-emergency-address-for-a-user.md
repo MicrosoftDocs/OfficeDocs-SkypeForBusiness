@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -45,10 +45,5 @@ Want to know how to get Calling Plans in Office 365 and how much they cost, see 
     
 8. Select the emergency address from the address drop-down list, and then click **Save**. 
     
-## Related Topics
-
+## See also
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-

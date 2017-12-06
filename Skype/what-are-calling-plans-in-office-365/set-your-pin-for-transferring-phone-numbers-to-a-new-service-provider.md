@@ -45,7 +45,7 @@ Here is some specific information about this PIN you should know:
     
 5. In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.
     
-## Related Topics
+## See also
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   

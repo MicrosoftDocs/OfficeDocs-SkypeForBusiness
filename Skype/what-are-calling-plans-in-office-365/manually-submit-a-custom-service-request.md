@@ -31,10 +31,5 @@ If you have service numbers for dial-in conferencing bridges, auto attendants or
     
 - You must assign the new phone numbers you have to each of your users. [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
     
-## Related Topics
-
+## See also
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-

@@ -47,4 +47,3 @@ In the Office 365 and Skype for Business admin centers, you can use different ty
 |[Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) <br/> > [!TIP]> Use the ** Skype for Business admin center** > **Reports** to see this report.          | User name <br/>  Date/Time of call <br/>  Telephone Number <br/>  CallID <br/>  Call Type <br/>  Location <br/>  Call Duration <br/>  Currency <br/>  Call Charge <br/> |
 |[Skype for Business users blocked report](skype-for-business-users-blocked-report.md) <br/> > [!TIP]> Use the ** Skype for Business admin center** > **Reports** to see this report.          | Action Date <br/>  User Name <br/>  Action Type <br/>  Telephone Number <br/>  Reason <br/> |
    
-

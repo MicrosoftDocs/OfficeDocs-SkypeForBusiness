@@ -23,7 +23,4 @@ The service address is different from the billing or emergency address that you 
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
   
 ## See also
-
-#### Other Resources
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-

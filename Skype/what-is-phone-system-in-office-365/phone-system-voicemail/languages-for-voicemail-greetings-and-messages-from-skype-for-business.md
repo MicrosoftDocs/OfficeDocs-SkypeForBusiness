@@ -53,7 +53,5 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
 ## See also
-
 [Set up Calling Plans](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
-

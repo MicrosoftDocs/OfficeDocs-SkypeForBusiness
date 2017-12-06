@@ -101,11 +101,9 @@ Your port order request will be checked and updated daily and you will be notifi
 |:-----|
 |![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
    
-## Related Topics
+## See also
 <a name="bk_LNPcountries_1"> </a>
-
 [Set up Calling Plans](set-up-calling-plans.md)
-  
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
   
 

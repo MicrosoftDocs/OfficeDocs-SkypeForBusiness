@@ -130,7 +130,6 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 > The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid. 
   
 ## See also
-
 [Create and manage dial plans](create-and-manage-dial-plans.md)
   
 

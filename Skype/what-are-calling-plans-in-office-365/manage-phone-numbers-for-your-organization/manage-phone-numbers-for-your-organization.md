@@ -51,7 +51,6 @@ For user (also called subscriber) numbers, if you want to see about getting numb
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
     
 ## See Also
-
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
   
   

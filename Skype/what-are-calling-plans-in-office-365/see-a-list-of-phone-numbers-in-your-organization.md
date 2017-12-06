@@ -85,10 +85,6 @@ When you are setting up users in your organization to make and receive phone cal
   - **Pending licenses** and whether a user is Online or on-premises.
     
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
 [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 

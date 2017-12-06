@@ -22,6 +22,8 @@ description: "Learn how to get the Skype for Business Conference Participant Act
 # Skype for Business conference participant activity report
 
 As an Office 365 admin, the new **Reports** dashboard shows you data on the usage of the Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and and dial-in/out conferences are being participated in by users in your organization.
+
+Check out [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
 This report along with the other Skype for Business reports give you details on conferencing activity across your organization. These details are very helpful when you are investigating, planning, and making other business decisions for your organization.
   
@@ -73,8 +75,4 @@ This report along with the other Skype for Business reports give you details on 
 - [Skype for Business users blocked report](skype-for-business-users-blocked-report.md) You can see details about the type of media being used, duration of the session, the client used and the conferencing URL.
     
 ## See also
-
-#### Other Resources
-
-[Activity Reports in the Office 365 admin center](http://technet.microsoft.com/library/0d6dfb17-8582-4172-a9a9-aed798150263%28Office.14%29.aspx)
-
+[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -95,7 +95,4 @@ For full device features and capabilities, check the manufacturer user guides.
 ||||||
    
 ## What else should you know?
-
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
-  
-

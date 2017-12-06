@@ -69,12 +69,5 @@ The BlockIncomingCallerID attribute allows for blocking the caller ID on incomin
 To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).
   
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/21/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -22,7 +22,7 @@ When you are setting up users in your organization to make and receive phone cal
   
 Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, ** State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
-If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) or[Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)
+If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Search for phone numbers
 
@@ -48,6 +48,5 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 7. Select the phone numbers you want ,and then click **Acquire numbers**.
     
     > [!IMPORTANT]
-    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users.> For more details, see[How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md). 
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users.> For more details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md). 
   
-

@@ -87,10 +87,8 @@ We have training information and articles to help your users be successful with 
     
 - [Skype for Business 2016 training](http://technet.microsoft.com/library/eb2081bc-fd0a-4eda-94da-5a39f369ee74%28Office.14%29.aspx)
     
-## Related Topics
+## See also
 
 [Set up Skype for Business Online](../../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Here's what you get with Phone System in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365.md)
-  
-

@@ -46,14 +46,6 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 8. Select a new emergency address from the list, and then click **Save**.
     
 ## See also
-
-#### Other Resources
-
 [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md)
-  
 [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
-  
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-

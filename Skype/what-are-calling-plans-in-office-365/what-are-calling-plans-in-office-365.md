@@ -49,6 +49,5 @@ To learn more about Phone System, Calling Plans, and audio conferencing, see thi
    
 ## See also
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 

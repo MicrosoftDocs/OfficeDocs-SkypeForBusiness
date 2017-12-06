@@ -46,7 +46,7 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
     
 - You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
     
-## Related Topics
+## See also
 
 [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
   

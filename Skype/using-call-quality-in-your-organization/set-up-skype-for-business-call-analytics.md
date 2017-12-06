@@ -74,10 +74,5 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
   
 ## See also
 <a name="BKMK_UploadFiles"> </a>
-
-#### Other Resources
-
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
-  
 [What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
-

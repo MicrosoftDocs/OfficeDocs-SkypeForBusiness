@@ -55,5 +55,4 @@ Emergency addresses and locations are used during the process of routing emergen
     
 ## See also
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-  
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

@@ -12,5 +12,3 @@ ms.assetid: 5e87c9ed-c3e8-43b1-b95d-077ee9351c99
 ---
 
 # What is Phone System in Office 365?
-
-

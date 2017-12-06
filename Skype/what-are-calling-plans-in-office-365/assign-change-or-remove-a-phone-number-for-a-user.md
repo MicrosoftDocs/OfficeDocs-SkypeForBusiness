@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -23,11 +23,11 @@ When you set up Calling Plans in Office 365, you assign phone numbers to your us
 ![Work Phone Number is Greyed Out.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
   
 > [!IMPORTANT]
-> If a user wants to [Change my phone number for Skype for Business](http://technet.microsoft.com/library/20e03cc1-c023-4e5d-bafd-064ddb59ed5e%28Office.14%29.aspx) ** and the phone number in the Skype for Business app can't be changed or is grayed out**, that means an admin has set it for them and it can't be changed by them.
+> If a user wants to [Change my phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) ** and the phone number in the Skype for Business app can't be changed or is grayed out**, that means an admin has set it for them and it can't be changed by them.
   
 ## Assigning a number
 
-When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin centerand assign a phone number, but you can change or remove the phone number if you need to.
+When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.
   
 To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -58,7 +58,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 8. After you pick the phone number and emergency location, click **Save**.
     
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx). We're here to help! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 ## Changing a number
 
@@ -99,10 +99,4 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 6. On the **Remove selected assigned number?** page, click **Yes**.
     
 ## See also
-
-#### Other Resources
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-

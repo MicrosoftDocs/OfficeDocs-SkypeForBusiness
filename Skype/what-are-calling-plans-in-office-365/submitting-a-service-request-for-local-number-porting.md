@@ -20,7 +20,7 @@ description: "If you have more than 999 phone numbers to transferred to Skype fo
 
 If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)
   
-## Related Topics
+## See also
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   

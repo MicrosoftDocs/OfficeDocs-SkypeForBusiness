@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notifications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+description: "Learn how to turn mobile phone notifications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages."
 ---
 
 # Turn on or off mobile phone notifications
@@ -42,12 +42,9 @@ Keep in mind:
 - When you turn off push notifications, users can't turn them back on.
     
 > [!IMPORTANT]
->  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the[Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
 ## See also
 <a name="__top"> </a>
-
-#### Other Resources
-
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 

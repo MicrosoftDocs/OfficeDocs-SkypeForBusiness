@@ -10,7 +10,7 @@ localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 
-description: "Learn how to set up and test Phone System (Cloud PBX) auto attendents for efficient call handling for your organization. "
+description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. "
 ---
 
 # Set up a Phone System auto attendant

@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/9/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -66,10 +66,6 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 6. Click **Save**.
     
-## Related Topics
-
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
+## See also 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   
-

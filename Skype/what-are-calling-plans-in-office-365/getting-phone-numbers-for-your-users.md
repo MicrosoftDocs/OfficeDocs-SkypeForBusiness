@@ -29,7 +29,7 @@ You have two ways of getting numbers for your users:
 You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by **Country/Region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users.
   
 > [!NOTE]
-> If you need help setting up phone numbers for your organization, you can [Contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+> If you need help setting up phone numbers for your organization, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## 
 
@@ -61,7 +61,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 7. Select the phone numbers you want, and then click **Acquire numbers**.
     
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
  **Port or transfer phone numbers from your service provider or phone carrier**
   
@@ -89,9 +89,4 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 - You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column.
     
 ## Related Topics
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
