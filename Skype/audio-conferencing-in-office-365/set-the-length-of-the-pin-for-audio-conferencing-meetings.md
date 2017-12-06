@@ -70,7 +70,5 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## See also
 
-#### Other Resources
-
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 
