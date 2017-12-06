@@ -72,8 +72,11 @@ The following preconfigured Teams interop policy can be considered to route inbo
     ChatDefaultClient          : Teams
 
 The behaviors of the policy above are the following:
-* **For existing Skype for Business customers**, this policy is designed to redirect incoming calls to Teams. This includes both VoIP (from Teams and Skype for Business) and PSTN calls. Federated calls will continue to be received in Skype for Business. Skype for Business IP phones signed in with user accounts that have been applied with this policy will stop receiving incoming calls as well. 
+* **For existing Skype for Business customers**, this policy is designed to redirect incoming calls to Teams. This includes both VoIP (from Teams and Skype for Business) and PSTN calls. Federated calls will continue to be received in Skype for Business. 
 * **For customers without Skype for Business**, when in effect, PSTN calls will be received in Teams. Federated calling is currently **not supported** in Teams.
+
+> [!WARNING]
+> Currently, changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients. Please consult the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) for information about support for existing certified SIP phones.
 
 ### How to configure Teams to receive PSTN calls
 Apply the Teams interop policy as described above via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
