@@ -58,7 +58,7 @@ By default, global Teams interop policy is applied to all users in your tenant, 
 > [!WARNING]
 > While it is possible to modify the global Teams interop policy from the default values, we strongly advised against making modifications to the global Teams interop policy. 
 
-### Configuring Teams to receive inbound PSTN calls
+## Configuring Teams to receive inbound PSTN calls
 To receive inbound PSTN calls in Teams, you will need to configure Teams as the default calling application by applying Teams interop policy with `CallingDefaultClient` parameter set to Teams.
 
 > [!IMPORTANT]
@@ -78,12 +78,12 @@ The behaviors of the policy above are the following:
 > [!WARNING]
 > Currently, changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients. Please consult the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) for information about support for existing certified SIP phones.
 
-#### How to configure Teams to receive PSTN calls
+### How to configure Teams to receive PSTN calls
 Apply the Teams interop policy as described above via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-### Configuring Teams to allow users to change their preferred calling experience
+## Configuring Teams to allow users to change their preferred calling experience
 To let users to make their own decision over the preferred calling experience, whether to receive calls in Teams or Skype for Business, you need to create a custom Teams interop policy that enables `AllowEndUserClientOverride` parameter.
 
 The following is the example of Teams interop policy to enable user choice of the preferred calling experience:
@@ -100,7 +100,7 @@ Once this custom policy is applied to the users, the option to change the prefer
 > [!IMPORTANT]
 > It is recommended that you apply this configuration to an initial set of users prior to making wider or organization level changes.
 
-#### How to create and apply the custom TeamsInteropPolicy
+### How to create and apply the custom Teams interop policy
 To create the custom Teams interop policy as described above via Skype for Business remote Windows PowerShell session, perform the following:
 
     New-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
