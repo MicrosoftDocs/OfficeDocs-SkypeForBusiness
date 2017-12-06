@@ -111,8 +111,8 @@
 
 ## [Skype for Business Online reporting](skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Skype for Business activity report](skype-for-business-online-reporting/skype-for-business-activity-report.md)
-### [Skype for Business blocked users report](skype-for-business-online-reporting/skype-for-business-users-blocked-report.md)
-### [Skype for Business clients used report](skype-for-business-online-reporting/skype-for-business-device-usage-report.md)
+### [Skype for Business users blocked report](skype-for-business-online-reporting/skype-for-business-users-blocked-report.md)
+### [Skype for Business device usage report](skype-for-business-online-reporting/skype-for-business-device-usage-report.md)
 ### [Skype for Business conference organizer activity report](skype-for-business-online-reporting/skype-for-business-conference-organizer-activity-report.md)
 ### [Skype for Business conference participant activity report](skype-for-business-online-reporting/skype-for-business-conference-participant-activity-report.md)
 ### [Skype for Business peer-to-peer activity report](skype-for-business-online-reporting/skype-for-business-peer-to-peer-activity-report.md)
