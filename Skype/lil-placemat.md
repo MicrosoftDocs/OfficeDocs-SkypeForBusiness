@@ -13,3 +13,8 @@ description: Discover free video courses for Office 365 admins and IT pros, brou
 > ![LinkedIn logo](images/linkedinlogo.png) **New to Office 365?**
 > 
 > Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/en-us/article/Office-365-admins-and-IT-pros-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning.
+
+> [!TIP]
+> ![LinkedIn logo](images/linkedinlogo.png) **New to Office 365?**
+> 
+> Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/en-us/article/Office-365-admins-and-IT-pros-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning.
