@@ -20,10 +20,10 @@ description: "Learn how to look up your dial-in conferencing numbers from within
 
 When you set up Audio Conferencing for Skype for Business and Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   
- **Looking for prices?** See[Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search.> Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business and Microsoft Teams meeting invitations.
   
@@ -45,7 +45,7 @@ You can see [Set the Audio Conferencing phone numbers for meeting organizers tha
   - You can also view the location, and the primary and secondary languages that will be used by the audio conferencing auto attendant.
     
 > [!NOTE]
-> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See[Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md). 
+> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md). 
   
 ## Want to know how to manage with Windows PowerShell?
 
@@ -68,7 +68,7 @@ You can see [Set the Audio Conferencing phone numbers for meeting organizers tha
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## Related Topics
+## See also
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   

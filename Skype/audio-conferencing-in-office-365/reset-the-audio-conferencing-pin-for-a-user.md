@@ -26,7 +26,7 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**, and in the left navigation, click **Audio conferencing**
+2. Go to the **Office 365 admin center** > **Skype for Business**, and in the left navigation, click **Audio conferencing**.
     
 3. Click on **Users**, select the user that you want to reset the PIN for.
     
