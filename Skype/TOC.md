@@ -1,6 +1,4 @@
 
-  
-
 # [Skype for Business admin](skype-for-business-admin.md)
 ## [Accessibility and regulatory](accessibility-and-regulatory/accessibility-and-regulatory.md)
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
@@ -152,7 +150,7 @@
 ### [Allow users to contact external Skype for Business users](set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Configure presence in Skype for Business Online](set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Configure presence privacy mode](set-up-skype-for-business-online/configure-presence-privacy-mode.md)
-### [Configure Skype for Business settings for individual users](set-up-skype-for-business-online/admins-configure-skype-for-business-settings-for-individual-users.md)
+### [Admins: Configure Skype for Business settings for individual users](set-up-skype-for-business-online/admins-configure-skype-for-business-settings-for-individual-users.md)
 ### [Customize meeting invitations](set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [Deploy the Skype for Business client](set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
 ### [Let people record their audio and video conferences](set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md)
@@ -332,4 +330,5 @@
 #### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
 
