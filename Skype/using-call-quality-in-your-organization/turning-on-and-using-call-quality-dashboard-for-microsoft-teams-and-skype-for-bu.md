@@ -36,7 +36,7 @@ The most recent changes to CQD are as follows:
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md)﻿.
   
 > [!NOTE]
-> Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to[Call Quality dashboard](https://aka.ms/CQDOnline). 
+> Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to [Call Quality dashboard](https://aka.ms/CQDOnline). 
   
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
@@ -105,7 +105,7 @@ Use the data on this tab to evaluate call quality status and trends by looking a
   
 ![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as * Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to[https://aka.ms/cqd_quality_thresholds](https://aka.ms/cqd_quality_thresholds). 
+Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as * Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
   
 Use the scale on the left to measure the call count values.
   

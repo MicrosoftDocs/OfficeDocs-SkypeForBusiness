@@ -13,8 +13,6 @@ description: "This feature is currently in preview and could change as it is rel
 
 # Turn on or off Skype for Business client feedback reporting
 
- **This feature is currently in preview and could change as it is released or updated.**
-  
 You can enable your Skype for Business users to use the built-in Skype for Business app feedback tool to let users report issues and provide feedback directly to Microsoft about their experience. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
@@ -27,7 +25,7 @@ You can also use the  _EnableOnlineFeedbackScreenshot_ setting so users can incl
   
 ![Skype for Business client reporting form.](../images/d859578d-8116-4d4b-a08f-c0cae28b8b76.png)
   
-> [!SECURITY NOTE]
+> [!IMPORTANT]
 > The logs collected by the app's feedback tool will be stored for up to a maximum of 90 days in the United States while the issue is being investigated. Because of this, please don't enable this feedback tool if this violates your organization's data protection policy. 
   
 ## Verify and start Windows PowerShell
@@ -42,7 +40,7 @@ You can also use the  _EnableOnlineFeedbackScreenshot_ setting so users can incl
     
 4. You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.
     
-    If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
     
 - **Start a Windows PowerShell session**
     
@@ -73,7 +71,7 @@ You can also use the  _EnableOnlineFeedbackScreenshot_ setting so users can incl
   Import-PSSession $session
   ```
 
-    If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or[Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or[Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## Turn on client app feedback reporting for all the users in your organization
 
@@ -86,7 +84,6 @@ To enable feedback reporting for users in your organization and allow them to su
   ```
 
 ## Want to know more about Windows PowerShell?
-
 - When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)

@@ -26,14 +26,10 @@ ms.custom:
 - LIL_Placement
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 
-description: "Learn to set up your domain, users, IM and presense for your organization to install Skype for Business. Also See how to set up dial-in conferencing, Cloud PBX and PSTN calling, and Skype Meeting broadcast. "
+description: "Learn to set up your domain, users, IM and presense for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
 ---
 
 # Set up Skype for Business Online
-
-Contributors: [![Diane Faigel](../images/e4ec7084-196e-4e04-bccc-e241da509abf.png)
-  
-](https://go.microsoft.com/fwlink/?linkid=847124)
   
 You must have Office 365 global admin permissions to set up Skype for Business. If you have a firewall or proxy server that restricts access to parts of the web, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
   

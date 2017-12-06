@@ -15,9 +15,7 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 
 ## See what countries/regions users can make outbound calls to if the user has a Domestic or International Calling Plan license
 
-||
-|:-----|
-|**Country/region** <br/> |
+|**Country or region** <br/> |
 |Afghanistan  <br/> |
 |Albania  <br/> |
 |Algeria  <br/> |

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
-description: "Learn how to turn mobile phone notirications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
+description: "Learn how to turn mobile phone notifications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages. "
 ---
 
 # Turn on or off mobile phone notifications
 
-As the **[Assign admin roles in Office 365 for business](http://technet.microsoft.com/library/eac4d046-1afd-4f1a-85fc-8219c79e1504%28Office.14%29.aspx)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.
+As the **[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.
   
 On Android and Windows Phones, Skype for Business notifications pop up in real time. For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.
   
