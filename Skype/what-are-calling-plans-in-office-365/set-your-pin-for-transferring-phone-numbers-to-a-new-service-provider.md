@@ -9,17 +9,17 @@ ms.service: skype-for-business-online
 localization_priority: Normal
 ms.custom: Strat_SB_PSTN
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
-description: "To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. This is not the same as the Office 365 Support PIN that is used to authenticate you when you call in for support. The support PIN is a dynamically generated code you enter in our automated telephone system but isn't used in Skype for Business Online. If you are looking for your support PIN, go Get your support PIN."
+description: "To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out."
 ---
 
 # Set your PIN for transferring phone numbers to a new service provider
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. This is not the same as the Office 365 **Support PIN** that is used to authenticate you when you call in for support. The support PIN is a dynamically generated code you enter in our automated telephone system but isn't used in Skype for Business Online. If you are looking for your support PIN, go[Get your support PIN](http://technet.microsoft.com/library/cb0d3ad7-da00-4b71-96a2-5a1902f144aa%28Office.14%29.aspx).
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   
 > [!IMPORTANT]
 > A port out PIN is only used for organizations in the United States. 
   
-Seee [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for more information about transferring and porting in/out phone numbers.
+See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for more information about transferring and porting in/out phone numbers.
   
 Here is some specific information about this PIN you should know:
   
@@ -48,7 +48,6 @@ Here is some specific information about this PIN you should know:
 ## See also
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
   
 

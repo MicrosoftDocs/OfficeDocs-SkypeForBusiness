@@ -25,7 +25,7 @@ Calls to other Skype for Business users are free, but if you want your users to 
   
 ## Step 1: Buy and assign licenses
 
-1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase[Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md). See [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
+1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md). See [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md), and buy the licenses and plan. 
     
     > [!TIP]
     > **Phone System** licenses and Calling Plans in Office 365 go together, so to see the option to purchase Calling Plans, you must first have the **Phone System** licenses.
@@ -41,17 +41,15 @@ If you're outside of the United States, the order of steps changes slightly. Thi
 2. Sign in to Office 365 with your work or school account.
     
 3. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business >** **Voice**.
+
     
-||
-|:-----|
-|**IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.|
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.    
    
 4. Choose **Phone numbers**. You'll see how many **Phone System** licenses you have, to give you an idea how many phone numbers to request.
     
     > [!TIP]
-    > You can acquire more phone numbers than you have licenses for. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have purchased 100 licenses, you can acquire 120 phone numbers. 
-  
-     ![The dashboard shows how many Cloud PBX licenses you have.](../images/6af8653d-4b9c-41fa-85b4-88e763d08f4c.png)
+    > You can acquire more phone numbers than you have licenses for. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have purchased 100 licenses, you can acquire 120 phone numbers. See [How many numbers can I get?](how-many-phone-numbers-can-you-get.md) 
   
 5. Choose **Add new number** > **New user numbers**, and on the **Add new user numbers** page, choose the country/region, state/region, and city that you want to select numbers from.
     
@@ -153,11 +151,6 @@ To learn more, see [Quick reference: Using Windows PowerShell to do common Skype
 ||
 |:-----|
 |![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
-   
-## Leave us a comment
-<a name="BKMK_comment"> </a>
-
-Were these steps helpful? If so, please let us know at the bottom of this article. If not, please let us know what was confusing and we'll use your feedback to double-check our steps.
   
 ## See also
 <a name="BKMK_comment"> </a>

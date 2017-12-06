@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/16/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection:
 - Adm_Skype4B_Online
@@ -52,7 +52,7 @@ Use **one** of the following methods to set up allowed domains:
 
  **Method 2: Use Windows PowerShell**
   
-- From the **Start Menu**, right-click **Windows PowerShell** and click ** Run as administrator**. In the **Windows PowerShell** window, type each line and press Enter.
+- From the **Start Menu**, right-click **Windows PowerShell** and click **Run as administrator**. In the **Windows PowerShell** window, type each line and press Enter.
     
   ```
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -82,55 +82,17 @@ Use **one** of the following methods to set up allowed domains:
 
 The second step in the setup process is for you to first add domains that are needed and then add IP addresses and URLs that are required for Skype Meeting Broadcast to work.
   
-- **Add the required domain endpoints:**
-    
-    To use Skype Meeting Broadcast, the following endpoints need to be accessible to client computers.
-    
-|
-|
-|**Row**|**Purpose**|**Source |Credentials**|**Destination**|**ExpressRoute for Office 365 BGP Communities**|**CIDR Address**|**Port**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1  <br/> |**Required:** Skype for Business endpoints. <br/> |see [Skype for Business Online](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO) and ensure all entries labeled "required" are accessible. <br/> ||||
-|2  <br/> |**Required:**[Skype Meeting Broadcast](https://support.office.com/article/What-is-a-Skype-Meeting-Broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) presenter and attendee <br/> |client computer / logged on user  <br/> |
-```
-*.broadcast.skype.com
-broadcast.skype.com
-browser.pipe.aria.microsoft.com
-
-```
-
-|yes  <br/> |[](8548a211-3fe7-47cb-abb1-355ea5aa88a2.md#BKMK_SfB_IP).  <br/> |TCP 443  <br/> |
-|3  <br/> |**Required:**[Skype Meeting Broadcast](https://support.office.com/article/What-is-a-Skype-Meeting-Broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) presenter and attendee <br/> |client computer / logged on user  <br/> |
-```
-aka.ms
-amp.azure.net
-
-```
-
-|no  <br/> |N/A  <br/> |TCP 443  <br/> |
-|4  <br/> |**Required:**[Skype Meeting Broadcast](https://support.office.com/article/What-is-a-Skype-Meeting-Broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d) presenter and attendee (including CDNs) <br/> |client computer / logged on user  <br/> |
-```
-*.keydelivery.mediaservices.windows.net
-*.msecnd.net
-*.streaming.mediaservices.windows.net
-ajax.aspnetcdn.com
-mlccdn.blob.core.windows.net
-
-```
-
-|no  <br/> |N/A  <br/> |TCP 443  <br/> |
-   
-- **Add the required Skype for Business Online endpoint URLs and IP addresses by seeing which ones are required**[here](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
+- **Add the required Skype for Business Online endpoint URLs and IP addresses by seeing which ones are required**[here](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
     
 ## Set up Skype Meeting Broadcast in Hybrid deployments and organizations
 
 If you have a Skype for Business Online organization and an on-premises deployment of Lync Server 2010, Microsoft Lync Server 2013, and Skype for Business Server 2015 and have users both online and on-premises, there are other setup steps that you will need to do in addition to the ones above to enable your on-premises organization to communicate with Skype for Business Online and allow all of your users to be able to create and join a Skype Meeting Broadcast. To see what those requirements are, see [Configure your on-premises deployment for Skype Meeting Broadcast](https://go.microsoft.com/fwlink/?LinkId=617070).
   
-## Related Topics
+## See also
 
 [Enable Skype Meeting Broadcast](enable-skype-meeting-broadcast.md)
   
-[Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx)
+[Office 365 URLs and IP address ranges](http://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
