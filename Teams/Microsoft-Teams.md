@@ -83,8 +83,7 @@ description: Microsoft Teams documentation and practical guidance
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud voice</h3>
-                                                    <p><span style="color:red">*New:*</span> Phone System with Calling Plans in Teams</p>   
-                                                    <p>Set up Audio Conferencing in Teams</p>
+                                                    <p>Set up Audio Conferencing in Teams. <span style="color:red">*New:*</span> Get the quick start guide and practical guidance for Phone System with Calling Plans in Teams</p>
                                                 </div>
                                             </div>
                                         </div>
