@@ -23,7 +23,7 @@ description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regi
 
 # What are Calling Plans in Office 365?
 
-Calling Plans are an add-on telephone service that, when combined with Phone System in Office 365, can become the phone system for your entire organization. A Calling Plan provides the people in your business with a primary phone number and lets them make and receive phone calls outside of your organization. There are two types of Calling Plans: **Domestic Calling Plan** and **International Calling Plan**. To learn more, see [Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+Calling Plans are an add-on telephone service that, when combined with Phone System in Office 365, can become the phone system for your entire organization. A Calling Plan provides the people in your business with a primary phone number and lets them make and receive phone calls outside of your organization. There are two types of Calling Plans: **Domestic Calling Plan** and a **Domestic and International Calling Plan**. To learn more, see [Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
   
 Users who are assigned phone numbers can make voice calls from all Skype for Business devices, including [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md), PCs, and mobile devices. They can control their calls through desktop phones by using features such as mute/unmute, hold/resume, call transferring, and call forwarding.
   

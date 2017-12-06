@@ -45,7 +45,7 @@ Following this guidance should minimize potential problems.
 
 This section will contain information about proxy vendors who provide products or services that are proven to work successfully with Skype for Business traffic.
   
-- For organizations using **Bluecoat Proxy solutions**, a new firmware has been released which addresses several issues with:
+For organizations using **Bluecoat Proxy solutions**, a new firmware has been released which addresses several issues with:
     
   - SSL interception
     
@@ -55,10 +55,6 @@ This section will contain information about proxy vendors who provide products o
     
   - support for TURN
     
-    Bluecoat's native support for Skype for Business can easily be enabled, allowing for the identification of relevant traffic, and managing it appropriately. This ensures optimal authentication, signaling, and media traffic flow, to provide a great user experience without security concerns.
+Bluecoat's native support for Skype for Business can easily be enabled, allowing for the identification of relevant traffic, and managing it appropriately. This ensures optimal authentication, signaling, and media traffic flow, to provide a great user experience without security concerns.
     
-    Please refer to the following link if Bluecoat Proxy is a part of your network topology
-    
-- https://support.symantec.com/en_US/article.DOC9757.html
-    
-
+Please refer to the following link if Bluecoat Proxy is a part of your network topology: https://support.symantec.com/en_US/article.DOC9757.html
