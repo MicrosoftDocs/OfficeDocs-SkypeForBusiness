@@ -24,17 +24,17 @@ description: "Learn what add-on licenses, what features you'll get with it, how 
 
 # Skype for Business and Microsoft Teams add-on licensing
 
-Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx)
+Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 Skype for Business and Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
   
  **Looking for prices?** See[How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
   
-- [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing#requirements)
+- [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)
     
-- [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)
+- [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#requirements)
     
-- [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/calling-plans#requirements)
     
 ## What are add-on licenses?
 
@@ -49,7 +49,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |||
 |:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Is PSTN Conferencing with phone numbers available in my country or region?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx) <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing#requirements).  <br/> |
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Is Audio Conferencing with phone numbers available in my country or region?](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing#requirements).  <br/> |
 |**Toll-free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, you can get this feature by [How to set up Communications Credits](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_billing) for Communications Credits.[What are Communications Credits?](what-are-communications-credits.md) <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service in Office 365. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365.md).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plans for Office 365](calling-plans-for-office-365.md). There are Domestic Calling Plans and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
@@ -71,18 +71,18 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
     
 - **Option 2. Upgrade your plan, and buy a Phone System and a Domestic or International Calling Plan**.
     
-1. [Switch to a different Office 365 for business plan](http://technet.microsoft.com/library/73318661-8f33-478b-bcc7-fb8d69dbb22a%28Office.14%29.aspx). If you switch to the E3 plan, you also get voicemail.
+1. [Switch to a different Office 365 for business plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). If you switch to the E3 plan, you also get voicemail.
     
 2. Buy the **Phone System** add-on.
     
-3. Buy a [Calling Plans for Office 365](calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
+3. Buy a [Calling Plan for Office 365](calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
     
     This second option is ideal for businesses with several people who make and receive external phone calls.
     
 ## Which add-on licenses do I need to buy to get more features?
 <a name="bkmk_whichaddons"> </a>
 
-With add-on licenses you have a lot of options, which can be really confusing. [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx) and we'll walk you through the options.
+With add-on licenses you have a lot of options, which can be really confusing. [Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) and we'll walk you through the options.
   
 Choose the plan you have below to see the add-on licenses you can buy to get additional Skype for Business and Microsoft Teams features.
   
@@ -95,8 +95,8 @@ If you have already purchased the [Office 365 Business Premium](https://products
 |**To add this feature** <br/> |**Here's what you need to buy** <br/> |
 |**Audio Conferencing** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Audio Conferencing add-on Once you buy the license, Microsoft will be your audio conferencing provider. |
 |**Toll-free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |How to set up Communications Credits|
-|**Phone System** <br/> |[Switch to a different Office 365 for business plan](http://technet.microsoft.com/library/73318661-8f33-478b-bcc7-fb8d69dbb22a%28Office.14%29.aspx). If you switch to E3, you also get voicemail.  <br/>  After you update your subscription, you'll see the option to buy the **Phone System** add-on. <br/> **Phone System** add-on <br/>  Calling Plans: buy a[Calling Plans for Office 365](calling-plans-for-office-365.md) from Office 365. <br/>  Or, use the[How do I use my existing Calling Plans with Skype for Business?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Calling Plans** <br/> |[Switch to a different Office 365 for business plan](http://technet.microsoft.com/library/73318661-8f33-478b-bcc7-fb8d69dbb22a%28Office.14%29.aspx).  <br/> **Phone System** add-on <br/> [Calling Plans for Office 365](calling-plans-for-office-365.md) : you can only buy this after you buy the **Phone System** add-on. <br/> |
+|**Phone System** <br/> |[Switch to a different Office 365 for business plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). If you switch to E3, you also get voicemail.  <br/>  After you update your subscription, you'll see the option to buy the **Phone System** add-on. <br/> **Phone System** add-on <br/>  Calling Plans: buy a [Calling Plan for Office 365](calling-plans-for-office-365.md) from Office 365. <br/>  Or, use the [How do I use my existing Calling Plans with Skype for Business?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Calling Plans** <br/> |[Switch to a different Office 365 for business plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> **Phone System** add-on <br/> [Calling Plans for Office 365](calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on. <br/> |
    
 > [!NOTE]
 > If you're using Skype for Business Online Plan 2 or an Enterprise plan, instead of purchasing the **Audio Conferencing** add-on, you can choose to use a third-party audio conferencing provider. That provider will also host your audio conferencing bridge.
@@ -124,8 +124,8 @@ If you have already purchased the Office 365 Enterprise E5 (without Audio Confer
 |||
 |:-----|:-----|
 |**To add this feature** <br/> |**Here's what you need to buy** <br/> |
-|**Audio Conferencing** <br/> | To get this add-on, do the following: <br/>  If you have already bought an E5 plan but the Audio Conferencing feature isn't available in your country or region, you will need to use a third-party audio conferencing provider. Find a third-party audio conferencing provider at[Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/>  Check this article to see if Audio Conferencing is available in your country or region:[Is PSTN Conferencing with phone numbers available in my country or region?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx) <br/>  If it is available, use the[Switch to a different Office 365 for business plan](http://technet.microsoft.com/library/73318661-8f33-478b-bcc7-fb8d69dbb22a%28Office.14%29.aspx) to move to the Office 365 Enterprise E5 that includes it. You'll get more features, too! <br/> |
-|**Phone System is included!** <br/> | Calling Plans: buy a[Calling Plans for Office 365](calling-plans-for-office-365.md) from Office 365. <br/>  Or, use the[How do I use my existing Calling Plans with Skype for Business?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Audio Conferencing** <br/> | To get this add-on, do the following: <br/>  If you have already bought an E5 plan but the Audio Conferencing feature isn't available in your country or region, you will need to use a third-party audio conferencing provider. Find a third-party audio conferencing provider at[Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).  <br/>  Check this article to see if Audio Conferencing is available in your country or region:[Is PSTN Conferencing with phone numbers available in my country or region?](http://technet.microsoft.com/library/1096d81e-7e14-488c-95d8-b8322e39c059%28Office.14%29.aspx) <br/>  If it is available, use the[Switch to a different Office 365 for business plan](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a) to move to the Office 365 Enterprise E5 that includes it. You'll get more features, too! <br/> |
+|**Phone System is included!** <br/> | Calling Plans: buy a [Calling Plans for Office 365](calling-plans-for-office-365.md) from Office 365. <br/>  Or, use the[How do I use my existing Calling Plans with Skype for Business?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Phone System voicemail is included!** <br/> |You don't need anything else.  <br/> |
    
 ### Office 365 Enterprise E5
@@ -198,9 +198,9 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 In a few situations, you won't see the option to buy Skype for Business and Microsoft Teams add-ons in the Office 365 admin center.
   
-- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business and Microsoft Teams add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them.[Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
+- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business and Microsoft Teams add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them.[Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
-- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing.[Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
+- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing.[Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
     ![You may need an annual commitment to buy add-ons.](../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)
   
@@ -243,7 +243,7 @@ The following table lists the features that are available in [Skype Room Systems
 |Initiate an ad-hoc meeting and dial out from a meeting to phone numbers.  <br/> |Skype for Business Standalone Plan 2 with Audio Conferencing  <br/> > [!NOTE]> Communications Credits are optional.           |E1 or E3 with Audio Conferencing  <br/> OR  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
 |Give the room a phone number and make or receive a calls from the room or join an audio conference using a phone number.  <br/> |Skype for Business Standalone Plan 2 with Office 365 Phone System and a Calling Plan  <br/> > [!NOTE]> Communications Credits are optional.           |E1 or E3 with Office 365 Phone System and a Office 365 Calling Plan  <br/> OR  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **Use the right version of Windows 10**: For customers who want to deploy Windows 10 images to their devices, a specific version of Windows 10 is required, and this version is only available to volume licensing customers. You need to use **Windows 10 Enterprise version 1607 or later** for imaging Skype Room System v2.0 devices. You can get a copy from the[Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+ **Use the right version of Windows 10**: For customers who want to deploy Windows 10 images to their devices, a specific version of Windows 10 is required, and this version is only available to volume licensing customers. You need to use **Windows 10 Enterprise version 1607 or later** for imaging Skype Room System v2.0 devices. You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
   
 ## Pricing for plans and Communications Credits rates
 <a name="bkmk_moreprice"> </a>
@@ -285,7 +285,7 @@ Please see this blog post: [Advanced Office 365 capabilities now available to U.
 ## What features are available for Office 365 operated by 21Vianet?
 <a name="bkmk_existing"> </a>
 
-Some but not all Skype for Business features are available to customers using Office 365 operated by 21Vianet in China. For a list of what is and isn't available, see [Learn about Office 365 operated by 21Vianet](http://technet.microsoft.com/library/A8AB5061-3346-4DA0-BB7C-5260822B53AE%28Office.14%29.aspx#__lync) in[Learn about Office 365 operated by 21Vianet](http://technet.microsoft.com/library/A8AB5061-3346-4DA0-BB7C-5260822B53AE%28Office.14%29.aspx)
+Some but not all Skype for Business features are available to customers using Office 365 operated by 21Vianet in China. For a list of what is and isn't available, see [Learn about Office 365 operated by 21Vianet](http://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
   
 ## 
 <a name="bkmk_existing"> </a>
@@ -294,7 +294,7 @@ Some but not all Skype for Business features are available to customers using Of
 |:-----|
 |![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
    
-## Related articles
+## See also
 <a name="bkmk_existing"> </a>
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -303,10 +303,9 @@ Some but not all Skype for Business features are available to customers using Of
     
 - [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
     
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and[Calling Plans for Office 365](calling-plans-for-office-365.md)
+- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and[Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
     
-
