@@ -49,7 +49,7 @@ To set Microsoft as the audio conferencing provider for a user that has an **Aud
 
 - If you select the user in the list, you can view the default audio conferencing information of the user but you won't be able to see the audio conferencing PIN. You can reset the audio conferencing PIN of a user by clicking **Reset**.
     
-- If you want to change audio conferencing settings for a user, you can select the user from the list and then click **Edit** and make your changes on the **Properties** page.
+- If you want to change audio conferencing settings for a user, you can select the user from the list and then click **Edit** and make your changes on the **Properties** page. 
     
 ## See also
 
