@@ -50,31 +50,13 @@ Business use cases are meant to document expected, measurable business outcomes,
 
 <br>
 > _The following is an example of a completed business use case:_
-> <br>
-><table>
-<tbody>
-<tr class="header">
-<th align="left"><p><img src="media/audio_conferencing_image2.png" /></p></th>
-<td align="left"><p><strong>Description of current business process</strong></p>
-<p>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones. </p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><img src="media/audio_conferencing_image3.png" /></p></td>
-<td align="left"><p><strong>Challenges with existing business process</strong></p>
-<p>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest either configured to forward calls to mobile phones, or configured to simultaneously ring to mobile phones. Maintenance of existing PBX system and the associated desktop phones contributes to 20% of monthly telephony service cost.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><img src="media/audio_conferencing_image4.png" /></p></td>
-<td align="left"><p><strong>How technology can overcome these challenges</strong></p>
-<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><img src="media/audio_conferencing_image5.png" /></p></td>
-<td align="left"><p><strong>Expected, measurable, business outcomes</strong></p>
-<p>Removing requirements to maintain and decommissioning existing legacy PBX and desktop phones, will deliver a 20% reduction of monthly telephony service expense. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs. </p></td>
-</tr>
-</tbody>
-</table>
+<br>
+>|         |         |
+>|---------|---------|
+>|<img src="media/audio_conferencing_image2.png" />|**Description of current business process**<p>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
+>|<img src="media/audio_conferencing_image3.png" />|**Challenges with existing business process**<p>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest either configured to forward calls to mobile phones, or configured to simultaneously ring to mobile phones. Maintenance of existing PBX system and the associated desktop phones contributes to 20% of monthly telephony service cost.|
+>|<img src="media/audio_conferencing_image4.png" />|**How technology can overcome these challenges**<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.|
+>|<img src="media/audio_conferencing_image5.png" />|**Expected, measurable, business outcomes**<p>Removing requirements to maintain and decommissioning existing legacy PBX and desktop phones, will deliver a 20% reduction of monthly telephony service expense. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
 In addition to defining your business use cases, as you move into the next step of the Envision phase, you should also get clarity around:
 - organizational scope, and
@@ -88,143 +70,24 @@ The business use cases defined in the previous step will include organizational 
 <br>
 > _Below is an example of stakeholder matrix template that you can use to document the project stakeholders:_
 > <br>
-> <table>
-<thead>
-<tr class="header">
-<th align="left">Role</th>
-<th align="left">Description</th>
-<th align="left">Name, contact information, location</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Project Executive Sponsor</strong></td>
-<td align="left"><ul><li>Ultimate authority and accountability for the project and delivery on project objectives</li>
-<li>Help resolve issues escalated by Project Lead</li>
-<li>Sponsors communication within the company about project goals</li>
-<li>Responsible for making key strategic decisions</li>
-<li>Responsible for availability of required resources and budget</p>
-<li>Leading Quarterly Business Reviews (QBR)</li>
-<li>Buy-In and support of awareness campaign effort</li>
-<li>Serving as the Project Sponsor to the program rollout</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Project Lead</strong></td>
-<td align="left"><ul><li>Managing and leading project team</li>
-<li>Coordinates partners and working teams engaged in the project</li>
-<li>Accountable for creating and managing project plans to meet quarterly key results</li>
-<li>Resolving cross-functional issues</li>
-<li>Providing regular updates to the project sponsors</li>
-<li>Incorporating Adoption aspects into the all-up project plan</li>
-<li>Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Collaboration Lead/Architect</strong></td>
-<td align="left"><ul><li>Responsible for execution on collaboration strategy defined by company executives</li>
-<li>Analyzing and choosing collaboration products for the company that meets business goals</li>
-<li>Responsible for the design of the operations for collaboration products</li>
-<li>Defines operation and support model</li>
-<li>Contributing to Monthly and Quarterly Business Reviews</li><ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Consultant</strong></td>
-<td align="left"><ul><li>Responsible for configuration services</li>
-<li>Contributes in overall solution architecture</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Project Manager</strong></td>
-<td align="left"><ul><li>Developing and maintaining project plan</li>
-<li>Managing project deliverables in line with project plan and budget</li>
-<li>Recording and managing project issues, including escalations</li>
-<li>Conducting weekly stand up calls</li>
-<li>Liaises with, and provides updates to project executive sponsors</li>
-<li>Working with the Architect to define the Change Management approach and Communication Plans</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Change Management/Adoption Specialist</strong></td>
-<td align="left"><ul><li>Provide input on Discovery phase into adoption and training processes</li>
-<li>Participate in adoption strategy workshop</li>
-<li>Developing and responsible for adoption strategy</li>
-<li>Developing and executing communication plan</li>
-<li>Responsible for delivering trainings to end users</li>
-<li>Collect feedback and conduct surveys</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Network Lead</strong></td>
-<td align="left"><ul><li>Providing input on Discovery phase into network design</li>
-<li>Participating in planning during Envisioning workshop</li>
-<li>Coordinates work of networking team during the project execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Security Lead</strong></td>
-<td align="left"><ul><li>Providing input on Discovery phase into security design and processes</li>
-<li>Participating in planning during Envisioning workshop</li>
-<li>Coordinates work of security team during the project execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Telephony Lead</strong></td>
-<td align="left"><ul><li>Providing input on Discovery phase into telephony design</li>
-<li>Participating in planning during envisioning workshop</li>
-<li>Coordinates work of telephony team during the project execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Desktop Lead</strong></td>
-<td align="left"><ul><li>Providing input on Discovery phase into clients and update process</li>
-<li>Participating in planning during envisioning workshop</li>
-<li>Coordinates work of desktop team during the project execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Support/Help Desk Lead</strong></td>
-<td align="left"><ul><li>Providing input on Discovery phase into operational and support model</li>
-<li>Participating in planning during envisioning workshop</li>
-<li>Participating into support model planning</li>
-<li>Coordinates work of support teams/resources during the project execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Business Unit Representatives</strong></td>
-<td align="left"><ul><li>Contribute in End User based adoption guides and materials</li>
-<li>Contribute to and review Business Use Cases</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Deployment Lead</strong></td>
-<td align="left"><ul><li>Ensure that deployment prerequisites are met</li>
-<li>Engage customer resources to engage on prepare and deploy stage activities</li>
-<li>Participate in meetings to review prepare and deploy status</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>IT Admins</strong></td>
-<td align="left"><ul><li>IT Pros responsible for assistance with test planning and execution</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Service Owner</strong></td>
-<td align="left"><ul><li>Is responsible for the operation of the Phone System with Calling Plans service all up</li>
-<li>Owner of Phone System with Calling Plans service</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Quality Champion</strong></td>
-<td align="left"><ul><li>Drives quality, reliability and user feedback</li>
-<li>Identifies the quality trends and drive remediation with the respective teams</li>
-<li>Reports through the steering committee back to leadership</li>
-<li>Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</li></ul></td>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+>|Role  |Description  |Name, contact information, location  |
+>|---------|---------|---------|
+>|Project Executive Sponsor|<ul><li>Ultimate authority and accountability for the project and delivery on project objectives</li><li>Help resolve issues escalated by Project Lead</li><li>Sponsors communication within the company about project goals</li><li>Responsible for making key strategic decisions</li><li>Responsible for availability of required resources and budget</li><li>Leading Quarterly Business Reviews (QBR)</li><li>Buy-In and support of awareness campaign effort</li><li>Serving as the Project Sponsor to the program rollout</li></ul>|TBA|
+>|Project Lead|<ul><li>Managing and leading project team</li><li>Coordinates partners and working teams engaged in the project</li><li>Accountable for creating and managing project plans to meet quarterly key results</li><li>Resolving cross-functional issues</li><li>Providing regular updates to the project sponsors</li><li>Incorporating Adoption aspects into the all-up project plan</li><li>Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</li></ul>|TBA|
+>|Collaboration Lead/Architect|<ul><li>Responsible for execution on collaboration strategy defined by company executives</li><li>Analyzing and choosing collaboration products for the company that meets business goals</li><li>Responsible for the design of the operations for collaboration products</li><li>Defines operation and support model</li><li>Contributing to Monthly and Quarterly Business Reviews</li><ul>|TBA|
+>|Consultant|<ul><li>Responsible for configuration services</li><li>Contributes in overall solution architecture</li></ul>|TBA|
+>|Project Manager|<ul><li>Developing and maintaining project plan</li><li>Managing project deliverables in line with project plan and budget</li><li>Recording and managing project issues, including escalations</li><li>Conducting weekly stand up calls</li><li>Liaises with, and provides updates to project executive sponsors</li><li>Working with the Architect to define the Change Management approach and Communication Plans</li></ul>|TBA|
+>|Change Management/Adoption Specialist|<ul><li>Provide input on Discovery phase into adoption and training processes</li><li>Participate in adoption strategy workshop</li><li>Developing and responsible for adoption strategy</li><li>Developing and executing communication plan</li><li>Responsible for delivering trainings to end users</li><li>Collect feedback and conduct surveys</li></ul>|TBA|
+>|Network Lead|<ul><li>Providing input on Discovery phase into network design</li><li>Participating in planning during Envisioning workshop</li><li>Coordinates work of networking team during the project execution</li></ul>|TBA|
+>|Security Lead|<ul><li>Providing input on Discovery phase into security design and processes</li><li>Participating in planning during Envisioning workshop</li><li>Coordinates work of security team during the project execution</li></ul>|TBA|
+>|Telephony Lead|<ul><li>Providing input on Discovery phase into telephony design</li><li>Participating in planning during envisioning workshop</li><li>Coordinates work of telephony team during the project execution</li></ul>|TBA|
+>|Desktop Lead|<ul><li>Providing input on Discovery phase into clients and update process</li><li>Participating in planning during envisioning workshop</li><li>Coordinates work of desktop team during the project execution</li></ul>|TBA|
+>|Support/Help Desk Lead|<ul><li>Providing input on Discovery phase into operational and support model</li><li>Participating in planning during envisioning workshop</li><li>Participating into support model planning</li><li>Coordinates work of support teams/resources during the project execution</li></ul>|TBA|
+>|Business Unit Representatives|<ul><li>Contribute in End User based adoption guides and materials</li><li>Contribute to and review Business Use Cases</li></ul>|TBA|
+>|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met</li><li>Engage customer resources to engage on prepare and deploy stage activities</li><li>Participate in meetings to review prepare and deploy status</li></ul>|TBA|
+>|IT Admins|<ul><li>IT Pros responsible for assistance with test planning and execution</li></ul>|TBA|
+>|Service Owner|<ul><li>Is responsible for the operation of the Phone System with Calling Plans service all up</li><li>Owner of Phone System with Calling Plans service</li></ul>|TBA|
+>|Quality Champions|<ul><li>Drives quality, reliability and user feedback</li><li>Identifies the quality trends and drive remediation with the respective teams</li><li>Reports through the steering committee back to leadership</li><li>Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</li></ul>|TBA|
 
 > [!NOTE]
 > The example table above and subsequent tables throughout this document serve as a template. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
@@ -241,161 +104,38 @@ OKRs will contain the list of objectives set in the beginning of the project, wi
 <br>
 > _Example of OKRs relevant to Phone System with Calling Plans implementation can be referenced below:_
 ><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left"><p><strong>Vision</strong>: Increase productivity by maximizing Office 365 investments</p>
-</th>
-<th align="left"></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Objectives</strong></td>
-<td align="left"><strong>Key Results</strong></td>
-<td align="left"><strong>To Do</strong></td>
-</tr>
-<tr class="even">
-<td align="left">Deploy Phone System with Calling Plans in European branch offices by end of fiscal year 2018</td>
-<td align="left">FY18Q3: Deploy Phone System with Calling Plans in London office</td>
-<td align="left"><p>Envision</p>
-<ul><li>Create success plan</li>
-<li>Create detailed technical implementation plan</li></ul>
-<p>Onboard</p>
-<ul><li>Execute success plan</li>
-<li>Execute technical implementation plan</li></ul></td>
-</tr>
-<tr class="odd">
-<td align="left">Decommission legacy PBX in London office by end of fiscal year 2018</td>
-<td align="left">FY18Q4: Decommission legacy PBX in London office</td>
-<td align="left"><p>Drive Value</p>
-<ul><li>Boost user engagement and drive adoption</li>
-<li>Manage and prepare change</li>
-<li>Measure, share success, and iterate</li></ul></td>
-</tr>
-</tbody>
-</table>
+>
+>**Vision:Increase productivity by maximizing Office 365 investments**
+>|Objectives  |Key Results  |To Do  |
+>|---------|---------|---------|
+>|Deploy Phone System with Calling Plans in European branch offices by end of fiscal year 2018|FY18Q3: Deploy Phone System with Calling Plans in London office|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
+>|Decommission legacy PBX in London office by end of fiscal year 2018|FY18Q4: Decommission legacy PBX in London office|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
 
 KSIs measure quality and success of the key results and complement the binary nature of OKRs (achieved or not achieved), by detailing the good and/or bad results. When defining KSIs, we recommend leveraging the “specific, measurable, assignable, realistic, time-related” or SMART criteria.
 
 <br>
 > _The following is an example of KSI relevant to this project:_
 ><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Type</th>
-<th align="left"><p>KSI questions &amp;</p>
-<p>criteria</p></th>
-<th align="left">How measured</th>
-<th align="left">Success criteria</th>
-<th align="left">Measured</th>
-<th align="left">Responsible</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Usage/adoption</strong></td>
-<td align="left">Call quality is equal to or better than the previous solution</td>
-<td align="left">Survey</td>
-<td align="left">80% of users agree or strongly agree</td>
-<td align="left">After enablement and quarterly</td>
-<td align="left">Information Technology team</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Usage/adoption</strong></td>
-<td align="left">Microsoft Teams and Skype for Business made the communication process easier</td>
-<td align="left">Survey</td>
-<td align="left">80% of users agree or strongly agree</td>
-<td align="left">After enablement and quarterly</td>
-<td align="left">Change Management team</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Usage/adoption</strong></td>
-<td align="left">Users actively use the solution</td>
-<td align="left">Office 365 reports, Call Quality Dashboard</td>
-<td align="left">80% of users are active daily users</td>
-<td align="left">Daily</td>
-<td align="left">Change Management team</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Usage/quality</strong></td>
-<td align="left">Percentage of poor calls/conferences should be minimal</td>
-<td align="left">Call Quality Dashboard</td>
-<td align="left">&lt; 5% of poor calls per month</td>
-<td align="left">Daily</td>
-<td align="left">Information Technology team</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Usage/support</strong></td>
-<td align="left">I know how to get technical support</td>
-<td align="left">Survey</td>
-<td align="left">90% of users agree or strongly agree</td>
-<td align="left">After enablement and quarterly</td>
-<td align="left">Change Management team</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Usage/support</strong></td>
-<td align="left">I am satisfied with the quality of technical support</td>
-<td align="left">Survey</td>
-<td align="left">80% of users agree or strongly agree</td>
-<td align="left">After each incident</td>
-<td align="left">Information Technology team</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Financial</strong></td>
-<td align="left">Reduction of monthly telephony service expense</td>
-<td align="left">Financial system</td>
-<td align="left">Meet defined ROI</td>
-<td align="left">Based on ROI</td>
-<td align="left">Change Management team</td>
-</tr>
-</tbody>
-</table>
+>|Type  |KSI question & criteria  |How measured  |Success criteria  |Measured  |Responsible  |
+>|---------|---------|---------|---------|---------|---------|
+>|Usage/adoption|Call quality is equal to or better than the previous solution|Survey|80% of users agree or strongly agree|After enablement and quarterly|Information Technology team|
+>|Usage/adoption|Microsoft Teams made the communication process easier|Survey|80% of users agree or strongly agree|After enablement and quarterly|Change Management team|
+>|Usage/adoption|Users actively use the solution|Office 365 reports, Call Quality Dashboard|80% of users are active daily users|Daily|Change Management team|
+>|Usage/quality|Percentage of poor calls/conferences should be minimal|Call Quality Dashboard|< 5% of poor calls per month|Daily|Information Technology team|
+>|Usage/support|I know how to get technical support|Survey|90% of users agree or strongly agree|After enablement and quarterly|Change Management team|
+>|Usage/support|I am satisfied with the quality of technical support|Survey|80% of users agree or strongly agree|After each incident|Information Technology team|
+>|Financial|Reduction of monthly telephony service expense|Financial system|Meet defined ROI|Based on ROI|Change Management team|
 
 You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk. This information can be captured into a risk plan.
 
 <br>
 > _Your risk plan can be documented as the example below:_
 ><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Risk</th>
-<th align="left">Likelihood</th>
-<th align="left">Impact</th>
-<th align="left">Overall</th>
-<th align="left">Mitigation plan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Upcoming merger will add up to 1,000 people</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left"><p>For merged companies, separate OKR with own process (Envision, Onboard, Drive Value)</p>
-<p>Do not include them in existing OKRs</p></td>
-</tr>
-<tr class="even">
-<td align="left">Telephone number porting will delay project completion</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left">High</td>
-<td align="left"><p>Prepare all the required information to support telephone number porting ahead of time (i.e.: customer service record, billing details, Letter of Authorization)</p>
-<p>Adjust project timeline to accommodate turnaround time of telephone number porting execution</p>
-<p>Use temporary telephone numbers with Caller ID manipulation</p></td>
-</tr>
-<tr class="odd">
-<td align="left">Planned network redesign</td>
-<td align="left">High</td>
-<td align="left">Medium</td>
-<td align="left">Medium</td>
-<td align="left">Before implementing Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</td>
-</tr>
-</tbody>
-</table>
+>|Risk  |Likelihood  |Impact  |Overall  |Mitigation plan  |
+>|---------|---------|---------|---------|---------|
+>|Upcoming merger will add up to 1,000 people|High|High|High|<ul><li>For merged companies, separate OKR with own process (Envision, Onboard, Drive Value)</li><li>Do not include them in existing OKRs</li></ul>|
+>|Telephone number porting will delay project completion|High|High|High|<ul><li>Prepare all the required information to support telephone number porting ahead of time (i.e.: customer service record, billing details, Letter of Authorization)</li><li>Adjust project timeline to accommodate turnaround time of telephone number porting execution</li><li>Use temporary telephone numbers with Caller ID manipulation</li></ul>|
+>|Planned network redesign|High|Medium|Medium|<ul><li>Before implementing Teams as modern communications and collaboration platform, run network readiness assessment for sites in scope of the project</li></ul>|
 
 Assess environment and evaluate adoption readiness
 --------------------------------------------------
@@ -429,72 +169,17 @@ Planning for operations and identifying the teams that will operate the Phone Sy
 <br>
 > _The following is an example of template to document the result of operational roles mapping exercise that you performed to support this project:_
 ><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Operational Role</th>
-<th align="left">Description</th>
-<th align="left">Team</th>
-<th align="left">Contact Details</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Service Owner</td>
-<td align="left">Service owner, interface to business divisions, strategy</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Phone System with Calling Plans Operations</td>
-<td align="left">Daily operations, user and device account move/add/change, monitoring</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left">Tenant Admin</td>
-<td align="left">Change tenant-wide settings, enable new features</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Help Desk</td>
-<td align="left">Interface for end-users to get support</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left">Network Operations</td>
-<td align="left">Runs LAN, WAN, Wi-Fi, and Internet Access</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Client &amp; Endpoints Team</td>
-<td align="left">Manage desktop deployments</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left">Identity Operations</td>
-<td align="left">Manage identity infrastructure (AD, ADFS, Azure AD)</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Adoption/change management</td>
-<td align="left">Manage awareness, training and adoption for the solution</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="odd">
-<td align="left">Exchange Operations</td>
-<td align="left">Manages the Exchange environment</td>
-<td align="left">TBA</td>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+>|Operational Role  |Description  |Team  |Contact Details  |
+>|---------|---------|---------|---------|
+>|Service Owner|Service owner, interface to business divisions, strategy|TBA|TBA|
+>|Phone System with Calling Plans Operations|Daily operations, user and device account move/add/change, monitoring|TBA|TBA|
+>|Tenant Admin|Change tenant-wide settings, enable new features|TBA|TBA|
+>|Help Desk|Interface for end-users to get support|TBA|TBA|
+>|Network Operations|Runs LAN, WAN, Wi-Fi, and Internet Access|TBA|TBA|
+>|Client & Endpoints Team|Manage desktop deployments|TBA|TBA|
+>|Identity Operations|Manage identity infrastructure (AD, ADFS, Azure AD)|TBA|TBA|
+>|Adoption/change management|Manage awareness, training and adoption for the solution|TBA|TBA|
+>|Exchange Operations|Manages the Exchange environment|TBA|TBA|
 
 To facilitate a more detailed operational roles mapping, including the tasks associated with each operational role, you can use the [Operational Role Mapping Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) to capture the details that will provide the clarity around roles and responsibilities to support Phone System with Calling Plans service.
 
@@ -552,62 +237,20 @@ Calling Plans service is available in these [countries and regions](https://supp
 After confirming your organization’s eligibility for obtaining the Calling Plans add-on, compile the list of user locations or offices where Calling Plans service will be implemented based on the list of available countries and regions.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><p>Decide which user locations or offices where Calling Plans service will be implemented .</p></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><p>Document the user locations or offices to be enabled for Calling Plans service.</p></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide which user locations or offices where Calling Plans service will be implemented</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices to be enabled for Calling Plans service</li></ul>|
 
-<br>
 > _Below is an example of a Phone System with Calling Plans site enablement list template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Office</th>
-<th align="left">Location</th>
-<th align="left">Phone System Service</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">One Epping Road</td>
-<td align="left">Australia</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="even">
-<td align="left">100 Cyberport Road</td>
-<td align="left">Hong Kong SAR</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="odd">
-<td align="left">One Marina Boulevard</td>
-<td align="left">Singapore</td>
-<td align="left">Legacy PSTN service</td>
-</tr>
-<tr class="even">
-<td align="left">32 London Bridge Street</td>
-<td align="left">United Kingdom</td>
-<td align="left">Phone System with Calling Plans</td>
-</tr>
-<tr class="odd">
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">France</td>
-<td align="left">Phone System with Calling Plans</td>
-</tr>
-</tbody>
-</table>
+>
+>|Office   |Location |Phone System Service  |
+>|---------|---------|---------|
+>|One Epping Road|Australia|Legacy PSTN service|
+>|100 Cyberport Road|Hong Kong SAR|Legacy PSTN service|
+>|One Marina Boulevard|Singapore|Legacy PSTN service|
+>|32 London Bridge Street|United Kingdom|Phone System with Calling Plans|
+>|39 quai du Président Roosevelt|France|Phone System with Calling Plans|
 
 ## Licensing for Calling Plans
 
@@ -637,101 +280,30 @@ If your organization choose to use auto-recharge, a recommendation on the trigge
 The use of Communications Credits can be controlled at per user basis, allowing you to ensure the capability is assigned to individuals in the organization that have proper business needs.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>If your organization does not have the required Phone System license, decide whether Phone System license will be acquired by stepping up existing Office 365 subscriptions or by acquiring Phone System add-ons.</li>
-<li>Decide which users require Domestic Calling Plan license and which users require Domestic and International Calling Plan license.</li>
-<li>Decide if Communications Credits is required for Calling Plans implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li>
-<li>Decide which users require the use of Communications Credits license.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the users to be assigned with Phone System license along with Domestic Calling Plan license, and users to be assigned with Phone System license with Domestic and International Calling Plan license.</li>
-<li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount).</li>
-<li>Document the users to be enabled for Communications Credits license.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>If your organization does not have the required Phone System license, decide whether Phone System license will be acquired by stepping up existing Office 365 subscriptions or by acquiring Phone System add-ons</li><li>Decide which users require Domestic Calling Plan license and which users require Domestic and International Calling Plan license</li><li>Decide if Communications Credits is required for Calling Plans implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li><li>Decide which users require the use of Communications Credits license</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users to be assigned with Phone System license along with Domestic Calling Plan license, and users to be assigned with Phone System license with Domestic and International Calling Plan license</li><li>Document the Communications Credits plan (initial amount, trigger amount, auto-recharge amount)</li><li>Document the users to be enabled for Communications Credits license</li></ul>|
 
-<br>
 > _You can document the license assignment list for Phone System with Calling Plans users using the following example:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Office</th>
-<th align="left">Office 365 License</th>
-<th align="left">Communications Credtis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, International and Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Office 365 E5, Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E3, Phone System add-on, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Rachelle Cormier</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E5, International and Domestic Calling Plan</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Office 365 E3, Phone System add-on, Domestic Calling Plan</td>
-<td align="left">Disabled</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Office  |Office 365 License  |Communications Credits  |
+>|---------|---------|---------|---------|
+>|Emily Braun|32 London Bridge Street|Office 365 E5, International and Domestic Calling Plan|Enabled|
+>|Lidia Holloway|32 London Bridge Street|Office 365 E5, Domestic Calling Plan|Disabled|
+>|Pradeep Gupta|32 London Bridge Street|Office 365 E5, Domestic Calling Plan|Enabled|
+>|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
+>|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, International and Domestic Calling Plan|Enabled|
+>|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
 
 <br>
 >_Your Communications Credits planning numbers can be documented as the following:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">Initial amount</th>
-<td align="left">$ 1,000</td>
-</tr>
-</thead>
-<thead>
-<tr class="header">
-<th align="left">Trigger amount</th>
-<td align="left">$ 400</td>
-</tr>
-<tr class="header">
-<th align="left">Auto-recharge amount</th>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+>
+>|         |         |
+>|---------|---------|
+>|Initial amount|$ 1,000|
+>|Trigger amount|$ 400|
+>|Auto-recharge amount|TBA|
 
 ## Phone Numbers and Emergency Locations
 
@@ -759,79 +331,21 @@ When you are configuring phone numbers for Calling Plans, it is required that an
 In addition to validated emergency address, emergency locations can be defined and associated with validated emergency address to give a more exact location within an address. An emergency location is typically building number, floor, building wing, or office number where the user is located.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide how phone numbers will be obtained for user locations or offices in-scope for the Calling Plans implementation (obtain from Microsoft or transfer existing phone numbers)</li>
-<li>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Calling Plans implementation.</li>
-<li>Decide the granularity of emergency locations information to be collected for user locations or offices in-scope for the Calling Plans implementation.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation.</li>
-<li>If applicable, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">the New Telephone Number Request form</a>, one form for each location or office</li>
-<li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly.</li>
-<li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide how phone numbers will be obtained for user locations or offices in-scope for the Calling Plans implementation (obtain from Microsoft or transfer existing phone numbers)</li><li>If you choose to obtain from Microsoft, decide the method to obtain phone numbers (form submission or automated) for user locations or offices in-scope for the Calling Plans implementation</li><li>Decide the granularity of emergency locations information to be collected for user locations or offices in-scope for the Calling Plans implementation</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the master plan for phone numbers acquisition, detailing how phone numbers will be obtained for each user location or office in-scope for the Calling Plans implementation</li><li>If applicable, complete <a href="https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb">the New Telephone Number Request form</a>, one form for each location or office</li><li>If you choose to transfer existing phone numbers, check out the <a href="https://go.microsoft.com/fwlink/?linkid=859011">Number Porting Guide</a> to plan it and adjust Calling Plans implementation timeline accordingly</li><li>Document the detailed emergency address and emergency locations for each user location or office in-scope for the Calling Plans implementation</li></ul>|
 
-<br>
 > _The details of phone number acquisition, phone numbers, and emergency location details can be documented using the following template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Emergency Location and Address</th>
-<th align="left">Phone Number Acquisition</th>
-<th align="left">Phone Number</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">1034/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0034</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">1023/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0065</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">1023/32 London Bridge Street, London, SE1, United Kingdom</td>
-<td align="left">Port existing</td>
-<td align="left">+44 20 7946 0023</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France</td>
-<td align="left">Acquire new</td>
-<td align="left">TBA</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Emergency Location and Address  |Phone Number Acquisition  |Phone Number  |
+>|---------|---------|---------|---------|
+>|Emily Braun|1034/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0034|
+>|Lidia Holloway|1023/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0065|
+>|Pradeep Gupta|1023/32 London Bridge Street, London, SE1, United Kingdom|Port existing|+44 20 7946 0023|
+>|Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
+>|Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
+>|Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France|Acquire new|TBA|
 
 > [!NOTE]
 > Reminder, the example table above and subsequent tables throughout this document serve as a template and will denote TBA (to be added) for information that you need to complete as part of your planning process.
@@ -840,168 +354,50 @@ In addition to validated emergency address, emergency locations can be defined a
 
 Phone System voicemail, powered by Azure Voicemail Services, supports voicemail deposits to Exchange mailbox only and does not support third-party email systems.
 
-> [!NOTE]
-> A fallback mechanism has been implemented so that Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages. There is no guaranteed service uptime or other voicemail features, such as changing voicemail greetings and other settings.
-
 Phone System voicemail by default will work with Exchange Online, however it has a minimum [supported Exchange on-premises version and deployment model](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
 
 Phone System voicemail features voicemail transcription and by default it is enabled for all users in your organization. In some cases, your business may have requirements to disable voicemail transcription for specific users or throughout the organization.
 
-<br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide whether Phone System voicemail will be enabled for the Calling Plans implementation</li>
-<li>If using Exchange On-premises and existing deployment does not meet the requirements to support Phone System voicemail, decide the available options (upgrade and setup for Phone System voicemail support, or migrate to Exchange Online, leverage fallback mechanism)</li>
-<li>Decide if voicemail transcription is to be enabled/disabled throughout the organization or to specific users</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>If applicable, document the Exchange decision points to support Phone System voicemail</li>
-<li>If voicemail and voicemail transcription are not going to be enabled for all users, document the users to be enabled for voicemail and voicemail transcription</li></ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> A fallback mechanism has been implemented so that Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages. There is no guaranteed service uptime or other voicemail features, such as changing voicemail greetings and other settings.
 
 <br>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether Phone System voicemail will be enabled for the Calling Plans implementation</li><li>If using Exchange On-premises and existing deployment does not meet the requirements to support Phone System voicemail, decide the available options (upgrade and setup for Phone System voicemail support, or migrate to Exchange Online, leverage fallback mechanism)</li><li>Decide if voicemail transcription is to be enabled/disabled throughout the organization or to specific users</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail</li><li>If voicemail and voicemail transcription are not going to be enabled for all users, document the users to be enabled for voicemail and voicemail transcription</li></ul>|
+
 > _Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Exchange mailbox</th>
-<th align="left">Enable voicemail</th>
-<th align="left">Voicemail transcription</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Enabled</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">Online</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">On-premises</td>
-<td align="left">Yes</td>
-<td align="left">Disabled</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Exchange Mailbox  |Enable Voicemail  |Voicemail Transcription  |
+>|---------|---------|---------|---------|
+>|Emily Braun|Online|Yes|Enabled|
+>|Lidia Holloway|Online|Yes|Enabled|
+>|Pradeep Gupta|On-premises|Yes|Enabled|
+>|Marcel Beauchamp|On-premises|Yes|Disabled|
+>|Rachelle Cormier|Online|Yes|Disabled|
+>|Isabell Potvin|On-premises|Yes|Disabled|
 
 ## Calling Identity
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7) configuration—as Caller ID, or to block Caller ID presentation altogether.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide whether Caller ID manipulation is required for Calling Plans implementation.</li>
-<li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li>
-<li>If applicable, decide which user require Caller ID manipulation, and the type of Caller ID manipulation to be assigned to each user.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the users to be assigned with Caller ID manipulation and Caller ID manipulation type applicable for each user.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether Caller ID manipulation is required for Calling Plans implementation</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented</li><li>If applicable, decide which user require Caller ID manipulation, and the type of Caller ID manipulation to be assigned to each user</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users to be assigned with Caller ID manipulation and Caller ID manipulation type applicable for each user</li></ul>|
 
-<br>
 > _The following is an example of Caller ID masking details documentation template:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Enable outbound Caller ID masking</th>
-<th align="left">Caller ID masking type</th>
-<th align="left">Allow user override</th>
-<th align="left">Enable inbound Caller ID masking</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">No</td>
-<td align="left">N/A</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, +44 20 7946 0000)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">No</td>
-<td align="left">N/A</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, TBA)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-<tr class="even">
-<td align="left">Rachelle Cormier</td>
-<td align="left">Yes</td>
-<td align="left">Anonymize</td>
-<td align="left">Yes</td>
-<td align="left">No</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">Yes</td>
-<td align="left">Service number (OrgAA, TBA)</td>
-<td align="left">No</td>
-<td align="left">Yes</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Enable outbound Caller ID masking  |Caller ID masking type  |Allow user override  | Enable inbound Caller ID masking  |
+>|---------|---------|---------|---------|---------|
+>|Emily Braun|No|N/A|Yes|No|
+>|Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
+>|Pradeep Gupta|No|N/A|Yes|No|
+>|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
+>|Rachelle Cormier|Yes|Anonymize|Yes|No|
+>|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
 
 ## Dial plans
 
@@ -1026,112 +422,30 @@ The effective dial plan assigned to users is the combination of service dial pla
 There is a maximum of 25 normalization rules in each tenant dial plan, and thus duplication with normalization rules already available as part of service dial plan needs to be avoided.
 
 <br>
-<table>
-<thead>
-<tr class="header">
-<td align="left"><img src="media/audio_conferencing_image7.png" /></td>
-<td align="left">Decision Points</td>
-<td align="left"><ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.).</li>
-<li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li>
-<li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation.</li>
-<li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><img src="media/audio_conferencing_image9.png" /></td>
-<td align="left">Next Steps</td>
-<td align="left"><ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation.</li>
-<li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user.</li></ul></td>
-</tr>
-</tbody>
-</table>
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.)</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans</li><li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation</li><li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation</li><li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
 
-<br>
 > _If it is applicable to your project, you can use the following template to document the tenant dial plans configurations_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left"><p>Tenant Dial Plan Name</p><p>Description</p></th>
-<th align="left"><p>Normalization Rules Name</p><p>Description</p></th>
-<th align="left"><p>Pattern</p><p>Translation</p><p>IsInternalExtension</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td align="left"><p><strong>FR-Paris-Issy-39qdPR</strong></p>
-<p><em>39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan</em></p></td>
-<td align="left"><p><strong>FR-39qdPR-Internal</strong></p>
-<p><em>Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France</em></p></td>
-<td align="left"><p>^(7\d{3})$</p><p>+3319999$1</p><p>True</p></td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><p><strong>FR-TollFree</strong></p>
-<p><em>Toll Free number normalization for France</em></p></td>
-<td align="left"><p>^0?(80\d{7})\d*$</p><p>+33$1</p><p>False</p></td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"><p><strong>FR-Service</strong></p>
-<p><em>Service number normalization for France</em></p></td>
-<td align="left"><p>^(1\d{1,2}|11[68]\d{3}|10\d{2}|3\d{3})$</p><p>$1</p><p>False</p></td>
-</tr>
-</tbody>
-</table>
+>
+>|<p>Tenant Dial Plan Name</p><p>Description</p>  |<p>Normalization Rules Name</p><p>Description</p>  |<p>Pattern</p><p>Translation</p><p>IsInternalExtension</p>  |
+>|---------|---------|---------|
+>|**FR-Paris-Issy-39qdPR**<p>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_</p>|**FR-39qdPR-Internal**<p>_Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_</p>|^(7\d{3})$<p>+3319999$1</p><p>True</p>|
+>||**FR-TollFree**<p>_Toll Free number normalization for France_</p>|^0?(80\d{7})\d*$<p>+33$1</p><p>False</p>|
+>||**FR-Service**<p>_Service number normalization for France_</p>|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<p>$1</p><p>False</p>|
 
 <br>
 > _The example template below can be leveraged to document dial plan assignments to support your project:_
-><br>
-><table>
-<thead>
-<tr class="header">
-<th align="left">User</th>
-<th align="left">Office</th>
-<th align="left">Dial Plan Type</th>
-<th align="left">Dial Plan Name</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Emily Braun</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="even">
-<td align="left">Lidia Holloway</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="odd">
-<td align="left">Pradeep Gupta</td>
-<td align="left">32 London Bridge Street</td>
-<td align="left">Service dial plan</td>
-<td align="left">N/A</td>
-</tr>
-<tr class="even">
-<td align="left">Marcel Beauchamp</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-<tr class="odd">
-<td align="left">Rachelle Cormier</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-<tr class="even">
-<td align="left">Isabell Potvin</td>
-<td align="left">39 quai du Président Roosevelt</td>
-<td align="left">Tenant dial plan</td>
-<td align="left">FR-Paris-Issy-39qdPR</td>
-</tr>
-</tbody>
-</table>
+>
+>|User  |Office  |Dial Plan Type  |Dial Plan Name  |
+>|---------|---------|---------|---------|
+>|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+>|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+>|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+>|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+>|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+>|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
 
 ## Document technical implementation plan
 
@@ -1156,21 +470,22 @@ In general, a technical implementation plan will contain the following main sect
 
 -	Dial plan assignments
 
+<br>
 With the completion of success plan and technical implementation plan, you are now ready to take your organization to the next steps along the Office 365 customer journey.
 
+<br>
 Onboard
 =======
 
 *Coming soon.*
 
-
+<br>
 Drive Value
 ===========
 
 *Coming soon.*
 
-
-
+<br>
 ### See also
 
 [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
