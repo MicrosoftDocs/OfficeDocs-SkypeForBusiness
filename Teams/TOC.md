@@ -8,7 +8,7 @@
 ## [Office 365 groups and Teams](Office-365-groups.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
-## [Teams and Skype for Busineses Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
+## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
 
 # Plan
