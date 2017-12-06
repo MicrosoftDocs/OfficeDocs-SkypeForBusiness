@@ -179,92 +179,51 @@ This table shows all the Online custom policies available. There are new policie
 ```
 ClientPolicyDefaultPhoto
 ```
-
-||
-|
 ```
-ClientPolicyDefaultPhotoDisableSkypeUI
+ClientPolicyDefaultPhotoDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
 ClientPolicyNoIMURL
 ```
-
-||
-|
 ```
-ClientPolicyNoIMURLDisableSkypeUI
+ClientPolicyNoIMURLDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
 ClientPolicyNoIMURLPhoto
 ```
-
-||
-|
 ```
-ClientPolicyNoIMURLPhotoDisableSkypeUI
+ClientPolicyNoIMURLPhotoDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
-ClientPolicyNoSaveIMNoArchivingI
+ClientPolicyNoSaveIMNoArchiving
 ```
-
-||
-|
 ```
-ClientPolicyNoSaveIMNoArchivingDisableSkypeUI
+ClientPolicyNoSaveIMNoArchivingDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
 ClientPolicyNoSaveIMNoArchivingNoIMURL
 ```
-
-||
-|
 ```
-ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI
+ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
 ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto
 ```
-
-||
-|
 ```
-ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI
+ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI False
 ```
-
-|False  <br/> |
-|
 ```
 ClientPolicyNoSaveIMNoArchivingPhoto
 ```
-
-||
-|
 ```
-ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI
+ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI False
 ```
-
-|False  <br/> |
    
 To get started with Windows PowerShell, see these topics:
   
 - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 ]( https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Best ways to manage Office 365 with Windows PowerShell]( https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## First launch client behaviors
 

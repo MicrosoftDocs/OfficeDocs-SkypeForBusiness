@@ -76,13 +76,10 @@ If you want more information about starting Windows PowerShell, see [Connect to 
 ## Turn on client app feedback reporting for all the users in your organization
 
 To enable feedback reporting for users in your organization and allow them to submit device screen shots, run:
-  
 > 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
-
   ```
-
 ## Want to know more about Windows PowerShell?
 - When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
@@ -98,4 +95,3 @@ To enable feedback reporting for users in your organization and allow them to su
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-

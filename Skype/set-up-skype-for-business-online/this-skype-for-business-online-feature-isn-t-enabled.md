@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
-description: "Find possible causes and action suggestions when you get a Skype for Buisness Online feature isn't enabled error. "
+description: "Find possible causes and action suggestions when you get a Skype for Business Online feature isn't enabled error. "
 ---
 
 # This Skype for Business Online feature isn't enabled

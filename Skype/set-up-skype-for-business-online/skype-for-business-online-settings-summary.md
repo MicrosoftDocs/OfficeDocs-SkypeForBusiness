@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom: Adm_O365_FullSet
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
-description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connetivity, Meeting invitiations, recording calls and meetings, and more.  "
+description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connectivity, Meeting invitations, recording calls and meetings, and more.  "
 ---
 
 # Skype for Business Online settings summary
 
-The **Skype for Business admin center**includes settings for your entire organization, and for individual users. 
+The **Skype for Business admin center** includes settings for your entire organization, and for individual users. 
   
 > [!NOTE]
->  Depending on your location, you might not have access to all features of Skype for Business Online. For details, see[License restrictions for Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Depending on your location, you might not have access to all features of Skype for Business Online. For details, see [License restrictions for Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## Skype for Business Online organization settings
 <a name="__top"> </a>
@@ -40,6 +40,6 @@ The **Skype for Business admin center**includes settings for your entire organiz
 |Audio and video  <br/> |Conduct audio and video conversations using Skype for Business Online  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Recording  <br/> |Record calls and meetings  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Anonymous attendee dial-out  <br/> |Allow anonymous Skype for Business Online meeting attendees to connect by having the audio conferencing provider call them  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Disable non-archived features  <br/> | Turns off features that aren't captured when the organization has set up an[Add content to a case and place sources on hold in the eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) in the Exchange admin center: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/>  Select this option if you're legally required to preserve electronically stored information. <br/> |Disabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Disable non-archived features  <br/> | Turns off features that aren't captured when the organization has set up an [Add content to a case and place sources on hold in the eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) in the Exchange admin center: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/>  Select this option if you're legally required to preserve electronically stored information. <br/> |Disabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 

@@ -91,9 +91,9 @@ Verify that the major Skype for Business Online features are working as expected
   
 |**Task**|**Expected result**|
 |:-----|:-----|
-|[Sign in to and out of Lync Online](http://technet.microsoft.com/library/1f0fb5f3-102e-4397-a5c4-f878cc0009d6%28Office.14%29.aspx) <br/> |The Skype for Business main window appears, with the presence state you specified when you signed in  <br/> |
-|[Sign in to and out of Lync Online](http://technet.microsoft.com/library/1f0fb5f3-102e-4397-a5c4-f878cc0009d6%28Office.14%29.aspx) <br/> |The Skype for Business sign-in screen is displayed  <br/> |
-|[Sign in to and out of Lync Online](http://technet.microsoft.com/library/1f0fb5f3-102e-4397-a5c4-f878cc0009d6%28Office.14%29.aspx) <br/> |The Skype for Business window closes, and the Skype for Business icon no longer appears in the Windows notification area.  <br/> |
+|[Sign in to and out of Lync Online](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business main window appears, with the presence state you specified when you signed in  <br/> |
+|[Sign in to and out of Lync Online](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business sign-in screen is displayed  <br/> |
+|[Sign in to and out of Lync Online](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business window closes, and the Skype for Business icon no longer appears in the Windows notification area.  <br/> |
    
 Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Online](https://support.microsoft.com/kb/2541980).
   
@@ -101,30 +101,30 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
   
 |**Task**|**Expected result**|
 |:-----|:-----|
-|[Send an IM in Skype for Business](http://technet.microsoft.com/library/b3aefb9b-dec8-4be8-a1ee-1eab12144d05%28Office.14%29.aspx) <br/> |The Skype for Business conversation window appears, you type something, and you receive a response from the person you contacted.  <br/> |
-|[Send an IM in Skype for Business](http://technet.microsoft.com/library/b3aefb9b-dec8-4be8-a1ee-1eab12144d05%28Office.14%29.aspx) <br/> |The Skype for Business conversation window appears, you type something, and everyone in the conversation responds.  <br/> |
+|[Send an IM in Skype for Business](http://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |The Skype for Business conversation window appears, you type something, and you receive a response from the person you contacted.  <br/> |
+|[Send an IM in Skype for Business](http://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |The Skype for Business conversation window appears, you type something, and everyone in the conversation responds.  <br/> |
 |[Search for a contact by using their first or last name](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Your search results begin to appear as soon as you start typing.  <br/> |
-|[FAQ about Lync for Office 365](http://technet.microsoft.com/library/29fa2061-f679-4e0d-902d-736b67774c8b%28Office.14%29.aspx#BKMK_ContactsFAQ) <br/> |The contact you added appears in the Contacts group you chose.  <br/> |
-|[Change your presence status in Lync](http://technet.microsoft.com/library/ef8998cc-7801-4b62-81ba-9a2c1630f9e5%28Office.14%29.aspx) <br/> |Your new presence status is reflected in other people's Contacts list.  <br/> |
-|[Use the contact card](http://technet.microsoft.com/library/19870880-FC90-46B0-9C60-C398518E9FBC%28Office.14%29.aspx) <br/> |The person's contact card appears near their name.  <br/> |
+|[FAQ about Lync for Office 365](http://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |The contact you added appears in the Contacts group you chose.  <br/> |
+|[Change your presence status in Lync](http://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Your new presence status is reflected in other people's Contacts list.  <br/> |
+|[Use the contact card](http://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |The person's contact card appears near their name.  <br/> |
    
  **Person-to-person calls**
   
 |**Task**|**Expected result**|
 |:-----|:-----|
-|[Make and receive a Lync audio call](http://technet.microsoft.com/library/39342f16-4d16-44de-a806-0b2b566f3886%28Office.14%29.aspx) <br/> |The conversation window appears and you hear the call ringing. The person you're calling receives a desktop alert and accepts the call, and the conversation window is updated when they're connected.  <br/> |
-|[Add audio to a Lync instant message conversation](http://technet.microsoft.com/library/21a098b2-63f1-4205-a9aa-532b6a67ea92%28Office.14%29.aspx) <br/> |The call is connected and you can IM and talk with the other person.  <br/> |
-|[Share your desktop or a program in Lync](http://technet.microsoft.com/library/33aaa965-eb32-42a9-8a9b-cdfffa364842%28Office.14%29.aspx) <br/> |The desktop or program you shared is visible to the other person.  <br/> |
+|[Make and receive a Lync audio call](http://support.office.com/article/39342f16-4d16-44de-a806-0b2b566f3886) <br/> |The conversation window appears and you hear the call ringing. The person you're calling receives a desktop alert and accepts the call, and the conversation window is updated when they're connected.  <br/> |
+|[Add audio to a Lync instant message conversation](http://support.office.com/article/21a098b2-63f1-4205-a9aa-532b6a67ea92) <br/> |The call is connected and you can IM and talk with the other person.  <br/> |
+|[Share your desktop or a program in Lync](http://support.office.com/article/33aaa965-eb32-42a9-8a9b-cdfffa364842) <br/> |The desktop or program you shared is visible to the other person.  <br/> |
    
  **Conferencing**
   
 |**Task**|**Expected result**|
 |:-----|:-----|
-|[Set up a Lync Meeting](http://technet.microsoft.com/library/258f9d20-f06c-49a4-a77f-7f5ac635bb5d%28Office.14%29.aspx) <br/> |A meeting invitation is sent to the people you specified.  <br/> |
-|[Change participant settings for Lync Meetings](http://technet.microsoft.com/library/cee2aa78-d878-4a63-ad33-9c249fceced9%28Office.14%29.aspx) <br/> |Varies depending on the option.  <br/> **TIP:** Under **Access and presenters**, you can experiment with different settings of the **Who will bypass the lobby** option. <br/> |
-|[Joining a Lync Meeting](http://technet.microsoft.com/library/538716dc-f4f2-48c2-af96-587c62387b87%28Office.14%29.aspx) <br/> |The conversation window opens, and your name appears in the list of meeting participants once you're connected.  <br/> |
-|[Mute or unmute your microphone in a Skype for Business meeting or call](http://technet.microsoft.com/library/47399948-db7f-4ee5-8e61-53a94bb97704%28Office.14%29.aspx) <br/> |The Muted icon appears next to the name of everyone in the meeting participant list. Only you can be heard when you speak.  <br/> |
-|[Present PowerPoint slides in a Lync Meeting](http://technet.microsoft.com/library/3910a2b2-01df-4b97-9451-322b598ede7e%28Office.14%29.aspx) <br/> |Your PowerPoint presentation is displayed on everyone's computer in the Skype for Business meeting stage window.  <br/> |
-|[Transfer a file in a Lync Meeting](http://technet.microsoft.com/library/f6942910-bc1d-4a48-bf18-385778f08088%28Office.14%29.aspx) <br/> |After upload, everyone else in the meeting can view and download the attachment.  <br/> |
+|[Set up a Lync Meeting](http://support.office.com/article/258f9d20-f06c-49a4-a77f-7f5ac635bb5d) <br/> |A meeting invitation is sent to the people you specified.  <br/> |
+|[Change participant settings for Lync Meetings](http://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |Varies depending on the option.  <br/> **TIP:** Under **Access and presenters**, you can experiment with different settings of the **Who will bypass the lobby** option. <br/> |
+|[Joining a Lync Meeting](http://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |The conversation window opens, and your name appears in the list of meeting participants once you're connected.  <br/> |
+|[Mute or unmute your microphone in a Skype for Business meeting or call](http://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |The Muted icon appears next to the name of everyone in the meeting participant list. Only you can be heard when you speak.  <br/> |
+|[Present PowerPoint slides in a Lync Meeting](http://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Your PowerPoint presentation is displayed on everyone's computer in the Skype for Business meeting stage window.  <br/> |
+|[Transfer a file in a Lync Meeting](http://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |After upload, everyone else in the meeting can view and download the attachment.  <br/> |
    
 

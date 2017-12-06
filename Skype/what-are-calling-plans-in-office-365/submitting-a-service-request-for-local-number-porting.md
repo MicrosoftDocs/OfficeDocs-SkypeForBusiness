@@ -24,6 +24,5 @@ If you need to transfer more than 999 phone numbers (for users, or service numbe
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
   
 
