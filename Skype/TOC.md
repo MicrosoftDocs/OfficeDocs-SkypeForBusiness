@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# [Index](index.md)
-=======
-
-  
 
 # [Skype for Business admin](skype-for-business-admin.md)
 ## [Accessibility and regulatory](accessibility-and-regulatory/accessibility-and-regulatory.md)
