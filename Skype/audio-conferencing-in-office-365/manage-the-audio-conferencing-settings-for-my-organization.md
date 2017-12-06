@@ -61,7 +61,7 @@ Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 827196
 See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) to learn more about the cmdlet.
   
 > [!IMPORTANT]
->  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:> [Meeting Update Tool for Skype for Business and Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx)> [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online, Meeting Migration Tool (32-bit)](https://go.microsoft.com/fwlink/?LinkID=626046)
+>  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx), [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://go.microsoft.com/fwlink/?LinkID=626046).
   
 See [See, change, and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
   
@@ -82,7 +82,6 @@ See [See, change, and reset a conference ID assigned to a user](see-change-and-r
   
 6. Click **Save**. 
     
-See [Change the dial-in conferencing provider for users](http://technet.microsoft.com/library/9b74f053-4d23-485f-9232-3d30370a8c6e%28Office.14%29.aspx).
   
 ## Enable or disable emails sent to audio conferencing users
 
@@ -116,11 +115,11 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 
 You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
   
-- Enter the email address in the  _SendEmailFromAddress_ parameter.
+- Enter the email address in the _SendEmailFromAddress_ parameter.
     
 - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
     
-- Set the  _SendEmailOverride_parameter to  _True_.
+- Set the _SendEmailOverride_ parameter to _True_.
     
 You can make changes to the email sent to users, such as the email address that the email is sent from or the display name for the email by running:
   
@@ -145,7 +144,7 @@ See [Emails that are automatically sent to users when their Audio Conferencing s
 4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see:> [Meeting Update Tool for Skype for Business and Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx)> [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)> [Skype for Business Online, Meeting Migration Tool (32-bit)](https://go.microsoft.com/fwlink/?LinkID=626046)
+    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](http://technet.microsoft.com/library/2b525fe6-ed0f-4331-b533-c31546fcf4d4%28Office.14%29.aspx),  [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://go.microsoft.com/fwlink/?LinkID=626046).
   
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
   
@@ -399,8 +398,6 @@ See [See a list of users that are enabled for Audio Conferencing](see-a-list-of-
     The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
     
 ## See also
-
-#### Other Resources
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 

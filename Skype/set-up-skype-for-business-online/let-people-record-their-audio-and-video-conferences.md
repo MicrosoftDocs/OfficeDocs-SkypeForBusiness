@@ -20,11 +20,11 @@ description: "How to turn on recording for audio and video conferences, and lear
 
 ## Choose the default recording setting for a single user or everyone in your organization
 
-1. Go to the **Office 365 admin center** > **Skype for Business** then click Users.
+1. Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.
     
-2. On the **Users** page, select the user or users from the list and click **Edit**.
+2. On the **Users** page, select the user or users from the list, and then click **Edit**.
     
-3. On the **Options page,** click **Record conversations and meetings**, then click **Save**.
+3. On the **Options page**, click **Record conversations and meetings**, and then click **Save**.
     
 When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call. Turning recording on or off affects everyone in your organization.
   
@@ -32,6 +32,6 @@ When recording is turned on, organizers or presenters can record a Skype for Bus
 |:-----|:-----|
 |Audio and HD video  <br/> PowerPoint and whiteboard presentations  <br/> Desktop or program sharing sessions  <br/> |Shared OneNote pages  <br/> PowerPoint annotations  <br/> Shared files (attachments)  <br/> |
    
-For details, see [Lync recording save and publish](http://technet.microsoft.com/library/83cf1507-0f05-40f5-a520-5a6c133bc33e%28Office.14%29.aspx) and[Lync recording manager](http://technet.microsoft.com/library/fa915c55-ff55-45c0-b372-1ef5596da10b%28Office.14%29.aspx) *.* 
+For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
 
