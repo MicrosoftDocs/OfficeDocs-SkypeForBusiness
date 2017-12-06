@@ -24,7 +24,7 @@ The new Skype for Business **Reports** dashboard shows you the activity overview
   
 ## How to get to the Skype for Business users blocked report
 
-- Go to the **Office 365 admin center** > **Admin centers** > ** Skype for Business admin center** > **Reports** > **Users blocked**.
+- Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **Users blocked**.
     
 ## Interpret the Skype for Business users blocked report
 
@@ -36,9 +36,9 @@ This is what the report looks like.
   
 |||
 |:-----|:-----|
-|**1** <br/> | The table shows you a breakdown of the all of the users that are blocked from making calls. This shows all users who have Phone System or Audio Conferencing assigned to them. You can add/remove columns to the table. <br/> **User ID** is the user's sign-in. <br/> **Phone number** is the number that is assigned to a user. <br/> **Block action time** is the time (UTC) that the user was blocked from making calls. <br/> **Block action** is the type of action that was taken to block the user. <br/> **Block action reason** is the reason the user has been blocked from making calls. <br/> |
+|**1** <br/> | The table shows you a breakdown of the all of the users that are blocked from making calls. This shows all users who have Phone System or Audio Conferencing assigned to them. You can add/remove columns to the table. <br/><br/> **User ID** is the user's sign-in. <br/><br/> **Phone number** is the number that is assigned to a user. <br/><br/> **Block action time** is the time (UTC) that the user was blocked from making calls. <br/><br/> **Block action** is the type of action that was taken to block the user. <br/><br/> **Block action reason** is the reason the user has been blocked from making calls. <br/> |
 |**2** <br/> |Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. <br/> |
-|**3** <br/> |You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  <br/> |
+|**3** <br/> |You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  <br/> |
    
 ## Want to see other Skype for Business reports?
 
@@ -53,8 +53,7 @@ This is what the report looks like.
 - [Skype for Business peer-to-peer activity report](skype-for-business-peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing and transferring files.
     
 - [Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
-    
-- [Skype for Business users blocked report](skype-for-business-users-blocked-report.md) You can see details about the type of media being used, duration of the session, the client used and the conferencing URL.
+
     
 ## See also
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
