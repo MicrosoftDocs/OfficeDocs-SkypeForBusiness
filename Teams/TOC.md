@@ -8,6 +8,7 @@
 ## [Office 365 groups and Teams](Office-365-groups.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
+## [Teams and Skype for Busineses Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
 
 # Plan
@@ -52,6 +53,8 @@
 
 
 # [Cloud voice deployment](cloud-voice-deployment.md)
+## [Quick Start Guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
+## [Phone System with Calling Plans in Teams](phone-system-with-calling-plans.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ### [Plan](audio-conferencing.md#Planning_AudioConferencing)
