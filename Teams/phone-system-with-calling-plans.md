@@ -48,9 +48,8 @@ Business use cases are meant to document expected, measurable business outcomes,
 -   How technology can help overcome these challenges
 -   The expected, measurable business outcomes if these challenges are overcome
 
-<br>
-> _The following is an example of a completed business use case:_
-<br>
+> [!TIP]
+> The following is an example of a completed business use case:
 >|         |         |
 >|---------|---------|
 >|<img src="media/audio_conferencing_image2.png" />|**Description of current business process**<p>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee will be provided with a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system and connected to PSTN via session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
@@ -67,9 +66,8 @@ Identify key stakeholders
 
 The business use cases defined in the previous step will include organizational scope of Phone System with Calling Plans implementation, and based on that, the comprehensive stakeholder matrix can be completed to include the right people to be involved in the project.
 
-<br>
-> _Below is an example of stakeholder matrix template that you can use to document the project stakeholders:_
-> <br>
+> [!TIP]
+> Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
 >|Role  |Description  |Name, contact information, location  |
 >|---------|---------|---------|
 >|Project Executive Sponsor|<ul><li>Ultimate authority and accountability for the project and delivery on project objectives</li><li>Help resolve issues escalated by Project Lead</li><li>Sponsors communication within the company about project goals</li><li>Responsible for making key strategic decisions</li><li>Responsible for availability of required resources and budget</li><li>Leading Quarterly Business Reviews (QBR)</li><li>Buy-In and support of awareness campaign effort</li><li>Serving as the Project Sponsor to the program rollout</li></ul>|TBA|
@@ -425,7 +423,7 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide if your organization requires customized dial plans (business requirements, adoption requirements, etc.)</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans</li><li>If applicable, decide the tenant dial plans that will be created to support user locations or offices in-scope for the Calling Plans implementation</li><li>If applicable, decide which user require customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation</li><li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of Calling Plans implementation</li><li>Document the users to be assigned with customized dial plan and the tenant dial plan to be assigned for each user</li></ul>|
 
 > _If it is applicable to your project, you can use the following template to document the tenant dial plans configurations_
 >
