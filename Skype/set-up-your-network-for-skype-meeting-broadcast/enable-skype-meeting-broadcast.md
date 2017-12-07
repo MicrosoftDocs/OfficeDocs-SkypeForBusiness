@@ -51,13 +51,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
     
   ```
   $Credential = get-credential
-  ```
-
-  ```
   $O365Session = New-CsOnlineSession -Credential $credential
-  ```
-
-  ```
   Import-PSSession $O365Session
   ```
 
@@ -95,8 +89,6 @@ If you aren't experienced with configuring your firewall, consider hiring a [Mic
 To skip this step and instead add another business to your federation, see [Allow users to contact external Skype for Business users](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
 ## See also
-
-#### Other Resources
 
 [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
