@@ -45,7 +45,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 A conference ID is automatically assigned to a user when they are set up for audio conferencing using Microsoft as the audio conferencing provider. The conference ID assigned can be either static or dynamic and is sent in the meeting invite when the meeting is scheduled. 
   
-Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or choose one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or choose one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, see [Using Audio Conferencing dynamic IDs in your organization](using-audio-conferencing-dynamic-ids-in-your-organization.md).
   
 The Skype for Business admin center can't be used to assign a conference ID to a user, but you can use the Windows PowerShell cmdlet to do this.
   
@@ -321,66 +321,53 @@ See [See a list of users that are enabled for Audio Conferencing](see-a-list-of-
   
 ## Want to know how to manage with Windows PowerShell?
 
-- There are several settings that you can manage at the organization level using Windows PowerShell. This makes it easy to apply settings to all of your users. Here are the organization-level settings:
+There are several settings that you can manage at the organization level using Windows PowerShell. This makes it easy to apply settings to all of your users. 
     
-    To get more help on each cmdlet, see [Skype for Business Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
-    
+To get more help on each cmdlet, see [Skype for Business Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
+
+Here are the organization-level settings: 
 > 
+- **Setting entry/exit notifications** The default is _$true_.
   ```
-  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
   ```
 
-     The default is _$true_.
-    
-> 
+- **Setting name recording** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
-     The default is _$true_.
-    
-> 
+- **Setting the PIN length** The default is 5.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
-    The default is 5.
-    
-> 
+- **Setting only dial-in meetings from a phone** The default _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
-    The default is  _$false_.
-    
-> 
+- **Setting whether to send email to users** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-     The default is _$true_.
-    
-> 
+- **Setting whether to send email from a different account** The default is  _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
-    The default is  _$false_.
-    
-> 
+- **Setting the From address on email that is sent to users** The default is _$null_. 
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
-     The default is _$null_.
-    
-> 
+- **Setting the display name for the email that is sent to users** The default is  _$null_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
-    The default is  _$null_.
-    
+ ## Want to know more about Windows PowerShell   
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)

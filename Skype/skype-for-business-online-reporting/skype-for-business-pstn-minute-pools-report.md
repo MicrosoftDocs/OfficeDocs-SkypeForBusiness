@@ -15,9 +15,9 @@ description: "The new Skype for Business Admin Center Reports area shows you cal
 
 The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the **Skype for Business PSTN minute pools** report to see the number of minutes consumed during the current month within your organization.
   
-Check out the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
+Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
@@ -39,11 +39,24 @@ This is what the report looks like.
 
 ![Skype for Business PSTN minute pools report](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
-|||
-|:-----|:-----|
-|**1** <br/> | The table shows you a breakdown of minute pools by license (capability) and usage location. <br/><br/> **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include: <br/><br/>  MCOPSTNPP - Communications Credits <br/><br/>  MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans) <br/><br/>  MCOPSTN2 - International Calling Plan <br/><br/>  MCOPSTN5 - Domestic Calling Plan (120-minute calling plan) <br/><br/>  MCOMEETADD - Audio Conferencing <br/><br/>  MCOMEETACPEA - Pay Per Minute Audio Conferencing <br/><br/> **Capability Description** is a description of the license type utilized for the call. <br/><br/> **Country Minute Pool** is the license usage location of the user(s) who share the minute pool. <br/><br/> **Used Minutes** is the number of minutes used each month. <br/><br/> **Total Minutes** is the total number of minutes available for the month. <br/><br/> **Percent Used** is the percent of minutes used for the month. <br/> |
-|**2** <br/> |Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. <br/> |
-|**3** <br/> |You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  <br/> 
+***
+![1](../images/SfBCallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
+*    **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
+     * MCOPSTNPP - Communications Credits
+     * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans
+     * MCOPSTN2 - International Calling Plan
+     * MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
+     * MCOMEETADD - Audio Conferencing
+     * MCOMEETACPEA - Pay Per Minute Audio Conferencing
+*    **Capability Description** is a description of the license type utilized for the call.
+*    **Country Minute Pool** is the license usage location of the user(s) who share the minute pool. 
+*    **Used Minutes** is the number of minutes used each month.
+*    **Total Minutes** is the total number of minutes available for the month. 
+*    **Percent Used** is the percent of minutes used for the month. 
+***
+![2](../images/SfBCallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+***
+![3](../images/SfBCallout3.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
    
 ## Want to see other Skype for Business reports?
 
@@ -59,6 +72,7 @@ This is what the report looks like.
     
 - [Skype for Business users blocked report](skype-for-business-users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.
 
+- [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
     
 ## See also
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

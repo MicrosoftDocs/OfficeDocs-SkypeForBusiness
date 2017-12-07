@@ -18,7 +18,7 @@ description: "Learn how to switch between Skype for Business and Lync client use
 
 # Switching between the Skype for Business and the Lync client user interfaces
 
-For Skype for Business Online organizations, you can use the Remote PowerShell in Office 365 to enable your Skype for Business users to use the Skype for Business client or the Skype for Business (Lync) client user interface. The default setting is for users to use the Skype for Business client user interface. If you'd prefer to use the Lync client experience, you can manage the first launch client behavior to display the Lync user interface following the steps later in this topic.
+For Skype for Business Online organizations, you can use the Remote PowerShell in Office 365 to enable your Skype for Business users to use the Skype for Business client or the Skype for Business (Lync) client user interface. The default setting is for users to use the Skype for Business client user interface. If you'd prefer to use the Lync client experience, you can manage the first launch client behavior to display the Lync user interface by following the steps later in this topic.
   
 > [!NOTE]
 > The Lync 2013 client experience isn't an option for Skype for Business 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x. 
@@ -68,7 +68,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.gif)
+![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 To allow a single user in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
@@ -78,31 +78,24 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.gif)
+![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 To allow multiple users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
-> 
-  ```
-  $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
 
-> 
-  ```
-  $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-  ```
+```
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
+
+$users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
+```
 
 To allow multiple users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
-> 
-  ```
-  $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
+```
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
-> 
-  ```
-  $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-  ```
+$users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
+```
 
 To allow a group of users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
@@ -127,107 +120,49 @@ This table shows the user experience when the policy is first applied to users:
   
 |**Admin policy setting**|**User interface displayed**|
 |:-----|:-----|
-|The policy isn't set.  <br/> |The user will continue using the Skype for Business client user interface.  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-```
-
-|The user will continue using the Skype for Business client user interface.  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-```
-
-|The user will be asked to switch to the Skype for Business (Lync) client user interface. They can switch later.  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
-```
-
-|The user will be using the Skype for Business client user interface.  <br/> |
-|
-```
-Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>
-```
-
-|The user will be asked to switch to the Skype for Business (Lync) client user interface. An admin can change the setting in the future that will switch them to the Skype for Business client user interface.  <br/> |
+|The policy isn't set. |The user will continue using the Skype for Business client user interface.|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|The user will continue using the Skype for Business client user interface.|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|The user will be asked to switch to the Skype for Business (Lync) client user interface. They can switch later.|
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|The user will be using the Skype for Business client user interface. |
+```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|The user will be asked to switch to the Skype for Business (Lync) client user interface. An admin can change the setting in the future that will switch them to the Skype for Business client user interface. |
    
 This table shows the user experience when the policy is changed:
   
 |**Admin policy setting**|**Skype for Business (Lync) user interface**|**Skype for Business user interface**|
 |:-----|:-----|:-----|
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
-```
-
-|The user will be asked to switch to the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
-|
-```
-Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
-```
-
-|The user will continue to use the Skype for Business (Lync) interface.  <br/> |The user will be asked to switch to the Skype for Business (Lync) client user interface.  <br/> |
+|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|The user will be asked to switch to the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
+|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|The user will continue to use the Skype for Business (Lync) interface.  <br/> |The user will be asked to switch to the Skype for Business (Lync) client user interface.  <br/> |
 |The policy isn't set.  <br/> |Users will never see the Skype for Business (Lync) client user interface if the policy is not set. They will always use the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
    
 This table shows all the Online custom policies available. There are new policies created to give admins flexibility in retaining the old custom policy while switching between the EnableSkypeUI flags. Please use the cmdlets from above to grant one of the below policies to your users.
   
 |**Policy name**|**EnableSkypeUI**|
 |:-----|:-----|
-|
-```
-ClientPolicyDefaultPhoto
-```
-```
-ClientPolicyDefaultPhotoDisableSkypeUI False
-```
-```
-ClientPolicyNoIMURL
-```
-```
-ClientPolicyNoIMURLDisableSkypeUI False
-```
-```
-ClientPolicyNoIMURLPhoto
-```
-```
-ClientPolicyNoIMURLPhotoDisableSkypeUI False
-```
-```
-ClientPolicyNoSaveIMNoArchiving
-```
-```
-ClientPolicyNoSaveIMNoArchivingDisableSkypeUI False
-```
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURL
-```
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI False
-```
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto
-```
-```
-ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI False
-```
-```
-ClientPolicyNoSaveIMNoArchivingPhoto
-```
-```
-ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI False
-```
+```ClientPolicyDefaultPhoto```||
+```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
+```ClientPolicyNoIMURL```||
+```ClientPolicyNoIMURLDisableSkypeUI``` |False|
+```ClientPolicyNoIMURLPhoto```||
+```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |False|
+```ClientPolicyNoSaveIMNoArchivingI```||
+```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |False|
+```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
+```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |False|
+```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
+```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|False|
+```ClientPolicyNoSaveIMNoArchivingPhoto```||
+```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |False|
+
    
 To get started with Windows PowerShell, see these topics:
   
-- [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 ]( https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## First launch client behaviors
 
-By default, when users launch Skype for Business for the first time, they will always see the Skype for Business user interface--even if you have selected the Lync client experience by setting the client policy to the Lync client experience ( `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) as described previously. After several minutes, users will then be asked to switch to Lync mode.
+By default, when users launch Skype for Business for the first time, they will always see the Skype for Business user interface--even if you have selected the Lync client experience by setting the client policy to the Lync client experience (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) as described previously. After several minutes, users will then be asked to switch to Lync mode.
   
 If you want to display the Lync user interface when users launch the Skype for Business client for the first time, follow these steps before the client is started for the first time after being updated:
   
@@ -241,7 +176,7 @@ If you want to display the Lync user interface when users launch the Skype for B
     
     The key should look like the following:
     
-> [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]
+    [HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]
     
     "CanSharePptInCollab"=dword:00000001
     
@@ -255,7 +190,7 @@ The Lync user interface will now be displayed when users launch the Skype for Bu
   
 ### Control the display of the Welcome screen tutorial
 
-When users open the Skype for Business client, the default behavior is to display a Welcome screen that includes  *7 Quick tips most people ask for*  . You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
+When users open the Skype for Business client, the default behavior is to display a Welcome screen that includes *7 Quick tips most people ask for*. You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
   
 In the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** key, create a new **DWORD (32-bit) Value**. The **Value name** must be **IsBasicTutorialSeenByUser**, and the **Value data** must be set to **1**.
   
@@ -310,7 +245,7 @@ The following procedure describes how to modify the registry so that the Lync cl
 |**Value type** <br/> |REG_BINARY  <br/> |
 |**Value data** <br/> |00000000  <br/> |
    
-8. Click **OK** to save your changes, and then close the GPO.
+Click **OK** to save your changes, and then close the GPO.
     
 Next, you'll need to link the GPO you created to the group of users that you want to assign the policy to, such as an OU.
   
