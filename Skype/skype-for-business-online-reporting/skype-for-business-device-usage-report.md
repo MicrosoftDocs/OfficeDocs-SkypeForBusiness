@@ -57,8 +57,8 @@ Each report has a date for when this report was generated. The reports usually r
 ![5](../images/SfBCallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Users** chart, click or tap **Windows**, **Windows Phone**, **Android phone**, **iPhone**, or **iPad** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
 ***
 ![6](../images/SfBCallout6.png)<br/>Each chart has an 'X' (horizontal) and 'Y' (vertical) axis.
- *  On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed.
-*   On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. 
+*    On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed.
+*    On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. 
 
 The X axis on both charts is the selected date range for this specific report.
 ***

@@ -48,12 +48,10 @@ This is what the report looks like.
      *    MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
      *    MCOMEETADD - Audio Conferencing
      *    MCOMEETACPEA - Pay Per Minute Audio Conferencing
-
  *    **Capability Description** is a description of the license type utilized for the call.
  *    **Country Minute Pool** is the license usage location of the user(s) who share the minute pool. 
  *    **Used Minutes** is the number of minutes used each month.
  *    **Total Minutes** is the total number of minutes available for the month. 
-
  *    **Percent Used** is the percent of minutes used for the month. 
 ***
 ![2](../images/SfBCallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 

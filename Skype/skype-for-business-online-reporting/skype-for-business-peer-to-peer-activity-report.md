@@ -52,7 +52,7 @@ You can get a view into your Skype for Business peer-to-peer activity by looking
 ***
 ![1](../images/SfBCallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
 ***
-![2](../images/SfBCallout2.png)<br/>|Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
+![2](../images/SfBCallout2.png)<br/>Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
 ![3](../images/SfBCallout3.png)<br/>Use the interactive chart data on the **Activity** chart to understand usage trends and to see the total number of sessions per session type being held in your organization. It will show you the total number and types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** sessions across your organization. 
 ***

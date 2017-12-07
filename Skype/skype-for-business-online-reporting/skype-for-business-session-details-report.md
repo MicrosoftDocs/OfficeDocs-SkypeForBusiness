@@ -24,7 +24,7 @@ This report, along with the other Skype for Business reports give you details on
   
 ## How to get to the Skype for Business Session details report
 
-1. Go to the Office 365 admin center > **Reports**
+1. Go to the **Office 365 admin center** > **Reports**
     
 2. Select **Reports** from the left menu, and then click **Usage**.
     
