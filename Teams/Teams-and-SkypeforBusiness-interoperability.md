@@ -39,7 +39,7 @@ Supported interop experiences include the following:
 ![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png)
 
 > [!NOTE]
-> From a Skype for Business user point of view, chats and calls from/to Teams will appear as basic Skype for Business chats and calls. Please review the [Interop experiences limitations](###Interop-experiences-limitations) section for details.
+> From a Skype for Business user point of view, chats and calls from/to Teams will appear as basic Skype for Business chats and calls. Please review the [Interop experiences limitations](#interop-experiences-limitations) section for details.
 
 > [!IMPORTANT]
 > Unified presence between Teams and Skype for Business is currently not supported, which means Teams and Skype for Business will show their own independent presence states. To find out when support for unified presence is going to be available, review [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).

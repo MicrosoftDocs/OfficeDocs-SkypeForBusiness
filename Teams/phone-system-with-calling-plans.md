@@ -478,6 +478,8 @@ Drive Value
 *Coming soon.*
 
 <br>
-### See also
+## See also
 
 [Set up Calling Plans](https://support.office.com/article/Set-up-Calling-Plans-57893158-1acd-44ac-acaf-19f58264a9e0)
+
+[Quick start guide: Configuring Calling Plans in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)
