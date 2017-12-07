@@ -44,14 +44,13 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
     
     ![Here's what it might look like when you complete the form to customize your meeting invitations.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-
-    **Logo URL:** Enter the URL where your logo is stored. Remember that it must be in JPG format! 
+   **Logo URL:** Enter the URL where your logo is stored. Remember that it must be in JPG format! 
  
-    **Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here. 
+   **Help URL:** If your organization has a support website you want people to go to if they have problems, enter the URL here. 
 
-    **Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.
+   **Legal URL:** If your organization has a legal website you want people to go to if they have legal concerns, enter the URL here.
     
-    **Footer text:** Enter a text-only footnote that will be appropriate for your users.  
+   **Footer text:** Enter a text-only footnote that will be appropriate for your users.  
   
    
 5. Choose **Save**.

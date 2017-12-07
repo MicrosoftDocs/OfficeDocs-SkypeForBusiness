@@ -85,8 +85,7 @@ To allow multiple users in your organization to use the Skype for Business clien
 
 ```
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
-```
-```
+
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -94,8 +93,7 @@ To allow multiple users in your organization to use the Skype for Business (Lync
   
 ```
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-```
-```
+
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
