@@ -25,19 +25,19 @@ If you are running Windows 7 or Windows Server 2008 R2, you might also be runnin
     
 2. In the PowerShell console, type the following command and then press ENTER:
     
-  ```
-  Get-Host | Select-Object Version
-  ```
+    ```
+   Get-Host | Select-Object Version
+   ```
 
 3. Information similar to the following should then be displayed in the console window:
     
-  ```
-  Version
--------
-3.0
-  ```
+    ```
+    Version
+    -------
+    3.0
+    ```
 
-If the returned Version number is 3.0, then you are running Windows PowerShell 3.0. If the returned Version number is not 3.0, then you'll need to install Windows PowerShell 3.0. You can download Windows Management Framework 3.0, which includes Windows PowerShell 3.0, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
+    If the returned Version number is 3.0, then you are running Windows PowerShell 3.0. If the returned Version number is not 3.0, then you'll need to install Windows PowerShell 3.0. You can download Windows Management Framework 3.0, which includes Windows PowerShell 3.0, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 After you've verified that Windows PowerShell 3.0 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
   
@@ -54,13 +54,11 @@ If you are running Windows 8, complete this procedure instead:
 3. If the **User Account Control** dialog box appears, click **Yes** to verify that you want to run PowerShell under administrator credentials.
     
 After PowerShell is running, you must change the execution policy to allow the running of remote scripts. In the PowerShell console, type the following command and then press ENTER:
-  
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-
 > [!NOTE]
->  When you run the preceding command, you might receive the following error message:> Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied. > This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
+>  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
   
 To verify that the execution policy has been configured correctly, type the following at the PowerShell prompt and then press ENTER:
   
