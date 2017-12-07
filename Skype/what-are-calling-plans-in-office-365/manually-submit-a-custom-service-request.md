@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.lync.lac.PortOrderOverview.NumberManualAcquisitionOpenSupportTicket
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
@@ -23,7 +23,7 @@ description: "Learn the steps you need to do to submit a port order request when
 If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 > [!IMPORTANT]
-> In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md). 
+> In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
 ## What else should you know about number porting?
 
