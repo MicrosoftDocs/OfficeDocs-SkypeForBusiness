@@ -41,13 +41,14 @@ This is what the report looks like.
   
 ***
 ![1](../images/SfBCallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
-* **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
+* **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:<br/>
     * MCOPSTNPP - Communications Credits
     * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans
     * MCOPSTN2 - International Calling Plan
     * MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
     * MCOMEETADD - Audio Conferencing
     * MCOMEETACPEA - Pay Per Minute Audio Conferencing
+
  * **Capability Description** is a description of the license type utilized for the call.
  * **Country Minute Pool** is the license usage location of the user(s) who share the minute pool. 
  * **Used Minutes** is the number of minutes used each month.
