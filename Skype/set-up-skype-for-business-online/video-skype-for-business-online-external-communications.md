@@ -19,6 +19,10 @@ description: "Learn to set up Skype for Business Online external communications 
 ****
 
 ![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](../images/MSN_Video_Widget.gif)
+
+<iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>
+
+***
   
  **Audience:** Office 365 admins
   
