@@ -47,17 +47,45 @@ You can get a view into your user's Skype for Business activity by looking at th
   
 ![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
-|||
-|:-----|:-----|
-|**1** <br/> |The **Skype for Business Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. <br/> |
-|**2** <br/> |Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity.  <br/> |
-|**3** <br/> |Use the interactive chart data on the **Activity** chart to understand usage trends and to see the number of conference activities that are being held in your organization. It will show you the total number and types of **Peer-to-peer sessions**, **Organized** and **Participated** in conference sessions across your organization. <br/> |
-|**4** <br/> | Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. It will show you the total number of users along with the types of **Peer-to-peer sessions**, **Organized**, and **Participated** in conference sessions. <br/> |
-|**5** <br/> |You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **Peer-to-peer sessions**, **Organized**, or **Participated** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. <br/> |
-|**6** <br/> | Each chart has an 'X' (horizontal) and 'Y' (vertical) axis. <br/> <br/> On the **Activity** chart, the Y axis is the total number of peer-to-peer, organized, and participated in conference sessions that are held.<br/> <br/>On the **Users** activity chart, the Y axis is the number of unique users attending in each type of peer-to-peer, organized, and participated in conference. <br/> <br/>  The X axis on both charts is the selected date range for this specific report. <br/> |
-|**7** <br/> | The table shows you a breakdown of all the conferencing activities per user. This shows all users who have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table. <br/><br/>  **Username** is the name of the user. <br/> <br/> **Deleted** indicates that the user's license was removed. <br/> <br/> **Note:** Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report. <br/> <br/>  **Deleted date** is the date on which the user's license was removed. <br/> <br/> **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference. <br/> <br/> **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used. <br/><br/>  **Organized conferences** shows the total number of conferences that were organized by that user. <br/> <br/> **Participated-in conferences** shows the total number of conferences that this user participated in. <br/> <br/> **Product assigned** is the Office 365 products that are assigned to this user. <br/><br/>   If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).  <br/> |
-|**8** <br/> |Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)|
-|**9** <br/> |You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  <br/> |
+***
+![1](../images/SfBCallout1.png)
+*    The **Skype for Business Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
+***
+![2](../images/SfBCallout2.png)
+*    Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
+***
+![3](../images/SfBCallout3.png)
+*    Use the interactive chart data on the **Activity** chart to understand usage trends and to see the number of conference activities that are being held in your organization. It will show you the total number and types of **Peer-to-peer sessions**, **Organized** and **Participated** in conference sessions across your organization. 
+***
+![4](../images/SfBCallout4.png)
+*    Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. It will show you the total number of users along with the types of **Peer-to-peer sessions**, **Organized**, and **Participated** in conference sessions.
+***
+![5](../images/SfBCallout5.png)
+*    You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **Peer-to-peer sessions**, **Organized**, or **Participated** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
+***
+![6](../images/SfBCallout6.png)
+*    Each chart has an 'X' (horizontal) and 'Y' (vertical) axis.
+     *    On the **Activity** chart, the Y axis is the total number of peer-to-peer, organized, and participated in conference sessions that are held.
+     *    On the **Users** activity chart, the Y axis is the number of unique users attending in each type of peer-to-peer, organized, and participated in conference.
+*    The X axis on both charts is the selected date range for this specific report. 
+***
+![7](../images/SfBCallout7.png)
+*    The table shows you a breakdown of all the conferencing activities per user. This shows all users who have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table.
+     *    **Username** is the name of the user.
+     *    **Deleted** indicates that the user's license was removed. <br/> <br/> **Note:** Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.<br/><br/>
+     *    **Deleted date** is the date on which the user's license was removed.
+     *    **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference.
+     *    **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used.
+     *    **Organized conferences** shows the total number of conferences that were organized by that user.
+     *    **Participated-in conferences** shows the total number of conferences that this user participated in.
+     *    **Product assigned** is the Office 365 products that are assigned to this user.
+ *    If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+***
+![8](../images/SfBCallout8.png)
+*    Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+***
+![9](../images/SfBCallout9.png)
+*    You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data. 
    
 ## Want to see other Skype for Business reports?
 
@@ -65,13 +93,15 @@ You can get a view into your user's Skype for Business activity by looking at th
     
 - [Skype for Business conference organizer activity report](skype-for-business-conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, dial-in/out - 3rd party, and dial-in/out - Microsoft.
     
-- [Skype for Business conference participant activity report](skype-for-business-conference-participant-activity-report.md) You can see how many IM, audio/video, application sharing, Web, and and dial-in/out conferencing conferences are being participated in.
-    
 - [Skype for Business peer-to-peer activity report](skype-for-business-peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing, and transferring files.
     
 - [Skype for Business users blocked report](skype-for-business-users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.
     
 - [Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
+
+- [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
+
+- [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
     
 ## See also
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
