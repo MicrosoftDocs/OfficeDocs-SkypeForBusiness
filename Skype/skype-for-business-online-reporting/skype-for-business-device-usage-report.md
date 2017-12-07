@@ -44,17 +44,38 @@ You can get a view into the devices that are using the Skype for Business app by
   
 ![Skype for Business device usage report](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
-|||
-|:-----|:-----|
-|**1** <br/> |The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. <br/> |
-|**2** <br/> |Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity.  <br/> |
-|**3** <br/> |Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of users that are connected using the Skype for Business app that are used in your organization. It will show you the total number of users and types of **Windows**, **Windows Phone**, **Android phone**, **iPhone**, and **iPad** devices that have the Skype for Business app installed and are being used across your organization. <br/> |
-|**4** <br/> | Use the interactive chart data on the **Distribution** bar chart to understand usage to see the number of users using unique devices in your organization. It will show you the total number of **Windows**, **Windows Phone**, **Android phone**, **iPhone**, and **iPad** users with a device being used. <br/> |
-|**5** <br/> |You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Users** chart, click or tap **Windows**, **Windows Phone**, **Android phone**, **iPhone**, or **iPad** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. <br/> |
-|**6** <br/> | Each chart has an 'X' (horizontal) and 'Y' (vertical) axis. <br/><br/>  On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed. <br/><br/>  On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. <br/><br/>  The X axis on both charts is the selected date range for this specific report. <br/> |
-|**7** <br/> | The table shows you a breakdown of the all conferencing activities per user. This shows all users that have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table. <br/><br/> **User name** is the name of the user. <br/><br/> **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference. <br/><br/> **Windows** is selected if the user is has the Skype for Business client app installed on a Windows-based operating system and is using it. <br/><br/> **Windows Phone** is selected if the user is has the Skype for Business client app installed on a Windows Phone device and is using it. <br/><br/> **Android phone** is selected if the user is has the Skype for Business client app installed on a Android phone and is using it. <br/><br/> **iPhone** is selected if the user is has the Skype for Business client app installed on an iPhone and is using it. <br/><br/> **iPad** is selected if the user is has the Skype for Business client app installed on an iPad and is using it. <br/><br/>  If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).  <br/> |
-|**8** <br/> |Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)|
-|**9** <br/> |You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  <br/> |
+***
+![1](../images/SfBCallout2.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
+***
+![2](../images/SfBCallout1.png)<br/>
+Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
+***
+![3](../images/SfBCallout3.png)<br/>Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of users that are connected using the Skype for Business app that are used in your organization. It will show you the total number of users and types of **Windows**, **Windows Phone**, **Android phone**, **iPhone**, and **iPad** devices that have the Skype for Business app installed and are being used across your organization.
+***
+![4](../images/SfBCallout4.png)<br/>Use the interactive chart data on the **Distribution** bar chart to understand usage to see the number of users using unique devices in your organization. It will show you the total number of **Windows**, **Windows Phone**, **Android phone**, **iPhone**, and **iPad** users with a device being used. 
+***
+![5](../images/SfBCallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Users** chart, click or tap **Windows**, **Windows Phone**, **Android phone**, **iPhone**, or **iPad** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
+***
+![6](../images/SfBCallout6.png)<br/>Each chart has an 'X' (horizontal) and 'Y' (vertical) axis.
+ *   On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed. 
+*    On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. 
+
+The X axis on both charts is the selected date range for this specific report.
+***
+![7](../images/SfBCallout7.png)<br/>The table shows you a breakdown of the all conferencing activities per user. This shows all users that have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table.
+*    **User name** is the name of the user. 
+*    **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference.
+*    **Windows** is selected if the user is has the Skype for Business client app installed on a Windows-based operating system and is using it. 
+*    **Windows Phone** is selected if the user is has the Skype for Business client app installed on a Windows Phone device and is using it.
+*    **Android phone** is selected if the user is has the Skype for Business client app installed on a Android phone and is using it.
+*    **iPhone** is selected if the user is has the Skype for Business client app installed on an iPhone and is using it. 
+*    **iPad** is selected if the user is has the Skype for Business client app installed on an iPad and is using it. 
+
+If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+***
+![8](../images/SfBCallout8.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+***
+![9](../images/SfBCallout9.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data. 
    
 ## Want to see other Skype for Business reports?
 
@@ -70,6 +91,9 @@ You can get a view into the devices that are using the Skype for Business app by
     
 - [Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
 
+- [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
+
+- [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
     
 ## See also
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
