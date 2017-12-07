@@ -89,11 +89,12 @@ Replace the default toll or toll-free number for all users that have the number 
 ```
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
+ > [!IMPORTANT] You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
+ 
+ For additional information, see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
 
-> [!NOTE]
+ > [!NOTE]
 > Depending on the size of your organization, this could take some time to complete. 
-  
- **You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings**. For additional information, see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
   
 ### Step 2 - View meeting migration status using Windows PowerShell
 
@@ -170,8 +171,7 @@ To save time or automate this process, you can use the [Set-CsOnlineDialInConfer
 
 - Use the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet to change the default toll or toll-free number of users based on their original default number or their location.
     
-    > [!NOTE]
-    > Note:To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
+    > [!NOTE] To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
   
   - To set the default toll-free number for all users without one to 8005551234, run:
     
