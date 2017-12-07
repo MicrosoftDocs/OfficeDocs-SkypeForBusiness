@@ -19,7 +19,7 @@ In Skype for Business Online, you have ability to control Point-to-Point (P2P) f
   
 - Assign a conferencing policy with P2P file transfer enabled (_EnableP2PFileTransfer_ set to _True_) to users in your organization.
     
-- Create aglobal external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
+- Create a global external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
     
 You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
