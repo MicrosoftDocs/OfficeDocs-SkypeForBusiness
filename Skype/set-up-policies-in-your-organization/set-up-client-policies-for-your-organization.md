@@ -42,17 +42,13 @@ Client policy settings can be configured at the time a policy is created, or you
     
 2. In the **Windows PowerShell** window, connect to your Office 365 organization by running:
     
-    > [!NOTE]
-    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-  
-> 
+    > [!NOTE] You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
   ```
-  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
+      Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+      $credential = Get-Credential
+      $session = New-CsOnlineSession -Credential $credential
+      Import-PSSession $session
   ```
-
   If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### Disable emoticons and presence notifications and prevent saving of IMs
