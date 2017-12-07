@@ -34,7 +34,7 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="skype-for-business-online.md">
+                                <a href="/SkypeForBusiness/skype-for-business-online.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
