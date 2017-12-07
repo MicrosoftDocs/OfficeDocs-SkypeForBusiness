@@ -34,7 +34,7 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="skype-for-business-online">
+                                <a href="skype-for-business-online.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -84,6 +84,25 @@ description: Skype for Business
                                                 <div class="cardText">
                                                     <h3>Microsoft Teams</h3>
                                                     <p>Get the planning, how to, and practical guidance you need to successfully roll out Microsoft Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/SkypeForBusiness/journey_skype_business_teams.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Journey from Skype for Business to Microsoft Teams</h3>
+                                                    <p>Find guidance and tools to explore your optimal path to Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
