@@ -70,6 +70,10 @@ The table shows you a breakdown of the all of the users that are blocked from ma
     
 - [Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
 
+- [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
+
+- [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
+
     
 ## See also
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
