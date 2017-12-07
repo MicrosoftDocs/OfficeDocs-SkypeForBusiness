@@ -56,11 +56,11 @@ This is what the report looks like.
      *    **user_out_forwarding** (the user forwarded the call to a PSTN number)
 
      **Audio Conferencing Call Types**
-     *    **﻿conf_in** (an inbound call to the Audio Conferencing bridge) 
-     *    **﻿conf_out** (an outbound call from the Audio Conferencing bridge usually to add a PSTN number to the conference)
+     *    **conf_in** (an inbound call to the Audio Conferencing bridge) 
+     *    **conf_out** (an outbound call from the Audio Conferencing bridge usually to add a PSTN number to the conference)
 
      **Unified Communication Applications (UCAP)** 
-*    *    **ucap_in** (an inbound call to the UC application such as auto attendant or call queue) 
+     *    **ucap_in** (an inbound call to the UC application such as auto attendant or call queue) 
      *    **ucap_out** (an outbound call ﻿from the UC application such as auto attendant or call queue)
 *     
      **Domestic/International** tells you whether the call that was placed was considered domestic (within a country/region) or international (outside of a country/region) based on the user's location. 

@@ -67,7 +67,8 @@ You can filter the series you see on the chart by clicking on an item in the leg
 Each chart has an 'X' (horizontal) and 'Y' (vertical) axis.
 *    On the **Activity** chart, the Y axis is the total number of peer-to-peer, organized, and participated in conference sessions that are held.
 *    On the **Users** activity chart, the Y axis is the number of unique users attending in each type of peer-to-peer, organized, and participated in conference.
-*    The X axis on both charts is the selected date range for this specific report. 
+
+The X axis on both charts is the selected date range for this specific report. 
 ***
 ![7](../images/SfBCallout7.png)<br/>
 The table shows you a breakdown of all the conferencing activities per user. This shows all users who have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table.

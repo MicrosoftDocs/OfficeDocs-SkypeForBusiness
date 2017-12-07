@@ -45,9 +45,9 @@ You can get a view into the devices that are using the Skype for Business app by
 ![Skype for Business device usage report](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![1](../images/SfBCallout2.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
+![1](../images/SfBCallout1.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
 ***
-![2](../images/SfBCallout1.png)<br/>
+![2](../images/SfBCallout2.png)<br/>
 Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
 ![3](../images/SfBCallout3.png)<br/>Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of users that are connected using the Skype for Business app that are used in your organization. It will show you the total number of users and types of **Windows**, **Windows Phone**, **Android phone**, **iPhone**, and **iPad** devices that have the Skype for Business app installed and are being used across your organization.
@@ -57,8 +57,8 @@ Each report has a date for when this report was generated. The reports usually r
 ![5](../images/SfBCallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Users** chart, click or tap **Windows**, **Windows Phone**, **Android phone**, **iPhone**, or **iPad** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
 ***
 ![6](../images/SfBCallout6.png)<br/>Each chart has an 'X' (horizontal) and 'Y' (vertical) axis.
- *   On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed. 
-*    On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. 
+ *  On the **Users** chart, the Y axis is the total number of users connected with a device that has the Skype for Business app installed.
+*   On the **Distribution** activity chart, the Y axis is the number of users that are connected with a certain type of device with the Skype for Business app installed. 
 
 The X axis on both charts is the selected date range for this specific report.
 ***
