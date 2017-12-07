@@ -327,35 +327,42 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
 Here are the organization-level settings: 
 > 
-- Setting entry/exit notifications. The default is _$true_.
+- **Setting entry/exit notifications** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
-  ```   
-- Setting name recording. The default is _$true_.
+  ```
+
+- **Setting name recording** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
-- Setting the PIN length. The default is 5.
+
+- **Setting the PIN length** The default is 5.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
-- Setting only dial-in meetings from a phone. The default _$false_.
+
+- **Setting only dial-in meetings from a phone** The default _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
-- Setting whether to send email to users. The default is _$true_.
+
+- **Setting whether to send email to users** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
-- Setting whether to send email from a different account. The default is  _$false_.
+
+- **Setting whether to send email from a different account** The default is  _$false_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
-- Setting the From address on email that is sent to users. The default is _$null_. 
+
+- **Setting the From address on email that is sent to users** The default is _$null_. 
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
-- Setting the display name for the email that is sent to users. The default is  _$null_.
+
+- **Setting the display name for the email that is sent to users** The default is  _$null_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
