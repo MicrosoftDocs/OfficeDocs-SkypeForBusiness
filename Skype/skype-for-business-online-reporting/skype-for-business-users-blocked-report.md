@@ -42,7 +42,6 @@ The table shows you a breakdown of the all of the users that are blocked from ma
     *   **Sign in name** just some more text
     *   **Next** more text.
 *   **Phone number** is the number that is assigned to a user. 
-
 *   **Block action time** is the time (UTC) that the user was blocked from making calls.
 *   **Block action** is the type of action that was taken to block the user.
 *   **Block action reason** is the reason the user has been blocked from making calls.
