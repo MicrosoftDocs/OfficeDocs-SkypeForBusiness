@@ -21,9 +21,9 @@ description: "The new Office 365 Reports dashboard shows you the activity overvi
 
 The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business device usage** report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. 
 
-Check out [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
+Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
-This report along with the other Skype for Business reports give you details on the types of clients/devices that are used across your organization. These details are very helpful when you are investigating, planning, and making other business decisions for your organization.
+This report, along with the other Skype for Business reports, gives you details on the types of clients/devices that are used across your organization. These details are very helpful when you are investigating, planning, and making other business decisions for your organization.
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
