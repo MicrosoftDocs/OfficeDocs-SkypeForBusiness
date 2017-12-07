@@ -44,22 +44,10 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
   
 > 
   ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  ```
-
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
 If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
@@ -130,44 +118,21 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
 ### Using a PowerShell script
 
 Run this to delete a normalization rule that is associated with a tenant dial plan without needing to deleting the tenant dial plan first:
-  
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
-```
-
-```
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
-```
-
-```
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
-```
-
-```
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
-```
-
-```
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-
 Run this to add the following normalization rule to the existing tenant dial plan named RedmondDialPlan.
-  
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
-```
-
-```
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-
 Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.
-  
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
-```
-
-```
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
@@ -175,9 +140,6 @@ Run the following when you want to also examine the existing normalization rules
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
-```
-
-```
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
 Translation         : +1426666$1
@@ -189,13 +151,8 @@ Pattern             : ^(\\d{3})$
 Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
-```
 
-```
 $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
-```
-
-```
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
@@ -211,13 +168,7 @@ Run this to save the on-premises dial plan to the .xml file.
   
 ```
 $DPName = "OPDP1"
-```
-
-```
 $DPFileName = "dialplan.xml"
-```
-
-```
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
@@ -225,41 +176,14 @@ Run this to create the new tenant dial plan.
   
 ```
 $DPFileName = "dialplan.xml"
-```
-
-```
 $DP = Import-Clixml $DPFileName
-```
-
-```
 $NormRules = @()
-```
-
-```
 ForEach($nr in $dp.NormalizationRules)
-```
-
-```
 {
-```
-
-```
  $id1 = "Global/" +$nr.Name
-```
-
-```
 $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
-```
-
-```
 $NormRules += $nr2
-```
-
-```
 }
-```
-
-```
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
 

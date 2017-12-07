@@ -19,7 +19,7 @@ In Skype for Business Online, you have ability to control Point-to-Point (P2P) f
   
 - Assign a conferencing policy with P2P file transfer enabled (_EnableP2PFileTransfer_ set to _True_) to users in your organization.
     
-- Create aglobal external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
+- Create a global external user communication policy set to block external P2P file transfers (_EnableP2PFileTransfer_ set to _False_) and assign it to a user in your organization. 
     
 You can find out more about those settings [here](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
@@ -58,34 +58,21 @@ To make this work, the user must be using a supported version of a 2016 Click-to
     
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-  
-> 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+
+  ```      
+    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
   ```
 
-> 
-  ```
-  $credential = Get-Credential
-  ```
-
-> 
-  ```
-  $session = New-CsOnlineSession -Credential $credential
-  ```
-
-> 
-  ```
-  Import-PSSession $session
-  ```
-
-    If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or[Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+  If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ## Disable P2P file transfers for your organization
 
 By default, _EnableP2PFileTransfer_ is enabled on the organization's global policy. When it was created, your users were assigned the _BposSAllModality_ policy.
   
-> To allow P2P transfers for inside your organization but block external file transfers to another organization, you just need to change it at a global level. To do that, run:
+To allow P2P transfers for inside your organization but block external file transfers to another organization, you just need to change it at a global level. To do that, run:
     
   ```
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
@@ -93,13 +80,11 @@ By default, _EnableP2PFileTransfer_ is enabled on the organization's global poli
 
 ## Disable P2P file transfers for a user
 
-- You can apply this to a user by creating a new policy and granting it to that user. To do that, run: 
-    
+You can apply this to a user by creating a new policy and granting it to that user. To do that, run: 
 > 
   ```
   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
   ```
-
 > 
   ```
   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
