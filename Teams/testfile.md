@@ -43,7 +43,10 @@ Microsoft Teams content is now available.
 >|**How technology can overcome these challenges**<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.|
 >|**Expected, measurable, business outcomes**<p>Removing requirements to maintain and decommissioning existing legacy PBX and desktop phones, will deliver a 20% reduction of monthly telephony service expense. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
-#### Example: Completed business use case
+#### Example: Completed business use case (H4)
+# Example: Completed business use case (H1)
+### EXample: Completed business use case (H3)
+##### Example: Completed business use case (H5)
 
 |         |
 |---------|
