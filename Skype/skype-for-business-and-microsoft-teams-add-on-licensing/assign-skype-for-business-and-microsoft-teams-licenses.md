@@ -53,6 +53,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     
   ```
   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+
 #Example of text file:
   #user1@domain.com
   #user2@domain.com
@@ -125,7 +126,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     This example assigns an Enterprise E3 license along with an Audio Conferencing license.
     
   ```
-  #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+#Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
   
 #Example of text file:
 #user1@domain.com
