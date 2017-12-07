@@ -68,7 +68,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.gif)
+![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1-1.gif)
   
 To allow a single user in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
@@ -78,17 +78,14 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.gif)
+![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3-1.gif)
   
 To allow multiple users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
 > 
   ```
   $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
 
-> 
-  ```
   $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
   ```
 
@@ -97,10 +94,7 @@ To allow multiple users in your organization to use the Skype for Business (Lync
 > 
   ```
   $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
-  ```
 
-> 
-  ```
   $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
   ```
 
@@ -145,7 +139,6 @@ This table shows all the Online custom policies available. There are new policie
   
 |**Policy name**|**EnableSkypeUI**|
 |:-----|:-----|
-|
 ```ClientPolicyDefaultPhoto```||
 ```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
 ```ClientPolicyNoIMURL```||
@@ -164,7 +157,7 @@ This table shows all the Online custom policies available. There are new policie
    
 To get started with Windows PowerShell, see these topics:
   
-- [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 ]( https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
