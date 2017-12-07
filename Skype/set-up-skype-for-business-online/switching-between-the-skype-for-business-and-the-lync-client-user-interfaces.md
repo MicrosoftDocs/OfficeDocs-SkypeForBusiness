@@ -227,7 +227,6 @@ To get started with Windows PowerShell, see these topics:
     
 ## First launch client behaviors
 
-By default, when users launch Skype for Business for the first time, they will always see the Skype for Business user interface--even if you have selected the Lync client experience by setting the client policy to the Lync client experience ( `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) as described previously. After several minutes, users will then be asked to switch to Lync mode.
   
 If you want to display the Lync user interface when users launch the Skype for Business client for the first time, follow these steps before the client is started for the first time after being updated:
   
