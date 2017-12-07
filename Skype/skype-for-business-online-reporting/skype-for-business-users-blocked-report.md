@@ -17,7 +17,7 @@ description: "Learn about setting up Skype for Business Online domain federation
 
 The new Skype for Business **Reports** dashboard shows you the activity overview across the Skype for Business products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business users blocked** report to see the users in your organization that have been blocked from making PSTN calls. This report, along with other Skype for Business reports, gives you details on activity, including PSTN usage across your organization.
   
- Check out the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
+ Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
