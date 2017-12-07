@@ -67,19 +67,19 @@ To get started using call queues, it's important to remember a few things:
     
   - Lync desktop client 2013 (32 and 64-bit versions)
     
-  - All IP phone models supported for Skype for Business Online. See, [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - All IP phone models supported for Skype for Business Online. See [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
   - Mac Skype for Business Client (version 16.8.196 and later) 
     
   - Android Skype for Business Client (version 6.16.0.9 and later)
     
-  - iPhone﻿ Skype for Business Client (version 6.16.0 and later)
+  - iPhone Skype for Business Client (version 6.16.0 and later)
     
-  - iPad Skype for Business Client (version 6.16.0 and later)﻿
+  - iPad Skype for Business Client (version 6.16.0 and later)
     
 ## Step 2 - Getting or transferring toll or toll-free service phone numbers
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in ** Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
@@ -150,7 +150,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
      *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
      *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 ***
-![3](../images/SfBCallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> **Note:** **Available to Preview customers only:** The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
+![3](../images/SfBCallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> **Note:** **Available to Preview customers only.** The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
 ***
 ![4](../images/SfBCallout4.png)<br/><br/>**When a call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 *    **Disconnect** The call will be disconnected.
