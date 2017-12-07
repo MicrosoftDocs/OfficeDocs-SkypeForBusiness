@@ -14,6 +14,9 @@ Microsoft Teams and Skype for Business Interoperability
 
 If your organization uses Skype for Business today and you intend to start using Teams, it is important to understand how the two applications can be configured to interoperate.
 
+> [!IMPORTANT]
+> This document is provided for early evaluation of Calling Plans support for Teams only and Teams interop policy details are expected to change in the future.
+
 Interoperability (or interop for short), enables Skype for Business and Teams users to chat and call with one another, ensuring that communications remain fluid across your organization. To help IT Pros manage the adoption of Teams, a new Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets, has been added to configure Teams the way you need it to work in your organization.
 
 Teams interop policy enables IT Pros to designate a user’s preferred application for receiving chats and calls. It can be configured to keep communications in Teams and Skype for Business siloed, or it can be configured to enable users to communicate across application boundaries.
@@ -34,9 +37,9 @@ To ensure continued productivity, Teams provides the ability for users to commun
 
 Supported interop experiences include the following:
 - Skype for Business users that do not use Teams can chat with Teams users, vice versa<p>
-![Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png)
+![Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png)<br>
 - Skype for Business users can call Teams users over voice and video, vice versa. Advanced calling options, such as call transfer and call forwarding will continue to work, even for interop calls.<p>
-![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png)
+![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]
 > From a Skype for Business user point of view, chats and calls from/to Teams will appear as basic Skype for Business chats and calls. Please review the [Interop experiences limitations](#interop-experiences-limitations) section for details.
@@ -102,6 +105,9 @@ Teams interop policy consists of the following parameters:
 |`ChatDefaultClient`          | Default, SfB, Teams | This parameter specifies the default Chat app        |
 |`CallingDefaultClient`       | Default, SfB, Teams | This parameter specifies the default Calling app        |
 |`AllowEndUserClientOverride` | True, False         | This parameter specifies whether users can override the default Chat and Calling app         |
+
+> [!WARNING]
+> While it is currently possible to create Teams interop policy with independent values for `ChatDefaultClient` and `CallingDefaultClient` parameters, we expect this to change in the future. At this time, please ensure that you are using the same value for both parameters.
 
 #### Chat default client
 The `ChatDefaultClient` parameter defines how chats are routed between Teams and Skype for Business, and the default global value of this parameter is set to **Default**.
