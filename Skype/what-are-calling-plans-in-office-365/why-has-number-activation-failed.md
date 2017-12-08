@@ -23,8 +23,8 @@ Address validation is an important part of setting up Calling Plans in Office 36
 1. In the **Office 365 admin center**, choose **Need help**?
 2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.
 3. If the results in the **View solutions** section don't help, choose one of the following:
-      o	**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
-      o	**Email us**: Confirm your email address, then choose **Send**. The call response time is indicated in the **Need help?** pane.
+    - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
+    - **Email us**: Confirm your email address, then choose **Send**. The call response time is indicated in the **Need help?** pane.
 
 ## For organizations with more than 150 users, create a service request to validate an emergency address
 
