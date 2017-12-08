@@ -55,7 +55,7 @@ Learn how to manage Skype for Business Online for your organization.
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
+        <a href="https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
