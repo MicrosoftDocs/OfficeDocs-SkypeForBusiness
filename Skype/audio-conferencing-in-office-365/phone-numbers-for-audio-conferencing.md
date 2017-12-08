@@ -73,13 +73,8 @@ To see a list of those countries/regions that have phone numbers automatically a
     
 - To set the dial-in phone number for a user, see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
     
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
-
-#### Other Resources 
-
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 

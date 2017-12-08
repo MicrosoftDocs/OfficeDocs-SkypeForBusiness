@@ -171,14 +171,9 @@ The quality of audio, video, and application sharing in Skype for Business is gr
   
 [Make and receive a video call using Skype for Business](http://technet.microsoft.com/library/abf62493-670f-4b0d-b2cf-fe03b49caf42%28Office.14%29.aspx)
   
-## 
-<a name="bkmk_more"> </a>
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## Related Topics
+## See also
 <a name="bkmk_more"> </a>
 
 [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=400791)

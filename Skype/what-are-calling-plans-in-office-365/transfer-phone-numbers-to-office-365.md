@@ -93,12 +93,7 @@ Your port order request will be checked and updated daily and you will be notifi
   
  **What should I do if my order is taking too long to process?** We want number porting to be very simple and quick process. If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open support ticket and include the port order ID.
   
-## 
-<a name="bk_LNPcountries_1"> </a>
-
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
 <a name="bk_LNPcountries_1"> </a>

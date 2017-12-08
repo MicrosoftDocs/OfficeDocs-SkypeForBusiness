@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/13/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection:
 - Adm_Skype4B_Online
@@ -88,17 +88,10 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
 |:-----|:-----|
 | Video conversations <br/>  Person-to-person instant messaging <br/>  Presence <br/> | Multi-party IM conversations <br/>  Audio and video conversations with three or more people <br/>  Desktop and program sharing <br/> |
    
-## 
-
- *Updated March 23, 2017* 
-  
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
 
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
   
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
-
