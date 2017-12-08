@@ -395,7 +395,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 A [Dial Plan](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b), in the Phone System feature of Office 365, is a set of normalization rules that translates dialed phone numbers into an alternate format (typically [E.164](https://go.microsoft.com/fwlink/?linkid=859014) format) for call authorization and call routing. 
 
-A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out.
+A dial plan allows users to dial phone numbers the way they are accustomed to, such as omitting area code for local calls, omitting country code for domestic calls, or even using short digit dialing when placing a phone call.
 
 Within the Phone System feature of Office 365, there are two types of dial plans:
 
