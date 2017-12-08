@@ -13,7 +13,7 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 
 # Users can make outbound calls to these countries and regions
 
-## See what countries/regions users can make outbound calls to if the user has a Domestic or International Calling Plan license
+### See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
 
 
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
