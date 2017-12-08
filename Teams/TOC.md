@@ -55,10 +55,6 @@
 # [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
-## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
-### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Quick start guides
-### [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 ## Videos
 ### [Audio Conferencing](audio-conferencing-videos.md)
 
