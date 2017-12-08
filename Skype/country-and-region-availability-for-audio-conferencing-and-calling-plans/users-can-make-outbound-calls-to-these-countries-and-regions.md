@@ -14,204 +14,205 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 # Users can make outbound calls to these countries and regions
 
 ## See what countries/regions users can make outbound calls to if the user has a Domestic or International Calling Plan license
+||||||
+|**A - D**| **E - H**|**I - L**|**M - P**|**Q - T**|**U - Z**
 
-|**Country or region** <br/> |
-|Afghanistan  <br/> |
-|Albania  <br/> |
-|Algeria  <br/> |
-|American Samoa  <br/> |
-|Andorra  <br/> |
-|Angola  <br/> |
-|Anguilla  <br/> |
-|Antigua and Barbuda  <br/> |
-|Argentina  <br/> |
-|Armenia  <br/> |
-|Aruba  <br/> |
-|Australia  <br/> |
-|Austria  <br/> |
-|Azerbaijan  <br/> |
-|Bahamas  <br/> |
-|Bahrain  <br/> |
-|Bangladesh  <br/> |
-|Barbados  <br/> |
-|Belarus  <br/> |
-|Belgium  <br/> |
-|Belize  <br/> |
-|Benin  <br/> |
-|Bermuda  <br/> |
-|Bhutan  <br/> |
-|Bolivia  <br/> |
-|Bosnia and Herzegovina  <br/> |
-|Botswana  <br/> |
-|Brazil  <br/> |
-|Brunei Darussalam  <br/> |
-|Bulgaria  <br/> |
-|Burkina Faso  <br/> |
-|Cambodia  <br/> |
-|Cameroon  <br/> |
-|Canada  <br/> |
-|Cape Verde  <br/> |
-|Cayman Islands  <br/> |
-|Central African Republic  <br/> |
-|Chile  <br/> |
-|China  <br/> |
-|Colombia  <br/> |
-|Comoros  <br/> |
-|Congo, Democratic Republic of  <br/> |
-|Congo, People's Republic of  <br/> |
-|Costa Rica  <br/> |
-|Cote D'Ivoire  <br/> |
-|Croatia  <br/> |
-|Cyprus  <br/> |
-|Czech Republic  <br/> |
-|Denmark  <br/> |
-|Djibouti  <br/> |
-|Dominica  <br/> |
-|Dominican Republic  <br/> |
-|Ecuador  <br/> |
-|Egypt  <br/> |
-|El Salvador  <br/> |
-|Equatorial Guinea  <br/> |
-|Eritrea  <br/> |
-|Estonia  <br/> |
-|Ethiopia  <br/> |
-|Faroe Islands  <br/> |
-|Fiji  <br/> |
-|Finland  <br/> |
-|France  <br/> |
-|French Guiana  <br/> |
-|French Polynesia  <br/> |
-|Georgia  <br/> |
-|Germany  <br/> |
-|Ghana  <br/> |
-|Gibraltar  <br/> |
-|Greece  <br/> |
-|Greenland  <br/> |
-|Grenada  <br/> |
-|Guadeloupe  <br/> |
-|Guam  <br/> |
-|Guatemala  <br/> |
-|Guinea  <br/> |
-|Guyana  <br/> |
-|Haiti  <br/> |
-|Honduras  <br/> |
-|Hong Kong  <br/> |
-|Hungary  <br/> |
-|Iceland  <br/> |
-|India  <br/> |
-|Indonesia  <br/> |
-|Iran  <br/> |
-|Iraq  <br/> |
-|Ireland  <br/> |
-|Israel  <br/> |
-|Italy  <br/> |
-|Jamaica  <br/> |
-|Japan  <br/> |
-|Jordan  <br/> |
-|Kazakhstan  <br/> |
-|Kenya  <br/> |
-|Korea, Republic of  <br/> |
-|Kuwait  <br/> |
-|Kyrgyzstan  <br/> |
-|Lao  <br/> |
-|Latvia  <br/> |
-|Lebanon  <br/> |
-|Lesotho  <br/> |
-|Libya  <br/> |
-|Liechtenstein  <br/> |
-|Lithuania  <br/> |
-|Luxembourg  <br/> |
-|Macau  <br/> |
-|Macedonia  <br/> |
-|Malawi  <br/> |
-|Malaysia  <br/> |
-|Mali  <br/> |
-|Malta  <br/> |
-|Marshall Islands  <br/> |
-|Martinique  <br/> |
-|Mauritius  <br/> |
-|Mayotte  <br/> |
-|Mexico  <br/> |
-|Micronesia  <br/> |
-|Moldova, Republic of  <br/> |
-|Monaco  <br/> |
-|Mongolia  <br/> |
-|Montenegro  <br/> |
-|Montserrat  <br/> |
-|Morocco  <br/> |
-|Mozambique  <br/> |
-|Myanmar  <br/> |
-|Namibia  <br/> |
-|Nepal  <br/> |
-|Netherlands  <br/> |
-|Netherlands Antilles  <br/> |
-|New Caledonia  <br/> |
-|New Zealand  <br/> |
-|Nicaragua  <br/> |
-|Niger  <br/> |
-|Nigeria  <br/> |
-|Northern Mariana Islands  <br/> |
-|Norway  <br/> |
-|Oman  <br/> |
-|Pakistan  <br/> |
-|Palau  <br/> |
-|Palestinian Authority  <br/> |
-|Panama  <br/> |
-|Paraguay  <br/> |
-|Peru  <br/> |
-|Philippines  <br/> |
-|Poland  <br/> |
-|Portugal  <br/> |
-|Puerto Rico  <br/> |
-|Qatar  <br/> |
-|Reunion  <br/> |
-|Romania  <br/> |
-|Russian Federation  <br/> |
-|Rwanda  <br/> |
-|Saint Kitts and Nevis  <br/> |
-|Saint Lucia  <br/> |
-|Saint Vincent and the Grenadines  <br/> |
-|San Marino  <br/> |
-|Saudi Arabia  <br/> |
-|Senegal  <br/> |
-|Serbia  <br/> |
-|Singapore  <br/> |
-|Slovakia  <br/> |
-|Slovenia  <br/> |
-|South Africa  <br/> |
-|Spain  <br/> |
-|Sri Lanka  <br/> |
-|St. Pierre and Miquelon  <br/> |
-|Sudan  <br/> |
-|Suriname  <br/> |
-|Swaziland  <br/> |
-|Sweden  <br/> |
-|Switzerland  <br/> |
-|Syrian Arab Republic  <br/> |
-|Taiwan  <br/> |
-|Tajikistan  <br/> |
-|Tanzania, United Republic of  <br/> |
-|Thailand  <br/> |
-|Togo  <br/> |
-|Trinidad and Tobago  <br/> |
-|Turkey  <br/> |
-|Turkmenistan  <br/> |
-|Turks and Caicos  <br/> |
-|Uganda  <br/> |
-|Ukraine  <br/> |
-|United Arab Emirates (U.A.E)  <br/> |
-|United Kingdom (U.K.)  <br/> |
-|United States (U.S.)  <br/> |
-|Uruguay  <br/> |
-|Uzbekistan  <br/> |
-|Vatican City State  <br/> |
-|Venezuela  <br/> |
-|Viet Nam  <br/> |
-|Virgin Islands (British)  <br/> |
-|Virgin Islands (U.S.)  <br/> |
-|Wallis and Futuna Islands  <br/> |
-|Yemen  <br/> |
-|Zambia  <br/> |
-|Zimbabwe  <br/> |
+|Afghanistan|Ecuador |
+|Albania|Egypt |
+|Algeria|El Salvador |
+|American Samoa|Equatorial Guinea |
+|Andorra |Eritrea |
+|Angola ||Estonia |
+|Anguilla |Ethiopia |
+|Antigua and Barbuda |
+|Argentina ||Faroe Islands |
+|Armenia |
+|Aruba |
+|Australia |
+|Austria |
+|Azerbaijan |
+|Bahamas |
+|Bahrain |
+|Bangladesh |
+|Barbados |
+|Belarus |
+|Belgium |
+|Belize |
+|Benin |
+|Bermuda |
+|Bhutan |
+|Bolivia |
+|Bosnia and Herzegovina |
+|Botswana |
+|Bazil |
+|Bunei Darussalam |
+|Bulgaria |
+|Burkina Faso |
+|Cambodia |
+|Cameroon |
+|Canada |
+|Cape Verde |
+|Cayman Islands |
+|Central African Republic |
+|Chile |
+|China |
+|Colombia |
+|Comoros |
+|Congo, Democratic Republic of |
+|Congo, People's Republic of |
+|Costa Rica |
+|Cote D'Ivoire |
+|Croatia |
+|Cyprus |
+|Czech Republic |
+|Denmark |
+|Djibouti |
+|Dominica |
+|Dominican Republic |
+
+
+
+
+
+
+
+
+|Fiji |
+|Finland |
+|France |
+|French Guiana |
+|French Polynesia |
+|Georgia |
+|Germany |
+|Ghana |
+|Gialtar |
+|Greece |
+|Greenland |
+|Grenada |
+|Guadeloupe |
+|Guam |
+|Guatemala |
+|Guinea |
+|Guyana |
+|Haiti |
+|Honduras |
+|Hong Kong |
+|Hungary |
+|Iceland |
+|India |
+|Indonesia |
+|Iran |
+|Iraq |
+|Ireland |
+|Israel |
+|Italy |
+|Jamaica |
+|Japan |
+|Jordan |
+|Kazakhstan |
+|Kenya |
+|Korea, Republic of |
+|Kuwait |
+|Kyrgyzstan |
+|Lao |
+|Latvia |
+|Lebanon |
+|Lesotho |
+|Libya |
+|Liechtenstein |
+|Lithuania |
+|Luxembourg |
+|Macau |
+|Macedonia |
+|Malawi |
+|Malaysia |
+|Mali |
+|Malta |
+|Marshall Islands |
+|Martinique |
+|Mauritius |
+|Mayotte |
+|Mexico |
+|Micronesia |
+|Moldova, Republic of |
+|Monaco |
+|Mongolia |
+|Montenegro |
+|Montserrat |
+|Morocco |
+|Mozambique |
+|Myanmar |
+|Namibia |
+|Nepal |
+|Netherlands |
+|Netherlands Antilles |
+|New Caledonia |
+|New Zealand |
+|Nicaragua |
+|Niger |
+|Nigeria |
+|Northern Mariana Islands |
+|Norway |
+|Oman |
+|Pakistan |
+|Palau |
+|Palestinian Authority |
+|Panama |
+|Paraguay |
+|Peru |
+|Philippines |
+|Poland |
+|Portugal |
+|Puerto Rico |
+|Qatar |
+|Reunion |
+|Romania |
+|Russian Federation |
+|Rwanda |
+|Saint Kitts and Nevis |
+|Saint Lucia |
+|Saint Vincent and the Grenadines |
+|San Marino |
+|Saudi Arabia |
+|Senegal |
+|Serbia |
+|Singapore  |
+|Slovakia   |
+|Slovenia   |
+|South Africa  |
+|Spain  |
+|Sri Lanka   |
+|St. Pierre and Miquelon |
+|Sudan  |
+|Suriname   |
+|Swaziland  |
+|Sweden  |
+|Switzerland |
+|Syrian Arab Republic |
+|Taiwan   |
+|Tajikistan   |
+|Tanzania, United Republic of  |
+|Thailand   |
+|Togo   |
+|Trinidad and Tobago  |
+|Turkey |
+|Turkmenistan |
+|Turks and Caicos   |
+|Uganda  |
+|Ukraine   |
+|United Arab Emirates (U.A.E)  |
+|United Kingdom (U.K.) |
+|United States (U.S.)  |
+|Uruguay |
+|Uzbekistan  |
+|Vatican City State  |
+|Venezuela   |
+|Viet Nam  |
+|Virgin Islands (itish) |
+|Virgin Islands (U.S.)  |
+|Wallis and Futuna Islands  |
+|Yemen |
+|Zambia  |
+|Zimbabwe |
    
 
