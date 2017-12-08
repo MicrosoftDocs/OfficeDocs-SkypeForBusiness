@@ -18,12 +18,18 @@ description: "Learn how to assign, change, or remove a work phone number to your
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans in Office 365, you assign phone numbers to your users. The phone number you assign will be listed in the **Work Phone** box in their Skype for Business client and can't be changed by a user.
+When you set up Calling Plans in Office 365, you assign phone numbers to your users. 
+
+In the Microsoft Teams client, the phone nubmer you assign will be listed in the **Contacts** section in their Microsoft Teams client.
+
+![User's phone number displayd in Contacts section.](../images/MicrosoftTeamsUserPhoneNumber.png)
+
+In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.
   
 ![Work Phone Number is Greyed Out.](../images/5212fa64-b55c-4398-9709-a334f3ffa749.png)
   
 > [!IMPORTANT]
-> If a user wants to [Change my phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) ** and the phone number in the Skype for Business app can't be changed or is grayed out**, that means an admin has set it for them and it can't be changed by them.
+> If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.
   
 ## Assigning a number
 
