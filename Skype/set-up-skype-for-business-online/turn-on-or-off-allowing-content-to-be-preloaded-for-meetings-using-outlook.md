@@ -15,7 +15,7 @@ description: "See how to turn preloaded content on or off for Skype for Business
 
 # Turn on or off allowing content to be preloaded for meetings using Outlook
 
-Users can preload content, files, or attachments that are attached to an Outlook meeting invitation to a Skype for Business Online meeting, but you can it turn on or off. It's turned on by default for all organizations that are using Skype for Business Online. See how to [Preload attachments for a Skype for Business meeting](http://technet.microsoft.com/library/fd3d9f9d-b448-4754-b813-02e49393f251%28Office.14%29.aspx).
+Users can preload content, files, or attachments that are attached to an Outlook meeting invitation to a Skype for Business Online meeting, but you can it turn on or off. It's turned on by default for all organizations that are using Skype for Business Online. See how to [Preload attachments for a Skype for Business meeting](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
 > Currently, there are no cmdlets available in Skype for Business Online for setting or viewing online values for  _MaxContentStorageMB_ and _MaxUploadFileMB_. They are only available for on-premises deployments. It's important to know that content won't be uploaded to a meeting if the attached content exceeds the  _MaxUploadFileSizeMB_ or if the _MaxContentStorageMB_ limit is reached.

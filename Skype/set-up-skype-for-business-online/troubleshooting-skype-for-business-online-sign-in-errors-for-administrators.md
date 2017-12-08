@@ -55,7 +55,7 @@ Most sign-in issues can be traced to a small number of causes, and many of these
 |You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/> |First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/> |
 |System clock out of sync with server clock  <br/> |Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).  <br/> |
    
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
   
 ## Follow resolution steps for a specific error (Enterprise only)
 <a name="__toc325626440"> </a>
@@ -111,7 +111,7 @@ If your organization has a custom domain, this procedure is a possible fix for t
     
   - **Value/Destination**: sipdir.online.microsoft.com
     
-For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790), and the Office 365 Wiki article, [Ensuring your network works with Skype for Business (Lync) Online](https://go.microsoft.com/fwlink/?linkid=231156).
+For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
 ### Install a third-party SSL certificate on your ADFS server
 <a name="__verify_upn_and"> </a>
@@ -180,8 +180,7 @@ To fix this issue, follow these steps:
     
 2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
     
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
-  
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
 ## Use the Microsoft Support troubleshooting guide
 <a name="__toc325626447"> </a>
 
@@ -192,12 +191,12 @@ If you're still not able to resolve the user's sign-in problems, review the sugg
 
 If you've followed the guidance above and still can't resolve your sign-in issues, you must collect additional information and contact technical support. To do this, follow these steps: 
   
-1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](http://technet.microsoft.com/library/eaf6602b-95e0-4c27-869f-36017475806c%28Office.14%29.aspx).
+1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
     
 2. Send the log files and detailed information about the error to Microsoft technical support.
     
 You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](http://technet.microsoft.com/library/ddf1f52f-24a1-4675-abe0-141052c88b72%28Office.14%29.aspx).
   
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. [Start at the top](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__top)
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
   
 

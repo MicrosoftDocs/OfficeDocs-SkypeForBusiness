@@ -22,7 +22,7 @@ Sometimes things aren't working like you expect. Here is a list of topics that c
   
 ## Troubleshoot admin issues for Skype for Business Online
 
-You can get answers for most of your Skype for Business Online questions by [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__toc323194094). This KB article also includes many troubleshooting resources and error code references: [How to troubleshoot sign-in issues in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+You can get answers for most of your Skype for Business Online questions by [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#__toc323194094). This KB article also includes many troubleshooting resources and error code references: [How to troubleshoot sign-in issues in Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
   
 For dial-in conferencing issues, see [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
   
@@ -46,7 +46,7 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 ## Additional resources to help your Skype for Business Online users
 
-- [Uninstall Skype for Business](http://technet.microsoft.com/library/28c4a036-7f22-406c-b7f4-87894cbaf902%28Office.14%29.aspx)
+- [Uninstall Skype for Business](http://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
     
 - [Troubleshoot audio and video in Skype for Business](http://technet.microsoft.com/library/62777bc6-c52b-47ae-84ba-a8905c3b71dc%28Office.14%29.aspx)
     
@@ -54,11 +54,11 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 - [Reset your PIN (Personal Identification Number)](http://technet.microsoft.com/library/b62e7fc0-5ccc-4aac-925b-6ab94f18dfcd%28Office.14%29.aspx)
     
-- [Skype for Business meeting help](http://technet.microsoft.com/library/e0bc00a0-b01f-4f51-88fa-6f74abefa203%28Office.14%29.aspx)
+- [Skype for Business meeting help](http://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
     
-- [Skype for Business FAQ](http://technet.microsoft.com/library/2461b8dd-c825-4e18-9a4c-015bba5a5a7e%28Office.14%29.aspx)
+- [Skype for Business training](http://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
     
-- [Present programs in Skype for Business](http://technet.microsoft.com/library/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306%28Office.14%29.aspx)
+- [Present programs in Skype for Business](http://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
     
 - [Turn on error logs in Lync](http://technet.microsoft.com/library/eaf6602b-95e0-4c27-869f-36017475806c%28Office.14%29.aspx)
     
