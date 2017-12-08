@@ -39,15 +39,15 @@ Looks like you need help setting up Skype with your Office 365 subscription. You
   
 ## 1. Plan for Skype for Business
 
-If you have **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** or **Business Essentials**, you can use Skype for Business to make online calls to other people in your business who are on your subscription. For example, if your business has 10 people, you'll be able to [Start using Skype for Business for IM and online meetings](http://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) each other, and [Meetings with Skype for Business](http://technet.microsoft.com/library/2eed8424-581a-4497-b505-c08c152e5851%28Office.14%29.aspx) using Skype for Business after performing the steps 2-6 below. And you can[Set up a Skype for Business meeting in Outlook](http://technet.microsoft.com/library/b8305620-d16e-4667-989d-4a977aad6556%28Office.14%29.aspx#bkmk_OWA) to online meetings, too!
+If you have **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** or **Business Essentials**, you can use Skype for Business to make online calls to other people in your business who are on your subscription. For example, if your business has 10 people, you'll be able to [Start using Skype for Business for IM and online meetings](http://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) each other, and [Meetings with Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) using Skype for Business after performing the steps 2-6 below. And you can [Set up a Skype for Business meeting in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) to online meetings, too!
   
 If you want to use Skype for Business to make and receive **calls** from people *external*  to your business:
   
 - **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
     
-- **Option 2. Upgrade your plan, and buy the Phone System and a Calling Plan for Office 365**. The easiest way to find out how much this costs, and then make the switch, is to [Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) and have them do everything for you.
+- **Option 2. Upgrade your plan, and buy the Phone System and a Calling Plan for Office 365**. The easiest way to find out how much this costs, and then make the switch, is to [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) and have them do everything for you.
     
-To learn more, see [Plan your setup of Office 365 for business](http://technet.microsoft.com/library/eb926624-018b-4486-bf11-5fba6ee4d645%28Office.14%29.aspx#bkmk_skype).
+To learn more, see [Plan your setup of Office 365 for business](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype).
   
 ## 2. Sign in to Office 365
 <a name="bkmk_signin"> </a>
@@ -67,16 +67,16 @@ Skype for Business Online is part of the Office 365 suite of services. To set up
 
 Now that you're signed in to Office 365, you can set up your domain and people in your organization to use Skype for Business Online.
   
-1. [Add a domain and users to Office 365](http://technet.microsoft.com/library/6383f56d-3d09-4dcb-9b41-b5f5a5efd611%28Office.14%29.aspx): Use the Office 365 setup wizard to set up your custom domain (such as  *fourthcoffee.com*  ) with Office 365. **By default, the Office 365 setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
+1. [Add a domain and users to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611): Use the Office 365 setup wizard to set up your custom domain (such as  *fourthcoffee.com*  ) with Office 365. **By default, the Office 365 setup wizard includes setting up Skype for Business Online and creating your Skype for Business user IDs.** If you already used the wizard to set up your domain for Office 365, then you've completed this step.
     
-2. [Check your domain and DNS connections](http://technet.microsoft.com/library/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0 .aspx): Use our tool - the domains troubleshooter - to check that your domain and DNS settings are correct. Doing this now will go a long way to helping figure out any setup issues later since you'll be able to eliminate DNS settings as the source of future issues.
+2. [Check your domain and DNS connections](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0): Use our tool - the domains troubleshooter - to check that your domain and DNS settings are correct. Doing this now will go a long way to helping figure out any setup issues later since you'll be able to eliminate DNS settings as the source of future issues.
     
-3. [Office 365 URLs and IP address ranges](http://technet.microsoft.com/library/8548a211-3fe7-47cb-abb1-355ea5aa88a2%28Office.14%29.aspx#BKMK_LYO): Most small businesses don't need to do this step. **But if you have a firewall or proxy server that restricts access to parts of the web**, you must create rules to allow access to the Skype for Business Online endpoints. This is an advanced step best performed by someone experienced with configuring firewalls and proxy servers. If you haven't done this before, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
+3. [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO): Most small businesses don't need to do this step. **But if you have a firewall or proxy server that restricts access to parts of the web**, you must create rules to allow access to the Skype for Business Online endpoints. This is an advanced step best performed by someone experienced with configuring firewalls and proxy servers. If you haven't done this before, consider hiring a [Microsoft partner](https://go.microsoft.com/fwlink/?linkid=391089) to set up Skype for Business for you.
     
 ## 4. Set up IM and presence in your organization
 <a name="bkmk_IM"> </a>
 
-Instant Messaging (IM) and presence ([Control access to your presence information in Skype for Business](http://technet.microsoft.com/library/fea86e34-60cf-4dd0-bfb2-169a42afd92c%28Office.14%29.aspx#bkmk_presence)) are basic features included with Skype for Business. By default, the people in your business can Skype and IM with each other.
+Instant Messaging (IM) and presence ([Control access to your presence information in Skype for Business](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)) are basic features included with Skype for Business. By default, the people in your business can Skype and IM with each other.
   
 1. **Choose who else your Skype for Business users can communicate with:**
     
@@ -107,20 +107,20 @@ To use Skype for Business on your PC, Mac, or mobile device, you and other peopl
     
 - [Deploy the Skype for Business client in Office 365](deploy-the-skype-for-business-client-in-office-365.md): Instructions for deploying the app in a large enterprise.
     
-- [Install Skype for Business](http://technet.microsoft.com/library/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb%28Office.14%29.aspx): Download, install, and sign in to Skype for Business on Android devices, iOS devices, and Windows phones.
+- [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): Download, install, and sign in to Skype for Business on Android devices, iOS devices, and Windows phones.
     
 - [Turn on or off mobile phone notifications](turn-on-or-off-mobile-phone-notifications.md): When you have Skype for Business installed on a mobile device, you and others in your business can receive alerts about incoming and missed instant messages.
     
 ## 6. Test to make sure everything is working
 <a name="bkmk_test"> </a>
 
-First, test whether you and others in your business can [Video: Sign in and out of Skype for Business](http://technet.microsoft.com/library/8abed4b3-ac48-493e-9d76-0e10140e9451%28Office.14%29.aspx). Check that you can IM each other, see each other's presence, and try a quick meeting.
+First, test whether you and others in your business can [Video: Sign in and out of Skype for Business](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451). Check that you can IM each other, see each other's presence, and try a quick meeting.
   
 Problems? Do the following:
   
-- [Need help signing in to Skype for Business?](http://technet.microsoft.com/library/448b8ea7-5b33-444a-afd4-175fc9930d05%28Office.14%29.aspx) of common sign-in problems.
+- [Need help signing in to Skype for Business?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05) of common sign-in problems.
     
-- [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx). We're here to help!
+- [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help!
     
 ## Do you want to set up other available features?
 <a name="bkmk_more"> </a>
@@ -143,33 +143,33 @@ For step-by-step setup instructions, see Set up Calling Plans.
   
 ### Set up Skype Meeting Broadcast
 
-Skype Meeting Broadcast is a feature that lets you produce, host, and broadcast meetings with up to 10,000 attendees. **To learn more about how it works, see [What is a Skype Meeting Broadcast?](http://technet.microsoft.com/library/c472c76b-21f1-4e4b-ab58-329a6c33757d%28Office.14%29.aspx)**
+Skype Meeting Broadcast is a feature that lets you produce, host, and broadcast meetings with up to 10,000 attendees. **To learn more about how it works, see [What is a Skype Meeting Broadcast?](http://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)**
   
 Here's an overview of the steps to set up Skype Meeting Broadcast:
   
-1. [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx): Assign **Skype for Business Online** or **Enterprise Plan** licenses to everyone who is going to **host** a Broadcast meeting.
+1. [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc): Assign **Skype for Business Online** or **Enterprise Plan** licenses to everyone who is going to **host** a Broadcast meeting.
     
 2. [Enable Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md): By default, this feature isn't enabled. After you turn it on, your users will be able to host broadcast meetings with other people in your organization.
     
 3. [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): If you want to host webinars and other broadcasts with attendees outside of your organization, you need to configure your network.
     
-4. [Schedule a Skype Meeting Broadcast](http://technet.microsoft.com/library/c3995bc9-4d32-4f75-a004-3bc5c477e553%28Office.14%29.aspx) and have a [Join a Skype Meeting Broadcast](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Make sure broadcast meetings work by scheduling a Skype Meeting Broadcast at  *https://portal.broadcast.skype.com*  and then having someone try to join the meeting.
+4. [Schedule a Skype Meeting Broadcast](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) and have a [Join a Skype Meeting Broadcast](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Make sure broadcast meetings work by scheduling a Skype Meeting Broadcast at  *https://portal.broadcast.skype.com*  and then having someone try to join the meeting.
     
 ## Learn about network connectivity requirements
 <a name="bkmk_more"> </a>
 
-The quality of audio, video, and application sharing in Skype for Business is greatly impacted by the quality of end-to-end network connectivity. For an optimal experience, it is important to make sure there is a high-quality connection between your company network and Skype for Business Online. For network and tuning information, see [Tune Skype for Business Online performance](http://technet.microsoft.com/library/beec23c2-c5d6-4e84-a8af-e82aefca7802%28Office.14%29.aspx).
+The quality of audio, video, and application sharing in Skype for Business is greatly impacted by the quality of end-to-end network connectivity. For an optimal experience, it is important to make sure there is a high-quality connection between your company network and Skype for Business Online. For network and tuning information, see [Tune Skype for Business Online performance](http://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802).
   
 ## All done setting up? Getting started using Skype for Business
 <a name="bkmk_more"> </a>
 
-[Discover Skype for Business](http://technet.microsoft.com/library/8a3491a3-c095-4718-80cf-cbbe4afe4eba%28Office.14%29.aspx): Check out this list of training topic to help you get started quickly!
+[Skype for Business training](http://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Check out this list of training topics to help you get started quickly!
   
-[Start a Skype for Business conference call](http://technet.microsoft.com/library/8dc8ac52-91ac-4db9-8672-11551fdaf997%28Office.14%29.aspx)
+[Start a Skype for Business conference call](http://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
   
 [Set Video Device options in Skype for Business](http://support.office.com/article/d09017c0-deba-4f6c-a122-9eca6604f50c)
   
-[Make and receive a video call using Skype for Business](http://technet.microsoft.com/library/abf62493-670f-4b0d-b2cf-fe03b49caf42%28Office.14%29.aspx)
+[Make and receive a video call using Skype for Business](http://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)
   
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    

@@ -48,11 +48,11 @@ Most of the problems faced by Skype for Business Online users are related to for
 
 - [Uninstall Skype for Business](http://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
     
-- [Troubleshoot audio and video in Skype for Business](http://technet.microsoft.com/library/62777bc6-c52b-47ae-84ba-a8905c3b71dc%28Office.14%29.aspx)
+- [Troubleshoot audio and video in Skype for Business](http://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc)
     
-- [Troubleshoot connection issues in Skype for Business](http://technet.microsoft.com/library/ca302828-783f-425c-bbe2-356348583771%28Office.14%29.aspx)
+- [Troubleshoot connection issues in Skype for Business](http://support.office.com/article/ca302828-783f-425c-bbe2-356348583771)
     
-- [Reset your PIN (Personal Identification Number)](http://technet.microsoft.com/library/b62e7fc0-5ccc-4aac-925b-6ab94f18dfcd%28Office.14%29.aspx)
+- [Reset your PIN (Personal Identification Number)](http://support.office.com/article/b62e7fc0-5ccc-4aac-925b-6ab94f18dfcd)
     
 - [Skype for Business meeting help](http://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
     
@@ -60,14 +60,14 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 - [Present programs in Skype for Business](http://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
     
-- [Turn on error logs in Lync](http://technet.microsoft.com/library/eaf6602b-95e0-4c27-869f-36017475806c%28Office.14%29.aspx)
+- [Turn on error logs in Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
     
 ## Still need help? Contact support.
 <a name="BK_SupportBridge_1"> </a>
 
 As an admin for Office 365 for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322) on behalf of Office 365 users in your organization.
   
-- [Get help from the Office 365 community forums]((https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Get help from the Office 365 community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 - [Admins: Sign in and create a service request](https://go.microsoft.com/fwlink/p/?LinkId=519124)
 - [Admins: Call Support](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
