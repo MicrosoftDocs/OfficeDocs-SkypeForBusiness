@@ -52,7 +52,7 @@ Turn this feature on so that users can send an email to a channel in Microsoft T
 
 The Email integration section lets you configure the following settings for your organization:
 
-   ![Screenshot of the Email integration section in Tenant-wide settings.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image5.png)
+   ![Screenshot of the Email integration section in Tenant-wide settings.](media/QS-edu-email-integration.png)
 
 -   **Allow users to send emails to channels:** When enabled, mail hooks are enabled, and users can post messages to a channel by sending an email to the email address of Microsoft Teams channel.
 

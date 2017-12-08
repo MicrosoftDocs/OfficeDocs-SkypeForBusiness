@@ -51,11 +51,11 @@
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
 
-# [Cloud voice deployment](cloud-voice-deployment.md)
+# [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
-### [Plan](audio-conferencing.md#Planning_AudioConferencing)
-### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+## Videos
+### [Audio Conferencing](audio-conferencing-videos.md)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Verify service health for Teams](service-health.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
+
 
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)

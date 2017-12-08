@@ -34,9 +34,9 @@ To learn more about managing individual licenses, read [Office 365 licensing for
 
     ![Screenshot of the Services & add-ins page with Microsoft Teams selected.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  To turn on Teams for the organization, set the toggle to **On** and then click **Save**.
+4.  To turn on Teams for the organization use the license picker and select each license then set the toggle to **On** and then click **Save**.
 
-    ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]
