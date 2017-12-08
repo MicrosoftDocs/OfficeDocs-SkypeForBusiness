@@ -139,7 +139,6 @@ Dialing out from a meeting to another country/region in the world which is not l
 [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
   
 ### Calling Plans
-<a name="bk_PSTNCalling"> </a>
 
 [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
   
@@ -147,20 +146,22 @@ Dialing out from a meeting to another country/region in the world which is not l
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Office 365 admin center**. 
   
 ### Toll and toll free phone numbers for services
-<a name="bk_PSTNCalling"> </a>
 
-In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges) and auto attendants which are called service numbers.
+In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers.
   
 The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You can get toll service numbers from these locations using the **Skype for Business admin center**
   
-Here is a list of the countries and regions that you can get both toll and toll-free phone numbers to use for Audio Conferencing, auto attendants and call queues
   
+If you want to get a toll or toll free service number, you can see Getting service numbers..... If you already have a toll or toll free service number you want to transfer from a different provider, see Manage phone numbers..........
+
 > [!NOTE]
 > The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. 
-  
-### Communications Credits
-<a name="bk_PSTNCalling"> </a>
 
-We recommend that you set up Communications Credits for your Audio Conferencing and Calling Plans users that need the ability to dial out to **any destination**. Many countries/regions are included but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions.
+### Communications Credits
+
+We recommend that you set up Communications Credits for your Audio Conferencing and Calling Plans users that need the ability to dial out to **any destination**. Many countries/regions are included but some destinations might not be included in your Calling Plan or Audio Conferencing subscriptions.
   
 If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial-out from meetings. You can find out more information including recommended funding amounts by seeing [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
+
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
