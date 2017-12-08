@@ -58,7 +58,7 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 - [Skype for Business FAQ](http://technet.microsoft.com/library/2461b8dd-c825-4e18-9a4c-015bba5a5a7e%28Office.14%29.aspx)
     
-- [Present programs in Skype for Business](http://technet.microsoft.com/library/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306%28Office.14%29.aspx)
+- [Present programs in Skype for Business](http://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
     
 - [Turn on error logs in Lync](http://technet.microsoft.com/library/eaf6602b-95e0-4c27-869f-36017475806c%28Office.14%29.aspx)
     

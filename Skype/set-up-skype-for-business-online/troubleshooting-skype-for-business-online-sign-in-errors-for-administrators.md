@@ -111,7 +111,7 @@ If your organization has a custom domain, this procedure is a possible fix for t
     
   - **Value/Destination**: sipdir.online.microsoft.com
     
-For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790), and the Office 365 Wiki article, [Ensuring your network works with Skype for Business (Lync) Online](https://go.microsoft.com/fwlink/?linkid=231156).
+For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
 ### Install a third-party SSL certificate on your ADFS server
 <a name="__verify_upn_and"> </a>

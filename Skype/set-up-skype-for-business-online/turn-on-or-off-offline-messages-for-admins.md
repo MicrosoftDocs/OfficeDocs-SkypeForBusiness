@@ -25,7 +25,7 @@ For Offline messages, it's important to know:
     
 - If the message recipient's status is set to **Do Not Disturb** or **Presenting**, they will receive a missed message that is sent from the recipient's Skype for Business client.
     
-For more information, see [Use offline messaging in Skype for Business](http://technet.microsoft.com/library/ffdc6a43-71a1-40ee-bfcc-640d21324a3d%28Office.14%29.aspx).
+For more information, see [Use offline messaging in Skype for Business](http://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
   
 ## To get you started
 

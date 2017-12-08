@@ -35,7 +35,7 @@ You must have Office 365 global admin permissions to set up Skype for Business. 
   
 ## Setting up Skype
 
-Looks like you need help setting up Skype with your Office 365 subscription. You can follow the steps in [this article](http://technet.microsoft.com/library/https://support.office.com/en-us/article/Set-up-Skype-for-Business-Online-40296968-e779-4259-980b-c2de1c044c6e.aspx#bkmk_more) to get your setup completed.
+Looks like you need help setting up Skype with your Office 365 subscription. You can follow the steps in this article to get your setup completed.
   
 ## 1. Plan for Skype for Business
 
