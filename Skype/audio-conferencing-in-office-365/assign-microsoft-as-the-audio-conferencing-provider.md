@@ -61,14 +61,12 @@ To change the provider to Microsoft for a small number of users, you can use the
 > 
   ```
   Script.ps1 -UserList <List of users>
-
   ./Script.ps1 -UserList "user01@constoso.com,   user02@contoso.com, user03@contoso.com"
   ```
 **Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.  
 > 
   ```
   Script.ps1 -CsvFile <Path of the csv file>
-
   ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 ### Using a Windows PowerShell script for a large number of users
@@ -77,18 +75,15 @@ To save time or automate this, you can use the following PowerShell script to se
 When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
 You can save one or more of the following scripts as a PowerShell script file and then run it.
-  
+
 **Example 1:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
     
-> 
   ```
   Script.ps1 -ACPProviderName <Provider>
-
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
+  Here is the script:
 
-   **Here is the script:**
-> 
   ```
   <#
   .SYNOPSIS
