@@ -87,7 +87,7 @@ You can set up greetings, prompts, and menus that people who call in to your org
      *    **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/><br/>   **Note:** **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>     
      *    A **Call Queue** Using a Call Queue allows the call to be transferred to an existing Call Queue that you have set up.
      *    Another **Auto attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.
-     *    **Play menu options prompt** These can also be used to let you set up a prompt you want played.
+*    **Play menu options prompt** These can also be used to let you set up a prompt you want played.
 ***
 ![3](../images/SfBCallout3.png)<br/>**Menu prompt** To create main menu prompt, you can either use Text-to-Speech or upload an audio file (.wav, .mp3 or .wma). You can type the prompt in the **Callers will hear** box or record an audio file and say, for example: "For Sales, say or press or say 1. For Services, press or say 2. For Customer Support, press or say 3. For the operator, press or say 0. To hear this menu again, press the star key or say repeat." **Create a custom prompt** If you chose this, you should enter the text you want the system to read (up to 1000 characters). **Upload an audio file** If you chose this, you will need to record the greeting and then upload your audio file (in a .wav, mp3 or .wma format).
 ***
@@ -100,7 +100,7 @@ To set up your menu options, after you select the key(s), you will need to:
     - **Operator** If operator is already set up, it is automatically mapped to key 0, but it can also be deleted or reassigned to a different key. If operator isn't set to any key, then the voice command "Operator" will be disabled too. 
     - A **Person in your company** with a **Phone System** license that is enabled for Enterprise Voice or assigned an Calling Plan in Office 365. You can set it up so the person calling in can be sent to voicemail. To do this, select **Person in your company** and set this person to have their calls forwarded directly to voicemail.<br/><br/> **Note:** **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported. <br/><br/>     
     - **Call Queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. 
-    - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>**Note** The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.         
+    - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>**Note:** The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.         
    
 ### Select holidays page (available to Preview customers only)
 
@@ -143,7 +143,7 @@ On this page, you can set up which users in your organization will be listed in 
 ***
 ![2](../images/SfBCallout2.png)<br/>Using the **Exclude** option, you have two options:
 *    **None** Using this option will indicate that no Online users will be excluded from directory search. 
-*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> **Caution:** On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name.          |
+*    **Custom** If you use this option, you can search for an Office 365 Group, distribution list, or security group that has been created in your organization, and all people added to this Office 365 Group, distribution list, or security groups will be excluded from directory search. You can add multiple Office 365 Groups, distribution lists, and security groups. <br/><br/> **Caution:** On-premises users from deployments of Lync Server 2010 won't be listed when someone searches the directory using Dial by Name.          
    
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory when someone uses Dial by Name with speech recognition. 
