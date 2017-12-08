@@ -15,9 +15,16 @@ description: "Address validation is an important part of setting up Calling Plan
 
 # How do I create a support ticket for address validation?
 
-Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services.
-  
-## Create a service request to validate an emergency address
+Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services. How you do this is based on the size of your organization.
+
+## For organizations 150 or less follow these steps
+1. In the **Office 365 admin center**, choose **Need help**?
+2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.
+3. If the results in the **View solutions** section don't help, choose one of the following:
+    - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
+    - **Email us**: Confirm your email address, then choose **Send**. The call response time is indicated in the **Need help?** pane.
+
+## For organizations with more than 150 users, create a service request to validate an emergency address
 
 1. Sign in as an administrator to Office 365 with your work or school account.
     
@@ -73,5 +80,5 @@ Address validation is an important part of setting up Calling Plans in Office 36
 > [!TIP]
 > The reference number will be listed on the **Service requests** page in the Office 365 admin center.
   
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

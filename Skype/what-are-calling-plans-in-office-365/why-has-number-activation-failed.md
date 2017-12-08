@@ -17,53 +17,59 @@ description: "Address validation is an important part of setting up Calling Plan
 ---
 
 # Why has number activation failed?
-
-Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services.
+Address validation is an important part of setting up Calling Plans in Office 365. If for some reason a phone number isn't activated because of address validation, you will need to create a service request. How you do this is based on the size of your organization.
   
-## Create a service request to validate an emergency address
+## For organizations 150 or less follow these steps
+1. In the **Office 365 admin center**, choose **Need help**?
+2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.
+3. If the results in the **View solutions** section don't help, choose one of the following:
+    - **Let us call you (Recommended)**: Confirm your contact number, then press **Call me**. The expected wait time for a call back is indicated in the **Need help?** pane.
+    - **Email us**: Confirm your email address, then choose **Send**. The call response time is indicated in the **Need help?** pane.
+
+## For organizations with more than 150 users, create a service request to validate an emergency address
 
 1. Sign in as an administrator to Office 365 with your work or school account.
     
-2. In the Office 365 admin center, in the left nav click **Support** > **Service requests**.
+2. In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.
     
-3. Under **Service requests** click **Add**.
+3. Under **Service requests**, click **Add**.
     
 4. On the **Create a service request** page, click **Online collaboration**.
     
-5. On the **Identify the issue** page select and enter in the following:
+5. On the **Identify the issue** page, select and enter in the following:
     
-  - **Feature** select **Domestic Calling** and/or **International Calling**.
+  - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
     
-  - **Symptom** enter **Emergency Calling**.
+  - **Symptom:** Enter **Emergency Calling**.
     
-  - **Issue summary** enter **Address validation**.
+  - **Issue summary:** Enter **Address validation**.
     
-  - **Issue details** enter any details about the address(s) you want to validate such as the
+  - **Issue details:** Enter any details about the address(s) you want to validate such as the:
     
-  - Street number
+      - Street number
     
-  - Street name
+      - Street name
     
-  - Town or city
+      - Town or city
     
-  - Country or region
+      - Country or region
     
     > [!IMPORTANT]
     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
   
-  - Postal or zip code
+      - Postal or zip code
     
 6. Click **Next** page, click **Yes, continue** to continue.
     
 7. On the **Add details** page, select and enter the following:
     
-  - **Is your service unavailable?** select **No**.
+  - **Is your service unavailable?** Select **No**.
     
-  - **How many users are affected?** select **Some users**.
+  - **How many users are affected?** Select **Some users**.
     
   - **Enter an email address of someone affected by this issue** or leave blank.
     
-  - **Select Domain (s) you want to list**
+  - **Select Domain(s) you want to list**
     
   - **Attach a file** if you have multiple addresses you need validated.
     
@@ -71,10 +77,10 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
   - Enter your contact phone number.
     
-8. Review the information and then click **Submit request**.
+8. Review the information, and then click **Submit request**.
     
 > [!TIP]
-> The reference number will be listed on the **View service requests** page in the Office 365 admin center.
+> The reference number will be listed on the **Service requests** page in the Office 365 admin center.
   
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

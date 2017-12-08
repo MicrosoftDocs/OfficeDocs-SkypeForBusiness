@@ -93,19 +93,15 @@ To configure these settings in bulk, use PowerShell. See [Managing communication
 |**Conference ID and PIN** (required) <br/> |The participant PIN, or conference code, used to join meetings that are scheduled by this user and are provided from a third-party audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, this won't be required.  <br/> |
    
 To configure these settings in bulk, use PowerShell. See [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](../audio-conferencing-in-office-365/set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
-  
-## 
-<a name="__toc314837483"> </a>
 
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+  
    
-## Related Topics
+## See also
 <a name="__toc314837483"> </a>
 
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]

@@ -133,15 +133,10 @@ After you enable external communication for your entire business, you can turn i
 > [!NOTE]
 > You may have to wait for up to 24 hours for your changes to take effect. 
   
-## 
-<a name="bk_preview"> </a>
 
- *Article last updated: March 23, 2017* 
-  
-## 
-<a name="bk_preview"> </a>
 
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+   
    
 ## See also
 <a name="bk_preview"> </a>
