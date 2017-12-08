@@ -20,7 +20,7 @@ description: "Learn how to assign, change, or remove a work phone number to your
 
 When you set up Calling Plans in Office 365, you assign phone numbers to your users. 
 
-In the Microsoft Teams client, the phone nubmer you assign will be listed in the **Contacts** section in their Microsoft Teams client.
+In the Microsoft Teams client, the phone nubmer you assign will be listed when they click **Calls**.
 
 ![User's phone number displayd in Contacts section.](../images/MicrosoftTeamsUserPhoneNumber.png)
 
