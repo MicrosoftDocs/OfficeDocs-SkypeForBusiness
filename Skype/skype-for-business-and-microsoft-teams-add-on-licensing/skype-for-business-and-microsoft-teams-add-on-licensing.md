@@ -287,12 +287,10 @@ Please see this blog post: [Advanced Office 365 capabilities now available to U.
 
 Some but not all Skype for Business features are available to customers using Office 365 operated by 21Vianet in China. For a list of what is and isn't available, see [Learn about Office 365 operated by 21Vianet](http://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
   
-## 
+
 <a name="bkmk_existing"> </a>
 
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
 <a name="bkmk_existing"> </a>

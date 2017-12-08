@@ -45,6 +45,8 @@ Setting up Calling Plans is easy. You can search for, acquire, and assign new ph
   
 To learn more about Phone System, Calling Plans, and audio conferencing, see this YouTube video: [Office 365 Phone System and dial-in meetings in Skype for Business ](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
 
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+
 
 ## See also
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

@@ -108,4 +108,4 @@ To configure these settings in bulk, use PowerShell. See [Set the Audio Conferen
 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
