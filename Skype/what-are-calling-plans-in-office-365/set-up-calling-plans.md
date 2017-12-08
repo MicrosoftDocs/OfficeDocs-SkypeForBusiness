@@ -42,9 +42,7 @@ If you're outside of the United States, the order of steps changes slightly. Thi
     
 3. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business >** **Voice**.
 
-    
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.    
+    > [!IMPORTANT] > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
    
 4. Choose **Phone numbers**. You'll see how many **Phone System** licenses you have, to give you an idea how many phone numbers to request.
     
