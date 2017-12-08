@@ -13,9 +13,7 @@ description: "You can select a country/region to see if Audio Conferencing, Phon
 
 # Country and region availability for Audio Conferencing and Calling Plans
 
-You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not.
-  
-You can see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) for more information on licensing.
+You can select a country or region to see if Audio Conferencing, Phone System, Calling Plans, and Communications Credits are available.
   
 ## Select your country or region to see what's available for you!
 
@@ -107,7 +105,14 @@ You can see [Skype for Business and Microsoft Teams add-on licensing](../skype-f
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
+After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) to help you buy licenses and assign them to your users.
+
+> [!NOTE]
+> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
+
 ## Want to learn a little bit more about these services?
+
+
 
 ### Audio Conferencing
 
@@ -115,8 +120,7 @@ Sometimes people in your organization will need to use a phone to call into a me
   
 [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
   
-> [!NOTE]
-> There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
+
   
 Toll numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
   
@@ -160,5 +164,3 @@ Here is a list of the countries and regions that you can get both toll and toll-
 We recommend that you set up Communications Credits for your Audio Conferencing and Calling Plans users that need the ability to dial out to **any destination**. Many countries/regions are included but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions.
   
 If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial-out from meetings. You can find out more information including recommended funding amounts by seeing [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
-  
-
