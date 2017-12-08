@@ -114,7 +114,9 @@ If you're outside of the United States, the order of steps changes slightly. Thi
 ## Step 5: Tell your users about their new phone numbers
 <a name="bkmk_add_addresses"> </a>
 
-We recommend sending mail or using your business's preferred communication method to tell the people about their new phone numbers. Here's how they can see that phone number in their Skype for Business app:
+We recommend sending mail or using your business's preferred communication method to tell the people about their new phone numbers. 
+
+Here's how they can see that phone number in their **Skype for Business** app:
   
 1. Sign in to Skype for Business on your desktop.
     
@@ -125,7 +127,11 @@ We recommend sending mail or using your business's preferred communication metho
 3. Then choose **Phones**. 
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](../images/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
-  
+ 
+In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
+
+![A user can see their number in Microsof Teams by clicking Calls in the let navigation.](../images/MicrosoftTeamsUserPhoneNumber.png)
+
 ## What else do you need to know?
 <a name="bkmk_add_addresses"> </a>
 
