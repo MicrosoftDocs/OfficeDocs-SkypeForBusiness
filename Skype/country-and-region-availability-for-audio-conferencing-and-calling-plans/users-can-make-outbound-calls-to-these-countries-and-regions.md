@@ -14,44 +14,45 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 # Users can make outbound calls to these countries and regions
 
 ## See what countries/regions users can make outbound calls to if the user has a Domestic or International Calling Plan license
-||||||
-|**A - D**| **E - H**|**I - L**|**M - P**|**Q - T**|**U - Z**
 
-|Afghanistan|Ecuador |
-|Albania|Egypt |
-|Algeria|El Salvador |
-|American Samoa|Equatorial Guinea |
-|Andorra |Eritrea |
-|Angola ||Estonia |
-|Anguilla |Ethiopia |
-|Antigua and Barbuda |
-|Argentina ||Faroe Islands |
-|Armenia |
-|Aruba |
-|Australia |
-|Austria |
-|Azerbaijan |
-|Bahamas |
-|Bahrain |
-|Bangladesh |
-|Barbados |
-|Belarus |
-|Belgium |
-|Belize |
-|Benin |
-|Bermuda |
-|Bhutan |
-|Bolivia |
-|Bosnia and Herzegovina |
-|Botswana |
-|Bazil |
-|Bunei Darussalam |
-|Bulgaria |
-|Burkina Faso |
-|Cambodia |
-|Cameroon |
-|Canada |
-|Cape Verde |
+
+|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+---|---|---|---|---|---|
+|Afghanistan|Ecuador |Iceland |Macau |Pakistan |Taiwan   |
+|Albania|Egypt |India |Macedonia |Palau |Tajikistan   |
+|Algeria|El Salvador |Indonesia |Malawi |Palestinian Authority |Tanzania, United Republic of  |
+|American Samoa|Equatorial Guinea |Iran |Malaysia |Panama | Thailand   |
+|Andorra |Eritrea |Iraq |Mali |Paraguay |Togo   |
+|Angola |Estonia |Ireland |Malta |Peru | Trinidad and Tobago  |
+|Anguilla |Ethiopia |Israel |Marshall Islands | Philippines | Turkey |
+|Antigua and Barbuda | Faroe Islands |Italy |Martinique |Poland |Turkmenistan |
+|Argentina|Fiji |Jamaica |Mauritius |Portugal |Turks and Caicos   |
+|Armenia |Finland |Japan |Mayotte | Puerto Rico |Uganda  |
+|Aruba |France |Jordan |Mexico |Qatar | Ukraine   |
+|Australia |French Guiana |Kazakhstan |Micronesia |Reunion |United Arab Emirates (U.A.E)  |
+|Austria |French Polynesia |Kenya |Moldova, Republic of |Romania |United Kingdom (U.K.) |
+|Azerbaijan |Georgia |Korea, Republic of |Monaco | Russian Federation |United States (U.S.)  |
+|Bahamas |Germany |Kuwait |Mongolia |Rwanda | Uruguay |
+|Bahrain |Ghana |Kyrgyzstan |Montenegro | Saint Kitts and Nevis |Uzbekistan  |
+|Bangladesh |Gialtar |Lao |Montserrat | Saint Lucia |Vatican City State  |
+|Barbados |Greece |Latvia |Morocco |Saint Vincent and the Grenadines |Venezuela   |
+|Belarus |Greenland |Lebanon |Mozambique | San Marino |Viet Nam  |
+|Belgium |Grenada |Lesotho |Myanmar | Saudi Arabia | Virgin Islands (British) |
+|Belize |Guadeloupe |Libya |Namibia |Senegal | Virgin Islands (U.S.)  |
+|Benin |Guam |Liechtenstein |Nepal | Serbia | Wallis and Futuna Islands  |
+|Bermuda |Guatemala |Lithuania |Netherlands |Singapore |Yemen |
+|Bhutan |Guinea |Luxembourg |Netherlands Antilles |Slovakia |Zambia  |
+|Bolivia |Guyana| |New Caledonia |Slovenia |Zimbabwe |
+|Bosnia and Herzegovina |Haiti ||New Zealand |South Africa | 
+|Botswana |Honduras ||Nicaragua |Spain |
+|Bazil |Hong Kong ||Niger |Sri Lanka | 
+|Bunei Darussalam |Hungary ||Nigeria |St. Pierre and Miquelon | 
+|Bulgaria |||Northern Mariana Islands |Sudan |
+|Burkina Faso |||Norway |Suriname |
+|Cambodia |||Oman |Swaziland | 
+|Cameroon ||||Sweden |
+|Canada ||||Switzerland | 
+|Cape Verde ||||Syrian Arab Republic |
 |Cayman Islands |
 |Central African Republic |
 |Chile |
@@ -70,149 +71,4 @@ ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 |Dominica |
 |Dominican Republic |
 
-
-
-
-
-
-
-
-|Fiji |
-|Finland |
-|France |
-|French Guiana |
-|French Polynesia |
-|Georgia |
-|Germany |
-|Ghana |
-|Gialtar |
-|Greece |
-|Greenland |
-|Grenada |
-|Guadeloupe |
-|Guam |
-|Guatemala |
-|Guinea |
-|Guyana |
-|Haiti |
-|Honduras |
-|Hong Kong |
-|Hungary |
-|Iceland |
-|India |
-|Indonesia |
-|Iran |
-|Iraq |
-|Ireland |
-|Israel |
-|Italy |
-|Jamaica |
-|Japan |
-|Jordan |
-|Kazakhstan |
-|Kenya |
-|Korea, Republic of |
-|Kuwait |
-|Kyrgyzstan |
-|Lao |
-|Latvia |
-|Lebanon |
-|Lesotho |
-|Libya |
-|Liechtenstein |
-|Lithuania |
-|Luxembourg |
-|Macau |
-|Macedonia |
-|Malawi |
-|Malaysia |
-|Mali |
-|Malta |
-|Marshall Islands |
-|Martinique |
-|Mauritius |
-|Mayotte |
-|Mexico |
-|Micronesia |
-|Moldova, Republic of |
-|Monaco |
-|Mongolia |
-|Montenegro |
-|Montserrat |
-|Morocco |
-|Mozambique |
-|Myanmar |
-|Namibia |
-|Nepal |
-|Netherlands |
-|Netherlands Antilles |
-|New Caledonia |
-|New Zealand |
-|Nicaragua |
-|Niger |
-|Nigeria |
-|Northern Mariana Islands |
-|Norway |
-|Oman |
-|Pakistan |
-|Palau |
-|Palestinian Authority |
-|Panama |
-|Paraguay |
-|Peru |
-|Philippines |
-|Poland |
-|Portugal |
-|Puerto Rico |
-|Qatar |
-|Reunion |
-|Romania |
-|Russian Federation |
-|Rwanda |
-|Saint Kitts and Nevis |
-|Saint Lucia |
-|Saint Vincent and the Grenadines |
-|San Marino |
-|Saudi Arabia |
-|Senegal |
-|Serbia |
-|Singapore  |
-|Slovakia   |
-|Slovenia   |
-|South Africa  |
-|Spain  |
-|Sri Lanka   |
-|St. Pierre and Miquelon |
-|Sudan  |
-|Suriname   |
-|Swaziland  |
-|Sweden  |
-|Switzerland |
-|Syrian Arab Republic |
-|Taiwan   |
-|Tajikistan   |
-|Tanzania, United Republic of  |
-|Thailand   |
-|Togo   |
-|Trinidad and Tobago  |
-|Turkey |
-|Turkmenistan |
-|Turks and Caicos   |
-|Uganda  |
-|Ukraine   |
-|United Arab Emirates (U.A.E)  |
-|United Kingdom (U.K.) |
-|United States (U.S.)  |
-|Uruguay |
-|Uzbekistan  |
-|Vatican City State  |
-|Venezuela   |
-|Viet Nam  |
-|Virgin Islands (itish) |
-|Virgin Islands (U.S.)  |
-|Wallis and Futuna Islands  |
-|Yemen |
-|Zambia  |
-|Zimbabwe |
-   
 
