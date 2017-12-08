@@ -46,7 +46,7 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 ## Additional resources to help your Skype for Business Online users
 
-- [Uninstall Skype for Business](http://technet.microsoft.com/library/28c4a036-7f22-406c-b7f4-87894cbaf902%28Office.14%29.aspx)
+- [Uninstall Skype for Business](http://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
     
 - [Troubleshoot audio and video in Skype for Business](http://technet.microsoft.com/library/62777bc6-c52b-47ae-84ba-a8905c3b71dc%28Office.14%29.aspx)
     
@@ -56,7 +56,7 @@ Most of the problems faced by Skype for Business Online users are related to for
     
 - [Skype for Business meeting help](http://support.office.com/article/e0bc00a0-b01f-4f51-88fa-6f74abefa203)
     
-- [Skype for Business FAQ](http://technet.microsoft.com/library/2461b8dd-c825-4e18-9a4c-015bba5a5a7e%28Office.14%29.aspx)
+- [Skype for Business training](http://support.office.com/article/2461b8dd-c825-4e18-9a4c-015bba5a5a7e)
     
 - [Present programs in Skype for Business](http://support.office.com/article/a5e6f4dc-06ac-4ccd-9a52-649b4f4a5306)
     

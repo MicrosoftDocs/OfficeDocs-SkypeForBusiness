@@ -45,7 +45,7 @@ If you want to use Skype for Business to make and receive **calls** from people 
   
 - **Option 1. Use the free [Skype app](https://www.skype.com/)**. If you have a very small business (for example, 1-2 people), using the Skype app is the better way to go. It's less expensive to use for domestic and international calls. You can still hold conference calls, make video calls, and share your desktop for presentations. [Check out the rates and payment options](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
     
-- **Option 2. Upgrade your plan, and buy the Phone System and a Calling Plan for Office 365**. The easiest way to find out how much this costs, and then make the switch, is to [Contact support for business products - Admin Help](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx) and have them do everything for you.
+- **Option 2. Upgrade your plan, and buy the Phone System and a Calling Plan for Office 365**. The easiest way to find out how much this costs, and then make the switch, is to [Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) and have them do everything for you.
     
 To learn more, see [Plan your setup of Office 365 for business](http://technet.microsoft.com/library/eb926624-018b-4486-bf11-5fba6ee4d645%28Office.14%29.aspx#bkmk_skype).
   
@@ -153,7 +153,7 @@ Here's an overview of the steps to set up Skype Meeting Broadcast:
     
 3. [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): If you want to host webinars and other broadcasts with attendees outside of your organization, you need to configure your network.
     
-4. [Schedule a Skype Meeting Broadcast](http://technet.microsoft.com/library/c3995bc9-4d32-4f75-a004-3bc5c477e553%28Office.14%29.aspx) and have a [Join a Skype Meeting Broadcast](http://technet.microsoft.com/library/14689da0-821d-48d4-9035-ea762de80ebe%28Office.14%29.aspx): Make sure broadcast meetings work by scheduling a Skype Meeting Broadcast at  *https://portal.broadcast.skype.com*  and then having someone try to join the meeting.
+4. [Schedule a Skype Meeting Broadcast](http://technet.microsoft.com/library/c3995bc9-4d32-4f75-a004-3bc5c477e553%28Office.14%29.aspx) and have a [Join a Skype Meeting Broadcast](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Make sure broadcast meetings work by scheduling a Skype Meeting Broadcast at  *https://portal.broadcast.skype.com*  and then having someone try to join the meeting.
     
 ## Learn about network connectivity requirements
 <a name="bkmk_more"> </a>
@@ -167,7 +167,7 @@ The quality of audio, video, and application sharing in Skype for Business is gr
   
 [Start a Skype for Business conference call](http://technet.microsoft.com/library/8dc8ac52-91ac-4db9-8672-11551fdaf997%28Office.14%29.aspx)
   
-[Set Video Device options in Skype for Business](http://technet.microsoft.com/library/d09017c0-deba-4f6c-a122-9eca6604f50c%28Office.14%29.aspx)
+[Set Video Device options in Skype for Business](http://support.office.com/article/d09017c0-deba-4f6c-a122-9eca6604f50c)
   
 [Make and receive a video call using Skype for Business](http://technet.microsoft.com/library/abf62493-670f-4b0d-b2cf-fe03b49caf42%28Office.14%29.aspx)
   
