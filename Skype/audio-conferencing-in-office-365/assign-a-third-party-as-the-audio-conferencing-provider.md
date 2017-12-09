@@ -4,18 +4,17 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
-ms.audience: Admin
 ms.topic: article
+ms.audience: Admin
+ms.service: skype-for-business-online
+ms.tgt.pltfrm: cloud
+ms.collection: Adm_Skype4B_Online
+ms.custom: Strat_SB_PSTN, Audio Conferencing
+localization_priority: Normal
+ROBOTS: None
 f1_keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- Strat_SB_PSTN
 ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
 description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
 ---

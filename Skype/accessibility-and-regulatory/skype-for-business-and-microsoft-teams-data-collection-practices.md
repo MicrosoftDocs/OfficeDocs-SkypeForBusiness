@@ -5,15 +5,17 @@ author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
 ms.topic: article
-ms.audience: Admin
-ms.service: skype-for-business-online
+ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
-ms.custom: None
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
 ROBOTS: None
-f1_keywords: None
-ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
+f1keywords: None
+ms.custom:
+- Feature: Legal
 description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
 ---
 

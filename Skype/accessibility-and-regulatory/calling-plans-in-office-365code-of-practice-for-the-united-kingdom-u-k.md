@@ -5,15 +5,17 @@ author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
 ms.topic: article
-ms.audience: Admin
-ms.service: skype-for-business-online
+ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
-ms.custom: None
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
 ROBOTS: None
-f1_keywords: None
-ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
+f1keywords: None
+ms.custom:
+- Feature: Legal
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
 ---
 

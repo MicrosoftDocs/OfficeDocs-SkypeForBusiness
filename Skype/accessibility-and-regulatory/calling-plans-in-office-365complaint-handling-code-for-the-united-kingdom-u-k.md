@@ -5,15 +5,17 @@ author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
 ms.topic: article
-ms.audience: Admin
-ms.service: skype-for-business-online
+ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
-ms.custom: None
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
 ROBOTS: None
-f1_keywords: None
-ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
+f1keywords: None
+ms.custom:
+- Feature: Legal
 description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
 ---
 

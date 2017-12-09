@@ -5,15 +5,17 @@ author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
 ms.topic: article
-ms.audience: Admin
-ms.service: skype-for-business-online
-ms.tgt.pltfrm: cloud
-ms.collection: Adm_Skype4B_Online
-ms.custom: None
-localization_priority: Normal
-ROBOTS: None
-f1_keywords: None
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: None
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Feature: Legal
 description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 
