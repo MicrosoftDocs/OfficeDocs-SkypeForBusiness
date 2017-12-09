@@ -2,13 +2,17 @@
 title: "Skype for Business and Microsoft Teams data collection practices"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/31/2017
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.audience: Admin
-ms.topic: reference
 ms.service: skype-for-business-online
-localization_priority: Normal
+ms.tgt.pltfrm: cloud
 ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.custom: None
+localization_priority: Normal
+ROBOTS: None
+f1_keywords: None
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
 ---

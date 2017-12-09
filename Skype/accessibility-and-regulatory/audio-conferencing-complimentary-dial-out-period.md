@@ -2,18 +2,19 @@
 title: "Audio Conferencing complimentary dial-out period"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 9/25/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.DashboardSfBServiceTerm
+ms.audience: Admin
 ms.service: skype-for-business-online
-localization_priority: Normal
+ms.tgt.pltfrm: cloud
 ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.custom: None
+localization_priority: Normal
+ROBOTS: None
+f1_keywords: None
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
-
+description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 
 # Audio Conferencing complimentary dial-out period

@@ -2,13 +2,19 @@
 title: "Accessibility Declaration of Conformance for Skype for Business Online in France"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 7/25/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.audience: Admin
 ms.service: skype-for-business-online
+ms.tgt.pltfrm: cloud
+ms.collection: Adm_Skype4B_Online
+ms.custom: None
 localization_priority: None
+ROBOTS: None
+f1_keywords: None
 ms.assetid: cbafd5c3-e499-497b-a0cb-b0940d7afd20
-description: ""
+description: "Accessibility in France."
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France

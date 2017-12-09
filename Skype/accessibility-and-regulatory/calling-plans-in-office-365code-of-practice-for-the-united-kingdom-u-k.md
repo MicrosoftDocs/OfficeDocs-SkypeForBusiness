@@ -2,11 +2,17 @@
 title: "Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.audience: Admin
 ms.service: skype-for-business-online
-localization_priority: None
+ms.tgt.pltfrm: cloud
+ms.collection: Adm_Skype4B_Online
+ms.custom: None
+localization_priority: Normal
+ROBOTS: None
+f1_keywords: None
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
 ---

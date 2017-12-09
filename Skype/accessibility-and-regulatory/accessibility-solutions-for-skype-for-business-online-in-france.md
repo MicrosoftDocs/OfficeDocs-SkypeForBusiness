@@ -2,11 +2,17 @@
 title: "Accessibility solutions for Skype for Business Online in France"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 7/25/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.audience: Admin
 ms.service: skype-for-business-online
+ms.tgt.pltfrm: cloud
+ms.collection: Adm_Skype4B_Online
+ms.custom: None
 localization_priority: None
+ROBOTS: None
+f1_keywords: None
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 description: "Proposer à ses utilisateurs des expériences accessibles est au cœur de la mission que s'est fixée Microsoft : permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage, quelles que soit ses aptitudes. Microsoft a le plaisir de proposer, avec Skype Entreprise, un certain nombre de solutions d'accessibilité qui s'inscrivent dans son engagement fort pour l'accessibilité et l'inclusion numérique."
 ---

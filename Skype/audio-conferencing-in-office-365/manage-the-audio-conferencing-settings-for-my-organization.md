@@ -6,11 +6,10 @@ manager: scotv
 ms.date: 11/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
 - Strat_SB_PSTN
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 description: "See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. "

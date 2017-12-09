@@ -10,7 +10,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
 - Strat_SB_PSTN
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 description: "Learn how to enable or disable whether your users can record their names when they join a meeting "

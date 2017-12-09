@@ -10,7 +10,6 @@ ms.service: skype-for-business-online
 localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
 - Strat_SB_PSTN
 ms.assetid: b0d2b50e-def3-4bd8-82d4-a27f4b6f205c
 description: "When you set up Audio Conferencing for Skype for Business and Microsoft Teams, you need to choose an audio conferencing provider. You can choose either Microsoft or a third party as your audio conferencing provider."

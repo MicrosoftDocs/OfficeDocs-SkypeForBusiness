@@ -2,8 +2,8 @@
 title: "Assign a third-party as the audio conferencing provider"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
+manager: serdars
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
