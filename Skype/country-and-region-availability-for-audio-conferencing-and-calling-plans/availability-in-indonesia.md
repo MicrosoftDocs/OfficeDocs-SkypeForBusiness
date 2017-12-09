@@ -2,12 +2,20 @@
 title: "Availability in Indonesia"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Audio Conferencing, Phone System, Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Indonesia."
 ---
 
