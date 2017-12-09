@@ -2,18 +2,22 @@
 title: "Set auto attendant languages for Audio Conferencing"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
-description: "See how to select the auto-attendant lanugages for a dial-in conferencing number."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number."
 ---
 
 # Set auto attendant languages for Audio Conferencing

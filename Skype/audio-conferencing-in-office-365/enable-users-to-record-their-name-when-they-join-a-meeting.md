@@ -2,16 +2,21 @@
 title: "Enable users to record their name when they join a meeting"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/12/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
+ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
+- Audio Conferencing
 description: "Learn how to enable or disable whether your users can record their names when they join a meeting "
 ---
 
