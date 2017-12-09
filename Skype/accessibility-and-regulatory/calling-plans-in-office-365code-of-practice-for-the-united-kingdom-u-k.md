@@ -15,7 +15,7 @@ localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Feature: Legal
+- Legal
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
 ---
 

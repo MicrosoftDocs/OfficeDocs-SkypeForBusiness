@@ -16,9 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
-ms.assetid: 
-
+- Audio Conferencing
 ---
 
 # Audio Conferencing in Office 365

@@ -16,7 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
 ---
 

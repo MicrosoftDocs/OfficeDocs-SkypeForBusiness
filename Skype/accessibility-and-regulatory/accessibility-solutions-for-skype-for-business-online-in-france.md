@@ -15,7 +15,7 @@ localization_priority: None
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Feature: Legal
+- Legal
 description: "Proposer à ses utilisateurs des expériences accessibles est au cœur de la mission que s'est fixée Microsoft : permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage, quelles que soit ses aptitudes. Microsoft a le plaisir de proposer, avec Skype Entreprise, un certain nombre de solutions d'accessibilité qui s'inscrivent dans son engagement fort pour l'accessibilité et l'inclusion numérique."
 ---
 

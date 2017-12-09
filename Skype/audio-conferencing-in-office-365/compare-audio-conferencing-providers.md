@@ -16,7 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "When you set up Audio Conferencing for Skype for Business and Microsoft Teams, you need to choose an audio conferencing provider. You can choose either Microsoft or a third party as your audio conferencing provider."
 ---
 

@@ -16,8 +16,8 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
-description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+- Audio Conferencing
+description: "Get a list of known issues when using Microsoft as their dial-in conference provider, status, and some workarounds. "
 ---
 
 # Audio Conferencing troubleshooting and known issues

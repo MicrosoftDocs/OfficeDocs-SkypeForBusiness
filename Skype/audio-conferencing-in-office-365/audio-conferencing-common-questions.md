@@ -16,7 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
 ---
 

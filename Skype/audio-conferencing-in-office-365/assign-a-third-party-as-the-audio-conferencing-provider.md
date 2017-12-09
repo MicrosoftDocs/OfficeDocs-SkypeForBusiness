@@ -18,7 +18,7 @@ f1keywords:
 - ms.lync.lac.DialInProvider
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
 ---
 

@@ -15,7 +15,7 @@ localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Feature: Legal
+- Legal
 description: "There is content that must be published to meet requirements for accessibility, compliance and regulatory. "
 ---
 # Accessibility and regulatory

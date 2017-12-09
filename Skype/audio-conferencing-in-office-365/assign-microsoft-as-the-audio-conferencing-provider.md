@@ -16,7 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge."
 ---
 

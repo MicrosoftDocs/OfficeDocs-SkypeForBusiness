@@ -15,7 +15,7 @@ localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Feature: Legal
+- Legal
 description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
 ---
 

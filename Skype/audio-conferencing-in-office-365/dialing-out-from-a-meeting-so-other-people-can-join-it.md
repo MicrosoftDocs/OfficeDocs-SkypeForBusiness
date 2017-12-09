@@ -16,7 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
-- Feature:Audio Conferencing
+- Audio Conferencing
 description: "Learn what you need and how meeting organizers can call out to other people using Skype for Business."
 ---
 

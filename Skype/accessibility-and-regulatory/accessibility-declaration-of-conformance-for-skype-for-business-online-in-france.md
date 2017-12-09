@@ -15,7 +15,7 @@ localization_priority: None
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Feature: Legal
+- Legal
 description: "Accessibility in France."
 ---
 
