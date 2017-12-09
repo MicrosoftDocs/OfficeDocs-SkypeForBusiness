@@ -2,12 +2,21 @@
 title: "Audio Conferencing common questions"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Feature:Audio Conferencing
 description: "The following are some of the top questions we get from our customers who want to use Audio Conferencing."
 ---
 
@@ -16,7 +25,7 @@ description: "The following are some of the top questions we get from our custom
 The following are some of the top questions we get from our customers who want to use Audio Conferencing. 
   
 For step-by-step instructions for setting up Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md).
-  
+
 ## What are the benefits of Audio Conferencing?
 
 Calling in to meetings is very useful when people are on the road, for example, and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptop or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
