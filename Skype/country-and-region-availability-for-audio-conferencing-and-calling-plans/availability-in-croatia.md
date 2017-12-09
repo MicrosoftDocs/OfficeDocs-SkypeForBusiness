@@ -2,12 +2,20 @@
 title: "Availability in Croatia"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Audio Conferencing, Phone System, Calling Plans 
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Croatia."
 ---
 
