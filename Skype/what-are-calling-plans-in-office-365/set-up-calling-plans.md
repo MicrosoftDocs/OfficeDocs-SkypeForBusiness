@@ -130,7 +130,7 @@ Here's how they can see that phone number in their **Skype for Business** app:
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![A user can see their number in Microsof Teams by clicking Calls in the let navigation.](../images/MicrosoftTeamsUserPhoneNumber.png)
+![A user can see their number in Microsoft Teams by clicking Calls in the let navigation.](../images/TeamsPhoneNumber.png)
 
 ## What else do you need to know?
 <a name="bkmk_add_addresses"> </a>
