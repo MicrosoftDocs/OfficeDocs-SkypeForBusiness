@@ -1,18 +1,22 @@
 ---
 title: "This Skype for Business Online feature isn't enabled"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.FeatureNotEnabled
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.FeatureNotEnabled
+ms.custom:
+- Setup
 description: "Find possible causes and action suggestions when you get a Skype for Business Online feature isn't enabled error. "
 ---
 

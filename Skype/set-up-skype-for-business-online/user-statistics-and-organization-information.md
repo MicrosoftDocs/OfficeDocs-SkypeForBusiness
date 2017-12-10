@@ -2,18 +2,22 @@
 title: "User statistics and organization information"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.topic: reference
-f1_keywords:
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
-ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
+ms.custom:
+- Setup
 description: "Learn what Skype for business user statistics are available, such as the number of enabled users, conference enabled users, or users that are enabled for Office 365."
 ---
 

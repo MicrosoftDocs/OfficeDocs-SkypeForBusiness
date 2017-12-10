@@ -1,18 +1,22 @@
 ---
 title: "Skype for Business Online admin center users page limitations"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 12/9/2015
-ms.audience: Admin
-ms.topic: reference
-f1_keywords:
-- ms.lync.lac.UsersCountLimitationWarning
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.UsersCountLimitationWarning
+ms.custom:
+- Setup
 description: "Learn how to work within the limitations of Skype for Business Online admin's display of users. "
 ---
 

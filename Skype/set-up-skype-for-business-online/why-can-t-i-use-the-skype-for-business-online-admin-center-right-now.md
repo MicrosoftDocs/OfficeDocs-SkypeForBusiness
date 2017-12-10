@@ -2,17 +2,21 @@
 title: "Why can't I use the Skype for Business Online admin center right now?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.TenantInMigration
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.TenantInMigration
+ms.custom:
+- Setup
 description: "Learn what you can and can't use in Skype for Business admin center, and other features when your service is being migrated to another Microsoft data center. "
 ---
 

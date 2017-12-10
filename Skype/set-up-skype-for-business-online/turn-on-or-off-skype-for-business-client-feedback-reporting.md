@@ -2,15 +2,22 @@
 title: "Turn on or off Skype for Business client feedback reporting"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2
-description: "This feature is currently in preview and could change as it is released or updated."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup 
+description: "You can enable your Skype for Business users to use the built-in Skype for Business app feedback tool to let users report issues and provide feedback directly to Microsoft about their experience."
 ---
-
 # Turn on or off Skype for Business client feedback reporting
 
 You can enable your Skype for Business users to use the built-in Skype for Business app feedback tool to let users report issues and provide feedback directly to Microsoft about their experience. 

@@ -1,18 +1,22 @@
 ---
 title: "The user's Skype for Business Online service plan isn't valid"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.ServicePlanNotValid
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.ServicePlanNotValid
+ms.custom:
+- Setup
 description: "See where to assign a valid service plan for a user after a Skype for Business Online service plan isn't valid error. "
 ---
 

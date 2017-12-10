@@ -1,18 +1,22 @@
 ---
 title: "Turn on or off mobile phone notifications"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgMobileNotification
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.OrgMobileNotification
+ms.custom:
+- Setup
 description: "Learn how to turn mobile phone notifications on or off so your users can receive alerts about incoming, voice mail, and missed instant messages."
 ---
 

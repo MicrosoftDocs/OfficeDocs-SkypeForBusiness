@@ -1,18 +1,22 @@
 ---
 title: "Configure presence privacy mode"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgPresencePrivacy
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: 
+- ms.lync.lac.OrgPresencePrivacy
+ms.custom:
+- Setup
 description: "Learn how to set up privacy mode for your users so they can better control how people see their availability. "
 ---
 

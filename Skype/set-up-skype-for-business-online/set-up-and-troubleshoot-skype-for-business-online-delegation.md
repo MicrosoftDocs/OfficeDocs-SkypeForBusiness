@@ -2,12 +2,21 @@
 title: "Set up and troubleshoot Skype for Business Online delegation"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/23/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
+ms.assetid: 
 description: "This article explains how to set up and troubleshoot Skype for Business Online delegation. This article gives you guidance for setup recommendations, best practices, and troubleshooting steps."
 ---
 

@@ -2,13 +2,20 @@
 title: "Troubleshooting Skype for Business Online sign-in errors for administrators"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: skype-for-business-online
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup 
 description: "Learn common causes for Skype for Business Online sign-errors and Work through troubleshooting these problems. "
 ---
 

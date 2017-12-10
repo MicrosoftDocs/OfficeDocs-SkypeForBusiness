@@ -2,17 +2,20 @@
 title: "Switching between the Skype for Business and the Lync client user interfaces"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 6/1/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom: Adm_O365_FullSet
 ms.assetid: a2394a4c-7522-484c-a047-7b3289742be0
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 "
 ---
 
