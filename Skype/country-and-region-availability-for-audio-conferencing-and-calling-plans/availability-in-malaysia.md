@@ -2,12 +2,20 @@
 title: "Availability in Malaysia"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 5cde872f-9cd8-4a5d-9244-0dc9a7ae5651
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Audio Conferencing, Phone System, Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Malaysia."
 ---
 
