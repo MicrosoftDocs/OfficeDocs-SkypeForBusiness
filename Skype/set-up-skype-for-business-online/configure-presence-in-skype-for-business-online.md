@@ -8,10 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - O365P_OnlinePresenceDesc
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+
 ms.assetid: ce59ac0b-8115-4c6b-8174-e3aef982d3cb
 description: "Learn how to set up Skype for Business so you can see the availability of your co-workers. "
 ---

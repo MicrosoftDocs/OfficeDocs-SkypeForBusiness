@@ -1,11 +1,18 @@
 ---
 title: "Allow users to contact external Skype for Business users"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.assetid: b414873a-0059-4cd5-aea1-e5d0857dbc94
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
 f1_keywords:
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
@@ -15,17 +22,11 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-- Adm_UI_Elements
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-ms.assetid: b414873a-0059-4cd5-aea1-e5d0857dbc94
+- Setup
+
+
+ms.assetid: 
 
 description: "See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. "
 ---
