@@ -129,18 +129,18 @@ After you look to see if one of the Skype for Business or Microsoft Teams servic
 ## Want to learn more about these services?
 
 
-
 ### Audio Conferencing
 
 Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the Audio Conferencing feature for just this situation! People can call in to meetings using a phone instead of using the Skype for Business and Microsoft Teams apps on a mobile device or PC. After you have decided you want Audio Conferencing for your organization, you need to buy 1 **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
   
-[Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
-  
+With Audio Conferencing, there are toll and toll free phone numbers that can be used by your users to dial-in to meetings. Toll numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
 
-  
-Toll numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
+To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
+
+[Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
   
 #### Using the Call Me feature or when adding other people to a meeting so they can join it
+In Audio Conferencing there is a feature named "*Call Me*" and it can be used to let other people join a dial-in meeting. Use the drop down list above to search for the country/region and see if this feature is available.
 
 > [!CAUTION]
 > Dialing out to toll-free or free phone numbers may not be possible, because some toll-free numbers only function from within a certain country or area within a country. For example, if you dial out from the United States to a toll-free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll-free numbers varies widely depending on the restrictions of the toll-free number dialed. Unfortunately, within Office 365, we can't control this behavior, and as a result, your experience may vary depending on the toll-free number dialed and the restrictions of the toll-free number. 
@@ -151,13 +151,22 @@ Dialing out from a meeting to another country/region in the world that is not li
 > During the introductory period, users in all organizations can dial out to when using the Call Me feature or when adding other people to a meeting to any of the following countries/regions at no additional charge, but this is subject to the [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md). 
   
 ### Phone System
+With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
+
+In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. You can find those phone numbers by going [here](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
-  
-### Calling Plans
 
-[Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
-  
+> [!NOTE]
+> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. 
+
+Use the drop-down list at the top of the page to search for a country or region and what services are available.
+
+### Calling Plans
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) for more details.
+
+You can also see [Phone System and Calling Plans licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) for licensing information.
+
 > [!NOTE]
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Office 365 admin center**. 
   
@@ -170,8 +179,7 @@ The following is a list of capitals and major cities from where you can get toll
   
 If you want to get a toll or toll-free service number, you can see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md). If you already have a toll or toll-free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-> [!NOTE]
-> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. 
+Use the drop down list at the top of the page to search for a country or region and what services are available.
 
 ### Communications Credits
 
@@ -179,7 +187,7 @@ We recommend that you set up Communications Credits for your Audio Conferencing 
   
 If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial out from meetings. You can find out more information including recommended funding amounts by reading [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
-
+##
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 ## Related topics
