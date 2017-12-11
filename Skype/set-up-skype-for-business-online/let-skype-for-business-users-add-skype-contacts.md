@@ -17,6 +17,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
+- LIL_Placement
 description: "See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. "
 ---
 

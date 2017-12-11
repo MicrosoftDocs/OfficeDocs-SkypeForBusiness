@@ -96,7 +96,8 @@ Your port order request will be checked and updated daily and you will be notifi
  **The service address isn't the same as the billing address. The address information I submitted on the order matches my customer's bill copy, why is it still rejecting?** Most carriers will identify the porting information based on the service address information, not the billing address. Since a bill copy is a billing record, it may not provide the same information as the service address for the telephone number(s) being ported.
   
  **What should I do if my order is taking too long to process?** We want number porting to be very simple and quick process. If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open support ticket and include the port order ID.
-  
+
+##
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## Related topics

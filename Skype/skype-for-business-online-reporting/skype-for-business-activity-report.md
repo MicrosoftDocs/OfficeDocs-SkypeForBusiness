@@ -106,6 +106,7 @@ You can also export the report data into an Excel .csv file, by clicking or tapp
 - [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
 
 - [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
+
     
 ## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -19,6 +19,7 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
+- LIL_Placement
 description: "Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned."
 ---
 

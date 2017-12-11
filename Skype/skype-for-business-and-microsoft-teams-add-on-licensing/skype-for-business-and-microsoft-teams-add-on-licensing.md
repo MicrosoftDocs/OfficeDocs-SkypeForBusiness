@@ -19,6 +19,7 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
+- LIL_Placement
 description: "Learn what add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
 ---
 
@@ -290,6 +291,7 @@ Some but not all Skype for Business features are available to customers using Of
 
 <a name="bkmk_existing"> </a>
 
+##
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## Related topics

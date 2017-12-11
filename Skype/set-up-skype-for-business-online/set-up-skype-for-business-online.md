@@ -22,7 +22,7 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "Learn to set up your domain, users, IM and presense for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
+description: "Learn to set up your domain, users, IM and presence for your organization to install Skype for Business. Also See how to set up audio conferencing, Phone System and Calling Plans, and Skype Meeting broadcast. "
 ---
 
 # Set up Skype for Business Online
