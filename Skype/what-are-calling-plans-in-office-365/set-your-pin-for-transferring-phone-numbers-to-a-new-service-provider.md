@@ -2,13 +2,21 @@
 title: "Set your PIN for transferring phone numbers to a new service provider"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out."
 ---
 
@@ -45,9 +53,11 @@ Here is some specific information about this PIN you should know:
     
 5. In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.
     
-## See also
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
   
 

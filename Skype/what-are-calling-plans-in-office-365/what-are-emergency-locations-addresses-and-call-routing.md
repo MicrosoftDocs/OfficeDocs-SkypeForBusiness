@@ -2,19 +2,22 @@
 title: "What are emergency locations, addresses and call routing?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.AddressAndLocation
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.AddressAndLocation
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. "
 ---
 
@@ -53,6 +56,8 @@ Emergency addresses and locations are used during the process of routing emergen
     
 4. **Assign phone numbers** The last step is to enable users to make and receive phone calls. To do this, you must assign a phone number to each user. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) to assign a phone number.
     
-## See also
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+

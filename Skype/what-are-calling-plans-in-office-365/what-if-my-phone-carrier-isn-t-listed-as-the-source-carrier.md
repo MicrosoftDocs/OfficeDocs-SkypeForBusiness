@@ -2,17 +2,24 @@
 title: "What if my phone carrier isn't listed as the source carrier?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
+ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-localization_priority: Normal
 ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
-ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
+- ms.lync.lac.PortOrderDetailPanelWhois
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn what to do if your carrier isn't listed in Skype for Business."
 ---
 
@@ -26,5 +33,8 @@ An example:
     
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
   
-## See also
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+

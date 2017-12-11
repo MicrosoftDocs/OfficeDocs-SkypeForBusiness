@@ -2,17 +2,21 @@
 title: "Getting phone numbers for your users"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. "
 ---
 

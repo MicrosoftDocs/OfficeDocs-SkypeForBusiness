@@ -2,13 +2,21 @@
 title: "Set the Caller ID for a user"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization."
 ---
 # Set the Caller ID for a user
@@ -156,8 +164,10 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## See also
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
   
 

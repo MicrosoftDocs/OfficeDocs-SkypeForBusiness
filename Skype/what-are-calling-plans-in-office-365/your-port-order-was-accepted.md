@@ -2,17 +2,23 @@
 title: "Your port order was accepted"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
+- ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
+ms.custom:
+- Calling Plans 
 description: "What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. "
 ---
 
@@ -30,5 +36,7 @@ Now that it's approved and your phone numbers are ready, you will need to do a c
     
 - Go ahead and [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
     
-## See also
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

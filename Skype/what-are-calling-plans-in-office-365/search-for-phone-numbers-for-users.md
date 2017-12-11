@@ -2,17 +2,21 @@
 title: "Search for phone numbers for users"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. "
 ---
 
@@ -49,4 +53,8 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
     
     > [!IMPORTANT]
     > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
-  
+
+  ## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

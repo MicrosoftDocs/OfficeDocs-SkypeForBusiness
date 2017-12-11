@@ -15,8 +15,8 @@ ms.appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: 
-- NOFOLLOW
 - NOINDEX
+- NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:

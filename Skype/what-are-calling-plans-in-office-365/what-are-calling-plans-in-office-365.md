@@ -2,22 +2,23 @@
 title: "What are Calling Plans in Office 365?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
-ms.topic: overview
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
 
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
 ---
 
@@ -48,6 +49,7 @@ To learn more about Phone System, Calling Plans, and audio conferencing, see thi
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 
-## See also
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+## Related topics
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
