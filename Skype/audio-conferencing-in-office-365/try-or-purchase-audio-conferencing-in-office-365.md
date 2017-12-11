@@ -91,7 +91,7 @@ The following steps are **optional**, but a lot of admins like to do them:
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](http://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
   
-## See also
+## Related topics
 
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   

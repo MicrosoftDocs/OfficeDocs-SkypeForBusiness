@@ -56,7 +56,7 @@ To set Microsoft as the audio conferencing provider for a user that has an **Aud
     
 - If you want to change audio conferencing settings for a user, you can select the user from the list and then click **Edit** and make your changes on the **Properties** page. 
     
-## See also
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   

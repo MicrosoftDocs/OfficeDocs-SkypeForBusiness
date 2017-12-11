@@ -194,7 +194,7 @@ For more information about using Windows PowerShell, see [Using Windows PowerShe
     
 - In your organization, you can have some people who use Microsoft as their audio conferencing provider, and others who use a third-party provider. But this is more complicated to set up and manage.
     
-## See also
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   

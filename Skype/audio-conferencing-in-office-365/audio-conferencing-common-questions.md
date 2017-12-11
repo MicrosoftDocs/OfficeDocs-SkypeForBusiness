@@ -147,7 +147,7 @@ Here is a table illustrating the scenarios when the organizer and all of the att
 |Don't allow anonymous users to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  Enter the PIN for the meeting. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the meeting organizer hasn't joined the meeting yet, the attendee will listen to music in the lobby until the organizer joins the meeting. <br/> |
 |Allow an anonymous user to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the attendee joins the meeting before the organizer, each attendee can start the meeting. <br/> |
    
-## See also
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   

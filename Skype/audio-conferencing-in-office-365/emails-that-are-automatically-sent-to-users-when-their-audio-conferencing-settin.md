@@ -153,9 +153,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## See also
-
-#### Other Resources
+## Related topics
 
 [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md)
   

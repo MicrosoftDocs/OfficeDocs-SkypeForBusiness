@@ -85,5 +85,6 @@ description: "This topic contains all of the countries/regions that users can pl
 |Dominican Republic |
 
 ## Related topics
+
 [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
 

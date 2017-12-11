@@ -52,7 +52,7 @@ For now, use this as a reference when you are troubleshooting potential issues w
 |Audio conferencing calls could take up to 24 hours to show in the usage reports.  <br/> |We're looking forward to making improvements on this area in future service updates.  <br/> |No workaround.  <br/> |8/30/2017  <br/> |
 |When a caller dials in to a conference bridge after the meeting has been locked by a Skype for Business user, there isn't a notification in the Skype for Business app stating that the user is waiting in the lobby.  <br/> |This is currently by design, but we've taken the feedback in regard to supporting this capability in future service updates.  <br/> |No workaround.  <br/> |8/30/2017  <br/> |
    
-## Related Topics
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   
