@@ -2,20 +2,21 @@
 title: "Skype for Business activity report"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365E_ReportsS4BActivity
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
-ms.custom: Adm_O365_FullSet
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: 
+- O365E_ReportsS4BActivity
+ms.custom:
+- Reporting
 description: "Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. "
 ---
 
@@ -105,6 +106,6 @@ You can also export the report data into an Excel .csv file, by clicking or tapp
 
 - [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
     
-## See also
+## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 

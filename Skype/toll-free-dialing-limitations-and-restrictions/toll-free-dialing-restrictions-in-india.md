@@ -2,13 +2,21 @@
 title: "Toll free dialing restrictions in India"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
 # Toll free dialing restrictions in India
@@ -24,9 +32,7 @@ description: ""
 |Mobile network availability  <br/> |Partial. See comments.  <br/> |
 |Comments, restrictions, and access issues  <br/> |Access available from the following networks: Loop Mobile, BSNL - fixed (all regions but Bhopal), Vodafone, IDEA/SPICE (all regions but Punjab Spice), MTS India/Shyam (fixed), MTNL - fixed &amp; mobile, Reliance (all regions but Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixed &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel network.  <br/> Access not available from the following networks : TTSL (Prepaid), Etisalat DB Telecom and Jio.  <br/> |
    
-## See also
-
-#### Other Resources
+## Related topics
 
 [Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 

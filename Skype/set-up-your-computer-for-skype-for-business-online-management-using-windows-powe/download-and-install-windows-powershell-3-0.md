@@ -3,15 +3,20 @@ title: "Download and install Windows PowerShell 3.0"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 10/3/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: LIL_Placement
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
+- LIL_Placement
 description: "Download, install, and then use Windows PowerShell 3.0 to create a remote PowerShell session that connects to Skype for Business Online."
 ---
 

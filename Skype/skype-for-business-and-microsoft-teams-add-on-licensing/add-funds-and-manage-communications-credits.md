@@ -2,11 +2,18 @@
 title: "Add funds and manage Communications Credits"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/27/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether 
 - O365M_SFBVoiceCredit
@@ -15,15 +22,9 @@ f1_keywords:
 - O365E_SFBVoiceCreditAether 
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether 
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
 ms.custom:
-- Adm_O365_FullSet
+- Licensing
 - Strat_SB_PSTN
-ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continous phone system access. "
 ---
 

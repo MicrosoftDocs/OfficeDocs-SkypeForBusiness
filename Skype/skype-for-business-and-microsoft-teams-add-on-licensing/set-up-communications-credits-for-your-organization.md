@@ -2,14 +2,21 @@
 title: "Set up Communications Credits for your organization"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/15/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
 description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. "
 ---
 

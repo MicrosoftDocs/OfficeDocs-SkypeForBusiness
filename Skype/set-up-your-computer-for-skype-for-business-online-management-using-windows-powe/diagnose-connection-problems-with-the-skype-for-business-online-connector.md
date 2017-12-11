@@ -2,13 +2,20 @@
 title: "Diagnose connection problems with the Skype for Business Online Connector"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors."
 ---
 

@@ -2,14 +2,20 @@
 title: "Manage Exchange Unified Messaging and hosted voicemail in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/18/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online."
 ---
 

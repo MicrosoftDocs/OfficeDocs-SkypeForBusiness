@@ -2,13 +2,21 @@
 title: "Toll free dialing restrictions in Mexico"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
 # Toll free dialing restrictions in Mexico
@@ -24,9 +32,7 @@ description: ""
 |Mobile network availability  <br/> |Partial. See comments.  <br/> |
 |Comments, restrictions, and access issues  <br/> |Access isn't guaranteed from international roamers.  <br/> For the 001-800 number format: For Fixed access - Telmex. For Mobile access - Telcel only. Airtime is charged. No additional charge if end customer is with Telmex as their local and long distance provider.  <br/> For the 01-800 number format: Mobile access airtime is charged.  <br/> |
    
-## See also
-
-#### Other Resources
+## Related topics
 
 [Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 

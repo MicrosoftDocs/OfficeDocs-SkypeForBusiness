@@ -2,13 +2,21 @@
 title: "Toll free dialing restrictions in Thailand"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: a20ec223-e20d-4744-abfa-ab1d1127082a
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
 # Toll free dialing restrictions in Thailand
@@ -23,10 +31,8 @@ description: ""
 |Wired/fixed line availability  <br/> |Yes  <br/> |
 |Mobile network availability  <br/> |Yes. See comments.  <br/> |
 |Comments, restrictions, and access issues  <br/> |Mobile access: Airtime isn't charged except for roamers where they will be charged as local airtime. For mobile access: Accessible from all mobile networks.  <br/> |
-   
-## See also
 
-#### Other Resources
+## Related topics
 
 [Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 

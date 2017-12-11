@@ -2,15 +2,21 @@
 title: "Skype for Business users blocked report"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
-description: "Learn about setting up Skype for Business Online domain federation with the domains you specify. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Reporting
+description: "This report, along with other Skype for Business reports, gives you details on activity, including PSTN usage across your organization. "
 ---
 
 # Skype for Business users blocked report
@@ -69,7 +75,6 @@ This exports data of all users and enables you to do simple sorting and filterin
 - [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
 
 - [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
-
-    
-## See also
+   
+## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -24,10 +24,6 @@ f1_keywords:
 - O365P_ShareLync
 ms.custom:
 - Setup
-
-
-ms.assetid: 
-
 description: "See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. "
 ---
 

@@ -2,18 +2,20 @@
 title: "Enable Skype Meeting Broadcast"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/12/2017
-ms.audience: Admin
-ms.topic: get-started-article
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
+ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
+ROBOTS: None
+f1keywords: None
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+- SMB
 ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 description: "Before the people in your organization can use Skype Meeting Broadcast, you need to enable it. To do this, you need to know how to use Windows PowerShell. If you don't know Windows PowerShell, consider hiring a Microsoft partner to do this step for you."
 ---

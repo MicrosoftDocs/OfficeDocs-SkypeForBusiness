@@ -3,13 +3,19 @@ title: "Download and install the Skype for Business Online Connector module"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 9c1cc3dc-7d6d-43ca-8e4a-7763a3f78cb3
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
 "
 ---

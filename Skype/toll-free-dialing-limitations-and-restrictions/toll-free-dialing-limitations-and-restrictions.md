@@ -2,12 +2,20 @@
 title: "Toll free dialing limitations and restrictions"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
 description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
@@ -97,6 +105,6 @@ If you're ready, select a country or region:
     
 - **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
     
-## See also
+## Related topics
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)

@@ -2,12 +2,20 @@
 title: "Skype for Business session details report"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Reporting
 description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product."
 ---
 
@@ -103,5 +111,5 @@ For each session, there is a sub table with different data available depending o
 
 - [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
     
-## See also
+## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

@@ -16,7 +16,6 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
-ms.assetid: 
 description: "This article explains how to set up and troubleshoot Skype for Business Online delegation. This article gives you guidance for setup recommendations, best practices, and troubleshooting steps."
 ---
 

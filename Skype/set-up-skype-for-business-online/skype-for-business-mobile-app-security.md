@@ -16,6 +16,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
+description: "Learn to set up mobile app security for your users. "
 ---
 
 # Skype for Business mobile app security
