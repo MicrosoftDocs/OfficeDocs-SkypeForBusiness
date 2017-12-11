@@ -10,9 +10,12 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
 f1keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
@@ -58,4 +61,6 @@ Although you won't be able to access the Skype for Business Online admin center,
 
 Sure. While we're migrating your Skype for Business Online service, you can still use the other admin centers in Office 365 (for example, the Office 365 and Exchange admin centers). However, along with the Skype for Business Online admin center, you won't be able to use the Skype for Business Online Remote PowerShell cmdlets during the migration. 
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

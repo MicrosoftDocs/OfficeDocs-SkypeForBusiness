@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -132,4 +133,6 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
 |[Present PowerPoint slides in a Lync Meeting](http://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Your PowerPoint presentation is displayed on everyone's computer in the Skype for Business meeting stage window.  <br/> |
 |[Transfer a file in a Lync Meeting](http://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |After upload, everyone else in the meeting can view and download the attachment.  <br/> |
    
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

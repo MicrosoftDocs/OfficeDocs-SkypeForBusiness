@@ -10,9 +10,12 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
 f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
@@ -30,4 +33,6 @@ Sorry, it looks like the user isn't licensed for this feature.
 |The user is in a location where this feature isn't available.  <br/> |If possible, go to **Office 365 admin center** > **Active users** and assign this user to a location where the feature is available. <br/> |
 |The feature hasn't been turned on for your organization.  <br/> |Go to **Office 365 admin center** > **Skype for Business** and turn on the feature for your entire organization. <br/> |
    
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

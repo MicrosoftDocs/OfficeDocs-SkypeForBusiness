@@ -10,9 +10,12 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
 f1keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
@@ -49,7 +52,7 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
 |Active Directory synchronization on  <br/> |This is whether your organization is being synchronized to a Skype for Business Online organization that is on-premises.  <br/> To set up your on-premises Active Directory, see [Set up directory synchronization for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
 |Organization domains  <br/> |When you initially set up Office 365, these are the domains that were registered.  <br/> To add a domain, see [Add multiple domains to Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207).  <br/> To remove a domain, see [Remove a domain from Office 365](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c).  <br/> |
    
-## See also
+## Related topics
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

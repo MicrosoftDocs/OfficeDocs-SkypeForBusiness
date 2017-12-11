@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -89,7 +90,7 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
    
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
+## Related topics
 
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
   

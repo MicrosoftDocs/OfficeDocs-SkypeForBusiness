@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: 
@@ -36,4 +37,7 @@ The Skype for Business Online presence setting gives people more control over wh
 |**Automatically display presence information** <br/> |Any Skype for Business user who does not belong to the **External** or **Blocked** privacy group. <br/> |
 |**Display presence information only to a user's contacts** <br/> |Anyone in a user's contact list who does not belong to the **External** or **Blocked** privacy group. <br/> Individual users can change this setting in the Skype for Business **Options** dialog box. <br/> |
    
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

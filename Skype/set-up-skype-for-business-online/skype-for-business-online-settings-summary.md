@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -47,4 +48,6 @@ The **Skype for Business admin center** includes settings for your entire organi
 |Anonymous attendee dial-out  <br/> |Allow anonymous Skype for Business Online meeting attendees to connect by having the audio conferencing provider call them  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Disable non-archived features  <br/> | Turns off features that aren't captured when the organization has set up an [Add content to a case and place sources on hold in the eDiscovery Center](https://go.microsoft.com/fwlink/?LinkId=529482) in the Exchange admin center: <br/>  File transfer using instant messaging <br/>  Shared OneNote pages <br/>  PowerPoint annotations <br/>  Select this option if you're legally required to preserve electronically stored information. <br/> |Disabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

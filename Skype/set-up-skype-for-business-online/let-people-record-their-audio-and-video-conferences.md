@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -38,4 +39,6 @@ When recording is turned on, organizers or presenters can record a Skype for Bus
    
 For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

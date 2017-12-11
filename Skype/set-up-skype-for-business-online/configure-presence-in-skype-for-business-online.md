@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -45,10 +46,8 @@ For information about what your users can change in Skype for Business, see thes
     
 - [Set Status options in Skype for Business](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
     
-## See also
+## Related topics
 <a name="__top"> </a>
-
-#### Other Resources
-
-[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Set up Skype for Business Online](set-up-skype-for-business-online.md) 
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 

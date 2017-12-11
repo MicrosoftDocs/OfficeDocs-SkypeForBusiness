@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -30,7 +31,7 @@ Set up Skype for Business Online external communications so your users can commu
 
 ***
   
-## See also 
+## Related topics
 [Set up Skype for Business Online external communications](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guided walkthrough)
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-contact-skype-contacts.md)

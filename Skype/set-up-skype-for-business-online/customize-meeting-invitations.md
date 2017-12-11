@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -63,7 +64,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
     
     ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## See also
+## Related topics
 <a name="__top"> </a>
 
 

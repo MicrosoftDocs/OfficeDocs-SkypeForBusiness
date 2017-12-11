@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1_keywords:
@@ -135,7 +136,7 @@ After you enable external communication for your entire business, you can turn i
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
    
-## See also
+## Related topics
 <a name="bk_preview"> </a>
 
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)

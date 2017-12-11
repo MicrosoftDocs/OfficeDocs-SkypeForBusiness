@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1_keywords:
@@ -98,10 +99,7 @@ To configure these settings in bulk, use PowerShell. See [Set the Audio Conferen
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
   
    
-## See also
-<a name="__toc314837483"> </a>
-
+## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
-
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

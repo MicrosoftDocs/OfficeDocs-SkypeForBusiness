@@ -10,9 +10,12 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
 f1keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
@@ -35,4 +38,6 @@ You can change the number of users shown on each page with the control at the bo
   
 ![Users page navigation for changing the amount of users on the page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
