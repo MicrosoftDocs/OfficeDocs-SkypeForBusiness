@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams and Skype for Business Interoperability
+title: Microsoft Teams and Skype for Business interoperability
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: lolaj
@@ -10,7 +10,7 @@ description: Understand interoperability between Teams and Skype for Business an
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Microsoft Teams and Skype for Business Interoperability
+Microsoft Teams and Skype for Business interoperability
 =======================================================
 
 If your organization uses Skype for Business today and you intend to start using Teams, it's important to understand how to configure the two applications to interoperate.
