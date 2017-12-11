@@ -105,7 +105,7 @@
 ### [Add funds and manage Communications Credits](skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Assign Skype for Business and Microsoft Teams licenses](skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audio Conferencing pay-per-minute](skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
-### [Calling Plans for Office 365](skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
+
 ### [Set up Communications Credits for your organization](skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
 ### [What are Communications Credits?](skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
@@ -134,6 +134,7 @@
 ### [Add, change, or remove an emergency location for your organization](what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Assign or change an emergency address for a user](what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [Calling Plans for Office 365](skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [Calling Plans known issues](what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Change the emergency address for a user](what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Change the emergency location for a user](what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)

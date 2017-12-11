@@ -19,7 +19,7 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Learn what Phone System (Cloud PBX) auto attendents are and how to use them. "
+description: "Learn what Phone System (Cloud PBX) auto attendants are and how to use them. "
 ---
 
 # What are Phone System auto attendants?

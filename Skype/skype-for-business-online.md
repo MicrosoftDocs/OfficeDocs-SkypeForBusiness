@@ -2,16 +2,16 @@
 title: Skype for Business Online Admin
 description: Learn how to manage Skype for Business Online for your organization.
 services: skype-for-business-online-admin
+ms.date: 12/15/2017
 author: tonysmit
 manager: tonysmit
 layout: LandingPage
-ms.assetid: 
+ms.assetid: 9941e5c5-a5e3-45fa-ae40-41802e4d92aa
 ms.service: skype-for-business-online-admin
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 12/5/2017
-ms.author: tonysmit
+description: "Welcome to Skype for Business admin Help."
 ---
 # Skype for Business Online Admin
 
