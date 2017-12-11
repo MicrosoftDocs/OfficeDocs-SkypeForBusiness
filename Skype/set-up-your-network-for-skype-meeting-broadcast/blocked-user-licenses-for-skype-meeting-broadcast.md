@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -59,4 +60,8 @@ Skype Meeting Broadcast will be blocked if any of the following user licenses ar
     
 - Microsoft 365 A5 student use benefits w/o PSTN Conferencing
     
+## Related topics
 
+[An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  
+[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

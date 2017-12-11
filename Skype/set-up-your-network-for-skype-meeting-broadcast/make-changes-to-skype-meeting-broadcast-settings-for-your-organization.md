@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -34,7 +35,7 @@ You can enable Skype Meeting Broadcast and make changes to settings and policies
     
 - **Helpdesk support URL for attendees** Enter a link for meeting broadcast attendees to use if they need help connecting or attending a broadcast meeting.
     
-## See also
+## Related topics
 
 [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md)
 
