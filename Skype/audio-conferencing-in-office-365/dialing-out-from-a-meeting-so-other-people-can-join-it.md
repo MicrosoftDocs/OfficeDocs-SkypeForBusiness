@@ -48,9 +48,7 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
     
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## See also
-
-#### Other Resources
+## Related topics
 
 [Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 

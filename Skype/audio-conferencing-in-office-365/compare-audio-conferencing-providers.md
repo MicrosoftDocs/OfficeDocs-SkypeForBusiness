@@ -75,9 +75,7 @@ Use the following table to compare what you get if you choose Microsoft or a thi
    
 If you choose Microsoft as your audio conferencing provider, also see [Audio Conferencing troubleshooting and known issues](audio-conferencing-troubleshooting-and-known-issues.md).
   
-## See also
-
-#### Other Resources
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 

@@ -123,9 +123,11 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## See also
+## Related topics
 
-#### Other Resources
+[Emails that are automatically sent to users when their Audio Conferencing settings change](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md)
+
+[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md)
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 
