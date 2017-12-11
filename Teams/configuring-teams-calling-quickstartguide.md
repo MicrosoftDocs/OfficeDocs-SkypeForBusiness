@@ -3,9 +3,9 @@ title: Quick start guide - Configuring Calling Plans in Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: lolaj
-ms.date: 12/07/2017
+ms.date: 12/12/2017
 ms.topic: article
-ms.prod: msteams
+ms.service: msteams
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---

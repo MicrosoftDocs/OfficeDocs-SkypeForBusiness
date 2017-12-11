@@ -2,10 +2,10 @@
 title: Practical Guidance for Phone System with Calling Plans in Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 12/07/2017
+manager: lolaj
+ms.date: 12/12/2017
 ms.topic: article
-ms.prod: teams
+ms.service: msteams
 description: Practical guidance for planning, deploying, and managing Phone System with Calling Plans in Microsoft Teams using the Envision (Plan), Onboard (Deliver),Deliver Value (Operate) framework.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
