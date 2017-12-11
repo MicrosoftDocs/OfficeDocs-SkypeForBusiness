@@ -64,7 +64,7 @@ You can manage the transcription settings for your users using voicemail policie
   
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
-![Get-CsOnlineVoiceMailPolicy results window.](../images/6cea8310-2d71-4b95-8d36-688472845727.png)
+![Get-CsOnlineVoiceMailPolicy results window.](../../images/6cea8310-2d71-4b95-8d36-688472845727.png)
   
 ### Turning off transcription for your organization
 

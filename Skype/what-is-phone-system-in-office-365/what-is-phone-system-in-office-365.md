@@ -15,6 +15,7 @@ localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom: None
+description: "Learn about what Phone System can do for you . "
 ---
 
 # What is Phone System in Office 365?
