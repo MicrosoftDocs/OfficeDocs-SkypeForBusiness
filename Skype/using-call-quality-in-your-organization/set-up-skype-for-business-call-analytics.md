@@ -80,10 +80,8 @@ If you're a Skype for Business admin, you can use an existing data file from the
   
 If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md#BKMK_TenantDataFile).
   
-## See also
+## Related topics
 <a name="BKMK_UploadFiles"> </a>
+
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
 [What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
-
-## Related topics
-[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)

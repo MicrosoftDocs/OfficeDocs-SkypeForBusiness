@@ -56,3 +56,4 @@ For more information about CQD, see [Turning on and using Call Quality Dashboard
   
 ## Related topics
 [Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
