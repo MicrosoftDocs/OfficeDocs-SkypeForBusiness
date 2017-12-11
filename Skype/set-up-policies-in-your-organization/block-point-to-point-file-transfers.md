@@ -117,6 +117,8 @@ You can apply this to a user by creating a new policy and granting it to that us
     
 ## Related topics
 [Create custom external access policies](create-custom-external-access-policies.md)
+
 [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 

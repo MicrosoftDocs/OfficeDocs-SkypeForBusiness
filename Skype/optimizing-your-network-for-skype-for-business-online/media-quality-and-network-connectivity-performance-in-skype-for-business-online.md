@@ -333,8 +333,7 @@ Below is another deployment option for Contoso. In this case, they decided to se
   
 ![ExpressRoute Cloud Connector Two.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## See also
-<a name="bk_NetworkPerf"> </a>
+## Related topics
 
 [ExpressRoute and QoS in Skype for Business Online](https://support.office.com/article/20c654da-30ee-4e4f-a764-8b7d8844431d)
 

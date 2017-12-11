@@ -108,5 +108,7 @@ To do this, run:
     
 ## Related topics
 [Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+
 [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)

@@ -145,5 +145,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
     
 ## Related topics
 [Create custom external access policies](create-custom-external-access-policies.md)
+
 [Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
