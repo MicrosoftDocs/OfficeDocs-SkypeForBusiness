@@ -2,17 +2,26 @@
 title: "Authorized person on the account"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 6/14/2016
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: cf2f90e5-d587-4a0b-89c4-9d93a5231a9b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOFOLLOW
+- NOINDEX
+f1keywords:
+- ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn why you need to add an authorized person who can make changes to the account when you use the New Local Number Port Order wizard."
 ---
 
@@ -25,5 +34,5 @@ In the **New Local Number Port Order** wizard, you must enter the name of the pe
   
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
   
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

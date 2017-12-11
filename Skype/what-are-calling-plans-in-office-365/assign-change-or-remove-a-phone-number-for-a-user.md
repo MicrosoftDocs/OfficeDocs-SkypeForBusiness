@@ -2,17 +2,21 @@
 title: "Assign, change, or remove a phone number for a user"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in."
 ---
 
@@ -104,5 +108,5 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 6. On the **Remove selected assigned number?** page, click **Yes**.
     
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
