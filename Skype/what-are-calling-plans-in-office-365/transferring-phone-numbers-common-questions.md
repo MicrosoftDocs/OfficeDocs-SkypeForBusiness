@@ -58,7 +58,7 @@ In general, you can transfer any phone number that is from a supported provider,
     
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
     
-- Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need [send email to us](ptn@microsoft.com).
+- Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need [send email to us](mailto:ptn@microsoft.com).
     
  **YOU CANNOT TRANSFER:**
   
@@ -168,7 +168,7 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
 ## Related topics
 [Different kinds of phone numbers used for Calling Plans](what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
   
