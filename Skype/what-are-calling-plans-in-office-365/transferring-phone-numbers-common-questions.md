@@ -58,7 +58,7 @@ In general, you can transfer any phone number that is from a supported provider,
     
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
     
-- Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need [send email to us](mailto:ptn@microsoft.com).
+- Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need send email to us at <ptn@microsoft.com>.
     
  **YOU CANNOT TRANSFER:**
   
