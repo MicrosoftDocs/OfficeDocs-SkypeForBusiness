@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -33,5 +35,6 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |You need to transfer numbers from one Office 365 organization to another.  <br/> |[Send us](mailto:ptn@microsoft.com) the list of user (subscriber) phone numbers you want to transfer along with the PIN of the source organization where you want to transfer the numbers from. To set up a PIN, go[Set your PIN for transferring phone numbers to a new service provider](../../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).  <br/> |
    
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]( (../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)

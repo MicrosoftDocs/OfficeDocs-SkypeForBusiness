@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -58,7 +60,7 @@ For user (also called subscriber) numbers, if you want to see about getting numb
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
     
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]( (../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
   
 
