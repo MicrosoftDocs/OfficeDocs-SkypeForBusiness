@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -88,5 +90,5 @@ You can also see information about pricing by [signing in to the Office 365 admi
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## See also
+## Related topics
 [Skype for Business PSTN usage report](../skype-for-business-online-reporting/skype-for-business-PSTN-usage-report.md)

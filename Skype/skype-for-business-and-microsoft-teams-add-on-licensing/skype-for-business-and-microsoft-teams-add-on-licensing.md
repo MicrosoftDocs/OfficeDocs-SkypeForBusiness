@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -290,7 +292,7 @@ Some but not all Skype for Business features are available to customers using Of
 
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
+## Related topics
 <a name="bkmk_existing"> </a>
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

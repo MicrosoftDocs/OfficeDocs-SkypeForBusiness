@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -192,7 +194,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
   
-## See also
+## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
   

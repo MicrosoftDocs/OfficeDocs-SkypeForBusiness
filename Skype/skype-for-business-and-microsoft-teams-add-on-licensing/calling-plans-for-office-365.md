@@ -11,7 +11,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -21,6 +23,7 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
+- LIL Placement
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
 
@@ -87,8 +90,18 @@ Here are more articles that explain how to set up your Calling Plans:
 
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
+## Related topics
 
-[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+    
+- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+    
+- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+    
+- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
+    
+- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
+    
+- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
   
 
