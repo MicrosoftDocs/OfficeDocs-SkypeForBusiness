@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---
 title: Known issues for Microsoft Teams
 author: LolaJacobsen
