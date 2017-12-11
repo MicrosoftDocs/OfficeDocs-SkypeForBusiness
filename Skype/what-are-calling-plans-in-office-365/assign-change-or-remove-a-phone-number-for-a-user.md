@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -108,5 +110,9 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 6. On the **Remove selected assigned number?** page, click **Yes**.
     
+
 ## Related topics
+[What is address validation?](what-are-calling-plans-in-office-365\what-is-address-validation.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

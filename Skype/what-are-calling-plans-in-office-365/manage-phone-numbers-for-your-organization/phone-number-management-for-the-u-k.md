@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -33,6 +35,8 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |You need to change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com ) the list of user numbers you want to convert to service numbers. <br/> |
    
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]( (../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
-[Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 

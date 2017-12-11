@@ -20,6 +20,7 @@ f1keywords:
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
+- LIL_Placement
 description: "Learn how to set up dial-in or audio conferencing for the people in your business who need to join conference calls using a phone. "
 ---
 
