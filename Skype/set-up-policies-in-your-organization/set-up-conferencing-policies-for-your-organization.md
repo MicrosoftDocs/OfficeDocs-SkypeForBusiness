@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -137,4 +138,8 @@ If you have already created a policy, you can use the [Set-CsConferencingPolicy]
   - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
+
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)

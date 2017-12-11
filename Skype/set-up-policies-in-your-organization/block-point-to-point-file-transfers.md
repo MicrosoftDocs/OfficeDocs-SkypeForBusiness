@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -114,4 +115,8 @@ You can apply this to a user by creating a new policy and granting it to that us
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 

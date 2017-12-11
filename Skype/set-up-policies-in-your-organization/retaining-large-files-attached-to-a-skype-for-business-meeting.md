@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -30,10 +31,9 @@ Files that are retained in mailboxes on hold are indexed and can therefore be se
   
 Mailboxes that are not on hold will not have any meeting data saved. For example, in a three-person meeting in which the mailboxes of two participants are marked for retention, the meeting data is saved to the mailboxes of those two participants, but not to the mailbox of the third participant, whose mailbox is not on hold.
   
-## See also
-
-[Run a Content Search in the Office 365 Security &amp; Compliance Center](http://technet.microsoft.com/library/61852fd9-fe8a-4880-a339-cb19ed3bff4a .aspx)
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
   
-[Unindexed items in Content Search in Office 365](http://technet.microsoft.com/library/d1691de4-ca0d-446f-a0d0-373a4fc8487b%28Office.14%29.aspx)
-  
-

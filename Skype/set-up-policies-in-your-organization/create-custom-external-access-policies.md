@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -105,4 +106,7 @@ To do this, run:
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-
+## Related topics
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
