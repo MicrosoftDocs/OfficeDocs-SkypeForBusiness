@@ -28,6 +28,10 @@ description: "Address validation is an important part of setting up Calling Plan
 
 Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services. How you do this is based on the size of your organization.
 
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+
 ## For organizations 150 or less follow these steps
 1. In the **Office 365 admin center**, choose **Need help**?
 2. In the **Need help?** pane, tell us what you need help with, then choose **Get help**.

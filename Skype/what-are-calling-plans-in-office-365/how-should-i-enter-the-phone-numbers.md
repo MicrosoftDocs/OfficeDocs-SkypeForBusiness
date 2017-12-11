@@ -79,6 +79,10 @@ When you are porting phone numbers, you must enter them in the correct format.
   - The "-" is used for only separating the two numbers. It isn't supported to include multiple "-" in the number range. For example, **(425) 555-0649 - (425) 555-1115** should be entered as **(425) 5550649 - (425) 5551115**.
     
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
+
+ > [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
   
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

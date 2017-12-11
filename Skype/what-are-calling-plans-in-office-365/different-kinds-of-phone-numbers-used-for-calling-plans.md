@@ -49,6 +49,8 @@ Skype for Business Online uses different telephone number types depending on the
     > [!CAUTION]
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
   
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

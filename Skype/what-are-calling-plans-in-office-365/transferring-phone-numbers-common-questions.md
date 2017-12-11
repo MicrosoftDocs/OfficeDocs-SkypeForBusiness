@@ -160,6 +160,10 @@ Here are the most common mistakes we see customers make when they port numbers. 
 <a name="bkmk_type_1"> </a>
 
 To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring phone numbers to a new service provider](set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).
+
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
   
 ## Related topics
 [Different kinds of phone numbers used for Calling Plans](what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)

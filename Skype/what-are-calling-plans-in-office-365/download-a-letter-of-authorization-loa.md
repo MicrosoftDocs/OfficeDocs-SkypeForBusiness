@@ -54,6 +54,9 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
 - You can see a listing and download all Letters of Authorization (LOA)s by going to [Skype for Business Online Letters of Authorization](https://go.microsoft.com/fwlink/?LinkID=623745).
     
 - You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
+
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

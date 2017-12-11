@@ -27,6 +27,9 @@ description: "If you have more than 999 phone numbers to transferred to Skype fo
 # Submitting a service request for local number porting
 
 If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization.](https://support.office.com/en-us/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb?ui=en-US&amp;rs=en-US&amp;ad=US)
+
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

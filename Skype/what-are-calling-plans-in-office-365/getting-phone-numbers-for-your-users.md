@@ -93,6 +93,9 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 - After you get your phone numbers, you will need to assign a number to each of your users. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
     
 - You can use the **Phone numbers** page to see the list of available phone numbers in the **Number** column, see whether the phone number has been assigned in the **Assigned** column, and see the location for the phone number in the **Number location** column.
+
+> [!NOTE]
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
     
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
