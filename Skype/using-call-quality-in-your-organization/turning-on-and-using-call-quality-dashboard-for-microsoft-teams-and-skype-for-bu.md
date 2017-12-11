@@ -3,16 +3,20 @@ title: "Turning on and using Call Quality Dashboard for Microsoft Teams and Skyp
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 11/17/2017
-ms.audience: Admin
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.ToolsCallQualityDashboard
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: 
+- ms.lync.lac.ToolsCallQualityDashboard
+ms.custom:
+- Setup
 description: "See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 
@@ -233,4 +237,5 @@ If you want to view the dimensions and measures for a single media type, the new
   
 ![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
   
-
+## Related topics
+[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)

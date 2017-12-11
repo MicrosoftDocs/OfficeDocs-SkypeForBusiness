@@ -3,12 +3,19 @@ title: "What's the difference between Call Analytics and Call Quality Dashboard?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: skype-for-business-online
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business."
 ---
 
@@ -47,4 +54,5 @@ Call Analytics and CQD run in parallel and can be used independently or together
   
 For more information about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md) and [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md).
   
-
+## Related topics
+[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)

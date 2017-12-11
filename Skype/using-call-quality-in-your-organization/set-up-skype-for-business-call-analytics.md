@@ -3,12 +3,20 @@ title: "Set up Skype for Business Call Analytics"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 9/25/2017
-ms.audience: Admin
-ms.topic: get-started-article
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd 
+ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
+ROBOTS: None
+f1keywords: None
+ms.custom:
+-Setup
+ms.assetid: 
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
 
@@ -76,3 +84,6 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
 <a name="BKMK_UploadFiles"> </a>
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
 [What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## Related topics
+[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
