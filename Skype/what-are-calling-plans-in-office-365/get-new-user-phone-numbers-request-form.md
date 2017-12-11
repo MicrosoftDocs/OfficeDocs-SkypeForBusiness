@@ -50,7 +50,11 @@ United Kingdom (U.K.) <br/> |[Get new subscriber (user) phone numbers in the U.K
     
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

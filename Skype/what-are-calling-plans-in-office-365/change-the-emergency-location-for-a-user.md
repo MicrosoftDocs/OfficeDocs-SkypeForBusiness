@@ -52,8 +52,13 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 ## Related topics
 [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md)
+
 [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
-[What is address validation?](what-are-calling-plans-in-office-365\what-is-address-validation.md)
+
+[What is address validation?](what-is-address-validation.md)
+
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

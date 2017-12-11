@@ -102,6 +102,9 @@ Your port order request will be checked and updated daily and you will be notifi
    
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers/used-for-calling-plans.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
