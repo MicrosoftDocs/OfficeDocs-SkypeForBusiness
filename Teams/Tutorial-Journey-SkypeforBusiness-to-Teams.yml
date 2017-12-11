@@ -10,6 +10,9 @@ metadata:
   <!-- nextTutorialTitle: Microsoft Teams documentation and practical guidance -->
   displayType: one-column
   interactive: azurecli
+  ms.author: tbinder
+  manager: lolaj
+  ms.service: msteams
 items:
 - durationInMinutes: 1
   content: |
