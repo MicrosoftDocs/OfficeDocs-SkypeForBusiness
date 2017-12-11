@@ -135,4 +135,5 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
    
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

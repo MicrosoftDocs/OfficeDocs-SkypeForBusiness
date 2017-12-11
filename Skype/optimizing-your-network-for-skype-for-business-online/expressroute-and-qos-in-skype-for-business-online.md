@@ -395,9 +395,7 @@ Consistently delivering business grade real-time voice and video services requir
   
 Effective business tools must perform reliably, consistently, and deliver a user experience that encourages user adoption. From a networking standpoint that means having a network infrastructure, both local and wide area, fixed and mobile, that can allow that to happen. Planning, designing, implementing and maintaining that infrastructure isn't always an easy feat. The hardware, tools and network services to accomplish that are available today, but it is the responsibility of IT Pro to see that they are designed, implemented and maintained in a way that ensures the users get a set of communications and collaboration services that allow them to work efficiently and effectively and that the organization can reap the full benefit of what this technology has to offer. 
   
-## See also
-
-#### Other Resources
+## Related topics
 
 [ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
 

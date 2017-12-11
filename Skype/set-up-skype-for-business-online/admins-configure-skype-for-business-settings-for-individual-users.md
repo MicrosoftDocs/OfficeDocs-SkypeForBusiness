@@ -100,7 +100,9 @@ To configure these settings in bulk, use PowerShell. See [Set the Audio Conferen
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
   
    
-## Related topics
+## Related topics 
+
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

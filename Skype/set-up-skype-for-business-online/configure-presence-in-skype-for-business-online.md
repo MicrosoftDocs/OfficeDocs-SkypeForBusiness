@@ -47,7 +47,8 @@ For information about what your users can change in Skype for Business, see thes
 - [Set Status options in Skype for Business](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
     
 ## Related topics
-<a name="__top"> </a>
+
 [Set up Skype for Business Online](set-up-skype-for-business-online.md) 
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 

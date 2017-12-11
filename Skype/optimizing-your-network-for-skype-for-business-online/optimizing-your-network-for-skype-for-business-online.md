@@ -160,7 +160,7 @@ To get a clearer picture of a user's audio and video experience use the Skype fo
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## See also 
+## Related topics 
 
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
   

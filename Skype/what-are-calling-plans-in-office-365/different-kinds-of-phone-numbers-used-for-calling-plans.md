@@ -54,8 +54,11 @@ Skype for Business Online uses different telephone number types depending on the
 
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
 

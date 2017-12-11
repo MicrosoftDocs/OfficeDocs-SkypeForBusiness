@@ -59,14 +59,14 @@ Setting up and getting delegation to work correctly depends on you following the
 
 **Enterprise E3 licensing scenario**
 
-|****License****|****Clients****|****Notes****|
+|**License**|**Clients**|**Notes**|
 |:-----|:-----|:-----|
-|Enterprise E3﻿  <br/> |Lync 2013 (Skype for Business 2015) used with Outlook 2013 or Outlook 2016  <br/> Skype for Business 2016 used with Outlook 2013 or Outlook 2016  <br/> |Skype for Business Basic client doesn't support delegation.  <br/> For Mac clients, you can delegate calls but not meetings.  <br/> |
+|Enterprise E3  <br/> |Lync 2013 (Skype for Business 2015) used with Outlook 2013 or Outlook 2016  <br/> Skype for Business 2016 used with Outlook 2013 or Outlook 2016  <br/> |Skype for Business Basic client doesn't support delegation.  <br/> For Mac clients, you can delegate calls but not meetings.  <br/> |
 |Enterprise E3 with Office 365 Phone System + Office 365 xCalling Plan  <br/> |Lync 2013 (Skype for Business 2015) used with Outlook 2013 or Outlook 2016  <br/> Skype for Business 2016 used with Outlook 2013 or Outlook 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business Basic client doesn't support delegation.  <br/> For Mac clients, you can delegate calls but not meetings.  <br/> |
    
 **Enterprise E5 licensing scenario**
 
-|****License****|****Clients****|****Notes****|
+|**License**|**Clients**|**Notes**|
 |:-----|:-----|:-----|
 |Enterprise E5  <br/> |Lync 2013 (Skype for Business 2015) used with Outlook 2013 or Outlook 2016.  <br/> Skype for Business 2016 used with Outlook 2013 or Outlook 2016  <br/> |Skype for Business Basic client doesn't support delegation.  <br/> For Mac clients, you can delegate calls but not meetings.  <br/> |
 |Enterprise E5 plus Office 365 Calling Plan  <br/> |Skype for Business for Mac 2016  <br/> Lync 2013 (Skype for Business 2015) used with Outlook 2013 or Outlook 2016  <br/> Skype for Business 2016 used with Outlook 2013 or Outlook 2016  <br/> Lync for Mac 2011  <br/> |Skype for Business Basic client doesn't support delegation.  <br/> For Mac clients, you can delegate calls but not meetings.  <br/> |
@@ -140,4 +140,5 @@ If the setup is successful, the delegate should see the **You were added as a de
     
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

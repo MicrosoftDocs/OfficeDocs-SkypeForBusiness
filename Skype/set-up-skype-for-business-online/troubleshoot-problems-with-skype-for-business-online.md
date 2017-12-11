@@ -80,4 +80,5 @@ As an admin for Office 365 for business, you get free access to our knowledgeabl
   
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

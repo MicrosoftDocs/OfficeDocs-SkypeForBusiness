@@ -15,7 +15,7 @@ localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
--Setup
+- Setup
 ms.assetid: 
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
@@ -37,9 +37,8 @@ As a Skype for Business Online admin, you can use Call Analytics to troubleshoot
 As the admin, you get full access to all the features of Call Analytics. In addition, you can use a helpdesk model in Call Analytics that includes Tier 1 and Tier 2 permission groups. Users with Tier 1 permissions can access only a limited view of Call Analytics. Users with Tier 2 permissions can access the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Skype for Business admin center. You can grant access to the tiers by adding a group that contains the user to either the Tier 1 or the Tier 2 section of the Permissions page. For details, see [Set up tiered permissions in Call Analytics](set-up-skype-for-business-call-analytics.md#BKMK_SetUpTier).
   
 Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't investigate issues with meetings; they collect related information and then escalate to a Tier 2 agent. Tier 2 agents see information in detailed call logs that's hidden from Tier 1 agents. The following table gives an overview of information available to agents using Call Analytics.
-  
-|
-|
+
+
 |**Activity**|**Information in Call Analytics**|**What the Tier 1 agent sees**|**What the Tier 2 agent sees**|
 |:-----|:-----|:-----|:-----|
 |**Calls** <br/> |Caller name  <br/> |Only the name of the user for whom the agent searched.  <br/> |User name.  <br/> |
@@ -84,4 +83,5 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
 <a name="BKMK_UploadFiles"> </a>
 
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
+
 [What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)

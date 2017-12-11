@@ -83,7 +83,5 @@ To see a table with the license or licenses you will need for each feature, see 
 - [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
     
 - [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
-    
-- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-    
+        
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
