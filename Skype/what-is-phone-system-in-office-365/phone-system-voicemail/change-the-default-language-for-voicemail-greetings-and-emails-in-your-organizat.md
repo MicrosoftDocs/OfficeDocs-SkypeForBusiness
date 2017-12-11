@@ -61,7 +61,6 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
 - [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server 2015 or Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## Related topics
-<a name="RelLinks"> </a>
 
 - [Change your display language and time zone in Office 365 for Business](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     

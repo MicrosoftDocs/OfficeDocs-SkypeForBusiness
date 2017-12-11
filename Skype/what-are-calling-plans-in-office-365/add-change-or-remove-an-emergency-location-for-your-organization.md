@@ -73,7 +73,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
 6. Click **Save**.
     
 ## Related topics
-[What is address validation?](what-are-calling-plans-in-office-365\what-is-address-validation.md)
+[What is address validation?](what-is-address-validation.md)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
