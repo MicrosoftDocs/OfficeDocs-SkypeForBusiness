@@ -19,7 +19,7 @@ Office 365 Calling Plans is an add-on service for the Phone System feature, deli
 
 To learn more, read [Here's what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
-This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases, Envision, Onboard, and Drive Value, to help you plan, deliver, and operate a Phone System with Calling Plans implementation towards succesful business outcomes.
+This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases - Envision, Onboard, and Drive Value - to help you plan, deliver, and operate a successful Phone System with Calling Plans implementation.
 
 > [!TIP]
 > In this practical guidance, we are providing example outputs for each activity and key discussion. The examples throughout this document are enclosed inside TIP callouts and they serve as a template that you can reuse. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
@@ -27,7 +27,7 @@ This practical guidance takes you through the Office 365 FastTrack customer jour
 Envision <a name="Envision_PhoneSystemWithCallingPlans"> </a>
 ========
 
-The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads such as Phone System with Calling Plans.
+The Envision phase provides the foundation for the Office 365 customer journey and is applicable to all workloads, including Phone System with Calling Plans.
 
 In this phase, business goals are captured, with relevant project stakeholders assembled, to ultimately deliver:
 
@@ -60,14 +60,14 @@ Business use cases are meant to document expected, measurable business outcomes,
 >|**How technology can overcome these challenges**<p>Phone System with Calling Plans will allow end user’s personal computer to receive and place phone calls over data network by leveraging the native Microsoft Teams app, removing the necessity to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, as the phone service can be delivered via the cloud over the network with no dependency on traditional phone system.|
 >|**Expected, measurable, business outcomes**<p>Removing requirements to maintain and decommissioning existing legacy PBX and desktop phones, will deliver a 20% reduction of monthly telephony service expense. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
-In addition to defining your business use cases, as you move into the next step of the Envision phase, you should also get clarity around:
-- organizational scope, and
-- project timelines
+During the Envision phase, in addition to defining your business use cases, you should also get clarity around these items:
+- Organizational scope
+- Project timelines
 
 Identify key stakeholders
 -------------------------
 
-The business use cases defined in the previous step will include organizational scope of Phone System with Calling Plans implementation, and based on that, the comprehensive stakeholder matrix can be completed to include the right people to be involved in the project.
+The business use cases defined in the previous step will include organizational scope of Phone System with Calling Plans implementation. Based on that, you can complete the comprehensive stakeholder matrix to include the right people to be involved in the project.
 
 > [!TIP]
 > Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
@@ -123,7 +123,7 @@ KSIs measure quality and success of the key results and complement the binary na
 >|Usage/support|I am satisfied with the quality of technical support|Survey|80% of users agree or strongly agree|After each incident|Information Technology team|
 >|Financial|Reduction of monthly telephony service expense|Financial system|Meet defined ROI|Based on ROI|Change Management team|
 
-You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk. This information can be captured into a risk plan.
+You need to identify business risks as part of this exercise and define a mitigation plan for each identified risk. Capture this information in a risk plan.
 
 > [!TIP]
 > Your risk plan can be documented as the example below:
@@ -140,13 +140,15 @@ To achieve the intended OKRs, you may have to define the high-level architecture
 
 All matters related to end-user computing, such as readiness assessment of the personal computers and mobile devices to support Phone System with Calling Plans business use cases, from hardware requirements to software requirements, will be included as part of the environmental discovery.
 
-Environmental discovery can also uncover if there are requirements to [transfer phone numbers to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization to adjust the project plan accordingly and prepare the necessary information required for number porting. You can perform environmental discovery by leveraging the following [questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
+Environmental discovery can also reveal whether you need to [transfer phone numbers to Microsoft](https://support.office.com/article/Transfer-phone-numbers-to-Office-365-47b3af8e-4171-4dec-8333-c956f108664e). This will help your organization adjust the project plan accordingly and prepare the necessary information required for number porting. To perform environmental discovery, use the [Discovery Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3).
 
 Environmental discovery must include network readiness assessment to ensure the network is ready to support the implementation of Phone System with Calling Plans.
 
-Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) tool. To further confirm network readiness, real-time media traffic simulation can be performed using the solutions provided by [Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) or by [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners).
+Network readiness to support Phone System with Calling Plans can be determined by leveraging the information captured through the environmental discovery (such as details of internet connectivity and WAN topology, site links and available bandwidth) and persona analysis data (that can be translated into an expected usage of each workload) into the [My Advisor Network Planning](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) tool. To further confirm network readiness, perform a real-time media traffic simulation using these solutions:
+- From Microsoft: [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)
+- From partners: [Network Readiness Assessment tools partners](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Partners?ToolPartners)
 
-The results of network readiness assessment will paint a clearer picture of the required network optimization or remediation required for the success of Phone System with Calling Plans implementation.
+The results of network readiness assessment will paint a clearer picture of the required network optimization or remediation required for successful implementation of Phone System with Calling Plans.
 
 Adoption readiness can be evaluated by executing persona analysis to come up with a list of personas in the organization who can be targeted for the implementation of the Phone System with Calling Plans. The persona analysis includes the identification of additional peripherals or devices required to realize the intended business outcomes.
 
@@ -224,7 +226,7 @@ To plan for the technical implementation of Phone System with Calling Plans, a s
 
 ## Availability of Calling Plans
 
-Calling Plans service is available in these [countries and regions](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7).
+To find out where the Calling Plans service is available, read [Countries and region availability for Audio Conferencing and Calling Plans](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7).
 
 > [!IMPORTANT]
 > Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Calling Plans service, or where Calling Plans service is commercially available from.
@@ -249,7 +251,7 @@ After confirming your organization’s eligibility for obtaining the Calling Pla
 
 ## Licensing for Calling Plans
 
-Calling Plan is an add-on to Phone System feature in Office 365, therefore Phone System license is the prerequisite for users to be enabled for Calling Plans.
+Calling Plan is an add-on to the Phone System feature in Office 365, so you must have a Phone System license enabled in order to use Calling Plans.
 
 [Phone System license](https://support.office.com/article/Skype-for-Business-and-Microsoft-Teams-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7) is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
 There are two types of [Calling Plan licenses](https://support.office.com/article/Calling-Plans-for-Office-365-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918):
@@ -260,7 +262,7 @@ There are two types of [Calling Plan licenses](https://support.office.com/articl
 > [!NOTE]
 > What is considered “domestic” for a specific user is determined by the user’s assigned Office 365 usage location.
 
-Each Calling Plan type provides [calling minutes allocation](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7) that users can use per month, either to make domestic calls or international calls. Domestic Calling Plan costs less compares to International and Domestic Calling Plan.
+Each Calling Plan type provides an allocation of calling minutes that users can use per month, either to make domestic calls or international calls. Domestic Calling Plan costs less compared to International and Domestic Calling Plan. To find out how many minutes are available for each country/region, see the "Calling Plans" section of [Countries and region availability for Audio Conferencing and Calling Plans](https://support.office.com/article/Countries-regions-that-are-supported-for-Audio-Conferencing-and-Calling-Plans-6ba72f37-d303-4795-aa8f-7e1845078ed7).
 
 Typically, not everybody in an organization requires the ability to make international calls. The flexibility of subscribing and assigning the most appropriate Calling Plan type for individual user’s business requirements allows your organization to control the costs of Calling Plans implementation.
 
@@ -270,7 +272,7 @@ To enable users to make outbound calls after the calling minutes are exhausted w
 
 The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) article.
 
-If your organization choose to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
+If your organization chooses to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://support.office.com/article/What-are-Communications-Credits-524dbea7-117f-493d-8005-6461f7f10059) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
 
 The use of Communications Credits can be controlled at per user basis, allowing you to ensure the capability is assigned to individuals in the organization that have proper business needs.
 
@@ -370,7 +372,7 @@ Phone System voicemail features voicemail transcription and by default it is ena
 >|Rachelle Cormier|Online|Yes|Disabled|
 >|Isabell Potvin|On-premises|Yes|Disabled|
 
-## Calling Identity
+## Calling identity
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by [Auto Attendant](https://support.office.com/article/What-are-Phone-System-auto-attendants-ab9f05a2-22cb-4692-a585-27f82d1b37c7) configuration—as Caller ID, or to block Caller ID presentation altogether.
 
@@ -405,7 +407,7 @@ Within the Phone System feature of Office 365, there are two types of dial plans
     -   **Tenant-user dial plan**—the dial plan applies only to specific users.
 
 > [!NOTE]
-> Check out the [What are dial plans?](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) documentation for further details and examples.
+> Check out [What are dial plans?](https://support.office.com/article/What-are-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b) for further details and examples.
 
 The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 
