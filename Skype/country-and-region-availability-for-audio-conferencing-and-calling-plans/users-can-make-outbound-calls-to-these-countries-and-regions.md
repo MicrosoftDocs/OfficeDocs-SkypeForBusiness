@@ -10,12 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Audio Conferencing, Phone System, Calling Plans
+- Audio Conferencing
+- Phone System
+- Calling Plans
 description: "This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan."
 
 ---
@@ -80,4 +84,6 @@ description: "This topic contains all of the countries/regions that users can pl
 |Dominica |
 |Dominican Republic |
 
+## Related topics
+[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
 

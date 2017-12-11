@@ -10,12 +10,16 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
-- Audio Conferencing, Phone System, Calling Plans
+- Audio Conferencing
+- Phone System
+- Calling Plans
 description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
 ---
 
@@ -173,3 +177,6 @@ If you don't set up Communications Credits and assign a license to users and you
 
 
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+
+## Related topics
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
