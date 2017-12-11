@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords:
@@ -57,7 +59,7 @@ Emergency addresses and locations are used during the process of routing emergen
 4. **Assign phone numbers** The last step is to enable users to make and receive phone calls. To do this, you must assign a phone number to each user. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) to assign a phone number.
     
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[What is address validation?](what-are-calling-plans-in-office-365\what-is-address-validation.md)
+[Different kinds of phone numbers used for Calling Plans](what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
 [Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-

@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -39,9 +41,11 @@ You can see the number of phone numbers you can get on the **Phone numbers** pag
 |Toll-free service number  <br/> | The number of phone numbers is equal to the total number of **Phone System** and **Audio Conferencing** licenses and uses the following: <br/>  If there are **1-25 licenses** then **5** telephone numbers are given. <br/>  If there are **26-49 licenses** then **10** telephone numbers are given. <br/>  If there are **50-99 licenses** then **20** telephone numbers are given. <br/>  If there are **100-149 licenses** then **30** telephone numbers are given. <br/>  If there are **150-199 licenses** then **40** telephone numbers are given. <br/>  If there are **200-499 licenses** then **65** telephone numbers are given. <br/>  If there are **500-749 licenses** then **90** telephone numbers are given. <br/>  If there are **750-999 licenses** then **110** telephone numbers are given. <br/>  If there are **1,000-1,249 licenses** then **125** telephone numbers are given. <br/>  If there are **1,250-1,499 licenses** then **135** telephone numbers are given. <br/>  If there are **1,500-1,999 licenses** then **160** telephone numbers are given. <br/>  If there are **2,000-2,999 licenses** then **210** telephone numbers are given. <br/>  If there are **3,000-6,999 licenses** then **420** telephone numbers are given. <br/>  If there are **7,000-9,999 licenses** then **500** telephone numbers are given. <br/>  If there are **10,000-14,999 licenses** then **600** telephone numbers are given. <br/>  If there are **15,000-19,999 licenses** then **700** telephone numbers are given. <br/>  If there are **20,000-49,999 licenses** then **1000** telephone numbers are given. <br/>  If there are **50,000+ licenses** then **1500** telephone numbers are given. <br/> |If you have a total of **1001** **Phone System** and **Audio Conferencing** licenses, you can get **125** toll-free service numbers. <br/> <br/> **Important:** [Communications Credits billing](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) is required to reserve and use toll-free phone numbers.          |
    
 > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)). 
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
-[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

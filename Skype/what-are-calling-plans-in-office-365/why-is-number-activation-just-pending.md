@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: 
 - NOINDEX
@@ -90,6 +92,7 @@ Address validation is an important part of setting up Calling Plans in Office 36
 > The reference number will be listed on the **Service requests** page in the Office 365 admin center.
   
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
-[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

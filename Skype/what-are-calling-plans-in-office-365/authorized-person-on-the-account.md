@@ -21,7 +21,6 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Learn why you need to add an authorized person who can make changes to the account when you use the New Local Number Port Order wizard."
 ---
 
@@ -35,4 +34,8 @@ In the **New Local Number Port Order** wizard, you must enter the name of the pe
  **For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**
   
 ## Related topics
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

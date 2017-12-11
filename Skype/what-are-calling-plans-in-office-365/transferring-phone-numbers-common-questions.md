@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -160,7 +162,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring phone numbers to a new service provider](set-your-pin-for-transferring-phone-numbers-to-a-new-service-provider.md).
   
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
 [Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
   
