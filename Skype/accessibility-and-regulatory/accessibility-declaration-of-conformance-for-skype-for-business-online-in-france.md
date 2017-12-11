@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: None
 ROBOTS: None
 f1keywords: None
@@ -211,9 +213,6 @@ Le présent document n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit 
   
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
   
-## See also
-
-#### Concepts
-
+## Related topics
 [Accessibility solutions for Skype for Business Online in France](accessibility-solutions-for-skype-for-business-online-in-france.md)
 

@@ -2,14 +2,23 @@
 title: "Set up a Phone System auto attendant"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/15/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
 description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. "
 ---
 
@@ -191,5 +200,10 @@ Here are the cmdlets that you need to manage an auto attendant.
   - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
+
+## Related topics
+[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
 

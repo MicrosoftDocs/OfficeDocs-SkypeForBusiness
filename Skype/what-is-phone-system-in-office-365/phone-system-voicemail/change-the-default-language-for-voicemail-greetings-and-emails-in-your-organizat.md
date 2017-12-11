@@ -2,15 +2,22 @@
 title: "Change the default language for voicemail greetings and emails in your organization"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
 description: "Learn how to setup Skype for Busineses to use another language for your organization's default voicemail greeting. "
 ---
 
@@ -53,7 +60,7 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     
 - [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server 2015 or Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
     
-## Related language articles
+## Related topics
 <a name="RelLinks"> </a>
 
 - [Change your display language and time zone in Office 365 for Business](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)

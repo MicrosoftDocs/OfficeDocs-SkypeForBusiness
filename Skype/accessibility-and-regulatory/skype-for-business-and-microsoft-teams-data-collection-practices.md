@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -107,7 +109,6 @@ You can see [Set up your network for Skype for Business Online](http://support.o
   
 If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
   
-## See also
+## Related topics
 [Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/en-US/default.mspx)
-[Office 365 URLs and IP address ranges](http://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
-  
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

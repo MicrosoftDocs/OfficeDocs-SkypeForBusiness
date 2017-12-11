@@ -2,17 +2,22 @@
 title: "Languages for voicemail greetings and messages from Skype for Business"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
 description: "Learn which languages you can set in Skype for Business for the default system messages. "
 ---
 
@@ -52,6 +57,6 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |Yes  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
-## See also
-[Set up Calling Plans](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+## Related topics
+[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   

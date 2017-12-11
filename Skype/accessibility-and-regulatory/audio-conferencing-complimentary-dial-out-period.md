@@ -10,7 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
 localization_priority: None
 ROBOTS: None
 f1keywords: None
@@ -79,4 +81,5 @@ As an additional benefit to customers adopting our Office 365 Audio Conferencing
 > [!CAUTION]
 > Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned 
   
-
+## Related topics
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
