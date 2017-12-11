@@ -79,6 +79,7 @@ To see a list of those countries/regions that have phone numbers automatically a
     
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
+## Related topics
+
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
 

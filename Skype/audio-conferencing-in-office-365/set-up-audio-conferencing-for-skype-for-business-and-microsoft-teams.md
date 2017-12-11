@@ -66,30 +66,29 @@ For a detailed comparison between Microsoft as your audio provider and a third-p
 
 Now that you've decided on your audio conferencing provider, you need to assign the provider to people in your organization who lead or schedule meetings. Do one of the following: 
   
-- [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md) .
+- [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
     
-- [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md) .
+- [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
     
 ## Step 4: Set up meeting invitations
 <a name="__top"> </a>
 
 The following steps are **optional**, but a lot of admins like to do them:
   
-1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md) . The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
     
-2. [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md) . This is the phone number that will show up in the meeting that is scheduled by the user.
+2. [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md). This is the phone number that will show up in the meeting that is scheduled by the user.
     
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the audio conferencing auto attendant uses to greet a caller when they dial in to an Audio Conferencing phone number. This step only applies if you're using Microsoft as your audio provider.
     
-4. [Set the length of the PIN for Audio Conferencing meetings](set-the-length-of-the-pin-for-audio-conferencing-meetings.md) .
+4. [Set the length of the PIN for Audio Conferencing meetings](set-the-length-of-the-pin-for-audio-conferencing-meetings.md).
     
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
   
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
-<a name="__top"> </a>
+## Related topics
 
 [Audio Conferencing common questions](audio-conferencing-common-questions.md)
   
