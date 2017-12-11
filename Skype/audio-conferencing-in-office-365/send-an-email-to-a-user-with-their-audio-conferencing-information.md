@@ -35,7 +35,7 @@ Sometimes Skype for Business or Microsoft Teams users may need you to send them 
   
 Here is an example of the email that is sent:
   
-![Dial-in conferencing email](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+![Dial-in conferencing email](../images/AudioConferencingInfo.png)
   
 ## Send an email with audio conferencing information to a user
 
