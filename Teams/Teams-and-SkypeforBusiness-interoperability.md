@@ -2,24 +2,25 @@
 title: Microsoft Teams and Skype for Business Interoperability
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 12/07/2017
+manager: lolaj
+ms.date: 12/12/2017
 ms.topic: article
-ms.prod: msteams
-description: Understand the interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
+ms.service: msteams
+description: Understand interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
+Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
 Microsoft Teams and Skype for Business Interoperability
 =======================================================
 
-If your organization uses Skype for Business today and you intend to start using Teams, it is important to understand how the two applications can be configured to interoperate.
+If your organization uses Skype for Business today and you intend to start using Teams, it's important to understand how to configure the two applications to interoperate.
 
 > [!IMPORTANT]
-> This document is provided for early evaluation of Calling Plans support for Teams only and Teams interop policy details are expected to change in the future.
+> This document is provided for early evaluation of Calling Plans support for Teams. Teams interop policy details are expected to change in the future.
 
-Interoperability (or interop for short), enables Skype for Business and Teams users to chat and call with one another, ensuring that communications remain fluid across your organization. To help IT Pros manage the adoption of Teams, a new Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets, has been added to configure Teams the way you need it to work in your organization.
+Interoperability (interop for short) enables Skype for Business and Teams users to chat and call with one another, ensuring that communications remain fluid across your organization. To help IT pros manage the adoption of Teams, we've added a new Teams interop policy, managed through a Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets. Use this policy to configure Teams the way you need it to work in your organization.
 
-Teams interop policy enables IT Pros to designate a user’s preferred application for receiving chats and calls. It can be configured to keep communications in Teams and Skype for Business siloed, or it can be configured to enable users to communicate across application boundaries.
+Teams interop policy enables an IT pro to designate a user’s preferred application for receiving chats and calls. It can be configured to keep communications in Teams and Skype for Business siloed, or it can be configured to enable users to communicate across application boundaries.
 
 Teams interop policy can be defined at the tenant or per-user level, and can even be configured to enable users to choose what application they would like to use to receive their chats and calls.
 
