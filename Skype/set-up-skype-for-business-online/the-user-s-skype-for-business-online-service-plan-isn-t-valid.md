@@ -31,6 +31,7 @@ Go to the **Office 365 admin center** > **Active users** and assign a valid serv
 
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
   
 

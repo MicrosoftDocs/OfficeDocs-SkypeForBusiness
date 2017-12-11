@@ -30,7 +30,7 @@ The **Skype for Business admin center** includes settings for your entire organi
 ## Skype for Business Online organization settings
 <a name="__top"> </a>
 
-|****Setting****|****Description****|****Default****|****Learn more****|
+|**Setting**|**Description**|**Default**|**Learn more**|
 |:-----|:-----|:-----|:-----|
 |Domain federation  <br/> |Communicate with other organizations that use Skype for Business Online.  <br/> |Enabled  <br/> |[Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Public IM connectivity  <br/> |Communicate with Skype for Business Online users.  <br/> |Enabled  <br/> |[Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -41,7 +41,7 @@ The **Skype for Business admin center** includes settings for your entire organi
 ## Skype for Business Online user settings
 <a name="__toc314837470"> </a>
 
-|****Setting****|****Description****|****Default****|****Learn more****|
+|**Setting**|**Description**|**Default**|**Learn more**|
 |:-----|:-----|:-----|:-----|
 |Audio and video  <br/> |Conduct audio and video conversations using Skype for Business Online  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Recording  <br/> |Record calls and meetings  <br/> |Enabled  <br/> |[Admins: Configure Skype for Business settings for individual users](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
@@ -50,4 +50,5 @@ The **Skype for Business admin center** includes settings for your entire organi
    
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

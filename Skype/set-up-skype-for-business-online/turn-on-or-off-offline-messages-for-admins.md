@@ -131,4 +131,5 @@ To enable or disable Offline Messages send Offline Messages for a user, set  _En
     
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

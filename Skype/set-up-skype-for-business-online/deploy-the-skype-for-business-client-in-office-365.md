@@ -144,7 +144,7 @@ For some organizations, they want time to test new features, so they want to get
   
 You can control how often you get feature updates by using the Office Deployment Tool or Group Policy to configure the update channel. The Monthly Channel gives you feature updates monthly (approximately), while the Semi-Annual Channel gives you feature updates every six months. For more information about channels, see [Overview of update channels for Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
-## Related Topics
+## Related topics
 
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
   

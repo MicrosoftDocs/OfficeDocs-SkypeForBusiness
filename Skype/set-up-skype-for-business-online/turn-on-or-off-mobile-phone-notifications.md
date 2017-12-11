@@ -50,6 +50,6 @@ Keep in mind:
 >  Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users. See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
 ## Related topics
-<a name="__top"> </a>
+
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 

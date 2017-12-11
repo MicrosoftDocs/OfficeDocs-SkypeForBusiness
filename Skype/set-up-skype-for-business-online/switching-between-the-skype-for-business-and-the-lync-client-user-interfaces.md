@@ -275,4 +275,5 @@ You can also verify that the GPO has successfully updated the registry on a user
   
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

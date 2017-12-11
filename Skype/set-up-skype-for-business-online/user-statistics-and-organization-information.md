@@ -54,5 +54,7 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
    
 ## Related topics
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
+
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
