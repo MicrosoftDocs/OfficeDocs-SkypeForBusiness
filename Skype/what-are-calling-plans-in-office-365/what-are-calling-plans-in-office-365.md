@@ -46,10 +46,10 @@ Setting up Calling Plans is easy. You can search for, acquire, and assign new ph
   
  **For step-by-step setup instructions, see [Set up Calling Plans](set-up-calling-plans.md).**
   
-To learn more about Phone System, Calling Plans, and audio conferencing, see this YouTube video: [Office 365 Phone System and dial-in meetings in Skype for Business ](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
+To learn more about Phone System, Calling Plans, and audio conferencing, see this YouTube video: [Office 365 Phone System and dial-in meetings in Skype for Business](https://www.youtube.com/watch?v=5Cxawu9mIag&amp;list=PLXtHYVsvn_b8dbRbnL19GUPcBH1UQ7c4x&amp;index=28).
 
 > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ##
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]

@@ -63,7 +63,7 @@ In general, you can transfer any phone number that is from a supported provider,
  **YOU CANNOT TRANSFER:**
   
 > [!NOTE]
-> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Countries and region availability for Audio Conferencing and Calling Plans](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
     
@@ -84,13 +84,13 @@ You'll need to have all of the account information for your current carrier. The
 
 When you are porting phone numbers to Office 365, you have the option to transfer all of your numbers, or some of them.
   
-- **Full-port** This is when you transfer all of your numbers from your current service provider to Skype for Business Online. When you are asked for the phone numbers you want to transfer, you ** *must include* ** the billing telephone number along with all of the other phone numbers on your account.
+- **Full-port** This is when you transfer all of your numbers from your current service provider to Skype for Business Online. When you are asked for the phone numbers you want to transfer, you *must include* the billing telephone number along with all of the other phone numbers on your account.
     
-    For example, let's say your billing telephone number is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers ( *+1 425-555-1235 through 1259*  ). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
+    For example, let's say your billing telephone number is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
     
 - **Partial-port** This is when you are only transferring some of your phone numbers from your current service provider to Skype for Business Online. When you are want to port some of the phone numbers tied to the same billing telephone number, you ** *must not include* ** the billing telephone number along with all of the other phone numbers on your account.
     
-    For example, let's say your billing phone number (BTN) is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers ( *+1 425-555-1235 through 1259*  ). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
+    For example, let's say your billing phone number (BTN) is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
     
 ## Can I submit a single number porting request for all of my numbers at one time?
 <a name="bkmk_type_1"> </a>
