@@ -109,4 +109,5 @@ By using the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-
+## Related topics
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)

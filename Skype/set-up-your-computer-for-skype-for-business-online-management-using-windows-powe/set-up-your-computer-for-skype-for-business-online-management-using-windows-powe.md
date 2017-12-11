@@ -50,4 +50,5 @@ You can find information about downloading and installing these items in the fol
     
 - [Download and install Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
-
+## Related topics
+[Diagnose connection problems with the skype for business online connector](diagnose-connection-problems-with-the-skype-for-business-online-connector.md)

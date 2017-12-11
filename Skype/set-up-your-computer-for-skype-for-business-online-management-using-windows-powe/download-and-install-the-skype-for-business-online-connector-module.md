@@ -12,7 +12,6 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto: 
 - Skype for Business
-
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
@@ -56,4 +55,5 @@ In addition to installing the Skype for Business Online Connector module, SkypeO
   
 To verify the version number of the Connector module that is currently installed on your computer, open Control Panel, open **Programs and Features**, and then check the version number for the **Skype for Business Online, Windows PowerShell Module**.
   
-
+## Related topics
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)
