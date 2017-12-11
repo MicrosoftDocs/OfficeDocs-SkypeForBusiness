@@ -36,7 +36,9 @@ For more information, see [Manage phone numbers for your organization](manage-ph
    
 ## Related topics
 [Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
-[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+
+[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
