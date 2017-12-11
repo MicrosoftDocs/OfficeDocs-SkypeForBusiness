@@ -2,12 +2,21 @@
 title: "Set up conferencing policies for your organization"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Conferencing is an important part of Skype for Business Online: conferencing enables groups of users to come together online to view slides and video, share applications, exchange files, and otherwise communicate and collaborate."
 ---
 
@@ -129,4 +138,8 @@ If you have already created a policy, you can use the [Set-CsConferencingPolicy]
   - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
+
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)

@@ -2,14 +2,23 @@
 title: "What are Communications Credits?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/27/2017
-ms.audience: Admin
-ms.topic: overview
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
 description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
 ---
 
@@ -81,5 +90,5 @@ You can also see information about pricing by [signing in to the Office 365 admi
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## See also
+## Related topics
 [Skype for Business PSTN usage report](../skype-for-business-online-reporting/skype-for-business-PSTN-usage-report.md)

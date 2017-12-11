@@ -2,12 +2,21 @@
 title: "Set up mobile policies for your organization"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "You can set up how your users connect to Skype for Business Online using the Skype for Business app on mobile devices, such as a feature that enables users to make and receive phone calls on their mobile phone by using their work phone number instead of their mobile phone number. Mobility policies can also be used to require Wi-Fi connections when making or receiving calls."
 ---
 
@@ -124,4 +133,9 @@ If you have already created a policy, you can use the [Set-CsMobilityPolicy](htt
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 

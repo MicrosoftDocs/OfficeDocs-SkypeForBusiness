@@ -2,13 +2,21 @@
 title: "Diagnose connection problems with the Skype for Business Online Connector"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors."
 ---
 
@@ -131,5 +139,6 @@ Although each administrator is allowed to have as many as three simultaneous con
 
 - **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you are finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you to prevent this issue.  
  
-  
+## Related topics
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)
 

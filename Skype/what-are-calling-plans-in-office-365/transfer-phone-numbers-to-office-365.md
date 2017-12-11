@@ -2,21 +2,23 @@
 title: "Transfer phone numbers to Office 365"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.PortingNumbersOverview
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-- Strat_SB_PSTN
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- ms.lync.lac.PortingNumbersOverview
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+- LIL_Placement
 description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
 ---
 
@@ -95,8 +97,7 @@ Your port order request will be checked and updated daily and you will be notifi
   
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## See also
-<a name="bk_LNPcountries_1"> </a>
-[Set up Calling Plans](set-up-calling-plans.md)
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
-  
+## Related topics
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

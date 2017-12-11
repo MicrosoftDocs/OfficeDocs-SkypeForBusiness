@@ -2,21 +2,25 @@
 title: "Assign a third-party as the audio conferencing provider"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
 - Strat_SB_PSTN
-ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
+- Audio Conferencing
 description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
 ---
 

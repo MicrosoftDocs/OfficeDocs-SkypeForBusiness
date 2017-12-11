@@ -2,18 +2,22 @@
 title: "Skype for Business device usage report"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365E_ReportsS4BClients
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
+- O365E_ReportsS4BClients
+ms.custom:
+- Reporting
 description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the Skype for Business device usage report to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings. Check out Activity Reports in the Office 365 admin center to learn more."
 ---
 
@@ -95,5 +99,5 @@ If your organization's policies prevents you from viewing reports where user inf
 
 - [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
     
-## See also
+## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

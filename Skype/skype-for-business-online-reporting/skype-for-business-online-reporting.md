@@ -2,18 +2,21 @@
 title: "Skype for Business Online reporting"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 4935cddf-fafa-442d-91a3-246af01f8373
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Reporting
 description: "Use this reference guide to learn about Skype for Business Online reporting and what info is available. "
 ---
 
@@ -49,3 +52,5 @@ In the Office 365 and Skype for Business admin centers, you can use different ty
 |[Skype for Business PSTN minute pools report](skype-for-business-PSTN-minute-pools-report.md) <br/> | Capability is the license/service plan used for the call. <br/> Type of license <br/> Capability Description <br/> Country Minute Pool  <br/> Used Minutes <br/> Total Minutes <br/> Percent of minutes used for the month <br/> |
 |[Skype for Business session details report](skype-for-business-session-details-report.md) <br/> | User alias <br/> Dialog ID  <br/> Media types  <br/> Start and end times <br/> To and from URI <br/> Conference URL <br/> Phone number <br/> |
  
+## Related topics
+[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

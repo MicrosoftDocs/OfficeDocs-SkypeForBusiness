@@ -2,16 +2,23 @@
 title: "Getting phones for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: 91f2d947-45fc-4fab-bd8b-2e313531c477
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
 description: "Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. "
 ---
 
@@ -96,3 +103,7 @@ For full device features and capabilities, check the manufacturer user guides.
    
 ## What else should you know?
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
+
+## Related topics
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

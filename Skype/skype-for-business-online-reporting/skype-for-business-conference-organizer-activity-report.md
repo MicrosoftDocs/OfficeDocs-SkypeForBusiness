@@ -2,20 +2,22 @@
 title: "Skype for Business conference organizer activity report"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/24/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365E_ReportsS4BOrgActivity
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
-ms.custom: Adm_O365_FullSet
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: 
+- O365E_ReportsS4BOrgActivity
+ms.custom:
+- Reporting
 description: "Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. "
 ---
 
@@ -109,6 +111,6 @@ If your organization's policies prevents you from viewing reports where user inf
 
 - [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
 
-## See also
+## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 

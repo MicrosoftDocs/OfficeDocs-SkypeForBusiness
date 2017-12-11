@@ -3,17 +3,24 @@ title: "Deploying Skype for Business Online phones"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 11/10/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: faa17eb3-7483-4984-87f2-815d981b68ae
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
 description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licences, and configure settings for Skype for Business online phones"
 ---
-
 # Deploying Skype for Business Online phones
 
 This is deployment guide will help you deploy Skype for Business Online IP phones.
@@ -205,4 +212,8 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 > [!NOTE]
 > BToE isn't currently supported on Mac and VDI platforms. 
   
+## Related topics
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

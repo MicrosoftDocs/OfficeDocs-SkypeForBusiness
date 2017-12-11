@@ -2,18 +2,23 @@
 title: "Assign Microsoft as the audio conferencing provider"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- Strat_SB_PSTN
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Audio Conferencing
+- Strat_SB_PSTN
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge."
 ---
 

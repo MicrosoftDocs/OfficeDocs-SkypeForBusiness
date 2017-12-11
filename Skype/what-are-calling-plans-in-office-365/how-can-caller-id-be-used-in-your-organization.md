@@ -2,13 +2,21 @@
 title: "How can caller ID be used in your organization"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Caller ID can be controlled for both inbound and outbound calls for Phone System users by using a policy called CallingLineIdentity."
 ---
 
@@ -68,6 +76,6 @@ The BlockIncomingCallerID attribute allows for blocking the caller ID on incomin
   
 To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller-id-for-a-user.md).
   
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)

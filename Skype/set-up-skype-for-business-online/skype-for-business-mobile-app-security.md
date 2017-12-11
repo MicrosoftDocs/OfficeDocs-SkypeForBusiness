@@ -1,14 +1,23 @@
 ---
 title: "Skype for Business mobile app security"
-ms.author: kenwith
-author: kenwith
-ms.date: 3/21/2017
-ms.audience: ITPro
-ms.topic: concetpual
-ms.service: skype-for-business-online
-localization_priority: Normal
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
+description: "Learn to set up mobile app security for your users. "
 ---
 
 # Skype for Business mobile app security
@@ -26,4 +35,6 @@ This article covers data encryption information on Skype for Business Mobile App
    
 Note: Please refer to [this public documentation](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) for device pin enforcement available on each of the above Mobile platforms
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

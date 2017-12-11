@@ -2,12 +2,21 @@
 title: "Set up and troubleshoot Skype for Business Online delegation"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/23/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "This article explains how to set up and troubleshoot Skype for Business Online delegation. This article gives you guidance for setup recommendations, best practices, and troubleshooting steps."
 ---
 
@@ -129,4 +138,6 @@ If the setup is successful, the delegate should see the **You were added as a de
     
 - The Exchange Online mailbox isn't accessible through the Skype for Business client. If this occurs, run the [Outlook connectivity test](https://testconnectivity.microsoft.com/) to make sure that it passes.
     
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

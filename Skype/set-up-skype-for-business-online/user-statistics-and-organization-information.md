@@ -2,18 +2,25 @@
 title: "User statistics and organization information"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
+ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.topic: reference
-f1_keywords:
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
-ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
+ms.custom:
+- Setup
 description: "Learn what Skype for business user statistics are available, such as the number of enabled users, conference enabled users, or users that are enabled for Office 365."
 ---
 
@@ -45,7 +52,7 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
 |Active Directory synchronization on  <br/> |This is whether your organization is being synchronized to a Skype for Business Online organization that is on-premises.  <br/> To set up your on-premises Active Directory, see [Set up directory synchronization for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
 |Organization domains  <br/> |When you initially set up Office 365, these are the domains that were registered.  <br/> To add a domain, see [Add multiple domains to Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207).  <br/> To remove a domain, see [Remove a domain from Office 365](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c).  <br/> |
    
-## See also
+## Related topics
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

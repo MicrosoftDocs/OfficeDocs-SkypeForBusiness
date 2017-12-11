@@ -2,17 +2,21 @@
 title: "Troubleshoot problems with Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: skype-for-business-online
-localization_priority: Priority
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- LeftNav_Adm_O365
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Learn how to fix issues for admins and users of Skype for Business in Office 365."
 ---
 
@@ -74,4 +78,6 @@ As an admin for Office 365 for business, you get free access to our knowledgeabl
 > [!NOTE]
 > If you're using Office 365 operated by 21Vianet in China, please [contact the 21Vianet support team](https://go.microsoft.com/fwlink/p/?linkid=847978). 
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

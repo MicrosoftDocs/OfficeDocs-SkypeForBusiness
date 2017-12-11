@@ -2,15 +2,21 @@
 title: "Get new user phone numbers request form"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/12/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.GetNewNumbers
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.GetNewNumbers
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order."
 ---
 
@@ -40,5 +46,5 @@ United Kingdom (U.K.) <br/> |[Get new subscriber (user) phone numbers in the U.K
     
 - You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
     
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

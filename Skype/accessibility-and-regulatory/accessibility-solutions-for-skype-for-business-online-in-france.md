@@ -2,12 +2,22 @@
 title: "Accessibility solutions for Skype for Business Online in France"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 7/25/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: None
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: None
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Legal
 description: "Proposer à ses utilisateurs des expériences accessibles est au cœur de la mission que s'est fixée Microsoft : permettre à chaque personne et à chaque organisation de la planète d'accomplir davantage, quelles que soit ses aptitudes. Microsoft a le plaisir de proposer, avec Skype Entreprise, un certain nombre de solutions d'accessibilité qui s'inscrivent dans son engagement fort pour l'accessibilité et l'inclusion numérique."
 ---
 
@@ -55,9 +65,6 @@ Pour aider ses clients à évaluer l'accessibilité de Skype Entreprise, Microso
   
  **Annexe A :** Déclaration de conformité à la norme EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC
   
-## See also
-
-#### Concepts
-
+## Related topics
 [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
 

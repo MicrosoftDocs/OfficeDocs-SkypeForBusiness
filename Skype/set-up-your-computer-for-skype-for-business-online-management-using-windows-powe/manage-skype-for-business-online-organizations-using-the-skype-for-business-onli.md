@@ -2,13 +2,21 @@
 title: "Manage Skype for Business Online organizations using the Skype for Business Online Connector"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Use Windows PowerShell and the Get-CsTenant and Get-CsTenantLicensingConfiguration cmdlets to get information about your Skype for Business Online tenant."
 ---
 
@@ -34,4 +42,5 @@ The value of the  _TenantID_ parameter is required when running cmdlets such as 
   
 To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.
   
-
+## Related topics
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)

@@ -2,12 +2,20 @@
 title: "Phone number management for France"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 8de49037-905c-4757-a6e7-cf212173e7f3
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
 description: "Use this table to find information on getting and managing phone numbers in France for Skype for Business Online."
 ---
 
@@ -23,3 +31,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |You need to get phone numbers transferred to us.  <br/> | Download one of these forms: <br/> [Letter of Authorization (LOA) for France (Freephone numbers)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Freephone numbers) (v.2.0) (fr-FR).pdf) <br/> [Letter of Authorization (LOA) for France (Geographic numbers)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for France (Geographic numbers) (v.2.0) (fr-FR).pdf) <br/>  Fill it out and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
 |You need to publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
 |You need to change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com ) the list of user numbers you want to convert to service numbers. <br/> |
+
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]( (../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)

@@ -2,11 +2,20 @@
 title: "Add funds and manage Communications Credits"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/27/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether 
 - O365M_SFBVoiceCredit
@@ -15,15 +24,9 @@ f1_keywords:
 - O365E_SFBVoiceCreditAether 
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether 
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_UI_Elements
 ms.custom:
-- Adm_O365_FullSet
+- Licensing
 - Strat_SB_PSTN
-ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continous phone system access. "
 ---
 
@@ -71,8 +74,16 @@ You can also see information by [signing in to the Office 365 admin center](http
   
 To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## 
+## Related topics
 
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-
+- [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+    
+- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+    
+- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+    
+- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
+    
+- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
+    
+- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)

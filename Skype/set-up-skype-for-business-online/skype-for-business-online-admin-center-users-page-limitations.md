@@ -1,18 +1,25 @@
 ---
 title: "Skype for Business Online admin center users page limitations"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 12/9/2015
-ms.audience: Admin
-ms.topic: reference
-f1_keywords:
-- ms.lync.lac.UsersCountLimitationWarning
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
+- ms.lync.lac.UsersCountLimitationWarning
+ms.custom:
+- Setup
 description: "Learn how to work within the limitations of Skype for Business Online admin's display of users. "
 ---
 
@@ -31,4 +38,6 @@ You can change the number of users shown on each page with the control at the bo
   
 ![Users page navigation for changing the amount of users on the page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-
+## Related topics
+[Set up Skype for Business Online](set-up-skype-for-business-online.md)
+[Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)

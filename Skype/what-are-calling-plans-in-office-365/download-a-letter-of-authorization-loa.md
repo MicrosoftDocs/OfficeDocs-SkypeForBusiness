@@ -2,15 +2,22 @@
 title: "Download a Letter of Authorization (LOA)"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
-description: "The Letter of Authorization (LOA) gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business (or if you don't want to use the Local Number Porting wizard). You must Manually submit a custom service request with this LOA to get phone numbers transferred from your current service provider."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "The Letter of Authorization (LOA) gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute."
 ---
 
 # Download a Letter of Authorization (LOA) 
@@ -46,8 +53,8 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
     
 - You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
     
-## See also
-
+## Related topics
 [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
-  
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 

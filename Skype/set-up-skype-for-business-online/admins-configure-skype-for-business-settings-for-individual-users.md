@@ -1,24 +1,25 @@
 ---
 title: "Admins Configure Skype for Business settings for individual users"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
 f1_keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
-ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
-
+- Setup
 description: "Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. "
 ---
 
@@ -98,10 +99,7 @@ To configure these settings in bulk, use PowerShell. See [Set the Audio Conferen
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
   
    
-## See also
-<a name="__toc314837483"> </a>
-
+## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
-
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

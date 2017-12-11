@@ -2,12 +2,24 @@
 title: "Availability in Brazil"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/20/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Audio Conferencing
+- Phone System
+- Calling Plans
 description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Brazil."
 ---
 
@@ -62,5 +74,8 @@ If you want to set them up, see [Set up Communications Credits for your organiza
 
 #### Other Resources
 
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## Related topics
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

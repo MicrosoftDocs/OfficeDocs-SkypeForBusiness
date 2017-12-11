@@ -2,13 +2,21 @@
 title: "Manage user accounts using the Skype for Business Online Connector"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/23/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users."
 ---
 
@@ -101,4 +109,5 @@ By using the [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-
+## Related topics
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)

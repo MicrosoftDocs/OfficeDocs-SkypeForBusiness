@@ -3,13 +3,19 @@ title: "Dimensions and measures available in Call Quality Dashboard for Microsof
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 11/27/2017
-ms.audience: Admin
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
 
@@ -497,4 +503,7 @@ The following table lists the measures currently available in Call Quality Dashb
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Number of streams  <br/> |Number of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Percentage  <br/> |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
    
-
+## Related topics
+[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
+[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)

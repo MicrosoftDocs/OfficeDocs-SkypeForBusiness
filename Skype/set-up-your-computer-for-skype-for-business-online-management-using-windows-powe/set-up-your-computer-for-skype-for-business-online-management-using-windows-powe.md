@@ -3,13 +3,20 @@ title: "Set up your computer for Skype for Business Online management using Wind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 5/31/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- PowerShell
 description: "Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems."
 ---
 
@@ -43,4 +50,5 @@ You can find information about downloading and installing these items in the fol
     
 - [Download and install Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
-
+## Related topics
+[Diagnose connection problems with the skype for business online connector](diagnose-connection-problems-with-the-skype-for-business-online-connector.md)

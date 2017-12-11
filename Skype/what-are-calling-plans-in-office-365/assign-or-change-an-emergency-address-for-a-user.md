@@ -2,17 +2,21 @@
 title: "Assign or change an emergency address for a user"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 1411b594-1e88-44c9-9f60-2202f9bb8553
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN)."
 ---
 
@@ -45,5 +49,5 @@ Want to know how to get Calling Plans in Office 365 and how much they cost, see 
     
 8. Select the emergency address from the address drop-down list, and then click **Save**. 
     
-## See also
+## Related topics
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

@@ -2,17 +2,23 @@
 title: "Why has number activation failed?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.NumberActivationStateFailed
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
+- ms.lync.lac.NumberActivationStateFailed
+ms.custom:
+- Calling Plans
 description: "Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services."
 ---
 
@@ -83,4 +89,6 @@ Address validation is an important part of setting up Calling Plans in Office 36
 > The reference number will be listed on the **Service requests** page in the Office 365 admin center.
   
 ## Related topics
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

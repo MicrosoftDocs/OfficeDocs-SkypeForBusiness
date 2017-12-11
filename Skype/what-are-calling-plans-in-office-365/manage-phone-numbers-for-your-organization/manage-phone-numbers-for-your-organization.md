@@ -2,16 +2,23 @@
 title: "Manage phone numbers for your organization"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
-ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Each country or region has different instructions for getting phone numbers for users in Skype for Business Online. Follow the link to your country or region below to get the information you need."
 ---
 
@@ -50,8 +57,8 @@ For user (also called subscriber) numbers, if you want to see about getting numb
 > - [U.K.](phone-number-management-for-the-u-k.md)
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
     
-## See Also
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]( (../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
-  
   
 

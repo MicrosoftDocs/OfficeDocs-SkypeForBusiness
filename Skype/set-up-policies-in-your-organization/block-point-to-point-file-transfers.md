@@ -2,12 +2,21 @@
 title: "Block Point-to-Point file transfers"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/9/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "In Skype for Business Online, you have ability to control Point-to-Point (P2P) file transfers as part of existing conferencing policy settings. However, this allows or blocks file transfers for users whether or not they are transferring files to a user who is within the same organization or to a federated user from another organization. Following the steps below, you can block P2P file transfers with federated organizations or partners."
 ---
 
@@ -106,4 +115,8 @@ You can apply this to a user by creating a new policy and granting it to that us
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 

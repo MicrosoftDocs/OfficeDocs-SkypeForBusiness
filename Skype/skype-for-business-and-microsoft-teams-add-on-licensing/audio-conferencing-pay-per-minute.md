@@ -2,13 +2,23 @@
 title: "Audio Conferencing pay-per-minute"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
 description: "In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
 ---
 

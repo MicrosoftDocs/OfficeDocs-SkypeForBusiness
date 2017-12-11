@@ -2,14 +2,23 @@
 title: "Why am I having problems entering U.K. address information?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
-ms.service: skype-for-business-online
-localization_priority: Normal
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e2376646-f0d6-4d33-a8fd-68ecbd46fb7a
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords:
+- ms.lync.lac.CivicAddressGBSyntaxError
+ms.custom:
+- Calling Plans
 description: "Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.)."
 ---
 
@@ -91,5 +100,7 @@ If you are having a problem entering the postal code, remember:
 |AA#_#AA  <br/> |DR3 6HG  <br/> |
 |AA##_#AA  <br/> |FN35 1TH  <br/> |
    
-## See also
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+## Related topics
+[Different kinds of phone numbers used for Calling Plans]((what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers/used-for-calling-plans.md)
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)

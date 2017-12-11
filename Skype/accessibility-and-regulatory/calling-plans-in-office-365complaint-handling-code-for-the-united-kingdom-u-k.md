@@ -2,12 +2,22 @@
 title: "Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: None
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Legal
 description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
 ---
 
@@ -68,3 +78,5 @@ You may reach Ombudsman Services by filling out a contact form on the Ombudsman 
     WA4 6WU
     
 
+## Related topics
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

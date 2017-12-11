@@ -2,12 +2,22 @@
 title: "Proxy Servers for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/6/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup 
 description: "This article will help you with guidance about using a proxy server with Skype for Business."
 ---
 

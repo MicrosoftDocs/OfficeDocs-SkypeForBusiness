@@ -2,19 +2,24 @@
 title: "Audio Conferencing troubleshooting and known issues"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
-
-description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Get a list of known issues when using Microsoft as their dial-in conference provider, status, and some workarounds. "
 ---
 
 # Audio Conferencing troubleshooting and known issues

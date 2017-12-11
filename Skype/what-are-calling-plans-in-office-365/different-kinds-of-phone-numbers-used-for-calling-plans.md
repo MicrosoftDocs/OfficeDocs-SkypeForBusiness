@@ -2,14 +2,22 @@
 title: "Different kinds of phone numbers used for Calling Plans"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/10/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
-description: "Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number. Skype for Business Online uses subscriber numbers, which can be assigned to users in your organization, and service numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues. Service phone numbers have a higher concurrent call capacity than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Skype for Business administration center, you may submit a phone number request to the Microsoft telephone number service desk."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number."
 ---
 
 # Different kinds of phone numbers used for Calling Plans
@@ -39,4 +47,7 @@ Skype for Business Online uses different telephone number types depending on the
     > [!CAUTION]
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
   
+## Related topics
+[Emergency calling terms and conditions](what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+
 

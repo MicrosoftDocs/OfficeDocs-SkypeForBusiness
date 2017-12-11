@@ -2,13 +2,23 @@
 title: "Accessibility Declaration of Conformance for Skype for Business Online in France"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 7/25/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: None
 ms.assetid: cbafd5c3-e499-497b-a0cb-b0940d7afd20
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: None
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Legal
+description: "Accessibility in France."
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
@@ -203,9 +213,6 @@ Le présent document n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit 
   
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
   
-## See also
-
-#### Concepts
-
+## Related topics
 [Accessibility solutions for Skype for Business Online in France](accessibility-solutions-for-skype-for-business-online-in-france.md)
 

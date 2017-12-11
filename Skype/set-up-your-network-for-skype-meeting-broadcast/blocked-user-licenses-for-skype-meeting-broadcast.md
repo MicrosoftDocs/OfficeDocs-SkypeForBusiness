@@ -2,12 +2,21 @@
 title: "Blocked user licenses for Skype Meeting Broadcast"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/28/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- SMB
 description: "Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license."
 ---
 
@@ -51,4 +60,8 @@ Skype Meeting Broadcast will be blocked if any of the following user licenses ar
     
 - Microsoft 365 A5 student use benefits w/o PSTN Conferencing
     
+## Related topics
 
+[An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  
+[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

@@ -2,18 +2,23 @@
 title: "Audio Conferencing complimentary dial-out period"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 9/25/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.DashboardSfBServiceTerm
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
-
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+- Microsoft Teams
+localization_priority: None
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Legal
+description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 
 # Audio Conferencing complimentary dial-out period
@@ -76,4 +81,5 @@ As an additional benefit to customers adopting our Office 365 Audio Conferencing
 > [!CAUTION]
 > Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned 
   
-
+## Related topics
+[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

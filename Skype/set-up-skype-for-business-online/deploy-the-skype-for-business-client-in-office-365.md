@@ -2,19 +2,21 @@
 title: "Deploy the Skype for Business client in Office 365"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.service: skype-for-business-online
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- httpsfix
-- LeftNav_IT_O365
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 8c563b81-22c9-4024-9efe-9fe28c7bbc96
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto:
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. "
 ---
 

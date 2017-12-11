@@ -2,12 +2,21 @@
 title: "Set up client policies for your organization"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 0326b19f-4fd1-4b74-8791-df4c09a964b9
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: 
+- Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Client policies help determine the features of Skype for Business Online that are made available to users; for example, you might give some users the right to transfer files while denying this right to other users."
 ---
 
@@ -134,4 +143,7 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-
+## Related topics
+[Create custom external access policies](create-custom-external-access-policies.md)
+[Block point-to-point file transfers](block-point-to-point-file-transfers.md)
+[Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)

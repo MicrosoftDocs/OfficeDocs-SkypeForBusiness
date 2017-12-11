@@ -3,12 +3,19 @@ title: "Use Call Analytics to troubleshoot poor Skype for Business call quality"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 6/22/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: skype-for-business-online
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
 ---
 
@@ -59,6 +66,7 @@ For audio sessions that do have quality of experience (QoE) data, the following 
 |Audio network classified poor call  <br/> |Session  <br/> |Network quality issues were encountered in areas such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio. For more information about the conditions used to classify poor calls, see this [Microsoft blog post](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Device not functioning  <br/> |Device  <br/> | A device isn't functioning correctly. Device not functioning ratios are : <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## See also
+## Related topics
 [Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
 

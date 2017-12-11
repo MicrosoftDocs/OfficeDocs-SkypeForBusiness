@@ -2,14 +2,23 @@
 title: "How do I create a support ticket for address validation?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/21/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.CivicAddressValidationOpenSupportTicket
-ms.service: skype-for-business-online
-localization_priority: Normal
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: 
+- NOINDEX
+- NOFOLLOW
+f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services."
 ---
 
