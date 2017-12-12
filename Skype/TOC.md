@@ -162,8 +162,14 @@
 ### [Getting service phone numbers for Skype for Business and Microsoft Teams](what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Here's what you get with Phone System](what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### [Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md)
+<<<<<<< HEAD
+#### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat.md)
+#### [Languages for voicemail greetings and messages from Skype for Business](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)
+#### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+=======
 #### [Change the default language for greetings and emails](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for greetings and messages for voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-greetings-and-messages-for-voicemail.md)
 #### [Set up Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
+>>>>>>> 7947c83eb30e05935c6fba7d9cddb516f4dfd5b7
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)

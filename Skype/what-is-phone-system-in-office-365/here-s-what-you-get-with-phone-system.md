@@ -77,7 +77,7 @@ See these articles to plan and set up the Phone System in your business:
     
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
-- [Set up Phone System voicemail - Admin help](phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+- [Set up Phone System voicemail - Admin help](phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Discover Skype for Business](https://support.office.com/en-us/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Help the people in your company learn how to use Skype for Business features. 
     

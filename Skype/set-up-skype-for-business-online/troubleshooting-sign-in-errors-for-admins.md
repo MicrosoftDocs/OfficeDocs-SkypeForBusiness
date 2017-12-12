@@ -27,6 +27,27 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 ## What do you want to do?
 <a name="top"> </a>
 
+<<<<<<< HEAD
+> [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-sign-in-errors-for-admins.md#__toc323194094)
+    
+> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#__toc325626440)
+    
+> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#__add_a_firewall)
+    
+> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#__update_dns_service)
+    
+> [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#__verify_upn_and)
+    
+> [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#__update_security_credentials_1)
+    
+> [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#__modify_trustmodeldata_registry)
+    
+> [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#__update_user_settings_1)
+    
+> [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#__toc325626447)
+    
+> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#__collect_more_information_1)
+=======
 > [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc323194094)
     
 > [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc325626440)
@@ -46,6 +67,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > [Use the Microsoft Support troubleshooting guide](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc325626447)
     
 > [Collect more information and seek additional help ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#collect-more-information)
+>>>>>>> 7947c83eb30e05935c6fba7d9cddb516f4dfd5b7
     
 ## Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
