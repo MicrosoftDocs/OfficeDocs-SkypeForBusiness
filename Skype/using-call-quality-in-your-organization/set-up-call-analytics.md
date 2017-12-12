@@ -52,6 +52,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
 ||Session details  <br/> |Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |Session details shown. User names and session details shown. Last three digits of telephone number obfuscated with asterisk symbols.  <br/> |
    
  **Set up tiered permissions in Call Analytics**
+<a name="BKMK_SetUpTier"> </a>
   
 1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see [Create, edit, or delete a security group in the Office 365 admin center](http://technet.microsoft.com/library/55c96b32-e086-4c9e-948b-a018b44510cb%28Office.14%29.aspx).
     

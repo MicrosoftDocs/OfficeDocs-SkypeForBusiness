@@ -70,7 +70,7 @@ In many enterprises or large organizations, users aren't allowed to install soft
   
 With Office 365, you have several options for deploying the Skype for Business app if you want to control where it's installed from. Some of those options include the following:
   
-- Download the Skype for Business app to your local network from the Office 365 admin center, as described in [Manually deploying Skype for Business to your users](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual).
+- Download the Skype for Business app to your local network from the Office 365 admin center, as described in [Manually deploying Skype for Business to your users](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
     
 - Use the **[Office Deployment Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** to download either Office 365 ProPlus or the Skype for Business app to your local network. Then, use the Office Deployment Tool to deploy the app to your users. The Office Deployment Tool gives you the ability to control certain aspects of the deployment, such as languages and version (32-bit or 64-bit).
     

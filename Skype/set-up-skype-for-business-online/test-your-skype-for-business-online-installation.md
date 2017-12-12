@@ -52,7 +52,7 @@ Here's what you need:
 3. Repeat steps 1 and 2 until you have the number of test accounts you want. You need at least two accounts (besides your own) to test the online meeting capabilities of Skype for Business Online. 
     
 ## Set up test computers
-<a name="__toc328126910"> </a>
+<a name="__toc328126911"> </a>
 
 On each test computer:
   
@@ -61,7 +61,7 @@ On each test computer:
 2. Go to **Settings**![Settings: update your profile, install software and connect it to the cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), and then click **Install software and connect it to the cloud**. 
     
 ## Set up Audio Conferencing
-<a name="__toc328126910"> </a>
+<a name="__toc328126912"> </a>
 
 To provide telephone access to Skype for Business Online meetings, set up an account with an audio conferencing provider. Here's what you get:
   
@@ -89,7 +89,7 @@ For details, see [Set up Audio Conferencing for Skype for Business and Microsoft
 |**Passcode** <br/> |The passcode, or conference code, for this user.  <br/> |
    
 ## Test Skype for Business Online features and devices
-<a name="__toc328126910"> </a>
+<a name="__toc328126913"> </a>
 
 Verify that the major Skype for Business Online features are working as expected.
   
