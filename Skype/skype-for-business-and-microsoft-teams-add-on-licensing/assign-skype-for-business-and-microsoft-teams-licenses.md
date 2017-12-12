@@ -117,7 +117,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     
 ### How to assign an Audio Conferencing license to one user
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx).
+The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
 ### How to assign Audio Conferencing licenses in bulk
 
@@ -188,7 +188,7 @@ foreach ($user in $users)
     
 ### How to assign a Communications Credits license to one user
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](http://technet.microsoft.com/library/997596b5-4173-4627-b915-36abac6786dc%28Office.14%29.aspx).
+The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
   
 ### How to assign Communications Credits licenses in bulk
 

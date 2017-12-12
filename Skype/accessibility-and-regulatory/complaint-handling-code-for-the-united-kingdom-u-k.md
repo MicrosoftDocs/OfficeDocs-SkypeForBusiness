@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
 ---
 
-# Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)
+# Complaint handling code for the United Kingdom (U.K.)
 
 This Code applies to small business customers (organizations with 10 employees or less) in the United Kingdom (UK) with respect to the Office 365 Calling Plan service (the "Service") in accordance with UK communications regulations. Other Skype for Business services are governed by your service agreement with Microsoft and any other terms applicable to your use of the particular service.
   

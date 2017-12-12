@@ -1,5 +1,5 @@
 ---
-title: "Manage user accounts using the Skype for Business Online Connector"
+title: "Manage user accounts using the Online Connector"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users."
 ---
 
-# Manage user accounts using the Skype for Business Online Connector
+# Manage user accounts using the Online Connector
 
 ## Manage user accounts
 

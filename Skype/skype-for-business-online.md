@@ -180,7 +180,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Improve call and video quality</h3>
-                        <p><a href="http://technet.microsoft.com/library/ca302828-783f-425c-bbe2-356348583771%28Office.14%29.aspx">Troubleshoot connection issues in Skype for Business</a></p><p><a href="http://technet.microsoft.com/library/62777bc6-c52b-47ae-84ba-a8905c3b71dc%28Office.14%29.aspx">Troubleshoot audio and video in Skype for Business</a></p><p><a href="http://technet.microsoft.com/library/beec23c2-c5d6-4e84-a8af-e82aefca7802%28Office.14%29.aspx">Tune Skype for Business Online performance</a></p>
+                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771.aspx">Troubleshoot connection issues in Skype for Business</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc.aspx">Troubleshoot audio and video in Skype for Business</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802.aspx">Tune Skype for Business Online performance</a></p>
                     </div>
                 </div>
             </div>
