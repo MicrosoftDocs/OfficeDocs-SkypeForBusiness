@@ -114,7 +114,7 @@ In a PSTN call scenario, the media path crosses the following network segments:
 4. **Connection between Microsoft Network and the PSTN service provider partners** This is the connection that exists to place a PSTN call from the Skype for Business client that is outside of the Microsoft network.
     
 ### Network Performance requirements from a Skype for Business client to Microsoft network Edge
-<a name="bkSfBClienttoEdge"> </a>
+<a name="bkSfBClienttoEdge"></a>
 
 For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), as well as the Internet or ExpressRoute partner connections to the Microsoft network Edge.
   
