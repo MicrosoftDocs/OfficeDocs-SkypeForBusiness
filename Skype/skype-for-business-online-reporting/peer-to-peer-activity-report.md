@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business peer-to-peer activity report"
+title: "Peer-to-peer activity report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 description: "Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. "
 ---
 
-# Skype for Business peer-to-peer activity report
+# Peer-to-peer activity report
 
 The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files. 
 

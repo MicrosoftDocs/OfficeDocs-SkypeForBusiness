@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business PSTN usage report"
+title: "PSTN usage report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 description: "The new Skype for Business Admin Center Reports area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the Skype for Business PSTN usage details report to see the number of minutes spent in inbound/outbound calls and cost for these calls. You can view Audio Conferencing PSTN usage details including the cost of the call so that you can understand your usage and call billing details to determine usage within your organization."
 ---
 
-# Skype for Business PSTN usage report
+# PSTN usage report
 
 The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the **Skype for Business PSTN usage details** report to see the number of minutes spent in inbound/outbound calls and cost for these calls. You can view Audio Conferencing PSTN usage details including the cost of the call so that you can understand your usage and call billing details to determine usage within your organization.
   

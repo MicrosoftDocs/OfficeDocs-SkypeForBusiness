@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business users blocked report"
+title: "Users blocked report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 description: "This report, along with other Skype for Business reports, gives you details on activity, including PSTN usage across your organization. "
 ---
 
-# Skype for Business users blocked report
+# Users blocked report
 
 The new Skype for Business **Reports** dashboard shows you the activity overview across the Skype for Business products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business users blocked** report to see the users in your organization that have been blocked from making PSTN calls. This report, along with other Skype for Business reports, gives you details on activity, including PSTN usage across your organization.
   

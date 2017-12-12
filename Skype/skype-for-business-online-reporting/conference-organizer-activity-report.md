@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business conference organizer activity report"
+title: "Conference organizer activity report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. "
 ---
 
-# Skype for Business conference organizer activity report
+# Conference organizer activity report
 
 The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business conference organizer activity** report to see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, dial-in/out - 3rd party, and dial-in/out - Microsoft. 
 

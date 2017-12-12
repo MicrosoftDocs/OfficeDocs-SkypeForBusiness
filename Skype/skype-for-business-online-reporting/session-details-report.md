@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business session details report"
+title: "Session details report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product."
 ---
 
-# Skype for Business session details report
+# Session details report
 
 The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business Session details** report to see details about individual user's call experiences.
   

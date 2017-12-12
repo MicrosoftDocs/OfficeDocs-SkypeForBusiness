@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business activity report"
+title: "Activity report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

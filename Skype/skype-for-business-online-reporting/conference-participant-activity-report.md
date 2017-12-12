@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business conference participant activity report"
+title: "Conference participant activity report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. "
 ---
 
-# Skype for Business conference participant activity report
+# Conference participant activity report
 
 As an Office 365 admin, the new **Reports** dashboard shows you data on the usage of the Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and and dial-in/out conferences are being participated in by users in your organization.
 
