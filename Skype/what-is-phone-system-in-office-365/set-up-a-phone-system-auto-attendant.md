@@ -202,7 +202,7 @@ Here are the cmdlets that you need to manage an auto attendant.
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## Related topics
-[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
+[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 
