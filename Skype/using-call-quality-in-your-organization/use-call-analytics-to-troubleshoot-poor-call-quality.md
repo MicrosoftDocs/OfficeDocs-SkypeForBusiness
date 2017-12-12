@@ -67,7 +67,7 @@ For audio sessions that do have quality of experience (QoE) data, the following 
 |Device not functioning  <br/> |Device  <br/> | A device isn't functioning correctly. Device not functioning ratios are : <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
 ## Related topics
-[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
 [What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
 

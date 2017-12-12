@@ -66,5 +66,5 @@ Pour aider ses clients à évaluer l'accessibilité de Skype Entreprise, Microso
  **Annexe A :** Déclaration de conformité à la norme EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC
   
 ## Related topics
-[Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-declaration-of-conformance-for-skype-for-business-online-in-france.md)
+[Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-declaration-of-conformance-in-france.md)
 
