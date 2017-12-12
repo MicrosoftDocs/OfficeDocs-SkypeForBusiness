@@ -3,7 +3,7 @@ title: Quick start guide - Configuring Calling Plans in Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: lolaj
-ms.date: 12/13/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 description: Quick start guide for configuring calling plans in Microsoft Teams.
@@ -15,7 +15,7 @@ Quick start guide: Configuring Calling Plans in Microsoft Teams
 
 This guide will help you get a set of users up and running so they can explore Calling Plans in Teams.
 
-Read the December 14, 2017, announcement of Calling Plans in Teams: [Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)
+Read the December 12, 2017, announcement of Calling Plans in Teams: [Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > We recommend that, in parallel with this quick-start guide, you use our [practical guidance](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) and [FastTrack](https://aka.ms/cloudvoice) to plan and drive a successful rollout.
