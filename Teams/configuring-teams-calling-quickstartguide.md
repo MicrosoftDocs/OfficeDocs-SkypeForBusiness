@@ -13,7 +13,7 @@ Set_Free_Tag: Strat_MT_TeamsAdmin
 Quick start guide: Configuring Calling Plans in Microsoft Teams
 ==============================================================
 
-Use this quick start guide to get an initial set of users up and running to explore the exciting features of Calling Plans in Teams.
+This guide will help you get a set of users up and running so they can explore Calling Plans in Teams.
 
 Read the December 12, 2017, announcement of Calling Plans in Teams: [Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)
 
