@@ -37,7 +37,7 @@ By default, there are four types of email that will be sent to your users who ar
   
     Here is an example of this email:
     
-     ![Skype for Business Verify License](../images/AudioConferencingUserEnabled.png)
+     ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
     You can find out more about Skype for Business licensing by seeing [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
@@ -50,7 +50,7 @@ By default, there are four types of email that will be sent to your users who ar
   
     Here is an example of this email:
     
-     ![Dial-in conferencing info has changed.](../images/AudioConferencingInfoChange.png)
+     ![Dial-in conferencing info has changed.](../images/audio-conferencing-info-change.png)
   
 - **The audio conferencing PIN of a user is reset.**
     
@@ -61,7 +61,7 @@ By default, there are four types of email that will be sent to your users who ar
   
     Here is an example of this email:
     
-     ![Dial-in conferencing PIN changed.](../images/ConferencingPINHasChanged.png)
+     ![Dial-in conferencing PIN changed.](../images/audio-conferencing-pin-has-changed.png)
   
 - **A user's license is removed or when audio conferencing provider changes from Microsoft to other provider or None.**
     
@@ -71,7 +71,7 @@ By default, there are four types of email that will be sent to your users who ar
     
     Here is an example of this email:
     
-     ![Dial-in conferencing is turned off.](../images/AudioConferencingTurnedOff.png)
+     ![Dial-in conferencing is turned off.](../images/audio-conferencing-turned-off.png)
   
 ## Make changes to the email messages that are sent to them
 

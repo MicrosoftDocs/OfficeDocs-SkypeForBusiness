@@ -35,7 +35,7 @@ Sometimes Skype for Business or Microsoft Teams users may need you to send them 
   
 Here is an example of the email that is sent:
   
-![Dial-in conferencing email](../images/AudioConferencingInfo.png)
+![Dial-in conferencing email](../images/audio-conferencing-info.png)
   
 ## Send an email with audio conferencing information to a user
 
@@ -106,4 +106,6 @@ Here is an example of the email that is sent:
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
+## Related topics
 
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)

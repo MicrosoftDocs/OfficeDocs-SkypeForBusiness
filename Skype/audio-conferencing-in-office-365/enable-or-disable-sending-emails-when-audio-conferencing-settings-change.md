@@ -30,7 +30,7 @@ If you disable sending emails, Audio Conferencing emails won't be sent to your u
   
 Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
   
-![Audio Conferencing email](../images/AudioConferencingUserEnabled.png)
+![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
   
 ## When are emails being sent to your users?
 
