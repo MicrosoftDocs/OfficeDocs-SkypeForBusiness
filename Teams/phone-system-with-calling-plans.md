@@ -427,11 +427,11 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 
 > [!TIP]
 > If it is applicable to your project, you can use the following template to document the tenant dial plans configurations:
->|<p>Tenant Dial Plan Name</p><p>Description</p>  |<p>Normalization Rules Name</p><p>Description</p>  |<p>Pattern</p><p>Translation</p><p>IsInternalExtension</p>  |
+>|Tenant Dial Plan Name<br>_Description  |Normalization Rules Name<br>_Description_  |Pattern<br>Translation<br>IsInternalExtension  |
 >|---------|---------|---------|
->|**FR-Paris-Issy-39qdPR**<p>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_</p>|**FR-39qdPR-Internal**<p>_Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_</p>|^(7\d{3})$<p>+3319999$1</p><p>True</p>|
->||**FR-TollFree**<p>_Toll Free number normalization for France_</p>|^0?(80\d{7})\d*$<p>+33$1</p><p>False</p>|
->||**FR-Service**<p>_Service number normalization for France_</p>|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<p>$1</p><p>False</p>|
+>|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Internal number (x7000 – x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+>||**FR-TollFree**<br>_Toll Free number normalization for France_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]
