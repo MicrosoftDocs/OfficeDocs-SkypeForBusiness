@@ -33,11 +33,11 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Before you get started, it's a good idea to download the phone manufacturer's administration guides and phone user manuals.
   
-- For Polycom phones, see the [Polycom Deployment Guide](https://support.polycom.com/PolycomService/support/us/support/voice/polycom_uc/polycom_uc_software_for_lync.mdl).
+- For Polycom phones, see the [Polycom Deployment Guide]((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
-- For Yealink phones, see [Yealink Skype for Business HD SIP Phones Solution](http://www.yealink.com/solution_7.mdl).
+- For Yealink phones, see [Yealink Skype for Business HD SIP Phones Solution](http://www.yealink.com/products_top_2.html).
     
-- For AudioCodes phones, see the [Audiocodes Provisioning Management Guide](https://www.audiocodes.com/products/ems).
+- For AudioCodes phones, see the [Audiocodes Provisioning Management Guide](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
     
 ### Step 2 - Make sure you're purchasing or migrating a Skype for Business Supported IP phone and firmware
 
