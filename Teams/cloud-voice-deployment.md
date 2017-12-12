@@ -3,7 +3,7 @@ title: Cloud voice deployment
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: lolaj
-ms.date: 12/14/2017
+ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
