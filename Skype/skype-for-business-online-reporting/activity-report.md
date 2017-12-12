@@ -93,19 +93,19 @@ You can also export the report data into an Excel .csv file, by clicking or tapp
    
 ## Want to see other Skype for Business reports?
 
-- [Skype for Business device usage report](skype-for-business-device-usage-report.md) You can to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings.
+- [Skype for Business device usage report](device-usage-report.md) You can to see the devices, including Windows-based operating systems and mobile devices, that have the Skype for Business app installed and are using it for IM and meetings.
     
-- [Skype for Business conference organizer activity report](skype-for-business-conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, dial-in/out - 3rd party, and dial-in/out - Microsoft.
+- [Skype for Business conference organizer activity report](conference-organizer-activity-report.md) You can see how much your users are organizing conferences that use IM, audio/video, application sharing, Web, dial-in/out - 3rd party, and dial-in/out - Microsoft.
     
-- [Skype for Business peer-to-peer activity report](skype-for-business-peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing, and transferring files.
+- [Skype for Business peer-to-peer activity report](peer-to-peer-activity-report.md) You can see how much your users are using IM, audio/video, application sharing, and transferring files.
     
-- [Skype for Business users blocked report](skype-for-business-users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.
+- [Skype for Business users blocked report](users-blocked-report.md) You can see the users in your organization that have been blocked from making PSTN calls.
     
-- [Skype for Business PSTN usage report](skype-for-business-pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
+- [Skype for Business PSTN usage report](pstn-usage-report.md) You can see the number of minutes spent in inbound/outbound calls and cost for these calls.
 
-- [Skype for Business PSTN minute pools report](skype-for-business-pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
+- [Skype for Business PSTN minute pools report](pstn-minute-pools-report.md) you can see the number of minutes consumed during the current month within your organization.
 
-- [Skype for Business session details report](skype-for-business-session-details-report.md) You can see details about individual user's call experiences.
+- [Skype for Business session details report](session-details-report.md) You can see details about individual user's call experiences.
 
     
 ## Related topics

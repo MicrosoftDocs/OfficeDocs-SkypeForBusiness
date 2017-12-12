@@ -124,9 +124,9 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
   
 ## What else should you know about this email?
 
-- For more on enabling and disabling automatically sending email to your users, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
+- For more on enabling and disabling automatically sending email to your users, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md). However, this information doesn't include the audio conferencing PIN.
+- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). However, this information doesn't include the audio conferencing PIN.
     
     Here is an example of this email that will be sent to them:
     
@@ -155,7 +155,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
   
 ## Related topics
 
-[Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md)
+[Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md)
   
-[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md)
+[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
 
