@@ -1,5 +1,5 @@
 ---
-title: "Change the toll or toll-free numbers on your Audio Conferencing bridge"
+title: "Change the phone numbers on your Audio Conferencing bridge"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone."
 ---
 
-# Change the toll or toll free numbers on your Audio Conferencing bridge
+# Change the phone numbers on your Audio Conferencing bridge
 
 When you buy **Audio Conferencing** licenses, Microsoft is hosting your *audio conferencing bridge*  for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
   
@@ -64,7 +64,7 @@ After the changes have been saved, the new default phone numbers will be include
   
 ### Step 3 - Update existing meeting invites of users using the Meeting Migration Service (optional)
 
-For the next two steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bk_PowerShell)
+For the next two steps, you will need to start Windows PowerShell.
   
 Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](setting-up-the-meeting-migration-service-mms.md).
   
@@ -82,7 +82,7 @@ Using the Meeting Migration Service, you can optionally update meeting invites t
 ```
 
 ## Steps when you are unassigning a service phone number for a conferencing bridge
-<a name="bk_StartPowerShell"> </a>
+
 
 When you unassign a phone number from a conferencing bridge, users won't be able to join any meetings using that phone number anymore. Because the phone number is changing, it's important to update all users that could have a phone number as their default number (if any) and to update their existing meeting invites before the phone number is unassigned from the audio conferencing bridge. 
   

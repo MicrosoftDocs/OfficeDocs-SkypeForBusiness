@@ -27,25 +27,29 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 ## What do you want to do?
 <a name="top"> </a>
 
+<<<<<<< HEAD
 > [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#__toc323194094)
+=======
+> [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
+>>>>>>> 6b2fc8d0bc82830f3032d6a7175c64f6afd6c9a9
     
-> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#__toc325626440)
+> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
     
-> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#__add_a_firewall)
+> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
     
-> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#__update_dns_service)
+> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
     
-> [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#__verify_upn_and)
+> [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
     
-> [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#__update_security_credentials_1)
+> [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
     
-> [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#__modify_trustmodeldata_registry)
+> [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
     
-> [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#__update_user_settings_1)
+> [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
     
-> [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#__toc325626447)
+> [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
     
-> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#__collect_more_information_1)
+> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
     
 ## Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
