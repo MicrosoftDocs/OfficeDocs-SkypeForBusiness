@@ -1,5 +1,5 @@
 ---
-title: "Languages for voicemail greetings and messages from Skype for Business"
+title: "Languages for voicemail greetings and messages"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

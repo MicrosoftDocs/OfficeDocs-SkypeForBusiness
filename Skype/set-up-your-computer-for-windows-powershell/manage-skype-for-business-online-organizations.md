@@ -20,7 +20,7 @@ ms.custom:
 description: "Use Windows PowerShell and the Get-CsTenant and Get-CsTenantLicensingConfiguration cmdlets to get information about your Skype for Business Online tenant."
 ---
 
-# Manage Skype for Business Online organizations using the Skype for Business Online Connector
+# Manage Skype for Business Online organizations
 
 You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.
   

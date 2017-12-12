@@ -32,7 +32,7 @@
 ### [See, change, and reset a conference ID assigned to a user](audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user.md)
 ### [See a list of Audio Conferencing numbers](audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers.md)
 ### [See a list of users that are enabled for Audio Conferencing](audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
-### [Send an email to a user with their Audio Conferencing information](audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
+### [Send an email to a user with their dial-in information](audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Set the length of the PIN for Audio Conferencing meetings](audio-conferencing-in-office-365/set-the-length-of-the-pin-for-audio-conferencing-meetings.md)
 ### [Set up Audio Conferencing](audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 ### [Set auto attendant languages for Audio Conferencing](audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
@@ -162,14 +162,8 @@
 ### [Getting service phone numbers for Skype for Business and Microsoft Teams](what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Here's what you get with Phone System](what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### [Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md)
-<<<<<<< HEAD
-#### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat.md)
-#### [Languages for voicemail greetings and messages from Skype for Business](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)
+#### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
+#### [Languages for voicemail greetings and messages from Skype for Business](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
-=======
-#### [Change the default language for greetings and emails](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
-#### [Languages for greetings and messages for voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-greetings-and-messages-for-voicemail.md)
-#### [Set up Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
->>>>>>> 7947c83eb30e05935c6fba7d9cddb516f4dfd5b7
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
