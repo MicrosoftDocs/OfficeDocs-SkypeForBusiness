@@ -35,4 +35,4 @@ The following cmdlets can be used to manage Exchange Unified Messaging (UM) and 
    
 
 ## Related topics
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

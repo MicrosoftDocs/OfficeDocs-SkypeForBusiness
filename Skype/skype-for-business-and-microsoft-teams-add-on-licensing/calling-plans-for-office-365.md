@@ -43,7 +43,7 @@ Monthly minutes available for each organization and each country/region are loca
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Office 365 admin center**.   
 ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md).
+For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md).
   
 ## How to buy a Calling Plan
 
@@ -96,7 +96,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
     
-- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
     

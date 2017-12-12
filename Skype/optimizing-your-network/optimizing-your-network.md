@@ -55,7 +55,7 @@ Along with the information here, there are other resources that can help you suc
     
 - [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
     
-- [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance-in-skype-for-business-online.md)
+- [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md)
     
 ## Implement Quality of Service (QoS) for Skype for Business
 
@@ -69,7 +69,7 @@ While existing QoS policies might be in place already on the LAN and WAN for oth
   
 To help you will sizing your network, download the [Skype for Business Bandwidth Calculator](https://www.microsoft.com/en-us/download/details.aspx?id=19011).
   
-For more about media quality and QoS, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance-in-skype-for-business-online.md).
+For more about media quality and QoS, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
   
 For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
   

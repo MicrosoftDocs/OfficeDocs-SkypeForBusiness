@@ -140,5 +140,5 @@ Although each administrator is allowed to have as many as three simultaneous con
 - **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you are finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you to prevent this issue.  
  
 ## Related topics
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-skype-for-business-online-management-using-windows-powe.md)
+[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 

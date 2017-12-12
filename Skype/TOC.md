@@ -171,6 +171,6 @@
 ### [Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md)
 #### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat.md)
 #### [Languages for voicemail greetings and messages from Skype for Business](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages-from-skype-for-business.md)
-#### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemailadmin-help.md)
+#### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
