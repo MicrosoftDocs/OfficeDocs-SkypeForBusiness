@@ -137,7 +137,7 @@ If you want to change the email address information, you need to make sure that 
   
 You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
   
-See [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md).
+See [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
   
 ## Reset the meeting conference ID
 
