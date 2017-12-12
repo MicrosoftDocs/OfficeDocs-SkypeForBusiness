@@ -196,7 +196,7 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   

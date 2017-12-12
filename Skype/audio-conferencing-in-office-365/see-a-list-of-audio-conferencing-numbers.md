@@ -33,7 +33,7 @@ When you set up Audio Conferencing for Skype for Business and Microsoft Teams us
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business and Microsoft Teams meeting invitations.
   
-You can see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md) to change the dial-in phone number for a single user.
+You can see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-phone-numbers-included-on-invites.md) to change the dial-in phone number for a single user.
   
 > [!NOTE]
 > Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
@@ -76,6 +76,6 @@ You can see [Set the Audio Conferencing phone numbers for meeting organizers tha
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 

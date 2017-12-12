@@ -49,7 +49,7 @@ By using Phone System, your Skype for Business users will get the following feat
 |[Tell me when someone's status changes](https://support.office.com/en-us/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | This feature allows you to tag people who are currently unavailable and get notified when their presence changes and they're ready to take phone calls. <br/> |
 |Clients for PC, Mac, and Mobile  <br/> | This gives you calling features on devices, from tablets and mobile phones to PCs and desktop IP phones. <br/> |
 |Device switching  <br/> |Enables you to play your call or meeting on another device.  <br/> |
-|[Change your Lync alerts](https://support.office.com/en-us/15db9f71-a3d1-4ad7-9d84-39f05520b4c2) <br/> |Play different ringtones for the different types of calls you get every day, so you quickly know who is calling you.  <br/> |
+|[Change your Lync alerts](https://support.office.com/article/15DB9F71-A3D1-4AD7-9D84-39F05520B4C2) <br/> |Play different ringtones for the different types of calls you get every day, so you quickly know who is calling you.  <br/> |
 |[Change your presence status in Skype for Business](https://support.office.com/en-us/article/9b64eef5-47b8-46d8-a744-f490e6f88feb) <br/> |Controls your inbound communications with presence, enabling you to block all incoming communication except from those you specifically indicate.  <br/> |
 |Enterprise calendar call routing  <br/> |Enterprise calendar call routing allows you to use your Exchange calendar business hours to enable or disable call forwarding and simultaneous ringing in Skype for Business.  <br/> |
 |Integrated dial-pad  <br/> | Dial by name or by number anywhere in the search bar and in the dial pad, speeding up the process of making outbound calls. <br/> |
