@@ -24,23 +24,23 @@ description: "Troubleshoot creating a remote PowerShell session to connect to Sk
 
 This topic provides information that will help you diagnose and resolve problems that can occur when you try to create a remote Microsoft PowerShell session that connects to Skype for Business Online. See the following sections:
   
-- [Import-Module error caused by Windows PowerShell execution policy](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_PowerShellExecutionPolicy)
+- [Import-Module error caused by Windows PowerShell execution policy](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_PowerShellExecutionPolicy)
     
-- [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_IncorrectVersion)
+- [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_IncorrectVersion)
     
-- [Failed to connect to Live ID Server](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedConnect)
+- [Failed to connect to Live ID Server](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedConnect)
     
-- [Failed to load Live ID module](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedLoad)
+- [Failed to load Live ID module](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedLoad)
     
-- [Logon failed for the user](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_LogonFailed)
+- [Logon failed for the user](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_LogonFailed)
     
-- [The user does not have permission to manage this tenant](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_UserPermission)
+- [The user does not have permission to manage this tenant](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_UserPermission)
     
-- [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_AbilityConnect)
+- [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_AbilityConnect)
     
-- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
+- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
     
-- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+- [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded ](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
     
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMK_PowerShellExecutionPolicy"> </a>

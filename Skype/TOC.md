@@ -60,11 +60,11 @@
 ### [Set up client policies for your organization](set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md)
 
 ## [Set up your computer for Skype for Business Online and Windows PowerShell](set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
-### [Diagnose connection problems with the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/diagnose-connection-problems-with-the-skype-for-business-online-connector.md)
+### [Diagnose connection problems with the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
 ### [Download and install Windows PowerShell 3.0](set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0.md)
 ### [Download and install the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
 ### [Manage Exchange Unified Messaging and hosted voicemail](set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
-### [Manage user accounts using the Online Connector](set-up-your-computer-for-windows-powershell/manage-user-accounts-using-the-online-connector.md)
+### [Manage user accounts](set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Manage Skype for Business Online organizations using the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
 ## [Set up Skype for Business Online](set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -101,15 +101,15 @@
 ### [What are Communications Credits?](skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Skype for Business Online reporting](skype-for-business-online-reporting/skype-for-business-online-reporting.md)
-### [Skype for Business activity report](activity-report.md)
-### [Skype for Business users blocked report](users-blocked-report.md)
-### [Skype for Business device usage report](device-usage-report.md)
-### [Skype for Business conference organizer activity report](conference-organizer-activity-report.md)
-### [Skype for Business conference participant activity report](conference-participant-activity-report.md)
-### [Skype for Business peer-to-peer activity report](/peer-to-peer-activity-report.md)
-### [Skype for Business PSTN minute pools report](pstn-minute-pools-report.md)
-### [Skype for Business PSTN usage report](pstn-usage-report.md)
-### [Skype for Business session details report](session-details-report.md)
+### [Skype for Business activity report](skype-for-business-online-reporting/activity-report.md)
+### [Skype for Business users blocked report](skype-for-business-online-reporting/users-blocked-report.md)
+### [Skype for Business device usage report](skype-for-business-online-reporting/device-usage-report.md)
+### [Skype for Business conference organizer activity report](skype-for-business-online-reporting/conference-organizer-activity-report.md)
+### [Skype for Business conference participant activity report](skype-for-business-online-reporting/conference-participant-activity-report.md)
+### [Skype for Business peer-to-peer activity report](skype-for-business-online-reporting/peer-to-peer-activity-report.md)
+### [Skype for Business PSTN minute pools report](skype-for-business-online-reporting/pstn-minute-pools-report.md)
+### [Skype for Business PSTN usage report](skype-for-business-online-reporting/pstn-usage-report.md)
+### [Skype for Business session details report](skype-for-business-online-reporting/session-details-report.md)
 
 ## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
 

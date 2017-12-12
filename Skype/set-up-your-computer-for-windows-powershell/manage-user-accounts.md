@@ -1,5 +1,5 @@
 ---
-title: "Manage user accounts using the Online Connector"
+title: "Manage user accounts"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,19 @@ ms.custom:
 description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users."
 ---
 
-# Manage user accounts using the Online Connector
+# Manage user accounts
 
 ## Manage user accounts
 
 This topic contains the following sections:
   
-- [Return information about all your Skype for Business Online users](manage-user-accounts-using-the-skype-for-business-online-connector.md#BKMK_ReturnInfoAboutAllUsers)
+- [Return information about all your Skype for Business Online users](manage-user-accounts.md#BKMK_ReturnInfoAboutAllUsers)
     
-- [Return information for a specific user in Skype for Business Online](manage-user-accounts-using-the-skype-for-business-online-connector.md#BKMK_ReturnInfoSpecificUser)
+- [Return information for a specific user in Skype for Business Online](manage-user-accounts.md#BKMK_ReturnInfoSpecificUser)
     
-- [Return specific information for specific users in Skype for Business Online](manage-user-accounts-using-the-skype-for-business-online-connector.md#BKMK_ReturninfoSpecificUsers)
+- [Return specific information for specific users in Skype for Business Online](manage-user-accounts.md#BKMK_ReturninfoSpecificUsers)
     
-- [Return a filtered list of users in Skype for Business Online ](manage-user-accounts-using-the-skype-for-business-online-connector.md#BKMK_ReturnFilteredListofUsers)
+- [Return a filtered list of users in Skype for Business Online ](manage-user-accounts.md#BKMK_ReturnFilteredListofUsers)
     
 > [!NOTE]
 > The **Set-CsUser** cmdlet is also included in the set of cmdlets available to Skype for Business Online admins. However, **Set-CsUser** cannot currently be used to manage Skype for Business Online, except for setting the _AudioVideoDisabled_ parameter. If you attempt to run the cmdlet with any other parameter, it will fail with an error message similar to this: Unable to set "SipAddress". This parameter is restricted within Remote Tenant PowerShell.
