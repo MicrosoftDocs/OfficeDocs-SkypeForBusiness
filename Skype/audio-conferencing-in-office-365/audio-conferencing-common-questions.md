@@ -86,7 +86,7 @@ To find out about meeting limits, see [Skype for Business Online Limits](https:/
   
 ## Why did users start receiving emails with their Audio Conferencing information?
 
-We added a new feature that allows you, the [admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).
+We added a new feature that allows you, the [admin](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), to send and update Audio Conferencing information and PIN in email. To learn more about it, including how to disable it, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 ## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server 2015?
 

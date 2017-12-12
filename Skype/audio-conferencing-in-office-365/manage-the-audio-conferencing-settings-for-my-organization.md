@@ -185,7 +185,7 @@ See [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-p
     > [!NOTE]
     > When you do this, the audio conferencing PIN isn't sent to the user. 
   
-See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
   
 ## Setting the default audio conferencing phone number for meeting organizers
 
@@ -281,7 +281,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
     
     If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
     
-    See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-audio-conferencing-information.md).
+    See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
     
 ## See and set the primary and secondary languages on an audio conferencing bridge
 
