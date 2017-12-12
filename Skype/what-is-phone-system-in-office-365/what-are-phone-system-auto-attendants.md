@@ -238,7 +238,7 @@ To set up an auto attendant and the menu options, go [Set up a Phone System auto
   
 ### Getting service numbers for an auto attendant
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
@@ -264,6 +264,6 @@ You can get more information on how to make changes to caller ID settings in you
 ## Related topics
 [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

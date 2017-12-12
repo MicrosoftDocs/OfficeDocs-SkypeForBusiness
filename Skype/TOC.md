@@ -166,7 +166,7 @@
 ### [Create a Phone System call queue](what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](what-is-phone-system-in-office-365/getting-phones/getting-phones.md)
 #### [Deploying Skype for Business Online phones](what-is-phone-system-in-office-365/getting-phones/deploying-skype-for-business-online-phones.md)
-### [Getting service phone numbers for Skype for Business and Microsoft Teams](what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+### [Getting service phone numbers for Skype for Business and Microsoft Teams](what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Here's what you get with Phone System](what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### [Phone System voicemail](what-is-phone-system-in-office-365/phone-system-voicemail/phone-system-voicemail.md)
 #### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat.md)

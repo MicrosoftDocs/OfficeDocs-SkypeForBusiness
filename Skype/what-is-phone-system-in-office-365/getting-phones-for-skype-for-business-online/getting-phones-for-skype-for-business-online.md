@@ -105,7 +105,7 @@ For full device features and capabilities, check the manufacturer user guides.
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
 
 ## Related topics
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system-in-office-365.md)
 

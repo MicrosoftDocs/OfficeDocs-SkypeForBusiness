@@ -213,7 +213,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 > BToE isn't currently supported on Mac and VDI platforms. 
   
 ## Related topics
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system-in-office-365.md)
 

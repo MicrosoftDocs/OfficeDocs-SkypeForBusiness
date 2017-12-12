@@ -63,7 +63,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
     
     > [!NOTE]
-    > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md). 
+    > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
     

@@ -41,4 +41,4 @@ description: ""
 
 [Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
