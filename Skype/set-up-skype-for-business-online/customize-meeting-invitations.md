@@ -68,5 +68,5 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 <a name="__top"> </a>
 
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 

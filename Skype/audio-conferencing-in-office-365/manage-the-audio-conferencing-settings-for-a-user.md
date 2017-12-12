@@ -54,7 +54,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 
 [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 [Audio Conferencing common questions](audio-conferencing-common-questions.md)
   

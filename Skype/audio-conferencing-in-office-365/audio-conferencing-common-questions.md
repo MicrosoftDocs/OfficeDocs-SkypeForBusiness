@@ -26,7 +26,7 @@ description: "The following are some of the top questions we get from our custom
 
 The following are some of the top questions we get from our customers who want to use Audio Conferencing. 
   
-For step-by-step instructions for setting up Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md).
+For step-by-step instructions for setting up Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md).
 
 ## What are the benefits of Audio Conferencing?
 
@@ -149,7 +149,7 @@ Here is a table illustrating the scenarios when the organizer and all of the att
    
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
