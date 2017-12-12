@@ -13,7 +13,9 @@ ms.audience: Admin
 ms.appliesto:
 - Skype for Business
 localization_priority: Normal
-ROBOTS: None
+ROBOTS:
+- NOINDEX
+- NOFOLLOW
 f1keywords: 
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
