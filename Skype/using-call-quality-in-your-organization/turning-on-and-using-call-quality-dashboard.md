@@ -1,5 +1,5 @@
 ---
-title: "Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online"
+title: "Turning on and using Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars

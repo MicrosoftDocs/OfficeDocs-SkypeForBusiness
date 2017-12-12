@@ -1,5 +1,5 @@
 ---
-title: "Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online"
+title: "Dimensions and measures available in Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,7 +19,7 @@ ms.custom:
 description: "Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
 
-# Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online
+# Dimensions and measures available in Call Quality Dashboard
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the dimensions and measures exposed by CQD. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md).
   

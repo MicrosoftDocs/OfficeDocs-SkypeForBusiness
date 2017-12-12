@@ -1,5 +1,5 @@
 ---
-title: "Change the default language for voicemail greetings and emails in your organization"
+title: "Change the default language for greetings and emails"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to setup Skype for Busineses to use another language for your organization's default voicemail greeting. "
 ---
 
-# Change the default language for voicemail greetings and emails in your organization
+# Change the default language for greetings and emails
 
 If you are an [Office 365 global administrator](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
   

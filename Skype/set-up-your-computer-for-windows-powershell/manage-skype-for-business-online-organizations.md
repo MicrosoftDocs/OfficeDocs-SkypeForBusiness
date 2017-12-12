@@ -1,5 +1,5 @@
 ---
-title: "Manage Skype for Business Online organizations using the Skype for Business Online Connector"
+title: "Manage Skype for Business Online organizations"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
