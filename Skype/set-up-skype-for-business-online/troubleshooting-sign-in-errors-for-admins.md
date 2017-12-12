@@ -27,7 +27,6 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 ## What do you want to do?
 <a name="top"> </a>
 
-<<<<<<< HEAD
 > [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-sign-in-errors-for-admins.md#__toc323194094)
     
 > [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#__toc325626440)
@@ -47,27 +46,6 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#__toc325626447)
     
 > [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#__collect_more_information_1)
-=======
-> [Check for common causes of Skype for Business Online sign-in errors ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc323194094)
-    
-> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc325626440)
-    
-> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#add-a-firewall)
-    
-> [Update DNS settings](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-dns-service)
-    
-> [Install a third-party SSL certificate on your ADFS server](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#verify-upn-and)
-    
-> [Update security credentials](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-security-credentials)
-    
-> [Modify TrustModelData registry keys](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#modify-trustmodeldata-registry)
-    
-> [Update user settings in Active Directory](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-user-settings)
-    
-> [Use the Microsoft Support troubleshooting guide](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#toc325626447)
-    
-> [Collect more information and seek additional help ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#collect-more-information)
->>>>>>> 7947c83eb30e05935c6fba7d9cddb516f4dfd5b7
     
 ## Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
@@ -76,7 +54,7 @@ Most sign-in issues can be traced to a small number of causes, and many of these
   
 |**Possible Cause**|**Resolution**|
 |:-----|:-----|
-|During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> |Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#modify-trustmodeldata-registry).<br/> |
+|During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> |Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
 |Mistyped sign-in address, user name, or password  <br/> | Confirm that the user's sign-in name and password are correct. <br/>  Verify that the user's sign-in name is formatted as follows: **bobk@contoso.com**. This may be different from the format you use to sign in to your organization's network.  <br/>  Ask the user to try signing in again. <br/> |
 |Forgotten password  <br/> |Reset the user's password and notify him or her of the new temporary password.  <br/> |
 |Not licensed to use Skype for Business Online  <br/> |Confirm that the user is registered as a Skype for Business Online user. If not, register the user, and then ask him or her to sign in again.  <br/> |
@@ -91,18 +69,18 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section,[Collect more information and seek additional help ](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#collect-more-information). 
+>  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section,[Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
   
 If the user cannot sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
   
 |**Error message**|**Possible cause**|**Resolution**|
 |:-----|:-----|:-----|
-|Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#add-a-firewall) <br/> |
-|Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-dns-service) <br/> |
-|Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#verify-upn-and) <br/> |
-|Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-security-credentials) <br/> |
-|A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#modify-trustmodeldata-registry) <br/> |
-|User is not SIP enabled  <br/> |If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services. <br/> |[Update user settings in Active Directory](troubleshooting-skype-for-business-online-sign-in-errors-for-administrators.md#update-user-settings)<br/> |
+|Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
+|Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
+|Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
+|Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
+|A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|User is not SIP enabled  <br/> |If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services. <br/> |[Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
    
 ### Add a firewall entry for msoidsvc.exe to your proxy server
 <a name="add-a-firewall"> </a>
