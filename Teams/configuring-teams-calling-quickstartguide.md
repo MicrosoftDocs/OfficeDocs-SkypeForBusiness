@@ -15,7 +15,7 @@ Quick start guide: Configuring Calling Plans in Microsoft Teams
 
 This guide will help you get a set of users up and running so they can explore Calling Plans in Teams.
 
-Read the December 12, 2017, announcement of Calling Plans in Teams: [Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)
+Read the December 14, 2017, announcement of Calling Plans in Teams: [Intelligent Communications takes the next step with calling in Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > We recommend that, in parallel with this quick-start guide, you use our [practical guidance](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans) and [FastTrack](https://aka.ms/cloudvoice) to plan and drive a successful rollout.
@@ -33,7 +33,7 @@ To enable the **Calls** tab in Teams and allow your users to make and receive PS
 > * **Federated calling is not supported in Teams** - Federated calling (calling between tenants/companies) is currently not supported in Teams. Federated calls will always be routed to Skype for Business regardless of how you configure calling, until it's supported in Teams.
 
 ## Teams interop policy configuration
-To enable Teams to begin receiving calls, you will need to update Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps) cmdlets, to redirect calls to Teams. For more information about Teams interop policy, see [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+To enable Teams to begin receiving calls, you will need to update Teams interop policy, manageable through Skype for Business remote Windows PowerShell session using [`*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsInteropPolicy) cmdlets, to redirect calls to Teams. For more information about Teams interop policy, see [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
 
 ### Default Teams interop policy
 Teams has a default policy configuration designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling to Teams. This ensures that there are no unintended interruptions in voice services as you start to pilot and deploy Teams.
@@ -117,3 +117,7 @@ To create the custom Teams interop policy as described above via Skype for Busin
 [Microsoft Teams and Skype for Business Interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
 
 [Practical Guidance for Phone System with Calling Plans in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+
+[Skype for Business PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/skype)
+
+[Teams PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/teams)

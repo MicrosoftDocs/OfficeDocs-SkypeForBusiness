@@ -311,11 +311,15 @@ Phone numbers can be [obtained directly from Microsoft](https://support.office.c
 > [!NOTE]
 > Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011) for the details.
 
-When obtaining phone numbers from Microsoft directly, you can choose to use [Skype for Business admin center](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5) or [remote Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps), or to [submit a completed New Telephone Number Request form](https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
+To obtain phone numbers from Microsoft directly, use any of these options:
 
-The manual form submission is preferred for a planned phone number acquisition since contiguous block of phone numbers can be requested. Obtaining phone numbers using Skype for Business admin center or remote Windows PowerShell are not available in every countries or regions, and therefore the manual form submission method is the widely available method to obtain phone numbers.
+- [Skype for Business admin center](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- [Remote Windows PowerShell cmdlets](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
+- [Submit a New Telephone Number Request form][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 
-The other method, using Skype for Business admin center or remote Windows PowerShell, will work for one-off, instantaneous, phone number acquisition, and when contiguous block of phone numbers is not required.
+The New Telephone Number Request form works best for a planned phone number acquisition, because you can request a contiguous block of phone numbers. Obtaining phone numbers using Skype for Business admin center or remote Windows PowerShell are not available in every country or region.
+
+The first two methods - using Skype for Business admin center or remote Windows PowerShell - will work for one-off, instantaneous, phone number acquisition, and when contiguous blocks of phone numbers are not required.
 
 > [!NOTE]
 > There is a limit on the [number of the phone numbers](https://support.office.com/article/How-many-phone-numbers-can-you-get-61dfb27c-5bfa-4481-a930-9c026e73ff3a) that can be acquired from Microsoft based on the number of Calling Plan licenses subscribed by your organization. For user (subscriber) phone numbers, the formula is (Number of Domestic Calling Plan + Domestic and International Calling Plan licenses) x 1.1 +10. For example, if you have 50 users with Calling Plan licenses, you can acquire 65 phone numbers ((50 x 1.1) + 10).
