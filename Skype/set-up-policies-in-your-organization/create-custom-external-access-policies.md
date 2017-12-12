@@ -17,7 +17,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
-description: "Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios. These are:"
+description: "Skype for Business Online allows you to create additional external access policies. Unlike client or conferencing policies, where you can have multiple combinations, there are three predefined external access policies that can cover most of the scenarios."
 ---
 
 # Create custom external access policies

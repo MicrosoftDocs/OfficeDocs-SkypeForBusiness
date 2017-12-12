@@ -27,7 +27,7 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continous phone system access. "
+description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continuous phone system access. "
 ---
 
 # Add funds and manage Communications Credits

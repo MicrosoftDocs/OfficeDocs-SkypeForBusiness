@@ -18,6 +18,6 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Legal
-description: "There is content that must be published to meet requirements for accessibility, compliance and regulatory. "
+description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 # Accessibility and regulatory

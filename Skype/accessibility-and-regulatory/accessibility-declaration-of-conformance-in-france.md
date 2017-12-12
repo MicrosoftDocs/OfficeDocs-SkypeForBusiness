@@ -18,7 +18,7 @@ ROBOTS: None
 f1keywords: None
 ms.custom:
 - Legal
-description: "Accessibility in France."
+description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 
 # Accessibility Declaration of Conformance for Skype for Business Online in France
