@@ -46,9 +46,9 @@ In addition to the supported operating system, the computer must also be running
     
 You can find information about downloading and installing these items in the following topics:
   
-- [Download and install the Skype for Business Online Connector module](download-and-install-the-skype-for-business-online-connector-module.md)
+- [Download and install the Skype for Business Online Connector module](download-and-install-the-skype-for-business-online-connector.md)
     
 - [Download and install Windows PowerShell 3.0](download-and-install-windows-powershell-3-0.md)
     
 ## Related topics
-[Diagnose connection problems with the skype for business online connector](diagnose-connection-problems-with-the-skype-for-business-online-connector.md)
+[Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
