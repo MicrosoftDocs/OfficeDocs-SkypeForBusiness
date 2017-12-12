@@ -32,7 +32,7 @@ As a Skype for Business Online admin, you can use Call Analytics to troubleshoot
 > Call Analytics is currently in preview. Text and images described here may not match your experience. 
   
 ## Set Call Analytics permissions
-<a name="BKMK_SetCAPerms"> </a>
+<a name="BKMK_SetCAPerms"></a>
 
 As the admin, you get full access to all the features of Call Analytics. In addition, you can use a helpdesk model in Call Analytics that includes Tier 1 and Tier 2 permission groups. Users with Tier 1 permissions can access only a limited view of Call Analytics. Users with Tier 2 permissions can access the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Skype for Business admin center. You can grant access to the tiers by adding a group that contains the user to either the Tier 1 or the Tier 2 section of the Permissions page. For details, see [Set up tiered permissions in Call Analytics](set-up-call-analytics.md#BKMK_SetUpTier).
   
@@ -54,7 +54,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
  **Set up tiered permissions in Call Analytics**
 <a name="BKMK_SetUpTier"> </a>
   
-1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see [Create, edit, or delete a security group in the Office 365 admin center](http://technet.microsoft.com/library/55c96b32-e086-4c9e-948b-a018b44510cb%28Office.14%29.aspx).
+1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see [Create, edit, or delete a security group in the Office 365 admin center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
 2. In the Office 365 admin center, go to **Admin centers** > **Skype for Business**.
     
@@ -78,11 +78,11 @@ You can add building, site, and tenant information to Call Analytics by uploadin
   
 If you're a Skype for Business admin, you can use an existing data file from the Skype for Business Online Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. To download an existing data file, go to the **Skype for Business Admin center** > **Tools** > **Skype for Business Online Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
   
-If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md#BKMK_TenantDataFile).
+If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#BKMK_TenantDataFile).
   
 ## Related topics
 <a name="BKMK_UploadFiles"> </a>
 
-[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
+[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
+[What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
