@@ -206,10 +206,6 @@ Here are the cmdlets that you need to manage an auto attendant.
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md)
 
-<<<<<<< HEAD
 [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-=======
-[Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
->>>>>>> 877d2e72fa109ce6ee1351cb1ef0d6b7dbbe5fdd
     
 
