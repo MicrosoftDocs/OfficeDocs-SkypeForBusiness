@@ -116,27 +116,6 @@ Skype for Business clients use a variety of ports and protocols. The direction a
   
 Additional network configuration might also be required to support Skype for Business Online.
   
-You can run the FastTrack Cloudapp test from your client machines to verify things are set up right:
-  
-- **For North America:**
-    
-  - [Office 365 Fast Track Network Analysis (North America)](http://na1-fasttrack.cloudapp.net/)
-    
-  - [https://137.117.72.96](https://137.117.72.96)
-    
-- **For EMEA:**
-    
-  - [Office 365 Fast Track Network Analysis (EMEA)](http://em1-fasttrack.cloudapp.net/)
-    
-  - [https://137.116.212.202](https://137.116.212.202)
-    
-- **For APAC:**
-    
-  - [Office 365 Fast Track Network Analysis (Asia Pacific)](http://ap1-fasttrack.cloudapp.net)
-    
-  - [https://168.63.169.67](https://168.63.169.67)
-    
-You can also see [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md).
   
 ## Use Phones and Devices Optimized for Skype for Business
 
