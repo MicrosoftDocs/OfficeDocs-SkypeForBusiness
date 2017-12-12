@@ -135,7 +135,7 @@ items:
   content: |
     Once you've verified that your environment is ready to run Teams, you can start a Teams pilot. Skype for Business and Teams offer overlapping functionality – that's why it's helpful to start your journey with a pilot. 
         #### Watch the video "Running a Teams Pilot" (3:30 minutes)
-            > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]
+       > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]
 
     
     The pilot is a small-scale deployment that lets you validate the interoperability with Skype for Business in your environment as well as understand how your end users can maximize their productivity while minimizing confusion with both products running side-by-side. 
