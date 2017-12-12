@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable sending emails when Audio Conferencing settings change"
+title: "Enable or disable sending emails when their settings change"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

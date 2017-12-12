@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Declaration of Conformance for Skype for Business Online in France"
+title: "Accessibility Declaration of Conformance in France"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

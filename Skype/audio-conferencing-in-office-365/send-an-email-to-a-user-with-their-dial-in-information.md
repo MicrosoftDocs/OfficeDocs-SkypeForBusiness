@@ -1,5 +1,5 @@
 ---
-title: "Send an email to a user with their Audio Conferencing information"
+title: "Send an email to a user with their dial-in information"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

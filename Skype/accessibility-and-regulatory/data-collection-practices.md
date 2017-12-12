@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business and Microsoft Teams data collection practices"
+title: "Data collection practices"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

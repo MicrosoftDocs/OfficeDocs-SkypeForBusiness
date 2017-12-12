@@ -1,5 +1,5 @@
 ---
-title: "Manage Exchange Unified Messaging and hosted voicemail in Skype for Business Online"
+title: "Manage Exchange Unified Messaging and hosted voicemail"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

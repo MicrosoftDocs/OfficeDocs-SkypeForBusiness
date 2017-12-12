@@ -1,5 +1,5 @@
 ---
-title: "Set up your computer for Skype for Business Online management using Windows PowerShell"
+title: "Set up your computer for Windows PowerShell"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
