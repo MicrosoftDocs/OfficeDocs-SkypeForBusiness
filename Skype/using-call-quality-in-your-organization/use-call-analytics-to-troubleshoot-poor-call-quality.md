@@ -69,5 +69,5 @@ For audio sessions that do have quality of experience (QoE) data, the following 
 ## Related topics
 [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
-[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
+[What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
