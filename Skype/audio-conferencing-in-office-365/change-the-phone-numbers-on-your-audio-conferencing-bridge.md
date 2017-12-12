@@ -50,7 +50,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
   
 ### Step 2 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-phone-numbers-included-on-invites.md).
+The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -64,9 +64,9 @@ After the changes have been saved, the new default phone numbers will be include
   
 ### Step 3 - Update existing meeting invites of users using the Meeting Migration Service (optional)
 
-For the next two steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md#bk_PowerShell)
+For the next two steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bk_PowerShell)
   
-Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](setting-up-the-meeting-migration-service-mms.md)﻿.
+Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](setting-up-the-meeting-migration-service-mms.md).
   
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
     
@@ -88,7 +88,7 @@ When you unassign a phone number from a conferencing bridge, users won't be able
   
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that won't work for joining their meetings anymore.
   
-For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md#bk_PowerShell)
+For the first three steps, you will need to start Windows PowerShell. To see how to do this, click [Want to know how to manage with Windows PowerShell?](change-the-toll-or-toll-free-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
   
 ### Step 1 - Update users that have the phone number to be unassigned as one of their default numbers
 
@@ -128,7 +128,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings. 
   
 ## Want to know how to manage with Windows PowerShell?
-<a name="bk_PowerShell"> </a>
+<a name="bkPowerShell"> </a>
 
 ### To verify that Windows PowerShell is ready to go
 
