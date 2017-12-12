@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing complimentary dial-out period"
+title: "Complimentary dial-out period"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

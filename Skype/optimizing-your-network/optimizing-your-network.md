@@ -1,5 +1,5 @@
 ---
-title: "Optimizing your network for Skype for Business Online"
+title: "Optimizing your network"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Accessibility solutions for Skype for Business Online in France"
+title: "Accessibility solutions in France"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

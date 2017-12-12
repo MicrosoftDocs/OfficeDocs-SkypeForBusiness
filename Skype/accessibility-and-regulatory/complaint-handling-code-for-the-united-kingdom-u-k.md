@@ -1,5 +1,5 @@
 ---
-title: "Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)"
+title: "Complaint handling code for the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

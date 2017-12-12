@@ -1,5 +1,5 @@
 ---
-title: "Media Quality and Network Connectivity Performance in Skype for Business Online"
+title: "Media Quality and Network Connectivity Performance"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: "Emails that are automatically sent to users when their Audio Conferencing settings change"
+title: "Emails sent to users when their settings change"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
