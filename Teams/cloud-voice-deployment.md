@@ -2,8 +2,8 @@
 title: Cloud voice deployment
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 12/07/2017
+manager: lolaj
+ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
@@ -17,6 +17,7 @@ Microsoft Teams, the hub for teamwork and communications in Office 365, now prov
  
 Use the [practical guidance for Audio Conferencing](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing) to help you plan the deployment of Audio Conferencing in Teams.
 
+Use the [practical guidance for Phone System with Calling Plans](https://docs.microsoft.comMicrosoftTeams/phone-system-with-calling-plans) to help you plan the deployment of Phone System with Calling Plans in Teams.
  
 We'll update this page as additional cloud voice features for Teams are released over time.
 
