@@ -38,13 +38,14 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then click the **Add new address** button.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!Important]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. In the Action pane, under **New Address**, enter the required information in the boxes.
     
 5. After you enter all of the information for the address, click **Validate**.
     
-    > [!CAUTION]
+    > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
   
     If the address can't be validated, you can send a manual validation request by clicking **Send a validation request** if you are trying to validate a U.S. address, or click **Open a service request to get help with address validation** if you are outside the United States.
@@ -59,7 +60,8 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
 3. In the left navigation, go to **Voice** > **Emergency location**, select the address you want to delete, and in the Action pane click **Delete**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 ## Related topics
 [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)

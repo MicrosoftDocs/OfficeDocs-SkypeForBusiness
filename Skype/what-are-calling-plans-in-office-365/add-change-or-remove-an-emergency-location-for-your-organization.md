@@ -36,7 +36,8 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!Important]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     

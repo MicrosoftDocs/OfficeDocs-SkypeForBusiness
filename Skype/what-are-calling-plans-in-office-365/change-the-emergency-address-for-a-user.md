@@ -36,7 +36,8 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 3. In the left navigation, go to **Voice** > **Voice users**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. On the **Voice users** page, locate and select the user you want to change the emergency address for.
     

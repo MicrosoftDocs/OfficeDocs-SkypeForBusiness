@@ -46,7 +46,8 @@ You have two ways of getting service numbers so you can use them with Skype for 
     
 3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT] 
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. On the **Add new service numbers** page, choose the following:
     
