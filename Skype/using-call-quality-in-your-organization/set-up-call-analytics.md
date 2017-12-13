@@ -78,7 +78,7 @@ You can add building, site, and tenant information to Call Analytics by uploadin
   
 If you're a Skype for Business admin, you can use an existing data file from the Skype for Business Online Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. To download an existing data file, go to the **Skype for Business Admin center** > **Tools** > **Skype for Business Online Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
   
-If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#BKMK_TenantDataFile).
+If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
 ## Related topics
 <a name="BKMK_UploadFiles"> </a>

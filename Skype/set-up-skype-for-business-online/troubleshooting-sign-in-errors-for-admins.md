@@ -122,7 +122,7 @@ If your organization has a custom domain, this procedure is a possible fix for t
 For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
 ### Install a third-party SSL certificate on your ADFS server
-<a name="verify_upn_and"> </a>
+<a name="verify-upn-and"> </a>
 
 To install a third-party SSL certificate on your Active Domain Federation Services (ADFS) server, follow these steps:
   
