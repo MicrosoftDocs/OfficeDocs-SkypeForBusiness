@@ -28,7 +28,7 @@ When you set up Calling Plans in Office 365, you assign phone numbers to your us
 
 In the Microsoft Teams client, the phone number you assign will be listed when they click **Calls**.
 
-![User's phone number displayed in Microsoft Teams.](../images/TeamsPhoneNumber.png)
+![User's phone number displayed in Microsoft Teams.](../images/teams-phone-number.png)
 
 In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.
   

@@ -34,7 +34,8 @@ There are different types of phone numbers that you can assign to users or other
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. To view the phone numbers that are assigned, see the **Number** column.
     
@@ -62,7 +63,8 @@ When you are setting up users, you might just want to see the list of the phone 
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
@@ -82,7 +84,8 @@ When you are setting up users in your organization to make and receive phone cal
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
