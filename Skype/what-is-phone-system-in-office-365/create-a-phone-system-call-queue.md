@@ -117,14 +117,14 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![2](../images/sfbcallout2.png)<br/>**Music on hold** You can either use the default Music on Hold provided with the call queue, or you can upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on Hold. 
    
-### Select the call distribution method (available to Preview customers only)
+### Select the call distribution method
 
 ![Shows the call distribution method options](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
 ![1](../images/sfbcallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.  <br/><br/>  **Note:** Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.  
    
-### Select an agent opt out option (available to Preview customers only)
+### Select an agent opt out option
 
 ![Shows the agent opt out check box](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
@@ -143,8 +143,8 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 *    An Online user with a **Phone System** license enabled for Enterprise Voice or with a Calling Plan. <br/><br/> **Note:**  To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 *    Online users with a with a **Phone System** license or a Calling Plan that are added to a mail-enabled Distribution List or Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. <br/><br/>  **Note:** Office 365 Groups (Modern Groups) can't be used with call queues. 
 
-> [!NOTE] 
-> Users hosted on-premises using Lync Server 2010 aren't supported.          
+    > [!NOTE] 
+    > Users hosted on-premises using Lync Server 2010 aren't supported.          
    
 ### Set the maximum queue size and maximum wait time
 
@@ -156,16 +156,24 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![2](../images/sfbcallout2.png)<br/><br/>**When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 *    **Disconnect with a busy signal** The call will be disconnected.
 *    **Forward this call to** When you choose this, you will have these options:
-     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/>**Note:**  Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
+     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/>
+     
+        > [!Note]
+        > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
+     
      *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
      *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 ***
-![3](../images/sfbcallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> **Note:** **Available to Preview customers only.** The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
+![3](../images/sfbcallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
 ***
 ![4](../images/sfbcallout4.png)<br/><br/>**When a call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 *    **Disconnect** The call will be disconnected.
 *    **Forward this call to** When you choose this, you will have these options:
-     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. **Note:**  Users hosted on-premises using Lync Server 2010 aren't supported.
+     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. 
+
+        > [!Note]
+        > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
+
      *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
      *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
    
