@@ -1,5 +1,5 @@
 ---
-title: "Getting service phone numbers for Skype for Business and Microsoft Teams"
+title: "Getting service phone numbers"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers."
 ---
 
-# Getting service phone numbers for Skype for Business and Microsoft Teams
+# Getting service phone numbers
 
 In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   

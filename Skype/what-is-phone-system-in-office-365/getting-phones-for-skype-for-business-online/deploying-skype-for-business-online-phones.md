@@ -90,7 +90,7 @@ For network infrastructure planning, see [Skype Operations Framework](https://ww
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-You can find out more about Calling Plans by reading [What are Calling Plans in Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+You can find out more about Calling Plans by reading [What are Calling Plans in Office 365?](../../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
   
 - **Sign-in options** that are available for Online users are:
     
@@ -213,9 +213,9 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 > BToE isn't currently supported on Mac and VDI platforms. 
   
 ## Related topics
-[Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Here's what you get with Phone System in Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
