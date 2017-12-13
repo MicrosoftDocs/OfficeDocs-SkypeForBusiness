@@ -187,7 +187,6 @@ We recommend that you set up Communications Credits for your Audio Conferencing 
   
 If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial out from meetings. You can find out more information including recommended funding amounts by reading [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
-##
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 ## Related topics

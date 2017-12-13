@@ -227,4 +227,6 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 |PSTN call  <br/> |Online user on your network using Cloud Connector Edition.  <br/> |local  <br/> |local  <br/> |[PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN call  <br/> |Online user using the internet using Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combination of [On-premises Edge server with Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) and [PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internet users will connect via the Edge server that is included in Cloud Connector, and Cloud Connector will connect to the PSTN network.  <br/> |
    
+## Related topics
 
+[ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
