@@ -21,7 +21,7 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: "Learn what to do if your carrier isn't listed in Skype for Business."
+description: "Learn what to do if your carrier isn't listed in Skype for Business. "
 ---
 
 # What if my phone carrier isn't listed as the source carrier?
