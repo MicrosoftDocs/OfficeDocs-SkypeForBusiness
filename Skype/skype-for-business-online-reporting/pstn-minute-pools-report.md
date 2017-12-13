@@ -49,7 +49,7 @@ This is what the report looks like.
 ![Skype for Business PSTN minute pools report](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
+![1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
 *    **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
      * MCOPSTNPP - Communications Credits
      * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans

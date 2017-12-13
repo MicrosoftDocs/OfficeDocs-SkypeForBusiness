@@ -101,7 +101,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 
 ![Setting up a call queue.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
 ***
-![1](../images/SfBCallout1.png)<br/>
+![1](../images/sfbcallout1.png)<br/>
 **Name** Enter a descriptive display name for the call queue. This is required and can contain up to 64 characters, including spaces. <br/> This name will be displayed in the notification for the incoming call.
 ***
 ![2](../images/SfBCallout2.png)<br/>**Phone number** Select a service toll or toll-free phone number for the call queue. This is optional. <br/> If there aren't any listed, you need to get service numbers before you can create this call queue. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
@@ -113,7 +113,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>**Greeting** is optional. This is the greeting that is played for people who call in to the call queue number. <br/> You can upload an audio file (.wav, .mp3, or .wma formats).
+![1](../images/sfbcallout1.png)<br/>**Greeting** is optional. This is the greeting that is played for people who call in to the call queue number. <br/> You can upload an audio file (.wav, .mp3, or .wma formats).
 ***
 ![2](../images/SfBCallout2.png)<br/>**Music on hold** You can either use the default Music on Hold provided with the call queue, or you can upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on Hold. 
    
@@ -122,14 +122,14 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![Shows the call distribution method options](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.  <br/><br/>  **Note:** Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.  
+![1](../images/sfbcallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.  <br/><br/>  **Note:** Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.  
    
 ### Select an agent opt out option (available to Preview customers only)
 
 ![Shows the agent opt out check box](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>**Agent Opt out option** You can choose to allow call queue agents to opt out of taking calls from a particular queue by selecting **Agent Opt out option**.  <br/> Enabling this option allows all agents in this queue to start or stop receiving call from this call queue at will. You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents).  <br/><br/> To access the opt-out option, agents can do the following:
+![1](../images/sfbcallout1.png)<br/>**Agent Opt out option** You can choose to allow call queue agents to opt out of taking calls from a particular queue by selecting **Agent Opt out option**.  <br/> Enabling this option allows all agents in this queue to start or stop receiving call from this call queue at will. You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents).  <br/><br/> To access the opt-out option, agents can do the following:
  1. Open **Options** in their desktop Skype for Business client. 
  2. On the **Call Forwarding** tab, click the **Edit settings online** link.
  3. On the user settings page, click **Call Queues**, and then clear the check boxes for any queues for which they want to opt out.
@@ -139,7 +139,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![Set up call queues.](../images/9c0c551b-218b-4268-9b73-c85000c99296.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/><br/>Call agents (50 maximum) can be:
+![1](../images/sfbcallout1.png)<br/><br/>Call agents (50 maximum) can be:
 *    An Online user with a **Phone System** license enabled for Enterprise Voice or with a Calling Plan. <br/><br/> **Note:**  To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 *    Online users with a with a **Phone System** license or a Calling Plan that are added to a mail-enabled Distribution List or Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. <br/><br/>  **Note:** Office 365 Groups (Modern Groups) can't be used with call queues. 
 
@@ -150,7 +150,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/><br/>**Maximum calls in the queue** Use this to set the maximum calls that can wait in the queue at the same time. The default is 50, but it can range from 0 to 200.When this limit is reached, the call will be handled in way you have set on the **When the maximum number of calls is reached** setting below.
+![1](../images/sfbcallout1.png)<br/><br/>**Maximum calls in the queue** Use this to set the maximum calls that can wait in the queue at the same time. The default is 50, but it can range from 0 to 200.When this limit is reached, the call will be handled in way you have set on the **When the maximum number of calls is reached** setting below.
 ***
 ![2](../images/SfBCallout2.png)<br/><br/>**When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.
 *    **Disconnect with a busy signal** The call will be disconnected.

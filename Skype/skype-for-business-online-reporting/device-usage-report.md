@@ -49,7 +49,7 @@ You can get a view into the devices that are using the Skype for Business app by
 ![Skype for Business device usage report](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
+![1](../images/sfbcallout1.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
 ***
 ![2](../images/SfBCallout2.png)<br/>
 Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 

@@ -52,7 +52,7 @@ You can get a view into your Skype for Business peer-to-peer activity by looking
 ![Skype peer to peer report with callouts.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![1](../images/SfBCallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
+![1](../images/sfbcallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
 ***
 ![2](../images/SfBCallout2.png)<br/>Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
@@ -88,7 +88,7 @@ If your organization's policies prevents you from viewing reports where user inf
 ***
 ![9](../images/SfBCallout9.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
 ***
-![10](../images/SfBCallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.         
+![10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.         
    
 ## Want to see other Skype for Business reports?
 

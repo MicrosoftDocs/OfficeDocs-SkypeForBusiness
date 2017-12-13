@@ -43,7 +43,7 @@ This is what the report looks like.
 
 The table shows you a breakdown of the all of the users that are blocked from making calls. This shows all users who have Phone System or Audio Conferencing assigned to them. You can add/remove columns to the table.
 ***
-![1](../images/SfBCallout1.png)
+![1](../images/sfbcallout1.png)
 *   **User ID** is the user's sign-in.
 *   **Phone number** is the number that is assigned to a user. 
 *   **Block action time** is the time (UTC) that the user was blocked from making calls.

@@ -50,7 +50,7 @@ You can get a view into your user's Skype for Business activity by looking at th
 ![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>
+![1](../images/sfbcallout1.png)<br/>
 The **Skype for Business Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
 ***
 ![2](../images/SfBCallout2.png)<br/>

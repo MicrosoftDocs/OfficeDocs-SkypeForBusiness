@@ -47,7 +47,7 @@ This is what the report looks like.
 ![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![1](../images/SfBCallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
+![1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
 *    **Call ID** is the call ID for a call. It is a unique identifier for the call that is used when calling Microsoft service support.
 *    **User ID** is the user's sign in name.
 *    **Phone number** is the Skype for Business phone number that received the call for inbound calls or the number dialed for outbound calls.

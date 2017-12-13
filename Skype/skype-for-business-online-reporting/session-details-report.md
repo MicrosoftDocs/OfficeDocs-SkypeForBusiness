@@ -54,7 +54,7 @@ This is what the report looks like.
 ![Skype for Business Session Details Report dashboard.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
   
 ***
-![1](../images/SfBCallout1.png)<br/>**Search user by alias** lets you search for a single user and displays all of the user's session details in the table below. 
+![1](../images/sfbcallout1.png)<br/>**Search user by alias** lets you search for a single user and displays all of the user's session details in the table below. 
 ***
 ![2](../images/SfBCallout2.png)<br/>**Enter from date time** lets you put in the start date. You can use the calendar to select the date or enter the date manually. This field must be populated.
 ***
