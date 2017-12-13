@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. "
 ---
 
-# Skype for Business activity report
+# Activity report
 
 The new Office 365 **Reports** dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product-level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business activity** report to see how much your users are using peer-to-peer or organized conferencing sessions, or how much they're participating in conferencing sessions. 
 
