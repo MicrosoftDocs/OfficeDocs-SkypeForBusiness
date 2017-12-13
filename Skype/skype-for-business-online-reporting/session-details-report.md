@@ -56,11 +56,11 @@ This is what the report looks like.
 ***
 ![1](../images/sfbcallout1.png)<br/>**Search user by alias** lets you search for a single user and displays all of the user's session details in the table below. 
 ***
-![2](../images/SfBCallout2.png)<br/>**Enter from date time** lets you put in the start date. You can use the calendar to select the date or enter the date manually. This field must be populated.
+![2](../images/sfbcallout2.png)<br/>**Enter from date time** lets you put in the start date. You can use the calendar to select the date or enter the date manually. This field must be populated.
 ***
-![3](../images/SfBCallout3.png)<br/>**Enter to date time** lets you put in the end date. You can use the calendar to select the date or enter the date manually. If no end date is set, the default is 30 days from the start date.
+![3](../images/sfbcallout3.png)<br/>**Enter to date time** lets you put in the end date. You can use the calendar to select the date or enter the date manually. If no end date is set, the default is 30 days from the start date.
 ***
-![4](../images/SfBCallout4.png)<br/>The table shows you a breakdown of the all session details per user. This shows all users that have Skype for Business assigned to them and their session information. You can add/remove columns to the table. <br/><br/>The table has the following columns for each session:
+![4](../images/sfbcallout4.png)<br/>The table shows you a breakdown of the all session details per user. This shows all users that have Skype for Business assigned to them and their session information. You can add/remove columns to the table. <br/><br/>The table has the following columns for each session:
 *    **Dialog ID** is the ID for unique identifier of the SIP session.
 *    **Media types description** describes whether the session is a conference call or a P2P session and the type of media used (Audio/Video/Application Sharing).
 *    **Start time** is the time when the session started.
@@ -90,9 +90,9 @@ For each session, there is a sub table with different data available depending o
 *    TRACEROUTES tab shows the network hops collected via traceroute during the session. The actual media path used for the session may vary and this data is only available when there is audio in the session.
 *    FEEDBACKREPORTS tab shows any end of call survey data provided by the users in the session.
 ***
-![5](../images/SfBCallout5.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+![5](../images/sfbcallout5.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
 ***
-![6](../images/SfBCallout6.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  
+![6](../images/sfbcallout6.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.  
    
 ## Want to see other Skype for Business reports?
 
