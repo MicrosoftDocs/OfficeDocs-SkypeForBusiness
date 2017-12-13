@@ -21,7 +21,7 @@ description: "Get detailed information about the dimensions and measures exposed
 
 # Dimensions and measures available in Call Quality Dashboard
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the dimensions and measures exposed by CQD. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-bu.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the dimensions and measures exposed by CQD. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
   
 ## First and Second endpoint classification
 
@@ -504,8 +504,8 @@ The following table lists the measures currently available in Call Quality Dashb
 |Firewall DPI Media Failure Percentage  <br/> |Percentage  <br/> |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
    
 ## Related topics
-[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
-[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
+[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
+[What's the difference between Call Analytics and Call Quality Dashboard?](Difference-between-call-analytics-and-call-quality-dashboard.md)

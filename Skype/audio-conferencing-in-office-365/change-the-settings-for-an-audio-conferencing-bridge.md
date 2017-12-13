@@ -81,7 +81,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their audio conferencing configuration changes**, and then click **Save**.
     
-    See [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md) for more information.
+    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
     
 ## Want to know how to manage with Windows PowerShell?
 

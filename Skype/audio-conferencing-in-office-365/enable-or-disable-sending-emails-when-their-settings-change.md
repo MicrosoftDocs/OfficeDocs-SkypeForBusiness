@@ -125,7 +125,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
   
 ## Related topics
 
-[Emails that are automatically sent to users when their Audio Conferencing settings change](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md)
+[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-audio-conferencing-settings change.md)
 
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
 

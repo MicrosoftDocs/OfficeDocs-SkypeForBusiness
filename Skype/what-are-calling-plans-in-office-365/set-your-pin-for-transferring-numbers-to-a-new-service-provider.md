@@ -1,5 +1,5 @@
 ---
-title: "Set your PIN for transferring phone numbers to a new service provider"
+title: "Set your PIN for transferring numbers to a new service provider"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out."
 ---
 
-# Set your PIN for transferring phone numbers to a new service provider
+# Set your PIN for transferring numbers to a new service provider
 
 To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. 
   

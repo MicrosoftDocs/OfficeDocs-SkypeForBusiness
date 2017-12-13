@@ -238,7 +238,7 @@ If you want to view the dimensions and measures for a single media type, the new
 ![Call Quality Dashboard Total Stream Count.](../images/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## Related topics
-[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
 [Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

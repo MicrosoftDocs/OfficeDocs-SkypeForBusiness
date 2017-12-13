@@ -84,7 +84,7 @@ The following steps are **optional**, but a lot of admins like to do them:
     
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
     
-4. [Set the length of the PIN for Audio Conferencing meetings](set-the-length-of-the-pin-for-audio-conferencing-meetings.md).
+4. [Set the length of the PIN for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings.md).
     
 ## 
 
