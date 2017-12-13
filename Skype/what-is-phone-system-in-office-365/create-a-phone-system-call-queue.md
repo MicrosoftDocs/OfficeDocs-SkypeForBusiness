@@ -38,11 +38,11 @@ Phone System call queues can provide:
     
 When someone calls in to a phone number that is set up up with a call queue, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in the  *First In, First Out*  (FIFO) manner.
   
-All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode (available to Preview customers only):
+All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
   
 - With attendant routing, the first call in the queue will ring all agents at the same time.﻿
     
-- With serial routing, the first call in the queue will ring all call agents one by one (available to Preview customers only)
+- With serial routing, the first call in the queue will ring all call agents one by one.
     
     > [!NOTE]
     > Call agents who are **Offline**, have set their presence to **Do not Disturb,** or have opted out of the call queue won't be called.
@@ -117,14 +117,14 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>**Music on hold** You can either use the default Music on Hold provided with the call queue, or you can upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on Hold. 
    
-### Select the call distribution method (available to Preview customers only)
+### Select the call distribution method 
 
 ![Shows the call distribution method options](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
 ![Number 1](../images/sfbcallout1.png)<br/>**Call distribution method** You can choose either **Attendant** or **Serial** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets. <br/><br/> When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.  <br/><br/>  **Note:** Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.  
    
-### Select an agent opt out option (available to Preview customers only)
+### Select an agent opt out option
 
 ![Shows the agent opt out check box](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
@@ -160,7 +160,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
      *    **Call Queue** You must have already created another call queue, but after you do, you can select that call queue.
      *    **Auto Attendant** You must have already created an auto attendant, but after you do, you can select that auto attendant. See [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 ***
-![Number 3](../images/sfbcallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> **Note:** **Available to Preview customers only.** The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
+![Number 3](../images/sfbcallout3.png)<br/><br/>**How long a call can wait in the queue** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes. <br/><br/> **Note:** The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant. 
 ***
 ![Number 4](../images/sfbcallout4.png)<br/><br/>**When a call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 *    **Disconnect** The call will be disconnected.
