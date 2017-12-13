@@ -1,5 +1,5 @@
 ---
-title: "Set the Audio Conferencing phone numbers for meeting organizers that are included on invites"
+title: "Set the phone numbers included on invites"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. "
 ---
 
-# Set the Audio Conferencing phone numbers for meeting organizers that are included on invites
+# Set the phone numbers included on invites
 
 Audio Conferencing in Office 365 enables users in your organization to create Skype for Business and Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   

@@ -36,7 +36,7 @@
 ### [Set the PIN length for Audio Conferencing meetings](audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
 ### [Set up Audio Conferencing](audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 ### [Set auto attendant languages for Audio Conferencing](audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
-### [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](audio-conferencing-in-office-365/set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-included.md)
+### [Set the phone numbers included on invites](audio-conferencing-in-office-365/set-the-phone-numbers included-on-invites.md)
 ### [Setting up the Meeting Migration Service (MMS)](audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 ### [Start an Audio Conference over the phone without a PIN](audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Try or purchase Audio Conferencing in Office 365](audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

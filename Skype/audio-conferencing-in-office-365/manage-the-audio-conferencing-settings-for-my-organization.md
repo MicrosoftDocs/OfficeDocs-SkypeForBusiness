@@ -209,7 +209,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 6. Click **Save**. 
     
-See [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-phone-numbers-included-on-invites.md).
+See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
  **To set the default audio conferencing phone number for meeting organizers after you have enabled a user for audio conferencing**
   
@@ -229,7 +229,7 @@ See [Set the Audio Conferencing phone numbers for meeting organizers that are in
     
 5. Click **Save**. 
     
-See [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](set-the-phone-numbers-included-on-invites.md).
+See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
 ## Setting audio conferencing bridge settings
 
