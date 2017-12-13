@@ -89,4 +89,6 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
+## Related topics
 
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)

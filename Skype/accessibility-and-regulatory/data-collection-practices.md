@@ -37,7 +37,7 @@ While some usage data is collected automatically, other data can only be collect
 
 Census data is acquired solely to provide, support, and improve Skype for Business. Microsoft Teams and Skype for Business Online. It includes environmental information such as device and operating system versions, and regional and language settings. It also includes counters for sign-in attempts and failures. Here are some specific examples of the census data that's collected:
 
-|****Data type****|****Example****|****Notes****|
+|**Data type**|**Example**|**Notes**|
 |:-----|:-----|:-----|
 |AppName  <br/> |iPhoneSkype  <br/> ||
 |DeviceModel  <br/> |iPhone  <br/> ||
@@ -57,7 +57,7 @@ Usage data includes information such as number of calls made, number of IMs sent
   
 Usage data might contain information that identifies your organization, such as contoso.com. Here are some specific examples of the usage data that's collected:
   
-|****Data type****|****Example****|****Notes****|
+|**Data type**|**Example**|**Notes**|
 |:-----|:-----|:-----|
 |IM Sent  <br/> |12  <br/> ||
 |IM Received  <br/> |5  <br/> ||
@@ -81,8 +81,8 @@ This policy defaults to false, so telemetry collection is off by default. This s
 ## Error reporting data
 
 Error reporting data can include information about performance and reliability, device configuration, network connection quality, error codes, error logs, and exceptions. Here are some specific examples of error reporting data that's collected:
-  
-|****Data type****|****Example****|****Notes****|
+
+|**Data type**|**Example**|**Notes**|
 |:-----|:-----|:-----|
 |Message direction  <br/> |Incoming  <br/> ||
 |Conversation state  <br/> |Idle  <br/> ||

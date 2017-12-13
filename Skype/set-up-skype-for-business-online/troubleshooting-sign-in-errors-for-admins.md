@@ -99,7 +99,7 @@ To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow th
     
 4. In the **Application Entry Setting** dialog box, configure the following rules:
     
-|****Application****|****Key****|****Value****|
+|**Application**|**Key**|**Value**|
 |:-----|:-----|:-----|
 |**msoidsvc** <br/> |Disable  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
@@ -161,7 +161,7 @@ Finally, if the user still cannot sign in after you've updated their credentials
     
 2. If necessary, turn on the folder view option **Show hidden files**. 
     
-3. Type the following into the address bar of File Explorer: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, **where** ** *UserName* ** ** is your Windows sign-in name**.
+3. Type the following into the address bar of File Explorer: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, where ***UserName*** is your Windows sign-in name.
     
 4. Delete any folder that begins with the name **S-1-5-21-** followed by a string of numbers.
     
