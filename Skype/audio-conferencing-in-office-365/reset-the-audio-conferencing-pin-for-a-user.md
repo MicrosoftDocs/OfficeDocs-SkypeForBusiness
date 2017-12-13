@@ -83,4 +83,6 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
+## Related topics
 
+[Reset a conference ID for a user](reset-a-conference-id-for-a-user.md)

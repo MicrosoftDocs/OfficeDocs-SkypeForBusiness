@@ -54,7 +54,7 @@ For more information, see [Skype for Business and Microsoft Teams add-on licensi
     
 2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
     
-3. On the ** Communications Credits** subscription page, fill in your information, and then click **Next**:
+3. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
     
   - **Add funds** Enter the amount that you want to add to your account. If you don't enable auto-recharge, once these funds are depleted, calling capabilities that are enabled using Communications Credits will be disrupted (such as inbound toll-free service). To avoid having to manually replenish your Communications Credits balance each time your balance reaches 0 (zero), we recommend you enable the auto-recharge feature.
     

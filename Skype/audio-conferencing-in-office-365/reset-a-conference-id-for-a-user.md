@@ -80,4 +80,6 @@ Conference IDs are only automatically set only for Skype for Business and Micros
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## Related topics
 
+[Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md)
