@@ -276,7 +276,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Six Reasons Why You Might Want to Use Windows PowerShell to Manage Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
     
@@ -286,4 +286,6 @@ If you want more information about starting Windows PowerShell, see [Connect to 
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
+## Related topics
 
+[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)

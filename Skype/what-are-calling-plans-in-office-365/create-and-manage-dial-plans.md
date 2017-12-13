@@ -162,7 +162,7 @@ Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
 
-$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
