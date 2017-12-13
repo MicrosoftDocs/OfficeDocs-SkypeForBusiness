@@ -335,5 +335,5 @@ Below is another deployment option for Contoso. In this case, they decided to se
   
 ## Related topics
 
-[ExpressRoute and QoS in Skype for Business Online](express-route-and-qos-in-skype-for-business-online.md)
+[ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
 

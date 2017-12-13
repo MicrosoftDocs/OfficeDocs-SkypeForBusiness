@@ -47,7 +47,7 @@ This is what the report looks like.
 ![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![1](../images/SfBCallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
+![1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
 *    **Call ID** is the call ID for a call. It is a unique identifier for the call that is used when calling Microsoft service support.
 *    **User ID** is the user's sign in name.
 *    **Phone number** is the Skype for Business phone number that received the call for inbound calls or the number dialed for outbound calls.
@@ -85,9 +85,9 @@ This is what the report looks like.
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing 
 ***
-![2](../images/SfBCallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
+![2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
-![3](../images/SfBCallout3.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
+![3](../images/sfbcallout3.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
    
 ## Want to see other Skype for Business reports?
 
