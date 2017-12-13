@@ -37,7 +37,7 @@ The most recent changes to CQD are as follows:
     
 - Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
     
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard-for-microsoft-teams.md)﻿.
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md)﻿.
   
 > [!NOTE]
 > Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to [Call Quality dashboard](https://aka.ms/CQDOnline). 
@@ -64,7 +64,7 @@ After you login, once activated, the CQD will begin collecting and processing da
 > It may take a couple of hours to process enough data to display meaningful results in the reports. 
   
 ## Features of the Call Quality Dashboard for Skype for Business Online
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 CQD Summary Reports provide a subset of the features planned for Detailed Reports. The differences between the two editions are summarized here:
   
@@ -152,7 +152,7 @@ As the names indicate, this is a classification criteria based on the type of cl
 > Given a stream, if one of the two endpoints is connected to a Wifi network, then it is classified as Wifi in CQD. 
   
 ## Selecting product data to see in reports
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 In the Summary and Location Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
   
@@ -161,7 +161,7 @@ In the Summary and Location Enhanced Reports, you can use the **Product Filter**
 In Detailed reports, you can use the Teams dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
 ## Upload Building information
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless AP and its MAC address, etc.
   
@@ -192,7 +192,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
      ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
 ### Tenant data file format and Building data file structure
-<a name="BKMK_TenantDataFile"> </a>
+<a name="BKMKTenantDataFile"> </a>
 
 The format of the data file you upload must meet the following to pass the validation check before uploading.
   
@@ -227,7 +227,7 @@ The format of the data file you upload must meet the following to pass the valid
 > The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. > Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive. 
   
 ## Selecting media type in detailed reports
-<a name="BKMK_FeaturesOfTheCQD"> </a>
+<a name="BKMKFeaturesOfTheCQD"> </a>
 
 The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific for a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
@@ -240,6 +240,6 @@ If you want to view the dimensions and measures for a single media type, the new
 ## Related topics
 [Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
 
-[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality.md)
+[Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[What's the difference between Call Analytics and Call Quality Dashboard?](what-s-the-difference-between-call-analytics-and-call-quality-dashboard.md)
+[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)

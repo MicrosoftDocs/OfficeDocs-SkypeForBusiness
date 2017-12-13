@@ -27,7 +27,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 ## What do you want to do?
 <a name="top"> </a>
 
-> [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#__toc323194094)
+> [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
     
 > [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
     
