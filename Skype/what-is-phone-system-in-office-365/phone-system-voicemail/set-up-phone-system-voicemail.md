@@ -1,5 +1,5 @@
 ---
-title: "Set up Phone System voicemail - Admin help"
+title: "Set up Phone System voicemail"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. "
 ---
 
-# Set up Phone System voicemail - Admin help
+# Set up Phone System voicemail
 
 This article is for the [Office 365 admin](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) who wants to set up the Phone System voicemail feature for everyone in the business.
   
@@ -96,6 +96,6 @@ We have training information and articles to help your users be successful with 
 - [Skype for Business 2016 training](http://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
     
 ## Related topics
-[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Set up Skype for Business Online](../../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[Here's what you get with Phone System in Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)

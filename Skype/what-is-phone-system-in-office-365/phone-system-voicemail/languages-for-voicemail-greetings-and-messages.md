@@ -21,11 +21,11 @@ ms.custom:
 description: "Learn which languages you can set in Skype for Business for the default system messages. "
 ---
 
-# Languages for voicemail greetings and messages from Skype for Business
+# Languages for voicemail greetings and messages
 
 You can set up Skype for Business to play its system voicemail greeting in one of the languages listed in this table.
   
-To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](change-the-default-language-for-voicemail-greetings-and-emails-in-your-organizat.md).
+To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](change-the-default-language-for-voicemail-greetings-and-emails.md).
   
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|

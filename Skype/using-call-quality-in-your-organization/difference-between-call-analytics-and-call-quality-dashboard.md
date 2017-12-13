@@ -36,7 +36,7 @@ If you want non-admins, such as helpdesk agents from an external vendor, to use 
     
 - **Helpdesk agents with Tier 2 permissions**: Agents see all available data in Call Analytics and troubleshoot both calls and meetings. They have full access to call logs and customer information.
     
-For details about setting up Call Analytics, see [Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md). For more information about how Helpdesk agents can work with Call Analytics, see [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+For details about setting up Call Analytics, see [Set up Skype for Business Call Analytics](set-up-call-analytics.md). For more information about how Helpdesk agents can work with Call Analytics, see [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
 ## What's the Call Quality Dashboard, and when should I use it?
 
@@ -55,6 +55,6 @@ Call Analytics and CQD run in parallel and can be used independently or together
 For more information about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md) and [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## Related topics
-[Set up Skype for Business Call Analytics](set-up-skype-for-business-call-analytics.md)
+[Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
