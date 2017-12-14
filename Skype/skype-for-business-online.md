@@ -3,14 +3,14 @@ title: Skype for Business Online Admin
 description: Learn how to manage Skype for Business Online for your organization.
 services: skype-for-business-online-admin
 author: tonysmit
-manager: tonysmit
+manager: serdars
+ms.date: 12/15/2017
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 12/5/2017
 ms.author: tonysmit
 ---
 # Skype for Business Online Admin
@@ -25,7 +25,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +43,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -61,7 +61,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -79,7 +79,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,7 +97,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -120,7 +120,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Manage the Audio Conferencing settings for my organization</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing common questions</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Compare audio conferencing providers</a></p><p><a href="/SkypeForBusiness/misctopics/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Audio Conferencing is available in your country/region</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Manage the Audio Conferencing settings for my organization</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing common questions</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Compare audio conferencing providers</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Audio Conferencing is available in your country/region</a></p>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">What are Calling Plans in Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Set up Calling Plans</a></p><p><a href="/SkypeForBusiness/misctopics/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Calling Plans are available in your country/region</a></p>
+                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">What are Calling Plans in Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Set up Calling Plans</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Calling Plans are available in your country/region</a></p>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Phone System</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">What is Phone System in Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system-in-office-365">Here's what you get with Phone System in Office 365</a></p>
+                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">What is Phone System in Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Here's what you get with Phone System in Office 365</a></p>
                </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardText">
                         <h3>Improve call and video quality</h3>
-                        <p><a href="http://technet.microsoft.com/library/ca302828-783f-425c-bbe2-356348583771%28Office.14%29.aspx">Troubleshoot connection issues in Skype for Business</a></p><p><a href="http://technet.microsoft.com/library/62777bc6-c52b-47ae-84ba-a8905c3b71dc%28Office.14%29.aspx">Troubleshoot audio and video in Skype for Business</a></p><p><a href="http://technet.microsoft.com/library/beec23c2-c5d6-4e84-a8af-e82aefca7802%28Office.14%29.aspx">Tune Skype for Business Online performance</a></p>
+                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Troubleshoot connection issues in Skype for Business</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Troubleshoot audio and video in Skype for Business</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Tune Skype for Business Online performance</a></p>
                     </div>
                 </div>
             </div>
