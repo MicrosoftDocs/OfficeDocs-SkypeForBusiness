@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Understand the journey from Skype for Business to Microsoft Teams
 metadata:
   title: Understand the journey from Skype for Business to Microsoft Teams
@@ -10,6 +9,9 @@ metadata:
   <!-- nextTutorialTitle: Microsoft Teams documentation and practical guidance -->
   displayType: one-column
   interactive: azurecli
+  ms.author: tbinder
+  manager: lolaj
+  ms.service: msteams
 items:
 - durationInMinutes: 1
   content: |
@@ -17,13 +19,13 @@ items:
 
         This training is for you if you're: 
 
-        - An It Pro or Teams IT admin
+        - An It Pro 
 
-        - Responsible for planning, deploying or managing Skype for Business
+        - Responsible for planning, deploying, or managing Skype for Business
 
         - Interested in understanding how to introduce Teams in your organization
 
-        We'll go into detail how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:
+        We'll go into detail on how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:
 
         - Understand the Intelligent communications vision
 
@@ -90,7 +92,7 @@ items:
     
     We know that change takes time. From deployment lifecycles to resource planning to technical readiness, there is a lot to consider. In addition, Teams represents a shift in the ways users do their jobs, so organizational readiness, governance and user change management is just as crucial to implementing a successful upgrade to Teams. As you begin exploring your journey to Teams, be sure to include your Adoption/Change Manager in your planning activities. Aligning the roadmap with your technical requirements and organizational readiness, will help drive successful business outcomes.
     
-    This guidance will become more detailed over time, enabling you to determine the best time for your organization to make the move to Teams. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) frequently and visit [www.SkypeandTeams.com](www.skypeandteams.com) on a regular basis for the latest guidance.
+    This guidance will become more detailed over time, enabling you to determine the best time for your organization to make the move to Teams. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) frequently and visit [www.SkypeandTeams.com](http://skypeandteams.com) on a regular basis for the latest guidance.
     
     Another great resource is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
 - title: Prepare your current environment
@@ -132,6 +134,9 @@ items:
   durationInMinutes: 12
   content: |
     Once you've verified that your environment is ready to run Teams, you can start a Teams pilot. Skype for Business and Teams offer overlapping functionality – that's why it's helpful to start your journey with a pilot. 
+        #### Watch the video "Running a Teams Pilot" (3:30 minutes)
+       > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]
+
     
     The pilot is a small-scale deployment that lets you validate the interoperability with Skype for Business in your environment as well as understand how your end users can maximize their productivity while minimizing confusion with both products running side-by-side. 
     
