@@ -11,7 +11,6 @@ ms.service: skype-for-business-online-admin
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 12/5/2017
 ms.author: tonysmit
 ---
 # Skype for Business Online Admin
