@@ -64,7 +64,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 ## Related topics
 [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 
-[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

@@ -53,7 +53,7 @@ Skype for Business Online uses different telephone number types depending on the
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
