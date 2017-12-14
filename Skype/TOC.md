@@ -83,19 +83,17 @@
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
+## [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+### [Blocked user licenses for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [Enable Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Make changes to Skype Meeting Broadcast settings](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
+
 ## [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### [Add funds and manage Communications Credits](skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Assign Skype for Business and Microsoft Teams licenses](skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audio Conferencing pay-per-minute](skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [Set up Communications Credits for your organization](skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
 ### [What are Communications Credits?](skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
-
-## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
-
-## [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Blocked user licenses for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
-### [Enable Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
-### [Make changes to Skype Meeting Broadcast settings](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Set up Skype for Business Online](set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 ### [Allow users to contact external Skype for Business users](set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
@@ -158,6 +156,8 @@
 ### [Manage Exchange Unified Messaging and hosted voicemail](set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [Manage user accounts](set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Manage your organization using the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
+
+## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
 
 ## Accessibility and regulatory
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
