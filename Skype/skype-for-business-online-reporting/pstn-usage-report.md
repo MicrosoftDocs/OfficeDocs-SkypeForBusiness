@@ -68,7 +68,7 @@ This is what the report looks like.
 
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (an inbound call to the UC application such as auto attendant or call queue) 
-     *    **ucap_out** (an outbound call ﻿from the UC application such as auto attendant or call queue)
+     *    **ucap_out** (an outbound call from the UC application such as auto attendant or call queue)
 *     
      **Domestic/International** tells you whether the call that was placed was considered domestic (within a country/region) or international (outside of a country/region) based on the user's location. 
 *    **Destination dialed** is the name of the country/region destination that is dialed such as France, Germany, or the United States (U.S.). 

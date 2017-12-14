@@ -19,7 +19,7 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Learn how to see a list of all the phone numbers in your organizaton, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
+description: "Learn how to see a list of all the phone numbers in your organization, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
 ---
 
 # See a list of phone numbers in your organization

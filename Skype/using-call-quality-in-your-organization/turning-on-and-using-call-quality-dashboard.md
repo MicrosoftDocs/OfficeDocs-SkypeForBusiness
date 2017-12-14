@@ -37,7 +37,7 @@ The most recent changes to CQD are as follows:
     
 - Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
     
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md)﻿.
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
 > Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to [Call Quality dashboard](https://aka.ms/CQDOnline). 

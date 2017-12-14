@@ -84,7 +84,7 @@ To test your setup, you need a contact on Skype for Business who's not behind yo
     
 2. In Skype for Business, search for your contact in Skype for Business, and send a request to chat.
     
-    If you get a message that it couldn't be sent due to company policy, you need to doublecheck your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Ask your Skype for Business contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
     
@@ -95,7 +95,7 @@ To test your setup, you need a contact on Skype for Business who's not behind yo
 
 After you enable external communication with other Skype for Business users, your users can find federated Skype for Business users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
   
-![To find a user in a federated business, you must search for their email address (this is usally also their sign in name).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![To find a user in a federated business, you must search for their email address (this is usually also their sign in name).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## Tips on setting up communications with federated businesses
 <a name="bk_preview"> </a>
