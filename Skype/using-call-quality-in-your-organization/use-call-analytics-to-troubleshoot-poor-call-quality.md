@@ -23,8 +23,8 @@ description: "Use Call Analytics details about devices, networks, and connectivi
 
 Call Analytics helps you to troubleshoot call or connection problems with Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Skype for Business account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
   
-> [!NOTE]
-> Call Analytics is currently in preview. Text and images described here may not match your experience. 
+    > [!NOTE]
+    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
   
 ## Troubleshoot call quality problems using Call Analytics
 
@@ -40,7 +40,7 @@ See your Skype for Business admin if you need help with permissions.
   
  **Open Call Analytics as a Tier 1 or Tier 2 helpdesk agent**
   
-1. Go to [https://adminportal.services.skypeforbusiness.com](https://adminportal.services.skypeforbusiness.com), and then sign in with your user name and password.
+1. Go to the Office 365 admin center and sign in using your work or school account. Then in your web browser go to *https://adminportal.services.skypeforbusiness.com*.
     
 2. In **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot and then select the user from the list.
     

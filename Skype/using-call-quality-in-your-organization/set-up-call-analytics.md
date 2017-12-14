@@ -67,7 +67,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
     
      ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Users with either of these permission levels get to Call Analytics via the dedicated URL https://adminportal.services.skypeforbusiness.com.
+ Users with either of these permission levels get to Call Analytics via the dedicated URL *https://adminportal.services.skypeforbusiness.com*.
   
 ## Upload a .tsv or .csv file to add building, site, and tenant information
 <a name="BKMK_UploadFiles"> </a>
