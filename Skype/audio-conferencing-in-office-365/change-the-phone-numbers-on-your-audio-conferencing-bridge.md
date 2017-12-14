@@ -99,8 +99,8 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
  
  For additional information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
 
- > [!NOTE]
-> Depending on the size of your organization, this could take some time to complete. 
+  > [!NOTE]
+  > Depending on the size of your organization, this could take some time to complete. 
   
 ### Step 2 - View meeting migration status using Windows PowerShell
 
@@ -122,8 +122,8 @@ For more information about the Meeting Migration Service, see [Setting up the Me
     
 4. In the confirmation window, click **Yes**.
     
-> [!IMPORTANT]
-> After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings. 
+  > [!IMPORTANT]
+  > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings. 
   
 ## Want to know how to manage with Windows PowerShell?
 <a name="bkPowerShell"> </a>
