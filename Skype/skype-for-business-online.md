@@ -26,7 +26,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +44,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,7 +62,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -80,7 +80,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="Troubleshoot" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -98,7 +98,7 @@ Learn how to manage Skype for Business Online for your organization.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="" />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
