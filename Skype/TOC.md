@@ -117,7 +117,7 @@
 ### [Turn on or off Skype for Business client feedback reporting](set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md)
 ### [Video: Skype for Business Online external communications](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
-## Set up policies for your organization
+## Set up policies for your organization    
 ### [Block Point-to-Point file transfers](set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Create custom external access policies](set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Retaining large files attached to a meeting](set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
