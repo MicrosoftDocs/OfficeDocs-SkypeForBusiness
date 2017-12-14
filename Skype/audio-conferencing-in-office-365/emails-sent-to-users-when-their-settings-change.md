@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. "
 ---
 
-# Emails that are automatically sent to users when their Audio Conferencing settings change
+# Emails sent to users when their settings change
 
 Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing.md) using Microsoft as the audio conferencing provider.
   
