@@ -10,15 +10,12 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: 
-- Skype for Business
-- Microsoft Teams
+ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
 ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
-ms.assetid: 
 description: "This article helps to explain the core call flow principles for Skype for Business Online and ExpressRoute, and gives you some detailed examples of call flows so you can understand and plan correctly."
 ---
 
