@@ -1,14 +1,6 @@
-
-  
-
 # Skype for Business admin
-## Accessibility and regulatory
-### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Accessibility solutions for Skype for Business Online in France](accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [Complimentary dial-out period](accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Code of practice for the United Kingdom (U.K.)](accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Complaint handling code for the United Kingdom (U.K.)](accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Skype for Business and Microsoft Teams data collection practices](accessibility-and-regulatory/data-collection-practices.md)
+
+## [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## Audio Conferencing in Office 365
 ### [Assign a third-party as the audio conferencing provider](audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
@@ -35,7 +27,7 @@
 ### [Send an email to a user with their dial-in information](audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Set the PIN length for Audio Conferencing meetings](audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
 ### [Set up Audio Conferencing](audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-### [Set auto attendant languages for Audio Conferencing](audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
+### [Set auto attendant languages](audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Set the phone numbers included on invites](audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Setting up the Meeting Migration Service (MMS)](audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 ### [Start an Audio Conference over the phone without a PIN](audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
@@ -43,85 +35,7 @@
 ### [Turn on or off entry and exit announcements for meetings](audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 ### [Using Audio Conferencing dynamic IDs in your organization](audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
-## [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-## [Optimizing your network](optimizing-your-network/optimizing-your-network.md)
-### [Call flow using ExpressRoute](optimizing-your-network/call-flow-using-expressroute.md)
-### [ExpressRoute and QoS in Skype for Business Online](optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
-### [Media Quality and Network Connectivity Performance](optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Proxy Servers for Skype for Business Online](optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
-
-## Set up policies in your organization
-### [Block Point-to-Point file transfers](set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
-### [Create custom external access policies](set-up-policies-in-your-organization/create-custom-external-access-policies.md)
-### [Retaining large files attached to a meeting](set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
-### [Set up conferencing policies for your organization](set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization.md)
-### [Set up mobile policies for your organization](set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization.md)
-### [Set up client policies for your organization](set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md)
-
-## [Set up your computer for Skype for Business Online and Windows PowerShell](set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
-### [Diagnose connection problems with the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
-### [Download and install Windows PowerShell 3.0](set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0.md)
-### [Download and install the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
-### [Manage Exchange Unified Messaging and hosted voicemail](set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
-### [Manage user accounts](set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
-### [Manage Skype for Business Online organizations using the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
-
-## [Set up Skype for Business Online](set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [Allow users to contact external Skype for Business users](set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
-### [Configure presence in Skype for Business Online](set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
-### [Configure presence privacy mode](set-up-skype-for-business-online/configure-presence-privacy-mode.md)
-### [Configure Skype for Business settings for individual users](set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
-### [Customize meeting invitations](set-up-skype-for-business-online/customize-meeting-invitations.md)
-### [Deploy the Skype for Business client](set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
-### [Let people record their audio and video conferences](set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md)
-### [Let Skype for Business users add Skype contacts](set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
-### [Set up and troubleshoot Skype for Business Online delegation](set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation.md)
-### [Skype for Business mobile app security](set-up-skype-for-business-online/skype-for-business-mobile-app-security.md)
-### [Skype for Business Online support in Outlook on the web](set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web.md)
-### [Switching between the Skype for Business and the Lync client user interfaces](set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)
-### [Troubleshoot Skype for Business Online](set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md)
-### [Troubleshooting sign-in errors for administrators](set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins.md)
-### [Turn on or off preloading content for meetings using Outlook](set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md)
-### [Turn on or off Offline Messages for admins](set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md)
-### [Test your Skype for Business Online installation](set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md)
-### [Turn on or off mobile phone notifications](set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md)
-### [Turn on or off Skype for Business client feedback reporting](set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md)
-### [Video: Skype for Business Online external communications](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
-
-## [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Blocked user licenses for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
-### [Enable Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
-### [Make changes to Skype Meeting Broadcast settings for your organization](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
-
-## [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-### [Add funds and manage Communications Credits](skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
-### [Assign Skype for Business and Microsoft Teams licenses](skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
-### [Audio Conferencing pay-per-minute](skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
-### [Set up Communications Credits for your organization](skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
-### [What are Communications Credits?](skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
-
-## [Skype for Business Online reporting](skype-for-business-online-reporting/skype-for-business-online-reporting.md)
-### [Skype for Business activity report](skype-for-business-online-reporting/activity-report.md)
-### [Skype for Business users blocked report](skype-for-business-online-reporting/users-blocked-report.md)
-### [Skype for Business device usage report](skype-for-business-online-reporting/device-usage-report.md)
-### [Skype for Business conference organizer activity report](skype-for-business-online-reporting/conference-organizer-activity-report.md)
-### [Skype for Business conference participant activity report](skype-for-business-online-reporting/conference-participant-activity-report.md)
-### [Skype for Business peer-to-peer activity report](skype-for-business-online-reporting/peer-to-peer-activity-report.md)
-### [Skype for Business PSTN minute pools report](skype-for-business-online-reporting/pstn-minute-pools-report.md)
-### [Skype for Business PSTN usage report](skype-for-business-online-reporting/pstn-usage-report.md)
-### [Skype for Business session details report](skype-for-business-online-reporting/session-details-report.md)
-
-## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
-
-## Using Call Quality in your organization
-### [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Set up Skype for Business Call Analytics](using-call-quality-in-your-organization/set-up-call-analytics.md)
-### [Turning on and using Call Quality Dashboard](using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
-### [Use Call Analytics to troubleshoot poor Skype for Business call quality](using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [What's the difference between Call Analytics and Call Quality Dashboard?](using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
-
-## [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+## [Calling Plans in Office 365](what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Add, change, or remove an emergency location for your organization](what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Add or remove an emergency address for your organization](what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
@@ -156,15 +70,99 @@
 ### [What are emergency locations, addresses and call routing?](what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [What are dial plans?](what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## What is Phone System in Office 365?
+## Phone System in Office 365
 ### [Create a Phone System call queue](what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 ### [Getting service phone numbers for Skype for Business and Microsoft Teams](what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Here's what you get with Phone System](what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
-### [Phone System voicemail]
+### Phone System voicemail
 #### [Change the default language for voicemail greetings and emails in your organization](what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages from Skype for Business](what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Set up Phone System voicemail - Admin help](what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Set up a Phone System auto attendant](what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [What are Phone System auto attendants?](what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
+## [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### [Add funds and manage Communications Credits](skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
+### [Assign Skype for Business and Microsoft Teams licenses](skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+### [Audio Conferencing pay-per-minute](skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
+### [Set up Communications Credits for your organization](skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [What are Communications Credits?](skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+
+## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
+
+## [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+### [Blocked user licenses for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [Enable Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Make changes to Skype Meeting Broadcast settings](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
+
+## [Set up Skype for Business Online](set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+### [Allow users to contact external Skype for Business users](set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [Configure presence in Skype for Business Online](set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
+### [Configure presence privacy mode](set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [Configure Skype for Business settings for individual users](set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
+### [Customize meeting invitations](set-up-skype-for-business-online/customize-meeting-invitations.md)
+### [Deploy the Skype for Business client](set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
+### [Let people record their audio and video conferences](set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences.md)
+### [Let Skype for Business users add Skype contacts](set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
+### [Set up and troubleshoot Skype for Business Online delegation](set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation.md)
+### [Skype for Business mobile app security](set-up-skype-for-business-online/skype-for-business-mobile-app-security.md)
+### [Skype for Business Online support in Outlook on the web](set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web.md)
+### [Switching between the Skype for Business and the Lync client user interfaces](set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)
+### [Troubleshoot Skype for Business Online](set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md)
+### [Troubleshooting sign-in errors for administrators](set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins.md)
+### [Turn on or off preloading content for meetings using Outlook](set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md)
+### [Turn on or off Offline Messages for admins](set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md)
+### [Test your Skype for Business Online installation](set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md)
+### [Turn on or off mobile phone notifications](set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md)
+### [Turn on or off Skype for Business client feedback reporting](set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md)
+### [Video: Skype for Business Online external communications](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
+
+## Set up policies for your organization
+### [Block Point-to-Point file transfers](set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
+### [Create custom external access policies](set-up-policies-in-your-organization/create-custom-external-access-policies.md)
+### [Retaining large files attached to a meeting](set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
+### [Set up conferencing policies for your organization](set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization.md)
+### [Set up mobile policies for your organization](set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization.md)
+### [Set up client policies for your organization](set-up-policies-in-your-organization/set-up-client-policies-for-your-organization.md)
+
+## [Optimizing your network](optimizing-your-network/optimizing-your-network.md)
+### [Call flow using ExpressRoute](optimizing-your-network/call-flow-using-expressroute.md)
+### [ExpressRoute and QoS in Skype for Business Online](optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
+### [Media Quality and Network Connectivity Performance](optimizing-your-network/media-quality-and-network-connectivity-performance.md)
+### [Proxy Servers for Skype for Business Online](optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+
+## Using Call Quality in your organization
+### [Dimensions and measures available in Call Quality Dashboard](using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Set up Skype for Business Call Analytics](using-call-quality-in-your-organization/set-up-call-analytics.md)
+### [Turning on and using Call Quality Dashboard](using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
+### [Use Call Analytics to troubleshoot poor call quality](using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Differences between Call Analytics and Call Quality Dashboard](using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## [Skype for Business Online reporting](skype-for-business-online-reporting/skype-for-business-online-reporting.md)
+### [Activity report](skype-for-business-online-reporting/activity-report.md)
+### [Users blocked report](skype-for-business-online-reporting/users-blocked-report.md)
+### [Skype for Business device usage report](skype-for-business-online-reporting/device-usage-report.md)
+### [Conference organizer activity report](skype-for-business-online-reporting/conference-organizer-activity-report.md)
+### [Conference participant activity report](skype-for-business-online-reporting/conference-participant-activity-report.md)
+### [Peer-to-peer activity report](skype-for-business-online-reporting/peer-to-peer-activity-report.md)
+### [PSTN minute pools report](skype-for-business-online-reporting/pstn-minute-pools-report.md)
+### [PSTN usage report](skype-for-business-online-reporting/pstn-usage-report.md)
+### [Skype for Business session details report](skype-for-business-online-reporting/session-details-report.md)
+
+## [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+### [Diagnose connection problems with the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
+### [Download and install Windows PowerShell 3.0](set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0.md)
+### [Download and install the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
+### [Manage Exchange Unified Messaging and hosted voicemail](set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
+### [Manage user accounts](set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
+### [Manage your organization using the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
+
+## Accessibility and regulatory
+### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [Accessibility solutions for Skype for Business Online in France](accessibility-and-regulatory/accessibility-solutions-in-france.md)
+### [Complimentary dial-out period](accessibility-and-regulatory/complimentary-dial-out-period.md)
+### [Code of practice for the United Kingdom (U.K.)](accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [Complaint handling code for the United Kingdom (U.K.)](accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Data collection practices](accessibility-and-regulatory/data-collection-practices.md)
