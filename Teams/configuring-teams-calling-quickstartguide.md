@@ -108,7 +108,7 @@ Once this custom policy is applied to the users, the option to change the prefer
 ### How to create and apply the custom Teams interop policy
 To create the custom Teams interop policy as described above via Skype for Business remote Windows PowerShell session, perform the following:
 
-    New-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
+    New-CsTeamsInteropPolicy -Identity tag:CustomPolicy -AllowEndUserClientOverride:$True -CallingDefaultClient:Default -ChatDefaultClient:Default
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:CustomPolicy -Identity user@contoso.com
 
