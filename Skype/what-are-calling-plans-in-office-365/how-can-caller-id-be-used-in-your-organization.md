@@ -68,8 +68,6 @@ Your end users can set their caller ID to **Anonymous** by using the **Call Forw
 |MSI  <br/> |Skype for Business  <br/> |No  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |No  <br/> |
    
-Your end users can also set their caller ID setting on the user settings page at: [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
-  
 ## Inbound Caller ID
 
 The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
@@ -82,6 +80,7 @@ To set the outbound caller ID, see [Set the Caller ID for a user](set-the-caller
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
