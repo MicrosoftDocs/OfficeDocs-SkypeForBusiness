@@ -57,7 +57,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 [What is address validation?](what-is-address-validation.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

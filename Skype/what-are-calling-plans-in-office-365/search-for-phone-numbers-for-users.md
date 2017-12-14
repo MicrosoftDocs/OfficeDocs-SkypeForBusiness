@@ -59,7 +59,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
