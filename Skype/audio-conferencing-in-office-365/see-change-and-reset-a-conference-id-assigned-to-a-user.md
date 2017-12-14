@@ -59,7 +59,8 @@ You can view their conference ID and send it to users.
 
 You can assign or change a conference ID for a user if, for example, someone wants a conference ID that's easy to remember.
 
-  > [!NOTE]  The Skype for Business admin center can't be used to edit a conference ID that has been automatically created, but you can use Windows PowerShell to edit or change a conference ID that you have set. 
+  > [!NOTE]
+  > The Skype for Business admin center can't be used to edit a conference ID that has been automatically created, but you can use Windows PowerShell to edit or change a conference ID that you have set. 
      
 To edit or change the conference ID for a user, run:
     
