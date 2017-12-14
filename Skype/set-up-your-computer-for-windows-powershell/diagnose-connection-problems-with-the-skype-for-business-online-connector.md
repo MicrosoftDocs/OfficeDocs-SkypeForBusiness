@@ -23,26 +23,26 @@ description: "Troubleshoot creating a remote PowerShell session to connect to Sk
 
 This topic provides information that will help you diagnose and resolve problems that can occur when you try to create a remote Microsoft PowerShell session that connects to Skype for Business Online. See the following sections:
   
-- [Import-Module error caused by Windows PowerShell execution policy](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_PowerShellExecutionPolicy)
+- [Import-Module error caused by Windows PowerShell execution policy](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
-- [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_IncorrectVersion)
+- [Import-Module Error caused by incorrect version of Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
     
-- [Failed to connect to Live ID Server](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedConnect)
+- [Failed to connect to Live ID Server](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
-- [Failed to load Live ID module](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_FailedLoad)
+- [Failed to load Live ID module](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
     
-- [Logon failed for the user](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_LogonFailed)
+- [Logon failed for the user](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
     
-- [The user does not have permission to manage this tenant](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_UserPermission)
+- [The user does not have permission to manage this tenant](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
-- [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_AbilityConnect)
+- [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsUser)
+- [The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
     
 - [The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded ](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
     
 ## Import-Module error caused by Windows PowerShell execution policy
-<a name="BKMK_PowerShellExecutionPolicy"> </a>
+<a name="BKMKPowerShellExecutionPolicy"> </a>
 
 The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, the Skype for Business Online Connector module cannot be imported unless the execution policy has been set to RemoteSigned. If it has not, then you will receive the following error message when you attempt to import the module:
   
@@ -55,7 +55,7 @@ The PowerShell execution policy helps to determine which configuration files can
     For details about execution policy, see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170).
   
 ## Import-Module Error caused by incorrect version of Windows PowerShell
-<a name="BKMK_IncorrectVersion"> </a>
+<a name="BKMKIncorrectVersion"> </a>
 
 The Skype for Business Online Connector module can be run only under Windows PowerShell 3.0. If you try to import the module under a previous version of PowerShell, the import process will fail with an error message similar to this:
   
@@ -64,7 +64,7 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 - **Resolution**: The only way to fix this problem is to install Windows PowerShell 3.0, which is available from the Microsoft Download Center at [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
 ## Failed to connect to Live ID Server
-<a name="BKMK_FailedConnect"> </a>
+<a name="BKMKFailedConnect"> </a>
 
 There are typically three reasons why your connection attempt might fail with the following error message:
 
@@ -84,7 +84,7 @@ There are typically three reasons why your connection attempt might fail with th
     Less commonly, it is possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you are not experiencing network connectivity issues, this might be the issue. In this case, contact Office 365 Support.
   
 ## Failed to load Live ID module
-<a name="BKMK_FailedLoad"> </a>
+<a name="BKMKFailedLoad"> </a>
 
 One of the prerequisites for using PowerShell to manage Skype for Business Online is to install the Microsoft Online Services Sign-in Assistant. If the Sign-in Assistant is not installed, you will receive the following error message when you try to establish a remote session with Skype for Business Online:
 
@@ -93,7 +93,7 @@ One of the prerequisites for using PowerShell to manage Skype for Business Onlin
 - **Resolution**: The Microsoft Online Services Sign-in Assistant is available in the Microsoft Download Center at [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
 ## Logon failed for the user
-<a name="BKMK_LogonFailed"> </a>
+<a name="BKMKLogonFailed"> </a>
 
 When you attempt to make a remote connection to Skype for Business Online, you must supply the user name and password of a valid Skype for Business Online user account. If you do not, logon will fail along with an error message similar to this:
 
@@ -103,7 +103,7 @@ When you attempt to make a remote connection to Skype for Business Online, you m
 
   
 ## The user does not have permission to manage this tenant
-<a name="BKMK_UserPermission"> </a>
+<a name="BKMKUserPermission"> </a>
 
 You cannot make a remote PowerShell connection toSkype for Business Online unless you are a member of the Tenant Administrators group. If you are not, your connection attempt will fail, and you'll receive the following error message:
 
@@ -112,7 +112,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 - **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Office 365 Support.
   
 ## Ability to connect to tenant has been disabled in Skype for Business Online
-<a name="BKMK_AbilityConnect"> </a>
+<a name="BKMKAbilityConnect"> </a>
 
 To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
 
@@ -121,7 +121,7 @@ To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShel
 - **Resolution**: If you see this error message, you'll need to contact Office 365 Support and get remote PowerShell access enabled.
   
 ## The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded
-<a name="BKMK_MaxNumberShellsUser"> </a>
+<a name="BKMKMaxNumberShellsUser"> </a>
 
 Each administrator is allowed a maximum of three simultaneous remote connections to Skype for Business Online. If you have three remote PowerShell connections up and running, any attempt to make a fourth simultaneous connection will fail, with the following error message:
 
@@ -130,7 +130,7 @@ Each administrator is allowed a maximum of three simultaneous remote connections
 - **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you are finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate the session. This will help you to prevent this issue.
   
 ## The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded
-<a name="BKMK_MaxNumberShellsTenant"> </a>
+<a name="BKMKMaxNumberShellsTenant"> </a>
 
 Although each administrator is allowed to have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant is allowed to have more than nine simultaneous connections. For example, three administrators might each have three open sessions. If a fourth administrator tries to make a connection (resulting in a total of 10 simultaneous connections), this attempt will fail, with the following error message:
   
