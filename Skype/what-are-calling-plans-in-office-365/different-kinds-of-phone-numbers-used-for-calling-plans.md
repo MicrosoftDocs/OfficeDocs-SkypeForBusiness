@@ -30,7 +30,7 @@ Skype for Business Online uses different telephone number types depending on the
     
   - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
     
-  - **﻿Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region﻿. Also, some countries, such as Denmark, only have non-geographic numbers available.
+  - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
     
 - **Service Numbers** Service numbers are available in several different number types, and availability does vary by country/region.
     
@@ -42,7 +42,7 @@ Skype for Business Online uses different telephone number types depending on the
     
   - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
     
-  - **﻿Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller. Skype for Business Online provides national toll-free numbers in over 60 countries/regions.
+  - **Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller. Skype for Business Online provides national toll-free numbers in over 60 countries/regions.
     
     > [!CAUTION]
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
@@ -53,7 +53,7 @@ Skype for Business Online uses different telephone number types depending on the
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

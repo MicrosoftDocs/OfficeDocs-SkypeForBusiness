@@ -95,12 +95,13 @@ Replace the default toll or toll-free number for all users that have the number 
 ```
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
- > [!IMPORTANT] You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
+ > [!IMPORTANT] 
+ >You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
  
  For additional information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
 
- > [!NOTE]
-> Depending on the size of your organization, this could take some time to complete. 
+  > [!NOTE]
+  > Depending on the size of your organization, this could take some time to complete. 
   
 ### Step 2 - View meeting migration status using Windows PowerShell
 
@@ -122,8 +123,8 @@ For more information about the Meeting Migration Service, see [Setting up the Me
     
 4. In the confirmation window, click **Yes**.
     
-> [!IMPORTANT]
-> After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings. 
+  > [!IMPORTANT]
+  > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings. 
   
 ## Want to know how to manage with Windows PowerShell?
 <a name="bkPowerShell"> </a>
@@ -177,7 +178,8 @@ To save time or automate this process, you can use the [Set-CsOnlineDialInConfer
 
 - Use the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet to change the default toll or toll-free number of users based on their original default number or their location.
     
-    > [!NOTE] To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
+    > [!NOTE]
+    > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
   
   - To set the default toll-free number for all users without one to 8005551234, run:
     
