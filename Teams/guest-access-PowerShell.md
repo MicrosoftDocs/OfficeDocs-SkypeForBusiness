@@ -27,7 +27,7 @@ In addition to using the Office 365 admin center and the Azure Active Directory 
 - Allow or block guest users from a specific team or Office 365 group
     
   
-For more details, see the section "Use PowerShell to control guest access" on the Manage tab of [Use PowerShell to control guest access](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
+For more details, see the section "Use PowerShell to control guest access" on the Manage tab of [Guest access in Office 365 Groups](https://support.office.com/en-us/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
   
     
     
