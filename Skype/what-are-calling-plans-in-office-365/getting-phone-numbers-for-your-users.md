@@ -100,7 +100,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
