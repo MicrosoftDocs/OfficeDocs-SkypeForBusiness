@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 ms.date: 12/15/2017
 ms.topic: article
-ms.assetid: ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
+ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -40,8 +40,6 @@ An example:
   
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
-
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
