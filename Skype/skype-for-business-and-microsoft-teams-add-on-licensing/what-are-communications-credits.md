@@ -22,9 +22,9 @@ description: "Learn what Communication Credits (PSTN Consumption) billing, how t
 
 # What are Communications Credits?
 
-Communications Credits﻿ are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
+Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
   
-- Add﻿ toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
+- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
     
 - Dialing out from an Audio Conference meeting to add someone else from anywhere in the world.
     

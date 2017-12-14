@@ -38,7 +38,7 @@ When someone calls in to a phone number that is set up up with a call queue, the
   
 All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
   
-- With attendant routing, the first call in the queue will ring all agents at the same time.﻿
+- With attendant routing, the first call in the queue will ring all agents at the same time.
     
 - With serial routing, the first call in the queue will ring all call agents one by one.
     
