@@ -82,8 +82,8 @@ description: Microsoft Teams documentation and practical guidance
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Cloud voice deployment</h3>
-                                                    <p>Set up Audio Conferencing in Teams</p>
+                                                    <h3>Cloud voice</h3>
+                                                    <p>Find the practical guidance you need to get started with Audio Conferencing and Phone System deployment using Teams</p>
                                                 </div>
                                             </div>
                                         </div>
