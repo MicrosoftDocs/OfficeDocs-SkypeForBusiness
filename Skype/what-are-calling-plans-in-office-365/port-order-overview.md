@@ -36,7 +36,7 @@ After you port your phone numbers over to Skype for Business Online in Office 36
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
