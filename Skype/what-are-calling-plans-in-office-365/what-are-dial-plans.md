@@ -117,7 +117,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 |**Rule name** <br/> |**Description** <br/> |**Number pattern** <br/> |**Translation** <br/> |**Example** <br/> |
 |4digitExtension  <br/> |Translates 4-digit extensions.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 is translated to +14255550100  <br/> |
 |5digitExtension  <br/> |Translates 5-digit extensions.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 is translated to +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Translates 7-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |Translates 7-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/>|
 |RedmondOperator  <br/> |Translates 0 to Redmond Operator.  <br/> |^0$  <br/> |+14255550100  <br/> |0 is translated to +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Translates numbers with on-net prefix (6) and Redmond site code (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 is translated to +14255550100  <br/> |
 |5digitRange  <br/> |Translates 5-digit extensions starting with the digit range between 3-7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |54567 is translated to +14255554567  <br/> |
@@ -127,12 +127,12 @@ The following table shows sample normalization rules that are written as .NET Fr
  **Redmond dial plan based on normalization rules shown above.**
   
 The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
-  
-|**Redmond dial plan**<br/> |
+|:-----| 
+|**Redmond dial plan** <br/> |
 |5digitExtension <br/> |
-|7digitcallingRedmond<br/> |
-|RedmondSitePrefix<br/> |
-|RedmondOperator<br/> |
+|7digitcallingRedmond <br/> |
+|RedmondSitePrefix <br/> |
+|RedmondOperator <br/> |
    
 > [!NOTE]
 > The normalization rules names shown in the preceding table do not include spaces, but this is a matter of choice. The first name in the table, for example, could have been written "5 digit extension" or "5-digit Extension" and still be valid. 
@@ -146,7 +146,7 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
