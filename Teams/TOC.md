@@ -1,6 +1,7 @@
 
 # Get started
 ## [Overview of Microsoft Teams](Teams-Overview.md)
+## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
 ## [Check your environment's readiness for Teams](environment-readiness.md)
 ## [Office 365 licensing for Teams](Office-365-licensing.md)
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)
@@ -10,6 +11,8 @@
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
 ## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Quick start guides](quick-start-guides.md)
+## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
