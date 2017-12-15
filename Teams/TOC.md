@@ -1,7 +1,6 @@
 
 # Get started
 ## [Overview of Microsoft Teams](Teams-Overview.md)
-## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
 ## [Check your environment's readiness for Teams](environment-readiness.md)
 ## [Office 365 licensing for Teams](Office-365-licensing.md)
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)

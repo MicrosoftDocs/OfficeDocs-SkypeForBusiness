@@ -18,7 +18,7 @@ Microsoft Teams has clients available for web, desktop (Windows and Mac), and mo
 Web client 
 ----------------
 
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the only web client to support real-time communications is Microsoft Edge (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies.
+-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies. 
 
 There is no plugin or download required to leverage Microsoft Teams using a web browser.
 
