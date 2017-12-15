@@ -51,9 +51,10 @@ The first rule of a successful adoption, is to create a dynamic team comprised o
 We recommend a regular meeting of these stakeholders to keep them up to date on the progress of your program. Initiating a “collaboration council” to allow for feedback and discussion can be a useful tool depending on your corporate culture.
 
 
-|  |  |
-|---------|---------|
-|![Tip icon.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Tip    |Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.         |
+
+
+> [!TIP]
+> Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.
 
 User profiles
 -------------

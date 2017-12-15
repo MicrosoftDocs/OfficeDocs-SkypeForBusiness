@@ -35,9 +35,9 @@ Microsoft Teams supports the following browsers and versions:
 -   **Firefox**: 47.0+
 
 
-| | |
-|---------|---------|
-|![Important icon.](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Important     |Safari is not yet supported, but is coming soon.         |
+
+> [!NOTE]
+> Safari is not yet supported, but is coming soon.
 
 Desktop clients
 ------------------------
@@ -51,17 +51,19 @@ Desktop clients can be downloaded and installed by end users directly from [http
 IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS).
 
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.         |
+
+> [!NOTE]
+> Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
+       |
 
 #### Windows
 
 The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.        |
+
+
+> [!NOTE]
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
@@ -73,9 +75,9 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.        |
+
+> [!NOTE]
+> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
 
 #### Mac
 
