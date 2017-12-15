@@ -1,24 +1,25 @@
 ---
 title: "Admins Configure Skype for Business settings for individual users"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
+ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
 f1_keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+- Setup
 - LIL_Placement
-ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
-
 description: "Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. "
 ---
 
@@ -35,7 +36,7 @@ To allow (or block) everyone in your business to communicate with external peopl
 ## Configure general settings for one user
 <a name="__toc325019204"> </a>
 
-You must have [admin permissions](about-office-365-admin-roles) to perform these steps.
+You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -92,20 +93,15 @@ To configure these settings in bulk, use PowerShell. See [Managing communication
 |**Toll-free number** <br/> |For a third-party ACP, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Conference ID and PIN** (required) <br/> |The participant PIN, or conference code, used to join meetings that are scheduled by this user and are provided from a third-party audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, this won't be required.  <br/> |
    
-To configure these settings in bulk, use PowerShell. See [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](../audio-conferencing-in-office-365/set-the-audio-conferencing-phone-numbers-for-meeting-organizers-that-are-include.md).
-  
-## 
-<a name="__toc314837483"> </a>
+To configure these settings in bulk, use PowerShell. See [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
 
-||
-|:-----|
-|![The short icon for LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+  
    
-## Related Topics
-<a name="__toc314837483"> </a>
+## Related topics 
 
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
