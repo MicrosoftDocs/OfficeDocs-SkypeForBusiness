@@ -25,7 +25,7 @@ Download these planning tools and practical guidance to walk you through rolling
 
 - [Microsoft Teams Workshop Decision Points Summary](https://www.microsoft.com/en-us/download/55981)
     
-    The Microsoft Teams Workshop Decision Points Summary.docx is a single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and and in related Help content.
+    The Teams Workshop Decision Points Summary.docx is a single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and and in related Help content. It'll also walk you thorugh the five high-level implementatino phases we recommend during your adoption journey.
 
 ### See also
 
