@@ -194,8 +194,9 @@ It is very important that you don't exceed the bandwidth in the voice or 'Expedi
 ### Putting your plan into action
 
 We can calculate the total bandwidth that will traverse the WAN and the amount of bandwidth that will traverse ExpressRoute, using the bandwidth estimates from the **Per application Per site** table above. The portion of traffic that traverses ExpressRoute excludes the inter-site peer bandwidth.
-  
-|**Site**|**Peak SIP / IM bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|**Total ExpressRoute traffic per site class (i.e., total time # of sites)**|
+
+ 
+|**Site**|**Peak SIP / IM bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|**Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites)**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Headquarters** <br/> |1,070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
 |**Regional Offices** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
