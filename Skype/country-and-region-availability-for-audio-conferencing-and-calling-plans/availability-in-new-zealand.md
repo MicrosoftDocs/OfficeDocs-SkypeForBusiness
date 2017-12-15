@@ -11,7 +11,7 @@ ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Audio Conferencing

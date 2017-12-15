@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
+ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
