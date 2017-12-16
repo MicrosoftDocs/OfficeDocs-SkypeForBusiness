@@ -33,7 +33,7 @@ Collaboration and communication is about people! Pick the most relevant business
 
 ## Step 3: Complete technical planning
 
-Efficient technical planning is the foundation of a great user experience. If your organization has over 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
+Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
 
 1.	[Check your environment's readiness for Teams](environment-readiness.md)
 2.	[Prepare your network for Teams](prepare-network.md)
@@ -56,7 +56,7 @@ Once your pilots are complete, you’ll have the feedback you need to plan your 
 When you’re ready to turn on Teams, read [Office 365 licensing for Teams](office-365-licensing.md) to find out how.
 
 
-#### :trophy: Best practice:
+### :trophy: Best practice:
 In smaller organizations (currently fewer than 2500 users), consider enabling Teams for the entire organization, then add all users to a single, company-wide team. Add common reference items and tasks to this team to simplify the collaboration and productivity experience for everyone.
 
 If you use Yammer for broad company collaboration, consider integrating Yammer into the Teams experience. This doesn’t replace the native browser or mobile experience for Yammer but provides an integrated way to stay up-to-date on topics of broad interest across your organization. To learn more, watch [Tech Tip: Community management for Yammer with Microsoft Teams.](https://youtu.be/LU-sv-07jcY)
