@@ -78,5 +78,5 @@ e. **Nurture your champions and highlight your wins.** Reward employees for embr
 
 ## Next steps
 1. Head over to the [Workshop kit: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
-2. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](https://www.microsoft.com/en-us/download/55982)
-3. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](https://www.microsoft.com/en-us/download/55981).
+2. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](https://www.microsoft.com/en-us/download/55981).
+3. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](https://www.microsoft.com/en-us/download/55982)
