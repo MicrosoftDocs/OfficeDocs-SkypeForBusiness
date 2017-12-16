@@ -29,9 +29,9 @@ Collaboration and communication is about people! Pick the most relevant business
 #### *Best practice:*
 **Plan Teams with Teams!** Customers who use Teams to plan their deployment ease the change curve for key stakeholders. Consider creating a team called Microsoft 365 Deployment and creating channels for the various workloads you want to deploy. Your team might look something like this:
 
-![Screenshot of Sample Microsoft 365 Deployment team.](media/BP_Microsoft_365_Deployment_Team.png)
+![Screenshot of a sample Microsoft 365 Deployment team.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-## **Step three: Complete technical planning**
+## Step 3: Complete technical planning
 
 Efficient technical planning is the foundation of a great user experience. If your organization has over 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
 
@@ -43,7 +43,7 @@ Efficient technical planning is the foundation of a great user experience. If yo
 In addition, certain organizations may want to review [Overview of security and compliance in Teams.](security-compliance-overview.md)
 
 
-## **Step Four: Conduct pilots and deploy Teams**
+## Step Four: Conduct pilots and deploy Teams
 
 In most organizations, you’ll want to conduct an initial Teams pilot with your stakeholders, champions, and select early adopters for one or more of the scenarios you selected above. A pilot gives you valuable information about how Office 365 and Teams are received in your organization. Select an interested group of users and a prioritized business scenario to get started. Figure 2 shows some example scenarios.
 

@@ -5,8 +5,6 @@ metadata:
   description: Interactive tutorial walks you through the journey from Skype for Business to Microsoft Teams.
   audience: IT Pro
   level: Intermediate
-  <!-- nextTutorialHref: http://aka.ms/SuccessWithTeams -->
-  <!-- nextTutorialTitle: Microsoft Teams documentation and practical guidance -->
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
