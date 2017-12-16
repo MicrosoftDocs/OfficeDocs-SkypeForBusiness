@@ -72,11 +72,11 @@ Deploying software is not the only thing required to drive change in your organi
 a. **Read [Office 365 Adoption Guidance](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)** for best practices.  Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
 b. **Study [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
 c. **Capture feedback from your employees** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
-d. **Use [Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx) materials to Drive use of common features** by encouraging chat, @mentions and usage of cloud storage (OneDrive & SharePoint Online via Microsoft Teams) to draw people into the experience. Stop emailing that spreadsheet around! 
+d. **Use [Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx) materials to drive use of common features** by encouraging chat, @mentions and usage of cloud storage (OneDrive & SharePoint Online via Teams) to draw people into the experience. Stop emailing that spreadsheet around! 
 e. **Nurture your champions and highlight your wins.** Reward employees for embracing these new tools and using them in innovative ways that relate to business outcomes for your company. This, above anything, will ensure continued adoption of Office 365 and Teams.
 
 
-## Next Steps
-1. Head over to the [Planning workshop kit](planning-workshop-practical-guide.md)
-2. Download the [Planning Workshop for Microsoft Teams](https://www.microsoft.com/en-us/download/55982) powerpoint
-3. Use the downloaded PowerPoint to help you fill out the questionnaire and figure out your next steps in the [Practical Guidance for Microsoft Teams Quick Start & Planning Guide]() docment for your deployment. 
+## Next steps
+1. Head over to the [Workshop kit: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
+2. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](https://www.microsoft.com/en-us/download/55982)
+3. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](https://www.microsoft.com/en-us/download/55981).
