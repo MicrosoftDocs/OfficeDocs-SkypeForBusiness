@@ -18,7 +18,7 @@ Microsoft Teams has clients available for web, desktop (Windows and Mac), and mo
 Web client 
 ----------------
 
--The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies. 
+The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies. 
 
 There is no plugin or download required to leverage Microsoft Teams using a web browser.
 
@@ -81,9 +81,8 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 
 #### Mac
 
-Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the following location:
+Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the /Applications folder.
 
-\~/Library/Application Support/Microsoft/Teams
 
 Mobile clients
 --------------

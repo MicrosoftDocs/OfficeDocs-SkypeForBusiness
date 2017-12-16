@@ -12,7 +12,7 @@
 
 # [Quick start guides](quick-start-guides.md)
 ## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
-## [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
+## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
@@ -61,7 +61,7 @@
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
 ### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Quick start guides
-### [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
+### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 ## Videos
 ### [Audio Conferencing](audio-conferencing-videos.md)
 
