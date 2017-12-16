@@ -1,31 +1,28 @@
 ---
-title: Planning workshop kit and practical guide for Microsoft Teams
+title: Workshop kit -  Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
-description: Planning tools and practical guidance to help an admin get started with Microsoft Teams.
+description: Planning tools and workshop kit to help an admin get started with Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Planning workshop kit and practical guide for Microsoft Teams
+Workshop kit: Plan, deliver, and operate Microsoft Teams
 =============================================================
 
-Download these planning tools and practical guidance to walk you through rolling out Teams in your organization.
+Download these tools to walk you through planning, delivering, and operating Teams in your organization.
 
-- [Microsoft Teams Pre-workshop Questionnaire](https://www.microsoft.com/en-us/download/55975)
+- [Quick start guide: Successfully enable Teams](https://www.microsoft.com/en-us/download/55981)
     
-    The Microsoft Teams Pre-workshop Questionnaire.docx is intended to be used to collect basic information about an organization's current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.
+    This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment. This information lets the workshop leader customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
 
-- [Planning Workshop for Microsoft Teams](https://www.microsoft.com/en-us/download/55982) 
+- [Workshop: Plan, deliver, & operate Microsoft Teams](https://www.microsoft.com/en-us/download/55982) 
     
-    The Planning Workshop for Microsoft Teams.pptx is intended to be used by a knowledgeable resource to deliver an interactive conversation to assist with getting started with Microsoft Teams. The workshop will introduce the attendees to Microsoft Teams while also guiding them through decision points and next steps.
+    Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout. The workshop introduces Teams and guides your team through decision points and next steps.
 
-- [Microsoft Teams Workshop Decision Points Summary](https://www.microsoft.com/en-us/download/55981)
-    
-    The Microsoft Teams Workshop Decision Points Summary.docx is a single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and and in related Help content.
 
 ### See also
 

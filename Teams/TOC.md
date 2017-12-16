@@ -10,6 +10,9 @@
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
 ## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Quick start guides](quick-start-guides.md)
+## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
+## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
@@ -58,7 +61,7 @@
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
 ### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Quick start guides
-### [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
+### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 ## Videos
 ### [Audio Conferencing](audio-conferencing-videos.md)
 
