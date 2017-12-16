@@ -12,6 +12,7 @@
 
 # [Quick start guides](quick-start-guides.md)
 ## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
+## [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
