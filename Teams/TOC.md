@@ -11,7 +11,7 @@
 ## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
 # [Quick start guides](quick-start-guides.md)
-## [Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
+## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
 ## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 # Plan

@@ -1,5 +1,5 @@
 ---
-title: Practical Guidance for Microsoft Teams Quick Start & Planning Guide
+title: Quick start - Microsoft Teams planning guide
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -10,23 +10,23 @@ description: Use this guide to help you plan, implement, and adopt Microsoft Tea
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
-Practical Guidance for Microsoft Teams Quick Start & Planning Guide
+Quick start - Microsoft Teams planning guide
 ==========================================================
 
-Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization. This guide focuses on enabling collaboration and team communications scenarios. To implement Microsoft Teams enterprise voice features, check out our [Cloud voice](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment) documentation.
+Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization. This guide focuses on enabling collaboration and team communications scenarios. To implement Teams enterprise voice features, check out our [Cloud voice](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment) documentation.
 
-![Screenshot of the Implementation Phases.](media/Implementation_Phases.png)
-###### *Figure 1: Implementation Phases of Office 365 and Microsoft Teams*
+![Screenshot of the five implementation phases for Teams.](media/quick-start-enable-Teams-Implementation-Phases.png)
+#### *Figure 1: Implementation phases of Office 365 and Teams*
 
-## **Step one:  Get your people together**
+## Step 1: Get your people together
 
-Assemble a group of individuals from your business, IT and user communities to act as the stakeholder and decision-making group for your Teams deployment. In smaller organizations this may be 2 or 3 people. Be sure to include individuals from all 3 communities to ensure a successful journey.  
+Assemble a group of individuals from your business, IT, and user communities to act as the stakeholder and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
 
-## **Step two:  Prioritize your business scenarios**
+## Step 2:  Prioritize your business scenarios
 
 Collaboration and communication is about people! Pick the most relevant business scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your company. Successful Teams deployments often center around high-velocity teams that work closely together, such as product development, marketing event teams, finance groups, or support organizations. Select one of these scenarios and complete a quick inventory of how these users work today so you can effectively design the Teams experience in a meaningful way for these people.
 
-##### ***Best practice:***
+#### *Best practice:*
 **Plan Teams with Teams!** Customers who use Teams to plan their deployment ease the change curve for key stakeholders. Consider creating a team called Microsoft 365 Deployment and creating channels for the various workloads you want to deploy. Your team might look something like this:
 
 ![Screenshot of Sample Microsoft 365 Deployment team.](media/BP_Microsoft_365_Deployment_Team.png)
