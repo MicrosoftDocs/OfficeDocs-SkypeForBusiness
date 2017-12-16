@@ -61,7 +61,7 @@ In smaller organizations (currently fewer than 2500 users), consider enabling Te
 
 If you use Yammer for broad company collaboration, consider integrating Yammer into the Teams experience. This doesn’t replace the native browser or mobile experience for Yammer but provides an integrated way to stay up-to-date on topics of broad interest across your organization. To learn more, watch [Tech Tip: Community management for Yammer with Microsoft Teams.](https://youtu.be/LU-sv-07jcY)
 
-#### Don’t forget mobile!
+### Don’t forget mobile!
 As you’re deploying Teams, don’t forget to turn on the mobile experience. Enabling your users to run Office 365 mobile applications can dramatically increase usage and satisfaction. Office, Outlook, SharePoint, Teams, Planner, Yammer, and other popular Office 365 services all offer mobile experiences. As a best practice, [turn on the Teams mobile experience](get-clients.md#mobile-clients) at the same time as you deploy the desktop and browser clients.
 
 
