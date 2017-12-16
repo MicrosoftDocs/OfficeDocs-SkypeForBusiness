@@ -139,7 +139,7 @@ Auth
     CredSSP = false
 ```
 
-If basic authentication has been set to true, then you are ready to use PowerShell to connect to Skype for Business Online.
+If basic authentication has been set to true, then you're ready to use PowerShell to connect to Skype for Business Online.
   
 [!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
