@@ -25,12 +25,13 @@ The Audit Log provides ad-hoc search capabilities into notable events across Off
 
 The complete event list across Office 365 is quite extensive and can be found [here](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).
 
-Before you can dig into audit insights, auditing must first be enabled. To enable Auditing, navigate to the *Security & Compliance* Admin Center. Under *Search for activity*, click on **Start recording now**. After 24hrs, audit data will be available via *Audit Log Search* located under the *Search & Investigation* tab.
+Before you can dig into audit insights, auditing must first be enabled. To enable Auditing, go to the *Security & Compliance* Admin Center. Under *Search for activity*, click on **Start recording now**. After 24 hours, audit data will be available via *Audit Log Search* located under the *Search & Investigation* tab.
 
 
-| |  |
-|---------|---------|
-|![Screenshot of the home page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important     |Audit data is only available from the point at which Auditing was enabled.         |
+> [!IMPORTANT]
+> Audit data is only available from the point at which Auditing was enabled.
+
+
 
 ![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
 
@@ -47,6 +48,7 @@ Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
 3.  This information can be exported to Excel and filtered as needed.
 
 
-|  | |
-|---------|---------|
-|![Exclamation point icon.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image1.png)<br></br>Important |If auditing has not been enabled previously, that needs to be enabled before data will appear in the Audit Log.         |
+> [!IMPORTANT]
+> If auditing hasn't been enabled previously, it needs to be enabled before data will appear in the Audit Log.
+
+

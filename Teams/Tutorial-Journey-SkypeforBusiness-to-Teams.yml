@@ -1,15 +1,15 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Understand the journey from Skype for Business to Microsoft Teams
 metadata:
   title: Understand the journey from Skype for Business to Microsoft Teams
   description: Interactive tutorial walks you through the journey from Skype for Business to Microsoft Teams.
   audience: IT Pro
   level: Intermediate
-  <!-- nextTutorialHref: http://aka.ms/SuccessWithTeams -->
-  <!-- nextTutorialTitle: Microsoft Teams documentation and practical guidance -->
   displayType: one-column
   interactive: azurecli
+  ms.author: tbinder
+  manager: lolaj
+  ms.service: msteams
 items:
 - durationInMinutes: 1
   content: |
@@ -17,13 +17,13 @@ items:
 
         This training is for you if you're: 
 
-        - An It Pro or Teams IT admin
+        - An It Pro 
 
-        - Responsible for planning, deploying or managing Skype for Business
+        - Responsible for planning, deploying, or managing Skype for Business
 
         - Interested in understanding how to introduce Teams in your organization
 
-        We'll go into detail how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:
+        We'll go into detail on how these two products come together and explain what steps you can take today to prepare an existing Skype for Business environment for Teams. The key learnings of this tutorial are:
 
         - Understand the Intelligent communications vision
 
@@ -132,6 +132,9 @@ items:
   durationInMinutes: 12
   content: |
     Once you've verified that your environment is ready to run Teams, you can start a Teams pilot. Skype for Business and Teams offer overlapping functionality – that's why it's helpful to start your journey with a pilot. 
+        #### Watch the video "Running a Teams Pilot" (3:30 minutes)
+       > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]
+
     
     The pilot is a small-scale deployment that lets you validate the interoperability with Skype for Business in your environment as well as understand how your end users can maximize their productivity while minimizing confusion with both products running side-by-side. 
     

@@ -18,9 +18,9 @@ Microsoft Teams users can enhance an existing Office 365 Group with Microsoft Te
 To do this, users should go through the flow of creating a new team from the Microsoft Teams client. Select **“Yes, add Microsoft Teams functionality”** at the bottom of the screen and then choose the existing group that they want to enhance with Microsoft Teams. Existing group members will be added as members to the team automatically.
 
 
-|  |  |
-|---------|---------|
-|![Important icon.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image1.png)<br></br>Important     |Only the Office 365 Group owners have permission to enhance an existing group with Microsoft Teams.         |
+
+> [!IMPORTANT]
+> Only Office 365 Group owners have permission to enhance an existing group with Microsoft Teams. 
 
 Users can also invite a distribution list to a team, and the members of that distribution list will be added to the team. This is a one-time sync, and later changes in group membership in the distribution list will not be replicated to Teams. 
 

@@ -57,3 +57,4 @@ The following table lists the known issues for Microsoft Teams.
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> ||
    
 
+

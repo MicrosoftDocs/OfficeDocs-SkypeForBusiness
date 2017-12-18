@@ -8,7 +8,11 @@
 ## [Office 365 groups and Teams](Office-365-groups.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
+## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Quick start guides](quick-start-guides.md)
+## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
+## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
@@ -51,11 +55,15 @@
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
 
-# [Cloud voice deployment](cloud-voice-deployment.md)
+# [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
-### [Plan](audio-conferencing.md#Planning_AudioConferencing)
-### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
+### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Quick start guides
+### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+## Videos
+### [Audio Conferencing](audio-conferencing-videos.md)
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)

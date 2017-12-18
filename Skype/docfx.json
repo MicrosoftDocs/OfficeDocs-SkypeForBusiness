@@ -20,7 +20,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -31,7 +32,9 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Skype for Business"]
+      "searchScope": ["Skype for Business"],
+      "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
+      "extendBreadcrumb": "true"
     },
     "fileMetadata": {},
     "template": [],

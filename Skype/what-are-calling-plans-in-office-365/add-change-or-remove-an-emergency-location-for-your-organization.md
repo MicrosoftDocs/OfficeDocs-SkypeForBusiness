@@ -2,17 +2,21 @@
 title: "Add, change, or remove an emergency location for your organization"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
 description: "Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. "
 ---
 
@@ -30,7 +34,8 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!Important]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     
@@ -66,10 +71,13 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
     
 6. Click **Save**.
     
-## Related Topics
+## Related topics
+[What is address validation?](what-is-address-validation.md)
 
-[Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
+[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-  
 
+[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+  
