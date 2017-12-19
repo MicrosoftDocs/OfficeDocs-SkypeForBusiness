@@ -28,9 +28,8 @@ The following table provides information for users with Exchange Online hosted i
 |**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes|Yes|Yes|No|No|No|Yes| Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes|Yes|Yes|Yes*|No|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes|Yes|Yes|Yes (supported for Exchange 2016 CU3 and above)<br>No (not supported for Exchange prior to Exchange 2016 CU3)|No|No|Yes|Yes|
                                                             
-*\*Exchange 2016 CU3 and above supported*
 
 Additional information:
 
