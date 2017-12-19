@@ -1,5 +1,5 @@
 ---
-title: Identity models and authentication in Microsoft Teams | Microsoft Support
+title: Identity models and authentication in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

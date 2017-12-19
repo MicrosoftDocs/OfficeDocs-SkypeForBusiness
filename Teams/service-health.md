@@ -1,5 +1,5 @@
 ---
-title: Verify service health for Microsoft Teams | Microsoft Support
+title: Verify service health for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

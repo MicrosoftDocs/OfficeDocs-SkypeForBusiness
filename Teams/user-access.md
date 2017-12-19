@@ -1,5 +1,5 @@
 ---
-title: Manage user access to Microsoft Teams | Microsoft Support
+title: Manage user access to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

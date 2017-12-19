@@ -1,5 +1,5 @@
 ---
-title: Get clients for Microsoft Teams | Microsoft Support
+title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

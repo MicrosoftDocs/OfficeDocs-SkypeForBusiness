@@ -1,5 +1,5 @@
 ---
-title: Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online | Microsoft Support
+title: Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

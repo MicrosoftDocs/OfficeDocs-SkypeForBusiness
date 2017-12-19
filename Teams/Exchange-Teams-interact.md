@@ -1,5 +1,5 @@
 ---
-title: How Exchange and Microsoft Teams interact | Microsoft Support
+title: How Exchange and Microsoft Teams interact
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

@@ -1,5 +1,5 @@
 ---
-title: Overview of teams and channels in Microsoft Teams | Microsoft Support
+title: Overview of teams and channels in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

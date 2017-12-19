@@ -1,5 +1,5 @@
 ---
-title: Overview of Microsoft Teams | Microsoft Support
+title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

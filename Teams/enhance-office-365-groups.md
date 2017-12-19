@@ -1,5 +1,5 @@
 ---
-title: Enhance Existing Office 365 groups with Microsoft Teams | Microsoft Support
+title: Enhance Existing Office 365 groups with Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

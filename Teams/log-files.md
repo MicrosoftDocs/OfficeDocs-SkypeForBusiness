@@ -1,5 +1,5 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams | Microsoft Support
+title: Use log files in troubleshooting Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

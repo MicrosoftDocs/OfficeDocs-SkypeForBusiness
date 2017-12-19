@@ -1,5 +1,5 @@
 ---
-title: Check your environment’s readiness for Microsoft Teams | Microsoft Support
+title: Check your environment’s readiness for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

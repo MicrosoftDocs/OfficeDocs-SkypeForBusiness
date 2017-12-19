@@ -1,5 +1,5 @@
 ---
-title: Get tools to support a rollout of Microsoft Teams | Microsoft Support
+title: Get tools to support a rollout of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

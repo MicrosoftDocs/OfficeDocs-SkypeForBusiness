@@ -1,5 +1,5 @@
 ---
-title: Enable Microsoft Teams features in your Office 365 organization | Microsoft Support
+title: Enable Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

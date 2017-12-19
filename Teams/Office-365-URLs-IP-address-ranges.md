@@ -1,5 +1,5 @@
 ---
-title: Office 365 URLs and IP address ranges | Microsoft Support
+title: Office 365 URLs and IP address ranges
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

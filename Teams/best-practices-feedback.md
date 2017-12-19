@@ -1,5 +1,5 @@
 ---
-title: Best practices for user feedback methods in Microsoft Teams | Microsoft Support
+title: Best practices for user feedback methods in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

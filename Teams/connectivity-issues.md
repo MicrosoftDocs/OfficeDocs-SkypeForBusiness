@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot connectivity issues with the Microsoft Teams client | Microsoft Support
+title: Troubleshoot connectivity issues with the Microsoft Teams client
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

@@ -1,5 +1,5 @@
 ---
-title: Admin settings for apps in Microsoft Teams | Microsoft Support
+title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

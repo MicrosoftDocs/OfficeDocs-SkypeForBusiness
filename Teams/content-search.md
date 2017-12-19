@@ -1,5 +1,5 @@
 ---
-title: Use Content Search in Microsoft Teams | Microsoft Support
+title: Use Content Search in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

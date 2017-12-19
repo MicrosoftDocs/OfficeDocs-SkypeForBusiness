@@ -1,5 +1,5 @@
 ---
-title: Overview of a Microsoft Teams deployment | Microsoft Support
+title: Overview of a Microsoft Teams deployment
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

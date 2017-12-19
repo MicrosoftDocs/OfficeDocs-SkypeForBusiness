@@ -1,5 +1,5 @@
 ---
-title: Use T-Bot to help users with Microsoft Teams | Microsoft Support
+title: Use T-Bot to help users with Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

@@ -1,5 +1,5 @@
 ---
-title: Office 365 groups and Microsoft Teams | Microsoft Support
+title: Office 365 groups and Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

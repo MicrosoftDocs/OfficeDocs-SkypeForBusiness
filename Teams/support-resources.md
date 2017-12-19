@@ -1,5 +1,5 @@
 ---
-title: Support resources for Microsoft Teams | Microsoft Support
+title: Support resources for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

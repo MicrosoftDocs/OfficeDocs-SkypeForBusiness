@@ -1,5 +1,5 @@
 ---
-title: Place a Microsoft Teams user or team on legal hold | Microsoft Support
+title: Place a Microsoft Teams user or team on legal hold
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

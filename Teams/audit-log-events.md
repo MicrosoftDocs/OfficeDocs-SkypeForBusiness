@@ -1,5 +1,5 @@
 ---
-title: Search the audit log for events in Microsoft Teams | Microsoft Support
+title: Search the audit log for events in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

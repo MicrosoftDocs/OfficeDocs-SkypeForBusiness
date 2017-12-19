@@ -1,5 +1,5 @@
 ---
-title: Create a change management strategy for Microsoft Teams | Microsoft Support
+title: Create a change management strategy for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

@@ -1,5 +1,5 @@
 ---
-title: Add bots for private chats and channels in Microsoft Teams | Microsoft Support
+title: Add bots for private chats and channels in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj

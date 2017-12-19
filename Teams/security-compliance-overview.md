@@ -1,5 +1,5 @@
 ---
-title: Overview of security and compliance in Microsoft Teams | Microsoft Support
+title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
