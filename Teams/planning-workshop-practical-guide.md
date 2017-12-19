@@ -1,5 +1,5 @@
 ---
-title: Workshop kit -  Plan, deliver, and operate Microsoft Teams
+title: Workshop kit - Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
