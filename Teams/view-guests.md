@@ -7,7 +7,7 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how an admin can view information about guest users in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 View guest users in a team

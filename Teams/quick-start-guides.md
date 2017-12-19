@@ -7,7 +7,7 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
 description: Find the quick start guides you need to get up and running with Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Quick start guides for Microsoft Teams

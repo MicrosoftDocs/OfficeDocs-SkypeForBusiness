@@ -7,7 +7,8 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 description: Quick start guide for configuring calling plans in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams

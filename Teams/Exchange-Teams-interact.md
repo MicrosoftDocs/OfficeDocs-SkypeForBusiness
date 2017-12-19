@@ -1,5 +1,5 @@
 ---
-title: How Exchange and Microsoft Teams interact | Microsoft Support
+title: How Exchange and Microsoft Teams interact
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 How Exchange and Microsoft Teams interact 
@@ -15,9 +16,9 @@ How Exchange and Microsoft Teams interact
 
 For the full Microsoft Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 
-Users' Exchange mailboxes can be hosted online or on-premises. Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Microsoft Teams. They can create and join teams and channels, create and view meetings, modify user profile pictures, add and configure connectors, tabs, and bots, and they can chat and call.
+Users' Exchange mailboxes can be hosted online or on-premises. Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
 
-Users hosted on Exchange Online Dedicated – Legacy or Exchange on-premises must be synchronized to Azure Active Directory for Office 365. They can create and join teams and channels, add and configure tabs and bots, and chat and call. However, they can’t modify user profile pictures, create and view meetings, or add and configure connectors. They can receive messages from connectors configured by other users.
+Users hosted on either Exchange Online Dedicated - Legacy, or Exchange on-premises, must be synchronized to Azure Active Directory for Office 365. They can create and join teams and channels, add and configure tabs and bots, and chat and call. However, they can’t modify user profile pictures, or add and configure connectors. They can receive messages from connectors configured by other users. For creating and viewing meetings, it's a mixed bag: Creating and viewing meetings is supported for Exchange 2016 cumulative update 3 (CU3) and above, but not for versions prior to Exchange 2016 CU3.
 
 The following table provides information for users with Exchange Online hosted in various environments.
 

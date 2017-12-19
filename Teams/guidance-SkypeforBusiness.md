@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Enable Microsoft Teams side-by-side with Skype for Business 

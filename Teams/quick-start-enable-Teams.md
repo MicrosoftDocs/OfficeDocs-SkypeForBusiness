@@ -7,7 +7,8 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Quick start - Microsoft Teams planning guide
@@ -78,5 +79,5 @@ Deploying software is not the only thing required to drive change in your organi
 
 ## Next steps
 1. Head over to the [Workshop kit: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
-2. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](https://www.microsoft.com/en-us/download/55981).
-3. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](https://www.microsoft.com/en-us/download/55982)
+2. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+3. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)

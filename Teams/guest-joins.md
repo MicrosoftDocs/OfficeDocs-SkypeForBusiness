@@ -7,7 +7,7 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 How a guest joins a team

@@ -1,5 +1,5 @@
 ---
-title: Set up Microsoft Teams in your Office 365 organization | Microsoft Support
+title: Set up Microsoft Teams in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how to set up Microsoft Teams in your Office 365 organization.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Set up Microsoft Teams in your Office 365 organization

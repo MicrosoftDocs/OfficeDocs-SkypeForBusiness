@@ -1,5 +1,5 @@
 ---
-title: Support resources for Microsoft Teams | Microsoft Support
+title: Support resources for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Support resources for Microsoft Teams
