@@ -64,7 +64,7 @@ For more information, see [Skype for Business and Microsoft Teams add-on licensi
     
   - **Trigger amount** Enter the amount in **When the balance falls below** box that will be used to ' *trigger*  ' the auto-recharge. Once your balance falls below this amount, the recharge amount will be added automatically to your account.
     
-4. Enter your payment information and click **Place order**.
+4. Enter your payment information and click **Place order**. If you are a volume licensing customer, you may choose your enterprise agreement number as the payment instrument. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use as the payment instrument. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreemment number if applicable. 
     
     > [!NOTE]
     > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited. 
