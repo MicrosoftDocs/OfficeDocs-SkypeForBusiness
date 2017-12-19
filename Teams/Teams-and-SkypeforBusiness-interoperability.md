@@ -7,6 +7,7 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 description: Understand interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

@@ -7,6 +7,7 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
 description: Planning tools and workshop kit to help an admin get started with Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

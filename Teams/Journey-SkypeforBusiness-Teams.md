@@ -7,6 +7,7 @@ ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
 description: Everything you need to know about the journey to Microsoft Teams from Skype for Business Online.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

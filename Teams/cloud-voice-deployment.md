@@ -7,6 +7,7 @@ ms.date: 12/13/2017
 ms.topic: article
 ms.service: msteams
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

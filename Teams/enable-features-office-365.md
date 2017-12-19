@@ -7,6 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn all the Microsoft Teams features you can enable in your Office 365 organization, including tenant-wide settings, email integrations, apps, cloud storage, and more.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

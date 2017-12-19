@@ -7,6 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Frequently asked questions about the journey from Skype for Business Online to  Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

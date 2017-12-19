@@ -6,7 +6,8 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn which tools will help support your rollout of Microsoft Teams such as email templates, Getting Started Guides, Customer Success Kit resources, and more.
+description: Find tools to support your rollout of Microsoft Teams, including  email templates, Getting Started Guides, Customer Success Kit, and more.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 

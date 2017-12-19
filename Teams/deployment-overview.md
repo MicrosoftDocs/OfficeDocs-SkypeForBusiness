@@ -6,7 +6,8 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn how to set up a deployment of Microsoft Teams.
+description: Learn how to carry out a deployment of Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
 
 ---
 
