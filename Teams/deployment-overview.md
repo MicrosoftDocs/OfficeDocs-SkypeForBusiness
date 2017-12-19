@@ -51,4 +51,4 @@ This setup would look like this in Microsoft Teams:
 
  
 
-*In order to track these decision points, feel free to download the [Decision Points Summary](https://www.microsoft.com/en-us/download/55981).*
+To track these decision points, download the technical planning questionnaire in [Quick start: Successfully enabling Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
