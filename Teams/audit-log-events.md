@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how to retrieve Microsoft Teams data from the Audit log.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Search the audit log for events in Microsoft Teams

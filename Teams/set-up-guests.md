@@ -7,7 +7,7 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 description: Turn on or turn off the guest access feature in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 

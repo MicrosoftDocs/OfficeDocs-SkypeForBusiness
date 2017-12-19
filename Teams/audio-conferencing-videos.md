@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Videos: Audio Conferencing in Microsoft Teams

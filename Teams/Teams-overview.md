@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of Microsoft Teams

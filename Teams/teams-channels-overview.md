@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of teams and channels in Microsoft Teams

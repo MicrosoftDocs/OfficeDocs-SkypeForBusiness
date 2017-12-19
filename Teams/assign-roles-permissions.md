@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Assign roles and permissions in Microsoft Teams

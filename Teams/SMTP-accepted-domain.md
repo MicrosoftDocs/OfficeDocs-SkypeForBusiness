@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online to send notifications to team members.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Add the Microsoft Teams SMTP domain as an accepted domain in Exchange Online 

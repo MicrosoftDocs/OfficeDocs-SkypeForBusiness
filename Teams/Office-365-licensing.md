@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Office 365 licensing for Microsoft Teams

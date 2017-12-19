@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to enhance Office 365 groups with Microsoft Teams by inviting a ditribution list to a team, add mail-enabled security groups, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Enhance Existing Office 365 groups with Microsoft Teams

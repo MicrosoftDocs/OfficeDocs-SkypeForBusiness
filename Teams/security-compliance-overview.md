@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: An overview of security and compliance features of Microsoft Teams including auditing and reporting, compliance content search, eDiscovery, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of security and compliance in Microsoft Teams
