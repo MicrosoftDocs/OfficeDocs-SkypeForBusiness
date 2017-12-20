@@ -1,9 +1,9 @@
 ### YamlMime:Tutorial
-title: Admin quick start - Microsoft Teams for Education
+title: Quick start - Microsoft Teams for Education admins
 metadata:
-  title: Admin quick start - Microsoft Teams for Education
-  description: For IT Admins, deploy Microsoft Teams across your organization.
-  audience: IT Admin
+  title: Quick start - Microsoft Teams for Education admins
+  description: For IT admins, deploy Microsoft Teams across your organization.
+  audience: IT Pro
   level: Intermediate
   displayType: one-column
   interactive: azurecli
