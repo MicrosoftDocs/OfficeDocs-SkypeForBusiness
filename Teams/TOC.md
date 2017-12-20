@@ -13,6 +13,7 @@
 # [Quick start guides](quick-start-guides.md)
 ## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
 ## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+## [Admin quick start - Microsoft Teams for Education](Teams-quick-start-edu.yml)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
