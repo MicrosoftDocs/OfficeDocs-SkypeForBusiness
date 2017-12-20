@@ -1,5 +1,5 @@
 ---
-title: Conduct an eDiscovery investigation of content in Microsoft Teams | Microsoft Support
+title: Conduct an eDiscovery investigation of content in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Conduct an eDiscovery investigation of content in Microsoft Teams

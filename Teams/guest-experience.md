@@ -7,7 +7,8 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: Learn about the Microsoft Teams functionality available to guest users.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 What the guest experience is like

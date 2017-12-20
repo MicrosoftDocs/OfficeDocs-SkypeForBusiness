@@ -1,5 +1,5 @@
 ---
-title: Manage user access to Microsoft Teams | Microsoft Support
+title: Manage user access to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how to enable or disable user-level access on a per-user basis.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Manage user access to Microsoft Teams

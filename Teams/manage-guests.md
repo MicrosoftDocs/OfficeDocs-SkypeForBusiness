@@ -7,7 +7,7 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: 
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Manage guest access to Microsoft Teams

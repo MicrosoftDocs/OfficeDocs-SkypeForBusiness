@@ -1,5 +1,5 @@
 ---
-title: Admin settings for apps in Microsoft Teams | Microsoft Support
+title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Admin settings for apps in Microsoft Teams

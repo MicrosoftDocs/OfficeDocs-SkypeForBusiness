@@ -1,5 +1,5 @@
 ---
-title: Overview of Microsoft Teams | Microsoft Support
+title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of Microsoft Teams

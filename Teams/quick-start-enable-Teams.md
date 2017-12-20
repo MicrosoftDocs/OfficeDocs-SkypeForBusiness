@@ -7,7 +7,8 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Quick start - Microsoft Teams planning guide

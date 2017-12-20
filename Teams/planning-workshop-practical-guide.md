@@ -1,5 +1,5 @@
 ---
-title: Workshop kit -  Plan, deliver, and operate Microsoft Teams
+title: Workshop kit - Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,8 @@ ms.date: 12/15/2017
 ms.topic: article
 ms.service: msteams
 description: Planning tools and workshop kit to help an admin get started with Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Workshop kit: Plan, deliver, and operate Microsoft Teams
@@ -19,7 +20,7 @@ Download these tools to walk you through planning, delivering, and operating Tea
     
     This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment. This information lets the workshop leader customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
 
-- [Workshop: Plan, deliver, & operate Microsoft Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
+- [Workshop: Plan, deliver, & operate Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
     
     Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout. The workshop introduces Teams and guides your team through decision points and next steps.
 

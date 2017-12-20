@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Training resources an admin can use to successfully deploy Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 End user training for Microsoft Teams
