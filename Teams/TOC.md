@@ -13,6 +13,7 @@
 # [Quick start guides](quick-start-guides.md)
 ## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
 ## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+## [Admin quick start - Microsoft Teams for Education](Teams-quick-start-edu.yml)
 
 # Plan
 ## [Overview of a Microsoft Teams deployment](deployment-overview.md)
@@ -94,7 +95,8 @@
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
 
-
+# Teams for Education
+## [Admin quick start - Microsoft Teams for Education](Teams-quick-start-edu.yml)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 
