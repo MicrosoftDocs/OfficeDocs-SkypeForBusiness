@@ -1,8 +1,7 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
-title: Microsoft Teams Quick Start Guide for Office 365 for Education admins
+### YamlMime:Tutorial
+title: Admin quick start - Microsoft Teams for Education
 metadata:
-  title: Microsoft Teams Quick Start Guide for Office 365 for Education admins
+  title: Admin quick start - Microsoft Teams for Education
   description: For IT Admins, deploy Microsoft Teams across your organization.
   audience: IT Admin
   level: Intermediate
