@@ -13,7 +13,7 @@ description: Get a brief overview of how a guest is invited to join a team in Mi
 How a guest joins a team
 ========================
 
-A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
+A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user. Only people who are outside of your organization, such as partners or consultants, can be added as guests. People from within your organization can join as regular team members.
   
     
     
@@ -38,4 +38,4 @@ Here's how a guest becomes a member of a team:
 Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Only people who are outside of your organization, such as partners or consultants, can be added as guests. People from within your organization can join as regular team members. 
+> Although users can leave a team on their own, only an admin can remove users from the tenant. 
