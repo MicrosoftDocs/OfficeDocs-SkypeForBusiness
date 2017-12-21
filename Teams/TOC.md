@@ -1,6 +1,6 @@
 
 # Get started
-## [Overview of Microsoft Teams](Teams-Overview.md)
+## [Overview of Teams](Teams-Overview.md)
 ## [Check your environment's readiness for Teams](environment-readiness.md)
 ## [Office 365 licensing for Teams](Office-365-licensing.md)
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)
@@ -10,26 +10,26 @@
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
 ## [Teams and Skype for Business Interoperability](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Quick start guides](quick-start-guides.md)
+# [Quick start guides for Teams admins](quick-start-guides.md)
 ## [Quick start: Teams planning guide](quick-start-enable-Teams.md)
 ## [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
-## [Admin quick start - Microsoft Teams for Education](Teams-quick-start-edu.yml)
+## [Quick start - Teams for Education](Teams-quick-start-edu.yml)
 
 # Plan
-## [Overview of a Microsoft Teams deployment](deployment-overview.md)
+## [Overview of a Teams deployment](deployment-overview.md)
 ## [Plan for Office 365 groups when creating teams in Teams](plan-Office-365-groups.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Office 365 URLs and IP address ranges](Office-365-URLs-IP-address-ranges.md)
 ## [Workshop kit: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 
 # Adopt
-## [Create a change management strategy for Microsoft Teams](change-management-strategy.md)
+## [Create a change management strategy for Teams](change-management-strategy.md)
 ## [Best practices for user feedback methods in Teams](best-practices-feedback.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
 ## [Use T-Bot to help users with Teams](T-Bot.md)
 
 # Manage
-## [Get clients for Microsoft Teams](get-clients.md)
+## [Get clients for Teams](get-clients.md)
 ## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
 ## [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ## [Enable Teams features in your Office 365 organization](enable-features-office-365.md)
@@ -81,7 +81,7 @@
 
 # Security & Compliance
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
-## [Identity models and authentication in Microsoft Teams](identify-models-authentication.md)
+## [Identity models and authentication in Teams](identify-models-authentication.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Conduct an eDiscovery investigation of content in Teams](eDiscovery-investigation.md)
 ## [Use Content Search in Teams](content-search.md)
@@ -96,7 +96,7 @@
 ## [Use log files in troubleshooting Teams](log-files.md)
 
 # Teams for Education
-## [Admin quick start - Microsoft Teams for Education](Teams-quick-start-edu.yml)
+## [Admin quick start - Teams for Education](Teams-quick-start-edu.yml)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 
