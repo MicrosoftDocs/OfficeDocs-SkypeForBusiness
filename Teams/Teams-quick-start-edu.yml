@@ -99,34 +99,34 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud based service. Once a user has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves - the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Office 365 Admin center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This will be valuable to understand if you are interested in piloting Teams before broad enablement. 
+    Teams is a cloud based service. Once a user has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves - the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Office 365 admin center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This will be valuable to understand if you are interested in piloting Teams before broad enablement. 
 
     > [!NOTE]
     > Before you turn on Teams for your entire institution, make sure you have the proper controls in place. A piloting program will help significantly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. 
 
     Below are some sample pilot user groups and the teams that could be of interest. 
 
-    |IT Department   |Dept. Pilots   |Faculty Pilots   |Student Pilots   |
+    |IT department   |Department pilots   |Faculty pilots   |Student pilots   |
     |---|---|---|---|---|
-    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select Administration departments (Finance, Housing, Development) to use Teams for their project work and collaboration.   |Identify Faculty champions who are excited about Teams in the classroom and in faculty collaboration.   |Get Students excited about how Teams can help them outside of the classroom.  Identify student champions that can use Teams within their extracurricular groups.   |
-    |**Sample Teams**   |   |   |   |
-    |IT Project Coordination (e.g. Teams rollout)    |Project Coordination   |Class section collaboration / communications (incl. Syllabus, Group Project work, TA / Breakout sessions)   |Professional Society / Group coordination / collaboration (e.g. Honor Society / Association of Marketing Students)   |
-    |IT Dept to Faculty Communications   |Collaboration workspace / announcements   |Inter-department coordination / communications   |Social / Philanthropic Group coordination / collaboration (e.g. Fraternity, Sorority)   |
-    |LiveSite Issues   |Meetings   |Research project collaboration   |   |
-    |Org Collaboration Workspace / Announcements   |Executive Admin Groups   |   |   |
+    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select administration departments (such as Finance, Housing, Development) to use Teams for their project work and collaboration.   |Identify faculty champions who are excited about Teams in the classroom and in faculty collaboration.   |Get students excited about how Teams can help them outside of the classroom. Identify student champions that can use Teams within their extracurricular groups.   |
+    |**Sample teams**   |   |   |   |
+    |IT project coordination (e.g., Teams rollout)    |Project coordination   |Class section collaboration & communications (including syllabus, group project work, TA or breakout sessions)   |Professional society, group coordination & collaboration (e.g., Honor Society, Association of Marketing Students)   |
+    |IT department-to-faculty communications   |Collaboration workspace, announcements   |Inter-department coordination, communications   |Social, philanthropic group coordination & collaboration (e.g., fraternities, sororities)   |
+    |LiveSite issues   |Meetings   |Research project collaboration   |   |
+    |Organization collaboration workspace, announcements   |Executive admin groups   |   |   |
 
 
 - title: Configure Teams for your school
   durationInMinutes: 1
   content: |
-    You will need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 Admin center to manage Teams for your school.
+    You will need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
 
     1. From the [Office 365 admin center](https://portal.office.com/adminportal/home), sign-in with your Global Administrator credentials and go to **Settings** > **Services & add-ins**.
     2. On the **Services & add-ins** page, select **Microsoft Teams**.
     
-         ![Screenshot of the options in the Services & add ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+         ![Screenshot of the options in the Services & add-ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-    3. The Microsoft Teams settings screen will open. Below there are two sections, the top portion is controls for all the users in your organization. The second half will allow you to manage the product per Office License SKU type and for Guests. Some schools may have their faculty and staff on a different type of license from their students. This will allow more granular behavior control for that entire license group. 
+    3. The Microsoft Teams settings page opens. Below there are two sections. The top portion is controls for all the users in your organization. The second half lets you manage the product per Office License SKU type and for Guests. Some schools may have their faculty and staff on a different type of license from their students. This will allow more granular behavior control for that entire license group. 
 
          ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
@@ -208,22 +208,22 @@ items:
     > [!NOTE]
     > You need to use the **Groups** control panel, because all teams are built on top of Office 365 Groups. 
 
-    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 Admin center. By default, Office 365 Groups creation is turned on, but can be restricted to specific users or groups (for example, Education - Faculty and Staff) by using PowerShell.
+    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center. By default, Office 365 Groups creation is turned on, but can be restricted to specific users or groups (for example, Education - Faculty and Staff) by using PowerShell.
 
     To learn how to use PowerShell to control the permissions, and the types of licenses that are required to take advantage of these features, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
     > [!NOTE]
-    > Disabling group creation has implications on other products. These implications are detailed in [Manage who can create Office 365 Groups](https://support.office.comarticle/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+    > Disabling group creation has implications on other products. These implications are detailed in [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
     ### Highlights of team management and creation
     #### Team management
     - For more information about how to create Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
     - The Team Naming convention feature provided by Groups is in private preview and will be available soon in public preview. To learn more about this feature, see [Office 365 Groups naming policy](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
     - Prevent Teams from showing up in the Global Address List (GAL). To learn more, see "Hide Office 365 Groups from GAL" in [Manage Office 365 Groups with PowerShell](https://support.office.com/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
-    - Manage Team\Group Expiration policies. To learn more, see [Office 365 Group Expiration Policy](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+    - Manage Team or Group expiration policies. To learn more, see [Office 365 Group Expiration Policy](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
     #### Team creation
-    - _Using School Data Sync_: If you are already using School Data Sync, teams will get automatically created based on your roster details. Teachers and students will automatically be assigned. 
+    - __Using School Data Sync__: If you are already using School Data Sync, teams will get automatically created based on your roster details. Teachers and students will automatically be assigned. 
 
     > [!TIP]
     > If you are interested in learning more about School Data Sync, see [Overview of School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync). You can sign up for School Data Sync [here](https://sdscrm.microsoftcrmportals.com/signup/).
@@ -254,7 +254,7 @@ items:
     > [!NOTE]
     > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
     
-    Having the ability to escalate from a private 1:1 chat or group chat to an audio\video call is enabled by "Allow private calling." When in a chat, the top right corner will show these options. 
+    Having the ability to escalate from a private 1:1 chat or group chat to an audio or video call is enabled by "Allow private calling." When in a chat, the top right corner will show these options. 
 
     ![Screenshot of private chat audio video controls.](media/Teams-quick-start-edu-Private_Chat_Audio_Video.PNG)
 
@@ -263,29 +263,29 @@ items:
 
     ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/QS-edu-messaging.png)
 
-    As a tenant admin, if your school is not comfortable in "fun" content with GIFs, memes, and stickers you can always disable it for students in the **Messaging** section of the Microsoft Teams settings screen. These options will disappear from below the compose box, but our standard set of Emojis will still be available for use. When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within Teams in your institution. Content ratings include the following:
+    As a tenant admin, if your school is not comfortable with "fun" content, such as GIFs, memes, and stickers, you can always disable it for students in the **Messaging** section of the Microsoft Teams settings screen. These options will disappear from below the compose box, but our standard set of emojis will still be available for use. When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within Teams in your institution. Content ratings include the following:
 
     - Strict 
     - Moderate
     - Allow all content
     
-    You can also disable private chat just between students, while allowing Faculty to have the ability of private chats. If you do disable chat, for users who don't have this functionality they will no longer see Chat along the left side. 
+    You can also disable private chat just between students, while allowing Faculty to have the ability of private chats. If you do disable chat, for users who don't have this functionality, they will no longer see Chat along the left side. 
 
     ![Screenshot of left rail without chat.](media/Teams-quick-start-edu-Left_Rail_Without_Chat.PNG)
 
-    When users who are enabled for chat try to start a conversation with participants who aren't, they'll see a notification in the compose chat window indicating that the "Administrator has disabled chat for user"
+    When users who are enabled for chat try to start a conversation with participants who aren't, they'll see a notification in the compose chat window indicating that the "Administrator has disabled chat for user."
 
     ![Screenshot of unable to start chat with disabled participant.](media/Teams-quick-start-edu-Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
 
     > [!TIP]
-    > If you disable private chat for a set of users, they will not be able to leverage T-Bot for help content. Find all of the T-Bot content in the [Microsoft Teams help center](https://support.office.com/Teams), so be sure to give this as an adoption resource to users who aren't enabled for private chat. 
+    > If you disable private chat for a set of users, they can't use T-Bot to get help. However, they can find all of the T-Bot content in the [Microsoft Teams help center](https://support.office.com/Teams), so be sure to give this as an adoption resource to users who aren't enabled for private chat. 
 
-    Enabling owners to delete messages is recommended across all license types, as this really helps with Channel chat moderations. 
+    Enabling owners to delete messages is recommended across all license types, as this really helps with channel chat moderations. 
 
     Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redundant messages can be removed by the sender. 
 
     > [!NOTE]
-    > If you place a user's mailbox on Legal Hold, all edited\deleted messages will be logged. See [Place a Teams user or team on legal hold](legal-hold.md) for more information.
+    > If you place a user's mailbox on Legal Hold, all edited and deleted messages will be logged. See [Place a Teams user or team on legal hold](legal-hold.md) for more information.
 
 - title: Distribute to clients
   durationInMinutes: 1
@@ -339,7 +339,7 @@ items:
 
     [Contact support](https://aka.ms/o365portal)
 
-    [Ask the community](https://aka.ms/msteamscommunity)
+    [Ask the Teams community](https://aka.ms/msteamscommunity)
 
     [Explore the Office 365 Education help center](https://support.office.com/education)
 
