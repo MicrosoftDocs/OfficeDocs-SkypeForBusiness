@@ -21,7 +21,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 # Toll-free dialing restrictions in Brunei
 
-[Find another country or region](toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
+[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
 
 |**Details**|**Description**|
@@ -36,7 +36,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |Comments, restrictions, and access issues  <br/> |None  <br/> |
    
 ## Related topics
-[Toll-free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
+[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
