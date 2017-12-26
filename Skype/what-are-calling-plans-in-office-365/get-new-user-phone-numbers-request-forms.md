@@ -37,7 +37,7 @@ It's important to know that when you are doing phone number management tasks, th
 |Ireland  <br/> |[New phone number request for Ireland (v.3) (en-US)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3)-(en.us).pdf)|
 |Netherlands  <br/> | [New phone number request for the Netherlands (v.2) (en-US)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.2)-(en.us).pdf) <br/> [New phone number request for the Netherlands (v.3) (nl-NL)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3)-(nl.nl).pdf)|
 |Spain  <br/> | [New phone number request for Spain (v.2) (en-US)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-geographic-numbers-v2-en-us.pdf) <br/> [New phone number request for Spain (v.3) (es-ES)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-geographic-numbers-v3-es-es.pdf)| 
-United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (Geographic numbers)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(user-geographic-numbers)-(v.3)-(en.us).pdf) 
+United Kingdom (U.K.) <br/> |[New phone number request for the U.K. ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(user-geographic-numbers)-(v.3)-(en.us).pdf) 
 |United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S.](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3)-(en.us).pdf)|
    
 ## Downloads for phone number management forms
