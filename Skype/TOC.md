@@ -65,6 +65,7 @@
 ### [Set the Caller ID for a user](what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
 ### [Set up Calling Plans](what-are-calling-plans-in-office-365/set-up-calling-plans.md)
 ### [Set your PIN for transferring numbers to a new service provider](what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md)
+### [Toll-free number limits and restrictions](what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 ### [Transfer phone numbers to Office 365](what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md)
 ### [Transferring phone numbers common questions](what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions.md)
 ### [What are emergency locations, addresses and call routing?](what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
@@ -156,8 +157,6 @@
 ### [Manage Exchange Unified Messaging and hosted voicemail](set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [Manage user accounts](set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Manage your organization using the Skype for Business Online Connector](set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
-
-## [Toll free number limits and restrictions](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-limitations-and-restrictions.md)
 
 ## Accessibility and regulatory
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
