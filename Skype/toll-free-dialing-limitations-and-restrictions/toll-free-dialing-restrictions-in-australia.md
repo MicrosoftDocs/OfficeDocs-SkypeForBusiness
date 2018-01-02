@@ -18,7 +18,9 @@ ms.custom:
 description: "This will help you find out how to dial toll free numbers in each country/region. After you select the country/region, it will take you to a country-specific page that contains specific details, restrictions, and limits for toll-free service availability where toll-free service is available. The dialing format or formats will show you the required access codes within each country/region to dial the toll free number."
 ---
 
-# Toll free dialing restrictions in Australia
+# Toll-free dialing restrictions in Australia
+
+[Find another country or region](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
 |**Details**|**Description**|
 |:-----|:-----|
@@ -32,7 +34,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 |Comments, restrictions, and access issues  <br/> |Mobile access: Airtime is charged.  <br/> |
    
 ## Related topics
-[Toll free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
+[Toll-free dialing limitations and restrictions](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
