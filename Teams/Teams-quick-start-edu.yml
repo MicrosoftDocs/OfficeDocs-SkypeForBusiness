@@ -307,7 +307,7 @@ items:
 
     |   	|Edge   	|Internet Explorer   	|Firefox   	|Chrome   	|Safari   	|
     |---	|---	|---	|---	|---	|---	|
-    |   	|12 or later   	|11 or later   	|47.0 or later   	|51.0 or later   	|Coming Soon   	|
+    |   	|12 or later   	|11 or later   	|55 or later   	|51.0 or later   	|Coming Soon   	|
 
     > [!NOTE]
     > Users trying to open the Teams web client on Safari will be directed to download the desktop client. Support for Safari will be coming at a later date.
