@@ -136,14 +136,11 @@ When a user is assigned an **Audio Conferencing** license and the user creates a
   
 ## How does a user schedule and start a meeting when all attendees will be using a phone to dial-in?
 
-When a user is assigned an **Audio Conferencing** license, the user is assigned what is called a reservation-less conference ID. This conference ID can be shared along with the conference access phone numbers with meeting attendees without the user having to schedule a meeting.
-  
-Here is a table illustrating the scenarios when the organizer and all of the attendees dial in to a meeting:
-  
-|**User's setting**|**Organizer steps**|**Attendee steps**|
-|:-----|:-----|:-----|
-|Don't allow anonymous users to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  Enter the PIN for the meeting. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the meeting organizer hasn't joined the meeting yet, the attendee will listen to music in the lobby until the organizer joins the meeting. <br/> |
-|Allow an anonymous user to start a meeting.  <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/> | Dial the Audio Conferencing phone number. <br/>  Enter the conference ID. <br/>  If the attendee joins the meeting before the organizer, each attendee can start the meeting. <br/> |
+Scheduling a meeting that will be joined by all attendees using a phone to dial-in is not different from scheduling a regular online meeting. However, there are two ways to start a meeting on which all of the participants use a phone to dial-in:
+
+- **Option #1**: By default, if the meeting organizer and all participants are joining a meeting using a phone, the meeting organizer needs to input his or her Audio Conferencing PIN to start it. Callers get asked if they wish to authenticate as the organizer of a given meeting when they dial the phone number of an online meeting. All participants that join the meeting via dial-in before the organizer starts will be placed in the lobby and will listen to music on hold. Once the organizer starts it by inputting his or her Audio Conferencing PIN, all participants in the lobby will automatically join the meeting.
+
+- **Option #2**: If the “Allow unauthenticated callers to be the first people in a meeting“ setting (disabled by default) is enabled for a given organizer, then all meetings scheduled by that user will be able to be started without having the organizer input is or her Audio Conferencing PIN. When this setting is enabled, the meeting will start as soon as the first participant joins it via a dial-in phone number and he or she will not be put in the lobby. For additional information see, [Manage Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user.md)
    
 ## Related topics
 
