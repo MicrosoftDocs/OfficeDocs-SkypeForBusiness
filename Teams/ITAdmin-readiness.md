@@ -18,6 +18,9 @@ Learn about Microsoft Teams and drive usage in your organization. Check back fre
 
 |  |  |
 |---------|---------|
+| [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Walks you through everything you need to know about the journey to Microsoft Teams from Skype for Business Online.  |
+| [Quick start - Microsoft Teams for Education admins](teams-quick-start-edu.yml) |For IT admins in Education, deploy Microsoft Teams across your organization.   |
+[Quick start guide: Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide) | Quick start guide for configuring calling plans in Teams. |
 | [Audio Conferencing videos](audio-conferencing-videos.md) |  |
 | Deploying and operating Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | Deep dive into Guest Access <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
