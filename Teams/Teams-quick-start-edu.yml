@@ -2,7 +2,7 @@
 title: Quick start - Microsoft Teams for Education admins
 metadata:
   title: Quick start - Microsoft Teams for Education admins
-  description: For IT admins, deploy Microsoft Teams across your organization.
+  description: For IT admins in Education, deploy Microsoft Teams across your organization.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -10,6 +10,7 @@ metadata:
   ms.author: chucked
   manager: lolaj
   ms.service: msteams
+  ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
 items:
 - durationInMinutes: 2
