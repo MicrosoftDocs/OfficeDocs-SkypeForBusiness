@@ -13,7 +13,12 @@ description: Learn to allow and enable apps in Microsoft Teams including side-lo
 Admin settings for apps in Microsoft Teams
 ==========================================
 
-In this section, we refer to tabs, connectors, and bots, or any combination of these capabilities, provided by a single third-party service as Apps. There are Admin policies that can be configured in the Office 365 Admin Portal to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, as well as whether side-loading apps is allowed.
+Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, and whether side-loading apps is allowed.
+
+> [!NOTE]
+> To manage admin settings for apps in Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, then choose **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there:
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 **Allow external apps in Microsoft Teams**
 
