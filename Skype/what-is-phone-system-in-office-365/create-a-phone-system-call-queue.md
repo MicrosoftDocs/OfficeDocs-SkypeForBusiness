@@ -143,7 +143,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 *    Online users with a with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately. <br/> 
 
     > [!NOTE] 
-    > Users hosted on-premises using Lync Server 2010 aren't supported.          
+    > Users hosted on-premises using Lync Server 2010 aren't supported.           
    
 ### Set the maximum queue size and maximum wait time
 
