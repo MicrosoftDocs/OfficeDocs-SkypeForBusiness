@@ -20,14 +20,20 @@ ms.custom:
 description: "Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order."
 ---
 
-# Get new user phone numbers request form
+# Get new user phone numbers request forms
 
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the **Skype for Business admin center**, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order.
   
-> [!CAUTION]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us. 
+    > [!CAUTION]
+    > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us. 
   
 It's important to know that when you are doing phone number management tasks, there are [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) that are used when connecting phone numbers in Skype for Business Online. If you are looking for other phone number management tasks, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+
+## What do you need to do?
+
+- **STEP 1** - Use the download links below to download the correct form.
+- **STEP 2** - Fill out the form correctly.
+- **STEP 3** - Send us the form. [Send it to us for the U.S. numbers](gcstnmsd@microsoft.com). [Send it to us for non-U.S. numbers](ptneu.microsoft.com)
   
 |**Country/region**|**Direct link to the form you need**|
 |:-----|:-----|
@@ -40,7 +46,7 @@ It's important to know that when you are doing phone number management tasks, th
 United Kingdom (U.K.) <br/> |[New phone number request for the U.K. ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(user-geographic-numbers)-(v.3)-(en.us).pdf) 
 |United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S.](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3)-(en.us).pdf)|
    
-## Downloads for phone number management forms
+## Downloads for other phone number management forms
 
 - You can see a listing and download all Letters of Authorization (LOA)s by going to [Skype for Business Online Letters of Authorization](https://go.microsoft.com/fwlink/?LinkID=623745).
     
