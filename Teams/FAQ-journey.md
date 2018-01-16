@@ -60,7 +60,7 @@ Customers should evaluate the Teams roadmap to determine if capabilities will me
 
 Customers continue to use Skype for Business in Office 365 until Teams meets their business needs. We will assist customers who wish to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices will be available at [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). We will help ease the transition for users new to Teams with a specialized first run experience and in-product coach marks. FastTrack, customer support and partners will be available to help guide customers through the transition.
 
-### What does this mean from a licensing perspective? How will customers pay for IC Services in Teams?
+### What does this mean from a licensing perspective? How will customers pay for Intelligent Communications services in Teams?
 
 Teams is available in the Office 365 suites. Capabilities that are premium workloads in Skype for Business in Office 365 today will continue to be premium workloads in Teams. Existing licensing investments made by customers will carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it is available today. 
  
