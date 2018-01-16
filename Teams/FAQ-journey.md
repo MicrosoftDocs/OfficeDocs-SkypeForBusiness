@@ -153,4 +153,4 @@ Many of the Teams experiences work on Surface Hub today through the Edge browser
 
 ### Will certified Skype for Business online phones work with Teams?
 
-For all questions related to phone compatibility, see the Certified Skype for Business Online Phones and what this means for Teams blog.
+For all questions related to phone compatibility, see the [Certified Skype for Business Online Phones and what this means for Teams blog](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309). 
