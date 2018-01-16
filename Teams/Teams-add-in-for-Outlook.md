@@ -1,5 +1,5 @@
 ---
-title: Use the Teams Meeting add-in in Outlook
+title: Use the Microsoft Teams Meeting add-in in Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
