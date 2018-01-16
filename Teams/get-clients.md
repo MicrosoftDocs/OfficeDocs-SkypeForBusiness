@@ -30,7 +30,7 @@ Microsoft Teams supports the following browsers and versions:
 
 -   **Internet Explorer:** 11+
 
--   **Chrome**: 51.0+
+-   **Chrome**: 58.0+
 
 -   **Firefox**: 55+
 
