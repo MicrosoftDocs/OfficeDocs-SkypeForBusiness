@@ -1,15 +1,17 @@
 ---
 title: Manage guest access to Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: LaithAlShamri
+ms.author: laal
+manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: 
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
+Manage guest access to Microsoft Teams
+======================================
 
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary.
   

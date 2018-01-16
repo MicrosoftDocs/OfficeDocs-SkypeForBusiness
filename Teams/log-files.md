@@ -1,13 +1,13 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams | Microsoft Support
+title: Use log files in troubleshooting Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Use log files in troubleshooting Microsoft Teams

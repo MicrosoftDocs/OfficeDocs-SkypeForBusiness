@@ -1,13 +1,14 @@
 ---
-title: Overview of security and compliance in Microsoft Teams | Microsoft Support
+title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: An overview of security and compliance features of Microsoft Teams including auditing and reporting, compliance content search, eDiscovery, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of security and compliance in Microsoft Teams
@@ -64,7 +65,7 @@ These tools reside in the Office 365 Security and Compliance Portal and provide 
 
 The figure below indicates the workflow of Teams data to both Exchange and SharePoint.
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagram of the workflow of Teams datat to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
@@ -78,13 +79,13 @@ Additionally, Microsoft is considering providing the following security features
 
 -   Customer Lockbox
 
--   Right Management
+-   Rights Management
 
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next Steps         |Document the required security and compliance features in the table below.         |
+|![Decison Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next Steps         |Document the required security and compliance features in the table below.         |
 
 Licensing
 ---------------
@@ -105,8 +106,8 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next Steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
+|![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next Steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
 
 Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 Admin center. By default, tenant admins have access.
 
@@ -115,7 +116,14 @@ Content Search and eDiscovery do not require enablement within the Security & Co
 Location of data in Microsoft Teams
 -----------------------------------
 
-Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. In the future, Teams will provide GoLocal support, where data remains in country (not just in region). Stay tuned to the [*Office 365 Roadmap*](https://go.microsoft.com/fwlink/?linkid=855778) for updates.
+Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. 
+
+As of November 1, 2017, Teams offers data residency in the United Kingdom for new tenants only. A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Microsoft Teams.
+
+> [!NOTE]
+> Existing tenants from the UK will continue to remain in EMEA, until a migration plan is published (which is anticipated in 2018).
+
+For more information, see the Microsoft Teams tech community [blog post](https://go.microsoft.com/fwlink/p/?linkid=862275) about the launch of UK data residency.
 
 Privacy in Microsoft Teams
 --------------------------

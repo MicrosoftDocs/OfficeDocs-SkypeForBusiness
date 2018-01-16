@@ -1,13 +1,14 @@
 ---
-title: Overview of a Microsoft Teams deployment | Microsoft Support
+title: Overview of a Microsoft Teams deployment
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn how to set up a deployment of Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+description: Learn how to carry out a deployment of Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of a Microsoft Teams deployment
@@ -27,7 +28,7 @@ A typical Microsoft Teams journey may take the following form:
 
 5.  Refine and leverage the strategy and learnings for a wider rollout.
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
+![Diagram of stages of Teams journey: Technical & Legal Evaluation, Assess/Prepare, IT Pilot, Business Pilot, and finally Rollout.](media/Overview_of_a_Microsoft_Teams_deployment_image1.png)
 
 During the journey, one of the first uses of Microsoft Teams in your environment is the IT Pilot. Consider leveraging this pilot to help your team engage to plan, deliver, and operate Microsoft Teams and outreach to the business users.
 
@@ -40,15 +41,15 @@ Here’s an example of how you could set up a team / channel structure to help d
 
 This setup would look like this in Microsoft Teams:
 
-![](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
+![Screenshot of a team and its channels in Microsoft Teams.](media/Overview_of_a_Microsoft_Teams_deployment_image2.png)
 
 
 ||||
 |---------|---------|---------|
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
-|![](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
+|![Decision Point icon.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png)     |Decision Point         |What initial teams and channels do you want to create for your IT pilot?         |
+|![Next Steps icon.](media/Overview_of_a_Microsoft_Teams_deployment_image4.png)     |Next Steps         |Document what your initial teams/channels will be for your IT Pilot         |
 
 
  
 
-*In order to track these decision points, feel free to download the [Decision Points Summary](https://www.microsoft.com/en-us/download/55981).*
+To track these decision points, download the technical planning questionnaire in [Quick start: Successfully enabling Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).

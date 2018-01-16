@@ -1,13 +1,13 @@
 ---
-title: Place a Microsoft Teams user or team on legal hold | Microsoft Support
+title: Place a Microsoft Teams user or team on legal hold
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to place a Microsoft Teams user or team on legal hold using the Security & Compliance Center and learn what needs a legal hold based on data requirements.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Place a Microsoft Teams user or team on legal hold
@@ -15,16 +15,19 @@ Place a Microsoft Teams user or team on legal hold
 
 To put a user or a team on Legal Hold, navigate to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). When you create a new case, you are presented with the option to place mailboxes or sites on hold.
 
-|||
-|---------|---------|
-|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image1.png)<br></br> Note     |Placing a user on hold does not automatically place a group on hold or vice-versa.         |
-|![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image2.png)<br></br> Important     |When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.         |
+> [!NOTE]
+> Placing a user on hold does not automatically place a group on hold or vice-versa.
+
+> [!IMPORTANT]
+> “When a user or group is placed on hold, all message copies will be retained. Example: Clay posted a message in a channel and then modified the message. In a hold scenario, both copies of the message are retained. Without Legal Hold, only the latest message is retained.
+
+
 
 In the figure below, there is an investigation involving Clay. Clay is a member of the Brokers-Dealers team.
 
 If we needed to Legal Hold all the places Clay could have discussed Brokering plans, ensure that the team’s SharePoint site is added to the Legal Hold site list, as well as Clay’s OneDrive for Business site.
 
-![](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
+![Screenshot of a Create a new hold dialog box.](media/Place_a_Microsoft_Teams_user_or_team_on_legal_hold_image3.png)
 
 To recap, use the table below to understand what needs to be placed on Legal Hold based on data requirements:
 
