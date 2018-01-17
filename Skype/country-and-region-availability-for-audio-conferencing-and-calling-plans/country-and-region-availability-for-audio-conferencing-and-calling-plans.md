@@ -26,7 +26,7 @@ description: "You can select a country/region to see if Audio Conferencing, Phon
 
 You can select a country or region to see if Audio Conferencing, Phone System, Calling Plans, and Communications Credits are available.
 
-You can click [here](../../downloads/country-region-availability/country-and-region-availability-(v.1.0)(en.us).xlxs) to download all of this availability information in an Excel spreadsheet format.
+You can click [here](../downloads/country-region-availability/country-and-region-availability-(v.1.0)(en.us).csv) to download all of this availability information in an Excel spreadsheet format.
   
 ## Select your country or region to see what's available for you!
 
