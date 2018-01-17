@@ -41,10 +41,10 @@ It's important to know that when you are doing phone number management tasks, th
 |France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
 |Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|
 |Ireland  <br/> |[New phone number request for Ireland (geographic numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)|
-|Netherlands  <br/> |[New phone number request for the Netherlands (geographic numbers) (v.3.0)(nl.nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3.0)-(nl.nl).pdf)|
+|Netherlands  <br/> |[New phone number request for the Netherlands (geographic numbers) (v.3.0)(nl.nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf)|
 |Spain  <br/>  |[New phone number request for Spain (geographic numbers) (v.3.0)(es.es)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf)| 
 United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (geographic numbers) (v.3.0)(en.us) ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) 
-|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S.](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf)|
+|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S. (user numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf)|
    
 ## Downloads for other phone number management forms
 

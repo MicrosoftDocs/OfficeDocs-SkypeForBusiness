@@ -40,7 +40,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
+|Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
    
