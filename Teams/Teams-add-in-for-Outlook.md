@@ -23,18 +23,18 @@ Users can use the Teams Meeting add-in in Outlook to schedule online meetings in
 > [!NOTE]
 > Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
 
-### Compatible Office versions
+## Compatible Office versions
 
 NISHANTH: Which Office versions are compatible/supported with the Teams Add-in?
 
 > [!NOTE]
 > The Teams Meeting add-in for Outlook is currently not available for Mac users.​
 
-### Deployment considerations
+## Deployment considerations
 
 NISHANTH: Are there any deployment considerations (e.g., 32-bit vs. 64-bit, C2R vs. MSI) that should be mentioned?
 
-### Configuration options
+## Configuration options
 
 NISHANTH: Are there any configuration options that should be mentioned?
 
