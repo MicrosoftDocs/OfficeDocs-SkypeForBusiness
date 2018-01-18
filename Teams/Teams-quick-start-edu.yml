@@ -305,10 +305,12 @@ items:
     |   	|7 and later   	|10.10 and later   	|10 or later   	|4.4 and later   	|10.0.10586 and later   	|
 
     
-    Internet browser support: Internet Explorer 11, Microsoft Edge, the latest version of Chrome, and the latest version of Firefox.
+    Internet browser support: 
+    
+    Teams supports the following internet browsers: Internet Explorer 11, Microsoft Edge, the latest version of Chrome, and the latest version of Firefox.
 
     > [!NOTE]
-    > Safari isn't currently supported. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for any news about Safari support. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
+    > Safari isn't currently supported.Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
 
 
 - title: Adoption, feedback, and support
