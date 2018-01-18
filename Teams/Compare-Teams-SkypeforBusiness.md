@@ -193,15 +193,23 @@ This table covers features requiring support for modern authentication.
 
 Archiving, compliance, and logging support
 --------------------------------------------------------------------------------
-This table covers features related to support for archiving and logging functions.
+This table covers features related to support for archiving and logging functions and compares Skype for Business Online with Teams.
 
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---             |        :---:                           |  :---:                    |  :---:       | 
-|Archiving of IM conversations in Outlook Conversation History|&#x2713; &dagger; | &#x2713; If server side conversation history is turned on |   |
-|Client-side archiving of audio, video, application sharing, desktop sharing, and uploaded content| &#x2713; &dagger; |   |
-|Client-side archiving of file transfers, shared OneNote pages, and PowerPoint annotations &Dagger;| &#x2713; |   |
-|Access sign-in logs from Skype for Business icon in the task bar| &#x2713; |   |  |
+|Saving of IM conversations in Outlook Conversation History|&#x2713; | &#x2713;  |   |
+|Access sign-in logs from client|&#x2713;  | &#x2713; | &#x2713;   |
+|eDiscovery/archiving/content search and hold for conversations data| &#x2713; &dagger; | &#x2713; &dagger;  | &#x2713; |
+|eDiscovery/archiving/content search and hold for meetings and calls| &#x2713; &dagger; &Dagger; | &#x2713; &dagger; &Dagger;  | Coming soon |
+|Client-side support of AAD conditional access | &#x2713; &Dagger;&Dagger; | &#x2713; &Dagger;&Dagger;  | Coming soon |
+|Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | &#x2713;  | &#x2713;  |
+|Office 365 audit logs|      |      | &#x2713; |
+|Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon |
+|DLP for conversations and files|     |     | Coming soon |
+
  
 &dagger; For Skype for Business Online users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute. 
-&Dagger; Not available with Skype for Business Online.
 
+&Dagger; Supports Metadata, PowerPoint uploads, File transfer, Whiteboard, and Q&A. Does not support Audio, Video, and App and Desktop sharing.
+
+&Dagger;&Dagger; Supports iOS and Android. Does not support other clients.
