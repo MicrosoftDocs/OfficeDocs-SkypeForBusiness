@@ -1,5 +1,5 @@
 ---
-title: Get clients for Microsoft Teams | Microsoft Support
+title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Get clients for Microsoft Teams 
@@ -18,9 +18,9 @@ Microsoft Teams has clients available for web, desktop (Windows and Mac), and mo
 Web client 
 ----------------
 
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the web client does not support real-time communications (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies. 
+The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the web client does not support real-time communications (namely, joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies. 
 
-There is no plugin or download required to leverage Microsoft Teams using a web browser.
+There is no plugin or download required to run Teams in a web browser.
 
 The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.
 
@@ -30,9 +30,9 @@ Microsoft Teams supports the following browsers and versions:
 
 -   **Internet Explorer:** 11+
 
--   **Chrome**: 51.0+
+-   **Chrome**: 58.0+
 
--   **Firefox**: 47.0+
+-   **Firefox**: 55+
 
 
 
@@ -54,7 +54,7 @@ IT admins can choose their preferred method to distribute the installation files
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
-       |
+
 
 #### Windows
 

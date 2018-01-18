@@ -13,6 +13,6 @@ SharePoint Server 2016 sites provide environments that administrators can config
 Make sure to check out our [Technical Diagrams](https://technet.microsoft.com/en-us/library/cc263199(v=office.16).aspx) page for recommended solutions for SharePoint.
 
 
-![Thumnail for posters](media/testfile.png)
+![Thumbnail for posters](media/testfile.png)
 
 [Check out the accessibility guidance as well](https://technet.microsoft.com/en-us/library/mt790686(v=office.16).aspx)

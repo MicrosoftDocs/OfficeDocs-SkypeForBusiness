@@ -1,5 +1,5 @@
 ---
-title: Overview of Microsoft Teams | Microsoft Support
+title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,15 +7,14 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of Microsoft Teams
 ===========================
 
-| | |
-|---------|---------|
-| <iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>   |         |
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
 
 
 Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 

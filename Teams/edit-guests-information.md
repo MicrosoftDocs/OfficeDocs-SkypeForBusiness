@@ -7,7 +7,7 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
 description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Edit guest user information

@@ -21,6 +21,9 @@ description: "The new Skype for Business Admin Center Reports area shows you cal
 
 # PSTN minute pools report
 
+>[!NOTE]
+>This report is only available to preview customers.
+
 The new Skype for Business Admin Center **Reports** area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the **Skype for Business PSTN minute pools** report to see the number of minutes consumed during the current month within your organization.
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.

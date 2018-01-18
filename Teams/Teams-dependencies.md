@@ -7,7 +7,7 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Authorize guest access in Microsoft Teams

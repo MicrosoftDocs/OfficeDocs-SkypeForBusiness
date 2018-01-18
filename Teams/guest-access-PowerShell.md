@@ -7,7 +7,7 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: Use PowerShell to allow or block guest access to teams in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+
 ---
 
 Use PowerShell to control guest access to a team

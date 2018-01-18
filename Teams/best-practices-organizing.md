@@ -1,19 +1,23 @@
 ---
-title: Best practices for organizing teams in Microsoft Teams | Microsoft Support
+title: Best practices for organizing teams in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Learn the best practices for organizing teams in Microsoft Teams for structuring your team based on your specific needs.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Best practices for organizing teams in Microsoft Teams
 ======================================================
 
-Before creating a team, it is a good practice to think about a goal, project, or work item. and the organization’s people or groups who can help deliver that collaboratively (be selective in adding people and groups to help achieve your goal). Once created, add these people/groups to start collaborating It is a good idea to set up more than one Owner for each team (see [*Managing Teams*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
+> [!TIP]
+> Do you have a best practice or tip for using Teams? Share it with us in the **Comments** section at the end of this article.
+
+Before creating a team, it's a good practice to think about a goal, project, or work item and the organization’s people or groups who can help deliver it collaboratively. Once created, add these people or groups to a team to start collaborating. It's a good idea to designate more than one owner for each team - see [*Managing Teams*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 You may start with a small number of team members to brainstorm as you move forward, and then add new people/groups as you go. The great thing with Microsoft Teams, is that when you add new people/groups, they can quickly get up to speed on what has already been discussed as the conversations and files are available to users regardless of when they join. Try to avoid creating different teams that have the same set of members, as this approach may not provide the desired focus to deliver the project or goal. Outlook is a great tool for sharing those types of group-wide communications.
 

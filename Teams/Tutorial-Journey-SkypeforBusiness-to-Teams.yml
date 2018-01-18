@@ -10,6 +10,8 @@ metadata:
   ms.author: tbinder
   manager: lolaj
   ms.service: msteams
+  ms.topic: tutorial
+  ms.collection: Strat_MT_TeamsAdmin
 items:
 - durationInMinutes: 1
   content: |

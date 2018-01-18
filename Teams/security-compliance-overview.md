@@ -1,5 +1,5 @@
 ---
-title: Overview of security and compliance in Microsoft Teams | Microsoft Support
+title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: An overview of security and compliance features of Microsoft Teams including auditing and reporting, compliance content search, eDiscovery, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+
 ---
 
 Overview of security and compliance in Microsoft Teams
@@ -78,7 +79,7 @@ Additionally, Microsoft is considering providing the following security features
 
 -   Customer Lockbox
 
--   Right Management
+-   Rights Management
 
 
 | | | |
