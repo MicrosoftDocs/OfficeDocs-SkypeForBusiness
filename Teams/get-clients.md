@@ -24,20 +24,12 @@ There is no plugin or download required to run Teams in a web browser.
 
 The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.
 
-Microsoft Teams supports the following browsers and versions:
-
--   **Edge**: 12+
-
--   **Internet Explorer:** 11+
-
--   **Chrome**: 58.0+
-
--   **Firefox**: 55+
-
-
+Internet browser support
+------------------------------
+Teams supports the following internet browsers: Internet Explorer 11, Microsoft Edge, the latest version of Chrome, and the latest version of Firefox.
 
 > [!NOTE]
-> Safari is not yet supported, but is coming soon.
+> Safari isn't currently supported. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
 
 Desktop clients
 ------------------------

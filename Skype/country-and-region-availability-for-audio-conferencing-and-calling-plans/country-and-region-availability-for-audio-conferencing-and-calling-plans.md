@@ -25,7 +25,7 @@ description: "You can select a country/region to see if Audio Conferencing, Phon
 # Country and region availability for Audio Conferencing and Calling Plans
 
 You can select a country or region to see if Audio Conferencing, Phone System, Calling Plans, and Communications Credits are available.
-  
+
 ## Select your country or region to see what's available for you!
 
 > [!div class="op_single_selector"]    

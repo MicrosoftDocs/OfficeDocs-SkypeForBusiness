@@ -33,24 +33,24 @@ It's important to know that when you are doing phone number management tasks, th
 
 - **STEP 1** - Use the download links below to download the correct form.
 - **STEP 2** - Fill out the form correctly.
-- **STEP 3** - Send us the form. For numbers in the U.S., [send it to us](mailto:ptn@microsoft.com). For numbers in the European Union (E.U.), [send it to us](mailto:ptneu@microsoft.com)
+- **STEP 3** - Send us the form. For numbers in the U.S., [send it to us](mailto:ptn@microsoft.com). For numbers in the European Union (E.U.), [send it to us](mailto:ptneu@microsoft.com).
   
 |**Country/region**|**Direct link to the form you need**|
 |:-----|:-----|
-|Belgium  <br/> |[New phone number request for Belgium (v.3) (de-BE)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(de.be).pdf) <br/> [New phone number request for Belgium (v.3) (fr-BE)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(fr.be).pdf) <br/> [New phone number request for Belgium (v.3) (nl-BE)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3)-(nl.be).pdf) <br/> 
-|France  <br/> |[New phone number request for France (v.3) (fr-FR)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3)-(fr.fr).pdf)|
-|Germany  <br/> |[New phone number request for Germany (v.3) (de-DE)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3)-(de.de).pdf)|
-|Ireland  <br/> |[New phone number request for Ireland (v.3) (en-US)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3)-(en.us).pdf)|
-|Netherlands  <br/> |[New phone number request for the Netherlands (v.3) (nl-NL)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands(geographic-numbers)-(v.3)-(nl.nl).pdf)|
-|Spain  <br/>  |[New phone number request for Spain (v.3) (es-ES)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-geographic-numbers-v3-es-es.pdf)| 
-United Kingdom (U.K.) <br/> |[New phone number request for the U.K. ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(user-geographic-numbers)-(v.3)-(en.us).pdf) 
-|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S.](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3)-(en.us).pdf)|
+|Belgium  <br/> |[New phone number request for Belgium (geographic numbers) (v.3.0)(de.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(fr.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(nl.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/> 
+|France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
+|Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|
+|Ireland  <br/> |[New phone number request for Ireland (geographic numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)|
+|Netherlands  <br/> |[New phone number request for the Netherlands (geographic numbers) (v.3.0)(nl.nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf)|
+|Spain  <br/>  |[New phone number request for Spain (geographic numbers) (v.3.0)(es.es)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf)| 
+United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (geographic numbers) (v.3.0)(en.us) ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) 
+|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S. (user numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf)|
    
 ## Downloads for other phone number management forms
 
 - You can see a listing and download all Letters of Authorization (LOA)s by going to [Skype for Business Online Letters of Authorization](https://go.microsoft.com/fwlink/?LinkID=623745).
     
-- You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Skype for Business New Phone Number Requests](https://go.microsoft.com/fwlink/?linkid=851581).
+- You can see a listing and download all of the forms that are available for getting new phone numbers by going to [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
