@@ -20,15 +20,15 @@ When Microsoft Teams is installed, the Teams Meeting add-in is added to Outlook.
 
 Users can use the Teams Meeting add-in in Outlook to schedule online meetings in Microsoft Teams, just like they do with the Skype for Business add-in. 
 
-[!NOTE]
-Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
+> [!NOTE]
+> Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
 
 ### Compatible Office versions
 
 NISHANTH: Which Office versions are compatible/supported with the Teams Add-in?
 
-[!NOTE]
-The Teams Meeting add-in for Outlook is currently not available for Mac users.​
+> [!NOTE]
+> The Teams Meeting add-in for Outlook is currently not available for Mac users.​
 
 ### Deployment considerations
 
