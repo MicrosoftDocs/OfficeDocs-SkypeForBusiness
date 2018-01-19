@@ -197,12 +197,12 @@ This table covers features related to support for archiving and logging function
 
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---             |        :---:                           |  :---:                    |  :---:       | 
-|Saving of IM conversations in Outlook Conversation History|&#x2713; | &#x2713;  |   |
+|Saving of IM conversations in Outlook Conversation History|&#x2713; | &#x2713; If server-side conversation history is turned on  |   |
 |Access sign-in logs from client|&#x2713;  | &#x2713; | &#x2713;   |
 |eDiscovery/archiving/content search and hold for conversations data| &#x2713; &dagger; | &#x2713; &dagger;  | &#x2713; |
 |eDiscovery/archiving/content search and hold for meetings and calls| &#x2713; &dagger; &Dagger; | &#x2713; &dagger; &Dagger;  | Coming soon |
 |Client-side support of AAD conditional access | &#x2713; &Dagger;&Dagger; | &#x2713; &Dagger;&Dagger;  | Coming soon |
-|Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | &#x2713;  | &#x2713;  |
+|Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
 |Office 365 audit logs|      |      | &#x2713; |
 |Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon |
 |DLP for conversations and files|     |     | Coming soon |
