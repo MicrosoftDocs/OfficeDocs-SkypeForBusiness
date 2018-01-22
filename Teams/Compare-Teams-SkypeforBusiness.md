@@ -25,12 +25,12 @@ This table covers the Enhanced Presence features that extend beyond a simple ind
 
 |Feature/capability    | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---                |        :---:                           |  :---:                    |  :---:       | 
-|Publish status        |    &#x2713;                            | &#x2713; &dagger;         |              |
-|View status           |    &#x2713;                            | &#x2713;                  |              |
-|View status notes and Out of Office messages | &#x2713;        | &#x2713;                  |              |
+|Publish status        |    &#x2713;                            | &#x2713; &dagger;         | &#x2713;     |
+|View status           |    &#x2713;                            | &#x2713;                  |  &#x2713;    |
+|View status notes and Out of Office messages | &#x2713;        | &#x2713;                  | Coming soon  |
 |Add a custom location |    &#x2713;                            |                           |              |
-|Add a custom note     |    &#x2713;                            | &#x2713;                  |              |
-|Use a photo from any public site for My Picture (not available with Skype for Business Online) |  &#x2713; |  | |
+|Add a custom note     |    &#x2713;                            | &#x2713;                  | Coming soon  |
+|Use a photo from any public site for My Picture (not available with Skype for Business Online) | &#x2713; |  | |
  
 &dagger; Does not support publishing status based on calendar free/busy information.
 
@@ -160,7 +160,7 @@ This table covers features related to support for external users homed on the PS
 |Feature/capability | Skype for Business 2015 or 2016 client  | Skype for Business on Mac | Teams client  | 
 |  :---             |        :---:                            |  :---:                    |  :---:        | 
 |Initiate IM with a public contact| &#x2713;                  | &#x2713;                  |               |
-|Initiate IM with a federated contact| &#x2713;               | &#x2713;                  |               |
+|Initiate IM with a federated contact| &#x2713;               | &#x2713;                  | Coming soon   |
 |Conduct two-party or multiparty calls with external users &dagger;|&#x2713;   | &#x2713; |               |
  
 &dagger; Not available with Skype for Business Online
@@ -189,7 +189,9 @@ This table covers features requiring support for modern authentication.
 |Modern Authentication       | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Multi-factor Authentication | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Cert -Based Authentication  | &#x2713; (Domain-joined device only)  | &#x2713;          | &#x2713;     |
- 
+|Client-side support of AAD conditional access | &#x2713; &Dagger;&Dagger; | &#x2713; &Dagger;&Dagger;  | Coming soon |
+|Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
+
 
 Archiving, compliance, and logging support
 --------------------------------------------------------------------------------
@@ -201,8 +203,6 @@ This table covers features related to support for archiving and logging function
 |Access sign-in logs from client|&#x2713;  | &#x2713; | &#x2713;   |
 |eDiscovery/archiving/content search and hold for conversations data| &#x2713; &dagger; | &#x2713; &dagger;  | &#x2713; |
 |eDiscovery/archiving/content search and hold for meetings and calls| &#x2713; &dagger; &Dagger; | &#x2713; &dagger; &Dagger;  | Coming soon |
-|Client-side support of AAD conditional access | &#x2713; &Dagger;&Dagger; | &#x2713; &Dagger;&Dagger;  | Coming soon |
-|Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
 |Office 365 audit logs|      |      | &#x2713; |
 |Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon |
 |DLP for conversations and files|     |     | Coming soon |
