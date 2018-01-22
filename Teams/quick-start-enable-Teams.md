@@ -70,7 +70,7 @@ As you’re deploying Teams, don’t forget to turn on the mobile experience. En
 
 Deploying software is not the only thing required to drive change in your organization. Empowering collaboration is more about people than technology. To successfully drive adoption of Office 365 and Teams, stay focused on your employees’ experience. Here’s a quick checklist of our best practices to get you started. Microsoft partners can also help you design the right adoption plan for your organization.
 
-1. **Read [Create a change management strategy for Microsoft Team](change-management-strategy.md)** to help you identify key stakeholders, business outcomes, and success measures for your deployment of Teams.
+1. **Read [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
 1. **Study [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
 2. **Capture feedback from your employees** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
 
