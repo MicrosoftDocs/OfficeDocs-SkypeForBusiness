@@ -189,9 +189,10 @@ This table covers features requiring support for modern authentication.
 |Modern Authentication       | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Multi-factor Authentication | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Cert -Based Authentication  | &#x2713; (Domain-joined device only)  | &#x2713;          | &#x2713;     |
-|Client-side support of AAD conditional access | &#x2713; &Dagger;&Dagger; | &#x2713; &Dagger;&Dagger;  | Coming soon |
+|Client-side support of AAD conditional access | &#x2713; &Dagger; | &#x2713; &Dagger;   | Coming soon |
 |Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
 
+&Dagger; Supports iOS and Android. Does not support other clients.
 
 Archiving, compliance, and logging support
 --------------------------------------------------------------------------------
@@ -206,10 +207,8 @@ This table covers features related to support for archiving and logging function
 |Office 365 audit logs|      |      | &#x2713; |
 |Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon |
 |DLP for conversations and files|     |     | Coming soon |
-
  
 &dagger; For Skype for Business Online users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute. 
 
 &Dagger; Supports Metadata, PowerPoint uploads, File transfer, Whiteboard, and Q&A. Does not support Audio, Video, and App and Desktop sharing.
 
-&Dagger;&Dagger; Supports iOS and Android. Does not support other clients.
