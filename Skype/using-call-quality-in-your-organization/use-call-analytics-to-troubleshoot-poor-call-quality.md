@@ -3,19 +3,19 @@ title: "Use Call Analytics to troubleshoot poor Skype for Business call quality"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, wlooney
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Microsoft Teams
+appliesto: Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
-- Setup
+- Reporting
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
 ---
 

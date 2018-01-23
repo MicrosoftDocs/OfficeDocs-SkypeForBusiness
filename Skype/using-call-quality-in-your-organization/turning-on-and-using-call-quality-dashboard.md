@@ -3,20 +3,20 @@ title: "Turning on and using Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, wlooney
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: 
 - ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
-- Setup
+- Reporting
 description: "See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. "
 ---
 

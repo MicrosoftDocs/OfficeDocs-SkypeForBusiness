@@ -3,16 +3,16 @@ title: "Here's what you get with Phone System in Office 365"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+msreviewer: jastarck, makolomi
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Phone System
