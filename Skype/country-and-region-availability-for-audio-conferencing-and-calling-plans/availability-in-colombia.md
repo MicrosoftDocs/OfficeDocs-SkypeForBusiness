@@ -1,10 +1,10 @@
 ---
-title: "Availability in Columbia"
+title: "Availability in Colombia"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: c76db643-292f-4513-8c6e-367c50f43fe9
 ms.tgt.pltfrm: cloud
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Columbia."
+description: "Here are the Office 365 services for Skype for Business and Microsoft Teams available for Colombia."
 ---
 
-# Availability in Columbia
+# Availability in Colombia
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Columbia.
+Here are the Office 365 services for Skype for Business and Microsoft Teams available for Colombia.
   
 ## Audio Conferencing
 

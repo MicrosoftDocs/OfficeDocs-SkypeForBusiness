@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.date: 01/22/2018
+ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
@@ -45,7 +45,7 @@ You can select a country or region to see if Audio Conferencing, Phone System, C
 > - [Canada](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
-> - [Columbia](availability-in-columbia.md)
+> - [Colombia](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Croatia](availability-in-croatia.md)
 > - [Cyprus](availability-in-cyprus.md)
