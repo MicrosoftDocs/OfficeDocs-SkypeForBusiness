@@ -3,16 +3,16 @@ title: "Using Audio Conferencing dynamic IDs in your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e55e4bff-fb67-4389-8695-f03024baa9b6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN

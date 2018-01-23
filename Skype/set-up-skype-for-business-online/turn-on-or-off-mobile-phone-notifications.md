@@ -3,16 +3,15 @@ title: "Turn on or off mobile phone notifications"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto: Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
