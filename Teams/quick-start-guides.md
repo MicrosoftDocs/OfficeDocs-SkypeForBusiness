@@ -3,7 +3,7 @@ title: Quick start guides for Microsoft Teams admins
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: Find the quick start guides you need to get up and running with Microsoft Teams.

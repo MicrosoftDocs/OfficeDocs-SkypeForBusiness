@@ -3,19 +3,19 @@ title: "What's the difference between Call Analytics and Call Quality Dashboard?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, wlooney
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
-- Setup
+- Reporting
 description: "Learn about Call Analytics and Call Quality Dashboard and when to use them to monitor and troubleshoot call-quality problems in Skype for Business."
 ---
 

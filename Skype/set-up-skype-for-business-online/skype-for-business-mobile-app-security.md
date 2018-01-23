@@ -3,16 +3,15 @@ title: "Skype for Business mobile app security"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto: Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup

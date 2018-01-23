@@ -3,7 +3,7 @@ title: Quick start - Microsoft Teams planning guide
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
