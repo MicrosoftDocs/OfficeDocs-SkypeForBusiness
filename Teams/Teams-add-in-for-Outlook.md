@@ -20,7 +20,6 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 
 If you do not want the add-in to appear for users, you can remove it. To learn more, see [View, manage, and install add-ins in Office programs](https://support.office.com/en-us/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
-
 > [!NOTE]
 > The Teams Meeting add-in for Outlook is currently not available for Mac users.​
 
@@ -39,12 +38,16 @@ Allow scheduling for private meetings must be enabled from the [Office 365 admin
 
 ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
 
-The Teams client installs the correct plug-in by determining if users need the 32-bit or 64-bit version.
+The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.
+
+> [!NOTE]
+> Users might need to restart Outlook after an installation or upgrade of Teams to get the latest add-in.​
 
 ### Other considerations
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 - Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
+- Meeting options are currently not available.
 - Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
