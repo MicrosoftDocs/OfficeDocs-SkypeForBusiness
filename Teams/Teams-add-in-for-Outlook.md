@@ -3,7 +3,7 @@ title: Use the Microsoft Teams Meeting add-in in Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 01/12/2018
+ms.date: 01/23/2018
 ms.topic: article
 ms.service: msteams
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
@@ -14,34 +14,32 @@ MS.collection: Strat_MT_TeamsAdmin
 Use the Teams Meeting add-in in Outlook
 =======================================
 
-When Microsoft Teams is installed, the Teams Meeting add-in is added to the Outlook Calendar ribbon. 
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon. 
 
 ![Screenshot of Teams add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
-The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC. If you do not want the add-in to appear, you can learn how to [manage Outlook add-ins](https://support.office.com/en-us/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
+If you do not want the add-in to appear for users, you can remove it. To learn more, see [View, manage, and install add-ins in Office programs](https://support.office.com/en-us/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
-The Teams client will install the correct plug-in by determining if users need the 32-bit or 64-bit version.
-
-Users can use the Teams Meeting add-in in Outlook to schedule online meetings in Microsoft Teams, just like they do with the Skype for Business add-in. 
 
 > [!NOTE]
 > The Teams Meeting add-in for Outlook is currently not available for Mac users.​
 
-> [!NOTE]
-> Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
+### Authentication requirements
 
-### Sign-in requirements
+The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
 
-The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can rectify this by doing the following:
+- If Modern Authentication is not configured for your organization, you should configure Modern Authentication.
+- If Modern Authentication is configured, but they cancelled out on the dialog box, you should instruct users to sign in again using multi-factor authentication.
 
-- If Modern Authentication is not configured for their organization, the admin should configure Modern Authentication.
-- If Modern Authentication is configured, but they cancelled out on the dialog box, users should sign in again using multi-factor authentication.
+To learn more about how to configure authentication, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
 
-You can learn more about Modern Authentication in Microsoft Teams here.
+### Enable private meetings
 
-### LimatatDeployment considerations
+Allow scheduling for private meetings must be enabled from the [Office 365 admin center](https://portal.office.com/adminportal/home) for the plug-in to get deployed.
 
-NISHANTH: Are there any deployment considerations (e.g., 32-bit vs. 64-bit, C2R vs. MSI) that should be mentioned?
+![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+
+The Teams client installs the correct plug-in by determining if users need the 32-bit or 64-bit version.
 
 ### Other considerations
 
