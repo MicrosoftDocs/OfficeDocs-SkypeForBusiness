@@ -3,7 +3,7 @@ title: "Country and region availability for Audio Conferencing and Calling Plans
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
