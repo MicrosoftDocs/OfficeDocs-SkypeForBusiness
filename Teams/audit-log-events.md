@@ -35,13 +35,13 @@ Before you can look at audit data, you have to first turn on auditing in the **S
 
 
 
-## Retrieve Teams data from the Audit Log
+## Retrieve Teams data from the audit log
 
-1.  To retrieve Audit Log information, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search.**
+1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search**.
 
 ![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-2.  Use **Search** to filter by the activities, dates, and user you want to audit.
+2.  Use **Search** to filter by the activities, dates, and users you want to audit.
 
 3.  Export your results to Excel for further analysis.
 
@@ -51,7 +51,8 @@ Before you can look at audit data, you have to first turn on auditing in the **S
 
 ## Watch a TechTip video: Using Audit Log Search
 
-Join Ansuman Acharya from Teams as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center. 
+Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center. 
+
 
 > [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]
 
