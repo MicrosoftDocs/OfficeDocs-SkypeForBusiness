@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
