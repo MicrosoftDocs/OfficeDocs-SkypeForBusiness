@@ -30,7 +30,7 @@ As an administrator, you can control the type of dial-outs you will allow from w
 3.	In the Action pane, click **Edit**.
 4.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
+    ![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
 
