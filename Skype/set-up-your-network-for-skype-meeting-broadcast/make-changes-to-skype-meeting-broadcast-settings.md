@@ -3,16 +3,17 @@ title: "Make changes to Skype Meeting Broadcast settings for your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: micchan
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid:  8e46e857-f046-4e87-a633-0d7fb88d66d5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:

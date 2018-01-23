@@ -3,18 +3,18 @@ title: "What is address validation?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 64353277-9949-4cf2-ac04-6d57cce43619
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: 
-- Skype for Business
+appliesto:
+- Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:

@@ -3,14 +3,17 @@ title: "Toll-free dialing restrictions in Turkey"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 6aa21a4a-0c66-4b3c-a67b-1d647d8d3a55
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

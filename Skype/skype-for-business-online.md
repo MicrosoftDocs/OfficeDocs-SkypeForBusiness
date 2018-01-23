@@ -4,7 +4,7 @@ description: Learn how to manage Skype for Business Online for your organization
 services: skype-for-business-online-admin
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin

@@ -3,14 +3,15 @@ title: "Why can't I use the Skype for Business Online admin center right now?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
