@@ -3,16 +3,18 @@ title: "Assign a third-party as the audio conferencing provider"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider

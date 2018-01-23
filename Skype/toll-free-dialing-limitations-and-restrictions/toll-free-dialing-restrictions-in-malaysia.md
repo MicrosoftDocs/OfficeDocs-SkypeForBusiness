@@ -3,14 +3,17 @@ title: "Toll-free dialing restrictions in Malaysia"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a2b93ab5-3b6e-4fad-b705-e4ca63799abd
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

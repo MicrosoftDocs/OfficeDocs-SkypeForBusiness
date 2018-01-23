@@ -3,16 +3,16 @@ title: "Configure presence privacy mode"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords: 
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:

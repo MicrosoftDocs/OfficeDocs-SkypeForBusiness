@@ -3,14 +3,17 @@ title: "What if my phone carrier isn't listed as the source carrier?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:

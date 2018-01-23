@@ -3,14 +3,17 @@ title: "Availability in Brunei"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, jastark, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a4921bd0-d6b4-4b98-b5c9-a2bb9c830d93
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

@@ -3,16 +3,18 @@ title: "Country and region availability for Audio Conferencing and Calling Plans
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Audio Conferencing

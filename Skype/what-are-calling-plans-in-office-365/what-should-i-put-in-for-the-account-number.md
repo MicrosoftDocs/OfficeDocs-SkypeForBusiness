@@ -3,14 +3,17 @@ title: "What should I put in for the account number?"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 7c477cc4-78e7-4a1f-ac3c-ac63151f9cf7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:

@@ -3,14 +3,17 @@ title: "Toll-free dialing restrictions in Honduras"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9e1ed7ac-a49b-4092-b9e9-40486512145c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

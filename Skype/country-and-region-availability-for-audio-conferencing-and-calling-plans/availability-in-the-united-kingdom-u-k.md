@@ -3,14 +3,17 @@ title: "Availability in the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, jastark, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 523a955c-5185-4a53-9234-d8a71f57be85
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

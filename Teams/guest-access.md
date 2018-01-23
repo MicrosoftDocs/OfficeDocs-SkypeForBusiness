@@ -14,6 +14,12 @@ MS.collection: Strat_MT_TeamsAdmin
 Guest access in Microsoft Teams
 ======================================
 
+Guest Access is new in Teams. It’s one of the features customers asked for the most. We’re still working on it, enhancing its capabilities. Here’s how you can keep up with our progress on Guest Access and tell us your thoughts:
+- If you’re having trouble with Guest Access, check out [Known issues for Microsoft Teams](Known-issues.md).
+- Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
+- Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
+- Share your experience in the Comments section below.
+
 
 Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels. 
 
@@ -35,7 +41,7 @@ Teams is built upon Office 365 Groups and provides a new way to access shared as
  
   
     
-  [Help, practical guidance, and tools](support-resources.md)  
+  [Support resources for Microsoft Teams](support-resources.md)  
  
   
 

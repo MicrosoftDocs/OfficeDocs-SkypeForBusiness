@@ -3,16 +3,18 @@ title: "Code of practice for the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, allancar
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Legal

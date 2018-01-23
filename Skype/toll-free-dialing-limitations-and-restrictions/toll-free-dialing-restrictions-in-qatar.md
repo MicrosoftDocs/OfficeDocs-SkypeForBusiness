@@ -3,14 +3,17 @@ title: "Toll-free dialing restrictions in Qatar"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 0c1e59f7-99cf-438b-969e-cdf370cfea62
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

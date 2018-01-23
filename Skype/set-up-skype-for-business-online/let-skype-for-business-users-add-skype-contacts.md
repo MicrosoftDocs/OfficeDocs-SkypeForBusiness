@@ -3,16 +3,16 @@ title: "Let Skype for Business users add Skype contacts"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup
@@ -76,7 +76,7 @@ To test your setup, you need a contact on Skype who's not behind your company fi
 
 - **Skype for Business on Mac** doesn't have the ability to search for and communicate with Skype contacts.
     
-- While you can search for and find Skype users, they cannot search for and find Skype for Business users. You have to send them a contact request, and they have to sign in to Skype and accept it, before you can IM with them. 
+- When directory search is enabled, you can search for and find Skype and Skype for Business users. If for some reason you can't find them by searching the directory, you can send them a contact request, and then have them sign in to Skype and accept it, so you can IM with them. 
     
 - It's not possible to allow IM connectivity with other IM providers such as Google or Facebook. You can't use Skype for Business to send cell phone text messages.
     

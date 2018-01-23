@@ -3,16 +3,16 @@ title: "Admins Configure Skype for Business settings for individual users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto:
+- Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1_keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
