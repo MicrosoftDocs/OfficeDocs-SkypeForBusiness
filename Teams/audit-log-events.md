@@ -3,7 +3,7 @@ title: Search the audit log for events in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: Learn how to retrieve Microsoft Teams data from the Audit log.
@@ -13,42 +13,51 @@ description: Learn how to retrieve Microsoft Teams data from the Audit log.
 Search the audit log for events in Microsoft Teams
 ==================================================
 
-The Audit Log provides ad-hoc search capabilities into notable events across Office 365 services. For Microsoft Teams specifically, below are a few examples of events captured:
+The Audit Log provides ad-hoc search capabilities into notable events across Office 365 services. For Teams, here are some of the activities that are audited:
 
--   Team Creation
+-   Team creation
 
--   Team Deletion
+-   Team deletion
 
--   Added Channel
+-   Added channel
 
--   Changed Setting
+-   Changed setting
 
-The complete event list across Office 365 is quite extensive and can be found [here](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).
+To see the complete list of activities that are audited in Office 365, read [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?=&PickTab=Activities).
 
-Before you can dig into audit insights, auditing must first be enabled. To enable Auditing, go to the *Security & Compliance* Admin Center. Under *Search for activity*, click on **Start recording now**. After 24 hours, audit data will be available via *Audit Log Search* located under the *Search & Investigation* tab.
+## Turn on auditing in Teams
+
+Before you can look at audit data, you have to first turn on auditing in the **Security & Compliance Center**(https://protection.office.com). For help turning on auditing, read [Turn Office 365 audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]
-> Audit data is only available from the point at which Auditing was enabled.
+> Audit data is only available from the point at which you turned on Auditing.
 
 
 
-![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+## Retrieve Teams data from the audit log
 
-Now, let’s look at how to retrieve Microsoft Teams data from the Audit Log:
-
-1.  To retrieve Audit Log information, navigate to the [Security & Compliance Admin Center](https://go.microsoft.com/fwlink/?linkid=855775). Under *Search & Investigation*, select **Audit log search.**
-
-    a.  Microsoft Teams has defined audit activities that can be selected as shown below.
+1.  To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search & Investigation**, select **Audit log search**.
 
 ![Screenshot of the Audit log search page of the Security & Compliance Center.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-2.  After selecting the activities of interest, supply a date range and users to retrieve Microsoft Teams information from. Click **Search** to retrieve the results.
+2.  Use **Search** to filter by the activities, dates, and users you want to audit.
 
-3.  This information can be exported to Excel and filtered as needed.
+3.  Export your results to Excel for further analysis.
 
 
 > [!IMPORTANT]
-> If auditing hasn't been enabled previously, it needs to be enabled before data will appear in the Audit Log.
+> Audit data is only visible in the Audit Log if auditing is turned on.
+
+## Video: TechTip: Using Audit Log Search in Teams
+
+Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center. 
+
+
+> [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]
+
+
+
+
 
 
