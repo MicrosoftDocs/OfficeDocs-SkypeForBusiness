@@ -49,7 +49,7 @@ Before you can look at audit data, you have to first turn on auditing in the **S
 > [!IMPORTANT]
 > Audit data is only visible in the Audit Log if auditing is turned on.
 
-## Watch a TechTip video: Using Audit Log Search
+## Video: TechTip: Using Audit Log Search in Teams
 
 Join Ansuman Acharya, a program manager for Teams, as he demonstrates conducting an Audit Log search for Teams in the Office 365 Security & Compliance Center. 
 
