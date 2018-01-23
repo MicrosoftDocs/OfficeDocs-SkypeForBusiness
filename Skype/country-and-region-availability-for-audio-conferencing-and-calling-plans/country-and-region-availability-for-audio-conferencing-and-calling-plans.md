@@ -45,7 +45,7 @@ You can select a country or region to see if Audio Conferencing, Phone System, C
 > - [Canada](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
-> - [Columbia](availability-in-columbia.md)
+> - [Colombia](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Croatia](availability-in-croatia.md)
 > - [Cyprus](availability-in-cyprus.md)
