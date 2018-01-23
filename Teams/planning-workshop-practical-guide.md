@@ -3,7 +3,7 @@ title: Workshop kit - Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: Planning tools and workshop kit to help an admin get started with Microsoft Teams.

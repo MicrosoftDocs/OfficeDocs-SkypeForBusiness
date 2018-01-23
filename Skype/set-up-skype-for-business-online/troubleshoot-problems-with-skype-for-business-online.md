@@ -3,16 +3,15 @@ title: "Troubleshoot problems with Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto: Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Setup

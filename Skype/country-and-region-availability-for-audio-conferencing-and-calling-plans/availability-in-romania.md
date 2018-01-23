@@ -3,14 +3,15 @@ title: "Availability in Romania"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, jastark, oscarr
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b96cfc51-5fc2-47e1-b98d-d9a098793273
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None

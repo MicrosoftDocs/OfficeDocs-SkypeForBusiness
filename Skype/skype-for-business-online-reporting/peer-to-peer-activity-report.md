@@ -3,16 +3,16 @@ title: "Peer-to-peer activity report"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, wlooney
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+appliesto: Skype for Business
 localization_priority: Normal
-ROBOTS: None
 f1keywords:
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
