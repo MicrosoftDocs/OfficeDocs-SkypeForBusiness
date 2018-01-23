@@ -41,23 +41,24 @@ This table covers the features relating to managing IM and Presence contacts.
 
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---             |   :---:                                |  :---:                    |  :---:       | 
-|Pre-populated Contacts list | &#x2713;                      |                           |              |
-|View and Modify Contacts list|&#x2713;                      | &#x2713;                  |              |
-|Tag contacts for status change alerts| &#x2713;             | &#x2713;                  |              |
-|Control privacy relationships| &#x2713;                     |                           |              |
-|Search the corporate address book|&#x2713;                  | &#x2713;                  |              |
-|Search Microsoft Outlook contacts| &#x2713;                 | &#x2713;                  |              |
-|Manage contact groups| &#x2713;                             | &#x2713;                  |              |
+|Pre-populated Contacts list | &#x2713;                      |                           | &#x2713;     |
+|View and Modify Contacts list|&#x2713;                      | &#x2713;                  | Coming soon  |
+|Tag contacts for status change alerts| &#x2713;             | &#x2713;                  | Coming soon  |
+|Control privacy relationships| &#x2713;                     |                           | Coming soon  |
+|Search the corporate address book|&#x2713;                  | &#x2713;                  | &#x2713;     |
+|Search Microsoft Outlook contacts| &#x2713;                 | &#x2713;                  | &#x2713;     |
+|Manage contact groups| &#x2713;                             | &#x2713;                  | Coming soon  |
 |Expand distribution groups and Office 365 Groups| &#x2713;  | &#x2713;                  |              |
 |Search for Response Groups(not available in Skype for Business Online)|&#x2713;  |      |              |
-|Display recent contacts group|&#x2713;                      |                           |              |
-|Display current conversations group| &#x2713;               | &#x2713;                  |              |
+|Display recent contacts group|&#x2713;                      |                           | &#x2713;     |
+|Display current conversations group| &#x2713;               | &#x2713;                  | &#x2713;     |
 |Display alternate contact views (for example, tile)| &#x2713; | &#x2713;                |              |
 |Sort contacts by Group, Relationship, or New &dagger;| &#x2713; |                       |              |
 |Sort by group|&#x2713;                                      |                           |              |
 |Sort contacts by Status (availability)|             &#x2713;|                           |              |
-|Search and add Exchange contacts| &#x2713;                  |                           |              |
- &dagger; New people who’ve added you to their Contacts list
+|Search and add Exchange contacts| &#x2713;                  |                           | &#x2713; &dagger; |
+
+ &dagger; Search is supported. Adding contacts is not supported.
 
 IM support
 --------------------------------------------------------------------------------
@@ -79,7 +80,7 @@ This table covers features related to IM support.
  
 &dagger; On-premises Skype for Business Server and on-premises SharePoint 2013 are required for skill search.
 
-&Dagger; Not available with Skype for Business Online
+&Dagger; Not available with Skype for Business Online.
 
 Meetings support
 --------------------------------------------------------------------------------
@@ -123,7 +124,7 @@ In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can particip
 | Set Video Spotlight (lock video) | &#x2713;                | &#x2713;                  |              |
 |Give/Take control of screen sharing| &#x2713;               | &#x2713;                  |              |   
 
-&dagger; Participants can't control desktops that are shared by Skype for Business on Mac.  Skype for Business on Mac users can't control desktops shared by Windows users. 
+&dagger; Participants can't control desktops that are shared by Skype for Business on Mac. Skype for Business on Mac users can't control desktops shared by Windows users. 
 
 Voice (Telephony) support
 --------------------------------------------------------------------------------
@@ -163,7 +164,7 @@ This table covers features related to support for external users homed on the PS
 |Initiate IM with a federated contact| &#x2713;               | &#x2713;                  | Coming soon   |
 |Conduct two-party or multiparty calls with external users &dagger;|&#x2713;   | &#x2713; |               |
  
-&dagger; Not available with Skype for Business Online
+&dagger; Not available with Skype for Business Online.
 
 Recording support
 --------------------------------------------------------------------------------
@@ -189,10 +190,10 @@ This table covers features requiring support for modern authentication.
 |Modern Authentication       | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Multi-factor Authentication | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Cert -Based Authentication  | &#x2713; (Domain-joined device only)  | &#x2713;          | &#x2713;     |
-|Client-side support of AAD conditional access | &#x2713; &Dagger; | &#x2713; &Dagger;   | Coming soon |
+|Client-side support of AAD conditional access | &#x2713; &dagger; | &#x2713; &dagger;   | Coming soon |
 |Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
 
-&Dagger; Supports iOS and Android. Does not support other clients.
+&dagger; Supports iOS and Android. Does not support other clients.
 
 Archiving, compliance, and logging support
 --------------------------------------------------------------------------------
