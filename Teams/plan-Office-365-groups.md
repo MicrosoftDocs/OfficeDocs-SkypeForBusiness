@@ -1,3 +1,4 @@
+
 ---
 title: Plan for Office 365 Groups when creating teams in Microsoft Teams
 author: LolaJacobsen
@@ -22,8 +23,10 @@ There are two scenarios that warrant some discussion around planning of Office 3
 
 -   Second, for customers who don’t have existing Groups defined in Office 365, you can either create them using the Office 365 admin portal, the Teams web, or desktop clients. As mentioned previously, manage all future membership to the Office 365 Group using the Teams client. Since membership to a Team is also defining membership to Office 365 Groups, you should prepare people for this change.
 
-## Teams respects Office 365 Groups naming policy
-Any Office 365 Groups naming policy that has been set by your admin will be applied in Teams when users create or edit team names. This includes things like mandatory prefixes or suffixes and excluding banned words.
+## Teams respects Office 365 Groups naming policy (Private Preview)
+Any Office 365 Groups naming policy that has been set by your admin will be applied in Teams when users create or edit team names. This includes things like mandatory prefixes or suffixes and excluding banned words. 
+
+- Note, this feature is in Private Preview, which means that if you're not in this Preview, Teams will not adhear to this yet.
 
 To learn more, read [Office 365 Groups naming policy in Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
