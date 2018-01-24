@@ -1,20 +1,26 @@
 ---
-title: Workshop kit - Plan, deliver, and operate Microsoft Teams
+title: Tools and workshops: Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 01/22/2018
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: Planning tools and workshop kit to help an admin get started with Microsoft Teams.
+description: Planning tools, workshops, and getting started kits to help an admin get started with Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 
 ---
 
-Workshop kit: Plan, deliver, and operate Microsoft Teams
+Tools and workshops: Plan, deliver, and operate Microsoft Teams
 =============================================================
 
 Download these tools to walk you through planning, delivering, and operating Teams in your organization.
+
+- [Microsoft Teams getting started kit](http://microsoft.com/en-us/download/56505) 
+    
+    In this guide, you’ll find tips to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
+
+
 
 - [Quick start guide: Successfully enable Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
