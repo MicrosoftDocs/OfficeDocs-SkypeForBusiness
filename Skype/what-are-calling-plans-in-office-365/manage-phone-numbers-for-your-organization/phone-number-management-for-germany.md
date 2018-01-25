@@ -18,6 +18,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
+- Strat_SB_PSTN
 description: "Use this table to find information on getting and managing phone numbers in Germany for Skype for Business Online."
 ---
 
