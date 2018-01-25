@@ -20,7 +20,7 @@
 ## [Plan for Office 365 groups when creating teams in Teams](plan-Office-365-groups.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Office 365 URLs and IP address ranges](Office-365-URLs-IP-address-ranges.md)
-## [Workshop kit: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
+## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 
 # Adopt
 ## [Create a change management strategy for Teams](change-management-strategy.md)

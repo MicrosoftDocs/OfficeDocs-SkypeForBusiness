@@ -19,7 +19,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Address validation is an important part of setting up Calling Plans in Office 365. It provides a user in your organization an emergency calling address that can be used by emergency response services."
 ---
 
