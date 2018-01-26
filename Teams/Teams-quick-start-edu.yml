@@ -308,10 +308,10 @@ items:
     Internet browser support: 
     
     Teams supports the following internet browsers: 
-      Internet Explorer 11
-      Microsoft Edge
-      The latest version of Chrome, plus two previous versions
-      The latest version of Firefox, plus two previous versions
+      - Internet Explorer 11
+      - Microsoft Edge
+      - The latest version of Chrome, plus two previous versions
+      - The latest version of Firefox, plus two previous versions
 
 
     > [!NOTE]
