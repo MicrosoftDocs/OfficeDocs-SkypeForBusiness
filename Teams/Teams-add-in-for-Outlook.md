@@ -18,6 +18,8 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 
 ![Screenshot of Teams add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
+If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
+
 If you do not want the add-in to appear for users, you can remove it. To learn more, see [View, manage, and install add-ins in Office programs](https://support.office.com/en-us/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 > [!NOTE]
