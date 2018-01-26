@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
@@ -138,7 +138,7 @@ You can save one or more of the following scripts as a PowerShell script file an
   $allUsersInTenant = Get-csOnlineUser
   $users =  $allUsersInTenant | ?{$_.AcpInfo -ne $null -and $_.ACPInfo.Name -eq $ACPProviderName}
   }
-  Write-Host "Number of users to have their audio conferencing provider set to Microsoft: " $users.counts
+  Write-Host "Number of users to have their audio conferencing provider set to Microsoft: " $users.count
   foreach ($user in $users)
   {
   if ($CsvFile -or $UserList)

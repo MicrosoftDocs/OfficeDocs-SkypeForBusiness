@@ -18,6 +18,7 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
+hideEdit: true
 description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 

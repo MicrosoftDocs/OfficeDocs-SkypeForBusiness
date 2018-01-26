@@ -18,6 +18,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
+hideEdit: true
 description: "Microsoft collects census, usage, and error data to understand how Skype for Business is being used and where users encounter problems. The data is used to plan product improvements."
 ---
 
