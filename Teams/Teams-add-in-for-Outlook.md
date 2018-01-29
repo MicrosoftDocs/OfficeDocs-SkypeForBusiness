@@ -20,12 +20,12 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 
 If users do not see the Teams Meeting add-in, instruct them to close Outlook and Teams, then restart the Teams client first, then sign in to Teams, and then restart the Outlook client, in that specific order.
 
-If you do not want the add-in to appear for users, you can remove it. To learn more, see [View, manage, and install add-ins in Office programs](https://support.office.com/en-us/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
+If you do not want the add-in to appear for users, you can remove it. To learn more, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 > [!NOTE]
 > The Teams Meeting add-in for Outlook is currently not available for Mac users.​
 
-### Authentication requirements
+## Authentication requirements
 
 The Teams Meeting add-in requires users to sign in to Teams using Modern Authentication. If users do not use this method to sign in, they’ll still be able to use the Teams client, but will be unable to schedule Teams online meetings using the Outlook add-in. You can fix this by doing one of the following:
 
@@ -34,7 +34,7 @@ The Teams Meeting add-in requires users to sign in to Teams using Modern Authent
 
 To learn more about how to configure authentication, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
 
-### Enable private meetings
+## Enable private meetings
 
 Allow scheduling for private meetings must be enabled from the [Office 365 admin center](https://portal.office.com/adminportal/home) for the plug-in to get deployed.
 
@@ -45,7 +45,7 @@ The Teams client installs the correct add-in by determining if users need the 32
 > [!NOTE]
 > Users might need to restart Outlook after an installation or upgrade of Teams to get the latest add-in.​
 
-### Other considerations
+## Other considerations
 
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 - Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
@@ -54,5 +54,5 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
 
-Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/en-us/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US).
+Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
