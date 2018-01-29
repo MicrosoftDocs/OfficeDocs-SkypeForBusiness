@@ -31,6 +31,8 @@ Support resources for Microsoft Teams
 
 -   [Known Issues](https://support.office.com/en-US/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
 
+-   [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+
 ## Feedback and support options
 
 -   [Microsoft Teams feedback portal on UserVoice](https://go.microsoft.com/fwlink/?linkid=854400)
