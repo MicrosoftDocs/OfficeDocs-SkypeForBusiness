@@ -1,9 +1,9 @@
 ---
 title: Compare Skype for Business features with Microsoft Teams
-author: jambirk 
-ms.author: jambirk
-manager: jambirk
-ms.date: 11/27/2017
+author: LolaJacobson 
+ms.author: lolaj
+manager: lolaj
+ms.date: 2/1/2018
 ms.topic: article
 ms.service: msteams
 description: Compare Skype for Business features with Teams
@@ -14,6 +14,8 @@ Compare Skype for Business features with Teams
 ==========================================================
 
 The following tables show features that are available with clients homed on Skype for Business Server 2015 or Skype for Business Online, compared with the features available on Microsoft Teams. 
+
+For the Teams features that are not yet available but are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap), which is a downloadable PDF (in English only, at least for now) that gives current expectations about Skype for Business capabilities coming to Teams.
 
 <!-- &#x2713 -- supported \  Blank  -- unsupported
 <!-- or &#x2717; for unsupported?  -->

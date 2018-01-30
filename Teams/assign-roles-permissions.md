@@ -58,9 +58,11 @@ If your organization is interested in doing this, the instructions below outline
 
     a.  **Action:** Run the following PowerShell script and verify UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
 
+    ```
     Connect-MsolService
 
     Get-MsolCompanyInformation
+    ```
 
     b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
@@ -71,6 +73,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     a.  **Action:** Create a group settings object that contains the configuration settings of the group that will be assigned delegated permissions to create groups. 
 
+    ```
     Connect-AzureAD
 
     $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
@@ -82,8 +85,9 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
     New-AzureADDirectorySetting -DirectorySetting $settings
+    ```
 
-    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)
+    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 
 
 ||||
