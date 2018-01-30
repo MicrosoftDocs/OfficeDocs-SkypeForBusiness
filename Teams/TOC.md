@@ -36,7 +36,7 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Enhance existing Office 365 Groups with Teams](enhance-office-365-groups.md)
 ## [Configure an Exchange hybrid organization for use with Teams](Exchange-hybrid-organization.md)
-## [Use the Microsoft Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
+## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Add the Teams SMTP domain as an accepted domain in Exchange Online](SMTP-accepted-domain.md)
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](Office-365-custom-connectors.md)
