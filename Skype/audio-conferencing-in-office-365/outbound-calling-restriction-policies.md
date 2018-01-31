@@ -1,5 +1,5 @@
 ---
-title: "Outbound calling restriction policies for Audio Conferencing and Calling Plans"
+title: "Outbound calling restriction policies for Audio Conferencing and user PSTN calls"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,9 +21,21 @@ description: "Administrators can control the type of dial-outs allowed from with
 
 # Outbound calling restriction policies for Audio Conferencing and Calling Plans
 
-As an administrator, you can control the type of dial-outs you will allow from within a meeting, including restrictions on dial-outs at an organizer level. You can choose to allow domestic and international dial-outs, or only domestic dial-outs. You can also prevent dial-outs entirely.
+As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end user PSTN calls that can be made by users in your organization. 
 
-## Restrict outbound calling for a user
+Outbound call controls can be applied on a user per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
+
+|Control|Description|Control options|
+|:-----|:-----|:-----|
+|Audio Conferencing PSTN calls|Restricts the type of outbound calls that are allowed from within meetings organized by a user.|International and Domestic (default)</br>Domestic</br>None|
+|End user PSTN calls|Restricts the type of calls that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
+
+   > [!NOTE]
+   > A call is determined to be domestic if the called phone number is in the same country as the country that has been set in Office 365 for the organizer of the meeting (in the case of audio conferencing) or the end user (in the case of end user PSTN calls). 
+
+
+## Restrict audio conferencing outbound calls using the Skype for Business admin center 
+
 
 1.	Go to the **Office 365 admin center** > **Skype for Business**.
 2.	In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
@@ -34,7 +46,9 @@ As an administrator, you can control the type of dial-outs you will allow from w
 
 5. Click **Save**.
 
-## Use Windows PowerShell to set outbound calling restriction policies
+## Restrict audio conferencing and end user outbound calls using PowerShell
+
+Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
 You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSOnlineDialOutPolicy cmdlet.  
 
