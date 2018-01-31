@@ -19,7 +19,7 @@ ms.custom:
 description: "Administrators can control the type of dial-outs allowed from within a meeting."
 ---
 
-# Outbound calling restriction policies for Audio Conferencing and Calling Plans
+# Outbound calling restriction policies for Audio Conferencing and user PSTN calls
 
 As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end user PSTN calls that can be made by users in your organization. 
 
