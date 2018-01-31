@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj, ninadara
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.
 
 ---

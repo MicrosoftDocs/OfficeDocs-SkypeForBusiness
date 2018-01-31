@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: Learn how to retrieve Microsoft Teams data from the Office 365 audit log.
 
 ---

@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj, ninadara
 description: Training resources an admin can use to successfully deploy Microsoft Teams.
 
 ---

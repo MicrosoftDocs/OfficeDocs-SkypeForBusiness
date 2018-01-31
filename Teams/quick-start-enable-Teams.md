@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
 MS.collection: Strat_MT_TeamsAdmin
 
