@@ -25,12 +25,6 @@ For more information, see the section "Using bots" in [Apps and services](https:
 
 
 
-
-
-
-
- 
-
 Create custom bots for Microsoft Teams
 --------------------------------------
 
