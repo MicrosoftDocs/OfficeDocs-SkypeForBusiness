@@ -56,16 +56,15 @@
 ## [Edit guest user information](edit-guests-information.md)
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
-
 # [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
 ### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Quick start guides
-### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
-## Videos
-### [Audio Conferencing](audio-conferencing-videos.md)
+## Calling Plans
+### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
+
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
@@ -74,7 +73,7 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Compare Skype for Business features with Teams](compare-teams-skypeforbusiness.md)
+
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)

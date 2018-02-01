@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
 MS.collection: Strat_MT_TeamsAdmin
 

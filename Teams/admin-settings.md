@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/29/2018 
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag 
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
 MS.collection: Strat_MT_TeamsAdmin 
 

@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
 
 ---

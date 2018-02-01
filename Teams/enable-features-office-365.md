@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: Learn all the Microsoft Teams features you can turn on or turn off in your Office 365 organization, including tenant-wide settings, email integration, apps, cloud storage, and more.
 MS.collection: Strat_MT_TeamsAdmin
 

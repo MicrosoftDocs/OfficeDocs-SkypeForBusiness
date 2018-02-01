@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 MS.collection: Strat_MT_TeamsAdmin
 

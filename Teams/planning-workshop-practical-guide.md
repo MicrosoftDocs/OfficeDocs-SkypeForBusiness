@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help an admin get started with Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 

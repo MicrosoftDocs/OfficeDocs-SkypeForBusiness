@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dearbeen
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
 MS.collection: Strat_MT_TeamsAdmin
 
