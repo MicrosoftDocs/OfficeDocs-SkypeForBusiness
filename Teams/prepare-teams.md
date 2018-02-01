@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Guidance for starting your journey from Skype for Business to Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Optimize your current Skype for Business environment for Microsoft Teams

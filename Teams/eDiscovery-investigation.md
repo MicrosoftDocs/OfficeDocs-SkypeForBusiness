@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Conduct an eDiscovery investigation of content in Microsoft Teams

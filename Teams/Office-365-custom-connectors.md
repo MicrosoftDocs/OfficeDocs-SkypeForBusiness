@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lucarras 
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Use Office 365 and custom connectors in Microsoft Teams

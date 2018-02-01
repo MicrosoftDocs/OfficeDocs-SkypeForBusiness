@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: anach
 MS.collection: Strat_MT_TeamsAdmin
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Identity models and authentication in Microsoft Teams

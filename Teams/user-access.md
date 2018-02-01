@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Learn how to enable or disable user-level access on a per-user basis.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Manage user access to Microsoft Teams

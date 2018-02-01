@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Quick start guide: Configuring Calling Plans in Microsoft Teams

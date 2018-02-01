@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: ninadara
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Use the Teams Meeting add-in in Outlook

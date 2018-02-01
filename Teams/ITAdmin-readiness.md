@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Admin training for Microsoft Teams

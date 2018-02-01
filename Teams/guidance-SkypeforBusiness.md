@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Enable Microsoft Teams side-by-side with Skype for Business 

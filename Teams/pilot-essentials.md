@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Pilot Microsoft Teams alongside Skype for Business

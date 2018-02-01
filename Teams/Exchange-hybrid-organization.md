@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: crowe
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams
