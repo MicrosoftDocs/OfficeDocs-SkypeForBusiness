@@ -6,7 +6,7 @@ manager: lolaj
 ms.date: 2/1/2018
 ms.topic: article
 ms.service: msteams
-description: Compare Skype for Business features with Teams
+description: Compare Skype for Business features with Teams features
 Set_Free_Tag: Strat_MT_TeamsAdmin
 ---
 
