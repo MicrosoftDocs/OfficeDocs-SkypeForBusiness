@@ -23,11 +23,11 @@ description: "Administrators can control the type of dial-outs allowed from with
 
 As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end user PSTN calls that can be made by users in your organization. 
 
-Outbound call controls can be applied on a user per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
+Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
 |Control|Description|Control options|
 |:-----|:-----|:-----|
-|Audio Conferencing PSTN calls|Restricts the type of outbound calls that are allowed from within meetings organized by a user.|International and Domestic (default)</br>Domestic</br>None|
+|Audio Conferencing PSTN calls|Restricts the type of outbound calls that are allo</br>wed from within meetings organized by a user.|International and Domestic (default)</br>Domestic</br>None|
 |End user PSTN calls|Restricts the type of calls that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
 
    > [!NOTE]
