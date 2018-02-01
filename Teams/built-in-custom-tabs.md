@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lucarras
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
 
 ---

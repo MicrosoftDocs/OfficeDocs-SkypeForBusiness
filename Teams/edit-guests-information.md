@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
 
 ---

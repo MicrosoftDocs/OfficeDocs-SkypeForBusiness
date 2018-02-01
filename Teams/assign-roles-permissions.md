@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 MS.collection: Strat_MT_TeamsAdmin
 

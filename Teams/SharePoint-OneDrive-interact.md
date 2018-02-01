@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: snigdhav
 description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how private chat files are stored, and the relationship between team, channel, and the document library.
 MS.collection: Strat_MT_TeamsAdmin
 

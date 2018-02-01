@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: Learn how to enable or disable user-level access on a per-user basis.
 
 ---

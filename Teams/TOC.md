@@ -56,16 +56,15 @@
 ## [Edit guest user information](edit-guests-information.md)
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
-
 # [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
 ### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Quick start guides
-### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
-## Videos
-### [Audio Conferencing](audio-conferencing-videos.md)
+## Calling Plans
+### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
+
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
