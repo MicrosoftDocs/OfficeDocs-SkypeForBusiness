@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lolaj
 description: Find the quick start guides you need to get up and running with Microsoft Teams.
 
 ---

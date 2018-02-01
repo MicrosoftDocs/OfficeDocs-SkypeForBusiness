@@ -6,6 +6,7 @@ manager: lolaj
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 
 ---
