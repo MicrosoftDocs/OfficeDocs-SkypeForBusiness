@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Best practices for organizing teams in Microsoft Teams

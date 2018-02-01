@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Quick start - Microsoft Teams planning guide

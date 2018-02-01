@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras
 description: Learn how to add bots in Microsoft Teams for Private Chat and channels, create custom bots, and side load your own bot for Private Chat.
-AppliesTo:
+appliesto: 
 - Microsoft Teams
 ---
 
@@ -25,12 +25,6 @@ For more information, see the section "Using bots" in [Apps and services](https:
 
 
 
-
-
-
-
-
- 
 
 Create custom bots for Microsoft Teams
 --------------------------------------

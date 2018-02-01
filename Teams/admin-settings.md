@@ -9,7 +9,9 @@ ms.service: msteams
 ms.reviewer: ritikag 
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
 MS.collection: Strat_MT_TeamsAdmin 
-
+appliesto: 
+- Microsoft Teams
+- 
 ---
 
 Admin settings for apps in Microsoft Teams

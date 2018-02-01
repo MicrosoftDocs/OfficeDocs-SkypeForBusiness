@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Best practices for user feedback methods in Microsoft Teams

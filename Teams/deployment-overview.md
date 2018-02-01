@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Learn how to carry out a deployment of Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Overview of a Microsoft Teams deployment

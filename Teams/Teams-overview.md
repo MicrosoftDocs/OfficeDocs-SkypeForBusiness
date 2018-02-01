@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: ninadara
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Overview of Microsoft Teams
