@@ -51,6 +51,7 @@
 ### [How to get Calling Plans for Office 365](what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Manage phone numbers for your organization](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 #### [Phone number management for Belgium](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
+#### [Phone number management for Canada](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Phone number management for France](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Phone number management for Germany](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Phone number management for Ireland](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
 ms.tgt.pltfrm: cloud
@@ -36,6 +36,12 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
 |**Country/region**|**Type of phone number(s)**|**Direct download link**|
 |:-----|:-----|:-----|
 |Belgium  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(nl.be)](../downloads/loa-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(fr.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(de.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/> |
+
+|Canada  <br/> |Freephone  <br/> |[Letter of Authorization (LOA) for France (freephone numbers) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> 
+>![IMPORTANT]
+>This is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). <br/>|
+
+
 |France  <br/> |Freephone  <br/> |[Letter of Authorization (LOA) for France (freephone numbers) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
 |France  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for France (geographic numbers) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
 |Germany  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Germany (geographic numbers) (v.1.0)(de.de)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/> |

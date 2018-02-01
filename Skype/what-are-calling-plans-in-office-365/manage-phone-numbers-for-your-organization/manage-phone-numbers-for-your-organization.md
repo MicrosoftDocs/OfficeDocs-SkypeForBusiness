@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Each country or region has different instructions for getting phone numbers for users in Skype for Business Online. Follow the link to your country or region below to get the information you need."
+description: "Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need."
 ---
 
 # Manage phone numbers for your organization
 
-Each country or region has different instructions for getting phone numbers for users in Skype for Business Online. Follow the link to your country or region below to get the information you need.
+Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
   
 > [!NOTE]
 > To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -51,6 +51,7 @@ For user (also called subscriber) numbers, if you want to see about getting numb
 ### Select your country or region to see what's available for you!
 > [!div class="op_single_selector"]
 > - [Belgium](phone-number-management-for-belgium.md)
+> - [Canada](phone-number-management-for-canada.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
 > - [Ireland](phone-number-management-for-ireland.md)

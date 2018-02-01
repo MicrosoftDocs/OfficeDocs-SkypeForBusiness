@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
@@ -40,6 +40,12 @@ It's important to know that when you are doing phone number management tasks, th
 |**Country/region**|**Direct link to the form you need**|
 |:-----|:-----|
 |Belgium  <br/> |[New phone number request for Belgium (geographic numbers) (v.3.0)(de.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(fr.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(nl.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/> 
+
+|Canada  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
+
+>![IMPORTANT]
+>This is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
+
 |France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
 |Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|
 |Ireland  <br/> |[New phone number request for Ireland (geographic numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)|
