@@ -56,6 +56,7 @@
 ## [Edit guest user information](edit-guests-information.md)
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
+
 # [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
@@ -73,7 +74,7 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Compare Skype for Business features with Teams](compare-teams-skypeforbusiness.md)
+
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)
