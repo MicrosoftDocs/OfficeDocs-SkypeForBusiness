@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Understand interoperability between Teams and Skype for Business and how it affects chat and calling experiences.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Microsoft Teams and Skype for Business interoperability

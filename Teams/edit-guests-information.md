@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Learn how an admin can edit information about guest users in the Azure Active Directory portal.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Edit guest user information

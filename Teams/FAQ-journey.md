@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Frequently asked questions about the journey from Skype for Business Online to Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 FAQ - Journey from Skype for Business to Microsoft Teams

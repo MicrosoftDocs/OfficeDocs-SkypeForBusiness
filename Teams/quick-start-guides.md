@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
 description: Find the quick start guides you need to get up and running with Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Quick start guides for Microsoft Teams admins

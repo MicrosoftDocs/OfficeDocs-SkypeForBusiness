@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: dansteve
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Check your environment’s readiness for Microsoft Teams

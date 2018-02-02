@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 How a guest joins a team

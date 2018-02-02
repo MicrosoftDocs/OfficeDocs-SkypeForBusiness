@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Find tools to support your rollout of Microsoft Teams, including  email templates, Getting Started Guides, Customer Success Kit, and more.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Get tools to support a rollout of Microsoft Teams

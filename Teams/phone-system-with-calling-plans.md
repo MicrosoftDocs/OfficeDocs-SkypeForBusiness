@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Practical guidance for planning, deploying, and managing Phone System with Calling Plans in Microsoft Teams using the Envision (Plan), Onboard (Deliver), Drive Value (Operate) framework.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Practical Guidance for Phone System with Calling Plans in Microsoft Teams

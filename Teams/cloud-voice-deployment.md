@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Cloud voice deployment

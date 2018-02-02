@@ -9,6 +9,8 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: Practical guidance for planning, deploying, and managing Audio Conferencing in Microsoft Teams using the Envision (Plan), Onboard (Deliver), Deliver Value (Operate) framework.
 MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Practical guidance for Audio Conferencing in Microsoft Teams

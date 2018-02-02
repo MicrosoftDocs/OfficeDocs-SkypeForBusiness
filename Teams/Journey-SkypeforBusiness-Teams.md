@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
 description: Walks you through everything you need to know about the journey to Microsoft Teams from Skype for Business Online.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Journey from Skype for Business to Microsoft Teams

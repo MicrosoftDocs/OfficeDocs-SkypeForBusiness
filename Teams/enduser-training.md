@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, ninadara
 description: Training resources an admin can use to successfully deploy Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 End user training for Microsoft Teams
