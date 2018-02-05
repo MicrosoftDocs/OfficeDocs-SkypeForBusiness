@@ -32,9 +32,9 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
 |:-----|:-----|
 |**Property** <br/> |**How to change it** <br/> |
 |Skype for Business Online users  <br/> |To add or block people from using the Skype for Business app, see [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) or [Remove licenses from users in Office 365 for business](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> For a complete list of what to do when a user leaves your business, see [Remove a former employee from Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Users enabled for dial-in conferencing  <br/> |To enable people for dial-in conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).  <br/> |
+|Users enabled for Audio Conferencing  <br/> |To enable people for Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).  <br/> |
 |Users in the cloud  <br/> |This is the number of Skype for Business Online users who have Office 365 accounts.  <br/> To add people to your Office 365 subscription (that is, create Office 365 accounts for them), see [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Users synced and homed online  <br/> |This is the number of Skype for Business Online users who are synchronized from an on-premises Active Directory.  <br/> To set up your on-premises Active Directory, see [Set up directory synchronization for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
+|Users synced and homed online  <br/> |This is the number of Skype for Business Online and hybrid users.  <br/> To set up a Skype for Business hybrid connectivity see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > If you see Unavailable listed, this means there is no information or there were errors. 
