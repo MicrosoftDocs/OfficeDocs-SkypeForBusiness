@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: Learn about Content Search in Microsoft Teams and how to search against Channel chats from Exchange, file uploads/modifications from SharePoint, and OneNote as well.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Use Content Search in Microsoft Teams

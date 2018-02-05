@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: Learn how an admin can view information about guest users in Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 View guest users in a team

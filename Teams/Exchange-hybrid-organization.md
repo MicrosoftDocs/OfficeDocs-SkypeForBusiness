@@ -6,9 +6,11 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: crowe
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams

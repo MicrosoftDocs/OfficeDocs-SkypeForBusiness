@@ -6,9 +6,11 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Overview of Microsoft Teams
@@ -102,6 +104,10 @@ Here are common use cases for each application in Office 365. For detailed usage
 -   Full-powered SharePoint team site automatically provisioned for every Microsoft Team for file storage, team news, pages, lists and more.
 
 -   See [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
+
+## [Teams known issues](Known-issues.md)
+
+## [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 ## What happened to the Teams admin FAQ?
 

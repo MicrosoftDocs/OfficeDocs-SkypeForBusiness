@@ -36,6 +36,7 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Enhance existing Office 365 Groups with Teams](enhance-office-365-groups.md)
 ## [Configure an Exchange hybrid organization for use with Teams](Exchange-hybrid-organization.md)
+## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Add the Teams SMTP domain as an accepted domain in Exchange Online](SMTP-accepted-domain.md)
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](Office-365-custom-connectors.md)
@@ -61,10 +62,10 @@
 ### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
 ### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Quick start guides
-### [Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
-## Videos
-### [Audio Conferencing](audio-conferencing-videos.md)
+## Calling Plans
+### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
+### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
+
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
@@ -73,6 +74,7 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 # Videos and Training
 ## [IT admin readiness for Teams](ITAdmin-readiness.md)

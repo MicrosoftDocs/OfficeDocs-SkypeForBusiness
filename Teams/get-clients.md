@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Get clients for Microsoft Teams 
@@ -26,7 +28,11 @@ The Web client performs browser version detection upon connecting to [https://te
 
 Internet browser support
 ------------------------------
-Teams supports the following internet browsers: Internet Explorer 11, Microsoft Edge, the latest version of Chrome, and the latest version of Firefox.
+Teams supports the following internet browsers: 
+- Internet Explorer 11
+- Microsoft Edge
+- The latest version of Chrome, plus two previous versions
+- The latest version of Firefox, plus two previous versions
 
 > [!NOTE]
 > Safari isn't currently supported. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
