@@ -79,7 +79,9 @@ To test your setup, you need a contact on Skype who's not behind your company fi
 - When directory search is enabled, you can search for and find Skype and Skype for Business users. If for some reason you can't find them by searching the directory, you can send them a contact request, and then have them sign in to Skype and accept it, so you can IM with them. 
     
 - It's not possible to allow IM connectivity with other IM providers such as Google or Facebook. You can't use Skype for Business to send cell phone text messages.
-    
+
+- It is not possible to record audio or video calls between a Skype Contact and Skype for Business contact.
+    
 ## What features are available when adding Skype contacts?
 
 Skype contacts who signed in with their Microsoft account (formerly Windows Live ID) can get some, but not all, features when they are talking to your Skype for Business users.
