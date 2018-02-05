@@ -24,13 +24,7 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
 
 1. In the [Office 365 admin center](https://portal.office.com/adminportal/home), select **Reports** > **Usage**.
  
-2. Choose **Select a report** at the top of the dashboard to select from a list of all available reports. Or, click the at-a-glance activity widget for Teams to see more information.
-
-### Other information on the dashboard
-
-The Reports dashboard includes the usage data from Microsoft Teams in the at-a-glance activity widget, which gives you a cross-product view of how users communicate and collaborate using the other various services in Office 365.
-
-The Reports dashboard also includes a new card for Microsoft Teams. The card gives you an overview of the activity in Teams, including the number of active users, so that you can quickly understand how many users are using the service.
+2. Choose **Select a report** at the top of the dashboard to select from a list of the available reports. 
 
 ## Teams activity reports that are available
 
@@ -43,22 +37,36 @@ There are currently two activity reports you can view:
 
 The Microsoft Teams user activity report gives you a view of the most common activities that your users perform in Microsoft Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information both at the tenant level, as well as for each individual user.
 
+![Screenshot of the Teams user activity report in the Office 365 admin center.](media/teams-user-activity-report.png)
+
 ### Microsoft Teams device usage report
 
 The Microsoft Teams app usage report provides you with information about how your users connect to Microsoft Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
+![Screenshot of the Teams device usage report in the Office 365 admin center.](media/teams-device-usage-report.png)
+
 ## Who can access the Teams activity reports
 
-The activity reports can be accessed by users that are assigned with an Office 365 global admin role or a product-specific admin role (Exchange, Skype for Business, or SharePoint). 
+The activity reports can be accessed by users that are assigned:
+
+- Office 365 global admin role
+- Product-specific admin role (Exchange, Skype for Business, or SharePoint)
+- Reports reader role
 
 ### Reports reader role
 
-For non-IT staff, you can assign the *Reports reader* role to users you want to have access to these reports. By assigning this role to training managers or business stakeholders, you can make sure that they have access to the insights that are helpful to drive and track adoption of Teams.
+You can assign the *Reports reader* role to non-IT staff who you want to have access to these reports. By assigning this role to training managers or business stakeholders, you can make sure that they have access to the insights that are helpful to drive and track adoption of Teams.
 
+## Other information on the Reports dashboard
 
+### At-a-glance activity widget
 
+The Reports dashboard includes the usage data from Microsoft Teams in the at-a-glance activity widget, which gives you a cross-product view of how users communicate and collaborate using the other various services in Office 365.
 
-The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.
+![Screenshot of the Teams at-a-glance activity widget on the Reports dashboard.](media/at-a-glance-activity-widget.png)
 
-> [!NOTE]
-> Safari isn't currently supported. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
+### Teams activity card
+
+The Reports dashboard also includes a new card for Microsoft Teams. The card gives you an overview of the activity in Teams, including the number of active users, so that you can quickly understand how many users are using the service.
+
+![Screenshot of the Teams activity card on the Reports dashboard.](media/teams-activity-card.png)
