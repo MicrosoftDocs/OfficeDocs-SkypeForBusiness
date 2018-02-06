@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Use this table to find information on getting and managing phone numbers in the United Kingdom for Skype for Business Online."
+description: "Use this table to find information on getting and managing phone numbers in the United Kingdom (U.K.) for Skype for Business Online and Microsoft Teams."
 ---
 
 # Phone number management for the U.K.
 
-Use this table to find information on getting and managing phone numbers in the United Kingdom for Skype for Business Online. 
+Use this table to find information on getting and managing phone numbers in the United Kingdom for Skype for Business Online and Microsoft Teams. 
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
