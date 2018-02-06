@@ -16,7 +16,7 @@ appliesto:
 Use activity reports for Microsoft Teams 
 ========================================
 
-You can use activity reports to see how users in your organization are using Microsoft Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. You can use the activity reports to decide where to prioritize training and communication efforts.
+You can use activity reports to see how users in your organization are using Microsoft Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts.
 
 Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
 
@@ -24,7 +24,7 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
 
 1. In the [Office 365 admin center](https://portal.office.com/adminportal/home), select **Reports** > **Usage**.
  
-2. Choose **Select a report** at the top of the dashboard to select from a list of the available reports. 
+2. At the top of the dashboard, choose **Select a report** to select from a list of the available reports. 
 
 ## Teams activity reports that are available
 
