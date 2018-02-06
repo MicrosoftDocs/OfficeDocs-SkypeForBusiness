@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Get clients for Microsoft Teams 

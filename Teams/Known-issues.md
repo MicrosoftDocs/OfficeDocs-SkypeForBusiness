@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: alexb, ninadara, v-leslc
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 # Known issues for Microsoft Teams

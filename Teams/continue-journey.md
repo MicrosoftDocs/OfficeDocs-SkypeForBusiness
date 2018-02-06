@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Drive value with Microsoft Teams through user adoption

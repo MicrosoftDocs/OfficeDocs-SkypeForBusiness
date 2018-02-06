@@ -18,8 +18,7 @@ localization_priority: Normal
 f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
-- Calling Plans
-- Strat_SB_PSTN 
+- Calling Plans 
 description: "Learn what address validation is, why it's important, and how it relates to emergency addresses and services. "
 ---
 

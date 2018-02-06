@@ -6,8 +6,10 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: Use PowerShell to allow or block guest access to teams in Microsoft Teams.
-
+appliesto: 
+- Microsoft Teams
 ---
 
 Use PowerShell to control guest access to a team
