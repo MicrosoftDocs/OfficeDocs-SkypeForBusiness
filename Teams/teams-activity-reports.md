@@ -24,7 +24,7 @@ Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data 
 
 1. In the [Office 365 admin center](https://portal.office.com/adminportal/home), select **Reports** > **Usage**.
  
-2. At the top of the dashboard, choose **Select a report** to select from a list of the available reports. 
+2. On the **Usage** page, choose **Select a report** to select from a list of the available reports. 
 
 ## Teams activity reports that are available
 
