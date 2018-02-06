@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Use this table to find information on getting and managing phone numbers in Ireland for Skype for Business Online."
+description: "Use this table to find information on getting and managing phone numbers in Ireland for Skype for Business Online and Microsoft Teams."
 ---
 
 # Phone number management for Ireland
 
-Use this table to find information on getting and managing phone numbers in Ireland for Skype for Business Online. 
+Use this table to find information on getting and managing phone numbers in Ireland for Skype for Business Online and Microsoft Teams. 
   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   

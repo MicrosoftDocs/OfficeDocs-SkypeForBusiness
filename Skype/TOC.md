@@ -1,8 +1,10 @@
+Audi
+
 # Skype for Business admin
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audio Conferencing in Office 365
+## [Audio Conferencing in Office 365](../Teams/audio-conferencing.md)
 ### [Assign a third-party as the audio conferencing provider](audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
 ### [Assign Microsoft as the audio conferencing provider](audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
@@ -51,6 +53,7 @@
 ### [How to get Calling Plans for Office 365](what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Manage phone numbers for your organization](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 #### [Phone number management for Belgium](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
+#### [Phone number management for Canada](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Phone number management for France](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Phone number management for Germany](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Phone number management for Ireland](what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
