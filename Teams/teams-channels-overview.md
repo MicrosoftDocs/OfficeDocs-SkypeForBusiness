@@ -1,4 +1,4 @@
----
+ an ---
 title: Overview of teams and channels in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
@@ -15,7 +15,7 @@ appliesto:
 Overview of teams and channels in Microsoft Teams
 =================================================
 
-Let’s get started by thinking about how Microsoft Teams allows individual teams to self-organize:
+Let’s get started by thinking about how Microsoft Teams allows individual teams to self-organize and collaborate across business scenarios:
 
 -   **Teams** are a collection of people, content, and tools surrounding different projects and jobs within an organization.
 
@@ -27,13 +27,15 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat.
 
-    -   Channels can be extended with Apps that include Tabs, Connectors, and Bots.
+    -   Channels can be extended with Apps that include Tabs, Connectors, and Bots that increase their value to the members of the team.
+    
+Take five minutes to hear the best practices for organizing teams, channels and tabs in this video:
 
-![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
-
-One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Microsoft Teams can enhance collaboration in their day to day lives.
+| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md)). Users of an existing Office 365 Group can also enhance them with Microsoft Teams functionality.
+
+One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Microsoft Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collanborating in fragmented ways.  Bring them together into a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
 Sample Team Set up
 ------------------
@@ -55,4 +57,8 @@ Microsoft Teams is great at breaking down organizational silos and promoting cro
 |Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>Tubot<br></br>UPS Bot         |
 |HR     |Talent Management<br></br>Recruiting<br></br>Performance Review Planning<br></br>Morale         |HR Tools<br></br>External Job Posting Sites<br></br>Growbot         |
 |Cross-organizational <br></br>Virtual Team |Strategy<br></br>Workforce Development<br></br>Compete & Research         |Power BI<br></br>Microsoft Stream         |
+
+It is possible to create Teams that align to the organizational structure.  This is best used for leaders who want to drive morale, have team specfic reviews, clarify employee onboarding processes, discuss workforce plans and increase visibility across a diverse workforce.  
+
+![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
 
