@@ -49,10 +49,12 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
    
 ## Calling Plans
 
+## Calling Plans
+
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
+|Minutes available for Calling Plans  <br/> |3000 domestic minutes or 600 international minutes (whichever is reached first per calendar month). <br/> |
 |Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## Toll and toll-free numbers for services

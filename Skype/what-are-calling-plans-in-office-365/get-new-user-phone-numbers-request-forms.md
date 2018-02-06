@@ -44,7 +44,7 @@ It's important to know that when you are doing phone number management tasks, th
 |Canada  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
 
 >![IMPORTANT]
->This is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
+>This is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). a
 
 |France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
 |Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|

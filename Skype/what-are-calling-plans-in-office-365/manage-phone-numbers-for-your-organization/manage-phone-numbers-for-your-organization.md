@@ -49,7 +49,7 @@ For service numbers, if the country or region is listed but there aren't service
 For user (also called subscriber) numbers, if you want to see about getting numbers that aren't available in the **Skype for Business admin center** or if your are porting numbers over to Office 365, you can find the forms below. 
 
 ### Select your country or region to see what's available for you!
-> [!div class="op_single_selector"]
+> [!div class="op_single_selector"] 
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
 > - [France](phone-number-management-for-france.md)
