@@ -18,7 +18,7 @@ Guest access in Microsoft Teams
 
 Guest Access is new in Teams. It’s one of the features customers asked for the most. We’re still working on it, enhancing its capabilities. Here’s how you can keep up with our progress on Guest Access and tell us your thoughts:
 - If you’re having trouble with Guest Access, check out [Known issues for Microsoft Teams](Known-issues.md).
-- Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
+- Find out about upcoming new or updated features in the [Teams Roadmap](https://products.office.com/business/office-365-roadmap?filters=%26freeformsearch=microsoft%20teams).
 - Tell us what you want in  [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Share your experience in the Comments section below.
 
