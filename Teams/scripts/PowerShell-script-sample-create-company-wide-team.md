@@ -180,7 +180,7 @@ Disconnect-MicrosoftTeams
 ## Script explanation
 
 
-For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Org-wide-team-creation-powershell.yml)
+For complete instructions on using this PowerShell script, check out our tutorial, [Create a company-wide team in Teams using PowerShell](../Company-wide-team-creation-powershell.yml)
 
 There are 5 sections to this script (listed in order from top to bottom):
 1. **Documentation and variable definitions**
