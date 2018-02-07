@@ -16,7 +16,7 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Administrators can control the type of dial-outs allowed from within a meeting."
+description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
 ---
 
 # Outbound calling restriction policies for Audio Conferencing and user PSTN calls
