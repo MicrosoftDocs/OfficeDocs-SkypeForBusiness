@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, ninadara
-description: Training resources an admin can use to successfully deploy Microsoft Teams.
+description: Training resources an admin can use to successfully deploy and adopt Microsoft Teams.
 appliesto: 
 - Microsoft Teams
 ---
@@ -15,7 +15,7 @@ appliesto:
 End user training for Microsoft Teams
 =====================================
 
-Use these training resources to help you onboard your organization to Microsoft Teams. 
+Use these training resources to help your organization get value from Microsoft Teams. 
 
 |  |  |
 |---------|---------|
@@ -25,6 +25,10 @@ Use these training resources to help you onboard your organization to Microsoft 
 | [Microsoft Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [What is Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Short introduction to Teams, your hub for teamwork  |
 | [Microsoft Teams channel on YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
-| Introduction to Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
+| [Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |How-to, best practice and feature review videos  |
+| Introduction to Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
+| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+29
+
 
 
