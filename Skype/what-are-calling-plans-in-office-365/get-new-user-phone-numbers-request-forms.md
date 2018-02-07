@@ -25,9 +25,9 @@ description: "Sometimes (depending on your country/region) you won't be able to 
 # Get new user phone numbers request forms
 
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the **Skype for Business admin center**, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order.
-  
-    > [!CAUTION]
-    > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us. 
+
+> [!IMPORTANT]
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us.
   
 It's important to know that when you are doing phone number management tasks, there are [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) that are used when connecting phone numbers in Skype for Business Online. If you are looking for other phone number management tasks, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
