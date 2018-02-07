@@ -5,6 +5,7 @@
 ## [Office 365 licensing for Teams](Office-365-licensing.md)
 ## [Overview of teams and channels in Teams](teams-channels-overview.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
+## [Tutorial: Create a company-wide team using PowerShell](Company-wide-team-creation-powershell.yml)
 ## [Office 365 groups and Teams](Office-365-groups.md)
 ## [How Exchange and Teams interact](Exchange-Teams-interact.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
@@ -42,6 +43,7 @@
 ## [Use Office 365 and custom connectors in Teams](Office-365-custom-connectors.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
+## [Create a company-wide team using PowerShell](Company-wide-team-creation-powershell.yml)
 ## [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
