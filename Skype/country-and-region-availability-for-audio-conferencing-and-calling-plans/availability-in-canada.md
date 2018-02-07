@@ -46,12 +46,10 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 | Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
-   
-## Calling Plans
 
 ## Calling Plans
-    >![IMPORTANT]
-    >Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
+> ![IMPORTANT]
+> Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
     
 |**Feature**|**Details**|
 |:-----|:-----|
