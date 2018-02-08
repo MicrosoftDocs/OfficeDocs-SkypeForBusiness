@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
+ms.date: 02/06/2018
 ms.topic: article
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
 ms.tgt.pltfrm: cloud
@@ -35,26 +35,21 @@ If you aren't sure of the types of phone numbers that you will be asking us to t
   
 |**Country/region**|**Type of phone number(s)**|**Direct download link**|
 |:-----|:-----|:-----|
-|Belgium  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(nl.be)](../downloads/loa-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl.be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(fr.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr.be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(de.be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de.be).pdf) <br/> |
-
-|Canada  <br/> |User and service  <br/> |[Letter of Authorization (LOA) for Canada (user and service numbers) (v.1.0)(en.ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf) <br/>[Letter of Authorization (LOA) for Canada (user and service numbers) (v.1.0)(fr.ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user and service numbers)-(v.1.0)-(fr-ca).pdf) <br/> 
-|Canada  <br/> |Toll free <br/> |[Letter of Authorization (LOA) for Canada (Toll-free numbers) (v.1.0)(en.ca)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.0)-(en-ca).pdf) <br/> 
-
-    >![IMPORTANT]
-    >Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
-
-|France  <br/> |Freephone  <br/> |[Letter of Authorization (LOA) for France (freephone numbers) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
-|France  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for France (geographic numbers) (v.2.0)(fr.fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr.fr).pdf) <br/> |
-|Germany  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Germany (geographic numbers) (v.1.0)(de.de)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/> |
-|Ireland  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Ireland (geographic numbers) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
-|Ireland  <br/> |Non-geographic  <br/> |[Letter of Authorization (LOA) for Ireland (non-geographic numbers) (v.1.0)(en.us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> |
-|Netherlands  <br/> |Geographic |[Letter of Authorization (LOA) for the Netherlands (geographic numbers) (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/>|
-Netherlands <br/> |Non-geographic <br/> |[Letter of Authorization (LOA) for the Netherlands (non-geographic numbers) (v.2.0)(nl.nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl.nl).pdf) <br/> |
-|Spain  <br/> |All numbers  <br/> |[Letter of Authorization (LOA) for Spain (all numbers) (v.1.0)(es.es)](../downloads/loa-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es.es).pdf) <br/> |
-|United Kingdom (U.K.)  <br/> |Non-geographic  <br/> |[Letter of Authorization (LOA) for the U.K. (non-geographic numbers) (v.2.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/> |
-|United Kingdom (U.K.)  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for the U.K. (geographic numbers) (v.2.0)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> |
-|United States (U.S.) (and Puerto Rico) <br/> |User and service numbers (*not toll-free*) <br/> |[Letter of Authorization (LOA) for the U.S. (user and service numbers) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en.us).pdf) <br/> |
-|United States (U.S.)  <br/> |Toll-free  <br/> |[Letter of Authorization (LOA) for the U.S. (toll-Free numbers) (v.3.1)(en.us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf) <br/> |
+|Belgium  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(nl-be)](../downloads/loa-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(fr-be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0)(de-be)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf) <br/> |
+|Canada  <br/>  |User and service  <br/> |[Letter of Authorization (LOA) for Canada (user and service numbers) (v.1.0)(en-ca)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf) <br/>[Letter of Authorization (LOA) for Canada (user and service numbers) (v.1.0)(fr-ca)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf) <br/> <br/> **IMPORTANT**  Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). 
+|Canada  <br/> |Toll free <br/> |[Letter of Authorization (LOA) for Canada (toll free numbers) (v.1.0)(en-ca)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.0)-(en-ca).pdf) <br/> [Letter of Authorization (LOA) for Canada (toll free numbers) (v.1.1)(fr-ca)](../downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf) <br/> <br/> **IMPORTANT**  Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com)
+|France  <br/> |Freephone  <br/> |[Letter of Authorization (LOA) for France (freephone numbers) (v.2.0)(fr-fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf) <br/> |
+|France  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for France (geographic numbers) (v.2.0)(fr-fr)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf) <br/> |
+|Germany  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Germany (geographic numbers) (v.1.0)(de-de)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf) <br/> |
+|Ireland  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for Ireland (geographic numbers) (v.1.0)(en-us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf) <br/> |
+|Ireland  <br/> |Non-geographic  <br/> |[Letter of Authorization (LOA) for Ireland (non-geographic numbers) (v.1.0)(en-us)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf) <br/> |
+|Netherlands  <br/> |Geographic |[Letter of Authorization (LOA) for the Netherlands (geographic numbers) (v.2.0)(nl-nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/>|
+Netherlands <br/> |Non-geographic <br/> |[Letter of Authorization (LOA) for the Netherlands (non-geographic numbers) (v.2.0)(nl-nl)](../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> |
+|Spain  <br/> |All numbers  <br/> |[Letter of Authorization (LOA) for Spain (all numbers) (v.1.0)(es-es)](../downloads/loa-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf) <br/> |
+|United Kingdom (U.K.)  <br/> |Non-geographic  <br/> |[Letter of Authorization (LOA) for the U.K. (non-geographic numbers) (v.2.1)(en-us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf) <br/> |
+|United Kingdom (U.K.)  <br/> |Geographic  <br/> |[Letter of Authorization (LOA) for the U.K. (geographic numbers) (v.2.0)(en-us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf) <br/> |
+|United States (U.S.) (and Puerto Rico) <br/> |User and service numbers (*not toll-free*) <br/> |[Letter of Authorization (LOA) for the U.S. (user and service numbers) (v.3.1)(en-us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en-us).pdf) <br/> |
+|United States (U.S.)  <br/> |Toll free  <br/> |[Letter of Authorization (LOA) for the U.S. (toll free numbers) (v.3.2)(en-us)](../downloads/loa-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf) <br/> |
    
 ## Downloads for phone number management forms
 

@@ -1,4 +1,3 @@
-Audi
 
 # Skype for Business admin
 

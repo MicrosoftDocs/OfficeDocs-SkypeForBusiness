@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/31/2018
+ms.date: 02/06/2018
 ms.topic: article
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
@@ -25,9 +25,9 @@ description: "Sometimes (depending on your country/region) you won't be able to 
 # Get new user phone numbers request forms
 
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the **Skype for Business admin center**, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order.
-  
-    > [!CAUTION]
-    > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us. 
+
+> [!IMPORTANT]
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us.
   
 It's important to know that when you are doing phone number management tasks, there are [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) that are used when connecting phone numbers in Skype for Business Online. If you are looking for other phone number management tasks, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -39,20 +39,15 @@ It's important to know that when you are doing phone number management tasks, th
   
 |**Country/region**|**Direct link to the form you need**|
 |:-----|:-----|
-|Belgium  <br/> |[New phone number request for Belgium (geographic numbers) (v.3.0)(de.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(fr.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr.be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(nl.be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl.be).pdf) <br/> 
-
-|Canada  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
-
->![IMPORTANT]
->This is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). a
-
-|France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr.fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr.fr).pdf)|
-|Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de.de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf)|
-|Ireland  <br/> |[New phone number request for Ireland (geographic numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf)|
-|Netherlands  <br/> |[New phone number request for the Netherlands (geographic numbers) (v.3.0)(nl.nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl.nl).pdf)|
-|Spain  <br/>  |[New phone number request for Spain (geographic numbers) (v.3.0)(es.es)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es.es).pdf)| 
-United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (geographic numbers) (v.3.0)(en.us) ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) 
-|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S. (user numbers) (v.3.0)(en.us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en.us).pdf)|
+|Belgium  <br/> |[New phone number request for Belgium (geographic numbers) (v.3.0)(de-be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(de-be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(fr-be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(fr-be).pdf) <br/> [New phone number request for Belgium (geographic numbers) (v.3.0)(nl-be)](../downloads/new-number-request-forms/new-phone-number-request-for-belgium-(geographic-numbers)-(v.3.0)-(nl-be).pdf) <br/> 
+|Canada  <br/> |**IMPORTANT** Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).<br/> <br/> [New phone number request for Canada (user and service numbers) (v.1.0)(en-ca)](../downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf)<br/>|
+|France  <br/> |[New phone number request for France (geographic numbers) (v.3.0)(fr-fr)](../downloads/new-number-request-forms/new-phone-number-request-for-france-(geographic-numbers)-(v.3.0)-(fr-fr).pdf)|
+|Germany  <br/> |[New phone number request for Germany (geographic numbers) (v.3.0)(de-de)](../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de-de).pdf)|
+|Ireland  <br/> |[New phone number request for Ireland (geographic numbers) (v.3.0)(en-us)](../downloads/new-number-request-forms/new-phone-number-request-for-Ireland-(geographic-numbers)-(v.3.0)-(en-us).pdf)|
+|Netherlands  <br/> |[New phone number request for the Netherlands (geographic numbers) (v.3.0)(nl-nl)](../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf)|
+|Spain  <br/>  |[New phone number request for Spain (geographic numbers) (v.3.0)(es-es)](../downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf)| 
+United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (geographic numbers) (v.3.0)(en-us) ](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf) 
+|United States (U.S.) (and Puerto Rico)<br/>|[New phone number request for the U.S. (user numbers) (v.3.0)(en-us)](../downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf)|
    
 ## Downloads for other phone number management forms
 
