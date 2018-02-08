@@ -3,15 +3,14 @@ title: "Outbound calling restriction policies for Audio Conferencing and user PS
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 1/23/2018
+ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business
+ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
