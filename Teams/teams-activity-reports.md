@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 MS.collection: Strat_MT_TeamsAdmin
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+description: Learn how to use activity reports to see how users in your organization are using Microsoft Teams.
 appliesto: 
 - Microsoft Teams
 ---
