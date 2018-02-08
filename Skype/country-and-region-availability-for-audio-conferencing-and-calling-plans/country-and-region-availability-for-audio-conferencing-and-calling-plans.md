@@ -30,7 +30,7 @@ description: "You can select a country/region to see if Audio Conferencing, Phon
 You can select a country or region to see if Audio Conferencing, Phone System, Calling Plans, and Communications Credits are available.
 
 > [!Note]
-> If you are looking for a spreadsheet with all countries and regions, download and save the [All countries and regions spreadsheet](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/Skype/downloads/country-and-region-availabilty/country-and-region-availability-(v-02052018)-(en-us).xlsx).
+> If you are looking for a spreadsheet with all countries and regions, download and save the [All countries and regions spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/master/Skype/downloads/country-and-region-availabilty/country-and-region-availability-(v-02052018)-(en-us).xlsx?raw=true).
 
 ## Select your country or region to see what's available for you!
 
