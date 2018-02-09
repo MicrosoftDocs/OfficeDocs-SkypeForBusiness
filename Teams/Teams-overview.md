@@ -1,4 +1,4 @@
----
+o---
 title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
@@ -23,9 +23,9 @@ Microsoft Teams brings together the full breadth and depth of Office 365, to pro
 
 Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
 
-The Teams persistent chat capability, calling and meetings, other components of Office 365 as well as a robust extensibility story provides a hub for teamwork that is apprpriate for enterprise companies and small organizations and everyone in between.  
+Teams provides a persistent chat capability, calling and meetings, easy access to other components of Office 365 as well as a robust extensibility story.  This provides a hub for teamwork that is appropriate for enterprise companies, small organizations and everyone in between.  
 
-To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.
+To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.  
 
 Microsoft Teams infrastructure
 ------------------------------
