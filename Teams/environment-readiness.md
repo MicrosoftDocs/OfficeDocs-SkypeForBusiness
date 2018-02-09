@@ -18,7 +18,7 @@ Check your environment’s readiness for Microsoft Teams
 
 The transition to the cloud will vary by each organization, and current state may have an impact on how Microsoft Teams will function.
 
-To get the best experience on Microsoft Teams, your organization must have deployed Exchange Online and SharePoint Online. If not, or you have a different setup, refer to the following links for help:
+To get the best experience on Microsoft Teams, your organization must have deployed Exchange Online and SharePoint Online. If not, or you have a different setup, refer to these links for help:
 
 -   If your organization has not deployed any Office 365 workloads, see [Getting Started with Office 365 for business.](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
