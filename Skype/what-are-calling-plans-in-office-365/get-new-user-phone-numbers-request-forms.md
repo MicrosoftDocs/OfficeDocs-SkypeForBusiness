@@ -34,7 +34,7 @@ It's important to know that when you are doing phone number management tasks, th
 ## What do you need to do?
 
 - **STEP 1** - Use the download links below to download the correct form.
-- **STEP 2** - Fill out the form correctly.
+- **STEP 2** - Print or use Adobe Acrobat to fill out the form correctly. 
 - **STEP 3** - Send us the form. For numbers in the U.S., [send it to us](mailto:ptn@microsoft.com). For numbers in the European Union (E.U.), [send it to us](mailto:ptneu@microsoft.com).
   
 |**Country/region**|**Direct link to the form you need**|
