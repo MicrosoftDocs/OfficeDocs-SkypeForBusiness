@@ -42,7 +42,7 @@ These tools reside in the Office 365 Security and Compliance Portal and provide 
 
     -   Capabilities include case management, preservation, search, analysis and export of Teams data. This includes chat, messaging and file data.
 
-    -   Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/en-us/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
+    -   Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
 
     -   The following table outlines the differences between the two:
 
