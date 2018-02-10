@@ -86,8 +86,8 @@ Additionally, Microsoft is considering providing the following security features
 
 | | | |
 |---------|---------|---------|
-|![Decison Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next Steps         |Document the required security and compliance features in the table below.         |
+|![Decison Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next steps         |Document the required security and compliance features in the table below.         |
 
 Licensing
 ---------------
@@ -108,8 +108,8 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 
 | |  |  |
 |---------|---------|---------|
-|![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision Point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next Steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
+|![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
 
 Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 Admin center. By default, tenant admins have access.
 
