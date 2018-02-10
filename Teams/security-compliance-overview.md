@@ -118,15 +118,15 @@ Content Search and eDiscovery do not require enablement within the Security & Co
 Location of data in Teams
 -------------------------
 
-Data in Teams resides in the region based on tenant affinity. Currently, Teams supports the Americas, EMEA, and APAC regions. 
+Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Americas, EMEA, and APAC regions. 
 
 > [!IMPORTANT]
 > Teams currently offers data residency in the United Kingdom and India for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK and India will continue to remain in EMEA and APEC respectively, until a migration plan is announced (anticipated in 2018).
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK and India will continue to remain in the EMEA and APAC regions respectively, until a migration plan is announced (anticipated in 2018).
 
-To learn more about the launch of India and UK data residency, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon].(https://go.microsoft.com/fwlink/?linkid=867773)
+To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773).
 
-To see which region houses data for your tenant, go to the Office 365 Admin center > **Settings** > **Organization profile**. Scroll down to **Data location**. 
+To see which region houses data for your tenant, go to the [Office 365 Admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
 ![Screenshot of the Data location table, including Teams, in the Office 365 Admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
