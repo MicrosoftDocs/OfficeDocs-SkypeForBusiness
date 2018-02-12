@@ -50,7 +50,8 @@ Teams can be turned on or off for an entire license type within an organization 
 ![Screenshot of the Teams user/license type setting in the license section in the Office 365 admin center, showing Microsoft Teams as On.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
 
 
-**Tip:**   Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. The service plan name is TEAMS1 for Microsoft Teams. (See [Disable access to services with Office 365 PowerShell](https://technet.microsoft.com/en-us/library/dn771769.aspx) for more information.)
+> [!TIP]
+> Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. The service plan name is TEAMS1 for Microsoft Teams. (See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)
 
 **Sample:** Below is just a quick sample on how you would disable Microsoft Teams for everyone in a particular license type. You'll need to do this first, then individually enable it for the users who should have access for piloting purposes.
 
