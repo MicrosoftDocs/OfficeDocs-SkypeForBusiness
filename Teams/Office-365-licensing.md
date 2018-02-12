@@ -55,14 +55,14 @@ Teams can be turned on or off for an entire license type within an organization 
 
 **Sample:** Below is just a quick sample on how you would disable Microsoft Teams for everyone in a particular license type. You'll need to do this first, then individually enable it for the users who should have access for piloting purposes.
 
-*To display the subscription types you have within your organization, use the following command:*
+To display the subscription types you have within your organization, use the following command:
 
       Get-MsolAccountSku
 
-*Fill in the name of your plan that includes your organization name and the plan for your school (such as ContosoSchool:ENTERPRISEPACK_STUDENT), and then run the following commands:*
+Fill in the name of your plan that includes your organization name and the plan for your school (such as ContosoSchool:ENTERPRISEPACK_STUDENT), and then run the following commands:
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-*To disable Microsoft Teams for all users with an active license for your named plan, run the following command:*
+To disable Microsoft Teams for all users with an active license for your named plan, run the following command:
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
