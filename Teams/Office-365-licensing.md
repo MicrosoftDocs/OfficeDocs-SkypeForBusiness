@@ -31,11 +31,11 @@ The following Office 365 subscriptions enable users for Teams:
         
 
 
-In terms of Teams **core** functionalities, there are no differences between the different Office 365 subscriptions, the availability of the compliance capabilities does rely on the correct subscription level. (See [Information Protection Licensing](https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408) for more information.)
+In terms of Teams core functionalities, there are no differences between the different Office 365 subscriptions. The availability of the compliance capabilities does rely on the correct subscription level. To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md).
 
 All supported subscription plans are eligible for access to the Teams web client, desktop clients, and mobile apps.
 
-Teams is not available as a standalone service.
+Teams isn't available as a standalone service.
 
 Teams license
 -------------
