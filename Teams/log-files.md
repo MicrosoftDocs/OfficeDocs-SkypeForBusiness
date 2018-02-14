@@ -36,7 +36,7 @@ The following table outlines the various clients, and their associated logs. Log
 |Android     |-         |-         |-         |
 |Windows Phone     |-         |-         |-         |
 
-For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
+For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
 
 Debug logs
 ---------------------------

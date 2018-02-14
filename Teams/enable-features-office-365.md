@@ -115,7 +115,7 @@ The maximum number of teams that an Office 365 tenant can have is currently 500,
 
 As an admin, you can manage team owners and members by using the Groups dashboard in the Office 365 admin center. To learn more, click **Use the Groups dashboard in the Office 365 admin center to manage teams** under **Teams and channels**.
 
-You can control which users in your organization can create teams in Teams. The same creation settings defined by Office 365 groups apply to Teams. For more information about managing Office 365 groups, see [Create Office 365 groups](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) and [Control who can create Office 365 Groups](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+You can control which users in your organization can create teams in Teams. The same creation settings defined by Office 365 groups apply to Teams. For more information about managing Office 365 groups, see [Create Office 365 groups](https://support.office.com/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) and [Control who can create Office 365 Groups](https://support.office.com/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 > [!NOTE]
 > You can't create teams from the Groups dashboard. Teams must be created by using the Teams desktop client or web app.

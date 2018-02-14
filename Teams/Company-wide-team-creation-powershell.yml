@@ -33,7 +33,7 @@ items:
     
     We won't cover these things:
     1. A deep dive into PowerShell. We only include the PowerShell information you need to get up and running with the PowerShell script. To learn more, start at <a href="https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1" target="_blank">Getting Started with Windows PowerShell</a>
-    2. The functionality of the <a href="https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0" target="_blank">AzureAD</a> module. This PowerShell script uses the AzureAD module for a single command to fetch the users in the tenant. 
+    2. The functionality of the <a href="https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0" target="_blank">AzureAD</a> module. This PowerShell script uses the AzureAD module for a single command to fetch the users in the tenant. 
     3. The cmdlets in the <a href="https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams" target="_blank">MicrosoftTeams</a> module. 
     4. A line-by-line walk-through of the PowerShell script. 
 

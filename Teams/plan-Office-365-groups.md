@@ -35,8 +35,8 @@ To learn more, read [Office 365 Groups naming policy in Teams](https://support.o
 
 The following articles are a good place to find readiness & adoption content for your Office 365 Groups:
 
--   [Get more with groups in Outlook](https://support.office.com/en-us/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
+-   [Get more with groups in Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
 <!-- -->
 
--   [Manage Group membership in the Office 365 admin center](https://support.office.com/en-us/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Manage Group membership in the Office 365 admin center](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
