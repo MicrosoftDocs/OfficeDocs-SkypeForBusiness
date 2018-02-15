@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
