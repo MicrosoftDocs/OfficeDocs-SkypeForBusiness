@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Learn how to set up Microsoft Teams in your Office 365 organization.
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
