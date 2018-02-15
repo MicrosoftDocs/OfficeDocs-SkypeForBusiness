@@ -105,11 +105,15 @@ See more examples and details for [Get-CsCallingLineIdentity](https://technet.mi
     
 ### Create a new caller ID policy for your organization
 
+
 - To create a new caller ID policy that sets the caller ID to anonymous, run:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
+
+  > [!NOTE]  
+  > In all cases, the "Service Number" field should not include an initial "+".
 
   See more examples and details for [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
