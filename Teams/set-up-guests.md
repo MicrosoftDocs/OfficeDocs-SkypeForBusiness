@@ -8,6 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Turn on or turn off the guest access feature in Microsoft Teams.
+ms.custom:
+- NewAdminCenter_Update
 appliesto: 
 - Microsoft Teams
 ---
