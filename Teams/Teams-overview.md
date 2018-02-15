@@ -1,4 +1,4 @@
-o---
+---
 title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
