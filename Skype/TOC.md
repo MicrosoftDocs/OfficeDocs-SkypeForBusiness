@@ -3,7 +3,7 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Audio Conferencing in Office 365]
+## Audio Conferencing in Office 365
 ### [Assign a third-party as the audio conferencing provider](audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
 ### [Assign Microsoft as the audio conferencing provider](audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
@@ -19,6 +19,7 @@
 ### [Manage the Audio Conferencing settings for my organization](audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
 ### [Manage the Audio Conferencing settings for a user](audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md)
 ### [Moving a user's audio conferencing provider to Microsoft](audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md)
+### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Phone numbers for Audio Conferencing](audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Reset a conference ID for a user](audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
 ### [Reset the Audio Conferencing PIN for a user](audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user.md)

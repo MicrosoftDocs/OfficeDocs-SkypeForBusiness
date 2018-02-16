@@ -43,13 +43,13 @@ As organizations begin the journey from Skype for Business to Teams, the expecta
 To ensure continued productivity, Teams provides the ability for users to communicate with one another regardless of the application they use (Teams or Skype for Business).
 
 Supported interop experiences include the following:
-- Skype for Business users that do not use Teams can chat with Teams users, vice versa<p>
+- Skype for Business users that do not use Teams can chat with Teams users, and vice versa<p>
 ![Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png)<br>
-- Skype for Business users can call Teams users over voice and video, vice versa. Advanced calling options, such as call transfer and call forwarding will continue to work, even for interop calls.<p>
+- Skype for Business users can call Teams users over voice and video, and vice versa. Advanced calling options, such as call transfer and call forwarding will continue to work, even for interop calls.<p>
 ![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]
-> From a Skype for Business user point of view, chats and calls from/to Teams will appear as basic Skype for Business chats and calls. Please review the [Interop experiences limitations](#interop-experiences-limitations) section for details.
+> From a Skype for Business user point of view, chats and calls to or from Teams will appear as basic Skype for Business chats and calls. Please review the [Interop experiences limitations](#interop-experiences-limitations) section for details.
 
 > [!IMPORTANT]
 > Unified presence between Teams and Skype for Business is currently not supported, which means Teams and Skype for Business will show their own independent presence states. To find out when support for unified presence is going to be available, review [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).

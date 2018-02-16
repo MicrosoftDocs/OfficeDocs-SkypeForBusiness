@@ -6,7 +6,9 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate  Microsoft Teams.
+description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate Microsoft Teams.
+ms.custom:
+- NewAdminCenter_Update
 appliesto: 
 - Microsoft Teams
 ---
@@ -22,7 +24,7 @@ Learn about Teams and drive usage in your organization. Check back frequently fo
 | [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Walks you through everything you need to know about the journey to Teams from Skype for Business Online.  |
 | [Quick start - Microsoft Teams for Education admins](teams-quick-start-edu.yml) |For IT admins in Education, deploy Teams across your organization.   |
 [Quick start guide: Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Quick start guide for configuring calling plans in Teams. |
-| [Tutorial: Understand calling in Teams](tutorial-calling-in-teams)  |  This training introduces calling capabilities in Teams, which are powered by the Phone System feature in Office 365. Includes explanation of the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.  |
+| [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)  |  This training introduces calling capabilities in Teams, which are powered by the Phone System feature in Office 365. Includes explanation of the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.  |
 | [Audio Conferencing videos](audio-conferencing-videos.md) |Videos introducing Audio Conferencing in Teams to the IT admin.  |
 | Deploying and operating Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | Deep dive into Guest Access <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |

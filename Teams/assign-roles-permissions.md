@@ -40,7 +40,7 @@ The table below shows the difference in permissions between an owner and a membe
 
 
 > [!NOTE]
-> Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
+> Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 
 Permissions to create teams
@@ -69,7 +69,7 @@ If your organization is interested in doing this, the instructions below outline
     b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
-    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
+    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
 
 3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
 
@@ -89,7 +89,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     New-AzureADDirectorySetting -DirectorySetting $settings
     ```
 
-    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
+    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 
 
 ||||

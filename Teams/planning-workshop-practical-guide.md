@@ -18,7 +18,7 @@ Tools and workshops: Plan, deliver, and operate Microsoft Teams
 
 Download these tools to walk you through planning, delivering, and operating Teams in your organization.
 
-- [Microsoft Teams getting started kit](http://microsoft.com/en-us/download/56505) 
+- [Microsoft Teams getting started kit](http://microsoft.com/download/56505) 
     
     In this guide, you’ll find tips to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
 

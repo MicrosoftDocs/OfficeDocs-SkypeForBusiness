@@ -316,7 +316,7 @@ Phone numbers can be [obtained directly from Microsoft](https://support.office.c
 
 To obtain phone numbers from Microsoft directly, use any of these options:
 
-- [Skype for Business admin center](https://support.office.com/en-us/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
+- [Skype for Business admin center](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [Remote Windows PowerShell cmdlets](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 - [Submit a New Telephone Number Request form][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 

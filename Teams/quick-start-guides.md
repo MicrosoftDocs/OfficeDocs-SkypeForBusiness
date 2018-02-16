@@ -10,6 +10,8 @@ ms.reviewer: lolaj
 description: Find the quick start guides you need to get up and running with Microsoft Teams.
 appliesto: 
 - Microsoft Teams
+ms.custom:
+- NewAdminCenter_Update
 ---
 
 Quick start guides for Microsoft Teams admins

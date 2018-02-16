@@ -61,9 +61,7 @@
 
 # [Cloud voice](cloud-voice-deployment.md)
 ## [Audio Conferencing](audio-conferencing.md)
-### [Envision](audio-conferencing.md#Envision_AudioConferencing)
 ## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
-### [Envision](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
 ## Calling Plans
 ### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
