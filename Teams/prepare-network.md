@@ -16,22 +16,22 @@ appliesto:
 Prepare your organization's network for Microsoft Teams
 =================================================
 
-Microsoft Teams combines three forms of traffic:
+Teams combines three forms of traffic:
 
--   Data traffic between the Office 365 online environment and the Microsoft Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
+-   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).
 
--   Peer to peer real time communications traffic (audio, video, desktop sharing).
+-   Peer-to-peer real time communications traffic (audio, video, desktop sharing).
 
 -   Conferencing real time communications traffic (audio, video, desktop sharing).
 
-This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer to peer and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
+This impacts the network on two levels: traffic will flow between the Teams clients directly for peer to peer and traffic will flow between the Office 365 environment and the Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
 
 
 > [!IMPORTANT]
-> Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone (support for Windows Phone is coming soon).
+> Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone.
 
-To get an optimal experience with real time media within Microsoft Teams, it is required to meet the Networking Requirements for Office 365 (please see the following source for more details: [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US) )
+To get an optimal experience with real time media within Teams, it is required to meet the Networking Requirements for Office 365 (please see the following source for more details: [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917) 
 
 The two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge) must met the following requirements:
 
@@ -45,7 +45,7 @@ The two defining network segments (Client to Microsoft Edge and Customer Edge to
 |**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
 |**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
 
-To test both network segments a Network Assessment Tool can be used (source: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). This tool can be deployed on both the client PC directly, as well as a PC/laptop connected to the Customer Network Edge. The tool includes limited documentation, but a deeper documentation around the usage of the tool can be found here: [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800). By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
+To test both network segments, you can download the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. The tool includes limited documentation, so don't miss the extensive documentation included with the download. By running this Network Readiness Assessment, you can validate your network’s readiness to run a real-time media application such as Teams.
 
 
 
@@ -55,14 +55,14 @@ To test both network segments a Network Assessment Tool can be used (source: [ht
 Bandwidth requirements
 ----------
 
-Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go here: <http://aka.ms/bwcalc/>.
+Bandwidth calculations for Teams are complex and to help with this, a calculator has been created. To access the calculator, go here: <http://aka.ms/bwcalc>.
 
 The content you will find below can be used as supplemental background information, however it is recommended that customers use the [Bandwidth Calculator](https://aka.ms/bwcalc) to track their needs.
 
 
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Microsoft Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Microsoft Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
 
 
 |Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
@@ -81,7 +81,7 @@ Additional network considerations
 
 #### **External Name Resolution**
 
-Ensure that all the client computers running Microsoft Teams client can resolve external DNS queries to discover the services provided by Office 365.
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365.
 
 #### **NAT Pool Size**
 
@@ -96,9 +96,9 @@ If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS
 Network health determination
 -----------------
 
-When planning on the implementation of Microsoft Teams within your network, you must ensure to have the required bandwidth, access to all required IP addresses, the correct ports opened, and are meeting the performance requirements for real-time media.
+When planning on the implementation of Teams within your network, you must ensure to have the required bandwidth, access to all required IP addresses, the correct ports opened, and are meeting the performance requirements for real-time media.
 
-If you know you will not meet these criteria, your end users will not get an optimal experience from Microsoft Teams due to bad quality during calls and meetings.
+If you know you will not meet these criteria, your end users will not get an optimal experience from Teams due to bad quality during calls and meetings.
 
 Should you not meet these criteria, this is the time to consider pausing the project to ensure you meet the criteria before continuing.
 
@@ -106,5 +106,5 @@ Should you not meet these criteria, this is the time to consider pausing the pro
 |  |  |  |
 |---------|---------|---------|
 |![Decision Point icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Decision Point         |Have you evaluated your network capabilities for supporting real time media?<br></br>If your network has not been properly assessed, or you know it will not support real time media, will you disable video and screen sharing capabilities to reduce network impact and poor Teams experiences?         |
-|![Next Steps icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Follow the Network Readiness Assessment guidance at skypeoperationsframework.com to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
+|![Next Steps icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps         |Network Quality Unknown: Follow the [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) guidance to determine if your network is ready for Real Time Media.<br></br>Network Quality Poor: Perform network remediation steps to provide a proper environment for high quality Real Time Media.<br></br>Network Satisfactory: Ensure all IP addresses and ports are properly accessible.           |
 

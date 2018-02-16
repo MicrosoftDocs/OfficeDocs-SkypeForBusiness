@@ -9,9 +9,12 @@ metadata:
   interactive: azurecli
   ms.author: chucked
   manager: lolaj
+  ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin
+  ms.custom:
+  - NewAdminCenter_Update
   appliesto: 
   - Microsoft Teams
 items:

@@ -27,7 +27,7 @@ Use these training resources to help your organization get value from Microsoft 
 | [Microsoft Teams channel on YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |How-to, best practice and feature review videos  |
 | Introduction to Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
-| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 29
 
 
