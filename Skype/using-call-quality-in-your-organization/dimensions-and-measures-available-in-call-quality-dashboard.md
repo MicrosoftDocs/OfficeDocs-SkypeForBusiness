@@ -324,7 +324,7 @@ The following table lists the dimensions currently available in CQD:
 |Building Name Pair  <br/> |Enumerated pair  <br/> |Pair of the building name for the first and second endpoint.  <br/> |Blank values in enumeration indicate the building name for an endpoint could not be determined. This could be because the endpoint is located outside the corporate network, or is accessing the network from a site without a subnet mapping.  <br/>**Example value:** Main Building : Branch Site Building  <br/> |
 |Inside Corp Pair  <br/> |Enumerated pair  <br/> | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping. Possible values: <br/>  Inside : Inside <br/>  Inside : Outside <br/>  Outside : Outside <br/> |**Example value:** Inside : Inside  <br/> |
 |Scenario Pair  <br/> |Enumerated pair  <br/> |Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail.  <br/> **Note:** The pairs are separated by '--'.           |Blank values in enumeration indicate the network connectivity type was unknown for either or both endpoints. <br/>**Example value:** Client-Inside--Client-Inside-wifi  <br/> |
-|IsTeams  <br/> |Boolean  <br/> |True indicates that the first and second User Agents for the stream are Microsoft Team endpoints.  <br/> False indicates the User Agents are Skype for Business endpoints.  |**Example value:** True  |
+|Is Teams  <br/> |Boolean  <br/> |True indicates that the first or second user agent for the stream is a Microsoft Teams endpoint.  <br/> False indicates the user agents are Skype for Business endpoints.  |**Example value:** True  |
    
 ### Notes on dimension data type/units:
 
