@@ -3,7 +3,7 @@ title: Prepare your organization's network for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 02/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
@@ -77,7 +77,7 @@ Bandwidth calculations for Microsoft Teams are complex and to help with this, a 
 Bandwidth calculations for Teams are complex and to help with this, a calculator has been created. To access the calculator, go here: <http://aka.ms/bwcalc>.
 >>>>>>> master
 
-The content you will find below can be used as supplemental background information; however it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
+The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 
 
