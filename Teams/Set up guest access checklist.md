@@ -7,14 +7,15 @@ ms.date: 2/15/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: Setup Microsoft Teams Guest Access step by step.
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: - Microsoft Teams
+appliesto: 
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+description: Setup Microsoft Teams Guest Access step by step.
 ---
 
-
-
-# Teams Guest Checklist
+# Set up guest access checklist
 
 To ensure Guest Access is enabled/configured according to the preferences of your company, review and configure the following:
 
@@ -24,35 +25,27 @@ To ensure Guest Access is enabled/configured according to the preferences of you
 
 ► At minimum to support Guests, this must be "on".
 
-	1. Login to O3565 admin center 
+	1. Login to O365 admin center 
 
-	2. Click on Settings and then Services & add-ins
+	2. Click on **Settings** and then **Services & add-ins**
 
-	3. Select Microsoft Teams
+	3. Select **Microsoft Teams**
 
-	4. Click on drop down Settings by User/License type and select guest
+	4. Click on drop down Settings by User/License type and select **guest**
 
 	5. Ensure “Turn Microsoft Teams on or off for all users of this type” is enabled
 
+![Teams Settings toggle example](../media/TeamsSettings1.png)
 
-![Screenshot shows an example of a Teams Settings toggle](../media/TeamsSettings1.png)
-
-  
-
-□ Team/Channel specific Settings:
+□ Team/Channel specific settings:
 
 ![Screenshot shows an example of a Team/Channel Settings toggle](../media/TeamsSettings2.png)
 
-
 [Relevant documents to review](guest-access.md)
-
-
 
  ## Configuration Options Outside Teams admin center/client:
 
-
 [Review Teams Dependencies](teams-dependencies.md)
-
 
 ## □ Office 365 Settings
 
@@ -66,11 +59,11 @@ This setting is equal to Members can invite. Must be set to ON.
 ![Screenshot shows an example of a Services settings](../media/Office365Admin_Services_addins.png)
 ![Screenshot shows an example of a Sharing Settings edit button](../media/Office365Admin_Services_addins_Sharing1.png)
 ![Screenshot shows an example of a Sharing Settings toggle](../media/Office365Admin_Services_addins_Sharing2.png)
-Note - toggling this is same as toggling Yes/No for Members can Invite in Azure AD User Settings\External users section
+
+> [!Note] 
+> Toggling this is same as toggling Yes/No for Members can Invite in Azure AD User Settings\External users section.
     
-
-
-Services and Add Ins
+**Services and Add Ins**
 □ Office 365 Groups
 1. Login to O3565 admin center 
 2. Click on Settings and then Services & add-ins
