@@ -8,7 +8,7 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: chucked
-  manager: lolaj
+  manager: serdars
   ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial

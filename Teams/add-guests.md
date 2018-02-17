@@ -2,7 +2,7 @@
 title: Add a guest to a team
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
