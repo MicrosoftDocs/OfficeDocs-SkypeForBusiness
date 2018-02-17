@@ -2,7 +2,7 @@
 title: Tools and workshops - Plan, deliver, and operate Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams

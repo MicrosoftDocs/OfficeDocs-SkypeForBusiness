@@ -2,7 +2,7 @@
 title: Plan for Office 365 Groups when creating teams in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams

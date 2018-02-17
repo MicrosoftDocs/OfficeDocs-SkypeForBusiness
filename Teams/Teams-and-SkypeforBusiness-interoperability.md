@@ -2,7 +2,7 @@
 title: Microsoft Teams and Skype for Business interoperability
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams

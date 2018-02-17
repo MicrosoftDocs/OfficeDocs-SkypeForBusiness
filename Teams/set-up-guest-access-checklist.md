@@ -2,7 +2,7 @@
 title: "Setting up guest access checklist"
 ms.author: romanma
 author: romanma
-manager: lolaj
+manager: serdars
 ms.date: 02/16/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud

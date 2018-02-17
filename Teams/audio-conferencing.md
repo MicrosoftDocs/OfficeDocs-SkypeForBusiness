@@ -2,7 +2,7 @@
 title: Practical guidance for Audio Conferencing in Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/22/2017
 ms.topic: article
 ms.service: msteams
