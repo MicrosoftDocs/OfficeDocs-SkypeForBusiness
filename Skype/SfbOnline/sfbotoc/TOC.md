@@ -1,5 +1,5 @@
 
-# Skype for Business admin
+# [Skype for Business Online Admin](../skype-for-business-online.md)
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
