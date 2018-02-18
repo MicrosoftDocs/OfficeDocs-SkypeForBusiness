@@ -90,7 +90,7 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
 |:-----|:-----|
 | Video conversations <br/>  Person-to-person instant messaging <br/>  Presence <br/> | Multi-party IM conversations <br/>  Audio and video conversations with three or more people <br/>  Desktop and program sharing <br/> |
    
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 
