@@ -78,7 +78,7 @@ To see a list of those countries/regions that have phone numbers automatically a
     
 - To set the dial-in phone number for a user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
     
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 

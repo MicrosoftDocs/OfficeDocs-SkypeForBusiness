@@ -88,7 +88,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 ## 
 
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 
