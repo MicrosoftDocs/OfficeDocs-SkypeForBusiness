@@ -2,7 +2,7 @@
 title: Quick start - Microsoft Teams planning guide
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams

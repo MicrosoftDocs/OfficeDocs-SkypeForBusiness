@@ -8,7 +8,7 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
-  manager: lolaj
+  manager: serdars
   ms.service: msteams
   ms.topic: tutorial
   ms.collection: Strat_MT_TeamsAdmin

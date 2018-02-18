@@ -2,7 +2,7 @@
 title: Configure permissions for Who
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
+manager: serdars
 ms.date: 12/07/2017
 ms.topic: article
 ms.service: msteams
