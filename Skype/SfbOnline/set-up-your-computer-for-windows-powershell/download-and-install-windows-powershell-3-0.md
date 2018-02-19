@@ -141,7 +141,7 @@ Auth
 
 If basic authentication has been set to true, then you're ready to use PowerShell to connect to Skype for Business Online.
   
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 

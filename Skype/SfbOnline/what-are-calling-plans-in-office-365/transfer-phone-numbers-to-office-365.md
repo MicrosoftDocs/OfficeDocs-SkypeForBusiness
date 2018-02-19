@@ -98,7 +98,7 @@ Your port order request will be checked and updated daily and you will be notifi
  **What should I do if my order is taking too long to process?** We want number porting to be very simple and quick process. If your order is taking longer than you think it should and the status still doesn't show as complete in the Skype for Business admin center, please open support ticket and include the port order ID.
 
 
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

@@ -292,7 +292,7 @@ Some but not all Skype for Business features are available to customers using Of
 <a name="bkmk_existing"> </a>
 
 
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 <a name="bkmk_existing"> </a>
