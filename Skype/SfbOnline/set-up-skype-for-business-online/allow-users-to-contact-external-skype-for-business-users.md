@@ -133,7 +133,7 @@ After you enable external communication for your entire business, you can turn i
   
 
 
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
 ## Related topics

@@ -161,7 +161,7 @@ To learn more, see [Quick reference: Using Windows PowerShell to do common Skype
     > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)

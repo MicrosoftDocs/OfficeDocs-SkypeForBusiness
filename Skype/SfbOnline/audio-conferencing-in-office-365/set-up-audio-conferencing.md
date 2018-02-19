@@ -87,7 +87,7 @@ The following steps are **optional**, but a lot of admins like to do them:
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
   
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 
