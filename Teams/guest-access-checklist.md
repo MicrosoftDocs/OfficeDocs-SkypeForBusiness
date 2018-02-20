@@ -35,13 +35,11 @@ To ensure Guest Access is enabled/configured according to the preferences of you
 	5. Ensure “Turn Microsoft Teams on or off for all users of this type” is enabled
 
 
-![Screenshot shows an example of a Teams Settings toggle](../media/guest-access-checklist-TeamsSettings1.png)
-
-  
+![Screenshot shows an example of a Teams Settings toggle](media/guest-access-checklist-TeamsSettings1.png)
 
 □ Team/Channel specific Settings:
 
-![Screenshot shows an example of a Team/Channel Settings toggle](../media/guest-access-checklist-TeamsSettings2.png)
+![Screenshot shows an example of a Team/Channel Settings toggle](media/guest-access-checklist-TeamsSettings2.png)
 
 
 [Relevant documents to review](guest-access.md)
@@ -62,10 +60,10 @@ Security and Privacy
 
 This setting is equal to Members can invite. Must be set to ON. 
 
-![Screenshot shows Admin center Office365AdminBanner](../media/guest-access-checklist-Office365AdminBanner.png)
-![Screenshot shows an example of a Services settings](../media/guest-access-checklist-Office365Admin_Services_addins.png)
-![Screenshot shows an example of a Sharing Settings edit button](../media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
-![Screenshot shows an example of a Sharing Settings toggle](../media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+![Screenshot shows Admin center Office365AdminBanner](media/guest-access-checklist-Office365AdminBanner.png)
+![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
+![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
 Note - toggling this is same as toggling Yes/No for Members can Invite in Azure AD User Settings\External users section
     
 
@@ -78,7 +76,7 @@ Services and Add Ins
 4. Ensure “Let group owners add people outside the organization to groups” is enabled
 	If this setting is turned off it will block Team owners to add new guests but can add guests accounts that already exist in AAD.
 	► At minimum to support Guests, this must be "on".
-![Screenshot shows an example of a Groups Settings toggle. ](../media/guest-access-checklist-Office365Admin_Services_addins365Groups1.png)
+![Screenshot shows an example of a Groups Settings toggle. ](media/guest-access-checklist-Office365Admin_Services_addins365Groups1.png)
 Let Group members outside the organization access group content. If Off, Teams Guests won't be able to access any Group Content. 
 
 Let Group owners add people outside the organization to Groups. If this is Off, Owners of Teams will not be able to add new Guest users. If a guest user is already added to Azure AD by and administrator, then they would be able to add that user to the Team. 
@@ -92,9 +90,9 @@ Let Group owners add people outside the organization to Groups. If this is Off, 
 	5. Ensure that Members can Invite is set to YES
 
 ► At minimum to support Guests, "Members can invite" must be "Yes".
-![Screenshot shows an example of a AAD admin center banner. ](../media/guest-access-checklist-AADAdminCenter.png)
-![Screenshot shows an example of a AAD Settings banner. ](../media/guest-access-checklist-AADSettingsBanner.png)
-![Screenshot shows an example of a AAD Settings toggle. ](../media/guest-access-checklist-AADSettings1.png)
+![Screenshot shows an example of a AAD admin center banner. ](media/guest-access-checklist-AADAdminCenter.png)
+![Screenshot shows an example of a AAD Settings banner. ](media/guest-access-checklist-AADSettingsBanner.png)
+![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
 
 Explanation of all External user settings:
 
@@ -112,7 +110,7 @@ Explanation of all External user settings:
 	2. Click on Admin Center and select SharePoint.
 	3. From within the SharePoint admin center, select ‘Sharing’.
 	4. Ensure that ‘Don’t allow sharing outside of your organization’ isn’t enabled:
-![Screenshot shows an example of a Sparepoint Online Settings toggle. ](../media/guest-access-checklist-SPOSettings1.png)
+![Screenshot shows an example of a Sparepoint Online Settings toggle. ](media/guest-access-checklist-SPOSettings1.png)
 
 □ Unified Groups
 PowerShell cmdlet to set whether or not Guests are allowed:
@@ -121,7 +119,7 @@ AllowAddGuests: True (or False)
 
 Get-UnifiedGroup <name> | fl AllowAddGuests
 
-![Screenshot shows an example of a Unified Groups powershell output. ](../media/guest-access-checklist-UnifiedGroup1.png)
+![Screenshot shows an example of a Unified Groups powershell output. ](media/guest-access-checklist-UnifiedGroup1.png)
 
 [To modify this setting in powershell - Set-UnifiedGroup](https://technet.microsoft.com/en-us/library/mt238274(v=exchg.160).aspx)
 
