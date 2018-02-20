@@ -1,6 +1,6 @@
-#Document my success plan
+# Document my success plan
 
-##Execution planning 
+## Execution planning 
 
 After defining how you’ll implement the Audio Conferencing or Phone System with
 Calling Plan solution in your organization, you need to plan for the execution
@@ -10,7 +10,7 @@ If your organization has only one or two sites, you might not need to complete
 all the details provided in this article, but you should read through it to
 guide your approach.
 
-##Deployment model 
+## Deployment model 
 
 As with any technology implementation that transforms the way people work in
 your organization, choosing the right way to undertake the deployment will
