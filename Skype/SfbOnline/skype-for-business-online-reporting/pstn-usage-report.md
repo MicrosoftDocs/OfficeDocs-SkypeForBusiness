@@ -91,7 +91,6 @@ This is what the report looks like.
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**
 ***
-   
 ## Want to see other Skype for Business reports?
 
 - [Skype for Business activity report](activity-report.md) You can see how much your users are using peer-to-peer, organized, and participated in conferencing sessions.
