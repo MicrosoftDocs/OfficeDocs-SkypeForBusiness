@@ -2,16 +2,16 @@
 title: Teams Guest Checklist
 author: romanma
 ms.author: romanma
-manager: lolaj
+manager: serdars
 ms.date: 2/15/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Setup Microsoft Teams Guest Access step by step.
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: - Microsoft Teams
+appliesto: 
+- Microsoft Teams
 ---
-
 
 
 # Teams Guest Checklist
