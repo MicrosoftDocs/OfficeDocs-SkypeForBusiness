@@ -31,22 +31,11 @@ Potential deployment models include the following:
     companies, where all employees get the same experience from day one of the
     deployment.
 
-| [./media/image1.png](./media/image1.png) |
-|------------------------------------------|
 
-
-    ~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-        Decision points
-
-        Decide the Teams deployment execution model that’s applicable to your
-        organization.
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the Teams deployment execution model you’ve chosen, and include business and technical justifications. |   |
-|------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Teams deployment execution model that’s applicable to your organization.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>
+Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ol></td></tr></table>
 
 ##RACI modeling
 
@@ -71,26 +60,14 @@ The following is an example of a RACI matrix for a cloud voice implementation.
 | Adoption user scenarios Envision phase workshop       | C            | I                            | A          | R                                     |                               |
 | Adoption success workshop                             |              |                              | R, A       | C                                     |                               |
 | Client and device readiness workshop                  | I            |                              | R, A       | C                                     |                               |
-| [./media/image1.png](./media/image1.png)              |              |                              |            |                                       |                               |
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide the activities/roles relevant to the cloud voice implementation
-    project.
-
-    -   Decide the teams or people to be assigned to the responsibility
-        assignment matrix (RACI matrix) of the cloud voice implementation
-        project.
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the RACI matrix. |   |   |
-|------------------------------------------|------------|---------------------------|---|---|
 
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the activities/roles relevant to the cloud voice implementation project.</li><li>Decide the teams or people to be assigned to the responsibility assignment matrix (RACI matrix) of the cloud voice implementation project.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>
+Document the RACI matrix.</li></ol></td></tr></table>
 
-##Quarterly execution plan
+## Quarterly execution plan
 
 To execute the cloud voice deployment in manageable chunks of work, we recommend
 that you create a quarterly execution plan based on your objective key results
@@ -116,22 +93,15 @@ of a cloud voice implementation.
 | Italy: Milan                             | 200                 | Yes                | N/A                             | Q2 CY2018          |
 | South America: Brazil                    | 1500                | Yes                | N/A                             | Q2 CY2018          |
 | India: Delhi                             | 7000                | Yes                | N/A                             | Q3 CY2018          |
-| [./media/image1.png](./media/image1.png) |                     |                    |                                 |                    |
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide the quarterly execution plan to achieve the objective key results
-    (OKRs).
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the quarterly execution plan. |   |
-|------------------------------------------|------------|----------------------------------------|---|
 
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
+<table>
 
-##Communications and governance plan
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the quarterly execution plan to achieve the objective key results (OKRs).</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the quarterly execution plan.</li></ol></td></tr>
+</table>
+
+## Communications and governance plan
 
 To keep project stakeholders up to date with the progress of the deployment, you
 need to establish a plan for how communications will take place among the core
@@ -148,23 +118,16 @@ leverage in your cloud voice implementation project.
 | Weekly steering committee                   | Review status of the cloud voice project, report to executives, raise issues that require executive help to resolve                                        | TBA          | Every Friday 11 AM PST                        | Virtual              | TBA           |
 | Monthly project business/operational review | Check project status with extended stakeholders, main points of contact, and executive sponsors; review the deployment plan, KSIs, and operational metrics | TBA          | Second Tuesday of month                       | Virtual or in person | TBA           |
 | Quarterly business review (QBR)             | Check project status and review progress against strategic goals, KSIs, and operational metrics; revisit plans if required                                 | TBA          | Last Thursday of every quarter                | In person            | TBA           |
-| [./media/image1.png](./media/image1.png)    |                                                                                                                                                            |              |                                               |                      |               |
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide the communications and governance plan, including the frequency of
-    regular status updates (daily, weekly, monthly, or quarterly), methods for
-    conducting the status update meetings, and the owner of each meeting.
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the communications and governance plan. |   |
-|------------------------------------------|------------|--------------------------------------------------|---|
 
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
+<table>
 
-##Finalize my success plan
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the communications and governance plan, including the frequency of regular status updates (daily, weekly, monthly, or quarterly), methods for conducting the status update meetings, and the owner of each meeting.</li></ol></td></tr>
+
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the communications and governance plan.</li></ol></td></tr>
+</table>
+
+## Finalize my success plan
 
 A success plan is the summary of the documentation you created in the Envision
 phase.
@@ -236,22 +199,9 @@ need to support the implementation of Audio Conferencing.
 You need to complete this and include the operational plan as part of the
 success plan to ensure operational readiness of the solution.
 
-| [./media/image1.png](./media/image1.png) |
-|------------------------------------------|
+<table>
 
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how you will document your entire success plan for delivering your cloud voice workloads.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm all components of your success plan have been documented.</li><li>Aggregate individual components of your success plan into a single summary document (optional).</li></ol></td></tr>
+</table>
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide how you will document your entire success plan for delivering your
-    cloud voice workloads.
-
-| [./media/image2.png](./media/image2.png) | Next steps | Confirm all components of your success plan have been documented |   |
-|------------------------------------------|------------|------------------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Aggregate individual components of your success plan into a single summary
-    document (optional).
