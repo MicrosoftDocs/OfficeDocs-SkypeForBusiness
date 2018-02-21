@@ -27,10 +27,12 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 To learn more about apps, see the following video: 
+ 
 |  |  |
 |---------|---------|
 
-| Tech Tip: Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>   |
+ Tech Tip: Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>   
+
 ## Allow external apps in Teams
 
 By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected.  If you turn off this switch, all external third-party apps are disabled. 
