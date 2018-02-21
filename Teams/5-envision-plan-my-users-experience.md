@@ -26,7 +26,7 @@ endpoint to the previous version automatically.
 As you can see from the diagram below, endpoints are an important building block
 in providing a quality experience for end users.
 
-![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on Endpoints.](media/7ae6572140f823ed10f25ce9c52c38b0.png)
+![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on endpoints.](media/plan-my-users-experience-image1.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on endpoints.")
 
 Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets,
 and mobile devices. Part of the experience not only encompasses the device, but
