@@ -312,34 +312,19 @@ This table includes a summary of planning activities with links to related conte
 
 | Area | Details | References |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Plan for service management | Conduct an operational role mapping exercise | Operations Guide |
-| | Nominate Quality Champion(s) | [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) |
-| | | Quality Experience Review Guide |
-| | Install Quality Experience Review templates | QER-Lite Templates |
-| | | [Upload Building Information](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information) |
+| Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | Operations Guide |
+| | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> Quality Experience Review Guide |
+| | Install Quality Experience Review templates <br/> Upload a building file | QER-Lite Templates <br/> [Upload Building Information](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)|
 | Plan for network quality | Run the Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
-| | Implement QoS | [Enabling QoS](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8) |
-| | Bypass proxy servers | [Proxy Guidance](https://support.office.com/en-us/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ui=en-US&rs=en-US&ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Implement QoS | [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
+| | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
 | | Implement split-tunnel VPN | [VPN Split Tunnel Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimize Wi-Fi networks for real-time media  | Consult 3rd Party Vendors |
 | | Implement local internet egress | [Local Internet Egress](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Implement network connectivity | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
+| | Implement network connectivity <br/> Validate network connectivity | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
 | | | [Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) |
-| | Perform network assessment | Network Readiness Web-Content |
+| | Perform network assessment | [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Plan for endpoint quality | Update endpoint firewalls | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
-| | Validate software requirements | [Get Clients for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients) |
+| | Validate software requirements | [Get Clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients) |
 | | Implement endpoint Wi-Fi recommendations | Consult 3rd Party Vendors |
-| | Conduct persona to devices mapping | Personas and Devices Web Content |
-| | | [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
-
--   Signoff from accountable teams
-
--   Role readiness
-
--   Quality Champion readiness
-
--   Upload a building file
-
--   Validate network connectivity
-
--   Provision devices and pilot them
+| | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
