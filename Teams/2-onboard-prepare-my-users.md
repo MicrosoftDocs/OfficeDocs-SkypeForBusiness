@@ -1,6 +1,6 @@
-#Prepare my users
+# Prepare my users
 
-##Drive user adoption of cloud voice services
+## Drive user adoption of cloud voice services
 
 As you get your technical environment ready to support Audio Conferencing or
 Phone System with Calling Plans, take time to ensure your users are ready for
@@ -17,7 +17,7 @@ It’s designed to be easily repeatable, adaptable, and flexible enough to meet
 your needs. Leverage the following guidance and resources to get started today,
 and look for more detailed guidance in the coming months.
 
-![Core building blocks in order left to right: Project Team; Scope and Goals; Org & People Readiness; Awareness, Training & Support; ending in an Execution Plan.](media/5984d0902f3c0b845fe811265c2bfa84.emf)
+![](media/5984d0902f3c0b845fe811265c2bfa84.emf "Core building blocks in order left to right: Project Team; Scope and Goals; Org and People Readiness; Awareness, Training & Support; ending in an Execution Plan.")
 
 ### Assess your project team
 
@@ -55,25 +55,12 @@ pilot or early adopter program to validate user sentiment and then expand to
 other personas and cohorts. Ultimately, you’re in control of your adoption
 journey.
 
-| [./media/image2.png](./media/image2.png) |
-|------------------------------------------|
+[//]: # (Note that you can't remove the "en-us" from the link in this table.)
 
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for driving user adoption and change management during your organization’s implementation of cloud voice capabilities?</li><li>How will you implement an adoption and change management strategy?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download and review the [Office 365 Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).</li><li>Document your strategy for driving user adoption.</li><li>Finalize schedule and communication plans to begin your adoption campaign.
+</li></ol></td></tr>
+</table>
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Who will be responsible for driving user adoption and change management
-    during your organization’s implementation of cloud voice capabilities?
-
-    -   How will you implement an adoption and change management strategy?
-
-| [./media/image3.png](./media/image3.png) | Next steps | Download and review the [Office 365 Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). |   |   |
-|------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Document your strategy for driving user adoption.
-
--   Finalize schedule and communications plans to begin your adoption campaign.
+  
