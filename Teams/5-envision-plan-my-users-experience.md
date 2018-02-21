@@ -3,14 +3,14 @@
 ## Client deployment
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and
-mobile (Android, iOS, and Windows Phone). For additional details on how the
-desktop (Windows and Mac) and mobile clients are installed, please see [Get
+mobile (Android, iOS, and Windows Phone). For additional details about how the
+desktop (Windows and Mac) and mobile clients are installed, see [Get
 clients for Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients)
+Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## Client updates
 
-One of the key benefits of Microsoft Teams is that the client is kept up to date
+One of the key benefits of Teams is that the client is kept up to date
 automatically. The clients on the PC and Mac are updated by using a background
 process that checks for new builds and downloads the new client when the app is
 idle. The client download size is roughly 100 MB.
@@ -18,17 +18,17 @@ idle. The client download size is roughly 100 MB.
 An organization doesn’t have any control or access to a policy setting to manage
 the update process. To mitigate the risk of a problem that might be discovered
 in a newer build, the last known good version is kept on the endpoint. If
-there’s a problem with a new build, the Microsoft Teams service can revert the
+there’s a problem with a new build, the Teams service can revert the
 endpoint to the previous version automatically.
 
 ## Plan for endpoint quality
 
 As you can see from the diagram below, endpoints are an important building block
-in providing a quality experience for end users.
+in providing a quality experience for users.
 
 ![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on endpoints.](media/plan-my-users-experience-image1.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on endpoints.")
 
-Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets,
+Teams endpoints can run on many devices, including PCs, Macs, tablets,
 and mobile devices. Part of the experience not only encompasses the device, but
 how a user connects to the device—for example, using the device’s built-in
 mic/speaker, earbuds, or an optimized headset. Using an optimized headset can
@@ -40,7 +40,7 @@ organization has a successful onboarding experience with Teams.
 ## Endpoint capability
 
 The first part of planning is to ensure all the PCs and other devices in your
-organization can run Microsoft Teams. This involves not just looking at the
+organization can run Teams. This involves not just looking at the
 hardware requirements, but also understanding what else the PC is doing in the
 background. Many organizations run other software, including intrusion detection
 systems and antimalware software, which can affect the base performance of a
@@ -48,7 +48,7 @@ device.
 
 For information about the software requirements for Teams clients on each
 platform (web, desktop, and mobile), see [Get clients for Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).
+Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## Endpoint firewalls
 
@@ -59,7 +59,8 @@ firewall based on the information in [Office 365 URLs and IP address
 ranges](https://aka.ms/o365ips). Your third-party vendor will have specific
 guidance on how to create the exclusions.
 
-[!NOTE] Microsoft Teams will automatically update the Windows Firewall with an
+>[!NOTE]
+> Microsoft Teams will automatically update the Windows Firewall with an
 appropriate firewall configuration.
 
 ## Wi-Fi recommendations for endpoints
@@ -108,7 +109,7 @@ quality in Microsoft Teams running on Windows devices. If it’s not possible to
 upgrade your wireless access point or routers, you should update Windows Power
 Plan settings on devices that run on battery power. Further detail and
 configuration guidance is provided in the following [support
-article](https://support.microsoft.com/en-us/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What Teams clients will be deployed in your organization?</li><li>How will you initially deploy Teams clients to your users?</li><li>Who is responsible for evaluating endpoints and devices to validate they meet Teams requirements for a quality experience?</li></ol></td></tr>
