@@ -15,7 +15,7 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Administrators can control whether organizers can use toll-free numbers for their meetings."
+description: "Administrators can control how organizers can use toll-free numbers for their meetings." 
 ---
 
 # Disabling toll-free numbers for specific users
