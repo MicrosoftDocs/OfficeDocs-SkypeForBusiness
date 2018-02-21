@@ -1,11 +1,11 @@
-#Plan my service management
+# Plan my service management
 
 This article gives an overview of the requirements that are necessary to deliver
 and maintain a high-quality Microsoft Teams deployment. You can help ensure a
 successful deployment by planning for service management and quality during the
 Envision phase, before your first pilot or production deployment.
 
-##Service management for Teams
+## Service management for Teams
 
 Service management is a broad topic that covers day-to-day operations of the
 Microsoft Teams service after it has been deployed and enabled for users. The
@@ -28,9 +28,9 @@ management and how it relates to the key components that underpin the quality of
 the user experience, see Link to Plan for service management and quality.
 [Provide Link]
 
-![Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.](media/d9bbfc5b29ca51e544b9ff05dc152eac.png)
+![Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.](media/d9bbfc5b29ca51e544b9ff05dc152eac.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
 
-##Introduction to the Operations Guide 
+## Introduction to the Operations Guide 
 
 **What**, **Who**, and **How** are three important questions that need to be
 answered when it comes to service management.
@@ -46,7 +46,7 @@ activities, they need to be understood and followed by the groups or individuals
 that you assign to them. The Operations Guide provides knowledge and guidance
 for how to perform each of the tasks, and/or references to outside content.
 
-##Plan for operational role mapping
+## Plan for operational role mapping
 
 Planning for service management early is a critical milestone, because the
 operations phase begins when the first pilot users are enabled. The project team
@@ -67,20 +67,22 @@ The Operations Guide provides a list of common tasks mapped to typical roles
 that should be valid in most scenarios. You need to customize these
 responsibilities to work for your organization.
 
-[!TIP] The following is an example of a template to document the result of
-operational roles mapping exercise that you performed to support this project:
-\|Operational Role \|Description \|Team \|Contact Details \|
-\|---------\|---------\|---------\|---------\| \|Service Owner\|Service owner,
-interface to business divisions, strategy\|TBA\|TBA\| \|Audio Conferencing
-Operations\|Daily operations, user and device account move/add/change,
-monitoring\|TBA\|TBA\| \|Tenant Admin\|Change tenant-wide settings, enable new
-features\|TBA\|TBA\| \|Help Desk\|Interface for end-users to get
-support\|TBA\|TBA\| \|Network Operations\|Runs LAN, WAN, Wi-Fi, and Internet
-Access\|TBA\|TBA\| \|Client & Endpoints Team\|Manage desktop
-deployments\|TBA\|TBA\| \|Identity Operations\|Manage identity infrastructure
-(AD, ADFS, Azure AD)\|TBA\|TBA\| \|Adoption/change management\|Manage awareness,
-training and adoption for the solution\|TBA\|TBA\| \|Exchange
-Operations\|Manages the Exchange environment\|TBA\|TBA\|
+>[!TIP]
+>The following is an example of a template to document the result of
+operational roles mapping exercise that you performed to support this project.
+
+
+|Operational Role |Description |Team |Contact Details |
+|---------|---------|---------|---------|
+|Service Owner|Service owner, interface to business divisions, strategy|TBA|TBA|
+|Audio Conferencing Operations|Daily operations, user and device account move/add/change, monitoring|TBA| TBA| 
+|Tenant Admin|Change tenant-wide settings, enable new features|TBA|TBA|
+|Help Desk|Interface for end-users to get support|TBA|TBA|
+|Network Operations|Runs LAN, WAN, Wi-Fi, and Internet Access|TBA|TBA|
+|Client & Endpoints Team|Manage desktop deployments|TBA|TBA|
+|Identity Operations|Manage identity infrastructure (AD, ADFS, Azure AD)|TBA|TBA|
+|Adoption/change management|Manage awareness, training and adoption for the solution|TBA|TBA|
+|Exchange Operations|Manages the Exchange environment|TBA|TBA|
 
 To facilitate a more detailed operational roles mapping, including the tasks
 associated with each operational role, you can use the [Operational Role Mapping
@@ -88,7 +90,7 @@ Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?Selecte
 to capture the details that will provide the clarity around roles and
 responsibilities to support cloud voice workloads.
 
-##The Quality Champion role
+## The Quality Champion role
 
 A group or individual needs to be accountable for quality in all organizations.
 This is the most important role in service management. The quality champion is a
@@ -113,13 +115,13 @@ knowledge required for the role and ensuring the prerequisites are in place to
 deliver on the tasks. A key task for this role is running a regular Quality
 Experience Review.
 
-##Introduction to the Quality Experience Review Guide
+## Introduction to the Quality Experience Review Guide
 
 The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
 improving user experience, as shown in the figure below.
 
-![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/cf33b759d5cfcd52f027c51720ca2719.png)
+![](media/cf33b759d5cfcd52f027c51720ca2719.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
 
 By continually assessing and remediating the areas described in this document,
 you can reduce their potential to negatively affect user experience. Most
@@ -150,28 +152,7 @@ Quality Experience Review Guide.
 
 The Quality Experience Review Guide can be found here [Insert Link]
 
-| [./media/image3.png](./media/image3.png) |
-|------------------------------------------|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide who is accountable for cloud voice operations in your organization.
-
-| [./media/image4.png](./media/image4.png) | Next steps | Download the Planning for Service Management full guide. |   |
-|------------------------------------------|------------|----------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Download the Quality Experience Review guide.
-
--   Review the Operations Guide in full.
-
--   Provide all guides to every operations team members to review and be
-    familiar with operations requirements.
-
-For more detailed guidance on planning for service management, see our advanced
-guide here [Provide Link].
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
+</table>

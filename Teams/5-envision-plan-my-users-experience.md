@@ -1,6 +1,6 @@
-#Plan my users’ experience
+# Plan my users’ experience
 
-##Client deployment
+## Client deployment
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and
 mobile (Android, iOS, and Windows Phone). For additional details on how the
@@ -8,7 +8,7 @@ desktop (Windows and Mac) and mobile clients are installed, please see [Get
 clients for Microsoft
 Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients)
 
-##Client updates
+## Client updates
 
 One of the key benefits of Microsoft Teams is that the client is kept up to date
 automatically. The clients on the PC and Mac are updated by using a background
@@ -21,7 +21,7 @@ in a newer build, the last known good version is kept on the endpoint. If
 there’s a problem with a new build, the Microsoft Teams service can revert the
 endpoint to the previous version automatically.
 
-##Plan for endpoint quality
+## Plan for endpoint quality
 
 As you can see from the diagram below, endpoints are an important building block
 in providing a quality experience for end users.
@@ -37,7 +37,7 @@ enrich the overall user experience.
 The following guidance on endpoint planning will help you ensure your
 organization has a successful onboarding experience with Teams.
 
-##Endpoint capability
+## Endpoint capability
 
 The first part of planning is to ensure all the PCs and other devices in your
 organization can run Microsoft Teams. This involves not just looking at the
@@ -50,7 +50,7 @@ For information about the software requirements for Teams clients on each
 platform (web, desktop, and mobile), see [Get clients for Microsoft
 Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).
 
-##Endpoint firewalls
+## Endpoint firewalls
 
 Client-side firewalls can have a significant impact on the user experience.
 Client-side firewalls can affect call quality in addition to preventing a call
@@ -62,7 +62,7 @@ guidance on how to create the exclusions.
 [!NOTE] Microsoft Teams will automatically update the Windows Firewall with an
 appropriate firewall configuration.
 
-##Wi-Fi recommendations for endpoints
+## Wi-Fi recommendations for endpoints
 
 It takes significant planning to deploy an optimized Wi-Fi network to support
 real-time workloads in Microsoft Teams. The following sections provide some
@@ -110,30 +110,13 @@ Plan settings on devices that run on battery power. Further detail and
 configuration guidance is provided in the following [support
 article](https://support.microsoft.com/en-us/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
-| [./media/image2.png](./media/image2.png) |
-|------------------------------------------|
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What Teams clients will be deployed in your organization?</li><li>How will you initially deploy Teams clients to your users?</li><li>Who is responsible for evaluating endpoints and devices to validate they meet Teams requirements for a quality experience?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the process that will be followed to deploy Teams clients.</li><li>Evaluate endpoints and devices and perform and remediation required.</li></ol></td></tr>
+</table>
 
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    What Teams clients will be deployed in your organization?
-
-    -   How will you initially deploy Teams clients to your users?
-
-        -   Who is responsible for evaluating endpoints and devices to validate
-            they meet Teams requirements for a quality experience?
-
-| [./media/image3.png](./media/image3.png) | Next steps | Document the process that will be followed to deploy Teams clients. |   |   |   |
-|------------------------------------------|------------|---------------------------------------------------------------------|---|---|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Evaluate endpoints and devices and perform and remediation required.
-
-##Devices for Teams
+## Devices for Teams
 
 Microsoft Teams can be used for meetings or as a phone system. When using these
 features, the interface device that is used for Teams plays an important role in
@@ -160,26 +143,7 @@ under this program, see the [USB Devices Certified for Skype for
 Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 solutions catalog.
 
-| [./media/image2.png](./media/image2.png) |
-|------------------------------------------|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Decide on your organizations overall device strategy for user and meeting
-    room experiences.
-
-| [./media/image3.png](./media/image3.png) | Next steps | Complete a persona-to-device mapping exercise for your organization. |   |
-|------------------------------------------|------------|----------------------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Document the process for obtaining devices for users and meeting rooms.
-
--   Document the process for deploying and configuration devices for users and
-    meeting rooms.
-
--   Procure initial devices to begin your deployment.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide on your organization’s overall device strategy for user and meeting room experiences.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Complete a persona-to-device mapping exercise for your organization.</li><li>Document the process for obtaining devices for users and meeting rooms.</li><li>Document the process for deploying and configuration devices for users and meeting rooms.</li><li>Procure initial devices to begin your deployment.</li></ol></td></tr>
+</table>
