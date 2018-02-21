@@ -1,6 +1,6 @@
-#Operate my service
+# Operate my service
 
-##Introduction to the Operations Guide
+## Introduction to the Operations Guide
 
 The Operations Guide gives you an overview of all the tasks and activities
 required as part of the service management function for Microsoft Teams.
@@ -27,11 +27,14 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activiteis that comprise service management for Microsoft Teams. The diagram also depicts that service management is largely a customer task.](media/24de05b4dffa5f998d8ae4e286cff846.png)
+![](media/24de05b4dffa5f998d8ae4e286cff846.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
 
-| [./media/image2.jpg](./media/image2.jpg) | Decision points | Decide how operations will be implemented for Microsoft Teams |
-|------------------------------------------|-----------------|---------------------------------------------------------------|
-| [./media/image3.jpg](./media/image3.jpg) | Next steps      | Review the Operations Guide in full.                          |
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li></ol></td></tr>
+</table>
+
 
 -   Implement an operations strategy that aligns with your organizations goals
     to deliver quality and reliability of cloud voice workloads.
@@ -132,14 +135,14 @@ Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-inter
 [Microsoft Teams and Skype for Business
 interoperability](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
 
-##Operations Guide activities
+## Operations Guide activities
 
 The following sections give an overview of the activities that are required to
 successfully operate the Microsoft Teams service. They include reference to
 tools, contextual information, and additional content to help you understand the
 activity and to assist in readiness initiatives.
 
-##Monitor service health
+## Monitor service health
 
 It’s important that you understand the overall health of the Microsoft Teams
 service so that you can proactively alert others in your organization of any
@@ -237,7 +240,7 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/service-health)
 [Service Health and
 Continuity](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
-##Manage organizational change
+## Manage organizational change
 
 Microsoft Teams is a cloud-based service. With that comes the ability to provide
 new features and functionality at a rapid pace. Delivering ongoing innovation
@@ -325,7 +328,7 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/change-management-strateg
 
 Debbie’s content
 
-##Assess Teams usage
+## Assess Teams usage
 
 After the initial pilot begins, it’s critical to establish a regular cadence for
 measuring actual Teams usage. This enables your organization to gain insights
@@ -423,7 +426,7 @@ center](https://support.office.com/en-us/article/About-the-Office-365-admin-cent
 [Activity Reports in the Office 365 admin
 center](https://support.office.com/en-us/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263?ui=en-US&rs=en-US&ad=US)
 
-##Assess user sentiment
+## Assess user sentiment
 
 Understanding user sentiment can act as a key indicator for gauging the success
 of your Teams deployment. User feedback can drive changes in your organization;
@@ -580,7 +583,7 @@ Network Planner
 
 Building Data Schema
 
-##Assess and ensure quality 
+## Assess and ensure quality 
 
 All organizations need a group or individual to be accountable for quality. This
 is the most important role in service management. The Quality Champion role is
@@ -638,7 +641,7 @@ Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-yo
 
 QER Guide [Provide link]
 
-##Manage endpoints
+## Manage endpoints
 
 Microsoft Teams endpoints can be defined as any PC, Mac, tablet, or mobile (or
 any other) device running the Teams client. The term *endpoint* not only
@@ -780,7 +783,7 @@ Customers)](https://support.microsoft.com/en-us/premier/contacts)
 
 [Troubleshooting Teams Video](https://www.youtube.com/watch?v=4O4d_7uZTQY)
 
-##Manage Teams
+## Manage Teams
 
 After the Microsoft Teams service has been deployed, you’ll need to perform
 several activities relating to its administration. The activities range from
@@ -905,7 +908,7 @@ creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.
 
-##Daily/weekly/monthly/as-needed tasks
+## Daily/weekly/monthly/as-needed tasks
 
 | Activity                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Team assigned |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
@@ -915,6 +918,6 @@ users to submit requests that are processed by an assigned team.
 | Telephone number management | Manage the telephone numbers available for future growth, and adjust inventory levels to meet your organizational needs.                                                                                                                                                                                                                                                                                                | Weekly    |               |
 | Team creation (optional)    | Review and process requests for team creation.                                                                                                                                                                                                                                                                                                                                                                          | As needed |               |
 
-##Quality of Experience Review Guide (RiskS asset)
+## Quality of Experience Review Guide (RiskS asset)
 
 \<\<Intro From Matt / Rick \>\>
