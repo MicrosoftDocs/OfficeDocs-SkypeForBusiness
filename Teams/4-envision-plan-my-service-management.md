@@ -25,8 +25,7 @@ Microsoft’s responsibility, whereas the customer is accountable to its users t
 manage the various aspects of Teams, the network, and endpoints they provide.
 For a complete discussion of the customer responsibility for Teams service
 management and how it relates to the key components that underpin the quality of
-the user experience, see Link to Plan for service management and quality.
-[Provide Link]
+the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
 ![Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.](media/d9bbfc5b29ca51e544b9ff05dc152eac.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
 
@@ -35,7 +34,7 @@ the user experience, see Link to Plan for service management and quality.
 **What**, **Who**, and **How** are three important questions that need to be
 answered when it comes to service management.
 
-You can use the Operations Guide [Link to Operations Guide] to help you address
+You can use the [Operations Guide](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) to help you address
 all three of these questions. The guide provides a list of activities to be
 performed on a daily, weekly, monthly, and as-needed basis. These activities and
 tasks are critical for maintaining a high-quality Teams deployment. Determining
