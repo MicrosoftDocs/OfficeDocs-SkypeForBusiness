@@ -4,7 +4,6 @@ This document is about the Envision phase for Microsoft Teams.
 
 ##Introduction
 
-
 This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
 
 The guidance is organized into the following sections:
@@ -43,7 +42,7 @@ Service management can be divided into two distinct categories of responsibility
 
 -   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
 
-For detailed guidance for service management planning, see **Planning for Service Management.**
+For detailed guidance for service management planning, see **[Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management)**.
 
 #### Network 
 
@@ -53,7 +52,7 @@ In traditional networks, users will need to traverse the perimeter networks of a
 
 Furthermore, the core internal networks need to be optimized and right-sized to provide sufficient capacity and quality for supporting the Teams workloads, including real-time media. You can use bandwidth planning, remediation, and optimization to help ensure your network provides a high-quality and efficient path to Office 365.
 
-For detailed guidance about network planning, see **Planning for Network Quality.**
+For detailed guidance about network planning, see **[Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality)**.
 
 #### Endpoints
 
@@ -61,7 +60,7 @@ Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, 
 
 To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
 
-For detailed guidance about endpoint planning, see **Planning for Endpoint Quality.**
+For detailed guidance about endpoint planning, see **[Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality)**.
 
 ##Plan for service management
 
@@ -103,8 +102,6 @@ The Quality Experience Review Guide has a set of activities that assess and prov
 
 ![A diagram that indicated the key areas that are examined during a quality experience review.](media/cf33b759d5cfcd52f027c51720ca2719.png)
 
-Figure 1 - Key areas that are examined during a quality experience review.
-
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
 -   Incomplete firewall or proxy configuration
@@ -123,7 +120,7 @@ The guidance provided in the Quality Experience Review Guide focuses on using Ca
 
 We highly recommend that you nominate the Quality Champion early on. After being nominated, they should start to familiarize themselves with the content in the Quality Experience Review Guide.
 
-The Quality Experience Review Guide can be found here [Insert Link]
+The Quality Experience Review Guide can be found [here]()
 
 ##Plan for network quality 
 
@@ -131,7 +128,7 @@ Planning for network quality will be the focus for the following section.
 
 ![Diagram describing the 3 components of qualilty, and how service management overlaps all 3 components. With a focus on Network.](media/4622d93a62f2517e1b071d6ff6b0648f.png)
 
-As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [link to the network readiness web-content].
+As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 In most organizations, networks can comprise both managed and unmanaged networks.
 
@@ -149,9 +146,8 @@ In the following sections, we will focus on the quality requirements of managed 
 
 The following sections focus on the important areas for delivering a high-quality network.
 
-| [./media/image5.emf](./media/image5.emf) Note | Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning. |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
+> [!NOTE]
+> Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
 
 #### Bandwidth
 
@@ -159,9 +155,8 @@ Bandwidth planning is a critical aspect of the network readiness activity. Ensur
 
 To measure current utilization, you need to monitor the network. This measurement can then be used as the starting point for bandwidth planning. In addition, the network should be continually monitored during the deployment and after the deployment to ensure that the network is sufficiently provisioned.
 
-| [./media/image5.emf](./media/image5.emf) Note | When monitoring network utilization, it’s important to avoid using averages over the day. These averages can include non-core hours that skew the result. Averages can hide peak periods and mask an underlying problem. |
-|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
+> [!NOTE]
+> When monitoring network utilization, it’s important to avoid using averages over the day. These averages can include non-core hours that skew the result. Averages can hide peak periods and mask an underlying problem.
 
 The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) helps you determine and organize network requirements for your deployment in just a few simple steps. By using the tool to gather your organization's networking details and Cloud Voice usage, you can get an approximate calculation of the network requirements you’ll need for your Cloud Voice deployment, manage and export these details for reporting, and view areas for further investigation and next steps.
 
@@ -171,7 +166,7 @@ QoS should be implemented on all segments of the managed network, even networks 
 
 A QoS implementation should include areas of the network, from the endpoint all the way up to the egress points and from the egress points back to the endpoint. This will ensure that voice traffic is being prioritized in both directions. QoS should be implemented on both wired and Wi-Fi networks.
 
-For implementing QoS on your network, the following guidance can help [Link to Network Readiness: QoS]
+For implementing QoS on your network, the following guidance can help [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)
 
 #### Proxy servers
 
@@ -187,7 +182,7 @@ The configuration required to bypass the proxy server varies among vendors, but 
 
 Some proxy server vendors provide an automated process for ensuring the configuration is up to date. If your vendor doesn’t provide this automatic process, you can download an updated PAC file from <https://aka.ms/o365proxies>.
 
-[Link to Network Readiness: Proxies]
+[Proxy Servers for Skype for Business Online and Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
 
 #### Firewalls
 
@@ -201,11 +196,8 @@ Full guidance for opening the firewall for Microsoft Teams is provided in the [O
 
 After the firewall is opened, you can use the [Microsoft Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to validate connectivity for cloud voice capabilities.
 
-| [./media/image6.png](./media/image6.png) Important | The Microsoft Office 365 IPs and URLs will change over time. As part of service management planning, it’s important to ensure an operational process is in place and a group is accountable to monitor the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) and make updates accordingly. |
-|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-
-For detailed guidance, see [Link to Network Readiness: Firewall]
+> [!IMPORTANT]
+> The Microsoft Office 365 IPs and URLs will change over time. As part of service management planning, it’s important to ensure an operational process is in place and a group is accountable to monitor the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) and make updates accordingly.
 
 #### Local internet egress
 
@@ -223,8 +215,6 @@ The recommendation is to provide an alternate path that bypasses the VPN for Tea
 
 To implement a split-tunnel, consult with your VPN vendor for the configuration details.
 
-[Link to Network Readiness: VPN Guidance]
-
 #### Wi-Fi
 
 Like VPN, Wi-Fi networks are not necessarily designed or configured to support real time media. Planning for, and/or optimizing, a Wi-Fi network to support Teams is an important consideration for a quality deployment.
@@ -241,15 +231,13 @@ There are several factors that come into play for optimizing a Wi-Fi network.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
-[Link to Network Readiness: Wi-Fi Guidance]
-
 ###Network readiness assessment
 
 Part of the network readiness activities includes a network assessment. After you’ve completed your planning and configuration, the assessment can give you a baseline understanding of the quality of your network before you onboard users to Microsoft Teams. The assessment results will also help you identify and prioritize remediation efforts before enabling users for Teams.
 
 The network assessment should be performed on both wired and Wi-Fi networks for all buildings that are being enabled for cloud voice capabilities in Teams.
 
-The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance here. [link to the network readiness web-content].
+The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)..
 
 ##Plan for endpoint quality
 
@@ -265,15 +253,14 @@ The following guidance on endpoint planning will help you ensure your organizati
 
 The first part of planning is to ensure all the PCs and other devices in your organization can run Microsoft Teams. This involves not just looking at the hardware requirements, but also understanding what else the PC is doing in the background. Many organizations run other software, including intrusion detection systems and antimalware software which can affect the base performance of a device.
 
-Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Mobile). For information about the software requirements for each platform, see [Get Clients for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).
+Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Mobile). For information about the software requirements for each platform, see [Get Clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ###Endpoint firewalls
 
 Client-side firewalls can have a significant impact on the user experience. Client-side firewalls can affect call quality in addition to preventing a call from being established. Configure the appropriate exclusions on the client firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance on how to create the exclusions.
 
-| [./media/image5.emf](./media/image5.emf) Note | Microsoft Teams will automatically update the Windows Firewall with an appropriate firewall configuration. |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------|
-
+> [!NOTE]
+> Microsoft Teams will automatically update the Windows Firewall with an appropriate firewall configuration.
 
 ###Wi-Fi recommendations for endpoints
 
@@ -297,7 +284,7 @@ Some organizations prefer to avoid Wi-Fi altogether. Sometimes this guidance is 
 
 #### 802.11 power save protocol
 
-If your organization uses wireless access points or routers that don’t support the 802.11 power save protocol, you might experience dropped calls or poor call quality in Microsoft Teams running on Windows devices. If it’s not possible to upgrade your wireless access point or routers, you should update Windows Power Plan settings on devices that run on battery power. Further detail and configuration guidance is provided in the following [support article](https://support.microsoft.com/en-us/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+If your organization uses wireless access points or routers that don’t support the 802.11 power save protocol, you might experience dropped calls or poor call quality in Microsoft Teams running on Windows devices. If it’s not possible to upgrade your wireless access point or routers, you should update Windows Power Plan settings on devices that run on battery power. Further detail and configuration guidance is provided in the following [support article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 ###Devices for Teams
 
@@ -311,7 +298,7 @@ After you’ve selected the devices, include them in the pilot test plan for fin
 
 At this time, we recommend using audio devices that were certified through the Skype for Business Certification program. To find devices certified under this program, refer to the [USB Devices Certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) solutions catalog.
 
-[Link to Devices Personas Web-Content]
+For more details, see [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
 
 ###Client updates
 
