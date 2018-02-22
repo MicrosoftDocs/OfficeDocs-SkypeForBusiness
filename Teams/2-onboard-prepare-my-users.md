@@ -17,7 +17,7 @@ It’s designed to be easily repeatable, adaptable, and flexible enough to meet
 your needs. Leverage the following guidance and resources to get started today,
 and look for more detailed guidance in the coming months.
 
-![](media/5984d0902f3c0b845fe811265c2bfa84.emf "Core building blocks in order left to right: Project Team; Scope and Goals; Org and People Readiness; Awareness, Training & Support; ending in an Execution Plan.")
+![](media/prepare-my-users-image1.png "Core building blocks in order left to right: Project Team; Scope and Goals; Org and People Readiness; Awareness, Training & Support; ending in an Execution Plan.")
 
 ### Assess your project team
 
