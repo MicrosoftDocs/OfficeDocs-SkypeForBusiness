@@ -40,6 +40,7 @@ For best results, we recommend that you follow this guidance in order:
 [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)

@@ -79,7 +79,7 @@ Teams uses audio and video technology (codecs) that can adapt to—and therefore
 perform better under—most network conditions. To ensure optimal and consistent
 performance, you should prepare your network for Teams.
 
-![](media/4622d93a62f2517e1b071d6ff6b0648f.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.")
+![](media/evaluate-my-environment-image1.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.")
 
 ## Key takeaways
 
@@ -172,8 +172,6 @@ organization’s network.
 To implement a split-tunnel, consult with your VPN vendor for the configuration
 details.
 
-[Link to Network Readiness: VPN Guidance]
-
 ### Wi-Fi
 
 Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support
@@ -205,8 +203,6 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 Each wireless vendor has its own recommendations for deploying its wireless
 solution. We recommend that you consult your vendor for specific guidance.
 
-[Link to Network Readiness: Wi-Fi Guidance]
-
 ## Firewall and proxy requirements
 
 Microsoft Teams connects to Microsoft Online Services and needs internet
@@ -235,7 +231,6 @@ Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a
 regular basis. You can find out more about the functionality of this tool in the
 next section.
 
-[//]: # (The link below is an aka link, yes?)
 In the event of a proxy server being deployed, we recommend that you bypass the
 proxy server for all Teams services. Although using a proxy might work, it’s
 very likely that quality will be reduced due to media’s being forced to use TCP
@@ -346,7 +341,7 @@ separating traffic. Some organizations choose to deploy QoS to overcome
 bandwidth issues or restrict the amount of traffic flowing. This won’t improve
 quality and will lead to new problems. A root-cause analysis should always be
 performed when network impairments exceed requirements. QoS can be a solution.
-More on QoS can be found here [Provide Link]
+For more information, see [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
 >[!NOTE]
 >Many networks evolve over time due to upgrades, expansion, or other

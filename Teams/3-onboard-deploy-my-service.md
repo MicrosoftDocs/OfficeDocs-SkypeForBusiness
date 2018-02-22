@@ -18,6 +18,8 @@ By completing the activities in this playbook, your organization can:
 
 -   Reduce support needs and increase user satisfaction.
 
+
+[//]: # (Please check cross-references at the end of this paragraph. Original cross-refrence said "For technical guidance on how to best configure your environment for Teams voice, see the onboarding checklists - provide link - for Microsoft Teams voice workloads.")
 > [!NOTE]
 > This article and the associated playbook aren’t intended to describe
 every technical configuration step required for service enablement or providing
@@ -25,8 +27,7 @@ dial tone to a specific site. Instead, they focus on activities and tasks
 recommended to onboard users easily and have them start consuming Teams voice
 workloads through a fast and smooth transition with a high adoption rate, while
 minimizing support requirements. For technical guidance on how to best configure
-your environment for Teams voice, see the Onboarding checklists [Provide Link]
-for Microsoft Teams voice workloads.
+your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [networking for Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking), and [enabling Office 365](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
 
 ## Playbook focus areas
 
@@ -48,7 +49,7 @@ The playbook [Provide Link] is a Microsoft Excel workbook. Each of these five
 focus areas is a separate sheet in the workbook, and each deployment task and
 activity is grouped onto one of these sheets.
 
-![](media/ac4b8ae4bfddc00b0d2ea37b724ca346.png "Screenshot of the playbook")
+![](media/deploy-my-service-image1.png "Screenshot of the playbook")
 
 > [!NOTE]
 > You’ll create a separate instance of the playbook for each site in scope for
@@ -74,25 +75,27 @@ to Microsoft Teams voice.
     illustrated below. This is a critical step, because it adjusts the
     recommended deadlines for every activity in the playbook.
 
-    ![](media/3beae6ae66cf687be943b7e1633a586a.png)
+    ![](media/deploy-my-service-image2.png)
 
 5.  Review each activity, take necessary actions, and update the status as you
     walk through the timeline. Status is represented graphically, as described
     below:
     <ul>
-    <li>![](media/668cf78bb38974c4348a76b525c90cea.png) **Yes, or not applicable (green):** The activity has been completed, or it’s not applicable for this site, and no further action is needed.</li>
-    <li>![](media/b029a6d29f2fd656b614621e6f102fb5.png) **The activity isn’t completed yet (yellow):** The activity hasn’t been completed yet, and must be updated to Yes or No on its schedule.</li>
-    <li>![](media/be436ab1299215beaf930804de336b6d.png) **No (red):** The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
+    <li>![](media/deploy-my-service-image3.png) **Yes, or not applicable (green):** The activity has been completed, or it’s not applicable for this site, and no further action is needed.</li>
+    <li>![](media/deploy-my-service-image4.png) **The activity isn’t completed yet (yellow):** The activity hasn’t been completed yet, and must be updated to Yes or No on its schedule.</li>
+    <li>![](media/deploy-my-service-image5.png) **No (red):** The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
 
 6.  The status is rolled up within each section, and the section heading is
     formatted with one of these status indicators. **Weekly status** is also
     updated automatically.
 
-![](media/19bd40eaab03efaafd86b20f4aa2e5fa.png "Screenshot of the weekly status roll-ups in the playbook.")
+![](media/deploy-my-service-image6.png "Screenshot of the weekly status roll-ups in the playbook.")
 
 > [!TIP]
 > Repeat the steps above for all the locations you have.
 
+
+[//]: # (Should the link to steering committee info go to the mega-doc or the section in "Define my success"?)
 > [!IMPORTANT]
 > Some steps might not be applicable to all locations and sites. If a
 specific activity isn’t relevant to a site, you must select **Not applicable**
@@ -102,7 +105,7 @@ status roll-up formulas won’t work.<br/><br/>
 planned for, such as number porting and procurement activities. These activities
 can negatively affect the site deployment timeline. Be sure to review and update
 the activity list and the associated timeline weekly, and present them at
-steering committee meetings [Provide Link] to ensure that stakeholders are aware
+[steering committee meetings](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) to ensure that stakeholders are aware
 of the status of each site and any possible deviations from the deployment
 schedule.
 

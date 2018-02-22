@@ -19,207 +19,46 @@ Identify testing support stakeholders
 As you prepare to evaluate Audio Conferencing features, create a testing support
 stakeholder matrix to identify roles required to support the testing phase.
 
->   **Tip**
-
->   As you populate the Teams testing support stakeholder matrix, you might see
->   that some roles are the same as those identified during the Envision phase,
->   but with role descriptions slanted toward testing. You might need to
->   identify additional roles, depending on the unique requirements of your
->   testing scenarios.
+> [!TIP]
+> As you populate the Teams testing support stakeholder matrix, you might see
+> that some roles are the same as those identified during the Envision phase,
+> but with role descriptions slanted toward testing. You might need to
+> identify additional roles, depending on the unique requirements of your
+> testing scenarios.
 
 #### Teams Testing Support Stakeholder Matrix
 
->   **Tip**
-
->   Below is an example of a testing support stakeholder template that you can
->   use to document which stakeholders you require to support the testing phase.
+> [!TIP]
+> Below is an example of a testing support stakeholder template that you can
+> use to document which stakeholders you require to support the testing phase.
 
 | Role                          | Role description                                                                                                                                                                          | Assigned resource, contact information, and location |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| Testing Executive Sponsor(s)  | Ensure Teams features meet business needs; the executive sponsors are fluent in key business outcomes and prioritized use case scenarios.                                                 | TBA                                                  |
-| Steering Committee members    | Maintain interest in and provide guidance for the overall direction of the Audio Conferencing service deployment.                                                                         | TBA                                                  |
-| Project Lead                  | Manage and lead the project team.                                                                                                                                                         | TBA                                                  |
-| Collaboration Lead/Architect  | Be responsible for executing on the collaboration strategy defined by company executives.                                                                                                 | TBA                                                  |
-| Project Manager               | Develop and maintain the project plan.                                                                                                                                                    | TBA                                                  |
-| Network Lead                  | Provide input on network design during the Discovery phase.                                                                                                                               | TBA                                                  |
-| Security Lead                 | Provide input on security design and processes during the Discovery phase.                                                                                                                | TBA                                                  |
-| Telephony Lead                | Providing input on telephony design during the Discovery phase.                                                                                                                           | TBA                                                  |
-| Desktop Lead                  | Provide input on clients and the update process during the Discovery phase.                                                                                                               | TBA                                                  |
-| Business Unit Representatives | Contribute to user-based adoption guides and materials.                                                                                                                                   | TBA                                                  |
-| IT Admins                     | Assist with test planning and execution (this role is for IT pros).                                                                                                                       | TBA                                                  |
-| Service Owner                 | Be responsible for the operation of the Audio Conferencing service, all up.                                                                                                               | TBA                                                  |
-| Test Lead/Manager             | Define the test plan, including activities, dependencies, environment, goals, strategy, resourcing (environmental and human), and the timeline required for supporting the testing phase. | TBA                                                  |
-| Audio Conferencing Tester     | Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.                                                                | TBA                                                  |
-| Network Tester                | Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.                                                                | TBA                                                  |
-| Security Tester               | Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.                                                                | TBA                                                  |
-| Telephony Tester              | Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.                                                                | TBA                                                  |
-| Audio Conferencing Admin Test | Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.                                                                | TBA                                                  |
+| Testing Executive Sponsor(s)  | <ul><li>Ensure Teams features meet business needs; the executive sponsors are fluent in key business outcomes and prioritized use case scenarios.</li><li>Serve as ultimate authority, and assume accountability, for Teams feature testing objectives.</li><li>Help resolve issues escalated by the Testing Lead.</li><li>Sponsor communication within the company about testing goals.</li><li>Be responsible for making key strategic decisions.</li><li>Be responsible for ensuring the availability of required resources and budget for supporting testing efforts.</li><li>Drive awareness and buy-in for the testing campaign with other key stakeholders.</li><li>Serve as the testing sponsor during the test evaluation phase.</li></ul>                                                 | TBA                                                  |
+| Steering Committee members    | <ul><li>Maintain interest in and provide guidance for the overall direction of the Audio Conferencing service deployment.<li>Assist in evangelizing strategic insight through driving buy-in across the organization.</li></ul>                                                                        | TBA                                                  |
+| Project Lead                  |<ul><li> Manage and lead the project team.</li><li>Coordinate partners and working teams engaged in the project.</li><li>Be accountable for creating and managing project plans to meet quarterly key results.</li><li>Resolve cross-functional issues.</li><li>Provide regular updates to project sponsors.</li><li>Incorporate key user experience learnings identified in test results into the overall user adoption plan.</li><li>Lead monthly business and operational reviews, contribute to quarterly business reviews.</li></ul>                                                                                                                                                         | TBA                                                  |
+| Collaboration Lead/Architect  | <ul><li>Be responsible for executing on the collaboration strategy defined by company executives.</li><li>Analyze and choose collaboration products for the company that meet business goals.</li><li>Be responsible for the design of the operations for collaboration products.</li><li>Define the operation and support models.</li><li>Contribute to monthly and quarterly business reviews.</li></ul>                                                                                                 | TBA                                                  |
+| Project Manager               | <ul><li>Develop and maintain the project plan.</li><li>Manage project deliverables in line with the project plan and budget.</li><li>Record and manage project issues, including escalations.</li><li>Conduct weekly standup calls.</li><li>Liaise with, and provide updates to, project executive sponsors.</li><li>Work with internal change management and communication teams to update the change management approach and communication plans as needed.</li></ul>                                                                                                                                                   | TBA                                                  |
+| Network Lead                  | <ul><li>Provide input on network design during the Discovery phase.</li><li>Participate in planning during Envision phase workshops.</li><li>Coordinate the work of the networking team during project execution.</li></ul>                                                                                                                               | TBA                                                  |
+| Security Lead                 | <ul><li>Provide input on security design and processes during the Discovery phase.</li><li>Participate in planning during Envision phase workshops.</li><li>Coordinate the work of the security team during project execution.</li></ul>                                                                                                                | TBA                                                  |
+| Telephony Lead                | <ul><li>Provide input on telephony design during the Discovery phase.</li><li>Participate in planning during Envision phase workshops.</li><li>Coordinate the work of the telephony team during project execution.</li></ul>                                                                                                                           | TBA                                                  |
+| Desktop Lead                  | <ul><li>Provide input on clients and the update process during the Discovery phase.</li><li>Participate in planning during Envision phase workshops.</li><li>Coordinate the work of the desktop team during project execution.</li></ul>                                                                                                              | TBA                                                  |
+| Business Unit Representatives | <ul><li>Contribute to user-based adoption guides and materials.</li><li>Contribute to, and review, business use cases.</li></ul>                                                                                                                                   | TBA                                                  |
+| IT Admins                     | <ul><li>Assist with test planning and execution (this role is for IT pros).                                                                                                                       | TBA                                                  |
+| Service Owner                 | <ul><li>Be responsible for the operation of the Audio Conferencing service, all up.</li><li>Serve as owner of the Audio Conferencing service.</li></ul>                                                                                                               | TBA                                                  |
+| Test Lead/Manager             | <ul><li>Define the test plan, including activities, dependencies, environment, goals, strategy, resourcing (environmental and human), and the timeline required for supporting the testing phase.</li><li>Coordinate delivery and readiness for test plan dependencies.</li><li>Align with the right priority for defect resolution.</li><li>Serve as the escalation path for any testing issues that arise.</li><li>Communicate and report test plan status with internal teams and designated stakeholders.</li><li>Document and present final test results.</li></ul> | TBA                                                  |
+| Audio Conferencing Tester     | <ul><li>Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.</li><li>Review and develop test cases supporting audio conferencing acceptance and functionality requirements.</li><li>Execute test cases, and document test results.</li><li>Document defects as they arise and escalate them to the Test Lead for prioritization and resolution.</li><li>Test regressions to close out defects after defect resolution has been confirmed.</li></ul>                                                                | TBA                                                  |
+| Network Tester                | <ul><li>Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.</li><li>Review test cases supporting network readiness acceptance and performance requirements.</li><li>Execute testing related to network readiness, including network connectivity and performance validation, QoS validation, and split-tunnel configuration validation.</li><li>Complete bandwidth validation for sites in scope by using Network Planner through MyAdvisor.</li><li>Document network readiness testing results.</li><li>Document defects as they arise and escalate them to the Test Lead for prioritization and resolution.</li><li>Test regressions to close out defects after defect resolution has been confirmed.</li></ul>                                                                | TBA                                                  |
+| Security Tester               | <ul><li>Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.</li><li>Review and develop test cases supporting security acceptance requirements.</li><li>Execute testing related to security acceptance for test cases.</li><li>Document security acceptance testing results.</li><li>Document defects as they arise and escalate them to the Test Lead for prioritization and resolution.</li><li>Test regressions to close out defects after defect resolution has been confirmed.</li></ul>                                                                | TBA                                                  |
+| Telephony Tester              | <ul><li>Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.</li><li>Review test cases supporting service number porting acceptance and functionality requirements.</li><li>Execute testing related to service number porting, including service number port to Office 365.</li><li>Execute test cases, and document test case results.</li><li>Document defects as they arise and escalate them to the Test Lead for prioritization and resolution.</li><li>Test regressions to close out defects after defect resolution has been confirmed.</li></ul>                                                                | TBA                                                  |
+| Audio Conferencing Admin Test | <ul><li>Review the test plan to understand testing requirements, goals, timeline, issue resolution, and test cases to be executed.</li><li>Review and develop test cases supporting audio conferencing administration acceptance and functionality requirements.</li> <li>Execute test cases, and document test case results.</li><li>Document defects as they arise and escalate them to the Test Lead for prioritization and resolution.</li><li>Test regressions to close out defects after defect resolution has been confirmed.</li></ul>                                                                | TBA                                                  |
+
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which testing support and stakeholder roles you require for testing Audio Conferencing features in your environment.</li><li>Decide which resources you’ll assign for the testing support and stakeholder roles you’ve identified.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing support and stakeholder roles required in your Testing Support Stakeholder Matrix.</li><li>Document contact information and location details for each resource you list in the Testing Support Stakeholder Matrix.
+</table>
 
--   Serve as ultimate authority, and assume accountability, for Teams feature
-    testing objectives.
-
--   Help resolve issues escalated by the Testing Lead.
-
--   Sponsor communication within the company about testing goals.
-
--   Be responsible for making key strategic decisions.
-
--   Be responsible for ensuring the availability of required resources and
-    budget for supporting testing efforts.
-
--   Drive awareness and buy-in for the testing campaign with other key
-    stakeholders.
-
--   Serve as the testing sponsor during the test evaluation phase.
-
--   Assist in evangelizing strategic insight through driving buy-in across the
-    organization.
-
--   Coordinate partners and working teams engaged in the project.
-
--   Be accountable for creating and managing project plans to meet quarterly key
-    results.
-
--   Resolve cross-functional issues.
-
--   Provide regular updates to project sponsors.
-
--   Incorporate key user experience learnings identified in test results into
-    the overall user adoption plan.
-
--   Lead monthly business and operational reviews, contribute to quarterly
-    business reviews.
-
--   Analyze and choose collaboration products for the company that meet business
-    goals.
-
--   Be responsible for the design of the operations for collaboration products.
-
--   Define the operation and support models.
-
--   Contribute to monthly and quarterly business reviews.
-
--   Manage project deliverables in line with the project plan and budget.
-
--   Record and manage project issues, including escalations.
-
--   Conduct weekly standup calls.
-
--   Liaise with, and provide updates to, project executive sponsors.
-
--   Work with internal change management and communication teams to update the
-    change management approach and communication plans as needed.
-
--   Participate in planning during Envision phase workshops.
-
--   Coordinate the work of the networking team during project execution.
-
--   Participate in planning during Envision phase workshops.
-
--   Coordinate the work of the security team during project execution.
-
--   Participate in planning during Envision phase workshops.
-
--   Coordinate the work of the telephony team during project execution.
-
--   Participate in planning during Envision phase workshops.
-
--   Coordinate the work of the desktop team during project execution.
-
--   Contribute to, and review, business use cases.
-
--   Serve as owner of the Audio Conferencing service.
-
--   Coordinate delivery and readiness for test plan dependencies.
-
--   Align with the right priority for defect resolution.
-
--   Serve as the escalation path for any testing issues that arise.
-
--   Communicate and report test plan status with internal teams and designated
-    stakeholders.
-
--   Document and present final test results.
-
--   Review and develop test cases supporting audio conferencing acceptance and
-    functionality requirements.
-
--   Execute test cases, and document test results.
-
--   Document defects as they arise and escalate them to the Test Lead for
-    prioritization and resolution.
-
--   Test regressions to close out defects after defect resolution has been
-    confirmed.
-
--   Review test cases supporting network readiness acceptance and performance
-    requirements.
-
--   Execute testing related to network readiness, including network connectivity
-    and performance validation, QoS validation, and split-tunnel configuration
-    validation.
-
--   Complete bandwidth validation for sites in scope by using Network Planner
-    through MyAdvisor.
-
--   Document network readiness testing results.
-
--   Document defects as they arise and escalate them to the Test Lead for
-    prioritization and resolution.
-
--   Test regressions to close out defects after defect resolution has been
-    confirmed.
-
--   Review and develop test cases supporting security acceptance requirements.
-
--   Execute testing related to security acceptance for test cases.
-
--   Document security acceptance testing results.
-
--   Document defects as they arise and escalate them to the Test Lead for
-    prioritization and resolution.
-
--   Test regressions to close out defects after defect resolution has been
-    confirmed.
-
--   Review test cases supporting service number porting acceptance and
-    functionality requirements.
-
--   Execute testing related to service number porting, including service number
-    port to Office 365.
-
--   Execute test cases, and document test case results.
-
--   Document defects as they arise and escalate them to the Test Lead for
-    prioritization and resolution.
-
--   Test regressions to close out defects after defect resolution has been
-    confirmed.
-
--   Review and develop test cases supporting audio conferencing administration
-    acceptance and functionality requirements.
-
--   Execute test cases, and document test case results.
-
--   Document defects as they arise and escalate them to the Test Lead for
-    prioritization and resolution.
-
--   Test regressions to close out defects after defect resolution has been
-    confirmed
-
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide which testing support and stakeholder roles you require for testing Audio Conferencing features in your environment. |
-|------------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------|
-
-
-    -   Decide which resources you’ll assign for the testing support and
-        stakeholder roles you’ve identified.
-
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the testing support and stakeholder roles required in your Testing Support Stakeholder Matrix. |   |
-|------------------------------------------|------------|---------------------------------------------------------------------------------------------------------|---|
-
-
--   Document contact information and location details for each resource you list
-    in the Testing Support Stakeholder Matrix.
 
 Define Audio Conferencing feature requirements 
 -----------------------------------------------
