@@ -27,7 +27,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![](media/24de05b4dffa5f998d8ae4e286cff846.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
+![](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
 
 
 <table>
@@ -277,24 +277,38 @@ Now that you’re aware of upcoming changes to the Teams service, the next step 
 to prepare and plan accordingly. Assess each change to determine which changes
 require communication to users, awareness campaigns, training for support teams
 or users, or feature evaluation and adoption campaigns. This is the primary role
-of a change management team in your organization. Below is a sample table that
+of a change management team in your organization. Below is a collection of sample tables that
 can help you plan for change.
 
-[//]: # (This table needs to be redesigned.)
+[//]: # (The column span and row span in this table are lovely, but unsupported in Markdown, at least the rowspan is. This is as close as I could get. Maybe the whole thing needs redesigning.)
 
-| Feature: Cloud Recording (Release date: January 2018) |                              |                      |                                                                 |                        |
-|-------------------------------------------------------|------------------------------|----------------------|-----------------------------------------------------------------|------------------------|
-| Track                                                 | **Change readiness**         | **Notes/next steps** | **Owner**                                                       |                        |
-| General                                               | Legal review                 | Completed            | This feature is a prerequisite to onboarding the training team. | Project team           |
-| Technical change management                           | IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
-|                                                       | Technical readiness complete | Yes                  |                                                                 | Support team           |
-| User change management                                | User impact                  | Low                  |                                                                 |                        |
-|                                                       | User readiness required      | Yes                  |                                                                 |                        |
-|                                                       | Communications ready         | No                   | Communication email has been drafted—pending review.            | Communications Team    |
-|                                                       | Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
-| Status                                                | Release status               | in progress          | In progress, pending review by executive sponsor.               | Change Management Team |
-|                                                       | Release sign-off             |                      |                                                                 |                        |
-|                                                       | Release date                 |                      |                                                                 |                        |
+#### Feature: Cloud Recording (Release date: January 2018)
+
+**General track**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| Legal review   | Completed     | This feature is a prerequisite to onboarding the training team. | Project team  |
+
+**Technical change management**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
+| Technical readiness complete | Yes                  |                                                                 | Support team  
+         |
+**User change management** 
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| User impact                  | Low                  |                                                                 |                        |
+| User readiness required      | Yes                  |                                                                 |                        |
+| Communications ready         | No                   | Communication email has been drafted—pending review.            | Communications Team    |
+| Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
+
+**Status track**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| Release status               | in progress          | Pending review by executive sponsor.               | Change Management Team |
+| Release sign-off             |                      |                                                                 |                        |
+| Release date                 |                      |                                                                 |                        |
 
 For more information about planning for change management with Teams, see
 [Create a change management strategy for Microsoft
@@ -306,8 +320,7 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/change-management-strateg
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Monitor for change     | Monitor for upcoming changes to Microsoft Teams service.                                                                                                                                                                   | Daily     |               |
 | Planning for change    | Evaluate and plan for new features and capabilities, including communication plans, awareness campaigns, and training.                                                                                                     | As needed |               |
-| End user               | Perform targeted communication, awareness, or training campaigns to ensure users are ready for the upcoming change.                                                                                                        | As needed |               |
-| readiness              |                                                                                                                                                                                                                            |           |               |
+| User readiness             | Perform targeted communication, awareness, or training campaigns to ensure users are ready for the upcoming change.                                                                                                        | As needed |               |
 | Support team readiness | Perform targeted communication, awareness, or training campaigns to ensure the support team is ready. Support teams can include the “white glove” team, helpdesks, Tier 2 or Tier 3 support, external partners, and so on. | As needed |               |
 
 ### References 
@@ -476,7 +489,7 @@ based on the following ratings:
 -   From 1 through 6 are Detractors: Unhappy customers who can damage your
     service and impede growth.
 
-![](media/81b86c4bbe16acb49b9cf44e9d3a4aa0.png "This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.")
+![](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.")
 
 Although the base NPS number is useful, you’ll get the most value from analyzing
 user comments. They’ll help you understand why the user would (or wouldn’t)
@@ -530,41 +543,20 @@ be performed at regular intervals.
 | Monitor Office 365 IPs and URLs                                | Monitor any changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups.                                                                                                                                | Daily                  |               |
 | Update the network based on changes to Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)                                                                                                                                                              | As needed              |               |
 | Provide building data                                          | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the building definitions in CQD are kept up to date. [Building Data Schema](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information) | As needed              |               |
-| Implement change                                               | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:                                                                                                                                                                                                                                               | As needed              |               |
+| Implement change                                               | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>     | As needed              |               |
 | Network monitoring and reporting                               | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning.                                                                                                            | Daily, weekly, monthly |               |
 | Capacity planning                                              | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes. Leverage the results from the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to ensure that sufficient bandwidth is available for Microsoft Teams.                               | As needed              |               |
-| Network troubleshooting and remediation                        | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:                                                                                                                                                                              | As needed              |               |
+| Network troubleshooting and remediation                        | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>    | As needed              |               |
 | Disaster recovery and high availability testing                | Perform regular high availability and disaster recovery testing on the network infrastructure to ensure that it meets the stated service level objectives (SLOs) or service level agreements (SLAs) for the Teams service.                                                                                                                                                  | Monthly                |               |
 
--   Firewalls
-
--   VPNs
-
--   Wired and Wi-Fi networks
-
--   VPNs
-
--   Internet connectivity and ExpressRoute
-
--   DNS
-
--   Firewalls
-
--   VPNs
-
--   Wired and Wi-Fi networks
-
--   Internet connectivity and ExpressRoute
-
--   DNS
 
 ### References 
 
-Network Planner
+Network Planner [Provide Link]
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
-Building Data Schema
+Building Data Schema] [Provide Link?]
 
 ## Assess and ensure quality 
 
@@ -603,16 +595,9 @@ the Quality Experience Review Guide and associated training materials.
 | Perform Quality Experience Reviews     | Perform a Quality Experience Review (QER) to identify trends in quality and reliability, review against defined targets, and report out to key stakeholders in the organization.                                                                                                                            | Monthly (weekly during deployments) |               |
 | Drive remediation                      | Coordinate remediation efforts across the organization based on the QER assessments and findings.                                                                                                                                                                                                           | As needed                           |               |
 | Update building data in CQD            | Update or add new building definitions in CQD when changes are made to the network (see [Update Building Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)). | As needed                           |               |
-| Fill the Quality Champion(s) role      | End-to-end responsibility for quality in the organization. This includes:                                                                                                                                                                                                                                   | Daily                               |               |
+| Fill the Quality Champion(s) role      | End-to-end responsibility for quality in the organization. This includes:<ul><li>Ensure that the QER is being conducted regularly.</li><li>Report out to key stakeholders on quality status.</li><li>Ensure the building data definitions are up to date.</li><li>Coordinate remediation efforts across the organization to ensure that users have a high-quality experience with Teams.</li></ul>          | Daily                               |               |
 
--   Ensure that the QER is being conducted regularly.
 
--   Report out to key stakeholders on quality status.
-
--   Ensure the building data definitions are up to date.
-
--   Coordinate remediation efforts across the organization to ensure that users
-    have a high-quality experience with Teams.
 
 ### References 
 
