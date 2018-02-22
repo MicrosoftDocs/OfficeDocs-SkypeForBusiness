@@ -23,7 +23,9 @@ Use this guide to help you plan, implement, and adopt Microsoft Teams in your or
 
 ## Step 1: Get your people together
 
-Assemble a group of individuals from your business, IT, and user communities to act as the stakeholder and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
+Assemble a group of individuals from your business, IT, and user communities to act as the stakeholders and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
+
+Each group will bring key skills to the table though there is cross over between these generalizations.  IT professionals will often focus on the health, security and manageability of the experience while ensuring you have end to end cohesion across all your Office 365 services.  Business users will bring practical scenarios and business needs that provide valuable test cases.  Both perspectives are required to enable a successful test and broad deployment plan.    
 
 ## Step 2:  Prioritize your business scenarios
 
@@ -33,6 +35,12 @@ Collaboration and communication is about people! Pick the most relevant business
 **Plan Teams with Teams!** Customers who use Teams to plan their deployment ease the change curve for key stakeholders. Consider creating a team called Microsoft 365 Deployment and creating channels for the various workloads you want to deploy. Your team might look something like this:
 
 ![Screenshot of a sample Microsoft 365 Deployment team.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
+
+Watch this short video with simple guidance to consider when planning your teams, channels and tabs in Microsoft Teams. 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+If Microsoft Teams is not enabled in your Office 365 tenant and you are an Office 365 administrator follow the instructions in our article [Set up Microsoft Teams in your Office 365 organization](office-365-set-up.md) to ensure your users have access to the application.
 
 ## Step 3: Complete technical planning
 
