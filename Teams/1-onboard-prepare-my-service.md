@@ -1,20 +1,18 @@
 # Prepare my service
 
-## Onboarding checklist for Microsoft Teams voice workloads
+## Onboarding checklists for Microsoft Teams voice workloads
 
-The provided checklists walk you through the steps for implementing Audio
+The following checklists walk you through the steps for implementing Audio
 Conferencing and Phone System with Calling Plans capabilities in Microsoft
 Teams.
 
-Onboarding Checklists
+*  [Prepare Office 365 for Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365)
 
-1.  Prepare Office 365 for Teams [Provide Link]
+*  [Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities)
 
-2.  Configure Teams core capabilities [Provide Link]
+*  [Configure networking](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)
 
-3.  Configure networking [Provide Link]
-
-4.  Configure cloud voice workloads in Teams [Provide Link]
+*  [Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams)
 
 The tasks and activities in these checklists are the core “to-do” items that
 apply to every deployment of cloud voice capabilities with Teams. You can
@@ -42,7 +40,7 @@ migrating from Skype for Business Online, you might have already completed some
 of these activities and can ignore them now.
 
 When you’re onboarding users on a per-site basis, we highly recommended that you
-use the Site Enablement Playbook for Microsoft Teams [Provide Link]as a
+use the Site Enablement Playbook for Microsoft Teams [Provide Link] as a
 supplementary guide to these checklists.
 
 >[!NOTE]
@@ -190,10 +188,7 @@ sites in scope:**
 </table>
 
 
-Additional detailed guidance on how to perform testing for Audio
-Conferencing in Teams can be found in the detailed testing guide available here [Provide
-Link].
+For additional detailed guidance on how to perform testing for Audio Conferencing in Teams, see the [detailed testing guide for Audio Conferencing]  (https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Audio-Conferencing).
 
-Additional detailed guidance on how to perform testing for Phone System
-with Calling Plans in Teams can be found in the detailed testing guide available here
-[Provide Link].
+For additional detailed guidance on how to perform testing for Phone System
+with Calling Plans in Teams, see the [detailed testing guide for Phone System](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Phone-System).
