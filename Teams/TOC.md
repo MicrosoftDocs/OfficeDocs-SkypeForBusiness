@@ -60,9 +60,20 @@
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
 
-# [Cloud voice](cloud-voice-deployment.md)
-## [Audio Conferencing](audio-conferencing.md)
-## [Phone System with Calling Plans](phone-system-with-calling-plans.md)
+# Cloud Voice
+##  [Define My Success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
+##  [Make My Service Decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
+##  [Define My Success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
+##  [Make My Service Decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+##  [Evaluate My Environment](3-envision-evaluate-my-environment.md)
+##  [Plan My Service Management](4-envision-plan-my-service-management.md)
+##  [Plan My Users Experience](5-envision-plan-my-users-experience.md)
+##  [Document My Success Plan](6-envision-document-my-success-plan.md)
+##  [Prepare My Service](1-onboard-prepare-my-service.md)
+##  [Prepare My Users](2-onboard-prepare-my-users.md)
+##  [Deploy My Service](3-onboard-deploy-my-service.md)
+##  [Operate My Service](1-drive-value-operate-my-service.md)
+##  [Enhance My Service](2-drive-value-enhance-my-service.md)
 ## Calling Plans
 ### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
