@@ -138,7 +138,8 @@ After you’ve selected the devices, include them in the pilot test plan for fin
 validation. Leverage surveys during the pilot to collect feedback to ensure your
 device strategy is optimal.
 
-[!NOTE] At this time, we recommend using audio devices that were certified
+> [!NOTE]
+> At this time, we recommend using audio devices that were certified
 through the Skype for Business Certification program. To find devices certified
 under this program, see the [USB Devices Certified for Skype for
 Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
