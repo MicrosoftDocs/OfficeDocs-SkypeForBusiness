@@ -23,9 +23,11 @@ Use this guide to help you plan, implement, and adopt Microsoft Teams in your or
 
 ## Step 1: Get your people together
 
-Assemble a group of individuals from your business, IT, and user communities to act as the stakeholder and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
+Assemble a group of individuals from your business, IT, and user communities to act as the stakeholders and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
 
-## Step 2:  Prioritize your business scenarios
+Each group will bring key skills to the table, though there is cross over between these generalizations. IT professionals will often focus on the health, security, and manageability of the experience while ensuring you have end-to-end cohesion across all your Office 365 services. Business users will bring practical scenarios and business needs that provide valuable test cases. Both perspectives are required for a successful test and broad deployment plan.    
+
+## Step 2: Prioritize your business scenarios
 
 Collaboration and communication is about people! Pick the most relevant business scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your company. Successful Teams deployments often center around high-velocity teams that work closely together, such as product development, marketing event teams, finance groups, or support organizations. Select one of these scenarios and complete a quick inventory of how these users work today so you can effectively design the Teams experience in a meaningful way for these people.
 
@@ -34,16 +36,22 @@ Collaboration and communication is about people! Pick the most relevant business
 
 ![Screenshot of a sample Microsoft 365 Deployment team.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
+Watch this short video with simple guidance to consider when planning your teams, channels and tabs in Microsoft Teams. 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+If Microsoft Teams is not enabled in your Office 365 tenant and you are an Office 365 administrator follow the instructions in our article [Set up Microsoft Teams in your Office 365 organization](office-365-set-up.md) to ensure your users have access to the application.
+
 ## Step 3: Complete technical planning
 
-Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
+Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment, and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
 
 1.	[Check your environment's readiness for Teams](environment-readiness.md)
 2.	[Prepare your network for Teams](prepare-network.md)
 3.	[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 4.	[Guest access in Teams](guest-access.md)
 
-In addition, certain organizations may want to review [Overview of security and compliance in Teams.](security-compliance-overview.md)
+In addition, some rganizations may want to review [Overview of security and compliance in Teams](security-compliance-overview.md).
 
 
 ## Step 4: Conduct pilots and deploy Teams
