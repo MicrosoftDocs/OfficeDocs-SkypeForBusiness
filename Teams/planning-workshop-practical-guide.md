@@ -20,11 +20,11 @@ Download these tools to walk you through planning, delivering, and operating Tea
 
 - [Microsoft Teams getting started kit](http://microsoft.com/download/56505) 
     
-    In this guide, you’ll find tips to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
+    This kit contains a wide range of presentations, email templates, posters, and guides that you can use to roll out Teams in your organization. Use these tools to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
 
 
 
-- [Quick start guide: Successfully enable Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
     This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment. This information lets the workshop leader customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
 
