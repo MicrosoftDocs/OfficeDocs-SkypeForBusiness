@@ -20,7 +20,7 @@ Download these tools to walk you through planning, delivering, and operating Tea
 
 - [Microsoft Teams getting started kit](http://microsoft.com/download/56505) 
     
-    This kit contains a wide range of presentations, email templates, posters, and guides that you can use to roll out Teams in your organization. Use these tools to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
+    This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out Teams in your organization. It includes two quick start guides - one for IT admins, one for team leaders. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
 
 
 
