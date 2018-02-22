@@ -26,12 +26,11 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
-To learn more about apps, see the following video: 
+To learn more about admin settings for apps, see the following video: 
  
 |  |  |
 |---------|---------|
-
- Tech Tip: Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>   
+| Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 ## Allow external apps in Teams
 
