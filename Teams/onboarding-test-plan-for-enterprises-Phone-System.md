@@ -169,7 +169,7 @@ TTY support
 
 -   CallingDefaultClient: Default
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide which Phone System with Calling Plans category features you’ll deploy in your environment. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide which Phone System with Calling Plans category features you’ll deploy in your environment. |
 |------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------|
 
 
@@ -182,7 +182,7 @@ TTY support
             -   Review the latest Teams public roadmap and decide whether
                 current workload capabilities meet your deployment timeline.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment. |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment. |   |   |   |
 |------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 
 
@@ -264,11 +264,11 @@ typically includes:
 | Phone System with Calling Plans site readiness                                                                                                                                                                                    | Phone System with Calling Plans user experience                                                                                                                                                                                         | Phone System with Calling Plans administration experience                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Network Planner bandwidth planning (via MyAdvisor) Network connectivity and performance validation (via the Skype for Business network assessment tool) Quality of service (QoS) validation Remote access split-tunnel validation | PBX features PSTN calling (domestic and international) Placing and receiving PSTN calls Azure Voicemail E911 Tenant Dial Plan Tenant Caller ID masking Advanced call control features (for example, call forwarding, simultaneous ring) | Licensing assignment Subscriber number porting to Office 365 Phone System with Calling Plans reporting Call quality reporting (CQD) |
-| [./media/image1.jpg](./media/image1.jpg)                                                                                                                                                                                          | Decision points                                                                                                                                                                                                                         | Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.                     |
+| ![](media/audio_conferencing_image7.png)                                                                                                                                                                                          | Decision points                                                                                                                                                                                                                         | Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.                     |
 
 -   Decide additional goals and objectives for evaluation.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the Phone System with Calling Plans features to be evaluated by focus area. |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the Phone System with Calling Plans features to be evaluated by focus area. |   |
 |------------------------------------------|------------|--------------------------------------------------------------------------------------|---|
 
 
@@ -353,7 +353,7 @@ Phone System with Calling Plans Validation
 >   Plan](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide which Phone System with Calling Plans administration and user features will be evaluated. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide which Phone System with Calling Plans administration and user features will be evaluated. |
 |------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------|
 
 
@@ -363,7 +363,7 @@ Phone System with Calling Plans Validation
 
         -   Decide the resources required for proper execution of the test.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the test cases to be evaluated, based on the test case template provided. |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the test cases to be evaluated, based on the test case template provided. |   |   |   |
 |------------------------------------------|------------|------------------------------------------------------------------------------------|---|---|---|
 
 
@@ -404,7 +404,7 @@ At a high level, these resources typically consist of:
 
 -   Domestic and International Calling Plan Assigned
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide the resource types (people, technology, and support) that you’ll need to support the testing phase. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide the resource types (people, technology, and support) that you’ll need to support the testing phase. |
 |------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------|
 
 
@@ -414,7 +414,7 @@ At a high level, these resources typically consist of:
         -   Decide whether you should provide further detail to describe the
             types of resources that you need.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the resource types (people, technology, and support) that you’ll need to support the testing phase. |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the resource types (people, technology, and support) that you’ll need to support the testing phase. |   |   |
 |------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|---|---|
 
 
@@ -465,7 +465,7 @@ At a high level, this typically consists of:
 | Test Report                                          | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
 | Test Case Execution: Phone System with Calling Plans | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
 | Test Case Execution: Network Readiness               | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
-| [./media/image1.jpg](./media/image1.jpg)             | Decision points | Decide timeline activity, milestone, and tasks that you need to track. |                 |       |                    |            |
+| ![](media/audio_conferencing_image7.png)             | Decision points | Decide timeline activity, milestone, and tasks that you need to track. |                 |       |                    |            |
 
 -   Decide which resources you’ll need to assign.
 
@@ -476,7 +476,7 @@ At a high level, this typically consists of:
             -   Decide how much time it will take to complete the activity,
                 milestone, or task.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document your testing timeline by using the template provided, and include: |   |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document your testing timeline by using the template provided, and include: |   |   |   |   |
 |------------------------------------------|------------|-----------------------------------------------------------------------------|---|---|---|---|
 
 
@@ -553,12 +553,12 @@ evaluation process.
 | Defect ID                                | Test case ID impacted | Defect description                                                                                 | Environment /steps to reproduce                                                                                                | Severity | Status | Submitted by | Assigned owner | Supporting details (logs, screenshots, and so on) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
 | 1                                        | 1                     | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | In the Teams client, select the dial pad, enter a four-digit extension and select the phone icon to attempt to place the call. | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log Teams client screenshot     |
-| [./media/image1.jpg](./media/image1.jpg) | Decision points       | Decide which defect criteria severity levels you’ll assign to support the testing effort.          |                                                                                                                                |          |        |              |                |                                                   |
+| ![](media/audio_conferencing_image7.png) | Decision points       | Decide which defect criteria severity levels you’ll assign to support the testing effort.          |                                                                                                                                |          |        |              |                |                                                   |
 
 -   Decide what testing defect reporting criteria you’ll document if issues
     arise during testing.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the testing defect reporting criteria required in the template provided. |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the testing defect reporting criteria required in the template provided. |   |
 |------------------------------------------|------------|-----------------------------------------------------------------------------------|---|
 
 
@@ -590,7 +590,7 @@ phase.
 -   All defects identified as High severity must be resolved before testing can
     continue
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide on suspension criteria that must be met if issues with testing are identified. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide on suspension criteria that must be met if issues with testing are identified. |
 |------------------------------------------|-----------------|---------------------------------------------------------------------------------------|
 
 
@@ -598,7 +598,7 @@ phase.
         sign-off and support exiting the testing phase after all testing
         activities are complete.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document the testing exit and suspension criteria required in the test and exit templates provided |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document the testing exit and suspension criteria required in the test and exit templates provided |   |
 |------------------------------------------|------------|----------------------------------------------------------------------------------------------------|---|
 
 
@@ -659,7 +659,7 @@ Typically, a defect report and remediation plan includes the following:
 | Defect ID                                | Defect description                                                                                 | Defect priority assessment                                           | Assigned defect owner | Assigned defect escalation point | Defect escalation method                                          | Defect status | Required resolution by date | Status date |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
 | 1                                        | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | Medium                                                               | Lisa Gray             | Louis Lahr                       | Weekly Triage Review High-priority email to affected stakeholders | Open          | ASAP                        | 1/12/2018   |
-| [./media/image1.jpg](./media/image1.jpg) | Decision points                                                                                    | Decide and agree on the defect priorities to support your test plan. |                       |                                  |                                                                   |               |                             |             |
+| ![](media/audio_conferencing_image7.png) | Decision points                                                                                    | Decide and agree on the defect priorities to support your test plan. |                       |                                  |                                                                   |               |                             |             |
 
 -   Decide the escalation point for each defect area.
 
@@ -671,7 +671,7 @@ Typically, a defect report and remediation plan includes the following:
 
             -   Decide the defect triage review meeting cadence.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document defect priorities agreed to. |   |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document defect priorities agreed to. |   |   |   |   |
 |------------------------------------------|------------|---------------------------------------|---|---|---|---|
 
 
@@ -714,7 +714,7 @@ At a high level, these typically include, but aren’t limited to:
 | Defect management reports                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Testing status reports                   | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Test results summary                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| [./media/image1.jpg](./media/image1.jpg) | Decision points              | Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its: |                                |                                |                                     |
+| ![](media/audio_conferencing_image7.png) | Decision points              | Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its: |                                |                                |                                     |
 
 -   Format
 
@@ -724,7 +724,7 @@ At a high level, these typically include, but aren’t limited to:
 
             -   Approver
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document a test plan deliverable creation and delivery matrix. |   |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document a test plan deliverable creation and delivery matrix. |   |   |   |   |
 |------------------------------------------|------------|----------------------------------------------------------------|---|---|---|---|
 
 
@@ -767,13 +767,13 @@ Teams through the Network Planner, see MyAdvisor: Network Planner.
 >   [Recommendations
 >   Overview](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp).
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide which network sites are in scope for deployment of Teams services. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide which network sites are in scope for deployment of Teams services. |
 |------------------------------------------|-----------------|---------------------------------------------------------------------------|
 
 
 -   Decide the personas required for Teams modalities in scope.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope. |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope. |   |
 |------------------------------------------|------------|-------------------------------------------------------------------------------------------|---|
 
 
@@ -807,9 +807,9 @@ For additional guidance on how to configure, deploy, and validate QoS network
 readiness for Teams by using Group Policy, see [Enabling QoS for
 Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network).
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide on the QoS configuration to be implemented. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide on the QoS configuration to be implemented. |
 |------------------------------------------|-----------------|----------------------------------------------------|
-| [./media/image2.jpg](./media/image2.jpg) | Next steps      | Configure QoS.                                     |
+| ![](media/audio_conferencing_image9.png) | Next steps      | Configure QoS.                                     |
 
 -   Execute QoS validation as outlined from steps listed via the “validate via
     GPO” and “validate via Message Analyzer” sections above
@@ -846,9 +846,9 @@ matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedI
 from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and
 highlight additional areas that require remediation.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized. |
 |------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
-| [./media/image2.jpg](./media/image2.jpg) | Next steps      | Document QoS test results in the test plan result template provided.                                             |
+| ![](media/audio_conferencing_image9.png) | Next steps      | Document QoS test results in the test plan result template provided.                                             |
 
 -   Execute escalation and remediation plans to resolve issues where QoS might
     not be properly configured or isn’t working as expected to support Teams
@@ -886,9 +886,9 @@ Readiness.
 >   marketplace, this document can’t provide vendor-specific details, just
 >   general guidelines for what should be configured on remote access solutions.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide the split-tunnel configuration to implement. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide the split-tunnel configuration to implement. |
 |------------------------------------------|-----------------|-----------------------------------------------------|
-| [./media/image2.jpg](./media/image2.jpg) | Next steps      | Implement split-tunnel configuration.               |
+| ![](media/audio_conferencing_image9.png) | Next steps      | Implement split-tunnel configuration.               |
 
 -   Test and validate the split-tunnel configuration
 
@@ -915,8 +915,8 @@ steering committee review.
 | Issue: TBD                               | Remediation: TBD |                                                                                                                                 |
 | Blockers identified                      |                  |                                                                                                                                 |
 | Blocker: TBD                             | Remediation: TBD |                                                                                                                                 |
-| [./media/image1.jpg](./media/image1.jpg) | Decision points  | Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution. |
-| [./media/image2.jpg](./media/image2.jpg) | Next steps       | Document split-tunnel connectivity test results in the test plan result template provided.                                      |
+| ![](media/audio_conferencing_image7.png) | Decision points  | Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution. |
+| ![](media/audio_conferencing_image9.png) | Next steps       | Document split-tunnel connectivity test results in the test plan result template provided.                                      |
 
 -   Execute escalation and remediation plans to resolve issues where proper
     routing might not exist for supporting Teams media within a split-tunnel
@@ -950,14 +950,14 @@ Readiness.
 >   designate a lead for each site who can assist with your network readiness
 >   evaluation efforts.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide the network assessment and connectivity testing profile for sites in scope. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide the network assessment and connectivity testing profile for sites in scope. |
 |------------------------------------------|-----------------|------------------------------------------------------------------------------------|
 
 
 -   Decide network assessment configuration file requirements for sites in
     scope.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Configure network assessment configuration file requirements for sites in scope. |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Configure network assessment configuration file requirements for sites in scope. |   |
 |------------------------------------------|------------|----------------------------------------------------------------------------------|---|
 
 
@@ -998,8 +998,8 @@ during the next steering committee review.
 | **Issue**: High packet reorder                                | **Remediation:** Investigate router queueing and bandwidth.                                                       |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 | Blockers identified                                           |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 | Blocker: TBD                                                  | Remediation: TBD                                                                                                  |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| [./media/image1.jpg](./media/image1.jpg)                      | Decision points                                                                                                   | Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments. |                                          |                                           |                                          |                                         |
-| [./media/image2.jpg](./media/image2.jpg)                      | Next steps                                                                                                        | Document network performance and connectivity test results.                                                                                                                                                                                                                                                                               |                                          |                                           |                                          |                                         |
+| ![](media/audio_conferencing_image7.png)                      | Decision points                                                                                                   | Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments. |                                          |                                           |                                          |                                         |
+| ![](media/audio_conferencing_image9.png)                      | Next steps                                                                                                        | Document network performance and connectivity test results.                                                                                                                                                                                                                                                                               |                                          |                                           |                                          |                                         |
 
 -   Have you evaluated network capabilities for supporting real-time media for
     all sites in scope?
@@ -1070,8 +1070,7 @@ invoice from your current service provider.
 Download and create a Letter of Authorization (LOA) for your country/region
 that’s based on “service Number” as the number porting type.
 
->   **Note**
-
+>[!NOTE]
 >   Because LOA formats can differ by country, region, or number type (that is
 >   geographic versus non-geographic or user number versus service or toll-free
 >   number), verify that you’re using the correct LOA template for your specific
@@ -1080,25 +1079,19 @@ that’s based on “service Number” as the number porting type.
 >   for more information about choosing the LOA, or go directly to the [download
 >   page](https://www.microsoft.com/en-us/download/details.aspx?id=49167).
 
->   **Note**
-
->   \*\*United States only\*\*
-
+>[!NOTE]
+> **United States only**<br/>
 >   Because we’re only porting one service number for this test, be sure to
 >   select the appropriate fields in the LOA as shown below:
 
-| [./media/image3.png](./media/image3.png) |
-|------------------------------------------|
+![](media/onboarding-test-plan-image1.png "How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.")
 
+![](media/onboarding-test-plan-image2.png "What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.")
 
-![Under "how many phone numbers will you be transferring?" the option "I am only transferring some of my numbers from my current carrier" is selected. Under "what kind of phone numbers will you be transferring?" the option "I am transferring voice service phone numbers like for auto attendants" is selected.](media/c147e7d881b8de9590ef52bc4f089378.png)
-
->   **Important**
-
+>[!IMPORTANT]
 >   When you manually port phone numbers by using an LOA, make sure you select
 >   the correct type of phone number. You must submit separate port orders for
->   each type of phone number you want to transfer.
-
+>   each type of phone number you want to transfer.<br/><br/>
 >   Because we want to test the number porting process by using a phone number
 >   associated with the same billing telephone number (BTN), you need to ensure
 >   that the billing telephone number is *not* included with the specific phone
@@ -1144,7 +1137,7 @@ From an external PSTN number, place a call to the subscriber number you ported
 to Office 365 and verify that the call is received inbound and connected via the
 Teams client.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide which domestic subscriber numbers you’ll need to port, by country/region. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide which domestic subscriber numbers you’ll need to port, by country/region. |
 |------------------------------------------|-----------------|----------------------------------------------------------------------------------|
 
 
@@ -1153,7 +1146,7 @@ Teams client.
     -   Determine whether your current carrier (losing carrier) allows phone
         number fragmentation (that is, allows partial-port orders).
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Collect the required information and prepare the LOAs. |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Collect the required information and prepare the LOAs. |   |   |
 |------------------------------------------|------------|--------------------------------------------------------|---|---|
 
 
@@ -1196,14 +1189,14 @@ summarizes test results to present during the next steering committee review.
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to
 >   document and highlight additional test areas that require remediation.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service. |
 |------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
 
 
 -   Evaluate whether you were able to assign the ported service number to the
     Phone System with Calling Plans service.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document your number porting test results. |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document your number porting test results. |   |
 |------------------------------------------|------------|--------------------------------------------|---|
 
 
@@ -1272,8 +1265,8 @@ unforeseen issues arise.
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | Test case ID                             | Test case title              | Test case description                                                                      | Test case results summary | Assigned defect ID (if applicable)                                         |
 | 1                                        | Placing outbound PSTN calls. | Place an outbound call by dialing a domestic 10-digit number.                              |                           | When a user enters a four-digit number, the call placed to the PSTN fails. |
-| [./media/image1.jpg](./media/image1.jpg) | Decision points              | Evaluate high-level test case pass/fail status by site for phone system features in scope. |                           |                                                                            |
-| [./media/image2.jpg](./media/image2.jpg) | Next steps                   | Document the test case status results for all test cases completed in scope.               |                           |                                                                            |
+| ![](media/audio_conferencing_image7.png) | Decision points              | Evaluate high-level test case pass/fail status by site for phone system features in scope. |                           |                                                                            |
+| ![](media/audio_conferencing_image9.png) | Next steps                   | Document the test case status results for all test cases completed in scope.               |                           |                                                                            |
 
 -   Schedule a steering committee meeting to review test summary results.
 
@@ -1313,9 +1306,9 @@ Calling Plans services in the pilot phase.
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to
 >   document and highlight additional areas that require remediation.
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Evaluate high-level test summary results by site for phone system features in scope.   |
+| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate high-level test summary results by site for phone system features in scope.   |
 |------------------------------------------|-----------------|----------------------------------------------------------------------------------------|
-| [./media/image2.jpg](./media/image2.jpg) | Next steps      | Document the test case summary report after all test case results have been completed. |
+| ![](media/audio_conferencing_image9.png) | Next steps      | Document the test case summary report after all test case results have been completed. |
 
 -   Schedule a steering committee meeting to review test summary results
 
@@ -1354,7 +1347,7 @@ testing stakeholders. At the meeting, address:
 
 -   All tests passed
 
-| [./media/image1.jpg](./media/image1.jpg) | Decision points | Decide the testing status summary. |
+| ![](media/audio_conferencing_image7.png) | Decision points | Decide the testing status summary. |
 |------------------------------------------|-----------------|------------------------------------|
 
 
@@ -1364,7 +1357,7 @@ testing stakeholders. At the meeting, address:
 
             -   Decide which remediation actions remain, if any.
 
-| [./media/image2.jpg](./media/image2.jpg) | Next steps | Document test summary results to include: |   |   |   |
+| ![](media/audio_conferencing_image9.png) | Next steps | Document test summary results to include: |   |   |   |
 |------------------------------------------|------------|-------------------------------------------|---|---|---|
 
 
