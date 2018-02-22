@@ -30,7 +30,8 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     -   Channels can be extended with Apps that include Tabs, Connectors, and Bots that increase their value to the members of the team.
     
 Take five minutes to hear the best practices for organizing teams, channels and tabs in this video:
-
+|  |  |
+|---------|---------|
 | 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md)). Users of an existing Office 365 Group can also enhance them with Microsoft Teams functionality.
