@@ -79,7 +79,7 @@ Teams uses audio and video technology (codecs) that can adapt to—and therefore
 perform better under—most network conditions. To ensure optimal and consistent
 performance, you should prepare your network for Teams.
 
-![](media/4622d93a62f2517e1b071d6ff6b0648f.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.")
+![](media/evaluate-my-environment-image1.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.")
 
 ## Key takeaways
 
