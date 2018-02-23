@@ -111,6 +111,6 @@ schedule.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide if the Site Enablement Playbook is required for your deployment.</li><li>Decide who will be responsible for customizing the Site Enablement Playbook for Microsoft Teams for every site you'll deploy.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Site Enablement Playbook.</li><li>Customize the Site Enablement Playbook for your first site.</li><li>Repeat as needed for additional sites.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide if the Site Enablement Playbook is required for your deployment.</li><li>Decide who will be responsible for customizing the Site Enablement Playbook for Microsoft Teams for every site you'll deploy.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Site Enablement Playbook.</li><li>Customize the Site Enablement Playbook for your first site.</li><li>Repeat as needed for additional sites.</li></ul></td></tr>
 </table>
