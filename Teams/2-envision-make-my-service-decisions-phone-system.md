@@ -56,7 +56,7 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 ##Phone numbers and emergency locations
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review “Managing cloud voice telephone numbers, [Provide Link]” to plan the phone number acquisition for your Calling Plans implementation.
+With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
 
 When you’re configuring phone numbers for Calling Plans, you must assign an emergency address to each telephone number before you assign the number to a user. This is required to support emergency calling. The emergency address must be validated to ensure that it’s in the correct format to be used by emergency response services.
 
