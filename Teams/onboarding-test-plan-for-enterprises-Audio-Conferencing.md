@@ -99,65 +99,22 @@ interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbu
 > can use to document the Audio Conferencing administration and user group
 > features to be evaluated.
 
-| Enterprise-grade                          | Collaborative meetings                                                                                                                                                            | Platform and devices                                                                                  | IT pro                                                                                                | Additional business group, site-specific                                                                                                                  | Requirements met by latest Teams roadmap |
-|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Schedule Audio Conferencing meetings via: | Meeting lifecycle management pre/during/post meeting Desktop sharing Conversations Immersive meeting experiences Application sharing Give/take control within application sharing | Windows, Mac Teams Client Meetings feature support Browser Teams client meetings feature support for: | Call quality diagnostic portal Tenant Audio Conferencing policies Enable call quality analytics (CQD) | Validate Teams meeting features based on corporate laptop image Specific language support GPO settings applied for a given user scenario or specific site | Yes                                      |
-
--   Outlook scheduling Add-in
-
--   Teams client
-
-Hosting channel and private meetings
-
-Hosting meetings with up to 80 attendees
-
-Audio conferencing capability
-
-Anonymous join
-
-Lobby support
-
-Participant management
-
-Mute other participants
-
-Device management via Teams client
-
--   Chrome
-
--   Microsoft Edge
-
-iOS and Android Teams client meetings feature support
+| Enterprise-grade   | Collaborative meetings    | Platform and devices   | IT pro  | Additional business group, site-specific  | Requirements met by latest Teams roadmap |
+|-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
+| <ul><li>Schedule Audio Conferencing meetings via:<ul><li>Outlook scheduling Add-in</li><li>Teams client</li></ul></li><li>Hosting channel and private meetings</li><li>Hosting meetings with up to 80 attendees</li><li>Audio conferencing capability</li><li>Anonymous join</li><li>Lobby support</li><li>Participant management</li><li>Mute other participants</li><li>Device management via Teams client</li></ul> |<ul><li>Meeting lifecycle management pre/during/post meeting</li><li>Desktop sharing</li><li>Conversations</li><li>Immersive meeting experiences</li><li>Application sharing</li><li>Give/take control within application sharing</li></ul> |<ul><li> Windows, Mac Teams client meetings feature support</li><li>Browser Teams client meetings feature support for:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>iOS and Android Teams client meetings feature support</li></ul> | <ul><li>Call quality diagnostic portal</li><li>Tenant Audio Conferencing policies</li><li>Enable call quality analytics (CQD)</li></ul> | <ul><li>Validate Teams meeting features based on corporate laptop image</li><li>Specific language support</li><li>GPO settings applied for a given user scenario or specific site</li></ul> | Yes  |
 
 #### Audio Conferencing user functionality definition
 
 > [!TIP]
-
 > Below is an example of a user functionality template that you can use to
 > document the user experience required based upon the Audio Conferencing
 > features to be evaluated.
 
 | Exchange experience                          | SharePoint experience                            | Teams interoperability policy experience |
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
-| Create teams (Office Group creation enabled) | Store and share files within Teams conversations | ChatDefaultClient: Default               |
+| <ul><li>Create teams (Office Group creation enabled)</li><li>Join teams</li><li>Create channels</li><li>Create and view meetings</li><li>Modify user profile picture</li><li>Add and configure connectors</li><li>Add and configure tabs</li><li>Add and configure bots</li></ul> | <ul><li>Store and share files within Teams conversations</li><li>Store and share and files within private chats (based on OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Default</li><li>CallingDefaultClient: Default</li></ul>      |
 
--   Join teams
-
--   Create channels
-
--   Create and view meetings
-
--   Modify user profile picture
-
--   Add and configure connectors
-
--   Add and configure tabs
-
--   Add and configure bots
-
--   Store and share and files within private chats (based on OneDrive)
-
--   CallingDefaultClient: Default
+ 
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Decide which Audio Conferencing category features you’ll deploy in your environment.</li><li>Identify your user audio conferencing functionality requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Decide which Teams interoperability experience you’ll deploy.</li><li>Review the latest Teams public roadmap and decide whether current workload capabilities meet your deployment timeline.</li></ul></td></tr>
@@ -231,7 +188,7 @@ includes:
 
 | Audio Conferencing site readiness                                                                                                                                                                                                 | Audio Conferencing user experience                                                   | Audio Conferencing administration experience                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Network Planner bandwidth planning (via MyAdvisor) Network connectivity and performance validation (via the Skype for Business network assessment tool) Quality of service (QoS) validation Remote access split-tunnel validation | Scheduling dial-in conferencing Join meeting from PSTN Add attendees via PSTN number | Licensing assignment Service number management Service number porting to Office 365 Audio Conferencing reporting Call quality reporting (CQD) |
+| <ul><li>Network Planner bandwidth planning (via MyAdvisor)</li><li>Network connectivity and performance validation (via the Skype for Business network assessment tool)</li><li> Quality of service (QoS) validation</li><li>Remote access split-tunnel validation</li></ul> |<ul><li>Scheduling dial-in conferencing</li><li> Join meeting from PSTN</li><li>Add attendees via PSTN number</li></ul> |<ul><li>Licensing assignment</li><li>Service number management</li><li>Service number porting to Office 365</li><li>Audio Conferencing reporting</li><li>Call quality reporting (CQD)</li></ul> |
 
 
 <table>
@@ -273,9 +230,9 @@ include:
 > practicality, to support overall testing manageability.
 
 > [!TIP]
-> To assist with test-case creation as a starting point, see the list of audio
-> conferencing user guidance available at [Teams Meetings and
-> calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
+> To assist with test-case creation as a starting point, see the list of Audio
+> Conferencing user guidance available at [Teams Meetings and
+> calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 #### Audio Conferencing test case
 
@@ -287,21 +244,8 @@ Audio Conferencing Validation
 
 | Test case ID | Test case title                             | Test case description                                                                       | Environment required for test case execution                                               | Steps required for test case execution                                                                                                                                             | Testing resource required |
 |--------------|---------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| 1            | Schedule a Teams audio conferencing meeting | Schedule an online meeting and verify the conference bridge is displayed in the invitation. | 1. Teams client installed 2. User enabled with the following Office 365 licenses assigned: | 1. Sign in to the Teams client.                                                                                                                                                    | Audio Conferencing Tester |
-|              |                                             |                                                                                             |                                                                                            | 2. Open Outlook and schedule a new Teams meeting.                                                                                                                                  |                           |
-|              |                                             |                                                                                             |                                                                                            | 3. Verify the new meeting invitation displays the Microsoft bridge number displayed in the tenant.                                                                                 |                           |
+| 1            | Schedule a Teams audio conferencing meeting | Schedule an online meeting and verify the conference bridge is displayed in the invitation. |<ul><li>Teams client installed</li><li>User enabled with the following Office 365 licenses assigned:<ul><li>Office Enterprise E5 with Audio Conferencing and Microsoft Teams</li><li>Office Enterprise E3 with Audio Conferencing and Microsoft Teams</li></ul></li></ul> |<ol><li>Sign in to the Teams client.</li><li>Open Outlook and schedule a new Teams meeting.</li><li>Verify the new meeting invitation displays the Microsoft bridge number displayed in the tenant.</li></ol>      | Audio Conferencing Tester |
 
--   Office Enterprise E5 with:
-
--   Audio Conferencing
-
--   Microsoft Teams
-
--   Office Enterprise E3 with:
-
--   Audio Conferencing
-
--   Microsoft Teams
 
 > [!TIP]*
 > For additional guidance in facilitating individual test case and overall
@@ -346,12 +290,10 @@ At a high level, these resources typically consist of:
 | Resource type | Resources required                                           | Resource description |
 |---------------|--------------------------------------------------------------|----------------------|
 | People        | Stakeholders Test Lead Testers                               | TBD                  |
-| Technology    | Access to Office 365 with the following services enabled:    | TBD                  |
+| Technology    | Access to Office 365 with the following services enabled:<ul><li>Office 365 E5 Licensing Assigned</li><li>Domestic and International Calling Plan Assigned</li></ul>    | TBD                  |
 | Support       | Test administrator Test support lead Test support technician | TBD                  |
 
--   Office 365 E5 Licensing Assigned
-
--   Domestic and International Calling Plan Assigned
+   
 
 
 <table>
@@ -359,7 +301,7 @@ At a high level, these resources typically consist of:
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Document the specific resources required for the resource types you identified.</li><li>If you decide it’s necessary, document any further detail about the types of resources you need to support the testing phase.</li></ul></td></tr>
 </table>
 
-### *Define and document a testing timeline*
+### Define and document a testing timeline
 
 As part of the test plan definition, create a timeline that outlines the
 schedule for when you expect to complete testing activities and achieve
@@ -467,7 +409,7 @@ evaluation process.
 
 | Defect ID                                | Test case ID impacted | Defect description                                                                                                                           | Environment /steps to reproduce                                                                                                                    | Severity | Status | Submitted by | Assigned owner | Supporting details (logs, screenshots, and so on) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
-| 1                                        | 1                     | For users who are enabled for regionally hosted meetings (RHM), dial-in coordinates aren’t populated via the Teams Outlook scheduling add-in | Move a test account to another RHM region. Sign in to Outlook and try to schedule a Teams audio conference via the Teams Outlook scheduling add-in | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log Teams client screenshot     |
+| 1                                        | 1                     | For users who are enabled for regionally hosted meetings (RHM), dial-in coordinates aren’t populated via the Teams Outlook scheduling add-in | Move a test account to another RHM region.<br/> Sign in to Outlook and try to schedule a Teams audio conference via the Teams Outlook scheduling add-in | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log<br/> Teams client screenshot     |
 
 
 <table>
@@ -476,7 +418,7 @@ evaluation process.
 </table>
 
  
-### *Define and document exit and suspension criteria*
+### Define and document exit and suspension criteria
 
 As part of the overall test plan execution process, you need to define criteria
 to indicate the point at which you should suspend testing efforts versus
@@ -492,14 +434,8 @@ phase.
 
 | Testing exit criteria                            | Testing suspension criteria                      |
 |--------------------------------------------------|--------------------------------------------------|
-| All test cases must achieve a pass rate of TBD % | All test cases must achieve a TBD % failure rate |
+|<ul><li>All test cases must achieve a pass rate of TBD %</li><li>All test cases must have been completely executed</li><li>From all test cases evaluated, all High severity defects must be closed</li></ul> | <ul><li>All test cases must achieve a TBD % failure rate</li><li>All defects identified as High severity must be resolved before testing can continue.</li></ul> |
 
--   All test cases must have been completely executed
-
--   From all test cases evaluated, all High severity defects must be closed
-
--   All defects identified as High severity must be resolved before testing can
-    continue
 
 
 <table>
@@ -508,7 +444,7 @@ phase.
 </table>
 
 
-### *Define and document the defect escalation process*
+### Define and document the defect escalation process
 
 Throughout the course of test plan execution, you might discover an issue or
 identify a defect that requires escalation to the right resource for driving and
@@ -563,7 +499,7 @@ Typically, a defect report and remediation plan includes the following:
 
 | Defect ID                                | Defect description                                                                                          | Defect priority assessment                                           | Assigned defect owner | Assigned defect escalation point | Defect escalation method                                          | Defect status | Required resolution by date | Status date |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | For users who are RHM-enabled, dial in coordinates aren’t populated via the Teams Outlook scheduling add-in | Medium                                                               | Lisa Gray             | Louis Lahr                       | Weekly Triage Review High-priority email to affected stakeholders | Open          | ASAP                        | 1/12/2018   |
+| 1    | For users who are RHM-enabled, dial in coordinates aren’t populated via the Teams Outlook scheduling add-in. | Medium                                                               | Lisa Gray             | Louis Lahr                       | Weekly Triage Review High-priority email to affected stakeholders | Open          | ASAP                        | 1/12/2018   |
 
 
 
@@ -574,7 +510,7 @@ Typically, a defect report and remediation plan includes the following:
 
    
 
-### *Define and document testing deliverables*
+### Define and document testing deliverables
 
 The last and final component in creating a test plan is to identify the outcomes
 in terms of specific deliverables that the overall test plan will deliver.
@@ -613,8 +549,8 @@ At a high level, these typically include, but aren’t limited to:
 </table>
 
 
-*Evaluate network readiness*
-----------------------------
+Evaluate network readiness
+--------------------------
 
 As a critical element supporting your Teams deployment, network readiness is a
 crucial part of testing to ensure that the network is properly optimized for
@@ -630,7 +566,7 @@ strategy:
 
 -   Split-tunneling validation
 
-### *Execute Network Planner (through MyAdvisor) for sites and personas in scope*
+### Execute Network Planner (through MyAdvisor) for sites and personas in scope
 
 Before introducing real-time communication services like Teams in your
 environment, it’s important to ensure that the network has been properly
@@ -817,7 +753,8 @@ during the next steering committee review.
 > that you can use during the next steering committee review when you’re
 > determining overall network readiness for sites in scope.
 
-| Location: Seattle [inside wired] client to Office 365 results |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
+**Location: Seattle [inside wired] client to Office 365 results**%%%STOPPED HERE
+                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------|
 | **Results Summary**:                                          |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 | Metric                                                        | Target                                                                                                            | Weekday: office hours 9:30 AM to 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: office hours 2:30 PM to 4:30 PM | Weekday: after hours 10:30 PM to 12:30 AM | Weekend: after hours 9:30 AM to 11:30 AM | Weekend: after hours 2:30 PM to 4:30 PM |

@@ -99,44 +99,17 @@ interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbu
 #### Phone System with Calling Plans feature definition
 
 > [!TIP]
-
 > Below is an example of a Phone System with Calling Plans definition template
 > that you can use to document the Phone System with Calling Plans
 > administration and user group features to be evaluated.
 
-| Enterprise-grade               | Collaborative meetings               | Platform and devices                                                                                  | IT pro                                                                                                        | Additional business group, site-specific                                                                                                                  | Requirements met by latest Teams roadmap |
-|--------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Phone System calling features: | Skype for Business -to-Teams calling | Windows, Mac Teams Client Meetings feature support Browser Teams client meetings feature support for: | Call quality diagnostic portal Tenant Dial Plan Tenant Caller ID policies Enable call quality analytics (CQD) | Validate Teams meeting features based on corporate laptop image Specific language support GPO settings applied for a given user scenario or specific site | Yes                                      |
 
--   Blind transfer
+| Enterprise-grade   | Collaborative meetings    | Platform and devices   | IT pro  | Additional business group, site-specific  | Requirements met by latest Teams roadmap |
+|-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
+| <ul><li>Phone System calling features:<ul><li>Blind transfer</li><li>Call Blocking</li><li>Call Forwarding</li><li>Caller ID Masking</li><li>E911 Support</li><li>Extension Dialing</li><li>Call Hold</li><li>Multi-Call Handling</li><li>Simultaneous Ring</li><li>Azure Voicemail</li></ul></li><li>Calling plan support</li></ul> |<ul><li>Skype for Business -to-Teams calling</li></ul> |<ul><li> Windows, Mac Teams client meetings feature support</li><li>Browser Teams client meetings feature support for:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>iOS and Android Teams client meetings feature support</li><li>TTY support</li></ul> | <ul><li>Call quality diagnostic portal</li><li>Tenant Dial Plan</li><li>Tenant Caller ID policies</li><li>Enable call quality analytics (CQD)</li></ul> | <ul><li>Validate Teams meeting features based on corporate laptop image</li><li>Specific language support</li><li>GPO settings applied for a given user scenario or specific site</li></ul> | Yes  |
 
--   Call Blocking
 
--   Call Forwarding
 
--   Caller ID Masking
-
--   E911 Support
-
--   Extension Dialing
-
--   Call Hold
-
--   Multi-Call Handling
-
--   Simultaneous Ring
-
--   Azure Voicemail
-
--   Calling plan support
-
--   Chrome
-
--   Microsoft Edge
-
-iOS and Android Teams client meetings feature support
-
-TTY support
 
 #### Phone System with Calling Plans user functionality definition
 
@@ -145,27 +118,11 @@ TTY support
 > document the user experience required based on the Phone System with
 > Calling Plans features to be evaluated.
 
+
 | Exchange experience                          | SharePoint experience                            | Teams interoperability policy experience |
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
-| Create teams (Office Group creation enabled) | Store and share files within Teams conversations | ChatDefaultClient: Default               |
+| <ul><li>Create teams (Office Group creation enabled)</li><li>Join teams</li><li>Create channels</li><li>Create and view meetings</li><li>Modify user profile picture</li><li>Add and configure connectors</li><li>Add and configure tabs</li><li>Add and configure bots</li></ul> | <ul><li>Store and share files within Teams conversations</li><li>Store and share and files within private chats (based on OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Default</li><li>CallingDefaultClient: Default</li></ul>      |
 
--   Join teams
-
--   Create channels
-
--   Create and view meetings
-
--   Modify user profile picture
-
--   Add and configure connectors
-
--   Add and configure tabs
-
--   Add and configure bots
-
--   Store and share and files within private chats (based on OneDrive)
-
--   CallingDefaultClient: Default
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Decide which Phone System with Calling Plans category features you’ll deploy in your environment.</li><li>Identify your user Phone System with Calling Plans functionality requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Decide which Teams interoperability experience you’ll deploy.</li><li>Review the latest Teams public roadmap and decide whether current workload capabilities meet your deployment timeline.</li></ul></td></tr>
@@ -239,7 +196,7 @@ typically includes:
 
 | Phone System with Calling Plans site readiness                                                                                                                                                                                    | Phone System with Calling Plans user experience                                                                                                                                                                                         | Phone System with Calling Plans administration experience                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Network Planner bandwidth planning (via MyAdvisor) Network connectivity and performance validation (via the Skype for Business network assessment tool) Quality of service (QoS) validation Remote access split-tunnel validation | PBX features PSTN calling (domestic and international) Placing and receiving PSTN calls Azure Voicemail E911 Tenant Dial Plan Tenant Caller ID masking Advanced call control features (for example, call forwarding, simultaneous ring) | Licensing assignment Subscriber number porting to Office 365 Phone System with Calling Plans reporting Call quality reporting (CQD) |
+| <ul><li>Network Planner bandwidth planning (via MyAdvisor)<li></li>Network connectivity and performance validation (via the Skype for Business network assessment tool)<li></li>Quality of service (QoS) validation<li></li>Remote access split-tunnel validation</li></ul>|<ul><li>PBX features<li></li>PSTN calling (domestic and international)<li></li> Placing and receiving PSTN calls<li></li>Azure Voicemail<li></li>E911<li></li>Tenant Dial Plan<li></li>Tenant Caller ID masking <li></li>Advanced call control features (for example, call forwarding, simultaneous ring)</li></ul> |<ul><li>Licensing assignment</li><li>Subscriber number porting to Office 365</li><li>Phone System with Calling Plans reporting</li><li>Call quality reporting (CQD)</li></ul> |
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.</li><li>Decide additional goals and objectives for evaluation.</li></ul></td></tr>
@@ -281,7 +238,7 @@ grouped by focus area and include:
 > [!TIP]
 >   To assist with test-case creation as a starting point, see the list of phone
 >   system user guidance available at [Teams Meetings and
->   calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
+>   calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 #### Phone System with Calling Plans test case
 
@@ -294,25 +251,8 @@ Phone System with Calling Plans Validation
 
 | Test case ID | Test case title               | Test case description                                                  | Environment required for test case execution                                               | Steps required for test case execution                                                                                                                                                          | Testing resource required              |
 |--------------|-------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| 1            | Placing an outbound PSTN call | Verify that you can place an external voice call to a 10-digit number. | 1. Teams client installed 2. User enabled with the following Office 365 licenses assigned: | 1. Sign in to the Teams client.                                                                                                                                                                 | Phone System with Calling Plans Tester |
-|              |                               |                                                                        |                                                                                            | 2. Select the dial pad and enter a 10-digit number to be dialed.                                                                                                                                |                                        |
-|              |                               |                                                                        |                                                                                            | 3. Verify that the number dial is properly normalized and the external PSTN call is established.                                                                                                |                                        |
+| 1            | Placing an outbound PSTN call | Verify that you can place an external voice call to a 10-digit number. |<ul><li>Teams client installed.</li><li>User enabled with the following Office 365 licenses assigned:<ul><li>Office Enterprise E5 with Phone System, Microsoft Teams, and Domestic and International Calling Plans</li><li>Office Enterprise E3 with Phone System, Microsoft Teams, and Domestic and International Calling Plans</li></ul></li></ul> | <ol><li>Sign in to the Teams client.</li><li>Select the dial pad and enter a 10-digit number to be dialed.</li><li>Verify that the number dial is properly normalized and the external PSTN call is established.</li></ol>    | Phone System with Calling Plans Tester |
 
--   Office Enterprise E5 with:
-
--   Phone System
-
--   Microsoft Teams
-
--   Domestic and International Calling Plans
-
--   Office Enterprise E3 with:
-
--   Phone System
-
--   Microsoft Teams
-
--   Domestic and International Calling Plans
 
 > [!TIP]
 >   For additional guidance in facilitating individual test case and overall
@@ -328,7 +268,7 @@ Phone System with Calling Plans Validation
 </table>
 
 
-### *Define and document testing resources*
+### Define and document testing resources
 
 To support the testing phase, it’s important that you develop a resource plan
 detailing the people, support, and technology resources that you’ll require. An
@@ -352,16 +292,12 @@ At a high level, these resources typically consist of:
 >   use to document the different types of resources required to support your
 >   testing phase.
 
+
 | Resource type | Resources required                                           | Resource description |
 |---------------|--------------------------------------------------------------|----------------------|
 | People        | Stakeholders Test Lead Testers                               | TBD                  |
-| Technology    | Access to Office 365 with the following services enabled:    | TBD                  |
+| Technology    | Access to Office 365 with the following services enabled:<ul><li>Office 365 E5 Licensing Assigned</li><li>Domestic and International Calling Plan Assigned</li></ul>    | TBD                  |
 | Support       | Test administrator Test support lead Test support technician | TBD                  |
-
--   Office 365 E5 Licensing Assigned
-
--   Domestic and International Calling Plan Assigned
-
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Decide the specific resources required for the resource types you identified.</li><li>Decide whether you should provide further detail to describe the types of resources that you need.</li></ul></td></tr>
@@ -369,7 +305,7 @@ At a high level, these resources typically consist of:
 </table>
 
 
-### *Define and document a testing timeline*
+### Define and document a testing timeline
 
 As part of the test plan definition, create a timeline that outlines the
 schedule for when you expect to complete testing activities and achieve
@@ -417,7 +353,7 @@ At a high level, this typically consists of:
 </table>
 
 
-### *Define and document test defect report criteria*
+### Define and document test defect report criteria
 
 As test cases within a given phase or stream are executed, issues might arise
 where the result from the test case being executed isn’t what you expected.
@@ -476,7 +412,7 @@ evaluation process.
 
 | Defect ID                                | Test case ID impacted | Defect description                                                                                 | Environment /steps to reproduce                                                                                                | Severity | Status | Submitted by | Assigned owner | Supporting details (logs, screenshots, and so on) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
-| 1                                        | 1                     | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | In the Teams client, select the dial pad, enter a four-digit extension and select the phone icon to attempt to place the call. | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log Teams client screenshot     |
+| 1                                        | 1                     | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | In the Teams client, select the dial pad, enter a four-digit extension and select the phone icon to attempt to place the call. | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log<br/> Teams client screenshot     |
 
 
 <table>
@@ -485,7 +421,7 @@ evaluation process.
 </table>
 
 
-### *Define and document exit and suspension criteria*
+### Define and document exit and suspension criteria
 
 As part of the overall test plan execution process, you need to define criteria
 to indicate the point at which you should suspend testing efforts versus
@@ -501,14 +437,7 @@ phase.
 
 | Testing exit criteria                            | Testing suspension criteria                      |
 |--------------------------------------------------|--------------------------------------------------|
-| All test cases must achieve a pass rate of TBD % | All test cases must achieve a TBD % failure rate |
-
--   All test cases must have been completely executed
-
--   From all test cases evaluated, all High severity defects must be closed
-
--   All defects identified as High severity must be resolved before testing can
-    continue
+|<ul><li>All test cases must achieve a pass rate of TBD %</li><li>All test cases must have been completely executed</li><li>From all test cases evaluated, all High severity defects must be closed</li></ul> | <ul><li>All test cases must achieve a TBD % failure rate</li><li>All defects identified as High severity must be resolved before testing can continue.</li></ul> |
 
 
 <table>
@@ -517,7 +446,7 @@ phase.
 </table>
 
 
-### *Define and document the defect escalation process*
+### Define and document the defect escalation process
 
 Throughout the course of test plan execution, you might discover an issue or
 identify a defect that requires escalation to the right resource for driving and
@@ -582,7 +511,7 @@ Typically, a defect report and remediation plan includes the following:
 </table>
 
 
-### *Define and document testing deliverables*
+### Define and document testing deliverables
 
 The last and final component in creating a test plan is to identify the outcomes
 in terms of specific deliverables that the overall test plan will deliver.
@@ -620,7 +549,7 @@ At a high level, these typically include, but aren’t limited to:
 </table>
 
 
-*Evaluate network readiness*
+Evaluate network readiness
 ----------------------------
 
 As a critical element supporting your Teams deployment, network readiness is a
@@ -637,7 +566,7 @@ strategy:
 
 -   Split-tunneling validation
 
-### *Execute Network Planner (through MyAdvisor) for sites and personas in scope*
+### Execute Network Planner (through MyAdvisor) for sites and personas in scope
 
 Before introducing real-time communication services like Teams in your
 environment, it’s important to ensure that the network has been properly
@@ -678,7 +607,6 @@ readiness for Teams by using Group Policy, see [Enabling QoS for
 Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 
-[//]: # (The sections noted in the Next Steps don't seem quite right.)
 <table>
 <tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide on the QoS configuration to be implemented.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
@@ -826,7 +754,8 @@ during the next steering committee review.
 >   that you can use during the next steering committee review when you’re
 >   determining overall network readiness for sites in scope.
 
-| Location: Seattle [inside wired] client to Office 365 results |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
+**Location: Seattle [inside wired] client to Office 365 results**%%%STOPPED HERE
+|                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------|
 | **Results Summary**:                                          |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 | Metric                                                        | Target                                                                                                            | Weekday: office hours 9:30 AM to 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: office hours 2:30 PM to 4:30 PM | Weekday: after hours 10:30 PM to 12:30 AM | Weekend: after hours 9:30 AM to 11:30 AM | Weekend: after hours 2:30 PM to 4:30 PM |
