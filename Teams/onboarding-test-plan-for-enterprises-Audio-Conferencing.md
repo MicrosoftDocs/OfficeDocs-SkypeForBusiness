@@ -247,7 +247,7 @@ Audio Conferencing Validation
 | 1            | Schedule a Teams audio conferencing meeting | Schedule an online meeting and verify the conference bridge is displayed in the invitation. |<ul><li>Teams client installed</li><li>User enabled with the following Office 365 licenses assigned:<ul><li>Office Enterprise E5 with Audio Conferencing and Microsoft Teams</li><li>Office Enterprise E3 with Audio Conferencing and Microsoft Teams</li></ul></li></ul> |<ol><li>Sign in to the Teams client.</li><li>Open Outlook and schedule a new Teams meeting.</li><li>Verify the new meeting invitation displays the Microsoft bridge number displayed in the tenant.</li></ol>      | Audio Conferencing Tester |
 
 
-> [!TIP]*
+> [!TIP]
 > For additional guidance in facilitating individual test case and overall
 > plan creation for evaluating Audio Conferencing features in your
 > organization, review the [Audio Conferencing Test
