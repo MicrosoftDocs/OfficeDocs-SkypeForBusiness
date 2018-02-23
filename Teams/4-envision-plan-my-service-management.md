@@ -149,7 +149,7 @@ We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
 Quality Experience Review Guide.
 
-The Quality Experience Review Guide can be found here [Insert Link]
+The Quality Experience Review Guide can be found [here.]((https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true))
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
