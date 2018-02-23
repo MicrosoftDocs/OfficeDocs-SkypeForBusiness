@@ -605,7 +605,6 @@ readiness for Teams by using Group Policy, see [Enabling QoS for
 Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 
-[//]: # (The sections noted in the Next Steps don't seem quite right.)
 <table>
 <tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide on the QoS configuration to be implemented.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
@@ -626,15 +625,18 @@ final steering committee review.
 > during the next steering committee meeting when you’re deciding when to
 > onboard Audio Conferencing services in the Pilot phase.
 
-| QoS configuration validation via GPO and Message Analyzer |                  |
-|-----------------------------------------------------------|------------------|
-| **Results summary**:                                      |                  |
-| Testing highlights                                        |                  |
-| TBD                                                       | TBD              |
-| Testing lowlights                                         |                  |
-| Issue: TBD                                                | Remediation: TBD |
-| Blockers identified                                       |                  |
-| Blocker: TBD                                              | Remediation: TBD |
+**QoS configuration validation via GPO and Message Analyzer**
+
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail
+
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
 
 > [!TIP]
 > To facilitate further discussion during the final steering committee review, you can use the updated [Test Results matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and highlight additional areas that require remediation.
@@ -693,15 +695,22 @@ steering committee review.
 > during the next steering committee meeting when you’re deciding when to
 > onboard Audio Conferencing services in the Pilot phase.
 
-| Split-tunnel configuration validation    |                  |                                                                                                                                 |
-|------------------------------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| **Results Summary**:                     |                  |                                                                                                                                 |
-| Testing highlights                       |                  |                                                                                                                                 |
-| TBD                                      | TBD              |                                                                                                                                 |
-| Testing lowlights                        |                  |                                                                                                                                 |
-| Issue: TBD                               | Remediation: TBD |                                                                                                                                 |
-| Blockers identified                      |                  |                                                                                                                                 |
-| Blocker: TBD                             | Remediation: TBD |                                                                                                                                 |
+**Split-tunnel configuration validation**
+
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail
+
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
+
+> [!TIP]
+> To facilitate further discussion during the final steering committee review, you can use the updated [Test Results matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and highlight additional areas that require remediation.
+
 
 
 <table>
@@ -753,30 +762,37 @@ during the next steering committee review.
 > that you can use during the next steering committee review when you’re
 > determining overall network readiness for sites in scope.
 
-**Location: Seattle [inside wired] client to Office 365 results**%%%STOPPED HERE
-                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------|
-| **Results Summary**:                                          |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
+**Location: Seattle [inside wired] client to Office 365 results**
+
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
+
+
+
 | Metric                                                        | Target                                                                                                            | Weekday: office hours 9:30 AM to 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: office hours 2:30 PM to 4:30 PM | Weekday: after hours 10:30 PM to 12:30 AM | Weekend: after hours 9:30 AM to 11:30 AM | Weekend: after hours 2:30 PM to 4:30 PM |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latency (one way)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latency (round-trip time, or RTT)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
 | Burst packet loss                                             | \<10% during any 200-ms interval                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | 0.2%                                     | 0.1%                                    |
 | Packet loss                                                   | \<1% during any 15-sec interval                                                                                   | 0.4%                                                                                                                                                                                                                                                                                                                                      | 0.3%                                     | 0.3%                                      | 0.1%                                     | 0%                                      |
 | Packet inter-arrival jitter                                   | \<30 ms during any 15-sec interval                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
 | Packet reorder                                                | \<0.05% out-of-order packets                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
-| Testing highlights                                            |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| TBD                                                           | TBD                                                                                                               |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Testing lowlights                                             |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High latency                                       | **Remediation:** Investigate packet routing and implement the ideal route.                                        |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: Round trip time is not double the latency          | **Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.        |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Issue: High packet loss                                       | **Remediation:** Verify through the Network Planner that enough bandwidth has been allocated.                     |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Issue: High jitter                                            | **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High packet loss                                   | **Remediation:** Investigate packet loss.                                                                         |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High packet reorder                                | **Remediation:** Investigate router queueing and bandwidth.                                                       |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Blockers identified                                           |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Blocker: TBD                                                  | Remediation: TBD                                                                                                  |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
 
 
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: High latency</td><td>**Remediation:** Investigate packet routing and implement the ideal route.</td></tr>
+<tr><td>**Issue**: Round-trip time isn't double the latency</td><td>**Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.</td></tr>
+<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Verify through the Network Planner that enough bandwidth has been allocated. </td></tr>
+<tr><td>**Issue**: High jitter </td><td> **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. </td></tr>
+<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Investigate packet loss. </td></tr>
+<tr><td>**Issue**: High packet reorder </td><td>**Remediation:** Investigate router queueing and bandwidth. </td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>Blocker: TBD</td><td>Remediation: TBD</td></tr>
+</table>
+
+ 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments.</li><li>Have you evaluated network capabilities for supporting real-time media for all sites in scope?</li><li> If your network hasn’t been properly assessed, or you know it won’t support real-time media, will you disable video and screen-sharing capabilities to reduce network impact and improve the Teams experience for users?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document network performance and connectivity test results.</li><li>Execute escalation and remediation plans to resolve issues with sites where there’s not enough bandwidth, or network performance and connectivity requirements aren’t being met.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
@@ -916,15 +932,18 @@ test results to present during the next steering committee review.
 > during the next steering committee meeting when you’re deciding when to
 > onboard Audio Conferencing services in the Pilot phase.
 
-| Service number porting |                  |
-|------------------------|------------------|
-| **Results summary**:   |                  |
-| Testing highlights     |                  |
-| TBD                    | TBD              |
-| Testing lowlights      |                  |
-| Issue: TBD             | Remediation: TBD |
-| Blockers identified    |                  |
-| Blocker: TBD           | Remediation: TBD |
+**Service Number porting**
+
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
+
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>Blocker: TBD</td><td>Remediation: TBD</td></tr>
+</table>
 
 > [!TIP]
 > To facilitate further discussion during the final steering committee review,
@@ -1002,7 +1021,7 @@ unforeseen issues arise.
 | Audio Conferencing                       |                                             |                                                                                                  |                           |                                                                                                             |
 |------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
 | Test case ID                             | Test case title                             | Test case description                                                                            | Test case results summary | Assigned defect ID (if applicable)                                                                          |
-| 1                                        | Schedule a Teams audio conferencing meeting | Schedule an online meeting and verify that the conference bridge is displayed in the invitation. |                           | For users who are RHM-enabled, dial in coordinates aren’t populated via the Teams Outlook scheduling Add-in |
+| 1                                        | Schedule a Teams audio conferencing meeting | Schedule an online meeting and verify that the conference bridge is displayed in the invitation. |  &#9744;Pass<br/>&#9744;Partial<br/> &#9744;Fail   | For users who are RHM-enabled, dial in coordinates aren’t populated via the Teams Outlook scheduling Add-in |
 
 
 <table>
@@ -1025,15 +1044,19 @@ Pilot phase.
 > the next steering committee meeting when you’re deciding when to onboard
 > Audio Conferencing services in the Pilot phase.
 
-| Audio Conferencing   |                  |
-|----------------------|------------------|
-| **Results Summary**: |                  |
-| Testing highlights   |                  |
-| TBD                  | TBD              |
-| Testing lowlights    |                  |
-| Issue: TBD           | Remediation: TBD |
-| Blockers identified  |                  |
-| Blocker: TBD         | Remediation: TBD |
+**Teams Audio Conferencing**
+
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
+
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>Blocker: TBD</td><td>Remediation: TBD</td></tr>
+</table>
+
 
 > [!TIP]
 > To facilitate further discussion during the final steering committee review,
@@ -1077,10 +1100,7 @@ testing stakeholders. At the meeting, address:
 
 | Status summary               | Highlights/lowlights | Lessons learned | Closing Recommendation |
 |------------------------------|----------------------|-----------------|------------------------|
-| Test case pass rate of TBD % | TBD                  | TBD             | Proceed to Pilot       |
-
--   All tests passed
-
+| <ul><li>Test case pass rate of TBD %</li><li>All tests passed</li></ul> | TBD                  | TBD             | Proceed to Pilot       |
 
 
 <table>
