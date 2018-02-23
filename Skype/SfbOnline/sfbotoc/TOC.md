@@ -14,7 +14,7 @@
 ### [Compare audio conferencing providers](../audio-conferencing-in-office-365/compare-audio-conferencing-providers.md)
 ### [Dialing out from a meeting so other people can join it](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
 ### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
-### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md)
+### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Enable or disable sending emails when their settings change](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Enable users to record their name when they join a meeting](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Manage the Audio Conferencing settings for my organization](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
