@@ -40,7 +40,7 @@ migrating from Skype for Business Online, you might have already completed some
 of these activities and can ignore them now.
 
 When you’re onboarding users on a per-site basis, we highly recommended that you
-use the Site Enablement Playbook for Microsoft Teams [Provide Link] as a
+use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a
 supplementary guide to these checklists.
 
 >[!NOTE]
