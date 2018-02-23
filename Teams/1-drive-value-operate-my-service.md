@@ -324,8 +324,8 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/change-management-strateg
 | Support team readiness | Perform targeted communication, awareness, or training campaigns to ensure the support team is ready. Support teams can include the “white glove” team, helpdesks, Tier 2 or Tier 3 support, external partners, and so on. | As needed |               |
 
 ### References 
+**Coming soon...**
 
-**LINK TO Debbie’s content**
 <!--ENDOFSECTION-->
 ## Assess Teams usage
 
@@ -396,7 +396,7 @@ ensure that the next batch of sites or users don’t encounter the same issues.
 First, pinpoint whether this is an adoption and/or technical problem. Begin by
 investigating the items below, in order, to determine where the problem is.
 
-1.  Validate quality by performing a Quality Experience Review link to section.
+1.  Validate quality by performing a [Quality Experience Review](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service#quality-of-experience-review-guide).
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends
@@ -405,7 +405,7 @@ investigating the items below, in order, to determine where the problem is.
     section to try to solve the problem before engaging support.
 
 3.  Work with the training and adoption team to gather direct feedback from
-    users (See **CHECK THIS LINK** assessing User Sentiment), and to check the effectiveness of
+    users (See [Assess User Sentiment](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service#assess-user-sentiment)), and to check the effectiveness of
     awareness and adoption activities.
 
 ### Daily/weekly/monthly/as-needed tasks
@@ -514,8 +514,6 @@ Network Promotor Score
 [Using Yammer to Collect
 Feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
-Debbie’s Content [Provide link]
-
 [Best Practices for User
 Feedback](https://docs.microsoft.com/microsoftteams/best-practices-feedback)
 <!--ENDOFSECTION-->
@@ -524,7 +522,7 @@ Feedback](https://docs.microsoft.com/microsoftteams/best-practices-feedback)
 Many core planning elements go into optimizing, right-sizing, and remediating
 your network infrastructure to ensure a high-quality, efficient path to the
 Microsoft Teams service. The planning tasks and requirements are covered in our
-previous Network Readiness [Provide link] guidance. Networks often evolve over
+previous [Network Readiness](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) guidance. Networks often evolve over
 time due to upgrades, expansion, or other business requirements. It’s important
 that you account for your requirements for Teams in your network planning
 activities.
@@ -552,11 +550,11 @@ be performed at regular intervals.
 
 ### References 
 
-Network Planner [Provide Link]
+[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
-Building Data Schema] [Provide Link?]
+[Building Data Schema](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#tenant-data-file-format-and-building-data-file-structure )
 <!--ENDOFSECTION-->
 ## Assess and ensure quality 
 
@@ -575,7 +573,7 @@ user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions, and report to a steering committee about progress and any open issues.
 
-The Quality Experience Review Guide [Provide link to guide] includes activities
+The [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) includes activities
 that assess and provide remediation guidance in key areas that have the greatest
 impact on improving user experience. The guidance provided in the Quality
 Experience Review Guide focuses on using CQD Online as the primary tool to
@@ -607,7 +605,7 @@ CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=L
 [Update Building
 Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)
 
-QER Guide [Provide link]
+[Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
 <!--ENDOFSECTION-->
 ## Manage endpoints
 
@@ -649,8 +647,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality Experience Review (see Assessing
-and Ensuring Quality [**Provide link**] for more detail). It’s essential to
+driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
@@ -694,7 +691,7 @@ the nature of the issue.
     Tool](https://www.microsoft.com/download/details.aspx?id=53885) to
     perform a connectivity test to validate that the media ports have been
     opened correctly for cloud voice capabilities. Detailed steps on how to run
-    the connectivity tests are provided in the Network Readiness [insert link]
+    the connectivity tests are provided in the [Network Readiness](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)
     guidance.
 
 3.  **Check the known issues list:** Consult the [list of known issues for
@@ -723,7 +720,7 @@ the nature of the issue.
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements    | Ensure that the Teams’ endpoint continues to meet all the software requirements for Teams [Get Clients for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).                                                                                                                                                                                       | Monthly   |               |
 | Endpoint firewalls       | Maintain the appropriate exclusions on the endpoint firewall based on the information in the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) article. Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed |               |
-| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD (**PROVIDE LINK** See Assess and ensure quality).                                                                                                                                                                                                                                                                   | As needed |               |
+| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | As needed |               |
 | Endpoint management      | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies.                                                                                                                                                                                                        | Monthly   |               |
 | Endpoint troubleshooting | Troubleshooting tasks can include; verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors.                                                                                                                                                                                               | As needed |               |
 
@@ -886,8 +883,40 @@ users to submit requests that are processed by an assigned team.
 | Telephone number management | Manage the telephone numbers available for future growth, and adjust inventory levels to meet your organizational needs.                                                                                                                                                                                                                                                                                                | Weekly    |               |
 | Team creation (optional)    | Review and process requests for team creation.                                                                                                                                                                                                                                                                                                                                                                          | As needed |               |
 <!--ENDOFSECTION-->
-## Quality of Experience Review Guide (RiskS asset)
+## Quality of Experience Review Guide
+The Quality Experience Review Guide has a set of activities that assess and
+provide remediation guidance in key areas that have the greatest impact for
+improving user experience, as shown in the figure below.
 
-**VERIFY THIS HEADING**
-\<\<Intro From Matt / Rick \>\>
+![](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+
+By continually assessing and remediating the areas described in this document,
+you can reduce their potential to negatively affect user experience. Most
+user-experience problems encountered in a deployment can be grouped into the
+following categories:
+
+-   Incomplete firewall or proxy configuration
+
+-   Poor Wi-Fi coverage
+
+-   Insufficient bandwidth
+
+-   VPN
+
+-   Use of unoptimized or built-in audio devices
+
+-   Problematic subnets or network devices
+
+The guidance provided in the Quality Experience Review Guide focuses on using
+Call Quality Dashboard (CQD) Online as the primary tool to report and
+investigate each area described, with a focus on audio to maximize adoption and
+impact. Any optimizations made to the network to improve the audio experience
+will also directly translate to improvements in video and desktop sharing.
+
+We highly recommend that you nominate the quality champion early on. After being
+nominated, they should start to familiarize themselves with the content in the
+Quality Experience Review Guide.
+
+The Quality Experience Review Guide can be found [here.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+
 <!--ENDOFSECTION-->
