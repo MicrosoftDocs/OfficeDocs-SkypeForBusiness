@@ -3,7 +3,8 @@ title: "Disabling toll-free numbers for specific users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 02/20/2018
+ms.reviewer: oscarr
+ms.date: 02/23/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
