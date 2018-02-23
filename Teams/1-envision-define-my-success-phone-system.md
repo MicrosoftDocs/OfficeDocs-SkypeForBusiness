@@ -174,5 +174,4 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
 
-Additional detailed guidance on how to operate a proper steering committee can
-be found in the steering committee guide available here [Provide Link].
+Additional detailed guidance on how to operate a proper steering committee can be found in the steering committee guide available [here](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
