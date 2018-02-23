@@ -794,7 +794,7 @@ during the next steering committee review.
 <tr><td>**Issue**: High packet loss </td><td>**Remediation:** Investigate packet loss. </td></tr>
 <tr><td>**Issue**: High packet reorder </td><td>**Remediation:** Investigate router queueing and bandwidth. </td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>Blocker: TBD</td><td>Remediation:  TBD</td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**:  TBD</td></tr>
 </table>
 
  
@@ -951,7 +951,7 @@ summarizes test results to present during the next steering committee review.
 <tr><th colspan="2">Testing lowlights  </th></tr>  
 <tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>Blocker: TBD</td><td>Remediation: TBD</td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
 </table>
 
 
@@ -1059,7 +1059,7 @@ Calling Plans services in the Pilot phase.
 <tr><th colspan="2">Testing lowlights  </th></tr>  
 <tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>Blocker: TBD</td><td>Remediation: TBD</td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
 </table>
 
 
