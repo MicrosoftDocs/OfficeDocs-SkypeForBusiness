@@ -3,7 +3,7 @@
 ##Introduction
 
 This content provides an overview of the requirements for properly defining success for the deployment of Audio Conferencing for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
-
+<!--ENDOFSECTION-->
 ##Define business use cases for Audio Conferencing
 
 Audio Conferencing provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, PBX, or mobile phones.
@@ -42,7 +42,7 @@ In addition to defining your business use cases, to set the project boundaries y
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li></ul>|
-
+<!--ENDOFSECTION-->
 ##Identify key stakeholders
 
 The business use cases defined in the previous step include an organizational scope for the Audio Conferencing implementation, and based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
@@ -73,8 +73,8 @@ The business use cases defined in the previous step include an organizational sc
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
-
-##Define OKRs, KSIs, and risks
+<!--ENDOFSECTION-->
+##Define OKRs, KSIs and risks
 
 With the project stakeholders assembled, you can translate business use cases, organizational scope, and project timelines into objectives and key results (OKRs), and the measures of project success can be defined as a list of key success indicators (KSIs).
 
@@ -133,7 +133,7 @@ You need to identify business risks as part of this exercise, and define a mitig
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
-
+<!--ENDOFSECTION-->
 ##Establish a steering committee
 
 A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
@@ -174,3 +174,4 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 
 Additional detailed guidance on how to operate a proper steering committee can
 be found in the steering committee guide available here [Provide Link].
+<!--ENDOFSECTION-->

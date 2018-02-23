@@ -14,7 +14,7 @@ with Calling Plan services.
 You identify technical risks as part of an environmental assessment and adoption
 readiness evaluation, and develop a mitigation plan for each identified risk.
 You should incorporate this information in the risk register.
-
+<!--ENDOFSECTION-->
 ## Current environment
 
 As part of your environmental discovery, include all matters related to end-user
@@ -40,7 +40,7 @@ to modify and remove items that aren’t relevant to your project goals.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
 </table>
-
+<!--ENDOFSECTION-->
 
 ## Adoption and change management assessment capabilities 
 
@@ -71,7 +71,7 @@ and remove items that aren’t relevant to your project goals.
 
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the persona alignment and feature assessment.</li><li>If required, engage outside resources to assist with driving adoption and change management for your organization.</li></ol></td></tr>
 </table>
-
+<!--ENDOFSECTION-->
 
 ## Network readiness
 
@@ -117,7 +117,7 @@ be affected by any of these factors and will help you move toward a resolution.
 Failing to prepare your network will likely lead to dissatisfied users and
 costly, ad-hoc fixes. By preparing your network—and your organization—for Teams,
 you can dramatically increase your chance of success.
-
+<!--ENDOFSECTION-->
 ## Bandwidth planning
 
 The first step toward network readiness is ensuring your network has enough
@@ -202,7 +202,7 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 
 Each wireless vendor has its own recommendations for deploying its wireless
 solution. We recommend that you consult your vendor for specific guidance.
-
+<!--ENDOFSECTION-->
 ## Firewall and proxy requirements
 
 Microsoft Teams connects to Microsoft Online Services and needs internet
@@ -237,7 +237,7 @@ very likely that quality will be reduced due to media’s being forced to use TC
 instead of UDP. For more information about proxy servers and bypassing, see
 [Office 365 URLs and IP address
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
-
+<!--ENDOFSECTION-->
 ## Test the network
 
 After you’ve completed your planning and network preparation—including upgrading
@@ -322,7 +322,7 @@ for each segment.
 Note that both segments must meet the requirements for a high-quality
 deployment. We recommend that you run the tool multiple times for one hour
 straight to get a good indication of your network’s performance.
-
+<!--ENDOFSECTION-->
 ## Network remediation
 
 If the results of bandwidth planning, port testing, or network requirements
@@ -353,3 +353,4 @@ maintain these areas as part of your service management planning.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ol></td></tr>
 </table>
+<!--ENDOFSECTION-->

@@ -28,7 +28,7 @@ There are two major types of calling plans:
 
 Each type of calling plan allocates a certain number of call minutes per month to each user who has been assigned the license. When the call minutes allocation is exhausted, the user won’t be able to place outbound calls—except for emergency calls—until the next month’s billing cycle. If you want users to be able to continue to place outbound call even after they’ve exhausted their
 allocation of call minutes, or to let users who have a domestic calling plan place international calls, you can set up Communications Credits for your organization.
-
+<!--ENDOFSECTION-->
 ##Availability of Calling Plans
 
 Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
@@ -53,7 +53,7 @@ After confirming that your organization can obtain the Calling Plans service, co
 >|One Marina Boulevard|Singapore|Legacy PSTN service|
 >|32 London Bridge Street|United Kingdom|Phone System with Calling Plans|
 >|39 quai du Président Roosevelt|France|Phone System with Calling Plans|
-
+<!--ENDOFSECTION-->
 ##Phone numbers and emergency locations
 
 With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review “Managing cloud voice telephone numbers, [Provide Link]” to plan the phone number acquisition for your Calling Plans implementation.
@@ -87,7 +87,7 @@ To learn more about emergency locations in relation to Calling Plans, review the
 >|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
 >|Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
 >|Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
-
+<!--ENDOFSECTION-->
 ##Voicemail
 
 Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
@@ -118,7 +118,7 @@ For more information about voicemail in a Phone System implementation, see [Azur
 >|Marcel Beauchamp |On-premises |Yes |Disabled |N/A |
 >|Rachelle Cormier |Online      |Yes |Disabled |N/A |
 >|Isabell Potvin   |On-premises |Yes |Disabled |N/A |
-
+<!--ENDOFSECTION-->
 ##Calling identity
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by the Auto Attendant configuration—as Caller ID, or to block Caller ID presentation altogether.
@@ -139,7 +139,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 >|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
 >|Rachelle Cormier|Yes|Anonymize|Yes|No|
 >|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
-
+<!--ENDOFSECTION-->
 ##Licensing for cloud voice capabilities
 
 Audio Conferencing and Phone System are features in Office 365. They can be licensed separately as add-on services for existing customers who have Office 365 E3 or E1 subscription plans; they’re already included as part of the Office 365 E5 subscription plan.
@@ -191,7 +191,7 @@ To learn more about Phone System and Calling Plans, review the following article
 >|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
 >|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |International and Domestic Calling Plan |
 >|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
-
+<!--ENDOFSECTION-->
 ##Communications Credits
 
 Using Communications Credits, your users can dial out from an Audio Conferencing meeting to add someone else from anywhere in the world (outside of the originating country of the meeting organizer). You can set up Communications Credits for your organization to enable users to make outbound calls after they’ve exhausted their allocation of calling minutes, without having to wait
@@ -228,7 +228,7 @@ To learn more about Communications Credits, review [What are Communications Cred
 >|Initial amount|$ 1,000|
 >|Trigger amount|$ 400|
 >|Auto-recharge amount|TBA|
-
+<!--ENDOFSECTION-->
 ##Manage cloud voice telephone numbers
 
 If you implement Phone System by bringing your own telecommunications service provider, telephone number management will remain as-is.
@@ -278,7 +278,7 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
-
+<!--ENDOFSECTION-->
 ##Dial plans
 
 A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
@@ -340,7 +340,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
-
+<!--ENDOFSECTION-->
 ##Document service decisions 
 
 Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
@@ -362,3 +362,4 @@ Use the information from the previous sections of this article to document your 
 -   Tenant dial plans
 
 -   Dial plan assignments
+<!--ENDOFSECTION-->

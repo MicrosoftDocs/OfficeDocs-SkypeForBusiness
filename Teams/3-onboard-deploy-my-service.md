@@ -19,7 +19,7 @@ By completing the activities in this playbook, your organization can:
 -   Reduce support needs and increase user satisfaction.
 
 
-[//]: # (Please check cross-references at the end of this paragraph. Original cross-refrence said "For technical guidance on how to best configure your environment for Teams voice, see the onboarding checklists - provide link - for Microsoft Teams voice workloads.")
+[//]: # (Please check cross-references at the end of this paragraph. Original cross-reference said "For technical guidance on how to best configure your environment for Teams voice, see the onboarding checklists - provide link - for Microsoft Teams voice workloads.")
 > [!NOTE]
 > This article and the associated playbook aren’t intended to describe
 every technical configuration step required for service enablement or providing
@@ -28,7 +28,7 @@ recommended to onboard users easily and have them start consuming Teams voice
 workloads through a fast and smooth transition with a high adoption rate, while
 minimizing support requirements. For technical guidance on how to best configure
 your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [networking for Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking), and [enabling Office 365](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
-
+<!--ENDOFSECTION-->
 ## Playbook focus areas
 
 The focus of the playbook is to address the factors that influence the user’s
@@ -54,7 +54,7 @@ activity is grouped onto one of these sheets.
 > [!NOTE]
 > You’ll create a separate instance of the playbook for each site in scope for
 your Teams rollout.
-
+<!--ENDOFSECTION-->
 ## How to use the playbook
 
 Regardless of the size and complexity of the location, enabling each site
@@ -114,3 +114,4 @@ schedule.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide if the Site Enablement Playbook is required for your deployment.</li><li>Decide who will be responsible for customizing the Site Enablement Playbook for Microsoft Teams for every site you'll deploy.</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Site Enablement Playbook.</li><li>Customize the Site Enablement Playbook for your first site.</li><li>Repeat as needed for additional sites.</li></ol></td></tr>
 </table>
+<!--ENDOFSECTION-->
