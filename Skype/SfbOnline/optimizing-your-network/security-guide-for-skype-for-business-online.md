@@ -1,5 +1,5 @@
 ---
-title: "Security in Skype for Business Online"
+title: "Security guide for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,7 +17,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Security
-description: "Security in Skype for Business Online <placeholder text>"
+description: "Security guide for Skype for Business Online <add description>"
 ---
 
 # Security in Skype for Business Online
