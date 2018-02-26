@@ -217,4 +217,5 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
 ## Related topics
 [Accessibility solutions for Skype for Business Online in France](accessibility-solutions-in-france.md)
 
-**To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).**
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
