@@ -69,7 +69,11 @@
     "globalMetadata": {
       "searchScope": ["Skype for Business"],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true"
+      "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+          "dstrome",
+          "daswifty"
+      ]
     },
     "fileMetadata": {},
     "template": [],
