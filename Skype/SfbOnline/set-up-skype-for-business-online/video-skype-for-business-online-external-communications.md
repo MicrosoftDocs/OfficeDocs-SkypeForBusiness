@@ -36,3 +36,6 @@ Set up Skype for Business Online external communications so your users can commu
 [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
