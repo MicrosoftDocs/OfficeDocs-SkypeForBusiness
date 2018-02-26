@@ -1,5 +1,5 @@
 # Get started
-## [Overview of Teams](teams-overview.md)
+## [Overview of Teams](Teams-overview.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
