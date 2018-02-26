@@ -148,3 +148,6 @@ If you have already created a policy, you can use the [Set-CsClientPolicy](https
 [Block point-to-point file transfers](block-point-to-point-file-transfers.md)
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
