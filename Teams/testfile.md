@@ -22,8 +22,15 @@ test update
 change to test file
 
 
+It's possible to trick a Markdown table into looking like it contains a bullet list using HTML symbols and just the linebreak tag:
 
+| Header cell1 | Header cell2 |
+| ---          | ---          |
+| Content Cell |intro text <br>&nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; list item1<br> &nbsp;&nbsp;&nbsp; &bull;&nbsp;&nbsp; list item2     |
+| Content Cell | Content Cell |
 
+<p>I will display &#9744;</p>
+<p>I will display &#x2610;</p>
 
 
 Microsoft Teams content is now available.

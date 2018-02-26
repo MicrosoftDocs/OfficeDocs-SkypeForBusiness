@@ -28,7 +28,7 @@ management and how it relates to the key components that underpin the quality of
 the user experience, see [Plan for service management and quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
 ![Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.](media/plan-my-service-management-image1.png "Diagram of the three components of quality--Office 365 service, network, and endpoints--and how service management overlaps all three.")
-
+<!--ENDOFSECTION-->
 ## Introduction to the Operations Guide 
 
 **What**, **Who**, and **How** are three important questions that need to be
@@ -88,7 +88,7 @@ associated with each operational role, you can use the [Operational Role Mapping
 Workbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16)
 to capture the details that will provide the clarity around roles and
 responsibilities to support cloud voice workloads.
-
+<!--ENDOFSECTION-->
 ## The Quality Champion role
 
 A group or individual needs to be accountable for quality in all organizations.
@@ -113,7 +113,7 @@ key step in operationalizing the role of Quality Champion is gaining the
 knowledge required for the role and ensuring the prerequisites are in place to
 deliver on the tasks. A key task for this role is running a regular Quality
 Experience Review.
-
+<!--ENDOFSECTION-->
 ## Introduction to the Quality Experience Review Guide
 
 The Quality Experience Review Guide has a set of activities that assess and
@@ -149,9 +149,10 @@ We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
 Quality Experience Review Guide.
 
-The Quality Experience Review Guide can be found here [Insert Link]
+The Quality Experience Review Guide can be found [here.]((https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true))
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
 </table>
+<!--ENDOFSECTION-->

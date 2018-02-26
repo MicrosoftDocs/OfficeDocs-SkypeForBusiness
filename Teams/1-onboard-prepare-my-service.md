@@ -40,7 +40,7 @@ migrating from Skype for Business Online, you might have already completed some
 of these activities and can ignore them now.
 
 When you’re onboarding users on a per-site basis, we highly recommended that you
-use the Site Enablement Playbook for Microsoft Teams [Provide Link] as a
+use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a
 supplementary guide to these checklists.
 
 >[!NOTE]
@@ -52,15 +52,14 @@ configure those settings.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
 </table>
-
+<!--ENDOFSECTION-->
 
 ## Continue onboarding
 
 After you complete this checklist, you’ll have successfully added voice
 capabilities to your Teams deployment.
 
-As the next step, use the Site Enablement Playbook for Microsoft Teams [Provide
-Link] to help you onboard your users on each site, and help ensure that you plan
+As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site, and help ensure that you plan
 and execute important site-specific activities.
 
 -   Ready Site by Site Rollout Plan
@@ -68,7 +67,7 @@ and execute important site-specific activities.
 -   Establish Service Management Process
 
 -   Execute Testing and Remediation
-
+<!--ENDOFSECTION-->
 ## Test cloud voice workloads in Teams
 
 After you’ve defined and documented your Teams cloud voice business success and
@@ -109,7 +108,7 @@ example test plan for the Onboard phase of an audio conferencing implementation.
 >To assist with test-case creation as a starting point, see the list
 of audio conferencing user guidance available at [Teams Meetings and
 calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
-
+<!--ENDOFSECTION-->
 ## Set up cloud voice workloads for Teams
 
 Now that you’ve defined your testing approach, the next step is configuring your
@@ -122,7 +121,7 @@ in addition to [Technical Planning for Phone System with Calling
 Plans](https://docs.microsoft.com/microsoftteams/phone-system-with-calling-plans#technical-planning-for-phone-system-with-calling-plans)
 and [Set up Calling Plans for Skype for Business and Microsoft
 Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-
+<!--ENDOFSECTION-->
 ### Execute the test plan
 
 After the user and audio conferencing service environments have been configured,
@@ -192,3 +191,4 @@ For additional detailed guidance on how to perform testing for Audio Conferencin
 
 For additional detailed guidance on how to perform testing for Phone System
 with Calling Plans in Teams, see the [detailed testing guide for Phone System](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Phone-System).
+<!--ENDOFSECTION-->

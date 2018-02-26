@@ -61,19 +61,19 @@
 
 
 # Cloud Voice
-##  [Define My Success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
-##  [Make My Service Decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-##  [Define My Success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
-##  [Make My Service Decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-##  [Evaluate My Environment](3-envision-evaluate-my-environment.md)
-##  [Plan My Service Management](4-envision-plan-my-service-management.md)
-##  [Plan My Users Experience](5-envision-plan-my-users-experience.md)
-##  [Document My Success Plan](6-envision-document-my-success-plan.md)
-##  [Prepare My Service](1-onboard-prepare-my-service.md)
-##  [Prepare My Users](2-onboard-prepare-my-users.md)
-##  [Deploy My Service](3-onboard-deploy-my-service.md)
-##  [Operate My Service](1-drive-value-operate-my-service.md)
-##  [Enhance My Service](2-drive-value-enhance-my-service.md)
+##  [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
+##  [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
+##  [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
+##  [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+##  [Evaluate my environment](3-envision-evaluate-my-environment.md)
+##  [Plan my service management](4-envision-plan-my-service-management.md)
+##  [Plan my users experience](5-envision-plan-my-users-experience.md)
+##  [Document my success plan](6-envision-document-my-success-plan.md)
+##  [Prepare my service](1-onboard-prepare-my-service.md)
+##  [Prepare my users](2-onboard-prepare-my-users.md)
+##  [Deploy my service](3-onboard-deploy-my-service.md)
+##  [Operate my service](1-drive-value-operate-my-service.md)
+##  [Enhance my service](2-drive-value-enhance-my-service.md)
 ## Calling Plans
 ### [Quick start: Configure Calling Plans](configuring-teams-calling-quickstartguide.md)
 ### [Understand calling in Teams](Tutorial-Calling-in-Teams.yml)
@@ -108,6 +108,7 @@
 ## [Verify service health for Teams](service-health.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ## [Use log files in troubleshooting Teams](log-files.md)
+
 
 # Teams for Education
 ## [Admin quick start - Teams for Education](Teams-quick-start-edu.yml)
