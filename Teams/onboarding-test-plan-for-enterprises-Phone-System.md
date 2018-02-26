@@ -57,7 +57,7 @@ testing phase.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which testing support and stakeholder roles you require for testing Phone System with Calling Plans features in your environment.</li><li>Decide which resources you’ll assign for the testing support and stakeholder roles you’ve identified.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which testing support and stakeholder roles you require for testing Phone System with Calling Plans features in your environment.</li><li>Decide which resources you’ll assign for the testing support and stakeholder roles you’ve identified.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing support and stakeholder roles required in your Testing Support Stakeholder Matrix.</li><li>Document contact information and location details for each resource you list in the Testing Support Stakeholder Matrix.
 </table>
 
@@ -68,7 +68,7 @@ Define Phone System with Calling Plans feature requirements
 As part of defining Phone System with Calling Plans feature requirements for
 users in scope, one of the first steps that you should have completed during the
 Envision phase was the [Persona
-Analysis](https://docs.microsoft.com/en-us/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness),
+Analysis](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness),
 where you defined your Phone System with Calling Plans persona and scenarios.
 With this baseline identified, the next step is to evaluate the latest Teams
 public roadmap to determine:
@@ -84,115 +84,50 @@ public roadmap to determine:
     described in the latest public roadmap meet your user, functionality, and
     scope requirements in the timeline of your deployment
 
->   **Tip**
-
->   The latest Teams roadmap for identifying Phone System with Calling Plans
->   features in scope for your deployment can be found at
->   <https://aka.ms/skype2teamsroadmap>.
+> [!TIP]
+> The latest Teams roadmap for identifying Phone System with Calling Plans
+> features in scope for your deployment can be found at
+> <https://aka.ms/skype2teamsroadmap>.
 
 Now that the Phone System with Calling Plans persona and features have been
 defined, the next criteria for evaluation will be the interoperability
 experience with Teams. For additional information about the interoperability
 experience along with configuration options available, see [Microsoft Teams and
 Skype for Business
-interoperability](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
 
 #### Phone System with Calling Plans feature definition
 
->   **Tip**
+> [!TIP]
+> Below is an example of a Phone System with Calling Plans definition template
+> that you can use to document the Phone System with Calling Plans
+> administration and user group features to be evaluated.
 
->   Below is an example of a Phone System with Calling Plans definition template
->   that you can use to document the Phone System with Calling Plans
->   administration and user group features to be evaluated.
 
-| Enterprise-grade               | Collaborative meetings               | Platform and devices                                                                                  | IT pro                                                                                                        | Additional business group, site-specific                                                                                                                  | Requirements met by latest Teams roadmap |
-|--------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Phone System calling features: | Skype for Business -to-Teams calling | Windows, Mac Teams Client Meetings feature support Browser Teams client meetings feature support for: | Call quality diagnostic portal Tenant Dial Plan Tenant Caller ID policies Enable call quality analytics (CQD) | Validate Teams meeting features based on corporate laptop image Specific language support GPO settings applied for a given user scenario or specific site | Yes                                      |
+| Enterprise-grade   | Collaborative meetings    | Platform and devices   | IT pro  | Additional business group, site-specific  | Requirements met by latest Teams roadmap |
+|-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
+| <ul><li>Phone System calling features:<ul><li>Blind transfer</li><li>Call Blocking</li><li>Call Forwarding</li><li>Caller ID Masking</li><li>E911 Support</li><li>Extension Dialing</li><li>Call Hold</li><li>Multi-Call Handling</li><li>Simultaneous Ring</li><li>Azure Voicemail</li></ul></li><li>Calling plan support</li></ul> |<ul><li>Skype for Business -to-Teams calling</li></ul> |<ul><li> Windows, Mac Teams client meetings feature support</li><li>Browser Teams client meetings feature support for:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>iOS and Android Teams client meetings feature support</li><li>TTY support</li></ul> | <ul><li>Call quality diagnostic portal</li><li>Tenant Dial Plan</li><li>Tenant Caller ID policies</li><li>Enable call quality analytics (CQD)</li></ul> | <ul><li>Validate Teams meeting features based on corporate laptop image</li><li>Specific language support</li><li>GPO settings applied for a given user scenario or specific site</li></ul> | Yes  |
 
--   Blind transfer
 
--   Call Blocking
 
--   Call Forwarding
 
--   Caller ID Masking
+#### Phone System with Calling Plans user functionality definition
 
--   E911 Support
+> [!TIP]
+> Below is an example of a user functionality template that you can use to
+> document the user experience required based on the Phone System with
+> Calling Plans features to be evaluated.
 
--   Extension Dialing
-
--   Call Hold
-
--   Multi-Call Handling
-
--   Simultaneous Ring
-
--   Azure Voicemail
-
--   Calling plan support
-
--   Chrome
-
--   Microsoft Edge
-
-iOS and Android Teams client meetings feature support
-
-TTY support
-
-#### Phone System with Calling Plans user functionality definition:
-
->   **Tip**
-
->   Below is an example of a user functionality template that you can use to
->   document the user experience required based upon the Phone System with
->   Calling Plans features to be evaluated.
 
 | Exchange experience                          | SharePoint experience                            | Teams interoperability policy experience |
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
-| Create teams (Office Group creation enabled) | Store and share files within Teams conversations | ChatDefaultClient: Default               |
-
--   Join teams
-
--   Create channels
-
--   Create and view meetings
-
--   Modify user profile picture
-
--   Add and configure connectors
-
--   Add and configure tabs
-
--   Add and configure bots
-
--   Store and share and files within private chats (based on OneDrive)
-
--   CallingDefaultClient: Default
-
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide which Phone System with Calling Plans category features you’ll deploy in your environment. |
-|------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------|
+| <ul><li>Create teams (Office Group creation enabled)</li><li>Join teams</li><li>Create channels</li><li>Create and view meetings</li><li>Modify user profile picture</li><li>Add and configure connectors</li><li>Add and configure tabs</li><li>Add and configure bots</li></ul> | <ul><li>Store and share files within Teams conversations</li><li>Store and share and files within private chats (based on OneDrive)</li></ul> | <ul><li>ChatDefaultClient: Default</li><li>CallingDefaultClient: Default</li></ul>      |
 
 
-    -   Identify your user audio conferencing functionality requirements given
-        your current Skype for Business, Exchange, and SharePoint deployment
-        landscape.
-
-        -   Decide which Teams interoperability experience you’ll deploy.
-
-            -   Review the latest Teams public roadmap and decide whether
-                current workload capabilities meet your deployment timeline.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment. |   |   |   |
-|------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-
-
--   Document user audio conferencing functionality and interoperability
-    requirements given your current Skype for Business, Exchange, and SharePoint
-    deployment landscape.
-
--   Document whether the latest Teams public roadmap representing Phone System
-    with Calling Plans capabilities meets the business needs and timing
-    requirements of your deployment
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Decide which Phone System with Calling Plans category features you’ll deploy in your environment.</li><li>Identify your user Phone System with Calling Plans functionality requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Decide which Teams interoperability experience you’ll deploy.</li><li>Review the latest Teams public roadmap and decide whether current workload capabilities meet your deployment timeline.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment.</li><li>Document user Phone System with Calling Plans functionality and interoperability requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Document whether the latest Teams public roadmap representing Phone System with Calling Plans capabilities meets the business needs and timing requirements of your deployment.</li></ul></td></tr>
+</table>
 
 Define and document your Phone System with Calling Plans test plan
 ------------------------------------------------------------------
@@ -229,8 +164,7 @@ At a high level, the test plan should include:
 -   **Test deliverables:** Summary of which outcomes will be developed and
     delivered to support sign-off acceptance and exit of the testing process
 
->   **Tip**
-
+> [!TIP]
 >   A testing methodology might already exist in your organization, but the
 >   guidance below reflects best practices that can be included or leveraged
 >   separately for testing Teams features in your environment.
@@ -255,24 +189,19 @@ typically includes:
 
 #### Phone System with Calling Plans testing scope
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of test scope template that you can use to document the
 >   Phone System with Calling Plans administration and user group features to be
 >   evaluated.
 
 | Phone System with Calling Plans site readiness                                                                                                                                                                                    | Phone System with Calling Plans user experience                                                                                                                                                                                         | Phone System with Calling Plans administration experience                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Network Planner bandwidth planning (via MyAdvisor) Network connectivity and performance validation (via the Skype for Business network assessment tool) Quality of service (QoS) validation Remote access split-tunnel validation | PBX features PSTN calling (domestic and international) Placing and receiving PSTN calls Azure Voicemail E911 Tenant Dial Plan Tenant Caller ID masking Advanced call control features (for example, call forwarding, simultaneous ring) | Licensing assignment Subscriber number porting to Office 365 Phone System with Calling Plans reporting Call quality reporting (CQD) |
-| ![](media/audio_conferencing_image7.png)                                                                                                                                                                                          | Decision points                                                                                                                                                                                                                         | Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.                     |
+| <ul><li>Network Planner bandwidth planning (via MyAdvisor)<li></li>Network connectivity and performance validation (via the Skype for Business network assessment tool)<li></li>Quality of service (QoS) validation<li></li>Remote access split-tunnel validation</li></ul>|<ul><li>PBX features<li></li>PSTN calling (domestic and international)<li></li> Placing and receiving PSTN calls<li></li>Azure Voicemail<li></li>E911<li></li>Tenant Dial Plan<li></li>Tenant Caller ID masking <li></li>Advanced call control features (for example, call forwarding, simultaneous ring)</li></ul> |<ul><li>Licensing assignment</li><li>Subscriber number porting to Office 365</li><li>Phone System with Calling Plans reporting</li><li>Call quality reporting (CQD)</li></ul> |
 
--   Decide additional goals and objectives for evaluation.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the Phone System with Calling Plans features to be evaluated by focus area. |   |
-|------------------------------------------|------------|--------------------------------------------------------------------------------------|---|
-
-
--   Document additional goals and objectives for evaluation.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.</li><li>Decide additional goals and objectives for evaluation.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans features to be evaluated by focus area.</li><li>Document additional goals and objectives for evaluation.</li></ul></td></tr>
+</table>
 
 ### Define and document Phone System with Calling Plans test cases
 
@@ -300,23 +229,20 @@ grouped by focus area and include:
 -   **Expected results:** The outcome you expect after the test is successfully
     completed
 
->   **Note**
-
+> [!NOTE]
 >   Because the approach and level of detail required for test case creation
 >   might vary within your organization, it’s a good idea to follow an approach
 >   that allows for an adequate level of detail yet balances thoroughness with
 >   practicality, to support overall testing manageability.
 
->   **Tip**
-
+> [!TIP]
 >   To assist with test-case creation as a starting point, see the list of phone
 >   system user guidance available at [Teams Meetings and
->   calls](https://support.office.com/en-us/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
+>   calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 #### Phone System with Calling Plans test case
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of test case template that you can use to document the
 >   Phone System with Calling Plans administration and user group features to be
 >   evaluated.
@@ -325,51 +251,24 @@ Phone System with Calling Plans Validation
 
 | Test case ID | Test case title               | Test case description                                                  | Environment required for test case execution                                               | Steps required for test case execution                                                                                                                                                          | Testing resource required              |
 |--------------|-------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| 1            | Placing an outbound PSTN call | Verify that you can place an external voice call to a 10-digit number. | 1. Teams client installed 2. User enabled with the following Office 365 licenses assigned: | 1. Sign in to the Teams client.                                                                                                                                                                 | Phone System with Calling Plans Tester |
-|              |                               |                                                                        |                                                                                            | 2. Select the dial pad and enter a 10-digit number to be dialed.                                                                                                                                |                                        |
-|              |                               |                                                                        |                                                                                            | 3. Verify that the number dial is properly normalized and the external PSTN call is established.                                                                                                |                                        |
+| 1            | Placing an outbound PSTN call | Verify that you can place an external voice call to a 10-digit number. |<ul><li>Teams client installed.</li><li>User enabled with the following Office 365 licenses assigned:<ul><li>Office Enterprise E5 with Phone System, Microsoft Teams, and Domestic and International Calling Plans</li><li>Office Enterprise E3 with Phone System, Microsoft Teams, and Domestic and International Calling Plans</li></ul></li></ul> | <ol><li>Sign in to the Teams client.</li><li>Select the dial pad and enter a 10-digit number to be dialed.</li><li>Verify that the number dial is properly normalized and the external PSTN call is established.</li></ol>    | Phone System with Calling Plans Tester |
 
--   Office Enterprise E5 with:
 
--   Phone System
-
--   Microsoft Teams
-
--   Domestic and International Calling Plans
-
--   Office Enterprise E3 with:
-
--   Phone System
-
--   Microsoft Teams
-
--   Domestic and International Calling Plans
-
->   **Tip**
-
+> [!TIP]
 >   For additional guidance in facilitating individual test case and overall
 >   plan creation for evaluating Phone System with Calling Plans features in
 >   your organization, review the [Phone System Test
 >   Plan](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide which Phone System with Calling Plans administration and user features will be evaluated. |
-|------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------|
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which Phone System with Calling Plans administration and user features will be evaluated.</li><li>Decide what test environment is required to support test case execution.</li><li>Decide the steps required for test case evaluation.</li><li>Decide the resources required for proper execution of the test.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test cases to be evaluated, based on the test case template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+</table>
 
 
--   Decide what test environment is required to support test case execution.
-
-    -   Decide the steps required for test case evaluation.
-
-        -   Decide the resources required for proper execution of the test.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the test cases to be evaluated, based on the test case template provided. |   |   |   |
-|------------------------------------------|------------|------------------------------------------------------------------------------------|---|---|---|
-
-
--   Include the completed template as part of your overall test plan.
-
-### *Define and document testing resources*
+### Define and document testing resources
 
 To support the testing phase, it’s important that you develop a resource plan
 detailing the people, support, and technology resources that you’ll require. An
@@ -388,43 +287,25 @@ At a high level, these resources typically consist of:
 
 #### Testing resource requirements
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of testing resource requirement template that you can
 >   use to document the different types of resources required to support your
 >   testing phase.
 
+
 | Resource type | Resources required                                           | Resource description |
 |---------------|--------------------------------------------------------------|----------------------|
 | People        | Stakeholders Test Lead Testers                               | TBD                  |
-| Technology    | Access to Office 365 with the following services enabled:    | TBD                  |
+| Technology    | Access to Office 365 with the following services enabled:<ul><li>Office 365 E5 Licensing Assigned</li><li>Domestic and International Calling Plan Assigned</li></ul>    | TBD                  |
 | Support       | Test administrator Test support lead Test support technician | TBD                  |
 
--   Office 365 E5 Licensing Assigned
-
--   Domestic and International Calling Plan Assigned
-
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide the resource types (people, technology, and support) that you’ll need to support the testing phase. |
-|------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------|
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Decide the specific resources required for the resource types you identified.</li><li>Decide whether you should provide further detail to describe the types of resources that you need.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Document the specific resources required for the resource types you identified.</li><li>If you decide it’s necessary, document any further detail about the types of resources you need to support the testing phase.</li></ul></td></tr>
+</table>
 
 
-    -   Decide the specific resources required for the resource types you
-        identified.
-
-        -   Decide whether you should provide further detail to describe the
-            types of resources that you need.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the resource types (people, technology, and support) that you’ll need to support the testing phase. |   |   |
-|------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|---|---|
-
-
--   Document the specific resources required for the resource types you
-    identified
-
--   If you decide it’s necessary, document any further detail about the types of
-    resources you need to support the testing phase.
-
-### *Define and document a testing timeline*
+### Define and document a testing timeline
 
 As part of the test plan definition, create a timeline that outlines the
 schedule for when you expect to complete testing activities and achieve
@@ -454,8 +335,7 @@ At a high level, this typically consists of:
 
 #### Testing scheduling and timeline requirements
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of a testing timeline requirement template that you can
 >   use to document the anticipated dates for when specific testing activities
 >   will be completed or milestones delivered by.
@@ -465,34 +345,15 @@ At a high level, this typically consists of:
 | Test Report                                          | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
 | Test Case Execution: Phone System with Calling Plans | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
 | Test Case Execution: Network Readiness               | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | TBD hours  |
-| ![](media/audio_conferencing_image7.png)             | Decision points | Decide timeline activity, milestone, and tasks that you need to track. |                 |       |                    |            |
-
--   Decide which resources you’ll need to assign.
-
-    -   Decide the completion date anticipated
-
-        -   Identify the delivery owner.
-
-            -   Decide how much time it will take to complete the activity,
-                milestone, or task.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document your testing timeline by using the template provided, and include: |   |   |   |   |
-|------------------------------------------|------------|-----------------------------------------------------------------------------|---|---|---|---|
 
 
--   Timeline activity, milestone, and tasks that need to be tracked
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide timeline activity, milestone, and tasks that you need to track.</li><li>Decide which resources you’ll need to assign.</li><li>Decide the date you expect to be done.</li><li>Identify the delivery owner.</li><li>Decide how much time it will take to complete the activity, milestone, or task.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document your testing timeline by using the template provided, and include:<ul><li>Timeline activity, milestone, and tasks that need to be tracked.</li><li>Resources that need to be assigned.</li><li>Anticipated completion date.</li><li>Delivery owner.</li><li>Time required to complete the activity, milestone, or task.</li></ul></li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+</table>
 
--   Resources that need to be assigned
 
--   Anticipated completion date
-
--   Delivery owner
-
--   Time required to complete the activity, milestone, or task
-
--   Include the completed template as part of your overall test plan
-
-### *Define and document test defect report criteria*
+### Define and document test defect report criteria
 
 As test cases within a given phase or stream are executed, issues might arise
 where the result from the test case being executed isn’t what you expected.
@@ -545,26 +406,22 @@ evaluation process.
 
 #### Testing defect report and remediation plan
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of Defect Report and Remediation Plan template that you
 >   can use to document issues discovered during the testing phase.
 
 | Defect ID                                | Test case ID impacted | Defect description                                                                                 | Environment /steps to reproduce                                                                                                | Severity | Status | Submitted by | Assigned owner | Supporting details (logs, screenshots, and so on) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
-| 1                                        | 1                     | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | In the Teams client, select the dial pad, enter a four-digit extension and select the phone icon to attempt to place the call. | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log Teams client screenshot     |
-| ![](media/audio_conferencing_image7.png) | Decision points       | Decide which defect criteria severity levels you’ll assign to support the testing effort.          |                                                                                                                                |          |        |              |                |                                                   |
-
--   Decide what testing defect reporting criteria you’ll document if issues
-    arise during testing.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the testing defect reporting criteria required in the template provided. |   |
-|------------------------------------------|------------|-----------------------------------------------------------------------------------|---|
+| 1                                        | 1                     | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | In the Teams client, select the dial pad, enter a four-digit extension and select the phone icon to attempt to place the call. | Medium   | Closed | Louis Lahr   | Lisa Gray      | Teams client-side log<br/> Teams client screenshot     |
 
 
--   Include the completed template as part of your overall test plan.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which defect criteria severity levels you’ll assign to support the testing effort.</li><li>Decide what testing defect reporting criteria you’ll document if issues arise during testing.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing defect reporting criteria required in the template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+</table>
 
-### *Define and document exit and suspension criteria*
+
+### Define and document exit and suspension criteria
 
 As part of the overall test plan execution process, you need to define criteria
 to indicate the point at which you should suspend testing efforts versus
@@ -573,36 +430,23 @@ phase.
 
 #### Test plan exit and suspension criteria
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of exit and suspension criteria template that you can
 >   use in your test plan to document criteria required to achieve sign-off,
 >   exit the testing phase, or suspend testing activities.
 
 | Testing exit criteria                            | Testing suspension criteria                      |
 |--------------------------------------------------|--------------------------------------------------|
-| All test cases must achieve a pass rate of TBD % | All test cases must achieve a TBD % failure rate |
-
--   All test cases must have been completely executed
-
--   From all test cases evaluated, all High severity defects must be closed
-
--   All defects identified as High severity must be resolved before testing can
-    continue
-
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide on suspension criteria that must be met if issues with testing are identified. |
-|------------------------------------------|-----------------|---------------------------------------------------------------------------------------|
+|<ul><li>All test cases must achieve a pass rate of TBD %</li><li>All test cases must have been completely executed</li><li>From all test cases evaluated, all High severity defects must be closed</li></ul> | <ul><li>All test cases must achieve a TBD % failure rate</li><li>All defects identified as High severity must be resolved before testing can continue.</li></ul> |
 
 
-    -   Decide on exit criteria that must be met to obtain testing acceptance
-        sign-off and support exiting the testing phase after all testing
-        activities are complete.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document the testing exit and suspension criteria required in the test and exit templates provided |   |
-|------------------------------------------|------------|----------------------------------------------------------------------------------------------------|---|
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide on suspension criteria that must be met if issues with testing are identified.</li><li>Decide on exit criteria that must be met to obtain testing acceptance sign-off and support exiting the testing phase after all testing activities are complete.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing exit and suspension criteria required in the test and exit templates provided.</li></ul></td></tr>
+</table>
 
 
-### *Define and document the defect escalation process*
+### Define and document the defect escalation process
 
 Throughout the course of test plan execution, you might discover an issue or
 identify a defect that requires escalation to the right resource for driving and
@@ -650,8 +494,7 @@ Typically, a defect report and remediation plan includes the following:
 
 #### Test plan defect escalation
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of a defect escalation template that you can use in part
 >   of your test plan to document the escalation process required for
 >   prioritizing and resolving testing defects.
@@ -659,31 +502,16 @@ Typically, a defect report and remediation plan includes the following:
 | Defect ID                                | Defect description                                                                                 | Defect priority assessment                                           | Assigned defect owner | Assigned defect escalation point | Defect escalation method                                          | Defect status | Required resolution by date | Status date |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
 | 1                                        | When the user enters a four-digit extension, attempting to place an outbound call, the call fails. | Medium                                                               | Lisa Gray             | Louis Lahr                       | Weekly Triage Review High-priority email to affected stakeholders | Open          | ASAP                        | 1/12/2018   |
-| ![](media/audio_conferencing_image7.png) | Decision points                                                                                    | Decide and agree on the defect priorities to support your test plan. |                       |                                  |                                                                   |               |                             |             |
-
--   Decide the escalation point for each defect area.
-
-    -   Decide the defect escalation and triage plan to follow, based on
-        priority.
-
-        -   Decide the defect reporting and triage communication plan for
-            escalation.
-
-            -   Decide the defect triage review meeting cadence.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document defect priorities agreed to. |   |   |   |   |
-|------------------------------------------|------------|---------------------------------------|---|---|---|---|
 
 
--   Document the escalation point for each potential focus area.
 
--   Document the defect escalation and triage plan based on agreed-on criteria.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide and agree on the defect priorities to support your test plan.</li><li>Decide the escalation point for each defect area.</li><li>Decide the defect escalation and triage plan to follow, based on priority.</li><li>Decide the defect reporting and triage communication plan for escalation.</li><li>Decide the defect triage review meeting cadence.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the agreed-on defect priorities.</li><li>Document the escalation point for each potential focus area.</li><li>Document the defect escalation and triage plan based on agreed-on criteria.</li><li>Document your defect reporting guidelines.</li><li>Schedule the series of defect triage meetings.</li></ul></td></tr>
+</table>
 
--   Document your defect reporting guidelines.
 
--   Schedule the series of defect triage meetings.
-
-### *Define and document testing deliverables*
+### Define and document testing deliverables
 
 The last and final component in creating a test plan is to identify the outcomes
 in terms of specific deliverables that the overall test plan will deliver.
@@ -702,8 +530,7 @@ At a high level, these typically include, but aren’t limited to:
 
 #### Test plan deliverables
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of a test plan deliverable matrix that you can use to
 >   document the deliverables to be created, along with resources required for
 >   review, approval, and sign-off.
@@ -714,21 +541,15 @@ At a high level, these typically include, but aren’t limited to:
 | Defect management reports                | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Testing status reports                   | Word                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Test results summary                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| ![](media/audio_conferencing_image7.png) | Decision points              | Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its: |                                |                                |                                     |
-
--   Format
-
-    -   Owner
-
-        -   Reviewer
-
-            -   Approver
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document a test plan deliverable creation and delivery matrix. |   |   |   |   |
-|------------------------------------------|------------|----------------------------------------------------------------|---|---|---|---|
 
 
-*Evaluate network readiness*
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its:<ul><li>Format</li><li>Owner</li><li>Reviewer</li><li>Approver</li></ul></li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document a test plan deliverable creation and delivery matrix.</li></ul></td></tr>
+</table>
+
+
+Evaluate network readiness
 ----------------------------
 
 As a critical element supporting your Teams deployment, network readiness is a
@@ -745,7 +566,7 @@ strategy:
 
 -   Split-tunneling validation
 
-### *Execute Network Planner (through MyAdvisor) for sites and personas in scope*
+### Execute Network Planner (through MyAdvisor) for sites and personas in scope
 
 Before introducing real-time communication services like Teams in your
 environment, it’s important to ensure that the network has been properly
@@ -760,41 +581,19 @@ tool (through MyAdvisor) to validate your organization’s network readiness
 needs. For additional guidance on how to determine network requirements for
 Teams through the Network Planner, see MyAdvisor: Network Planner.
 
->   **Tip**
-
+> [!TIP]
 >   For additional information about the **Recommendations** tab, with examples
 >   of how to configure and interpret the results, see the Network Planner
 >   [Recommendations
 >   Overview](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp).
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide which network sites are in scope for deployment of Teams services. |
-|------------------------------------------|-----------------|---------------------------------------------------------------------------|
 
 
--   Decide the personas required for Teams modalities in scope.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide which network sites are in scope for deployment of Teams services.</li><li>Decide the personas required for Teams modalities in scope.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope.</li><li>Document Network Planner validation results in the test plan results template provided.</li><li>Validate that the ExpressRoute (if applicable), internet, and WAN bandwidth that was calculated for sites in scope aligns to bandwidth values that are currently allocated.</li><li>For sites that don’t have adequate bandwidth, execute escalation and remediation plans to resolve bandwidth issues.</li><li>Establish a network monitoring solution for sites in scope to monitor bandwidth usage and QoS for ExpressRoute (if applicable), internet, and WAN segments.</li><li>Schedule a steering committee meeting to review Network Planner results.</li><li>Present bandwidth planning results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
 
-| ![](media/audio_conferencing_image9.png) | Next steps | Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope. |   |
-|------------------------------------------|------------|-------------------------------------------------------------------------------------------|---|
-
-
--   Document Network Planner validation results in the test plan results
-    template provided.
-
--   Validate that the ExpressRoute (if applicable), internet, and WAN bandwidth
-    that was calculated for sites in scope aligns to bandwidth values that are
-    currently allocated.
-
--   For sites that don’t have adequate bandwidth, execute escalation and
-    remediation plans to resolve bandwidth issues.
-
--   Establish a network monitoring solution for sites in scope to monitor
-    bandwidth usage and QoS for ExpressRoute (if applicable), internet, and WAN
-    segments
-
--   Schedule a steering committee meeting to review Network Planner results.
-
--   Present bandwidth planning results to the steering committee to identify any
-    areas that require remediation.
 
 Evaluate QoS configuration for sites in scope
 ---------------------------------------------
@@ -805,14 +604,14 @@ properly configured and optimized from a QoS perspective.
 
 For additional guidance on how to configure, deploy, and validate QoS network
 readiness for Teams by using Group Policy, see [Enabling QoS for
-Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network).
+Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide on the QoS configuration to be implemented. |
-|------------------------------------------|-----------------|----------------------------------------------------|
-| ![](media/audio_conferencing_image9.png) | Next steps      | Configure QoS.                                     |
 
--   Execute QoS validation as outlined from steps listed via the “validate via
-    GPO” and “validate via Message Analyzer” sections above
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide on the QoS configuration to be implemented.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
+</table>
+
 
 ### Document QoS configuration validation test results
 
@@ -822,42 +621,36 @@ final steering committee review.
 
 #### Site A: QoS configuration validation testing summary report
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example testing summary report template that you can review
 >   during the next steering committee meeting when you’re deciding when to
 >   onboard Phone System with Calling Plans services in the Pilot phase.
 
-| QoS configuration validation via GPO and Message Analyzer |                  |
-|-----------------------------------------------------------|------------------|
-| **Results summary**:                                      |                  |
-| Testing highlights                                        |                  |
-| TBD                                                       | TBD              |
-| Testing lowlights                                         |                  |
-| Issue: TBD                                                | Remediation: TBD |
-| Blockers identified                                       |                  |
-| Blocker: TBD                                              | Remediation: TBD |
 
-**Tip**
+**QoS configuration validation via GPO and Message Analyzer**
 
-To facilitate further discussion during the final steering committee review, you
-can use the updated [Test Results
-matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)
-from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and
-highlight additional areas that require remediation.
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized. |
-|------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
-| ![](media/audio_conferencing_image9.png) | Next steps      | Document QoS test results in the test plan result template provided.                                             |
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
 
--   Execute escalation and remediation plans to resolve issues where QoS might
-    not be properly configured or isn’t working as expected to support Teams
-    media traffic.
 
--   Schedule a steering committee meeting to review test summary results.
+> [!TIP]
+> To facilitate further discussion during the final steering committee review, you can use the updated [Test Results matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and highlight additional areas that require remediation.
 
--   Present test summary results to the steering committee to identify any areas
-    that require remediation.
+
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document QoS test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where QoS might not be properly configured or isn’t working as expected to support Teams media traffic.</li></ul></td></tr><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li>
+</table>
+
 
 Execute split-tunnel enablement validation
 ------------------------------------------
@@ -877,20 +670,20 @@ in your environment, a split-tunnel configuration will be required.
 
 For additional guidance on how to configure and validate split-tunnel
 configuration network readiness for Teams, see
-[Network](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)
+[Network](https://docs.microsoft.com/MicrosoftTeams/prepare-network)
 Readiness.
 
->   **Note**
-
+> [!NOTE]
 >   Due to the sheer volume of remote access solutions available in the
 >   marketplace, this document can’t provide vendor-specific details, just
 >   general guidelines for what should be configured on remote access solutions.
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide the split-tunnel configuration to implement. |
-|------------------------------------------|-----------------|-----------------------------------------------------|
-| ![](media/audio_conferencing_image9.png) | Next steps      | Implement split-tunnel configuration.               |
 
--   Test and validate the split-tunnel configuration
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the split-tunnel configuration to implement.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Implement split-tunnel configuration.</li><li>Test and validate the split-tunnel configuration.</li></ul></td></tr>
+</table>
+
 
 ### Document split-tunnel configuration validation test results
 
@@ -900,32 +693,34 @@ steering committee review.
 
 #### Site A: Split-tunnel configuration validation testing summary report
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example testing summary report template that you can review
 >   during the next steering committee meeting when you’re deciding when to
->   onboard Phone System with Calling Plans services in the pilot phase.
+>   onboard Phone System with Calling Plans services in the Pilot phase.
 
-| Split-tunnel configuration validation    |                  |                                                                                                                                 |
-|------------------------------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| **Results Summary**:                     |                  |                                                                                                                                 |
-| Testing highlights                       |                  |                                                                                                                                 |
-| TBD                                      | TBD              |                                                                                                                                 |
-| Testing lowlights                        |                  |                                                                                                                                 |
-| Issue: TBD                               | Remediation: TBD |                                                                                                                                 |
-| Blockers identified                      |                  |                                                                                                                                 |
-| Blocker: TBD                             | Remediation: TBD |                                                                                                                                 |
-| ![](media/audio_conferencing_image7.png) | Decision points  | Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution. |
-| ![](media/audio_conferencing_image9.png) | Next steps       | Document split-tunnel connectivity test results in the test plan result template provided.                                      |
+**Split-tunnel configuration validation**
 
--   Execute escalation and remediation plans to resolve issues where proper
-    routing might not exist for supporting Teams media within a split-tunnel
-    configuration.
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail
 
--   Schedule a steering committee meeting to review test summary results.
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
 
--   Present test summary results to the steering committee to identify any areas
-    that require remediation.
+
+> [!TIP]
+> To facilitate further discussion during the final steering committee review, you can use the updated [Test Results matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and highlight additional areas that require remediation.
+
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document split-tunnel connectivity test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where proper routing might not exist for supporting Teams media within a split-tunnel  configuration.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
+
 
 Execute network connectivity and performance validation by using the Network Assessment tool from Microsoft
 -----------------------------------------------------------------------------------------------------------
@@ -941,27 +736,22 @@ ingress points that support connectivity to Teams services.
 
 For additional guidance on how to confirm and evaluate Teams network readiness
 for designated sites in scope, see
-[Network](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)
+[Network](https://docs.microsoft.com/MicrosoftTeams/prepare-network)
 Readiness.
 
->   **Tip**
-
+> [!TIP]
 >   To complete network readiness analysis and readiness for sites in scope,
 >   designate a lead for each site who can assist with your network readiness
 >   evaluation efforts.
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide the network assessment and connectivity testing profile for sites in scope. |
-|------------------------------------------|-----------------|------------------------------------------------------------------------------------|
 
 
--   Decide network assessment configuration file requirements for sites in
-    scope.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the network assessment and connectivity testing profile for sites in scope.</li><li>Decide network assessment configuration file requirements for sites in scope.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure network assessment configuration file requirements for sites in scope.</li><li>Execute network performance and connectivity validation for sites in scope.</li></ul></td></tr>
+</table>
 
-| ![](media/audio_conferencing_image9.png) | Next steps | Configure network assessment configuration file requirements for sites in scope. |   |
-|------------------------------------------|------------|----------------------------------------------------------------------------------|---|
 
-
--   Execute network performance and connectivity validation for sites in scope.
 
 ### Document network connectivity and performance validation test results
 
@@ -971,51 +761,50 @@ during the next steering committee review.
 
 #### Site A: Network connectivity and performance summary report
 
->   **Tip**
+> [!TIP]
+> Below is an example network connectivity and performance summary template
+> that you can use during the next steering committee review when you’re
+> determining overall network readiness for sites in scope.
 
->   Below is an example network connectivity and performance summary template
->   that you can use during the next steering committee review when you’re
->   determining overall network readiness for sites in scope.
+**Location: Seattle [inside wired] client to Office 365 results**
 
-| Location: Seattle [inside wired] client to Office 365 results |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------|
-| **Results Summary**:                                          |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
+
+
+
 | Metric                                                        | Target                                                                                                            | Weekday: office hours 9:30 AM to 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: office hours 2:30 PM to 4:30 PM | Weekday: after hours 10:30 PM to 12:30 AM | Weekend: after hours 9:30 AM to 11:30 AM | Weekend: after hours 2:30 PM to 4:30 PM |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latency (one way)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latency (round-trip time, or RTT)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
 | Burst packet loss                                             | \<10% during any 200-ms interval                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | 0.2%                                     | 0.1%                                    |
 | Packet loss                                                   | \<1% during any 15-sec interval                                                                                   | 0.4%                                                                                                                                                                                                                                                                                                                                      | 0.3%                                     | 0.3%                                      | 0.1%                                     | 0%                                      |
 | Packet inter-arrival jitter                                   | \<30 ms during any 15-sec interval                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
 | Packet reorder                                                | \<0.05% out-of-order packets                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
-| Testing highlights                                            |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| TBD                                                           | TBD                                                                                                               |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Testing lowlights                                             |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High latency                                       | **Remediation:** Investigate packet routing and implement the ideal route.                                        |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: Round trip time is not double the latency          | **Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.        |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Issue: High packet loss                                       | **Remediation:** Verify through the Network Planner that enough bandwidth has been allocated.                     |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Issue: High jitter                                            | **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High packet loss                                   | **Remediation:** Investigate packet loss.                                                                         |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| **Issue**: High packet reorder                                | **Remediation:** Investigate router queueing and bandwidth.                                                       |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Blockers identified                                           |                                                                                                                   |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| Blocker: TBD                                                  | Remediation: TBD                                                                                                  |                                                                                                                                                                                                                                                                                                                                           |                                          |                                           |                                          |                                         |
-| ![](media/audio_conferencing_image7.png)                      | Decision points                                                                                                   | Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments. |                                          |                                           |                                          |                                         |
-| ![](media/audio_conferencing_image9.png)                      | Next steps                                                                                                        | Document network performance and connectivity test results.                                                                                                                                                                                                                                                                               |                                          |                                           |                                          |                                         |
 
--   Have you evaluated network capabilities for supporting real-time media for
-    all sites in scope?
 
--   If your network hasn’t been properly assessed, or you know it won’t support
-    real-time media, will you disable video and screen-sharing capabilities to
-    reduce network impact and improve the Teams experience for users?
 
--   Execute escalation and remediation plans to resolve issues with sites where
-    there’s not enough bandwidth, or network performance and connectivity
-    requirements aren’t being met.
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr> 
+<tr><td>**Issue**: High latency</td><td>**Remediation:** Investigate packet routing and implement the ideal route.</td></tr>
+<tr><td>**Issue**: Round-trip time isn't double the latency</td><td>**Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.</td></tr>
+<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Verify through the Network Planner that enough bandwidth has been allocated. </td></tr>
+<tr><td>**Issue**: High jitter </td><td> **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. </td></tr>
+<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Investigate packet loss. </td></tr>
+<tr><td>**Issue**: High packet reorder </td><td>**Remediation:** Investigate router queueing and bandwidth. </td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**:  TBD</td></tr>
+</table>
 
--   Schedule a steering committee meeting to review test summary results.
+ 
 
--   Present test summary results to the steering committee to identify any areas
-    that require remediation.
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments.</li><li>Have you evaluated network capabilities for supporting real-time media for all sites in scope?</li><li> If your network hasn’t been properly assessed, or you know it won’t support real-time media, will you disable video and screen-sharing capabilities to reduce network impact and improve the Teams experience for users?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document network performance and connectivity test results.</li><li>Execute escalation and remediation plans to resolve issues with sites where there’s not enough bandwidth, or network performance and connectivity requirements aren’t being met.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
+
 
 Execute subscriber number port validation
 -----------------------------------------
@@ -1036,11 +825,8 @@ Identify the test number that you would like to port to Office 365 as an
 assignable user number (subscriber number) to be serviced via the Phone System
 with Calling Plans service in Teams.
 
-**Important**
-
-As you plan your number porting test, be sure to review the latest guidelines
-for number porting requests in [Number Port Common
-Questions](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions).
+> [!IMPORTANT]
+>As you plan your number porting test, be sure to review the latest guidelines for number porting requests in [Number Port Common Questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions).
 
 #### Step 2
 
@@ -1049,21 +835,20 @@ specific account) for the current carrier of the test number you’ll be porting
 Typically, you can find the information you’ll need in the most recent bill or
 invoice from your current service provider.
 
->   **Tip**
-
+> [!TIP]
 >   You can port or transfer phone numbers within all currently supported
 >   countries/regions; however, the way you submit a port order request might
 >   differ depending on the country/region where the phone numbers are sourced
 >   from. For the latest list of currently supported countries/regions, see
 >   [Countries and region availability for Audio Conferencing and Calling
->   Plans](https://docs.microsoft.com/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+>   Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 >   For additional information about transferring phone numbers to Phone System
 >   with Calling Plans—along with potential restrictions—see [Transfer phone
 >   numbers to Office
 >   365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 >   and [Toll Free dialing restrictions within Office
->   365](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
+>   365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### Step 3
 
@@ -1075,9 +860,9 @@ that’s based on “service Number” as the number porting type.
 >   geographic versus non-geographic or user number versus service or toll-free
 >   number), verify that you’re using the correct LOA template for your specific
 >   scenario type. See [Download a Letter of Authorization
->   (LOA)](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa)
+>   (LOA)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa)
 >   for more information about choosing the LOA, or go directly to the [download
->   page](https://www.microsoft.com/en-us/download/details.aspx?id=49167).
+>   page](https://www.microsoft.com/download/details.aspx?id=49167).
 
 >[!NOTE]
 > **United States only**<br/>
@@ -1104,7 +889,7 @@ service request. Attach the completed LOA file to schedule the phone number
 associated with your current service provider for migration. To choose the
 service request method most appropriate for your tenant size, see [Manually
 submit a custom service
-request](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
+request](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
 
 After the support request is received, Microsoft Support will follow up based on
 the communication method you’ve chosen and advise you of status and next steps
@@ -1118,8 +903,7 @@ service by going to the tenant admin portal \> **Skype for Business Admin
 Center** \> **Voice**. On the **Phone Numbers** tab, assign the new service
 number to the Phone System with Calling Plans service.
 
->   **Note**
-
+> [!TIP]
 >   Though this task assigns a new service number to Phone System with Calling
 >   Plans, at the time of this writing, the administration for this task is
 >   completed by using the Skype for Business admin center.
@@ -1137,26 +921,13 @@ From an external PSTN number, place a call to the subscriber number you ported
 to Office 365 and verify that the call is received inbound and connected via the
 Teams client.
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide which domestic subscriber numbers you’ll need to port, by country/region. |
-|------------------------------------------|-----------------|----------------------------------------------------------------------------------|
 
 
--   Decide which LOA template you’ll use.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide which domestic subscriber numbers you’ll need to port, by country/region.</li><li>Decide which LOA template you’ll use.</li><li>Determine whether your current carrier (losing carrier) allows phone number fragmentation (that is, allows partial-port orders).</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Collect the required information and prepare the LOAs.</li><li>Download and complete the LOA templates you need.</li><li>Submit a subscriber number porting request.</li><li>Execute test validation for ported numbers by assigning them to the Phone System with Calling Plans service for dial-in access and confirm that they work, as outlined in steps 6 and 7 earlier in this section.</li></ul></td></tr>
+</table>
 
-    -   Determine whether your current carrier (losing carrier) allows phone
-        number fragmentation (that is, allows partial-port orders).
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Collect the required information and prepare the LOAs. |   |   |
-|------------------------------------------|------------|--------------------------------------------------------|---|---|
-
-
--   Download and complete the LOA templates you need.
-
--   Submit a subscriber number porting request.
-
--   Execute test validation for ported numbers by assigning them to the Phone
-    System with Calling Plans service for dial-in access and confirm that they
-    work, as outlined in steps 6 and 7, earlier in this section.
 
 ### Document service number porting test results
 
@@ -1165,48 +936,38 @@ summarizes test results to present during the next steering committee review.
 
 #### Site A: Number porting test summary report
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example test summary report template that you can use for review
 >   during the next steering committee meeting when you’re deciding when to
->   onboard Phone System with Calling Plans services in the pilot phase.
+>   onboard Phone System with Calling Plans services in the Pilot phase.
 
-| Service number porting |                  |
-|------------------------|------------------|
-| **Results summary**:   |                  |
-| Testing highlights     |                  |
-| TBD                    | TBD              |
-| Testing lowlights      |                  |
-| Issue: TBD             | Remediation: TBD |
-| Blockers identified    |                  |
-| Blocker: TBD           | Remediation: TBD |
+**Service Number porting**
 
->   **Tip**
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
 
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
+
+
+> [!TIP]
 >   To facilitate further discussion during the final steering committee review,
 >   you can use the updated [Test Results
 >   matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to
 >   document and highlight additional test areas that require remediation.
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service. |
-|------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
 
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service..</li><li>Evaluate whether you were able to assign the ported service number to the Phone System with Calling Plans service.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document your number porting test results.</li><li>Execute escalation and remediation plans to resolve issues you experienced with the number porting process, if any.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present the test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
 
--   Evaluate whether you were able to assign the ported service number to the
-    Phone System with Calling Plans service.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document your number porting test results. |   |
-|------------------------------------------|------------|--------------------------------------------|---|
-
-
--   Execute escalation and remediation plans to resolve issues you experienced
-    with the number porting process, if any.
-
--   Schedule a steering committee meeting to review test summary results.
-
--   Present the test summary results to the steering committee to identify any
-    areas that require remediation.
 
 Execute your test plan for Phone System with Calling Plans
 ----------------------------------------------------------
@@ -1254,66 +1015,69 @@ unforeseen issues arise.
 
 #### Phone System with Calling Plans test case status
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example test case status template that you can use to document
 >   test results for review during the next steering committee meeting when
 >   you’re deciding when to onboard Phone System with Calling Plans services in
->   the pilot phase.
+>   the Pilot phase.
 
 | Phone System with Calling Plans          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | Test case ID                             | Test case title              | Test case description                                                                      | Test case results summary | Assigned defect ID (if applicable)                                         |
-| 1                                        | Placing outbound PSTN calls. | Place an outbound call by dialing a domestic 10-digit number.                              |                           | When a user enters a four-digit number, the call placed to the PSTN fails. |
-| ![](media/audio_conferencing_image7.png) | Decision points              | Evaluate high-level test case pass/fail status by site for phone system features in scope. |                           |                                                                            |
-| ![](media/audio_conferencing_image9.png) | Next steps                   | Document the test case status results for all test cases completed in scope.               |                           |                                                                            |
+| 1                                        | Placing outbound PSTN calls. | Place an outbound call by dialing a domestic 10-digit number.                              |    &#9744;Pass<br/>&#9744;Partial<br/> &#9744;Fail                   | When a user enters a four-digit number, the call placed to the PSTN fails. |
 
--   Schedule a steering committee meeting to review test summary results.
 
--   Present test case status results to the steering committee to identify any
-    areas that require remediation.
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate high-level test case pass/fail status by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test case status results for all test cases completed in scope.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test case status results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
+
 
 ### Document Phone System with Calling Plans testing result summary
 
 After all test cases supporting Phone System with Calling Plans features in
 scope have been completed by site, document the results to review during a
 steering committee meeting when you’re deciding when to enable Phone System with
-Calling Plans services in the pilot phase.
+Calling Plans services in the Pilot phase.
 
 #### Site A: Phone System with Calling Plans test case summary report:
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example test summary report template that you can review during
 >   the next steering committee meeting when you’re deciding when to onboard
->   Phone System with Calling Plans services in the pilot phase.
+>   Phone System with Calling Plans services in the Pilot phase.
 
-| Phone System with Calling Plans |                  |
-|---------------------------------|------------------|
-| **Results Summary**:            |                  |
-| Testing highlights              |                  |
-| TBD                             | TBD              |
-| Testing lowlights               |                  |
-| Issue: TBD                      | Remediation: TBD |
-| Blockers identified             |                  |
-| Blocker: TBD                    | Remediation: TBD |
 
->   **Tip**
+**Teams Phone System with Calling Plans**
 
+**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail 
+
+<table>
+<tr><th colspan="2">Testing highlights </th></tr>
+<tr><td>TBD</td><td>TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr>  
+<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Blockers identified </td></tr>
+<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+</table>
+
+
+> [!TIP]
 >   To facilitate further discussion during the final steering committee review,
 >   you can use the updated [Test Results
 >   matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21)
 >   provided by [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to
 >   document and highlight additional areas that require remediation.
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Evaluate high-level test summary results by site for phone system features in scope.   |
-|------------------------------------------|-----------------|----------------------------------------------------------------------------------------|
-| ![](media/audio_conferencing_image9.png) | Next steps      | Document the test case summary report after all test case results have been completed. |
 
--   Schedule a steering committee meeting to review test summary results
 
--   Present test summary results to the steering committee to identify any areas
-    that require remediation
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate high-level test summary results by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test case summary report after all test case results have been completed.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+</table>
+
+
 
 Present and report Phone System with Calling Plans test findings
 ----------------------------------------------------------------
@@ -1335,39 +1099,19 @@ testing stakeholders. At the meeting, address:
 
 #### Test plan deliverables:
 
->   **Tip**
-
+> [!TIP]
 >   Below is an example of a test plan deliverable template that you can use to
 >   document the criteria required to achieve sign-off and exit the testing
 >   phase, or suspend testing until all identified issues are fully resolved.
 
 | Status summary               | Highlights/lowlights | Lessons learned | Closing Recommendation |
 |------------------------------|----------------------|-----------------|------------------------|
-| Test case pass rate of TBD % | TBD                  | TBD             | Proceed to Pilot       |
+| <ul><li>Test case pass rate of TBD %</li><li>All tests passed</li></ul> | TBD                  | TBD             | Proceed to Pilot       |
 
 -   All tests passed
 
-| ![](media/audio_conferencing_image7.png) | Decision points | Decide the testing status summary. |
-|------------------------------------------|-----------------|------------------------------------|
 
-
-    -   Identify testing highlights and lowlights.
-
-        -   Identify lessons learned.
-
-            -   Decide which remediation actions remain, if any.
-
-| ![](media/audio_conferencing_image9.png) | Next steps | Document test summary results to include: |   |   |   |
-|------------------------------------------|------------|-------------------------------------------|---|---|---|
-
-
--   Status summary
-
--   Highlights/lowlights
-
--   Lessons learned
-
--   Schedule a final steering committee meeting to review test results.
-
--   Present test summary results during a steering committee review to obtain
-    final sign-off for exiting the testing phase.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the testing status summary.</li><li>Identify testing highlights and lowlights.</li><li>Identify lessons learned.</li><li>Decide which remediation actions remain, if any.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document test summary results to include:<ul><li>Status summary</li><li>Highlights/lowlights</li><li>Lessons learned</li></ul></li><li>Schedule a final steering committee meeting to review test results.</li><li>Present test summary results during a steering committee review to obtain final sign-off for exiting the testing phase.</li></ul></td></tr>
+</table>

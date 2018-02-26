@@ -22,7 +22,7 @@ chance at a successful outcome.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who will monitor public roadmaps and other service announcements for new features or services that your organization might benefit from.</li><li>Decide on the cadence in which to report those new features or services back to the key stakeholders, via your steering committee.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Implement a strategy for staying up to date with your services to get the most value for your organization.</li><li>Drive service enhancements through a full project lifecycle to make sure you’ve properly accounted for the impact they have on your deployment.</li></ul></td></tr>
 </table>
 <!--ENDOFSECTION-->

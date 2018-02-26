@@ -31,8 +31,8 @@ upon in the following sections.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization's goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality Experience Reviews to make sure your cloud voice deployment is operating at peak capabilities.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization's goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality Experience Reviews to make sure your cloud voice deployment is operating at peak capabilities.</li></ul></td></tr>
 </table>
 
 

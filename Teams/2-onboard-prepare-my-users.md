@@ -58,9 +58,9 @@ journey.
 [//]: # (Note that you can't remove the "en-us" from the link in this table.)
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for driving user adoption and change management during your organization’s implementation of cloud voice capabilities?</li><li>How will you implement an adoption and change management strategy?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for driving user adoption and change management during your organization’s implementation of cloud voice capabilities?</li><li>How will you implement an adoption and change management strategy?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download and review the [Office 365 Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).</li><li>Document your strategy for driving user adoption.</li><li>Finalize schedule and communication plans to begin your adoption campaign.
-</li></ol></td></tr>
+</li></ul></td></tr>
 </table>
 <!--ENDOFSECTION-->
   
