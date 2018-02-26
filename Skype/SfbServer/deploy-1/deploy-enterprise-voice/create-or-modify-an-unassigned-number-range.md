@@ -2,7 +2,7 @@
 title: "Create or modify an unassigned number range in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article

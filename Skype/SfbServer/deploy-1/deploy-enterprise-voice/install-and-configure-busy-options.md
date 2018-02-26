@@ -2,7 +2,7 @@
 title: "Install and configure Busy Options for Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article

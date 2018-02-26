@@ -2,7 +2,7 @@
 title: "Manage authentication in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 3/18/2016
 ms.audience: ITPro
 ms.topic: article

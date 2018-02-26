@@ -2,7 +2,7 @@
 title: "Configure the location database in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article

@@ -2,7 +2,7 @@
 title: "How to use Modern Authentication (ADAL) with Skype for Business"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article

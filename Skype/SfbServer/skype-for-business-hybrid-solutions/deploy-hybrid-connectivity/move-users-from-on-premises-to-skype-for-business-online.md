@@ -2,7 +2,7 @@
 title: "Move users from on premises to Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/12/2018
 ms.audience: ITPro
 ms.topic: get-started-article

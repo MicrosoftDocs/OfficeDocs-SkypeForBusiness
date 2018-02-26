@@ -2,7 +2,7 @@
 title: "Manage Registrar configuration settings in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article

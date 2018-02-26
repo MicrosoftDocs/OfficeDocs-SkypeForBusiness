@@ -2,7 +2,7 @@
 title: "Configure your on-premises deployment for Skype Meeting Broadcast"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article

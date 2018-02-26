@@ -2,7 +2,7 @@
 title: "SIP trunking in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: concetpual

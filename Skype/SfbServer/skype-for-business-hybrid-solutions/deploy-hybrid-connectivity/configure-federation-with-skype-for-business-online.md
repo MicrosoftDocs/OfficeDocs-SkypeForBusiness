@@ -2,7 +2,7 @@
 title: "Configure federation with Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 1/12/2017
 ms.audience: ITPro
 ms.topic: get-started-article

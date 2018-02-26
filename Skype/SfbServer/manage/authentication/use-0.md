@@ -2,7 +2,7 @@
 title: "Use two-factor authentication with Skype for Business client and Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article

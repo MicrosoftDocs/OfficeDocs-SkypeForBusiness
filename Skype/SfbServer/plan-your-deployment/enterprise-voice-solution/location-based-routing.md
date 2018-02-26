@@ -2,7 +2,7 @@
 title: "Plan for Location-Based Routing in Skype for Business 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: concetpual

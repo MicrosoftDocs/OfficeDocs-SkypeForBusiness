@@ -2,7 +2,7 @@
 title: "Capacity planning for Persistent Chat Server in Skype for Business Server 2015"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: concetpual

@@ -2,7 +2,7 @@
 title: "SQL Server Reporting Services (Invoke)"
 ms.author: v-kehest
 author: v-kehest
-manager: laurawi
+manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article

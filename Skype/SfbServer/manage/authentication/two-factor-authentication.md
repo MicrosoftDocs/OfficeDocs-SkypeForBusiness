@@ -2,7 +2,7 @@
 title: "Manage two-factor authentication in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article

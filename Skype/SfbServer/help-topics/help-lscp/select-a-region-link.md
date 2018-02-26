@@ -2,7 +2,7 @@
 title: "Select a Region Link"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article

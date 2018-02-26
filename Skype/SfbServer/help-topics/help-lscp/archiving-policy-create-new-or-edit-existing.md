@@ -2,7 +2,7 @@
 title: "Archiving Policy Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article

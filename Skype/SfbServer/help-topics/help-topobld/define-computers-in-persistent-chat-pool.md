@@ -2,7 +2,7 @@
 title: "Define Computers in Persistent Chat Pool"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article

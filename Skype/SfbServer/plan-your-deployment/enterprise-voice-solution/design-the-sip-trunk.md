@@ -2,7 +2,7 @@
 title: "Design the SIP trunk for E9-1-1 in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: concetpual

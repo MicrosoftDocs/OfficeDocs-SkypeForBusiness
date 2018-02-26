@@ -2,7 +2,7 @@
 title: "Plan for private telephone lines with Skype for Business 2015"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: concetpual

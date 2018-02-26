@@ -2,7 +2,7 @@
 title: "User Service for CQD"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article

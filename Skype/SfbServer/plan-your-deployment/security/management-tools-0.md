@@ -2,7 +2,7 @@
 title: "Windows PowerShell and Skype for Business Server 2015 management tools"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: concetpual

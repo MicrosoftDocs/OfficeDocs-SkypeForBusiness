@@ -2,7 +2,7 @@
 title: "Enable users for Enterprise Voice online and Phone System in Office 365 Voicemail"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: concetpual

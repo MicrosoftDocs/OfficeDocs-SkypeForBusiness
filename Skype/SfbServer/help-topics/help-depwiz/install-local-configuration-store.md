@@ -2,7 +2,7 @@
 title: "Install Local Configuration Store"
 ms.author: v-kehest
 author: v-kehest
-manager: laurawi
+manager: serdars
 ms.date: 4/13/2015
 ms.audience: ITPro
 ms.topic: article

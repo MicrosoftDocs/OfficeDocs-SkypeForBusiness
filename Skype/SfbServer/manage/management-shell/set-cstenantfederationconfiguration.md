@@ -2,7 +2,7 @@
 title: "Set-CsTenantFederationConfiguration"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article

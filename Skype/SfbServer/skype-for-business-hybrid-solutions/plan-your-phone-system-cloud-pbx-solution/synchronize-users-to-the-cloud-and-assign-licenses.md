@@ -2,7 +2,7 @@
 title: "Synchronize users to the cloud and assign licenses"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 12/3/2015
 ms.audience: ITPro
 ms.topic: concetpual

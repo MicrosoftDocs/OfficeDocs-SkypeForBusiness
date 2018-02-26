@@ -2,7 +2,7 @@
 title: "Install Skype for Business Server 2015 on servers in the topology"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article

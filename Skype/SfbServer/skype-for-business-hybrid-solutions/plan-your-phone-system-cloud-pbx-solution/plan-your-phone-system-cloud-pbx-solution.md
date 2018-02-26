@@ -2,7 +2,7 @@
 title: "Plan your Phone System in Office 365 (Cloud PBX) solution"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: concetpual

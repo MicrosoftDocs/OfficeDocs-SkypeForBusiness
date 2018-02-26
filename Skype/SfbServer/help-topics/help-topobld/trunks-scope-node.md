@@ -2,7 +2,7 @@
 title: "Trunks Scope Node"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "SessionDetails view"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
 ms.topic: article

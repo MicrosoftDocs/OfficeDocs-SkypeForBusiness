@@ -2,7 +2,7 @@
 title: "Deploy Call Via Work in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article

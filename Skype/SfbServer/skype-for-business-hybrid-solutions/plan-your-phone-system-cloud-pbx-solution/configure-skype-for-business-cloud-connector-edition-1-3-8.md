@@ -2,7 +2,7 @@
 title: "Configure Skype for Business Cloud Connector Edition 1.3.8"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: concetpual

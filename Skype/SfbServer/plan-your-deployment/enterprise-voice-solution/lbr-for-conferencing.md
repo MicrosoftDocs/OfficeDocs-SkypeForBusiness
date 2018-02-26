@@ -2,7 +2,7 @@
 title: "Location-Based Routing for Conferencing in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: concetpual

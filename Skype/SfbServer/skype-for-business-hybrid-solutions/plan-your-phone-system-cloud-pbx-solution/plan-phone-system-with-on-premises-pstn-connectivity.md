@@ -2,7 +2,7 @@
 title: "Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 1/26/2018
 ms.audience: ITPro
 ms.topic: concetpual

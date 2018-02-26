@@ -2,7 +2,7 @@
 title: "Server requirements for Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: concetpual

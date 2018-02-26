@@ -2,7 +2,7 @@
 title: "Common security threats in modern day computing"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/22/2016
 ms.audience: ITPro
 ms.topic: concetpual

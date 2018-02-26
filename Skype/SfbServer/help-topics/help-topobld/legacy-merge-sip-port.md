@@ -2,7 +2,7 @@
 title: "Legacy Merge SIP Port"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article

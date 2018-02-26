@@ -2,7 +2,7 @@
 title: "Send welcome email to dial-in users in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article

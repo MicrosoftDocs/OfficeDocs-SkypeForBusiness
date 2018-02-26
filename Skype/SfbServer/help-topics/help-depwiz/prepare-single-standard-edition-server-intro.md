@@ -2,7 +2,7 @@
 title: "Prepare Single Standard Edition Server (Intro)"
 ms.author: v-kehest
 author: v-kehest
-manager: laurawi
+manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article

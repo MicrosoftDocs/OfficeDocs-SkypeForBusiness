@@ -2,7 +2,7 @@
 title: "FrontEnd table in Skype for Business Server 2015"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Estimating voice usage and traffic for Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 10/22/2015
 ms.audience: ITPro
 ms.topic: concetpual
