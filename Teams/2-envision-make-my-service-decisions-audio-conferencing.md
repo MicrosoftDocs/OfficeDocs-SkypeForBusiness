@@ -26,7 +26,9 @@ Meeting participants can join your Teams meetings by dialing in to the toll or t
 
 > [!IMPORTANT]
 > Audio Conferencing in Teams doesn’t support third-party audio conferencing providers (ACPs).
+
 <!--ENDOFSECTION-->
+
 ##Availability of Audio Conferencing
 
 Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
@@ -51,7 +53,9 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 >|One Marina Boulevard|Singapore|Audio Conferencing|
 >|32 London Bridge Street|United Kingdom|Audio Conferencing|
 >|39 quai du Président Roosevelt|France|Audio Conferencing|
+
 <!--ENDOFSECTION-->
+
 ##Licensing for Audio Conferencing
 
 An [Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
@@ -103,7 +107,9 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 >|Initial amount|$ 1,000|
 >|Trigger amount|$ 400|
 >|Auto-recharge amount|TBA|
+
 <!--ENDOFSECTION-->
+
 ##Conference bridge phone numbers
 
 The Audio Conferencing service in Office 365 includes:
@@ -150,7 +156,9 @@ Below is an example of a template you can use to capture conference bridge detai
 >|One Marina Boulevard|Acquire new, shared|TBA|English (United States), Chinese (Simplified, PRC)|
 >|32 London Bridge Street|Port existing, dedicated|+44 20 7946 0001|English (United Kingdom)|
 >|39 quai du Président Roosevelt|Acquire new, dedicated|TBA|French (France), English (United Kingdom)|
+
 <!--ENDOFSECTION-->
+
 ##Conference bridge settings
 
 To further tailor the user experience, you can configure organization-wide options for joining Audio Conferencing meetings (meeting entry and exit notification and caller name recording), the meeting organizer’s PIN length, and email notification:
@@ -215,7 +223,9 @@ With these controls, you can decide whether meeting organizers can provide toll-
 >|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
 >|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
 >|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
+
 <!--ENDOFSECTION-->
+
 ##Manage cloud voice telephone numbers
 
 For Audio Conferencing implementation, you can choose to acquire new telephone numbers or transfer/port existing telephone numbers.
@@ -265,7 +275,9 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+
 <!--ENDOFSECTION-->
+
 ##Dial plans
 
 A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translates dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
@@ -327,7 +339,9 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+
 <!--ENDOFSECTION-->
+
 ##Document service decisions 
 
 Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
@@ -349,4 +363,5 @@ Use the information from the previous sections of this article to document your 
 -   Tenant dial plans
 
 -   Dial plan assignments
+
 <!--ENDOFSECTION-->

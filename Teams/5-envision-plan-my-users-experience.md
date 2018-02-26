@@ -14,7 +14,9 @@ One of the key benefits of Teams is that the client is kept up to date
 automatically. The clients on the PC and Mac are updated by using a background
 process that checks for new builds and downloads the new client when the app is
 idle.
+
 <!--ENDOFSECTION-->
+
 ## Plan for endpoint quality
 
 As you can see from the diagram below, endpoints are an important building block
@@ -109,6 +111,7 @@ article](https://support.microsoft.com/help/928152/you-may-experience-connectivi
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What Teams clients will be deployed in your organization?</li><li>How will you initially deploy Teams clients to your users?</li><li>Who is responsible for evaluating endpoints and devices to validate they meet Teams requirements for a quality experience?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the process that will be followed to deploy Teams clients.</li><li>Evaluate endpoints and devices and perform and remediation required.</li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->
 
 ## Devices for Teams
@@ -143,4 +146,5 @@ solutions catalog.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide on your organization’s overall device strategy for user and meeting room experiences.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Complete a persona-to-device mapping exercise for your organization.</li><li>Document the process for obtaining devices for users and meeting rooms.</li><li>Document the process for deploying and configuration devices for users and meeting rooms.</li><li>Procure initial devices to begin your deployment.</li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->

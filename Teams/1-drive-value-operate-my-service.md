@@ -117,14 +117,18 @@ Teams](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact)
 
 [Microsoft Teams and Skype for Business
 interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+
 <!--ENDOFSECTION-->
+
 ## Operations Guide activities
 
 The following sections give an overview of the activities that are required to
 successfully operate the Microsoft Teams service. They include reference to
 tools, contextual information, and additional content to help you understand the
 activity and to assist in readiness initiatives.
+
 <!--ENDOFSECTION-->
+
 ## Monitor service health
 
 It’s important that you understand the overall health of the Microsoft Teams
@@ -223,7 +227,9 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/service-health)
 
 [Service Health and
 Continuity](https://technet.microsoft.com/library/office-365-service-health.aspx)
+
 <!--ENDOFSECTION-->
+
 ## Manage organizational change
 
 Microsoft Teams is a cloud-based service. With that comes the ability to provide
@@ -327,6 +333,7 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/change-management-strateg
 **Coming soon...**
 
 <!--ENDOFSECTION-->
+
 ## Assess Teams usage
 
 After the initial pilot begins, it’s critical to establish a regular cadence for
@@ -424,7 +431,9 @@ center](https://support.office.com/article/About-the-Office-365-admin-center-758
 
 [Activity Reports in the Office 365 admin
 center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263?ui=en-US&rs=en-US&ad=US)
+
 <!--ENDOFSECTION-->
+
 ## Assess user sentiment
 
 Understanding user sentiment can act as a key indicator for gauging the success
@@ -516,7 +525,9 @@ Feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams
 
 [Best Practices for User
 Feedback](https://docs.microsoft.com/microsoftteams/best-practices-feedback)
+
 <!--ENDOFSECTION-->
+
 ## Manage network quality
 
 Many core planning elements go into optimizing, right-sizing, and remediating
@@ -555,7 +566,9 @@ be performed at regular intervals.
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
 [Building Data Schema](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#tenant-data-file-format-and-building-data-file-structure )
+
 <!--ENDOFSECTION-->
+
 ## Assess and ensure quality 
 
 All organizations need a group or individual to be accountable for quality. This
@@ -606,7 +619,9 @@ CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=L
 Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)
 
 [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+
 <!--ENDOFSECTION-->
+
 ## Manage endpoints
 
 Microsoft Teams endpoints can be defined as any PC, Mac, tablet, or mobile (or
@@ -747,7 +762,9 @@ Teams](https://support.office.com/article/Contact-support-for-business-products-
 Customers)](https://support.microsoft.com/premier/contacts)
 
 [Troubleshooting Teams Video](https://www.youtube.com/watch?v=4O4d_7uZTQY)
+
 <!--ENDOFSECTION-->
+
 ## Manage Teams
 
 After the Microsoft Teams service has been deployed, you’ll need to perform
@@ -872,7 +889,9 @@ teams](https://docs.microsoft.com/MicrosoftTeams/assign-roles-permissions#permis
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.
+
 <!--ENDOFSECTION-->
+
 ## Daily/weekly/monthly/as-needed tasks
 
 | Activity                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Team assigned |
@@ -882,7 +901,9 @@ users to submit requests that are processed by an assigned team.
 | License management          | Plan for current and future needs for both user and consumption-based licensing (Calling Plans and Communication Credits) by leveraging the [PSTN Usage Report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) and [PSTN Minute Pool](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) report. | Weekly    |               |
 | Telephone number management | Manage the telephone numbers available for future growth, and adjust inventory levels to meet your organizational needs.                                                                                                                                                                                                                                                                                                | Weekly    |               |
 | Team creation (optional)    | Review and process requests for team creation.                                                                                                                                                                                                                                                                                                                                                                          | As needed |               |
+
 <!--ENDOFSECTION-->
+
 ## Quality of Experience Review Guide
 The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
