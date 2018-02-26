@@ -69,3 +69,4 @@ Pour aider ses clients à évaluer l'accessibilité de Skype Entreprise, Microso
 ## Related topics
 [Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-declaration-of-conformance-in-france.md)
 
+**To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).**
