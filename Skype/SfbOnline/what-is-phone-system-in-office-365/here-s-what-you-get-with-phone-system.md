@@ -93,3 +93,6 @@ See these articles to plan and set up the Phone System in your business:
 [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
