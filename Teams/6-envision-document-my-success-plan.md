@@ -34,13 +34,8 @@ Potential deployment models include the following:
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Teams deployment execution model that’s applicable to your organization.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ul></td></tr></table>
 
-<!--- Nona, please resolve these conflicting lines.
-Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ul></td></tr></table>
-
-Document the Teams deployment execution model you’ve chosen, and include business and technical justifications.</li></ol></td></tr></table>
---->
 ##RACI modeling
 
 To ensure that you’ve got clarity for who is responsible for what in your
@@ -68,12 +63,7 @@ The following is an example of a RACI matrix for a cloud voice implementation.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the activities/roles relevant to the cloud voice implementation project.</li><li>Decide the teams or people to be assigned to the responsibility assignment matrix (RACI matrix) of the cloud voice implementation project.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>
-
-<!--- Nona, please resolve these conflicting lines.
-Document the RACI matrix.</li></ul></td></tr></table>
-Document the RACI matrix.</li></ol></td></tr></table>
---->
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the RACI matrix.</li></ul></td></tr></table>
 
 ## Quarterly execution plan
 
