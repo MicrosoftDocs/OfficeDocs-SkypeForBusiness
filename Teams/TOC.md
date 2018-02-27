@@ -58,10 +58,7 @@
 ## [View guest users in a team](view-guests.md)
 ## [Edit guest user information](edit-guests-information.md)
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
-<<<<<<< HEAD
 ## [Guest access checklist](guest-access-checklist.md)
-=======
->>>>>>> master
 
 
 # [Cloud voice](cloud-voice-deployment.md)
