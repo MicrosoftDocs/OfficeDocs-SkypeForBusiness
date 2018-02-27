@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Teams Guest Checklist
 author: romanma
 ms.author: romanma
@@ -6,8 +6,8 @@ manager: serdars
 ms.date: 2/15/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
-description: Setup Microsoft Teams Guest Access step by step.
+ms.reviewer: rramesan
+description: Use this checklist to help set up guest access in Microsoft Teams Guest Access.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -18,9 +18,9 @@ appliesto:
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
 
-## Configuration settings in the Teams admin center
+*Comment: Checklists are straightforward lists of sequential tasks or actions (for example, "Configure foo", "Verify foo"). Supporting detail is provided via links, so we can focus on the tasks. Also, we want to have 'single source of truth' with respect to procedures. Meaning, if we already have a procedure in an existing topic, we link to it instead of reproducing the same procedure.*
 
-## □  Enable guest access at the tenant level.
+## □  Enable guest access at the tenant level
 
 At a minimum, you must turn on Microsoft Teams for all users of the license type **Guest**. For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
 
@@ -38,37 +38,27 @@ For more information, including how-to videos, see [Guest access in Microsoft Te
 
 
 
- ## Configuration settings outside the Teams admin center and client:
+## □  Configure Sharing in Office 365 
 
-
-For more information about dependencies of Microsoft Teams, see [Authorize guest access in Microsoft Teams](teams-dependencies.md).
-
-
-## □ Configure Office 365 settings
-
-In the Office 365 admin center, go to **Settings** > **Services & Add-ins** > **Security & privacy**.![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
-
-## □  Sharing
-
-□ Set **Let users add new guests to this organization** to **On**. 
-
-
-![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
-![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+□ Make sure users can add guests. Here's how:
+ 
+1. In the Office 365 admin center, go to **Settings** > **Security & privacy**.![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
+2. In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+3. Set **Let users add new guests to this organization** to **On**, and then click **Save**. ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
 
  > [!NOTE]
-> This setting is equivalent to the **Members can invite" setting in the User settings > External users section in Azure AD.  
+> This setting is equivalent to the **Members can invite** setting in  User settings > External users  in Azure AD.  
 
 
 
 
-## □ Office 365 Groups
+## □ Configure Office 365 Groups
 
 In the Office 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.
 
-□ Make sure **Let group members outside the organization access group content" is set to **On**. If this setting is turned off, guests won't be able to access any group content.
+Make sure **Let group members outside the organization access group content" is set to **On**. If this setting is turned off, guests won't be able to access any group content.
 
-□ Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. (However, if an admin had added a guest user to Azure AD, then the Team owner would be able to add that user to the Team.) At a minimum,  this setting must be "on" to support guest access.
+Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. (However, if an admin had added a guest user to Azure AD, then the Team owner would be able to add that user to the Team.) At a minimum,  this setting must be "on" to support guest access.
 
 For detailed instructions about configuring these settings, see the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
  
@@ -77,12 +67,12 @@ For detailed instructions about configuring these settings, see the section "Off
 ## □ Configure settings in Azure AD business-to-business (B2B)
 1. Sign in to https://portal.azure.com.
 2. Click **Azure Active directory** in the left pane.
-3. Click **Users and Groups** under **Manage**. *Is this required, or can you just click User settings?
-4. Click **User settings**.
-5. In **External users", make sure **Members can invite** is set to **Yes**.![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+3. Under **Manage**, click **User settings**.
+4. In **External users**, make sure **Members can invite** is set to **Yes**.![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+
 	
 
-► At minimum to support Guests, "Members can invite" must be "Yes".
+► At a minimum to support guests, **Members can invite** must be set to **Yes**.
 
 
 *Comment: Suggest adding this level of detail about external user settings to the "Azure Active Directory" section of https://docs.microsoft.com/en-us/MicrosoftTeams/teams-dependencies and then linking from here. Also, some of descriptions below are unclear.*
@@ -95,11 +85,11 @@ Azure AD includes the following settings to configure external users:
 
 
 
-## □ Configure settings in SharePoint
+## □ Verify sharing setting in SharePoint
 1. Sign in to the Office 365 admin center.
 2. Click **Admin center**, and then select **SharePoint**.
 3. In the SharePoint admin center, select **Sharing**.
-4. Make sure the option for **Don’t allow sharing outside your organization** is not selected.![Screenshot shows an example of a Sparepoint Online Settings toggle. ](media/guest-access-checklist-SPOSettings1.png)
+4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.![Screenshot shows an example of a Sparepoint Online Settings toggle. ](media/guest-access-checklist-SPOSettings1.png)
 
 ## □ Configure AllowAddGuests parameter in PowerShell
 
@@ -109,7 +99,7 @@ Use the Get-UnifiedGroup cmdlet in PowerShell to see the current setting for the
 
 Use the Set-UnifiedGroup cmdlet in PowerShell to change the value of this parameter.
 
-► At a minimum to support Guests, this parameter must be set to "True".
+► At a minimum to support guests, this parameter must be set to "True".
 
 Get-UnifiedGroup <name> | fl AllowAddGuests
 
@@ -119,7 +109,7 @@ For more details about the cmdlet, see [Set-UnifiedGroup](https://technet.micros
 
 ## □ Verify account licenses and types
 
-- **Account must be licensed for Teams**: *Comment: What does "account" refer to?*
+- **Account must be licensed for Teams**: *Comment: What does "account" refer to? How does admin confirm this?*
 - **Accounts must be Office 365 school or work accounts**: Currently, only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user. We know that support for other types of accounts is a much-requested capability, and it's on the [Office 365 Roadmap (Non O365 school or work accounts)](https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=guest).
  
 ## □ Environment
