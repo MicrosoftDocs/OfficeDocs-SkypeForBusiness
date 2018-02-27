@@ -1,5 +1,5 @@
 ---
-title: "Setting up your Phone System"
+title: "Setting up Phone System in your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
 ---
 
-# Setting up your Phone System
+# Setting up Phone System in your organization
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.  
 
