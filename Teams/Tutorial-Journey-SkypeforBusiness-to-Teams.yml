@@ -21,7 +21,7 @@ items:
 
         This training is for you if you're: 
 
-        - An It Pro 
+        - An IT Pro 
 
         - Responsible for planning, deploying, or managing Skype for Business
 
@@ -39,8 +39,7 @@ items:
 
         - Microsoft Ignite 2017 session: [How to enable and configure Microsoft Teams for your users](https://myignite.microsoft.com/sessions/53318)
 
-        - Readiness: [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md) 
-        <-- (new content coming soon) -->
+        - [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md) 
 
         If you have any questions or feedback about this training, please:
 
@@ -119,7 +118,7 @@ items:
     
     Make sure that your current Skype for Business deployment meets the quality bar when it comes to real-time media. Use Call Quality Dashboard (CQD) to monitor usage and identify quality trends and Call Analytics to troubleshoot or look at quality indicators of individual calls. 
     
-    To learn more about CQD, watch our [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) (sign in required).
+    To learn more about CQD, watch our [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos).
     
     ### Quality champion role
     
