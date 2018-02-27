@@ -31,9 +31,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 2.	Under **Phone System**, review the list of features and details. 
 3.	If Phone System is available, proceed to step 2. 
 
-To learn more about regional availability of Phone System and Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
+**To learn more about regional availability of Phone System and Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
 
-## Buy and assign Phone System and Calling Plan licenses
+## Step 2: Buy and assign Phone System and Calling Plan licenses
 
 To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 To assign Phone System and Calling Plan licenses to multiple users, do the following:
@@ -92,7 +92,7 @@ To assign Phone System and Calling Plan licenses to multiple users, do the follo
     |Domestic Calling Plan  <br/> |MCOPSTN1  <br/> |
     |Communications Credits  <br/> |MCOPSTNPP  <br/> |
 
-For additional information and tips about assigning licenses, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+**For additional information and tips about assigning licenses, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).**
 
 ## Step 3: Get phone numbers for your users
 
@@ -107,7 +107,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
 
- **Get new phone numbers for your users**
+**Get new phone numbers for your users**
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -137,13 +137,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     > [!IMPORTANT]
     > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
- **Port or transfer phone numbers from your service provider or phone carrier**
+**Port or transfer phone numbers from your service provider or phone carrier**
   
 - If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
     
 - If you need to port more than 999 phone numbers, see [Manually submit a custom service request](manually-submit-a-custom-service-request.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
 
-For more information, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). 
+**For more information, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).**
 
 ## Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
 
@@ -188,11 +188,11 @@ If you want to transfer service numbers from your current service provider or ca
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
 
-For more details about service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).
+**For more details about service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).**
 
 ## Step 5: Set up Calling Plans
 
-You have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and gotten phone numbers for your users (step 3), so your calling plan is already mostly set up. Follow these procedures to complete the setup of your Calling Plan.
+If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
 
 ### Add emergency addresses and locations for your organization
 
@@ -256,7 +256,7 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 
 ![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](../images/teams-phone-number.png)
 
-For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
+**For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).**
 
 ## Step 6: Set up audio conferencing (optional)
 
@@ -282,15 +282,15 @@ You must be an [Office 365 admin](https://support.office.com/article/da585eea-f5
     > [!NOTE]
     > Microsoft Teams users can't user a third-party audio conferencing provider. 
   
-- **Microsoft as your audio conferencing provider**: If you want the easiest solution for audio conferencing, choose Microsoft as your audio conferencing provider.
+    - **Microsoft as your audio conferencing provider**: If you want the easiest solution for audio conferencing, choose Microsoft as your audio conferencing provider.
     
-- **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
+    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
  
 5.	Assign the audio conferencing provider to people who lead or schedule meetings. Do one of the following: 
 
-- [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
+    - [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
     
-- [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    - [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
 
 6. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
   
@@ -305,7 +305,7 @@ You must be an [Office 365 admin](https://support.office.com/article/da585eea-f5
     > [!NOTE]
     > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
 
-For more information about Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+**For more information about Audio Conferencing, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).**
 
 ## Step 7: Set up a call queue (optional)
 
@@ -318,7 +318,7 @@ Before you can create and set up your call queues, you will need to get or trans
 
 To create a new call queue, in the **Skype for Business admin center**, click **Call routing** > **Call queues**, click **Add new**, and then follow the instructions in **Step 3** of  [Create a Phone System call queue]( create-a-phone-system-call-queue.md#step-3---create-a-new-call-queue).
 
-For more details about call queues, see [Create a Phone System call queue]( create-a-phone-system-call-queue.md).
+**For more details about call queues, see [Create a Phone System call queue]( create-a-phone-system-call-queue.md).**
 
 ## Step 8: Set up a Phone System auto attendant (optional)
 
@@ -326,7 +326,7 @@ Auto attendants let people that call in to your organization and navigate a menu
 
 To create a new auto attendant, in the Skype for Business admin center, click **Call routing** > **Auto attendants**, click **Add new**, and then follow the instructions for each page in **Step 2** of [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
 
-For more details about Phone System auto attendants, see [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
+**For more details about Phone System auto attendants, see [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).**
 
 ## Step 9: Set up Communications Credits for your organization
 
@@ -377,4 +377,4 @@ When you are setting up Communications Credits, you will need to investigate cal
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
 
-For more information about Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+**To learn more about setting up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
