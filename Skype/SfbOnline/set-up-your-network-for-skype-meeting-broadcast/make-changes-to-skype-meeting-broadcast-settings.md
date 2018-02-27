@@ -39,3 +39,5 @@ You can enable Skype Meeting Broadcast and make changes to settings and policies
 
 [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md)
 
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
