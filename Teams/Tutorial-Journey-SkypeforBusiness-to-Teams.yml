@@ -8,6 +8,7 @@ metadata:
   displayType: one-column
   interactive: azurecli
   ms.author: tbinder
+  ms.reviewer: tbinder
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
