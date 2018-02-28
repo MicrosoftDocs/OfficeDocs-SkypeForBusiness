@@ -60,7 +60,7 @@
 ## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 
 
-# Cloud Voice
+# [Cloud Voice](cloud-voice-deployment.md)
 ##  [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
 ##  [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
 ##  [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
