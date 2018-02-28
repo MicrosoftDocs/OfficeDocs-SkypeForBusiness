@@ -14,8 +14,8 @@ description: "Summary: Configure Skype for Business Server 2015 in a hybrid envi
 ---
 
 # Configure a hybrid environment in Skype for Business Server 2015
-[]
- **Summary:** Configure Skype for Business Server 2015 in a hybrid environment.
+ 
+**Summary:** Configure Skype for Business Server 2015 in a hybrid environment.
   
 In a hybrid configuration, some of your users are homed on an on-premises installation of Skype for Business Server 2015 while other users are homed on the Office 365 version of Skype for Business Server. In order to configure server-to-server authentication in a hybrid environment, you must first configure your on-premises installation of Skype for Business Server 2015 to trust the Office 365 authorization server. The initial step in this process can be carried out by running the following Skype for Business Server Management Shell script:
   
@@ -159,5 +159,3 @@ $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-00000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```
-
-

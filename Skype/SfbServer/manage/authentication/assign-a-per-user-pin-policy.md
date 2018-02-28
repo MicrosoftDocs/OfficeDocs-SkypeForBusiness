@@ -14,8 +14,8 @@ description: "Summary: Stage AV and OAuth certificates for Skype for Business Se
 ---
 
 # Assign a per-user PIN policy in Skype for Business Server 2015
-[]
- **Summary:** Stage AV and OAuth certificates for Skype for Business Server 2015.
+
+**Summary:** Stage AV and OAuth certificates for Skype for Business Server 2015.
   
 The dial-in conferencing personal identification number (PIN) policy is one of the individual settings of a user account that can be configured in the Skype for Business Server Control Panel.
   
@@ -33,24 +33,24 @@ After creating at least one per-user PIN policy, use the procedures in this topi
     
 4. Use one of the following methods to locate a user:
     
-  - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
+   - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
     
-  - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
+   - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click **Add Filter**.
+   a. Click **Add Filter**.
     
-2. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
+   b. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
     
-3. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
+   c. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
     
-4. Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
+   d. Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
     
     > [!TIP]
     > To add additional search clauses to your query, click **Add Filter**. 
   
-5. Click **Find**.
+   e. Click **Find**.
     
 6. Click a user in the search results, click **Action**, and then click **Assign policies**.
     
@@ -62,18 +62,18 @@ After creating at least one per-user PIN policy, use the procedures in this topi
     > [!NOTE]
     > Because there are multiple policies that you can configure by using the **Assign Policies** dialog box, **\<Keep as is\>** is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
   
-  - Allow Skype for Business Server 2015 to automatically choose either the global-level policy or, if defined, the site-level policy.
+   - Allow Skype for Business Server 2015 to automatically choose either the global-level policy or, if defined, the site-level policy.
     
-  - Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.
+   - Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.
     
-    > [!TIP]
-    > To help you decide the policy you want to assign, after you click a policy name, click **View** to view the user rights and permissions defined in the policy.
+     > [!TIP]
+     > To help you decide the policy you want to assign, after you click a policy name, click **View** to view the user rights and permissions defined in the policy.
   
 8. When you are finished, click **OK**.
     
 ## Assigning a Per-User PIN Policy by Using Windows PowerShell Cmdlets
 
-You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can assign per-user PIN policies by using Windows PowerShell and the **Grant-CsPinPolicy** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To assign a per-user PIN policy to a single user
 

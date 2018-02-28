@@ -14,8 +14,8 @@ description: "Summary: Manage OAuth and partner applications in Skype for Busine
 ---
 
 # Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server 2015
-[]
- **Summary:** Manage OAuth and partner applications in Skype for Business Server 2015.
+ 
+**Summary:** Manage OAuth and partner applications in Skype for Business Server 2015.
   
 Skype for Business Server 2015 must be able to securely, and seamlessly, communicate with other applications and server products. For example, you can configure Skype for Business Server 2015 so that contact data and/or archiving data is stored in Microsoft Exchange Server 2013; however, this can only be done if Skype for Business Server and Exchange are able to securely communicate with one another. Likewise, you can schedule a Skype for Business Server conference from within Office Web Apps Server; again, this can only be done if the two servers (SharePoint and Skype for Business Server) trust one another. Although it's possible to use one authentication mechanism for communication between Skype for Business Server and Exchange but a separate mechanism for Skype for Business Server and SharePoint communication, a better and more efficient approach is to use a standardized method for all server-to-server authentication and authorization.
   

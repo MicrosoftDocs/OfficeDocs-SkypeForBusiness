@@ -14,8 +14,8 @@ description: "Summary: Use two-factor authentication with Skype for Business Ser
 ---
 
 # Use two-factor authentication with Skype for Business client and Skype for Business Server 2015
-[]
- **Summary:** Use two-factor authentication with Skype for Business Server 2015 and Skype for Business.
+ 
+**Summary:** Use two-factor authentication with Skype for Business Server 2015 and Skype for Business.
   
 ## Sign in to Skype for Business for the first time
 
@@ -29,11 +29,11 @@ Your sign-in information is usually configured automatically when Skype for Busi
     
     You should see the sign-in screen.
     
-  - If the sign-in address box is already filled in, confirm that the address shown is correct.
+    - If the sign-in address box is already filled in, confirm that the address shown is correct.
     
-  - If it's not correct, or if the box is empty, enter your sign-in address (this is usually the same as your email address).
+    - If it's not correct, or if the box is empty, enter your sign-in address (this is usually the same as your email address).
     
-  - If an empty password box is displayed, add your password.
+    - If an empty password box is displayed, add your password.
     
 3. Select **Sign-in**.
     
@@ -43,8 +43,8 @@ When you're finished using Skype for Business, you can close the display, sign o
   
 |**Option**|**What it does**|**How to perform it**|
 |:-----|:-----|:-----|
-|Close  <br/> |Closes your display but lets the Skype for Business session identified with your user ID continue to run. This is so you can continue to get notifications and interact with others.  <br/> You can get the display back at any time by clicking the Skype for Business icon on the taskbar or the notification area at the bottom of your screen.  <br/> | On the Skype for Business main window, do one of the following: <br/>  Select the **Options** button, then select **File** > **Close**.  <br/>  Click the **Close** button (X) in the upper-right corner of the window. <br/> |
-|Sign out  <br/> |Ends the session associated with your user ID, but Skype for Business continues to run in the background. When you sign out, the sign-in window will appear.  <br/> Select **Delete my sign-in information** when you sign out to remove the record of your logon ID and password from the computer. Doing this might make it easier for support people to troubleshoot sign-in issues. It can also help ensure your sign-in information is more secure by making it difficult for unauthorized users to log on with your credentials. <br/> |On the Skype for Business main window, select the **Options** button, then select **File** > **Sign Out**.  <br/> |
+|Close  <br/> |Closes your display but lets the Skype for Business session identified with your user ID continue to run. This is so you can continue to get notifications and interact with others. <br/> <br/> You can get the display back at any time by clicking the Skype for Business icon on the taskbar or the notification area at the bottom of your screen.  <br/> | On the Skype for Business main window, do one of the following: <br/> 1. Select the **Options** button, then select **File** > **Close**.  <br/> 2. Click the **Close** button (X) in the upper-right corner of the window. <br/> |
+|Sign out  <br/> |Ends the session associated with your user ID, but Skype for Business continues to run in the background. When you sign out, the sign-in window will appear.  <br/> **Tip:** Select **Delete my sign-in information** when you sign out to remove the record of your logon ID and password from the computer. Doing this might make it easier for support people to troubleshoot sign-in issues. It can also help ensure your sign-in information is more secure by making it difficult for unauthorized users to log on with your credentials. <br/> |On the Skype for Business main window, select the **Options** button, then select **File** > **Sign Out**.  <br/> |
 |Exit  <br/> |Ends your Skype for Business session and shuts down Skype for Business on your computer. After exiting, if you want to restart, select **Start** > **All Programs** > Skype for Business. <br/> |On the Skype for Business main window, select the **Options** button, then select **File** > **Exit**.  <br/> |
    
 ## Sign in to Skype for Business with a Smart Card

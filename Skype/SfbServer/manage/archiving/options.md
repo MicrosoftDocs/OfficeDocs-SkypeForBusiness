@@ -13,8 +13,8 @@ description: "Summary: Learn how to configure archiving options for Skype for Bu
 ---
 
 # Manage archiving options in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure archiving options for Skype for Business Server 2015.
+
+**Summary:** Learn how to configure archiving options for Skype for Business Server 2015.
   
 You initially configure archiving at deployment, but you can change, add, and delete configurations after deployment. Archiving options determine whether to: 
   
@@ -54,13 +54,10 @@ You can configure archiving options by using the Control Panel as follows:
 
 You can also configure archiving options by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
-|
-|
+
 |**Cmdlet**|**Description**|
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |Returns information about the archiving configuration settings in your organization.  <br/> |
 |New-CsArchivingConfiguration  <br/> |Creates a new set of instant messaging (IM) settings, which can be used to enable or disable the automatic saving of IM sessions, and to block any instant messages that cannot be archived.  <br/> |
 |Remove-CsArchivingConfiguration  <br/> |Removes the specified collection of archiving settings that are used to enable or disable the automatic saving of instant messaging (IM) sessions, and to optionally block any instant message that cannot be archived.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifies an existing collection of instant messaging (IM) archiving configuration options.  <br/> |
-   
-

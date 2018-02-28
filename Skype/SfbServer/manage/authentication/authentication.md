@@ -14,8 +14,8 @@ description: "Summary: Use the following procedures to manage Skype for Business
 ---
 
 # Manage authentication in Skype for Business Server 2015
-[]
- **Summary:** Use the following procedures to manage Skype for Business Server 2015 security and authentication.
+ 
+**Summary:** Use the following procedures to manage Skype for Business Server 2015 security and authentication.
   
 Use the following procedures to manage Skype for Business Server 2015 security and authentication.
   

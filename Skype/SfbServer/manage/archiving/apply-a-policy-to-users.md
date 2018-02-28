@@ -13,8 +13,8 @@ description: "Summary: Learn how to assign an archiving policy to users in Skype
 ---
 
 # Apply an archiving policy to users in Skype for Business Server 2015
-[]
- **Summary:** Learn how to assign an archiving policy to users in Skype for Business Server 2015.
+
+**Summary:** Learn how to assign an archiving policy to users in Skype for Business Server 2015.
   
 If you have created one or more user policies for archiving for users homed on Skype for Business Server 2015, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups. For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user's Skype for Business Server 2015 communications.
   

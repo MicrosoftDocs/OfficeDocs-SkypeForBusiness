@@ -28,17 +28,17 @@ When you first deploy Skype for Business Server 2015, you set up initial archivi
     
 4. In the list of policies, do one of the following: 
     
-  - To change the policy for your entire deployment, click **Global** in the list of policies, click **Edit**, and then click **Show details**.
+   - To change the policy for your entire deployment, click **Global** in the list of policies, click **Edit**, and then click **Show details**.
     
-  - To change the policy for a single site, click the site name in the list of policies, click **Edit**, and then click **Show details**.
+   - To change the policy for a single site, click the site name in the list of policies, click **Edit**, and then click **Show details**.
     
-  - To change the policy for a single user or user group, click the user or user group name in the list of policies, click **Edit**, and then click **Show details**.
+   - To change the policy for a single user or user group, click the user or user group name in the list of policies, click **Edit**, and then click **Show details**.
     
 5. On the **Edit Archiving Policy** page, do the following:
     
-  - To enable or disable internal archiving for the policy, select or clear the **Archive internal communications** check box.
+   - To enable or disable internal archiving for the policy, select or clear the **Archive internal communications** check box.
     
-  - To enable or disable external archiving for the policy, select or clear the **Archive external communications** check box.
+   - To enable or disable external archiving for the policy, select or clear the **Archive external communications** check box.
     
 6. Click **Commit**.
     
@@ -80,5 +80,3 @@ To disable archiving altogether, set the value of both the ArchiveInternal and A
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
 ```
-
-

@@ -14,7 +14,7 @@ description: "This article explains how to use Modern Authentication (which is b
 ---
 
 # How to use Modern Authentication (ADAL) with Skype for Business
-[]
+ 
 This article explains how to use Modern Authentication (which is based on the Active Directory Authentication Library (ADAL) and OAuth 2.0) that can be found in the March 2016 Cumulative Update for Skype for Business for Skype for Business Server 2015.
   
 ## What's in this article?
@@ -92,11 +92,11 @@ In this process, you connect your installation of ADFS to a Skype for Business S
     > [!NOTE]
     > When your STS URL resolves to ADFS  *internally*  , the prompt you will see will be a **Windows Security** prompt. If the URL resolves externally, you'll see a prompt named **Sign in**. Typically, we would want a **Windows Security** prompt here. Note that this behaviour varies, particularly if you implemented Forms-Based Authentication (or FBA).
   
-    Also be aware, when the STS URL resolves to an internal ADFS server and Windows Integrated authentication is enabled in browsers, computers where many different users sign in to client applications may have failures to authenticate unless the browser is explicitly configured to prompt users for their credentials in a given browser Security Zone. Think of a kiosk as an example. The account that is logged in to the Operating System may be different than the user account logging into the Skype for Business client. If this is the case, you may see the failures described here.
+Also be aware, when the STS URL resolves to an internal ADFS server and Windows Integrated authentication is enabled in browsers, computers where many different users sign in to client applications may have failures to authenticate unless the browser is explicitly configured to prompt users for their credentials in a given browser Security Zone. Think of a kiosk as an example. The account that is logged in to the Operating System may be different than the user account logging into the Skype for Business client. If this is the case, you may see the failures described here.
     
-    You can see and change this browser setting in Internet Explorer by clicking \> Tools (or the Gear) \> Internet Options \> Security tab \> and the Security Zone (such as Local Intranet). From this dialog, click the Custom level button and scroll to the end of the list in the Settings dialog. Under User Authentication \> Login \> you'll see an option to 'Prompt for user name and password'. If you have kiosks where the user who starts the Skype for Business client is different (has a different account) from the user logged into the computer, you may want to test setting this option to 'ON' for these machines in a Group Policy.
+You can see and change this browser setting in Internet Explorer by clicking \> Tools (or the Gear) \> Internet Options \> Security tab \> and the Security Zone (such as Local Intranet). From this dialog, click the Custom level button and scroll to the end of the list in the Settings dialog. Under User Authentication \> Login \> you'll see an option to 'Prompt for user name and password'. If you have kiosks where the user who starts the Skype for Business client is different (has a different account) from the user logged into the computer, you may want to test setting this option to 'ON' for these machines in a Group Policy.
     
-    Finally, and importantly, you may experience more than one prompt as the security system collects the information it needs to authenticate or authorize your account.
+Finally, and importantly, you may experience more than one prompt as the security system collects the information it needs to authenticate or authorize your account.
     
 ### Other Options for Enabling ADAL sign-in (like Office client apps)
 <a name="BKMK_Options"> </a>
@@ -125,9 +125,7 @@ To turn Modern Authentication on for Exchange Online, you'll need to run some Po
 Once these keys are set, set your Office 2013 apps to [use Multifactor Authentication (MFA) with Office 365](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-8f0454b2-f51a-4d9c-bcde-2c48e41621c6?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 > [!TIP]
-> To disable Modern Authentication on devices for Office 2013, set the HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL registry key to a value of zero. 
-  
-Be aware that a similar Registry key ( HKCU\SOFTWARE\Microsoft\Office\ **16.0** \Common\Identity\EnableADAL) can also be used to disable Modern Authentication on devices for Office 2016.
+> To disable Modern Authentication on devices for Office 2013, set the HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL registry key to a value of zero. Be aware that a similar Registry key (HKCU\SOFTWARE\Microsoft\Office\ **16.0** \Common\Identity\EnableADAL) can also be used to disable Modern Authentication on devices for Office 2016.
   
 ### Clients where Modern Authentication / ADAL isn't Supported
 <a name="BKMK_Support"> </a>

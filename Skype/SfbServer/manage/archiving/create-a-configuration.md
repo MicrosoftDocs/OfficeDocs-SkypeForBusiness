@@ -13,8 +13,8 @@ description: "Summary: Learn how to create an archiving configuration for Skype 
 ---
 
 # Create an archiving configuration in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create an archiving configuration for Skype for Business Server 2015.
+
+**Summary:** Learn how to create an archiving configuration for Skype for Business Server 2015.
   
 ## Configure archiving options by using the Control Panel
 
@@ -28,29 +28,29 @@ To configure archiving options for a specific site or pool:
     
 4. On the **Archiving Configuration** page, click **New**, and then do one of the following: 
     
-  - To create a site archiving configuration, click **Site Configuration**, and then in **Select a site**, select the site to be configured for archiving.
+   - To create a site archiving configuration, click **Site Configuration**, and then in **Select a site**, select the site to be configured for archiving.
     
-  - To create a pool archiving configuration, click **Pool Configuration**, and then in **Select a pool**, select the pool to be configured for archiving.
+   - To create a pool archiving configuration, click **Pool Configuration**, and then in **Select a pool**, select the pool to be configured for archiving.
     
 5. In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:
     
-  - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
+   - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
     
-  - To enable archiving for both IM sessions and web conferences, click **Archive IM and web conferencing sessions**.
+   - To enable archiving for both IM sessions and web conferences, click **Archive IM and web conferencing sessions**.
     
-  - To disable archiving for this configuration, click **Disable archiving**.
+   - To disable archiving for this configuration, click **Disable archiving**.
     
 6. Also in **New Archiving Setting**, do the following:
     
-  - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
+   - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
     
-  - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
+   - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
     
-  - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
+   - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
     
-  - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+     - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
     
-  - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
+     - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
     
 7. Click **Commit**.
     
@@ -79,5 +79,3 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" 
 ```
 
 For more information, see the help topic for the [New-CsArchivingConfiguration](../../manage/management-shell/new-csarchivingconfiguration.md) cmdlet.
-  
-

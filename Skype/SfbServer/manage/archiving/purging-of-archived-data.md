@@ -13,12 +13,12 @@ description: "Summary: Learn how to manage purging of archived data for Skype fo
 ---
 
 # Manage purging of archived data in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage purging of archived data for Skype for Business Server 2015.
+
+**Summary:** Learn how to manage purging of archived data for Skype for Business Server 2015.
   
 The Archiving database is not intended for long-term retention, and Skype for Business Server 2015 does not provide an e-discovery (search) solution for archived data, so data needs to be moved to other storage. Skype for Business Server provides a session export tool that you can use to export archived data into searchable transcripts. You need to define when to purge archived and exported data. 
   
-For more information about exporting data by using the **Export-CsArchivingData** cmdlet, see[Export archived data in Skype for Business Server 2015](export-archived-data.md).
+For more information about exporting data by using the **Export-CsArchivingData** cmdlet, see [Export archived data in Skype for Business Server 2015](export-archived-data.md).
   
 ## Manage purging of data by using the Control Panel
 
@@ -32,13 +32,13 @@ To manage purging of archived data by using the Control Panel:
     
 4. Click the name of the appropriate global, site, or pool configuration in the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:
     
-  - To enable purging, select the **Enable purging of archiving data** check box and then do one of the following:
+   - To enable purging, select the **Enable purging of archiving data** check box and then do one of the following:
     
-  - To purge all records, click the **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+     - To purge all records, click the **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
     
-  - To purge only the data that has been exported, click **Purge exported archiving data only**.
+     - To purge only the data that has been exported, click **Purge exported archiving data only**.
     
-  - To disable purging, clear the **Enable purging of archiving data** check box.
+   - To disable purging, clear the **Enable purging of archiving data** check box.
     
 5. Click **Commit**.
     
@@ -75,5 +75,3 @@ The following example uses the **Invoke-CsArchivingDatabasePurge** cmdlet to pur
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```
-
-

@@ -14,12 +14,13 @@ description: "Summary: Explore these links to learn how to manage and maintain S
 ---
 
 # Manage Skype for Business Server 2015
-[]
- **Summary:** Explore these links to learn how to manage and maintain Skype for Business Server 2015.
+
+**Summary:** Explore these links to learn how to manage and maintain Skype for Business Server 2015.
   
 Skype for Business Server offers instant messaging (IM), presence, conferencing, video, and telephony solutions that can support enterprise-level collaboration requirements. This topic provides links to information about how to configure, monitor, and maintain your Skype for Business Server deployment. 
   
 Writers update articles on a continuing basis as new information becomes available and as users provide feedback. This page will be updated frequently, so check back often.
+
 ## Visual resources about how to manage Skype for Business Server
 
 View the following resources for information about how to manage Skype for Business Server.

@@ -14,8 +14,8 @@ description: "Summary: Set a user's dial-in conferencing PIN for Skype for Busin
 ---
 
 # Set a user's dial-in conferencing PIN in Skype for Business Server 2015
-[]
- **Summary:** Set a user's dial-in conferencing PIN for Skype for Business Server 2015.
+ 
+**Summary:** Set a user's dial-in conferencing PIN for Skype for Business Server 2015.
   
 To join a dial-in conference as an authenticated user, a Skype for Business Server 2015 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). If a user forgets the dial-in conferencing PIN or has not set the PIN by using Skype for Business Server 2015, you can set the user's PIN from Skype for Business Server Control Panel. You can automatically generate the PIN or create one manually.
   
@@ -32,24 +32,24 @@ To join a dial-in conference as an authenticated user, a Skype for Business Serv
     
 4. Use one of the following methods to locate a user:
     
-  - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
+   - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
     
-  - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
+   - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click **Add Filter**.
+   a. Click **Add Filter**.
     
-2. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
+   b. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
     
-3. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
+   c. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
     
-4. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
+   d. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
     
     > [!TIP]
     > To add additional search clauses to your query, click **Add Filter**. 
   
-5. Click **Find**.
+   e. Click **Find**.
     
     > [!NOTE]
     > If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click **Action**, and then click **Unlock PIN**. 
@@ -58,17 +58,17 @@ To join a dial-in conference as an authenticated user, a Skype for Business Serv
     
 7. In the **Set PIN** dialog box, do one of the following:
     
-  - To allow Skype for Business Server 2015 to generate the user's PIN, select **Automatically generate a valid PIN** (the default).
+   - To allow Skype for Business Server 2015 to generate the user's PIN, select **Automatically generate a valid PIN** (the default).
     
-  - To create your own PIN, click **Manually enter a specific PIN**, click the text box, and then type a PIN that meets the PIN requirements specified in your PIN policy settings.
+   - To create your own PIN, click **Manually enter a specific PIN**, click the text box, and then type a PIN that meets the PIN requirements specified in your PIN policy settings.
     
 8. Click **OK**.
     
 9. In **Set PIN**, do one of the following: 
     
-  - Select the **Show PIN** check box to see the PIN, and then copy the PIN and communicate it to the user using your organization's preferred method.
+   - Select the **Show PIN** check box to see the PIN, and then copy the PIN and communicate it to the user using your organization's preferred method.
     
-  - Click **Open my email application to send the new PIN to the user** to send the PIN by email. If Microsoft Office Outlook is your email client, the PIN is automatically copied into a new email message. If you use a different email client, select the **Show PIN** check box to see the PIN and then copy it into your email message.
+   - Click **Open my email application to send the new PIN to the user** to send the PIN by email. If Microsoft Office Outlook is your email client, the PIN is automatically copied into a new email message. If you use a different email client, select the **Show PIN** check box to see the PIN and then copy it into your email message.
     
 10. Click **Close**.
     
@@ -78,7 +78,7 @@ You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmd
   
 ### To auto-assign a PIN number to a user
 
-- The following command assigns a PIN number to the user Ken Myer. Because the Pin parameter is not included, Skype for Business Server will automatically generate and assign the PIN number.
+The following command assigns a PIN number to the user Ken Myer. Because the Pin parameter is not included, Skype for Business Server will automatically generate and assign the PIN number.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
@@ -87,7 +87,7 @@ You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmd
 
 ### To assign a specific PIN number to a user
 
-- This command uses the Pin parameter to assign the PIN number 121989 to the user Ken Myer.
+This command uses the Pin parameter to assign the PIN number 121989 to the user Ken Myer.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989

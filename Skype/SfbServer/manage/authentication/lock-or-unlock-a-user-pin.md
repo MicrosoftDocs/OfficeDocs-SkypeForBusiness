@@ -14,8 +14,8 @@ description: "Summary: Lock or unlock a user's dial-in conferencing PIN for Skyp
 ---
 
 # Lock or unlock a user PIN in Skype for Business Server 2015
-[]
- **Summary:** Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server 2015.
+ 
+**Summary:** Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server 2015.
   
 You can lock or unlock a user's PIN from the **Users** section of Skype for Business Server Control Panel.
   
@@ -29,26 +29,26 @@ You can lock or unlock a user's PIN from the **Users** section of Skype for Busi
     
 4. Use one of the following methods to locate a user:
     
-  - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
+    - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
     
-  - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
+    - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click **Add Filter**.
+   a. Click **Add Filter**.
     
-2. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
+   b. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
     
-3. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
+   c. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
     
-4. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
+   d. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
     
     > [!TIP]
     > To add additional search clauses to your query, click **Add Filter**. 
   
-5. Click **Find**.
+   e. Click **Find**.
     
-6. Click the user, click **Action**, and then click **Lock PIN**.
+   f. Click the user, click **Action**, and then click **Lock PIN**.
     
 ### To unlock a user's PIN in Skype for Business Server Control Panel
 
@@ -60,26 +60,26 @@ You can lock or unlock a user's PIN from the **Users** section of Skype for Busi
     
 4. Use one of the following methods to locate a user:
     
-  - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
+   - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
     
-  - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
+   - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click **Add Filter**.
+   a. Click **Add Filter**.
     
-2. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
+   b. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
     
-3. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
+   c. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
     
-4. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
+   d. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
     
     > [!TIP]
     > To add additional search clauses to your query, click **Add Filter**. 
   
-5. Click **Find**.
+   e. Click **Find**.
     
-6. Click the user, click **Action**, and then click **Unlock PIN**.
+   f. Click the user, click **Action**, and then click **Unlock PIN**.
     
 ## Locking and Unlocking User PINs by Using Windows PowerShell Cmdlets
 
@@ -101,6 +101,4 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-For more information, see the help topic for the [Lock-CsClientPin](../../manage/management-shell/lock-csclientpin.md) and[Unlock-CsClientPin](../../manage/management-shell/unlock-csclientpin.md) cmdlets.
-  
-
+For more information, see the help topic for the [Lock-CsClientPin](../../manage/management-shell/lock-csclientpin.md) and [Unlock-CsClientPin](../../manage/management-shell/unlock-csclientpin.md) cmdlets.

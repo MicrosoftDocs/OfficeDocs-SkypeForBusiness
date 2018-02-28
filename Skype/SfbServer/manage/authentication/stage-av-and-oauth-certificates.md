@@ -14,8 +14,8 @@ description: "Summary: Stage AV and OAuth certificates for Skype for Business Se
 ---
 
 # Stage AV and OAuth certificates in Skype for Business Server 2015 using -Roll in Set-CsCertificate
-[]
- **Summary:** Stage AV and OAuth certificates for Skype for Business Server 2015.
+ 
+**Summary:** Stage AV and OAuth certificates for Skype for Business Server 2015.
   
 Audio/Video (A/V) communications is a key component of Skype for Business Server 2015. Features such as application sharing and audio and video conferencing rely on the certificates assigned to the A/V Edge service, specifically the A/V Authentication service.
   
@@ -73,7 +73,7 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
     > [!IMPORTANT]
     > The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
   
-To further understand the process that Set-CsCertificate, -Roll, and -EffectiveDate use to stage a new certificate for issuing new AudioVideoAuthentication tokens while still using an existing certificate to validate AudioVideoAuthentication that are in use by consumers, a visual timeline is an effective means of understanding the process.In the following example, the administrator determines that the A/V Edge service certificate is due to expire at 2:00:00 PM on 07/22/2015. He requests and receives a new certificate and imports it to each Edge Server in his pool. At 2 AM on 07/22/2015, he begins running Get-CsCertificate with -Roll, -Thumbprint equal to the thumbprint string of the new certificate, and -EffectiveTime set to 07/22/2015 6:00:00 AM. He runs this command on each Edge Server.
+To further understand the process that Set-CsCertificate, -Roll, and -EffectiveDate use to stage a new certificate for issuing new AudioVideoAuthentication tokens while still using an existing certificate to validate AudioVideoAuthentication that are in use by consumers, a visual timeline is an effective means of understanding the process. In the following example, the administrator determines that the A/V Edge service certificate is due to expire at 2:00:00 PM on 07/22/2015. He requests and receives a new certificate and imports it to each Edge Server in his pool. At 2 AM on 07/22/2015, he begins running Get-CsCertificate with -Roll, -Thumbprint equal to the thumbprint string of the new certificate, and -EffectiveTime set to 07/22/2015 6:00:00 AM. He runs this command on each Edge Server.
   
 ![Using the Roll and the EffectiveDate parameters.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
@@ -108,7 +108,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 		  certificate to become active> -identity Global 
   ```
 
-    An example Set-CsCertificate command:
+An example Set-CsCertificate command:
     
   ```
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
@@ -116,8 +116,8 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 		  1:00:00 PM" 
   ```
 
-    > [!IMPORTANT]
-    > The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
+> [!IMPORTANT]
+> The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
   
 When the effective time is reached (7/21/2015 1:00:00 AM), all new tokens are issued by the new certificate. When validating tokens, tokens will first be validated against the new certificate. If the validation fails, the old certificate is tried. The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate. Once the old certificate has expired (7/22/2015 2:00:00 PM), tokens will only be validated by the new certificate. The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the -Previous parameter.
 ```

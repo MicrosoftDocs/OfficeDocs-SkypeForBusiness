@@ -14,8 +14,8 @@ description: "Summary: Manage Web Service configuration settings in Skype for Bu
 ---
 
 # Manage Web Service configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Manage Web Service configuration settings in Skype for Business Server 2015.
+ 
+**Summary:** Manage Web Service configuration settings in Skype for Business Server 2015.
   
 You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server 2015 related web servers and Web Services.
   
@@ -31,19 +31,19 @@ Follow these steps to create a new Web Service policy.
     
 4. On the **Web Service** page, click **New**, and then do one of the following:
     
-  - To configure the Web Service for a site, click **Site configuration**. In **Select a Site**, click the site to which the Web Service policy will be applied a site and click **OK**.
+   - To configure the Web Service for a site, click **Site configuration**. In **Select a Site**, click the site to which the Web Service policy will be applied a site and click **OK**.
     
-  - To configure the Web Service for a pool, click **Pool configuration**. In **Select a Service**, click the service to which the Web Service policy will be applied and click **OK**. 
+   - To configure the Web Service for a pool, click **Pool configuration**. In **Select a Service**, click the service to which the Web Service policy will be applied and click **OK**. 
     
 5. In **New Web Service Setting**, in **Integrated Windows authentication**, select **Negotiate**, **Integrated Windows authentication**, or **None**.
     
 6. Select one or more of the following depending on the capabilities of the clients and support in your environment:
     
-  - **Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.
+   - **Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.
     
-  - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
+   - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
     
-  - **Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.
+   - **Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.
     
 7. Click **Commit**.
     
@@ -67,11 +67,11 @@ Follow these steps to modify an existing Web Service policy.
     
 6. Select one or more of the following depending on the capabilities of the clients and support in your environment:
     
-  - **Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.
+   - **Enable PIN Authentication** to enable clients to be authenticated using PIN numbers.
     
-  - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
+   - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
     
-  - **Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.
+   - **Enable certificate chain download** to have servers presented with an authentication certificate download the certificate chain for that certificate.
     
 7. Click **Commit**.
     
@@ -95,7 +95,7 @@ Follow these steps to delete web service configuration settings.
     
 ## Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets
 
-You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To delete a specific collection of web service configuration settings
 
@@ -107,7 +107,7 @@ You can delete web service configuration settings by using Windows PowerShell an
 
 ### To delete all of the web service configuration settings applied to the site scope
 
-- The following command removes all of the Web Service security settings applied to the service scope:
+The following command removes all of the Web Service security settings applied to the service scope:
     
   ```
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
@@ -115,7 +115,7 @@ You can delete web service configuration settings by using Windows PowerShell an
 
 ### To delete all of the web service configuration settings that allow certificate authentication
 
-- The following command removes all the Web Service security settings that allow the use of certificate authentication:
+The following command removes all the Web Service security settings that allow the use of certificate authentication:
     
   ```
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration

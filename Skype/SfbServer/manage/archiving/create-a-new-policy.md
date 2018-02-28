@@ -13,8 +13,8 @@ description: "Summary: Learn how to create a new archiving policy for Skype for 
 ---
 
 # Create a new archiving policy in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create a new archiving policy for Skype for Business Server 2015.
+
+**Summary:** Learn how to create a new archiving policy for Skype for Business Server 2015.
   
 You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.
   
@@ -30,17 +30,17 @@ To create a new archiving policy by using the Control Panel:
     
 4. Click **New**, and then do one of the following: 
     
-  - To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.
+   - To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.
     
-  - To create a user-level archiving policy, click **User policy**.
+   - To create a user-level archiving policy, click **User policy**.
     
 5. In **New Archiving Policy**, do the following:
     
-  - In **Name**, specify a name for the new policy (for example, externalContoso).
+   - In **Name**, specify a name for the new policy (for example, externalContoso).
     
-  - In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).
+   - In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).
     
-  - To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.
+   - To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.
     
   - To control archiving of communications with external users, select or clear the **Archive external communications** check box.
     
@@ -84,5 +84,3 @@ Multiple property values can be modified by including multiple parameters. For e
 ```
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```
-
-

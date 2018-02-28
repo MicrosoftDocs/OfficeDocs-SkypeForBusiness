@@ -14,8 +14,8 @@ description: "Summary: View a user's PIN policy information for Skype for Busine
 ---
 
 # View PIN policy information in Skype for Business Server 2015
-[]
- **Summary:** View a user's PIN policy information for Skype for Business Server 2015.
+ 
+**Summary:** View a user's PIN policy information for Skype for Business Server 2015.
   
 You can use the **PIN Policy** tab to view personal identification number (PIN) authentication of users who are connecting to Skype for Business with IP Phones. To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.
   
@@ -37,14 +37,14 @@ You can also view PIN policies by using Windows PowerShell and the Get-CsPinPoli
   
 ### To view PIN policies
 
-- To view information about all your PIN policies, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+To view information about all your PIN policies, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
   ```
   Get-CsPinPolicy
   ```
 
-    That will return information similar to this:
-    
+That will return information similar to this:
+
   ```
   Identity             : Global
 Description          :

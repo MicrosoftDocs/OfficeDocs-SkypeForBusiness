@@ -21,16 +21,11 @@ Lync is now Skype for Business, a communications and collaboration platform that
   
 New features in Skype for Business Server 2015 include improvements to:
   
-- User experience
-    
+- User experience  
 - Voice and video support
-    
 - Mobile support
-    
 - Management of on-premises servers
-    
 - Deployment and management of hybrid solutions
-    
 - Multi-factor authentication support
     
 ## User experience

@@ -14,8 +14,8 @@ description: "Summary: Create a new PIN policy in Skype for Business Server 2015
 ---
 
 # Create a new PIN policy in Skype for Business Server 2015
-[]
- **Summary:** Create a new PIN policy in Skype for Business Server 2015.
+ 
+**Summary:** Create a new PIN policy in Skype for Business Server 2015.
   
 You can use the **PIN Policy** page to provide personal identification number (PIN) authentication to users who are connecting to Skype for Business with IP Phones. To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.
   
@@ -25,15 +25,15 @@ Follow these steps to create a user-level or a site-level PIN policy.
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     
 3. In the left navigation bar, click **Security** and then click **PIN Policy**.
     
 4. On the **PIN Policy** page, click **New**, and then do one of the following:
     
-  - To create a user-level policy, click **User policy**. In **New PIN Policy**, in **Name**, type a name that describes the policy.
+   - To create a user-level policy, click **User policy**. In **New PIN Policy**, in **Name**, type a name that describes the policy.
     
-  - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the resulting list of sites, click the site you want, and then click **OK**.
+   - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the resulting list of sites, click the site you want, and then click **OK**.
     
 5. In the **Description** field, type a description of the PIN policy.
     

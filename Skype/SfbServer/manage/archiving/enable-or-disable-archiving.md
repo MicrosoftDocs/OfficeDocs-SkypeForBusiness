@@ -13,8 +13,8 @@ description: "Summary: Learn how to enable or disable archiving in Skype for Bus
 ---
 
 # Enable or disable archiving in Skype for Business Server 2015
-[]
- **Summary:** Learn how to enable or disable archiving in Skype for Business Server 2015.
+
+**Summary:** Learn how to enable or disable archiving in Skype for Business Server 2015.
   
 ## Enable or disable archiving by using the Control Panel
 
@@ -26,11 +26,11 @@ description: "Summary: Learn how to enable or disable archiving in Skype for Bus
     
 4. Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:
     
-  - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
+   - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
     
-  - To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.
+   - To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.
     
-  - To disable archiving for the configuration, click **Disable archiving**.
+   - To disable archiving for the configuration, click **Disable archiving**.
     
 5. Click **Commit**.
     
@@ -41,5 +41,3 @@ You can also enable or disable archiving by using the **Set-CsArchivingConfigura
 ```
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"
 ```
-
-

@@ -13,8 +13,8 @@ description: "Summary: Learn how to delete an archiving policy for Skype for Bus
 ---
 
 # Delete an existing archiving policy in Skype for Business Server 2015
-[]
- **Summary:** Learn how to delete an archiving policy for Skype for Business Server 2015.
+
+**Summary:** Learn how to delete an archiving policy for Skype for Business Server 2015.
   
 You can delete a user policy or site policy, but not the global policy. If you delete the global policy, Skype for Business Server automatically resets the policy to the default values.
   
@@ -53,5 +53,3 @@ Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-Cs
 ```
 
 For more information, see the help topic for the [Remove-CsArchivingPolicy](../../manage/management-shell/remove-csarchivingpolicy.md) cmdlet.
-  
-

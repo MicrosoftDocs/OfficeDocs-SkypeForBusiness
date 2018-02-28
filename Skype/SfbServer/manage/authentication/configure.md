@@ -14,8 +14,8 @@ description: "Summary: Configure two-factor authentication in Skype for Business
 ---
 
 # Configure two-factor authentication in Skype for Business Server 2015
-[]
- **Summary:** Configure two-factor authentication in Skype for Business Server 2015.
+ 
+**Summary:** Configure two-factor authentication in Skype for Business Server 2015.
   
 The following sections describe the steps necessary to configure two-factor authentication for your deployment. For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
   
@@ -49,11 +49,11 @@ For information on how to install an Enterprise Root CA, see [Install an Enterpr
     
 12. Change the permissions as follows:
     
-  - Add individual user AD accounts with Read/Enroll (Allow) permissions, or
+    - Add individual user AD accounts with Read/Enroll (Allow) permissions, or
     
-  - Add a security group containing smart card users with Read/Enroll (Allow) permissions, or
+    - Add a security group containing smart card users with Read/Enroll (Allow) permissions, or
     
-  - Add the Domain Users group with Read/Enroll (Allow) permissions
+    - Add the Domain Users group with Read/Enroll (Allow) permissions
     
 ## Configure Windows 8 for Virtual Smart Cards
 
@@ -132,25 +132,25 @@ For more information on enrolling on behalf of users as an enrollment agent, see
     
   - **Key Options** confirm he following settings:
     
-  - Select the **Create new key set** radio button
+    - Select the **Create new key set** radio button
     
-  - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
+    - For **CSP**, select **Microsoft Base Smart Card Crypto Provider**
     
-  - For **Key Usage**, select **Exchange** (this is the only option available).
+    - For **Key Usage**, select **Exchange** (this is the only option available).
     
-  - For **Key Size**, enter 2048
+    - For **Key Size**, enter 2048
     
-  - Confirm that **Automatic key container name** is selected
+    - Confirm that **Automatic key container name** is selected
     
-  - Leave the other boxes unchecked.
+    - Leave the other boxes unchecked.
     
   - Under **Additional Options** confirm the following values:
     
-  - For **Request Format** select **CMC**.
+    - For **Request Format** select **CMC**.
     
-  - For **Hash Algorithm** select **sha1**.
+    - For **Hash Algorithm** select **sha1**.
     
-  - For **Friendly Name** enterSmardcard Certificate.
+    - For **Friendly Name** enterSmardcard Certificate.
     
 8. If you are using a physical smartcard reader, insert the smart card into the device.
     
@@ -164,7 +164,11 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 11. Once the certificate has been issued, click **Install this certificate** to complete the enrollment process.
     
     > [!NOTE]
-    >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:>  Enable Compatibility View in Internet Explorer>  Enable the Turn on Intranet settings option in Internet Explorer>  Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
+  
+        a. Enable Compatibility View in Internet Explorer 
+        b. Enable the Turn on Intranet settings option in Internet Explorer 
+        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
   
 ## Configure Active Directory Federation Services (AD FS 2.0)
 
