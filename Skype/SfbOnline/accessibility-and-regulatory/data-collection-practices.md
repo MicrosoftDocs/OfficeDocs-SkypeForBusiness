@@ -114,3 +114,6 @@ If you are using Office 365 operated by 21Vianet in China, see [Set up your netw
 [Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/en-US/default.mspx)
 
 [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

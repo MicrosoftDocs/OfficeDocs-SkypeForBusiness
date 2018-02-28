@@ -44,9 +44,10 @@ If you are a Microsoft Teams administrator in Office 365, you have access to sys
     
 Take five minutes to hear the best practices for organizing teams, channels and tabs in this video:
 
-|   |   |
-|----|----|
-| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+|  |  |
+|---------|---------|
+| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
 
@@ -75,5 +76,5 @@ Microsoft Teams is great at breaking down organizational silos and promoting cro
 
 It is possible to create Teams that align to the organizational structure.  This is best used for leaders who want to drive morale, have team specfic reviews, clarify employee onboarding processes, discuss workforce plans and increase visibility across a diverse workforce.  
 
-![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
+![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
