@@ -18,7 +18,7 @@ Tools and workshops: Plan, deliver, and operate Microsoft Teams
 
 Download these tools to walk you through planning, delivering, and operating Teams in your organization.
 
-- [Microsoft Teams getting started kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+- [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
     This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out Teams in your organization. It includes two quick start guides - one for IT admins, one for team leaders. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
 
