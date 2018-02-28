@@ -138,8 +138,8 @@ On your project team should be IT administrators from your organization. These i
 
 Learn more about the Microsoft Teams usage reports in the Office 365 Admin portal [here](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
-[!TIP]
-Use your public Microsoft Team or Yammer community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  
+> [!TIP]
+> Use your public team or Yammer community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  
 
 ## Ongoing adoption
 
