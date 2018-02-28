@@ -19,7 +19,7 @@ Quick start guides for Microsoft Teams admins
 
 Use these quick start guides to help you get your organization up and running quickly on Teams. 
 
-[Quick start: Successfully enable Teams](quick-start-enable-Teams.md)
+[Administrator quick start guide](quick-start-enable-Teams.md)
 
 [Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 
