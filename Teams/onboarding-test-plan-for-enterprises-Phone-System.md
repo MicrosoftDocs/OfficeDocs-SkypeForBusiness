@@ -869,9 +869,9 @@ that’s based on “service Number” as the number porting type.
 >   Because we’re only porting one service number for this test, be sure to
 >   select the appropriate fields in the LOA as shown below:
 
-![](media/onboarding-test-plan-image1.png "How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.")
+![How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.](media/onboarding-test-plan-image1.png "How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.")
 
-![](media/onboarding-test-plan-image2.png "What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.")
+![What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.](media/onboarding-test-plan-image2.png "What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.")
 
 >[!IMPORTANT]
 >   When you manually port phone numbers by using an LOA, make sure you select

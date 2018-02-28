@@ -27,7 +27,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
 
 
 <table>
@@ -489,7 +489,7 @@ based on the following ratings:
 -   From 1 through 6 are Detractors: Unhappy customers who can damage your
     service and impede growth.
 
-![](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.")
+![This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.")
 
 Although the base NPS number is useful, you’ll get the most value from analyzing
 user comments. They’ll help you understand why the user would (or wouldn’t)
@@ -888,7 +888,7 @@ The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
 improving user experience, as shown in the figure below.
 
-![](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
 
 By continually assessing and remediating the areas described in this document,
 you can reduce their potential to negatively affect user experience. Most
