@@ -209,11 +209,6 @@
 ## [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-# Reporting
-## [Use activity reports for Teams](teams-activity-reports.md)
-
-
-
 
 # Security & compliance
 ## [Skype for Business and Teams data collection practices](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -226,8 +221,8 @@
 
 
 
-# [Journey from Skype for Business to Teams](journey-skypeforbusiness-teams?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+# [Journey from Skype for Business to Teams](journey-skypeforbusiness-teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-skypeforbusiness.md)
 ## [4 - Drive value with Teams through user adoption](continue-journey.md)
