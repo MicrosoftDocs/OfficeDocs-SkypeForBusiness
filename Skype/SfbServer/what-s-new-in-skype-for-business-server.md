@@ -14,8 +14,8 @@ description: "Summary: Read this topic to learn about new features in Skype for 
 ---
 
 # What's new in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about new features in Skype for Business Server 2015. For detailed information about the new client experience, see[Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
+
+ **Summary:** Read this topic to learn about new features in Skype for Business Server 2015. For detailed information about the new client experience, see [Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
 Lync is now Skype for Business, a communications and collaboration platform that brings together an experience inspired by Skype with the enterprise-grade security, compliance, and control of Lync. Skype for Business offers features including presence, IM, voice and video calls, and online meetings. Skype for Business provides a new client experience, a new server release, and updates to the service in Office 365. If users in your organization are already familiar with Skype, they'll appreciate the power and simplicity of Skype for Business where it's easy to find and connect with co-workers. If users in your organization are coming to Skype for Business from Lync, they'll recognize all of the features they already use but in a fresh new interface with simplified controls and new additions. In addition to the new client experience, Skype for Business Server 2015 provides several new features to improve manageability of on-premises servers and hybrid solutions.
   
@@ -37,7 +37,7 @@ New features in Skype for Business Server 2015 include improvements to:
 
 The Skype for Business client looks very similar to the consumer version of Skype and uses the same buttons and icons. Fewer menus and a flatter task hierarchy make it easy for users to quickly find the controls and commands they need. 
   
- Skype for Business includes the new user experience described above and the Lync 2013 user experience released previously. The inclusion of both experiences allows enterprises to manage change for their users by controlling the process and timing of the new client roll-out. The default user experience depends on which version of the server you're using. Administrators choose the preferred experience by using the **Set-CsClientPolicy** cmdlet with the EnableSkypeUI parameter. For more information about configuring the client experience, see[Configure the client experience with Skype for Business](deploy-1/deploy-clients/configure-the-client-experience.md) and[Desktop client feature comparison for Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
+ Skype for Business includes the new user experience described above and the Lync 2013 user experience released previously. The inclusion of both experiences allows enterprises to manage change for their users by controlling the process and timing of the new client roll-out. The default user experience depends on which version of the server you're using. Administrators choose the preferred experience by using the **Set-CsClientPolicy** cmdlet with the EnableSkypeUI parameter. For more information about configuring the client experience, see [Configure the client experience with Skype for Business](deploy-1/deploy-clients/configure-the-client-experience.md) and[Desktop client feature comparison for Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
 > The Lync 2013 client experience is not an option for Skype for Business 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x. 
