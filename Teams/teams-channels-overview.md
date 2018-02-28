@@ -22,21 +22,36 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     -   Teams can be created to be private to only invited users.
 
     -   Teams can also be created to be public and open and anyone within the organization can join (up to 2500 members).
+    
+A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
--   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—whatever works for your team!
+**Team Membership**
+When Microsoft Teams is activated for your entire organization, designated team owners are able to invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings guests who are team members but outside of your organization can also be added to your teams. See [Guest Access in Microsoft Teams](guest-access.md) for more information. Team owners can also create a team based on an existing Office 365 Group. Any changes made to the group will be synched with Microsoft Teams automatically. Creating a team based on an existing Office 365 Group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
+
+**Team Roles**
+There are two main roles in Microsoft Teams: a team owner, the person who creates the team, and team members, the people who they invite to join their team. Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they’ve joined the team. Having multiple team owners enables you to share the responsibilities of managing settings and membership, including invitations.   
+
+**Team Settings** 
+Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
+
+If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
+
+-   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team!
 
     -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat.
 
-    -   Channels can be extended with Apps that include Tabs, Connectors, and Bots that increase their value to the members of the team.
+    -   Channels are most valuable when extended with Apps that include Tabs, Connectors, and Bots that increase their value to the members of the team.
     
 Take five minutes to hear the best practices for organizing teams, channels and tabs in this video:
+
 |  |  |
 |---------|---------|
 | 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
 
-By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md)). Users of an existing Office 365 Group can also enhance them with Microsoft Teams functionality.
 
-One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Microsoft Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collanborating in fragmented ways.  Bring them together into a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
+By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
+
+One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collanborating in fragmented ways.  Bring them together into a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
 Sample Team Set up
 ------------------
@@ -61,5 +76,5 @@ Microsoft Teams is great at breaking down organizational silos and promoting cro
 
 It is possible to create Teams that align to the organizational structure.  This is best used for leaders who want to drive morale, have team specfic reviews, clarify employee onboarding processes, discuss workforce plans and increase visibility across a diverse workforce.  
 
-![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png
+![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
