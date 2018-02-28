@@ -1,0 +1,21 @@
+---
+title: "Add Mediation Server NextHop"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 3/26/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddMediationServerNextHopPage
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
+description: "To define the next hop for a Mediation Server that you are defining, select from the Next hop pool drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server. Click Next to continue."
+---
+
+# Add Mediation Server NextHop
+[]
+To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server. Click **Next** to continue.
+  
+
