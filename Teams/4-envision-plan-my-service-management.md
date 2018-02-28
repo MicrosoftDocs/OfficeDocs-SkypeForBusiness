@@ -126,7 +126,7 @@ The Quality Experience Review Guide has a set of activities that assess and
 provide remediation guidance in key areas that have the greatest impact for
 improving user experience, as shown in the figure below.
 
-![](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
 
 By continually assessing and remediating the areas described in this document,
 you can reduce their potential to negatively affect user experience. Most
@@ -153,9 +153,9 @@ will also directly translate to improvements in video and desktop sharing.
 
 We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
-Quality Experience Review Guide.
+[Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
 
-The Quality Experience Review Guide can be found [here.]((https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true))
+
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
