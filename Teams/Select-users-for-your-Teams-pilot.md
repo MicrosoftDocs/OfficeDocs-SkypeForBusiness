@@ -36,132 +36,16 @@ select for the pilot as you plan for your broad rollout of Teams over time.
 |                     |                                                                              | [./media/image1.png](./media/image1.png)          |                                                                                     |
 |---------------------|------------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------|
 | Persona             | Profile                                                                      | Communication functionality requirements          | Devices                                                                             |
-| **Collaboration**   | Might work with both internal and external customers                         | Contact management (internal and external)        | Headset, “puck” speakerphone for home office workers, desktop client, mobile client |
-| **Field**           | Travels frequently—heavy reliance on email and phone                         | Contact management (internal and external)        | Headset, desktop client, mobile client                                              |
-| **Executive**       | Serves as the voice and brand of the organization, internally and externally | Delegate synchronization                          | Desk phone, “puck” speakerphone, webcam, desktop client, mobile client              |
-| **Admin Assistant** | Manages the executive’s schedule (and life)                                  | Delegate scheduling, calendar and call management | Desk phone, wireless headset, desktop client                                        |
-| **Call Center**     | Fills a customer-facing role (internal and external)                         | Meeting attendee                                  | Headset, desktop client                                                             |
-| **Info Processing** | Completes tasks and processes orders                                         | Meeting attendee                                  | Headset, desktop client                                                             |
-| **Retail**          | Fills an in-person, on-premises, customer-facing role                        | Meeting attendee                                  | Shared PC/desktop client                                                            |
-| **Production**      | Produces and packages company products for distribution                      | Meeting attendee                                  | Shared PC or desktop client                                                         |
+| **Collaboration**   | <ul><li>Might work with both internal and external customers <li>Might work remotely or onsite<li>Balances time between meetings and productive work<li>Uses Office (PowerPoint, Word, and so on) and third-party apps</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, “puck” speakerphone for home office workers, desktop client, mobile client</ul> |
+| **Field**           | <ul><li>Travels frequently—heavy reliance on email and phone<li>Requires reliable technology across devices<li>Will find a technology that works for them<li>Needs easy access to sales and marketing materials</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, desktop client, mobile client</ul>                                              |
+| **Executive**       | <ul><li>Serves as the voice and brand of the organization, internally and externally<li>Focuses on relationships<li>Has fast-paced, dynamic schedules<li>Uses mobile devices to stay connected<li>Relies on delegates as their “eyes and ears”<li>Spends the majority of their days in meetings or on phone calls</ul> | <ul><li>Delegate synchronization<li>Contact management (internal and external)<li>Audio calling (PC and PSTN)<li>Video calling<li>Multiple device support<li>Application sharing<li>Broad-scale communication tool</ul>                          | <ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</ul>              |
+| **Admin Assistant** | <ul><li>Manages the executive’s schedule (and life)<li>Fills a dynamic, multi-faceted role (gatekeeper to the rest of the organization, office management, meeting coordination, and so on)<li>Requires back-up while away<li>Shares information across the executive support team</ul>                                  | <ul><li>Delegate scheduling, calendar and call management<li>Contact management (internal and external)<li>Call functions: team call group, simultaneous ring<li>Meeting scheduling (from one-on-one to all-hands)<li>Core meeting functions (upload, app share, OneNote, recording, attendance reporting)<li>Streamlined access to data and documents</ul> | <ul><li>Desk phone, wireless headset, desktop client</ul>                                      |
+| **Call Center**     | <ul><li>Fills a customer-facing role (internal and external)<li>Might be contract workers with high turnover<li>Process and transactional based<li>Uses third-party tools for completing orders, time tracking</ul>                         | <ul><li>Meeting attendee<li>IM with escalate to call and share<li>Audio calling<li>Auto attendant<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Headset, desktop client</ul>                                                             |
+| **Info Processing** | <ul><li>Completes tasks and processes orders<li>Needs consistency and flow for this high-turnover job<li>Task or transaction based (for example order processing, purchasing)<li>Uses third-party tools for completing orders, time tracking</ul>                                         | <ul><li>Meeting attendee<li>IM that can be escalated to phone call and screen sharing<li>Audio calling<li>Auto attendant<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Headset, desktop client</ul>                                                             |
+| **Retail**          | <ul><li>Fills an in-person, on-premises, customer-facing role<li>Might work as a contract or part-time employee<li>Uses third-party tools for time tracking<li>Has little or no access to a PC</ul>                        | <ul><li>Meeting attendee<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Shared PC/desktop client</ul>                                                            |
+| **Production**      | <ul><li>Produces and packages company products for distribution<li>Shares workspaces and computers<li>Communicates on the factory floor, in person<li>Uses third-party tools for time tracking</ul>                      | <ul><li>Meeting attendee<li>Mobile device support<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Shared PC or desktop client</ul>                                                         |
 
--   Might work remotely or onsite
 
--   Balances time between meetings and productive work
-
--   Uses Office (PowerPoint, Word, and so on) and third-party apps
-
--   From IM to phone call to screen sharing to conference call
-
--   Scheduled meetings with app share, OneNote
-
--   Audio calling and conferencing
-
--   Requires reliable technology across devices
-
--   Will find a technology that works for them
-
--   Needs easy access to sales and marketing materials
-
--   From IM to phone call to screen sharing to conference call
-
--   Scheduled meetings with app share, OneNote
-
--   Audio calling and conferencing
-
--   Focuses on relationships
-
--   Has fast-paced, dynamic schedules
-
--   Uses mobile devices to stay connected
-
--   Relies on delegates as their “eyes and ears”
-
--   Spends the majority of their days in meetings or on phone calls
-
--   Contact management (internal and external)
-
--   Audio calling (PC and PSTN)
-
--   Video calling
-
--   Multiple device support
-
--   Application sharing
-
--   Broad-scale communication tool
-
--   Fills a dynamic, multi-faceted role (gatekeeper to the rest of the
-    organization, office management, meeting coordination, and so on)
-
--   Requires back-up while away
-
--   Shares information across the executive support team
-
--   Contact management (internal and external)
-
--   Call functions: team call group, simultaneous ring
-
--   Meeting scheduling (from one-on-one to all-hands)
-
--   Core meeting functions (upload, app share, OneNote, recording, attendance
-    reporting)
-
--   Streamlined access to data and documents
-
--   Might be contract workers with high turnover
-
--   Process and transactional based
-
--   Uses third-party tools for completing orders, time tracking
-
--   IM with escalate to call and share
-
--   Audio calling
-
--   Auto attendant
-
--   Streamlined access to data and documents
-
--   Third-party app integration
-
--   Needs consistency and flow for this high-turnover job
-
--   Task or transaction based (for example order processing, purchasing)
-
--   Uses third-party tools for completing orders, time tracking
-
--   IM that can be escalated to phone call and screen sharing
-
--   Audio calling
-
--   Auto attendant
-
--   Streamlined access to data and documents
-
--   Third-party app integration
-
--   Might work as a contract or part-time employee
-
--   Uses third-party tools for time tracking
-
--   Has little or no access to a PC
-
--   Streamlined access to data and documents
-
--   Third-party app integration
-
--   Shares workspaces and computers
-
--   Communicates on the factory floor, in person
-
--   Uses third-party tools for time tracking
-
--   Mobile device support
-
--   Streamlined access to data and documents
-
--   Third-party app integration
 
 Map use cases to your personas
 ------------------------------
