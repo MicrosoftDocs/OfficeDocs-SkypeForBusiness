@@ -134,7 +134,8 @@ If applicable, capture the details of your Skype for Business deployment by usin
 > | Select services that your Edge role provides today | <input type="checkbox"> External user access (corporate users) <br/> <input type="checkbox"> Remote user access (anonymous external meeting participants) <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Media relay | |
 > | Which of the following voice calling features do you currently have dependencies on? <br/>Note any additional dependencies in the Comments column. | <input type="checkbox"> Busy options <br/> <input type="checkbox"> Call park <br/> <input type="checkbox"> Call pickup or group call pickup <br/> <input type="checkbox"> Common area phones, or “hot desking” <br/> <input type="checkbox"> Response groups or hunt groups <br/> <input type="checkbox"> Shared line appearance <br/> <input type="checkbox"> Private line <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Call via work <br/> <input type="checkbox"> Emergency or information numbers (911, 811, 411) <br/> <input type="checkbox"> Extension dialing <br/> <input type="checkbox"> Auto Attendant <br/> <input type="checkbox"> Subscriber access <br/> <input type="checkbox"> Analog devices <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Caller ID masking or altering <br/> <input type="checkbox"> Location-based routing <br/> <input type="checkbox"> Least-cost routing <br/> <input type="checkbox"> Elevator phones | |
 
-### Networking and access to Office 365 services
+Networking and access to Office 365 services
+--------------------------------------------
 
 Use the following table to capture your organization’s networking details and
 how your users are (or will be) connected to Office 365 services.
@@ -154,7 +155,8 @@ how your users are (or will be) connected to Office 365 services.
 > [!TIP]
 > To calculate the amount of bandwidth and other network requirements for your cloud voice deployment, depending your organization’s details and estimated usage, visit [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
-### Endpoints
+Endpoints
+---------
 
 Use the following table to capture the details of the clients and endpoints in use.
 
@@ -167,7 +169,8 @@ Use the following table to capture the details of the clients and endpoints in u
 > | How are mobile devices provided? <br/>Select all that apply. | <input type="checkbox"> Corporate devices <br/> <input type="checkbox"> Bring your own device | |
 > | What devices do users currently use to access voice and conferencing services (handsets, headsets, phones, video)? | | |
 
-### Operations
+Operations
+----------
 
 Use the following table to capture the details of the operational aspects of your environment.
 
@@ -182,7 +185,8 @@ Use the following table to capture the details of the operational aspects of you
 > | Do you experience call quality issues? | <input type="checkbox"> Yes<br/> <input type="checkbox"> No | |
 > | How and when do you provide training to your helpdesk on new services and capabilities? | | |
 
-### Adoption and readiness
+Adoption and readiness
+----------------------
 
 Use the following table and capture the current adoption and readiness state of your organization.
 
