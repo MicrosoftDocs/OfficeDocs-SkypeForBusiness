@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -223,5 +225,3 @@ Windows PowerShell has many advantages in speed, simplicity, and productivity ov
 ## Related topics
 [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -84,5 +86,3 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

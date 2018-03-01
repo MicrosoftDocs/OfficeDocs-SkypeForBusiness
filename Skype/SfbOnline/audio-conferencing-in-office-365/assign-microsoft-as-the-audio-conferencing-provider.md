@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -199,6 +201,3 @@ For more information about using Windows PowerShell, see [Using Windows PowerShe
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

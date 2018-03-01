@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -86,6 +88,3 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
 ## Related topics
 
 [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
