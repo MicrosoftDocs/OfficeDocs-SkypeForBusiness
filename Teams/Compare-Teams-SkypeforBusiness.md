@@ -29,13 +29,16 @@ This table covers the Enhanced Presence features that extend beyond a simple ind
 |  :---                |        :---:                           |  :---:                    |  :---:       | 
 |Publish status        |    &#x2713;                            | &#x2713; &dagger;         | &#x2713;     |
 |View status           |    &#x2713;                            | &#x2713;                  |  &#x2713;    |
-|View status notes and Out of Office messages | &#x2713;        | &#x2713;                  | Coming soon  |
+|View status notes and Out of Office messages | &#x2713;        | &#x2713;                  | Coming soon &dagger;&dagger;  |
 |Add a custom location |    &#x2713;                            |                           |              |
-|Add a custom note     |    &#x2713;                            | &#x2713;                  | Coming soon  |
-|Use a photo from any public site for My Picture (not available with Skype for Business Online) | &#x2713; |  | |
+|Add a custom note     |    &#x2713;                            | &#x2713;                  | Coming soon &dagger;&dagger;  |
+|Use a photo from any public site for My Picture &Dagger; | &#x2713; |  | |
  
 &dagger; Does not support publishing status based on calendar free/busy information.
 
+&dagger;&dagger; For features that are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+
+&Dagger; Not available with Skype for Business Online.
  
 Contacts and Contact Groups support
 --------------------------------------------------------------------------------
@@ -44,12 +47,12 @@ This table covers the features relating to managing IM and Presence contacts.
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---             |   :---:                                |  :---:                    |  :---:       | 
 |Pre-populated Contacts list | &#x2713;                      |                           | &#x2713;     |
-|View and Modify Contacts list|&#x2713;                      | &#x2713;                  | Coming soon  |
-|Tag contacts for status change alerts| &#x2713;             | &#x2713;                  | Coming soon  |
-|Control privacy relationships| &#x2713;                     |                           | Coming soon  |
+|View and Modify Contacts list|&#x2713;                      | &#x2713;                  | Coming soon &dagger;&dagger;  |
+|Tag contacts for status change alerts| &#x2713;             | &#x2713;                  | Coming soon &dagger;&dagger;  |
+|Control privacy relationships| &#x2713;                     |                           | Coming soon &dagger;&dagger;  |
 |Search the corporate address book|&#x2713;                  | &#x2713;                  | &#x2713;     |
 |Search Microsoft Outlook contacts| &#x2713;                 | &#x2713;                  | &#x2713;     |
-|Manage contact groups| &#x2713;                             | &#x2713;                  | Coming soon  |
+|Manage contact groups| &#x2713;                             | &#x2713;                  | Coming soon &dagger;&dagger;  |
 |Expand distribution groups and Office 365 Groups| &#x2713;  | &#x2713;                  |              |
 |Search for Response Groups(not available in Skype for Business Online)|&#x2713;  |      |              |
 |Display recent contacts group|&#x2713;                      |                           | &#x2713;     |
@@ -60,7 +63,9 @@ This table covers the features relating to managing IM and Presence contacts.
 |Sort contacts by Status (availability)|             &#x2713;|                           |              |
 |Search and add Exchange contacts| &#x2713;                  |                           | &#x2713; &dagger; |
 
- &dagger; Search is supported. Adding contacts is not supported.
+&dagger; Search is supported. Adding contacts is not supported.
+
+&dagger;&dagger; For features that are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap). 
 
 IM support
 --------------------------------------------------------------------------------
@@ -163,10 +168,12 @@ This table covers features related to support for external users homed on the PS
 |Feature/capability | Skype for Business 2015 or 2016 client  | Skype for Business on Mac | Teams client  | 
 |  :---             |        :---:                            |  :---:                    |  :---:        | 
 |Initiate IM with a public contact| &#x2713;                  | &#x2713;                  |               |
-|Initiate IM with a federated contact| &#x2713;               | &#x2713;                  | Coming soon   |
+|Initiate IM with a federated contact| &#x2713;               | &#x2713;                  | Coming soon &dagger;&dagger;   |
 |Conduct two-party or multiparty calls with external users &dagger;|&#x2713;   | &#x2713; |               |
  
 &dagger; Not available with Skype for Business Online.
+
+&dagger;&dagger; For features that are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap). 
 
 Recording support
 --------------------------------------------------------------------------------
@@ -192,13 +199,15 @@ This table covers features requiring support for modern authentication.
 |Modern Authentication       | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Multi-factor Authentication | &#x2713;                      | &#x2713;                  | &#x2713;     |
 |Cert -Based Authentication  | &#x2713; (Domain-joined device only)  | &#x2713;          | &#x2713;     |
-|Client-side support of AAD conditional access | &#x2713; &dagger; | &#x2713; &dagger;   | Coming soon |
+|Client-side support of AAD conditional access | &#x2713; &dagger; | &#x2713; &dagger;   | Coming soon &dagger;&dagger; |
 |Client-side support of Intune MAM support for Android and iOS apps| &#x2713; | Not applicable  | &#x2713;  |
 
 &dagger; Supports iOS and Android. Does not support other clients.
 
+&dagger;&dagger; For features that are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap). 
+
 Archiving, compliance, and logging support
---------------------------------------------------------------------------------
+------------------------------------------
 This table covers features related to support for archiving and logging functions and compares Skype for Business Online with Teams.
 
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
@@ -206,12 +215,14 @@ This table covers features related to support for archiving and logging function
 |Saving of IM conversations in Outlook Conversation History|&#x2713; | &#x2713; If server-side conversation history is turned on  |   |
 |Access sign-in logs from client|&#x2713;  | &#x2713; | &#x2713;   |
 |eDiscovery/archiving/content search and hold for conversations data| &#x2713; &dagger; | &#x2713; &dagger;  | &#x2713; |
-|eDiscovery/archiving/content search and hold for meetings and calls| &#x2713; &dagger; &Dagger; | &#x2713; &dagger; &Dagger;  | Coming soon |
+|eDiscovery/archiving/content search and hold for meetings and calls| &#x2713; &dagger; &Dagger; | &#x2713; &dagger; &Dagger;  | Coming soon &dagger;&dagger; |
 |Office 365 audit logs|      |      | &#x2713; |
-|Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon |
-|DLP for conversations and files|     |     | Coming soon |
+|Retention policies for conversations and files| &#x2713; &dagger; | &#x2713; &dagger;  | Coming soon &dagger;&dagger; |
+|DLP for conversations and files|     |     | Coming soon &dagger;&dagger; |
  
 &dagger; For Skype for Business Online users, this feature requires Exchange Online and is controlled by the user’s Exchange mailbox In-Place Hold attribute. 
 
 &Dagger; Supports Metadata, PowerPoint uploads, File transfer, Whiteboard, and Q&A. Does not support Audio, Video, and App and Desktop sharing.
+
+&dagger;&dagger; For features that are coming soon, see the [Teams product roadmap](https://aka.ms/TeamsRoadmap) and the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap). 
 
