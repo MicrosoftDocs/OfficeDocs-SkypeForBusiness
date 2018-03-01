@@ -24,7 +24,7 @@ organization’s readiness for your Teams deployment in several major areas. Wor
 with your project team to provide the requested information with as much detail
 as possible to facilitate your planning activities.
 
-> [!TIP]
+> [!NOTE]
 > You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
 
 Project team
