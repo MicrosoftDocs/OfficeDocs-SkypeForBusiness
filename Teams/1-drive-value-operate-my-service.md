@@ -1,6 +1,6 @@
-#Operate my service
+# Operate my service
 
-##Introduction to the Operations Guide
+## Introduction to the Operations Guide
 
 The Operations Guide gives you an overview of all the tasks and activities
 required as part of the service management function for Microsoft Teams.
@@ -27,20 +27,14 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activiteis that comprise service management for Microsoft Teams. The diagram also depicts that service management is largely a customer task.](media/24de05b4dffa5f998d8ae4e286cff846.png)
+![A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
 
-| [./media/image2.jpg](./media/image2.jpg) | Decision points | Decide how operations will be implemented for Microsoft Teams |
-|------------------------------------------|-----------------|---------------------------------------------------------------|
-| [./media/image3.jpg](./media/image3.jpg) | Next steps      | Review the Operations Guide in full.                          |
 
--   Implement an operations strategy that aligns with your organizations goals
-    to deliver quality and reliability of cloud voice workloads.
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization's goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality Experience Reviews to make sure your cloud voice deployment is operating at peak capabilities.</li></ul></td></tr>
+</table>
 
--   Review the Quality Experience Review guide.
-
--   Implement an operations strategy to regularly perform Quality Experience
-    Reviews to make sure your cloud voice deployment is operating a peak
-    capabilities.
 
 ### Operational role mapping
 
@@ -75,17 +69,9 @@ begins.
 After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
-| [./media/image4.emf](./media/image4.emf) Next steps | Use this document to facilitate the operational role mapping exercise. |
-|-----------------------------------------------------|------------------------------------------------------------------------|
-
-
--   Meet with the respective support teams to assign names to each item in the
-    list of required activities.
-
--   Gain acceptance or sign-off on the assigned roles.
-
--   Ensure the corresponding teams have the appropriate training, readiness, and
-    resources to complete their required activities.
+<table>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td>
+<td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure the corresponding teams have the appropriate training, readiness, and resources to complete their required activities.</li></ul></td></table>
 
 ### Teams service dependencies
 
@@ -121,29 +107,33 @@ experience with Teams.
 #### References 
 
 [Overview of Microsoft
-Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-overview)
+Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
 
 [How Exchange and Microsoft Teams
-interact](https://docs.microsoft.com/en-us/MicrosoftTeams/exchange-teams-interact)
+interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
 
 [How SharePoint Online and OneDrive for Business interact with Microsoft
-Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact)
+Teams](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact)
 
 [Microsoft Teams and Skype for Business
-interoperability](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
 
-##Operations Guide activities
+<!--ENDOFSECTION-->
+
+## Operations Guide activities
 
 The following sections give an overview of the activities that are required to
 successfully operate the Microsoft Teams service. They include reference to
 tools, contextual information, and additional content to help you understand the
 activity and to assist in readiness initiatives.
 
-##Monitor service health
+<!--ENDOFSECTION-->
+
+## Monitor service health
 
 It’s important that you understand the overall health of the Microsoft Teams
 service so that you can proactively alert others in your organization of any
-event that affects the service. As described earlier**,** Teams is dependent on
+event that affects the service. As described earlier, Teams is dependent on
 other Office 365 services such as Azure Active Directory, Exchange Online,
 SharePoint Online, and OneDrive for Business. Because of this, it’s equally
 important that you monitor the health of the dependent services.
@@ -165,7 +155,8 @@ tool, and when you should use each one is included in the table below.
 | Microsoft System Center               | Integration with Microsoft System Center.           | You require advanced monitoring capabilities and notification support.                       |
 | Office 365 Service Communications API | Programmatic access to Office 365 service health.   | You require integration with a 3rd party monitoring tool or wish to build your own solution. |
 
-Note: Only individuals who are assigned the **global admin** or **service
+> [!NOTE]
+> Only individuals who are assigned the **global admin** or **service
 administrator** role can view service health.
 
 ### Monitoring with the Office 365 portal
@@ -186,10 +177,10 @@ notification support makes it the recommended monitoring tool for
 administrators. For more information, see:
 
 [Office 365 Admin Mobile
-App](https://support.office.com/en-us/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
 [Download the Office 365 Admin Mobile
-App](https://products.office.com/en-US/business/manage-office-365-admin-app)
+App](https://products.office.com/business/manage-office-365-admin-app)
 
 ### Monitoring with Microsoft System Center
 
@@ -201,7 +192,7 @@ within Operations Manager in System Center. Using this tool gives you access to
 the status of your subscribed services, active and resolved service incidents,
 and your Message Center communications (upcoming changes). For more information,
 refer to the following [blog
-post](https://blogs.office.com/en-us/2014/07/29/new-office-365-admin-tools/?eu=true).
+post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
 
 If you leverage System Center to monitor Teams service health (and dependent
 services), you can further customize the management pack to alert or notify
@@ -217,7 +208,7 @@ programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Office 365 service communications, potentially
 simplifying how you monitor your environment. For more information, see [Office
 365 for Enterprise
-developers](https://msdn.microsoft.com/en-us/library/jj984343(v=office.15).aspx).
+developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -237,7 +228,9 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/service-health)
 [Service Health and
 Continuity](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
-##Manage organizational change
+<!--ENDOFSECTION-->
+
+## Manage organizational change
 
 Microsoft Teams is a cloud-based service. With that comes the ability to provide
 new features and functionality at a rapid pace. Delivering ongoing innovation
@@ -250,7 +243,7 @@ always have the latest client and features available in the Teams service. It’
 not possible to manage the rollout of Teams updates to your users, therefore
 it’s critically important to manage change through effective communication,
 training, and adoption programs. If your users are aware of the change, educated
-about the benefits, and empowered to leverage the new capabilities – they’ll be
+about the benefits, and empowered to leverage the new capabilities&mdash;they’ll be
 able to adapt more quickly and welcome the change.
 
 ### Monitoring for change
@@ -290,22 +283,38 @@ Now that you’re aware of upcoming changes to the Teams service, the next step 
 to prepare and plan accordingly. Assess each change to determine which changes
 require communication to users, awareness campaigns, training for support teams
 or users, or feature evaluation and adoption campaigns. This is the primary role
-of a change management team in your organization. Below is a sample table that
+of a change management team in your organization. Below is a collection of sample tables that
 can help you plan for change.
 
-| Feature: Cloud Recording (Release date: January 2018) |                              |                      |                                                                 |                        |
-|-------------------------------------------------------|------------------------------|----------------------|-----------------------------------------------------------------|------------------------|
-| Track                                                 | **Change readiness**         | **Notes/next steps** | **Owner**                                                       |                        |
-| General                                               | Legal review                 | Completed            | This feature is a prerequisite to onboarding the training team. | Project team           |
-| Technical change management                           | IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
-|                                                       | Technical readiness complete | Yes                  |                                                                 | Support team           |
-| User change management                                | User impact                  | Low                  |                                                                 |                        |
-|                                                       | User readiness required      | Yes                  |                                                                 |                        |
-|                                                       | Communications ready         | No                   | Communication email has been drafted—pending review.            | Communications Team    |
-|                                                       | Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
-| Status                                                | Release status               | in progress          | In progress, pending review by executive sponsor.               | Change Management Team |
-|                                                       | Release sign-off             |                      |                                                                 |                        |
-|                                                       | Release date                 |                      |                                                                 |                        |
+[//]: # (The column span and row span in this table are lovely, but unsupported in Markdown, at least the rowspan is. This is as close as I could get. Maybe the whole thing needs redesigning.)
+
+#### Feature: Cloud Recording (Release date: January 2018)
+
+**General track**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| Legal review   | Completed     | This feature is a prerequisite to onboarding the training team. | Project team  |
+
+**Technical change management**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
+| Technical readiness complete | Yes                  |                                                                 | Support team  
+         |
+**User change management** 
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| User impact                  | Low                  |                                                                 |                        |
+| User readiness required      | Yes                  |                                                                 |                        |
+| Communications ready         | No                   | Communication email has been drafted—pending review.            | Communications Team    |
+| Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
+
+**Status track**
+| Change readiness | Status   | Notes/next steps | Owner |
+|----|----|----|-----|
+| Release status               | in progress          | Pending review by executive sponsor.               | Change Management Team |
+| Release sign-off             |                      |                                                                 |                        |
+| Release date                 |                      |                                                                 |                        |
 
 For more information about planning for change management with Teams, see
 [Create a change management strategy for Microsoft
@@ -317,15 +326,15 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/change-management-strateg
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Monitor for change     | Monitor for upcoming changes to Microsoft Teams service.                                                                                                                                                                   | Daily     |               |
 | Planning for change    | Evaluate and plan for new features and capabilities, including communication plans, awareness campaigns, and training.                                                                                                     | As needed |               |
-| End user               | Perform targeted communication, awareness, or training campaigns to ensure users are ready for the upcoming change.                                                                                                        | As needed |               |
-| readiness              |                                                                                                                                                                                                                            |           |               |
+| User readiness             | Perform targeted communication, awareness, or training campaigns to ensure users are ready for the upcoming change.                                                                                                        | As needed |               |
 | Support team readiness | Perform targeted communication, awareness, or training campaigns to ensure the support team is ready. Support teams can include the “white glove” team, helpdesks, Tier 2 or Tier 3 support, external partners, and so on. | As needed |               |
 
 ### References 
+**Coming soon...**
 
-Debbie’s content
+<!--ENDOFSECTION-->
 
-##Assess Teams usage
+## Assess Teams usage
 
 After the initial pilot begins, it’s critical to establish a regular cadence for
 measuring actual Teams usage. This enables your organization to gain insights
@@ -354,16 +363,16 @@ Usage data from Teams is available in the Reporting dashboard. Teams usage data
 can be found in three different reports. The first report provides a
 cross-product view of how users communicate and collaborate by using the various
 services in Office 365. This report can be found here: [Office 365 active users
-report](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
 
 [Microsoft Teams device usage
-report](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
 [Microsoft Teams user activity
-report](https://support.office.com/en-ie/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### Required permissions
 
@@ -377,7 +386,7 @@ access to the reports, but don’t perform any tasks that require
 administrator-level permissions. You assign this role to provide usage reports
 to anyone who is a stakeholder, to monitor and drive adoption. For more
 information about the different roles available, see [About Office 365 admin
-roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### Assessing usage
 
@@ -394,7 +403,7 @@ ensure that the next batch of sites or users don’t encounter the same issues.
 First, pinpoint whether this is an adoption and/or technical problem. Begin by
 investigating the items below, in order, to determine where the problem is.
 
-1.  Validate quality by performing a Quality Experience Review link to section.
+1.  Validate quality by performing a [Quality Experience Review](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service#quality-of-experience-review-guide).
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends
@@ -403,7 +412,7 @@ investigating the items below, in order, to determine where the problem is.
     section to try to solve the problem before engaging support.
 
 3.  Work with the training and adoption team to gather direct feedback from
-    users (See assessing User Sentiment), and to check the effectiveness of
+    users (See [Assess User Sentiment](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service#assess-user-sentiment)), and to check the effectiveness of
     awareness and adoption activities.
 
 ### Daily/weekly/monthly/as-needed tasks
@@ -418,12 +427,14 @@ investigating the items below, in order, to determine where the problem is.
 ### References 
 
 [About the Office 365 admin
-center](https://support.office.com/en-us/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
 [Activity Reports in the Office 365 admin
-center](https://support.office.com/en-us/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263?ui=en-US&rs=en-US&ad=US)
+center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263?ui=en-US&rs=en-US&ad=US)
 
-##Assess user sentiment
+<!--ENDOFSECTION-->
+
+## Assess user sentiment
 
 Understanding user sentiment can act as a key indicator for gauging the success
 of your Teams deployment. User feedback can drive changes in your organization;
@@ -457,7 +468,7 @@ User sentiment can be assessed through many different methods. These can include
 email surveys, in-person or telephone-style interviews, or simply creating a
 feedback channel in Teams or Yammer. For more information, see [Best practices
 for user feedback methods in Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/best-practices-feedback).
+Teams](https://docs.microsoft.com/microsoftteams/best-practices-feedback).
 
 You can also use an industry-wide approach to assess user sentiment called net
 promotor score (NPS), which is described in the following section.
@@ -487,9 +498,7 @@ based on the following ratings:
 -   From 1 through 6 are Detractors: Unhappy customers who can damage your
     service and impede growth.
 
-![This is a diagram that demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.](media/81b86c4bbe16acb49b9cf44e9d3a4aa0.png)
-
-Figure - NPS scale
+![This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0-6 are detractors, 7-8 are passive and 9-10 are promoters.")
 
 Although the base NPS number is useful, you’ll get the most value from analyzing
 user comments. They’ll help you understand why the user would (or wouldn’t)
@@ -514,18 +523,17 @@ Network Promotor Score
 [Using Yammer to Collect
 Feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
-Debbie’s Content [Provide link]
-
 [Best Practices for User
-Feedback](https://docs.microsoft.com/en-us/microsoftteams/best-practices-feedback)
+Feedback](https://docs.microsoft.com/microsoftteams/best-practices-feedback)
 
-Manage network quality
-----------------------
+<!--ENDOFSECTION-->
+
+## Manage network quality
 
 Many core planning elements go into optimizing, right-sizing, and remediating
 your network infrastructure to ensure a high-quality, efficient path to the
 Microsoft Teams service. The planning tasks and requirements are covered in our
-previous Network Readiness [Provide link] guidance. Networks often evolve over
+previous [Network Readiness](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) guidance. Networks often evolve over
 time due to upgrades, expansion, or other business requirements. It’s important
 that you account for your requirements for Teams in your network planning
 activities.
@@ -544,43 +552,24 @@ be performed at regular intervals.
 | Monitor Office 365 IPs and URLs                                | Monitor any changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) by using the provided [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) and initiate a change request to applicable networking groups.                                                                                                                                | Daily                  |               |
 | Update the network based on changes to Office 365 IPs and URLs | Make updates to the applicable network components (firewalls, proxy servers, VPNs, client-side firewalls, and so on) to reflect changes to the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)                                                                                                                                                              | As needed              |               |
 | Provide building data                                          | Provide updated subnet information to the quality champion (or relevant stakeholders) to ensure that the building definitions in CQD are kept up to date. [Building Data Schema](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information) | As needed              |               |
-| Implement change                                               | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:                                                                                                                                                                                                                                               | As needed              |               |
+| Implement change                                               | Implement changes on the network to support changing Teams business and technical requirements. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>     | As needed              |               |
 | Network monitoring and reporting                               | Monitor the network end to end for availability, utilization, and capacity trends by using your existing third-party network management tools and reporting capabilities available from your network providers. Use trending data for network capacity planning.                                                                                                            | Daily, weekly, monthly |               |
 | Capacity planning                                              | Collaborate with the Teams service owners to understand changing business and technical requirements that might drive additional capacity changes. Leverage the results from the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to ensure that sufficient bandwidth is available for Microsoft Teams.                               | As needed              |               |
-| Network troubleshooting and remediation                        | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:                                                                                                                                                                              | As needed              |               |
+| Network troubleshooting and remediation                        | Assist the Teams helpdesks, service owners, and key stakeholders to troubleshoot and remediate issues to related to Teams connectivity, reliability, or quality. Network elements can include:<ul><li>Firewalls</li><li>VPNs</li><li>Wired and Wi-Fi networks</li><li>Internet connectivity and ExpressRoute</li><li>DNS</li></ul>    | As needed              |               |
 | Disaster recovery and high availability testing                | Perform regular high availability and disaster recovery testing on the network infrastructure to ensure that it meets the stated service level objectives (SLOs) or service level agreements (SLAs) for the Teams service.                                                                                                                                                  | Monthly                |               |
 
--   Firewalls
-
--   VPNs
-
--   Wired and Wi-Fi networks
-
--   VPNs
-
--   Internet connectivity and ExpressRoute
-
--   DNS
-
--   Firewalls
-
--   VPNs
-
--   Wired and Wi-Fi networks
-
--   Internet connectivity and ExpressRoute
-
--   DNS
 
 ### References 
 
-Network Planner
+[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
-Building Data Schema
+[Building Data Schema](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#tenant-data-file-format-and-building-data-file-structure )
 
-##Assess and ensure quality 
+<!--ENDOFSECTION-->
+
+## Assess and ensure quality 
 
 All organizations need a group or individual to be accountable for quality. This
 is the most important role in service management. The Quality Champion role is
@@ -597,7 +586,7 @@ user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions, and report to a steering committee about progress and any open issues.
 
-The Quality Experience Review Guide [Provide link to guide] includes activities
+The [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) includes activities
 that assess and provide remediation guidance in key areas that have the greatest
 impact on improving user experience. The guidance provided in the Quality
 Experience Review Guide focuses on using CQD Online as the primary tool to
@@ -617,16 +606,9 @@ the Quality Experience Review Guide and associated training materials.
 | Perform Quality Experience Reviews     | Perform a Quality Experience Review (QER) to identify trends in quality and reliability, review against defined targets, and report out to key stakeholders in the organization.                                                                                                                            | Monthly (weekly during deployments) |               |
 | Drive remediation                      | Coordinate remediation efforts across the organization based on the QER assessments and findings.                                                                                                                                                                                                           | As needed                           |               |
 | Update building data in CQD            | Update or add new building definitions in CQD when changes are made to the network (see [Update Building Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)). | As needed                           |               |
-| Fill the Quality Champion(s) role      | End-to-end responsibility for quality in the organization. This includes:                                                                                                                                                                                                                                   | Daily                               |               |
+| Fill the Quality Champion(s) role      | End-to-end responsibility for quality in the organization. This includes:<ul><li>Ensure that the QER is being conducted regularly.</li><li>Report out to key stakeholders on quality status.</li><li>Ensure the building data definitions are up to date.</li><li>Coordinate remediation efforts across the organization to ensure that users have a high-quality experience with Teams.</li></ul>          | Daily                               |               |
 
--   Ensure that the QER is being conducted regularly.
 
--   Report out to key stakeholders on quality status.
-
--   Ensure the building data definitions are up to date.
-
--   Coordinate remediation efforts across the organization to ensure that users
-    have a high-quality experience with Teams.
 
 ### References 
 
@@ -636,9 +618,11 @@ CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=L
 [Update Building
 Data](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)
 
-QER Guide [Provide link]
+[Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
 
-##Manage endpoints
+<!--ENDOFSECTION-->
+
+## Manage endpoints
 
 Microsoft Teams endpoints can be defined as any PC, Mac, tablet, or mobile (or
 any other) device running the Teams client. The term *endpoint* not only
@@ -662,7 +646,7 @@ important that you monitor them for changes. For example, the Teams client has a
 minimum iOS version. If the client uses an internet browser, the browser needs
 to be kept current as well. A list of supported platforms can be found in [Get
 Clients for Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).
+Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ### Endpoint firewalls
 
@@ -678,8 +662,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality Experience Review (see Assessing
-and Ensuring Quality [Provide link] for more detail). It’s essential to
+driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
@@ -709,7 +692,7 @@ the nature of the issue.
     related to an event that negatively affects the Teams service or its
     dependent services. As a first step, we recommend that you confirm there are
     no active service issues. Consult [How to check Office 365 service
-    health](https://support.office.com/en-us/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0).
+    health](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0).
     Remember to check for the status of dependent services (examples; Exchange,
     SharePoint, OneDrive for Business). Monitoring for service health is
     discussed in more detail in the section **Monitoring Service Health.**
@@ -720,14 +703,14 @@ the nature of the issue.
     following [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
     guidance is followed for each site. You can leverage the [Microsoft Network
     Assessment
-    Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to
+    Tool](https://www.microsoft.com/download/details.aspx?id=53885) to
     perform a connectivity test to validate that the media ports have been
     opened correctly for cloud voice capabilities. Detailed steps on how to run
-    the connectivity tests are provided in the Network Readiness [insert link]
+    the connectivity tests are provided in the [Network Readiness](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)
     guidance.
 
 3.  **Check the known issues list:** Consult the [list of known issues for
-    Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/known-issues) to
+    Teams](https://docs.microsoft.com/MicrosoftTeams/known-issues) to
     determine whether the user has been negatively affected by one of these
     issues. Follow the workaround provided (if there is one) to resolve the
     issue.
@@ -741,10 +724,10 @@ the nature of the issue.
 5.  **Contact Microsoft Support:** You can contact Microsoft Support for issues
     with Teams online or by phone. For information, see [Contact Support for
     Microsoft
-    Teams](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US).
+    Teams](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     For Premier customers, support requests can be initiated by following the
     guidance at [Contact Support for Microsoft Teams (Premier
-    Customers)](https://support.microsoft.com/en-us/premier/contacts).
+    Customers)](https://support.microsoft.com/premier/contacts).
 
 ### Daily/weekly/monthly/as-needed tasks
 
@@ -752,7 +735,7 @@ the nature of the issue.
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements    | Ensure that the Teams’ endpoint continues to meet all the software requirements for Teams [Get Clients for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients).                                                                                                                                                                                       | Monthly   |               |
 | Endpoint firewalls       | Maintain the appropriate exclusions on the endpoint firewall based on the information in the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) article. Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed |               |
-| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD (See Assess and ensure quality*).*                                                                                                                                                                                                                                                                   | As needed |               |
+| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | As needed |               |
 | Endpoint management      | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies.                                                                                                                                                                                                        | Monthly   |               |
 | Endpoint troubleshooting | Troubleshooting tasks can include; verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors.                                                                                                                                                                                               | As needed |               |
 
@@ -761,26 +744,28 @@ the nature of the issue.
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
 [Get Clients for Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/get-clients)
+Teams](https://docs.microsoft.com/microsoftteams/get-clients)
 
 [Microsoft Teams Tech
 Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
 [Known Issues for Microsoft
-Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/known-issues)
+Teams](https://docs.microsoft.com/MicrosoftTeams/known-issues)
 
 [Verify Service Health for Microsoft
-Teams](https://docs.microsoft.com/en-us/microsoftteams/service-health)
+Teams](https://docs.microsoft.com/microsoftteams/service-health)
 
 [Contact Support for Microsoft
-Teams](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US)
+Teams](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US)
 
 [Contact Support for Microsoft Teams (Premier
-Customers)](https://support.microsoft.com/en-us/premier/contacts)
+Customers)](https://support.microsoft.com/premier/contacts)
 
 [Troubleshooting Teams Video](https://www.youtube.com/watch?v=4O4d_7uZTQY)
 
-##Manage Teams
+<!--ENDOFSECTION-->
+
+## Manage Teams
 
 After the Microsoft Teams service has been deployed, you’ll need to perform
 several activities relating to its administration. The activities range from
@@ -794,7 +779,7 @@ The Teams service has multiple settings that can be configured tenant-wide.
 Changes made to the tenant settings affect all users who have been enabled for
 Teams. For a detailed list of these settings, see [Turn on Microsoft Teams
 features in your Office 365
-organization](https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365).
+organization](https://docs.microsoft.com/microsoftteams/enable-features-office-365).
 
 ### User administration
 
@@ -811,52 +796,52 @@ Teams](https://docs.microsoft.com/en-us/microsoftteams/user-access)
 #### Common tasks for Phone System
 
 [Assign, change, or remove a phone number for a
-user](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)
+user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)
 
 [Assign or change an emergency address for a
-user](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
+user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
 
 [Add, change, or remove an emergency location for your
-organization](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
+organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [Create and manage dial
-plans](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+plans](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
 
 #### Common tasks for Audio Conferencing
 
 [Change the settings for an Audio Conferencing
-bridge](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
 
 [Change the phone numbers on your Audio Conferencing
-bridge](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
 
 [Manage the Audio Conferencing settings for a
-user](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
 
 [Reset the Audio Conferencing PIN for a
-user](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user)
+user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user)
 
 ### License management
 
 As your organization grows or contracts, it’s important that you plan licensing
 for current and future needs. There is a base Teams license, in addition to
 licensing for cloud voice capabilities ([Phone
-System](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system?ui=en-US&rs=en-US&ad=US)
+System](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system?ui=en-US&rs=en-US&ad=US)
 and [Audio
-Conferencing](https://products.office.com/en-ca/skype-for-business/audio-conferencing)).
+Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
 
 For Teams, Phone System licenses require associated [Calling
-Plan](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Plan](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 licenses. Calling Plan licensing enables you to make and receive domestic and/or
 international phone calls. These plans are usage-based and have minute pools
 associated with them. Provisioning [Communications
-Credits](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
 will ensure you never run out of service.
 
 Audio Conferencing allows for tolled dial-in conferencing and domestic dial-out
 conferencing services. Toll-free dial-in conferencing or non-domestic dial-out
 scenarios might cause you to incur additional charges for which [Communications
-Credits](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
 are required.
 
 Communications Credits can supplement both Calling Plan and Audio Conferencing
@@ -864,11 +849,11 @@ licenses. Both Calling Plan licenses and Communication Credits are usage-based,
 and therefore need to be monitored and provisioned for accordingly.
 
 You can leverage the [PSTN Usage
-Report](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+Report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
 to help you monitor your usage of Calling Plan minutes and Communications
 Credits. Based on the results of this activity, you can adjust your licensing
 accordingly. Coming soon, we will offer a [PSTN Minute
-Pool](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)
+Pool](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)
 report to more effectively assist with this task.
 
 ### Telephone number management
@@ -877,12 +862,12 @@ There are two methods to acquire numbers in Teams: You can port telephone
 numbers from another provider, or you can provision the numbers directly from
 Microsoft’s number inventory. Both methods are described in [Getting phone
 numbers for your
-users](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
+users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 
 There is a limit to the amount of telephone numbers you can provision from
 Microsoft’s number inventory. The limits are determined by a number of factors
 detailed in [How many phone numbers can you
-get](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+get](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
 The limits depend on the type of numbers—toll-free service numbers, toll service
 numbers, and subscriber (user) numbers. Each has its own limits and must be
 managed independently. If you’re nearing the limit (or you’ve reached the
@@ -892,29 +877,65 @@ in the article above.
 There might be times when a number isn’t available to be provisioned in a region
 where service is available. For information about the process for requesting
 numbers, see [Manage phone numbers for your
-organization](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ### Team creation (optional)
 
 By default, all users with a mailbox in Exchange Online have permissions to
 create Office 365 groups and, therefore, a team in Microsoft Teams. If you want
 to have tighter control and [restrict the creation of new
-teams](https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions#permissions-to-create-teams)
+teams](https://docs.microsoft.com/MicrosoftTeams/assign-roles-permissions#permissions-to-create-teams)
 (and thus the creation of new Office 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.
 
-##Daily/weekly/monthly/as-needed tasks
+<!--ENDOFSECTION-->
+
+## Daily/weekly/monthly/as-needed tasks
 
 | Activity                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Team assigned |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Service administration      | Administration of tenant-wide Teams settings.                                                                                                                                                                                                                                                                                                                                                                           | As needed |               |
 | User administration         | Administration of user-based settings and licensing in Teams.                                                                                                                                                                                                                                                                                                                                                           | As needed |               |
-| License management          | Plan for current and future needs for both user and consumption-based licensing (Calling Plans and Communication Credits) by leveraging the [PSTN Usage Report](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) and [PSTN Minute Pool](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) report. | Weekly    |               |
+| License management          | Plan for current and future needs for both user and consumption-based licensing (Calling Plans and Communication Credits) by leveraging the [PSTN Usage Report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) and [PSTN Minute Pool](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) report. | Weekly    |               |
 | Telephone number management | Manage the telephone numbers available for future growth, and adjust inventory levels to meet your organizational needs.                                                                                                                                                                                                                                                                                                | Weekly    |               |
 | Team creation (optional)    | Review and process requests for team creation.                                                                                                                                                                                                                                                                                                                                                                          | As needed |               |
 
-##Quality of Experience Review Guide (RiskS asset)
+<!--ENDOFSECTION-->
 
-\<\<Intro From Matt / Rick \>\>
+## Quality of Experience Review Guide
+The Quality Experience Review Guide has a set of activities that assess and
+provide remediation guidance in key areas that have the greatest impact for
+improving user experience, as shown in the figure below.
+
+![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+
+By continually assessing and remediating the areas described in this document,
+you can reduce their potential to negatively affect user experience. Most
+user-experience problems encountered in a deployment can be grouped into the
+following categories:
+
+-   Incomplete firewall or proxy configuration
+
+-   Poor Wi-Fi coverage
+
+-   Insufficient bandwidth
+
+-   VPN
+
+-   Use of unoptimized or built-in audio devices
+
+-   Problematic subnets or network devices
+
+The guidance provided in the Quality Experience Review Guide focuses on using
+Call Quality Dashboard (CQD) Online as the primary tool to report and
+investigate each area described, with a focus on audio to maximize adoption and
+impact. Any optimizations made to the network to improve the audio experience
+will also directly translate to improvements in video and desktop sharing.
+
+We highly recommend that you nominate the quality champion early on. After being
+nominated, they should start to familiarize themselves with the content in the
+[Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+
+<!--ENDOFSECTION-->

@@ -1,6 +1,6 @@
-#Evaluate my environment
+# Evaluate my environment
 
-##Introduction to evaluating your environment 
+## Introduction to evaluating your environment 
 
 To achieve your objective key results (OKRs), you previously made key service
 decisions. The next step is to perform environmental discovery to evaluate all
@@ -15,7 +15,9 @@ You identify technical risks as part of an environmental assessment and adoption
 readiness evaluation, and develop a mitigation plan for each identified risk.
 You should incorporate this information in the risk register.
 
-##Current environment
+<!--ENDOFSECTION-->
+
+## Current environment
 
 As part of your environmental discovery, include all matters related to end-user
 computing, such as a readiness assessment of PCs and mobile devices to support
@@ -30,27 +32,20 @@ prepare the necessary information for number porting. You can use the [Discovery
 Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3)
 from MyAdvisor to perform environmental discovery.
 
-[!NOTE] Although the Discovery Questionnaire was initially written for Skype for
+>[!NOTE]
+>Although the Discovery Questionnaire was initially written for Skype for
 Business Online, most of the content is relevant to Microsoft Teams. Feel free
 to modify and remove items that aren’t relevant to your project goals.
 
-| [./media/image1.png](./media/image1.png) |
-|------------------------------------------|
 
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
+</table>
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
+<!--ENDOFSECTION-->
 
-    Decision points
-
-    Who will be responsible for completing an environment assessment?
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the results of the environment assessment. |   |
-|------------------------------------------|------------|-----------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
-##Adoption and change management assessment capabilities 
+## Adoption and change management assessment capabilities 
 
 You can evaluate your organization’s adoption readiness by executing persona
 analysis to come up with a list of personas who can be targeted for the
@@ -68,42 +63,29 @@ using the [Persona Analysis
 Report](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9)
 template.
 
-[!NOTE] Although the persona assets were initially written for Skype for
+>[!NOTE]
+>Although the persona assets were initially written for Skype for
 Business Online, most of the content is relevant to Teams. Feel free to modify
 and remove items that aren’t relevant to your project goals.
 
-| [./media/image1.png](./media/image1.png) |
-|------------------------------------------|
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Who will be responsible for completing a persona alignment and feature assessment?</li><li>Evaluate your ability to perform adoption and change management for your organization.</li></ol></td></tr>
 
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the persona alignment and feature assessment.</li><li>If required, engage outside resources to assist with driving adoption and change management for your organization.</li></ol></td></tr>
+</table>
 
-    Decision points
+<!--ENDOFSECTION-->
 
-    Who will be responsible for completing a persona alignment and feature
-    assessment?
-
-    -   Evaluate your ability to perform adoption and change management for your
-        organization.
-
-| [./media/image2.png](./media/image2.png) | Next steps | Document the results of the persona alignment and feature assessment. |   |   |
-|------------------------------------------|------------|-----------------------------------------------------------------------|---|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   If required, engage outside resources to assist with driving adoption and
-    change management for your organization.
-
-##Network readiness
+## Network readiness
 
 Teams uses audio and video technology (codecs) that can adapt to—and therefore
 perform better under—most network conditions. To ensure optimal and consistent
 performance, you should prepare your network for Teams.
 
-![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on Network.](media/4622d93a62f2517e1b071d6ff6b0648f.png)
+![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.](media/evaluate-my-environment-image1.png "Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on the network.")
 
-##Key takeaways
+## Key takeaways
 
 These are the main takeaways from this guidance. You must:
 
@@ -122,7 +104,7 @@ These are the main takeaways from this guidance. You must:
     performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
     from both the edge segment and the client segment.
 
-##Why should you prepare your network?
+## Why should you prepare your network?
 
 Before we look at the steps to be taken, it’s important to understand what can
 affect the performance of Teams and thereby user happiness and satisfaction.
@@ -140,7 +122,9 @@ Failing to prepare your network will likely lead to dissatisfied users and
 costly, ad-hoc fixes. By preparing your network—and your organization—for Teams,
 you can dramatically increase your chance of success.
 
-##Bandwidth planning
+<!--ENDOFSECTION-->
+
+## Bandwidth planning
 
 The first step toward network readiness is ensuring your network has enough
 bandwidth available for the modalities Teams will provide to users. Planning for
@@ -194,8 +178,6 @@ organization’s network.
 To implement a split-tunnel, consult with your VPN vendor for the configuration
 details.
 
-[Link to Network Readiness: VPN Guidance]
-
 ### Wi-Fi
 
 Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support
@@ -227,9 +209,9 @@ There are several factors that come into play for optimizing a Wi-Fi network:
 Each wireless vendor has its own recommendations for deploying its wireless
 solution. We recommend that you consult your vendor for specific guidance.
 
-[Link to Network Readiness: Wi-Fi Guidance]
+<!--ENDOFSECTION-->
 
-##Firewall and proxy requirements
+## Firewall and proxy requirements
 
 Microsoft Teams connects to Microsoft Online Services and needs internet
 connectivity for this. For Teams to function correctly, you must open TCP ports
@@ -253,7 +235,7 @@ change. You can subscribe to [this RSS
 feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when
 changes occur. It’s also a good practice to test whether all ports are opened by
 running the [Skype for Business Network Assessment
-Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) on a
+Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a
 regular basis. You can find out more about the functionality of this tool in the
 next section.
 
@@ -262,9 +244,11 @@ proxy server for all Teams services. Although using a proxy might work, it’s
 very likely that quality will be reduced due to media’s being forced to use TCP
 instead of UDP. For more information about proxy servers and bypassing, see
 [Office 365 URLs and IP address
-ranges](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges).
+ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
-##Test the network
+<!--ENDOFSECTION-->
+
+## Test the network
 
 After you’ve completed your planning and network preparation—including upgrading
 bandwidth and opening ports in the firewall—you should test your network’s
@@ -349,7 +333,9 @@ Note that both segments must meet the requirements for a high-quality
 deployment. We recommend that you run the tool multiple times for one hour
 straight to get a good indication of your network’s performance.
 
-##Network remediation
+<!--ENDOFSECTION-->
+
+## Network remediation
 
 If the results of bandwidth planning, port testing, or network requirements
 testing show that your current network needs remediation before you deploy
@@ -367,28 +353,17 @@ separating traffic. Some organizations choose to deploy QoS to overcome
 bandwidth issues or restrict the amount of traffic flowing. This won’t improve
 quality and will lead to new problems. A root-cause analysis should always be
 performed when network impairments exceed requirements. QoS can be a solution.
-More on QoS can be found here [Provide Link]
+For more information, see [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
-[!NOTE] Many networks evolve over time due to upgrades, expansion, or other
+>[!NOTE]
+>Many networks evolve over time due to upgrades, expansion, or other
 business requirements. Ensure that you have operational processes in place to
 maintain these areas as part of your service management planning.
 
-| [./media/image1.png](./media/image1.png) |
-|------------------------------------------|
 
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ol></td></tr>
+</table>
 
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Who will be responsible for completing proper network assessments across all
-    network segments and organization locations?
-
-| [./media/image2.png](./media/image2.png) | Next steps | You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). |   |
-|------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Perform network remediation based on the results of the Network Readiness
-    Assessment for every network segment.
+<!--ENDOFSECTION-->
