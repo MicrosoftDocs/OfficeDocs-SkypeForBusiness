@@ -18,7 +18,7 @@ appliesto:
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
 
-*Comment: Checklists are straightforward lists of sequential tasks or actions (for example, "Configure foo", "Verify foo"). Supporting detail is provided via links, so we can focus on the tasks. Also, we want to have 'single source of truth' with respect to procedures. Meaning, if we already have a procedure in an existing topic, we link to it instead of reproducing the same procedure.*
+
 
 ## □  Enable guest access at the tenant level
 
@@ -29,7 +29,7 @@ At a minimum, you must turn on Microsoft Teams for all users of the license type
 
 
 ## □ Enable specific settings for channels 
-*Comment: What can you tell the user about these settings? How do they get to "Guest permissions"?*
+In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels. In addition to admins,  team owners can configure this setting.
 
 ![Screenshot shows an example of a Team/Channel Settings toggle](media/guest-access-checklist-TeamsSettings2.png)
 
@@ -74,14 +74,11 @@ For detailed instructions about configuring these settings, see the section "Off
 
 ► At a minimum to support guests, **Members can invite** must be set to **Yes**.
 
+For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
 
-*Comment: Suggest adding this level of detail about external user settings to the "Azure Active Directory" section of https://docs.microsoft.com/en-us/MicrosoftTeams/teams-dependencies and then linking from here. Also, some of descriptions below are unclear.*
 
-Azure AD includes the following settings to configure external users:
-- **Guest user permissions are limited**: Get guest become scope administrator of the tenant or application level. Delegated access to user or group to perform administrative functions to user or OU. Can you delegate  - Groups/Teams don’t use this.
-- **Admins and users in the guest inviter role can invite**: PowerShell AAD or Portal try to add guest - that won't impact Teams.
-- **Members can invite**: Teams Owners - No owners of Team or groups (developers working on this setting and user feedback to make errors clearer.) 
-- **Guests can invite**: Not used in Groups/Teams at this time.
+
+
 
 
 
@@ -95,7 +92,7 @@ Azure AD includes the following settings to configure external users:
 
 Use the Get-UnifiedGroup cmdlet in PowerShell to see the current setting for the AllowAddGuests parameter, which indicates whether guests are allowed (True) or not allowed (False). 
 
-*Comment: AllowAddGuests parameter is not shown on the cmdlet page at https://technet.microsoft.com/en-us/library/mt238274(v=exchg.160).aspx. Does the page need updating?*
+
 
 Use the Set-UnifiedGroup cmdlet in PowerShell to change the value of this parameter.
 
@@ -109,11 +106,11 @@ For more details about the cmdlet, see [Set-UnifiedGroup](https://technet.micros
 
 ## □ Verify account licenses and types
 
-- **Account must be licensed for Teams**: *Comment: What does "account" refer to? How does admin confirm this?*
-- **Accounts must be Office 365 school or work accounts**: Currently, only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user. We know that support for other types of accounts is a much-requested capability, and it's on the [Office 365 Roadmap (Non O365 school or work accounts)](https://products.office.com/en-us/business/office-365-roadmap?filters=%26freeformsearch=guest).
+- **Account licensed for Teams**: For a "Guest" account rooted in a real user account in some other Office 365 tenant, that real user account must be licensed for Teams for “Guest”. 
+- **Account must be Office 365 school or work account, or MSA account**: Currently, users who have an email address corresponding to an Azure Active Directory, Office 365 work or school account, or a Microsoft account (MSA) can be added as a guest user. 
  
-## □ Environment
-*Comment: Why is this part of the checklist? What are you asking the user to do here with respect to MFA? Is this for awareness?*
+## □ Configure environment
+
 
 Guests are required to use multi-factor authentication (MFA) if the hosting tenant requires it.
 For more details, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
