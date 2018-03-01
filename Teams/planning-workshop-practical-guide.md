@@ -1,5 +1,5 @@
 ---
-title: Tools and workshops - Plan, deliver, and operate Microsoft Teams
+title: Tools and workshops - Plan, deliver, and adopt Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,21 +7,21 @@ ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lolaj, rowille
-description: Planning tools, workshops, and getting started kits to help an admin get started with Microsoft Teams.
+description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---
 
-Tools and workshops: Plan, deliver, and operate Microsoft Teams
+Tools and workshops: Plan, deliver, and adopt Microsoft Teams
 =============================================================
 
-Download these tools to walk you through planning, delivering, and operating Teams in your organization.
+Download these tools to walk you through planning, delivering, and adopting Teams in your organization.
 
-- [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
+
+- [Microsoft Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out Teams in your organization. It includes two quick start guides - one for IT admins, one for team leaders. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management.
-
+    This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive adoption of Teams in your organization. It includes two quick start guides for administrators, team leaders and use case examples for every department. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management. 
 
 
 - [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
