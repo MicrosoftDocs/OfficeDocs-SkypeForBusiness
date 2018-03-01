@@ -35,7 +35,7 @@ select for the pilot as you plan for your broad rollout of Teams over time.
 
 |                     |                                                                              | [./media/image1.png](./media/image1.png)          |                                                                                     |
 |---------------------|------------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------|
-| Persona             | Profile                                                                      | Communication functionality requirements          | Devices                                                                             |
+| **Persona**             | **Profile**                                                                      | **Communication functionality requirements**          | **Devices**                                                                             |
 | **Collaboration**   | <ul><li>Might work with both internal and external customers <li>Might work remotely or onsite<li>Balances time between meetings and productive work<li>Uses Office (PowerPoint, Word, and so on) and third-party apps</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, “puck” speakerphone for home office workers, desktop client, mobile client</ul> |
 | **Field**           | <ul><li>Travels frequently—heavy reliance on email and phone<li>Requires reliable technology across devices<li>Will find a technology that works for them<li>Needs easy access to sales and marketing materials</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, desktop client, mobile client</ul>                                              |
 | **Executive**       | <ul><li>Serves as the voice and brand of the organization, internally and externally<li>Focuses on relationships<li>Has fast-paced, dynamic schedules<li>Uses mobile devices to stay connected<li>Relies on delegates as their “eyes and ears”<li>Spends the majority of their days in meetings or on phone calls</ul> | <ul><li>Delegate synchronization<li>Contact management (internal and external)<li>Audio calling (PC and PSTN)<li>Video calling<li>Multiple device support<li>Application sharing<li>Broad-scale communication tool</ul>                          | <ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</ul>              |
@@ -44,8 +44,6 @@ select for the pilot as you plan for your broad rollout of Teams over time.
 | **Info Processing** | <ul><li>Completes tasks and processes orders<li>Needs consistency and flow for this high-turnover job<li>Task or transaction based (for example order processing, purchasing)<li>Uses third-party tools for completing orders, time tracking</ul>                                         | <ul><li>Meeting attendee<li>IM that can be escalated to phone call and screen sharing<li>Audio calling<li>Auto attendant<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Headset, desktop client</ul>                                                             |
 | **Retail**          | <ul><li>Fills an in-person, on-premises, customer-facing role<li>Might work as a contract or part-time employee<li>Uses third-party tools for time tracking<li>Has little or no access to a PC</ul>                        | <ul><li>Meeting attendee<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Shared PC/desktop client</ul>                                                            |
 | **Production**      | <ul><li>Produces and packages company products for distribution<li>Shares workspaces and computers<li>Communicates on the factory floor, in person<li>Uses third-party tools for time tracking</ul>                      | <ul><li>Meeting attendee<li>Mobile device support<li>Streamlined access to data and documents<li>Third-party app integration</ul>                                  | <ul><li>Shared PC or desktop client</ul>                                                         |
-
-
 
 Map use cases to your personas
 ------------------------------
@@ -136,12 +134,8 @@ to a large group of participants.
 
 -   Managed participants (Q&A, audio)
 
-**Note**
-
-You can find more than two-hundred use cases and scenarios, with detailed
-explanations and videos to help you identify how Office 365 solutions can help
-you achieve your business goals, in the [Office 365 Productivity
-Library](http://aka.ms/productivitylibrary).
+>[!Note]
+>You can find more than two-hundred use cases and scenarios, with detailed explanations and videos to help you identify how Office 365 solutions can help you achieve  your business goals, in the [Office 365 Productivity Library](http://aka.ms/productivitylibrary).
 
 | [./media/image2.png](./media/image2.png) |
 |------------------------------------------|
@@ -161,11 +155,8 @@ Library](http://aka.ms/productivitylibrary).
 
 -   Identify and note your pilot users.
 
-**Important**
-
-Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define
-your pilot phases and users. Ensure that your users don’t depend on any feature
-that hasn’t been released yet.
+> [!Important]
+> Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
 
 ### Create a test plan
 
@@ -183,89 +174,11 @@ case to their testing, versus just running through a series of features.
 
 | **Conversations**                   | **Meetings**                   |
 |-------------------------------------|--------------------------------|
-| Find a contact:                     | Schedule a meeting in Outlook, |
+| <input type="checkbox"> Find a contact:<ul><li><input type="checkbox"> Internal.<li><input type="checkbox"> External - federated.</ul> <br/><input type="checkbox">Start a chat:<ul><li><input type="checkbox"> With a Teams user.<li><input type="checkbox">With a Skype for Business user.</ul><br/><input type="checkbox"> Add a participant to an IM.<br/><input type="checkbox"> Add audio.<br/><input type="checkbox"> Add sharing.<br/><input type="checkbox"> Share a file.<br/><input type="checkbox"> Review a chat (history).<br/><input type="checkbox"> Resume a prior chat.<br/><input type="checkbox"> Respond to an incoming IM.<br/><input type="checkbox"> Send an IM on a mobile device.<br/><input type="checkbox"> Respond to an IM on a mobile device.                      | <input type="checkbox"> Schedule a meeting in Outlook.<br/><input type="checkbox"> Schedule a meeting in Teams: <ul><li><input type="checkbox">Invite internal users.<li><input type="checkbox"> Invite external users.<li><input type="checkbox"> Add audio conferencing.</ul><input type="checkbox"> Join from a PC or mobile device.<br/><input type="checkbox"> Share your desktop.<br/><input type="checkbox"> Share an application.<br/><input type="checkbox"> Give control during a shared session.<br/><input type="checkbox"> Take control back during a shared session.<br/><input type="checkbox"> Mute a participant.<br/><input type="checkbox"> Turn on webcam video.<br/><input type="checkbox"> Switch devices.<br/><input type="checkbox"> Enable a meeting lobby.|
 | **Calling**                         | **Collaboration**              |
-| Make, receive, and transfer a call: | Create a team.                 |
+| <input type="checkbox"> Make, receive, and transfer a call:<ul><li><input type="checkbox"> To another Teams user<li><input type="checkbox"> To a Skype for Business user</ul><br/><input type="checkbox"> Check voicemail.<br/><input type="checkbox"> Forward your phone to another number.<br/><input type="checkbox"> Enable simultaneous ring.<br/><input type="checkbox"> Transfer a call to another user.<br/><input type="checkbox"> Put a call on hold.<br/><input type="checkbox"> Speed-dial a contact.   | <input type="checkbox"> Create a team.<br/><input type="checkbox"> Add a channel.<br/><input type="checkbox"> Add members.<br/><input type="checkbox"> Start a conversation.<br/><input type="checkbox"> Add files.<br/><input type="checkbox"> Add tabs.                 |
 
--   Internal
 
--   External - federated.
-
--   Start a chat:
-
--   With a Teams user.
-
--   With a Skype for Business user.
-
--   Add a participant to an IM.
-
--   Add audio.
-
--   Add sharing.
-
--   Share a file.
-
--   Review a chat (history).
-
--   Resume a prior chat.
-
--   Respond to an incoming IM.
-
--   Send an IM on a mobile device.
-
--   Respond to an IM on a mobile device.
-
--   Schedule a meeting in Teams:
-
--   Invite internal users.
-
--   Invite external users.
-
--   Add audio conferencing.
-
--   Join from a PC or mobile device.
-
--   Share your desktop.
-
--   Share an application.
-
--   Give control during a shared session.
-
--   Take control back during a shared session.
-
--   Mute a participant.
-
--   Turn on webcam video.
-
--   Switch devices.
-
--   Enable a meeting lobby.
-
--   To another Teams user
-
--   To a Skype for Business user
-
--   Check voicemail.
-
--   Forward your phone to another number.
-
--   Enable simultaneous ring.
-
--   Transfer a call to another user.
-
--   Put a call on hold.
-
--   Speed-dial a contact.
-
--   Add a channel.
-
--   Add members.
-
--   Start a conversation.
-
--   Add files.
-
--   Add tabs.
 
 | [./media/image2.png](./media/image2.png) |
 |------------------------------------------|
