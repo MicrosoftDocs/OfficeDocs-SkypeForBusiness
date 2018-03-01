@@ -61,7 +61,7 @@ yet, see [Plan your setup of Office 365 for business](https://support.office.com
 Use the following table to capture information about the Office 365 tenant.
 
 > | Question | Answer | Comments |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 > | Note the production Office 365 tenant name and ID in the Answer column <br/>If you have more than one tenant associated with your organization, note all the IDs.  | Tenant Name: <br/>Tenant ID:| |
 > | In what regions are the tenants deployed?| | |
 > | Are these tenants Office 365 Multitenant or Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
