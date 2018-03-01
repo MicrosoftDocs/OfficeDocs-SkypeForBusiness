@@ -62,5 +62,6 @@ journey.
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download and review the [Office 365 Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).</li><li>Document your strategy for driving user adoption.</li><li>Finalize schedule and communication plans to begin your adoption campaign.
 </li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->
   

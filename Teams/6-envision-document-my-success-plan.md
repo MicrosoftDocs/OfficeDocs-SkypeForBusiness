@@ -9,7 +9,9 @@ of the implementation project.
 If your organization has only one or two sites, you might not need to complete
 all the details provided in this article, but you should read through it to
 guide your approach.
+
 <!--ENDOFSECTION-->
+
 ## Deployment model 
 
 As with any technology implementation that transforms the way people work in
@@ -98,7 +100,9 @@ of a cloud voice implementation.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the quarterly execution plan to achieve the objective key results (OKRs).</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the quarterly execution plan.</li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->
+
 ## Communications and governance plan
 
 To keep project stakeholders up to date with the progress of the deployment, you
@@ -124,7 +128,9 @@ leverage in your cloud voice implementation project.
 
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the communications and governance plan.</li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->
+
 ## Finalize my success plan
 
 A success plan is the summary of the documentation you created in the Envision
@@ -202,4 +208,5 @@ success plan to ensure operational readiness of the solution.
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how you will document your entire success plan for delivering your cloud voice workloads.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm all components of your success plan have been documented.</li><li>Aggregate individual components of your success plan into a single summary document (optional).</li></ul></td></tr>
 </table>
+
 <!--ENDOFSECTION-->
