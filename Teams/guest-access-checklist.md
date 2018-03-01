@@ -13,10 +13,12 @@ appliesto:
 - Microsoft Teams
 ---
 
+
 Teams Guest Access checklist
 ==========================================
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
+
 
 
 
