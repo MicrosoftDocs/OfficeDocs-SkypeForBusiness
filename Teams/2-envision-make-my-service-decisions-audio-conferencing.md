@@ -41,8 +41,8 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide which user locations or offices will implement the Audio Conferencing service.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices to be enabled for the Audio Conferencing service.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices will implement the Audio Conferencing service.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices to be enabled for the Audio Conferencing service.</li></ul>|
 
 > [!TIP]
 > Below is an example of an Audio Conferencing site enablement list template:
@@ -79,8 +79,8 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>If your organization hasn’t already purchased the required Audio Conferencing licensing, decide whether you’ll acquire Audio Conferencing licenses by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-on licenses.</li><li>Decide whether Communications Credits are required for your Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users who will be assigned Audio Conferencing licenses.</li><li>Document the Communications Credits plan (initial amount, trigger amount,auto-recharge amount)</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization hasn’t already purchased the required Audio Conferencing licensing, decide whether you’ll acquire Audio Conferencing licenses by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-on licenses.</li><li>Decide whether Communications Credits are required for your Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the users who will be assigned Audio Conferencing licenses.</li><li>Document the Communications Credits plan (initial amount, trigger amount,auto-recharge amount)</li></ul>|
 
 > [!TIP]
 > You can document the license assignment list for Audio Conferencing users by using the following example.
@@ -143,8 +143,8 @@ To learn more about conference bridge phone numbers, review the following articl
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether your organization needs dedicated conference bridge phone numbers.</li><li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (that is, obtain from Microsoft or transfer existing phone numbers).</li><li>If you choose to obtain them from Microsoft, decide the method to use (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation.</li><li>Decide the language preferences to set up for each dedicated conference bridge phone number.</li><li>Decide the tenant default conference bridge phone number.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the master plan for phone number acquisition, detailing how phone numbers will be obtained for each user location or office in scope for the Audio Conferencing implementation.</li><li>If applicable, complete the New Telephone Number Request form—one form for each location or office.</li><li>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number).</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization needs dedicated conference bridge phone numbers.</li><li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (that is, obtain from Microsoft or transfer existing phone numbers).</li><li>If you choose to obtain them from Microsoft, decide the method to use (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation.</li><li>Decide the language preferences to set up for each dedicated conference bridge phone number.</li><li>Decide the tenant default conference bridge phone number.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the master plan for phone number acquisition, detailing how phone numbers will be obtained for each user location or office in scope for the Audio Conferencing implementation.</li><li>If applicable, complete the New Telephone Number Request form—one form for each location or office.</li><li>Document the detailed conference bridge phone number configurations (shared and dedicated conference bridge phone numbers, language preferences for each dedicated conference bridge phone number, tenant default conference bridge phone number).</li></ul>|
 
 Below is an example of a template you can use to capture conference bridge details.
 
@@ -193,8 +193,8 @@ With these controls, you can decide whether meeting organizers can provide toll-
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether your organization requires entry and exit notifications, and—if it does—the type of notification to be implemented (tones, phone number, or recorded name).</li><li>Decide the Audio Conferencing PIN length that meets your organizational security requirements.</li><li>Decide whether your organization wants to take control of user communications related to the Audio Conferencing service.</li><li>Decide the conference bridge phone numbers to be assigned to each meeting organizer.</li><li>Decide whether some meeting organizers need to use toll-free conference bridge phone numbers for their meetings.</li><li>Decide whether some meeting organizers need to allow unauthenticated callers to start a meeting.</li><li>Decide whether some meeting organizers need conference dial-out to be controlled.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification)</li><li>Document the conference bridge phone numbers to be assigned to each meeting organizer and the corresponding setting to control the policy for unauthenticated callers, and toll-free and dial out controls.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires entry and exit notifications, and—if it does—the type of notification to be implemented (tones, phone number, or recorded name).</li><li>Decide the Audio Conferencing PIN length that meets your organizational security requirements.</li><li>Decide whether your organization wants to take control of user communications related to the Audio Conferencing service.</li><li>Decide the conference bridge phone numbers to be assigned to each meeting organizer.</li><li>Decide whether some meeting organizers need to use toll-free conference bridge phone numbers for their meetings.</li><li>Decide whether some meeting organizers need to allow unauthenticated callers to start a meeting.</li><li>Decide whether some meeting organizers need conference dial-out to be controlled.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the detailed conference bridge settings (entry and exit notifications, PIN length, configuration change email notification)</li><li>Document the conference bridge phone numbers to be assigned to each meeting organizer and the corresponding setting to control the policy for unauthenticated callers, and toll-free and dial out controls.</li></ul>|
 
 > [!TIP]
 > Your conference bridge settings can be documented as in the following example.
@@ -251,8 +251,8 @@ For more information about the total count of telephone numbers that you can obt
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 
 ##Transfer existing telephone numbers
 
@@ -273,8 +273,8 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -294,7 +294,7 @@ In the Phone System feature of Office 365, there are two types of dial plans:
 
 The effective dial plan assigned to users is the combination of the service dial plan (based on a user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 
-![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png)
+![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png "Table shows three combinations of service and tenant dial plans.")
 
 > [!Important]
 > There can be a maximum of 25 normalization rules in each tenant dial plan; therefore, it’s important to avoid duplicating normalization rules that are already available as part of the service dial plan.
@@ -304,8 +304,8 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in-scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of your cloud voice implementation.</li><li>Document the users to be assigned a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in-scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of your cloud voice implementation.</li><li>Document the users to be assigned a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
 
 > [!TIP]
 > If it’s applicable to your project, you can use the following template to document the tenant dial plan configurations.
