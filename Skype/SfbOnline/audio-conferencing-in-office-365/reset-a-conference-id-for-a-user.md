@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -83,6 +85,3 @@ Conference IDs are only automatically set only for Skype for Business and Micros
 ## Related topics
 
 [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

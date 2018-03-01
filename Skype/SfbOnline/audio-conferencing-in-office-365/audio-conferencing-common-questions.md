@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -152,5 +154,4 @@ Scheduling a meeting that will be joined by all attendees using a phone to dial-
   
 [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+
