@@ -94,7 +94,7 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 >|Lee Gu|One Marina Boulevard|Office 365 E5|
 >|Emily Braun|32 London Bridge Street|Office 365 E5|
 >|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Pradeep Gupta|32 London Bridge Street|Office 365 E5|
+>|Louis Lahr|32 London Bridge Street|Office 365 E5|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
 >|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
@@ -219,7 +219,7 @@ With these controls, you can decide whether meeting organizers can provide toll-
 >|Lee Gu|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
 >|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Enabled|Not allowed|
 >|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
->|Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
+>|Louis Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
 >|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
 >|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
@@ -335,7 +335,7 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 >|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
 >|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
 >|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
->|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+>|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|

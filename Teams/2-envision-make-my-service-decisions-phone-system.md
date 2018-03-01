@@ -143,7 +143,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 >|---------|---------|---------|---------|---------|
 >|Emily Braun|No|N/A|Yes|No|
 >|Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
->|Pradeep Gupta|No|N/A|Yes|No|
+>|Louis Lahr|No|N/A|Yes|No|
 >|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
 >|Rachelle Cormier|Yes|Anonymize|Yes|No|
 >|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
@@ -352,7 +352,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 >|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
 >|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
 >|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
->|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+>|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
