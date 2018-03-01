@@ -28,8 +28,8 @@ When you are setting up Audio Conferencing in Office 365, you will receive phone
   
 The conferencing bridge answers a call and prompts the caller with voice prompts using a meeting auto attendant, and then, depending on your settings, it can play notifications, ask callers to record their name, and control the PIN settings. PINs are given to meeting organizers to allow them to start a meeting when they are aren't using a Skype for Business or Microsoft Teams app.
 
-    > [!IMPORTANT]
-    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
+  > [!IMPORTANT]
+  > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
   
 ## Change the settings for an audio conferencing bridge
 
@@ -106,5 +106,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Set up Audio Conferencing](set-up-audio-conferencing.md)
 
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

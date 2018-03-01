@@ -117,3 +117,6 @@ To see a table with the license or licenses you will need for each feature, see 
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

@@ -1,12 +1,11 @@
 ---
-title: "Get new user phone numbers request form"
+title: "Get new service phone numbers request forms"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.topic: article
-ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -15,15 +14,12 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.lync.lac.GetNewNumbers
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order."
+description: "Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order."
 ---
-
-# Get new user phone numbers request forms
-
+# Get new service phone numbers request forms
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the **Skype for Business admin center**, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order.
 
 > [!IMPORTANT]
@@ -65,6 +61,3 @@ United Kingdom (U.K.) <br/> |[New phone number request for the U.K. (geographic 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
