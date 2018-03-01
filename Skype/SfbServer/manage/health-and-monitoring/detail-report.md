@@ -13,8 +13,8 @@ description: "Summary: Learn about the Conference Detail Report used in Skype fo
 ---
 
 # Conference Detail Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Conference Detail Report used in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Conference Detail Report used in Skype for Business Server 2015.
   
 The Conference Detail Report provides detailed information about all the users who participated in a conference. For example, you can see such information as the date and time that a user joined the conference, the date and time that the user left the conference, and the user agent of the endpoint that was used to connect that user to the conference. You can also see information the user's role in each conference (for example, Presenter or Attendee). Perhaps most important, you get quickly see which users successfully join and complete the conference, and which users were not able to successfully join and complete the conference.
   

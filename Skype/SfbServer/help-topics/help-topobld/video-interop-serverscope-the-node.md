@@ -15,7 +15,7 @@ description: "The steps needed to define a new VIS or Video Gateway in Topology 
 ---
 
 # Video Interop Server - Scope the Node
-[]
+ 
 The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server 2015](../../deploy-1/deploy-video-interop-server/create-a-vis-pool.md).
   
 The steps needed to assign a Video Interop Server role on a server using Windows PowerShell are described online at [Deploy the VIS server role in Skype for Business Server 2015](../../deploy-1/deploy-video-interop-server/deploy-the-vis-server-role.md)

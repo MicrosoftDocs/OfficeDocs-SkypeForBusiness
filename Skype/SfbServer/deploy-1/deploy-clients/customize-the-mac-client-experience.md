@@ -13,7 +13,7 @@ description: "This article describes the client preferences and defaults availab
 ---
 
 # Customize the Mac client experience in Skype for Business
-[]
+ 
 This article describes the client preferences and defaults available for the Skype for Business on Mac client, and how to edit them from outside the App.
   
 ## Skype for Business on Mac client preference settings

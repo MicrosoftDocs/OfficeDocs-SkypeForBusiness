@@ -13,7 +13,7 @@ description: "Tests a telephone number against a dial plan (formerly known as a 
 ---
 
 # Test-CsDialPlan
-[]
+ 
 Tests a telephone number against a dial plan (formerly known as a location profile) and returns the normalization rule that will be applied to the number as well as the translated number after the normalization rule has been applied. This cmdlet was introduced in Lync Server 2010.
   
 ```

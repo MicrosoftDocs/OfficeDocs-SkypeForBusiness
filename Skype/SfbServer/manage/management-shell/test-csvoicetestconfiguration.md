@@ -13,7 +13,7 @@ description: "Runs test voice configurations to ensure voice routing and policie
 ---
 
 # Test-CsVoiceTestConfiguration
-[]
+ 
 Runs test voice configurations to ensure voice routing and policies work as expected. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Removes a hosted voice mail policy. This cmdlet was introduced in 
 ---
 
 # Remove-CsHostedVoicemailPolicy
-[]
+ 
 Removes a hosted voice mail policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

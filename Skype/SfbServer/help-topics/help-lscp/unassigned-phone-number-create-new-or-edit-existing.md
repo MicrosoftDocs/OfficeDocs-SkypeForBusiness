@@ -15,7 +15,7 @@ description: "Unassigned numbers are phone numbers that are valid for your organ
 ---
 
 # Unassigned Phone Number: Create New or Edit Existing
-[]
+ 
 Unassigned numbers are phone numbers that are valid for your organization but are not assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated.
   
 > [!IMPORTANT]

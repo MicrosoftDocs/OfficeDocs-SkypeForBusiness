@@ -13,7 +13,7 @@ description: "Modifies an existing collection of call detail recording (CDR) set
 ---
 
 # Set-CsCdrConfiguration
-[]
+ 
 Modifies an existing collection of call detail recording (CDR) settings. CDR enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked. This cmdlet was introduced in Lync Server 2010.
   
 ```

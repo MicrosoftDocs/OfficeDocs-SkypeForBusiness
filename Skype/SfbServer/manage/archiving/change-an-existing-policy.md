@@ -13,8 +13,8 @@ description: "Summary: Learn how to change user archiving policies for Skype for
 ---
 
 # Change an existing archiving policy in Skype for Business Server 2015
-[]
- **Summary:** Learn how to change user archiving policies for Skype for Business Server 2015.
+ 
+**Summary:** Learn how to change user archiving policies for Skype for Business Server 2015.
   
 When you first deploy Skype for Business Server 2015, you set up initial archiving policies that determine how archiving is implemented for the users in your deployment. This topic describes how to manage and amend policies. 
   

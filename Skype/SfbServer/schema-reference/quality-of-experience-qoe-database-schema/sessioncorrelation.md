@@ -13,7 +13,7 @@ description: "The SessionCorrelation table is a supporting table. Each record re
 ---
 
 # SessionCorrelation table
-[]
+ 
 The SessionCorrelation table is a supporting table. Each record represents one CorrelationID which is used to correlate multiple sessions. 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

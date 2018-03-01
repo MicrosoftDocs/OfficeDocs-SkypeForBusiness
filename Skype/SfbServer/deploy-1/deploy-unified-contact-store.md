@@ -13,8 +13,8 @@ description: "Summary: Enable the unified contact store in Skype for Business Se
 ---
 
 # Deploy unified contact store in Skype for Business Server 2015
-[]
- **Summary:** Enable the unified contact store in Skype for Business Server 2015 .
+ 
+**Summary:** Enable the unified contact store in Skype for Business Server 2015 .
   
 Enabling unified contact store in Skype for Business Server 2015 does not require any topology settings. To enable unified contact store for users:
   

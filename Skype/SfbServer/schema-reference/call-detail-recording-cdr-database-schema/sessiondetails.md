@@ -13,7 +13,7 @@ description: "Each record represents one peer-to-peer session, which could be a 
 ---
 
 # SessionDetails table
-[]
+ 
 Each record represents one peer-to-peer session, which could be a VoIP-VoIP phone call, two-party IM session, or other type of session. You can perform a table join with the [Media table](media.md) to find the details of each media involved in this session.
   
 Note that the IsUser1IntegratedWithDeskPhone and the IsUser2IntegratedWithDeskPhone fields have been dropped from the SessionDetails table used in Skype for Business Server 2015.

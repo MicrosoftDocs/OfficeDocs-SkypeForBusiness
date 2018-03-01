@@ -15,7 +15,7 @@ description: "The Topology: Status page displays the status of the servers in yo
 ---
 
 # Topology: Status
-[]
+ 
 The **Topology**: **Status** page displays the status of the servers in your Skype for Business topology.
   
 ## Tasks you can perform

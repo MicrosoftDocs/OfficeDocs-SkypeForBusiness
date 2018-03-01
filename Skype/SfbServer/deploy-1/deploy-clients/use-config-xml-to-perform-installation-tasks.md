@@ -13,8 +13,8 @@ description: "Summary: How to use the Config.xml file to specify additional inst
 ---
 
 # Use Config.xml to perform installation tasks in Skype for Business Server 2015
-[]
- **Summary:** How to use the Config.xml file to specify additional installation instructions.
+ 
+**Summary:** How to use the Config.xml file to specify additional installation instructions.
   
 Although the Office Customization Tool (OCT) is the primary tool for customization installation, administrators can use the Config.xml file to specify additional installation instructions that are not available in the OCT. The following customizations can only be made by using the Config.xml file:
   

@@ -15,7 +15,7 @@ description: "Modify Call Park settings in Skype for Business Server Enterprise 
 ---
 
 # Configure Call Park settings in Skype for Business 2015
-[]
+ 
 Modify Call Park settings in Skype for Business Server Enterprise Voice.
   
 If you don't want to use default Call Park settings, you can customize them. When you install the Call Park application, global settings are configured by default. You can modify the global settings, and you can also specify site-specific settings. Use the **New-CsCpsConfiguration** cmdlet to create new site-specific settings. Use the **Set-CsCpsConfiguration** cmdlet to modify existing settings.

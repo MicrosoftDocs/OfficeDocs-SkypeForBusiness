@@ -13,7 +13,7 @@ description: "Creates a regular expression pattern and translation for translati
 ---
 
 # New-CsVoiceRegex
-[]
+ 
 Creates a regular expression pattern and translation for translating phone numbers to different formats. This cmdlet was introduced in Lync Server 2010.
   
 ```

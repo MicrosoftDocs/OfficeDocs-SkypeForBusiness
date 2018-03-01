@@ -15,7 +15,7 @@ description: "The Central Management Server can be changed from one defined Fron
 ---
 
 # CMS Settings Expander
-[]
+ 
 The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.
   
 > [!IMPORTANT]

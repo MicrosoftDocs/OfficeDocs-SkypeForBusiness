@@ -13,7 +13,7 @@ description: "Verifies that the Skype for Business Server 2015 Storage Service i
 ---
 
 # Test-CsExStorageConnectivity
-[]
+ 
 Verifies that the Skype for Business Server 2015 Storage Service is working on a Front End Server. This is done by creating a test email message in the specified Exchange mailbox and then optionally deleting that message at the end of the text. **Test-CsExStorageConnectivity** also verifies that Exchange archiving is working as expected. This cmdlet was introduced in Lync Server 2013.
   
 ```

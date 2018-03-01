@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Topology: View Simple URL
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Edit or Configure Simple URLs](http://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)

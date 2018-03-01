@@ -13,7 +13,7 @@ description: "Modifies a collection of Device Update Web service configuration s
 ---
 
 # Set-CsDeviceUpdateConfiguration
-[]
+ 
 Modifies a collection of Device Update Web service configuration settings. These settings are used to manage the Device Update Web service, a Skype for Business Server 2015 component that enables administrators to distribute firmware updates to telephones and other devices running Skype for Business Phone Edition. This cmdlet was introduced in Lync Server 2010.
   
 ```

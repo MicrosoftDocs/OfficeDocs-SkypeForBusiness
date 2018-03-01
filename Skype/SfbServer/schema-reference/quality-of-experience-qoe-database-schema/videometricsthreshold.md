@@ -13,7 +13,7 @@ description: "The VideoMetricsThreshold table contains optimal and acceptable va
 ---
 
 # VideoMetricsThreshold table
-[]
+ 
 The VideoMetricsThreshold table contains optimal and acceptable values for the Quality of Experience metrics used with video calls.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

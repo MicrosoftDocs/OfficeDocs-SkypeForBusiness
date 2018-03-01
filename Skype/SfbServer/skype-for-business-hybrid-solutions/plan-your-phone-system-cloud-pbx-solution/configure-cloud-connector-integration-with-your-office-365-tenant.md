@@ -14,7 +14,7 @@ description: "Learn how to configure Cloud Connector integration with your Offic
 ---
 
 # Configure Cloud Connector integration with your Office 365 tenant
-[]
+ 
 Learn how to configure Cloud Connector integration with your Office 365 tenant.
   
 Once the Skype for Business Cloud Connector Edition installation is complete, perform the steps in this section to configure your deployment and connect it to your Office 365 tenant.

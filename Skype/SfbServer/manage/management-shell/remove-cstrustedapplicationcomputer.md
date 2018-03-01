@@ -13,7 +13,7 @@ description: "Removes a trusted application computer. This cmdlet was introduced
 ---
 
 # Remove-CsTrustedApplicationComputer
-[]
+ 
 Removes a trusted application computer. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Use the Set-CsCallViaWorkPolicy to modify an existing call via wor
 ---
 
 # Set-CsCallViaWorkPolicy
-[]
+ 
 Use the **Set-CsCallViaWorkPolicy** to modify an existing call via work policy that enables and manages the characteristics of outbound calls placed through the Skype for Business client.
   
 ```

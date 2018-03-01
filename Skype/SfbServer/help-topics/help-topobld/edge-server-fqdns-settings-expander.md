@@ -15,7 +15,7 @@ description: "To edit or specify External Settings for the Edge Servers, you fir
 ---
 
 # Edge Server FQDNs Settings Expander
-[]
+ 
 To edit or specify **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for Session Initiation Protocol (SIP) access, the Web Conferencing Edge service, and the Audio/Video Edge service.
   
 If you intend to use separate IP addresses for each, select the check box **Enable separate FQDN and IP address for Web conferencing and A/V**. Each service must have a corresponding Domain Name System (DNS) host (A) record created for it.

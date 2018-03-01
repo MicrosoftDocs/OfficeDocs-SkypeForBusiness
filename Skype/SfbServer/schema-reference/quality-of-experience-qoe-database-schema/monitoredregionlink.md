@@ -13,7 +13,7 @@ description: "The MonitoredRegionLink table is a supporting table. Each record r
 ---
 
 # MonitoredRegionLink table
-[]
+ 
 The MonitoredRegionLink table is a supporting table. Each record represents one link between two countries/regions.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

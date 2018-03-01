@@ -13,7 +13,7 @@ description: "The Convert-CcIsoToVhdx cmdlet creates a base virtual hard disk fi
 ---
 
 # Convert-CcIsoToVhdx
-[]
+ 
 The Convert-CcIsoToVhdx cmdlet creates a base virtual hard disk file (VHDX) using a customer supplied Windows Server 2012 R2 ISO file. The VHDX file will be used during the deployment of Skype for Business Cloud Connector Edition.
   
 ```

@@ -13,7 +13,7 @@ description: "Each record represents one video stream. One video media line usua
 ---
 
 # VideoStream table
-[]
+ 
 Each record represents one video stream. One video media line usually contains two video streams.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

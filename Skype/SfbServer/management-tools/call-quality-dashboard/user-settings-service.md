@@ -14,8 +14,8 @@ description: "Summary: Learn about the User Settings Service, which is part of t
 ---
 
 # User Settings Service for Call Quality Dashboard (CQD)
-[]
- **Summary:** Learn about the User Settings Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the User Settings Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The User Settings Service is part of the Repository API for Call Quality Dashboard.
   

@@ -15,7 +15,7 @@ description: "Reference topologies for Skype for Business Server, including diag
 ---
 
 # Reference topologies for Skype for Business Server 2015
-[]
+ 
 Reference topologies for Skype for Business Server, including diagrams and decisions to make for large, medium, and small organizations.
   
 The best Skype for Business Server topology for you depends on your organization's size, the workloads you want to deploy, and your preferences for high availability versus cost of investment. 
@@ -72,7 +72,7 @@ The reference topology with high availability and a single data center is design
     
 - **Branch site deployment options.** The organization in this topology has Enterprise Voice deployed as their voice solution. Branch Site 1 does not have a resilient wide area network (WAN) link to the central site, so it has a Survivable Branch Appliance deployed to maintain many Skype for Business Server features in case the WAN link to the central site goes down. Branch Site 2 however has a resilient WAN link, so only a public switched telephone network (PSTN) gateway is needed. The PSTN gateway deployed there supports media bypass, so no Mediation Server is needed at Branch Site 2. For more information, see[Plan for Enterprise Voice resiliency in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
-- **DNS load balancing.** The Front End pool and Edge Server pool, have DNS load balancing for SIP traffic deployed. This eliminates the need for hardware load balancers for the Edge Servers, and significantly lessens the setup and maintenance of the hardware load balancers for the other pools, as the hardware load balancers are needed only for HTTP traffic. For more information, see[](../../plan-your-deployment/network-requirements/dns.md#BKMK_DNSLoadBalancing).
+- **DNS load balancing.** The Front End pool and Edge Server pool, have DNS load balancing for SIP traffic deployed. This eliminates the need for hardware load balancers for the Edge Servers, and significantly lessens the setup and maintenance of the hardware load balancers for the other pools, as the hardware load balancers are needed only for HTTP traffic. For more information, see (../../plan-your-deployment/network-requirements/dns.md#BKMK_DNSLoadBalancing).
     
 - **Exchange UM deployment.** This reference topology includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Skype for Business Server.
     
@@ -124,7 +124,7 @@ This topology is shown in multiple diagrams, with an overview first followed by 
     
 - **Persistent Chat is Deployed.** This organization has deployed the servers necessary to enable Persistent Chat. It has deployed multiple Persistent Chat Front End Servers to both handle the load for the number of users in the pool, and to provide high availability. It has also deployed Compliance for Persistent Chat, and located the Persistent Chat Store and the Persistent Chat Compliance Store on separate servers. These stores could be collocated, and can even be collocated with the Back End Server, but this organization has chosen to separate them to provide better performance.
     
-- **DNS load balancing.** The Front End pool and Edge Server pool use DNS load balancing. This eliminates the need for hardware load balancers for the internal interface of the Edge Servers, and significantly decreases the amount of time you have to spend on the setup and maintenance of the hardware load balancers for the other pools, as the hardware load balancers are needed only for HTTP traffic. For more information, see[](../../plan-your-deployment/network-requirements/dns.md#BKMK_DNSLoadBalancing).
+- **DNS load balancing.** The Front End pool and Edge Server pool use DNS load balancing. This eliminates the need for hardware load balancers for the internal interface of the Edge Servers, and significantly decreases the amount of time you have to spend on the setup and maintenance of the hardware load balancers for the other pools, as the hardware load balancers are needed only for HTTP traffic. For more information, see (../../plan-your-deployment/network-requirements/dns.md#BKMK_DNSLoadBalancing).
     
 - **Exchange UM deployment.** Skype for Business Server works with bothon-premises deployments of Exchange Unified Messaging (UM) andhosted Exchange UM. Central Site A includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Skype for Business Server. The Exchange UM functionality for Skype for Business Server runs on the Front End pool.
     

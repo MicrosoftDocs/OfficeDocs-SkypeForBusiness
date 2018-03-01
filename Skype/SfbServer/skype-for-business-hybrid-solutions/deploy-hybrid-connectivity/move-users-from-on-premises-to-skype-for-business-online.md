@@ -19,8 +19,8 @@ description: "Summary: Learn how to migrate user settings and move users to Skyp
 ---
 
 # Move users from on premises to Skype for Business Online
-[]
- **Summary:** Learn how to migrate user settings and move users to Skype for Business Online.
+ 
+**Summary:** Learn how to migrate user settings and move users to Skype for Business Online.
   
 Before actually moving the user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license. To do this, you use the Office 365 Admin Center.
   

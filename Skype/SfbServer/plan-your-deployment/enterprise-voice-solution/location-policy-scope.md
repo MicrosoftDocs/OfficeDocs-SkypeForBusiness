@@ -15,7 +15,7 @@ description: "Planning location policies for an E9-1-1 deployment in Skype for B
 ---
 
 # Assign location policy scope in Skype for Business Server 2015
-[]
+ 
 Planning location policies for an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   
 As with other Skype for Business Server policies, location policies can be assigned at multiple scope levels: global, site, and user. However, the scope of user-level location policies behaves a bit differently than with other Skype for Business Server policies. Not only can per-user location policies be applied to endpoint objects (such as Users and Common Area Phone contact objects), they can also be applied to Skype for Business Server network sites. Network sites are groupings of client subnets associated with a geographical location (but may not necessarily be all subnets in an entire central site or branch site). Any clients connected to the subnets in a network site automatically pick up the location policy assigned to that network site. In cases where a user-level location policy is assigned both to a user and to a network site, the network site-based location policy overrides any per-user policy setting.

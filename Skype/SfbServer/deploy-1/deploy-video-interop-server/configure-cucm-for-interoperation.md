@@ -14,8 +14,8 @@ description: "Summary: Configure CUCM to work with Skype for Business Server 201
 ---
 
 # Configure CUCM for Interoperation with Skype for Business Server 2015
-[]
- **Summary:** Configure CUCM to work with Skype for Business Server 2015.
+ 
+**Summary:** Configure CUCM to work with Skype for Business Server 2015.
   
 > [!CAUTION]
 > This capability is tested with CUCM version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 

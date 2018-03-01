@@ -14,7 +14,7 @@ description: "Read this topic to learn about hardware, software, and infrastruct
 ---
 
 # Skype for Business on Mac client requirements
-[]
+ 
 Read this topic to learn about hardware, software, and infrastructure requirements for running Skype for Business on a Mac.
   
 The [Skype for Business on the Mac Client](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) is available for download.

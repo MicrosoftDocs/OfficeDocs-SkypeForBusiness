@@ -13,7 +13,7 @@ description: "Removes a domain from the list of domains approved for federation.
 ---
 
 # Remove-CsAllowedDomain
-[]
+ 
 Removes a domain from the list of domains approved for federation. This cmdlet was introduced in Lync Server 2010.
   
 ```

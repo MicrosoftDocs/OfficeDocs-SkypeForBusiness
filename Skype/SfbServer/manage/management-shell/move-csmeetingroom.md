@@ -13,7 +13,7 @@ description: "Moves a Skype for Business Server 2015 meeting room object from on
 ---
 
 # Move-CsMeetingRoom
-[]
+ 
 Moves a Skype for Business Server 2015 meeting room object from one Registrar pool to another. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. This cmdlet was introduced in Lync Server 2013.
   
 ```

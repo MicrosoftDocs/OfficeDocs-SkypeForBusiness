@@ -13,7 +13,7 @@ description: "Verifies whether the contacts for a user (or group of users) are s
 ---
 
 # Debug-CsUnifiedContactStore
-[]
+ 
 Verifies whether the contacts for a user (or group of users) are stored in the unified contacts store.
   
  This cmdlet was introduced in the Cumulative Updates for Lync Server 2013: February 2013.

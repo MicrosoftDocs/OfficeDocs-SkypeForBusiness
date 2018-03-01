@@ -13,8 +13,8 @@ description: "Summary: Learn about the Failure List Report in Skype for Business
 ---
 
 # Failure List Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Failure List Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Failure List Report in Skype for Business Server 2015.
   
 The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.
   

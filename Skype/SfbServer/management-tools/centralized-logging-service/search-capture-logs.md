@@ -14,8 +14,8 @@ description: "Summary: Learn how to search and read Centralized Logging Service 
 ---
 
 # Search capture logs created by the Centralized Logging Service in Skype for Business Server 2015
-[]
- **Summary:** Learn how to search and read Centralized Logging Service capture logs in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to search and read Centralized Logging Service capture logs in Skype for Business Server 2015.
   
 The search features in the Centralized Logging Service are useful and powerful for the following reasons: 
   

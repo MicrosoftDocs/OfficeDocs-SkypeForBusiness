@@ -15,7 +15,7 @@ description: "Select each feature that you want to enable for the Edge pool. By 
 ---
 
 # Add Edge Server Options
-[]
+ 
 Select each feature that you want to enable for the Edge pool. By default, the Edge pool supports remote users in your organization who sign in to from outside the firewall by using a virtual private network (VPN). You also have the following Edge pool feature options: 
   
 - Use of a single fully qualified domain name (FQDN) and IP address for all edge services, including the Access Edge service, Web Conferencing Edge service, and A/V Edge service. If you do not select the option to use a single FQDN and IP address, you will need to specify a separate FQDN and IP address for each of these three Edge services as part of the deployment process. For details about the Edge services, see [Components Required for External User Access](http://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx) in the Planning documentation.

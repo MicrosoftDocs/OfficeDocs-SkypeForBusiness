@@ -13,7 +13,7 @@ description: "tblLastChatId contains the last chat ID that was generated (and us
 ---
 
 # tblLastChatId
-[]
+ 
 tblLastChatId contains the last chat ID that was generated (and used in the tblChat table) for each user.
   
 **Columns**

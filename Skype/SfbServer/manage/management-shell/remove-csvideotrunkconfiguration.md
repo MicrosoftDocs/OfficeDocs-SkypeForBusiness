@@ -13,7 +13,7 @@ description: "Use the Remove-CsVideoTrunkConfiguration to remove one or more Vid
 ---
 
 # Remove-CsVideoTrunkConfiguration
-[]
+ 
 Use the **Remove-CsVideoTrunkConfiguration** to remove one or more Video Trunk configurations. Video Trunk configuration settings are scoped to Video Gateway instances, and govern the behavior of the Session Initiation Protocol (SIP) trunk between each Video Gateway instance and the paired Video Interop Server instance that together define the Video Trunk.
   
 This cmdlet was introduced in Skype for Business Server 2015.

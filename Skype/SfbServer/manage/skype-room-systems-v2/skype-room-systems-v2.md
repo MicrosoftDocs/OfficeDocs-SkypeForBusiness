@@ -13,7 +13,7 @@ description: "Read this topic to learn about management of Skype Room Systems v2
 ---
 
 # Manage Skype Room Systems v2
-[]
+ 
 Read this topic to learn about management of Skype Room Systems v2, the next generation of Skype Room Systems.
   
 Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.

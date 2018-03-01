@@ -13,7 +13,7 @@ description: "Adds new options to Skype for Business Server 2015 client policies
 ---
 
 # New-CsClientPolicyEntry
-[]
+ 
 Adds new options to Skype for Business Server 2015 client policies. This cmdlet was introduced in Lync Server 2010.
   
 ```

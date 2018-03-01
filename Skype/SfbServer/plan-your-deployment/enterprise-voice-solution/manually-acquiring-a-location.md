@@ -15,7 +15,7 @@ description: "Planning for roaming users in an E9-1-1 deployment using SIP trunk
 ---
 
 # Define the user experience for manually acquiring a location in Skype for Business Server 2015
-[]
+ 
 Planning for roaming users in an E9-1-1 deployment using SIP trunking providers, in Skype for Business Server Enterprise Voice.
   
 If a client is located outside the network, or in an undefined subnet, the user can manually enter a location. But during an emergency call, the call will first be routed to a national/regional E9-1-1 Emergency Call Response Center (ECRC) dispatcher before being routed to a Public Safety Answering Point (PSAP). The ECRC will verbally query the caller for a location and then forward the call to the appropriate PSAP, based on the information provided. 

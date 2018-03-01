@@ -14,7 +14,7 @@ description: "Skype for Business Server 2015 includes several security features,
 ---
 
 # Key security features in Skype for Business Server 2015
-[]
+ 
 Skype for Business Server 2015 includes several security features, including server-to-server authentication, role-based access control, and centralized storage of configuration data. 
   
 This article provides a high level overview of Skype for Business Server 2015 security. 

@@ -13,7 +13,7 @@ description: "Read this topic to learn how to assign conferencing policies for S
 ---
 
 # Conferencing policy for Skype Room System accounts
-[]
+ 
 Read this topic to learn how to assign conferencing policies for Skype Room System accounts.
   
 ## Conferencing policy features

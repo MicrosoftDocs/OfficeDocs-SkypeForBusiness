@@ -15,7 +15,7 @@ description: "To define a new file store, specify the following:"
 ---
 
 # Add File Store
-[]
+ 
 To define a new file store, specify the following:
   
 - The fully qualified domain name (FQDN) of the server that will host the new file store. The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.

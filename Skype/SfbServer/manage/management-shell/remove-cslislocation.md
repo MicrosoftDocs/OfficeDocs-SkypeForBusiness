@@ -13,7 +13,7 @@ description: "Removes a location from the location configuration database for En
 ---
 
 # Remove-CsLisLocation
-[]
+ 
 Removes a location from the location configuration database for Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

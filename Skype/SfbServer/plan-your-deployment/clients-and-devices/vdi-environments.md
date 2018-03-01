@@ -14,7 +14,7 @@ description: "This topic discusses planning considerations for using Skype for B
 ---
 
 # Plan for Skype for Business in VDI environments
-[]
+ 
 This topic discusses planning considerations for using Skype for Business while connecting to a remote virtual desktop. 
   
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Their users do their work on a virtual desktop with all their desktop applications and files using Remote Desktop Services or a similar remote connection. Using Skype for Business with full audio and video on a connection like that requires heavy loads of audio and video processing on the client homed on a virtual desktop. Additional VDI plug-in software is available that offloads that processing to the end user's local machine, and reduces the load on the virtual desktop.

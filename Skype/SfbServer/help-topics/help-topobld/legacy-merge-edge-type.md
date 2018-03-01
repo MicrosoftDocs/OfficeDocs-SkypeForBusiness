@@ -15,7 +15,7 @@ description: "For a Single Edge Server or Load-balanced consolidated Edge server
 ---
 
 # Legacy Merge Edge Type
-[]
+ 
 For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information. For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013. 
   
 

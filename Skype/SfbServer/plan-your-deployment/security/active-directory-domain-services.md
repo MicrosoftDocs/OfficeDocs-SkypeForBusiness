@@ -14,7 +14,7 @@ description: "Active Directory Domain Services functions as the directory servic
 ---
 
 # Active Directory Domain Services for Skype for Business Server 2015
-[]
+ 
 Active Directory Domain Services functions as the directory service for Windows Server 2003, Windows Server 2008, Windows Server 2012, and Windows Server 2012 R2 networks. Active Directory Domain Services also serves as the foundation on which the Skype for Business Server 2015 security infrastructure is built. The purpose of this section is to describe how Skype for Business Server 2015 uses Active Directory Domain Services to create a trustworthy environment for IM, Web conferencing, media, and voice. For details about preparing your environment for Active Directory Domain Services, see [Install Skype for Business Server 2015](../../deploy-1/install-0/install-0.md) in the Deployment documentation. For details about the role of Active Directory Domain Services in Windows Server networks, see the documentation for the version of the operating system you are using.
   
 Skype for Business Server 2015 uses Active Directory Domain Services to store:

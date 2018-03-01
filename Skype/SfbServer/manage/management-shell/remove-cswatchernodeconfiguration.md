@@ -13,7 +13,7 @@ description: "Removes an existing collection of watcher node configuration setti
 ---
 
 # Remove-CsWatcherNodeConfiguration
-[]
+ 
 Removes an existing collection of watcher node configuration settings. Watcher nodes are computers that periodically use System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. This cmdlet was introduced in Lync Server 2013.
   
 ```

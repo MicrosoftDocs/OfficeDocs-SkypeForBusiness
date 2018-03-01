@@ -14,7 +14,7 @@ description: "Modifies the property values in an existing collection of Registra
 ---
 
 # Set-CsRegistrarConfiguration
-[]
+ 
 Modifies the property values in an existing collection of Registrar configuration settings. Registrars are used to authenticate logon requests and to maintain information about user status and availability. This cmdlet was introduced in Lync Server 2010.
   
 ```

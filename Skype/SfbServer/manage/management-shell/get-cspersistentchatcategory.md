@@ -13,7 +13,7 @@ description: "Returns information about the Persistent Chat categories in use in
 ---
 
 # Get-CsPersistentChatCategory
-[]
+ 
 Returns information about the Persistent Chat categories in use in your organization. A Persistent Chat category represents a collection of Persistent Chat chat rooms. Each chat room must be associated with a category. This cmdlet was introduced in Lync Server 2013.
   
 ```

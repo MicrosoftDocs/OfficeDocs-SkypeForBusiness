@@ -13,8 +13,8 @@ description: "Summary: Learn about the Location Report in Skype for Business Ser
 ---
 
 # Location Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Location Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Location Report in Skype for Business Server 2015.
   
 The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet). If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.
   

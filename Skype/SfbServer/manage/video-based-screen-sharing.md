@@ -12,7 +12,7 @@ description: "Skype for Business Server 2015 planning and configuration informat
 ---
 
 # Video based Screen Sharing for Skype for Business Server 2015
-[]
+ 
 Skype for Business Server 2015 planning and configuration information for Video-based Screen Sharing (VbSS), which is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690).
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, will make use of User Datagram Protocol (UDP).

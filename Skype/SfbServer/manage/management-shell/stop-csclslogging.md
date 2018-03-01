@@ -13,11 +13,11 @@ description: "Stops the specified scenario centralized logging service scenario.
 ---
 
 # Stop-CsClsLogging
-[]
+ 
 Stops the specified scenario centralized logging service scenario. Centralized logging provides a way for administrators to simultaneously enable or disable Skype for Business Server 2015 tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Stop-CsClsLogging -Scenario <String> [-AsXml <SwitchParameter>] [-Computers <String[]>] [-Pools <String[]>]
+Stop-CsClsLogging -Scenario <String> [-AsXml <SwitchParameter>] [-Computers <String >] [-Pools <String >]
 
 ```
 
@@ -58,8 +58,8 @@ The [Start-CsClsLogging](start-csclslogging.md) cmdlet provides a way for admini
 |:-----|:-----|:-----|:-----|
 | _Scenario_ <br/> |Required  <br/> |System.String  <br/> |Name of the centralized logging scenario to be stopped. Available scenarios (and their names) names can be returned by using this command:  <br/>  `Get-CsClsScenario | Select-Object Name` <br/> |
 | _AsXml_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, information is returned using XML.  <br/> |
-| _Computers_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to stop logging on a specified server or set of servers. To stop logging on a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Stop-CsClsLogging** cmdlet will run the command against all pools in the topology. <br/> |
-| _Pools_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to stop logging on each server in a pool. To stop logging in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
+| _Computers_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to stop logging on a specified server or set of servers. To stop logging on a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Stop-CsClsLogging** cmdlet will run the command against all pools in the topology. <br/> |
+| _Pools_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to stop logging on each server in a pool. To stop logging in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>

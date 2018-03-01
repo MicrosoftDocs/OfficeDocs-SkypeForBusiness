@@ -13,7 +13,7 @@ description: "The Stop-CcLogging cmdlet stops generating the incoming and outgoi
 ---
 
 # Stop-CcLogging
-[]
+ 
 The Stop-CcLogging cmdlet stops generating the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance.
   
 ```

@@ -15,7 +15,7 @@ description: "The View - Mobility Policy dialog displays the properties of the s
 ---
 
 # Users: View Mobility Policy
-[]
+ 
 The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.
   
 For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and[Configuring Mobility Policy](http://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).

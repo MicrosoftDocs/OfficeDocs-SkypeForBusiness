@@ -13,7 +13,7 @@ description: "Associates a Kerberos account, which is used for IIS Internet Info
 ---
 
 # Set-CsKerberosAccountAssignment
-[]
+ 
 Associates a Kerberos account, which is used for IIS Internet Information Services (IIS) authentication, with a site. This cmdlet was introduced in Lync Server 2010.
   
 ```

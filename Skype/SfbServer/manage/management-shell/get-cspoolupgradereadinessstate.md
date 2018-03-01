@@ -13,7 +13,7 @@ description: "Returns information indicating whether or not your Skype for Busin
 ---
 
 # Get-CsPoolUpgradeReadinessState
-[]
+ 
 Returns information indicating whether or not your Skype for Business Server 2015 Registrar pools are ready to be upgraded. The upgrade readiness state for a pool is based on the upgrade domains that have been configured for that pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

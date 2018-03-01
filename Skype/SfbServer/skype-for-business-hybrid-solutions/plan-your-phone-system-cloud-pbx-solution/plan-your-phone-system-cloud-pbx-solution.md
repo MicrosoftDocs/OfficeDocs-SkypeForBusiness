@@ -15,7 +15,7 @@ description: "Find information on Microsoft's Phone System in Office 365 (Cloud 
 ---
 
 # Plan your Phone System in Office 365 (Cloud PBX) solution
-[]
+ 
 Find information on Microsoft's Phone System in Office 365 (Cloud PBX) solutions for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud.
   
 Microsoft offers a variety of options for enabling your users to call landlines and mobile phones through the Public Switched Telephone Network (PSTN)—whether their accounts exist in Office 365 on Skype for Business Online or in your on-premises Skype for Business Server or Lync Server 2013 deployment.

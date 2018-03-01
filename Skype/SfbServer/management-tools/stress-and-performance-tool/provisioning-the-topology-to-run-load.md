@@ -13,7 +13,7 @@ description: "Skype for Business Server 2015 topology changes or provisioning to
 ---
 
 # Provisioning the topology to run load in Stress and Performance scenarios
-[]
+ 
 Skype for Business Server 2015 topology changes or provisioning to allow users to successfully run the Stress and Performance tool.
   
 Depending on your existing settings and configuration for your deployment of Skype for Business Server 2015, you might need to make some changes in your environment. The following is a list of those changes:

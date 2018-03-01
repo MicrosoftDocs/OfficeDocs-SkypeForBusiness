@@ -13,7 +13,7 @@ description: "Gets the call park orbit range settings for the organization. This
 ---
 
 # Get-CsCallParkOrbit
-[]
+ 
 Gets the call park orbit range settings for the organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -14,8 +14,8 @@ description: "Summary: Learn about the service management tools in Skype for Bus
 ---
 
 # Skype for Business Server 2015 Management Tools
-[]
- **Summary:** Learn about the service management tools in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the service management tools in Skype for Business Server 2015.
   
 Skype for Business Server 2015 communications software (formerly Lync Server), offers instant messaging (IM), presence, conferencing, and telephony solutions that support enterprise-level collaboration requirements. The tools to manage these services are both flexible and powerful. 
   

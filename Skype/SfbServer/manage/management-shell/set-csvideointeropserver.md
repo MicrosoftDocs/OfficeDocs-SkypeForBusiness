@@ -13,7 +13,7 @@ description: "Use the Set-CsVideoInteropServer to modify the property values of 
 ---
 
 # Set-CsVideoInteropServer
-[]
+ 
 Use the **Set-CsVideoInteropServer** to modify the property values of one or more Video Interop Servers (VIS). The Video Interop Server is a Skype service that is used to communicate with a Video Gateway via a Session Initiation Protocol (SIP) trunk. Video Gateways route traffic between internal and 3rd party video devices such as an internal Skype endpoint exchanging video with a 3rd party PBX supporting 3rd party video teleconferencing systems (VTCs). The Video Gateway and a Video Interop Server (VIS) use a Session Initiation Protocol (SIP) trunk to connect video calls between 3rd party VTCs and internal endpoints.
   
 ```

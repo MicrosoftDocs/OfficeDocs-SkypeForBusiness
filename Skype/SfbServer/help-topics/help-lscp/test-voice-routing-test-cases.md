@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Test Voice Routing: Test Cases
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create a Voice Routing Test Case](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)

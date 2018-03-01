@@ -13,8 +13,8 @@ description: "Summary: Learn how to monitor for server memory capacity limits in
 ---
 
 # Monitor for server memory capacity limits in Skype for Business Server 2015
-[]
- **Summary:** Learn how to monitor for server memory capacity limits in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to monitor for server memory capacity limits in Skype for Business Server 2015.
   
 > [!CAUTION]
 > The information in this topic that refers to Capacity Planning pertains only to Lync 2010 Mobile clients and the Mobility Service (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 

@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Topology: View Service Detail
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [View a List of Computers Running Lync Server 2010](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)

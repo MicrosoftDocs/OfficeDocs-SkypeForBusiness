@@ -13,7 +13,7 @@ description: "Removes a user's contacts from the Unified Contact Store and, inst
 ---
 
 # Invoke-CsUcsRollback
-[]
+ 
 Removes a user's contacts from the Unified Contact Store and, instead, stores that contact information in Skype for Business Server 2015. The Unified Contact Store provides a way for users to maintain a single set of contacts that can be accessed using Skype for Business, Microsoft Outlook, and/or Microsoft Outlook Web Access. This cmdlet was introduced in Lync Server 2013.
   
 ```

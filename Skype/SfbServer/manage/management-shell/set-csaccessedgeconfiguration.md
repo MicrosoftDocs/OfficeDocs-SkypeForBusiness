@@ -13,7 +13,7 @@ description: "Modifies the property values of an existing collection of Access E
 ---
 
 # Set-CsAccessEdgeConfiguration
-[]
+ 
 Modifies the property values of an existing collection of Access Edge configuration settings for computers running the Access Edge service. The Access Edge service running on these computers (also known as Edge servers) provides a way for users outside your internal network to communicate with users inside that internal network. This cmdlet was introduced in Lync Server 2010.
   
 ```

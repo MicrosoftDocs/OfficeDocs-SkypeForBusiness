@@ -13,7 +13,7 @@ description: "Use the Remove-CsCallViaWorkPolicy cmdlet to delete an existing ca
 ---
 
 # Remove-CsCallViaWorkPolicy
-[]
+ 
 Use the **Remove-CsCallViaWorkPolicy** cmdlet to delete an existing call via work policy. Call via work policies enable and manage the characteristics of outbound calls placed through the Skype for Business client.
   
 ```

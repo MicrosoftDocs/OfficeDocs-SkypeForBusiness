@@ -15,7 +15,7 @@ description: "Create or modify network interregional routes, which are used by E
 ---
 
 # Create network interregional routes in Skype for Business Server 2015
-[]
+ 
 Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 A network interregional route defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregional route. This enables every network region within the deployment to access every other region.

@@ -13,7 +13,7 @@ description: "Creates a new collection of Persistent Chat configuration settings
 ---
 
 # New-CsPersistentChatConfiguration
-[]
+ 
 Creates a new collection of Persistent Chat configuration settings at the site or service scope. Persistent Chat configuration settings are used to manage the Persistent Chat service. For example, these settings allow you to specify the maximum number of users who can participate in a chat room. This cmdlet was introduced in Lync Server 2013.
   
 ```

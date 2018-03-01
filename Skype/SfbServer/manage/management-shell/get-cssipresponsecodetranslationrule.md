@@ -13,7 +13,7 @@ description: "Returns information about SIP response code translation rules. The
 ---
 
 # Get-CsSipResponseCodeTranslationRule
-[]
+ 
 Returns information about SIP response code translation rules. These rules enable administrators to map SIP response codes with values between 400 and 699 to the values used by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

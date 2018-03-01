@@ -13,7 +13,7 @@ description: "Use the Grant-CsCallViaWorkPolicy cmdlet to assign call via work p
 ---
 
 # Grant-CsCallViaWorkPolicy
-[]
+ 
 Use the **Grant-CsCallViaWorkPolicy** cmdlet to assign call via work policies to a user or group of users. Call via work policies enable and manage the characteristics of outbound calls placed through the Skype for Business client.
   
 ```

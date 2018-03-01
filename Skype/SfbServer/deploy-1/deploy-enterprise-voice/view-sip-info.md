@@ -15,8 +15,8 @@ description: "Summary: Learn how to view information about SIP trunks in Skype f
 ---
 
 # View information about individual SIP trunks in Skype for Business Server 2015
-[]
- **Summary:** Learn how to view information about SIP trunks in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to view information about SIP trunks in Skype for Business Server 2015.
   
 SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN). In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk. As a result, a PSTN gateway and a SIP trunk were essentially identical. For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.
   

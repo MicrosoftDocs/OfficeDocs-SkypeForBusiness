@@ -13,7 +13,7 @@ description: "The Set-CcCredential cmdlet sets the credential of the current Sky
 ---
 
 # Set-CcCredential
-[]
+ 
 The Set-CcCredential cmdlet sets the credential of the current Skype for Business Cloud Connector Edition deployment. 
   
 With Cloud Connector version 2.0 and later, this cmdlet can also set the account information for the virtual machine administrator and for the domain administrator.

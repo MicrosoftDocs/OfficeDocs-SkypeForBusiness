@@ -14,8 +14,8 @@ description: "Summary: Configure the use of high-resolution photos in Exchange S
 ---
 
 # Configure the use of high-resolution photos in Skype for Business Server 2015
-[]
- **Summary:** Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+ 
+**Summary:** Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
   
 In Skype for Business Server 2015 photos can be stored in a user's Exchange Server 2016 or Exchange Server 2013 mailbox, which allows for photo sizes up to 648 pixels by 648 pixels. In addition, Exchange Server can automatically resize these photos for use in different products as needed. Typically that means three different photo sizes and resolutions:
   
@@ -31,7 +31,7 @@ In Skype for Business Server 2015 photos can be stored in a user's Exchange Serv
 High-resolution photos, which are accessed by using Exchange Web Services, can be uploaded by users who are running Outlook 2013 Web App; users are only allowed to update their own photo. Administrators, however, can update the photo for any user by using the Exchange Management Shell and a series of Windows PowerShell commands similar to the following:
   
 ```
-$photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
+$photo = ([Byte ] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```

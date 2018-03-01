@@ -13,7 +13,7 @@ description: "Removes one or more collections of Web Services configuration sett
 ---
 
 # Remove-CsWebServiceConfiguration
-[]
+ 
 Removes one or more collections of Web Services configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

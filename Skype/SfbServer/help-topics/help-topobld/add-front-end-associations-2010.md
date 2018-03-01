@@ -15,7 +15,7 @@ description: "You can enable support for specific features that require the depl
 ---
 
 # Add Front End Associations 2010
-[]
+ 
 You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool at this time. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:
   
 1. Archiving Server. For details about planning and implementing archiving support, see [Defining Your Organization's Requirements for Archiving](http://technet.microsoft.com/library/ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a.aspx) in the Planning documentation and[Define and Configure a Front End Pool or Standard Edition Server](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) and[Deploying Archiving](http://technet.microsoft.com/library/a89edd16-12d5-4602-ad2f-194b47d1188e.aspx) in the Deployment documentation.

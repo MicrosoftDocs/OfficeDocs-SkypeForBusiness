@@ -14,8 +14,8 @@ description: "Summary: Configure the VTC devices to work with Skype for Business
 ---
 
 # Configure a VTC for Interoperation with Skype for Business Server 2015
-[]
- **Summary:** Configure the VTC devices to work with Skype for Business Server 2015.
+ 
+**Summary:** Configure the VTC devices to work with Skype for Business Server 2015.
   
 You will need to perform the following configuration customization procedures for each VTC that will connect to the Skype for Business VIS server through a SIP trunk and CUCM video gateway.
   

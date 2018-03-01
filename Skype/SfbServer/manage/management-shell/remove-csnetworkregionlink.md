@@ -13,7 +13,7 @@ description: "Removes a link between two regions configured for call admission c
 ---
 
 # Remove-CsNetworkRegionLink
-[]
+ 
 Removes a link between two regions configured for call admission control (CAC). This cmdlet was introduced in Lync Server 2010.
   
 ```

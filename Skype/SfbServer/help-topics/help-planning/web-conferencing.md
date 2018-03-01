@@ -16,7 +16,7 @@ description: "Skype for Business Server 2015 web conferencing includes document 
 ---
 
 # Web Conferencing (Planning Tool)
-[]
+ 
 Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing.
   
 > [!NOTE]

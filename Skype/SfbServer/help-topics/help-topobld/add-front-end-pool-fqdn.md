@@ -15,7 +15,7 @@ description: "Specify the fully qualified domain name (FQDN) of the Front End po
 ---
 
 # Add Front End Pool FQDN
-[]
+ 
 Specify the fully qualified domain name (FQDN) of the Front End pool that you are creating. You cannot change the FQDN of a pool after you publish the topology containing the Front End pool. If you need to rename a pool, you must delete the pool and then add a new pool with the new FQDN.
   
 > [!TIP]

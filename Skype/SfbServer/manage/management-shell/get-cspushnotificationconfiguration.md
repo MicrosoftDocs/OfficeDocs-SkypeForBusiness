@@ -13,7 +13,7 @@ description: "Retrieves information about the push notification configuration se
 ---
 
 # Get-CsPushNotificationConfiguration
-[]
+ 
 Retrieves information about the push notification configuration settings currently in use in your organization. The push notification service (Apple Push Notification Service and Microsoft Push Notification Service) provides a way to send notifications about events such as new instant messages or new voice mail to mobile devices such as iPhones and Windows Phones, even if the Skype for Business application on those devices is currently suspended or running in the background. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

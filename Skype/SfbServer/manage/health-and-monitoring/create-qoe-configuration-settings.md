@@ -13,8 +13,8 @@ description: "Summary: Learn about Quality of Experience (QoE) settings in Skype
 ---
 
 # Create Quality of Experience configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn about Quality of Experience (QoE) settings in Skype for Business Server 2015.
+ 
+**Summary:** Learn about Quality of Experience (QoE) settings in Skype for Business Server 2015.
   
 Quality of Experience (QoE) metrics track the quality of audio and video calls made in your organization, including such things as the number of network packets lost, background noise, and the amount of "jitter" (differences in packet delay). These metrics are stored in a database apart from other data (such as call detail records), which allows you to enable and disable QoE independent of other data recording.
   
@@ -46,11 +46,11 @@ QoE configuration settings can be created by using either Skype for Business Ser
     
 6. In **New Quality of Experience Setting**, do the following:
     
-  - Select **Enable monitoring of QoE data** to turn on monitoring.
+   - Select **Enable monitoring of QoE data** to turn on monitoring.
     
-  - Select **Enable purging of QoE data** to turn on purging.
+   - Select **Enable purging of QoE data** to turn on purging.
     
-  - In **Keep QoE for maximum duration (days)**, select the maximum number of days that QoE records should be retained.
+   - In **Keep QoE for maximum duration (days)**, select the maximum number of days that QoE records should be retained.
     
 7. Click **Commit**.
     
@@ -60,7 +60,7 @@ You can create QoE configuration settings by using Windows PowerShell and the Ne
   
 ### To create a new collection of QoE configuration settings
 
-- This command creates a new collection of QoE configuration settings applied to the Redmond site:
+ This command creates a new collection of QoE configuration settings applied to the Redmond site:
     
   ```
   New-CsQoEConfiguration -Identity "site:Redmond"
@@ -68,7 +68,7 @@ You can create QoE configuration settings by using Windows PowerShell and the Ne
 
 ### To create a new collection of QoE configuration settings where QoE monitoring is disabled
 
-- Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties. To create settings that use different property values, simply include the appropriate parameter and parameter value. For example, to create a collection of Quality of Experience configuration settings that, by default, allow disable QoE recording use a command like this:
+ Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties. To create settings that use different property values, simply include the appropriate parameter and parameter value. For example, to create a collection of Quality of Experience configuration settings that, by default, allow disable QoE recording use a command like this:
     
   ```
   New-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
@@ -76,7 +76,7 @@ You can create QoE configuration settings by using Windows PowerShell and the Ne
 
 ### To specify multiple property values when creating a new collection of QoE configuration settings
 
-- You can multiple property values by including multiple parameters. For example, this command configures the new settings to keep QoE data for 30 days and to purge old data at 3:00 AM:
+ You can multiple property values by including multiple parameters. For example, this command configures the new settings to keep QoE data for 30 days and to purge old data at 3:00 AM:
     
   ```
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3

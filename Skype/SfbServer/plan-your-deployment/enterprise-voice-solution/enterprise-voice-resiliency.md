@@ -15,7 +15,7 @@ description: "Learn how to support voice resiliency in Skype for Business Server
 ---
 
 # Plan for Enterprise Voice resiliency in Skype for Business Server 2015
-[]
+ 
 Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers.
   
 Voice resiliency refers to the ability of users to continue making and receiving calls if a central site that hosts Skype for Business Server becomes unavailable, whether through a wide area network (WAN) failure or another cause. If a central site fails, Enterprise Voice service must continue uninterrupted through seamless failover to a backup site. In the event of WAN failure, branch site calls must be redirected to a local PSTN gateway. This section discusses planning for voice resiliency in the event of central-site or WAN failure.

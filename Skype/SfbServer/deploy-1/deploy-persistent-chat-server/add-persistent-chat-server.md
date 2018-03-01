@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to add Persistent Chat Serve
 ---
 
 # Add Persistent Chat Server to your Skype for Business Server 2015 topology
-[]
- **Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology.
+ 
+**Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology.
   
 After you install the prerequisite software on each server on which you plan to deploy Persistent Chat Server, you use Topology Builder to: 
   

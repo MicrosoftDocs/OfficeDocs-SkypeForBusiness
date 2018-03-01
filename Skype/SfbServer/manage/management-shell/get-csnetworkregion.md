@@ -13,7 +13,7 @@ description: "Retrieves one or more network regions. Network regions represent n
 ---
 
 # Get-CsNetworkRegion
-[]
+ 
 Retrieves one or more network regions. Network regions represent network hubs or backbones in an enterprise network. This cmdlet was introduced in Lync Server 2010.
   
 ```

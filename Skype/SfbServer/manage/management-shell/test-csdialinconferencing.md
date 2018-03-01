@@ -13,7 +13,7 @@ description: "The Test-CsDialInConferencing cmdlet checks to see if a user can t
 ---
 
 # Test-CsDialInConferencing
-[]
+ 
 The **Test-CsDialInConferencing** cmdlet checks to see if a user can take part in a dial-in conferencing session. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Returns information about how (or if) the Enhanced 9-1-1 (E9-1-1) 
 ---
 
 # Get-CsLocationPolicy
-[]
+ 
 Returns information about how (or if) the Enhanced 9-1-1 (E9-1-1) Location Information service has been configured. The E9-1-1 service enables those who answer emergency calls to determine the caller's geographic location. This cmdlet was introduced in Lync Server 2010.
   
 ```

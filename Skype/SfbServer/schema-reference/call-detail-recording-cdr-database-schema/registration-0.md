@@ -13,7 +13,7 @@ description: "The Registration view stores information about user registration. 
 ---
 
 # Registration view
-[]
+ 
 The Registration view stores information about user registration. This view was introduced in Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

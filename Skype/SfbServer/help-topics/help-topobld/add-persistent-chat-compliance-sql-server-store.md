@@ -15,7 +15,7 @@ description: "You configure the compliance SQL Server stores that will provide d
 ---
 
 # Add Persistent Chat Compliance SQL Server Store
-[]
+ 
 You configure the compliance SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server compliance feature.
   
  **SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.

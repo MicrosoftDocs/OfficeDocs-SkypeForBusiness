@@ -15,7 +15,7 @@ description: "Use the Select a Service dialog box to find services available in 
 ---
 
 # Select a Service
-[]
+ 
 Use the **Select a Service** dialog box to find services available in your environment. To use an existing service, click a service in the list and then click **OK**. 
   
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).

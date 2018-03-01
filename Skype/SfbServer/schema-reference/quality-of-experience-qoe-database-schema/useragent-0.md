@@ -13,7 +13,7 @@ description: "The UserAgent View stores information about the user agents that h
 ---
 
 # UserAgent view
-[]
+ 
 The UserAgent View stores information about the user agents that have been involved in sessions that have records in the database. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

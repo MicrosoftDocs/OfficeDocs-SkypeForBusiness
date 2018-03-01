@@ -13,7 +13,7 @@ description: "Removes the specified client version policy. Client version polici
 ---
 
 # Remove-CsClientVersionPolicy
-[]
+ 
 Removes the specified client version policy. Client version policies enable you to specify which clients will be able to log on to your Skype for Business Server 2015 system. This cmdlet was introduced in Lync Server 2010.
   
 ```

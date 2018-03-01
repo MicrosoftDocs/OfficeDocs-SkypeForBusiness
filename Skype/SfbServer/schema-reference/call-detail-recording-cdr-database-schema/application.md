@@ -13,7 +13,7 @@ description: "This table stores information about the various processes within S
 ---
 
 # Application table in Skype for Business Server 2015
-[]
+ 
 This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

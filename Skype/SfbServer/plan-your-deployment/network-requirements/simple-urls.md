@@ -13,8 +13,8 @@ description: "Summary: Review the Simple URL considerations in this topic before
 ---
 
 # DNS requirements for simple URLs in Skype for Business Server 2015
-[]
- **Summary:** Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server 2015.
+ 
+**Summary:** Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server 2015.
   
 Simple URLs make joining meetings easier for your users, and make getting to Skype for Business Server administrative tools easier for administrators. Simple URLs use their own domain, which must not match any of the SIP domains you define. 
   

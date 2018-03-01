@@ -15,7 +15,7 @@ description: "The Edge pools node lists the Edge pools in your topology. You can
 ---
 
 # Edge Servers Scope Node
-[]
+ 
 The **Edge pools** node lists the Edge pools in your topology. You can perform the following action:
   
 - **New Edge Pool**. Starts the **Define New Edge Pool** wizard, which you use to add a new Edge pool to the topology.

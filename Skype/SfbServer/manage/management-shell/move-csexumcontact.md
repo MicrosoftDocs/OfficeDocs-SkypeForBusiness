@@ -13,7 +13,7 @@ description: "Moves one or more Exchange Unified Messaging (UM) contacts to a ne
 ---
 
 # Move-CsExUmContact
-[]
+ 
 Moves one or more Exchange Unified Messaging (UM) contacts to a new Registrar pool. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Indicates whether licensing information for the specified tenant i
 ---
 
 # Get-CsTenantLicensingConfiguration
-[]
+ 
 Indicates whether licensing information for the specified tenant is available in the Skype for Business admin center.
   
 This cmdlet can only be used with Skype for Business Online.

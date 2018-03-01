@@ -15,8 +15,8 @@ description: "Summary: Review the port usage considerations before implementing 
 ---
 
 # Port and protocol requirements for servers
-[]
- **Summary:** Review the port usage considerations before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the port usage considerations before implementing Skype for Business Server 2015.
   
 Skype for Business Server requires that specific ports on the external and internal firewalls be open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   

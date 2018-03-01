@@ -13,7 +13,7 @@ description: "The Install-CcAppliance cmdlet installs the Skype for Business Clo
 ---
 
 # Install-CcAppliance
-[]
+ 
 The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server. 
   
 ```

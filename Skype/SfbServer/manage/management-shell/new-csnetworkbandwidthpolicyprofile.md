@@ -13,7 +13,7 @@ description: "Creates a new network bandwidth policy profile. This cmdlet can al
 ---
 
 # New-CsNetworkBandwidthPolicyProfile
-[]
+ 
 Creates a new network bandwidth policy profile. This cmdlet can also be used to set the bandwidth policies within the profile. This cmdlet was introduced in Lync Server 2010.
   
 ```

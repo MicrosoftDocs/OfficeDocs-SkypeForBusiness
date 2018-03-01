@@ -14,7 +14,7 @@ description: "Create or modify Response Group holiday sets, in Skype for Busines
 ---
 
 # (Optional) Define Response Group holiday sets in Skype for Business 2015
-[]
+ 
 Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.
   
 Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.

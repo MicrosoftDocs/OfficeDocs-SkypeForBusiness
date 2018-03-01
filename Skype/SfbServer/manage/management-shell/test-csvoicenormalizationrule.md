@@ -13,7 +13,7 @@ description: "Tests a telephone number against a voice normalization rule and re
 ---
 
 # Test-CsVoiceNormalizationRule
-[]
+ 
 Tests a telephone number against a voice normalization rule and returns the number after the normalization rule has been applied. Voice normalization rules are used to convert a telephone dialing requirement (for example, you must dial 9 to access an outside line) to the E.164 phone number format used by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

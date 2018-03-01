@@ -13,7 +13,7 @@ description: "Read this topic to learn about how to deploy Skype Room System in 
 ---
 
 # Skype Room System migration considerations
-[]
+ 
 Read this topic to learn about how to deploy Skype Room System in an environment that has multiple versions of Skype for Business Server and Lync Server.
   
 ## Migration considerations

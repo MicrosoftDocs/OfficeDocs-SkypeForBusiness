@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # PIN Policy: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create a new PIN policy in Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)

@@ -13,7 +13,7 @@ description: "Tests the configuration of the Skype for Business Server 2015 data
 ---
 
 # Test-CsDatabase
-[]
+ 
 Tests the configuration of the Skype for Business Server 2015 databases. This cmdlet was introduced in Lync Server 2013.
   
 ```

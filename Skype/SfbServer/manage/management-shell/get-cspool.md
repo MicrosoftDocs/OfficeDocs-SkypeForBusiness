@@ -13,7 +13,7 @@ description: "Returns information about the pools used in your deployment of Sky
 ---
 
 # Get-CsPool
-[]
+ 
 Returns information about the pools used in your deployment of Skype for Business Server 2015. Pools are a collection of computers in a site that all run the same set of Skype for Business Server 2015 services. This cmdlet was introduced in Lync Server 2010.
   
 ```

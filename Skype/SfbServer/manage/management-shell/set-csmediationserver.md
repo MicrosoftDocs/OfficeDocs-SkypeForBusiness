@@ -13,7 +13,7 @@ description: "Enables you to modify the properties of one or more Mediation Serv
 ---
 
 # Set-CsMediationServer
-[]
+ 
 Enables you to modify the properties of one or more Mediation Servers. Mediation Servers are used to route traffic between your internal Enterprise Voice infrastructure and a public switched telephone network (PSTN) gateway or a SIP trunk. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "To edit the properties of the defined file stores:"
 ---
 
 # File Store Settings Expander
-[]
+ 
 To edit the properties of the defined file stores:
   
 For the File Share name, you can define the name of a new share. You must then create the share on the server that is named in the File Server fully qualified domain name (FQDN) property.

@@ -13,7 +13,7 @@ description: "Specifies the transmission protocol to be used in a static route. 
 ---
 
 # New-CsSipProxyTransport
-[]
+ 
 Specifies the transmission protocol to be used in a static route. Skype for Business Server 2015 enables you to choose either Transmission Control Protocol (TCP) or Transport Layer Security (TLS) as the transmission protocol for a route. This cmdlet was introduced in Lync Server 2010.
   
 ```

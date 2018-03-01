@@ -13,7 +13,7 @@ description: "Returns information about the watcher node configuration settings 
 ---
 
 # Get-CsWatcherNodeConfiguration
-[]
+ 
 Returns information about the watcher node configuration settings in use in your organization. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. The watcher node configuration settings let you know which pools have been associated with a watcher node. This cmdlet was introduced in Lync Server 2013.
   
 > [!NOTE]

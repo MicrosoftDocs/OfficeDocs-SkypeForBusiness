@@ -13,7 +13,7 @@ description: "Modifies the property values of an existing Skype for Business Ser
 ---
 
 # Set-CsAnnouncement
-[]
+ 
 Modifies the property values of an existing Skype for Business Server 2015 announcement. Announcements are played when users dial a valid but unassigned phone number. An announcement can be a message (such as "This number is temporarily out of service") or a busy signal. This cmdlet was introduced in Lync Server 2010.
   
 ```

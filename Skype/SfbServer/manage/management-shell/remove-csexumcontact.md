@@ -13,7 +13,7 @@ description: "Removes an Auto Attendant or Subscriber Access contact object for 
 ---
 
 # Remove-CsExUmContact
-[]
+ 
 Removes an Auto Attendant or Subscriber Access contact object for hosted Exchange Unified Messaging (UM). This cmdlet was introduced in Lync Server 2010.
   
 > [!NOTE]

@@ -14,7 +14,7 @@ description: "Create or modify Response Group business hours, in Skype for Busin
 ---
 
 # (Optional) Define Response Group business hours in Skype for Business 2015
-[]
+ 
 Create or modify Response Group business hours, in Skype for Business Server Enterprise Voice.
   
 ## Defining Business Hours

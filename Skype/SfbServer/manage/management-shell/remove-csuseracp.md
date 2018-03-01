@@ -13,7 +13,7 @@ description: "Removes one or more audio conferencing providers assigned to a use
 ---
 
 # Remove-CsUserAcp
-[]
+ 
 Removes one or more audio conferencing providers assigned to a user or group of users. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "In addition to following best practices for your Skype for Busines
 ---
 
 # Addressing threats to your core infrastructure for Skype for Business Server 2015
-[]
+ 
 In addition to following best practices for your Skype for Business Server 2015 deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.
   
 ## In this section

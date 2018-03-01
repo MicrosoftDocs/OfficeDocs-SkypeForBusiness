@@ -13,7 +13,7 @@ description: "Enables a Skype for Business Server 2015 meeting room. A meeting r
 ---
 
 # Enable-CsMeetingRoom
-[]
+ 
 Enables a Skype for Business Server 2015 meeting room. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. To enable a meeting room you must first create an Active Directory user account that will represent that system. Note that, although meeting room objects are based on user accounts, these objects will not show up when you run the **Get-CsUser** cmdlet. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -55,7 +55,7 @@ In Skype for Business Server 2015, meeting rooms are self-contained computer app
     
 - Content sharing and switching
     
-In order to manage these new endpoint devices you must, among other things, create and enable an Exchange resource mailbox account for the device, then enable that resource account for Skype for Business Server 2015. Note that, for Skype for Business Server 2015, there are no cmdlets for creating or removing meeting rooms. Instead, you use the ** Enable-CsMeetingRoom** cmdlet to enable meeting rooms and the[Disable-CsMeetingRoom](disable-csmeetingroom.md) cmdlet to disable meeting rooms. The resource account must already exist in order for you to enable the meeting room, and disabling a meeting room only removes that room from your collection of meeting rooms; it does not delete the resource mailbox account.
+In order to manage these new endpoint devices you must, among other things, create and enable an Exchange resource mailbox account for the device, then enable that resource account for Skype for Business Server 2015. Note that, for Skype for Business Server 2015, there are no cmdlets for creating or removing meeting rooms. Instead, you use the **Enable-CsMeetingRoom** cmdlet to enable meeting rooms and the [Disable-CsMeetingRoom](disable-csmeetingroom.md) cmdlet to disable meeting rooms. The resource account must already exist in order for you to enable the meeting room, and disabling a meeting room only removes that room from your collection of meeting rooms; it does not delete the resource mailbox account.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Enable-CsMeetingRoom** cmdlet are not available in the Skype for Business Server Control Panel.
   

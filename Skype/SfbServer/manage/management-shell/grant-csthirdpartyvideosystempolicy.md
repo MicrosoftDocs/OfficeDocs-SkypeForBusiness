@@ -13,7 +13,7 @@ description: "Assigns a per-user third-party video system policy to video teleco
 ---
 
 # Grant-CsThirdPartyVideoSystemPolicy
-[]
+ 
 Assigns a per-user third-party video system policy to video teleconferencing (VTC) devices. These policies determine whether or not the VTC is allowed to send low-resolution video.
   
 This cmdlet was introduced in Skype for Business Server 2015.

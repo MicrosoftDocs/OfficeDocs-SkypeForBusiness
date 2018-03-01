@@ -13,8 +13,8 @@ description: "Summary: Learn about the Media Quality Comparison Report in Skype 
 ---
 
 # Media Quality Comparison Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Media Quality Comparison Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Media Quality Comparison Report in Skype for Business Server 2015.
   
 The Media Quality Comparison Report enables you to compare call quality values for different types of audio calls (for example, calls made over a wireless network vs. calls made across a wired connection).
   

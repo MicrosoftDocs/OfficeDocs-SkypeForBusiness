@@ -15,7 +15,7 @@ description: "Learn about translation rules and dial string normalization in Sky
 ---
 
 # Translation rules in Skype for Business Server 2015
-[]
+ 
 Learn about translation rules and dial string normalization in Skype for Business Server Enterprise Voice.
   
  Enterprise Voice requires that all dial strings be normalized to E.164 format for the purpose of performing reverse number lookup (RNL). Translation rules are supported for both called numbers and calling numbers. Thetrunk peer (that is, the associated gateway, private branch exchange (PBX), or SIP trunk) may require that numbers be in a local dialing format. To translate numbers from E.164 format to a local dialing format, you can define one or more translation rules to manipulate the request URI before you route it to the trunk peer. For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.

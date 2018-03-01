@@ -13,7 +13,7 @@ description: "Removes an existing Response Group agent group. An agent group is 
 ---
 
 # Remove-CsRgsAgentGroup
-[]
+ 
 Removes an existing Response Group agent group. An agent group is a collection of agents assigned to a Response Group queue. Agents are the users assigned to answer calls directed to a particular queue. This cmdlet was introduced in Lync Server 2010.
   
 ```

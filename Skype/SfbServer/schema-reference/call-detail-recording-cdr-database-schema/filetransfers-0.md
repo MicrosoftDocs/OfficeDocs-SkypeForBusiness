@@ -13,7 +13,7 @@ description: "Each record represents one file transfer session."
 ---
 
 # FileTransfers table in Skype for Business Server 2015
-[]
+ 
 Each record represents one file transfer session.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

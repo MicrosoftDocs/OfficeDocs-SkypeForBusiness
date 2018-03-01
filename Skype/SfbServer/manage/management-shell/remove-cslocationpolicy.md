@@ -13,7 +13,7 @@ description: "Removes the specified location policy. (Location policies are used
 ---
 
 # Remove-CsLocationPolicy
-[]
+ 
 Removes the specified location policy. (Location policies are used with the Enhanced 9-1-1 service to enable those who answer 911 calls to determine the caller's geographic location based on the phone number of the telephone or device used to make the call.) This cmdlet was introduced in Lync Server 2010.
   
 ```

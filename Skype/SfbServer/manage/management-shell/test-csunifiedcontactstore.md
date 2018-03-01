@@ -13,7 +13,7 @@ description: "Verifies whether or not a user's contacts can be accessed through 
 ---
 
 # Test-CsUnifiedContactStore
-[]
+ 
 Verifies whether or not a user's contacts can be accessed through the Unified Contact Store. The Unified Contact Store provides a way for users to maintain a single set of contacts that can be accessed using Skype for Business, Outlook, and/or Outlook Web App. This cmdlet was introduced in Lync Server 2013.
   
 ```

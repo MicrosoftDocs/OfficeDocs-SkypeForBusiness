@@ -13,7 +13,7 @@ description: "Synchronizes user data between a pair of Skype for Business Server
 ---
 
 # Sync-CsUserData
-[]
+ 
 Synchronizes user data between a pair of Skype for Business Server 2015 pools. This cmdlet was introduced in Lync Server 2013.
   
 ```

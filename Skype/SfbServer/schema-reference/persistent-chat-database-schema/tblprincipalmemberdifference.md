@@ -13,7 +13,7 @@ description: "tblPrincipalMemberDifference contains group membership changes (bo
 ---
 
 # tblPrincipalMemberDifference
-[]
+ 
 tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.
   
 **Columns**

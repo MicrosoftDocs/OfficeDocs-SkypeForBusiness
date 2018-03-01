@@ -13,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a mult
 ---
 
 # Skype Room System multiple forest on-premises deployments
-[]
+ 
 Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.
   
 > [!NOTE]

@@ -13,7 +13,7 @@ description: "Manually purges records from the Quality of Experience (QoE) datab
 ---
 
 # Invoke-CsQoEDatabasePurge
-[]
+ 
 Manually purges records from the Quality of Experience (QoE) database. This cmdlet was introduced in Lync Server 2013.
   
 ```

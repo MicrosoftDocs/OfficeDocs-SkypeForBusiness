@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure initial archivi
 ---
 
 # Configure archiving options for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure initial archiving options for Skype for Business Server 2015. You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment.
+ 
+**Summary:** Read this topic to learn how to configure initial archiving options for Skype for Business Server 2015. You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment.
   
 To configure initial archiving configurations, you use Skype for Business Server Control Panel to specify the following:
   

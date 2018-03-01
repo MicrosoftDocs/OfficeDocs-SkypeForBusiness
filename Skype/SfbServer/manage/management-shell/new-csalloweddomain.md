@@ -13,7 +13,7 @@ description: "Adds a domain to the list of domains approved for federation. Afte
 ---
 
 # New-CsAllowedDomain
-[]
+ 
 Adds a domain to the list of domains approved for federation. After a domain has been approved for federation (by being added to the allowed list), your users can exchange instant messages and presence information with people who have accounts in the federated domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

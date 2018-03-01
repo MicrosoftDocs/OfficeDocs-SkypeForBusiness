@@ -14,8 +14,8 @@ description: "Summary: Learn about the Run Query operation, which is part of the
 ---
 
 # Run Query
-[]
- **Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Run Query operation is part of the Data API for Call Quality Dashboard.
   

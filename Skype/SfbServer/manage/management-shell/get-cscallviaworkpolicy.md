@@ -13,7 +13,7 @@ description: "Use the Get-CsCallViaWorkPolicy cmdlet to return call via work pol
 ---
 
 # Get-CsCallViaWorkPolicy
-[]
+ 
 Use the **Get-CsCallViaWorkPolicy** cmdlet to return call via work policies. Call via work policies enable and manage the characteristics of outbound calls placed through the Skype for Business client.
   
 ```

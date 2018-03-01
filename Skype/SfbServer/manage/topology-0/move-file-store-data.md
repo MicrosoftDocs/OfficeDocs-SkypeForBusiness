@@ -13,7 +13,7 @@ description: "If you need to remove the file server that is currently acting as 
 ---
 
 # Move File Store Data to a New File Store in Skype for Business Server 2015
-[]
+ 
 If you need to remove the file server that is currently acting as the file store for your Skype for Business Server 2015 deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:
   
 1. Shut down the Skype for Business Server 2015 services that use the file store that you plan to remove.

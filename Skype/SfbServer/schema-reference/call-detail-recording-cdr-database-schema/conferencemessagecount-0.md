@@ -13,7 +13,7 @@ description: "The ConferenceMessageCount view stores information about how many 
 ---
 
 # ConferenceMessageCount view
-[]
+ 
 The ConferenceMessageCount view stores information about how many messages were sent by a user to a conference. This view was introduced in Microsoft Lync Server 2013.
   
 > [!NOTE]

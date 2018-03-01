@@ -15,7 +15,7 @@ description: "To begin assigning a certificate for use in Skype for Business Ser
 ---
 
 # Certificate Assignment (Intro)
-[]
+ 
 To begin assigning a certificate for use in Skype for Business Server, click **Next**.
   
 

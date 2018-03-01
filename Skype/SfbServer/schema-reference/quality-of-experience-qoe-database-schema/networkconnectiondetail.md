@@ -13,7 +13,7 @@ description: "The NetworkConnectionDetail table maps network connection types to
 ---
 
 # NetworkConnectionDetail table
-[]
+ 
 The NetworkConnectionDetail table maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

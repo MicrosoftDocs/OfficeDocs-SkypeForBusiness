@@ -13,7 +13,7 @@ description: "The Remove-CcLegacyServerCertificate cmdlet removes legacy server 
 ---
 
 # Remove-CcLegacyServerCertificate
-[]
+ 
 The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.
   
 ```

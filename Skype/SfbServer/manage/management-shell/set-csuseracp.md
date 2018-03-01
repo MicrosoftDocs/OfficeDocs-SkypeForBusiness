@@ -13,11 +13,11 @@ description: "Adds a new audio conferencing provider to a user or group of users
 ---
 
 # Set-CsUserAcp
-[]
+ 
 Adds a new audio conferencing provider to a user or group of users, or modifies an existing audio conferencing provider already assigned to a user. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Set-CsUserAcp -Identity <UserIdParameter> -Domain <String> -Name <String> -ParticipantPasscode <String> -TollNumber <String> [-Confirm [<SwitchParameter>]] [-IsDefault <$true | $false>] [-PassThru <SwitchParameter>] [-TollFreeNumbers <String[]>] [-Url <String>] [-WhatIf [<SwitchParameter>]]
+Set-CsUserAcp -Identity <UserIdParameter> -Domain <String> -Name <String> -ParticipantPasscode <String> -TollNumber <String> [-Confirm [<SwitchParameter>]] [-IsDefault <$true | $false>] [-PassThru <SwitchParameter>] [-TollFreeNumbers <String >] [-Url <String>] [-WhatIf [<SwitchParameter>]]
 
 ```
 
@@ -74,7 +74,7 @@ Further suppose that Ken Myer has already been assigned an audio conferencing pr
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _IsDefault_ <br/> |Optional  <br/> |System.Boolean  <br/> |Indicates whether or not this is the default audio conferencing provider for the user. Each user can only have one default provider.  <br/> |
 | _PassThru_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Enables you to pass an object through the pipeline that represents the user whose account properties are being configured. The PassThru parameter is required in such cases because, by default, the **Set-CsUserAcp** cmdlet does not pass objects through the pipeline. <br/> |
-| _TollFreeNumbers_ <br/> |Optional  <br/> |System.String[]  <br/> |Collection of toll-free phone number used for audio conferences. For example:  <br/>  `-TollFreeNumbers "18005551298"` <br/> To add multiple toll-free numbers, separate the individual numbers by using commas:  <br/>  `-TollFreeNumbers "18005551298", "18005559876"` <br/> |
+| _TollFreeNumbers_ <br/> |Optional  <br/> |System.String   <br/> |Collection of toll-free phone number used for audio conferences. For example:  <br/>  `-TollFreeNumbers "18005551298"` <br/> To add multiple toll-free numbers, separate the individual numbers by using commas:  <br/>  `-TollFreeNumbers "18005551298", "18005559876"` <br/> |
 | _Url_ <br/> |Optional  <br/> |System.String  <br/> |Web URL for the audio conferencing provider; for example:  <br/>  `-Url "http://acp.fabrikam.com"` <br/> The web URL enables audio conferencing providers to point users to a webpage containing additional dial-in phone numbers, as well as information about the services offered by the audio conferencing provider.  <br/> |
 | _WhatIf_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Describes what would happen if you executed the command without actually executing the command.  <br/> |
    

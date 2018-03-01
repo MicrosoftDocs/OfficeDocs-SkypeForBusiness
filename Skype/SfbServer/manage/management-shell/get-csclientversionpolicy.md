@@ -13,7 +13,7 @@ description: "Returns information about which clients (such as Microsoft Office 
 ---
 
 # Get-CsClientVersionPolicy
-[]
+ 
 Returns information about which clients (such as Microsoft Office Communicator 2007 R2) are supported in your Skype for Business Server 2015 environment. Client version policies enable you to specify which clients (such as Office Communicator 2007 R2) will be able to log on to your Skype for Business Server 2015 system. This cmdlet was introduced in Lync Server 2010.
   
 ```

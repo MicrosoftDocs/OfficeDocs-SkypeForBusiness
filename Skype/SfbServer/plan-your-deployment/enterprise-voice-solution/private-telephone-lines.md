@@ -15,7 +15,7 @@ description: "Planning for private (secondary) telephone lines in Skype for Busi
 ---
 
 # Plan for private telephone lines with Skype for Business 2015
-[]
+ 
 Planning for private (secondary) telephone lines in Skype for Business Server Enterprise Voice.
   
 Skype for Business Server enables you to give users a second, private telephone line in addition to their primary telephone line. Private telephone lines are often assigned to executives and others who want an unlisted telephone number at which they can be reached directly.

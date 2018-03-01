@@ -15,7 +15,7 @@ description: "Use the Select Regions dialog box to find regions available in you
 ---
 
 # Select Regions
-[]
+ 
 Use the **Select Regions** dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click **OK**.
   
 > [!NOTE]

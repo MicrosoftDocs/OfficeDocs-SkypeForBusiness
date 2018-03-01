@@ -15,7 +15,7 @@ description: "The base URL is the Web Services identity for the URL, minus the h
 ---
 
 # Add Front End Web Services 2010
-[]
+ 
 The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is https://pool01.contoso.net, the base URL is pool01.contoso.net.
   
 You cannot override the internal Web Services pool fully qualified domain name (FQDN) for a Standard Edition Server. If you are configuring Domain Name System (DNS) load balancing for an Enterprise Edition Front End pool, you can specify a different internal base URL (which must be different than the pool FQDN and could be, for example, internal-\<your base URL\>).

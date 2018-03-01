@@ -13,7 +13,7 @@ description: "Returns information about all the Skype for Business Server 2015 m
 ---
 
 # Get-CsMeetingRoom
-[]
+ 
 Returns information about all the Skype for Business Server 2015 meeting rooms configured for use in the organization. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. This cmdlet was introduced in Lync Server 2013.
   
 ```

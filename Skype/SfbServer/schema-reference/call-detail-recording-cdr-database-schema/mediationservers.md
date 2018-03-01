@@ -13,7 +13,7 @@ description: "The MediationServers table is a supporting table. Each record stor
 ---
 
 # MediationServers table
-[]
+ 
 The MediationServers table is a supporting table. Each record stores information about one Mediation Server that is involved in calls that have records in the database.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

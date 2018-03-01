@@ -13,7 +13,7 @@ description: "Creates a new SipProxy.TCP object, which can then be used to confi
 ---
 
 # New-CsSipProxyTCP
-[]
+ 
 Creates a new SipProxy.TCP object, which can then be used to configure a static route to use Transmission Control Protocol (TCP) as its transport protocol. This cmdlet was introduced in Lync Server 2010.
   
 ```

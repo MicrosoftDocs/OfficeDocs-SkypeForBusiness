@@ -13,7 +13,7 @@ description: "Enables an administrator to prevent a user from using personal ide
 ---
 
 # Lock-CsClientPin
-[]
+ 
 Enables an administrator to prevent a user from using personal identification number (PIN) authentication. This cmdlet was introduced in Lync Server 2010.
   
 ```

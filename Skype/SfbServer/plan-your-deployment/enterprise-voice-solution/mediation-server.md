@@ -15,7 +15,7 @@ description: "Learn about Mediation Servers in Skype for Business Server, includ
 ---
 
 # Mediation Server component in Skype for Business Server 2015
-[]
+ 
 Learn about Mediation Servers in Skype for Business Server, including its supported topologies and its relations to M:N trunks, media bypass, and call admission control.
   
 To deploy Enterprise Voice, you must deploy one or more Mediation Servers. 

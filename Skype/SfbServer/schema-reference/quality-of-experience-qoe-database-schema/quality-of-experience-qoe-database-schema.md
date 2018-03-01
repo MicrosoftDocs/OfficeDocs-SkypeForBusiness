@@ -13,7 +13,7 @@ description: "This documents the schema of the Quality of Experience (QoE) datab
 ---
 
 # Quality of Experience (QoE) database schema
-[]
+ 
 This documents the schema of the Quality of Experience (QoE) database in Skype for Business Server 2015.
   
 ## In This Section

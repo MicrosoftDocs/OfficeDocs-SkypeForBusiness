@@ -13,7 +13,7 @@ description: "The Conferences View stores information about the conferences. Thi
 ---
 
 # Conferences view
-[]
+ 
 The Conferences View stores information about the conferences. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

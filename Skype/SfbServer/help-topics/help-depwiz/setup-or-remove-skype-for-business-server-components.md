@@ -15,7 +15,7 @@ description: "To install and activate, or deactivate or uninstall Skype for Busi
 ---
 
 # Setup or Remove Skype for Business Server Components
-[]
+ 
 To install and activate, or deactivate or uninstall Skype for Business Server 2015 components, you use **Step 2: Setup or Remove Skype Server Components**. You must be logged in as a local administrator on the computer that you are installing or modifying and must be able to read Active Directory Domain Services users and groups in the current domain. To begin, click **Run**. When you do this, the Central Management store-based topology definition is read. Necessary software components are installed and configured, according to the role as defined in the Central Management store. When the installation is complete, review the Summary, and click **Finish**.
   
 > [!TIP]

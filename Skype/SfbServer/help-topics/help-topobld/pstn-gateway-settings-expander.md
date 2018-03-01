@@ -15,7 +15,7 @@ description: "To edit or modify the settings for a public switched telephone net
 ---
 
 # PSTN Gateway Settings Expander
-[]
+ 
 To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:
   
 Gateway FQDN or IP Address is a required entry and defines wither the **Fully qualified domain name (FQDN)** of the PSTN gateway as defined by a Domain Name System (DNS) host (A) record, a static HOSTS file entry, or by the IP address of the PSTN gateway.

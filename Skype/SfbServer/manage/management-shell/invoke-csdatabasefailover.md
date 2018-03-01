@@ -13,11 +13,11 @@ description: "Invokes the process in which a Skype for Business Server 2015 data
 ---
 
 # Invoke-CsDatabaseFailover
-[]
+ 
 Invokes the process in which a Skype for Business Server 2015 database fails over to its mirror database. After failover has been completed, the mirror database will become the principal database and will handle all new database requests. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Invoke-CsDatabaseFailover -DatabaseType <Application | Archiving | Monitoring | User | Provision | Lyss | Registrar | Edge | PersistentChat | PersistentChatCompliance | CentralMgmt | SigninTelemetry | ActiveMonitoring> -NewPrincipal <Primary | Mirror> -PoolFqdn <Fqdn> [-Confirm [<SwitchParameter>]] [-ExcludeDatabaseList <String[]>] [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>] [-Report <String>] [-WhatIf [<SwitchParameter>]]
+Invoke-CsDatabaseFailover -DatabaseType <Application | Archiving | Monitoring | User | Provision | Lyss | Registrar | Edge | PersistentChat | PersistentChatCompliance | CentralMgmt | SigninTelemetry | ActiveMonitoring> -NewPrincipal <Primary | Mirror> -PoolFqdn <Fqdn> [-Confirm [<SwitchParameter>]] [-ExcludeDatabaseList <String >] [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>] [-Report <String>] [-WhatIf [<SwitchParameter>]]
 
 ```
 
@@ -58,7 +58,7 @@ Note that any commands using the **Invoke-CsDatabaseFailover** cmdlet will fail 
 | _NewPrincipal_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.MirrorRole  <br/> |Specifies whether failover will be to the primary database or to the mirror database. Valid values are:  <br/> Mirror  <br/> Primary  <br/> |
 | _PoolFqdn_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deploy.Fqdn  <br/> |Fully qualified domain name of the pool containing the database to be failed over.  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
-| _ExcludeDatabaseList_ <br/> |Optional  <br/> |System.String[]  <br/> |List of databases that should not be failed over. For example:  <br/>  `-ExcludeDatabaseList "LcsCDR"` <br/> To prevent multiple databases from being failed over, separate the database names using commas:  <br/>  `-ExcludeDatabaseList "LcsCDR", "LcsLog"` <br/> |
+| _ExcludeDatabaseList_ <br/> |Optional  <br/> |System.String   <br/> |List of databases that should not be failed over. For example:  <br/>  `-ExcludeDatabaseList "LcsCDR"` <br/> To prevent multiple databases from being failed over, separate the database names using commas:  <br/>  `-ExcludeDatabaseList "LcsCDR", "LcsLog"` <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |UNRESOLVED_TOKEN_VAL(PS_PD_Force_Desc)  <br/> |
 | _LocalStore_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Retrieves topology information from the local replica of the Central Management store rather than from the Central Management store itself.  <br/> |
 | _Report_ <br/> |Optional  <br/> |System.String  <br/> |Enables you to specify a file path for the log file created when the cmdlet runs. For example:  `-Report "C:\Logs\DatabaseFailover.html"` <br/> |

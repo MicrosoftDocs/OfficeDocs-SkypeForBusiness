@@ -13,7 +13,7 @@ description: "tblSystemRevision contains the revision number that is used with t
 ---
 
 # tblSystemRevision
-[]
+ 
 tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.
   
 **Columns**

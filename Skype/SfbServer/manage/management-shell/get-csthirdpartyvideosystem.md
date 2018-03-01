@@ -13,7 +13,7 @@ description: "Returns information about Directory contact objects that represent
 ---
 
 # Get-CsThirdPartyVideoSystem
-[]
+ 
 Returns information about Directory contact objects that represent a third-party video system. A third-party video system is a video teleconferencing (VTC) device that provides users with telepresence: the ability to participate in online meetings and conferences with full audio and video capabilities.
   
 This cmdlet was introduced in Skype for Business Server 2015.

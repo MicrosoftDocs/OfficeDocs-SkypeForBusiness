@@ -13,7 +13,7 @@ description: "Returns information about the Response Group agent groups configur
 ---
 
 # Get-CsRgsAgentGroup
-[]
+ 
 Returns information about the Response Group agent groups configured for use in your organization. An agent group is a collection of agents assigned to a Response Group queue. Agents are the users assigned to answer calls directed to a queue. This cmdlet was introduced in Lync Server 2010.
   
 ```

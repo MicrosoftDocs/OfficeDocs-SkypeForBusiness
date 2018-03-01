@@ -13,7 +13,7 @@ description: "Creates a new simple URL, which can then be added to a simple URL 
 ---
 
 # New-CsSimpleUrl
-[]
+ 
 Creates a new simple URL, which can then be added to a simple URL configuration collection. Simple URLs make it easier for users to join meetings and conferences, and also make it easier for administrators to log on to the Skype for Business Server Control Panel. This cmdlet was introduced in Lync Server 2010.
   
 ```

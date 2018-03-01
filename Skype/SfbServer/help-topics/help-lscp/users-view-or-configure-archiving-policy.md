@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Users: View or Configure Archiving Policy
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Assign a Per-User Archiving Policy](http://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)

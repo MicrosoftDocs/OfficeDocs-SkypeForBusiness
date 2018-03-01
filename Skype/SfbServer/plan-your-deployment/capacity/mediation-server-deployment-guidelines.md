@@ -14,7 +14,7 @@ description: "This topic describes planning guidelines for Mediation Server depl
 ---
 
 # Deployment guidelines for Mediation Server in Skype for Business Server 2015
-[]
+ 
 This topic describes planning guidelines for Mediation Server deployment.
   
 ## Collocated or Stand-alone Mediation Server?

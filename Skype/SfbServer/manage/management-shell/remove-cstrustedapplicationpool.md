@@ -13,7 +13,7 @@ description: "Removes a pool that contains the computers that host trusted appli
 ---
 
 # Remove-CsTrustedApplicationPool
-[]
+ 
 Removes a pool that contains the computers that host trusted applications. This cmdlet was introduced in Lync Server 2010.
   
 ```

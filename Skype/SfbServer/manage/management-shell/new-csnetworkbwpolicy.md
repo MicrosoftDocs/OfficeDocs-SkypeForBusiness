@@ -13,7 +13,7 @@ description: "Creates a bandwidth policy in memory that can be applied to the ba
 ---
 
 # New-CsNetworkBWPolicy
-[]
+ 
 Creates a bandwidth policy in memory that can be applied to the bandwidth policy profile. In Skype for Business Server 2015, the policy applies to either audio or video bandwidth. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "The Branch Sites node lists the branch sites that are associated w
 ---
 
 # Branch Offices Scope Node
-[]
+ 
 The **Branch Sites** node lists the branch sites that are associated with this central site. You can perform the following action:
   
 - **New Branch Site**. Starts the **Define New Branch Site** wizard, which you use to add a new branch site to the topology, associated with this central site.

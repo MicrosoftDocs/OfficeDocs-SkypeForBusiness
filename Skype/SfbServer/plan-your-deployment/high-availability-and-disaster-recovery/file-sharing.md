@@ -14,7 +14,7 @@ description: "Learn about ensuring high availability of your file shares in Skyp
 ---
 
 # File sharing high availability in Skype for Business Server 2015
-[]
+ 
 Learn about ensuring high availability of your file shares in Skype for Business Server, using DFS.
   
 To ensure high availability for file sharing in your Skype for Business Server deployment, you can use the Distributed File System (DFS). DFS supports failover from one file server to another within the same data center. For a large scale deployment, we recommend that you use dedicated file servers that are paired using DFS. For more information on DFS in Windows Server 2012, see [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384). For information on DFS on Windows Server 2008, see [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385).

@@ -13,7 +13,7 @@ description: "Enables administrators to reset a Windows fabric routing group tha
 ---
 
 # Reset-CsRoutingGroup
-[]
+ 
 Enables administrators to reset a Windows fabric routing group that is not working correctly.
   
 This cmdlet was introduced in Skype for Business Server 2015.

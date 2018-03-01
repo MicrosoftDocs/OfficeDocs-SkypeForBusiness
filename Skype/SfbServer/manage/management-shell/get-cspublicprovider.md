@@ -13,7 +13,7 @@ description: "Returns information about the public providers configured for use 
 ---
 
 # Get-CsPublicProvider
-[]
+ 
 Returns information about the public providers configured for use in your organization. A public provider is an organization that provides instant messaging, presence, and related services to the general public. This cmdlet was introduced in Lync Server 2010.
   
 ```

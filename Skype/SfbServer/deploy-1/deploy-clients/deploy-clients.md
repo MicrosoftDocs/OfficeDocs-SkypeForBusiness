@@ -13,8 +13,8 @@ description: "Summary: Overview of enterprise client installation methods for Sk
 ---
 
 # Deploy clients for Skype for Business Server 2015
-[]
- **Summary:** Overview of enterprise client installation methods for Skype for Business.
+ 
+**Summary:** Overview of enterprise client installation methods for Skype for Business.
   
 How you deploy Skype for Business to your users depends on whether you purchased Skype for Business as part of an Office 365 plan or you purchased a volume licensed version of Skype for Business. 
   

@@ -13,7 +13,7 @@ description: "The MediaList table is a static table that stores the list of vari
 ---
 
 # MediaList table
-[]
+ 
 The MediaList table is a static table that stores the list of various media types.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

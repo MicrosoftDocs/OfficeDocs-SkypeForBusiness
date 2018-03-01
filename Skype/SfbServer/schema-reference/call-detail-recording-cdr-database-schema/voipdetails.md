@@ -13,7 +13,7 @@ description: "The VoIPDetails view stores information about peer-to-peer session
 ---
 
 # VoIPDetails view
-[]
+ 
 The VoIPDetails view stores information about peer-to-peer sessions, where at least one user is a VoIP user. This view was introduced in Microsoft Lync Server 2013.
   
 > [!NOTE]

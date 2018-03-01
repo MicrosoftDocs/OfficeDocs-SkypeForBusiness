@@ -15,7 +15,7 @@ description: "You will see this page if there is no Monitoring Server deployed i
 ---
 
 # SQL Server Reporting Services (Prerequisites Not Satisfied)
-[]
+ 
 You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met. 
   
 To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published. SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server. 

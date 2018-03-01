@@ -14,8 +14,8 @@ description: "Summary: Learn about the Repository API for Call Quality Dashboard
 ---
 
 # Repository API for Call Quality Dashboard (CQD) in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Repository API provides programmatic access for Call Quality Dashboard for Skype for Business Server 2015.
   

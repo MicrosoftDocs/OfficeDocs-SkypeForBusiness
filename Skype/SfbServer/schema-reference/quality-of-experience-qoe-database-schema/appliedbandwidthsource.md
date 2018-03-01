@@ -13,7 +13,7 @@ description: "The AppliedBandwidthSource table is a supporting table. Each recor
 ---
 
 # AppliedBandwidthSource table
-[]
+ 
 The AppliedBandwidthSource table is a supporting table. Each record represents one source.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

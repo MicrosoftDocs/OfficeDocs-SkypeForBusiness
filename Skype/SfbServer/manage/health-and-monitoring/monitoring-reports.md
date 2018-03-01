@@ -13,8 +13,8 @@ description: "Summary: Learn about Monitoring Reports in Skype for Business Serv
 ---
 
 # Using Monitoring Reports in Skype for Business Server 2015
-[]
- **Summary:** Learn about Monitoring Reports in Skype for Business Server 2015.
+ 
+**Summary:** Learn about Monitoring Reports in Skype for Business Server 2015.
   
 Skype for Business Server 2015 includes a set of standard reports that are published by Microsoft SQL Server Reporting Service. These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.
   

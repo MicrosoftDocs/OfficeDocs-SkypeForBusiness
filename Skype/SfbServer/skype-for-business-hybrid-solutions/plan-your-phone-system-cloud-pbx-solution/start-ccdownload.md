@@ -13,7 +13,7 @@ description: "The Start-CcDownload cmdlet downloads the Skype for Business Cloud
 ---
 
 # Start-CcDownload
-[]
+ 
 The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously.
   
 With Cloud Connector version 2.0 and later, you can also specify the DownloadBitsOnly parameter.

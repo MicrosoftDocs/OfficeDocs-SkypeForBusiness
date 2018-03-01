@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Federated Domains
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Configure Access for Federated Partners](http://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)

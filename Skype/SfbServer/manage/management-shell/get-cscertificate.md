@@ -13,11 +13,11 @@ description: "Returns information about certificates on the local computers that
 ---
 
 # Get-CsCertificate
-[]
+ 
 Returns information about certificates on the local computers that have been configured for use with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Get-CsCertificate [-Identity <XdsIdentity>] [-Report <String>] [-Type <CertType[]>]
+Get-CsCertificate [-Identity <XdsIdentity>] [-Report <String>] [-Type <CertType >]
 
 ```
 
@@ -78,7 +78,7 @@ The **Get-CsCertificate** cmdlet provides a way for you to retrieve detailed inf
 |:-----|:-----|:-----|:-----|
 | _Identity_ <br/> |Optional  <br/> |Microsoft.Rtc.Management.Xds.XdsIdentity  <br/> |Enables you to retrieve certificates configured at the global scope (global certificates are copied and distributed to the appropriate computers). Use this syntax to return information about the global certificates:  <br/>  `Get-CsCertificate -Identity "global"` <br/> |
 | _Report_ <br/> |Optional  <br/> |System.String  <br/> |Enables you to record detailed information about the procedures carried out by the **Get-CsCertificate** cmdlet. The parameter value should be the full path to the HTML file that will be generated; for example: `-Report C:\Logs\Certificates.html`. If the specified file already exists, it will automatically be overwritten with the new information.  <br/> |
-| _Type_ <br/> |Optional  <br/> |Microsoft.Rtc.Management.Deployment.CertType[]  <br/> |Type of certificate being requested. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPhoneAPNService  <br/> iPadAPNService  <br/> MPNService  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax returns information about the Default certificate: -Type Default.  <br/> You can specify multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
+| _Type_ <br/> |Optional  <br/> |Microsoft.Rtc.Management.Deployment.CertType   <br/> |Type of certificate being requested. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPhoneAPNService  <br/> iPadAPNService  <br/> MPNService  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax returns information about the Default certificate: -Type Default.  <br/> You can specify multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
    
 ## Input Types
 

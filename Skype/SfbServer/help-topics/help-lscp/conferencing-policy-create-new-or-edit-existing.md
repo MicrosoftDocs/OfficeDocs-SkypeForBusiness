@@ -15,7 +15,7 @@ description: "A Conferencing policy defines the features and capabilities that u
 ---
 
 # Conferencing Policy: Create New or Edit Existing
-[]
+ 
 A Conferencing policy defines the features and capabilities that users have available during a conference (also known as meeting).
   
 ## UI Reference

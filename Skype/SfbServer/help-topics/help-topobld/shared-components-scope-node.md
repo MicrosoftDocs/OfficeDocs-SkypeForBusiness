@@ -15,7 +15,7 @@ description: "You right click on Shared Components in the Topology Builder hiera
 ---
 
 # Shared Components Scope Node
-[]
+ 
 You right click on **Shared Components** in the Topology Builder hierarchy tree to create new shared components or to access Topology level options.
   
 ![Shared Components Scope Node](../../media/Shared_Components_Scope_Node.jpg)

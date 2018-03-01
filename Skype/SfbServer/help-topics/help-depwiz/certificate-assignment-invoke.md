@@ -15,7 +15,7 @@ description: "The Executing Commands page displays the actions taken by the task
 ---
 
 # Certificate Assignment (Invoke)
-[]
+ 
 The **Executing Commands** page displays the actions taken by the tasks to assign the certificate to the server. When the tasks are complete, you can view the log that details the certificate assignment process. To view the log file, click **View Log**.
   
 

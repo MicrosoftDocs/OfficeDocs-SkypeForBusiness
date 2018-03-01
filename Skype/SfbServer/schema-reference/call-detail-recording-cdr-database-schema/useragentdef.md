@@ -13,7 +13,7 @@ description: "The UserAgentDef table maps user agent identifiers to the agent's 
 ---
 
 # UserAgentDef table
-[]
+ 
 The UserAgentDef table maps user agent identifiers to the agent's descriptive names. User agents are software clients used to connect to Skype for Business Server 2015. This table was introduced in Microsoft Lync Server 2013.
   
 |**UAType**|**UAName**|**UACategory**|

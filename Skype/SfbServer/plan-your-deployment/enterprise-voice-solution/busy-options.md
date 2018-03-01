@@ -14,7 +14,7 @@ description: "Read about the Busy Options feature in Skype for Business Server 2
 ---
 
 # Plan for Busy Options for Skype for Business Server
-[]
+ 
 Read about the Busy Options feature in Skype for Business Server 2015.
   
 Busy Options is a new voice policy introduced in the July 2016 Cumulative Update that allows you to configure how incoming calls are handled when a user is already in a call or conference, or has a call placed on hold. New or incoming calls can be rejected with a busy signal or forwarded to voice mail. 

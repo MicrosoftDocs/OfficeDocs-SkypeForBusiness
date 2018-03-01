@@ -13,7 +13,7 @@ description: "Creates a new Persistent Chat chat room. A chat room is a discussi
 ---
 
 # New-CsPersistentChatRoom
-[]
+ 
 Creates a new Persistent Chat chat room. A chat room is a discussion forum that typically revolves around a specific topic. This cmdlet was introduced in Lync Server 2013.
   
 ```

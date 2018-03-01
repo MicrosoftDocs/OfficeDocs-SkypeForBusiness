@@ -13,7 +13,7 @@ description: "Modifies configuration settings for the Response Group application
 ---
 
 # Set-CsRgsConfiguration
-[]
+ 
 Modifies configuration settings for the Response Group application. This cmdlet was introduced in Lync Server 2010.
   
 ```

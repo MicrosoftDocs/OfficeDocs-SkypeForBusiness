@@ -15,7 +15,7 @@ description: "A client version policy is made up of a set of client version rule
 ---
 
 # Client Version Rule
-[]
+ 
 A client version policy is made up of a set of client version rules. These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.
   
 ## Tasks you can perform

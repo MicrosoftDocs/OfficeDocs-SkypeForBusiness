@@ -13,7 +13,7 @@ description: "Read this topic to learn how to monitor your Cloud Connector versi
 ---
 
 # Monitor Cloud Connector using Operations Management Suite (OMS)
-[]
+ 
 Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
   
 You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).

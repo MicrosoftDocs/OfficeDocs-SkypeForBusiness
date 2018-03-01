@@ -13,8 +13,8 @@ description: "Summary: Learn how to use Call Detail Recording (CDR) in Skype for
 ---
 
 # View CDR configuration information in Skype for Business Server 2015
-[]
- **Summary:** Learn how to use Call Detail Recording (CDR) in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to use Call Detail Recording (CDR) in Skype for Business Server 2015.
   
 Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.
   

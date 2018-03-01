@@ -13,7 +13,7 @@ description: "Rejects a device update rule that has been imported to the system.
 ---
 
 # Reset-CsDeviceUpdateRule
-[]
+ 
 Rejects a device update rule that has been imported to the system. This cmdlet was introduced in Lync Server 2010.
   
 ```

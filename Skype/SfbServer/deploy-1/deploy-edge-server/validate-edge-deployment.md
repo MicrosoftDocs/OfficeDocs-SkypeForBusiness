@@ -13,8 +13,8 @@ description: "Summary: Learn how to verify that your deployment of Edge Server o
 ---
 
 # Validate your Edge deployment in Skype for Business Server 2015
-[]
- **Summary:** Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server 2015.
   
 Once you've deployed your Edge Server or Edge Server pool, you need to know if it's working properly. Here are a couple of things that can help with confirming your Edge environment is connected to your internal servers, and also that your external users can connect to your Skype for Business Server 2015 environment through your Edge.
   

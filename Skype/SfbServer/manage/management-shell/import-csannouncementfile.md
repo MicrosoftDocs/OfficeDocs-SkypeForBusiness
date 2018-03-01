@@ -13,11 +13,11 @@ description: "Imports an announcement file to the Announcement service audio lib
 ---
 
 # Import-CsAnnouncementFile
-[]
+ 
 Imports an announcement file to the Announcement service audio library. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Import-CSAnnouncementFile -Content <Byte[]> -FileName <String> -Parent <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
+Import-CSAnnouncementFile -Content <Byte > -FileName <String> -Parent <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
 ```
 
 ## Examples
@@ -61,7 +61,7 @@ Imported files must be WAV or WMA files.
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Content_ <br/> |Required  <br/> |System.Byte[]  <br/> |The contents of the audio file as a byte array.  <br/> |
+| _Content_ <br/> |Required  <br/> |System.Byte   <br/> |The contents of the audio file as a byte array.  <br/> |
 | _FileName_ <br/> |Required  <br/> |System.String  <br/> |The name that you want the file to have in the File Store. You will use this name in the AudioFilePrompt parameter in the call to the **New-CsAnnouncement** or **Set-CsAnnouncement** cmdlet to assign the file to an announcement. <br/> |
 | _Parent_ <br/> |Required  <br/> |System.String  <br/> |The service ID of the Application Server on which the associated Announcement service is running.  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
@@ -70,7 +70,7 @@ Imported files must be WAV or WMA files.
    
 ## Input Types
 
-Byte[]. Accepts a byte array from an audio file. Byte array must be piped as a single record. See Example 3.
+Byte . Accepts a byte array from an audio file. Byte array must be piped as a single record. See Example 3.
   
 ## Return Types
 

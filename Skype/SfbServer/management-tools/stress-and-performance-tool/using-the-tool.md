@@ -13,7 +13,7 @@ description: "To run the Skype for Business Server 2015 Stress and Performance T
 ---
 
 # Using the Skype for Business Server 2015 Stress and Performance Tool
-[]
+ 
 To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
   
 There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):

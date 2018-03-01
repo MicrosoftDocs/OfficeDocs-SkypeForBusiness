@@ -13,7 +13,7 @@ description: "Returns the state of one or more Persistent Chat service pools. Pe
 ---
 
 # Get-CsPersistentChatState
-[]
+ 
 Returns the state of one or more Persistent Chat service pools. Persistent Chat pools can be in one of two states: Normal, in which the pool uses its primary databases; or FailedOver, in which the pool uses the backup databases defined in the topology. This cmdlet was introduced in Lync Server 2013.
   
 ```

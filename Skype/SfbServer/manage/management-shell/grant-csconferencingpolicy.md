@@ -13,7 +13,7 @@ description: "Assigns a conferencing policy at the per-user scope. Conferencing 
 ---
 
 # Grant-CsConferencingPolicy
-[]
+ 
 Assigns a conferencing policy at the per-user scope. Conferencing policies determine the features and capabilities that can be used in a conference. This includes everything from whether or not the meeting can include IP audio and video to the maximum number of people who can attend a meeting. This cmdlet was introduced in Lync Server 2010.
   
 ```

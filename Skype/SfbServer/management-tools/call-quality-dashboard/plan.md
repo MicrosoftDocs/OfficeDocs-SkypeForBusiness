@@ -14,8 +14,8 @@ description: "Summary: Learn about what to consider when you plan for the Call Q
 ---
 
 # Plan for Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
+ 
+**Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
 ## Overview of the Skype for Business Server 2015 Call Quality Dashboard
 

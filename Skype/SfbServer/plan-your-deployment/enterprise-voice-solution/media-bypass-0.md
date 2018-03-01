@@ -15,7 +15,7 @@ description: "Decisions necessary for planning for media bypass in Skype for Bus
 ---
 
 # Plan for media bypass in Skype for Business 2015
-[]
+ 
 Decisions necessary for planning for media bypass in Skype for Business Server Enterprise Voice. Includes interoperation with call admission control (CAC).
   
 Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.

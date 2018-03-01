@@ -15,7 +15,7 @@ description: "To edit the settings for an existing Director, you are presented w
 ---
 
 # Director General Settings Expander
-[]
+ 
 To edit the settings for an existing Director, you are presented with the following sections:
   
 - General settings

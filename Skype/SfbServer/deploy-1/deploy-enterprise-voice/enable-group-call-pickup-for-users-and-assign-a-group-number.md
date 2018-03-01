@@ -15,7 +15,7 @@ description: "Enable users for Group Call Pickup in Skype for Business Server En
 ---
 
 # Enable Group Call Pickup for users and assign a group number in Skype for Business 2015
-[]
+ 
 Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.
   
 After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.

@@ -13,7 +13,7 @@ description: "Removes the specified collection of conference configuration setti
 ---
 
 # Remove-CsConferencingConfiguration
-[]
+ 
 Removes the specified collection of conference configuration settings. Conference settings determine such things as the maximum-allowed size for conference content and handouts; the content grace period; and the URLs for the internal and external downloads of the supported client. This cmdlet was introduced in Lync Server 2010.
   
 ```

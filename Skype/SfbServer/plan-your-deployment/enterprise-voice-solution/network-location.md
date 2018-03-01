@@ -15,7 +15,7 @@ description: "Decisions necessary for planning which network components you will
 ---
 
 # Define the network elements used to determine location in Skype for Business Server 2015
-[]
+ 
 Decisions necessary for planning which network components you will use to map callers to locations for E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   
 If you are setting up your Skype for Business Server infrastructure to support automatic client location detection, you first need to decide which network elements you are going to use to map callers to locations. In Skype for Business Server, you can associate the following Layer 2 and Layer 3 network elements with locations:

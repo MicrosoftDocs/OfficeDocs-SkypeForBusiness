@@ -15,7 +15,7 @@ description: "To start the services on the deployed server role, click Run in St
 ---
 
 # Start Services
-[]
+ 
 To start the services on the deployed server role, click **Run** in **Step 4: Start Services**. You must be logged on as a member of the local Administrators group or an equivalent. 
   
 > [!NOTE]

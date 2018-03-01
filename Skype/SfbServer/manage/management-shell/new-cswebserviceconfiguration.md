@@ -13,7 +13,7 @@ description: "Creates a new collection of Web Services configuration settings. T
 ---
 
 # New-CsWebServiceConfiguration
-[]
+ 
 Creates a new collection of Web Services configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Use the Add-CsSlaDelegates cmdlet to add a delegate to a shared nu
 ---
 
 # Add-CsSlaDelegates
-[]
+ 
 Use the **Add-CsSlaDelegates** cmdlet to add a delegate to a shared number in Shared Line Appearance (SLA). A shared number in SLA is an Enterprise Voice user that is capable of receiving multiple calls at a time and forwarding them to its delegates, who answer the call.
   
 ```

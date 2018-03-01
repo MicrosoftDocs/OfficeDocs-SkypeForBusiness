@@ -13,7 +13,7 @@ description: "Returns information about the centralized logging configuration se
 ---
 
 # Get-CsClsSecurityGroup
-[]
+ 
 Returns information about the centralized logging configuration security groups in use in the organization. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. Security groups are intended for use with Skype for Business Online.
   
 This cmdlet was introduced in Lync Server 2013. 

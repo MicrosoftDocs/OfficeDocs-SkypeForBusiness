@@ -13,7 +13,7 @@ description: "The Persistent Chat compliance database schema consists of the fol
 ---
 
 # List of Persistent Chat Server compliance tables in Skype for Business Server
-[]
+ 
 The Persistent Chat compliance database schema consists of the following tables.
   
 ## List of Persistent Chat Server Compliance Tables

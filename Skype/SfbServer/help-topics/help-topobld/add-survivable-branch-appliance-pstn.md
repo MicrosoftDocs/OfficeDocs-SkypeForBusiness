@@ -15,7 +15,7 @@ description: "To define the public switched telephone network (PSTN) gateway for
 ---
 
 # Add Survivable Branch Appliance PSTN
-[]
+ 
 To define the public switched telephone network (PSTN) gateway for a Survivable Branch Appliance at a branch site, specify the following: 
   
 - A fully qualified domain name (FQDN) or IP address for the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound and outbound PSTN calls.

@@ -13,8 +13,8 @@ description: "Summary: Learn about the Peer-to-Peer Activity Diagnostic Report i
 ---
 
 # Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015.
   
 The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions. Note that Skype for Business Server 2015 distinguishes between different kinds of failure:
   

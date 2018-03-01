@@ -14,7 +14,7 @@ description: "Read this topic to learn about Skype Room Systems v2 and how it in
 ---
 
 # Deploy Skype Room Systems v2
-[]
+ 
 Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015.
   
 This topic introduces how to create accounts used by Skype Room Systems v2 in Microsoft Exchange and Skype for Business Server 2015. Deployment instructions for Skype Room Systems v2 devices is covered in [Configure a Skype Room Systems v2 console](console.md). Your infrastructure will likely fall into one of the following configurations:

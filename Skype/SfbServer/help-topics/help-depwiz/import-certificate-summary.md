@@ -15,7 +15,7 @@ description: "On the Import Certificate Summary page, you are presented with a s
 ---
 
 # Import Certificate (Summary)
-[]
+ 
 On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.
   
 

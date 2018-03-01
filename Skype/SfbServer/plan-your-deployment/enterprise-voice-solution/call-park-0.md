@@ -15,7 +15,7 @@ description: "Planning for call park in Skype for Business Server Enterprise Voi
 ---
 
 # Plan for Call Park in Skype for Business 2015
-[]
+ 
 Planning for call park in Skype for Business Server Enterprise Voice, which enables putting calls on hold and transferring calls to departments. Includes capacity planning, supported calls, and supported clients.
   
 The Call Park application enables Enterprise Voice users to do the following:

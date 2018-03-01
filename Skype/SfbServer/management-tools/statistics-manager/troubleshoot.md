@@ -14,8 +14,8 @@ description: "Summary: Read this topic to troubleshoot your deployment of Statis
 ---
 
 # Troubleshoot Statistics Manager for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server 2015.
   
 This topic describes how to troubleshoot your Statistics Manager deployment by describing events you might see in the application event log, and appropriate actions you might take to rectify the event. This topic contains the following sections:
   

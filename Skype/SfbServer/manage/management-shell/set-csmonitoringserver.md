@@ -13,7 +13,7 @@ description: "Enables you to configure new locations for the Monitoring Server d
 ---
 
 # Set-CsMonitoringServer
-[]
+ 
 Enables you to configure new locations for the Monitoring Server database and reporting pack. This cmdlet was introduced in Lync Server 2010.
   
 ```

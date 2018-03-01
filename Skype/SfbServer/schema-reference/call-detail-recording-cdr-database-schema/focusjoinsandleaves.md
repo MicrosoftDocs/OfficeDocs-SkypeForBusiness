@@ -13,7 +13,7 @@ description: "Each record in this table contains the CDR information about one u
 ---
 
 # FocusJoinsAndLeaves table in Skype for Business Server 2015
-[]
+ 
 Each record in this table contains the CDR information about one user's join and leave information for one conference. Each conference is represented in this table by one record for each time a user joins and leaves the conference.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

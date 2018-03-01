@@ -14,7 +14,7 @@ description: "This section describes all the schema attributes used by Skype for
 ---
 
 # Schema attributes and descriptions in Skype for Business Server
-[]
+ 
 This section describes all the schema attributes used by Skype for Business Server. For the classes associated with attributes, see [Schema attributes by class in Skype for Business Server](schema-attributes-by-class.md).
   
 Attributes that are linked pairs are specified as forward links or back links. An attribute that refers to another object is a forward link; the attribute of the other object that refers back to the first object is a back link. Forward links are updatable, while back links are read-only.

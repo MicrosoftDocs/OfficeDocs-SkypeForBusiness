@@ -13,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a hybr
 ---
 
 # Skype Room System hybrid deployments
-[]
+ 
 Read this topic to learn how to deploy Skype Room System in a hybrid environment.
   
 ## Hybrid deployments

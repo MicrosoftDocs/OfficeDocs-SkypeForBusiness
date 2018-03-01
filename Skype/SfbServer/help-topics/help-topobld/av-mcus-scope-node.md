@@ -15,7 +15,7 @@ description: "The A/V Conferencing pools node lists the A/V Conferencing pools i
 ---
 
 # AV MCUs Scope Node
-[]
+ 
 The **A/V Conferencing pools** node lists the A/V Conferencing pools in your topology. You can perform the following action:
   
 - **New A/V Conferencing Pool**. Starts the **Define New A/V Conferencing Pool** wizard, which you use to add a new A/V Conferencing pool to the topology.

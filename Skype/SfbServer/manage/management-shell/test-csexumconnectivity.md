@@ -13,7 +13,7 @@ description: "Verifies that a test user can connect to Exchange Unified Messagin
 ---
 
 # Test-CsExUMConnectivity
-[]
+ 
 Verifies that a test user can connect to Exchange Unified Messaging. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "This section lists the schema attributes that can be contained in 
 ---
 
 # Schema attributes by class in Skype for Business Server
-[]
+ 
 This section lists the schema attributes that can be contained in each Skype for Business Server class and the classes that can be contained in other classes. For a list of all the classes and their descriptions, see [Schema classes and descriptions in Skype for Business Server](schema-classes-and-descriptions.md). For a list of all the attributes and their descriptions, see [Schema attributes and descriptions in Skype for Business Server](schema-attributes-and-descriptions.md).
   
 ## Attributes by Class

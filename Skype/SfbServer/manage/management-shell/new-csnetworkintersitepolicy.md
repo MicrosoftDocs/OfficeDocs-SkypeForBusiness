@@ -13,7 +13,7 @@ description: "Creates a new network inter-site policy that defines bandwidth lim
 ---
 
 # New-CsNetworkInterSitePolicy
-[]
+ 
 Creates a new network inter-site policy that defines bandwidth limitations between sites that are directly linked within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Creates a new collection of QoE (Quality of Experience) settings. 
 ---
 
 # New-CsQoEConfiguration
-[]
+ 
 Creates a new collection of QoE (Quality of Experience) settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

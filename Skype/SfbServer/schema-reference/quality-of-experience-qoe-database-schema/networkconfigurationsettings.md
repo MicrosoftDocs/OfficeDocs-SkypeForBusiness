@@ -13,7 +13,7 @@ description: "The NetworkConfigurationSettings View stores information about the
 ---
 
 # NetworkConfigurationSettings view
-[]
+ 
 The NetworkConfigurationSettings View stores information about the network configuration. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Users: New Lync Server User
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Add a New User to Lync Server 2010](http://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)

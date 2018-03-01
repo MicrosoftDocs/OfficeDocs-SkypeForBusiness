@@ -13,7 +13,7 @@ description: "Skype for Business Server 2015 ships with more than 700 cmdlets th
 ---
 
 # Skype for Business Server cmdlets index
-[]
+ 
 Skype for Business Server 2015 ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
   
 ```

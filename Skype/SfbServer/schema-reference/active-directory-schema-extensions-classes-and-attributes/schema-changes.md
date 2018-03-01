@@ -13,7 +13,7 @@ description: "Before you deploy and operate Skype for Business Server, you must 
 ---
 
 # Schema changes in Skype for Business Server
-[]
+ 
 Before you deploy and operate Skype for Business Server, you must prepare Active Directory Domain Services by extending the schema. The schema extensions add the classes and attributes that are required by Skype for Business Server. 
   
 Skype for Business Server requires several new classes and attributes and modifies some existing classes and attributes. In addition, much configuration information for Skype for Business Server is stored in the Central Management store instead of in AD DS as in previous versions. The following information is still stored in AD DS in Skype for Business Server:

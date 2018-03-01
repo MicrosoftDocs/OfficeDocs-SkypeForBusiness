@@ -13,7 +13,7 @@ description: "Modifies the settings for a network configuration. This cmdlet wil
 ---
 
 # Set-CsNetworkConfiguration
-[]
+ 
 Modifies the settings for a network configuration. This cmdlet will most often be used to enable or disable call admission control (CAC). This cmdlet was introduced in Lync Server 2010.
   
 ```

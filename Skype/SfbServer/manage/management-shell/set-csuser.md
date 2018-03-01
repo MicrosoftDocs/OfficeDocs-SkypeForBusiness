@@ -13,7 +13,7 @@ description: "Modifies Skype for Business Server 2015 properties for an existing
 ---
 
 # Set-CsUser
-[]
+ 
 Modifies Skype for Business Server 2015 properties for an existing user account. Properties can be modified only for accounts that have been enabled for use with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Use the Get-CsPresenceManagementState to return the notification s
 ---
 
 # Get-CsPresenceManagementState
-[]
+ 
 Use the **Get-CsPresenceManagementState** to return the notification settings of a computer or pool. The management state settings determine the batching and timing of Skype for Business Server 2015 notifications.
   
 ```

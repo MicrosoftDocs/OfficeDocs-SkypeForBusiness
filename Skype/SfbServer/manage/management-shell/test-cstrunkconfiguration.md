@@ -13,7 +13,7 @@ description: "Validates a trunk configuration against a phone number. This cmdle
 ---
 
 # Test-CsTrunkConfiguration
-[]
+ 
 Validates a trunk configuration against a phone number. This cmdlet was introduced in Lync Server 2010.
   
 ```

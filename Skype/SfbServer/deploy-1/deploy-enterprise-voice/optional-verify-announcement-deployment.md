@@ -14,7 +14,7 @@ description: "Verifying your deployment of Announcement application in Skype for
 ---
 
 # (Optional) Verify Announcement deployment in Skype for Business 2015
-[]
+ 
 Verifying your deployment of Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled.
   
 After you install and configure Announcement, you need to verify the configuration to make sure that calls to unassigned numbers work as expected. At minimum, verify the following:

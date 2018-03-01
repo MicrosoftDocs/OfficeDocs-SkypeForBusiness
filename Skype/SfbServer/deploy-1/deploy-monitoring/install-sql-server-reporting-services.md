@@ -13,8 +13,8 @@ description: "Summary: Learn where to go to find information about SQL Server Re
 ---
 
 # Install SQL Server Reporting Services in Skype for Business Server 2015
-[]
- **Summary:** Learn where to go to find information about SQL Server Reporting Services used by Skype for Business Server 2015.
+ 
+**Summary:** Learn where to go to find information about SQL Server Reporting Services used by Skype for Business Server 2015.
   
 Skype for Business Server 2015 can use SQL Server Reporting Services (SSRS) for viewing and monitoring reports. In order to use this functionality you will need to have Reporting Services installed and configured.
   

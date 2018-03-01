@@ -14,8 +14,8 @@ description: "Summary: Review this topic while planning to integrate Skype for B
 ---
 
 # Deployment process overview for integrating on-premises Unified Messaging and Skype for Business
-[]
- **Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with Exchange 2013.
+ 
+**Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with Exchange 2013.
   
  If you want to integrate Exchange Unified Messaging (UM) with Skype for Business Server 2015, you must perform the tasks outlined in this topic. Also be sure that you review the planning and deployment best practices described in[Plan for Exchange Unified Messaging integration in Skype for Business](unified-messaging.md). This topic assumes that you have deployed Skype for Business Server 2015 with a collocated Mediation Server and that you have enabled users for Skype for Business Server 2015, but you may not have performed all deployment and configuration steps to enable Enterprise Voice, as described in [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-enterprise-voice.md) in the Deployment documentation.
   

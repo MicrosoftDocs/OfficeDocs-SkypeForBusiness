@@ -15,7 +15,7 @@ description: "The Director pools node lists the Director pools in your topology.
 ---
 
 # Directors Scope Node
-[]
+ 
 The **Director pools** node lists the Director pools in your topology. You can perform the following action:
   
 - **New Director Pool**. Starts the **Define New Director Pool** wizard, which you use to add a new Director pool to the topology.

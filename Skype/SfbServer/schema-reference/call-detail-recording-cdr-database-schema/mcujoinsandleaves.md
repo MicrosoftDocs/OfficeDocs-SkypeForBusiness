@@ -13,7 +13,7 @@ description: "Each record in this table contains call details about one combinat
 ---
 
 # McuJoinsAndLeaves table in Skype for Business Server 2015
-[]
+ 
 Each record in this table contains call details about one combination of a user join or leave and conferencing server. For example, if a user joins a conference that includes web conferencing and audio/video elements, one record would be created for that user's web conferencing join, and another record would be created for the user's audio/video conferencing join.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

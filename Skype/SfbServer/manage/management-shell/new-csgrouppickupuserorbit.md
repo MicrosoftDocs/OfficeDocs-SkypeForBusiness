@@ -13,7 +13,7 @@ description: "Use the New-CsGroupPickupUserOrbit cmdlet to assign and enable a g
 ---
 
 # New-CsGroupPickupUserOrbit
-[]
+ 
 Use the **New-CsGroupPickupUserOrbit** cmdlet to assign and enable a group pickup orbit number for an Enterprise Voice user.
   
 ```

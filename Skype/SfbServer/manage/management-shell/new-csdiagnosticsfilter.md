@@ -13,7 +13,7 @@ description: "Creates a new diagnostic filter to be used with diagnostic configu
 ---
 
 # New-CsDiagnosticsFilter
-[]
+ 
 Creates a new diagnostic filter to be used with diagnostic configuration settings. Diagnostic configuration settings are used to determine whether traffic to or from a given domain or Uniform Resource Identifier (URI) is recorded in your Skype for Business Server 2015 log files. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -16,7 +16,7 @@ description: "Troubleshoot your Cloud Connector Edition deployment."
 ---
 
 # Troubleshoot your Cloud Connector deployment
-[]
+ 
 Troubleshoot your Cloud Connector Edition deployment.
   
 This topic describes solutions to common issues with Cloud Connector Edition deployments. If you are experiencing issues with calls to and from the Public Switched Telephone Network (PSTN), you can investigate by following the solutions described in this topic.

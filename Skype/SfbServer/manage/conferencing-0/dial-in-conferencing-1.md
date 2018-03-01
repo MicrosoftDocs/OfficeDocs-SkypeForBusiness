@@ -13,10 +13,10 @@ description: "Summary: Learn how to manage dial-in conferencing in Skype for Bus
 ---
 
 # Manage dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage dial-in conferencing in Skype for Business Server 2015.
   
-This topic describes how to manage dial-in conferencing. For more information about how to plan and configure dial-in conferencing at deployment, see [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md) and[Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
+This topic describes how to manage dial-in conferencing. For more information about how to plan and configure dial-in conferencing at deployment, see [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
   
 You can perform the following tasks to manage dial-in conferencing: enable or disable dial-in conferencing, manage access numbers, manage PIN policies for dial in conferencing, manage conference join and leave announcements, modify key mappings for DTMF commands, and welcome users to dial-in conferencing. 
   
@@ -62,7 +62,7 @@ To manage dial-in conferencing by using Skype for Business Server Management She
 |[New-CsConferenceDirectory](../../manage/management-shell/new-csconferencedirectory.md) <br/> |Creates a new conference directory for use in your organization.  <br/> |
 |[New-CsDialInConferencingAccessNumber](../../manage/management-shell/new-csdialinconferencingaccessnumber.md) <br/> |Creates a new dial-in conferencing access number.  <br/> |
 |[New-CsDialInConferencingConfiguration](../../manage/management-shell/new-csdialinconferencingconfiguration.md) <br/> |Creates a new collection of dial-in conferencing configuration settings. These settings determine how Skype for Business Server responds when users join or leave a dial-in conference. In particular, information is returned regarding whether or not participants are required to record their name when joining a conference, and how (or if) the system announces that someone has joined or left the call.  <br/> |
-|[New-CsDialInConferencingDtmfConfiguration](../../manage/management-shell/new-csdialinconferencingdtmfconfiguration.md) n <br/> |Creates a new collection of dual-tone multi-frequency (DTMF) signaling settings used for dial-in conferencing.  <br/> |
+|[New-CsDialInConferencingDtmfConfiguration](../../manage/management-shell/new-csdialinconferencingdtmfconfiguration.md)  <br/> |Creates a new collection of dual-tone multi-frequency (DTMF) signaling settings used for dial-in conferencing.  <br/> |
 |[New-CsDialPlan](../../manage/management-shell/new-csdialplan.md) <br/> |Creates a new dial plan.  <br/> |
 |[Remove-CsConferenceDirectory](../../manage/management-shell/remove-csconferencedirectory.md) <br/> |Removes an existing conference directory.  <br/> |
 |[Remove-CsDialInConferencingAccessNumber](../../manage/management-shell/remove-csdialinconferencingaccessnumber.md) <br/> |Removes an existing dial-in conferencing access number.  <br/> |

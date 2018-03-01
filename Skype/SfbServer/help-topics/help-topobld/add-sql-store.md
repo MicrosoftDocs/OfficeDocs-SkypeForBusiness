@@ -15,7 +15,7 @@ description: "To define a new SQL Store, which means that you are specifying a S
 ---
 
 # Add SQL Store
-[]
+ 
 To define a new SQL Store, which means that you are specifying a SQL Server-based database and an instance of SQL Server—either a default instance or a named instance—you specify the following.
   
 Specify the fully qualified domain name (FQDN) of the SQL Server that will host the database instance that you are defining.

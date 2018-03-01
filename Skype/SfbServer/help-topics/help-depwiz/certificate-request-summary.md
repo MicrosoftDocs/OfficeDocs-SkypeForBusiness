@@ -15,7 +15,7 @@ description: "The Certificate Request Summary page displays a detailed summary o
 ---
 
 # Certificate Request (Summary)
-[]
+ 
 The **Certificate Request Summary** page displays a detailed summary of all options and configurations for the certificate. The summary represents what the certificate request will contain, and subsequently, how the certificate will be issued. You should carefully review the summary to make sure that all of the entries and options that you selected are correct. If your selections are correct, click **Next** to continue with the generation of the request and prepare it for sending to the Certification Authority (CA).
   
 

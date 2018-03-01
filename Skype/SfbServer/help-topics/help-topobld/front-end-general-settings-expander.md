@@ -15,7 +15,7 @@ description: "To edit the settings for an existing Front End pool or Standard Ed
 ---
 
 # Front End General Settings Expander
-[]
+ 
 To edit the settings for an existing Front End pool or Standard Edition server, you are presented with the following sections:
   
 - General settings

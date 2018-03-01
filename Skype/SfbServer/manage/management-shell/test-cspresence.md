@@ -13,7 +13,7 @@ description: "Tests the ability of a user to log on to Skype for Business Server
 ---
 
 # Test-CsPresence
-[]
+ 
 Tests the ability of a user to log on to Skype for Business Server 2015, publish his or her presence information, and then subscribe to the presence information published by a second user. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Assigns an Enhanced 9-1-1 (E9-1-1) location policy to individual u
 ---
 
 # Grant-CsLocationPolicy
-[]
+ 
 Assigns an Enhanced 9-1-1 (E9-1-1) location policy to individual users or groups. The E9-1-1 service enables those who answer 911 calls to determine the caller's geographic location. This cmdlet was introduced in Lync Server 2010.
   
 ```

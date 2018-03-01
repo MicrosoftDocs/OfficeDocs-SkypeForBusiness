@@ -15,7 +15,7 @@ description: "Create network inter-site policies, which are used by Enterprise V
 ---
 
 # Create network intersite policies in Skype for Business Server 2015
-[]
+ 
 Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 A network inter-site policy defines bandwidth limitations between sites that have direct WAN links between them.

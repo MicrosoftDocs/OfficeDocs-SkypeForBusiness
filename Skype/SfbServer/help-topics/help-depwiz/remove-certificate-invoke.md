@@ -15,7 +15,7 @@ description: "The Executing Commands page provides details for removing the cert
 ---
 
 # Remove Certificate (Invoke)
-[]
+ 
 The **Executing Commands** page provides details for removing the certificate. Review the summary information from the certificate removal. Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal. When you have finished reviewing the summary and the log file, click **Finish**.
   
 

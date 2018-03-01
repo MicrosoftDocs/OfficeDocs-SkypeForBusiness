@@ -13,7 +13,7 @@ description: "Removes an existing network subnet. This cmdlet was introduced in 
 ---
 
 # Remove-CsNetworkSubnet
-[]
+ 
 Removes an existing network subnet. This cmdlet was introduced in Lync Server 2010.
   
 ```

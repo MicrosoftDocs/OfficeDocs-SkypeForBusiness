@@ -13,7 +13,7 @@ description: "The FocusJoinsAndLeaves view stores information about join and lea
 ---
 
 # FocusJoinsAndLeaves view
-[]
+ 
 The FocusJoinsAndLeaves view stores information about join and leave information for one conference. Each conference is represented in this view by a record written each time a user joins and leaves the conference. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

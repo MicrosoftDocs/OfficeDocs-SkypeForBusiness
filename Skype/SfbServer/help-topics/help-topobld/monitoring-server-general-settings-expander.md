@@ -15,7 +15,7 @@ description: "In Topology Builder, you can edit the properties for an individual
 ---
 
 # Monitoring Server General Settings Expander
-[]
+ 
 In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:
   
 - **FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.

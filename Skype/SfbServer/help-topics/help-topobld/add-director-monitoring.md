@@ -15,7 +15,7 @@ description: "You can Define the Monitoring SQL Server store by configuring the 
 ---
 
 # Add Director Monitoring
-[]
+ 
 You can **Define the Monitoring SQL Server store** by configuring the following properties:
   
 - **Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (FQDN) (and, optionally, a named SQL Server instance) from the list.

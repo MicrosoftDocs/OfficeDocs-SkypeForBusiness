@@ -15,7 +15,7 @@ description: "You can configure the properties on this page to point the Edge Se
 ---
 
 # Add Edge Server External IP 2010
-[]
+ 
 You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service.
   
 - Under **External IPv4 addresses**, type the external IPv4 addresses of the Edge Server in **Access Edge service**, **Web Conferencing Edge service**, and **A/V Edge service**.

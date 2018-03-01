@@ -13,7 +13,7 @@ description: "Returns information about the client certificates that have been i
 ---
 
 # Get-CsClientCertificate
-[]
+ 
 Returns information about the client certificates that have been issued to a user. This cmdlet was introduced in Lync Server 2010.
   
 ```

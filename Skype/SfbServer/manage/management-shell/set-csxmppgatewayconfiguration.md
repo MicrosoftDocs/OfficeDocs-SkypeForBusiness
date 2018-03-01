@@ -13,7 +13,7 @@ description: "Modifies the XMPP gateway configuration settings in use in the org
 ---
 
 # Set-CsXmppGatewayConfiguration
-[]
+ 
 Modifies the XMPP gateway configuration settings in use in the organization. The extensible Messaging and Presence Protocol (XMPP) is an open-standard communications protocol for exchanging messages using XML. XMPP gateways enable Skype for Business Server 2015 users to exchange instant message and presence information with users from IM and presence providers that employ XMPP. This cmdlet was introduced in Lync Server 2013.
   
 ```

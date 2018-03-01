@@ -13,7 +13,7 @@ description: "tblConfig contains some Persistent Chat Server unsupported configu
 ---
 
 # tblConfig
-[]
+ 
 tblConfig contains some Persistent Chat Server unsupported configuration, in one row.
   
 **Columns**

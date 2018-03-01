@@ -13,7 +13,7 @@ description: "tblSiopWhiteList is the list of registered add-ins that can be ass
 ---
 
 # tblSiopWhiteList
-[]
+ 
 tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.
   
 **Columns**

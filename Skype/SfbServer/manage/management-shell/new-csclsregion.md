@@ -13,7 +13,7 @@ description: "Creates a new centralized logging configuration region. Centralize
 ---
 
 # New-CsClsRegion
-[]
+ 
 Creates a new centralized logging configuration region. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. Centralized logging regions are intended for use with Skype for Business Online. 
   
 This cmdlet was introduced in Lync Server 2013. 

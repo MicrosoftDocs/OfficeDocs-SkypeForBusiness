@@ -13,7 +13,7 @@ description: "Retrieves information about the Response Group queues in use in yo
 ---
 
 # Get-CsRgsQueue
-[]
+ 
 Retrieves information about the Response Group queues in use in your organization. With the Response Group application, phone calls are put in a queue and calls are placed on hold until a Response Group agent is available to answer that call. This cmdlet was introduced in Lync Server 2010.
   
 ```

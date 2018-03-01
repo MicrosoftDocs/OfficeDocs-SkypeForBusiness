@@ -15,7 +15,7 @@ description: "You activate or deactivate a deployed Persistent Chat Server or Pe
 ---
 
 # Persistent Chat Machines Expander
-[]
+ 
 You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in **Machine state settings**. You select a server or pool in the list and click the **Make active** button to set a server or pool as active.
   
 You set a deployed Persistent Chat Server or Persistent Chat Server pool to inactive by selecting the server or pool in the list and click **Make inactive**. At least one server must be set to active.

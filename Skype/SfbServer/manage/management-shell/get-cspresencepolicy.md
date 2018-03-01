@@ -13,7 +13,7 @@ description: "Returns information about the presence policies configured for use
 ---
 
 # Get-CsPresencePolicy
-[]
+ 
 Returns information about the presence policies configured for use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

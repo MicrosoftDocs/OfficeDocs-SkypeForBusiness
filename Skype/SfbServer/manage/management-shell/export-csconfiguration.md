@@ -13,7 +13,7 @@ description: "Exports your Skype for Business Server 2015 topology, policies, an
 ---
 
 # Export-CsConfiguration
-[]
+ 
 Exports your Skype for Business Server 2015 topology, policies, and configuration settings to a file. Among other things, this file can then be used to restore this information to the Central Management store after an upgrade, a hardware failure, or some other issue has resulted in data loss. This cmdlet was introduced in Lync Server 2010.
   
 ```

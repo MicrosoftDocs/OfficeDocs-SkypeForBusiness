@@ -15,7 +15,7 @@ description: "Creating and managing Persistent Chat rooms is much easier with th
 ---
 
 # Select Creators
-[]
+ 
 Creating and managing Persistent Chat rooms is much easier with the correct use of categories. A Persistent Chat administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category. Persistent Chat administrators create and manage categories by using Skype for Business Server Control Panel or Windows PowerShell cmdlets.
   
 ## Tasks that you can perform

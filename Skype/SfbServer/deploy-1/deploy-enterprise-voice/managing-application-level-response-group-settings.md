@@ -15,7 +15,7 @@ description: "Managing application-level Response Group settings, such as music-
 ---
 
 # Managing application-level Response Group settings in Skype for Business 2015
-[]
+ 
 Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice.
   
 Application-level settings for Response Group application include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration. You can define only one set of application-level settings per pool. To view application-level settings, use the **Get-CsRgsConfiguration** cmdlet. To modify the application-level settings, use the **Set-CsRgsConfiguration** cmdlet.

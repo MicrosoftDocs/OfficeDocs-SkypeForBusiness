@@ -14,7 +14,7 @@ description: "Read this topic for information on how to deploy Skype Room System
 ---
 
 # Deploy Skype Room Systems v2 with Skype for Business Server 2015
-[]
+ 
 Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015.
   
 This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.

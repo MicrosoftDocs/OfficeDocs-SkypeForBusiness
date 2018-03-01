@@ -13,7 +13,7 @@ description: "Creates a PSTN or an Audio Conferencing Provider test that can the
 ---
 
 # New-CsExtendedTest
-[]
+ 
 Creates a PSTN or an Audio Conferencing Provider test that can then be assigned to a watcher node configuration. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. This cmdlet was introduced in Lync Server 2013.
   
 ```

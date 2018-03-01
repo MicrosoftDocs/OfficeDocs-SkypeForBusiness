@@ -15,7 +15,7 @@ description: "Create or modify a Response Group queue, in Skype for Business Ser
 ---
 
 # Create or modify a queue in Skype for Business 2015
-[]
+ 
 Create or modify a Response Group queue, in Skype for Business Server Enterprise Voice.
   
 Queues hold callers until an agent answers the call. When the Response Group application searches for an available agent, it searches agent groups in the order that you list them. You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.

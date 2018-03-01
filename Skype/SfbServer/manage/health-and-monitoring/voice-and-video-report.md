@@ -13,8 +13,8 @@ description: "Summary: Learn about the Peer-to-Peer Voice and Video Report in Sk
 ---
 
 # Peer-to-Peer Voice and Video Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Peer-to-Peer Voice and Video Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Peer-to-Peer Voice and Video Report in Skype for Business Server 2015.
   
 The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day). The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls. The reports shows call information broken down into the following groupings:
   

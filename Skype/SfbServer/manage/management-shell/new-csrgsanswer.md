@@ -13,7 +13,7 @@ description: "Creates a new Response Group answer. Response Group answers are us
 ---
 
 # New-CsRgsAnswer
-[]
+ 
 Creates a new Response Group answer. Response Group answers are used to associate a caller response with the appropriate action. This cmdlet was introduced in Lync Server 2010.
   
 ```

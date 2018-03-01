@@ -15,8 +15,8 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 ---
 
 # Create or modify a voice route in Skype for Business 2015
-[]
- **Summary:** Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
   
 ### To create a voice route by using the Skype for Business Server Control Panel
 

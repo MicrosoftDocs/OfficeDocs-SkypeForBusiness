@@ -16,7 +16,7 @@ description: "Skype for Business Server 2015 includes disaster recovery measures
 ---
 
 # Disaster Recovery (Planning Tool)
-[]
+ 
 Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.
   
 For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).

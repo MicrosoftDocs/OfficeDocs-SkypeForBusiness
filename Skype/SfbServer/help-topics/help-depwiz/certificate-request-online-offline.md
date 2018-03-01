@@ -15,7 +15,7 @@ description: "To create a delayed request or an offline request, select Prepare 
 ---
 
 # Certificate Request (Online Offline)
-[]
+ 
 To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**. To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.
   
 After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.

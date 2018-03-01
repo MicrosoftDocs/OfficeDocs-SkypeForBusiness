@@ -13,7 +13,7 @@ description: "The Users table is a supporting table. Each record in the table st
 ---
 
 # Users table
-[]
+ 
 The Users table is a supporting table. Each record in the table stores information about one user involved in calls or sessions that have records in the database.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

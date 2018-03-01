@@ -13,7 +13,7 @@ description: "The EdgeServers table is a supporting table. Each record stores in
 ---
 
 # EdgeServers table in Skype for Business Server 2015
-[]
+ 
 The EdgeServers table is a supporting table. Each record stores information about one Edge Server that is involved in calls that have records in the database.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

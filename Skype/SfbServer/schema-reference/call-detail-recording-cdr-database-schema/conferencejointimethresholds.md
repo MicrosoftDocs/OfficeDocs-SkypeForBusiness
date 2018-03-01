@@ -13,7 +13,7 @@ description: "The ConferenceJoinTimeThresholds table contains the classification
 ---
 
 # ConferenceJoinTimeThresholds table in Skype for Business Server 2015
-[]
+ 
 The ConferenceJoinTimeThresholds table contains the classification boundaries used by the Conference Join Time Summary Report. The Conference Join Time Summary Report summarizes the amount time required for users to successfully join a conference; these time values are reported both as an average and in one of the following categories:
   
 - Less than 2 seconds.

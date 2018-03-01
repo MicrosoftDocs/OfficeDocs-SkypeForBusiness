@@ -13,7 +13,7 @@ description: "Removes a network inter-site policy that defines bandwidth limitat
 ---
 
 # Remove-CsNetworkInterSitePolicy
-[]
+ 
 Removes a network inter-site policy that defines bandwidth limitations between sites that are directly linked within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

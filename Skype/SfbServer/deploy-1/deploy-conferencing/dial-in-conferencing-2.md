@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure dial-in confere
 ---
 
 # Configure dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
   
 After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing). 
   

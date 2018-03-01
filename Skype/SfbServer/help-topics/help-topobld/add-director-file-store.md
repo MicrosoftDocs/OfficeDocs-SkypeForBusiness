@@ -15,7 +15,7 @@ description: "You must specify a file share to be used as the file store for Dir
 ---
 
 # Add Director File Store
-[]
+ 
 You must specify a file share to be used as the file store for Directors. You can use an existing file share for the file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share.
   
 > [!IMPORTANT]

@@ -14,13 +14,13 @@ description: "Enables and disables communication with the third-party IM and pre
 ---
 
 # Set-CsTenantPublicProvider
-[]
+ 
 Enables and disables communication with the third-party IM and presence providers Windows Live, AOL, and Yahoo. When enabled, Microsoft Lync Online users will be able to exchange IM and presence information with users who have accounts on the specified public provider.
   
 The **Set-CsTenantPublicProvider** cmdlet can only be used with Skype for Business Online.
   
 ```
-Set-CsTenantPublicProvider -Tenant <String> [-Provider <String[]>] [-Verbose] [-WhatIf] [-Confirm]
+Set-CsTenantPublicProvider -Tenant <String> [-Provider <String >] [-Verbose] [-WhatIf] [-Confirm]
 ```
 
 ## Examples
@@ -106,7 +106,7 @@ Note that simply enabling the status of a public provider does not mean that use
 |:-----|:-----|:-----|:-----|
 | _Tenant_ <br/> |Required  <br/> |System.Guid  <br/> |Globally unique identifier (GUID) of the tenant account whose public provider settings are being modified. For example:  <br/> -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308"  <br/> You can return the tenant ID for each of your tenants by running this command:  <br/> ```Get-CsTenant | Select-Object DisplayName, TenantID```Get-CsTenant | Select-Object DisplayName, TenantID  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
-| _Provider_ <br/> |Optional  <br/> |System.String[]  <br/> |Indicates the public provider (or providers) that users will be allowed to communicate with. Valid values are:  <br/> \* AOL  <br/> \* WindowsLive  <br/> \* Yahoo  <br/> Note that, when configuring public providers, any provider included in the Provider parameter value will be enabled for use, while any provider not included in the parameter value will be disabled. For example, this syntax enables only Yahoo, while disabling Windows Live and AOL:  <br/> -Provider "AOL"  <br/> You can enable multiple providers by separating the provider names by using commas:  <br/> -Provider "AOL","WindowsLive"  <br/> |
+| _Provider_ <br/> |Optional  <br/> |System.String   <br/> |Indicates the public provider (or providers) that users will be allowed to communicate with. Valid values are:  <br/> \* AOL  <br/> \* WindowsLive  <br/> \* Yahoo  <br/> Note that, when configuring public providers, any provider included in the Provider parameter value will be enabled for use, while any provider not included in the parameter value will be disabled. For example, this syntax enables only Yahoo, while disabling Windows Live and AOL:  <br/> -Provider "AOL"  <br/> You can enable multiple providers by separating the provider names by using commas:  <br/> -Provider "AOL","WindowsLive"  <br/> |
 | _WhatIf_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Describes what would happen if you executed the command without actually executing the command.  <br/> |
    
 ## Input Types

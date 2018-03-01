@@ -15,7 +15,7 @@ description: "Meeting configuration settings define the type of conferences (als
 ---
 
 # Meeting Configuration
-[]
+ 
 Meeting configuration settings define the type of conferences (also called "meetings") that users can create, and control how (or whether) anonymous users and dial-in conferencing users can join these conferences. These settings only apply to scheduled meetings. They do not apply to ad-hoc meetings created by clicking the Meet Now option in the client. 
   
 Meeting configurations apply on the global, site, or pool level:

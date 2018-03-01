@@ -13,7 +13,7 @@ description: "Manually purges records from the Archiving database. This cmdlet w
 ---
 
 # Invoke-CsArchivingDatabasePurge
-[]
+ 
 Manually purges records from the Archiving database. This cmdlet was introduced in Lync Server 2013.
   
 ```

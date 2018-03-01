@@ -16,7 +16,7 @@ description: "The planning tool uses information about user traffic to determini
 ---
 
 # Voice Traffic (Planning Tool)
-[]
+ 
 The planning tool uses information about user traffic to determining the number of ports to use in the deployment. This number in turn determines the number of Mediation Servers and gateways that will be required. For details, see [Estimating voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).
   
 

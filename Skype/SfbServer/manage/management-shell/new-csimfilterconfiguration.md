@@ -13,7 +13,7 @@ description: "Creates a new instant messaging (IM) filter configuration. IM filt
 ---
 
 # New-CsImFilterConfiguration
-[]
+ 
 Creates a new instant messaging (IM) filter configuration. IM filters are used to prevent users from sending instant messages that contain active hyperlinks. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,8 +15,8 @@ description: "Summary: Learn how to verify the Skype for Business Server topolog
 ---
 
 # Verify the topology in Skype for Business Server 2015
-[]
- **Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+ 
+**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 After you have the topology published and the Skype for Business Server system components installed on each of the servers in the topology, you are ready to verify that the topology is working as expected. This includes verifying that the configuration has propagated out to all of the Active Directory servers so that the entire domain knows Skype for Business is available in the domain. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Verifying the topology is step 8 of 8.
   

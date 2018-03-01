@@ -15,7 +15,7 @@ description: "To continue with the certificate request process, click Next. To e
 ---
 
 # Certificate Request (Intro)
-[]
+ 
 To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.
   
 

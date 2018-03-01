@@ -14,7 +14,7 @@ description: "Learn about what users experience when a Front End pool fails over
 ---
 
 # User experience during pool failure in Skype for Business Server 2015
-[]
+ 
 Learn about what users experience when a Front End pool fails over or fails back during disaster recovery in Skype for Business Server.
   
 If a pool is failed over, all users in the affected pool are forced to sign out and then sign into the backup pool. For a brief period users who sign into the backup pool may be in resiliency mode. In Resiliency mode, users are unable to perform tasks that would cause a persistent change on Skype for Business Server, such as adding a contact. After the failover is complete, all users can get all services from the backup pool.

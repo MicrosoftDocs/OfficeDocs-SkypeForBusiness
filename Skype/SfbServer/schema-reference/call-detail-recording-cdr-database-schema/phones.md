@@ -13,7 +13,7 @@ description: "The Phones table is a supporting table. Each record in the table s
 ---
 
 # Phones table
-[]
+ 
 The Phones table is a supporting table. Each record in the table stores information about one phone number involved in VoIP calls that have records in the database.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

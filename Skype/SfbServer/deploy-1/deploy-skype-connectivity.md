@@ -14,8 +14,8 @@ description: "Summary: Learn how to connect Skype for Business Server 2015 with 
 ---
 
 # Deploy Skype Connectivity in Skype for Business Server 2015
-[]
- **Summary:** Learn how to connect Skype for Business Server 2015 with Skype consumer. Also known as Skype connectivity.
+ 
+**Summary:** Learn how to connect Skype for Business Server 2015 with Skype consumer. Also known as Skype connectivity.
   
 This article walks through deployment for Skype Connectivity.
   

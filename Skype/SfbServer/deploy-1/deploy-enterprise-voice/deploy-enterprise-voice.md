@@ -15,8 +15,8 @@ description: "Summary: Learn how to deploy Enterprise Voice for Skype for Busine
 ---
 
 # Deploy Enterprise Voice in Skype for Business Server 2015
-[]
- **Summary:** Learn how to deploy Enterprise Voice for Skype for Business Server 2015 at a central site.
+ 
+**Summary:** Learn how to deploy Enterprise Voice for Skype for Business Server 2015 at a central site.
   
 Use this topic to deploy Enterprise Voice at a central site. To deploy Enterprise Voice at a branch site, skip to [Deploying Branch Sites](http://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
   

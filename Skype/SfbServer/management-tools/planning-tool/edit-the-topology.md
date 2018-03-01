@@ -14,7 +14,7 @@ description: "After completing the initial interview questions, you can edit the
 ---
 
 # Edit the topology in Skype for Business Server 2015
-[]
+ 
 After completing the initial interview questions, you can edit the fully qualified domain name (FQDN) and IP addresses for the site. To do this, on the **Global Topology** page, double-click the site that you want to edit.
   
 The Planning Tool displays the site topology for the selected site. At the bottom of the site page are four tabs:

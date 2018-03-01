@@ -13,7 +13,7 @@ description: "Uses previously-exported user information to update Skype for Busi
 ---
 
 # Update-CsUserData
-[]
+ 
 Uses previously-exported user information to update Skype for Business Server 2015 user data. This cmdlet was introduced in Lync Server 2013.
   
 ```

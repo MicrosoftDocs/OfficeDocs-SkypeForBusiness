@@ -13,7 +13,7 @@ description: "Creates a Location Information Server (LIS) subnet, creates an ass
 ---
 
 # Set-CsLisSubnet
-[]
+ 
 Creates a Location Information Server (LIS) subnet, creates an association between a subnet and a location (creating a new location if that location doesn't exist), or modifies an existing subnet and its associated location. The association between a subnet and location is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010.
   
 ```

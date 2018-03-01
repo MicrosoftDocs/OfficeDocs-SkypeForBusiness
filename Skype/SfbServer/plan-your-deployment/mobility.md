@@ -13,7 +13,7 @@ description: "Plan for your implementation of Mobility for Skype for Business Se
 ---
 
 # Plan for Mobility for Skype for Business Server 2015
-[]
+ 
 Plan for your implementation of Mobility for Skype for Business Server 2015.
   
 With Skype for Business Server 2015, you can deploy the Mobility feature to provide Skype for Business Server 2015 functionality on mobile devices. This article provides details about the Mobility feature, and helps you plan for your deployment.

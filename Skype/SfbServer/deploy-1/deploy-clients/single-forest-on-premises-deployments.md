@@ -13,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a sing
 ---
 
 # Skype Room System single forest on-premises deployments
-[]
+ 
 Read this topic to learn how to deploy Skype Room System in a single forest on-premises environment.
   
 This section provides an overview of the steps for provisioning the Skype Room System account on Exchange Server and Skype for Business Server hosted in a single forest on-premises deployment.

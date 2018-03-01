@@ -15,8 +15,8 @@ description: "Summary: Learn how to test SIP trunk configuration settings by usi
 ---
 
 # Test SIP trunk configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell.
+ 
+**Summary:** Learn how to test SIP trunk configuration settings by using the Skype for Business Server Management Shell.
   
 SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX), or a Session Border Controller (SBC) at the service provider. These settings do such things as specify:
   

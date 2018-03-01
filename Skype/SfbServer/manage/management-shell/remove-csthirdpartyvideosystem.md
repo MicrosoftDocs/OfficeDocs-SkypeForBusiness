@@ -13,7 +13,7 @@ description: "Removes an Active Directory contact object that represents a third
 ---
 
 # Remove-CsThirdPartyVideoSystem
-[]
+ 
 Removes an Active Directory contact object that represents a third-party video system. A third-party video system is a video teleconferencing (VTC) device that provides users with telepresence: the ability to participate in online meetings and conferences with full audio and video capabilities.
   
 This cmdlet was introduced in Skype for Business Server 2015.

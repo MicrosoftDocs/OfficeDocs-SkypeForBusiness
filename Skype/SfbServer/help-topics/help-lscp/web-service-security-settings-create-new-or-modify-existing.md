@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Web Service Security Settings: Create New or Modify Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Manage Web Service configuration settings in Skype for Business Server 2015](../../manage/authentication/web-service-configuration-settings.md)

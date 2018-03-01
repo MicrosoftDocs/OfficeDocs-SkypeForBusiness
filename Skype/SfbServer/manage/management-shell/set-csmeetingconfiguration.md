@@ -13,7 +13,7 @@ description: "Set-CsMeetingConfiguration enables you to modify the meeting confi
 ---
 
 # Set-CsMeetingConfiguration
-[]
+ 
  **Set-CsMeetingConfiguration** enables you to modify the meeting configuration settings currently in use in your organization. Meeting configuration settings help dictate the type of meetings (also called conferences) that users can create, and also control how (or even if) anonymous users and dial-in conferencing users can join these meetings. Note that these settings only affect scheduled meetings; they do not affect ad-hoc meetings created by clicking the Meet Now option in Skype for Business. This cmdlet was introduced in Lync Server 2010.
   
 ```

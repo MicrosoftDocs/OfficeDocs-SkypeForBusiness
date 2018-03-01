@@ -15,7 +15,7 @@ description: "Design and create Response Group workflows, in Skype for Business 
 ---
 
 # Designing and creating response group workflows in Skype for Business 2015
-[]
+ 
 Design and create Response Group workflows, in Skype for Business Server Enterprise Voice. Both hunt group workflows and interactive workflows are covered.
   
 A workflow defines the behavior of a call from the time that the phone rings to the time that someone answers the call. The workflow specifies the queue to use for holding the call, and specifies the routing method to use for hunt group workflows or the questions and answers to use for interactive response group workflows. 

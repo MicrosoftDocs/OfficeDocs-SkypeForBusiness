@@ -13,7 +13,7 @@ description: "Removes one or more Kerberos account assignments. This cmdlet was 
 ---
 
 # Remove-CsKerberosAccountAssignment
-[]
+ 
 Removes one or more Kerberos account assignments. This cmdlet was introduced in Lync Server 2010.
   
 ```

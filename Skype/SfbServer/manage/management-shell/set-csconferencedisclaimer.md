@@ -13,7 +13,7 @@ description: "Modifies the property values of the conference disclaimer used in 
 ---
 
 # Set-CsConferenceDisclaimer
-[]
+ 
 Modifies the property values of the conference disclaimer used in your organization. The conference disclaimer is a message displayed to users who join a conference by using a hyperlink (for example, by pasting a link to the conference into a browser such as Windows Internet Explorer). This cmdlet was introduced in Lync Server 2010.
   
 ```

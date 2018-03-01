@@ -14,8 +14,8 @@ description: "Summary: Learn how to deploy Edge Servers into your Skype for Busi
 ---
 
 # Deploy Edge Servers in Skype for Business Server 2015
-[]
- **Summary:** Learn how to deploy Edge Servers into your Skype for Business Server 2015 environment.
+ 
+**Summary:** Learn how to deploy Edge Servers into your Skype for Business Server 2015 environment.
   
 The following sections contain steps that are meant to be followed after the Skype for Business Server 2015 [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) documentation has been reviewed. The deployment steps are as follows:
   
@@ -228,7 +228,7 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 5. If you're importing certificates for other members of your Edge pool, and your certificate contains a private key, be sure to select the **Certificate file that contains certificate's private key** check box, and specify the password. Click **Next** to continue.
     
-6. On the **Summary** page, click **Next** once you've confirmed the information, and **Finish** once the certificate is successfully imported.
+6. On the**Summary** page, click **Next** once you've confirmed the information, and **Finish** once the certificate is successfully imported.
     
 5. 
 ### Export the certificate

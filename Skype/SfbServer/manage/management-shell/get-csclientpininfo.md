@@ -13,7 +13,7 @@ description: "Retrieves information about the personal identification number (PI
 ---
 
 # Get-CsClientPinInfo
-[]
+ 
 Retrieves information about the personal identification number (PIN) assigned to a user. This cmdlet was introduced in Lync Server 2010.
   
 ```

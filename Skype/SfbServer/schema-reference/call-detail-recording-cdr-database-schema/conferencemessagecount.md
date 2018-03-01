@@ -13,7 +13,7 @@ description: "Each record in this table represents one user in one IM conference
 ---
 
 # ConferenceMessageCount table in Skype for Business Server 2015
-[]
+ 
 Each record in this table represents one user in one IM conference and includes the number of messages sent by that user. Each conference is represented by multiple records in this table; one record for each user.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

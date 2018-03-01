@@ -13,8 +13,8 @@ description: "Summary: Learn about the Call List Report used in Skype for Busine
 ---
 
 # Call List Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Call List Report used in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Call List Report used in Skype for Business Server 2015.
   
 The Call List Report provides Quality of Experience (QoE) metrics for individual calls made and received in your organization. Note that the actual metrics reported will depend on how you access the Call List report. For example, if you open the report from the [Device Report in Skype for Business Server 2015](device-report.md), you'll see metrics such as the following, metrics that are also reported on the Device Report:
   

@@ -13,7 +13,7 @@ description: "Migrates one or more user accounts from Microsoft Office Communica
 ---
 
 # Move-CsLegacyUser
-[]
+ 
 Migrates one or more user accounts from Microsoft Office Communications Server 2007 R2 to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

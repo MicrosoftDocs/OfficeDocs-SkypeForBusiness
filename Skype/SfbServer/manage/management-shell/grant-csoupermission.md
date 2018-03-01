@@ -13,7 +13,7 @@ description: "Grants Skype for Business Server 2015 management rights on an Acti
 ---
 
 # Grant-CsOUPermission
-[]
+ 
 Grants Skype for Business Server 2015 management rights on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # File Filter
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Modify the Default File Transfer Filter](http://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)

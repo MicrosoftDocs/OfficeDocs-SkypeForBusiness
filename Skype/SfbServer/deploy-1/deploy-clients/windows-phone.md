@@ -13,8 +13,8 @@ description: "Summary: Learn how to install and test Skype for Business on your 
 ---
 
 # Install and test Skype for Business for Windows Phone
-[]
- **Summary:** Learn how to install and test Skype for Business on your Windows Phone.
+ 
+**Summary:** Learn how to install and test Skype for Business on your Windows Phone.
   
 The Skype for Business for Windows Phone app brings Skype for Business presence, instant messaging (IM), and voice and video calling to Windows mobile devices. Users with Lync 2013 will either get the updated app automatically or be prompted to update it manually, depending on their user settings. New users can download it from the [Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901). The Skype for Business for Windows Phone app is only available on Windows Phone 8.1 and later.
   

@@ -13,7 +13,7 @@ description: "Enables you to specify a new database location for one or more Arc
 ---
 
 # Set-CsArchivingServer
-[]
+ 
 Enables you to specify a new database location for one or more Archiving Servers. This cmdlet was introduced in Lync Server 2010.
   
 ```

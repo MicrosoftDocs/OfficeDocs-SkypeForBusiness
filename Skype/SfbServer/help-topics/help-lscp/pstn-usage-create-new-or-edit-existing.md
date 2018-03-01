@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # PSTN Usage: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [View PSTN usage records in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/view-pstn-usage-records.md)

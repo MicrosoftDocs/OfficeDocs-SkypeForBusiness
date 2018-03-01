@@ -15,7 +15,7 @@ description: "You define whether the Director or Director pool will have a Monit
 ---
 
 # Add Director Association for Lync Server 2010
-[]
+ 
 You define whether the Director or Director pool will have a Monitoring Server associated with it. Select the check box to associate a Monitoring Server with the Director or Director pool.
   
 > [!TIP]

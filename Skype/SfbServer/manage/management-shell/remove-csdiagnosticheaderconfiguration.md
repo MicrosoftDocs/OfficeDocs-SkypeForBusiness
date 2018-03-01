@@ -13,7 +13,7 @@ description: "Removes one or more of the diagnostic header configuration setting
 ---
 
 # Remove-CsDiagnosticHeaderConfiguration
-[]
+ 
 Removes one or more of the diagnostic header configuration setting collections currently in use in your organization. Diagnostic header configuration settings determine whether SIP messages are accompanied by header information that can be useful in troubleshooting and error reporting. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Enables you to return information about the Audio Test service app
 ---
 
 # Get-CsAudioTestServiceApplication
-[]
+ 
 Enables you to return information about the Audio Test service application used in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

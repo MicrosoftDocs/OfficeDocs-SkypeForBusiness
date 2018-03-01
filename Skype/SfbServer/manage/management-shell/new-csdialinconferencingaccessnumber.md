@@ -13,7 +13,7 @@ description: "Creates a new dial-in conferencing access number. Dial-in conferen
 ---
 
 # New-CsDialInConferencingAccessNumber
-[]
+ 
 Creates a new dial-in conferencing access number. Dial-in conferencing provides a way for users to use a "regular" telephone, cell phone or other device on the public switched telephone network (PSTN) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Returns information about the third-party video system policies co
 ---
 
 # Get-CsThirdPartyVideoSystemPolicy
-[]
+ 
 Returns information about the third-party video system policies configured for use in the organization. These policies determine whether or not a VTC (video teleconferencing) device is allowed to send low-resolution video.
   
 This cmdlet was introduced in Skype for Business Server 2015.

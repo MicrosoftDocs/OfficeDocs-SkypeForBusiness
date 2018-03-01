@@ -13,7 +13,7 @@ description: "Use the Get-CsImConfiguration cmdlet to retrieve information about
 ---
 
 # Get-CsImConfiguration
-[]
+ 
 Use the **Get-CsImConfiguration** cmdlet to retrieve information about Instant Messaging (IM) configurations.
   
 ```

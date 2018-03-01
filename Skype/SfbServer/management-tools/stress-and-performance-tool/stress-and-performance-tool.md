@@ -13,7 +13,7 @@ description: "The Skype for Business Server 2015 Stress and Performance Tool is 
 ---
 
 # Skype for Business Server 2015 Stress and Performance Tool
-[]
+ 
 The Skype for Business Server 2015 Stress and Performance Tool is used during capacity planning and performance tuning in non-production or test environments.
   
 The Skype for Business Server 2015 Stress and Performance Tool includes tools that will simplify your capacity planning for Skype for Business Server 2015. The Skype for Business Server 2015 Stress and Performance Tool will help you to:

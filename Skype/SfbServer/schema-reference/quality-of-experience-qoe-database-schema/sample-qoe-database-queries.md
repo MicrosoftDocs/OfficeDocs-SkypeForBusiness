@@ -13,7 +13,7 @@ description: "This section contains sample queries for the Quality of Experience
 ---
 
 # Sample QoE database queries
-[]
+ 
 This section contains sample queries for the Quality of Experience (QoE) database. 
   
 Use the following example to get the jitter and packet loss average for all audio streams.

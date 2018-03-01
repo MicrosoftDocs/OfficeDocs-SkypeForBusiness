@@ -15,7 +15,7 @@ description: "Enable media bypass to always bypass the Mediation Server in Skype
 ---
 
 # Configure media bypass in Skype for Business Server 2015 to always bypass the Mediation Server
-[]
+ 
 Enable media bypass to always bypass the Mediation Server in Skype for Business Server Enterprise Voice. 
   
  If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Skype for Business endpoints and any peer for which you configured media bypass on the trunk connection.

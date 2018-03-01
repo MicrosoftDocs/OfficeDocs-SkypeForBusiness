@@ -13,7 +13,7 @@ description: "Returns information about the Open Authorization (OAuth) configura
 ---
 
 # Get-CsOAuthConfiguration
-[]
+ 
 Returns information about the Open Authorization (OAuth) configuration settings currently in use in the organization. OAuth is a standard protocol used for server-to-server authentication and authorization. This cmdlet was introduced in Lync Server 2013.
   
 ```

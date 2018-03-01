@@ -13,7 +13,7 @@ description: "tblPrincipalMembers contains principal memberships."
 ---
 
 # tblPrincipalMembers
-[]
+ 
 tblPrincipalMembers contains principal memberships.
   
 **Columns**

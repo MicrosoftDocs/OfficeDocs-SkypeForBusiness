@@ -15,7 +15,7 @@ description: "Meeting configuration settings define the user join experience for
 ---
 
 # Meeting Configuration: Create New or Edit Existing
-[]
+ 
 Meeting configuration settings define the user join experience for conferences scheduled by users. These settings only apply to scheduled meetings. They do not apply to ad-hoc meetings created by clicking the **Meet Now** option in the client.
   
 ## UI Reference

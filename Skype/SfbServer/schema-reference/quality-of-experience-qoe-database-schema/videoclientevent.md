@@ -13,7 +13,7 @@ description: "Each record contains client event for one endpoint in a video call
 ---
 
 # VideoClientEvent table
-[]
+ 
 Each record contains client event for one endpoint in a video call. Usually, one call has two records, one for caller and one for callee.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

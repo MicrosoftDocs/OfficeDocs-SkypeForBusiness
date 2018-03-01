@@ -13,7 +13,7 @@ description: "tblComplianceFanout contains all servers that processed a complian
 ---
 
 # tblComplianceFanout
-[]
+ 
 tblComplianceFanout contains all servers that processed a compliance event.
   
 **Columns**

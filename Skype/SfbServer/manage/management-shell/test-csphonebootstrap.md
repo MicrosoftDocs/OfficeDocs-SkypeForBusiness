@@ -13,7 +13,7 @@ description: "Verifies that a user can log on to Skype for Business Server 2015 
 ---
 
 # Test-CsPhoneBootstrap
-[]
+ 
 Verifies that a user can log on to Skype for Business Server 2015 using a Phone Edition-compatible device. This cmdlet was introduced in Lync Server 2010.
   
 ```

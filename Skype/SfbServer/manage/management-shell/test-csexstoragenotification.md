@@ -13,7 +13,7 @@ description: "Verifies that the Skype for Business Server 2015 Storage Service r
 ---
 
 # Test-CsExStorageNotification
-[]
+ 
 Verifies that the Skype for Business Server 2015 Storage Service running on a Front End server can subscribe to the Exchange mailbox notification service. This is done by having the cmdlet subscribe to the service, create an item, verify that notification of the new item is received, and then, optionally, delete that item unsubscribe from the service. This cmdlet was introduced in Lync Server 2013.
   
 ```

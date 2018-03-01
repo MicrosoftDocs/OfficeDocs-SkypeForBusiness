@@ -15,7 +15,7 @@ description: "You can edit the properties for an existing deployment with the fo
 ---
 
 # Deployment Settings Expander
-[]
+ 
 You can edit the properties for an existing deployment with the following sections:
   
 - SIP domain

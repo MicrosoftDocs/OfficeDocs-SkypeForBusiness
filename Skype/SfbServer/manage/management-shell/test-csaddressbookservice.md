@@ -13,7 +13,7 @@ description: "Tests the ability of a user to access the server that hosts the Ad
 ---
 
 # Test-CsAddressBookService
-[]
+ 
 Tests the ability of a user to access the server that hosts the Address Book Download Web service. This cmdlet was introduced in Lync Server 2010.
   
 ```

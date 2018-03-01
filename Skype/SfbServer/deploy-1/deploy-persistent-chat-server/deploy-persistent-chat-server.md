@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to deploy Skype for Business
 ---
 
 # Deploy Persistent Chat Server in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to deploy Skype for Business Server 2015 Persistent Chat Server.
+ 
+**Summary:** Read this topic to learn how to deploy Skype for Business Server 2015 Persistent Chat Server.
   
 To deploy Persistent Chat Server, you: 
   

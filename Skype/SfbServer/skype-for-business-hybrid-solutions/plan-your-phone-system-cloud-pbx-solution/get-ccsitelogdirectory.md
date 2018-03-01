@@ -13,7 +13,7 @@ description: "The Get-CcSiteLogDirectory cmdlet shows the current directory wher
 ---
 
 # Get-CcSiteLogDirectory
-[]
+ 
 The Get-CcSiteLogDirectory cmdlet shows the current directory where the site level logs for Skype for Business Cloud Connector Edition are stored. 
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

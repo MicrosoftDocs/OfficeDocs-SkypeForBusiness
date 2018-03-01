@@ -15,7 +15,7 @@ description: "For Mediation Server, you can specify the following:"
 ---
 
 # Mediation Service Settings Expander
-[]
+ 
 For **Mediation Server**, you can specify the following:
   
 If you are collocating the Mediation Server onto the Front End pool or the Standard Edition server, select the check box **Collocated Mediation Server enabled**. If you choose not to collocate the Mediation Server, there are no definable settings in this section. 

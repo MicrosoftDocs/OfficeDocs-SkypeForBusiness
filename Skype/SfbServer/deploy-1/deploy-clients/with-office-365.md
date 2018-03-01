@@ -14,7 +14,7 @@ description: "Read this topic for information on how to deploy Skype Room System
 ---
 
 # Deploy Skype Room Systems v2 with Office 365
-[]
+ 
 Read this topic for information on how to deploy Skype Room Systems v2 with Office 365.
   
 This topic describes how to add a device account for Skype Room Systems v2 when you have an Office 365 online deployment.

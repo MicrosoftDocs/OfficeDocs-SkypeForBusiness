@@ -13,7 +13,7 @@ description: "Deletes any rejected device update files that are no longer associ
 ---
 
 # Clear-CsDeviceUpdateFile
-[]
+ 
 Deletes any rejected device update files that are no longer associated with a device. This cmdlet was introduced in Lync Server 2010.
   
 ```

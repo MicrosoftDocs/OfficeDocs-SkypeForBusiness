@@ -13,7 +13,7 @@ description: "Determines whether or not a user can log on to Skype for Business 
 ---
 
 # Test-CsClientAuthentication
-[]
+ 
 Determines whether or not a user can log on to Skype for Business Server 2015 by using a certificate downloaded from the certificate provisioning service. This cmdlet was introduced in Lync Server 2013.
   
 ```

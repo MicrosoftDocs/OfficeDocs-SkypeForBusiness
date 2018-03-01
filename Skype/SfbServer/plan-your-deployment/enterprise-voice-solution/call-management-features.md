@@ -15,7 +15,7 @@ description: "Overview of supported call-management features in Skype for Busine
 ---
 
 # Plan for call management features in Skype for Business 2015
-[]
+ 
 Overview of supported call-management features in Skype for Business Server Enterprise Voice.
   
 Enterprise Voice call management features control how incoming calls are routed and answered. Skype for Business Server provides the following call management features: 

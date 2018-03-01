@@ -13,7 +13,7 @@ description: "Returns information about configuration settings for the Response 
 ---
 
 # Get-CsRgsConfiguration
-[]
+ 
 Returns information about configuration settings for the Response Group application. This cmdlet was introduced in Lync Server 2010.
   
 ```

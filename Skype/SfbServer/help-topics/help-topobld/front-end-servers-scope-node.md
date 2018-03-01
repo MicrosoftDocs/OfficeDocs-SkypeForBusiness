@@ -15,7 +15,7 @@ description: "The Enterprise Edition Front End pools node lists the Front End po
 ---
 
 # Front End Servers Scope Node
-[]
+ 
 The **Enterprise Edition Front End pools** node lists the Front End pools at this site, and the **Standard Edition Front End Servers** nodes lists the Standard Edition servers at this site. You can perform the following action:
   
 - **New Front End Pool**. Starts the **Define New Front End Pool** wizard, which you use to add either a new Front End pool or Standard Edition server to the topology at this site.

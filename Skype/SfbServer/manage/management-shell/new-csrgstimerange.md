@@ -13,7 +13,7 @@ description: "Creates a new Response Group time range. Time ranges are used by t
 ---
 
 # New-CsRgsTimeRange
-[]
+ 
 Creates a new Response Group time range. Time ranges are used by the Response Group application to specify opening and closing times for a business day. For example, if your help desk agents are available only from 12:00 P.M. to 5:00 P.M. on Sundays, then you would create a time range for Sunday that had an opening time of 12:00 P.M. and a closing time of 5:00 P.M. This cmdlet was introduced in Lync Server 2010.
   
 ```

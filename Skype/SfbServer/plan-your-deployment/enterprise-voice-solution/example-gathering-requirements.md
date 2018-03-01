@@ -15,7 +15,7 @@ description: "Provides a detailed example of planning for call admission control
 ---
 
 # Example: Gathering requirements for call admission control in Skype for Business Server 2015
-[]
+ 
 Provides a detailed example of planning for call admission control in Skype for Business Server Enterprise Voice, including gathering information about your network's sites, regions, and bandwidth.
   
 This example shows you how to plan for and implement call admission control (CAC). At a high level, this consists of the following activities:

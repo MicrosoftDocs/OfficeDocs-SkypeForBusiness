@@ -15,7 +15,7 @@ description: "Monitoring Server requires a supported 64-bit edition of SQL Serve
 ---
 
 # Add Monitoring Server SQL Server Store
-[]
+ 
 Monitoring Server requires a supported 64-bit edition of SQL Server database software to store the monitoring data. You can either select a previously defined SQL Server database to be used for monitoring, or define a new SQL Server database by specifying a fully qualified domain name (FQDN) of the server on which the SQL Server database will reside, in addition to the instance of SQL Server that you want to use for the new SQL Server database (which can be the default instance, or a named instance that you specify).
   
 For details about SQL Server support, see [Database Software and Clustering Support](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) in the Supportability documentation. For details about the monitoring database, including collocation of the monitoring database, see[Supported Server Location](http://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) in the Supportability documentation,[Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) in the Planning documentation and[SQL Server Data and Log File Placement](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) in the Deployment documentation.

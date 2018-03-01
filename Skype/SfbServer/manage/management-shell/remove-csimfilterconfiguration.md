@@ -13,7 +13,7 @@ description: "Removes the specified instant messaging (IM) filter configuration.
 ---
 
 # Remove-CsImFilterConfiguration
-[]
+ 
 Removes the specified instant messaging (IM) filter configuration. (IM filter settings are used to prevent users from sending instant messages that contain hyperlinks.) This cmdlet was introduced in Lync Server 2010.
   
 ```

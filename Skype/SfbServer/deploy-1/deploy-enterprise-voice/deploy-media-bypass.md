@@ -15,7 +15,7 @@ description: "Deploy media bypass in Skype for Business Server Enterprise Voice.
 ---
 
 # Deploy media bypass in Skype for Business Server 2015
-[]
+ 
 Deploy media bypass in Skype for Business Server Enterprise Voice. Includes prerequisites and deployment process checklist.
   
 This topic assumes that you have already published and configured either at least one or more Mediation Servers and at least one gateway peer to provide PSTN connectivity. For more details on those tasks, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](deploy-a-mediation-server.md) and[Define a gateway in Topology Builder in Skype for Business Server 2015](define-a-gateway.md).

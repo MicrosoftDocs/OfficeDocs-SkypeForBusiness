@@ -13,7 +13,7 @@ description: "Extends the Active Directory schema to allow for the installation 
 ---
 
 # Install-CsAdServerSchema
-[]
+ 
 Extends the Active Directory schema to allow for the installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

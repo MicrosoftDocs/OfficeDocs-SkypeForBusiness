@@ -15,7 +15,7 @@ description: "The Monitoring Servers node lists the Monitoring Servers in your t
 ---
 
 # Monitoring Servers Scope Node
-[]
+ 
 The **Monitoring Servers** node lists the Monitoring Servers in your topology. You can perform the following action:
   
 - **New Monitoring Server**. Starts the **Define New Monitoring Server** wizard, which you use to add a new Monitoring Server to the topology.

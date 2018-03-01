@@ -15,7 +15,7 @@ description: "Create, modify or delete unassigned number ranges for Announcement
 ---
 
 # Create or modify an unassigned number range in Skype for Business Server 2015
-[]
+ 
 Create, modify or delete unassigned number ranges for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled.
   
 Skype for Business Server enables you to say what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or a phone. To handle such calls, you set up an unassigned number table. You can use the table to route the calls to an Announcement application or to an Exchange UM server.

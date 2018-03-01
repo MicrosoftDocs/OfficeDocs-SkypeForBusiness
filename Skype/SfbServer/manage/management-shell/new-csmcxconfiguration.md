@@ -13,7 +13,7 @@ description: "Creates a new collection of Skype for Business Server 2015 Mobilit
 ---
 
 # New-CsMcxConfiguration
-[]
+ 
 Creates a new collection of Skype for Business Server 2015 Mobility Service configuration settings at the site or the service scope. The Mobility Service enables users of mobile phones such as iPhones and Windows Phones to do such things as exchange instant messages and presence information; store and retrieve voice mail internally instead of with their wireless provider; and take advantage of Skype for Business Server 2015 capabilities such as Call via Work and dial-out conferencing. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

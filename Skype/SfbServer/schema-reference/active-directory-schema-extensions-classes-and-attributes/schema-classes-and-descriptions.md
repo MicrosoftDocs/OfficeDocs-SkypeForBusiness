@@ -13,7 +13,7 @@ description: "This section describes all the schema classes used by Skype for Bu
 ---
 
 # Schema classes and descriptions in Skype for Business Server
-[]
+ 
 This section describes all the schema classes used by Skype for Business Server . 
   
 ## Schema Classes and Descriptions

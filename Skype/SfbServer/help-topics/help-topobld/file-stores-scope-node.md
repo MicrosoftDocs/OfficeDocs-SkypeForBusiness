@@ -15,7 +15,7 @@ description: "The File Stores node lists the File Stores in your topology. You c
 ---
 
 # File Stores Scope Node
-[]
+ 
 The **File Stores** node lists the File Stores in your topology. You can perform the following action:
   
 - **New File Store**. Starts the **Define New File Store** page, which you use to add a new File Store to the topology.

@@ -13,7 +13,7 @@ description: "Creates a new set of instant messaging (IM) archiving settings. Th
 ---
 
 # New-CsArchivingConfiguration
-[]
+ 
 Creates a new set of instant messaging (IM) archiving settings. These settings can be used to enable or disable the automatic saving of IM sessions; these settings also enable you to block any instant messages that cannot be archived. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Creates a link between two regions configured for call admission c
 ---
 
 # New-CsNetworkRegionLink
-[]
+ 
 Creates a link between two regions configured for call admission control (CAC). This cmdlet was introduced in Lync Server 2010.
   
 ```

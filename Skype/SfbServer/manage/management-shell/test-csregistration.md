@@ -13,7 +13,7 @@ description: "Tests the ability of a user to log on to Skype for Business Server
 ---
 
 # Test-CsRegistration
-[]
+ 
 Tests the ability of a user to log on to Skype for Business Server 2015. The **Test-CsRegistration** cmdlet is a "synthetic transaction": a simulation of common Skype for Business Server 2015 activities used for health and performance monitoring. This cmdlet was introduced in Lync Server 2010.
   
 ```

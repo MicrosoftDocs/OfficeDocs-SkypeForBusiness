@@ -13,7 +13,7 @@ description: "Moves one or more common area phones to a new Registrar pool. This
 ---
 
 # Move-CsCommonAreaPhone
-[]
+ 
 Moves one or more common area phones to a new Registrar pool. This cmdlet was introduced in Lync Server 2010.
   
 ```

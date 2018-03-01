@@ -13,7 +13,7 @@ description: "Undoes the domain preparation tasks carried out by the Enable-CsAd
 ---
 
 # Disable-CsAdDomain
-[]
+ 
 Undoes the domain preparation tasks carried out by the **Enable-CsAdDomain** cmdlet. This cmdlet is typically used only if you are uninstalling Skype for Business Server 2015 from a domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

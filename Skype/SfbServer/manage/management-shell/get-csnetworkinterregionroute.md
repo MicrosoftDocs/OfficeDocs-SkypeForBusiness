@@ -13,7 +13,7 @@ description: "Retrieves one or more routes that connect network regions within a
 ---
 
 # Get-CsNetworkInterRegionRoute
-[]
+ 
 Retrieves one or more routes that connect network regions within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

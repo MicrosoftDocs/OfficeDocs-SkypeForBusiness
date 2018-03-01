@@ -15,7 +15,7 @@ description: "Create or modify an agent group in Response Group, in Skype for Bu
 ---
 
 # Create or modify an agent group in Skype for Business 2015
-[]
+ 
 Create or modify an agent group in Response Group, in Skype for Business Server Enterprise Voice.
   
 When you create an agent group, you select the agents that are assigned to the group and specify additional group settings, such as the routing method and whether an agent can sign in to and out of the group. 

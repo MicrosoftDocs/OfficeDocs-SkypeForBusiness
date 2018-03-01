@@ -15,7 +15,7 @@ description: "You edit the settings for the Edge Server or Edge pool by configur
 ---
 
 # Edit Edge Settings Expander for Lync Server 2010
-[]
+ 
 You edit the settings for the Edge Server or Edge pool by configuring the following properties: 
   
  **General**

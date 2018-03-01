@@ -13,7 +13,7 @@ description: "Creates a new SIP domain for use in your organization. SIP domains
 ---
 
 # New-CsSipDomain
-[]
+ 
 Creates a new SIP domain for use in your organization. SIP domains are domains authorized to send and receive SIP traffic, and are used when assigning SIP addresses to users. This cmdlet was introduced in Lync Server 2010.
   
 ```

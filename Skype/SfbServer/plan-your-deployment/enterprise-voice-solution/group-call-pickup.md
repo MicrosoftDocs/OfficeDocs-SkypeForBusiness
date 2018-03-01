@@ -15,7 +15,7 @@ description: "Planning for Group Call Pickup in Skype for Business Server Enterp
 ---
 
 # Plan for Group Call Pickup in Skype for Business 2015
-[]
+ 
 Planning for Group Call Pickup in Skype for Business Server Enterprise Voice, which enables users to answer calls originally intended for others.
   
 Group Call Pickup enables users to answer incoming calls to their colleagues from their own phones. This increases the availability of a user's line by enabling other users to answer an incoming call by dialing a call pickup group number. When Group Call Pickup is deployed, the number of incoming calls that are routed to voice mail can be significantly reduced, which is particularly useful for calls from customers who are external to your organization.

@@ -13,8 +13,8 @@ description: "Summary: Learn about the PSTN Conference Summary Report in Skype f
 ---
 
 # PSTN Conference Summary Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the PSTN Conference Summary Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the PSTN Conference Summary Report in Skype for Business Server 2015.
   
 In Skype for Business Server 2015, a PSTN conference is any conference in which at least one participant dials in to the audio portion by a using a PSTN (public switched telephone network) phone. (A PSTN phone is a "landline," a cell phone, or any other phone which does not make use of Voice over IP.) Although referred to as PSTN conferences in the Monitoring Reports, these conferences are perhaps more-commonly known as dial-in conferences.
   

@@ -15,7 +15,7 @@ description: "To edit the settings for an existing Survivable Branch Appliance o
 ---
 
 # Branch Office Appliance General Settings Expander
-[]
+ 
 To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you are presented with the following sections:
   
 - General settings

@@ -13,7 +13,7 @@ description: "The sections in this article describe how to enable, temporarily d
 ---
 
 # Manage user accounts for Skype for Business Server 2015
-[]
+ 
 The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server 2015.
   
 For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).

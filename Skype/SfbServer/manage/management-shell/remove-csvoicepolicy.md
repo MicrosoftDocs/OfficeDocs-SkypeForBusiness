@@ -13,7 +13,7 @@ description: "Removes the specified voice policy. This cmdlet was introduced in 
 ---
 
 # Remove-CsVoicePolicy
-[]
+ 
 Removes the specified voice policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

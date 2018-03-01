@@ -15,7 +15,7 @@ description: "Deploying the SEFAUtil tool in Skype for Business Server."
 ---
 
 # Deploy the SEFAUtil tool in Skype for Business 2015
-[]
+ 
 Deploying the SEFAUtil tool in Skype for Business Server.
   
 To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool. 

@@ -13,11 +13,11 @@ description: "Flushes the centralized logging service cache. Centralized logging
 ---
 
 # Sync-CsClsLogging
-[]
+ 
 Flushes the centralized logging service cache. Centralized logging provides a way for administrators to simultaneously enable or disable Skype for Business Server 2015 tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Sync-CsClsLogging [-AsXml <SwitchParameter>] [-Computers <String[]>] [-Pools <String[]>]
+Sync-CsClsLogging [-AsXml <SwitchParameter>] [-Computers <String >] [-Pools <String >]
 
 ```
 
@@ -57,8 +57,8 @@ When a scenario is being logged, the service will maintain data in memory and th
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _AsXml_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, information is returned using XML.  <br/> |
-| _Computers_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to flush the centralized logging service cache on a specified server or set of servers. To flush a single server cache, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Sync-CsClsLogging** cmdlet will apply the command against all pools in the topology. <br/> |
-| _Pools_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to flush the centralized logging service cache on each server in a pool. To flush the server caches in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
+| _Computers_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to flush the centralized logging service cache on a specified server or set of servers. To flush a single server cache, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Sync-CsClsLogging** cmdlet will apply the command against all pools in the topology. <br/> |
+| _Pools_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to flush the centralized logging service cache on each server in a pool. To flush the server caches in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>

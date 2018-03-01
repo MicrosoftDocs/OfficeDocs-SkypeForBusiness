@@ -13,7 +13,7 @@ description: "Modifies an existing collection of Web Services configuration sett
 ---
 
 # Set-CsWebServiceConfiguration
-[]
+ 
 Modifies an existing collection of Web Services configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

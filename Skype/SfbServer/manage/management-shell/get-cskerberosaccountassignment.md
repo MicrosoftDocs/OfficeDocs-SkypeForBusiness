@@ -13,7 +13,7 @@ description: "Returns information about the Kerberos account assignments configu
 ---
 
 # Get-CsKerberosAccountAssignment
-[]
+ 
 Returns information about the Kerberos account assignments configured for use in the organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

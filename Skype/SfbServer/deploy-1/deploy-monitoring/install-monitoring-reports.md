@@ -14,8 +14,8 @@ description: "Summary: Learn how to install a service that will generate Monitor
 ---
 
 # Install Monitoring Reports in Skype for Business Server 2015
-[]
- **Summary:** Learn how to install a service that will generate Monitoring reports in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to install a service that will generate Monitoring reports in Skype for Business Server 2015.
   
 Skype for Business Server 2015 Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. 
   

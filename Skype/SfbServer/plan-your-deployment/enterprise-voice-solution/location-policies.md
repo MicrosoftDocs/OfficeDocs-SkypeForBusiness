@@ -15,7 +15,7 @@ description: "Read this topic to learn how to plan location policies for an enha
 ---
 
 # Plan location policies for Skype for Business Server 2015
-[]
+ 
 Read this topic to learn how to plan location policies for an enhanced emergency services (E9-1-1) deployment in Skype for Business Server Enterprise Voice. 
   
 > [!NOTE]

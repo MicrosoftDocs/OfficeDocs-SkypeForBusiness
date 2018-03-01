@@ -13,7 +13,7 @@ description: "Makes the Active Directory modifications required before you can i
 ---
 
 # Enable-CsAdForest
-[]
+ 
 Makes the Active Directory modifications required before you can install Skype for Business Server 2015. This includes making global changes to the Configuration or System containers; creating universal groups; and creating property sets and display specifiers that are specific to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Tests the Location Information Server (LIS) configuration. This cm
 ---
 
 # Test-CsLisConfiguration
-[]
+ 
 Tests the Location Information Server (LIS) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

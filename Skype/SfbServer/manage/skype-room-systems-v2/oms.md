@@ -13,7 +13,7 @@ description: "This article discusses how to manage Skype Room Systems v2 devices
 ---
 
 # Manage Skype Room Systems v2 devices with OMS
-[]
+ 
 This article discusses how to manage Skype Room Systems v2 devices in an integrated, end-to-end manner using Microsoft Operations Management Suite. 
   
 You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and[Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md) for details). As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.

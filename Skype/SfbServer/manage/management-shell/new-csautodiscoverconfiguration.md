@@ -13,7 +13,7 @@ description: "Creates a new collection of Autodiscover configuration settings at
 ---
 
 # New-CsAutodiscoverConfiguration
-[]
+ 
 Creates a new collection of Autodiscover configuration settings at the site scope. The Autodiscover service provides a way for client applications such as Microsoft Lync Mobile to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

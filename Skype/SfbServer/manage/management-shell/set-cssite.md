@@ -13,7 +13,7 @@ description: "Modifies the properties for any of your Skype for Business Server 
 ---
 
 # Set-CsSite
-[]
+ 
 Modifies the properties for any of your Skype for Business Server 2015 sites. Sites represent a collection of Skype for Business Server 2015 pools and are typically designed around geographic regions. Skype for Business Server 2015 includes two types of sites: data center sites and remote sites (branch office). This cmdlet was introduced in Lync Server 2010.
   
 ```

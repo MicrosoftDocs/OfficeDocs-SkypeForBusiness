@@ -13,7 +13,7 @@ description: "The Pool table is a supporting table that stores information about
 ---
 
 # Pool table
-[]
+ 
 The Pool table is a supporting table that stores information about the various Front End pools. Each record in the table represents one pool.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

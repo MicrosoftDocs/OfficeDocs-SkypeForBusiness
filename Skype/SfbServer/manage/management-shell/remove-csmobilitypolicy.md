@@ -13,7 +13,7 @@ description: "Removes an existing mobility policy. Mobility policies determine w
 ---
 
 # Remove-CsMobilityPolicy
-[]
+ 
 Removes an existing mobility policy. Mobility policies determine whether or not a user can use Call via Work, a feature that enables users to make and receive phone calls on their mobile phone by using their work phone number instead of their mobile phone number. Mobility policies can also be used to require Wi-Fi connections when making or receiving calls. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

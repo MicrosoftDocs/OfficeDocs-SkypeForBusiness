@@ -13,7 +13,7 @@ description: "Verifies the status of the replica service on the local computer. 
 ---
 
 # Test-CsReplica
-[]
+ 
 Verifies the status of the replica service on the local computer. The replica service is used to replicate information among all the Skype for Business Server 2015 computers in your topology. This cmdlet was introduced in Lync Server 2013.
   
 ```

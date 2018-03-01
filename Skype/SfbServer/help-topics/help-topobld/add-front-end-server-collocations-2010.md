@@ -15,7 +15,7 @@ description: "For an Enterprise Edition deployment, you can collocate either the
 ---
 
 # Add Front End Server Collocations 2010
-[]
+ 
 For an Enterprise Edition deployment, you can collocate either the A/V Conferencing service, the Mediation Server, or both on the Front End pool, or you can deploy each as stand-alone servers. For a Standard Edition server deployment, the A/V Conferencing service is always collocated if conferencing is enabled.
   
 > [!NOTE]

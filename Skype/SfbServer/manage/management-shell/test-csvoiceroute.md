@@ -13,7 +13,7 @@ description: "Tests a telephone number against a voice route number pattern and 
 ---
 
 # Test-CsVoiceRoute
-[]
+ 
 Tests a telephone number against a voice route number pattern and returns a Boolean (true/false) value stating whether the supplied number matches the number pattern for the route. Number pattern is just one of the properties used by voice routes to tell Skype for Business Server 2015 how to route calls from Enterprise Voice users to phone numbers on the public switched telephone network (PSTN) or a private branch exchange (PBX). This cmdlet was introduced in Lync Server 2010.
   
 ```

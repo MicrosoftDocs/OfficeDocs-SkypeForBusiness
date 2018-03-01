@@ -13,7 +13,7 @@ description: "The CallPriorities table is a static table that stores the list of
 ---
 
 # CallPriorities table in Skype for Business Server 2015
-[]
+ 
 The CallPriorities table is a static table that stores the list of possible call priorities, such as 'emergency', 'urgent', or 'normal'.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

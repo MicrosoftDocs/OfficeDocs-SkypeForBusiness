@@ -13,7 +13,7 @@ description: "You have probably already taken steps to design fault tolerance in
 ---
 
 # Best practices for your core infrastructure in Skype for Business Server 2015
-[]
+ 
 You have probably already taken steps to design fault tolerance in your system, using practices such as ensuring hardware redundancy, guarding against power loss, routinely installing security updates and antivirus measures, and Monitoring Server activity. These practices benefit not only your Skype for Business Server infrastructure, but also your entire network. If you have not implemented these practices, we recommend that you do so before deploying Skype for Business Server.
   
 To help protect the servers in your Skype for Business Server deployment from accidental or purposeful harm that might result in downtime, take the following precautions:

@@ -13,7 +13,7 @@ description: "Enables you to modify the property values for any of the Audio Tes
 ---
 
 # Set-CsAudioTestServiceApplication
-[]
+ 
 Enables you to modify the property values for any of the Audio Test service application contacts currently in use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "To delegate setup, you can grant permissions to the RTCUniversalSe
 ---
 
 # Changes made by Grant-CsSetupPermission in Skype for Business Server
-[]
+ 
 To delegate setup, you can grant permissions to the RTCUniversalServerAdmins universal group for a specific Active Directory organizational unit (OU), enabling members of the RTCUniversalServerAdmins group in that OU to install Skype for Business Server in the specified domain without being members of the Domain Admins group. 
   
 The **Grant-CsSetupPermission** cmdlet grants the RTCUniversalServerAdmins group permissions on an OU, as specified in the following table:

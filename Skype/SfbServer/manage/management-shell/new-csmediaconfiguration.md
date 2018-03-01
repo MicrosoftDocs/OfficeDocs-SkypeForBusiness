@@ -14,7 +14,7 @@ description: "Creates a new collection of media settings. These settings can be 
 ---
 
 # New-CsMediaConfiguration
-[]
+ 
 Creates a new collection of media settings. These settings can be used to specify such things as the supported level of encryption and the maximum allowed video resolution. This cmdlet was introduced in Lync Server 2010.
   
 ```

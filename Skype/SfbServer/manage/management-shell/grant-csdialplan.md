@@ -13,7 +13,7 @@ description: "Assigns a dial plan to one or more users or groups. This cmdlet wa
 ---
 
 # Grant-CsDialPlan
-[]
+ 
 Assigns a dial plan to one or more users or groups. This cmdlet was introduced in Lync Server 2010.
   
 ```

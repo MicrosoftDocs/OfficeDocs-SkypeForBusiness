@@ -15,7 +15,7 @@ description: "The Survivable Branch Appliances node lists the Survivable Branch 
 ---
 
 # Branch Office Appliances Scope Node
-[]
+ 
 The **Survivable Branch Appliances** node lists the Survivable Branch Appliances at this branch site. You can perform the following action:
   
 - **New Survivable Branch Appliance**. Starts the **Define New Survivable Branch Appliance** wizard, which you use to add a new Survivable Branch Appliance to this site.

@@ -13,7 +13,7 @@ description: "Skype for Business 2015 Stress and Performance Tool frequently ask
 ---
 
 # FAQ for the Skype for Business Server 2015 Stress and Performance Tool
-[]
+ 
 Skype for Business 2015 Stress and Performance Tool frequently asked questions (FAQ), useful for finding out what tool configurations are supported, troubleshooting tool issues, and clarifying behaviours you may see when running the Stress and Performance tools.
   
  This FAQ covers some of the most frequently asked questions about the Skype for Business Server 2015 Stress and Performance tool, and may help with troubleshooting and tool configuration choices.

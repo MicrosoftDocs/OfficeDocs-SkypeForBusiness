@@ -13,7 +13,7 @@ description: "tblSkippedAffiliations contains the affiliations that could not be
 ---
 
 # tblSkippedAffiliations
-[]
+ 
 tblSkippedAffiliations contains the affiliations that could not be read (usually due to Active Directory Domain Services access errors).
   
 **Columns**

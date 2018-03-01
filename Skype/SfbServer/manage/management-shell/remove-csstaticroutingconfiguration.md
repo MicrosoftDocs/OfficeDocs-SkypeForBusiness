@@ -13,7 +13,7 @@ description: "Removes the specified collection of static routing configuration s
 ---
 
 # Remove-CsStaticRoutingConfiguration
-[]
+ 
 Removes the specified collection of static routing configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

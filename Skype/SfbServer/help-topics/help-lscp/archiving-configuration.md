@@ -15,7 +15,7 @@ description: "You use Archiving configurations to control archiving options for 
 ---
 
 # Archiving Configuration
-[]
+ 
 You use Archiving configurations to control archiving options for your Skype for Business Server deployment, including enabling and disabling the following options:
   
 - Blocking of instant messaging (IM) or conferencing sessions if archiving fails

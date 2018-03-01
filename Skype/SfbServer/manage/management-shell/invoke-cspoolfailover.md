@@ -13,7 +13,7 @@ description: "Invokes the failover process for a Skype for Business Server 2015 
 ---
 
 # Invoke-CsPoolFailOver
-[]
+ 
 Invokes the failover process for a Skype for Business Server 2015 pool. Failover refers to the process that occurs when a pool fails and the current users of that pool are then signed on to a backup pool. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -75,7 +75,7 @@ Pool failover can only be invoked if you have assigned a backup pool to the fail
 | _NoPerformanceCounters_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PrepareForFailoverOnly_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PromptOnError_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
-| _ServersToIgnore_ <br/> |Optional  <br/> |System.String[]  <br/> |PARAMVALUE: String[]  <br/> |
+| _ServersToIgnore_ <br/> |Optional  <br/> |System.String   <br/> |PARAMVALUE: String   <br/> |
 | _SkipFabricHealthCheck_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
    
 ## Input Types

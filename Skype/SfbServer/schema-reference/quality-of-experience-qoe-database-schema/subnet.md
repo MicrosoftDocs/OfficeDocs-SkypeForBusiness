@@ -13,7 +13,7 @@ description: "The Subnet table is a supporting table. Each record represents one
 ---
 
 # Subnet table
-[]
+ 
 The Subnet table is a supporting table. Each record represents one subnet defined in network configuration setting.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

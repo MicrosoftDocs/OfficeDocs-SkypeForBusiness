@@ -13,7 +13,7 @@ description: "Removes a domain from the list of domains that are blocked for fed
 ---
 
 # Remove-CsBlockedDomain
-[]
+ 
 Removes a domain from the list of domains that are blocked for federation. By definition, your users are not allowed to use Skype for Business Server 2015 applications to communicate with people from the blocked domain; for example, users cannot use Skype for Business to exchange instant messages with anyone with a SIP account in a domain that appears on the blocked list. This cmdlet was introduced in Lync Server 2010.
   
 ```

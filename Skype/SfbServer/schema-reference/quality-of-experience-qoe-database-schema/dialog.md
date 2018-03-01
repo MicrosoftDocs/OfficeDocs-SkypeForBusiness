@@ -13,7 +13,7 @@ description: "The Dialog table is a supporting table; each record represents one
 ---
 
 # Dialog table
-[]
+ 
 The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

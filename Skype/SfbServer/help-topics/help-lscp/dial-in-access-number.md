@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Dial-in Access Number
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create or Modify a Dial-in Conferencing Access Number](http://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)

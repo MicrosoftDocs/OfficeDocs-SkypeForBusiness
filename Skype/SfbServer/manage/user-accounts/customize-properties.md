@@ -13,7 +13,7 @@ description: "You can use the procedures in this section to modify individual us
 ---
 
 # Customize user account properties for Skype for Business Server 2015
-[]
+ 
 You can use the procedures in this section to modify individual user account properties.
   
 There are two basic operations that can be done at the individual user level:

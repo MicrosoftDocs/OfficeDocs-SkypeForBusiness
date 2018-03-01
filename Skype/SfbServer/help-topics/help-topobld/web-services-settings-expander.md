@@ -15,7 +15,7 @@ description: "From within Topology Builder, you can modify the port settings use
 ---
 
 # Web Services Settings Expander
-[]
+ 
 From within Topology Builder, you can modify the port settings used for both your internal and external web services. In addition, and if you are deploying Domain Name System (DNS) load balancing, you can use Topology Builder to configure the fully qualified domain name (FQDN) of the pool that resolves to the physical IP addresses of all the servers in that pool.
   
 ### Editing Web Services Settings

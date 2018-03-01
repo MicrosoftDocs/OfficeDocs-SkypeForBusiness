@@ -13,7 +13,7 @@ ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
 ---
 
 # Schema reference for Skype for Business Server 2015
-[]
+ 
 
 ## In this section
 

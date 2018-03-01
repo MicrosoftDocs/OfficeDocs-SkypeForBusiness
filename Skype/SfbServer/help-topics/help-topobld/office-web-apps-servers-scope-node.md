@@ -15,7 +15,7 @@ description: "You right click Office Web Apps Servers and select New Office Web 
 ---
 
 # Office Web Apps Servers Scope Node
-[]
+ 
 You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the Office Online wizard.
   
 ![OfficeWebApps Servers Scope Node](../../media/OfficeWebApps_Servers_Scope_Node.jpg)

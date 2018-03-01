@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about hardware and software requ
 ---
 
 # Hardware and software requirements for archiving in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about hardware and software requirements for archiving in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about hardware and software requirements for archiving in Skype for Business Server 2015.
   
 Skype for Business Server 2015 archiving is now part of the Front End role, so you do not need to install a separate server. You do, however, need to consider the following requirements:
   

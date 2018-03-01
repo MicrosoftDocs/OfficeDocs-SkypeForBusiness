@@ -13,7 +13,7 @@ description: "Removes a collection of QoE (Quality of Experience) settings. This
 ---
 
 # Remove-CsQoEConfiguration
-[]
+ 
 Removes a collection of QoE (Quality of Experience) settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

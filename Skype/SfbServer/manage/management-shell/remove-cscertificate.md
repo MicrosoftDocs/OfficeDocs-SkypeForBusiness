@@ -13,11 +13,11 @@ description: "Removes a certificate previously marked as being available for use
 ---
 
 # Remove-CsCertificate
-[]
+ 
 Removes a certificate previously marked as being available for use by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Remove-CsCertificate -Type <CertType[]> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-Identity <XdsIdentity>] [-Previous <SwitchParameter>] [-Report <String>] [-WhatIf [<SwitchParameter>]]
+Remove-CsCertificate -Type <CertType > [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-Identity <XdsIdentity>] [-Previous <SwitchParameter>] [-Report <String>] [-WhatIf [<SwitchParameter>]]
 
 ```
 
@@ -55,7 +55,7 @@ Remove-CsCertificate -Type WebServicesExternal -Force
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType[]  <br/> |Type of certificate to be deleted. Certificate types include (but are not limited to):  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax deletes the Default certificate:  `-Type Default`.  <br/> You can delete multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
+| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType   <br/> |Type of certificate to be deleted. Certificate types include (but are not limited to):  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax deletes the Default certificate:  `-Type Default`.  <br/> You can delete multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Bypasses the confirmation prompt that typically occurs if you attempt to delete a certificate that is currently in use.  <br/> |
 | _Identity_ <br/> |Optional  <br/> |Microsoft.Rtc.Management.Xds.XdsIdentity  <br/> |When set to Global, removes the certificate from the global scope. When not specified, certificates are removed from the local computer.  <br/> |

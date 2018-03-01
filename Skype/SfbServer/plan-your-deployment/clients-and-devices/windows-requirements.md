@@ -16,8 +16,8 @@ description: "Summary: Review the Windows client support requirements while plan
 ---
 
 # Windows client requirements and software support
-[]
- **Summary:** Review the Windows client support requirements while planning Skype for Business Server 2015.
+ 
+**Summary:** Review the Windows client support requirements while planning Skype for Business Server 2015.
   
 This section summarizes software required to support the Skype for Business 2015 and 2016 Windows clients.
   

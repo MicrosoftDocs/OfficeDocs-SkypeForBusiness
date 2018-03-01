@@ -15,7 +15,7 @@ description: "You use Archiving policies to control archiving of internal and ex
 ---
 
 # Archiving Policy: Create New or Edit Existing
-[]
+ 
 You use Archiving policies to control archiving of internal and external communications in your deployment for users who are homed on Skype for Business Server. Archiving policies include the global policy, and, optionally, one or more site and user policies:
   
 - **Global policy** The global policy is created by default in all Skype for Business Server deployments. You can edit the global policy, but you cannot delete this policy. If you try to delete it, all options are reset to the defaults.

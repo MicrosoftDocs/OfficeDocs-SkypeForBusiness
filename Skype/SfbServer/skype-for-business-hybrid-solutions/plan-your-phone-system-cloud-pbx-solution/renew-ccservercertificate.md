@@ -13,7 +13,7 @@ description: "The Renew-CcServerCertificate cmdlet renews the certificates for S
 ---
 
 # Renew-CcServerCertificate
-[]
+ 
 The Renew-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. This command was changed to Update-CcServerCertificate in Cloud Connector 2.0 and later releases. 
   
 ```

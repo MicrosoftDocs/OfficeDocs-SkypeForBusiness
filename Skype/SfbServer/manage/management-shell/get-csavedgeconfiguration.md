@@ -13,7 +13,7 @@ description: "Returns configuration information for computers running the A/V Ed
 ---
 
 # Get-CsAVEdgeConfiguration
-[]
+ 
 Returns configuration information for computers running the A/V Edge service in your organization. The configuration settings on these computers, also known as A/V Edge servers, enable internal users to share audio and video data with external users (that is, users who are not logged on to your internal network), as well as exchange files and participate in desktop sharing sessions. This cmdlet was introduced in Lync Server 2010.
   
 ```

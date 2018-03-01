@@ -15,7 +15,7 @@ description: "A Standard Edition server deployment automatically installs the re
 ---
 
 # Add Front End SQL Server Store
-[]
+ 
 A Standard Edition server deployment automatically installs the required Microsoft SQL Server Express database software and SQL Server database. Therefore, all options are prepopulated, and you can't make changes to the default configuration.
   
 The Front End pool of an Enterprise Edition server deployment requires a supported 64-bit edition of the SQL Server database software for the back-end database. You can either select a previously defined SQL Server database to be used for the back-end database, or define a new SQL Server database by specifying a fully qualified domain name (FQDN) of the server on which the SQL Server database is to reside, and the instance of SQL Server that you want to use for the new SQL Server database (which can be the default instance, or a named instance that you specify). You can also choose to enable mirroring on the SQL Server store, and specify a mirroring witness for automatic failover.

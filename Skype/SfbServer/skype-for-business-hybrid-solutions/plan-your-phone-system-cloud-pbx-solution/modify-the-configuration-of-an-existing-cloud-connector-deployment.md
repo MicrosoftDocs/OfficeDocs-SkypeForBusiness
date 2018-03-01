@@ -16,7 +16,7 @@ description: "Follow the steps in this topic to modify the configuration of an e
 ---
 
 # Modify the configuration of an existing Cloud Connector deployment
-[]
+ 
 Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment. 
   
 ## Modify the configuration of a single site

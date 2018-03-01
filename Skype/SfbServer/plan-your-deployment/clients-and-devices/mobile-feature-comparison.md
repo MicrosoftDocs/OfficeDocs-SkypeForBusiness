@@ -16,8 +16,8 @@ description: "Summary: Review the feature support for the mobile client while pl
 ---
 
 # Mobile client feature comparison for Skype for Business
-[]
- **Summary:** Review the feature support for the mobile client while planning for Skype for Business Server 2015.
+ 
+**Summary:** Review the feature support for the mobile client while planning for Skype for Business Server 2015.
   
 This article compares the features and capabilities among Skype for Business mobile clients and the Skype for Business desktop client in the following categories:
   

@@ -13,7 +13,7 @@ description: "Enables Microsoft Lync Online federation with all domains except f
 ---
 
 # New-CsEdgeAllowAllKnownDomains
-[]
+ 
 Enables Microsoft Lync Online federation with all domains except for those domains included on the blocked domains list. 
   
 This cmdlet can only be used with Lync Online.

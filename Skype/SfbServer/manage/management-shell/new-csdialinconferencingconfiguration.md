@@ -13,7 +13,7 @@ description: "Creates a new collection of dial-in conferencing configuration set
 ---
 
 # New-CsDialInConferencingConfiguration
-[]
+ 
 Creates a new collection of dial-in conferencing configuration settings. These settings determine how Skype for Business Server 2015 responds when users join or leave a dial-in conference. In particular, information is returned regarding whether or not participants are required to record their name when joining a conference, and how (or if) the system announces that someone has joined or left the call. This cmdlet was introduced in Lync Server 2010.
   
 ```

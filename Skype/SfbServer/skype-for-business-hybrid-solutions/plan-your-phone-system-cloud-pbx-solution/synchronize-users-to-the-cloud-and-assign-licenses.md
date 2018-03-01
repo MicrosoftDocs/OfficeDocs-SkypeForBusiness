@@ -18,7 +18,7 @@ description: "Before actually moving the user to Office 365, you must first conf
 ---
 
 # Synchronize users to the cloud and assign licenses
-[]
+ 
 Before actually moving the user to Office 365, you must first confirm that they are synchronized to the cloud, and assign them a license. To do this, you use the Office 365 Admin Center.
   
 ### To confirm that a user is synchronized with Office 365

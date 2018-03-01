@@ -13,8 +13,8 @@ description: "Summary: Learn how to deploy monitoring in Skype for Business Serv
 ---
 
 # Deploy monitoring in Skype for Business Server 2015
-[]
- **Summary:** Learn how to deploy monitoring in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to deploy monitoring in Skype for Business Server 2015.
   
 You will typically implement monitoring services within your topology by completing the following two steps:
   

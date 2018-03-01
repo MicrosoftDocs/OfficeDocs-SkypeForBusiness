@@ -13,7 +13,7 @@ description: "Returns the client version policy rules configured for use in your
 ---
 
 # Get-CsClientVersionPolicyRule
-[]
+ 
 Returns the client version policy rules configured for use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

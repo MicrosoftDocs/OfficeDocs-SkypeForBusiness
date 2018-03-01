@@ -13,7 +13,7 @@ description: "Modifies and existing Persistent Chat chat room. A chat room is a 
 ---
 
 # Set-CsPersistentChatRoom
-[]
+ 
 Modifies and existing Persistent Chat chat room. A chat room is a discussion forum that typically revolves around a specific topic. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,8 +13,8 @@ description: "Summary: Learn about the Mobility Service in Skype for Business Se
 ---
 
 # Configure Mobility Service for high performance in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Mobility Service in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Mobility Service in Skype for Business Server 2015.
   
 > [!IMPORTANT]
 > This topic applies only to the Skype for Business Server 2015 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013. 

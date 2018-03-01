@@ -13,7 +13,7 @@ description: "The Session View stores information about sessions that have recor
 ---
 
 # Session view
-[]
+ 
 The Session View stores information about sessions that have records in the database. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

@@ -13,7 +13,7 @@ description: "Each record represents one two-party call in which at least one us
 ---
 
 # VoipDetails table
-[]
+ 
 Each record represents one two-party call in which at least one user is a VoIP user.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

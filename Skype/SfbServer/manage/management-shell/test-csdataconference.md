@@ -13,7 +13,7 @@ description: "Verifies whether or not a pair of users can participate in a Skype
 ---
 
 # Test-CsDataConference
-[]
+ 
 Verifies whether or not a pair of users can participate in a Skype for Business Server 2015 web conference that includes activities such as sharing or viewing PowerPoint slides, whiteboards, or polls. The cmdlet also verifies that the Skype for Business Server 2015 web conferencing service can discover Office Web Apps Server and that a client can upload a PowerPoint file for broadcast by Office Web Apps Server.
   
 This cmdlet was introduced in Lync Server 2013. 

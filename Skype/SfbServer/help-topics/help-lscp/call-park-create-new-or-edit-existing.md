@@ -15,7 +15,7 @@ description: "Call Park number ranges define the temporary numbers where parked 
 ---
 
 # Call Park: Create New or Edit Existing
-[]
+ 
 Call Park number ranges define the temporary numbers where parked calls are held until someone retrieves them or they time out.
   
 ## UI Reference

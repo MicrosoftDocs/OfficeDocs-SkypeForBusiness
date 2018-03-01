@@ -13,7 +13,7 @@ description: "Returns information about the server applications in use in your o
 ---
 
 # Get-CsServerApplication
-[]
+ 
 Returns information about the server applications in use in your organization. Server applications are applications that are hosted by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

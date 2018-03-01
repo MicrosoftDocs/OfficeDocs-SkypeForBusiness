@@ -13,7 +13,7 @@ description: "The Exit-CcUpdate cmdlet exits update maintenance mode on the Skyp
 ---
 
 # Exit-CcUpdate
-[]
+ 
 The Exit-CcUpdate cmdlet exits update maintenance mode on the Skype for Business Cloud Connector Edition host server. 
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2. 

@@ -13,7 +13,7 @@ description: "Modifies the settings for a trusted application. This cmdlet was i
 ---
 
 # Set-CsTrustedApplication
-[]
+ 
 Modifies the settings for a trusted application. This cmdlet was introduced in Lync Server 2010.
   
 ```

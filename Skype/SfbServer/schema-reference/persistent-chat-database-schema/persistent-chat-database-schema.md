@@ -13,7 +13,7 @@ description: "This documents the schema of the Persistent Chat database in Skype
 ---
 
 # Persistent Chat database schema
-[]
+ 
 This documents the schema of the Persistent Chat database in Skype for Business Server.
   
 The Persistent Chat database refers to the database corresponding to the Skype for Business Server Back End Server roles **PersistentChatStore** (corresponding to the mgc database) and **PersistentChatComplianceStore** (corresponding to the mgccomp database). The goal of publishing this schema is to enable you to build queries and gain some insights into building useful reporting around chat usage, active rooms, top posters, and so on.

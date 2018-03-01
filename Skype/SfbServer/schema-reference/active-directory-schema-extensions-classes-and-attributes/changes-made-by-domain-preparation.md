@@ -13,7 +13,7 @@ description: "The following table lists the access control entries (ACEs) that d
 ---
 
 # Changes made by domain preparation in Skype for Business Server
-[]
+ 
 The following table lists the access control entries (ACEs) that domain preparation creates on the domain root. All ACEs are inherited unless otherwise noted.
   
 **ACEs Added to Domain Root**

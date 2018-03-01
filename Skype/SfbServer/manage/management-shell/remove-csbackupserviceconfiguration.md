@@ -13,7 +13,7 @@ description: "Resets the properties in the backup service configuration settings
 ---
 
 # Remove-CsBackupServiceConfiguration
-[]
+ 
 Resets the properties in the backup service configuration settings for Skype for Business Server 2015 to their default values. These settings include information about the maximum number of simultaneous Windows Communication Framework calls that can be made to the backup service as well as the backup service synchronization interval. This cmdlet was introduced in Lync Server 2013.
   
 ```

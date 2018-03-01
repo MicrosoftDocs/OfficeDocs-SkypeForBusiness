@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to plan for archiving in Sky
 ---
 
 # Plan for archiving in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to plan for archiving in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to plan for archiving in Skype for Business Server 2015.
   
 Corporations and other organizations are subject to an increasing number of industry and government regulations that require the retention of specific types of communications. If your organization has such requirements, you can use archiving in Skype for Business Server 2015 to archive instant messaging (IM) and conferencing (meeting) communications to help support some of your compliance requirements.
   

@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Item operation, which is part of the 
 ---
 
 # Get Item
-[]
- **Summary:** Learn about the Get Item operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Item operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Item operation is part of the Item Service in the Repository API for Call Quality Dashboard.
   

@@ -13,7 +13,7 @@ description: "Returns information about the voice routes configured for use in a
 ---
 
 # Get-CsVoiceRoute
-[]
+ 
 Returns information about the voice routes configured for use in an organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

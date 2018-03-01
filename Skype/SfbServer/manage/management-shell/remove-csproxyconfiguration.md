@@ -13,7 +13,7 @@ description: "Removes an existing collection of proxy server configuration setti
 ---
 
 # Remove-CsProxyConfiguration
-[]
+ 
 Removes an existing collection of proxy server configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

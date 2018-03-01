@@ -15,7 +15,7 @@ description: "To begin merging a legacy deployment with Skype for Business Serve
 ---
 
 # Legacy Merge Start
-[]
+ 
 To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**. 
   
 

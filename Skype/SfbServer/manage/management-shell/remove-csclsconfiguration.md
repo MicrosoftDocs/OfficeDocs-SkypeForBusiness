@@ -13,7 +13,7 @@ description: "Removes one or more collections of centralized logging configurati
 ---
 
 # Remove-CsClsConfiguration
-[]
+ 
 Removes one or more collections of centralized logging configuration settings. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

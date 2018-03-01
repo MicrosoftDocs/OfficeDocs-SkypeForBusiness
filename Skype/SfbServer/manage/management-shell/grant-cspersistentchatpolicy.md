@@ -13,7 +13,7 @@ description: "Assigns a per-user Persistent Chat policy to a user. Persistent Ch
 ---
 
 # Grant-CsPersistentChatPolicy
-[]
+ 
 Assigns a per-user Persistent Chat policy to a user. Persistent Chat policies determine whether or not users are allowed access to Persistent Chat chat rooms. This cmdlet was introduced in Lync Server 2013.
   
 ```

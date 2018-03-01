@@ -13,7 +13,7 @@ description: "This article summarizes the requirements for supporting a Skype Ro
 ---
 
 # Skype Room Systems v2 requirements
-[]
+ 
 This article summarizes the requirements for supporting a Skype Room Systems v2. 
   
 Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in[Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).

@@ -13,7 +13,7 @@ description: "Disables a service or server role that has been removed from a com
 ---
 
 # Disable-CsComputer
-[]
+ 
 Disables a service or server role that has been removed from a computer running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

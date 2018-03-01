@@ -13,7 +13,7 @@ description: "Read this topic to learn how to manage Skype Room System accounts.
 ---
 
 # Manage Skype Room System accounts
-[]
+ 
 Read this topic to learn how to manage Skype Room System accounts.
   
 ## Move the Skype Room System account between pools

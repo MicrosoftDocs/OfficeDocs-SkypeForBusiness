@@ -14,7 +14,7 @@ description: "Use the New-CsTelemetryConfiguration cmdlet to create new configur
 ---
 
 # New-CsTelemetryConfiguration
-[]
+ 
 Use the **New-CsTelemetryConfiguration** cmdlet to create new configurations for telemetry. UNRESOLVED_TOKEN_VAL(PS_TelemetryDataStatement)
   
 ```

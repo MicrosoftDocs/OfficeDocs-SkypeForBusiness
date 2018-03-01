@@ -13,7 +13,7 @@ description: "Verifies the ability to connect to a federated domain. This cmdlet
 ---
 
 # Test-CsFederatedPartner
-[]
+ 
 Verifies the ability to connect to a federated domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

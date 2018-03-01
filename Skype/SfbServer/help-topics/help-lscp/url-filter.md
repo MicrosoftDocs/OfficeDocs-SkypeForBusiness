@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # URL Filter
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Modify the Default URL Filter](http://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)

@@ -13,7 +13,7 @@ description: "The DeRegisterType table is a static table that stores the list of
 ---
 
 # DeRegisterType table in Skype for Business Server 2015
-[]
+ 
 The DeRegisterType table is a static table that stores the list of possible user de-registers types, such as 'client initiated', 'registration expired', or 'client stopped responding.'
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

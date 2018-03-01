@@ -13,7 +13,7 @@ description: "Enables you to assign instant messaging (IM) session archiving pol
 ---
 
 # Grant-CsArchivingPolicy
-[]
+ 
 Enables you to assign instant messaging (IM) session archiving policies to users or sets of users. These policies give you the ability to archive all IM sessions that take place between internal users, and/or to archive all IM sessions that take place between internal users and external partners. This cmdlet was introduced in Lync Server 2010.
   
 ```

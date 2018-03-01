@@ -15,7 +15,7 @@ description: "When making a certificate request to an online certification autho
 ---
 
 # Certificate Request (Certificate Authority)
-[]
+ 
 When making a certificate request to an online certification authority (CA) (typically, these are servers that are on your internal network) on the **Choose a Certification Authority (CA)** page, you are presented with two options:
   
 1. Select a CA from the list detected in your environment.

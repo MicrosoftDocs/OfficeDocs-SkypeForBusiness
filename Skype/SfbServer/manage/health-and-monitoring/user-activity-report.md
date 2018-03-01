@@ -13,8 +13,8 @@ description: "Summary: Learn about the User Activity Report in Skype for Busines
 ---
 
 # User Activity Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the User Activity Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the User Activity Report in Skype for Business Server 2015.
   
 The User Activity Report provides a detailed list of the peer-to-peer and conferencing sessions carried out by your users in a given time period. Unlike many of the Monitoring Reports, the User Activity Report ties each call to individual users. For example, peer-to-peer sessions specify the SIP URIs of the person who initiated the call (the From user) and the person who was being called (the To user). If you expand the information for a conference, you'll see a list of all the conference participants and the role they held for that conference.
   

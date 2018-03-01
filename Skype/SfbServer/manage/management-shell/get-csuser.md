@@ -13,7 +13,7 @@ description: "Returns information about all the users in your organization who h
 ---
 
 # Get-CsUser
-[]
+ 
 Returns information about all the users in your organization who have been enabled for Skype for Business Server 2015 or a previous version of the software. This cmdlet was introduced in Lync Server 2010.
   
 ```

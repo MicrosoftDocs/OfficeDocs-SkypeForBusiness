@@ -16,7 +16,7 @@ description: "Skype for Business Server offers high availability with server poo
 ---
 
 # Plan for high availability and disaster recovery in Skype for Business Server 2015
-[]
+ 
 Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering. 
   
 High availability refers to making sure that Skype for Business Server services are available even if one or more servers goes down.Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.

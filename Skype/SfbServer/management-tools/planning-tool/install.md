@@ -14,7 +14,7 @@ description: "Before you begin designing and planning your Skype for Business Se
 ---
 
 # Install the Planning Tool in Skype for Business Server 2015
-[]
+ 
 Before you begin designing and planning your Skype for Business Server 2015 infrastructure by using the Skype for Business Server 2015 Planning Tool, you must first install the Planning Tool. The Planning Tool does not need to be deployed to a workstation or server that is part of the domain or infrastructure where you plan to install Skype for Business Server 2015. The Readme file that accompanies the Planning Tool details important information about installing and using the tool. Some of the information in the Readme file is duplicated here for clarity.
   
 > [!IMPORTANT]

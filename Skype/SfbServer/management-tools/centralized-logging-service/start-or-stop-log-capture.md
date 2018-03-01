@@ -14,8 +14,8 @@ description: "Summary: Learn how to start or stop a Centralized Logging Service 
 ---
 
 # Start or stop CLS log capture in Skype for Business Server 2015
-[]
- **Summary:** Learn how to start or stop a Centralized Logging Service log capture session in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to start or stop a Centralized Logging Service log capture session in Skype for Business Server 2015.
   
 To capture trace logs using the Centralized Logging Service, you issue a command to begin logging on one or more computers and pools. You also issue parameters that define which computers or pools, what scenarios to run (for example, AlwaysOn, another predefined scenario, or a scenario you have created), what Skype for Business Server components (for example, S4, SipStack) to trace.
   

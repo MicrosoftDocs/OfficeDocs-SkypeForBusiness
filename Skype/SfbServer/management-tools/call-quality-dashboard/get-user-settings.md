@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get User Settings operation, which is par
 ---
 
 # Get User Settings
-[]
- **Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.
   

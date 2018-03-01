@@ -13,7 +13,7 @@ description: "Use the Repair-CsInterPoolConfDataRecovery cmdlet to repair confer
 ---
 
 # Repair-CsInterPoolConfDataRecovery
-[]
+ 
 Use the **Repair-CsInterPoolConfDataRecovery** cmdlet to repair conference data in the target pool of a partial fail-over. The cmdlet compares conference data between the failed-over pool and the target pool and synchronizes the discrepancies.
   
 ```

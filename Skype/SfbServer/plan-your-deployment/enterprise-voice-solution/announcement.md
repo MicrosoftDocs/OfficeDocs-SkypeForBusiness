@@ -15,7 +15,7 @@ description: "Planning for the announcement application in Skype for Business Se
 ---
 
 # Plan for the Announcement application in Skype for Business 2015
-[]
+ 
 Planning for the announcement application in Skype for Business Server Enterprise Voice, which configures what to do with phone calls to unassigned phone numbers in your organizations. Includes audio file requirements.
   
 The Skype for Business Server Announcement application enables you to configure the handling of incoming phone calls when the dialed number is valid for your organization, but is not assigned to a user or a phone. You can transfer these calls to a predetermined destination (phone number, SIP URI, or voice mail), or play an audio announcement, or both. The Announcement application helps you avoid the situations in which a caller misdials and hears a busy tone or the SIP client receives an error message. This section includes planning information that is specific to the Announcement application

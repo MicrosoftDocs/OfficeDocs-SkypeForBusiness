@@ -13,8 +13,8 @@ description: "Summary: Learn about the Peer-to-Peer Activity Summary Report in S
 ---
 
 # Peer-to-Peer Activity Summary Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server 2015.
   
 The Peer-to-Peer Activity Summary Report provides an overall view of your peer-to-peer communication sessions. A peer-to-peer session typically involves just two users, and does not require the use of the Skype for Business Server conferencing services. By comparison, a conference typically involves more than two users and requires the use of Skype for Business Server 2015 conferencing services. Conference activity is reported on the Conference Summary Report.
   

@@ -13,7 +13,7 @@ description: "The following topics detail the columns in each of the call detail
 ---
 
 # CDR table details in Skype for Business Server 2015
-[]
+ 
 The following topics detail the columns in each of the call detail records (CDR) database schema tables.
   
 ## In this section

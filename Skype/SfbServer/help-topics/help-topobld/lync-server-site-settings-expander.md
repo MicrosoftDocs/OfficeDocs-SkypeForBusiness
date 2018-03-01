@@ -15,7 +15,7 @@ description: "To edit the properties of an existing site, do the following:"
 ---
 
 # Lync Server Site Settings Expander
-[]
+ 
 To edit the properties of an existing site, do the following:
   
 ## 

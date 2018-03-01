@@ -15,8 +15,8 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 ---
 
 # Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015
-[]
- **Summary:** Create or modify voice policies and configure PSTN usage records by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Create or modify voice policies and configure PSTN usage records by using the Skype for Business Server Control Panel.
   
 > [!NOTE]
 > Each voice policy must have at least one associated Public Switched Telephone Network (PSTN) usage record. To see a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md). 

@@ -14,8 +14,8 @@ description: "Summary: Install and configure watcher nodes for Skype for Busines
 ---
 
 # Install and configure watcher nodes
-[]
- **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
+ 
+**Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
 Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions. Synthetic transactions are Windows PowerShell cmdlets that verify that key user scenarios, such as the ability to sign in or to exchange instant messages, are working as expected. For Skype for Business Server 2015, System Center Operations Manager can run the synthetic transactions shown in the following table, which includes three synthetic transaction types:
   

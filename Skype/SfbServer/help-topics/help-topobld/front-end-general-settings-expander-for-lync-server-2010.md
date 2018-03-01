@@ -15,7 +15,7 @@ description: "You edit the properties of the Front End Server or Front End pool 
 ---
 
 # Front End General Settings Expander for Lync Server 2010
-[]
+ 
 You edit the properties of the Front End Server or Front End pool by editing or configuring the following attributes. The configuration page is separated into the following sections:
   
  **General**

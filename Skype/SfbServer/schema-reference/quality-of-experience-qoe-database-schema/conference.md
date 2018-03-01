@@ -13,7 +13,7 @@ description: "The Conference table is a supporting table. Each record represents
 ---
 
 # Conference table
-[]
+ 
 The Conference table is a supporting table. Each record represents one conference or peer-to-peer session.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

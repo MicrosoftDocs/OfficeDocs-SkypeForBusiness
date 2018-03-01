@@ -13,8 +13,8 @@ description: "Summary: Learn how to add or remove Front End Servers in Skype for
 ---
 
 # Add or remove a Front End Server in Skype for Business Server 2015
-[]
- **Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.
+ 
+**Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.
   
 When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. 
   

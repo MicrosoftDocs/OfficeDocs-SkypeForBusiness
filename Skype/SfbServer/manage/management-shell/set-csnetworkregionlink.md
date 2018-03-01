@@ -13,7 +13,7 @@ description: "Modifies a link between two network regions configured for call ad
 ---
 
 # Set-CsNetworkRegionLink
-[]
+ 
 Modifies a link between two network regions configured for call admission control (CAC). This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Read this topic to learn how to check whether you have a Skype for
 ---
 
 # Skype Room System: Skype for Business software license
-[]
+ 
 Read this topic to learn how to check whether you have a Skype for Business software volume license. 
   
 Skype Room System uses an installed Skype for Business client, which requires a software volume license. Before deploying the first Skype Room System, find out the volume license state of the deployment - using Key Management Servers (KMS) or Multiple Activation Keys (MAK).

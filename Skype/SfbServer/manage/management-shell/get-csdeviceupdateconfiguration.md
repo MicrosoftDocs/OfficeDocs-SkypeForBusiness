@@ -13,7 +13,7 @@ description: "Returns information about the device update configuration settings
 ---
 
 # Get-CsDeviceUpdateConfiguration
-[]
+ 
 Returns information about the device update configuration settings currently deployed in your organization. These settings help manage the Device Update Web service, a Skype for Business Server 2015 component that enables administrators to distribute firmware updates to telephones and other devices running Skype for Business. This cmdlet was introduced in Lync Server 2010.
   
 ```

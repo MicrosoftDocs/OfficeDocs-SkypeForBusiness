@@ -15,7 +15,7 @@ description: "Members of the CsPersistentChatAdministrator role (Persistent Chat
 ---
 
 # Users: View Persistent Chat
-[]
+ 
 Members of the **CsPersistentChatAdministrator** role (Persistent Chat Administrators) can grant chat room manager rights and permissions to other users and to themselves.
   
 A Persistent Chat Administrator can do the following:

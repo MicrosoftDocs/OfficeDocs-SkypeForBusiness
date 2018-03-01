@@ -13,7 +13,7 @@ description: "Creates a new SipProxy.TLS object, which can then be used to confi
 ---
 
 # New-CsSipProxyTLS
-[]
+ 
 Creates a new SipProxy.TLS object, which can then be used to configure a static route to use Transport Layer Security (TLS) as its transport protocol. This cmdlet was introduced in Lync Server 2010.
   
 ```

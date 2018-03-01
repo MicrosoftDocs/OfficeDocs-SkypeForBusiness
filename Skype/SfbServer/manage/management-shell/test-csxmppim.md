@@ -13,7 +13,7 @@ description: "Verifies whether or not an instant message can be sent across an X
 ---
 
 # Test-CsXmppIM
-[]
+ 
 Verifies whether or not an instant message can be sent across an XMPP gateway. XMPP gateways enable Skype for Business Server 2015 users to exchange instant message and presence information with users belonging to IM and presence providers that employ the extensible Messaging and Presence Protocol (XMPP). This cmdlet was introduced in Lync Server 2013.
   
 ```

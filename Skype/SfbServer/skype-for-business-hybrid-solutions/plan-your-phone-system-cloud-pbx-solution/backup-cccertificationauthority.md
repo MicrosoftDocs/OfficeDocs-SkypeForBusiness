@@ -13,7 +13,7 @@ description: "The Backup-CcCertificationAuthority cmdlet backs up the Skype for 
 ---
 
 # Backup-CcCertificationAuthority
-[]
+ 
 The Backup-CcCertificationAuthority cmdlet backs up the Skype for Business Cloud Connector Edition certification authority service to a file and saves it to the CA folder under the site share directory.
   
 ```

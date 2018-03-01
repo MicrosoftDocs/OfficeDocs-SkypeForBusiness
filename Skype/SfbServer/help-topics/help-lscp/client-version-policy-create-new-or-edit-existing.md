@@ -15,7 +15,7 @@ description: "You can specify the version of clients that are supported in your 
 ---
 
 # Client Version Policy: Create New or Edit Existing
-[]
+ 
 You can specify the version of clients that are supported in your environment. When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client. To make the greatest use of features included in Skype for Business Server 2015 and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment. By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.
   
 > [!IMPORTANT]

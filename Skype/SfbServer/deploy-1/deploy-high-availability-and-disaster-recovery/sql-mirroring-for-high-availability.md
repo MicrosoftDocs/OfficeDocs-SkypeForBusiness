@@ -13,7 +13,7 @@ description: "To be able to deploy SQL mirroring, your servers must run a minimu
 ---
 
 # Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015
-[]
+ 
 
 To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2. This version must run on all the involved servers: the primary, mirror, and the witness. For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
   

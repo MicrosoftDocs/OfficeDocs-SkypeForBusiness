@@ -14,7 +14,7 @@ description: "Understand the ways you can access Skype for Business features fro
 ---
 
 # Skype for Business compatibility with Office apps
-[]
+ 
 Understand the ways you can access Skype for Business features from Outlook and other Microsoft Office applications.
   
 This topic describes the compatibility of Skype for Business with various versions of Microsoft Office suites. 

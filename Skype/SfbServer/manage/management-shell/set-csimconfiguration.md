@@ -13,7 +13,7 @@ description: "Use the Set-CsImConfiguration cmdlet to modify an existing Instant
 ---
 
 # Set-CsImConfiguration
-[]
+ 
 Use the **Set-CsImConfiguration** cmdlet to modify an existing Instant Messaging (IM) configuration.
   
 ```

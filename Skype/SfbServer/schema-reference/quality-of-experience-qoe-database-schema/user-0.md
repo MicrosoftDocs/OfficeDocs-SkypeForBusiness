@@ -13,7 +13,7 @@ description: "The User table is a supporting table that stores a list of the var
 ---
 
 # User table
-[]
+ 
 The User table is a supporting table that stores a list of the various users who have participated in sessions recorded in the database. Each record in the table represents one user.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

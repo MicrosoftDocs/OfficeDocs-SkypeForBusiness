@@ -14,8 +14,8 @@ description: "Summary: How to manage Group Policy for Skype for Business."
 ---
 
 # Configure client bootstrapping policies in Skype for Business Server 2015
-[]
- **Summary:** How to manage Group Policy for Skype for Business.
+ 
+**Summary:** How to manage Group Policy for Skype for Business.
   
 The Group Policy Management Console (GPMC) and the Group Policy Object Editor are tools that you use to manage Group Policy. Included with the Office Group Policy Administrative Template are lync16.admx (ADMX) and .adml (ADML) Administrative Templates, which contain the registry-based policy settings for Skype for Business that you configure for Group Policy objects in the domain. ADML files are language-specific complements to ADMX files. Each ADMX and ADML file contains the policy settings for a single Office application. You can [download the Office 2016 Administrative Template files (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) for free from the Microsoft Download Center.
   

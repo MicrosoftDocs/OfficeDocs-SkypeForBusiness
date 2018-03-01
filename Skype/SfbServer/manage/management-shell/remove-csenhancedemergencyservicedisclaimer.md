@@ -13,7 +13,7 @@ description: "Removes the disclaimer text that is used globally to prompt for lo
 ---
 
 # Remove-CsEnhancedEmergencyServiceDisclaimer
-[]
+ 
 Removes the disclaimer text that is used globally to prompt for location information for an Enhanced 9-1-1 (E9-1-1) implementation. This cmdlet was introduced in Lync Server 2010.
   
 ```

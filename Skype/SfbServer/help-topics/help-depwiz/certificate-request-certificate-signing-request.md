@@ -15,7 +15,7 @@ description: "To create an offline request, you must first create a certificate 
 ---
 
 # Certificate Request (Certificate Signing Request)
-[]
+ 
 To create an offline request, you must first create a certificate signing request (CSR). Type the path and file name for the CSR in the **File Name** text box. You can click **Browse** to choose a location to create the CSR. Click **Next** to continue.
   
 Click **Back** to go back to the previous screen. Click **Cancel** to exit without making changes to the system.

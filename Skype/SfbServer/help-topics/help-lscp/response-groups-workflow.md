@@ -15,7 +15,7 @@ description: "Response groups consist of agent groups, queues, and workflows. Re
 ---
 
 # Response Groups Workflow
-[]
+ 
 Response groups consist of agent groups, queues, and workflows. Response Group workflows define the actions that are taken when the Response Group application receives a phone call. 
   
 The **Response Groups** - **Workflow** page displays a list of all the Response Group workflows that are defined for your organization.

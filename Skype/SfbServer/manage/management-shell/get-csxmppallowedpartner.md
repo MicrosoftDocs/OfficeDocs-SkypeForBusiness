@@ -13,7 +13,7 @@ description: "Returns information about XMPP partners authorized to communicate 
 ---
 
 # Get-CsXmppAllowedPartner
-[]
+ 
 Returns information about XMPP partners authorized to communicate with your organization. The extensible Messaging and Presence Protocol (XMPP) is an open-standard communications protocol for exchanging messages using XML. Allowed partners are IM and presence providers that have been authorized to exchange instant messages and presence information with your Skype for Business Server 2015 users. This cmdlet was introduced in Lync Server 2013.
   
 ```

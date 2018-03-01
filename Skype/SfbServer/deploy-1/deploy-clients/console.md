@@ -14,7 +14,7 @@ description: "This article describes how to set up the Skype Room Systems v2 con
 ---
 
 # Configure a Skype Room Systems v2 console
-[]
+ 
 This article describes how to set up the Skype Room Systems v2 console device and its peripherals.
   
 You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Skype Room Systems v2](room-systems-v2.md). You will need the hardware and software described in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:

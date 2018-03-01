@@ -13,7 +13,7 @@ description: "Modifies the management connection to the Central Management store
 ---
 
 # Set-CsManagementConnection
-[]
+ 
 Modifies the management connection to the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

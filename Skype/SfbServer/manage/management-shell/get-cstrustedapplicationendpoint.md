@@ -13,7 +13,7 @@ description: "Retrieves information about one or more trusted application endpoi
 ---
 
 # Get-CsTrustedApplicationEndpoint
-[]
+ 
 Retrieves information about one or more trusted application endpoints. This cmdlet was introduced in Lync Server 2010.
   
 ```

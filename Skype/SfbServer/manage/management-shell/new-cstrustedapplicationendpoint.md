@@ -13,7 +13,7 @@ description: "Creates a new endpoint contact for a trusted application. This cmd
 ---
 
 # New-CsTrustedApplicationEndpoint
-[]
+ 
 Creates a new endpoint contact for a trusted application. This cmdlet was introduced in Lync Server 2010.
   
 ```

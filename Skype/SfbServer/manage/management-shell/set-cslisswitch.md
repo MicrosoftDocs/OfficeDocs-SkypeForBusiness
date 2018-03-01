@@ -13,7 +13,7 @@ description: "Creates a Location Information Server (LIS) switch, creates an ass
 ---
 
 # Set-CsLisSwitch
-[]
+ 
 Creates a Location Information Server (LIS) switch, creates an association between a switch and a location (creating a new location if that location doesn't exist), or modifies an existing switch and its associated location. The association between a switch and location is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010.
   
 ```

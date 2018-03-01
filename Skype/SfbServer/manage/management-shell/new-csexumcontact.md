@@ -13,7 +13,7 @@ description: "Creates a new Auto Attendant or Subscriber Access contact object f
 ---
 
 # New-CsExUmContact
-[]
+ 
 Creates a new Auto Attendant or Subscriber Access contact object for hosted Exchange Unified Messaging (UM). This cmdlet was introduced in Lync Server 2010.
   
 > [!NOTE]

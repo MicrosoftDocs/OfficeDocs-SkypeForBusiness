@@ -13,7 +13,7 @@ description: "Removes outdated information from the specified user store.Outdate
 ---
 
 # Remove-CsUserStoreBackupData
-[]
+ 
 Removes outdated information from the specified user store. "Outdated information" refers user data from a Registrar pool no longer paired with the specified user store. For example, suppose Pools A and B were once paired; now, however, that association has been changed, and Pools A and C are paired. When run against Pool A, the Remove-CsUserStoreBackupData cmdlet will remove information about users from Pool B. This cmdlet was introduced in Lync Server 2013.
   
 ```

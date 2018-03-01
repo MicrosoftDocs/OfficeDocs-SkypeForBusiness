@@ -13,8 +13,8 @@ description: "Summary: Learn about the Media Quality Diagnostic Reports in Skype
 ---
 
 # Media Quality Diagnostic Reports in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Media Quality Diagnostic Reports in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Media Quality Diagnostic Reports in Skype for Business Server 2015.
   
 The Media Quality Diagnostic Reports provide information about call quality, and diagnostic and troubleshooting information for failed calls.
   

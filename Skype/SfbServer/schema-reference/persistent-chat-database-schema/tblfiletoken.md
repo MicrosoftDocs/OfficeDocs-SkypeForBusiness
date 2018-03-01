@@ -13,7 +13,7 @@ description: "tblFileToken contains temporary tokens for file transfer purposes.
 ---
 
 # tblFileToken
-[]
+ 
 tblFileToken contains temporary tokens for file transfer purposes.
   
 **Columns**

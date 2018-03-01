@@ -13,7 +13,7 @@ description: "Use the Set-CsVideoInteropServerConfiguration cmdlet to modify an 
 ---
 
 # Set-CsVideoInteropServerConfiguration
-[]
+ 
 Use the **Set-CsVideoInteropServerConfiguration** cmdlet to modify an existing collection of Video Interop Server (VIS) configuration settings. VIS settings are scoped to appropriate VIS instances, and will govern the behavior of those instances. The Video Interop Server (VIS) enables you to incorporate 3rd party video teleconferencing systems (VTCs) into your Skype for Business infrastructure. VIS is a Skype for Business service that runs on a standalone pool and cannot be co-located on an FE pool.
   
 This cmdlet was introduced in Skype for Business Server 2015.

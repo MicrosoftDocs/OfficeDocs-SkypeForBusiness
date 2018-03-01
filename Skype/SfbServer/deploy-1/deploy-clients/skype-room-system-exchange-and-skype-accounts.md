@@ -13,7 +13,7 @@ description: "Read these topics to learn how to provision Exchange and Skype acc
 ---
 
 # Provisioning of Skype Room System Exchange and Skype Accounts
-[]
+ 
 Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System.
   
 > [!NOTE]

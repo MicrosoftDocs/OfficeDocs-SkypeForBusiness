@@ -15,8 +15,8 @@ description: "Summary: Review the DNS considerations in this topic before implem
 ---
 
 # DNS requirements for Skype for Business Server 2015
-[]
- **Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server 2015.
   
 This article only addresses DNS planning for Skype for Business Server 2015 deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips). 
   

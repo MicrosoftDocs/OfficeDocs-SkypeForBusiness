@@ -13,8 +13,8 @@ description: "Summary: How to use the Capacity Calculator Tool."
 ---
 
 # Skype for Business Server 2015 Capacity Planning Calculator
-[]
- **Summary:** How to use the Capacity Calculator Tool.
+ 
+**Summary:** How to use the Capacity Calculator Tool.
   
 [Skype for Business Server 2015 Capacity Calculator](https://www.microsoft.com/en-us/download/details.aspx?id=51196) augments the[Skype for Business 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) and the documentation at[Plan for your Skype for Business Server 2015 deployment](https://technet.microsoft.com/en-us/library/dn951427). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
   

@@ -14,8 +14,8 @@ description: "Summary: Configure server to server authentication for Exchange Se
 ---
 
 # Configure partner applications in Skype for Business Server 2015 and Exchange Server
-[]
- **Summary:** Configure server to server authentication for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+ 
+**Summary:** Configure server to server authentication for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
   
 Server-to-server authentication usually requires two servers that need to communicate with one another and a third-party security token server. If Server A and Server B need to communicate, then both of those servers typically start by contacting a token server and obtaining a mutually-trusted security token. Server A then presents that security token to Server B (and vice-versa) as a way to guarantee its authenticity and trustworthiness.
   

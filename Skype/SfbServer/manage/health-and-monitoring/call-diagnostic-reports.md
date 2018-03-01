@@ -13,8 +13,8 @@ description: "Summary: Learn about the multi-user Call Diagnostic Reports used i
 ---
 
 # Call Diagnostic Reports in Skype for Business Server 2015
-[]
- **Summary:** Learn about the multi-user Call Diagnostic Reports used in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the multi-user Call Diagnostic Reports used in Skype for Business Server 2015.
   
 The Call Diagnostic Reports provide summary information and diagnostic data for failed peer-to-peer and conferencing sessions.
   

@@ -14,7 +14,7 @@ description: "After you've completed the steps to deploy and configure Skype for
 ---
 
 # Validate your Cloud Connector deployment
-[]
+ 
 After you've completed the steps to deploy and configure Skype for Business Cloud Connector Edition, verify that you can make and receive calls.
   
 ## Validate the deployment

@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Integration Log operation, which is p
 ---
 
 # Get Integration Log
-[]
- **Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Integration Log operation is part of the Data API for Call Quality Dashboard
   

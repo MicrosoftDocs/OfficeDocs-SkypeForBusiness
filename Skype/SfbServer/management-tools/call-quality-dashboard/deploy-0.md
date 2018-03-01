@@ -14,8 +14,8 @@ description: "Summary: Learn about the deployment process for Call Quality Dashb
 ---
 
 # Deploy Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 ## Deployment Overview
 

@@ -15,7 +15,7 @@ description: "You can specify location details for your site, including a city, 
 ---
 
 # Add Site Details
-[]
+ 
 You can specify location details for your site, including a city, state/province, or country/region code. All of these location details are optional.
   
 

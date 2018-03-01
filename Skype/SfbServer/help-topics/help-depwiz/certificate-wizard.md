@@ -15,7 +15,7 @@ description: "To Request, Assign, Remove, or View certificates, you use the Cert
 ---
 
 # Certificate Wizard
-[]
+ 
 To **Request**, **Assign**, **Remove**, or **View** certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you do not need any additional group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you will need. During the Request task, you can enter alternate credentials that will be used to request the certificate from your PKI's issuing CA.
   
 To request a new certificate, click **Request**.

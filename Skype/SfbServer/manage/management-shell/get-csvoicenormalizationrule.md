@@ -13,7 +13,7 @@ description: "Returns information about the voice normalization rules used in yo
 ---
 
 # Get-CsVoiceNormalizationRule
-[]
+ 
 Returns information about the voice normalization rules used in your organization. Voice normalization rules convert telephone dialing requirements (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

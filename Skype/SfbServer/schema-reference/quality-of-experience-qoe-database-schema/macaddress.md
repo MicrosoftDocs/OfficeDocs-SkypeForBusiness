@@ -13,7 +13,7 @@ description: "The MacAddress table is a supporting table. Each record represents
 ---
 
 # MacAddress table
-[]
+ 
 The MacAddress table is a supporting table. Each record represents one source.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

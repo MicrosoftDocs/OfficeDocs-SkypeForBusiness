@@ -15,7 +15,7 @@ description: "The Prepare Domain page begins the process of preparing the domain
 ---
 
 # Prepare Current Domain (Intro)
-[]
+ 
 The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server 2015. Click **Next** to begin preparing the domain.
   
 

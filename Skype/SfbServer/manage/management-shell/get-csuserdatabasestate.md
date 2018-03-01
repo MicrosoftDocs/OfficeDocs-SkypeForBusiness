@@ -13,7 +13,7 @@ description: "Returns information about the online status (True or False) of one
 ---
 
 # Get-CsUserDatabaseState
-[]
+ 
 Returns information about the online status (True or False) of one or more Skype for Business Server 2015 user databases. This cmdlet was introduced in Lync Server 2010.
   
 ```

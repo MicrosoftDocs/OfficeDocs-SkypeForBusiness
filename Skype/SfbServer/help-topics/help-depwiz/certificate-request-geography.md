@@ -15,7 +15,7 @@ description: "The Geographical Information page requests additional information 
 ---
 
 # Certificate Request (Geography)
-[]
+ 
 The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.
   
 

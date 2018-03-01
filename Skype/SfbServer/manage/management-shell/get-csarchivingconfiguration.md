@@ -13,7 +13,7 @@ description: "Returns information about how (or if) instant messaging (IM) sessi
 ---
 
 # Get-CsArchivingConfiguration
-[]
+ 
 Returns information about how (or if) instant messaging (IM) sessions are archived in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "To define the next hop for a Mediation Server that you are definin
 ---
 
 # Add Mediation Server NextHop
-[]
+ 
 To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server. Click **Next** to continue.
   
 

@@ -13,7 +13,7 @@ description: "Returns information about the role-based access control (RBAC) rol
 ---
 
 # Get-CsAdminRole
-[]
+ 
 Returns information about the role-based access control (RBAC) roles used in your organization. RBAC roles are used to specify the management tasks that users are allowed to carry out, and to determine the scope in which users will be allowed to perform these tasks. This cmdlet was introduced in Lync Server 2010.
   
 ```

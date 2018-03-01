@@ -15,8 +15,8 @@ description: "Summary: Prepare your Skype for Business Server 2015 servers with 
 ---
 
 # Server requirements for Skype for Business Server 2015
-[]
- **Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+ 
+**Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
 As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article will walk you through planning for the following:
   

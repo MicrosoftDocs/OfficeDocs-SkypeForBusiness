@@ -15,7 +15,7 @@ description: "On the New Device Configuration or Edit Device Configuration page,
 ---
 
 # Device Configuration: Create New or Edit Existing
-[]
+ 
 On the **New Device Configuration** or **Edit Device Configuration** page, you can create or modify a collection of settings used to manage Skype for Business Phone Edition. These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.
   
 ## Tasks you can perform

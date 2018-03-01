@@ -13,7 +13,7 @@ description: "Returns information about the Federal Information Processing Stand
 ---
 
 # Get-CsFIPSConfiguration
-[]
+ 
 Returns information about the Federal Information Processing Standards (FIPS) configuration settings currently in use in the organization. The FIPS standards are a set of United States government security standards required for use in computers maintained by non-military government agencies and by government contractors. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -15,7 +15,7 @@ description: "Learn about SIP trunking in Skype for Business Server Enterprise V
 ---
 
 # SIP trunking in Skype for Business Server 2015
-[]
+ 
 Learn about SIP trunking in Skype for Business Server Enterprise Voice
   
 Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing SIP trunks, a type of SIP connection that extends beyond the boundary of your local network.

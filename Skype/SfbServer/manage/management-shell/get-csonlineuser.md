@@ -13,7 +13,7 @@ description: "Returns information about users who have accounts homed on Microso
 ---
 
 # Get-CsOnlineUser
-[]
+ 
 Returns information about users who have accounts homed on Microsoft Lync Online. This cmdlet can only be used with Skype for Business Online.
   
 ```

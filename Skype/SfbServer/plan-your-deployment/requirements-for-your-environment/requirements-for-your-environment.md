@@ -15,8 +15,8 @@ description: "Summary: Outline of topics for systems requirements and network or
 ---
 
 # Requirements for your Skype for Business environment
-[]
- **Summary:** Outline of topics for systems requirements and network or infrastructure requirements for Skype for Business Server 2015. If you need to install or configure anything as a prerequisite to installing and deploying Skype for Business Server 2015, it will be here.
+ 
+**Summary:** Outline of topics for systems requirements and network or infrastructure requirements for Skype for Business Server 2015. If you need to install or configure anything as a prerequisite to installing and deploying Skype for Business Server 2015, it will be here.
   
 This is the landing page for articles about requirements around a Skype for Business Server 2015 deployment. This includes both server requirements and more general things to prepare for, including your domain and networking structure, and certificates.
   

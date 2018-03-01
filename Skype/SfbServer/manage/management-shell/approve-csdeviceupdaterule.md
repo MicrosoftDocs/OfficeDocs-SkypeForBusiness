@@ -13,7 +13,7 @@ description: "Approves a device update rule that has been imported to the system
 ---
 
 # Approve-CsDeviceUpdateRule
-[]
+ 
 Approves a device update rule that has been imported to the system. After a device update rule has been approved, the corresponding update will automatically be downloaded and installed by client devices affected by the update. This cmdlet was introduced in Lync Server 2010.
   
 ```

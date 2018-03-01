@@ -13,7 +13,7 @@ description: "Returns information about all the user accounts in Active Director
 ---
 
 # Get-CsAdUser
-[]
+ 
 Returns information about all the user accounts in Active Directory Domain Services. This includes user accounts that have been enabled for Skype for Business Server 2015 as well as accounts that have not been enabled for Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

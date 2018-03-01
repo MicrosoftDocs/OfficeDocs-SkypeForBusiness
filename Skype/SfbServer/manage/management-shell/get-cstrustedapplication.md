@@ -13,7 +13,7 @@ description: "Retrieves the settings for a trusted application. This cmdlet was 
 ---
 
 # Get-CsTrustedApplication
-[]
+ 
 Retrieves the settings for a trusted application. This cmdlet was introduced in Lync Server 2010.
   
 ```

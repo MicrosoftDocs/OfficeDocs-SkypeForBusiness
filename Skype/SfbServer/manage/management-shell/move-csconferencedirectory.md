@@ -13,7 +13,7 @@ description: "Moves an existing conference directory from one pool to another. C
 ---
 
 # Move-CsConferenceDirectory
-[]
+ 
 Moves an existing conference directory from one pool to another. Conference directories are used to help dial-in conferencing users locate conference information. This cmdlet was introduced in Lync Server 2010.
   
 ```

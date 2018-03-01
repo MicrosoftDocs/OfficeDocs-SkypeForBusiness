@@ -15,7 +15,7 @@ description: "Planning for location-based routing in Skype for Business Server E
 ---
 
 # Plan for Location-Based Routing in Skype for Business 2015
-[]
+ 
 Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing.
   
 Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call. Location-Based Routing is a call management feature that controls how calls are routed by Skype for Business Server. It enforces call authorization rules on whether calls can be routed to PBX or PSTN endpoints based on the Skype for Business caller's geographic location.

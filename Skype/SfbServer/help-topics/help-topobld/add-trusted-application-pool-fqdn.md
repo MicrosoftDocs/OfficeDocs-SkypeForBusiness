@@ -15,7 +15,7 @@ description: "To define a Trusted Applications pool fully qualified domain name 
 ---
 
 # Add Trusted Application Pool FQDN
-[]
+ 
 To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:
   
 An FQDN of the server or pool of servers that will host the trusted applications.

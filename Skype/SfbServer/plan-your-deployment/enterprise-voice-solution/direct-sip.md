@@ -15,7 +15,7 @@ description: "Direct SIP connections are supported between Skype for Business Se
 ---
 
 # Direct SIP connections in Skype for Business Server 2015
-[]
+ 
 Direct SIP connections are supported between Skype for Business Server and both PSTN gateways and IP-PBX in Enterprise Voice.
   
 You can use direct SIP connections to connect Skype for Business Server to either of the following:

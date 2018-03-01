@@ -13,7 +13,7 @@ description: "Modifies an existing range of unassigned numbers and the routing r
 ---
 
 # Set-CsUnassignedNumber
-[]
+ 
 Modifies an existing range of unassigned numbers and the routing rules that apply to those numbers. This cmdlet was introduced in Lync Server 2010.
   
 ```

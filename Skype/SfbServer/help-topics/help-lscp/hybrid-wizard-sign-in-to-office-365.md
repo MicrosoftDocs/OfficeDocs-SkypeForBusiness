@@ -19,7 +19,7 @@ description: "Use the Skype for Business Server Hybrid Manageability wizard to h
 ---
 
 # Hybrid wizard: Sign in to Office 365
-[]
+ 
 Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.
   
 ## Sign in to Office 365

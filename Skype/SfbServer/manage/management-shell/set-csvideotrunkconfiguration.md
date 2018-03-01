@@ -13,7 +13,7 @@ description: "Use the Set-CsVideoTrunkConfiguration to modify one or more Video 
 ---
 
 # Set-CsVideoTrunkConfiguration
-[]
+ 
 Use the **Set-CsVideoTrunkConfiguration** to modify one or more Video Trunk configurations containing settings applicable to a video SIP trunk between the Video Interoperability Server (VIS) and a Video Gateway.
   
 Video Trunk configuration settings are scoped to appropriate Video Gateway instances, and will govern the behavior of the SIP Trunk between each Video Gateway instance and the paired Video Interop Server instance that together define the Video Trunk. The Video Interop Server in Skype for Business Server 2015 enables you to incorporate 3rd party video teleconferencing systems (VTCs) into your Skype for Business Server 2015 infrastructure. The Video Interop Server is a Skype service that runs on a standalone pool and cannot be co-located on an FE pool.

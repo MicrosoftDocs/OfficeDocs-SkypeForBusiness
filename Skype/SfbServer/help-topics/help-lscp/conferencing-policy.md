@@ -15,7 +15,7 @@ description: "Conferencing policy defines the features and capabilities that use
 ---
 
 # Conferencing Policy
-[]
+ 
 Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).
   
 Conferencing policies include the global policy and, optionally, one or more site and user policies:

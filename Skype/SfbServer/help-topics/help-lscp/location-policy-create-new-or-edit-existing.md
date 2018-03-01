@@ -15,7 +15,7 @@ description: "You can configure Location policies to determine whether Enhanced 
 ---
 
 # Location Policy: Create New or Edit Existing
-[]
+ 
 You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts.
   
 ## UI Reference

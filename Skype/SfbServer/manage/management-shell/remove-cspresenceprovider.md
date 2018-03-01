@@ -13,7 +13,7 @@ description: "Removes a presence provider previously configured for use in the o
 ---
 
 # Remove-CsPresenceProvider
-[]
+ 
 Removes a presence provider previously configured for use in the organization. Presence providers represent the PresenceProviders property of a collection of user services configuration settings. This cmdlet was introduced in Lync Server 2013.
   
 ```

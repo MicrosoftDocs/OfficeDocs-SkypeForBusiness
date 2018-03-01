@@ -13,7 +13,7 @@ description: "Returns information about the Registrar configuration settings cur
 ---
 
 # Get-CsRegistrarConfiguration
-[]
+ 
 Returns information about the Registrar configuration settings currently in use in your organization. Registrars are used to authenticate logon requests and to maintain information about user status and availability. This cmdlet was introduced in Lync Server 2010.
   
 ```

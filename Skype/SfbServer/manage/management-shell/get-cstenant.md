@@ -13,7 +13,7 @@ description: "Returns information about the Lync Online tenants that have been c
 ---
 
 # Get-CsTenant
-[]
+ 
 Returns information about the Lync Online tenants that have been configured for use in your organization. Tenants represent groups of online users. In many cases, you might need only a single tenant. However, if different groups of users have different management needs, Lync Online provides support for a single organization having multiple tenants.
   
 > [!NOTE]

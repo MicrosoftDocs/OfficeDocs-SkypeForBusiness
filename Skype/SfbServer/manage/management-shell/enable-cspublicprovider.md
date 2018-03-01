@@ -13,7 +13,7 @@ description: "Enables a public provider configured for use in your organization.
 ---
 
 # Enable-CsPublicProvider
-[]
+ 
 Enables a public provider configured for use in your organization. A public provider is an organization that provides instant messaging, presence, and related services to the general public. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,8 +15,8 @@ description: "Summary: Learn how to enable users to make and receive calls by us
 ---
 
 # Enable users for Enterprise Voice in Skype for Business Server 2015
-[]
- **Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015.
   
 After you deploy Enterprise Voice or Call Via Work, you can use the following procedures to enable a user to make calls by using Enterprise Voice:
   

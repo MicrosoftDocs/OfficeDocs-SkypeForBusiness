@@ -13,7 +13,7 @@ description: "Modifies the Active Directory account of the specified user or use
 ---
 
 # Disable-CsUser
-[]
+ 
 Modifies the Active Directory account of the specified user or users; this modification prevents users from using Skype for Business Server 2015 clients such as Skype for Business. The **Disable-CsUser** cmdlet only restricts activity related to Skype for Business Server 2015; it does not disable or remove a user's Active Directory account. This cmdlet was introduced in Lync Server 2010.
   
 ```

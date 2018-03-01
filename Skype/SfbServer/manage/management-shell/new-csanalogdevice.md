@@ -13,7 +13,7 @@ description: "Creates a new analog device that can be managed by using Skype for
 ---
 
 # New-CsAnalogDevice
-[]
+ 
 Creates a new analog device that can be managed by using Skype for Business Server 2015. An analog device is a telephone or other device that is connected to the public switched telephone network (PSTN). This cmdlet was introduced in Lync Server 2010.
   
 ```

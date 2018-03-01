@@ -13,7 +13,7 @@ description: "The following topics detail the columns in each of the Persistent 
 ---
 
 # Persistent Chat Server table details
-[]
+ 
 The following topics detail the columns in each of the Persistent Chat database schema tables.
   
 ## In this section

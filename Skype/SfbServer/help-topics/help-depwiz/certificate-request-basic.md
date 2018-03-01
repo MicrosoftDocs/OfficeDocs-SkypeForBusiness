@@ -15,7 +15,7 @@ description: "The Name and Security Settings page provides a text box to define 
 ---
 
 # Certificate Request (Basic)
-[]
+ 
 The **Name and Security Settings** page provides a text box to define a **Friendly Name**, a drop-down list for the **Bit length** of the private and public key pair, and a check box that enables you to **Mark the certificate's private key as exportable**.
   
 The friendly, or simple, name on a certificate is an easily recognizable name that makes it easier for the person who views the certificate to identify it.

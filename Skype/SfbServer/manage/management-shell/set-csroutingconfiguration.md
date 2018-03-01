@@ -13,7 +13,7 @@ description: "Modifies a list of voice routes. This cmdlet was introduced in Lyn
 ---
 
 # Set-CsRoutingConfiguration
-[]
+ 
 Modifies a list of voice routes. This cmdlet was introduced in Lync Server 2010.
   
 ```

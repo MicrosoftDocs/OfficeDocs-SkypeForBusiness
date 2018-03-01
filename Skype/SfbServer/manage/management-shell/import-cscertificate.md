@@ -13,7 +13,7 @@ description: "Imports a certificate for use with Skype for Business Server 2015.
 ---
 
 # Import-CsCertificate
-[]
+ 
 Imports a certificate for use with Skype for Business Server 2015. If a certificate is not acquired by using the **Request-CsCertificate** cmdlet, then that certificate must be imported before it can be assigned to a Skype for Business Server 2015 server role. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -43,7 +43,7 @@ In order for certificates to be assigned to a Skype for Business Server 2015 rol
 |:-----|:-----|:-----|:-----|
 | _Identity_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Xds.XdsIdentity  <br/> |When set to Global, enables the certificate to function at the global scope. Global certificates will automatically be copied and distributed to the appropriate computers.  <br/> |
 | _Path_ <br/> |Required  <br/> |System.String  <br/> |Full path to the certificate file to be imported. For example:  `-Path "C:\Certificates\WebServer.cer"`.  <br/> |
-| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType[]  <br/> |Type of certificate being requested. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPadAPNService  <br/> iPhoneAPNService  <br/> LogRetentionService  <br/> MPNService  <br/> OAuthTokenIssuer  <br/> PICWebService  <br/> ProvisionService  <br/> SMPDNSWebService  <br/> TenantAdmin  <br/> UpgradeEngineService  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> XMPPServer  <br/> |
+| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType   <br/> |Type of certificate being requested. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPadAPNService  <br/> iPhoneAPNService  <br/> LogRetentionService  <br/> MPNService  <br/> OAuthTokenIssuer  <br/> PICWebService  <br/> ProvisionService  <br/> SMPDNSWebService  <br/> TenantAdmin  <br/> UpgradeEngineService  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> XMPPServer  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _EffectiveDate_ <br/> |Optional  <br/> |System.DateTime  <br/> |Date and time when the certificate can first be used. For example, to configure a certificate for first use at 8:00 AM on July 31, 2012 use this syntax on a server running under the US English Region and Language settings:  <br/>  `-EffectiveTime "7/31/2012 8:00 AM"` <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses the display of any non-fatal error message that might occur when running the command.  <br/> |

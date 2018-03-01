@@ -13,7 +13,7 @@ description: "Modifies the property values of a common area phone managed by Sky
 ---
 
 # Set-CsCommonAreaPhone
-[]
+ 
 Modifies the property values of a common area phone managed by Skype for Business Server 2015. Common area phones are phones that are located in building lobbies, employee lounges, or other areas where they are likely to be used by a number of different people and for a number of different uses. This cmdlet was introduced in Lync Server 2010.
   
 ```

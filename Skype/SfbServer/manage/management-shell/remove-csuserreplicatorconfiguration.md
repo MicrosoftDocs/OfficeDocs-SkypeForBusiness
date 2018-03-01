@@ -13,7 +13,7 @@ description: "Removes the specified collection of User Replicator configuration 
 ---
 
 # Remove-CsUserReplicatorConfiguration
-[]
+ 
 Removes the specified collection of User Replicator configuration settings. The User Replicator periodically retrieves up-to-date user account information from Active Directory and then synchronizes the new information with the current user data stored by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Verifies the route and the PSTN usage used when routing a phone ca
 ---
 
 # Test-CsInterTrunkRouting
-[]
+ 
 Verifies the route and the PSTN usage used when routing a phone call made from a specified SIP trunk. This cmdlet was introduced in Lync Server 2013.
   
 ```

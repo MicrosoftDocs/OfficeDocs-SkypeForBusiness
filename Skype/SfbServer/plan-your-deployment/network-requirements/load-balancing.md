@@ -15,8 +15,8 @@ description: "Summary: Review the load balancing considerations before implement
 ---
 
 # Load balancing requirements for Skype for Business
-[]
- **Summary:** Review the load balancing considerations before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the load balancing considerations before implementing Skype for Business Server 2015.
   
 Load balancing distributes traffic among the servers in a pool. If you have Front End pools, Mediation Server pools, or Edge Server pools, you need to deploy load balancing for these pools.
   

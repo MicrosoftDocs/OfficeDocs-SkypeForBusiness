@@ -15,7 +15,7 @@ description: "Configure an SNMP application to work with E9-1-1 in Skype for Bus
 ---
 
 # Configure an SNMP application in Skype for Business Server 2015
-[]
+ 
 Configure an SNMP application to work with E9-1-1 in Skype for Business Server Enterprise Voice. 
   
 Skype for Business Server includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information. 

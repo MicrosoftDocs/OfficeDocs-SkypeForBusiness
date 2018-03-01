@@ -15,7 +15,7 @@ description: "You select the databases that you want to create for your deployme
 ---
 
 # Install and Create Databases
-[]
+ 
 You select the databases that you want to create for your deployment. By default, the database will be created on the defined SQL Server in the defined site, and will automatically deploy and configure the database files based on the SQL Server you are placing the databases on.
   
  **Select the databases you want to create**: Select the checkbox of any databases that you intend to deploy and configure. Select the check box of any or all databases that you will deploy. 

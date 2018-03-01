@@ -13,7 +13,7 @@ description: "Retrieves one or more bandwidth policy service configurations. Thi
 ---
 
 # Get-CsBandwidthPolicyServiceConfiguration
-[]
+ 
 Retrieves one or more bandwidth policy service configurations. This cmdlet was introduced in Lync Server 2010.
   
 ```

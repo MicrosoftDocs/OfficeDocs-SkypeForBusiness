@@ -16,7 +16,7 @@ description: "A Director is a server running Skype for Business Server 2015 comm
 ---
 
 # Director (Planning Tool)
-[]
+ 
 A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts. 
   
 This role is optional, you would choose to deploy a Director in the following two scenarios:

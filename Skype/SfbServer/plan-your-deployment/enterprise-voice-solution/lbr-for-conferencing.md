@@ -15,7 +15,7 @@ description: "Planning for location-based routing for conferencing in Skype for 
 ---
 
 # Location-Based Routing for Conferencing in Skype for Business Server 2015
-[]
+ 
 Planning for location-based routing for conferencing in Skype for Business Server Enterprise Voice, including consultative call transfers.
   
 Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call. Location-Based Routing for Conferencing enables you to enforce Location-Based Routing rules on meetings (i.e. conferences) to prevent PSTN toll bypass. The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating. The Location-Based Routing for Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.

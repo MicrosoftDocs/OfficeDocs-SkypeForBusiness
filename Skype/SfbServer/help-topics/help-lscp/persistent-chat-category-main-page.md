@@ -15,7 +15,7 @@ description: "You can use the Category section of the Persistent Chat page to co
 ---
 
 # Persistent Chat Category Main Page
-[]
+ 
 You can use the **Category** section of the **Persistent Chat** page to configure categories. A Persistent Chat room category is a logical structure for organizing chat rooms. A category defines a default set of access control lists (ACLs) for controlling the users and user groups who may create or join the chat rooms. You can use categories enforce ethical walls between different subdivisions within their organizations.
   
 Chat room categories may contain chat rooms, but not other categories. Each category describes its contents with metadata, such as  _Name_ and _Description_. In addition, the category has properties which can be set to control the behavior of the chat rooms belonging to it, such as if the chat rooms allow  _Invitations_ or _File Uploads_, or contain  _Chat History_.

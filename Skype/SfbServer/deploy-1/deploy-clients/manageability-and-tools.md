@@ -13,7 +13,7 @@ description: "Read this topic to learn about management tools for Skype Room Sys
 ---
 
 # Skype Room System manageability and tools
-[]
+ 
 Read this topic to learn about management tools for Skype Room System.
   
 ## Administrative Portal

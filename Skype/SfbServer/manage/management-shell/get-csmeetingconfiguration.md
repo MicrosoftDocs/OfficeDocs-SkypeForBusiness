@@ -13,7 +13,7 @@ description: "The Get-CsMeetingConfiguration cmdlet enables you to return inform
 ---
 
 # Get-CsMeetingConfiguration
-[]
+ 
 The **Get-CsMeetingConfiguration** cmdlet enables you to return information about the meeting configuration settings currently in use in your organization. Meeting configuration settings help dictate the type of meetings (also called "conferences") that users can create, and control how (or even if) anonymous users and dial-in conferencing users can join these meetings. This cmdlet was introduced in Lync Server 2010.
   
 ```

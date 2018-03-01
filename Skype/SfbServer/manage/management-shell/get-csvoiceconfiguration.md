@@ -13,7 +13,7 @@ description: "Retrieves the voice configuration object, which contains a full li
 ---
 
 # Get-CsVoiceConfiguration
-[]
+ 
 Retrieves the voice configuration object, which contains a full list of all voice test configurations defined for the Skype for Business Server 2015 deployment. This cmdlet was introduced in Lync Server 2010.
   
 ```

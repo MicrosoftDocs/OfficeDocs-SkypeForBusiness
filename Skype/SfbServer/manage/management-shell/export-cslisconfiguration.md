@@ -13,7 +13,7 @@ description: "Exports an Enterprise Voice Enhanced 9-1-1 (E9-1-1) configuration 
 ---
 
 # Export-CsLisConfiguration
-[]
+ 
 Exports an Enterprise Voice Enhanced 9-1-1 (E9-1-1) configuration to a file in compressed format for backup purposes. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -72,7 +72,7 @@ None.
   
 ## Return Types
 
-Returns a byte array (Byte[]) when the AsBytes parameter is used.
+Returns a byte array (Byte ) when the AsBytes parameter is used.
   
 ## See also
 

@@ -13,7 +13,7 @@ description: "The database schema consists of the following tables."
 ---
 
 # List of QoE tables
-[]
+ 
 The database schema consists of the following tables. 
   
 **Supporting Tables**

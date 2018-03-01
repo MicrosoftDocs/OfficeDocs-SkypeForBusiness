@@ -13,7 +13,7 @@ description: "Views provide an easy way to access information about the most com
 ---
 
 # List of CDR views
-[]
+ 
 Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database. It is recommended that you use views for building custom reports instead of using the actual CDR database tables ; that's because the database views are more likely to maintain backwards compatibility with future releases.
   
 |**View Name**|**Description**|

@@ -15,7 +15,7 @@ description: "The Office Web Apps Server provides services similar to a presente
 ---
 
 # Associate Front End With Office Web Apps Server Page
-[]
+ 
 The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.
   
 You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server 2015 configuration.

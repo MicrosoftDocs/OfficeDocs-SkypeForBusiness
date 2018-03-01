@@ -15,7 +15,7 @@ description: "You can add a test device to the Test Device page and then use thi
 ---
 
 # Test Device
-[]
+ 
 You can add a test device to the **Test Device** page and then use this device to verify the functionality of new updates before deploying the updates to production devices. You can test a device globally (throughout your entire environment) or within a single site. You identify a test device by its Media Access Control (MAC) address or serial number. When you add a device, it appears in the list on the **Test Device** page of the Skype for Business Server Control Panel.
   
 ## Tasks you can perform

@@ -15,7 +15,7 @@ description: "This node shows the pool fully qualified domain name (FQDN), repli
 ---
 
 # External Application Scope Node
-[]
+ 
 This node shows the pool fully qualified domain name (FQDN), replication setting, and next hop pool for this trusted application pool. You can perform the following actions:
   
 - **New Server**. Starts the **Define New Server** wizard, which you can use to add another server to this trusted application pool.

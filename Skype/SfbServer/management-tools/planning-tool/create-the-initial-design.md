@@ -14,7 +14,7 @@ description: "After you have finished installing the Skype for Business Server P
 ---
 
 # Create the initial topology design for Skype for Business Server 2015
-[]
+ 
 After you have finished installing the Skype for Business Server Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Skype for Business Server 2015 infrastructure.
   
 > [!NOTE]

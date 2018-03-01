@@ -15,7 +15,7 @@ description: "Agent groups define who can answer calls to a response group (know
 ---
 
 # Response Groups: Create New or Edit Existing Agent Group
-[]
+ 
 Agent groups define who can answer calls to a response group (known as agents) and the settings that apply to all the agents in the group.
   
 ## UI Reference

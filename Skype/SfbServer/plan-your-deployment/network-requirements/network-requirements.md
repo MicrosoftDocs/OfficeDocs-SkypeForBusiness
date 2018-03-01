@@ -15,8 +15,8 @@ description: "Summary: Review the network component considerations below before 
 ---
 
 # Plan network requirements for Skype for Business 2015
-[]
- **Summary:** Review the network component considerations below before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the network component considerations below before implementing Skype for Business Server 2015.
   
 The information in these topics is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) with additional details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server 2015 are unchanged.
   

@@ -13,7 +13,7 @@ description: "Tests the ability of a user to employ group expansion. Skype for B
 ---
 
 # Test-CsGroupExpansion
-[]
+ 
 Tests the ability of a user to employ group expansion. Skype for Business Server 2015 enables users to configure an Active Directory distribution group as a contact. When you "expand" a group you will see the name and presence information for each member of the group. This cmdlet was introduced in Lync Server 2010.
   
 ```

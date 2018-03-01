@@ -13,7 +13,7 @@ description: "Forces the back-end user database to clear its replication status 
 ---
 
 # Update-CsUserDatabase
-[]
+ 
 Forces the back-end user database to clear its replication status with Active Directory. This causes the database to re-read all the user-related information stored in Active Directory Domain Services. This cmdlet was introduced in Lync Server 2010.
   
 ```

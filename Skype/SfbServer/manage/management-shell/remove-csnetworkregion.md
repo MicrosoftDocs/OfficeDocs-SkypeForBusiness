@@ -13,7 +13,7 @@ description: "Removes an existing network region. Network regions represent netw
 ---
 
 # Remove-CsNetworkRegion
-[]
+ 
 Removes an existing network region. Network regions represent network hubs or backbones in an enterprise network. This cmdlet was introduced in Lync Server 2010.
   
 ```

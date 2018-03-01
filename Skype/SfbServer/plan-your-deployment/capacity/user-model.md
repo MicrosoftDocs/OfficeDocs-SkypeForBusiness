@@ -14,7 +14,7 @@ description: "This article provides guidance on how many servers you need at a s
 ---
 
 # Capacity planning user model usage for Skype for Business Server 2015
-[]
+ 
 This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Skype for Business Server 2015](user-models.md).
   
 > [!NOTE]

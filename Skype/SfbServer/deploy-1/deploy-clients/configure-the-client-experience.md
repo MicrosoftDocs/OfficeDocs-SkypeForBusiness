@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure the client expe
 ---
 
 # Configure the client experience with Skype for Business
-[]
- **Summary:** Read this topic to learn how to configure the client experience for Skype for Business users.
+ 
+**Summary:** Read this topic to learn how to configure the client experience for Skype for Business users.
   
 Skype for Business provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/?LinkId=529022).
   

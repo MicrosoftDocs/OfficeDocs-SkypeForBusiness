@@ -13,7 +13,7 @@ description: "Creates a new Persistent Chat policy at the site or the per-user s
 ---
 
 # New-CsPersistentChatPolicy
-[]
+ 
 Creates a new Persistent Chat policy at the site or the per-user scope. Persistent Chat policies determine whether or not users are allowed access to Persistent Chat chat rooms. This cmdlet was introduced in Lync Server 2013.
   
 ```

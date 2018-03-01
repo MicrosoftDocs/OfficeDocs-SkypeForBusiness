@@ -15,7 +15,7 @@ description: "To edit the properties for this computer, you do the following:"
 ---
 
 # Server Settings Expander for Lync Server 2010
-[]
+ 
 To edit the properties for this computer, you do the following:
   
 - Edit the **Fully qualified domain name (FQDN)** for this computer. This entry must match the computer name as it is defined in the domain name system (DNS), and in subject alternative names (SAN) or subject name (SN) of the certificate associated with this computer.

@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about planning your conferencing
 ---
 
 # Plan your conferencing topology for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015.
   
 This topic describes topology basics for conferencing in Skype for Business Server 2015:
   

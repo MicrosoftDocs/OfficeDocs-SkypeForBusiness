@@ -13,7 +13,7 @@ description: "Displays the Enhanced 9-1-1 (E9-1-1) Location Information service 
 ---
 
 # Debug-CsLisConfiguration
-[]
+ 
 Displays the Enhanced 9-1-1 (E9-1-1) Location Information service (LIS) configuration in XML format. This cmdlet was introduced in Lync Server 2010.
   
 ```

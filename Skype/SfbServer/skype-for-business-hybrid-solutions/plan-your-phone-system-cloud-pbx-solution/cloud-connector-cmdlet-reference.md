@@ -13,7 +13,7 @@ description: "The following table lists the Skype for Business Cloud Connector E
 ---
 
 # Cloud Connector cmdlet reference
-[]
+ 
 The following table lists the Skype for Business Cloud Connector Edition cmdlets with a brief description and links to more information.
   
 > [!NOTE]

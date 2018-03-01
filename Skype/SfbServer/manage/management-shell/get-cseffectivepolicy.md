@@ -13,7 +13,7 @@ description: "Returns theeffective policiesfor the specified user or users. This
 ---
 
 # Get-CsEffectivePolicy
-[]
+ 
 Returns the "effective policies" for the specified user or users. This simply means that, if a user has been a per-user policy, the Identity of that policy will be displayed. If a user has not been assigned a per-user policy, then the **Get-CsEffectivePolicy** cmdlet will indicate whether the user is managed by a service policy, a site policy, or the global policy. This enables you to determine exactly which policy is being used to manage a given user. This cmdlet was introduced in Lync Server 2013.
   
 ```

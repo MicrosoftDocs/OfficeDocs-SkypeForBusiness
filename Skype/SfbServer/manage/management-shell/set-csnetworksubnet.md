@@ -13,7 +13,7 @@ description: "Modifies an existing network subnet. This cmdlet was introduced in
 ---
 
 # Set-CsNetworkSubnet
-[]
+ 
 Modifies an existing network subnet. This cmdlet was introduced in Lync Server 2010.
   
 ```

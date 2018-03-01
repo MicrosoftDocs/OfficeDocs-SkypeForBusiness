@@ -18,7 +18,7 @@ description: "The following sections provide guidance on how to configure an env
 ---
 
 # Configure a multi-forest environment for hybrid Skype for Business
-[]
+ 
 The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario. 
   
 ![Multi-Forest Environment for Hybrid](../../media/5f079435-b252-4a6a-9638-3577d55b2873.png)

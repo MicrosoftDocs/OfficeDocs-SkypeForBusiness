@@ -15,7 +15,7 @@ description: "Configure a secondary location source (SLS) database for E9-1-1 in
 ---
 
 # Configure a secondary Location Information service in Skype for Business Server 2015
-[]
+ 
 Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice. 
   
 Skype for Business Server provides a web service interface that you can use to point the Location Information service to a Secondary Location Source (SLS) database. The web service interface that connects to the SLS database must conform to Location Information service WSDL. If both a location database and secondary location database are configured, the Location Information service first queries the location database, and if no match is found, sends the location request from the client to the SLS database. If the location exists in the SLS, the Location Information service then sends the location back to the client. 

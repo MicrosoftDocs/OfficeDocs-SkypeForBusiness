@@ -15,7 +15,7 @@ description: "To verify that the schema extension have been successfully replica
 ---
 
 # Verify Replication of Schema Partition
-[]
+ 
 To verify that the schema extension have been successfully replicated in your Active Directory Domain Services forest, do the following:
   
 1. Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.

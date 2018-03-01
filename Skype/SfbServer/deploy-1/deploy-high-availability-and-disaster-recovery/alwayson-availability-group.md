@@ -14,7 +14,7 @@ description: "Deploy (install) an AlwaysOn Availability Group in your Skype for 
 ---
 
 # Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015
-[]
+ 
 Deploy (install) an AlwaysOn Availability Group in your Skype for Business Server deployment.
   
 How you deploy an AlwaysOn Availability Group depends on whether you are deploying it in a new pool, an existing pool that uses mirroring, or an existing pool that currently has no high availability for the Back End database.
@@ -54,7 +54,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - Select the servers to add to the cluster, and then click **Run all tests**.
     
-  - In the **Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
+  - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
@@ -118,7 +118,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
-  - In the **Summary** page, verify all settings and click Finish.
+  - In the**Summary** page, verify all settings and click Finish.
     
 7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server 2015](../../deploy-1/install-0/create-and-publish-new-topology.md). When you do, specify the AlwaysOn Availability Group as the SQL store for the pool.
     
@@ -194,7 +194,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - Select the servers to add to the cluster, and then click **Run all tests**.
     
-  - In the **Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
+  - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
@@ -258,7 +258,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
-  - In the **Summary** page, verify all settings and click Finish.
+  - In the**Summary** page, verify all settings and click Finish.
     
 11. Create a new store specifying the AlwaysOn Availability Group listener, and specifying the principal of the old mirror as the primary node of the AlwaysOn Availability Group.
     
@@ -326,7 +326,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - Select the servers to add to the cluster, and then click **Run all tests**.
     
-  - In the **Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
+  - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
@@ -390,7 +390,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
   - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
-  - In the **Summary** page, verify all settings and click Finish.
+  - In the**Summary** page, verify all settings and click Finish.
     
 7. Create a new store specifying the AlwaysOn Availability Group listener.
     

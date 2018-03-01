@@ -13,7 +13,7 @@ description: "Moves the Central Management Server from one pool to another. This
 ---
 
 # Move-CsManagementServer
-[]
+ 
 Moves the Central Management Server from one pool to another. This cmdlet was introduced in Lync Server 2010.
   
 ```

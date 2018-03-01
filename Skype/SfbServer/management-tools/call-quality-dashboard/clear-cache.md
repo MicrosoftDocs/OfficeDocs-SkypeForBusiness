@@ -14,8 +14,8 @@ description: "Summary: Learn about the Clear Cache operation, which is part of t
 ---
 
 # Clear Cache
-[]
- **Summary:** Learn about the Clear Cache operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Clear Cache operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Clear Cache operation is part of the Data API for Call Quality Dashboard.
   

@@ -13,8 +13,8 @@ description: "Summary: Learn how to welcome users to dial-in conferencing in Sky
 ---
 
 # Send welcome email to dial-in users in Skype for Business Server 2015
-[]
- **Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server 2015.
   
 After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature. You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page. 
   
@@ -47,9 +47,9 @@ You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iter
 [-Credential <SMTP server credentials used to send email with the specified From address>]
   ```
 
-    **SmtpServer** By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter. If the **$PSEmailServer** variable is not set, you must specify this parameter.
+**SmtpServer** By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter. If the **$PSEmailServer** variable is not set, you must specify this parameter.
     
-    **Credential** By default, the script uses the credentials of the current user. If the current user does not have permission to send email on behalf of the specified From address, you must specify this parameter. As a general rule, specify this parameter if you do not specify your email address as the From address.
+**Credential** By default, the script uses the credentials of the current user. If the current user does not have permission to send email on behalf of the specified From address, you must specify this parameter. As a general rule, specify this parameter if you do not specify your email address as the From address.
     
 The following example creates a new PIN, and then sends a welcome email from Marco to Bob. It uses the email text from the default template and creates the email message in HTML format. The default Subject is "Welcome to Dial In Conferencing":
   
@@ -66,5 +66,3 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -Pin "383042650" -Force
 -Credential Admin@contoso.com -UseSsl
 ```
-
-

@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # External Access Policy
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Manage Remote User Access](http://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)

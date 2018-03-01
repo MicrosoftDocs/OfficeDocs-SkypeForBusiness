@@ -15,7 +15,7 @@ description: "The Certificate Request File page is displayed after you have comp
 ---
 
 # Certificate Request (Certificate Signing Request Generated)
-[]
+ 
 The **Certificate Request File** page is displayed after you have completed an offline request for a certificate. To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button. The certificate request is displayed in Windows Notepad (by default). You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA. Click **Finish** to continue.
   
 

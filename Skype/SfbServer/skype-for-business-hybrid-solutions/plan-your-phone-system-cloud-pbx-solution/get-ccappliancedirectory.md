@@ -13,7 +13,7 @@ description: "The Get-CcApplianceDirectory cmdlet retrieves the working director
 ---
 
 # Get-CcApplianceDirectory
-[]
+ 
 The Get-CcApplianceDirectory cmdlet retrieves the working directory on the Skype for Business Cloud Connector Edition host server. All deployment files are stored in this directory. 
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

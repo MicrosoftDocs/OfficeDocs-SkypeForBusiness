@@ -13,7 +13,7 @@ description: "Creates new instant messaging (IM) session archiving policies. The
 ---
 
 # New-CsArchivingPolicy
-[]
+ 
 Creates new instant messaging (IM) session archiving policies. These policies give you the ability to archive all IM sessions that take place between internal users, and/or to archive all IM sessions that take place between internal users and external partners. This cmdlet was introduced in Lync Server 2010.
   
 ```

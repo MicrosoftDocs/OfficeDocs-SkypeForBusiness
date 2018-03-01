@@ -15,7 +15,7 @@ description: "Call admission control (CAC) is a network of regions, sites, and s
 ---
 
 # Call Admission Control Settings Expander
-[]
+ 
 Call admission control (CAC) is a network of regions, sites, and subnets that enable you to place restrictions on audio and video transmissions based on available bandwidth. After you configure the network for CAC, you must enable CAC in order for the bandwidth limitations to be enforced. 
   
 > [!NOTE]

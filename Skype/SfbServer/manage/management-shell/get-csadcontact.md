@@ -13,7 +13,7 @@ description: "In a multi-forest topology, returns information about user account
 ---
 
 # Get-CsAdContact
-[]
+ 
 In a multi-forest topology, returns information about user accounts from forests other than your home forest; these are users who have been replicated as contact objects by Microsoft Forefront Identity Manager 2010 (or a previous version of the product). The **Get-CsAdContact** cmdlet returns any user who has a value configured for the msRTCSIP-OriginatorSid attribute. This cmdlet was introduced in Lync Server 2010.
   
 ```

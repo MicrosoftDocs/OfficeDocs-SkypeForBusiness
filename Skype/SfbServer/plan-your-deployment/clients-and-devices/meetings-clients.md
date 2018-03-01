@@ -15,8 +15,8 @@ description: "Summary: IT Professionals should review the support requirements f
 ---
 
 # Plan for Meetings clients (Web App and Meetings App)
-[]
- **Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps.
+ 
+**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps.
   
 Once you've implemented Skype for Business Server, your organization's users will presumably have the Skype for Business client installed as part of the deployment process. 
   

@@ -13,7 +13,7 @@ description: "The AudioStreamDetail View stores information about each audio str
 ---
 
 # AudioStreamDetail view
-[]
+ 
 The AudioStreamDetail View stores information about each audio stream in the database. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

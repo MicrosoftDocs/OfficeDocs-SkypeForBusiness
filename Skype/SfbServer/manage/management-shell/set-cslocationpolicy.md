@@ -13,7 +13,7 @@ description: "Modifies an existing location policy. This cmdlet was introduced i
 ---
 
 # Set-CsLocationPolicy
-[]
+ 
 Modifies an existing location policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

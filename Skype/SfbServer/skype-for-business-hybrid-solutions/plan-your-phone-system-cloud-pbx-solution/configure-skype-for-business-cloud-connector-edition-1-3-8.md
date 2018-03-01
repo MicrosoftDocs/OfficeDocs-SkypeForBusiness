@@ -13,7 +13,7 @@ description: "How to plan, deploy and configure a dedicated on premises server w
 ---
 
 # Configure Skype for Business Cloud Connector Edition 1.3.8
-[]
+ 
 How to plan, deploy and configure a dedicated on premises server with Skype for Business Cloud Connector Edition 1.3.8 software to enable on premise voice connections to work with users homed in the Skype for Business Online service in Office 365.
   
 Learn how to configure Skype for Business Cloud Connector Edition 1.3.8, a minimal on-premises topology to enable integration of your on-premises voice infrastructure with Cloud PBX voice services in Skype for Business Online. 
@@ -659,7 +659,7 @@ Follow these steps the first time you deploy Skype for Business Cloud Connector 
   Publish-CcHAInstance
   ```
 
-9. Follow the steps in the [](configure-skype-for-business-cloud-connector-edition.md#BKMK_PostInstall) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
+9. Follow the steps in the  (configure-skype-for-business-cloud-connector-edition.md#BKMK_PostInstall) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
     
 #### Upgrade binaries and update HA topology simultaneously
 

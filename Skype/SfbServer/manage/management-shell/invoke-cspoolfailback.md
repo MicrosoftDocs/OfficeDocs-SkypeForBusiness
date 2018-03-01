@@ -13,7 +13,7 @@ description: "Invokes the failback process for a Skype for Business Server 2015 
 ---
 
 # Invoke-CsPoolFailBack
-[]
+ 
 Invokes the failback process for a Skype for Business Server 2015 pool. Failback is used after a pool has failed over and the users of that pool have been "failed over" to a backup pool. (That simply means users who were signed on to the failed pool are automatically signed on to the backup pool.) When the failed pool has been restored, the fail back process signs the failed-over users back to their original pool. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -62,7 +62,7 @@ When the failed pool is once more up and running, administrators can then run th
 | _NoPerformanceCounters_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PrepareForFailbackOnly_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PromptOnError_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
-| _ServersToIgnore_ <br/> |Optional  <br/> |System.String[]  <br/> |PARAMVALUE: String[]  <br/> |
+| _ServersToIgnore_ <br/> |Optional  <br/> |System.String   <br/> |PARAMVALUE: String   <br/> |
 | _SkipFabricHealthCheck_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
    
 ## Input Types

@@ -13,7 +13,7 @@ description: "Used to assign a custom realm (SIP Communications Service) to a co
 ---
 
 # New-CsSipProxyCustom
-[]
+ 
 Used to assign a custom realm (SIP Communications Service) to a collection of proxy configuration settings. Realms (also known as protection domains) are used to authenticate user credentials during logon. This cmdlet was introduced in Lync Server 2010.
   
 ```

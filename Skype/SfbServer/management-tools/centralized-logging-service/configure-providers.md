@@ -14,8 +14,8 @@ description: "Summary: Learn how to configure scenario providers for the Central
 ---
 
 # Configure providers for Centralized Logging Service in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure scenario providers for the Centralized Logging Service in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to configure scenario providers for the Centralized Logging Service in Skype for Business Server 2015.
   
 The concepts and configuration of providers in Centralized Logging Service is one of the most important to grasp. Theproviders map directly to Skype for Business Server server role components in the Skype for Business Server tracing model. The provider defines the components of a Skype for Business Server 2015 that will be traced, the type of messages (for example, fatal, error, or warning) to collect, and the flags (for example, TF_Connection or TF_Diag). Providers are the traceable components in each Skype for Business Server server role. By using providers, you define the level and type of tracing on components (for example, S4, SIPStack, IM and Presence). The defined provider is used in a scenario to group all of the providers for a given logical collection that address a specific problem condition.
   

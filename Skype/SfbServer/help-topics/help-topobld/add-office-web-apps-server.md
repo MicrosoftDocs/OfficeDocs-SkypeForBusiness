@@ -15,7 +15,7 @@ description: "The Define New Office Web Apps Server wizard defines a new Office 
 ---
 
 # Add Office Web Apps Server
-[]
+ 
 The **Define New Office Web Apps Server** wizard defines a new Office Web Apps Server in your deployment. You fill in the following information:
   
  **Office Web Apps Server FQDN**: Type the fully qualified domain name of the server that will host the Office Web Apps Server

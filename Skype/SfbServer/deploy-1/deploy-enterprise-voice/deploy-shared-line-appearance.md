@@ -15,7 +15,7 @@ description: "Read this topic to learn how to deploy Shared Line Appearance (SLA
 ---
 
 # Deploy Shared Line Appearance in Skype for Business Server 2015
-[]
+ 
 Read this topic to learn how to deploy Shared Line Appearance (SLA) in Skype for Business Server 2015, November 2015 Cumulative Update. SLA is a feature for handling multiple calls on a specific number called a shared number. 
   
 For more information about this feature, see [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).

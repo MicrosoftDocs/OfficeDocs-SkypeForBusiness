@@ -15,8 +15,8 @@ description: "Summary: Learn how to export or import a voice routing configurati
 ---
 
 # Export or import a voice route configuration file in Skype for Business 2015
-[]
- **Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
   
 If you want to save your voice routing configuration without publishing it, follow these steps to save and retrieve a snapshot of your voice routing configuration. 
   

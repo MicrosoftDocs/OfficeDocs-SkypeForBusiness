@@ -13,7 +13,7 @@ description: "Returns the eligible principals for a Persistent Chat category or 
 ---
 
 # Get-CsPersistentChatEligiblePrincipal
-[]
+ 
 Returns the eligible principals for a Persistent Chat category or chat room. Eligible principals include allowed members or managers (for a category of chat room) as well as allowed presenters (chat room only). This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get User operation, which is part of the 
 ---
 
 # Get User
-[]
- **Summary:** Learn about the Get User operation, which is part of the User Service. The User Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get User operation, which is part of the User Service. The User Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.
   

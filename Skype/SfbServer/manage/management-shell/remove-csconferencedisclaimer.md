@@ -13,7 +13,7 @@ description: "Clears the text from the header and body of the conference disclai
 ---
 
 # Remove-CsConferenceDisclaimer
-[]
+ 
 Clears the text from the header and body of the conference disclaimer used in your organization. The conference disclaimer is a message that is displayed to users who join the conference by using a hyperlink (for example, users who paste a link to the conference into a browser such as Windows Internet Explorer). This cmdlet was introduced in Lync Server 2010.
   
 ```

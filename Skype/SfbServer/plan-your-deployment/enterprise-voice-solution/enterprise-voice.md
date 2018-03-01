@@ -15,7 +15,7 @@ description: "Enterprise Voice planning basics in Skype for Business Server, inc
 ---
 
 # Plan for Enterprise Voice in Skype for Business Server 2015
-[]
+ 
 Enterprise Voice planning basics in Skype for Business Server, including sites, regions, network links between sites, and estimating voice usage traffic.
   
 The deployment process for Enterprise Voice depends on your existing topology, infrastructure, and the Enterprise Voice functionality that you want to support. The required procedures will depend on what features you choose, but there are other planning considerations that you must make at a high level.

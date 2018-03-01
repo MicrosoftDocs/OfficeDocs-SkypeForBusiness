@@ -13,7 +13,7 @@ description: "Removes an object containing information about the web service pro
 ---
 
 # Remove-CsLisServiceProvider
-[]
+ 
 Removes an object containing information about the web service provided by the Enhanced 9-1-1 (E9-1-1) Network Routing Provider to verify locations. This cmdlet was introduced in Lync Server 2010.
   
 ```

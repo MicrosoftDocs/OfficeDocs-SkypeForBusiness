@@ -14,8 +14,8 @@ description: "Summary: Integrate Skype for Business Server and Outlook Web App."
 ---
 
 # Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App
-[]
- **Summary:** Integrate Skype for Business Server and Outlook Web App.
+ 
+**Summary:** Integrate Skype for Business Server and Outlook Web App.
   
 Customers who are using on-premises Skype for Business Server 2015 deployments can configure interoperability with Microsoft Outlook Web App in Microsoft Exchange Online in a hybrid deployment mode. Interoperability features include single sign on and instant messaging (IM) and presence integration with the Outlook Web App interface. To enable this integration, you must configure the Edge Server in your on-premises Skype for Business Server deployment by completing the following tasks: 
   

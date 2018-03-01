@@ -13,7 +13,7 @@ description: "Retrieves one or more network sites defined for call admission con
 ---
 
 # Get-CsNetworkSite
-[]
+ 
 Retrieves one or more network sites defined for call admission control (CAC) or Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "Push Notification and the Push Notification Clearing House (PNCH) 
 ---
 
 # Mobile Client: Create or Edit Push Notification Configuration
-[]
+ 
 Push Notification and the Push Notification Clearing House (PNCH) are two key parts of the mobility feature. Push notification is the process where a message is sent to the PNCH. The message is held here until it can be delivered to the mobile client, or the timeout period expires. 
   
 > [!NOTE]

@@ -13,7 +13,7 @@ description: "Modifies an existing instant messaging (IM) filter configuration. 
 ---
 
 # Set-CsImFilterConfiguration
-[]
+ 
 Modifies an existing instant messaging (IM) filter configuration. IM filter settings are used to prevent users from sending instant messages that contain live (clickable) hyperlinks. This cmdlet was introduced in Lync Server 2010.
   
 ```

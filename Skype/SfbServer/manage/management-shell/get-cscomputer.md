@@ -13,7 +13,7 @@ description: "Returns information about the computers that perform service roles
 ---
 
 # Get-CsComputer
-[]
+ 
 Returns information about the computers that perform service roles within your Skype for Business Server 2015 infrastructure. This cmdlet was introduced in Lync Server 2010.
   
 ```

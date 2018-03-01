@@ -13,7 +13,7 @@ description: "tblLastInviteId contains the last invite ID that was generated (an
 ---
 
 # tblLastInviteId
-[]
+ 
 tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.
   
 **Columns**

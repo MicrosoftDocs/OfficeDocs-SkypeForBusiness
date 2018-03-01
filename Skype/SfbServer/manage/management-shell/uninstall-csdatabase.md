@@ -13,7 +13,7 @@ description: "Deletes the specified Skype for Business Server 2015 database. Thi
 ---
 
 # Uninstall-CsDatabase
-[]
+ 
 Deletes the specified Skype for Business Server 2015 database. This cmdlet was introduced in Lync Server 2010.
   
 ```

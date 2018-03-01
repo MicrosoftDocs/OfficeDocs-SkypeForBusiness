@@ -15,7 +15,7 @@ description: "UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)"
 ---
 
 # Voice Policy: Create New or Edit Existing PSTN Usage Record
-[]
+ 
 UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
   
 - [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)

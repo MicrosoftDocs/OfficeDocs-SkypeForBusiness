@@ -13,7 +13,7 @@ description: "tblPrincipalType contains principal types to categorize what is in
 ---
 
 # tblPrincipalType
-[]
+ 
 tblPrincipalType contains principal types to categorize what is in the tblPrincipal table.
   
 **Columns**

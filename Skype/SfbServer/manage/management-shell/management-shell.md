@@ -14,7 +14,7 @@ description: "The Skype for Business Server Management Shell provides the comman
 ---
 
 # Skype for Business Server 2015 Management Shell
-[]
+ 
 The Skype for Business Server Management Shell provides the command line interface for server administration and management. It is built on Windows PowerShell and includes a comprehensive set of management and administration cmdlets that are specific to Skype and legacy Lync server products.
   
 Windows PowerShell allows you to manage Microsoft applications from the command line. It includes a command-line environment, product-specific commands, and a full scripting language. Windows PowerShell was first introduced as a downloadable release for the Windows operating system late in 2006, and was incorporated as the command-line interface for manageability of Microsoft Exchange Server 2007. It has been incorporated into most of the Microsoft Server products, including Lync and Skype servers beginning with Lync Server 2010. There are over 700 Lync and Skype specific cmdlets available in the Skype for Business Server Management Shell.

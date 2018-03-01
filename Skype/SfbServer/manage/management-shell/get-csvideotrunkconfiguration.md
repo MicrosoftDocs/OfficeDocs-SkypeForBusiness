@@ -13,7 +13,7 @@ description: "Use the Get-CsVideoTrunkConfiguration to retrieve Video Trunk conf
 ---
 
 # Get-CsVideoTrunkConfiguration
-[]
+ 
 Use the **Get-CsVideoTrunkConfiguration** to retrieve Video Trunk configuration settings. Video trunk settings define the Session Initiation Protocol (SIP) trunk between the Video Interoperability Server (VIS) and a Video Gateway.
   
 This cmdlet was introduced in Skype for Business Server 2015.

@@ -13,7 +13,7 @@ description: "Modifies an existing network bandwidth policy profile. This cmdlet
 ---
 
 # Set-CsNetworkBandwidthPolicyProfile
-[]
+ 
 Modifies an existing network bandwidth policy profile. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "In Topology Builder, you can perform tasks related to an individua
 ---
 
 # Archiving Servers Scope Node
-[]
+ 
 In Topology Builder, you can perform tasks related to an individual Archiving Server by either right-clicking the **Archiving Server** in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking the following Archiving Server option.
   
 - **New Archiving Server**. Starts the **Define New Archiving Server** wizard, where you specify the settings for a new Archiving Server, including the fully qualified domain name (FQDN), archiving SQL Server database, archiving file store, and pool association.

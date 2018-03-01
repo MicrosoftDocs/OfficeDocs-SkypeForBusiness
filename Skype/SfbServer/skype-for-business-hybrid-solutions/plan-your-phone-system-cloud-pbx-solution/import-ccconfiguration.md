@@ -13,7 +13,7 @@ description: "Imports the Skype for Business Cloud Connector Edition configurati
 ---
 
 # Import-CcConfiguration
-[]
+ 
 Imports the Skype for Business Cloud Connector Edition configuration from a local file to the Cloud Connector host server.
   
 ```

@@ -13,7 +13,7 @@ description: "Read this topic to learn about provisioning Skype Room System acco
 ---
 
 # Provisioning Skype Room System accounts in Office 365
-[]
+ 
 Read this topic to learn about provisioning Skype Room System accounts in Office 365.
   
 The following section covers Skype Room System account provisioning for an Office 365 tenant.

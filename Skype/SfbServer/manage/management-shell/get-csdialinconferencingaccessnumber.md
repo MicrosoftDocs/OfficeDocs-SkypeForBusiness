@@ -13,7 +13,7 @@ description: "Returns information about all the dial-in conferencing access numb
 ---
 
 # Get-CsDialInConferencingAccessNumber
-[]
+ 
 Returns information about all the dial-in conferencing access numbers configured for use in your organization. Dial-in conferencing provides a way for users to use a "regular" telephone mobile phone, or device on the public switched telephone network (PSTN) to join the audio portion of an online conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

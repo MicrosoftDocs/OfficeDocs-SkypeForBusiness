@@ -13,7 +13,7 @@ description: "Creates a new collection of centralized logging configuration sett
 ---
 
 # New-CsClsConfiguration
-[]
+ 
 Creates a new collection of centralized logging configuration settings. Centralized logging provides a way for administrators to simultaneously enable or disable Skype for Business Server 2015 tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

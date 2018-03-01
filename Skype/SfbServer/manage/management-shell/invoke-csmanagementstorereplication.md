@@ -13,7 +13,7 @@ description: "Forces Skype for Business Server 2015 replication services to send
 ---
 
 # Invoke-CsManagementStoreReplication
-[]
+ 
 Forces Skype for Business Server 2015 replication services to send complete configuration data to the specified computers. This is done by deleting the replication status of the computers from the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Returns information about the device update rules configured for u
 ---
 
 # Get-CsDeviceUpdateRule
-[]
+ 
 Returns information about the device update rules configured for use in your organization. Device update rules are used to associate firmware updates with devices that run Skype for Business Phone Edition. This cmdlet was introduced in Lync Server 2010.
   
 ```

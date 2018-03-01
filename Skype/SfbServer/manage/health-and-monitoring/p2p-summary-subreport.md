@@ -13,8 +13,8 @@ description: "Summary: Learn about the P2P Summary Subreport in Skype for Busine
 ---
 
 # P2P Summary Subreport in Skype for Business Server 2015
-[]
- **Summary:** Learn about the P2P Summary Subreport in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the P2P Summary Subreport in Skype for Business Server 2015.
   
 The P2P Summary Subreport provides an overall view of your failed peer-to-peer communication sessions.
   

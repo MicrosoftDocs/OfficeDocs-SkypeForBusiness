@@ -15,8 +15,8 @@ description: "Summary: Learn about the environmental requirements for Edge Serve
 ---
 
 # Edge Server environmental requirements in Skype for Business Server 2015
-[]
- **Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server 2015.
   
 A lot of planning and preparation needs to take place outside of the Skype for Business Server 2015 Edge Server environment itself. In this article, we'll review what preparations need to be made in the organizational environment, as per our list below:
   

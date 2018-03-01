@@ -13,7 +13,7 @@ description: "Enables administrators to import data exported from a Microsoft Ly
 ---
 
 # Import-CsPersistentChatData
-[]
+ 
 Enables administrators to import data exported from a Microsoft Lync Server 2010 Group Chat database into a Skype for Business Server 2015 Persistent Chat database. This data must have previously been exported from the Group Chat database by using the **Export-CsPersistentChatData** cmdlet. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -48,7 +48,7 @@ Although primarily intended for migration purposes, the **CsPersistentChatData**
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ByteInput_ <br/> |Required  <br/> |System.Byte[]  <br/> |When specified, data is imported as a byte array rather than an XML file.  <br/> |
+| _ByteInput_ <br/> |Required  <br/> |System.Byte   <br/> |When specified, data is imported as a byte array rather than an XML file.  <br/> |
 | _DBInstance_ <br/> |Required  <br/> |System.String  <br/> |Fully qualified domain name and name of the SQL Server instance where the Skype for Business Server 2015 Persistent Chat database is located. For example, this syntax specifies the database found in the RTC database instance on the server atl-sql-001.litwareinc.com:  <br/>  `-DBInstance "atl-sql-001.litwareinc.com\rtc"` <br/> |
 | _FileName_ <br/> |Required  <br/> |System.String  <br/> |Full path to the XML file being imported. For example:  <br/>  `-FileName "C:\Logs\PersistentChatExport.xml"` <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |

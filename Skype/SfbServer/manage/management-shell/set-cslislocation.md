@@ -13,7 +13,7 @@ description: "Creates a new location or modifies an existing location in the loc
 ---
 
 # Set-CsLisLocation
-[]
+ 
 Creates a new location or modifies an existing location in the location configuration database for Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

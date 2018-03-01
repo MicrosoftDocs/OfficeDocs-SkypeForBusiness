@@ -13,7 +13,7 @@ description: "Tests the ability of two users to conduct an instant messaging (IM
 ---
 
 # Test-CsGroupIM
-[]
+ 
 Tests the ability of two users to conduct an instant messaging (IM) conference. The **Test-CsGroupIM** cmdlet is a "synthetic transaction": a simulation of common Skype for Business Server 2015 activities used for health and performance monitoring. This cmdlet was introduced in Lync Server 2010.
   
 ```

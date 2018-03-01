@@ -14,8 +14,8 @@ description: "Summary: Learn about the service components and configuration sett
 ---
 
 # Centralized Logging Service in Skype for Business 2015
-[]
- **Summary:** Learn about the service components and configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the service components and configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
   
 The Centralized Logging Service can: 
   

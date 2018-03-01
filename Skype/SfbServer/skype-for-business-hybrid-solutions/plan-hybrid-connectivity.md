@@ -19,8 +19,8 @@ description: "Summary: Read this topic to learn how to plan hybrid connectivity 
 ---
 
 # Plan hybrid connectivity between Skype for Business Server and Skype for Business Online
-[]
- **Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions.
+ 
+**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions.
   
 This topic provides an overview, and describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment—with users who were created in your on-premises Active Directory—and Skype for Business Online. 
   

@@ -15,7 +15,7 @@ description: "The PSTN Gateways node lists the public switched telephone network
 ---
 
 # PSTN Gateways Scope Node
-[]
+ 
 The **PSTN Gateways** node lists the public switched telephone networks (PSTN) gateways in your topology. You can perform the following action:
   
 - **New IP/PSTN Gateway**. Starts the **Define New IP/PSTN Gateway** wizard, which you use to add a new PSTN gateway to the topology.

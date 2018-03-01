@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about capacity planning for Pers
 ---
 
 # Capacity planning for Persistent Chat Server in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015.
   
 Persistent Chat Server can perform multi-user, real-time chat that can persist for future retrieval and search. Unlike group instant messaging (IM) that is saved in a user's mailbox if conversation history is configured, a Persistent Chat Server session stays open longer, and the content is saved on a server, along with the messages, files, URLs, and other data that are part of an ongoing conversation.
   

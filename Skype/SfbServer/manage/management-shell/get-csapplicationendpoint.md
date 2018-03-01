@@ -13,7 +13,7 @@ description: "Retrieves endpoints for the Application service. This cmdlet was i
 ---
 
 # Get-CsApplicationEndpoint
-[]
+ 
 Retrieves endpoints for the Application service. This cmdlet was introduced in Lync Server 2010.
   
 ```

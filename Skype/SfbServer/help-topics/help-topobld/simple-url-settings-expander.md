@@ -15,7 +15,7 @@ description: "To specify new, remove existing, or to change the active the simpl
 ---
 
 # Simple URL Settings Expander
-[]
+ 
 To specify new, remove existing, or to change the active the simple URLs, do the following:
   
 ## Simple URLs

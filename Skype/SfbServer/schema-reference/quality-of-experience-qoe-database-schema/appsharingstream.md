@@ -13,7 +13,7 @@ description: "The AppSharingStream table contains Quality of Experience metrics 
 ---
 
 # AppSharingStream table
-[]
+ 
 The AppSharingStream table contains Quality of Experience metrics for the network streams used for application sharing. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

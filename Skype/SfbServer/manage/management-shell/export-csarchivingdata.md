@@ -13,7 +13,7 @@ description: "Enables you to export records that have been stored in the Skype f
 ---
 
 # Export-CsArchivingData
-[]
+ 
 Enables you to export records that have been stored in the Skype for Business Server 2015 Archiving database. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Modifies the reporting URL for an existing collection of reporting
 ---
 
 # Set-CsReportingConfiguration
-[]
+ 
 Modifies the reporting URL for an existing collection of reporting configuration settings. Reporting configuration settings are used to specify the URL used to access Skype for Business Server 2015 Monitoring Reports. This cmdlet was introduced in Lync Server 2013.
   
 ```

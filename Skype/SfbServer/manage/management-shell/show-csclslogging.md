@@ -13,11 +13,11 @@ description: "Shows the current status of the centralized logging service. (That
 ---
 
 # Show-CsClsLogging
-[]
+ 
 Shows the current status of the centralized logging service. (That is, shows which centralized logging scenarios are currently active.) Centralized logging provides a way for administrators to simultaneously enable or disable Skype for Business Server 2015 tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Show-CsClsLogging [-AsXml <SwitchParameter>] [-Computers <String[]>] [-Pools <String[]>]
+Show-CsClsLogging [-AsXml <SwitchParameter>] [-Computers <String >] [-Pools <String >]
 
 ```
 
@@ -57,8 +57,8 @@ The **Show-CsClsLogging** cmdlet returns information about all the scenarios cur
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _AsXml_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, information is returned using XML.  <br/> |
-| _Computers_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to return logging information from a specified server or set of servers. To return information from a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Show-CsClsLogging** cmdlet will show the status of all Computers in the topology. <br/> |
-| _Pools_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to return logging information for each server in a pool. To return information for a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
+| _Computers_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to return logging information from a specified server or set of servers. To return information from a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not include the Computers parameter or the Pools parameter, the **Show-CsClsLogging** cmdlet will show the status of all Computers in the topology. <br/> |
+| _Pools_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to return logging information for each server in a pool. To return information for a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>

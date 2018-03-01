@@ -15,7 +15,7 @@ description: "This node shows the configuration information for this Front End p
 ---
 
 # Front End Server Scope Node
-[]
+ 
 This node shows the configuration information for this Front End pool or Standard Edition server. You can perform the following actions:
   
 - **New Server**. If this is a Front End pool, you can select this to start the **Define New Server** wizard, which you can use to add another Front End Server to this pool.

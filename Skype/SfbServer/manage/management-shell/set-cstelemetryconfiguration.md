@@ -14,7 +14,7 @@ description: "Use the Set-CsTelemetryConfiguration cmdlet to change the settings
 ---
 
 # Set-CsTelemetryConfiguration
-[]
+ 
 Use the **Set-CsTelemetryConfiguration** cmdlet to change the settings on existing telemetry configurations. UNRESOLVED_TOKEN_VAL(PS_TelemetryDataStatement)
   
 ```

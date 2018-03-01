@@ -13,7 +13,7 @@ description: "Disables a public provider configured for use in your organization
 ---
 
 # Disable-CsPublicProvider
-[]
+ 
 Disables a public provider configured for use in your organization. A public provider is an organization that provides instant messaging, presence, and related services to the general public. This cmdlet was introduced in Lync Server 2010.
   
 ```

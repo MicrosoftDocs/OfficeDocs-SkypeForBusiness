@@ -13,7 +13,7 @@ description: "Uninstalls a Skype for Business Server 2015 mirror database. A dat
 ---
 
 # Uninstall-CsMirrorDatabase
-[]
+ 
 Uninstalls a Skype for Business Server 2015 mirror database. A database mirror enables you to simultaneously maintain two copies of a database, each copy residing on a different server. This cmdlet was introduced in Lync Server 2013.
   
 ```

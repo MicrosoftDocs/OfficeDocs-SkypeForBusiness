@@ -13,7 +13,7 @@ description: "This section describes the global settings and objects, and the un
 ---
 
 # Changes made by forest preparation in Skype for Business Server
-[]
+ 
 This section describes the global settings and objects, and the universal service and administration groups that are created by the forest preparation step.
   
 ## Active Directory Global Settings and Objects

@@ -14,8 +14,8 @@ description: "Summary: Learn how to configure your Skype for Business Server 201
 ---
 
 # Manage Skype for Business Server 2015 using SCOM Management pack
-[]
- **Summary:** Learn how to configure your Skype for Business Server 2015 infrastructure to work with System Center Operations Manager.
+ 
+**Summary:** Learn how to configure your Skype for Business Server 2015 infrastructure to work with System Center Operations Manager.
   
 In an ideal world, you'd never encounter issues with Skype for Business Server 2015. However, Skype for Business Server can be affected by external factors—for example, network crashes and hardware failures. By using Skype for Business Server 2015 Management Packs, you can identify and address potential issues proactively. In this way, the Skype for Business Server 2015 Management Packs extend the capabilities of System Center Operations Manager.
   

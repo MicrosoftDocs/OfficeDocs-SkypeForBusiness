@@ -13,7 +13,7 @@ description: "Use the New-CsImConfiguration cmdlet to create a new Instant Messa
 ---
 
 # New-CsImConfiguration
-[]
+ 
 Use the **New-CsImConfiguration** cmdlet to create a new Instant Messaging (IM) configuration.
   
 ```

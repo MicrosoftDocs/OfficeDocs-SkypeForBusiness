@@ -13,7 +13,7 @@ description: "Enables or disables one or more Skype for Business Server 2015 use
 ---
 
 # Set-CsUserDatabaseState
-[]
+ 
 Enables or disables one or more Skype for Business Server 2015 user databases. This cmdlet was introduced in Lync Server 2010.
   
 ```

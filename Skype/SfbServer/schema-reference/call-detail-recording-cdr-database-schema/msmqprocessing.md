@@ -13,7 +13,7 @@ description: "The MSMQProcessing table is for internal use only. This table was 
 ---
 
 # MSMQProcessing table
-[]
+ 
 The MSMQProcessing table is for internal use only. This table was introduced in Skype for Business Server 2015.
   
 

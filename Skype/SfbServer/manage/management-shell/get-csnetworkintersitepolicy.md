@@ -13,7 +13,7 @@ description: "Retrieves one or more network inter-site policies, which define ba
 ---
 
 # Get-CsNetworkInterSitePolicy
-[]
+ 
 Retrieves one or more network inter-site policies, which define bandwidth limitations between sites that are directly linked within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

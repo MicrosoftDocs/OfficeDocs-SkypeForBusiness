@@ -13,7 +13,7 @@ description: "tblNode contains the object tree (with category or chat room nodes
 ---
 
 # tblNode
-[]
+ 
 tblNode contains the object tree (with category or chat room nodes) as managed in the control panel and administrative cmdlets.
   
 **Columns**

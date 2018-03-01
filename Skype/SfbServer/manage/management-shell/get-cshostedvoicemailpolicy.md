@@ -13,7 +13,7 @@ description: "Retrieves a hosted voice mail policy. This cmdlet was introduced i
 ---
 
 # Get-CsHostedVoicemailPolicy
-[]
+ 
 Retrieves a hosted voice mail policy. This cmdlet was introduced in Lync Server 2010.
   
 > [!NOTE]

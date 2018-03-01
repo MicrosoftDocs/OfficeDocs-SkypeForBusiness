@@ -13,7 +13,7 @@ description: "The Test-CsComputer cmdlet verifies the status of the Skype for Bu
 ---
 
 # Test-CsComputer
-[]
+ 
 The **Test-CsComputer** cmdlet verifies the status of the Skype for Business Server 2015 services running on the local computer. The cmdlet also verifies that the appropriate Skype for Business Server 2015 Active Directory groups have been added to the corresponding local groups on the computer, and that the necessary computer firewall ports have been opened. This cmdlet was introduced in Lync Server 2010.
   
 ```

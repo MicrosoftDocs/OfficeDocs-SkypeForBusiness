@@ -15,7 +15,7 @@ description: "A Persistent Chat Administrator can create and manage chat room ca
 ---
 
 # Select Denied Members
-[]
+ 
 A Persistent Chat Administrator can create and manage chat room categories. As part of creating and managing chat room categories, a Persistent Chat Administrator can configure principals (Active Directory Domain Services groups/containers/users) that have access to be members/creators of chat rooms of a particular category. A Persistent Chat Administrator can also add DeniedMembers to a category and these become explicit exclusions to the allowed list. DeniedMembers override what's in AllowedMembers.
   
 ## Tasks that you can perform

@@ -13,7 +13,7 @@ description: "The Mcus view stores information about the MCUs that have particip
 ---
 
 # Mcus view
-[]
+ 
 The Mcus view stores information about the MCUs that have participated in conference sessions. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

@@ -13,7 +13,7 @@ description: "Modifies the property values of an existing server application. Se
 ---
 
 # Set-CsServerApplication
-[]
+ 
 Modifies the property values of an existing server application. Server applications are applications that are hosted by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

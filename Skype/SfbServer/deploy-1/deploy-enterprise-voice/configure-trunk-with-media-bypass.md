@@ -15,8 +15,8 @@ description: "Summary: Configure a trunk with media bypass enabled for Skype for
 ---
 
 # Configure a trunk with media bypass in Skype for Business Server 2015
-[]
- **Summary:** Configure a trunk with media bypass enabled for Skype for Business Server 2015. This will let you minimize the number of Mediation Servers, presuming your SIP trunk provider supports it.
+ 
+**Summary:** Configure a trunk with media bypass enabled for Skype for Business Server 2015. This will let you minimize the number of Mediation Servers, presuming your SIP trunk provider supports it.
   
 Follow these steps to configure a trunk with media bypass enabled. To configure a trunk with media bypass disabled, see [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md). 
   

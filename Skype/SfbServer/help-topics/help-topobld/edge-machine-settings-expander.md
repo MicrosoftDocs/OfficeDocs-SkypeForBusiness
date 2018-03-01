@@ -15,7 +15,7 @@ description: "To edit the properties for a server in a pool of Edge Servers, do 
 ---
 
 # Edge Machine Settings Expander
-[]
+ 
 To edit the properties for a server in a pool of Edge Servers, do the following:
   
 The **Internal name or FQDN** can be changed by editing the fully qualified domain name (FQDN). The FQDN must match the Domain Name System (DNS) host (A) record, and the subject name of the certificate assigned to the server for the internal Edge network interface. The value of **Internal IP address** defines the IP address that is assigned the network interface that is defined as an internal network, relative to the perimeter network design.

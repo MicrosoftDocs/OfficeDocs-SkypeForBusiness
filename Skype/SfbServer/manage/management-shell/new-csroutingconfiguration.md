@@ -13,7 +13,7 @@ description: "This cmdlet returns an object containing the default settings for 
 ---
 
 # New-CsRoutingConfiguration
-[]
+ 
 This cmdlet returns an object containing the default settings for a routing configuration object. This cmdlet was introduced in Lync Server 2010.
   
 ```

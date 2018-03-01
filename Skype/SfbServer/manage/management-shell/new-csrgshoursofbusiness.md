@@ -13,7 +13,7 @@ description: "Creates a new set of Response Group application business hours. Bu
 ---
 
 # New-CsRgsHoursOfBusiness
-[]
+ 
 Creates a new set of Response Group application business hours. Business hour sets are used to indicate the days of the week and the times of day when Response Group agents are typically available to answer phone calls. This cmdlet was introduced in Lync Server 2010.
   
 ```

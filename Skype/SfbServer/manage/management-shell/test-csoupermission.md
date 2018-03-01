@@ -13,7 +13,7 @@ description: "Verifies that the required permissions needed to manage users, com
 ---
 
 # Test-CsOUPermission
-[]
+ 
 Verifies that the required permissions needed to manage users, computers, and other objects have been set on the specified Active Directory container. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -14,7 +14,7 @@ description: "Learn about deploying multiple PSTN sites in Cloud Connector Editi
 ---
 
 # Deploy multiple sites in Cloud Connector
-[]
+ 
 Learn about deploying multiple PSTN sites in Cloud Connector Edition.
   
 This section describes how to deploy multiple Public Switched Telephone Network (PSTN) sites. Sites are deployed one at a time using the same steps as deploying a single site. This topic describes the considerations for and differences between sites in a multiple site deployment. 

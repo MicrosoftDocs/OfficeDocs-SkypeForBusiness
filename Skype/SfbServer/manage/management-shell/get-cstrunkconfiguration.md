@@ -13,7 +13,7 @@ description: "Retrieves one or more trunk configurations, which describe the set
 ---
 
 # Get-CsTrunkConfiguration
-[]
+ 
 Retrieves one or more trunk configurations, which describe the settings for a trunking peer entity such as a public switched telephone network (PSTN) gateway, IP-private branch exchange (PBX), or Session Border Controller (SBC) at the service provider. This cmdlet was introduced in Lync Server 2010.
   
 ```

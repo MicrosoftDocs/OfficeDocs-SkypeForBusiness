@@ -13,7 +13,7 @@ description: "The SIPResponseMetaDataTable contains a list of SIP response codes
 ---
 
 # SIPResponseMetaData table
-[]
+ 
 The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.
   
 This table was introduced in Skype for Business Server 2015.

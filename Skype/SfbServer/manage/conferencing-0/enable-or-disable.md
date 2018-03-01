@@ -13,8 +13,8 @@ description: "Summary: Learn how to use Control Panel or Management Shell to ena
 ---
 
 # Enable or disable dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server 2015.
   
 You can enable dial-in conferencing by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

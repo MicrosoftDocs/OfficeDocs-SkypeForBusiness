@@ -13,7 +13,7 @@ description: "tblComplianceParticipant contains the current participants per cha
 ---
 
 # tblComplianceParticipant
-[]
+ 
 tblComplianceParticipant contains the current participants per channel and per server.
   
 **Columns**

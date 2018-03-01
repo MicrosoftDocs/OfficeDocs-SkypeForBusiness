@@ -15,7 +15,7 @@ description: "This node shows the fully qualified domain name (FQDN) and depende
 ---
 
 # File Store Scope Node
-[]
+ 
 This node shows the fully qualified domain name (FQDN) and dependent pools for this file store. You can perform the following actions:
   
 - **Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN and file store name.

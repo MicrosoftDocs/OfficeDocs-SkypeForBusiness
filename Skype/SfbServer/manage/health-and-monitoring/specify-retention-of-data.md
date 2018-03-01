@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage call detail recording (CDR) data for 
 ---
 
 # Specify retention of CDR data in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015.
   
 By default, call detail recording (CDR) data is purged after 60 days. You can use the settings on the **Call Detail Recording** page to retain the data for a longer or shorter period of time. If you disable CDR, data that was captured before CDR was enabled will also be subject to purging.
   

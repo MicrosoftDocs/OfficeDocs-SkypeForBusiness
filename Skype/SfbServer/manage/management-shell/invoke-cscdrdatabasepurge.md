@@ -13,7 +13,7 @@ description: "Manually purges records from the Call Detail records (CDR) databas
 ---
 
 # Invoke-CsCdrDatabasePurge
-[]
+ 
 Manually purges records from the Call Detail records (CDR) database. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Creates a new collection of Federal Information Processing Standar
 ---
 
 # New-CsFIPSConfiguration
-[]
+ 
 Creates a new collection of Federal Information Processing Standards (FIPS) configuration settings. The FIPS standards are a set of United States government security standards required for use in computers maintained by non-military government agencies and by government contractors. This cmdlet was introduced in Lync Server 2013.
   
 ```

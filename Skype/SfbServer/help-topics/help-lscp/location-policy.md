@@ -15,7 +15,7 @@ description: "Location policies determine whether Enhanced 9-1-1 (E9-1-1) is ena
 ---
 
 # Location Policy
-[]
+ 
 Location policies determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts. 
   
 Location policies include the global policy and, optionally, one or more site and user policies:

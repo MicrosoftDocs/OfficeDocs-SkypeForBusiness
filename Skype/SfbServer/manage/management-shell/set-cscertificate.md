@@ -13,11 +13,11 @@ description: "Enables you to assign a certificate to a Skype for Business Server
 ---
 
 # Set-CsCertificate
-[]
+ 
 Enables you to assign a certificate to a Skype for Business Server 2015 server or server role. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Set-CsCertificate -Reference <CertificateReference> -Type <CertType[]> [-Identity <XdsIdentity>] <COMMON PARAMETERS>
+Set-CsCertificate -Reference <CertificateReference> -Type <CertType > [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 
 ```
 
@@ -53,7 +53,7 @@ The **Set-CsCertificate** cmdlet enables administrators to assign a certificate 
 | _Path_ <br/> |Required  <br/> |System.String  <br/> |Full path to the .PFX certificate file.  <br/> |
 | _Reference_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertificateReference  <br/> |Object reference to a certificate configured for use with Skype for Business Server 2015. The following command returns an object reference (the variable $x) representing a certificate with the thumbprint B142918E463981A76503828BB1278391B716280987B:  <br/>  `$x = Get-CsCertificate | Where-Object {$_.Thumbprint -eq "B142918E463981A76503828BB1278391B716280987B".` <br/> |
 | _Thumbprint_ <br/> |Required  <br/> |System.String  <br/> |Unique identifier for the certificate. A certificate thumbprint looks similar to this: B142918E463981A76503828BB1278391B716280987B.  <br/> |
-| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType[]  <br/> |Type of certificate being assigned. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPhoneAPNService  <br/> iPadAPNService  <br/> MPNService  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax assigns the Default certificate:  `-Type Default`.  <br/> You can specify multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
+| _Type_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Deployment.CertType   <br/> |Type of certificate being assigned. Certificate types include, but are not limited to, the following:  <br/> AccessEdgeExternal  <br/> AudioVideoAuthentication  <br/> DataEdgeExternal  <br/> Default  <br/> External  <br/> Internal  <br/> iPhoneAPNService  <br/> iPadAPNService  <br/> MPNService  <br/> PICWebService (Skype for Business Online only)  <br/> ProvisionService (Skype for Business Online only)  <br/> WebServicesExternal  <br/> WebServicesInternal  <br/> WsFedTokenTransfer  <br/> For example, this syntax assigns the Default certificate:  `-Type Default`.  <br/> You can specify multiple types in a single command by separating the certificate types with commas:  <br/>  `-Type Internal,External,Default` <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _EffectiveDate_ <br/> |Optional  <br/> |System.DateTime  <br/> |Date and time when the certificate can first be used. For example, to configure a certificate for first use at 8:00 AM on July 31, 2012 use this syntax on a server running under the US English Region and Language settings:  <br/>  `-EffectiveTime "7/31/2012 8:00 AM"` <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses the display of any non-fatal error message that might arise when running the command.  <br/> |

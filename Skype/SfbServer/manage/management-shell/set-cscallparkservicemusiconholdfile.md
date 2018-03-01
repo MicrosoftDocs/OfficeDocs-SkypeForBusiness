@@ -13,11 +13,11 @@ description: "Changes the audio file that will be played to callers who are on h
 ---
 
 # Set-CsCallParkServiceMusicOnHoldFile
-[]
+ 
 Changes the audio file that will be played to callers who are on hold in a parked call. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Set-CsCallParkServiceMusicOnHoldFile -Content <Byte[]> -Service <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
+Set-CsCallParkServiceMusicOnHoldFile -Content <Byte > -Service <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
 
 ```
 
@@ -48,7 +48,7 @@ Audio files must be in the following format: Windows Media Audio 9, 44 kHz, 16 b
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Content_ <br/> |Required  <br/> |System.Byte[]  <br/> |The contents of the audio file in byte format.  <br/> Use the **Get-Content** cmdlet to retrieve the contents of the audio file in byte format. (For details, see the Examples section in this topic.) <br/> |
+| _Content_ <br/> |Required  <br/> |System.Byte   <br/> |The contents of the audio file in byte format.  <br/> Use the **Get-Content** cmdlet to retrieve the contents of the audio file in byte format. (For details, see the Examples section in this topic.) <br/> |
 | _Service_ <br/> |Required  <br/> |System.String  <br/> |The ID of the service where the Call Park service resides; for example, ApplicationServer:pool0.litwareinc.com.  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses any confirmation prompts that would otherwise be displayed before making changes.  <br/> |
@@ -57,7 +57,7 @@ Audio files must be in the following format: Windows Media Audio 9, 44 kHz, 16 b
    
 ## Input Types
 
-Byte[]. Accepts pipelined input of a byte array containing the music on hold file.
+Byte . Accepts pipelined input of a byte array containing the music on hold file.
   
 ## Return Types
 

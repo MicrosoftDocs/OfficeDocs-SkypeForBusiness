@@ -13,7 +13,7 @@ description: "Returns information about the User Services configuration settings
 ---
 
 # Get-CsUserServicesConfiguration
-[]
+ 
 Returns information about the User Services configuration settings in use in your organization. The User Services service helps maintain presence information and manage conferencing. This cmdlet was introduced in Lync Server 2010.
   
 ```

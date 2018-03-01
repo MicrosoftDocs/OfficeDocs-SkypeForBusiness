@@ -13,7 +13,7 @@ description: "Modifies an existing presence policy. This cmdlet was introduced i
 ---
 
 # Set-CsPresencePolicy
-[]
+ 
 Modifies an existing presence policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

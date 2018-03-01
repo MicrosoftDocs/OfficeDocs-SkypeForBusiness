@@ -15,7 +15,7 @@ description: "Click Finish to create an empty topology as the first step in deco
 ---
 
 # Remove Deployment
-[]
+ 
 Click **Finish** to create an empty topology as the first step in decommissioning your entire deployment.
   
 > [!CAUTION]

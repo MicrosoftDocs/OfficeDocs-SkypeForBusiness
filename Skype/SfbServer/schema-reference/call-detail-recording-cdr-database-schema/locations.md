@@ -13,7 +13,7 @@ description: "Each record represents one location reference in an emergency call
 ---
 
 # Locations table in Skype for Business Server 2015
-[]
+ 
 Each record represents one location reference in an emergency call, like an E9-1-1 call.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

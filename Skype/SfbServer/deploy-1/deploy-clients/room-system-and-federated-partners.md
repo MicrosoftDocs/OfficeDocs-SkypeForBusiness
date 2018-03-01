@@ -13,7 +13,7 @@ description: "Read this topic to learn how to set up Skype Room System for Skype
 ---
 
 # Skype Room System and Skype for Business federated partners
-[]
+ 
 Read this topic to learn how to set up Skype Room System for Skype for Business federated partners.
   
 ## Skype Room System and Skype for Business federated partners

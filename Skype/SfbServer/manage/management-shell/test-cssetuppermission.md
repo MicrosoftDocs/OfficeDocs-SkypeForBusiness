@@ -13,7 +13,7 @@ description: "Verifies that the required permissions needed to install Skype for
 ---
 
 # Test-CsSetupPermission
-[]
+ 
 Verifies that the required permissions needed to install Skype for Business Server 2015 or one of its components have been configured on the specified Active Directory container. This cmdlet was introduced in Lync Server 2010.
   
 ```

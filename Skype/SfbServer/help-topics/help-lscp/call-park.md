@@ -15,7 +15,7 @@ description: "When a call is parked, it is transferred to a temporary number whe
 ---
 
 # Call Park
-[]
+ 
 When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls. These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them). Each pool that runs the Call Park application can have one or more ranges of extensions. These ranges must be globally unique across your deployment.
   
 The ** Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.

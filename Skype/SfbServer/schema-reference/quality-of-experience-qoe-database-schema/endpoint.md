@@ -13,7 +13,7 @@ description: "The Endpoint table is a supporting table that stores information a
 ---
 
 # Endpoint table
-[]
+ 
 The Endpoint table is a supporting table that stores information about the endpoints that have participated in sessions recorded in the database. Each record in the table represents one endpoint.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

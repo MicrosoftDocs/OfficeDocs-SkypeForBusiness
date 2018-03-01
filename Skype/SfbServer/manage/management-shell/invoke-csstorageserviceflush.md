@@ -13,7 +13,7 @@ description: "Flushes the Skype for Business Server 2015 Storage Service databas
 ---
 
 # Invoke-CsStorageServiceFlush
-[]
+ 
 Flushes the Skype for Business Server 2015 Storage Service database on each Front End server in a pool. Flushing a database involves writing all the queued data to disk, and then clearing the database queue. This cmdlet was introduced in Lync Server 2013.
   
 ```

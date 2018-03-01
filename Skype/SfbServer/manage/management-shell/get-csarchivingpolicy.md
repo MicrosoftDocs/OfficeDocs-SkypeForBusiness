@@ -13,7 +13,7 @@ description: "Returns information about your instant messaging (IM) session arch
 ---
 
 # Get-CsArchivingPolicy
-[]
+ 
 Returns information about your instant messaging (IM) session archiving policies. Archiving policies enable you to archive all IM and web conferencing sessions that take place between internal users and/or between internal users and external users. This cmdlet was introduced in Lync Server 2010.
   
 ```

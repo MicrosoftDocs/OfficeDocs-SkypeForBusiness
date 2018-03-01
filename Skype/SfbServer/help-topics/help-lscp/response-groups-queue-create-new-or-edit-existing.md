@@ -15,7 +15,7 @@ description: "Response Group queues hold calls to a response group until an agen
 ---
 
 # Response Groups Queue: Create New or Edit Existing
-[]
+ 
 Response Group queues hold calls to a response group until an agent answers the call.
   
 ## UI Reference

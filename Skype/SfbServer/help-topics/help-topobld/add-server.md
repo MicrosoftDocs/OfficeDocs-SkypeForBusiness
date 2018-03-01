@@ -15,7 +15,7 @@ description: "To add a new server to an existing pool of servers, where the pool
 ---
 
 # Add Server
-[]
+ 
 To add a new server to an existing pool of servers, where the pool is one of the following:
   
 - Enterprise Edition Front End Server

@@ -13,8 +13,8 @@ description: "Summary: Learn how to configure Persistent Chat Server options at 
 ---
 
 # Configure Persistent Chat Server options in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server 2015.
   
 You can specify several options for Persistent Chat Server that can be applied globally, to all pools within a site, or to a specific pool within a site. Persistent Chat server options include the following: 
   

@@ -13,7 +13,7 @@ description: "Creates a new range of unassigned numbers and the routing rules th
 ---
 
 # New-CsUnassignedNumber
-[]
+ 
 Creates a new range of unassigned numbers and the routing rules that apply to those numbers. Running this cmdlet will add an entry to the unassigned number routing table. This cmdlet was introduced in Lync Server 2010.
   
 ```

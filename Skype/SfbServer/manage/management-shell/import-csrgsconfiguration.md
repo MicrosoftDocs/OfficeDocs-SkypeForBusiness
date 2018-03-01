@@ -13,7 +13,7 @@ description: "Imports Response Group configuration data that was previously expo
 ---
 
 # Import-CsRgsConfiguration
-[]
+ 
 Imports Response Group configuration data that was previously exported using the **Export-CsRgsConfiguration** cmdlet. The ability to export and import Response Group configuration data is particularly useful disaster recovery scenarios. This cmdlet was introduced in Lync Server 2013.
   
 ```

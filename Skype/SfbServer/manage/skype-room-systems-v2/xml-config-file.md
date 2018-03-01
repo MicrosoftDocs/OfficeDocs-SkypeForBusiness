@@ -13,7 +13,7 @@ description: "This article discusses remote management of the default settings u
 ---
 
 # Manage a Skype Room Systems v2 console settings remotely with an XML configuration file
-[]
+ 
 This article discusses remote management of the default settings used by a Skype Room Systems v2 device, including applying a custom theme.
   
 Updating a master XML file and sending copies to the consoles you manage makes it possible for you to change default settings for remotely managed devices. This article discusses how to create such a file, and links to discussions of how to place them as needed on the remotely managed devices. Using this method, you can also implement Custom Themes on your Skype Room Systems v2 consoles. 

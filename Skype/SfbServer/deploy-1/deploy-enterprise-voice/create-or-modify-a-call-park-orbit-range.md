@@ -15,7 +15,7 @@ description: "Create or modify a Call Park orbit range table in Skype for Busine
 ---
 
 # Create or modify a Call Park orbit range in Skype for Business 2015
-[]
+ 
 Create or modify a Call Park orbit range table in Skype for Business Server Enterprise Voice.
   
 Call Park uses orbits for parking calls. Before users can park and retrieve calls, you must configure the Call Park orbit table. You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range. When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. You can create multiple Call Park orbit ranges for each Skype for Business Server pool where the Call Park application is deployed. Each Call Park orbit range must have a globally unique name and a unique set of extensions.

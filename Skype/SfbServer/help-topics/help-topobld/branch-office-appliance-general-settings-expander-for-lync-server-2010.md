@@ -15,7 +15,7 @@ description: "To edit properties for Survivable Branch Appliance or Survivable B
 ---
 
 # Branch Office Appliance General Settings Expander for Lync Server 2010
-[]
+ 
 To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:
   
 - **FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.

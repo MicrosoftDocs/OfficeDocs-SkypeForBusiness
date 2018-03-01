@@ -13,7 +13,7 @@ description: "Modifies an existing collection of static routing configuration se
 ---
 
 # Set-CsStaticRoutingConfiguration
-[]
+ 
 Modifies an existing collection of static routing configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Replaces one or more Persistent Chat messages in the Persistent Ch
 ---
 
 # Remove-CsPersistentChatMessage
-[]
+ 
 Replaces one or more Persistent Chat messages in the Persistent Chat database with a default message or with an administrator-provided message. This cmdlet was introduced in Lync Server 2013.
   
 ```

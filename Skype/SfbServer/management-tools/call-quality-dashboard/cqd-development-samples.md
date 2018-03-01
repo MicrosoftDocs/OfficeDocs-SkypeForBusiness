@@ -14,8 +14,8 @@ description: "Summary: Review a tutorial and development samples for Call Qualit
 ---
 
 # CQD Development Samples
-[]
- **Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 This article provides a tutorial and samples on development for Call Quality Dashboard (CQD).
   

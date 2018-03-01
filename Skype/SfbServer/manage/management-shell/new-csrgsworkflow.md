@@ -13,7 +13,7 @@ description: "Creates a new Response Group workflow. Workflows determine the act
 ---
 
 # New-CsRgsWorkflow
-[]
+ 
 Creates a new Response Group workflow. Workflows determine the actions that are taken when the Response Group application receives a phone call. This cmdlet was introduced in Lync Server 2010.
   
 ```

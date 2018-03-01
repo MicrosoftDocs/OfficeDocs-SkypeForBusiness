@@ -13,7 +13,7 @@ description: "Each record represents one media type used in a peer-to-peer sessi
 ---
 
 # Media table
-[]
+ 
 Each record represents one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used.
   
 > [!NOTE]

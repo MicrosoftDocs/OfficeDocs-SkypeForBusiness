@@ -13,7 +13,7 @@ description: "Undoes the forest preparation tasks carried out by the Enable-CsAd
 ---
 
 # Disable-CsAdForest
-[]
+ 
 Undoes the forest preparation tasks carried out by the **Enable-CsAdForest** cmdlet. This cmdlet is typically used only if you are uninstalling Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

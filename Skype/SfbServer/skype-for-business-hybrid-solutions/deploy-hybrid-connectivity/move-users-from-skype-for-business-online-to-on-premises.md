@@ -18,8 +18,8 @@ description: "Summary: Learn how to move user accounts from online to on premise
 ---
 
 # Move users from Skype for Business Online to on premises
-[]
- **Summary:** Learn how to move user accounts from online to on premises in Skype for Business Server.
+ 
+**Summary:** Learn how to move user accounts from online to on premises in Skype for Business Server.
   
 You might need to move user accounts from online to on premises to ensure that users homed online and on premises are discoverable to one another. To be discoverable to one another, all users must have a presence in the on-premises Active Directory. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). You might want to move online users to on premises, for example, if: 
   

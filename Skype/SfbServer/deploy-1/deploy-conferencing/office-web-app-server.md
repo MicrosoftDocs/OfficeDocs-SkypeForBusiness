@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure integration bet
 ---
 
 # Configure integration with Office Web Apps Server in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure integration between Office Web Apps Server and Skype for Business Server 2015 to enable PowerPoint presentations for web conferencing.
+ 
+**Summary:** Read this topic to learn how to configure integration between Office Web Apps Server and Skype for Business Server 2015 to enable PowerPoint presentations for web conferencing.
   
 Skype for Business Server employs Office Web Apps Server to handle PowerPoint presentations for web conferencing. For information about the advantages to this approach, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md).
   

@@ -13,7 +13,7 @@ description: "Adds a computer that hosts trusted applications to an existing poo
 ---
 
 # New-CsTrustedApplicationComputer
-[]
+ 
 Adds a computer that hosts trusted applications to an existing pool. This cmdlet was introduced in Lync Server 2010.
   
 ```

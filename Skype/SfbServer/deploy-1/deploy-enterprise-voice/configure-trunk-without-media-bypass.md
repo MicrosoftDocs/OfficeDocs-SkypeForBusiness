@@ -15,8 +15,8 @@ description: "Summary: Configure a trunk without media bypass enabled for Skype 
 ---
 
 # Configure a trunk without media bypass in Skype for Business Server 2015
-[]
- **Summary:** Configure a trunk without media bypass enabled for Skype for Business Server 2015.
+ 
+**Summary:** Configure a trunk without media bypass enabled for Skype for Business Server 2015.
   
 If you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md).
   

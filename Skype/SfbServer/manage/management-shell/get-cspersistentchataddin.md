@@ -13,7 +13,7 @@ description: "Returns information about all the Persistent Chat add-ins configur
 ---
 
 # Get-CsPersistentChatAddin
-[]
+ 
 Returns information about all the Persistent Chat add-ins configured for use in the organization. A Persistent Chat add-in is a customized web page that can be embedded within a Persistent Chat client. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Enables administrators to specify the domains that their users wil
 ---
 
 # New-CsEdgeAllowList
-[]
+ 
 Enables administrators to specify the domains that their users will be allowed to communicate with. The **New-CsEdgeAllowList** cmdlet, which can be used only with Microsoft Lync Online, must be used in conjunction with the **New-CsEdgeDomainPattern** cmdlet and the **Set-CsTenantFederationConfiguration** cmdlet.
   
 ```

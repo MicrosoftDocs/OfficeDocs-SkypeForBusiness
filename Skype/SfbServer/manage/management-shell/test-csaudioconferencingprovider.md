@@ -13,7 +13,7 @@ description: "Tests to see if a user can connect to his or her audio conferencin
 ---
 
 # Test-CsAudioConferencingProvider
-[]
+ 
 Tests to see if a user can connect to his or her audio conferencing provider. An audio conferencing provider is a third-party company that provides organizations with conferencing services. Among other things, audio conferencing providers enable users located off site, and not connected to the corporate network or the Internet, to participate in the audio portion of a conference or meeting. This cmdlet was introduced in Lync Server 2013.
   
 ```

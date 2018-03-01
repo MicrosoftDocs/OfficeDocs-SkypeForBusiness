@@ -13,7 +13,7 @@ description: "Removes a network site that has been defined for call admission co
 ---
 
 # Remove-CsNetworkSite
-[]
+ 
 Removes a network site that has been defined for call admission control (CAC) or Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

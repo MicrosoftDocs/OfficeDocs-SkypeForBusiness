@@ -12,7 +12,7 @@ description: "Insert introduction here."
 ---
 
 # Help-DepWiz
-[]
+ 
 Insert introduction here.
   
 ## Section Heading

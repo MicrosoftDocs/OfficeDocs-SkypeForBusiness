@@ -15,8 +15,8 @@ description: "Summary: Learn about the new Skype for Business and the steps you 
 ---
 
 # Plan the Skype for Business client experience for your users
-[]
- **Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
+ 
+**Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
   
 The April 14th, 2015 Office Update for Lync 2013 includes the new Skype for Business user interface. This update enables administrators to control the look and feel of the client and choose whether to retain the Lync 2013 client experience or use the improved Skype for Business client experience. The Skype for Business client effectively replaced the Lync 2013 client, and added the ability for administrators to choose between the existing Lync client experience and the new Skype for Business client experience. For information about this update, see [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   

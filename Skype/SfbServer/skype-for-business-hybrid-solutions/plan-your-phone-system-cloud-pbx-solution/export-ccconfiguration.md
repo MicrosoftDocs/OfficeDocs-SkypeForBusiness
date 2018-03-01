@@ -13,7 +13,7 @@ description: "Exports the Skype for Business Cloud Connector Edition configurati
 ---
 
 # Export-CcConfiguration
-[]
+ 
 Exports the Skype for Business Cloud Connector Edition configuration to a local file on the Skype for Business Cloud Connector Edition host server.
   
 ```

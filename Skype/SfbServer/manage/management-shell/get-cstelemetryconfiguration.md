@@ -14,7 +14,7 @@ description: "Use the Get-CsTelemetryConfiguration cmdlet to return the settings
 ---
 
 # Get-CsTelemetryConfiguration
-[]
+ 
 Use the **Get-CsTelemetryConfiguration** cmdlet to return the settings on existing telemetry configurations.
   
 Telemetry returns a small set of Skype for Business operational data to Microsoft for quality tracking and product improvement. The data includes sign-in information, meeting joins, and other activity data.

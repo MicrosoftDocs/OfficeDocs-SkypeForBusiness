@@ -15,7 +15,7 @@ description: "The Select Calling Number Translation Rules dialog displays the tr
 ---
 
 # Select Calling Number Rules Translation
-[]
+ 
 The **Select Calling Number Translation Rules** dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:
   
 1. [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)

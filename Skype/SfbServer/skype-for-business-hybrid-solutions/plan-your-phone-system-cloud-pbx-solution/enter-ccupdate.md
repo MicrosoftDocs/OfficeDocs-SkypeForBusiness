@@ -12,7 +12,7 @@ description: "The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Co
 ---
 
 # Enter-CcUpdate
-[]
+ 
 The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode. The appliance is "drained"—that is, all existing calls will complete, but new calls are rejected. 
   
 ```

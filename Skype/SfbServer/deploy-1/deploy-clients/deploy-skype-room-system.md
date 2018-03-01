@@ -13,7 +13,7 @@ description: "Read about how do deploy Skype Room System, a meeting room solutio
 ---
 
 # Deploy Skype Room System in Skype for Business Server
-[]
+ 
 Read about how do deploy Skype Room System, a meeting room solution consisting of integrated hardware and software that is optimized to join Skype for Business meetings.
   
 > [!NOTE]

@@ -15,7 +15,7 @@ description: "You define the computers that will be a part of a Persistent Chat 
 ---
 
 # Define Computers in Persistent Chat Pool
-[]
+ 
 You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**. This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.
   
 Click **Add** to add the FQDN to the list of computers in the pool.

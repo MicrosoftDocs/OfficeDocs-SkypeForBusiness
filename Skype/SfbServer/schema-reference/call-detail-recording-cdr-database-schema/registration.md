@@ -13,7 +13,7 @@ description: "Each record represents one user registration event."
 ---
 
 # Registration table
-[]
+ 
 Each record represents one user registration event.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

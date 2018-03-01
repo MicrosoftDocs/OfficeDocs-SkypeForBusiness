@@ -13,7 +13,7 @@ description: "Removes an existing bandwidth policy service configuration. This c
 ---
 
 # Remove-CsBandwidthPolicyServiceConfiguration
-[]
+ 
 Removes an existing bandwidth policy service configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

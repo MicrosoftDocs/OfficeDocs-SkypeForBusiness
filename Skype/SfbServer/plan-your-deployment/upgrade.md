@@ -15,7 +15,7 @@ description: "Summary: Learn about the things you should consider when you plan 
 ---
 
 # Plan to upgrade to Skype for Business Server 2015
-[]
+ 
 Summary: Learn about the things you should consider when you plan an upgrade to Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 As part of your plan to upgrade to Skype for Business Server 2015, use this topic to understand the recommended upgrade paths to Skype for Business Server 2015, how the In-Place Upgrade works, what the supported coexistence scenarios are, and what the upgrade process looks like.

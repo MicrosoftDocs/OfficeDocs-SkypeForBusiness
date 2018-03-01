@@ -13,7 +13,7 @@ description: "Imports an Enterprise Voice Enhanced 9-1-1 (E9-1-1) configuration 
 ---
 
 # Import-CsLisConfiguration
-[]
+ 
 Imports an Enterprise Voice Enhanced 9-1-1 (E9-1-1) configuration from a backup file. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -66,12 +66,12 @@ IMPORTANT: Because the import from backup will not replace existing records, any
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ByteInput_ <br/> |Required  <br/> |System.Byte[]  <br/> |The value passed to this parameter is a variable containing a byte array of the LIS configuration that was created by the **Export-CsLisConfiguration** cmdlet with the AsBytes parameter. <br/> |
+| _ByteInput_ <br/> |Required  <br/> |System.Byte   <br/> |The value passed to this parameter is a variable containing a byte array of the LIS configuration that was created by the **Export-CsLisConfiguration** cmdlet with the AsBytes parameter. <br/> |
 | _FileName_ <br/> |Required  <br/> |System.String  <br/> |The name of the backup file from which to import the configuration. You cannot specify a FileName and a ByteInput. Only one of these two parameters can be used with each call to this cmdlet.  <br/> |
    
 ## Input Types
 
-Byte[]. Accepts a byte array from an exported LIS configuration. The byte array must be piped as a single record. See Example 3.
+Byte . Accepts a byte array from an exported LIS configuration. The byte array must be piped as a single record. See Example 3.
   
 ## Return Types
 

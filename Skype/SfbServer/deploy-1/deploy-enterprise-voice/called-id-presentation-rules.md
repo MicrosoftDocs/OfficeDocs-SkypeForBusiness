@@ -15,8 +15,8 @@ description: "Summary: Learn how to define a translation rule by using the Build
 ---
 
 # Create or modify a translation rule for called ID presentation in Skype for Business Server 2015
-[]
- **Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015.
   
 Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see[Create or Modify a Translation Rule Manually](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
   

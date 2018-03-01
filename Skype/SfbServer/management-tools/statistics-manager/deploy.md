@@ -14,8 +14,8 @@ description: "Summary: Read this topic to learn how to deploy Statistics Manager
 ---
 
 # Deploy Statistics Manager for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to deploy Statistics Manager for Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to deploy Statistics Manager for Skype for Business Server 2015.
   
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
   

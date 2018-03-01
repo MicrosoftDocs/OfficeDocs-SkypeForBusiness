@@ -13,7 +13,7 @@ description: "Use the Get-CsGroupPickupUserOrbit cmdlet to get the group pickup 
 ---
 
 # Get-CsGroupPickupUserOrbit
-[]
+ 
 Use the **Get-CsGroupPickupUserOrbit** cmdlet to get the group pickup orbit number for an Enterprise Voice user.
   
 ```

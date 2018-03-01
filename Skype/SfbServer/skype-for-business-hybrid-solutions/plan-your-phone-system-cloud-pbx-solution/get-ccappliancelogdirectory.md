@@ -13,7 +13,7 @@ description: "The Get-CcApplianceLogDirectory cmdlet shows the current directory
 ---
 
 # Get-CcApplianceLogDirectory
-[]
+ 
 The Get-CcApplianceLogDirectory cmdlet shows the current directory where logs for a Skype for Business Cloud Connector Edition appliance are stored.
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

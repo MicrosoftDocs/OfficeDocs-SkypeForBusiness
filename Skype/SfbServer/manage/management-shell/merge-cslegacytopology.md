@@ -13,7 +13,7 @@ description: "This cmdlet is reserved for Microsoft internal use only."
 ---
 
 # Merge-CsLegacyTopology
-[]
+ 
 This cmdlet is reserved for Microsoft internal use only. 
   
 The **Merge-CsLegacyTopology** cmdlet enables you to migrate topology information from Microsoft Office Communications Server 2007 R2 or Microsoft Office Communications Server 2007 to Skype for Business Server 2015. This helps provide interoperability between Skype for Business Server 2015 and earlier versions of the software. This cmdlet was introduced in Lync Server 2010.

@@ -15,7 +15,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 # Skype for Business Server 2015
 
- **Summary:** Explore these links to learn how to implement Skype for Business Server 2015.
+**Summary:** Explore these links to learn how to implement Skype for Business Server 2015.
   
 Lync is now Skype for Business, a communications and collaboration platform that brings together a client experience inspired by Skype with the enterprise-grade security, compliance, and control of Lync. Skype for Business offers features including presence, IM, voice and video calls, and online meetings. Skype for Business provides a new client experience, a new server release, and updates to the service in Office 365. If users in your organization are already familiar with Skype, they'll appreciate the power and simplicity of Skype for Business where it's easy to find and connect with co-workers. If users in your organization are coming to Skype for Business from Lync, they'll recognize all of the features they already use but in a fresh new interface with simplified controls and new additions. In addition to the new client experience, Skype for Business Server provides several new features to improve manageability of on-premises servers and hybrid solutions.
   

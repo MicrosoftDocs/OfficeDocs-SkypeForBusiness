@@ -13,7 +13,7 @@ description: "Returns information about the configuration settings for computers
 ---
 
 # Get-CsAccessEdgeConfiguration
-[]
+ 
 Returns information about the configuration settings for computers running the Access Edge service in your organization (also known as Access Edge servers). Access Edge servers provide a way for users outside your internal network to communicate with users inside your internal network. This cmdlet was introduced in Lync Server 2010.
   
 ```

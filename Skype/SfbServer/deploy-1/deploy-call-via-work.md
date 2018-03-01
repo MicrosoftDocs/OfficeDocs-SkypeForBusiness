@@ -14,8 +14,8 @@ description: "Summary: Learn how to deploy Call Via Work in Skype for Business S
 ---
 
 # Deploy Call Via Work in Skype for Business Server 2015
-[]
- **Summary:** Learn how to deploy Call Via Work in Skype for Business Server 2015 for some or all of your users.
+ 
+**Summary:** Learn how to deploy Call Via Work in Skype for Business Server 2015 for some or all of your users.
   
 Use these steps to deploy Call Via Work for your users. Planning considerations are discussed in [Plan for Call Via Work in Skype for Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). In previous versions of Lync Server remote call control was a feature which enabled users to control their PBX phones with Lync Server. In Skype for Business Server, this feature has been replaced with Call Via Work. 
   

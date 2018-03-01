@@ -14,7 +14,7 @@ description: "Creates a new Address Book normalization rule. Address Book normal
 ---
 
 # New-CsAddressBookNormalizationRule
-[]
+ 
 Creates a new Address Book normalization rule. Address Book normalization rules are used to convert phone numbers to a format readily understood by Skype for Business Server 2015.
   
 > [!NOTE]

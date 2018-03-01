@@ -13,7 +13,7 @@ description: "Modifies an existing centralized logging configuration region. Cen
 ---
 
 # Set-CsClsRegion
-[]
+ 
 Modifies an existing centralized logging configuration region. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

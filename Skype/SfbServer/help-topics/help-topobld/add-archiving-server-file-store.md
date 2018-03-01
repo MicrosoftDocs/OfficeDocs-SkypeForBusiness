@@ -15,7 +15,7 @@ description: "To enable the archiving of both instant messaging (IM) and web con
 ---
 
 # Add Archiving Server File Store
-[]
+ 
 To enable the archiving of both instant messaging (IM) and web conferencing (meeting) content, you must specify a file share to be used as the file store for copies of all web conferencing content. You can use an existing file share for the archiving file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share.
   
 > [!IMPORTANT]

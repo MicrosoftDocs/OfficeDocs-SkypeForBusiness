@@ -13,8 +13,8 @@ description: "Summary: Review this topic while planning for the monitoring servi
 ---
 
 # Plan for monitoring in Skype for Business Server 2015
-[]
- **Summary:** Review this topic while planning for the monitoring service in Skype for Business Server 2015.
+ 
+**Summary:** Review this topic while planning for the monitoring service in Skype for Business Server 2015.
   
 The monitoring service in Skype for Business Server 2015 provides a way for administrators to collect usage and quality data for the communication sessions that take place in their organization, which allows them to identify trends and problems. Ongoing monitoring of your deployment allows you to catch problems early and keep your organization's users satisfied. 
   

@@ -13,7 +13,7 @@ description: "The Start-CsWindowsService cmdlet enables you to start a Skype for
 ---
 
 # Start-CsWindowsService
-[]
+ 
 The **Start-CsWindowsService** cmdlet enables you to start a Skype for Business Server 2015 service. This cmdlet was introduced in Lync Server 2010.
   
 ```

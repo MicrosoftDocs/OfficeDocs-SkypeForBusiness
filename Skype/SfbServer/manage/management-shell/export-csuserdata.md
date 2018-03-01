@@ -13,7 +13,7 @@ description: "Exports user data in a format that can be imported into Skype for 
 ---
 
 # Export-CsUserData
-[]
+ 
 Exports user data in a format that can be imported into Skype for Business Server 2015. The data will be exported as a .ZIP file containing a pair of XML documents. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -35,7 +35,7 @@ Export-CsUserData -PoolFqdn "atl-cs-001.litwareinc.com" -FileName "C:\Logs\Expor
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The **Export-CsUserData** cmdlet provides a way for administrators to export user data and/or conference directory for a Skype for Business Server 2015 pool. That data, which can be saved in the user data format used by either Skype for Business Server 2015 or Microsoft Lync Server 2010 can then be imported by using the[Import-CsUserData](import-csuserdata.md) cmdlet.
+The **Export-CsUserData** cmdlet provides a way for administrators to export user data and/or conference directory for a Skype for Business Server 2015 pool. That data, which can be saved in the user data format used by either Skype for Business Server 2015 or Microsoft Lync Server 2010 can then be imported by using the [Import-CsUserData](import-csuserdata.md) cmdlet.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Export-CsUserData** cmdlet are not available in the Skype for Business Server Control Panel.
   

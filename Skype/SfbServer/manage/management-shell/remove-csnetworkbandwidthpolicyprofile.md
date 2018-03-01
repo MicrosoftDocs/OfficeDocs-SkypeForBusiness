@@ -13,7 +13,7 @@ description: "Removes a network bandwidth policy profile. This cmdlet was introd
 ---
 
 # Remove-CsNetworkBandwidthPolicyProfile
-[]
+ 
 Removes a network bandwidth policy profile. This cmdlet was introduced in Lync Server 2010.
   
 ```

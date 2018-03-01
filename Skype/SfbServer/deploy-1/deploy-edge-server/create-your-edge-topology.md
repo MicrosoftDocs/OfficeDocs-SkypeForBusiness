@@ -14,8 +14,8 @@ description: "Summary: Learn how to build, publish, and export your Edge Server 
 ---
 
 # Create your Edge topology for Skype for Business Server 2015
-[]
- **Summary:** Learn how to build, publish, and export your Edge Server topology in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to build, publish, and export your Edge Server topology in Skype for Business Server 2015.
   
 Topology Builder is the tool you need to use to build your Edge Server topology, just as it's used for any topology component for Skype for Business Server 2015. Before following the steps below, you will need to have set up at least one Front End pool or a Standard Edition server.
   

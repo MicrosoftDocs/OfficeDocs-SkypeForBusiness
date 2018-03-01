@@ -15,7 +15,7 @@ description: "Decisions necessary for planning an E9-1-1 deployment in Skype for
 ---
 
 # Define the scope of the E9-1-1 deployment in Skype for Business Server 2015
-[]
+ 
 Decisions necessary for planning an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   
 Before you configure Skype for Business for E9-1-1, you need to plan your E9-1-1 deployment. Some of the questions to consider include:

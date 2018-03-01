@@ -15,7 +15,7 @@ description: "Remote call control was a feature in previous versions of Lync Ser
 ---
 
 # Plan for remote call control in Skype for Business 2015
-[]
+ 
 Remote call control was a feature in previous versions of Lync Server which enabled users to control their PBX phones with Lync Server. In Skype for Business Server, this feature has been replaced with Call Via Work.  *In the client versions for Skype for Business Server 2015 and going forward, remote call control is no longer available to configure in the client and has been removed for use.* 
   
  Remote call control users in your organization who are homed on Front End Servers running Lync Server can continue to use remote call control, even if they are using a Skype for Business client. However, for any users homed on Skype for Business Server, remote call control is not supported. See the following table for server/client combinations and whether they can support remote call control or Call via Work.

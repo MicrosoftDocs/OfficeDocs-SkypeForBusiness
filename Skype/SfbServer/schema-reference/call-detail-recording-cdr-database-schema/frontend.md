@@ -13,7 +13,7 @@ description: "The FrontEnd table is for internal use only. This table was introd
 ---
 
 # FrontEnd table in Skype for Business Server 2015
-[]
+ 
 The FrontEnd table is for internal use only. This table was introduced in Microsoft Lync Server 2013.
   
 

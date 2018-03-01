@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to add archiving databases t
 ---
 
 # Add archiving databases to an existing deployment in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment.
+ 
+**Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment.
   
 You must incorporate archiving into your topology before you can configure your deployment to support archiving. The information in this topic explains how to use Topology Builder to:
   

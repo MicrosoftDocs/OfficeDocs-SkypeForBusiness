@@ -15,7 +15,7 @@ description: "Decisions necessary for planning an the location information datab
 ---
 
 # Manage locations for ELIN gateways in Skype for Business Server 2015
-[]
+ 
 Decisions necessary for planning an the location information database, or a similar external database, for an E9-1-1 deployment using ELIN gateways, in Skype for Business Server Enterprise Voice.
   
 To have Skype for Business Server automatically provide locations for clients within a network, you need to perform the following tasks: 

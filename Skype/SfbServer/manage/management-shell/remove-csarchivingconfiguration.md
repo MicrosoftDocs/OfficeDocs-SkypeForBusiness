@@ -13,7 +13,7 @@ description: "Removes the specified collection of archiving settings. Archiving 
 ---
 
 # Remove-CsArchivingConfiguration
-[]
+ 
 Removes the specified collection of archiving settings. Archiving settings are used to enable or disable the automatic saving of instant messaging (IM) sessions, and to optionally block any instant message that cannot be archived. This cmdlet was introduced in Lync Server 2010.
   
 ```

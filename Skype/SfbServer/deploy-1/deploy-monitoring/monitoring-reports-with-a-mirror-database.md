@@ -13,8 +13,8 @@ description: "Summary: Learn how to associate Monitoring Reports with a mirror d
 ---
 
 # Associate Monitoring Reports with a mirror database in Skype for Business Server 2015
-[]
- **Summary:** Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server 2015.
+ 
+**Summary:** Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server 2015.
   
 ## Monitor reports with a mirror database
 

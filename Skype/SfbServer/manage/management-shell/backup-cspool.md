@@ -13,7 +13,7 @@ description: "Creates a backup copy of the specified Skype for Business Server 2
 ---
 
 # Backup-CsPool
-[]
+ 
 Creates a backup copy of the specified Skype for Business Server 2015 pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

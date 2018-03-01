@@ -14,7 +14,7 @@ description: "Read this topic for information on how to deploy Skype Room System
 ---
 
 # Deploy Skype Room Systems v2 with Exchange Online (Hybrid)
-[]
+ 
 Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online.
   
 If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell (see Appendix: PowerShell) to achieve the same end result as documented here, and for other deployment options. You should then use the provided Windows PowerShell script to verify your Skype Room Systems v2 setup. (See Account Verification Script.)

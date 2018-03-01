@@ -13,7 +13,7 @@ description: "In Skype for Business Server 2015, management tools are implemente
 ---
 
 # Windows PowerShell and Skype for Business Server 2015 management tools
-[]
+ 
 In Skype for Business Server 2015, management tools are implemented using Windows PowerShell. Windows PowerShell includes a command-line environment, product-specific commands, and a full scripting language. Skype for Business Server 2015 tools that are implemented using Windows PowerShell include the following: 
   
 - **Topology Builder**. You use Topology Builder to create, adjust, and publish your planned topology, and it validates your topology before you begin server installations. When you install Skype for Business Server 2015 on individual servers, the servers read the published topology as part of the installation process, and the installation program deploys the server as directed in the topology. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.

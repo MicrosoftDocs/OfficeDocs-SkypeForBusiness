@@ -15,7 +15,7 @@ description: "Creating and managing Persistent Chat rooms is much easier with th
 ---
 
 # Select Allowed Members
-[]
+ 
 Creating and managing Persistent Chat rooms is much easier with the correct use of categories. A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category. Persistent Chat Administrators create and manage categories by using the control panel or Windows PowerShell cmdlets.
   
 Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category's **AllowedMembers** list as chat room managers and members to manage and participate in the room.

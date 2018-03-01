@@ -13,7 +13,7 @@ description: "The Get-CcApplianceStatus cmdlet provides diagnostic information f
 ---
 
 # Get-CcApplianceStatus
-[]
+ 
 The Get-CcApplianceStatus cmdlet provides diagnostic information for the Skype for Business Cloud Connector Edition appliance.
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 2.1.

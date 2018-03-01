@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to create initial user polic
 ---
 
 # Configure Persistent Chat user policies in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.
+ 
+**Summary:** Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.
   
 You can manage Persistent Chat Server user policies at the following levels: global, site, or user. Initially, you configure the global policy to enable Persistent Chat settings for all users in your deployment, and then create additional user and site policies to control whether Persistent Chat is turned on for specific users and sites.
   

@@ -15,7 +15,7 @@ description: "On the Remove Certificate introduction page, read the information 
 ---
 
 # Remove Certificate (Intro)
-[]
+ 
 On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.
   
 

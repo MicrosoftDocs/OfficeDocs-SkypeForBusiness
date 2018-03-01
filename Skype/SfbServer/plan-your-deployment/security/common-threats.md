@@ -14,7 +14,7 @@ description: "Because Skype for Business Server 2015 is an enterprise-class comm
 ---
 
 # Common security threats in modern day computing
-[]
+ 
 Because Skype for Business Server 2015 is an enterprise-class communications system, you should be aware of common security attacks that could affect its infrastructure and communications.
   
 ## Compromised-Key Attack

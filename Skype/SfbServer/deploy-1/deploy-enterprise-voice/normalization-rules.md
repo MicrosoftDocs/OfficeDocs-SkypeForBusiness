@@ -15,8 +15,8 @@ description: "Summary: Learn how to define, create, and modify a normalization r
 ---
 
 # Create or modify a normalization rule in Skype for Business 2015
-[]
- **Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server 2015.
   
 Define, create, and modify normalization rules in Skype for Business Server.
   

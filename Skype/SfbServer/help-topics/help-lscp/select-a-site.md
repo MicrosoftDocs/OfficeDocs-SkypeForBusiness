@@ -15,7 +15,7 @@ description: "Use the Select a Site dialog box to find sites available in your e
 ---
 
 # Select a Site
-[]
+ 
 Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.
   
 > [!NOTE]

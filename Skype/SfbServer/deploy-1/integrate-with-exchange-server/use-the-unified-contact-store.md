@@ -14,8 +14,8 @@ description: "Summary: Configure the unified contacts store for Exchange Server 
 ---
 
 # Configure Skype for Business Server 2015 to use the unified contact store
-[]
- **Summary:** Configure the unified contacts store for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+ 
+**Summary:** Configure the unified contacts store for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
   
 Using the unified contact store, users maintain a single contacts list and then have those contacts available in multiple applications, including Skype for Business, Microsoft Outlook 2013, and Microsoft Outlook Web App 2013. When you enable the unified contact store for a user, that user's contacts are not stored in Skype for Business Server 2015 and retrieved as needed. Instead, his or her contacts are stored in Exchange Server 2016 or Exchange Server 2013 and are retrieved by using Exchange Web Services.
   

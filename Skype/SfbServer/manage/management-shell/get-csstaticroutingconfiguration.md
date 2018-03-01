@@ -13,7 +13,7 @@ description: "Returns information about the static routing configuration setting
 ---
 
 # Get-CsStaticRoutingConfiguration
-[]
+ 
 Returns information about the static routing configuration settings used in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

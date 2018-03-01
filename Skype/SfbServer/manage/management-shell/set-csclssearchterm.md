@@ -13,7 +13,7 @@ description: "Modifies one or more centralized logging search terms. Search term
 ---
 
 # Set-CsClsSearchTerm
-[]
+ 
 Modifies one or more centralized logging search terms. Search terms help define the personally identifiable information available to technical support personnel who are searching the centralized trace logs. Search terms are intended for use with Skype for Business Online.
   
 This cmdlet was introduced in Lync Server 2013. 

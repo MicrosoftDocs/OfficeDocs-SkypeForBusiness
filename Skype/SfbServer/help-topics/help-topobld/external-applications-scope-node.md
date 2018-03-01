@@ -15,7 +15,7 @@ description: "The Trusted application servers node lists the Trusted application
 ---
 
 # External Applications Scope Node
-[]
+ 
 The **Trusted application servers** node lists the Trusted application pools at this site. Trusted application pools contain servers that run trusted Microsoft Unified Communications applications, but do not run Skype for Business Server roles. You can perform the following action:
   
 - **New Trusted Application Pool**. Starts the **Define New Trusted Application Pool** wizard, which you use to add a new trusted application pool to the topology.

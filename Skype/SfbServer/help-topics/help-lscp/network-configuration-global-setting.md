@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Network Configuration: Global Setting
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Enabling Call Admission Control](http://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)

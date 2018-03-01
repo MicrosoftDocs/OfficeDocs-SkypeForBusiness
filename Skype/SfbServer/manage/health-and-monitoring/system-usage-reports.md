@@ -13,8 +13,8 @@ description: "Summary: Learn about the System Usage Reports in Skype for Busines
 ---
 
 # System usage reports in Skype for Business Server 2015
-[]
- **Summary:** Learn about the System Usage Reports in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the System Usage Reports in Skype for Business Server 2015.
   
 The System Usage Reports provide system usage information based on call detail recording (CDR) data collected by the Skype for Business Server.
   

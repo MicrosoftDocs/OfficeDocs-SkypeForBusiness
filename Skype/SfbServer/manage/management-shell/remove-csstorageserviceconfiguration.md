@@ -13,7 +13,7 @@ description: "Removes existing instances of the Skype for Business Server 2015 S
 ---
 
 # Remove-CsStorageServiceConfiguration
-[]
+ 
 Removes existing instances of the Skype for Business Server 2015 Storage Service. The storage service provides a common infrastructure that enables Skype for Business Server 2015 components to use Skype for Business Server 2015 as a back-end data store.
   
  This cmdlet was introduced in Skype for Business Server 2015.

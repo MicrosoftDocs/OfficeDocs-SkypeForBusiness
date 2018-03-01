@@ -13,8 +13,8 @@ description: "Summary: Learn about the steps to manage your topology in Skype fo
 ---
 
 # Manage your topology in Skype for Business Server 2015
-[]
- **Summary:** Learn about the steps to manage your topology in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the steps to manage your topology in Skype for Business Server 2015.
   
 The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.
   

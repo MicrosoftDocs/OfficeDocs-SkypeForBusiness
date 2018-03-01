@@ -13,7 +13,7 @@ description: "Returns information about the SIP trunks employed by your organiza
 ---
 
 # Get-CsTrunk
-[]
+ 
 Returns information about the SIP trunks employed by your organization. SIP trunks connect the Skype for Business Server 2015 Voice over IP phone network with the Public Switched Telephone Network. This cmdlet was introduced in Lync Server 2013.
   
 ```

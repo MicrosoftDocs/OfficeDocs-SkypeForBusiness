@@ -14,8 +14,8 @@ description: "Summary: Configure your primary management server, install System 
 ---
 
 # Configure the Primary Management Server
-[]
- **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.
+ 
+**Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.
   
 To take full advantage of the new health monitoring capabilities included in Skype for Business Server 2015, you must first designate a computer to act as your primary management server. You must then install System Center Operations Manager 2012 SP1 or R2 or System Center Operations Manager 2007 R2 on that computer. In addition, you must first install a supported version of SQL Server to function as your Operations Manager back-end database.
   

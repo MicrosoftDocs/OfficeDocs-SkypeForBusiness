@@ -16,8 +16,8 @@ description: "Summary: Explore these links to learn how to develop conceptual, l
 ---
 
 # Plan for your Skype for Business Server 2015 deployment
-[]
- **Summary:** Explore these links to learn how to develop conceptual, logical, and physical designs for configuring Skype for Business Server 2015 features, servers, and topologies.
+ 
+**Summary:** Explore these links to learn how to develop conceptual, logical, and physical designs for configuring Skype for Business Server 2015 features, servers, and topologies.
   
 Skype for Business Server offers instant messaging (IM), presence, conferencing, video, and telephony solutions that can support enterprise-level collaboration requirements. This topic provides links to information about how to plan for a successful Skype for Business Server deployment. 
   

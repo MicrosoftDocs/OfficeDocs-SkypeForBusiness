@@ -13,7 +13,7 @@ description: "Returns information about the Persistent Chat endpoints configured
 ---
 
 # Get-CsPersistentChatEndpoint
-[]
+ 
 Returns information about the Persistent Chat endpoints configured for use in the organization. A Persistent Chat endpoint is an Active Directory contact object provides a friendly URL for a Skype for Business Server 2015 Persistent Chat pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

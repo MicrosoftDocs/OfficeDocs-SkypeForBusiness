@@ -13,7 +13,7 @@ description: "Installs one or more Skype for Business Server 2015 databases. Thi
 ---
 
 # Install-CsDatabase
-[]
+ 
 Installs one or more Skype for Business Server 2015 databases. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -111,7 +111,7 @@ Before running the **Install-CsDatabase** cmdlet you should make sure that the R
 | _Collocated_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |If present, additional database roles will be collocated with the Central Management store.  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _DatabasePathMap_ <br/> |Optional  <br/> |System.Collections.Hashtable  <br/> |Enables you to specify custom folder paths for data files and log files; multiple paths should be separated by using a semicolon (;). For example:  <br/>  `-DatabasePathMap @{"Archiving:DbPath"="\\atl-sql-001.litwareinc.com\db";"Archiving:LogPath"="\\atl-sql-002.litwareinc.com\logs"}` <br/> |
-| _DatabasePaths_ <br/> |Optional  <br/> |System.String[]  <br/> |Specifies the drives and folders where data and log files can be stored; for example:  `-DatabasePaths "D:\Logs","E:\Data"`.  <br/> |
+| _DatabasePaths_ <br/> |Optional  <br/> |System.String   <br/> |Specifies the drives and folders where data and log files can be stored; for example:  `-DatabasePaths "D:\Logs","E:\Data"`.  <br/> |
 | _ExcludeCollocatedStores_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, suppresses a warning message telling you that any collocated database stores must be installed on the local computer.  <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, forces the installation of the new database even if an existing database of that type is currently in use.  <br/> |
 | _ForDefaultInstance_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, instructs the **Install-CsDatabase** cmdlet to only act against the default SQL Server instance. You cannot use both ForDefaultInstance and ForInstance in the same command. <br/> |

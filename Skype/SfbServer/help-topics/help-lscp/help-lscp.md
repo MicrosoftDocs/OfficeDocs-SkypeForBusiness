@@ -12,7 +12,7 @@ description: "Insert introduction here."
 ---
 
 # Help-LSCP
-[]
+ 
 Insert introduction here.
   
 ## Section Heading

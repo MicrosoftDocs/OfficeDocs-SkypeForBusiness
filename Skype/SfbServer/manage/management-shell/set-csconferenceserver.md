@@ -13,7 +13,7 @@ description: "Modifies the properties of an A/V Conferencing Server (also known 
 ---
 
 # Set-CsConferenceServer
-[]
+ 
 Modifies the properties of an A/V Conferencing Server (also known as a Conference Server). The Conference Server provides audio and video (A/V) capabilities to your conferences. This cmdlet was introduced in Lync Server 2010.
   
 ```

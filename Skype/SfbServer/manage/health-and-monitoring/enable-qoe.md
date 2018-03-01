@@ -13,8 +13,8 @@ description: "Summary: learn how to enable Quality of Experience (QoE) in Skype 
 ---
 
 # Enable Quality of Experience in Skype for Business Server 2015
-[]
- **Summary:** learn how to enable Quality of Experience (QoE) in Skype for Business Server 2015.
+ 
+**Summary:** learn how to enable Quality of Experience (QoE) in Skype for Business Server 2015.
   
 Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions. For details, see [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) in the Planning documentation.
   
@@ -35,11 +35,11 @@ Use the following procedure to enable QoE for your whole organization or each si
     
 ## Enabling QoE by Using Windows PowerShell Cmdlets
 
-You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To enable QoE for a single location
 
-- To enable QoE, set the EnableQoE parameter to True ($True).
+ To enable QoE, set the EnableQoE parameter to True ($True).
     
   ```
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
@@ -47,7 +47,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
 ### To disable QoE for a single location
 
-- To disable QoE, set the EnableQoE parameter to False ($False). This does not uninstall monitoring. It pauses the collection and storage of QoE data.
+ To disable QoE, set the EnableQoE parameter to False ($False). This does not uninstall monitoring. It pauses the collection and storage of QoE data.
     
   ```
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
@@ -55,7 +55,7 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 
 ### To use a single command to enable QoE in multiple locations
 
-- This command enables QoE for all the QoE configuration settings currently in use in your organization.
+ This command enables QoE for all the QoE configuration settings currently in use in your organization.
     
   ```
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
@@ -64,8 +64,6 @@ You can enable QoE by using Windows PowerShell and the **Set-CsQoEConfiguration*
 For details, see [Set-CsQoEConfiguration](../../manage/management-shell/set-csqoeconfiguration.md).
   
 ## See also
-
-#### 
 
 [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
   

@@ -13,7 +13,7 @@ description: "Enables you to modify an existing User Services pool. Among other 
 ---
 
 # Set-CsUserServer
-[]
+ 
 Enables you to modify an existing User Services pool. Among other things, the User Services pool provides presence information and helps to manage conferences. This cmdlet was introduced in Lync Server 2010.
   
 ```

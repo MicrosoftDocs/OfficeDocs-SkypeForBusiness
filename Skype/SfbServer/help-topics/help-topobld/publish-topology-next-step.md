@@ -15,7 +15,7 @@ description: "At the completion of the publishing of the topology, the Publish w
 ---
 
 # Publish Topology Next Step
-[]
+ 
 At the completion of the publishing of the topology, the **Publish wizard complete** page is displayed.
   
 As you finish steps during the Publish Topology process, logs are created that contain information about the tasks that were performed. To view a log file related to a given step, select the step that you need to review the log file for, and then click **View Logs**. 

@@ -14,7 +14,7 @@ description: "Skype for Business Server 2015 security content."
 ---
 
 # Plan for security in Skype For Business Server 2015
-[]
+ 
 Skype for Business Server 2015 security content. 
   
 This content relates to Skype for Business Server 2015 security. Security is a very broad topic. Security reaches across every feature of Skype for Business Server 2015 as well as databases, services, and hardware that make up the ecosystem. This content is a supplement for specific security topics regarding Skype for Business Server 2015.

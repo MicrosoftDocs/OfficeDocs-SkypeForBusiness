@@ -15,7 +15,7 @@ description: "The Executing Commands page displays the status of the commands th
 ---
 
 # Pending Certificate (Invoke)
-[]
+ 
 The **Executing Commands** page displays the status of the commands that are retrieving the pending certificate. When the task is completed, the **Retrieve Pending Certificates** log file is available. Click **View Log** to review the processing and task completion status. Click **Next** to continue.
   
 > [!IMPORTANT]

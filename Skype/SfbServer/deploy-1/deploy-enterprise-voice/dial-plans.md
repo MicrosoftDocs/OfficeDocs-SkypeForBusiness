@@ -15,8 +15,8 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 ---
 
 # Create or modify a dial plan in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel.
   
 ### To create a dial plan
 

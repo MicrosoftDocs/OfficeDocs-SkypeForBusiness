@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about conferencing features and 
 ---
 
 # Plan for conferencing in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about conferencing features and capabilities in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about conferencing features and capabilities in Skype for Business Server 2015.
   
 Conferencing in Skype for Business Server allows users to meet and hold conferences online using their Skype for Business client instead of everyone getting together in the same room. Meeting participants can connect to a meeting with their Skype for Business client for a full audio and video experience, or dial in to a conference using a phone. Conferences also support instant messaging, desktop and application sharing, and interactive white boards.
   

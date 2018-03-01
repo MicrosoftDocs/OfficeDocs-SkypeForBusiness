@@ -14,7 +14,7 @@ description: "Verify your Response Group deployment success, in Skype for Busine
 ---
 
 # (Optional) Verify Response Group deployment in Skype for Business 2015
-[]
+ 
 Verify your Response Group deployment success, in Skype for Business Server Enterprise Voice.
   
 After you configure Response Group, you need to verify the configuration to make sure your response groups work as expected. At minimum, verify the following scenarios by using the following types of users:

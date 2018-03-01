@@ -13,7 +13,7 @@ description: "Each record represents one conference session, which could be eith
 ---
 
 # ConferenceSessionDetails table in Skype for Business Server 2015
-[]
+ 
 Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

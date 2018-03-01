@@ -13,7 +13,7 @@ description: "Returns information about client license usage in your organizatio
 ---
 
 # Get-CsClientAccessLicense
-[]
+ 
 Returns information about client license usage in your organization. This cmdlet was introduced in Lync Server 2013.
   
 ```

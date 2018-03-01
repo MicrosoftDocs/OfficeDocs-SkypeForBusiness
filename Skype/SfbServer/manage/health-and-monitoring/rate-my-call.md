@@ -13,8 +13,8 @@ description: "Summary: Learn about the Rate My Call feature in Skype for Busines
 ---
 
 # Rate my Call in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Rate My Call feature in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Rate My Call feature in Skype for Business Server 2015.
   
 Rate My Call is a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.
   

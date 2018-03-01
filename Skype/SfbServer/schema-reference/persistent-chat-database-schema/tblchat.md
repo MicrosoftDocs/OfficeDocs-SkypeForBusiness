@@ -13,7 +13,7 @@ description: "tblChat contains all chat messages."
 ---
 
 # tblChat
-[]
+ 
 tblChat contains all chat messages.
   
 **Columns**

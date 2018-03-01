@@ -13,11 +13,11 @@ description: "Updates the duration time for all active centralized logging scena
 ---
 
 # Update-CsClsLogging
-[]
+ 
 Updates the duration time for all active centralized logging scenarios. Centralized logging provides a way for administrators to simultaneously enable or disable Skype for Business Server 2015 tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Update-CsClsLogging -Duration <String> [-AsXml <SwitchParameter>] [-Computers <String[]>] [-Pools <String[]>]
+Update-CsClsLogging -Duration <String> [-AsXml <SwitchParameter>] [-Computers <String >] [-Pools <String >]
 
 ```
 
@@ -58,8 +58,8 @@ By default, logging operations run for 4 hours (240 minutes) before automaticall
 |:-----|:-----|:-----|:-----|
 | _Duration_ <br/> |Required  <br/> |System.String  <br/> |Amount of time that the logging operation should run. For example, this syntax causes the logging operation to run for 2 hours (120 minutes) and then stop:  <br/>  `-Duration 120` <br/> This following syntax would specify a duration of 3 hours and 14 minutes:  <br/>  `-Duration 3:15` <br/> The following syntax would specify a duration of 6 days, 5 hours and 12 minutes:  <br/>  `-Duration 6.5:12` <br/> The default value is 30 minutes.  <br/> |
 | _AsXml_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, information is returned using XML.  <br/> |
-| _Computers_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to updates the centralized logging service on a specified server or set of servers. To update a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not the Computers parameter or the Pools parameter, Update-CsClsLogging will automatically run against all the computers in the topology.  <br/> |
-| _Pools_ <br/> |Optional  <br/> |System.String[]  <br/> |Enables administrators to update the centralized logging service on each server in a pool. To update the servers in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
+| _Computers_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to updates the centralized logging service on a specified server or set of servers. To update a single server, specify the fully qualified domain name of that server. For example:  <br/>  `-Computers "atl-server-001.litwareinc.com"` <br/> Multiple servers can be specified by separating the computer FQDNs using commas:  <br/>  `-Computers "atl-server-001.litwareinc.com","red-server-002.litwareinc.com"` <br/> If you do not the Computers parameter or the Pools parameter, Update-CsClsLogging will automatically run against all the computers in the topology.  <br/> |
+| _Pools_ <br/> |Optional  <br/> |System.String   <br/> |Enables administrators to update the centralized logging service on each server in a pool. To update the servers in a pool, specify the fully qualified domain name of that pool. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com"` <br/> Multiple pools can be specified by separating the pool FQDNs using commas:  <br/>  `-Pools "atl-cs-001.litwareinc.com","red-cs-002.litwareinc.com"` <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>

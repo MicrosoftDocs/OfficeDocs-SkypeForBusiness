@@ -15,8 +15,8 @@ description: "Summary: Learn how to install the Skype for Business Server 2015 s
 ---
 
 # Install Skype for Business Server 2015 on servers in the topology
-[]
- **Summary:** Learn how to install the Skype for Business Server 2015 system components on each server in the topology. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+ 
+**Summary:** Learn how to install the Skype for Business Server 2015 system components on each server in the topology. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Once the topology is loaded into the Central Management Store and Active Directory knows which servers will perform which roles, you need to install the Skype for Business Server system on each of the servers in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram. Installing the Skype for Business Server system is step 7 of 8.
   

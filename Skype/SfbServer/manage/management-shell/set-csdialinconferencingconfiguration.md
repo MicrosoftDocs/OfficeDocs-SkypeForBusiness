@@ -13,7 +13,7 @@ description: "Modifies settings that determine how Skype for Business Server 201
 ---
 
 # Set-CsDialInConferencingConfiguration
-[]
+ 
 Modifies settings that determine how Skype for Business Server 2015 responds when users join or leave a dial-in conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

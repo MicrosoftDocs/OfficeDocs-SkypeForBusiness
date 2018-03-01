@@ -13,7 +13,7 @@ description: "Modifies an existing dial plan. This cmdlet was introduced in Lync
 ---
 
 # Set-CsDialPlan
-[]
+ 
 Modifies an existing dial plan. This cmdlet was introduced in Lync Server 2010.
   
 ```

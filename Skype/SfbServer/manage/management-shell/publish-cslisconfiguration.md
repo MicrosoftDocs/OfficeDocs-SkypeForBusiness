@@ -13,7 +13,7 @@ description: "Publishes the Location Information Server (LIS) configuration to t
 ---
 
 # Publish-CsLisConfiguration
-[]
+ 
 Publishes the Location Information Server (LIS) configuration to the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

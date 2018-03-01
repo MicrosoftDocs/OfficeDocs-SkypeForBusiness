@@ -13,7 +13,7 @@ description: "Creates a new Response Group question. The Response Group applicat
 ---
 
 # New-CsRgsQuestion
-[]
+ 
 Creates a new Response Group question. The Response Group application uses questions to provide callers with choices, and then takes action based on those choices. This cmdlet was introduced in Lync Server 2010.
   
 ```

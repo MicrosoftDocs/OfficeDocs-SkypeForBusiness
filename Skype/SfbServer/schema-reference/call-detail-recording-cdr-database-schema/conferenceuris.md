@@ -13,7 +13,7 @@ description: "The ConfereneUris table is a supporting table that stores a list o
 ---
 
 # ConferenceUris table in Skype for Business Server 2015
-[]
+ 
 The ConfereneUris table is a supporting table that stores a list of the various conference URIs that have participated in conference sessions recorded in the database. Each record in the table represents one conference URI.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

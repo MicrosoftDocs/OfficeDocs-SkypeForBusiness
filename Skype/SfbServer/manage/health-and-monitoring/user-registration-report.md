@@ -13,8 +13,8 @@ description: "Summary: Learn about the User Registration Report in Skype for Bus
 ---
 
 # User Registration Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the User Registration Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the User Registration Report in Skype for Business Server 2015.
   
 The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Skype for Business Server 2015 during a specified time period (hourly, daily, weekly, monthly). Keep in mind that the report only tells you how many people logged on. It does not tell you which people logged on. Monitoring Reports do not provide information about which specific users are using Skype for Business Server 2015 (and which ones are not). However, you can get a rough estimate of user information by using the User Activity Report.
   

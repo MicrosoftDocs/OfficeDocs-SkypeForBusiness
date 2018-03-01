@@ -13,7 +13,7 @@ description: "The Task Table is for internal use only. This table was introduced
 ---
 
 # Task table
-[]
+ 
 The Task Table is for internal use only. This table was introduced in Microsoft Lync Server 2013.
   
 

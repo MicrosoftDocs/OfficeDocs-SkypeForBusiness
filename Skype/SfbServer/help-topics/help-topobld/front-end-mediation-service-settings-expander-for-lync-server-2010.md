@@ -15,7 +15,7 @@ description: "You edit the properties of the Mediation Server PSTN gateway setti
 ---
 
 # Front End Mediation Service Settings Expander for Lync Server 2010
-[]
+ 
 You edit the properties of the **Mediation Server PSTN gateway** settings in this dialog. You define the following settings:
   
 - Select the **Collocated Mediation Server enabled** if you want to collocate the Mediation Server with this Front End Server or Front End pools.

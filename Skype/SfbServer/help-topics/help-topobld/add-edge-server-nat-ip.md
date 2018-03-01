@@ -15,7 +15,7 @@ description: "The public IP address is the IP address that is used by network ad
 ---
 
 # Add Edge Server NAT IP
-[]
+ 
 The public IP address is the IP address that is used by network address translation (NAT). The IP address must be publicly routable. This is required because you selected **The external IP address of this Edge pool is translated by NAT** option on the **Select features** page of this wizard.
   
 > [!NOTE]

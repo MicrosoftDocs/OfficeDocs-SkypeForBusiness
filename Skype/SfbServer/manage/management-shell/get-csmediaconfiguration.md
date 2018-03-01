@@ -13,7 +13,7 @@ description: "Returns information regarding media settings, including the suppor
 ---
 
 # Get-CsMediaConfiguration
-[]
+ 
 Returns information regarding media settings, including the supported level of encryption, whether Siren can be used as a voice codec by the Mediation Server in its interactions with Skype for Business Server 2015 clients, and the maximum allowed video resolution. This cmdlet was introduced in Lync Server 2010.
   
 ```
