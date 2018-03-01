@@ -160,21 +160,13 @@ to a large group of participants.
 
 ### Create a test plan
 
-After you’ve defined and documented your personas and use cases, the next step
-is validating that your organization’s expectations and requirements are met
-through feature, functionality, and usability. You should perform this
-validation step before you complete the final deployment in your production
-environment.
+After you’ve defined and documented your personas and use cases, the next step is validating that your organization’s expectations and requirements are met through feature, functionality, and usability. You should perform this validation step before you complete the final deployment in your production environment.
 
-A sample test plan for the pilot rollout is provided below. Use the scenarios
-and personas described earlier in this article to customize this plan and make
-it relevant for your pilot users. We recommend that you include the scenario in
-your email communication so that the pilot tester can apply a real-world use
-case to their testing, versus just running through a series of features.
+A sample test plan for the pilot rollout is provided below. Use the scenarios and personas described earlier in this article to customize this plan and make it relevant for your pilot users. We recommend that you include the scenario in your email communication so that the pilot tester can apply a real-world use case to their testing, versus just running through a series of features.
 
 | **Conversations**                   | **Meetings**                   |
 |-------------------------------------|--------------------------------|
-| <input type="checkbox"> Find a contact:<ul><li><input type="checkbox"> Internal.<li><input type="checkbox"> External - federated.</ul><input type="checkbox"> Start a chat:<ul><li><input type="checkbox"> With a Teams user.<li><input type="checkbox">With a Skype for Business user.</ul><input type="checkbox"> Add a participant to an IM.<br/><input type="checkbox"> Add audio.<br/><input type="checkbox"> Add sharing.<br/><input type="checkbox"> Share a file.<br/><input type="checkbox"> Review a chat (history).<br/><input type="checkbox"> Resume a prior chat.<br/><input type="checkbox"> Respond to an incoming IM.<br/><input type="checkbox"> Send an IM on a mobile device.<br/><input type="checkbox"> Respond to an IM on a mobile device.                      | <input type="checkbox"> Schedule a meeting in Outlook.<br/><input type="checkbox"> Schedule a meeting in Teams: <ul><li><input type="checkbox">Invite internal users.<li><input type="checkbox"> Invite external users.<li><input type="checkbox"> Add audio conferencing.</ul><input type="checkbox"> Join from a PC or mobile device.<br/><input type="checkbox"> Share your desktop.<br/><input type="checkbox"> Share an application.<br/><input type="checkbox"> Give control during a shared session.<br/><input type="checkbox"> Take control back during a shared session.<br/><input type="checkbox"> Mute a participant.<br/><input type="checkbox"> Turn on webcam video.<br/><input type="checkbox"> Switch devices.<br/><input type="checkbox"> Enable a meeting lobby.|
+| <input type="checkbox"> Find a contact:<ul><li><input type="checkbox"> Internal.<li><input type="checkbox"> External - federated.</ul><input type="checkbox"> Start a chat:<ul><li><input type="checkbox"> With a Teams user.<li><input type="checkbox"> With a Skype for Business user.</ul><input type="checkbox"> Add a participant to an IM.<br/><input type="checkbox"> Add audio.<br/><input type="checkbox"> Add sharing.<br/><input type="checkbox"> Share a file.<br/><input type="checkbox"> Review a chat (history).<br/><input type="checkbox"> Resume a prior chat.<br/><input type="checkbox"> Respond to an incoming IM.<br/><input type="checkbox"> Send an IM on a mobile device.<br/><input type="checkbox"> Respond to an IM on a mobile device.                      | <input type="checkbox"> Schedule a meeting in Outlook.<br/><input type="checkbox"> Schedule a meeting in Teams: <ul><li><input type="checkbox"> Invite internal users.<li><input type="checkbox"> Invite external users.<li><input type="checkbox"> Add audio conferencing.</ul><input type="checkbox"> Join from a PC or mobile device.<br/><input type="checkbox"> Share your desktop.<br/><input type="checkbox"> Share an application.<br/><input type="checkbox"> Give control during a shared session.<br/><input type="checkbox"> Take control back during a shared session.<br/><input type="checkbox"> Mute a participant.<br/><input type="checkbox"> Turn on webcam video.<br/><input type="checkbox"> Switch devices.<br/><input type="checkbox"> Enable a meeting lobby.|
 
 | **Calling**                         | **Collaboration**              |
 |-------------------------------------|--------------------------------|
