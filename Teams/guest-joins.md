@@ -15,13 +15,13 @@ appliesto:
 How a guest joins a team
 ========================
 
-A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user. Only people who are outside of your organization, such as partners or consultants, can be added as guests. People from within your organization can join as regular team members.
+A team owner in Microsoft Teams can add and manage guests in their teams via the web or desktop. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files. Only people who are outside of your organization, such as partners or consultants, can be added as guests. People from within your organization can join as regular team members.
   
     
     
 
 > [!NOTE]
-> Before guests can join a team, an admin must enable guest access in Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see "Turn on or off guest access for Microsoft Teams." 
+> Before guests can join a team, an admin must enable guest access in Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see [Turn on or off guest access for Microsoft Teams](set-up-guests.md). 
   
     
     
@@ -34,8 +34,9 @@ Here's how a guest becomes a member of a team:
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, inviting them to join the team. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), and participate in chat. While using Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [What the guest experience is like](guest-experience.md).
+- **Step 3** The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. If the guest doesn’t yet have a Microsoft Account associated with their email address, they will be directed to create one for free. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
     
+While using Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [What the guest experience is like](guest-experience.md).
   
 Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
