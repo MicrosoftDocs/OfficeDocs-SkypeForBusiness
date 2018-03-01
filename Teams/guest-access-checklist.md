@@ -1,5 +1,5 @@
 ﻿﻿---
-title: Teams Guest Access checklist
+title: Microsoft Teams Guest Access checklist
 author: romanma
 ms.author: romanma
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: Use this checklist to help set up guest access in Microsoft Teams Guest Access.
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 ---
