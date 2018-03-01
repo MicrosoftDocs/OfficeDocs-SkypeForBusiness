@@ -1,5 +1,5 @@
 ﻿﻿---
-title: Teams Guest Checklist
+title: Teams Guest Access checklist
 author: romanma
 ms.author: romanma
 manager: serdars
@@ -13,8 +13,8 @@ appliesto:
 - Microsoft Teams
 ---
 
-
-# Teams Guest Checklist
+Teams Guest Access checklist
+==========================================
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
 
