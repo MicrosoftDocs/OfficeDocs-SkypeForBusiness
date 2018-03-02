@@ -21,8 +21,8 @@ This article describes some of the limits, specifications, and other requirement
 Teams and channels 
 ------------------
 
-|Feature                                          | Maximum limit |
-|-------------------------------------------------|---------------|
+|Feature    | Maximum limit |
+|-----------|---------------|
 |Number of members a team owner can add to a team | 250           |
 |Number of teams a global admin can create        | Unlimited     |
 |Number of teams an Office 365 tenant can have    | 500,000       |
@@ -32,8 +32,8 @@ Teams and channels
 Meetings and calls 
 ------------------
 
-|Feature                        | Maximum limit |
-|-------------------------------|---------------|
+|Feature     | Maximum limit |
+|------------|---------------|
 |Number of people in a meeting  | 80            |
 |Number of people in a chat     | 20            |
 
