@@ -34,7 +34,7 @@ collaboration requirements. This helps you narrow down the list of users you’l
 select for the pilot as you plan for your broad rollout of Teams over time.
 
 
-![The impact of user persona assessment on Teams rollout, based on eight core personas.](./media/Select-users-for-your-Teams-pilot-image1.png "The impact of user persona assessment on Teams rollout, based on eight core personas.")
+![The change impact of user persona assessment on Teams rollout, based on eight core personas.](./media/Select-users-for-your-Teams-pilot-image1.png "The change impact of user persona assessment on Teams rollout, based on eight core personas.")
 
 
 | **Persona**             | **Profile**                                                 | **Communication functionality requirements**          | **Devices**         |
@@ -149,5 +149,5 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 
 |         |         |         |
 |---------|---------|---------|
-|<ul>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
-|<ul>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<ul><li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul></ul>|
+|<br>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<br>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
+|<br>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<br>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<ul><li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul></ul>|
