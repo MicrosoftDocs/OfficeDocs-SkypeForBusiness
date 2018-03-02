@@ -1,3 +1,18 @@
+table {
+    width: 100%;
+}
+textarea {
+    width:100%;
+    max-width:100%;
+    min-height: 15em;
+    padding: .5em;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    font-family: Lucida Console, monospace;
+    background-color: rgba(128,128,128,.1);
+    color: rgba(0,0,0,.5);
+}
+
 Environmental discovery for Microsoft Teams rollout
 ===================================================
 
