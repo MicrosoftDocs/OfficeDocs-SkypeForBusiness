@@ -33,8 +33,6 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 ## Change the settings for an audio conferencing bridge in Microsoft Teams
 
- **Set up the meeting experience when callers join a meeting**
-
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
 3. In the **Bridge settings** pane, select: 
@@ -47,24 +45,14 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
       
   - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
-    
-5. After you make your changes, click **Apply**.
- 
-**Set the PIN length for meetings**
-     
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
-3. In the **Bridge settings** pane, select the number of digits you want for the PIN in the **PIN length** list, and then click **Apply**. 
-
-  
-**Select whether to send email to your users**
-  
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
-    
-3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**, and then click **Apply**.
-    
+4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
+5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
     See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+ 
+7. Click **Apply**. 
+
+   
+
 
 ## Change the settings for an audio conferencing bridge in Skype for Business Online
 
