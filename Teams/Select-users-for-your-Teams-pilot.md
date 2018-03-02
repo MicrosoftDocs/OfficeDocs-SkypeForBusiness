@@ -129,7 +129,7 @@ to a large group of participants.
 
 |         |         |         |
 |---------|---------|---------|
-|![./media/Select-users-for-your-Teams-pilot-image9.png](./media/Select-users-for-your-Teams-pilot-image9.png)|Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
+|<br>![./media/Select-users-for-your-Teams-pilot-image9.png](./media/Select-users-for-your-Teams-pilot-image9.png)|<br>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
 |![./media/Select-users-for-your-Teams-pilot-image10.png](./media/Select-users-for-your-Teams-pilot-image10.png)|Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
 
 > [!Important]
@@ -150,28 +150,7 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 | <input type="checkbox"> Make, receive, and transfer a call:<ul><li><input type="checkbox"> To another Teams user<li><input type="checkbox"> To a Skype for Business user</ul><input type="checkbox"> Check voicemail.<br/><input type="checkbox"> Forward your phone to another number.<br/><input type="checkbox"> Enable simultaneous ring.<br/><input type="checkbox"> Transfer a call to another user.<br/><input type="checkbox"> Put a call on hold.<br/><input type="checkbox"> Speed-dial a contact.   | <input type="checkbox"> Create a team.<br/><input type="checkbox"> Add a channel.<br/><input type="checkbox"> Add members.<br/><input type="checkbox"> Start a conversation.<br/><input type="checkbox"> Add files.<br/><input type="checkbox"> Add tabs.                 |
 
 
-
-| [./media/image2.png](./media/image2.png) |
-|------------------------------------------|
-
-
-    ~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-        Decision points
-
-        Personalize the test plan to meet the requirements of your use cases.
-
-| [./media/image3.png](./media/image3.png) | Next steps | Execute your test plan with your pilot users and capture feedback. |   |
-|------------------------------------------|------------|--------------------------------------------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Refer to the detailed testing guides for Teams voice workloads, if
-    necessary:
-
--   [Test plan for Audio Conferencing in
-    Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)
-
--   [Test plan for Phone System with Calling Plans in
-    Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)
+|         |         |         |
+|---------|---------|---------|
+|![./media/Select-users-for-your-Teams-pilot-image9.png](./media/Select-users-for-your-Teams-pilot-image9.png)|Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
+|![./media/Select-users-for-your-Teams-pilot-image10.png](./media/Select-users-for-your-Teams-pilot-image10.png)|Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul>|
