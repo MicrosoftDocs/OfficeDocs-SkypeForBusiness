@@ -70,16 +70,13 @@ for your journey to Teams.
 build rapport.
 
 **Sample use cases:**
+
 ![./media/Select-users-for-your-Teams-pilot-image5.png](./media/Select-users-for-your-Teams-pilot-image5.png)
 
 **Common characteristics:**
-
 -   One on one, or few participants
-
 -   Ad-hoc, as needed
-
 -   Brief and interactive
-
 -   Chat-driven or phone call–driven
 
 ### Scenario 02—Meetings
@@ -88,20 +85,15 @@ build rapport.
 through interactive conversation and brainstorming.
 
 **Sample use cases:**
+
 ![./media/Select-users-for-your-Teams-pilot-image6.png](./media/Select-users-for-your-Teams-pilot-image6.png)
 
 **Common characteristics:**
-
 -   Point-in-time meetings with defined agendas
-
 -   Synchronous communication
-
 -   Defined audience, can be internal and external
-
 -   Scheduled in advance
-
 -   Real-time content sharing
-
 -   Multiple presenters or contributors
 
 ### Scenario 03 – Collaboration
@@ -110,18 +102,14 @@ through interactive conversation and brainstorming.
 accessibility to drive team activity and productivity.
 
 **Sample use cases:**
+
 ![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)
 
 **Common characteristics:**
-
 -   Project-related or team-related efforts
-
 -   Defined audiences, local and remote (worldwide) vTeams
-
 -   Add new team members over time, need to quickly onboard
-
 -   Persistent access to files, conversation, and apps
-
 -   Synchronous or asynchronous communication (chats, meetings)
 
 ### Scenario 04 – At-scale communications
@@ -130,18 +118,14 @@ accessibility to drive team activity and productivity.
 to a large group of participants.
 
 **Sample use cases:**
+
 ![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)
 
 **Common characteristics:**
-
 -   Defined or open audience
-
 -   Structured format
-
 -   Scheduled in advance
-
 -   One-way dissemination of information
-
 -   Managed participants (Q&A, audio)
 
 >[!Note]
