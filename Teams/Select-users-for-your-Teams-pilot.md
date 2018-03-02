@@ -128,8 +128,8 @@ to a large group of participants.
 
 |         |         |         |
 |---------|---------|---------|
-|<ul>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
-|<ul>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
+|<br>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<br>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
+|<br>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<br>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
 
 > [!Important]
 > Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
