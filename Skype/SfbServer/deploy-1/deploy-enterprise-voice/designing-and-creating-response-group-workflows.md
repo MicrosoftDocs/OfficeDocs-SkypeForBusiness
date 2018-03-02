@@ -56,7 +56,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
     
     > [!NOTE]
-    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see[Manage External Access Policy for Your Organization](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see [Set-CsExternalAccessPolicy](../../manage/management-shell/set-csexternalaccesspolicy.md). 
+    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see [Set-CsExternalAccessPolicy](../../manage/management-shell/set-csexternalaccesspolicy.md). 
   
     > [!NOTE]
     > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premise deployment. This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Skype for Business Online deployment. 
@@ -115,7 +115,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
     
     > [!NOTE]
-    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see[(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). 
+    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). 
   
     > [!NOTE]
     > When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
@@ -154,7 +154,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
     > [!NOTE]
-    > You need to define holidays and holiday sets before you configure the workflow. Use the **New-CsRgsHoliday** and **New-CsRgsHolidaySet** cmdlets to define holidays and holiday sets. For details, see[(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md). 
+    > You need to define holidays and holiday sets before you configure the workflow. Use the **New-CsRgsHoliday** and **New-CsRgsHolidaySet** cmdlets to define holidays and holiday sets. For details, see [(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md). 
   
 25. If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:
     
@@ -210,7 +210,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
   ```
 
     > [!NOTE]
-    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see[Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
   
 4. Get the identity of the queue or question where the calls will be directed. At the command line, run:
     
@@ -237,7 +237,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 6. If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md) and[(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md).
     
-7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see[New-CsRgsPrompt](../../manage/management-shell/new-csrgsprompt.md) and[New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md).
+7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](../../manage/management-shell/new-csrgsprompt.md) and[New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md).
     
 8. Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
     
@@ -389,7 +389,7 @@ The following list describes some best practices for designing your IVR:
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
     
     > [!NOTE]
-    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see[Manage External Access Policy for Your Organization](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see **Set-CsExternalAccessPolicy** in documentation..
+    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](http://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see **Set-CsExternalAccessPolicy** in documentation..
   
     > [!NOTE]
     > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premise deployment. This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Skype for Business Online deployment. 
@@ -445,7 +445,7 @@ The following list describes some best practices for designing your IVR:
   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
     
     > [!NOTE]
-    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see[(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
   
   - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
     
@@ -481,7 +481,7 @@ The following list describes some best practices for designing your IVR:
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
     > [!NOTE]
-    > You need to define holidays and holiday sets before you configure the workflow. Use the **New-CsRgsHoliday** and **New-CsRgsHolidaySet** cmdlets to define holidays and holiday sets. For details, see[(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md). 
+    > You need to define holidays and holiday sets before you configure the workflow. Use the **New-CsRgsHoliday** and **New-CsRgsHolidaySet** cmdlets to define holidays and holiday sets. For details, see [(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md). 
   
 25. If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:
     

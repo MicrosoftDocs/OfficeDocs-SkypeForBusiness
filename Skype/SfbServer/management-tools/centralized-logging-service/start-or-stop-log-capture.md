@@ -42,7 +42,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
   ```
 
     > [!NOTE]
-    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see[Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md). For all other scenarios, the default duration is 4 hours. 
+    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md). For all other scenarios, the default duration is 4 hours. 
   
 3. Press Enter to run the command. 
     

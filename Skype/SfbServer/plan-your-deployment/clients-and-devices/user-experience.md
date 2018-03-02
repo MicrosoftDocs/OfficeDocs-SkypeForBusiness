@@ -107,7 +107,7 @@ This is the default experience when the Skype for Business client is deployed in
   
 - **Lync Server 2013**, see [Configure the client experience with Skype for Business in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
     
-- **Lync Server 2010** see[Configure the client experience with Skype for Business in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync Server 2010** see [Configure the client experience with Skype for Business in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
     
 ## Use the Lync client experience with Skype for Business Server on-premises
 <a name="LyncwithSfBServer"> </a>

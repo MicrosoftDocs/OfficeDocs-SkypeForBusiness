@@ -47,7 +47,7 @@ You will need to specifically configure OMS to collect event logs from SRS devic
 ## Map custom fields
 <a name="Custom_fields"> </a>
 
-Before the tiles created in the [Define the SRS v2 views in OMS](with-oms.md#Views) can be used, you'll need to create custom fields for your view. See[Custom fields in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-custom-fields) for details on creating custom fields.
+Before the tiles created in the [Define the SRS v2 views in OMS](with-oms.md#Views) can be used, you'll need to create custom fields for your view. see [Custom fields in Log Analytics](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-custom-fields) for details on creating custom fields.
   
 Use the mappings shown below, OMS will automatically add the _CF when defining the new field. 
   

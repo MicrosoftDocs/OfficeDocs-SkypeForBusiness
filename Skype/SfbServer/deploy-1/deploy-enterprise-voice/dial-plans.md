@@ -84,7 +84,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 13. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To modify a dial plan
 
@@ -146,7 +146,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 13. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 

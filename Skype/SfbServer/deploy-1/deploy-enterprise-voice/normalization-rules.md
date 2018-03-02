@@ -66,7 +66,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 11. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To define a normalization rule manually
 
@@ -99,6 +99,6 @@ Define, create, and modify normalization rules in Skype for Business Server.
 11. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
     > [!NOTE]
-    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 

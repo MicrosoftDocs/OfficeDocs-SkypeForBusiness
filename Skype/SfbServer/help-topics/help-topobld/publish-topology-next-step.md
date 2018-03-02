@@ -23,7 +23,7 @@ As you finish steps during the Publish Topology process, logs are created that c
 > [!NOTE]
 > Not all steps during the Publish Topology process will have associated log files. If you select a step and **View Logs** is available, this step has created a log file. If the **View Logs** button is not available (grayed out), no log file was created for this step.
   
-To review Next Steps suggested to complete your topology, click the link **Click here to open to-do list**. The text file that is opened by clicking this link will indicate the servers that you will have to run local setup, and any additional steps that you need to take to complete your deployment. For each of the tasks listed, refer to the appropriate section in the Deployment documentation. For details, see[Deploying Lync Server 2013 Preview](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx), and refer to the related section for each server role noted in the to-do list.
+To review Next Steps suggested to complete your topology, click the link **Click here to open to-do list**. The text file that is opened by clicking this link will indicate the servers that you will have to run local setup, and any additional steps that you need to take to complete your deployment. For each of the tasks listed, refer to the appropriate section in the Deployment documentation. For details, see [Deploying Lync Server 2013 Preview](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx), and refer to the related section for each server role noted in the to-do list.
   
 Click **Finish**
   

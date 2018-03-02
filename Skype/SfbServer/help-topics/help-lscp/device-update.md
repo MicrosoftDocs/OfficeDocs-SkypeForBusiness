@@ -16,7 +16,7 @@ description: "Microsoft periodically releases a new set of device firmware updat
 
 # Device Update
  
-Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition." Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details, see[Import-CsDeviceUpdate](../../manage/management-shell/import-csdeviceupdate.md).
+Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition." Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details, see [Import-CsDeviceUpdate](../../manage/management-shell/import-csdeviceupdate.md).
   
 After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices.
   

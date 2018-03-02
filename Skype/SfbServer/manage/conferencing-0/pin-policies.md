@@ -144,7 +144,7 @@ The following command creates a new PIN policy with the Identity site:Redmond. T
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- For more information, including a complete syntax description and list of parameters, see[New-CsPinPolicy](../../manage/management-shell/new-cspinpolicy.md).
+ For more information, including a complete syntax description and list of parameters, see [New-CsPinPolicy](../../manage/management-shell/new-cspinpolicy.md).
   
 ## Modify a user or site PIN policy
 

@@ -154,7 +154,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 18. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 

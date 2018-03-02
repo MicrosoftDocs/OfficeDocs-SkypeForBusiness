@@ -172,7 +172,7 @@ A trunk configuration as described below groups a set of parameters that are app
 19. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 After you have configured the trunk, continue configuring media bypass by choosing between global media bypass options, as described in [Deploy media bypass in Skype for Business Server 2015](deploy-media-bypass.md) in the Deployment documentation.
 ## See also

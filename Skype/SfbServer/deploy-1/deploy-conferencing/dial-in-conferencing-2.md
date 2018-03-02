@@ -68,7 +68,7 @@ When you set up a dial plan, you specify the dial-in conferencing region that ap
   
 Because it important to specify a region for all dial plans, we recommend that you verify that all dial plans have conferencing regions. 
   
-To verify whether the region is set for all dial-in conferencing dial plans, use the **Get-CsDialPlan** cmdlet. If the region is missing from dial plans, you can use the **Set-CsDialPlan** cmdlet to set the region. You can also use Skype for Business Server Control Panel to update the region in existing dial plans. For details about using Skype for Business Server Control Panel, see[Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md).
+To verify whether the region is set for all dial-in conferencing dial plans, use the **Get-CsDialPlan** cmdlet. If the region is missing from dial plans, you can use the **Set-CsDialPlan** cmdlet to set the region. You can also use Skype for Business Server Control Panel to update the region in existing dial plans. For details about using Skype for Business Server Control Panel, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md).
   
 ### To verify whether dial plans have the region property set
 
@@ -195,7 +195,7 @@ For more information about configuring conferencing policies, see [Manage confer
 
 Dial-in users enter their phone number or extension and a PIN to join conferences as authenticated users. The telephony **Line URI** specified on Skype for Business Server user accounts is required for authentication.
   
-The procedure in this topic describes how to assign a **Line URI** for a single user account. If you need to assign a **Line URI** for multiple user accounts, you can create a script that uses the **Set-CsUser** cmdlet. For details about using a sample script to assign **Line URI** to multiple user accounts, see[Assign Line URIs to Multiple Users](https://go.microsoft.com/fwlink/p/?linkId=196945).
+The procedure in this topic describes how to assign a **Line URI** for a single user account. If you need to assign a **Line URI** for multiple user accounts, you can create a script that uses the **Set-CsUser** cmdlet. For details about using a sample script to assign **Line URI** to multiple user accounts, see [Assign Line URIs to Multiple Users](https://go.microsoft.com/fwlink/p/?linkId=196945).
   
 1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-UserAdministrator** or **CsAdministrator** role.
     

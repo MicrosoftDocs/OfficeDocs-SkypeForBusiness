@@ -112,7 +112,7 @@ Use one of the following procedures to create or modify a queue.
   ```
 
     > [!NOTE]
-    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see[Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
   
 4. Define the action to be taken when the queue timeout threshold is met, and save it in a variable. At the command line, run:
     
@@ -142,7 +142,7 @@ Use one of the following procedures to create or modify a queue.
   ```
 
     > [!NOTE]
-    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see[Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
   
 6. Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     

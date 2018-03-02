@@ -73,7 +73,7 @@ You can add Mediation Server as a collocated role on a Front End pool, or define
   - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
     
     > [!NOTE]
-    > You must deploy  (../../plan-your-deployment/network-requirements/dns.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
+    > You must deploy  (../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
   
   - If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**. Skip the following step.
     

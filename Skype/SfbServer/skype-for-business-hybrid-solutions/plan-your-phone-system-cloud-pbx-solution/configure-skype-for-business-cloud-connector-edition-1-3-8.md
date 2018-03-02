@@ -656,7 +656,7 @@ Follow these steps the first time you deploy Skype for Business Cloud Connector 
 8. After you have enabled HA on all host servers for the site, run the following cmdlet to configure HA between servers:
     
   ```
-  Publish-CcHAInstance
+  Publish-CcHAInstance 
   ```
 
 9. Follow the steps in the  (configure-skype-for-business-cloud-connector-edition.md#BKMK_PostInstall) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.

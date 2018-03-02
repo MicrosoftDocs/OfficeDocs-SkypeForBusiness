@@ -27,7 +27,7 @@ After you make changes to any of the configuration settings in pages in the **Vo
 > All pending changes must be published at the same time by running the **Commit all** command. You cannot selectively publish pending changes. Before you publish pending changes, run the **Review uncommitted changes** command and cancel any configuration changes that you do not want to publish.
   
 > [!NOTE]
-> If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost. However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration. For details, see[Export or import a voice route configuration file in Skype for Business 2015](voice-route-configuration-import-export.md). 
+> If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost. However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration. For details, see [Export or import a voice route configuration file in Skype for Business 2015](voice-route-configuration-import-export.md). 
   
 ### To review, publish, or cancel voice routing configuration changes
 

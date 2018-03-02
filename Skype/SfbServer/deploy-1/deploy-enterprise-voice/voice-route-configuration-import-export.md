@@ -51,6 +51,6 @@ If you have made any uncommitted changes to the settings on any page within the 
 6. Click **Commit**, and then click **Commit all**.
     
     > [!NOTE]
-    > Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 

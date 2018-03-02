@@ -18,7 +18,7 @@ description: "Summary: Learn how to define a translation rule by using the Build
  
 **Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015.
   
-Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see[Create or Modify a Translation Rule Manually](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see [Create or Modify a Translation Rule Manually](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
   
 ### To define a rule by using the Build a Translation Rule tool
 
@@ -61,7 +61,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 8. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To define a translation rule manually
 
@@ -90,7 +90,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 9. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 

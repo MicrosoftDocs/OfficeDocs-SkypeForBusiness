@@ -68,7 +68,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
   
   - **Malicious call tracing** enables users to report malicious calls (such as threats) by using the client UI, which in turn flags the calls in the Call Detail Records (CDRs). Disabled by default.
     
-  - **Busy options** enables or disables Busy Options for the specified voice policy. Busy Options allows incoming calls to be routed to voice mail or rejected with a busy signal when the call's target user is on the phone. Busy Options is a new voice policy introduced in the July 2016 Cumulative Update. Checking this parameter enables Busy Options, and unchecking it disables Busy Options. For more information, see[Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and[Install and configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md).
+  - **Busy options** enables or disables Busy Options for the specified voice policy. Busy Options allows incoming calls to be routed to voice mail or rejected with a busy signal when the call's target user is on the phone. Busy Options is a new voice policy introduced in the July 2016 Cumulative Update. Checking this parameter enables Busy Options, and unchecking it disables Busy Options. For more information, see [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and[Install and configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md).
     
 7. To associate and configure PSTN usage records for this voice policy, do any of the following:
     
@@ -174,7 +174,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 12. On the **Voice Policy** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 13. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details on how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md).
     
@@ -323,7 +323,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 11. On the **Voice Policy** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 12. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details about how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md).
     

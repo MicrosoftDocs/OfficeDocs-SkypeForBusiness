@@ -31,7 +31,7 @@ To deploy E9-1-1, you first need to configure an emergency call voice route. For
     
 3. Run the following cmdlet to create a new PSTN usage record. 
     
-    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see[Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](voice-and-pstn.md).
+    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](voice-and-pstn.md).
     
   ```
   Set-CsPstnUsage -Usage @{add='EmergencyUsage'}

@@ -41,7 +41,7 @@ The following tables list the features supported in a hybrid deployment when int
 |IM/Presence in Mobile clients  <br/> ||
 |Join online meetings in Mobile clients  <br/> |For more information, see [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Publish status based on Outlook calendar free/busy information  <br/> ||
-|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see[Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
+|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy-1/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises.  <br/> |
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
