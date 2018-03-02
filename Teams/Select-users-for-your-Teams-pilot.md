@@ -144,9 +144,7 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 | **Conversations**                   | **Meetings**                   |
 |-------------------------------------|--------------------------------|
 | <ul><li>Find a contact:<ul><li>Internal.<li>External - federated.</ul><li>Start a chat:<ul><li>With a Teams user.<li>With a Skype for Business user.</ul><li>Add a participant to an IM.<li>Add audio.<li>Add sharing.<li>Share a file.<li>Review a chat (history).<li>Resume a prior chat.<li>Respond to an incoming IM.<li>Send an IM on a mobile device.<li>Respond to an IM on a mobile device. | <ul><li>Schedule a meeting in Outlook.<li>Schedule a meeting in Teams: <ul><li>Invite internal users.<li>Invite external users.<li>Add audio conferencing.</ul><li>Join from a PC or mobile device.<li>Share your desktop.<li>Share an application.<li>Give control during a shared session.<li>Take control back during a shared session.<li>Mute a participant.<li>Turn on webcam video.<li>Switch devices.<li>Enable a meeting lobby.|
-
 | **Calling**                         | **Collaboration**              |
-|-------------------------------------|--------------------------------|
 | <ul><li>Make, receive, and transfer a call:<ul><li>To another Teams user<li>To a Skype for Business user</ul><li>Check voicemail.<li>Forward your phone to another number.<li>Enable simultaneous ring.<li>Transfer a call to another user.<li>Put a call on hold.<li>Speed-dial a contact. | <ul><li>Create a team.<li>Add a channel.<li>Add members.<li>Start a conversation.<li>Add files.<li>Add tabs.                 |
 
 |         |         |         |
