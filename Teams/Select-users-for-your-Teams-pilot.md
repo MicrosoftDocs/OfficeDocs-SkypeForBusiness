@@ -34,7 +34,7 @@ collaboration requirements. This helps you narrow down the list of users you’l
 select for the pilot as you plan for your broad rollout of Teams over time.
 
 
-![./media/Select-users-for-your-Teams-pilot-image1.png](./media/Select-users-for-your-Teams-pilot-image1.png)
+![The impact of user persona assessment on Teams rollout, based on eight core personas.](./media/Select-users-for-your-Teams-pilot-image1.png "The impact of user persona assessment on Teams rollout, based on eight core personas.")
 
 
 | **Persona**             | **Profile**                                                 | **Communication functionality requirements**          | **Devices**         |
@@ -57,7 +57,7 @@ at-scale communications. During this assessment, you need to define how your
 organization maps to each one, as it relates to your journey from Skype for
 Business to Teams.
 
-![./media/Select-users-for-your-Teams-pilot-image2.png](./media/Select-users-for-your-Teams-pilot-image2.png)
+![Four common types of interactions: conversations, meetings, team and project collaboration, and at-scale communications](./media/Select-users-for-your-Teams-pilot-image2.png "Four common types of interactions: conversations, meetings, team and project collaboration, and at-scale communications")
 
 Sample scenarios for each interaction type are provided below. Use these samples
 as a starting point, and map your organization’s use cases to these scenarios
@@ -69,7 +69,7 @@ build rapport.
 
 **Sample use cases:**
 
-![./media/Select-users-for-your-Teams-pilot-image3.png](./media/Select-users-for-your-Teams-pilot-image3.png)
+![Sample use cases for Scenario 01: Ad hoc conversations](./media/Select-users-for-your-Teams-pilot-image3.png "Sample use cases for Scenario 01: Ad hoc conversations")
 
 **Common characteristics:**
 -   One on one, or few participants
@@ -83,7 +83,7 @@ through interactive conversation and brainstorming.
 
 **Sample use cases:**
 
-![./media/Select-users-for-your-Teams-pilot-image4.png](./media/Select-users-for-your-Teams-pilot-image4.png)
+![Sample use cases for Scenario 02: Meetings](./media/Select-users-for-your-Teams-pilot-image4.png "Sample use cases for Scenario 02: Meetings")
 
 **Common characteristics:**
 -   Point-in-time meetings with defined agendas
@@ -99,7 +99,7 @@ accessibility to drive team activity and productivity.
 
 **Sample use cases:**
 
-![./media/Select-users-for-your-Teams-pilot-image5.png](./media/Select-users-for-your-Teams-pilot-image5.png)
+![Sample use cases for Scenario 03: Collaboration](./media/Select-users-for-your-Teams-pilot-image5.png "Sample use cases for Scenario 03: Collaboration")
 
 **Common characteristics:**
 -   Project-related or team-related efforts
@@ -114,7 +114,7 @@ to a large group of participants.
 
 **Sample use cases:**
 
-![./media/Select-users-for-your-Teams-pilot-image6.png](./media/Select-users-for-your-Teams-pilot-image6.png)
+![Sample use cases for Scenario 04: At-scale communications](./media/Select-users-for-your-Teams-pilot-image6.png "Sample use cases for Scenario 04: At-scale communications")
 
 **Common characteristics:**
 -   Defined or open audience
@@ -128,8 +128,8 @@ to a large group of participants.
 
 |         |         |         |
 |---------|---------|---------|
-|<ul>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
-|<ul>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
+|<ul>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
+|<ul>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
 
 > [!Important]
 > Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
@@ -149,5 +149,5 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 
 |         |         |         |
 |---------|---------|---------|
-|<ul>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
-|<ul>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul>|
+|<ul>![](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
+|<ul>![](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<ul><li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul></ul>|
