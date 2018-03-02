@@ -26,7 +26,7 @@ Teams and channels
 |Number of members a team owner can add to a team  | 250         |
 |Number of teams a global admin can create     | Unlimited        |
 |Number of teams an Office 365 tenant can have     | 500,000         |
-|Number of channels a team member create     |         |
+|Number of channels a team member can create     |         |
 |Number of users in a public group     | 2,500       |
 
 Meetings and calls 
@@ -36,8 +36,6 @@ Meetings and calls
 |---------|---------|
 |Number of people in a meeting     | 80      |
 |Number of people in a chat     | 20        |
-|Row3     |         |
-|Row4     |         |
 
 Operating systems and browsers 
 ------------------------------
