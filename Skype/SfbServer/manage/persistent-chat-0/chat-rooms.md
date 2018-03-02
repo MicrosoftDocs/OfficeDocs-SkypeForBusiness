@@ -16,7 +16,7 @@ description: "Summary: Learn how to manage Persistent Chat Server chat rooms in 
  
 **Summary:** Learn how to manage Persistent Chat Server chat rooms in Skype for Business Server 2015.
   
-Creating and managing chat rooms is much easier with the correct use of categories. A category defines who can create or join the chat rooms. Before you attempt to manage chat rooms, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) and[Manage categories in Persistent Chat Server in Skype for Business Server 2015](categories.md).
+Creating and managing chat rooms is much easier with the correct use of categories. A category defines who can create or join the chat rooms. Before you attempt to manage chat rooms, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) and [Manage categories in Persistent Chat Server in Skype for Business Server 2015](categories.md).
   
 You can configure and manage chat rooms by using the Windows PowerShell command-line interface, or by using the Skype for Business client if you are a member of the chat room. This topic describes how to manage chat rooms by using the Windows PowerShell command-line interface. If you want to manage chat rooms by using the Skype for Business client, see the client help. 
   
@@ -38,8 +38,7 @@ Who can access and manage chat rooms depends on user roles as follows:
     
 You can configure and manage chat rooms by using the following Windows PowerShell cmdlets:
   
-|
-|
+
 |**Cmdlet**|**Description**|
 |:-----|:-----|
 |New-CsPersistentChatRoom  <br/> |Create a new chat room  <br/> |
@@ -69,7 +68,7 @@ In addition to the above parameters, the **Set-CsPersistentChatRoom** cmdlet let
     
 - Presenters. Lets you assign presenters to an Auditorium chat room. 
     
- For details about syntax, including all parameters, see[Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
+ For details about syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
 ## Create a new room
 
@@ -79,8 +78,7 @@ You can create a new room by using the **New-CsPersistentChatRoom** cmdlet. For 
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-> [!NOTE]
-> -PersistentChatPoolFqdn is not needed if one of the following is true: 
+**Note:** PersistentChatPoolFqdn is not needed if one of the following is true: 
   
 - There is only one Persistent Chat Server pool.
     

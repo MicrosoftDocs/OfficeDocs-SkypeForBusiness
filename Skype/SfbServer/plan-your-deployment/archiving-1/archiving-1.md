@@ -66,7 +66,7 @@ To implement archiving, you need to decide how to meet your organization's requi
     
 - **How long archived materials should be retained**. The Archiving database is not intended for long-term retention, and Skype for Business Server does not provide an e-discovery (search) solution for archived data, so data needs to be moved to other storage. Skype for Business Server provides a session export tool that you can use to export archived data, and which creates searchable transcripts of the archived data. 
     
-     For the global policy, and for each site and user policy that you create, you can specify when to purge archived and exported data. For more information about purging data, see[Manage purging of archived data in Skype for Business Server 2015](../../manage/archiving/purging-of-archived-data.md). For more information about using the session export tool, see [Export archived data in Skype for Business Server 2015](../../manage/archiving/export-archived-data.md).
+     For the global policy, and for each site and user policy that you create, you can specify when to purge archived and exported data. For more information about purging data, see [Manage purging of archived data in Skype for Business Server 2015](../../manage/archiving/purging-of-archived-data.md). For more information about using the session export tool, see [Export archived data in Skype for Business Server 2015](../../manage/archiving/export-archived-data.md).
     
 - **Whether to archive internal or external communications**. You can enable archiving for internal communications (communications between internal users), external communications (communications that include at least one user outside your internal network), or both. You can specify these options for your entire organization, or you can specify them for specific sites and pools. By default, neither option is enabled.
     
@@ -163,7 +163,7 @@ For details about how to set up initial archiving configurations when you deploy
   
 ## Archiving configuration tools
 
- You control most archiving options by using the Skype for Business Server Control Panel. However, there are a few options available only by using the Skype for Business Server Management Shell. These options include archiving duplicate messages and exporting archived data. For more information about using the Skype for Business Server Control Panel and the Skype for Business Server Management Shell to manage archiving policies, see[Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+ You control most archiving options by using the Skype for Business Server Control Panel. However, there are a few options available only by using the Skype for Business Server Management Shell. These options include archiving duplicate messages and exporting archived data. For more information about using the Skype for Business Server Control Panel and the Skype for Business Server Management Shell to manage archiving policies, see [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
   
 ## Access archived data
 

@@ -76,8 +76,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Enhanced presence support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Publish and view status  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -92,8 +91,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Contacts and contact groups support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business Lync 2013 desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |View Contacts list  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -114,8 +112,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Instant Messaging support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Initiate instant messaging (IM) with a contact  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -133,8 +130,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Skype for Business to Skype for Business audio and video
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Skype for Business-to-Skype for Business voice  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -145,8 +141,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Conferencing support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Click a link in the meeting reminder to join a video or VoIP meeting  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -175,8 +170,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Telephony support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |In Skype for Business, tap the call icon to call a contact  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -201,8 +195,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## External user support
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Initiate IM with a public contact  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -215,8 +208,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
   
 ## Address book integration
 
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Call device address book contacts  <br/> ||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -226,8 +218,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 
 Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Provide client-side archiving  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
@@ -241,8 +232,7 @@ This table covers features requiring support for modern authentication.
   
 Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
-|
-|
+
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Modern Authentication  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|

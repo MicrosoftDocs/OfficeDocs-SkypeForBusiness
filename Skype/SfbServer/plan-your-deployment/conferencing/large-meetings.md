@@ -19,7 +19,10 @@ description: "Summary: Read this topic to learn about best practices for impleme
 The size of meetings that Skype for Business Server can support depends on whether conferencing is hosted on a shared or dedicated pool: anywhere from 250 participants on a shared pool to 1000 participants on a dedicated pool. 
   
 > [!NOTE]
-> This topic focuses on best practices for large meetings supported by Skype for Business Server. If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. >  Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see[What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and[Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy-1/configure-skype-meeting-broadcast.md). 
+> This topic focuses on best practices for large meetings supported by Skype for Business Server. If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. 
+
+> [!NOTE]
+> Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy-1/configure-skype-meeting-broadcast.md). 
   
 Large meetings typically have the following characteristics:
   
@@ -49,7 +52,7 @@ To have sufficient CPU and memory resources for meetings of up to 1000 users, th
   
 A Skype for Business Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers. To support more than one large meeting at the same time, you should set up multiple dedicated large-meeting pools.
   
-For more information about hardware and software requirements, and planning a topology that supports large meetings, see [Hardware and software requirements for conferencing in Skype for Business Server 2015](hardware-and-software-requirements.md) and[Plan your conferencing topology for Skype for Business Server 2015](conferencing-topology.md).
+For more information about hardware and software requirements, and planning a topology that supports large meetings, see [Hardware and software requirements for conferencing in Skype for Business Server 2015](hardware-and-software-requirements.md) and [Plan your conferencing topology for Skype for Business Server 2015](conferencing-topology.md).
   
 ## Implement best practices for large meetings
 

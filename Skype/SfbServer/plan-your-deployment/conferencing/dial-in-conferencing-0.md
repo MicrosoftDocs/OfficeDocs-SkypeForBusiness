@@ -79,7 +79,7 @@ Before you configure the dial plans, is it important to plan how you want to nam
     
 - Any user from any location can call any dial-in access number to join a conference.
     
-For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md) and[Create or modify a normalization rule in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/normalization-rules.md). 
+For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/normalization-rules.md). 
   
 ## Plan for conference directories
 
@@ -87,7 +87,6 @@ Conference directories maintain a mapping between the alphanumeric meeting ID th
   
 ```
 <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-
 ```
 
 Creating multiple conference directories will ensure that conference IDs will stay short until a significant amount of conferences have been created. In an organization with a typical number of conferences per user, we recommend that you create one conference directory for every 999 users in the pool. Using this guideline, the conference IDs can generally be kept small. However, once the number of conference directories (across the pools) exceed 9, the Conference ID number will grow to support additional conferences.
@@ -102,7 +101,7 @@ Conferences must be enabled for dial-in access when you configure conferencing p
     
 - A link to a Dial-in Conferencing Settings page, which contains a complete list of access numbers with their associated languages; a place to create, reset, or unblock personal identification numbers (PINs); and other information, such as dual-tone multi-frequency (DTMF) controls
     
-For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md) and[Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
   
 ## Support for enterprise and anonymous users
 

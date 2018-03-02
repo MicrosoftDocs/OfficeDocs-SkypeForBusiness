@@ -34,12 +34,10 @@ All Front End Servers or Standard Edition servers that run the Announcement appl
   
 ### Port Requirements
 
-The Announcement application uses the following port:
-  
-- **Port 5071** Used for SIP listening requests
+The Announcement application uses **Port 5071** for SIP listening requests.
     
 > [!NOTE]
-> This port is the default setting, which you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Lync Server Management Shell documentation.
+> This port is the default setting, which you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Skype for Business Server Management Shell documentation.
   
 ### Audio File Requirements
 

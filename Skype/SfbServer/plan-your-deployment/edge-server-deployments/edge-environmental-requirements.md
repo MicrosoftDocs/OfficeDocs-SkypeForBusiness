@@ -74,11 +74,11 @@ To help you choose one, we have the following table which gives a summary of wha
 |:-----|:-----|:-----|:-----|:-----|
 |Single consolidated Edge with private IP addresses and NAT  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Single consolidated Edge with public IP addresses  <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Scaled consolidated Edge with private IP addresses and NAT (DNS load balanced)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes\*  <br/> |
-|Scaled consolidated Edge with public IP addresses (DNS load balanced)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes\*  <br/> |
+|Scaled consolidated Edge with private IP addresses and NAT (DNS load balanced)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes&sup1;  <br/> |
+|Scaled consolidated Edge with public IP addresses (DNS load balanced)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes&sup1;  <br/> |
 |Scaled consolidated Edge with hardware load balancers  <br/> |Yes  <br/> |No (one DNS A record per VIP)  <br/> |Yes  <br/> |Yes  <br/> |
    
-\*Exchange Unified Messaging (UM) remote user failover using DNS load balancing requires Exchange 2013 or newer.
+&sup1; Exchange Unified Messaging (UM) remote user failover using DNS load balancing requires Exchange 2013 or newer.
   
 ### IP Address requirements
 
@@ -135,7 +135,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
   
 - External network adapter:
     
-  - Public IP:s
+  - Public IPs:
     
   - Access Edge: 131.107.155.10 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
     
@@ -143,7 +143,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - A/V Edge: 131.107.155.30 (secondary)
     
-    Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+  Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
@@ -155,7 +155,8 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
 Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
   
-There are other possible configurations here:
+> [!TIP]
+>There are other possible configurations here:
   
 - You could use one IP address on the external network adapter. We don't recommend this because then you're going to need to differentiate between the thee services using different ports (which you can do in Skype for Business Server) but there are some firewalls that may block the alternate ports. See the [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) section for more about this.
     
@@ -187,47 +188,47 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - Node 1
     
-  - Public IPs:
+     - Public IPs:
     
-  - Access Edge: 131.107.155.10 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+        - Access Edge: 131.107.155.10 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
     
-  - Web Conferencing Edge: 131.107.155.20 (secondary)
+        - Web Conferencing Edge: 131.107.155.20 (secondary)
     
-  - A/V Edge: 131.107.155.30 (secondary)
+        - A/V Edge: 131.107.155.30 (secondary)
     
-    Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+          Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
-  - Private IPs:
+    - Private IPs:
     
-  - Access Edge: 10.45.16.10 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+         - Access Edge: 10.45.16.10 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
     
-  - Web Conferencing Edge: 10.45.16.20 (secondary)
+         - Web Conferencing Edge: 10.45.16.20 (secondary)
     
-  - A/V Edge: 10.45.16.30 (secondary)
+         - A/V Edge: 10.45.16.30 (secondary)
     
-    Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Node 2
     
-  - Public IPs:
+     - Public IPs:
     
-  - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+       - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
     
-  - Web Conferencing Edge: 131.107.155.21 (secondary)
+       - Web Conferencing Edge: 131.107.155.21 (secondary)
     
-  - A/V Edge: 131.107.155.31 (secondary)
+       - A/V Edge: 131.107.155.31 (secondary)
     
-    Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
-  - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+      - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
     
-  - Web Conferencing Edge: 10.45.16.21 (secondary)
+      - Web Conferencing Edge: 10.45.16.21 (secondary)
     
-  - A/V Edge: 10.45.16.31 (secondary)
+      - A/V Edge: 10.45.16.31 (secondary)
     
-    Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
+      Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
 There are other possible configurations here:
   
@@ -248,7 +249,7 @@ There are other possible configurations here:
 
 |**Location**|**Type**|**Port**|**FQDN**|**FQDN host record**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|External DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |The SIP Access Edge external interface required for automatic DNS discovery. Used by your other potential federation partners. It's also known as "Allow SIP domains." You'll need one of these for each SIP domain with Skype for Business users.  <br/> **Note:** You will need this SRV record for mobility and the push notification clearing house. <br/> |
+|External DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |The SIP Access Edge external interface required for automatic DNS discovery. Used by your other potential federation partners. It's also known as "Allow SIP domains." You'll need one of these for each SIP domain with Skype for Business users.  <br/><br/> **Note:** You will need this SRV record for mobility and the push notification clearing house. <br/> |
    
 ### DNS records for extensible messaging and presence protocol
 
@@ -307,7 +308,7 @@ Regardless of whether you're doing a single Edge Server or an Edge pool, this is
   
 |**Component**|**Subject name (SN)**|**Subject alternative names (SAN)/order**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|External Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |This is the certificate you need to request from a public CA. It'll need to be assigned to the external Edge interfaces for the following:  <br/> • Access Edge  <br/> • Web Conferencing Edge  <br/> • Audio/Video Authentication  <br/> The good news is that SANs are automatically added to your certificate request, and therefore your certificate after you submit the request, based on what you defined for this deployment in Topology Builder. You'll only need to add SAN entries for any additional SIP domains or other entries you need to support. Why is sip.contoso.com replicated in this instance? That happens automatically as well, and it's needed for things to work properly.  <br/> **Note:** This certificate can also be used for Public Instant Messaging connectivity. You don't need to do anything differently with it, but in previous versions of this documentation, it was listed as a separate table, and now it's not. <br/> |
+|External Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |This is the certificate you need to request from a public CA. It'll need to be assigned to the external Edge interfaces for the following:  <br/> • Access Edge  <br/> • Web Conferencing Edge  <br/> • Audio/Video Authentication  <br/> <br/>The good news is that SANs are automatically added to your certificate request, and therefore your certificate after you submit the request, based on what you defined for this deployment in Topology Builder. You'll only need to add SAN entries for any additional SIP domains or other entries you need to support. Why is sip.contoso.com replicated in this instance? That happens automatically as well, and it's needed for things to work properly.  <br/><br/> **Note:** This certificate can also be used for Public Instant Messaging connectivity. You don't need to do anything differently with it, but in previous versions of this documentation, it was listed as a separate table, and now it's not. <br/> |
 |Internal Edge  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |You can get this certificate from a public CA or an internal CA. It'll need to contain the server EKU (Enhanced Key Usage), and you'll assign it to the internal Edge interface.  <br/> |
    
 If you need a certificate for Extensible Messaging and Presence Protocol (XMPP), it will look identical to the External Edge table entries above, but will have the following two additional SAN entries:
@@ -350,16 +351,8 @@ The Source IP address and Destination IP address will contain information for us
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |This is used for relaying media traffic.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |3478 outbound is:  <br/> • Used by Skype for Business Server to determine the version of Edge Server it's communicating with.  <br/> • Used for media traffic between Edge Servers.  <br/> • Required for federation with Lync Server 2010.  <br/> • Needed if multiple Edge pools are deployed within your organization.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over UDP on port 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |||
-|:-----|:-----|
-|||
-   
-|STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |||
-|:-----|:-----|
-|||
-   
-|Any  <br/> |STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |
    
 ### Internal port firewall summary table
 
@@ -440,5 +433,3 @@ The following table does give guidance for those scenarios, but otherwise, you s
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Any:  <br/> • Front End Server IP address  <br/> • Front End pool IP address  <br/> • Any Survivable Branch Appliance using this Edge Server  <br/> • Any Survivable Branch Server using this Edge Server  <br/> |Edge Server internal interface  <br/> |Authentication of A/V users from your Front End Server or Front End pool, or your Survivable Branch Appliance or Survivable Branch Server, using your Edge Server.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Preferred path for A/V media transfer between your internal and external users.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |Edge Server internal VIP interface  <br/> |Fallback path for A/V media transfer between your internal and external users if UDP communication doesn't work. TCP is then used for file transfers and desktop sharing.  <br/> |
-   
-

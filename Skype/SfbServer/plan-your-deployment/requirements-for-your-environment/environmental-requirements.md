@@ -20,13 +20,13 @@ description: "Summary: Configure your non-server requirements for Skype for Busi
   
 What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
-[Active Directory](environmental-requirements.md#AD)
+- [Active Directory](environmental-requirements.md#AD)
   
-[Domain Name System (DNS)](environmental-requirements.md#DNS)
+- [Domain Name System (DNS)](environmental-requirements.md#DNS)
   
-[Certificates](environmental-requirements.md#Certs)
+- [Certificates](environmental-requirements.md#Certs)
   
-[File Share](environmental-requirements.md#Fileshare)
+- [File Share](environmental-requirements.md#Fileshare)
   
 ## Active Directory
 <a name="AD"> </a>
@@ -158,7 +158,7 @@ In this topology, there are one or more user forests, and Skype for Business Ser
   
 With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Office 365.
   
- The organization also has Office 365, and uses[Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Office 365, and uses [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   

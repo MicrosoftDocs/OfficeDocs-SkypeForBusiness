@@ -28,7 +28,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
   
 ## Hardware and software requirements for Front End Servers
 
-Because web conferencing, A/V conferencing, dial-in conferencing, and IM conferencing are all collocated with the Front End Server, the server hardware and software requirements are the same as for the Front End Servers. For details about these requirements, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and[Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+Because web conferencing, A/V conferencing, dial-in conferencing, and IM conferencing are all collocated with the Front End Server, the server hardware and software requirements are the same as for the Front End Servers. For details about these requirements, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
 ## Requirements for web conferencing
 
@@ -78,7 +78,7 @@ If you deploy audio conferencing in your network, your users will need audio dev
   
 ## Requirements for dial-in conferencing
 
-Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and[Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 ### Required components
 
@@ -124,8 +124,7 @@ In order to use the conferencing features, Skype for Business Server requires th
   
 **Required server ports**
 
-|
-|
+
 |**Server role**|**Service name**|**Port**|**Protocol**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |Front End Servers  <br/> |Skype for Business Server IM Conferencing service  <br/> |5062  <br/> |TCP  <br/> |Used for incoming SIP requests for instant messaging (IM) conferencing.  <br/> |
@@ -143,8 +142,7 @@ In order to use the conferencing features, Skype for Business Server requires th
    
 **Required client ports**
 
-|
-|
+
 |**Port**|**Protocol**|**Notes**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Used for external user access to web conferencing sessions.  <br/> |

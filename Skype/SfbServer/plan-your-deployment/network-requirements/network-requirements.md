@@ -40,7 +40,7 @@ For public switched telephone network (PSTN) integration, you can integrate by u
 
 Network requirements for audio/video (A/V) in a Skype for Business Server deployment include the following:
   
-- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see[Determining Firewall and 50k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx).
+- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Determining Firewall and 50k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx).
     
     > [!IMPORTANT]
     > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on the Edge Servers and you can't use NAT for the servers or the pool at your NAT-capable device (for example, a firewall appliance or LAN switch. For details, see [Port Summary - Scaled Consolidated Edge with Hardware Load Balancers](http://technet.microsoft.com/library/91213b1e-f875-464b-83e8-fe3a351595a4.aspx). 
@@ -242,7 +242,7 @@ Skype for Business Server offers full support for QoS: that means that organizat
 - [Configuring Quality of Service on Microsoft Lync Phone Edition Devices](http://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx). By default, QoS is enabled for Lync Phone Edition devices. You might want to change the default DSCP value to guarantee that all audio packets in your organization use the same DSCP code.
     
 > [!NOTE]
-> If you are using Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing QoS on that platform. For more information, see Network QoS Cmdlets in Windows PowerShell at [https://go.microsoft.com/fwlink/p/?LinkId=285379](https://go.microsoft.com/fwlink/p/?LinkId=285379). 
+> If you are using Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing QoS on that platform. For more information, see [Network QoS Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379). 
   
 QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) with additional details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server 2015 are unchanged.
   

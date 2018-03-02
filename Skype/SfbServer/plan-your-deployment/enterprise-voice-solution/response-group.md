@@ -87,15 +87,15 @@ Response Group uses **Language packs** to support text-to-speech and speech reco
 
 The Response Group application uses the following ports:
   
-- **Port 5071** Used for SIP listening requests
+- **Port 5071**   for SIP listening requests
     
-- **Port 8404** Used for interserver communications
+- **Port 8404**   for interserver communications
     
     > [!NOTE]
     > This port is used for the Match Making service and is required when the Response Group application is deployed in a pool that has more than one Front End Server. 
   
-> [!NOTE]
-> These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Skype for Business Server Management Shell documentation.
+   > [!NOTE]
+   > These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Skype for Business Server Management Shell documentation.
   
 ### Audio File Requirements
 

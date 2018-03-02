@@ -33,9 +33,8 @@ With the distributed model for Front End pools, a certain numbers of a pool's se
 
 The first time you start a new Front End pool, it is essential that 85% of the servers are up and running, as shown in the following table. If fewer servers are running, the services might be stuck in the starting state and the pool might not start.
   
-|||
-|:-----|:-----|
 |Total number of servers in the pool  <br/> |Number of servers that must be running for the pool to be started the first time  <br/> |
+|:-----|:-----|
 |2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
@@ -57,9 +56,8 @@ Every subsequent time the pool is started, 85% of the servers should be started 
 
 For a Front End pool to function at all, it cannot be in pool-level quorum loss. If the number of servers running falls below the functional level as shown in the following table, the remaining servers in the pool will stop all Skype for Business Server services. Note that the numbers in the following table assume that the Back End Servers in the pool are running.
   
-|||
-|:-----|:-----|
 |Total number of Front End Servers in the pool  <br/> |Number of servers that must be running for pool to be functional  <br/> |
+|:-----|:-----|
 |2  <br/> |1  <br/> |
 |3-4  <br/> |Any 2  <br/> |
 |5-6  <br/> |Any 3  <br/> |

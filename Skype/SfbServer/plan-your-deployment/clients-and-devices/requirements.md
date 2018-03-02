@@ -26,23 +26,22 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
     
 - One of the following tablets:
     
-   **Supported tablets**
+**Supported tablets**
 
-|
-|
+
 |**Tablet**|**Processor**|**RAM**|**Disk**|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 \*  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 \*  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro § <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro § <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
    
-    \* — Core M3 processors are not supported on this model.
+&sup1; — Core M3 processors are not supported on this model.
     
-    § — Core M3 processors are not supported on this model.
+&sup2; — Core M3 processors are not supported on this model.
     
 - One of the following docking station options to secure the tablet to the meeting room table. 
     
@@ -53,10 +52,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
     
 - 
-   **Certified firmware versions for USB audio and video peripherals**
-
-|
-|
+**Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> ||

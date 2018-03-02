@@ -22,9 +22,9 @@ Remote call control was a feature in previous versions of Lync Server which enab
   
 ||**Skype for Business 2015 Client With Skype UI enabled**|**Skype for Business 2015 Client With Lync UI enabled**|**Skype for Business 2016 Client**|**Lync 2013 Client**|**Lync 2010 Client**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype for Business Server 2015 <br/> |Call via Work  <br/> |-1 <br/> |Call via Work  <br/> |-1 <br/> |-1 <br/> |
-| Lync Server 2013 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |-1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
-| Lync Server 2010 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |-1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
+| Skype for Business Server 2015 <br/> |Call via Work  <br/> |1 <br/> |Call via Work  <br/> |1 <br/> |1 <br/> |
+| Lync Server 2013 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
+| Lync Server 2010 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
    
 1. Neither feature is supported.
   

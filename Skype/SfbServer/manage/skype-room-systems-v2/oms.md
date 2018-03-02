@@ -16,7 +16,7 @@ description: "This article discusses how to manage Skype Room Systems v2 devices
  
 This article discusses how to manage Skype Room Systems v2 devices in an integrated, end-to-end manner using Microsoft Operations Management Suite. 
   
-You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and[Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md) for details). As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.
+You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md) for details). As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.
   
 ## Understand the log entries
 <a name="Telemetry"> </a>
@@ -27,8 +27,6 @@ Event IDs 2000 and 3000 indicate the device in question is working as expected. 
   
 Understanding these event descriptions alerts you to problems quickly, and provides a starting point for further troubleshooting.
   
-|
-|
 |**Event ID  <br/> level**|**Event behavior**|**Event Description**|
 |:-----|:-----|:-----|
 |2000  <br/> Information  <br/> | This is a healthy heartbeat event. Every 5 minutes, SRS v2 checks that it is signed in to Skype for Business and has network and Exchange connectivity. If all 3 factors are true, it will write Event ID 2000 into the event log every 5 minutes until the device is offline or one or more of the conditions is no longer met. <br/> | {"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass","OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias@contoso.com","DisplayName":"Display name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IP v6 address"} <br/> In this example, all heartbeat conditions were met and the SRS v2 device was marked as being healthy. If there were errors, the app would record Event ID 2001 instead.  <br/> |

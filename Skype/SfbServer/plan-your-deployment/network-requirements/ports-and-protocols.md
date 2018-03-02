@@ -133,7 +133,6 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 |Front End Server load balancer  <br/> |8080  <br/> |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  <br/> |
 |Front End Server load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
 |Director load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-||||
 |Director load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
    
 **Required Client Ports**

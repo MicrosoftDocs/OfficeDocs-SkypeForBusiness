@@ -48,23 +48,23 @@ You can configure and manage categories by using the Control Panel or by using W
     
 6. In **New Category**, do the following:
     
-  - In **Name**, specify a name for the new room category.
+   - In **Name**, specify a name for the new room category.
     
-  - In **Description**, provide a detailed description for the room category (for example, a room category for Contoso).
+   - In **Description**, provide a detailed description for the room category (for example, a room category for Contoso).
     
-  - To control whether invitations can be enabled for chat rooms that belong to this category, select or clear the **Enable invitations** check box. If selected, rooms in this category may have invitations on or off; if cleared, the rooms in this category are not allowed to have invitations. If a room has invitations on, when a new member is added to a room, he or she gets a notification of the new room in their Persistent Chat client.
+   - To control whether invitations can be enabled for chat rooms that belong to this category, select or clear the **Enable invitations** check box. If selected, rooms in this category may have invitations on or off; if cleared, the rooms in this category are not allowed to have invitations. If a room has invitations on, when a new member is added to a room, he or she gets a notification of the new room in their Persistent Chat client.
     
-  - To control file uploads in chat rooms belonging to this category, select or clear the **Enable file upload** check box. If selected, the rooms of this category can enable or disable file uploads; if cleared, the rooms of this category are not allowed to have file uploads.
+   - To control file uploads in chat rooms belonging to this category, select or clear the **Enable file upload** check box. If selected, the rooms of this category can enable or disable file uploads; if cleared, the rooms of this category are not allowed to have file uploads.
     
-  - To control chat history, select or clear the **Enable chat history** check box. If selected, room chats become persistent; otherwise, chat messages are not persisted. If compliance is enabled, room chats will be saved in compliance, but users will not be able to access older messages. This option can be used for rooms designated for real-time, ad hoc collaborations that don't need chat history to be persisted.
+   - To control chat history, select or clear the **Enable chat history** check box. If selected, room chats become persistent; otherwise, chat messages are not persisted. If compliance is enabled, room chats will be saved in compliance, but users will not be able to access older messages. This option can be used for rooms designated for real-time, ad hoc collaborations that don't need chat history to be persisted.
     
 7. In **Edit Category**, do the following:
     
-  - In **Membership**, in the **Allowed members** section, add or remove users and other Active Directory Domain Services principals (users, distribution groups, organizational units, and so on) that are permitted to be added as members of chat rooms belonging to the category. Principals permitted by a category can search for the rooms in the category (unless the room is hidden, in which case only members of the room can search for it in the directory).
+   - In **Membership**, in the **Allowed members** section, add or remove users and other Active Directory Domain Services principals (users, distribution groups, organizational units, and so on) that are permitted to be added as members of chat rooms belonging to the category. Principals permitted by a category can search for the rooms in the category (unless the room is hidden, in which case only members of the room can search for it in the directory).
     
-  - In **Membership**, in the **Denied members** section, add or remove users and other Active Directory principals associated with members being denied from the room.
+   - In **Membership**, in the **Denied members** section, add or remove users and other Active Directory principals associated with members being denied from the room.
     
-  - In **Membership**, in the **Creators** section, add or remove users and other Active Directory principals associated with creators for the category. A creator is a user who has permissions to create chat rooms and assign chat room managers and members.
+   - In **Membership**, in the **Creators** section, add or remove users and other Active Directory principals associated with creators for the category. A creator is a user who has permissions to create chat rooms and assign chat room managers and members.
     
 8. Click **Commit**.
     
@@ -72,8 +72,7 @@ You can configure and manage categories by using the Control Panel or by using W
 
 You can configure categories by using the following Windows PowerShell cmdlets:
   
-|
-|
+
 |**Cmdlet**|**Description**|
 |:-----|:-----|
 |New-CsPersistentChatCategory  <br/> |Create a new category  <br/> |

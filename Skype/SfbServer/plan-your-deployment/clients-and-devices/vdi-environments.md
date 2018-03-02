@@ -85,7 +85,7 @@ Review the following links for more information:
     
 - Citrix Knowledge Center article [CTX138408](https://support.citrix.com/article/CTX138408)
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or[Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
   
 ### Supported virtualization technologies and known limitations
 <a name="Supported_virt"> </a>
@@ -110,7 +110,7 @@ The Lync VDI plug-in was designed to use platform-independent APIs called Dynami
 In a VDI environment, the virtual machines and the user's local computer must meet the requirements outlined in this section.
   
 > [!NOTE]
->  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library:> [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514)> [Remote Desktop Services](https://go.microsoft.com/fwlink/p/?linkid=247513) in Windows Server 2008 R2
+>  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Remote Desktop Services in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 Virtual machines must be configured with Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.
   
@@ -126,7 +126,7 @@ The user's local computer must meet the following requirements:
     
 - On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled. To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings." 
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or[Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
   
 #### Known Feature Limitations
 <a name="VDI_prereq"> </a>
@@ -158,8 +158,6 @@ The Lync VDI plug-in is not supported in an Office 365 environment.
   
 ## See also
 <a name="Citrix_RT"> </a>
-
-#### 
 
 [Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

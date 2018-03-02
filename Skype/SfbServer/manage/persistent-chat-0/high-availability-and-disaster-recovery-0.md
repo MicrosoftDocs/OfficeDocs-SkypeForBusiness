@@ -16,7 +16,7 @@ description: "Summary: Learn how to manage Persistent Chat Server high availabil
  
 **Summary:** Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015.
   
-This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery-1.md) and[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery-1.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 ## Fail over Persistent Chat Server
 
@@ -96,61 +96,61 @@ These steps are designed to recover configuration as it existed prior to the dis
     > [!IMPORTANT]
     > The SQL Server agent on the secondary Persistent Chat Server Back End Server should be running under a privileged account. Specifically, the account must include: 
   
-  - Read access to the network share that backups are being placed in.
+   - Read access to the network share that backups are being placed in.
     
-  - Write access to the specific local directory that the backups are being copied to.
+   - Write access to the specific local directory that the backups are being copied to.
     
 2. Disable mirroring on the backup mgc database:
     
-  - Using SQL Server Management Studio, connect to the backup mgc instance.
+   - Using SQL Server Management Studio, connect to the backup mgc instance.
     
-  - Right-click the mgc database, point to **Tasks**, and then click **Mirror**.
+   - Right-click the mgc database, point to **Tasks**, and then click **Mirror**.
     
-  - Click **Remove Mirroring**.
+   - Click **Remove Mirroring**.
     
-  - Click **OK**.
+   - Click **OK**.
     
-  - Perform the same steps with the mgccomp database.
+   - Perform the same steps with the mgccomp database.
     
 3. Back up the mgc database so that it can be restored to the new primary database:
     
-  - Using SQL Server Management Studio, connect to the backup mgc instance.
+   - Using SQL Server Management Studio, connect to the backup mgc instance.
     
-  - Right-click the mgc database, point to **Tasks**, and then click **Back Up**. The **Back Up Database** dialog box appears.
+   - Right-click the mgc database, point to **Tasks**, and then click **Back Up**. The **Back Up Database** dialog box appears.
     
-  - In **Backup type**, select **Full**.
+   - In **Backup type**, select **Full**.
     
-  - For **Backup component**, click **Database**.
+   - For **Backup component**, click **Database**.
     
-  - Either accept the default backup set name suggested in **Name**, or enter a different name for the backup set.
+   - Either accept the default backup set name suggested in **Name**, or enter a different name for the backup set.
     
-  -  *\<Optional\>*  In **Description**, enter a description of the backup set.
+   -  *\<Optional\>*  In **Description**, enter a description of the backup set.
     
-  - Remove the default backup location from the destination list.
+   - Remove the default backup location from the destination list.
     
-  - Add a file to the list by using the path to the share location that you established for log shipping. This path is available to the primary database and to the backup database.
+   - Add a file to the list by using the path to the share location that you established for log shipping. This path is available to the primary database and to the backup database.
     
-  - Click **OK** to close the dialog box and begin the backup process.
+   - Click **OK** to close the dialog box and begin the backup process.
     
 4. Restore the primary database by using the backup database created in the previous step.
     
-  - Using SQL Server Management Studio, connect to the primary mgc instance.
+   - Using SQL Server Management Studio, connect to the primary mgc instance.
     
-  - Right-click the mgc database, point to **Tasks**, point to **Restore**, and then click **Database**. The **Restore Database** dialog box appears.
+   - Right-click the mgc database, point to **Tasks**, point to **Restore**, and then click **Database**. The **Restore Database** dialog box appears.
     
-  - Select **From Device**.
+   - Select **From Device**.
     
-  - Click the browse button, which opens the **Specify Backup** dialog box. In **Backup media**, select **File**. Click **Add**, select the backup file that you created in step 3, and then click **OK**.
+   - Click the browse button, which opens the **Specify Backup** dialog box. In **Backup media**, select **File**. Click **Add**, select the backup file that you created in step 3, and then click **OK**.
     
-  - In **Select the backup sets to restore**, select the backup.
+   - In **Select the backup sets to restore**, select the backup.
     
-  - Click **Options** in the **Select a page** pane.
+   - Click **Options** in the **Select a page** pane.
     
-  - In **Restore options**, select **Overwrite the existing database**.
+   - In **Restore options**, select **Overwrite the existing database**.
     
-  - In **Recovery State**, select **Leave the database ready to use**.
+   - In **Recovery State**, select **Leave the database ready to use**.
     
-  - Click **OK** to begin the restoration process.
+   - Click **OK** to begin the restoration process.
     
 5. Configure SQL Server Log Shipping for the primary database. Follow the procedures in [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
     

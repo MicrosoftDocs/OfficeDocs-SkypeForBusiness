@@ -30,8 +30,7 @@ To use the Control Panel:
     
 The following table summarizes the Windows PowerShell cmdlets available to help you manage Persistent Chat Server. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
-|
-|
+
 |**Cmdlet**|**Description**|
 |:-----|:-----|
 |New-CsPersistentChatCategory  <br/> |Creates a new category  <br/> |

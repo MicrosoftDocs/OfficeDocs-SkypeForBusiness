@@ -30,15 +30,15 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 4. Stop Skype for Business Server services. At the command line, type:
     
-  ```
-  Stop-CsWindowsService
-  ```
+    ```
+    Stop-CsWindowsService
+    ```
 
 5. Stop the World Wide Web service. At the command line, type:
     
-  ```
-  net stop w3svc
-  ```
+    ```
+    net stop w3svc
+   ```
 
 6. Close all Skype for Business Server Management Shell windows.
     
@@ -48,36 +48,35 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 9. Stop Skype for Business Server services again to catch Global Assembly Cache (GAC) -d assemblies. At the command line, type:
     
-  ```
-  Stop-CsWindowsService
-  ```
+    ```
+    Stop-CsWindowsService
+    ```
 
 10. Restart the World Wide Web service. At the command line, type:
     
-  ```
-  net start w3svc
-  ```
+    ```
+    net start w3svc
+    ```
 
 11. Apply the changes made to the SQL Server databases by doing one of the following:
     
-  - If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:
+    - If this is an Enterprise Edition Back End Server and there are no collocated databases on this server, such as Archiving or Monitoring databases, then type the following at a command line:
     
-  ```
-  Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
-  ```
+    ```
+    Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
+    ```
 
-  - If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:
+    - If this is an Enterprise Edition Back End Server and there are collocated databases on this server, then type the following at a command line:
     
-  ```
-  Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
+    ```
+    Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
+    ```
 
-  ```
-
-  - If this is an Standard Edition server, type the following at a command line:
+    - If this is an Standard Edition server, type the following at a command line:
     
-  ```
-  Install-CsDatabase -Update -LocalDatabases
+    ```
+    Install-CsDatabase -Update -LocalDatabases
 
-  ```
+    ```
 
 

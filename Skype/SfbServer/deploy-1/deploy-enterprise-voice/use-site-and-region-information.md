@@ -27,7 +27,7 @@ For media bypass to work properly there must be consistency between a site as de
   
 ### To Configure Site and Region Information for Media Bypass
 
-1. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+1. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 2. In the left navigation bar, click **Network Configuration**.
     
