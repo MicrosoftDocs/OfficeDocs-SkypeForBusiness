@@ -31,7 +31,42 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   > [!IMPORTANT]
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
   
-## Change the settings for an audio conferencing bridge
+## Change the settings for an audio conferencing bridge in Microsoft Teams
+
+ **Set up the meeting experience when callers join a meeting**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+3. In the **Bridge settings** pane, select: 
+  - **Enable meeting entry and exit notifications to be turned on** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+    
+    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+    
+  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+    
+  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+      
+  - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
+    
+5. After you make your changes, click **Apply**.
+ 
+**Set the PIN length for meetings**
+     
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+3. In the **Bridge settings** pane, select the number of digits you want for the PIN in the **PIN length** list, and then click **Apply**. 
+
+  
+**Select whether to send email to your users**
+  
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+    
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**, and then click **Apply**.
+    
+    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+
+## Change the settings for an audio conferencing bridge in Skype for Business Online
 
  **Set up the meeting experience when callers join a meeting**
   
