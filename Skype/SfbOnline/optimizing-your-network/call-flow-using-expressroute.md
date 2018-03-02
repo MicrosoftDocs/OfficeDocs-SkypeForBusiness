@@ -229,3 +229,6 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 ## Related topics
 
 [ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

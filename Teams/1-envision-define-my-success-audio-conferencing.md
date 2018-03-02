@@ -42,8 +42,8 @@ In addition to defining your business use cases, to set the project boundaries y
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -75,8 +75,8 @@ The business use cases defined in the previous step include an organizational sc
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -137,8 +137,8 @@ You need to identify business risks as part of this exercise, and define a mitig
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -177,8 +177,8 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
 
 Additional detailed guidance on how to operate a proper steering committee can be found in the steering committee guide available [here](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
 
