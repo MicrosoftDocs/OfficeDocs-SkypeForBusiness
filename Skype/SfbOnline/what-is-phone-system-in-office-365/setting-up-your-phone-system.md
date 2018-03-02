@@ -123,7 +123,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 - If you need to port more than 999 phone numbers, see [Manually submit a custom service request](../what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
 
-**For detailed information about getting new phone numbers and porting existing numbers, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).**
+**For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
 
 ## Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
 
@@ -152,7 +152,7 @@ If you want to transfer service numbers from your current service provider or ca
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
 
-**For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).**
+**For detailed information about getting new service numbers or transferring existing numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
 
 ## Step 5: Set up Calling Plans
 
@@ -282,7 +282,7 @@ Before you can create and set up your call queues, you will need to get or trans
 
 To create a new call queue, in the **Skype for Business admin center**, click **Call routing** > **Call queues**, click **Add new**, and then follow the instructions in **Step 3** of  [Create a Phone System call queue]( create-a-phone-system-call-queue.md#step-3---create-a-new-call-queue).
 
-**For more details about call queues, see [Create a Phone System call queue]( create-a-phone-system-call-queue.md).**
+**For more details about call queues, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).**
 
 ## Step 8: Set up a Phone System auto attendant (optional)
 

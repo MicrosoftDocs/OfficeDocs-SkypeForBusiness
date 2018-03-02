@@ -26,7 +26,7 @@ description: "Each country or region has different instructions for getting phon
 
 # Manage phone numbers for your organization
 
-Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
+Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the forms and information you need.
   
 > [!NOTE]
 > To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -48,7 +48,20 @@ For service numbers, if the country or region is listed but there aren't service
 ## User numbers
 For user (also called subscriber) numbers, if you want to see about getting numbers that aren't available in the **Skype for Business admin center** or if your are porting numbers over to Office 365, you can find the forms below. 
 
-### Select your country or region to see what's available for you!
+## Getting new user or service numbers
+
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the **Skype for Business admin center**, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order. Select your country below to find the form you need. 
+
+> [!IMPORTANT]
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us.
+
+## Transferring numbers with Letters of Authorization (LOAs)
+
+A **Letter of Authorization (LOA)** gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business (or if you don't want to use the **Local Number Porting wizard**). You must [Manually submit a custom service request](manually-submit-a-custom-service-request.md) with the LOA to get phone numbers transferred from your current service provider.
+
+Select your country below to find the LOA form you need.
+
+### Select your country or region to find available downloadable forms
 > [!div class="op_single_selector"] 
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
