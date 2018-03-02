@@ -75,7 +75,7 @@
 ## [What the guest experience is like](guest-experience.md)
 ## [Authorize guest access in Teams](teams-dependencies.md)
 ## [Turn on or off guest access to Teams](set-up-guests.md)
-## [Manage guest access to Teams](manage-guests.md)
+## [Manage guest access in Teams](manage-guests.md)
 ## [Add a guest to a team](add-guests.md)
 ## [View guest users in a team](view-guests.md)
 ## [Edit guest user information](edit-guests-information.md)
