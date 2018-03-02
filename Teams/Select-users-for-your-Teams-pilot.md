@@ -38,13 +38,7 @@ select for the pilot as you plan for your broad rollout of Teams over time.
 |:---------------------:|:------------------------------------------------------------------------------:|:---------------------------------------------------:|
 
 
-
-
-
-
-
 | **Persona**             | **Profile**                                                 | **Communication functionality requirements**          | **Devices**         |
-|-------------------------|-------------------------------------------------------------|-------------------------------------------------------|---------------------|
 | **Collaboration**   | <ul><li>Might work with both internal and external customers <li>Might work remotely or onsite<li>Balances time between meetings and productive work<li>Uses Office (PowerPoint, Word, and so on) and third-party apps</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, “puck” speakerphone for home office workers, desktop client, mobile client</ul> |
 | **Field**           | <ul><li>Travels frequently—heavy reliance on email and phone<li>Requires reliable technology across devices<li>Will find a technology that works for them<li>Needs easy access to sales and marketing materials</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, desktop client, mobile client</ul>                                              |
 | **Executive**       | <ul><li>Serves as the voice and brand of the organization, internally and externally<li>Focuses on relationships<li>Has fast-paced, dynamic schedules<li>Uses mobile devices to stay connected<li>Relies on delegates as their “eyes and ears”<li>Spends the majority of their days in meetings or on phone calls</ul> | <ul><li>Delegate synchronization<li>Contact management (internal and external)<li>Audio calling (PC and PSTN)<li>Video calling<li>Multiple device support<li>Application sharing<li>Broad-scale communication tool</ul>                          | <ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</ul>              |
@@ -62,6 +56,8 @@ interactions: conversations, meetings, team and project collaboration, and
 at-scale communications. During this assessment, you need to define how your
 organization maps to each one, as it relates to your journey from Skype for
 Business to Teams.
+
+![./media/Select-users-for-your-Teams-pilot-image4.png](./media/Select-users-for-your-Teams-pilot-image4.png)
 
 Sample scenarios for each interaction type are provided below. Use these samples
 as a starting point, and map your organization’s use cases to these scenarios
