@@ -33,7 +33,12 @@ organizations, helps you categorize your users based on their communication and
 collaboration requirements. This helps you narrow down the list of users you’ll
 select for the pilot as you plan for your broad rollout of Teams over time.
 
-|                     |                                                                              | [./media/image1.png](./media/image1.png)          |                                                                                     |
+
+![./media/Select-users-for-your-Teams-pilot-image3.png](./media/Select-users-for-your-Teams-pilot-image3.png)
+
+test
+
+| | | [./media/Select-users-for-your-Teams-pilot-image3.png](./media/Select-users-for-your-Teams-pilot-image3.png) |                                                                                     |
 |---------------------|------------------------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------------------------------------|
 | **Persona**             | **Profile**                                                                      | **Communication functionality requirements**          | **Devices**                                                                             |
 | **Collaboration**   | <ul><li>Might work with both internal and external customers <li>Might work remotely or onsite<li>Balances time between meetings and productive work<li>Uses Office (PowerPoint, Word, and so on) and third-party apps</ul>                         | <ul><li>Contact management (internal and external)<li>From IM to phone call to screen sharing to conference call<li>Scheduled meetings with app share, OneNote<li>Audio calling and conferencing</ul>        | <ul><li>Headset, “puck” speakerphone for home office workers, desktop client, mobile client</ul> |
