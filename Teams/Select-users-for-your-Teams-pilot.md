@@ -128,8 +128,8 @@ to a large group of participants.
 
 |         |         |         |
 |---------|---------|---------|
-|<br>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<br>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
-|<br>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<br>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
+|<ul>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
+|<ul>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
 
 > [!Important]
 > Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
@@ -143,13 +143,13 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 
 | **Conversations**                   | **Meetings**                   |
 |-------------------------------------|--------------------------------|
-| Find a contact:<ul><li>Internal.<li>External - federated.</ul>Start a chat:<ul><li>With a Teams user.<li>With a Skype for Business user.</ul>Add a participant to an IM.<br/>Add audio.<br/>Add sharing.<br/>Share a file.<br/>Review a chat (history).<br/>Resume a prior chat.<br/>Respond to an incoming IM.<br/>Send an IM on a mobile device.<br/>Respond to an IM on a mobile device. | Schedule a meeting in Outlook.<br/>Schedule a meeting in Teams: <ul><li>Invite internal users.<li>Invite external users.<li>Add audio conferencing.</ul>Join from a PC or mobile device.<br/>Share your desktop.<br/>Share an application.<br/>Give control during a shared session.<br/>Take control back during a shared session.<br/>Mute a participant.<br/>Turn on webcam video.<br/>Switch devices.<br/>Enable a meeting lobby.|
+| <ul><li>Find a contact:<ul><li>Internal.<li>External - federated.</ul><li>Start a chat:<ul><li>With a Teams user.<li>With a Skype for Business user.</ul><li>Add a participant to an IM.<li>Add audio.<li>Add sharing.<li>Share a file.<li>Review a chat (history).<li>Resume a prior chat.<li>Respond to an incoming IM.<li>Send an IM on a mobile device.<li>Respond to an IM on a mobile device. | <ul><li>Schedule a meeting in Outlook.<li>Schedule a meeting in Teams: <ul><li>Invite internal users.<li>Invite external users.<li>Add audio conferencing.</ul><li>Join from a PC or mobile device.<li>Share your desktop.<li>Share an application.<li>Give control during a shared session.<li>Take control back during a shared session.<li>Mute a participant.<li>Turn on webcam video.<li>Switch devices.<li>Enable a meeting lobby.|
 
 | **Calling**                         | **Collaboration**              |
 |-------------------------------------|--------------------------------|
-| Make, receive, and transfer a call:<ul><li>To another Teams user<li>To a Skype for Business user</ul>Check voicemail.<br/>Forward your phone to another number.<br/>Enable simultaneous ring.<br/>Transfer a call to another user.<br/>Put a call on hold.<br/>Speed-dial a contact. | Create a team.<br/>Add a channel.<br/>Add members.<br/>Start a conversation.<br/>Add files.<br/>Add tabs.                 |
+| <ul><li>Make, receive, and transfer a call:<ul><li>To another Teams user<li>To a Skype for Business user</ul><li>Check voicemail.<li>Forward your phone to another number.<li>Enable simultaneous ring.<li>Transfer a call to another user.<li>Put a call on hold.<li>Speed-dial a contact. | <ul><li>Create a team.<li>Add a channel.<li>Add members.<li>Start a conversation.<li>Add files.<li>Add tabs.                 |
 
 |         |         |         |
 |---------|---------|---------|
-|<br>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<br>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
-|<br>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<br>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul>|
+|<ul>![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)|<ul>Decision Points|<ul><li>Personalize the test plan to meet the requirements of your use cases.</li></ul>|
+|<ul>![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)|<ul>Next Steps|<ul><li>Execute your test plan with your pilot users and capture feedback.<li>[Test plan for Audio Conferencing in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing)<li>[Test plan for Phone System with Calling Plans in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system)</ul>|
