@@ -113,7 +113,7 @@ Here's more information about submitting number porting requests for each of the
     
 - **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must [Manually submit a custom service request](manually-submit-a-custom-service-request.md); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOAs [Download a Letter of Authorization (LOA)](download-a-letter-of-authorization-loa.md). See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOA that you need [download the Letter of Authorization (LOA) that you need here](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
     
