@@ -25,8 +25,7 @@ The Data API offers a query interface to the QoE Cube. The Data API is a REST AP
   
 The REST operations are included in the following table.
   
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get Cube](get-cube.md) <br/> |Get the list of available dimensions and measurements.  <br/> |

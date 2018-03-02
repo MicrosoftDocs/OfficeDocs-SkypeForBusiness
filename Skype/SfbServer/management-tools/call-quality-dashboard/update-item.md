@@ -22,8 +22,7 @@ The Update Item operation is part of the Item Service in the Repository API for 
 
 Update Item updates a specific item in the repository.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |PUT  <br/> |https://\<portal\>/QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |

@@ -25,8 +25,7 @@ Get Last Integration Data operation returns the list of last 5 success/failure o
   
 This feature is disabled by default and it needs to be enabled by configuring the Data API.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |

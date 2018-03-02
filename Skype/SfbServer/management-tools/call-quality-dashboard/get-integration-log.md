@@ -25,9 +25,8 @@ Get Integration Log operation returns a list of log entries describing the activ
   
 This operation is disabled by default for security reasons. When disabled, it returns an empty string. To enable this operation, administrators need to configure the web.config for Data API's host web application.
   
-|
-|
-|**Method**|**Request URI**|**HTTP Version**|
+
+|Method|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

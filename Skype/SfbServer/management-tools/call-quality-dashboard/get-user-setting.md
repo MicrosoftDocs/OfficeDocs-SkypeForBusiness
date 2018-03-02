@@ -23,8 +23,7 @@ The Get User Setting operation is part of the User Settings Service in the Repos
 
 Get User Setting returns a single user setting.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |

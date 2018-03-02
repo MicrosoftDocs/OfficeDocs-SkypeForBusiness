@@ -111,8 +111,7 @@ CQD provides QoE data archiving and fast and deep analysis of call quality data.
 
 CQD comes with several components, and it helps to understand the requirements of each component and their relationship with each other to obtain the simplest and best performing deployment of the tool. The following table describes the dependent component for each CQD component.
   
-|
-|
+
 |**Component name**|**Dependent component**|
 |:-----|:-----|
 |QoE Archive  <br/> |Microsoft SQL Server  <br/> |

@@ -23,8 +23,7 @@ The Get Cube operation is part of the Data API for Call Quality Dashboard.
 
 Get Cube operation returns the list of available dimensions and measurements.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |

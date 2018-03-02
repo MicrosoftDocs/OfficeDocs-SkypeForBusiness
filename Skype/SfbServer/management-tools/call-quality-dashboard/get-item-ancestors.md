@@ -23,8 +23,7 @@ The Get Item Ancestors operation is part of the Item Service in the Repository A
 
 Get Item Ancestors returns a specific items ancestors from the repository.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |

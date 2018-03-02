@@ -23,8 +23,6 @@ The Get Item operation is part of the Item Service in the Repository API for Cal
 
 Get Item returns a specific item in the repository.
   
-|
-|
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |

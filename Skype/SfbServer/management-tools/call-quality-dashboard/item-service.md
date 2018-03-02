@@ -42,8 +42,7 @@ Item service includes the following concepts:
     
 The REST operations are included in the following table.
   
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get Items](get-items.md) <br/> |Get Items returns all Items in the repository.  <br/> |

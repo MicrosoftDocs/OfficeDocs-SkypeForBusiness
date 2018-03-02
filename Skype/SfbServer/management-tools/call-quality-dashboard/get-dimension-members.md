@@ -23,8 +23,7 @@ The Get Dimension Members operation is part of the Data API for Call Quality Das
 
 Get Dimension Members operation returns the list of members of a specific dimension. It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |POST  <br/> |https://\<portal\>/QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |

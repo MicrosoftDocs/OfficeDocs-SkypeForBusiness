@@ -77,7 +77,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
     
      ![Running Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
-    Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
+Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
     
 ## Stop the Centralized Logging Service log capture
 <a name="stop"> </a>
@@ -111,23 +111,22 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Show-CsClsLogging
   ```
 
-     ![Windows PowerShell console after calling Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+  ![Windows PowerShell console after calling Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-    The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md).
+  The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md).
     
 3. To stop a currently running logging session with a specific scenario, type:
     
   ```
   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
   ```
-
-    For example:
+  For example:
     
   ```
   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
   ```
 
-    This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
+  This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
     
     > [!NOTE]
     > Logs created during this logging session using the UserReplicator scenario are not deleted. The logging is still available for you to execute searches against using the Search-CsClsLogging command. For details, see [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md). 

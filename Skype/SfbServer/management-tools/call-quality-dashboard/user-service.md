@@ -42,8 +42,6 @@ Unless otherwise noted, the special user IDs can be used at {userId} in URIs.
   
 The REST operations are included in the following table.
   
-|
-|
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get Users](get-users.md) <br/> |Returns a list of users in the repository.  <br/> |

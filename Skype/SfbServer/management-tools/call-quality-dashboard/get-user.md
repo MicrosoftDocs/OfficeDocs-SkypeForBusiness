@@ -23,8 +23,6 @@ The Get Users operation is part of the User Service in the Repository API for Ca
 
 Get User returns a user record from the repository.
   
-|
-|
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |

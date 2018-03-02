@@ -23,8 +23,7 @@ The Get Sub-Items operation is part of the Item Service in the Repository API fo
 
 Get Sub-Items returns a specific Item's sub-items.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem  <br/> |HTTP/1.1  <br/> |

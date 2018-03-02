@@ -23,8 +23,7 @@ The Get User Settings operation is part of the User Settings Service in the Repo
 
 Get User Settings returns a list of settings for a specified user.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |

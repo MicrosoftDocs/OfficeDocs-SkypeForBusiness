@@ -30,9 +30,7 @@ Global settings are the user settings owned by the system user, and all users ha
 Each user can override global settings by creating user settings with the same keys. When application requests the effective user settings, the API returns a set of global settings merged with the user settings, with each user setting superseding the respective global setting if keys are the same. The API can also return just the user settings so that applications can find out which settings are overridden. 
   
 The REST operations are included in the following table.
-  
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get User Settings](get-user-settings.md) <br/> |Get User Settings returns a list of settings for a specified user.  <br/> |

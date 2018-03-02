@@ -35,8 +35,7 @@ Cube deployment gets information from the user on where the QoE Archive is locat
   
 Portal install creates a Repository database that stores the mapping of CQD users to each user's reports/queries. It then sets up an IIS web application which is the dashboard where users can see a pre-defined set of reports as well as customize and create their own queries to visualize data from the cube. The portal install creates two additional web applications that exposes APIs for users to programmatically access the repository and the cube. (These APIs are used internally by the dashboard as well.)
   
-|
-|
+
 |**Phase**|**Steps**|**Roles and group membership**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |Install prerequisite hardware and software.  <br/> |Decide on the CQD configuration, and choose a SQL Server from which to perform the install.  <br/> |Domain user who is a member of the local administrators group.  <br/> |"Pre-install Requirements" section in the deployment documentation.  <br/> |
@@ -62,24 +61,24 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
     
 6. At the QoE Archive Configuration page, provide the following information:
     
-  - **QoE Metrics SQL Server:** SQL Server instance name for where the QoE Metrics DB is located (this will be the data source).
+   - **QoE Metrics SQL Server:** SQL Server instance name for where the QoE Metrics DB is located (this will be the data source).
     
-  - **QoE Archive SQL Server Name:** This is read-only field and fixed to the fully qualified domain name of the local machine. Archive DB can be installed only on the local machine.
+   - **QoE Archive SQL Server Name:** This is read-only field and fixed to the fully qualified domain name of the local machine. Archive DB can be installed only on the local machine.
     
-  - **QoE Archive SQL Server Instance:** A local SQL Server instance name for where the Archive DB is to be created. To use a default SQL Server instance, leave this field blank. To use a named SQL Server instance, specify the instance name (e.g. the name after the "\").
+   - **QoE Archive SQL Server Instance:** A local SQL Server instance name for where the Archive DB is to be created. To use a default SQL Server instance, leave this field blank. To use a named SQL Server instance, specify the instance name (e.g. the name after the "\").
     
-  - **QoE Archive Database:** By default, this option is set to "Create new database". Since Archive DB upgrade is not supported, the only circumstance under which the "Use existing database" option can be used is if the existing Archive database has the same schema as the build to be installed.
+   - **QoE Archive Database:** By default, this option is set to "Create new database". Since Archive DB upgrade is not supported, the only circumstance under which the "Use existing database" option can be used is if the existing Archive database has the same schema as the build to be installed.
     
-  - **Database File Directory:** Path to where the database files (.mdf and .ldf) for the Archive DB should be placed. This should be on a drive (HDD2 in the recommended hardware configuration) separate from the OS. Note that since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
+   - **Database File Directory:** Path to where the database files (.mdf and .ldf) for the Archive DB should be placed. This should be on a drive (HDD2 in the recommended hardware configuration) separate from the OS. Note that since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
     
-  - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used.
+   - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used.
     
     > [!NOTE]
     > The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel. 
   
-  - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Note that since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
+   - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Note that since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
     
-  - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that will be used to run the "QoE Archive Data" step of the SQL Server Agent job (which will run the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a login in the QoE Archive SQL Server Instance).
+   - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that will be used to run the "QoE Archive Data" step of the SQL Server Agent job (which will run the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a login in the QoE Archive SQL Server Instance).
     
     > [!NOTE]
     > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
@@ -91,35 +90,35 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
   
 8. At Cube Configuration page, provide the following information:
     
-  - **QoE Archive SQL Server Name:** This is read-only field and fixed to the fully qualified domain name of the local machine. Cube can be installed only from the machine that has QoE Archive database (Note. Cube itself may be installed on a remote machine. See below)
+   - **QoE Archive SQL Server Name:** This is read-only field and fixed to the fully qualified domain name of the local machine. Cube can be installed only from the machine that has QoE Archive database (Note. Cube itself may be installed on a remote machine. See below)
     
-  - **QoE Archive SQL Server Instance:** SQL Server instance name for where the QoE Archive DB is located. To specify a default SQL Server instance, leave this field blank. To specify a named SQL Server instance, enter the instance name (e.g. the name after the "\"). If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the QoE Archive Configuration page.
+   - **QoE Archive SQL Server Instance:** SQL Server instance name for where the QoE Archive DB is located. To specify a default SQL Server instance, leave this field blank. To specify a named SQL Server instance, enter the instance name (e.g. the name after the "\"). If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the QoE Archive Configuration page.
     
-  - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is to be created. This can be a different machine but the installing user has to be a member of Server administrators of the target SQL Server Analysis Service instance.
+   - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is to be created. This can be a different machine but the installing user has to be a member of Server administrators of the target SQL Server Analysis Service instance.
     
     > [!NOTE]
     >  For more information about configuring Analysis Services Server Administrator Permissions, see[Grant Server Administrator Permissions (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
-  - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used .
+   - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used .
     
     > [!NOTE]
     >  The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel.
   
-  - **Cube User - User Name &amp; Password:** Domain service account name and password (masked) that will trigger the cube processing. If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the Archive Configuration page for the SQL Agent Job User, but we recommend specifying a different domain service account so that Setup can grant the least required privilege to it.
+   - **Cube User - User Name &amp; Password:** Domain service account name and password (masked) that will trigger the cube processing. If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the Archive Configuration page for the SQL Agent Job User, but we recommend specifying a different domain service account so that Setup can grant the least required privilege to it.
     
 9. When clicking next, another round of validation will be performed and any issue will be reported. Upon successful completion of the validation, the installer will go to the Portal Configuration page. 
     
 10. At Portal Configuration page, provide the following information:
     
-  - **QoE Archive SQL Server:** SQL Server instance name for where the QoE Archive database is located. Note that unlike the QoE Archive Configuration page and the Cube Configuration page, the machine name is not fixed and must be provided. If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the QoE Archive Configuration page.
+    - **QoE Archive SQL Server:** SQL Server instance name for where the QoE Archive database is located. Note that unlike the QoE Archive Configuration page and the Cube Configuration page, the machine name is not fixed and must be provided. If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the QoE Archive Configuration page.
     
-  - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is located. If Cube component was selected for the install, this field will be pre-populated with the value provided on the Cube Configuration page.
+    - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is located. If Cube component was selected for the install, this field will be pre-populated with the value provided on the Cube Configuration page.
     
-  - **Repository SQL Server:** SQL Server instance name where the Repository database is to be created. If the SQL Server instance name for where the QoE Archive database is located has been provided earlier in the setup (in other components), this field will be pre-populated with the QoE Archive DB SQL Server instance name. This can be any SQL Server instance.
+    - **Repository SQL Server:** SQL Server instance name where the Repository database is to be created. If the SQL Server instance name for where the QoE Archive database is located has been provided earlier in the setup (in other components), this field will be pre-populated with the QoE Archive DB SQL Server instance name. This can be any SQL Server instance.
     
-  - **Repository Database:** By default the option is set to "Create new database". Since Repository DB upgrade is not supported, the only circumstance under which the "Use existing database" option can be used is if the existing Repository DB has the same schema as the build to be installed.
+    - **Repository Database:** By default the option is set to "Create new database". Since Repository DB upgrade is not supported, the only circumstance under which the "Use existing database" option can be used is if the existing Repository DB has the same schema as the build to be installed.
     
-  - **IIS App Pool User - User Name &amp; Password:** The account that the IIS application pool should execute under. The User Name and Password fields will be grayed out if built-in system accounts are selected. These fields will only be enabled if "Other" is selected from the drop down box so the user can enter the domain service account information.
+    - **IIS App Pool User - User Name &amp; Password:** The account that the IIS application pool should execute under. The User Name and Password fields will be grayed out if built-in system accounts are selected. These fields will only be enabled if "Other" is selected from the drop down box so the user can enter the domain service account information.
     
 11. When clicking next, the final round of validation will be done to ensure that the SQL Server instances are accessible using the credentials provided and that IIS is available on the machine. Upon successful completion of the validation, the installer will proceed with the setup. 
     

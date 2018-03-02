@@ -23,8 +23,6 @@ The Get Items operation is part of the Item Service in the Repository API for Ca
 
 Get Items returns all Items in the repository.
   
-|
-|
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |

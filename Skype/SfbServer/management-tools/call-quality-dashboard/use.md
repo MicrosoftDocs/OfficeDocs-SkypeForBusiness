@@ -97,8 +97,6 @@ The schema for these tables are defined as follows:
   
 **CqdBuilding**
 
-|
-|
 |**Column**|**Data Type**|**Allow Nulls?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |BuildingKey  <br/> |int  <br/> |No  <br/> |Primary key for the CqdBuilding table.  <br/> |
@@ -118,8 +116,6 @@ The schema for these tables are defined as follows:
    
 **CqdNetwork**
 
-|
-|
 |**Column**|**Data Type**|**Allow Nulls?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |Network  <br/> |varchar(25)  <br/> |No  <br/> |Subnet address.  <br/> |

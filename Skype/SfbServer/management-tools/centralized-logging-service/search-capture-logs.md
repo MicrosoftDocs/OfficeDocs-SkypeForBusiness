@@ -55,10 +55,10 @@ The remainder of this topic focuses on how to define a search to optimize your t
   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
   ```
 
-    > [!NOTE]
-    > By default, Search-CsClsLogging sends the results of the search to the console. If you want to save the search results to a file, use -OutputFilePath  _\<string fully qualified file path\>_. To define the -OutputFilePath parameter, supply a path and a filename as part of the parameter in a string format enclosed in quotation marks (for example; C:\LogFiles\SearchOutput.txt). In this example, you must ensure that the directory C:\LogFiles exists and that you have permissions to Read and Write (NTFS permission Modify) files in the folder. The output is appended to and is not overwritten. If you need separate files, define a distinct file name for each search. 
+> [!NOTE]
+> By default, Search-CsClsLogging sends the results of the search to the console. If you want to save the search results to a file, use -OutputFilePath  _\<string fully qualified file path\>_. To define the -OutputFilePath parameter, supply a path and a filename as part of the parameter in a string format enclosed in quotation marks (for example; C:\LogFiles\SearchOutput.txt). In this example, you must ensure that the directory C:\LogFiles exists and that you have permissions to Read and Write (NTFS permission Modify) files in the folder. The output is appended to and is not overwritten. If you need separate files, define a distinct file name for each search. 
   
-    For example:
+For example:
     
   ```
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
@@ -72,7 +72,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
   ```
 
-    For example:
+For example:
     
   ```
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
@@ -112,12 +112,12 @@ The remainder of this topic focuses on how to define a search to optimize your t
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-    > [!NOTE]
-    > The time and date string that you specify can be "date time" or "time date. " The command will parse the string and use the appropriate values for date and time and your locale and culture settings on the machine you are running cmdlet from. 
+> [!NOTE]
+> The time and date string that you specify can be "date time" or "time date. " The command will parse the string and use the appropriate values for date and time and your locale and culture settings on the machine you are running cmdlet from. 
   
 3. If you want to retrieve logs beginning at 11:00:00 AM on 11/20/2012, you define the -StartTime. The default time range for the search is 30 minutes unless you define a specific -EndTime. The resulting search will return logs from the defined computer or pools from 11:00:00 AM to 11:30:00 AM.
     
-    For example:
+For example:
     
   ```
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -125,7 +125,7 @@ The remainder of this topic focuses on how to define a search to optimize your t
 
 4. To conduct a search of logs within a specific period of time, define a -StartTime and an -EndTime. You need logs from 1 PM to 2:45 PM on the computer edge01.contoso.net. 
     
-    For example:
+For example:
     
   ```
   Search-CsClsLogging -Computers "edge01.contoso.net" -StartTime "11/20/2012 1:00:00 PM" -EndTime "11/20/2012 2:45:00 PM" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -141,13 +141,13 @@ The remainder of this topic focuses on how to define a search to optimize your t
   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
   ```
 
-    For example:
+For example:
     
   ```
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
-    The resulting search returns all log entries that have trace components for SIPStack, S4, and UserServices on all computers and pools in your deployment for the past 30 minutes.
+The resulting search returns all log entries that have trace components for SIPStack, S4, and UserServices on all computers and pools in your deployment for the past 30 minutes.
     
 3. To limit the search with the same components to just your Front End pool named pool01.contoso.net, type:
     
@@ -193,11 +193,9 @@ You realize the real benefit of the Centralized Logging Service after you run th
     
 3. Click **Call Flow**.
     
-    > [!NOTE]
-    > If you click on a message or trace that is not part of a call flow, the diagram will not appear and a status message appears at the bottom of Snooper stating "This message is not eligible for callfow". Choose another message or trace and the call flow will appear if the message or trace is part of a call flow. 
+> [!NOTE]
+> If you click on a message or trace that is not part of a call flow, the diagram will not appear and a status message appears at the bottom of Snooper stating "This message is not eligible for callfow". Choose another message or trace and the call flow will appear if the message or trace is part of a call flow. 
   
 4. Move through the Messages or the Trace lines and note whether the call flow diagram updates or changes to display a new diagram.
     
 5. Hover over elements to get information about call messages, endpoints, and other components.
-    
-

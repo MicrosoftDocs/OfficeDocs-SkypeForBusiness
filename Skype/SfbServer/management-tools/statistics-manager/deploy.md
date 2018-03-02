@@ -63,11 +63,11 @@ To prepare the host machine, you will need to install the Redis in-memory cachin
     
     Unsigned installers can be downloaded from [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    If required, signed binaries are available through popular package managers: [Nuget](https://www.nuget.org/packages/Redis-64/) and[Choclatey](https://chocolatey.org/packages/redis-64).
+    If required, signed binaries are available through popular package managers: [Nuget](https://www.nuget.org/packages/Redis-64/) and [Choclatey](https://chocolatey.org/packages/redis-64).
     
-  - Run the provided msi and follow the prompts.
+   - Run the provided msi and follow the prompts.
     
-  - Do not check the box to add a firewall rule.
+   - Do not check the box to add a firewall rule.
     
 2. The Listener service requires a certificate. Microsoft strongly recommends that you have a certificate signed by a trusted certificate authority. 
     
@@ -83,11 +83,11 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
     
 2. On the next page, specify the following information:
     
-  - **Service Password:** This is the password the remote Agents will use to authenticate to the Listener service.
+    - **Service Password:** This is the password the remote Agents will use to authenticate to the Listener service.
     
-  - **Service Port:** This is the HTTPS port number that the Listener will use to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
+    - **Service Port:** This is the HTTPS port number that the Listener will use to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
     
-  - **Certificate Thumbprint:** This is the certificate thumbprint the Listener will use to encrypt the HTTPS protocol. Network Service must have read access to the private key.
+    - **Certificate Thumbprint:** This is the certificate thumbprint the Listener will use to encrypt the HTTPS protocol. Network Service must have read access to the private key.
     
     Click the **Select...** button to choose the thumbprint.
     
@@ -97,9 +97,9 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
   Get-ChildItem -path cert:\LocalMachine\My
   ```
 
-  - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
     
-  - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
     
 3. Click **Install**.
     
@@ -111,11 +111,11 @@ To validate the installation, perform the following steps:
     
 2. To ensure the Listener has installed properly, look for the following:
     
-  - If the healthcheck page shows up, the Listener installation was successful.
+   - If the healthcheck page shows up, the Listener installation was successful.
     
-  - If the KnownServersCount is 1 or higher, then the connection to Redis is established.
+   - If the KnownServersCount is 1 or higher, then the connection to Redis is established.
     
-  - After waiting a few minutes, and after at least one Agent has been installed, check to see that the ValuesWritten counter is incrementing.
+   - After waiting a few minutes, and after at least one Agent has been installed, check to see that the ValuesWritten counter is incrementing.
     
 ### Install the Website
 
@@ -125,11 +125,11 @@ Install the Website on the host machine by running the StatsManWebSite.msi and s
     
 2. On the next page, specify the following information:
     
-  - **Service Port:** This is the port number the web site will listen on. You can change it later by using IIS manager binding. During installation, this port will be allowed through the local firewall.
+   - **Service Port:** This is the port number the web site will listen on. You can change it later by using IIS manager binding. During installation, this port will be allowed through the local firewall.
     
-  - **Install Dir:** This is the directory where the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This is the directory where the binaries will be installed. You may change it from the default by using the **Browse...** button.
     
-  - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
     
 3. Click **Install**.
     
@@ -149,17 +149,17 @@ Install an Agent on each Skype for Business Server that you wish to monitor by r
     
 2. On the next page, specify the following information:
     
-  - **Service Password:** This is the password the remote agent will use to authenticate to the Listener service.
+   - **Service Password:** This is the password the remote agent will use to authenticate to the Listener service.
     
-  - **Service URI:** This is the URI where the Listener resides. It should use the https://name:port format.
+   - **Service URI:** This is the URI where the Listener resides. It should use the https://name:port format.
     
     You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this is not a requirement.
     
-  - **Service Thumbprint:** This is the thumbprint of the SSL certificate the Listener is using. The Agent will use this thumbprint to authenticate to the Listener. (It will not do full certificate validation because it is possible to use self-signed certificates.)
+   - **Service Thumbprint:** This is the thumbprint of the SSL certificate the Listener is using. The Agent will use this thumbprint to authenticate to the Listener. (It will not do full certificate validation because it is possible to use self-signed certificates.)
     
-  - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
     
-  - **AppData Dir:** This is the directory where the Logs folder and the encrypted password.txt file will be stored. You may thanks change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This is the directory where the Logs folder and the encrypted password.txt file will be stored. You may thanks change it from the default. It will not be deleted on uninstall.
     
 3. Click **Install**.
     
@@ -178,19 +178,18 @@ To import the Skype for Business Server topology, follow these steps:
   
 1. On a host that has the Skype for Business Server PowerShell cmdlets:
     
-1. Run the following command: 
+    a. Run the following command: 
     
   ```
   Get-CsPool | Export-Clixml -Path mypoolinfo.xml
   ```
-
-2. Copy the "mypoolinfo.xml" file to the server that runs the Listener.
+    b. Copy the "mypoolinfo.xml" file to the server that runs the Listener.
     
 2. On the host that runs the Listener:
     
-1. Run PowerShell.
+   a. Run PowerShell.
     
-2. Navigate to the directory on which the Listener is installed. The default is: 
+   b. Navigate to the directory on which the Listener is installed. The default is: 
     
   ```
   cd C:\Program Files\Skype for Business Server StatsMan Listener
