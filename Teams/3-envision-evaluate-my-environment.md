@@ -28,15 +28,8 @@ Environmental discovery can also uncover whether you need to [transfer phone
 numbers to
 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 Knowing this will help your organization adjust its project plan accordingly and
-prepare the necessary information for number porting. You can use the [Discovery
-Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_3)
+prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](https://docs.microsoft.com/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout)
 from MyAdvisor to perform environmental discovery.
-
->[!NOTE]
->Although the Discovery Questionnaire was initially written for Skype for
-Business Online, most of the content is relevant to Microsoft Teams. Feel free
-to modify and remove items that aren’t relevant to your project goals.
-
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>

@@ -82,7 +82,9 @@
 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
+## [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+## [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
