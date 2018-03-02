@@ -134,7 +134,8 @@ to a large group of participants.
 > [!Important]
 > Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
 
-### Create a test plan
+Create a test plan
+------------------
 
 After you’ve defined and documented your personas and use cases, the next step is validating that your organization’s expectations and requirements are met through feature, functionality, and usability. You should perform this validation step before you complete the final deployment in your production environment.
 
@@ -147,7 +148,6 @@ A sample test plan for the pilot rollout is provided below. Use the scenarios an
 | **Calling**                         | **Collaboration**              |
 |-------------------------------------|--------------------------------|
 | <input type="checkbox"> Make, receive, and transfer a call:<ul><li><input type="checkbox"> To another Teams user<li><input type="checkbox"> To a Skype for Business user</ul><input type="checkbox"> Check voicemail.<br/><input type="checkbox"> Forward your phone to another number.<br/><input type="checkbox"> Enable simultaneous ring.<br/><input type="checkbox"> Transfer a call to another user.<br/><input type="checkbox"> Put a call on hold.<br/><input type="checkbox"> Speed-dial a contact.   | <input type="checkbox"> Create a team.<br/><input type="checkbox"> Add a channel.<br/><input type="checkbox"> Add members.<br/><input type="checkbox"> Start a conversation.<br/><input type="checkbox"> Add files.<br/><input type="checkbox"> Add tabs.                 |
-
 
 |         |         |         |
 |---------|---------|---------|
