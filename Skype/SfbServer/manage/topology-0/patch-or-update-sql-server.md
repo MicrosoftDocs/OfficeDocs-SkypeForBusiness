@@ -2,7 +2,7 @@
 title: "Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 9/11/2017
 ms.audience: ITPro
 ms.topic: article

@@ -24,7 +24,7 @@ Depending on your existing settings and configuration for your deployment of Sky
   Get-ExecutionPolicy
   ```
 
-    If the value Unrestricted is not returned, you'll need to run this next:
+  If the value Unrestricted is not returned, you'll need to run this next:
     
   ```
   Set-ExecutionPolicy -Unrestricted
@@ -32,9 +32,9 @@ Depending on your existing settings and configuration for your deployment of Sky
 
 2. To effectively configure Skype for Business Server, you'll need to:
     
-  - Be familiar with your Skype for Business Server 2015 topology (such as computer names, service instances, site names, and policies).
+    - Be familiar with your Skype for Business Server 2015 topology (such as computer names, service instances, site names, and policies).
     
-  - Assign some of the users that are created to groups, such as Response Group hunt groups (for example, SIP URIs).
+    - Assign some of the users that are created to groups, such as Response Group hunt groups (for example, SIP URIs).
     
 3. To run a script from command line, you can use:
     

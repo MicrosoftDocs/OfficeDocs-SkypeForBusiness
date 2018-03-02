@@ -2,7 +2,7 @@
 title: "Capacity planning user model usage for Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: concetpual

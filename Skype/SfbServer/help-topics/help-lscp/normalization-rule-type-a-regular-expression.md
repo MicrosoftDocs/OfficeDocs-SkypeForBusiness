@@ -2,7 +2,7 @@
 title: "Normalization Rule Type a Regular Expression"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article

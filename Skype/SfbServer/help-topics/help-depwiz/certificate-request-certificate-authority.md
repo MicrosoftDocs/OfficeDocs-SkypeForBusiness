@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (Certificate Authority)"
-ms.author: v-kehest
-author: v-kehest
-manager: laurawi
+ms.author: jambirk
+author: jambirk
+manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article

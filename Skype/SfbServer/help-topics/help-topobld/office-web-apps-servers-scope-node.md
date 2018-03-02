@@ -2,7 +2,7 @@
 title: "Office Web Apps Servers Scope Node"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article

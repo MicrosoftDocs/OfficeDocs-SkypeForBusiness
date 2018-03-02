@@ -2,7 +2,7 @@
 title: "Translation Rule Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article

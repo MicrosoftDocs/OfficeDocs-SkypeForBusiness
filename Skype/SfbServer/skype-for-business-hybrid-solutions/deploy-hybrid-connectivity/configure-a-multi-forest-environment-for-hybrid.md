@@ -2,7 +2,7 @@
 title: "Configure a multi-forest environment for hybrid Skype for Business"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 3/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article

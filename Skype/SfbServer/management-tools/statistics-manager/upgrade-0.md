@@ -2,7 +2,7 @@
 title: "Upgrade Statistics Manager for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article

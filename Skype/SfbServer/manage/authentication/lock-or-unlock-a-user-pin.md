@@ -2,7 +2,7 @@
 title: "Lock or unlock a user PIN in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article

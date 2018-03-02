@@ -2,7 +2,7 @@
 title: "MonitoredUserSiteLink table"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Mobile Client Create or Edit Push Notification Configuration"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article

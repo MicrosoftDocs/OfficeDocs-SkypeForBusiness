@@ -2,7 +2,7 @@
 title: "Integration with Exchange and SharePoint"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: concetpual

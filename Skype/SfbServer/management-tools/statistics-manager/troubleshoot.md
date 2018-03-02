@@ -2,7 +2,7 @@
 title: "Troubleshoot Statistics Manager for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article

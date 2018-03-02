@@ -2,7 +2,7 @@
 title: "Changes made by Grant-CsSetupPermission in Skype for Business Server"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article

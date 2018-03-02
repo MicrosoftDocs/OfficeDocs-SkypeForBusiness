@@ -2,7 +2,7 @@
 title: "Plan for Group Call Pickup in Skype for Business 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: concetpual

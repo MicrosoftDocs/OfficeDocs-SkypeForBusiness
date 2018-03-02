@@ -2,7 +2,7 @@
 title: "Manage dial-in conferencing in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article

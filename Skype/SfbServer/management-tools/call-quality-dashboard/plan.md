@@ -2,7 +2,7 @@
 title: "Plan for Call Quality Dashboard for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article

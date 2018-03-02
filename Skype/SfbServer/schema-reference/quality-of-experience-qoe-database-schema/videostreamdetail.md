@@ -2,7 +2,7 @@
 title: "VideoStreamDetail view"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article

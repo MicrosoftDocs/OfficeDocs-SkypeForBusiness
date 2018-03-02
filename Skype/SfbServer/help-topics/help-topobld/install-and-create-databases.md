@@ -2,7 +2,7 @@
 title: "Install and Create Databases"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article

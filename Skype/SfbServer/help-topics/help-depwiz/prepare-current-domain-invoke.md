@@ -1,8 +1,8 @@
 ---
 title: "Prepare Current Domain (Invoke)"
-ms.author: v-kehest
-author: v-kehest
-manager: laurawi
+ms.author: jambirk
+author: jambirk
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article

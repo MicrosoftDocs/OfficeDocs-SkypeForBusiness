@@ -24,7 +24,7 @@ The Skype for Business Server 2015 Stress and Performance Tool includes tools th
     
 - Measure the performance of your Skype for Business Server deployments
     
-You would typically use this tool after you use the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md) to design the topology, and refining the topology with the[Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md). 
+You would typically use this tool after you use the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md) to design the topology, and refining the topology with the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md). 
   
 ## Tests
 

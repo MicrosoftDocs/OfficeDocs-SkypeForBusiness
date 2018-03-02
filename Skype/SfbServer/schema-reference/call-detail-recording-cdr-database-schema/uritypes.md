@@ -2,7 +2,7 @@
 title: "UriTypes table"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article

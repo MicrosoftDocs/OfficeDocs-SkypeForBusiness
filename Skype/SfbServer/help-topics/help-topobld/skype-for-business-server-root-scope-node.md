@@ -2,7 +2,7 @@
 title: "Skype for Business Server Root Scope Node"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 8/10/2015
 ms.audience: ITPro
 ms.topic: article

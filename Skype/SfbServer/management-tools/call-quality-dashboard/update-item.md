@@ -2,7 +2,7 @@
 title: "Update Item"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Configure PIN-less meeting join in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Add Persistent Chat Next Hop Page"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 4/14/2015
 ms.audience: ITPro
 ms.topic: article

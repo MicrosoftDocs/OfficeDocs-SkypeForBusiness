@@ -2,7 +2,7 @@
 title: "Plan for Busy Options for Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: concetpual

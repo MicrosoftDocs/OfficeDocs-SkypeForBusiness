@@ -2,7 +2,7 @@
 title: "Response Groups Create New or Edit Existing Agent Group"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Mediation Service Settings Expander"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Plan for Shared Line Appearance in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 3/21/2016
 ms.audience: ITPro
 ms.topic: concetpual

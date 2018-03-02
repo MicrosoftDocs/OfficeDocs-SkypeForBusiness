@@ -2,7 +2,7 @@
 title: "MediaList table"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 7/12/2016
 ms.audience: ITPro
 ms.topic: article

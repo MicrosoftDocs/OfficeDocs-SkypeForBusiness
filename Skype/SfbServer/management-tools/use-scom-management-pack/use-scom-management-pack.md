@@ -25,11 +25,11 @@ This information was written based on version 9319.0 of the Monitoring Pack for 
 
  To configure your Skype for Business Server 2015 infrastructure to work with System Center Operations Manager, you must do three things:
   
-Identify and [Configure the Primary Management Server](configure-the-primary.md). To do this, you must install System Center Operations Manager 2012 SP1 or R2. 
+Identify and  [Configure the Primary Management Server](configure-the-primary.md). To do this, you must install System Center Operations Manager 2012 SP1 or R2. 
   
- Identify and[Configure the Skype for Business Server computers that will be monitored](configure-computers-to-monitor.md). To monitor a Skype for Business Server computer by using System Center Operations Manager, you must install the System Center Operations Manager agent files, and configure each server to act as a proxy. 
+ Identify and [Configure the Skype for Business Server computers that will be monitored](configure-computers-to-monitor.md). To monitor a Skype for Business Server computer by using System Center Operations Manager, you must install the System Center Operations Manager agent files, and configure each server to act as a proxy. 
   
- Identify and[Install and configure watcher nodes](watcher-nodes.md). Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions—Windows PowerShell cmdlets that verify that key Skype for Business Server components, such as the ability to log on to the system or the ability to exchange instant messages, are working as expected. 
+ Identify and [Install and configure watcher nodes](watcher-nodes.md). Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions—Windows PowerShell cmdlets that verify that key Skype for Business Server components, such as the ability to log on to the system or the ability to exchange instant messages, are working as expected. 
   
 ## System Center Operations Manager Root Management Server and Agent Support
 

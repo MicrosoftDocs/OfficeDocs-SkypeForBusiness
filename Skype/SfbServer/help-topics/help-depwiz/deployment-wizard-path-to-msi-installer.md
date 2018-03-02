@@ -2,7 +2,7 @@
 title: "Deployment Wizard Path to MSI installer"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article

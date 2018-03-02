@@ -2,7 +2,7 @@
 title: "Create or modify a translation rule for called ID presentation in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article

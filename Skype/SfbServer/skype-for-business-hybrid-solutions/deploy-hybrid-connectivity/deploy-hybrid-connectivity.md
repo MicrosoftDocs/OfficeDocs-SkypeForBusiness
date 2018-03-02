@@ -2,7 +2,7 @@
 title: "Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article

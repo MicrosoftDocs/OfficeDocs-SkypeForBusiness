@@ -2,7 +2,7 @@
 title: "Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015"
 ms.author: serdars
 author: SerdarSoysal
-manager: laurawi
+manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: concetpual

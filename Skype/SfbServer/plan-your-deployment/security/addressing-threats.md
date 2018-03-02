@@ -2,7 +2,7 @@
 title: "Addressing threats to your core infrastructure for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 6/22/2016
 ms.audience: ITPro
 ms.topic: concetpual

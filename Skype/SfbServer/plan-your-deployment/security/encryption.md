@@ -2,7 +2,7 @@
 title: "Encryption for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 9/15/2016
 ms.audience: ITPro
 ms.topic: concetpual

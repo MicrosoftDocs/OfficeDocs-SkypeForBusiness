@@ -2,7 +2,7 @@
 title: "Requirements for your Skype for Business environment"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: concetpual

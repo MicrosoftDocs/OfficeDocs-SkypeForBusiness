@@ -2,7 +2,7 @@
 title: "Back End Server high availability in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: concetpual

@@ -2,7 +2,7 @@
 title: "Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article

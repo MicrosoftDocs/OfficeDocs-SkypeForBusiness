@@ -2,7 +2,7 @@
 title: "SIP Federated Providers Create New or Edit Existing"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article

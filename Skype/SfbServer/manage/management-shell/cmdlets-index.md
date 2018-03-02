@@ -2,7 +2,7 @@
 title: "Skype for Business Server cmdlets index"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article

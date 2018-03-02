@@ -2,7 +2,7 @@
 title: "Add Persistent Chat File Store"
 ms.author: crowe
 author: CarolynRowe
-manager: laurawi
+manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article

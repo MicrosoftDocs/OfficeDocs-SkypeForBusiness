@@ -2,7 +2,7 @@
 title: "Mediation Collocation (Planning Tool)"
 ms.author: heidip
 author: microsoftheidi
-manager: laurawi
+manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article

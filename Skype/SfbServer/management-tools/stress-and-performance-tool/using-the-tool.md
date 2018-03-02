@@ -440,7 +440,7 @@ Here's a list of key performance counters:
 |Calls Succeeded  <br/> |Total number of DLX web service requests that returned a successful response code.  <br/> |
 |Calls Failed  <br/> |Total number of DLX web service requests that returned an error response code.  <br/> |
    
- **:**
+
   
 > [!NOTE]
 > The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled. 
