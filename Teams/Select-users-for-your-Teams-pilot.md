@@ -70,6 +70,7 @@ for your journey to Teams.
 build rapport.
 
 **Sample use cases:**
+![./media/Select-users-for-your-Teams-pilot-image5.png](./media/Select-users-for-your-Teams-pilot-image5.png)
 
 **Common characteristics:**
 
@@ -87,6 +88,7 @@ build rapport.
 through interactive conversation and brainstorming.
 
 **Sample use cases:**
+![./media/Select-users-for-your-Teams-pilot-image6.png](./media/Select-users-for-your-Teams-pilot-image6.png)
 
 **Common characteristics:**
 
@@ -108,6 +110,7 @@ through interactive conversation and brainstorming.
 accessibility to drive team activity and productivity.
 
 **Sample use cases:**
+![./media/Select-users-for-your-Teams-pilot-image7.png](./media/Select-users-for-your-Teams-pilot-image7.png)
 
 **Common characteristics:**
 
@@ -127,6 +130,7 @@ accessibility to drive team activity and productivity.
 to a large group of participants.
 
 **Sample use cases:**
+![./media/Select-users-for-your-Teams-pilot-image8.png](./media/Select-users-for-your-Teams-pilot-image8.png)
 
 **Common characteristics:**
 
