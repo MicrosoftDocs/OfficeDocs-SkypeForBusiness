@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
