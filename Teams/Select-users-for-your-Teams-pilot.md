@@ -65,7 +65,6 @@ as a starting point, and map your organization’s use cases to these scenarios
 for your journey to Teams.
 
 ### Scenario 01 – Conversations (ad hoc)
-
 **Scenario theme:** Accelerate communications to maintain project momentum and
 build rapport.
 
@@ -80,7 +79,6 @@ build rapport.
 -   Chat-driven or phone call–driven
 
 ### Scenario 02—Meetings
-
 **Scenario theme:** Facilitate discussions and dissemination of information
 through interactive conversation and brainstorming.
 
@@ -97,7 +95,6 @@ through interactive conversation and brainstorming.
 -   Multiple presenters or contributors
 
 ### Scenario 03 – Collaboration
-
 **Scenario theme:** Expedite information-sharing and simplify information
 accessibility to drive team activity and productivity.
 
@@ -113,7 +110,6 @@ accessibility to drive team activity and productivity.
 -   Synchronous or asynchronous communication (chats, meetings)
 
 ### Scenario 04 – At-scale communications
-
 **Scenario theme:** Broadcast a message in a structured and professional manner
 to a large group of participants.
 
@@ -131,23 +127,10 @@ to a large group of participants.
 >[!Note]
 >You can find more than two-hundred use cases and scenarios, with detailed explanations and videos to help you identify how Office 365 solutions can help you achieve  your business goals, in the [Office 365 Productivity Library](http://aka.ms/productivitylibrary).
 
-| [./media/image2.png](./media/image2.png) |
-|------------------------------------------|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image7.png
-
-    Decision points
-
-    Define 5–10 use cases to serve as a guideline for your pilot users.
-
-| [./media/image3.png](./media/image3.png) | Next steps | Map use cases to your personas. |   |
-|------------------------------------------|------------|---------------------------------|---|
-
-
-~   https://docs.microsoft.com/en-us/MicrosoftTeams/media/audio_conferencing_image9.png
-
--   Identify and note your pilot users.
+|         |         |         |
+|---------|---------|---------|
+|![./media/Select-users-for-your-Teams-pilot-image9.png](./media/Select-users-for-your-Teams-pilot-image9.png)|Decision Points|<ul><li>Define 5–10 use cases to serve as a guideline for your pilot users.</li></ul>|
+|![./media/Select-users-for-your-Teams-pilot-image10.png](./media/Select-users-for-your-Teams-pilot-image10.png)|Next Steps|<ul><li>Map use cases to your personas.<li>Identify and note your pilot users.</ul>|
 
 > [!Important]
 > Review the [Teams roadmap](https://aka.ms/skype2teamsroadmap) when you define your pilot phases and users. Ensure that your users don’t depend on any feature that hasn’t been released yet.
