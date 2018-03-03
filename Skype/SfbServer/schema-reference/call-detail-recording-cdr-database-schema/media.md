@@ -21,8 +21,8 @@ Each record represents one media type used in a peer-to-peer session. One sessio
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**MediaId** <br/> |tinyint  <br/> |Primary, Foreign  <br/> |Unique number identifying this media type. See the [MediaList table](medialist.md) for more information. <br/> |
 |**StartTime** <br/> |datetime  <br/> |Primary  <br/> |This is the time that a media request was sent out, not the real media start time. **StartTime** includes the session setup time. <br/> |
 |**EndTime** <br/> |datetime  <br/> ||This is the end time of the session.  <br/> |

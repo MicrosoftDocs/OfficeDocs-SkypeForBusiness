@@ -25,9 +25,9 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
     
     If you want to deploy a Video Interop Server pool to provide high availability, select **This pool has multiple servers**. Keep in mind with this option that: 
     
-  - You must deploy DNS load balancing to support Video Interop Server pools. 
+    - You must deploy DNS load balancing to support Video Interop Server pools. 
     
-  - On the next page, for the **Define the computers in this pool** item, enter the **Computer FQDN** of each server in the pool into the text field, and then click **Add**. Repeat this step to add another Video Interop Server to the pool. When you have defined all the computers in the pool, press **Next**.
+   - On the next page, for the **Define the computers in this pool** item, enter the **Computer FQDN** of each server in the pool into the text field, and then click **Add**. Repeat this step to add another Video Interop Server to the pool. When you have defined all the computers in the pool, press **Next**.
     
     If you want to deploy only one Video Interop Server in the pool because you do not require high availability, then select **This pool has one server** and press **Next**.
     
@@ -54,8 +54,8 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
   
 11. Publish the Topology Document as described in [Create and publish new topology in Skype for Business Server 2015](../../deploy-1/install-0/create-and-publish-new-topology.md).
     
-> [!NOTE]
-> To improve resiliency, you may want to configure a second Video Interop Server or VIS pool, or a backup Front End pool. See [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) for more information.
+    > [!NOTE]
+    > To improve resiliency, you may want to configure a second Video Interop Server or VIS pool, or a backup Front End pool. See [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) for more information.
   
 All tasks performed using Topology Builder should now be complete. Proceed to installing the software on the new VIS server or servers.
 ## See also

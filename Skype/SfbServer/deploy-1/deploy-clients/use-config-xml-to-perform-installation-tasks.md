@@ -52,7 +52,13 @@ The Config.xml elements most commonly used for Skype for Business installation a
 The following example shows a Config.xml file for a typical silent installation of Skype for Business. 
   
 ```
-<Configuration Product="Lync"> <OptionState Id="LOBiMain" State="Absent" Children="Force" /> <Display Level="None" CompletionNotice="No" AcceptEula="Yes" /> <Logging Type="verbose" Path="%temp%" Template="LyncSetupVerbose(*).log" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <DistributionPoint Location="\\server\share\Skype15" /> </Configuration>
+<Configuration Product="Lync"> 
+  <OptionState Id="LOBiMain" State="Absent" Children="Force" /> 
+  <Display Level="None" CompletionNotice="No" AcceptEula="Yes" /> 
+  <Logging Type="verbose" Path="%temp%" Template="LyncSetupVerbose(*).log" />
+  <Setting Id="SETUP_REBOOT" Value="Never" /> 
+  <DistributionPoint Location="\\server\share\Skype15" /> 
+</Configuration>
 ```
 
 Detailed information about using the Config.xml file to perform Office installation and maintenance tasks is available at [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514).

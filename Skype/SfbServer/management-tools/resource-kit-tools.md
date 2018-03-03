@@ -1524,7 +1524,7 @@ This tool allows the administrator to perform the following operations:
 4. Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
     
 > [!NOTE]
-> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the[Move-CsUser](../manage/management-shell/move-csuser.md) cmdlet.
+> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](../manage/management-shell/move-csuser.md) cmdlet.
   
 The tool deletes meeting data only for meetings that are inactive. Active meetings (or meetings in sessions) cannot be deleted.
   

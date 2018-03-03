@@ -59,7 +59,7 @@ $ExumTest.ToXML() | Out-File C:\Logs\ExumTest.xml
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The **Test-CsExUMConnectivity** cmdlet verifies that the specified user can connect to the Exchange unified messaging service. Note that this cmdlet only verifies that a connection can be made to the service; it does not test the service itself. To test the unified messaging service (by running a synthetic transaction cmdlet that actually leaves a voice mail message in a user's mailbox) use the[Test-CsExUMVoiceMail](test-csexumvoicemail.md) cmdlet.
+The **Test-CsExUMConnectivity** cmdlet verifies that the specified user can connect to the Exchange unified messaging service. Note that this cmdlet only verifies that a connection can be made to the service; it does not test the service itself. To test the unified messaging service (by running a synthetic transaction cmdlet that actually leaves a voice mail message in a user's mailbox) use the [Test-CsExUMVoiceMail](test-csexumvoicemail.md) cmdlet.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Test-CsExUMConnectivity** cmdlet are not available in the Skype for Business Server Control Panel.
   

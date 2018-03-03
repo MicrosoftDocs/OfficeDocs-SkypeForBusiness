@@ -16,7 +16,7 @@ description: "Summary: Learn how to upgrade from Lync Server 2013 to Skype for B
 
 # Upgrade to Skype for Business Server 2015
  
-**Summary:** Learn how to upgrade from Lync Server 2013 to Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to upgrade from Lync Server 2013 to Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the  [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Use the procedures in this document to upgrade from Lync Server 2013 to Skype for Business Server 2015 by using the Skype for Business Server Topology Builder and the new In-Place Upgrade feature. If you want to upgrade from Lync Server 2010 or Office Communications Server 2007 R2, see [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
   
@@ -90,13 +90,13 @@ If you use the following steps, archiving and monitoring for the selected pool a
     
 2. Remove the dependency to the Lync Server 2013 Archiving and Monitoring stores. 
     
-  - Go to **Action** > **Edit properties**.
+   - Go to **Action** > **Edit properties**.
     
-  - Clear the **Archiving** check box.
+   - Clear the **Archiving** check box.
     
      ![Screen shot of Archiving checkbox on Edit properties dialog box.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-  - Clear the **Monitoring** check box.
+   - Clear the **Monitoring** check box.
     
      ![Screen shot of Edit properties dialog that showsr Monitoring checkbox.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
@@ -114,13 +114,13 @@ If you use the following steps, archiving and monitoring will stop in the previo
     
 2. Remove the dependency to the Lync Server 2013 Archiving and Monitoring stores. 
     
-  - Go to **Action** > **Edit properties**.
+   - Go to **Action** > **Edit properties**.
     
-  - Clear the **Archiving** check box.
+   - Clear the **Archiving** check box.
     
      ![Screen shot of Archiving checkbox on Edit properties dialog box.](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-  - Clear the **Monitoring** check box.
+   - Clear the **Monitoring** check box.
     
      ![Screen shot of Edit properties dialog that showsr Monitoring checkbox.](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
@@ -130,21 +130,21 @@ If you use the following steps, archiving and monitoring will stop in the previo
   
 4. Create a new SQL store for Archiving. 
     
-  - Select the pool and **Action** > **Edit properties**. 
+   - Select the pool and **Action** > **Edit properties**. 
     
-  -  Select the **Archiving** check box.
+   -  Select the **Archiving** check box.
     
-  - Click **New**.
+   - Click **New**.
     
      ![Screen shot of Edit properties dialog that show New button under Archiving section.](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
   
 5. Create a new SQL store for Monitoring. 
     
-  - Select the pool and **Action** > **Edit properties**. 
+   - Select the pool and **Action** > **Edit properties**. 
     
-  -  Select the **Monitoring** check box.
+   -  Select the **Monitoring** check box.
     
-  - Click **New**.
+   - Click **New**.
     
      ![Screen shot of Edit properties dialog that show New button under Monitoring section.](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
@@ -226,7 +226,7 @@ If the In-Place Upgrade fails, you might see a message similar to what's in the 
   
 Review the full message at the bottom of the page to help you troubleshoot the issue. Click **View logs** to get more detail.
   
-If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installing missing prerequisites**, make sure the server has all the latest Windows Server, Lync Server, and SQL Server updates applied, and all the required software and roles are installed. For a list of what's required, see [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and[Install prerequisites for Skype for Business Server 2015](install-0/install-prerequisites.md).
+If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installing missing prerequisites**, make sure the server has all the latest Windows Server, Lync Server, and SQL Server updates applied, and all the required software and roles are installed. For a list of what's required, see [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype for Business Server 2015](install-0/install-prerequisites.md).
   
 ## See also
 

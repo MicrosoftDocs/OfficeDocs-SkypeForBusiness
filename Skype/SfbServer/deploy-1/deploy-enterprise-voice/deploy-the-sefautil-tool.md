@@ -36,15 +36,15 @@ You can run the SEFAUtil tool in any Front End pool in your deployment.
     
 3. The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil. At the command line, run:
     
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
 4. Define the SEFAUtil tool as a trusted application. At the command line, run:
     
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > You can use a different port if needed. 
@@ -67,6 +67,6 @@ You can run the SEFAUtil tool in any Front End pool in your deployment.
   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
   ```
 
-    The call forwarding settings for the user will be displayed.
+The call forwarding settings for the user will be displayed.
     
 

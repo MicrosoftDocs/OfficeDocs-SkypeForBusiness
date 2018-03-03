@@ -20,11 +20,11 @@ Note that the IsUser1IntegratedWithDeskPhone and the IsUser2IntegratedWithDeskPh
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session.* See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session.* See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> ||A GUID to correlate multiple sessions.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Foreign  <br/> |ID number to identify the dialog which was replaced by current session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |ID number to identify the session. Used in conjunction with **ReplacesDialogIdTime** to uniquely identify a session that is replaced by this session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |ID number to identify the session. Used in conjunction with **ReplacesDialogIdTime** to uniquely identify a session that is replaced by this session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**User1Id** <br/> |int  <br/> |Foreign  <br/> |ID of one user in the session. See the [Users table](users.md) for more information. <br/> |
 |**User2Id** <br/> |int  <br/> |Foreign  <br/> |ID of the other user in the session. See the [Users table](users.md) for more information. <br/> |
 |**User1EndpointId** <br/> |uniqueIdentifier  <br/> ||GUID that identifies the endpoint used by the first user in the session.  <br/> This field was introduced in Microsoft Lync Server 2013.  <br/> |

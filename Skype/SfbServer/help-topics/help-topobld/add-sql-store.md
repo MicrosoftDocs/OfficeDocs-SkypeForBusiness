@@ -22,6 +22,6 @@ Specify the fully qualified domain name (FQDN) of the SQL Server that will host 
   
 Specify the instance of SQL Server that will host the data. You can specify the default instance, or you can specify a named instance.
   
-Collocation of databases in specific instances should be very clearly understood. For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](http://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and[Server Collocation in a Standard Edition Server Deployment](http://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
+Collocation of databases in specific instances should be very clearly understood. For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](http://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and [Server Collocation in a Standard Edition Server Deployment](http://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
   
 

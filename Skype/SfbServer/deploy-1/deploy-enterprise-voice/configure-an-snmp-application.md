@@ -31,9 +31,9 @@ If an SNMP application is installed and the Location Information service fails t
     
 2. Run the following cmdlet to configure the URL for the SNMP application. 
     
-  ```
-  Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
-  ```
+   ```
+   Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
+   ```
 
 ## See also
 

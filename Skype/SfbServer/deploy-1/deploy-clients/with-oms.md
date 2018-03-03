@@ -37,7 +37,7 @@ Once that work is done, you can use this information to dispatch technicians and
 ## Configure devices for OMS Management
 <a name="config_devices"> </a>
 
-For each SRS device, follow the instructions found in[Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).
+For each SRS device, follow the instructions found in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents).
   
 ## Configure OMS to collect device event logs
 <a name="config_devices"> </a>
@@ -56,8 +56,6 @@ Use the mappings shown below, OMS will automatically add the _CF when defining t
   
 **Custom fields mapping**
 
-|
-|
 |**JSON field**|**OMS custom field**|
 |:-----|:-----|
 |Description  <br/> |SRSEventDescription_CF  <br/> |
@@ -85,47 +83,47 @@ Once data is collected and custom fields are mapped, you can use OMS View Design
     
 2. Assign Group Title 
     
-  ```
-  SRS v2
-  ```
+   ```
+   SRS v2
+   ```
 
 3. Check the new group box
     
 4. Add the Tile legend text
     
-  ```
-  All healthy devices (Heartbeat sent in last 10 minutes)
-  ```
+   ```
+   All healthy devices (Heartbeat sent in last 10 minutes)
+   ```
 
 5. Enter the tile query
     
-  ```
-  Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" TimeGenerated >NOW-10MINUTES|measure count() by SRSDisplayName_CF 
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" TimeGenerated >NOW-10MINUTES|measure count() by SRSDisplayName_CF 
+   ```
 
 6. Enter the list query
     
-  ```
-  Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by SRSDisplayName_CF |Where LastHB>NOW-10MINUTES
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by SRSDisplayName_CF |Where LastHB>NOW-10MINUTES
+   ```
 
 7. Define column titles name
     
-  ```
-  Display Name
-  ```
+   ```
+   Display Name
+   ```
 
 8. Define Column titles value
     
-  ```
-  Last HB
-  ```
+   ```
+   Last HB
+   ```
 
 9. Enter Navigation query
     
-  ```
-  {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat"|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-  ```
+   ```
+   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat"|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
+   ```
 
 ### Create the tile that shows devices with connectivity issues
 
@@ -135,151 +133,151 @@ Once data is collected and custom fields are mapped, you can use OMS View Design
     
 2. Assign Group Title 
     
-  ```
-  SRS v2
-  ```
+   ```
+   SRS v2
+   ```
 
 3. Do not check the new group box. You already did this when creating tile 1, and don't need to do it again.
     
 4. Add the Tile legend text
     
-  ```
-  Devices no longer sending Heartbeat messages
-  ```
+   ```
+   Devices no longer sending Heartbeat messages
+   ```
 
 5. Enter the tile query
     
-  ```
-  Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
+   ```
 
 6. Enter the list query
     
-  ```
-  Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |measure max(TimeGenerated) as LastHB by Computer|Where LastHB<NOW-10MINUTES
+   ```
 
 7. Define column titles name
     
-  ```
-  Device Name
-  ```
+   ```
+   Device Name
+   ```
 
 8. Define Column titles Value 
     
-  ```
-  Last HB
-  ```
+   ```
+   Last HB
+   ```
 
 9. Enter Navigation query
     
-  ```
-  {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-  ```
+   ```
+   {selected item} EventLog:"Skype Room System" SRSOperationName_CF:"Heartbeat" |Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
+   ```
 
 ### List devices with a hardware error
 
 1. Define the case: 
     
-    This tile displays all devices that sent a message indicating a one or more hardware component issues in the last 10 minutes. 
+   This tile displays all devices that sent a message indicating a one or more hardware component issues in the last 10 minutes. 
     
 2. Assign Group Title 
     
-  ```
-  SRS v2
-  ```
+   ```
+   SRS v2
+   ```
 
 3. Do not check the new group box. You already did this when creating tile 1, and don't need to do it again.
     
 4. Tile legend: 
     
-  ```
-  Devices with a Hardware Error
-  ```
+   ```
+   Devices with a Hardware Error
+   ```
 
 5. Tile Query
     
-  ```
+   ```
    Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure count() by SRSDisplayName_CF
-  ```
+   ```
 
 6. List query:
     
-  ```
-  Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by SRSDisplayName_CF
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:3001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by SRSDisplayName_CF
+   ```
 
 7. Column titles Name: 
     
-  ```
-  Display Name
-  ```
+   ```
+   Display Name
+   ```
 
 8. Column titles Value: 
     
-  ```
-  Last Error
-  ```
+   ```
+   Last Error
+   ```
 
 9. Navigation query: 
     
-  ```
-  {selected item}  EventLevelName:Error EventID:3001|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-  ```
+   ```
+   {selected item}  EventLevelName:Error EventID:3001|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
+   ```
 
 ### List devices with an App error
 
 1. Define the case: 
     
-    This tile displays all SRS devices that report 1 or more app component errors within the last 10 minutes
+   This tile displays all SRS devices that report 1 or more app component errors within the last 10 minutes
     
 2. Assign Group Title 
     
-  ```
-  SRS v2
-  ```
+   ```
+   SRS v2
+   ```
 
 3. Do not check the new group box. You already did this when creating tile 1, and don't need to do it again.
     
 4. Tile legend: 
-    
+   ``` 
     Device with App Errors (in prior 10 minutes)
-    
+   ``` 
 5. Tile Query: 
     
-  ```
-  Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure count() by Computer
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure count() by Computer
+   ```
 
 6. List query: 
     
-  ```
-  Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by Computer
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" EventLevelName:Error EventID:2001 TimeGenerated>NOW-10MINUTES|measure max(TimeGenerated) by Computer
+   ```
 
 7. Column titles Name: 
     
-  ```
-  Device Name
-  ```
+   ```
+   Device Name
+   ```
 
 8. Column titles Value: 
     
-  ```
-  Last Error
-  ```
+   ```
+   Last Error
+   ```
 
 9. Navigation query:
     
-  ```
+   ```
    {selected item} EventLevelName:Error|Dedup SRSDisplayName_CF|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-  ```
+   ```
 
 ### List devices requiring a restart
 
 1. Define the case: 
     
-    This tile displays all SRS devices that have been restarted in the past 24 hours and number of restarts
+   This tile displays all SRS devices that have been restarted in the past 24 hours and number of restarts
     
 2. Assign Group Title 
     
@@ -291,39 +289,39 @@ Once data is collected and custom fields are mapped, you can use OMS View Design
     
 4. Tile legend: 
     
-  ```
-  Devices with App restarted (past 24 hours)
-  ```
+   ```
+   Devices with App restarted (past 24 hours)
+   ```
 
 5. Tile Query: 
     
-  ```
-  Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count() by Computer
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count() by Computer
+   ```
 
 6. List query: 
     
-  ```
-  Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count(EventID) by SRSDisplayName_CF
-  ```
+   ```
+   Type:Event EventLog:"Skype Room System" EventID:4000 TimeGenerated>NOW-24HOURS|measure count(EventID) by SRSDisplayName_CF
+   ```
 
 7. Column titles Name: 
     
-  ```
-  Display Name
-  ```
+   ```
+   Display Name
+   ```
 
 8. Column titles Value: 
     
-  ```
-  Number of restarts
-  ```
+   ```
+   Number of restarts
+   ```
 
 9. Navigation query: 
     
-  ```
-  {selected item} EventID:4000 TimeGenerated >NOW-24HOURS|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
-  ```
+   ```
+   {selected item} EventID:4000 TimeGenerated >NOW-24HOURS|Select TimeGenerated, Computer, SRSOperationName_CF, SRSOperationResult_CF,SRSEventDescription_CF, SRSAppVersion_CF, SRSDisplayName_CF, SRSAlias_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF
+   ```
 
 That completes view creation. The alerts currently available are all reflected in one or more of these tiles.
 ## See also

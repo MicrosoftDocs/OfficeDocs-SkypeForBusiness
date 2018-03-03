@@ -346,7 +346,7 @@ Click **Generate Files** and select the folder where you want to generate the co
 ## Run LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and[Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
+You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and [Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
   
 ### Running the Skype for Business Server 2015 Stress and Performance tool
 

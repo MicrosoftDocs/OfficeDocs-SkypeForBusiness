@@ -19,7 +19,7 @@ description: "Summary: Learn how to assign an archiving policy to users in Skype
 If you have created one or more user policies for archiving for users homed on Skype for Business Server 2015, you can implement archiving support for specific users by applying the appropriate policies to those users or user groups. For example, if you create a policy to support archiving of internal communications, you can apply it to at least one user or user group to support archiving of the user's Skype for Business Server 2015 communications.
   
 > [!NOTE]
-> If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and[Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy-1/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy-1/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## Apply a user policy by using the Control Panel
 

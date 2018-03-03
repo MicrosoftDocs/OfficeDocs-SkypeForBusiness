@@ -122,17 +122,17 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
   
 1. Open a Skype for Business Server Management Shell window and run the following cmdlet:
     
-  ```
-  Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
+   ```
+   Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
 
-  ```
+   ```
 
     For example:
     
-  ```
-  Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
+   ```
+   Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
 
-  ```
+   ```
 
     You will see the following:
     
@@ -215,33 +215,33 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
 
 2. Verify the following:
     
-  - Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc. 
+    - Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc. 
     
-  - Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc. 
+    - Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc. 
     
-  - Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc. 
+    - Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc. 
     
-  - Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup 
+   - Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup 
     
-  - Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers. The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers. 
+   - Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers. The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers. 
     
-  - Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers. 
+   - Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers. 
     
-  - Note that the user account that the SQL instance uses to run must have read/write permission to the file share. If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.
+   - Note that the user account that the SQL instance uses to run must have read/write permission to the file share. If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.
     
 3. Type A and press ENTER.
     
     The mirroring will be configured.
     
- **Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store. If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.
+    **Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store. If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.
   
-For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.
+    For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.
   
- `-ExcludeDatabaseList rtcab,rtcxds`
+    `-ExcludeDatabaseList rtcab,rtcxds`
   
-For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.
+   For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.
   
- `-DatabaseType User`
+    `-DatabaseType User`
   
 ## Removing or Changing SQL Mirroring
 
@@ -281,9 +281,9 @@ Use this procedure if you need to remove the witness from a Back End Server mirr
     
     After publishing the topology, Topology Builder you will see a message that includes the following
     
-  ```
-  Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
-  ```
+   ```
+   Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
+   ```
 
     However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.
     

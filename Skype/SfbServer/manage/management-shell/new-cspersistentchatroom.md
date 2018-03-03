@@ -39,7 +39,7 @@ The Persistent Chat service (which replaces the Group Chat service used in Micro
   
 Persistent Chat discussions take the form of messages posted in individual chat rooms; chat rooms are discussion forums based on specific topics. By design, messages posted in a chat room remain there forever; at any time, users can return to the room and review all the messages that have been previously posted. 
   
-The **New-CsPersistentChatRoom** cmdlet enables administrators to create new Persistent Chat chat rooms. Note that not all the properties of a chat room are available using the **New-CsPersistentChatRoom** cmdlet; for example, you cannot assign chat room Managers or Presenters by using this cmdlet. To assign Managers or Presenters, you must create the chat room, then make those assignments using the[Set-CsPersistentChatRoom](set-cspersistentchatroom.md) cmdlet.
+The **New-CsPersistentChatRoom** cmdlet enables administrators to create new Persistent Chat chat rooms. Note that not all the properties of a chat room are available using the **New-CsPersistentChatRoom** cmdlet; for example, you cannot assign chat room Managers or Presenters by using this cmdlet. To assign Managers or Presenters, you must create the chat room, then make those assignments using the [Set-CsPersistentChatRoom](set-cspersistentchatroom.md) cmdlet.
   
  **Skype for Business Server Control Panel:** To create a new Persistent Chat chat room using the Skype for Business Server Control Panel, click **Persistent Chat**, click **Room**, and then click **New**.
   

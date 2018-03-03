@@ -49,7 +49,7 @@ Centralized logging is built around a series of predefined scenarios that offer 
   
 It is also possible to define custom scenarios by using the [New-CsClsScenario](new-csclsscenario.md) cmdlet.
   
-The **Start-CsClsLogging** cmdlet provides a way for administrators to begin logging a specified scenario on a computer or set of computers. By default, that logging operation will continue to run until the Duration time limit has expired. However, administrators can manually stop a logging operation at any time by using the[Stop-CsClsLogging](stop-csclslogging.md) cmdlet.
+The **Start-CsClsLogging** cmdlet provides a way for administrators to begin logging a specified scenario on a computer or set of computers. By default, that logging operation will continue to run until the Duration time limit has expired. However, administrators can manually stop a logging operation at any time by using the [Stop-CsClsLogging](stop-csclslogging.md) cmdlet.
   
 ## Parameters
 <a name="DetailedDescription"> </a>

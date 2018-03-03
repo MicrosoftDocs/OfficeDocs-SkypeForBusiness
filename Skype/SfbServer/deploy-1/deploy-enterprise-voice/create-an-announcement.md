@@ -49,33 +49,33 @@ To create a new announcement, you need to perform the following steps:
     
 4. For audio prompts, run:
     
-  ```
-  Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
-  ```
+   ```
+   Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
+   ```
 
 5. Run:
     
-  ```
-  New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
-  ```
+   ```
+   New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
+   ```
 
     For transferring calls to voice mail, type SIPAddress in the format sip:username@domainname;opaque=app:voicemail (for example, sip:bob@contoso.com;opaque=app:voicemail). For transferring calls to a phone number, type SIPAddress in the format sip:number@domainname;user=phone (for example, sip:+ 14255550121@contoso.com;user=phone).
     
     For example, to specify an audio prompt:
     
-  ```
-  $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
-Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
-New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
-  ```
+   ```
+   $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
+   Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
+   New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
+   ```
 
     For example, to specify a TTS prompt:
     
-  ```
-  New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
-  ```
+   ```
+   New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
+   ```
 
-    For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](../../manage/management-shell/new-csannouncement.md).
+  For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](../../manage/management-shell/new-csannouncement.md).
     
 ## Delete an announcement for unassigned numbers
 
@@ -86,25 +86,25 @@ New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Nu
 2. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
     
 3. List all the announcements in your organization. At the command line, run:
-    
-  ```
-  Get-CsAnnouncement
-  ```
+     
+   ```
+   Get-CsAnnouncement
+   ```
 
 4. In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:
     
-  ```
-  Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
-  ```
+   ```
+   Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
+   ```
 
     For example:
     
-  ```
-  Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
-  ```
+   ```
+   Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
+   ```
 
     > [!NOTE]
-    > For details about more options, see [Get-CsAnnouncement](../../manage/management-shell/get-csannouncement.md) and[Remove-CsAnnouncement](../../manage/management-shell/remove-csannouncement.md). 
+    > For details about more options, see [Get-CsAnnouncement](../../manage/management-shell/get-csannouncement.md) and [Remove-CsAnnouncement](../../manage/management-shell/remove-csannouncement.md). 
   
 ## See also
 

@@ -18,10 +18,10 @@ Each record represents one two-party call in which at least one user is a VoIP u
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**FromNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** of the caller. See the[Phones table](phones.md) for more information. If not NULL and **FromGatewayId** is not NULL, then the caller was a PSTN user. <br/> |
-|**ConnectedNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** of the call receiver. See the[Phones table](phones.md) for more information. If not NULL and **ToGatewayId** is not NULL, then the call receiver was a PSTN user. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**FromNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** of the caller. See the [Phones table](phones.md) for more information. If not NULL and **FromGatewayId** is not NULL, then the caller was a PSTN user. <br/> |
+|**ConnectedNumberId** <br/> |int  <br/> |Foreign  <br/> |**PhoneId** of the call receiver. See the [Phones table](phones.md) for more information. If not NULL and **ToGatewayId** is not NULL, then the call receiver was a PSTN user. <br/> |
 |**FromMediationServerId** <br/> |int  <br/> |Foreign  <br/> |The Mediation Server the call is coming from. See the [MediationServers table](mediationservers.md) for more information. <br/> |
 |**ToMediationServerId** <br/> |int  <br/> |Foreign  <br/> |The Mediation Server called is going to. See the [MediationServers table](mediationservers.md) for more information. <br/> |
 |**FromGatewayId** <br/> |int  <br/> |Foreign  <br/> |Gateway the call is coming from. See the [Gateways table in Skype for Business Server 2015](gateways.md) for more information. <br/> |

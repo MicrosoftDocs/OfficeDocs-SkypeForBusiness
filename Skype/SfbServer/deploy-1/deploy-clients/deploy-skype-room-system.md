@@ -53,8 +53,7 @@ Following are the requirements for Skype Room System:
 
 The following table indicates Skype Room System client interoperability among various deployments of Skype for Business and Exchange topologies, either on premises or in the cloud: 
   
-|
-|
+
 |**Topology**|**AD**|**Skype for Business**|**Exchange**|
 |:-----|:-----|:-----|:-----|
 |On premises  <br/> |On premises  <br/> |On premises  <br/> |On premises  <br/> |
@@ -68,8 +67,7 @@ Skype Room System cannot be homed on a Lync server version earlier than Lync Ser
   
 The following table indicates Skype Room System client supportability with versions of Exchange Server: 
   
-|
-|
+
 |**Exchange**|**On premises**|**Online**|**Hybrid**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Yes (single forest only)  <br/> |N/A  <br/> |N/A  <br/> |

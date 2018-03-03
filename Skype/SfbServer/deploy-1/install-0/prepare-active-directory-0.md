@@ -16,7 +16,7 @@ description: "Summary: Learn how to prepare your Active Directory domain for an 
 
 # Prepare Active Directory for Skype for Business Server 2015
  
-**Summary:** Learn how to prepare your Active Directory domain for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to prepare your Active Directory domain for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Skype for Business Server works closely with Active Directory. You must prepare the Active Directory domain to work with Skype for Business Server. This process is accomplished in the Deployment Wizard and is only done once for the domain. This is because the process creates groups and modifies the domain, and you need to do that only once. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Preparing Active Directory is step 4 of 8. For more information about planning for Active Directory, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
   
@@ -123,20 +123,20 @@ Watch the video steps for **Prepare Active Directory**:
     
     b. Use the command Get-CsAdDomain to verify replication within the domain.
     
-  ```
-  Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
-
-  ```
+   ```
+   Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
+ 
+   ```
 
     > [!NOTE]
     > If you do not specify the Domain parameter, the value is set to the local domain. 
   
     Example of running the command for the contoso.local domain:
     
-  ```
-  Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
+   ```
+   Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
 
-  ```
+   ```
 
     > [!NOTE]
     > By using the parameter GlobalSettingsDomainController, you can indicate where global settings are stored. If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your AD DS forest. If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest. If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in Active Directory. 

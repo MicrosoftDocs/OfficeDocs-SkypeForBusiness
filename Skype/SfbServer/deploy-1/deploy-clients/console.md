@@ -73,12 +73,12 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
   
 6. Put the tablet drivers on the install media:
     
-    a. Download the [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or[Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888). 
+    a. Download the [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888). 
     
     b. Extract the drivers from the MSI using the following command, which assumes the MSI is in C:, and that the drivers will be extracted to your USB media.
-    
+    ```
      *msiexec /a c:\SurfacePro_Win10_15063_1706207_0.msi /passive TARGETDIR="F:\AutoUnattend_Files\DistShare\Out-of-Box Drivers"* 
-    
+    ```
     > [!NOTE]
     > Wait for the installation progress dialog to complete and close before moving on to the next step. 
   
@@ -87,7 +87,7 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
     > [!NOTE]
     > Ensure that XML files are UTF-8 encoded by using the Windows Notepad application to edit and save XML files. XML files that are not UTF-8 encoded may result in Windows Setup internal errors. 
   
-  - If you intend to capture a WIM for mass-imaging Skype Room Systems v2 devices, find the following line: 
+    - If you intend to capture a WIM for mass-imaging Skype Room Systems v2 devices, find the following line: 
     
     \<!-- \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /generalize /oobe /shutdown /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\> --\>
     
@@ -95,7 +95,7 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
     
     \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /generalize /oobe /shutdown /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\>
     
-  - If you intend to image devices one at a time, make sure the following line is not enclosed in XML comments, as shown: 
+    - If you intend to image devices one at a time, make sure the following line is not enclosed in XML comments, as shown: 
     
     \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /oobe /reboot /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\>
     
@@ -121,9 +121,9 @@ You now need to apply the image you've created. The tablet will run as an applia
     
 6. When the Skype Room Systems v2 device starts for the first time, its behavior will depend on which version of Sysprep.exe is used in the AutoUnattend.xml file (see step 7 of [Prepare the installation image](console.md#Prep_Image)):
     
-  - If the /shutdown version of the command was enabled, the system will proceed with installation and eventually shut down. Once it is shut down, you may boot to external media containing Windows PE and use DISM to install language packs, apply images, capture your reference image from the machine, or perform other actions.
+   - If the /shutdown version of the command was enabled, the system will proceed with installation and eventually shut down. Once it is shut down, you may boot to external media containing Windows PE and use DISM to install language packs, apply images, capture your reference image from the machine, or perform other actions.
     
-  - If the /reboot version of the command was enabled, the system will proceed with installation, and eventually ask the user to select their locale settings. After making this selection, the Skype Room Systems v2 device will boot into its initial startup process. See [Initial set up of the Console ](console.md#Initial)
+   - If the /reboot version of the command was enabled, the system will proceed with installation, and eventually ask the user to select their locale settings. After making this selection, the Skype Room Systems v2 device will boot into its initial startup process. See [Initial set up of the Console ](console.md#Initial)
     
 After the system has shut down or rebooted, it is safe to remove the USB Setup Disk. At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room. Refer to the manufacturer instructions.
   
@@ -190,11 +190,11 @@ After Windows is installed, the Skype Room Systems v2 app will go into its initi
     
 5. Select the indicated devices on the Features screen and click **Next**. The default is to have Auto Screen sharing set to On and Hide meeting names set to Off. The devices to select are:
     
-  - Microphone for Conferencing: the default microphone for this conference room.
+   - Microphone for Conferencing: the default microphone for this conference room.
     
-  - Speaker for Conferencing: the default speaker for conferencing. 
+   - Speaker for Conferencing: the default speaker for conferencing. 
     
-  - Default Speaker: the speaker used for audio from the HDMI ingest.
+   - Default Speaker: the speaker used for audio from the HDMI ingest.
     
     Each item has a drop-down menu of options to select from. You must make a selection for each device.
     

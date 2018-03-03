@@ -45,7 +45,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!NOTE]
 > There are fundamental differences between the command-line commands that you can run in Windows PowerShell or CLSController. Windows PowerShell provides a rich method to configure and define scenarios, and to reuse those scenarios in a meaningful way for your troubleshooting scenarios. While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line. Unlike the Windows PowerShell cmdlets, CLSController cannot define new scenarios, manage scope at a site or global level, and many other limitations of a finite command set that cannot be dynamically configured. While CLSController provides a means for fast execution, Windows PowerShell provides a means to extend the Centralized Logging Service functionality beyond what is possible with CLSController. 
   
-A single computer scope can be defined during the execution of a [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md), [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md), [Start-CsClsLogging](../../manage/management-shell/start-csclslogging.md), [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md), [Sync-CsClsLogging](../../manage/management-shell/sync-csclslogging.md) and[Update-CsClsLogging](../../manage/management-shell/update-csclslogging.md) command using the -Computers parameter. The -Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.
+A single computer scope can be defined during the execution of a [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md), [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md), [Start-CsClsLogging](../../manage/management-shell/start-csclslogging.md), [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md), [Sync-CsClsLogging](../../manage/management-shell/sync-csclslogging.md) and [Update-CsClsLogging](../../manage/management-shell/update-csclslogging.md) command using the -Computers parameter. The -Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.
   
 > [!TIP]
 > You can also define -Pools and a comma separated list of pools that you want to run the logging commands on. 
@@ -145,7 +145,7 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
   ```
 
     > [!NOTE]
-    > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see [Get-CsClsConfiguration](../../manage/management-shell/get-csclsconfiguration.md) and[Understanding Centralized Logging Service Configuration Settings](http://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx). 
+    > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see [Get-CsClsConfiguration](../../manage/management-shell/get-csclsconfiguration.md) and [Understanding Centralized Logging Service Configuration Settings](http://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx). 
   
 For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:
     

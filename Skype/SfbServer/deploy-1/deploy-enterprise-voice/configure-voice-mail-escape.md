@@ -28,9 +28,9 @@ This configuration is performed using the Skype for Business Server Management S
     
 2. Specify the following parameters to **Set-CsVoicePolicy**:
     
-  - **EnableVoicemailEscapeTimer** - Enables or disables the escape timer.
+   - **EnableVoicemailEscapeTimer** - Enables or disables the escape timer.
     
-  - **PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.
+   - **PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.
     
 ## Example
 

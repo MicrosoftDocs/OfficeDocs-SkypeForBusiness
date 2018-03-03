@@ -27,8 +27,8 @@ We cover the following topics in this article:
     
 - Export your Edge Server topology
     
-> [!NOTE]
-> To follow the steps below, you're going to need to log into the domain servers mentioned below as a user who's a member of the following domain groups: 
+  > [!NOTE]
+  > To follow the steps below, you're going to need to log into the domain servers mentioned below as a user who's a member of the following domain groups: 
   
 - RTCUniversalServerAdmins
     
@@ -271,9 +271,9 @@ To deploy successfully, the Skype for Business Server 2015 Deployment Wizard nee
     
 2. In the **Skype for Business Server Management Shell**, run the following:
     
-  ```
-  Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
-  ```
+   ```
+   Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
+   ```
 
 3. Copy the exported file to external media (for example, a USB drive or network share that you can reach from the Edge Server's location).
     

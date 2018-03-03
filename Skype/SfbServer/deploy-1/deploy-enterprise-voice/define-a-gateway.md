@@ -25,21 +25,22 @@ Follow these steps to use Topology Builder to define a peer with which you can a
 1. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server 2015Topology Builder**.
     
 2. Under Skype for Business Server, your site name, Shared Components, right-click the **PSTN Gateways** node, and then click **New PSTN Gateway**.
-    3. In **Define New IP/PSTN Gateway**, type the fully qualified domain name (FQDN) or IP address of the peer, and click **Next**.
+3. In **Define New IP/PSTN Gateway**, type the fully qualified domain name (FQDN) or IP address of the peer, and click **Next**.
     
     > [!NOTE]
     > If you specify Transport Layer Security (TLS) as the transport type, you must specify the FQDN instead of the IP address of the peer of the Mediation Server. 
   
 4. Define the listening mode (IPv4 or IPv6) of the IP address of your new PSTN gateway, and click **Next**.
-    5. Define a root trunk for the PSTN gateway. A trunk is a logical connection between a Mediation Server and a gateway uniquely identified by the tuple.
+
+5. Define a root trunk for the PSTN gateway. A trunk is a logical connection between a Mediation Server and a gateway uniquely identified by the tuple.
     
     {Mediation Server FQDN, Mediation Server listening port (TLS or TCP) : gateway IP and FQDN, gateway listening port}
     
-  - When defining a PSTN gateway in Topology Builder, you must define a root trunk to successfully add the PSTN gateway to your topology.
+     - When defining a PSTN gateway in Topology Builder, you must define a root trunk to successfully add the PSTN gateway to your topology.
     
-  - The root trunk cannot be removed until the associated PSTN gateway is removed.
+     - The root trunk cannot be removed until the associated PSTN gateway is removed.
     
-    6. Under **Listening Port for IP/PSTN Gateway**, type the listening port that the gateway, PBX, or SBC will use for SIP messages from the Mediation Server that will be associated with the root trunk of the PSTN gateway. (By default, the ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS) on a PSTN gateway, PBX or SBC. On a Survivable Branch Appliance at a branch site, the default ports are 5081 for TCP and 5082 for TLS.)
+6. Under **Listening Port for IP/PSTN Gateway**, type the listening port that the gateway, PBX, or SBC will use for SIP messages from the Mediation Server that will be associated with the root trunk of the PSTN gateway. (By default, the ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS) on a PSTN gateway, PBX or SBC. On a Survivable Branch Appliance at a branch site, the default ports are 5081 for TCP and 5082 for TLS.)
     
 7. Under **SIP Transport Protocol**, click the transport type that the peer uses, and then click **OK**.
     

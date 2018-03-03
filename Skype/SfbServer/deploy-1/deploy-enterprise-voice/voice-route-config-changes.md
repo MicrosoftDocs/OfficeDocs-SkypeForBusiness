@@ -43,9 +43,9 @@ After you make changes to any of the configuration settings in pages in the **Vo
     
 6. If you want to cancel any of the pending changes, do one of the following:
     
-  - Select **Cancel all uncommitted changes** from the **Commit** menu.
+   - Select **Cancel all uncommitted changes** from the **Commit** menu.
     
-  - Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.
+   - Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.
     
 7. After you have reviewed all pending changes and canceled any that you do not want to publish, click **Commit**, and then click **Commit all**.
     

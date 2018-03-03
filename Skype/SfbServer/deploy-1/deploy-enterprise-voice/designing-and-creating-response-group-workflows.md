@@ -44,9 +44,9 @@ A workflow also defines settings such as a welcome message, music on hold, busin
   
 6. Do one of the following:
     
-  - Under **Create a New Workflow**, next to **Hunt Group, click Create**.
+   - Under **Create a New Workflow**, next to **Hunt Group, click Create**.
     
-  - Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.
+   - Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.
     
 7. If you are ready for users to start calling the workflow, select **Activate the workflow**.
     
@@ -95,12 +95,12 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     
 17. If you want to configure a welcome message, under **Step 3 Configure a Welcome Message**, select the **Play a welcome message** check box, and then do one of the following:
     
-  - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
+   - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
     
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+   - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
     > [!NOTE]
     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
@@ -112,15 +112,15 @@ A workflow also defines settings such as a welcome message, music on hold, busin
   
 19. Select the type of business hours schedule you want to use by doing one of the following:
     
-  - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
+   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
     
-    > [!NOTE]
-    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). 
+     > [!NOTE]
+     > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). 
   
-    > [!NOTE]
-    > When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+     > [!NOTE]
+     > When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
   
-  - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
+   - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
     
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
     
@@ -131,25 +131,25 @@ A workflow also defines settings such as a welcome message, music on hold, busin
   
 22. If you want to play a message when the office is not open, select the **Play a message when the response group is outside of business hours** check box, and then specify the message to play by doing one of the following:
     
-  - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+   - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
     
-    > [!NOTE]
-    > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
+     > [!NOTE]
+     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
-    > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > [!NOTE]
+     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 23. Specify how to handle calls after the message is played (if a message is configured):
     
-  - To disconnect the call, click **Disconnect Call**.
+   - To disconnect the call, click **Disconnect Call**.
     
-  - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
+   - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
     
-  - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+   - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
     
-  - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+   - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
     
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
@@ -163,31 +163,31 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
-    > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > [!NOTE]
+     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 26. Specify how to handle calls after the message is played (if a message is configured):
     
-  - To disconnect the call, click **Disconnect Call**.
+   - To disconnect the call, click **Disconnect Call**.
     
-  - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
+   - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
     
-  - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+   - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
     
-  - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+   - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
     
 27. Under **Step 6 Configure a Queue**, in **Select the queue that will receive the calls**, select the queue that you want to hold callers until an agent becomes available.
     
 28. Under **Step 7 Configure Music on Hold**, choose the music you want callers to listen to while waiting for an agent by doing one of the following:
     
-  - To use the default music-on-hold recording, click **Use default**.
+   - To use the default music-on-hold recording, click **Use default**.
     
-  - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+   - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
-    > [!NOTE]
-    > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > [!NOTE]
+     > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 29. Click **Deploy**.
     
@@ -199,69 +199,69 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     
 3. Create the prompt to be played for the welcome message, and save it in a variable. At the command line, run:
     
-  ```
-  $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
     For example:
     
-  ```
-  $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
-  ```
+   ```
+   $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
+   ```
 
-    > [!NOTE]
-    > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+     > [!NOTE]
+     > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
   
 4. Get the identity of the queue or question where the calls will be directed. At the command line, run:
     
-  ```
-  $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
-  ```
+   ```
+   $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
+   ```
 
     For details about creating the queue, see [New-CsRgsQueue](../../manage/management-shell/new-csrgsqueue.md).
     
 5. Define the default action to be taken when a workflow is opened during business hours, and save it in a variable. At the command line, run:
     
-  ```
-  $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
-  ```
+   ```
+   $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
+   ```
 
     > [!NOTE]
     > For hunt group workflows, the default action must direct the call to a queue. This is parameter is required for active workflows. It is not required for inactive workflows. 
   
     For example:
     
-  ```
-  $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
-  ```
+   ```
+   $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
+   ```
 
-6. If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md) and[(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md).
+6. If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md).
     
-7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](../../manage/management-shell/new-csrgsprompt.md) and[New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md).
+7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](../../manage/management-shell/new-csrgsprompt.md) and [New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md).
     
 8. Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
     
-  ```
-  $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
-  ```
+   ```
+   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
+   ```
 
 9. Create or modify the workflow. To create a workflow, use **New-CsRgsWorkflow**. To modify a workflow, use **Set-CsRgsWorkflow**. At the command line, type:
     
-  ```
-  $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
-  ```
+   ```
+   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
+   ```
 
     For example:
     
-  ```
-  $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
-  ```
+   ```
+   $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
+   ```
 
-    > [!IMPORTANT]
-    > All users who are designated managers for workflows must be assigned the CsResponseGroupManager role. 
+     > [!IMPORTANT]
+     > All users who are designated managers for workflows must be assigned the CsResponseGroupManager role. 
   
-    > [!NOTE]
-    > For details about additional optional parameters, see [New-CsRgsWorkflow](../../manage/management-shell/new-csrgsworkflow.md) or[Set-CsRgsWorkflow](../../manage/management-shell/set-csrgsworkflow.md)
+     > [!NOTE]
+     > For details about additional optional parameters, see [New-CsRgsWorkflow](../../manage/management-shell/new-csrgsworkflow.md) or [Set-CsRgsWorkflow](../../manage/management-shell/set-csrgsworkflow.md)
   
 ## Designing an interactive workflow
 
@@ -377,9 +377,9 @@ The following list describes some best practices for designing your IVR:
   
 6. Do one of the following:
     
-  - Under **Create a New Workflow**, next to **Interactive**, click **Create**.
+   - Under **Create a New Workflow**, next to **Interactive**, click **Create**.
     
-  - Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.
+   - Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.
     
 7. If you are not ready for users to start calling the workflow, clear the **Activate the workflow** check box.
     
@@ -425,12 +425,12 @@ The following list describes some best practices for designing your IVR:
     
 17. If you want to configure a welcome message, under **Step 3 Configure a Welcome Message**, select the **Play a welcome message** check box, and then do one of the following:
     
-  - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
+    - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
     
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use a Wave or Windows Media Audio file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use a Wave or Windows Media Audio file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
     > [!NOTE]
     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
@@ -442,41 +442,41 @@ The following list describes some best practices for designing your IVR:
   
 19. Select the type of business hours schedule you want to use by doing one of the following:
     
-  - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
+   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
     
-    > [!NOTE]
-    > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+     > [!NOTE]
+     > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
   
-  - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
+   - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
     
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
     
 21. If you are creating a custom schedule, type the **Open** and **Close** hours when the response group available.
     
-    > [!NOTE]
-    > The **Open** and **Close** hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as **Open** 9:00, **Close** 12:00, **Open** 13:00, and **Close** 17:00.
+     > [!NOTE]
+     > The **Open** and **Close** hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as **Open** 9:00, **Close** 12:00, **Open** 13:00, and **Close** 17:00.
   
 22. If you want to play a message when the office is not open, select the **Play a message when the response group is outside of business hours** check box, and then specify the message to play by doing one of the following:
     
-  - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+    - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
     
-    > [!NOTE]
-    > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
+     > [!NOTE]
+     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
     > [!NOTE]
     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 23. Specify how to handle calls after the message is played (if a message is configured):
     
-  - To disconnect the call, click **Disconnect Call**.
+     - To disconnect the call, click **Disconnect Call**.
     
-  - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
+     - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
     
-  - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
+     - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
     
-  - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+     - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
     
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
     
@@ -485,38 +485,38 @@ The following list describes some best practices for designing your IVR:
   
 25. If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:
     
-  - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+   - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
     
-    > [!NOTE]
-    > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
+     > [!NOTE]
+     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
   
-  - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
-    > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > [!NOTE]
+     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 26. Specify how to handle calls after the message is played (if a message is configured):
     
-  - To disconnect the call, click **Disconnect Call**.
+    - To disconnect the call, click **Disconnect Call**.
     
-  - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
     
-  - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
     
-  - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
     
 27. Under **Step 6 Configure Music on Hold**, choose what you want callers to listen to while waiting for an agent by doing one of the following:
     
-  - To use the default music on-hold recording, click **Use default**.
+    - To use the default music on-hold recording, click **Use default**.
     
-  - To use an audio file recording for the on-hold music, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the on-hold music, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
     
     > [!NOTE]
     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 28. Under **Step 7 Configure Interactive Voice Response**, under the **The user will hear the following text or recorded message** heading, specify the question to ask callers as follows:
     
-  - To enter the question in text format, click **Use text-to-speech**, and type the question in the text box.
+    - To enter the question in text format, click **Use text-to-speech**, and type the question in the text box.
     
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message. 
@@ -524,10 +524,10 @@ The following list describes some best practices for designing your IVR:
     > [!NOTE]
     > The "#" symbol is translated by the text-to-speech engine as the word "number". If you need to refer to the # key, you should use the key name, rather than the symbol, in your prompt. For example, "To talk to sales, press the pound key." 
   
-  - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller's response, to be forwarded to the responding agent).
+   - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller's response, to be forwarded to the responding agent).
     
-    > [!NOTE]
-    > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
+     > [!NOTE]
+     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](http://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx). 
   
 29. Under **Response 1**, specify the first possible answer to the question by doing the following:
     
@@ -537,15 +537,15 @@ The following list describes some best practices for designing your IVR:
     > [!NOTE]
     > You can choose to allow callers to answer using speech, alphanumeric keypad input, or both. 
   
-  - If you want to allow the caller to respond using speech, enter the answer in **Enter a voice response**.
+    - If you want to allow the caller to respond using speech, enter the answer in **Enter a voice response**.
     
-  - If you want to allow the caller to respond by pressing a key on the keypad, in **Digit**, click the keypad digit.
+    - If you want to allow the caller to respond by pressing a key on the keypad, in **Digit**, click the keypad digit.
     
 30. Specify whether to route the caller to a queue, or to ask another question as follows:
     
-  - To route the caller to a queue, click **Send to a queue**, and in **Select a queue**, click the queue that you want to use.
+    - To route the caller to a queue, click **Send to a queue**, and in **Select a queue**, click the queue that you want to use.
     
-  - To ask another question, click **Ask another question**, and then click **Use text-to-speech** and type the question, or click **Select a recording**. Use the response groupings in this section to specify up to four possible responses to the additional question and the queue to use for each response. To specify a third or fourth possible response, click the **Response 3** check box or the **Response 4** check box.
+    - To ask another question, click **Ask another question**, and then click **Use text-to-speech** and type the question, or click **Select a recording**. Use the response groupings in this section to specify up to four possible responses to the additional question and the queue to use for each response. To specify a third or fourth possible response, click the **Response 3** check box or the **Response 4** check box.
     
 31. Specify up to three more possible answers to the original question by repeating steps 28 and 29 to specify the possible responses and the action to take for each response. To specify a third or fourth possible answer, click the **Response 3** check box or the **Response 4** check box.
     
@@ -559,81 +559,81 @@ The following list describes some best practices for designing your IVR:
     
 3. Retrieve the service name for the Response Group service and assign it to a variable. At the command line, run:
     
-  ```
-  $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
-  ```
+   ```
+   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}) .ServiceId;
+   ```
 
 4. An interactive workflow requires two or more queues and two or more agent groups. First, create the agent groups. Run:
     
-  ```
-  $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
-$AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
-  ```
+   ```
+   $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
+   $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
+   ```
 
 5. Create the queues. Run:
     
-  ```
-  $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
-$QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
-  ```
+   ```
+   $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
+   $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
+   ```
 
 6. Create the first response group prompt. Run:
     
-  ```
-  $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
-  ```
+   ```
+   $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
+   ```
 
 7. Then create the action to be performed after the prompt. Run:
     
-  ```
-  $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
-  ```
+   ```
+   $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
+   ```
 
 8. Create the first response group answer. Run:
     
-  ```
-  $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
-  ```
+   ```
+   $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
+   ```
 
 9. Now create the second prompt, call action, and answer. First create the prompt. Run:
     
-  ```
-  $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
-  ```
+   ```
+   $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
+   ```
 
 10. Create the second call action. Run:
     
-  ```
-  $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
-  ```
+    ```
+    $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
+    ```
 
 11. Create the second response group answer. Run:
     
-  ```
-  $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
-  ```
+    ```
+    $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
+    ```
 
 12. Create the top-level prompt. Run:
     
-  ```
-  $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
-  ```
+    ```
+    $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
+    ```
 
 13. Create the top-level question. Run:
     
-  ```
-  $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
-  ```
+    ```
+    $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
+    ```
 
 14. Now create the workflow. Run:
     
-  ```
-  $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
-$IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
-  ```
+    ```
+    $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
+    $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
+    ```
 
-    > [!NOTE]
-    > All users who have been designated as manager of a response group must be assigned th CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups. 
+     > [!NOTE]
+     > All users who have been designated as manager of a response group must be assigned th CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups. 
   
 ## See also
 

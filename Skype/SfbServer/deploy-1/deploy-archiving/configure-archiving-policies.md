@@ -50,13 +50,13 @@ When you deploy your Front End Servers, Skype for Business Server creates a glob
     
 5. In **Edit Archiving Policy - Global**, do the following:
     
-  - In **Name**, if you do not want to use the default name of Global, specify a new name for the global policy. 
+   - In **Name**, if you do not want to use the default name of Global, specify a new name for the global policy. 
     
-  - In **Description**, provide information about what the policy is (for example, Global policy for  *divisionName*  .
+   - In **Description**, provide information about what the policy is (for example, Global policy for  *divisionName*  .
     
-  - To control archiving of internal communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive internal communications** check box.
+   - To control archiving of internal communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive internal communications** check box.
     
-  - To control archiving of external communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive external communications** check box.
+   - To control archiving of external communications for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Archive external communications** check box.
     
 6. Click **Commit**.
     
@@ -80,13 +80,13 @@ You can enable or disable archiving for specific sites by creating an archiving 
     
 6. In **New Archiving Policy**, do the following:
     
-  - In **Name**, specify the name for the site policy. 
+   - In **Name**, specify the name for the site policy. 
     
-  - In **Description**, provide information about what the site policy is (for example, site policy for Redmond).
+   - In **Description**, provide information about what the site policy is (for example, site policy for Redmond).
     
-  - To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.
+   - To control archiving of internal communications for the specified site, select or clear the **Archive internal communications** check box.
     
-  - To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.
+   - To control archiving of external communications for the specified site, select or clear the **Archive external communications** check box.
     
 7. Click **Commit**.
     
@@ -106,13 +106,13 @@ You can enable or disable archiving for specific users by creating and configuri
     
 5. In **New Archiving Policy**, do the following:
     
-  - In **Name**, specify the name for the user policy. 
+   - In **Name**, specify the name for the user policy. 
     
-  - In **Description**, provide information about what the user policy is (for example, user policy for legal department).
+   - In **Description**, provide information about what the user policy is (for example, user policy for legal department).
     
-  - To control archiving of internal communications for the user policy, select or clear the **Archive internal communications** check box.
+   - To control archiving of internal communications for the user policy, select or clear the **Archive internal communications** check box.
     
-  - To control archiving of external communications for the user policy, select or clear the **Archive external communications** check box.
+   - To control archiving of external communications for the user policy, select or clear the **Archive external communications** check box.
     
 6. Click **Commit**.
     

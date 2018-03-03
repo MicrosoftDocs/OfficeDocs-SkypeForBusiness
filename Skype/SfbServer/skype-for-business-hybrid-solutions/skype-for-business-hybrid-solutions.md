@@ -61,7 +61,7 @@ The following diagram shows how you can add Skype for Business Online into your 
   
 ![Skype for Business Hybrid configuration](../media/4580f2c8-7008-4c6e-826c-020d0f2d1636.png)
   
-For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## Take advantage of Phone System in Office 365 (Cloud PBX)
 <a name="BKMK_CloudPBX"> </a>
@@ -91,7 +91,7 @@ This configuration is best if:
     
 - You have an existing Lync or Skype for Business Server deployment.
     
-For more information, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md) and[Enable users for Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md).
+For more information, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md) and [Enable users for Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md).
   
 ### Phone System in Office 365 with on-premises connectivity provided by Skype for Business Server Cloud Connector Edition
 <a name="BKMK_CCE"> </a>

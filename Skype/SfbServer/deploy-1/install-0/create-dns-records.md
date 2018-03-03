@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: "Summary: Learn how to configure DNS and create DNS records for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to configure DNS and create DNS records for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:  https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
 # Create DNS records for Skype for Business Server 2015
  
-**Summary:** Learn how to configure DNS and create DNS records for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to configure DNS and create DNS records for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 For Skype for Business Server to work properly, a number of Domain Name System (DNS) settings must be in place. This is so that clients know how to access the services and that the servers know about each other. These settings need to be completed only once per deployment because once you assign a DNS entry, it is available throughout the domain. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Creating DNS records comprises step 5 of 8. For more information about planning DNS, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
   
@@ -31,8 +31,7 @@ DNS records are required for Skype for Business Server to work properly and be a
   
 This example is using a DNS load balanced FQDN named pool.contoso.local. This pool consists of three servers running Skype for Business Server 2015 Enterprise Edition. A Standard Edition front-end server can only contain a single server. By using Standard Edition, you would only use the fully qualified domain name (FQDN) of the single Standard Edition server when referencing the front-end role instead of creating a DNS load balanced pool of servers, as this example shows. This simple example that uses only the front-end role includes the DNS entries in the following table. To plan your specific DNS requirements, see [DNS requirements for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
   
-|
-|
+ 
 |**Description**|**Record type**|**Name**|**Resolves to**|**Load balancing type**|
 |:-----|:-----|:-----|:-----|:-----|
 |Internal Web Services FQDN  <br/> |A  <br/> |webint.contoso.local  <br/> |VIP for Internal Web Services  <br/> |Supported software and hardware  <br/> |
@@ -65,11 +64,11 @@ This example is using a DNS load balanced FQDN named pool.contoso.local. This po
     
 6. In the **IP Address box**, type the IP address of the individual front-end server, and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable. Note that this assumes that DNS is used to load balance all traffic with the exception of web services. In this example, we have three front-end servers as shown in the table.
     
-|**Server Name**|**Type**|**Data**|
-|:-----|:-----|:-----|
-|SFB01  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
-|SFB02  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
-|SFB03  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
+   |**Server Name**|**Type**|**Data**|
+   |:-----|:-----|:-----|
+   |SFB01  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
+   |SFB02  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
+   |SFB03  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
    
 7. Next, create the DNS load balancing entries for the pool. DNS load balancing allows DNS to send requests to the individual servers in the pool while using the same DNS pool name. For more information about DNS and load balancing, see [DNS requirements for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
     
@@ -78,11 +77,11 @@ This example is using a DNS load balanced FQDN named pool.contoso.local. This po
   
     For example, if you had a pool named pool.contoso.local and three front-end servers, you would create the following DNS entries:
     
-|**FQDN**|**Type**|**Data**|
-|:-----|:-----|:-----|
-|pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
-|pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
-|pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
+   |**FQDN**|**Type**|**Data**|
+   |:-----|:-----|:-----|
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.5  <br/> |
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
+   |pool.contoso.local  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
    
 8. Continue creating A records for all servers in the planned deployment. 
     

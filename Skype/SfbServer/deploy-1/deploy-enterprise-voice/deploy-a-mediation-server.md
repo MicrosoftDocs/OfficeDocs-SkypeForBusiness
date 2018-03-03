@@ -70,12 +70,12 @@ You can add Mediation Server as a collocated role on a Front End pool, or define
     
 5. Next, do one of the following:
     
-  - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
+   - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
     
     > [!NOTE]
     > You must deploy  (../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
   
-  - If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**. Skip the following step.
+   - If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**. Skip the following step.
     
 6. If you selected **Multiple computer pool** in the previous step, on the **Define the computers in this pool** item, click **Computer FQDN**, type the FQDN of each server in the pool, and then click **Add**. Repeat this step for all other Mediation Servers that you want to add to the pool. When you have defined all the computers in the pool, click **Next**.
     
@@ -83,9 +83,9 @@ You can add Mediation Server as a collocated role on a Front End pool, or define
     
 8. On the **Select an Edge Server** page, do one of the following:
     
-  - If you want to provide PSTN connectivity to external users enabled for Enterprise Voice, under **Select Edge Pool used by this Mediation Server**, click the FQDN of the Edge Server pool that will use this Mediation Server pool to provide PSTN connectivity to those external users, and then click **Next**.
+   - If you want to provide PSTN connectivity to external users enabled for Enterprise Voice, under **Select Edge Pool used by this Mediation Server**, click the FQDN of the Edge Server pool that will use this Mediation Server pool to provide PSTN connectivity to those external users, and then click **Next**.
     
-  - If you do not plan to enable external users for Enterprise Voice, or if you do not want to provide PSTN connectivity to users when they are outside the internal network, click **Next**.
+   - If you do not plan to enable external users for Enterprise Voice, or if you do not want to provide PSTN connectivity to users when they are outside the internal network, click **Next**.
     
 9. Right-click the **Skype for Business Server 2015** node, and then click **Publish Topology**.
     

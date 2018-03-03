@@ -130,7 +130,7 @@ This section guides you through how to get the installation files, install Skype
 
 What does this step do? Where does the exported file go?
   
-Prepare the CloudConnector.ini file using the information you gathered using the table in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)[Information you need to gather before deployment](plan-skype-for-business-cloud-connector-edition.md#BKMK_PlanDeployment) in the[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
+Prepare the CloudConnector.ini file using the information you gathered using the table in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)[Information you need to gather before deployment](plan-skype-for-business-cloud-connector-edition.md#BKMK_PlanDeployment) in the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
   
 To update the file, first run the following cmdlet to get the sample template (CloudConnector.Sample.ini):
   
@@ -351,7 +351,7 @@ Once the installation is complete, perform the steps in this section to configur
     
      ![ShutDownEventTracker](../../media/e95873fc-bef7-4b10-9574-9859440ea748.png)
   
-2. Configure the firewall settings to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+2. Configure the firewall settings to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
     
 3. Configure the PSTN Gateway or Load Balancer network connection.
     

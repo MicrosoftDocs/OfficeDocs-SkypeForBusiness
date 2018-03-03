@@ -24,13 +24,13 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
   
 1. Use Internet Explorer to open the **SQL Server Reporting Services** home page. The Reporting Services home page URL includes:
     
-  - The **http:** prefix.
+   - The **http:** prefix.
     
-  - The fully qualified domain name (FQDN) of the computer where the Reporting Services are installed (for example, **atl-sql-001.litwareinc.com**).
+   - The fully qualified domain name (FQDN) of the computer where the Reporting Services are installed (for example, **atl-sql-001.litwareinc.com**).
     
-  - The character string **/Reports_**.
+   - The character string **/Reports_**.
     
-  - The name of the database instance where the Monitoring Reports are installed (for example, **archinst**).
+   - The name of the database instance where the Monitoring Reports are installed (for example, **archinst**).
     
     For example, if SQL Server Reporting Services was installed on the computer atl-sql-001.litwareinc.com and the Monitoring Reports use the database instance archinst, the home page URL would look like this:
     

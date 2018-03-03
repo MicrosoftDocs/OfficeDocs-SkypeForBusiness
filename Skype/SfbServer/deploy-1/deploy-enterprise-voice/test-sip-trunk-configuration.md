@@ -36,7 +36,7 @@ Trunk configuration settings can only be tested by using Windows PowerShell and 
     
   ```
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
-Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
+  Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```
 
 

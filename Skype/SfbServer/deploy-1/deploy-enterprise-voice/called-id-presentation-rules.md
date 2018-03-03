@@ -24,7 +24,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 
 1. Open Skype for Business Server Control Panel.
     
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or[Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
+2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
     
 3. Under **Name** on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
     
@@ -32,13 +32,13 @@ Follow these steps if you want to define a translation rule by entering a set of
     
 5. In the **Build a Translation Rule** section of the dialog box, enter values in the following fields:
     
-  - **Starting digits**: (Optional) Specify the leading digits of numbers you want the pattern to match. For example, enter + in this field to match numbers in E.164 format (which begin with +).
+   - **Starting digits**: (Optional) Specify the leading digits of numbers you want the pattern to match. For example, enter + in this field to match numbers in E.164 format (which begin with +).
     
-  - **Length**: Specify the number of digits in the matching pattern and select whether you want the pattern to match numbers that are this length exactly, at least this length, or any length. For example, enter 11 and selectAt least in the drop-down list to match numbers that are at least 11 digits in length.
+   - **Length**: Specify the number of digits in the matching pattern and select whether you want the pattern to match numbers that are this length exactly, at least this length, or any length. For example, enter 11 and selectAt least in the drop-down list to match numbers that are at least 11 digits in length.
     
-  - **Digits to remove**: (Optional) Specify the number of starting digits to be removed. For example, enter 1 to strip out the+ from the beginning of the number.
+   - **Digits to remove**: (Optional) Specify the number of starting digits to be removed. For example, enter 1 to strip out the+ from the beginning of the number.
     
-  - **Digits to add**: (Optional) Specify digits to be prepended to the translated numbers. For example, enter 011 if you want 011 to be prepended to the translated numbers when the rule is applied.
+   - **Digits to add**: (Optional) Specify digits to be prepended to the translated numbers. For example, enter 011 if you want 011 to be prepended to the translated numbers when the rule is applied.
     
     The values you enter in these fields are reflected in the **Pattern to match** and **Translation rule** fields. For example, if you specify the preceding example values, the resulting regular expression in the **Pattern to match** field is:
     
@@ -46,9 +46,9 @@ Follow these steps if you want to define a translation rule by entering a set of
     
     The **Translation rule** field specifies a pattern for the format of translated numbers. This pattern has two parts:
     
-  - A value (for example, $1) that represents the number of digits in the matching pattern
+   - A value (for example, $1) that represents the number of digits in the matching pattern
     
-  - (Optional) A value that you can prepend by entering it in the **Digits to add** field
+   - (Optional) A value that you can prepend by entering it in the **Digits to add** field
     
     Using the preceding example values, 011$1 appears in the **Translation rule** field.
     
@@ -60,14 +60,14 @@ Follow these steps if you want to define a translation rule by entering a set of
     
 8. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
-    > [!NOTE]
-    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+   > [!NOTE]
+   > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To define a translation rule manually
 
 1. Open Skype for Business Server Control Panel
     
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or[Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
+2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
     
 3. In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
     
@@ -77,9 +77,9 @@ Follow these steps if you want to define a translation rule by entering a set of
     
 6. Enter the following in **Type a Regular Expression**:
     
-  - In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.
+   - In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.
     
-  - In **Translation rule**, specify a pattern for the format of translated numbers.
+   - In **Translation rule**, specify a pattern for the format of translated numbers.
     
     For example, if you enter ^\+(\d{9}\d+)$ in **Match this pattern** and011$1 in **Translation rule**, the rule will translate +441235551010 to 011441235551010.
     

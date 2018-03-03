@@ -142,7 +142,7 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
   
 - If the user is on a network not configured to meet the [Network requirements](meetings-clients.md#Network), many app features may or may not work and they may not be able to connect to the meeting at all.
     
-- Some users may have corporate-administered computers with disabled permission to install apps. for those users, neither app is an option, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and[tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
+- Some users may have corporate-administered computers with disabled permission to install apps. for those users, neither app is an option, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
     
     Other installation issues are also covered in the [help topics](https://support.office.com/en-us/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     

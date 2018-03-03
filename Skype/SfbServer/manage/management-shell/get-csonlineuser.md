@@ -94,7 +94,7 @@ That command will limit the returned data to user accounts belong to the tenant 
 Get-CsTenant
 ```
 
-If you have a hybrid or "split domain" deployment (that is, a deployment in which some users have accounts homed on Lync Online while other users have accounts homed on an on-premises version of Lync Server) keep in mind that the **Get-CsOnlineUser** cmdlet only returns information for Lync Online users. However, the[Get-CsUser](get-csuser.md) cmdlet will return information for both Lync Online users and on-premises Lync Server users. If you want to exclude Lync Online users from the data returned by the **Get-CsUser** cmdlet, use the following command:
+If you have a hybrid or "split domain" deployment (that is, a deployment in which some users have accounts homed on Lync Online while other users have accounts homed on an on-premises version of Lync Server) keep in mind that the **Get-CsOnlineUser** cmdlet only returns information for Lync Online users. However, the [Get-CsUser](get-csuser.md) cmdlet will return information for both Lync Online users and on-premises Lync Server users. If you want to exclude Lync Online users from the data returned by the **Get-CsUser** cmdlet, use the following command:
   
 ```
 Get-CsUser -Filter {TenantId -eq "00000000-0000-0000-0000-000000000000"}

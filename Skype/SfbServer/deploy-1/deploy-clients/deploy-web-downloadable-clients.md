@@ -21,7 +21,7 @@ Skype for Business Web App is an Internet Information Services (IIS) web client 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
   
 > [!NOTE]
-> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and[Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
+> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
   
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
@@ -41,42 +41,42 @@ The Skype for Business Server 2015 version of Skype for Business Web App support
     
 ### Configure Multi-Factor Authentication
 
-1. Install an AD FS federation server role. For details, see the Active Directory Federation Services 2.0 Deployment Guide at [https://go.microsoft.com/fwlink/p/?linkid=267511](https://go.microsoft.com/fwlink/p/?linkid=267511)
+1. Install an AD FS federation server role. For details, see the [Active Directory Federation Services 2.0 Deployment Guide](https://go.microsoft.com/fwlink/p/?linkid=267511)
     
-2. Create certificates for AD FS. For more information, see the "Federation server certificates" section of the Plan for and deploy AD FS for use with single sign-on topic at [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?LinkId=285376).
+2. Create certificates for AD FS. For more information, see ["Federation server certificates"](https://go.microsoft.com/fwlink/p/?LinkId=285376) section of the Plan for and deploy AD FS for use with single sign-on topic.
     
 3. From the Windows PowerShell command-line interface, run the following command:
     
-  ```
-  add-pssnapin Microsoft.Adfs.powershell
-  ```
+    ```
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 
 4. Establish a partnership by running the following command:
     
-  ```
-  Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+    ```
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 
 5. Set the following relying party rules:
     
-  ```
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
+    ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
+ 
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-  ```
-
-  ```
-  Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
 ## Disable BranchCache
 <a name="MFA"> </a>
 
 The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components. To prevent issues for Skype for Business Web App users, make sure that BranchCache is not enabled. 
   
-For details about disabling BranchCache, see the BranchCache Deployment Guide, which is available in Word format at the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788) and in HTML format in the Windows Server 2008 R2 Technical Library at[https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789).
+For details about disabling BranchCache, see the BranchCache Deployment Guide, which is available in Word format at the Microsoft Download Center at [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788) and in HTML format in the Windows Server 2008 R2 Technical Library at [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789).
   
 ## Verifying Skype for Business Web App Deployment
 <a name="MFA"> </a>
@@ -124,23 +124,23 @@ This procedure is optional. If you do not use it, external users will continue t
 
 1. When you enable access to the Content Delivery Network (CDN), users will have the ability to connect to CDN online and get Skype Meetings App, and will use the simplified meeting join experience. 
     
-  ```
-  Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
-  ```
+   ```
+   Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
+   ```
 
 2. Allow client side logging telemetry from the meeting join web page or the Skype Meetings App to be sent to Microsoft servers (the command defaults to false). 
     
-  ```
-  Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
-  ```
+   ```
+   Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+   ```
 
     Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US).
     
 3. Set the timeout before fall back to the locally hosted Skype for Business Web App experience if CDN isn't available. The default value is 6 seconds. If this value is set to 0, there will be no timeout.
     
-  ```
-  Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
-  ```
+   ```
+   Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
+   ```
 
 ## See also
 <a name="SMA_Enable"> </a>

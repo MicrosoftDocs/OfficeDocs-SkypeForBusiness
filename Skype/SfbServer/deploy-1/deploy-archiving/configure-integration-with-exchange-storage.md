@@ -38,9 +38,9 @@ If you use Microsoft Exchange integration for all users in your deployment, you 
 
 If you use Microsoft Exchange integration and Microsoft Exchange Server is not deployed in the same forest as Skype for Business Server, you must make sure that the following Exchange Active Directory attributes are synchronized to the forest where Skype for Business Server is deployed:
   
-1. msExchUserHoldPolicies
+- msExchUserHoldPolicies
     
-2. proxyAddresses
+- proxyAddresses
     
 This is a multi-value attribute. When synchronizing this attribute, you need to merge the values, not replace them to ensure the existing values are not lost.
   

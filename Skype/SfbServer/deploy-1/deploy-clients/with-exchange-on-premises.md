@@ -59,39 +59,35 @@ If you are deploying Skype Room Systems v2 with Exchange on premises, you will b
 ### Enable the remote mailbox and set properties
 
 1. Enable the remote mailbox by opening your on-premises Exchange management shell with administrator permissions and run the following command:
-    
-  ```
-  Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
-  ```
+     
+   ```
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   ```
 
 2. Start a remote Windows PowerShell session and connect to Microsoft Exchange. From your Office 365 tenant, run the following commands:
     
-  ```
-  Set-ExecutionPolicy Unrestricted
-$org='contoso.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred 
--Authentication Basic -AllowRedirection
-Import-PSSession $sess
-
-  ```
+   ```
+   Set-ExecutionPolicy Unrestricted
+   $org='contoso.com'
+   $cred=Get-Credential $admin@$org
+   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
+   Import-PSSession $sess
+   ```
 
 3. To improve the meeting experience, you'll need to set the Exchange properties on the device account as follows:
     
-  ```
-  Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false 
--AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse 'This is a Skype Meeting room!'
-
-  ```
-
+   ```
+   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false 
+   -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse 'This is a Skype Meeting room!'
+   ```
     For more information about which properties you need to set, see Exchange properties.
     
 4. You will need to connect to Azure AD to apply some account settings. You can run this command to connect:
     
-  ```
-  Connect-MsolService -Credential $cred
-  ```
+   ```
+   Connect-MsolService -Credential $cred
+   ```
 
 ### Assign an Office 365 license
 
@@ -101,35 +97,33 @@ Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResp
     
 3. Once you list out the SKUs, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
     
-  ```
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-Get-MsolAccountSku
-Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+   ```
 
 ### Enable the device account with Skype for Business
 
 1. Create a remote Windows PowerShell session from a PC as follows:
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-
-  ```
+   ```
+   Import-Module LyncOnlineConnector  
+   $cssess=New-CsOnlineSession -Credential $cred  
+   Import-PSSession $cssess -AllowClobber
+   ```
 
 2. To enable your Skype Room Systems v2 account for Skype for Business Server, run this command:
     
-  ```
-  Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
-  ```
+   ```
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   ```
 
-    If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
+   If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
     
-  ```
-  Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
-  ```
+   ```
+   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   ```
 
 ### Assign a Skype for Business license to your Skype Room Systems v2 account
 

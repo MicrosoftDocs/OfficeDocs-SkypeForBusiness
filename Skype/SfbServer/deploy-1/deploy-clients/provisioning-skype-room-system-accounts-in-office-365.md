@@ -90,28 +90,27 @@ After a resource room mailbox account has been created and enabled as shown prev
   
 1. Create a Remote PowerShell session. Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured. For more information, see [Configuring Your Computer for Lync Online Management](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
     
-  ```
-  Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
-
-  ```
+   ```
+   Import-Module LyncOnlineConnector
+   $cssess=New-CsOnlineSession -Credential $cred
+   Import-PSSession $cssess -AllowClobber
+   ```
 
 2. To enable an Skype Room System account for Skype for Business, run the following command:
     
-  ```
-  Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
-  ```
+   ```
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   ```
 
     You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:
     
-  ```
-  Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
-  ```
+   ```
+   Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
+   ```
 
 ## Assigning a Skype for Business Online license
 
-After you enable a Skype Room System account in Skype for Business, you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Office 365 administrative portal as described in [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in[Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+After you enable a Skype Room System account in Skype for Business, you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Office 365 administrative portal as described in [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.
   
@@ -121,16 +120,16 @@ In Office 365, the default password expiration policy for all of your user accou
   
 1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
     
-  ```
-  $cred=Get-Credential admin@$org
-Connect-MsolService -Credential $cred
-  ```
+    ```
+    $cred=Get-Credential admin@$org
+    Connect-MsolService -Credential $cred
+    ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
     
-  ```
-  Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
+   ```
 
 For more information, see [Using Windows PowerShell to Manage Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
   

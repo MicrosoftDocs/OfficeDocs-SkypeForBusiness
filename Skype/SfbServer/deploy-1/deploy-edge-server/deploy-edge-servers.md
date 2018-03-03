@@ -106,229 +106,229 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
 ### 1. Download or export the CA certification chain
 
  
-#### a. Download using certsrv web site
+#### &nbsp;&nbsp;&nbsp; a. Download using certsrv web site
 
-i. Log into a Skype for Business Server 2015 server in your internal network as a member of the local Administrators group.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Log into a Skype for Business Server 2015 server in your internal network as a member of the local Administrators group.
     
-ii. Open up **Start**, and **Run** (or **Search** and **Run** ), and then type the following:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Open up **Start**, and **Run** (or **Search** and **Run** ), and then type the following:
     
   ```
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
- For example:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example:
     
   ```
   https://ca01/contoso.com/certsrv
   ```
 
-iii. On the issuing CA's certsrv web page, under **Select a task**, click **Download a CA certificate, certificate chain, or CRL**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. On the issuing CA's certsrv web page, under **Select a task**, click **Download a CA certificate, certificate chain, or CRL**.
     
-iv. Under **Download a CA certificate, certificate chain, or CRL**, click **Download CA certificate chain**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Under **Download a CA certificate, certificate chain, or CRL**, click **Download CA certificate chain**.
     
-v. In the **File Download** box, click **Save**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. In the **File Download** box, click **Save**.
     
-vi. Save the .p7b file to the hard disk drive on the server, and then copy it to a folder on each of your Edge Servers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. Save the .p7b file to the hard disk drive on the server, and then copy it to a folder on each of your Edge Servers.
     
-### b. Export using MMC
+### &nbsp;&nbsp;&nbsp;b. Export using MMC
 
-i. You can export the CA root certificate from any domain joined machine using the MMC. Either go to **Start** and **Run**, or open **Search**, and type **MMC** to open.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. You can export the CA root certificate from any domain joined machine using the MMC. Either go to **Start** and **Run**, or open **Search**, and type **MMC** to open.
     
-ii. In the MMC console, click **File**, and then click **Add/Remove Snap-In**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. In the MMC console, click **File**, and then click **Add/Remove Snap-In**.
     
-iii. From the **Add or Remove Snap-ins** dialog list, choose **Certificates**, and then click **Add**. When prompted, select **Computer Account**, and then **Next**. On the **Select Computer** dialog, select **Local Computer**. Click **Finish**, and then **OK**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. From the **Add or Remove Snap-ins** dialog list, choose **Certificates**, and then click **Add**. When prompted, select **Computer Account**, and then **Next**. On the **Select Computer** dialog, select **Local Computer**. Click **Finish**, and then **OK**.
     
-iv. Expand **Certificates (Local computer)**. Expand **Trusted Root Certification Authorities**. Select **Certificates**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. Expand **Certificates (Local computer)**. Expand **Trusted Root Certification Authorities**. Select **Certificates**.
     
-v. Click the root certificate issued by your CA. Right-click the certificate, choose **All Tasks** on the menu, and then select **Export**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. Click the root certificate issued by your CA. Right-click the certificate, choose **All Tasks** on the menu, and then select **Export**.
     
-vi. The **Certificate Export Wizard** opens. Click **Next**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. The **Certificate Export Wizard** opens. Click **Next**.
     
-vii. On the **Export File Format** dialog, choose the format you want to export to. Our recommendation is **Cryptographic Message Syntax Standard - PKCS #7 Certificates (P7b)**. If that's your choice as well, remember to also select the **Include all certificates in the certification path if possible** checkbox, as this will also export the certificate chain, including the root CA certificate and any Intermediate certificates. Click **Next**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. On the **Export File Format** dialog, choose the format you want to export to. Our recommendation is **Cryptographic Message Syntax Standard - PKCS #7 Certificates (P7b)**. If that's your choice as well, remember to also select the **Include all certificates in the certification path if possible** checkbox, as this will also export the certificate chain, including the root CA certificate and any Intermediate certificates. Click **Next**.
     
-viii. On the **File to Export** dialog, in the file name entry, type a path and file name (the default extension would be .p7b) for the exported certificate. If it's easier on you, choose the **Browse** button to go to the location you want to save the exported certificate to, and name the exported certificate here. Click **Save**, and then **Next** when you're ready.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. On the **File to Export** dialog, in the file name entry, type a path and file name (the default extension would be .p7b) for the exported certificate. If it's easier on you, choose the **Browse** button to go to the location you want to save the exported certificate to, and name the exported certificate here. Click **Save**, and then **Next** when you're ready.
     
-ix. Review the summary of your actions, and click **Finish** to complete the export of the certificate. Click **OK** to confirm the successful export.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix. Review the summary of your actions, and click **Finish** to complete the export of the certificate. Click **OK** to confirm the successful export.
     
-x. Copy the .p7b file to each of your Edge Servers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x. Copy the .p7b file to each of your Edge Servers.
     
 ### 2. Import the CA certification chain
 
-a. On each Edge Server, open the MMC (choose **Start** and **Run**, or **Search**, and type **MMC** to open).
+&nbsp;&nbsp;&nbsp;a. On each Edge Server, open the MMC (choose **Start** and **Run**, or **Search**, and type **MMC** to open).
     
-b. On the **File** menu, click **Add/Remove Snap-in**, and then choose **Add**.
+&nbsp;&nbsp;&nbsp;b. On the **File** menu, click **Add/Remove Snap-in**, and then choose **Add**.
     
-c. In the **Add or Remove Snap-ins** box, click **Certificates**, and then click **Add**.
+&nbsp;&nbsp;&nbsp;c. In the **Add or Remove Snap-ins** box, click **Certificates**, and then click **Add**.
     
-d. In the **Certificate snap-in** dialog box, click **Computer account**, and then click **Next**.
+&nbsp;&nbsp;&nbsp;d. In the **Certificate snap-in** dialog box, click **Computer account**, and then click **Next**.
     
-e. In the **Select Computer** dialog box, ensure that the **Local Computer: (the computer this console is running on)** check box is selected, and then click **Finish**.
+&nbsp;&nbsp;&nbsp;e. In the **Select Computer** dialog box, ensure that the **Local Computer: (the computer this console is running on)** check box is selected, and then click **Finish**.
     
-f. Click **Close**, and then **OK**.
+&nbsp;&nbsp;&nbsp;f. Click **Close**, and then **OK**.
     
-g. In the console tree, expand **Certificates (Local Computer)**, right-click **Trusted Root Certification Authorities**, go to **All Tasks**, and then click **Import**.
+&nbsp;&nbsp;&nbsp;g. In the console tree, expand **Certificates (Local Computer)**, right-click **Trusted Root Certification Authorities**, go to **All Tasks**, and then click **Import**.
     
-h. In the wizard that appears, in the **File to Import** textbox, specify the file name of the certificate (the name you gave the .p7b file in the previous section). Click **Next**.
+&nbsp;&nbsp;&nbsp;h. In the wizard that appears, in the **File to Import** textbox, specify the file name of the certificate (the name you gave the .p7b file in the previous section). Click **Next**.
     
-i. Leave the radio button on **Place all certificates in the following store, as Trusted Root Certification Authorities** should be selected. Click **Next**.
+&nbsp;&nbsp;&nbsp;i. Leave the radio button on **Place all certificates in the following store, as Trusted Root Certification Authorities** should be selected. Click **Next**.
     
-j. Review the summary, and click **Finish** to complete the import.
+&nbsp;&nbsp;&nbsp;j. Review the summary, and click **Finish** to complete the import.
     
-k. This will need to be done for every Edge Server you're deploying.
+&nbsp;&nbsp;&nbsp;k. This will need to be done for every Edge Server you're deploying.
     
 ### 3. Create the certificate request
 
-a. Log on to one of your Edge Servers, start the Deployment Wizard, and on **Step 3: Request, Install, or Assign Certificates**, click **Run** (or **Run Again**, if you've already run this wizard).
+&nbsp;&nbsp;&nbsp;a. Log on to one of your Edge Servers, start the Deployment Wizard, and on **Step 3: Request, Install, or Assign Certificates**, click **Run** (or **Run Again**, if you've already run this wizard).
     
-b. On the **Certificate Request** page, ensure **Internal Edge Certificate** is selected, and click **Request**.
+&nbsp;&nbsp;&nbsp;b. On the **Certificate Request** page, ensure **Internal Edge Certificate** is selected, and click **Request**.
     
-c. On the **Delayed or Immediate Requests** page, choose **Send the request immediately to an online cerification authority** if you have access to one from your Edge environment, or **Prepare the request now, but send it later** otherwise.
+&nbsp;&nbsp;&nbsp;c. On the **Delayed or Immediate Requests** page, choose **Send the request immediately to an online cerification authority** if you have access to one from your Edge environment, or **Prepare the request now, but send it later** otherwise.
     
-d. On the **Certificate Request File** page, enter the full part and file name for where the file will be saved (such as c:\SkypeInternalEdgeCert.cer). Click **Next**.
+&nbsp;&nbsp;&nbsp;d. On the **Certificate Request File** page, enter the full part and file name for where the file will be saved (such as c:\SkypeInternalEdgeCert.cer). Click **Next**.
     
-e. On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, check the **Use alternative certificate template for the selected Certificate Authority** check box. Otherwise, do nothing.
+&nbsp;&nbsp;&nbsp;e. On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, check the **Use alternative certificate template for the selected Certificate Authority** check box. Otherwise, do nothing.
     
-f. On the Name and Security Settings page, do the following:
+&nbsp;&nbsp;&nbsp;f. On the Name and Security Settings page, do the following:
     
-   i. In **Friendly name**, enter a display name for the certificate (such as Internal Edge).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. In **Friendly name**, enter a display name for the certificate (such as Internal Edge).
     
-   ii. In **Bit length**, choose your bit length (the default is 2048, you can go higher and be more secure, but it will make performance slow down).
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. In **Bit length**, choose your bit length (the default is 2048, you can go higher and be more secure, but it will make performance slow down).
     
-   iii. If you need an exportable certificate, you must check the **Mark certificate private key as exportable** check box.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. If you need an exportable certificate, you must check the **Mark certificate private key as exportable** check box.
     
-   iv. Click **Next**.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iv. Click **Next**.
     
-g. On the **Organization Information** page, enter the name for your organization and organizational unit (OU). You might enter your division or department (IT, for example).
+&nbsp;&nbsp;&nbsp;g. On the **Organization Information** page, enter the name for your organization and organizational unit (OU). You might enter your division or department (IT, for example).
     
-h. On the **Geographical Information** page, enter your location information.
+&nbsp;&nbsp;&nbsp;h. On the **Geographical Information** page, enter your location information.
     
-i. On the **Subject Name/Subject Alternate Names** page, this should be auto-populated by the wizard.
+&nbsp;&nbsp;&nbsp;i. On the **Subject Name/Subject Alternate Names** page, this should be auto-populated by the wizard.
     
-j. On the **Configure Additional Subject Alternate Names** page, you need to add any additional subject alternative names that you need.
+&nbsp;&nbsp;&nbsp;j. On the **Configure Additional Subject Alternate Names** page, you need to add any additional subject alternative names that you need.
     
-k. On the **Request Summary** page, look over the certificate information that's going to be used to generate your request. If you need to make changes, go back and do so now.
+&nbsp;&nbsp;&nbsp;k. On the **Request Summary** page, look over the certificate information that's going to be used to generate your request. If you need to make changes, go back and do so now.
     
-l. Then click **Next** to generate the CSR file you'll need to provide to the CA (you can also click **View Log** to look at the log for the certificate request).
+&nbsp;&nbsp;&nbsp;l. Then click **Next** to generate the CSR file you'll need to provide to the CA (you can also click **View Log** to look at the log for the certificate request).
     
-m. Once the request has been generated, you can click **View** to look at the certificate, and **Finish** to close out the window. The contents of the CSR file need to be given to your CA, so they can generate a certificate for you to import to this computer in the next section.
+&nbsp;&nbsp;&nbsp;m. Once the request has been generated, you can click **View** to look at the certificate, and **Finish** to close out the window. The contents of the CSR file need to be given to your CA, so they can generate a certificate for you to import to this computer in the next section.
     
 
 ### 4. Import the certificate
 
-a. Log on, as a member of the local Administrators group, to the Edge Server you made your certificate request from in the last procedure.
+&nbsp;&nbsp;&nbsp;a. Log on, as a member of the local Administrators group, to the Edge Server you made your certificate request from in the last procedure.
     
-b. In the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run Again**.
+&nbsp;&nbsp;&nbsp;b. In the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run Again**.
     
-c. On the **Available Certificates Tasks** page, click **Import a certificate from a .P7b, .pfx or .cer file**.
+&nbsp;&nbsp;&nbsp;c. On the **Available Certificates Tasks** page, click **Import a certificate from a .P7b, .pfx or .cer file**.
     
-d. On the **Import Certificate** page, type the full path and file name of the certificate you got in the previous section (or you can click **Browse** to find and choose the file that way).
+&nbsp;&nbsp;&nbsp;d. On the **Import Certificate** page, type the full path and file name of the certificate you got in the previous section (or you can click **Browse** to find and choose the file that way).
     
-e. If you're importing certificates for other members of your Edge pool, and your certificate contains a private key, be sure to select the **Certificate file that contains certificate's private key** check box, and specify the password. Click **Next** to continue.
+&nbsp;&nbsp;&nbsp;e. If you're importing certificates for other members of your Edge pool, and your certificate contains a private key, be sure to select the **Certificate file that contains certificate's private key** check box, and specify the password. Click **Next** to continue.
     
-f. On the**Summary** page, click **Next** once you've confirmed the information, and **Finish** once the certificate is successfully imported.
+&nbsp;&nbsp;&nbsp;f. On the**Summary** page, click **Next** once you've confirmed the information, and **Finish** once the certificate is successfully imported.
     
  
 ### 5. Export the certificate
 
-a. Make sure you've logged onto the Edge Server you imported the certificate to previously, as a member of the local Administrators group.
+&nbsp;&nbsp;&nbsp;a. Make sure you've logged onto the Edge Server you imported the certificate to previously, as a member of the local Administrators group.
     
-b. Click **Start**, **Run** (or open **Search** ), and type **MMC**.
+&nbsp;&nbsp;&nbsp;b. Click **Start**, **Run** (or open **Search** ), and type **MMC**.
     
-c. From the MMC console, click **File**, and click **Add/Remove Snap-in**.
+&nbsp;&nbsp;&nbsp;c. From the MMC console, click **File**, and click **Add/Remove Snap-in**.
     
-d. From the **Add or Remove Snap-ins** box, click **Certificates**, and click **Add**.
+&nbsp;&nbsp;&nbsp;d. From the **Add or Remove Snap-ins** box, click **Certificates**, and click **Add**.
     
-e. In the **Certificates** snap-in dialog box, choose **Computer account**. Click **Next**.
+&nbsp;&nbsp;&nbsp;e. In the **Certificates** snap-in dialog box, choose **Computer account**. Click **Next**.
     
-f. On the **Select Computer** dialog, select **Local computer: (the computer this console is running on)**. Click **Finish**. Click **OK**, and the configuration of the MMC console is completed.
+&nbsp;&nbsp;&nbsp;f. On the **Select Computer** dialog, select **Local computer: (the computer this console is running on)**. Click **Finish**. Click **OK**, and the configuration of the MMC console is completed.
     
-g. Double-click **Certificates (Local Computer)** to expand the certificate stores. Double-click **Personal**, and then click **Certificates**.
+&nbsp;&nbsp;&nbsp;g. Double-click **Certificates (Local Computer)** to expand the certificate stores. Double-click **Personal**, and then click **Certificates**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+  > [!NOTE]
+  > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
   
-h. In the **Certificates Personal store** for the local computer, right-click the certificate that you're exporting. Select **All Tasks** from the resulting menu, and then click **Export**.
+&nbsp;&nbsp;&nbsp;h. In the **Certificates Personal store** for the local computer, right-click the certificate that you're exporting. Select **All Tasks** from the resulting menu, and then click **Export**.
     
-i. In the **Certificate Export Wizard**, click **Next**. Select **Yes, export the private key**. Click **Next**.
+&nbsp;&nbsp;&nbsp;i. In the **Certificate Export Wizard**, click **Next**. Select **Yes, export the private key**. Click **Next**.
     
-j. On the **Export File Formats** dialog, select **Personal Information Exchange - PKCS#12 (.PFX)**, and then select the following:
+&nbsp;&nbsp;&nbsp;j. On the **Export File Formats** dialog, select **Personal Information Exchange - PKCS#12 (.PFX)**, and then select the following:
     
-   i. Include all certificates in the certification path, if possible.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. Include all certificates in the certification path, if possible.
     
-   ii. Export all extended properties.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ii. Export all extended properties.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
   
-k. If you want to assign a password to protect the private key, you can type a password for the private key. Reenter the password to confirm, and then click **Next**.
+&nbsp;&nbsp;&nbsp;k. If you want to assign a password to protect the private key, you can type a password for the private key. Reenter the password to confirm, and then click **Next**.
     
-l. Type a path and file name for the exported certificate, using a file extension of **.pfx**. The path either needs to be accessible by the other Edge Servers in the pool, or you'll need to move the file by means of external media (such as a USB drive). Click **Next** when you've made your choice.
+&nbsp;&nbsp;&nbsp;l. Type a path and file name for the exported certificate, using a file extension of **.pfx**. The path either needs to be accessible by the other Edge Servers in the pool, or you'll need to move the file by means of external media (such as a USB drive). Click **Next** when you've made your choice.
     
-m. Review the summary on the **Completing the Certificate Export Wizard** dialog, and then click **Finish**.
+&nbsp;&nbsp;&nbsp;m. Review the summary on the **Completing the Certificate Export Wizard** dialog, and then click **Finish**.
     
-n. Click **OK** in the successful export dialog.
+&nbsp;&nbsp;&nbsp;n. Click **OK** in the successful export dialog.
     
  
 ### 6. Assign the certificate
 
-a. On EACH Edge Server, in the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run again**.
+&nbsp;&nbsp;&nbsp;a. On EACH Edge Server, in the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run again**.
     
-b. On the **Available Certificates Tasks** page, click **Assign an existing certificate**.
+&nbsp;&nbsp;&nbsp;b. On the **Available Certificates Tasks** page, click **Assign an existing certificate**.
     
-c. On the **Certificate Assignment** page, select **Edge Internal** in the list.
+&nbsp;&nbsp;&nbsp;c. On the **Certificate Assignment** page, select **Edge Internal** in the list.
     
-d. On the **Certificate Store** page, select the certificate you've imported for the internal Edge (from the previous section).
+&nbsp;&nbsp;&nbsp;d. On the **Certificate Store** page, select the certificate you've imported for the internal Edge (from the previous section).
     
-e. On the **Certificate Assignment Summary** page, look over the settings, and then click **Next** to assign the certificate.
+&nbsp;&nbsp;&nbsp;e. On the **Certificate Assignment Summary** page, look over the settings, and then click **Next** to assign the certificate.
     
-f. 6. On the wizard completion page, click **Finish**.
+&nbsp;&nbsp;&nbsp;f. On the wizard completion page, click **Finish**.
     
-g. Once you've completed this procedure, it's a really good idea to open the Certificates MMC snap-in on each Edge Server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and confirm that the internal Edge certificate is listed in the details pane.
+&nbsp;&nbsp;&nbsp;g. Once you've completed this procedure, it's a really good idea to open the Certificates MMC snap-in on each Edge Server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and confirm that the internal Edge certificate is listed in the details pane.
     
 ### External Edge interface certificates
 
  
 ### 1. Create the certificate request
 
-a. Log on to one of your Edge Servers, start the Deployment Wizard, and on **Step 3: Request, Install, or Assign Certificates, click Run** (or **Run Again**, if you've already run this wizard).
+&nbsp;&nbsp;&nbsp;a. Log on to one of your Edge Servers, start the Deployment Wizard, and on **Step 3: Request, Install, or Assign Certificates, click Run** (or **Run Again**, if you've already run this wizard).
     
-b. On the **Available Certificate Tasks** page, click **Create a new certificate request**.
+&nbsp;&nbsp;&nbsp;b. On the **Available Certificate Tasks** page, click **Create a new certificate request**.
     
-c. On the **Certificate Request** page, ensure **External Edge Certificate** is selected, and click **Next**.
+&nbsp;&nbsp;&nbsp;c. On the **Certificate Request** page, ensure **External Edge Certificate** is selected, and click **Next**.
     
-d. On the **Delayed or Immediate Requests** page, click **Prepare the request now, but send it later**.
+&nbsp;&nbsp;&nbsp;d. On the **Delayed or Immediate Requests** page, click **Prepare the request now, but send it later**.
     
-e. On the **Certificate Request File** page, enter the full part and file name for where the file will be saved (such as c:\SkypeInternalEdgeCert.cer). Click **Next**.
+&nbsp;&nbsp;&nbsp;e. On the **Certificate Request File** page, enter the full part and file name for where the file will be saved (such as c:\SkypeInternalEdgeCert.cer). Click **Next**.
     
-f. On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, check the **Use alternative certificate template for the selected Certificate Authority** check box.
+&nbsp;&nbsp;&nbsp;f. On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, check the **Use alternative certificate template for the selected Certificate Authority** check box.
     
-g. On the Name and Security Settings page, do the following:
+&nbsp;&nbsp;&nbsp;g. On the Name and Security Settings page, do the following:
     
-   i. In **Friendly name**, enter a display name for the certificate (such as External Edge).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. In **Friendly name**, enter a display name for the certificate (such as External Edge).
     
-   ii. In **Bit length**, choose your bit length (the default is 2048, you can go higher and be more secure, but it will make performance slow down).
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. In **Bit length**, choose your bit length (the default is 2048, you can go higher and be more secure, but it will make performance slow down).
     
-   iii. If you need an exportable certificate, you must check the **Mark certificate private key as exportable** check box.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. If you need an exportable certificate, you must check the **Mark certificate private key as exportable** check box.
     
-   iv. Click **Next**.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv. Click **Next**.
     
-h. On the **Organization Information** page, enter the name for your organization and organizational unit (OU). You might enter your division or department (IT, for example).
+&nbsp;&nbsp;&nbsp;h. On the **Organization Information** page, enter the name for your organization and organizational unit (OU). You might enter your division or department (IT, for example).
     
-i. On the **Geographical Information** page, enter your location information.
+&nbsp;&nbsp;&nbsp;i. On the **Geographical Information** page, enter your location information.
     
-j. On the **Subject Name/Subject Alternate Names** page, the needed information should be auto-populated by the wizard.
+&nbsp;&nbsp;&nbsp;j. On the **Subject Name/Subject Alternate Names** page, the needed information should be auto-populated by the wizard.
     
-k. On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, check the domain checkbox to add a sip.<sipdomain> entry to the subject alternative names list.
+&nbsp;&nbsp;&nbsp;k. On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, check the domain checkbox to add a sip.<sipdomain> entry to the subject alternative names list.
     
-l. On the **Configure Additional Subject Alternate Names** page, you need to add any additional subject alternative names that you need.
+&nbsp;&nbsp;&nbsp;l. On the **Configure Additional Subject Alternate Names** page, you need to add any additional subject alternative names that you need.
     
-m. On the **Request Summary** page, look over the certificate information that's going to be used to generate your request. If you need to make changes, go back and do so now.
+&nbsp;&nbsp;&nbsp;m. On the **Request Summary** page, look over the certificate information that's going to be used to generate your request. If you need to make changes, go back and do so now.
     
-n. When you're ready, click **Next** to generate the CSR file you'll need to provide to the CA (you can also click **View Log** to look at the log for the certificate request).
+&nbsp;&nbsp;&nbsp;n. When you're ready, click **Next** to generate the CSR file you'll need to provide to the CA (you can also click **View Log** to look at the log for the certificate request).
     
-o. Once the request has been generated, you can click **View** to look at the certificate, and **Finish** to close out the window. The contents of the CSR file need to be given to your CA, so they can generate a certificate for you to import to this computer in the next section.
+&nbsp;&nbsp;&nbsp;o. Once the request has been generated, you can click **View** to look at the certificate, and **Finish** to close out the window. The contents of the CSR file need to be given to your CA, so they can generate a certificate for you to import to this computer in the next section.
     
-p. (OPTIONAL) You may, when submitting the contents of the CSR, be asked for certain information, as follows (CAs vary greatly, so this may not be required):
+&nbsp;&nbsp;&nbsp;p. (OPTIONAL) You may, when submitting the contents of the CSR, be asked for certain information, as follows (CAs vary greatly, so this may not be required):
     
   - **Microsoft** as the server platform
     
@@ -341,84 +341,84 @@ p. (OPTIONAL) You may, when submitting the contents of the CSR, be asked for cer
  
 ### 2. Import the certificate
 
-a. Log on, as a member of the local Administrators group, to the Edge Server you made your certificate request from in the last procedure.
+&nbsp;&nbsp;&nbsp;a. Log on, as a member of the local Administrators group, to the Edge Server you made your certificate request from in the last procedure.
     
-b. In the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run Again**.
+&nbsp;&nbsp;&nbsp;b. In the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run Again**.
     
-c. On the **Available Certificates Tasks** page, click **Import a certificate from a .P7b, .pfx or .cer file**.
+&nbsp;&nbsp;&nbsp;c. On the **Available Certificates Tasks** page, click **Import a certificate from a .P7b, .pfx or .cer file**.
     
-d. On the **Import Certificate** page, type the full path and file name of the certificate you got in the previous section (or you can click **Browse** to find and choose the file that way). If your certificate contains a private key, make sure to select **Certificate file contains certificate's private key**, and enter the password for the private key. Click **Next** when ready.
+&nbsp;&nbsp;&nbsp;d. On the **Import Certificate** page, type the full path and file name of the certificate you got in the previous section (or you can click **Browse** to find and choose the file that way). If your certificate contains a private key, make sure to select **Certificate file contains certificate's private key**, and enter the password for the private key. Click **Next** when ready.
     
-e. On the **Import Certificate Summary** page, review the summary information, and click **Next**.
+&nbsp;&nbsp;&nbsp;e. On the **Import Certificate Summary** page, review the summary information, and click **Next**.
     
-f. On the **Executing Commands** page, you can review the result of the import when it's complete by clicking **View Log**. Click **Finish** to complete the certificate import.
+&nbsp;&nbsp;&nbsp;f. On the **Executing Commands** page, you can review the result of the import when it's complete by clicking **View Log**. Click **Finish** to complete the certificate import.
     
-g. If you have other Edge Servers in a pool, you'll need to follow the next two procedures as well. If this is a standalone Edge Server, you're done with external certificates.
+&nbsp;&nbsp;&nbsp;g. If you have other Edge Servers in a pool, you'll need to follow the next two procedures as well. If this is a standalone Edge Server, you're done with external certificates.
     
  
 ### 3. Export the certificate
 
-a. Make sure you've logged onto the Edge Server you imported the certificate to as a local Administrator.
+&nbsp;&nbsp;&nbsp;a. Make sure you've logged onto the Edge Server you imported the certificate to as a local Administrator.
     
-b. Click **Start**, **Run** (or open **Search** ), and type **MMC**.
+&nbsp;&nbsp;&nbsp;b. Click **Start**, **Run** (or open **Search** ), and type **MMC**.
     
-c. From the MMC console, click **File**, and then click **Add/Remove Snap-in**.
+&nbsp;&nbsp;&nbsp;c. From the MMC console, click **File**, and then click **Add/Remove Snap-in**.
     
-d. From the **Add or Remove Snap-ins** box, click **Certificates**, and click **Add**.
+&nbsp;&nbsp;&nbsp;d. From the **Add or Remove Snap-ins** box, click **Certificates**, and click **Add**.
     
-e. In the **Certificates** snap-in dialog box, choose **Computer account**. Click **Next**.
+&nbsp;&nbsp;&nbsp;e. In the **Certificates** snap-in dialog box, choose **Computer account**. Click **Next**.
     
-f. On the **Select Computer** dialog, select **Local computer: (the computer this console is running on)**. Click **Finish**. Click **OK**, and the configuration of the MMC console is completed.
+&nbsp;&nbsp;&nbsp;f. On the **Select Computer** dialog, select **Local computer: (the computer this console is running on)**. Click **Finish**. Click **OK**, and the configuration of the MMC console is completed.
     
-g. Double-click **Certificates (Local Computer)** to expand the certificate stores. **Double-click Personal**, and then click **Certificates**.
+&nbsp;&nbsp;&nbsp;g. Double-click **Certificates (Local Computer)** to expand the certificate stores. **Double-click Personal**, and then click **Certificates**.
     
     > [!NOTE]
     > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
   
-h. In the **Certificates Personal store** for the local computer, right-click the certificate that you're exporting. **Select All Tasks** from the resulting menu, and then click **Export**.
+&nbsp;&nbsp;&nbsp;h. In the **Certificates Personal store** for the local computer, right-click the certificate that you're exporting. **Select All Tasks** from the resulting menu, and then click **Export**.
     
-i. In the **Certificate Export Wizard**, click **Next**. Select **Yes, export the private key**. Click **Next**.
+&nbsp;&nbsp;&nbsp;i. In the **Certificate Export Wizard**, click **Next**. Select **Yes, export the private key**. Click **Next**.
     
     > [!NOTE]
     > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
   
-j. On the Export File Formats dialog, select Personal Information Exchange - PKCS#12 (.PFX) and then select the following:
+&nbsp;&nbsp;&nbsp;j. On the Export File Formats dialog, select Personal Information Exchange - PKCS#12 (.PFX) and then select the following:
     
-   i. Include all certificates in the certification path, if possible.
+ &nbsp;&nbsp;&nbsp;  i. Include all certificates in the certification path, if possible.
     
-   ii. Export all extended properties.
+ &nbsp;&nbsp;&nbsp;  ii. Export all extended properties.
     
     > [!NOTE]
     > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
   
-k. If you want to assign a password to protect the private key, you can type a password for the private key. Reenter the password to confirm, and then click **Next**.
+&nbsp;&nbsp;&nbsp;k. If you want to assign a password to protect the private key, you can type a password for the private key. Reenter the password to confirm, and then click **Next**.
     
-l. Type a path and file name for the exported certificate, using a file extension of **.pfx**. The path either needs to be accessible by the other Edge Servers in the pool, or you'll need to move the file by means of external media (such as a USB drive). Click **Next** when you've made your choice.
+&nbsp;&nbsp;&nbsp;l. Type a path and file name for the exported certificate, using a file extension of **.pfx**. The path either needs to be accessible by the other Edge Servers in the pool, or you'll need to move the file by means of external media (such as a USB drive). Click **Next** when you've made your choice.
     
-m. Review the summary on the **Completing the Certificate Export Wizard** dialog, and then click **Finish**.
+&nbsp;&nbsp;&nbsp;m. Review the summary on the **Completing the Certificate Export Wizard** dialog, and then click **Finish**.
     
-n. Click **OK** in the successful export dialog.
+&nbsp;&nbsp;&nbsp;n. Click **OK** in the successful export dialog.
     
-o. You'll now need to go back to the Import the certificate section prior to this and import the certificate to all your remaining Edge Servers, then proceed with assigning, below.
+&nbsp;&nbsp;&nbsp;o. You'll now need to go back to the Import the certificate section prior to this and import the certificate to all your remaining Edge Servers, then proceed with assigning, below.
     
  
 ### 4. Assign the certificate
 
-a. On **EACH** Edge Server, in the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run again**.
+&nbsp;&nbsp;&nbsp;a. On **EACH** Edge Server, in the Deployment Wizard, next to **Step 3. Request, Install or Assign Certificates**, click **Run again**.
     
-b. On the **Available Certificates Tasks** page, click **Assign an existing certificate**.
+&nbsp;&nbsp;&nbsp;b. On the **Available Certificates Tasks** page, click **Assign an existing certificate**.
     
-c. On the **Certificate Assignment** page, select **Edge External** in the list.
+&nbsp;&nbsp;&nbsp;c. On the **Certificate Assignment** page, select **Edge External** in the list.
     
-d. On the **Certificate Store** page, select the certificate you've imported for the external Edge (from the previous section).
+&nbsp;&nbsp;&nbsp;d. On the **Certificate Store** page, select the certificate you've imported for the external Edge (from the previous section).
     
-e. On the **Certificate Assignment Summary** page, look over the settings, and then click **Next** to assign the certificate.
+&nbsp;&nbsp;&nbsp;e. On the **Certificate Assignment Summary** page, look over the settings, and then click **Next** to assign the certificate.
     
-f. On the wizard completion page, click **Finish**.
+&nbsp;&nbsp;&nbsp;f. On the wizard completion page, click **Finish**.
     
-g. Once you've completed this procedure, it's a really good idea to open the Certificates MMC snap-in on each server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and confirm that the internal Edge certificate is listed in the details pane.
+&nbsp;&nbsp;&nbsp;g. Once you've completed this procedure, it's a really good idea to open the Certificates MMC snap-in on each server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and confirm that the internal Edge certificate is listed in the details pane.
     
-    > [!NOTE]
+   > [!NOTE]
     > You will also have needed to set up the certificates for your reverse proxy server. That's covered in the Setup Reverse Proxy Servers for Skype for Business Server 2015 topic. 
   
 ## Starting the Edge Servers
@@ -433,6 +433,6 @@ Once the setup is complete, you'll need to start the services on each Edge serve
     
 4. (Optional) Still under **Step 4: Start Services**, click **Services Status**.
     
-5. 5. In the **Services MMC** on each server, verify that all the Skype for Business Server 2015 services are running.
+5.  In the **Services MMC** on each server, verify that all the Skype for Business Server 2015 services are running.
     
 

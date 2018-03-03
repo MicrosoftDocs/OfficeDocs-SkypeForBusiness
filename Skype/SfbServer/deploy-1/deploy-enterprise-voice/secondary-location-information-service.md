@@ -26,9 +26,9 @@ Skype for Business Server provides a web service interface that you can use to p
     
 2. Run the following cmdlet to configure the URL for the location of the secondary location database. 
     
-  ```
-  Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
-  ```
+   ```
+   Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
+   ```
 
 ## See also
 

@@ -43,7 +43,7 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
     
   ```
   Identity : Global
-Usage    : {Internal, Local, Long Distance}
+  Usage    : {Internal, Local, Long Distance}
   ```
 
 ## See also

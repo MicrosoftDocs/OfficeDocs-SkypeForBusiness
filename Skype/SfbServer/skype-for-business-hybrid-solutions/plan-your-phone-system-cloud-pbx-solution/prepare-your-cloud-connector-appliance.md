@@ -143,7 +143,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
     
 ## Update the CloudConnector.ini configuration file
 
-Prepare the CloudConnector.ini file using the information you gathered in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) in the[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
+Prepare the CloudConnector.ini file using the information you gathered in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) in the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
   
 To update the file, first run the following cmdlet to get the sample template (CloudConnector.Sample.ini):
   
@@ -158,7 +158,7 @@ After you update it with the values for your environment, save the file as Cloud
 When updating the .ini file, consider the following:
   
 > [!NOTE]
-> Not all values for the .ini file are discussed in this section, only those with a special consideration are covered here. For a full list, see the [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) section of the[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.> For more information about what values need to be changed for additional appliances or new sites, see [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) in the topic[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> Not all values for the .ini file are discussed in this section, only those with a special consideration are covered here. For a full list, see the [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) section of the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.> For more information about what values need to be changed for additional appliances or new sites, see [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) in the topic[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName:** The default value is **Site1**. You must update it before you deploy Cloud Connector, because when you run **Register-CcAppliance** to register an appliance to an existing or new site, the cmdlet will use **SiteName** to determine which site to register.
     
@@ -166,7 +166,7 @@ When updating the .ini file, consider the following:
     
 - **ServerName:** The server name should not contain the domain name and should be limited to 15 characters.
     
-- **HardwareType:** If you don't set or leave the value to null, the default value of **Normal** will be used. Use **Normal** if you plan to deploy the larger version of Cloud Connector to support 500 simultaneous calls per host machine as described in[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** for a smaller deployment that supports 50 simultaneous calls.
+- **HardwareType:** If you don't set or leave the value to null, the default value of **Normal** will be used. Use **Normal** if you plan to deploy the larger version of Cloud Connector to support 500 simultaneous calls per host machine as described in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** for a smaller deployment that supports 50 simultaneous calls.
     
 - **Internet/Corpnet/Management virtual switches:**: Add the name of the virtual switches you have created. For the management virtual switch, leave the default value. The deployment script will create the management virtual switch at the beginning of deployment and delete it when the deployment finishes.
     

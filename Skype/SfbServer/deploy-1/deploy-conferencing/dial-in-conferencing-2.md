@@ -78,17 +78,17 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 3. Run the following at the command prompt:
     
-  ```
-  Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
-  ```
+   ```
+   Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
+   ```
 
-    For example:
+   For example:
     
-  ```
-  Get-CsDialPlan
-  ```
+   ```
+   Get-CsDialPlan
+   ```
 
-    In this example, all the dial plans configured for your organization are returned.
+   In this example, all the dial plans configured for your organization are returned.
     
 4. Review the returned dial plans to identify any that are missing the dial-in conferencing region. 
     
@@ -102,17 +102,17 @@ For more information, see [Get-CsDialPlan](../../manage/management-shell/get-csd
     
 3. For any dial plans that are missing the dial-in conferencing region, run:
     
-  ```
-  Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
-  ```
+   ```
+   Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
+   ```
 
-    For example:
+   For example:
     
-  ```
-  Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
-  ```
+   ```
+   Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
+   ```
 
-    In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
+   In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
     
 For more information, see [Set-CsDialPlan](../../manage/management-shell/set-csdialplan.md).
   
@@ -139,9 +139,9 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
     
 4. On the **Dial-in Access Number** page, do one of the following:
     
-  - Click **New** to open **New Dial-in Access Number**.
+   - Click **New** to open **New Dial-in Access Number**.
     
-  - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
+   - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
     
     > [!NOTE]
     > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change. 
@@ -157,12 +157,12 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
   
 8. In **SIP URI**, do the following:
     
-  - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
+   - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
     
     > [!NOTE]
     > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number. 
   
-  - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
+   - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
     
 9. In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     

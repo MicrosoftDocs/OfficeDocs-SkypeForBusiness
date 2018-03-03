@@ -59,23 +59,23 @@ To configure archiving options at the global level:
     
 5. In **Edit Archiving Setting - Global**, in the **Archiving setting** drop-down list, select one of the following archiving options:
     
-  - **Disable archiving**
+   - **Disable archiving**
     
-  - **Archive IM sessions**
+   - **Archive IM sessions**
     
-  - **Archive IM and web conferencing sessions**
+   - **Archive IM and web conferencing sessions**
     
 6. Also on the **Edit Archiving Setting - Global** page, do the following:
     
-  - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
+   - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
     
-  - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
+   - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
     
-  - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
+   - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
     
-  - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+   - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
     
-  - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
+   - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
     
 7. Click **Commit**.
     
@@ -95,23 +95,23 @@ You can specify archiving options for a specific site. A site configuration over
     
 6. In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:
     
-  - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
+   - To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.
     
-  - To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.
+   - To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.
     
-  - To disable archiving for the policy, click **Disable archiving**.
+   - To disable archiving for the policy, click **Disable archiving**.
     
 7. Also in **New Archiving Setting**, do the following:
     
-  - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
+   - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
     
-  - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
+   - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
     
-  - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
+   - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
     
-  - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+   - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
     
-  - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
+   - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
     
 8. Click **Commit**.
     
@@ -131,23 +131,23 @@ You can specify archiving options for a specific pool. A pool configuration over
     
 6. In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options:
     
-  - **Disable archiving**
+   - **Disable archiving**
     
-  - **Archive IM sessions**
+   - **Archive IM sessions**
     
-  - **Archive IM and web conferencing sessions**
+   - **Archive IM and web conferencing sessions**
     
 7. Also in **New Archiving Setting** page, do the following:
     
-  - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
+   - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
     
-  - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
+   - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.
     
-  - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
+   - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:
     
-  - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+   - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
     
-  - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
+   - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
     
 8. Click **Commit**.
     

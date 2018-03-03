@@ -40,37 +40,37 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
     
 8. On every Front End Server in both pools, run the following:
     
-  ```
-  <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
-  ```
+   ```
+   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   ```
 
     This configures other services required for backup pairing to work correctly.
     
 9. From a Skype for Business Server Management Shell command prompt, run the following: 
     
-  ```
-  Start-CsWindowsService -Name LYNCBACKUP
-  ```
+   ```
+   Start-CsWindowsService -Name LYNCBACKUP
+   ```
 
 10. Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:
     
-  ```
-  Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
-  ```
+   ```
+   Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+   ```
 
-  ```
-  Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
-  ```
+   ```
+   Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
+   ```
 
-    Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
+   Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
     
-  ```
-  Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
-  ```
+   ```
+   Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+   ```
 
-  ```
-  Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
-  ```
+   ```
+   Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
+   ```
 
 > [!NOTE]
 > The **Automatic failover and failback for Voice** option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server. Selecting this option does not imply that the pool failover discussed in this document is automatic. Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.

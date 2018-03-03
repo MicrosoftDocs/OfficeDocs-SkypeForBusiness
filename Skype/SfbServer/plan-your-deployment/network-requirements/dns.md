@@ -75,7 +75,7 @@ The following tables show DNS records Skype for Business Server 2015 uses to pro
 |A/AAAA  <br/> |Office Web Apps Server pool FQDN  <br/> OWA.contoso.com  <br/> | Office Web Apps Server pool VIP address <br/> 192.168.1.5  <br/> |Defines the Office Web Apps Server pool FQDN  <br/> ||
 |A/AAAA  <br/> | Internal Web FQDN <br/> Web-int.contoso.com  <br/> | Front End pool VIP address <br/> 192.168.21.121  <br/> |Defines the Internal Web FQDN used by Skype for Business Web App  <br/> If you are using DNS load balancing on this pool, your Front End pool and internal web farm cannot have the same FQDN.  <br/> ||
    
- **1** Used by a client to discover the Front End Server or Front End pool, and be authenticated and signed in as a user. More detail on this is in[Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype).
+ **1** Used by a client to discover the Front End Server or Front End pool, and be authenticated and signed in as a user. More detail on this is in [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype).
   
  **2** This is only required to support legacy clients prior to Lync 2013, and desktop handsets.
   

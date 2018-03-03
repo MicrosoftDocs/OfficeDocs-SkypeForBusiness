@@ -27,21 +27,21 @@ After the file has been downloaded complete the following procedure on the Share
     
 2. In the command window, use the cd command to change the current directory to the folder where the file EWSManagedAPI.msi has been saved. For example, if you have saved the file to C:\Downloads type the following command in the command window and then press Enter:
     
-  ```
-  cd C:\Downloads
-  ```
+   ```
+   cd C:\Downloads
+   ```
 
 3. To install the API, type the following command then press Enter:
     
-  ```
-  msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
-  ```
+   ```
+   msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
+   ```
 
 4. After the API has been installed, reset IIS by typing the following command and pressing Enter:
     
-  ```
-  iisreset
-  ```
+   ```
+   iisreset
+   ```
 
 After Exchange Web Services has been installed you must then configure server-to-server authentication between SharePoint Server and Exchange Server. To do this, first open the SharePoint Management Shell and run the following set of commands:
   

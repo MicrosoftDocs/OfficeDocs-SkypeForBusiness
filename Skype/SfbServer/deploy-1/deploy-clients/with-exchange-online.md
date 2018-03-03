@@ -40,28 +40,24 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Skype Room Systems v2.
     
-    If you're changing an existing resource mailbox:
+   If you're changing an existing resource mailbox:
     
-  ```
-  Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> 
--AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
     If you're creating a new resource mailbox:
     
-  ```
-  New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room 
--EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 3. To improve the meeting experience, you'll need to set the Exchange properties on the user account as follows:
     
-  ```
-  Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts 
-$false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
-
-  ```
+   ```
+   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   ```
 
 4. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
     
@@ -74,9 +70,9 @@ Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResp
     
 7. You need to connect to Azure AD to apply some account settings. You can run this cmdlet to connect.
     
-  ```
-  Connect-MsolService -Credential $cred
-  ```
+   ```
+   Connect-MsolService -Credential $cred
+   ```
 
 ### Add an email address for your on-premises domain account
 
@@ -92,12 +88,11 @@ Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResp
     
 3. Once you list out the SKUs, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
     
-  ```
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-Get-MsolAccountSku
-Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+   ```
 
 ### Enable the user account with Skype for Business Server 2015
 
@@ -112,15 +107,15 @@ Import-PSSession $cssess -AllowClobber
 
 2. To enable your Skype Room Systems v2 account for Skype for Business Server 2015, run this command:
     
-  ```
-  Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
-  ```
+   ```
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   ```
 
     If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server 2015 user using this command
     
-  ```
-  Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
-  ```
+   ```
+   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   ```
 
 ### Assign a Skype for Business Server 2015 license to your Skype Room Systems v2 account
 

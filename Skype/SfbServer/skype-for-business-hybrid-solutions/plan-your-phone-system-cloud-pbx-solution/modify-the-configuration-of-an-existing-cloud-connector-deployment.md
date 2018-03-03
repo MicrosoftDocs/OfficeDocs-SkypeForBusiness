@@ -169,7 +169,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 All Cloud Connector credentials are stored in the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml". When the password on the host server changes, you will need to update the locally stored credentials.
   
-To update the locally stored credentials on the Cloud Connector appliance, use the [Get-CcCredential](get-cccredential.md) and[Set-CcCredential](set-cccredential.md) cmdlets and follow these steps:
+To update the locally stored credentials on the Cloud Connector appliance, use the [Get-CcCredential](get-cccredential.md) and [Set-CcCredential](set-cccredential.md) cmdlets and follow these steps:
   
 1. Run the following commands to retrieve the passwords you will need later: 
     
@@ -289,7 +289,7 @@ To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connect
 
 5. 
     
-    Follow the instructions to [Modify the configuration of a single site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) or[Modify the configuration of multiple sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
+    Follow the instructions to [Modify the configuration of a single site](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) or [Modify the configuration of multiple sites](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites).
     
 ## Modify the primary SIP domain
 <a name="BKMK_UpdatePassword"> </a>
