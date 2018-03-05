@@ -19,5 +19,6 @@ Anyone in a team can see all members of a team, including guests, via **Manage t
 As an admin, you can use the Office 365 Admin center to view guest users in the tenant. However, this view shows *all* guest users in the tenant,  not just guest users in Microsoft Teams.
 1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 2. Go to **Users** > **Guest users**.
-3. ![Guest users option in the Office 365 Admin center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
+
+![Guest users option in the Office 365 Admin center.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
   
