@@ -13,7 +13,8 @@
 ### [Change the phone numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Compare audio conferencing providers](../audio-conferencing-in-office-365/compare-audio-conferencing-providers.md)
 ### [Dialing out from a meeting so other people can join it](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md)
+### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Enable or disable sending emails when their settings change](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Enable users to record their name when they join a meeting](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Manage the Audio Conferencing settings for my organization](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
@@ -85,6 +86,7 @@
 #### [Languages for voicemail greetings and messages from Skype for Business](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [What are Phone System auto attendants?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

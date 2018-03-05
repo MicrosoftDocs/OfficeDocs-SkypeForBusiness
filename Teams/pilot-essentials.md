@@ -3,7 +3,7 @@ title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
@@ -98,7 +98,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
+<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s) using [Select users for your Teams pilot](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) guidance.</td>
 </tr>
 </thead>
 <tbody>

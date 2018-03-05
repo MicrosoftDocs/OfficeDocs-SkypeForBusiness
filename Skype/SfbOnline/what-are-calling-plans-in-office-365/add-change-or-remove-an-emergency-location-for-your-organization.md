@@ -24,7 +24,7 @@ description: "Learn to add, change, or remove an emergency location used by  Sky
 
 # Add, change, or remove an emergency location for your organization
 
-Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
+Depending on the number of physical locations in your organization, you can create emergency locations for buildings, floors, and offices to create a more specific emergency address. See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information. 
   
 To learn how to get a Calling Plan and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -82,4 +82,5 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-  
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
