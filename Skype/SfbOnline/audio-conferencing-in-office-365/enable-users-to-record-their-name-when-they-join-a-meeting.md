@@ -30,6 +30,15 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Set whether callers should record their name
 
+**In Microsoft Teams**
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+3. Enable or disable **Enable meeting entry and exit notifications to be turned on**.
+4. Click **Apply**.
+
+
+**In the Skype for Business Admin Center**
+
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
