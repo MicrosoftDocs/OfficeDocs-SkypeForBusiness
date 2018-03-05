@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -118,4 +120,5 @@ A person in your organization can only use one audio conferencing provider. To c
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
-
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

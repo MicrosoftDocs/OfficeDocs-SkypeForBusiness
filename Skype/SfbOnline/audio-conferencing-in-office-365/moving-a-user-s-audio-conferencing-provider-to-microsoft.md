@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 3a518241-1ecc-406a-93a1-d2653eecc0f5
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -60,4 +62,5 @@ To set Microsoft as the audio conferencing provider for a user that has an **Aud
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
-
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

@@ -337,3 +337,5 @@ Below is another deployment option for Contoso. In this case, they decided to se
 
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
 
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

@@ -138,7 +138,7 @@ The maximum number of people in a meeting is 80. There can be 20 members in a pr
 
 -   **Allow scheduling for private meetings**: When turned on, users can schedule private meetings that are not listed in any channel.
 
--   **Allow ad-hoc channel meetup**
+-   **Allow ad-hoc channel meetup**: When turned on, users can quickly start a meeting for a channel that has been created for an immediate or specific purpose.
 
 -   **Allow scheduling for channel meetings**: When turned on, users can schedule a meeting for a channel that all channel members can easily join with a single click.
 

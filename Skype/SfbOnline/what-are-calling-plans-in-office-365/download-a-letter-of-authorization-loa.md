@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -71,3 +73,5 @@ Netherlands <br/> |Non-geographic <br/> |[Letter of Authorization (LOA) for the 
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

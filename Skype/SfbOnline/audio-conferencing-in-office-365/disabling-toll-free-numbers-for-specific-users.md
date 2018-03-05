@@ -8,7 +8,9 @@ ms.date: 02/23/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
 localization_priority: Normal
@@ -48,3 +50,6 @@ When toll-free numbers are disabled for a given organizer:
 You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
  - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

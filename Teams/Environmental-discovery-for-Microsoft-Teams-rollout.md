@@ -1,226 +1,201 @@
 Environmental discovery for Microsoft Teams rollout
 ===================================================
 
-Discovery is one of the very first and key steps that you should take when
-planning for your journey to Microsoft Teams.
+Discovery is one of the very first, key steps that you take when planning for
+your journey to Microsoft Teams.
 
-You should perform a detailed discovery of your environment to better understand
-the current state and to reveal any difficulties or even further, possible
-blockers to the execution of your Teams rollout.
+You perform a detailed discovery of your environment to better understand its
+current state and to reveal any difficulties or —even further— possible blockers
+to the execution of your Teams rollout.
 
 Discovery Questionnaire
 =======================
 
 The sample questionnaire below walks you through a set of questions to confirm
-readiness of your organization to the successful rollout of Audio Conferencing
+that your organization is ready for the successful rollout of Audio Conferencing
 and Phone System with Calling Plans capabilities in Teams.
 
-All matters related to existing collaboration infrastructure and Office 365
-Tenant, networking, endpoints, operations and, adoption and readiness are
+All matters related to your existing collaboration infrastructure and Office 365
+tenant, networking, endpoints, operations, and adoption and readiness are
 included as part of the environmental discovery questionnaire.
 
-The questionnaire is broken down into multiple sections to confirm readiness for
-your Microsoft Teams deployment. Work with your project team to provide the
-requested information as detailed as possible to facilitate the planning
-activities.
+The questionnaire is divided into multiple sections to confirm your
+organization’s readiness for your Teams deployment in several major areas. Work
+with your project team to provide the requested information with as much detail
+as possible to facilitate your planning activities.
 
-You may start with copying the questionnaire into a Microsoft Word document. Try
-to answer all questions and capture all the details as you move through.
+> [!TIP]
+> You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
 
-Project Team
+Project team
 ------------
 
-Capture detailed information about the key stakeholders of the Teams rollout
-project. Please note that one person can play several roles throughout the
-project.
+Capture detailed information about the key stakeholders of your Teams rollout project. Note that one person can play several roles throughout the project.
 
-| Role                                  | Name, Email Address, Phone Number | Location, Time Zone | Comments |
-|---------------------------------------|-----------------------------------|---------------------|----------|
-| Executive Sponsor                     |                                   |                     |          |
-| Project Lead                          |                                   |                     |          |
-| Collaboration Lead/Architect          |                                   |                     |          |
-| Consultant                            |                                   |                     |          |
-| Project Manager                       |                                   |                     |          |
-| Change Management/Adoption Specialist |                                   |                     |          |
-| Network Lead                          |                                   |                     |          |
-| Security Lead                         |                                   |                     |          |
-| Telephony Lead                        |                                   |                     |          |
-| Desktop Lead                          |                                   |                     |          |
-| Support/Help Desk Lead                |                                   |                     |          |
-| Deployment Lead                       |                                   |                     |          |
-| Service Owner                         |                                   |                     |          |
-| Facilities Lead                       |                                   |                     |          |
-| Video Team Lead                       |                                   |                     |          |
-| In scope Business Unit Leads          |                                   |                     |          |
+> | Role                                  | Name, email address, phone number | Location, time zone | Comments      |
+> |---------------------------------------|-----------------------------------|---------------------|---------------|
+> | Executive Sponsor                     |                                   |                     |               |
+> | Project Lead                          |                                   |                     |               |
+> | Collaboration Lead/Architect          |                                   |                     |               |
+> | Consultant                            |                                   |                     |               |
+> | Project Manager                       |                                   |                     |               |
+> | Change Management/Adoption Specialist |                                   |                     |               |
+> | Network Lead                          |                                   |                     |               |
+> | Security Lead                         |                                   |                     |               |
+> | Telephony Lead                        |                                   |                     |               |
+> | Desktop Lead                          |                                   |                     |               |
+> | Support/Help Desk Lead                |                                   |                     |               |
+> | Deployment Lead                       |                                   |                     |               |
+> | Service Owner                         |                                   |                     |               |
+> | Facilities Lead                       |                                   |                     |               |
+> | Video Team Lead                       |                                   |                     |               |
+> | Business Unit Leads                   |                                   |                     |               |
 
-Office 365 Tenant Details
+Office 365 tenant details
 -------------------------
 
-It is highly recommended to have an active Office 365 tenant as you work with
-this questionnaire. If you do not have Office 365 tenant activated or configured
-yet, visit [Plan your setup of Office 365 for
-business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+We highly recommend that you have an active Office 365 tenant as you work with
+this questionnaire. If you haven’t activated or configured an Office 365 tenant
+yet, see [Plan your setup of Office 365 for business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Use the following table and capture the Office 365 Tenant details.
+Use the following table to capture information about the Office 365 tenant.
 
-| Question                                                                                                                                                                 | Answer                                                                                                                                                                                          | Comments                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Does your organization already have a production O365 Tenant? Note: If there is more than one tenant associated with your organization, capture all the IDs.             | Yes No                                                                                                                                                                                          | Tenant Name: Tenant ID:           |
-| In what region(s) are the tenant(s) deployed?                                                                                                                            |                                                                                                                                                                                                 |                                   |
-| Is/are these tenant(s) O365 Multitenant or Dedicated?                                                                                                                    | Multitenant Dedicated                                                                                                                                                                           |                                   |
-| Which Microsoft Online products are in use today? Note: Capture the number of users enabled for each service in the comments column.                                     | Microsoft Teams Skype for Business Online Exchange Online SharePoint Online OneDrive for Business Yammer Other                                                                                  |                                   |
-| What License level is enabled for Skype Online users?                                                                                                                    | E1/G1 E2/G2 E3/G3 E4/G4 E5                                                                                                                                                                      | The number of users for each SKU: |
-| What is the current Active Directory forest functional level in the environment? Note: If there is more than one Forest, please note the details in the comments column. | Windows Server 2000 Windows Server 2003 Windows Server 2008 Windows Server 2008 R2 Windows Server 2012 Windows Server 2012 R2 Windows Server 2016                                               |                                   |
-| What is being used for Directory Synchronization today?                                                                                                                  | No sync (Cloud Only) Azure AD Connect Other (Specify in the comments column)                                                                                                                    |                                   |
-| Is federated identity currently deployed? (ADFS or 3rd party)                                                                                                            | Yes No                                                                                                                                                                                          |                                   |
-| If federated identity is used, what is the federation infrastructure?                                                                                                    | Windows 2008 R2 AD FS Windows 2012 AD FS Windows 2012 R2 AD FS Windows 2016 AD FS 3rd party federation gateway (please describe in comments column)                                             |                                   |
-| If you currently maintain an active Office 365 tenant, is the SMTP/SIP domain of your targeted users associated with the tenant?                                         | N/A – No Office 365 tenant in place No, users’ SMTP/SIP domain is not associated with any tenants in Office 365 Yes, users’ SMTP/SIP domain is associated with an existing tenant in Office 365 |                                   |
-| Do user UPNs match their Primary SMTP address?                                                                                                                           | Yes No Inconsistently                                                                                                                                                                           |                                   |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | Note the production Office 365 tenant name and ID in the Answer column <br/>If you have more than one tenant associated with your organization, note all the IDs.  | Tenant Name: <br/>Tenant ID:| |
+> | In what regions are the tenants deployed?| | |
+> | Are these tenants Office 365 Multitenant or Dedicated? | <input type="checkbox"> Multitenant<br/> <input type="checkbox"> Dedicated | |
+> | Which Microsoft Online products are in use today? <br/>Note the number of users enabled for each service in the Comments column. | <input type="checkbox"> Microsoft Teams <br/> <input type="checkbox"> Skype for Business Online <br/> <input type="checkbox"> Exchange Online <br/> <input type="checkbox"> SharePoint Online <br/> <input type="checkbox"> OneDrive for Business <br/> <input type="checkbox"> Yammer <br/> <input type="checkbox"> Other|                                   |
+> | What license level is enabled for Skype for Business Online users? | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 | The number of users for each SKU: |
+> | What is the current Active Directory forest functional level in the environment? <br/>If there’s more than one forest, note the details in the Comments column. | <input type="checkbox"> Windows Server 2000 <br/> <input type="checkbox"> Windows Server 2003 <br/> <input type="checkbox"> Windows Server 2008<br/> <input type="checkbox"> Windows Server 2008 R2 <br/> <input type="checkbox"> Windows Server 2012 <br/> <input type="checkbox"> Windows Server 2012 R2 <br/> <input type="checkbox"> Windows Server 2016| |
+> | What are you using for directory synchronization today? |<input type="checkbox"> No sync (cloud only) <br/> <input type="checkbox"> Azure Active Directory Connect <br/> <input type="checkbox"> Other (Specify in the Comments column.)| |
+> | Is federated identity currently deployed? <br/>(Active Directory Federation Service or third-party) | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | If you’re using federated identity, what is the federation infrastructure? | <input type="checkbox"> Windows 2008 R2 AD FS <br/> <input type="checkbox"> Windows 2012 AD FS <br/> <input type="checkbox"> Windows 2012 R2 AD FS <br/> <input type="checkbox"> Windows 2016 AD FS <br/> <input type="checkbox"> Third-party federation gateway (Note the details in the Comments column.) | |
+> | If you currently maintain an active Office 365 tenant, is the SMTP/SIP domain of your targeted users associated with the tenant? | <input type="checkbox"> N/A – No Office 365 tenant in place <br/> <input type="checkbox"> No, users’ SMTP/SIP domain isn’t associated with any tenants in Office 365 <br/> <input type="checkbox"> Yes, users’ SMTP/SIP domain is associated with an existing tenant in Office 365 | |
+> | Do user UPNs match their primary SMTP address? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> Inconsistently | |
 
-Existing Collaboration Platform Summary
+Existing collaboration platform summary
 ---------------------------------------
 
-Use the following table and capture existing collaboration platform deployment
-details.
+Use the following table to capture information about your existing collaboration platform deployment.
 
-| Question                                                                                                                                          | Answer                                                                                                                                                                         | Comments              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
-| Is Microsoft Teams deployed?                                                                                                                      | Yes No                                                                                                                                                                         |                       |
-| Is Skype for Business deployed? Note: For on-premises and hybrid deployments, make sure you capture the version and CU details in the comments.   | Yes, Office 365 Yes, Hybrid (with Office 365) Yes, On Premises Yes, Online, Dedicated (Microsoft) Yes, Hosted, Dedicated (3rd party) Yes, Hosted, Shared (3rd party) No, other |                       |
-| Is Exchange deployed? Note: For on-premises and hybrid deployments, make sure you capture the version and CU details in the comments.             | Yes, Office 365 Yes, Hybrid (with Office 365) Yes, On Premises Yes, Online, Dedicated (Microsoft) Yes, Hosted, Dedicated (3rd party) Yes, Hosted, Shared (3rd party) No, other |                       |
-| Is SharePoint deployed? Note: For on-premises and hybrid deployments, make sure you capture the version and CU details in the comments.           | Yes, Office 365 Yes, Hybrid (with Office 365) Yes, On Premises Yes, Online, Dedicated (Microsoft) Yes, Hosted, Dedicated (3rd party) Yes, Hosted, Shared (3rd party) No, other |                       |
-| Is Office 365 OneDrive for Business Online deployed?                                                                                              | Yes No                                                                                                                                                                         |                       |
-| Do you have any other 3rd party platforms deployed and in use today? If so, note the number of users using these platforms and the usage details. | Cisco WebEx Slack Other (please specify in the comments column)                                                                                                                | No of users: Details: |
-| Are you planning to move users from these 3rd party platforms to Microsoft Teams?                                                                 | Yes No                                                                                                                                                                         |                       |
-| What is the current telephony and conferencing solution of the users who are in scope for this initiative?                                        |                                                                                                                                                                                |                       |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | Is Microsoft Teams deployed? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Is Skype for Business deployed? <br/>For on-premises and hybrid deployments, make sure you note the version and cumulative update (CU) details in the Comments column. | <input type="checkbox"> Yes, Office 365 <br/> <input type="checkbox"> Yes, hybrid (with Office 365) <br/> <input type="checkbox"> Yes, on-premises <br/> <input type="checkbox"> Yes, online, dedicated (Microsoft) <br/> <input type="checkbox"> Yes, hosted, dedicated (third party) <br/> <input type="checkbox"> Yes, hosted, shared (third party) <br/> <input type="checkbox"> No, other | |
+> | Is Exchange deployed? <br/>For on-premises and hybrid deployments, make sure you note the version and CU details in the Comments column. | <input type="checkbox"> Yes, Office 365 <br/> <input type="checkbox"> Yes, hybrid (with Office 365) <br/> <input type="checkbox"> Yes, on-premises <br/> <input type="checkbox"> Yes, online, dedicated (Microsoft) <br/> <input type="checkbox"> Yes, hosted, dedicated (third party) <br/> <input type="checkbox"> Yes, hosted, shared (third party) <br/> <input type="checkbox"> No, other | |
+> | Is SharePoint deployed? <br/>For on-premises and hybrid deployments, make sure you note the version and CU details in the Comments column. | <input type="checkbox"> Yes, Office 365 <br/> <input type="checkbox"> Yes, hybrid (with Office 365) <br/> <input type="checkbox"> Yes, on-premises <br/> <input type="checkbox"> Yes, online, dedicated (Microsoft) <br/> <input type="checkbox"> Yes, hosted, dedicated (third party) <br/> <input type="checkbox"> Yes, hosted, shared (third party) <br/> <input type="checkbox"> No, other | |
+> | Is Office 365 OneDrive for Business deployed? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Do you have any other third-party platforms deployed and in use today? <br/>If so, note the number of users of these platforms and the usage details in the Comments column. | <input type="checkbox"> Cisco WebEx <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> Other (Specify in the Comments column.) | Number of users: <br/>Details:|
+> | Are you planning to move users from these third-party platforms to Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | What is the current telephony and conferencing solution of the users who are in scope for this initiative? | | |
 
-Collaboration Platform Deployment Details
+Collaboration platform deployment details
 -----------------------------------------
 
 ### Microsoft Teams (if applicable)
 
-If applicable, capture the details of your Teams deployment using the sample
-table below. Skip this section, if Teams is not enabled on your tenant.
+If applicable, capture the details of your Teams deployment by using the sample table below. If you haven’t deployed Teams, skip this section.
 
-| Question                                                                                             | Answer                                                                                                                                                                                                                                                                                                                                                     | Comments |
-|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| What types of users are enabled for Teams?                                                           | All users in the organization Specific users/user groups (Capture the details in the comments column)                                                                                                                                                                                                                                                      |          |
-| Which Teams features, and modalities are in use?                                                     | Channel based conversations Private chat Guest Access Channel Meetings Private Meetings Private Calling Ad-hoc channel meetup Videos in meetings Screen Sharing in meetings Audio Conferencing Applications (Apps) Tabs Bots Connectors Custom cloud storage integration (Box, Dropbox, ShareFile, Google Drive) Channel email integration Other (specify) |          |
-| What applications have been deployed to Teams?                                                       |                                                                                                                                                                                                                                                                                                                                                            |          |
-| Have you specifically blocked any Teams capabilities? Note: If Yes, capture details in the comments. | Yes (Describe the details) No                                                                                                                                                                                                                                                                                                                              |          |
-| Which Teams clients are in use?                                                                      | Web Windows Mac iOS Android Windows Mobile                                                                                                                                                                                                                                                                                                                 |          |
-| Who has permissions to create teams?                                                                 | Everyone in the organization (This is the default setting) Specific people (specify)                                                                                                                                                                                                                                                                       |          |
-| Are you using security and compliance features in Teams?                                             | Yes No                                                                                                                                                                                                                                                                                                                                                     |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What types of users are enabled for Teams? | <input type="checkbox"> All users in the organization <br/> <input type="checkbox"> Specific users/user groups (Specify in the Comments column) ||
+> | Which Teams features and modalities are in use? | <input type="checkbox"> Channel-based conversations <br/> <input type="checkbox"> Private chat <br/> <input type="checkbox"> Guest access <br/> <input type="checkbox"> Channel meetings <br/> <input type="checkbox"> Private meetings <br/> <input type="checkbox"> Private calling <br/> <input type="checkbox"> Ad-hoc channel meetup <br/> <input type="checkbox"> Videos in meetings <br/> <input type="checkbox"> Screen sharing in meetings <br/> <input type="checkbox"> Audio conferencing <br/><input type="checkbox"> Applications (apps) <ul><li><input type="checkbox"> Tabs<li><input type="checkbox"> Bots <li><input type="checkbox"> Connectors </ul><input type="checkbox"> Custom cloud storage integration (Box, Dropbox, ShareFile, Google Drive) <br/> <input type="checkbox"> Channel email integration <br/> <input type="checkbox"> Other (Specify in the Comments column.) | |
+> | What applications have you deployed to Teams? | | |
+> | Have you specifically blocked any Teams capabilities? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
+> | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
+> | Who has permissions to create teams? | <input type="checkbox"> Everyone in the organization (This is the default setting) <br/> <input type="checkbox"> Specific people (Specify in the Comments column.) | |
+> | Are you using security and compliance features in Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 
 ### Skype for Business Online (if applicable)
 
-If applicable, capture the details of your Skype for Business Online deployment
-using the sample table below. Skip this section, if you have no Skype for
-Business Online deployment.
+If applicable, capture the details of your Skype for Business Online deployment by using the sample table below. If you haven’t deployed Skype for Business Online deployment,  skip this section.
 
-| Question                                                                                                                        | Answer                                                                                                                                                                                                                                                           | Comments |
-|---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| What types of users are enabled for Skype for Business Online?                                                                  | All users in the organization Specific users/user groups (Capture the details)                                                                                                                                                                                   |          |
-| What modalities and features are currently in use today?                                                                        | Instant Messaging and Presence (IM/P) Conferencing Federation Meeting Recording Microsoft Audio Conferencing 3rd Party Audio Conferencing (Capture the details in the comments) Calling Plans (formerly PSTN calling) Organizational Auto Attendants Call Queues |          |
-| Have you specifically blocked any Skype for Business Online capabilities? Note: If Yes, provide details in the Comments column. | Yes No                                                                                                                                                                                                                                                           |          |
-| What method is being used or is planned to connect the Phone System (formerly Cloud PBX) to the PSTN? (check all that apply)    | Calling Plans (formerly PSTN calling) On-premises PSTN Connectivity (leveraging existing Skype for Business 2015 / Lync Server 2013 Deployment) On-premises PSTN Connectivity (using Cloud Connector)                                                            |          |
-| Have you ported any phone numbers to Microsoft? (applicable to Calling Plans and Audio Conferencing)                            | Yes No                                                                                                                                                                                                                                                           |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What types of users are enabled for Skype for Business Online? | <input type="checkbox"> All users in the organization <br/> <input type="checkbox"> Specific users/user groups (Specify in the Comments column) | |
+> | What modalities and features are currently in use today? | <input type="checkbox"> Instant Messaging and Presence (IM/P)<br/> <input type="checkbox"> Conferencing <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Meeting Recording <br/> <input type="checkbox"> Microsoft Audio Conferencing <br/> <input type="checkbox"> Third-party audio conferencing (Note the details in the Comments column.) <br/> <input type="checkbox"> Calling Plans (formerly PSTN calling) <br/> <input type="checkbox"> Organizational Auto Attendants <br/> <input type="checkbox"> Call Queues | |
+> | Have you specifically blocked any Skype for Business Online capabilities? If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | What method are you using or plan to use to connect Phone System (formerly Cloud PBX) to the PSTN? <br/>Select all that apply. | <input type="checkbox"> Calling Plans (formerly PSTN calling) <br/> <input type="checkbox"> On-premises PSTN connectivity (leveraging existing Skype for Business 2015 or Lync Server 2013 deployment) <br/> <input type="checkbox"> On-premises PSTN connectivity (using Cloud Connector) | |
+> | Have you ported any phone numbers to Microsoft? <br/>This is applicable to Calling Plans and Audio Conferencing features. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 
-### Skype for Business On-Premises (if applicable)
+### Skype for Business on-premises (if applicable)
 
-If applicable, capture the details of your Skype for Business deployment using
-the sample table below. Skip this section, if you have no Skype for Business
-deployment on your premises.
+If applicable, capture the details of your Skype for Business deployment by using the sample table below. If you haven’t deployed Skype for Business on-premises, skip this section.
 
-| Question                                                                                                                                            | Answer                                                                                                                                                                                                                                                                                                                                                                                                                                             | Comments |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| What versions of Lync/Skype for Business currently are deployed on-premises?                                                                        | OCS 2007 “R1” OCS 2007 R2 Lync Server 2010 Lync Server 2013 Skype for Business Server 2015 Skype for Business Cloud Connector Edition                                                                                                                                                                                                                                                                                                              |          |
-| Is hybrid with Skype for Business Online configured?                                                                                                | Yes No                                                                                                                                                                                                                                                                                                                                                                                                                                             |          |
-| Is this environment hosted and managed by a 3rd party, if so please provide details in the comments?                                                | Yes No                                                                                                                                                                                                                                                                                                                                                                                                                                             |          |
-| What modalities and features are currently in use today?                                                                                            | Instant Messaging and Presence (IM/P) Conferencing Federation Meeting Recording Persistent Chat / Group Chat Microsoft Audio Conferencing (formerly Dial in Conferencing) on your on-premises Lync/Skype for Business deployment 3rd Party Audio Conferencing (Please provide details in the comments column) Enterprise Voice using on-premises PSTN connectivity Calling Plans (formerly PSTN calling) via Hybrid with Skype for Business Online |          |
-| Which version(s) of Edge Server do you have deployed?                                                                                               | OCS 2007 “R1” OCS 2007 R2 Lync Server 2010 Lync Server 2013 Skype for Business Server 2015                                                                                                                                                                                                                                                                                                                                                         |          |
-| Do you have Lync / Skype for Business Edge deployed into more than one data center? If yes, capture the details.                                    | Yes No                                                                                                                                                                                                                                                                                                                                                                                                                                             |          |
-| Select services that your Edge role provides today                                                                                                  | External User Access (corporate users) Remote User Access (anonymous external meeting participants) Federation Media Relay                                                                                                                                                                                                                                                                                                                         |          |
-| Which of the following Voice calling features do you currently have dependencies on? Note: Capture additional dependencies in the comments section. | Busy options Call park Call Pickup / Group Call Pickup Common Area Phones / Hot Desking Response Groups / Hunt Groups Shared Line Appearance Private Line Voice Mail Call via work Emergency/Information numbers (911, 811, 411) Extension dialing Auto Attendant Subscriber Access Analog Devices Fax Caller ID Masking/Altering Location Based Routing Least Cost Routing Elevator Phone                                                         |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What versions of Lync or Skype for Business currently are deployed on-premises? | <input type="checkbox"> Office Communications Server 2007 “R1” <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 <br/> <input type="checkbox"> Skype for Business Cloud Connector Edition | |
+> | Is hybrid with Skype for Business Online configured? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Is this environment hosted and managed by a third party? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | What modalities and features are currently in use today? | <input type="checkbox"> Instant Messaging and Presence (IM/P) <br/> <input type="checkbox"> Conferencing <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Meeting Recording <br/> <input type="checkbox"> Persistent Chat / Group Chat <br/> <input type="checkbox"> Microsoft Audio Conferencing (formerly Dial in Conferencing) on your on-premises Lync Server or Skype for Business deployment <br/> <input type="checkbox"> Third-party audio conferencing (Note the details in the Comments column) <br/> <input type="checkbox"> Enterprise Voice using on-premises PSTN connectivity <br/> <input type="checkbox"> Calling Plans (formerly PSTN calling) via Hybrid with Skype for Business Online | |
+> | Which version(s) of Edge Server do you have deployed? | <input type="checkbox"> Office Communications Server 2007 “R1” <br/> <input type="checkbox"> Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox"> Skype for Business Server 2015 | |
+> | Do you have Lync or Skype for Business Edge deployed into more than one datacenter? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Select services that your Edge role provides today | <input type="checkbox"> External user access (corporate users) <br/> <input type="checkbox"> Remote user access (anonymous external meeting participants) <br/> <input type="checkbox"> Federation <br/> <input type="checkbox"> Media relay | |
+> | Which of the following voice calling features do you currently have dependencies on? <br/>Note any additional dependencies in the Comments column. | <input type="checkbox"> Busy options <br/> <input type="checkbox"> Call park <br/> <input type="checkbox"> Call pickup or group call pickup <br/> <input type="checkbox"> Common area phones, or “hot desking” <br/> <input type="checkbox"> Response groups or hunt groups <br/> <input type="checkbox"> Shared line appearance <br/> <input type="checkbox"> Private line <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Call via work <br/> <input type="checkbox"> Emergency or information numbers (911, 811, 411) <br/> <input type="checkbox"> Extension dialing <br/> <input type="checkbox"> Auto Attendant <br/> <input type="checkbox"> Subscriber access <br/> <input type="checkbox"> Analog devices <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Caller ID masking or altering <br/> <input type="checkbox"> Location-based routing <br/> <input type="checkbox"> Least-cost routing <br/> <input type="checkbox"> Elevator phones | |
 
-### Networking / Access to Office 365 Services
+Networking and access to Office 365 services
+--------------------------------------------
 
-Use the following table and capture organization’s networking details and, how
-your users are/will be connected to Office 365 services.
+Use the following table to capture your organization’s networking details and
+how your users are (or will be) connected to Office 365 services.
 
-| Question                                                                                                                                                                                         | Answer                                                                                                      | Comments |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------|
-| How do/will the users in scope for migration access Microsoft Teams when in the office? (Check all that apply)                                                                                   | Routed NAT connection Proxy Server Public Wi-Fi Managed (not public) Wi-Fi ExpressRoute (Microsoft Peering) |          |
-| If access to O365 is via a Proxy server is there an ability to bypass the Proxy?                                                                                                                 | Yes No                                                                                                      |          |
-| Is ExpressRoute being used today?                                                                                                                                                                | Yes No No, but it is being planned                                                                          |          |
-| Have you performed Network Readiness Assessment? For more information see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) | Yes No                                                                                                      |          |
-| Are users required to utilize a VPN when connecting to corporate resources remotely?                                                                                                             | Yes No                                                                                                      |          |
-| If a VPN is used can Microsoft Teams traffic be excluded from the VPN to access O365 Services directly?                                                                                          | Yes No                                                                                                      |          |
-| Does your network support QoS?                                                                                                                                                                   | Yes No                                                                                                      |          |
-| Can you prioritize Microsoft Teams audio and video traffic to drive a high-quality experience?                                                                                                   | Yes No                                                                                                      |          |
-| Do all locations within a region have internet egress, or is internet egress centralized for the entire region?                                                                                  | Regional access to internet Centralized access to internet                                                  |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | How do (or how will) the users in scope for migration access Teams when they’re in the office? <br/>Select all that apply. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxy server <br/> <input type="checkbox"> Public Wi-Fi <br/> <input type="checkbox"> Managed (not public) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft peering) ||
+> | If access to Office 365 is through a proxy server, is there any way to bypass the proxy? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Is ExpressRoute being used today? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No <br/> <input type="checkbox"> No, but it’s being planned | |
+> | Have you performed a Network Readiness Assessment? <br/>For more information see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Are users required to use a VPN when connecting to corporate resources remotely? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | If a VPN is used, can Teams traffic be excluded from the VPN to access Office 365 Services directly? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Does your network support QoS? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Can you prioritize Teams audio and video traffic to drive a high-quality experience? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Do all locations within a region have internet egress, or is internet egress centralized for the entire region? | <input type="checkbox"> Regional access to the internet <br/> <input type="checkbox"> Centralized access to the internet | |
 
-Note: To calculate the amount of bandwidth and network requirements for your
-cloud voice deployment, depending your organization’s details and estimated
-usage, visit [Network
-Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in
-[MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
+> [!TIP]
+> To calculate the amount of bandwidth and other network requirements for your cloud voice deployment, depending your organization’s details and estimated usage, visit [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
-### Endpoints
+Endpoints
+---------
 
-Use the following table and capture the details of the clients and endpoints in
-use.
+Use the following table to capture the details of the clients and endpoints in use.
 
-| Question                                                                                                           | Answer                                                                                                                  | Comments |
-|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------|
-| What desktop OS are the users using?                                                                               | XP Windows 7 Windows 8 Windows 10 Mac (Specify version in comments) Other (Capture the details in the comments)         |          |
-| What version of Microsoft Office is deployed to these devices?                                                     | Office 2003 Office 2007 Office 2010 Office 2013 Office 2016 Mac Office 2011 Mac Office 2016 Other (capture the details) |          |
-| Which Office deployment technology is in use within your organization?                                             | MSI Click-to-Run                                                                                                        |          |
-| What are the allowed / supported mobile platforms in use? (select all that apply)                                  | Windows Mobile iOS Android Other (capture the details)                                                                  |          |
-| How are mobile devices provided? (select all that apply)                                                           | Corporate devices BYOD                                                                                                  |          |
-| What devices do users currently use to access voice and conferencing services (handsets, headsets, phones, video)? |                                                                                                                         |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What desktop OS are the users using? | <input type="checkbox"> Windows XP <br/> <input type="checkbox"> Windows 7 <br/> <input type="checkbox"> Windows 8 <br/> <input type="checkbox"> Windows 10 <br/> <input type="checkbox"> Mac (Specify the version in the Comments column.) <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
+> | What version of Microsoft Office is deployed to these devices? | <input type="checkbox"> Office 2003 <br/> <input type="checkbox"> Office 2007 <br/> <input type="checkbox"> Office 2010 <br/> <input type="checkbox"> Office 2013 <br/> <input type="checkbox"> Office 2016 <br/> <input type="checkbox"> Office for Mac 2011 <br/> <input type="checkbox"> Office for Mac 2016 <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
+> | Which Office deployment technology is in use in your organization? | <input type="checkbox"> MSI <br/> <input type="checkbox"> Click-to-Run | |
+> | What are the allowed and supported mobile platforms in use? <br/>Select all that apply. | <input type="checkbox"> Windows <br/> <input type="checkbox"> Mobile <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
+> | How are mobile devices provided? <br/>Select all that apply. | <input type="checkbox"> Corporate devices <br/> <input type="checkbox"> Bring your own device | |
+> | What devices do users currently use to access voice and conferencing services (handsets, headsets, phones, video)? | | |
 
-### Operations
+Operations
+----------
 
-Use the following table and capture the details of the operational aspects of
-the environment.
+Use the following table to capture the details of the operational aspects of your environment.
 
-| Question                                                                                                                                       | Answer                                                             | Comments |
-|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|----------|
-| What is your operations model for your Lync Server/ Skype for Business Server or Office 365 today?                                             |                                                                    |          |
-| Can you outline the current support arrangement for Lync Server/ Skype for Business Server or Office 365?                                      |                                                                    |          |
-| If deploying to multiple countries or regions, do each country have its own IT/Telephony staff to work with or will this be managed centrally? | Regional operations and support Centralized operations and support |          |
-| Are you following the Call Quality Methodology?                                                                                                | Yes No                                                             |          |
-| Have you assigned an individual or a team as the Quality Champion of the collaboration platform in use?                                        | Yes No                                                             |          |
-| How do you monitor your Lync Server/ Skype for Business Server or Office 365 deployment?                                                       |                                                                    |          |
-| Do you experience call quality issues?                                                                                                         | Yes No                                                             |          |
-| How and when do you provide training to your Helpdesk on new services and capabilities?                                                        |                                                                    |          |
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What is your operations model for your Lync Server, Skype for Business Server, or Office 365 deployment today? | | |
+> | Can you outline the current support arrangement for Lync Server, Skype for Business Server, or Office 365? | | |
+> | If you’re deploying to multiple countries or regions, does each country/region have its own IT/telephony staff to work with, or will this be managed centrally? | <input type="checkbox"> Regional operations and support <br/> <input type="checkbox"> Centralized operations and support | |
+> | Are you following the Call Quality Methodology? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Have you assigned an individual or team to the Quality Champion role for the collaboration platform in use? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
+> | How do you monitor your Lync Server, Skype for Business Server, or Office 365 deployment? | | |
+> | Do you experience call quality issues? | <input type="checkbox"> Yes<br/> <input type="checkbox"> No | |
+> | How and when do you provide training to your helpdesk on new services and capabilities? | | |
 
-### Adoption and Readiness
+Adoption and readiness
+----------------------
 
-Use the following table and capture the current adoption and readiness state of
-your organization.
+Use the following table and capture the current adoption and readiness state of your organization.
 
-| Question                                                                                                    | Answer                                                                                                                                                                                                                                                                                          | Comments |
-|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| What is your current active usage of SFB?                                                                   | \___\_ % total active users vs enabled users                                                                                                                                                                                                                                                    |          |
-| How is your organization using SFB? Verify numbers on available usage reports                               | 1:1 conversations                                                                                                                                                                                                                                                                               |          |
-| Does your organization have a User Adoption and Change Management team?                                     | Yes No                                                                                                                                                                                                                                                                                          |          |
-| How do you currently measure success for technology rollouts like Skype for Business?                       |                                                                                                                                                                                                                                                                                                 |          |
-| What % of your user base would you consider adopted on Skype for Business?                                  |                                                                                                                                                                                                                                                                                                 |          |
-| What is user sentiment around Skype for Business?                                                           |                                                                                                                                                                                                                                                                                                 |          |
-| Which of the following best describes the rollout strategy utilized for your Skype for Business deployment? | **Broad-Reach**: Email campaign with links to training **Expanded:** Broach-reach plus a variety of awareness (e.g. posters, events, champions) and training (videos, user guides, in-person) **Tailored:** Expanded, plus targeted messaging and training by persona **Other:** Please explain |          |
-
--   IM
-
--   Calling
-
--   Sharing
-
-Meetings
-
--   Conferencing
-
--   Sharing
-
->   Calling
+> | Question | Answer | Comments |
+> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> | What is your current active usage of Skype for Business? | ______ % total active users versus enabled users | |
+> | How is your organization using Skype for Business? | 1:1 conversations <ul><li> <input type="checkbox"> IM <li> <input type="checkbox"> Calling <li> <input type="checkbox"> Sharing</ul> Meetings <ul><li><input type="checkbox"> Conferencing<li><input type="checkbox"> Sharing</ul><input type="checkbox"> Calling</ul>| |
+> | Does your organization have a User Adoption and Change Management team? | <input type="checkbox"> Yes<br/> <input type="checkbox"> No | |
+> | How do you currently measure success for technology rollouts like Skype for Business? | | |
+> | What percentage of your user base would you say has adopted Skype for Business? | | |
+> | What is user sentiment around Skype for Business? | <input type="checkbox"> Good <br/> <input type="checkbox"> Neutral <br/> <input type="checkbox"> Bad | |
+> | Which of the following best describes the rollout strategy used for your Skype for Business deployment? | <input type="checkbox"> Broad reach: Email campaign with links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety of awareness campaigns (posters, events, champions) and training (videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted messaging and training by persona <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
