@@ -41,20 +41,16 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 
 **Using the Skype for Business Admin Center**
-
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. Under **Meeting join experience**, see the check box labeled **Enable meeting entry and exit notifications to be turned on**.
+2. Under **Meeting join experience**, see the check box labeled **Enable meeting entry and exit notifications to be turned on**.
     
   - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
     
   - **Cleared** Callers won't be asked to record their name before they enter the meeting.
     
-5. After you make your changes, click **Save**.
+3. After you make your changes, click **Save**.
     
 ## Want to know how to manage with Windows PowerShell?
 

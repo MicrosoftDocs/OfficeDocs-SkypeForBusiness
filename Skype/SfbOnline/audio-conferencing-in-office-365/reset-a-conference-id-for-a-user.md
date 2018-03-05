@@ -35,13 +35,25 @@ Conference IDs are only automatically set only for Skype for Business and Micros
   
 ## Resetting the conference ID for a user
 
-1. Sign in to Office 365 with your work or school account.
+**Using Microsoft Teams**
+
+1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Click the menu next to **Conference Bridges**, and then click **Reset conference id** in the drop-down list.
+
+In the **Reset conference id** window, click **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+    > [!NOTE]
+    > After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings. 
+
+
+**Using the Skype for Business admin center**
     
-3. In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.
+1. In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.
     
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
+2. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
     
     > [!NOTE]
     > After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings. 

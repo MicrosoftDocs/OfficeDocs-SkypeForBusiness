@@ -60,14 +60,10 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 ### Using Skype for Business Online
 
  **Set up the meeting experience when callers join a meeting**
-  
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
+2. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
     
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
@@ -82,7 +78,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
     
-5. After you make your changes, click **Save**.
+3. After you make your changes, click **Save**.
     
 **Set the PIN length for meetings**
   

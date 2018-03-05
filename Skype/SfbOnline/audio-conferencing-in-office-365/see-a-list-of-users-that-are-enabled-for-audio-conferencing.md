@@ -28,6 +28,12 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
   
 ## Viewing a list of users
 
+**Using Microsoft Teams**
+
+- In the left navigation, click **Users**.
+
+**Using the Skype for Business admin center**
+
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.

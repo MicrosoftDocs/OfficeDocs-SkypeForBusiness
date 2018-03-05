@@ -62,14 +62,12 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
 4. Click **Apply**.
   
 **Using the Skype for Business admin center**
-  
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**, and in the left navigation, click **Audio conferencing**.
+1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     
-3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
+2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
-4. Click **Save**.
+3. Click **Save**.
     
     > [!TIP]
     > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.

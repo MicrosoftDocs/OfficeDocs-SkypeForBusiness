@@ -36,6 +36,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 ## Restrict audio conferencing outbound calls 
 
 **Using Microsoft Teams**
+
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
 
 2. At the top of the page, click **Edit**.
@@ -48,10 +49,11 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 **Using the Skype for Business admin center**
 
-1.	Go to the **Office 365 admin center** > **Skype for Business**.
-2.	In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
-3.	In the Action pane, click **Edit**.
-4.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
+
+2.	In the Action pane, click **Edit**.
+
+3.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
     ![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
 

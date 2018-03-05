@@ -30,13 +30,21 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## Setting the PIN length
 
-1. Sign in to Office 365 with your work or school account.
+**Using Microsoft Teams**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
+3. In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.
+
+4. Click **Apply**.
+
+**Using the Skype for Business admin center**
+ 
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. Under **Security** > **PIN length**, select the number of digits you want for the PIN, and then click **Save**.
+2. Under **Security** > **PIN length**, select the number of digits you want for the PIN, and then click **Save**.
     
 > [!NOTE]
 > A PIN is different from a conference ID. Conference IDs are used by callers when they join the meeting. They are used to identify the meeting. The PIN is used to authenticate a caller as the meeting organizer. 
