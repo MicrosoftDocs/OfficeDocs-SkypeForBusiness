@@ -44,8 +44,8 @@ In addition to defining your business use cases, to set the project boundaries y
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are all the business use cases for Phone System with Calling Plans you can identify in your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all business use cases for Phone System with Calling Plans for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Phone System with Calling Plans you can identify in your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Phone System with Calling Plans for your organization.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -57,28 +57,28 @@ The business use cases defined in the previous step include an organizational sc
 > Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
 >|Role  |Description  |Name, contact information, location  |
 >|---------|---------|---------|
->|Project Executive Sponsor|<ul><li>Ultimate authority and accountability for the project and delivery on project objectives</li><li>Help resolve issues escalated by the Project Lead</li><li>Sponsors communication within the company about project goals</li><li>Responsible for making key strategic decisions</li><li>Responsible for the availability of required resources and budget</li><li>Leading Quarterly Business Reviews (QBR)</li><li>Buy-in and support of awareness campaign effort</li><li>Serving as the Project Sponsor to the program rollout</li></ul>|TBA|
->|Project Lead|<ul><li>Managing and leading the project team</li><li>Coordinates partners and working teams engaged in the project</li><li>Accountable for creating and managing project plans to meet quarterly key results</li><li>Resolving cross-functional issues</li><li>Providing regular updates to the project sponsors</li><li>Incorporating adoption aspects into the all-up project plan</li><li>Leading Monthly Business and Operational Reviews (MBR), contributing to Quarterly Business Reviews</li></ul>|TBA|
->|Collaboration Lead/Architect|<ul><li>Responsible for execution on collaboration strategy defined by company executives</li><li>Analyzing and choosing collaboration products for the company that meet business goals</li><li>Responsible for the design of the operations for collaboration products</li><li>Defines the operation and support models</li><li>Contributing to Monthly and Quarterly Business Reviews</li></ul>|TBA|
->|Consultant|<ul><li>Responsible for configuration services</li><li>Contributes to overall solution architecture</li></ul>|TBA|
->|Project Manager|<ul><li>Developing and maintaining the project plan</li><li>Managing project deliverables in line with the project plan and budget</li><li>Recording and managing project issues, including escalations</li><li>Conducting weekly standup calls</li><li>Liaises with, and provides updates to, project executive sponsors</li><li>Working with the architect to define the change management approach and communication plans</li></ul>|TBA|
->|Change Management/Adoption Specialist|<ul><li>Provide input during the Discovery phase into adoption and training processes</li><li>Participate in the adoption strategy workshop</li><li>Developing and taking responsibility for the adoption strategy</li><li>Developing and executing the communication plan</li><li>Responsible for delivering trainings to users</li><li>Collect feedback and conduct surveys</li></ul>|TBA|
->|Network Lead|<ul><li>Providing input during the Discovery phase into network design</li><li>Participating in planning during the Envision phase workshop</li><li>Coordinates the work of the networking team during project execution</li></ul>|TBA|
->|Security Lead|<ul><li>Providing input during the Discovery phase into security design and processes</li><li>Participating in planning during the Envision phase workshop</li><li>Coordinates the work of the security team during project execution</li></ul>|TBA|
->|Telephony Lead|<ul><li>Providing input during the Discovery phase into telephony design</li><li>Participating in planning during the Envision phase workshop</li><li>Coordinates the work of the telephony team during project execution</li></ul>|TBA|
->|Desktop Lead|<ul><li>Providing input during the Discovery phase into the clients and update process</li><li>Participating in planning during the Envision workshop</li><li>Coordinates the work of the desktop team during project execution</li></ul>|TBA|
->|Support/Help Desk Lead|<ul><li>Providing input during the Discovery phase into the operational and support models</li><li>Participating in planning during the Envision phase workshop</li><li>Participating in support model planning</li><li>Coordinates the work of support teams and resources during project execution</li></ul>|TBA|
->|Business Unit Representatives|<ul><li>Contribute to user-based adoption guides and materials</li><li>Contribute to and review business use cases</li></ul>|TBA|
->|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met</li><li>Engage resources to be involved in the Onboard phase activities</li><li>Participate in meetings to review and prepare reports on deployment status</li></ul>|TBA|
->|IT Admins|<ul><li>IT pros responsible for assistance with test planning and execution</li></ul>|TBA|
->|Service Owner|<ul><li>Is responsible for the operation of the Phone System with Calling Plans service, all up</li><li>Owner of the Phone System with Calling Plans service</li></ul>|TBA|
->|Quality Champions|<ul><li>Drives quality, reliability, and user feedback</li><li>Identifies quality trends and drives remediation with the respective teams</li><li>Reports through the steering committee back to leadership</li><li>Reports on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score</li></ul>|TBA|
+>|Project Executive Sponsor|<ul><li>Take ultimate authority and accountability for the project and delivery on project objectives.</li><li>Help resolve issues escalated by the Project Lead.</li><li>Sponsor communication within the company about project goals.</li><li>Make key strategic decisions.</li><li>Ensure the availability of required resources and budget.</li><li>Lead quarterly business reviews (QBRs).</li><li>Drive buy-in and support of awareness campaign efforts.</li><li>Serve as the Project Sponsor to the program rollout.</li></ul>|TBA|
+>|Project Lead|<ul><li>Manage and lead the project team.</li><li>Coordinate partners and working teams engaged in the project.</li><li>Be accountable for creating and managing project plans to meet quarterly key results.</li><li>Resolve cross-functional issues.</li><li>Provide regular updates to project sponsors.</li><li>Incorporate adoption aspects into the all-up project plan.</li><li>Lead monthly Business and Operational Reviews (MBRs), contribute to QBRs.</li></ul>|TBA|
+>|Collaboration Lead/Architect|<ul><li>Execute on the collaboration strategy defined by company executives.</li><li>Analyze and choose collaboration products that meet business goals for the company.</li><li>Design operations for collaboration products.</li><li>Define operation and support models.</li><li>Contribute to monthly and quarterly business reviews.</li></ul>|TBA|
+>|Consultant|<ul><li>Be responsible for configuration services</li><li>Contribute to the overall solution architecture.</li></ul>|TBA|
+>|Project Manager|<ul><li>Develop and maintain the project plan.</li><li>Manage project deliverables in line with the project plan and budget.</li><li>Record and manage project issues, including escalations.</li><li>Conduct weekly standup calls.</li><li>Liaise with, and provide updates to, project executive sponsors.</li><li>Work with the architect to define the change management approach and communication plans.</li></ul>|TBA|
+>|Change Management/Adoption Specialist|<ul><li>Provide input during the Discovery phase into adoption and training processes.</li><li>Participate in the adoption strategy workshop.</li><li>Develop and take responsibility for the adoption strategy.</li><li>Develop and execute the communication plan.</li><li>Deliver trainings to users.</li><li>Collect feedback and conduct surveys.</li></ul>|TBA|
+>|Network Lead|<ul><li>Provide input during the Discovery phase into network design.</li><li>Participate in planning during the Envision phase workshop.</li><li>Coordinate the work of the networking team during project execution.</li></ul>|TBA|
+>|Security Lead|<ul><li>Provide input during the Discovery phase into security design and processes.</li><li>Participate in planning during the Envision phase workshop.</li><li>Coordinate the work of the security team during project execution.</li></ul>|TBA|
+>|Telephony Lead|<ul><li>Provide input during the Discovery phase into telephony design.</li><li>Participate in planning during the Envision phase workshop.</li><li>Coordinate the work of the telephony team during project execution.</li></ul>|TBA|
+>|Desktop Lead|<ul><li>Provide input during the Discovery phase into the clients and update process.</li><li>Participate in planning during the Envision workshop.</li><li>Coordinate the work of the desktop team during project execution.</li></ul>|TBA|
+>|Support/Help Desk Lead|<ul><li>Provide input during the Discovery phase into operational and support models.</li><li>Participate in planning during the Envision phase workshop.</li><li>Participate in support model planning.</li><li>Coordinate the work of support teams and resources during project execution.</li></ul>|TBA|
+>|Business Unit Representatives|<ul><li>Contribute to user-based adoption guides and materials.</li><li>Contribute to and review business use cases.</li></ul>|TBA|
+>|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met.</li><li>Engage resources to be involved in the Onboard phase activities.</li><li>Participate in meetings to review and prepare reports on deployment status.</li></ul>|TBA|
+>|IT Admins|<ul><li>Assist with test planning and execution. This role is for IT pros.</li></ul>|TBA|
+>|Service Owner|<ul><li>Be responsible for the operation of the Phone System with Calling Plans service, all up.</li><li>Own the Phone System with Calling Plans service.</li></ul>|TBA|
+>|Quality Champions|<ul><li>Drive quality, reliability, and user feedback.</li><li>Identify quality trends and drive remediation with the respective teams.</li><li>Report through the steering committee back to leadership.</li><li>Report on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score.</li></ul>|TBA|
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Who will fill each key stakeholder role for your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all key stakeholders, and communicate the responsibilities and expectations of the role to each assigned individual.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -139,8 +139,8 @@ You need to identify business risks as part of this exercise and define a mitiga
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -179,8 +179,8 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
 
 Additional detailed guidance on how to operate a proper steering committee can be found in the steering committee guide available [here](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
 

@@ -43,8 +43,8 @@ After confirming that your organization can obtain the Calling Plans service, co
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide which user locations or offices you’ll implement the Calling Plans service in.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices to be enabled for the Calling Plans service.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices you’ll implement the Calling Plans service in.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices to be enabled for the Calling Plans service.</li></ul>|
 
 > [!TIP]
 > Below is an example of a Phone System with Calling Plans site enablement list.
@@ -78,8 +78,8 @@ To learn more about emergency locations in relation to Calling Plans, review the
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the granularity of emergency location information to be collected for user locations or offices in scope for the Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the detailed emergency address and emergency locations for each user location or office in scope for the Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the granularity of emergency location information to be collected for user locations or offices in scope for the Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the detailed emergency address and emergency locations for each user location or office in scope for the Calling Plans implementation.</li></ul>|
 
 > [!TIP]
 > You can use the following template to document the details of phone numbers and emergency location details.
@@ -111,8 +111,8 @@ For more information about voicemail in a Phone System implementation, see [Azur
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>If applicable, document the Exchange decision points to support Phone System voicemail.</li><li>If you’ll enable/disable voicemail, voicemail transcription, and voicemail transcription profanity masking only for specific users, document that list of users.</li></ul>|
 
 > [!TIP]
 > Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
@@ -134,8 +134,8 @@ By default, all outbound calls use the assigned phone number as calling identity
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether Caller ID manipulation is required for your Calling Plans implementation.</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li><li>If applicable, decide which users require Caller ID manipulation and the type of Caller ID manipulation to be assigned to each user.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the users to be assigned Caller ID manipulation and the type of Caller ID manipulation to assign.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether Caller ID manipulation is required for your Calling Plans implementation.</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li><li>If applicable, decide which users require Caller ID manipulation and the type of Caller ID manipulation to be assigned to each user.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the users to be assigned Caller ID manipulation and the type of Caller ID manipulation to assign.</li></ul>|
 
 > [!TIP]
 > The following is an example of Caller ID masking details documentation.
@@ -143,7 +143,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 >|---------|---------|---------|---------|---------|
 >|Emily Braun|No|N/A|Yes|No|
 >|Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
->|Pradeep Gupta|No|N/A|Yes|No|
+>|Louis Lahr|No|N/A|Yes|No|
 >|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
 >|Rachelle Cormier|Yes|Anonymize|Yes|No|
 >|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
@@ -188,8 +188,8 @@ To learn more about Phone System and Calling Plans, review the following article
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.</li><li>Decide which users require a Domestic Calling Plan license and which require a Domestic and International Calling Plan license.</li><li>Decide whether you’ll need Communications Credits for your Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license with Domestic Calling Plan or Domestic and International Calling Plan.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.</li><li>Decide which users require a Domestic Calling Plan license and which require a Domestic and International Calling Plan license.</li><li>Decide whether you’ll need Communications Credits for your Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license with Domestic Calling Plan or Domestic and International Calling Plan.</li></ul>|
 
 > [!TIP]
 > You can use the following example to document the license assignment for Phone System with Calling Plans users.
@@ -218,8 +218,8 @@ To learn more about Communications Credits, review [What are Communications Cred
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether you need Communications Credits for your Audio Conferencing or Calling Plans implementation.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the division, department, office, or user groups you’ll enable Communications Credits for.</li><li>Document your Communications Credits plan for your Audio Conferencing or Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you need Communications Credits for your Audio Conferencing or Calling Plans implementation.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the division, department, office, or user groups you’ll enable Communications Credits for.</li><li>Document your Communications Credits plan for your Audio Conferencing or Calling Plans implementation.</li></ul>|
 
 > [!TIP]
 > You use the following example to document the Communications Credits assignment list for Calling Plans users.
@@ -268,8 +268,8 @@ For more information about the total count of telephone numbers that you can obt
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 
 ##Transfer existing telephone numbers
 
@@ -290,8 +290,8 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Document the type of telephone numbers to be transferred to Microsoft.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -311,7 +311,7 @@ In the Phone System feature of Office 365, there are two types of dial plans:
 
 The effective dial plan assigned to users is the combination of the service dial plan (based on a user’s Office 365 usage location) and tenant dial plan (which can be either a tenant-global dial plan or tenant-user dial plan).
 
-![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png)
+![Table shows three combinations of service and tenant dial plans.](media/audio_conferencing_image8.png "Table shows three combinations of service and tenant dial plans.")
 
 > [!IMPORTANT]
 > There can be a maximum of 25 normalization rules in each tenant dial plan; therefore, it’s important to avoid duplicating normalization rules that are already available as part of the service dial plan.
@@ -321,8 +321,8 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision Points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of the tenant dial plan (tenant-global or tenant-user) to support your requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next Steps|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of cloud voice implementation.</li><li>Document the users to be assigned a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of the tenant dial plan (tenant-global or tenant-user) to support your requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the customized dial plans and the associated normalization rules to be configured as part of cloud voice implementation.</li><li>Document the users to be assigned a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
 
 > [!TIP]
 > If it’s applicable to your project, you can use the following template to document the tenant dial plan configurations.
@@ -352,7 +352,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 >|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
 >|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
 >|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
->|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+>|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
 >|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 >|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|

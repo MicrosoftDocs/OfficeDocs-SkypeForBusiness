@@ -400,3 +400,5 @@ Effective business tools must perform reliably, consistently, and deliver a user
 
 [ExpressRoute documentation](https://go.microsoft.com/fwlink/?LinkId=690285)
 
+## Feedback?
+To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
