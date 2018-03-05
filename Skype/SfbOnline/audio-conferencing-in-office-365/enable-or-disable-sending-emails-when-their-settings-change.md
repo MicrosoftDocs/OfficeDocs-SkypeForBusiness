@@ -50,12 +50,15 @@ Here is an example of the email that is sent to users when they are enabled for 
     
 ## Enable or disable email from being sent to users
 
-You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
+You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
 
 **Using Microsoft Teams**
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+
 4. Click **Apply**.
   
 **Using the Skype for Business admin center**
