@@ -54,7 +54,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
 
-**Get new phone numbers for your users**
+### Get new user phone numbers 
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -62,9 +62,11 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
+### Get new numbers that aren't available in the Skype for Business admin center
   
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
   
-**Port or transfer phone numbers from your service provider or phone carrier**
+### Port or transfer phone numbers from your service provider or phone carrier
   
 - If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
     
@@ -89,7 +91,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
     
 ### Get new numbers that aren't available in the Skype for Business admin center
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers. 
+Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
 
 ### Port or transfer existing service numbers
 
