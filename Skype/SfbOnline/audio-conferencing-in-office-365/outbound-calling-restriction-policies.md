@@ -33,8 +33,20 @@ Outbound call controls can be applied on a per-user basis and provide the follow
    > A call is determined to be domestic if the called phone number is in the same country as the country that has been set in Office 365 for the organizer of the meeting (in the case of audio conferencing) or the end user (in the case of end user PSTN calls). 
 
 
-## Restrict audio conferencing outbound calls using the Skype for Business admin center 
+## Restrict audio conferencing outbound calls 
 
+**Using Microsoft Teams**
+1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
+
+4. In the **Conference bridge provider** pane, under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+
+5. Click **Apply**. 
+
+**Using the Skype for Business admin center**
 
 1.	Go to the **Office 365 admin center** > **Skype for Business**.
 2.	In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
@@ -45,7 +57,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Click **Save**.
 
-## Restrict audio conferencing and end user outbound calls using PowerShell
+**Using PowerShell**
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 

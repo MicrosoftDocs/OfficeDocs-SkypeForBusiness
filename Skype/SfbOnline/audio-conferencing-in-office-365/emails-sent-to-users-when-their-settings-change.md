@@ -98,7 +98,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use the Microsoft Teams, the Skype for Business admin center, or Windows PowerShell. 
+By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell. 
 
 **Using Microsoft Teams**
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
