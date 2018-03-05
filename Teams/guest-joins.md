@@ -1,7 +1,7 @@
 ---
 title: How a guest joins a team
-author: LaithAlShamri
-ms.author: laal
+author: LolaJacobsen
+ms.author: rramesan
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
@@ -34,9 +34,9 @@ Here's how a guest becomes a member of a team:
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
     
   
-- **Step 3** The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. If the guest doesn’t yet have a Microsoft Account associated with their email address, they will be directed to create one for free. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
+- **Step 3** The guest receives a welcome email from the team owner, with information about the team and what to expect now that they're a member. Guest users who have an email address that belongs to an Azure Active Directory or Office 365 work or school account can accept the invitation directly. If the guest doesn’t yet have a Microsoft Account associated with their email address, they will be directed to create one for free. After accepting the invitation, the guest can [participate in teams and channels](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receive and respond to channel messages, [access files in channels](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more. 
     
-While using Teams, a combination of text and icons gives all team members clear indication of guest participation in a team. For more details, see [What the guest experience is like](guest-experience.md).
+While using Teams, text and icons give all team members clear indication of guest participation in a team. A guest user's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).
   
 Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
