@@ -217,6 +217,7 @@
 ## [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
+
 # Security & compliance
 ## [Skype for Business and Teams data collection practices](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
