@@ -1,5 +1,5 @@
 ---
-title: Manage guest access to Microsoft Teams
+title: Manage guest access in Microsoft Teams
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 ---
 
-Manage guest access to Microsoft Teams
+Manage guest access in Microsoft Teams
 ======================================
 
 **Guest** is a user/license type in Microsoft Teams that is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Teams guest access is a tenant-level setting and is turned off by default. For details about how to enable guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
 
-After the **Guest** user/license type is turned on, you can configure settings for guests via the controls described in [Turn on Microsoft Teams features in your Office 365 organization](enable-features-office-365.md#settings-by-userlicense-type) .     
+After the **Guest** user/license type is turned on, you can configure settings for guests via the controls described in [Turn on Microsoft Teams features in your Office 365 organization](enable-features-office-365.md#settings-by-userlicense-type).     
     
 IT admins can add guests at the tenant level, set and manage guest user policies and permissions, determine which users can invite guests, and pull reports on guest user activity. These controls are available through the Office 365 admin center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
 
