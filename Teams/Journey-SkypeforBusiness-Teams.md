@@ -41,7 +41,7 @@ For best results, we recommend that you follow this guidance in order:
 
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 
-[Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
+[Microsoft Teams Roadmap](https://aka.ms/teamsroadmap)
 
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 
