@@ -23,33 +23,25 @@ Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of members a team owner can add to a team | 250           |
-|Number of teams a global admin can create        | Unlimited     |
-|Number of teams an Office 365 tenant can have    | 500,000       |
-|Number of channels in a team      | 250              |
-|Number of users in a public group                | 2,500         |
+|Number of members a team owner can add to a team | 250         |
+|Number of teams a global admin can create        | Unlimited   |
+|Number of teams an Office 365 tenant can have    | 500,000     |
+|Number of channels in a team      | 250          |
+|Number of channels a user can create per team    | 100         |
+|Number of users in a public group                | 2,500       |
+
+For more information about group limits, see [Office 365 Group limits](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2#ID0EAADAAA=Manage).
 
 Meetings and calls 
 ------------------
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting  | 80            |
-|Number of people in a chat     | 20            |
+|Number of people in a meeting  | 80    |
+|Number of people in a chat     | 20    |
 
-Operating systems and browsers 
-------------------------------
-
-|Component          |Supported |
-|-------------------|----------|
-|Browser &dagger;   | <ul><li>Internet Explorer 11</ul></li> <ul><li>Microsoft Edge</ul></li> <ul><li>Chrome (latest version, plus two previous versions)</ul></li> <ul><li>Firefox (latest version, plus two previous versions)</ul></li>  |
-|Desktop client     | <ul><li>Windows 7 or later (both 32-bit and 64-bit versions)</ul></li> <ul><li>MacOS 10.10 or later</ul></li>  |
-|Mobile client      | <ul><li>Android 4.4 or later</ul></li> <ul><li>iOS 10.0 or later</ul></li> <ul><li>Windows 10 Phone</ul></li>  |
-
-&dagger; Safari isn't currently supported, and users who try to open Teams on Safari will be directed to download the Teams desktop client. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for upcoming feature releases. 
-
-Storage limits 
---------------
+Storage
+-------
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
@@ -66,12 +58,12 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
 |File upload limit       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Each Files tab in Teams runs on a SharePoint Online backend, so the storage limits above to each Channel within a Team.
+Each Files tab in Teams runs on a SharePoint Online backend, so the storage limits above apply to each Channel within a Team.
 
 For more information, see [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
-Messaging limits 
-----------------
+Messaging
+---------
 
 Users who participate in conversations that are part of the Chat list in Microsoft Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the Chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the Chat list in Microsoft Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
@@ -94,4 +86,9 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 
 For more information, see [Exchange Online limits](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-For more information about group limits, see [Office 365 Group limits](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2#ID0EAADAAA=Manage).
+Operating systems and browsers 
+------------------------------
+
+For information about operating system and browser requirements, see [Get clients for Microsoft Teams](get-clients.md).
+
+
