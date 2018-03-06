@@ -26,8 +26,7 @@ description: "Use this table to find information on getting and managing phone n
 
 # Phone number management for the U.S.
 
-Use this table to find information on getting and managing phone numbers in the United States (and Puerto Rico) for Skype for Business Online and Microsoft Teams. 
-  
+Use this table to find information on getting and managing phone numbers in the United States (and Puerto Rico) for Skype for Business Online and Microsoft Teams.   
 For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
 |**What you want to do?**|**Do these steps and download the correct forms**|
