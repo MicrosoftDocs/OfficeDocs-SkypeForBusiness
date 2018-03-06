@@ -32,9 +32,13 @@ There are three ways to get both user and service (toll and toll-free) numbers f
 - Use a request form for new numbers that aren't listed in the Skype for Business admin center.
 - Transfer or "port" your existing numbers over to us.
 
-If you know what kind of forms you are looking for use the drop down to select the country/region where you are getting numbers.
+> [!IMPORTANT]
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
+
 ***
-### Select your country or region to find the downloadable forms you need
+If you know what kind of forms you are looking for use the drop down to select the country/region where you are getting numbers.
+
+**Select your country or region to find the downloadable forms you need**
 > [!div class="op_single_selector"] 
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
@@ -46,10 +50,10 @@ If you know what kind of forms you are looking for use the drop down to select t
 > - [U.K.](phone-number-management-for-the-u-k.md)
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
-> [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
 ***
+
 ## Here's a bit more information about these number request forms
+
 ### Request forms for new phone numbers
 
 Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams. 
