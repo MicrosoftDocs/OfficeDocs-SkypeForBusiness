@@ -49,7 +49,9 @@ If you know what kind of forms you are looking for use the drop down to select t
 > [!IMPORTANT]
 > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
 ***
+
 ## Here's a bit more information about these number request forms
+
 ### Request forms for new phone numbers
 
 Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams. 
