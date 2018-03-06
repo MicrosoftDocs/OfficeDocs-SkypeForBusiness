@@ -30,7 +30,7 @@ Teams and channels
 |Number of channels a user can create per team    | 100         |
 |Number of users in a public group                | 2,500       |
 
-For more information about group limits, see [Office 365 Group limits](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2#ID0EAADAAA=Manage).
+For more information about group limits, see [Learn about Office 365 Groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2#ID0EAADAAA=Manage).
 
 Meetings and calls 
 ------------------
