@@ -48,6 +48,8 @@ If you know what kind of forms you are looking for use the drop down to select t
 
 > [!IMPORTANT]
 > In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
+
+
 ***
 
 ## Here's a bit more information about these number request forms
