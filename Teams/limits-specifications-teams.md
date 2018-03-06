@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/09/2018
+ms.date: 03/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -23,10 +23,10 @@ Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of members a team owner can add to a team | 250         |
+|Number of teams a user can create | 250         |
+|Number of members a team owner can add to a team | 2,500       |
 |Number of teams a global admin can create        | Unlimited   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
-|Number of channels in a team      | 250          |
 |Number of channels a user can create per team    | 100         |
 |Number of users in a public group                | 2,500       |
 
@@ -38,7 +38,7 @@ Meetings and calls
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 80    |
-|Number of people in a chat     | 20    |
+|Number of people in a private chat  | 20    |
 
 Storage
 -------
