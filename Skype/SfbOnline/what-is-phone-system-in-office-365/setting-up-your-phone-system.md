@@ -100,15 +100,11 @@ If you want to transfer service numbers from your current service provider or ca
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
 
-<<<<<<< HEAD
-**For detailed information about getting new service numbers or transferring existing numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
-=======
 ### Assign service numbers
 
 Once you have your service numbers, they can then be assigned to an audio conferencing bridge. To do this, see [Change the toll or toll-free numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 **For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).**
->>>>>>> master
 
 ## Step 5: Set up Calling Plans
 
