@@ -48,7 +48,8 @@ Sideloading is how you add an app to Teams by uploading a zip file directly to a
 
 Only team owners, or members who are granted permissions, can sideload apps into Teams.  
 
-![Screenshot of the Apps section of Microsoft Teams settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![Screenshot of the expanded Apps section in Tenant-wide settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## Creating and uploading app packages 
 
