@@ -106,7 +106,7 @@ Once you have your service numbers, they can then be assigned to an audio confer
 
 **For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).**
 
-## Step 5: Set up Calling Plans
+## Step 5: Set up Calling Plans 
 
 If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
 
