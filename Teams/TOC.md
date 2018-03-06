@@ -84,7 +84,7 @@
 
 
 
-# [Cloud voice]
+# Cloud voice
 
 ## [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Add funds and manage Communications Credits](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -208,6 +208,22 @@
 ### [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
+## [Deployment Guidance](cloud-voice-deployment.md)
+### [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
+### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
+### [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
+### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+### [Plan my service management](4-envision-plan-my-service-management.md)
+### [Plan my users experience](5-envision-plan-my-users-experience.md)
+### [Document my success plan](6-envision-document-my-success-plan.md)
+### [Prepare my service](1-onboard-prepare-my-service.md)
+### [Prepare my users](2-onboard-prepare-my-users.md)
+### [Deploy my service](3-onboard-deploy-my-service.md)
+### [Operate my service](1-drive-value-operate-my-service.md)
+### [Enhance my service](2-drive-value-enhance-my-service.md)
+
+
 # Monitor call quality and QOS
 ## [QoS in Teams](QoS-in-Teams.md)
 ## [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -236,23 +252,6 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-
-
-
-# [Deployment Guidance](cloud-voice-deployment.md)
-## [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
-## [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-## [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
-## [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-## [Evaluate my environment](3-envision-evaluate-my-environment.md)
-## [Plan my service management](4-envision-plan-my-service-management.md)
-## [Plan my users experience](5-envision-plan-my-users-experience.md)
-## [Document my success plan](6-envision-document-my-success-plan.md)
-## [Prepare my service](1-onboard-prepare-my-service.md)
-## [Prepare my users](2-onboard-prepare-my-users.md)
-## [Deploy my service](3-onboard-deploy-my-service.md)
-## [Operate my service](1-drive-value-operate-my-service.md)
-## [Enhance my service](2-drive-value-enhance-my-service.md)
 
 
 
