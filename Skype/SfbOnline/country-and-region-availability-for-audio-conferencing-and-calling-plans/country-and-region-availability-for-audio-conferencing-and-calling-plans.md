@@ -128,7 +128,7 @@ After you look to see if one of the Skype for Business or Microsoft Teams servic
 
 > [!NOTE]
 
-> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) or [Get new user phone numbers request forms](../what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms.md).
+> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) or, for phone number request forms, [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).
 
 
 ## Want to learn more about these services?
