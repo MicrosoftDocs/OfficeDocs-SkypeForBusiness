@@ -28,10 +28,13 @@ description: "Each country or region has different instructions for getting phon
 
 # Manage phone numbers for your organization
 
+## Request forms for new phone numbers
+
 Each country or region has different instructions for getting phone numbers in Skype for Business Online and Microsoft Teams. Sometimes (depending on your country/region) you won't be able to get new user (subscriber) numbers or service numbers using the **Skype for Business admin center**, or you might need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order. 
 
-Choose your country or region from the [list below](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization#select-your-country-or-region-to-find-available-downloadable-forms) to find the form you need. 
+Choose your country or region from the [list below](#select-your-country-or-region-to-find-the-downloadable-forms-you-need) to find the form you need. 
 
+## Letters of Authorization (LOAs) for transferring numbers
 If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have service numbers for audio conferencing bridges, auto attendants, or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business (or if you don't want to use the **Local Number Porting wizard**). You must [manually submit a custom service request](../../what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request.md) with the LOA to get phone numbers transferred from your current service provider.
 
 Choose your country or region from the list below to find the LOA you need.
@@ -48,12 +51,13 @@ Choose your country or region from the list below to find the LOA you need.
 > - [U.K.](phone-number-management-for-the-u-k.md)
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
+> [!IMPORTANT]
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us.
+
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-> [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out the form send it to us.
-  
+ 
 #### Additional resources:
 - To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md).
@@ -63,7 +67,6 @@ Choose your country or region from the list below to find the LOA you need.
 
     
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
