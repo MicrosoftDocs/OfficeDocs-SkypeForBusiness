@@ -103,10 +103,15 @@ Cloud storage options in Teams currently include Box, Dropbox, Google Drive, and
 
 ![Screenshot of the Custom cloud storage section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-User settings by license
+Settings by user/license type
 ------------------------
+When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type. (For details, see [Turn Teams on or off for your entire organization](Office-365-set-up.md).)
 
-In **User settings by license**, you can turn on or turn off options in Teams and channels, Calls and meetings, and Messaging.
+ Some examples of user/license types are **Business & Enterprise** and **Guest**. (If you have an Education SKU license, **Education - Faculty and Staff** or **Education - Student** are available.)![Control for Set user license](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+
+You can you have multiple license types within your organization, for example, both **Business & Enterprise** and **Guest**. Microsoft Teams can only differentiate users based on the licenses you've assigned them. You can turn on or turn off options for these users in **Teams and channels**, **Calls and meetings**, and **Messaging**. If you use only one license type, consider the settings here as tenant-wide settings.
+> [!NOTE]
+> For more details about guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
 
 Teams and channels
 ------------------
@@ -138,7 +143,7 @@ The maximum number of people in a meeting is 80. There can be 20 members in a pr
 
 -   **Allow scheduling for private meetings**: When turned on, users can schedule private meetings that are not listed in any channel.
 
--   **Allow ad-hoc channel meetup**
+-   **Allow ad-hoc channel meetup**: When turned on, users can quickly start a meeting for a channel that has been created for an immediate or specific purpose.
 
 -   **Allow scheduling for channel meetings**: When turned on, users can schedule a meeting for a channel that all channel members can easily join with a single click.
 
