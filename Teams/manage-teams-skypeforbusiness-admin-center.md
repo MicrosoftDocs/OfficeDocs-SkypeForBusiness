@@ -19,6 +19,8 @@ appliesto:
 Manage admin settings for Microsoft Teams and Skype for Business
 ======================================================
 
+[!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+
 We began releasing the new Microsoft Teams & Skype for Business Admin Center in mid March 2018. The new experience provides a unified experience to manage Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.  
 
 We will start to gradually migrate settings from the Skype for Business admin center and the current Microsoft Teams admin experience (in the Office 365 admin center) over the next 30 days.  We’ll continue to migrate the other functionality from the Skype for Business Admin center in the coming months.  You can stay up to date on that information here in the Message Center and via our public roadmap which is available at https://aka.ms/Office365Roadmap.  

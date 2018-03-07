@@ -1,0 +1,1 @@
+We began releasing the new Microsoft Teams & Skype for Business Admin Center in March 2018. We're gradually migrating settings from the Skype for Business admin center and the current Microsoft Teams admin experience (in the Office 365 admin center). Read about the new [Microsoft Teams & Skype for Business Admin Center](../manage-teams-skypeforbusiness-admin-center.md).
