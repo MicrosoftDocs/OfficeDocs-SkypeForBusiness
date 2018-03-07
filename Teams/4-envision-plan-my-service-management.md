@@ -1,3 +1,18 @@
+---
+title: Plan Microsoft Teams service management
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Deliver and maintain a high-quality deployment by planning for operational roles and assigning a quality champion.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Plan my service management
 
 This article gives an overview of the requirements that are necessary to deliver
@@ -78,12 +93,12 @@ operational roles mapping exercise that you performed to support this project.
 |Service Owner|Service owner, interface to business divisions, strategy|TBA|TBA|
 |Audio Conferencing Operations|Daily operations, user and device account move/add/change, monitoring|TBA| TBA| 
 |Tenant Admin|Change tenant-wide settings, enable new features|TBA|TBA|
-|Help Desk|Interface for end-users to get support|TBA|TBA|
-|Network Operations|Runs LAN, WAN, Wi-Fi, and Internet Access|TBA|TBA|
+|Help Desk|Interface for users to get support|TBA|TBA|
+|Network Operations|Run LAN, WAN, Wi-Fi, and internet access|TBA|TBA|
 |Client & Endpoints Team|Manage desktop deployments|TBA|TBA|
-|Identity Operations|Manage identity infrastructure (AD, ADFS, Azure AD)|TBA|TBA|
-|Adoption/change management|Manage awareness, training and adoption for the solution|TBA|TBA|
-|Exchange Operations|Manages the Exchange environment|TBA|TBA|
+|Identity Operations|Manage identity infrastructure (Active Directory, Active Directory Federation Services, Azure AD)|TBA|TBA|
+|Adoption/change management|Manage awareness, training, and adoption for the solution|TBA|TBA|
+|Exchange Operations|Manage the Exchange environment|TBA|TBA|
 
 To facilitate a more detailed operational roles mapping, including the tasks
 associated with each operational role, you can use the [Operational Role Mapping

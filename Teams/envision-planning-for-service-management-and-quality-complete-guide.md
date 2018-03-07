@@ -1,8 +1,22 @@
-#Plan for service management and quality
+---
+title: Plan for service management guide for Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Deliver high-quality Teams user experience by managing service, network, and endpoint health and defining operational and Quality Champion roles.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+# Plan for service management and quality
 
 This document is about the Envision phase for Microsoft Teams.
 
-##Introduction
+## Introduction
 
 This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
 
@@ -16,11 +30,11 @@ The guidance is organized into the following sections:
 
 -   Lastly, next steps are summarized with references to related content.
 
-##Key components that affect user experience
+## Key components that affect user experience
 
 The key components that affect user experience will be reviewed in this section. Before reviewing the key components, it’s critical that you understand user experience and its importance in realizing your organization’s business goals. Let’s review how we define the user experience first.
 
-###User experience defined
+### User experience defined
 
 Business goals can be realized when you deploy Microsoft Teams and incorporate communications into your business processes to enhance their workflow. Quality drives adoption and usage: if your organization delivers a high-quality service that delights people, then individuals and teams can gain confidence and find new and innovative ways of using the service that drive business benefits.
 
@@ -28,7 +42,7 @@ At the heart of this is the user’s experience with Teams—the person’s emot
 
 There are specific requirements to the deployment that are critically important to deliver a fantastic user experience—especially when using the Cloud Voice features in Teams. It is critical to treat Microsoft Teams as a first-class citizen with other communication and collaboration investments, prioritizing real-time traffic accordingly. The following section gives an overview of the key components that affect user experience. In further sections, we will provide you guidance on how to start planning to deploy and maintain the key components that comprise quality.
 
-###Key components of quality
+### Key components of quality
 
 An organization or supporting partner should start planning for three key components during the Envision phase of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
 
@@ -62,7 +76,7 @@ To give your users the best experience possible, you need to consider these impo
 
 For detailed guidance about endpoint planning, see **[Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality)**.
 
-##Plan for service management
+## Plan for service management
 
 Service management is a broad topic that covers day-to-day operations of the Microsoft Teams service after it has been deployed and enabled for users. The Teams service encompasses Microsoft Office 365 and the infrastructure components that are deployed on-premises (for example, networking).
 
@@ -72,13 +86,13 @@ Service management encompasses all the activities and processes involved in mana
 
 ![Diagram describing the 3 components of qualilty, and how service management overlaps all 3 components. With a focus on Service Mangement.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png)
 
-###Introduction to the Operations Guide 
+### Introduction to the Operations Guide 
 
 **What**, **Who**, and **How** are three important questions that need to be answered when it comes to service management.
 
 You can use the Operations Guide [Link to Operations Guide] to help you address all three of these questions. The guide provides a list of activities to be performed on a daily, weekly, monthly, and as-needed basis. These activities and tasks are critical for maintaining a high-quality Teams deployment. Determining who will be responsible for performing specific activities in service management is a critical aspect of your planning that you need to do early in the Envision phase to ensure a successful deployment. After you’ve figured out the tasks and activities, they need to be understood and followed by the groups or individuals that you assign to them. The Operations Guide provides knowledge and guidance for how to perform each of the tasks, and/or references to outside content.
 
-###Operational role mapping
+### Operational role mapping
 
 Planning for service management early is a critical milestone, because the operations phase begins when the first pilot users are enabled. The project team must review and agree on the tasks and activities required, identify the team that’s responsible for each operational task, and then get a commitment and sign-off from each respective team.
 
@@ -88,7 +102,7 @@ Mapping operational roles early in the Envision phase enables all teams to start
 
 The Operations Guide provides a list of common tasks mapped to typical roles that should be valid in most scenarios. You need to customize these responsibilities to work for your organization.
 
-###The Quality Champion role
+### The Quality Champion role
 
 A group or individual needs to be accountable for quality in all organizations. This is the most important role in service management. The Quality Champion is a customer role that's assigned to a person or group who is passionate about their users' experience. This role requires the skills to identify trends in the environment and the sponsorship to work with other teams to drive remediation. The best candidate for the Quality Champion is typically the customer service owner, who—depending on the organization’s size and complexity—could be any person or group who is passionate about user experience.
 
@@ -96,7 +110,7 @@ The Quality Champion leverages existing tools and documented processes, such as 
 
 The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned early in the Envision phase. A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
 
-###Introduction to the Quality Experience Review Guide
+### Introduction to the Quality Experience Review Guide
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
@@ -122,7 +136,7 @@ We highly recommend that you nominate the Quality Champion early on. After being
 
 The Quality Experience Review Guide can be found [here]()
 
-##Plan for network quality 
+## Plan for network quality 
 
 Planning for network quality will be the focus for the following section.
 
@@ -142,7 +156,7 @@ Home networks or networks in hotels or coffee shops are examples of networks whe
 
 In the following sections, we will focus on the quality requirements of managed networks.
 
-###Key network planning areas
+### Key network planning areas
 
 The following sections focus on the important areas for delivering a high-quality network.
 
@@ -231,7 +245,7 @@ There are several factors that come into play for optimizing a Wi-Fi network.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
-###Network readiness assessment
+### Network readiness assessment
 
 Part of the network readiness activities includes a network assessment. After you’ve completed your planning and configuration, the assessment can give you a baseline understanding of the quality of your network before you onboard users to Microsoft Teams. The assessment results will also help you identify and prioritize remediation efforts before enabling users for Teams.
 
@@ -239,7 +253,7 @@ The network assessment should be performed on both wired and Wi-Fi networks for 
 
 The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)..
 
-##Plan for endpoint quality
+## Plan for endpoint quality
 
 As you can see from the diagram below, endpoints are an important building block in providing a quality experience for end users.
 
@@ -249,20 +263,20 @@ Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets,
 
 The following guidance on endpoint planning will help you ensure your organization has a successful onboarding experience with Teams.
 
-###Endpoint capability
+### Endpoint capability
 
 The first part of planning is to ensure all the PCs and other devices in your organization can run Microsoft Teams. This involves not just looking at the hardware requirements, but also understanding what else the PC is doing in the background. Many organizations run other software, including intrusion detection systems and antimalware software which can affect the base performance of a device.
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Mobile). For information about the software requirements for each platform, see [Get Clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
-###Endpoint firewalls
+### Endpoint firewalls
 
 Client-side firewalls can have a significant impact on the user experience. Client-side firewalls can affect call quality in addition to preventing a call from being established. Configure the appropriate exclusions on the client firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance on how to create the exclusions.
 
 > [!NOTE]
 > Microsoft Teams will automatically update the Windows Firewall with an appropriate firewall configuration.
 
-###Wi-Fi recommendations for endpoints
+### Wi-Fi recommendations for endpoints
 
 Planning and deploying an optimized Wi-Fi network to support real-time workloads in Microsoft Teams will require significant planning. The following sections provide some general guidance that can help you avoid some common pitfalls when planning for endpoints.
 
@@ -286,7 +300,7 @@ Some organizations prefer to avoid Wi-Fi altogether. Sometimes this guidance is 
 
 If your organization uses wireless access points or routers that don’t support the 802.11 power save protocol, you might experience dropped calls or poor call quality in Microsoft Teams running on Windows devices. If it’s not possible to upgrade your wireless access point or routers, you should update Windows Power Plan settings on devices that run on battery power. Further detail and configuration guidance is provided in the following [support article](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
-###Devices for Teams
+### Devices for Teams
 
 Microsoft Teams can be used for meetings or as a phone system. When using these features, the interface device that is used for Teams plays an important role in the user experience.
 
@@ -300,13 +314,13 @@ At this time, we recommend using audio devices that were certified through the S
 
 For more details, see [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
 
-###Client updates
+## Client updates
 
 One of the key benefits of Microsoft Teams is that the client is kept up to date automatically. The clients on the PC and Mac are updated by using a background process that checks for new builds and downloads the new client when the app is idle. The client download size is roughly 100 MB.
 
 An organization doesn’t have any control or access to a policy setting to manage the update process. To mitigate the risk of a problem that might be discovered in a newer build, the last known good version is kept on the endpoint. If there’s a problem with a new build, the Microsoft Teams service can revert the endpoint to the previous version automatically.
 
-##Next steps and references
+## Next steps and references
 
 This table includes a summary of planning activities with links to related content.
 

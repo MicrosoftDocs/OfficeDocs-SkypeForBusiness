@@ -1,12 +1,27 @@
-#Define my success
+---
+title: Define success in Phone System with Calling Plans - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Measure the results of your Phone System with Calling Plans deployment and verify you've achieved the outcomes you wanted.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
 
-##Introduction
+# Define my success
+
+## Introduction
 
 This content provides an overview of the requirements for properly defining success for the deployment of Phone System with Calling Plans for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
 
 <!--ENDOFSECTION-->
 
-##Define business use cases for Phone System with Calling Plans
+## Define business use cases for Phone System with Calling Plans
 
 Organizations can use Phone System with Calling Plans to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices.
 
@@ -49,7 +64,7 @@ In addition to defining your business use cases, to set the project boundaries y
 
 <!--ENDOFSECTION-->
 
-##Identify key stakeholders
+## Identify key stakeholders
 
 The business use cases defined in the previous step include an organizational scope for the Phone System with Calling Plans implementation. Based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
 
@@ -82,7 +97,7 @@ The business use cases defined in the previous step include an organizational sc
 
 <!--ENDOFSECTION-->
 
-##Define OKRs, KSIs and risks
+## Define OKRs, KSIs, and risks
 
 With the project stakeholders assembled, you can translate business use cases, organizational scope, and project timelines into objectives and key results (OKRs), and the measures of project success can be defined as a list of key success indicators (KSIs).
 
@@ -144,7 +159,7 @@ You need to identify business risks as part of this exercise and define a mitiga
 
 <!--ENDOFSECTION-->
 
-##Establish a steering committee
+## Establish a steering committee
 
 A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
 

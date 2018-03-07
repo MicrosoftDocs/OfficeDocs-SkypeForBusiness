@@ -1,3 +1,18 @@
+---
+title: Evaluate your environment for Microsoft Teams cloud voice workloads
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.  
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Evaluate my environment
 
 ## Introduction to evaluating your environment 

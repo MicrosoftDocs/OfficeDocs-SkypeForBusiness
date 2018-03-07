@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -20,6 +22,7 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. Our service desk will take it from there and let you know about progress or your order."
+robots: noindex
 ---
 
 # Get new user phone numbers request forms
