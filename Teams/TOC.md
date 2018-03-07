@@ -268,7 +268,6 @@
 
 
 # Troubleshoot & support
-## [Get tools to support a rollout of Teams](rollout-tools.md)
 ## [Known issues for Teams](known-issues.md)
 ## [Support resources for Teams](support-resources.md)
 ## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
