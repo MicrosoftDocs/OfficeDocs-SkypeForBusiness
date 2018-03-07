@@ -1,3 +1,18 @@
+---
+title: Prepare my users for Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Create a plan to drive user adoption by defining your goals, understanding what acceptance looks like, and providing training and support.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Prepare my users
 
 ## Drive user adoption of cloud voice services

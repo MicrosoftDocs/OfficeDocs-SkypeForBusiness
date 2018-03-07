@@ -1,6 +1,21 @@
-#Steering committee
+---
+title: Steering committee for Microsoft Teams cloud voice deployment
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers. 
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
 
-##Steering committee overview
+# Steering committee
+
+## Steering committee overview
 
 A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
 
@@ -33,7 +48,7 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 
 -   Provide formal feedback and recommendations to executive leadership, the change advisory board, or other business and IT stakeholders, as applicable.
 
-##Identify members of the steering committee
+## Identify members of the steering committee
 
 A committee is only as effective as its participants are influential. The steering committee needs to maintain representation from both business and technical decision makers, along with any of the core project team leadership and partner teams who contribute to the solution.
 
@@ -53,7 +68,7 @@ Every steering committee needs strong leadership and clearly defined roles and r
 | Partner Account Team | Provide feedback from the partner’s point of view from a broader perspective, other partner activities. | | |
 | Partner Project Team | Provide feedback from the partner’s point of view regarding the delivery of the project | | |
 
-##Schedule steering committee meetings 
+## Schedule steering committee meetings 
 
 Although every organization and every project team is structured in slightly different ways, the steering committee meeting should never become just another project standup meeting. Consider the objectives of the steering committee meeting: it’s your opportunity to keep the project on track by gathering support and direction from the executive sponsor or executive leadership. Make sure that everyone attends this meeting so there’s direct messaging between the entire project team and executive sponsor or executive leadership and there is no miscommunication when the message is relayed.
 
@@ -143,7 +158,7 @@ The meeting itself should be a natural continuation of the prep work that the co
 
 7.  Send attendees follow-up email that includes the presentation you created, and append any notes that were taken. Be sure to include anyone who didn’t attend.
 
-##Next steps
+## Next steps
 
 After reviewing the overview of the steering committee, it’s now time to act. The project team should begin their work to implement the steering committee into the project’s timeline and prepare a regular steering committee meeting cadence. Ideally, the committee will be formed before the project begins and provide guidance throughout all its phases, but if that can’t be the case, form the committee to guide the project team to a successful outcome.
 

@@ -1,3 +1,18 @@
+---
+title: Deploy my Microsoft Teams cloud voice service
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Deploy my service
 
 ## Site enablement playbook for Microsoft Teams voice workloads

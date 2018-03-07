@@ -1,3 +1,18 @@
+---
+title: Prepare to deploy Microsoft Teams cloud voice service
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Prepare my service
 
 ## Onboarding checklists for Microsoft Teams voice workloads

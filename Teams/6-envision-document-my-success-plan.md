@@ -1,3 +1,18 @@
+---
+title: Document your Microsoft Teams success plan
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Choose a deployment model, develop a responsible-accountable-consulted-informed (RACI) matrix, create execution and governance plans.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Document my success plan
 
 ## Execution planning 

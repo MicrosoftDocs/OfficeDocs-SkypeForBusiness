@@ -1,4 +1,19 @@
-#Make my service decisions
+---
+title: Make my Audio Conferencing service decisions - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
+# Make my service decisions
 
 To plan for the technical implementation of Audio Conferencing, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
 
@@ -13,7 +28,7 @@ As part of defining required Audio Conferencing features in Microsoft Teams, one
 > [!NOTE]
 > The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
 
-##Meetings in Teams
+## Meetings in Teams
 
 Teams gives your users the capability to schedule and join online meetings by using HD video, voice over IP (VoIP), and PSTN dial-in conferencing options.
 
@@ -29,7 +44,7 @@ Meeting participants can join your Teams meetings by dialing in to the toll or t
 
 <!--ENDOFSECTION-->
 
-##Availability of Audio Conferencing
+## Availability of Audio Conferencing
 
 Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
@@ -56,7 +71,7 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 
 <!--ENDOFSECTION-->
 
-##Licensing for Audio Conferencing
+## Licensing for Audio Conferencing
 
 An [Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
 
@@ -110,7 +125,7 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 
 <!--ENDOFSECTION-->
 
-##Conference bridge phone numbers
+## Conference bridge phone numbers
 
 The Audio Conferencing service in Office 365 includes:
 
@@ -159,7 +174,7 @@ Below is an example of a template you can use to capture conference bridge detai
 
 <!--ENDOFSECTION-->
 
-##Conference bridge settings
+## Conference bridge settings
 
 To further tailor the user experience, you can configure organization-wide options for joining Audio Conferencing meetings (meeting entry and exit notification and caller name recording), the meeting organizer’s PIN length, and email notification:
 
@@ -226,13 +241,13 @@ With these controls, you can decide whether meeting organizers can provide toll-
 
 <!--ENDOFSECTION-->
 
-##Manage cloud voice telephone numbers
+## Manage cloud voice telephone numbers
 
 For Audio Conferencing implementation, you can choose to acquire new telephone numbers or transfer/port existing telephone numbers.
 
 To allow users to dial phone numbers the way they’re accustomed to—such as omitting area codes for local calls, omitting country code for domestic calls, or even using short digit dialing when performing conference dial out—you can configure a customized dial plan and assign it to users.
 
-##Acquire new telephone numbers
+## Acquire new telephone numbers
 
 The two types of telephone numbers within Microsoft cloud voice solutions are:
 
@@ -254,7 +269,7 @@ For more information about the total count of telephone numbers that you can obt
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 
-##Transfer existing telephone numbers
+## Transfer existing telephone numbers
 
 If your organization wants to transfer (or port) existing telephone numbers to Microsoft, you can do so by submitting a port order request to Microsoft.
 
@@ -278,7 +293,7 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 
 <!--ENDOFSECTION-->
 
-##Dial plans
+## Dial plans
 
 A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translates dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
 
@@ -342,7 +357,7 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 
 <!--ENDOFSECTION-->
 
-##Document service decisions 
+## Document service decisions 
 
 Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
 

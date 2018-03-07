@@ -1,12 +1,27 @@
-#Define my success
+---
+title: Define my success in Audio Conferencing - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Measure the results of your Audio Conferencing deployment and verify you've achieved the outcomes you wanted.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
 
-##Introduction
+# Define my success
+
+## Introduction
 
 This content provides an overview of the requirements for properly defining success for the deployment of Audio Conferencing for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
 
 <!--ENDOFSECTION-->
 
-##Define business use cases for Audio Conferencing
+## Define business use cases for Audio Conferencing
 
 Audio Conferencing provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, PBX, or mobile phones.
 
@@ -47,7 +62,7 @@ In addition to defining your business use cases, to set the project boundaries y
 
 <!--ENDOFSECTION-->
 
-##Identify key stakeholders
+## Identify key stakeholders
 
 The business use cases defined in the previous step include an organizational scope for the Audio Conferencing implementation, and based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
 
@@ -80,7 +95,7 @@ The business use cases defined in the previous step include an organizational sc
 
 <!--ENDOFSECTION-->
 
-##Define OKRs, KSIs and risks
+## Define OKRs, KSIs, and risks
 
 With the project stakeholders assembled, you can translate business use cases, organizational scope, and project timelines into objectives and key results (OKRs), and the measures of project success can be defined as a list of key success indicators (KSIs).
 
@@ -142,7 +157,7 @@ You need to identify business risks as part of this exercise, and define a mitig
 
 <!--ENDOFSECTION-->
 
-##Establish a steering committee
+## Establish a steering committee
 
 A steering committee is a governing group of key stakeholders and project leaders who have been brought together to guide a project or program toward its defined business outcomes. The steering committee isn’t directly responsible for *how* the project is delivered, but rather *what* the project delivers to the business.
 
