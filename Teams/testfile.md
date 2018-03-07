@@ -2,6 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
+
 # Welcome to Office content on docs.microsoft.com
 ## This is a level 2 heading
 ### H3 header
@@ -19,7 +20,8 @@ test update
 3. item 4
 
 
-change to test file
+adding an include to this file here:
+[!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
 It's possible to trick a Markdown table into looking like it contains a bullet list using HTML symbols and just the linebreak tag:
