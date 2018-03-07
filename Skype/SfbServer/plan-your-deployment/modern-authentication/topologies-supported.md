@@ -25,7 +25,7 @@ Skype for Business can leverage security advantages of Modern Authentication. Be
   
 Given Skype for Business, Skype for Business online, Exchange Server, and Exchange online, what topologies are supported with MA?
   
-<!--  > [!TIP] > Not sure what Modern Authentication even is? No worries. [This Skype for Business article](4e6a99cd-7859-4062-8a30-5ac79ba36b52) explains it in the first paragraphs. 
+<!--  > [!TIP] > Not sure what Modern Authentication even is? No worries.  This Skype for Business article  4e6a99cd-7859-4062-8a30-5ac79ba36b52  explains it in the first paragraphs. --> 
   
 ### Supported MA topologies in Skype for Business
 
