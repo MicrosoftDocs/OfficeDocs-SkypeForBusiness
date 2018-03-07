@@ -52,7 +52,6 @@ You can set the following invitation policies:
 > You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
 ##Microsoft Teams
-
 In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization. The setting is disabled by default and applies at the tenant level for Microsoft Teams only.
 
 
