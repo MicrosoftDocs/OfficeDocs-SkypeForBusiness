@@ -659,7 +659,7 @@ Follow these steps the first time you deploy Skype for Business Cloud Connector 
   Publish-CcHAInstance 
   ```
 
-9. Follow the steps in the  (configure-skype-for-business-cloud-connector-edition.md#BKMK_PostInstall) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
+9. Follow the steps in the  (configure-skype-for-business-cloud-connector-edition.md) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
     
 #### Upgrade binaries and update HA topology simultaneously
 
