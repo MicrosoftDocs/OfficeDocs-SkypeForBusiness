@@ -1,5 +1,5 @@
 ---
-title: Prepare my users for Microsoft Teams
+title: Prepare users for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe

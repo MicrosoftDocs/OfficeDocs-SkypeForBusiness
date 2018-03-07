@@ -1,5 +1,5 @@
 ---
-title: Make my Audio Conferencing service decisions - Microsoft Teams
+title: Make Audio Conferencing service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe

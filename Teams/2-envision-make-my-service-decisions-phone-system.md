@@ -1,5 +1,5 @@
 ---
-title: Make my Phone System service decisions - Microsoft Teams
+title: Make Phone System with Calling Plans service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe

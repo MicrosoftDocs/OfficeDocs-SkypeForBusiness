@@ -1,5 +1,5 @@
 ---
-title: Deploy my Microsoft Teams cloud voice service
+title: Deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
