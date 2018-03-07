@@ -22,6 +22,7 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "The Letter of Authorization (LOA) gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute."
+robots: noindex
 ---
 
 # Download a Letter of Authorization (LOA) 
