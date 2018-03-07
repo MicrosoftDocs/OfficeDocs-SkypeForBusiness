@@ -28,7 +28,8 @@ Guest access in Microsoft Teams allows teams in your organization to collaborate
 Guest access is included with all Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions. No additional Office 365 license is necessary. Guest access is a tenant-level setting in Microsoft Teams and is turned off by default.
 
 
-A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
+A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone can be added as guest in Microsoft Teams. This means that anyone with a business (with an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can partecipate as a guest in Teams with full access to teams chats, meetings and files.
+All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
   
        
 
