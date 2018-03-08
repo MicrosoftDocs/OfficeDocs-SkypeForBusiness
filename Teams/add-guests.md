@@ -15,6 +15,8 @@ appliesto:
 
 Add a guest to a team
 =====================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Only users who have an email address corresponding to an Azure Active Directory or Office 365 work or school account can be added as a guest user.
 
