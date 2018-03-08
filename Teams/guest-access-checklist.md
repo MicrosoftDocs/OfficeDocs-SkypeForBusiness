@@ -44,9 +44,10 @@ For more information, including how-to videos, see [Guest access in Microsoft Te
 
 □ Make sure users can add guests. Here's how:
  
-1. In the Office 365 admin center, go to **Settings** > **Security & privacy**.![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
-2. In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
-3. Set **Let users add new guests to this organization** to **On**, and then click **Save**. ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+1. In the Office 365 admin center, go to **Settings** > **Security & privacy**.
+![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
+1. In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+2. Set **Let users add new guests to this organization** to **On**, and then click **Save**. ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
 
  > [!NOTE]
 > This setting is equivalent to the **Members can invite** setting in  User settings > External users  in Azure AD.  
@@ -58,11 +59,11 @@ For more information, including how-to videos, see [Guest access in Microsoft Te
 
 In the Office 365 admin center, go to **Settings** > **Services & Add-ins** > **Office 365 Groups**.
 
-Make sure **Let group members outside the organization access group content" is set to **On**. If this setting is turned off, guests won't be able to access any group content.
+Make sure **Let group members outside the organization access group content** is set to **On**. If this setting is turned off, guests won't be able to access any group content.
 
 Make sure **Let group owners add people outside the organization to groups** is set to **On**. If this setting is turned off, Team owners won't be able to add new guests. (However, if an admin had added a guest user to Azure AD, then the Team owner would be able to add that user to the Team.) At a minimum,  this setting must be "on" to support guest access.
 
-For detailed instructions about configuring these settings, see the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
+For detailed instructions about configuring these settings, see the section "Office 365 Groups" in [Authorize guest access in Microsoft Teams](Teams-dependencies.md) and [Allow/Block guest access to Office 365 groups](https://go.microsoft.com/fwlink/?linkid=869658).
  
 
 
@@ -75,6 +76,10 @@ For detailed instructions about configuring these settings, see the section "Off
 	
 
 ► At a minimum to support guests, **Members can invite** must be set to **Yes**.
+
+> > [!NOTE]
+> If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to Teams by non-admin members (team owners).
+
 
 For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
 
@@ -90,21 +95,7 @@ For more information, see [Authorize guest access in Microsoft Teams](Teams-depe
 3. In the SharePoint admin center, select **Sharing**.
 4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.![Screenshot shows an example of a Sparepoint Online Settings toggle. ](media/guest-access-checklist-SPOSettings1.png)
 
-## □ Configure AllowAddGuests parameter in PowerShell
 
-Use the Get-UnifiedGroup cmdlet in PowerShell to see the current setting for the AllowAddGuests parameter, which indicates whether guests are allowed (True) or not allowed (False). 
-
-
-
-Use the Set-UnifiedGroup cmdlet in PowerShell to change the value of this parameter.
-
-► At a minimum to support guests, this parameter must be set to "True".
-
-Get-UnifiedGroup <name> | fl AllowAddGuests
-
-![Screenshot shows an example of a Unified Groups powershell output. ](media/guest-access-checklist-UnifiedGroup1.png)
-
-For more details about the cmdlet, see [Set-UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx).
 
 ## □ Verify account licenses and types
 
