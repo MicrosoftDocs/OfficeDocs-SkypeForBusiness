@@ -43,11 +43,11 @@ For more information, including how-to videos, see [Guest access in Microsoft Te
 ## □  Configure Sharing in Office 365 
 
 □ Make sure users can add guests. Here's how:
+
+1. In the Office 365 admin center, go to **Settings** > **Security & privacy**.![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
+2. In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+3. Set **Let users add new guests to this organization** to **On**, and then click **Save**.![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
-1. In the Office 365 admin center, go to **Settings** > **Security & privacy**.
-![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
-1. In **Sharing**, select **Edit**.![Screenshot shows an example of a Sharing Settings edit button](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
-2. Set **Let users add new guests to this organization** to **On**, and then click **Save**. ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
 
  > [!NOTE]
 > This setting is equivalent to the **Members can invite** setting in  User settings > External users  in Azure AD.  
