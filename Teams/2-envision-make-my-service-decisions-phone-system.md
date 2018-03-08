@@ -1,13 +1,28 @@
-#Make my service decisions
+---
+title: Make Phone System with Calling Plans service decisions - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers. 
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
 
-##Calling in Teams
+# Make my service decisions
+
+## Calling in Teams
 
 With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail and emergency calling (enhanced 911).
 
 > [!NOTE]
 > The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
 
-##Phone System in Teams
+## Phone System in Teams
 
 For Teams users to be able to place and receive PSTN calls, they need to be enabled for Phone System, a feature in Office 365.
 
@@ -16,7 +31,7 @@ To enable connectivity to the PSTN, your organization can use Microsoft as its t
 > [!MPORTANT]
 > The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
 
-##Phone System with Calling Plans
+## Phone System with Calling Plans
 
 To use Microsoft as your telecommunications service provider, you need to obtain Calling Plan licenses and assign them to your Phone System users.
 
@@ -31,7 +46,7 @@ allocation of call minutes, or to let users who have a domestic calling plan pla
 
 <!--ENDOFSECTION-->
 
-##Availability of Calling Plans
+## Availability of Calling Plans
 
 Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
@@ -58,7 +73,7 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 <!--ENDOFSECTION-->
 
-##Phone numbers and emergency locations
+## Phone numbers and emergency locations
 
 With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
 
@@ -94,7 +109,7 @@ To learn more about emergency locations in relation to Calling Plans, review the
 
 <!--ENDOFSECTION-->
 
-##Voicemail
+## Voicemail
 
 Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems.
 
@@ -127,7 +142,7 @@ For more information about voicemail in a Phone System implementation, see [Azur
 
 <!--ENDOFSECTION-->
 
-##Calling identity
+## Calling identity
 
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by the Auto Attendant configuration—as Caller ID, or to block Caller ID presentation altogether.
 
@@ -150,7 +165,7 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 <!--ENDOFSECTION-->
 
-##Licensing for cloud voice capabilities
+## Licensing for cloud voice capabilities
 
 Audio Conferencing and Phone System are features in Office 365. They can be licensed separately as add-on services for existing customers who have Office 365 E3 or E1 subscription plans; they’re already included as part of the Office 365 E5 subscription plan.
 
@@ -158,7 +173,7 @@ Calling Plans is an add-on to the Phone System feature in Office 365, so you mus
 
 To support for additional Audio Conferencing and Calling Plans use cases (international conference dial-out, external calling after Calling Plan minute allocations are exhausted, and so on), you can set up Communications Credits for your organization.
 
-##Licensing for Calling Plans
+## Licensing for Calling Plans
 
 If your organization intends to use Microsoft as telecommunications service provider, you need to obtain Calling Plan add-ons appropriate to your users’ business requirements. Generally, not everybody in an organization needs to place international calls, so you can provision most users with domestic Calling Plan licenses.
 
@@ -204,7 +219,7 @@ To learn more about Phone System and Calling Plans, review the following article
 
 <!--ENDOFSECTION-->
 
-##Communications Credits
+## Communications Credits
 
 Using Communications Credits, your users can dial out from an Audio Conferencing meeting to add someone else from anywhere in the world (outside of the originating country of the meeting organizer). You can set up Communications Credits for your organization to enable users to make outbound calls after they’ve exhausted their allocation of calling minutes, without having to wait
 until the next month’s billing cycle. Additionally, Communications Credits give users assigned with the Domestic Calling Plan the ability to make international calls, which are then charged by using a “pay-per-minute” model.
@@ -243,7 +258,7 @@ To learn more about Communications Credits, review [What are Communications Cred
 
 <!--ENDOFSECTION-->
 
-##Manage cloud voice telephone numbers
+## Manage cloud voice telephone numbers
 
 If you implement Phone System by bringing your own telecommunications service provider, telephone number management will remain as-is.
 
@@ -251,7 +266,7 @@ For Audio Conferencing and Calling Plans implementations, you can choose to acqu
 
 To let users dial phone numbers the way they’re accustomed to—such as omitting area codes for local calls, omitting country code for domestic calls, or even using short-digit dialing when performing conference dial-out or calling other users in the organization—you can configure a customized dial plan and assign it to users.
 
-##Acquire new telephone numbers
+## Acquire new telephone numbers
 
 The two types of telephone numbers in Microsoft cloud voice solutions are:
 
@@ -271,7 +286,7 @@ For more information about the total count of telephone numbers that you can obt
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Document the type of telephone numbers to be acquired from Microsoft.</li></ul>|
 
-##Transfer existing telephone numbers
+## Transfer existing telephone numbers
 
 If your organization wants to transfer (or port) existing telephone numbers to Microsoft, you can do so by submitting a port order request to Microsoft.
 
@@ -295,7 +310,7 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 
 <!--ENDOFSECTION-->
 
-##Dial plans
+## Dial plans
 
 A Dial Plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. The Audio Conferencing service leverages the same capabilities used by Phone System to translate dialed phone numbers in conference dial-out scenarios (for example, invite participants via PSTN and dial back, “call me” feature).
 
@@ -359,7 +374,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 
 <!--ENDOFSECTION-->
 
-##Document service decisions 
+## Document service decisions 
 
 Use the information from the previous sections of this article to document your service decisions. In general, this documentation will contain the following main sections:
 

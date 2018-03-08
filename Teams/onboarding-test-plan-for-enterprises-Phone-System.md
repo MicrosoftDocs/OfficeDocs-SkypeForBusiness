@@ -1,3 +1,18 @@
+---
+title: Enterprise test plan for Phone System with Calling Plans in Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Validate that your organization's expectations are met through testing Phone System in Teams features, functionality, and usability.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 Define and document your Phone System with Calling Plans in Teams test plan for enterprises 
 ============================================================================================
 

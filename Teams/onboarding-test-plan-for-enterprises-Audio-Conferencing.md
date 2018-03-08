@@ -1,3 +1,18 @@
+---
+title: Enterprise test plan for Audio Conferencing in Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Validate that your organization's expectations are met through testing Audio Conferencing in Teams features, functionality, and usability.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 Define and document your Audio Conferencing in Teams test plan for enterprises 
 ===============================================================================
 

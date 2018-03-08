@@ -1,3 +1,18 @@
+---
+title: Operations Guide for Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Tasks and activities required for Teams service management, including monitoring service health, assessing and ensuring network quality and usage.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Operate my service
 
 ## Introduction to the Operations Guide
@@ -27,7 +42,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activiteis that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activities that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that comprise service management for Teams. The diagram also depicts that service management is largely a customer task.")
 
 
 <table>

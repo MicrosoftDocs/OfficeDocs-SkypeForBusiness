@@ -1,4 +1,20 @@
+---
+title: Enhance your Microsoft Teams service
+author: rmw2890
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/13/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Regularly evaluate opportunities to enhance the Teams service, monitor the Teams roadmap for any interesting feature enhancements.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Enhance my service
+
 ## Enhance my service overview
 After you’ve successfully deployed Audio Conferencing or Phone System with
 Calling Plans services to your organization, and are operating the service with
@@ -6,7 +22,7 @@ quality and reliability, the next step is to regularly evaluate whether you have
 any opportunities to enhance your services.
 
 A great way to make sure you’re always getting the most out of your services is
-to monitor the Teams public roadmaps for new feature enhancements that might be
+to monitor the [Teams public roadmaps](https://aka.ms/skype2teamsroadmap) for new feature enhancements that might be
 of interest to your organization.
 
 Additionally, because organizations grow and change, you should take time to

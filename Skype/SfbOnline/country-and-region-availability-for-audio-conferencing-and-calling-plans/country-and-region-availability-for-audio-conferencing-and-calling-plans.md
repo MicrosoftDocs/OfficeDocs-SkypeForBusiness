@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -126,7 +128,7 @@ After you look to see if one of the Skype for Business or Microsoft Teams servic
 
 > [!NOTE]
 
-> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) or [Get new user phone numbers request forms](../what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms.md).
+> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md) or, for phone number request forms, [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).
 
 
 ## Want to learn more about these services?
