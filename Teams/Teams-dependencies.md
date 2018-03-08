@@ -36,17 +36,18 @@ These different authorization levels provide you with flexibility in how you set
 
 With Azure AD business-to-business (B2B) collaboration, sending invitations to potential guest users isn’t restricted to tenant admins. Instead, you can use policies to delegate sending invitations to users whose roles allow them to send invitations.
 
-The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level.
+The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level. At a minimum to support guests, **Members can invite** must be set to **Yes**.
 
 
 ![Screenshot of User settings in Azure Active Directory portal.](media/teams_dependencies_image2.png)
 
+Azure AD includes the following settings to configure external users:
+- **Guest user permissions are limited**: **Yes** means that guests don't have permission for certain directory tasks, such as enumerate users, groups, or other directory resources. In addition, guests can't be assigned to administrative roles in your directory. **No** means that guests have the same access to directory data that regular users have in your directory.
+- **Admins and users in the guest inviter role can invite**: **Yes** means that admins and users in the "Guest Inviter" role will be able to invite guests to the tenant. **No** means admins and users can't invite guests to the tenant.
+- **Members can invite**: **Yes** means that non-admin members of your directory can invite guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that only admins can invite guests to your directory.
+- **Guests can invite**: **Yes** means that guests in your directory can themselves invite other guest to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization.
+ 
 
-You can set the following invitation policies:
-- Turn off invitations.
-- Only admins and users in the guest inviter role can invite.
-- Admins, the guest inviter role, and members can invite.
-- All users, including guests, can invite. (This is the default policy for tenants.)
 
 > [!NOTE]
 > You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 

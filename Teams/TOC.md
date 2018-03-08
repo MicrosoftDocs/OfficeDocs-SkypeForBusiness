@@ -73,9 +73,8 @@
 ## [Add a guest to a team](add-guests.md)
 ## [View guest users in a team](view-guests.md)
 ## [Edit guest user information](edit-guests-information.md)
-## [Use PowerShell to control guest access to a team](guest-access-powershell.md)
-
-
+## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+## [Guest access checklist](guest-access-checklist.md)
 
 
 # [Cloud voice](cloud-voice-deployment.md)
@@ -210,6 +209,7 @@
 ## [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 
 
 # Security & compliance
