@@ -3,7 +3,7 @@ title: Use activity reports for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/14/2018
+ms.date: 03/08/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
