@@ -4,9 +4,11 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 03/08/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 description: Learn how to use activity reports to see how users in your organization are using Microsoft Teams.
 appliesto: 
