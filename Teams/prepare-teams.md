@@ -7,6 +7,7 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting your journey from Skype for Business to Microsoft Teams.
+ms.reviewer: dearbeen
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -43,7 +44,7 @@ Before you start onboarding your users to Teams, make sure that your current Sky
 
 Watch the [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) for guidance on how to use Call Quality Dashboard to investigate media quality.
 
-To learn more about Call Analytics, go to [Skype for Business Call Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd).
+To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### Quality champion role
 
