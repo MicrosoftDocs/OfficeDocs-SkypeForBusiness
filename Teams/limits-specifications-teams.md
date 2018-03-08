@@ -27,7 +27,7 @@ Teams and channels
 |Number of members in a team | 2,500       |
 |Number of teams a global admin can create        | Unlimited   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
-|Number of channels a user can create per team    | 200         |
+|Number of channels per team    | 200         |
 
 Meetings and calls 
 ------------------
