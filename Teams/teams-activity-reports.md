@@ -45,7 +45,6 @@ You can get a view into Microsoft Teams user activity by looking at the **Activi
 
 ![Screenshot of the Teams user activity report in the Office 365 admin center with numbered callouts.](media/teams-user-activity-report-with-callouts.png)
 
-
 |Callout |Description  |
 |--------|-------------|
 |**1**   |The Microsoft Teams user activity report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (7) will show data for 30 days, up to the date (2) for when the report was generated. |
