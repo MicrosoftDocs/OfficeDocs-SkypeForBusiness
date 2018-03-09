@@ -30,15 +30,24 @@ organization’s upgrade timeline.
 
 >   *Have questions about your upgrade*? View our *FAQ.*
 
-1. Notify your key stakeholders
-2. Envision your organization on Teams
+## Upgrade Essentials ten-step checklist
+
+1. [Notify your key stakeholders](#&#9744;-Step-1.-Notify-your-key-stakeholders)
+2. [Envision your organization on Teams](#&#9744;-Step-2.-Envision-your-organization-on-Teams.)
 3. Know your Skype for Business users
 4. Notify your users that Skype for Business is becoming Teams
-5. 
+5. Activate the user upgrade notification
+6. Remind your users that Skype for Business is becoming Teams
+7. Upgrade users to Teams
+8. Monitor Teams usage against your baseline
+9. Measure user satisfaction.
+10. Maximize your ROI with Teams
 
-## Upgrade Essentials Ten-Step Checklist
 
-## &#9744; Step 1. Notify your key stakeholders. (Approx. 4-6 weeks prior to your upgrade)
+
+## &#9744; Step 1. Notify your key stakeholders
+
+### Four to six weeks before your upgrade
 
 >   Senior leaders are accountable for company success and should be kept
 >   in-the-know about technology changes. As not everyone may have received or
@@ -50,9 +59,10 @@ organization’s upgrade timeline.
 
 -   [Stakeholder comm sample](#step-one-stakeholder-email)
  
-[Return to top](#-about-upgrade-essentials)
+[Return to top](#about-upgrade-essentials)
 
-## &#9744; Step 2. Envision your organization on Teams. (Approx. 4-6 weeks prior to your upgrade)
+## &#9744; Step 2. Envision your organization on Teams.
+## &nbsp;&nbsp;&nbsp;&nbsp;(Approx. 4-6 weeks prior to your upgrade)
 
 >   Teams offers compatible Skype for Business functionality such as IM (Chat)
 >   and Meetings, but it can also do so much more. As a true hub for teamwork,
@@ -74,6 +84,8 @@ organization’s upgrade timeline.
 
 -   [Complete technical
     planning](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams#step-3-complete-technical-planning)
+
+[Return to top](#upgrade-essentials-ten-step-checklist)
 
 ## &#9744; Step 3. Know your Skype for Business users. (Approx. 4 weeks prior to your upgrade)
 
