@@ -30,9 +30,24 @@ organization’s upgrade timeline.
 
 >   *Have questions about your upgrade*? View our *FAQ.*
 
-## Upgrade Essentials Ten-Step Checklist
+## Upgrade Essentials ten-step checklist
 
-## &#9744; Step 1. Notify your key stakeholders. (Approx. 4-6 weeks prior to your upgrade)
+1. [Notify your key stakeholders](#&#9744;-Step-1.-Notify-your-key-stakeholders)
+2. [Envision your organization on Teams](#&#9744;-Step-2.-Envision-your-organization-on-Teams.)
+3. Know your Skype for Business users
+4. Notify your users that Skype for Business is becoming Teams
+5. Activate the user upgrade notification
+6. Remind your users that Skype for Business is becoming Teams
+7. Upgrade users to Teams
+8. Monitor Teams usage against your baseline
+9. Measure user satisfaction.
+10. Maximize your ROI with Teams
+
+
+
+## &#9744; Step 1. Notify your key stakeholders
+
+### Four to six weeks before your upgrade
 
 >   Senior leaders are accountable for company success and should be kept
 >   in-the-know about technology changes. As not everyone may have received or
@@ -43,8 +58,11 @@ organization’s upgrade timeline.
 >   **Resources:**
 
 -   [Stakeholder comm sample](#step-one-stakeholder-email)
+ 
+[Return to top](#about-upgrade-essentials)
 
-## &#9744; Step 2. Envision your organization on Teams. (Approx. 4-6 weeks prior to your upgrade)
+## &#9744; Step 2. Envision your organization on Teams.
+## &nbsp;&nbsp;&nbsp;&nbsp;(Approx. 4-6 weeks prior to your upgrade)
 
 >   Teams offers compatible Skype for Business functionality such as IM (Chat)
 >   and Meetings, but it can also do so much more. As a true hub for teamwork,
@@ -66,6 +84,8 @@ organization’s upgrade timeline.
 
 -   [Complete technical
     planning](https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams#step-3-complete-technical-planning)
+
+[Return to top](#upgrade-essentials-ten-step-checklist)
 
 ## &#9744; Step 3. Know your Skype for Business users. (Approx. 4 weeks prior to your upgrade)
 
@@ -177,6 +197,7 @@ Subject Line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
 Body of Email:
 
+````
 As Microsoft
 [announced](https://blogs.office.com/en-us/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)
 in September 2017, Skype for Business and Microsoft Teams will be coming
@@ -195,6 +216,7 @@ should take to facilitate this transition. If you are listed on the To line, you
 are a key stakeholder in executing a successful transition to Teams and I may be
 reaching out for assistance. In the interim, let me know if you have any
 questions.
+````
 
 (Step 4) Notify users email
 ===========================
@@ -203,6 +225,7 @@ Subject Line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
 Body of Email:
 
+````
 From instant messaging to meetings to audio calling, we understand how much you
 rely on technologies like Skype for Business to get your job done. We are
 excited to announce that we will be transitioning to Microsoft Teams, which
@@ -231,6 +254,7 @@ upgrade.
 
 If you have questions or require support, please reach out \<\<company support
 information\>\>.
+````
 
 (Step 6) Remind user email
 ==========================
