@@ -1,11 +1,26 @@
-Environmental discovery for Microsoft Teams rollout
+---
+title: Environmental discovery for a Microsoft Teams rollout
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 03/02/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: dearbeen
+description: How to perform a detailed environmental discovery as you plan your journey from Skype for Business to Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
+---
+
+Environmental discovery for a Microsoft Teams rollout
 ===================================================
 
 Discovery is one of the very first, key steps that you take when planning for
 your journey to Microsoft Teams.
 
 You perform a detailed discovery of your environment to better understand its
-current state and to reveal any difficulties or —even further— possible blockers
+current state and to reveal any difficulties or — even further — possible blockers
 to the execution of your Teams rollout.
 
 Discovery Questionnaire
