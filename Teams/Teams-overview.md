@@ -25,6 +25,8 @@ Microsoft Teams brings together the full breadth and depth of Office 365, to pro
 
 Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
 
+Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD. Admins can centrally manage how guests participate within their Office 365 environment and easily view, add, or revoke a guest’s access to the host tenant.
+
 Teams provides a persistent chat capability, calling and meetings, easy access to other components of Office 365 as well as a robust extensibility story.  This provides a hub for teamwork that is appropriate for enterprise companies, small organizations and everyone in between.  
 
 To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.  
@@ -66,7 +68,7 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Helps teams looking to iterate quickly on a project while sharing files and collaborating on shared deliverables.
 
--   Allows Users looking to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
+-   Allows users to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
 
 ![Microsoft Outlook icon.](media/Overview_of_Microsoft_Teams_image2.png)
 
