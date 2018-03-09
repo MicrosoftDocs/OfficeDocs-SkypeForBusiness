@@ -42,7 +42,7 @@ To learn more about managing individual licenses, read [Office 365 licensing for
 4.  To turn on Teams for the organization use the license picker and select each license then set the toggle to **On** and then click **Save**.
 
 > [!NOTE]
-> Tenant-level control of the on/off status for Teams is temporary and will be removed by May 2018. At that time, access to Teams will be controlled via user-level licensing only. 
+> Tenant-level control of the on/off status for Teams is temporary and will be removed by May 2018. At that time, access to Teams will be controlled via user-level licensing only. To learn more, see [Manage user access to Microsoft Teams](user-access.md).
 
     ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
