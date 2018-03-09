@@ -233,6 +233,8 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Upgrade to Teams](upgrade-to-Teams.md)
+## [Manage Teams using PowerShell](manage-teams-powershell.md)
 
 
 # Plan, adopt, manage
