@@ -17,6 +17,8 @@ appliesto:
 
 Turn on Microsoft Teams features in your Office 365 organization
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Teams has multiple settings that can be turned on or turned off at the Office 365 tenant level. With Teams turned on for a tenant, any user that is also enabled for Teams will inherit the settings from the tenant level.
 

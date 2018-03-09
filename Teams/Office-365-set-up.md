@@ -17,6 +17,8 @@ appliesto:
 
 Set up Microsoft Teams in your Office 365 organization
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 By default, Teams is turned on for all organizations. If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.
 
