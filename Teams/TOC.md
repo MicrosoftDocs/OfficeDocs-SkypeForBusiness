@@ -1,5 +1,6 @@
 # Get started
 ## [Overview of Teams](Teams-overview.md)
+## [Office 365 licensing for Teams](office-365-licensing.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -10,18 +11,13 @@
 
 
 # Setup
+## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
-## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
 ## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
-
-
-
-# Licensing
-## [Manage user access to Teams](user-access.md)
-## [Office 365 licensing for Teams](office-365-licensing.md)
-## [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## Add-on Licensing
+### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 # Interoperability with Office 365
