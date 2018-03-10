@@ -14,7 +14,7 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
-## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
+## [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
 ## Add-on Licensing
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -233,9 +233,9 @@
 
 # Plan, adopt, manage
 ## Plan
+### [Manage user access to Teams](user-access.md)
 ### [Get clients for Teams](get-clients.md)
-### [Set up Teams in your Office 365 organization](office-365-set-up.md)
-### [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
+### [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -245,7 +245,6 @@
 ### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
 ### [Enhance Existing Office 365 groups with Teams](enhance-office-365-groups.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-### [Manage user access to Teams](user-access.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)

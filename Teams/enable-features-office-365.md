@@ -107,7 +107,7 @@ Cloud storage options in Teams currently include Box, Dropbox, Google Drive, and
 
 Settings by user/license type
 ------------------------
-When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type. (For details, see [Turn Teams on or off for your entire organization](Office-365-set-up.md).)
+When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type.
 
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)
 
