@@ -42,4 +42,4 @@ All supported subscription plans are eligible for access to the Teams web client
 Teams isn't available as a standalone service.
 
 > [!TIP]
-> If you want to manage user level licensing, see [Manage user access to Microsoft Teams](user-access.md).
+> To manage user-level licensing, see [Manage user access to Microsoft Teams](user-access.md).
