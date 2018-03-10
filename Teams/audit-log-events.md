@@ -14,6 +14,8 @@ appliesto:
 
 Search the audit log for events in Microsoft Teams
 ==================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 The audit log can help you investigate specific activities across Office 365 services. For Teams, here are some of the activities that are audited:
 

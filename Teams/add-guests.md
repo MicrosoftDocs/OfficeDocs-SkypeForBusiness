@@ -15,6 +15,8 @@ appliesto:
 
 Add a guest to a team
 =====================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams.
 
