@@ -32,8 +32,8 @@ organization’s upgrade timeline.
 
 ## Upgrade Essentials ten-step checklist
 
-1. [Notify your key stakeholders](#&#9744;-Step-1.-Notify-your-key-stakeholders)
-2. [Envision your organization on Teams](#&#9744;-Step-2.-Envision-your-organization-on-Teams.)
+1. [Notify your key stakeholders](#step1)
+2. [Envision your organization on Teams](#step-2)
 3. Know your Skype for Business users
 4. Notify your users that Skype for Business is becoming Teams
 5. Activate the user upgrade notification
@@ -46,7 +46,7 @@ organization’s upgrade timeline.
 
 
 ## &#9744; Step 1. Notify your key stakeholders
-
+<a name=step1>
 ### Four to six weeks before your upgrade
 
 >   Senior leaders are accountable for company success and should be kept
@@ -63,7 +63,7 @@ organization’s upgrade timeline.
 
 ## &#9744; Step 2. Envision your organization on Teams.
 ## &nbsp;&nbsp;&nbsp;&nbsp;(Approx. 4-6 weeks prior to your upgrade)
-
+<a name=step-2>
 >   Teams offers compatible Skype for Business functionality such as IM (Chat)
 >   and Meetings, but it can also do so much more. As a true hub for teamwork,
 >   Teams enables workgroups to manage projects, files, conversations and apps
@@ -197,7 +197,7 @@ Subject Line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
 Body of Email:
 
-````
+```
 As Microsoft
 [announced](https://blogs.office.com/en-us/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)
 in September 2017, Skype for Business and Microsoft Teams will be coming
@@ -216,7 +216,7 @@ should take to facilitate this transition. If you are listed on the To line, you
 are a key stakeholder in executing a successful transition to Teams and I may be
 reaching out for assistance. In the interim, let me know if you have any
 questions.
-````
+```
 
 (Step 4) Notify users email
 ===========================
@@ -225,7 +225,7 @@ Subject Line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
 Body of Email:
 
-````
+```
 From instant messaging to meetings to audio calling, we understand how much you
 rely on technologies like Skype for Business to get your job done. We are
 excited to announce that we will be transitioning to Microsoft Teams, which
@@ -254,7 +254,7 @@ upgrade.
 
 If you have questions or require support, please reach out \<\<company support
 information\>\>.
-````
+```
 
 (Step 6) Remind user email
 ==========================
