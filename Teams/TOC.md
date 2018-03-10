@@ -15,7 +15,7 @@
 ## [Get clients for Teams](get-clients.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
-## Add-on Licensing
+## Add-on licensing
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
