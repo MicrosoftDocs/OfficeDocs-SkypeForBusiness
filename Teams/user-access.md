@@ -62,7 +62,7 @@ To disable Microsoft Teams for all users with an active license for your named p
 |![Next Steps icon.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targetted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Microsoft Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Microsoft Teams.</li></ul>         |
 
 ## Manage via Office Sku level switch
-    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)
+    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
 
