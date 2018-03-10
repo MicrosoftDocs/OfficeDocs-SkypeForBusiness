@@ -17,6 +17,8 @@ appliesto:
 
 Office 365 licensing for Microsoft Teams
 ========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 The following Office 365 subscriptions enable users for Teams:
 

@@ -16,6 +16,8 @@ appliesto:
 
 Manage user access to Microsoft Teams
 =====================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 At the user-level, access to Microsoft Teams can be enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license.
 

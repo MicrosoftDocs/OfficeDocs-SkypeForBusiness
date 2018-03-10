@@ -16,6 +16,8 @@ ms.custom:
 
 Quick start guides for Microsoft Teams admins
 =====================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Use these quick start guides to help you get your organization up and running quickly on Teams. 
 
