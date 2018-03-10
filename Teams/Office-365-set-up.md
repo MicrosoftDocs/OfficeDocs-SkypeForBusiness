@@ -7,7 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Learn how to Enable Microsoft Teams in your Office 365 organization.
+description: Learn how to enable Microsoft Teams in your Office 365 organization.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
