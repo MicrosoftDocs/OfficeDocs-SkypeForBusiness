@@ -29,7 +29,7 @@ To learn more about managing individual licenses, read [Office 365 licensing for
 
 
 ## Turn Teams on or off for your entire organization
-    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
 
