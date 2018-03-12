@@ -15,6 +15,8 @@ appliesto:
 
 Practical guidance for Audio Conferencing in Microsoft Teams
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Audio Conferencing in Office 365 allows participants to join your Teams meetings from any telephone.
 
