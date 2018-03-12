@@ -17,3 +17,5 @@ Manage Microsoft Teams using PowerShell
 ======================================
 
 Link to this article from the [Upgrade to Teams](upgrade-to-Teams.md) article.
+
+http://aka.ms/ManageTeamsPowerShell 

@@ -19,3 +19,5 @@ Upgrade to Microsoft Teams
 This article explains the Teams upgrade paths. It will be the CSH link from the Teams Upgrade section of the new Teams & Skype for Business Admin Center.
 
 Cross reference Journey to Teams, Upgrade content (from Debbie Arbeeny).
+
+http://aka.ms/UpgradeToTeams  
