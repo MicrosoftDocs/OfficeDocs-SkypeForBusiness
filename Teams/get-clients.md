@@ -3,7 +3,7 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -32,7 +32,7 @@ The Web client performs browser version detection upon connecting to [https://te
 
 Internet browser support
 ------------------------------
-> [!INCLUDE [browser-support](includes/browser-support.md)]
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 Desktop clients
 ------------------------
