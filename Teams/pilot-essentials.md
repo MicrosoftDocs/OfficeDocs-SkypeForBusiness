@@ -140,7 +140,7 @@ Educating your pilot participants on what is happening, when and why, as well as
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
 > [!IMPORTANT]
-> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Manage user access to Teams](user-access.md).
 > 
 
 Here's a suggested timeline for a 30-day pilot:

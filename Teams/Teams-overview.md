@@ -44,6 +44,9 @@ Office 365 Groups leverage identities stored in Azure Active Directory (Azure AD
 
 Teams also provides a calling and meetings experience that is built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
 
+> [!NOTE]
+> Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default. For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. This update will gradually roll out across Outlook and Teams in the coming months.
+
 
 Microsoft Teams and Office 365
 ------------------------------
