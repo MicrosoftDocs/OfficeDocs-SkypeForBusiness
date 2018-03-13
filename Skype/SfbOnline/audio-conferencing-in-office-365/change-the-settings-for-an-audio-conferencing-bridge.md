@@ -35,7 +35,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 ## Change the settings for an audio conferencing bridge 
 
-### Using Microsoft Teams
+### Using the Microsoft Teams and Skype for Business Admin Center
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

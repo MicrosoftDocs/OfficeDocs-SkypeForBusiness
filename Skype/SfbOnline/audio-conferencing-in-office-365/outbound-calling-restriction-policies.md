@@ -37,7 +37,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ## Restrict audio conferencing outbound calls 
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
 

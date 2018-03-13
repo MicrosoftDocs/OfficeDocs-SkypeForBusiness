@@ -32,7 +32,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Setting meeting join options
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

@@ -34,7 +34,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## Enable or disable anonymous callers from joining a meeting
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**. 
 

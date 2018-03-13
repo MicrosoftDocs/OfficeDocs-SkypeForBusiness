@@ -54,7 +54,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 
 You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 

@@ -102,7 +102,7 @@ When you disable sending emails to users, email won't be sent even when a user g
   
 By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell. 
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

@@ -32,7 +32,8 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Set whether callers should record their name
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 

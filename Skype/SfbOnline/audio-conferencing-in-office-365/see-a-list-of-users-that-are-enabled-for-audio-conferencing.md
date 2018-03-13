@@ -30,7 +30,7 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
   
 ## Viewing a list of users
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 - In the left navigation, click **Users**.
 

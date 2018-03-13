@@ -37,7 +37,7 @@ Conference IDs are only automatically set only for Skype for Business and Micros
   
 ## Resetting the conference ID for a user
 
-**Using Microsoft Teams**
+**Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
 
