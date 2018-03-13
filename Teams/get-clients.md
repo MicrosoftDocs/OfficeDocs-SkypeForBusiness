@@ -3,7 +3,7 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -32,14 +32,7 @@ The Web client performs browser version detection upon connecting to [https://te
 
 Internet browser support
 ------------------------------
-Teams supports the following internet browsers: 
-- Internet Explorer 11
-- Microsoft Edge
-- The latest version of Chrome, plus two previous versions
-- The latest version of Firefox, plus two previous versions
-
-> [!NOTE]
-> Safari isn't currently supported. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
 Desktop clients
 ------------------------

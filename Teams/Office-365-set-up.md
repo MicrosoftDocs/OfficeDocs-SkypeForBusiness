@@ -1,13 +1,13 @@
 ---
-title: Set up Microsoft Teams in your Office 365 organization
+title: Turn on Microsoft Teams in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Learn how to set up Microsoft Teams in your Office 365 organization.
+description: Learn how to turn on Microsoft Teams for your Office 365 organization.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-Set up Microsoft Teams in your Office 365 organization
+Turn on Microsoft Teams in your Office 365 organization
 ======================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
@@ -29,7 +29,7 @@ To learn more about managing individual licenses, read [Office 365 licensing for
 
 
 ## Turn Teams on or off for your entire organization
-
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
 1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
 
@@ -44,7 +44,3 @@ To learn more about managing individual licenses, read [Office 365 licensing for
 4.  To turn on Teams for the organization use the license picker and select each license then set the toggle to **On** and then click **Save**.
 
     ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
-
-
-> [!NOTE]
-> Tenant-level control of the on/off status for Teams is temporary and will be removed at some point in the future. At that time, access to Teams will be controlled via user-level licensing only. 
