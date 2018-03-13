@@ -1,5 +1,6 @@
 # Get started
 ## [Overview of Teams](Teams-overview.md)
+## [Office 365 licensing for Teams](office-365-licensing.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -10,18 +11,13 @@
 
 
 # Setup
+## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
-## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
-## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
-
-
-
-# Licensing
-## [Manage user access to Teams](user-access.md)
-## [Office 365 licensing for Teams](office-365-licensing.md)
-## [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
+## Add-on licensing
+### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 # Interoperability with Office 365
@@ -51,6 +47,7 @@
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use T-Bot to help users with Teams](t-bot.md)
+## [Use activity reports for Teams](teams-activity-reports.md)
 
 # Meetings
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
@@ -73,9 +70,8 @@
 ## [Add a guest to a team](add-guests.md)
 ## [View guest users in a team](view-guests.md)
 ## [Edit guest user information](edit-guests-information.md)
-## [Use PowerShell to control guest access to a team](guest-access-powershell.md)
-
-
+## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+## [Guest access checklist](guest-access-checklist.md)
 
 
 # [Cloud voice](cloud-voice-deployment.md)
@@ -212,6 +208,7 @@
 ## [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
+
 # Security & compliance
 ## [Skype for Business and Teams data collection practices](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
@@ -236,9 +233,9 @@
 
 # Plan, adopt, manage
 ## Plan
+### [Manage user access to Teams](user-access.md)
 ### [Get clients for Teams](get-clients.md)
-### [Set up Teams in your Office 365 organization](office-365-set-up.md)
-### [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
+### [Manage Teams features in your Office 365 organization](enable-features-office-365.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -248,7 +245,6 @@
 ### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
 ### [Enhance Existing Office 365 groups with Teams](enhance-office-365-groups.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-### [Manage user access to Teams](user-access.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)

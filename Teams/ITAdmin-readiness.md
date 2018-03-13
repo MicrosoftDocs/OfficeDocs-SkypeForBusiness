@@ -3,7 +3,7 @@ title: Admin training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate Microsoft Teams.
@@ -15,6 +15,8 @@ appliesto:
 
 Admin training for Microsoft Teams
 ==================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Learn about Teams and drive usage in your organization. Check back frequently for new videos.
 
