@@ -1,5 +1,5 @@
 ---
-title: Turn on Microsoft Teams features in your Office 365 organization
+title: Manage Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,10 +15,12 @@ appliesto:
 - Microsoft Teams
 ---
 
-Turn on Microsoft Teams features in your Office 365 organization
+Manage Microsoft Teams features in your Office 365 organization
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Teams has multiple settings that can be turned on or turned off at the Office 365 tenant level. With Teams turned on for a tenant, any user that is also enabled for Teams will inherit the settings from the tenant level.
+Teams has multiple settings that can be turned on or turned off at the Office 365 tenant level. With Teams enabled, any user that is also enabled for Teams will inherit the settings from the tenant level.
 
 Below is the list of features an Office 365 administrator can turn on or turn off in Teams. 
 
@@ -105,7 +107,9 @@ Cloud storage options in Teams currently include Box, Dropbox, Google Drive, and
 
 Settings by user/license type
 ------------------------
-When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type. (For details, see [Turn Teams on or off for your entire organization](Office-365-set-up.md).)
+When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type.
+
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
  Some examples of user/license types are **Business & Enterprise** and **Guest**. (If you have an Education SKU license, **Education - Faculty and Staff** or **Education - Student** are available.)![Control for Set user license](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
 
