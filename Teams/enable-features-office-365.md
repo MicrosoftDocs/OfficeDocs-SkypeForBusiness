@@ -3,7 +3,7 @@ title: Manage Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -67,8 +67,6 @@ Turn on this feature so users can send email to a channel in Teams, using the ch
 Configure the following **Email integration** settings for your organization: 
 
    ![Screenshot of the Email integration section in Tenant-wide settings.](media/QS-edu-email-integration.png)
-
--   **Allow users to send emails to channels:** When turned on, mail hooks are enabled, and users can post messages to a channel by sending an email to the email address of a Teams channel. 
 
  
 -   **Allow users to send emails to channels:** When turned on, mail hooks are enabled, and users can post messages to a channel by sending an email to the email address of Teams channel. 
