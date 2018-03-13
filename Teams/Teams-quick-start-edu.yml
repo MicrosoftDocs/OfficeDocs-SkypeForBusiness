@@ -188,6 +188,8 @@ items:
   content: |
     If you have multiple license types within your organization, you'll see them in in the following drop down. Some examples are **Business and Enterprise** or **Education - Faculty and Staff** or **Education - Student** and **Guest**. The following section will outline how you can manage these groups. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings. 
 
+    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
     To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch, eventually you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.

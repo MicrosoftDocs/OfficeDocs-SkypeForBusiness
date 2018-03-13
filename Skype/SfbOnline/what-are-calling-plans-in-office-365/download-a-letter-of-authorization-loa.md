@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: c0ab5bc9-44f1-46dd-b401-828e4f10b7ac
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -20,6 +22,7 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "The Letter of Authorization (LOA) gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute."
+robots: noindex
 ---
 
 # Download a Letter of Authorization (LOA) 
