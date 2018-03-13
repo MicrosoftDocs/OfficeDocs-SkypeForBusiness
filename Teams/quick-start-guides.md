@@ -3,7 +3,7 @@ title: Quick start guides for Microsoft Teams admins
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
