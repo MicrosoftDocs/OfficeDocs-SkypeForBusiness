@@ -18,7 +18,7 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: "On April 1, 2019, the end of life program will conclude for the integration of Skype for Business with third-party audio conferencing providers (3rd party ACP)."
+description: "On April 1, 2019, the end of life program will conclude for the integration of Skype for Business with third-party audio conferencing providers (3rd party ACP)." 
 ---
 
 # End of life program for the integration of Skype for Business with third-party audio conferencing providers 
