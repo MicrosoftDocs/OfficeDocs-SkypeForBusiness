@@ -60,7 +60,7 @@ the following focus areas:
 
 -   Adoption
 
-The [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) is a Microsoft Excel workbook. Each of these five
+The [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) is a Microsoft Excel workbook. Each of these five
 focus areas is a separate sheet in the workbook, and each deployment task and
 activity is grouped onto one of these sheets.
 
@@ -80,7 +80,7 @@ in optimal order—before, during, and after the actual service rollout. We
 recommend that you follow these steps as you plan and execute your own journey
 to Microsoft Teams voice.
 
-1.  Download the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) for Microsoft Teams
+1.  Download the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) for Microsoft Teams
     Voice.
 
 2.  Create a separate copy of the playbook for each site.
