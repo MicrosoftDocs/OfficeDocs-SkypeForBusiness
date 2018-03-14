@@ -28,7 +28,7 @@ For Teams users to be able to place and receive PSTN calls, they need to be enab
 
 To enable connectivity to the PSTN, your organization can use Microsoft as its telecommunications service provider. Eventually, you’ll also have the option to “bring your own” telecommunications service provider to enable connectivity to PSTN for Phone System.
 
-> [!MPORTANT]
+> [!IMPORTANT]
 > The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
 
 ## Phone System with Calling Plans
