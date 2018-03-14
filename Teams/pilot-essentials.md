@@ -98,7 +98,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
+<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s) using [Select users for your Teams pilot](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) guidance.</td>
 </tr>
 </thead>
 <tbody>
