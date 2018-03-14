@@ -12,7 +12,7 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
-# About Upgrade Essentials 
+# About the Upgrade Essentials checklist 
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Essentials checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
@@ -21,21 +21,6 @@ These ten easy steps provide everything you need for upgrade success. Note that 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
 
 Have questions about your upgrade? View our FAQ.
-
-## Upgrade Essentials ten-step checklist
-
-1. [Notify your key stakeholders (four to six weeks before the upgrade)](#step-1)
-2. [Envision your organization on Teams (four to six weeks before the upgrade)](#step-2)
-3. [Know your Skype for Business users (about four weeks before the upgrade)](#step-3)
-4. [Notify your users that Skype for Business is becoming Teams (two to three weeks before the upgrade)](#step-4)
-5. [Activate the user upgrade notification (about one week before the upgrade)](#step-5)
-6. [Remind your users that Skype for Business is becoming Teams (about five days before the upgrade)](#step-6)
-7. [Upgrade users to Teams (Upgrade Day!)](#step-7)
-8. [Monitor Teams usage against your baseline (one or two weeks after the upgrade)](#step-8)
-9. [Measure user satisfaction (one or two weeks after the upgrade)](#step-9)
-10. [Maximize your ROI with Teams (ongoing)](#step-10)
-
-
 
 ## &#9744; Step 1. Notify your key stakeholders (four to six weeks before the upgrade)
 <a name="step-1"></a>
@@ -49,7 +34,7 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 [Return to top](#about-upgrade-essentials)
 
 ## &#9744; Step 2. Envision your organization on Teams (four to six weeks before the upgrade)
-<a name="step-2"></a>>
+<a name="step-2"></a>
 
 Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and enable your environment for success.
 
@@ -65,7 +50,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 [Return to top](#upgrade-essentials-ten-step-checklist)
 
-## &#9744; Step 3. Know your Skype for Business users (about four weeks before the upgrade)*
+## &#9744; Step 3. Know your Skype for Business users (about four weeks before the upgrade)
 <a name="step-3"></a>
 
 Users who are deeply adopted on Skype for Business might need a little more time or assistance to make the transition to Teams. Take time to review your current Skype for Business usage to identify your top users in need of additional support and to establish a usage baseline you can track against your post-upgrade numbers.
@@ -162,6 +147,7 @@ Microsoft has indicated that Teams is now ready for our organization. To take fu
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
+[Return to step 1](#step-1)
 
 ### Notify users email, for step 4
 <a name="step-4-email"></a>
@@ -184,6 +170,8 @@ Our official transition to Teams is set for \<\<date\>\>, but your journey start
 
 If you have questions or need help, please reach out to \<\<company support information\>\>.
 ````
+
+[Return to step 4](#step-4)
 
 ### Remind users email, for step 6
 <a name="step-6-email"></a>
@@ -209,6 +197,8 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact \<\<insert alias or contact info\>\>.
 ````
 
+[Return to step 6](#step-6)
+
 ### Welcome users email from the executive sponsor, for step 7
 <a name="step-7-email"></a>
 
@@ -232,6 +222,8 @@ Regards,
 \<\<Executive sponsor\>\>
 ````
 
+[Return to step 7](#step-7)
+
 ### Check-in email, for step 9
 <a name="step-9-email"></a>
 
@@ -246,6 +238,8 @@ We upgraded to Microsoft Teams just over a week ago and want to hear from you.
 
 Should you have questions, contact \<\<insert alias or contact info\>\>.
 ````
+
+[Return to step 9](#step-9)
  
 ### Email to ask users to give teams and channels a try, for step 10
 <a name="step-10-email"></a>
@@ -266,6 +260,8 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 
 Should you have questions, contact \<\<insert alias or contact info\>\>.
 ````
+
+[Return to step 10](#step-10)
 
 [//]: # (These could also go into the step 9 section above, but I think being here is okay. We'll see.)
 ## Sample surveys, for the check-in email in step 9
@@ -300,3 +296,5 @@ How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at
 | 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+
+[Return to step 9](#step-9)
