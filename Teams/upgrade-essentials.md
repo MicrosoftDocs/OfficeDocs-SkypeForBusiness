@@ -161,8 +161,9 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 
 ## Sample emails
 
-### Stakeholder email, for step 1
 <a name="step-1-email"></a>
+
+### Stakeholder email, for step 1
 
 Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
@@ -177,8 +178,9 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 ````
 [Return to step 1](#step-1)
 
-### Notify users email, for step 4
 <a name="step-4-email"></a>
+
+### Notify users email, for step 4
 
 Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
@@ -201,8 +203,9 @@ If you have questions or need help, please reach out to \<\<company support info
 
 [Return to step 4](#step-4)
 
-### Remind users email, for step 6
 <a name="step-6-email"></a>
+
+### Remind users email, for step 6
 
 Subject line: ACTION REQUIRED: Host your next online meeting in Teams
 
@@ -227,8 +230,9 @@ Should you have questions about this upgrade, contact \<\<insert alias or contac
 
 [Return to step 6](#step-6)
 
-### Welcome users email from the executive sponsor, for step 7
 <a name="step-7-email"></a>
+
+### Welcome users email from the executive sponsor, for step 7
 
 Subject line: PLEASE READ: Skype for Business is now Microsoft Teams
 
@@ -252,8 +256,10 @@ Regards,
 
 [Return to step 7](#step-7)
 
-### Check-in email, for step 9
 <a name="step-9-email"></a>
+
+### Check-in email, for step 9
+
 
 Subject line: ACTION REQUESTED: Tell us about your Microsoft Teams experience
 
@@ -269,8 +275,9 @@ Should you have questions, contact \<\<insert alias or contact info\>\>.
 
 [Return to step 9](#step-9)
  
-### Email to ask users to give teams and channels a try, for step 10
 <a name="step-10-email"></a>
+
+### Email to ask users to give teams and channels a try, for step 10
 
 Subject line: QU'EST-CE QUE C'EST?
 
@@ -291,9 +298,10 @@ Should you have questions, contact \<\<insert alias or contact info\>\>.
 
 [Return to step 10](#step-10)
 
+<a name="step-9-surveys"></a>
+
 [//]: # (These could also go into the step 9 section above, but I think being here is okay. We'll see.)
 ## Sample surveys, for the check-in email in step 9
-<a name="step-9-surveys"></a>
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you would like to learn more about.
 
