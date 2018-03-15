@@ -85,6 +85,3 @@ Conference IDs are only automatically set only for Skype for Business and Micros
 ## Related topics
 
 [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
