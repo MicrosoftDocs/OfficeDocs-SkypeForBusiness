@@ -37,7 +37,7 @@ The following Office 365 subscriptions enable users for Teams:
 
 In terms of Teams core functionalities, there are no differences between the  Office 365 subscriptions. The availability of the compliance capabilities does rely on the correct subscription level. To learn more, read [Overview of security and compliance in Teams](security-compliance-overview.md).
 
-For Audio Conferencing, your organization will need to buy and assign an Audio Conferencing license to each user who will be setting up dial-in meetings. For Calling Plans, each user will need a Phone System plus a Domestic or Domestic and International Calling Plan. To learn more, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Cloud voice features**: For Audio Conferencing, your organization will need to buy and assign an Audio Conferencing license to each user who will be setting up dial-in meetings. For Calling Plans, each user will need a Phone System plus a Domestic or Domestic and International Calling Plan. To learn more, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 All supported subscription plans are eligible for access to the Teams web client, desktop clients, and mobile apps.
 
