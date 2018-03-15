@@ -56,7 +56,7 @@ Service management can be divided into two distinct categories of responsibility
 
 -   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
 
-For detailed guidance for service management planning, see **[Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management)**.
+For detailed guidance for service management planning, see [Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management).
 
 #### Network 
 
@@ -66,7 +66,7 @@ In traditional networks, users will need to traverse the perimeter networks of a
 
 Furthermore, the core internal networks need to be optimized and right-sized to provide sufficient capacity and quality for supporting the Teams workloads, including real-time media. You can use bandwidth planning, remediation, and optimization to help ensure your network provides a high-quality and efficient path to Office 365.
 
-For detailed guidance about network planning, see **[Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality)**.
+For detailed guidance about network planning, see [Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality).
 
 #### Endpoints
 
@@ -74,7 +74,7 @@ Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, 
 
 To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
 
-For detailed guidance about endpoint planning, see **[Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality)**.
+For detailed guidance about endpoint planning, see [Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality).
 
 ## Plan for service management
 
