@@ -88,6 +88,3 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
 ## Related topics
 
 [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
