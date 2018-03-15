@@ -3,7 +3,7 @@ title: Plan for service management guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,7 +15,7 @@ appliesto:
 # Plan for service management and quality
 
 This document is about the Envision phase for Microsoft Teams.
-
+ 
 ## Introduction
 
 This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
@@ -114,7 +114,7 @@ The tasks and activities associated with the role have been documented in the Op
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
-![A diagram that indicated the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
+![A diagram that indicates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
