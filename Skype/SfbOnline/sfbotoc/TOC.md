@@ -48,8 +48,6 @@
 ### [Change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Create and manage dial plans](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
 ### [Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Download a Letter of Authorization (LOA)](../what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa.md)
-### [Get new user phone numbers request forms](../what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms.md)
 ### [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [How to get Calling Plans for Office 365](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
