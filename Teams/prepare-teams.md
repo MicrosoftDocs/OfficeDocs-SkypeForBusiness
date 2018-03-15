@@ -1,5 +1,5 @@
 ---
-title: Optimize your current Skype for Business environment for Microsoft Teams
+title: Optimize your current Skype for Business environment for Microsoft Teams 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
