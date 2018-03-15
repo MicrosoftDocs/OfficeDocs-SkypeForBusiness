@@ -31,7 +31,7 @@ Microsoft is working hard to bring you tailored practical guidance to ensure tha
 - New to adoption and change management? Leverage the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045)
 
 
-## Get your organizaton ready for your future move to Teams
+## Get your organization ready for your future move to Teams
 
 - Use the [Roadmap](https://go.microsoft.com/fwlink/?linkid=859047) to navigate your journey to Teams
 
