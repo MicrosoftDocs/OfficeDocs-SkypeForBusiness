@@ -1,31 +1,37 @@
 ---
-title: Planning workshop kit and practical guide for Microsoft Teams
+title: Tools and workshops - Plan, deliver, and adopt Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
-description: Planning tools and practical guidance to help an admin get started with Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.reviewer: ninadara, lolaj, rowille
+description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
-Planning workshop kit and practical guide for Microsoft Teams
+Tools and workshops: Plan, deliver, and adopt Microsoft Teams
 =============================================================
 
-Download these planning tools and practical guidance to walk you through rolling out Teams in your organization.
+Download these tools to walk you through planning, delivering, and adopting Teams in your organization.
 
-- [Microsoft Teams Pre-workshop Questionnaire](https://www.microsoft.com/en-us/download/55975)
-    
-    The Microsoft Teams Pre-workshop Questionnaire.docx is intended to be used to collect basic information about an organization's current Office 365 environment, to allow an informed workshop leader to customize content prior to leading a Microsoft Teams Planning Workshop.
 
-- [Planning Workshop for Microsoft Teams](https://www.microsoft.com/en-us/download/55982) 
+- [Microsoft Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    The Planning Workshop for Microsoft Teams.pptx is intended to be used by a knowledgeable resource to deliver an interactive conversation to assist with getting started with Microsoft Teams. The workshop will introduce the attendees to Microsoft Teams while also guiding them through decision points and next steps.
+    This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive adoption of Teams in your organization. It includes two quick start guides for administrators, team leaders and use case examples for every department. Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, Information Technology, Engineering, and Project Management. 
 
-- [Microsoft Teams Workshop Decision Points Summary](https://www.microsoft.com/en-us/download/55981)
+
+- [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
-    The Microsoft Teams Workshop Decision Points Summary.docx is a single asset to track all decision points and next steps from the Planning Workshop for Microsoft Teams and and in related Help content.
+    This document walks you through the five implementation phases for successfully enabling Teams. It includes a technical planning questionnaire that captures information about your organization's current Office 365 environment. This information lets the workshop leader customize the workshop presentation. The questionnaire also captures your decisions and next steps from the workshop.
+
+- [Workshop: Plan, deliver, & operate Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx) 
+    
+    Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout. The workshop introduces Teams and guides your team through decision points and next steps.
+
 
 ### See also
 

@@ -1,13 +1,14 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams | Microsoft Support
+title: Use log files in troubleshooting Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Use log files in troubleshooting Microsoft Teams
@@ -35,7 +36,7 @@ The following table outlines the various clients, and their associated logs. Log
 |Android     |-         |-         |-         |
 |Windows Phone     |-         |-         |-         |
 
-For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
+For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
 Debug logs
 ---------------------------

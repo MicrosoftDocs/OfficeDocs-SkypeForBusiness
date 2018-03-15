@@ -2,12 +2,15 @@
 title: Journey from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 10/05/2017
+manager: serdars
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: Everything you need to know about the journey to Microsoft Teams from Skype for Business Online.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.reviewer: MyAdvisor, dearbeen
+description: Walks you through everything you need to know about the journey to Microsoft Teams from Skype for Business Online.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Journey from Skype for Business to Microsoft Teams
@@ -18,7 +21,7 @@ As a valued Skype for Business customer, Microsoft is here to support you every 
 
 Visit the [Teams product roadmap](https://aka.ms/TeamsRoadmap) to stay on top of what’s coming next in Teams and decide the best time for your organization to move to Teams.
 
-Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Busineses to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
+Another great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
 
 For best results, we recommend that you follow this guidance in order:
 
@@ -37,6 +40,8 @@ For best results, we recommend that you follow this guidance in order:
 [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+
+[Microsoft Teams Roadmap](https://aka.ms/teamsroadmap)
 
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 

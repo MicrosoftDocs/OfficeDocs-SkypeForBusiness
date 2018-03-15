@@ -1,13 +1,17 @@
 ---
-title: Optimize your current Skype for Business environment for Microsoft Teams
+title: Optimize your current Skype for Business environment for Microsoft Teams 
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dearbean
 description: Guidance for starting your journey from Skype for Business to Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.reviewer: dearbeen
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Optimize your current Skype for Business environment for Microsoft Teams
@@ -41,7 +45,7 @@ Before you start onboarding your users to Teams, make sure that your current Sky
 
 Watch the [CQD videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) for guidance on how to use Call Quality Dashboard to investigate media quality.
 
-To learn more about Call Analytics, go to [Skype for Business Call Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-fbf7247a-84ae-46cc-9204-2c45b1c734cd).
+To learn more about Call Analytics, read [Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 ### Quality champion role
 

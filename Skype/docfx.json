@@ -6,6 +6,40 @@
           "**/*.md",
           "**/**.yml"
         ],
+        "src": "Hub",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "src": "SfbOnline",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "src": "SfbServer",
+        "dest": ".",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -21,7 +55,8 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
-          "**/*.gif"
+          "**/*.gif",
+          "**/*.pdf"
         ],
         "exclude": [
           "**/obj/**",
@@ -34,7 +69,14 @@
     "globalMetadata": {
       "searchScope": ["Skype for Business"],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true"
+      "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+          "dstrome",
+          "daswifty"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://www.skypefeedback.com/" 
     },
     "fileMetadata": {},
     "template": [],

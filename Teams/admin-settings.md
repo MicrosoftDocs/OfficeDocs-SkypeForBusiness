@@ -1,36 +1,61 @@
 ---
-title: Admin settings for apps in Microsoft Teams | Microsoft Support
+title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag 
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.custom:
+- NewAdminCenter_Update
+MS.collection: Strat_MT_TeamsAdmin 
+appliesto: 
+- Microsoft Teams
+- 
 ---
 
 Admin settings for apps in Microsoft Teams
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-In this section, we refer to tabs, connectors, and bots, or any combination of these capabilities, provided by a single third-party service as Apps. There are Admin policies that can be configured in the Office 365 Admin Portal to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, as well as whether side-loading apps is allowed.
+Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Teams admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, and whether side-loading apps is allowed.
 
-**Allow external apps in Microsoft Teams**
+> [!NOTE]
+> To manage admin settings for apps in Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, then choose **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there:
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
-By default, allow external apps in Microsoft Teams is enabled with all apps selected. When turning this policy to **“Off”**, then all external third-party apps are disabled. You can get more granular and allow external apps to be enabled and uncheck specific apps that you want to disable on an individual basis.
+To learn more about admin settings for apps, see the following video: 
+ 
+|  |  |
+|---------|---------|
+| Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
-**Enable new external apps by default**
+## Allow external apps in Teams
 
-Whenever new apps are submitted to the Teams App Catalog, this switch controls whether they are available for users in this tenant. By default, this policy is set to **“On”** which allows users to have access to apps as soon as they are added to the Team’s app catalog. If you would prefer to validate apps before allowing them to be utilized in Teams, then set this policy to **Off.** Just remember, if you set this to **"Off",** you should evaluate newly added apps on a regular basis to make sure your users benefit from the latest innovations and additions of apps.
+By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected.  If you turn off this switch, all external third-party apps are disabled. 
 
-**Allow side-loading of external apps**
+## Enable new external apps by default
 
-Only Team owners or members who are granted permissions, can side-load apps into Microsoft Teams. Some benefits of side-loading apps into Microsoft Teams are:
+#### :trophy: Best practice: Manage external apps individually 
+ 
+To turn on some apps (and turn off others), turn off **Allow sideloading of external apps**. Then turn off any apps you don't want your users to use. Optional: Turn off **Enable new external apps by default** (if you want to control new apps). 
 
--   Ability to test apps prior to submitting to Microsoft
+When this switch is turned on, users can activate new apps as soon as they're added to the Teams app catalog. To open the Teams app catalog, click **Store** at the bottom of Teams, then click **Apps**. If you want to control which apps are available, turn this switch off. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
 
--   Provide apps directly to users within your organization without having to submit to the Office Store.
+Sideloading is how you add an app to Teams by uploading a zip file directly to a team. Sideloading lets you test an app as it's being developed. It also lets you build an app for internal use only and share it with your team without submitting it to the Teams app catalog in the Office Store. 
 
-To learn more about side loading apps into Microsoft Teams, visit: [Side loading your app in a team](https://go.microsoft.com/fwlink/?linkid=854631).
+Only team owners, or members who are granted permissions, can sideload apps into Teams.  
 
-![Screenshot of the Apps section of Microsoft Teams settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png)
+![Screenshot of the expanded Apps section in Tenant-wide settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
+
+## Creating and uploading app packages 
+
+To learn more about apps, read [Develop apps for Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+
+
+

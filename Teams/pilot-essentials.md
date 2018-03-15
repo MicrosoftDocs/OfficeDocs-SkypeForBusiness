@@ -2,12 +2,14 @@
 title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Pilot Microsoft Teams alongside Skype for Business
@@ -96,7 +98,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
+<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s) using [Select users for your Teams pilot](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) guidance.</td>
 </tr>
 </thead>
 <tbody>
@@ -138,7 +140,7 @@ Educating your pilot participants on what is happening, when and why, as well as
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
 > [!IMPORTANT]
-> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Manage user access to Teams](user-access.md).
 > 
 
 Here's a suggested timeline for a 30-day pilot:

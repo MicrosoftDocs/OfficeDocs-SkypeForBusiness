@@ -1,13 +1,16 @@
 ---
-title: Configure an Exchange hybrid organization for use with Microsoft Teams | Microsoft Support
+title: Configure an Exchange hybrid organization for use with Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: crowe
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Configure an Exchange hybrid organization for use with Microsoft Teams

@@ -2,19 +2,24 @@
 title: Turn on or off guest access to Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
-ms.date: 11/10/17
+manager: serdars
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: rramesan
 description: Turn on or turn off the guest access feature in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.custom:
+- NewAdminCenter_Update
+appliesto: 
+- Microsoft Teams
 ---
 
 
 Turn on or off guest access to Microsoft Teams
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 
@@ -54,5 +59,9 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
   
 5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
     
-  
+ Watch the following videos for more details about guest access:  
 
+|  |  |
+|---------|---------|
+| Enabling Guest Access in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/g21Hcqdl5tI" frameborder="0" allowfullscreen></iframe>   |
+ | Adding Guests in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

@@ -1,13 +1,15 @@
 ---
-title: Use Office 365 and custom connectors in Microsoft Teams | Microsoft Support
+title: Use Office 365 and custom connectors in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lucarras 
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Use Office 365 and custom connectors in Microsoft Teams
@@ -58,4 +60,4 @@ It is very easy to develop custom connectors that can integrate into your Line-o
 
     ![Screenshot of the Teams interface showing a Connector Card message.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
-Developers can configure their applications to create these cards, by sending an HTTP request with a simple JSON payload to a Microsoft Team’s Webhook address, that is a unique URL of that endpoint provided by the wizard. Have your developers refer to [Getting started with Office 365 Connectors for Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783), on the Microsoft Developer Network, with detailed instructions and connector samples. Other resources include [Connect apps to your groups in Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and the [Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).
+Developers can configure their applications to create these cards, by sending an HTTP request with a simple JSON payload to a Microsoft Team’s Webhook address, that is a unique URL of that endpoint provided by the wizard. Have your developers refer to [Getting started with Office 365 Connectors for Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783), on the Microsoft Developer Network, with detailed instructions and connector samples. Other resources include [Connect apps to your groups in Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) and the [Office Dev Center – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).

@@ -1,32 +1,35 @@
 ---
-title: Overview of Microsoft Teams | Microsoft Support
+title: Overview of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.custom:
+- NewAdminCenter_Update
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Overview of Microsoft Teams
 ===========================
 
-| | |
-|---------|---------|
-| <iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false&height=415&width=740" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" style="width: 740px; height: 415px;"></iframe>   |         |
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
 
 
 Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
 
 Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
 
-The Teams persistent chat capability is provided by a chat service that interacts with the Office 365 substrate, surfacing many of the built-in Office 365 capabilities, such as archiving and eDiscovery to the data being exchanged in Teams.
+Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD. Admins can centrally manage how guests participate within their Office 365 environment and easily view, add, or revoke a guest’s access to the host tenant.
 
-Teams also provides a calling and meetings experience that is built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+Teams provides a persistent chat capability, calling and meetings, easy access to other components of Office 365 as well as a robust extensibility story.  This provides a hub for teamwork that is appropriate for enterprise companies, small organizations and everyone in between.  
 
-To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.
+To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.  
 
 Microsoft Teams infrastructure
 ------------------------------
@@ -35,11 +38,14 @@ Teams is built on existing Microsoft technologies, woven together by Office 365 
 
 Out of the box, a team created in Teams will create an Office 365 Group, a SharePoint Online site (complete with a document library), and an Exchange Online group mailbox, which will be used by Teams to store information such as meeting invites. A team can be created using existing Office 365 Groups, allowing existing group memberships, and contents stored in SharePoint Online and Exchange Online to be ported to Teams.
 
-Teams persistent chat is provided by a chat service that interacts with Office 365, surfacing many of the built-in Office 365 capabilities such as archiving and eDiscovery to the data being exchanged in Teams.
-
 To complement the Teams capability as a persistent chat board where informal, real-time conversations take place, Teams also provides a meeting experience built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
 
 Office 365 Groups leverage identities stored in Azure Active Directory (Azure AD) and as such, all authentication and authorization capabilities in Azure AD, such as support for multi-factor authentication (MFA), are readily available for use by Teams.
+
+Teams also provides a calling and meetings experience that is built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+
+> [!NOTE]
+> Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default. For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. This update will gradually roll out across Outlook and Teams in the coming months.
 
 
 Microsoft Teams and Office 365
@@ -65,7 +71,7 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Helps teams looking to iterate quickly on a project while sharing files and collaborating on shared deliverables.
 
--   Allows Users looking to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
+-   Allows users to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
 
 ![Microsoft Outlook icon.](media/Overview_of_Microsoft_Teams_image2.png)
 
@@ -103,6 +109,10 @@ Here are common use cases for each application in Office 365. For detailed usage
 -   Full-powered SharePoint team site automatically provisioned for every Microsoft Team for file storage, team news, pages, lists and more.
 
 -   See [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
+
+## [Teams known issues](Known-issues.md)
+
+## [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 ## What happened to the Teams admin FAQ?
 

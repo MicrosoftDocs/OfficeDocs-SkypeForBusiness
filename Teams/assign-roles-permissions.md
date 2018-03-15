@@ -1,17 +1,23 @@
 ---
-title: Assign roles and permissions in Microsoft Teams | Microsoft Support
+title: Assign roles and permissions in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Assign roles and permissions in Microsoft Teams
 ===============================================
+
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Within Microsoft Teams there are two roles: **Owner** and **Member**. By default, a user that creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
@@ -34,9 +40,11 @@ The table below shows the difference in permissions between an owner and a membe
 
 \*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
 
-| | |
-|---------|---------|
-|![Lightbulb icon.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Note     |Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
+
+
+> [!NOTE]
+> Owners can make other members owners in the View teams option. A team can have up to 100 owners. It's recommended to have at least a few owners to help manage the team; this will also prevent orphaned groups if the sole owner leaves your organization. For more information about orphaned groups, see [Assign a new owner to an orphaned group](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
+
 
 Permissions to create teams
 ---------------------------
@@ -55,19 +63,22 @@ If your organization is interested in doing this, the instructions below outline
 
     a.  **Action:** Run the following PowerShell script and verify UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
 
+    ```
     Connect-MsolService
 
     Get-MsolCompanyInformation
+    ```
 
     b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
 Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
-    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
+    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
 
 3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
 
     a.  **Action:** Create a group settings object that contains the configuration settings of the group that will be assigned delegated permissions to create groups. 
 
+    ```
     Connect-AzureAD
 
     $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
@@ -79,8 +90,9 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
     New-AzureADDirectorySetting -DirectorySetting $settings
+    ```
 
-    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/en-us/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3)
+    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
 
 
 ||||

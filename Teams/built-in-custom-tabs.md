@@ -1,13 +1,15 @@
 ---
-title: Use built-in and custom tabs in Microsoft Teams | Microsoft Support
+title: Use built-in and custom tabs in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lucarras
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Use built-in and custom tabs in Microsoft Teams
