@@ -46,7 +46,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
         
 2. After you buy the Audio Conferencing licenses, you will ned to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
-3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
 > [!NOTE]
 > You can also set up pay-per-minute Audio Conferencing. Go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md) to find out more about how to use them.
@@ -71,14 +71,14 @@ To assign a new phone number to your audio conferencing bridge, go to the **Offi
 
 For more details, see [Assign a new phone number to your audio conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-## Step 5: 
+## Step 5:: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
 
 Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet a caller when they dial in to a phone number for Audio Conferencing. 
 
 Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge settings**,  select the conferencing bridge phone number, and then click **Set languages**.
 
-## Step 6: 
+## Step 6: Set your conferencing bridge settings
 <a name="__top"> </a>
     
 After setting up your conferencing bridge, verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use; if they're not, you can change them. 
