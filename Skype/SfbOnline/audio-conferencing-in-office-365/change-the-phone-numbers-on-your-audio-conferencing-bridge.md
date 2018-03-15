@@ -224,6 +224,3 @@ Windows PowerShell has many advantages in speed, simplicity, and productivity ov
 
 ## Related topics
 [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
-  
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
