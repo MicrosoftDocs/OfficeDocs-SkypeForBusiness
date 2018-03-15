@@ -300,34 +300,33 @@ Should you have questions, contact \<\<insert alias or contact info\>\>.
 
 <a name="step-9-surveys"></a>
 
-[//]: # (These could also go into the step 9 section above, but I think being here is okay. We'll see.)
 ## Sample surveys, for the check-in email in step 9
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you would like to learn more about.
 
 |  &nbsp;  | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar |   |   |   |    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| **Use Teams for IM/chatting with others**                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams for online meetings**                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams for collaboration (teams and channels)**                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams on my mobile device**                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for IM/chatting with others                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for online meetings                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for collaboration (teams and channels)                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams on my mobile device                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
 
 
-| What, if anything, is preventing you from using Microsoft Teams?   | Select all that apply |
+| **What, if anything, is preventing you from using Microsoft Teams?**   | **Select all that apply** |
 |--------|-------|
-|  **I’ve never heard about it**    | &#9744; |
-| **I don’t have it installed on my computer**   |  &#9744;  |
-| **I don't understand how it would benefit me or the people I work with**   |  &#9744;  |
-| **I haven't had time to evaluate it for my needs**   |  &#9744;  |
-| **I already use other applications that meet my needs for communication and collaboration**   |  &#9744;  |
-| **I would need training before using it**   |  &#9744;  |
-| **I’ve tried to use it, but had technical issues or a bad experience**    |  &#9744;   |
-| **Our support desk couldn't help me with my questions**   | &#9744;   |
-| **Nothing, I currently use it**    |  &#9744;  |
-| **Other (please specify)**     | &#9744;   |
+|  I’ve never heard about it    | &#9744; |
+| I don’t have it installed on my computer   |  &#9744;  |
+| I don't understand how it would benefit me or the people I work with   |  &#9744;  |
+| I haven't had time to evaluate it for my needs   |  &#9744;  |
+| I already use other applications that meet my needs for communication and collaboration   |  &#9744;  |
+| I would need training before using it   |  &#9744;  |
+| I’ve tried to use it, but had technical issues or a bad experience    |  &#9744;   |
+| Our support desk couldn't help me with my questions   | &#9744;   |
+| Nothing, I currently use it    |  &#9744;  |
+| Other (please specify)     | &#9744;   |
 
 
-How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely) 
+**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)** 
      
 | 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
