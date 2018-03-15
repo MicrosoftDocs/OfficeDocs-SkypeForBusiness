@@ -65,13 +65,13 @@ For Audio Conferencing, you can’t use phone numbers for users; you will need t
 ## Step 4: Assign a service number to the conferencing bridge
 <a name="__top"> </a>
 
-Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invites. 
+Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invites.  
 
 To assign a new phone number to your audio conferencing bridge, go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**, select the phone number, and click **Assign**.
 
 For more details, see [Assign a new phone number to your audio conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-## Step 5:: Set the default and alternate languages for a conferencing bridge
+## Step 5: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
 
 Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet a caller when they dial in to a phone number for Audio Conferencing. 
