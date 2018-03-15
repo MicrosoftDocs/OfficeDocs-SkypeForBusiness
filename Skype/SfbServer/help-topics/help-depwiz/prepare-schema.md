@@ -1,12 +1,7 @@
 ---
 title: "Prepare Schema"
-<<<<<<< HEAD
-ms.author: v-kehest
-author: v-kehest
-=======
 ms.author: jambirk
 author: jambirk
->>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
