@@ -12,7 +12,9 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
-# About Upgrade Essentials 
+
+<a name="about-upgrade-essentials"></a>
+# About the Upgrade Essentials checklist 
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Essentials checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
@@ -22,23 +24,12 @@ Not familiar with Teams? [Read about how Teams](https://products.office.com/en-u
 
 Have questions about your upgrade? View our FAQ.
 
-## Upgrade Essentials ten-step checklist
-
-1. [Notify your key stakeholders (four to six weeks before the upgrade)](#step-1)
-2. [Envision your organization on Teams (four to six weeks before the upgrade)](#step-2)
-3. [Know your Skype for Business users (about four weeks before the upgrade)](#step-3)
-4. [Notify your users that Skype for Business is becoming Teams (two to three weeks before the upgrade)](#step-4)
-5. [Activate the user upgrade notification (about one week before the upgrade)](#step-5)
-6. [Remind your users that Skype for Business is becoming Teams (about five days before the upgrade)](#step-6)
-7. [Upgrade users to Teams (Upgrade Day!)](#step-7)
-8. [Monitor Teams usage against your baseline (one or two weeks after the upgrade)](#step-8)
-9. [Measure user satisfaction (one or two weeks after the upgrade)](#step-9)
-10. [Maximize your ROI with Teams (ongoing)](#step-10)
-
-
-
-## &#9744; Step 1. Notify your key stakeholders (four to six weeks before the upgrade)
 <a name="step-1"></a>
+
+## &#9744; Step 1. Notify your key stakeholders
+
+**(about four to six weeks before the upgrade)**
+
 
 Senior leaders are accountable for company success; be sure to keep them in the know about technology changes. Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.
 
@@ -48,8 +39,11 @@ Senior leaders are accountable for company success; be sure to keep them in the 
  
 [Return to top](#about-upgrade-essentials)
 
-## &#9744; Step 2. Envision your organization on Teams (four to six weeks before the upgrade)
-<a name="step-2"></a>>
+<a name="step-2"></a>
+
+## &#9744; Step 2. Envision your organization on Teams
+
+**About four to six weeks before the upgrade**
 
 Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and enable your environment for success.
 
@@ -63,10 +57,13 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 -   [Complete technical planning](https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams#step-3-complete-technical-planning)
 
 
-[Return to top](#upgrade-essentials-ten-step-checklist)
+[Return to top](#about-upgrade-essentials)
 
-## &#9744; Step 3. Know your Skype for Business users (about four weeks before the upgrade)*
 <a name="step-3"></a>
+
+## &#9744; Step 3. Know your Skype for Business users
+
+**_(about four weeks before the upgrade)_**
 
 Users who are deeply adopted on Skype for Business might need a little more time or assistance to make the transition to Teams. Take time to review your current Skype for Business usage to identify your top users in need of additional support and to establish a usage baseline you can track against your post-upgrade numbers.
 
@@ -74,9 +71,13 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 -   [See usage data in activity reports in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
+[Return to top](#about-upgrade-essentials)
 
-## &#9744; Step 4. Notify your users that Skype for Business is becoming Teams (two to three weeks before the upgrade)
 <a name="step-4"></a>
+
+## &#9744; Step 4. Notify your users that Skype for Business is becoming Teams
+
+**(about two to three weeks before the upgrade)**
 
 Giving ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience. Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.
 
@@ -88,8 +89,12 @@ Giving ample notice to your users will give them time to get familiar with Teams
 -   [Manage Teams features in your organization](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 -   [Sample email: announcement to users about Skype for Business](#step-4-email)
 
-## &#9744; Step 5. Activate the user upgrade notification (about one week before the upgrade)
+[Return to top](#about-upgrade-essentials)
+
 <a name="step-5"></a>
+
+## &#9744; Step 5. Activate the user upgrade notification
+**(about one week before the upgrade)**
 
 Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that Skype for Business is becoming Teams. Note: For eligible tenants, Microsoft can also activate this on your behalf.
 
@@ -97,8 +102,12 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 -   Link to guidance - Irinel?
 
-## &#9744; Step 6. Remind your users that Skype for Business is becoming Teams (about five days before the upgrade)
+[Return to top](#about-upgrade-essentials)
+
 <a name="step-6"></a>
+
+## &#9744; Step 6. Remind your users that Skype for Business is becoming Teams
+**(about five days before the upgrade)**
 
 Users are busy with their daily responsibilities. Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams. This is the perfect time to remind users about available training and how to get started with Teams.
 
@@ -106,8 +115,13 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 -   [Sample email: remind users to get started with Teams](#step-6-email)
 
-## &#9744; Step 7. Upgrade users to Teams! (Upgrade Day)
+[Return to top](#about-upgrade-essentials)
+
 <a name="step-7"></a>
+
+## &#9744; Step 7. Upgrade users to Teams!
+
+**(Upgrade Day)**
 
 Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams. Note: For eligible tenants, Microsoft can upgrade your tenant on your behalf.
 
@@ -118,8 +132,13 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 -   Link to upgrade users instructions – Irinel? – waiting on release of feature and documentation
 -   [Sample email: welcome users to Teams](#step-7-email)
 
-## &#9744; Step 8. Monitor Teams usage against your baseline (one or two weeks after the upgrade)
+[Return to top](#about-upgrade-essentials)
+
 <a name="step-8"></a>
+
+## &#9744; Step 8. Monitor Teams usage against your baseline
+
+**(about one or two weeks after the upgrade)**
 
 Adjusting to a new technology can take some time. Check usage to verify that users are using Teams at the same—or greater—level as they did with Skype for Business. Check in with users who aren’t using Teams at expected levels.
 
@@ -127,8 +146,13 @@ Adjusting to a new technology can take some time. Check usage to verify that use
 
 -   [See usage data](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
-## &#9744; Step 9. Measure user satisfaction (one or two weeks after the upgrade)
+[Return to top](#about-upgrade-essentials)
+
 <a name="step-9"></a>
+
+## &#9744; Step 9. Measure user satisfaction
+
+**(about one or two weeks after the upgrade)**
 
 Employee satisfaction can influence productivity, retention, and—ultimately—business outcomes. Reach out to your users to gauge user sentiment about the upgrade and their satisfaction with Teams.
 
@@ -137,19 +161,26 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 -   [Sample email: check in with users](#step-9-email), plus [user
     surveys](#step-9-surveys)
 
-## &#9744; Step 10. Maximize your ROI with Teams (ongoing)
-<a name="step-10"></a>    
+[Return to top](#about-upgrade-essentials)
 
+<a name="step-10"></a>
+
+## &#9744; Step 10. Maximize your ROI with Teams 
+**(ongoing)**
+    
 After users are comfortable with IM (chat) and meetings in Teams, encourage them to extend their use case by using Teams collaboration and app integration, truly optimizing their new solution and maximizing a return on your investment.
 
 **Resources:**
 
 -   [Sample email: encourage users to explore Teams further](#step-10-email)
 
+[Return to top](#about-upgrade-essentials)
+
 ## Sample emails
 
-### Stakeholder email, for step 1
 <a name="step-1-email"></a>
+
+### Stakeholder email, for step 1
 
 Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
@@ -162,9 +193,11 @@ Microsoft has indicated that Teams is now ready for our organization. To take fu
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
+[Return to step 1](#step-1)
+
+<a name="step-4-email"></a>
 
 ### Notify users email, for step 4
-<a name="step-4-email"></a>
 
 Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 
@@ -185,8 +218,11 @@ Our official transition to Teams is set for \<\<date\>\>, but your journey start
 If you have questions or need help, please reach out to \<\<company support information\>\>.
 ````
 
-### Remind users email, for step 6
+[Return to step 4](#step-4)
+
 <a name="step-6-email"></a>
+
+### Remind users email, for step 6
 
 Subject line: ACTION REQUIRED: Host your next online meeting in Teams
 
@@ -209,8 +245,11 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact \<\<insert alias or contact info\>\>.
 ````
 
-### Welcome users email from the executive sponsor, for step 7
+[Return to step 6](#step-6)
+
 <a name="step-7-email"></a>
+
+### Welcome users email from the executive sponsor, for step 7
 
 Subject line: PLEASE READ: Skype for Business is now Microsoft Teams
 
@@ -232,8 +271,12 @@ Regards,
 \<\<Executive sponsor\>\>
 ````
 
-### Check-in email, for step 9
+[Return to step 7](#step-7)
+
 <a name="step-9-email"></a>
+
+### Check-in email, for step 9
+
 
 Subject line: ACTION REQUESTED: Tell us about your Microsoft Teams experience
 
@@ -246,9 +289,12 @@ We upgraded to Microsoft Teams just over a week ago and want to hear from you.
 
 Should you have questions, contact \<\<insert alias or contact info\>\>.
 ````
+
+[Return to step 9](#step-9)
  
-### Email to ask users to give teams and channels a try, for step 10
 <a name="step-10-email"></a>
+
+### Email to ask users to give teams and channels a try, for step 10
 
 Subject line: QU'EST-CE QUE C'EST?
 
@@ -267,36 +313,40 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact \<\<insert alias or contact info\>\>.
 ````
 
-[//]: # (These could also go into the step 9 section above, but I think being here is okay. We'll see.)
-## Sample surveys, for the check-in email in step 9
+[Return to step 10](#step-10)
+
 <a name="step-9-surveys"></a>
+
+## Sample surveys, for the check-in email in step 9
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you would like to learn more about.
 
 |  &nbsp;  | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar |   |   |   |    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| **Use Teams for IM/chatting with others**                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams for online meetings**                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams for collaboration (teams and channels)**                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| **Use Teams on my mobile device**                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for IM/chatting with others                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for online meetings                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams for collaboration (teams and channels)                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
+| Use Teams on my mobile device                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
 
 
-| What, if anything, is preventing you from using Microsoft Teams?   | Select all that apply |
+| **What, if anything, is preventing you from using Microsoft Teams?**   | **Select all that apply** |
 |--------|-------|
-|  **I’ve never heard about it**    | &#9744; |
-| **I don’t have it installed on my computer**   |  &#9744;  |
-| **I don't understand how it would benefit me or the people I work with**   |  &#9744;  |
-| **I haven't had time to evaluate it for my needs**   |  &#9744;  |
-| **I already use other applications that meet my needs for communication and collaboration**   |  &#9744;  |
-| **I would need training before using it**   |  &#9744;  |
-| **I’ve tried to use it, but had technical issues or a bad experience**    |  &#9744;   |
-| **Our support desk couldn't help me with my questions**   | &#9744;   |
-| **Nothing, I currently use it**    |  &#9744;  |
-| **Other (please specify)**     | &#9744;   |
+|  I’ve never heard about it    | &#9744; |
+| I don’t have it installed on my computer   |  &#9744;  |
+| I don't understand how it would benefit me or the people I work with   |  &#9744;  |
+| I haven't had time to evaluate it for my needs   |  &#9744;  |
+| I already use other applications that meet my needs for communication and collaboration   |  &#9744;  |
+| I would need training before using it   |  &#9744;  |
+| I’ve tried to use it, but had technical issues or a bad experience    |  &#9744;   |
+| Our support desk couldn't help me with my questions   | &#9744;   |
+| Nothing, I currently use it    |  &#9744;  |
+| Other (please specify)     | &#9744;   |
 
 
-How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely) 
+**How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)** 
      
 | 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
+
+[Return to step 9](#step-9)
