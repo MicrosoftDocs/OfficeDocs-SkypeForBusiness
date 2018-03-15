@@ -109,6 +109,25 @@ description: Skype for Business
                                     </div>
                                 </a>
                             </li>                            
+                            <li>
+                                <a href="https://support.office.com/skype-for-business">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/Office/media/Office-help-support-training.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>End Users</h3>
+                                                    <p>Find help, training, and technical support for Skype for Business users on support.office.com.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
                         </ul>
                     </li>
                 </ul>
