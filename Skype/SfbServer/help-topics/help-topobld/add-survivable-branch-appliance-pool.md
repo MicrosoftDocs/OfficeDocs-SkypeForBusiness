@@ -15,7 +15,7 @@ description: "To Define the Survivable Branch Appliance FQDN, type the fully qua
 ---
 
 # Add Survivable Branch Appliance Pool
-[]
+ 
 To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box. Click **Next** to continue.
   
 > [!NOTE]

@@ -13,7 +13,7 @@ description: "Removes a Location Information Server (LIS) network switch. This c
 ---
 
 # Remove-CsLisSwitch
-[]
+ 
 Removes a Location Information Server (LIS) network switch. This cmdlet was introduced in Lync Server 2010.
   
 ```

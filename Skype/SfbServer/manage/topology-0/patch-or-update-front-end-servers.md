@@ -13,8 +13,8 @@ description: "Summary: learn how to apply upgrades or patches to Front End Serve
 ---
 
 # Patch or update Front End Servers in Skype for Business Server 2015
-[]
- **Summary:** learn how to apply upgrades or patches to Front End Servers in Skype for Business Server.
+ 
+**Summary:** learn how to apply upgrades or patches to Front End Servers in Skype for Business Server.
   
 When you patch the servers in a Front End pool, you do so one server at a time. 
   

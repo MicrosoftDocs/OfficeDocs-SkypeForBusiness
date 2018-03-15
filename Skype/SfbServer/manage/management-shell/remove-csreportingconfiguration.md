@@ -13,7 +13,7 @@ description: "Removes an existing collection of reporting configuration settings
 ---
 
 # Remove-CsReportingConfiguration
-[]
+ 
 Removes an existing collection of reporting configuration settings. Reporting configuration settings are used to specify the URL for installations of Skype for Business Server 2015 Monitoring Reports. This cmdlet was introduced in Lync Server 2013.
   
 ```

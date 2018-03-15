@@ -15,8 +15,8 @@ description: "Summary: Learn about the security and configuration prerequisites 
 ---
 
 # Security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015
-[]
- **Summary:** Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015.
   
 Before deploying Enterprise Voice, verify that your infrastructure meets the following security, user configuration, and scenario-specific hardware prerequisites. 
   

@@ -13,7 +13,7 @@ description: "The TraceRoute table contains routing information from calls. This
 ---
 
 # TraceRoute table
-[]
+ 
 The TraceRoute table contains routing information from calls. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

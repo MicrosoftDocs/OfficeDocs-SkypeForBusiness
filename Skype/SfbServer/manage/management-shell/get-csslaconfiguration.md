@@ -13,7 +13,7 @@ description: "Use the Get-CsSlaConfiguration cmdlet to return information about 
 ---
 
 # Get-CsSlaConfiguration
-[]
+ 
 Use the **Get-CsSlaConfiguration** cmdlet to return information about a configured shared number in Shared Line Appearance (SLA). A shared number in SLA is an Enterprise Voice user that is capable of receiving multiple calls at a time and forwarding them to its delegates, who answer the call.
   
 ```

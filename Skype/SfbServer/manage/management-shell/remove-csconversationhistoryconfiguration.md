@@ -13,7 +13,7 @@ description: "Resets the conversation history configuration settings for the org
 ---
 
 # Remove-CsConversationHistoryConfiguration
-[]
+ 
 Resets the conversation history configuration settings for the organization. These settings manage conversation histories for mobile device users.
   
 This cmdlet was introduced in Skype for Business Server 2015.

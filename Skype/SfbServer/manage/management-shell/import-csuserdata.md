@@ -13,7 +13,7 @@ description: "Imports user data previously exported by using the Export-CsUserDa
 ---
 
 # Import-CsUserData
-[]
+ 
 Imports user data previously exported by using the Export-CsUserData cmdlet. This cmdlet was introduced in Lync Server 2013.
   
 > [!NOTE]

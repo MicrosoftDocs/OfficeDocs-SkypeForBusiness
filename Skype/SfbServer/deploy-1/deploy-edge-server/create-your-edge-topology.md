@@ -14,8 +14,8 @@ description: "Summary: Learn how to build, publish, and export your Edge Server 
 ---
 
 # Create your Edge topology for Skype for Business Server 2015
-[]
- **Summary:** Learn how to build, publish, and export your Edge Server topology in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to build, publish, and export your Edge Server topology in Skype for Business Server 2015.
   
 Topology Builder is the tool you need to use to build your Edge Server topology, just as it's used for any topology component for Skype for Business Server 2015. Before following the steps below, you will need to have set up at least one Front End pool or a Standard Edition server.
   
@@ -27,8 +27,8 @@ We cover the following topics in this article:
     
 - Export your Edge Server topology
     
-> [!NOTE]
-> To follow the steps below, you're going to need to log into the domain servers mentioned below as a user who's a member of the following domain groups: 
+  > [!NOTE]
+  > To follow the steps below, you're going to need to log into the domain servers mentioned below as a user who's a member of the following domain groups: 
   
 - RTCUniversalServerAdmins
     
@@ -62,35 +62,35 @@ If you aren't sure what you need, then before you start following these steps, i
     
 7. On the **Select features** screen, you have a choice:
     
-  - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
+   - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
     
-  - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
+   - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
     
 8. Once you've clicked **Next**, you'll find yourself on the **IP Options** screen. Your options are as follows:
     
-  - Enable IPv4 on the internal interface
+   - Enable IPv4 on the internal interface
     
-  - Enable IPv6 on the internal interface
+   - Enable IPv6 on the internal interface
     
-  - Enable IPv4 on the external interface
+   - Enable IPv4 on the external interface
     
-  - Enable IPv6 on the external interface
+   - Enable IPv6 on the external interface
     
-    These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 10). You also have the option of configuring your Edge Server or your Edge pool to use a network address translation (NAT) address for the external IP address. You can do this by choosing **The external IP address of this Edge pool is translated by NAT** check box . Click **Next** when ready.
+   These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 10). You also have the option of configuring your Edge Server or your Edge pool to use a network address translation (NAT) address for the external IP address. You can do this by choosing **The external IP address of this Edge pool is translated by NAT** check box . Click **Next** when ready.
     
 9. On the External FQDNs screen, your choices depend on the selection you made in Step 7 above.
     
-  - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
+   - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
     
-  - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
+   - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
     
 10. You're now on the **Define the Internal IP address** screen. Here you'll type the IP address of your Edge Server in the **Internal IPv4 address** and **Internal IPv6 address** text boxes, depending on the choices you made back in Step 8. Click **Next** when ready.
     
 11. On the **Define the External IP address** screen, you have a few options depending on your previous choices:
     
-  - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
+    - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
     
-  - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
+    - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
     
     > [!NOTE]
     > If you didn't previously choose to enable and assign IPv6 addressing, you won't see this dialog box. That's normal, just go to the next step. 
@@ -124,27 +124,27 @@ If you aren't sure what you need, then before you start following these steps, i
     
 7. On the **Select features** screen, you have a choice:
     
-  - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing Service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
+    - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing Service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
     
-  - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
+    - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
     
 8. Once you've clicked **Next**, you'll find yourself on the **IP Options** screen. Your options are as follows:
     
-  - Enable IPv4 on the internal interface
+    - Enable IPv4 on the internal interface
     
-  - Enable IPv6 on the internal interface
+   - Enable IPv6 on the internal interface
     
-  - Enable IPv4 on the external interface
+   - Enable IPv4 on the external interface
     
-  - Enable IPv6 on the external interface
+   - Enable IPv6 on the external interface
     
     These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11). You also have the option of configuring your Edge Server or your Edge pool to use a network address translation (NAT) address for the external IP address. You can do this by choosing **The external IP address of this Edge pool is translated by NAT** check box . Click **Next** when ready.
     
 9. On the External FQDNs screen, your choices depend on the selection you made in Step 7 above.
     
-  - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
+   - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
     
-  - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
+   - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
     
 10. Now you've reached the **Define the computers in this pool** screen. Click the **Add** button.
     
@@ -152,9 +152,9 @@ If you aren't sure what you need, then before you start following these steps, i
     
 12. On the **Define the External IP address** screen, you have a few options depending on your previous choices:
     
-  - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
+    - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
     
-  - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
+    - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
     
     > [!NOTE]
     > If you didn't previously choose to enable and assign IPv6 addressing, you won't see this dialog box. That's normal, just go to the next step. 
@@ -192,19 +192,19 @@ If you aren't sure what you need, then before you start following these steps, i
     
 7. On the **Select features** screen, you have a choice:
     
-  - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing Service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
+   - You may intend to use the same FQDN and IP address for your SIP Access service, your Skype for Business Server 2015 Web Conferencing Service, and your A/V Edge service. If so, you need to choose the **Use a single FQDN and IP address checkbox** (and keep this in mind for Step 9 below)
     
-  - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
+   - If you're planning to enable federation, choose the **Enable federation for this Edge pool (Port 5061)** check box.
     
 8. Once you've clicked **Next**, you'll find yourself on the **IP Options** screen. Your options are as follows:
     
-  - Enable IPv4 on the internal interface
+   - Enable IPv4 on the internal interface
     
-  - Enable IPv6 on the internal interface
+   - Enable IPv6 on the internal interface
     
-  - Enable IPv4 on the external interface
+   - Enable IPv4 on the external interface
     
-  - Enable IPv6 on the external interface
+   - Enable IPv6 on the external interface
     
     These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11).
     
@@ -213,9 +213,9 @@ If you aren't sure what you need, then before you start following these steps, i
   
 9. On the External FQDNs screen, your choices depend on the selection you made in Step 7 above.
     
-  - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
+   - If you checked the **Use a single FQDN and IP Address** check box, you need to enter your single external FQDN in the **SIP Access** box. Then you'll need to enter different port numbers for each edge service to allow them all to connect independently. We recommend 5061 for the **SIP Access** Edge service, 444 for the **Web Conferencing** Edge service, and 443 for the **A/V** Edge service. Click **Next** when done.
     
-  - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
+   - If you didn't check the **Use a single FQDN and IP Address** check box, you'll now need to enter the three external FQDNs for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service. Click **Next** when done.
     
 10. Now you've reached the **Define the computers in this pool** screen. Click the **Add** button.
     
@@ -223,9 +223,9 @@ If you aren't sure what you need, then before you start following these steps, i
     
 12. On the **Define the External IP address** screen, you have a few options depending on your previous choices:
     
-  - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
+    - You may be using a single FQDN for all services. If so, type your external IPv4 or IPv6 address (whichever you're using) into the **SIP Access** text box, and then click **Next**.
     
-  - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
+    - You may have chosen to use three separate FQDNs and IP addresses for the services. If that's the case, enter your external IPv4 or IPv6 addresses for the **SIP Access** Edge service, the **Web Conferencing** Edge service, and the **A/V** Edge service, and then click **Next**.
     
     > [!NOTE]
     > If you didn't previously choose to enable and assign IPv6 addressing, you won't see this dialog box. That's normal, just go to the next step. 
@@ -259,9 +259,9 @@ Once you've finished the steps above, it's time to publish this new topology, wh
     
 5. When the status indicates that the database creation succeeded, do the following:
     
-  - To view the log, click **View log**.
+    - To view the log, click **View log**.
     
-  - To close the wizard, click **Finish**.
+    - To close the wizard, click **Finish**.
     
 ## Export your Edge Server topology
 
@@ -271,9 +271,9 @@ To deploy successfully, the Skype for Business Server 2015 Deployment Wizard nee
     
 2. In the **Skype for Business Server Management Shell**, run the following:
     
-  ```
-  Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
-  ```
+   ```
+   Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
+   ```
 
 3. Copy the exported file to external media (for example, a USB drive or network share that you can reach from the Edge Server's location).
     

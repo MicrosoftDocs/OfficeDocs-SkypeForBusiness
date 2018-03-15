@@ -13,7 +13,7 @@ description: "Removes the Active Directory service control point for the Central
 ---
 
 # Remove-CsConfigurationStoreLocation
-[]
+ 
 Removes the Active Directory service control point for the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

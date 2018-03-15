@@ -13,7 +13,7 @@ description: "How to plan, deploy and configure a dedicated on premises server w
 ---
 
 # Configure Skype for Business Cloud Connector Edition 1.3.8
-[]
+ 
 How to plan, deploy and configure a dedicated on premises server with Skype for Business Cloud Connector Edition 1.3.8 software to enable on premise voice connections to work with users homed in the Skype for Business Online service in Office 365.
   
 Learn how to configure Skype for Business Cloud Connector Edition 1.3.8, a minimal on-premises topology to enable integration of your on-premises voice infrastructure with Cloud PBX voice services in Skype for Business Online. 
@@ -130,7 +130,7 @@ This section guides you through how to get the installation files, install Skype
 
 What does this step do? Where does the exported file go?
   
-Prepare the CloudConnector.ini file using the information you gathered using the table in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)[Information you need to gather before deployment](plan-skype-for-business-cloud-connector-edition.md#BKMK_PlanDeployment) in the[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
+Prepare the CloudConnector.ini file using the information you gathered using the table in [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)[Information you need to gather before deployment](plan-skype-for-business-cloud-connector-edition.md#BKMK_PlanDeployment) in the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.
   
 To update the file, first run the following cmdlet to get the sample template (CloudConnector.Sample.ini):
   
@@ -351,7 +351,7 @@ Once the installation is complete, perform the steps in this section to configur
     
      ![ShutDownEventTracker](../../media/e95873fc-bef7-4b10-9574-9859440ea748.png)
   
-2. Configure the firewall settings to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+2. Configure the firewall settings to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
     
 3. Configure the PSTN Gateway or Load Balancer network connection.
     
@@ -656,10 +656,10 @@ Follow these steps the first time you deploy Skype for Business Cloud Connector 
 8. After you have enabled HA on all host servers for the site, run the following cmdlet to configure HA between servers:
     
   ```
-  Publish-CcHAInstance
+  Publish-CcHAInstance 
   ```
 
-9. Follow the steps in the [](configure-skype-for-business-cloud-connector-edition.md#BKMK_PostInstall) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
+9. Follow the steps in the  (configure-skype-for-business-cloud-connector-edition.md) section to add DNS records, set up hybrid with Office 365, setup PSTN gateways, and set up users.
     
 #### Upgrade binaries and update HA topology simultaneously
 

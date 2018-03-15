@@ -18,7 +18,7 @@ description: "For a user to use Phone System in Office 365 (Cloud PBX), you must
 ---
 
 # Enable the users for Enterprise Voice on premises
-[]
+ 
 For a user to use Phone System in Office 365 (Cloud PBX), you must first enable them for Enterprise Voice and assign them a phone number. You do this using your on-premises deployment while the user is still homed in the on-premises deployment.
   
 ### To enable a user for Enterprise Voice on premises and assign a phone number

@@ -13,7 +13,7 @@ description: "Resets all the network configuration settings for a Skype for Busi
 ---
 
 # Remove-CsNetworkConfiguration
-[]
+ 
 Resets all the network configuration settings for a Skype for Business Server 2015 deployment to the default values. This deletes an entire call admission control (CAC) deployment and related E9-1-1 configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "Create network inter-site policies, which are used by Enterprise V
 ---
 
 # Create network intersite policies in Skype for Business Server 2015
-[]
+ 
 Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 A network inter-site policy defines bandwidth limitations between sites that have direct WAN links between them.
@@ -31,9 +31,9 @@ In the example topology North America region, there is a direct link between the
     
 2. Run the New-CsNetworkInterSitePolicy cmdlet to create network inter-site policies and apply an appropriate bandwidth policy profile for two sites that have a direct cross link. For example, run:
     
-  ```
-  New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
-  ```
+   ```
+   New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
+   ```
 
 3. Repeat step 2 as needed to create network inter-site policies for all network sites pairs that have a direct cross link.
     

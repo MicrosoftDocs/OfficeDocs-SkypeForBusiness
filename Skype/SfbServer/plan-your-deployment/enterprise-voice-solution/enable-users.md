@@ -15,7 +15,7 @@ description: "Decisions necessary for the location policy for an E9-1-1 deployme
 ---
 
 # Enable users for E9-1-1 in Skype for Business Server 2015
-[]
+ 
 Decisions necessary for the location policy for an E9-1-1 deployment in Skype for Business Server Enterprise Voice, including which users to enable and how to support roaming users.
   
 During client registration, Skype for Business Server uses a location policy to configure the E9-1-1 properties for Enterprise Voice-enabled users. This policy contains the settings that define how E9-1-1 is implemented. For example, the location policy contains information such as the emergency dial string, and whether or not a user is required to manually enter a location if the Location Information service does not automatically provide one. For a complete definition of a location policy, see [Plan location policies for Skype for Business Server 2015](location-policies.md).

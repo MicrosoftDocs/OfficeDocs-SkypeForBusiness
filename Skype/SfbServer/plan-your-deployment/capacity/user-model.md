@@ -14,7 +14,7 @@ description: "This article provides guidance on how many servers you need at a s
 ---
 
 # Capacity planning user model usage for Skype for Business Server 2015
-[]
+ 
 This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Skype for Business Server 2015](user-models.md).
   
 > [!NOTE]
@@ -29,9 +29,9 @@ We've done our performance testing on the hardware described in the table below.
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
 |CPU  <br/> |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server server roles.  <br/> |
-|Memory  <br/> |32 gigabytes (GB).  <br/> • 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.  <br/> Two of the disks should use RAID 1, and six should use RAID 10.  <br/> - OR -  <br/> • Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.  <br/> |
+|Memory  <br/> |32 gigabytes (GB).  <br/> &bull;&nbsp;&nbsp; 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.  <br/> Two of the disks should use RAID 1, and six should use RAID 10.  <br/> - OR -  <br/> &bull;&nbsp;&nbsp; Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.  <br/> |
 |Disk  <br/> ||
-|Network  <br/> |• 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
+|Network  <br/> |&bull;&nbsp;&nbsp; 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
    
 ## Summary of Results
 
@@ -40,7 +40,7 @@ The following table summarizes our recommendations.
 |**Server role**|**Maximum number of users supported**|
 |:-----|:-----|
 |Front End pool with twelve Front End Servers and one Back End Server or a mirrored pair of Back End Servers.  <br/> |80,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 152,000 endpoints.  <br/> |
-|A/V Conferencing  <br/> |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see[Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).  <br/> |
+|A/V Conferencing  <br/> |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).  <br/> |
 |One Edge Server  <br/> |12,000 concurrent remote users.  <br/> |
 |One Director  <br/> |12,000 concurrent remote users.  <br/> |
 |Monitoring and Archiving  <br/> |The Monitoring and Archiving front end services run on each Front End Server, instead of on separate server roles.  <br/> Monitoring and Archiving each still require their own database stores. If you also run Exchange 2013 or later, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.  <br/> |
@@ -101,7 +101,7 @@ You should deploy one Edge Server for every 12,000 remote users who will access 
 When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
   
 > [!NOTE]
-> To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, check "Receive-Side Scaling Enhancements in Windows Server 2008" at [https://go.microsoft.com/fwlink/p/?linkId=268731](https://go.microsoft.com/fwlink/p/?linkId=268731). For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
+> To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, check "[Receive-Side Scaling Enhancements in Windows Server 20081](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
   
 ## Director
 
@@ -121,7 +121,7 @@ If you collocate Mediation Server with Front End Server, Mediation Server runs o
   
 If you deploy a stand-alone Mediation Server pool, then how many Mediation Servers to deploy depends on many factors, including the hardware used for Mediation Server, the number of VoIP users you have, the number of gateway peers that each Mediation Server pool controls, the busy hour traffic through those gateways, and the percentage of calls with media that bypasses the Mediation Server. 
   
-The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) and that hyper-threading is enabled. For details about Mediation Server scalability, see[Estimating voice usage and traffic for Skype for Business Server 2015](estimating-voice-traffic.md) and[Deployment guidelines for Mediation Server in Skype for Business Server 2015](mediation-server-deployment-guidelines.md).
+The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) and that hyper-threading is enabled. For details about Mediation Server scalability, see [Estimating voice usage and traffic for Skype for Business Server 2015](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype for Business Server 2015](mediation-server-deployment-guidelines.md).
   
 All the following tables assume usage as summarized in [User models in Skype for Business Server 2015](user-models.md).
   
@@ -145,7 +145,7 @@ All the following tables assume usage as summarized in [User models in Skype for
 > This number is much smaller than the numbers for the stand-alone Mediation Server. That's because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls. 
   
 > [!NOTE]
-> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "Receive-Side Scaling Enhancements in Windows Server 2008" at [https://go.microsoft.com/fwlink/p/?linkId=268731](https://go.microsoft.com/fwlink/p/?linkId=268731). For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
+> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling Enhancements in Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
   
 ## Back End Server
 
@@ -173,7 +173,7 @@ Microsoft used the hardware in the following table for the database server for M
 |CPU  <br/> |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher  <br/> |
 |Memory  <br/> |48 gigabytes (GB)  <br/> |
 |Disk  <br/> |25 10,000-RPM hard disk drives with 300 GB on each disk, with the configuration in the following table  <br/> |
-|Network  <br/> |• 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)  <br/> |
+|Network  <br/> | 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address)  <br/> |
    
 **Recommended Disk configurations**
 

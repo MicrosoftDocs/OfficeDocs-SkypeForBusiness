@@ -13,7 +13,7 @@ description: "Modifies the properties of a public switched telephone network (PS
 ---
 
 # Set-CsPstnGateway
-[]
+ 
 Modifies the properties of a public switched telephone network (PSTN) gateway. PSTN gateways help route calls between devices on the external PSTN network and devices on your internal Enterprise Voice network. This cmdlet was introduced in Lync Server 2010.
   
 ```

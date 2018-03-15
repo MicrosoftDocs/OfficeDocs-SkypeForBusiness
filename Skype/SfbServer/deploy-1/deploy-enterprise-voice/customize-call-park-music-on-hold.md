@@ -15,7 +15,7 @@ description: "Customize the Call Park music on hold in Skype for Business Server
 ---
 
 # Customize Call Park music on hold inSkype for Business 2015
-[]
+ 
 Customize the Call Park music on hold in Skype for Business Server Enterprise Voice.
   
 You can specify your own music file to use for music on hold, instead of the default music file that ships with Skype for Business Server. To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.
@@ -31,19 +31,19 @@ You can specify your own music file to use for music on hold, instead of the def
     
 3. Run:
     
-  ```
-  Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
-  ```
+   ```
+   Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
+   ```
 
     > [!TIP]
-    > Use the **Get-CsService** cmdlet to identify the service. For details, see[Get-CsService](../../manage/management-shell/get-csservice.md). 
+    > Use the **Get-CsService** cmdlet to identify the service. For details, see [Get-CsService](../../manage/management-shell/get-csservice.md). 
   
     The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable. Then the audio file is assigned as the music-on-hold file for Call Park. For details, see [Set-CsCallParkServiceMusicOnHoldFile](../../manage/management-shell/set-cscallparkservicemusiconholdfile.md).
     
-  ```
-  $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
-Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
-  ```
+   ```
+   $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
+   Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
+   ```
 
 ## See also
 

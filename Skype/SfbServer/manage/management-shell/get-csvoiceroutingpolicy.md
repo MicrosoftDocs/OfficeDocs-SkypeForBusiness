@@ -13,7 +13,7 @@ description: "Returns information about the voice routing policies configured fo
 ---
 
 # Get-CsVoiceRoutingPolicy
-[]
+ 
 Returns information about the voice routing policies configured for use in your organization. Voice routing policies manage PSTN usages for users of hybrid voice. Hybrid voice enables users homed on Skype for Business Online to take advantage of the Enterprise Voice capabilities available in an on-premises installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2013.
   
 ```

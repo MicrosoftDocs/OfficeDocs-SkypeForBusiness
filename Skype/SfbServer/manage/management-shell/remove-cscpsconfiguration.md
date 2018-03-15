@@ -13,7 +13,7 @@ description: "Removes an existing Call Park service configuration. Call parking 
 ---
 
 # Remove-CsCpsConfiguration
-[]
+ 
 Removes an existing Call Park service configuration. Call parking is a service that allows a user to "park" an incoming phone call. Parking a call transfers it to a number in a specified range, or orbit, and then immediately places the call on hold. Anyone (not just the person who originally answered the call) can resume the conversation from any telephone simply by entering the correct number. This cmdlet was introduced in Lync Server 2010.
   
 ```

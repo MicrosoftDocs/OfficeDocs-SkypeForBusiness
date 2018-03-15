@@ -15,7 +15,7 @@ description: "To edit the properties of a SQL Server database, you must change t
 ---
 
 # SQL Store Settings Expander
-[]
+ 
 To edit the properties of a SQL Server database, you must change the SQL Server database instance. You cannot use the **Edit Properties** dialog box to perform tasks such as moving your Archiving Server database from one computer to another. In addition, you cannot use the **Edit Properties** dialog box to change the instance of SQL Server that hosts the Central Management store.
   
 ## Editing the Properties of a SQL Server Database

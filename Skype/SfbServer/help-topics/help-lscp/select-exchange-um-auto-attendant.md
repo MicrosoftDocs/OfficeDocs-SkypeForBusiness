@@ -15,7 +15,7 @@ description: "Use the Select Exchange UM Auto Attendant dialog box to select an 
 ---
 
 # Select Exchange UM Auto Attendant
-[]
+ 
 Use the **Select Exchange UM Auto Attendant** dialog box to select an Exchange UM Auto Attendant that will handle incoming calls to a range of unassigned numbers.
   
 In the search box, type all or part of the name of the Exchange UM Auto Attendant that you want to use. To return all available Exchange UM Auto Attendants, leave the search box empty and click the search icon.

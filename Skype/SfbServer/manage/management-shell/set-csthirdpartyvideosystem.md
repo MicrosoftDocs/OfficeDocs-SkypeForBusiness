@@ -13,7 +13,7 @@ description: "Modifies an existing Active Directory contact object that represen
 ---
 
 # Set-CsThirdPartyVideoSystem
-[]
+ 
 Modifies an existing Active Directory contact object that represents a third-party video system. A third-party video system is a video teleconferencing device (VTC) that provides users with telepresence: the ability to participate in online meetings and conferences with full audio and video capabilities.
   
 This cmdlet was introduced in Skype for Business Server 2015.

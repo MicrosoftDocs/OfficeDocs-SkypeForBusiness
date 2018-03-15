@@ -15,7 +15,7 @@ description: "Planning for Call Via Work in Skype for Business Server, which ena
 ---
 
 # Plan for Call Via Work in Skype for Business Server 2015
-[]
+ 
 Planning for Call Via Work in Skype for Business Server, which enables integration between Skype for Business and your PBX phone system, so that users can use Skype for Business to control their PBX phones.
   
  **Call Via Work** is a new feature in Skype for Business Server which enables you to integrate your Skype for Business solution with your existing PBX phone systems. A user enabled for Call Via Work can click in Skype for Business to call another user, either within your deployment or an external user. The call is completed using the user's PBX phone. This enables a user with a PBX phone to include audio in their rich Skype for Business conversations. In previous versions of Lync Server remote call control was a feature which enabled users to control their PBX phones with Lync Server. In Skype for Business Server, this feature has been replaced with Call Via Work.

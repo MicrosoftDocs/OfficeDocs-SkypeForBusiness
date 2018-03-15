@@ -13,7 +13,7 @@ description: "Removes the specified conferencing policy. Conferencing policies d
 ---
 
 # Remove-CsConferencingPolicy
-[]
+ 
 Removes the specified conferencing policy. Conferencing policies determine the features and capabilities that can be used in a conference; this includes everything from whether or not the conference can include IP audio and video to the maximum number of people who can attend a meeting. This cmdlet was introduced in Lync Server 2010.
   
 ```

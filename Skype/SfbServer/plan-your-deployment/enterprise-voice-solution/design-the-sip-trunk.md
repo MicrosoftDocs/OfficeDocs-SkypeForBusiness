@@ -15,7 +15,7 @@ description: "Planning your SIP trunking topologies for an E9-1-1 deployment tha
 ---
 
 # Design the SIP trunk for E9-1-1 in Skype for Business Server 2015
-[]
+ 
 Planning your SIP trunking topologies for an E9-1-1 deployment that uses SIP trunking providers, in Skype for Business Server Enterprise Voice.
   
 Skype for Business Server uses SIP trunks to connect an emergency call to the E9-1-1 service provider. You can set up emergency service SIP trunks for E9-1-1 at one central site, at multiple central sites, or at each branch site. However, if the WAN link between the caller's site and the site that hosts the emergency service SIP trunk is unavailable, then a call placed by a user at the disconnected site will need a special phone usage record in the user's voice policy that will route the call to the ECRC through the local public switched telephone network (PSTN) gateway. The same is true if call admission control concurrent call limits are in effect.
@@ -26,7 +26,7 @@ There are two ways to implement a SIP trunk in a Skype for Business Server envir
     
 - Use an on-premises Session Border Controller (SBC) to provide a secure demarcation point between the Mediation Servers and the SIP trunk provider's services.
     
-If you choose the latter method, be sure that the SBC make and model that you choose has been certified and supports passing Presence Information Data Format Location Object (PIDF-LO) location data as part of its SIP INVITE. Otherwise, the calls will arrive at the emergency services service provider stripped of their location information. For details about certified SBCs, see "Infrastructure Qualified for Microsoft Lync" at [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?LinkId=248425).
+If you choose the latter method, be sure that the SBC make and model that you choose has been certified and supports passing Presence Information Data Format Location Object (PIDF-LO) location data as part of its SIP INVITE. Otherwise, the calls will arrive at the emergency services service provider stripped of their location information. For details about certified SBCs, see   ["Infrastructure Qualified for Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) and ["Telephony Infrastructure for Skype for Business"](https://technet.microsoft.com/en-us/office/dn947483).
   
 E9-1-1 service providers supply you with access to a pair of SBCs for redundancy. You need to make several decisions regarding the Mediation Server topology and call routing configuration. Will you treat both SBCs as equal peers and use round-robin routing for calls between them, or will you designate one SBC as primary and the other as secondary?
   

@@ -13,7 +13,7 @@ description: "The Start-CcLogging cmdlet generates the incoming and outgoing cal
 ---
 
 # Start-CcLogging
-[]
+ 
 The Start-CcLogging cmdlet generates the incoming and outgoing call log for a Skype for Business Cloud Connector Edition appliance. 
   
 ```

@@ -13,7 +13,7 @@ description: "Removes the specified collection of Address Book configuration set
 ---
 
 # Remove-CsAddressBookConfiguration
-[]
+ 
 Removes the specified collection of Address Book configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

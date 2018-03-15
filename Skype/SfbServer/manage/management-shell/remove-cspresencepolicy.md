@@ -13,7 +13,7 @@ description: "Removes the specified presence policy. This cmdlet was introduced 
 ---
 
 # Remove-CsPresencePolicy
-[]
+ 
 Removes the specified presence policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Removes an existing set of Response Group business hours. Business
 ---
 
 # Remove-CsRgsHoursOfBusiness
-[]
+ 
 Removes an existing set of Response Group business hours. Business hours are used to indicate the days of the week and the times of day when Response Group agents are typically available to answer phone calls. This cmdlet was introduced in Lync Server 2010.
   
 ```

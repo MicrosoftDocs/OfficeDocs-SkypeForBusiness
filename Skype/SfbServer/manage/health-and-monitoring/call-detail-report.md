@@ -13,8 +13,8 @@ description: "Summary: Learn about the Call Detail Report used in Skype for Busi
 ---
 
 # Call Detail Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Call Detail Report used in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Call Detail Report used in Skype for Business Server 2015.
   
 The Call Detail Report provides a detailed look at an individual call; the report includes nearly all the Quality of Experience metrics and statistics collected by Skype for Business Server 2015, divided into report sections such as:
   
@@ -48,7 +48,7 @@ The Call Detail Report can be accessed from any of the following reports:
     
 - The [Media Quality Summary Report in Skype for Business Server 2015](summary.md) (by clicking either the Call volume or Poor call percentage metric)
     
-- The [Media Quality Comparison Report in Skype for Business Server 2015](comparison.md) (by clicking the[Call List Report in Skype for Business Server 2015](call-list-report-0.md) and then clicking the Detail metric).
+- The [Media Quality Comparison Report in Skype for Business Server 2015](comparison.md) (by clicking the [Call List Report in Skype for Business Server 2015](call-list-report-0.md) and then clicking the Detail metric).
     
 - The [Server Performance Report in Skype for Business Server 2015](server-performance.md) (by clicking either the Call volume or Poor call percentage metric)
     

@@ -13,7 +13,7 @@ description: "Returns information about the reporting configuration settings in 
 ---
 
 # Get-CsReportingConfiguration
-[]
+ 
 Returns information about the reporting configuration settings in use in the organization. Reporting configuration settings are used to specify the URL used for accessing Skype for Business Server 2015 Monitoring Reports. This cmdlet was introduced in Lync Server 2013.
   
 ```

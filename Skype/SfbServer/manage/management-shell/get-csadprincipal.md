@@ -13,7 +13,7 @@ description: "Returns information about Active Directory principals. These princ
 ---
 
 # Get-CsAdPrincipal
-[]
+ 
 Returns information about Active Directory principals. These principals include Active Directory objects such as users, groups, contacts, containers, and organizational units. This cmdlet was introduced in Lync Server 2013.
   
 ```

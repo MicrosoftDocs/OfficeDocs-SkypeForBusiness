@@ -13,8 +13,8 @@ description: "Summary: Learn how to create meeting configuration settings in Sky
 ---
 
 # Create meeting configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create meeting configuration settings in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to create meeting configuration settings in Skype for Business Server 2015.
   
 You can create meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   
@@ -28,19 +28,19 @@ You can create meeting configuration settings by using Skype for Business Server
     
 4. On the **Meeting Configuration** page, click **New**, and then do one of the following:
     
-  - To create a site-level policy, click **Site configuration**. In the **Select a Site** search field, type all or part of the name of the site for which you want to define meeting join settings. In the resulting list of sites, click the site you want, and then click **OK**.
+    - To create a site-level policy, click **Site configuration**. In the **Select a Site** search field, type all or part of the name of the site for which you want to define meeting join settings. In the resulting list of sites, click the site you want, and then click **OK**.
     
-  - To create a pool-level policy, click **Pool configuration**. In the **Select a Service** search field, type all or part of the name of the pool service for which you want to define meeting join settings. In the resulting list of services, click the pool you want, and then click **OK**.
+    - To create a pool-level policy, click **Pool configuration**. In the **Select a Service** search field, type all or part of the name of the pool service for which you want to define meeting join settings. In the resulting list of services, click the pool you want, and then click **OK**.
     
 5. To route participants who dial in from the public switched telephone network (PSTN) through the lobby, clear the **PSTN callers bypass lobby** check box. By default, participants dialing in from the PSTN go directly to the meeting.
     
 6. To configure who can be a presenter in the meeting, in **Designate as presenter**, do one of the following:
     
-  - To not allow anyone other than the organizer to be a presenter, click **None**.
+   - To not allow anyone other than the organizer to be a presenter, click **None**.
     
-  - To allow only participants who are members of your organization to be a presenter, click **Company**. This is the default setting.
+   - To allow only participants who are members of your organization to be a presenter, click **Company**. This is the default setting.
     
-  - To allow any participants to be a presenter, click **Everyone**.
+   - To allow any participants to be a presenter, click **Everyone**.
     
 7. To have the organizer select a conference type when scheduling a meeting, clear the **Assigned conference type by default** check box. By default, the conference type is automatically assigned.
     
@@ -48,13 +48,13 @@ You can create meeting configuration settings by using Skype for Business Server
     
 9. To customize the meeting invite that is sent out to participants, do the following. Note that the maximum length for URLs and custom footer text is 1KB. Except for **Help URL**, if you do not specify a value for the customizations, they will not be included in the meeting. If you do not include a custom help URL, the default help URL for Skype for Business will be displayed in the invite. 
     
-  - To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo. The logo must be a GIF or JPG image with a size of 188 by 30 pixels. 
+   - To customize the logo that appears in the meeting invite, in **Logo URL**, enter the location of the logo. The logo must be a GIF or JPG image with a size of 188 by 30 pixels. 
     
-  - To customize the help text that appears in the meeting invite, in **Help URL**, enter the location of the help text.
+   - To customize the help text that appears in the meeting invite, in **Help URL**, enter the location of the help text.
     
-  - To customize the legal text that appears in the meeting invite, in **Legal text URL**, enter the location of the legal text.
+   - To customize the legal text that appears in the meeting invite, in **Legal text URL**, enter the location of the legal text.
     
-  - To customize the footer text that appears in the meeting invite, in **Custom footer text**, enter text.
+   - To customize the footer text that appears in the meeting invite, in **Custom footer text**, enter text.
     
 10. Click **Commit**.
     

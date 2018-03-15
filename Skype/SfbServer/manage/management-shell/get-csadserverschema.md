@@ -13,7 +13,7 @@ description: "Returns information indicating whether your Active Directory schem
 ---
 
 # Get-CsAdServerSchema
-[]
+ 
 Returns information indicating whether your Active Directory schema has been correctly configured to allow for the installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

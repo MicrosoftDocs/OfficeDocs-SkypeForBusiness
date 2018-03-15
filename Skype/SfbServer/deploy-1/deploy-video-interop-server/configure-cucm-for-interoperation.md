@@ -14,8 +14,8 @@ description: "Summary: Configure CUCM to work with Skype for Business Server 201
 ---
 
 # Configure CUCM for Interoperation with Skype for Business Server 2015
-[]
- **Summary:** Configure CUCM to work with Skype for Business Server 2015.
+ 
+**Summary:** Configure CUCM to work with Skype for Business Server 2015.
   
 > [!CAUTION]
 > This capability is tested with CUCM version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
@@ -38,22 +38,22 @@ A number of CUCM settings need to be confirmed or changed for interoperation wit
     
 6. In the SIP Trunk Security Profile Configuration screen, set the SIP Trunk Security Profile Information options as shown, and click on **Add New**.
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|Name  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
-|Device Security Mode  <br/> |Non Secure  <br/> |
-|Incoming Transport Type  <br/> |TCP + UDP  <br/> |
-|Outgoing Transport Type  <br/> |TCP  <br/> |
-|Incoming Port  <br/> |5060  <br/> |
+   |**Parameter**|**Recommended setting**|
+   |:-----|:-----|
+   |Name  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |Device Security Mode  <br/> |Non Secure  <br/> |
+   |Incoming Transport Type  <br/> |TCP + UDP  <br/> |
+   |Outgoing Transport Type  <br/> |TCP  <br/> |
+   |Incoming Port  <br/> |5060  <br/> |
    
 7. Navigate to Cisco Unified CM Administration-\>Device-\>Device Settings-\>SIP Profile.
     
 8. In the SIP Profile Configuration screen, set the SIP Profile Information options as shown. 
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|Name  <br/> |SfBVideoInterop_SIPProfile  <br/> |
-|Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |**Parameter**|**Recommended setting**|
+   |:-----|:-----|
+   |Name  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
 9. On the same screen, scroll down to the SDP Profile Information section. The **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** option is set by default to TIAS and AS. Change this option to TIAS only. If you leave this option at its default setting, Skype for Business Server will not understand the bandwidth modifier information in the SIP message. TIAS means Transport Independent Application Specific while AS means Application Specific. These are SIP options specified in RFC3890.
     
@@ -73,22 +73,22 @@ A number of CUCM settings need to be confirmed or changed for interoperation wit
     
 17. Scroll down further. Set the Inbound Calls and Connected Party Settings options as shown.
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-|AAR Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-|Connected Party Transformation CSS  <br/> |CSS_SfBVideoInterop  <br/> |
+    |**Parameter**|**Recommended setting**|
+    |:-----|:-----|
+    |Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |AAR Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |Connected Party Transformation CSS  <br/> |CSS_SfBVideoInterop  <br/> |
    
 18. Scroll down further. Under the SIP Information Destination section of the SIP Trunk configuration, specify the VIS Pool's FQDN or the IP address of individual VIS servers in the pool (adding multiple entries). In the Destination Port specify the Port that VIS is listening at for connections from CUCM (the default is 6001). Also specify the SIP Trunk security profile and SIP profile you created earlier, as shown.
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|SIP Trunk Security Profile  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
-|Rerouting Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-|Out-of-Dialog Refer Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-|Subscribe Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-|SIP Profile  <br/> |SfBVideoInterop_SIPProfile  <br/> |
-|DTMF Signaling Method  <br/> |RFC 2833  <br/> |
+    |**Parameter**|**Recommended setting**|
+    |:-----|:-----|
+    |SIP Trunk Security Profile  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+    |Rerouting Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |Out-of-Dialog Refer Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |Subscribe Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |SIP Profile  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+    |DTMF Signaling Method  <br/> |RFC 2833  <br/> |
    
 19.  Scroll down further. Set the Recording Information as appropriate for your system. It's fine to leave it set to **None**. 
     
@@ -96,39 +96,39 @@ A number of CUCM settings need to be confirmed or changed for interoperation wit
     
 21. Navigate to Cisco Unified CM Administration-\>Call Routing-\>Route/Hunt-\>Route pattern.
     
-22.  In the Route Pattern Configuration screen, enter the Pattern definition parameters shown below. Scroll down to the Called Party Transformations section and set the mask as shown, and then click on **Add New** when finished.
+22. In the Route Pattern Configuration screen, enter the Pattern definition parameters shown below. Scroll down to the Called Party Transformations section and set the mask as shown, and then click on **Add New** when finished.
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|Route Pattern  <br/> |7779999  <br/> |
-|Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-|Description  <br/> |Partition for SfBVideoInterop  <br/> |
-|Gateway/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-|Called Party Transform Mask  <br/> |+14257779999  <br/> |
+    |**Parameter**|**Recommended setting**|
+    |:-----|:-----|
+    |Route Pattern  <br/> |7779999  <br/> |
+    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |Description  <br/> |Partition for SfBVideoInterop  <br/> |
+    |Gateway/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Called Party Transform Mask  <br/> |+14257779999  <br/> |
    
 23. Navigate to Cisco Unified CM Administration-\>Call Routing-\>SIP Route Pattern.
     
 24. In the SIP Route Pattern Configuration screen, set the Pattern Definition options as shown, and click on **Add New**.
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-| Pattern Usage <br/> |Domain Routing  <br/> |
-|IPv4 Pattern  <br/> |contoso.com (leave blank if using IPv6)  <br/> |
-|IPv6 Pattern  <br/> |contoso.com (leave blank if using IPv4)  <br/> |
-|Description  <br/> |SIPRoute Pattern to mediarv  <br/> |
-|Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-|SIP Trunk/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-|Block Pattern checkbox  <br/> |leave unchecked  <br/> |
+    |**Parameter**|**Recommended setting**|
+    |:-----|:-----|
+    | Pattern Usage <br/> |Domain Routing  <br/> |
+    |IPv4 Pattern  <br/> |contoso.com (leave blank if using IPv6)  <br/> |
+    |IPv6 Pattern  <br/> |contoso.com (leave blank if using IPv4)  <br/> |
+    |Description  <br/> |SIPRoute Pattern to mediarv  <br/> |
+    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |SIP Trunk/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |Block Pattern checkbox  <br/> |leave unchecked  <br/> |
    
-25.  If you have changed the audio or video bit rates from the default settings, you will need to return them to the defaults. To set the bit rate for Audio/Video calls, navigate to Cisco Unified CM Administration-\>System-\>Region Information-\>Region. The defaults are shown below for reference:
+25. If you have changed the audio or video bit rates from the default settings, you will need to return them to the defaults. To set the bit rate for Audio/Video calls, navigate to Cisco Unified CM Administration-\>System-\>Region Information-\>Region. The defaults are shown below for reference:
     
-|**Parameter**|**Recommended setting**|
-|:-----|:-----|
-|Region  <br/> |Default  <br/> |
-|Audio Codec Preference List  <br/> |System Default  <br/> |
-|Maximum Audio Bit Rate  <br/> |64 kbps (G.722, G.711)  <br/> |
-|Maximum Session Bit Rate for Video Calls  <br/> |200000 kbps  <br/> |
-|Maximum Session Bit Rate  <br/> |2000000000 kbps  <br/> |
+    |**Parameter**|**Recommended setting**|
+    |:-----|:-----|
+    |Region  <br/> |Default  <br/> |
+    |Audio Codec Preference List  <br/> |System Default  <br/> |
+    |Maximum Audio Bit Rate  <br/> |64 kbps (G.722, G.711)  <br/> |
+    |Maximum Session Bit Rate for Video Calls  <br/> |200000 kbps  <br/> |
+    |Maximum Session Bit Rate  <br/> |2000000000 kbps  <br/> |
    
 At this point the CUCM video gateway is configured to work with the VIS. Corresponding configuration will need to be done on each VTC you wish to integrate.
 > [!NOTE]

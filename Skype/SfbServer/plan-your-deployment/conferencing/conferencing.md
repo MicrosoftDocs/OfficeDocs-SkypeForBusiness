@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about conferencing features and 
 ---
 
 # Plan for conferencing in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about conferencing features and capabilities in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about conferencing features and capabilities in Skype for Business Server 2015.
   
 Conferencing in Skype for Business Server allows users to meet and hold conferences online using their Skype for Business client instead of everyone getting together in the same room. Meeting participants can connect to a meeting with their Skype for Business client for a full audio and video experience, or dial in to a conference using a phone. Conferences also support instant messaging, desktop and application sharing, and interactive white boards.
   
@@ -80,7 +80,7 @@ Audio and video conferencing allows for audio and video in the meeting. Audio al
     
 ### Dial-in conferencing
 
-Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md) and[Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md). 
+Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md). 
   
 ### Instant messaging conferencing
 
@@ -106,8 +106,8 @@ The components that support conferencing features include the following:
     
   - Session Border Controller (SBC) (for an Internet telephony service provider to which you connect by configuring a SIP trunk)
     
-    > [!NOTE]
-    > If you are also deploying Enterprise Voice, Mediation Server and PSTN gateways are part of the Enterprise Voice deployment. If you are not deploying Enterprise Voice, you need to deploy at least one Mediation Server and at least one PSTN gateway, IP-PBX, or SBC for dial-in conferencing. 
+  > [!NOTE]
+  > If you are also deploying Enterprise Voice, Mediation Server and PSTN gateways are part of the Enterprise Voice deployment. If you are not deploying Enterprise Voice, you need to deploy at least one Mediation Server and at least one PSTN gateway, IP-PBX, or SBC for dial-in conferencing. 
   
 - **File store.** File store is used for recorded name audio files. File Store is a standard component in every Enterprise Edition or Standard Edition deployment.
     
@@ -163,7 +163,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If so, deploy and enable dial-in conferencing. Invited users, both inside and outside your organization, can then join the audio portion of conferences by using a PSTN phone.
     
-    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md) and[Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
+    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
     
 - **Do you want to enable external users with Skype for Business clients to join conferences?**
     
@@ -181,6 +181,6 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
 - **Do you want to control the clients that can join Skype for Business Server meetings?**
     
-    If so, you should configure the meeting join page so that only the client options that you want to support are available. Each time a user clicks a link to join a scheduled meeting, Skype for Business Server detects whether a client is already installed on the computer. It then starts the default client and opens the meeting join page, which contains links for alternate clients. The meeting join page always contains the option to use Skype for Business Web App. In addition to this option, you can decide whether to include links for Attendee and previous versions of Communicator. For details, see Configure the meeting join page .
+    If so, you should configure the meeting join page so that only the client options that you want to support are available. Each time a user clicks a link to join a scheduled meeting, Skype for Business Server detects whether a client is already installed on the computer. It then starts the default client and opens the meeting join page, which contains links for alternate clients. The meeting join page always contains the option to use Skype for Business Web App. In addition to this option, you can decide whether to include links for Attendee and previous versions of Communicator. 
     
 

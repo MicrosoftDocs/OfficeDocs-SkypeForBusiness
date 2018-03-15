@@ -13,7 +13,7 @@ description: "Modifies an existing collection of QoE (Quality of Experience) set
 ---
 
 # Set-CsQoEConfiguration
-[]
+ 
 Modifies an existing collection of QoE (Quality of Experience) settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

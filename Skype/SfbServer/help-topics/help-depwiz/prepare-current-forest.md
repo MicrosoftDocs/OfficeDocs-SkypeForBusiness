@@ -1,7 +1,12 @@
 ---
 title: "Prepare Current Forest"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To prepare the Active Directory Domain Services forest, you must s
 ---
 
 # Prepare Current Forest
-[]
+ 
 To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic [Running Schema Preparation](http://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), and make sure that the schema has replicated.
   
 After completing these prerequisites, you can begin **Step 3: Prepare Current Forest**. To prepare the forest, log on to a computer in the forest root as a member of Domain Admins in the forest root, or as a member of the Enterprise Admins for the forest that you are preparing.

@@ -13,7 +13,7 @@ description: "Returns information about Response Group workflows. Workflows dete
 ---
 
 # Get-CsRgsWorkflow
-[]
+ 
 Returns information about Response Group workflows. Workflows determine the actions that are taken when the Response Group application receives a phone call. This cmdlet was introduced in Lync Server 2010.
   
 ```

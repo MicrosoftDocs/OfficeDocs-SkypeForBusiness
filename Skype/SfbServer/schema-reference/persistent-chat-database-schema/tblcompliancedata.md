@@ -13,7 +13,7 @@ description: "tblComplianceData contains the compliance events that have not bee
 ---
 
 # tblComplianceData
-[]
+ 
 tblComplianceData contains the compliance events that have not been processed by the compliance adapter yet.
   
 **Columns**

@@ -13,10 +13,10 @@ description: "Summary: Learn how to manage conferencing in Skype for Business Se
 ---
 
 # Manage conferencing in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage conferencing in Skype for Business Server 2015.
   
-This topic describes how to manage conferencing. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and[Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md).
+This topic describes how to manage conferencing. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md).
   
 In Skype for Business Server, you manage the details of conferencing by specifying configuration and policy settings as follows. Note that the terms conferencing and meeting are sometimes used interchangeably. But, in general, you can think of a meeting as a specific instance of conferencing.
   

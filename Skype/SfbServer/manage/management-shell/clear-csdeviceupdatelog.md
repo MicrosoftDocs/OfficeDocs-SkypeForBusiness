@@ -13,7 +13,7 @@ description: "Deletes all the Device Update Web service log and audit files that
 ---
 
 # Clear-CsDeviceUpdateLog
-[]
+ 
 Deletes all the Device Update Web service log and audit files that are older than the specified number of days. This cmdlet was introduced in Lync Server 2010.
   
 ```

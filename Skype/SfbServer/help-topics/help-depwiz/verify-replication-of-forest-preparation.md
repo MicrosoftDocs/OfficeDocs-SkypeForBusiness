@@ -1,7 +1,12 @@
 ---
 title: "Verify Replication of Forest Preparation"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To confirm that the replication of the Global Catalog and the crea
 ---
 
 # Verify Replication of Forest Preparation
-[]
+ 
 To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:
   
 1. On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.

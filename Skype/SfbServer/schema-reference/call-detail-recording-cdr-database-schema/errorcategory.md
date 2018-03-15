@@ -13,7 +13,7 @@ description: "The ErrorCategory table contains the friendly name for each Skype 
 ---
 
 # ErrorCategory table in Skype for Business Server 2015
-[]
+ 
 The ErrorCategory table contains the friendly name for each Skype for Business Server 2015 diagnostic classification. By default, Skype for Business Server 2015 uses the following classifications:
   
 - 0 -- Success

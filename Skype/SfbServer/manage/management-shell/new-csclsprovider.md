@@ -13,7 +13,7 @@ description: "Creates a new centralized logging trace provider. Trace providers 
 ---
 
 # New-CsClsProvider
-[]
+ 
 Creates a new centralized logging trace provider. Trace providers are application components that generate trace messages or trace events useful in troubleshooting problems with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2013.
   
 ```

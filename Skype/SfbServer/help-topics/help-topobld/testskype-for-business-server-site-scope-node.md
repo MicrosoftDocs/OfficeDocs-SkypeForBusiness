@@ -15,7 +15,7 @@ description: "This node shows one of the sites defined on your topology. You can
 ---
 
 # Test - Skype for Business Server Site Scope Node
-[]
+ 
 This node shows one of the sites defined on your topology. You can perform the following actions: 
   
 - **New.** Add a new pool or server to the site.

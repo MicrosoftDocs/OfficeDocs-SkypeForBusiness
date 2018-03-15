@@ -13,7 +13,7 @@ description: "Creates a new Persistent Chat category. A Persistent Chat category
 ---
 
 # New-CsPersistentChatCategory
-[]
+ 
 Creates a new Persistent Chat category. A Persistent Chat category represents a collection of Persistent Chat chat rooms. Each chat room must be associated with a category. Note that you cannot assign chat rooms to a category when you create that category. Instead, existing rooms must later be assigned to a category by using the **Set-CsPersistentChatRoom** cmdlet. However, new chat rooms can be assigned to the category at the same time the room is created. This cmdlet was introduced in Lync Server 2013.
   
 ```

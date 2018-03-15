@@ -13,7 +13,7 @@ description: "Use the Invoke-CsComputerFailOver to force a computer in a Skype f
 ---
 
 # Invoke-CsComputerFailOver
-[]
+ 
 Use the **Invoke-CsComputerFailOver** to force a computer in a Skype for Business Server 2015 pool to failover to other servers within the pool. To successfully run this cmdlet you need to run it using an account that has administrator privileges on each server in the source and target pools.
   
 ```

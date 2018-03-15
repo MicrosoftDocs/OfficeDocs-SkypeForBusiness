@@ -13,8 +13,8 @@ description: "Summary: Learn how to view meeting configuration settings in Skype
 ---
 
 # View meeting configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to view meeting configuration settings in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to view meeting configuration settings in Skype for Business Server 2015.
   
 You can view meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

@@ -13,7 +13,7 @@ description: "The Set-CcSiteDirectory cmdlet sets the directory where site level
 ---
 
 # Set-CcSiteDirectory
-[]
+ 
 The Set-CcSiteDirectory cmdlet sets the directory where site level configuration files for Skype for Business Cloud Connector Edition will be stored. The folder will contain the base VHD and Cloud Connector configuration files.
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

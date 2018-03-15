@@ -13,7 +13,7 @@ description: "Removes an existing Persistent Chat policy. Persistent Chat polici
 ---
 
 # Remove-CsPersistentChatPolicy
-[]
+ 
 Removes an existing Persistent Chat policy. Persistent Chat policies determine whether or not users are allowed access to Persistent Chat chat rooms. This cmdlet was introduced in Lync Server 2013.
   
 ```

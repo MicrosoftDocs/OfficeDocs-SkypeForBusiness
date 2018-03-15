@@ -1,7 +1,12 @@
 ---
 title: "Install Local Configuration Store (Invoke)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Execute Commands pane displays the status of tasks for install
 ---
 
 # Install Local Configuration Store (Invoke)
-[]
+ 
 The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store. While the tasks are running, the task pane is updated as the commands are run. You should review the task status and note any errors or warnings that are displayed. When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files. To view the log files that were created, choose a log file to view and click **View Log**. Review all log files for success, errors, and warning messages.
   
 After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.

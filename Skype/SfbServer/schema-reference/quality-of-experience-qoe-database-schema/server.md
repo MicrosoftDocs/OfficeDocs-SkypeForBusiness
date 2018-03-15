@@ -13,7 +13,7 @@ description: "The Server table is a supporting table. Each record represents one
 ---
 
 # Server table
-[]
+ 
 The Server table is a supporting table. Each record represents one server. 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

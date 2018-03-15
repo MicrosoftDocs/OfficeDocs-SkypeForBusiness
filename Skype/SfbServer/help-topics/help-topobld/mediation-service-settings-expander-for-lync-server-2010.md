@@ -15,7 +15,7 @@ description: "You edit the properties of the Mediation service by defining the f
 ---
 
 # Mediation Service Settings Expander for Lync Server 2010
-[]
+ 
 You edit the properties of the Mediation service by defining the following properties:
   
 - **Listening ports**: Define the **TLS** port that the Mediation service will listen on. By default, the port value is TCP 5067 over transport layer security (TLS)

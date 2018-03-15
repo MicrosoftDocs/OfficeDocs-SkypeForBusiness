@@ -15,7 +15,7 @@ description: "To configure the Microsoft push notifications and Apple push notif
 ---
 
 # Mobile Client: Push Notification Configuration
-[]
+ 
 To configure the **Microsoft push notifications** and **Apple push notifications**, you must create a policy to define which types of push notification you require.
   
 On the main configuration screen, you can click **Refresh** to refresh and re-populate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you are searching for, the list of policies narrows automatically.

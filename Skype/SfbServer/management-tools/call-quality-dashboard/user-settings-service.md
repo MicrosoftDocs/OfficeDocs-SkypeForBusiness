@@ -14,8 +14,8 @@ description: "Summary: Learn about the User Settings Service, which is part of t
 ---
 
 # User Settings Service for Call Quality Dashboard (CQD)
-[]
- **Summary:** Learn about the User Settings Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the User Settings Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The User Settings Service is part of the Repository API for Call Quality Dashboard.
   
@@ -30,9 +30,7 @@ Global settings are the user settings owned by the system user, and all users ha
 Each user can override global settings by creating user settings with the same keys. When application requests the effective user settings, the API returns a set of global settings merged with the user settings, with each user setting superseding the respective global setting if keys are the same. The API can also return just the user settings so that applications can find out which settings are overridden. 
   
 The REST operations are included in the following table.
-  
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get User Settings](get-user-settings.md) <br/> |Get User Settings returns a list of settings for a specified user.  <br/> |

@@ -13,7 +13,7 @@ description: "Tests the ability of a pair of users to take part in an applicatio
 ---
 
 # Test-CsASConference
-[]
+ 
 Tests the ability of a pair of users to take part in an application sharing conference. This cmdlet was introduced in Lync Server 2013.
   
 ```

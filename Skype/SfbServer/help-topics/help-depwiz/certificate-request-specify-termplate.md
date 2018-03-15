@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Specify Termplate)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Specify Alternate Certificate Template page enables you to def
 ---
 
 # Certificate Request (Specify Termplate)
-[]
+ 
 The **Specify Alternate Certificate Template** page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box **Use alternate certificate template for selected certification authority**, and then define the name of the alternate certificate template in the text box **Certificate template name**. You must use the name of the template as it is defined in the certification authority (CA). Click **Back** to go back to the previous page. Click **Cancel** to end the certificate request process.
   
 > [!CAUTION]

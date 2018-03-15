@@ -16,7 +16,7 @@ description: "Media bypass refers to removing the Mediation Server from the medi
 ---
 
 # Media Bypass (Planning Tool)
-[]
+ 
 Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass-0.md).
   
 

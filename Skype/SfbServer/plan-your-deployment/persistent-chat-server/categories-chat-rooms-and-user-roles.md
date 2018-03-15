@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about categories, chat rooms, an
 ---
 
 # Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server 2015.
   
 You can control access to chat rooms by creating chat room categories, then specifying access to categories and chat rooms within categories. You can also specify various administrator roles. This topic describes: 
   

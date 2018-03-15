@@ -12,7 +12,7 @@ description: "Skype for Business Server 2015 planning and configuration informat
 ---
 
 # Video based Screen Sharing for Skype for Business Server 2015
-[]
+ 
 Skype for Business Server 2015 planning and configuration information for Video-based Screen Sharing (VbSS), which is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690).
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, will make use of User Datagram Protocol (UDP).
@@ -28,9 +28,9 @@ Part of the goal of improving screen-sharing is that transitions between VbSS an
 Switching to VbSS aims to make three key improvements:
   
 1. Make screen-sharing (up to 5%) more reliable compared to RDP alone.
-    
+
 2. Make the session setup and video experience faster compared to RDP alone (setup in half the time, with a 6:1 improvement in frames-per-second).
-    
+
 3. Works much better than RDP in low bandwidth conditions, even when sharing high motion content, such as 3-D graphics.
     
 Please keep in mind that these numbers rely on the health and proper performance tuning of your network, and may involve networks external to your own, if your clients are on mobile devices.
@@ -85,9 +85,9 @@ At full capacity (which as noted above, is 375 screen sharing participants per F
 To mitigate this, one or more of the following options may be helpful:
   
 - Upgrade your Front End Server from a 1 Gigabit network card to a 10 Gigabit Ethernet card.
-    
+
 - Increase the number of Front End Servers to load-balance traffic.
-    
+
 - Limit the bandwidth (bitrate) used for VbSS and RDP by putting a cap on the maximum bandwidth used by either channels.
     
 The numbers in this table are influenced by individual networks and by the content being shared. Please test to establish baselines for your network or networks.
@@ -108,24 +108,19 @@ The VbSS bandwidth is:
    
 ## Clients and servers support
 
-Video-based Screen Sharing requires Skype for Business Server 2015 CU3 or later, and a current version of the supporting clients listed in [Mobile client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) and[Meetings support](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
+Video-based Screen Sharing requires Skype for Business Server 2015 CU3 or later, and a current version of the supporting clients listed in [Mobile client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) and [Meetings support](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
   
 There are situations where screen-sharing will transition to RDP, like these:
   
 - If your account is hosted in an environment where the ASMCU doesn't meet the minimum build that supports VbSS.
-    
 - If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000, Skype for Business Room System Devices, or Skype for Business Mobile Apps. 
-    
 - If a user is sharing from the Skype for Business Web App.
-    
 - If someone is using Skype for Businesson Mac and not is homed on Skype for Business Online.
-    
 - If someone starts any Program/Windows Sharing, and/or recording during the session.
-    
 - If someone invokes Remote Screen Control during the session.
-    
+
     Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
-    
+  
 - Meetings with more than 250 participants (where VbSS is not currently supported).
     
 > [!NOTE]

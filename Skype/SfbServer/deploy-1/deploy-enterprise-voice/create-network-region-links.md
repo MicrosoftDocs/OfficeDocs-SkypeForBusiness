@@ -15,7 +15,7 @@ description: "Create or modify network region links, which are used by Enterpris
 ---
 
 # Create network region links in Skype for Business Server 2015
-[]
+ 
 Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 Regions within a network are linked through physical WAN connectivity. A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.
@@ -28,13 +28,13 @@ The example topology has a link between the North America and APAC regions, and 
     
 2. Run the New-CsNetworkRegionLink cmdlet to create the region links and apply appropriate bandwidth policy profiles. For example, run:
     
-  ```
-  New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
-  ```
+   ```
+   New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
+   ```
 
-  ```
-  New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
-  ```
+   ```
+   New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
+   ```
 
 ### To create network region links by using Skype for Business Server Control Panel
 

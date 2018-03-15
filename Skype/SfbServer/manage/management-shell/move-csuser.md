@@ -13,7 +13,7 @@ description: "Moves one or more user accounts enabled for Skype for Business Ser
 ---
 
 # Move-CsUser
-[]
+ 
 Moves one or more user accounts enabled for Skype for Business Server 2015 to Skype for Business Online. This command cannot move users between two on-premises topologies.
   
 ```

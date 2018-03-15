@@ -13,7 +13,7 @@ description: "Tests the ability of two users to exchange instant messages. This 
 ---
 
 # Test-CsIM
-[]
+ 
 Tests the ability of two users to exchange instant messages. This cmdlet was introduced in Lync Server 2010.
   
 ```

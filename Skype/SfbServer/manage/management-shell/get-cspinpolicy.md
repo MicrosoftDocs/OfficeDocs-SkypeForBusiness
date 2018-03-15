@@ -13,7 +13,7 @@ description: "Returns information about the client personal identification numbe
 ---
 
 # Get-CsPinPolicy
-[]
+ 
 Returns information about the client personal identification number (PIN) policies configured for use in your organization. PIN authentication enables users to access Skype for Business Server 2015 by providing a PIN instead of a user name and password. This cmdlet was introduced in Lync Server 2010.
   
 ```

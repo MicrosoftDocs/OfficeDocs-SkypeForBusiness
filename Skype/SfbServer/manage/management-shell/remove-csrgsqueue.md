@@ -13,7 +13,7 @@ description: "Deletes an existing Response Group queue. With the Response Group 
 ---
 
 # Remove-CsRgsQueue
-[]
+ 
 Deletes an existing Response Group queue. With the Response Group application, phone calls are put in a queue and callers are placed on hold until a Response Group agent is available to answer that call. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "Skype for Business Server Enterprise Voice supports M:N trunking b
 ---
 
 # M:N trunk in Skype for Business Server 2015
-[]
+ 
 Skype for Business Server Enterprise Voice supports M:N trunking between Mediation Server and components such as PSTN gateways, session border controllers, and IP-PBX.
   
 Skype for Business Server supports greater flexibility in the definition of a trunk for call routing purposes from previous releases. A trunk is a logical association between a Mediation Server and listening port number with a gateway and a listening port number. This implies several things: A Mediation Server can have multiple trunks to the same gateway; a Mediation Server can have multiple trunks to different gateways; conversely a gateway can have multiple trunks to different Mediation Servers.

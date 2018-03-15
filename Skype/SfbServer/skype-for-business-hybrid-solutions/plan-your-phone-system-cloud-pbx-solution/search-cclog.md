@@ -13,7 +13,7 @@ description: "The Search-CcLog cmdlet searches the incoming and outgoing call lo
 ---
 
 # Search-CcLog
-[]
+ 
 The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.
   
 ```

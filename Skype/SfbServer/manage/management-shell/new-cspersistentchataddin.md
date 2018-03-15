@@ -13,7 +13,7 @@ description: "Enables you to configure a new Persistent Chat add-in. A Persisten
 ---
 
 # New-CsPersistentChatAddin
-[]
+ 
 Enables you to configure a new Persistent Chat add-in. A Persistent Chat add-in is a customized web page that can be embedded within a Persistent Chat client. This cmdlet was introduced in Lync Server 2013.
   
 ```

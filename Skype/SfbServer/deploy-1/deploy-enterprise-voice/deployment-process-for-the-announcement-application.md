@@ -15,7 +15,7 @@ description: "Deployment process and steps for Announcement application in Skype
 ---
 
 # Deployment process for the Announcement application in Skype for Business Server 2015
-[]
+ 
 Deployment process and steps for Announcement application in Skype for Business Server Enterprise Voice.
   
 The Announcement application is an Enterprise Voice feature that enables you to configure what happens to calls to unassigned extensions (extensions that are valid for your organization, but are not assigned to a person or a phone). For example, you can configure calls to unassigned numbers to play a message, or to be transferred to a different destination, or both.

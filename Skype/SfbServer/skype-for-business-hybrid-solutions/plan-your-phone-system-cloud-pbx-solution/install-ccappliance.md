@@ -13,7 +13,7 @@ description: "The Install-CcAppliance cmdlet installs the Skype for Business Clo
 ---
 
 # Install-CcAppliance
-[]
+ 
 The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server. 
   
 ```
@@ -92,7 +92,7 @@ Install-CcAppliance -ShowStepsOnly
 
 The Install-CcAppliance cmdlet is used to deploy Cloud Connector to a new appliance or to upgrade an existing appliance to the latest version.
   
-If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet. For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet. For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 If you have an existing deployment of Cloud Connector and you want to upgrade, please follow the instructions in [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
   

@@ -1,7 +1,12 @@
 ---
 title: "Remove Certificate (Intro)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "On the Remove Certificate introduction page, read the information 
 ---
 
 # Remove Certificate (Intro)
-[]
+ 
 On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click **Next** to continue.
   
 

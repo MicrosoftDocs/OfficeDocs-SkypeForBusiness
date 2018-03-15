@@ -13,7 +13,7 @@ description: "Returns information about the simple URLs configured for use in yo
 ---
 
 # Get-CsSimpleUrlConfiguration
-[]
+ 
 Returns information about the simple URLs configured for use in your organization. Simple URLs make it easier for users to join meetings and conferences, and also make it easier for Administrators to log on to the Skype for Business Server Control Panel. This cmdlet was introduced in Lync Server 2010.
   
 ```

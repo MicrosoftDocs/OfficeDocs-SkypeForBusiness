@@ -13,7 +13,7 @@ description: "Creates or modifies information about the web service provided by 
 ---
 
 # Set-CsLisServiceProvider
-[]
+ 
 Creates or modifies information about the web service provided by the Enhanced 9-1-1 (E9-1-1) Network Routing Provider to verify locations. This cmdlet was introduced in Lync Server 2010.
   
 ```

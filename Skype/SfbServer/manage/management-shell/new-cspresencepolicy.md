@@ -13,7 +13,7 @@ description: "Creates a new presence policy at either the site scope or the per-
 ---
 
 # New-CsPresencePolicy
-[]
+ 
 Creates a new presence policy at either the site scope or the per-user scope. This cmdlet was introduced in Lync Server 2010.
   
 ```

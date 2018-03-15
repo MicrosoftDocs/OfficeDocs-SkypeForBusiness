@@ -13,7 +13,7 @@ description: "Removes an existing role-based access control (RBAC) role. RBAC ro
 ---
 
 # Remove-CsAdminRole
-[]
+ 
 Removes an existing role-based access control (RBAC) role. RBAC roles are used to specify the management tasks that users are allowed to carry out, and to determine the scope in which users will be allowed to perform these tasks. This cmdlet was introduced in Lync Server 2010.
   
 ```

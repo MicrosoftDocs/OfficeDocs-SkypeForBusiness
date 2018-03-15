@@ -13,7 +13,7 @@ description: "Modifies a pool that contains the computers that host trusted appl
 ---
 
 # Set-CsTrustedApplicationPool
-[]
+ 
 Modifies a pool that contains the computers that host trusted applications. This cmdlet was introduced in Lync Server 2010.
   
 ```

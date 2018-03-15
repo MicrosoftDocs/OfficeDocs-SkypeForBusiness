@@ -13,7 +13,7 @@ description: "Removes a third-party video system policy. Video system policies d
 ---
 
 # Remove-CsThirdPartyVideoSystemPolicy
-[]
+ 
 Removes a third-party video system policy. Video system policies determine whether or not a VTC (video teleconferencing) device is allowed to send low-resolution video.
   
 This cmdlet was introduced in Skype for Business Server 2015.

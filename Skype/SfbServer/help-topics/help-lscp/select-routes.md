@@ -15,7 +15,7 @@ description: "Use the Select Routes dialog box to find existing voice routes tha
 ---
 
 # Select Routes
-[]
+ 
 Use the **Select Routes** dialog box to find existing voice routes that you can use.
   
 > [!NOTE]

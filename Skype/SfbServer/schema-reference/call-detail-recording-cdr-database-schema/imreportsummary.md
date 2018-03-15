@@ -13,7 +13,7 @@ description: "The IMReportSummaryTable provides an overall report on the instant
 ---
 
 # IMReportSummary table in Skype for Business Server 2015
-[]
+ 
 The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

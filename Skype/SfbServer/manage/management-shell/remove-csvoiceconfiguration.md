@@ -13,7 +13,7 @@ description: "Resets the voice configuration to its default values. This cmdlet 
 ---
 
 # Remove-CsVoiceConfiguration
-[]
+ 
 Resets the voice configuration to its default values. This cmdlet was introduced in Lync Server 2010.
   
 ```

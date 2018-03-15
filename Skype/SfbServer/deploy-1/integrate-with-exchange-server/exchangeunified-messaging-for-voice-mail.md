@@ -14,8 +14,8 @@ description: "Summary: Configure Exchange Server Unified Messaging for Skype for
 ---
 
 # Configure Exchange Server Unified Messaging for Skype for Business Server 2015 voice mail
-[]
- **Summary:** Configure Exchange Server Unified Messaging for Skype for Business Server voice mail.
+ 
+**Summary:** Configure Exchange Server Unified Messaging for Skype for Business Server voice mail.
   
 Skype for Business Server 2015 enables you to have voicemail messages stored in Exchange Server 2016 or Exchange Server 2013; those voicemail messages will then appear as email messages in your users' Inboxes. 
   

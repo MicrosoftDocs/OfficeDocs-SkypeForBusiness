@@ -13,7 +13,7 @@ description: "The ErrorReport view stores information about errors reported. Eac
 ---
 
 # ErrorReport view
-[]
+ 
 The ErrorReport view stores information about errors reported. Each record is one error occurrence. The errors are captured either by the CDR agent running on the front-end server or sent from the client. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

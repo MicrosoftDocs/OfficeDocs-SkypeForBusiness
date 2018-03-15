@@ -13,13 +13,13 @@ description: "Each record represents one user registration event."
 ---
 
 # Registration table
-[]
+ 
 Each record represents one user registration event.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**UserId** <br/> |int  <br/> |Foreign  <br/> |The user ID. See the [Users table](users.md) for more information. <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> ||A GUID to identify a registration endpoint. Usually the register event from the same computer of the same user will have the same endpoint ID. Different machines have a different endpoint ID.  <br/> |
 |**EndpointEra** <br/> |uniqueIdentifier  <br/> ||ID used to differentiate registrations that involve the same user and the same endpoint.  <br/> This field was introduced in Microsoft Lync Server 2013.  <br/> |

@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Invoke)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Executing Commands page displays a task status pane as the com
 ---
 
 # Certificate Request (Invoke)
-[]
+ 
 The **Executing Commands** page displays a task status pane as the commands run for the generation of the certificate request. After the tasks are completed, the drop-down list below the summary pane contains a list of log files. Use the drop-down list to select a log file to view, and then click **View Log**. Internet Explorer will start and display the log file. In case of a failed request, you should review the log file(s) to determine the cause of the failure. You can rerun the certificate request to resolve the issue, correcting the problem indicated in the log file. Continue though the certificate request pages and request the certificate again.
   
 

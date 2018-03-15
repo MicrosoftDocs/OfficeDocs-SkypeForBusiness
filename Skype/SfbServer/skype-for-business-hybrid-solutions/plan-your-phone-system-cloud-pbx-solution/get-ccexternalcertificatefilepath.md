@@ -13,7 +13,7 @@ description: "The Get-CcExternalCertificateFilePath cmdlet returns the external 
 ---
 
 # Get-CcExternalCertificateFilePath
-[]
+ 
 The Get-CcExternalCertificateFilePath cmdlet returns the external certificate file path for the Skype for Business Cloud Connector Edition deployment. The user prepares this certificate.
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

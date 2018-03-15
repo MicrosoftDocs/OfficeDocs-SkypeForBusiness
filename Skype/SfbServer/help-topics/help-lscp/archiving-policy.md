@@ -15,7 +15,7 @@ description: "You use Archiving policies to enable and disable archiving for use
 ---
 
 # Archiving Policy
-[]
+ 
 You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server. In each Archiving policy, you can enable or disable archiving for either or both of the following:
   
 - Internal communications

@@ -13,7 +13,7 @@ description: "Returns information about the Registrar pool, backup Registrar poo
 ---
 
 # Get-CsUserPoolInfo
-[]
+ 
 Returns information about the Registrar pool, backup Registrar pool, and User Services pool that a user has been assigned to. This cmdlet was introduced in Lync Server 2010.
   
 ```

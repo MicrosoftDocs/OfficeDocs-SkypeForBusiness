@@ -13,11 +13,11 @@ description: "Enables you to assign an existing certificate to a SipProxy.TLS ob
 ---
 
 # New-CsIssuedCertId
-[]
+ 
 Enables you to assign an existing certificate to a SipProxy.TLS object. In turn, that object can be used configure a static route to use Transport Layer Security (TLS) as its transport protocol. This cmdlet was introduced in Lync Server 2010.
   
 ```
-New-CsIssuedCertId -Issuer <String> -SerialNumber <Byte[]>
+New-CsIssuedCertId -Issuer <String> -SerialNumber <Byte >
 
 ```
 
@@ -62,7 +62,7 @@ You do not need to use the **New-CsIssuedCertId** cmdlet if you create a static 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _Issuer_ <br/> |Required  <br/> |System.String  <br/> |Name of the certification authority (CA) that issued the certificate to be used in the static route.  <br/> |
-| _SerialNumber_ <br/> |Required  <br/> |System.Byte[]  <br/> |Serial number of the certificate to be used in the static route. Serial numbers must be passed as a byte array. This means you must pass the serial number as an array of two-character values, with each of these two-character values prefaced by 0x. For example: -SerialNumber 0x01, 0x23, 0x45, 0x67, 0x89.  <br/> |
+| _SerialNumber_ <br/> |Required  <br/> |System.Byte   <br/> |Serial number of the certificate to be used in the static route. Serial numbers must be passed as a byte array. This means you must pass the serial number as an array of two-character values, with each of these two-character values prefaced by 0x. For example: -SerialNumber 0x01, 0x23, 0x45, 0x67, 0x89.  <br/> |
    
 ## Input Types
 

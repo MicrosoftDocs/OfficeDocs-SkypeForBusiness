@@ -14,7 +14,7 @@ description: "Read this topic for information on how to deploy Skype Room System
 ---
 
 # Deploy Skype Room Systems v2 with Office 365
-[]
+ 
 Read this topic for information on how to deploy Skype Room Systems v2 with Office 365.
   
 This topic describes how to add a device account for Skype Room Systems v2 when you have an Office 365 online deployment.
@@ -37,96 +37,93 @@ To enable Skype for Business, you must have the following:
 
 1. Start a remote Windows PowerShell session on a PC and connect to Exchange. Be sure you have the right permissions set to run the associated cmdlets. The following are some examples of cmdlets that can be used and modified in your environment.
     
-  ```
-  Set-ExecutionPolicy Unrestricted
-$org='contoso.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ 
--Credential $cred -Authentication Basic -AllowRedirection
-Import-PSSession $sess
-
-  ```
+   ```
+   Set-ExecutionPolicy Unrestricted
+   $org='contoso.com'
+   $cred=Get-Credential $admin@$org
+   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential 
+   $cred -Authentication Basic -AllowRedirection
+   Import-PSSession $sess
+   ```
 
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Skype Room Systems v2.
     
-    If you are changing an existing resource mailbox:
+  If you are changing an existing resource mailbox:
     
-  ```
-  Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-    If you're creating a new resource mailbox:
+  If you're creating a new resource mailbox:
     
-  ```
-  New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
+   ```
+   New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
  (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
 
 3. Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.
     
-  ```
-  Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
- -DeleteSubject $false -RemovePrivateProperty $false
-Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   ```
+   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
+   -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
 
-  ```
+   ```
 
 4. You will need to connect to Azure Active Directory to apply some account settings. To connect to Azure AD, run the following cmdlet:
     
-  ```
-  Connect-MsolService -Credential $cred
-  ```
+   ```
+   Connect-MsolService -Credential $cred
+   ```
 
 5. If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows: 
     
-  ```
-  Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   ```
 
-    You can also set a phone number for the room as follows:
+   You can also set a phone number for the room as follows:
     
-  ```
-  Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
-  ```
+   ```
+   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   ```
 
 6. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
     
-  ```
-  Get-MsolAccountSku
-  ```
+   ```
+   Get-MsolAccountSku
+   ```
 
-    Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+   Next, you can add a license using the Set-MsolUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
     
-  ```
-  Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-Get-MsolAccountSku
-Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
+   Get-MsolAccountSku
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   ```
 
 7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
     
-    Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):
+   Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
+   ```
+   Import-Module LyncOnlineConnector  
+   $cssess=New-CsOnlineSession -Credential $cred  
+   Import-PSSession $cssess -AllowClobber
+   ```
 
-  ```
-
-    Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:
+   Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:
     
-  ```
-  Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
-  ```
+   ```
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   ```
 
-    Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
+   Obtain the RegistrarPool information from the new user account being setup, as shown in this example:
     
-  ```
-  Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-  ```
+    ```
+    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
+    ```
 
     > [!NOTE]
     > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation. 

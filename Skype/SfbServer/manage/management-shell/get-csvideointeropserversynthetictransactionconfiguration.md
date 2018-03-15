@@ -13,7 +13,7 @@ description: "Use the Get-CsVideoInteropServerSyntheticTransactionConfiguration 
 ---
 
 # Get-CsVideoInteropServerSyntheticTransactionConfiguration
-[]
+ 
 Use the **Get-CsVideoInteropServerSyntheticTransactionConfiguration** cmdlet to retrieve Video Interop Server (VIS) synthetic transaction configurations.
   
 ```

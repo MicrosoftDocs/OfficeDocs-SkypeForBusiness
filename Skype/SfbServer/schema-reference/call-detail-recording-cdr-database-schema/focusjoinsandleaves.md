@@ -13,15 +13,15 @@ description: "Each record in this table contains the CDR information about one u
 ---
 
 # FocusJoinsAndLeaves table in Skype for Business Server 2015
-[]
+ 
 Each record in this table contains the CDR information about one user's join and leave information for one conference. Each conference is represented in this table by one record for each time a user joins and leaves the conference.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of conference instance. Used in conjunction with **SessionIdSeq** to uniquely identify a conference instance. See the[Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the conference instance. Used in conjunction with **SessionIdTime** to uniquely identify a conference instance. See the[Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. see the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of conference instance. Used in conjunction with **SessionIdSeq** to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the conference instance. Used in conjunction with **SessionIdTime** to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of session request. Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. see the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**UserId** <br/> |int  <br/> |Foreign  <br/> |Unique number identifying this user, referenced from the [Users table](users.md).  <br/> |
 |**FocusUserInstance** <br/> |int  <br/> ||If a user is logged on at multiple computers or devices at the same time, **UserInstance** is used to uniquely identify the user/device combination. <br/> |
 |**IsUserInternal** <br/> |bit  <br/> | <br/> |Whether the user logged on from internal or not.  <br/> |

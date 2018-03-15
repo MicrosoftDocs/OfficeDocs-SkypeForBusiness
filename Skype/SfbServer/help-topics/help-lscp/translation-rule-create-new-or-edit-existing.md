@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Translation Rule: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/called-id-presentation-rules.md)

@@ -13,8 +13,8 @@ description: "Summary: Learn how to add more Skype for Business Server databases
 ---
 
 # Add databases to an AlwaysOn Availability Group in Skype for Business Server 2015
-[]
- **Summary:** Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server 2015.
   
 ### Adding databases to an AlwaysOn Availability Group
 

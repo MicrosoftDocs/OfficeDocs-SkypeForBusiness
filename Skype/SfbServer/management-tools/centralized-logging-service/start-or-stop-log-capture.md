@@ -14,8 +14,8 @@ description: "Summary: Learn how to start or stop a Centralized Logging Service 
 ---
 
 # Start or stop CLS log capture in Skype for Business Server 2015
-[]
- **Summary:** Learn how to start or stop a Centralized Logging Service log capture session in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to start or stop a Centralized Logging Service log capture session in Skype for Business Server 2015.
   
 To capture trace logs using the Centralized Logging Service, you issue a command to begin logging on one or more computers and pools. You also issue parameters that define which computers or pools, what scenarios to run (for example, AlwaysOn, another predefined scenario, or a scenario you have created), what Skype for Business Server components (for example, S4, SipStack) to trace.
   
@@ -42,7 +42,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
   ```
 
     > [!NOTE]
-    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see[Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md). For all other scenarios, the default duration is 4 hours. 
+    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md). For all other scenarios, the default duration is 4 hours. 
   
 3. Press Enter to run the command. 
     
@@ -77,7 +77,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
     
      ![Running Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
-    Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
+Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
     
 ## Stop the Centralized Logging Service log capture
 <a name="stop"> </a>
@@ -111,23 +111,22 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   Show-CsClsLogging
   ```
 
-     ![Windows PowerShell console after calling Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+  ![Windows PowerShell console after calling Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-    The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md).
+  The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md).
     
 3. To stop a currently running logging session with a specific scenario, type:
     
   ```
   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
   ```
-
-    For example:
+  For example:
     
   ```
   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
   ```
 
-    This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
+  This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
     
     > [!NOTE]
     > Logs created during this logging session using the UserReplicator scenario are not deleted. The logging is still available for you to execute searches against using the Search-CsClsLogging command. For details, see [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md). 

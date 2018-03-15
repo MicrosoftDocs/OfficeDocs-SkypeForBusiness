@@ -13,7 +13,7 @@ description: "Enables the most recently published Skype for Business Server 2015
 ---
 
 # Enable-CsTopology
-[]
+ 
 Enables the most recently published Skype for Business Server 2015 topology. After you have made changes to your topology, the changes will not take effect until they have been both published and enabled. This cmdlet was introduced in Lync Server 2010.
   
 ```

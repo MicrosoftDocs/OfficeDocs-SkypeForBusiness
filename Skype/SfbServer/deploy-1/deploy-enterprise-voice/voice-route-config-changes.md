@@ -15,8 +15,8 @@ description: "Summary: Learn how to review, publish, or cancel voice routing con
 ---
 
 # Publish pending changes to the voice routing configuration in Skype for Business 2015
-[]
- **Summary:** Learn how to review, publish, or cancel voice routing configuration changes in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to review, publish, or cancel voice routing configuration changes in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
   
 After you make changes to any of the configuration settings in pages in the **Voice Routing** group, perform this procedure to review, publish, or cancel the pending changes.
   
@@ -27,7 +27,7 @@ After you make changes to any of the configuration settings in pages in the **Vo
 > All pending changes must be published at the same time by running the **Commit all** command. You cannot selectively publish pending changes. Before you publish pending changes, run the **Review uncommitted changes** command and cancel any configuration changes that you do not want to publish.
   
 > [!NOTE]
-> If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost. However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration. For details, see[Export or import a voice route configuration file in Skype for Business 2015](voice-route-configuration-import-export.md). 
+> If you navigate away from the pages in the **Voice Routing** group before committing pending changes, all pending changes will be lost. However, you can export the current configuration (including any pending changes) to a voice configuration file, and then import and publish the updated configuration. For details, see [Export or import a voice route configuration file in Skype for Business 2015](voice-route-configuration-import-export.md). 
   
 ### To review, publish, or cancel voice routing configuration changes
 
@@ -43,9 +43,9 @@ After you make changes to any of the configuration settings in pages in the **Vo
     
 6. If you want to cancel any of the pending changes, do one of the following:
     
-  - Select **Cancel all uncommitted changes** from the **Commit** menu.
+   - Select **Cancel all uncommitted changes** from the **Commit** menu.
     
-  - Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.
+   - Navigate to the tab of the **Voice Routing** page that has pending changes you want to cancel, select the item with the pending changes, click **Commit**, and then click **Cancel selected changes**.
     
 7. After you have reviewed all pending changes and canceled any that you do not want to publish, click **Commit**, and then click **Commit all**.
     

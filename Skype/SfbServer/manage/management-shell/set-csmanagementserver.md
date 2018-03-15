@@ -13,7 +13,7 @@ description: "Modifies the replication port used by the Skype for Business Serve
 ---
 
 # Set-CsManagementServer
-[]
+ 
 Modifies the replication port used by the Skype for Business Server 2015 Central Management service. This cmdlet was introduced in Lync Server 2010.
   
 ```

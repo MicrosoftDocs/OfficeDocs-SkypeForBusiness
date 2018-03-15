@@ -14,7 +14,7 @@ description: "Active Directory Domain Services functions as the directory servic
 ---
 
 # Active Directory Domain Services for Skype for Business Server 2015
-[]
+ 
 Active Directory Domain Services functions as the directory service for Windows Server 2003, Windows Server 2008, Windows Server 2012, and Windows Server 2012 R2 networks. Active Directory Domain Services also serves as the foundation on which the Skype for Business Server 2015 security infrastructure is built. The purpose of this section is to describe how Skype for Business Server 2015 uses Active Directory Domain Services to create a trustworthy environment for IM, Web conferencing, media, and voice. For details about preparing your environment for Active Directory Domain Services, see [Install Skype for Business Server 2015](../../deploy-1/install-0/install-0.md) in the Deployment documentation. For details about the role of Active Directory Domain Services in Windows Server networks, see the documentation for the version of the operating system you are using.
   
 Skype for Business Server 2015 uses Active Directory Domain Services to store:
@@ -54,7 +54,7 @@ For details about the specific universal groups created when preparing AD for Sk
   
 ## Role-Based Access Control
 
-In addition to creating universal service and administration groups and adding service and administration groups to the appropriate universal groups, forest preparation also creates Role-Based Access Control (RBAC) groups. For details about the specific RBAC groups created by forest preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation. For more information about RBAC groups, see[Role-based access control (RBAC) for Skype for Business Server 2015](role-based-access-control-rbac.md).
+In addition to creating universal service and administration groups and adding service and administration groups to the appropriate universal groups, forest preparation also creates Role-Based Access Control (RBAC) groups. For details about the specific RBAC groups created by forest preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in the Deployment documentation. For more information about RBAC groups, see [Role-based access control (RBAC) for Skype for Business Server 2015](role-based-access-control-rbac.md).
   
 ## Access Control Entries (ACEs) and Inheritance
 
@@ -62,7 +62,7 @@ Forest preparation creates both private and public ACEs and, adding ACEs for the
   
 The domain preparation step adds the necessary access control entries (ACEs) to universal groups that grant permissions to host and manage users within the domain. Domain preparation creates ACEs on the domain root and three built-in containers: User, Computers, and Domain Controllers.
   
-For details about the public ACEs created and added by forest preparation and domain preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) and[Changes made by domain preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) in the Deployment documentation.
+For details about the public ACEs created and added by forest preparation and domain preparation, see [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) and [Changes made by domain preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) in the Deployment documentation.
   
 Organizations often lock down Active Directory Domain Services (AD DS) to help mitigate security risks. However, a locked-down Active Directory environment can limit the permissions that Skype for Business Server 2015 requires. This can include removal of ACEs from containers and OUs and disabling of permissions inheritance on User, Contact, InetOrgPerson, or Computer objects. In a locked down Active Directory environment, permissions must be set manually on containers and OUs that require them.
   

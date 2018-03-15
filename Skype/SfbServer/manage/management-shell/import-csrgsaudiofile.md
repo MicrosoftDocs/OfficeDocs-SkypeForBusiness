@@ -13,11 +13,11 @@ description: "Imports a new audio file for use with the Response Group applicati
 ---
 
 # Import-CsRgsAudioFile
-[]
+ 
 Imports a new audio file for use with the Response Group application. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Import-CsRgsAudioFile -Content <Byte[]> -FileName <String> -Identity <RgsIdentity> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
+Import-CsRgsAudioFile -Content <Byte > -FileName <String> -Identity <RgsIdentity> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
 ```
 
 ## Examples
@@ -50,7 +50,7 @@ Regardless of how you choose to use audio files, the files themselves must be im
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Content_ <br/> |Required  <br/> |System.Byte[]  <br/> |Actual content of the audio file being imported. The Content property is populated by calling the **Get-Content** cmdlet. When calling **Get-Content**, set the Encoding parameter to byte and the ReadCount parameter to 0 (for details, see the Examples section in this topic). <br/> |
+| _Content_ <br/> |Required  <br/> |System.Byte   <br/> |Actual content of the audio file being imported. The Content property is populated by calling the **Get-Content** cmdlet. When calling **Get-Content**, set the Encoding parameter to byte and the ReadCount parameter to 0 (for details, see the Examples section in this topic). <br/> |
 | _FileName_ <br/> |Required  <br/> |System.String  <br/> |File name for the audio file being imported. For example, the file name for the file C:\Media\Welcome.wav is this: Welcome.wav.  <br/> |
 | _Identity_ <br/> |Required  <br/> |Microsoft.Rtc.Rgs.Management.RgsIdentity  <br/> |Identity of the service where the audio file is to be imported. (This must be the same service that hosts the Response Group application.) For example:  `-Identity "service:ApplicationServer:atl-cs-001.litwareinc.com"`.  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |

@@ -15,7 +15,7 @@ description: "You configure the SQL Server stores that will provide databases fo
 ---
 
 # Add Persistent Chat SQL Server Store
-[]
+ 
 You configure the SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server pool.
   
  **SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.

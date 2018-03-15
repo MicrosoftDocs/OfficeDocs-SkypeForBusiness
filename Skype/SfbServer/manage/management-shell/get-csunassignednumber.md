@@ -13,7 +13,7 @@ description: "Retrieves one or more ranges of unassigned numbers and the routing
 ---
 
 # Get-CsUnassignedNumber
-[]
+ 
 Retrieves one or more ranges of unassigned numbers and the routing rules that apply to those numbers. This cmdlet was introduced in Lync Server 2010.
   
 ```

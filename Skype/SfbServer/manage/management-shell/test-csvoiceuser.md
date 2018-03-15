@@ -13,7 +13,7 @@ description: "Identifies the route that a phone call from a given user would tak
 ---
 
 # Test-CsVoiceUser
-[]
+ 
 Identifies the route that a phone call from a given user would take to be completed based on voice rules, routes, and policies. This cmdlet was introduced in Lync Server 2010.
   
 ```

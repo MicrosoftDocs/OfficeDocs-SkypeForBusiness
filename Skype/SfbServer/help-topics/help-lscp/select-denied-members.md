@@ -15,7 +15,7 @@ description: "A Persistent Chat Administrator can create and manage chat room ca
 ---
 
 # Select Denied Members
-[]
+ 
 A Persistent Chat Administrator can create and manage chat room categories. As part of creating and managing chat room categories, a Persistent Chat Administrator can configure principals (Active Directory Domain Services groups/containers/users) that have access to be members/creators of chat rooms of a particular category. A Persistent Chat Administrator can also add DeniedMembers to a category and these become explicit exclusions to the allowed list. DeniedMembers override what's in AllowedMembers.
   
 ## Tasks that you can perform
@@ -34,7 +34,7 @@ In **Membership**, in the **Denied members** section, add or remove users and ot
   
 ### 
 
-For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation. For details about working with Persistent Chat Server configurations, see[Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and[Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.
+For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation. For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.
   
 ## See also
 

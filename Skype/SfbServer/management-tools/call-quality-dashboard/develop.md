@@ -14,8 +14,8 @@ description: "Summary: Learn how to develop solutions for Call Quality Dashboard
 ---
 
 # Develop Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn how to develop solutions for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn how to develop solutions for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 This topic provides development documentation for Call Quality Dashboard (CQD) for Skype for Business Server 2015.
   

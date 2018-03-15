@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Dial Plan
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md)

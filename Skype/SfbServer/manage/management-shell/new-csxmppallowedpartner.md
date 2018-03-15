@@ -13,7 +13,7 @@ description: "Creates a new XMPP allowed partner. The extensible Messaging and P
 ---
 
 # New-CsXmppAllowedPartner
-[]
+ 
 Creates a new XMPP allowed partner. The extensible Messaging and Presence Protocol (XMPP) is an open-standard communications protocol for exchanging messages using XML. An allowed partner is an IM and presence provider whose users have been authorized to exchange instant messages and presence information with your Skype for Business Server 2015 users. This cmdlet was introduced in Lync Server 2013.
   
 ```

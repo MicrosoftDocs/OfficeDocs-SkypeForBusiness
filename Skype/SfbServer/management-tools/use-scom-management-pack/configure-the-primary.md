@@ -14,8 +14,8 @@ description: "Summary: Configure your primary management server, install System 
 ---
 
 # Configure the Primary Management Server
-[]
- **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.
+ 
+**Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.
   
 To take full advantage of the new health monitoring capabilities included in Skype for Business Server 2015, you must first designate a computer to act as your primary management server. You must then install System Center Operations Manager 2012 SP1 or R2 or System Center Operations Manager 2007 R2 on that computer. In addition, you must first install a supported version of SQL Server to function as your Operations Manager back-end database.
   
@@ -53,7 +53,7 @@ You can extend the capabilities of System Center Operations Manager by installin
 - **The Component and User Management Pack** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) tracks Skype for Business Server issues recorded in event logs, registered by performance counters, or logged in the call detail records (CDRs) or the Quality of Experience (QoE) databases. For critical issues, System Center Operations Manager can be configured to immediately notify administrators through email, instant message, or SMS messaging. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
     
     > [!NOTE]
-    >  For details about configuring Operations Manager notification, see[Configuring Notification](http://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409). 
+    >  For details about configuring Operations Manager notification, see [Configuring Notification](http://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409). 
   
 - **The Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) proactively tests key Skype for Business Server components, such as signing into to the system, exchanging instant messages, or making calls to a phone located on the public switched telephone network (PSTN). These tests are conducted by using the Skype for Business Server synthetic transaction cmdlets. For example, the **Test-CsIM** cmdlet is used to simulate an instant messaging conversation between a pair of test users. If this simulated conversation fails, an alert is generated.
     

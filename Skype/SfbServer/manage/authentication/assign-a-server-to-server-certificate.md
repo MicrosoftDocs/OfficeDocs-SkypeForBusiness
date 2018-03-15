@@ -14,8 +14,7 @@ description: "Summary: Assign a server-to-server authentication certificate for 
 ---
 
 # Assign a server-to-server authentication certificate to Skype for Business Server 2015
-[]
- **Summary:** Assign a server-to-server authentication certificate for Skype for Business Server 2015.
+**Summary:** Assign a server-to-server authentication certificate for Skype for Business Server 2015.
   
 To determine whether or not a server-to-server authentication certificate has already been assigned to Skype for Business Server 2015, run the following command from the Skype for Business Server Management Shell:
   

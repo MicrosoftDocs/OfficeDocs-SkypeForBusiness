@@ -15,7 +15,7 @@ description: "You define a new session initiation protocol (SIP) trunk by provid
 ---
 
 # Define a New Trunk
-[]
+ 
 You define a new session initiation protocol (SIP) trunk by providing the following information:
   
 - **Trunk name**: unique name in your topology that will identify this trunk

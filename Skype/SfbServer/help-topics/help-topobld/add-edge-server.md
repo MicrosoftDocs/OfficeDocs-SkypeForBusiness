@@ -15,7 +15,7 @@ description: "To incorporate an Edge Server or an Edge Server pool into your top
 ---
 
 # Add Edge Server
-[]
+ 
 To incorporate an Edge Server or an Edge Server pool into your topology design, you need to specify the fully qualified domain name (FQDN) of the server on which you want to deploy Edge Server or Edge Server pool. Prior to publishing a topology that includes the Edge Server or Edge Server pool and installing Skype for Business Server, you should have completed all prerequisites for deploying external user access. For details about these prerequisites, see [Preparing for Installation of Servers in the Perimeter Network](http://technet.microsoft.com/library/5e6c457a-f964-4ef7-a709-97abda9c673a.aspx) in the Deployment documentation.
   
 > [!IMPORTANT]

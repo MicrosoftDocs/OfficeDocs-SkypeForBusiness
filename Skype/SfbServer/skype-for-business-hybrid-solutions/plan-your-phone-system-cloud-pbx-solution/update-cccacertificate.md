@@ -13,7 +13,7 @@ description: "The Update-CcCACertificate cmdlet renews the Skype for Business Cl
 ---
 
 # Update-CcCACertificate
-[]
+ 
 The Update-CcCACertificate cmdlet renews the Skype for Business Cloud Connector Edition root CA certificate that is near expiration or already expired. 
   
 ```

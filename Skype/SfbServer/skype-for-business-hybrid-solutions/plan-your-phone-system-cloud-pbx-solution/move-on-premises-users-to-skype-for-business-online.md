@@ -18,8 +18,8 @@ description: "Summary: Information about moving on-premises users to Skype for B
 ---
 
 # Move on-premises users to Skype for Business Online
-[]
- **Summary:** Information about moving on-premises users to Skype for Business Online.
+ 
+**Summary:** Information about moving on-premises users to Skype for Business Online.
   
 > [!CAUTION]
 > **Lync Phone Edition devices MUST be updated to minimum required firmware in your on premises environment PRIOR to moving to Skype for Business Online.**> **If you move your users from on-premises to online prior to updating the firmware, users will be unable to connect using their phones. To correct this problem, users must be moved back to the on premises environment to have their phones updated to the minimum firmware. DO NOT ATTEMPT TO UPDATE TO MINIMUM FIRMWARE OR HARD RESET THE PHONE PRIOR TO MOVING THE USER BACK TO YOUR ON PREMISES ENVIRONMENT.**> **If a hard reset is performed while the device is not at minimum firmware it will default to using PIN Authentication, which is not supported in Skype for Business Online.**> **For more information, please refer to [Getting Phones for Skype for Business Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)**.

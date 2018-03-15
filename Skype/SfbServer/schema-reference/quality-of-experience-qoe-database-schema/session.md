@@ -13,7 +13,7 @@ description: "Each record represents one session which involves audio or audio a
 ---
 
 # Session table
-[]
+ 
 Each record represents one session which involves audio or audio and video. It contains overall information about the session. A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

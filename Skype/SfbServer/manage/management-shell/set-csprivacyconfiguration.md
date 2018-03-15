@@ -13,7 +13,7 @@ description: "Modifies an existing set of privacy configuration settings. Privac
 ---
 
 # Set-CsPrivacyConfiguration
-[]
+ 
 Modifies an existing set of privacy configuration settings. Privacy configuration settings help determine how much information users make available to other users. This cmdlet was introduced in Lync Server 2010.
   
 ```

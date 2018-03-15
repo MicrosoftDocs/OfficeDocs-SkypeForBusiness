@@ -13,7 +13,7 @@ description: "Returns information about Address Book configuration settings. Thi
 ---
 
 # Get-CsAddressBookConfiguration
-[]
+ 
 Returns information about Address Book configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

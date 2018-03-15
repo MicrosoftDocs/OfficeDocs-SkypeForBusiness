@@ -13,7 +13,7 @@ description: "Each record contains a client event for one endpoint in an audio c
 ---
 
 # AudioClientEvent table
-[]
+ 
 Each record contains a client event for one endpoint in an audio call. Usually, one call has two records, one for caller and one for callee.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

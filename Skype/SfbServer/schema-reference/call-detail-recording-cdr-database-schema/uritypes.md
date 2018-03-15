@@ -13,7 +13,7 @@ description: "The UriTypes Table contains the different URI (Uniform resource id
 ---
 
 # UriTypes table
-[]
+ 
 The UriTypes Table contains the different URI (Uniform resource identifier) types monitored in Skype for Business Server 2015.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

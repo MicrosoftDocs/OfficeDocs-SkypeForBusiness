@@ -13,7 +13,7 @@ description: "Removes an existing collection of User Services configuration sett
 ---
 
 # Remove-CsUserServicesConfiguration
-[]
+ 
 Removes an existing collection of User Services configuration settings. The User Services service is used to help maintain presence information and manage conferencing. This cmdlet was introduced in Lync Server 2010.
   
 ```

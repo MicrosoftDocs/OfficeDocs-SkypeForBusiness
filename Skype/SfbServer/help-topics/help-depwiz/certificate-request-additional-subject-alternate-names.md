@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Additional Subject Alternate Names)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Configure Additional Subject Alternate Names option provides t
 ---
 
 # Certificate Request (Additional Subject Alternate Names)
-[]
+ 
 The **Configure Additional Subject Alternate Names** option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click **Add**. If you have added a SAN that you must delete, highlight the SAN entry and click **Remove**. To remove all SAN entries that you have added, click **Clear All**.
   
 > [!NOTE]

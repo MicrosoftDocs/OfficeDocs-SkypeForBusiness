@@ -13,7 +13,7 @@ description: "Retrieves settings for one or more pools that contain the computer
 ---
 
 # Get-CsTrustedApplicationPool
-[]
+ 
 Retrieves settings for one or more pools that contain the computers that host trusted applications. This cmdlet was introduced in Lync Server 2010.
   
 ```

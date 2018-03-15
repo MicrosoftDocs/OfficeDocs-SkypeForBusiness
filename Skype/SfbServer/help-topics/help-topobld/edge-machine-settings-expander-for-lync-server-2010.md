@@ -15,7 +15,7 @@ description: "To edit the properties for Edge Server computers as an single Edge
 ---
 
 # Edge Machine Settings Expander for Lync Server 2010
-[]
+ 
 To edit the properties for Edge Server computers as an single Edge Server or as member computers in an Edge pool, you configure **Server name and IP address configuration** settings:
   
 - **Internal name or FQDN**: Type the name of the computer as it is referenced in the domain name system (DNS). 

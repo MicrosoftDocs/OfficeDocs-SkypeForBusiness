@@ -13,7 +13,7 @@ description: "Tests one or more civic addresses against the Master Street Addres
 ---
 
 # Test-CsLisCivicAddress
-[]
+ 
 Tests one or more civic addresses against the Master Street Address Guide. This cmdlet was introduced in Lync Server 2010.
   
 ```

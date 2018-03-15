@@ -13,7 +13,7 @@ description: "tblADCookie contains the current Lightweight Directory Access Prot
 ---
 
 # tblADCookie
-[]
+ 
 tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies.
   
 **Columns**

@@ -13,8 +13,8 @@ description: "Summary: Learn how to turn on the Smart contacts list feature in t
 ---
 
 # Configure Smart contacts list in Skype for Business Server
-[]
- **Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
+ 
+**Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
   
 The Smart contacts list feature allows automatic population of contact lists for your end users. Upon first using Skype for Business, your users will automatically see their manager and other people on their team. This feature is turned on by default for Office 365 users, but you must explicitly enable this feature for your on-premises users by configuring the client policy setting.
   
@@ -22,11 +22,11 @@ Keep the following in mind when configuring this feature:
   
 - Users, up to 13, are automatically added to the Smart contacts list in the following order:
     
-1. Manager
+  1. Manager
     
-2. Directs in alphabetical order
+  2. Directs in alphabetical order
     
-3. Peers in alphabetical order
+  3. Peers in alphabetical order
     
 - The first time a user logs in, a new group, named My Group, is created. The group is automatically populated with people in the user's AD group relationship based on the user alias populated in the Manager field. Note that changes to the AD group membership do not cause updates to My Group after it is initially populated. If a user deletes a contact or the group, neither the contact nor the group are re-created. 
     

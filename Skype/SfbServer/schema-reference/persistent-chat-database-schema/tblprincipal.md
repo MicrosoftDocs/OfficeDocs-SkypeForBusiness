@@ -13,7 +13,7 @@ description: "tblPrincipal contains all principals, including users, folders, an
 ---
 
 # tblPrincipal
-[]
+ 
 tblPrincipal contains all principals, including users, folders, and groups.
   
 **Columns**

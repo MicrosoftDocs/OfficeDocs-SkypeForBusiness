@@ -13,7 +13,7 @@ description: "Removes a Location Information Server (LIS) wireless access point 
 ---
 
 # Remove-CsLisWirelessAccessPoint
-[]
+ 
 Removes a Location Information Server (LIS) wireless access point (WAP). This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,8 +13,8 @@ description: "Summary: Learn how to delete an archiving configuration in Skype f
 ---
 
 # Delete an archiving configuration in Skype for Business Server 2015
-[]
- **Summary:** Learn how to delete an archiving configuration in Skype for Business Server 2015.
+
+**Summary:** Learn how to delete an archiving configuration in Skype for Business Server 2015.
   
 You can delete a site configuration or pool configuration, but you cannot delete the global configuration. If you delete the global configuration, it is automatically reset to the default values.
   
@@ -64,5 +64,3 @@ Remove-CsArchivingConfiguration -Identity global
 ```
 
 For more information, see the help topic for the [Remove-CsArchivingConfiguration](../../manage/management-shell/remove-csarchivingconfiguration.md) cmdlet.
-  
-

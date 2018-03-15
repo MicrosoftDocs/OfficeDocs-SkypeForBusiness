@@ -13,7 +13,7 @@ description: "Modifies an existing collection of Address Book configuration sett
 ---
 
 # Set-CsAddressBookConfiguration
-[]
+ 
 Modifies an existing collection of Address Book configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

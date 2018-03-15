@@ -14,7 +14,7 @@ description: "For disaster recovery, Skype for Business Server offers pool pairi
 ---
 
 # Front End pool disaster recovery in Skype for Business Server 2015
-[]
+ 
 For disaster recovery, Skype for Business Server offers pool pairing with failover in case one pool goes down.
   
 For the most robust disaster recovery options in Skype for Business Server, deploy pairs of Front End pools across two geographically dispersed sites. Each site has a Front End pool which is paired with a corresponding Front End pool in the other site. Both sites are active, and the Backup Service provides real-time data replication to keep the pools synchronized. See [Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) if you want to implement Front End pool pairing.

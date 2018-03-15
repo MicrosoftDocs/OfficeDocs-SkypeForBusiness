@@ -13,7 +13,7 @@ description: "tblADUpdates contains Active Directory Domain Services changes tha
 ---
 
 # tblADUpdates
-[]
+ 
 tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.
   
 **Columns**

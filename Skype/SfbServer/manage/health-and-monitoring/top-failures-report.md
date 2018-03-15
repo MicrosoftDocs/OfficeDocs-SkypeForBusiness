@@ -13,8 +13,8 @@ description: "Summary: Learn about the Top Failures Report in Skype for Business
 ---
 
 # Top Failures Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Top Failures Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Top Failures Report in Skype for Business Server 2015.
   
 The Top Failures Report provides a look at the most-commonly reported failures and their trends over time. Failures are based on a combination of the following two metrics:
   

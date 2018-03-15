@@ -13,7 +13,7 @@ description: "Assigns a voice policy to one or more users or groups. This cmdlet
 ---
 
 # Grant-CsVoicePolicy
-[]
+ 
 Assigns a voice policy to one or more users or groups. This cmdlet was introduced in Lync Server 2010.
   
 ```

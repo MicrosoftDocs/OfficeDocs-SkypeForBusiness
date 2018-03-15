@@ -15,7 +15,7 @@ description: "Provides a detailed example of planning for call admission control
 ---
 
 # Example: Gathering requirements for call admission control in Skype for Business Server 2015
-[]
+ 
 Provides a detailed example of planning for call admission control in Skype for Business Server Enterprise Voice, including gathering information about your network's sites, regions, and bandwidth.
   
 This example shows you how to plan for and implement call admission control (CAC). At a high level, this consists of the following activities:
@@ -59,13 +59,13 @@ To prepare for call admission control, gather the information described in the f
     
     All Skype for Business users in North America are homed on servers in the Chicago deployment. The following table shows central sites for all three network regions.
     
-   **Network Regions and their Associated Central Sites**
+    **Network Regions and their Associated Central Sites**
 
-|**Network Region**|**Central Site**|
-|:-----|:-----|
-|North America  <br/> |Chicago  <br/> |
-|EMEA  <br/> |London  <br/> |
-|APAC  <br/> |Beijing  <br/> |
+    |**Network Region**|**Central Site**|
+    |:-----|:-----|
+    |North America  <br/> |Chicago  <br/> |
+    |EMEA  <br/> |London  <br/> |
+    |APAC  <br/> |Beijing  <br/> |
    
     > [!NOTE]
     > Depending on your Skype for Business Server topology, the same central site can be assigned to multiple network regions. 
@@ -76,11 +76,11 @@ To prepare for call admission control, gather the information described in the f
     
    **Network Sites not Constrained by WAN Bandwidth**
 
-|**Network Site**|**Network Region**|
-|:-----|:-----|
-|New York  <br/> |North America  <br/> |
-|Chicago  <br/> |North America  <br/> |
-|Detroit  <br/> |North America  <br/> |
+   |**Network Site**|**Network Region**|
+   |:-----|:-----|
+   |New York  <br/> |North America  <br/> |
+   |Chicago  <br/> |North America  <br/> |
+   |Detroit  <br/> |North America  <br/> |
    
 4. For each network region, identify all of the network sites that connect to the network region through bandwidth-constrained WAN links.
     
@@ -90,11 +90,11 @@ To prepare for call admission control, gather the information described in the f
     
    **Network Sites Constrained by WAN Bandwidth**
 
-|**Network Site**|**Network Region**|
-|:-----|:-----|
-|Albuquerque  <br/> |North America  <br/> |
-|Reno  <br/> |North America  <br/> |
-|Portland  <br/> |North America  <br/> |
+   |**Network Site**|**Network Region**|
+   |:-----|:-----|
+   |Albuquerque  <br/> |North America  <br/> |
+   |Reno  <br/> |North America  <br/> |
+   |Portland  <br/> |North America  <br/> |
    
    **CAC network region North America with three network sites that are unconstrained by bandwidth (Chicago, New York, and Detroit) and three network sites that are constrained by WAN bandwidth (Portland, Reno, and Albuquerque)**
 
@@ -110,16 +110,16 @@ To prepare for call admission control, gather the information described in the f
     
   - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
     
-   **Network Sites with WAN Bandwidth Constraint Information (Bandwidth in kbps)**
+    **Network Sites with WAN Bandwidth Constraint Information (Bandwidth in kbps)**
 
-|**Network Site**|**Network Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Albuquerque  <br/> |North America  <br/> |5,000  <br/> |2,000  <br/> |175  <br/> |1,400  <br/> |700  <br/> |
-|Reno  <br/> |North America  <br/> |10,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |
-|Portland  <br/> |North America  <br/> |5,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |
-|New York  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
-|Chicago  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
-|Detroit  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
+    |**Network Site**|**Network Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
+    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+    |Albuquerque  <br/> |North America  <br/> |5,000  <br/> |2,000  <br/> |175  <br/> |1,400  <br/> |700  <br/> |
+    |Reno  <br/> |North America  <br/> |10,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |
+    |Portland  <br/> |North America  <br/> |5,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |
+    |New York  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
+    |Chicago  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
+    |Detroit  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |
    
 6. For every subnet in your network, specify its associated network site.
     
@@ -145,30 +145,30 @@ To prepare for call admission control, gather the information described in the f
     
     For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet, or the subnet that they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:
     
-1. Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.
+    a. Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.
     
-2. Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.
+    b. Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.
     
    **Network Sites and Associated Subnets (Bandwidth in kbps)**
 
-|**Network Site**|**Network Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|**Subnets**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Albuquerque  <br/> |North America  <br/> |5,000  <br/> |2,000  <br/> |175  <br/> |1,400  <br/> |700  <br/> |172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-|Reno  <br/> |North America  <br/> |10,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |157.57.210.0/23, 172.28.151.128/25  <br/> |
-|Portland  <br/> |North America  <br/> |5,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/> |
-|New York  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
-|Chicago  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |157.57.211.0/23, 172.28.152.128/25  <br/> |
-|Detroit  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/> |
+   |**Network Site**|**Network Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|**Subnets**|
+   |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+   |Albuquerque  <br/> |North America  <br/> |5,000  <br/> |2,000  <br/> |175  <br/> |1,400  <br/> |700  <br/> |172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
+   |Reno  <br/> |North America  <br/> |10,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |157.57.210.0/23, 172.28.151.128/25  <br/> |
+   |Portland  <br/> |North America  <br/> |5,000  <br/> |4,000  <br/> |175  <br/> |2,800  <br/> |700  <br/> |172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/> |
+   |New York  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
+   |Chicago  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |157.57.211.0/23, 172.28.152.128/25  <br/> |
+   |Detroit  <br/> |North America  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |(no limit)  <br/> |172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/> |
    
 7. In Skype for Business Server call admission control, the connections between network regions are called region links. For each region link, determine the following, just as you did for the network sites:
     
-  - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
     
-  - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
+   - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
     
-  - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+   - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
     
-  - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
+   - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
     
    **Network Region links with associated bandwidth limits**
 
@@ -176,10 +176,10 @@ To prepare for call admission control, gather the information described in the f
   
    **Region Link Bandwidth Information (Bandwidth in kbps)**
 
-|**Region Link Name**|**First Region**|**Second Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|NA-EMEA-LINK  <br/> |North America  <br/> |EMEA  <br/> |50,000  <br/> |20,000  <br/> |175  <br/> |14,000  <br/> |700  <br/> |
-|EMEA-APAC-LINK  <br/> |EMEA  <br/> |APAC  <br/> |25,000  <br/> |10,000  <br/> |175  <br/> |7,000  <br/> |700  <br/> |
+   |**Region Link Name**|**First Region**|**Second Region**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
+   |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+   |NA-EMEA-LINK  <br/> |North America  <br/> |EMEA  <br/> |50,000  <br/> |20,000  <br/> |175  <br/> |14,000  <br/> |700  <br/> |
+   |EMEA-APAC-LINK  <br/> |EMEA  <br/> |APAC  <br/> |25,000  <br/> |10,000  <br/> |175  <br/> |7,000  <br/> |700  <br/> |
    
 8. Define a route between every pair of network regions.
     
@@ -188,21 +188,21 @@ To prepare for call admission control, gather the information described in the f
   
    **Region Routes**
 
-|**Region Route Name**|**First Region**|**Second Region**|**Region Links**|
-|:-----|:-----|:-----|:-----|
-|NA-EMEA-ROUTE  <br/> |North America  <br/> |EMEA  <br/> |NA-EMEA-LINK  <br/> |
-|EMEA-APAC-ROUTE  <br/> |EMEA  <br/> |APAC  <br/> |EMEA-APAC-LINK  <br/> |
-|NA-APAC-ROUTE  <br/> |North America  <br/> |APAC  <br/> |NA-EMEA-LINK, EMEA-APAC-LINK  <br/> |
+   |**Region Route Name**|**First Region**|**Second Region**|**Region Links**|
+   |:-----|:-----|:-----|:-----|
+   |NA-EMEA-ROUTE  <br/> |North America  <br/> |EMEA  <br/> |NA-EMEA-LINK  <br/> |
+   |EMEA-APAC-ROUTE  <br/> |EMEA  <br/> |APAC  <br/> |EMEA-APAC-LINK  <br/> |
+   |NA-APAC-ROUTE  <br/> |North America  <br/> |APAC  <br/> |NA-EMEA-LINK, EMEA-APAC-LINK  <br/> |
    
 9. For every pair of network sites that are directly connected by a single link (called an inter-site link), determine the following:
     
-  - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+     - Overall bandwidth limit that you want to set for all concurrent audio sessions. If a new audio session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
     
-  - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
+     - Bandwidth limit that you want to set for each individual audio session. The default CAC bandwidth limit is 175 kbps, but it can be modified by the administrator.
     
-  - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
+     - Overall bandwidth limit that you want to set for all concurrent video sessions. If a new video session will cause this limit to be exceeded, Skype for Business Server does not allow the session to start.
     
-  - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
+     - Bandwidth limit that you want to set for each individual video session. The default CAC bandwidth limit is 700 kbps, but it can be modified by the administrator.
     
    **CAC network region North America showing the bandwidth capacities and bandwidth limits for the inter-site link between Reno and Albuquerque**
 
@@ -210,15 +210,15 @@ To prepare for call admission control, gather the information described in the f
   
    **Bandwidth Information for an Inter-Site Link between Two Network Sites (Bandwidth in kbps)**
 
-|**Inter-Site Link Name**|**First Site**|**Second Site**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20,000  <br/> |12,000  <br/> |175  <br/> |5,000  <br/> |700  <br/> |
+   |**Inter-Site Link Name**|**First Site**|**Second Site**|**BW Limit**|**Audio Limit**|**Audio Session Limit**|**Video Limit**|**Video Session Limit**|
+   |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20,000  <br/> |12,000  <br/> |175  <br/> |5,000  <br/> |700  <br/> |
    
 ### Next Steps
 
 After you have gathered the required information, you can perform CAC deployment either by using the Skype for Business Server Management Shell or Skype for Business Server Control Panel.
   
 > [!NOTE]
-> Although you can perform most network configuration tasks by using Skype for Business Server Control Panel, to create subnets and intersite links, you must use Skype for Business Server Management Shell. For details, see [New-CsNetworkSubnet](../../manage/management-shell/new-csnetworksubnet.md) and[New-CsNetworkInterSitePolicy](../../manage/management-shell/new-csnetworkintersitepolicy.md). 
+> Although you can perform most network configuration tasks by using Skype for Business Server Control Panel, to create subnets and intersite links, you must use Skype for Business Server Management Shell. For details, see [New-CsNetworkSubnet](../../manage/management-shell/new-csnetworksubnet.md) and [New-CsNetworkInterSitePolicy](../../manage/management-shell/new-csnetworkintersitepolicy.md). 
   
 

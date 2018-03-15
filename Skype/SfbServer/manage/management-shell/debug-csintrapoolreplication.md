@@ -13,7 +13,7 @@ description: "Verifies the synchronous replication of a pool by comparing the da
 ---
 
 # Debug-CsIntraPoolReplication
-[]
+ 
 Verifies the synchronous replication of a pool by comparing the data stored for a specified user on a primary Front End server with data for that same user stored on replica Front End servers. This cmdlet was introduced in Lync Server 2013.
   
 ```

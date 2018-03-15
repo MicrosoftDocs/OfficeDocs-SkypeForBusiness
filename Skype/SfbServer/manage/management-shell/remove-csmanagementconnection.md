@@ -13,7 +13,7 @@ description: "Resets the management connection to the Active Directory service c
 ---
 
 # Remove-CsManagementConnection
-[]
+ 
 Resets the management connection to the Active Directory service control point for the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

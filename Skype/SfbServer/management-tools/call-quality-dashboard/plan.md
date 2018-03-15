@@ -14,8 +14,8 @@ description: "Summary: Learn about what to consider when you plan for the Call Q
 ---
 
 # Plan for Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
+ 
+**Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
 ## Overview of the Skype for Business Server 2015 Call Quality Dashboard
 
@@ -111,8 +111,7 @@ CQD provides QoE data archiving and fast and deep analysis of call quality data.
 
 CQD comes with several components, and it helps to understand the requirements of each component and their relationship with each other to obtain the simplest and best performing deployment of the tool. The following table describes the dependent component for each CQD component.
   
-|
-|
+
 |**Component name**|**Dependent component**|
 |:-----|:-----|
 |QoE Archive  <br/> |Microsoft SQL Server  <br/> |

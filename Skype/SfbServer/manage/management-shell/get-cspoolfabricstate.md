@@ -13,7 +13,7 @@ description: "Returns the Windows Fabric state for a Skype for Business Server 2
 ---
 
 # Get-CsPoolFabricState
-[]
+ 
 Returns the Windows Fabric state for a Skype for Business Server 2015 pool. Windows Fabric is a Microsoft technology used for creating highly reliable, distributable, and scalable applications. This cmdlet was introduced in Lync Server 2013.
   
 ```

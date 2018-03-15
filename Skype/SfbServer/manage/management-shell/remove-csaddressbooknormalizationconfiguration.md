@@ -13,7 +13,7 @@ description: "Deletes one or more collections of Address Book normalization conf
 ---
 
 # Remove-CsAddressBookNormalizationConfiguration
-[]
+ 
 Deletes one or more collections of Address Book normalization configuration settings. Address Book normalization settings are used to convert phone numbers to a format readily understood by Skype for Business Server 2015.
   
 This cmdlet was introduced in Skype for Business Server 2015.

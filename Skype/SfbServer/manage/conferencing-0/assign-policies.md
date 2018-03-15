@@ -13,8 +13,8 @@ description: "Summary: Learn how to assign conferencing policies in Skype for Bu
 ---
 
 # Assign conferencing policies in Skype for Business Server 2015
-[]
- **Summary:** Learn how to assign conferencing policies in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to assign conferencing policies in Skype for Business Server 2015.
   
 You can assign conferencing policies to users by using Skype for Business Server Management Shell and the **Grant-CsConferencingPolicy** cmdlet.
   

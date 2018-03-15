@@ -15,7 +15,7 @@ description: "Use this page to select which Front End pools and Standard Edition
 ---
 
 # Add Edge Server Associations
-[]
+ 
 Use this page to select which Front End pools and Standard Edition servers will use this Edge pool for A/V traffic. 
   
 Each Front End pool can be associated with only one Edge pool. If you select a pool that is already associated with another Edge pool, it will change the association away from the previous Edge pool.

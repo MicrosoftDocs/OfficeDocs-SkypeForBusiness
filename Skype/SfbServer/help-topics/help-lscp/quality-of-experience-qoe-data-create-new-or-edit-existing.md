@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Quality of Experience (QoE) Data: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Enable Quality of Experience in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)

@@ -13,7 +13,7 @@ description: "Returns the Address Book normalization configuration settings curr
 ---
 
 # Get-CsAddressBookNormalizationConfiguration
-[]
+ 
 Returns the Address Book normalization configuration settings currently in use in the organization. Address Book normalization settings are used to convert phone numbers to a format readily understood by Skype for Business Server 2015.
   
 This cmdlet was introduced in Skype for Business Server 2015.

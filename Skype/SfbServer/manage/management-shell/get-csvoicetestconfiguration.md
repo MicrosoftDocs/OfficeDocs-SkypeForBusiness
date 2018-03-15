@@ -13,7 +13,7 @@ description: "Retrieves a test scenario you can use to test phone numbers agains
 ---
 
 # Get-CsVoiceTestConfiguration
-[]
+ 
 Retrieves a test scenario you can use to test phone numbers against specified routes and rules. This cmdlet was introduced in Lync Server 2010.
   
 ```

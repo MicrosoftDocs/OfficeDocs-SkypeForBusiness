@@ -13,7 +13,7 @@ description: "Removes a voice test configuration that was used to test phone num
 ---
 
 # Remove-CsVoiceTestConfiguration
-[]
+ 
 Removes a voice test configuration that was used to test phone numbers against specified routes and rules. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Retrieves one or more collections of Quality of Experience (QoE) s
 ---
 
 # Get-CsQoEConfiguration
-[]
+ 
 Retrieves one or more collections of Quality of Experience (QoE) settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

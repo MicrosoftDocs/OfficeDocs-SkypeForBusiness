@@ -13,7 +13,7 @@ description: "The IPAddress table maps IP addresses to the unique IP address ide
 ---
 
 # IPAddress table
-[]
+ 
 The IPAddress table maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

@@ -15,7 +15,7 @@ description: "If you have Edge Servers deployed and must provide media services 
 ---
 
 # Associate Branch Office Appliance With Edge
-[]
+ 
 If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list. Click **Next** to continue.
   
 > [!NOTE]

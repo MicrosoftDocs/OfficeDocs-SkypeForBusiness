@@ -15,7 +15,7 @@ description: "Run the Remove Deployment Wizard only if you want to decommission 
 ---
 
 # Remove Deployment Introduction
-[]
+ 
 Run the **Remove Deployment Wizard** only if you want to decommission your entire deployment. This wizard creates an empty topology that consists of a single Front End Server. After you run this wizard and publish the empty topology, you cannot revert to your original topology.
   
 > [!IMPORTANT]

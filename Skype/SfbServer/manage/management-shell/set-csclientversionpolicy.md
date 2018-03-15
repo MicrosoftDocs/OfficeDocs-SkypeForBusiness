@@ -13,7 +13,7 @@ description: "Modifies an existing client version policy. Client version policie
 ---
 
 # Set-CsClientVersionPolicy
-[]
+ 
 Modifies an existing client version policy. Client version policies enable you to specify which clients (such as Microsoft Office Communicator 2007 R2) will be allowed to log on to your Skype for Business Server 2015 system. This cmdlet was introduced in Lync Server 2010.
   
 ```

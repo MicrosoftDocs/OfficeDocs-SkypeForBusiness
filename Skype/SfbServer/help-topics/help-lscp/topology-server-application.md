@@ -15,7 +15,7 @@ description: "The Topology: Server Application page displays the server applicat
 ---
 
 # Topology: Server Application
-[]
+ 
 The **Topology**: **Server Application** page displays the server applications in your deployment.
   
 ## Tasks you can perform

@@ -13,7 +13,7 @@ description: "Tests the ability a pair of users to conduct a peer-to-peer call o
 ---
 
 # Test-CsPstnPeerToPeerCall
-[]
+ 
 Tests the ability a pair of users to conduct a peer-to-peer call over the public switched telephone network (PSTN) gateway. This cmdlet was introduced in Lync Server 2010.
   
 ```

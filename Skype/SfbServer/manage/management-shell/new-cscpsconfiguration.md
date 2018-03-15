@@ -13,7 +13,7 @@ description: "Creates a new collection of Call Park service settings. Call parki
 ---
 
 # New-CsCpsConfiguration
-[]
+ 
 Creates a new collection of Call Park service settings. Call parking is a service that allows a user to "park" an incoming phone call. Parking a call transfers it to a number in a specified range, or orbit, and immediately places the call on hold. Anyone (not just the person who originally answered the call) can resume the conversation from any telephone by entering the correct number. This cmdlet was introduced in Lync Server 2010.
   
 ```

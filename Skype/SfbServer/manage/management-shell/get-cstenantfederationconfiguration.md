@@ -13,7 +13,7 @@ description: "Returns information about the federation configuration settings fo
 ---
 
 # Get-CsTenantFederationConfiguration
-[]
+ 
 Returns information about the federation configuration settings for your Microsoft Lync Online tenants. Federation configuration settings are used to determine which domains (if any) your users are allowed to communicate with. 
   
 The **Get-CsTenantFederationConfiguration** cmdlet can only be used with Lync Online.

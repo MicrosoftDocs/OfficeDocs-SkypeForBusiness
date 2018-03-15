@@ -13,7 +13,7 @@ description: "Modifies the property values of an existing dial-in conferencing a
 ---
 
 # Set-CsDialInConferencingAccessNumber
-[]
+ 
 Modifies the property values of an existing dial-in conferencing access number. Dial-in conferencing provides a way for users to use a "regular" telephone, mobile phone or other device on the public switched telephone network (PSTN) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

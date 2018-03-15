@@ -13,7 +13,7 @@ description: "Retrieves one or more locations in the location configuration data
 ---
 
 # Get-CsLisLocation
-[]
+ 
 Retrieves one or more locations in the location configuration database for Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

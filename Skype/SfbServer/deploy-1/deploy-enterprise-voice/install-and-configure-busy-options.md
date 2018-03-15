@@ -14,7 +14,7 @@ description: "Read about how to install and configure Busy Options in Skype for 
 ---
 
 # Install and configure Busy Options for Skype for Business Server
-[]
+ 
 Read about how to install and configure Busy Options in Skype for Business Server 2015.
   
 Busy Options is a new voice policy introduced in the July 2016 Cumulative Update that allows you to configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or forwarded to voice mail. 
@@ -51,43 +51,42 @@ The installer will deploy the latest version of the Busy Options application. Ho
     
     First, run [Get-CsSite](../../manage/management-shell/get-cssite.md) to retrieve the name of the site:
     
-  ```
-  Get-CsSite
-  ```
+   ```
+   Get-CsSite
+   ```
 
     Use the Identity value (for example: Site:Redmond1) retrieved from Get-CsSite to retrieve the voice policy of the site as follows:
     
-  ```
-  Get-CsVoicePolicy -Identity Site:Redmond1
-  ```
+   ```
+   Get-CsVoicePolicy -Identity Site:Redmond1
+   ```
 
     If a voice policy exists for the site, run the following command:
     
-  ```
-  Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
+   ```
 
 3. Next, run the [New-CsServerApplication](../../manage/management-shell/new-csserverapplication.md) cmdlet to add Busy Options to the list of server applications as shown in the following example:
     
-  ```
-  New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions 
--Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
-  ```
+   ```
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   ```
 
     > [!NOTE]
     > You must replace %FQDN% with the fully-qualified domain name of a specific pool. 
   
 4. Next, run the [Update-CsAdminRole](../../manage/management-shell/update-csadminrole.md) cmdlet to update the Role-based access control (RBAC) roles for the Busy Options cmdlets as shown in the following example:
     
-  ```
-  Update-CsAdminRole
-  ```
+   ```
+   Update-CsAdminRole
+   ```
 
 5. Finally, start the Skype for Business Server Windows services on all the Front End servers in all the pools where Busy Options was installed and enabled by running the [Start-CsWindowsService](../../manage/management-shell/start-cswindowsservice.md) command:
     
-  ```
-  Start-CsWindowsService
-  ```
+   ```
+   Start-CsWindowsService
+   ```
 
 ## Configure
 

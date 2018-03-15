@@ -13,7 +13,7 @@ description: "tblPrincipalAffiliations contains the principal affiliations that 
 ---
 
 # tblPrincipalAffiliations
-[]
+ 
 tblPrincipalAffiliations contains the principal affiliations that describe memberships in locations, including Active Directory Domain Services security groups, in Active Directory containers, in domains.
   
 **Columns**

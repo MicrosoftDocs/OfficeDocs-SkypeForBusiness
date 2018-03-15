@@ -14,7 +14,7 @@ description: "Create or modify Response Group holiday sets, in Skype for Busines
 ---
 
 # (Optional) Define Response Group holiday sets in Skype for Business 2015
-[]
+ 
 Create or modify Response Group holiday sets, in Skype for Business Server Enterprise Voice.
   
 Holiday settings define the days that a response group is closed for business and specify the action to take on those days. A holiday set is the collection of holidays that apply to a response group.
@@ -30,23 +30,23 @@ Holiday settings define the days that a response group is closed for business an
     
 3. For each holiday you want to define, run:
     
-  ```
-  $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
-  ```
+   ```
+   $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
+   ```
 
     To create the holiday set that contains the holidays you defined, run:
     
-  ```
-  New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
-  ```
+   ```
+   New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
+   ```
 
     The following example shows a holiday set that includes two holidays:
     
-  ```
-  $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
-$b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
-New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
-  ```
+   ```
+   $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
+   $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
+   New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
+   ```
 
 ## See also
 

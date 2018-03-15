@@ -13,7 +13,7 @@ description: "The UserSite table is a supporting table. Each record represents o
 ---
 
 # UserSite table
-[]
+ 
 The UserSite table is a supporting table. Each record represents one user site defined in network configuration setting.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

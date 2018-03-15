@@ -15,7 +15,7 @@ description: "You configure advanced options for the placement of database and l
 ---
 
 # Install Database Options Page
-[]
+ 
 You configure advanced options for the placement of database and log files on your SQL Server. The options available are:
   
 > [!IMPORTANT]

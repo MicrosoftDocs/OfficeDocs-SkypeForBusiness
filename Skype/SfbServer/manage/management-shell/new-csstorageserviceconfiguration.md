@@ -13,7 +13,7 @@ description: "Creates new instances of the Skype for Business Server 2015 Storag
 ---
 
 # New-CsStorageServiceConfiguration
-[]
+ 
 Creates new instances of the Skype for Business Server 2015 Storage Service. The storage service provides a common infrastructure that enables Skype for Business Server 2015 components to use Exchange as a backend data store.
   
  This cmdlet was introduced in Skype for Business Server 2015.

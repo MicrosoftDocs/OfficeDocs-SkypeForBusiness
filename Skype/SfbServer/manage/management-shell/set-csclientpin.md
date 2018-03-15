@@ -13,7 +13,7 @@ description: "Assigns a new personal identification number (PIN) to the specifie
 ---
 
 # Set-CsClientPin
-[]
+ 
 Assigns a new personal identification number (PIN) to the specified user. This cmdlet was introduced in Lync Server 2010.
   
 ```

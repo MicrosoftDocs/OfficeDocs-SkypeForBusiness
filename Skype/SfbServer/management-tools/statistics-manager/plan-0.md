@@ -14,14 +14,14 @@ description: "Summary: Read this topic to learn about Statistics Manager for Sky
 ---
 
 # Plan for Statistics Manager for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015.
   
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
   
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs. 
   
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan-0.md#BKMK_WhatsNew) and[Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan-0.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md).
   
 This topic contains the following sections:
   
@@ -142,8 +142,7 @@ You will need to consider the following software, networking, and hardware requi
     
 ### Networking requirements
 
-|
-|
+
 |**Hosting server**|**Agents**|**Listener**|
 |:-----|:-----|:-----|
 |Minimum gigabit full duplex networking.  <br/> |Outbound TCP port 8443 (customizable port number) to communicate with the Listener.  <br/> |The Listener port must be the same on all servers.  <br/> |

@@ -15,7 +15,7 @@ description: "You right click on an existing SIP trunk in Topology Builder to pe
 ---
 
 # Trunk Scope Node
-[]
+ 
 You right click on an existing SIP trunk in Topology Builder to perform the following:
   
 - **Edit Properties**: Starts the **Edit Properties** wizard used to edit or redefine the configuration of an existing SIP trunk

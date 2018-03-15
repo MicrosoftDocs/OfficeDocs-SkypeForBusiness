@@ -13,7 +13,7 @@ description: "Verifies that replication is working between a Registrar pool and 
 ---
 
 # Debug-CsInterPoolReplication
-[]
+ 
 Verifies that replication is working between a Registrar pool and its assigned backup pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -19,8 +19,8 @@ description: "Summary: Learn how to migrate user settings and move users to Skyp
 ---
 
 # Move users from on premises to Skype for Business Online
-[]
- **Summary:** Learn how to migrate user settings and move users to Skype for Business Online.
+ 
+**Summary:** Learn how to migrate user settings and move users to Skype for Business Online.
   
 Before actually moving the user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license. To do this, you use the Office 365 Admin Center.
   
@@ -60,7 +60,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 
 ## Move users to Skype for Business Online
 
-You can move multiple users by using the [Get-CsUser](../../manage/management-shell/get-csuser.md) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the[Move-CsUser](../../manage/management-shell/move-csuser.md) cmdlet, as shown in the following example.
+You can move multiple users by using the [Get-CsUser](../../manage/management-shell/get-csuser.md) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the [Move-CsUser](../../manage/management-shell/move-csuser.md) cmdlet, as shown in the following example.
   
 ```
 Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds 

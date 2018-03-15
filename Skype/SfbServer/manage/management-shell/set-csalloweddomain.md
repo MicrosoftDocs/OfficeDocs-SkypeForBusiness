@@ -14,7 +14,7 @@ description: "Modifies property values for a domain (or domains) included on the
 ---
 
 # Set-CsAllowedDomain
-[]
+ 
 Modifies property values for a domain (or domains) included on the list of domains approved for federation. After a domain has been approved for federation (by being added to the allowed list), your users can exchange instant messages and presence information with people who have accounts in the federated domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

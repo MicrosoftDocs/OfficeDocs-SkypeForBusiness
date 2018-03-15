@@ -14,7 +14,7 @@ description: "Verifying your deployment of Call Park in Skype for Business Serve
 ---
 
 # (Optional) Verify Call Park deployment in Skype for Business 2015
-[]
+ 
 Verifying your deployment of Call Park in Skype for Business Server Enterprise Voice. 
   
 After you install and configure Call Park, you need to verify the configuration to make sure that parking and retrieving calls works as expected. At minimum, verify the following:

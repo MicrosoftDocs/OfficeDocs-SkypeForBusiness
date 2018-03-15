@@ -13,7 +13,7 @@ description: "Creates a new web link that points to the Autodiscover service. Th
 ---
 
 # New-CsWebLink
-[]
+ 
 Creates a new web link that points to the Autodiscover service. The Autodiscover service provides a way for client applications such as Skype for Business Mobile to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

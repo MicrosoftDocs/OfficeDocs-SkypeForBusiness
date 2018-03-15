@@ -15,7 +15,7 @@ description: "To define the computers that make up the Edge Server pool, enter t
 ---
 
 # Legacy Merge Add Machine
-[]
+ 
 To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool. 
   
 

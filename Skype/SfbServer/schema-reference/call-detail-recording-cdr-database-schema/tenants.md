@@ -13,7 +13,7 @@ description: "The Tenants table is a supporting table that stores a list of the 
 ---
 
 # Tenants table
-[]
+ 
 The Tenants table is a supporting table that stores a list of the various tenants. Each record in the table represents one tenant.
   
 > [!NOTE]

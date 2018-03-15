@@ -13,7 +13,7 @@ description: "Returns information about your Skype for Business Server 2015 infr
 ---
 
 # Get-CsTopology
-[]
+ 
 Returns information about your Skype for Business Server 2015 infrastructure, including internal domains, sites, clusters, computers, services, and back-end instances of SQL Server. This cmdlet was introduced in Lync Server 2010.
   
 ```

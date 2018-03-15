@@ -15,7 +15,7 @@ description: "A summary of the Enterprise Voice components in Skype for Business
 ---
 
 # Components required for Enterprise Voice in Skype for Business Server 2015
-[]
+ 
 A summary of the Enterprise Voice components in Skype for Business Server.
   
 To deploy Enterprise Voice, the following components are required in your topology. 

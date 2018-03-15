@@ -15,7 +15,7 @@ description: "You right click on Office Web Apps Servers in Topology Builder to 
 ---
 
 # Office Web Apps Server Scope Node Expander
-[]
+ 
 You right click on **Office Web Apps Servers** in Topology Builder to perform the following:
   
 - **New Office Web Apps Server**: Starts the **Define New Office Web Apps Server** wizard used to define a new Office Web Apps Server.

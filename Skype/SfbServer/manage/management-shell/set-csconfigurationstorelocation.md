@@ -13,7 +13,7 @@ description: "Sets the Active Directory service control point for the Central Ma
 ---
 
 # Set-CsConfigurationStoreLocation
-[]
+ 
 Sets the Active Directory service control point for the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

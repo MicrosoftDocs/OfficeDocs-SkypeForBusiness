@@ -15,8 +15,8 @@ description: "Summary: Learn about the new Skype for Business and the steps you 
 ---
 
 # Plan the Skype for Business client experience for your users
-[]
- **Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
+ 
+**Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
   
 The April 14th, 2015 Office Update for Lync 2013 includes the new Skype for Business user interface. This update enables administrators to control the look and feel of the client and choose whether to retain the Lync 2013 client experience or use the improved Skype for Business client experience. The Skype for Business client effectively replaced the Lync 2013 client, and added the ability for administrators to choose between the existing Lync client experience and the new Skype for Business client experience. For information about this update, see [April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
@@ -68,9 +68,9 @@ Follow the steps in this section if you want to configure the Skype client exper
   
  **Step 1:** First, make sure you are running a version of Lync Server that supports the client policy settings.
   
-- **Lync Server 2013** - You must be running the December 2014 Cumulative Update (5.0.8308.857) for Lync Server 2013 or a later update. For information, see[Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- **Lync Server 2013** - You must be running the December 2014 Cumulative Update (5.0.8308.857) for Lync Server 2013 or a later update. For information, see [Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
-- **Lync Server 2010** - You must be running the February 2015 Cumulative Update (4.0.7577.710) for Lync Server 2010 or a later update. For information, see[Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
+- **Lync Server 2010** - You must be running the February 2015 Cumulative Update (4.0.7577.710) for Lync Server 2010 or a later update. For information, see [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
  **Step 2:** Next, use a client policy to set the Skype client experience with the Skype for Business client. There are **3 options** for using a client policy to set the client experience.
   
@@ -105,9 +105,9 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 
 This is the default experience when the Skype for Business client is deployed in an on-premises Lync Server deployment. You don't need to configure any client policies to use the Lync client experience, but you may want to control the first run behavior for the client. By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users that requests that they restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client, see one of the following topics:
   
-- ** Lync Server 2013**, see [Configure the client experience with Skype for Business in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
+- **Lync Server 2013**, see [Configure the client experience with Skype for Business in Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
     
-- **Lync Server 2010** see[Configure the client experience with Skype for Business in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync Server 2010** see [Configure the client experience with Skype for Business in Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
     
 ## Use the Lync client experience with Skype for Business Server on-premises
 <a name="LyncwithSfBServer"> </a>
@@ -144,7 +144,7 @@ Then assign the policy to users, using the name of the policy (the value you use
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **Step 3: Optional** - By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users asking them to restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial, by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client see[Configure the client experience with Skype for Business](../../deploy-1/deploy-clients/configure-the-client-experience.md).
+ **Step 3: Optional** - By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users asking them to restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial, by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client see [Configure the client experience with Skype for Business](../../deploy-1/deploy-clients/configure-the-client-experience.md).
   
  **Step 4:** After you've configured your client policies, deploy the Skype for Business client, build 4711.1002 (April, 2015) or later.
   

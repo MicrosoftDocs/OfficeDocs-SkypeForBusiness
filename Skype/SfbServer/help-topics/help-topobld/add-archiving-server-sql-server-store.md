@@ -15,7 +15,7 @@ description: "Archiving Server requires a supported 64-bit edition of the SQL Se
 ---
 
 # Add Archiving Server SQL Server Store
-[]
+ 
 Archiving Server requires a supported 64-bit edition of the SQL Server database software to store the archive data. You can either select a previously defined SQL Server database to be used for archiving or define a new SQL Server database by specifying a fully qualified domain name (FQDN) of the server on which the SQL Server database will reside, and the instance of SQL Server that you want to use for the new SQL Server database (which can be the default instance or a named instance that you specify).
   
 > [!NOTE]

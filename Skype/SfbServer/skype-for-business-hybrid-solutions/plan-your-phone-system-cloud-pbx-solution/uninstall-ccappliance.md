@@ -13,7 +13,7 @@ description: "The Uninstall-CcAppliance cmdlet uninstalls the running Skype for 
 ---
 
 # Uninstall-CcAppliance
-[]
+ 
 The Uninstall-CcAppliance cmdlet uninstalls the running Skype for Business Cloud Connector Edition appliance from the host server. 
   
 ```

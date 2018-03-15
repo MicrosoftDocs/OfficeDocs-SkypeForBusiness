@@ -13,7 +13,7 @@ description: "Creates a new network site for use with call admission control (CA
 ---
 
 # New-CsNetworkSite
-[]
+ 
 Creates a new network site for use with call admission control (CAC) or Enhanced 9-1-1 (E9-1-1). This cmdlet was introduced in Lync Server 2010.
   
 ```

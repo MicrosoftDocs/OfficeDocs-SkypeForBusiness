@@ -13,7 +13,7 @@ description: "Removes a SIP domain previously configured for use in your organiz
 ---
 
 # Remove-CsSipDomain
-[]
+ 
 Removes a SIP domain previously configured for use in your organization. SIP domains are domains authorized to send and receive SIP traffic, and are used when assigning SIP addresses to users. This cmdlet was introduced in Lync Server 2010.
   
 ```

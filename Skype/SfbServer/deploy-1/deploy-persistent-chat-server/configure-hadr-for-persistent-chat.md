@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure high availabili
 ---
 
 # Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.
   
 Skype for Business Server supports multiple modes of high availability for your Back End Servers, including database mirroring. For more information, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   

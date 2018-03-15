@@ -15,7 +15,7 @@ description: "Choosing your service provider for an E9-1-1 deployment in Skype f
 ---
 
 # Choose an E9-1-1 service provider for Skype for Business Server 2015
-[]
+ 
 Choosing your service provider for an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   
 The E9-1-1 service provider routes emergency calls originating from Skype for Business Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call. 

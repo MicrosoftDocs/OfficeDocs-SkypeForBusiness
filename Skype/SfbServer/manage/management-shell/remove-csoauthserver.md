@@ -13,7 +13,7 @@ description: "Removes an existing Open Authorization (OAuth) server. OAuth serve
 ---
 
 # Remove-CsOAuthServer
-[]
+ 
 Removes an existing Open Authorization (OAuth) server. OAuth servers, also known as security token servers, issue security tokens used in server-to-server authentication and authorization. This cmdlet was introduced in Lync Server 2013.
   
 ```

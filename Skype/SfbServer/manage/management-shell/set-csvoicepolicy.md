@@ -13,7 +13,7 @@ description: "Modifies an existing voice policy. This cmdlet was introduced in L
 ---
 
 # Set-CsVoicePolicy
-[]
+ 
 Modifies an existing voice policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

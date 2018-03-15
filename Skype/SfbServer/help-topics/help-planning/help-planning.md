@@ -12,7 +12,7 @@ description: "Insert introduction here."
 ---
 
 # Help-Planning
-[]
+ 
 Insert introduction here.
   
 ## Section Heading

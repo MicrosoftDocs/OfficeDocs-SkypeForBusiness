@@ -13,7 +13,7 @@ description: "Get-CsWindowsService returns detailed information about Skype for 
 ---
 
 # Get-CsWindowsService
-[]
+ 
  **Get-CsWindowsService** returns detailed information about Skype for Business Server 2015 components that run as Windows services. This cmdlet was introduced in Lync Server 2010.
   
 ```

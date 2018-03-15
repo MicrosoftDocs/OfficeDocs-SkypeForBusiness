@@ -14,7 +14,7 @@ description: "This topic discusses planning considerations for using Skype for B
 ---
 
 # Plan for Skype for Business in VDI environments
-[]
+ 
 This topic discusses planning considerations for using Skype for Business while connecting to a remote virtual desktop. 
   
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Their users do their work on a virtual desktop with all their desktop applications and files using Remote Desktop Services or a similar remote connection. Using Skype for Business with full audio and video on a connection like that requires heavy loads of audio and video processing on the client homed on a virtual desktop. Additional VDI plug-in software is available that offloads that processing to the end user's local machine, and reduces the load on the virtual desktop.
@@ -85,7 +85,7 @@ Review the following links for more information:
     
 - Citrix Knowledge Center article [CTX138408](https://support.citrix.com/article/CTX138408)
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or[Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). This plugin is supported with the Skype for Business 2015 client, despite the name.
   
 ### Supported virtualization technologies and known limitations
 <a name="Supported_virt"> </a>
@@ -96,7 +96,7 @@ The Lync VDI plug-in allows audio and video calling for supported virtualization
 
 The Lync VDI plug-in supports full desktop remote sessions in the personal virtual desktop scenario, but not in the remote desktop session scenario. These scenarios can be described as follows:
   
-- **Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).** In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions. Microsoft Remote Desktop Services and VMware Horizon View are example implementations that have been tested for use with Skype for Business 2015. Other implementations undergoing validation include Citrix XenDesktop. For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see[Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
+- **Supported: Personalized Virtual Desktops or Virtual Desktop Infrastructure (VDI).** In this scenario, each user logs on to a customizable virtual desktop and is able to save files on the desktop that persist across sessions. Microsoft Remote Desktop Services and VMware Horizon View are example implementations that have been tested for use with Skype for Business 2015. Other implementations undergoing validation include Citrix XenDesktop. For information about vendor-specific VDI environments and client hardware that have been tested by Microsoft, see [Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
     
 - **Not supported: Remote Desktop Sessions.** In this scenario, each user logs on to a generic virtual desktop session that can't be customized. Examples include Microsoft Remote Desktop Sessions (RDSH) and Citrix XenApp combined with Citrix Receiver.
     
@@ -110,7 +110,7 @@ The Lync VDI plug-in was designed to use platform-independent APIs called Dynami
 In a VDI environment, the virtual machines and the user's local computer must meet the requirements outlined in this section.
   
 > [!NOTE]
->  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library:> [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514)> [Remote Desktop Services](https://go.microsoft.com/fwlink/p/?linkid=247513) in Windows Server 2008 R2
+>  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Remote Desktop Services in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 Virtual machines must be configured with Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.
   
@@ -126,7 +126,7 @@ The user's local computer must meet the following requirements:
     
 - On the local computer, the remote desktop client settings must be configured so that audio plays on the local computer and remote recording is disabled. To configure these settings for Remote Desktop Connection in Windows, see the next section, "To configure Remote Desktop Connection settings." 
     
-The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or[Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
+The Microsoft VDI plugin is available at [Microsoft Lync VDI 2013 plugin (32 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) or [Microsoft Lync VDI 2013 plugin (64 bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
   
 #### Known Feature Limitations
 <a name="VDI_prereq"> </a>
@@ -158,8 +158,6 @@ The Lync VDI plug-in is not supported in an Office 365 environment.
   
 ## See also
 <a name="Citrix_RT"> </a>
-
-#### 
 
 [Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

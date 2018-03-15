@@ -15,7 +15,7 @@ description: "You define a new Edge Server or Edge pool and are presented with t
 ---
 
 # Add Edge Server Options for Lync Server 2010
-[]
+ 
 You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool. The options that you can choose are:
   
 - **Use a single FQDN and IP address**: Select the check box to use a single IPv4 or IPv6 (if you choose to use both IPv4 and IPv6, then you will need to define one of each IP address type) address and fully qualified domain name (FQDN) for the external Edge interfaces. 

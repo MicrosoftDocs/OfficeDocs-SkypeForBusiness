@@ -13,7 +13,7 @@ description: "Returns information about the audio conferencing providers authori
 ---
 
 # Get-CsAudioConferencingProvider
-[]
+ 
 Returns information about the audio conferencing providers authorized for use in the organization. Audio conferencing providers are a third-party companies that provide organizations with conferencing services. 
   
 The **Get-CsAudioConferencingProvider** cmdlet can only be used with Microsoft Lync Online.

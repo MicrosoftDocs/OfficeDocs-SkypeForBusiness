@@ -13,7 +13,7 @@ description: "The UserStatistics table is a supporting table. Each record in the
 ---
 
 # UserStatistics table
-[]
+ 
 The UserStatistics table is a supporting table. Each record in the table stores information about an individual user's usage of the system. This table was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

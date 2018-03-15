@@ -13,8 +13,8 @@ description: "Summary: Learn about the Unified Communications Web API (UCWA) in 
 ---
 
 # UCWA events in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
   
 Skype for Business Server 2015 uses the Unified Communications Web API (UCWA) for a number of purposes, from accessing Microsoft Exchange for contact searches to updating presence for mobile clients.
   

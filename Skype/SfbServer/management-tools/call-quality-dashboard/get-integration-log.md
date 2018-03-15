@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Integration Log operation, which is p
 ---
 
 # Get Integration Log
-[]
- **Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Integration Log operation is part of the Data API for Call Quality Dashboard
   
@@ -25,9 +25,8 @@ Get Integration Log operation returns a list of log entries describing the activ
   
 This operation is disabled by default for security reasons. When disabled, it returns an empty string. To enable this operation, administrators need to configure the web.config for Data API's host web application.
   
-|
-|
-|**Method**|**Request URI**|**HTTP Version**|
+
+|Method|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

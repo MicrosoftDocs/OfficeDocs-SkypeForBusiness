@@ -15,7 +15,7 @@ description: "Plan for PSTN connectivity in Enterprise Voice in Skype for Busine
 ---
 
 # Plan for PSTN connectivity in Skype for Business Server 2015
-[]
+ 
 Plan for PSTN connectivity in Enterprise Voice in Skype for Business Server.
   
 An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS). Users who place and receive calls should not be aware of the underlying technology: from the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another phone call.

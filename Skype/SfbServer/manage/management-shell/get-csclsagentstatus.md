@@ -13,7 +13,7 @@ description: "Use the Get-CsClsAgentStatus to return information about the ClsAg
 ---
 
 # Get-CsClsAgentStatus
-[]
+ 
 Use the **Get-CsClsAgentStatus** to return information about the ClsAgent service on the local machine.
   
 ```

@@ -13,7 +13,7 @@ description: "The call detail recording (CDR) database schema consists of the fo
 ---
 
 # List of CDR tables in Skype for Business Server 2015
-[]
+ 
 The call detail recording (CDR) database schema consists of the following tables. 
   
 ## Static Tables

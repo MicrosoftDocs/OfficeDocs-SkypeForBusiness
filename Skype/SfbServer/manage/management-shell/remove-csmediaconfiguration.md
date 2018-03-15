@@ -13,7 +13,7 @@ description: "Removes the specified collection of media configuration settings. 
 ---
 
 # Remove-CsMediaConfiguration
-[]
+ 
 Removes the specified collection of media configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

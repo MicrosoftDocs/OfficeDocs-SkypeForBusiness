@@ -13,7 +13,7 @@ description: "Modifies the properties of one or more Directors. Directors can be
 ---
 
 # Set-CsDirector
-[]
+ 
 Modifies the properties of one or more Directors. Directors can be used to authenticate user requests, but do not host user accounts. This cmdlet was introduced in Lync Server 2010.
   
 ```

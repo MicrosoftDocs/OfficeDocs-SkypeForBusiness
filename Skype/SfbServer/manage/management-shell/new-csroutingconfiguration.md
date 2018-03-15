@@ -13,7 +13,7 @@ description: "This cmdlet returns an object containing the default settings for 
 ---
 
 # New-CsRoutingConfiguration
-[]
+ 
 This cmdlet returns an object containing the default settings for a routing configuration object. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -44,7 +44,7 @@ The only exception to this is if you specify the InMemory parameter in the call 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _Identity_ <br/> |Required  <br/> |Microsoft.Rtc.Management.Xds.XdsIdentity  <br/> |The scope of the routing configuration. This value must be Global.  <br/> |
-| _CallViaWorkCallerId_ <br/> |Optional  <br/> |System.String  <br/> |The number the system will display for the callback portion of an external call. External calls first connect the user making the call by calling a specified number (typically the user's desk phone), once connected to the user, the system dials the outside number. The  _CallViaWorkCallerId_ parameter specifies the number that will be displayed during the first leg, or callback segment, of the call via work external call. For more information, see[New-CsCallViaWorkPolicy](new-cscallviaworkpolicy.md).  <br/> |
+| _CallViaWorkCallerId_ <br/> |Optional  <br/> |System.String  <br/> |The number the system will display for the callback portion of an external call. External calls first connect the user making the call by calling a specified number (typically the user's desk phone), once connected to the user, the system dials the outside number. The  _CallViaWorkCallerId_ parameter specifies the number that will be displayed during the first leg, or callback segment, of the call via work external call. For more information, see [New-CsCallViaWorkPolicy](new-cscallviaworkpolicy.md).  <br/> |
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _EnableLocationBasedRouting_ <br/> |Optional  <br/> |System.Boolean  <br/> |When set to True, voice routing will be managed by taking into account the location of both the user placing the call and the user receiving the call. The default value is False.  <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses any confirmation prompts that would otherwise be displayed before making changes.  <br/> |

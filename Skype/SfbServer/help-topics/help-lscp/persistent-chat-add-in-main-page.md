@@ -15,7 +15,7 @@ description: "You can use the Add-in section of the Persistent Chat page to asso
 ---
 
 # Persistent Chat Add-in Main Page
-[]
+ 
 You can use the **Add-in** section of the **Persistent Chat** page to associate URLs with Persistent Chat rooms. These URLs appear in the client in the chat room in the conversation extensibility pane. An administrator must add Add-ins to the list of registered add-ins, and chat room managers/Creators must associate rooms with one of the registered add-ins before users can see this upgrade in their client.
   
 Add-ins are used to extend the in-room experience. A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane. Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."
@@ -34,7 +34,7 @@ The following lists describe the menus, command, fields, and properties on the p
   
 1. From a user account that is assigned to the CsPersistentChatAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
     
-2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start control panel, see[Open Lync Server Administrative Tools](http://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
+2. From the **Start** menu, select the Skype for Business Server Control Panel or open a browser window, and then enter the Admin URL. For details about the different methods that you can use to start control panel, see [Open Lync Server Administrative Tools](http://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
     
 3. In the left navigation bar, click **Persistent Chat**, and then click **Add-in**.
     

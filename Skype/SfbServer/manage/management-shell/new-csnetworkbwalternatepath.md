@@ -13,7 +13,7 @@ description: "Creates new settings that define whether media can be routed to al
 ---
 
 # New-CsNetworkBWAlternatePath
-[]
+ 
 Creates new settings that define whether media can be routed to alternate paths through the Internet for bandwidth-constrained connections. This cmdlet was introduced in Lync Server 2010.
   
 ```

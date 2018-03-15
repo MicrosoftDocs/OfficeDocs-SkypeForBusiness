@@ -13,7 +13,7 @@ description: "Returns information about the presence providers configured for us
 ---
 
 # Get-CsPresenceProvider
-[]
+ 
 Returns information about the presence providers configured for use in the organization. Presence providers represent the PresenceProviders property of a collection of user services configuration settings. This cmdlet was introduced in Lync Server 2013.
   
 ```

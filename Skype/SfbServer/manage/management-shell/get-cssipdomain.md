@@ -13,7 +13,7 @@ description: "Returns information about the SIP domains configured for use in yo
 ---
 
 # Get-CsSipDomain
-[]
+ 
 Returns information about the SIP domains configured for use in your organization. SIP domains are domains authorized to send and receive SIP traffic, and are used when assigning SIP addresses to users. This cmdlet was introduced in Lync Server 2010.
   
 ```

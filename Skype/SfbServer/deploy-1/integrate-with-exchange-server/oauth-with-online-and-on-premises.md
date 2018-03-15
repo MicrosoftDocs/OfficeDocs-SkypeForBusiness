@@ -14,7 +14,7 @@ description: "Configuring OAuth authentication between Exchange on premises and 
 ---
 
 # Configure OAuth between Skype for Business Online and Exchange on premises
-[]
+ 
 Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in [Feature support](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
   
 This topic applies to Exchange Server 2016 and Exchange Server 2013.
@@ -23,7 +23,7 @@ This topic applies to Exchange Server 2016 and Exchange Server 2013.
 
 - Estimated time to complete this task: 15 minutes
     
--  You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the[Exchange and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) topic.
+-  You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the [Exchange and Shell infrastructure permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) topic.
     
 - For information about keyboard shortcuts that may apply to the procedures in this topic, see [Keyboard shortcuts in the Exchange admin center]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
     

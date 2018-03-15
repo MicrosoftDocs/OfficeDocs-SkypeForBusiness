@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Certificate Authority Account)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To submit a request, your certification authority (CA) may require
 ---
 
 # Certificate Request (Certificate Authority Account)
-[]
+ 
 To submit a request, your certification authority (CA) may require credentials other than the ones for the user that you are currently logged in as. To allow a certificate request as a different user, select the check box **Specify alternate credentials for the certification authority**, and then type the user name or  _domain_\ _username_ for a user who can request the certificate. In the **Password** text box, type the password for the user that you specified. The user name and password are then sent as part of the certificate request process, but not in the actual certificate request, to an online CA.
   
 

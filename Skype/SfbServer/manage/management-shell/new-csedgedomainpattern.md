@@ -13,7 +13,7 @@ description: "Used to specify a domain that will be added or removed from the se
 ---
 
 # New-CsEdgeDomainPattern
-[]
+ 
 Used to specify a domain that will be added or removed from the set of domains enabled for federation or the set of domains disabled for federation. You must use the **New-CsEdgeDomainPattern** cmdlet when modifying the allowed or blocked domain lists. String values (such as "fabrikam.com") cannot be directly passed to the cmdlets used to manage either of these lists.
   
 The **New-CsEdgeDomainPattern** cmdlet can only be used with Lync Online.

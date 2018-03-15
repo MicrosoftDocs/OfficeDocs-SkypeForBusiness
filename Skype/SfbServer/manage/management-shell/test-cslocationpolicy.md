@@ -13,7 +13,7 @@ description: "Runs a test to determine the location policy that will be used bas
 ---
 
 # Test-CsLocationPolicy
-[]
+ 
 Runs a test to determine the location policy that will be used based on the criteria specified in the parameter values. The location policy contains the settings that will determine whether and how Enhanced 9-1-1 (E9-1-1) will be applied. E9-1-1 enables those who answer 911 emergency calls to determine the caller's geographic location. This cmdlet was introduced in Lync Server 2010.
   
 ```

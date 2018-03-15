@@ -13,7 +13,7 @@ description: "The ConferenceSessionDetails view stores information about multipa
 ---
 
 # ConferenceSessionDetails view
-[]
+ 
 The ConferenceSessionDetails view stores information about multiparty sessions. Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

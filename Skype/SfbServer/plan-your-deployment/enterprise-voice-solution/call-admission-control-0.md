@@ -15,7 +15,7 @@ description: "Learn about call admission control, which can prevent calls from t
 ---
 
 # Plan for call admission control in Skype for Business Server 2015
-[]
+ 
 Learn about call admission control, which can prevent calls from taking place if they would have poor media quality, in Skype for Business Server Enterprise Voice.
   
 For IP-based applications such as telephony, video, and application sharing, the available bandwidth of enterprise networks is not generally considered to be a limiting factor within LAN environments. However, on WAN links that interconnect sites, network bandwidth can be limited. 
@@ -175,7 +175,7 @@ CAC bandwidth policies can define any or all of the following:
 > All CAC bandwidth values represent the maximum  *unidirectional*  bandwidth limits.
   
 > [!NOTE]
-> The Skype for Business Server Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). After the session is established, the bandwidth consumption will be accurately accounted for. This setting should be used sparingly. For details, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or[Modify a Voice Policy and Configure PSTN Usage Records](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
+> The Skype for Business Server Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). After the session is established, the bandwidth consumption will be accurately accounted for. This setting should be used sparingly. For details, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
   
 To optimize bandwidth utilization on a per-session basis, consider the type of audio and video codecs that will be used. In particular, avoid allocating insufficient bandwidth for a codec that you expect to be used frequently. Conversely, if you want to prevent media from using a codec that requires more bandwidth, you should set the maximum bandwidth per session low enough to discourage such use. For audio, not every codec is available for every scenario. For example:
   

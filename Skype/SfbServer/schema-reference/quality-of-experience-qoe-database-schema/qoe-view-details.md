@@ -13,7 +13,7 @@ description: "Views cover the most common scenarios for returning data from the 
 ---
 
 # QoE view details
-[]
+ 
 Views cover the most common scenarios for returning data from the QoE SQL database. It is recommended views used for building custom reports instead of directly accessing the database tables; that's because views are more likely to maintain backwards compatibility with future releases.
   
 |**View Name**|**Description**|

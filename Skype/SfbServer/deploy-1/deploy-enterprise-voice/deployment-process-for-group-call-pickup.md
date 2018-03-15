@@ -15,7 +15,7 @@ description: "Deployment process and steps for Group Call Pickup in Skype for Bu
 ---
 
 # Deployment process for Group Call Pickup in Skype for Business 2015
-[]
+ 
 Deployment process and steps for Group Call Pickup in Skype for Business Server Enterprise Voice.
   
 Group Call Pickup enables users to answer incoming calls to their colleagues from their own phones. 

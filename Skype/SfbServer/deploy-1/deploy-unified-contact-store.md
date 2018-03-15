@@ -13,8 +13,8 @@ description: "Summary: Enable the unified contact store in Skype for Business Se
 ---
 
 # Deploy unified contact store in Skype for Business Server 2015
-[]
- **Summary:** Enable the unified contact store in Skype for Business Server 2015 .
+ 
+**Summary:** Enable the unified contact store in Skype for Business Server 2015 .
   
 Enabling unified contact store in Skype for Business Server 2015 does not require any topology settings. To enable unified contact store for users:
   
@@ -37,54 +37,54 @@ When you deploy Skype for Business Server 2015 and publish the topology, unified
     
 2. Do any of the following:
     
-  - To enable unified contact store globally for all Skype for Business Server users, inter the following cmdlet at the Windows PowerShell command-line interface:
+   - To enable unified contact store globally for all Skype for Business Server users, inter the following cmdlet at the Windows PowerShell command-line interface:
     
-  ```
-  Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
-  ```
+   ```
+   Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
+   ```
 
-  - To enable unified contact store for the users at a specific site, at the prompt, type:
+   - To enable unified contact store for the users at a specific site, at the prompt, type:
     
-  ```
-  New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
-  ```
+   ```
+   New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
+   ```
 
-    For example:
+   For example:
     
-  ```
-  New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
-  ```
+   ```
+   New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
+   ```
 
-  - To enable unified contact store by tenant, at the prompt, type:
+   - To enable unified contact store by tenant, at the prompt, type:
     
-  ```
-  Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
-  ```
+   ```
+   Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
+   ```
 
-    For example:
+   For example:
     
-  ```
-  Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
-  ```
+   ```
+   Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
+   ```
 
-  - To enable unified contact store for specific users, at the prompt, type:
+   - To enable unified contact store for specific users, at the prompt, type:
     
-  ```
-  New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
-Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
+   ```
+   New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
+   Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
 
-  ```
+   ```
 
     > [!NOTE]
     > You can also use user alias or SIP URI instead of the user display name. 
   
     For example:
     
-  ```
-  New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
-Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
+   ```
+   New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
+   Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
 
-  ```
+   ```
 
     > [!NOTE]
     > In the preceding example, the first command creates a new per-user policy named UCS Enabled Users with the UcsAllowed flag set to True. The second command assigns the policy to the user with the display name Ken Myer, which means that Ken Myer is now enabled for unified contact store.

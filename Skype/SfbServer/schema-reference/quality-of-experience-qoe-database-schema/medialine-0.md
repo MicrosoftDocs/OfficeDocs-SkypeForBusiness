@@ -13,7 +13,7 @@ description: "Each record represents one media line. (One audio session usually 
 ---
 
 # MediaLine table
-[]
+ 
 Each record represents one media line. (One audio session usually contains one audio media line. One audio and video (A/V) session usually contains one audio media line and one video media line, although the session might contain two video media lines if a conferencing device is used or if Gallery View is used.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

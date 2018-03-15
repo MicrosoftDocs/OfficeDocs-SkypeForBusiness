@@ -13,7 +13,7 @@ description: "Retrieves one or more network switches from the location configura
 ---
 
 # Get-CsLisSwitch
-[]
+ 
 Retrieves one or more network switches from the location configuration database. Each switch can be associated with a location, in which case this cmdlet will also retrieve the location information of the switches. This location association is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010.
   
 ```

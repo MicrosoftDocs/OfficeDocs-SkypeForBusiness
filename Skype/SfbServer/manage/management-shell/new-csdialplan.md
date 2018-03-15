@@ -13,7 +13,7 @@ description: "Creates a new dial plan. This cmdlet was introduced in Lync Server
 ---
 
 # New-CsDialPlan
-[]
+ 
 Creates a new dial plan. This cmdlet was introduced in Lync Server 2010.
   
 ```

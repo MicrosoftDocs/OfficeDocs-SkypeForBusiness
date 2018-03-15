@@ -13,7 +13,7 @@ description: "Returns information about the proxy server configuration settings 
 ---
 
 # Get-CsProxyConfiguration
-[]
+ 
 Returns information about the proxy server configuration settings currently in use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

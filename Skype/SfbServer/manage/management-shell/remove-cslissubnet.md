@@ -13,7 +13,7 @@ description: "Removes a Location Information Server (LIS) subnet. This cmdlet wa
 ---
 
 # Remove-CsLisSubnet
-[]
+ 
 Removes a Location Information Server (LIS) subnet. This cmdlet was introduced in Lync Server 2010.
   
 ```

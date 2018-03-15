@@ -15,8 +15,8 @@ description: "Summary: Review this topic while planning to integrate Skype for B
 ---
 
 # Plan for Video Interop Server in Skype for Business Server 2015
-[]
- **Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with third-party teleconferencing devices.
+ 
+**Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with third-party teleconferencing devices.
   
 Skype for Business Server now allows you to integrate with certain third-party VTC (Video Teleconferencing System) solutions. The new server role that enables this video conferencing interoperability is the Video Interop Server (VIS), which is currently implemented as a standalone server role available only for on-premises installations. A VIS acts as an intermediary between a third party teleconference system and a Skype for Business Server deployment. For this release, VIS is focused on interoperability with Cisco/Tandberg video systems. Review this article to determine whether to use this feature in your Skype for Business Server installation.
   

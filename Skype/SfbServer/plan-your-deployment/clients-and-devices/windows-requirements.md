@@ -16,8 +16,8 @@ description: "Summary: Review the Windows client support requirements while plan
 ---
 
 # Windows client requirements and software support
-[]
- **Summary:** Review the Windows client support requirements while planning Skype for Business Server 2015.
+ 
+**Summary:** Review the Windows client support requirements while planning Skype for Business Server 2015.
   
 This section summarizes software required to support the Skype for Business 2015 and 2016 Windows clients.
   
@@ -28,13 +28,12 @@ These clients are installed when Office 365 installs, and are also available at 
   
 **Software Required for Skype for Business and the Online Meeting Add-in for Skype for Business**
 
-|
-|
+
 |**System component**|**Supported versions**|
 |:-----|:-----|
 |Windows Operating system  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 operating system  <br/> Windows Server 2008 R2 with latest service pack  <br/> **Note:** Skype for Business and the Online Meeting Add-in for Skype for Business are not supported on Windows Vista or Windows XP (any version). <br/> |
 |Installation and updates  <br/> |Administrator rights and permissions  <br/> |
-|Browser  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10 Internet browser <br/> Internet Explorer 9 Internet browser  <br/> Internet Explorer 8 Internet browser  <br/> Internet Explorer 7 Internet browser  <br/> Mozilla Firefox web browser  <br/> > [!NOTE]> If you are using Skype for Business with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 8 or later is required.           |
+|Browser  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10 Internet browser <br/> Internet Explorer 9 Internet browser  <br/> Internet Explorer 8 Internet browser  <br/> Internet Explorer 7 Internet browser  <br/> Mozilla Firefox web browser  <br/> **Note:** If you are using Skype for Business with Microsoft Exchange Online and your organization has deployed an authenticating HTTP proxy, Internet Explorer 8 or later is required.           |
 |Microsoft Office Integration  <br/> |For the full set of integration features:  <br/> • Outlook 2016 messaging and collaboration client  <br/> • Outlook 2013 messaging and collaboration client  <br/> • Outlook 2010 messaging and collaboration client  <br/> |
 |Microsoft Exchange Integration  <br/> |• Microsoft Exchange Server 2016  <br/> • Microsoft Exchange Server 2013  <br/> • Microsoft Exchange Server 2010  <br/> |
    

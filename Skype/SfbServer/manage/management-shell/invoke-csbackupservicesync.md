@@ -13,7 +13,7 @@ description: "Manually invokes backup synchronization between a Skype for Busine
 ---
 
 # Invoke-CsBackupServiceSync
-[]
+ 
 Manually invokes backup synchronization between a Skype for Business Server 2015 pool and its designated backup pool. This allows administrators to synchronize data without waiting for Skype for Business Server 2015 replication. This cmdlet was introduced in Lync Server 2013.
   
 ```

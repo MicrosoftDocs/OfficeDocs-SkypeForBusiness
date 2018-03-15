@@ -13,7 +13,7 @@ description: "Retrieves one or more hosted Exchange Unified Messaging (UM) conta
 ---
 
 # Get-CsExUmContact
-[]
+ 
 Retrieves one or more hosted Exchange Unified Messaging (UM) contact objects. This cmdlet was introduced in Lync Server 2010.
   
 > [!NOTE]

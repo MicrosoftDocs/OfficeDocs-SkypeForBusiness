@@ -13,7 +13,7 @@ description: "Creates a new certificate ID object based on an existing certifica
 ---
 
 # New-CsWebTrustedCACertificate
-[]
+ 
 Creates a new certificate ID object based on an existing certification authority (CA) certificate. This cmdlet was introduced in Lync Server 2010.
   
 ```

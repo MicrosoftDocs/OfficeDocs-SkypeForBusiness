@@ -13,7 +13,7 @@ description: "Read this topic to learn how to set up Skype Room System for Skype
 ---
 
 # Skype Room System and Skype for Business federated partners
-[]
+ 
 Read this topic to learn how to set up Skype Room System for Skype for Business federated partners.
   
 ## Skype Room System and Skype for Business federated partners
@@ -24,11 +24,7 @@ The reason for this limitation is that Outlook and Microsoft Exchange do not use
   
 ```
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
-
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
-
 ```
 
 After TNEF is enabled for the remote organization, any message sent over the Internet to the organization is sent as an attachment in TNEF format. With TNEF enabled, when a Skype for Business meeting request is sent to the Skype for Business federated partner, Skype Room System will be able to render the Join Skype for Business Meeting and remote users will be able to join Skype for Business meetings. 
-  
-

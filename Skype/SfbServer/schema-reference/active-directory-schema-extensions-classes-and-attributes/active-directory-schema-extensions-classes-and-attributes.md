@@ -13,7 +13,7 @@ description: "This reference section includes the following information:"
 ---
 
 # Active Directory schema extensions, classes, and attributes
-[]
+ 
 This reference section includes the following information: 
   
 - Active Directory schema extensions that are new or changed for Skype for Business Server

@@ -13,7 +13,7 @@ description: "Enables you to modify the culture (that is, the language and regio
 ---
 
 # Set-CsUICulture
-[]
+ 
 Enables you to modify the culture (that is, the language and regional settings) used by the Skype for Business Server Management Shell. This cmdlet was introduced in Lync Server 2010.
   
 ```

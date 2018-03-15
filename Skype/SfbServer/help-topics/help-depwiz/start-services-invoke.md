@@ -1,7 +1,12 @@
 ---
 title: "Start Services (Invoke)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The summary pane on the Executing Commands pane displays the statu
 ---
 
 # Start Services (Invoke)
-[]
+ 
 The summary pane on the **Executing Commands** pane displays the status of the tasks issued to start the services for the Skype for Business Server 2015 role server that you are deploying. The summary in the task pane does not represent a real-time indication of service startup. Some of the Skype for Business Server services may take an extended time to begin the initial startup process. The tasks are issuing the command to start, but do not wait to determine if the service is successfully started. If you must monitor the service startup and service status, you should use the Windows Services Microsoft Management Console (MMC).
   
 Under the task pane is a drop-down list that displays the **Start Services** log file. To view the log file, click **View Log**. Click **Finish** to complete the task.

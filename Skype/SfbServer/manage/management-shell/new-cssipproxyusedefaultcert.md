@@ -13,7 +13,7 @@ description: "Creates an object reference to the default certificate used by Sky
 ---
 
 # New-CsSipProxyUseDefaultCert
-[]
+ 
 Creates an object reference to the default certificate used by Skype for Business Server 2015.This object reference can then be used to configure a static route to use Transport Layer Security (TLS) as its transport protocol. This cmdlet was introduced in Lync Server 2010.
   
 ```

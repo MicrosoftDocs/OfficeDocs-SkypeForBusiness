@@ -14,8 +14,8 @@ description: "Summary: Read this topic to learn about Statistics Manager for Sky
 ---
 
 # Statistics Manager for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.
+ 
+**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015, a powerful tool that allows you to view Skype for Business Server health and performance data in real time.
   
 This section contains the following topics:
   

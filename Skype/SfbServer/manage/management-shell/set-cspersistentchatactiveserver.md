@@ -13,7 +13,7 @@ description: "Manages the list of active Persistent Chat servers. An active serv
 ---
 
 # Set-CsPersistentChatActiveServer
-[]
+ 
 Manages the list of active Persistent Chat servers. An active server is Persistent Chat server (in a specified Persistent Chat service pool) that is fully operational and can accept new client connections. Servers in the pool that have not been marked as active servers might be operational, but are currently unable to accept new client connections. This cmdlet was introduced in Lync Server 2013.
   
 ```

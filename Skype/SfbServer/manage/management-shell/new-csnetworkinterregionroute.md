@@ -13,7 +13,7 @@ description: "Creates a new route that connects network regions within a call ad
 ---
 
 # New-CsNetworkInterRegionRoute
-[]
+ 
 Creates a new route that connects network regions within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

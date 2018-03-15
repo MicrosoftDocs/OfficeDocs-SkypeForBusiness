@@ -15,7 +15,7 @@ description: "Use the Select an Announcement Service dialog box to select an Ann
 ---
 
 # Select an Announcement Service
-[]
+ 
 Use the **Select an Announcement Service** dialog box to select an Announcement service that will handle incoming calls to a range of unassigned numbers.
   
 In the search box, type all or part of the name of the Announcement service that you want to use. To return all available Announcement services, leave the search box empty and click the search icon.

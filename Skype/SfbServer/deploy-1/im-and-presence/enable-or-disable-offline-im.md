@@ -13,7 +13,7 @@ description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype
 ---
 
 # Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server 2015
-[]
+ 
 Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server 2015.
   
 ## Enable Offline Instant Messaging (IM) in Skype for Business Server 2015
@@ -29,18 +29,18 @@ Offline IM is a client side feature built into Skype for Business client (2016 C
     
 2. Run the following command to enable Offline IM.
     
-  ```
-  Set-CsImConfiguration -EnableOfflineIM $True
-  ```
+   ```
+   Set-CsImConfiguration -EnableOfflineIM $True
+   ```
 
     > [!NOTE]
     > In Skype for Business Server 2015 CU3, the EnableOfflineIM option is set to $True by default. To disable, set this value to $False. 
   
 3. Run the following command to confirm the ability to store Offline IM's is set.
     
-  ```
-  Get-CsImConfiguration
-  ```
+   ```
+   Get-CsImConfiguration
+   ```
 
 ## Offline IM Integration with Exchange
 
@@ -54,9 +54,9 @@ For Offline messages sent from federated organization they will be received as a
 
 There is a two minute timer from when an offline message is sent to when it's picked up and processed. If offline messages can't be processed they will appear in the following directory: 
   
-```
-%localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
-```
+   ```
+  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
+  ```
 
 The primary Skype for Business ETL log will contain information about Offline message processing and is your best source for investigation/troubleshooting. 
   

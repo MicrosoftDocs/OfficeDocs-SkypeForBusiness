@@ -13,7 +13,7 @@ description: "Enables you to modify configuration properties of one or more serv
 ---
 
 # Set-CsApplicationServer
-[]
+ 
 Enables you to modify configuration properties of one or more servers running the Application service. These servers (also known as Application Servers) host software programs, such as the Call Park application, that were developed using the Microsoft Unified Communications Managed API (UCMA) set. This cmdlet was introduced in Lync Server 2010.
   
 ```

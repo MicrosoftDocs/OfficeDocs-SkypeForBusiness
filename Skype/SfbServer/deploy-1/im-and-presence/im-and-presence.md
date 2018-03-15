@@ -13,8 +13,8 @@ description: "Summary: Learn about deployment steps for instant messaging and pr
 ---
 
 # Deploy instant messaging and presence in Skype for Business Server 2015
-[]
- **Summary:** Learn about deployment steps for instant messaging and presence in Skype for Business Server 2015.
+ 
+**Summary:** Learn about deployment steps for instant messaging and presence in Skype for Business Server 2015.
   
 ## Deployment steps for instant messaging and presence
 

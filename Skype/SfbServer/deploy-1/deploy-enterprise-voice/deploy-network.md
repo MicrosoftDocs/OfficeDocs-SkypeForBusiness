@@ -15,7 +15,7 @@ description: "Create or modify network regions, network sites, and associate net
 ---
 
 # Deploy network regions, sites and subnets in Skype for Business 2015
-[]
+ 
 Create or modify network regions, network sites, and associate network subnets in Skype for Business Server. All these are used for the advanced Enterprise Voice features: media bypass, call admission control, and location-based routing.
   
 The advanced Enterprise Voice features are [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass-0.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), and [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). These features all require you to create network regions, network sites, and subnets. For example, all of these features require that each subnet in your topology be associated with a specific network site, and each network site must be associated with a network region. For more information on these terms, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
@@ -38,16 +38,16 @@ You may, however, need to modify an existing network region definition to apply 
     
 2. Run the New-CsNetworkRegion cmdlet to create network regions:
     
-  ```
-  New-CsNetworkRegion -Identity <String> -CentralSite <String>
-  ```
+   ```
+   New-CsNetworkRegion -Identity <String> -CentralSite <String>
+   ```
 
     For example:
     
-  ```
-  New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
+   ```
+   New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-  ```
+   ```
 
     In this example, you created a network region called "NorthAmerica" that is associated with a central site with site ID CHICAGO.
     
@@ -79,16 +79,16 @@ You may, however, need to modify an existing network region definition to apply 
     
 2. Run the Set-CsNetworkRegion cmdlet to modify an existing network region:
     
-  ```
-  Set-CsNetworkRegion -Identity <String> -CentralSite <String>
-  ```
+   ```
+   Set-CsNetworkRegion -Identity <String> -CentralSite <String>
+   ```
 
     For example:
     
-  ```
-  Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
+   ```
+   Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
 
-  ```
+   ```
 
     In this example, you modified an existing network region called "NorthAmerica" (created using the procedures earlier in this topic) by changing the description. If a description existed for the "NorthAmerica" region, this command overwrites it with this value; if no description had been set, then this command sets it.
     
@@ -122,16 +122,16 @@ If you have already created network sites for one of these features, you do not 
     
 2. Run the New-CsNetworkSite cmdlet to create network sites:
     
-  ```
-  New-CsNetworkSite -NetworkSiteID <string>
-  ```
+   ```
+   New-CsNetworkSite -NetworkSiteID <string>
+   ```
 
     For example:
     
-  ```
-  New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
+   ```
+   New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
 
-  ```
+   ```
 
     In this example, you created a network site called "Chicago" that is in the "NorthAmerica" network region.
     
@@ -176,16 +176,16 @@ If you have already created network sites for one of these features, you do not 
     
 2. Run the Set-CsNetworkSite cmdlet to modify network sites:
     
-  ```
-  Set-CsNetworkSite -Identity <string>
-  ```
+   ```
+   Set-CsNetworkSite -Identity <string>
+   ```
 
     For example:
     
-  ```
-  Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
+   ```
+   Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
 
-  ```
+   ```
 
     In this example, the site called "Albuquerque" is moved to the "NorthAmerica" network region. To modify the network site configuration to deploy call admission control, E9-1-1, or media bypass, modify the network site settings by running the Set-CsNetworkSite cmdlet with the BWPolicyProfileID or LocationPolicy parameter, respectively.
     
@@ -225,15 +225,15 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
     
 2. Run the **New-CsNetworkSubnet** cmdlet to associate a subnet with a network site:
     
-  ```
-  New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
-  ```
+   ```
+   New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
+   ```
 
     For example:
-    
-  ```
-  New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
-  ```
+     
+   ```
+   New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
+   ```
 
     In this example, you created an association between the subnet 172.11.12.13 and the network site "Chicago".
     
@@ -257,9 +257,9 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
     
 3. Run the following cmdlet to import **subnet.csv**, and then store its contents in the Lync Server management store:
     
-  ```
-  import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
-  ```
+   ```
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   ```
 
 ### To associate a subnet with a network site by using Skype for Business Server Control Panel
 

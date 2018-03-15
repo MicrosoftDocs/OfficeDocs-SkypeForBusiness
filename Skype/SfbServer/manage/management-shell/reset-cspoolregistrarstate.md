@@ -14,7 +14,7 @@ description: "Resets the Registrar and Windows fabric services for the specified
 ---
 
 # Reset-CsPoolRegistrarState
-[]
+ 
 Resets the Registrar and Windows fabric services for the specified Registrar pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

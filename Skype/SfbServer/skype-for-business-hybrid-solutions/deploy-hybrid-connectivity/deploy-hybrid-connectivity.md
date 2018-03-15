@@ -20,8 +20,8 @@ description: "Summary: Read this topic to learn how to deploy hybrid connectivit
 ---
 
 # Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online
-[]
- **Summary:** Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online.
+ 
+**Summary:** Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online.
   
 Before performing the steps in this topic, you should have read [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
   

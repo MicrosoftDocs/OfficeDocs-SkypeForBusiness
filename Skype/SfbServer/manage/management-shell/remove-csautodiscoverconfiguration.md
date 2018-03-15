@@ -13,7 +13,7 @@ description: "Removes a collection of Autodiscover configuration settings. The A
 ---
 
 # Remove-CsAutodiscoverConfiguration
-[]
+ 
 Removes a collection of Autodiscover configuration settings. The Autodiscover service provides a way for client applications to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

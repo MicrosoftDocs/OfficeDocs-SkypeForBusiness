@@ -13,7 +13,7 @@ description: "Removes a trusted application from the associated trusted service.
 ---
 
 # Remove-CsTrustedApplication
-[]
+ 
 Removes a trusted application from the associated trusted service. This cmdlet was introduced in Lync Server 2010.
   
 ```

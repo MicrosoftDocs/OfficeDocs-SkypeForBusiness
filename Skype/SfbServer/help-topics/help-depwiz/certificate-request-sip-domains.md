@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (SIP Domains)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "On the SIP Domain setting on Subject Alternate Names (SANs) page, 
 ---
 
 # Certificate Request (SIP Domains)
-[]
+ 
 On the **SIP Domain setting on Subject Alternate Names (SANs)** page, you should select the check box for your primary Session Initiation Protocol (SIP) domain and any other SIP domains if your infrastructure and deployment meets the criteria listed.
   
 > [!NOTE]

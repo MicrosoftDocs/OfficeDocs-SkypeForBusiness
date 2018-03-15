@@ -15,7 +15,7 @@ description: "This node shows the server fully qualified domain name (FQDN) and 
 ---
 
 # Machine Scope Node
-[]
+ 
 This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:
   
 - **Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.

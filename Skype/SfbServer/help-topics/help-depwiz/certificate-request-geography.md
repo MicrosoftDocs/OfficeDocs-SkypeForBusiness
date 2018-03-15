@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Geography)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Geographical Information page requests additional information 
 ---
 
 # Certificate Request (Geography)
-[]
+ 
 The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.
   
 

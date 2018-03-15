@@ -15,7 +15,7 @@ description: "Summary: Learn about the things you should consider when you plan 
 ---
 
 # Plan to upgrade to Skype for Business Server 2015
-[]
+ 
 Summary: Learn about the things you should consider when you plan an upgrade to Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 As part of your plan to upgrade to Skype for Business Server 2015, use this topic to understand the recommended upgrade paths to Skype for Business Server 2015, how the In-Place Upgrade works, what the supported coexistence scenarios are, and what the upgrade process looks like.
@@ -29,10 +29,10 @@ As part of your plan to upgrade to Skype for Business Server 2015, use this topi
   
 |**Version**|**Recommendations**|
 |:-----|:-----|
-|Lync Server 2013  <br/> | To upgrade, use the Skype for Business Server Topology Builder and the new In-Place Upgrade feature on each of the servers associated with the pool. See[Plan to upgrade from Lync Server 2013 to Skype for Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) and[Upgrade to Skype for Business Server 2015](../deploy-1/upgrade-to-skype-for-business-server.md) for detailed steps. <br/> |
+|Lync Server 2013  <br/> | To upgrade, use the Skype for Business Server Topology Builder and the new In-Place Upgrade feature on each of the servers associated with the pool. see [Plan to upgrade from Lync Server 2013 to Skype for Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) and [Upgrade to Skype for Business Server 2015](../deploy-1/upgrade-to-skype-for-business-server.md) for detailed steps. <br/> |
 |Lync Server 2010 + Lync Server 2013 (dual-mode)  <br/> |First, upgrade to Lync Server 2013, and then upgrade to Skype for Business Server 2015 by using the new In-Place Upgrade feature. However, if your topology is primary Lync Server 2010 you can also roll back the Lync Server 2013 components to Lync Server 2010 and then upgrade directly to Skype for Business Server 2015. In this case you would not be able to take advantage of In-Place Upgrade and would use straight co-existence between Lync Server 2010 and Skype for Business Server 2015. Tri-existence is not supported but co-existence is supported.  <br/> |
 |Lync Server 2010  <br/> |Bring up a new Skype for Business Server 2015 pool and then migrate users to this new pool. You can then decommission the old Lync Server 2010 pool. Upgrading from Lync Server 2010 to Skype for Business Server 2015 is similar to upgrading from Lync Server 2010 to Lync Server 2013. See [Migration from Lync Server 2010 to Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
-|Office Communications Server 2007 R2  <br/> | Pick one of two options: <br/>  Set up a new Skype for Business Server 2015 environment. <br/>  Or if your hardware and software meet the requirements for Skype for Business Server 2015, upgrade to Lync Server 2013, and then upgrade to Skype for Business Server 2015 by using the new In-Place Upgrade feature. For more information, see[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md) and[Migration from Office Communications Server 2007 R2 to Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
+|Office Communications Server 2007 R2  <br/> | Pick one of two options: <br/>  Set up a new Skype for Business Server 2015 environment. <br/>  Or if your hardware and software meet the requirements for Skype for Business Server 2015, upgrade to Lync Server 2013, and then upgrade to Skype for Business Server 2015 by using the new In-Place Upgrade feature. For more information, see [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md) and [Migration from Office Communications Server 2007 R2 to Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
    
 > [!NOTE]
 > SQL Server 2014 is supported in Skype for Business Server 2015 but is not supported in Lync Server 2013. If you want to upgrade from SQL Server 2012 to SQL Server 2014 then the pool must first be upgraded to Skype for Business Server 2015 using the In-Place Upgrade method as described in this document. You can then upgrade from SQL Server 2012 to SQL Server 2014, see [Upgrade to SQL Server 2014](https://msdn.microsoft.com/en-us/library/bb677622%28v=sql.120%29.aspx). To learn more about database requirements, see [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md). 
@@ -110,7 +110,7 @@ To use this method, you move users to another pool before you start the upgrade.
 #### Move users for hardware upgrade
 <a name="bkmk_MoveUsersMethod"> </a>
 
- If your hardware doesn't meet the[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md), set up a new Skype for Business Server 2015 environment, and move users there. The following diagram shows an overview of this process for upgrade from Lync Server 2010. 
+ If your hardware doesn't meet the [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md), set up a new Skype for Business Server 2015 environment, and move users there. The following diagram shows an overview of this process for upgrade from Lync Server 2010. 
   
 ![Swim lane diagram that shows users in the Lync Server primary Front End pool being moved to Skype for Business Server 2015 and the Lync Server pool being decommissioned.](../media/5e97ced8-72f4-4925-b09d-bda28a69d448.png)
   
@@ -137,7 +137,7 @@ To use this method, you move users to another pool before you start the upgrade.
   - For non-Front End servers, use Start-CSWindowsService.
     
 > [!NOTE]
->  If you don't want to upgrade your existing Archiving and Monitoring databases, remove the dependency before you upgrade the topology. If you want to create new Archiving and Monitoring databases, during the upgrade, you can create a new SQL store and associate it with the pool. You can find the steps on how to do this in the topic,[Upgrade to Skype for Business Server 2015](../deploy-1/upgrade-to-skype-for-business-server.md). >  In-place upgrade does not support high availability or disaster recovery for Skype for Business Server. To avoid interrupting users' services, use the[Move Users method (no user downtime)](upgrade.md#bkmk_MoveUsersMethod) to upgrade.>  During the upgrade process the xds-replica is placed in the local shared folder on the disk drive with the most free space. If that disk is later removed then you can run into issues such as services not starting.
+>  If you don't want to upgrade your existing Archiving and Monitoring databases, remove the dependency before you upgrade the topology. If you want to create new Archiving and Monitoring databases, during the upgrade, you can create a new SQL store and associate it with the pool. You can find the steps on how to do this in the topic,[Upgrade to Skype for Business Server 2015](../deploy-1/upgrade-to-skype-for-business-server.md). >  In-place upgrade does not support high availability or disaster recovery for Skype for Business Server. To avoid interrupting users' services, use the [Move Users method (no user downtime)](upgrade.md#bkmk_MoveUsersMethod) to upgrade.>  During the upgrade process the xds-replica is placed in the local shared folder on the disk drive with the most free space. If that disk is later removed then you can run into issues such as services not starting.
   
 ### Upgrade order
 

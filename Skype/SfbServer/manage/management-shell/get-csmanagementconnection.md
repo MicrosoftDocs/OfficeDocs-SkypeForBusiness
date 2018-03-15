@@ -13,7 +13,7 @@ description: "Returns information about the management connection to the Central
 ---
 
 # Get-CsManagementConnection
-[]
+ 
 Returns information about the management connection to the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

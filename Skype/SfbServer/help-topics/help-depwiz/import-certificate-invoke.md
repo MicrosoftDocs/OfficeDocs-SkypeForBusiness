@@ -1,7 +1,12 @@
 ---
 title: "Import Certificate (Invoke)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "On the Executing Commands page, review the summary information for
 ---
 
 # Import Certificate (Invoke)
-[]
+ 
 On the **Executing Commands** page, review the summary information for the imported certificate. In the drop-down list, select the Import Certificate log file. Be sure that the Import Certificate log file is visible in the drop-down list. Click **View Log** to review the details of the certificate import. When you are finished reviewing the summary and the log file, click **Finish**.
   
 

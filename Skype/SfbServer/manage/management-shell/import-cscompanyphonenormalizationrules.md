@@ -13,7 +13,7 @@ description: "Use the Import-CsCompanyPhoneNormalizationRules cmdlet to import c
 ---
 
 # Import-CsCompanyPhoneNormalizationRules
-[]
+ 
 Use the **Import-CsCompanyPhoneNormalizationRules** cmdlet to import custom phone normalization rules defined in Company_Phone_Number_Normalization_Rules.txt used in previous server versions into Skype for Business Server 2015 environments.
   
 ```

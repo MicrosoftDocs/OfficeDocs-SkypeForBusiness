@@ -13,7 +13,7 @@ description: "Resets the routing configuration to its default settings. This cmd
 ---
 
 # Remove-CsRoutingConfiguration
-[]
+ 
 Resets the routing configuration to its default settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

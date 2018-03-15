@@ -14,8 +14,8 @@ description: "Summary: Learn about the Rata API for Call Quality Dashboard. Call
 ---
 
 # Data API for Call Quality Dashboard (CQD) in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Rata API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Rata API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Data API provides programmatic access for Call Quality Dashboard for Skype for Business Server 2015.
   
@@ -25,8 +25,7 @@ The Data API offers a query interface to the QoE Cube. The Data API is a REST AP
   
 The REST operations are included in the following table.
   
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get Cube](get-cube.md) <br/> |Get the list of available dimensions and measurements.  <br/> |
@@ -38,7 +37,7 @@ The REST operations are included in the following table.
    
  **Cross-Origin Resource Sharing (CORS) Support for Data API**
   
-Data API supports Cross-Origin Resource Sharing (CORS). CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain. Web browsers implement a security restriction known as [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) same-origin policy that prevents a web page from calling APIs in a different domain. CORS provides a secure way to allow one domain (the origin domain) to call APIs in another domain. See the[CORS specification](https://www.w3.org/TR/cors/) for details on CORS.
+Data API supports Cross-Origin Resource Sharing (CORS). CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain. Web browsers implement a security restriction known as [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) same-origin policy that prevents a web page from calling APIs in a different domain. CORS provides a secure way to allow one domain (the origin domain) to call APIs in another domain. See the [CORS specification](https://www.w3.org/TR/cors/) for details on CORS.
   
  **Enabling CORS for Data API**
   

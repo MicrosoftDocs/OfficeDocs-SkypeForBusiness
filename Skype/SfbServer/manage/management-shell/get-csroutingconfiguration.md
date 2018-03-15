@@ -13,7 +13,7 @@ description: "Retrieves the routing configuration object, which contains a list 
 ---
 
 # Get-CsRoutingConfiguration
-[]
+ 
 Retrieves the routing configuration object, which contains a list of all voice routes defined within a Skype for Business Server 2015 deployment. This cmdlet was introduced in Lync Server 2010.
   
 ```

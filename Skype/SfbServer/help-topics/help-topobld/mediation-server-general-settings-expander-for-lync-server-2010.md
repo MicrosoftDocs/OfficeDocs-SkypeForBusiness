@@ -15,7 +15,7 @@ description: "You edit the properties of the Mediation Servers in this dialog. A
 ---
 
 # Mediation Server General Settings Expander for Lync Server 2010
-[]
+ 
 You edit the properties of the Mediation Servers in this dialog. Along the left side is a set of quick links to take you to settings for General settings, Next hop settings, and PSTN gateway settings. In each section are the following settings:
   
  **General**:

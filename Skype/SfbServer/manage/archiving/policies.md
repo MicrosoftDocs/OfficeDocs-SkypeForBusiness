@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage user policies for archiving for Skype
 ---
 
 # Manage archiving policies in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage user policies for archiving for Skype for Business Server 2015.
+
+**Summary:** Learn how to manage user policies for archiving for Skype for Business Server 2015.
   
 You initially set up archiving policies when you deploy archiving, but you can change, add, and delete configurations after deployment. Archiving policies determine whether to archive: 
   
@@ -25,7 +25,7 @@ You initially set up archiving policies when you deploy archiving, but you can c
 Archiving policies can be set at the global, site, or user level.
   
 > [!NOTE]
-> If you enabled Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and[Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy-1/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> If you enabled Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy-1/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## Manage archiving policies by using the Control Panel
 
@@ -41,8 +41,7 @@ You can manage archiving policies by using the Control Panel as follows:
 
 You can also configure archiving policies by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
-|
-|
+
 |**Cmdlet**|**Description**|
 |:-----|:-----|
 |Get-CsArchivingPolicy  <br/> |Returns information about your organization's instant messaging (IM) sessions archiving policies.  <br/> |

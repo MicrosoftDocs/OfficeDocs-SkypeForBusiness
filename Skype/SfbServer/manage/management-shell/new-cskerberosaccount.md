@@ -13,7 +13,7 @@ description: "Creates a new Kerberos account used for Internet Information Servi
 ---
 
 # New-CsKerberosAccount
-[]
+ 
 Creates a new Kerberos account used for Internet Information Services (IIS) authentication. This cmdlet was introduced in Lync Server 2010.
   
 ```

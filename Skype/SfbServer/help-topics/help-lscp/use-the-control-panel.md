@@ -13,7 +13,7 @@ description: "For details about the different procedures that you can perform by
 ---
 
 # Use the Skype for Business Server 2015 Control Panel
-[]
+ 
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
   
 

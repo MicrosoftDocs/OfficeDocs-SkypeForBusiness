@@ -13,7 +13,7 @@ description: "Use the Remove-CsGroupPickupUserOrbit cmdlet to remove the associa
 ---
 
 # Remove-CsGroupPickupUserOrbit
-[]
+ 
 Use the **Remove-CsGroupPickupUserOrbit** cmdlet to remove the associated group pickup orbit number for an Enterprise Voice user. This effectively disables the user for group call pickup.
   
 ```

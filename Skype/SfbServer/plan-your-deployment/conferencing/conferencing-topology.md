@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about planning your conferencing
 ---
 
 # Plan your conferencing topology for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015.
   
 This topic describes topology basics for conferencing in Skype for Business Server 2015:
   
@@ -100,7 +100,7 @@ A single large meeting requires at least one Front End Server and one Back End S
   
 The user who hosts the large meetings must have their user account homed in Front End pool. However, we do not recommend that you host other user accounts in this pool. Instead, use it only for the large meetings. The best practice is to create a special user account in this pool to be used only to host large meetings. Since the large meeting setting is optimized for performance, using it as a normal user could have problems such as the inability to promote a P2P session to a meeting when a PSTN endpoint is involved.
   
-Managing a pool with exactly two Front End Servers requires some special considerations. For more information, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) and[Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
+Managing a pool with exactly two Front End Servers requires some special considerations. For more information, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) and [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
 Additionally, if you want to optionally provide disaster recovery backup and failover for the pool used for large meetings, you can pair it with a similarly set up dedicated pool in a different data center. For details, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   

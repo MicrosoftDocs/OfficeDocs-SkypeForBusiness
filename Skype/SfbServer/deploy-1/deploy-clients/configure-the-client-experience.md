@@ -13,10 +13,10 @@ description: "Summary: Read this topic to learn how to configure the client expe
 ---
 
 # Configure the client experience with Skype for Business
-[]
- **Summary:** Read this topic to learn how to configure the client experience for Skype for Business users.
+ 
+**Summary:** Read this topic to learn how to configure the client experience for Skype for Business users.
   
-Skype for Business provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/?LinkId=529022).
+Skype for Business provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Lync is now Skype for Business &#x2014; see what's new](https://go.microsoft.com/fwlink/?LinkId=529022).
   
 Skype for Business Server supports the new Skype for Business client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype for Business experience. Or, if you have not yet upgraded all users to Skype for Business Server, you might want all users to have the same client experience until all are upgraded to the new server.
   
@@ -90,7 +90,6 @@ If you want to display the Lync user interface when users launch the Skype for B
 "CanShareOneNoteInCollab"=dword:00000001
 "CanAppShareInCollab"=dword:00000001
 "EnableSkypeUI"=hex:00,00,00,00
-
   ```
 
 The Lync user interface will now be displayed when users launch the Skype for Business client for the first time.
@@ -125,8 +124,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
 
 If your organization has both Skype for Business Server and Lync Server deployed, the client experience will differ depending on server versions and the Skype UI setting. The following table shows the initial client experience based on server version and the UI setting:
   
-|
-|
+
 |**Server version**|**EnableSkypeUI setting**|**Client experience**|
 |:-----|:-----|:-----|
 |Skype for Business Server 2015  <br/> |Default  <br/> |Skype for Business  <br/> |
@@ -139,8 +137,7 @@ If your organization has both Skype for Business Server and Lync Server deployed
    
 The next table shows the client experience when the administrator changes the initial setting for the Skype UI experience:
   
-|
-|
+
 |**Server version**|**EnableSkypeUI setting**|**Client UI = Lync**|**Client UI = Skype for Business**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server 2015  <br/> |True  <br/> |User asked to switch to Skype for Business  <br/> |Skype for Business  <br/> |
@@ -179,14 +176,14 @@ The following procedure describes how to modify the registry so that the Lync cl
     
 7. On the **New Registry Properties** dialog, update the following:
     
-|**Field**|**Value to select or enter**|
-|:-----|:-----|
-|**Action** <br/> |**Create** <br/> |
-|**Hive** <br/> | HKEY_CURRENT_USER <br/> |
-|**Key Path** <br/> |Software\Microsoft\Office\Lync  <br/> |
-|**Value name** <br/> |EnableSkypeUI  <br/> |
-|**Value type** <br/> |REG_BINARY  <br/> |
-|**Value data** <br/> |00000000  <br/> |
+   |**Field**|**Value to select or enter**|
+   |:-----|:-----|
+   |**Action** <br/> |**Create** <br/> |
+   |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
+   |**Key Path** <br/> |Software\Microsoft\Office\Lync  <br/> |
+   |**Value name** <br/> |EnableSkypeUI  <br/> |
+   |**Value type** <br/> |REG_BINARY  <br/> |
+   |**Value data** <br/> |00000000  <br/> |
    
 8. Click **OK** to save your changes, and then close the GPO.
     

@@ -13,7 +13,7 @@ description: "Retrieves the backup service configuration settings for Skype for 
 ---
 
 # Get-CsBackupServiceConfiguration
-[]
+ 
 Retrieves the backup service configuration settings for Skype for Business Server 2015. These settings include information about the maximum number of simultaneous Windows Communication Framework calls that can be made to the backup service, as well as the backup service synchronization interval. This cmdlet was introduced in Lync Server 2013.
   
 ```

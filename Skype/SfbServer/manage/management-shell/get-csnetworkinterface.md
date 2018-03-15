@@ -13,7 +13,7 @@ description: "Returns information about the network interfaces in use on compute
 ---
 
 # Get-CsNetworkInterface
-[]
+ 
 Returns information about the network interfaces in use on computers running Skype for Business Server 2015 services or server roles. This cmdlet was introduced in Lync Server 2010.
   
 ```

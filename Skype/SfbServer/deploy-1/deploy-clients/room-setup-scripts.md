@@ -13,7 +13,7 @@ description: "Read this topic to find sample scripts for provisioning Skype Room
 ---
 
 # Skype Room System room setup scripts
-[]
+ 
 Read this topic to find sample scripts for provisioning Skype Room System accounts.
   
 This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.

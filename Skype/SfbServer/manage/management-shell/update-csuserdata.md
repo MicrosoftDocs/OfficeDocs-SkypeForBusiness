@@ -13,7 +13,7 @@ description: "Uses previously-exported user information to update Skype for Busi
 ---
 
 # Update-CsUserData
-[]
+ 
 Uses previously-exported user information to update Skype for Business Server 2015 user data. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -43,7 +43,7 @@ Update-CsUserData -Filename "C:\Logs\ExportedUserData.zip" -UserFilter "kenmyer@
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The **Update-CsUserData** cmdlet enables administrators to update user data for a specified user or set of users. (Note that this data must have previously been exported by using the[Export-CsUserData](export-csuserdata.md) cmdlet.) This updating is typically done in order to restore lost data to a logged-on user.
+The **Update-CsUserData** cmdlet enables administrators to update user data for a specified user or set of users. (Note that this data must have previously been exported by using the [Export-CsUserData](export-csuserdata.md) cmdlet.) This updating is typically done in order to restore lost data to a logged-on user.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Update-CsUserData** cmdlet are not available in the Skype for Business Server Control Panel.
   

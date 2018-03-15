@@ -13,7 +13,7 @@ description: "Creates a new collection of settings used to manage UC phone confi
 ---
 
 # New-CsUCPhoneConfiguration
-[]
+ 
 Creates a new collection of settings used to manage UC phone configuration settings. These settings enable you to configure such things as the required security mode, and to specify whether or not the phone should automatically be locked after a specified period of inactivity. This cmdlet was introduced in Lync Server 2010.
   
 ```

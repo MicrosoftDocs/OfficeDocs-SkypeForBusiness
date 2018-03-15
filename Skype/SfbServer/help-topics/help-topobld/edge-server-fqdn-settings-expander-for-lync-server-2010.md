@@ -15,7 +15,7 @@ description: "To define the properties under External settings, configure the fo
 ---
 
 # Edge Server FQDN Settings Expander for Lync Server 2010
-[]
+ 
 To define the properties under **External settings**, configure the following:
   
 Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.

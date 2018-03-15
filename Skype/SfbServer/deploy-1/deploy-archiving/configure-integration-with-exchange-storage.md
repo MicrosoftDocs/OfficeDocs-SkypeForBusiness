@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure integration wit
 ---
 
 # Configure integration with Exchange storage for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure integration with Exchange storage in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to configure integration with Exchange storage in Skype for Business Server 2015.
   
 If you use Microsoft Exchange integration for all users in your deployment, you don't need to configure Skype for Business Server archiving policies for your users. Instead, you configure Exchange In-Place Hold policies to support archiving for users homed on Exchange, with their mailboxes put on In-Place Hold. Before you configure integration with Exchange storage, read [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md). For details about Exchange In-Place Hold policies, see the Exchange product documentation. 
   
@@ -38,9 +38,9 @@ If you use Microsoft Exchange integration for all users in your deployment, you 
 
 If you use Microsoft Exchange integration and Microsoft Exchange Server is not deployed in the same forest as Skype for Business Server, you must make sure that the following Exchange Active Directory attributes are synchronized to the forest where Skype for Business Server is deployed:
   
-1. msExchUserHoldPolicies
+- msExchUserHoldPolicies
     
-2. proxyAddresses
+- proxyAddresses
     
 This is a multi-value attribute. When synchronizing this attribute, you need to merge the values, not replace them to ensure the existing values are not lost.
   

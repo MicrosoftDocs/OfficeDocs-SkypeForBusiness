@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about hardware and software requ
 ---
 
 # Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn about hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015.
   
 Persistent Chat Server can be installed with Skype for Business Server 2015 Enterprise Edition or Standard Edition. Requirements depend on which edition of Skype for Business Server 2015 you have installed, and the performance requirements of your business. Enterprise Edition can support up to 80,000 concurrent users; Standard Edition can support up to 20,000 concurrent users. Persistent Chat consists of a front-end component as well as a back-end SQL database component.
   

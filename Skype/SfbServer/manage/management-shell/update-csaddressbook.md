@@ -13,7 +13,7 @@ description: "Forces the specified Address Book servers to synchronize their con
 ---
 
 # Update-CsAddressBook
-[]
+ 
 Forces the specified Address Book servers to synchronize their contents with the User database. This cmdlet was introduced in Lync Server 2010.
   
 ```

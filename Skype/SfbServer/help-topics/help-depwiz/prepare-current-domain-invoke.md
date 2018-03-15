@@ -1,7 +1,12 @@
 ---
 title: "Prepare Current Domain (Invoke)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Executing Commands page displays a summary of tasks as they ru
 ---
 
 # Prepare Current Domain (Invoke)
-[]
+ 
 The **Executing Commands** page displays a summary of tasks as they run. Review the summary screen and make sure that the tasks were successful, and that there are no errors. Review warnings to be sure that they are expected. Below the summary pane, you should see **Task status: Completed**. In the drop-down list, the log file **Prepare Domain** should be visible. If it is not, select the log file and then click **View Log** to review the detailed actions and outcome of the tasks. Click **Finish** to complete the preparation of the domain.
   
 

@@ -13,7 +13,7 @@ description: "The DeviceDriver table is a supporting table. Each record represen
 ---
 
 # DeviceDriver table
-[]
+ 
 The DeviceDriver table is a supporting table. Each record represents a driver used by either a capture device or render device.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

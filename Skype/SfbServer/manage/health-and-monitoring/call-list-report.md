@@ -13,8 +13,8 @@ description: "Summary: Learn about the Response Group application in Skype for B
 ---
 
 # Response Group Call List Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Response Group application in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Response Group application in Skype for Business Server 2015.
   
 The Response Group application provides a way for Skype for Business Server 2015 to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions. Typically, Response Group calls are not routed to an individual person but, instead, are routed to a team of people referred to as an agent group. For example, if someone calls the phone number for your help desk, Skype for Business Server 2015 can automatically route that call to the first available help desk agent. Alternatively, Skype for Business Server could ask a series of questions ("Press 1 if you are having hardware problems. Press 2 if you are having software problems. Press 3 if you are having network problems.") and then route the call to the most appropriate help desk agent based on the answer to those questions.
   
@@ -28,7 +28,7 @@ The Response Group Call List Report represents a collection of calls made for a 
     
 - **Answered calls**. Total number of calls that were actually answered by a Response Group agent.
     
-- Percentage of abandoned calls. Percentage of calls that were received by the Response Group application but were never answered by an agent. This value is calculated by subtracting the Answered calls from the Received calls, and then dividing that value by the number of Received calls. For example, if you received 10 calls and 7 were answered, you would subtract 7 from 10, leaving 3 unanswered calls. That value would then be divided by 10, giving you an abandoned call percentage of 30%.
+- **Percentage of abandoned calls.** Percentage of calls that were received by the Response Group application but were never answered by an agent. This value is calculated by subtracting the Answered calls from the Received calls, and then dividing that value by the number of Received calls. For example, if you received 10 calls and 7 were answered, you would subtract 7 from 10, leaving 3 unanswered calls. That value would then be divided by 10, giving you an abandoned call percentage of 30%.
     
 - **Transferred calls**. Total number of Response Group calls that were transferred because of a queue timeout or queue overflow.
     

@@ -13,7 +13,7 @@ description: "The Update-CcServerCertificate cmdlet renews the certificates for 
 ---
 
 # Update-CcServerCertificate
-[]
+ 
 The Update-CcServerCertificate cmdlet renews the certificates for Skype for Business Cloud Connector Edition when they are near expiration or already expired. 
   
 ```

@@ -13,7 +13,7 @@ description: "Adds the local computer to the Skype for Business Server 2015 repl
 ---
 
 # Enable-CsReplica
-[]
+ 
 Adds the local computer to the Skype for Business Server 2015 replication path. This cmdlet was introduced in Lync Server 2010.
   
 ```

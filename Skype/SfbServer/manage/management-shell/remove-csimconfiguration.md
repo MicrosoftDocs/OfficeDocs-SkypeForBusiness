@@ -13,7 +13,7 @@ description: "Use the Remove-CsImConfiguration cmdlet to remove an Instant Messa
 ---
 
 # Remove-CsImConfiguration
-[]
+ 
 Use the **Remove-CsImConfiguration** cmdlet to remove an Instant Messaging (IM) configuration.
   
 ```

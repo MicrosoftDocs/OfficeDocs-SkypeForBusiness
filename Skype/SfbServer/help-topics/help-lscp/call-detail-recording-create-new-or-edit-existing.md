@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Call Detail Recording: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Enable call detail recording in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-cdr.md)

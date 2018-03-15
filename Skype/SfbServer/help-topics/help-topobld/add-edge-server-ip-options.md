@@ -15,7 +15,7 @@ description: "Microsoft Lync Server 2013 allows you to configure IPv4 and IPv6 a
 ---
 
 # Add Edge Server IP Options
-[]
+ 
 Microsoft Lync Server 2013 allows you to configure IPv4 and IPv6 addresses for each interface for the Edge Server and Edge pool. To do this, you do the following:
   
 - **Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface

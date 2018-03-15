@@ -13,7 +13,7 @@ description: "Assigns a hosted voice mail policy at the per-user scope. (The per
 ---
 
 # Grant-CsHostedVoicemailPolicy
-[]
+ 
 Assigns a hosted voice mail policy at the per-user scope. (The per-user scope enables you to assign policies to individual users or groups.) This cmdlet was introduced in Lync Server 2010.
   
 > [!NOTE]

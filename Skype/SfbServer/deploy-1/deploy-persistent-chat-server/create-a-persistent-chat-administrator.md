@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to create a Persistent Chat 
 ---
 
 # Create a Persistent Chat administrator in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to create a Persistent Chat Server administrator role to enable initial configuration and management of Persistent Chat services in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to create a Persistent Chat Server administrator role to enable initial configuration and management of Persistent Chat services in Skype for Business Server 2015.
   
 In Skype for Business Server, users who perform specific tasks must be assigned as members of one or more specific groups. Role-Based Access Control (RBAC) is used to grant privileges by assigning users to predefined Skype for Business Server administrative roles. These roles correspond to universal security groups in Active Directory Domain Services. Members of the Persistent Chat Administrator security group, CsPersistentChatAdministrator, are granted access to the Persistent Chat Server cmdlets, which can be executed using either the Skype for Business Server Management Shell or the Skype for Business Server Control Panel.
   

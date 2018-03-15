@@ -15,7 +15,7 @@ description: "You configure Mirror Database Settings by defining the following:"
 ---
 
 # Install Mirror Database Option Page
-[]
+ 
 You configure **Mirror Database Settings** by defining the following:
   
 - Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.

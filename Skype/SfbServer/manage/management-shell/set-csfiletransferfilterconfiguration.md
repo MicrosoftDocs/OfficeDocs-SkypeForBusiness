@@ -13,7 +13,7 @@ description: "Modifies a collection of file transfer filter configuration settin
 ---
 
 # Set-CsFileTransferFilterConfiguration
-[]
+ 
 Modifies a collection of file transfer filter configuration settings. File transfer filter settings are used to block a user's ability to transfer certain types of files (for example, files with a .vbs or .ps1 file extension) by using Skype for Business Server 2015 clients. This cmdlet was introduced in Lync Server 2010.
   
 ```

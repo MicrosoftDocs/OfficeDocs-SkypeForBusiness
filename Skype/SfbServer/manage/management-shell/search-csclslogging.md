@@ -13,11 +13,11 @@ description: "Provides a command-line option for searching the centralized loggi
 ---
 
 # Search-CsClsLogging
-[]
+ 
 Provides a command-line option for searching the centralized logging service log files. This cmdlet was introduced in Lync Server 2013.
   
 ```
-Search-CsClsLogging [-AsXml <SwitchParameter>] [-CallId <String>] [-Components <String[]>] [-Computers <String[]>] [-ConferenceId <String>] [-CorrelationIds <String[]>] [-EndTime <DateTime>] [-IP <IPAddress>] [-LogLevel <String>] [-MatchAll <SwitchParameter>] [-MatchAny <SwitchParameter>] [-OutputFilePath <String>] [-Phone <String>] [-Pools <String[]>] [-SipContents <String>] [-SkipNetworkLogs <SwitchParameter>] [-StartTime <DateTime>] [-Uri <String>]
+Search-CsClsLogging [-AsXml <SwitchParameter>] [-CallId <String>] [-Components <String >] [-Computers <String >] [-ConferenceId <String>] [-CorrelationIds <String >] [-EndTime <DateTime>] [-IP <IPAddress>] [-LogLevel <String>] [-MatchAll <SwitchParameter>] [-MatchAny <SwitchParameter>] [-OutputFilePath <String>] [-Phone <String>] [-Pools <String >] [-SipContents <String>] [-SkipNetworkLogs <SwitchParameter>] [-StartTime <DateTime>] [-Uri <String>]
 
 ```
 
@@ -66,10 +66,10 @@ The **Search-CsClsLogging** cmdlet provides a command line option for searching 
 |:-----|:-----|:-----|:-----|
 | _AsXml_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, return code information from each computer searched is returned in XML format instead of as a string value.  <br/> |
 | _CallId_ <br/> |Optional  <br/> |System.String  <br/> |Call identifier to be searched for.  <br/> |
-| _Components_ <br/> |Optional  <br/> |System.String[]  <br/> |Comma-separated list of components to be searched.  <br/> |
-| _Computers_ <br/> |Optional  <br/> |System.String[]  <br/> |Comma-separated list of the computers to be searched. For example:  <br/>  `-Computers "server-cs-001.litwareinc.com", "server-cs-002.litwareinc.com"` <br/> |
+| _Components_ <br/> |Optional  <br/> |System.String   <br/> |Comma-separated list of components to be searched.  <br/> |
+| _Computers_ <br/> |Optional  <br/> |System.String   <br/> |Comma-separated list of the computers to be searched. For example:  <br/>  `-Computers "server-cs-001.litwareinc.com", "server-cs-002.litwareinc.com"` <br/> |
 | _ConferenceId_ <br/> |Optional  <br/> |System.String  <br/> |Conference ID to be searched for.  <br/> |
-| _CorrelationIds_ <br/> |Optional  <br/> |System.String[]  <br/> |Comma-separated list of correlation IDs to search for. A correlation is a 32 bit integer associated with each request.  <br/> |
+| _CorrelationIds_ <br/> |Optional  <br/> |System.String   <br/> |Comma-separated list of correlation IDs to search for. A correlation is a 32 bit integer associated with each request.  <br/> |
 | _EndTime_ <br/> |Optional  <br/> |System.DateTime  <br/> |Ending date and time for the log entries to be searched. Specified in local time zone. Defaults to 5 minutes after current time if no StartTime specified, otherwise defaults to 30 minutes after StartTime. For example, on computer running the US English version of Skype for Business Server 2015, this syntax limits the search to entries recorded prior to 8:00 AM on August 31, 2012:  <br/>  `-StartTime "8/31/2012 8:00AM"` <br/> |
 | _IP_ <br/> |Optional  <br/> |System.Net.IPAddress  <br/> |IP address being searched for. This must be an actual IP address; you cannot use wildcards when specifying the address.  <br/> |
 | _LogLevel_ <br/> |Optional  <br/> |System.String  <br/> |Specifies the minimum type of log entry to be returned. Allowed values are:  <br/> Fatal  <br/> Error  <br/> Warning  <br/> Info  <br/> Verbose  <br/> Debug  <br/> All  <br/> "Minimum type of entry to be returned" means that the **Search-CsClsLogging** cmdlet will return all log entries at that level of severity plus all log entries with a higher level of severity. For example, if you set the LogLevel to Warning then the cmdlet will return entries marked as Fatal and Error as well as entries marked as Warning. <br/> |
@@ -77,7 +77,7 @@ The **Search-CsClsLogging** cmdlet provides a command line option for searching 
 | _MatchAny_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, only one of the included criteria must be matched. This is similar to an OR query in SQL Server. This is the default.  <br/> |
 | _OutputFilePath_ <br/> |Optional  <br/> |System.String  <br/> |When present, specifies the full path of where to write a text file containing the search results. Otherwise they are written to the console.  <br/> |
 | _Phone_ <br/> |Optional  <br/> |System.String  <br/> |Phone number to be searched for. This number should be entered using the E.164 format and should not include wildcard characters.  <br/> |
-| _Pools_ <br/> |Optional  <br/> |System.String[]  <br/> |Comma-separated list of the pools to be searched. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com", "red-cs-001.litwareinc.com"` <br/> |
+| _Pools_ <br/> |Optional  <br/> |System.String   <br/> |Comma-separated list of the pools to be searched. For example:  <br/>  `-Pools "atl-cs-001.litwareinc.com", "red-cs-001.litwareinc.com"` <br/> |
 | _SipContents_ <br/> |Optional  <br/> |System.String  <br/> |Arbitrary text to search for within the body of a SIP message.  <br/> |
 | _SkipNetworkLogs_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, instructs the **Search-CsClsLogging** cmdlet to avoid searching network logs. <br/> |
 | _StartTime_ <br/> |Optional  <br/> |System.DateTime  <br/> |Beginning date and time for the log entries to be searched. Specified in local time zone. Defaults to 30 minutes before EndTime. For example, on computer running the US English version of Skype for Business Server 2015, this syntax limits the search to entries recorded at 8:00 AM on or after August 1, 2012:  <br/>  `-StartTime "8/1/2012 8:00AM"` <br/> |

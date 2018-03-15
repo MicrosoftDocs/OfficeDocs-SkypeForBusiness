@@ -1,7 +1,12 @@
 ---
 title: "Prepare Current Forrest (Intro)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To begin the Prepare Forest task, click Next. Running the Prepare 
 ---
 
 # Prepare Current Forrest (Intro)
-[]
+ 
 To begin the **Prepare Forest** task, click **Next**. Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server 2015.
   
 

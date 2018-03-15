@@ -13,10 +13,10 @@ description: "This article summarizes the requirements for supporting a Skype Ro
 ---
 
 # Skype Room Systems v2 requirements
-[]
+ 
 This article summarizes the requirements for supporting a Skype Room Systems v2. 
   
-Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in[Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
   
 ## Hardware requirements
 
@@ -26,23 +26,22 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
     
 - One of the following tablets:
     
-   **Supported tablets**
+**Supported tablets**
 
-|
-|
+
 |**Tablet**|**Processor**|**RAM**|**Disk**|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 \*  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 \*  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro § <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro § <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro § <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
+|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
    
-    \* — Core M3 processors are not supported on this model.
+&sup1; — Core M3 processors are not supported on this model.
     
-    § — Core M3 processors are not supported on this model.
+&sup2; — Core M3 processors are not supported on this model.
     
 - One of the following docking station options to secure the tablet to the meeting room table. 
     
@@ -53,10 +52,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
     
 - 
-   **Certified firmware versions for USB audio and video peripherals**
-
-|
-|
+**Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> ||
@@ -124,7 +120,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     > [!NOTE]
     > The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
   
-- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or[Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
+- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). 
   

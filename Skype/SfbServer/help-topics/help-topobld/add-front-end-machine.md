@@ -15,7 +15,7 @@ description: "Specify the fully qualified domain name (FQDN) of each computer th
 ---
 
 # Add Front End Machine
-[]
+ 
 Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool. After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology. After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN. For details about adding a Front End pool to the topology, see [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.
   
 > [!IMPORTANT]

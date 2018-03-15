@@ -13,7 +13,7 @@ description: "Modifies one or more existing client personal identification numbe
 ---
 
 # Set-CsPinPolicy
-[]
+ 
 Modifies one or more existing client personal identification number (PIN) policies. PIN authentication enables users to access Skype for Business Server 2015 by providing a PIN instead of a user name and password. This cmdlet was introduced in Lync Server 2010.
   
 ```

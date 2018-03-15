@@ -13,7 +13,7 @@ description: "Returns diagnostic information for the data conferencing capabilit
 ---
 
 # Debug-CsDataConference
-[]
+ 
 Returns diagnostic information for the data conferencing capabilities included in Skype for Business Server 2015.
   
 This cmdlet was introduced in the Cumulative Updates for Lync Server 2013:February 2013. 

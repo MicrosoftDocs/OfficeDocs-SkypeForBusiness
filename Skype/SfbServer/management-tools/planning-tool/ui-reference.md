@@ -12,7 +12,7 @@ ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
 ---
 
 # Planning Tool UI Reference
-[]
+ 
 ## In this section
 
 These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725). 

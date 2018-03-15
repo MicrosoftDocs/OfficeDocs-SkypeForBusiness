@@ -13,7 +13,7 @@ description: "The Register-CcAppliance cmdlet registers appliance information to
 ---
 
 # Register-CcAppliance
-[]
+ 
 The Register-CcAppliance cmdlet registers appliance information to a PSTN site in an online tenant configuration. An appliance must be registered before it can be deployed and managed by the Skype for Business Cloud Connector Edition management service.
   
 ```

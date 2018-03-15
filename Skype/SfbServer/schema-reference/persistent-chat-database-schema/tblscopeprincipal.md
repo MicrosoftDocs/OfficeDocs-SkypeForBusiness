@@ -13,7 +13,7 @@ description: "tblScopePrincipal contains scopes assigned to nodes."
 ---
 
 # tblScopePrincipal
-[]
+ 
 tblScopePrincipal contains scopes assigned to nodes.
   
 **Columns**

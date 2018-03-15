@@ -15,8 +15,8 @@ description: "Summary: Learn how to enable users to make and receive calls by us
 ---
 
 # Enable users for Enterprise Voice in Skype for Business Server 2015
-[]
- **Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015.
   
 After you deploy Enterprise Voice or Call Via Work, you can use the following procedures to enable a user to make calls by using Enterprise Voice:
   
@@ -62,15 +62,15 @@ Global and site-level voice policies are automatically assigned to all user acco
     
 3. To assign an existing user voice policy to a user, run the following at the command prompt:
     
-  ```
-  Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     For example:
     
-  ```
-  Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
-  ```
+   ```
+   Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
+   ```
 
     In this example, the user with the display name Bob Kelly is assigned the voice policy with the name **VoicePolicyJapan**.
     
@@ -87,15 +87,15 @@ To complete user account configuration for either users of Enterprise Voice or u
     
 3. To assign a user-specific dial plan, run the following at the command prompt:
     
-  ```
-  Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     For example:
     
-  ```
-  Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
-  ```
+   ```
+   Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
+   ```
 
     In this example, the user with the display name Bob Kelly is assigned the user dial plan with the name **DialPlanJapan**.
     

@@ -14,8 +14,8 @@ description: "Summary: View user PIN information in Skype for Business Server 20
 ---
 
 # View user PIN information in Skype for Business Server 2015
-[]
- **Summary:** View user PIN information in Skype for Business Server 2015.
+ 
+**Summary:** View user PIN information in Skype for Business Server 2015.
   
 To join a dial-in conference as an authenticated user, a Skype for Business Server 2015 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user's PIN information from Skype for Business Server Control Panel.
   
@@ -26,30 +26,30 @@ To join a dial-in conference as an authenticated user, a Skype for Business Serv
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Users**.
     
 4. Use one of the following methods to locate a user:
     
-  - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
+   - In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.
     
-  - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
+   - If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click **Add Filter**.
+   a. Click **Add Filter**.
     
-2. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
+   b. Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.
     
-3. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
+   c. In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).
     
-4. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
+   d. Depending on the user property you selected, enter the criteria that you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.
     
     > [!TIP]
     > To add additional search clauses to your query, click **Add Filter**. 
   
-5. Click **Find**.
+   e. Click **Find**.
     
     > [!NOTE]
     > If the PIN is locked, you must unlock the PIN before you can set it. To unlock the PIN, click the user, click **Action**, and then click **Unlock PIN**. 
@@ -62,14 +62,14 @@ You can view user PIN information by using the Get-CsClientPinInfo cmdlet. This 
   
 ### To view user PIN information
 
-- To view PIN information for a user, type a command similar to the following in the Skype for Business Server Management Shell and then press ENTER:
+To view PIN information for a user, type a command similar to the following in the Skype for Business Server Management Shell and then press ENTER:
     
   ```
   Get-CsClientPinInfo -Identity "Ken Myer"
   ```
 
-    That will return information similar to this:
-    
+That will return information similar to this:
+
   ```
   Identity          : sip:kenmyer@litwareinc.com
 IsPinSet          : False

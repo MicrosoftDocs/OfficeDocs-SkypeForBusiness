@@ -15,7 +15,7 @@ description: "Learn about outbound voice routing in Skype for Business Server En
 ---
 
 # Plan for outbound voice routing in Skype for Business Server 2015
-[]
+ 
 Learn about outbound voice routing in Skype for Business Server Enterprise Voice, including call routing settings, dial plans, normalization rules, voice policies, PSTN usage records, and voice routes.
   
 Outbound call routing applies to Enterprise Voice calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a Skype for Business user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.
@@ -128,7 +128,7 @@ The following number fields are among those that your normalization rules may ne
 
 Normalization rules use .NET Framework regular expressions to specify numeric match patterns that the server uses to translate dial strings to E.164 format for the purpose of performing reverse number lookup. You create normalization rules in the Skype for Business Server Control Panel either by entering the expressions manually, or by entering the starting digits and the length of the dial strings to be matched and letting the Skype for Business Server Control Panel generate the corresponding regular expression for you. Either way, when you finish, you can enter a test number to verify that the normalization rule works as expected.
   
-For details about using .NET Framework regular expressions, see ".NET Framework Regular Expressions" at [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkId=140927).
+For details about using .NET Framework regular expressions, see [".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
 #### Sample Normalization Rules
 <a name="BKMK_SampleNormalizationRules"> </a>

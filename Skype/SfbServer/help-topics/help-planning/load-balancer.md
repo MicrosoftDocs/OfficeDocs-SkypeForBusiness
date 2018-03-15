@@ -16,7 +16,7 @@ description: "If you have Front End pools, Director pools, or Edge Server pools,
 ---
 
 # Load Balancer (Planning Tool)
-[]
+ 
 If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool. For details, see:
   
 - [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)

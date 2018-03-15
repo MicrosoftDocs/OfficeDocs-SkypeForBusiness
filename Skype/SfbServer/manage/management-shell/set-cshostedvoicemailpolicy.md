@@ -13,7 +13,7 @@ description: "Modifies a hosted voice mail policy. This cmdlet was introduced in
 ---
 
 # Set-CsHostedVoicemailPolicy
-[]
+ 
 Modifies a hosted voice mail policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

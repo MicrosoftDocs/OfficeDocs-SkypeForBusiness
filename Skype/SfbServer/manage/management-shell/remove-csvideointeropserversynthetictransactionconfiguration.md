@@ -13,7 +13,7 @@ description: "Use the Remove-CsVideoInteropServerSyntheticTransactionConfigurati
 ---
 
 # Remove-CsVideoInteropServerSyntheticTransactionConfiguration
-[]
+ 
 Use the **Remove-CsVideoInteropServerSyntheticTransactionConfiguration** cmdlet to remove an existing Video Interop (VIS) server synthetic transaction configuration.
   
 ```

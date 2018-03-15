@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to add archiving databases t
 ---
 
 # Add archiving databases to an existing deployment in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment.
+ 
+**Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment.
   
 You must incorporate archiving into your topology before you can configure your deployment to support archiving. The information in this topic explains how to use Topology Builder to:
   
@@ -43,21 +43,21 @@ You must incorporate archiving into your topology before you can configure your 
     
 8. Under **Archiving SQL Server store,** do one of the following:
     
-  - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use. If all of your users are homed on Microsoft Exchange Server 2013 or above, you can archive Skype for Business communications for all your users in Exchange. In this case, you don't need to configure SQL Server Archiving store.
+   - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use. If all of your users are homed on Microsoft Exchange Server 2013 or above, you can archive Skype for Business communications for all your users in Exchange. In this case, you don't need to configure SQL Server Archiving store.
     
-  - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:
+   - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:
     
-  - In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.
+   - In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.
     
-  - Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.
+   - Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.
     
-  - If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
+   - If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
     
 9. If you want to use SQL Server store mirroring, select **Enable SQL Server Store mirroring**, and then do the following:
     
-  - To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.
+   - To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.
     
-  - To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:
+   - To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:
     
     a. In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server store.
     
@@ -65,7 +65,7 @@ You must incorporate archiving into your topology before you can configure your 
     
     c. If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
     
-  - If you enable SQL Server mirroring and want to include a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:
+   - If you enable SQL Server mirroring and want to include a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:
     
     a. In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server mirroring witness.
     
@@ -96,6 +96,6 @@ You must incorporate archiving into your topology before you can configure your 
 6. On the **Publishing wizard complete** page, verify that the topology was successfully published, and then click **Finish**.
     
     > [!IMPORTANT]
-    > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see [Configure archiving options for Skype for Business Server 2015](configure-archiving-options.md) and[Configure archiving policies for Skype for Business Server 2015](configure-archiving-policies.md). 
+    > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see [Configure archiving options for Skype for Business Server 2015](configure-archiving-options.md) and [Configure archiving policies for Skype for Business Server 2015](configure-archiving-policies.md). 
   
 

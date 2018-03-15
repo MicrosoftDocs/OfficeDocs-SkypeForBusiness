@@ -13,7 +13,7 @@ description: "Enables new or newly-updated services or server roles on a compute
 ---
 
 # Enable-CsComputer
-[]
+ 
 Enables new or newly-updated services or server roles on a computer running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

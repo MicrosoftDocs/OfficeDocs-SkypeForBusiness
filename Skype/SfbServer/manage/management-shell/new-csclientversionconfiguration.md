@@ -13,7 +13,7 @@ description: "Creates a new collection of client version configuration settings.
 ---
 
 # New-CsClientVersionConfiguration
-[]
+ 
 Creates a new collection of client version configuration settings. Client version configuration settings determine whether or not Skype for Business Server 2015 checks the version number of each client application that logs on to the system. If client version filtering is enabled, then the ability of that client application to access the system will be based on settings configured in the appropriate client version policy. This cmdlet was introduced in Lync Server 2010.
   
 ```

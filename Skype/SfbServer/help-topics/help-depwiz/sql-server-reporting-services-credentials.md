@@ -1,7 +1,12 @@
 ---
 title: "SQL Server Reporting Services (Credentials)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To specify the credentials for the SQL Server Reporting Services (
 ---
 
 # SQL Server Reporting Services (Credentials)
-[]
+ 
 To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:
   
 In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR). 

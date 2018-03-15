@@ -14,8 +14,8 @@ description: "Summary: Learn about the Clear Cache operation, which is part of t
 ---
 
 # Clear Cache
-[]
- **Summary:** Learn about the Clear Cache operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Clear Cache operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Clear Cache operation is part of the Data API for Call Quality Dashboard.
   
@@ -23,8 +23,7 @@ The Clear Cache operation is part of the Data API for Call Quality Dashboard.
 
 Clear Cache operation deletes the cache on server for queries and data. This will reset the cache and we will get fresh data from QoE Cube afterward for new requests.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |POST  <br/> |https://\<portal\>/QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |

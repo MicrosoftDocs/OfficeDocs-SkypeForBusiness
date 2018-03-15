@@ -13,7 +13,7 @@ description: "Creates new global settings for media bypass. This cmdlet was intr
 ---
 
 # New-CsNetworkMediaBypassConfiguration
-[]
+ 
 Creates new global settings for media bypass. This cmdlet was introduced in Lync Server 2010.
   
 ```

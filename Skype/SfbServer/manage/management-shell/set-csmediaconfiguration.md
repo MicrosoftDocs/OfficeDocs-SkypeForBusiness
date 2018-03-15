@@ -14,7 +14,7 @@ description: "Modifies an existing collection of media settings. This cmdlet was
 ---
 
 # Set-CsMediaConfiguration
-[]
+ 
 Modifies an existing collection of media settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,8 +13,8 @@ description: "Summary: Learn how to remove CDR configuration settings in Skype f
 ---
 
 # Delete an existing collection of CDR configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to remove CDR configuration settings in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to remove CDR configuration settings in Skype for Business Server 2015.
   
 Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.
   
@@ -36,11 +36,11 @@ You can remove CDR configuration settings by using the Skype for Business Server
     
 ## Removing CDR configuration settings by using Windows PowerShell Cmdlets
 
-You can delete call detail recording configuration settings by using Windows PowerShell and the **Remove-CsCdrConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can delete call detail recording configuration settings by using Windows PowerShell and the **Remove-CsCdrConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To remove a specified collection of CDR configuration settings
 
-- This command removes the CDR configuration settings applied to the Redmond site:
+ This command removes the CDR configuration settings applied to the Redmond site:
     
   ```
   Remove-CsCdrConfiguration -Identity "site:Redmond"
@@ -48,7 +48,7 @@ You can delete call detail recording configuration settings by using Windows Pow
 
 ### To remove all the CDR configuration settings applied to the site scope
 
-- This command removes all the CDR configuration settings applied to the site scope:
+ This command removes all the CDR configuration settings applied to the site scope:
     
   ```
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
@@ -56,7 +56,7 @@ You can delete call detail recording configuration settings by using Windows Pow
 
 ### To remove all the CDR configuration settings that disable call detail recording
 
-- This command removes all the CDR configuration settings where Call Detail recording has been disabled:
+ This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
   ```
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
@@ -65,8 +65,6 @@ You can delete call detail recording configuration settings by using Windows Pow
 For more information, see the help topic for the [Remove-CsCdrConfiguration](../../manage/management-shell/remove-cscdrconfiguration.md) cmdlet.
   
 ## See also
-
-#### 
 
 [Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server 2015](../../deploy-1/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

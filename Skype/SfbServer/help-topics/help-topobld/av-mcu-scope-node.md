@@ -15,7 +15,7 @@ description: "This node shows the pool fully qualified domain name (FQDN) and as
 ---
 
 # AV MCU Scope Node
-[]
+ 
 This node shows the pool fully qualified domain name (FQDN) and associated Front End pools for this A/V Conferencing pool. You can perform the following actions:
   
 - **New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.

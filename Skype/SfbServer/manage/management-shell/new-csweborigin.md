@@ -13,7 +13,7 @@ description: "Creates a new domain object that can be added to the collection of
 ---
 
 # New-CsWebOrigin
-[]
+ 
 Creates a new domain object that can be added to the collection of domains allowed to send cross-domain scripting requests to the Skype for Business Server 2015 deployment.
   
  This cmdlet was introduced in the Cumulative Updates for Lync Server 2013: February 2013.

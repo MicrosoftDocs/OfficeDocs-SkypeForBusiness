@@ -13,7 +13,7 @@ description: "Returns information about the domains included on the list of doma
 ---
 
 # Get-CsAllowedDomain
-[]
+ 
 Returns information about the domains included on the list of domains approved for federation. After a domain has been approved for federation (by being added to the allowed list), your users can exchange instant messages and presence information with people who have accounts in that domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

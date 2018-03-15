@@ -13,7 +13,7 @@ description: "Read this topic to learn about management of Skype Room Systems v2
 ---
 
 # Manage Skype Room Systems v2
-[]
+ 
 Read this topic to learn about management of Skype Room Systems v2, the next generation of Skype Room Systems.
   
 Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
@@ -52,8 +52,7 @@ If Skype Room Systems v2 isn't running well, performing a factory reset may help
 
 The following table summarizes the possible remote operations and the methods you can use to accomplish them.
   
-|
-|
+
 |**Workgroup**|**Not domain joined**|**Domain joined**|
 |:-----|:-----|:-----|
 |Restart  <br/> |Remote desktop  <br/> Remote Powershell  <br/> |Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> SCCM  <br/> |
@@ -68,8 +67,7 @@ The following table summarizes the possible remote operations and the methods yo
 
 This section covers system settings that Skype Room Systems v2 depends on to function properly. When joining Skype Room Systems v2 to a domain, please ensure that your group policy does not override the following settings:
   
-|
-|
+
 |**Setting**|**Allows**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Enables Skype Room Systems v2 to boot up  <br/> |
@@ -171,7 +169,7 @@ By default, Skype Room Systems v2 will attempt to connect to the Windows Store t
   
 By default, Skype Room Systems v2 will connect to Windows Update to retrieve OS as well as USB peripheral firmware updates and install them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
   
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/en-us/store) to[Distribute offline apps](https://docs.microsoft.com/en-us/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to[Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md)) that can be used with SCCM. The deployment kit release lags behind the store release, so it may not always match the latest available build.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/en-us/store) to [Distribute offline apps](https://docs.microsoft.com/en-us/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md)) that can be used with SCCM. The deployment kit release lags behind the store release, so it may not always match the latest available build.
   
 ### To update using Powershell
 

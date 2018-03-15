@@ -13,7 +13,7 @@ description: "tblPrincipalInvites contains invitations for all provisioned users
 ---
 
 # tblPrincipalInvites
-[]
+ 
 tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.
   
 **Columns**

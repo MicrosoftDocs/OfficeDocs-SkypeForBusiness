@@ -13,7 +13,7 @@ description: "Use the Set-CsVideoGateway cmdlet to modify the property values of
 ---
 
 # Set-CsVideoGateway
-[]
+ 
 Use the **Set-CsVideoGateway** cmdlet to modify the property values of one or more Video Gateways. Video Gateways route traffic between internal and 3rd party video devices such as an internal Skype endpoint exchanging video with a 3rd party PBX supporting 3rd party video teleconferencing systems (VTCs). The Video Gateway and a Video Interop Server (VIS) use a Session Initiation Protocol (SIP) trunk to connect video calls between 3rd party VTCs and internal endpoints.
   
 This cmdlet was introduced in Skype for Business Server 2015.

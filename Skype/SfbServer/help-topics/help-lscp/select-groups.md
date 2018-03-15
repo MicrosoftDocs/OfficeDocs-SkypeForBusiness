@@ -15,7 +15,7 @@ description: "Response Group queues hold calls to response groups until an agent
 ---
 
 # Select Groups
-[]
+ 
 Response Group queues hold calls to response groups until an agent answers the call. Queues have assigned agent groups. When you create or edit a queue, you use the **Select Groups** dialog box to select one or more agent groups to be assigned to the queue.
   
 ## UI Reference

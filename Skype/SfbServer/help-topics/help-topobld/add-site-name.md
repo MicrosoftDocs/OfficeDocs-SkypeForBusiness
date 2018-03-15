@@ -15,7 +15,7 @@ description: "To define the first site in your deployment, specify the name of t
 ---
 
 # Add Site Name
-[]
+ 
 To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site.
   
 

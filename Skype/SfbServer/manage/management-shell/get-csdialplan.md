@@ -13,7 +13,7 @@ description: "Returns information about the dial plans used in your organization
 ---
 
 # Get-CsDialPlan
-[]
+ 
 Returns information about the dial plans used in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

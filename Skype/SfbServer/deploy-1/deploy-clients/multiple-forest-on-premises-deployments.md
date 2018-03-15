@@ -13,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a mult
 ---
 
 # Skype Room System multiple forest on-premises deployments
-[]
+ 
 Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment.
   
 > [!NOTE]
@@ -29,11 +29,10 @@ To deploy Skype Room System in a multi-forest environment:
     
 2. Run the following commands in the Exchange Server Management Shell:
     
-```
-$cred = Get-Credential AuthForest\LinkedRoomTest
-new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
-
-```
+   ```
+   $cred = Get-Credential AuthForest\LinkedRoomTest
+   new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
+   ```
 
 ## Option 2: Change an existing room mailbox to Skype Room System (linked) resource mailbox
 

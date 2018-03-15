@@ -15,7 +15,7 @@ description: "This node shows the listening ports and associated public switched
 ---
 
 # Mediation Server Scope Node
-[]
+ 
 This node shows the listening ports and associated public switched telephone network (PSTN) gateways for this Mediation pool. You can perform the following actions:
   
 - **Edit Properties**. Opens the **Edit Properties** page for this server, where you can enable or disable the Transmission Control Protocol (TCP) listening port, change the port numbers, and specify which PSTN gateways are associated with this Mediation pool.

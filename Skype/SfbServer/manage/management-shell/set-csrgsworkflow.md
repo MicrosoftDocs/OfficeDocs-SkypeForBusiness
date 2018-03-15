@@ -14,7 +14,7 @@ description: "Modifies an existing Response Group workflow. Workflows determine 
 ---
 
 # Set-CsRgsWorkflow
-[]
+ 
 Modifies an existing Response Group workflow. Workflows determine the actions that are taken when the Response Group application receives a phone call. This cmdlet was introduced in Lync Server 2010.
   
 ```

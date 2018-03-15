@@ -15,8 +15,8 @@ description: "Summary: Learn how to view PSTN usage records by using the Skype f
 ---
 
 # View PSTN usage records in Skype for Business 2015
-[]
- **Summary:** Learn how to view PSTN usage records by using the Skype for Business Server Control Panel or the Skype for Business Server Management Shell.
+ 
+**Summary:** Learn how to view PSTN usage records by using the Skype for Business Server Control Panel or the Skype for Business Server Management Shell.
   
 A Public Switched Telephone Network (PSTN) usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users or groups of users in an organization. For details, see [PSTN Usage Records](http://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) in the Planning documentation.
   
@@ -43,7 +43,7 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
     
   ```
   Identity : Global
-Usage    : {Internal, Local, Long Distance}
+  Usage    : {Internal, Local, Long Distance}
   ```
 
 ## See also

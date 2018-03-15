@@ -13,7 +13,7 @@ description: "Removes the specified dial plan. This cmdlet can also be used to r
 ---
 
 # Remove-CsDialPlan
-[]
+ 
 Removes the specified dial plan. This cmdlet can also be used to remove the global dial plan. If you remove the global dial plan, however, the dial plan will not actually be removed; instead, the settings will simply be reset to their default values. This cmdlet was introduced in Lync Server 2010.
   
 ```

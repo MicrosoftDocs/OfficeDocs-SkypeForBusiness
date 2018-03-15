@@ -13,7 +13,7 @@ description: "The ContentTypes table is a supporting table that stores a list of
 ---
 
 # ContentTypes table in Skype for Business Server 2015
-[]
+ 
 The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions. Each record in the table represents one content type.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

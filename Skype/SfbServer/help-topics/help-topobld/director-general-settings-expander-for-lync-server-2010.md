@@ -15,7 +15,7 @@ description: "To configure the General properties of the Director or a Director 
 ---
 
 # Director General Settings Expander for Lync Server 2010
-[]
+ 
 To configure the **General** properties of the Director or a Director pool:
   
  **FQDN**: Type the fully qualified domain name of the Director or a Director pool

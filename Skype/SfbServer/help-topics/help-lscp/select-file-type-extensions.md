@@ -15,7 +15,7 @@ description: "Use the Select File Type Extensions dialog box to select the file 
 ---
 
 # Select File Type Extensions
-[]
+ 
 Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**. Click the arrow to expand a category and view all of the file type extensions for that category. If you want to select all of the file type extensions for a category, select the category name. 
   
 If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**. 

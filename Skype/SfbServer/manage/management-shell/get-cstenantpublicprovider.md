@@ -13,7 +13,7 @@ description: "Returns information indicating whether Microsoft Lync Online users
 ---
 
 # Get-CsTenantPublicProvider
-[]
+ 
 Returns information indicating whether Microsoft Lync Online users are allowed to communicate with people who have accounts on the third-party IM and presence providers Windows Live, AOL, and Yahoo.
   
 This cmdlet can only be used with Lync Online.

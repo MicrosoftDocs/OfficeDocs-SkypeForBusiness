@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Access Edge Configuration
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Enable or Disable Remote User Access for Your Organization](http://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)

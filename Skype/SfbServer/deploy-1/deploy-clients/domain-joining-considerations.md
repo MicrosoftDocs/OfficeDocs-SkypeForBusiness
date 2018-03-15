@@ -13,7 +13,7 @@ description: "Read this topic to learn how to join a Skype Room System appliance
 ---
 
 # Skype Room System domain joining considerations
-[]
+ 
 Read this topic to learn how to join a Skype Room System appliance PC to your domain.
   
 ## Domain joining considerations

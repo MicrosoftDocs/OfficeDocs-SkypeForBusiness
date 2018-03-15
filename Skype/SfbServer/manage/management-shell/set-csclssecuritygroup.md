@@ -13,7 +13,7 @@ description: "Modifies a centralized logging configuration security group. Centr
 ---
 
 # Set-CsClsSecurityGroup
-[]
+ 
 Modifies a centralized logging configuration security group. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

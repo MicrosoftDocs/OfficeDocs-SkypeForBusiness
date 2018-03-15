@@ -13,7 +13,7 @@ description: "Creates a new location policy for use with location identification
 ---
 
 # New-CsLocationPolicy
-[]
+ 
 Creates a new location policy for use with location identification for the Enhanced 9-1-1 (E9-1-1) service and general client location. The E9-1-1 service enables those who answer 911 calls to determine the caller's geographic location. This cmdlet was introduced in Lync Server 2010.
   
 ```

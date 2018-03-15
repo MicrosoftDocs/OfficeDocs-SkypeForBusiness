@@ -15,7 +15,7 @@ description: "To edit or modify the settings for a SIP trunk, you do the followi
 ---
 
 # Trunk Settings Expander
-[]
+ 
 To edit or modify the settings for a SIP trunk, you do the following:
   
  **Trunk name** is a required entry and uniquely identifies the SIP trunk in the deployment.

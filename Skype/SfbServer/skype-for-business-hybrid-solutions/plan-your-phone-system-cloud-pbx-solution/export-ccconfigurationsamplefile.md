@@ -13,7 +13,7 @@ description: "The Export-CcConfigurationSampleFile cmdlet exports a Skype for Bu
 ---
 
 # Export-CcConfigurationSampleFile
-[]
+ 
 The Export-CcConfigurationSampleFile cmdlet exports a Skype for Business Cloud Connector Edition sample configuration file (.ini) to the appliance directory of a Cloud Connector appliance. You can modify and rename the file to use for your deployment.
   
 This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.

@@ -13,7 +13,7 @@ description: "The Remove-CsMeetingConfiguration cmdlet enables you to delete an 
 ---
 
 # Remove-CsMeetingConfiguration
-[]
+ 
 The **Remove-CsMeetingConfiguration** cmdlet enables you to delete an existing collection of meeting configuration settings. Meeting configuration settings help dictate the type of meetings (also called "conferences") that users can create, as well as control how (or even if) anonymous users and dial-in conferencing users can join these meetings. This cmdlet was introduced in Lync Server 2010.
   
 ```

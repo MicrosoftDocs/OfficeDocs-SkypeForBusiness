@@ -14,12 +14,12 @@ description: "Summary: Read this topic to learn how to upgrade Statistics Manage
 ---
 
 # Upgrade Statistics Manager for Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015.
   
 This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website. 
   
-For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md) and[Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade-0.md#BKMK_Fixed).
+For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md) and [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade-0.md#BKMK_Fixed).
   
 There are two methods for upgrading:
   
@@ -49,8 +49,8 @@ The script will gather your current certificate information and listener passwor
   .\Update-StatsMan.ps1 -Service Listener
   ```
 
-    > [!NOTE]
-    > The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer. Be sure to shield your monitor as needed. 
+> [!NOTE]
+> The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer. Be sure to shield your monitor as needed. 
   
 1. On running the script, you should be prompted to uninstall the old version of the product. Answer Yes.
     

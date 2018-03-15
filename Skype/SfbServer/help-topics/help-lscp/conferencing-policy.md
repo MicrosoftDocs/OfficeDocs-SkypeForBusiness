@@ -15,7 +15,7 @@ description: "Conferencing policy defines the features and capabilities that use
 ---
 
 # Conferencing Policy
-[]
+ 
 Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).
   
 Conferencing policies include the global policy and, optionally, one or more site and user policies:
@@ -69,6 +69,6 @@ The following list describes the fields on the page.
     
 - **Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.
     
-For details about conferencing features and capabilities, see [Overview of Conferencing](http://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see[Conferencing Policies](http://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.
+For details about conferencing features and capabilities, see [Overview of Conferencing](http://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see [Conferencing Policies](http://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.
   
 

@@ -13,7 +13,7 @@ description: "Creates a new outbound translation rule. An outbound translation r
 ---
 
 # New-CsOutboundTranslationRule
-[]
+ 
 Creates a new outbound translation rule. An outbound translation rule converts phone numbers to the local dialing format for interaction with private branch exchange (PBX) systems. This cmdlet was introduced in Lync Server 2010.
   
 ```

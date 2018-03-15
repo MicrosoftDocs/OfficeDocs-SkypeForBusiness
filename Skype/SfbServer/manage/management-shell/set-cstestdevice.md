@@ -13,7 +13,7 @@ description: "Modifies one or more of the device update management test devices 
 ---
 
 # Set-CsTestDevice
-[]
+ 
 Modifies one or more of the device update management test devices that have been configured for use in your organization. Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage PIN policies for dial-in conferencing
 ---
 
 # Manage PIN policies for dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015.
   
 Skype for Business Server users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN). PIN policy defines the rules for how dial-in conferencing PINs work.
   
@@ -109,9 +109,9 @@ You can create a user or site PIN policy by using Skype for Business Server Cont
     
 4. On the **PIN Policy** page, click **New**, and then do one of the following:
     
-  - To create a user-level policy, click **User policy**. In **New PIN Policy**, in **Name**, type a name that describes the policy.
+   - To create a user-level policy, click **User policy**. In **New PIN Policy**, in **Name**, type a name that describes the policy.
     
-  - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the list of sites, click the site you want, and then click **OK**.
+   - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the list of sites, click the site you want, and then click **OK**.
     
 5. In the **Description** field, type a description of the PIN policy.
     
@@ -144,7 +144,7 @@ The following command creates a new PIN policy with the Identity site:Redmond. T
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- For more information, including a complete syntax description and list of parameters, see[New-CsPinPolicy](../../manage/management-shell/new-cspinpolicy.md).
+ For more information, including a complete syntax description and list of parameters, see [New-CsPinPolicy](../../manage/management-shell/new-cspinpolicy.md).
   
 ## Modify a user or site PIN policy
 

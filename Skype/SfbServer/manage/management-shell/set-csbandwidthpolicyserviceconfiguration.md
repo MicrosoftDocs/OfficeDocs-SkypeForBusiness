@@ -13,7 +13,7 @@ description: "Modifies an existing bandwidth policy service configuration. This 
 ---
 
 # Set-CsBandwidthPolicyServiceConfiguration
-[]
+ 
 Modifies an existing bandwidth policy service configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

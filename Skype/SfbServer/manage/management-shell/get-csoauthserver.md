@@ -13,7 +13,7 @@ description: "Returns information about the Open Authorization (OAuth) servers c
 ---
 
 # Get-CsOAuthServer
-[]
+ 
 Returns information about the Open Authorization (OAuth) servers configured for use by the organization. OAuth servers, also known as security token servers, issue security tokens used in server-to-server authentication and authorization. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -15,8 +15,8 @@ description: "Summary: Learn about your options for planning a unified voice and
 ---
 
 # Plan your Enterprise Voice solution in Skype for Business Server 2015
-[]
- **Summary:** Learn about your options for planning a unified voice and communications solution in Skype for Business Server 2015.
+ 
+**Summary:** Learn about your options for planning a unified voice and communications solution in Skype for Business Server 2015.
   
 Skype for Business Server offers two on-premises Enterprise Voice options—Enterprise Voice and Call Via Work—for you to integrate the telephone system of your organization with your Skype for Business Server deployment, making for a true unified communications solution. Both options enable users to use their Skype for Business client to initiate voice calls with other users, both inside and outside of your organization.
   

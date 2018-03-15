@@ -15,7 +15,7 @@ description: "You define the root trunk for the IP or public switched telephone 
 ---
 
 # Define the Root Trunk for a New IP or PSTN Gateway
-[]
+ 
 You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:
   
 - **Trunk name**: define the fully qualified domain name associated with the trunk

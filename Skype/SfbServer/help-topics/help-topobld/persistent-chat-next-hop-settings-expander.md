@@ -15,7 +15,7 @@ description: "You configure the Persistent Chat Next hop pool by selecting a Fro
 ---
 
 # Persistent Chat Next Hop Settings Expander
-[]
+ 
 You configure the Persistent Chat **Next hop pool** by selecting a Front End Server or Front End pool from the list.
   
  **OK** Accepts and commits changes to the dialog.

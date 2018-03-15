@@ -13,7 +13,7 @@ description: "Retrieves global settings for call admission control (CAC), Enhanc
 ---
 
 # Get-CsNetworkConfiguration
-[]
+ 
 Retrieves global settings for call admission control (CAC), Enhanced 9-1-1 (E9-1-1), and media bypass. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Read this topic to learn how to monitor your Cloud Connector versi
 ---
 
 # Monitor Cloud Connector using Operations Management Suite (OMS)
-[]
+ 
 Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
   
 You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
@@ -34,11 +34,11 @@ This topic contains the following sections:
 
 Before you can use OMS to monitor your Cloud Connector deployment, you will need the following:
   
-- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you will need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see[Get started with a Log Analytics workspace](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
+- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you will need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see [Get started with a Log Analytics workspace](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
     
 - **Cloud Connector version 2.1 or later**
     
-- **Log Analytics new log search** is required for Cloud Connector monitoring. For more information, see[Upgrade your Azure Log Analytics workspace to new log search](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Log Analytics new log search** is required for Cloud Connector monitoring. For more information, see [Upgrade your Azure Log Analytics workspace to new log search](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
     
 ## Configure Cloud Connector to use OMS
 
@@ -154,7 +154,7 @@ To create this alert pair:
 
     The query uses the computer filter  *where Computer contains "MediationServer"*  . The filter selects only the computer whose name contains the string "MediationServer".
     
-     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. For more information, see[String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
+     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. For more information, see [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
     
     For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window. 
     

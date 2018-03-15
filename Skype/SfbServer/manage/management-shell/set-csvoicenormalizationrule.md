@@ -13,7 +13,7 @@ description: "Modifies a voice normalization rule. Voice normalization rules are
 ---
 
 # Set-CsVoiceNormalizationRule
-[]
+ 
 Modifies a voice normalization rule. Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -14,8 +14,8 @@ description: "Summary: Manage Registrar configuration settings for Skype for Bus
 ---
 
 # Manage Registrar configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Manage Registrar configuration settings for Skype for Business Server 2015.
+ 
+**Summary:** Manage Registrar configuration settings for Skype for Business Server 2015.
   
 You can use the Registrar to configure proxy server authentication methods. The authentication protocol you specify determines which type of challenges the servers in the pool issue to clients. The available protocols are:
   
@@ -34,7 +34,7 @@ If you will use Lync Windows Store app clients, you must enable certificate auth
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Security** and then click **Registrar**.
     
@@ -44,11 +44,11 @@ If you will use Lync Windows Store app clients, you must enable certificate auth
     
 6. In **New Registrar Setting**, select one or more of the following depending on the capabilities of the clients and support in your environment:
     
-  - **Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.
+   - **Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.
     
-  - **Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.
+   - **Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.
     
-  - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
+   - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
     
 7. Click **Commit**.
     
@@ -65,7 +65,7 @@ Follow these steps to modify an existing Registrar.
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Security** and then click **Registrar**.
     
@@ -73,11 +73,11 @@ Follow these steps to modify an existing Registrar.
     
 5. In **Edit Registrar Setting**, select one or more of the following depending on the capabilities of the clients and support in your environment:
     
-  - **Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.
+   - **Enable Kerberos authentication** to have the servers in the pool issue challenges using Kerberos authentication.
     
-  - **Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.
+   - **Enable NTLM authentication** to have the servers in the pool issue challenges using NTLM.
     
-  - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
+   - **Enable certificate authentication** to have the servers in the pool issue certificates to clients.
     
 6. Click **Commit**.
     
@@ -85,7 +85,7 @@ Follow these steps to modify an existing Registrar.
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     
 3. In the left navigation bar, click **Security** and then click **Registrar**.
     
@@ -97,7 +97,7 @@ Follow these steps to modify an existing Registrar.
     
 ## Removing Registrar Configuration Settings by Using Windows PowerShell Cmdlets
 
-You can delete the Registrar configuration settings by using Windows PowerShell and the **Remove-CsProxyConfiguration** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can delete the Registrar configuration settings by using Windows PowerShell and the **Remove-CsProxyConfiguration** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To remove a specific set of Registrar security settings
 

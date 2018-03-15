@@ -13,7 +13,7 @@ description: "Returns information about the domains that are included on the lis
 ---
 
 # Get-CsBlockedDomain
-[]
+ 
 Returns information about the domains that are included on the list of domains blocked for federation. By definition, your users are not allowed to use Skype for Business Server 2015 applications to communicate with people from the blocked domain; for example, users cannot use Skype for Business to exchange instant messages with anyone with a Session Initiation Protocol (SIP) account in a domain on the blocked list. This cmdlet was introduced in Lync Server 2010.
   
 ```

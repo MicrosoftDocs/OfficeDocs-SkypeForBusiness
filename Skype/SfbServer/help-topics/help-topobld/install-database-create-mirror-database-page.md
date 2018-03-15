@@ -15,7 +15,7 @@ description: "This is preliminary documentation and is subject to change. Blank 
 ---
 
 # Install Database Create Mirror Database Page
-[]
+ 
 This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
   
 If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder. You select the mirror store to install. Click **Settings** to define any advanced settings.

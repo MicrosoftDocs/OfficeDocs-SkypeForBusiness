@@ -13,7 +13,7 @@ description: "Creates a new third-party video system policy for use with video t
 ---
 
 # New-CsThirdPartyVideoSystemPolicy
-[]
+ 
 Creates a new third-party video system policy for use with video teleconferencing (VTC) devices. These policies determine whether or not the VTC is allowed to send low-resolution video.
   
 This cmdlet was introduced in Skype for Business Server 2015.

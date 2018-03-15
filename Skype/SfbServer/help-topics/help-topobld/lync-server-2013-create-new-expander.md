@@ -15,7 +15,7 @@ description: "You can create new server roles in the Lync Server 2013 node of To
 ---
 
 # Lync Server 2013 Create New Expander
-[]
+ 
 You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.
   
 

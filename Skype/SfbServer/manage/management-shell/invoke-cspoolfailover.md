@@ -13,7 +13,7 @@ description: "Invokes the failover process for a Skype for Business Server 2015 
 ---
 
 # Invoke-CsPoolFailOver
-[]
+ 
 Invokes the failover process for a Skype for Business Server 2015 pool. Failover refers to the process that occurs when a pool fails and the current users of that pool are then signed on to a backup pool. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -62,7 +62,7 @@ Pool failover can only be invoked if you have assigned a backup pool to the fail
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _DatabaseCommandTimeoutInSeconds_ <br/> |Optional  <br/> |System.Int32  <br/> |The amount of time to wait, in seconds, for database commands to time out.  <br/> |
 | _DisasterMode_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, indicates that failover is being performed in "disaster mode." If a pool is no longer accessible the only way to restore full functionality to users in that pool is to fail over the pool by using the DisasterMode parameter.  <br/> If this parameter is not present that means that the pool is still up and running and that failover occurred by administrator choice; for example, the pool might temporarily be failed over in order to do hardware or software upgrades on the server.  <br/> |
-| _FlushStorageService_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, the **Invoke-CsPoolFailOver** cmdlet will both fail over all the users in the pool, and call the[Invoke-CsStorageServiceFlush](invoke-csstorageserviceflush.md) cmdlet to flush the storage service database on each Front End server in the pool. Flushing a database involves writing all the queued data to disk, and then clearing the database cache. <br/> |
+| _FlushStorageService_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, the **Invoke-CsPoolFailOver** cmdlet will both fail over all the users in the pool, and call the [Invoke-CsStorageServiceFlush](invoke-csstorageserviceflush.md) cmdlet to flush the storage service database on each Front End server in the pool. Flushing a database involves writing all the queued data to disk, and then clearing the database cache. <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses the display of any non-fatal error message that might arise when running the command.  <br/> |
 | _ServicesStopDelayMins_ <br/> |Optional  <br/> |System.Int32  <br/> |Specifies a number of minutes to wait for the services to stop.  <br/> |
 | _SkipDataVerification_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When included in a command, Invoke-CsPoolFailback will proceed with the failback operation without first verifying data integrity.  <br/> |
@@ -75,7 +75,7 @@ Pool failover can only be invoked if you have assigned a backup pool to the fail
 | _NoPerformanceCounters_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PrepareForFailoverOnly_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
 | _PromptOnError_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
-| _ServersToIgnore_ <br/> |Optional  <br/> |System.String[]  <br/> |PARAMVALUE: String[]  <br/> |
+| _ServersToIgnore_ <br/> |Optional  <br/> |System.String   <br/> |PARAMVALUE: String   <br/> |
 | _SkipFabricHealthCheck_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |PARAMVALUE: SwitchParameter  <br/> |
    
 ## Input Types

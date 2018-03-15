@@ -14,14 +14,14 @@ description: "Learn how to configure Cloud Connector integration with your Offic
 ---
 
 # Configure Cloud Connector integration with your Office 365 tenant
-[]
+ 
 Learn how to configure Cloud Connector integration with your Office 365 tenant.
   
 Once the Skype for Business Cloud Connector Edition installation is complete, perform the steps in this section to configure your deployment and connect it to your Office 365 tenant.
   
 ## Configure firewall settings
 
-Configure the firewall settings for your internal and external firewall settings for you perimeter network to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in[Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+Configure the firewall settings for your internal and external firewall settings for you perimeter network to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
   
 ## Set up Public Switched Telephone Network (PSTN) gateways
 
@@ -67,7 +67,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> The External Access Edge FQDN used for Peer Destination should be set to a PSTN site that will only be used as a fallback in case a user isn't assigned to a PSTN site. For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> The External Access Edge FQDN used for Peer Destination should be set to a PSTN site that will only be used as a fallback in case a user isn't assigned to a PSTN site. For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 ## Set up PSTN gateways
 

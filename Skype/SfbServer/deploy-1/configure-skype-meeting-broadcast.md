@@ -18,10 +18,10 @@ description: "Summary: Learn about the steps you need to perform to configure Sk
 ---
 
 # Configure your on-premises deployment for Skype Meeting Broadcast
-[]
- **Summary:** Learn about the steps you need to perform to configure Skype Meeting Broadcast for your on-premises Skype for Business Server hybrid deployment.
+ 
+**Summary:** Learn about the steps you need to perform to configure Skype Meeting Broadcast for your on-premises Skype for Business Server hybrid deployment.
   
-Skype Meeting Broadcast is an online service that is part of Office 365. If you are running Skype for Business Server on-premises and want to use Skype Meeting Broadcast in your environment, you'll need to follow the configuration steps in this topic. Before you begin, your environment needs to be configured for hybrid with Skype for Business Online. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Skype Meeting Broadcast is an online service that is part of Office 365. If you are running Skype for Business Server on-premises and want to use Skype Meeting Broadcast in your environment, you'll need to follow the configuration steps in this topic. Before you begin, your environment needs to be configured for hybrid with Skype for Business Online. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## Configure your hybrid environment for Skype Meeting Broadcast
 
@@ -90,6 +90,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Once you've completed these configuration steps you can start using Skype Meeting Broadcast in your deployment. For more information about Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and[Skype Meeting Broadcast Admin Guide](https://go.microsoft.com/fwlink/?LinkId=617075).
+Once you've completed these configuration steps you can start using Skype Meeting Broadcast in your deployment. For more information about Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Skype Meeting Broadcast Admin Guide](https://go.microsoft.com/fwlink/?LinkId=617075).
   
 

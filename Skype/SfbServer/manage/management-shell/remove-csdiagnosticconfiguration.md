@@ -13,7 +13,7 @@ description: "Removes one or more of the diagnostic configuration settings colle
 ---
 
 # Remove-CsDiagnosticConfiguration
-[]
+ 
 Removes one or more of the diagnostic configuration settings collections currently in use in your organization. Diagnostic configuration settings are used to determine whether traffic to or from a given domain or Uniform Resource Identifier (URI) is recorded in your Skype for Business Server 2015 log files. This cmdlet was introduced in Lync Server 2010.
   
 ```

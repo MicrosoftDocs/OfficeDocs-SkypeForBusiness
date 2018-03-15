@@ -15,7 +15,7 @@ description: "The ClientsMobility Policy page displays the mobility policies ava
 ---
 
 # Clients: Mobility Policy
-[]
+ 
 The **Clients** **Mobility Policy** page displays the mobility policies available in your deployment.
   
 ## Tasks you can perform

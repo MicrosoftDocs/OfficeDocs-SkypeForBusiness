@@ -15,8 +15,8 @@ description: "Summary: Choose your topology for Skype for Business Server 2015. 
 ---
 
 # Topology Basics for Skype for Business Server 2015
-[]
- **Summary:** Choose your topology for Skype for Business Server 2015. Learn about server collocation for Skype for Business Server 2015.
+ 
+**Summary:** Choose your topology for Skype for Business Server 2015. Learn about server collocation for Skype for Business Server 2015.
   
 Before preparing anything else, you'll want to know you're planning for the right topology for your deployment of Skype for Business Server 2015. The first thing you need to decide is if you're going to have an on-premises deployment of Skype for Business Server 2015, or if you're going to combine this with a Skype for Business Server Online deployment in a Hybrid deployment. Either way, you're going to want to read further, as we'll detail the on-premises topologies here, but the Hybrid details are documented in their own section.
   

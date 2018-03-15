@@ -15,7 +15,7 @@ description: "You edit the General settings for the Persistent Chat Server or Pe
 ---
 
 # Persistent Chat General Settings Expander
-[]
+ 
 You edit the **General** settings for the Persistent Chat Server or Persistent Chat Server pool by configuring or defining these properties:
   
  **General**

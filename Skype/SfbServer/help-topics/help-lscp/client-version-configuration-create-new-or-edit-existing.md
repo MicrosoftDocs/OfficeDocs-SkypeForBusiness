@@ -15,7 +15,7 @@ description: "Client version configuration settings are used to turn client vers
 ---
 
 # Client Version Configuration: Create New or Edit Existing
-[]
+ 
 Client version configuration settings are used to turn client version control on or off. The Global client version configuration installs with Skype for Business Server and is used to enable or disable client version control for the entire server deployment. When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on. You can disable the Global client version configuration if you do not want any client version control to occur. 
   
 You can also create site-specific client version configurations, allowing you to enable or disable client version control by site. Site-specific configurations take precedence over the Global configuration.
@@ -52,5 +52,5 @@ The following lists describe the menus, command, fields, and properties on the p
     
   - **URL** If you selected **Block with URL** or **Allow with URL**, you can specify the client download URL to include in the error message.
     
-For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation. For details about working with client version configurations, see[Modify the Default Action for Clients Not Explicitly Supported or Restricted](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.
+For details about interoperability among clients and client versions, see [Client Interoperability in Lync 2013 Preview](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in the Planning documentation. For details about working with client version configurations, see [Modify the Default Action for Clients Not Explicitly Supported or Restricted](http://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in the Operations documentation.
 

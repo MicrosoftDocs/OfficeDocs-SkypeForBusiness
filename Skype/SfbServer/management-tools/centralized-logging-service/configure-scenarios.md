@@ -14,8 +14,8 @@ description: "Summary: Learn how to create, modify, and remove scenarios for the
 ---
 
 # Configure scenarios for the Centralized Logging Service in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create, modify, and remove scenarios for the Centralized Logging Service in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to create, modify, and remove scenarios for the Centralized Logging Service in Skype for Business Server 2015.
   
 Scenarios define the scope (that is, global, site, pool, or computer) and what providers to use in the Centralized Logging Service. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. If you find that a scenario needs to be modified to meet your troubleshooting and logging needs, the Skype for Business Server 2015 Debug Tools provides you a Windows PowerShell module named ClsScenarioEdit.psm1 that contains a function namedEdit-CsClsScenario. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Download the Skype for Business Server 2015 [Debugging Tools](https://go.microsoft.com/fwlink/p/?LinkId=285257) before going any further.
   
@@ -38,7 +38,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
   
 As introduced in [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md), the elements of a scenario are:
   
-- **Providers** If you are familiar with OCSLogger, providers are the components that you choose to tell OCSLogger what the tracing engine should collect logs from. The providers are the same components, and in many cases have the same name as the components in OCSLogger. If you are not familiar with OCSLogger, providers are server role specific components that the Centralized Logging Service can collect logs from. For details about the configuration of providers, see[Configure providers for Centralized Logging Service in Skype for Business Server 2015](configure-providers.md).
+- **Providers** If you are familiar with OCSLogger, providers are the components that you choose to tell OCSLogger what the tracing engine should collect logs from. The providers are the same components, and in many cases have the same name as the components in OCSLogger. If you are not familiar with OCSLogger, providers are server role specific components that the Centralized Logging Service can collect logs from. For details about the configuration of providers, see [Configure providers for Centralized Logging Service in Skype for Business Server 2015](configure-providers.md).
     
 - **Identity** The parameter -Identity sets the scope and name of the scenario. For example, you could set a scope of "global" and identify the scenario with "LyssServiceScenario". When you combine the two, you define the Identity (for example, "global/LyssServiceScenario").
     
@@ -181,19 +181,19 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
   ```
 
-    For Example:
+  For Example:
     
   ```
   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
   ```
 
-    The parameters ScenarioName and ProviderName are positional (that is, they must be defined in the expected position in the command line) parameters. The parameter name does not have to be explicitly defined if the scenario name is in position two and the provider is in position three, relative to the name of the cmdlet as position one. Using this information, the previous command would be typed as:
+   The parameters ScenarioName and ProviderName are positional (that is, they must be defined in the expected position in the command line) parameters. The parameter name does not have to be explicitly defined if the scenario name is in position two and the provider is in position three, relative to the name of the cmdlet as position one. Using this information, the previous command would be typed as:
     
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Remove
   ```
 
-    The positional placing of the parameter values applies only to -Scenario and -Provider. All other parameters must be explicitly defined.
+  The positional placing of the parameter values applies only to -Scenario and -Provider. All other parameters must be explicitly defined.
     
 ### To add a provider to a scenario with the Edit-ClsController module
 
@@ -213,7 +213,7 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
 
     -Loglevel can be of the type Fatal, Error, Warning, Info, Verbose, Debug, or All. -Flags can be any of the flags that the provider supports, such as TF_COMPONENT, TF_DIAG. -Flags can also be of value ALL
     
-    The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:
+  The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:
     
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL

@@ -13,14 +13,14 @@ description: "The PurgeSettings table contains information that specifies if (an
 ---
 
 # PurgeSettings table
-[]
+ 
 The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database. Note that purging-related information can also be obtained from within the Skype for Business Server 2015 by running the following command:
   
 ```
 Get-CsCdrConfiguration
 ```
 
-Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](../../manage/management-shell/new-cscdrconfiguration.md) or[Set-CsCdrConfiguration](../../manage/management-shell/set-cscdrconfiguration.md) cmdlets.
+Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](../../manage/management-shell/new-cscdrconfiguration.md) or [Set-CsCdrConfiguration](../../manage/management-shell/set-cscdrconfiguration.md) cmdlets.
   
 This table was introduced in Microsoft Lync Server 2013.
   

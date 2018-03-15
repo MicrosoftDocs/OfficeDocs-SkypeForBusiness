@@ -13,7 +13,7 @@ description: "Creates a new Response Group holiday. In the Response Group applic
 ---
 
 # New-CsRgsHoliday
-[]
+ 
 Creates a new Response Group holiday. In the Response Group application, a holiday represents a day when the agents assigned to a queue, who would typically be working that day, will not be working and will not be available to answer calls. For example, if United States (U.S.)-based workers are given Thanksgiving Day off, then a holiday would be configured for November 22, 2013. This cmdlet was introduced in Lync Server 2010.
   
 ```

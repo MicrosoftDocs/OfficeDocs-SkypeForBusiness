@@ -13,7 +13,7 @@ description: "Modifies an existing collection of instant messaging (IM) archivin
 ---
 
 # Set-CsArchivingConfiguration
-[]
+ 
 Modifies an existing collection of instant messaging (IM) archiving settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

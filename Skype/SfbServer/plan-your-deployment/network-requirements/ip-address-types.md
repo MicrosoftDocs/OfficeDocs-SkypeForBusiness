@@ -15,8 +15,8 @@ description: "Summary: Review the IP Address type considerations below before im
 ---
 
 # Configure IP address types in Skype for Business
-[]
- **Summary:** Review the IP Address type considerations below before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the IP Address type considerations below before implementing Skype for Business Server 2015.
   
 You deploy IP address types by using topology settings that you configure in Topology Builder. This section describes how to deploy IP address types on Front End Servers, Mediation Servers, and Edge Servers.
   

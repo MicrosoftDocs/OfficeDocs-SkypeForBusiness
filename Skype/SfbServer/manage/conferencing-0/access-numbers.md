@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage dial-in conferencing access numbers i
 ---
 
 # Manage dial-in conferencing access numbers in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage dial-in conferencing access numbers in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage dial-in conferencing access numbers in Skype for Business Server 2015.
   
 When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences. These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage. 
   
@@ -99,12 +99,12 @@ You can modify dial-in access numbers by using Skype for Business Server Control
   
 8. In **SIP URI**, do the following:
     
-  - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
+   In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
     
     > [!NOTE]
     > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number. 
   
-  - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
+   In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
     
 9. In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     

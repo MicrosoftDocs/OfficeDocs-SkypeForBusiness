@@ -13,7 +13,7 @@ description: "Removes the Location Information Server (LIS) configuration from t
 ---
 
 # Unpublish-CsLisConfiguration
-[]
+ 
 Removes the Location Information Server (LIS) configuration from the Central Management store. This cmdlet was introduced in Lync Server 2010.
   
 ```

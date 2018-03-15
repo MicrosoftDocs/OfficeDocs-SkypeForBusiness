@@ -14,7 +14,7 @@ description: "This section provides an overview of the fundamental elements that
 ---
 
 # Security framework for Skype for Business Server 2015
-[]
+ 
 This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server 2015. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server 2015 deployment.
   
 These elements are as follows:

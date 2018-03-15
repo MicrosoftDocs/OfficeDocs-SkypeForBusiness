@@ -13,7 +13,7 @@ description: "The Region table is a supporting table. Each record represents one
 ---
 
 # Region table
-[]
+ 
 The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

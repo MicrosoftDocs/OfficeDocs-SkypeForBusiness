@@ -13,7 +13,7 @@ description: "Removes an existing dial-in conferencing access number. Dial-in co
 ---
 
 # Remove-CsDialInConferencingAccessNumber
-[]
+ 
 Removes an existing dial-in conferencing access number. Dial-in conferencing provides a way for users to use a "regular" telephone or mobile phone (that is, a device on the public switched telephone network (PSTN)) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

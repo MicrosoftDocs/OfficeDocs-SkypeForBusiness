@@ -13,7 +13,7 @@ description: "Creates a new Open Authorization (OAuth) server for use by the org
 ---
 
 # New-CsOAuthServer
-[]
+ 
 Creates a new Open Authorization (OAuth) server for use by the organization. OAuth servers, also known as security token servers, issue security tokens used in server-to-server authentication and authorization. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Modifies the security settings on the universal groups created dur
 ---
 
 # Enable-CsAdDomain
-[]
+ 
 Modifies the security settings on the universal groups created during forest preparation. These modifications provide the permissions needed to host and manage users enabled for Skype for Business Server 2015 within the domain. This cmdlet was introduced in Lync Server 2010.
   
 ```

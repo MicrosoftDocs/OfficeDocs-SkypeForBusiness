@@ -15,7 +15,7 @@ description: "The SQL stores node lists the SQL Server databases in your topolog
 ---
 
 # SQL Instances Scope Node
-[]
+ 
 The **SQL stores** node lists the SQL Server databases in your topology. You can perform the following action:
   
 - **New SQL Store**. Starts the **Define New SQL Store** wizard, which you use to add a new SQL Server database to the topology.

@@ -13,7 +13,7 @@ description: "Removes an existing client policy. Among other things, client poli
 ---
 
 # Remove-CsClientPolicy
-[]
+ 
 Removes an existing client policy. Among other things, client policies help determine the features of Skype for Business that are available to users; for example, you might give some users the right to transfer files while denying this right to other users. This cmdlet was introduced in Lync Server 2010.
   
 ```

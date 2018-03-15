@@ -14,7 +14,7 @@ description: "Adds a trusted application to a pool. This cmdlet was introduced i
 ---
 
 # New-CsTrustedApplication
-[]
+ 
 Adds a trusted application to a pool. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,7 +15,7 @@ description: "To Define the Director pool FQDN, select either a Multiple compute
 ---
 
 # Add Director Pool
-[]
+ 
 To **Define the Director pool FQDN**, select either a **Multiple computer pool** that will consist of two or more Directors in a load-balanced pool, or a **Single computer pool**. You must also type the fully qualified domain name (FQDN) that will be used to connect to the Director pool or the single Director's FQDN. For a pool of Director computers, this would be the Domain Name System (DNS) entry for the virtual IP of a hardware load balancer or the shared DNS entry for DNS load balancing.
   
 > [!TIP]

@@ -15,7 +15,7 @@ description: "You can configure Location policies to determine whether Enhanced 
 ---
 
 # Location Policy: Create New or Edit Existing
-[]
+ 
 You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts.
   
 ## UI Reference
@@ -60,6 +60,6 @@ The following list describes the fields on the page.
     
   - **Two-way** Specifies that the third party can participate in the call between the caller and the PSAP operator.
     
-For details about Enterprise Voice emergency service features and capabilities, see [Overview of E9-1-1](http://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in the Planning documentation. For details about working with location policies, see[Configuring Location Policy](http://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.
+For details about Enterprise Voice emergency service features and capabilities, see [Overview of E9-1-1](http://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in the Planning documentation. For details about working with location policies, see [Configuring Location Policy](http://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.
   
 

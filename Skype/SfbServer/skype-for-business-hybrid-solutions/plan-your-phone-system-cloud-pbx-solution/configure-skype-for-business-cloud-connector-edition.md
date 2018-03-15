@@ -19,7 +19,7 @@ description: "Learn how to configure Skype for Business Cloud Connector Edition,
 ---
 
 # Configure and manage Skype for Business Cloud Connector Edition
-[]
+ 
 Learn how to configure Skype for Business Cloud Connector Edition, a minimal on-premises topology to enable integration of your on-premises voice infrastructure with Phone System in Office 365 (Cloud PBX) voice services in Skype for Business Online. 
   
 Before you start, you should review the prerequisites in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).

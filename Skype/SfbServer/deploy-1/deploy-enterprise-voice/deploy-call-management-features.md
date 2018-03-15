@@ -15,7 +15,7 @@ description: "Deploying call management features in Skype for Business Server En
 ---
 
 # Deploy call management features in Skype for Business 2015
-[]
+ 
 Deploying call management features in Skype for Business Server Enterprise Voice.
   
 Enterprise Voice call management features control how incoming calls are routed and answered. Skype for Business Server provides the following call management features: 

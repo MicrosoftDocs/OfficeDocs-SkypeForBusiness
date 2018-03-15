@@ -13,7 +13,7 @@ description: "Returns information about all the partner applications configured 
 ---
 
 # Get-CsPartnerApplication
-[]
+ 
 Returns information about all the partner applications configured for use in the organization. A partner application is any application that Skype for Business Server 2015 can directly exchange security tokens with, without having to exchange those tokens by using a third-party security token server. This cmdlet was introduced in Lync Server 2013.
   
 ```

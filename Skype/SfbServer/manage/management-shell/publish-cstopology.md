@@ -13,7 +13,7 @@ description: "Publishes the Skype for Business Server 2015 topology retrieved by
 ---
 
 # Publish-CsTopology
-[]
+ 
 Publishes the Skype for Business Server 2015 topology retrieved by using the **Get-CsTopology** cmdlet. This cmdlet was introduced in Lync Server 2010.
   
 ```

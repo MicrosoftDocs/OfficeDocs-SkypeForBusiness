@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure an archiving di
 ---
 
 # Configure archiving disclaimers for external users in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure an archiving disclaimer for Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to configure an archiving disclaimer for Skype for Business Server 2015.
   
 If your organization communicates with external partners, you need to let them know that you are archiving communications with them. When you deploy an Edge Server and enable federation for your organization, you are asked whether you want to automatically send an archiving disclaimer to external partners. 
   

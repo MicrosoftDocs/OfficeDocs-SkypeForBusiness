@@ -13,7 +13,7 @@ description: "Removes one or more client version policy rules configured for use
 ---
 
 # Remove-CsClientVersionPolicyRule
-[]
+ 
 Removes one or more client version policy rules configured for use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

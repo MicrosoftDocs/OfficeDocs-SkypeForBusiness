@@ -18,8 +18,8 @@ description: "Summary: Review scenarios for Skype for Business Server 2015 deplo
 ---
 
 # Advanced Edge Server DNS planning for Skype for Business Server 2015
-[]
- **Summary:** Review scenarios for Skype for Business Server 2015 deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
+ 
+**Summary:** Review scenarios for Skype for Business Server 2015 deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   
 When it comes to Domain Name System (DNS) planning for Skype for Business Server 2015, there are a lot of factors that may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
   
@@ -168,24 +168,24 @@ So now that we know all that, if you need automatic requirement for your Skype f
     
   ```
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
-dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
-dnscmd . /zoneadd pool01.contoso.com. /dsprimary
-dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.90
-dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
-dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.91 
-dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
+  dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
+  dnscmd . /zoneadd pool01.contoso.com. /dsprimary
+  dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.90
+  dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
+  dnscmd . /recordadd pool01.contoso.com. @ A 192.168.10.91 
+  dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
   ```
 
     You may have a second SIP domain in your environment. In that case, you'll need the following pin-point zones and A records in your internal DNS:
     
   ```
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
-dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
-dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary
-dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.90
-dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
-dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
-dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
+  dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
+  dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary
+  dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.90
+  dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
+  dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
+  dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
   ```
 
 > [!NOTE]
@@ -223,11 +223,11 @@ For example, if there are three Front End Servers in a pool named pool01.contoso
   
 - Clients running Skype for Business query DNS for pool01.contoso.com. The query returns three IP addresses and caches them as follows (in some order):
     
-|||
-|:-----|:-----|
-|pool01.contoso.com  <br/> |192.168.10.90  <br/> |
-|pool01.contoso.com  <br/> |192.168.10.91  <br/> |
-|pool01.contoso.com  <br/> |192.168.10.92  <br/> |
+   |||
+   |:-----|:-----|
+   |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
 - The client tries to establish a TCP connection to one of the IP addresses. If that fails, it'll try the next IP address it's cached from that list.
     

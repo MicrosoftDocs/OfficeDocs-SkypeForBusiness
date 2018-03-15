@@ -15,7 +15,7 @@ description: "Create, modify or delete unassigned number ranges for Announcement
 ---
 
 # Create or modify an unassigned number range in Skype for Business Server 2015
-[]
+ 
 Create, modify or delete unassigned number ranges for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled.
   
 Skype for Business Server enables you to say what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or a phone. To handle such calls, you set up an unassigned number table. You can use the table to route the calls to an Announcement application or to an Exchange UM server.
@@ -36,32 +36,32 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Voice Features**, and then click **Unassigned Number**.
     
 4. On the **Unassigned Number** page, do one of the following:
     
-  - To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.
+   - To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.
     
     > [!NOTE]
     > After you commit the new unassigned number range to the database, you cannot change this name. 
   
-  - To modify an existing number range, type all or part of the name of the number range in the search field. In the resulting list of number ranges, click the name you want, click **Edit**, and then click **Show details**.
+   - To modify an existing number range, type all or part of the name of the number range in the search field. In the resulting list of number ranges, click the name you want, click **Edit**, and then click **Show details**.
     
 5. In the first **Number range** field, type the beginning number of the range, and in the second **Number range** field, type the ending number of the range.
     
-  - The beginning number of the range must be less than or equal to the ending number of the range.
+   - The beginning number of the range must be less than or equal to the ending number of the range.
     
-  - If the beginning number of the range or the ending number of the range includes an extension number, both the beginning number and the ending number of the range must include an extension, and the extension number must be the same for both the beginning number and the ending number.
+   - If the beginning number of the range or the ending number of the range includes an extension number, both the beginning number and the ending number of the range must include an extension, and the extension number must be the same for both the beginning number and the ending number.
     
-  - The number must match the regular expression (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. This means the number may begin with the string tel: (if you don't specify that string, it will be automatically added for you), a plus sign (+), and a digit 1 through 9. The phone number can be up to 17 digits and may be followed by an extension in the format ;ext= followed by the extension number.
+   - The number must match the regular expression (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. This means the number may begin with the string tel: (if you don't specify that string, it will be automatically added for you), a plus sign (+), and a digit 1 through 9. The phone number can be up to 17 digits and may be followed by an extension in the format ;ext= followed by the extension number.
     
 6. In **Announcement service**, do one of the following: 
     
-  - Click **Announcement**.
+   - Click **Announcement**.
     
-  - Click **Exchange UM**.
+   - Click **Exchange UM**.
     
 7. If, in the previous step, you clicked **Announcement**, do the following:
     
@@ -93,35 +93,35 @@ Use one of the following procedures to configure unassigned number ranges for th
   
     At the command line, do one of the following:
     
-  - To create a number range for an Announcement service, run:
+     - To create a number range for an Announcement service, run:
     
-  ```
-  New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
-  ```
+     ```
+     New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
+     ```
 
-  - Or, to create a number range for Exchange UM Auto Attendant, run:
+   - Or, to create a number range for Exchange UM Auto Attendant, run:
     
-  ```
-  New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
-  ```
+     ```
+     New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
+     ```
 
-    For example:
+     For example:
     
-  ```
-  New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
-  ```
+     ```
+     New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
+     ```
 
-    Or
+     Or
     
-  ```
-  New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
-  ```
+     ```
+     New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
+     ```
 
     The following example shows how to modify the numbers in an existing unassigned number range:
     
-  ```
-  Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
-  ```
+     ```
+     Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
+     ```
 
 ## Delete an unnasigned number range
 
@@ -129,7 +129,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 
 1.  Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Voice Features** and then click **Unassigned Number**.
     
@@ -147,15 +147,15 @@ Use one of the following procedures to configure unassigned number ranges for th
     
 3. At the command line, type:
     
-  ```
-  Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
-  ```
+   ```
+   Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
+   ```
 
     For example:
     
-  ```
-  Remove-CsUnassignedNumber -Identity "Unassigned range 1"
-  ```
+   ```
+   Remove-CsUnassignedNumber -Identity "Unassigned range 1"
+   ```
 
     > [!NOTE]
     > For details about more options, see [Remove-CsCallParkOrbit](../../manage/management-shell/remove-cscallparkorbit.md). 

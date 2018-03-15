@@ -13,7 +13,7 @@ description: "Returns information about the Skype for Business Server 2015 annou
 ---
 
 # Get-CsAnnouncement
-[]
+ 
 Returns information about the Skype for Business Server 2015 announcements configured for use in your organization. Announcements are played when users dial a valid but unassigned phone number. An announcement can be a message (such as "This number is temporarily out of service") or a busy signal. This cmdlet was introduced in Lync Server 2010.
   
 ```

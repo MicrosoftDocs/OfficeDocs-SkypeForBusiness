@@ -13,7 +13,7 @@ description: "The Skype for Business Server 2015 Skype Room Systems v1 (SRS v1, 
 ---
 
 # Deploy SRS v1 Administrative Web Portal in Skype for Business Server 2015
-[]
+ 
 The Skype for Business Server 2015 Skype Room Systems v1 (SRS v1, formerly known as Lync Room System) Administrative Web Portal is a web portal that organizations can use to maintain their Skype Room Systems conference rooms. Administrators can use the SRS v1 Administrative Web Portal to monitor device health, for example by monitoring audio/video devices. With this portal, administrators can remotely collect diagnostic information to monitor conference room health.
   
 To use this feature, the SRS v1 Administrative Web Portal needs to be deployed on every Skype for Business Server Front End Server. This guide provides instructions for administrators on how to install and configure the SRS Administrative Web Portal. It is intended for administrators who have knowledge of Skype for Business Server administration, and who have administrator user rights to modify the Skype for Business Server topology.
@@ -80,9 +80,9 @@ To install the SRS v1 Administrative Web Portal, use the following steps.
   
 1. Configure the Trusted Application Port by running the following cmdlet in Skype for Business Server Management Shell:
     
-  ```
-  Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
-  ```
+   ```
+   Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
+   ```
 
 2. To install the Meeting Room Portal, download **MeetingRoomPortalInstaller.msi** and then run it as an administrator.
     
@@ -92,21 +92,21 @@ To install the SRS v1 Administrative Web Portal, use the following steps.
     
 4. In the Web.Config file, change the PortalUserName to the username created in Step 2 under the section "[Configure your environment for the SRS v1 Administrative Web Portal](room-system-v1-administrative-web-portal.md#Config_Env)" (the recommended name in the step is LRSApp): 
     
-  ```
-  <add key="PortalUserName" value="sip:LRSApp@domain.com" />
-  ```
+    ```
+    <add key="PortalUserName" value="sip:LRSApp@domain.com" />
+    ```
 
 5. Because the SRS v1 Admin Portal is a trusted application, you do not need to provide the password in the portal configuration. If this user is using a different registrar than local registrar, you need to specify the registrar for it by adding the following line in the Web.Config file: 
     
-  ```
-  <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
-  ```
+   ```
+   <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
+   ```
 
 6. If the port used is other than 5061, add the following line in the Web.Config file: 
     
-  ```
-  <add key="PortalUserRegistrarPort" value="5061" />
-  ```
+   ```
+   <add key="PortalUserRegistrarPort" value="5061" />
+   ```
 
 ### Verify Installation of the SRS Administrative Web Portal
 
@@ -225,8 +225,7 @@ When you open https://localhost/lrs, you will be able to see the sign in page, b
       -->
       <add name="TraceLevelSwitch" value="3" />
     </switches>
-</system.diagnostics>
-
+  </system.diagnostics>
   ```
 
 #### Why can't I see the status of SRS in the administrative web portal?

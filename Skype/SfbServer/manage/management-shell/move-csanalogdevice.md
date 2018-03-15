@@ -13,7 +13,7 @@ description: "Moves one or more analog devices to a new Registrar pool. An analo
 ---
 
 # Move-CsAnalogDevice
-[]
+ 
 Moves one or more analog devices to a new Registrar pool. An analog device is a telephone or other device that is connected to the public switched telephone network (PSTN). This cmdlet was introduced in Lync Server 2010.
   
 ```

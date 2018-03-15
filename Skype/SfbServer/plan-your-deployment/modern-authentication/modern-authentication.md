@@ -12,7 +12,7 @@ description: "Planning topics for Modern Authentication for Skype for Business S
 ---
 
 # Plan for Modern Authentication in Skype for Business
-[]
+ 
 Planning topics for Modern Authentication for Skype for Business Server, including integration with other products
   
 ## Modern Authentication Topics

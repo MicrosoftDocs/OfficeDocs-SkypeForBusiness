@@ -14,7 +14,7 @@ description: "Use the Remove-CsTelemetryConfiguration cmdlet to remove an existi
 ---
 
 # Remove-CsTelemetryConfiguration
-[]
+ 
 Use the **Remove-CsTelemetryConfiguration** cmdlet to remove an existing telemetry configuration. UNRESOLVED_TOKEN_VAL(PS_TelemetryDataStatement)
   
 ```

@@ -13,7 +13,7 @@ description: "This article describes how to manage services running in a Skype f
 ---
 
 # Manage services for Skype for Business Server 2015
-[]
+
 This article describes how to manage services running in a Skype for Business Server 2015 topology.
   
 ## View a list of computers running Skype for Business Server 2015
@@ -23,19 +23,13 @@ You can use Skype for Business Server Control Panel to view a list of all the co
   
 ### To view a list of computers running Skype for Business Server
 
-1. From a user account that is assigned to any of the predefined administrative roles for Skype for Business Server 2015, log on to any computer in your internal deployment. For details about the predefined administrative roles available in Skype for Business Server 2015, see **Planning for Role-Based Access Control**.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
-3. In the left navigation bar, click **Topology** and then click **Status**.
-    
+1. From a user account that is assigned to any of the predefined administrative roles for Skype for Business Server 2015, log on to any computer in your internal deployment. For details about the predefined administrative roles available in Skype for Business Server 2015, see **Planning for Role-Based Access Control**.   
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.   
+3. In the left navigation bar, click **Topology** and then click **Status**.   
 4. On the **Status** page, do any of the following as needed:
-    
-  - Sort the list by clicking the **Computer**, **Pool**, or **Site** column heading, and then clicking the up arrow or the down arrow.
-    
-  - Click **Refresh** to view the most up-to-date list.
-    
-  - Search for a specific computer by typing the computer name in the search field.
+   - Sort the list by clicking the **Computer**, **Pool**, or **Site** column heading, and then clicking the up arrow or the down arrow. 
+   - Click **Refresh** to view the most up-to-date list.  
+   - Search for a specific computer by typing the computer name in the search field.
     
 ## View the status of services running on a Skype for Business 2015 server
 <a name="view-status"> </a>
@@ -45,22 +39,16 @@ You can use Skype for Business Server Control Panel to view all the services tha
 ### To view the status of services running on a computer
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
-3. In the left navigation bar, click **Topology**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
+3. In the left navigation bar, click **Topology**. 
 4. On the **Status** page, sort or search the list, as required, to find the computer you're interested in, and then click the computer name.
-    
 5. Do any of the following:
-    
-  - To see the latest status of services running on the computer, click **Get service status**.
-    
-  - To see a list of specific services running on the computer and the status of each service, click **Properties**, and then click **Close** to return to the list.
+   - To see the latest status of services running on the computer, click **Get service status**.
+   - To see a list of specific services running on the computer and the status of each service, click **Properties**, and then click **Close** to return to the list.
     
 ### Viewing service status with Windows Powershell cmdlets
 
-You can also view service status by using Windows PowerShell and the **Get-CsWindowsService** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can also view service status by using Windows PowerShell and the **Get-CsWindowsService** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To view service status
 
@@ -92,24 +80,15 @@ You can use Skype for Business Server Control Panel to view details about each s
 ### To view details for a service
 
 1. From a user account that is assigned to any of the predefined administrative roles for Skype for Business Server 2015, log on to any computer in your internal deployment. For details about the predefined administrative roles available in Skype for Business Server 2015, see **Planning for Role-Based Access Control**.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.
-    
 4. In the **Status** page, sort or search through the list and then click the computer that you want to view.
-    
 5. Click **Properties**.
-    
 6. In the **View Computer Detail** window, sort the list of services, if necessary, and click the service you want to view.
-    
 7. Do any of the following as needed:
-    
-  - To see the latest status of that specific service, click **Get service status**.
-    
-  - To see the details for that specific service, click **Properties** and then click **Close**.
-    
-  - To return to the list of all computers in your topology, click **Close**.
+   - To see the latest status of that specific service, click **Get service status**.
+   - To see the details for that specific service, click **Properties** and then click **Close**.
+   - To return to the list of all computers in your topology, click **Close**.
     
 ## Start or stop Skype for Business Server 2015 services
 <a name="StartStop"> </a>
@@ -125,34 +104,22 @@ You can use Skype for Business Server Control Panel to start or stop all the Sky
 
   ```
 
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.
-    
 4. On the **Status** page, sort or search through the list as needed to find the computer that is running the services you want to start or stop, and then click it.
-    
 5. Click **Action**.
-    
 6. Click **Start All services** or **Stop All services**.
     
 ### To start or stop a specific service
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.
-    
 4. On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.
-    
 5. Click **Properties**.
-    
 6. Sort the list of services, if necessary, and click the service you want to start or stop.
-    
 7. Click **Action**.
-    
 8. Click **Start service** or **Stop service**.
-    
 9. Click **Close**.
     
 ## Prevent sessions for services
@@ -163,35 +130,22 @@ You can use Skype for Business Server Control Panel to prevent new sessions for 
 ### To prevent new sessions for all Skype for Business services on a computer
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.
-    
 4. On the **Status** page, sort or search through the list as needed to find the computer that is running the services for which you want to prevent new sessions, and then click it.
-    
 5. Click **Action**.
-    
 6. Click **Prevent new sessions for all services**.
     
 ### To prevent new sessions for a specific service
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
-    
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
-    
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.
-    
-4. On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.
-    
+4. On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it. 
 5. Click **Properties**.
-    
 6. Sort the list of services, if necessary, and click the service for which you want to prevent new sessions.
-    
 7. Click **Action**.
-    
 8. Click **Prevent new sessions for service**.
-    
 9. Click **Close**.
     
 

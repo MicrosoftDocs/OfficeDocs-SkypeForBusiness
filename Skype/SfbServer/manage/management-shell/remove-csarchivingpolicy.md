@@ -13,7 +13,7 @@ description: "Removes the specified instant messaging (IM) archiving policy. IM 
 ---
 
 # Remove-CsArchivingPolicy
-[]
+ 
 Removes the specified instant messaging (IM) archiving policy. IM archiving policies determine whether Skype for Business Server 2015 will automatically save all IM sessions that take place between internal users, and/or all IM sessions between internal users and federated partners. This cmdlet was introduced in Lync Server 2010.
   
 ```

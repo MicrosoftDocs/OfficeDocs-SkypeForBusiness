@@ -13,7 +13,7 @@ description: "Returns information about client license usage in your organizatio
 ---
 
 # Get-CsClientAccessLicense
-[]
+ 
 Returns information about client license usage in your organization. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -37,7 +37,7 @@ Get-CsClientAccessLicense -MonitoringDatabase "atl-sql-001\Archinst" -LicenseNam
 
 The **Get-CsClientAccessLicense** cmdlet enables administrators to monitor use of their Skype for Business Server 2015 client licenses; this is done by showing client license usage (based on user registrations) during a specified period of time. Note that the cmdlet does not manage your client licenses for you; for example, it will not tell you that you need additional licenses. Instead, the cmdlet simply returns information about the number of licenses that were in use during the specified time period.
   
-You cannot use the **Get-CsClientAccessLicense** cmdlet unless you have enabled the Monitoring Service and call detail recording; that's because registration information is stored in the call detail recording database. Note, too that, as the name suggests, the **Get-CsClientAccessLicense** cmdlet only returns only returns information about your client licenses. If you need information about your server licenses, you can use the[Get-CsService](get-csservice.md) cmdlet to return the fully qualified domain names (FQDN) of all your Skype for Business Server 2015 databases. If the FQDN of a front End server matches the FQDN of a backend database that means you have a Standard license. If the two FQDNs do not match then that means that you have an Enterprise license.
+You cannot use the **Get-CsClientAccessLicense** cmdlet unless you have enabled the Monitoring Service and call detail recording; that's because registration information is stored in the call detail recording database. Note, too that, as the name suggests, the **Get-CsClientAccessLicense** cmdlet only returns only returns information about your client licenses. If you need information about your server licenses, you can use the [Get-CsService](get-csservice.md) cmdlet to return the fully qualified domain names (FQDN) of all your Skype for Business Server 2015 databases. If the FQDN of a front End server matches the FQDN of a backend database that means you have a Standard license. If the two FQDNs do not match then that means that you have an Enterprise license.
   
 You might also encounter instances when the **Get-CsClientAccessLicense** cmdlet returns incorrect license counts. For example:
   

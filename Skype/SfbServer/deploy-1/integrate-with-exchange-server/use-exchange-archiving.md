@@ -14,8 +14,8 @@ description: "Summary: Configure IM transcripts for Exchange Server 2016 or Exch
 ---
 
 # Configure Skype for Business Server 2015 to use Exchange Server archiving
-[]
- **Summary:** Configure IM transcripts for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+ 
+**Summary:** Configure IM transcripts for Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
   
 Skype for Business Server 2015 gives administrators the option of having instant messaging and Web conferencing transcripts archived to a user's Exchange Server 2016 or Exchange Server 2013 mailbox rather than a SQL Server database. If you enable this option, transcripts are written to the Purges folder in the user's mailbox. The Purges folder is a hidden folder found in the Recoverable Items folder. Although this folder is not visible to end users, the folder is indexed by the Exchange search engine and can be discovered by using Exchange mailbox search and/or Microsoft SharePoint Server 2013. Because information is stored in the same folder used by the Exchange In-Place Hold feature (responsible for archiving email and other Exchange communications), administrators can use a single tool to search for all the electronic communications archived for a user.
   

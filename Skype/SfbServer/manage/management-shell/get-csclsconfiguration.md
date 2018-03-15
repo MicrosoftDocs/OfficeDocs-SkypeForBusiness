@@ -13,7 +13,7 @@ description: "Returns information about the centralized logging configuration se
 ---
 
 # Get-CsClsConfiguration
-[]
+ 
 Returns information about the centralized logging configuration settings in use in the organization. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Tests the ability of a pair of users to take part in an audio/vide
 ---
 
 # Test-CsAVConference
-[]
+ 
 Tests the ability of a pair of users to take part in an audio/video (A/V) conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Retrieves information about the Response Group business hour colle
 ---
 
 # Get-CsRgsHoursOfBusiness
-[]
+ 
 Retrieves information about the Response Group business hour collections configured for use in your organization. Business hour collections are used to indicate the days of the week and the times of day when Response Group agents are typically available to answer phone calls. This cmdlet was introduced in Lync Server 2010.
   
 ```

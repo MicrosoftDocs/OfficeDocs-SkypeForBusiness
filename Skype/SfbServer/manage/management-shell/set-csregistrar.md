@@ -13,7 +13,7 @@ description: "Enables you to modify the properties of one or more Registrars. Re
 ---
 
 # Set-CsRegistrar
-[]
+ 
 Enables you to modify the properties of one or more Registrars. Registrars are used to authenticate logon requests, and to maintain information about user status and availability. This cmdlet was introduced in Lync Server 2010.
   
 ```

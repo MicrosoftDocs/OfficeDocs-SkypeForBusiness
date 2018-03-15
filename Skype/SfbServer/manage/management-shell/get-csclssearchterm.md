@@ -13,7 +13,7 @@ description: "Returns information about the centralized logging search terms ava
 ---
 
 # Get-CsClsSearchTerm
-[]
+ 
 Returns information about the centralized logging search terms available for use in the organization. Search terms help define the personally identifiable information available to technical support personnel who are searching the centralized trace logs. Search terms are intended for use with Skype for Business Online.
   
 This cmdlet was introduced in Lync Server 2013. 

@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to configure dial-in confere
 ---
 
 # Configure dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
   
 After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing). 
   
@@ -68,7 +68,7 @@ When you set up a dial plan, you specify the dial-in conferencing region that ap
   
 Because it important to specify a region for all dial plans, we recommend that you verify that all dial plans have conferencing regions. 
   
-To verify whether the region is set for all dial-in conferencing dial plans, use the **Get-CsDialPlan** cmdlet. If the region is missing from dial plans, you can use the **Set-CsDialPlan** cmdlet to set the region. You can also use Skype for Business Server Control Panel to update the region in existing dial plans. For details about using Skype for Business Server Control Panel, see[Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md).
+To verify whether the region is set for all dial-in conferencing dial plans, use the **Get-CsDialPlan** cmdlet. If the region is missing from dial plans, you can use the **Set-CsDialPlan** cmdlet to set the region. You can also use Skype for Business Server Control Panel to update the region in existing dial plans. For details about using Skype for Business Server Control Panel, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md).
   
 ### To verify whether dial plans have the region property set
 
@@ -78,17 +78,17 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 3. Run the following at the command prompt:
     
-  ```
-  Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
-  ```
+   ```
+   Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
+   ```
 
-    For example:
+   For example:
     
-  ```
-  Get-CsDialPlan
-  ```
+   ```
+   Get-CsDialPlan
+   ```
 
-    In this example, all the dial plans configured for your organization are returned.
+   In this example, all the dial plans configured for your organization are returned.
     
 4. Review the returned dial plans to identify any that are missing the dial-in conferencing region. 
     
@@ -102,17 +102,17 @@ For more information, see [Get-CsDialPlan](../../manage/management-shell/get-csd
     
 3. For any dial plans that are missing the dial-in conferencing region, run:
     
-  ```
-  Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
-  ```
+   ```
+   Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
+   ```
 
-    For example:
+   For example:
     
-  ```
-  Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
-  ```
+   ```
+   Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
+   ```
 
-    In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
+   In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
     
 For more information, see [Set-CsDialPlan](../../manage/management-shell/set-csdialplan.md).
   
@@ -139,9 +139,9 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
     
 4. On the **Dial-in Access Number** page, do one of the following:
     
-  - Click **New** to open **New Dial-in Access Number**.
+   - Click **New** to open **New Dial-in Access Number**.
     
-  - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
+   - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
     
     > [!NOTE]
     > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change. 
@@ -157,12 +157,12 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
   
 8. In **SIP URI**, do the following:
     
-  - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
+   - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
     
     > [!NOTE]
     > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number. 
   
-  - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
+   - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
     
 9. In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     
@@ -195,7 +195,7 @@ For more information about configuring conferencing policies, see [Manage confer
 
 Dial-in users enter their phone number or extension and a PIN to join conferences as authenticated users. The telephony **Line URI** specified on Skype for Business Server user accounts is required for authentication.
   
-The procedure in this topic describes how to assign a **Line URI** for a single user account. If you need to assign a **Line URI** for multiple user accounts, you can create a script that uses the **Set-CsUser** cmdlet. For details about using a sample script to assign **Line URI** to multiple user accounts, see[Assign Line URIs to Multiple Users](https://go.microsoft.com/fwlink/p/?linkId=196945).
+The procedure in this topic describes how to assign a **Line URI** for a single user account. If you need to assign a **Line URI** for multiple user accounts, you can create a script that uses the **Set-CsUser** cmdlet. For details about using a sample script to assign **Line URI** to multiple user accounts, see [Assign Line URIs to Multiple Users](https://go.microsoft.com/fwlink/p/?linkId=196945).
   
 1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-UserAdministrator** or **CsAdministrator** role.
     

@@ -13,7 +13,7 @@ description: "Returns information regarding management options for UC phones. Th
 ---
 
 # Get-CsUCPhoneConfiguration
-[]
+ 
 Returns information regarding management options for UC phones. This includes such things as the required security mode and whether or not the phone should automatically be locked after a specified period of inactivity. This cmdlet was introduced in Lync Server 2010.
   
 ```

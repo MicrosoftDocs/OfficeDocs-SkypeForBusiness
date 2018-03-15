@@ -13,7 +13,7 @@ description: "Removes an existing device from the collection of analog devices t
 ---
 
 # Remove-CsAnalogDevice
-[]
+ 
 Removes an existing device from the collection of analog devices that can be managed by using Skype for Business Server 2015. An analog device is a telephone or other device that is connected to the public switched telephone network (PSTN). This cmdlet was introduced in Lync Server 2010.
   
 ```

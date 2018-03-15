@@ -13,7 +13,7 @@ description: "Tests a telephone number against a voice policy and determines whi
 ---
 
 # Test-CsVoicePolicy
-[]
+ 
 Tests a telephone number against a voice policy and determines which voice route would be used against that policy for that number. This cmdlet was introduced in Lync Server 2010.
   
 ```

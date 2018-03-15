@@ -19,10 +19,10 @@ description: "Summary: Learn about Skype for Business Server 2015 integration wi
 ---
 
 # Integration with Exchange and SharePoint
-[]
- **Summary:** Learn about Skype for Business Server 2015 integration with Exchange and SharePoint.
+ 
+**Summary:** Learn about Skype for Business Server 2015 integration with Exchange and SharePoint.
   
-You can configure Skype for Business Server 2015 deployments for integration with Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010, and SharePoint Server, both on-premises and online. The features listed in the following table are supported with all clients unless otherwise specified. For more information about client support, see [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) and Skype for Business Online client comparison tables at[Clients for Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=281902).
+You can configure Skype for Business Server 2015 deployments for integration with Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010, and SharePoint Server, both on-premises and online. The features listed in the following table are supported with all clients unless otherwise specified. For more information about client support, see [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) and Skype for Business Online client comparison tables at [Clients for Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=281902).
   
 ## Integration with Exchange Server
 
@@ -41,7 +41,7 @@ The following tables list the features supported in a hybrid deployment when int
 |IM/Presence in Mobile clients  <br/> ||
 |Join online meetings in Mobile clients  <br/> |For more information, see [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Publish status based on Outlook calendar free/busy information  <br/> ||
-|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see[Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
+|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy-1/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises.  <br/> |
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||

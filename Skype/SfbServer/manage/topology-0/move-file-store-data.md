@@ -13,7 +13,7 @@ description: "If you need to remove the file server that is currently acting as 
 ---
 
 # Move File Store Data to a New File Store in Skype for Business Server 2015
-[]
+ 
 If you need to remove the file server that is currently acting as the file store for your Skype for Business Server 2015 deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:
   
 1. Shut down the Skype for Business Server 2015 services that use the file store that you plan to remove.
@@ -30,7 +30,7 @@ If you need to remove the file server that is currently acting as the file store
 
 1. Log on to a computer as a member of the RTCUniversersalServerAdmins or CsServerAdministrator group where the Skype for Business Server 2015, Administrative Tools are installed.
     
-2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     
 3. In the left navigation bar, click **Topology**, and then click **Status**. 
     
@@ -38,24 +38,24 @@ If you need to remove the file server that is currently acting as the file store
     
 5. Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
     
-6. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server 2015Topology Builder**.
+6. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server 2015 Topology Builder**.
     
 7. Select a server or pool that uses the file store, and do the following:
     
-1. Right-click the server or pool, and then click **Edit Properties**. 
+   a. Right-click the server or pool, and then click **Edit Properties**. 
     
-2. In **Edit properties**, under **Associations**, under **File store**, click **New**.
+   b. In **Edit properties**, under **Associations**, under **File store**, click **New**.
     
-3. In **Define New File Store**, under **File server FQDN**, type the fully qualified domain name (FQDN) of the file server. Under **File share**, type the folder name for the new file share, and then click **OK**.
+   c. In **Define New File Store**, under **File server FQDN**, type the fully qualified domain name (FQDN) of the file server. Under **File share**, type the folder name for the new file share, and then click **OK**.
     
     > [!IMPORTANT]
     > This step defines a new file store for use in Topology Builder. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](http://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx). 
   
 8. For each server or pool that uses the file store, do the following:
     
-1. Right-click the server or pool, and then click **Edit properties**.
+   a. Right-click the server or pool, and then click **Edit properties**.
     
-2. In **Edit Properties**, under **Associations**, in **File store**, select the new file share, and then click **OK**.
+   b. In **Edit Properties**, under **Associations**, in **File store**, select the new file share, and then click **OK**.
     
 9. Publish the topology, check replication status, and then run the Skype for Business Server Deployment Wizard as needed. For details, see [Common Procedures for Removing Lync Servers and Components](http://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
     
@@ -63,10 +63,10 @@ If you need to remove the file server that is currently acting as the file store
     
 11. At the command line, type the following:
     
-  ```
-  Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+     ```
+     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
 
-  ```
+     ```
 
     > [!TIP]
     > The /S switch copies over files, directories and subdirectories. The /XF switch skips any files that are named Meeting.Active. Current versions of the robocopy.exe with the /MT switch greatly increase copy speed by using multiple threads. For the /LOG switch, use a directory path and log file name in the form of C:\Logfiles\log.txt. This switch creates a log file of operations at the named location. 
@@ -81,7 +81,6 @@ If you need to remove the file server that is currently acting as the file store
     
 ## See also
 
-#### 
 
 [Reassign a Server to a Different File Store](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   

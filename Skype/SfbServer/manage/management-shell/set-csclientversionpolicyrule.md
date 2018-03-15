@@ -13,7 +13,7 @@ description: "Modifies one or more client version policy rules currently configu
 ---
 
 # Set-CsClientVersionPolicyRule
-[]
+ 
 Modifies one or more client version policy rules currently configured for use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

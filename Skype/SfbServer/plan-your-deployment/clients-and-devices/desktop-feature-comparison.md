@@ -15,17 +15,17 @@ description: "Summary: Skype for Business Server 2015 or Skype for Business Onli
 ---
 
 # Desktop client feature comparison for Skype for Business
-[]
- **Summary:** Skype for Business Server 2015 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients.
+ 
+**Summary:** Skype for Business Server 2015 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients.
   
  Before you deploy or upgrade to Skype for Business, check which clients are already in use in your organization. Use the tables below to understand the feature support impact on those clients. This can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
   
-Some features available with Skype for Business Server 2015 are not available in Skype for Business Online, see [Online or Hybrid user account limitations](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to[Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
+Some features available with Skype for Business Server 2015 are not available in Skype for Business Online, see [Online or Hybrid user account limitations](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
   
-The following tables show the features that are available with each client that works with Skype for Business Server 2015 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the[Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
+The following tables show the features that are available with each client that works with Skype for Business Server 2015 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
   
 > [!IMPORTANT]
-> Skype for Business Server 2015 and Skype for Business Online support the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and[Client comparison tables for Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
+> Skype for Business Server 2015 and Skype for Business Online support the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Client comparison tables for Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
   
 > [!NOTE]
 > The **Lync 2010 Attendant** client is not supported in Skype for Business Online.
@@ -54,8 +54,7 @@ This table covers the Enhanced Presence features that extend beyond a simple ind
 
 This table covers the features relating to managing IM and Presence contacts. 
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|**Communicator for Mac 2011**|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Pre-populated Contacts list  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||||||
@@ -79,8 +78,7 @@ This table covers the features relating to managing IM and Presence contacts.
 
 This table covers features related to IM support.
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|**Communicator for Mac 2011**|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Initiate IM with or email to a contact  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -102,10 +100,9 @@ This table covers features related to IM support.
 This table covers features related to Meetings support.
   
 > [!NOTE]
->  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.>  In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.>  For details, see the[Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
+>  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.>  In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.>  For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2016 client**|**Skype for Business on Mac**|**Skype for Business Web App**|**Skype for Business 2015 client**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|****Communicator for Mac 2011****|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Add computer audio  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -153,8 +150,6 @@ This table covers features related to voice services support.
 > [!NOTE]
 > Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. > For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
-|
-|
 |**Feature/capability**|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|**Communicator for Mac 2011**|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Initiate a call  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -197,8 +192,6 @@ This table covers features related to support for external users homed on the PS
 
 This table covers features related to support for recording meetings.
   
-|
-|
 |****Feature/capability****|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|****Communicator for Mac 2011****|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Client-side recording of audio, video, application sharing, desktop sharing, and uploaded content  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
@@ -229,8 +222,7 @@ Modern authentication also requires a topology described in [Skype for Business 
 
 This table covers features related to support for archiving and logging functions.
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|****Communicator for Mac 2011****|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Archiving of IM conversations in Outlook Conversation History  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)If server side conversation history is turned on  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||Saved in Communicator for Mac  <br/> |Saved in Lync for Mac  <br/> |
@@ -283,8 +275,6 @@ User accounts can exist either Online or On-premises, and that will affect the f
     
 ## See also
 <a name="Types"> </a>
-
-#### 
 
 [Plan for clients and devices](clients-and-devices.md)
 

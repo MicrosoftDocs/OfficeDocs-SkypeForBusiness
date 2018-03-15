@@ -13,7 +13,7 @@ description: "Modifies existing instances of the Skype for Business Server 2015 
 ---
 
 # Set-CsStorageServiceConfiguration
-[]
+ 
 Modifies existing instances of the Skype for Business Server 2015 Storage Service. The storage service provides a common infrastructure that enables Skype for Business Server 2015 components to use Exchange as a back-end data store. Note that, at this point in time, there are no property values that can be modified by using this cmdlet.
   
 This cmdlet was introduced in Skype for Business Server 2015.

@@ -13,7 +13,7 @@ description: "Enables you to migrate Response Group configuration settings from 
 ---
 
 # Move-CsRgsConfiguration
-[]
+ 
 Enables you to migrate Response Group configuration settings from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

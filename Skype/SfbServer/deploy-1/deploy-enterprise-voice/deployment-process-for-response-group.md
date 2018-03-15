@@ -15,7 +15,7 @@ description: "Deployment process and steps for Response Group in Skype for Busin
 ---
 
 # Deployment process for Response Group in Skype for Business 2015
-[]
+ 
 Deployment process and steps for Response Group in Skype for Business Server Enterprise Voice.
   
 Response Group is an Enterprise Voice feature that routes and queues incoming calls to groups of people, called agents, such as a help desk or a customer service desk.
@@ -24,9 +24,8 @@ The components that Response Group requires are installed and enabled automatica
   
 To configure response groups, you must be a member of at least one of the following administrative roles:
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Active Directory Security Group (1)** <br/> |Create Workflow  <br/> |Assign Manager  <br/> |Create /assign agents, queues  <br/> |Create / manage holiday and business hours  <br/> |Activate / deactivate workflow  <br/> |Configure workflow (IVR or Hunt Group)  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**CsResponseGroupAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
 |**CsResponseGroupManager** <br/> ||√(2)  <br/> |√(3)  <br/> |√(3)  <br/> |√(3)  <br/> |√(3)  <br/> |
 |**CsVoiceAdministrator** <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |√  <br/> |
@@ -79,17 +78,17 @@ To modify the Web.config file, do the following:
     
 3. Add the following  `<machineKey>` section to in the `<system.web>` section:
     
-  ```
-  <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
-  ```
+   ```
+   <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
+   ```
 
 4. Save the Web.config file.
     
 5. Restart the Internet Information Services (IIS) service by running the following command at a command prompt: 
     
-  ```
-  iisreset
-  ```
+   ```
+   iisreset
+   ```
 
 ### Supporting Yi, Meng, and Zang Characters
 

@@ -14,8 +14,8 @@ description: "Summary: Review this topic for information about how to integrate 
 ---
 
 # Plan to integrate Skype for Business and Exchange
-[]
- **Summary:** Review this topic for information about how to integrate Skype for Business Server 2015 with Exchange Server 2016 or Exchange Server 2013.
+ 
+**Summary:** Review this topic for information about how to integrate Skype for Business Server 2015 with Exchange Server 2016 or Exchange Server 2013.
   
 Before you can integrate Skype for Business Server 2015 and Exchange Server, you must ensure that both Exchange Server and Skype for Business Server 2015 are fully installed and up and running. 
   

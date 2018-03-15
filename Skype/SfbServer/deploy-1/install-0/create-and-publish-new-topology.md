@@ -15,8 +15,8 @@ description: "Summary: Learn how to create, publish, and verify a new topology b
 ---
 
 # Create and publish new topology in Skype for Business Server 2015
-[]
- **Summary:** Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+ 
+**Summary:** Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Before you can install the Skype for Business Server system on each of the servers in the topology, you must create a topology and publish it. When you publish a topology, you are loading the topology information into the Central Management Store database. If this is an Enterprise Edition pool, you are creating the Central Management Store database the first time you publish a new topology. If this is Standard Edition, you will need to run the Prepare First Standard Edition Server process from the Deployment Wizard before you publish a topology. This prepares for Standard Edition by installing a SQL Server Express Edition instance and creating the Central Management Store. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. How to create and publish a new topology is described in step 6 of 8.
   
@@ -90,25 +90,25 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
     For scenario one, you are defining a new topology for a new installation. You can approach the installation in one of the two following ways:
     
-  - Leave the check box clear, and define the topology. After you have published, configured, and tested the Front End and Back End Server roles, you can run Topology Builder again to add the role servers to the topology. By using this strategy, you can test the Front End pool and the server running SQL Server without additional complications from additional roles. After you have completed your initial testing, you can run Topology Builder again to select the roles you need to deploy.
+   - Leave the check box clear, and define the topology. After you have published, configured, and tested the Front End and Back End Server roles, you can run Topology Builder again to add the role servers to the topology. By using this strategy, you can test the Front End pool and the server running SQL Server without additional complications from additional roles. After you have completed your initial testing, you can run Topology Builder again to select the roles you need to deploy.
     
-  - Select roles that you need to install, and then set up the hardware to accommodate the selected roles.
+   - Select roles that you need to install, and then set up the hardware to accommodate the selected roles.
     
     For scenario two, you have an existing deployment, and your infrastructure is ready for new roles, or you need to associate existing roles with a new Front End server.
     
-  - In this case, you will select the roles that you intend to deploy or associate with the new Front End server. In either case, you will proceed with the definition of the roles, set up any needed hardware, and proceed with the installation.
+   - In this case, you will select the roles that you intend to deploy or associate with the new Front End server. In either case, you will proceed with the definition of the roles, set up any needed hardware, and proceed with the installation.
     
 7. Next, you will define the SQL Server store that will be used with the topology. In this example, we use the Default instance. For more information about SQL Server features, such as High Availability, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
-  - To use an existing SQL Server store that has already been defined in your topology, select an instance from **SQL store**.
+   - To use an existing SQL Server store that has already been defined in your topology, select an instance from **SQL store**.
     
-  - To define a new SQL Server instance to store pool information, click **New**, and then specify the **SQL Server FQDN** in the **Define New SQL Store** dialog box.
+   - To define a new SQL Server instance to store pool information, click **New**, and then specify the **SQL Server FQDN** in the **Define New SQL Store** dialog box.
     
-  - To specify the name of a SQL Server instance, select **Named Instance**, and then specify the name of the instance.
+   - To specify the name of a SQL Server instance, select **Named Instance**, and then specify the name of the instance.
     
-  - To use the default instance, click **Default instance**.
+   - To use the default instance, click **Default instance**.
     
-  - To use SQL Mirroring, select **Enable SQL mirroring**, and select an existing instance, or create a new instance.
+   - To use SQL Mirroring, select **Enable SQL mirroring**, and select an existing instance, or create a new instance.
     
     For this example, we enter the **SQL Server FQDN**, and configure any relevant high availability settings, and then click **OK**, as shown in the figure.
     
@@ -118,9 +118,9 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
 9. Define the file share that you want to use.
     
-  - To use a file share that has already been defined in your topology, select **Use a previously defined file share**.
+   - To use a file share that has already been defined in your topology, select **Use a previously defined file share**.
     
-  - To define a new file share, select **Define a new file share**, in the **File Server FQDN** box, enter the FQDN of the existing file server where the file share is to reside, and then enter a name for the file share in the **File Share** box.
+   - To define a new file share, select **Define a new file share**, in the **File Server FQDN** box, enter the FQDN of the existing file server where the file share is to reside, and then enter a name for the file share in the **File Share** box.
     
     For this example, we will click **Define a new file store**, enter the **file server FQDN** and **file share**, and then click **Next**.
     
@@ -134,12 +134,12 @@ You can use Skype for Business Server Topology Builder to design, define, config
     > [!IMPORTANT]
     > The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is https://webint.contoso.local, the base URL is webint.contoso.local. 
   
-  - If you are configuring DNS load balancing, as we are in this example, select the **Override internal Web Services pool FQDN** check box, and enter the internal base URL (which must be different from the pool FQDN) in **Internal Base URL**. 
+    - If you are configuring DNS load balancing, as we are in this example, select the **Override internal Web Services pool FQDN** check box, and enter the internal base URL (which must be different from the pool FQDN) in **Internal Base URL**. 
     
     > [!CAUTION]
     > If you decide to override the Internal Web Services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director, or Director pool. **Use only standard characters** (including A-Z, a-z, 0-9, and hyphens) when you define URLs or fully qualified domain names. Do not use Unicode characters or underscores. Nonstandard characters in a URL or FQDN are often not supported by external DNS and public certification authorities (CAs) (that is, when the URL or FQDN must be assigned to the subject name or subject alternative name in the certificate).
   
-  - Optionally, enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain name. For example, your internal domain is contoso.local, but your external domain name is contoso.com. You would define the URL using the contoso.com domain name since it must be resolvable from public DNS. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. HTTP access to the Front End pool is required for instant messaging and presence on mobile clients.
+    - Optionally, enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain name. For example, your internal domain is contoso.local, but your external domain name is contoso.com. You would define the URL using the contoso.com domain name since it must be resolvable from public DNS. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. HTTP access to the Front End pool is required for instant messaging and presence on mobile clients.
     
      ![Override web services.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -209,17 +209,17 @@ You can use Skype for Business Server Topology Builder to design, define, config
   
 10. Optionally click **Advanced**. By using Advanced SQL Server data file placement options, you can select between the following options: 
     
-  - **Automatically determine database file location** - This option determines the best operational performance based on the disk configuration on your SQL Server-based server by distributing the log and data files to the best location.
+    - **Automatically determine database file location** - This option determines the best operational performance based on the disk configuration on your SQL Server-based server by distributing the log and data files to the best location.
     
-  - **Use SQL Server instance defaults** - This option puts log and data files onto the SQL Server-based server by using the instance settings. This option does not use the operational functionality of the SQL Server-based server to determine optimal locations for logs and data. The SQL Server administrator would typically move the log and data files to locations that are appropriate for the SQL Server-based server and organization management procedures.
+    - **Use SQL Server instance defaults** - This option puts log and data files onto the SQL Server-based server by using the instance settings. This option does not use the operational functionality of the SQL Server-based server to determine optimal locations for logs and data. The SQL Server administrator would typically move the log and data files to locations that are appropriate for the SQL Server-based server and organization management procedures.
     
     Click **OK**, and then click **Next**. 
     
 11. Optionally, click **Advanced**. By using Advanced SQL Server data file placement options, you can select between the following options: 
     
-  - **Automatically determine database file location** - This option determines the best operational performance based on the disk configuration on your SQL Server-based server by distributing the log and data files to the best location.
+    - **Automatically determine database file location** - This option determines the best operational performance based on the disk configuration on your SQL Server-based server by distributing the log and data files to the best location.
     
-  - **Use SQL Server instance defaults** - This option puts log and data files onto the SQL Server-based server by using the instance settings. This option does not use the operational functionality of the SQL Server-based server to determine optimal locations for logs and data. The SQL Server administrator would typically move the log and data files to locations that are appropriate for the SQL Server-based server and organization management procedures.
+    - **Use SQL Server instance defaults** - This option puts log and data files onto the SQL Server-based server by using the instance settings. This option does not use the operational functionality of the SQL Server-based server to determine optimal locations for logs and data. The SQL Server administrator would typically move the log and data files to locations that are appropriate for the SQL Server-based server and organization management procedures.
     
     Click **OK**.
     

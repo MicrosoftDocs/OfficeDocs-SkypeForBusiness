@@ -1,7 +1,12 @@
 ---
 title: "SQL Server Reporting Services (Groups)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "In the Specify Read-Only Group, specify the group to whom you want
 ---
 
 # SQL Server Reporting Services (Groups)
-[]
+ 
 In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports. Use the format <domain>\<access group>. For example: contoso\RTCUniversalReadOnlyAdmins.
   
 Assigning a group read-only access is optional. If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.

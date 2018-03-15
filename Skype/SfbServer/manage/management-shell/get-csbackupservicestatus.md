@@ -13,7 +13,7 @@ description: "Returns information about the current state of the backup service 
 ---
 
 # Get-CsBackupServiceStatus
-[]
+ 
 Returns information about the current state of the backup service for a specified pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

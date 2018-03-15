@@ -16,7 +16,7 @@ description: "Skype for Business Server 2015 Audio/video (A/V) conferencing enab
 ---
 
 # Audio Video Conferencing (Planning Tool)
-[]
+ 
 Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.
   
 For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics: 

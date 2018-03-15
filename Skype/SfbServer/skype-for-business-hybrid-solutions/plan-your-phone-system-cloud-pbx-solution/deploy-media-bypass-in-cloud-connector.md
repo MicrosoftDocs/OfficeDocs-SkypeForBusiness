@@ -14,7 +14,7 @@ description: "Read this topic to learn about steps to deploy media bypass with C
 ---
 
 # Deploy media bypass in Cloud Connector Edition
-[]
+ 
 Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later. 
   
 Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path. See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).

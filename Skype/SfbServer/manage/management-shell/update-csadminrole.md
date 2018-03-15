@@ -13,7 +13,7 @@ description: "Updates the role-based access control (RBAC) definitions stored in
 ---
 
 # Update-CsAdminRole
-[]
+ 
 Updates the role-based access control (RBAC) definitions stored in the Central Management database without affecting any other database tables. This cmdlet was introduced in Lync Server 2013.
   
 ```

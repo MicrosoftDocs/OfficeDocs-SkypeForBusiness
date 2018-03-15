@@ -16,7 +16,7 @@ description: "This article lists what online and on-premises topologies are supp
 ---
 
 # Skype for Business topologies supported with Modern Authentication
-[]
+ 
 This article lists what online and on-premises topologies are supported with Modern Authentication in Skype for Business, as well as security features that apply to each topology.
   
 ## Modern Authentication in Skype for Business
@@ -25,8 +25,7 @@ Skype for Business can leverage security advantages of Modern Authentication. Be
   
 Given Skype for Business, Skype for Business online, Exchange Server, and Exchange online, what topologies are supported with MA?
   
-> [!TIP]
-> Not sure what Modern Authentication even is? No worries. [This Skype for Business article](4e6a99cd-7859-4062-8a30-5ac79ba36b52) explains it in the first paragraphs.
+<!--  > [!TIP] > Not sure what Modern Authentication even is? No worries.  This Skype for Business article  4e6a99cd-7859-4062-8a30-5ac79ba36b52  explains it in the first paragraphs. --> 
   
 ### Supported MA topologies in Skype for Business
 
@@ -90,11 +89,14 @@ Mixed topologies involve combinations of SFB split-domain hybrids. These are the
 |Mixed 3  <br/> |![Supported MA with SFB, EXO with MA on, plus EXCH and SFB on premises.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Users homed/mailboxes located: EXO + SFB, or EXCH + SFB  <br/> |No SFB MA features available in this topology  <br/> |No MA features for SFB.  <br/> |
 |Mixed 4  <br/> |![Supported MA with SFB, SFBO with MA on, plus EXCH and SFB.](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> Users homed/mailboxes located: EXCH +SFBO or EXCH + SFB  <br/> |MA is on for SFBO, therefore the authorization server is Azure AD for users homed in SFBO. On-prem users in SFB and EXO use AD.  <br/> |MFA, CBA, CA/MAM with Intune for online users only.\*  <br/> |
 |Mixed 5  <br/> |![Supported MA in SFB, EXO with MA, and SFBO with MA, and EXCH and SFB on premises.](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> Users homed/mailboxes located: EXO + SFBO, EXO + SFB, EXCH + SFBO, or EXCH + SFB  <br/> |MA is on in both EXO and SFBO, therefore the authorization server is Azure AD for users homed in SFBO; on-prem users in EXCH and SFB use AD.  <br/> |MFA, CBA, CA/MAM with Intune for online users only.\*  <br/> |
-|Mixed 6  <br/> |![In a Mixed 6 topology, Modern Authentication is on in all four possibile locations - the ideal situtation when it comes to Modern Auth.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Users homed/mailboxes located: EXO + SFBO, EXO + SFB, EXCH + SFBO, or EXCH + SFB  <br/> |MA is on everywhere, therefore the authorization server is Azure AD for all users. (online and on-premises)  <br/>  Please see[https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview) for deployment steps. <br/> |MFA, CBA and CA/MAM (via Intune) for all users.  <br/> |
+|Mixed 6  <br/> |![In a Mixed 6 topology, Modern Authentication is on in all four possibile locations - the ideal situtation when it comes to Modern Auth.](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> Users homed/mailboxes located: EXO + SFBO, EXO + SFB, EXCH + SFBO, or EXCH + SFB  <br/> |MA is on everywhere, therefore the authorization server is Azure AD for all users. (online and on-premises)  <br/>  Please see [https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview) for deployment steps. <br/> |MFA, CBA and CA/MAM (via Intune) for all users.  <br/> |
    
 \* - MFA includes Windows Desktop, MAC, iOS, Android devices, and Windows Phones; CBA includes Windows Desktop, iOS and Android devices; CA/MAM with Intune, includes Android and iOS devices. 
   
 > [!IMPORTANT]
-> It's very important to note that users may see **multiple prompts** in some cases, notably where the MA state is not the same across all the server resources that clients may need and request, as is the case with all versions of the Mixed topologies.> Also note that in some cases (Mixed 1, 3, and 5 specifically) an [AllowADALForNonLynIndependentOfLync](https://support.microsoft.com/en-us/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) registry key must be set for proper configuration for Windows Desktop Clients.
+> It's very important to note that users may see **multiple prompts** in some cases, notably where the MA state is not the same across all the server resources that clients may need and request, as is the case with all versions of the Mixed topologies.
+
+> [!IMPORTANT]
+> Also note that in some cases (Mixed 1, 3, and 5 specifically) an [AllowADALForNonLynIndependentOfLync](https://support.microsoft.com/en-us/help/3082803/info-about-the-allowadalfornonlyncindependentoflync-setting-in-skype-for-business,-lync-2013,-and-exchange-online) registry key must be set for proper configuration for Windows Desktop Clients.
   
 

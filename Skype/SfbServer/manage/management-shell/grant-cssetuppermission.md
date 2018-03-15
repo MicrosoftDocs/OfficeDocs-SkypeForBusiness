@@ -13,7 +13,7 @@ description: "Grants Skype for Business Server 2015 setup permissions on an Acti
 ---
 
 # Grant-CsSetupPermission
-[]
+ 
 Grants Skype for Business Server 2015 setup permissions on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Read this topic to learn how to check whether you have a Skype for
 ---
 
 # Skype Room System: Skype for Business software license
-[]
+ 
 Read this topic to learn how to check whether you have a Skype for Business software volume license. 
   
 Skype Room System uses an installed Skype for Business client, which requires a software volume license. Before deploying the first Skype Room System, find out the volume license state of the deployment - using Key Management Servers (KMS) or Multiple Activation Keys (MAK).
@@ -26,7 +26,7 @@ From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
 For more information, see [How to discover Office and Windows KMS hosts via DNS and remove unauthorized instances](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
-To set up a KMS, see [KMS activation of Office 2013](https://technet.microsoft.com/en-us/library/ee624357.aspx) and[GVLKs for KMS and Active Directory activation of Office 2013](https://technet.microsoft.com/en-us/library/dn385360.aspx)
+To set up a KMS, see [KMS activation of Office 2013](https://technet.microsoft.com/en-us/library/ee624357.aspx) and [GVLKs for KMS and Active Directory activation of Office 2013](https://technet.microsoft.com/en-us/library/dn385360.aspx)
   
 Office 2013 Generic Volume License Key for Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (This key causes the Skype Room System to look for a KMS on the network.)
   

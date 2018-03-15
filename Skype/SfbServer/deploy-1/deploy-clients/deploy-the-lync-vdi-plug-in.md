@@ -13,7 +13,7 @@ description: "This topic discusses deployment procedures for using Skype for Bus
 ---
 
 # Deploy the Lync VDI plug-in with Skype for Business Server 2015
-[]
+ 
 This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop. 
   
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Their users are on local Windows computers and using clients on a virtual desktop. Using Skype for Business on a connection like that requires additional VDI plug-in software.
@@ -25,7 +25,7 @@ This topic provides details on deploying the Microsoft Lync VDI plug-in, which i
 ## Prepare your environment for the Lync VDI plug-in
 <a name="Prepare_vdi"> </a>
 
-1. In Skype for Business Server 2015, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](../../manage/management-shell/new-csclientpolicy.md) cmdlet and the[Set-CsClientPolicy](../../manage/management-shell/set-csclientpolicy.md) cmdlet.
+1. In Skype for Business Server 2015, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](../../manage/management-shell/new-csclientpolicy.md) cmdlet and the [Set-CsClientPolicy](../../manage/management-shell/set-csclientpolicy.md) cmdlet.
     
 2. On the data center server, install the Skype for Business 2015 client on all virtual desktops.
     

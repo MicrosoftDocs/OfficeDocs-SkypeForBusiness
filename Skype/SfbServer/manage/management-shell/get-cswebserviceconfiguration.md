@@ -13,7 +13,7 @@ description: "Returns information about all the Web Services configuration setti
 ---
 
 # Get-CsWebServiceConfiguration
-[]
+ 
 Returns information about all the Web Services configuration settings in use in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

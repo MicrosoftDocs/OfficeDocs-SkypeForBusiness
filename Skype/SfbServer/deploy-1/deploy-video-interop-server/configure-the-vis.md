@@ -14,8 +14,8 @@ description: "Summary: Configure the Video Interop Server (VIS) role in Skype fo
 ---
 
 # Configure the Video Interop Server in Skype for Business Server 2015
-[]
- **Summary:** Configure the Video Interop Server (VIS) role in Skype for Business Server 2015.
+ 
+**Summary:** Configure the Video Interop Server (VIS) role in Skype for Business Server 2015.
   
  Configure the settings that the VIS will associate with video trunks using Windows PowerShell. A video trunk configuration with global scope is created once the VIS service is installed. This video trunk configuration is applied by the VIS to all trunks which do not have video trunk configuration with a more specific scope. Note that the video trunk configuration is a collection of settings that is applicable to video trunks.
   
@@ -29,36 +29,36 @@ A dial plan with global scope is created per Skype for Business Server deploymen
 
 1. Create a new video trunk configuration (a collection of settings) to use on the trunk between the VIS and CUCM, using the following Windows PowerShell cmdlet:
     
-  ```
-  New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
-  ```
+   ```
+   New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
+   ```
 
     If there is an existing video trunk that needs to be modified, use the following Windows PowerShell cmdlet:
     
-  ```
-  Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
-  ```
+   ```
+   Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
+   ```
 
     To view the settings associated with a particular video trunk configuration, use the following Windows PowerShell cmdlet:
     
-  ```
-  Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
-  ```
+   ```
+   Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
+   ```
 
     To remove a particular video trunk configuration, use the following Windows PowerShell cmdlet (note that the globally scoped video trunk configuration will be applied if there is not a more specifically scoped video trunk configuration for a particular trunk):
     
-  ```
-  Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
-  ```
+   ```
+   Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
+   ```
 
 2. Establish a dial plan to associate with the trunk, using the following Windows PowerShell cmdlets:
     
-  ```
-  New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
-New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
-Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"
-Remove-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/Keep All"
-  ```
+   ```
+   New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
+   New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
+   Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"
+   Remove-CsVoiceNormalizationRule -Identity  "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/Keep All"
+   ```
 
 The **Remove-CsVoiceNormalizationRule** command is needed to override a default rule that will interfere with the expected VIS and CUCM interaction.
 > [!NOTE]

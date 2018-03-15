@@ -13,7 +13,7 @@ description: "Returns information about the diagnostic header configuration sett
 ---
 
 # Get-CsDiagnosticHeaderConfiguration
-[]
+ 
 Returns information about the diagnostic header configuration settings currently in use in your organization. Diagnostic header configuration settings determine whether SIP messages are accompanied by header information. This information can be useful in troubleshooting and error reporting. This cmdlet was introduced in Lync Server 2010.
   
 ```

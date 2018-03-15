@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Item Ancestors operation, which is pa
 ---
 
 # Get Item Ancestors
-[]
- **Summary:** Learn about the Get Item Ancestors operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Item Ancestors operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Item Ancestors operation is part of the Item Service in the Repository API for Call Quality Dashboard.
   
@@ -23,8 +23,7 @@ The Get Item Ancestors operation is part of the Item Service in the Repository A
 
 Get Item Ancestors returns a specific items ancestors from the repository.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |

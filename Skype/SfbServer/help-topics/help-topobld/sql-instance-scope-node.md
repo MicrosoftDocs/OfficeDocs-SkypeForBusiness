@@ -15,7 +15,7 @@ description: "This node shows the fully qualified domain name (FQDN) of this Mic
 ---
 
 # SQL Instance Scope Node
-[]
+ 
 This node shows the fully qualified domain name (FQDN) of this Microsoft SQL Server and the instance of SQL Server on that server, and the pools or servers that use this SQL Server. You can perform the following actions:
   
 - **Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the instance of SQL Server to be used.

@@ -13,7 +13,7 @@ description: "The Publish-CcAppliance cmdlet gets high availability information 
 ---
 
 # Publish-CcAppliance
-[]
+ 
 The Publish-CcAppliance cmdlet gets high availability information from the online tenant configuration and publishes it to the Skype for Business Cloud Connector Edition appliance on the host server. 
   
 ```

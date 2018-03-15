@@ -14,7 +14,7 @@ description: "Guidance on using the Skype for Business Server 2015 Planning Tool
 ---
 
 # Skype for Business Server 2015 Planning Tool
-[]
+ 
 Guidance on using the Skype for Business Server 2015 Planning Tool.
   
 The Skype for Business Server 2015 Planning Tool is a wizard driven, interview-like tool that asks questions about the Skype for Business Server 2015 topology that you are designing. The Planning Tool uses the information supplied, coupled with preferred practices for topology design and capacity, to present a recommended topology based on the answers supplied. You can download the Planning Tool from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725).

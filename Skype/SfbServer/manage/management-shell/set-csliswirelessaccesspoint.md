@@ -13,7 +13,7 @@ description: "Creates a Location Information Server (LIS) wireless access point 
 ---
 
 # Set-CsLisWirelessAccessPoint
-[]
+ 
 Creates a Location Information Server (LIS) wireless access point (WAP), creates an association between a WAP and a location (creating a new location if that location doesn't exist), or modifies an existing WAP and its associated location. The association between a WAP and location is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010.
   
 ```

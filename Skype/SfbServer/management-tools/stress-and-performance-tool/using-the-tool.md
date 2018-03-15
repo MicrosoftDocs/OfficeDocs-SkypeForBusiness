@@ -13,7 +13,7 @@ description: "To run the Skype for Business Server 2015 Stress and Performance T
 ---
 
 # Using the Skype for Business Server 2015 Stress and Performance Tool
-[]
+ 
 To run the Skype for Business Server 2015 Stress and Performance Tool, you'll need to be able to manage both users, contacts and user profiles, configure the tool for running, and then review the output or results that are produced by the tool.
   
 There are four areas involved with running the Skype for Business Server 2015 Stress and Performance Tool (the executable is LyncPerfTool.exe):
@@ -346,7 +346,7 @@ Click **Generate Files** and select the folder where you want to generate the co
 ## Run LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and[Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
+You'll need to create users, contacts, and scenarios before running the Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe). For details about using the tools to perform these actions, see [Create Users and Contacts](using-the-tool.md#BKMK_CreateUsersAndContacts) and [Configure User Profile](using-the-tool.md#BKMK_UserProfile) previously in this article. Running these tools will also generate a file that will run with the Stress and Performance tool as part of a batch file with the required parameters included.
   
 ### Running the Skype for Business Server 2015 Stress and Performance tool
 
@@ -440,7 +440,7 @@ Here's a list of key performance counters:
 |Calls Succeeded  <br/> |Total number of DLX web service requests that returned a successful response code.  <br/> |
 |Calls Failed  <br/> |Total number of DLX web service requests that returned an error response code.  <br/> |
    
- **:**
+
   
 > [!NOTE]
 > The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled. 

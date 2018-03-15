@@ -15,7 +15,7 @@ description: "Use this page to specify the internal IP address and the internal 
 ---
 
 # Add Edge Machine Internal IP 2010
-[]
+ 
 Use this page to specify the internal IP address and the internal fully qualified domain name (FQDN) for the Edge Server.
   
 - In **Internal IPv4 address**, type the IP address of the Edge Server that you want to add to the pool.

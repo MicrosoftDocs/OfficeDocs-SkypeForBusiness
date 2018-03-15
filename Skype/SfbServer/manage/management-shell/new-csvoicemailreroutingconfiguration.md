@@ -13,7 +13,7 @@ description: "Creates settings that, when enabled, provide phone numbers that Sk
 ---
 
 # New-CsVoicemailReroutingConfiguration
-[]
+ 
 Creates settings that, when enabled, provide phone numbers that Skype for Business Server 2015 routes to over public switched telephone network (PSTN) if IP connectivity from Skype for Business Server 2015 in the branch site to the Exchange Server located in the data center is not available. This cmdlet was introduced in Lync Server 2010.
   
 ```

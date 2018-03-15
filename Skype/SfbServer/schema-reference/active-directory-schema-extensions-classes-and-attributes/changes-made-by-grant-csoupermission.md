@@ -13,7 +13,7 @@ description: "To delegate Skype for Business Server administration, you can add 
 ---
 
 # Changes made by Grant-CsOUPermission in Skype for Business Server
-[]
+ 
 To delegate Skype for Business Server administration, you can add permissions to specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access the OUs without being members of the Domain Admins group. 
   
 The **Grant-CsOuPermission** cmdlet grants permissions to objects in the specified OU as specified in the following tables.

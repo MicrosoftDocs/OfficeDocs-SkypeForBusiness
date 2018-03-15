@@ -13,7 +13,7 @@ description: "Verifies that the Central Management service is working correctly.
 ---
 
 # Test-CsManagementServer
-[]
+ 
 Verifies that the Central Management service is working correctly. The Central Management service is responsible for replicating data between the Central Management store and computers running Skype for Business Server.
   
 This cmdlet was introduced in Skype for Business Server 2015.

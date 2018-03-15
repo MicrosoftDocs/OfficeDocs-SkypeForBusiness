@@ -13,7 +13,7 @@ description: "Each record represents one audio stream. One audio media line usua
 ---
 
 # AudioStream table
-[]
+ 
 Each record represents one audio stream. One audio media line usually contains two audio streams.
   
 |****Column****|****Data Type****|****Key/Index****|****Details****|

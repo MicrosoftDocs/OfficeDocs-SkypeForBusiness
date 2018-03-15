@@ -13,7 +13,7 @@ description: "Use the Get-CsVideoTrunk to list properties about the video trunks
 ---
 
 # Get-CsVideoTrunk
-[]
+ 
 Use the **Get-CsVideoTrunk** to list properties about the video trunks in your organization. Video trunks are Session Initiation Protocol (SIP) trunks between the Video Interop Server and a Video Gateway that are used to setup video calls between 3rd party video teleconferencing systems (VTCs) connected to the Video Gateway and Skype conferences or Skype endpoints.
   
 This cmdlet was introduced in Skype for Business Server 2015.

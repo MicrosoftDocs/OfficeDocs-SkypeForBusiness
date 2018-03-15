@@ -13,7 +13,7 @@ description: "Enables you to modify configuration settings for computers running
 ---
 
 # Set-CsAVEdgeConfiguration
-[]
+ 
 Enables you to modify configuration settings for computers running the A/V Edge service (these computers are also known as A/V Edge servers). An A/V Edge server enables internal users to share audio and video data with external users (that is, users who are not logged on to your internal network), as well as exchange files and participate in desktop sharing sessions. This cmdlet was introduced in Lync Server 2010.
   
 ```

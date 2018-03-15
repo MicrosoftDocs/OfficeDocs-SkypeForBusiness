@@ -13,7 +13,7 @@ description: "The Servers table is a supporting table that stores information ab
 ---
 
 # Servers table
-[]
+ 
 The Servers table is a supporting table that stores information about the various servers. Each record in the table represents one server.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

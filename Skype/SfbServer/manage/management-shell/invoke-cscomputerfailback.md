@@ -13,7 +13,7 @@ description: "Use the Invoke-CsComputerFailBack to flag a server as available fo
 ---
 
 # Invoke-CsComputerFailBack
-[]
+ 
 Use the **Invoke-CsComputerFailBack** to flag a server as available for load balancing in a Skype for Business Server 2015 pool. To successfully run this cmdlet you need to run it using an account that has administrator privileges on each server in the source and target pools.
   
 ```

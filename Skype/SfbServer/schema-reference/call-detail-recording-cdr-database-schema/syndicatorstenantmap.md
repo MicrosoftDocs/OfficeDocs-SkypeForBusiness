@@ -13,7 +13,7 @@ description: "The SyndicatorsTenantMap table is for internal use only. This tabl
 ---
 
 # SyndicatorsTenantMap table
-[]
+ 
 The SyndicatorsTenantMap table is for internal use only. This table was introduced in Microsoft Lync Server 2013.
   
 

@@ -13,7 +13,7 @@ description: "Creates a new common area phone that can be managed by using Skype
 ---
 
 # New-CsCommonAreaPhone
-[]
+ 
 Creates a new common area phone that can be managed by using Skype for Business Server 2015. Common area phones are phones that are located in building lobbies, employee lounges, or other areas where they are likely to be used by a number of different people and for a number of different uses. This cmdlet was introduced in Lync Server 2010.
   
 ```

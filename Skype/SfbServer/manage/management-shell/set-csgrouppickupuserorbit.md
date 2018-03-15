@@ -13,7 +13,7 @@ description: "Use the Set-CsGroupPickupUserOrbit cmdlet to modify an Enterprise 
 ---
 
 # Set-CsGroupPickupUserOrbit
-[]
+ 
 Use the **Set-CsGroupPickupUserOrbit** cmdlet to modify an Enterprise Voice user's group pickup orbit number.
   
 ```

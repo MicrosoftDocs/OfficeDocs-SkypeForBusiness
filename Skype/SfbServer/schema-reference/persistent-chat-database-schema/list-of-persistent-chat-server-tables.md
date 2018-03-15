@@ -13,7 +13,7 @@ description: "The Persistent Chat database schema consists of the following tabl
 ---
 
 # List of Persistent Chat Server tables
-[]
+ 
 The Persistent Chat database schema consists of the following tables.
   
 ## Active Directory Sync

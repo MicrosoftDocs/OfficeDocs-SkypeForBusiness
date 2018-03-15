@@ -13,7 +13,7 @@ description: "Modifies an existing collection of conferencing configuration sett
 ---
 
 # Set-CsConferencingConfiguration
-[]
+ 
 Modifies an existing collection of conferencing configuration settings. Conference settings determine such things as the maximum allowed size for meeting content and handouts; the content grace period (that is, the amount of time content will be stored before being deleted); and the URLs for the internal and external downloads of the supported client. This cmdlet was introduced in Lync Server 2010.
   
 ```

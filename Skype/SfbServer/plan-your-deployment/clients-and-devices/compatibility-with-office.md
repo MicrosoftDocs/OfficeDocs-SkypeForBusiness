@@ -14,7 +14,7 @@ description: "Understand the ways you can access Skype for Business features fro
 ---
 
 # Skype for Business compatibility with Office apps
-[]
+ 
 Understand the ways you can access Skype for Business features from Outlook and other Microsoft Office applications.
   
 This topic describes the compatibility of Skype for Business with various versions of Microsoft Office suites. 
@@ -25,7 +25,7 @@ The following table describes the Skype for Business features that are supported
   
 **Skype for Business and Microsoft Office Compatibility**
 
-|**Feature**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015, and 2016**|**Office 2016 for Mac §**|
+|**Feature**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015, and 2016**|**Office 2016 for Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
 |**Outlook features** <br/> ||||
 |Customize Outlook meeting invitations (add logo, help URL, disclaimer, footer text)  <br/> |No  <br/> |Yes  <br/> |No  <br/> |
@@ -43,7 +43,7 @@ The following table describes the Skype for Business features that are supported
 |IM and presence in Microsoft Word and Microsoft Excel files (smart tags enabled)  <br/> |Microsoft Word only  <br/> |Microsoft Word only  <br/> |No  <br/> |
 |IM and presence in Microsoft SharePoint sites (Outlook must be installed)  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
-§ - Assumes you have installed and are currently running a Skype for Business on Mac client or the Lync 2011 for Mac client.
+&#x2776; - Assumes you have installed and are currently running a Skype for Business on Mac client or the Lync 2011 for Mac client.
   
 ## Exchange Server and Skype for Business
 
@@ -54,12 +54,11 @@ The following table describes Skype for Business support for various versions of
 |**Exchange Server version**|**Skype for Business support**|
 |:-----|:-----|
 |Exchange Server 2016  <br/> |Same as Exchange Server 2013 support  <br/> |
-|Exchange Server 2013  <br/> |Same as Exchange Server 2010 support, with the addition of  <br/> • Unified Contact Store  <br/> • High-resolution pictures  <br/> • Archiving integration  <br/> **Note:** For details, see[Integrate Skype for Business Server 2015 with Exchange Server](../../deploy-1/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|Exchange Server 2010  <br/> |The following features are available only through EWS:  <br/> • Read or delete items in the Conversation History folder  <br/> • Read or delete voice mail items  <br/> • Display extended free/busy information and meeting subject and location  <br/> • Exchange contact sync  <br/> Public folders are optional in Exchange Server 2010.  <br/> |
+|Exchange Server 2013  <br/> |Same as Exchange Server 2010 support, with the addition of  <br/>&bull;&nbsp;&nbsp;Unified Contact Store  <br/>&bull;&nbsp;&nbsp;High-resolution pictures  <br/>&bull;&nbsp;&nbsp;Archiving integration  <br/> **Note:** For details, see [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy-1/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2010  <br/> |The following features are available only through EWS:  <br/>&bull;&nbsp;&nbsp;Read or delete items in the Conversation History folder  <br/>&bull;&nbsp;&nbsp;Read or delete voice mail items  <br/>&bull;&nbsp;&nbsp;Display extended free/busy information and meeting subject and location  <br/>&bull;&nbsp;&nbsp;Exchange contact sync  <br/> Public folders are optional in Exchange Server 2010.  <br/> |
    
 ## See also
-
-#### 
+ 
 
 [Windows client requirements and software support](windows-requirements.md)
   

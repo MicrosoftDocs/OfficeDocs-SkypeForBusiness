@@ -15,7 +15,7 @@ description: "Modify Call Park settings in Skype for Business Server Enterprise 
 ---
 
 # Configure Call Park settings in Skype for Business 2015
-[]
+ 
 Modify Call Park settings in Skype for Business Server Enterprise Voice.
   
 If you don't want to use default Call Park settings, you can customize them. When you install the Call Park application, global settings are configured by default. You can modify the global settings, and you can also specify site-specific settings. Use the **New-CsCpsConfiguration** cmdlet to create new site-specific settings. Use the **Set-CsCpsConfiguration** cmdlet to modify existing settings.
@@ -38,18 +38,18 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
     
 2. Run:
     
-  ```
-  New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
-  ```
+   ```
+   New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
+   ```
 
-    > [!TIP]
-    > Use the **Get-CsSite** cmdlet to identify the site. For details, see Lync Server Management Shell documentation.
+   > [!TIP]
+   > Use the **Get-CsSite** cmdlet to identify the site. For details, see Lync Server Management Shell documentation.
   
     For example:
     
-  ```
-  New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
-  ```
+   ```
+   New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
+   ```
 
 ## See also
 

@@ -13,7 +13,7 @@ description: "Returns information about the hosting providers configured for use
 ---
 
 # Get-CsHostingProvider
-[]
+ 
 Returns information about the hosting providers configured for use in your organization. A hosting provider is a third-party organization that provides instant messaging, presence, and related services for a domain that you would like to federate with. Hosting providers differ from public providers (such as Yahoo!, MSN, and AOL) in that their services are not offered to the general public. This cmdlet was introduced in Lync Server 2010.
   
 ```

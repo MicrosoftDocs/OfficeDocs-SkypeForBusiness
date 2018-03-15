@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # External Access Policy: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Reset or Delete External User Access Policies](http://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)

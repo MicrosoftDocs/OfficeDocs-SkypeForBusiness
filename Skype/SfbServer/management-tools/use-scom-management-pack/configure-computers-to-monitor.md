@@ -14,8 +14,8 @@ description: "Summary: Install the Operations Manager agent files on the Skype f
 ---
 
 # Configure the Skype for Business Server computers that will be monitored
-[]
- **Summary:** Install the Operations Manager agent files on the Skype for Business Server 2015 computer to be monitored, and configure the computer to act as a System Center proxy.
+ 
+**Summary:** Install the Operations Manager agent files on the Skype for Business Server 2015 computer to be monitored, and configure the computer to act as a System Center proxy.
   
 Each Skype for Business Server 2015 computer that you want to monitor must be able to self-report its existence to the management server. To enable this process, you must install the Operations Manager agent files on each of the computers to be monitored. After installing the agent files, you must configure the computer to act as a System Center proxy. Be sure that you have first installed and configured Skype for Business Server on these computers before carrying out these procedures.
   

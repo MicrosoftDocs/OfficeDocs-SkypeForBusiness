@@ -13,7 +13,7 @@ description: "Revokes the Skype for Business Server 2015 management permissions 
 ---
 
 # Revoke-CsOUPermission
-[]
+ 
 Revokes the Skype for Business Server 2015 management permissions that have been granted on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010.
   
 ```

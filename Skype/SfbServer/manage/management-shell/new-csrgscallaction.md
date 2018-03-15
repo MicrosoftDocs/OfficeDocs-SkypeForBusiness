@@ -13,7 +13,7 @@ description: "Creates a new Response Group call action. The Response Group appli
 ---
 
 # New-CsRgsCallAction
-[]
+ 
 Creates a new Response Group call action. The Response Group application uses call actions to determine what the system does when a call is received. For example, a call action might specify that a call be transferred to another queue; that a specific Response Group question be asked; or that the call be ended. This cmdlet was introduced in Lync Server 2010.
   
 ```

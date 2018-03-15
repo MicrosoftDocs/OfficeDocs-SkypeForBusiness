@@ -13,7 +13,7 @@ description: "Creates a new collection of conference configuration settings. Con
 ---
 
 # New-CsConferencingConfiguration
-[]
+ 
 Creates a new collection of conference configuration settings. Conference settings determine such things as the maximum-allowed size for conference content and handouts, the content grace period (that is, the amount of time content will be stored before being deleted), and the URLs for the internal and external downloads of the supported client. This cmdlet was introduced in Lync Server 2010.
   
 ```

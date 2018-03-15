@@ -15,7 +15,7 @@ description: "Information on Edge Server Single FQDN Page."
 ---
 
 # Add Edge Server With Single FQDN Page
-[]
+ 
 Information on Edge Server Single FQDN Page.
   
 For information on the Edge Deployment, see [Deploy Edge Server in Skype for Business Server 2015](../../deploy-1/deploy-edge-server/deploy-edge-server.md)

@@ -14,8 +14,8 @@ description: "Summary: Learn about how to use the Call Quality Dashboard. Call Q
 ---
 
 # Use Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 CQD allows IT Pros to use aggregate data to identify focus areas in their environment experiencing media quality issues. It allows an IT Pro to compare statistics for different groups of users and identify trends and patterns. It is not focused on solving individual call issues, but on identifying problems and solutions that will apply to many users in a given environment.
   
@@ -97,8 +97,6 @@ The schema for these tables are defined as follows:
   
 **CqdBuilding**
 
-|
-|
 |**Column**|**Data Type**|**Allow Nulls?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |BuildingKey  <br/> |int  <br/> |No  <br/> |Primary key for the CqdBuilding table.  <br/> |
@@ -118,8 +116,6 @@ The schema for these tables are defined as follows:
    
 **CqdNetwork**
 
-|
-|
 |**Column**|**Data Type**|**Allow Nulls?**|**Details**|
 |:-----|:-----|:-----|:-----|
 |Network  <br/> |varchar(25)  <br/> |No  <br/> |Subnet address.  <br/> |

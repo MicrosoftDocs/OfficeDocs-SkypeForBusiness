@@ -13,7 +13,7 @@ description: "Manages federation configuration settings for your Microsoft Lync 
 ---
 
 # Set-CsTenantFederationConfiguration
-[]
+ 
 Manages federation configuration settings for your Microsoft Lync Online tenants. These settings are used to determine which domains (if any) your users are allowed to communicate with.
   
 The **Set-CsTenantFederationConfiguration** cmdlet can only be used with Skype for Business Online.

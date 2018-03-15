@@ -13,8 +13,8 @@ description: "Summary: Learn how to configure the Persistent Chat Server Complia
 ---
 
 # Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.
   
 Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities. The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:
   

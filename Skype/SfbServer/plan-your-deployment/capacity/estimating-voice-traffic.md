@@ -14,7 +14,7 @@ description: "You can use the following metric to estimate user traffic at each 
 ---
 
 # Estimating voice usage and traffic for Skype for Business Server 2015
-[]
+ 
 You can use the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.
   
 > For **Light traffic** (one PSTN call per user per hour), figure 15 users per port.

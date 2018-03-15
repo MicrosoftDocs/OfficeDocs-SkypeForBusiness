@@ -13,7 +13,7 @@ description: "tblPrincipalMeta contains the principals that have to be refreshed
 ---
 
 # tblPrincipalMeta
-[]
+ 
 tblPrincipalMeta contains the principals that have to be refreshed from Active Directory Domain Services.
   
 **Columns**

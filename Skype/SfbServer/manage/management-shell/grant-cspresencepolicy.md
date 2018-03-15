@@ -13,7 +13,7 @@ description: "Grants a per-user presence policy to a user or group of users. Thi
 ---
 
 # Grant-CsPresencePolicy
-[]
+ 
 Grants a per-user presence policy to a user or group of users. This cmdlet was introduced in Lync Server 2010.
   
 ```

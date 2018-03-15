@@ -13,7 +13,7 @@ description: "The Mcus table is a supporting table. Each record stores informati
 ---
 
 # Mcus table in Skype for Business Server 2015
-[]
+ 
 The Mcus table is a supporting table. Each record stores information about one conferencing service. These can include the IM Conferencing service and the Telephony Conferencing service (which run as processes on front-end servers), and the Web Conferencing service and A/V Conferencing service. 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

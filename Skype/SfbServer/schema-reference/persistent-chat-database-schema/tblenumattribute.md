@@ -13,7 +13,7 @@ description: "tblEnumAttribute is a hardcoded table that contains the Visibility
 ---
 
 # tblEnumAttribute
-[]
+ 
 tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.
   
 **Columns**

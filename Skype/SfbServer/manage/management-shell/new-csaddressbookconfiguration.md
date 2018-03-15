@@ -13,7 +13,7 @@ description: "Creates a new collection of Address Book configuration settings. T
 ---
 
 # New-CsAddressBookConfiguration
-[]
+ 
 Creates a new collection of Address Book configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

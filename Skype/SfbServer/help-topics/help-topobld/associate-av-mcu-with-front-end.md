@@ -15,7 +15,7 @@ description: "All Enterprise Edition Front End pools with Conferencing enabled m
 ---
 
 # Associate AV MCU With Front End
-[]
+ 
 All Enterprise Edition Front End pools with Conferencing enabled must have an A/V Conferencing service collocated, or must use a stand-alone A/V Conferencing pool. Any existing Enterprise Edition Front End pools that currently have an A/V Conferencing service collocated may be selected to use this new stand-alone A/V Conferencing pool instead.
   
 

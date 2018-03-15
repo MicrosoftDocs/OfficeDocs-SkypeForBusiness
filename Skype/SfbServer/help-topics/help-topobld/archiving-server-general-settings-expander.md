@@ -15,7 +15,7 @@ description: "In Topology Builder, you can edit the properties for an individual
 ---
 
 # Archiving Server General Settings Expander
-[]
+ 
 In Topology Builder, you can edit the properties for an individual server running Archiving either by right-clicking the server running Archiving in the console tree and clicking **Action** in the toolbar, or by clicking a task in the Actions pane, and then clicking **Edit Properties** and changing any of the following options:
   
 - **FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as an Server running Archiving.

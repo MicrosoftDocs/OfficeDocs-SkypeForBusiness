@@ -13,7 +13,7 @@ description: "Removes an Address Book normalization rule. Address Book normaliza
 ---
 
 # Remove-CsAddressBookNormalizationRule
-[]
+ 
 Removes an Address Book normalization rule. Address Book normalization rules are used to convert phone numbers to a format readily understood by Skype for Business Server 2015.
   
 This cmdlet was introduced in Skype for Business Server 2015.

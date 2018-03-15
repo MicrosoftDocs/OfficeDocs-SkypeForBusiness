@@ -13,7 +13,7 @@ description: "Removes the specified device update management test device. Test d
 ---
 
 # Remove-CsTestDevice
-[]
+ 
 Removes the specified device update management test device. Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

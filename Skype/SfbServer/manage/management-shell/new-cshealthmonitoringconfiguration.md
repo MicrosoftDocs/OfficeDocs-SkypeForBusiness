@@ -13,7 +13,7 @@ description: "Creates a new collection of health monitoring configuration settin
 ---
 
 # New-CsHealthMonitoringConfiguration
-[]
+ 
 Creates a new collection of health monitoring configuration settings for use in your organization. These settings enable administrators to run quality assurance tests without having to supply the user names and passwords for the required test accounts. This cmdlet was introduced in Lync Server 2010.
   
 ```

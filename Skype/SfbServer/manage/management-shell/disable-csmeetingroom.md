@@ -13,7 +13,7 @@ description: "Disables a Skype for Business Server 2015 meeting room. A meeting 
 ---
 
 # Disable-CsMeetingRoom
-[]
+ 
 Disables a Skype for Business Server 2015 meeting room. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. When you disable a meeting room object you remove all the Skype for Business Server 2015-specific Active Directory attributes assigned to the user account that represents the meeting room. However, the Active Directory user account itself is not deleted. This cmdlet was introduced in Lync Server 2013.
   
 ```

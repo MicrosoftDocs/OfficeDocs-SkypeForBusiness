@@ -13,7 +13,7 @@ description: "Verifies whether or not a user can employ the Skype for Business W
 ---
 
 # Test-CsWebScheduler
-[]
+ 
 Verifies whether or not a user can employ the Skype for Business Web scheduler to schedule an online meeting. This cmdlet was introduced in Lync Server 2013.
   
 ```

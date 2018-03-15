@@ -13,7 +13,7 @@ description: "Imports a set of device update rules downloaded from the Microsoft
 ---
 
 # Import-CsDeviceUpdate
-[]
+ 
 Imports a set of device update rules downloaded from the Microsoft website. Device update rules associate firmware version updates with hardware devices running Skype for Business Phone Edition. This cmdlet was introduced in Lync Server 2010.
   
 ```

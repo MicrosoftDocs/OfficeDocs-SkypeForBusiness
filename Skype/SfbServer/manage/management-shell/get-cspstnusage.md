@@ -13,7 +13,7 @@ description: "Returns information about public switched telephone network (PSTN)
 ---
 
 # Get-CsPstnUsage
-[]
+ 
 Returns information about public switched telephone network (PSTN) usage records used in your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

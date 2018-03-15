@@ -13,7 +13,7 @@ description: "Returns information about the privacy configuration settings curre
 ---
 
 # Get-CsPrivacyConfiguration
-[]
+ 
 Returns information about the privacy configuration settings currently in use in your organization. Privacy configuration settings help determine how much information users make available to other users. This cmdlet was introduced in Lync Server 2010.
   
 ```

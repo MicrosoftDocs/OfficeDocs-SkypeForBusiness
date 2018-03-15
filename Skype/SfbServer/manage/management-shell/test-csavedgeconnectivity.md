@@ -13,7 +13,7 @@ description: "Verifies connectivity through the A/V Edge server. This cmdlet was
 ---
 
 # Test-CsAVEdgeConnectivity
-[]
+ 
 Verifies connectivity through the A/V Edge server. This cmdlet was introduced in Lync Server 2013.
   
 ```

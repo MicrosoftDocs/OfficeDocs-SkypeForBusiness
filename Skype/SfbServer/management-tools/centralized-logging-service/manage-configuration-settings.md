@@ -14,13 +14,19 @@ description: "Summary: Learn how to retrieve, update, and create configuration s
 ---
 
 # Manage Centralized Logging Service configuration settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to retrieve, update, and create configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to retrieve, update, and create configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
   
 The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computer's Centralized Logging Service Agent (CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
   
 > [!IMPORTANT]
->  Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Skype for Business Server 2015 on-premises deployments. Although they may appear to work, the following cmdlets are not designed to function with Skype for Business Server 2015 on-premises deployments:> **CsClsRegion cmdlets:**[Get-CsClsRegion](../../manage/management-shell/get-csclsregion.md) ,[Set-CsClsRegion](../../manage/management-shell/set-csclsregion.md), [New-CsClsRegion](../../manage/management-shell/new-csclsregion.md), and [Remove-CsClsRegion](../../manage/management-shell/remove-csclsregion.md). > **CsClsSearchTerm cmdlets:**[Get-CsClsSearchTerm](../../manage/management-shell/get-csclssearchterm.md) and[Set-CsClsSearchTerm](../../manage/management-shell/set-csclssearchterm.md). > **CsClsSecurityGroup cmdlets:**[Get-CsClsSecurityGroup](../../manage/management-shell/get-csclssecuritygroup.md) ,[Set-CsClsSecurityGroup](../../manage/management-shell/set-csclssecuritygroup.md), [New-CsClsSecurityGroup](../../manage/management-shell/new-csclssecuritygroup.md), and [Remove-CsClsSecurityGroup](../../manage/management-shell/remove-csclssecuritygroup.md). >  The settings defined in these cmdlets will not hinder or cause any adverse behavior, but they are designed for use with Microsoft Office 365 and will not yield the expected results in on-premises deployments. This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.
+>  Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Skype for Business Server 2015 on-premises deployments. Although they may appear to work, the following cmdlets are not designed to function with Skype for Business Server 2015 on-premises deployments:
+
+-  **CsClsRegion cmdlets:** [Get-CsClsRegion](../../manage/management-shell/get-csclsregion.md) ,[Set-CsClsRegion](../../manage/management-shell/set-csclsregion.md), [New-CsClsRegion](../../manage/management-shell/new-csclsregion.md), and [Remove-CsClsRegion](../../manage/management-shell/remove-csclsregion.md). 
+-  **CsClsSearchTerm cmdlets:** [Get-CsClsSearchTerm](../../manage/management-shell/get-csclssearchterm.md) and [Set-CsClsSearchTerm](../../manage/management-shell/set-csclssearchterm.md).  
+-  **CsClsSecurityGroup cmdlets:** [Get-CsClsSecurityGroup](../../manage/management-shell/get-csclssecuritygroup.md), [Set-CsClsSecurityGroup](../../manage/management-shell/set-csclssecuritygroup.md),  [New-CsClsSecurityGroup](../../manage/management-shell/new-csclssecuritygroup.md), and [Remove-CsClsSecurityGroup](../../manage/management-shell/remove-csclssecuritygroup.md). 
+
+The settings defined in these cmdlets will not hinder or cause any adverse behavior, but they are designed for use with Microsoft Office 365 and will not yield the expected results in on-premises deployments. This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.
   
 The Centralized Logging Service can be run at a scope that includes a single computer or a pool of computers, at a site scope (that is, a defined site such as the site Redmond that contains a collection of computer and pools in your deployment), or at a global scope (that is, all computers and pools in your deployment).
   
@@ -39,7 +45,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 > [!NOTE]
 > There are fundamental differences between the command-line commands that you can run in Windows PowerShell or CLSController. Windows PowerShell provides a rich method to configure and define scenarios, and to reuse those scenarios in a meaningful way for your troubleshooting scenarios. While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line. Unlike the Windows PowerShell cmdlets, CLSController cannot define new scenarios, manage scope at a site or global level, and many other limitations of a finite command set that cannot be dynamically configured. While CLSController provides a means for fast execution, Windows PowerShell provides a means to extend the Centralized Logging Service functionality beyond what is possible with CLSController. 
   
-A single computer scope can be defined during the execution of a [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md), [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md), [Start-CsClsLogging](../../manage/management-shell/start-csclslogging.md), [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md), [Sync-CsClsLogging](../../manage/management-shell/sync-csclslogging.md) and[Update-CsClsLogging](../../manage/management-shell/update-csclslogging.md) command using the -Computers parameter. The -Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.
+A single computer scope can be defined during the execution of a [Search-CsClsLogging](../../manage/management-shell/search-csclslogging.md), [Show-CsClsLogging](../../manage/management-shell/show-csclslogging.md), [Start-CsClsLogging](../../manage/management-shell/start-csclslogging.md), [Stop-CsClsLogging](../../manage/management-shell/stop-csclslogging.md), [Sync-CsClsLogging](../../manage/management-shell/sync-csclslogging.md) and [Update-CsClsLogging](../../manage/management-shell/update-csclslogging.md) command using the -Computers parameter. The -Computers parameter accepts a comma separated list of fully qualified domain names (FQDNs) for the target computer.
   
 > [!TIP]
 > You can also define -Pools and a comma separated list of pools that you want to run the logging commands on. 
@@ -47,7 +53,7 @@ A single computer scope can be defined during the execution of a [Search-CsClsLo
 Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Centralized Logging Service cmdlets. The following examples demonstrate how to set a site and a global scope.
   
 > [!IMPORTANT]
-> The commands shown may contain parameters and concepts that are covered in other sections. The example commands are intended to demonstrate the use of the **-Identity** parameter to define scope, and the other parameters are included for completeness and to specify the scope. For details about the **Set-CsClsConfiguration** cmdlets, see[Set-CsClsConfiguration](../../manage/management-shell/set-csclsconfiguration.md) in the Operations documentation.
+> The commands shown may contain parameters and concepts that are covered in other sections. The example commands are intended to demonstrate the use of the **-Identity** parameter to define scope, and the other parameters are included for completeness and to specify the scope. For details about the **Set-CsClsConfiguration** cmdlets, see [Set-CsClsConfiguration](../../manage/management-shell/set-csclsconfiguration.md) in the Operations documentation.
   
 ### To retrieve the current Centralized Logging Service configuration
 
@@ -101,7 +107,7 @@ The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a p
   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
   ```
 
-    For example:
+  For example:
     
   ```
   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
@@ -118,14 +124,14 @@ The command tells the CLSAgent on each computer and pool in the deployment to se
   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
   ```
 
-    For example:
+  For example:
     
   ```
   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40  
   ```
 
-    > [!NOTE]
-    > As noted in the example, the default location of the log files is %TEMP%\Tracing. However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. 
+> [!NOTE]
+> As noted in the example, the default location of the log files is %TEMP%\Tracing. However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. 
   
 The command tells the CLSAgent on each computer and pool in the site Redmond to set the size of the rollover value on the tracing file to 40 megabytes. Computers and pools in other sites will not be affected by the command, and will continue to use the currently configured trace log rollover value defined either by default (20 megabytes) or during the start of the logging session.
 ### To create a new Centralized Logging Service configuration
@@ -139,9 +145,9 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
   ```
 
     > [!NOTE]
-    > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see [Get-CsClsConfiguration](../../manage/management-shell/get-csclsconfiguration.md) and[Understanding Centralized Logging Service Configuration Settings](http://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx). 
+    > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see [Get-CsClsConfiguration](../../manage/management-shell/get-csclsconfiguration.md) and [Understanding Centralized Logging Service Configuration Settings](http://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx). 
   
-    For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:
+For example, to create a new configuration that defines a network folder for cache files, rollover time period for the log files and rollover size for the log files, you would type:
     
   ```
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
@@ -158,14 +164,14 @@ You should carefully plan the creation of new configurations and how you define 
   Remove-CsClsConfiguration -Identity <scope and name>
   ```
 
-    For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:
+For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:
     
   ```
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 
-    > [!NOTE]
-    > This is the new configuration that was created in the procedure "To create a new Centralized Logging Service configuration." 
+> [!NOTE]
+> This is the new configuration that was created in the procedure "To create a new Centralized Logging Service configuration." 
   
 If you choose to remove a site-level configuration, the site will use the global settings.
 ## See also

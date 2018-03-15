@@ -13,7 +13,7 @@ description: "Returns information about your call detail recording (CDR) setting
 ---
 
 # Get-CsCdrConfiguration
-[]
+ 
 Returns information about your call detail recording (CDR) settings. CDR enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This cmdlet was introduced in Lync Server 2010.
   
 ```

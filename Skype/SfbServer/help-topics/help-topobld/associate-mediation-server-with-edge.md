@@ -15,7 +15,7 @@ description: "To define a Mediation Server, specify settings that associate the 
 ---
 
 # Associate Mediation Server With Edge
-[]
+ 
 To define a Mediation Server, specify settings that associate the Mediation Server with a Front End Server and with an Edge Server or pool. To associate the Mediation Server or pool with an Edge Server or Edge Server pool, do the following:
   
 1. From the drop-down list, select the Edge pool or Edge Server to associate with the Mediation Server.

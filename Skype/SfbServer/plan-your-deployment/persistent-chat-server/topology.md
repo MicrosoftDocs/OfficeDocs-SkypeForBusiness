@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn about Persistent Chat Server com
 ---
 
 # Plan Persistent Chat Server topology
-[]
- **Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
+ 
+**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
   
 Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server 2015 Enterprise Edition or Standard Edition Server. 
   
@@ -35,7 +35,7 @@ Persistent Chat Server consists of the following components:
   
 - If compliance is enabled, one or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.
     
-For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements-0.md). 
+For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements-0.md). 
   
 ## Persistent Chat Server topologies
 

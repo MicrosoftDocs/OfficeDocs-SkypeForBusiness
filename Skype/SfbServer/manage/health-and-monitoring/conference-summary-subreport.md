@@ -13,8 +13,8 @@ description: "Summary: Learn about the Conference Summary Subreport in Skype for
 ---
 
 # Conference Summary Subreport in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Conference Summary Subreport in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Conference Summary Subreport in Skype for Business Server 2015.
   
 The Conference Summary Subreport provides an overall view of failed conference sessions. These failed sessions are further broken down by session type: Focus sessions and MCU sessions.
   

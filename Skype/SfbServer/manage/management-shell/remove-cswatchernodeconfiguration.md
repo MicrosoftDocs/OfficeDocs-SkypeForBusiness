@@ -13,7 +13,7 @@ description: "Removes an existing collection of watcher node configuration setti
 ---
 
 # Remove-CsWatcherNodeConfiguration
-[]
+ 
 Removes an existing collection of watcher node configuration settings. Watcher nodes are computers that periodically use System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -53,7 +53,7 @@ Get-CsWatcherNodeConfiguration | Where-Object {$_.TestUsers -contains "sip:kenmy
 
 If you are using Microsoft System Center Operations Manager to monitor Skype for Business Server 2015 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions in order to verify that Skype for Business Server 2015 is working as expected. Watcher nodes are assigned to pools, and are managed using the **CsWatcherNodeConfiguration** cmdlets. Note that you do not need to install watcher nodes if you are using System Center Operations Manager. You can still monitor your system without using watcher nodes; the only difference is that any synthetic transactions you want to run will need to be invoked manually rather than automatically invoked by Operations Manager.
   
-If you later decide to decommission a watcher node you can do so by using the **Remove-CsWatcherNodeConfiguration** cmdlet. Alternatively, you can temporarily disable (and then later re-enable) a watcher node by using the[Set-CsWatcherNodeConfiguration](set-cswatchernodeconfiguration.md) cmdlet.
+If you later decide to decommission a watcher node you can do so by using the **Remove-CsWatcherNodeConfiguration** cmdlet. Alternatively, you can temporarily disable (and then later re-enable) a watcher node by using the [Set-CsWatcherNodeConfiguration](set-cswatchernodeconfiguration.md) cmdlet.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Remove-CsWatcherNodeConfiguration** cmdlet are not available in the Skype for Business Server Control Panel.
   

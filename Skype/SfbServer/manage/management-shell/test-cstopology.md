@@ -13,7 +13,7 @@ description: "Verifies service activation and group permissions for your install
 ---
 
 # Test-CsTopology
-[]
+ 
 Verifies service activation and group permissions for your installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

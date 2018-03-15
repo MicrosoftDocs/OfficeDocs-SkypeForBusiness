@@ -15,7 +15,7 @@ description: "You edit the properties of the Front End Server or Front End pool 
 ---
 
 # Front End General Settings Expander for Lync Server 2010
-[]
+ 
 You edit the properties of the Front End Server or Front End pool by editing or configuring the following attributes. The configuration page is separated into the following sections:
   
  **General**
@@ -35,7 +35,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
     
 - If you selected Conferencing, **Dial-in (PSTN) conferencing** can be selected. Select the check box to enable dial-in conferencing features.
     
-- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see[Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and[Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
     
     **Associations**
     
@@ -65,7 +65,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
 - To configure **External web services**, you define **Listening ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. You also configure the **Published ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. Based on your internal web services configuration and use of load balancers (hardware load balancers and DNS load balancing), adjust the port values to define the listening and published ports.
     
     > [!IMPORTANT]
-    > External web services and the defined listening and published ports are for external clients and devices. External clients and devices use the external web services listening and published ports, typically defined by your reverse proxy along with the defined external web services fully qualified domain name (FQDN). The relationship of the external web services FQDN and the Simple URLs define the uniform resource locator (URL) addresses that external clients will use to access services available for external users and devices. For more details on Simple URLs, see[Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
+    > External web services and the defined listening and published ports are for external clients and devices. External clients and devices use the external web services listening and published ports, typically defined by your reverse proxy along with the defined external web services fully qualified domain name (FQDN). The relationship of the external web services FQDN and the Simple URLs define the uniform resource locator (URL) addresses that external clients will use to access services available for external users and devices. For more details on Simple URLs, see [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
   
  **Mediation Server**
   

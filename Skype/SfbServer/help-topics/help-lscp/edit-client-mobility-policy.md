@@ -15,7 +15,7 @@ description: "On the Edit Mobility Policy dialog, you can edit the details of a 
 ---
 
 # Edit Client Mobility Policy
-[]
+ 
 On the **Edit Mobility Policy** dialog, you can edit the details of a mobility policy.
   
 ## UI Reference

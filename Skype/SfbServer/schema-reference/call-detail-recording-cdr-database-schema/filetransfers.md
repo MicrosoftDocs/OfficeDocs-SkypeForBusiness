@@ -13,7 +13,7 @@ description: "The FileTranfer view stores information about peer-to-peer file tr
 ---
 
 # FileTransfers view
-[]
+ 
 The FileTranfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
   
 > [!NOTE]

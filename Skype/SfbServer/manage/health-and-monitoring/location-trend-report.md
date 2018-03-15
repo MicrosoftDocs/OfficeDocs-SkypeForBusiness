@@ -13,8 +13,8 @@ description: "Summary: Learn about the Location Trend Report in Skype for Busine
 ---
 
 # Location Trend Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Location Trend Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Location Trend Report in Skype for Business Server 2015.
   
 The Location Trend Report provides call quality trend information for network locations.
   

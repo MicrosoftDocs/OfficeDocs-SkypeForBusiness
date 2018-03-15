@@ -13,7 +13,7 @@ description: "Associates a mirror database with a Skype for Business Server 2015
 ---
 
 # Install-CsMirrorDatabase
-[]
+ 
 Associates a mirror database with a Skype for Business Server 2015 database. A database mirror enables you to simultaneously maintain two copies of a database, each copy residing on a different server. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -53,7 +53,7 @@ Skype for Business Server Control Panel: The functions carried out by the **Inst
 | _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
 | _DatabasePathMap_ <br/> |Optional  <br/> |System.Collections.Hashtable  <br/> |Enables you to specify custom folder paths for data files and log files; multiple paths should be separated by using a semicolon (;). For example:  <br/>  `-DatabasePathMap @{"Archiving:DbPath"="\\atl-sql-001.litwareinc.com\db";"Archiving:LogPath"="\\atl-sql-002.litwareinc.com\logs"}` <br/> |
 | _DropExistingDatabasesOnMirror_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When present, deletes any existing copies of the mirrored databases from the server acting as the mirror before new data is copied to that server.  <br/> |
-| _ExcludeDatabaseList_ <br/> |Optional  <br/> |System.String[]  <br/> |List of databases that should not be included in the mirror database; multiple databases can be specified by separating those databases using commas. For example:  <br/>  `-ExcludeDatabaseList "RTCCAB","RTCPROV"` <br/> |
+| _ExcludeDatabaseList_ <br/> |Optional  <br/> |System.String   <br/> |List of databases that should not be included in the mirror database; multiple databases can be specified by separating those databases using commas. For example:  <br/>  `-ExcludeDatabaseList "RTCCAB","RTCPROV"` <br/> |
 | _ForDefaultInstance_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |When specified, instructs the **Install-CsMirrorDatabase** cmdlet to only act against the default SQL Server instance. You cannot use both ForDefaultInstance and ForInstance in the same command. <br/> |
 | _ForInstance_ <br/> |Optional  <br/> |System.String  <br/> |When specified, instructs the **Install-CsMirrorDatabase** cmdlet to only act against the specified SQL Server instance. You cannot use both ForInstance and ForDefaultInstance in the same command. <br/> |
 | _Report_ <br/> |Optional  <br/> |System.String  <br/> |Enables you to specify a file path for the log file created when the cmdlet runs. For example:  <br/>  `-Report "C:\Logs\InstallDatabaseMirror.html"` <br/> |

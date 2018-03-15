@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage call detail recording (CDR) data for 
 ---
 
 # Specify retention of CDR data in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015.
   
 By default, call detail recording (CDR) data is purged after 60 days. You can use the settings on the **Call Detail Recording** page to retain the data for a longer or shorter period of time. If you disable CDR, data that was captured before CDR was enabled will also be subject to purging.
   
@@ -27,7 +27,7 @@ Use the following procedures to configure purge settings for CDR data.
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.
     

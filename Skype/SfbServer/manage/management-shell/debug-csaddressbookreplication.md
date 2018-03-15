@@ -13,7 +13,7 @@ description: "Verifies replication between Active Directory and the Skype for Bu
 ---
 
 # Debug-CsAddressBookReplication
-[]
+ 
 Verifies replication between Active Directory and the Skype for Business Server 2015 Address book service. This cmdlet was introduced in Lync Server 2013.
   
 ```

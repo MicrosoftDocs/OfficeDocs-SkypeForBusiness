@@ -13,13 +13,13 @@ description: "Each record represents one conference session, which could be eith
 ---
 
 # ConferenceSessionDetails table in Skype for Business Server 2015
-[]
+ 
 Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Datetime  <br/> |Primary, Foreign  <br/> |Time of session request; used in conjunction with **SessionIdSeq** to uniquely identify a conference session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a conference session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. * <br/> |
+|**SessionIdTime** <br/> |Datetime  <br/> |Primary, Foreign  <br/> |Time of session request; used in conjunction with **SessionIdSeq** to uniquely identify a conference session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a conference session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |Focus conference URI related to this session. See the [ConferenceUris table in Skype for Business Server 2015](conferenceuris.md) for more information. This URI is a Focus-based conference URI. <br/> |
 |**ConfInstance** <br/> |uniqueIdentifier  <br/> ||Identifier that differentiates between instances of recurring conferences. Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.  <br/> This field was introduced in Microsoft Lync Server 2013.  <br/> |
 |**McuConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |Conferencing server conference URI related to this session. See the [ConferenceUris table in Skype for Business Server 2015](conferenceuris.md) for more information. This URI is the conferencing server-based conference URI. For Focus conference sessions, this column will be null. <br/> |
@@ -30,7 +30,7 @@ Each record represents one conference session, which could be either the session
 |**UserClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Client version used by the conference user. See the [ClientVersions table in Skype for Business Server 2015](clientversions.md) for more information. <br/> |
 |**ConfClientVersionId** <br/> |int  <br/> |Foreign  <br/> |Client version used by the conference server. See the [ClientVersions table in Skype for Business Server 2015](clientversions.md) for more information. <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Foreign  <br/> |ID number to identify the dialog which was replaced by current session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |ID number to identify the session. Used in conjunction with **ReplacesDialogIdTime** to uniquely identify a session that is replaced by this session. See the[Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |ID number to identify the session. Used in conjunction with **ReplacesDialogIdTime** to uniquely identify a session that is replaced by this session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> ||Indicates if the session started by the conferencing Server.  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> ||Indicates if the session ended by the conferencing server.  <br/> |
 |**IsUserInternal** <br/> |bit  <br/> ||Whether user is logged on from internal or not.  <br/> |

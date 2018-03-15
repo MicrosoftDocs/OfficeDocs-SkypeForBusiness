@@ -13,7 +13,7 @@ description: "Creates a new workflow prompt for the Response Group application. 
 ---
 
 # New-CsRgsPrompt
-[]
+ 
 Creates a new workflow prompt for the Response Group application. A workflow prompt is either an audio file that is played or text that is read aloud in order to supply callers with additional information. This cmdlet was introduced in Lync Server 2010.
   
 ```

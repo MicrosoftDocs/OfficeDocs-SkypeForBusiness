@@ -12,7 +12,7 @@ description: "This article will walk you through the steps to configure an exist
 ---
 
 # Deploy and Configure Mobility for Skype for Business Server 2015
-[]
+ 
 This article will walk you through the steps to configure an existing Skype for Business Server 2015 installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features.
   
 Having reviewed the [Plan for Mobility for Skype for Business Server 2015](../plan-your-deployment/mobility.md) article, you should be ready to proceed with the steps below to deploy Mobility into your Skype for Business Server 2015 environment. The steps are as follows (and we're including in this table a permissions list):
@@ -50,9 +50,9 @@ These records can be either A (host) names or CNAME records (you don't have to m
     
 4. Take a moment to see which of the following you have:
     
-  - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
+   - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
     
-  - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
+   - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
     
 5. Once you've noted this, right-click your SIP domain name, and then choose **New Alias (CNAME)** from the menu.
     
@@ -70,9 +70,9 @@ These records can be either A (host) names or CNAME records (you don't have to m
     
 3. Take a moment to see which of the following you have:
     
-  - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
+   - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
     
-  - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
+   - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
     
 4. Once you have that information, you should be able to select an option for creating a **New Alias (CNAME)**.
     
@@ -92,9 +92,9 @@ These records can be either A (host) names or CNAME records (you don't have to m
     
 4. Take a moment to see which of the following you have:
     
-  - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
+   - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
     
-  - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
+   - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
     
 5. Once you've noted this, right-click your SIP domain name, and then choose **New Host (A or AAAA)** from the menu.
     
@@ -116,9 +116,9 @@ These records can be either A (host) names or CNAME records (you don't have to m
     
 3. Take a moment to see which of the following you have:
     
-  - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
+   - Any host A or AAAA records for your Front End Server (Standard or Enterprise) or Front End pool(s).
     
-  - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
+   - Any host A or AAAA records for a Director or Director pool (an optional configuration you may have in your deployment).
     
 4. Once you have that information, you should be able to select an option for creating a **New Host A or AAAA**.
     
@@ -149,9 +149,9 @@ If you have questions about Planning around certificates, we've documented that 
     
 3. It's going to be essential for you to know what certificates have been assigned before you try adding an updated certificate. So at the command, type:
     
-  ```
-  Get-CsCertificate
-  ```
+   ```
+   Get-CsCertificate
+   ```
 
 4. The information from Step 3 will be unique to you. You need to look it over to determine if you have a single certificate that's been assigned for multiple things, or whether you have a different certificate assigned for the different components that need them. The **Use** parameter will tell you how a certificate's being used, and the **Thumbprint** parameter will tell you if it's all the same certificate, or multiple certs.
     
@@ -161,37 +161,37 @@ If you have questions about Planning around certificates, we've documented that 
 
 1. After you've checked to see what SAN entries you have, you know you have a **single certificate** (after checking via the steps above), and you learned you don't have all the entries you need. A new certificate request needs to be made to your CA. Open your Skype for Business Server PowerShell:
     
-  - For a missing Autodiscover Service SAN (replacing the -Ca parameter with your own Certificate Authority path):
+   - For a missing Autodiscover Service SAN (replacing the -Ca parameter with your own Certificate Authority path):
     
-  ```
-  Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
-  ```
+   ```
+   Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
+   ```
 
-  - Now, if you have multiple SIP domains, you can't use the AllSipDomain paramater as in the example above. You'll need to use the DomainName parameter instead. And when you use the DomainName parameter, you've got to define the FQDN for the lyncdiscoverinternal and lyncdiscover records. An example would be (replacing the -Ca parameter with your own Certificate Authority path):
+   - Now, if you have multiple SIP domains, you can't use the AllSipDomain paramater as in the example above. You'll need to use the DomainName parameter instead. And when you use the DomainName parameter, you've got to define the FQDN for the lyncdiscoverinternal and lyncdiscover records. An example would be (replacing the -Ca parameter with your own Certificate Authority path):
     
-  ```
-  Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
-  ```
+   ```
+   Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
+   ```
 
 2. Or, after you've checked to see what SAN entries you have, you found you have **multiple certificates** that don't have all the entries you need. A new certificate request needs to be made to your CA. Open your Skype for Business Server PowerShell:
     
-  - For a missing Autodiscover Service SAN (replacing the -Ca parameter with your own Certificate Authority path):
+   - For a missing Autodiscover Service SAN (replacing the -Ca parameter with your own Certificate Authority path):
     
-  ```
-  Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
-  ```
+   ```
+   Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
+   ```
 
-  - Now, if you have multiple SIP domains, you can't use the AllSipDomain paramater as in the example above. You'll need to use the DomainName parameter instead. And when you use the DomainName parameter, you've got to define the FQDN for the lyncdiscoverinternal and lyncdiscover records. Examples would be (replacing the -Ca parameter with your own Certificate Authority path):
+   - Now, if you have multiple SIP domains, you can't use the AllSipDomain paramater as in the example above. You'll need to use the DomainName parameter instead. And when you use the DomainName parameter, you've got to define the FQDN for the lyncdiscoverinternal and lyncdiscover records. Examples would be (replacing the -Ca parameter with your own Certificate Authority path):
     
-  ```
-  Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
-  ```
+   ```
+   Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
+   ```
 
-  ```
-  Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
-  ```
+   ```
+   Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
+   ```
 
-  - Once the new certificates have been generated by the CA, you're going to need to assign them.
+   - Once the new certificates have been generated by the CA, you're going to need to assign them.
     
 ### Assign certificates using Skype for Business Server Management Shell
 
@@ -207,8 +207,8 @@ If you have questions about Planning around certificates, we've documented that 
     
   ```
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
-Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
-Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
+  Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
+  Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
   ```
 
 ### Viewing certificates in the Microsoft Management Console (MMC)
@@ -230,15 +230,15 @@ Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
     
 7. You'll also need to check the **Subject Alternate Name** entries. You'll find one or more of the following:
     
-  - The pool name for this pool, or the single server name if this isn't a pool.
+   - The pool name for this pool, or the single server name if this isn't a pool.
     
-  - The server name that the certificate is assigned to.
+   - The server name that the certificate is assigned to.
     
-  - Simple URL records, typically meet and dialin.
+   - Simple URL records, typically meet and dialin.
     
-  - Web Services internal and Web Services external names (for example, webpool01.contoso.net, webpool01.contoso.com), based on choices made in Topology Builder and over-ridden Web Services selections.
+   - Web Services internal and Web Services external names (for example, webpool01.contoso.net, webpool01.contoso.com), based on choices made in Topology Builder and over-ridden Web Services selections.
     
-  - If already assigned, the lyncdiscover.\<sipdomain\> and lyncdiscoverinternal.\<sipdomain\> records.
+   - If already assigned, the lyncdiscover.\<sipdomain\> and lyncdiscoverinternal.\<sipdomain\> records.
     
     You'll need to check multiple certificates if you have more than one assigned (check the Note above).
     
@@ -290,41 +290,41 @@ We have two main things to consider:
     
 3. Typically, you will need to enter the following information:
     
-  - **Name**: the name for your rule
+   - **Name**: the name for your rule
     
-  - **Rule Action**: In this case it's an **Allow** rule, you're letting something pass through your Reverse proxy.
+   - **Rule Action**: In this case it's an **Allow** rule, you're letting something pass through your Reverse proxy.
     
-  - The **Publishing** rule or option you're choosing would be **single web site or load balancer**.
+   - The **Publishing** rule or option you're choosing would be **single web site or load balancer**.
     
-  - This needs to be **SSL** for external access, choose that option.
+   - This needs to be **SSL** for external access, choose that option.
     
-  - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the external Web Services on your Front End pool's load balancer (or the FQDN of the Director pool's load balancer if you have one), an example would be sfb_pool01.contoso.local.
+   - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the external Web Services on your Front End pool's load balancer (or the FQDN of the Director pool's load balancer if you have one), an example would be sfb_pool01.contoso.local.
     
-  - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
+   - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
     
-  - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
+   - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
     
-  - **Accept requests**, but it should be for the domain name.
+   - **Accept requests**, but it should be for the domain name.
     
-  - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
+   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
     
-  - There will be a **Path** option, and you'll need to enter **/\*** here.
+   - There will be a **Path** option, and you'll need to enter **/\*** here.
     
-  - You'll need to select a **SSL Listener** with your up-to-date public certificate.
+   - You'll need to select a **SSL Listener** with your up-to-date public certificate.
     
-  - **Authentication Delegation** should be set to **No delegation**, but direct client authentication **should** be allowed.
+   - **Authentication Delegation** should be set to **No delegation**, but direct client authentication **should** be allowed.
     
-  - The rule should be set to **All users**.
+   - The rule should be set to **All users**.
     
-  - This should be all the information you need to create this rule and allow you to proceed.
+   - This should be all the information you need to create this rule and allow you to proceed.
     
 4. You're going to need to ensure that the **original host header** is forwarded.
     
 5. The **Web Server** ports will need to be set as well, you'll need to do the following:
     
-  - **Redirect requests to HTTP port** and the port number should be **8080**.
+   - **Redirect requests to HTTP port** and the port number should be **8080**.
     
-  - **Redirect requests to SSL port** and the port number should be **4443**.
+   - **Redirect requests to SSL port** and the port number should be **4443**.
     
 6. When everything's configured, you'll need to save or apply these, and then you'll want to test the rule.
     
@@ -336,39 +336,39 @@ We have two main things to consider:
     
 3. Typically, you will need to enter the following information:
     
-  - **Name**: the name for your rule
+   - **Name**: the name for your rule
     
-  - **Rule Action**: In this case it's an **Allow** rule, you're letting something pass through your Reverse proxy.
+   - **Rule Action**: In this case it's an **Allow** rule, you're letting something pass through your Reverse proxy.
     
-  - The **Publishing** rule or option you're choosing would be **single web site or load balancer**.
+   - The **Publishing** rule or option you're choosing would be **single web site or load balancer**.
     
-  - This needs to be a **non-secured connection to connect to the published Web server or farm**.
+   - This needs to be a **non-secured connection to connect to the published Web server or farm**.
     
-  - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the **VIP address** of your Front End pool's load balancer, an example would be sfb_pool01.contoso.local.
+   - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the **VIP address** of your Front End pool's load balancer, an example would be sfb_pool01.contoso.local.
     
-  - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
+   - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
     
-  - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
+   - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
     
-  - **Accept requests**, but it should be for the domain name.
+   - **Accept requests**, but it should be for the domain name.
     
-  - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL).
+   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL).
     
-  - There will be a **Path** option, and you'll need to enter **/\*** here.
+   - There will be a **Path** option, and you'll need to enter **/\*** here.
     
-  - You'll need to select a web listener, or allow your Reverse proxy to create one for you.
+   - You'll need to select a web listener, or allow your Reverse proxy to create one for you.
     
-  - **Authentication Delegation** should be set to **No delegation**, but direct client authentication **should not** be allowed.
+   - **Authentication Delegation** should be set to **No delegation**, but direct client authentication **should not** be allowed.
     
-  - The rule should be set to **All users**.
+   - The rule should be set to **All users**.
     
-  - This should be all the information you need to create this rule and allow you to proceed.
+   - This should be all the information you need to create this rule and allow you to proceed.
     
 4. The **Web Server** ports will need to be set, you'll need to do the following:
     
-  - **Redirect requests to HTTP port** and the port number should be **8080**.
+   - **Redirect requests to HTTP port** and the port number should be **8080**.
     
-  - **Redirect requests to SSL port** and the port number should be **4443**.
+   - **Redirect requests to SSL port** and the port number should be **4443**.
     
 5. When everything's configured, you'll need to save or apply these, and then you'll want to test the rule.
     
@@ -410,19 +410,19 @@ For Lync Server 2010 clients, you'll need to run **Test-CsMcxP2PIM** to test. Yo
     
 3. At the command line, enter:
     
-  ```
-  Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
-  ```
+   ```
+   Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
+   ```
 
-    It's also possible to set credentials in a script and pass them to the test cmdlet. We have an example of this below.
+   It's also possible to set credentials in a script and pass them to the test cmdlet. We have an example of this below.
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-$passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-$testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-$testuser2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-Test-CsUcwaConference -TargetFqdn pool01.contoso.com -Authentication Negotiate -OrganizerSipAddress sip:UserName1@contoso.com -OrganizerCredential $testuser1 -ParticipantSipAddress sip:UserName2@contoso.com -ParticipantCredential $testuser2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $testuser2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsUcwaConference -TargetFqdn pool01.contoso.com -Authentication Negotiate -OrganizerSipAddress sip:UserName1@contoso.com -OrganizerCredential $testuser1 -ParticipantSipAddress sip:UserName2@contoso.com -ParticipantCredential $testuser2 -v
+   ```
 
 ### Test conferencing for Lync 2010 mobile clients
 
@@ -432,21 +432,21 @@ Test-CsUcwaConference -TargetFqdn pool01.contoso.com -Authentication Negotiate -
     
 3. At the command line, enter:
     
-  ```
-  Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
-  ```
+   ```
+   Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
+   ```
 
-    It's also possible to set credentials in a script and pass them to the test cmdlet. We have an example of this below.
+   It's also possible to set credentials in a script and pass them to the test cmdlet. We have an example of this below.
     
   ```
   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-$passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-$tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-$tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
   ```
 
-To review the command procedures further, you can check out [Test-CsUcwaConference](../manage/management-shell/test-csucwaconference.md) and[Test-CsMcxP2PIM](../manage/management-shell/test-csmcxp2pim.md).
+To review the command procedures further, you can check out [Test-CsUcwaConference](../manage/management-shell/test-csucwaconference.md) and [Test-CsMcxP2PIM](../manage/management-shell/test-csmcxp2pim.md).
   
 ## Configure for push notifications
 <a name="ConfigPush"> </a>
@@ -469,24 +469,24 @@ This functionality is unchanged from Lync Server 2013, but if you have a Skype f
     
 3. Add a Skype for Business Server online hosting provider.
     
-  ```
-  New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
-  ```
+   ```
+   New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
+   ```
 
-    As an example:
+   As an example:
     
-  ```
-  New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
-  ```
+   ```
+   New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
+   ```
 
     > [!NOTE]
     > You can't have more than one federation relationship with a single hosting provider. So, if you've already set up a hosting provider that has a federation relationship with sipfed.online.lync.com, don't add another hosting provider for it, even if the identity of the hosting provider is something other than SkypeOnline. 
   
 4. Set up the hosting provider federation between your organization and the Push Notification Service at Skype for Business Online. At the command line, you'll need to type:
     
-  ```
-  New-CsAllowedDomain -Identity "push.lync.com"
-  ```
+   ```
+    New-CsAllowedDomain -Identity "push.lync.com"
+   ```
 
 ### Enable push notifications
 
@@ -496,15 +496,15 @@ This functionality is unchanged from Lync Server 2013, but if you have a Skype f
     
 3. Enable push notifications:
     
-  ```
-  Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
-  ```
+   ```
+   Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
+   ```
 
 4. Enable Federation:
-    
-  ```
-  Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
-  ```
+     
+   ```
+   Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+   ```
 
 ### Test federation and push notifications
 
@@ -514,27 +514,27 @@ This functionality is unchanged from Lync Server 2013, but if you have a Skype f
     
 3. Test the federation configuration:
     
-  ```
-  Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
-  ```
+   ```
+   Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
+   ```
 
     As an example:
     
-  ```
-  Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
-  ```
+   ```
+   Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
+   ```
 
 4. Test your push notifications:
     
-  ```
-  Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
-  ```
+   ```
+   Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
+   ```
 
     As an example:
     
-  ```
-  Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
-  ```
+   ```
+   Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
+   ```
 
 ## Configure Mobility policy
 <a name="ConfigMob"> </a>
@@ -568,9 +568,9 @@ For users to be able to use Call via Work, they'll also need to be:
     
 3. Turn off access to Mobility and Call via Work globally by typing:
     
-  ```
-  Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
-  ```
+   ```
+   Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
+   ```
 
     > [!NOTE]
     > You can turn off Call via Work without turning off access to Mobility. But you can't turn off Mobility without also turning off Call via Work. 
@@ -585,9 +585,9 @@ For users to be able to use Call via Work, they'll also need to be:
     
 3. You can create a site-level policy, turn off VoIP and video, enable Require WiFi for IP Audio, and Require WiFi for IP Video by site. Type:
     
-  ```
-  New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
-  ```
+   ```
+   New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
+   ```
 
     Learn more at [New-CsMobilityPolicy](../manage/management-shell/new-csmobilitypolicy.md).
     
@@ -599,17 +599,17 @@ For users to be able to use Call via Work, they'll also need to be:
     
 3. Create user level Mobility policies and turn off Mobility and Call via Work by user. Type:
     
-  ```
-  New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
-Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
-  ```
+   ```
+   New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
+   Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
+   ```
 
     A further example with sample data:
     
-  ```
-  New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
-Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
-  ```
+   ```
+   New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
+   Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
+   ```
 
     > [!NOTE]
     > You can turn off Call via Work without turning off access to Mobility. But you can't turn off Mobility without also turning off Call via Work. 

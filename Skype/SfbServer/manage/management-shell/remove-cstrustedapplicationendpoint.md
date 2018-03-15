@@ -13,7 +13,7 @@ description: "Removes a trusted application endpoint. This cmdlet was introduced
 ---
 
 # Remove-CsTrustedApplicationEndpoint
-[]
+ 
 Removes a trusted application endpoint. This cmdlet was introduced in Lync Server 2010.
   
 ```

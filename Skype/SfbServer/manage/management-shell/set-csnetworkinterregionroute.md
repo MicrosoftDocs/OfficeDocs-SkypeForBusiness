@@ -13,7 +13,7 @@ description: "Modifies an existing route that connects network regions within a 
 ---
 
 # Set-CsNetworkInterRegionRoute
-[]
+ 
 Modifies an existing route that connects network regions within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010.
   
 ```

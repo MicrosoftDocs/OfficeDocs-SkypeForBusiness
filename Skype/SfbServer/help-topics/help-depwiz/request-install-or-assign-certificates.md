@@ -1,7 +1,12 @@
 ---
 title: "Request, Install, or Assign Certificates"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "Step 3: Request, Install or Assign Certificates starts the Certifi
 ---
 
 # Request, Install, or Assign Certificates
-[]
+ 
  **Step 3: Request, Install or Assign Certificates** starts the Certificate Wizard when you click **Run**. The certificates that are configured through the wizard are based on the definition of the Skype for Business Server 2015 topology that is configured and published by Topology Builder to the Central Management store. To successfully run the Certificate Wizard for an online certification authority (CA) in your organization, you must be logged on to the computer as a user who is a member of the computer local administrators group. You must also be an authenticated Domain User in the domain where the computer and the CA exist. The certificate wizard does provide the ability to specify alternate credentials for access your organization's CA.
   
 > [!NOTE]

@@ -13,7 +13,7 @@ description: "Returns information about the Autodiscover configuration settings 
 ---
 
 # Get-CsAutodiscoverConfiguration
-[]
+ 
 Returns information about the Autodiscover configuration settings currently in use in an organization. The Autodiscover service provides a way for client applications to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011.
   
 ```

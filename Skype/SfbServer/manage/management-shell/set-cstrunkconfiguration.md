@@ -13,7 +13,7 @@ description: "Modifies an existing trunk configuration that describes the settin
 ---
 
 # Set-CsTrunkConfiguration
-[]
+ 
 Modifies an existing trunk configuration that describes the settings for a trunking peer entity such as a public switched telephone network (PSTN) gateway, IP-public branch exchange (PBX), or Session Border Controller (SBC) at the service provider. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Modifies an existing simple URL configuration collection. Simple U
 ---
 
 # Set-CsSimpleUrlConfiguration
-[]
+ 
 Modifies an existing simple URL configuration collection. Simple URLs make it easier for users to join meetings and conferences, as well as making it easier for Administrators to log on to the Skype for Business Server Control Panel. This cmdlet was introduced in Lync Server 2010.
   
 ```

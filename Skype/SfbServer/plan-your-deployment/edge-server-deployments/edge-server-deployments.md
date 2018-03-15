@@ -15,8 +15,8 @@ description: "Summary: Plan for your Skype for Business Server 2015 Server Edge 
 ---
 
 # Plan for Edge Server deployments in Skype for Business Server 2015
-[]
- **Summary:** Plan for your Skype for Business Server 2015 Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics.
+ 
+**Summary:** Plan for your Skype for Business Server 2015 Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics.
   
 When you have a Skype for Business Server 2015 environment that's working well internally, the next step for you might be to introduce an Edge Server or an Edge pool to the environment. This role would be vital if you want the services provided by Skype for Business Server 2015 to be used by people who are outside your internal network. These can potentially include:
   

@@ -13,11 +13,11 @@ description: "Imports your Skype for Business Server 2015 topology, policies, an
 ---
 
 # Import-CsConfiguration
-[]
+ 
 Imports your Skype for Business Server 2015 topology, policies, and configuration settings to either the Central Management store or to the local computer. This cmdlet was introduced in Lync Server 2010.
   
 ```
-Import-CsConfiguration -ByteInput <Byte[]> <COMMON PARAMETERS>
+Import-CsConfiguration -ByteInput <Byte > <COMMON PARAMETERS>
 
 ```
 
@@ -60,7 +60,7 @@ The ability to export and import configuration data is also used when initially 
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ByteInput_ <br/> |Required  <br/> |System.Byte[]  <br/> |Reads topology information from a byte array stored in a variable. This byte array is created by using the ByteInput parameter when calling the **Export-CsConfiguration** cmdlet. <br/> You cannot use both the ByteInput parameter and the FileName parameter in the same command.  <br/> |
+| _ByteInput_ <br/> |Required  <br/> |System.Byte   <br/> |Reads topology information from a byte array stored in a variable. This byte array is created by using the ByteInput parameter when calling the **Export-CsConfiguration** cmdlet. <br/> You cannot use both the ByteInput parameter and the FileName parameter in the same command.  <br/> |
 | _FileName_ <br/> |Required  <br/> |System.String  <br/> |Path to the .ZIP file created by Export-CsConfiguration. For example:  `-FileName "C:\Config.zip"`. Note that you must include either the FileName or the ByteInput parameter, but not both, when calling the **Import-CsConfiguration** cmdlet. <br/> |
 | _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Bypasses any prompts that would otherwise appear should a non-fatal error occur when running the command. To set the Force parameter to True, use this syntax:  <br/>  `-Force:$True` <br/> |
 | _LocalStore_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Copies the configuration data to the local computer rather than the Central Management store.  <br/> |

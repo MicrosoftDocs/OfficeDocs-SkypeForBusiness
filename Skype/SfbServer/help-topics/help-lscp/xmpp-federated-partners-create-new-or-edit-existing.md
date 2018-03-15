@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # XMPP Federated Partners: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create or Edit XMPP Partner Configuration](http://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)

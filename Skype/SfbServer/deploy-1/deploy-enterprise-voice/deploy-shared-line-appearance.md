@@ -15,7 +15,7 @@ description: "Read this topic to learn how to deploy Shared Line Appearance (SLA
 ---
 
 # Deploy Shared Line Appearance in Skype for Business Server 2015
-[]
+ 
 Read this topic to learn how to deploy Shared Line Appearance (SLA) in Skype for Business Server 2015, November 2015 Cumulative Update. SLA is a feature for handling multiple calls on a specific number called a shared number. 
   
 For more information about this feature, see [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
@@ -30,21 +30,17 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     
     a. Register SLA as a server application by running the following command for each pool:
     
-  ```
-  New-CsServerApplication -Identity
-				'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-				http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
-				$true -Priority (Get-CsServerApplication -Identity
-				'Service:Registrar:%FQDN%/UserServices').Priority 
-  ```
+   ```
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri 	http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled 				$true -Priority (Get-CsServerApplication -Identity 				'Service:Registrar:%FQDN%/UserServices').Priority 
+   ```
 
-    where %FQDN% is the fully qualified domain name of the pool. 
+   where %FQDN% is the fully qualified domain name of the pool. 
     
     b. Run the following command to update the RBAC roles for the SLA cmdlets: 
     
-  ```
-  Update-CsAdminRole 
-  ```
+   ```
+   Update-CsAdminRole 
+   ```
 
     c. Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:
     

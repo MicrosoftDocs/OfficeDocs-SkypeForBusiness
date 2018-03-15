@@ -15,7 +15,7 @@ description: "The Mediation pools node lists the Mediation pools in your topolog
 ---
 
 # Mediation Servers Scope Node
-[]
+ 
 The **Mediation pools** node lists the Mediation pools in your topology. You can perform the following action:
   
 - **New Mediation Pool**. Starts the **Define New Mediation Pool** wizard, which you use to add a new Mediation pool to the topology.

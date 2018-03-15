@@ -13,7 +13,7 @@ description: "Tests the ability of a user to make a call to a phone number locat
 ---
 
 # Test-CsPstnOutboundCall
-[]
+ 
 Tests the ability of a user to make a call to a phone number located on the public switched telephone network (PSTN). This cmdlet was introduced in Lync Server 2010.
   
 ```

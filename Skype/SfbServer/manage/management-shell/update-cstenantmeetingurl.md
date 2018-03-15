@@ -13,7 +13,7 @@ description: "Updates the meeting URL for the specified Lync Online tenant. The 
 ---
 
 # Update-CsTenantMeetingUrl
-[]
+ 
 Updates the meeting URL for the specified Lync Online tenant. The updated URL uses a simpler, more standardized format that makes it easier for clients to locate and connect to meetings.
   
 This cmdlet is intended for use only with Lync Online.

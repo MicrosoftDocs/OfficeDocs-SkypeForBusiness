@@ -15,7 +15,7 @@ description: "Planning for location-based routing for conferencing in Skype for 
 ---
 
 # Location-Based Routing for Conferencing in Skype for Business Server 2015
-[]
+ 
 Planning for location-based routing for conferencing in Skype for Business Server Enterprise Voice, including consultative call transfers.
   
 Location-Based Routing makes it possible to restrict the routing of calls between VoIP endpoints and PSTN endpoints based on the location of the parties in the call. Location-Based Routing for Conferencing enables you to enforce Location-Based Routing rules on meetings (i.e. conferences) to prevent PSTN toll bypass. The application monitors an active conference and enforces Location-Based Routing restrictions based on the location of users participating. The Location-Based Routing for Conferencing application additionally enables the enforcement of Location-Based Routing restrictions to consultative transfers involving PSTN endpoints.
@@ -81,8 +81,7 @@ When a user enabled for Location-Based Routing initiates a consultative call tra
     
 The following table describes how Location-Based Routing restrictions are applied by the Location-Based Routing for Conferencing application for consultative call transfers. Although PBX endpoints are not directly associated with a network site, the SIP trunk the PBX is connected to can be assigned a network site. Therefore, the PBX endpoint can be indirectly associated with a network site.
   
-|
-|
+
 |**Network site of call transferred party**|**Network site of call transfer target**|**Behavior**|
 |:-----|:-----|:-----|
 |PSTN endpoint  <br/> |Skype for Business user in the same network site (i.e. site 1)  <br/> |Consultative transfer will be allowed  <br/> |
@@ -104,8 +103,7 @@ The Location-Based Routing for Conferencing application requires that either Sky
   
 The following table identifies the combination of server roles and versions that support Location-Based Routing.
   
-|
-|
+
 |**Front-End Pool version**|**Mediation Server version**|**Supported**|
 |:-----|:-----|:-----|
 |Skype for Business Server or Lync Server 2013 Cumulative Update 2  <br/> |Skype for Business Server or Lync Server 2013 Cumulative Update 2  <br/> |Yes  <br/> |

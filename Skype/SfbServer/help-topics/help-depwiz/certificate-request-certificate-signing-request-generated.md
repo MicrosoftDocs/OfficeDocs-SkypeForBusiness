@@ -1,7 +1,12 @@
 ---
 title: "Certificate Request (Certificate Signing Request Generated)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Certificate Request File page is displayed after you have comp
 ---
 
 # Certificate Request (Certificate Signing Request Generated)
-[]
+ 
 The **Certificate Request File** page is displayed after you have completed an offline request for a certificate. To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button. The certificate request is displayed in Windows Notepad (by default). You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA. Click **Finish** to continue.
   
 

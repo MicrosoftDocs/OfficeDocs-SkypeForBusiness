@@ -15,7 +15,7 @@ description: "To begin the creation of a new Persistent Chat Server or Persisten
 ---
 
 # Persistent Chat Scope Node
-[]
+ 
 To begin the creation of a new Persistent Chat Server or Persistent Chat Server pool, in Topology Builder you right click on **Persistent Chat pools** and then select **New Persistent Chat Pool**
   
 - **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.

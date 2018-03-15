@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # PIN Policy
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
  **Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.

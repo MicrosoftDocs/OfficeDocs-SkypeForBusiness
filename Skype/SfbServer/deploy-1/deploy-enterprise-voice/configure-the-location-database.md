@@ -15,7 +15,7 @@ description: "Configure, populate, and publish the E9-1-1 location database in S
 ---
 
 # Configure the location database in Skype for Business Server 2015
-[]
+ 
 Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice. 
   
 To enable clients to automatically detect their location within a network, you first need to configure the location database. 
@@ -49,64 +49,64 @@ If you use an Emergency Location Identification Number (ELIN) gateway, include t
 
 1. Run the following cmdlet to add a subnet location to the location database.
     
-  ```
-  Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
-  ```
+   ```
+   Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   ```
 
     For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:
     
-  ```
-  Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
-  ```
+   ```
+   Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   ```
 
     Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.
     
-  ```
-  $g = Import-Csv subnets.csv
-$g | Set-CsLisSubnet
+   ```
+   $g = Import-Csv subnets.csv
+   $g | Set-CsLisSubnet
 
-  ```
+   ```
 
 2. Run the following cmdlet to add wireless locations to the location database.
     
-  ```
-  Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
-  ```
+   ```
+   Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
+   ```
 
-    Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.
+   Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.
     
-  ```
-  $g = Import-Csv waps.csv
-$g | Set-CsLisWirelessAccessPoint
-  ```
+   ```
+   $g = Import-Csv waps.csv
+   $g | Set-CsLisWirelessAccessPoint
+   ```
 
 3. Run the following cmdlet to add switch locations to the location database.
     
-  ```
-  Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
-  ```
+   ```
+   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   ```
 
-    Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.
+   Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.
     
-  ```
-  $g = Import-Csv switches.csv
-$g | Set-CsLisSwitch
-  ```
+   ```
+   $g = Import-Csv switches.csv
+   $g | Set-CsLisSwitch
+   ```
 
 4. Run the following cmdlet to add port locations to the location database
     
-  ```
-  Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
-  ```
+   ```
+   Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
+   ```
 
-    The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName
+   The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName
     
-    Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.
+   Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.
     
-  ```
-  $g = Import-Csv ports.csv
-$g | Set-CsLisPort
-  ```
+   ```
+   $g = Import-Csv ports.csv
+   $g | Set-CsLisPort
+   ```
 
 ## Validate addresses
 
@@ -116,19 +116,19 @@ $g | Set-CsLisPort
     
 2. Run the following cmdlets to configure the emergency service provider connection.
     
-  ```
-  $pwd = Read-Host -AsSecureString <password>
-Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
+   ```
+   $pwd = Read-Host -AsSecureString <password>
+   Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-  ```
+   ```
 
 3. Run the following cmdlet to validate the addresses in the location database.
     
-  ```
-  Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
-  ```
+   ```
+   Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
+   ```
 
-    You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.
+   You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.
     
 ## Publish the location database
 

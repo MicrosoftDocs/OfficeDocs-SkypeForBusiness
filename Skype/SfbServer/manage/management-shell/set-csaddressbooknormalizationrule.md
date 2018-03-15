@@ -13,7 +13,7 @@ description: "Modifies an existing Address Book normalization rule. Address Book
 ---
 
 # Set-CsAddressBookNormalizationRule
-[]
+ 
 Modifies an existing Address Book normalization rule. Address Book normalization settings are used to convert phone numbers to a format readily understood by Skype for Business Server 2015.
   
 This cmdlet was introduced in Skype for Business Server 2015.

@@ -13,8 +13,8 @@ description: "Summary: Manage the Mobility Service (Mcx) and the Unified Communi
 ---
 
 # Monitor Mobility Service and UCWA usage in Skype for Business Server 2015
-[]
- **Summary:** Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
+ 
+**Summary:** Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
   
 On an ongoing basis, you should monitor the CPU and memory that is used by the Skype for Business Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA). To monitor usage, you can use the following:
   

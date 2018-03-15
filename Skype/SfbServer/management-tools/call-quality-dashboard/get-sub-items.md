@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Sub-Items operation, which is part of
 ---
 
 # Get Sub-Items
-[]
- **Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Sub-Items operation, which is part of the Item Service. The Item Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Sub-Items operation is part of the Item Service in the Repository API for Call Quality Dashboard.
   
@@ -23,8 +23,7 @@ The Get Sub-Items operation is part of the Item Service in the Repository API fo
 
 Get Sub-Items returns a specific Item's sub-items.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/item/{itemId}/subitem  <br/> |HTTP/1.1  <br/> |

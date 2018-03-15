@@ -13,7 +13,7 @@ description: "Modifies an existing collection of centralized logging configurati
 ---
 
 # Set-CsClsConfiguration
-[]
+ 
 Modifies an existing collection of centralized logging configuration settings. Centralized logging provides a way for administrators to simultaneously enable or disable tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
   
 ```

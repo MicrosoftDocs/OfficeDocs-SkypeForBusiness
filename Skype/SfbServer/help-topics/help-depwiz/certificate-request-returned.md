@@ -15,7 +15,7 @@ description: "The Online Certificate Request Status page presents you with impor
 ---
 
 # Certificate Request (Returned)
-[]
+ 
 The **Online Certificate Request Status** page presents you with important information that results from the successful creation and issuing of the online certificate request. This page provides the certificate thumbprint that uniquely identifies the certificate. By default, the check box **Assign this certificate to Skype for Business Server certificate usages** is selected. If you click **Finish**, the certificate will be automatically assigned to Lync Server 2013 for the purposes that you defined during the creation steps of the certificate request. By default, the purposes that the certificate will be assigned are:
   
 - Server Default for Mutual Transport Layer Security (MTLS) - Connections to clients and other servers

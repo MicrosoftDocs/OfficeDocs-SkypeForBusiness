@@ -13,7 +13,7 @@ description: "Removes an existing partner application. A partner application is 
 ---
 
 # Remove-CsPartnerApplication
-[]
+ 
 Removes an existing partner application. A partner application is any application that Skype for Business Server 2015 can directly exchange security tokens with, without having to go through a third-party security token server. This cmdlet was introduced in Lync Server 2013.
   
 ```

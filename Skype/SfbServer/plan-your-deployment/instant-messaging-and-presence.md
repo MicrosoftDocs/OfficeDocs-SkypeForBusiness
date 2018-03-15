@@ -13,8 +13,8 @@ description: "Summary: Learn how to plan for instant messaging and presence in S
 ---
 
 # Plan for instant messaging and presence in Skype for Business Server 2015
-[]
- **Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server 2015.
   
 Plan for instant messaging and presence in Skype for Business Server 2015. To learn about specific deployment options, such as enabling or disabling Offline Instant Messaging (IM), see [Deploy instant messaging and presence in Skype for Business Server 2015](../deploy-1/im-and-presence/im-and-presence.md).
   
@@ -28,7 +28,7 @@ Presence provides information to users about the status of others on the network
   
 ### Technical requirements
 
-Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483) and[Requirements for your Skype for Business environment](requirements-for-your-environment/requirements-for-your-environment.md).
+Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483) and [Requirements for your Skype for Business environment](requirements-for-your-environment/requirements-for-your-environment.md).
   
 ### Enabling communication with external users
 

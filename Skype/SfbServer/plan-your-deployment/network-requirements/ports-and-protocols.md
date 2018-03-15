@@ -15,8 +15,8 @@ description: "Summary: Review the port usage considerations before implementing 
 ---
 
 # Port and protocol requirements for servers
-[]
- **Summary:** Review the port usage considerations before implementing Skype for Business Server 2015.
+ 
+**Summary:** Review the port usage considerations before implementing Skype for Business Server 2015.
   
 Skype for Business Server requires that specific ports on the external and internal firewalls be open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   
@@ -133,7 +133,6 @@ Your Front End pools and Director pools that use DNS load balancing also must ha
 |Front End Server load balancer  <br/> |8080  <br/> |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  <br/> |
 |Front End Server load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
 |Director load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-||||
 |Director load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
    
 **Required Client Ports**

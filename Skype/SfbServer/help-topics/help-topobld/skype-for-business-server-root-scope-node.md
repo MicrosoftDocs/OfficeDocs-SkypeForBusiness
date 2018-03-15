@@ -15,7 +15,7 @@ description: "The Lync Server node lists the central sites in your topology. You
 ---
 
 # Skype for Business Server Root Scope Node
-[]
+ 
 The **Lync Server** node lists the central sites in your topology. You can perform the following actions:
   
 - **New Central Site**. Starts the Define New Central Site wizard, which you use to add a new central site to the topology.

@@ -13,7 +13,7 @@ description: "Removes all the content from a Persistent Chat chat room beginning
 ---
 
 # Clear-CsPersistentChatRoom
-[]
+ 
 Removes all the content from a Persistent Chat chat room beginning with the oldest item in the room and continuing through the specified end date. This cmdlet was introduced in Lync Server 2013.
   
 ```

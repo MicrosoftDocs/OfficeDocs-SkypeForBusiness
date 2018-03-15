@@ -13,7 +13,7 @@ description: "Verifies whether or not a pair of users can exchange messages usin
 ---
 
 # Test-CsPersistentChatMessage
-[]
+ 
 Verifies whether or not a pair of users can exchange messages using the Persistent Chat service (formerly known as the Group Chat service). This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "tblAdminLock contains the administrator lock that is needed to run
 ---
 
 # tblAdminLock
-[]
+ 
 tblAdminLock contains the administrator lock that is needed to run some administrator commands.
   
 **Columns**

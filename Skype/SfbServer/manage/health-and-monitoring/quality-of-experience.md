@@ -13,8 +13,8 @@ description: "Summary: Manage Quality of Experience (QoE) in Skype for Business 
 ---
 
 # Quality of Experience (QoE) in Skype for Business Server 2015
-[]
- **Summary:** Manage Quality of Experience (QoE) in Skype for Business Server 2015.
+ 
+**Summary:** Manage Quality of Experience (QoE) in Skype for Business Server 2015.
   
 Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions. When you install Skype for Business Server 2015, you will also install a predefined collection of global configuration settings for QoE. Use the topics in this section to configure QoE settings. 
   

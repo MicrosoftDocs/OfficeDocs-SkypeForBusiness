@@ -13,7 +13,7 @@ description: "The Export-CcRootCertificate cmdlet exports the root CA certificat
 ---
 
 # Export-CcRootCertificate
-[]
+ 
 The Export-CcRootCertificate cmdlet exports the root CA certificate to a local file on the Skype for Business Cloud Connector Edition host server. 
   
 ```

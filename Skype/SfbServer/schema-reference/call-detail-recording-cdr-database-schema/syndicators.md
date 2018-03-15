@@ -13,7 +13,7 @@ description: "The SyndicatorsTable is for internal use only. This table was intr
 ---
 
 # Syndicators table
-[]
+ 
 The SyndicatorsTable is for internal use only. This table was introduced in Microsoft Lync Server 2013.
   
 

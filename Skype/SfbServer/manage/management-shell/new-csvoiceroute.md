@@ -13,7 +13,7 @@ description: "Creates a new voice route. Voice routes contain instructions that 
 ---
 
 # New-CsVoiceRoute
-[]
+ 
 Creates a new voice route. Voice routes contain instructions that tell Skype for Business Server 2015 how to route calls from Enterprise Voice users to phone numbers on the public switched telephone network (PSTN) or a private branch exchange (PBX). This cmdlet was introduced in Lync Server 2010.
   
 ```

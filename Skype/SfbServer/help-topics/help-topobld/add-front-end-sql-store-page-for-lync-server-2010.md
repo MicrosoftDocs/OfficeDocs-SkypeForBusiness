@@ -15,7 +15,7 @@ description: "You define the properties of the SQL Server stores for the new Fro
 ---
 
 # Add Front End Sql Store Page for Lync Server 2010
-[]
+ 
 You define the properties of the SQL Server stores for the new Front End pool that you are configuring.
   
 > [!IMPORTANT]

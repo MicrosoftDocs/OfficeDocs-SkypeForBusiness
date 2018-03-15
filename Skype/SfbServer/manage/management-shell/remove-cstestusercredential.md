@@ -13,7 +13,7 @@ description: "Removes the specified user from the set of users configured as wat
 ---
 
 # Remove-CsTestUserCredential
-[]
+ 
 Removes the specified user from the set of users configured as watcher node test users. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. This cmdlet was introduced in Lync Server 2013.
   
 ```

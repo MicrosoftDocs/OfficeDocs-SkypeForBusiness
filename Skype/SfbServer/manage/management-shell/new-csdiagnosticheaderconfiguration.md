@@ -13,7 +13,7 @@ description: "Creates a new diagnostic header configuration setting collection. 
 ---
 
 # New-CsDiagnosticHeaderConfiguration
-[]
+ 
 Creates a new diagnostic header configuration setting collection. Diagnostic header configuration settings determine whether SIP messages are accompanied by header information that can be useful in troubleshooting and error reporting. This cmdlet was introduced in Lync Server 2010.
   
 ```

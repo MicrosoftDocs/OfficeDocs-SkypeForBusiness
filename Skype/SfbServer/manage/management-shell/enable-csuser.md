@@ -13,7 +13,7 @@ description: "Enables one or more users for Skype for Business Server 2015. User
 ---
 
 # Enable-CsUser
-[]
+ 
 Enables one or more users for Skype for Business Server 2015. Users cannot use Skype for Business or other Skype for Business Server 2015 clients until their user accounts have been enabled for Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

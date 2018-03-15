@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Cube operation, which is part of the 
 ---
 
 # Get Cube
-[]
- **Summary:** Learn about the Get Cube operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Cube operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Cube operation is part of the Data API for Call Quality Dashboard.
   
@@ -23,8 +23,7 @@ The Get Cube operation is part of the Data API for Call Quality Dashboard.
 
 Get Cube operation returns the list of available dimensions and measurements.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |

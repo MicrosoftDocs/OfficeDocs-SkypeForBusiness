@@ -15,8 +15,8 @@ description: "Summary: Learn about the servers and server roles you must configu
 ---
 
 # Install prerequisites for Skype for Business Server 2015
-[]
- **Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+ 
+**Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Installing prerequisites consists of setting up Windows Server by installing the required roles and features on each of the servers in the topology. The requirements are based on the role the server will fulfill in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing prerequisites is step 1 of 8.
   
@@ -52,26 +52,26 @@ Watch the video steps for **install prerequisites**:
     
 6. Make sure the software features listed in [Software that should be installed before a Skype for Business Server 2015 deployment](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#Software) are on the server that will run Skype for Business Server 2015. Here's an abbreviated list:
     
-  - .NET Framework Features
+   - .NET Framework Features
     
-  - WCF Services
+   - WCF Services
     
-  - HTTP Activation
+   - HTTP Activation
     
     > [!NOTE]
     > HTTP Activation requires additional features. Click **Add Features** to the warning dialog box that pops up when you select HTTP Activation.
   
-  - Media Foundation (required by Front End Servers and Standard Edition servers used for conferencing.)
+   - Media Foundation (required by Front End Servers and Standard Edition servers used for conferencing.)
     
-  - Remote Server Administration Tools
+   - Remote Server Administration Tools
     
-  - Role Administration Tools
+   - Role Administration Tools
     
-  - AD DS 
+   - AD DS 
     
-  - AD LDS
+   - AD LDS
     
-  - Windows Identity Foundation 3.5
+   - Windows Identity Foundation 3.5
     
 7. Click **Next** to continue through the wizard.
     
@@ -79,57 +79,57 @@ Watch the video steps for **install prerequisites**:
     
 9. Select the following **Web Server (IIS) role services**.
     
-  - Common HTTP Features
+   - Common HTTP Features
     
-  - Default Document
+   - Default Document
     
-  - Directory Browsing
+   - Directory Browsing
     
-  - HTTP Errors
+   - HTTP Errors
     
-  - Static Content
+   - Static Content
     
-  - Health and Diagnostics
+   - Health and Diagnostics
     
-  - HTTP Logging
+   - HTTP Logging
     
-  - Logging Tools
+   - Logging Tools
     
-  - Tracing
+   - Tracing
     
-  - Performance
+   - Performance
     
-  - Static Content Compression
+   - Static Content Compression
     
-  - Dynamic Content Compression
+   - Dynamic Content Compression
     
-  - Security
+   - Security
     
-  - Request Filtering
+   - Request Filtering
     
-  - Client Certificate Mapping Authentication
+   - Client Certificate Mapping Authentication
     
-  - Windows Authentication
+   - Windows Authentication
     
-  - Application Development
+   - Application Development
     
-  - .NET Extensibility 3.5
+   - .NET Extensibility 3.5
     
-  - .NET Extensibility 4.5
+   - .NET Extensibility 4.5
     
-  - ASP.NET 3.5
+   - ASP.NET 3.5
     
-  - ASP.NET 4.5
+   - ASP.NET 4.5
     
-  - ISAPI Extensions
+   - ISAPI Extensions
     
-  - ISAPI Filters
+   - ISAPI Filters
     
-  - Management Tools
+   - Management Tools
     
-  - IIS Management Console
+   - IIS Management Console
     
-  - IIS Management Scripts and Tools
+   - IIS Management Scripts and Tools
     
 10. Click **Next** to continue through the wizard.
     
@@ -144,7 +144,7 @@ Watch the video steps for **install prerequisites**:
     
 14. If you will be using Skype for Business Server Control Panel on this server then you must also install Silverlight. To install Silverlight, see [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
     
-The prerequisites can be installed by running the following PowerShell command. Note that the command looks for source files in a specific order. If you are online, the command accesses Windows Update. However, if you are offline, you need to make sure the source files are available to the command. For more information about using PowerShell to install roles and features, see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) and[Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
+The prerequisites can be installed by running the following PowerShell command. Note that the command looks for source files in a specific order. If you are online, the command accesses Windows Update. However, if you are offline, you need to make sure the source files are available to the command. For more information about using PowerShell to install roles and features, see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) and [Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 ```
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS
 ```

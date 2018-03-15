@@ -15,8 +15,8 @@ description: "Summary: Review the client video requirements while planning for S
 ---
 
 # Skype for Business client video resolutions
-[]
- **Summary:** Review the client video requirements while planning for Skype for Business Server 2015.
+ 
+**Summary:** Review the client video requirements while planning for Skype for Business Server 2015.
   
 This article describes video hardware support for Skype for Business video calls and describes how to determine the expected video quality for various computer, tablet, and mobile device configurations. 
   

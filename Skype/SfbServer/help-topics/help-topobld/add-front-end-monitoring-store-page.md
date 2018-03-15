@@ -15,7 +15,7 @@ description: "You Define the Monitoring SQL Server store by configuring the foll
 ---
 
 # Add Front End Monitoring Store Page
-[]
+ 
 You **Define the Monitoring SQL Server store** by configuring the following properties:
   
 - **Monitoring SQL Server store**: Select a SQL Server fully qualified domain name (and, optionally an instance) from the list.

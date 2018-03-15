@@ -14,8 +14,8 @@ description: "Summary: Learn about the Item Service, which is part of the Reposi
 ---
 
 # Item Service for Call Quality Dashboard (CQD)
-[]
- **Summary:** Learn about the Item Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Item Service, which is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Item Service is part of the Repository API for Call Quality Dashboard.
   
@@ -42,8 +42,7 @@ Item service includes the following concepts:
     
 The REST operations are included in the following table.
   
-|
-|
+
 |**Operation**|**Description**|
 |:-----|:-----|
 |[Get Items](get-items.md) <br/> |Get Items returns all Items in the repository.  <br/> |

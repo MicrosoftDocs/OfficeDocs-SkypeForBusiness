@@ -16,7 +16,7 @@ description: "Edge Servers can be configured to allow your internal and external
 ---
 
 # Federation (Planning Tool)
-[]
+ 
 Edge Servers can be configured to allow your internal and external users access to contacts at partner organizations or services.
   
  Federation works like it did for Microsoft Lync 2013. For more details about preparing your environment for Federation, see the following topics:

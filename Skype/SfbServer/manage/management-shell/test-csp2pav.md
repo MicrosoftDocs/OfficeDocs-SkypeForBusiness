@@ -13,7 +13,7 @@ description: "Tests the ability of a pair of users to conduct a peer-to-peer aud
 ---
 
 # Test-CsP2PAV
-[]
+ 
 Tests the ability of a pair of users to conduct a peer-to-peer audio/video (A/V) call. This cmdlet was introduced in Lync Server 2010.
   
 ```

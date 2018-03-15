@@ -14,7 +14,7 @@ description: "Learn about how to upgrade your Cloud Connector Edition deployment
 ---
 
 # Upgrade to a new version of Cloud Connector
-[]
+ 
 Learn about how to upgrade your Cloud Connector Edition deployment.
   
 If you have set up an online management tenant account and enabled automatic updates, your existing deployment of Skype for Business Cloud Connector Edition will be upgraded to the newer version automatically—according to your automatic update time window configuration. You can also perform a manual upgrade. 

@@ -14,7 +14,7 @@ description: "Read this topic to learn how to plan your Cloud Connector Edition 
 ---
 
 # Plan for Cloud Connector Edition PSTN sites
-[]
+ 
 Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing.
   
 This topic describes what you need to know about Cloud Connector Edition and call routing so that you can plan your Cloud Connector PSTN sites. A PSTN site is a combination of Cloud Connector appliances, deployed at the same location, and with common PSTN gateways connected to them. This topic focuses on how to set up your Cloud Connector site topology to ensure that your Cloud Connector sites can handle both inbound and outbound routing for all users assigned to a site in the most cost efficient and effective way possible. For more information about Cloud Connector and the benefits of PSTN sites, be sure to read [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 

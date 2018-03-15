@@ -13,8 +13,8 @@ description: "Summary: Learn how to add or remove Front End Servers in Skype for
 ---
 
 # Add or remove a Front End Server in Skype for Business Server 2015
-[]
- **Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.
+ 
+**Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.
   
 When you add a Front End Server to a pool, or remove a Front End Server from a pool, you then need to restart the pool. 
   
@@ -30,9 +30,9 @@ You can use the following procedure when adding or removing a Front End Server.
 
 1. If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
     
-  ```
-  Stop-CsWindowsService -Graceful
-  ```
+   ```
+   Stop-CsWindowsService -Graceful
+   ```
 
 2. Open Topology Builder, and add or remove the necessary servers. 
     
@@ -43,22 +43,22 @@ You can use the following procedure when adding or removing a Front End Server.
   
 4. If you have changed the number of servers in your Front End pool in any of the following ways, then reset the pool with by typing the following cmdlet: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
-  ```
-  Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
-  ```
+   ```
+    Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
+   ```
 
-  - 2 to any
+     - 2 to any
     
-  - Any to 2
+     - Any to 2
     
-  - 3 to any
+     - 3 to any
     
-  - Any to 3
+     - Any to 3
     
 5. Restart the pool by typing the following cmdlet
     
-  ```
-  Start-CsPool
-  ```
+   ```
+   Start-CsPool
+   ```
 
 

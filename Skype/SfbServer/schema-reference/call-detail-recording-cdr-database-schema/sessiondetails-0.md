@@ -13,7 +13,7 @@ description: "The SessionDetails view stores information about peer-to-peer sess
 ---
 
 # SessionDetails view
-[]
+ 
 The SessionDetails view stores information about peer-to-peer sessions, which could be a VoIP-VoIP phone call, two-party IM session, or other type of session. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

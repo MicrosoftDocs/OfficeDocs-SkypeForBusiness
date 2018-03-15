@@ -13,7 +13,7 @@ description: "Creates a new device update management test device. Test devices p
 ---
 
 # New-CsTestDevice
-[]
+ 
 Creates a new device update management test device. Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

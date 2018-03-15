@@ -13,8 +13,8 @@ description: "Summary: Learn how to configure CDR and QoE in Skype for Business 
 ---
 
 # Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure CDR and QoE in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to configure CDR and QoE in Skype for Business Server 2015.
   
 Configure CDR and QoE monitoring using SQL Server Reporting Services reports for Skype for Business Server 2015.
   

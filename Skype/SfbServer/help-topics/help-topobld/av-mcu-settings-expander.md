@@ -15,7 +15,7 @@ description: "To edit the properties for an A/V Conferencing Server pool that yo
 ---
 
 # AV MCU Settings Expander
-[]
+ 
 To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:
   
 ## General Settings

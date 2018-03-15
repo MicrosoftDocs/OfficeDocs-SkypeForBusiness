@@ -13,7 +13,7 @@ description: "These sections detail the columns in each of the Quality of Experi
 ---
 
 # QoE table details
-[]
+ 
 These sections detail the columns in each of the Quality of Experience (QoE) database schema tables.
   
 - [AppliedBandwidthSource table](appliedbandwidthsource.md)

@@ -15,7 +15,7 @@ description: "You configure options for your Persistent Chat Server or Persisten
 ---
 
 # Define Properties and Options for Persistent Chat Pool
-[]
+ 
 You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:
   
  **Display name of the Persistent Chat pool**: A required property that defines a user friendly name that will be displayed for this Persistent Chat Server or Persistent Chat Server pool.

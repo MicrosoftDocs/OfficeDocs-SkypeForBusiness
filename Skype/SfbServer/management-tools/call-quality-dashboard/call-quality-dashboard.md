@@ -14,8 +14,8 @@ description: "Summary: Learn about the Call Quality Dashboard, which is a report
 ---
 
 # Call Quality Dashboard for Skype for Business Server 2015
-[]
- **Summary:** Learn about the Call Quality Dashboard, which is a reporting tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Call Quality Dashboard, which is a reporting tool for Skype for Business Server 2015.
   
 ## 
 

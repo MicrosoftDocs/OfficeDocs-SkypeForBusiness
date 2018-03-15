@@ -14,8 +14,8 @@ description: "Summary: Manage PIN settings in Skype for Business Server 2015."
 ---
 
 # Manage PIN settings in Skype for Business Server 2015
-[]
- **Summary:** Manage PIN settings in Skype for Business Server 2015.
+ 
+**Summary:** Manage PIN settings in Skype for Business Server 2015.
   
 Use the procedures in the following sections to manage PINs in Skype for Business Server 2015.
   

@@ -19,7 +19,7 @@ description: "Create or modify a Group Call Pickup number range in Skype for Bus
 ---
 
 # Create or modify a Group Call Pickup number range in Skype for Business 2015
-[]
+ 
 Create or modify a Group Call Pickup number range in Skype for Business Server Enterprise Voice.
   
 Group Call Pickup is based on the Call Park application. When you deploy Group Call Pickup, you must configure the call park orbit table with ranges of phone numbers that are designated as call pickup group numbers. These group numbers are the numbers that users dial to pick up calls that are ringing for another user.
@@ -53,21 +53,21 @@ The call pickup group number ranges must comply with the following rules:
     
     At the command line, run:
     
-  ```
-  New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
-  ```
+   ```
+   New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
+   ```
 
     For example:
     
-  ```
-  New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
-  ```
+   ```
+   New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
+   ```
 
     The following example shows how to change a range of numbers from call park orbits to call pickup groups.
     
-  ```
-  Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
-  ```
+   ```
+   Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
+   ```
 
     > [!IMPORTANT]
     > Use this cmdlet to change the type assigned to number ranges only if you initially specified the incorrect type and the group range is not yet in use. If you change the number range from CallPark to GroupPickup or vice versa and the number range is already in use, either Call Park or Group Call Pickup will stop working for that number range. For example, if you change a number range from CallPark to GroupPick, the Call Park application can no longer use that range of orbits to park calls. 

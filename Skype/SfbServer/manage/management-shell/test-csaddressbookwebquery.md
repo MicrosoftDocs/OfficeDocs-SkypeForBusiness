@@ -13,7 +13,7 @@ description: "Tests the ability of a user to search for, and return, information
 ---
 
 # Test-CsAddressBookWebQuery
-[]
+ 
 Tests the ability of a user to search for, and return, information from the Address Book by using the Address Book Web Query service. This cmdlet was introduced in Lync Server 2010.
   
 ```

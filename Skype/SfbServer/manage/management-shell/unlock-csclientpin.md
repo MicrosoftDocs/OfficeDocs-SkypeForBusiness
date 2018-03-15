@@ -13,7 +13,7 @@ description: "Enables an administrator to unlock the personal identification num
 ---
 
 # Unlock-CsClientPin
-[]
+ 
 Enables an administrator to unlock the personal identification number (PIN) for a specified user. This cmdlet was introduced in Lync Server 2010.
   
 ```

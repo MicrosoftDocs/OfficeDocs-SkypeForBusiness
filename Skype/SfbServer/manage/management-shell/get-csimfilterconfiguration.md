@@ -13,7 +13,7 @@ description: "Returns the instant messaging (IM) link filters configured in your
 ---
 
 # Get-CsImFilterConfiguration
-[]
+ 
 Returns the instant messaging (IM) link filters configured in your organization. These filters are used to prevent users from sending instant messages that contain hyperlinks with specific prefixes (for example, links with an http or telnet prefix). Depending on your settings, this means that any Uniform Resource Identifier (URI) prefaced with one of these schemes will be converted to a non-clickable hyperlink or removed altogether. This cmdlet was introduced in Lync Server 2010.
   
 ```

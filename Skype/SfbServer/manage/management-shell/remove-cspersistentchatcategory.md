@@ -13,7 +13,7 @@ description: "Removes an existing Persistent Chat category. A Persistent Chat ca
 ---
 
 # Remove-CsPersistentChatCategory
-[]
+ 
 Removes an existing Persistent Chat category. A Persistent Chat category represents a collection of Persistent Chat chat rooms, and each chat room must be associated with a category. This cmdlet was introduced in Lync Server 2013. Note that categories cannot be removed unless they are empty (that is, all the rooms within that category must be removed before you can remove the category).
   
 ```

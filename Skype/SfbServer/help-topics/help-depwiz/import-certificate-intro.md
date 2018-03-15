@@ -1,7 +1,12 @@
 ---
 title: "Import Certificate (Intro)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To import a certificate, you must provide a path to the certificat
 ---
 
 # Import Certificate (Intro)
-[]
+ 
 To import a certificate, you must provide a path to the certificate file. In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).
   
 If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**. When this check box is selected, the **Password** text input is enabled. If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created. You input the password for the private key to allow the certificate and the private key to be imported into the certificate store. When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.

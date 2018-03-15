@@ -13,7 +13,7 @@ description: "The CallType table is a static table that stores the list of possi
 ---
 
 # CallType table in Skype for Business Server 2015
-[]
+ 
 The CallType table is a static table that stores the list of possible call types.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

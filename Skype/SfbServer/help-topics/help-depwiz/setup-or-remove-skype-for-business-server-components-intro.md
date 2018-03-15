@@ -1,7 +1,12 @@
 ---
 title: "Setup or Remove Skype for Business Server Components (Intro)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "You are preparing to install and activate or deactivate and uninst
 ---
 
 # Setup or Remove Skype for Business Server Components (Intro)
-[]
+ 
 You are preparing to install and activate or deactivate and uninstall Skype for Business Server 2015 components. The processes that will run are defined by the current configuration of the definition published to the Central Management store. To successfully complete the tasks, you must be logged in as a member of the local Administrators group and, at minimum, you must be able to read Active Directory Domain Services.
   
 Click **Next** to continue to the **Executing Commands** screen.

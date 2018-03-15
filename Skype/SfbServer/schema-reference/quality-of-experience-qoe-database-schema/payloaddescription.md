@@ -13,7 +13,7 @@ description: "The PayloadDescription table is a supporting table. Each record re
 ---
 
 # PayloadDescription table
-[]
+ 
 The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

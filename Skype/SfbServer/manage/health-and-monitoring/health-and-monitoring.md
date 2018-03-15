@@ -13,8 +13,8 @@ description: "Summary: Learn about monitoring and health configuration tasks in 
 ---
 
 # Manage health and monitoring in Skype for Business Server 2015
-[]
- **Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server 2015.
+ 
+**Summary:** Learn about monitoring and health configuration tasks in Skype for Business Server 2015.
   
 Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Skype for Business Server Control Panel and Skype for Business Server Management Shell.
   
@@ -30,7 +30,7 @@ Topics in this section provide step-by-step procedures for monitoring and health
     
 ## See also
 
-#### 
+
 
 [Plan for monitoring in Skype for Business Server 2015](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
   

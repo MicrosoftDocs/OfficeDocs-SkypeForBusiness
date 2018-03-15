@@ -13,7 +13,7 @@ description: "Creates a new Response Group holiday set. A Response Group holiday
 ---
 
 # New-CsRgsHolidaySet
-[]
+ 
 Creates a new Response Group holiday set. A Response Group holiday set is a collection of holidays. For example, you might have one holiday set for a United States (U.S.)-based queue (a set which might include a holiday for the Fourth of July) and a different set for a queue based in France. The latter queue might define a holiday for Bastille Day but not for the Fourth of July. This cmdlet was introduced in Lync Server 2010.
   
 ```

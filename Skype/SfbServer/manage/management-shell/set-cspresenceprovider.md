@@ -13,7 +13,7 @@ description: "Modifies a presence provider configured for use in the organizatio
 ---
 
 # Set-CsPresenceProvider
-[]
+ 
 Modifies a presence provider configured for use in the organization. Presence providers represent the PresenceProviders property of a collection of user services configuration settings. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Returns the version of the Cloud Connector appliance. Get-CCVersio
 ---
 
 # Get-CcVersion
-[]
+ 
 Returns the version of the Cloud Connector appliance. Get-CCVersion can only be used on the host machine of Cloud Connector.
   
 ```

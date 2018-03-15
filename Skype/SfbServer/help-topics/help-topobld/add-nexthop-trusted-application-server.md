@@ -15,7 +15,7 @@ description: "To set the next hop for the Trusted Applications Server or pool, d
 ---
 
 # Add NextHop Trusted Application Server
-[]
+ 
 To set the next hop for the Trusted Applications Server or pool, do the following:
   
 In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or Standard Edition Front End Server that you want the Trusted Application pool to use as a next hop.

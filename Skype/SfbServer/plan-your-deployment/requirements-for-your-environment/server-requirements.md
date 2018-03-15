@@ -15,18 +15,18 @@ description: "Summary: Prepare your Skype for Business Server 2015 servers with 
 ---
 
 # Server requirements for Skype for Business Server 2015
-[]
- **Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+ 
+**Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
 As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article will walk you through planning for the following:
   
-[Hardware for Skype for Business Server 2015](server-requirements.md#Hardware)
+- [Hardware for Skype for Business Server 2015](server-requirements.md#Hardware)
   
-[Operating systems for Skype for Business Server 2015](server-requirements.md#OS)
+- [Operating systems for Skype for Business Server 2015](server-requirements.md#OS)
   
-[Back end databases that will work with Skype for Business Server 2015](server-requirements.md#DBs)
+- [Back end databases that will work with Skype for Business Server 2015](server-requirements.md#DBs)
   
-[Software that should be installed before a Skype for Business Server 2015 deployment](server-requirements.md#Software)
+- [Software that should be installed before a Skype for Business Server 2015 deployment](server-requirements.md#Software)
   
 ## Hardware for Skype for Business Server 2015
 <a name="Hardware"> </a>
@@ -84,7 +84,7 @@ Skype for Business Server 2015 Enterprise Edition is a little more complicated, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ( [download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
+|Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
 |Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack  <br/> |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.

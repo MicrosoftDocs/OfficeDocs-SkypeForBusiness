@@ -13,7 +13,7 @@ description: "The sections in this article describe how to enable, temporarily d
 ---
 
 # Manage user accounts for Skype for Business Server 2015
-[]
+ 
 The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server 2015.
   
 For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).
@@ -44,7 +44,7 @@ You can search for users by using the Skype for Business Server Control Panel or
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Users**.
     
@@ -52,13 +52,13 @@ You can search for users by using the Skype for Business Server Control Panel or
     
 5. (Optional) Specify additional search criteria to narrow the results:
     
-1. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
+   a. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
     
-2. Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.
+   b. Enter the user property by typing it or clicking the arrow in the drop-down list to select a user property.
     
-3. In the **Equal to** list, click **Equal to** or **Not equal to**.
+   c. In the **Equal to** list, click **Equal to** or **Not equal to**.
     
-4. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
+   d. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
     
 6. The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.
     
@@ -71,7 +71,7 @@ You can also use a cmdlet, specifically [Enable-CsUser](../../manage/management-
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     
 3. In the left navigation bar, click **Users**.
     
@@ -92,7 +92,7 @@ You can use the following procedure to disable a previously enabled user account
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Users**.
     
@@ -102,13 +102,13 @@ You can use the following procedure to disable a previously enabled user account
     
 6. On the **Action** menu, do one of the following:
     
-  - To temporarily disable the user account for Skype for Business Server, click **Temporarily disable for Lync Server**.
+   - To temporarily disable the user account for Skype for Business Server, click **Temporarily disable for Lync Server**.
     
-  - To enable the user account for Skype for Business Server, click **Re-enable for Lync Server**.
+   - To enable the user account for Skype for Business Server, click **Re-enable for Lync Server**.
     
 ### Use Windows Powershell to Disable or Re-enable User Accounts
 
-User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To disable a user account
 
@@ -137,7 +137,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Users**.
     
@@ -154,7 +154,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
   
 8. Click **Commit**.
     
-The user is now unable to use the Enterprise Voice feature. Related information:[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)[Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)[Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md)
+The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md)
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
 
@@ -165,7 +165,7 @@ You can use the following procedure to remove a previously added user account in
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see **Open Skype for Business Server 2015 administrative tools**.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
 3. In the left navigation bar, click **Users**.
     
@@ -182,8 +182,7 @@ You can use the following procedure to remove a previously added user account in
 You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
   
 ### To remove a user account
-
-- To remove a user account, use the Disable-CsUser cmdlet. For example:
+To remove a user account, use the Disable-CsUser cmdlet. For example:
     
   ```
   Disable-CsUser -Identity "Ken Myer"

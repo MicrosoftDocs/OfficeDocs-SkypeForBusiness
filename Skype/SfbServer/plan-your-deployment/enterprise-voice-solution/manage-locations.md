@@ -15,7 +15,7 @@ description: "Decisions necessary for planning an the location information datab
 ---
 
 # Manage locations for SIP trunk service providers in Skype for Business Server 2015
-[]
+ 
 Decisions necessary for planning an the location information database, or a similar external database, for an E9-1-1 deployment using SIP trunking providers, in Skype for Business Server Enterprise Voice.
   
 To configure Skype for Business Server to automatically locate clients within a network, you need to either populate the Location Information service database with a network wiremap and publish the locations, or link to an external database that already contains the correct mappings. As part of this process, you need to validate the civic addresses of the locations with your E9-1-1 service provider. For details, see [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in the Deployment documentation.
@@ -45,7 +45,7 @@ Where does the data exist, and what steps do you need to take to convert the dat
   
 By using the Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform. A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user. This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Skype for Business client. The user can then choose the most appropriate location. 
   
-To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema. For details, see "[MS-E911WS]: Web Service for E911 Support Protocol Specification" at [https://go.microsoft.com/fwlink/p/?linkid=213819](https://go.microsoft.com/fwlink/p/?linkid=213819). For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
+To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema. For details, see  ["[MS-E911WS]: Web Service for E911 Support Protocol Specification"](https://go.microsoft.com/fwlink/p/?linkid=213819). For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/secondary-location-information-service.md) in the Deployment documentation.
   
 For details about populating the location database, see [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) in the Deployment documentation.
   

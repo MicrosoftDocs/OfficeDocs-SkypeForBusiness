@@ -15,7 +15,7 @@ description: "This node shows the fully qualified domain name (FQDN), ports, and
 ---
 
 # Director Scope Node
-[]
+ 
 This node shows the fully qualified domain name (FQDN), ports, and associated file store for this Director pool. You can perform the following actions:
   
 - **New Server**. Loads the **Define New Server** page, which you can use to add another Director to this pool.

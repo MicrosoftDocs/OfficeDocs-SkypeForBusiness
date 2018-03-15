@@ -13,7 +13,7 @@ description: "Returns information about the conference directories configured fo
 ---
 
 # Get-CsConferenceDirectory
-[]
+ 
 Returns information about the conference directories configured for use in your organization. Conference directories are used to help dial-in conferencing users locate conference information. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -14,8 +14,8 @@ description: "Summary: Learn how to connect Skype for Business Server 2015 with 
 ---
 
 # Deploy Skype Connectivity in Skype for Business Server 2015
-[]
- **Summary:** Learn how to connect Skype for Business Server 2015 with Skype consumer. Also known as Skype connectivity.
+ 
+**Summary:** Learn how to connect Skype for Business Server 2015 with Skype consumer. Also known as Skype connectivity.
   
 This article walks through deployment for Skype Connectivity.
   
@@ -44,8 +44,7 @@ Skype Directory Search functionality provides Skype for Business users with the 
 
 The following table outlines support for Skype Directory Search.
   
-|
-|
+
 ||**Skype for Business Server 2015 Front End**|**Lync Server 2013 (or older) Front End**|**Comments**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Server 2015 Edge  <br/> |Supported  <br/> |Not Supported  <br/> |Skype for Business Server 2015 and Edge are prerequisites for Skype Directory Search  <br/> |
@@ -188,18 +187,17 @@ Configuring Skype Connectivity can also be done using only PowerShell. To config
     
 2. Run the following two commands:
     
-  ```
-  Remove-CsPublicProvider -Identity <identity-name>
-  ```
+   ```
+    Remove-CsPublicProvider -Identity <identity-name>
+   ```
 
     > [!NOTE]
     > If you do not already have a PIC provider in your environment and are creating a new PIC provider then you do not need to run the Remove-CsPublicProvider cmdlet. 
   
-  ```
-  New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png
--NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
+   ```
+   New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
 
-  ```
+   ```
 
     What do the less obvious parameters do?
     
@@ -221,8 +219,7 @@ Configuring Skype Connectivity can also be done using only PowerShell. To config
 
 The following table outlines the status of interop between the latest version of Skype consumer and the latest version of Skype for Business.
   
-|
-|
+
 |**Skype Clients**|**Add contacts, IM, presence, audio, and video calling**|**Comment**|
 |:-----|:-----|:-----|
 |Skype Windows Desktop  <br/> |7.6 or higher, Windows XP and higher  <br/> |**NEW**: Support added for Windows Skype client running on Windows XP, and Windows Vista ** (requires latest client version 7.26 or higher)** <br/> |
@@ -233,8 +230,6 @@ The following table outlines the status of interop between the latest version of
    
 The following table outlines the status of interop between the latest version of Skype for Business and the latest version of Skype consumer. 
   
-|
-|
 |**Client**|**Skype Directory Search and Add Contacts**|**Skype A/V, IM interop**|
 |:-----|:-----|:-----|
 |Skype for Business 2015  <br/> |Yes  <br/> |Yes  <br/> |

@@ -14,8 +14,8 @@ description: "Summary: Configure test user accounts and watcher node settings fo
 ---
 
 # Configure watcher node test users and settings
-[]
- **Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.
+ 
+**Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.
   
 After configuring the computer that will act as a watcher node, you must:
   
@@ -34,7 +34,6 @@ If you are using the TrustedServer authentication method, all you need to do is 
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
-
 ```
 
 You must include not only the SIP address, but also the user name and password. If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
@@ -45,7 +44,6 @@ To verify that the test user credentials were created, run these commands from t
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
-
 ```
 
 Information similar to this will be returned for each user:

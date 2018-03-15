@@ -15,8 +15,8 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 ---
 
 # Create or modify a voice route in Skype for Business 2015
-[]
- **Summary:** Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
   
 ### To create a voice route by using the Skype for Business Server Control Panel
 
@@ -36,13 +36,13 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
     
 8. To specify the patterns that you want this route to accommodate, you can either use the **Build a pattern to match** tool to generate a regular expression, or write the regular expression manually.
     
-  - To use the **Build a pattern to match** tool to generate a regular expression, enter values as follows. You can specify two types of pattern matching:
+   - To use the **Build a pattern to match** tool to generate a regular expression, enter values as follows. You can specify two types of pattern matching:
     
-  - **Starting digits for numbers that you want to allow**: Enter prefix values that this route must accommodate (including the leading + if needed). For example, type +425, and then click **Add**. Repeat this for each prefix value that you want to include in the route.
+   - **Starting digits for numbers that you want to allow**: Enter prefix values that this route must accommodate (including the leading + if needed). For example, type +425, and then click **Add**. Repeat this for each prefix value that you want to include in the route.
     
-  - **Exceptions**: If you want to specify one or more exceptions for a prefix value, highlight the prefix and click **Exceptions**. Type in one or more values for the matching patterns that you do  *not*  want this route to accommodate. For example, to exclude numbers starting with +425237 from the route, enter a value of+425237 in the **Exceptions** field, and then click **OK**.
+   - **Exceptions**: If you want to specify one or more exceptions for a prefix value, highlight the prefix and click **Exceptions**. Type in one or more values for the matching patterns that you do  *not*  want this route to accommodate. For example, to exclude numbers starting with +425237 from the route, enter a value of+425237 in the **Exceptions** field, and then click **OK**.
     
-  - To define the matching pattern manually, click **Edit** in the **Build a pattern to match** tool and then type in a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied. For details about how to write regular expressions, see[".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - To define the matching pattern manually, click **Edit** in the **Build a pattern to match** tool and then type in a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied. For details about how to write regular expressions, see [".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
 9. Select **Suppress caller ID** if you do not want the ID of the phone making the outbound call to appear to the call recipient. If you select this option, you must specify an **Alternate caller ID** that will appear on the recipient's caller ID display.
     
@@ -62,8 +62,8 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
     
 14. Click **OK** to save the voice route.
     
-> [!IMPORTANT]
-> Whenever you create a voice route, you must run the **Commit All** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md). 
+    > [!IMPORTANT]
+    > Whenever you create a voice route, you must run the **Commit All** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md). 
   
 ### To modify a voice route
 
@@ -73,9 +73,9 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
     
 3. On the **Route** page, use either of the following methods to modify a voice route:
     
-  - Click a voice route name, click **Edit**, and then click **Show details**.
+   - Click a voice route name, click **Edit**, and then click **Show details**.
     
-  - Click a voice route name, click **Edit**, click **Copy**, and then click **Paste**. Click the new copy of the voice route that you just created, click **Edit**, and then click **Show details**.
+   - Click a voice route name, click **Edit**, click **Copy**, and then click **Paste**. Click the new copy of the voice route that you just created, click **Edit**, and then click **Show details**.
     
 4. In the **Name** field on the **Edit Voice Route** page, type a descriptive name for the voice route.
     
@@ -83,13 +83,13 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
     
 6. To specify the patterns you want this route to accommodate, you can either use the **Build a pattern to match** tool to generate a regular expression, or write the regular expression manually.
     
-  - To use the **Build a pattern to match** tool to generate a regular expression, enter values as follows. You can specify two types of pattern matching:
+   - To use the **Build a pattern to match** tool to generate a regular expression, enter values as follows. You can specify two types of pattern matching:
     
-  - **Starting digits for numbers that you want to allow**: Enter prefix values that this route must accommodate (including the leading + if needed). For example, type +425 and then click **Add**. Repeat this for each prefix value that you want to include in the route.
+   - **Starting digits for numbers that you want to allow**: Enter prefix values that this route must accommodate (including the leading + if needed). For example, type +425 and then click **Add**. Repeat this for each prefix value that you want to include in the route.
     
-  - **Exceptions**: If you want to specify one or more exceptions for a prefix value, highlight the prefix and click **Exceptions**. Type in one or more values for the matching patterns that you do  *not*  want this route to accommodate. For example, to exclude numbers starting with +425237 from the route, enter a value of+425237 in the **Exceptions** field, and then click **OK**.
+   - **Exceptions**: If you want to specify one or more exceptions for a prefix value, highlight the prefix and click **Exceptions**. Type in one or more values for the matching patterns that you do  *not*  want this route to accommodate. For example, to exclude numbers starting with +425237 from the route, enter a value of+425237 in the **Exceptions** field, and then click **OK**.
     
-  - To define the matching pattern manually, click **Edit** in the **Build a pattern to match** tool and then type in a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.For details about how to write regular expressions, see[".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - To define the matching pattern manually, click **Edit** in the **Build a pattern to match** tool and then type in a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied.For details about how to write regular expressions, see [".NET Framework Regular Expressions"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
 7. Select **Suppress caller ID** if you do not want the ID of the phone that is making the outbound call to appear to the call recipient. If you select this option, you must specify an **Alternate caller ID** that will appear on the recipient's caller ID display.
     
@@ -112,7 +112,7 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 13. On the **Route** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a voice route, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a voice route, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 

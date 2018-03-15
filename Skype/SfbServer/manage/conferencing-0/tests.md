@@ -13,8 +13,8 @@ description: "Summary: Learn how to test dial-in conferencing in Skype for Busin
 ---
 
 # Test dial-in conferencing in Skype for Business Server 2015
-[]
- **Summary:** Learn how to test dial-in conferencing in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to test dial-in conferencing in Skype for Business Server 2015.
   
 As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region. You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.
   

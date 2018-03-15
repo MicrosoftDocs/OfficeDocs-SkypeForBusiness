@@ -13,7 +13,7 @@ description: "Removes an existing collection of privacy configuration settings. 
 ---
 
 # Remove-CsPrivacyConfiguration
-[]
+ 
 Removes an existing collection of privacy configuration settings. Privacy configuration settings help determine how much information users make available to other users. This cmdlet was introduced in Lync Server 2010.
   
 ```

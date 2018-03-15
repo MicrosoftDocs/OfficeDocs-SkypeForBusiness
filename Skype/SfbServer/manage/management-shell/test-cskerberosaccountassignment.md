@@ -13,7 +13,7 @@ description: "Verifies the configuration of the Kerberos account assigned to a s
 ---
 
 # Test-CsKerberosAccountAssignment
-[]
+ 
 Verifies the configuration of the Kerberos account assigned to a site. This cmdlet was introduced in Lync Server 2010.
   
 ```

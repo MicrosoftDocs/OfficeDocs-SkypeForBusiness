@@ -13,7 +13,7 @@ description: "Removes a specific call park orbit range. This cmdlet was introduc
 ---
 
 # Remove-CsCallParkOrbit
-[]
+ 
 Removes a specific call park orbit range. This cmdlet was introduced in Lync Server 2010.
   
 ```

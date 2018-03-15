@@ -13,7 +13,7 @@ description: "Returns the state of one or more Persistent Chat service pools. Pe
 ---
 
 # Get-CsPersistentChatState
-[]
+ 
 Returns the state of one or more Persistent Chat service pools. Persistent Chat pools can be in one of two states: Normal, in which the pool uses its primary databases; or FailedOver, in which the pool uses the backup databases defined in the topology. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -57,7 +57,7 @@ Get-CsPersistentChatState | Where-Object {$_.PoolState -eq "FailedOver"}
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The **Get-CsPersistentChatState** cmdlet returns the state of one or more Persistent Chat pools. Persistent Chat pools can be in either the Normal state (in which the pool uses its primary databases) or in a FailedOver state, in which the pool uses its backup databases. You can use the[Set-CsPersistentChatState](set-cspersistentchatstate.md) cmdlet to change the state of a Persistent Chat pool; when you change the state of the pool, Skype for Business Server 2015 will automatically change the state of each individual server in the pool.
+The **Get-CsPersistentChatState** cmdlet returns the state of one or more Persistent Chat pools. Persistent Chat pools can be in either the Normal state (in which the pool uses its primary databases) or in a FailedOver state, in which the pool uses its backup databases. You can use the [Set-CsPersistentChatState](set-cspersistentchatstate.md) cmdlet to change the state of a Persistent Chat pool; when you change the state of the pool, Skype for Business Server 2015 will automatically change the state of each individual server in the pool.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Get-CsPersistentChatState** cmdlet are not available in the Skype for Business Server Control Panel.
   

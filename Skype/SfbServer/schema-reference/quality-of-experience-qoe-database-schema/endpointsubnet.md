@@ -13,7 +13,7 @@ description: "The EndpointSubnet table is a supporting table. Each record repres
 ---
 
 # EndpointSubnet table
-[]
+ 
 The EndpointSubnet table is a supporting table. Each record represents one subnet captured from endpoints. 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

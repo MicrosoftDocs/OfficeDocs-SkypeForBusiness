@@ -13,8 +13,8 @@ description: "Summary: Learn about the Media Quality Summary Report in Skype for
 ---
 
 # Media Quality Summary Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Media Quality Summary Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Media Quality Summary Report in Skype for Business Server 2015.
   
 The Media Quality Summary Report is perhaps your best bet for analyzing call quality in your organization: this report provides detailed Quality of Experience (QoE) call metrics broken down into the following categories:
   

@@ -13,7 +13,7 @@ description: "Returns information about the analog devices you can manage by usi
 ---
 
 # Get-CsAnalogDevice
-[]
+ 
 Returns information about the analog devices you can manage by using Skype for Business Server 2015. An analog device is a telephone or other device that is connected to the public switched telephone network. This cmdlet was introduced in Lync Server 2010.
   
 ```

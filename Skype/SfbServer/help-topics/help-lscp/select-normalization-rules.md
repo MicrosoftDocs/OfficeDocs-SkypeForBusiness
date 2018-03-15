@@ -15,7 +15,7 @@ description: "Normalization rules use .NET Framework regular expressions to tran
 ---
 
 # Select Normalization Rules
-[]
+ 
 Normalization rules use .NET Framework regular expressions to translate dialed phone numbers to E.164 format. Each dial plan must be assigned one or more normalization rules.
   
 To use an existing normalization rule, click a rule in the list and then click **OK**.

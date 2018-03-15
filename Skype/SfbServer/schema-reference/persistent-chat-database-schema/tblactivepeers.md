@@ -13,7 +13,7 @@ description: "tblActivePeers contains the current peer-to-peer connections betwe
 ---
 
 # tblActivePeers
-[]
+ 
 tblActivePeers contains the current peer-to-peer connections between chat services.
   
 **Columns**

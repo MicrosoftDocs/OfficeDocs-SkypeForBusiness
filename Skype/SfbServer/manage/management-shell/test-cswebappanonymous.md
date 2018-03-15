@@ -13,7 +13,7 @@ description: "Verifies that anonymous users can use the Skype for Business Web A
 ---
 
 # Test-CsWebAppAnonymous
-[]
+ 
 Verifies that anonymous users can use the Skype for Business Web App to join a Skype for Business Server 2015 conference. This cmdlet was introduced in Lync Server 2010.
   
 This cmdlet has been deprecated for use with the on-premises version of Skype for Business Server 2015. Instead, administrators should use the [Test-CsUcwaConference](test-csucwaconference.md) cmdlet to perform these tests.

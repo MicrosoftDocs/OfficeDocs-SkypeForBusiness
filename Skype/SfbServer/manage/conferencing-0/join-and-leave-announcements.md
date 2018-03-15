@@ -13,8 +13,8 @@ description: "Summary: Learn how to manage conference join and leave announcemen
 ---
 
 # Manage conference join and leave announcements in Skype for Business Server 2015
-[]
- **Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server 2015.
   
 When dial-in users join or leave a conference, the Conferencing Announcement application can announce their entrance or exit by playing a tone or saying their names. You can change how announcements work by using Skype for Business Server Management Shell and the **Set-CsDialinConferencing** cmdlet with the following parameters:
   
@@ -25,8 +25,7 @@ When dial-in users join or leave a conference, the Conferencing Announcement app
 - EntryExitAnnouncementsType - Indicates the action taken whenever a participant joins or leaves a conference for which announcements are enabled. The default value is "UseNames," which means there is an announcement similar to the following: "Ken Myer has joined the conference" when announcements are turned on.
     
 You can configure these settings at the global scope or at the site scope. Settings configured at the site scope take precedence over settings configured at the global scope.
-  
-## 
+   
 
 ### To modify the conference join and leave announcement behavior
 
@@ -40,7 +39,7 @@ You can configure these settings at the global scope or at the site scope. Setti
   Get-CsDialinConferencingConfiguration
   ```
 
-    This cmdlet retrieves information about whether participants are required to record their name when joining a conference and how Skype for Business Server responds when participants join or leave a dial-in conference.
+This cmdlet retrieves information about whether participants are required to record their name when joining a conference and how Skype for Business Server responds when participants join or leave a dial-in conference.
     
 4. Run the following at the command prompt:
     

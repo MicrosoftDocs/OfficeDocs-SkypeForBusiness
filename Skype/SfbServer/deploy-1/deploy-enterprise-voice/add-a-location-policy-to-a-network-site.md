@@ -15,10 +15,10 @@ description: "Assign E9-1-1 location policies to network sites in Skype for Busi
 ---
 
 # Add a location policy to a network site in Skype for Business Server 2015
-[]
+ 
 Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice. 
   
-The following examples show how to add the **Redmond** location policy defined in[Create location policies in Skype for Business Server 2015](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.
+The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server 2015](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.
   
 For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:
   
@@ -51,8 +51,8 @@ For details about working with network sites, see the Lync Server Management She
     
     Create a new network site in the network region and assign the **Redmond** tagged Location policy.
     
-  ```
-  New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-  ```
+   ```
+   New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
+   ```
 
 

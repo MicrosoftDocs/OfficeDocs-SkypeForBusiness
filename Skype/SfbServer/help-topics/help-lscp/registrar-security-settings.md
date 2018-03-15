@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Registrar Security Settings
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Manage Registrar configuration settings in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)

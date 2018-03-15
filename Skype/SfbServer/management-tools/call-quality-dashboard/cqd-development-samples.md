@@ -14,8 +14,8 @@ description: "Summary: Review a tutorial and development samples for Call Qualit
 ---
 
 # CQD Development Samples
-[]
- **Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 This article provides a tutorial and samples on development for Call Quality Dashboard (CQD).
   
@@ -97,33 +97,33 @@ This example can be further deconstructed into three steps:
   
 1. Construct the query (in the example this is defined in the variable 'query'). The query is defined as a JSON object, which includes the following data:
     
-1. Zero or more dimensions. Each dimension is indicated by a DataModelName.
+   a. Zero or more dimensions. Each dimension is indicated by a DataModelName.
     
-2. Zero or more filters. Each filter has:
+   b. Zero or more filters. Each filter has:
     
-  - DataModelName (the dimension that will have the filter set).
+      - DataModelName (the dimension that will have the filter set).
     
-  - Value (the value that will be compared by the operand).
+      - Value (the value that will be compared by the operand).
     
-  - Operand (comparison type, 0 means "Equal").
+      - Operand (comparison type, 0 means "Equal").
     
-3. One or more measurements.
+    c. One or more measurements.
     
 2. Send the query to Data Service via AJAX call. The following request parameters need to be provided:
     
-1. url (which should be http://[ServerName]/QoEDataService/RunQuery).
+   a. url (which should be http://[ServerName]/QoEDataService/RunQuery).
     
-2. data (this is the string representation of the JSON object defined in the 'query' variable). Data Service will return the query results as a parameter of the call back function for success.
+   b. data (this is the string representation of the JSON object defined in the 'query' variable). Data Service will return the query results as a parameter of the call back function for success.
     
-3. type (for QoEDataService, RunQuery only accepts 'POST' requests).
+   c. type (for QoEDataService, RunQuery only accepts 'POST' requests).
     
-4. async (a flag indicating whether the AJAX call should be synchronous or asynchronous).
+   d. async (a flag indicating whether the AJAX call should be synchronous or asynchronous).
     
-5. contentType (should be "application/json").
+   e. contentType (should be "application/json").
     
-6. success (call-back function for when the AJAX call finishes successfully).
+   f. success (call-back function for when the AJAX call finishes successfully).
     
-7. error (error handling function for when AJAX call fails).
+   g. error (error handling function for when AJAX call fails).
     
 3. Put data into div elements in the HTML (in the example in the code, this is done via the anonymous function call after the AJAX request is completed successfully).
     
@@ -347,7 +347,7 @@ Here are the detailed steps to get to the scorecard page in the figure from the 
 
   ```
 
-    Here the dimension  `[Scenarios].[ScenarioPair]` is set to equal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. The  `[Scenario.][ScenarioPair]` is a special dimension created to simplify report creation. It has six values corresponding to `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. So instead of using a combination of 6 filters to define a scenario, we only need to use 1 filter. In our example, the value  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` translates to the scenario where: first is server, second is not server, first is inside, second is inside, first connection type is wired, and second connection type is wired, which is the exact definition of "Server-Client-Inside Wired".
+  Here the dimension  `[Scenarios].[ScenarioPair]` is set to equal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. The  `[Scenario.][ScenarioPair]` is a special dimension created to simplify report creation. It has six values corresponding to `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. So instead of using a combination of 6 filters to define a scenario, we only need to use 1 filter. In our example, the value  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` translates to the scenario where: first is server, second is not server, first is inside, second is inside, first connection type is wired, and second connection type is wired, which is the exact definition of "Server-Client-Inside Wired".
     
 3. Create one filter set per scenario. Each row in the scorecard, in the figure, represents a different scenario, which will be a different filter (while the dimensions and measurements stay the same). 
     

@@ -13,7 +13,7 @@ description: "Use the New-CsVideoInteropServerSyntheticTransactionConfiguration 
 ---
 
 # New-CsVideoInteropServerSyntheticTransactionConfiguration
-[]
+ 
 Use the **New-CsVideoInteropServerSyntheticTransactionConfiguration** cmdlet to create a new Video Interop Server (VIS) synthetic transaction configuration. The cmdlet can be applied at the Global, Site, and Service levels.
   
 ```

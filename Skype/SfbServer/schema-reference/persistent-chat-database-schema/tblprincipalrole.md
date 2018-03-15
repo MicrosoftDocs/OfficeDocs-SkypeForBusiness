@@ -13,7 +13,7 @@ description: "tblPrincipalRole contains explicit roles assigned to nodes."
 ---
 
 # tblPrincipalRole
-[]
+ 
 tblPrincipalRole contains explicit roles assigned to nodes.
   
 **Columns**

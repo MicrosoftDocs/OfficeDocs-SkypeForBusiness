@@ -13,7 +13,7 @@ description: "Returns information about the Skype for Business Server 2015 repli
 ---
 
 # Get-CsManagementStoreReplicationStatus
-[]
+ 
 Returns information about the Skype for Business Server 2015 replication process; this includes information on whether replication is currently up to date for your Skype for Business Server 2015 computers. This cmdlet was introduced in Lync Server 2010.
   
 ```

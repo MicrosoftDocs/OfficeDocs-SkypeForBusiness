@@ -13,7 +13,7 @@ description: "Modifies an existing collection of proxy server configuration sett
 ---
 
 # Set-CsProxyConfiguration
-[]
+ 
 Modifies an existing collection of proxy server configuration settings. This cmdlet was introduced in Lync Server 2010.
   
 ```

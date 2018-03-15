@@ -13,7 +13,7 @@ description: "Creates a new collection of dual-tone multifrequency (DTMF) signal
 ---
 
 # New-CsDialInConferencingDtmfConfiguration
-[]
+ 
 Creates a new collection of dual-tone multifrequency (DTMF) signaling settings used for dial-in conferencing. DTMF enables users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -15,8 +15,8 @@ description: "Summary: Learn how to prepare your environment for an installation
 ---
 
 # Install Skype for Business Server 2015
-[]
- **Summary:** Learn how to prepare your environment for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+ 
+**Summary:** Learn how to prepare your environment for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 This article walks you through an example installation of Skype for Business Server 2015. This article does not attempt to cover all of the procedures you need to perform a full Skype for Business Server installation. The goal is to provide example procedures in a narrowly defined topology that includes basic meet-and-share functionality.
   

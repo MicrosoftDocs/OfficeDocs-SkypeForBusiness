@@ -15,8 +15,8 @@ description: "Summary: Learn how to configure Caller ID by using the Skype for B
 ---
 
 # Create or modify a translation rule for caller ID presentation in Skype for Business Server 2015
-[]
- **Summary:** Learn how to configure Caller ID by using the Skype for Business Server Control Panel.
+ 
+**Summary:** Learn how to configure Caller ID by using the Skype for Business Server Control Panel.
   
 With Skype for Business Server, the called party's phone number (that is, the phone number called) can be translated from E.164 format to the local dialing format that is required by the  _trunk peer_ (that is, the associated gateway, private branch exchange (PBX), or SIP trunk). To do this, you must define one or more translation rules to translate the Request URI before routing it to the trunk peer.
   
@@ -32,15 +32,15 @@ Skype for Business Server also gives you the option to also translate the callin
     
 4. To configure caller ID presentation:
     
-  - To choose one or more rules from a list of all translation rules available in your Enterprise Voice deployment, click **Select**. In **Calling number translation rules**, click the rules that you want to associate with the trunk, and then click **OK**.
+   - To choose one or more rules from a list of all translation rules available in your Enterprise Voice deployment, click **Select**. In **Calling number translation rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     
-  - To define a new translation rule and associate it with the trunk, click **New**. For details about defining a new rule, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in the Deployment documentation.
+   - To define a new translation rule and associate it with the trunk, click **New**. For details about defining a new rule, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in the Deployment documentation.
     
-  - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. For details, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in the Deployment documentation.
+   - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. For details, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) in the Deployment documentation.
     
-  - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. For details, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx). 
+   - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. For details, see [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx). 
     
-  - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
+   - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
     > [!CAUTION]
     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 

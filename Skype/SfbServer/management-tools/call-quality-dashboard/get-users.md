@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Users operation, which is part of the
 ---
 
 # Get Users
-[]
- **Summary:** Learn about the Get Users operation, which is part of the User Service. The User Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Users operation, which is part of the User Service. The User Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Users operation is part of the User Service in the Repository API for Call Quality Dashboard.
   
@@ -23,8 +23,6 @@ The Get Users operation is part of the User Service in the Repository API for Ca
 
 Get Users returns a list of users in the repository.
   
-|
-|
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |

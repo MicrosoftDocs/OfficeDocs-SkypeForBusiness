@@ -13,11 +13,11 @@ description: "Creates a new static phone route. This cmdlet was introduced in Ly
 ---
 
 # New-CsStaticRoute
-[]
+ 
 Creates a new static phone route. This cmdlet was introduced in Lync Server 2010.
   
 ```
-New-CsStaticRoute -Destination <String> -MatchUri <String> -Port <UInt16> -TLSRoute <SwitchParameter> [-Enabled <$true | $false>] [-MatchOnlyPhoneUri <$true | $false>] [-ReplaceHostInRequestUri <$true | $false>] [-TLSCertIssuer <String>] [-TLSCertSerialNumber <Byte[]>] [-UseDefaultCertificate <$true | $false>] <COMMON PARAMETERS>
+New-CsStaticRoute -Destination <String> -MatchUri <String> -Port <UInt16> -TLSRoute <SwitchParameter> [-Enabled <$true | $false>] [-MatchOnlyPhoneUri <$true | $false>] [-ReplaceHostInRequestUri <$true | $false>] [-TLSCertIssuer <String>] [-TLSCertSerialNumber <Byte >] [-UseDefaultCertificate <$true | $false>] <COMMON PARAMETERS>
 
 ```
 
@@ -81,7 +81,7 @@ New static routes are created by using the **New-CsStaticRoute** cmdlet. After a
 | _MatchOnlyPhoneUri_ <br/> |Optional  <br/> |System.Boolean  <br/> |If set to True, only messages addressed to phone Uniform Resource identifiers (URIs) (for example, sip:kenmmyer@litwareinc.com;user=phone) will be matched and, potentially, routed. If set to False (the default value) then all messages will be matched.  <br/> |
 | _ReplaceHostInRequestUri_ <br/> |Optional  <br/> |System.Boolean  <br/> |If set to True ($True) then the host portion of a Request-URI will be replaced by the address of the next hop server. If set the False then the Request-URI will be used as-is. The Request-URI represents the URI of the user or service that the request (message) is addressed to. The default value is False.  <br/> |
 | _TLSCertIssuer_ <br/> |Optional  <br/> |System.String  <br/> |Name of the certification authority (CA) that issued the certificate to be used in the static route. This parameter is not used if you have configured TCP as the transport protocol.  <br/> If you include the TLSCertIssuer parameter then you must also use the TLSCertSerialNumber parameter.  <br/> |
-| _TLSCertSerialNumber_ <br/> |Optional  <br/> |System.Byte[]  <br/> |Serial number of the TLS certificate to be used in the static route. Serial numbers must be passed as a byte array; this means you must pass the serial number as an array of two-character values. For example:  `-TLSCertSerialNumber 0x01, 0xA4, 0xD5, 0x67, 0x89` <br/> This parameter is not used if you have configured TCP as the transport protocol.  <br/> If you include the TLSCertSerialNumber parameter then you must also use the TLSCertIssuer parameter.  <br/> |
+| _TLSCertSerialNumber_ <br/> |Optional  <br/> |System.Byte   <br/> |Serial number of the TLS certificate to be used in the static route. Serial numbers must be passed as a byte array; this means you must pass the serial number as an array of two-character values. For example:  `-TLSCertSerialNumber 0x01, 0xA4, 0xD5, 0x67, 0x89` <br/> This parameter is not used if you have configured TCP as the transport protocol.  <br/> If you include the TLSCertSerialNumber parameter then you must also use the TLSCertIssuer parameter.  <br/> |
 | _UseDefaultCertificate_ <br/> |Optional  <br/> |System.Boolean  <br/> |Configures the route to use your default Skype for Business Server 2015 certificate as its authentication certificate. If you do not want to use the default certificate then you must specify a different certificate by using the TLSCertIssuer and TLSCertSerialNumber parameters.  <br/> To view the default certificate, use the following command:  <br/>  `Get-CsCertificate | Where-Object {$_.Use -eq "urn:certref:Default"}` <br/> |
    
 ## Input Types

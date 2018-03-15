@@ -13,7 +13,7 @@ description: "Retrieves one or more network bandwidth policy profiles. This cmdl
 ---
 
 # Get-CsNetworkBandwidthPolicyProfile
-[]
+ 
 Retrieves one or more network bandwidth policy profiles. This cmdlet was introduced in Lync Server 2010.
   
 ```

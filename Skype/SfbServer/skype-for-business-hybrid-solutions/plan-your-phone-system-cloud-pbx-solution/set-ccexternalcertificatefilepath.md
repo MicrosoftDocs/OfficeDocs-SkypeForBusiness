@@ -13,7 +13,7 @@ description: "The Set-CcExternalCertificateFilePath cmdlet specifies the path wh
 ---
 
 # Set-CcExternalCertificateFilePath
-[]
+ 
 The Set-CcExternalCertificateFilePath cmdlet specifies the path where the certificate for the Mediation Server or Edge Server is stored.
   
 This certificate is required during deployment or when adding new appliances of Skype for Business Cloud Connector Edition. The command also allows importing a new certificate for the Mediation Server after the deployment.

@@ -13,7 +13,7 @@ description: "This article describes the client preferences and defaults availab
 ---
 
 # Customize the Mac client experience in Skype for Business
-[]
+ 
 This article describes the client preferences and defaults available for the Skype for Business on Mac client, and how to edit them from outside the App.
   
 ## Skype for Business on Mac client preference settings
@@ -26,8 +26,7 @@ To set these preferences, get to a terminal prompt on the client's Mac and as ne
   
 **Client preference keys**
 
-|
-|
+
 |**Key**|**Type**|**Value**|**Description**|
 |:-----|:-----|:-----|:-----|
 |AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = manual server configuration  <br/> 1 = automatic server detection (default)  <br/> |Specify how Skype for Business identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify **internalAutoDiscoveryURL** and **externalAutoDiscoveryURL**. <br/> |

@@ -15,7 +15,7 @@ description: "To specify site details for a site, do the following:"
 ---
 
 # Add Branch Site Details
-[]
+ 
 To specify site details for a site, do the following:
   
 Specify a city name for the new branch site. The City value is an optional entry.

@@ -13,8 +13,8 @@ description: "Summary: Learn about the Monitoring Dashboard in Skype for Busines
 ---
 
 # Using the Monitoring Dashboard in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Monitoring Dashboard in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Monitoring Dashboard in Skype for Business Server 2015.
   
 The Monitoring Dashboard provides administrators with a quick overview of their Skype for Business Server 2015 system health and system usage. The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:
   

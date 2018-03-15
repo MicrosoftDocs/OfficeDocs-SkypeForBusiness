@@ -13,7 +13,7 @@ description: "Returns server licensing information for a computer running Skype 
 ---
 
 # Get-CsServerVersion
-[]
+ 
 Returns server licensing information for a computer running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

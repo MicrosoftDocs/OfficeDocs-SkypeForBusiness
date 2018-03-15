@@ -13,7 +13,7 @@ description: "This article explains the relevant planning considerations for dep
 ---
 
 # Plan for Skype Room Systems v2
-[]
+ 
 This article explains the relevant planning considerations for deploying Skype Room Systems v2, the next generation of Skype Room Systems. 
   
  Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
@@ -132,7 +132,7 @@ This section contains an overview of the steps required to prepare your environm
     
 ### Create and test a device account
 
-A  *device account*  is an account that the Skype Room Systems v2 client uses to access features from Exchange, like calendar, and to enable Skype for Business. See[Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) for details.
+A  *device account*  is an account that the Skype Room Systems v2 client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) for details.
   
 ### Check network availability
 
@@ -144,7 +144,7 @@ In order to function properly, the Skype Room Systems v2 device must have access
     
 - Access to HTTP ports 80 and 443.
     
-- TCP and UDP ports configured as described in [Port requirements for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398798%28v=ocs.15%29.aspx) for on premise Skype for Business implementations, or[Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port requirements for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398798%28v=ocs.15%29.aspx) for on premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
     
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth. 

@@ -13,7 +13,7 @@ description: "Use the New-CsCallViaWorkPolicy cmdlet to create a new call via wo
 ---
 
 # New-CsCallViaWorkPolicy
-[]
+ 
 Use the **New-CsCallViaWorkPolicy** cmdlet to create a new call via work policy that enables and manages the characteristics of outbound calls placed through the Skype for Business client.
   
 ```

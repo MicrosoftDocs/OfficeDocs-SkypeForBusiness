@@ -1,7 +1,12 @@
 ---
 title: "Certificate Assignment (From Request)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "The Certificate Assignment page starts the process of assigning a 
 ---
 
 # Certificate Assignment (From Request)
-[]
+ 
 The **Certificate Assignment** page starts the process of assigning a certificate to the requested usages on the role server. Click the **View Certificate Details** to view the certificate. You can select the **General** tab, the **Details** tab, or the **Certification Path** tab. The **General** tab will display basic information about the certificate, such as the issuing certification authority and the status of a private key. The Details tab will display certificate information such as the subject name, subject alternative names, and other details. The **Certification Path** tab will display the certificate "chain of trust" from the certificate through any issuing or intermediate certification authorities (if they are present) to the root certification authority.
   
 Click **Next** to continue.

@@ -13,8 +13,8 @@ description: "Summary: Overview of installation methods and tools for Skype for 
 ---
 
 # Customize Windows client installation in Skype for Business Server 2015
-[]
- **Summary:** Overview of installation methods and tools for Skype for Business.
+ 
+**Summary:** Overview of installation methods and tools for Skype for Business.
   
 > [!NOTE]
 > For installation information about Skype for Business that comes with Office 365, see [Deploy the Skype for Business client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 

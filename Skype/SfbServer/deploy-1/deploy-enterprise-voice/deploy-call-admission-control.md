@@ -15,12 +15,12 @@ description: "Call admission control (CAC) is a solution that determines whether
 ---
 
 # Deploy call admission control in Skype for Business Server 2015
-[]
+ 
 Call admission control (CAC) is a solution that determines whether a real-time session can be established based on the available bandwidth to help prevent poor audio/video quality for users on congested networks. For more information, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md).
   
 ### To deploy Call Admission Control
 
-1.  Gather all of the required information for your enterprise network topology, as described in[Example: Gathering requirements for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+1.  Gather all of the required information for your enterprise network topology, as described in [Example: Gathering requirements for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
     
 2. If you have not done so already, you must define network regions and sites, and associate subnets with network sites. For details, see [Deploy network regions, sites and subnets in Skype for Business 2015](deploy-network.md).
     

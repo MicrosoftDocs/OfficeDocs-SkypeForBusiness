@@ -13,7 +13,7 @@ description: "Converts exported user data to the data format used by either Micr
 ---
 
 # Convert-CsUserData
-[]
+ 
 Converts exported user data to the data format used by either Microsoft Lync Server 2010 or Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2013.
   
 ```
@@ -43,7 +43,7 @@ Convert-CsUserData -InputFile "C:\Logs\Lync2013Data.Zip" -OutputFile "C:\Logs\Ly
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The **Convert-CsUserData** cmdlet takes data exported by using the[Export-CsUserData](export-csuserdata.md) cmdlet and then converts that data to the user data format used by either Microsoft Lync Server 2010 or Skype for Business Server 2015. In turn, that enables the **Import-CsUserData** cmdlet to import that data to the appropriate server version.
+The **Convert-CsUserData** cmdlet takes data exported by using the [Export-CsUserData](export-csuserdata.md) cmdlet and then converts that data to the user data format used by either Microsoft Lync Server 2010 or Skype for Business Server 2015. In turn, that enables the **Import-CsUserData** cmdlet to import that data to the appropriate server version.
   
  **Skype for Business Server Control Panel:** The functions carried out by the **Convert-CsUserData** cmdlet are not available in the Skype for Business Server Control Panel.
   

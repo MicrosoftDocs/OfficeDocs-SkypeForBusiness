@@ -13,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a hybr
 ---
 
 # Skype Room System hybrid deployments
-[]
+ 
 Read this topic to learn how to deploy Skype Room System in a hybrid environment.
   
 ## Hybrid deployments
@@ -47,11 +47,10 @@ For illustrative purpose, we use LyncSample.com for the on-premises domain and L
     
 6. Enable the Skype Room System account for Skype for Business by running the following cmdlet on Skype for Business Management Shell:
     
-  ```
-  Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
-Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
-
-  ```
+   ```
+   Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
+   Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
+   ```
 
 > [!NOTE]
 > If you have Skype for Business Online instead of Skype for Business Server in the above scenario, then after provisioning the Exchange resource mailbox, provision a Skype for Business account as described in Skype for Business Online Provisioning. 

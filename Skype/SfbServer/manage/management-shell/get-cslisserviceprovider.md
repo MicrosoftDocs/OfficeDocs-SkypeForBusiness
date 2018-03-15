@@ -13,7 +13,7 @@ description: "Retrieves information about the web service provided by the Enhanc
 ---
 
 # Get-CsLisServiceProvider
-[]
+ 
 Retrieves information about the web service provided by the Enhanced 9-1-1 (E9-1-1) Network Routing Provider to validate locations. This cmdlet was introduced in Lync Server 2010.
   
 ```

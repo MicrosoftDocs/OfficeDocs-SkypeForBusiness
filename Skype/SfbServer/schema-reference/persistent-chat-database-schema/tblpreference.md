@@ -13,7 +13,7 @@ description: "tblPreference contains the users' client preferences. This is gene
 ---
 
 # tblPreference
-[]
+ 
 tblPreference contains the users' client preferences. This is generally used by clients previous to Lync 2013.
   
 **Columns**

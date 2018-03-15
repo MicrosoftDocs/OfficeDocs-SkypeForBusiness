@@ -13,7 +13,7 @@ description: "Returns information about existing instances of the Skype for Busi
 ---
 
 # Get-CsStorageServiceConfiguration
-[]
+ 
 Returns information about existing instances of the Skype for Business Server 2015 Storage Service. The storage service provides a common infrastructure that enables Skype for Business Server 2015 components to use Exchange as a back-end data store.
   
 This cmdlet was introduced in Skype for Business Server 2015.

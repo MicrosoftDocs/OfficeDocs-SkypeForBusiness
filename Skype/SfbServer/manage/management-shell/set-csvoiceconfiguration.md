@@ -13,7 +13,7 @@ description: "Modifies a list of voice test configurations. This cmdlet was intr
 ---
 
 # Set-CsVoiceConfiguration
-[]
+ 
 Modifies a list of voice test configurations. This cmdlet was introduced in Lync Server 2010.
   
 ```

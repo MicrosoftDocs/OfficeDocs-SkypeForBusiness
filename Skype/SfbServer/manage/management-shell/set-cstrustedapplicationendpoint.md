@@ -13,7 +13,7 @@ description: "Modifies an existing endpoint contact for a trusted application. T
 ---
 
 # Set-CsTrustedApplicationEndpoint
-[]
+ 
 Modifies an existing endpoint contact for a trusted application. This cmdlet was introduced in Lync Server 2010.
   
 ```

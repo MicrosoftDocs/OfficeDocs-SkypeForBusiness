@@ -13,7 +13,7 @@ description: "The Get-CcSiteDirectory cmdlet shows the current directory where s
 ---
 
 # Get-CcSiteDirectory
-[]
+ 
 The Get-CcSiteDirectory cmdlet shows the current directory where site level configuration files are stored. The folder contains the base VHD and Skype for Business Cloud Connector Edition installation files. This folder should be shared with all other appliances of a Cloud Connector site.
   
 This cmdlet applies to Cloud Connector Edition 1.4.1, 1.4.2.

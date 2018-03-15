@@ -13,7 +13,7 @@ description: "Returns information about the Skype for Business Server 2015 certi
 ---
 
 # Test-CsCertificateConfiguration
-[]
+ 
 Returns information about the Skype for Business Server 2015 certificates being used on the local computer. This cmdlet was introduced in Lync Server 2010.
   
 ```

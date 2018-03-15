@@ -13,7 +13,7 @@ description: "Each record in this table contains call details about one conferen
 ---
 
 # Conferences table in Skype for Business Server 2015
-[]
+ 
 Each record in this table contains call details about one conference.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

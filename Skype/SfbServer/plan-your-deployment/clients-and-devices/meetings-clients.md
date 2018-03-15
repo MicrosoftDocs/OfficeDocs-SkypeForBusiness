@@ -15,8 +15,8 @@ description: "Summary: IT Professionals should review the support requirements f
 ---
 
 # Plan for Meetings clients (Web App and Meetings App)
-[]
- **Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps.
+ 
+**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps.
   
 Once you've implemented Skype for Business Server, your organization's users will presumably have the Skype for Business client installed as part of the deployment process. 
   
@@ -26,7 +26,7 @@ Later on, those users may create meetings and invite users from outside the orga
 > The Skype for Business Web App and Skype Meetings App are only available when trying to log in to a meeting without having a Skype for Business. User help for these apps is at [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
-> You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and[tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
+> You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
@@ -44,24 +44,23 @@ To use the Skype for Business Web App, a user must have one of the following sup
   
 **Operating System and minimum browser support for Skype for Business Web App**
 
-|
-|
+
 |**Operating system**|**Edge**|**32- and 64-bit Internet Explorer 11 or later**|**32-bit and 64-bit Internet Explorer 10 or later**|**32-bit and 64-bit Internet Explorer 9 or later**|**32-bit and 64-bit Version of Firefox 12.X or later**|**32-bit and 64-bit Version of Chrome 18.X or later**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes 3 <br/> |
-| Windows 8.11 <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes 3 <br/> |
-| Windows 8 (Intel based)1 <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |Yes  <br/> |Yes 3 <br/> |
-|Windows 7 with SP12 <br/> |N/A  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes 3 <br/> |
-|Windows Server 2008 R2 with SP12 <br/> |N/A  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes 3 <br/> |
-|macOS 10.8 and later (Intel-based)2 <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes 4 <br/> |
+|Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+| Windows 8.1&#x2776; <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+| Windows 8 (Intel based) &#x2776; <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+|Windows 7 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+|Windows Server 2008 R2 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+|macOS 10.8 and later (Intel-based) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2779; <br/> |
    
-1 The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 and 11.
+&#x2776; The Skype for Business Web App browser plug-in requires a specific sharing plugin to use computer-based voice, video, sharing, and viewing of ongoing screen sharing and other features. A meeting attendee is given the option to install the sharing plug-in either when they join the meeting or when they initiate one of these features. On Windows 8, and Windows 8.1, the sharing plug-in can be installed only if you're running Internet Explorer 10 or Internet Explorer 11 for the desktop. These features are not available with non-desktop versions of Internet Explorer 10 and 11.
   
-2 On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.
+&#x2777; On supported Windows 7, Windows Server 2008 R2, and Macintosh operating systems, all features are available including computer-based voice, video, application viewing, application sharing, desktop viewing, and desktop sharing. To use these features, you must install a plug-in when prompted. Note that Mac OS X version 10.7 is no longer supported.
   
-3 Accessing the Web App from Chrome on Windows will launch a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
+&#x2778; Accessing the Web App from Chrome on Windows will launch a small program which loads the Web App in an embedded Internet Explorer frame. This program requires one of the supported versions of Internet Explorer be installed for the Web App to load properly.
   
-4 Accessing the Web App from Chrome on Mac will launch a small program which loads the Web App in an embedded Safari frame. This program requires one of the supported versions of Safari be installed for the Web App to load properly.
+&#x2779; Accessing the Web App from Chrome on Mac will launch a small program which loads the Web App in an embedded Safari frame. This program requires one of the supported versions of Safari be installed for the Web App to load properly.
   
 > [!NOTE]
 > Office 365 users can use Internet Explorer 10 or later with Skype for Business. 
@@ -91,8 +90,7 @@ If the user is on a network not configured as described, many app features may o
 
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2016 client**|**Skype for Business on Mac client**|**Skype Meetings App**|**Skype for Business Web App**|**Lync Web App**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Add computer audio  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |
@@ -144,7 +142,7 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
   
 - If the user is on a network not configured to meet the [Network requirements](meetings-clients.md#Network), many app features may or may not work and they may not be able to connect to the meeting at all.
     
-- Some users may have corporate-administered computers with disabled permission to install apps. for those users, neither app is an option, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and[tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
+- Some users may have corporate-administered computers with disabled permission to install apps. for those users, neither app is an option, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
     
     Other installation issues are also covered in the [help topics](https://support.office.com/en-us/article/Trouble-installing-the-Skype-for-Business-Web-App-plug-in-958fc5f1-2d6f-42e3-815d-a9516c591274?ui=en-US&amp;rs=en-US&amp;ad=US). 
     

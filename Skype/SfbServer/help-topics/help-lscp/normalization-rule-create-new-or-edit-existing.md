@@ -15,7 +15,7 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Normalization Rule: Create New or Edit Existing
-[]
+ 
 What do you want to do? Click the link to the task that you want to perform.
   
 - [Create or modify a normalization rule in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/normalization-rules.md)

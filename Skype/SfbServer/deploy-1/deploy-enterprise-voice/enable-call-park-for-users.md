@@ -15,7 +15,7 @@ description: "Enable users for Call Park in Skype for Business Server Enterprise
 ---
 
 # Enable Call Park for users in Skype for Business 2015
-[]
+ 
 Enable users for Call Park in Skype for Business Server Enterprise Voice.
   
 By default, Call Park is disabled for all users. Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.
@@ -46,15 +46,15 @@ You can enable Call Park at the global scope, or at the site scope or user scope
     
 3. Run:
     
-  ```
-  Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
-  ```
+   ```
+   Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
+   ```
 
     For example, to enable Call Park for the default global voice policy:
     
-  ```
-  Set-CsVoicePolicy -EnableCallPark $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableCallPark $true
+   ```
 
 ## See also
 

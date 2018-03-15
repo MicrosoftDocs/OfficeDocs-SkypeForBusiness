@@ -13,7 +13,7 @@ description: "Modifies an existing instant messaging (IM) archiving policy. An a
 ---
 
 # Set-CsArchivingPolicy
-[]
+ 
 Modifies an existing instant messaging (IM) archiving policy. An archiving policy gives you the ability to archive all IM sessions and conferences that take place between internal users; you can also archive sessions that take place between internal users and federated partners. This cmdlet was introduced in Lync Server 2010.
   
 ```

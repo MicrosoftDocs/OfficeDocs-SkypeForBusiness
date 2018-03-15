@@ -13,8 +13,8 @@ description: "Summary: Read this topic to learn how to add Persistent Chat Serve
 ---
 
 # Add Persistent Chat Server to your Skype for Business Server 2015 topology
-[]
- **Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology.
+ 
+**Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology.
   
 After you install the prerequisite software on each server on which you plan to deploy Persistent Chat Server, you use Topology Builder to: 
   
@@ -55,13 +55,13 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
   
 8. Define the **SQL store for the Persistent Chat Server Back End (where chat room content is stored)** by doing one of the following:
     
-  - To use an existing SQL Server store, in the drop-down list, click the name of the SQL Server store that you want to use.
+   - To use an existing SQL Server store, in the drop-down list, click the name of the SQL Server store that you want to use.
     
-  - To specify a new SQL Server database, click **New**, and in **Define New SQL Store**, perform the following:
+   - To specify a new SQL Server database, click **New**, and in **Define New SQL Store**, perform the following:
     
-  - In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server database.
+   - In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server database.
     
-  - Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.
+   - Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.
     
     > [!NOTE]
     > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
@@ -75,12 +75,12 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
     To use an existing file store, perform the following steps:
     
-  - In **File Server FQDN**, specify the FQDN of the machine on which you want to create the new file store.
+    - In **File Server FQDN**, specify the FQDN of the machine on which you want to create the new file store.
     
-  - In **File Share**, specify the file store that you want to use.
+    - In **File Share**, specify the file store that you want to use.
     
-    > [!IMPORTANT]
-    > You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology. If the file store doesn't already exist, attempts to publish the topology will fail. 
+     > [!IMPORTANT]
+     > You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology. If the file store doesn't already exist, attempts to publish the topology will fail. 
   
 11. Select the Front End Server pool to be used as a next hop for this Persistent Chat Server pool. This is the Front End Server pool that will be able to route Persistent Chat Server requests to this pool.
     

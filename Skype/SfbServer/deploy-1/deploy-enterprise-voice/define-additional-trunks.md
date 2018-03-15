@@ -15,8 +15,8 @@ description: "Summary: Learn how to define an additional trunk between a Mediati
 ---
 
 # Define additional trunks in Topology Builder in Skype for Business Server 2015
-[]
- **Summary:** Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server 2015.
+ 
+**Summary:** Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server 2015.
   
 Follow these steps to define an additional trunk to which you can associate a peer with a Mediation Server. A peer provides users enabled for Enterprise Voice with connectivity to the Public Switched Telephone Network (PSTN). A peer can be a PSTN gateway, an IP-PBX, or a Session Border Controller (SBC) for an Internet Telephony Service Provider (ITSP).
   

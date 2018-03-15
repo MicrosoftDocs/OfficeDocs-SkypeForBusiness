@@ -13,7 +13,7 @@ description: "The Dialogs table is a supporting table that stores the informatio
 ---
 
 # Dialogs table in Skype for Business Server 2015
-[]
+ 
 The Dialogs table is a supporting table that stores the information about DialogIDs for peer-to-peer sessions.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|

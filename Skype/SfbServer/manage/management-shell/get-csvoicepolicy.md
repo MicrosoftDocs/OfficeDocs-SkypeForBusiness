@@ -13,7 +13,7 @@ description: "Returns information about one or more voice policies configured fo
 ---
 
 # Get-CsVoicePolicy
-[]
+ 
 Returns information about one or more voice policies configured for your organization. This cmdlet was introduced in Lync Server 2010.
   
 ```

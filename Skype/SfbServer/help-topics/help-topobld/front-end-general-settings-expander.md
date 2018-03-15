@@ -15,7 +15,7 @@ description: "To edit the settings for an existing Front End pool or Standard Ed
 ---
 
 # Front End General Settings Expander
-[]
+ 
 To edit the settings for an existing Front End pool or Standard Edition server, you are presented with the following sections:
   
 - General settings
@@ -123,7 +123,7 @@ For details about defining and configuring the settings for the Front End pool, 
   
 ## Standard Edition Server
 
-For a Standard Edition server, you can configure general, resiliency, web services, and Mediation Server settings. For details, see the information in the following subsections. For details about defining and configuring the settings for the Standard Edition server, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+For a Standard Edition server, you can configure general, resiliency, web services, and Mediation Server settings. For details, see the information in the following subsections. For details about defining and configuring the settings for the Standard Edition server, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 ### General Settings
 
@@ -198,6 +198,6 @@ For **Mediation Server**, you can specify the following:
     
 - If you have more than one gateway associated with a Mediation Server, you can specify a default gateway by selecting the gateway and then clicking **Make Default**. To unselect a gateway as the default, click **Unmake Default**. 
     
-For details about defining and configuring the settings for the Standard Edition server, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and[Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+For details about defining and configuring the settings for the Standard Edition server, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and [Deploying Mediation Servers and Defining Peers](http://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
   
 

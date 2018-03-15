@@ -15,7 +15,7 @@ description: "To add additional simple URLs to the definition of the deployment,
 ---
 
 # Add Simple URL
-[]
+ 
 To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL. The format of the URL is  _http://\<simple URL type\>.\<domain name\>_ or _http://\<domain name\>/\<simple URL type\>_, where the simple URL type is one of the following:
   
 - Meet

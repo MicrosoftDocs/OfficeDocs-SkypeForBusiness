@@ -13,8 +13,8 @@ description: "Summary: Review the Simple URL considerations in this topic before
 ---
 
 # DNS requirements for simple URLs in Skype for Business Server 2015
-[]
- **Summary:** Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server 2015.
+ 
+**Summary:** Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server 2015.
   
 Simple URLs make joining meetings easier for your users, and make getting to Skype for Business Server administrative tools easier for administrators. Simple URLs use their own domain, which must not match any of the SIP domains you define. 
   
@@ -121,7 +121,6 @@ Once this configuration is set up, you must use a monitoring application to set 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
-
 ```
 
 For internal access, you must monitor port 5061 on the internal web FQDN or load balancer IP address for the two pools. If any connectivity failures are detected, the VIP for these pools must close ports 80, 443 and 4443.

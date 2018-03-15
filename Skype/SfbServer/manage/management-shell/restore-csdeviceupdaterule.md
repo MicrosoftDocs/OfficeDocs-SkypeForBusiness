@@ -13,7 +13,7 @@ description: "Enables you toroll backa device update rule that has been approved
 ---
 
 # Restore-CsDeviceUpdateRule
-[]
+ 
 Enables you to "roll back" a device update rule that has been approved for use in the organization. When you restore a device update rule, the approved version of that rule is reset to reflect the update that was in use before the rule was approved. In turn, client devices that log on to the system will automatically uninstall the most recent update, and then download and reinstall the previous version of that update. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "The Remove-CcCertificationAuthorityFile cmdlet removes the certifi
 ---
 
 # Remove-CcCertificationAuthorityFile
-[]
+ 
 The Remove-CcCertificationAuthorityFile cmdlet removes the certification authority service backup file "\<SiteRootDirectory\>\CA\SfB CCE Root.p12" in the CA folder under the site share directory for Skype for Business Cloud Connector Edition. 
   
 ```

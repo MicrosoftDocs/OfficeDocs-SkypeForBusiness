@@ -15,7 +15,7 @@ description: "To edit the properties for a trusted application server that has a
 ---
 
 # External Application General Settings Expander
-[]
+ 
 To edit the properties for a trusted application server that has already been defined, follow these instructions.
   
 There are two sections that you can modify:

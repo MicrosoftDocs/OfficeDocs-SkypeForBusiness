@@ -13,7 +13,7 @@ description: "Returns information about whether database mirroring has been impl
 ---
 
 # Get-CsDatabaseMirrorState
-[]
+ 
 Returns information about whether database mirroring has been implemented for a specified database on a specified pool. Database mirroring enables you to simultaneously maintain two copies of a database, with each copy residing on a different server. This cmdlet was introduced in Lync Server 2013.
   
 ```

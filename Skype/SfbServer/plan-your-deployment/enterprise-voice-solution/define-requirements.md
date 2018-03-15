@@ -15,7 +15,7 @@ description: "Summarizes the steps necessary for enabling E9-1-1 in Skype for Bu
 ---
 
 # Define your requirements for emergency calls in Skype for Business Server 2015
-[]
+ 
 Summarizes the steps necessary for enabling E9-1-1 in Skype for Business Server Enterprise Voice, depending on whether you have a SIP trunk E9-1-1 service provider or an ELIN gateway.
   
 Before you begin a Skype for Business Server E9-1-1 deployment, you should first be able to answer the questions detailed in the following sections. The planning you need to do depends on the type of E9-1-1 solution that you choose to deploy—a SIP trunk E9-1-1 service provider or an Emergency Location Identification Number (ELIN) gateway. The following table identifies the sections in this planning workbook that you'll need to review for each of those solutions.

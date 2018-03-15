@@ -13,7 +13,7 @@ description: "Modifies the property values for one or more Edge Servers. Edge Se
 ---
 
 # Set-CsEdgeServer
-[]
+ 
 Modifies the property values for one or more Edge Servers. Edge Servers are used to provide connectivity between your internal network and the Internet. This cmdlet was introduced in Lync Server 2010.
   
 ```

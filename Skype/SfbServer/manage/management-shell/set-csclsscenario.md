@@ -13,7 +13,7 @@ description: "Enables you to modify a centralized logging configuration scenario
 ---
 
 # Set-CsClsScenario
-[]
+ 
 Enables you to modify a centralized logging configuration scenario. A scenario represents a particular Skype for Business Server 2015 component or situation (such as IM and presence) that administrators can enable or disable for tracing. This cmdlet was introduced in Lync Server 2013.
   
 ```

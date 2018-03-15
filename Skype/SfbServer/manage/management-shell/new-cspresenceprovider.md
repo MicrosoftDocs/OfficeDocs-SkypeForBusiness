@@ -13,7 +13,7 @@ description: "Authorizes a new presence provider for use in the organization. Pr
 ---
 
 # New-CsPresenceProvider
-[]
+ 
 Authorizes a new presence provider for use in the organization. Presence providers represent the PresenceProviders property of a collection of user services configuration settings. This cmdlet was introduced in Lync Server 2013.
   
 ```

@@ -13,7 +13,7 @@ description: "Tests the ability of a pair of users to schedule, join, and then c
 ---
 
 # Test-CsUcwaConference
-[]
+ 
 Tests the ability of a pair of users to schedule, join, and then conduct an online conference using the Unified Communications Web API (UCWA). This cmdlet was introduced in Lync Server 2013.
   
 ```

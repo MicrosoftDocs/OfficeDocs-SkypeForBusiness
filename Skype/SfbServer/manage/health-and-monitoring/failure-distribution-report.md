@@ -13,8 +13,8 @@ description: "Summary: Learn about the Failure Distribution Report in Skype for 
 ---
 
 # Failure Distribution Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Failure Distribution Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Failure Distribution Report in Skype for Business Server 2015.
   
 The Failure Distribution Report ranks failed sessions in the following categories:
   

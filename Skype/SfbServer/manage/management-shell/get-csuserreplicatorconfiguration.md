@@ -13,7 +13,7 @@ description: "Returns information about the User Replicator configuration settin
 ---
 
 # Get-CsUserReplicatorConfiguration
-[]
+ 
 Returns information about the User Replicator configuration settings currently employed in your organization. The User Replicator periodically retrieves up-to-date user account information from Active Directory and then synchronizes the new information with the current user data stored by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

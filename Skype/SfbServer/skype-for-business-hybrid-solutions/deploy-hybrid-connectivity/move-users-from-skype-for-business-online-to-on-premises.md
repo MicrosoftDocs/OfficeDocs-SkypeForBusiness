@@ -18,8 +18,8 @@ description: "Summary: Learn how to move user accounts from online to on premise
 ---
 
 # Move users from Skype for Business Online to on premises
-[]
- **Summary:** Learn how to move user accounts from online to on premises in Skype for Business Server.
+ 
+**Summary:** Learn how to move user accounts from online to on premises in Skype for Business Server.
   
 You might need to move user accounts from online to on premises to ensure that users homed online and on premises are discoverable to one another. To be discoverable to one another, all users must have a presence in the on-premises Active Directory. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). You might want to move online users to on premises, for example, if: 
   
@@ -40,7 +40,7 @@ This section applies only to users who were created and enabled online, but who 
   
 Before you start moving online users to your on-premises environment, check that all of the following are true:
   
-- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or[Deploy Skype for Business Server 2015](../../deploy-1/deploy-1.md), depending on which version you are using on premises. 
+- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or [Deploy Skype for Business Server 2015](../../deploy-1/deploy-1.md), depending on which version you are using on premises. 
     
 - Your online tenant must be configured for remote PowerShell access.
     

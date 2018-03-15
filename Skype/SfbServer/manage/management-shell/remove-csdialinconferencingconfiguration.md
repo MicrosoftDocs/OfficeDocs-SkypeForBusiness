@@ -13,7 +13,7 @@ description: "Removes one or more collections of dial-in conferencing configurat
 ---
 
 # Remove-CsDialInConferencingConfiguration
-[]
+ 
 Removes one or more collections of dial-in conferencing configuration settings. These settings determine how Skype for Business Server 2015 responds when users join or leave a dial-in conference. This cmdlet was introduced in Lync Server 2010.
   
 ```

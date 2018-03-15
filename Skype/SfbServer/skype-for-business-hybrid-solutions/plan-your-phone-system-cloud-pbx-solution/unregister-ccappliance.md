@@ -13,7 +13,7 @@ description: "The Unregister-CcAppliance cmdlet unregisters the current Skype fo
 ---
 
 # Unregister-CcAppliance
-[]
+ 
 The Unregister-CcAppliance cmdlet unregisters the current Skype for Business Cloud Connector Edition appliance from a PSTN site in the online tenant configuration.
   
 ```

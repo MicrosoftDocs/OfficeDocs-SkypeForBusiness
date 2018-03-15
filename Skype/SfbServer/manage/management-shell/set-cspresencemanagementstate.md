@@ -13,7 +13,7 @@ description: "Use the Set-CsPresenceManagementState cmdlet to modify the setting
 ---
 
 # Set-CsPresenceManagementState
-[]
+ 
 Use the **Set-CsPresenceManagementState** cmdlet to modify the settings of the Skype for Business Server 2015 management state. The management state settings determine the batching and timing of Skype for Business Server 2015 notifications.
   
 > [!NOTE]

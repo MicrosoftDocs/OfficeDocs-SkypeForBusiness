@@ -13,7 +13,7 @@ description: "Creates a new instance of device update configuration settings. Th
 ---
 
 # New-CsDeviceUpdateConfiguration
-[]
+ 
 Creates a new instance of device update configuration settings. These settings are used to manage the Device Update Web service, a Skype for Business Server 2015 component that enables administrators to distribute firmware updates to telephones and other devices running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

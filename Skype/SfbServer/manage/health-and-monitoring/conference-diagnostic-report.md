@@ -13,8 +13,8 @@ description: "Summary: Learn about the Conference Diagnostic Report used in Skyp
 ---
 
 # Conference Diagnostic Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Conference Diagnostic Report used in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Conference Diagnostic Report used in Skype for Business Server 2015.
   
 The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions. Note that Skype for Business Server distinguishes between different kinds of failure:
   

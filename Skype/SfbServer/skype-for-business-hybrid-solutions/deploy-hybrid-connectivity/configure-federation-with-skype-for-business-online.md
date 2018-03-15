@@ -19,8 +19,8 @@ description: "Summary: Learn how to configure interoperability between your on-p
 ---
 
 # Configure federation with Skype for Business Online
-[]
- **Summary:** Learn how to configure interoperability between your on-premises deployment and Skype for Business Online.
+ 
+**Summary:** Learn how to configure interoperability between your on-premises deployment and Skype for Business Online.
   
 Follow the steps in this section to configure interoperability between your on-premises deployment and Skype for Business Online.
   

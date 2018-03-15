@@ -13,7 +13,7 @@ description: "Modifies an existing collection of Persistent Chat compliance conf
 ---
 
 # Set-CsPersistentChatComplianceConfiguration
-[]
+ 
 Modifies an existing collection of Persistent Chat compliance configuration settings. Persistent Chat compliance enables administrators to maintain an archive of Persistent Chat items and activities including: new messages; new events (for example, a user entering or existing a chat room); file uploads and downloads; and searches run against the chat history. This cmdlet was introduced in Lync Server 2013.
   
 ```

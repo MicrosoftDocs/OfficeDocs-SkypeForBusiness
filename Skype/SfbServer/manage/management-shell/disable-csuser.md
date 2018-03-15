@@ -13,7 +13,7 @@ description: "Modifies the Active Directory account of the specified user or use
 ---
 
 # Disable-CsUser
-[]
+ 
 Modifies the Active Directory account of the specified user or users; this modification prevents users from using Skype for Business Server 2015 clients such as Skype for Business. The **Disable-CsUser** cmdlet only restricts activity related to Skype for Business Server 2015; it does not disable or remove a user's Active Directory account. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -49,7 +49,7 @@ Get-CsUser -UnassignedUser | Disable-CsUser
 
 ## Detailed Description
 
-The **Disable-CsUser** cmdlet deletes all the attribute information related to Skype for Business Server 2015 from an Active Directory user account; this prevents the user from logging on to Skype for Business Server 2015. When you run the **Disable-CsUser** cmdlet all the Skype for Business Server 2015-related attributes are removed from an account, including the Identities of any per-user policies that have been assigned to that account. You can later re-enable the account by using the **Enable-CsUser** cmdlet. However, all the Skype for Business Server 2015-related information (such as policy assignments) previously associated with that account will have to be re-created. If you want to prevent a user from logging on to Skype for Business Server 2015, but do not want to lose all of their account information, use the **Set-CsUser** cmdlet instead. For details, see the[Set-CsUser](set-csuser.md) cmdlet help topic.
+The **Disable-CsUser** cmdlet deletes all the attribute information related to Skype for Business Server 2015 from an Active Directory user account; this prevents the user from logging on to Skype for Business Server 2015. When you run the **Disable-CsUser** cmdlet all the Skype for Business Server 2015-related attributes are removed from an account, including the Identities of any per-user policies that have been assigned to that account. You can later re-enable the account by using the **Enable-CsUser** cmdlet. However, all the Skype for Business Server 2015-related information (such as policy assignments) previously associated with that account will have to be re-created. If you want to prevent a user from logging on to Skype for Business Server 2015, but do not want to lose all of their account information, use the **Set-CsUser** cmdlet instead. For details, see the [Set-CsUser](set-csuser.md) cmdlet help topic.
   
 After an account has been disabled with the **Disable-CsUser** cmdlet, the affected user will no longer be returned by the **Get-CsUser** cmdlet; that's because that user no longer has a valid Skype for Business Server 2015 account. To retrieve information for the disabled user account, use the **Get-CsAdUser** cmdlet.
   

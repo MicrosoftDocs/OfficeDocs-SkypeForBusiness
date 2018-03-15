@@ -13,11 +13,11 @@ description: "Use the Test-CsP2PVideoInteropServerSipTrunkAV cmdlet to test the 
 ---
 
 # Test-CsP2PVideoInteropServerSipTrunkAV
-[]
+ 
 Use the **Test-CsP2PVideoInteropServerSipTrunkAV** cmdlet to test the ability of a video gateway to conduct a peer-to-peer audio/video (A/V) call to a Skype for Business user via a Video Interop Server (VIS) pool.
   
 > [!NOTE]
-> There are several pre-requisites required to run **Test-CsP2PVideoInteropServerSipTrunkAV**. See the[Detailed Description](test-csp2pvideointeropserversiptrunkav.md#DetailedDescription) in this topic for more information.
+> There are several pre-requisites required to run **Test-CsP2PVideoInteropServerSipTrunkAV**. See the [Detailed Description](test-csp2pvideointeropserversiptrunkav.md#DetailedDescription) in this topic for more information.
   
 ```
 Test-CsP2PVideoInteropServerSipTrunkAV -TargetFqdn <String> [-Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID | OAuth | OAuthInteractive>] [-RegistrarPort <Int32>] [-UserSipAddress <String>] <COMMON PARAMETERS>

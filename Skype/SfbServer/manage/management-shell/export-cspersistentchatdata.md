@@ -13,7 +13,7 @@ description: "Exports data from a Persistent Chat database. This cmdlet was intr
 ---
 
 # Export-CsPersistentChatData
-[]
+ 
 Exports data from a Persistent Chat database. This cmdlet was introduced in Lync Server 2013.
   
 ```

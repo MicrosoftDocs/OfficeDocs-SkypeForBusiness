@@ -13,7 +13,7 @@ description: "Retrieves one or more outbound translation rules. An outbound tran
 ---
 
 # Get-CsOutboundTranslationRule
-[]
+ 
 Retrieves one or more outbound translation rules. An outbound translation rule converts phone numbers to the local dialing format for interaction with private branch exchange (PBX) systems and public switched telephone network (PSTN) gateways. This cmdlet was introduced in Lync Server 2010.
   
 ```

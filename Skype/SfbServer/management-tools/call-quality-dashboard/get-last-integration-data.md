@@ -14,8 +14,8 @@ description: "Summary: Learn about the Get Last Integration Data operation, whic
 ---
 
 # Get Last Integration Data
-[]
- **Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.
   
@@ -25,8 +25,7 @@ Get Last Integration Data operation returns the list of last 5 success/failure o
   
 This feature is disabled by default and it needs to be enabled by configuring the Data API.
   
-|
-|
+
 |**Method**|**Request URI**|**HTTP Version**|
 |:-----|:-----|:-----|
 |GET  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
@@ -57,7 +56,7 @@ This feature is disabled by default and it needs to be enabled by configuring th
 "01/17/2015 14:47:19",
 "01/17/2015 14:31:40",
 "01/17/2015 14:17:01"],
-"LastFailedIntegrations": [],
+"LastFailedIntegrations":  ,
 "LastFailedCubeProcessings": ["01/18/2015 10:30:58",
 "01/18/2015 10:29:28",
 "01/17/2015 10:02:20",

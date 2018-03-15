@@ -13,7 +13,7 @@ description: "The Get-CcCredential cmdlet returns the credential of the current 
 ---
 
 # Get-CcCredential
-[]
+ 
 The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment. 
   
 With Version 2.0 and later, you can also use the -DisplayPassword parameter to show the passwords for TenantAdmin, DomainAdmin, and VMAdmin.

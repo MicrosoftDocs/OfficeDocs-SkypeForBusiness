@@ -13,7 +13,7 @@ description: "Returns information indicating whether your Active Directory fores
 ---
 
 # Get-CsAdForest
-[]
+ 
 Returns information indicating whether your Active Directory forest has been correctly configured to allow for the installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010.
   
 ```

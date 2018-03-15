@@ -13,7 +13,7 @@ description: "Removes an existing collection of health monitoring configuration 
 ---
 
 # Remove-CsHealthMonitoringConfiguration
-[]
+ 
 Removes an existing collection of health monitoring configuration settings. These settings enable administrators to run quality assurance tests without having to supply the user names and passwords for the required test accounts. This cmdlet was introduced in Lync Server 2010.
   
 ```

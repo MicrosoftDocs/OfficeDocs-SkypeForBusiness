@@ -15,7 +15,7 @@ description: "Create or modify bandwidth policies, which are used by Enterprise 
 ---
 
 # Create bandwidth policy profiles in Skype for Business Server 2015
-[]
+ 
 Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.
@@ -41,21 +41,21 @@ The example policies created in the following procedure set limits for overall a
     
 2. For each bandwidth policy profile that you want to create, run the New-CsNetworkBandwidthPolicyProfile cmdlet. For example, run:
     
-  ```
-  New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
-  ```
+   ```
+   New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
+   ```
 
-  ```
-  New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
-  ```
+   ```
+   New-CsNetworkBandwidthPolicyProfile -Identity 10Mb_Link -Description "BW profile for 10Mb links" -AudioBWLimit 4000 -AudioBWSessionLimit 200 -VideoBWLimit 2800 -VideoBWSessionLimit 700
+   ```
 
-  ```
-  New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
-  ```
+   ```
+   New-CsNetworkBandwidthPolicyProfile -Identity 50Mb_Link -Description "BW profile for 50Mb links" -AudioBWLimit 20000 -AudioBWSessionLimit 200 -VideoBWLimit 14000 -VideoBWSessionLimit 700
+   ```
 
-  ```
-  New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
-  ```
+   ```
+   New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
+   ```
 
 ### To create bandwidth policy profiles by using Skype for Business Server Control Panel
 

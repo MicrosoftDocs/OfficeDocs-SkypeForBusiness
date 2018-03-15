@@ -13,7 +13,7 @@ description: "Locates each server running Web Services in a site that has been a
 ---
 
 # Set-CsKerberosAccountPassword
-[]
+ 
 Locates each server running Web Services in a site that has been assigned a Kerberos account, and then updates the Internet Information Services (IIS) configuration settings on each of those servers. This cmdlet was introduced in Lync Server 2010.
   
 ```

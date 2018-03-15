@@ -15,7 +15,7 @@ description: "Configure E9-1-1 voice routes in Skype for Business Server Enterpr
 ---
 
 # Configure an E9-1-1 voice route in Skype for Business Server 2015
-[]
+ 
 Configure E9-1-1 voice routes in Skype for Business Server Enterprise Voice. 
   
 To deploy E9-1-1, you first need to configure an emergency call voice route. For details about creating voice routes, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md). You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk. 
@@ -31,27 +31,27 @@ To deploy E9-1-1, you first need to configure an emergency call voice route. For
     
 3. Run the following cmdlet to create a new PSTN usage record. 
     
-    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see[Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](voice-and-pstn.md).
+    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](voice-and-pstn.md).
     
-  ```
-  Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
-  ```
+   ```
+   Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
+   ```
 
 4. Run the following cmdlet to create a new voice route by using the PSTN usage record that you created in the previous step.
     
     The number pattern must be the same number pattern that is used in the **Emergency Dial String** setting in the location policy. A "+" sign is needed because Skype for Business adds "+" to emergency calls. "Co1-pstngateway-1" is the SIP trunk service ID for the E9-1-1 service provider or for the ELIN gateway service ID. The following example uses "EmergencyRoute" as the name of the voice route.
     
-  ```
-  New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
+   ```
+   New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
 
-  ```
+   ```
 
 5. Optionally, for SIP trunk connections, we recommend that you run the following cmdlet to create a local route for calls that are not handled by the E9-1-1 service provider's SIP trunk. This route will be used if the connection to the E9-1-1 service provider is not available. 
     
     The following example assumes that user has "Local" usage in their voice policy.
     
-  ```
-  New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
-  ```
+   ```
+   New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
+   ```
 
 

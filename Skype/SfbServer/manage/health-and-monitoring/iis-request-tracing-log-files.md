@@ -13,8 +13,8 @@ description: "Summary: Learn about the Mobility Service (Mcx) in Skype for Busin
 ---
 
 # Monitoring IIS request tracing log files in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.
+ 
+**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.
   
 This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
   
@@ -28,6 +28,6 @@ To turn off IIS request tracing for an entire server, at the command line, type 
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 
-For details about the **httpLogging** command, see[the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).
+For details about the **httpLogging** command, see [the command reference](https://go.microsoft.com/fwlink/p/?linkId=234927).
   
 

@@ -13,7 +13,7 @@ description: "Verifies that a user can log on to Skype for Business Server 2015 
 ---
 
 # Test-CsPhoneBootstrap
-[]
+ 
 Verifies that a user can log on to Skype for Business Server 2015 using a Phone Edition-compatible device. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -43,7 +43,7 @@ Test-CsPhoneBootstrap -PhoneOrExtension "+14255551219" -Pin "0712" -UserSipAddre
 
 In order to connect to Skype for Business Server 2015, Phone Edition-compatible devices need to use Dynamic Host Configuration Protocol (DHCP) to retrieve the address of a Skype for Business Server 2015 Registrar; these devices must also provide a valid phone number and associated personal identification number (PIN) in order to be authenticated by the system. (This process is known as "bootstrapping".) The **Test-CsPhoneBootstrap** cmdlet enables administrators to verify that a given user -- using the phone number and PIN assigned to him or her -- is able to log on to the system from a Phone Edition-compatible device. (No device is actually needed in order to run the test.)
   
-In order for the **Test-CsPhoneBootstrap** cmdlet to make its check, the Registrar pool that hosts the user account being tested must be discoverable using DHCP. To determine whether a Registrar is discoverable in this manner, use the[Get-CsRegistrarConfiguration](get-csregistrarconfiguration.md) cmdlet and check the value of the EnableDHCPServer property. If this property is set to False, you will need to use the[Set-CsRegistrarConfiguration](set-csregistrarconfiguration.md) cmdlet to set the property value to True and make the Registrar discoverable using DHCP. This can also be done by using Enterprise DHCP Server and configuring the Skype for Business Server 2015-specific options.
+In order for the **Test-CsPhoneBootstrap** cmdlet to make its check, the Registrar pool that hosts the user account being tested must be discoverable using DHCP. To determine whether a Registrar is discoverable in this manner, use the [Get-CsRegistrarConfiguration](get-csregistrarconfiguration.md) cmdlet and check the value of the EnableDHCPServer property. If this property is set to False, you will need to use the [Set-CsRegistrarConfiguration](set-csregistrarconfiguration.md) cmdlet to set the property value to True and make the Registrar discoverable using DHCP. This can also be done by using Enterprise DHCP Server and configuring the Skype for Business Server 2015-specific options.
   
 ## Parameters
 

@@ -13,7 +13,7 @@ description: "Returns information about the culture (that is, the language and r
 ---
 
 # Get-CsUICulture
-[]
+ 
 Returns information about the culture (that is, the language and regional settings) used by the Skype for Business Server Management Shell. This cmdlet was introduced in Lync Server 2010.
   
 ```

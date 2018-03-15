@@ -13,7 +13,7 @@ description: "Read this topic to learn how to configure trusted domains for Skyp
 ---
 
 # Skype Room System trusted domains
-[]
+ 
 Read this topic to learn how to configure trusted domains for Skype Room System and Skype for Business.
   
 ## Trusted domains

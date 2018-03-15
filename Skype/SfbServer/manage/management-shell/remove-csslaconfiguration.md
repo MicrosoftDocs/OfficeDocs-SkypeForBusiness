@@ -13,7 +13,7 @@ description: "Use the Remove-CsSlaConfiguration cmdlet to remove the Shared Line
 ---
 
 # Remove-CsSlaConfiguration
-[]
+ 
 Use the **Remove-CsSlaConfiguration** cmdlet to remove the Shared Line Appearance (SLA) configuration for a shared number. A shared number in SLA is an Enterprise Voice user that is capable of receiving multiple calls at a time and forwarding them to its delegates, who answer the call.
   
 ```

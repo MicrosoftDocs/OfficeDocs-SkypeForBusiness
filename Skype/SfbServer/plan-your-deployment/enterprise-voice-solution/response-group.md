@@ -15,7 +15,7 @@ description: "Planning for response groups in Skype for Business Server Enterpri
 ---
 
 # Plan for the Response Group application in Skype for Business Server 2015
-[]
+ 
 Planning for response groups in Skype for Business Server Enterprise Voice, which enables you to set up call routing to groups of users. Includes audio file requirements.
   
 If your organization has groups of people who answer and manage certain types of calls, such as for customer service, an internal help desk, or general telephone support for a department, you can deploy the Response Group application to manage these types of calls. The Response Group application routes and queues incoming calls to designated persons, who are known as agents. You can increase the use of telephone support services and reduce the overhead of running these services by using response groups.
@@ -87,15 +87,15 @@ Response Group uses **Language packs** to support text-to-speech and speech reco
 
 The Response Group application uses the following ports:
   
-- **Port 5071** Used for SIP listening requests
+- **Port 5071**   for SIP listening requests
     
-- **Port 8404** Used for interserver communications
+- **Port 8404**   for interserver communications
     
     > [!NOTE]
     > This port is used for the Match Making service and is required when the Response Group application is deployed in a pool that has more than one Front End Server. 
   
-> [!NOTE]
-> These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Skype for Business Server Management Shell documentation.
+   > [!NOTE]
+   > These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet. For details about this cmdlet, see the Skype for Business Server Management Shell documentation.
   
 ### Audio File Requirements
 

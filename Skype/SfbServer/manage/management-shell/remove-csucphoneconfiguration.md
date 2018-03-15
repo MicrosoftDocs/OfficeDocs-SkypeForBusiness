@@ -13,7 +13,7 @@ description: "Removes the specified collection of UC phone configuration setting
 ---
 
 # Remove-CsUCPhoneConfiguration
-[]
+ 
 Removes the specified collection of UC phone configuration settings. These settings include such things as the required security mode and whether the phone should automatically be locked after a specified period of inactivity. This cmdlet was introduced in Lync Server 2010.
   
 ```

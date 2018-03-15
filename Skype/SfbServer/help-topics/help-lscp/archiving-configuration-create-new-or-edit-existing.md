@@ -15,7 +15,7 @@ description: "You use Archiving configurations to control archiving options for 
 ---
 
 # Archiving Configuration: Create New or Edit Existing
-[]
+ 
 You use Archiving configurations to control archiving options for your deployment. Archiving configurations include the global configuration, and, optionally, one or more site and pool configurations:
   
 - **Global configuration** The global configuration is created by default. You can edit the global configuration, but you cannot delete this Archiving configuration. If you try to delete it, all options are reset to the defaults.

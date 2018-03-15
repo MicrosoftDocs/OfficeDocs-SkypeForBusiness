@@ -13,7 +13,7 @@ description: "Removes the specified instant message file transfer filter configu
 ---
 
 # Remove-CsFileTransferFilterConfiguration
-[]
+ 
 Removes the specified instant message file transfer filter configuration. (Instant message file transfer filter settings are used to block a user's ability to transfer certain types of files within an instant message.) This cmdlet was introduced in Lync Server 2010.
   
 ```

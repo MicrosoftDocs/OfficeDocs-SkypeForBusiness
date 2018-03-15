@@ -15,7 +15,7 @@ description: "Create or modify network interregional routes, which are used by E
 ---
 
 # Create network interregional routes in Skype for Business Server 2015
-[]
+ 
 Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 A network interregional route defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregional route. This enables every network region within the deployment to access every other region.
@@ -30,17 +30,17 @@ In the example topology, network interregional routes must be defined for each o
     
 2. Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes. For example, run:
     
-  ```
-  New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
-  ```
+   ```
+   New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
+   ```
 
-  ```
-  New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
-  ```
+   ```
+   New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
+   ```
 
-  ```
-  New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
-  ```
+   ```
+   New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+   ```
 
     > [!NOTE]
     > The North America/APAC network interregional route requires two network region links because there is no direct network region link between them. 

@@ -13,7 +13,7 @@ description: "Assigns a per-user User Services policy to one or more users. User
 ---
 
 # Grant-CsUserServicesPolicy
-[]
+ 
 Assigns a per-user User Services policy to one or more users. User Services policies determine whether or not a user's contacts are stored in Skype for Business Server 2015 or in the Unified Contact Store. The Unified Contact Store provides a way for users to maintain a single set of contacts that can be accessed using Skype for Business, Microsoft Outlook, and/or Microsoft Outlook Web Access. This cmdlet was introduced in Lync Server 2013.
   
 ```

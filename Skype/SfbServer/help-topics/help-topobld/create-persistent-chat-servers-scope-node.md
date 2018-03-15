@@ -15,7 +15,7 @@ description: "You right click on Persistent Chat Pool in Topology Builder to per
 ---
 
 # Create Persistent Chat Servers Scope Node
-[]
+ 
 You right click on **Persistent Chat Pool** in Topology Builder to perform the following:
   
 - **New Persistent Chat Pool**: Starts the **Define New Persistent Chat Pool** wizard used to define a new Persistent Chat Server or pool.

@@ -13,7 +13,7 @@ description: "Returns information about the User Services policies configured fo
 ---
 
 # Get-CsUserServicesPolicy
-[]
+ 
 Returns information about the User Services policies configured for use in the organization. User Services policies determine whether or not a user's contacts are stored in Skype for Business Server 2015 or in the Unified Contact Store. The Unified Contact Store provides a way for users to maintain a single set of contacts that can be accessed using Skype for Business, Outlook, and/or Outlook Web Access. This cmdlet was introduced in Lync Server 2013.
   
 ```

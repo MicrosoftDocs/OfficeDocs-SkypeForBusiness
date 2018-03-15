@@ -13,7 +13,7 @@ description: "Removes an existing Persistent Chat endpoint. A Persistent Chat en
 ---
 
 # Remove-CsPersistentChatEndpoint
-[]
+ 
 Removes an existing Persistent Chat endpoint. A Persistent Chat endpoint is an Active Directory contact object provides a friendly URL for a Skype for Business Server 2015 Persistent Chat pool. This cmdlet was introduced in Lync Server 2013.
   
 ```

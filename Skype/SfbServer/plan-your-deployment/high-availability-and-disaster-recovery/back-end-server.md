@@ -14,7 +14,7 @@ description: "Learn about the Back End Server high availability options supporte
 ---
 
 # Back End Server high availability in Skype for Business Server 2015
-[]
+ 
 Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering.
   
 To enhance high availability for your Back End Servers, you have four options:
@@ -63,9 +63,9 @@ In general, setting up SQL mirroring between the two Back End Servers with a wit
     
 - The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.
     
-For SQL best practices in terms of what SQL versions are supported for a Witness role, see "Database Mirroring Witness" in the MSDN Library at [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?LinkId=247345).
+For SQL best practices in terms of what SQL versions are supported for a Witness role, see  ["Database Mirroring Witness"](https://go.microsoft.com/fwlink/p/?LinkId=247345) in the MSDN Library.
   
-Before configuring server mirroring, you must first set up SQL database permissions correctly. For details, see "Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)" at [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?LinkId=268454).
+Before configuring server mirroring, you must first set up SQL database permissions correctly. For details, see  ["Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)"](https://go.microsoft.com/fwlink/p/?LinkId=268454).
   
 With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers. The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool. We recommend that you determine how much transaction log growth is expected for your Lync deployment workload so that you can do the planning accordingly. The following articles provide additional information on SQL backup and log management:
   

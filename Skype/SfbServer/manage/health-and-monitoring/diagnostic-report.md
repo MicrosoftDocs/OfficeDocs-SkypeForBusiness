@@ -13,8 +13,8 @@ description: "Summary: Learn about the Diagnostic Report in Skype for Business S
 ---
 
 # Diagnostic Report in Skype for Business Server 2015
-[]
- **Summary:** Learn about the Diagnostic Report in Skype for Business Server 2015.
+ 
+**Summary:** Learn about the Diagnostic Report in Skype for Business Server 2015.
   
 The Diagnostic Report provides diagnostic and troubleshooting information for a failed session. This information includes both the Diagnostic ID and the Diagnostic header that were reported when the session failed. The Diagnostic ID is a unique identifier (in the form of an ms-diagnostics header) that gets attached to a SIP message, while the Diagnostic header provides an accompanying description for the Diagnostic ID. The report might also contain valuable troubleshooting details that are known by the reporting component. For example:
   

@@ -13,7 +13,7 @@ description: "The VideoStreamDetail View stores information about each video str
 ---
 
 # VideoStreamDetail view
-[]
+ 
 The VideoStreamDetail View stores information about each video stream in the database. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Description**|

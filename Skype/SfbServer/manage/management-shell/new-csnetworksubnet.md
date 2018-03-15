@@ -13,7 +13,7 @@ description: "Creates a new network subnet. This cmdlet was introduced in Lync S
 ---
 
 # New-CsNetworkSubnet
-[]
+ 
 Creates a new network subnet. This cmdlet was introduced in Lync Server 2010.
   
 ```

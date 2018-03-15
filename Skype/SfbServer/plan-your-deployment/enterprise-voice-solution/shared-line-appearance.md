@@ -15,7 +15,7 @@ description: "Read this topic to learn how to plan for Shared Line Appearance (S
 ---
 
 # Plan for Shared Line Appearance in Skype for Business Server 2015
-[]
+ 
 Read this topic to learn how to plan for Shared Line Appearance (SLA) in Skype for Business Server 2015, November 2015 Cumulative Update. 
   
 Shared Line Appearance is a feature in Skype for Business for handling multiple calls on a specific number called a shared number. SLA can configure any enterprise voice enabled Skype for Business user as a shared number with multiple lines to respond to multiple calls. The calls are not actually received on the shared number, instead they are forwarded to users that act as delegates for the shared number. Any one of the delegates can pick up the call while the rest of the delegates get a notification on their phone about who picked up the call and which line has become busy as a result. Both the number of lines and the delegates are configurable for a shared number in SLA. In addition, advanced options, such as BusyOption (what happens in a situation when all lines are busy) and MissedCallOption (the case in which none of the delegates pick up a call), can also be configured for a shared number.

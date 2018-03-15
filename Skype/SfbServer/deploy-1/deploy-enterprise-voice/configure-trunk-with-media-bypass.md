@@ -15,8 +15,8 @@ description: "Summary: Configure a trunk with media bypass enabled for Skype for
 ---
 
 # Configure a trunk with media bypass in Skype for Business Server 2015
-[]
- **Summary:** Configure a trunk with media bypass enabled for Skype for Business Server 2015. This will let you minimize the number of Mediation Servers, presuming your SIP trunk provider supports it.
+ 
+**Summary:** Configure a trunk with media bypass enabled for Skype for Business Server 2015. This will let you minimize the number of Mediation Servers, presuming your SIP trunk provider supports it.
   
 Follow these steps to configure a trunk with media bypass enabled. To configure a trunk with media bypass disabled, see [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md). 
   
@@ -25,7 +25,7 @@ Media bypass is useful when you want to minimize the number of Mediation Servers
 We strongly recommend that you enable media bypass. However, before you enable media bypass on a SIP trunk, confirm that your qualified SIP trunk provider supports media bypass and is able to accommodate the requirements for successfully enabling the scenario. Specifically, the provider must have the IP addresses of servers in your organization's internal network.
   
 > [!NOTE]
-> Media bypass will not interoperate with every Public Switched Telephone Network (PSTN) gateway, IP-PBX, and Session Border Controller (SBC). Microsoft has tested a set of PSTN gateways and SBCs with certified partners. Media bypass is supported only with products and versions that are listed on the Telephony Infrastructure for Skype for Business Server page at [https://technet.microsoft.com/en-us/office/dn947483.aspx](https://technet.microsoft.com/en-us/office/dn947483.aspx). 
+> Media bypass will not interoperate with every Public Switched Telephone Network (PSTN) gateway, IP-PBX, and Session Border Controller (SBC). Microsoft has tested a set of PSTN gateways and SBCs with certified partners. Media bypass is supported only with products and versions that are listed on the [Telephony Infrastructure for Skype for Business Server](https://technet.microsoft.com/en-us/office/dn947483.aspx) page. 
   
 A trunk configuration as described below groups a set of parameters that are applied to trunks assigned this trunk configuration. A particular trunk configuration can be scoped globally (to all trunks that do not have more specific site or pool configuration), or to a site, or to a pool. The pool-level trunk configuration is used to scope a specific trunk configuration to a single trunk.
   
@@ -37,16 +37,16 @@ A trunk configuration as described below groups a set of parameters that are app
     
 3. On the **Trunk Configuration** page, use one of the following methods to configure a trunk:
     
-  - Double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.
+   - Double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.
     
-  - Click **New**, and then select a scope for the new trunk configuration:
+   - Click **New**, and then select a scope for the new trunk configuration:
     
-  - **Site trunk**: Choose the site for this trunk configuration from **Select a Site**, and then click **OK**. Note that if a trunk configuration has already been created for a site, the site does not appear in **Select a Site**. This trunk configuration will be applied to all trunks in the site.
+   - **Site trunk**: Choose the site for this trunk configuration from **Select a Site**, and then click **OK**. Note that if a trunk configuration has already been created for a site, the site does not appear in **Select a Site**. This trunk configuration will be applied to all trunks in the site.
     
-  - **Pool trunk**: Choose the name of the trunk that this trunk configuration applies to. This trunk can be the root trunk or any additional trunks defined in Topology Builder. From **Select a Service**, click **OK**. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
+   - **Pool trunk**: Choose the name of the trunk that this trunk configuration applies to. This trunk can be the root trunk or any additional trunks defined in Topology Builder. From **Select a Service**, click **OK**. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
     
-    > [!NOTE]
-    > After you select the scope of the trunk configuration, it cannot be changed. > The **Name** field is prepopulated with the name of the trunk configuration's associated site or service and cannot be changed.
+      > [!NOTE]
+      > After you select the scope of the trunk configuration, it cannot be changed. > The **Name** field is prepopulated with the name of the trunk configuration's associated site or service and cannot be changed.
   
 4. Specify a value in **Maximum early dialogs supported**. This is the maximum number of forked responses a public switched telephone network (PSTN) gateway, IP-PBX, or ITSP Session Border Controller (SBC) can receive to an INVITE that it sent to the Mediation Server. The default value is 20.
     
@@ -55,11 +55,11 @@ A trunk configuration as described below groups a set of parameters that are app
   
 5. Select one of the following **Encryption support level** options:
     
-  - **Required**: Secure real-time transport protocol (SRTP) encryption must be used to help protect traffic between the Mediation Server and the gateway or private branch exchange (PBX).
+   - **Required**: Secure real-time transport protocol (SRTP) encryption must be used to help protect traffic between the Mediation Server and the gateway or private branch exchange (PBX).
     
-  - **Optional**: SRTP encryption will be used if the service provider or equipment manufacturer supports it.
+   - **Optional**: SRTP encryption will be used if the service provider or equipment manufacturer supports it.
     
-  - **Not Supported**: SRTP encryption is not supported by the service provider or equipment manufacturer and therefore will not be used.
+   - **Not Supported**: SRTP encryption is not supported by the service provider or equipment manufacturer and therefore will not be used.
     
 6. Select the **Enable media bypass** check box if you want media to bypass the Mediation Server for processing by the trunk peer.
     
@@ -75,11 +75,11 @@ A trunk configuration as described below groups a set of parameters that are app
   
 9. (Optional) To enable inter-trunk routing, associate and configure PSTN usage records to this trunk configuration. The PSTN usages associated to this trunk configuration will be applied for all incoming calls through the trunk that is not originating from a Skype for Business Server endpoint. To manage PSTN usage records associated to a trunk configuration, use one of the following methods:
     
-  - To select one or more records from a list of all PSTN usage records available in your Enterprise Voice deployment, click **Select**. Highlight the records you want to associate with this trunk configuration and then click **OK**.
+   - To select one or more records from a list of all PSTN usage records available in your Enterprise Voice deployment, click **Select**. Highlight the records you want to associate with this trunk configuration and then click **OK**.
     
-  - To remove a PSTN usage record from this trunk configuration, select the record and click **Remove**.
+   - To remove a PSTN usage record from this trunk configuration, select the record and click **Remove**.
     
-  - To define a new PSTN usage record and associate it with this trunk configuration, do the following:
+   - To define a new PSTN usage record and associate it with this trunk configuration, do the following:
     
     a. Click **New**.
     
@@ -90,29 +90,29 @@ A trunk configuration as described below groups a set of parameters that are app
   
     c. Use one of the following methods to associate and configure routes for this PSTN usage record:
     
-  - To select one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**. Highlight the routes you want to associate with this PSTN usage record, and click **OK**. 
+    - To select one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**. Highlight the routes you want to associate with this PSTN usage record, and click **OK**. 
     
-  - To remove a route from the PSTN usage record, select the route, and click **Remove**.
+    - To remove a route from the PSTN usage record, select the route, and click **Remove**.
     
-  - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
-  - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**. 
+    - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**. 
     
     d. Click **OK**.
     
-  - To edit a PSTN usage record that is already associated with this trunk configuration, do the following:
+    - To edit a PSTN usage record that is already associated with this trunk configuration, do the following:
     
-    a. Select the PSTN usage record you want to edit, and click **Show details**.
+      a. Select the PSTN usage record you want to edit, and click **Show details**.
     
-    b. Use one of the following methods to associate and configure routes for this PSTN usage record:
+      b. Use one of the following methods to associate and configure routes for this PSTN usage record:
     
-  - To select one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**. Highlight the routes you want to associate with this PSTN usage record, and click **OK**. 
+   - To select one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**. Highlight the routes you want to associate with this PSTN usage record, and click **OK**. 
     
-  - To remove a route from the PSTN usage record, select the route, and click **Remove**.
+   - To remove a route from the PSTN usage record, select the route, and click **Remove**.
     
-  - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
-  - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**. 
+   - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**. 
     
     c. Click **OK**. 
     
@@ -134,33 +134,33 @@ A trunk configuration as described below groups a set of parameters that are app
     
 15. (Optional) Associate and configure **calling number translation rules** for the trunk. These translation rules apply to the calling number for outbound calls
     
-  - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
+   - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     
-  - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
-  - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
+   - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
     
-  - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. 
+   - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. 
     
-  - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
+   - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    > [!CAUTION]
-    > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 
+   > [!CAUTION]
+   > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 
   
 16. (Optional) Associate and configure **called number translation rules** for the trunk. The translation rules apply to the called number in an outbound call.
     
-  - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
+   - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     
-  - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
-  - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
+   - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
     
-  - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. 
+   - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. 
     
-  - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
+   - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
     
-    > [!CAUTION]
-    > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 
+   > [!CAUTION]
+   > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 
   
 17. Make sure that the trunk's translation rules are arranged in the correct order. To change a rule's position in the list, highlight the rule name and then click the up or down arrow.
     
@@ -171,8 +171,8 @@ A trunk configuration as described below groups a set of parameters that are app
     
 19. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
-    > [!NOTE]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+   > [!NOTE]
+   > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 After you have configured the trunk, continue configuring media bypass by choosing between global media bypass options, as described in [Deploy media bypass in Skype for Business Server 2015](deploy-media-bypass.md) in the Deployment documentation.
 ## See also

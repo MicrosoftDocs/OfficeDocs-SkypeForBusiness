@@ -13,7 +13,7 @@ description: "tblServerIdentity contains the active chat servers in the Persiste
 ---
 
 # tblServerIdentity
-[]
+ 
 tblServerIdentity contains the active chat servers in the Persistent Chat Server pool.
   
 **Columns**

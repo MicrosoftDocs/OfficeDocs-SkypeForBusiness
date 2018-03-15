@@ -1,7 +1,12 @@
 ---
 title: "Certificate Assignment (Intro)"
+<<<<<<< HEAD
 ms.author: v-kehest
 author: v-kehest
+=======
+ms.author: jambirk
+author: jambirk
+>>>>>>> 101c670da30cc8f417db2ea9ad6bda73e61e7ba4
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -15,7 +20,7 @@ description: "To begin assigning a certificate for use in Skype for Business Ser
 ---
 
 # Certificate Assignment (Intro)
-[]
+ 
 To begin assigning a certificate for use in Skype for Business Server, click **Next**.
   
 

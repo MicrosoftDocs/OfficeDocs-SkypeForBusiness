@@ -13,7 +13,7 @@ description: "Stop-CsWindowsService enables you to stop a Skype for Business Ser
 ---
 
 # Stop-CsWindowsService
-[]
+ 
  **Stop-CsWindowsService** enables you to stop a Skype for Business Server 2015 service. This cmdlet was introduced in Lync Server 2010.
   
 ```

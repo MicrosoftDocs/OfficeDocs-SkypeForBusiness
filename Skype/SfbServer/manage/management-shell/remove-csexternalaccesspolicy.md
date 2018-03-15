@@ -13,7 +13,7 @@ description: "Enables you to remove an existing external access policy. External
 ---
 
 # Remove-CsExternalAccessPolicy
-[]
+ 
 Enables you to remove an existing external access policy. External access policies determine whether or not your users can: 1) communicate with users who have Session Initiation Protocol (SIP) accounts with a federated organization; 2) communicate with users who have SIP accounts with a public instant messaging (IM) provider such as Windows Live; and, 3) access Skype for Business Server 2015 over the Internet, without having to log on to your internal network. This cmdlet was introduced in Lync Server 2010.
   
 ```

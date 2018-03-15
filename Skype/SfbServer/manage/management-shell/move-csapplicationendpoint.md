@@ -13,7 +13,7 @@ description: "Moves an endpoint to a different Registrar pool. This cmdlet was i
 ---
 
 # Move-CsApplicationEndpoint
-[]
+ 
 Moves an endpoint to a different Registrar pool. This cmdlet was introduced in Lync Server 2010.
   
 ```

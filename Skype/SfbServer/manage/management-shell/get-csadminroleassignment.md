@@ -13,7 +13,7 @@ description: "Returns the role-based access control (RBAC) roles assigned to a u
 ---
 
 # Get-CsAdminRoleAssignment
-[]
+ 
 Returns the role-based access control (RBAC) roles assigned to a user. This cmdlet was introduced in Lync Server 2010.
   
 ```

@@ -13,7 +13,7 @@ description: "Creates a Location Information Server (LIS) switch, creates an ass
 ---
 
 # Set-CsLisSwitch
-[]
+ 
 Creates a Location Information Server (LIS) switch, creates an association between a switch and a location (creating a new location if that location doesn't exist), or modifies an existing switch and its associated location. The association between a switch and location is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010.
   
 ```
@@ -53,7 +53,7 @@ If a location with an address exactly matching the address parameters entered he
   
 Note that switch entries can also be created by calling the **Set-CsLisPort** cmdlet. If the **Set-CsLisPort** cmdlet is called with a ChassisID value that does not have an existing switch entry, that switch will be created.
   
-It's important to note that these changes will take effect only if you have configured the MACResolverUrl property using the [New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md) cmdlet or the[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) cmdlet. The MACResolverUrl property specifies the URL for a web service that is capable of taking an IP address and determining the Media Access Control (MAC) address of the network card associated with that IP address.
+It's important to note that these changes will take effect only if you have configured the MACResolverUrl property using the [New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md) cmdlet or the [Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md) cmdlet. The MACResolverUrl property specifies the URL for a web service that is capable of taking an IP address and determining the Media Access Control (MAC) address of the network card associated with that IP address.
   
 ## Parameters
 

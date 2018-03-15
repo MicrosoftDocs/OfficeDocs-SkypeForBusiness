@@ -13,7 +13,7 @@ description: "The ConfernceUris view stores information about the URIs that have
 ---
 
 # ConferenceUris view
-[]
+ 
 The ConfernceUris view stores information about the URIs that have participated in conference sessions. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|

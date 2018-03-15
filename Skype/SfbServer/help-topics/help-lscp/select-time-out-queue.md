@@ -15,7 +15,7 @@ description: "Use the Select a time-out queue dialog box to select a queue where
 ---
 
 # Select Time-out Queue
-[]
+ 
 Use the **Select a time-out queue** dialog box to select a queue where calls are forwarded when they time out.
   
 In the search box, type all or part of the name of the queue you want to use. To return all available queues, leave the search box empty and click the search icon.

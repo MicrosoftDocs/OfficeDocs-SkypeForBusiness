@@ -13,7 +13,7 @@ description: "Retrieves information about one or more network subnets. This cmdl
 ---
 
 # Get-CsNetworkSubnet
-[]
+ 
 Retrieves information about one or more network subnets. This cmdlet was introduced in Lync Server 2010.
   
 ```

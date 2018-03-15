@@ -13,7 +13,7 @@ description: "The Switch-CcVersion cmdlet disconnects the running appliance and 
 ---
 
 # Switch-CcVersion
-[]
+ 
 The Switch-CcVersion cmdlet disconnects the running appliance and switches to a newly deployed or backup appliance. 
   
 ```

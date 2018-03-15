@@ -13,8 +13,8 @@ description: "Sets disclaimer text that will be used globally to prompt for loca
 ---
 
 # Set-CsEnhancedEmergencyServiceDisclaimer
-[]
-Sets disclaimer text that will be used globally to prompt for location information for an Enhanced 9-1-1 (E9-1-1) implementation. This cmdlet was introduced in Lync Server 2010. It has been deprecated for use with Skype for Business Server 2015. For Skype for Business Server 2015, E9-1-1 disclaimers should be configured by using the [New-CsLocationPolicy](new-cslocationpolicy.md) cmdlet and the[Set-CsLocationPolicy](set-cslocationpolicy.md) cmdlet.
+ 
+Sets disclaimer text that will be used globally to prompt for location information for an Enhanced 9-1-1 (E9-1-1) implementation. This cmdlet was introduced in Lync Server 2010. It has been deprecated for use with Skype for Business Server 2015. For Skype for Business Server 2015, E9-1-1 disclaimers should be configured by using the [New-CsLocationPolicy](new-cslocationpolicy.md) cmdlet and the [Set-CsLocationPolicy](set-cslocationpolicy.md) cmdlet.
   
 ```
 Set-CsEnhancedEmergencyServiceDisclaimer [-Identity <XdsIdentity>] <COMMON PARAMETERS>

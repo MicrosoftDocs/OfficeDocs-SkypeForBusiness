@@ -15,7 +15,7 @@ description: "Read this topic to learn how to plan for multiple emergency number
 ---
 
 # Plan for multiple emergency numbers in Skype for Business Server 2015
-[]
+ 
 Read this topic to learn how to plan for multiple emergency numbers in Skype for Business Server 2015.
   
 Skype for Business Server now supports the configuration of multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. While the United States has a single emergency number, 911, many countries support multiple emergency numbers. The United Kingdom, for example, supports both 999, the emergency number specific to the United Kingdom, and 112, the emergency number for the European Union. 
@@ -26,7 +26,7 @@ This feature is also useful for health care providers within the United States w
 
 You configure emergency calling by creating location policies that define how emergency calling will be implemented. You use the location policy to define what number constitutes an emergency call—for example, 911 in the United States; 999 and 112 in the United Kingdom. The location policy determines whether a user is enabled for emergency calling, and if so what the behavior is of an emergency call. You can also define whether corporate security should be automatically notified, and how the call should be routed.
   
-For more information about defining and modifying a location policy, see [Plan location policies for Skype for Business Server 2015](location-policies.md) and[Create location policies in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/create-location-policies.md). These topics describe concepts about location policies; however, you must follow the instructions in [Configure multiple emergency numbers in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
+For more information about defining and modifying a location policy, see [Plan location policies for Skype for Business Server 2015](location-policies.md) and [Create location policies in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/create-location-policies.md). These topics describe concepts about location policies; however, you must follow the instructions in [Configure multiple emergency numbers in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
   
 When planning for multiple emergency numbers, keep the following in mind:
   
@@ -50,7 +50,7 @@ When planning for multiple emergency numbers, keep the following in mind:
   
 Before you configure multiple emergency numbers, keep the following in mind:
   
-- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](../../manage/management-shell/new-cslocationpolicy.md) and[Set-CsLocationPolicy](../../manage/management-shell/set-cslocationpolicy.md) cmdlets.
+- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](../../manage/management-shell/new-cslocationpolicy.md) and [Set-CsLocationPolicy](../../manage/management-shell/set-cslocationpolicy.md) cmdlets.
     
 - If you have existing numbers defined using the Set-CsLocationPolicy or New-CsLocationPolicy cmdlet with the EmergencyDialString and EmergencyDialMask parameters, the values specified with the EmergencyNumbers parameter will take precedence over the old values. That is, the values for the EmergencyDialString and EmergencyDialMask parameters will be ignored.
     
@@ -64,8 +64,7 @@ For more information about configuring multiple emergency numbers, see [Configur
   
 The following table shows example location policies (for purposes of the example, not all attributes are shown):
   
-|
-|
+
 |**Location policy name**|**E911 enabled**|**Emergency dial string**|**Dial mask**|**Emergency numbers**|**PSTN usage**|**Location required**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |United States  <br/> |Yes  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |Yes  <br/> |
@@ -85,9 +84,7 @@ The following table shows example location policies (for purposes of the example
 <a name="BKMK_Clients"> </a>
 
 The following table shows client support for multiple emergency numbers. Microsoft will continue to test and release support for additional clients. Please check back often.
-  
-|
-|
+
 |**Windows**|**Version**|
 |:-----|:-----|
 |**Click-to-Run** <br/> |CC (Current Channel) released on May 10, 2016 - Version 1604 (Build 6868.2062)  <br/> |

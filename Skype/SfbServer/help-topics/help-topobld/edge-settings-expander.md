@@ -15,7 +15,7 @@ description: "To edit the settings for an existing single or multiple server Edg
 ---
 
 # Edge Settings Expander
-[]
+ 
 To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:
   
 - General settings

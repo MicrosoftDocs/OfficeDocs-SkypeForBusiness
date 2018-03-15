@@ -13,7 +13,7 @@ description: "tblRoleType is a static lookup table with role types and their ass
 ---
 
 # tblRoleType
-[]
+ 
 tblRoleType is a static lookup table with role types and their associated permission sets.
   
 **Columns**
