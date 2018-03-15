@@ -3,7 +3,7 @@ title: Plan for service management guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
