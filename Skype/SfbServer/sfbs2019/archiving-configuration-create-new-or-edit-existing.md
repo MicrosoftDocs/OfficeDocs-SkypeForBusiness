@@ -1,0 +1,71 @@
+---
+title: "Archiving Configuration Create New or Edit Existing"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.MonArchSettingEdit
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 49096960-c442-4846-be8f-03c167acea41
+description: "You use Archiving configurations to control archiving options for your Lync Server 2013 deployment. Archiving configurations include the global configuration, and, optionally, one or more site and pool configurations:"
+---
+
+# Archiving Configuration: Create New or Edit Existing
+[]
+You use Archiving configurations to control archiving options for your Lync Server 2013 deployment. Archiving configurations include the global configuration, and, optionally, one or more site and pool configurations:
+  
+- **Global configuration** The global configuration is created by default in all Lync Server 2013 deployments. You can edit the global configuration, but you cannot delete this Archiving configuration. If you try to delete it, all options are reset to the defaults. 
+    
+- **Site configuration (optional)** You can specify one or more site Archiving configurations, each of which you can configure to control archiving options for a specific site. A site configuration overrides the global configuration, but only for the sites specified in the Archiving site configurations. You can edit or delete site configurations. 
+    
+- **Pool configuration (optional)** You can specify one or more pool Archiving configurations, to control archiving options for a specific pool. A pool configuration overrides the global configuration and site configuration, but only for the pools specified in Archiving pool configurations. You can edit or delete pool configurations. 
+    
+> [!NOTE]
+> Archiving configurations apply to users homed on Lync Server 2013, and, if you enable the Microsoft Exchange integration option to use Exchange 2013 to store archiving data in Microsoft Exchange, to users homed on Exchange 2013. However, some options are implemented slightly differently for users homed on Exchange 2013, as described in the next section. 
+  
+To configure the settings for a new or existing Archiving configuration, specify the following options:
+  
+- **Name** Each Archiving configuration requires a name. The name is determined by the type of configuration you are adding or editing: 
+    
+  - **Global configuration** The default name is Global. For example, Contoso North American Organization. 
+    
+  - **Site configuration** The list contains the available sites in your deployment. Click a single site to select it. For example, Redmond Data Center. 
+    
+  - **Pool configuration** Specify an appropriate name, which can be the name of a specific Front End pool or Standard Edition Server in your deployment. For example, Marketing Division. 
+    
+- **Description** This is optional. Use it to provide additional details, such as the scope or use of the configuration. For example, Coordinate with Legal Departments of Other Sites. 
+    
+- **Archiving setting** Options include the following: 
+    
+  - **Archive IM sessions**
+    
+  - **Archive IM and web conferencing sessions**
+    
+  - **Disable archiving**
+    
+- **Block instant messaging (IM) or web conferencing sessions if archiving fails** Failures include the following: 
+    
+  - **IM** A failure could be a full database or problem with the Lync Server storage service. In this case, IM is blocked for users who are enabled for Archiving. 
+    
+  - **Conferencing** A failure could be an unavailable file share or a problem with the storage service. In this case, all active conferences hosted in the pool at the time of failure are switched to restricted mode and new conferences cannot be activated. 
+    
+    Both IM and conferencing automatically recover after the failures are corrected.
+    
+- **Microsoft Exchange integration** Select this option if you have users who are homed on Exchange 2013. With this option, Exchange 2013 is used to store data for those users, if their mailboxes have been placed on In-Place Hold. If all your users are homed on Exchange 2013, you do not need to set up separate SQL Server databases for storage of Lync Server 2013 archiving data. 
+    
+- **Enable purging of archiving data** Select this option to enable purging and specify purging options, which include the following: 
+    
+  - Purging after a specific number of days that you specify.
+    
+  - Purging after the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
+    
+    > [!NOTE]
+    > If you enable Microsoft Exchange integration, purging for users homed on Exchange 2013 and with their mailboxes placed on In-Place Hold is controlled by Exchange. The only exception is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
+  
+For details about Archiving feature and capabilities, see [How Archiving works in Lync Server 2013](how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation. For details about working with Archiving configurations, see [Configuring Archiving options in Lync Server 2013](configuring-archiving-options.md) in the Deployment documentation and [Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools](managing-archiving-configuration-options-for-your-organization-sites-and-pools.md) in the Operations documentation. 
+  
+

@@ -1,0 +1,66 @@
+---
+title: "Delete a PIN policy in Lync Server 2013"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
+description: "Follow these steps to delete a personal identification number (PIN) policy."
+---
+
+# Delete a PIN policy in Lync Server 2013
+[]
+Follow these steps to delete a personal identification number (PIN) policy.
+  
+> [!NOTE]
+> You cannot delete the global PIN policy. 
+  
+### To delete a PIN policy in Lync Server 2013 Control Panel
+
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013. 
+    
+2. Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](open-lync-server-administrative-tools.md).
+    
+3. In the left navigation bar, click **Security** and then click **PIN Policy**.
+    
+4. On the **PIN Policy** page, and in the search field, type all or part of the name of the policy you want to delete. 
+    
+5. In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.
+    
+6. Click **OK**.
+    
+## Removing PIN Policies by Using Windows PowerShell Cmdlets
+
+You can delete PIN policies by using Windows PowerShell and the Remove-CsPinPolicy cmdlet. You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkId=255876).
+  
+### To remove a specific PIN policy
+
+- This command removes the PIN policy with the Identity RedmondPinPolicy:
+    
+  ```
+  Remove-CsPinPolicy -Identity "RedmondPinPolicy"
+  ```
+
+### To remove all the PIN policies applied to the site scope
+
+- This command removes all the PIN policies configured at the site scope:
+    
+  ```
+  Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
+  ```
+
+### To remove all the PIN policies that allow the use of common patterns
+
+- And this one removes all the PIN policies that allow the use of common patterns:G
+    
+  ```
+  et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
+  ```
+
+For more information, see the help topic for the [Remove-CsPinPolicy](remove-cspinpolicy.md) cmdlet. 
+  
+

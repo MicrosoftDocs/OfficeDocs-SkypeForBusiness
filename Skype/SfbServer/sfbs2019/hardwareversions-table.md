@@ -1,0 +1,24 @@
+---
+title: "HardwareVersions table in Lync Server 2013"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 3/9/2015
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
+description: "The HardwareVersions table is a supporting table. Each record stores information about one device hardware version."
+---
+
+# HardwareVersions table in Lync Server 2013
+[]
+The HardwareVersions table is a supporting table. Each record stores information about one device hardware version.
+  
+|**Column**|**Data Type**|**Key/Index**|**Details**|
+|:-----|:-----|:-----|:-----|
+|**VersionId** <br/> |int  <br/> |Primary  <br/> |Unique number identifying this hardware version.  <br/> |
+|**Version** <br/> |nvarchar(256)  <br/> | <br/> |Hardware version.  <br/> |
+   
+

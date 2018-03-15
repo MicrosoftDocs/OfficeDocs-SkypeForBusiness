@@ -1,0 +1,23 @@
+---
+title: "Normalization Rule Type a Regular Expression"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRouteRegexEdit
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
+description: "Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied."
+---
+
+# Normalization Rule: Type a Regular Expression
+[]
+Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied. 
+  
+For details about the different procedures that you can perform by using the Lync Server 2013 Control Panel, see [Operations in Lync Server 2013](operations.md).
+  
+

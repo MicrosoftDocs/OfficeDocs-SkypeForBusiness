@@ -1,0 +1,63 @@
+---
+title: "Device Update"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: End User
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientDeviceUpdateMain
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
+description: "Microsoft periodically releases a new set of device firmware updates for Lync Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching forPhone Edition.Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the Import-CsDeviceUpdate cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details about the Import-CSdeviceUpdate cmdlet, see Import-CsDeviceUpdate in the Lync Server Management Shell documentation Lync Server 2013"
+---
+
+# Device Update
+[]
+Microsoft periodically releases a new set of device firmware updates for Lync Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching for "Phone Edition." Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the **Import-CsDeviceUpdate** cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details about the Import-CSdeviceUpdate cmdlet, see [Import-CsDeviceUpdate](import-csdeviceupdate.md) in the Lync Server Management Shell documentation Lync Server 2013 
+  
+After the device update rules have been imported, you can use the **Device Update** page to view and manage these rules for your organization's devices. 
+  
+> [!TIP]
+> You can test the firmware updates and then, assuming the tests succeed, make the updates available to all the relevant devices used in the organization. 
+  
+## Tasks you can perform
+
+You can perform the following tasks on the **Device Update** page: 
+  
+- Approve device updates in the list.
+    
+- Cancel or restore pending device updates.
+    
+- Delete device updates from the list.
+    
+## UI Reference
+
+The following lists describe the menus, commands, fields, and properties on the page.
+  
+- **Edit** You can use this option to do the following: 
+    
+  - **Select All** This option selects all device updates in the list. 
+    
+  - **Delete** This option deletes all selected device updates. 
+    
+- **Action** You can select one or more updates in the list and take the following actions: 
+    
+  - **Cancel pending updates** This option prevents the selected update from being deployed to your organization's devices. 
+    
+  - **Approve** This option allows the selected update to be deployed to your organization's devices. 
+    
+  - **Restore** This option allows a previously approved update to be deployed to your organization's devices 
+    
+- **Refresh** You can refresh the list to verify the status of all device updates. 
+    
+For details about Device Update Web service, see [View software updates for devices in Lync Server 2013](view-software-updates-for-devices-in-your-organization.md) in the Planning documentation. 
+  
+## See also
+
+#### 
+
+[Import-CsDeviceUpdate](import-csdeviceupdate.md)
+

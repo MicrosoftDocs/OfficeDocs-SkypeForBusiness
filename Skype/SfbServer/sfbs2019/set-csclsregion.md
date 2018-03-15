@@ -1,0 +1,91 @@
+---
+title: "Set-CsClsRegion"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 3/9/2015
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 2599cae9-edef-408f-8987-313c67bfe763
+description: "In this articleExamplesDetailed DescriptionInput TypesReturn Types"
+---
+
+# Set-CsClsRegion
+[]
+ **In this article**
+  
+[Examples](#Examples)
+  
+[Detailed Description](#DetailedDescription)
+  
+[Input Types](#InputTypes)
+  
+[Return Types](#ReturnTypes)
+  
+Modifies an existing centralized logging configuration region. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. This cmdlet was introduced in Lync Server 2013.
+  
+```
+Set-CsClsRegion [-Identity <XdsIdentity>] <COMMON PARAMETERS>
+```
+
+## Examples
+<a name="Examples"> </a>
+
+### Example 1
+
+The command shown in Example 1 changes the security group suffix for the region global/US to USSupport.
+  
+```
+Set-CsClsRegion -Identity "global/US" -SecurityGroupSuffix "USSupport"
+```
+
+## Detailed Description
+<a name="DetailedDescription"> </a>
+
+The centralized logging service (which replaces the OCSLogger and OCSTracer tools used in Microsoft Lync Server 2010) provides a way for administrators to manage logging and tracing for all computers and pools running Lync Server 2013. Centralized logging enables administrators to stop, start, and configure logging for one or more pools and computers by using a single command; for example, you can use one command to enable Address Book service logging on all your Address Book servers. This differs from the OCSLogger and OCSTracer tools, which had to be individually managed (including individually stopped and started) on each server. In addition, the centralized logging service also provides a way for administrators to search trace logs from the command, using the Windows PowerShell command-line interface and the [Search-CsClsLogging](search-csclslogging.md) cmdlet. 
+  
+With Skype for Business Online, regions are used to determine which users have access to the personally-identifiable information that is written to the log files. Regions are created by using the [New-CsClsRegion](new-csclsregion.md) cmdlet and then are added to a collection of centralized logging configuration settings. After they have been created, you can modify the properties of these regions by using the **Set-CsClsRegion** cmdlet. 
+  
+To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:
+  
+Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsRegion"}
+  
+ **Lync Server Control Panel:** The functions carried out by the **Set-CsClsRegion** cmdlet are not available in the Lync Server Control Panel. 
+  
+## Parameters
+<a name="DetailedDescription"> </a>
+
+|**Parameter**|**Required**|**Type**|**Description**|
+|:-----|:-----|:-----|:-----|
+| _Confirm_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Prompts you for confirmation before executing the command.  <br/> |
+| _Force_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Suppresses the display of any non-fatal error message that might occur when running the command.  <br/> |
+| _Identity_ <br/> |Optional  <br/> |Microsoft.Rtc.Management.Xds.XdsIdentity  <br/> |Unique identifier for the region. Region Identities consist of the centralized logging configuration scope where the region was created plus a unique region name. For example, to refer to a global region named Redmond use this syntax:  <br/> -Identity "global/Redmond"  <br/> |
+| _Instance_ <br/> |Optional  <br/> |System.Management.Automation.PSObject  <br/> |Allows you to pass a reference to an object rather than set individual parameter values.  <br/> |
+| _OtherRegionAccess_ <br/> |Optional  <br/> |System.String  <br/> |Name of an additional region that can be accessed by authorized users for this region.  <br/> |
+| _SecurityGroupSuffix_ <br/> |Optional  <br/> |System.String  <br/> |Suffix to be added to the end of the name of any security group that will be authorized for this region.  <br/> |
+| _Sites_ <br/> |Optional  <br/> |System.String  <br/> |Sites contained within this region. These correspond to the SideId attribute values in the topology document.  <br/> |
+| _WhatIf_ <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Describes what would happen if you executed the command without actually executing the command.  <br/> |
+   
+## Input Types
+<a name="InputTypes"> </a>
+
+The **Set-CsClsRegion** cmdlet accepts pipelined instances of the Microsoft.Rtc.Management.WritableConfig.Settings.CentralizedLogging.Region#Decorated object. 
+  
+## Return Types
+<a name="ReturnTypes"> </a>
+
+None. Instead, the **Set-CsClsRegion** cmdlet modifies existing instances of the Microsoft.Rtc.Management.WritableConfig.Settings.CentralizedLogging.Region#Decorated object. 
+  
+## See also
+<a name="ReturnTypes"> </a>
+
+#### 
+
+[Get-CsClsRegion](get-csclsregion.md)
+  
+[New-CsClsRegion](new-csclsregion.md)
+  
+[Remove-CsClsRegion](remove-csclsregion.md)
+

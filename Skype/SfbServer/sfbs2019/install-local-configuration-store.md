@@ -1,0 +1,32 @@
+---
+title: "Install Local Configuration Store"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: get-started-article
+f1_keywords:
+- ms.lync.dep.DeployMainInstallReplica
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
+description: "To begin the installation of a new Lync Server 2013 role server, you must first install the local SQL Server that will host the local configuration store. The local configuration store will act as a read-only replica of the Lync Server 2013 Central Management store (CMS). You must be logged on to the server that you are running the Install Local Configuration Store step as the local administrator on the computer, and have membership in the RTCUniversalServerAdmins or the RTCUniversalGlobalReadOnlyGroup group. If you are performing the setup on an Edge Server, you do not have to be a member of the RTCUniversalServerAdmins or the RTCUniversalGlobalReadOnlyGroup group. The Topology Builder definition document will be read from the exported definition document instead of from the Central Management store. To export the Topology Builder definition document and make it available to the Edge Servers, see the topic Export your Lync Server 2013 topology and copy it to external media for edge installation."
+---
+
+# Install Local Configuration Store
+[]
+To begin the installation of a new Lync Server 2013 role server, you must first install the local SQL Server that will host the local configuration store. The local configuration store will act as a read-only replica of the Lync Server 2013 Central Management store (CMS). You must be logged on to the server that you are running the **Install Local Configuration Store** step as the local administrator on the computer, and have membership in the RTCUniversalServerAdmins or the RTCUniversalGlobalReadOnlyGroup group. If you are performing the setup on an Edge Server, you do not have to be a member of the RTCUniversalServerAdmins or the RTCUniversalGlobalReadOnlyGroup group. The Topology Builder definition document will be read from the exported definition document instead of from the Central Management store. To export the Topology Builder definition document and make it available to the Edge Servers, see the topic [Export your Lync Server 2013 topology and copy it to external media for edge installation](export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
+  
+To begin the installation:
+  
+1. On the Lync Server 2013 page, next to **Step1: Install Local Configuration Store**, click **Run**.
+    
+2. On the **Local Server Configuration** page, be sure that the **Retrieve configuration automatically from the Central Management Store** option is selected, and then click **Next**.
+    
+3. When the local server configuration installation is complete, click **Finish**.
+    
+> [!NOTE]
+> The installation of the local SQL Server can take some time. You will not see updates on progress in the installation summary screen while SQL Server is being installed. If you want to monitor the progress of the installation, use Task Manager to watch the SQL Server setup. 
+  
+

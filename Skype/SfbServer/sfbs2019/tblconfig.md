@@ -1,0 +1,33 @@
+---
+title: "tblConfig in Lync Server 2013"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 3/9/2015
+ms.audience: ITPro
+ms.topic: article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
+description: "tblConfig contains some Persistent Chat Server unsupported configuration, in one row."
+---
+
+# tblConfig in Lync Server 2013
+[]
+tblConfig contains some Persistent Chat Server unsupported configuration, in one row.
+  
+**Columns**
+
+|**Column**|**Type**|**Description**|
+|:-----|:-----|:-----|
+|configLabel  <br/> |nvarchar (255), not null  <br/> |Contains "pool."  <br/> |
+|configContent  <br/> |nvarchar (max)  <br/> |Configuration content.  <br/> |
+|configPoolID  <br/> |GUID, not null  <br/> |Unique ID of the database instance.  <br/> |
+   
+**Key**
+
+|**Column**|**Description**|
+|:-----|:-----|
+|configLabel  <br/> |Primary key.  <br/> |
+   
+

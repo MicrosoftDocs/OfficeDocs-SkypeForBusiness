@@ -1,0 +1,26 @@
+---
+title: "Select Regions"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ConfCAASelRegion
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
+description: "Use the Select Regions dialog box to find regions available in your Lync Server 2010 environment. To use an existing region, click a region in the list and then click OK."
+---
+
+# Select Regions
+[]
+Use the **Select Regions** dialog box to find regions available in your Lync Server 2010 environment. To use an existing region, click a region in the list and then click **OK**.
+  
+> [!NOTE]
+> To retrieve all available regions, do not type anything in the search box and then click the search icon. 
+  
+For details about the different procedures that you can perform by using the Lync Server 2013 Control Panel, see [Operations in Lync Server 2013](operations.md).
+  
+

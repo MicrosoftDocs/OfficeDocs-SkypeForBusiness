@@ -1,0 +1,27 @@
+---
+title: "Scalability testing in Lync Server 2013"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: concetpual
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: bf41bac6-d4ec-4de6-9a44-a82d01a87279
+description: "Lync Server 2013 provides the server infrastructure for all Lync Server real-time communications, including instant messaging (IM) and presence, conferencing, and Enterprise Voice. This includes any features that use the hardware resources of a Lync Server 2013 pool and, therefore, affect performance and scale. All organizations do not use all features equally."
+---
+
+# Scalability testing in Lync Server 2013
+[]
+Lync Server 2013 provides the server infrastructure for all Lync Server real-time communications, including instant messaging (IM) and presence, conferencing, and Enterprise Voice. This includes any features that use the hardware resources of a Lync Server 2013 pool and, therefore, affect performance and scale. All organizations do not use all features equally. 
+  
+For example, some organizations might use video in conferences very heavily while others might have little or no video usage. Some organizations prefer PowerPoint slide sharing to application sharing, while others prefer the opposite. Those organizations that deploy Enterprise Voice might or might not use the Response Group application heavily. Most organizations deploy Monitoring Servers, but not many of them deploy Archiving Servers. Additionally, organizations do not all have the same infrastructures, including hardware capacities, network capacities, and the number of pools and size of pools deployed. The diversity of features and infrastructures poses a challenge to scalability testing - it is not possible to simulate all possible combinations of features and infrastructures.
+  
+To determine scalability support for Lync Server, we conduct testing by using all Lync Server features concurrently, based on an average usage model (user model). To determine an appropriate user model for Lync Server workloads, we analyze many data points, including customer surveys, feedback from the Microsoft customer experience improvement program, Lync Server usage data from the internal IT department at Microsoft, and data mined from our Live Meeting Service. In many cases, the user model has a bias towards heavier loads to provide a comfortable margin for usage within an organization.
+  
+In our scalability tests, we set up Lync Server 2013 pools according to the recommended hardware and software specifications, including infrastructure components, such as Active Directory Domain Services, hardware load balancers, and firewalls. We set up Lync Server environments as closely as possible to typical real-world environments. We then use the Lync Server 2013 Stress and Performance Tool to simulate Lync Server 2013 loads (based on our user model). . 
+  
+We do multiple iterations of scalability tests (including multiple three-week test runs). We use the results of all tests to help with performance tuning and to verify support for the scalability numbers in our user model.
+  
+

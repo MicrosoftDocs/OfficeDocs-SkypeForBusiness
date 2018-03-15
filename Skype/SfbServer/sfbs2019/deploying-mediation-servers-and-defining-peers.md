@@ -1,0 +1,37 @@
+---
+title: "Deploying Mediation Servers and defining peers in Lync Server 2013"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: a684f1da-6671-4011-adf6-2db49e2528e2
+description: "The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools. With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server. A separate stand-alone Mediation Server is no longer necessary. Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary."
+---
+
+# Deploying Mediation Servers and defining peers in Lync Server 2013
+[]
+The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools. With Lync Server 2013, the functionality of the Mediation Server is built into the Front End Server. A separate stand-alone Mediation Server is no longer necessary. Front End pools can communicate directly with supported gateways (a public switched telephone network (PSTN) gateway or an IP-PBX), removing the need for a Mediation Server to serve as an intermediary.
+  
+The only exception is if you configure a SIP trunk to connect to a Session Border Controller for an Internet Telephony Service Provider. To connect your Enterprise Voice infrastructure to your SIP trunk provider, a separate Mediation Server must be deployed.
+  
+The connection between Lync Server (the Mediation Server component on a Front End pool or stand-alone Mediation Server) and a gateway is defined as a logical association called a trunk. The topics in this section describe how to define a trunk and how to deploy a stand-alone Mediation Server, if you connect to a SIP trunk.
+  
+## In this section
+
+- [Define a Mediation Server in Topology Builder in Lync Server 2013](define-a-mediation-server-in-topology-builder.md)
+    
+- [Define a gateway in Topology Builder in Lync Server 2013](define-a-gateway-in-topology-builder.md)
+    
+- [Install the files for Mediation Server in Lync Server 2013](install-the-files-for-mediation-server.md)
+    
+- [Define additional trunks in Topology Builder in Lync Server 2013](define-additional-trunks-in-topology-builder.md)
+    
+## Related sections
+
+[Configuring dial-in conferencing in Lync Server 2013](configuring-dial-in-conferencing.md)
+  
+

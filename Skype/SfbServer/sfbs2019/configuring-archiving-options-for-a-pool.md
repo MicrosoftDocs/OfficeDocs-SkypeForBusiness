@@ -1,0 +1,58 @@
+---
+title: "Configuring Archiving options for a pool in Lync Server 2013"
+ms.author: crowe
+author: CarolynRowe
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: b7cb0fd8-3d31-4858-a75c-c66a7742556e
+description: "You can specify Archiving options to be applied to specific pools by creating and configuring options in an Archiving configuration for each of those pools. A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration."
+---
+
+# Configuring Archiving options for a pool in Lync Server 2013
+[]
+You can specify Archiving options to be applied to specific pools by creating and configuring options in an Archiving configuration for each of those pools. A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration.
+  
+For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation. 
+  
+> [!NOTE]
+> You should specify all appropriate options in the Archiving configurations before enabling Archiving. For details, see [Configuring Archiving options in Lync Server 2013](configuring-archiving-options.md) in the Deployment documentation. 
+  
+### To configure archiving options at the pool level
+
+1. From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
+    
+2. Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel. For details about the different methods that you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](open-lync-server-administrative-tools.md).
+    
+3. In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.
+    
+4. On the **Archiving Configuration** page, click **New**, and then click **Pool Configuration**.
+    
+5. In **Select a Service**, select the pool to be configured for archiving.
+    
+6. In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options: 
+    
+  - **Disable archiving**
+    
+  - **Archive IM sessions**
+    
+  - **Archive IM and web conferencing sessions**
+    
+7. Also in **New Archiving Setting** page, do the following: 
+    
+  - To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box. 
+    
+  - To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box. 
+    
+  - To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following: 
+    
+  - To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.
+    
+  - To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.
+    
+8. Click **Commit**.
+    
+

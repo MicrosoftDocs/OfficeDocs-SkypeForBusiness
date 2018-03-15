@@ -1,0 +1,57 @@
+---
+title: "Client Version Configuration Create New or Edit Existing"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: End User
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.ClientCVSettingEdit
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
+description: "Client version configuration settings are used to turn client version control on or off. The Global client version configuration installs with Lync and is used to enable or disable client version control for the entire server deployment. When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on. You can disable the Global client version configuration if you do not want any client version control to occur."
+---
+
+# Client Version Configuration: Create New or Edit Existing
+[]
+Client version configuration settings are used to turn client version control on or off. The Global client version configuration installs with Lync and is used to enable or disable client version control for the entire server deployment. When the Global configuration is enabled, any client version policies you have in place will take effect when users attempt to log on. You can disable the Global client version configuration if you do not want any client version control to occur. 
+  
+You can also create site-specific client version configurations, allowing you to enable or disable client version control by site. Site-specific configurations take precedence over the Global configuration.
+  
+## Tasks you can perform
+
+You can perform the following tasks on the **New Client Version Configuration** or **Edit Client Version Configuration** page: 
+  
+- Add or modify the name of the client version configuration.
+    
+- Enable or disable client version control globally or for the specific site.
+    
+- Add or modify the default action for the client version configuration.
+    
+## UI Reference
+
+The following lists describe the menus, command, fields, and properties on the page.
+  
+- **Scope** Identifies the scope (Global or Site) of the client version configuration. 
+    
+- **Name** You can add or modify the name of the client version configuration. 
+    
+- **Enable version control** You can enable or disable client version control globally or for the site, depending on the scope of the configuration. 
+    
+- **Default action** You can select the default action that will be applied when a user attempts to log on using a client application for which there is no specific client version policy. You have the following options: 
+    
+  - **Allow** Allows the client to log on if the client version does not match any filter in the client version policies list. 
+    
+  - **Block** Prevents the client from logging on if the client version does not match any filter in the client version policies list. 
+    
+  - **Block with URL** Prevents the client from logging on if the client version does not match any filter in the client version policies list, and includes an error message containing a URL where a newer client can be downloaded. 
+    
+  - **Allow with URL** Allows the client to log on if the client version does not match any filter in the client version policies list, and includes an error message containing a URL where a newer client can be downloaded. 
+    
+  - **URL** If you selected **Block with URL** or **Allow with URL**, you can specify the client download URL to include in the error message.
+    
+For details about interoperability among clients and client versions, see [Client interoperability in Lync 2013](client-interoperability-in-lync-2013.md) in the Planning documentation. For details about working with client version configurations, see [Modify the default action for clients not explicitly supported or restricted in Lync Server 2013](modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md) in the Operations documentation. 
+  
+

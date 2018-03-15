@@ -1,0 +1,31 @@
+---
+title: "External Applications Scope Node"
+ms.author: kenwith
+author: kenwith
+manager: laurawi
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: get-started-article
+f1_keywords:
+- ms.lync.tb.ExternalApplicationsScopeNode
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
+description: "The Trusted application servers node lists the Trusted application pools at this site. Trusted application pools contain servers that run trusted Microsoft Unified Communications applications, but do not run Lync Server roles. You can perform the following action:"
+---
+
+# External Applications Scope Node
+[]
+The **Trusted application servers** node lists the Trusted application pools at this site. Trusted application pools contain servers that run trusted Microsoft Unified Communications applications, but do not run Lync Server roles. You can perform the following action: 
+  
+- **New Trusted Application Pool**. Starts the **Define New Trusted Application Pool** wizard, which you use to add a new trusted application pool to the topology. 
+    
+In addition to the trusted application pool options, you can perform the following general tasks:
+  
+- **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.
+    
+- **View**. You can use this option to customize the view of Topology Builder by selecting the items to show and hide in the console tree views.
+    
+- **Help**. You can use this option to access Help for the active node.
+    
+
