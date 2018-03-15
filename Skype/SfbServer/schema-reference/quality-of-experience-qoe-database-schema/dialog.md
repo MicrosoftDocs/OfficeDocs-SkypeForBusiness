@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: "The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog."

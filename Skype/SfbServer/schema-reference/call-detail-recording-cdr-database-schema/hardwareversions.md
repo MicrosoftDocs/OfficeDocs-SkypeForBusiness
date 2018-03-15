@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 description: "The HardwareVersions table is a supporting table. Each record stores information about one device hardware version."

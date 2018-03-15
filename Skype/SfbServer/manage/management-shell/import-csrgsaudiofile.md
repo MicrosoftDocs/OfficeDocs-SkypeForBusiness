@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae9dfd76-9b3e-4c51-9692-39d1fe8e430b
 description: "Imports a new audio file for use with the Response Group application. This cmdlet was introduced in Lync Server 2010."

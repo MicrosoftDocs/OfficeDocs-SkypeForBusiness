@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0911c68-9a0a-461a-88d6-c610c6cd996c
 description: "Returns information about the pools used in your deployment of Skype for Business Server 2015. Pools are a collection of computers in a site that all run the same set of Skype for Business Server 2015 services. This cmdlet was introduced in Lync Server 2010."

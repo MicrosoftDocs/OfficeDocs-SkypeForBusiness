@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: af5f832c-1be9-4495-ba1a-c10ca50d7b29
 description: "Moves one or more common area phones to a new Registrar pool. This cmdlet was introduced in Lync Server 2010."

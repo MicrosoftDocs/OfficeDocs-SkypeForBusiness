@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6d0536c-0ba3-45e0-affe-7ee00a070435
 description: "Creates a new dial-in conferencing access number. Dial-in conferencing provides a way for users to use aregulartelephone, cell phone or other device on the public switched telephone network (PSTN) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010."

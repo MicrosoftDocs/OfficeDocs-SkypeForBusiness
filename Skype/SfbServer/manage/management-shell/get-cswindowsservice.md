@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b119dac-c3e6-4031-8ae4-972fca1ef728
 description: "Get-CsWindowsService returns detailed information about Skype for Business Server 2015 components that run as Windows services. This cmdlet was introduced in Lync Server 2010."

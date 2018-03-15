@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e401eb-6a84-468f-b0eb-5b794f20b5bc
 description: "Retrieves settings that provide public switched telephone network (PSTN) phone numbers to access Exchange Subscriber Access and Auto Attendant features. This cmdlet was introduced in Lync Server 2010."

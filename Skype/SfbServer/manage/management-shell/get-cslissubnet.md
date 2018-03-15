@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 670b50b9-a5ab-4b70-bdb9-bdf3c1b09d0b
 description: "Retrieves one or more subnets from the location configuration database. Each subnet can be associated with a location, in which case this cmdlet will also retrieve the location information of the subnets. This location association is used in an Enhanced 9-1-1 (E9-1-1) Enterprise Voice implementation to notify an emergency services operator of the caller's location. This cmdlet was introduced in Lync Server 2010."

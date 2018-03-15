@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsSelTimeoutQueue
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: "Use the Select a time-out queue dialog box to select a queue where calls are forwarded when they time out."

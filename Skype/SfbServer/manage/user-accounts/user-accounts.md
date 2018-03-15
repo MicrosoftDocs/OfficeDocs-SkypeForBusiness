@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: "The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server 2015."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230bbb04-b4cb-410f-8284-00740558655d
 description: "Returns information about the backup pool associated with a Skype for Business Server 2015 pool. This cmdlet was introduced in Lync Server 2013."

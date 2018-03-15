@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7da7e133-e405-466c-a852-06a4fb678c59
 description: "Exports your Skype for Business Server 2015 topology, policies, and configuration settings to a file. Among other things, this file can then be used to restore this information to the Central Management store after an upgrade, a hardware failure, or some other issue has resulted in data loss. This cmdlet was introduced in Lync Server 2010."

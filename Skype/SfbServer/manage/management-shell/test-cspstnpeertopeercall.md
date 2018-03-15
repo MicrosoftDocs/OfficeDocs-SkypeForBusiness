@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 839cf83f-b667-4cbe-b1ab-28f54a8a9d0b
 description: "Tests the ability a pair of users to conduct a peer-to-peer call over the public switched telephone network (PSTN) gateway. This cmdlet was introduced in Lync Server 2010."

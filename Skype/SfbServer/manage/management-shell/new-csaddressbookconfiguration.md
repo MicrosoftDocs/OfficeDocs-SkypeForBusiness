@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a92a2b0-c46e-44e3-b07c-fc9ff0d33b2b
 description: "Creates a new collection of Address Book configuration settings. This cmdlet was introduced in Lync Server 2010."

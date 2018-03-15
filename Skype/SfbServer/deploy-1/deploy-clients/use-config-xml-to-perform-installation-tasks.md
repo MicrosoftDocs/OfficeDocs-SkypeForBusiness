@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: "Summary: How to use the Config.xml file to specify additional installation instructions."

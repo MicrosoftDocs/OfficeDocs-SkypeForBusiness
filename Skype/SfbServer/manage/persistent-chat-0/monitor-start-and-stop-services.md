@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: "Summary: Learn how to start, stop, and monitor the Persistent Chat services in Skype for Business Server 2015."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e73fd7a-5727-4688-8d4c-a3107c3985e9
 description: "Tests the ability of two users to conduct an instant messaging (IM) conference. The Test-CsGroupIM cmdlet is asynthetic transaction: a simulation of common Skype for Business Server 2015 activities used for health and performance monitoring. This cmdlet was introduced in Lync Server 2010."

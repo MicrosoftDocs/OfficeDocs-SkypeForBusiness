@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 708ebae7-59b2-4f33-a706-18a7237eccb0
 description: "Removes an Address Book normalization rule. Address Book normalization rules are used to convert phone numbers to a format readily understood by Skype for Business Server 2015."

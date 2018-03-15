@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17151a25-5dea-498a-93d5-fed3da7d3fa5
 description: "Enables administrators to import data exported from a Microsoft Lync Server 2010 Group Chat database into a Skype for Business Server 2015 Persistent Chat database. This data must have previously been exported from the Group Chat database by using the Export-CsPersistentChatData cmdlet. This cmdlet was introduced in Lync Server 2013."

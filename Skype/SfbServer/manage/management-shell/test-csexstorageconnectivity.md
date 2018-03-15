@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fda110-5e09-4453-bb7b-a062abaab87f
 description: "Verifies that the Skype for Business Server 2015 Storage Service is working on a Front End Server. This is done by creating a test email message in the specified Exchange mailbox and then optionally deleting that message at the end of the text. Test-CsExStorageConnectivity also verifies that Exchange archiving is working as expected. This cmdlet was introduced in Lync Server 2013."

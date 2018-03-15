@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
 description: "tblAdminLock contains the administrator lock that is needed to run some administrator commands."

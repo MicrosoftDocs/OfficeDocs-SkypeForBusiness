@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 127c718e-8949-4bcd-b954-5182b8730820
 description: "Returns information indicating whether or not your Skype for Business Server 2015 Registrar pools are ready to be upgraded. The upgrade readiness state for a pool is based on the upgrade domains that have been configured for that pool. This cmdlet was introduced in Lync Server 2013."

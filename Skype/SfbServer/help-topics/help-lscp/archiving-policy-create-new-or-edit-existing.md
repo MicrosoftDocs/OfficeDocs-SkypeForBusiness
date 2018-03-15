@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchPolicyEdit
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: "You use Archiving policies to control archiving of internal and external communications in your deployment for users who are homed on Skype for Business Server. Archiving policies include the global policy, and, optionally, one or more site and user policies:"

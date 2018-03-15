@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d692b377-8df2-4668-b9d3-06458dd4d96d
 description: "Returns information about the Skype for Business Server 2015 announcements configured for use in your organization. Announcements are played when users dial a valid but unassigned phone number. An announcement can be a message (such asThis number is temporarily out of service) or a busy signal. This cmdlet was introduced in Lync Server 2010."

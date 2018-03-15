@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b640607-ee83-4962-865d-ed74ddd17649
 description: "Modifies the property values of an existing dial-in conferencing access number. Dial-in conferencing provides a way for users to use aregulartelephone, mobile phone or other device on the public switched telephone network (PSTN) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010."

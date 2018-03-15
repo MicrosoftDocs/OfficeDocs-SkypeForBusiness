@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8af2b8cb-4d58-4f8a-9acb-9b5104880bc9
 description: "Removes the specified collection of media configuration settings. This cmdlet was introduced in Lync Server 2010."

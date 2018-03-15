@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: "The Tenants table is a supporting table that stores a list of the various tenants. Each record in the table represents one tenant."

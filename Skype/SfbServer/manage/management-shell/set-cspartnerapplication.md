@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29c8c511-157b-478e-814f-b911955a8251
 description: "Modifies an existing partner application. A partner application is any application that Skype for Business Server 2015 can directly exchange security tokens with, without having to go through a third-party security token server. This cmdlet was introduced in Lync Server 2013."

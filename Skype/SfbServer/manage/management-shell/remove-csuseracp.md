@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dec450bb-d523-468d-aee4-07fdc3d567c4
 description: "Removes one or more audio conferencing providers assigned to a user or group of users. This cmdlet was introduced in Lync Server 2010."

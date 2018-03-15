@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6035b74-d760-4c48-aa0b-d09d129e0830
 description: "Modifies an existing voice policy. This cmdlet was introduced in Lync Server 2010."

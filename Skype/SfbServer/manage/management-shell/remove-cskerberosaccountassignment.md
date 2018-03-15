@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f878fed1-ee6d-4275-8f76-2bc134e465c2
 description: "Removes one or more Kerberos account assignments. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81a9895f-96e3-43c9-9dac-8129358e446a
 description: "Enables an administrator to prevent a user from using personal identification number (PIN) authentication. This cmdlet was introduced in Lync Server 2010."

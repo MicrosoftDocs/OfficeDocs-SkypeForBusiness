@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: "Summary: Learn about the IP Phone Inventory Report in Skype for Business Server 2015."

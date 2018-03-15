@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3486d164-b1a2-4d4c-9150-cef802674682
 description: "Revokes the Skype for Business Server 2015 setup rights that have been granted on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010."

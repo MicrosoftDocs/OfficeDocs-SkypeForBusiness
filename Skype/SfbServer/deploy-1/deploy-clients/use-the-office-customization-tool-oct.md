@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: "Summary: How to use the Office Customization Tool with the Skype for Business client."

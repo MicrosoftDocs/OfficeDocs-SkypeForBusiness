@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ffeb05a7-141d-46dc-936f-1f7218521ff8
 description: "Verifies whether or not an instant message can be sent across an XMPP gateway. XMPP gateways enable Skype for Business Server 2015 users to exchange instant message and presence information with users belonging to IM and presence providers that employ the extensible Messaging and Presence Protocol (XMPP). This cmdlet was introduced in Lync Server 2013."

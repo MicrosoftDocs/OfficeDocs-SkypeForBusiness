@@ -5,7 +5,7 @@ author: microsoftheidi
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad

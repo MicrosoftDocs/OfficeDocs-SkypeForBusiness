@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88af3267-80c5-46c0-aaef-135843b42a04
 description: "Enables a Skype for Business Server 2015 meeting room. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. To enable a meeting room you must first create an Active Directory user account that will represent that system. Note that, although meeting room objects are based on user accounts, these objects will not show up when you run the Get-CsUser cmdlet. This cmdlet was introduced in Lync Server 2013."

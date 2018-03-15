@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c7f5594-4014-4ae0-afe1-6f73340be08c
 description: "Sets disclaimer text that will be used globally to prompt for location information for an Enhanced 9-1-1 (E9-1-1) implementation. This cmdlet was introduced in Lync Server 2010. It has been deprecated for use with Skype for Business Server 2015. For Skype for Business Server 2015, E9-1-1 disclaimers should be configured by using the New-CsLocationPolicy cmdlet and the Set-CsLocationPolicy cmdlet."

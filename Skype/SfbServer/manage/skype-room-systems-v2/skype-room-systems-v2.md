@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: "Read this topic to learn about management of Skype Room Systems v2, the next generation of Skype Room Systems."

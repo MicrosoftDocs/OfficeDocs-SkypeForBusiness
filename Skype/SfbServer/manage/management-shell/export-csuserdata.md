@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52c411e1-76da-48b8-b1e3-ddc7c7f86e3d
 description: "Exports user data in a format that can be imported into Skype for Business Server 2015. The data will be exported as a .ZIP file containing a pair of XML documents. This cmdlet was introduced in Lync Server 2013."

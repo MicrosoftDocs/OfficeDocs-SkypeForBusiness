@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a5b247b8-621a-463b-8034-f2f6970706fe
 description: "Returns information about the diagnostic header configuration settings currently in use in your organization. Diagnostic header configuration settings determine whether SIP messages are accompanied by header information. This information can be useful in troubleshooting and error reporting. This cmdlet was introduced in Lync Server 2010."

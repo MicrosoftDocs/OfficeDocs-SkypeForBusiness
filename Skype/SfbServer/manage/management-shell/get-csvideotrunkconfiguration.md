@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a315bd1a-d682-435c-89ee-9bc649f474a0
 description: "Use the Get-CsVideoTrunkConfiguration to retrieve Video Trunk configuration settings. Video trunk settings define the Session Initiation Protocol (SIP) trunk between the Video Interoperability Server (VIS) and a Video Gateway."

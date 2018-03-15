@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: "Summary: Learn how to delete Quality of Experience (QoE) settings in Skype for Business Server 2015."

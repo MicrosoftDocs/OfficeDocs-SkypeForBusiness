@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b2d9601-3206-48d9-a846-4486b606aad0
 description: "Removes the specified collection of UC phone configuration settings. These settings include such things as the required security mode and whether the phone should automatically be locked after a specified period of inactivity. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: "Read this topic to learn about provisioning Skype Room System accounts in Office 365."

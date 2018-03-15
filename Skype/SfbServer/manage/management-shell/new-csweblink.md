@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f5c19896-4ce0-42cd-a934-30b1cdc64e3a
 description: "Creates a new web link that points to the Autodiscover service. The Autodiscover service provides a way for client applications such as Skype for Business Mobile to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011."

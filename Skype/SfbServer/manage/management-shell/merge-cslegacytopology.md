@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 396d6c84-7b38-41ae-9273-665f76cdd9ea
 description: "This cmdlet is reserved for Microsoft internal use only."

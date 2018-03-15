@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MonitoringServerScopeNode
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: "In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking Action in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:"

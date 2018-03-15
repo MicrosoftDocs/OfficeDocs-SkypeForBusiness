@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09d2c1e6-07b6-47c2-b48f-f0c8bdfa1507
 description: "Removes an existing Persistent Chat category. A Persistent Chat category represents a collection of Persistent Chat chat rooms, and each chat room must be associated with a category. This cmdlet was introduced in Lync Server 2013. Note that categories cannot be removed unless they are empty (that is, all the rooms within that category must be removed before you can remove the category)."

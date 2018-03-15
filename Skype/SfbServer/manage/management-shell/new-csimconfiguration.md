@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f75c533b-24b3-4660-95c3-995075a779c0
 description: "Use the New-CsImConfiguration cmdlet to create a new Instant Messaging (IM) configuration."

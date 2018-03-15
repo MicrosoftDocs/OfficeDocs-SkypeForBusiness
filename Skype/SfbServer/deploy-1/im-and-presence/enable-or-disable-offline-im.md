@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server 2015."

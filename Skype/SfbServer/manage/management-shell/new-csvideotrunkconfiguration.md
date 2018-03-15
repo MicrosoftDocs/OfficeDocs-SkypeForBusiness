@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76503acf-f757-45e1-8881-b0fa2392844d
 description: "Use the New-CsVideoTrunkConfiguration to create a new video trunk configuration containing settings to manage a video Session Initiation Protocol (SIP) trunk between the Video Interop Server (VIS) and a Video Gateway."

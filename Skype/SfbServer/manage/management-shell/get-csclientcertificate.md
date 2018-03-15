@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0949288e-9df2-42c4-8297-0dc4cb40d544
 description: "Returns information about the client certificates that have been issued to a user. This cmdlet was introduced in Lync Server 2010."

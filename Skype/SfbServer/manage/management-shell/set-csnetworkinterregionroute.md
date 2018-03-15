@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d9da3c0-56fc-401d-baf3-ed6c0f50f53d
 description: "Modifies an existing route that connects network regions within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010."

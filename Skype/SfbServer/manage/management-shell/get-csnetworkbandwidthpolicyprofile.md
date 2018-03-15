@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31784852-0cf4-4114-bf92-5eef6f346c47
 description: "Retrieves one or more network bandwidth policy profiles. This cmdlet was introduced in Lync Server 2010."

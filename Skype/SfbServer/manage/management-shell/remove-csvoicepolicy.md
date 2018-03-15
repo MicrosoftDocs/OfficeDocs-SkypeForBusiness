@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d3e67be-c094-415f-b1e6-0719dec6f3fc
 description: "Removes the specified voice policy. This cmdlet was introduced in Lync Server 2010."

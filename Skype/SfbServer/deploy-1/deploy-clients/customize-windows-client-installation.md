@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: "Summary: Overview of installation methods and tools for Skype for Business."

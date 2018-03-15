@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52dd4397-b1c5-44a5-a744-75d715a4511b
 description: "Retrieves a hosted voice mail policy. This cmdlet was introduced in Lync Server 2010."

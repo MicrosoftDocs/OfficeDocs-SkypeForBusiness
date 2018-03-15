@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1df0c537-f24f-4a63-be6d-70d016f985a5
 description: "Creates a new static phone route. This cmdlet was introduced in Lync Server 2010."

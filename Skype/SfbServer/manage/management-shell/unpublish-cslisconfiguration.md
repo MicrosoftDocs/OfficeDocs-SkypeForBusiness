@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7fcba482-e1cc-46fa-8b39-fba549eb0fec
 description: "Removes the Location Information Server (LIS) configuration from the Central Management store. This cmdlet was introduced in Lync Server 2010."

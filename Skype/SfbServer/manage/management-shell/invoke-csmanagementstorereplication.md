@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa3dece3-afd8-4669-94f9-fc3b70201e81
 description: "Forces Skype for Business Server 2015 replication services to send complete configuration data to the specified computers. This is done by deleting the replication status of the computers from the Central Management store. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe69a3d-0154-418f-b6ee-99a88e5a9c7d
 description: "Resets the management connection to the Active Directory service control point for the Central Management store. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24b73e8e-948c-4e9c-bf4e-04ec0a229ffa
 description: "Invokes the process in which a Skype for Business Server 2015 database fails over to its mirror database. After failover has been completed, the mirror database will become the principal database and will handle all new database requests. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66da2361-e325-4085-8b6f-47a8423edaab
 description: "Imports an announcement file to the Announcement service audio library. This cmdlet was introduced in Lync Server 2010."

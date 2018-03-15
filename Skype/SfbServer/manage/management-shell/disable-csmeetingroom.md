@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1bce6b58-484f-4e59-a259-aa315d37d9b0
 description: "Disables a Skype for Business Server 2015 meeting room. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. When you disable a meeting room object you remove all the Skype for Business Server 2015-specific Active Directory attributes assigned to the user account that represents the meeting room. However, the Active Directory user account itself is not deleted. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86e13601-7e80-4276-b176-77d9c6e7d55a
 description: "Extends the Active Directory schema to allow for the installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

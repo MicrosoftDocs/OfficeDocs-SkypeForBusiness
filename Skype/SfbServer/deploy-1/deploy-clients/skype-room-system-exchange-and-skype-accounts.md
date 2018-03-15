@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 description: "Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System."

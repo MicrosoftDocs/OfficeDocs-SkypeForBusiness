@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34c5bb61-fcba-4e93-bb21-83b9611f3045
 description: "Deletes any rejected device update files that are no longer associated with a device. This cmdlet was introduced in Lync Server 2010."

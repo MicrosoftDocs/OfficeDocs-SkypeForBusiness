@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6bf66ee1-33de-487a-94eb-026646c56ccd
 description: "Use the Start-CsPool cmdlet to start a Skype for Business Server pool. A pool is a set of servers, configured identically, that work together to provide services for a common group of users."

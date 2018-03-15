@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d580b9ea-ee07-4511-923e-03adad6a4db7
 description: "Modifies the conversation history configuration settings for the organization. These settings manage conversation histories for mobile device users."

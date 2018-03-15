@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 952ab367-5c68-4869-9827-873605e7c41e
 description: "Use the New-CsCallViaWorkPolicy cmdlet to create a new call via work policy that enables and manages the characteristics of outbound calls placed through the Skype for Business client."

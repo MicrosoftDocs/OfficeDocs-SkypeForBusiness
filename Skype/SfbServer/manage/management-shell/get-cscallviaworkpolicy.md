@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9771da00-06ec-4f0b-bfe2-2c6d0e9a2e7b
 description: "Use the Get-CsCallViaWorkPolicy cmdlet to return call via work policies. Call via work policies enable and manage the characteristics of outbound calls placed through the Skype for Business client."

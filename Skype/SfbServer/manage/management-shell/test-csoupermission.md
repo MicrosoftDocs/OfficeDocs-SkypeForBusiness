@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9908eac9-765e-4406-bb6b-0e4dd07f85f8
 description: "Verifies that the required permissions needed to manage users, computers, and other objects have been set on the specified Active Directory container. This cmdlet was introduced in Lync Server 2010."

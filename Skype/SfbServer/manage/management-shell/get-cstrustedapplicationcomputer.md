@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 360796d8-48c7-4ce2-9bb4-1f8967562f24
 description: "Retrieves information about one or more computers that host trusted applications. This cmdlet was introduced in Lync Server 2010."

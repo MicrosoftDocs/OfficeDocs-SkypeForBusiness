@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9a159a9a-69a6-4e4d-8224-49aa42092ea8
 description: "Sets the properties for an existing call park orbit range within an organization. This cmdlet was introduced in Lync Server 2010."

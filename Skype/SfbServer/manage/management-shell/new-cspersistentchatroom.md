@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b00d353b-5b5b-40d6-b952-3c35170fbf8a
 description: "Creates a new Persistent Chat chat room. A chat room is a discussion forum that typically revolves around a specific topic. This cmdlet was introduced in Lync Server 2013."

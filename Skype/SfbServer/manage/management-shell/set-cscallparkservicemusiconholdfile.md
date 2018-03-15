@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: af5e7573-4bfd-47b1-a92b-83b06a537158
 description: "Changes the audio file that will be played to callers who are on hold in a parked call. This cmdlet was introduced in Lync Server 2010."

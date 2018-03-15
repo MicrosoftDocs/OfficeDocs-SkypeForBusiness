@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de83b57a-84ce-47f8-aa18-b2f3adbab261
 description: "Use the Remove-CsVideoInteropServerSyntheticTransactionConfiguration cmdlet to remove an existing Video Interop (VIS) server synthetic transaction configuration."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7b2afb-4d7f-4b5a-99dd-6f8978dd5728
 description: "Retrieves one or more hosted Exchange Unified Messaging (UM) contact objects. This cmdlet was introduced in Lync Server 2010."

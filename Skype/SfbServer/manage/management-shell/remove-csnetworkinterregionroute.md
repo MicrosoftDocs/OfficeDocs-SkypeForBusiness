@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91948c03-2bcb-4e25-b0b6-23827e85bbb3
 description: "Removes a route that connects network regions within a call admission control (CAC) configuration. This cmdlet was introduced in Lync Server 2010."

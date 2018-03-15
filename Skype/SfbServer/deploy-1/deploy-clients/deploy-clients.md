@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: "Summary: Overview of enterprise client installation methods for Skype for Business."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a83a58-9d3f-458a-867e-44466c9817dc
 description: "Removes a certificate previously marked as being available for use by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

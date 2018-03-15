@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: "Read this topic to learn how to deploy Skype Room System in a multiple forest on-premises environment."

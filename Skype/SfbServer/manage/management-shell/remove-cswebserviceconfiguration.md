@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1df2f881-6594-4de7-9762-8d64b2243355
 description: "Removes one or more collections of Web Services configuration settings. This cmdlet was introduced in Lync Server 2010."

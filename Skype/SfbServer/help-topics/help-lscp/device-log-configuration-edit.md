@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceUpdateEdit
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: "You can add a device log configuration to the Edit Log Setting page that determines the maximum log cache size, maximum log file size, or length of time a log file is kept before it is purged. You can change these settings according to your organization's requirements."

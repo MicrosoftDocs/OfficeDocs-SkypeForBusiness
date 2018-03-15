@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88734ae8-1339-4080-a4bb-544181f6d1d2
 description: "Verifies that a user can connect to Exchange Unified Messaging and leave a voice mail message for another user. This cmdlet was introduced in Lync Server 2013."

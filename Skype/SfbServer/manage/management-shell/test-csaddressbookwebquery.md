@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9753dcba-83b3-437b-98f0-2806305a5bbb
 description: "Tests the ability of a user to search for, and return, information from the Address Book by using the Address Book Web Query service. This cmdlet was introduced in Lync Server 2010."

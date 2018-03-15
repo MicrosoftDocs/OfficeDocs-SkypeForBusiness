@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e3c7004-9017-48a4-91d8-5c271fb8a1ab
 description: "Returns information about the Response Group agent groups configured for use in your organization. An agent group is a collection of agents assigned to a Response Group queue. Agents are the users assigned to answer calls directed to a queue. This cmdlet was introduced in Lync Server 2010."

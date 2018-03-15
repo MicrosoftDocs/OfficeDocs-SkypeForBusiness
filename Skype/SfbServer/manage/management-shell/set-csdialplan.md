@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80277dc6-8853-4cbd-87cb-e64f9e135d5f
 description: "Modifies an existing dial plan. This cmdlet was introduced in Lync Server 2010."

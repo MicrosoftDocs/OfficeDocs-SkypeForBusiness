@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbc91bd1-453c-4ae6-bb77-3b6be9429ed0
 description: "Creates a bandwidth policy in memory that can be applied to the bandwidth policy profile. In Skype for Business Server 2015, the policy applies to either audio or video bandwidth. This cmdlet was introduced in Lync Server 2010."

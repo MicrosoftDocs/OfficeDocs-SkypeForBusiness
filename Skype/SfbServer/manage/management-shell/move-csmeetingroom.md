@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/6/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea6b8bd-b134-4453-9ae4-6118330a62ea
 description: "Moves a Skype for Business Server 2015 meeting room object from one Registrar pool to another. A meeting room is a conferencing device designed to address video conferencing and collaboration scenarios in small conference rooms. This cmdlet was introduced in Lync Server 2013."

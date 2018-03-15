@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ed39feda-ebcf-4ed6-a970-64543f150b16
 description: "Retrieves information about the specified collection of client version configuration settings in use in your organization. Client version configuration settings determine whether or not Skype for Business Server 2015 checks the version number of each client application that logs on to the system. If client version filtering is enabled the ability of that client application to access the system will be based on settings configured in the relevant client version policy. This cmdlet was introduced in Lync Server 2010."

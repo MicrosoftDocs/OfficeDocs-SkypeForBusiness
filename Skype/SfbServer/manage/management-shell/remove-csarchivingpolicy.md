@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 41f11a99-14f1-4292-9d58-eb7a7761b829
 description: "Removes the specified instant messaging (IM) archiving policy. IM archiving policies determine whether Skype for Business Server 2015 will automatically save all IM sessions that take place between internal users, and/or all IM sessions between internal users and federated partners. This cmdlet was introduced in Lync Server 2010."

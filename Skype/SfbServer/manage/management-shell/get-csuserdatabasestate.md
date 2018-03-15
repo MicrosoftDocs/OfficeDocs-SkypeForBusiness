@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c90150cd-fdb0-4c79-af58-c9ad884cb043
 description: "Returns information about the online status (True or False) of one or more Skype for Business Server 2015 user databases. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 730ad014-b1e8-4f0a-be78-32b1b5488b78
 description: "Assigns a dial plan to one or more users or groups. This cmdlet was introduced in Lync Server 2010."

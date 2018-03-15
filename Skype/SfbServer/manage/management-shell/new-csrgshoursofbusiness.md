@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21869ba6-526e-4c70-b84d-de73536d8a43
 description: "Creates a new set of Response Group application business hours. Business hour sets are used to indicate the days of the week and the times of day when Response Group agents are typically available to answer phone calls. This cmdlet was introduced in Lync Server 2010."

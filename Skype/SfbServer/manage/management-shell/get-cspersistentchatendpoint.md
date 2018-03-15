@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c37edd6-6892-4b2d-8586-6f59ab668d4b
 description: "Returns information about the Persistent Chat endpoints configured for use in the organization. A Persistent Chat endpoint is an Active Directory contact object provides a friendly URL for a Skype for Business Server 2015 Persistent Chat pool. This cmdlet was introduced in Lync Server 2013."

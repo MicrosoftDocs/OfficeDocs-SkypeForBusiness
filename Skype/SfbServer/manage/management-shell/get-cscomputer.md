@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 493931a9-1670-4a76-abba-7d3c7723d2e1
 description: "Returns information about the computers that perform service roles within your Skype for Business Server 2015 infrastructure. This cmdlet was introduced in Lync Server 2010."

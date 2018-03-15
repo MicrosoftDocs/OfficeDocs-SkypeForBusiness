@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce7aa87a-2355-4025-bba8-d4debf2137d2
 description: "Returns information about the centralized logging configuration security groups in use in the organization. Centralized logging provides a way for administrators to simultaneously enable or disable event tracing on multiple computers. Security groups are intended for use with Skype for Business Online."

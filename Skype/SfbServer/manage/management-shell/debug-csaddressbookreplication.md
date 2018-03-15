@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c138f274-7a1f-4074-b6a2-548274af5199
 description: "Verifies replication between Active Directory and the Skype for Business Server 2015 Address book service. This cmdlet was introduced in Lync Server 2013."

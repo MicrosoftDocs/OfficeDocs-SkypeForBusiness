@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a2ac5b7-cb1d-4a83-801f-f27671e71743
 description: "Creates a new Response Group workflow. Workflows determine the actions that are taken when the Response Group application receives a phone call. This cmdlet was introduced in Lync Server 2010."

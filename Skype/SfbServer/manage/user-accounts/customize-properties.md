@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: "You can use the procedures in this section to modify individual user account properties."

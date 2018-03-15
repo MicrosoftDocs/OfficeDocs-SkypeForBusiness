@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f29c3b43-d315-4964-ab5c-9fb14612db34
 description: "Identifies the route that a phone call from a given user would take to be completed based on voice rules, routes, and policies. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8eed6091-ab96-49d4-a0c0-d1f9180a0b90
 description: "Removes an existing collection of User Services configuration settings. The User Services service is used to help maintain presence information and manage conferencing. This cmdlet was introduced in Lync Server 2010."

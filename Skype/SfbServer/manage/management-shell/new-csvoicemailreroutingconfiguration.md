@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37750c6d-9b75-4dde-aa52-79210afe34c2
 description: "Creates settings that, when enabled, provide phone numbers that Skype for Business Server 2015 routes to over public switched telephone network (PSTN) if IP connectivity from Skype for Business Server 2015 in the branch site to the Exchange Server located in the data center is not available. This cmdlet was introduced in Lync Server 2010."

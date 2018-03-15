@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/11/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7298254b-bc33-450e-846a-2612f6dc7006
 description: "Summary: Find out about the necessary additional steps after you patch or upgrade a Back End Server that is part of a AlwaysOn Availability Group in Skype for Business Server."

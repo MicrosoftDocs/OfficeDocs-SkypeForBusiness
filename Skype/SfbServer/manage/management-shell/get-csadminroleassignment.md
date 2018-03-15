@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61374f9b-e85a-4866-91f2-037a862ba0d6
 description: "Returns the role-based access control (RBAC) roles assigned to a user. This cmdlet was introduced in Lync Server 2010."

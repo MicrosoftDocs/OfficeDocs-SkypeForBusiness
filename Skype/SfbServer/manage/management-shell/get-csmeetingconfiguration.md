@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa2d905-0ce0-4675-8543-c7bb9b4a3d1a
 description: "The Get-CsMeetingConfiguration cmdlet enables you to return information about the meeting configuration settings currently in use in your organization. Meeting configuration settings help dictate the type of meetings (also calledconferences) that users can create, and control how (or even if) anonymous users and dial-in conferencing users can join these meetings. This cmdlet was introduced in Lync Server 2010."

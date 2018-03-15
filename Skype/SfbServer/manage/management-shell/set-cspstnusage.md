@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ecba9ed6-4845-4035-933e-0c540d530b72
 description: "Modifies a set of strings that identify the allowed public switched telephone network (PSTN) usages. This cmdlet can be used to add usages to the list of PSTN usages or remove usages from the list. This cmdlet was introduced in Lync Server 2010."

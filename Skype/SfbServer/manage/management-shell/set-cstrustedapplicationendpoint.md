@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6c2713f4-8e2c-48fc-9f27-07c1d6b87a18
 description: "Modifies an existing endpoint contact for a trusted application. This cmdlet was introduced in Lync Server 2010."

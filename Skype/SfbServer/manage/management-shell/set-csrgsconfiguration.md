@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 259cec4c-0152-4c8f-8aa6-51cefc1b55c9
 description: "Modifies configuration settings for the Response Group application. This cmdlet was introduced in Lync Server 2010."

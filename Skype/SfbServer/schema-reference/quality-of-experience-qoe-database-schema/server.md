@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: "The Server table is a supporting table. Each record represents one server."

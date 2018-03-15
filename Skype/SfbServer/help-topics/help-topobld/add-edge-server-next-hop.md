@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerNextHopPage
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: "The next hop for the Edge pool is a Front End pool (which can be either an Enterprise pool or a Standard Edition server), or, if your deployment includes a Director, the next hop is the Director."

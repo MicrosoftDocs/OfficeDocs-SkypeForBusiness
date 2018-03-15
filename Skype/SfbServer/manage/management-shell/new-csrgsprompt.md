@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6812acbf-ae56-43a6-a2d7-e28a930f81c7
 description: "Creates a new workflow prompt for the Response Group application. A workflow prompt is either an audio file that is played or text that is read aloud in order to supply callers with additional information. This cmdlet was introduced in Lync Server 2010."

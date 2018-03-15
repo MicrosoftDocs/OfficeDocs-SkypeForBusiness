@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 060ab02a-1267-4b35-bc2b-6a4a35616be0
 description: "Invokes the process by which the Skype for Business Server 2015 Central Management Store (CMS) is failed over to another pool. When the Central Management store is failed over the primary database will be replaced by either a preassigned database or a specified backup database. To run this cmdlet, you need to use an account that is a member of the RTCUniversalServerAdmins group. This cmdlet should be run on a server in the pool to which you want to failerover the CMS. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: "Each record contains client event for one endpoint in a video call. Usually, one call has two records, one for caller and one for callee."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02145fe6-8b7a-4508-8b3c-b9671b5bfcff
 description: "Assigns a Kerberos account, which is used for Internet Information Services (IIS) authentication, to a site. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: "tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps."

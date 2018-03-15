@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestSans
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 description: "The Configure Additional Subject Alternate Names option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click Add. If you have added a SAN that you must delete, highlight the SAN entry and click Remove. To remove all SAN entries that you have added, click Clear All."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: "This article discusses how to manage Skype Room Systems v2 devices in an integrated, end-to-end manner using Microsoft Operations Management Suite."

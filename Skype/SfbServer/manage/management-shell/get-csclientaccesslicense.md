@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 435062d3-b7f9-400c-9ce7-fb6b6ffce44a
 description: "Returns information about client license usage in your organization. This cmdlet was introduced in Lync Server 2013."

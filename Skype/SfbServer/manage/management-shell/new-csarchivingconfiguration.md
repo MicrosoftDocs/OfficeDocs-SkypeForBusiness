@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66cab8b7-c3b3-4c1b-a77a-28f295ff6010
 description: "Creates a new set of instant messaging (IM) archiving settings. These settings can be used to enable or disable the automatic saving of IM sessions; these settings also enable you to block any instant messages that cannot be archived. This cmdlet was introduced in Lync Server 2010."

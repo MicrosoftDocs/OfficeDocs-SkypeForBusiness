@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d54dc154-c092-4be9-8656-f7fec3fbd835
 description: "Modifies the settings for a network configuration. This cmdlet will most often be used to enable or disable call admission control (CAC). This cmdlet was introduced in Lync Server 2010."

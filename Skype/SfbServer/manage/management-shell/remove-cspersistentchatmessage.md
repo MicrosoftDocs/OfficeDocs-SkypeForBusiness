@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cb53905-4608-44a9-ba3d-ba51fc90d65e
 description: "Replaces one or more Persistent Chat messages in the Persistent Chat database with a default message or with an administrator-provided message. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abe27005-8325-47d7-8c7c-12bb831b87c7
 description: "Removes a voice test configuration that was used to test phone numbers against specified routes and rules. This cmdlet was introduced in Lync Server 2010."

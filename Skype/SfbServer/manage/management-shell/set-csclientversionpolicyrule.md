@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e061fa8-bb1a-4382-bb0d-298f81aefb3d
 description: "Modifies one or more client version policy rules currently configured for use in your organization. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72d772fa-6a1e-416a-bd85-c6ba27619092
 description: "Use the Set-CsCallViaWorkPolicy to modify an existing call via work policy that enables and manages the characteristics of outbound calls placed through the Skype for Business client."

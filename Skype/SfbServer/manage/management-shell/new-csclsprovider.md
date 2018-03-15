@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b0a90c1-27ab-49c8-88f2-a381cf14625e
 description: "Creates a new centralized logging trace provider. Trace providers are application components that generate trace messages or trace events useful in troubleshooting problems with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e46c02e-0937-4e3b-b02e-e7507189f6aa
 description: "Creates a new role-based access control (RBAC) role. RBAC roles are used to define the management tasks that users are allowed to carry out, and to determine the scope in which users will be allowed to perform these tasks. This cmdlet was introduced in Lync Server 2010."

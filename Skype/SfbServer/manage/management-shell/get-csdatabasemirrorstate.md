@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 458f5367-ee04-4281-971f-08f79a625509
 description: "Returns information about whether database mirroring has been implemented for a specified database on a specified pool. Database mirroring enables you to simultaneously maintain two copies of a database, with each copy residing on a different server. This cmdlet was introduced in Lync Server 2013."

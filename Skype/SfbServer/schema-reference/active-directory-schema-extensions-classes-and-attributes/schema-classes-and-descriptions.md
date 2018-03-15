@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: "This section describes all the schema classes used by Skype for Business Server ."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: "This article summarizes the requirements for supporting a Skype Room Systems v2."

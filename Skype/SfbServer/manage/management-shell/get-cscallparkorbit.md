@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73bbb09a-7966-4af1-aff3-001f5cc56df1
 description: "Gets the call park orbit range settings for the organization. This cmdlet was introduced in Lync Server 2010."

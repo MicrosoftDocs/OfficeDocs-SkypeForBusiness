@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf926005-1146-484c-90fa-246a9c082774
 description: "Tests the ability of a pair of users to take part in an application sharing conference. This cmdlet was introduced in Lync Server 2013."

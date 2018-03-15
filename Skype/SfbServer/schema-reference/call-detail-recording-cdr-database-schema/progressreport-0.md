@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: "The ProgressReport view stores information about completed sessions. Progress reports will be written only for calls and sessions that Lync Server 2013 determines might be useful for diagnostic purposes. This view was introduced in Microsoft Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d8bdbf-abf0-4ca3-b9ab-fbb355fbcca1
 description: "Grants Skype for Business Server 2015 management rights on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010."

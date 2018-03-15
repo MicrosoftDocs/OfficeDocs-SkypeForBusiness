@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5022535e-fcdd-4fac-ab12-d1ac43267d0a
 description: "Creates a new third-party video system policy for use with video teleconferencing (VTC) devices. These policies determine whether or not the VTC is allowed to send low-resolution video."

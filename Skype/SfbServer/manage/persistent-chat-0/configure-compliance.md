@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: "Summary: Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015."

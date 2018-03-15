@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: "Summary: Read this topic to learn about conferencing features and capabilities in Skype for Business Server 2015."

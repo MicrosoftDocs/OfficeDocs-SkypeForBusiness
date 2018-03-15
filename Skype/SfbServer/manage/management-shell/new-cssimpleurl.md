@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dcf919e-9896-4428-8f12-0fc611661fa8
 description: "Creates a new simple URL, which can then be added to a simple URL configuration collection. Simple URLs make it easier for users to join meetings and conferences, and also make it easier for administrators to log on to the Skype for Business Server Control Panel. This cmdlet was introduced in Lync Server 2010."

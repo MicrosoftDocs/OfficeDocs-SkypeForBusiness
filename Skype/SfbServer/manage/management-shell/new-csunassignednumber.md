@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81b5d355-56d4-4325-8518-653de8e1fab4
 description: "Creates a new range of unassigned numbers and the routing rules that apply to those numbers. Running this cmdlet will add an entry to the unassigned number routing table. This cmdlet was introduced in Lync Server 2010."

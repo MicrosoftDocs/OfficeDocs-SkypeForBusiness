@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 43c63a01-5072-45f0-89ee-8c3ae0cd9035
 description: "Assigns a conferencing policy at the per-user scope. Conferencing policies determine the features and capabilities that can be used in a conference. This includes everything from whether or not the meeting can include IP audio and video to the maximum number of people who can attend a meeting. This cmdlet was introduced in Lync Server 2010."

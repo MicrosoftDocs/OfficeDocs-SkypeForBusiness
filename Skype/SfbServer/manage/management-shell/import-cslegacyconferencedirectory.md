@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ecb9bf9-cbce-48a6-966c-ecbdac59cb3a
 description: "The Import-CsLegacyConferenceDirectory cmdlet enables you to import conference directories from Microsoft Office Communications Server 2007 R2 to Skype for Business Server 2015. This helps provide interoperability between Skype for Business Server 2015 and Office Communications Server 2007 R2. This cmdlet was introduced in Lync Server 2010."

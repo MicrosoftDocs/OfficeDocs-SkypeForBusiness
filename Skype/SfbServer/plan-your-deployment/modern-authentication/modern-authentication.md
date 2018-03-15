@@ -5,7 +5,7 @@ author: MSFTTracyP
 ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: "Planning topics for Modern Authentication for Skype for Business Server, including integration with other products"

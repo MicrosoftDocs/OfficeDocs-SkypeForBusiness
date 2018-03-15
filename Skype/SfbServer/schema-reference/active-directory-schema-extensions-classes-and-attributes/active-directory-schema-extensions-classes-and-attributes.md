@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/1/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: "This reference section includes the following information:"

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f687d41b-2cb3-4c32-ae28-90e25cdd0d6a
 description: "Returns information about the services and server roles being used in your Skype for Business Server 2015 infrastructure. A service is an instance of a role that has been deployed in a Skype for Business Server 2015 pool. For example, you might have a pool of computers all running the Monitoring service. This cmdlet was introduced in Lync Server 2010."

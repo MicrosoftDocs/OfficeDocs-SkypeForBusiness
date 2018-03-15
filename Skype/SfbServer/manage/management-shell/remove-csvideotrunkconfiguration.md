@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab45bb0-b843-4b4a-88d4-436b82f5aacc
 description: "Use the Remove-CsVideoTrunkConfiguration to remove one or more Video Trunk configurations. Video Trunk configuration settings are scoped to Video Gateway instances, and govern the behavior of the Session Initiation Protocol (SIP) trunk between each Video Gateway instance and the paired Video Interop Server instance that together define the Video Trunk."

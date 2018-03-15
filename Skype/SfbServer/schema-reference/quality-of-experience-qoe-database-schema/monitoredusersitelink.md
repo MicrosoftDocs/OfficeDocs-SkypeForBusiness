@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: "The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites."

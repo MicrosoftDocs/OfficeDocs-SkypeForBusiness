@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c257fe1f-7d35-4d73-b960-897baf999ae1
 description: "Use the Set-CsVideoInteropServerSyntheticTransactionConfiguration cmdlet to modify an existing Video Interop Server (VIS) synthetic transaction configuration."

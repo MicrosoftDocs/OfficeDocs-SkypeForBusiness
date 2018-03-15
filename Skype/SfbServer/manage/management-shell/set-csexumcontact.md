@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fe0fdc-6fea-4334-8645-24ffd494db07
 description: "Modifies an existing Auto Attendant or Subscriber Access contact object for hosted Exchange Unified Messaging (UM). This cmdlet was introduced in Lync Server 2010."

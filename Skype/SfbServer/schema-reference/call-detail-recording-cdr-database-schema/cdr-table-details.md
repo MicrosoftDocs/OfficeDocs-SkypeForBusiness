@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: "The following topics detail the columns in each of the call detail records (CDR) database schema tables."

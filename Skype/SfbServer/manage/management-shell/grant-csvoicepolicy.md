@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8aa8d0f-6fb4-43f7-82b0-38d4da2d5611
 description: "Assigns a voice policy to one or more users or groups. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9a9c27f2-313c-4327-aeed-c47852a831ec
 description: "Imports your Skype for Business Server 2015 topology, policies, and configuration settings to either the Central Management store or to the local computer. This cmdlet was introduced in Lync Server 2010."

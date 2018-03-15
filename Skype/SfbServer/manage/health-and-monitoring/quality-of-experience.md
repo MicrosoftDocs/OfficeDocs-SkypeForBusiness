@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: "Summary: Manage Quality of Experience (QoE) in Skype for Business Server 2015."

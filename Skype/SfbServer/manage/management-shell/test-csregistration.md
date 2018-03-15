@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e38cb36-c97a-43f2-97fe-64759f663be2
 description: "Tests the ability of a user to log on to Skype for Business Server 2015. The Test-CsRegistration cmdlet is asynthetic transaction: a simulation of common Skype for Business Server 2015 activities used for health and performance monitoring. This cmdlet was introduced in Lync Server 2010."

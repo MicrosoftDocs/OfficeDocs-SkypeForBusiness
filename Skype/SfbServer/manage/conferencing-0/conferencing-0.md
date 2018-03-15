@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: "Summary: Learn how to manage conferencing in Skype for Business Server 2015."

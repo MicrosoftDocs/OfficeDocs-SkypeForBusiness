@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/2/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e91c1800-35f6-40ef-840d-7a518bddcae6
 description: "Installs one or more Skype for Business Server 2015 databases. This cmdlet was introduced in Lync Server 2010."

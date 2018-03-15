@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: "Read this topic to learn about management tools for Skype Room System."

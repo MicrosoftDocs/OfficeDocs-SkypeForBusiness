@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10ebf4a-1af5-48cf-96dc-4f5d56281848
 description: "Returns information about the privacy configuration settings currently in use in your organization. Privacy configuration settings help determine how much information users make available to other users. This cmdlet was introduced in Lync Server 2010."

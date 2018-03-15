@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3108b59-1ab2-4288-a470-57d741e7e569
 description: "Modifies the property values of an existing collection of Access Edge configuration settings for computers running the Access Edge service. The Access Edge service running on these computers (also known as Edge servers) provides a way for users outside your internal network to communicate with users inside that internal network. This cmdlet was introduced in Lync Server 2010."

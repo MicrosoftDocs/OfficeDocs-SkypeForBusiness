@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: "Read this topic to find sample scripts for provisioning Skype Room System accounts."

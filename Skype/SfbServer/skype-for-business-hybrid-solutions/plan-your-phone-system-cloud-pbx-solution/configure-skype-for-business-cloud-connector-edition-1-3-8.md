@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3faaeea-2f25-4fbf-8ac3-387b013c830a
 description: "How to plan, deploy and configure a dedicated on premises server with Skype for Business Cloud Connector Edition 1.3.8 software to enable on premise voice connections to work with users homed in the Skype for Business Online service in Office 365."

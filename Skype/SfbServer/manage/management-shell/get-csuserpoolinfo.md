@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7be81a85-c536-4d5c-b866-af7380e45c0f
 description: "Returns information about the Registrar pool, backup Registrar pool, and User Services pool that a user has been assigned to. This cmdlet was introduced in Lync Server 2010."

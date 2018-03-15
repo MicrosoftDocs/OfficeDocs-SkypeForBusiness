@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: "Summary: Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015."

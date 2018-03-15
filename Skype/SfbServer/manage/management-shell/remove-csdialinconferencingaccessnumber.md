@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6d5a6f4-5ad1-4253-b1c4-27f81851046f
 description: "Removes an existing dial-in conferencing access number. Dial-in conferencing provides a way for users to use aregulartelephone or mobile phone (that is, a device on the public switched telephone network (PSTN)) to join the audio portion of a conference. This cmdlet was introduced in Lync Server 2010."

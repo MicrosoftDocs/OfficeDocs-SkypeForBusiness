@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/30/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: "Summary: Learn about the steps to manage your topology in Skype for Business Server 2015."

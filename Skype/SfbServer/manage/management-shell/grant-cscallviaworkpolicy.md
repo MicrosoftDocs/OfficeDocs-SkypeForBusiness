@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef9db27-23ac-469f-917a-789be09c0fc3
 description: "Use the Grant-CsCallViaWorkPolicy cmdlet to assign call via work policies to a user or group of users. Call via work policies enable and manage the characteristics of outbound calls placed through the Skype for Business client."

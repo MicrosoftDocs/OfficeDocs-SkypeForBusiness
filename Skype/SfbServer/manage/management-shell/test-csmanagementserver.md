@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdeec5b0-3e7e-4098-acd8-9ec5849f4871
 description: "Verifies that the Central Management service is working correctly. The Central Management service is responsible for replicating data between the Central Management store and computers running Skype for Business Server."

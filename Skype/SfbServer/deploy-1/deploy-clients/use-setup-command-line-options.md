@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: "Summary: Learn about Setup.exe command line operations in Office setup."

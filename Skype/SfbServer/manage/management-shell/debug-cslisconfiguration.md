@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8cc718d6-52ec-4ff3-a77e-8d6df1725fb0
 description: "Displays the Enhanced 9-1-1 (E9-1-1) Location Information service (LIS) configuration in XML format. This cmdlet was introduced in Lync Server 2010."

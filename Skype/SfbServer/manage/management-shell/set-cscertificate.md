@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da0be05-b257-4258-9d6d-7ddf283f1038
 description: "Enables you to assign a certificate to a Skype for Business Server 2015 server or server role. This cmdlet was introduced in Lync Server 2010."

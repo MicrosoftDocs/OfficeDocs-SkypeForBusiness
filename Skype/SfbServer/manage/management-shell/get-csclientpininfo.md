@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45feaa2c-f284-4374-a8a6-d3ff3c87d660
 description: "Retrieves information about the personal identification number (PIN) assigned to a user. This cmdlet was introduced in Lync Server 2010."

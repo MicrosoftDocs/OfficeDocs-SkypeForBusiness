@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 541de778-3aca-4d3f-9d46-d9b6d8212987
 description: "Returns the eligible principals for a Persistent Chat category or chat room. Eligible principals include allowed members or managers (for a category of chat room) as well as allowed presenters (chat room only). This cmdlet was introduced in Lync Server 2013."

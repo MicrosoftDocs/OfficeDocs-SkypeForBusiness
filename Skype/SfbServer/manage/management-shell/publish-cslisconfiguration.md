@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54f9d653-075d-4533-b508-231f53b54db4
 description: "Publishes the Location Information Server (LIS) configuration to the Central Management store. This cmdlet was introduced in Lync Server 2010."

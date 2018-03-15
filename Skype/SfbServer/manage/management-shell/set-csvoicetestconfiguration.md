@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b95fc95-ec0e-4bb3-aed1-e8b72e305999
 description: "Modifies a test scenario you can use to test phone numbers against specified routes and rules. This cmdlet was introduced in Lync Server 2010."

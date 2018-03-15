@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0e2377c-6aab-45d8-b71d-0d37c6f6dae3
 description: "Returns information about the management connection to the Central Management store. This cmdlet was introduced in Lync Server 2010."

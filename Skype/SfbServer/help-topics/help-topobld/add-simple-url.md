@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddSimpleUrlPage
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: "To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL. The format of the URL is http://\<simple URL type\>.\<domain name\> or http://\<domain name\>/\<simple URL type\>, where the simple URL type is one of the following:"

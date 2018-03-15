@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d587c69c-9cf7-4cd8-81d4-26869524654b
 description: "Assigns a new personal identification number (PIN) to the specified user. This cmdlet was introduced in Lync Server 2010."

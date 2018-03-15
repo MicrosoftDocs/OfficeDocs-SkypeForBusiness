@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectCreators
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: "Creating and managing Persistent Chat rooms is much easier with the correct use of categories. A Persistent Chat administrator can define AllowedMembers and Creators for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category. Persistent Chat administrators create and manage categories by using Skype for Business Server Control Panel or Windows PowerShell cmdlets."

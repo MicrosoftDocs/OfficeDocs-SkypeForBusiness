@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f90d8b4d-6d3b-49c1-9390-c0e57eff219a
 description: "Use the Set-CsVideoTrunkConfiguration to modify one or more Video Trunk configurations containing settings applicable to a video SIP trunk between the Video Interoperability Server (VIS) and a Video Gateway."

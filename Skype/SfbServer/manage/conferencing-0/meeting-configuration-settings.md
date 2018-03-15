@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: "Summary: Learn how to manage meeting configuration settings in Skype for Business Server 2015."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: "Summary: learn how to apply upgrades or patches to Front End Servers in Skype for Business Server."

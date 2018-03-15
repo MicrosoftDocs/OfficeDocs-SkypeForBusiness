@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 633a593e-565d-4c04-affb-589502050212
 description: "Creates a new collection of settings used to manage UC phone configuration settings. These settings enable you to configure such things as the required security mode, and to specify whether or not the phone should automatically be locked after a specified period of inactivity. This cmdlet was introduced in Lync Server 2010."

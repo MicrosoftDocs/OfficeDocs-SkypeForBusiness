@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: "Summary: Read this topic to learn how to deploy conferencing in Skype for Business Server 2015."

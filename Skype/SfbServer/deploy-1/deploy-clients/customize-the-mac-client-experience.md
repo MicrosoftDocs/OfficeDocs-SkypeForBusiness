@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: "This article describes the client preferences and defaults available for the Skype for Business on Mac client, and how to edit them from outside the App."

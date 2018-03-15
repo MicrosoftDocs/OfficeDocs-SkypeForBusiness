@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: "The UriTypes Table contains the different URI (Uniform resource identifier) types monitored in Skype for Business Server 2015."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 72cdb754-76cb-4738-bae2-245d1619ef30
 description: "Use the Get-CsVideoInteropServerConfiguration cmdlet to return information about Video Interop Server (VIS) configuration settings. VIS configuration settings are scoped to appropriate VIS instances, and will govern the behavior of those instances. The Video Interop Server (VIS) enables you to incorporate 3rd party video teleconferencing systems (VTCs) into your Skype for Business infrastructure. VIS is a Skype for Business service that runs on a standalone pool and cannot be co-located on an FE pool."

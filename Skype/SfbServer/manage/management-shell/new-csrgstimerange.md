@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8abc3cc-2b13-479d-83d6-2f542fa12e45
 description: "Creates a new Response Group time range. Time ranges are used by the Response Group application to specify opening and closing times for a business day. For example, if your help desk agents are available only from 12:00 P.M. to 5:00 P.M. on Sundays, then you would create a time range for Sunday that had an opening time of 12:00 P.M. and a closing time of 5:00 P.M. This cmdlet was introduced in Lync Server 2010."

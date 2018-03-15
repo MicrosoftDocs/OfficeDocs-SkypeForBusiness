@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b96690-d8c2-47f7-bff3-706dbf68d75a
 description: "Removes a trusted application endpoint. This cmdlet was introduced in Lync Server 2010."

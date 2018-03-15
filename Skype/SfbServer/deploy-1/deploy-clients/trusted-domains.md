@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: "Read this topic to learn how to configure trusted domains for Skype Room System and Skype for Business."

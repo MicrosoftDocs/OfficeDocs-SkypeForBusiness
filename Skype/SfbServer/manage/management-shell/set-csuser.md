@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6c452df7-75c9-4d94-86bc-4990d718ffe9
 description: "Modifies Skype for Business Server 2015 properties for an existing user account. Properties can be modified only for accounts that have been enabled for use with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

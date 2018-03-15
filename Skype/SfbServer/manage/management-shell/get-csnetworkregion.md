@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c9eef10-16c1-45f7-ae7b-2bee0965b421
 description: "Retrieves one or more network regions. Network regions represent network hubs or backbones in an enterprise network. This cmdlet was introduced in Lync Server 2010."

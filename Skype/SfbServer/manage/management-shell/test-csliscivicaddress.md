@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4079e767-3339-40c9-b7cd-08ec6c9d2c25
 description: "Tests one or more civic addresses against the Master Street Address Guide. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd08ac1c-cfcd-4cf8-b082-7d2e83a2837e
 description: "Deletes the specified Skype for Business Server 2015 database. This cmdlet was introduced in Lync Server 2010."

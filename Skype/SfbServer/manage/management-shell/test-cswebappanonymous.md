@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acfb28c1-8db6-4d2b-95ad-5c824660ea71
 description: "Verifies that anonymous users can use the Skype for Business Web App to join a Skype for Business Server 2015 conference. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92f56039-f112-45bb-8340-109b0837f828
 description: "Returns information about the analog devices you can manage by using Skype for Business Server 2015. An analog device is a telephone or other device that is connected to the public switched telephone network. This cmdlet was introduced in Lync Server 2010."

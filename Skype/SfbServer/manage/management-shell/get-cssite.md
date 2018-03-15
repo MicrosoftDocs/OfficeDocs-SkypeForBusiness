@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e5fd5b8-17aa-433d-9915-3b88281fa2c2
 description: "Returns information about the sites created as part of your Skype for Business Server 2015 infrastructure. Sites represent a collection of Skype for Business Server 2015 pools and are typically designed around geographic regions. Skype for Business Server 2015 includes two types of sites: data center sites and remote sites (branch sites). This cmdlet was introduced in Lync Server 2010."

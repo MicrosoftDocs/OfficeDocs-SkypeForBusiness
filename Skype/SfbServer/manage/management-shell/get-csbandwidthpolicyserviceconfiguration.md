@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9cb9cf59-c47e-40f6-9f9e-235b83329a69
 description: "Retrieves one or more bandwidth policy service configurations. This cmdlet was introduced in Lync Server 2010."

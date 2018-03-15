@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d8f5dfd9-0ab6-4703-9d50-2fa50b3fd58b
 description: "Publishes the Skype for Business Server 2015 topology retrieved by using the Get-CsTopology cmdlet. This cmdlet was introduced in Lync Server 2010."

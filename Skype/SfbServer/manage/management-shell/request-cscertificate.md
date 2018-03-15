@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8ba6f-6023-4c03-a594-5b40784fd16a
 description: "Provides a way to request certificates for use with servers running Skype for Business Server 2015 and server roles. Also provides a way to check the status of existing certificate requests and, if needed, to cancel any (or all) of those requests. This cmdlet was introduced in Lync Server 2010."

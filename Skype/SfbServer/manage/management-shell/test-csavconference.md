@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1492563-9a97-44ac-b19a-8d5972cdd062
 description: "Tests the ability of a pair of users to take part in an audio/video (A/V) conference. This cmdlet was introduced in Lync Server 2010."

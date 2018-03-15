@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7cf19ba-6c56-4f74-9757-843e1ca0c9a1
 description: "Modifies the management connection to the Central Management store. This cmdlet was introduced in Lync Server 2010."

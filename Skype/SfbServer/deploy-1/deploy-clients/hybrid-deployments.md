@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: "Read this topic to learn how to deploy Skype Room System in a hybrid environment."

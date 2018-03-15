@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid

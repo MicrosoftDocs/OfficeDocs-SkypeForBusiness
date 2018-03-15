@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d634abc2-988a-48f9-ad11-903759516082
 description: "Removes the specified collection of Address Book configuration settings. This cmdlet was introduced in Lync Server 2010."

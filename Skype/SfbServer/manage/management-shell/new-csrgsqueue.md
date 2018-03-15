@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e013533b-6845-44c6-ae5e-e75187b43181
 description: "Creates a new Response Group queue. With the Response Group application, phone calls are put in a queue and callers are placed on hold until a Response Group agent is available to answer that call. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8398c9ea-eaab-4a4d-9e09-473ea2b27e22
 description: "Tests the ability of a user to access the server that hosts the Address Book Download Web service. This cmdlet was introduced in Lync Server 2010."

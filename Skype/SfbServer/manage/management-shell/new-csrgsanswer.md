@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aba521db-1741-4da3-aaf0-2d78fda4c4d2
 description: "Creates a new Response Group answer. Response Group answers are used to associate a caller response with the appropriate action. This cmdlet was introduced in Lync Server 2010."

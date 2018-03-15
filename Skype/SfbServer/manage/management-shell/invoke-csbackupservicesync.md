@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3de25c2-a1ef-4781-8b33-74f5dc1e6f8d
 description: "Manually invokes backup synchronization between a Skype for Business Server 2015 pool and its designated backup pool. This allows administrators to synchronize data without waiting for Skype for Business Server 2015 replication. This cmdlet was introduced in Lync Server 2013."

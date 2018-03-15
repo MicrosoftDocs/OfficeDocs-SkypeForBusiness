@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: daa28340-9606-4854-9162-8e233d185c7d
 description: "Use the Remove-CsImConfiguration cmdlet to remove an Instant Messaging (IM) configuration."

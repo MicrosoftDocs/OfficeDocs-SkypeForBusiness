@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7adc8a7-616a-41b1-8f4b-5f8778e46f55
 description: "Returns information about the device update configuration settings currently deployed in your organization. These settings help manage the Device Update Web service, a Skype for Business Server 2015 component that enables administrators to distribute firmware updates to telephones and other devices running Skype for Business. This cmdlet was introduced in Lync Server 2010."

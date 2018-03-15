@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e92d262-604d-41b1-9530-947765025a79
 description: "Verifies whether the contacts for a user (or group of users) are stored in the unified contacts store."

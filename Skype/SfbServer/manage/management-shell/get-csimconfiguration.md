@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8f01c91-94aa-4ec2-8861-1a7824c33c8c
 description: "Use the Get-CsImConfiguration cmdlet to retrieve information about Instant Messaging (IM) configurations."

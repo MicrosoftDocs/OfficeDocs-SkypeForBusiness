@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: "Summary: Learn about the Conference Detail Report used in Skype for Business Server 2015."

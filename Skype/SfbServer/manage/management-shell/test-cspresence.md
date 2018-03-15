@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09a5faf6-4e80-4a3b-ac84-aec9778ee9b5
 description: "Tests the ability of a user to log on to Skype for Business Server 2015, publish his or her presence information, and then subscribe to the presence information published by a second user. This cmdlet was introduced in Lync Server 2010."

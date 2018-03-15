@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 442bbb32-7ad1-40c4-bf17-42ecde0a7286
 description: "Verifies the configuration of the Kerberos account assigned to a site. This cmdlet was introduced in Lync Server 2010."

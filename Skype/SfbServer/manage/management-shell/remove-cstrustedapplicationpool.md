@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93aa3381-e3fc-45df-840e-3d6d61a52fb3
 description: "Removes a pool that contains the computers that host trusted applications. This cmdlet was introduced in Lync Server 2010."

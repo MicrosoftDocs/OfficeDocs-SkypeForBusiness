@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae69358f-1618-4a08-9ec2-225ded3f301f
 description: "Assigns a hosted voice mail policy at the per-user scope. (The per-user scope enables you to assign policies to individual users or groups.) This cmdlet was introduced in Lync Server 2010."

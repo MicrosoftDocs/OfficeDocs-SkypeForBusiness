@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4b36fc8-17a7-490d-a147-6d77abab0f92
 description: "Migrates one or more user accounts from Microsoft Office Communications Server 2007 R2 to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

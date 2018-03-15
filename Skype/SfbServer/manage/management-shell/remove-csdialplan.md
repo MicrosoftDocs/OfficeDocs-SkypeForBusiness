@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99845b82-1730-494a-8f47-2dec5ef177c1
 description: "Removes the specified dial plan. This cmdlet can also be used to remove the global dial plan. If you remove the global dial plan, however, the dial plan will not actually be removed; instead, the settings will simply be reset to their default values. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d81ee8fe-d02b-4f60-a4d5-6aa84f65d156
 description: "Returns information about the Call Park service. Call parking is a service that allows a user toparkan incoming phone call. Parking a call transfers it to a number in a specified range, or orbit, and then immediately places the call on hold. Anyone (not just the person who originally answered the call) can resume the conversation from any telephone in the system by entering the correct number. This cmdlet was introduced in Lync Server 2010."

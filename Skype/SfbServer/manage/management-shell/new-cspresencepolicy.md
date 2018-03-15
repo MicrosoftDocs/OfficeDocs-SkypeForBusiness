@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0b54f25-db48-4797-8f0e-0e826830217c
 description: "Creates a new presence policy at either the site scope or the per-user scope. This cmdlet was introduced in Lync Server 2010."

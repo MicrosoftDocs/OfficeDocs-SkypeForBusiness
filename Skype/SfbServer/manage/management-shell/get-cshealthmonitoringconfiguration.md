@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 843876f1-8aa6-4324-a981-8eded4d3b16d
 description: "Returns information about the health monitoring configuration settings currently in use in your organization. These settings enable administrators to run quality assurance tests without having to supply user names and passwords for the required test accounts. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7164960f-8e88-4c8d-9a12-1814aa2b9047
 description: "Modifies an existing collection of User Replicator configuration settings. The User Replicator periodically retrieves up-to-date user account information from Active Directory Domain Services and then synchronizes the new information with the current user data stored by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

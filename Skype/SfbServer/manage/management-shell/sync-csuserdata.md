@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c385041f-f3f7-4db0-9ca7-b5f20a5d81d5
 description: "Synchronizes user data between a pair of Skype for Business Server 2015 pools. This cmdlet was introduced in Lync Server 2013."

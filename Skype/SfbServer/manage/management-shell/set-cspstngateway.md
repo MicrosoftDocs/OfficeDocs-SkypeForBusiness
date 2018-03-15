@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d61e7e5-dacb-4dd3-bdd5-b757d98181d3
 description: "Modifies the properties of a public switched telephone network (PSTN) gateway. PSTN gateways help route calls between devices on the external PSTN network and devices on your internal Enterprise Voice network. This cmdlet was introduced in Lync Server 2010."

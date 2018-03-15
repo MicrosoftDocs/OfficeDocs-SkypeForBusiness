@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6d6660-7e41-4c56-9e04-27c3d1ea3b95
 description: "Enables you to configure new locations for the Monitoring Server database and reporting pack. This cmdlet was introduced in Lync Server 2010."

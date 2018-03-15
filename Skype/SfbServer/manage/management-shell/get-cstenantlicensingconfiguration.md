@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0df23143-f1aa-4850-b0f7-750422762925
 description: "Indicates whether licensing information for the specified tenant is available in the Skype for Business admin center."

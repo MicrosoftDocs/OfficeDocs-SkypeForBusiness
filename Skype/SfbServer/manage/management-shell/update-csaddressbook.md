@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 109c5fe7-0154-4161-b19f-01bab024bb3d
 description: "Forces the specified Address Book servers to synchronize their contents with the User database. This cmdlet was introduced in Lync Server 2010."

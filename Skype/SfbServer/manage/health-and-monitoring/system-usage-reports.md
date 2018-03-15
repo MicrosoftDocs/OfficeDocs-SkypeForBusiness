@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: "Summary: Learn about the System Usage Reports in Skype for Business Server 2015."

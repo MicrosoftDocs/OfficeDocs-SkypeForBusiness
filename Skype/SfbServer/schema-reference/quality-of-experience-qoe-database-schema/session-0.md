@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: "The Session View stores information about sessions that have records in the database. This view was introduced in Microsoft Lync Server 2013."

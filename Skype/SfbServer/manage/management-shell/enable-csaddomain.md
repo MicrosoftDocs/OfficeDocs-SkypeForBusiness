@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a39768de-51ae-45e8-b6b7-441b5da0b3b2
 description: "Modifies the security settings on the universal groups created during forest preparation. These modifications provide the permissions needed to host and manage users enabled for Skype for Business Server 2015 within the domain. This cmdlet was introduced in Lync Server 2010."

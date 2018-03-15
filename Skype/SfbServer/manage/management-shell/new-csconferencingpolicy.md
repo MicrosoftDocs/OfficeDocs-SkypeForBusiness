@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/4/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f343bfcc-f296-4935-aa4c-94658dacace7
 

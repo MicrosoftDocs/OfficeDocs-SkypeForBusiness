@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0a94971-372a-401a-8ae0-9ff649a9c301
 description: "Creates a new certificate ID object based on an existing certification authority (CA) certificate. This cmdlet was introduced in Lync Server 2010."

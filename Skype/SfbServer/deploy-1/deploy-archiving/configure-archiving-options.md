@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: "Summary: Read this topic to learn how to configure initial archiving options for Skype for Business Server 2015. You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment."

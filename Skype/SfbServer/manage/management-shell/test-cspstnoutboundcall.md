@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12d940c3-8526-4c8f-8dc1-3fe65a3211bc
 description: "Tests the ability of a user to make a call to a phone number located on the public switched telephone network (PSTN). This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cf920168-3f65-4747-86cd-d3e287c84349
 description: "Removes an existing bandwidth policy service configuration. This cmdlet was introduced in Lync Server 2010."

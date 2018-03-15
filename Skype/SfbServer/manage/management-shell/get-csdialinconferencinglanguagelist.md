@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39355144-c8de-4ad3-9568-6426d3b97ccb
 description: "Returns a list of languages, including regional/minority languages, supported for use with Skype for Business Server 2015 dial-in conferences. These languages are used to relay audio messages and instructions to users participating in a conference by using a telephone. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d82e0494-4868-4d13-ac03-e5a5d0f2380e
 description: "Approves a device update rule that has been imported to the system. After a device update rule has been approved, the corresponding update will automatically be downloaded and installed by client devices affected by the update. This cmdlet was introduced in Lync Server 2010."

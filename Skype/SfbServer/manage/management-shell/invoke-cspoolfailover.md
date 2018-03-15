@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5c30438-0553-41f4-b856-68c1ec0deff7
 description: "Invokes the failover process for a Skype for Business Server 2015 pool. Failover refers to the process that occurs when a pool fails and the current users of that pool are then signed on to a backup pool. This cmdlet was introduced in Lync Server 2013."

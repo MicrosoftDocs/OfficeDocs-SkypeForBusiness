@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98a4982c-7d8d-460d-bff9-243373b20290
 description: "Undoes the domain preparation tasks carried out by the Enable-CsAdDomain cmdlet. This cmdlet is typically used only if you are uninstalling Skype for Business Server 2015 from a domain. This cmdlet was introduced in Lync Server 2010."

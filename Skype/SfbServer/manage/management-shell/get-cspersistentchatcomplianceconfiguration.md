@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01fe3824-32fb-4d75-b80a-8a7dcc109911
 description: "Returns information about the Persistent Chat compliance configuration settings currently in use in the organization. Persistent Chat compliance enables administrators to maintain an archive of Persistent Chat items and activities including: new messages; new events (for example, a user entering or existing a chat room); file uploads and downloads; and any searches run against the chat history. This cmdlet was introduced in Lync Server 2013."

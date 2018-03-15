@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: concetpual
 f1_keywords:
 - ms.lync.plan.HighAvailabilityType
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a

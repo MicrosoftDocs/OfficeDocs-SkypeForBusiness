@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7491b91f-d342-4f9a-878b-d20b35294a9c
 description: "The Start-CsWindowsService cmdlet enables you to start a Skype for Business Server 2015 service. This cmdlet was introduced in Lync Server 2010."

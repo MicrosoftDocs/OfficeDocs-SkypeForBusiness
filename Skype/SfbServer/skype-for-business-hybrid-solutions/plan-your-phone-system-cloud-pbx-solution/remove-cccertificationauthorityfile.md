@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: "The Remove-CcCertificationAuthorityFile cmdlet removes the certification authority service backup file\<SiteRootDirectory\>\CA\SfB CCE Root.p12in the CA folder under the site share directory for Skype for Business Cloud Connector Edition."

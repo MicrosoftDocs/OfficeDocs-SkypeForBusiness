@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74b3f941-df06-4fde-9487-eba081233723
 description: "Enables you to modify configuration properties of one or more servers running the Application service. These servers (also known as Application Servers) host software programs, such as the Call Park application, that were developed using the Microsoft Unified Communications Managed API (UCMA) set. This cmdlet was introduced in Lync Server 2010."

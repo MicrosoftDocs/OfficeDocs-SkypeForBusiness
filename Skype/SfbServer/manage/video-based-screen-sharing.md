@@ -5,7 +5,7 @@ author: microsoftheidi
 ms.date: 2/20/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: "Skype for Business Server 2015 planning and configuration information for Video-based Screen Sharing (VbSS), which is now available for download: Skype for Business Server 2015 Cumulative Update KB3061064."

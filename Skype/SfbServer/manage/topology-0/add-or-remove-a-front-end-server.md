@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 7/12/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: "Summary: Learn how to add or remove Front End Servers in Skype for Business Server."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68587257-d666-429a-bf2d-f8a2b46f1f09
 description: "Specifies the transmission protocol to be used in a static route. Skype for Business Server 2015 enables you to choose either Transmission Control Protocol (TCP) or Transport Layer Security (TLS) as the transmission protocol for a route. This cmdlet was introduced in Lync Server 2010."

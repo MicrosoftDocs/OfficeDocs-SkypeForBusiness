@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f820f892-c247-447c-947a-00414189842e
 description: "Assigns an Enhanced 9-1-1 (E9-1-1) location policy to individual users or groups. The E9-1-1 service enables those who answer 911 calls to determine the caller's geographic location. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b3d5d203-2aa7-4a54-93d4-30bcda391d68
 description: "Modifies a link between two network regions configured for call admission control (CAC). This cmdlet was introduced in Lync Server 2010."

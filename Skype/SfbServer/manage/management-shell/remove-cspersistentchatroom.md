@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04cadd5d-13dc-4de5-b0b5-8c2f9bbbc7a7
 description: "Removes one or more Persistent Chat chat rooms. A chat room is a discussion forum that typically revolves around a specific topic. This cmdlet was introduced in Lync Server 2013."

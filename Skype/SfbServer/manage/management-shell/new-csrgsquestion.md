@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ed9f3b4-cbc5-41ca-8547-2300b579b119
 description: "Creates a new Response Group question. The Response Group application uses questions to provide callers with choices, and then takes action based on those choices. This cmdlet was introduced in Lync Server 2010."

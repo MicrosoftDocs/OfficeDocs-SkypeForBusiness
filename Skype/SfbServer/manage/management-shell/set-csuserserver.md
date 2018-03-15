@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4dd845a-5c78-4455-93eb-722b603ff154
 description: "Enables you to modify an existing User Services pool. Among other things, the User Services pool provides presence information and helps to manage conferences. This cmdlet was introduced in Lync Server 2010."

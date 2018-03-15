@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d441b74-324b-4dab-8bd6-7d0a7eb18d28
 description: "Removes a trusted application from the associated trusted service. This cmdlet was introduced in Lync Server 2010."

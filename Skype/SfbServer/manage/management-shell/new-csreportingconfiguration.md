@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f033456-5c1c-4313-ab17-37038a412189
 description: "Creates a new collection of reporting configuration settings at the service scope. Reporting configuration settings are used to specify the URL used to access Skype for Business Server 2015 Monitoring Reports. This cmdlet was introduced in Lync Server 2013."

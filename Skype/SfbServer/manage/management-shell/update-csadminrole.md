@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42cc9cc2-c408-4d0c-814a-6c6367cba834
 description: "Updates the role-based access control (RBAC) definitions stored in the Central Management database without affecting any other database tables. This cmdlet was introduced in Lync Server 2013."

@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: "Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing."

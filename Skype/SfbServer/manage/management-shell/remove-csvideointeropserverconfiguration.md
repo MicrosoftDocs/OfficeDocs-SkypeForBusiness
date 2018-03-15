@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62a93c97-f8bc-4420-a611-7f6c1e1d7200
 description: "Use the Remove-CsVideoInteropServerConfiguration cmdlet to remove an existing collection of Video Interop Server (VIS) configuration settings. Video Interop Server configuration settings are scoped to appropriate Video Interop Server (VIS) instances, and will govern the behavior of those instances."

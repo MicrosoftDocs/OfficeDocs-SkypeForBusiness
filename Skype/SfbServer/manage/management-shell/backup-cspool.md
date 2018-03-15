@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66ec46de-e1e7-4e33-961d-7ef785059c48
 description: "Creates a backup copy of the specified Skype for Business Server 2015 pool. This cmdlet was introduced in Lync Server 2013."

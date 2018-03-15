@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: "You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement."

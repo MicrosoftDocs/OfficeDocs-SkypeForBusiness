@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbd7ef6-a60f-4350-8831-73818e10863b
 description: "Verifies whether or not a user can employ the Skype for Business Web scheduler to schedule an online meeting. This cmdlet was introduced in Lync Server 2013."

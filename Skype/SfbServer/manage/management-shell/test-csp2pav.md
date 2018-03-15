@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acb01fb7-4685-4f38-a724-8c2ae8e0219a
 description: "Tests the ability of a pair of users to conduct a peer-to-peer audio/video (A/V) call. This cmdlet was introduced in Lync Server 2010."

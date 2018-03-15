@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 653bc148-c22b-4ad4-afdd-17aaeaa299d2
 description: "Used to specify a domain that will be added or removed from the set of domains enabled for federation or the set of domains disabled for federation. You must use the New-CsEdgeDomainPattern cmdlet when modifying the allowed or blocked domain lists. String values (such asfabrikam.com) cannot be directly passed to the cmdlets used to manage either of these lists."

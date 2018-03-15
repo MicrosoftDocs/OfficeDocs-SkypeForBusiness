@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSCredentials
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: "To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:"

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bcead113-fbd2-4fcf-ae01-6a312511ceef
 description: "Moves the Central Management Server from one pool to another. This cmdlet was introduced in Lync Server 2010."

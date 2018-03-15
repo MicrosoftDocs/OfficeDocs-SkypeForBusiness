@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13968bbe-1403-46de-b02a-ed61e712d1b3
 description: "Removes a hosted voice mail policy. This cmdlet was introduced in Lync Server 2010."

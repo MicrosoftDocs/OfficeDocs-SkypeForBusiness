@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d1050fb-5df9-4186-94b9-8ef8a9103958
 description: "Creates a new file transfer filter configuration. File transfer filter configurations are used to block a user's ability to transfer certain types of files (for example, files with a .vbs or .ps1 file extension) using a Skype for Business Server 2015 client. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21a6d546-9e03-485c-b7ec-9deb778f2b01
 description: "Enables administrators to specify the domains that their users will be allowed to communicate with. The New-CsEdgeAllowList cmdlet, which can be used only with Microsoft Lync Online, must be used in conjunction with the New-CsEdgeDomainPattern cmdlet and the Set-CsTenantFederationConfiguration cmdlet."

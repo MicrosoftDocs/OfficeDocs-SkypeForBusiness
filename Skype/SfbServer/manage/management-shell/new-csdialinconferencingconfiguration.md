@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ac0b6e22-3883-4884-aa94-18f4029c7f1e
 description: "Creates a new collection of dial-in conferencing configuration settings. These settings determine how Skype for Business Server 2015 responds when users join or leave a dial-in conference. In particular, information is returned regarding whether or not participants are required to record their name when joining a conference, and how (or if) the system announces that someone has joined or left the call. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f77df510-ea43-4352-84c1-13f69eda252e
 description: "Returns information about the dial plans used in your organization. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2eddada-a494-4bc6-b7d0-9b511dfc4ac1
 description: "Provides a command-line option for searching the centralized logging service log files. This cmdlet was introduced in Lync Server 2013."

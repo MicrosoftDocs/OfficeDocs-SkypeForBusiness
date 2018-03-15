@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: "The UserAgentDef table maps user agent identifiers to the agent's descriptive names. User agents are software clients used to connect to Skype for Business Server 2015. This table was introduced in Microsoft Lync Server 2013."

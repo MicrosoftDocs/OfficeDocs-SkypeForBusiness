@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f9416909-c328-41b3-9215-7ebd091b0ca0
 description: "Enables Microsoft Lync Online federation with all domains except for those domains included on the blocked domains list."

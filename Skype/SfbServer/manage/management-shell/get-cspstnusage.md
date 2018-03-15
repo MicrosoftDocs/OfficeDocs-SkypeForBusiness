@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9dc82b88-303b-4678-8298-0dbc769f6781
 description: "Returns information about public switched telephone network (PSTN) usage records used in your organization. This cmdlet was introduced in Lync Server 2010."

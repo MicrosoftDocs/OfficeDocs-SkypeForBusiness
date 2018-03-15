@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9aed3ede-bbd3-405a-997f-f7553e66aecd
 description: "Updates the meeting URL for the specified Lync Online tenant. The updated URL uses a simpler, more standardized format that makes it easier for clients to locate and connect to meetings."

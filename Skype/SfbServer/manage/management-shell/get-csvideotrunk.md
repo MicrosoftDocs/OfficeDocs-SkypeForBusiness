@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbc9cdd6-28bb-430d-af9c-2bfa44ced167
 description: "Use the Get-CsVideoTrunk to list properties about the video trunks in your organization. Video trunks are Session Initiation Protocol (SIP) trunks between the Video Interop Server and a Video Gateway that are used to setup video calls between 3rd party video teleconferencing systems (VTCs) connected to the Video Gateway and Skype conferences or Skype endpoints."

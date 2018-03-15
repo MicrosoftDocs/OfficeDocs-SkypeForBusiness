@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e975d048-4911-4ae6-9446-2a6363726a4a
 description: "Adds new options to Skype for Business Server 2015 client policies. This cmdlet was introduced in Lync Server 2010."

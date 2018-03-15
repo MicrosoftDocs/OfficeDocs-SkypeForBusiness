@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: "Summary: Learn how to associate Front End pools with a monitoring store used by Skype for Business Server 2015."

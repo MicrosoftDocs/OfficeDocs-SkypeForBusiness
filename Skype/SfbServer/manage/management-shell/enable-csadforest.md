@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2381fca7-294b-486d-919d-e8626cef6fea
 description: "Makes the Active Directory modifications required before you can install Skype for Business Server 2015. This includes making global changes to the Configuration or System containers; creating universal groups; and creating property sets and display specifiers that are specific to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

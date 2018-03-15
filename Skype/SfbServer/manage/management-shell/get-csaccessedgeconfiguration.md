@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75a8a7e9-728f-4abd-87e9-593713ae39ee
 description: "Returns information about the configuration settings for computers running the Access Edge service in your organization (also known as Access Edge servers). Access Edge servers provide a way for users outside your internal network to communicate with users inside your internal network. This cmdlet was introduced in Lync Server 2010."

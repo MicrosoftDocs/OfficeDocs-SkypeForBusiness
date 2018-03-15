@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6cf483ed-7a53-47b0-b87a-6ef70493ba32
 description: "Removes one or more of the simple URL configuration collections currently in use in your organization. Simple URLs make it easier for users to join meetings and conferences, as well as making it easier for Administrators to log on to the Skype for Business Server Control Panel. This cmdlet was introduced in Lync Server 2010."

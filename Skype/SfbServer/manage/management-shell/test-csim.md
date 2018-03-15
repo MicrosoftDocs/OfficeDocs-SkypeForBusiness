@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fdab54c-5ec4-4db5-b29c-a3efaae68f66
 description: "Tests the ability of two users to exchange instant messages. This cmdlet was introduced in Lync Server 2010."

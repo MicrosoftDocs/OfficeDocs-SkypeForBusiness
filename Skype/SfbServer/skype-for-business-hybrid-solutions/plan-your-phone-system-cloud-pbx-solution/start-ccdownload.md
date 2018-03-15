@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/8/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: "The Start-CcDownload cmdlet downloads the Skype for Business Cloud Connector Edition bits and msi file synchronously."

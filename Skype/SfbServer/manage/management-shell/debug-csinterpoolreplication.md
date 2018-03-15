@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 945bfd1c-1759-4869-9316-b3260fcc633d
 description: "Verifies that replication is working between a Registrar pool and its assigned backup pool. This cmdlet was introduced in Lync Server 2013."

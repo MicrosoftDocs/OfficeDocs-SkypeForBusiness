@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07f2ef04-49aa-4857-b213-fa98506c0427
 description: "Validates a trunk configuration against a phone number. This cmdlet was introduced in Lync Server 2010."

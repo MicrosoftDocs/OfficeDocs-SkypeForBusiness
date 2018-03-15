@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8a87038-cc71-4fec-8496-574da0aa963f
 description: "Removes a Location Information Server (LIS) subnet. This cmdlet was introduced in Lync Server 2010."

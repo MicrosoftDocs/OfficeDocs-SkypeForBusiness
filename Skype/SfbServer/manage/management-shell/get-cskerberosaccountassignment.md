@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6eaba274-1693-42a7-841d-513bc1153647
 description: "Returns information about the Kerberos account assignments configured for use in the organization. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c69a872-8e78-4c78-ba27-f20f04dce59f
 description: "Sets the Active Directory service control point for the Central Management store. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4165fdb-5828-4e81-b489-7e263b27e36b
 description: "Modifies the properties for any of your Skype for Business Server 2015 sites. Sites represent a collection of Skype for Business Server 2015 pools and are typically designed around geographic regions. Skype for Business Server 2015 includes two types of sites: data center sites and remote sites (branch office). This cmdlet was introduced in Lync Server 2010."

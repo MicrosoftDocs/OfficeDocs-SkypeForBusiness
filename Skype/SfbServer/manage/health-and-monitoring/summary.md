@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 6/29/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: "Summary: Learn about the Media Quality Summary Report in Skype for Business Server 2015."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ac014030-4cd0-4503-b70e-12ab5b0ec34b
 description: "Enables new or newly-updated services or server roles on a computer running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

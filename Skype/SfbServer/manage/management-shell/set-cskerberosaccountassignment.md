@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16a964d2-2515-4a37-9686-3e377de58b14
 description: "Associates a Kerberos account, which is used for IIS Internet Information Services (IIS) authentication, with a site. This cmdlet was introduced in Lync Server 2010."

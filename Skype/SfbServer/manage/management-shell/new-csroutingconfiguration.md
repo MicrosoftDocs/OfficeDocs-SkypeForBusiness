@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ead67e35-b145-4041-ba3e-4b26c47cce1d
 description: "This cmdlet returns an object containing the default settings for a routing configuration object. This cmdlet was introduced in Lync Server 2010."

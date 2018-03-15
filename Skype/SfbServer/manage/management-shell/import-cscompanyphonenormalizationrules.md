@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe4c28d7-b6bf-4678-bfe9-11b9aed2c03d
 description: "Use the Import-CsCompanyPhoneNormalizationRules cmdlet to import custom phone normalization rules defined in Company_Phone_Number_Normalization_Rules.txt used in previous server versions into Skype for Business Server 2015 environments."

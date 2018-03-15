@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b3fae621-ed11-4f65-99f9-a67bf4fdd684
 description: "Use the Invoke-CsComputerFailBack to flag a server as available for load balancing in a Skype for Business Server 2015 pool. To successfully run this cmdlet you need to run it using an account that has administrator privileges on each server in the source and target pools."

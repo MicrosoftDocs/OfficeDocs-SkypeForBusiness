@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0c31acc-179c-4423-910e-8bd7807e6489
 description: "Enables you to modify the properties of one or more Registrars. Registrars are used to authenticate logon requests, and to maintain information about user status and availability. This cmdlet was introduced in Lync Server 2010."

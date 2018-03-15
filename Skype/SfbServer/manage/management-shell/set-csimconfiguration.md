@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02eeff0e-c2d1-4839-951c-44ff8422892c
 description: "Use the Set-CsImConfiguration cmdlet to modify an existing Instant Messaging (IM) configuration."

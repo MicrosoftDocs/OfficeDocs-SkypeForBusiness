@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37a6f55d-0fec-480f-8d96-60c313a48c74
 description: "Creates a new Persistent Chat category. A Persistent Chat category represents a collection of Persistent Chat chat rooms. Each chat room must be associated with a category. Note that you cannot assign chat rooms to a category when you create that category. Instead, existing rooms must later be assigned to a category by using the Set-CsPersistentChatRoom cmdlet. However, new chat rooms can be assigned to the category at the same time the room is created. This cmdlet was introduced in Lync Server 2013."

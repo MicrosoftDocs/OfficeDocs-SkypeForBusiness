@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: "Summary: Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015."

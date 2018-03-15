@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b33d951-510d-445c-9b01-c6431fda6d47
 description: "The Test-CsComputer cmdlet verifies the status of the Skype for Business Server 2015 services running on the local computer. The cmdlet also verifies that the appropriate Skype for Business Server 2015 Active Directory groups have been added to the corresponding local groups on the computer, and that the necessary computer firewall ports have been opened. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2d1f157b-d35d-402b-904d-281c013d2c30
 description: "Modifies an existing presence policy. This cmdlet was introduced in Lync Server 2010."

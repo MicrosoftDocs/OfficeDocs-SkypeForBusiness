@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52f8037-19f3-49c9-8dfc-79b0c27d8b94
 description: "Converts exported user data to the data format used by either Microsoft Lync Server 2010 or Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2013."

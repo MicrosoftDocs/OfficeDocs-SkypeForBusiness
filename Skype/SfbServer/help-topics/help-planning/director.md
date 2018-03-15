@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: "A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts."

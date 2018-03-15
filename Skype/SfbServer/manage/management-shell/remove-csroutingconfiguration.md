@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80239fed-89ef-4ccc-be9b-d9149182d0c3
 description: "Resets the routing configuration to its default settings. This cmdlet was introduced in Lync Server 2010."

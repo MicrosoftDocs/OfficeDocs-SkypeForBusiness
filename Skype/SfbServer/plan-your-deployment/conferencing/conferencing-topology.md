@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: "Summary: Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015."

@@ -9,7 +9,7 @@ ms.topic: article
 f1_keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: "Skype for Business Server 2015 Planning Tool"

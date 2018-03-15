@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/4/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 06f59d62-b4dd-4b50-9cf3-40d6d41d74af
 description: "Modifies an existing collection of Autodiscover Service configuration settings. The Autodiscover Service provides a way for client applications such as Lync Web App or Lync Mobile to locate key resources such as a user's home pool or the URL for joining a dial-in conference. This cmdlet was introduced in the cumulative update for Lync Server 2010: November 2011."

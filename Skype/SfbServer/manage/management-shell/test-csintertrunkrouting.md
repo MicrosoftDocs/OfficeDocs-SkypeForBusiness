@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2248d29a-8a2a-42b1-ab6b-a6c1d74b0455
 description: "Verifies the route and the PSTN usage used when routing a phone call made from a specified SIP trunk. This cmdlet was introduced in Lync Server 2013."

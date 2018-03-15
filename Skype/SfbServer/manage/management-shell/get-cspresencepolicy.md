@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65880bdb-4482-4cfb-83de-19b239784fe5
 description: "Returns information about the presence policies configured for use in your organization. This cmdlet was introduced in Lync Server 2010."

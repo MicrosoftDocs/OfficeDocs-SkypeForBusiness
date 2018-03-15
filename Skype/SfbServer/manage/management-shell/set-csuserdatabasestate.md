@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4d8fe5e-ebc1-443b-943d-fc54649e94fd
 description: "Enables or disables one or more Skype for Business Server 2015 user databases. This cmdlet was introduced in Lync Server 2010."

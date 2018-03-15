@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de65eafe-e306-4ada-8509-9688e81491f9
 description: "Returns information about the audio conferencing providers assigned to a user or group of users. This cmdlet was introduced in Lync Server 2010."

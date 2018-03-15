@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d79f7082-f58b-4cc3-a90d-230111e32850
 description: "Removes an Auto Attendant or Subscriber Access contact object for hosted Exchange Unified Messaging (UM). This cmdlet was introduced in Lync Server 2010."

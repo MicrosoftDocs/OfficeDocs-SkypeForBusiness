@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e58d0b5-4353-4de8-b242-2a4553c3371e
 description: "Invokes the failback process for a Skype for Business Server 2015 pool. Failback is used after a pool has failed over and the users of that pool have beenfailed overto a backup pool. (That simply means users who were signed on to the failed pool are automatically signed on to the backup pool.) When the failed pool has been restored, the fail back process signs the failed-over users back to their original pool. This cmdlet was introduced in Lync Server 2013."

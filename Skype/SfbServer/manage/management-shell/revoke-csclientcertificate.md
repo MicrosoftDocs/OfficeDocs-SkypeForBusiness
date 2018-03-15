@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27d6d4d9-f8ed-4942-b7cf-dd308dafb5bc
 description: "Client certificates provide a way for users to be authenticated when logging on to Skype for Business Server 2015. Certificates are particularly useful for telephones and other devices running Skype for Business where it is difficult to enter a user name and/or password. The Revoke-CsClientCertificate cmdlet provides a way for administrators to revoke client certificates that have been issued to a user. This cmdlet was introduced in Lync Server 2010."

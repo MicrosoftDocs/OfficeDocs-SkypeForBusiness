@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbe140a4-8ce6-4e20-913b-b1ffb58e6698
 description: "Modifies the property values for one or more Edge Servers. Edge Servers are used to provide connectivity between your internal network and the Internet. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0333a4a5-9bd5-4a45-aea8-e7af1a394ec3
 description: "Verifies that authenticated users can use Skype for Business Web App to join a Skype for Business Server 2015 conference. This cmdlet was introduced in Lync Server 2010."

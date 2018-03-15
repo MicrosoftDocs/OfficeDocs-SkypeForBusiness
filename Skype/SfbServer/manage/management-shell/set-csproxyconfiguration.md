@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2eb74d25-05b5-4901-aa92-eeda2f351e25
 description: "Modifies an existing collection of proxy server configuration settings. This cmdlet was introduced in Lync Server 2010."

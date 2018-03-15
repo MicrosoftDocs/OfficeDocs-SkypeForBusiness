@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b7bc986-b655-4adf-87c5-b13b622ce333
 description: "Use the Get-CsPresenceManagementState to return the notification settings of a computer or pool. The management state settings determine the batching and timing of Skype for Business Server 2015 notifications."

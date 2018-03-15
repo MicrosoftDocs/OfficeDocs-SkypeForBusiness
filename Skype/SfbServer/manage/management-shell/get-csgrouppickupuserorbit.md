@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4590555b-d578-4990-8a2f-f030e1c31929
 description: "Use the Get-CsGroupPickupUserOrbit cmdlet to get the group pickup orbit number for an Enterprise Voice user."

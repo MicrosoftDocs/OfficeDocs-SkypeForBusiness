@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/30/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7f78c92-7965-4879-9efa-1b5adcd1881b
 description: "Assigns a new collection of watcher node configuration settings to a pool. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. This cmdlet was introduced in Lync Server 2013."

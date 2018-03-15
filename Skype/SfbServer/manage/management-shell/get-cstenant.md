@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b642117-5ca7-4a5b-bca7-16b0ae694ae2
 description: "Returns information about the Lync Online tenants that have been configured for use in your organization. Tenants represent groups of online users. In many cases, you might need only a single tenant. However, if different groups of users have different management needs, Lync Online provides support for a single organization having multiple tenants."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1964cbf9-d7f1-4b4e-99d1-951ac42d82fe
 description: "Creates a new instant messaging (IM) filter configuration. IM filters are used to prevent users from sending instant messages that contain active hyperlinks. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d8fe3b22-7a76-4d70-9bc1-b54b37f68449
 description: "Verifies that the Skype for Business Server 2015 Storage Service running on a Front End server can subscribe to the Exchange mailbox notification service. This is done by having the cmdlet subscribe to the service, create an item, verify that notification of the new item is received, and then, optionally, delete that item unsubscribe from the service. This cmdlet was introduced in Lync Server 2013."

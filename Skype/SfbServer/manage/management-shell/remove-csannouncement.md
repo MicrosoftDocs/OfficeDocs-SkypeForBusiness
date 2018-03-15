@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3c62d15-1b0a-49d3-973f-abc06c730bb2
 description: "Removes an existing Skype for Business Server 2015 announcement. Announcements are played when users dial a valid but unassigned phone number. An announcement can be a message (such asThis number is temporarily out of service) or a busy signal. This cmdlet was introduced in Lync Server 2010."

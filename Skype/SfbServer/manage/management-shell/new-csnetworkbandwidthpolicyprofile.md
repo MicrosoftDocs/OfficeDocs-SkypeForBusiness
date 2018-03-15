@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84940891-37a6-45fc-972d-05b95aa71ba9
 description: "Creates a new network bandwidth policy profile. This cmdlet can also be used to set the bandwidth policies within the profile. This cmdlet was introduced in Lync Server 2010."

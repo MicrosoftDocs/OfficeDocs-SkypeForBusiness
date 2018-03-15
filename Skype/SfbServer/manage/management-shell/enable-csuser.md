@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ceed97b-e802-4844-b509-c6ca9619ec55
 description: "Enables one or more users for Skype for Business Server 2015. Users cannot use Skype for Business or other Skype for Business Server 2015 clients until their user accounts have been enabled for Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

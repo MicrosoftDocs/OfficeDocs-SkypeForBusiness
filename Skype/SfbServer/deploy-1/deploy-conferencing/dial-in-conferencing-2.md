@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: "Summary: Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015."

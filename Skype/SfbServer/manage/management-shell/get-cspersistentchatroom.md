@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9826c44b-35a6-473e-97d4-952415d640d1
 description: "Returns information about the Persistent Chat chat rooms configured for use in your organization. A chat room is a discussion forum that typically revolves around a specific topic. This cmdlet was introduced in Lync Server 2013."

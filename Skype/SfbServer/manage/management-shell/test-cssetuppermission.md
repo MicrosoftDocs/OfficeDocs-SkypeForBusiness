@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 604ccb97-278a-4588-9ab8-991aaabae275
 description: "Verifies that the required permissions needed to install Skype for Business Server 2015 or one of its components have been configured on the specified Active Directory container. This cmdlet was introduced in Lync Server 2010."

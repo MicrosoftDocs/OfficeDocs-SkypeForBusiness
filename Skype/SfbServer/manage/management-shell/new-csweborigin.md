@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16053a99-b5ff-45e1-be95-b04e3f2fe528
 description: "Creates a new domain object that can be added to the collection of domains allowed to send cross-domain scripting requests to the Skype for Business Server 2015 deployment."

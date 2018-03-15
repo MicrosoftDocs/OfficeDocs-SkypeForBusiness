@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a745da5-5b09-4b5a-8ab6-8b8b03d7afc6
 description: "Adds the local computer to the Skype for Business Server 2015 replication path. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 28582668-839c-4b04-8211-928c91634672
 description: "Returns information about all the Web Services configuration settings in use in your organization. This cmdlet was introduced in Lync Server 2010."

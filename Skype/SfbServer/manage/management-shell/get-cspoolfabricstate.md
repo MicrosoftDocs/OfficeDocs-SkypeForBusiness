@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fe6cce5-4142-47b3-94ac-4cb8b94ec215
 description: "Returns the Windows Fabric state for a Skype for Business Server 2015 pool. Windows Fabric is a Microsoft technology used for creating highly reliable, distributable, and scalable applications. This cmdlet was introduced in Lync Server 2013."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f88a70d-79b0-4614-8604-660bac35a86f
 description: "Flushes the Skype for Business Server 2015 Storage Service database on each Front End server in a pool. Flushing a database involves writing all the queued data to disk, and then clearing the database queue. This cmdlet was introduced in Lync Server 2013."

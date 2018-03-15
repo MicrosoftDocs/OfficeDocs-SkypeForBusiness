@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24055ae5-7fc8-4ca5-9e65-ac3a1f17b405
 description: "Creates new global settings for media bypass. This cmdlet was introduced in Lync Server 2010."

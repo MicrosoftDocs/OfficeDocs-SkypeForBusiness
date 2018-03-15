@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7667ffd-3d11-40ec-87d4-7f9b1a861aae
 description: "Creates a new SIP response code translation rule. These rules enable administrators to map SIP response codes with values between 400 and 699 to the values used by Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

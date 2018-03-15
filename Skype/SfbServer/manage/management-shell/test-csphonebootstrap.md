@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b132446b-f264-405e-8e3a-971ab1c37694
 description: "Verifies that a user can log on to Skype for Business Server 2015 using a Phone Edition-compatible device. This cmdlet was introduced in Lync Server 2010."

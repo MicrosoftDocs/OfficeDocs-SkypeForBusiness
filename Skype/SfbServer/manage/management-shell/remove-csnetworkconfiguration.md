@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d6945015-67f7-4f04-87ae-7cb977650d96
 description: "Resets all the network configuration settings for a Skype for Business Server 2015 deployment to the default values. This deletes an entire call admission control (CAC) deployment and related E9-1-1 configuration. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25d7de86-871d-4f07-8825-028137365435
 description: "Returns information about your instant messaging (IM) session archiving policies. Archiving policies enable you to archive all IM and web conferencing sessions that take place between internal users and/or between internal users and external users. This cmdlet was introduced in Lync Server 2010."

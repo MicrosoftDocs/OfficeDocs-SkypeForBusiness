@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 753bccc1-edb4-48c9-bd0a-2db5d86f8c5e
 description: "Grants Skype for Business Server 2015 setup permissions on an Active Directory organizational unit (OU). This cmdlet was introduced in Lync Server 2010."

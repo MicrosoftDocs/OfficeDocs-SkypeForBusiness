@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37a1cbc9-b8b2-423c-8ebb-7947fdcad24e
 description: "Retrieves the routing configuration object, which contains a list of all voice routes defined within a Skype for Business Server 2015 deployment. This cmdlet was introduced in Lync Server 2010."

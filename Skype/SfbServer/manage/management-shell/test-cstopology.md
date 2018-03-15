@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 06ffa245-f1c7-46b7-9be6-5b291deda5c1
 description: "Verifies service activation and group permissions for your installation of Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

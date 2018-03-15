@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: "You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool at this time. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:"

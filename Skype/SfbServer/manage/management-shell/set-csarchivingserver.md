@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4e51c14-34a6-4134-bb71-87bc2f11092d
 description: "Enables you to specify a new database location for one or more Archiving Servers. This cmdlet was introduced in Lync Server 2010."

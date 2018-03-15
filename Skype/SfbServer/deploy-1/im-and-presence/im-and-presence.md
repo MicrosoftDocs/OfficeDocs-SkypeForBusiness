@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: "Summary: Learn about deployment steps for instant messaging and presence in Skype for Business Server 2015."

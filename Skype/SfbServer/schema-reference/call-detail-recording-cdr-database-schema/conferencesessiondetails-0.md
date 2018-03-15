@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: "Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e549484-b79b-47ef-b83b-13a6e20b0c80
 description: "Deletes all the Device Update Web service log and audit files that are older than the specified number of days. This cmdlet was introduced in Lync Server 2010."

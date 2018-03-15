@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cc2e5fab-d978-4e7e-8fc6-d12a0172c07c
 description: "Imports a set of device update rules downloaded from the Microsoft website. Device update rules associate firmware version updates with hardware devices running Skype for Business Phone Edition. This cmdlet was introduced in Lync Server 2010."

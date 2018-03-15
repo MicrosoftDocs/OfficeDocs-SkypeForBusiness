@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 description: "The Servers table is a supporting table that stores information about the various servers. Each record in the table represents one server."

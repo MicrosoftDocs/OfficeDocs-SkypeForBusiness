@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd688c08-abb8-4c78-8e1b-b330412d4422
 description: "The Import-CsLegacyConfiguration cmdlet enables you to import a number of configuration settings from Microsoft Office Communications Server 2007 R2 or Microsoft Office Communications Server 2007 to Skype for Business Server 2015. This helps provide interoperability between Skype for Business Server 2015 and your earlier installation of Office Communications Server 2007 R2 or Office Communications Server 2007. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1bf128a6-d4d8-41ec-a8e9-dc1cdcd73200
 description: "Returns diagnostic information for the data conferencing capabilities included in Skype for Business Server 2015."

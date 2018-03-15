@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b94d9473-db5f-4350-a7b4-991d0e26e525
 description: "Assigns a client version policy at the global, site, service, or per-user scope. Client version policies enable you to specify which clients (such as Microsoft Office Communicator 2007 R2) will be able to log on to your Skype for Business Server 2015 system. This cmdlet was introduced in Lync Server 2010."

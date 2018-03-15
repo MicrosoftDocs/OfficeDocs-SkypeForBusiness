@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5aedffa0-9ca1-4aec-b4ad-c3e409c0ffb2
 description: "Enables the most recently published Skype for Business Server 2015 topology. After you have made changes to your topology, the changes will not take effect until they have been both published and enabled. This cmdlet was introduced in Lync Server 2010."

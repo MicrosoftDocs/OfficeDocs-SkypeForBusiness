@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 8/5/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 983eadb8-baee-41ba-bba4-2f2b01471250
 description: "Enables you to migrate Response Group configuration settings from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

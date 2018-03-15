@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08c6db0b-23e2-4fbe-8276-181275a40daf
 description: "Verifies whether or not a pair of users can exchange messages using the Persistent Chat service (formerly known as the Group Chat service). This cmdlet was introduced in Lync Server 2013."

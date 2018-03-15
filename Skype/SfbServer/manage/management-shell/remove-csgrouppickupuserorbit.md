@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd5e815f-c91b-4b86-8f14-f895f5c3a082
 description: "Use the Remove-CsGroupPickupUserOrbit cmdlet to remove the associated group pickup orbit number for an Enterprise Voice user. This effectively disables the user for group call pickup."

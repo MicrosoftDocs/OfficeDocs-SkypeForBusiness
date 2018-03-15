@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9017378e-4583-42bc-9572-aa8e9571cfe3
 description: "Creates new settings that define whether media can be routed to alternate paths through the Internet for bandwidth-constrained connections. This cmdlet was introduced in Lync Server 2010."

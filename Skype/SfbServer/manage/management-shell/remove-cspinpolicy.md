@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 60bebb77-4181-4c5c-9c0e-dd1ece71f1d2
 description: "Removes the specified personal identification number (PIN) policy. PIN authentication and PIN policies enable users to access Skype for Business Server 2015 by providing a PIN instead of a user name and password. This cmdlet was introduced in Lync Server 2010."

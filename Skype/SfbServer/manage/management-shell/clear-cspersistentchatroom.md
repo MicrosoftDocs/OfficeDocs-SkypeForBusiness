@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b7801d8-d924-4e97-9b17-ceb6a263a7a7
 description: "Removes all the content from a Persistent Chat chat room beginning with the oldest item in the room and continuing through the specified end date. This cmdlet was introduced in Lync Server 2013."

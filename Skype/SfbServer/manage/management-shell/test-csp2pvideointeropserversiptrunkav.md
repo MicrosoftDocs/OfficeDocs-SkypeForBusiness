@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf755ca0-649a-43f3-80b3-8739a92fbad5
 description: "Use the Test-CsP2PVideoInteropServerSipTrunkAV cmdlet to test the ability of a video gateway to conduct a peer-to-peer audio/video (A/V) call to a Skype for Business user via a Video Interop Server (VIS) pool."

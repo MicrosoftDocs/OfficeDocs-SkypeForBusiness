@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 30d1736f-990f-46e8-931f-9247cd988244
 description: "Creates a new collection of static routing configuration settings. This cmdlet was introduced in Lync Server 2010."

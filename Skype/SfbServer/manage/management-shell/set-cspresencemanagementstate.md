@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbb6a81d-ebff-486e-b83f-4e73365a193c
 description: "Use the Set-CsPresenceManagementState cmdlet to modify the settings of the Skype for Business Server 2015 management state. The management state settings determine the batching and timing of Skype for Business Server 2015 notifications."

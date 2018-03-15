@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: "The following topics detail the columns in each of the Persistent Chat database schema tables."

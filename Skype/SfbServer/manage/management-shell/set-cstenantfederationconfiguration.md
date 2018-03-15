@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/22/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e13c2f55-7a68-4174-a0da-5eec8c65f64c
 description: "Manages federation configuration settings for your Microsoft Lync Online tenants. These settings are used to determine which domains (if any) your users are allowed to communicate with."

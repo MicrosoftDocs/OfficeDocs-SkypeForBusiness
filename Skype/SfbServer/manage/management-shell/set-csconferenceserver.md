@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90f9f1f1-0029-4f97-a8f4-719523cfad56
 description: "Modifies the properties of an A/V Conferencing Server (also known as a Conference Server). The Conference Server provides audio and video (A/V) capabilities to your conferences. This cmdlet was introduced in Lync Server 2010."

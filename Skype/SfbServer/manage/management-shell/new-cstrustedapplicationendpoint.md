@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78b34ba4-4c31-4f68-9069-3c7e7c162fbf
 description: "Creates a new endpoint contact for a trusted application. This cmdlet was introduced in Lync Server 2010."

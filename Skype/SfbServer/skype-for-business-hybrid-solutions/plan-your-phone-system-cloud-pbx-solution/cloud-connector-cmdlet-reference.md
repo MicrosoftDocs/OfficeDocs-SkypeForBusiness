@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: "The following table lists the Skype for Business Cloud Connector Edition cmdlets with a brief description and links to more information."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 199f0127-7444-4f88-993a-8e6a33fdcb61
 description: "Modifies an existing collection of QoE (Quality of Experience) settings. This cmdlet was introduced in Lync Server 2010."

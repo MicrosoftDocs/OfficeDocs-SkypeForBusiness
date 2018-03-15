@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 03b2984f-3a24-4b8d-bcaf-5049de9e2556
 description: "Returns theeffective policiesfor the specified user or users. This simply means that, if a user has been a per-user policy, the Identity of that policy will be displayed. If a user has not been assigned a per-user policy, then the Get-CsEffectivePolicy cmdlet will indicate whether the user is managed by a service policy, a site policy, or the global policy. This enables you to determine exactly which policy is being used to manage a given user. This cmdlet was introduced in Lync Server 2013."

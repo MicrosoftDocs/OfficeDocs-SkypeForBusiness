@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a5f599fb-8ede-432d-a6bf-c850c68fc71e
 description: "In a multi-forest topology, returns information about user accounts from forests other than your home forest; these are users who have been replicated as contact objects by Microsoft Forefront Identity Manager 2010 (or a previous version of the product). The Get-CsAdContact cmdlet returns any user who has a value configured for the msRTCSIP-OriginatorSid attribute. This cmdlet was introduced in Lync Server 2010."

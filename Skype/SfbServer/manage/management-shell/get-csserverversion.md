@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66af07c0-fdfe-491a-ad48-b8821fb58904
 description: "Returns server licensing information for a computer running Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

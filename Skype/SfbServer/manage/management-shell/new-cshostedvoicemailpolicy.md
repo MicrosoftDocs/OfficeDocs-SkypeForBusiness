@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81e1ec62-45c4-49ad-8e2b-3568c092b6c1
 description: "Creates a new hosted voice mail policy. This cmdlet was introduced in Lync Server 2010."

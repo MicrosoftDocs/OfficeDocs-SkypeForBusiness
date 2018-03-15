@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cef1fcda-3292-411a-b3dd-7a8ef7935b20
 description: "Verifies the status of the replica service on the local computer. The replica service is used to replicate information among all the Skype for Business Server 2015 computers in your topology. This cmdlet was introduced in Lync Server 2013."

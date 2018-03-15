@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35ed6bdc-95ea-4bf8-84ce-c4256dc2c4e5
 description: "Moves one or more Exchange Unified Messaging (UM) contacts to a new Registrar pool. This cmdlet was introduced in Lync Server 2010."

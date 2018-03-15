@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 306a33ee-9d18-4f34-b804-815d7ab357f4
 description: "Use the Get-CsVideoInteropServerSyntheticTransactionConfiguration cmdlet to retrieve Video Interop Server (VIS) synthetic transaction configurations."

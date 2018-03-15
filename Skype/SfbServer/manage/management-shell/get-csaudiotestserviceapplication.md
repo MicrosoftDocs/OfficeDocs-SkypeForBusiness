@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef36a059-bf9b-4066-a817-db8d82c41e49
 description: "Enables you to return information about the Audio Test service application used in your organization. This cmdlet was introduced in Lync Server 2010."

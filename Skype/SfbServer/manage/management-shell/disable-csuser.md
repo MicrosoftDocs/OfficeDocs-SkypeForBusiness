@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92e7e29e-2620-4852-9e4a-2fd3569bb095
 description: "Modifies the Active Directory account of the specified user or users; this modification prevents users from using Skype for Business Server 2015 clients such as Skype for Business. The Disable-CsUser cmdlet only restricts activity related to Skype for Business Server 2015; it does not disable or remove a user's Active Directory account. This cmdlet was introduced in Lync Server 2010."

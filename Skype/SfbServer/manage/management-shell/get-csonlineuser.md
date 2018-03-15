@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/23/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2bfafd70-a7d9-4308-a353-5ecf44249b53
 description: "Returns information about users who have accounts homed on Microsoft Lync Online. This cmdlet can only be used with Skype for Business Online."

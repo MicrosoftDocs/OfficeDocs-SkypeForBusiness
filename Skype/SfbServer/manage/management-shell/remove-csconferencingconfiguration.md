@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3dff4b0-100b-46fa-9078-d3b0d4914d87
 description: "Removes the specified collection of conference configuration settings. Conference settings determine such things as the maximum-allowed size for conference content and handouts; the content grace period; and the URLs for the internal and external downloads of the supported client. This cmdlet was introduced in Lync Server 2010."

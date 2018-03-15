@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a

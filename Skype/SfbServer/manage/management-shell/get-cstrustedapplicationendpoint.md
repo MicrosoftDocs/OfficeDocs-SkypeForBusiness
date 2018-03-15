@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f66ac464-31ef-4aa3-9b79-f9e67ebc1475
 description: "Retrieves information about one or more trusted application endpoints. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ecdbfef8-2b7c-4bd7-bf01-7fb230eefe9f
 description: "Removes the specified presence policy. This cmdlet was introduced in Lync Server 2010."

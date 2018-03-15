@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/4/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20dae017-375c-4361-8d65-b56f4c09b375
 description: "Returns information about the watcher node configuration settings in use in your organization. Watcher nodes are computers that periodically use Microsoft System Center Operations Manager and Skype for Business Server 2015 synthetic transactions to verify that Skype for Business Server 2015 components are working as expected. The watcher node configuration settings let you know which pools have been associated with a watcher node. This cmdlet was introduced in Lync Server 2013."

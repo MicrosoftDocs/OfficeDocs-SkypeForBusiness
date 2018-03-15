@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f5a5b7a-aca5-4672-b712-d47683e28caf
 description: "Moves an endpoint to a different Registrar pool. This cmdlet was introduced in Lync Server 2010."

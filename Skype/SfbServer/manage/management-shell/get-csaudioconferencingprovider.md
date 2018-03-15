@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4632e9d0-aa87-459f-ad7e-27125c11da5b
 description: "Returns information about the audio conferencing providers authorized for use in the organization. Audio conferencing providers are a third-party companies that provide organizations with conferencing services."

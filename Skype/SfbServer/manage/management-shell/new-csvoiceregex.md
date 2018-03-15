@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1a498b7-8353-40bd-9c02-424c95743ec3
 description: "Creates a regular expression pattern and translation for translating phone numbers to different formats. This cmdlet was introduced in Lync Server 2010."

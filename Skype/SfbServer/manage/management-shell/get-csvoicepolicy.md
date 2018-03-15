@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05096aec-321c-4a50-99be-6e9fbbbe17fa
 description: "Returns information about one or more voice policies configured for your organization. This cmdlet was introduced in Lync Server 2010."

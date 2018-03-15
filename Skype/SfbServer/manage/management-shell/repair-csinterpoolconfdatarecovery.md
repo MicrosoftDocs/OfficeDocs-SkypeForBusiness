@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/27/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 590bb9c6-9d03-4516-9335-8965c843d871
 description: "Use the Repair-CsInterPoolConfDataRecovery cmdlet to repair conference data in the target pool of a partial fail-over. The cmdlet compares conference data between the failed-over pool and the target pool and synchronizes the discrepancies."

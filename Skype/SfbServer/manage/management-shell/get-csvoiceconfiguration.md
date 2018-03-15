@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5e7afa3-28d3-4bf9-a2f2-c34932c9a3cd
 description: "Retrieves the voice configuration object, which contains a full list of all voice test configurations defined for the Skype for Business Server 2015 deployment. This cmdlet was introduced in Lync Server 2010."

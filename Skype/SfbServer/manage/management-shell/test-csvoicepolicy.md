@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d631e36-3a9d-4ca2-913f-8c9f4e93183d
 description: "Tests a telephone number against a voice policy and determines which voice route would be used against that policy for that number. This cmdlet was introduced in Lync Server 2010."

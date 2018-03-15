@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e41db33d-d028-4171-9418-ec04885be2fc
 description: "Tests the ability of a user to employ group expansion. Skype for Business Server 2015 enables users to configure an Active Directory distribution group as a contact. When youexpanda group you will see the name and presence information for each member of the group. This cmdlet was introduced in Lync Server 2010."

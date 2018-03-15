@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f42d12b-d09a-41fd-892f-2b7515a35344
 description: "Modifies a pool that contains the computers that host trusted applications. This cmdlet was introduced in Lync Server 2010."

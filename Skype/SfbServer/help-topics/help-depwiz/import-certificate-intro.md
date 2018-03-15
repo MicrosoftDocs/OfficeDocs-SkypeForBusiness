@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertImportBasics
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: "To import a certificate, you must provide a path to the certificate file. In the Select Certificate file text box, you can either type the full path and file name, or click the Browse button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file)."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ec14091-cb05-4c4c-b091-b7e88f5ca3cf
 description: "Returns information about the Persistent Chat categories in use in your organization. A Persistent Chat category represents a collection of Persistent Chat chat rooms. Each chat room must be associated with a category. This cmdlet was introduced in Lync Server 2013."

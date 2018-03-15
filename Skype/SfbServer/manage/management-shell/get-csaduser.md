@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 787f0ccf-3ac3-4a2b-8407-cff5e988b9b4
 description: "Returns information about all the user accounts in Active Directory Domain Services. This includes user accounts that have been enabled for Skype for Business Server 2015 as well as accounts that have not been enabled for Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

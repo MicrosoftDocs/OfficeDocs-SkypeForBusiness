@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/10/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6fbdbab6-8a8c-421c-b16c-2319be4b8915
 description: "Moves one or more user accounts enabled for Skype for Business Server 2015 to Skype for Business Online. This command cannot move users between two on-premises topologies."

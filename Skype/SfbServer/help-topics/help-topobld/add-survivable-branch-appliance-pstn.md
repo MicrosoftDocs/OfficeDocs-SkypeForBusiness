@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 description: "To define the public switched telephone network (PSTN) gateway for a Survivable Branch Appliance at a branch site, specify the following:"

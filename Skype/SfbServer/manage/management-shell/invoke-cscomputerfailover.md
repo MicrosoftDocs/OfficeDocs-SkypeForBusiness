@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 87e2c48c-975c-4cb6-aa5b-bbed7e989941
 description: "Use the Invoke-CsComputerFailOver to force a computer in a Skype for Business Server 2015 pool to failover to other servers within the pool. To successfully run this cmdlet you need to run it using an account that has administrator privileges on each server in the source and target pools."

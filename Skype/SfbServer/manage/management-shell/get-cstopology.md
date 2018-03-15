@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad52f545-b8dd-411e-8584-b6e29fe8ef18
 description: "Returns information about your Skype for Business Server 2015 infrastructure, including internal domains, sites, clusters, computers, services, and back-end instances of SQL Server. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08bc8eca-b244-4d5e-b089-1cc95605ba14
 description: "Retrieves global settings for call admission control (CAC), Enhanced 9-1-1 (E9-1-1), and media bypass. This cmdlet was introduced in Lync Server 2010."

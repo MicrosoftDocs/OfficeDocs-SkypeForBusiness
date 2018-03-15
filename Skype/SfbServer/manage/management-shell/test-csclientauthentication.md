@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a25b2c6-0cb2-473c-af92-0be5cead8a19
 description: "Determines whether or not a user can log on to Skype for Business Server 2015 by using a certificate downloaded from the certificate provisioning service. This cmdlet was introduced in Lync Server 2013."

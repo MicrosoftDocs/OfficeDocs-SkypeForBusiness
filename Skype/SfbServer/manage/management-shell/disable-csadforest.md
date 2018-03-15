@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 06a6117c-27da-400f-8db9-eb28fe353aae
 description: "Undoes the forest preparation tasks carried out by the Enable-CsAdForest cmdlet. This cmdlet is typically used only if you are uninstalling Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

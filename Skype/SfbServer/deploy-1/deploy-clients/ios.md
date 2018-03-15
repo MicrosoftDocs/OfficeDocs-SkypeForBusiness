@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: "Summary: How to install and test the Skype for Business for iOS app."

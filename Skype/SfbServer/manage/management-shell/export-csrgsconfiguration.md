@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 754513a4-0b46-44b7-8910-f865b1e0f037
 description: "Exports data from an existing Response Group application configuration. This data, saved as a .ZIP file, can later be imported using the Import-CsRgsConfiguration cmdlet. The ability to export and import Response Group configuration data is particularly useful disaster recovery scenarios. This cmdlet was introduced in Lync Server 2013."

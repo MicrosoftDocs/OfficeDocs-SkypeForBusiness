@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4165f1e1-fe64-45e7-a13f-f23c0205f386
 description: "Tests the configuration of the Skype for Business Server 2015 databases. This cmdlet was introduced in Lync Server 2013."

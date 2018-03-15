@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 756c08a7-26b0-4ea8-816b-b33ebcac51aa
 description: "Grants a per-user presence policy to a user or group of users. This cmdlet was introduced in Lync Server 2010."

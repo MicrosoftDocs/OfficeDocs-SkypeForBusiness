@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e01c4d6-7b81-4932-a8e1-4d14989b71bd
 description: "Tests the ability of a pair of users to schedule, join, and then conduct an online conference using the Unified Communications Web API (UCWA). This cmdlet was introduced in Lync Server 2013."

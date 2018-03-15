@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 60318b9f-2291-4b99-a271-d206e4074b70
 description: "Stop-CsWindowsService enables you to stop a Skype for Business Server 2015 service. This cmdlet was introduced in Lync Server 2010."

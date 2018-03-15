@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 53fbc126-1df9-4ea0-8055-4e9530ab89d6
 description: "Enables you to modify the culture (that is, the language and regional settings) used by the Skype for Business Server Management Shell. This cmdlet was introduced in Lync Server 2010."

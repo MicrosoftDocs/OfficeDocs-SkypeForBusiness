@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: efa2840c-2e21-408e-b9fe-6f9998c81db2
 description: "Modifies an existing location policy. This cmdlet was introduced in Lync Server 2010."

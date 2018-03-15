@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2c78377-ad21-4a9f-bef9-e9ef97316c85
 description: "Returns information about all the dial-in conferencing access numbers configured for use in your organization. Dial-in conferencing provides a way for users to use aregulartelephone mobile phone, or device on the public switched telephone network (PSTN) to join the audio portion of an online conference. This cmdlet was introduced in Lync Server 2010."

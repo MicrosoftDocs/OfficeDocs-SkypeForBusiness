@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 8/8/2017
 ms.audience: ITPro
 ms.topic: concetpual
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: "The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 06f36c53-3a5e-4e79-b4f2-8c1aa7e6bf71
 description: "Returns information about all the users in your organization who have been enabled for Skype for Business Server 2015 or a previous version of the software. This cmdlet was introduced in Lync Server 2010."

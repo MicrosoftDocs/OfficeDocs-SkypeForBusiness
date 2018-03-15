@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fd9ca4c-8b4f-41f0-b051-5b486376008c
 description: "Removes the specified client version policy. Client version policies enable you to specify which clients will be able to log on to your Skype for Business Server 2015 system. This cmdlet was introduced in Lync Server 2010."

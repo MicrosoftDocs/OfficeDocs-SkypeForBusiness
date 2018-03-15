@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67ffa1b1-0ca5-410b-81f7-2375b9dbef3c
 description: "Creates a new Kerberos account used for Internet Information Services (IIS) authentication. This cmdlet was introduced in Lync Server 2010."

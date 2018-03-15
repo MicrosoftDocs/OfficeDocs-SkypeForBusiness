@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2ed87e0-a5ae-41a2-8572-bda0070c59dc
 description: "Retrieves one or more collections of Quality of Experience (QoE) settings. This cmdlet was introduced in Lync Server 2010."

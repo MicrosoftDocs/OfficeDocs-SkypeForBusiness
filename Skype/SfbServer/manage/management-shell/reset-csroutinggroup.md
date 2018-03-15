@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9a02d648-18fe-49a0-8c06-8cafedeb9700
 description: "Enables administrators to reset a Windows fabric routing group that is not working correctly."

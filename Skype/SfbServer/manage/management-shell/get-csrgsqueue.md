@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/9/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2e786b7-5096-4011-8108-2b56ae768c1d
 description: "Retrieves information about the Response Group queues in use in your organization. With the Response Group application, phone calls are put in a queue and calls are placed on hold until a Response Group agent is available to answer that call. This cmdlet was introduced in Lync Server 2010."

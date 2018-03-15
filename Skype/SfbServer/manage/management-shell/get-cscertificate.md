@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15b8f019-1d00-4389-9abe-18deb8cbf2ea
 description: "Returns information about certificates on the local computers that have been configured for use with Skype for Business Server 2015. This cmdlet was introduced in Lync Server 2010."

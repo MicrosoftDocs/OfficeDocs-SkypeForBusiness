@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c44a596-7fca-49d3-a7cf-e22656698a28
 description: "Adds a computer that hosts trusted applications to an existing pool. This cmdlet was introduced in Lync Server 2010."

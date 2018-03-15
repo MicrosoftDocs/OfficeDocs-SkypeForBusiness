@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c49407f2-2e03-4b8b-b51b-75b12ef87fd1
 description: "Returns information about the SIP trunks employed by your organization. SIP trunks connect the Skype for Business Server 2015 Voice over IP phone network with the Public Switched Telephone Network. This cmdlet was introduced in Lync Server 2013."

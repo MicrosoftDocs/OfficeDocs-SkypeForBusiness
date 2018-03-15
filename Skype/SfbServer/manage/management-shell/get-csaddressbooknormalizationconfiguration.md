@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 617d5113-b396-4e4b-96e4-e73fcfde8d57
 description: "Returns the Address Book normalization configuration settings currently in use in the organization. Address Book normalization settings are used to convert phone numbers to a format readily understood by Skype for Business Server 2015."

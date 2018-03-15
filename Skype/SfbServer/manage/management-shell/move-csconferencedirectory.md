@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c43207fa-06dd-4360-ae32-b2f17f7100d2
 description: "Moves an existing conference directory from one pool to another. Conference directories are used to help dial-in conferencing users locate conference information. This cmdlet was introduced in Lync Server 2010."

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: faae4d4b-ea8b-4d50-9c46-16a075476642
 description: "Removes the specified instant message file transfer filter configuration. (Instant message file transfer filter settings are used to block a user's ability to transfer certain types of files within an instant message.) This cmdlet was introduced in Lync Server 2010."

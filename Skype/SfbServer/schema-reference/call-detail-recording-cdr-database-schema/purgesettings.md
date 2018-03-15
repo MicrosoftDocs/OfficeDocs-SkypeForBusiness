@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: "The PurgeSettings table contains information that specifies if (and when) outdated call detail records will automatically be deleted from the CDR database. Note that purging-related information can also be obtained from within the Skype for Business Server 2015 by running the following command:"

@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 3/28/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 251ddb5c-4837-4810-b46f-d276f9535653
 description: "Removes an existing network subnet. This cmdlet was introduced in Lync Server 2010."

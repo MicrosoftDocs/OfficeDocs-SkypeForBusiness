@@ -6,7 +6,7 @@ manager: johmar
 ms.date: 4/4/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6225cf8d-b669-464e-9848-a292953e3a3a
 description: "Creates a new collection of Web Services configuration settings. This cmdlet was introduced in Lync Server 2010."
