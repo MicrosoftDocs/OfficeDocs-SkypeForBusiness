@@ -76,9 +76,6 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 - [Office 365 operated by 21Vianet](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-operated-by-21vianet.md)
 
-## Plan Details 
-<a name="bkmk_existing"> </a>
-
 For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
 
 ## How to see prices and buy add-on licenses
