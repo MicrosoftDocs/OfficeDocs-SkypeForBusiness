@@ -1,0 +1,37 @@
+---
+title: "GOV, EDU, and non-profit organizations"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav
+ms.date: 03/16/2018
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
+ms.audience: Admin
+appliesto:
+- Skype for Business 
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
+- LIL_Placement
+description: "Learn about add-on licenses and features for GOV, EDU and non-profit organization plans. "
+---
+
+# GOV, EDU, and non-profit organizations?
+
+
+|**Skype for Business feature**|**Available to .GOV (GCC)**|**Available to .GOV (non-GCC)**|**Available to .EDU**|**Available to non-profit organizations**|
+|:-----|:-----|:-----|:-----|:-----|
+|Skype Meeting Broadcast  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|Skype for Business Audio Conferencing  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|Office 365 Phone System  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|Office 365 Calling Plan  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+   
+Please see this blog post: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
