@@ -3,7 +3,7 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audio Conferencing in Office 365
+## Audio Conferencing in Office 365 
 ### [Assign a third-party as the audio conferencing provider](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
@@ -121,7 +121,7 @@
 ### [Turn on or off Skype for Business client feedback reporting](../set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md)
 ### [Video: Skype for Business Online external communications](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
-## Set up policies for your organization    
+## Set up policies for your organization 
 ### [Block Point-to-Point file transfers](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Create custom external access policies](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Retaining large files attached to a meeting](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)

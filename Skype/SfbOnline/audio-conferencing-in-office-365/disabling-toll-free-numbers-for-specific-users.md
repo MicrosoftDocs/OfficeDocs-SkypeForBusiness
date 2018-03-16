@@ -67,6 +67,3 @@ When toll-free numbers are disabled for a given organizer:
 You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
  - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
