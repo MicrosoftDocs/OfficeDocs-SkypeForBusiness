@@ -34,7 +34,6 @@ Add-on licenses are licenses for specific Skype for Business and Microsoft Teams
 Skype for Business and Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
 
 ## How does add-on licensing affect cost?
-<a name="bkmk_existing"> </a>
 
 For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
@@ -47,7 +46,6 @@ For more cost information, see [How to see prices and buy add-on licenses](skype
 - [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/calling-plans)
     
 ## What features can I get with add-on licenses?
-<a name="bkmk_existing"> </a>
 
 Depending on which plan you already have, you can buy add-on licenses for the following Skype for Business and Microsoft Teams features:
   
@@ -63,7 +61,6 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](http://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## License options based on your plan
-<a name="bkmk_existing"> </a>
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan. 
 
@@ -88,7 +85,6 @@ Depending on the add-ons you want, we recommend [comparing whether it's more cos
 See your plan under "License options based on your plan" for more details about which licenses to buy and how to see prices and purchase add-on licenses. 
 
 ## How do I use my existing Calling Plans with Skype for Business?
-<a name="bkmk_existing"> </a>
 
 If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
   
@@ -100,7 +96,6 @@ For extensive documentation on planning your deployment, including Phone System 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
-<a name="bkmk_existing"> </a>
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
