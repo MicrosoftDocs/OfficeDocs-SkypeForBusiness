@@ -60,7 +60,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
     
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
     
-    ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
   
 3. You'll now see the prices and option to buy Audio Conferencing, and setup Communications Credits.
     

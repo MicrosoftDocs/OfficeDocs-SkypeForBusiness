@@ -24,8 +24,9 @@ ms.custom:
 description: "Learn about add-on licenses and features for GOV, EDU and non-profit organization plans. "
 ---
 
-# GOV, EDU, and non-profit organizations?
+# GOV, EDU, and non-profit organizations
 
+Most Skype for Business features available to .gov, .edu, and nonprofit organizations. See the following table for details.
 
 |**Skype for Business feature**|**Available to .GOV (GCC)**|**Available to .GOV (non-GCC)**|**Available to .EDU**|**Available to non-profit organizations**|
 |:-----|:-----|:-----|:-----|:-----|
