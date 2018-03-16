@@ -36,7 +36,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
     
     We recommend starting with the Skype app to see if it meets your needs. If it doesn't, then consider the next option, to upgrade your plan.
     
-    **IMPORTANT**: You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    **IMPORTANT**: You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
     
 - **Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.
 
@@ -47,7 +47,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
     
 2. Buy the **Phone System** add-on.
     
-3. Buy a [Calling Plan for Office 365](calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
+3. Buy a [Calling Plan for Office 365](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
     
     This second option is ideal for businesses with several people who make and receive external phone calls.
 
