@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 - LIL_Placement
-description: "Learn what add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
+description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
 ---
 
 # Skype for Business and Microsoft Teams add-on licensing
 
 ## What are add-on licenses?
 
-Add-on licenses are licenses for specific Skype for Business and Microsoft Teams features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who is going to use it.
+Add-on licenses are licenses for specific Skype for Business and Microsoft Teams features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who will use it.
 
 Skype for Business and Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
 
