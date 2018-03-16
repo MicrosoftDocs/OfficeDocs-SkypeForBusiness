@@ -32,6 +32,8 @@ We’ll continue to migrate other functionality from the Skype for Business Admi
 
 The new Admin Center experience will provide you with a unified experience to manage both Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
+![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skypeforbusiness-admin-center-new-admin-center.png)
+
 Starting in mid-March 2018, the following capabilities will be available in the new Microsoft Teams & Skype for Business Admin Center: 
 
 - **Microsoft Teams messaging policy**: Create policy for user-level management of the Microsoft Teams client experience for Messaging scenarios.
@@ -45,7 +47,7 @@ Starting in mid-March 2018, the following capabilities will be available in 
 
 ## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
 
-Your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams will be migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal) over the next few months. 
+Your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams (see image below) will be migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal) over the next few months. 
 
 
 
