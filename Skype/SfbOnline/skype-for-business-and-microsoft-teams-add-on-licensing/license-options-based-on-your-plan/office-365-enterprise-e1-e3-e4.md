@@ -45,7 +45,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
     
 2. Go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**.
     
-    ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![To buy an add-on license, choose Buy add-on.](../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
   
 3. After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.
     
