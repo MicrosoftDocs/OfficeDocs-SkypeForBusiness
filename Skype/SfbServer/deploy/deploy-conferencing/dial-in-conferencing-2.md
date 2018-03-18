@@ -30,7 +30,7 @@ To configure dial-in conferencing, you must perform the following tasks:
     
 - [Assign a Line URI to a user account](dial-in-conferencing-2.md#BKMK_AssignaLineURI)
     
-In addition, you may perform the following optional tasks. For more information about these optional tasks, see [Manage dial-in conferencing in Skype for Business Server 2015](../../manage/conferencing-0/dial-in-conferencing-1.md).
+In addition, you may perform the following optional tasks. For more information about these optional tasks, see [Manage dial-in conferencing in Skype for Business Server 2015](../../manage/conferencing/dial-in-conferencing-1.md).
   
 - Manage PIN policies for dial-in conferencing
     
@@ -188,7 +188,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 
 Conferencing policy is a user account setting that specifies the conferencing experience for participants. You can create conferencing policies with a site scope or a user scope. Conferencing policy settings encompass many aspects of conference scheduling and participation. Several conferencing policy settings support dial-in conferencing for participants. When you configure dial-in conferencing, you should verify that these fields are set appropriately for your organization, and modify them as necessary. 
   
-For more information about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+For more information about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
   
 ## Assign a Line URI to a user account
 <a name="BKMK_AssignaLineURI"> </a>

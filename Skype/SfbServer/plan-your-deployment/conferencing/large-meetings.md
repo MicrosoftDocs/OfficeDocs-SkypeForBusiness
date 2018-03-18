@@ -193,6 +193,6 @@ Additionally, you need to configure the dedicated large-meeting pool so that eac
     
 - Ensure that the **Admit anonymous users by default** check box is not selected, unless it is required. This setting affects the default meeting access type scheduled by the Online Meeting Add-in for Skype for Business when not using an assigned conference. The appropriate option for this setting depends on your organization's needs. If most large meetings for your organization are internal meetings, do not select this option. If most large meetings require that external users be able to join, select this option.
     
-For more information about creating a conferencing policy, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+For more information about creating a conferencing policy, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
   
 

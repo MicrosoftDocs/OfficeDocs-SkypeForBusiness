@@ -117,7 +117,7 @@ The components that support conferencing features include the following:
     
 ## Conferencing policies
 
-To enforce your organization's policies and control bandwidth usage, you can set policies for the types of meetings that users can organize. You can define a wide variety of conferencing policies, and assign them to individual users and groups of users. You can also set policies that govern peer-to-peer conversations. For details about setting conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md). For details about bandwidth management, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md).
+To enforce your organization's policies and control bandwidth usage, you can set policies for the types of meetings that users can organize. You can define a wide variety of conferencing policies, and assign them to individual users and groups of users. You can also set policies that govern peer-to-peer conversations. For details about setting conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md). For details about bandwidth management, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md).
   
 ## Support for large meetings
 
@@ -142,7 +142,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If so, you must enable conferencing for your Front End pool by using the Planning Tool or by using Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    Application sharing requires and uses more network bandwidth than document collaboration. Skype for Business Server provides a throttling mechanism to control each application sharing session. By default, this is set to 1.5 KB/second for each session. If you do not want to enable application sharing but you do want document collaboration, you can enable conferencing and use conferencing policies to disable application sharing. For details about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+    Application sharing requires and uses more network bandwidth than document collaboration. Skype for Business Server provides a throttling mechanism to control each application sharing session. By default, this is set to 1.5 KB/second for each session. If you do not want to enable application sharing but you do want document collaboration, you can enable conferencing and use conferencing policies to disable application sharing. For details about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
     
     To enable users to share PowerPoint presentations, you need to configure Office Web Apps Server. For details about configuring Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
     
@@ -154,7 +154,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If you do want to enable audio conferences but not video conferences, you can enable A/V conferencing and use conferencing policies to prevent video conferences. Alternatively, you can enable A/V conferencing and enable only certain users to start or participate in A/V conferences. 
     
-    For more information about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+    For more information about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
     > Enterprise Voice is not required for you to use A/V conferencing. If you enable A/V conferencing, your users can add audio to their conferences if they have audio devices, even if you use a PBX for your telephone solution. 

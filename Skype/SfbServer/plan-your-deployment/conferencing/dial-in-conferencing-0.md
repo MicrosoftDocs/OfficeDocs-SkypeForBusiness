@@ -101,7 +101,7 @@ Conferences must be enabled for dial-in access when you configure conferencing p
     
 - A link to a Dial-in Conferencing Settings page, which contains a complete list of access numbers with their associated languages; a place to create, reset, or unblock personal identification numbers (PINs); and other information, such as dual-tone multi-frequency (DTMF) controls
     
-For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
   
 ## Support for enterprise and anonymous users
 
