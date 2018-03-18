@@ -28,11 +28,11 @@ Quality of Experience (QoE) records numeric data that indicates the media qualit
     
 - [Delete Quality of Experience configuration settings in Skype for Business Server 2015](delete-qoe-configuration-settings.md)
     
-- [Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server 2015](../../deploy-1/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server 2015](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## See also
 
 #### 
 
-[Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015](../../deploy-1/deploy-monitoring/call-detail-recording-and-qoe.md)
+[Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
 

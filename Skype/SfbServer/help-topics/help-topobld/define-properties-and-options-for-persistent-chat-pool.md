@@ -24,7 +24,7 @@ You configure options for your Persistent Chat Server or Persistent Chat Server 
   
  **Enable compliance**: Select the check box if you plan to deploy and implement the optional Persistent Chat compliance feature and database.
   
- **Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server. For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+ **Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server. For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > This option is available only for pools with multiple servers. 
@@ -48,5 +48,5 @@ Click **Help** to access context sensitive help, such as this page.
 
 [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy-1/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

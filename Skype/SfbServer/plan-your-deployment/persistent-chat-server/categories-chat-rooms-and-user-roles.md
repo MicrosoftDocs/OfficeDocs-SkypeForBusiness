@@ -71,7 +71,7 @@ The following are administrator roles for Persistent Chat Server:
 
 For more information about configuring and managing chat rooms and user roles, see the following topics:
   
-- [Create a Persistent Chat administrator in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
+- [Create a Persistent Chat administrator in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
 - [Manage categories in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat-0/categories.md)
     

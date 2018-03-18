@@ -30,12 +30,12 @@ Later on, those users may create meetings and invite users from outside the orga
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
-Starting with Skype for Business Server CU5, Skype Meetings App is available as a replacement for Skype for Business Web App, but providing the Skype Meetings App requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy-1/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App is enabled, users will download the latest version of the app from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server.
+Starting with Skype for Business Server CU5, Skype Meetings App is available as a replacement for Skype for Business Web App, but providing the Skype Meetings App requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App is enabled, users will download the latest version of the app from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server.
   
 Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over theSkype for Business Web App for reliability and the meeting experience. 
   
 > [!NOTE]
-> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online will no longer send a clientless user the Skype for Business Web App, they will instead be sent Skype Meetings App. As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy-1/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users will be sent Skype Meetings App instead of Skype for Business Web App. 
+> As of Skype for Business Server 2015 CU5 or later, meetings held using Skype for Business Online will no longer send a clientless user the Skype for Business Web App, they will instead be sent Skype Meetings App. As of Skype for Business Server 2015 CU5 or later, if you [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), clientless users will be sent Skype Meetings App instead of Skype for Business Web App. 
   
 ## Software requirements
 <a name="OS-Browser"> </a>
@@ -173,7 +173,7 @@ Other supported values are:
 
 #### 
 
-[Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-web-downloadable-clients.md)
+[Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 #### 
 
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

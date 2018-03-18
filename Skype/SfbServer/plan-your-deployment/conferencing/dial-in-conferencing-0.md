@@ -43,7 +43,7 @@ You can deploy a Mediation Server in a central site or in a branch site. In a ce
   
 You can deploy a PSTN gateway in a central site or in a branch site. In a branch site, the PSTN gateway can be stand-alone or a component of the Survivable Branch Appliance.
   
-For details about Mediation Server and PSTN gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-a-mediation-server.md), and [Define a gateway in Topology Builder in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/define-a-gateway.md).
+For details about Mediation Server and PSTN gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), and [Define a gateway in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## Plan for dial plans, access numbers, and conferencing regions
 
@@ -79,7 +79,7 @@ Before you configure the dial plans, is it important to plan how you want to nam
     
 - Any user from any location can call any dial-in access number to join a conference.
     
-For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/normalization-rules.md). 
+For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## Plan for conference directories
 
@@ -101,7 +101,7 @@ Conferences must be enabled for dial-in access when you configure conferencing p
     
 - A link to a Dial-in Conferencing Settings page, which contains a complete list of access numbers with their associated languages; a place to create, reset, or unblock personal identification numbers (PINs); and other information, such as dual-tone multi-frequency (DTMF) controls
     
-For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
+For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
   
 ## Support for enterprise and anonymous users
 

@@ -24,7 +24,7 @@ If you chose not to install the SQL Server mirror databases during the Publish p
 
 #### 
 
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 #### 
 
 [Install-CsMirrorDatabase](../../manage/management-shell/install-csmirrordatabase.md)

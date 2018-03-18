@@ -103,7 +103,7 @@ If you decide to deploy Persistent Chat Server, you'll need to determine your or
 
 For more information about installing and configuring Persistent Chat Server, see the following topics:
   
-- For details about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+- For details about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
 - For details about how to configure settings on your Persistent Chat Server deployment, see [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat-0/persistent-chat-0.md).
     

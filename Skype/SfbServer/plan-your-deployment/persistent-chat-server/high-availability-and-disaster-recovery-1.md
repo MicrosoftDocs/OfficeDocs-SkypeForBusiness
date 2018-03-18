@@ -43,7 +43,7 @@ Skype for Business Server supports multiple modes of high availability for your 
   
 The disaster recovery solution for Persistent Chat Server described in this topic is built on a stretched Persistent Chat Server pool. There is no requirement for a stretched virtual local area network (VLAN). By stretching a Persistent Chat Server pool, you configure one pool in the topology logically, but you physically place the servers in the pool in two different data centers. You configure SQL Server mirroring for the database in the same way, and deploy the database and the mirror in the same data center. You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery). This is the backup database used for failover during disaster recovery. 
   
-For details about how to configure high availability and disaster recovery for Persistent Chat Server, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+For details about how to configure high availability and disaster recovery for Persistent Chat Server, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
 The following figures show how the Persistent Chat Server pool can be configured in two different stretched pool topologies:
   

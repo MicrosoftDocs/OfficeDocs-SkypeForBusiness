@@ -57,7 +57,7 @@ The following list describes the fields on the page.
     > The order in which agents are listed in the distribution list affects the order in which agents receive calls for round robin and serial routing. 
   
     > [!NOTE]
-    > Hidden memberships or hidden lists might become visible to Response Group administrators or users. For details, see [Create or modify an agent group in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
+    > Hidden memberships or hidden lists might become visible to Response Group administrators or users. For details, see [Create or modify an agent group in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
   
   - Select **Define a custom group of agents** to select the users you want to assign as agents for the response group. Click **Select** to add an agent to the list. Click **Remove** to delete a selected agent from the list.
     

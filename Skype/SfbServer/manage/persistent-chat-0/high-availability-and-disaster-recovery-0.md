@@ -16,7 +16,7 @@ description: "Summary: Learn how to manage Persistent Chat Server high availabil
  
 **Summary:** Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015.
   
-This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery-1.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery-1.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 ## Fail over Persistent Chat Server
 
@@ -152,7 +152,7 @@ These steps are designed to recover configuration as it existed prior to the dis
     
    - Click **OK** to begin the restoration process.
     
-5. Configure SQL Server Log Shipping for the primary database. Follow the procedures in [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
+5. Configure SQL Server Log Shipping for the primary database. Follow the procedures in [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
     
 6. Set the Persistent Chat Server active servers. From the Skype for Business Server Management Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.
     

@@ -32,7 +32,7 @@ You can perform the following tasks on the **User Search** Control Panel page:
     
 - [Assign Policies to Users](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configure Federation, Remote User Access, and Public IM Connectivity for Users](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

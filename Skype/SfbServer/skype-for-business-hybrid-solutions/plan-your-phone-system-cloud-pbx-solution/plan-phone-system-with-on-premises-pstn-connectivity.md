@@ -87,7 +87,7 @@ Before you can configure Phone System in Office 365 with on-premises PSTN connec
   
 In addition you must ensure the following:
   
-- **On-premises Enterprise Voice is configured and tested for on-premises users** This includes PSTN connectivity components. For more information, see the following topics if you are using Skype for Business Server 2015, see [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-enterprise-voice.md).
+- **On-premises Enterprise Voice is configured and tested for on-premises users** This includes PSTN connectivity components. For more information, see the following topics if you are using Skype for Business Server 2015, see [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
     
     If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
     

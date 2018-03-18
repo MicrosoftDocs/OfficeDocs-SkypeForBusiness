@@ -18,7 +18,7 @@ description: "Summary: Learn how to manage dial-in conferencing access numbers i
   
 When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences. These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage. 
   
-This topic describes how to view, modify, or delete existing dial-in conferencing access numbers. For more information about how to create initial dial-in access numbers, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
+This topic describes how to view, modify, or delete existing dial-in conferencing access numbers. For more information about how to create initial dial-in access numbers, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md).
   
 ## View dial-in conferencing access numbers
 

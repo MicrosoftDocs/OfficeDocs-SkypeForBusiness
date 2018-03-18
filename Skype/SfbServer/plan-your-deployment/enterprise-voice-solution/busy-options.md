@@ -21,7 +21,7 @@ Busy Options is a new voice policy introduced in the July 2016 Cumulative Update
   
 The Busy Options policy is supported for failover and disaster recovery on paired Front End Pools and Survivable Branch Servers (SBS).
   
-This topic describes the features of Busy Options. For information about how to install and configure Busy Options, see [Install and configure Busy Options for Skype for Business Server](../../deploy-1/deploy-enterprise-voice/install-and-configure-busy-options.md).
+This topic describes the features of Busy Options. For information about how to install and configure Busy Options, see [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## Configuration options
 

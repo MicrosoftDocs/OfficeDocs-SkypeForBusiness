@@ -184,5 +184,5 @@ Support for VTCs joining federated meetings via VIS is not part of Skype for Bus
 
 #### 
 
-[Deploy Video Interop Server in Skype for Business Server 2015](../deploy-1/deploy-video-interop-server/deploy-video-interop-server.md)
+[Deploy Video Interop Server in Skype for Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
 

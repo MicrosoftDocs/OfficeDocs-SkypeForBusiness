@@ -81,7 +81,7 @@ Review the following links for more information:
     
 - [Lync VDI plug-in prerequisites](vdi-environments.md#VDI_prereq)
     
-- [Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
 - Citrix Knowledge Center article [CTX138408](https://support.citrix.com/article/CTX138408)
     
@@ -159,5 +159,5 @@ The Lync VDI plug-in is not supported in an Office 365 environment.
 ## See also
 <a name="Citrix_RT"> </a>
 
-[Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

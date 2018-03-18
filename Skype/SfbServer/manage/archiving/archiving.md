@@ -18,10 +18,10 @@ description: "Summary: Learn how to manage archiving for Skype for Business Serv
   
 When you deploy archiving for your organization, you specify the initial configuration during deployment. However, there may be times when you want to change how you implement archiving support for day-to-day management or to meet new requirements for your organization. For example, you may need to set up archiving support differently for a specific site, a specific pool, or specific users within your organization. For users homed on Skype for Business Server, you do this by creating and customizing archiving configuration options and user policies. 
   
-Before you read this topic, be sure you are familiar with the information in [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Deploy archiving for Skype for Business Server 2015](../../deploy-1/deploy-archiving/deploy-archiving.md).
+Before you read this topic, be sure you are familiar with the information in [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md).
   
 > [!NOTE]
-> If you enable Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy-1/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> If you enable Microsoft Exchange integration for your deployment, Exchange policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. For details, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md) and [Configure integration with Exchange storage for Skype for Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## Archiving configuration options
 

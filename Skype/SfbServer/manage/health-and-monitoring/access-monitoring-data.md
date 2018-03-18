@@ -22,6 +22,6 @@ One tool you should consider for accessing and analyzing monitoring data is the 
   
 As noted, Monitoring Reports requires the use of SQL Server Reporting Service. SQL Server Reporting Service can be installed at the same time you install SQL Server or can be installed any time after SQL Server itself has been installed.
   
-For more information, see the topic [Install Monitoring Reports in Skype for Business Server 2015](../../deploy-1/deploy-monitoring/install-monitoring-reports.md) in the Skype for Business Server 2015 deployment guide.
+For more information, see the topic [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md) in the Skype for Business Server 2015 deployment guide.
   
 

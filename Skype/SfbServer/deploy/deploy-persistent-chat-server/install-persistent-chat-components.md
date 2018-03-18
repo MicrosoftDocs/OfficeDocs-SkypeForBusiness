@@ -30,6 +30,6 @@ Using the Skype for Business Server Deployment Wizard, choose Install or Update 
     
 4. Start services
     
-For details on how to use the Deployment Wizard to install components, assign certificates, and start services, see [Install Skype for Business Server 2015](../../deploy-1/install-0/install-0.md) and [Install Skype for Business Server 2015 on servers in the topology](../../deploy-1/install-0/install-skype-for-business-server.md).
+For details on how to use the Deployment Wizard to install components, assign certificates, and start services, see [Install Skype for Business Server 2015](../../deploy/install-0/install-0.md) and [Install Skype for Business Server 2015 on servers in the topology](../../deploy/install-0/install-skype-for-business-server.md).
   
 

@@ -83,7 +83,7 @@ Skype for Business Server provides the following ways to configure Office Web Ap
     
     If the Office Web Apps Server/Office Online Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network** (that is, perimeter/Internet) in Topology Builder.
     
-For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/office-web-app-server.md). 
+For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
 Regardless of the topology you select, it is critical that the correct firewall ports be opened. You must make sure that DNS names, IP addresses, and ports are not blocked by firewalls on the Office Web Apps Server/Office Online Server, the load balancer, or Skype for Business Server.
   
@@ -106,9 +106,9 @@ Additionally, if you want to optionally provide disaster recovery backup and fai
   
 Additional notes about the topology include:
   
-- A file share is required for storing meeting content and, if Archiving Server is deployed and enabled, for storing the archiving files. The file share can be dedicated to the pool or can be the same file share used by another pool at the site in which the pool is deployed. For details about configuring the file share, see [Create a file share in Skype for Business Server 2015](../../deploy-1/install-0/create-a-file-share.md).
+- A file share is required for storing meeting content and, if Archiving Server is deployed and enabled, for storing the archiving files. The file share can be dedicated to the pool or can be the same file share used by another pool at the site in which the pool is deployed. For details about configuring the file share, see [Create a file share in Skype for Business Server 2015](../../deploy/install-0/create-a-file-share.md).
     
-- An Office Web Apps Server/Office Online Server is required for enabling the PowerPoint presentation functionality in large meetings. The Office Web Apps Server/Office Online Server can be dedicated to the large meeting pool or, it can be the same Office Web Apps Server/Office Online Server used by other pools at the site in which the dedicated pool is deployed. For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/office-web-app-server.md). 
+- An Office Web Apps Server/Office Online Server is required for enabling the PowerPoint presentation functionality in large meetings. The Office Web Apps Server/Office Online Server can be dedicated to the large meeting pool or, it can be the same Office Web Apps Server/Office Online Server used by other pools at the site in which the dedicated pool is deployed. For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
 - Load balancing of the Front End Servers requires hardware load balancing for the HTTP traffic (such as meeting content download). DNS load balancing is recommended for SIP traffic. For details see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     

@@ -22,6 +22,6 @@ The **Select Calling Number Translation Rules** dialog displays the translation 
     
 2. [Trunk Configuration and Translation Rules](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
     
-3. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/called-id-presentation-rules.md)
+3. [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 

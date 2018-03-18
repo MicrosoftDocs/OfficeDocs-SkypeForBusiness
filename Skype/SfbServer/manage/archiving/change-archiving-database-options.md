@@ -87,7 +87,7 @@ To make either of these changes, you must run Topology Builder, make the changes
 8. To save the configuration, click **OK**.
     
     > [!IMPORTANT]
-    > The changes you make in Topology Builder do not take effect until you publish the new topology. For details, see [Add archiving databases to an existing deployment in Skype for Business Server 2015](../../deploy-1/deploy-archiving/add-archiving-databases.md). 
+    > The changes you make in Topology Builder do not take effect until you publish the new topology. For details, see [Add archiving databases to an existing deployment in Skype for Business Server 2015](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## Change the location of the Archiving database by using Windows PowerShell
 

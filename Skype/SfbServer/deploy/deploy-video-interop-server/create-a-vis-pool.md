@@ -52,7 +52,7 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
     > [!NOTE]
     >  A Video Interop Server supports 1:N trunks. Hence multiple trunks can be added, which are associated with a single Video Interop Server, where each trunk terminates on a different Video Gateway. The limitation is that a particular Video Gateway has one and only one trunk that can be defined to the Skype for Business Server deployment.
   
-11. Publish the Topology Document as described in [Create and publish new topology in Skype for Business Server 2015](../../deploy-1/install-0/create-and-publish-new-topology.md).
+11. Publish the Topology Document as described in [Create and publish new topology in Skype for Business Server 2015](../../deploy/install-0/create-and-publish-new-topology.md).
     
     > [!NOTE]
     > To improve resiliency, you may want to configure a second Video Interop Server or VIS pool, or a backup Front End pool. See [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) for more information.
@@ -67,5 +67,5 @@ All tasks performed using Topology Builder should now be complete. Proceed to in
 
 [Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   
-[Create and publish new topology in Skype for Business Server 2015](../../deploy-1/install-0/create-and-publish-new-topology.md)
+[Create and publish new topology in Skype for Business Server 2015](../../deploy/install-0/create-and-publish-new-topology.md)
 

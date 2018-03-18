@@ -95,7 +95,7 @@ To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you 
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
   
-For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## SQL Server Failover Clustering
 

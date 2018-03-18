@@ -144,7 +144,7 @@ Then assign the policy to users, using the name of the policy (the value you use
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **Step 3: Optional** - By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users asking them to restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial, by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client see [Configure the client experience with Skype for Business](../../deploy-1/deploy-clients/configure-the-client-experience.md).
+ **Step 3: Optional** - By default, the first time users start the Skype for Business client, the Skype client experience is used and a notification is displayed to users asking them to restart the client to get the Lync client experience. You can configure your environment so that the Lync client experience is displayed the first time users start the client, as well as turn off the client tutorial, by modifying the system registry on client computers. For the steps you need to perform before you deploy the Skype for Business client see [Configure the client experience with Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md).
   
  **Step 4:** After you've configured your client policies, deploy the Skype for Business client, build 4711.1002 (April, 2015) or later.
   

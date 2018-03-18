@@ -16,7 +16,7 @@ description: "Summary: Learn how to manage conferencing server configuration set
  
 **Summary:** Learn how to manage conferencing server configuration settings in Skype for Business Server 2015.
   
-This topic describes how to manage conferencing configuration settings. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md).
+This topic describes how to manage conferencing configuration settings. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Conferencing configuration settings determine such things as the maximum allowed size for meeting content and handouts; maximum amount of bandwidth for the Application Sharing Conferencing service; storage limits and expiration periods; the URLs for the internal and external downloads of the supported client; pointers to internal and external URLs where users can obtain conferencing help and resources; and the ports used for application sharing, client audio, file transfers, and media traffic. These settings allow you to manage the actual servers themselves. These settings can be set by using Skype for Business Server Management Shell.
   

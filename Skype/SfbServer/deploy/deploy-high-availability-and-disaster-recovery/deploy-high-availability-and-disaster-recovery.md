@@ -34,5 +34,5 @@ This section tells how to deploy these features, and also covers what steps you 
   
 [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
   
-[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

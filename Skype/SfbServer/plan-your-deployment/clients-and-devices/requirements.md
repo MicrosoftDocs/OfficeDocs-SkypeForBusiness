@@ -16,7 +16,7 @@ description: "This article summarizes the requirements for supporting a Skype Ro
  
 This article summarizes the requirements for supporting a Skype Room Systems v2. 
   
-Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
   
 ## Hardware requirements
 
@@ -122,7 +122,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
   
 - The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
     
-These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md). 
+These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
 In addition, you will probably want a copy of the [Powershell script](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt) used to provision Skype Room Systems v2 accounts.
   
@@ -132,9 +132,9 @@ In addition, you will probably want a copy of the [Powershell script](http://dow
 
 [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
   
-[Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md)
+[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md)
+[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### 

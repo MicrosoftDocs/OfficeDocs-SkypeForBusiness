@@ -26,5 +26,5 @@ Topology Builder parses all configuration settings in your defined topology docu
 
 #### 
 
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 

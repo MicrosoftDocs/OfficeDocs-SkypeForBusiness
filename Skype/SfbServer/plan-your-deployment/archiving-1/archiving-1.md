@@ -95,7 +95,7 @@ Archiving is automatically installed on each Front End Server when you deploy th
 If you deploy archiving for one Front End pool or Standard Edition Server, you should enable it for all other Front End pools and Standard Edition servers in your deployment. If archiving is not enabled on the pool where a conversation or meeting is hosted, all conference data may not be archived. Archiving will still work for IM messages, but conferencing content and events may not be archived.
   
 > [!NOTE]
-> To enable delegation of administrative tasks while maintaining your organization's security standards, Skype for Business Server uses role-based access control (RBAC). With RBAC, administrative privilege is granted by assigning users to predefined administrative roles. To configure Skype for Business archiving policies and configurations, the user must be assigned to the CsArchivingAdministrator role (unless the configuration is done directly on the server where archiving is deployed, instead of remotely from another computer). For a list of the user rights, permissions, and roles required for archiving deployment, see [Deploy archiving for Skype for Business Server 2015](../../deploy-1/deploy-archiving/deploy-archiving.md). 
+> To enable delegation of administrative tasks while maintaining your organization's security standards, Skype for Business Server uses role-based access control (RBAC). With RBAC, administrative privilege is granted by assigning users to predefined administrative roles. To configure Skype for Business archiving policies and configurations, the user must be assigned to the CsArchivingAdministrator role (unless the configuration is done directly on the server where archiving is deployed, instead of remotely from another computer). For a list of the user rights, permissions, and roles required for archiving deployment, see [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md). 
   
 > [!NOTE]
 > If you use Microsoft Exchange integration, configuration of Exchange policies requires appropriate administrator rights and permissions. For details, see the Exchange documentation. 
@@ -129,7 +129,7 @@ When adding SQL Server storage databases to your topology, you can choose to col
   
 If you collocate the Archiving database with the Monitoring database, back-end database, or both of these databases, you can either use a single SQL instance for any or all of the databases, or you can use a separate SQL instance for each database, with the following limitation: Each SQL instance can contain only a single back-end database, single Monitoring database, and single Archiving database.
   
-For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server 2015](../../deploy-1/install-0/create-and-publish-new-topology.md).
+For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server 2015](../../deploy/install-0/create-and-publish-new-topology.md).
   
 ### Determine archiving options and user policies
 
@@ -159,7 +159,7 @@ Skype for Business Server Archiving options can be specified at the following le
     
     For example, suppose you disable archiving for internal and external communications in your global configuration, create a site-level policy in which you enable archiving for internal and external communications, and then create a user-level policy in which you disable archiving for external communications. Communications would be archived for both external and internal communications for all site users except for the users to whom you apply the user-level policy--for these users only internal communications would be archived.
     
-For details about how to set up initial archiving configurations when you deploy archiving, see [Deploy archiving for Skype for Business Server 2015](../../deploy-1/deploy-archiving/deploy-archiving.md). For details about managing archiving after deployment, see [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md). 
+For details about how to set up initial archiving configurations when you deploy archiving, see [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md). For details about managing archiving after deployment, see [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md). 
   
 ## Archiving configuration tools
 
@@ -177,7 +177,7 @@ Access to archived data is dependent on where the data is stored:
 
 For more information about archiving, see the following topics:
   
-- [Deploy archiving for Skype for Business Server 2015](../../deploy-1/deploy-archiving/deploy-archiving.md)
+- [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)
     
 - [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md)
     

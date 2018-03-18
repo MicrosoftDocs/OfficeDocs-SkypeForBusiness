@@ -28,7 +28,7 @@ This article outlines the different Microsoft voice offerings, and then provides
   
 ![Shows the topology of an on-premises Enterprise Voice topology](../../media/17260e77-16ae-4ab2-8caf-d234d6f4d6bf.png)
   
-For more information about Microsoft's Enterprise Voice solutions, see: [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md), [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-enterprise-voice.md), [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx), and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
+For more information about Microsoft's Enterprise Voice solutions, see: [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md), [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md), [Planning for Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx), and [Deploying Enterprise Voice in Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
   
 ## Phone System in Office 365 (Cloud PBX)
 

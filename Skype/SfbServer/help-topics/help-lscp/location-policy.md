@@ -27,7 +27,7 @@ Location policies include the global policy and, optionally, one or more site an
 - **User policies (optional):** You can create one or more user location policies, each of which applies to a specific user or group of users. User policies override the global policy and site policies.
     
 > [!NOTE]
-> You can also assign location policies to network sites, which are groups of subnets. Location policies assigned to network sites take precedence over all other user policies. For details about assigning location policies to network sites by using cmdlets, see [Add a location policy to a network site in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). For details about using Skype for Business Server Control Panel to assign a location policy to a network site, see [Configuring Network Sites](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
+> You can also assign location policies to network sites, which are groups of subnets. Location policies assigned to network sites take precedence over all other user policies. For details about assigning location policies to network sites by using cmdlets, see [Add a location policy to a network site in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). For details about using Skype for Business Server Control Panel to assign a location policy to a network site, see [Configuring Network Sites](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx). 
   
 The **Location Policy** page displays a list of all the location policies that are defined for your organization.
   

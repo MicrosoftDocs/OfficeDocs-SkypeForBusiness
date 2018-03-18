@@ -88,7 +88,7 @@ Call Via Work is a voice solution that requires little hardware setup, but has l
     
 ## Prerequisites for Call Via Work
 
-To enable any users for Call Via Work, you must have some pre-requisites in place. For more information on these prerequisites, and for steps on how to enable users for Call Via Work, see [Deploy Call Via Work in Skype for Business Server 2015](../../deploy-1/deploy-call-via-work.md). 
+To enable any users for Call Via Work, you must have some pre-requisites in place. For more information on these prerequisites, and for steps on how to enable users for Call Via Work, see [Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md). 
   
 ## See also
 
@@ -96,5 +96,5 @@ To enable any users for Call Via Work, you must have some pre-requisites in plac
 
 [Plan for remote call control in Skype for Business 2015](remote-call-control.md)
   
-[Deploy Call Via Work in Skype for Business Server 2015](../../deploy-1/deploy-call-via-work.md)
+[Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
 

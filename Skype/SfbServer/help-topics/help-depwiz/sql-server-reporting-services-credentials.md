@@ -23,6 +23,6 @@ In the **Specify Credential Page**, specify the user credentials that you want t
 > [!NOTE]
 > For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431). 
   
-For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy-1/deploy-monitoring/install-monitoring-reports.md).
+For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

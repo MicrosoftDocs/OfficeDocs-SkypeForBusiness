@@ -60,5 +60,5 @@ The **Archiving Configuration** page lists each Archiving policy that is configu
     
 - **Refresh** You can refresh the **Archiving Configuration** page to verify the status of the options of all Archiving configurations.
     
-For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md), [Deploy archiving for Skype for Business Server 2015](../../deploy-1/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

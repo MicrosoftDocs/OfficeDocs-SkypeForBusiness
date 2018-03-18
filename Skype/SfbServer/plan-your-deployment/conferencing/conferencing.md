@@ -34,7 +34,7 @@ This topic includes the following sections:
 
 There are four types of conferencing available in Skype for Business Server: web conferencing, audio and video (A/V) conferencing, dial-in conferencing, and instant message (IM) conferencing. 
   
-You can choose to enable all conferencing types, or to use only one type, depending on your needs. For example, you could enable all types, including dial-in conferencing, to allow users who are not able to join a conference with a Skype for Business client to call in and participate in the meeting audio from a telephone. When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed; you specify whether to deploy web, A/V, and dial-in conferencing by using the Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md). 
+You can choose to enable all conferencing types, or to use only one type, depending on your needs. For example, you could enable all types, including dial-in conferencing, to allow users who are not able to join a conference with a Skype for Business client to call in and participate in the meeting audio from a telephone. When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed; you specify whether to deploy web, A/V, and dial-in conferencing by using the Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 The following subsections describe the features and capabilities of each conferencing type.
   
@@ -80,7 +80,7 @@ Audio and video conferencing allows for audio and video in the meeting. Audio al
     
 ### Dial-in conferencing
 
-Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md). 
+Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md). 
   
 ### Instant messaging conferencing
 
@@ -129,7 +129,7 @@ The size of meetings that Skype for Business Server can support depends on wheth
     
 For more information about managing large meetings, see [Plan for large meetings in Skype for Business Server 2015](large-meetings.md).
   
-If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy-1/configure-skype-meeting-broadcast.md).
+If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## Determine your organizations needs
 
@@ -140,15 +140,15 @@ When you are determining which conferencing capabilities to deploy, you need to 
   
 - **Do you want to enable web conferencing, which includes document collaboration and application sharing?**
     
-    If so, you must enable conferencing for your Front End pool by using the Planning Tool or by using Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md).
+    If so, you must enable conferencing for your Front End pool by using the Planning Tool or by using Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
     Application sharing requires and uses more network bandwidth than document collaboration. Skype for Business Server provides a throttling mechanism to control each application sharing session. By default, this is set to 1.5 KB/second for each session. If you do not want to enable application sharing but you do want document collaboration, you can enable conferencing and use conferencing policies to disable application sharing. For details about configuring conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing-0/conferencing-policies.md).
     
-    To enable users to share PowerPoint presentations, you need to configure Office Web Apps Server. For details about configuring Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/office-web-app-server.md).
+    To enable users to share PowerPoint presentations, you need to configure Office Web Apps Server. For details about configuring Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **Do you want to enable audio and video conferencing?**
     
-    If so, you must enable conferencing for your Front End pool by using the Planning Tool or by using Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md).
+    If so, you must enable conferencing for your Front End pool by using the Planning Tool or by using Topology Builder. For more information, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
     Audio and video conferencing requires and uses more network bandwidth than web conferencing (which includes document collaboration and application sharing). If you do not want to enable audio and video conferencing but you do want to enable web conferencing, you can enable conferencing and use conferencing policies to disable A/V conferences.
     
@@ -163,7 +163,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If so, deploy and enable dial-in conferencing. Invited users, both inside and outside your organization, can then join the audio portion of conferences by using a PSTN phone.
     
-    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/dial-in-conferencing-2.md).
+    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md).
     
 - **Do you want to enable external users with Skype for Business clients to join conferences?**
     
@@ -177,7 +177,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If you want to allow external users, you'll need to deploy Edge Servers. Additionally, with Edge Servers deployed you can create federated relationships with other organizations--such as your customers or vendors--and users from those organizations can more easily collaborate with your users.
     
-    For details about deploying Edge Servers, see Plan for Edge Servers and Deploy Edge Servers. For details about enabling external access for Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/office-web-app-server.md).
+    For details about deploying Edge Servers, see Plan for Edge Servers and Deploy Edge Servers. For details about enabling external access for Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **Do you want to control the clients that can join Skype for Business Server meetings?**
     

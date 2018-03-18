@@ -279,7 +279,7 @@ To help ensure that inbound calls to branch site users will reach those users wh
 > [!NOTE]
 > To account for the consumption of central site resources by any branch site users that rely on the central site for presence, conferencing, or failover, we recommend that you consider each branch site user as if the user were registered with the central site. There are currently no limits on the number of branch site users, including users registered with a Survivable Branch Appliance. 
   
-We also recommend that you create a user-level dial plan and voice policy, and then assign it to branch site users. For details, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/dial-plans.md) and [Create the VoIP Routing Policy for Branch Users](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in the Deployment documentation.
+We also recommend that you create a user-level dial plan and voice policy, and then assign it to branch site users. For details, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create the VoIP Routing Policy for Branch Users](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in the Deployment documentation.
   
 #### Routing Extension Numbers
 

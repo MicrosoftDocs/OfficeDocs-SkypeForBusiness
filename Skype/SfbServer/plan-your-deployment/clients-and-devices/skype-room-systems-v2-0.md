@@ -107,7 +107,7 @@ U4- Feature introduced in Update 4 (SW Ver. 3.0.15.0).
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Skype Room Systems v2.
   
-1. Prepare a device account for each Skype Room Systems v2 console. See [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) for details.
+1. Prepare a device account for each Skype Room Systems v2 console. See [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) for details.
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
@@ -132,7 +132,7 @@ This section contains an overview of the steps required to prepare your environm
     
 ### Create and test a device account
 
-A  *device account*  is an account that the Skype Room Systems v2 client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md) for details.
+A  *device account*  is an account that the Skype Room Systems v2 client uses to access features from Exchange, like calendar, and to enable Skype for Business. See [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) for details.
   
 ### Check network availability
 
@@ -255,9 +255,9 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 
 [Skype Room Systems v2 requirements](requirements.md)
   
-[Deploy Skype Room Systems v2](../../deploy-1/deploy-clients/room-systems-v2.md)
+[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
   
-[Configure a Skype Room Systems v2 console](../../deploy-1/deploy-clients/console.md)
+[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

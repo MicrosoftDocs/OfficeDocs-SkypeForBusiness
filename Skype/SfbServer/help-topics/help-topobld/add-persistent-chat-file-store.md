@@ -33,7 +33,7 @@ You must specify a file share to be used as the file store for the Standard Edit
 
 [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy-1/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
 [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements-0.md)
   

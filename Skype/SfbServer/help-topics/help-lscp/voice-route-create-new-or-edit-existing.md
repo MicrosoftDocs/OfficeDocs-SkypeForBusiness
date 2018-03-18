@@ -18,7 +18,7 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Create or modify a voice route in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Create or modify a voice route in Skype for Business 2015](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
     
 - [Modify a Voice Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
     

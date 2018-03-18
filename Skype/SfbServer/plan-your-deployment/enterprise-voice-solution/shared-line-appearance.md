@@ -32,7 +32,7 @@ SLA is supported only on the following phone devices (it is not supported for Sk
     
 SLA is a new feature in Skype for Business Server, November 2015 Cumulative Update. 
   
-For information about deploying SLA, see [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+For information about deploying SLA, see [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## Feature List
 

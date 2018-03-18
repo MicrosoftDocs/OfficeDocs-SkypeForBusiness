@@ -40,7 +40,7 @@ This section applies only to users who were created and enabled online, but who 
   
 Before you start moving online users to your on-premises environment, check that all of the following are true:
   
-- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or [Deploy Skype for Business Server 2015](../../deploy-1/deploy-1.md), depending on which version you are using on premises. 
+- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or [Deploy Skype for Business Server 2015](../../deploy/deploy-1.md), depending on which version you are using on premises. 
     
 - Your online tenant must be configured for remote PowerShell access.
     
@@ -178,7 +178,7 @@ After you've finished these steps, you can migrate user accounts as described in
     > [!NOTE]
     > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you're moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see [https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725). 
   
-8. This is an optional step. If you need to integrate with Exchange 2013 Online, you need to use an additional hosting provider. For details, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy-1/integrate-with-exchange-server/outlook-web-app.md).
+8. This is an optional step. If you need to integrate with Exchange 2013 Online, you need to use an additional hosting provider. For details, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
     
 9. The users are now moved. To check that a user has correct values for the attributes shown in the following table, type this cmdlet: 
     

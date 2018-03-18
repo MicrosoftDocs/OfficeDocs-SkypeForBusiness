@@ -52,5 +52,5 @@ Click **Help** to access context sensitive help, such as this page.
   
 [Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat-0/configure-compliance.md)
   
-[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 

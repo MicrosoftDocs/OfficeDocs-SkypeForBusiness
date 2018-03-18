@@ -21,7 +21,7 @@ This topic describes the compatibility of Skype for Business with various versio
   
 ## Office and Skype for Business
 
-The following table describes the Skype for Business features that are supported by various versions of Office once Exchange is deployed and integrated as described in [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy-1/integrate-with-exchange-server/integrate-with-exchange-server.md).
+The following table describes the Skype for Business features that are supported by various versions of Office once Exchange is deployed and integrated as described in [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype for Business and Microsoft Office Compatibility**
 
@@ -54,7 +54,7 @@ The following table describes Skype for Business support for various versions of
 |**Exchange Server version**|**Skype for Business support**|
 |:-----|:-----|
 |Exchange Server 2016  <br/> |Same as Exchange Server 2013 support  <br/> |
-|Exchange Server 2013  <br/> |Same as Exchange Server 2010 support, with the addition of  <br/>&bull;&nbsp;&nbsp;Unified Contact Store  <br/>&bull;&nbsp;&nbsp;High-resolution pictures  <br/>&bull;&nbsp;&nbsp;Archiving integration  <br/> **Note:** For details, see [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy-1/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2013  <br/> |Same as Exchange Server 2010 support, with the addition of  <br/>&bull;&nbsp;&nbsp;Unified Contact Store  <br/>&bull;&nbsp;&nbsp;High-resolution pictures  <br/>&bull;&nbsp;&nbsp;Archiving integration  <br/> **Note:** For details, see [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/> |The following features are available only through EWS:  <br/>&bull;&nbsp;&nbsp;Read or delete items in the Conversation History folder  <br/>&bull;&nbsp;&nbsp;Read or delete voice mail items  <br/>&bull;&nbsp;&nbsp;Display extended free/busy information and meeting subject and location  <br/>&bull;&nbsp;&nbsp;Exchange contact sync  <br/> Public folders are optional in Exchange Server 2010.  <br/> |
    
 ## See also

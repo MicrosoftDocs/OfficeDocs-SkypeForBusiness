@@ -40,7 +40,7 @@ If you have chosen to enable web conferencing, you need to plan for the followin
     
 ### File Store
 
-The Skype for Business Server web conferencing service stores content shared during meetings in the file store. As part of deployment, you must specify a file share to be used as the file store for the Standard Edition server or Enterprise Edition Front End pool. You can use an existing file share for the file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share. For more information, see [Create a file share in Skype for Business Server 2015](../../deploy-1/install-0/create-a-file-share.md). The web conferencing service encrypts the content before it stores the content in the file store.
+The Skype for Business Server web conferencing service stores content shared during meetings in the file store. As part of deployment, you must specify a file share to be used as the file store for the Standard Edition server or Enterprise Edition Front End pool. You can use an existing file share for the file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share. For more information, see [Create a file share in Skype for Business Server 2015](../../deploy/install-0/create-a-file-share.md). The web conferencing service encrypts the content before it stores the content in the file store.
   
 Skype for Business Server supports using file shares on either direct attached storage (DAS) or a storage area network (SAN), including Distributed File System (DFS), and on a redundant array of independent disks (RAID) for file stores. After the Skype for Business Server Deployment Wizard has defined the location of the file share, Skype for Business Server creates a folder structure within the file share similar to: 
   
@@ -64,7 +64,7 @@ In order to use web conferencing capabilities, you must install Office Web Apps 
   
 Office Web Apps Server should be installed on a stand-alone computer that is not running Skype for Business Server, SQL Server, or any other server application. (You must not have any version of Office installed on that computer.) Any computer used to run Office Web Apps Server must also have a specific set of software installed (including .NET Framework 4.5 and Windows PowerShell 3.0). These requirements, along with information about configuring certificates and Internet Information Services (IIS), are discussed in detail in the [Microsoft Office Web Apps Deployment website](https://go.microsoft.com/fwlink/p/?linkid=257525). 
   
-For information about how to configure Skype for Business Server to work with Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy-1/deploy-conferencing/office-web-app-server.md).
+For information about how to configure Skype for Business Server to work with Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
   
 ## Requirements for audio and video conferencing
 
@@ -78,7 +78,7 @@ If you deploy audio conferencing in your network, your users will need audio dev
   
 ## Requirements for dial-in conferencing
 
-Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 ### Required components
 

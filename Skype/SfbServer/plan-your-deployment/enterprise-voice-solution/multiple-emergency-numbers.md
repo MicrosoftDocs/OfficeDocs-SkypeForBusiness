@@ -26,7 +26,7 @@ This feature is also useful for health care providers within the United States w
 
 You configure emergency calling by creating location policies that define how emergency calling will be implemented. You use the location policy to define what number constitutes an emergency call—for example, 911 in the United States; 999 and 112 in the United Kingdom. The location policy determines whether a user is enabled for emergency calling, and if so what the behavior is of an emergency call. You can also define whether corporate security should be automatically notified, and how the call should be routed.
   
-For more information about defining and modifying a location policy, see [Plan location policies for Skype for Business Server 2015](location-policies.md) and [Create location policies in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/create-location-policies.md). These topics describe concepts about location policies; however, you must follow the instructions in [Configure multiple emergency numbers in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
+For more information about defining and modifying a location policy, see [Plan location policies for Skype for Business Server 2015](location-policies.md) and [Create location policies in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md). These topics describe concepts about location policies; however, you must follow the instructions in [Configure multiple emergency numbers in Skype for Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
   
 When planning for multiple emergency numbers, keep the following in mind:
   
@@ -60,7 +60,7 @@ Before you configure multiple emergency numbers, keep the following in mind:
     
 - If the users will be dialing a number that matches the dial string, then no dial mask is required. For example, if the number a user dials is 911, then the dial string is 911 and no mask is required. 
     
-For more information about configuring multiple emergency numbers, see [Configure multiple emergency numbers in Skype for Business 2015](../../deploy-1/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+For more information about configuring multiple emergency numbers, see [Configure multiple emergency numbers in Skype for Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 The following table shows example location policies (for purposes of the example, not all attributes are shown):
   

@@ -16,12 +16,12 @@ description: "This article discusses how to manage Skype Room Systems v2 devices
  
 This article discusses how to manage Skype Room Systems v2 devices in an integrated, end-to-end manner using Microsoft Operations Management Suite. 
   
-You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md) for details). As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.
+You can configure Microsoft Operations Management Suite (OMS) to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md) for details). As your management solution matures, you can purchase additional data and management capabilities to create a more detailed view of device performance.
   
 ## Understand the log entries
 <a name="Telemetry"> </a>
 
-The following event descriptions are inserted into the event log description field every five minutes, when the SRS app records the corresponding information in the Windows event log. The OMS agent passes these reports to OMS, which parses them into the dashboard you created in [Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md). Using the dashboard you can look at individual log entries to determine courses of action if needed. 
+The following event descriptions are inserted into the event log description field every five minutes, when the SRS app records the corresponding information in the Windows event log. The OMS agent passes these reports to OMS, which parses them into the dashboard you created in [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md). Using the dashboard you can look at individual log entries to determine courses of action if needed. 
   
 Event IDs 2000 and 3000 indicate the device in question is working as expected. Event IDs 2001 and 3001 indicate an issue was found. Event ID 4000 may require action if it is seen more often than you expect, compared to a baseline you set or other deployed devices in your organization.
   
@@ -42,5 +42,5 @@ Understanding these event descriptions alerts you to problems quickly, and provi
 
 [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Deploy Skype Room Systems v2 management with OMS](../../deploy-1/deploy-clients/with-oms.md)
+[Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md)
 

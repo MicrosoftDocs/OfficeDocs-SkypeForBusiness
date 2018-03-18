@@ -20,7 +20,7 @@ What do you want to do? Click the link to the task that you want to perform.
   
 - [Enable or Disable Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Assign a Conferencing Policy to Modify a User's Default Meeting Experience](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     

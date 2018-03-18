@@ -34,7 +34,7 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Assign a Location Policy to a User](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy-1/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configure Federation, Remote User Access, and Public IM Connectivity for Users](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

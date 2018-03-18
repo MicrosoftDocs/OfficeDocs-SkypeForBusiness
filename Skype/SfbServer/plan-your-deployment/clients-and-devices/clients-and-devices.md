@@ -96,7 +96,7 @@ Client installers are available for both MSI and click-to-run type installers. T
     
 - The latest and greatest Skype for Business client experience will be found in the Skype for Business 2016 click-to-run installer. 
     
-You can do a customized deployment of the client as described in [Customize Windows client installation in Skype for Business Server 2015](../../deploy-1/deploy-clients/customize-windows-client-installation.md). Installation methods are described in greater detail in [Deploy clients for Skype for Business Server 2015](../../deploy-1/deploy-clients/deploy-clients.md)
+You can do a customized deployment of the client as described in [Customize Windows client installation in Skype for Business Server 2015](../../deploy/deploy-clients/customize-windows-client-installation.md). Installation methods are described in greater detail in [Deploy clients for Skype for Business Server 2015](../../deploy/deploy-clients/deploy-clients.md)
   
 ### Click-to-run
 

@@ -35,14 +35,14 @@ The following tables list the features supported in a hybrid deployment when int
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> |For more information, see [IM and Presence](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
-|Schedule and join online meeting through Outlook  <br/> |For more information, see [Integrate Skype for Business Server 2015 with Exchange Server](../deploy-1/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Schedule and join online meeting through Outlook  <br/> |For more information, see [Integrate Skype for Business Server 2015 with Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |IM/Presence in Outlook Web App  <br/> |For more information, see [Configure a hybrid environment in Skype for Business Server 2015](../manage/authentication/configure-a-hybrid-environment.md).  <br/> |
 |Schedule and join online meeting through Outlook Web App  <br/> ||
 |IM/Presence in Mobile clients  <br/> ||
 |Join online meetings in Mobile clients  <br/> |For more information, see [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Publish status based on Outlook calendar free/busy information  <br/> ||
-|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
-|High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy-1/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
+|High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises.  <br/> |
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
 |Archiving Content (IM and Meeting) in Exchange  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Deployment Checklist for Archiving](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
@@ -55,15 +55,15 @@ The following tables list the features supported in a hybrid deployment when int
 |
 |**Feature**|**Notes**|
 |:-----|:-----|
-|IM/Presence in Outlook  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy-1/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|IM/Presence in Outlook  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Schedule and join online meeting through Outlook  <br/> ||
-|IM/Presence in Outlook Web App  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy-1/integrate-with-exchange-server/outlook-web-app.md) <br/> |
-|Schedule and join online meeting from Outlook Web App  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy-1/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|IM/Presence in Outlook Web App  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|Schedule and join online meeting from Outlook Web App  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |IM/Presence in Mobile Clients  <br/> ||
 |Join online meeting in Mobile clients  <br/> ||
 |Publish status based on Outlook calendar free/busy information  <br/> ||
-|Contact List (via Unified Contact Store).  <br/> |Lync Server 2013 only. A Lync 2013 or Skype for Business desktop client is required.  <br/> For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy-1/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
-|High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy-1/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
+|Contact List (via Unified Contact Store).  <br/> |Lync Server 2013 only. A Lync 2013 or Skype for Business desktop client is required.  <br/> For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
+|High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
 |Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises.  <br/> |
 |Missed Conversations history and Call Logs are written to user's Exchange mailbox  <br/> ||
 |Archiving Content (IM and Meeting) in Exchange  <br/> |For more information, see [Deployment Checklist for Archiving](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |

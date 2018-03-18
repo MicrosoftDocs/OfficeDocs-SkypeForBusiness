@@ -24,7 +24,7 @@ After you install the prerequisite software on each server on which you plan to 
     
 ## Update your topology to include Persistent Chat Server
 
-Perform the following steps for installing a single Persistent Chat Server pool without a disaster recovery configuration. For configuring a stretched Persistent Chat Server pool for high availability and disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Perform the following steps for installing a single Persistent Chat Server pool without a disaster recovery configuration. For configuring a stretched Persistent Chat Server pool for high availability and disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
   
 To deploy multiple Persistent Chat Server pools, repeat the same process for each pool.
   
@@ -64,12 +64,12 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
    - Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.
     
     > [!NOTE]
-    > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Define the SQL Server compliance store if you enabled Compliance.
     
     > [!IMPORTANT]
-    > For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy-1/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 10. Define the file store. A file store is a folder where a copy of any file uploaded to the file repository is stored (for example, storing file attachments posted to a chat room). In the case of a multiple-server Persistent Chat Server topology, this must be a Universal Naming Convention (UNC) path; and for a single-server Persistent Chat Server topology, it can be a local file path.
     
