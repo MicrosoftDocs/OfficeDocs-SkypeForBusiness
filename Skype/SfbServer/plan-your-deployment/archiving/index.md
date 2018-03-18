@@ -1,4 +1,4 @@
 ---
-redirect_url: archiving-1
+redirect_url: archiving
 redirect_document_id: TRUE 
 ---

@@ -30,9 +30,9 @@ Upgrading Lync Server 2013 to Skype for Business Server 2015 involves installing
     
 - Review [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
-- [Install prerequisites for Skype for Business Server 2015](install-0/install-prerequisites.md) .
+- [Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md) .
     
-- [Install Skype for Business Server 2015](install-0/install-0.md) .
+- [Install Skype for Business Server 2015](install/install.md) .
     
 ### Step 1: Install Administrator tools and download topology
 
@@ -226,7 +226,7 @@ If the In-Place Upgrade fails, you might see a message similar to what's in the 
   
 Review the full message at the bottom of the page to help you troubleshoot the issue. Click **View logs** to get more detail.
   
-If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installing missing prerequisites**, make sure the server has all the latest Windows Server, Lync Server, and SQL Server updates applied, and all the required software and roles are installed. For a list of what's required, see [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype for Business Server 2015](install-0/install-prerequisites.md).
+If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installing missing prerequisites**, make sure the server has all the latest Windows Server, Lync Server, and SQL Server updates applied, and all the required software and roles are installed. For a list of what's required, see [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md).
   
 ## See also
 
@@ -236,7 +236,7 @@ If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installin
   
 [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Install prerequisites for Skype for Business Server 2015](install-0/install-prerequisites.md)
+[Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md)
   
-[Install Skype for Business Server 2015](install-0/install-0.md)
+[Install Skype for Business Server 2015](install/install.md)
 

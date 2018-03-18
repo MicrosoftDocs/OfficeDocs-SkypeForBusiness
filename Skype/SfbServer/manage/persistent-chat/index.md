@@ -1,4 +1,4 @@
 ---
-redirect_url: persistent-chat-0
+redirect_url: persistent-chat
 redirect_document_id: TRUE 
 ---

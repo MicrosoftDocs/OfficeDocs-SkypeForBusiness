@@ -40,7 +40,7 @@ This section applies only to users who were created and enabled online, but who 
   
 Before you start moving online users to your on-premises environment, check that all of the following are true:
   
-- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or [Deploy Skype for Business Server 2015](../../deploy/deploy-1.md), depending on which version you are using on premises. 
+- Your on-premises environment must be fully deployed and validated. For more information, see [Deploying Lync Server 2013](http://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx) or [Deploy Skype for Business Server 2015](../../deploy/deploy.md), depending on which version you are using on premises. 
     
 - Your online tenant must be configured for remote PowerShell access.
     

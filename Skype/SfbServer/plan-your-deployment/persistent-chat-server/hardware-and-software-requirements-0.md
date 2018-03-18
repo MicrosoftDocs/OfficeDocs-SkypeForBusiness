@@ -62,7 +62,7 @@ On the database server, be sure that one of the following software applications 
     
 ## Persistent Chat Server certificate requirements
 
-For details about acquiring certificates, creating the SQL Server database, and creating file stores, see [Deploy Skype for Business Server 2015](../../deploy/deploy-1.md). 
+For details about acquiring certificates, creating the SQL Server database, and creating file stores, see [Deploy Skype for Business Server 2015](../../deploy/deploy.md). 
   
 ## For more information
 

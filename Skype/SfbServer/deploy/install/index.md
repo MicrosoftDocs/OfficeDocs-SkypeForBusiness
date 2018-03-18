@@ -1,4 +1,4 @@
 ---
-redirect_url: install-0
+redirect_url: install
 redirect_document_id: TRUE 
 ---

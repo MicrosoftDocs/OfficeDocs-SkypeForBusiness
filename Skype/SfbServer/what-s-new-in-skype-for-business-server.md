@@ -32,7 +32,7 @@ New features in Skype for Business Server 2015 include improvements to:
 
 The Skype for Business client looks very similar to the consumer version of Skype and uses the same buttons and icons. Fewer menus and a flatter task hierarchy make it easy for users to quickly find the controls and commands they need. 
   
-Skype for Business includes the new user experience described above and the Lync 2013 user experience released previously. The inclusion of both experiences allows enterprises to manage change for their users by controlling the process and timing of the new client roll-out. The default user experience depends on which version of the server you're using. Administrators choose the preferred experience by using the **Set-CsClientPolicy** cmdlet with the EnableSkypeUI parameter. For more information about configuring the client experience, see [Configure the client experience with Skype for Business](deploy-1/deploy-clients/configure-the-client-experience.md) and [Desktop client feature comparison for Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
+Skype for Business includes the new user experience described above and the Lync 2013 user experience released previously. The inclusion of both experiences allows enterprises to manage change for their users by controlling the process and timing of the new client roll-out. The default user experience depends on which version of the server you're using. Administrators choose the preferred experience by using the **Set-CsClientPolicy** cmdlet with the EnableSkypeUI parameter. For more information about configuring the client experience, see [Configure the client experience with Skype for Business](deploy/deploy-clients/configure-the-client-experience.md) and [Desktop client feature comparison for Skype for Business](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md).
   
 > [!NOTE]
 > The Lync 2013 client experience is not an option for Skype for Business 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x. 
@@ -102,7 +102,7 @@ There are two scenarios for in-place upgrade: The Move User method, which requir
   
 ### Smart Setup
 
-The Smart Setup feature, which automatically detects and downloads updates, is now part of the Setup program. During the installation process, the user is asked if the installation process should check for updates. For more information, see [Install Skype for Business Server 2015](deploy-1/install/install-0.md).
+The Smart Setup feature, which automatically detects and downloads updates, is now part of the Setup program. During the installation process, the user is asked if the installation process should check for updates. For more information, see [Install Skype for Business Server 2015](deploy/install/install.md).
   
 ### Improved Front End Server patching and upgrade process
 

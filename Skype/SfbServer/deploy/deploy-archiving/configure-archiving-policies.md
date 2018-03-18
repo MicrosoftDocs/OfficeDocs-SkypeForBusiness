@@ -32,7 +32,7 @@ You initially set up archiving policies when you deploy archiving, but you can c
 > [!NOTE]
 > If you enable Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange and have their mailboxes put on In-Place Hold. 
   
-For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving-1.md). For details about how to manage policies after deployment, see [Manage archiving policies in Skype for Business Server 2015](../../manage/archiving/policies.md).
+For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md). For details about how to manage policies after deployment, see [Manage archiving policies in Skype for Business Server 2015](../../manage/archiving/policies.md).
   
 ## Global policy
 
@@ -72,7 +72,7 @@ You can enable or disable archiving for specific sites by creating an archiving 
     
 3. In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.
     
-    For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving-1.md).
+    For details about how archiving policies work, including the hierarchy for global, site, and user policies, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
     
 4. Click **New**, and then click **Site policy**.
     

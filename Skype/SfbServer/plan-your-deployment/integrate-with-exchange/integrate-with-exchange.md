@@ -21,7 +21,7 @@ Before you can integrate Skype for Business Server 2015 and Exchange Server, you
   
 For details about installing Exchange Server, see the Exchange Server Planning and Deployment documentation for your version of Exchange. 
   
-For details about installing Skype for Business Server 2015, see [Deploy Skype for Business Server 2015](../../deploy/deploy-1.md).
+For details about installing Skype for Business Server 2015, see [Deploy Skype for Business Server 2015](../../deploy/deploy.md).
   
 After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server 2015 and Exchange Server; these certificates allow Skype for Business Server 2015 and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
   
