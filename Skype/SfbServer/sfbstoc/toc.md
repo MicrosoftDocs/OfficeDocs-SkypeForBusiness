@@ -469,7 +469,7 @@
 ##### [Delete an existing policy](../manage/archiving/delete-an-existing-policy.md)
 #### [Change Archiving database options](../manage/archiving/change-archiving-database-options.md)
 #### [Export archived data](../manage/archiving/export-archived-data.md)
-### [Conferencing](../manage/conferencing/conferencing-0.md)
+### [Conferencing](../manage/conferencing/conferencing.md)
 #### [Conferencing policies](../manage/conferencing/conferencing-policies.md)
 ##### [View](../manage/conferencing/view.md)
 ##### [Create policies](../manage/conferencing/create-policies.md)
