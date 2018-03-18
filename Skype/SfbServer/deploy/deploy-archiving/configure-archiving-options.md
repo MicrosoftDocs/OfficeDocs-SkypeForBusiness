@@ -41,7 +41,7 @@ You will need to configure options for the following:
 > [!NOTE]
 > You should specify all appropriate options before enabling archiving. 
   
-For details about how archiving configurations are implemented, including which options you can specify and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md). For details about how to manage configurations after deployment by using the Control Panel or by using Windows PowerShell, see [Manage archiving options in Skype for Business Server 2015](../../manage/archiving/options.md).
+For details about how archiving configurations are implemented, including which options you can specify and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving-1.md). For details about how to manage configurations after deployment by using the Control Panel or by using Windows PowerShell, see [Manage archiving options in Skype for Business Server 2015](../../manage/archiving/options.md).
   
 ## Configure global level archiving options
 

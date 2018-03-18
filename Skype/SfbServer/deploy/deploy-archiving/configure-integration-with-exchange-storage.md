@@ -16,7 +16,7 @@ description: "Summary: Read this topic to learn how to configure integration wit
  
 **Summary:** Read this topic to learn how to configure integration with Exchange storage in Skype for Business Server 2015.
   
-If you use Microsoft Exchange integration for all users in your deployment, you don't need to configure Skype for Business Server archiving policies for your users. Instead, you configure Exchange In-Place Hold policies to support archiving for users homed on Exchange, with their mailboxes put on In-Place Hold. Before you configure integration with Exchange storage, read [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving-1/archiving-1.md). For details about Exchange In-Place Hold policies, see the Exchange product documentation. 
+If you use Microsoft Exchange integration for all users in your deployment, you don't need to configure Skype for Business Server archiving policies for your users. Instead, you configure Exchange In-Place Hold policies to support archiving for users homed on Exchange, with their mailboxes put on In-Place Hold. Before you configure integration with Exchange storage, read [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving-1.md). For details about Exchange In-Place Hold policies, see the Exchange product documentation. 
   
 ## Configure integration with Microsoft Exchange storage
 
