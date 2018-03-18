@@ -3,7 +3,7 @@ title: Enable Microsoft Teams side-by-side with Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -179,7 +179,7 @@ At its core, Microsoft Teams was built around persistent chat and integration wi
 
 Since by default users in your organization with an eligible Office 365 subscription license are enabled for Teams, a limited Teams pilot will involve disabling the Teams license for all users who are outside of the pilot group.
 
-To focus the Teams release as a collaboration and private chat solution, and to reduce user confusion due to overlapping capabilities with Skype for Business, you can change the following settings at the Office 365 tenant level. To change these Office 365 settings, see [Set up Microsoft Teams in your Office 365 organization](Office-365-set-up.md).
+To focus the Teams release as a collaboration and private chat solution, and to reduce user confusion due to overlapping capabilities with Skype for Business, you can change the following settings at the Office 365 tenant level. To change these Office 365 settings, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
 
 <table>
 <thead>

@@ -3,7 +3,7 @@ title: Use the Microsoft Teams Meeting add-in in Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 01/23/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -17,6 +17,8 @@ appliesto:
 
 Use the Teams Meeting add-in in Outlook
 =======================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013 or Office 2016 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon. 
 

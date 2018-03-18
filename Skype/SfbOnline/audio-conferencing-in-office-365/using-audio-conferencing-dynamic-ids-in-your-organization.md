@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e55e4bff-fb67-4389-8695-f03024baa9b6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: 
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -59,5 +61,3 @@ These examples show you the new experience for two Skype for Business meetings t
 - [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
     
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-    
-

@@ -3,7 +3,7 @@ title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018 
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag 
@@ -18,6 +18,8 @@ appliesto:
 
 Admin settings for apps in Microsoft Teams
 ==========================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Teams admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, and whether side-loading apps is allowed.
 
@@ -48,7 +50,8 @@ Sideloading is how you add an app to Teams by uploading a zip file directly to a
 
 Only team owners, or members who are granted permissions, can sideload apps into Teams.  
 
-![Screenshot of the Apps section of Microsoft Teams settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image1.png) 
+![Screenshot of the expanded Apps section in Tenant-wide settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+
 
 ## Creating and uploading app packages 
 
