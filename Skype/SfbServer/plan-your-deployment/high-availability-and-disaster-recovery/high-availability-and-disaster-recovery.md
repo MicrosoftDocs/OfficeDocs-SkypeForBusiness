@@ -36,11 +36,11 @@ This section explains these features, and also covers what steps you can take fo
 
 #### 
 
-[Front End Pool high availability and management](high-availability-0.md)
+[Front End Pool high availability and management](high-availability.md)
   
-[Front End pool disaster recovery in Skype for Business Server 2015](disaster-recovery-0.md)
+[Front End pool disaster recovery in Skype for Business Server 2015](disaster-recovery.md)
   
-[User experience during pool failure in Skype for Business Server 2015](user-experience-0.md)
+[User experience during pool failure in Skype for Business Server 2015](user-experience.md)
   
 [Back End Server high availability in Skype for Business Server 2015](back-end-server.md)
   

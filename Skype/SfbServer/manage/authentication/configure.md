@@ -345,5 +345,5 @@ The following steps describe how to create a custom proxy configuration for Edge
 
 [Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
   
-[Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use-0.md)
+[Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use.md)
 

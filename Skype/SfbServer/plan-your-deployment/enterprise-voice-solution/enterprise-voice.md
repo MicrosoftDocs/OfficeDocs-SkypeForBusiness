@@ -54,11 +54,11 @@ See the following sections for more information on planning your Enterprise Voic
     
 - [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](network-settings-for-advanced-features.md)
     
-- [Plan for call admission control in Skype for Business Server 2015](call-admission-control-0.md)
+- [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)
     
 - [Plan for emergency services in Skype for Business Server 2015](emergency-services.md)
     
-- [Plan for media bypass in Skype for Business 2015](media-bypass-0.md)
+- [Plan for media bypass in Skype for Business 2015](media-bypass.md)
     
 - [Plan for private telephone lines with Skype for Business 2015](private-telephone-lines.md)
     

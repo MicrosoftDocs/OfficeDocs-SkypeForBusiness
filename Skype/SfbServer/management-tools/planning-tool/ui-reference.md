@@ -23,17 +23,17 @@ These topics document the interface for the Planning Tool available from the [Mi
     
 - [Web Conferencing (Planning Tool)](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise Voice (Planning Tool)](../../help-topics/help-planning/enterprise-voice-0.md)
+- [Enterprise Voice (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
     
 - [Exchange Unified Messaging Settings (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
 - [Call Admission Control (Planning Tool)](../../help-topics/help-planning/call-admission-control.md)
     
-- [Monitoring (Planning Tool)](../../help-topics/help-planning/monitoring-0.md)
+- [Monitoring (Planning Tool)](../../help-topics/help-planning/monitoring.md)
     
 - [Persistent Chat (Planning Tool)](../../help-topics/help-planning/persistent-chat.md)
     
-- [Mobility (Planning Tool)](../../help-topics/help-planning/mobility-0.md)
+- [Mobility (Planning Tool)](../../help-topics/help-planning/mobility.md)
     
 - [Federation (Planning Tool)](../../help-topics/help-planning/federation.md)
     
@@ -55,7 +55,7 @@ These topics document the interface for the Planning Tool available from the [Mi
     
 - [Mediation Collocation (Planning Tool)](../../help-topics/help-planning/mediation-collocation.md)
     
-- [Archiving (Planning Tool)](../../help-topics/help-planning/archiving-0.md)
+- [Archiving (Planning Tool)](../../help-topics/help-planning/archiving.md)
     
 - [Branch Sites (Planning Tool)](../../help-topics/help-planning/branch-sites.md)
     

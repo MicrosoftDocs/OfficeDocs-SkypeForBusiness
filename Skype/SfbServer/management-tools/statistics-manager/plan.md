@@ -21,21 +21,21 @@ description: "Summary: Read this topic to learn about Statistics Manager for Sky
   
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs. 
   
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan-0.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
   
 This topic contains the following sections:
   
 - [Features and capabilities](http://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
     
-- [What's new in Release 1.1](plan-0.md#BKMK_WhatsNew)
+- [What's new in Release 1.1](plan.md#BKMK_WhatsNew)
     
 - [Components](http://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
     
-- [On-premises deployment](plan-0.md#BKMK_DeploymentOptions)
+- [On-premises deployment](plan.md#BKMK_DeploymentOptions)
     
 - [Requirements](http://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
     
-- [Security considerations](plan-0.md#BKMK_Security)
+- [Security considerations](plan.md#BKMK_Security)
     
 ## Features and capabilities
 <a name="BKMK_Features"> </a>
@@ -75,7 +75,7 @@ Statistics Manager allows you to:
 ## What's new in Release 1.1
 <a name="BKMK_WhatsNew"> </a>
 
-The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md).
+The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
   
 - Scenario views have been added for Edge Media, Fabric Health, Pool Failover and Registration scenarios.
     
@@ -177,7 +177,7 @@ For more information, see the following:
   
 - [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
 - [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     

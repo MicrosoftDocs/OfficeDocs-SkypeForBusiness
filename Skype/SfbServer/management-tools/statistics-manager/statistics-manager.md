@@ -19,11 +19,11 @@ description: "Summary: Read this topic to learn about Statistics Manager for Sky
   
 This section contains the following topics:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
 - [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
 - [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     

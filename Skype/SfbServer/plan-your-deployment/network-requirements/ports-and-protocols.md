@@ -31,7 +31,7 @@ This section summarizes the ports and protocols used by servers, load balancers,
 > [!NOTE]
 > When Skype for Business Server starts, it opens the required ports in the Windows Firewall. Windows Firewall should already be running in most normal applications, but if it is not being used Skype for Business Server will function without it. 
   
-For details about firewall configuration for edge components, see [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios-0.md). 
+For details about firewall configuration for edge components, see [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md). 
   
 The following table lists the ports that need to be open on each internal server role. 
   

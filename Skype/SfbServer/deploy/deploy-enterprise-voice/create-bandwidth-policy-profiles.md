@@ -20,7 +20,7 @@ Create or modify bandwidth policies, which are used by Enterprise Voice call adm
   
 Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.
   
-For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md).
+For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions. For example, the 5Mb_Link bandwidth policy profile sets the following limits: 
   

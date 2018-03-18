@@ -48,7 +48,7 @@ Click **Help** to access context sensitive help, such as this page.
   
 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements-0.md)
+[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
 [Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
 

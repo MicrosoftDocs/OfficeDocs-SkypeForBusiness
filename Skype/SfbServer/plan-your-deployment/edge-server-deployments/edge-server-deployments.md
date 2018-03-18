@@ -48,6 +48,6 @@ The planning articles are:
     
 - [Edge Server environmental requirements in Skype for Business Server 2015](edge-environmental-requirements.md)
     
-- [Edge Server scenarios in Skype for Business Server 2015](scenarios-0.md)
+- [Edge Server scenarios in Skype for Business Server 2015](scenarios.md)
     
 

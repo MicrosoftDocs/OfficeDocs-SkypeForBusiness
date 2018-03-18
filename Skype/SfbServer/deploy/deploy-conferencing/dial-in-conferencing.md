@@ -16,21 +16,21 @@ description: "Summary: Read this topic to learn how to configure dial-in confere
  
 **Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
   
-After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing). 
+After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing). 
   
 To configure dial-in conferencing, you must perform the following tasks:
   
-- [Configure dial plans](dial-in-conferencing-2.md#BKMK_ConfigureDialPlans)
+- [Configure dial plans](dial-in-conferencing.md#BKMK_ConfigureDialPlans)
     
-- [Configure dial-in conferencing regions](dial-in-conferencing-2.md#BKMK_ConfigureDialInRegions)
+- [Configure dial-in conferencing regions](dial-in-conferencing.md#BKMK_ConfigureDialInRegions)
     
-- [Configure dial-in access numbers](dial-in-conferencing-2.md#BKMK_ConfigureDialInAccessNumbers)
+- [Configure dial-in access numbers](dial-in-conferencing.md#BKMK_ConfigureDialInAccessNumbers)
     
-- [Configure conferencing policies](dial-in-conferencing-2.md#BKMK_ConfigureConferencingPolicies)
+- [Configure conferencing policies](dial-in-conferencing.md#BKMK_ConfigureConferencingPolicies)
     
-- [Assign a Line URI to a user account](dial-in-conferencing-2.md#BKMK_AssignaLineURI)
+- [Assign a Line URI to a user account](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-In addition, you may perform the following optional tasks. For more information about these optional tasks, see [Manage dial-in conferencing in Skype for Business Server 2015](../../manage/conferencing/dial-in-conferencing-1.md).
+In addition, you may perform the following optional tasks. For more information about these optional tasks, see [Manage dial-in conferencing in Skype for Business Server 2015](../../manage/conferencing/dial-in-conferencing.md).
   
 - Manage PIN policies for dial-in conferencing
     
@@ -121,7 +121,7 @@ For more information, see [Set-CsDialPlan](../../manage/management-shell/set-csd
 
 When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences. These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage.
   
-Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions. For details about regions, see [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md). For details about configuring dial plans for dial-in conferencing, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Before you can create dial-in access numbers, you must first plan your dial-in conferencing regions and then configure dial plans with the regions. For details about regions, see [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md). For details about configuring dial plans for dial-in conferencing, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
 > [!NOTE]
 > You cannot use a new dial-in access number until Active Directory Domain Services (AD DS) replication of that access number is complete. Replication can take several hours to complete. 

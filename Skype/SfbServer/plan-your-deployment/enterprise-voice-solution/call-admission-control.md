@@ -82,7 +82,7 @@ Call admission control is not enforced beyond the limits of the Skype for Busine
 
 Call admission control is enforceable on the Mediation Server regardless of whether it is connected to an IP/PBX, a PSTN gateway, or a SIP trunk. Because the Mediation Server is a back-to-back user agent (B2BUA), it terminates media. It has two connection sides: a side that is connected to Skype for Business Server and a gateway side, which is connected to PSTN gateways, IP/PBXs, or SIP trunks. For details about PSTN connections, see [Plan for PSTN connectivity in Skype for Business Server 2015](pstn-connectivity-0.md).
   
-CAC can be enforced on both sides of the Mediation Server unless media bypass is enabled. If media bypass is enabled, the media traffic doesn't traverse the Mediation Server but instead flows directly between the Skype for Business client and the gateway. In this case, CAC is not needed. For details, see [Plan for media bypass in Skype for Business 2015](media-bypass-0.md).
+CAC can be enforced on both sides of the Mediation Server unless media bypass is enabled. If media bypass is enabled, the media traffic doesn't traverse the Mediation Server but instead flows directly between the Skype for Business client and the gateway. In this case, CAC is not needed. For details, see [Plan for media bypass in Skype for Business 2015](media-bypass.md).
   
 The following figure illustrates how CAC is enforced on PSTN connections with and without media bypass enabled.
   

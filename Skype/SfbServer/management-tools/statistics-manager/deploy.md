@@ -19,10 +19,10 @@ description: "Summary: Read this topic to learn how to deploy Statistics Manager
   
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
   
-Before you attempt to install Statistics Manager, be sure you are familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md).
+Before you attempt to install Statistics Manager, be sure you are familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server 2015](plan.md).
   
 > [!NOTE]
-> If you are upgrading from a previous version of Statistics Manager, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md). 
+> If you are upgrading from a previous version of Statistics Manager, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md). 
   
 > [!NOTE]
 > The Statistics Manager Website has been tested and works correctly on Internet Explorer 11+, Edge 20.10240+ , and Chrome 46+ (current evergreen version). 
@@ -294,9 +294,9 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
 - [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     

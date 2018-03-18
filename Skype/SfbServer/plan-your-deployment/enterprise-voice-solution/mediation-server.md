@@ -79,7 +79,7 @@ Call admission control (CAC), manages real-time session establishment, based on 
   
 Media bypass and bandwidth reservation are mutually exclusive. If media bypass is employed for a call, call admission control is not performed for that call. The assumption here is that there are no links with constrained bandwidth involved in the call. If call admission control is used for a particular call that involves the Mediation Server, that call cannot employ media bypass.
   
-For details about media bypass or call admission control, see [Plan for media bypass in Skype for Business 2015](media-bypass-0.md) or [Plan for call admission control in Skype for Business Server 2015](call-admission-control-0.md).
+For details about media bypass or call admission control, see [Plan for media bypass in Skype for Business 2015](media-bypass.md) or [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md).
   
 ## Enhanced 9-1-1 (E9-1-1) and Mediation Server
 

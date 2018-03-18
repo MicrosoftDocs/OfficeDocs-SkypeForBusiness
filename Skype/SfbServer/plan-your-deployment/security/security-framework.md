@@ -49,6 +49,6 @@ The topics in this section describe how each of these fundamental elements works
     
 - [User and client authentication for Skype for Business Server 2015](user-and-client-authentication.md)
     
-- [Windows PowerShell and Skype for Business Server 2015 management tools](management-tools-0.md)
+- [Windows PowerShell and Skype for Business Server 2015 management tools](management-tools.md)
     
 

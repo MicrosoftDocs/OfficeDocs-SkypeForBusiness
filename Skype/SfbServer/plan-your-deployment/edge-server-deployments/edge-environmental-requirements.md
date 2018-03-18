@@ -322,7 +322,7 @@ Please remember that currently XMPP is only supported for Google Talk, if you wa
 ## Port and firewall planning
 <a name="PortFirewallPlan"> </a>
 
-Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server 2015](scenarios-0.md) you can check out for your particular deployment concerns.
+Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) you can check out for your particular deployment concerns.
   
 ### General protocol usage
 
@@ -335,7 +335,7 @@ Before we look at the summary tables for external and internal firewalls, let's 
    
 ### External port firewall summary table
 
-The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios-0.md) section.
+The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
   
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -376,7 +376,7 @@ We're giving hardware load balancers (HLBs) and Edge ports their own section, as
   
 #### External port firewall summary table
 
-The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios-0.md) section.
+The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
   
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|

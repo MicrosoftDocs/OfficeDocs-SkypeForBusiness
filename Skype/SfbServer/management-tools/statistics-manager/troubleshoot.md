@@ -169,11 +169,11 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan-0.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
 - [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade-0.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
 - [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
     

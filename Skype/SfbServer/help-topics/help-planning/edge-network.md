@@ -17,7 +17,7 @@ description: "Most Edge components are deployed in a perimeter network. The foll
 
 # Edge Network (Planning Tool)
  
-Most Edge components are deployed in a perimeter network. The following components make up the Edge topology of the perimeter network. Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios-0.md) and are in the perimeter network. Edge components include the following:
+Most Edge components are deployed in a perimeter network. The following components make up the Edge topology of the perimeter network. Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network. Edge components include the following:
   
 - Edge Server(s)
     

@@ -58,7 +58,7 @@ If you are deploying dial-in conferencing, you must consider the following:
     
 - You must deploy dial-in conferencing in every pool where you deploy Skype for Business Server conferencing. You do not need to assign access numbers in every pool, but you must deploy the dial-in conferencing feature in every pool. This requirement supports the recorded name feature when a user calls an access number from one pool to join a Skype for Business Server conference in a different pool. 
     
-For more information, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md).
+For more information, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing.md).
   
 ## Web conferencing considerations
 

@@ -20,9 +20,9 @@ Deploy advanced Enterprise Voice features in Skype for Business Server.
   
 After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section. 
   
-- [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass-0.md)
+- [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md)
+- [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
 - [Plan for emergency services in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     

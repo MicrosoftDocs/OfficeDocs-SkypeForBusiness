@@ -79,5 +79,5 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 
 #### 
 
-[Front End pool disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery-0.md)
+[Front End pool disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
 

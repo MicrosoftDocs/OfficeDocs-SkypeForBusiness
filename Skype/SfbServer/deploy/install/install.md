@@ -44,7 +44,7 @@ Getting Skype for Business Server up and running for the first time involves eig
     
 - [Install administrative tools in Skype for Business Server 2015](install-administrative-tools.md) : The administrative tools include Topology Builder and Control Panel. You must install the administrative tools on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server.
     
-- [Prepare Active Directory for Skype for Business Server 2015](prepare-active-directory-0.md) : Skype for Business Server works closely with Active Directory. You must prepare the Active Directory domain to work with Skype for Business Server. You can do this through the Deployment Wizard, and it is only done once for the domain. This is because the process creates groups and modifies the domain, and you need to do that only once.
+- [Prepare Active Directory for Skype for Business Server 2015](prepare-active-directory.md) : Skype for Business Server works closely with Active Directory. You must prepare the Active Directory domain to work with Skype for Business Server. You can do this through the Deployment Wizard, and it is only done once for the domain. This is because the process creates groups and modifies the domain, and you need to do that only once.
     
 - [Create DNS records for Skype for Business Server 2015](create-dns-records.md) : In order for Skype for Business Server to work properly, a number of DNS settings must be in place. This is so that clients know how to access the services and the servers know about each other. These settings only need to be completed once per deployment because once you assign a DNS entry, it is available throughout the domain.
     

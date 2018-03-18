@@ -59,7 +59,7 @@ If you also have Microsoft Exchange Server 2013 deployed, you can integrate the 
 
 The only components required for instant messaging (IM) and presence are:
   
-- Your organization's Front End servers (known as a pool) or a Standard Edition server. IM and presence capabilities are always enabled on these servers. For more information on Front End pool topologies and management, see [Front End Pool high availability and management](high-availability-and-disaster-recovery/high-availability-0.md).
+- Your organization's Front End servers (known as a pool) or a Standard Edition server. IM and presence capabilities are always enabled on these servers. For more information on Front End pool topologies and management, see [Front End Pool high availability and management](high-availability-and-disaster-recovery/high-availability.md).
     
 - A load balancer, if you have an Enterprise Edition Front End pool.
     

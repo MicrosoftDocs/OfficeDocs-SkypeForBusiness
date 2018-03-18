@@ -20,7 +20,7 @@ description: "Summary: Configure a trunk with media bypass enabled for Skype for
   
 Follow these steps to configure a trunk with media bypass enabled. To configure a trunk with media bypass disabled, see [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md). 
   
-Media bypass is useful when you want to minimize the number of Mediation Servers deployed. For more information, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass-0.md)
+Media bypass is useful when you want to minimize the number of Mediation Servers deployed. For more information, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 We strongly recommend that you enable media bypass. However, before you enable media bypass on a SIP trunk, confirm that your qualified SIP trunk provider supports media bypass and is able to accommodate the requirements for successfully enabling the scenario. Specifically, the provider must have the IP addresses of servers in your organization's internal network.
   
@@ -64,7 +64,7 @@ A trunk configuration as described below groups a set of parameters that are app
 6. Select the **Enable media bypass** check box if you want media to bypass the Mediation Server for processing by the trunk peer.
     
     > [!IMPORTANT]
-    > For media bypass to work successfully, the PSTN gateway, IP-PBX, or ITSP Session Border Controller must support certain capabilities. For details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass-0.md). 
+    > For media bypass to work successfully, the PSTN gateway, IP-PBX, or ITSP Session Border Controller must support certain capabilities. For details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 
   
 7. Select the **Centralized media processing** check box if there is a well-known media termination point (for example, a PSTN gateway where the media termination has the same IP as the signaling termination). Clear this check box if the trunk does not have a well-known media termination point.
     

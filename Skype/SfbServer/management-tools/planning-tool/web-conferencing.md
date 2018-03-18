@@ -28,7 +28,7 @@ For planning details about enabling web conferencing in your organization, see t
     
 - [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing-0.md)
+- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
 - [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
     

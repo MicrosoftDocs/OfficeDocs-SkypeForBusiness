@@ -80,7 +80,7 @@ Audio and video conferencing allows for audio and video in the meeting. Audio al
     
 ### Dial-in conferencing
 
-Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing-0.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md). 
+Dial-in conferencing allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. For more information about dial-in conferencing, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### Instant messaging conferencing
 
@@ -117,7 +117,7 @@ The components that support conferencing features include the following:
     
 ## Conferencing policies
 
-To enforce your organization's policies and control bandwidth usage, you can set policies for the types of meetings that users can organize. You can define a wide variety of conferencing policies, and assign them to individual users and groups of users. You can also set policies that govern peer-to-peer conversations. For details about setting conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md). For details about bandwidth management, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control-0.md).
+To enforce your organization's policies and control bandwidth usage, you can set policies for the types of meetings that users can organize. You can define a wide variety of conferencing policies, and assign them to individual users and groups of users. You can also set policies that govern peer-to-peer conversations. For details about setting conferencing policies, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md). For details about bandwidth management, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## Support for large meetings
 
@@ -163,7 +163,7 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If so, deploy and enable dial-in conferencing. Invited users, both inside and outside your organization, can then join the audio portion of conferences by using a PSTN phone.
     
-    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing-2.md).
+    Dial-in conferencing is an optional feature that you can configure when you deploy Skype for Business Server conferencing. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. Dial-in conferencing supports both enterprise and anonymous users. For more information about configuring dial-in conferencing for enterprise and anonymous users, see [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
 - **Do you want to enable external users with Skype for Business clients to join conferences?**
     
