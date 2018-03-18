@@ -16,6 +16,6 @@ description: "For details about using Deployment Wizard to install Skype for Bus
 
 # Deployment Wizard: Admin Tools
  
-For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install-0/install-0.md).
+For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../deploy/install/install-0.md).
   
 

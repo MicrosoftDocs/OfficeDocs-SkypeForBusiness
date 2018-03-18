@@ -129,7 +129,7 @@ When adding SQL Server storage databases to your topology, you can choose to col
   
 If you collocate the Archiving database with the Monitoring database, back-end database, or both of these databases, you can either use a single SQL instance for any or all of the databases, or you can use a separate SQL instance for each database, with the following limitation: Each SQL instance can contain only a single back-end database, single Monitoring database, and single Archiving database.
   
-For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server 2015](../../deploy/install-0/create-and-publish-new-topology.md).
+For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
   
 ### Determine archiving options and user policies
 

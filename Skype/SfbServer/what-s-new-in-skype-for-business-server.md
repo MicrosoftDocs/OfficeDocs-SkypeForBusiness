@@ -102,7 +102,7 @@ There are two scenarios for in-place upgrade: The Move User method, which requir
   
 ### Smart Setup
 
-The Smart Setup feature, which automatically detects and downloads updates, is now part of the Setup program. During the installation process, the user is asked if the installation process should check for updates. For more information, see [Install Skype for Business Server 2015](deploy-1/install-0/install-0.md).
+The Smart Setup feature, which automatically detects and downloads updates, is now part of the Setup program. During the installation process, the user is asked if the installation process should check for updates. For more information, see [Install Skype for Business Server 2015](deploy-1/install/install-0.md).
   
 ### Improved Front End Server patching and upgrade process
 

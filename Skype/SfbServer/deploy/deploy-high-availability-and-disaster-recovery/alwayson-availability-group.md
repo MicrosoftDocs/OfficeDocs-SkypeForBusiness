@@ -120,7 +120,7 @@ How you deploy an AlwaysOn Availability Group depends on whether you are deployi
     
    - In the**Summary** page, verify all settings and click Finish.
     
-7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server 2015](../../deploy/install-0/create-and-publish-new-topology.md). When you do, specify the AlwaysOn Availability Group as the SQL store for the pool.
+7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AlwaysOn Availability Group as the SQL store for the pool.
     
 8. After the pool and the AlwaysOn Availability Group are deployed, perform some final steps to make sure that the SQL logins are on each of the replicas in the AlwaysOn Availability Group. 
     

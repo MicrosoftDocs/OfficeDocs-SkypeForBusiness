@@ -106,7 +106,7 @@ Additionally, if you want to optionally provide disaster recovery backup and fai
   
 Additional notes about the topology include:
   
-- A file share is required for storing meeting content and, if Archiving Server is deployed and enabled, for storing the archiving files. The file share can be dedicated to the pool or can be the same file share used by another pool at the site in which the pool is deployed. For details about configuring the file share, see [Create a file share in Skype for Business Server 2015](../../deploy/install-0/create-a-file-share.md).
+- A file share is required for storing meeting content and, if Archiving Server is deployed and enabled, for storing the archiving files. The file share can be dedicated to the pool or can be the same file share used by another pool at the site in which the pool is deployed. For details about configuring the file share, see [Create a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md).
     
 - An Office Web Apps Server/Office Online Server is required for enabling the PowerPoint presentation functionality in large meetings. The Office Web Apps Server/Office Online Server can be dedicated to the large meeting pool or, it can be the same Office Web Apps Server/Office Online Server used by other pools at the site in which the dedicated pool is deployed. For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
