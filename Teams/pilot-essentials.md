@@ -122,7 +122,9 @@ A successful pilot experience provides your participants with clearly defined ta
 
 ## Step Four: Create your Communications
 
-Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants. In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.
+Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants.
+
+In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot. A good help topic to include is [Switch to Teams from Skype for Business](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), which shows some familar features, as well as some new features that are only available in Microsoft Teams.
 
 <table>
 <thead>
