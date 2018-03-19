@@ -21,7 +21,8 @@ Use these training resources to help your organization get value from Microsoft 
 |---------|---------|
 | [Office Training Center](https://support.office.com/article/Microsoft-Teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | Training to help your users get the most out of Microsoft Teams |
 | [Microsoft Teams Help](https://support.office.com/teams) | Teams end user product documentation |
-| [Welcome to Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  A guide to help you get up and running quickly with Teams, the chat-centered workspace in Office 365. |
+| [Welcome to Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)  |  A guide to help you get up and running quickly with Teams, the chat-centered workspace in Office 365 |
+| [Switch to Teams from Skype for Business](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)  |  See how to use familar features, and learn about new features |
 | [Microsoft Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [What is Microsoft Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Short introduction to Teams, your hub for teamwork  |
 | [Microsoft Teams channel on YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
