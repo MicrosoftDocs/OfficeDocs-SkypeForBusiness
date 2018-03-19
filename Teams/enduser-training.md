@@ -3,7 +3,7 @@ title: End user training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, ninadara
