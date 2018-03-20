@@ -12,5 +12,7 @@ ms.collection:
 description: "Summary: Explore these links to learn how to implement Skype for Business Server 2019."
 ---
 
-# Skype for Business Server 2019 Overview
+# Skype for Business Server 2019
+
+[!INCLUDE [disclaimer](disclaimer.md)]
 
