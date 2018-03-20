@@ -33,15 +33,15 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
 |Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro &sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
    
 &sup1; — Core M3 processors are not supported on this model.
     
-&sup2; — Core M3 processors are not supported on this model.
+ 
     
 - One of the following docking station options to secure the tablet to the meeting room table. 
     
@@ -50,8 +50,10 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-    
-- 
+
+  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
+<!-- HP dock is still pending  -->  
+ 
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
 |:-----|:-----|

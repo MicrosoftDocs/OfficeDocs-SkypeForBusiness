@@ -82,18 +82,20 @@ Skype Room Systems v2 is Microsoft's latest conferencing solution designed to tr
 - Additional OMS reporting U2
     
 - Ability for IT Admin to configure devices remotely U2
-    
+    <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
 - Runs on Surface Pro tablet U3
     
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703) U3
     
-- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )U3 dock hardware
+- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware U3
     
 - OEM Support for Environment Controls (Crestron) U3
     
 - Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardwareU4
     
 - Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)U4
+
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)U5 dock hardware  
     
 U1 - Feature introduced in Update 1 (SW Ver. 2.0.2.0).
   
@@ -102,6 +104,8 @@ U2- Feature introduced in Update 2 (SW Ver. 3.0.6.0).
 U3- Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
   
 U4- Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
+
+U5- Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
   
 ## Preparing your Skype for Business Environment
 
