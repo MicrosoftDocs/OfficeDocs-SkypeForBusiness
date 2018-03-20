@@ -3,7 +3,7 @@ title: Turn on or off guest access to Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/10/17
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
@@ -18,7 +18,8 @@ appliesto:
 Turn on or off guest access to Microsoft Teams
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 

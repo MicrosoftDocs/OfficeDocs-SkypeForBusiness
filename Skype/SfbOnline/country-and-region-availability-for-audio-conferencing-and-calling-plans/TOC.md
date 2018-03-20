@@ -3,7 +3,7 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audio Conferencing in Office 365
+## Audio Conferencing in Office 365 
 ### [Assign a third-party as the audio conferencing provider](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
@@ -13,7 +13,8 @@
 ### [Change the phone numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Compare audio conferencing providers](../audio-conferencing-in-office-365/compare-audio-conferencing-providers.md)
 ### [Dialing out from a meeting so other people can join it](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md)
+### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Enable or disable sending emails when their settings change](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Enable users to record their name when they join a meeting](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Manage the Audio Conferencing settings for my organization](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
@@ -47,8 +48,6 @@
 ### [Change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Create and manage dial plans](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
 ### [Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
-### [Download a Letter of Authorization (LOA)](../what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa.md)
-### [Get new user phone numbers request forms](../what-are-calling-plans-in-office-365/get-new-user-phone-numbers-request-forms.md)
 ### [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [How to get Calling Plans for Office 365](../what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md)
 ### [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -85,6 +84,7 @@
 #### [Languages for voicemail greetings and messages from Skype for Business](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [What are Phone System auto attendants?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 ## [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
@@ -121,7 +121,7 @@
 ### [Turn on or off Skype for Business client feedback reporting](../set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting.md)
 ### [Video: Skype for Business Online external communications](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
-## Set up policies for your organization    
+## Set up policies for your organization 
 ### [Block Point-to-Point file transfers](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Create custom external access policies](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Retaining large files attached to a meeting](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)

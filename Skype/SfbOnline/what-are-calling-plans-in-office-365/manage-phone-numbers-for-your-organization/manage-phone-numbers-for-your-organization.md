@@ -52,11 +52,8 @@ If you know what kind of forms you are looking for use the drop down to select t
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
 ***
-
 ## Here's a bit more information about these number request forms
-
 ### Request forms for new phone numbers
-
 Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams. 
 
 Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the **Skype for Business admin center**, or you might need specific phone numbers or area codes. 
@@ -84,10 +81,6 @@ If you still need help, please let us know how we can help you. In your Help req
 
     
 ## Related topics
-
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
