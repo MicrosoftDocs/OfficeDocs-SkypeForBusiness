@@ -32,7 +32,8 @@ We’ll continue to migrate other functionality from the Skype for Business Admi
 
 The new Admin Center experience will provide you with a unified experience to manage both Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
-![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skypeforbusiness-admin-center-new-admin-center.png)
+![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skype-for-business-admin-center-dashboard-users.png)
+
 
 Starting in mid-March 2018, the following capabilities will be available in the new Microsoft Teams & Skype for Business Admin Center: 
 
