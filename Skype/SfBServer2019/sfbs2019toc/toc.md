@@ -75,7 +75,7 @@
 
 
 
-## [Plan]
+## Plan
 ### [System requirements]
 #### [Server requirements](../plan/server-requirements.md)
 #### [Environmental requirements](../plan/environmental-requirements.md)
@@ -84,4 +84,4 @@
 #### [Port and protocol requirements](../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## [Deploy]
+## Deploy
