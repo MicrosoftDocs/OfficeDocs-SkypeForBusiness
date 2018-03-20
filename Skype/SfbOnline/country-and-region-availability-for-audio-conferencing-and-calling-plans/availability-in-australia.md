@@ -35,7 +35,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Sydney. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No. [Please contact us](mailto:ptnapac@microsoft.com). <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -48,13 +48,15 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
+> [!IMPORTANT]
+> Australia is only available to preview and early adopters customers. For more information, see [Telstra Voice](http://aka.ms/TelstraVoicePlan). 
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |No  <br/> |
-|Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
-|Can make outbound calls to?  <br/> |Not applicable  <br/> |
-   
+|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Services](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes available for Calling Plans  <br/> |See [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
+|Can make outbound calls to?  <br/> |See [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
+
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
@@ -63,7 +65,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
-If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+If you want to get toll and toll-free phone numbers for auto attendants and call queues, see [Telstra Services](http://aka.ms/TelstraVoicePlan). For audio conferencing, [please contact us](mailto:ptnapac@microsoft.com).
   
 ## Communications Credits
 
