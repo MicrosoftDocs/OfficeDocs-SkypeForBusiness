@@ -33,9 +33,9 @@ To set up user accounts that can be used with Teams for Surface Hub, create the 
 - SharePoint 
 - Office Apps 
 
-### Add a device account 
+## Add a device account 
 
-1. Start a remote Windows PowerShell session on a PC and connect to Exchange. Be sure you have the correct permissions set to run the associated cmdlets. The following are some examples of cmdlets that can be used and modified in your environment.
+1\. Start a remote Windows PowerShell session on a PC and connect to Exchange. Be sure you have the correct permissions set to run the associated cmdlets. The following are some examples of cmdlets that can be used and modified in your environment.
 
 ```
 Set-ExecutionPolicy Unrestricted
@@ -70,13 +70,13 @@ Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrg
 Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
 ```
 
-4. You will need to connect to Azure Active Directory to apply some account settings. To connect to Azure AD, run the following cmdlet:
+4\. You will need to connect to Azure Active Directory to apply some account settings. To connect to Azure AD, run the following cmdlet:
 
 ```
 Connect-MsolService -Credential $cred
 ```
 
-5. If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows: 
+5\. If you do not want the password to expire, run the Set-MsolUser cmdlet with the PasswordNeverExpires option as follows: 
 
 ```
 Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
@@ -88,7 +88,7 @@ You can also set a phone number for the room as follows:
 Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
 ```
 
-6. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
+6\. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
  
 ```
 Get-MsolAccountSku
@@ -102,7 +102,7 @@ Get-MsolAccountSku
 Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
 ```
 
-7. Next, you need to enable the device account with Teams for Surface Hub. Be sure your environment meets the requirements defined in [Microsoft Surface Hub admin guide](https://docs.microsoft.com/en-us/surface-hub/).
+7\. Next, you need to enable the device account with Teams for Surface Hub. Be sure your environment meets the requirements defined in [Microsoft Surface Hub admin guide](https://docs.microsoft.com/en-us/surface-hub/).
 
 Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):
 
