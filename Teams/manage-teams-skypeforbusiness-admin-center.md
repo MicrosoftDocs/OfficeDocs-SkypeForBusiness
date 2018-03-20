@@ -105,7 +105,7 @@ You can continue to modify settings in the Office 365 Admin center and the Skype
 The following table shows where you can manage features during the migration.
 
 |Feature  |Microsoft Teams and Skype for Business Admin Center                       |Skype for Business Admin Center (legacy)  |Office 365 Admin center  |
-|---------|---------|---------|---------|
+|---------|:---------:|:---------:|:---------:|
 |Messaging policy     |     X    |         |         |
 |Teams interop policy     |    X     |         |         |
 |Guest messaging settings     |   X      |         |         |
