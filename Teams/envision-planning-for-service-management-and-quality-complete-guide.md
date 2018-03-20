@@ -3,7 +3,7 @@ title: Plan for service management guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,7 +15,7 @@ appliesto:
 # Plan for service management and quality
 
 This document is about the Envision phase for Microsoft Teams.
-
+ 
 ## Introduction
 
 This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
@@ -56,7 +56,7 @@ Service management can be divided into two distinct categories of responsibility
 
 -   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
 
-For detailed guidance for service management planning, see **[Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management)**.
+For detailed guidance for service management planning, see [Planning for Service Management](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-service-management).
 
 #### Network 
 
@@ -66,7 +66,7 @@ In traditional networks, users will need to traverse the perimeter networks of a
 
 Furthermore, the core internal networks need to be optimized and right-sized to provide sufficient capacity and quality for supporting the Teams workloads, including real-time media. You can use bandwidth planning, remediation, and optimization to help ensure your network provides a high-quality and efficient path to Office 365.
 
-For detailed guidance about network planning, see **[Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality)**.
+For detailed guidance about network planning, see [Planning for Network Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-network-quality).
 
 #### Endpoints
 
@@ -74,7 +74,7 @@ Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, 
 
 To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
 
-For detailed guidance about endpoint planning, see **[Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality)**.
+For detailed guidance about endpoint planning, see [Planning for Endpoint Quality](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide#Plan-for-endpoint-quality).
 
 ## Plan for service management
 
@@ -114,7 +114,7 @@ The tasks and activities associated with the role have been documented in the Op
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
-![A diagram that indicated the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
+![A diagram that indicates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
@@ -134,7 +134,7 @@ The guidance provided in the Quality Experience Review Guide focuses on using Ca
 
 We highly recommend that you nominate the Quality Champion early on. After being nominated, they should start to familiarize themselves with the content in the Quality Experience Review Guide.
 
-The Quality Experience Review Guide can be found [here]()
+The Quality Experience Review Guide can be found [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
 
 ## Plan for network quality 
 
@@ -327,8 +327,8 @@ This table includes a summary of planning activities with links to related conte
 | Area | Details | References |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | [Operations Guide](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) |
-| | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> Quality Experience Review Guide |
-| | Install Quality Experience Review templates <br/> Upload a building file | QER-Lite Templates <br/> [Upload Building Information](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)|
+| | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
+| | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true) <br/> [Upload Building Information](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?ui=en-US&rs=en-US&ad=US#upload-building-information)|
 | Plan for network quality | Run the Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implement QoS | [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams) |
 | | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
