@@ -28,7 +28,7 @@ Have questions about your upgrade? View our FAQ.
 
 ## &#9744; Step 1. Notify your key stakeholders
 
-**(about four to six weeks before the upgrade)**
+*(About four to six weeks before the upgrade)*
 
 
 Senior leaders are accountable for company success; be sure to keep them in the know about technology changes. Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.
@@ -43,7 +43,7 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 ## &#9744; Step 2. Envision your organization on Teams
 
-**About four to six weeks before the upgrade**
+*About four to six weeks before the upgrade*
 
 Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and enable your environment for success.
 
@@ -63,7 +63,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 ## &#9744; Step 3. Know your Skype for Business users
 
-**_(about four weeks before the upgrade)_**
+*(About four weeks before the upgrade)*
 
 Users who are deeply adopted on Skype for Business might need a little more time or assistance to make the transition to Teams. Take time to review your current Skype for Business usage to identify your top users in need of additional support and to establish a usage baseline you can track against your post-upgrade numbers.
 
@@ -77,7 +77,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 ## &#9744; Step 4. Notify your users that Skype for Business is becoming Teams
 
-**(about two to three weeks before the upgrade)**
+*(About two to three weeks before the upgrade)*
 
 Giving ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience. Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.
 
@@ -94,7 +94,7 @@ Giving ample notice to your users will give them time to get familiar with Teams
 <a name="step-5"></a>
 
 ## &#9744; Step 5. Activate the user upgrade notification
-**(about one week before the upgrade)**
+*(About one week before the upgrade)*
 
 Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that Skype for Business is becoming Teams. Note: For eligible tenants, Microsoft can also activate this on your behalf.
 
@@ -107,7 +107,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 <a name="step-6"></a>
 
 ## &#9744; Step 6. Remind your users that Skype for Business is becoming Teams
-**(about five days before the upgrade)**
+*(About five days before the upgrade)*
 
 Users are busy with their daily responsibilities. Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams. This is the perfect time to remind users about available training and how to get started with Teams.
 
@@ -121,7 +121,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 ## &#9744; Step 7. Upgrade users to Teams!
 
-**(Upgrade Day)**
+*(Upgrade Day)*
 
 Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams. Note: For eligible tenants, Microsoft can upgrade your tenant on your behalf.
 
@@ -138,7 +138,7 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 
 ## &#9744; Step 8. Monitor Teams usage against your baseline
 
-**(about one or two weeks after the upgrade)**
+*(About one or two weeks after the upgrade)*
 
 Adjusting to a new technology can take some time. Check usage to verify that users are using Teams at the same—or greater—level as they did with Skype for Business. Check in with users who aren’t using Teams at expected levels.
 
@@ -152,7 +152,7 @@ Adjusting to a new technology can take some time. Check usage to verify that use
 
 ## &#9744; Step 9. Measure user satisfaction
 
-**(about one or two weeks after the upgrade)**
+*(About one or two weeks after the upgrade)*
 
 Employee satisfaction can influence productivity, retention, and—ultimately—business outcomes. Reach out to your users to gauge user sentiment about the upgrade and their satisfaction with Teams.
 
@@ -166,7 +166,7 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 <a name="step-10"></a>
 
 ## &#9744; Step 10. Maximize your ROI with Teams 
-**(ongoing)**
+*(Ongoing)*
     
 After users are comfortable with IM (chat) and meetings in Teams, encourage them to extend their use case by using Teams collaboration and app integration, truly optimizing their new solution and maximizing a return on your investment.
 
