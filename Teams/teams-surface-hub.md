@@ -46,23 +46,23 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 Import-PSSession $sess
 ```
 
-2. After establishing a session, you’ll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Teams.
+2\. After establishing a session, you’ll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Teams.
 
 If you are changing an existing resource mailbox:
 
 ```
-Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+Set-Mailbox -Identity 'TEAMS01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
 ```
 
 If you’re creating a new resource mailbox:
 
 ```
-New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
--Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
+New-Mailbox -MicrosoftOnlineServicesID TEAMS01@contoso.com -Alias TEAMS01 
+-Name "Teams-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
  (ConvertTo-SecureString -String <password> -AsPlainText -Force)
 ```
 
-3. Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.
+3\. Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.
 
 ```
 Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
@@ -131,7 +131,7 @@ After you've completed the preceding steps to enable your Teams for Surface Hub 
 
 ### Assign a license to the account
 
-1. Log on as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
+1. Log on as a tenant administrator, open the Office 365 admin center, and click on the Admin app.
 2. Click **Users and Groups**, and then click **Add users, reset passwords, and more**.
 3. Select the Teams for Surface Hub account, and then click or tap the pen icon, which means edit.
 4. Click the **Licenses** option.
@@ -142,10 +142,10 @@ After you've completed the preceding steps to enable your Teams for Surface Hub 
 
 These instructions include the current workarounds for installing Teams for Surface Hub from the Microsoft Store. 
  
-1. Start the Windows Store:
-   a. Tap **Start** > **All Apps** > **Settings**. 
-   b. Tap **Surface Hub Device account, management**. 
-   c. On the left, tap the **Apps & Features** tab. 
+1. Start the Windows Store:<br>
+   a. Tap **Start** > **All Apps** > **Settings**.<br> 
+   b. Tap **Surface Hub Device account, management**.<br>
+   c. On the left, tap the **Apps & Features** tab.<br> 
    d. On the right, tap the **Open Store** button. 
 2. Open the Edge browser. 
 3. In the location bar of Edge, type in one of the following ms-windows-store protocol links to see Teams for Surface Hub in the Microsoft Store. 
