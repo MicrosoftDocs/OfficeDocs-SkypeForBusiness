@@ -43,7 +43,7 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 ## &#9744; Step 2. Envision your organization on Teams
 
-*About four to six weeks before the upgrade*
+*(About four to six weeks before the upgrade)*
 
 Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and enable your environment for success.
 
