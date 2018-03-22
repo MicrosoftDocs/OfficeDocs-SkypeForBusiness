@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/16/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
 ms.tgt.pltfrm: cloud
@@ -71,7 +71,6 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
-- [Office 365 operated by 21Vianet](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-operated-by-21vianet.md)
 
 For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
 
