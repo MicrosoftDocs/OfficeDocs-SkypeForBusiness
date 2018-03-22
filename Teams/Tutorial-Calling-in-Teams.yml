@@ -20,7 +20,7 @@ items:
   content: |
         In this training, we introduce calling capabilities in Teams, which are powered by the Phone System feature in Office 365. We’ll explain the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.
 
-        This training is for you if you're: 
+        This training is for you if you are: 
 
         - An IT pro.
 
