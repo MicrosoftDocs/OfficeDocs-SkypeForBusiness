@@ -7,7 +7,7 @@ ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
-description: Admins can use the Teams MSI to bulk dpeloy Microsoft Teams to select users or computers.
+description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
