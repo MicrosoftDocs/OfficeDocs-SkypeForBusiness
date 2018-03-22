@@ -43,7 +43,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Phone System available for purchase?  <br/> |Yes  <br/> |
-| Auto attendants <br/> |Available  <br/> |
+|Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
    
@@ -53,7 +53,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Services](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Voice Services](http://aka.ms/TelstraVoicePlan).  <br/> |
 |Minutes available for Calling Plans  <br/> |See [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
 |Can make outbound calls to?  <br/> |See [Telstra Services](http://aka.ms/TelstraVoicePlan). <br/> |
 
@@ -65,7 +65,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
-If you want to get toll and toll-free phone numbers for auto attendants and call queues, see [Telstra Services](http://aka.ms/TelstraVoicePlan). For audio conferencing, [please contact us](mailto:ptnapac@microsoft.com).
+If you want to get toll and toll-free phone numbers for auto attendants and call queues, see [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). For audio conferencing service numbers, [please contact us](mailto:ptnapac@microsoft.com).
   
 ## Communications Credits
 
