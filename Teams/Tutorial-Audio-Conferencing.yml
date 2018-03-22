@@ -114,7 +114,7 @@ items:
     known
     issues](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues).)
 
-###Skype for Business Online–homed users
+    ###Skype for Business Online–homed users
     If users are homed in Skype for Business Online and are already enabled for
     Audio Conferencing, they’ll automatically be enabled for Audio Conferencing in
     Teams. The PIN they use for authenticating in meetings when they dial in will be
