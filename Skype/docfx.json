@@ -54,7 +54,7 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "src": "SfbServer2019",
+        "src": "SfBServer2019",
         "dest": ".",
         "exclude": [
           "**/obj/**",
