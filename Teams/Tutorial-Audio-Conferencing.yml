@@ -59,7 +59,7 @@ items:
     
 
 - title: Audio Conferencing in Teams
-  durationInMinutes: 1
+  durationInMinutes: 12
   content: |
  
     With Audio Conferencing, participants use a regular phone to take part in Teams
@@ -124,7 +124,7 @@ items:
     the same for Skype for Business and Teams.
 
 - title: Envision Audio Conferencing
-  durationInMinutes: 1
+  durationInMinutes: 48
   content: |
 
     The practical guidance covers in detail what’s required to plan and successfully
@@ -151,7 +151,7 @@ items:
         (estimated reading time 6 minutes)
 
 - title: Onboard Audio Conferencing
-  durationInMinutes: 1
+  durationInMinutes: 13
   content: |
 
     Just like envisioning, onboarding is covered in the practical guidance. Review
@@ -172,7 +172,7 @@ items:
         (estimated reading time for Teams-specific content is 2 minutes)
 
 - title: Exercise – Configure Audio Conferencing
-  durationInMinutes: 1
+  durationInMinutes: 20
   content: |
 
     In this exercise, you’ll have the chance to test Audio Conferencing in Teams.
