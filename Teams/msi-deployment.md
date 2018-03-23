@@ -19,7 +19,9 @@ Install Microsoft Teams using MSI
 To leverage System Center Configuration Manager, or Group Policy, or any 3rd party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](http://aka.ms/teams32bitmsi) and [64-bit](http://aka.ms/teams64bitmsi)) for admins to leverage during bulk deployment of Microsoft Teams to select users or machines. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign-in on that machine. It is recommended that you deploy the package to the machine, so all new users to the machines will also benefit from this deployment. 
 
 
+
 > [!Note] To learn more about SCCM, see. [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction)
+
 
 ## Deployment Procedure (Recommendations)
 1. Retrieve the latest package
@@ -33,7 +35,9 @@ The Teams MSI will place an installer in Program Files. Whenever a user signs in
 Do not leverage the MSI to deploy updates, the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update when possible for the user. If a very old version gets deployed, the MSI will trigger an application update before the user is able to use Teams. 
 
 
+
 > [!Important] It's not recommended you change any install locations as this could break the update flow. Which then will eventually block users from accessing the service. 
+
 
 ## Target machine requirements:
 
@@ -49,4 +53,6 @@ If a user uninstalls Teams from for their User Profile, the MSI installer will t
 3. Redeploy the MSI package to that particular machine
 
 
-> [!TIP] You can leverage our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish this steps 1 and 2 via SCCM. 																			   
+
+> [!TIP] You can leverage our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish this steps 1 and 2 via SCCM. 								
+											   
