@@ -119,6 +119,4 @@ A person in your organization can only use one audio conferencing provider. To c
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-  
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+

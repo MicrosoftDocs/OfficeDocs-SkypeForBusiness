@@ -85,6 +85,3 @@ To see a list of those countries/regions that have phone numbers automatically a
 ## Related topics
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
