@@ -3,11 +3,13 @@ title: Microsoft Teams on Surface Hub - Admin Help
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/20/2018
+ms.date: 03/23/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
 description: Configure admin settings for Microsoft Teams on Surface Hub.
+localization_priority: Normal
 ms.custom:
 - Devices
 MS.collection: Strat_MT_TeamsAdmin
@@ -199,7 +201,12 @@ The packages can be found at \\scratch2\scratch\TeamsOnShub\ppkg. Pick the appro
 4. Select the **Removable Media** option from the drop-down menu. 
 5. Select the .ppkg file name from where you want to apply the new configuration to this device.
 
+## Known issues
+ 
 
- 
- 
+|Issue  |Comment  |
+|---------|---------|
+|When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known issue and will be corrected in a future release.         |
+|     |         |
+
 
