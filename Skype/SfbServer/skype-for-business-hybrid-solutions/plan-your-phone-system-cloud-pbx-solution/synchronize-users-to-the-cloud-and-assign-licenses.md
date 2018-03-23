@@ -31,7 +31,7 @@ Before actually moving the user to Office 365, you must first confirm that they 
     
 4. Confirm that you see the user, and that their status is **Synched with Active Directory**.
     
-    If the user is not yet synchronized, the next automatic synchronization should happen within three hours. Or you could force a synchronization sooner- for details, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).
+    If the user is not yet synchronized, the next automatic synchronization should happen within three hours. Or you could force a synchronization sooner. For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).
     
 ## To assign the license
 

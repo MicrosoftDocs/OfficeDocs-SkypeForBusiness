@@ -328,8 +328,8 @@ This table shows the ports and port ranges for enabling communication between cl
   
 **Internal firewall**
 
-|
-|
+
+
 |**Source IP**|**Destination IP**|**Source Port**|**Destination Port**|
 |:-----|:-----|:-----|:-----|
 |Cloud Connector Mediation component  <br/> |SBC/PSTN Gateway  <br/> |Any  <br/> |TCP 5060\*\*  <br/> |
@@ -367,8 +367,8 @@ In this case, all media traffic to the internet will flow via the Online Edge as
   
 **External firewall - minimum configuration**
 
-|
-|
+
+
 |**Source IP**|**Destination IP**|**Source port**|**Destination port**|
 |:-----|:-----|:-----|:-----|
 |Any  <br/> |Cloud Connector Edge External Interface  <br/> |Any  <br/> |TCP(MTLS) 5061  <br/> |
@@ -390,8 +390,7 @@ In this case all media traffic for the end point in the internet can flow direct
   
 **External firewall - recommended configuration**
 
-|
-|
+
 |**Source IP**|**Destination IP**|**Source Port**|**Destination Port**|
 |:-----|:-----|:-----|:-----|
 |Any  <br/> |Cloud Connector Edge External Interface  <br/> |Any  <br/> |TCP(MTLS) 5061  <br/> |
@@ -445,8 +444,7 @@ In the .ini file, if you set the FQDN name for gateways from the same domain spa
 
 First you need to define the following common deployment parameters:
   
-|
-|
+
 |**Item**|**Description**|**Notes**|
 |:-----|:-----|:-----|
 |SIP domains  <br/> |SIP URI's in use by company users. Provide all SIP domains that will be served by this deployment. You can have more than one SIP domain.  <br/> ||
@@ -464,8 +462,8 @@ When configuring gateway information, remember the following:
     
 (Optional) To restrict the outbound call numbers, update the LocalRoute value.
   
-|
-|
+
+
 |**Site parameters**|**Description**|**Notes**|
 |:-----|:-----|:-----|
 |Virtual machine domain name  <br/> |Domain name for the internal components of Cloud Connector. This domain must be different from the production domain. The name must be the same across all Cloud Connector appliances.  <br/> Name in .ini file: "VirtualMachineDomain"  <br/> |.local domain is preferred.  <br/> |
@@ -583,8 +581,6 @@ You will need to add sip.sipdomain.com for every SIP domain and the name of the 
   
 For purposes of deployment, you can use the following table:
   
-|
-|
 |**Option**|**Description**|**Notes**|
 |:-----|:-----|:-----|
 |Which option will you use for your deployment?  <br/> |Option 1 or 2  <br/> ||
@@ -673,31 +669,31 @@ The monitoring and troubleshooting mechanism is installed automatically with eve
     
 - Services that are not running. 
     
-    If one of the following events is detected, the entire Cloud Connector appliance is drained and marked as offline to prevent the attempt to establish calls to a malfunctioning appliance. Cloud Connector automatic recovery features will subsequently restore services and mark the appliance as online. If automatic recovery fails for some reason, see [Troubleshoot your Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md).
+  If one of the following events is detected, the entire Cloud Connector appliance is drained and marked as offline to prevent the attempt to establish calls to a malfunctioning appliance. Cloud Connector automatic recovery features will subsequently restore services and mark the appliance as online. If automatic recovery fails for some reason, see [Troubleshoot your Cloud Connector deployment](troubleshoot-your-cloud-connector-deployment.md).
     
   - On the Central Management Store virtual machine: 
     
-  - Skype for Business Master Replicator Agent
+     - Skype for Business Master Replicator Agent
     
-  - Skype for Business Replica Replicator Agent
+     - Skype for Business Replica Replicator Agent
     
   - On the Mediation Server virtual machine:
     
-  - Skype for Business Replica Replicator Agent
+     - Skype for Business Replica Replicator Agent
     
-  - Skype for Business Server Mediation
+     - Skype for Business Server Mediation
     
   - On the Edge Server Virtual Machine
     
-  -  Skype for Business Replica Replicator Agent
+     - Skype for Business Replica Replicator Agent
     
-  -  Skype for Business Server Access Edge
+     -  Skype for Business Server Access Edge
     
-  - Skype for Business Server Audio/Video Edge
+     - Skype for Business Server Audio/Video Edge
     
-  - Skype for Business Server Audio/Video Authentication
+     - Skype for Business Server Audio/Video Authentication
     
-  - Skype for Business Server Web Conferencing Edge
+     - Skype for Business Server Web Conferencing Edge
     
 - Inbound rule of Windows firewall for "CS RTCSRV" on Edge, "CS RTCMEDSRV" on the Mediation Server is disabled.
     
