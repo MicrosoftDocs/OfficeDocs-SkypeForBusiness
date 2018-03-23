@@ -446,7 +446,7 @@ For Lync Server 2010 clients, you'll need to run **Test-CsMcxP2PIM** to test. Yo
   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
   ```
 
-To review the command procedures further, you can check out [Test-CsUcwaConference](../manage/management-shell/test-csucwaconference.md) and [Test-CsMcxP2PIM](../manage/management-shell/test-csmcxp2pim.md).
+To review the command procedures further, you can check out [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) and [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   
 ## Configure for push notifications
 <a name="ConfigPush"> </a>
@@ -575,7 +575,7 @@ For users to be able to use Call via Work, they'll also need to be:
     > [!NOTE]
     > You can turn off Call via Work without turning off access to Mobility. But you can't turn off Mobility without also turning off Call via Work. 
   
-    For more info, check out [Set-CsMobilityPolicy](../manage/management-shell/set-csmobilitypolicy.md).
+    For more info, check out [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/set-csmobilitypolicy?view=skype-ps).
     
 ### Modify Mobility policy by site
 
@@ -589,7 +589,7 @@ For users to be able to use Call via Work, they'll also need to be:
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Learn more at [New-CsMobilityPolicy](../manage/management-shell/new-csmobilitypolicy.md).
+    Learn more at [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
     
 ### Modify Mobility policy by user
 
