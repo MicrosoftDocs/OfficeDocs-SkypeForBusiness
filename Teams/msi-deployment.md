@@ -17,7 +17,7 @@ Install Microsoft Teams using MSI
 ===========================================
 
 To leverage System Center Configuration Manager, or Group Policy, or any 3rd party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](http://aka.ms/teams32bitmsi) and [64-bit](http://aka.ms/teams64bitmsi)) for admins to leverage during bulk deployment of Microsoft Teams to select users or machines. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign-in on that machine. It is recommended that you deploy the package to the machine, so all new users to the machines will also benefit from this deployment. 
-
+ 
 > [!Note] 
 > To learn more about SCCM, see. [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction)
 
