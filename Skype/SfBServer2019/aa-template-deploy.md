@@ -16,8 +16,19 @@ description: "<topic description>"
 
 
 
-<Intro text. What is this article about?>
+Intro text about this deployment, link to planning.
 
+
+
+Procedure to deploy.
+
+
+
+Additional procedure to deploy--if relevant.
+
+
+
+Warnings/concerns/gotchas about deployments.
 
 
 
