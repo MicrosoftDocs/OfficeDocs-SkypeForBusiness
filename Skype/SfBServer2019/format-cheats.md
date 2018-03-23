@@ -11,6 +11,11 @@ localization_priority: Normal
 ms.collection: 
 description: "<topic description>"
 ---
+
+
+[!INCLUDE [disclaimer](disclaimer.md)]
+
+
 # Formatting Cheat Sheet
 
 ## Headings
