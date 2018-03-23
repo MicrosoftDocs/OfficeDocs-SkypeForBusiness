@@ -14,7 +14,7 @@ description: "<topic description>"
 
 # <Topic title>
 
-[!INCLUDE [disclaimer](disclaimer.md)]
+
 
 <Intro text. What is this article about?>
 
