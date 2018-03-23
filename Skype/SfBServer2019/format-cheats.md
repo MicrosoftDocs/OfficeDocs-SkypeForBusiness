@@ -294,6 +294,8 @@ Alerts
 > [!TIP]
 > Here's a tip. it's fifty cents.
 
-![guyjknh](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)
+Here's a link to a graphic:
+![guyjknh](media/AD_Topology_Labels.jpg)
 
-![sdfggh](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)
+
+
