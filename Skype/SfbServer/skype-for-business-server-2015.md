@@ -141,7 +141,7 @@ Skype for Business is a communications and collaboration platform that brings to
                         <h3>Before you start</h3>
                         <p>[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
                         <p>[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[Clients and devices](SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
+                        <p>[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
                     </div>
                 </div>
             </div>
