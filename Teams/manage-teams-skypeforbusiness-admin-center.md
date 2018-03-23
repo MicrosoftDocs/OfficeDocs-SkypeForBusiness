@@ -3,7 +3,7 @@ title: Manage Teams during the transition to the new Microsoft Teams and Skype f
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/31/2018
+ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
