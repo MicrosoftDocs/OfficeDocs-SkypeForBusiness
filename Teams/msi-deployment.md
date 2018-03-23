@@ -30,7 +30,7 @@ To leverage System Center Configuration Manager, or Group Policy, or any 3rd par
 
 The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of Teams application will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
-Do not leverage the MSI to deploy updates, the client will auto update when it detects an update from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update when possible for the user. If a very old version gets deployed, the MSI will trigger an application update before the user is able to use Teams. 
+Do not leverage the MSI to deploy updates, the client will auto update when it detects a new version is available from the service. To re-deploy the latest installer use the process of redeploying MSI described below. If you deploy an older version of the MSI package, the client will auto-update when possible for the user. If a very old version gets deployed, the MSI will trigger an application update before the user is able to use Teams. 
 
 
 > [!Important] It's not recommended you change any install locations as this could break the update flow. Which then will eventually block users from accessing the service. 
