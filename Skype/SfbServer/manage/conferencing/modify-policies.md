@@ -42,6 +42,6 @@ The following example modifies a property value of the conferencing policy Sales
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-For more information, including complete syntax and a list of parameters, see [Set-CsConferencingPolicy](../../manage/management-shell/set-csconferencingpolicy.md).
+For more information, including complete syntax and a list of parameters, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

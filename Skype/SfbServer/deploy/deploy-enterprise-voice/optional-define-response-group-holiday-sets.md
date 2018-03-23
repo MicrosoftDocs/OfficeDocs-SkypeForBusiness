@@ -55,7 +55,7 @@ Holiday settings define the days that a response group is closed for business an
 [Designing and creating response group workflows in Skype for Business 2015](designing-and-creating-response-group-workflows.md)
 #### 
 
-[New-CsRgsHoliday](../../manage/management-shell/new-csrgsholiday.md)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
   
-[New-CsRgsHolidaySet](../../manage/management-shell/new-csrgsholidayset.md)
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)
 

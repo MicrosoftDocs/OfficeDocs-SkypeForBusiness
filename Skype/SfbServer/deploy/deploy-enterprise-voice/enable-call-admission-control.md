@@ -57,9 +57,9 @@ After you have configured your network settings for call admission control deplo
 
 #### 
 
-[Get-CsNetworkConfiguration](../../manage/management-shell/get-csnetworkconfiguration.md)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   
-[Set-CsNetworkConfiguration](../../manage/management-shell/set-csnetworkconfiguration.md)
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csnetworkconfiguration?view=skype-ps)
   
-[Remove-CsNetworkConfiguration](../../manage/management-shell/remove-csnetworkconfiguration.md)
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkconfiguration?view=skype-ps)
 

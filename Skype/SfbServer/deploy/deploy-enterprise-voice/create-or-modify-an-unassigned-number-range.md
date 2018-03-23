@@ -158,15 +158,15 @@ Use one of the following procedures to configure unassigned number ranges for th
    ```
 
     > [!NOTE]
-    > For details about more options, see [Remove-CsCallParkOrbit](../../manage/management-shell/remove-cscallparkorbit.md). 
+    > For details about more options, see [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## See also
 
 #### 
 
-[New-CsUnassignedNumber](../../manage/management-shell/new-csunassignednumber.md)
+[New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
-[Set-CsUnassignedNumber](../../manage/management-shell/set-csunassignednumber.md)
+[Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)
   
-[Get-CsUnassignedNumber](../../manage/management-shell/get-csunassignednumber.md)
+[Get-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/get-csunassignednumber?view=skype-ps)
 

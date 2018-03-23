@@ -21,7 +21,7 @@ Read this topic to learn how to plan location policies for an enhanced emergency
 > [!NOTE]
 > Skype for Business Server now supports the configuration of multiple emergency numbers for a client. If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server 2015](multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-You create location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](../../manage/management-shell/new-cslocationpolicy.md) cmdlet. For more information, see [Create location policies in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+You create location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet. For more information, see [Create location policies in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Each location policy contains the following information:
   

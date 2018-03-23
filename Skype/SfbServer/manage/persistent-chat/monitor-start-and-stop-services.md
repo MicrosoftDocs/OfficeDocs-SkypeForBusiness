@@ -24,6 +24,6 @@ The Persistent Chat services and Persistent Chat Compliance services are part of
 |start-CsWindowsService  <br/> |Starts the service.  <br/> |
 |stop-CsWindowsService  <br/> |Stops the service.  <br/> |
    
-For detailed information about how to use the cmdlets, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
+For detailed information about how to use the cmdlets, see [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps).
   
 

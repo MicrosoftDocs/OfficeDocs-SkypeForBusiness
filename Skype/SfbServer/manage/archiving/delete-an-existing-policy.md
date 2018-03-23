@@ -52,4 +52,4 @@ This command removes all the archiving policies where internal archiving has bee
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-For more information, see the help topic for the [Remove-CsArchivingPolicy](../../manage/management-shell/remove-csarchivingpolicy.md) cmdlet.
+For more information, see the help topic for the [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) cmdlet.

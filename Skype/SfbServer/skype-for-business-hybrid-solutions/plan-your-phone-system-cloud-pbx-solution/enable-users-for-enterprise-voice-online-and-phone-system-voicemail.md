@@ -101,11 +101,11 @@ This section describes how to update the Line URI and dial plan for users enable
     
 ## Update the dial plan using on-premises Windows PowerShell cmdlets
 
-You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](../../manage/management-shell/grant-csdialplan.md) cmdlet. You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.
+You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet. You can run this cmdlet either from the Skype for Business Server 2015 or from a remote session of Windows PowerShell.
   
 ### To assign a per-user dial plan to a single user
 
-- Use the [Grant-CsDialPlan](../../manage/management-shell/grant-csdialplan.md) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
+- Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to assign the per-user dial plan RedmondDialPlan to the user Ken Myer:
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -113,7 +113,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 ### To assign a per-user dial plan to multiple users
 
-- The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](../../manage/management-shell/get-csuser.md) cmdlet:
+- The following command assigns the per-user dial plan RedmondDialPlan to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet:
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -125,7 +125,7 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
   
 ### To unassign a per-user dial plan
 
-- Use the [Grant-CsDialPlan](../../manage/management-shell/grant-csdialplan.md) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
+- Use the [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) cmdlet to unassign any per-user dial plan previously assigned to Ken Myer. After the per-user dial plan is unassigned, Ken Myer will automatically be managed by using the global dial plan or the service-scope dial plan assigned to his Registrar or PSTN gateway. A service scope dial plan takes precedence over the global dial plan:
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -135,14 +135,14 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
 
 This section describes how to update the voice routing policies for users enabled for Phone System in Office 365.
   
-Phone System in Office 365 users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System in Office 365 users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](../../manage/management-shell/new-csvoiceroutingpolicy.md).
+Phone System in Office 365 users must have a Voice Routing Policy assigned to them for calls to route successfully. This differs from on-premises business voice users who require a Voice Policy to be assigned to them to allow calls to route successfully. The Voice Routing Policy should contain PSTN usages that define authorized calls and routes for Phone System in Office 365 users. You can copy these PSTN usages from existing Voice Policies to new Voice Routing Policies. For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > All Phone System in Office 365 users are assigned the same online Voice Policy named BusinessVoice which defines the calling features allowed; for example, Allow Simultaneous Ring. 
   
 ### To assign a per-user voice routing policy to a single user
 
-- Use the [Grant-CsVoiceRoutingPolicy](../../manage/management-shell/grant-csvoiceroutingpolicy.md) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
+- Use the [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) cmdlet to assign the per-user voice routing policy RedmondVoiceRoutingPolicy to the user Ken Myer:
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -150,7 +150,7 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
 
 ### To assign a per-user voice routing policy to multiple users
 
-- The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](../../manage/management-shell/get-csuser.md).
+- The next command assigns the per-user voice routing policy RedmondVoiceRoutingPolicy to all the users who work in the city of Redmond. For more information on the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -167,6 +167,6 @@ Phone System in Office 365 users must have a Voice Routing Policy assigned to th
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    For more information, see [Grant-CsVoiceRoutingPolicy](../../manage/management-shell/grant-csvoiceroutingpolicy.md).
+    For more information, see [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
     
 

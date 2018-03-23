@@ -41,11 +41,11 @@ In the example topology North America region, there is a direct link between the
 
 #### 
 
-[New-CsNetworkInterSitePolicy](../../manage/management-shell/new-csnetworkintersitepolicy.md)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
-[Get-CsNetworkInterSitePolicy](../../manage/management-shell/get-csnetworkintersitepolicy.md)
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
   
-[Set-CsNetworkInterSitePolicy](../../manage/management-shell/set-csnetworkintersitepolicy.md)
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
-[Remove-CsNetworkInterSitePolicy](../../manage/management-shell/remove-csnetworkintersitepolicy.md)
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
 

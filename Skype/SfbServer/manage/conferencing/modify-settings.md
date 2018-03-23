@@ -42,6 +42,6 @@ The command shown in the following example modifies the meeting configuration se
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-For more information, including a complete list of parameters, see [Set-CsMeetingConfiguration](../../manage/management-shell/set-csmeetingconfiguration.md).
+For more information, including a complete list of parameters, see [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps).
   
 

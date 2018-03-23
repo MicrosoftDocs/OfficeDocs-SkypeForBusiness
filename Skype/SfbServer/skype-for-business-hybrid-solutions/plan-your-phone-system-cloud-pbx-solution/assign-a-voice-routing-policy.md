@@ -102,6 +102,6 @@ No matter whether you use the global voice routing policy, or user-specific ones
 
 In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.
   
-For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](../../manage/management-shell/new-csvoiceroutingpolicy.md), and [Grant-CsVoicePolicy](../../manage/management-shell/grant-csvoicepolicy.md).
+For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
   
 

@@ -39,5 +39,5 @@ If an SNMP application is installed and the Location Information service fails t
 
 #### 
 
-[Set-CsWebServiceConfiguration](../../manage/management-shell/set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

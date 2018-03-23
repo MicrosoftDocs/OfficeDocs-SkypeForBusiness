@@ -47,7 +47,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Get-CsPinPolicy](../../manage/management-shell/get-cspinpolicy.md).
+For more information, including a complete syntax description and list of parameters, see [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## Modify the global PIN policy
 
@@ -93,7 +93,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](../../manage/management-shell/set-cspinpolicy.md).
+For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## Create a user or site PIN policy
 
@@ -144,7 +144,7 @@ The following command creates a new PIN policy with the Identity site:Redmond. T
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- For more information, including a complete syntax description and list of parameters, see [New-CsPinPolicy](../../manage/management-shell/new-cspinpolicy.md).
+ For more information, including a complete syntax description and list of parameters, see [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## Modify a user or site PIN policy
 
@@ -175,7 +175,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](../../manage/management-shell/set-cspinpolicy.md).
+For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## Delete a user or site PIN policy
 
@@ -201,6 +201,6 @@ The following command removes all the PIN policies that have been configured at 
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Remove-CsPinPolicy](../../manage/management-shell/remove-cspinpolicy.md).
+For more information, including a complete syntax description and list of parameters, see [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
   
 

@@ -50,7 +50,7 @@ When planning for multiple emergency numbers, keep the following in mind:
   
 Before you configure multiple emergency numbers, keep the following in mind:
   
-- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](../../manage/management-shell/new-cslocationpolicy.md) and [Set-CsLocationPolicy](../../manage/management-shell/set-cslocationpolicy.md) cmdlets.
+- To configure multiple emergency numbers, you must use the New-CsEmergencyNumber cmdlet, and you must define location policies that support more than one emergency number by specifying the EmergencyNumbers parameter with the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) and [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) cmdlets.
     
 - If you have existing numbers defined using the Set-CsLocationPolicy or New-CsLocationPolicy cmdlet with the EmergencyDialString and EmergencyDialMask parameters, the values specified with the EmergencyNumbers parameter will take precedence over the old values. That is, the values for the EmergencyDialString and EmergencyDialMask parameters will be ignored.
     

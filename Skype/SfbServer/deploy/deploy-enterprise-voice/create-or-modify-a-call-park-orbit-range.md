@@ -95,9 +95,9 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 #### 
 
-[New-CsCallParkOrbit](../../manage/management-shell/new-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
-[Set-CsCallParkOrbit](../../manage/management-shell/set-cscallparkorbit.md)
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
   
 [Delete a Call Park Orbit Range](http://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
 

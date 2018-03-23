@@ -24,5 +24,5 @@ For more information on what the Central Management store is, see [Move the Lync
 
 #### 
 
-[Move-CsManagementServer](../../manage/management-shell/move-csmanagementserver.md)
+[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
 

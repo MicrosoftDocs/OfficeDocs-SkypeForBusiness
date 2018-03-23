@@ -135,7 +135,7 @@ Where $LyssProvider is the variable containing the defined scenario created with
   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
   ```
 
-The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](../../manage/management-shell/get-csclsscenario.md).
+The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
 > **New-ClsCsProvider** does not check to determine whether the flags are valid. Make sure that the spelling of the flags (for example, TF_DIAG or TF_CONNECTION) is spelled correctly. If the flags are not spelled correctly, the provider cannot return the expected log information.
   
@@ -180,13 +180,13 @@ When you remove a scenario by using the **Remove-CsClsScenario** cmdlet, you com
 
 #### 
 
-[Get-CsClsScenario](../../manage/management-shell/get-csclsscenario.md)
+[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
-[New-CsClsScenario](../../manage/management-shell/new-csclsscenario.md)
+[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
   
-[Remove-CsClsScenario](../../manage/management-shell/remove-csclsscenario.md)
+[Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   
-[Set-CsClsScenario](../../manage/management-shell/set-csclsscenario.md)
+[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
-[New-CsClsProvider](../../manage/management-shell/new-csclsprovider.md)
+[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
 

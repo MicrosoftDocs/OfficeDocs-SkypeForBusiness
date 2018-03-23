@@ -67,7 +67,7 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server 2015 user accounts by adding an Active Directory user to Skype for Business Server 2015.
   
-You can also use a cmdlet, specifically [Enable-CsUser](../../manage/management-shell/enable-csuser.md).
+You can also use a cmdlet, specifically [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
@@ -126,7 +126,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-For more information, see the help topic for the [Set-CsUser](../../manage/management-shell/set-csuser.md) cmdlet.
+For more information, see the help topic for the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
   
 ## Disable a user for Enterprise Voice
 <a name="Disable_EV"> </a>
@@ -154,7 +154,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
   
 8. Click **Commit**.
     
-The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md)
+The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps)
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
 
@@ -190,14 +190,14 @@ To remove a user account, use the Disable-CsUser cmdlet. For example:
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
     
-For more information, see the help topic for the [Disable-CsUser](../../manage/management-shell/disable-csuser.md) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
   
 ## See also
 <a name="Remove"> </a>
 
 #### 
 
-[Enable-CsUser](../../manage/management-shell/enable-csuser.md)
+[Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
   
-[Disable-CsUser](../../manage/management-shell/disable-csuser.md)
+[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
 

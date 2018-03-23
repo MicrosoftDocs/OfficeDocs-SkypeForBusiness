@@ -52,6 +52,6 @@ The following example swaps the key that is pressed to enable or disable announc
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-For more information, see [Get-CsDialInConferencingDtmfConfiguration](../../manage/management-shell/get-csdialinconferencingdtmfconfiguration.md), [Set-CsDialInConferencingDtmfConfiguration](../../manage/management-shell/set-csdialinconferencingdtmfconfiguration.md), and [New-CsDialInConferencingDtmfConfiguration](../../manage/management-shell/new-csdialinconferencingdtmfconfiguration.md).
+For more information, see [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps), and [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
   
 

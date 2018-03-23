@@ -63,4 +63,4 @@ You can also use the **Remove-CsArchivingConfiguration** cmdlet to reset the glo
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-For more information, see the help topic for the [Remove-CsArchivingConfiguration](../../manage/management-shell/remove-csarchivingconfiguration.md) cmdlet.
+For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) cmdlet.
