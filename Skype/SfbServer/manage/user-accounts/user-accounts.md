@@ -154,7 +154,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
   
 8. Click **Commit**.
     
-The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps)
+The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md)
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
 

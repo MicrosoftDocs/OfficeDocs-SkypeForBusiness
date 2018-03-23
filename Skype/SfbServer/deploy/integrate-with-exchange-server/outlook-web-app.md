@@ -37,7 +37,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers** parameter specifies whether internal users are allowed to communicate with users from federated domains. This property also determines whether internal users can communicate with users in a shared SIP address space scenario with Skype for Business Server and Exchange Online.
     
-For details about using the Skype for Business Server Management Shell, see [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps).
+For details about using the Skype for Business Server Management Shell, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
 ## Configure a Hosting Provider on the Edge Server
 

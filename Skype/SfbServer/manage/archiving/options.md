@@ -52,7 +52,7 @@ You can configure archiving options by using the Control Panel as follows:
     
 ## Configure archiving options by using Windows PowerShell
 
-You can also configure archiving options by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps).
+You can also configure archiving options by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
 
 |**Cmdlet**|**Description**|

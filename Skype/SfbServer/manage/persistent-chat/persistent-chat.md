@@ -28,7 +28,7 @@ To use the Control Panel:
     
 3. In the left navigation bar, click **Persistent Chat**.
     
-The following table summarizes the Windows PowerShell cmdlets available to help you manage Persistent Chat Server. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](https://docs.microsoft.com/powershell/module/skype/management-shell?view=skype-ps).
+The following table summarizes the Windows PowerShell cmdlets available to help you manage Persistent Chat Server. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
   
 
 |**Cmdlet**|**Description**|
