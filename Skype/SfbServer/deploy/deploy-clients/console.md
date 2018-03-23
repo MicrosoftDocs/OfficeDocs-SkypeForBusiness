@@ -35,7 +35,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 ## Prepare the installation image
 <a name="Prep_Image"> </a>
 
-Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 8 GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
+Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 32GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
   
 > [!NOTE]
 > Failure to create your console image according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 image creation. 
