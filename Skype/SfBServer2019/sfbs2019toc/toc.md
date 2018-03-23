@@ -6,7 +6,8 @@
 
 
 ## Hybrid
-
+### [Planning Teams migration](../hybrid/plan-teams-migration.md)
+### [Deploying Teams](../hybrid/deploy-teams-migration.md)
 
 
 ## Plan
