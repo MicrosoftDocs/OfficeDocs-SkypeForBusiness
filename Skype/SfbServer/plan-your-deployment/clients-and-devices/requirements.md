@@ -33,15 +33,15 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
 |Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro &sup2; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro &sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
+|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
    
 &sup1; — Core M3 processors are not supported on this model.
     
-&sup2; — Core M3 processors are not supported on this model.
+ 
     
 - One of the following docking station options to secure the tablet to the meeting room table. 
     
@@ -50,8 +50,10 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-    
-- 
+
+  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
+<!-- HP dock is still pending  -->  
+ 
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
 |:-----|:-----|
@@ -124,7 +126,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
-In addition, you will probably want a copy of the [Powershell script](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt) used to provision Skype Room Systems v2 accounts.
+In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
   
 ## See also
 

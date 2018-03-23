@@ -35,7 +35,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 ## Prepare the installation image
 <a name="Prep_Image"> </a>
 
-Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 8 GB of memory formatted as a FAT32 disk. There should be no other files on the device.
+Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 8 GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
   
 > [!NOTE]
 > Failure to create your console image according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 image creation. 
@@ -43,66 +43,13 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
 > [!NOTE]
 > An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
   
-1. Attach the USB disk to your computer ( **not** to the Surface Pro 4 or Surface Pro that you will use for the console. The following command examples assume the USB disk is recognized as **F:**.
-    
-2. Obtain a copy of the 64-bit version of Windows 10 Enterprise Creator's Update (English language, version 1703). 
-    
-3. Mount the Windows 10 ISO file (Right click the ISO file and select **Mount**.) and copy everything on it to the USB disk ( **F:** ).
-    
-4. Download the [Skype Room Systems v2 installation package](https://go.microsoft.com/fwlink/?linkid=851168) and install it to your computer as follows:
-    
-    > [!IMPORTANT]
-    > If you've installed the SRS Deployment Kit previously, uninstall it. Do not install it on the device you plan to set up as a console, or on the USB disk recognized as **F:**
-  
-    a. Run the .msi installer. Click **Next**.
-    
-    b. Accept the EULA agreement and click **Next**.
-    
-    c. Select a destination folder on your computer and note its location.
-    
-    d. Click **Next**.
-    
-    e. Click **Install**.
-    
-    f. Click **Finish**.
-    
-5. Navigate to the directory folder you selected as the destination folder for the .msi installer package. Select all files in the directory and copy them to the root **F:** directory.
-    
-    > [!IMPORTANT]
-    > Do not copy the installation folder, just the files contained in it. Copying the folder to **F:** will cause setup of a Skype Room Systems v2 device to fail.
-  
-6. Put the tablet drivers on the install media:
-    
-    a. Download the [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888). 
-    
-    b. Extract the drivers from the MSI using the following command, which assumes the MSI is in C:, and that the drivers will be extracted to your USB media.
-    ```
-     *msiexec /a c:\SurfacePro_Win10_15063_1706207_0.msi /passive TARGETDIR="F:\AutoUnattend_Files\DistShare\Out-of-Box Drivers"* 
-    ```
-    > [!NOTE]
-    > Wait for the installation progress dialog to complete and close before moving on to the next step. 
-  
-7. In the root of your USB drive, there is a file named AutoUnattend.xml: Open it with a text editor. There are two commands referring to Sysprep.exe, they are next to each other in the file. Examine them and comment or uncomment (using the strings <!--  *command*  -->) the command appropriate for the following tasks:
-    
-    > [!NOTE]
-    > Ensure that XML files are UTF-8 encoded by using the Windows Notepad application to edit and save XML files. XML files that are not UTF-8 encoded may result in Windows Setup internal errors. 
-  
-    - If you intend to capture a WIM for mass-imaging Skype Room Systems v2 devices, find the following line: 
-    
-    \<!-- \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /generalize /oobe /shutdown /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\> --\>
-    
-    And edit it to read
-    
-    \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /generalize /oobe /shutdown /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\>
-    
-    - If you intend to image devices one at a time, make sure the following line is not enclosed in XML comments, as shown: 
-    
-    \<Path\>%SystemRoot%\System32\Sysprep\Sysprep.exe /oobe /reboot /unattend:%SystemDrive%\Rigel\x64\Scripts\Provisioning\audit.xml\</Path\>
-    
-    > [!NOTE]
-    > Be sure that whichever Sysprep.exe command you are not using is commented out. 
-  
-8. Remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app ](console.md#Reimage).
+1. Download the (MSU for KB4056892)[http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu].
+2. Download the (CreateSrsMedia.ps1 script)[https://go.microsoft.com/fwlink/?linkid=867842].
+3. Place the MSU for KB4056892 in the same directory as the CreateSrsMedia.ps1 script.
+4. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+
+
+Follow the script's instructions to create a Skype Room Systems v2 USB setup disk. When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app ](console.md#Reimage).
     
 ## Install Windows 10 and the Skype Room Systems v2 console app
 <a name="Reimage"> </a>
@@ -127,12 +74,7 @@ You now need to apply the image you've created. The tablet will run as an applia
     
 After the system has shut down or rebooted, it is safe to remove the USB Setup Disk. At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room. Refer to the manufacturer instructions.
   
-### Adding Languages
-
-IT professionals should download LIPs and their attendant LPs from the [Windows 10 Language Interface Packs](https://www.microsoft.com/OEM/en/installation/downloads/Pages/Windows-10-Language-Interface-Packs.aspx) page.
-  
-LIPs (and their parent LPs) can be installed using the [instructions on how to install a LIP to an offline Windows image](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/add-language-interface-packs-to-windows).
-  
+ 
 ### Selecting a language in Creator's Update
 
 In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the app to come up in French, but it's coming up in English).

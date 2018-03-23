@@ -53,9 +53,9 @@ You can choose a completely-in-the-cloud offering, or you can choose a hybrid de
   
 ![Describes Cloud PBX offerings](../../media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png)
   
-- ** Phone System in Office 365 with Calling Plan** - This option uses the Calling Plan add-on to Phone System in Office 365 to enable PSTN connectivity for calling to landlines and mobile phones around the world (depending on the level of service being licensed). Your users are homed in the cloud and are enabled for Phone System with the Calling Plan add-on provided by Microsoft. The Calling Plan offering does not require an on-premises server deployment. Calling Plan only works with Phone System in Office 365—you can't use it with another PBX system. For more information, see [ Calling Plan in Office 365](plan-your-phone-system-cloud-pbx-solution.md#BKMK_PSTNCalling).
+- **Phone System in Office 365 with Calling Plan** - This option uses the Calling Plan add-on to Phone System in Office 365 to enable PSTN connectivity for calling to landlines and mobile phones around the world (depending on the level of service being licensed). Your users are homed in the cloud and are enabled for Phone System with the Calling Plan add-on provided by Microsoft. The Calling Plan offering does not require an on-premises server deployment. Calling Plan only works with Phone System in Office 365—you can't use it with another PBX system. For more information, see [ Calling Plan in Office 365](plan-your-phone-system-cloud-pbx-solution.md#BKMK_PSTNCalling).
     
-- ** Phone System in Office 365 with on-premises PSTN connectivity** - This option uses software on premises to connect your existing PSTN carrier, circuit, and contract with Office 365. Your users are homed in the cloud and are enabled for Phone System in Office 365, but their calling is processed through software on premises.
+- **Phone System in Office 365 with on-premises PSTN connectivity** - This option uses software on premises to connect your existing PSTN carrier, circuit, and contract with Office 365. Your users are homed in the cloud and are enabled for Phone System in Office 365, but their calling is processed through software on premises.
     
     You continue to use your existing PSTN connectivity (either through a PBX, Gateway, Session Border Controller, or SIP Trunking connection) to source PSTN for the users who you move to the cloud. Once a user is moved to Skype for Business Online and Phone System in Office 365, their phone number will route to any of the Skype for Business clients for PCs or Smartphones as well as desk phones certified for Skype for Business. Once ported, cloud and legacy PBX users can call each other normally as well as make and receive PSTN calls using their full phone number.
     
@@ -68,7 +68,7 @@ You can choose a completely-in-the-cloud offering, or you can choose a hybrid de
 ### Calling Plan in Office 365
 <a name="BKMK_PSTNCalling"> </a>
 
- ** Calling Plan in Office 365** is the service that works with Phone System in Office 365 allowing users to make calls to landlines and mobile phones. Because this PSTN calling plan operates out of Office 365, this is a completely-in-the-cloud offering that does not require an on-premises server deployment.
+ **Calling Plan in Office 365** is the service that works with Phone System in Office 365 allowing users to make calls to landlines and mobile phones. Because this PSTN calling plan operates out of Office 365, this is a completely-in-the-cloud offering that does not require an on-premises server deployment.
   
 Users of this option are homed in Skype for Business Online in Office 365 and have access to Skype for Business Online voice services. Microsoft is the provider of both core calling and PSTN services, and can even provide or port your users' phone numbers. 
   
