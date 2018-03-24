@@ -53,8 +53,8 @@ These policies can be set at the global, site, or user level. For more informati
   
 ## Manage archiving by using the Control Panel or by using Windows PowerShell
 
-You can manage archiving by using the Control Panel or by using Windows PowerShell. The following table summarizes the cmdlets available to help you manage archiving. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell)). 
-  
+You can manage archiving by using the Control Panel or by using Windows PowerShell. The following table summarizes the cmdlets available to help you manage archiving. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md). 
+
 
 |**Cmdlet**|**Description**|
 |:-----|:-----|
