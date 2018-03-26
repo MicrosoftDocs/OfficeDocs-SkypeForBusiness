@@ -65,7 +65,7 @@ Regions            : {US}
 
 ```
 
-For more information, see [Get-CsDialInConferencingAccessNumber](../../manage/management-shell/get-csdialinconferencingaccessnumber.md).
+For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## Modify dial-in conferencing access numbers
 
@@ -143,7 +143,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
 
 ```
 
-For more information, see [Set-CsDialInConferencingAccessNumber](../../manage/management-shell/set-csdialinconferencingaccessnumber.md).
+For more information, see [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## Delete a dial-in conferencing access number
 
@@ -183,6 +183,6 @@ The next command deletes all the dial-in conferencing access numbers where Itali
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-For more information, see [Remove-CsDialInConferencingAccessNumber](../../manage/management-shell/remove-csdialinconferencingaccessnumber.md).
+For more information, see [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
   
 

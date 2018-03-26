@@ -347,7 +347,7 @@ This table shows the ports and port ranges for enabling communication between cl
   
 \*\*\* Note that you can also limit the port range on your SBC/Gateway if allowed by the SBC/Gateway manufacturer.
   
-For security purposes, you can limit the port range for the Mediation component by using the [Set-CsMediationServer](../../manage/management-shell/set-csmediationserver.md) cmdlet.
+For security purposes, you can limit the port range for the Mediation component by using the [Set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) cmdlet.
   
 For example, the following command limits the number of ports that the Mediation component will use for media traffic to 50 000 - 51 000 for audio (in and out). The Mediation component will be able to handle 250 simultaneous calls with this configuration. Note that you also might want to limit this range on the SBC/PSTN gateway:
   
@@ -355,7 +355,7 @@ For example, the following command limits the number of ports that the Mediation
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
-To retrieve the name of the Mediation component and see default ports, you can use the [Get-CsService](../../manage/management-shell/get-csservice.md) cmdlet as follows:
+To retrieve the name of the Mediation component and see default ports, you can use the [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) cmdlet as follows:
   
 ```
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount

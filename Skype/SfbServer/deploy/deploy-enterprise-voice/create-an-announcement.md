@@ -75,7 +75,7 @@ To create a new announcement, you need to perform the following steps:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](../../manage/management-shell/new-csannouncement.md).
+  For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
     
 ## Delete an announcement for unassigned numbers
 
@@ -104,7 +104,7 @@ To create a new announcement, you need to perform the following steps:
    ```
 
     > [!NOTE]
-    > For details about more options, see [Get-CsAnnouncement](../../manage/management-shell/get-csannouncement.md) and [Remove-CsAnnouncement](../../manage/management-shell/remove-csannouncement.md). 
+    > For details about more options, see [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps). 
   
 ## See also
 
@@ -113,11 +113,11 @@ To create a new announcement, you need to perform the following steps:
 [Create or delete an announcement in Skype for Business Server 2015](create-an-announcement.md)
 #### 
 
-[Import-CsAnnouncementFile](../../manage/management-shell/import-csannouncementfile.md)
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   
-[New-CsAnnouncement](../../manage/management-shell/new-csannouncement.md)
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
   
-[Remove-CsAnnouncement](../../manage/management-shell/remove-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
   
-[Get-CsAnnouncement](../../manage/management-shell/get-csannouncement.md)
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
 

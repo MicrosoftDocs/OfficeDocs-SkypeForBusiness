@@ -30,10 +30,10 @@ To manage conferencing configuration settings by using Skype for Business Server
 
 |**Cmdlet**|**Description**|
 |:-----|:-----|
-|[Get-CsConferencingConfiguration](../../manage/management-shell/get-csconferencingconfiguration.md) <br/> |Returns information about the conferencing configuration settings for your organization.  <br/> |
-|[New-CsConferencingConfiguration](../../manage/management-shell/new-csconferencingconfiguration.md) <br/> |Creates a new collection of conferencing configuration settings.  <br/> |
-|[Remove-CsConferencingConfiguration](../../manage/management-shell/remove-csconferencingconfiguration.md) <br/> |Removes the specified collection of conferencing configuration settings.  <br/> |
-|[Set-CsConferencingConfiguration](../../manage/management-shell/set-csconferencingconfiguration.md) <br/> |Modifies an existing collection of conferencing configuration settings.  <br/> |
+|[Get-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |Returns information about the conferencing configuration settings for your organization.  <br/> |
+|[New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |Creates a new collection of conferencing configuration settings.  <br/> |
+|[Remove-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |Removes the specified collection of conferencing configuration settings.  <br/> |
+|[Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |Modifies an existing collection of conferencing configuration settings.  <br/> |
    
 The following command creates a new collection of conferencing configuration settings for the Redmond site (site:Redmond). In this example, one additional parameter is included (Organization) which is used to set the value of the Organization property to Litwareinc: 
   

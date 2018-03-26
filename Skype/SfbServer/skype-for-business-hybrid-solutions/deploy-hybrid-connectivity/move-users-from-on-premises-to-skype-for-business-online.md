@@ -60,7 +60,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 
 ## Move users to Skype for Business Online
 
-You can move multiple users by using the [Get-CsUser](../../manage/management-shell/get-csuser.md) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the [Move-CsUser](../../manage/management-shell/move-csuser.md) cmdlet, as shown in the following example.
+You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet, as shown in the following example.
   
 ```
 Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds 

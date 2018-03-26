@@ -74,11 +74,11 @@ In the example topology, network interregional routes must be defined for each o
 
 #### 
 
-[New-CsNetworkInterRegionRoute](../../manage/management-shell/new-csnetworkinterregionroute.md)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[Get-CsNetworkInterRegionRoute](../../manage/management-shell/get-csnetworkinterregionroute.md)
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[Set-CsNetworkInterRegionRoute](../../manage/management-shell/set-csnetworkinterregionroute.md)
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[Remove-CsNetworkInterRegionRoute](../../manage/management-shell/remove-csnetworkinterregionroute.md)
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
 

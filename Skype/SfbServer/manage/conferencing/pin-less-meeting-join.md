@@ -38,7 +38,7 @@ Keep the following in mind when configuring this feature:
     
 ## Configure PIN-less meeting join
 
-To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](../../manage/management-shell/set-csdialinconferencingconfiguration.md) cmdlet with the AllowAnonymousPstnActivation parameter as follows:
+To enable PIN-less meeting join for your users, use the [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) cmdlet with the AllowAnonymousPstnActivation parameter as follows:
   
 ```
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -58,6 +58,6 @@ Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut
 
 ```
 
-For more information, see [Set-CsConferencingPolicy](../../manage/management-shell/set-csconferencingpolicy.md).
+For more information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

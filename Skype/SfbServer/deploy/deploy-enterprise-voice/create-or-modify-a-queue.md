@@ -112,7 +112,7 @@ Use one of the following procedures to create or modify a queue.
    ```
 
    > [!NOTE]
-   > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+   > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Define the action to be taken when the queue timeout threshold is met, and save it in a variable. At the command line, run:
     
@@ -121,7 +121,7 @@ Use one of the following procedures to create or modify a queue.
    ```
 
    > [!NOTE]
-   > For details about possible actions and their syntax, see [New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md). 
+   > For details about possible actions and their syntax, see [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     For example:
     
@@ -142,7 +142,7 @@ Use one of the following procedures to create or modify a queue.
   ```
 
       > [!NOTE]
-      > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md). 
+      > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     
@@ -151,7 +151,7 @@ Use one of the following procedures to create or modify a queue.
   ```
 
     > [!NOTE]
-    > For details about possible actions and their syntax, see [New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md). 
+    > For details about possible actions and their syntax, see [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     For example:
     
@@ -172,7 +172,7 @@ Use one of the following procedures to create or modify a queue.
    ```
 
     > [!NOTE]
-    > For details about creating the agent group, see [New-CsRgsAgentGroup](../../manage/management-shell/new-csrgsagentgroup.md)
+    > For details about creating the agent group, see [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Create the queue. At the command line, run:
     
@@ -196,17 +196,17 @@ Use one of the following procedures to create or modify a queue.
 
 #### 
 
-[New-CsRgsQueue](../../manage/management-shell/new-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-CsRgsQueue](../../manage/management-shell/set-csrgsqueue.md)
+[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-CsRgsPrompt](../../manage/management-shell/new-csrgsprompt.md)
+[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](../../manage/management-shell/new-csrgscallaction.md)
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-CsRgsQueue](../../manage/management-shell/get-csrgsqueue.md)
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](../../manage/management-shell/import-csrgsaudiofile.md)
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-CsRgsQueue](../../manage/management-shell/remove-csrgsqueue.md)
+[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
 
