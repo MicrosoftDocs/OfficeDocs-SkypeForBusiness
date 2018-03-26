@@ -52,9 +52,9 @@ To manage meetings by using Skype for Business Server Management Shell, use the 
 
 |**Cmdlet**|**Description**|
 |:-----|:-----|
-|[Get-CsMeetingConfiguration](../../manage/management-shell/get-csmeetingconfiguration.md) <br/> |Returns information about the meeting configuration settings currently in use in your organization.  <br/> |
-|[New-CsMeetingConfiguration](../../manage/management-shell/new-csmeetingconfiguration.md) <br/> |Creates a new collection of meeting configuration settings at the site or service scope.  <br/> |
-|[Remove-CsMeetingConfiguration](../../manage/management-shell/remove-csmeetingconfiguration.md) <br/> |Deletes an existing collection of meeting configuration settings.  <br/> |
-|[Set-CsMeetingConfiguration](../../manage/management-shell/set-csmeetingconfiguration.md) <br/> |Modifies the meeting configuration settings currently in use in your organization.  <br/> |
+|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Returns information about the meeting configuration settings currently in use in your organization.  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Creates a new collection of meeting configuration settings at the site or service scope.  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Deletes an existing collection of meeting configuration settings.  <br/> |
+|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifies the meeting configuration settings currently in use in your organization.  <br/> |
    
 

@@ -81,7 +81,7 @@ For details about disabling BranchCache, see the BranchCache Deployment Guide, w
 ## Verifying Skype for Business Web App Deployment
 <a name="MFA"> </a>
 
-You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](../../manage/management-shell/test-csucwaconference.md) in the Skype for Business Server Management Shell documentation.
+You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) in the Skype for Business Server Management Shell documentation.
   
 ## Troubleshooting Plug-in Installation on Windows Server 2008 R2
 <a name="MFA"> </a>

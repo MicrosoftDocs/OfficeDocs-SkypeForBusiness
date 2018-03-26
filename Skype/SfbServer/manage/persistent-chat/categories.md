@@ -94,7 +94,7 @@ You can configure the following parameters for categories:
     
 - DeniedMembers. Lists the users who are not allowed to access chat rooms within the category.
     
-For complete information about cmdlet syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
+For complete information about cmdlet syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### Create a new category
 

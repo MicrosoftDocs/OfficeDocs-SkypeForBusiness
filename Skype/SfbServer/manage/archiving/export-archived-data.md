@@ -36,6 +36,6 @@ The following command exports archiving data for a single user: kenmyer@contoso.
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-For more information, see the help topic for the [Export-CsArchivingData](../../manage/management-shell/export-csarchivingdata.md) cmdlet.
+For more information, see the help topic for the [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) cmdlet.
   
 

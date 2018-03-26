@@ -85,7 +85,7 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
 
 ### To assign a per-user PIN policy to multiple users
 
-- The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](../../manage/management-shell/get-csuser.md).
+- The following command assigns the per-user PIN policy RedmondUsersPinPolicy to all the users who work in the city of Redmond. For details about the LdapFilter parameter used in this command, see [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -100,7 +100,7 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-For details, see [Grant-CsPinPolicy](../../manage/management-shell/grant-cspinpolicy.md).
+For details, see [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
 ## See also
 

@@ -313,19 +313,19 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 
 #### 
 
-[New-CsNetworkRegion](../../manage/management-shell/new-csnetworkregion.md)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
-[Get-CsNetworkRegion](../../manage/management-shell/get-csnetworkregion.md)
+[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
   
-[Set-CsNetworkRegion](../../manage/management-shell/set-csnetworkregion.md)
+[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
   
-[Remove-CsNetworkRegion](../../manage/management-shell/remove-csnetworkregion.md)
+[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
   
-[New-CsNetworkSubnet](../../manage/management-shell/new-csnetworksubnet.md)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
   
-[Get-CsNetworkSubnet](../../manage/management-shell/get-csnetworksubnet.md)
+[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
   
-[Set-CsNetworkSubnet](../../manage/management-shell/set-csnetworksubnet.md)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
-[Remove-CsNetworkSubnet](../../manage/management-shell/remove-csnetworksubnet.md)
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

@@ -79,5 +79,5 @@ For more information about using the Skype for Business Online connector PowerSh
 
 #### 
 
-[New-CsHostingProvider](../../manage/management-shell/new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
 

@@ -123,6 +123,6 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 
-For details, see [Remove-CsProxyConfiguration](../../manage/management-shell/remove-csproxyconfiguration.md).
+For details, see [Remove-CsProxyConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps).
   
 

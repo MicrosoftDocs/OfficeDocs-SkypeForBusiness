@@ -62,6 +62,6 @@ AllowConferenceRecording        : True
 
 ```
 
-For more information, including a complete list of parameters, see [Get-CsMeetingConfiguration](../../manage/management-shell/get-csmeetingconfiguration.md).
+For more information, including a complete list of parameters, see [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
   
 

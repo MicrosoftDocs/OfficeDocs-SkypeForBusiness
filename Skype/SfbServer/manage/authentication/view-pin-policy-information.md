@@ -55,7 +55,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
   ```
 
-For more information, see the help topic for the [Get-CsPinPolicy](../../manage/management-shell/get-cspinpolicy.md) cmdlet.
+For more information, see the help topic for the [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) cmdlet.
   
 ## See also
 

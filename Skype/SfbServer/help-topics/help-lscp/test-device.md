@@ -54,9 +54,9 @@ For details about testing devices, see [Add a Device to Test Update Functionalit
 [Test Device: Create New or Edit Existing](test-device-create-new-or-edit-existing.md)
 #### 
 
-[New-CsTestDevice](../../manage/management-shell/new-cstestdevice.md)
+[New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
-[Set-CsTestDevice](../../manage/management-shell/set-cstestdevice.md)
+[Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [View Software Updates for Devices in Your Organization](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
 

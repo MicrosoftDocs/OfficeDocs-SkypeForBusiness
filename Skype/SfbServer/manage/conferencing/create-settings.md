@@ -82,6 +82,6 @@ Multiple property values can be set by including multiple parameters. For exampl
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-For more information, including a complete list of parameters, see [New-CsMeetingConfiguration](../../manage/management-shell/new-csmeetingconfiguration.md).
+For more information, including a complete list of parameters, see [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps).
   
 

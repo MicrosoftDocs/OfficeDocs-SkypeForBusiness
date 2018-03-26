@@ -16,7 +16,7 @@ description: "Topology Builder provides a way to install databases on a SQL Serv
 
 # Create Database
  
-Topology Builder provides a way to install databases on a SQL Server store. When you install databases by using Topology Builder, the application reads information from the topology and then installs the required databases on the specified SQL Server computer or SQL Server cluster. This is the only type of database installation available by using Topology Builder. If you need to install a specific database on a specific computer, or if you must install a collocated database, you must use Windows PowerShell command-line interface and the [Install-CsDatabase](../../manage/management-shell/install-csdatabase.md) cmdlet instead.
+Topology Builder provides a way to install databases on a SQL Server store. When you install databases by using Topology Builder, the application reads information from the topology and then installs the required databases on the specified SQL Server computer or SQL Server cluster. This is the only type of database installation available by using Topology Builder. If you need to install a specific database on a specific computer, or if you must install a collocated database, you must use Windows PowerShell command-line interface and the [Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet instead.
   
 ### Creating a Database
 
