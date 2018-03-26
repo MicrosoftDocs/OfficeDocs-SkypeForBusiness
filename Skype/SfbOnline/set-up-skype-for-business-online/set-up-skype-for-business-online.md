@@ -126,8 +126,6 @@ Before setting up more features, make sure you have licenses for them. [Skype fo
 
 Sometimes people in your organization will need to use a phone to call into a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
   
-For step-by-step setup instructions, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md) in Office 365.
-  
 ### Set up Phone System and the Calling plans in Office 365
 
 The Phone System feature in Office 365 gives you a phone system for your business. Calls to other Skype for Business people in your organization are free, and your employees can receive voicemail from each other and outside callers. Here's what you get with Phone System.

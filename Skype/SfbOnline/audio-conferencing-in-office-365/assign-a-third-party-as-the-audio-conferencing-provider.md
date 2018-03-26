@@ -112,11 +112,9 @@ If you are in a country or region where Audio Conferencing in Office 365 isn't a
     
 ## What else do I need to know?
 
-A person in your organization can only use one audio conferencing provider. To change a person's audio conferencing provider to Microsoft, see [Moving a user's audio conferencing provider to Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md) or [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
+A person in your organization can only use one audio conferencing provider. To change a person's audio conferencing provider to Microsoft, see [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
   
 ## Related Topics
-
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
