@@ -6,7 +6,7 @@ manager: lehewe
 ms.date: 03/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: lehewe
 description: Details of Skype for Business and Teams coexistence options and modes, and upgrade journeys to Teams from Skype for Business with example scenarios.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -76,7 +76,7 @@ To learn more about enabling each of the modes described above, review [Quick st
 
 ## Upgrade journeys
 You can take multiple approaches to upgrading from Skype for Business, either online or on-premises, to Teams:
-- In a simple upgrade journey, you first deploy Teams in islands mode as part of evaluation and early adoption, and then implement single-client mode with the goal of eventually removing Skype for Business from the environment for all users in the organization.
+- In a simple upgrade journey, you first deploy Teams in group collaboration-only mode as part of evaluation and early adoption, and then implement Teams-only single-client mode with the goal of eventually removing Skype for Business from the environment for all users in the organization.
 - A gradual upgrade journey delivers a specific upgrade mode to a specific group of users (also called a *cohort*), depending on their communications and collaboration requirements. Over time, the entire organization can converge into single-client mode and eventually remove Skype for Business. However, if your organization has compelling business reasons to keep Skype for Business—such as dependency on a Unified Communications Managed API (UCMA)–based solution that integrates with line-of-business applications, or an ethical wall solution currently available for Skype for Business only—you can upgrade a majority of users to single-client mode while retaining Skype for Business for a portion of your user population.
 
 > [!IMPORTANT]
@@ -90,4 +90,23 @@ The simple upgrade journey is illustrated in the following diagram.
 
 [placeholder for image]
 
-Teams is deployed to all users in the organization and configured in Skype for Business with Collaboration only in Teams. Over time, all users are upgraded to Skype for Business with collaboration and meetings in Teams. When your organization considers that Teams is ready to fulfil all communications and collaboration needs, the user is upgraded to Teams only. Skype for Business can be retired from the environment.
+Teams is deployed to all users in the organization and configured in group collaboration-only mode. When your organization considers that Teams is ready to fulfil all communications and collaboration needs, all users are upgraded to Teams-only single-client mode. Skype for Business can be retired from the environment.
+
+### Gradual upgrade journey
+An example of a gradual upgrade journey is illustrated in the following diagram.
+
+[placeholder for image]
+
+Teams is deployed in the organization by using different upgrade modes for different groups of users, or cohorts. For example, a group of users can be enabled for islands mode, another enabled for group collaboration and meetings, while a third group of users might initially be enabled for group collaboration only.
+
+Over time, groups of users can be upgraded to Teams-only single-client mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only.
+
+## Upgrade scenarios
+Based on the upgrade journeys described earlier in this article, the following prescriptive guidance is provided for specific Skype for Business deployment models that might map to your current deployment model.
+
+|Deployment model  |Starting point  |Considerations  |Journey  |
+|---------|---------|---------|---------|
+|Skype for Business Online–only with Calling Plans |<ul><li>Office 365 tenant with Azure AD Connect, SharePoint Online, Exchange Online, and Skype for Business Online</li><li>Phone System with Calling Plans implemented using Skype for Business Online for all users</li></ul> |<ul><li>All users leverage certified headsets</li><li>Meetings require internal and anonymous external VoIP participants</li><li>Messaging includes internal and external contacts, including Skype (consumer)</li></ul> |<ul><li>Roadmap:<ul><li>**Messaging**: gate for features released end of Q1 of 2018 (federation)</li><li>**Meetings**: features you want are already available</li><li>**Calling**: gate for feature released end of Q2 of 2018 (Skype [consumer] calling)</li></ul></li><li>Building blocks:<ul><li>Group collaboration-only mode</li><li>Teams-only single-client mode</li></ul></li></ul> |
+|Skype for Business Online with Cloud Connector Edition (CCE) |<ul><li>Office 365 tenant with Azure AD Connect, SharePoint Online, Exchange Online, and Skype for Business Online</li><li>Phone System with hybrid voice via CCE implemented by using Skype for Business Online at multiple office locations</li><li>1,000 users are using messaging and voice workloads only</li></ul> |<ul><li>80% of the user population leverages Phone System with hybrid voice via CCE</li><li>All messaging is contained within the company</li><li>Meetings aren’t currently being used, but there’s interest in enabling Audio Conferencing in the future</li></ul> |<ul><li>Roadmap:<ul><li>**Messaging**: features you want are available</li><li>**Meetings**: future requirements can be met</li><li>**Calling**: gate for features released in Q2 of 2018 (direct routing to Teams)</li></ul></li><li>Building blocks:<ul><li>Group collaboration and meetings mode</li><li>Teams-only single-client mode</li></ul></li></ul> |
+|Skype for Business Hybrid |<ul><li>Office 365 tenant with Azure AD Connect, SharePoint Online, Exchange Online, and Skype for Business Online</li><li>Skype for Business Server 2015 deployed and hybrid is configured with Skype for Business Online</li></ul> |<ul><li>A number of users require the ability to record meetings</li><li>There are 10 conference rooms, currently leveraging Skype Room Systems v2</li><li>The organization wants to take advantage of Teams as a collaboration tool as quickly as possible</li></ul> |<ul><li>Roadmap:<ul><li>**Messaging**: features you want are available</li><li>**Meetings**: gate for features released in Q2 of 2018 (cloud meeting recording, meeting room devices)</li><li>**Calling**: features you want are available</li></ul></li><li>Building blocks:<ul><li>Group collaboration–only mode</li><li>Group collaboration and meetings mode</li><li>Teams-only single-client mode</li></ul></li></ul> |
+|Skype for Business Server (on-premises) |<ul><li>Office 365 tenant with Azure AD Connect and Exchange Online</li><li>SharePoint and Skype for Business are deployed on-premises</li></ul> |<ul><li>Full enterprise voice feature set (Skype for Business Server 2015) currently in use</li><li>Contact center deployed</li><li>Meetings are conducted with internal and external federated users, using both VoIP and dial-in conferencing</li><li>Messaging with internal and external users, including Skype (consumer)</li></ul> |<ul><li>Roadmap:<ul><li>**Messaging**: gate for features released end of Q1 of 2018 (federation)</li><li>**Meetings**: gate for features released end of Q2 of 2018 (federated meeting-join, PSTN lobby)</li><li>**Calling**: gate for features released at the end of Q4 of 2018 and onward</li></ul></li><li>Building blocks:<ul><li>Islands mode (pilot)</li><li>Group collaboration–only mode</li><li>Group collaboration and meetings mode</li><li>Single-client modes</li></ul></li><li>Investigate upgrade to Skype for Business Server 2019</li></ul> |
