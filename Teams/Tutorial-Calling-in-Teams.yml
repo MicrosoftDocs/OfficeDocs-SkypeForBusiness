@@ -66,9 +66,15 @@ items:
 
     <span style="color:red">**Action**:</span> To understand which features are currently available and the timelines for features that we expect to develop, see the following resources:
 
-    - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling roadmap” slide for an overview of the expected timelines for feature release dates.
-
-    - Review [Here’s what you get with Phone System in Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) for a description of Phone System features. Keep in mind that at this writing, some of these features might only be available for Skype for Business.
+    - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling 
+    roadmap” slide for an overview of the expected timelines for feature release dates.
+    - [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-enables-new-enterprise-voice-options-in-Microsoft/ba-p/170450)
+    allows you to connect an extsiting PBX or SIP Trunk to Teams and is targeted for 
+    general availability in Q2 of 2018.
+    - Review [Here’s what you get with Phone System in Office 
+    365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) 
+    for a description of Phone System features. Keep in mind that at this writing, some 
+    of these features might only be available for Skype for Business.
 
     ### Emergency Services calling
     It’s important that you understand how the Emergency Services calling feature operates differently in Teams than in traditional telephone services. You must make sure your users also understand those differences. For example, when they use Teams to call emergency services (such as 911 in the United States), users need to be aware that Teams might not be able to determine the actual location of the caller.
@@ -89,6 +95,10 @@ items:
     Other options, such as leveraging an existing PSTN infrastructure through a
     Skype for Business pool or Cloud Connector Edition, don’t exist at this
     time.
+    "Direct Routing" which will allow you to connect an extsiting PBX or SIP 
+    Trunk to Teams and is targeted for general availability in Q2 of 2018. See [Direct 
+    Routing enables new enterprise voice options in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-enables-new-enterprise-voice-options-in-Microsoft/ba-p/170450)
+    For more information.
 
     - **Features are different between Skype for Business and Microsoft Teams.**  
     Note that the calling features in Skype for Business and Microsoft Teams are
