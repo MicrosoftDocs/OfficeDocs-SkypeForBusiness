@@ -37,13 +37,13 @@ Internet browser support
 Desktop clients
 ------------------------
 
-The Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it.
+The Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS).
+IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS). To get the MSI Package for Windows distribution, see [Install Microsoft Teams using MSI](#msi-deployment.md).
 
 
 
