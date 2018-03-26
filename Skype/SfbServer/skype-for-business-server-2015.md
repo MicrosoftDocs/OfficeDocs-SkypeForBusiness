@@ -20,7 +20,7 @@ Skype for Business is a communications and collaboration platform that brings to
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/SkypeForBusiness/plan-your-deployment/plan-your-deployment.md">
+        <a href="/SkypeForBusiness/plan-your-deployment/plan-your-deployment">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -38,7 +38,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md">
+        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/deploy/deploy.md">
+        <a href="/SkypeForBusiness/deploy/deploy">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -74,7 +74,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server.md">
+        <a href="/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -92,7 +92,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/technical-diagrams.md">
+        <a href="/SkypeForBusiness/technical-diagrams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -153,8 +153,8 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Install and manage</h3>
-                        <p>[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install.md)</p>
-                        <p>[Manage Skype for Business Server](/SkypeForBusiness/manage/manage.md)</p>
+                        <p>[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)</p>
+                        <p>[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)</p>
                      </div>
                 </div>
             </div>
@@ -166,8 +166,8 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Enterprise Voice</h3>
-                        <p>[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)</p>
-                        <p>[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)</p>
+                        <p>[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
+                        <p>[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ Skype for Business is a communications and collaboration platform that brings to
                     <div class="cardText">
                         <h3>Skype Meeting Broadcast</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">What is it?</a></p>
-                        <p>[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast.md)
+                        <p>[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
                     </div>
                 </div>
             </div>
