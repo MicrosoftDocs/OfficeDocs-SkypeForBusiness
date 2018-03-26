@@ -132,6 +132,3 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
 
 [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

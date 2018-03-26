@@ -53,6 +53,3 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 ## Related topics
 
 [Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

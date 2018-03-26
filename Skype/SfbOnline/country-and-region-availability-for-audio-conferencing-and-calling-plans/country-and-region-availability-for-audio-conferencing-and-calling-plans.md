@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.date: 02/21/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
@@ -22,7 +22,6 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
 ---
@@ -120,7 +119,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-02052018)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-03202018)-(en-us).xlsx?raw=true)**.
 
 ***
 

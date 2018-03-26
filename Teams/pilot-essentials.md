@@ -3,7 +3,7 @@ title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
@@ -98,7 +98,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
+<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s) using [Select users for your Teams pilot](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) guidance.</td>
 </tr>
 </thead>
 <tbody>
@@ -122,7 +122,9 @@ A successful pilot experience provides your participants with clearly defined ta
 
 ## Step Four: Create your Communications
 
-Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants. In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.
+Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants.
+
+In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot. A good help topic to include is [Switch to Teams from Skype for Business](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), which shows some familar features, as well as some new features that are only available in Microsoft Teams.
 
 <table>
 <thead>
