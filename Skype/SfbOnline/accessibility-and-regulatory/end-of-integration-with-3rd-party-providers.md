@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.date: 04/02/2018
+ms.date: 03/26/2018
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
@@ -23,15 +23,15 @@ description: "On April 1, 2019, the end of life program will conclude for the in
 
 # End of life program for the integration of Skype for Business with third-party audio conferencing providers 
 
-In April 2018, Microsoft announced the start of the end of life program for the integration of Skype for Business with third-party audio conferencing providers (ACPs). 
+Microsoft has announced the start of the end of life program for the integration of Skype for Business with third-party audio conferencing providers (ACPs). 
 
-The end of life program will conclude on April 1, 2019. When the program concludes, the integration of Skype for Business with third-party audio conferencing providers will stop working and the following changes will be observed on that date (April 1, 2019): 
+The end of life program will conclude on April 1st, 2019. When the program concludes, the integration of Skype for Business with third-party audio conferencing providers will stop working and the following changes will be observed on that date (April 1st, 2019): 
 
 - Participants who attempt to join any Skype for Business meeting via dial-in numbers provided by a third-party ACP service will no longer be connected to the Skype for Business meeting.
  
 - Users enabled for a third-party ACP service will no longer have their dial-in information automatically included in any new Skype for Business meeting invites. 
 
-As part of the announcement made in April 2018, the following change have taken effect and will continue to be in place until the conclusion of the end of life program: 
+As part of the announcement of the start of the end of life program, the following change have taken effect and will continue to be in place until the conclusion of the end of life program: 
 
 - Customers with no Skype for Business users configured to use a third-party ACP service will not be able to configure any users to use a third-party ACP service. 
 
@@ -39,9 +39,9 @@ As part of the announcement made in April 2018, the following change have taken 
 
 ## Preparing for this change
 
-To prepare for this change, we encourage affected organizations to notify their enabled users of this planned update prior to April 1, 2019. 
+To prepare for this change, we encourage affected organizations to notify their enabled users of this planned update prior to April 1st, 2019. 
 
-After April 1, 2019, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+After April 1st, 2019, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
 Depending on the desired end state of an organization, there are three paths that can be followed:
 
@@ -51,7 +51,7 @@ Depending on the desired end state of an organization, there are three paths tha
 
 ### Path #1: Migrate to Microsoft Audio Conferencing   
 
-Organizations that decide to migrate to Microsoft Audio Conferencing prior to April 1st, 2019, will not experience any service impact during or after that date. The migration to Microsoft Audio Conferencing will introduce the following changes to an organization: 
+Organizations that decide to migrate to Microsoft Audio Conferencing and complete their migration prior to April 1st, 2019, will not experience any service impact during or after that date. The migration to Microsoft Audio Conferencing will introduce the following changes to an organization: 
 
 - The service will be billed with all other Office 365 services. 
 
@@ -63,27 +63,29 @@ Organizations that decide to migrate to Microsoft Audio Conferencing prior to Ap
  
 - The conference IDs of each meeting will be dynamic, meaning that each meeting will have its own dedicated conference ID. Dynamic conference IDs provide enhanced security and an improved experience for back-to-back meetings.
 
+- All usage of the service is subject to the Audio Conferencing services use terms. 
+
 Migrating to Microsoft Audio Conferencing is simple, and it can be done in just a couple of steps after acquiring the licenses for the service. To learn about how to migrate to Microsoft Audio Conferencing, see:
 
 - [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Summary:**
 
-- Organizations that migrate to Microsoft Audio Conferencing before April 1, 2019, won’t see any impact to their service during or after that date.
+- Organizations that migrate to Microsoft Audio Conferencing and complete their migration before April 1st, 2019, won’t see any impact to their service during or after that date.
 
 - To learn more about migrating to Microsoft Audio Conferencing, see [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
 ### Path #2: Continue to separately use a third-party audio conferencing provider
 
-Organizations that decide to continue using a third-party ACP on and after April 1, 2019, will experience service impact because the third-party ACP dial-in information will no longer be able to be used to join the audio portion of a Skype for Business meeting. 
+Organizations that decide to continue using a third-party ACP on and after April 1st, 2019, will experience service impact because the third-party ACP dial-in information will no longer be able to be used to join the audio portion of a Skype for Business meeting. 
 
 To prevent the fragmentation of audio in Skype for Business meetings by having some participants joining via VoIP and other via the third-party ACP, it’s recommended for these organizations to disable using VoIP on their users’ meetings. This way, all participants will need to join the audio portion of a meeting using the third-party ACP and all other workloads of the meeting (such as chat or screen sharing) can continue to be supported over Skype for Business. 
 
 - To disable VoIP from all meetings of a given organizer, set the AllowIPAudio parameter of his or her Conferencing Policy to false via the Set-CsConferencingPolicy cmdlet. For additional information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-In terms of scheduling, and as of April 1, 2019, the dial-in information of a third-party ACP will no longer be automatically included in Skype for Business meeting invites. Users will need to manually add the dial-in information on their Skype for Business meeting invites if they wish to continue including this information as part of their meetings. 
+In terms of scheduling, and as of April 1st, 2019, the dial-in information of a third-party ACP will no longer be automatically included in Skype for Business meeting invites. Users will need to manually add the dial-in information on their Skype for Business meeting invites if they wish to continue including this information as part of their meetings. 
 
-Please note that on April 1, 2019, the existing meetings of users will not be automatically rescheduled to remove any third-party ACP dial-in information. Organizations who decide to keep VoIP enabled for the meetings of their users should consider disabling the integration of third-party ACP for their users and reschedule their meetings using the meeting migration service to remove the third-party audio conferencing dial-in information from their existing meetings and prevent the fragmentation of audio on already-scheduled meetings. 
+Please note that on April 1st, 2019, the existing meetings of users will not be automatically rescheduled to remove any third-party ACP dial-in information. Organizations that decide to keep VoIP enabled for the meetings of their users should consider disabling the integration of third-party ACP for their users and reschedule their meetings using the meeting migration service to remove the third-party audio conferencing dial-in information from their existing meetings and prevent the fragmentation of audio on already-scheduled meetings. 
 
 - To disable the integration of third-party audio conferencing for a given organizer, use the Remove-CsUserAcp cmdlet. For additional information, see [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
@@ -91,11 +93,17 @@ Please note that on April 1, 2019, the existing meetings of users will not be au
 
 **Summary:**
 
-- Organizations that decide to continue using a third-party ACP on and after April 1, 2019, will be affected because a third-party ACP won’t be able to be used to join a Skype for Business meeting and new meetings will not include third-party ACP dial-in information. 
+- Organizations that decide to continue using a third-party ACP on and after April 1st, 2019, will be affected because a third-party ACP won’t be able to be used to join a Skype for Business meeting and new meetings will not include third-party ACP dial-in information. 
 
-- It’s recommended that VoIP be disabled for all meetings of all affected users to prevent the audio from being fragmented across participants joining via VoIP and via a third-party ACP. 
+- It’s recommended that VoIP is disabled for all meetings of all affected users before April 1st, 2019, to prevent the audio from being fragmented across participants joining via VoIP and via a third-party ACP. 
 
-    - To disable VoIP from all meetings of a given organizer, set the AllowIPAudio parameter of the user’s Conferencing Policy to false via the Set-CsConferencingPolicy cmdlet. For additional information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps). 
+    - To disable VoIP from all meetings of a given organizer, set the AllowIPAudio parameter of the user’s Conferencing Policy to false via the Set-CsConferencingPolicy cmdlet. For additional information, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+ 
+- If an organization doesn’t disable VoIP for all meetings, it’s recommended for users to be disabled from using the Skype for Business Online integration with a third-party ACP and reschedule their meetings to remove the third-party ACP dial-in information to prevent fragmentation of audio.
+
+    - To disable the integration of third-party audio conferencing for a given organizer, use the [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps) cmdlet. 
+
+    - To automatically reschedule the meetings, see “How do I run Meeting Migration manually for a user?” in [Setting up the Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
 
 ### Path #3: Stop using dial-in conferencing altogether
 
@@ -109,7 +117,7 @@ These organizations would need to disable their users from using a third-party a
 
 **Summary:** 
 
-- Organizations that decide to stop using audio conferencing altogether before April 1, 2019, will not be impacted.
+- Organizations that decide to stop using audio conferencing altogether before April 1st, 2019, will not be impacted.
 
 - To disable the integration of third-party audio conferencing for a given organizer, use the Remove-CsUserAcp cmdlet. For additional information, see [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 

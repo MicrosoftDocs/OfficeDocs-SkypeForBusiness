@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 04/02/2018
+ms.date: 03/26/2018
 ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
@@ -64,7 +64,7 @@ To save time or automate this, you can use the following PowerShell script to se
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
 
   
-To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx).
+To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.
   
 
 ### Using a Windows PowerShell script for a large number of users
