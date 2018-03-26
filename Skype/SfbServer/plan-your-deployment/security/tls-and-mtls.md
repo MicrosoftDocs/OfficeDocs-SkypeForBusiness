@@ -5,7 +5,7 @@ author: kenwith
 manager: serdars
 ms.date: 5/5/2016
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16

@@ -5,7 +5,7 @@ author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf

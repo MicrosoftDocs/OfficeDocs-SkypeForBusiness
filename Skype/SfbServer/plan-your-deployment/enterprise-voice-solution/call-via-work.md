@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 10/31/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16

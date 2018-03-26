@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 ms.date: 6/23/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9

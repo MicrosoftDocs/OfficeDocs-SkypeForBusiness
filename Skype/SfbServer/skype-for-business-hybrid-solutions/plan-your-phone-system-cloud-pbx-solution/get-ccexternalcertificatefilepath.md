@@ -5,7 +5,7 @@ author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2

@@ -5,7 +5,7 @@ author: microsoftheidi
 manager: serdars
 ms.date: 1/29/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 f1_keywords:
 - ms.lync.plan.HighAvailabilityType
 ms.prod: skype-for-business-itpro

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
