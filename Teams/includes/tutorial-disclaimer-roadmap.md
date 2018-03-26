@@ -1,5 +1,5 @@
 > [!NOTE]
-> Microsoft Teams is evolving on a regular basis -- new features and functionality are added frequently. Please monitor the following resources to stay up-to-date:
+> Microsoft Teams is evolving on a regular basis—new features and functionality are added frequently. Please monitor the following resources to stay up-to-date:
 - Follow the [Teams Blog](https://aka.ms/teamsblog)
 - Read the [Teams Roadmap](https://aka.ms/skype2teamsroadmap)
 - Learn about the latest released features in the [Release Notes](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)
