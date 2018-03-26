@@ -1,7 +1,10 @@
 Teams supports the following internet browsers: 
 - Internet Explorer 11
 - Microsoft Edge
+  - Calling and Meetings supported on Edge RS2 or later
 - The latest version of Chrome, plus two previous versions
+  - Calling supported on Chrome 59 or later
+  - Meetings support coming soon
 - The latest version of Firefox, plus two previous versions
 
 > [!NOTE]
