@@ -13,6 +13,7 @@
 # Setup
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
+## [Sign in to Teams](sign-in-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
 ## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)

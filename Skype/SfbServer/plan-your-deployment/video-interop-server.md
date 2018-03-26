@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 f1_keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro

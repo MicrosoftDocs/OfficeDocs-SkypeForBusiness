@@ -4,7 +4,7 @@ ms.author: heidip
 author: microsoftheidi
 ms.date: 2/15/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:

@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
