@@ -1,4 +1,19 @@
-# User feedback survey 
+---
+title: Microsoft Teams user feedback surveys
+author: dearbeen
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 03/31/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Gather user feedback to improve cloud voice implementation.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
+# User feedback surveys 
 
 Use feedback surveys to capture users’ experience and insights after your deployment. Questions should elicit feedback about the users’ receptiveness to change, the effectiveness of training resources, how ready was the support plan, and the users’ overall experience. Assess survey responses to measure against the SMART (specific, measurable, attainable, relevant, time-bound) goals you defined during your project planning, and determine any additional action required.
 
