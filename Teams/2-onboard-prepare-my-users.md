@@ -1,9 +1,9 @@
 ---
 title: Prepare users for Microsoft Teams
-author: rmw2890
+author: dearbeen
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,68 +15,124 @@ appliesto:
 
 # Prepare my users
 
-## Drive user adoption of cloud voice services
+After you've secured your project team and defined the scope and goals of your project, the next step is ensuring organizational and user readiness, an activity you complete in parallel with your technical readiness. To realize value from your deployment, users must actually use and adopt it. Simply enabling a solution doesn’t guarantee that you'll achieve your goals. Further, users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions included below are designed to help you understand your user base and prepare the right level of education to facilitate and accelerate user adoption.
 
-As you get your technical environment ready to support Audio Conferencing or
-Phone System with Calling Plans, take time to ensure your users are ready for
-the change as well. Simply turning off one tool and turning on another doesn’t
-guarantee good results. We’ve seen users turn to their mobile phones, use
-self-selected third-party tools, even buy their own audio conferencing minutes,
-all without IT knowing. To maximize results, drive adoption, and create
-“stickiness,” users must accept the new solution, learn it, and use it as part
-of their daily routine.
+Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor, Marketing/Training/Support Managers
 
-Our proven change management framework, designed to be run in parallel with your
-technical readiness planning, is built on five core building blocks for change.
-It’s designed to be easily repeatable, adaptable, and flexible enough to meet
-your needs. Leverage the following guidance and resources to get started today,
-and look for more detailed guidance in the coming months.
+> [!NOTE] 
+> The assessment activities provided below are adaptable to any change initiative in your organization. Simply address the questions based on the scope of your project. In the discussion of these activities, “new solution” can apply to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to Teams.
 
-![Core building blocks in order left to right: Project Team; Scope and Goals; Org and People Readiness; Awareness, Training & Support; ending in an Execution Plan.](media/prepare-my-users-image1.png "Core building blocks in order left to right: Project Team; Scope and Goals; Org and People Readiness; Awareness, Training & Support; ending in an Execution Plan.")
+## Create your vision-to-value statement
 
-### Assess your project team
+Setting your project vision enables your key stakeholders to see the big picture. This typically equates to business drivers&mdash;such as cost savings, operational efficiencies, and increased productivity&mdash;and aligns with the goals you set earlier in the project. To a user, that same project might be viewed as taking away familiar tools, productivity disruption, and lack of compassion by management. Take time to put yourself in your users' shoes and translate your project vision into a value statement to users. Employ this value statement in your communications and training activities to empower users to see how Teams can work for them.
 
-Assess your project team to connect the right project stakeholders across IT,
-marketing/communications, training, and support, and identify an adoption change
-manager who has accountability for user success.
+Here's an example based on a customer upgrading from Skype for Business to Teams:
 
-### Define the scope and goals of your plan
-
-Together with your stakeholders, articulate the scope and goals for this
-project. Define goals that you’ll measure throughout your project lifecycle to
-ensure your project stays on track, in addition to those you’ll measure at the
-end of the project. For optimal results, use a mix of technical and
-user-readiness goals.
-
-### Understand what constitutes organization and people readiness
-
-To help realize your defined goals, take time to understand who the users are
-who will be using your voice solution. Examine how those users work and which
-devices are optimal for their role. Remember that change is optional: define the
-value messaging for your users to ensure they understand “what’s in it for me.”
-
-### Awareness, training and support
-
-Use the user profiling you did in the “organizational and people readiness”
-block to inform how much and what types of communication and training you should
-apply to this change. Keep in mind that not everyone retains information the
-same way, so use a variety of awareness, training, and support options to
-maximize your reach.
-
-### Execute your user adoption plan
-
-When it comes to implementing your plan, we recommend that you start with a
-pilot or early adopter program to validate user sentiment and then expand to
-other personas and cohorts. Ultimately, you’re in control of your adoption
-journey.
-
-[//]: # (Note that you can't remove the "en-us" from the link in this table.)
+[//]: # (Placeholder alt text. Will the parens work?)
+![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-image1.png "Title text, or not")
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for driving user adoption and change management during your organization’s implementation of cloud voice capabilities?</li><li>How will you implement an adoption and change management strategy?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download and review the [Office 365 Adoption Guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).</li><li>Document your strategy for driving user adoption.</li><li>Finalize schedule and communication plans to begin your adoption campaign.
-</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Create your vision and value statements for your current project scope, ensuring they align with your goals.</li></ul></td></tr>
 </table>
 
-<!--ENDOFSECTION-->
-  
+## Determine organizational change readiness
+
+Organizational readiness helps determine how receptive (or not) your users might be to changing the way they work. Knowing how users might react to change empowers your organization to proactively address concerns, adjust your rollout plan for optimal reception, and identify users who can become your champions or ambassadors to help facilitate the change.
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Are users ready and willing to change to the new solution?</li><li>Do users have the ability or competency to facilitate the change?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Use the following conversation starters to understand the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project.
+<li></li></li></ul></td></tr>
+</table>
+
+> [!TIP]
+> To help guide the discussion, evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
+
+### What percent of users fall into each bucket?
+
+| **Type of user**                                                             | **%** |
+|------------------------------------------------------------------------------|-------|
+| *Early adopters* request the solution before it’s available.                  |       |
+| *Informed users* accept the solution as soon as its value is demonstrated.    |       |
+| *Laggards* reject the solution, even when pushed into change.                 |       |
+
+
+> [!TIP]
+> Early adopters are great candidates for your pilot deployment and also champions' initiatives. If you have a large percentage of laggards, take time to focus on value messaging for those users and handholding to help get them on board with the change.
+
+### What percent of users fall into each competency?
+
+| **Type of learner**                                                        | **%** |
+|----------------------------------------------------------------------------|-------|
+| *Self-motivated* learners seek out resources, learn by doing.                         |       |
+| *Team players* enjoy group and interactive training; they'll go along with coworkers. |       |
+| *Handholding* seekers expect "white glove" or one-on-one assistance.                   |       |
+
+ 
+> [!TIP]
+> Learning is not one-size-fits-all. By understanding how your users learn best, you can create a robust training program to help accelerate their learning. If many users are self-motivated, linking to videos and user guides might suffice. For those who need specialized attention, be sure to schedule some one-on-one time&mdash;or enlist your champions to help those users over the learning curve.
+
+## Assess your user base
+
+[//]: # (Not sure why original had "...analysis means understanding..." when the phrase hadn't been used yet)
+People-level analysis gives you understanding of your user personas, cohorts, and use cases. By taking time to understand who your users are and how they work, you can ensure they have what they need to be successful as you implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training, whereas traveling field reps might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who should start using the new functionality today versus who might be best served by waiting.
+
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Do certain users or cohorts have a core dependency on this solution to do their job effectively?</li><li>Are there specific use cases that can be facilitated by using this new solution?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Map user personas. First, segment your user base into persona/cohort groups (Executives, Road Warriors, Collaboration Workers, Retail, and so on). For manageability, list no more than eight groups. (For sample conversation starters, see below.) Use your findings to further design your user readiness campaigns and to segment pilot users from those who might benefit from upgrading later on.
+</li><li>Map use cases. After you’ve identified core user groups who will benefit from this new technology, consider your general user population. By understanding cross-team use cases and scenarios, you can visualize your organization working with this new technology. In addition, adding use case examples to your communication and training plans really help make them relevant for your users.</li></ul></td></tr>
+</table>
+
+For each persona group, discuss the following with your project team:
+
+-   What are the core characteristics of this group (that is, what's a typical "day in the life")?
+
+-   How will this group benefit from the new solution? What features and functionality will they need to be effective?
+
+-   What devices will they need (for example, headsets or speakers), and do they already have them?
+
+-   What additional value messaging, if any, is required to create desire in this group to start using the new solution?
+
+-   What's the best way for this group to receive:
+
+    -   Awareness (for example, email, posters, department managers)?
+
+    -   Training (for example, online training, user guide, white glove)?
+
+    -   Support (self-serve, helpdesk, champions)?  
+
+-   Is this group a good candidate for a pilot or early adopter program? If so, make a plan to get buy-in from these users to participate in the pilot. For more information about implementing a successful pilot program, see *Pilot Teams*.
+[//]: # (Previous paragraph--where should the link go?)
+
+The following image is an example of a persona table.
+
+![NEEDS ALT TEXT](media/prepare-my-users-image2.png)
+
+For each use case, discuss the following with your project team:
+
+-   What are the core characteristics for this use case/scenario?
+
+-   What's good about the current solution?
+
+-   What challenges, if any, do you face with your current solution?
+
+-   How will the new solution optimize the user experience?
+
+For examples of use cases, visit the [FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary).
+
+## Optimize your readiness plan
+After you understand who your users are and how they'll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you'll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you've defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
+
+[//]: # (In the Decision point, why was it "...your users competency to change..."?)
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users' ability to deal with change and the user personas you've defined?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Use the list in the following section to generate ideas for your readiness plan. Select the most relevant ones&mdash;or add your own&mdash;to design a readiness plan optimized for your organization.</li></ul></td></tr>
+</table>
+
+### Readiness plan ideas
+
+<table>
+<tr><th>Communication</th><th>Training</th><th>Support</th></tr>
+<tr><td><ul><li>Email&mdash;personalize our [voice email templates](<need_link>)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback survey](need_link)</li></td></tr>
+</table>
