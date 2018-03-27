@@ -88,7 +88,7 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
     -	Admins can setup separate retention policies for Teams Private Chats (1xN chats) and Teams channel messages. In many case, organizations consider private chat data as more of a liability than channel messages which are more project related conversations. 
     -	In Security and compliance center, chose the Teams Locations for Chat/Channel Messages to define retention policies on these locations:
 
-    ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Rention-Policies.png)
+    ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Retention-Policies.png)
 
     -	When the Teams Channel messages location is selected, there is flexibility to target Teams to which this policy must be applied. E.g. admin can target channel message deletion policies to Teams X,Y and Z for 1 year and admin can target channel message deletion policies of 3 years to rest of the Teams in a tenant using the Team picker. 
     -	Similar functionality is also available for Teams chats locations using the user picker. 
