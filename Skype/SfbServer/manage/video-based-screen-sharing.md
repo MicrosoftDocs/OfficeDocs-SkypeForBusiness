@@ -171,7 +171,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    For more information on this command, see [Set-CsConferencingPolicy](management-shell/set-csconferencingpolicy.md).
+    For more information on this command, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - If you need to turn VbSS back on after turning it off (it's on by default), you can run this command:
     
@@ -179,7 +179,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    For more information on this command, see [Set-CsMediaConfiguration](management-shell/set-csmediaconfiguration.md).
+    For more information on this command, see [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In a multi-party Skype for Business meeting, all client endpoints will respect the policy setting for the meeting organizer. 
