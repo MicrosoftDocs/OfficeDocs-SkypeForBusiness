@@ -44,7 +44,8 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+
                         </div>
                     </div>
                     <div class="cardText">
