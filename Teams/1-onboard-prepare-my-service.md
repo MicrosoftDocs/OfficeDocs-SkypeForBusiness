@@ -15,6 +15,8 @@ appliesto:
 
 # Prepare my service
 
+This content provides an overview of the requirements for properly preparing cloud voice service for your organization. By properly preparing your cloud voice service, you can be sure you are ready to provide cloud voice services to your organization.
+
 ## Onboarding checklists for Microsoft Teams voice workloads
 
 The following checklists walk you through the steps for implementing Audio

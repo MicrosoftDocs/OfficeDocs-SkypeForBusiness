@@ -15,6 +15,8 @@ appliesto:
 
 # Operate my service
 
+This content provides an overview of the requirements for properly operating a successful cloud voice service for your organization. By properly operating your cloud voice service, you can be sure you are providing a quality and reliable experience for your organization.
+
 ## Introduction to the Operations Guide
 
 The Operations Guide gives you an overview of all the tasks and activities

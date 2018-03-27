@@ -15,8 +15,6 @@ appliesto:
 
 # Define my success
 
-## Introduction
-
 This content provides an overview of the requirements for properly defining success for the deployment of Audio Conferencing for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
 
 <!--ENDOFSECTION-->

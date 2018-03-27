@@ -15,6 +15,10 @@ appliesto:
 
 # Prepare my users
 
+This content provides an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you will make sure you are delivering the most value for your organization.
+
+## Preparing for user adoption
+
 After you've secured your project team and defined the scope and goals of your project, the next step is ensuring organizational and user readiness, an activity you complete in parallel with your technical readiness. To realize value from your deployment, users must actually use and adopt it. Simply enabling a solution doesn’t guarantee that you'll achieve your goals. Further, users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions included below are designed to help you understand your user base and prepare the right level of education to facilitate and accelerate user adoption.
 
 Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor, Marketing/Training/Support Managers
