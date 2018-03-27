@@ -26,10 +26,10 @@ Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor
 
 Setting your project vision enables your key stakeholders to see the big picture. This typically equates to business drivers&mdash;such as cost savings, operational efficiencies, and increased productivity&mdash;and aligns with the goals you set earlier in the project. To a user, that same project might be viewed as taking away familiar tools, productivity disruption, and lack of compassion by management. Take time to put yourself in your users' shoes and translate your project vision into a value statement to users. Employ this value statement in your communications and training activities to empower users to see how Teams can work for them.
 
-Here's an example based on a customer upgrading from Skype for Business to Teams:
+The following image is an example of a vision-to-value statement for a customer upgrading from Skype for Business to Teams.
 
 [//]: # (Placeholder alt text. Will the parens work?)
-![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Title text, or not")
+![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right")
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
