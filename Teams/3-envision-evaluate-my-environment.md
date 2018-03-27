@@ -55,33 +55,19 @@ from MyAdvisor to perform environmental discovery.
 
 ## Adoption and change management assessment capabilities 
 
-You can evaluate your organization’s adoption readiness by executing persona
-analysis to come up with a list of personas who can be targeted for the
-implementation of the Audio Conferencing and Phone System with Calling Plan
-services. Persona analysis includes identifying additional peripheral devices or
-other devices required to realize the intended business outcomes.
+Deployment puts a new technology at a user's fingertips, but business results are only realized after users truly adopt that solution as their own. To help ensure sustained adoption of a new solution, you'll need to focus your efforts on user readiness and change management. For optimal results, conduct user readiness planning as a parallel workstream to your technical readiness activities and incorporate the following activities:
 
-To perform persona analysis, you can conduct a workshop by involving relevant
-project stakeholders, using the [Persona
-Alignment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7)
-workshop deck and [Persona Feature
-Matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8).
-You can summarize the results of the persona analysis workshop in a report by
-using the [Persona Analysis
-Report](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9)
-template.
+-   **Organizational and user profiling:** Analysis of organizational receptiveness to change in addition to use case and persona analysis
 
->[!NOTE]
->Although the persona assets were initially written for Skype for
-Business Online, most of the content is relevant to Teams. Feel free to modify
-and remove items that aren’t relevant to your project goals.
+-   **Readiness and resource preparation:** Creation of targeted and broad-reach awareness, training, and support resources, including focused value messaging to accelerate user buy-in
+
+Use the following considerations to assess your organization’s preparedness to address user change management.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Who will be responsible for completing a persona alignment and feature assessment?</li><li>Evaluate your ability to perform adoption and change management for your organization.</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the persona alignment and feature assessment.</li><li>If required, engage outside resources to assist with driving adoption and change management for your organization.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>If you answered "yes" to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered "no" to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

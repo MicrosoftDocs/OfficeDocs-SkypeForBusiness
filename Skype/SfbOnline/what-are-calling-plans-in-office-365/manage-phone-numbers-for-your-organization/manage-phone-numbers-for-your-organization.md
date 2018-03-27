@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -33,13 +33,14 @@ There are three ways to get both user and service (toll and toll-free) numbers f
 - Transfer or "port" your existing numbers over to us.
 
 > [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). 
 
 ***
 If you know what kind of forms you are looking for use the drop down to select the country/region where you are getting numbers.
 
 **Select your country or region to find the downloadable forms you need**
 > [!div class="op_single_selector"] 
+> - [Australia](phone-number-management-for-australia.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
 > - [France](phone-number-management-for-france.md)
