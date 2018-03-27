@@ -1,0 +1,56 @@
+---
+title: "Create a file share in Skype for Business Server 2015"
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 12/20/2016
+ms.audience: ITPro
+ms.topic: get-started-article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.custom: Strat_SB_Admin
+ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
+description: "Summary: Learn how to create a Windows Server file share as part of the installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+---
+
+# Create a file share in Skype for Business Server 2015
+ 
+**Summary:** Learn how to create a Windows Server file share as part of the installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+  
+Skype for Business Server requires a file share so that computers throughout the topology can exchange files. Creating a file share is step 2 of 8 in the installation process for Skype for Business Server 2015. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram. For planning details about file share, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+  
+![Overview diagram](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+  
+## Create a basic file share
+
+This section walks you through creating a basic Windows Server file share. A basic Windows Server file share is supported with Skype for Business Server. However, it does not explicitly provide high availability. For a high availability environment, a Distributed File System (DFS) file share is recommended. For more information about a high availability file share and DFS, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+  
+> [!NOTE]
+> Windows Server 2012 R2 has made major leaps in providing Storage Area Network (SAN)-like file share solutions using the Windows Server platform. When compared to a traditional SAN-based appliance, a Windows Server 2012 R2 storage solution can cut costs in half with very minimal impact to performance. For more information about file share options in Windows Server 2012 R2, see the downloadable white paper [Windows Server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
+  
+Watch the video steps for **create a file share**:
+  
+![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+  
+### Create a basic file share
+
+1. Log on to the computer that will host the file share.
+    
+2. Right-click the folder you plan to share, and select **Properties**.
+    
+3. Select the **Sharing** tab, and click **Advanced Sharing**.
+    
+4. Click **Share this folder**.
+    
+5. Click **Permissions**.
+    
+6. Add the local **Administrators** group of the server hosting the file share, grant **Allow: Full Control, Change, and Read** rights, and then click **OK**.
+    
+7. Click **OK** again and take note of the network path.
+    
+8. Click **Done** to close the wizard.
+    
+     ![Sharing tab for sharing a folder.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
+  
+
