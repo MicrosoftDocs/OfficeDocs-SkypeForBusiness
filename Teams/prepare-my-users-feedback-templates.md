@@ -7,9 +7,10 @@ Customize the questions below, and then transport them into a survey tool such a
 [//]: # (Do we want to call out the WX phone? I deleted it from the questions because I haven't seen it referred to anywhere else.)
 For the purpose of these surveys, *new phone system* refers to using calling features in Skype for Business or Microsoft Teams, in addition to devices such as a media phone or mobile phone.
 
-| Indicate your level of agreement with the following statements, as it relates to using Skype for Business as your phone. |                      |                    |             |                       |                         |                        |
+Indicate your level of agreement with the following statements, as it relates to using Skype for Business as your phone. 
+
+|     &nbsp;                              | Completely agree | Somewhat agree | Neutral | Somewhat disagree | Completely disagree | N/A or didn't use |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-|                                                                                                                          | **Completely agree** | **Somewhat agree** | **Neutral** | **Somewhat disagree** | **Completely disagree** | **N/A or didn't use** |
 | I can easily make and receive phone calls using my computer.                                                             |                      |                    |             |                       |                         |                        |
 | I can easily make and receive phone calls using my new desk phone.                                              |                      |                    |             |                       |                         |                        |
 | I was able to easily sign in to my new desk phone.                                                                              |                      |                    |             |                       |                         |                        |
@@ -21,20 +22,28 @@ For the purpose of these surveys, *new phone system* refers to using calling fea
 
 If you chose **Somewhat disagree** or **Completely disagree** for any of the above statements, please explain. (Open text)
 
-| Indicate your level of agreement with the following statements, as it relates to your onboarding experience with your new phone.       |                      |                    |             |                       |                         |                        |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-|                                                                                                                                        | **Completely agree** | **Somewhat agree** | **Neutral** | **Somewhat disagree** | **Completely disagree** | **N/A or didn't use** |
+Indicate your level of agreement with the following statements, as it relates to your onboarding experience with your new phone.  
+
+|          &nbsp;                  | Completely agree | Somewhat agree | Neutral | Somewhat disagree | Completely disagree | N/A or didn't use |
+|----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | My organization provided enough information (communication, resources, and calls to action) for me to start using the new phone system. |                      |                    |             |                       |                         |                        |
 | I had adequate training resources to quickly onboard to the new phone system.                                                          |                      |                    |             |                       |                         |                        |
 | Our helpdesk could answer all my questions about the new phone system.                                                           |                      |                    |             |                       |                         |                        |
 
 If you chose **Somewhat disagree** or **Completely disagree** for any of the above statements, please explain. (Open text)
 
-| How likely are you to recommend using Skype for Business as a phone to a friend/colleague? (0=Not at all likely...10=Extremely likely) |   |   |   |   |   |   |   |   |   |    |
-|----------------------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|---|---|----|
-| 0                                                                                                                                      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-| How likely are you to recommend your phone device to a friend/colleague? (0=Not at all likely...10=Extremely likely)          |   |   |   |   |   |   |   |   |   |    |
-| 0                                                                                                                                      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+How likely are you to recommend using Skype for Business as a phone to a friend or colleague? (0=Not at all likely...10=Extremely likely)
 
-**Please share any additional feedback regarding your phone experience.** (Open
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|--------|---|---|---|---|---|---|---|---|---|---|----|
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+
+How likely are you to recommend your phone device to a friend or colleague? (0=Not at all likely...10=Extremely likely)  
+
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|--------|---|---|---|---|---|---|---|---|---|---|----|
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+
+
+**Please share any additional feedback regarding your phone experience.** (pen
 text)
