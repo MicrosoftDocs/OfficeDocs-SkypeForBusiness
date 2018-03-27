@@ -22,7 +22,11 @@ This article contains customizable email templates to help inform users about th
 
 ## Email number 1: Send three weeks before launch
 
-Subject Line: IMPORTANT ANNOUNCEMENT about your office desk phone
+Subject line:
+
+```
+IMPORTANT ANNOUNCEMENT about your office desk phone
+```
 
 Body of email:
 
@@ -84,7 +88,11 @@ If you have questions concerning this change, contact <insert name/email>.
 
 ## Email number 2: Send one week before launch
 
-Subject Line: ACTION REQUESTED: Are you ready for your new phone system?
+Subject line:
+
+```
+ACTION REQUESTED: Are you ready for your new phone system?
+```
 
 Body of email:
 
@@ -123,9 +131,13 @@ Regards,
 <insert name of department manager>
 ```
 
-## Email 3: Send on launch day
+## Email number 3: Send on launch day
 
-Subject Line: IMPORTANT NOTICE: Your new phone system is live
+Subject line:
+
+```
+IMPORTANT NOTICE: Your new phone system is live
+```
 
 Body of email:
 
@@ -175,7 +187,11 @@ Regards,
 
 ## Email number 4: Send two weeks after launch
 
-Subject Line: FEEDBACK REQUESTED: Your new phone system
+Subject line:
+
+```
+FEEDBACK REQUESTED: Your new phone system
+```
 
 Body of email:
 
