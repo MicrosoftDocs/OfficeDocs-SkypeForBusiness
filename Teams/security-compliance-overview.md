@@ -73,6 +73,33 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 > [!IMPORTANT]
 > There can be up to a 24-hr delay to discover Teams content.
 
+
+-   Retention Policies
+
+    Microsoft Teams conversations are persistent and retained forever by default. With the introduction of Retention Policies, admins can configure retention policies (both preservation and deletion) in the security and compliance center for Teams chat and channel messages. This helps organizations either retain data for compliance (i.e. preservation policy) for a specific period or get rid of data (i.e. deletion policy) if it is considered a liability after a specific period.  
+
+    -	Teams Retention Policies works through the Retention Policies UX and cmdlets available in the Office 365 Security and compliance center under Data Governance\Retention.
+    -	Teams Retention Policies will support: 
+        - Preservation i.e. keep Teams data till duration X and then do nothing
+        -   Preservation and then Delete i.e. keep Teams data till duration X and then delete
+        -	Deletion i.e. Delete Teams data after duration X
+    -	Advanced Retention policies are not supported for Microsoft Teams yet
+    -	Duration of < 30 days is not supported for Microsoft Teams yet
+    -	Admins can setup separate retention policies for Teams Private Chats (1xN chats) and Teams channel messages. In many case, organizations consider private chat data as more of a liability than channel messages which are more project related conversations. 
+    -	In Security and compliance center, chose the Teams Locations for Chat/Channel Messages to define retention policies on these locations:
+
+    ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Rention-Policies.png)
+    
+    -	When the Teams Channel messages location is selected, there is flexibility to target Teams to which this policy must be applied. E.g. admin can target channel message deletion policies to Teams X,Y and Z for 1 year and admin can target channel message deletion policies of 3 years to rest of the Teams in a tenant using the Team picker. 
+    -	Similar functionality is also available for Teams chats locations using the user picker. 
+    -	The Teams Channel message locations and Teams chats locations only address the Teams conversations stored in EXO mailboxes (user and group mailboxes) per the workflow shown above. The messages are deleted from all relevant storage locations i.e. the mailboxes/substrate and chat service. 
+    -	For Teams Files, retention policies must be setup using the OneDrive for business and SharePoint location rows as Teams files are stored in these locations. 
+
+
+
+
+
+
 Additionally, Microsoft is considering providing the following security features for Teams. Once available, guidance will be provided on how customers can leverage the features:
 
 -   Tenant-specific retention Policy
