@@ -95,7 +95,7 @@ items:
     Other options, such as leveraging an existing PSTN infrastructure through a
     Skype for Business pool or Cloud Connector Edition, don’t exist at this
     time.
-    "Direct Routing" which will allow you to connect an extsiting PBX or SIP 
+    "Direct Routing" allows you to connect an existing PBX or SIP 
     Trunk to Teams and is targeted for general availability in Q2 of 2018. See [Direct 
     Routing enables new enterprise voice options in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-enables-new-enterprise-voice-options-in-Microsoft/ba-p/170450)
     For more information.
