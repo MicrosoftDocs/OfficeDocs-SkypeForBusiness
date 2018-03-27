@@ -15,6 +15,8 @@ appliesto:
 
 # Evaluate my environment
 
+This content provides an overview of the requirements for evaluating your current environment for using cloud voice services. By properly evaluating your current environment you will identify risks and requirements that will influence your overall cloud voice deployment. Identifying the items prior to deploying allows for proper adjustment and planning to drive success.
+
 ## Introduction to evaluating your environment 
 
 To achieve your objective key results (OKRs), you previously made key service
