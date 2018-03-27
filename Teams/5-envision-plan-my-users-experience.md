@@ -15,6 +15,8 @@ appliesto:
 
 # Plan my users’ experience
 
+This content provides an overview of the requirements for properly identifying your end users expereince. By preparing for all the items that can impact your users experience prior to deployment, you will increase your chances of success and deliver a high quality and reliable user experience. 
+
 ## Client deployment
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and
