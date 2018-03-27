@@ -126,6 +126,7 @@
 
 
 ## Audio Conferencing
+### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Assign a third-party as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Audio Conferencing common questions](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -161,6 +162,7 @@
 ### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 ## Calling plans
+### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
 ### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 ### [Set up Calling Plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Add, change or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
