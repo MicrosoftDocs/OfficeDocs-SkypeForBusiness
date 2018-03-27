@@ -17,6 +17,8 @@ appliesto:
 
 This content provides an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you will make sure you are delivering the most value for your organization.
 
+<!--ENDOFSECTION-->
+
 ## Preparing for user adoption
 
 After you've secured your project team and defined the scope and goals of your project, the next step is ensuring organizational and user readiness, an activity you complete in parallel with your technical readiness. To realize value from your deployment, users must actually use and adopt it. Simply enabling a solution doesn’t guarantee that you'll achieve your goals. Further, users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions included below are designed to help you understand your user base and prepare the right level of education to facilitate and accelerate user adoption.
@@ -25,6 +27,8 @@ Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor
 
 > [!NOTE] 
 > The assessment activities provided below are adaptable to any change initiative in your organization. Simply address the questions based on the scope of your project. In the discussion of these activities, “new solution” can apply to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to Teams.
+
+<!--ENDOFSECTION-->
 
 ## Create your vision-to-value statement
 
@@ -39,6 +43,8 @@ The following image is an example of a vision-to-value statement for a customer 
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Create your vision and value statements for your current project scope, ensuring they align with your goals.</li></ul></td></tr>
 </table>
+
+<!--ENDOFSECTION-->
 
 ## Determine organizational change readiness
 
@@ -76,6 +82,8 @@ Organizational readiness helps determine how receptive (or not) your users might
  
 > [!TIP]
 > Learning is not one-size-fits-all. By understanding how your users learn best, you can create a robust training program to help accelerate their learning. If many users are self-motivated, linking to videos and user guides might suffice. For those who need specialized attention, be sure to schedule some one-on-one time&mdash;or enlist your champions to help those users over the learning curve.
+
+<!--ENDOFSECTION-->
 
 ## Assess your user base
 
@@ -125,6 +133,8 @@ For each use case, discuss the following with your project team:
 
 For examples of use cases, visit the [FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary).
 
+<!--ENDOFSECTION-->
+
 ## Optimize your readiness plan
 After you understand who your users are and how they'll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you'll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you've defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
 
@@ -138,5 +148,5 @@ After you understand who your users are and how they'll work within the new solu
 
 <table>
 <tr><th>Communication</th><th>Training</th><th>Support</th></tr>
-<tr><td><ul><li>Email&mdash;personalize our [voice email templates](<need_link>)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback survey](need_link)</li></td></tr>
+<tr><td><ul><li>Email&mdash;personalize our [voice email templates](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-email-templates)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback survey](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-feedback-templates)</li></td></tr>
 </table>
