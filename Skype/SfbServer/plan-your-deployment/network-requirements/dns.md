@@ -121,7 +121,10 @@ The following diagram shows an example that includes both internal and external 
 > [!IMPORTANT]
 > For more detail on FQDNs, see [DNS basics](basics.md). 
   
- **Split brain DNS**<a name="BK_split"> </a> is a DNS configuration where you have two DNS zones with the same namespace. The first DNS zone handles internal requests, while the second DNS zone handles external requests, as mentioned in these tables. For more about this see [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS). 
+ **Split brain DNS**
+<a name="BK_split"> </a>
+ 
+Split brain DNS is a DNS configuration where you have two DNS zones with the same namespace. The first DNS zone handles internal requests, while the second DNS zone handles external requests, as mentioned in these tables. For more about this see [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS). 
   
 ## Hybrid considerations
 <a name="BK_Hybrid"> </a>
