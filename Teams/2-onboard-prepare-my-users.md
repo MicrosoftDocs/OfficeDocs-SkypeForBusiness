@@ -29,7 +29,7 @@ Setting your project vision enables your key stakeholders to see the big picture
 Here's an example based on a customer upgrading from Skype for Business to Teams:
 
 [//]: # (Placeholder alt text. Will the parens work?)
-![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-image1.png "Title text, or not")
+![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Title text, or not")
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
