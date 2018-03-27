@@ -3,7 +3,7 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
