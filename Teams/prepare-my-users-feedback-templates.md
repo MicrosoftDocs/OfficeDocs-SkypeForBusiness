@@ -45,5 +45,5 @@ How likely are you to recommend your phone device to a friend or colleague? (0=N
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 
-**Please share any additional feedback regarding your phone experience.** (pen
+Please share any additional feedback regarding your phone experience. (Open
 text)
