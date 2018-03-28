@@ -15,7 +15,7 @@ description: Skype for Business
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="https://technet.microsoft.com/en-us/library/gg293124.aspx">
+                                <a href="/SkypeForBusiness/skype-for-business-server-2015">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
