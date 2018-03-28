@@ -68,11 +68,11 @@ enabled on <INSERT DATE>, but you can start preparing today.
 
 CALL TO ACTION
 
--   <optional> Get started with Teams. If you're not already
+-   <OPTIONAL> Get started with Teams. If you're not already
     taking advantage of Teams IM and meetings capabilities, get
-    started today by visiting https://support.office.com/article/Skype-for-Business-on-Windows-Quick-Start-2da94a13-6d16-4d67-adf3-439f2b946994.
+    started today by visiting https://aka.ms/F63e30.
 
--   <optional> Order your new headset. To ensure the best audio quality, use
+-   <OPTIONAL> Order your new headset. To ensure the best audio quality, use
     an approved headset. You can view available options or order yours <INSERT LINK>. We'll
     also be hosting a device bar in <INSERT LOCATION>, where you can try on a few
     headsets and find the best fit for you.
