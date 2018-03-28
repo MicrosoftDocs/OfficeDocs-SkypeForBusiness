@@ -15,13 +15,13 @@ appliesto:
 
 # Prepare my users
 
-This content provides an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you will make sure you are delivering the most value for your organization.
+This content provides an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you’ll make sure you’re delivering the most value for your organization.
 
 <!--ENDOFSECTION-->
 
 ## Preparing for user adoption
 
-After you've secured your project team and defined the scope and goals of your project, the next step is ensuring organizational and user readiness, an activity you complete in parallel with your technical readiness. To realize value from your deployment, users must actually use and adopt it. Simply enabling a solution doesn’t guarantee that you'll achieve your goals. Further, users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions included below are designed to help you understand your user base and prepare the right level of education to facilitate and accelerate user adoption.
+After you’ve secured your project team and defined the scope and goals of your project, the next step is ensuring organizational and user readiness, an activity you complete in parallel with your technical readiness. To realize value from your deployment, users must actually use and adopt it. Simply enabling a solution doesn’t guarantee that you’ll achieve your goals. Further, users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions included below are designed to help you understand your user base and prepare the right level of education to facilitate and accelerate user adoption.
 
 Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor, Marketing/Training/Support Managers
 
@@ -32,12 +32,11 @@ Activity Owner: Adoption Change Manager as Lead, Project Lead, Executive Sponsor
 
 ## Create your vision-to-value statement
 
-Setting your project vision enables your key stakeholders to see the big picture. This typically equates to business drivers&mdash;such as cost savings, operational efficiencies, and increased productivity&mdash;and aligns with the goals you set earlier in the project. To a user, that same project might be viewed as taking away familiar tools, productivity disruption, and lack of compassion by management. Take time to put yourself in your users' shoes and translate your project vision into a value statement to users. Employ this value statement in your communications and training activities to empower users to see how Teams can work for them.
+Setting your project vision enables your key stakeholders to see the big picture. This typically equates to business drivers&mdash;such as cost savings, operational efficiencies, and increased productivity&mdash;and aligns with the goals you set earlier in the project. To a user, that same project might be viewed as taking away familiar tools, productivity disruption, and lack of compassion by management. Take time to put yourself in your users’ shoes, and translate your project vision into a value statement that will appeal to them. Employ this value statement in your communications and training activities to empower users to see how Teams can work for them.
 
 The following image is an example of a vision-to-value statement for a customer upgrading from Skype for Business to Teams.
 
-[//]: # (Placeholder alt text. Will the parens work?)
-![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right")
+![Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
@@ -69,15 +68,15 @@ Organizational readiness helps determine how receptive (or not) your users might
 
 
 > [!TIP]
-> Early adopters are great candidates for your pilot deployment and also champions' initiatives. If you have a large percentage of laggards, take time to focus on value messaging for those users and handholding to help get them on board with the change.
+> Early adopters are great candidates for your pilot deployment and also champions’ initiatives. If you have a large percentage of laggards, take time to focus on value messaging for those users and handholding to help get them on board with the change.
 
 ### What percent of users fall into each competency?
 
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                         |       |
-| *Team players* enjoy group and interactive training; they'll go along with coworkers. |       |
-| *Handholding* seekers expect "white glove" or one-on-one assistance.                   |       |
+| *Team players* enjoy group and interactive training; they’ll go along with coworkers. |       |
+| *Handholding* seekers expect “white glove” or one-on-one assistance.                   |       |
 
  
 > [!TIP]
@@ -98,7 +97,7 @@ People-level analysis gives you understanding of your user personas, cohorts, an
 
 For each persona group, discuss the following with your project team:
 
--   What are the core characteristics of this group (that is, what's a typical "day in the life")?
+-   What are the core characteristics of this group (that is, what’s a typical “day in the life”)?
 
 -   How will this group benefit from the new solution? What features and functionality will they need to be effective?
 
@@ -106,7 +105,7 @@ For each persona group, discuss the following with your project team:
 
 -   What additional value messaging, if any, is required to create desire in this group to start using the new solution?
 
--   What's the best way for this group to receive:
+-   What’s the best way for this group to receive:
 
     -   Awareness (for example, email, posters, department managers)?
 
@@ -114,18 +113,17 @@ For each persona group, discuss the following with your project team:
 
     -   Support (self-serve, helpdesk, champions)?  
 
--   Is this group a good candidate for a pilot or early adopter program? If so, make a plan to get buy-in from these users to participate in the pilot. For more information about implementing a successful pilot program, see *Pilot Teams*.
-[//]: # (Previous paragraph--where should the link go?)
+-   Is this group a good candidate for a pilot or early adopter program? If so, make a plan to get buy-in from these users to participate in the pilot. For more information about implementing a successful pilot program, see [Pilot Teams alongside Skype for Business](pilot-essentials.md).
 
 The following image is an example of a persona table.
 
-![NEEDS ALT TEXT](media/prepare-my-users-image2.png)
+![Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
 
 For each use case, discuss the following with your project team:
 
 -   What are the core characteristics for this use case/scenario?
 
--   What's good about the current solution?
+-   What’s good about the current solution?
 
 -   What challenges, if any, do you face with your current solution?
 
@@ -136,11 +134,11 @@ For examples of use cases, visit the [FastTrack Productivity Library](https://fa
 <!--ENDOFSECTION-->
 
 ## Optimize your readiness plan
-After you understand who your users are and how they'll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you'll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you've defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
+After you understand who your users are and how they’ll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you’ll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you’ve defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
 
 [//]: # (In the Decision point, why was it "...your users competency to change..."?)
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users' ability to deal with change and the user personas you've defined?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Use the list in the following section to generate ideas for your readiness plan. Select the most relevant ones&mdash;or add your own&mdash;to design a readiness plan optimized for your organization.</li></ul></td></tr>
 </table>
 
@@ -148,5 +146,5 @@ After you understand who your users are and how they'll work within the new solu
 
 <table>
 <tr><th>Communication</th><th>Training</th><th>Support</th></tr>
-<tr><td><ul><li>Email&mdash;personalize our [voice email templates](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-email-templates)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback survey](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-feedback-templates)</li></td></tr>
+<tr><td><ul><li>Email&mdash;personalize our [voice email templates](prepare-my-users-email-templates.md)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback surveys](prepare-my-users-feedback-templates.md)</li></td></tr>
 </table>
