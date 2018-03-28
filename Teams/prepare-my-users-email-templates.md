@@ -42,11 +42,11 @@ desk or phone all day.
 To better adapt to how you work, we want to ensure you have flexibility in how
 you communicate including being able to make and receive phone calls from
 anywhere, at any time. We're excited to announce that you'll soon be able
-to use <Skype for Business/Teams> as your phone. This upgrade will provide
+to use Microsoft Teams as your phone. This upgrade will provide
 instant messaging, online meetings and phone calling all in one application,
 simplifying the way you work.
 
-Using <Skype for Business/Teams> as your phone offers...
+Using Teams as your phone offers...
 
 -   Flexibility - Make and receive calls anywhere, any time, across
     devices
@@ -64,26 +64,25 @@ When will phone calling be available?
 
 We understand this is a big shift in the way you make calls today and want to
 ensure you have everything you need to get started. Phone capabilities will be
-enabled on <insert date>, but you can start preparing today.
+enabled on <INSERT DATE>, but you can start preparing today.
 
 CALL TO ACTION
 
--   <optional> Get Started with Skype for Business. If you're not already
-    taking advantage of Skype for Business IM and meetings capabilities, get
+-   <optional> Get started with Teams. If you're not already
+    taking advantage of Teams IM and meetings capabilities, get
     started today by visiting https://support.office.com/article/Skype-for-Business-on-Windows-Quick-Start-2da94a13-6d16-4d67-adf3-439f2b946994.
 
 -   <optional> Order your new headset. To ensure the best audio quality, use
-    an approved headset. You can view available options or order yours <insert link>. We'll
-    also be hosting a device bar in <insert location>, where you can try on a few
+    an approved headset. You can view available options or order yours <INSERT LINK>. We'll
+    also be hosting a device bar in <INSERT LOCATION>, where you can try on a few
     headsets and find the best fit for you.
 
 -   Get trained. Learn how to make and receive phone calls right from your
-    PC. To view available training, visit https://support.office.com/article/Make-calls-with-Skype-for-Business-bc5e084d-ddb9-403d-abd5-fbe99cd8a8ab
-    to get started.
+    PC. To view available training, visit https://aka.ms/B6fx7u to get started.
 
-If you have questions concerning this change, contact <insert name/email>.
+If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 
-<insert name of executive sponsor>
+<INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
 ## Email number 2: Send one week before launch
@@ -98,7 +97,7 @@ Body of email:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
-email, you'll soon be able to use <Skype for Business/Teams> to make and
+email, you'll soon be able to use Microsoft Teams to make and
 receive phone calls. We understand that this change represents a new way of
 working and want to ensure you have everything you need to be successful.
 
@@ -115,20 +114,19 @@ With this new calling system, you'll be able to...
 CALL TO ACTION. If you haven’t already done so:
 
 -   Order your new headset. To ensure the best audio quality, use an
-    approved headset. You can view available options and order yours <insert link>.
-    We'll also be hosting a device bar in <insert location>, where you can try on a few
+    approved headset. You can view available options and order yours at <INSERT LINK>.
+    We'll also be hosting a device bar in <INSERT LOCATION>, where you can try on a few
     headsets and find the best fit for you.
 
 -   Get trained. Learn how to make and receive phone calls right from your
-    PC. To view available training, visit https://support.office.com/article/Make-calls-with-Skype-for-Business-bc5e084d-ddb9-403d-abd5-fbe99cd8a8ab
-    to get started.
+    PC. To view available training, visit https://aka.ms/B6fx7u to get started.
 
-If you have questions, visit our <insert internal site link> or send me an e-mail <insert
-email address>.
+If you have questions, visit our <INSERT INTRANET LINK> or send me an e-mail <INSERT
+EMAIL ADDRESS>.
 
 Regards,
 
-<insert name of department manager>
+<INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
 ## Email number 3: Send on launch day
@@ -142,7 +140,7 @@ IMPORTANT NOTICE: Your new phone system is live
 Body of email:
 
 ```
-Welcome to your new phone system. Your <Skype for Business/Teams> application
+Welcome to your new phone system. Your Microsoft Teams application
 has been enabled with phone calling capabilities. You should now see a dial pad
 tab on your client, enabling you to make outgoing calls and listen to
 your voicemail. When a call comes in, you'll receive an alert, just like you
@@ -155,7 +153,7 @@ CALL TO ACTION
 
     a.  Plug in your new headset.
 
-    b.  Go to the Skype for Business client > Options.
+    b.  Go to the Teams client > Options.
 
     c.  Select Audio Device, and test for quality.
 
@@ -173,16 +171,16 @@ CALL TO ACTION
 
     c.  Select the Call button to place the call.
 
-With the launch of phone calling capabilities in Skype for Business, we'll be
-recycling your old phone, allowing for more real estate on your desk. <insert
-process for recycling old phones>
+With the launch of phone calling capabilities in Teams, we'll be
+recycling your old phone, allowing for more real estate on your desk.
+<INSERT PROCESS FOR RECYCLING OLD PHONES>
 
 If you have any technical problems or questions, please feel free to contact our
-helpdesk or visit <insert link to a site on your intranet>.
+helpdesk or visit <INSERT INTRANET LINK>.
 
 Regards,
 
-<insert name of department manager or executive sponsor>
+<INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
 ## Email number 4: Send two weeks after launch
@@ -196,7 +194,7 @@ FEEDBACK REQUESTED: Your new phone system
 Body of email:
 
 ```
-It's been a few weeks since you started using <Skype for Business/Teams> to
+It's been a few weeks since you started using Microsoft Teams to
 make and receive phone calls, and we'd like to hear how it's going. Please take a
 few minutes to share your experience with us by completing this online feedback
 survey.
@@ -205,5 +203,5 @@ We value your input, and we'll be sure to follow through on all feedback.
 
 Regards,
 
-<insert name of executive sponsor>
+<INSERT NAME OF EXECUTIVE SPONSOR>
 ```
