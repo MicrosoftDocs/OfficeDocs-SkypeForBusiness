@@ -51,8 +51,7 @@ The following tables list the features that are available to Skype for Business 
   
 ## Sign-in, push notifications, and general features
 
-|
-|
+ 
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |Skype for Business session remains signed in  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -216,8 +215,6 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
    
 ## Archiving and compliance support
 
-Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
-  
 
 |**Feature/capability**|**Skype for Business desktop client**|**Windows Phone**|**iOS**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
