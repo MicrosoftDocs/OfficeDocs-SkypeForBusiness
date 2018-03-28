@@ -37,7 +37,7 @@ Along with using Teams for teams and channels-based conversations in this mode, 
 To facilitate quick adoption of Teams alongside existing Skype for Business deployments, you can deploy Teams independently from Skype for Business in “islands mode.” In this mode, Teams users can immediately use Teams with all its capabilities with other Teams users, while other users can continue using Skype for Business and remain productive with no impact on how they’re using Skype for Business today.
 
 > [!NOTE]
-> Islands mode comes with one-way temporary interoperability which allows one-way temporary presence, chat, and calling interoperability from Teams to Skype for Business when the following conditions are met:
+> Islands mode comes with one-way temporary interoperability which allows presence, chat, and calling interoperability from Teams to Skype for Business when the following conditions are met:
 > - The Teams user is homed at, and enabled for, Skype for Business Online.
 > - The Skype for Business user has never used Teams (or isn’t licensed for Teams).
 >
@@ -107,7 +107,7 @@ Teams is deployed in the organization by using different upgrade modes for diffe
 Over time, groups of users can be upgraded to Teams-only single-client mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which upgrade journey is right for your organization?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which upgrade journey is suitable to your organization's business requirements?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Decide the upgrade journey your organization will undertake.</li><li>Decide the upgrade modes that are applicable to your upgrade journey.</li></ul></td></tr>
 </table>
 
