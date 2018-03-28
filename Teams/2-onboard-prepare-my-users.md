@@ -37,7 +37,7 @@ Setting your project vision enables your key stakeholders to see the big picture
 The following image is an example of a vision-to-value statement for a customer upgrading from Skype for Business to Teams.
 
 [//]: # (Placeholder alt text. Will the parens work?)
-![Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left and Value - what's in it for me? (user level) on the right")
+![Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
@@ -114,12 +114,12 @@ For each persona group, discuss the following with your project team:
 
     -   Support (self-serve, helpdesk, champions)?  
 
--   Is this group a good candidate for a pilot or early adopter program? If so, make a plan to get buy-in from these users to participate in the pilot. For more information about implementing a successful pilot program, see *Pilot Teams*.
-[//]: # (Previous paragraph--where should the link go?)
+-   Is this group a good candidate for a pilot or early adopter program? If so, make a plan to get buy-in from these users to participate in the pilot. For more information about implementing a successful pilot program, see [Pilot Teams alongside Skype for Business](pilot-essentials.md).
+[//]: # (Previous paragraph--link okay?)
 
 The following image is an example of a persona table.
 
-![NEEDS ALT TEXT](media/prepare-my-users-image2.png)
+![Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
 
 For each use case, discuss the following with your project team:
 
@@ -148,5 +148,5 @@ After you understand who your users are and how they'll work within the new solu
 
 <table>
 <tr><th>Communication</th><th>Training</th><th>Support</th></tr>
-<tr><td><ul><li>Email&mdash;personalize our [voice email templates](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-email-templates)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback survey](https://docs.microsoft.com/MicrosoftTeams/prepare-my-users-feedback-templates)</li></td></tr>
+<tr><td><ul><li>Email&mdash;personalize our [voice email templates](prepare-my-users-email-templates.md)</li><li>Posters and digital signage </li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams and channels</li><li>Gamification</li></ul></td><td><ul><li>Articles and videos from Microsoft:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>In-house assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-help (intranet site)</li><li>[Online Help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop&mdash;see the [sample user feedback surveys](prepare-my-users-feedback-templates.md).</li></td></tr>
 </table>
