@@ -1,5 +1,5 @@
 ---
-title: Upgrade Essentials - Microsoft Teams
+title: Upgrade Essentials checklist - Microsoft Teams
 author: dearbeen
 ms.author: lolaj
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Essentials checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
-These ten easy steps provide everything you need for upgrade success. Note that the timeline is an approximation; you should adjust based on your organization’s upgrade schedule.
+These ten easy steps provide everything you need for upgrade success. Note that the timeline is an approximation; you should adjust it based on your organization’s upgrade schedule.
 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
 
@@ -182,7 +182,11 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 
 ### Stakeholder email, for step 1
 
-Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+Subject line:
+
+```
+IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+```
 
 Body of email:
 
@@ -199,7 +203,11 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 ### Notify users email, for step 4
 
-Subject line: IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+Subject line:
+
+```
+IMPORTANT ANNOUNCEMENT Regarding Skype for Business
+```
 
 Body of email:
 
@@ -224,7 +232,11 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### Remind users email, for step 6
 
-Subject line: ACTION REQUIRED: Host your next online meeting in Teams
+Subject line: 
+
+```
+ACTION REQUIRED: Host your next online meeting in Teams
+```
 
 Body of email:
 ````
@@ -251,7 +263,11 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 ### Welcome users email from the executive sponsor, for step 7
 
-Subject line: PLEASE READ: Skype for Business is now Microsoft Teams
+Subject line:
+
+```
+PLEASE READ: Skype for Business is now Microsoft Teams
+```
 
 Body of email:
 
@@ -278,7 +294,11 @@ Regards,
 ### Check-in email, for step 9
 
 
-Subject line: ACTION REQUESTED: Tell us about your Microsoft Teams experience
+Subject line:
+
+```
+ACTION REQUESTED: Tell us about your Microsoft Teams experience
+```
 
 Body of email:
 
@@ -297,7 +317,11 @@ Should you have questions, contact <<insert alias or contact info>>.
 ### Email to ask users to give teams and channels a try, for step 10
 
 [//]: # (Debbie, I added this subject line. Is it okay?)
-Subject line: CALL TO ACTION: Give teams and channels a try
+Subject line: 
+
+```
+CALL TO ACTION: Give teams and channels a try
+```
 
 Body of email:
 
