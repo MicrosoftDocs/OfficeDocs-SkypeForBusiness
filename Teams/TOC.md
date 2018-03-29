@@ -13,9 +13,12 @@
 # Setup
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
+## [Sign in to Teams](sign-in-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
 ## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
+## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+## [Install Microsoft Teams using MSI](msi-deployment.md)
 ## [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -123,6 +126,7 @@
 
 
 ## Audio Conferencing
+### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Assign a third-party as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Audio Conferencing common questions](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -158,6 +162,7 @@
 ### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 ## Calling plans
+### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
 ### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 ### [Set up Calling Plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Add, change or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -171,6 +176,7 @@
 ### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [How many phone numbers can you get?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage phone numbers for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Phone number management for Australia](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Phone number management for Belgium](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Phone number management for Canada](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-canada?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Phone number management for France](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
