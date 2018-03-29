@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 02/06/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -33,13 +33,14 @@ There are three ways to get both user and service (toll and toll-free) numbers f
 - Transfer or "port" your existing numbers over to us.
 
 > [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form.
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). 
 
 ***
 If you know what kind of forms you are looking for use the drop down to select the country/region where you are getting numbers.
 
 **Select your country or region to find the downloadable forms you need**
 > [!div class="op_single_selector"] 
+> - [Australia](phone-number-management-for-australia.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
 > - [France](phone-number-management-for-france.md)
@@ -51,11 +52,8 @@ If you know what kind of forms you are looking for use the drop down to select t
 > - [U.S. (Puerto Rico)](phone-number-management-for-the-u-s.md)
 
 ***
-
 ## Here's a bit more information about these number request forms
-
 ### Request forms for new phone numbers
-
 Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams. 
 
 Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the **Skype for Business admin center**, or you might need specific phone numbers or area codes. 
@@ -83,10 +81,6 @@ If you still need help, please let us know how we can help you. In your Help req
 
     
 ## Related topics
-
 [Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

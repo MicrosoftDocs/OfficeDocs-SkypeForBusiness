@@ -70,6 +70,3 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 ## Related topics
 
 [Audio Conferencing common questions](audio-conferencing-common-questions.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

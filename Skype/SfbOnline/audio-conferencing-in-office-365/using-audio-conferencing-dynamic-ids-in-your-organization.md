@@ -61,6 +61,3 @@ These examples show you the new experience for two Skype for Business meetings t
 - [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
     
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-    
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
