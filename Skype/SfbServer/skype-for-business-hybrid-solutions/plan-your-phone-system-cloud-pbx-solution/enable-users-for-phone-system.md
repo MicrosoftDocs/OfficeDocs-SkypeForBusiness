@@ -5,7 +5,7 @@ author: CarolynRowe
 manager: serdars
 ms.date: 1/27/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -29,7 +29,7 @@ This topic describes how to enable users for Phone System in Office 365 with on-
     
 ## Moving users to Phone System in Office 365 with on-premises PSTN connectivity
 
-Before moving your users to Skype for Business Online, it is recommended that you enable your users on premises in Skype for Business Server or Lync Server 2013, and then move them online. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and the special considerations section of[Enable the users for Enterprise Voice on premises](enable-the-users-for-enterprise-voice-on-premises.md). 
+Before moving your users to Skype for Business Online, it is recommended that you enable your users on premises in Skype for Business Server or Lync Server 2013, and then move them online. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) and the special considerations section of [Enable the users for Enterprise Voice on premises](enable-the-users-for-enterprise-voice-on-premises.md). 
   
 All users must be created in Active Directory on premises and synchronized to Office 365 using the supported version of Azure AD Connector. You cannot enable users for Phone System in Office 365 who were created directly in Azure AD. If you want to enable Phone System in Office 365 with on-premises PSTN connectivity for a user who was created in Azure AD, you'll need to create a new account for that user in your on-premises AD, configure the account on-premises, and then synchronize the account using a supported version of the Azure AD Connector tool. 
   

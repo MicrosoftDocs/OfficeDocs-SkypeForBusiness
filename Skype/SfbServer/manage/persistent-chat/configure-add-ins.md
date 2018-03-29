@@ -46,7 +46,7 @@ To configure add-ins for chat rooms by using the Control Panel:
     
 ## Configure add-ins by using Windows PowerShell
 
-You can configure add-ins for chat rooms by using the following Windows PowerShell cmdlets. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md).
+You can configure add-ins for chat rooms by using the following Windows PowerShell cmdlets. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 |
 |

@@ -59,6 +59,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-For more information, including syntax and a complete list of parameters, see [Set-CsDialInConferencingConfiguration](../../manage/management-shell/set-csdialinconferencingconfiguration.md).
+For more information, including syntax and a complete list of parameters, see [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
   
 

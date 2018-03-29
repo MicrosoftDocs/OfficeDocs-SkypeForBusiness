@@ -50,6 +50,6 @@ The next command enables communications in the case of an archiving failure:
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-For more information, see the Help topic for the [Set-CsArchivingConfiguration](../../manage/management-shell/set-csarchivingconfiguration.md) cmdlet.
+For more information, see the Help topic for the [Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) cmdlet.
   
 

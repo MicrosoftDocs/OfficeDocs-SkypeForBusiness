@@ -20,7 +20,7 @@ The PurgeSettings table contains information that specifies if (and when) outdat
 Get-CsCdrConfiguration
 ```
 
-Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](../../manage/management-shell/new-cscdrconfiguration.md) or [Set-CsCdrConfiguration](../../manage/management-shell/set-cscdrconfiguration.md) cmdlets.
+Administrators should treat the PurgeSettings table as read-only: changes to the call detail purge settings should only be made using the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) or [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlets.
   
 This table was introduced in Microsoft Lync Server 2013.
   

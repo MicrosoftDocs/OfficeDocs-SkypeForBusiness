@@ -82,6 +82,6 @@ EnableMultiViewJoin                       : True
 
 ```
 
-For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](../../manage/management-shell/get-csconferencingpolicy.md).
+For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
   
 

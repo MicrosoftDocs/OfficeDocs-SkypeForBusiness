@@ -5,7 +5,7 @@ author: kenwith
 manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
@@ -101,8 +101,8 @@ Conferences must be enabled for dial-in access when you configure conferencing p
     
 - A link to a Dial-in Conferencing Settings page, which contains a complete list of access numbers with their associated languages; a place to create, reset, or unblock personal identification numbers (PINs); and other information, such as dual-tone multi-frequency (DTMF) controls
     
-For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
-  
+For more information about conferencing policies, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md) and [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).  
+
 ## Support for enterprise and anonymous users
 
 Dial-in conferencing supports both enterprise and anonymous users. Enterprise users have Active Directory Domain Services credentials and Skype for Business Server accounts within their organization. Anonymous users do not have enterprise credentials within your organization. In the dial-in conferencing context, a user in a federated partner's organization who uses the PSTN to connect to a conference is treated like an anonymous user. For dial-in conferencing, unlike other contexts, federated users are not authenticated.

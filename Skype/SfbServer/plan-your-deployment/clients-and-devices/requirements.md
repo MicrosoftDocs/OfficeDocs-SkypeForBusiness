@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
@@ -22,7 +22,7 @@ Your deployment will involve account creation as described in [Deploy Skype Room
 
 Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
   
-- An 8GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
+- A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
     
 - One of the following tablets:
     

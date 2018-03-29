@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
@@ -179,8 +179,7 @@ This table covers features related to voice services support.
 
 This table covers features related to support for external users homed on the PSTN.
   
-|
-|
+
 |**Feature/capability**|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|****Communicator for Mac 2011****|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Initiate IM with a public contact  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
@@ -209,8 +208,7 @@ This table covers features requiring support for modern authentication.
   
 Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
-|
-|
+
 |****Feature/capability****|**Skype for Business 2015 or 2016 client**|**Skype for Business on Mac**|**Lync 2013 client**|**Lync Windows Store app**|**Lync 2010**|**Lync 2010 Attendant**|**Lync Phone Edition**|****Communicator for Mac 2011****|**Lync for Mac 2011**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Modern Authentication  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||||

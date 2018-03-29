@@ -140,11 +140,11 @@ Use one of the following procedures to create or modify an agent group.
 
 #### 
 
-[Get-CsService](../../manage/management-shell/get-csservice.md)
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[New-CsRgsAgentGroup](../../manage/management-shell/new-csrgsagentgroup.md)
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
-[Set-CsRgsAgentGroup](../../manage/management-shell/set-csrgsagentgroup.md)
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
-[Get-CsRgsAgentGroup](../../manage/management-shell/get-csrgsagentgroup.md)
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)
 

@@ -16,7 +16,7 @@ description: "Summary: Read this topic to learn how to configure dial-in confere
  
 **Summary:** Read this topic to learn how to configure dial-in conferencing in Skype for Business Server 2015.
   
-After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing). 
+After you have created a topology that includes the conferencing workload and selected dial-in conferencing, you must perform additional steps to configure dial-in conferencing. Before you read this topic, be sure you have read [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), and the [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
   
 To configure dial-in conferencing, you must perform the following tasks:
   
@@ -92,7 +92,7 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 4. Review the returned dial plans to identify any that are missing the dial-in conferencing region. 
     
-For more information, see [Get-CsDialPlan](../../manage/management-shell/get-csdialplan.md).
+For more information, see [Get-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/get-csdialplan?view=skype-ps).
   
 ### To set the region property for a dial plan
 
@@ -114,7 +114,7 @@ For more information, see [Get-CsDialPlan](../../manage/management-shell/get-csd
 
    In this example, the dial plan with the Identity of Redmond is modified to set the DialinConferencingRegion property to "US West Coast". 
     
-For more information, see [Set-CsDialPlan](../../manage/management-shell/set-csdialplan.md).
+For more information, see [Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps).
   
 ## Configure dial-in access numbers
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
@@ -127,7 +127,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 > You cannot use a new dial-in access number until Active Directory Domain Services (AD DS) replication of that access number is complete. Replication can take several hours to complete. 
   
 > [!NOTE]
-> After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. To modify the display name, use the [Set-CsDialInConferencingAccessNumber](../../manage/management-shell/set-csdialinconferencingaccessnumber.md) cmdlet. You should not modify Active Directory objects manually.
+> After you create dial-in access numbers, you can modify the display name for the Active Directory contact objects so that users can more easily identify the correct access number. To modify the display name, use the [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps) cmdlet. You should not modify Active Directory objects manually.
   
 ### To create a dial-in access number
 
@@ -167,7 +167,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 9. In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.
     
     > [!NOTE]
-    > If you need to change the pool after you create the access number, you must use the [Move-CsApplicationEndpoint](../../manage/management-shell/move-csapplicationendpoint.md) cmdlet or delete and recreate the access number.
+    > If you need to change the pool after you create the access number, you must use the [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) cmdlet or delete and recreate the access number.
   
 10. In **Primary language**, click the language in which prompts are played for this dial-in access number. 
     

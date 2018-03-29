@@ -5,7 +5,7 @@ author: kenwith
 manager: serdars
 ms.date: 2/17/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
@@ -45,7 +45,7 @@ In Skype for Business Server 2015, authentication can be configured between serv
   
 ### Windows PowerShell-based management and Web-based Management Interface
 
-Skype for Business Server 2015 provides a powerful management interface, built on the Windows PowerShell command-line interface. It includes cmdlets for managing security, and Windows PowerShell security features are enabled by default so that users cannot easily or unknowingly run scripts. This means that the software defaults are set to automatically help maximize security and reduce the avenues of attack. For details about Windows PowerShell management support in Skype for Business Server 2015, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell/management-shell.md). 
+Skype for Business Server 2015 provides a powerful management interface, built on the Windows PowerShell command-line interface. It includes cmdlets for managing security, and Windows PowerShell security features are enabled by default so that users cannot easily or unknowingly run scripts. This means that the software defaults are set to automatically help maximize security and reduce the avenues of attack. For details about Windows PowerShell management support in Skype for Business Server 2015, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell.md). 
   
 ### Role-Based Access Control (RBAC)
 

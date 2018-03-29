@@ -24,7 +24,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 - [Install a private CA certificate on the tablet device](console.md#Certs)
     
 - [Install Windows 10 and the Skype Room Systems v2 console app ](console.md#Reimage)
-    
+   
 - [Initial set up of the Console ](console.md#Initial)
     
 - [Skype Room Systems v2 Deployment Checklist](console.md#Checklist)
@@ -35,7 +35,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 ## Prepare the installation image
 <a name="Prep_Image"> </a>
 
-Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 8 GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
+Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 32GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
   
 > [!NOTE]
 > Failure to create your console image according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 image creation. 
@@ -43,8 +43,8 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
 > [!NOTE]
 > An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
   
-1. Download the (MSU for KB4056892)[http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu].
-2. Download the (CreateSrsMedia.ps1 script)[https://go.microsoft.com/fwlink/?linkid=867842].
+1. Download the [MSU for KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
+2. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 3. Place the MSU for KB4056892 in the same directory as the CreateSrsMedia.ps1 script.
 4. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
 

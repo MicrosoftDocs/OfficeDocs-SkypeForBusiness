@@ -34,6 +34,6 @@ Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -P
 
 ```
 
-For more information, including complete syntax and a list of parameters, see [Grant-CsConferencingPolicy](../../manage/management-shell/grant-csconferencingpolicy.md).
+For more information, including complete syntax and a list of parameters, see [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
   
 

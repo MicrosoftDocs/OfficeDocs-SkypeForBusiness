@@ -20,7 +20,7 @@ Skype for Business is a communications and collaboration platform that brings to
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/SkypeForBusiness/plan-your-deployment/plan-your-deployment.md">
+        <a href="/SkypeForBusiness/plan-your-deployment/plan-your-deployment">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -38,13 +38,14 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md">
+        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,7 +57,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/deploy/deploy.md">
+        <a href="/SkypeForBusiness/deploy/deploy">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -74,7 +75,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server.md">
+        <a href="/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -92,7 +93,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/technical-diagrams.md">
+        <a href="/SkypeForBusiness/technical-diagrams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -139,9 +140,9 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p>[Requirements for your environment](/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)</p>
-                        <p>[Network requirements](/plan-your-deployment/network-requirements/network-requirements.md)</p>
-                        <p>[Clients and devices](/plan-your-deployment/clients-and-devices/clients-and-devices.md)</p>
+                        <p>[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
+                        <p>[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
+                        <p>[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
                     </div>
                 </div>
             </div>
@@ -153,8 +154,8 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Install and manage</h3>
-                        <p>[Install Skype for Business Server](/deploy/install/install.md)</p>
-                        <p>[Manage Skype for Business Server](/manage/manage.md)</p>
+                        <p>[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)</p>
+                        <p>[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)</p>
                      </div>
                 </div>
             </div>
@@ -166,8 +167,8 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Enterprise Voice</h3>
-                        <p>[Plan](/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)</p>
-                        <p>[Deploy](/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)</p>
+                        <p>[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
+                        <p>[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
                     </div>
                 </div>
             </div>
@@ -180,7 +181,7 @@ Skype for Business is a communications and collaboration platform that brings to
                     <div class="cardText">
                         <h3>Skype Meeting Broadcast</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">What is it?</a></p>
-                        <p>[Configure your on-premises deployment for Skype Meeting Broadcast](/deploy/configure-skype-meeting-broadcast.md)
+                        <p>[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
                     </div>
                 </div>
             </div>
@@ -192,9 +193,9 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid solutions</h3>
-                        <p>[Plan hybrid connectivity](/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[Plan your Phone System (Cloud PBX) solution ](/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[Plan for Cloud Connector Edition](/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
+                        <p>[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
+                        <p>[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
+                        <p>[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
                </div>
                 </div>
             </div>

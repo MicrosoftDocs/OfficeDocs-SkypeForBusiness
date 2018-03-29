@@ -22,17 +22,21 @@ Windows PowerShell allows you to manage Microsoft applications from the command 
 > [!NOTE]
 > Skype for Business cmdlet reference has moved to docs.microsoft.com. Clicking on the links below will take you to the new docs.microsoft.com page. The content is now open sourced and available for community contributions through GitHub. Interested in contributing? Check out the README in the repo here: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-The following sections contain a list of cmdlets and their descriptions. This information is also available directly from the command line. Simply type the following at the Skype for Business Server Management Shell command prompt:
-  
-```
-Get-Help <cmdlet name> -Full
-```
-
-For example, to retrieve help from the command prompt on the **New-CsVoicePolicy** cmdlet, type the following:
+Skype for Business Server 2015 ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
   
 ```
 Get-Help New-CsVoicePolicy -Full
 ```
+
+The preceding command retrieves the complete help available for the **New-CsVoicePolicy** cmdlet. To view help for a different cmdlet, substitute **New-CsVoicePolicy** with the name of the cmdlet for which you want to retrieve help.
+  
+To retrieve a full list of cmdlets available for managing Skype for Business Server, type the following at the shell command prompt: 
+  
+```
+Get-Command * -Module SkypeforBusiness -CommandType cmdlet
+```
+
+
 
 Things to know about Windows PowerShell in Skype for Business Server:
   

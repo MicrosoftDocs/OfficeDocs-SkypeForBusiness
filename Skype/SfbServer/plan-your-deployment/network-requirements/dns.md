@@ -5,7 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
@@ -121,7 +121,10 @@ The following diagram shows an example that includes both internal and external 
 > [!IMPORTANT]
 > For more detail on FQDNs, see [DNS basics](basics.md). 
   
- **Split brain DNS** is a DNS configuration where you have two DNS zones with the same namespace. The first DNS zone handles internal requests, while the second DNS zone handles external requests, as mentioned in these tables. For more about this see [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS). 
+ **Split brain DNS**
+<a name="BK_split"> </a>
+ 
+Split brain DNS is a DNS configuration where you have two DNS zones with the same namespace. The first DNS zone handles internal requests, while the second DNS zone handles external requests, as mentioned in these tables. For more about this see [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS). 
   
 ## Hybrid considerations
 <a name="BK_Hybrid"> </a>
