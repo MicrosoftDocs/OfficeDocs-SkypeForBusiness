@@ -149,27 +149,10 @@ that easy!
 
 CALL TO ACTION
 
-1.  Configure your headset
+*  Plug in your headset, go to the Calls tab, and either
+   call a contact or use the dial pad to make a call. 
 
-    a.  Plug in your new headset.
-
-    b.  Go to the Teams client > Options.
-
-    c.  Select Audio Device, and test for quality.
-
-2.  Make a call to an internal contact
-
-    a.  Open your client, and go to the Contacts tab.
-
-    b.  Select a contact to make the call.
-
-3.  Make a call to an external contact
-
-    a.  Open your client, and go to the Dial Pad tab.
-
-    b.  Dial the 10-digit number.
-
-    c.  Select the Call button to place the call.
+*  Start a chat, and escalate it to a call.
 
 With the launch of phone calling capabilities in Teams, we'll be
 recycling your old phone, allowing for more real estate on your desk.
