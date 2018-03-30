@@ -15,7 +15,7 @@ appliesto:
 
 # Prepare my users
 
-This article gives an overview of the requirements for preparing your users for using the cloud voice service. By properly preparing your users, you’ll make sure you’re delivering the most value for your organization.
+This article gives an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you’ll make sure you’re delivering the most value for your organization.
 
 <!--ENDOFSECTION-->
 

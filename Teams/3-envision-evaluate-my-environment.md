@@ -15,7 +15,7 @@ appliesto:
 
 # Evaluate my environment
 
-This article gives an overview of the requirements for properly evaluating your current environment for using the cloud voice service. By evaluating your environment, you identify risks and requirements that will influence your overall cloud voice deployment. By identifying these items beforehand, you can adjust your planning to drive success.
+This article gives an overview of the requirements for properly evaluating your current environment for using cloud voice services. By evaluating your environment, you identify risks and requirements that will influence your overall cloud voice deployment. By identifying these items beforehand, you can adjust your planning to drive success.
 
 ## Introduction to evaluating your environment 
 
