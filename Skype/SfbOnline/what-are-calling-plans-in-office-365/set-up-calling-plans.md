@@ -58,9 +58,9 @@ There are three ways to get new user numbers:
 
 An emergency address must be associated with a phone number; when this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider. 
 
-To add an emergency address for your organization, in the Skype for Business admin center go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](..//add-or-remove-an-emergency-address-for-your-organization.md) for details.
+To add an emergency address for your organization, in the Skype for Business admin center go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
 
-To add an emergency location for your organization, in the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](..//add-or-remove-an-emergency-address-for-your-organization.md) for details.
+To add an emergency location for your organization, in the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
 
     
 ## Step 5: Assign an emergency address and a phone number to a user
@@ -68,12 +68,12 @@ To add an emergency location for your organization, in the Skype for Business ad
 
 When you are setting up Calling Plans in Office 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. 
 
-To add an emergency address for a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](..//assign-or-change-an-emergency-address-for-a-user.md) for more details.
+To add an emergency address for a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) for more details.
 
    > [!NOTE]
    > You can also assign an emergency address when you assign a phone number.
 
-To assign a phone number to a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md) for more details.
+To assign a phone number to a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) for more details.
 
     
 ## Step 6: Tell your users about their new phone numbers
@@ -104,7 +104,7 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
     
 - Emergency locations aren't validated, only emergency addresses are.
     
-- If you want to know more about emergency addresses, see [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+- If you want to know more about emergency addresses, see [What are emergency locations, addresses and call routing?](../what-are-emergency-locations-addresses-and-call-routing.md)
     
 ## Do you want to automate assigning phone numbers?
 <a name="bkmk_add_addresses"> </a>
