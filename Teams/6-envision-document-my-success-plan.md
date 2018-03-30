@@ -15,7 +15,7 @@ appliesto:
 
 # Document my success plan
 
-This content provides an overview of the requirements for properly documenting your cloud voice deployment. By documenting all the decision points and next steps while planning your cloud voice deployment, you can make sure all stakeholders and project teams members are aligned on delivering successful outcomes. 
+This article gives an overview of the requirements for properly documenting your cloud voice deployment. By defining and documenting all decision points and next steps while planning your cloud voice deployment, you can make sure all stakeholders and project team members are aligned on delivering successful outcomes. 
 
 ## Execution planning 
 

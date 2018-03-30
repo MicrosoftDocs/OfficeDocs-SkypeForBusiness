@@ -15,7 +15,7 @@ appliesto:
 
 # Enhance my service
 
-This content provides an overview of the requirements for getting the most out of your cloud voice service for your organization. By continuously monitoring cloud voice service capabilities, you can be sure you are delivering the most value for your organization.
+This article gives an overview of the requirements for getting the most out of the cloud voice service for your organization. By continuously monitoring cloud voice service capabilities, you can be sure you’re delivering the most value for your organization.
 
 ## Enhance my service overview
 After you’ve successfully deployed Audio Conferencing or Phone System with
