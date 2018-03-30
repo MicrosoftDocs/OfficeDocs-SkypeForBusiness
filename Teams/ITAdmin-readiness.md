@@ -24,8 +24,9 @@ Learn about Teams and drive usage in your organization. Check back frequently fo
 |  |  |
 |---------|---------|
 | [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Walks you through everything you need to know about the journey to Teams from Skype for Business Online.  |
-| [Quick start - Microsoft Teams for Education admins](teams-quick-start-edu.yml) |For IT admins in Education, deploy Teams across your organization.   |
-[Quick start guide: Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Quick start guide for configuring calling plans in Teams. |
+| [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml) | This interactive training walks you through Audio Conferencing in Teams. |
+| [Quick start: Microsoft Teams for Education admins](teams-quick-start-edu.yml) |For IT admins in Education, deploy Teams across your organization.   |
+| [Quick start: Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Quick start guide for configuring calling plans in Teams. |
 | [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)  |  This training introduces calling capabilities in Teams, which are powered by the Phone System feature in Office 365. Includes explanation of the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.  |
 | [Audio Conferencing videos](audio-conferencing-videos.md) |Videos introducing Audio Conferencing in Teams to the IT admin.  |
 | [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml) | This training introduces meetings in Teams. It covers meeting capabilities, plus requirements and planning considerations. |
