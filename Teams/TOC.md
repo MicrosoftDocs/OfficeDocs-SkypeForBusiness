@@ -228,7 +228,7 @@
 ### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
 ## [3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
-## [5 - Upgrade to Teams](upgrade-to-Teams.md)
+<!-- ## [5 - Upgrade to Teams](upgrade-to-Teams.md) -->
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Upgrade to Teams](upgrade-to-Teams.md)
