@@ -18,7 +18,7 @@ Teams provides a complete communications and collaboration solution, and if your
 
 You can decide to manage the journey by gradually introducing Teams capabilities until your organization is ready to upgrade everyone to Teams, or you can start the journey by letting users discover Teams themselves and organically adopt Teams alongside Skype for Business.
 
-Throughout the journey, you can gradually control your users’ experience, ranging from using Teams for group collaboration only and Skype for Business for unified communications, to upgrading a select group of your users to a Teams-only experience.
+Throughout the journey, you have the capability to control your users’ experience by gradually introducing new capabilities, ranging from using Teams for group collaboration only and Skype for Business for unified communications (chat, meetings, and calling), to upgrading a select group of your users to a Teams-only experience.
 
 ## Upgrade and coexistence concepts and terminology
 To help guide your decision-making process, familiarize yourself with the following concepts and terminology relevant to upgrading from Skype for Business to Teams.
@@ -26,7 +26,7 @@ To help guide your decision-making process, familiarize yourself with the follow
 ### Group collaboration–only mode
 If your organization’s business requirement is to use Teams solely for group collaboration while keeping unified communications capabilities in Skype for Business—either for the entire organization or some parts of it—you might consider using this mode in your upgrade journey.
 
-In this mode, Teams is configured to support teams and channels-based conversations only, with private chats and meetings disabled.
+In this mode, Teams is configured to support teams and channels-based conversations only, with private chats and calling, and meetings disabled.
 
 ### Group collaboration and meetings mode
 If your organization needs the capabilities that Teams provides for meetings, but business needs require you to keep enterprise voice capabilities in Skype for Business, you can configure Teams to deliver group collaboration and meetings capabilities to your entire organization (or some parts of it).
@@ -89,7 +89,7 @@ You can take multiple approaches to upgrading from Skype for Business, either on
 > You can leverage [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to guide your Skype for Business hybrid implementation.
 
 > [!NOTE]
-> The Teams-only single-client upgrade mode requires that the users who are part of cohorts be homed in Skype for Business Online, and a hybrid relationship between your Skype for Business on-premises deployment and your Skype for Business Online tenant is required to facilitate the upgrade and interoperability between Skype for Business and Teams. The move to Skype for Business Online must be completed for users who are part of the cohorts before they’re upgraded to single-client mode. Skype for Business Server 2019, and also a future cumulative update for Skype for Business Server 2015, will simplify the mechanics of upgrading on-premises users to Teams by managing the migration to Skype for Business Online and upgrading the users to single-client mode in one step.
+> The Teams-only single-client upgrade mode requires that the users who are part of cohorts be homed in Skype for Business Online, and a hybrid relationship between your Skype for Business on-premises deployment and your Skype for Business Online tenant is required to facilitate the upgrade and interoperability between Skype for Business and Teams. The move to Skype for Business Online must be completed for users who are part of the cohorts before they’re upgraded to single-client mode. Skype for Business Server 2019, and also a future cumulative update for Skype for Business Server 2015, plan to simplify the mechanics of upgrading on-premises users to Teams by managing the migration to Skype for Business Online and upgrading the users to single-client mode in one step.
 
 ### Simple upgrade journey
 The simple upgrade journey is illustrated in the following diagram.
