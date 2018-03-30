@@ -121,5 +121,5 @@ You can apply this to a user by creating a new policy and granting it to that us
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
