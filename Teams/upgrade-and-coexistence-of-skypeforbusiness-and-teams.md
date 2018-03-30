@@ -101,7 +101,7 @@ Teams is deployed to all users in the organization and configured in group colla
 ### Gradual upgrade journey
 An example of a gradual upgrade journey is illustrated in the following diagram.
 
-![[placeholder for image]](media/upgrade_and_coexistence_gradual_upgrade_journey.png)
+![In the gradual upgrade journey, cohorts of users initially use Teams in a variety of upgrade modes, side by side with Skype for Business. Some cohorts transition to Teams-only single client mode, while one group of users stays with group collaboration and meetings-only mode.](media/upgrade_and_coexistence_gradual_upgrade_journey.png)
 
 Teams is deployed in the organization by using different upgrade modes for different groups of users, or cohorts. For example, a group of users can be enabled for islands mode, another enabled for group collaboration and meetings, while a third group of users might initially be enabled for group collaboration only.
 
