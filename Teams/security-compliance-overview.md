@@ -76,11 +76,15 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 
 Teams conversations are persistent and retained forever by default. With the introduction of Retention Policies, admins can configure retention policies (both preservation and deletion) in the Security & Compliance center for Teams chat and channel messages. This helps organizations either retain data for compliance (namely, preservation policy) for a specific period or get rid of data (namely, deletion policy) if it is considered a liability after a specific period.  
 
-    -	Teams Retention Policies works through the Retention Policies UX and cmdlets available in the Office 365 Security and compliance center under Data Governance\Retention.
-    -	Teams Retention Policies will support: 
-        - Preservation i.e. keep Teams data till duration X and then do nothing
-        -   Preservation and then Delete i.e. keep Teams data till duration X and then delete
-        -	Deletion i.e. Delete Teams data after duration X
+Teams Retention Policies works through the Retention Policies UX and cmdlets available in the Office 365 Security and compliance center under Data Governance\Retention.
+
+Teams Retention Policies will support: 
+    
+    -   Preservation: Keep Teams data for a specified duration and then do nothing
+    -   Preservation and then delete: Keep Teams data for a specified duration and then delete
+    -	Deletion: Delete Teams data after a specified duration
+
+
     -	Advanced Retention policies are not yet supported for Teams
     -	Duration of fewer than 30 days is not yet supported for Teams
     -	Admins can set up separate retention policies for Teams Private Chats (1:1 or 1:Many chats) and Teams channel messages. In many case, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. 
@@ -133,7 +137,8 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |Compliance Content Search|- |- |- |Yes |Yes |
 |Auditing and Reporting|Yes |Yes |Yes |Yes |Yes |
 |Conditional Access* |Yes |Yes |Yes |Yes |Yes |
-\*Conditional Access requires additional licenses
+> [!NOTE]
+> \*Conditional Access requires additional licenses
 
 
 | |  |  |
