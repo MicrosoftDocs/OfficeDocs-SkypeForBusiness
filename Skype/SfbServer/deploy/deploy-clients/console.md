@@ -66,13 +66,9 @@ You now need to apply the image you've created. The tablet will run as an applia
     
 5. Once Windows setup is booted, release the volume down (-) button.
     
-6. When the Skype Room Systems v2 device starts for the first time, its behavior will depend on which version of Sysprep.exe is used in the AutoUnattend.xml file (see step 7 of [Prepare the installation image](console.md#Prep_Image)):
+6. The system will shut down once installation is complete.
     
-   - If the /shutdown version of the command was enabled, the system will proceed with installation and eventually shut down. Once it is shut down, you may boot to external media containing Windows PE and use DISM to install language packs, apply images, capture your reference image from the machine, or perform other actions.
-    
-   - If the /reboot version of the command was enabled, the system will proceed with installation, and eventually ask the user to select their locale settings. After making this selection, the Skype Room Systems v2 device will boot into its initial startup process. See [Initial set up of the Console ](console.md#Initial)
-    
-After the system has shut down or rebooted, it is safe to remove the USB Setup Disk. At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room. Refer to the manufacturer instructions.
+After the system has shut down, it is safe to remove the USB Setup Disk. At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room. Refer to the manufacturer instructions.
   
  
 ### Selecting a language in Creator's Update

@@ -24,27 +24,25 @@ Services in compliance categories C and D that have industry-leading compliance 
 
 Teams also enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption.
 
-We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune.
+We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune. Go to the Office 365 Security & Compliance center to manage these settings. 
 
-These tools reside in the Office 365 Security and Compliance Portal and provide the following features:
+## Auditing and Reporting
 
--   Auditing and Reporting
+Audit log search plugs right into the Office 365 Security and Compliance Center and exposes abilities to set alerts and/or report on Audit event by making available, export of workload specific or generic event sets for admin use and investigation, across an unlimited auditing timeline. All Audit Log data is available for setting up of alerts within the Office 365 Security and Compliance Center, as well as for filtering and export for further analysis.
 
-    -   Audit log search plugs right into the Office 365 Security and Compliance Center and exposes abilities to set alerts and/or report on Audit event by making available, export of workload specific or generic event sets for admin use and investigation, across an unlimited auditing timeline. All Audit Log data is available for setting up of alerts within the Office 365 Security and Compliance Center, as well as for filtering and export for further analysis.
+## Compliance Content Search
 
--   Compliance Content Search
+Content Search can be used to search Teams through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case.
 
-    -   Content Search can be used to search Teams through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case.
+## eDiscovery
 
--   eDiscovery
+Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation.
 
-    -   Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation.
+Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and file data.
 
-    -   Capabilities include case management, preservation, search, analysis and export of Teams data. This includes chat, messaging and file data.
+Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
 
-    -   Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
-
-    -   The following table outlines the differences between the two:
+The following table outlines the differences between the two:
 
 
 | |In-place eDiscovery  |Advanced eDiscovery  |
@@ -59,11 +57,11 @@ These tools reside in the Office 365 Security and Compliance Portal and provide 
 |Unstructured Data Analysis      |-         |X         |
 
 
--   Legal Hold
+## Legal Hold
 
-    -   When any team within Teams is put on In-Place Hold or Litigation Hold, the hold is placed on the groups mailbox.
+When any team within Teams is put on In-Place Hold or Litigation Hold, the hold is placed on the groups mailbox.
 
-    -   Legal Holds are generally applied within the context of an eDiscovery case.
+Legal Holds are generally applied within the context of an eDiscovery case.
 
 The figure below indicates the workflow of Teams data to both Exchange and SharePoint.
 
@@ -72,6 +70,38 @@ The figure below indicates the workflow of Teams data to both Exchange and Share
 
 > [!IMPORTANT]
 > There can be up to a 24-hr delay to discover Teams content.
+
+
+## Retention Policies
+
+Teams conversations are persistent and retained forever by default. With the introduction of Retention Policies, admins can configure retention policies (both preservation and deletion) in the Security & Compliance center for Teams chat and channel messages. This helps organizations either retain data for compliance (namely, preservation policy) for a specific period or get rid of data (namely, deletion policy) if it is considered a liability after a specific period.  
+
+    -	Teams Retention Policies works through the Retention Policies UX and cmdlets available in the Office 365 Security and compliance center under Data Governance\Retention.
+    -	Teams Retention Policies will support: 
+        - Preservation i.e. keep Teams data till duration X and then do nothing
+        -   Preservation and then Delete i.e. keep Teams data till duration X and then delete
+        -	Deletion i.e. Delete Teams data after duration X
+    -	Advanced Retention policies are not yet supported for Teams
+    -	Duration of fewer than 30 days is not yet supported for Teams
+    -	Admins can set up separate retention policies for Teams Private Chats (1:1 or 1:Many chats) and Teams channel messages. In many case, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. 
+    -	In the Security & Compliance center, choose the Teams Locations for Chat/Channel Messages to define retention policies for these locations (also shown in the diagram below):
+
+
+    ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Retention-Policies.png)
+
+    -	When the Teams Channel messages location is selected, there is flexibility to target Teams to which this policy must be applied. E.g. admin can target channel message deletion policies to Teams X,Y and Z for 1 year and admin can target channel message deletion policies of 3 years to rest of the Teams in a tenant using the Team picker. 
+    -	Similar functionality is also available for Teams chats locations using the user picker. 
+    -	The Teams Channel message locations and Teams chats locations only address the Teams conversations stored in EXO mailboxes (user and group mailboxes) per the workflow shown above. The messages are deleted from all relevant storage locations i.e. the mailboxes/substrate and chat service. 
+    -	For Teams Files, retention policies must be setup using the OneDrive for business and SharePoint location rows as Teams files are stored in these locations. 
+    -   Teams retention policies ensure that when the data is deleted, it is removed from all permanent data storage locations on the Teams service. 
+
+> [!Note]
+> For detailed information about configuring retention policies for Office 365, read [Overview of retention policies](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+ 
+
+
+
+
 
 Additionally, Microsoft is considering providing the following security features for Teams. Once available, guidance will be provided on how customers can leverage the features:
 
