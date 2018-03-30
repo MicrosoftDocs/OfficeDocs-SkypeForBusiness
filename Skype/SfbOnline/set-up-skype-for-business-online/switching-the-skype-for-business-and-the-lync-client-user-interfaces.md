@@ -278,5 +278,5 @@ You can also verify that the GPO has successfully updated the registry on a user
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
