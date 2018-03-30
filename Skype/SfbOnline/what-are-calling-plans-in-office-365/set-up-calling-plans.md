@@ -104,7 +104,7 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
     
 - Emergency locations aren't validated, only emergency addresses are.
     
-- If you want to know more about emergency addresses, see [What are emergency locations, addresses and call routing?](../what-are-emergency-locations-addresses-and-call-routing.md)
+- If you want to know more about emergency addresses, see [What are emergency locations, addresses and call routing?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
     
 ## Do you want to automate assigning phone numbers?
 <a name="bkmk_add_addresses"> </a>
@@ -118,7 +118,7 @@ If you know Windows PowerShell, you can use the following cmdlets to automate as
 To learn more, see [Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+   > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
