@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams user feedback surveys
+title: User feedback surveys in Microsoft Teams or Skype for Business
 author: dearbeen
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,7 +7,7 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Gather user feedback to improve cloud voice implementation in Teams.
+description: Gather user feedback to improve cloud voice implementation in Microsoft Teams or Skype for Business.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -19,8 +19,7 @@ Use feedback surveys to capture users’ experience and insights after your depl
 
 Customize the questions below, and then transfer them to a survey tool such as SharePoint for easy distribution and analysis.
 
-[//]: # (Do we want to call out the WX phone? I deleted it from the questions because I haven't seen it referred to anywhere else.)
-For the purpose of these surveys, *new phone system* refers to using calling features in Microsoft Teams, in addition to devices such as a media phone or mobile phone.
+For the purpose of these surveys, *new phone system* refers to using calling features in Microsoft Teams or Skype for Business, in addition to devices such as a media phone or mobile phone. All references to Microsoft Teams in these surveys also apply to Skype for Business.
 
 Indicate your level of agreement with the following statements, as it relates to using Teams as your phone. 
 
