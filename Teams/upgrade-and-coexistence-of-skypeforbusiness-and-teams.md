@@ -76,7 +76,10 @@ The following table compares upgrade and coexistence modes.
 |Islands mode |<ul> Smaller or simpler Skype for Business deployment<br><br> Ability and willingness to manage some short-term complexity to move to Teams more quickly<br><br></ul> |<ul> Go to the full Teams experience as quickly as possible<br><br> Conduct a proof of concept (PoC) of Teams<br><br></ul> |<ul> Simple to operate, no interoperability<br><br> Best Teams experience up-front for all capabilities<br><br></ul> |<ul> Requires good user communication to avoid confusion and to drive usage toward Teams<br><br> Exit strategy requires users to have fully adopted Teams by the time Skype for Business is decommissioned<br><br></ul> |
 |Single-client mode |<ul> Some users need to stay on Skype for Business<br><br> You’re upgrading your Skype for Business Online users to Teams while keeping Skype for Business on-premises users on Skype for Business Server<br><br> You might have already deployed users in islands mode and are ready to retire Skype for Business for cohorts of users<br><br></ul> |<ul> Reduce variable costs on Skype for Business (on-premises server operations, outsourcing contract, and so on)<br><br> Go to the full Teams experience as quickly as possible, for at least some users<br><br></ul>|<ul> Limits user confusion by providing only one client to work with<br><br> Provides a rapid path to Teams<br><br></ul>|<ul> Interoperability only supports basic chat and calling between Skype for Business and Teams<br><br></ul>|
 
-To learn more about enabling each of the modes described above, review [Quick start guide: This article is to guide your thinking around upgrade and co-existence of Skype for Business and Teams. We will publish articles on how to execute your journey from Skype for Business to Teams when the policies are available at a later time.
+
+> [!NOTE]
+> To learn more about enabling each of the modes described above, you will be able to use the Quick start guide we will publish on how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
+
 
 ## Upgrade journeys
 You can take multiple approaches to upgrading from Skype for Business, either online or on-premises, to Teams:
@@ -107,6 +110,7 @@ Teams is deployed in the organization by using different upgrade modes for diffe
 
 Over time, groups of users can be upgraded to Teams-only single-client mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only.
 
+
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul> Which upgrade journey is suitable to your organization's business requirements?<br><br></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Identifying your current deployment model and use case scenarios and key considerations for your organization will inform the journey to Teams best suited to your organization.<br><br></ul></td></tr>
@@ -129,4 +133,5 @@ Based on the upgrade journeys described earlier in this article, the following p
 
 ## See also
 
-[Quick start guide: This article is to guide your thinking around upgrade and co-existence of Skype for Business and Teams. We will publish articles on how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
+> [!NOTE]
+> Quick start guide: This article is to guide your thinking around upgrade and co-existence of Skype for Business and Teams. We will publish articles on how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
