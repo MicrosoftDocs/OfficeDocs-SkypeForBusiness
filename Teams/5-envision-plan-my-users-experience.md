@@ -15,7 +15,7 @@ appliesto:
 
 # Plan my users’ experience
 
-This content provides an overview of the requirements for properly identifying your end users expereince. By preparing for all the items that can impact your users experience prior to deployment, you will increase your chances of success and deliver a high quality and reliable user experience. 
+This article gives an overview of the requirements for properly identifying the elements of your cloud voice services deployment that directly affect your users’ experience. By preparing for these items before deployment, you’ll increase your chances of successfully delivering a high-quality, reliable experience for users. 
 
 ## Client deployment
 

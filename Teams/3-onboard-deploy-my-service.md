@@ -15,7 +15,7 @@ appliesto:
 
 # Deploy my service
 
-This content provides an overview of the requirements for properly deploying cloud voice services. By following prescriptive guidance for deployment cloud voice services, you can make sure you successfully account for all requirements and deliver repeatable results.
+This article gives an overview of the requirements for properly deploying cloud voice services. By following prescriptive guidance for deploying cloud voice services, you can make sure you successfully account for all requirements and deliver repeatable results.
 
 ## Site enablement playbook for Microsoft Teams voice workloads
 

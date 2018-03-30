@@ -15,7 +15,7 @@ appliesto:
 
 # Prepare my users
 
-This content provides an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you’ll make sure you’re delivering the most value for your organization.
+This article gives an overview of the requirements for preparing your users for using cloud voice services. By properly preparing your users, you’ll make sure you’re delivering the most value for your organization.
 
 <!--ENDOFSECTION-->
 
@@ -52,7 +52,7 @@ Organizational readiness helps determine how receptive (or not) your users might
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Are users ready and willing to change to the new solution?</li><li>Do users have the ability or competency to facilitate the change?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Use the following conversation starters to understand the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project.
-<li></li></li></ul></td></tr>
+</li></ul></td></tr>
 </table>
 
 > [!TIP]
@@ -86,7 +86,6 @@ Organizational readiness helps determine how receptive (or not) your users might
 
 ## Assess your user base
 
-[//]: # (Not sure why original had "...analysis means understanding..." when the phrase hadn't been used yet)
 People-level analysis gives you understanding of your user personas, cohorts, and use cases. By taking time to understand who your users are and how they work, you can ensure they have what they need to be successful as you implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training, whereas traveling field reps might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who should start using the new functionality today versus who might be best served by waiting.
 
 <table>
@@ -136,7 +135,6 @@ For examples of use cases, visit the [FastTrack Productivity Library](https://fa
 ## Optimize your readiness plan
 After you understand who your users are and how they’ll work within the new solution, you can design your readiness plan. Your user readiness plan incorporates how you’ll communicate, train, and support your users as you pilot, onboard, and operate the new solution. As you discovered in the previous steps in this article, readiness is not one-size-fits-all. Begin with a broad-reach awareness and training plan, incorporating the value messaging you defined at the beginning of this process. Then tailor your messaging, training, and support to the personas or cohorts you’ve defined, as appropriate. Your personalized plan will enable users to more quickly relate to the new solution while demonstrating that you understand their needs, which will help facilitate their transition.
 
-[//]: # (In the Decision point, why was it "...your users competency to change..."?)
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>What readiness plan can you offer to help facilitate and accelerate adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Use the list in the following section to generate ideas for your readiness plan. Select the most relevant ones&mdash;or add your own&mdash;to design a readiness plan optimized for your organization.</li></ul></td></tr>

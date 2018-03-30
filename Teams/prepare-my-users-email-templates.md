@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams user adoption email templates
+title: User adoption email templates for Microsoft Teams or Skype for Business rollouts
 author: dearbeen
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,7 +7,7 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Use templates to send emails to users as you implement cloud voice capabilities.
+description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -18,7 +18,7 @@ appliesto:
 
 A phone can be a user’s lifeline. Switching from a traditional phone system to an online phone system represents a significant change in the way users work, and can negatively affect productivity. Taking time to inform, guide, and support users through this change can help ensure a positive user experience and maximize your return on investment.
 
-This article contains customizable email templates to help inform users about their new phone system. Customize and send the appropriate emails to align with your specific voice deployment. We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users.
+This article contains customizable email templates to help inform users about their new phone system. Customize and send the appropriate emails to align with your specific voice deployment. We’ve used brackets to indicate sections for easy personalization, but we recommend that you add organization-specific messaging to make the announcement most relevant for your users. If applicable for your deployment, replace all references to “Teams” with “Skype for Business.”
 
 ## Email number 1: Send three weeks before launch
 
