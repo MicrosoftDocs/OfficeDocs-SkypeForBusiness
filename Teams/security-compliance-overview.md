@@ -78,16 +78,16 @@ Teams conversations are persistent and retained forever by default. With the int
 
 To manage Teams Retention policies works use the settings and cmdlets in the Office 365 Security & compliance center under **Data Governance** > **Retention**.
 
-Teams Retention Policies will support: 
+Teams Retention Policies do support: 
     
-    -   Preservation: Keep Teams data for a specified duration and then do nothing
-    -   Preservation and then delete: Keep Teams data for a specified duration and then delete
-    -	Deletion: Delete Teams data after a specified duration
+- Preservation: Keep Teams data for a specified duration and then do nothing
+- Preservation and then delete: Keep Teams data for a specified duration and then delete
+- Deletion: Delete Teams data after a specified duration
 
 Teams Retention Policies do not yet support:
 
-    -	Advanced Retention policies don't apply to Teams chat and Teams channel message locations
-    -	Duration of fewer than 30 days
+- Advanced Retention policies don't apply to Teams chat and Teams channel message locations
+- Duration of fewer than 30 days
 
 Admins can set up separate retention policies for Teams private chats (1:1 or 1:Many chats) and Teams channel messages. In many cases, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. Set up these policies in the Security & Compliance center, **Data governance** > **Retention**. Turn on **Teams channel messages** and **Teams chats** and then define retention policies for these locations (also shown in the diagram below). 
 
@@ -95,7 +95,7 @@ When you turn on **Teams channel messages**, you can specify Teams to which this
 
 You can do the same thing for **Teams chats** by selecting specific users and applying unique retention policies. 
 
-
+![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Retention-Policies.png)
 
 
 > [!IMPORTANT]
@@ -104,7 +104,7 @@ You can do the same thing for **Teams chats** by selecting specific users and ap
 > To manage retention policies for Teams Files, which are stored in OneDrive for Business and SharePoint, use their retention policies.
 
 
-![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Retention-Policies.png)
+
 
 By design, deletion policies for Teams files are configured through SharePoint Online and OneDrive for Business locations. As a result, it's possible that a policy could delete a file referenced in a Teams chat or channel message before those messages get deleted. In this case, the file will still show up in the Teams message, but if you click the file, you'll get a "File not found" error (this could also happen in the absence of a policy, if someone manually deletes a file from SharePoint Online or OneDrive for Business).
 
@@ -178,7 +178,7 @@ We follow [Principles of retention policies](https://support.office.com/article/
 | | | |
 |---------|---------|---------|
 |![Decison Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |What security and compliance features does your organization require? Does your organization have the required licenses to meet Security and Compliance business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next steps         |Document the required security and compliance features in the table below.         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Next steps         |Document your required security and compliance features.         |
 
 Licensing
 ---------------
@@ -201,11 +201,11 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 | |  |  |
 |---------|---------|---------|
 |![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
-|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organizations current licensing and confirm it meets all business requirements for compliance and security.         |
+|![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
 
 Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 Admin center. By default, tenant admins have access.
 
-Content Search and eDiscovery do not require enablement within the Security & Compliance Center.
+Content Search and eDiscovery do not require enablement in the Security & Compliance Center.
 
 Location of data in Teams
 -------------------------
