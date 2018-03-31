@@ -86,7 +86,7 @@ Teams Retention Policies will support:
 
 Teams Retention Policies do not yet support:
 
-    -	Advanced Retention policies 
+    -	Advanced Retention policies don't apply to Teams chat and Teams channel message locations
     -	Duration of fewer than 30 days
 
 Admins can set up separate retention policies for Teams private chats (1:1 or 1:Many chats) and Teams channel messages. In many cases, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. Set up these policies in the Security & Compliance center, **Data governance** > **Retention**. Turn on **Teams channel messages** and **Teams chats** and then define retention policies for these locations (also shown in the diagram below). 
@@ -106,6 +106,7 @@ You can do the same thing for **Teams chats** by selecting specific users and ap
 
 ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Retention-Policies.png)
 
+By design, deletion policies for Teams files are configured through SharePoint Online and OneDrive for Business locations. As a result, it's possible that a policy could delete a file referenced in a Teams chat or channel message before those messages get deleted. In this case, the file will still show up in the Teams message, but if you click the file, you'll get a "File not found" error (this could also happen in the absence of a policy, if someone manually deletes a file from SharePoint Online or OneDrive for Business).
 
 
 For detailed information about configuring retention policies for Office 365, read [Overview of retention policies](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
@@ -167,19 +168,11 @@ We follow [Principles of retention policies](https://support.office.com/article/
 
 ## Retention policies known issues
 
+1. Under Choose Teams in the Teams Channel messages location row, you may see Office 365 Groups that are not also Teams. This will be addressed in the future.
 
+1. Under Choose Users in the Teams Chat location row, you may see guests and non-mailbox users. Retention policies are not meant to be set for guests, and we are working to remove these from the list. 
 
-
-
-Additionally, Microsoft is considering providing the following security features for Teams. Once available, guidance will be provided on how customers can leverage the features:
-
--   Tenant-specific retention Policy
-
--   Data loss prevention (DLP)
-
--   Customer Lockbox
-
--   Rights Management
+1. Exchange Life Cycle assistant (ELC) runs daily, but it has an SLA of 7 days. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there is no delay.
 
 
 | | | |
