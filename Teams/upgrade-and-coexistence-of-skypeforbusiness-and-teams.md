@@ -25,19 +25,19 @@ As an existing Skype for Business customer, we understand that a complete transi
 ## Upgrade and coexistence concepts and terminology
 To help guide your decision-making process, familiarize yourself with the following concepts and terminology relevant to upgrading from Skype for Business to Teams.
 
-### Group collaboration–only mode
-
+### Group collaboration Only mode
 In this mode, Teams is configured to support teams and channels-based conversations only, with private chats and calling, and meetings disabled.
 
-This mode is a great way to introduce Teams in your environment while you continue leverage youe exisiting investment in Skype for Business. 
+This mode is a great way to introduce Teams in your environment while you continue leverage your exisiting investment in Skype for Business. 
 
 ### Group collaboration and meetings mode
-If your organization needs the capabilities that Teams provides for meetings, but business needs require you to keep enterprise voice capabilities in Skype for Business, you can configure Teams to deliver group collaboration and meetings capabilities to your entire organization (or some parts of it).
-
 Along with using Teams for teams and channels-based conversations in this mode, users start using Teams to schedule and conduct their meetings. Private chats and voice and video calling remain on Skype for Business.
+
+If your organization needs the capabilities that Teams provides for meetings, but business needs require you to keep enterprise voice capabilities in Skype for Business, you can configure Teams to deliver group collaboration and meetings capabilities to your entire organization (or some parts of it).
 
 ### Islands mode
 This is the default mode and allows to deloy Teams independently of Skype for Business. 
+
 In this mode, Teams users can immediately use Teams with all its capabilities with other Teams users, while other users can continue using Skype for Business and remain productive with no impact on how they’re using Skype for Business today.
 
 > [!NOTE]
@@ -50,7 +50,7 @@ In this mode, Teams users can immediately use Teams with all its capabilities wi
 > After the users who previously used only Skype for Business start to use Teams, all their chats from other Teams users will arrive in Teams. This switches these users to islands mode. From that point, they must keep running Teams to ensure they stay connected with the other Teams users in the organization.
 
 
-### Teams-only mode
+### Teams Only mode
 In this upgraded mode, the Skype for Business client no longer provides basic IM, presence indicators, chat, calling, and meeting capabilities. Users working in upgraded mode must use Teams as their primary communications and collaboration tool.
 
 Users who are ready to use Teams as their primary communications and collaboration tool can be upgraded as Teams-only users.
@@ -58,7 +58,7 @@ Users who are ready to use Teams as their primary communications and collaborati
 An upgraded user can only use the Skype for Business client to join existing Skype for Business meetings or meetings on Skype for Business organized by non-upgraded users or external parties. An upgraded user can continue to communicate with other users in the organization who are still using Skype for Business by using the interoperability capabilities between Teams and Skype for Business.
 
 
-### Skype for Business–only mode
+### Skype for Business Only mode
 Users who need to stay in Skype for Business can be configured as Skype for Business–only users. 
 Users configured in this mode will be prevented from using Teams and will be able to communicate with Teams-only users by using the interoperability capabilities between Teams and Skype for Business.
 
@@ -69,7 +69,7 @@ When some of your users are ready to use only Teams for their day-to-day communi
 
 If it’s not feasible for your whole organization to move to Teams, you can start by fully adopting Teams as a group collaboration solution first while keeping Skype for Business as your organization’s unified communications solution. Another option is to start moving meetings to Teams in addition to introducing Teams group collaboration capabilities, while keeping the rest of the unified communications capabilities in Skype for Business.
 
-![A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of group collaboration-only mode, group collaboration and meetings mode, islands mode, and single-client mode.](media/upgrade_and_coexistence_building_block.png)
+![A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of group Collaboration Only mode, Group Collaboration and Meetings mode, Islands mode, Teams Only nad Skype for Business Only mode.](media/upgrade_and_coexistence_building_block.png)
 
 The following table compares upgrade and coexistence modes.
 
