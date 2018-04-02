@@ -173,5 +173,5 @@ The quality of audio, video, and application sharing in Skype for Business is gr
 
 [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
