@@ -148,4 +148,4 @@ Based on the upgrade journeys described earlier in this article, the following p
 </table>
 
 > [!NOTE]
-> Use this article to guide your thinking around upgrade and co-existence of Skype for Business and Teams. We'll publish a Quick Start Guide about how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
+> Use this article to guide your thinking around upgrade and coexistence of Skype for Business and Teams. We'll publish a Quick Start Guide about how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
