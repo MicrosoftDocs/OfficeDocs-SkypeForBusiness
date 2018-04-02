@@ -20,7 +20,11 @@ As an existing Skype for Business customer, your complete transition to Teams mi
 As with any deployment, we strongly encourage you to pilot your intended plan with a selected group of users before rolling out Teams to your broader organization. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan to keep users in the know and accelerate their acceptance of Teams. 
 
 > [!IMPORTANT]
+<<<<<<< HEAD
 > The Skype for Business to Teams upgrade journey is rapidly evolving. You might not yet have all the functionality described in this article. Even so, this article will help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams after Teams is ready for you.
+=======
+> The Skype for Business to Teams upgrade journey is rapidly evolving. You may not yet have all the functionality described in this article. Even so, this article will help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams once Teams is ready for you. 
+>>>>>>> f803e3158850084a4a8ac0595a1408592133a411
  
 
 ## Upgrade and coexistence concepts and terminology
@@ -147,5 +151,12 @@ Based on the upgrade journeys described earlier in this article, the following p
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
+<<<<<<< HEAD
+=======
+## See also
+
+[Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+
+>>>>>>> f803e3158850084a4a8ac0595a1408592133a411
 > [!NOTE]
 > Use this article to guide your thinking around upgrade and co-existence of Skype for Business and Teams. We'll publish a Quick Start Guide about how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
