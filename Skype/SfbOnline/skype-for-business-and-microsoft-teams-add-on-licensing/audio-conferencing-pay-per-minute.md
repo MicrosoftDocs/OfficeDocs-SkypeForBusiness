@@ -63,8 +63,6 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 - [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## Related topics
-
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
