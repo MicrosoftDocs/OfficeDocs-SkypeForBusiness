@@ -396,4 +396,4 @@ Here are the organization-level settings:
 
 [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user.md)
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+
