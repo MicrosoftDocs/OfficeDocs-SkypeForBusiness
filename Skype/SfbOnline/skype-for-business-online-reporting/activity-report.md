@@ -114,5 +114,5 @@ You can also export the report data into an Excel .csv file, by clicking or tapp
 ## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
