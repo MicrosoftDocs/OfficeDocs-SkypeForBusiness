@@ -26,12 +26,12 @@ As with any deployment, we strongly encourage you to pilot your intended plan wi
 ## Upgrade and coexistence concepts and terminology
 To help guide your decision-making process, familiarize yourself with the following concepts and terminology relevant to upgrading from Skype for Business to Teams.
 
-[//]: # (Laszlo, I'm not sure of the reasoning for capitalizing "Only" in the names of modes, especially if the whole name of the mode isn't captitalized also, as in "Group collaboration Only mode." To apply this consistently, it leads to some awkward constructions such as "Islands mode" later on. I've left it "Teams Only mode" and "Skype for Business Only mode," but can we revisit the hyphens?)
+[//]: # (Laszlo, I'm not sure of the reasoning for capitalizing "Only" in the names of modes, especially if the whole name of the mode isn't capitalized also, as in "Group collaboration Only mode." To apply this consistently, it leads to some awkward constructions such as "Islands mode" later on. I've left it "Teams Only mode" and "Skype for Business Only mode," but can we revisit the hyphens?)
 
 ### Group collaboration only mode
 In this mode, Teams is configured to support teams and channels-based conversations only, with private chats, calling, and meetings disabled.
 
-This mode is a great way to introduce Teams in your environment while you continue leverage your exisiting investment in Skype for Business. 
+This mode is a great way to introduce Teams in your environment while you continue leverage your existing investment in Skype for Business. 
 
 ### Group collaboration and meetings mode
 Along with using Teams for teams and channels-based conversations in this mode, users start using Teams to schedule and conduct their meetings. Private chats, and voice and video calling, remain on Skype for Business.
