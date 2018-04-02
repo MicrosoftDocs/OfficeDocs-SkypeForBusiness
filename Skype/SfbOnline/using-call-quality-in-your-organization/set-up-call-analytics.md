@@ -89,5 +89,5 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
 
 [What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

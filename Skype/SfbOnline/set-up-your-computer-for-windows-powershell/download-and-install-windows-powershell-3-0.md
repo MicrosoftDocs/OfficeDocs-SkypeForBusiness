@@ -146,5 +146,5 @@ If basic authentication has been set to true, then you're ready to use PowerShel
 ## Related topics
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

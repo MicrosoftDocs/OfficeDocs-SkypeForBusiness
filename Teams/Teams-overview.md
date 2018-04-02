@@ -118,6 +118,6 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 While the Teams Admin FAQ was handy when we first released Teams, it quickly became a "junk drawer" that made it hard to find anything specific. So we busted apart the FAQ and incorporated its valuable information into the Teams documentation that you're looking at right now. You'll find all the information that was in the FAQ in this documentation, in context.
 
-If you're looking for something that you can't find here, please tell us about it in the **Comments** section below. We try to respond to your comments within 24 hours.
+If you're looking for something that you can't find here, please tell us about it in the **Feedback** section below. We try to respond to your feedback within 24 hours.
 
 By the way, we **do** still have an FAQ for the [Journey from Skype for Business to Microsoft Teams](FAQ-journey.md). 

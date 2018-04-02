@@ -198,5 +198,5 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
   
 [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

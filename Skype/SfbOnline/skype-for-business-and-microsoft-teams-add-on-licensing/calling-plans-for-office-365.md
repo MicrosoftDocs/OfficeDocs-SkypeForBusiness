@@ -54,7 +54,7 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Which add-on licenses do I need to buy to get more features?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see "License options based on your plan" in [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Office 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
@@ -104,5 +104,5 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
