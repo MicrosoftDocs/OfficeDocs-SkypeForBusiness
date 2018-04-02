@@ -20,9 +20,8 @@ Read this topic to learn how to assign conferencing policies for Skype Room Syst
 
 The conferencing policy assigned to the Skype Room System account must have certain characteristics. Most of the time, the Skype Room System client joins a scheduled meeting, and therefore the conferencing policy of the meeting organizer will affect the conference. However, in Skype for Business Server, certain capabilities depend on the participant's configuration. For example, if the participant's policy allows a maximum video resolution of 1080p, the participants will experience this higher resolution video capability in the conference even if the organizer's policy doesn't allow it. The following table describes several such settings which you should be aware of when setting up conferencing policies for Skype Room System accounts in your organization. 
   
-||||
-|:-----|:-----|:-----|
 |Feature  <br/> |Value  <br/> |Comment  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Must be true for Skype Room System audio  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Must be true for Skype Room System audio to work in Meet Now (ad hoc) whiteboard sessions in Skype Room System  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Allows Skype Room System to render multi-view, multiple video streams  <br/> |

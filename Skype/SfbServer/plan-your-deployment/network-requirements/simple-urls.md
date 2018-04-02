@@ -59,9 +59,8 @@ If you use this option, you need a separate DNS A record for each simple URL, an
   
 **Simple URL Naming Option 1**
 
-|||
-|:-----|:-----|
 |**Simple URL** <br/> |**Example** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)  <br/> |
 |Dial-in  <br/> |https://dialin.contoso.com  <br/> |
 |Admin  <br/> |https://admin.contoso.com  <br/> |
@@ -70,9 +69,8 @@ With Option 2, simple URLs are based on the domain name SfB2015.contoso.com. The
   
 **Simple URL Naming Option 2**
 
-|||
-|:-----|:-----|
 |**Simple URL** <br/> |**Example** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)  <br/> |
 |Dial-in  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -81,9 +79,8 @@ Option 3 is most useful if you have many SIP domains, and you want them to have 
   
 **Simple URL Naming Option 3**
 
-|||
-|:-----|:-----|
 |**Simple URL** <br/> |**Example** <br/> |
+|:-----|:-----|
 |Meet  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |Dial-in  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Admin  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
