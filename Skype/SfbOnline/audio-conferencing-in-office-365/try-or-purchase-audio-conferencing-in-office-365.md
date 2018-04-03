@@ -71,10 +71,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
   
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.) 
-  
-> [!NOTE]
-> If you want to use a third-party ACP, choose **Audio conferencing** > **Microsoft bridge**. At the bottom of the page, click **If you would like to configure a third-party audio conferencing provider instead, click here**. 
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)  
   
 ## Step 3: Other admin tasks
 
