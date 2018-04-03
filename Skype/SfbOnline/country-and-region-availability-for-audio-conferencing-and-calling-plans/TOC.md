@@ -26,6 +26,7 @@
 ### [See a list of users that are enabled for Audio Conferencing](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [Send an email to a user with their dial-in information](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Set the PIN length for Audio Conferencing meetings](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
+### [Set up Audio Conferencing](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [Set auto attendant languages](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Setting up the Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
