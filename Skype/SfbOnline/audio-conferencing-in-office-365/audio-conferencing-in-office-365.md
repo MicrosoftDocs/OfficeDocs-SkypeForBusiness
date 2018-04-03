@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
@@ -21,15 +21,15 @@ ms.custom:
 ---
 
 # Audio Conferencing in Office 365
-Audio Conferencing in Office 365 lets users call into a meeting from their phone. Audio Conferencing allows up to 250 phone attendees.
+Audio Conferencing in Office 365 lets users call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
 
 ## What is Audio Conferencing?
-Calling in (dialing in) to meetings is very useful when people are on the road, for example, when users can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptop or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
+Calling in (dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptops or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
   
 - Internet connectivity is limited.
 - A meeting is audio only.
 - The person tried to join a Skype for Business meeting and it failed.
-- The call quality is better if they dial in.
+- The call quality is better when dialing in.
 - People can join a meeting "hands free" using Bluetooth devices.
 - People find it's easier and more convenient for their situation.
 
@@ -40,7 +40,7 @@ After attendees have joined meeting, they can also dial out and invite other cal
 ## What does it cost?
 For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## Find out where it is available?
+## Where is it available?
 With Audio Conferencing, there are toll and toll free phone numbers that can be used by your users to dial-in to meetings. Toll (service) numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
 
 Toll-free phone numbers (service numbers) are available but only in some countries/regions. To see a list of the numbers that are available, go [here](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
