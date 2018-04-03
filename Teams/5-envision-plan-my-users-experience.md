@@ -15,6 +15,8 @@ appliesto:
 
 # Plan my users’ experience
 
+This article gives an overview of the requirements for properly identifying the elements of your cloud voice services deployment that directly affect your users’ experience. By preparing for these items before deployment, you’ll increase your chances of successfully delivering a high-quality, reliable experience for users. 
+
 ## Client deployment
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and
