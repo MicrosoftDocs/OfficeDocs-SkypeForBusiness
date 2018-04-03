@@ -140,7 +140,6 @@ The Response Group Configuration Tool supports the combinations of operating sys
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 with Service Pack 1  <br/> |Internet Explorer 8 (native mode)  <br/> Internet Explorer 9 (native mode)  <br/> |
 |Windows Server 2012  <br/> ||
 |Windows Server 2012 R2  <br/> ||
-|||
    
 ### Response Group Agent Console
 

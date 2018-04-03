@@ -69,7 +69,7 @@ By default, there are four types of email that will be sent to your users who ar
     
     This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
     
-    See [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) or [Assign a third party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    See [Assign or remove licenses for Office 365 for business](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Here is an example of this email:
     
@@ -100,21 +100,27 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use the Skype for Business admin center or Windows PowerShell. 
+By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell. 
+
+**Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+
+4. Click **Apply**.
   
- **Using the Skype for Business admin center**
-  
-1. Sign in to Office 365 with your work or school account.
+**Using the Skype for Business admin center**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+2. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their audio conferencing settings change**. 
     
-4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their audio conferencing settings change**. 
+3. Click **Save**. 
     
-5. Click **Save**. 
-    
- **Using Windows PowerShell**
+**Using Windows PowerShell**
   
 1. Run the following to disable sending all of your users email:
     
