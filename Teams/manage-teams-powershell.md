@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams using PowerShell
+title: Use PowerShell to manage the upgrade from Skype for Business to Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-Manage Microsoft Teams using PowerShell
+Use PowerShell to manage the upgrade from Skype for Business to Microsoft Teams
 ======================================
 
 Link to this article from the [Upgrade to Teams](upgrade-to-Teams.md) article.
