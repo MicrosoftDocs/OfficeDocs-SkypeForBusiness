@@ -112,5 +112,5 @@ To do this, run:
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

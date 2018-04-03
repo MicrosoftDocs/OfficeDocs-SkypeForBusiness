@@ -33,17 +33,39 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   > [!IMPORTANT]
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
   
-## Change the settings for an audio conferencing bridge
+## Change the settings for an audio conferencing bridge 
+
+### Using the Microsoft Teams and Skype for Business Admin Center
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
+3. In the **Bridge settings** pane, select: 
+  - **Enable meeting entry and exit notifications to be turned on** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+    
+    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+    
+  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+    
+  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+      
+  - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
+
+4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
+
+5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
+    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+ 
+6. Click **Apply**. 
+
+### Using Skype for Business Online
 
  **Set up the meeting experience when callers join a meeting**
-  
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
     
-3. In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-4. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
+2. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
     
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
@@ -58,7 +80,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
     
-5. After you make your changes, click **Save**.
+3. After you make your changes, click **Save**.
     
 **Set the PIN length for meetings**
   

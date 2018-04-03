@@ -267,9 +267,8 @@ When creating DNS records for hybrid deployments, all Skype for Business externa
   
 Additionally you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:
   
-||||
-|:-----|:-----|:-----|
 |DNS record  <br/> |Resolvable by  <br/> |DNS requirement  <br/> |
+|:-----|:-----|:-----|
 |DNS SRV record for _sipfederationtls._tcp.\<sipdomain.com\> for all supported SIP domains resolving to Access Edge external IP(s)  <br/> |Edge server(s)  <br/> |Enable federated communication in a hybrid configuration. The Edge Server needs to know where to route federated traffic for the SIP domain that is split between on premises and online.  <br/> Must use strict DNS name matching between the domain in the user name and the SRV record.  <br/> |
 |DNS A record(s) for Edge Web Conferencing Service FQDN, e.g. webcon.contoso.com resolving to Web Conferencing Edge external IP(s)  <br/> |Internal corporate network connected users' computers  <br/> |Enable online users to present or view content in on-premises hosted meetings. Content includes PowerPoint files, whiteboards, polls, and shared notes.  <br/> |
    

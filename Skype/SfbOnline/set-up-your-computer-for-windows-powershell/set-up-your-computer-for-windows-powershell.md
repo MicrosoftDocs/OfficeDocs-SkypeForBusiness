@@ -52,5 +52,5 @@ You can find information about downloading and installing these items in the fol
 ## Related topics
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

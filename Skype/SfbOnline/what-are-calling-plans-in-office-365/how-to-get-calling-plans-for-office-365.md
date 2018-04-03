@@ -95,8 +95,6 @@ Here are more articles that explain how to set up your Calling Plans:
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -105,5 +103,5 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

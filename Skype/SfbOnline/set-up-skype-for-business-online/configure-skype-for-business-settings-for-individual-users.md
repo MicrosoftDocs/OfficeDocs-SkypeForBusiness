@@ -105,5 +105,5 @@ To configure these settings in bulk, use PowerShell. See [Set the phone numbers 
 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -35,22 +35,33 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
+**Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**.
+
+2. Select the audio conferencing phone number from the list, and at the top of the page, click **Edit**.
+
+3. In the pane on the right, choose the default language you want and any alternate languages. 
+ 
+    > [!NOTE]
+    > The default and alternate languages that are supported are listed. The order in which you select them in the lists will be the order of the languages presented to callers. 
+
+4. Click **Apply**.
+
+**Using Skype for Business online**
+
 You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
-  
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.
+2. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. 
     
-4. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. 
-    
-5. On the **Set languages** page, click the **Primary language** list to view the complete list of available languages. If you need to, click each of the **Secondary languages** lists to select secondary language.
+3. On the **Set languages** page, click the **Primary language** list to view the complete list of available languages. If you need to, click each of the **Secondary languages** lists to select secondary language.
     
     > [!NOTE]
     > The primary and secondary languages that are supported are listed. The order in which you select them in the lists will be the order of the languages presented to callers. 
   
-6. Click **Save**.
+4. Click **Save**.
     
 ## Want else should I know?
 
@@ -68,4 +79,4 @@ To learn more, see [Using Windows PowerShell to do common Skype for Business Onl
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

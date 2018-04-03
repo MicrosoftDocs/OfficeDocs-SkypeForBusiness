@@ -30,7 +30,6 @@ tblNode contains the object tree (with category or chat room nodes) as managed i
 |logged  <br/> |bit  <br/> | For categories: <br/>  True if chat history is on. <br/>  False if chat history is off. <br/>  For rooms: <br/>  Null. <br/> |
 |filePost  <br/> |bit  <br/> | For categories: <br/>  True if file uploads are allowed. <br/>  False if file uploads are disallowed. <br/>  For rooms: <br/>  Null. <br/> |
 |disabled  <br/> |bit, not null  <br/> |True if the chat room is disabled. Applies only to chat rooms. (False for categories.)  <br/> |
-|||
 |behavior  <br/> |smallint, not null  <br/> | Behavior (looked up in EnumValue table): <br/>  4: Normal (normal chat rooms). <br/>  5: Auditorium (auditorium chat rooms, only presenters can contribute). <br/>  Applies only to chat rooms. <br/> |
 |visibility  <br/> |smallint, not null  <br/> | Visibility (looked up on EnumValue table): <br/>  2: Private <br/>  3: Scoped <br/>  6: Open <br/>  Applies only to chat rooms. <br/> |
 |siopID  <br/> |GUID  <br/> |Add-In GUID if an add-in is associated with this chat room. (Categories do not have add-ins.)  <br/> The add-in information is looked up in SiopWhiteList table.  <br/> |

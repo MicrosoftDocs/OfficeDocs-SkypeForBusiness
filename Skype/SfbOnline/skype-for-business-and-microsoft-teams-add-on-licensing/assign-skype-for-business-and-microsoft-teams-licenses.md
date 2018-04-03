@@ -111,11 +111,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 - **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
     
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. Do one of the following:
-    
-  - [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
-    
-  - Or, [Assign a third-party as the audio conferencing provider](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
+- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
     
 ### How to assign an Audio Conferencing license to one user
 
@@ -197,12 +193,10 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
   
 ## Related topics
-
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
 [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
