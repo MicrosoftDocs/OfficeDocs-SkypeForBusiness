@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/23/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
@@ -22,16 +22,20 @@ ms.custom:
 - Audio Conferencing
 - Strat_SB_PSTN
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge."
+
 ---
 
 # Assign Microsoft as the audio conferencing provider
 
-An audio conferencing provider supplies the *conference bridge*. The conference bridge provides the dial-in phone numbers, PINs, and conference IDs for meetings that are created. You only need to assign an audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
-  
-If you want to be able to see **Microsoft** listed as the audio provider, you must assign an **Audio Conferencing** license to the user.
-  
-> [!NOTE]
-> If you assign an **Audio Conferencing** license to a person who doesn't have a third-party audio conferencing provider, Microsoft is automatically assigned as the audio conferencing provider. You can [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md) if needed.
+To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
+
+Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
+
+If a **Microsoft Audio Conferencing** license is assigned to a user who doesn't have an audio conferencing provider, the user's provider will be automatically set to **Microsoft** and you don't have to do anything else. If the user already had an audio conferencing provider, you must change the user's provider to Microsoft after assigning them an Audio Conferencing license.
+
+If you want to be able to see Microsoft listed as the audio conferencing provider, you must assign an Audio Conferencing license to the user.
+
+
   
 ## Assign Microsoft as the audio conferencing provider
 
@@ -42,9 +46,9 @@ If you want to be able to see **Microsoft** listed as the audio provider, you mu
     > [!NOTE]
     > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
-2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
+2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.
     
-3. In the Action pane, click **Edit**.
+3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
 4. On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.
     
@@ -59,31 +63,33 @@ To save time or automate this, you can use the following PowerShell script to se
 
 > [!NOTE]
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
+
   
-You can save one or more of the following scripts as a PowerShell script file and then run it.
+To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.
   
-To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx).
-  
-**Example 1:** You can run this script by providing a list of users that you want updated.
-> 
-  ```
-  Script.ps1 -UserList <List of users>
-  ./Script.ps1 -UserList "user01@constoso.com,   user02@contoso.com, user03@contoso.com"
-  ```
-**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.  
-> 
-  ```
-  Script.ps1 -CsvFile <Path of the csv file>
-  ./Script.ps1 -CsvFile ".\\CsvFile.csv"
-  ```
+
 ### Using a Windows PowerShell script for a large number of users
 To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.
 
 When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
   
-You can save one or more of the following scripts as a PowerShell script file and then run it.
+You can save the following script as a PowerShell script file and then run it using any of its input parameters.
 
-**Example 1:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
+**Example 1:** You can run this script by providing a list of users that you want updated.
+   
+  ```
+Script.ps1 -UserList <List of users>
+./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+  ```
+
+**Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.
+   
+  ```
+Script.ps1 -CsvFile <Path of the csv file>
+./Script.ps1 -CsvFile ".\\CsvFile.csv"
+  ```
+
+**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
     
   ```
   Script.ps1 -ACPProviderName <Provider>
@@ -188,17 +194,10 @@ You can save one or more of the following scripts as a PowerShell script file an
   ```
 For more information about using Windows PowerShell, see [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038).
   
-## What else should I know?
-
-- A user can be assigned only one audio conferencing provider.
-    
-- You can change the audio conferencing provider from Microsoft to a third-party provider at any time. To learn more, see [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md).
-    
-- In your organization, you can have some people who use Microsoft as their audio conferencing provider, and others who use a third-party provider. But this is more complicated to set up and manage.
     
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

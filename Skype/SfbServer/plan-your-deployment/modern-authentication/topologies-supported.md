@@ -70,9 +70,8 @@ First, let's cover MA with Skype for Business in both On-premises-only or Cloud-
 > [!IMPORTANT]
 > Are you ready to set up Modern Authentication in Skype for Business Online? The steps to enable this feature are right [here](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Topology name  <br/> |Example  <br/> |Description  <br/> |Supported  <br/> |
+|:-----|:-----|:-----|:-----|
 |Cloud only  <br/> |![Supported SFB with MA topology, Cloud only.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Users homed/mailboxes located: Online  <br/> |MA is on for both EXO and SFBO.  <br/> Therefore, the authorization server is Azure AD.  <br/> |Multi-factor authentication (MFA), Client-certificate based authentication (CBA), Conditional Access (CA)/Mobile Application Management (MAM) with Intune. \*  <br/> |
 |On-prem only  <br/> |![Supported SFB with MA topology, on-premises only.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Users homed/mailboxes located: On-premises  <br/> |MA is on for SFB on-premises.  <br/> Therefore, the authorization server is ADFS.  <br/> For configuration details, please see [this article.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (Windows Desktop only - mobile clients are not supported). No Exchange integration features.  <br/> |
    
@@ -81,9 +80,8 @@ First, let's cover MA with Skype for Business in both On-premises-only or Cloud-
   
 Mixed topologies involve combinations of SFB split-domain hybrids. These are the Mixed topologies currently supported:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Topology name  <br/> |Example  <br/> |Description  <br/> |Supported  <br/> |
+|:-----|:-----|:-----|:-----|
 |Mixed 1  <br/> |![Supported SFB with MA topology, Mixed 1 (EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> Users homed/mailboxes located: EXO and SFB  <br/> |MA is not enabled for SFB; no SFB MA features available in this topology.  <br/> |No MA features for SFB.  <br/> |
 |Mixed 2  <br/> |![Supported MA with S4B Mixed topology 2, SFBO plus MA working with EXCH on-prem.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Users homed/mailboxes located: EXCH and SFBO  <br/> |MA is on for SFBO only. The authorization server is Azure AD for users homed in SFBO, but AD for EXCH on-premises.  <br/> |MFA, CBA, CA/MAM with Intune.\*  <br/> |
 |Mixed 3  <br/> |![Supported MA with SFB, EXO with MA on, plus EXCH and SFB on premises.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Users homed/mailboxes located: EXO + SFB, or EXCH + SFB  <br/> |No SFB MA features available in this topology  <br/> |No MA features for SFB.  <br/> |

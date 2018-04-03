@@ -217,9 +217,8 @@ To identify issues with event logs and performance counters:
     
 The following table lists the services that Microsoft recommends monitoring by listing the stop and start event IDs:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Service Name  <br/> |Target Server Role  <br/> |Stop Event ID  <br/> |Start Event ID  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Mediation Server  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Edge Server  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Edge Server  <br/> |19003  <br/> |19002  <br/> |
@@ -227,9 +226,8 @@ The following table lists the services that Microsoft recommends monitoring by l
    
 The following table lists the network issues that Microsoft recommends monitoring:
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |Monitor Name  <br/> |Target Server Role  <br/> |Success Event ID expression  <br/> |Error Event ID expression  <br/> |Failure example  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Mediation Server to gateway connectivity failure  <br/> |Mediation Server  <br/> |25062 || 25002  <br/> |25061  <br/> |MS PING (option) Gateway failed  <br/> |
 |Mediation Server to gateway call completion failure  <br/> |Mediation Server  <br/> |25064 || 25002  <br/> |25063  <br/> |MS trying to make call to Gateway failed  <br/> |
 |Critical network problems  <br/> |Edge Server  <br/> |14353 || 12288  <br/> |14624  <br/> |Transport TLS has failed to start on local IP address 192.168.231.14 at port 5061  <br/> |
