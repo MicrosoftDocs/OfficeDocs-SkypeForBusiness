@@ -14,8 +14,33 @@ appliesto:
 
 # Known issues for Microsoft Teams
   
-The following table lists the known issues for Microsoft Teams.
+This article lists the known issues for Microsoft Teams, by feature area.
 ## 
+
+## Meetings
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
+
+
+## Calling
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> <br/> | |10/16/17  <br/> |
+
+
+## Cat bathing
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Connector options are missing for some teams  <br/> |When you right-click a channel, the Connectors option is not present for any member of the team.  <br/> |The creator of the team must have an online mailbox; otherwise, no Connector option will be available. This is expected behavior.  <br/> |6/26/17  <br/> |
+
+
+## Goose grooming
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises.  <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises.  <br/> |11/2/16  <br/> |
+
+
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
