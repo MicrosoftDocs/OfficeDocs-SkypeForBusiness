@@ -4,7 +4,8 @@ author: dearbeen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/31/2018
-ms.topic: article
+ms.topic: landing-page
+layout: LandingPage
 ms.service: msteams
 ms.reviewer: ritikag
 description: Manage your upgrade to Microsoft Teams from Skype for Business
