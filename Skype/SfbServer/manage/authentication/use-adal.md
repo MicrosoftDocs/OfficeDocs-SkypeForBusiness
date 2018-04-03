@@ -116,9 +116,8 @@ To turn Modern Authentication on for Exchange Online, you'll need to run some Po
     
 - Set these registry keys for every device or computer on which you want to enable Modern Authentication. You will need a GPO in larger organizations. For information on how to make a GPO, see the 'Create a Group Policy Object to modify the registry on a domain joined computer' of [this ](https://support.office.com/en-us/article/Switching-between-the-Skype-for-Business-and-the-Lync-client-user-interfaces-a2394a4c-7522-484c-a047-7b3289742be0)article.
     
-||||
-|:-----|:-----|:-----|
 |Registry Key  <br/> |Type  <br/> |Value  <br/> |
+|:-----|:-----|:-----|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
    

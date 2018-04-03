@@ -83,9 +83,8 @@ The following requirements and recommendations for implementing central site voi
 
 Skype for Business Server depends on the following infrastructure and software components to assure voice resiliency:
   
-|||
-|:-----|:-----|
 |**Component** <br/> |**Functional** <br/> |
+|:-----|:-----|
 |DNS  <br/> |Resolving SRV records and A records for server-server and server-client connectivity  <br/> |
 |Exchange and Exchange Web Services (EWS)  <br/> |Contact storage; calendar data  <br/> |
 |Exchange Unified Messaging and Exchange Web Services  <br/> |Call logs, voice mail list, voice mail  <br/> |

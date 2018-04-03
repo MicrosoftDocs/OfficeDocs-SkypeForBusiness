@@ -26,7 +26,7 @@ description: "Learn the parameters for the length and requirements of a PIN and 
 
 # Set the PIN length for Audio Conferencing meetings
 
-When you are setting up audio conferencing in for Skype for Business or Microsoft Teams, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set will be included on the meeting invites for Skype for Business and Microsoft Teams apps.
+When you are setting up audio conferencing for Skype for Business or Microsoft Teams, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set will be included on the meeting invites for Skype for Business and Microsoft Teams apps.
   
 The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name. **Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers. Meeting organizers use PINs to start meetings if they can't join the meeting using the Skype for Business or Microsoft Teams app.
   
@@ -78,4 +78,4 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## See also
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

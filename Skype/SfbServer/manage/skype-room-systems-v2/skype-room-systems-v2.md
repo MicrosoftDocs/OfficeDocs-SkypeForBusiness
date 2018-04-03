@@ -60,7 +60,6 @@ The following table summarizes the possible remote operations and the methods yo
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Skype Account Config  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
 |Access logs  <br/> |Not currently supported  <br/> |Not currently supported  <br/> |
-||||
    
 ## Configuring Group Policy for Skype Room Systems v2
 <a name="GroupPolicy"> </a>
