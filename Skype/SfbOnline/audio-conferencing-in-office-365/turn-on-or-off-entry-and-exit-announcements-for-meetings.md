@@ -32,19 +32,31 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Setting meeting join options
 
-1. Sign in to Office 365 with your work or school account.
+**Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+4. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
+5. Enable or disable **Ask callers to record their name before joining the meeting**.
     
-4. Under **Meeting join experience**, select or clear **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+6. After you make your changes, click **Apply**.
+
+**Using the Skype for Business admin center**
     
-5. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-6. Check or uncheck **Ask callers to record their name before joining the meeting**.
+2. Under **Meeting join experience**, select or clear **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-7. After you make your changes, click **Save**.
+3. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
+    
+4. Check or uncheck **Ask callers to record their name before joining the meeting**.
+    
+5. After you make your changes, click **Save**.
     
 ## Want to know how to manage with Windows PowerShell?
 
