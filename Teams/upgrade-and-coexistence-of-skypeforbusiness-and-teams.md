@@ -17,12 +17,10 @@ appliesto:
 
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there is some overlapping functionality between the two apps, we recommend that you review the available upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams.
 
-Use this article to guide your thinking around upgrade and coexistence of Skype for Business and Teams.
-
 As with any deployment, we strongly encourage you to pilot your intended plan with a selected group of users before rolling out Teams to your broader organization. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan to keep users in the know and accelerate their acceptance of Teams. 
 
 > [!IMPORTANT]
-> The Skype for Business to Teams upgrade journey is rapidly evolving. You might not yet have all the functionality described in this article. Even so, this article will help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams after Teams is ready for you. To stay on top of what's coming next in Teams, see the [Skype for Business to Teams roadmap](https://aka.ms/skype2teamsroadmap).
+> The Skype for Business to Teams upgrade journey is rapidly evolving. You might not yet have all the functionality described in this article. Use this article to help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams once Teams is ready for you. To stay on top of what's coming next in Teams, see the [Skype for Business to Teams roadmap](https://aka.ms/skype2teamsroadmap).
  
 
 
