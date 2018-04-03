@@ -17,6 +17,8 @@ appliesto:
 
 To plan for the technical implementation of Audio Conferencing, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
 
+## Audio Conferencing in Teams
+
 As part of defining required Audio Conferencing features in Microsoft Teams, one of the first steps is to evaluate the latest public roadmap to determine:
 
 -   Which Audio Conferencing features in Teams that will be deployed for users in scope.
