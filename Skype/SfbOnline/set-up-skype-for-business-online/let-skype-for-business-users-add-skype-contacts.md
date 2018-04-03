@@ -98,5 +98,5 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
   
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
