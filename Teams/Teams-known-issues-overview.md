@@ -27,8 +27,8 @@ Select a Teams feature area to see a current list of its known issues.
 > [!div class="op_single_selector"] 
 > - [Meetings](known-issues.md#Meetings)
 > - [Calling](known-issues.md#Calling)
-> - [Cat bathing](known-issues.md#Meetings)
-> - [Goose grooming](known-issues.md#Meetings)
+> - [Cat bathing](known-issues.md#cat-bathing)
+> - [Goose grooming](known-issues.md#goose-grooming)
 > - [Audio conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 > - [Room Systems](known-issues-room-systems.md)
 

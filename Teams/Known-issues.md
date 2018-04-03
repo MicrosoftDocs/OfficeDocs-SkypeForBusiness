@@ -42,6 +42,9 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 
 
+
+[Rest of the articles below]
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
