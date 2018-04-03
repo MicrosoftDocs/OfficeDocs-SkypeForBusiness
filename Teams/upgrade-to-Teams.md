@@ -69,60 +69,6 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_account-management.svg" alt="User account" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Need help signing in to Skype for Business?</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tools.svg" alt="Troubleshoot" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Troubleshoot problems with Skype for Business Online</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_teams-flag.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
 </ul>
 
 For more information, see the following resources:
