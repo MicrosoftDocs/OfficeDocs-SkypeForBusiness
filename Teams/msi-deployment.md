@@ -40,7 +40,7 @@ Do not leverage the MSI to deploy updates, the client will auto update when it d
 
 1. .NET framework 4.5 or later
 2. Windows 7 or later
-2. 32GB of disk space for each user profile (recommended)
+2. 3GB of disk space for each user profile (recommended)
 
 ## Clean up\redeployment Procedure
 If a user uninstalls Teams from for their User Profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that User Profile. To redeploy Teams for this user on a particular machine where it was uninstalled you will need to:
