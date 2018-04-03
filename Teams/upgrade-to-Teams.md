@@ -78,6 +78,82 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="/MicrosoftTeams/change-management-strategy">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-change-management.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Adoption &amp; change management</h3>
+                                                    <p>Get tools to support your Teams rollout and help you create your change management strategy for Teams</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/MicrosoftTeams/cloud-voice-deployment">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-voice-deployment.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Cloud voice</h3>
+                                                    <p>Find the practical guidance you need to get started with Audio Conferencing and Phone System deployment using Teams</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/MicrosoftTeams/security-compliance-overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-security-compliance.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Security &amp; compliance</h3>
+                                                    <p>Teams is built on the Office 365 cloud, which means it features the enterprise-grade security & compliance you need</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/MicrosoftTeams/itadmin-readiness">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/hubs/microsoftteamshome/teams-training.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Find training &amp; videos</h3>
+                                                    <p>Get Teams training - for you and your users</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -85,7 +161,6 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
         </ul>
     </div>
 </div>
-
 
 For more information, see the following resources:
 
