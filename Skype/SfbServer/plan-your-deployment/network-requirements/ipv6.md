@@ -124,9 +124,8 @@ The following table shows the support matrix between the Front End Server pool a
   
 **Front End Pool and Edge Pool (Internal Edge) Matrix**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Edge Pool: IPv4** <br/> |**Edge Pool: Dual Stack** <br/> |**Edge Pool: IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Front End Pool: IPv4** <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |**Front End Pool: Dual Stack** <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |**Front End Pool: IPv6** <br/> |No  <br/> |No  <br/> |Yes\*  <br/> |
@@ -137,9 +136,8 @@ The following table is a matrix of the supported combinations of internal and ex
   
 **Edge Pool (Internal Edge) and Edge pool (External Edge) Matrix**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Edge Pool (External Edge) : IPv4** <br/> |**Edge Pool (External Edge): Dual Stack** <br/> |**Edge Pool (External Edge): IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Edge Pool (Internal Edge): IPv4** <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |**Edge Pool (Internal Edge): Dual Stack** <br/> |No  <br/> |Yes  <br/> |No  <br/> |
 |**Edge Pool (Internal Edge): IPv6** <br/> |No  <br/> |No  <br/> |Yes\*  <br/> |
