@@ -150,7 +150,6 @@ Based on the upgrade journeys described earlier in this article, the following p
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
-[//]: # [Use PowerShell to manage the upgrade from Skype for Business to Microsoft Teams](manage-teams-powershell.md)
 
 ## [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 
