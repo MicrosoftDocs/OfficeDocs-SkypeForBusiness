@@ -138,4 +138,4 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
 
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+
