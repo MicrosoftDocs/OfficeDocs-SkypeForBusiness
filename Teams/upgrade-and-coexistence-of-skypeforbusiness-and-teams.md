@@ -14,6 +14,8 @@ appliesto:
 ---
 # Upgrade journey and coexistence of Skype for Business and Microsoft Teams
 
+
+
 [//]: # (Edit to first sentence to avoid misplaced modifier.)
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there is some overlapping functionality between the two apps, we recommend that you review the available upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams.
 
@@ -23,10 +25,11 @@ As with any deployment, we strongly encourage you to pilot your intended plan wi
 > The Skype for Business to Teams upgrade journey is rapidly evolving. You might not yet have all the functionality described in this article. Even so, this article will help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams after Teams is ready for you.
  
 
+
 ## Upgrade and coexistence concepts and terminology
 To help guide your decision-making process, familiarize yourself with the following concepts and terminology relevant to upgrading from Skype for Business to Teams.
 
-[//]: # (Laszlo, I'm not sure of the reasoning for capitalizing "Only" in the names of modes, especially if the whole name of the mode isn't capitalized also, as in "Group collaboration Only mode." To apply this consistently, it leads to some awkward constructions such as "Islands mode" later on. I've left it "Teams Only mode" and "Skype for Business Only mode," but can we revisit the hyphens?)
+[//]: # (Laszlo, I'm not sure of the reasoning for capitalizing "Only" in the names of modes, especially if the whole name of the mode isn't capitalized also, as in "Group collaboration Only mode." To apply this consistently, it leads to some awkward constructions such as "Islands mode" later on. I've left it "Teams Only mode" and "Skype for Business Only mode," but can we revisit the hyphens?) (LOLA: Always "Sentence case," not "Title Case")
 
 ### Group collaboration only mode
 In this mode, Teams is configured to support teams and channels-based conversations only, with private chats, calling, and meetings disabled.
@@ -147,5 +150,10 @@ Based on the upgrade journeys described earlier in this article, the following p
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
+## [Use PowerShell to manage the upgrade from Skype for Business to Microsoft Teams](manage-teams-powershell.md)
+
+## [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+
 > [!NOTE]
 > Use this article to guide your thinking around upgrade and coexistence of Skype for Business and Teams. We'll publish a Quick Start Guide about how to execute your journey from Skype for Business to Teams when the policies are available at a later time. 
+
