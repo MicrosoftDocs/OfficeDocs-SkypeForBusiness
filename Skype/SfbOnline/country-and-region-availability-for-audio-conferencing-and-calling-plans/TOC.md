@@ -162,6 +162,7 @@
 ## Accessibility and regulatory
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [Accessibility solutions for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
+### [IP Relay Canada email signup](../accessibility-and-regulatory/ip-relay-canada-email-signup.md)
 ### [Complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md)
 ### [Code of practice for the United Kingdom (U.K.)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Complaint handling code for the United Kingdom (U.K.)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
