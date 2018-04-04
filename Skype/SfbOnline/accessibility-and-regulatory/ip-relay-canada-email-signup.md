@@ -22,7 +22,7 @@ description: "How to get an IP Relay account set up for Canada."
 
 # IP Relay Canada email signup
 
-To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to ptn@microsoft.com.
+To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 |||
 |:-----|:-----|
@@ -87,6 +87,7 @@ Once logged in, you will see instructions displayed on the left side of your scr
 #### How to place a 911 call:
 If you experience an emergency, you may select the appropriate emergency button located at the bottom of your screen (as shown below). 
 
+![Emergency buttons](../images/ip-relay-emergency-buttons.png)
 
 The IP Message Relay Operator will contact 911, confirm your address and translate with various emergency centers until he or she is no longer required, and the appropriate department has been dispatched to your location. 
 
@@ -94,7 +95,7 @@ The IP Message Relay Operator will contact 911, confirm your address and transla
 > Please do not test this service, as the appropriate agency will be contacted and possibly dispatched even if you indicate it is simply a test, and you may be charged a false dispatch fee from the emergency agency.   
 
 #### Customer Support: 
-Please contact Special Projects at [specialprojects@northern911.com](specialprojects@northern911.com) or (705) 222-1733.
+Please contact Special Projects at [specialprojects@northern911.com](mailto:specialprojects@northern911.com) or (705) 222-1733.
  
 Northern911 manages the IP relay service on behalf of Microsoft. 
 
