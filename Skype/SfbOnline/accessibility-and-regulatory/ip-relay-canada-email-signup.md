@@ -26,18 +26,18 @@ To get an IP Relay account set up for Canada, please complete the information in
 
 |||
 |:-----|:-----|
-|First & Last Name||
-|Office 365 Tenant Domain Name (Example: Contoso.com)||
-|Office 365 User phone number (Example: +1 XXX XXX XXXX) ||
-|Password (8 to 16 characters) ||
-|Most likely physical address at the time of an emergency||
-|Street Number & Name||
-|Apartment / Suite||
-|City||
-|Province / State||
-|Postal Code / Zip Code||
-|Phone Number||
-|Office 365 Email Address||
+|First & Last Name:||
+|Office 365 Tenant Domain Name: <br/>(Example: Contoso.com)||
+|Office 365 User phone number: <br/>Example: +1 XXX XXX XXXX) ||
+|Password (8 to 16 characters): ||
+|Most likely physical address <br/>at the time of an emergency:||
+|Street Number & Name:||
+|Apartment / Suite:||
+|City:||
+|Province / State:||
+|Postal Code / Zip Code:||
+|Phone Number:||
+|Office 365 Email Address:||
 |||
 
 > [!NOTE]
@@ -45,7 +45,7 @@ To get an IP Relay account set up for Canada, please complete the information in
 
 Once your account is ready (within 24 working hours), we will email you back with the User Name and Password. 
 
-## Ip Relay Canada user information
+## IP Relay Canada user information
 
 ### Description of the IP Message Relay service from Microsoft:
 
@@ -90,11 +90,11 @@ If you experience an emergency, you may select the appropriate emergency button 
 
 The IP Message Relay Operator will contact 911, confirm your address and translate with various emergency centers until he or she is no longer required, and the appropriate department has been dispatched to your location. 
 
-> [!WARNING
+> [!WARNING]
 > Please do not test this service, as the appropriate agency will be contacted and possibly dispatched even if you indicate it is simply a test, and you may be charged a false dispatch fee from the emergency agency.   
 
 #### Customer Support: 
-Please contact Special Projects at specialprojects@northern911.com or (705) 222-1733.
+Please contact Special Projects at [specialprojects@northern911.com](specialprojects@northern911.com) or (705) 222-1733.
  
 Northern911 manages the IP relay service on behalf of Microsoft. 
 
