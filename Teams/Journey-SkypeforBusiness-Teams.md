@@ -30,7 +30,7 @@ For best results, we recommend that you follow this guidance in order:
 
 [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 
-[3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
+[3 - Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - Drive value through user adoption](continue-journey.md)
 
