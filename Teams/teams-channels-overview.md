@@ -51,7 +51,7 @@ Take five minutes to hear the best practices for organizing teams, channels and 
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
 
-One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collanborating in fragmented ways.  Bring them together into a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
+One key early planning activity to engage users with Microsoft Teams, is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways.  Bring them together into a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
 Sample Team Set up
 ------------------
