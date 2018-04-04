@@ -11,6 +11,7 @@ description: Practical guidance for planning, deploying, and managing Phone Syst
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
 ---
 
 Practical Guidance for Phone System with Calling Plans in Microsoft Teams

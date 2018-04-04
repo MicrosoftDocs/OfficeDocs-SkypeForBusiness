@@ -159,9 +159,8 @@ If you deploy Monitoring or Archiving, the front end functionality of these serv
   
 The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
+|:-----|:-----|:-----|:-----|
 |Disk space required per user per day  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 Microsoft used the hardware in the following table for the database server for Monitoring and Archiving during its performance testing. The testing collected the data of two Front End pools, each of which contained 80,000 users.
@@ -177,9 +176,8 @@ Microsoft used the hardware in the following table for the database server for M
    
 **Recommended Disk configurations**
 
-||||
-|:-----|:-----|:-----|
 |**Drive** <br/> |**RAID Configuration** <br/> |**Number of disks** <br/> |
+|:-----|:-----|:-----|
 |CDR, QoE, and Archiving database data files, on a single drive  <br/> |1+0  <br/> |16  <br/> |
 |CDR database log file  <br/> |1  <br/> |2  <br/> |
 |QoE database log file  <br/> |1  <br/> |2  <br/> |
