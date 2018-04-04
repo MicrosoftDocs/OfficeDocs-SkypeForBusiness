@@ -168,7 +168,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes.  <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes.  <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*<br/>
 For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx
   <br/> |5/30/17  <br/> |
 
@@ -226,7 +226,7 @@ For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160)
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|  
 |Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: cd %localappdata%\microsoft\teams\current 
-run Teams.exe --disable-gpu</li><li>https://\*.skypeforbusiness.com</li><li>For Mac: Start Terminal and enter the following: cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu</li></ul> <br/> | <br/> |
+run Teams.exe --disable-gpu</li><li>For Mac: Start Terminal and enter the following: cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu</li></ul> <br/> | <br/> |
 
 ## Chat
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
