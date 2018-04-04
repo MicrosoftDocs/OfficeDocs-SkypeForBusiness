@@ -91,14 +91,14 @@ The following table compares upgrade and coexistence modes.
 
 ## Upgrade journeys
 You can take multiple approaches to upgrading from Skype for Business, either online or on-premises, to Teams:
-- In a simple upgrade journey, you first deploy Teams in group collaboration&ndash;only mode as part of evaluation and early adoption, and then implement Teams-only mode with the goal of eventually retiring Skype for Business from the environment for all users in the organization.
-- A gradual upgrade journey delivers a specific upgrade mode to a specific group of users (also called a *cohort*), depending on their communications and collaboration requirements. Over time, the entire organization can converge into using a single client and eventually remove Skype for Business. However, if your organization has compelling business reasons to keep Skype for Business—such as dependency on a Unified Communications Managed API (UCMA)–based solution that integrates with line-of-business applications, or an ethical wall solution currently available for Skype for Business only—you can upgrade a majority of users to Teams-only mode while retaining Skype for Business users in one of the Skype for Business modes for a portion of your user population.
-- Whichever journey you choose, Microsoft is here to support you through the upgrade process. From technical requirements to user readiness resources, we’ll share guidance and best practices to help ensure a successful transition from Skype for Business to Teams. Upgrade guidance will be ready soon, so be sure to check back for more information.
+- In a simple upgrade journey, you first deploy Teams in Skype for Business with Teams collaboration only mode as part of evaluation and early adoption, and then implement Teams-only mode with the goal of eventually retiring Skype for Business from the environment for all users in the organization.
+- A gradual upgrade journey delivers a specific upgrade mode to a specific group of users (also called a *cohort*), depending on their communications and collaboration requirements. Over time, the entire organization can converge into using a single client and eventually remove Skype for Business. However, if your organization has compelling business reasons to keep Skype for Business — such as a dependency on a Unified Communications Managed API (UCMA)–based solution that integrates with line-of-business applications, or an ethical wall solution currently available for Skype for Business only — you can upgrade a majority of users to Teams-only mode while retaining Skype for Business users in one of the Skype for Business modes for a portion of your user population.
+- Whichever journey you choose, Microsoft is here to support you through the upgrade process. From technical requirements to user readiness resources, we’ll share guidance and best practices to help ensure a successful transition from Skype for Business to Teams. Detailed upgrade guidance will be ready soon, so be sure to check back for more information.
 
 
 > [!IMPORTANT]
 > For both types of upgrade journey, if your organization is currently a Skype for Business on-premises deployment only, you need to start planning to implement Skype for Business hybrid before upgrading your users to Teams-only mode. This will also help facilitate interoperability with Teams.
-> You can leverage [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to guide your Skype for Business hybrid implementation.
+> Use [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to guide your Skype for Business hybrid implementation.
 
 > [!NOTE]
 > Teams-only mode requires that the users who are part of cohorts be homed in Skype for Business Online, and a hybrid relationship between your Skype for Business on-premises deployment and your Skype for Business Online tenant is required to facilitate the upgrade and interoperability between Skype for Business and Teams. The move to Skype for Business Online must be completed for users who are part of the cohorts before they’re upgraded to Teams mode. Skype for Business Server 2019, and also a future cumulative update for Skype for Business Server 2015, plan to simplify the mechanics of upgrading on-premises users to Teams by managing the migration to Skype for Business Online and upgrading the users to Teams-only mode in one step.
@@ -108,7 +108,7 @@ The simple upgrade journey is illustrated in the following diagram.
 
 ![A screenshot of the simple upgrade journey. All users initially use Teams in group collaboration-only mode side-by-side with Skype for Business, then transition to Teams-only mode, with the end state of the entire organization upgraded to Teams.](media/upgrade_and_coexistence_simple_upgrade_journey.png)
 
-Teams is deployed to all users in the organization and configured in group collaboration&ndash;only mode. When your organization considers that Teams is ready to fulfil all communications and collaboration needs, all users are upgraded to Teams-only mode. Skype for Business can be retired from the environment.
+Teams is deployed to all users in the organization and configured in Skype for Business with Teams collaboration only mode. When your organization determines that Teams is ready to fulfill all of your communications and collaboration needs, all users are upgraded to Teams-only mode. At that point, Skype for Business can be retired from the environment.
 
 ### Gradual upgrade journey
 An example of a gradual upgrade journey is illustrated in the following diagram.
@@ -117,7 +117,7 @@ An example of a gradual upgrade journey is illustrated in the following diagram.
 
 Teams is deployed in the organization by using different upgrade modes for different groups of users, or cohorts. For example, a group of users can be enabled for islands mode, another enabled for Skype for Business with Teams collaboration and meetings, while a third group of users might initially be enabled for Skype for Business with Teams collaboration only mode.
 
-Over time, groups of users can be upgraded to Teams-only mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only. <br><br>
+Over time, groups of users can be upgraded to Teams-only mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or — if business requirements dictate that Skype for Business be retained for a specific group — the majority of users in the organization can use Teams only. <br><br>
 
 
 <table>
