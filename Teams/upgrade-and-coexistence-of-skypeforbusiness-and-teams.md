@@ -3,7 +3,7 @@ title: Upgrade journey and coexistence of Skype for Business and Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/03/2018
+ms.date: 04/04/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
