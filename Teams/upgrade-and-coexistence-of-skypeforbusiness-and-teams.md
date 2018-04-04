@@ -24,8 +24,8 @@ As with any deployment, we strongly encourage you to pilot your intended plan wi
  
 
 
-## Upgrade and coexistence concepts and terminology
-To help guide your decision-making process, familiarize yourself with the following concepts and terminology relevant to upgrading from Skype for Business to Teams.
+## Upgrade and coexistence modes defined
+To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams.
 
 ### Skype for Business with Teams collaboration only mode
 
