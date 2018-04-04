@@ -34,6 +34,5 @@ It's possible to trick a Markdown table into looking like it contains a bullet l
 <p>I will display &#9744;</p>
 <p>I will display &#x2610;</p>
 
-
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
