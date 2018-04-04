@@ -41,7 +41,7 @@ After attendees have joined meeting, they can also dial out and invite other cal
 For pricing info, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
 ## Where is it available?
-With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
+With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
 
 Toll-free phone numbers (service numbers) are available, but only in some countries/regions. To see what is available in your country or region, go [here](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
