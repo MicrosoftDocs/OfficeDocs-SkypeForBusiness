@@ -6,6 +6,9 @@
 
 
 ## Hybrid
+### [Hybrid solutions](../hybrid/hybrid-solutions.md)
+### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
+### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 ### [Plan Teams migration](../hybrid/plan-teams-migration.md)
 ### [Deploy Teams](../hybrid/deploy-teams-migration.md)
 ### [Plan cloud voicemail](../hybrid/plan-cloud-voicemail.md)
@@ -24,7 +27,7 @@
 #### [Network requirements](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Port and protocol requirements](../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [TLS Support in Skype for Business Server 2019](../tls-support.md)
-### [Plan your migration to Teams](plan-teams-migration.md)
+
 
 ## Deploy
 
