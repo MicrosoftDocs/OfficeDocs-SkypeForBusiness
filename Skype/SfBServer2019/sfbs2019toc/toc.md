@@ -10,7 +10,7 @@
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 ### [Plan Teams migration](../hybrid/plan-teams-migration.md)
-### [Deploy Teams](../hybrid/deploy-teams-migration.md)
+### [Configure Teams migration](../hybrid/deploy-teams-migration.md)
 ### [Plan cloud voicemail](../hybrid/plan-cloud-voicemail.md)
 ### [Deploy cloud voicemail](../hybrid/deploy-cloud-voicemail.md)
 ### [Plan cloud auto attendant](../hybrid/plan-cloud-auto-attendant.md)
