@@ -168,8 +168,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes.  <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*<br/>
-For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*<br/> For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 ## Tabs
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -194,7 +193,7 @@ For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160)
 ## Teams
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your helpdesk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
+|Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
 
 ## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
