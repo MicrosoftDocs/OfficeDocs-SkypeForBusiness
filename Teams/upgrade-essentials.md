@@ -193,7 +193,7 @@ Body of email:
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
 
-Microsoft has indicated that Teams is now ready for our organization. To take full advantage of this new solution, **we will be transitioning users from Skype for Business to Teams over the next 30 days. Our official transition date is <<insert X date>>, after which Skype for Business will be decommissioned for our organization.**
+Microsoft has indicated that Teams is now ready for our organization. To take full advantage of this new solution, we will be transitioning users from Skype for Business to Teams over the next 30 days. Our official transition date is <<insert X date>>, after which Skype for Business will be decommissioned for our organization.
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
@@ -218,7 +218,7 @@ When is this transition happening?
 
 Our official transition to Teams is set for <<X date>>, but your journey starts today. We understand that change takes time and want to ensure you have what you need to be successful while minimizing disruption to your daily routine. Over the next few weeks, you’ll receive a series of emails with step-by-step activities to help you prepare for the transition to Teams. You’ll also see a notification in your Skype for Business client, notifying you of this pending upgrade.
 
-**CALL TO ACTION: Get started with Teams today**
+CALL TO ACTION: Get started with Teams today
 
 -   View this [Introducing Microsoft Teams video](http://teamsdemo.office.com/)
 -   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
@@ -242,17 +242,17 @@ Body of email:
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
-**CALL TO ACTION: Make your next online meeting a Teams meeting**
+CALL TO ACTION: Make your next online meeting a Teams meeting
 
 -   Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
 -   Begin rescheduling recurring Skype for Business meetings in Teams.
 -   Make every new online meeting a Teams meeting.
 
-**What will happen to my Skype for Business meetings after we move to Teams?**
+What will happen to my Skype for Business meetings after we move to Teams?
 
 Your Skype for Business meetings will continue to work. However, if you want all meetings to be in Teams, you’ll have to cancel existing meetings and reschedule them in Teams.
 
-Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Teams client, simply go to the **Chat** tab, select the **New chat** button, and type **T-Bot** in the **To** line. Type **schedule a meeting**, and T-Bot will guide you through the steps.
+Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Teams client, simply go to the Chat tab, select New chat, and type T-Bot in the To line. Type "schedule a meeting" (without the quotation marks), and T-Bot will guide you through the steps.
 
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
@@ -279,6 +279,11 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 -   Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
 -   Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
 -   Makes communication more fun and personal with customizable memes and Giphys.
+
+CALL TO ACTION: If you need assistance getting started in Teams:
+
+-   View this Introducing Microsoft Teams video: http://teamsdemo.office.com/
+-   Visit the Office 365 Training Center, or simply ask T-Bot. 
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -326,9 +331,9 @@ CALL TO ACTION: Give teams and channels a try
 Body of email:
 
 ````
-Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with.
+Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
 
-**CALL TO ACTION: Give teams and channels a try**
+CALL TO ACTION: Give teams and channels a try
 
 -   Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
 -   [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
