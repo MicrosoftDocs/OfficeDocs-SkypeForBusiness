@@ -20,7 +20,7 @@ As an existing Skype for Business customer, your complete transition to Teams mi
 As with any deployment, we strongly encourage you to [pilot your intended plan](pilot-essentials.md) with a selected group of users before rolling out Teams to your broader organization. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan to keep users in the know and accelerate their acceptance of Teams. 
 
 > [!IMPORTANT]
-> The Skype for Business to Teams upgrade journey is rapidly evolving. You might not yet have all the functionality described in this article. Use this article to help you understand the whole Teams upgrade story, so you'll be ready to upgrade to Teams once Teams is ready for you. To stay on top of what's coming next in Teams, see the [Skype for Business to Teams roadmap](https://aka.ms/skype2teamsroadmap).
+> The Skype for Business to Teams upgrade journey is rapidly evolving. This article will help you understand the upcoming Teams upgrade, but it doesn't include end-to-end upgrade instructions. A successful upgrade from Skype for Business will include both technical and user readiness-focused activities. We're working on this guidance now, and we'll be publishing it soon.
  
 
 
