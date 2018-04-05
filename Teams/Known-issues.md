@@ -22,37 +22,94 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
 ## Teams
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> |<br/>  |10/16/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Public team list does not display all teams  <br/> |The list of public teams is based on the Microsoft Graph.  <br/> |If you don't see a team, try searching for it in the top right search box.  <br/> | 7/21/17  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Team names that contain special characters can create errors for meeting creation  <br/> |User will receive **error has occured** message in red when trying to create a meeting for a Team that has special characters in the name.   <br/> |Rename or recreate team with a name that does not contain a "/".  <br/> |7/13/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|A team name with an &amp; symbol in it breaks connector functionality  <br/> |When a team name is created with the &amp; symbol, connectors within the Team/Group cannot be established.  <br/> |Don't use special characters in team names.  <br/> |6/21/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Team member maximum of 2500  <br/> |Each Microsoft Team can have a maximum of 2500 members per team.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|  
+|Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu</li><li>For Mac: Start Terminal and enter the following: cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu</li></ul> <br/> |<br/> |
+
 ## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: user\Appdata.  <br/> | 9/7/17  <br/> |
 
-## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Symlink or mappying a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: user\Appdata. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of C:\users\<user>\appData is changed by moving the C:\users folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
 ## Apps
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Connector options is missing for some teams  <br/> |When you right-click a channel, the Connectors option is not present for any member of the team.  <br/> |The creator of the team must have an online mailbox; otherwise, no Connector option will be available. This is expected behavior.  <br/> |6/26/17  <br/> |
 
-
 ## Chat
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises.  <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises.  <br/> |11/2/16  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|@ Mentions for deleted message send notification with channel link  <br/> |There's a known notification limitation when you are at-mentioned in a message that is deleted; the notification in the feed will navigate to the channel but not to a specific message. <br/> | By design <br/> | 3/28/17  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises. <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises. <br/> |11/2/16  <br/> |
+
 ## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> |11/1/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Outlook add-in limitations  <br/> |To use the Outlook add-in, you must sign in to Teams using multi-factor authentication (MFA). If MFA fails halfway through the sign-in process, you'll still be able to sign into Teams, but you'll get an error message when you try to use the add-in.  <br/> The add-in is only available for Windows users for the time being.  <br/> The add-in won't work if you're using an authentication proxy.  <br/> | No workaround. <br/> |8/2/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | No workaround. <br/> |8/2/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Modern authentication failure - Forms auth not enabled  <br/> |When there is an initial failure with multi-factor authentication, use the web app for authentication.  <br/> For more information, see [Active Directory Federation Services prompt=login parameter support](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Check this setting: Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled.  <br/> |6/19/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Planner on single sign-on (SSO) build <br/> |SSO does not apply to Planner. You will have to sign in again the first time you use Planner on each client.  <br/> |No workaround. Further authentication enhancements are being worked on.  <br/> |2/28/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
 
 ## People
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -65,167 +122,78 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
-## Guest Access
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
+|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 ## Browser
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Green artifacts in Chrome video rendering  <br/> |Green artifacts appear while viewing video or sharing the screen in a call or meetup in Chrome.  <br/> |Disable the hardware acceleration setting in Chrome.  <br/> |8/3/17  <br/> |
 
-## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Outlook add-in limitations  <br/> |To use the Outlook add-in, you must sign in to Teams using multi-factor authentication (MFA). If MFA fails halfway through the sign-in process, you'll still be able to sign into Teams, but you'll get an error message when you try to use the add-in.  <br/> The add-in is only available for Windows users for the time being.  <br/> The add-in won't work if you're using an authentication proxy.  <br/> | No workaround. <br/> |8/2/17  <br/> |
-
-## Authentication
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Microsoft Teams will always log into the Domain-joined PC account.   <br/> |If a user has two different Teams accounts and has a machine with domain-joined enabled, Teams will use the domain-joined profile on the machine to automatically log the user into Teams. To switch to the other Teams account, the user must manually log out of the app and enter credentials to the second account to log in. If the user logs out of Teams and restarts the machine, upon restart, Teams will automatically log in using the domain-joined profile. <br/> | No workaround. <br/> |8/2/17  <br/> |
+|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](http://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
 
 ## Provisioning
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Incorrect SharePoint user created for Microsoft Teams SharePoint site  <br/> |The SharePoint creator for a Microsoft Teams Group appears to be a SharePoint Admin, not the correct user.  <br/> When auditing from the SharePoint administration console, the creator for the site collection page associated with the Office 365 Group created against the team in Microsoft Teams is the SharePoint admin.  <br/> |No workaround.  <br/> |7/21/17  <br/> |
 
-## Teams
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Public team list does not display all teams  <br/> |The list of public teams is based on the Microsoft Graph.  <br/> |If you don't see a team, try searching for it in the top right search box.  <br/> | 7/21/17  <br/>|
-
-## Chat
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|@ Mentions for deleted message send notification with channel link  <br/> |There's a known notification limitation when you are at-mentioned in a message that is deleted; the notification in the feed will navigate to the channel but not to a specific message. <br/> | By design <br/> | 3/28/17  <br/>|
-
-## Teams
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Team names that contain special characters can create errors for meeting creation  <br/> |User will receive **error has occured** message in red when trying to create a meeting for a Team that has special characters in the name.   <br/> |Rename or recreate team with a name that does not contain a "/".  <br/> |7/13/17  <br/> |
-
-## Tabs
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
-
-## Apps
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Connector options are missing for some teams  <br/> |When you right-click a channel, the Connectors option is not present for any member of the team.  <br/> |The creator of the team must have an online mailbox; otherwise, no Connector option will be available. This is expected behavior.  <br/> |6/26/17  <br/> |
-
-## Teams
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|A team name with an &amp; symbol in it breaks connector functionality  <br/> |When a team name is created with the &amp; symbol, connectors within the Team/Group cannot be established.  <br/> |Don't use special characters in team names.  <br/> |6/21/17  <br/> |
+|Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
 
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
 
-## Authentication
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Modern authentication failure - Forms auth not enabled  <br/> |When there is an initial failure with multi-factor authentication, use the web app for authentication.  <br/> For more information, see [Active Directory Federation Services prompt=login parameter support](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Check this setting: Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled.  <br/> |6/19/17  <br/> |
-
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users can't recreate a pre-existing channel name  <br/> |Once a channel name has been created, even if it's deleted, it cannot be recreated. Our system maintains this data for information protection scenarios.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
-
-## Mobile
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Unable to use fun picker or Giphys or stickers in mobile app  <br/> |You can't use gifs, emojis or stickers on the mobile clients.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
-
-## Client
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of C:\users\<user>\appData is changed by moving the C:\users folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business required for some meetings  <br/> |Your calendar of appointments is conveniently displayed within Microsoft Teams. To enter a meeting, click the **Join** button. <br/> While we are continuing development in this area, if this meeting was scheduled with Skype for Business and you click **Join**, Microsoft Teams will launch your Skype for Business client to complete your entrance into the meeting. Meetings scheduled within Microsoft Teams will initiate directly within the product.  <br/> In the future, we will streamline this experience.  <br/> |Click **Join**. Microsoft Teams will intelligently decide whether Skype for Business is required for a user to join the meeting based on the URL included in the meeting description.  <br/> |3/13/17  <br/> |
 
-## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Missing **Meetings** icon in the left nav bar <br/> |The **Meetings** icon on the app bar is currently only enabled for users whose mailbox is on Office 365 multi-tenant and a select few dedicated users whose mailbox location can be discovered using Exchange auto discovery. <br/> Microsoft Teams does not yet support mailboxes housed in Exchange on-premises and Exchange Dedicated. This is under investigation; however, there is no timing for delivering this capability.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
+|Missing **Meetings**be discovered using Exchange auto discovery. <br/> Microsoft Teams does not yet support mailboxes housed in Exchange on icon in the left nav bar <br/> |The **Meetings** icon on the app bar is currently only enabled for users whose mailbox is on Office 365 multi-tenant and a select few dedicated users whose mailbox location can -premises and Exchange Dedicated. This is under investigation; however, there is no timing for delivering this capability.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
-## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Attendee maximum for meetings  <br/> |Each Microsoft Teams meeting can have up to 80 attendees.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
 
-## Mobile
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
-
-## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*<br/> For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 
 ## Tabs
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |List of workspaces is not alphabetized  <br/> |Users switching workspaces when adding a PowerBI tab will encounter an unalphabetized list of workspaces to switch between.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
-## Tabs
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Scroll bar disappears when selecting reports  <br/> |Users adding PowerBI reports can't scroll through a list longer than one screen of reports without losing their scroll bar.  <br/> |Use Up and Down arrows to scroll through the list.  <br/> |3/13/17  <br/>|
 
-## Provisioning
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
-
-## Teams
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Team member maximum of 2500  <br/> |Each Microsoft Team can have a maximum of 2500 members per team.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
-
-## Teams
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
-
-## Authentication
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Planner on single sign-on (SSO) build <br/> |SSO does not apply to Planner. You will have to sign in again the first time you use Planner on each client.  <br/> |No workaround. Further authentication enhancements are being worked on.  <br/> |2/28/17  <br/> |
-
-## Authentication
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
-
-## Meetings
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
+|Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
 
 ## Environment
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Group mailboxes are not enabled for archival (extra storage) purposes  <br/> |In the Office 365 Security and Compliance Center, Global Admins cannot enable archival on Group mailboxes. They can do this on user mailboxes only.  <br/> |If the Group mailbox capacity is nearly full, please contact Microsoft Office Support to extend mailbox size.  <br/> |2/1/17  <br/> |
 
-## Browser
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](http://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
-
-## Teams
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|  
-|Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu</li><li>For Mac: Start Terminal and enter the following: cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu</li></ul> <br/> |<br/> |
-
-## Chat
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises. <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises. <br/> |11/2/16  <br/> |
