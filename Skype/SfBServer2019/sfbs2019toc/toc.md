@@ -30,6 +30,7 @@
 
 
 ## Deploy
+### [Install](../deploy/install.md)
 
 ## [Migration](../migration/migration.md)
 ### [Migration from Lync Server 2010 to Lync Server 2013](../migration/migration-from-lync-server-2010-to-lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013.md)
