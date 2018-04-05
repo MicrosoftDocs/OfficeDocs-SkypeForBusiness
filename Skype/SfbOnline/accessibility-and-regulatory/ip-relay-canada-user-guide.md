@@ -20,7 +20,7 @@ hideEdit: true
 description: "How to use an IP Relay account for Canada." 
 ---
 
-# IP Relay Canada User Guide 
+# IP Relay in Canada - user guide 
 
 Description of the IP Message Relay service from Microsoft:
 
@@ -72,11 +72,12 @@ The IP Message Relay Operator will contact 911, confirm your address and transla
 #### Customer Support: 
 Please contact Special Projects at [specialprojects@northern911.com](mailto:specialprojects@northern911.com) or (705) 222-1733.
  
-Northern911 manages the IP relay service on behalf of Microsoft. 
+> [!IMPORTANT]
+> Northern911 manages the IP relay service on behalf of Microsoft. 
 
 ## Related topics
 
-[IP Relay Canada email signup](ip-relay-canada-email-signup.md)
+[IP Relay in Canada - sig nup](ip-relay-canada-email-signup.md)
 
 
 
