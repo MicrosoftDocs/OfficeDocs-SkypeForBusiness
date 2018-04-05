@@ -76,7 +76,7 @@ Northern911 manages the IP relay service on behalf of Microsoft.
 
 ## Related topics
 
-[IP Relay Canada email signup](ip-relay-canada-email-singup.md)
+[IP Relay Canada email signup](ip-relay-canada-email-signup.md)
 
 
 
