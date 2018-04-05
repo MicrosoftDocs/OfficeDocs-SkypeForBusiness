@@ -111,7 +111,6 @@ An example of a gradual upgrade journey is illustrated in the following diagram.
 Teams is deployed in the organization by using different upgrade modes for different groups of users, or cohorts. For example, a group of users can be enabled for islands mode, another enabled for Skype for Business with Teams collaboration and meetings mode, while a third group of users might initially be enabled for Skype for Business with Teams collaboration&ndash;only mode.
 
 Over time, groups of users can be upgraded to Teams-only mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only. <br><br>
-
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul> Which upgrade journey is suitable to your organization's business requirements?<br><br></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Identifying your current deployment model, use case scenarios, and key considerations for your organization will inform the journey to Teams that's best suited to your organization.<br><br></ul></td></tr>
@@ -132,5 +131,5 @@ Based on the upgrade journeys described earlier in this article, the following p
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
-### See also
+## See also
 [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
