@@ -122,7 +122,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     > [!NOTE]
     > The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
   
-- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
+- The supported [Surface Pro 4 drivers](https://www.microsoft.com/en-us/download/details.aspx?id=49498) or [Surface Pro drivers](https://www.microsoft.com/en-us/download/details.aspx?id=55484).
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
