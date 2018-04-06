@@ -207,6 +207,6 @@ The packages can be found at \\scratch2\scratch\TeamsOnShub\ppkg. Pick the appro
 |Issue  |Comment  |
 |---------|---------|
 |When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known issue and will be corrected in a future release.         |
-|     |         |
-
-
+|When a user is in a chat session and clicks a shared file, the meeting agenda page will appear and the file will not open.     |This is a known issue and will be corrected in a future release.         |
+|When a user is in a chat session, the user cannot like or bookmark any chat message from the chat window.     |This is a known issue and will be corrected in a future release.         |
+|When a user is in a chat session and tries to share a GIF file, the GIF appears small and the video play button is separate from the video.     |This is a known issue and will be corrected in a future release.         |
