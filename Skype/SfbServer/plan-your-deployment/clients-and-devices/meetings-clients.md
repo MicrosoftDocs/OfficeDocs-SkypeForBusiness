@@ -45,7 +45,7 @@ To use the Skype for Business Web App, a user must have one of the following sup
 **Operating System and minimum browser support for Skype for Business Web App**
 
 
-|**Operating system**|**Edge**|**32- and 64-bit Internet Explorer 11 or later**|**32-bit and 64-bit Internet Explorer 10 or later**|**32-bit and 64-bit Internet Explorer 9 or later**|**32-bit and 64-bit Version of Firefox 12.X or later**|**32-bit and 64-bit Version of Chrome 18.X or later**|
+| Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Firefox 12.X or later | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
 | Windows 8.1&#x2776; <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
@@ -91,49 +91,49 @@ If the user is on a network not configured as described, many app features may o
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
   
 
-|**Feature/capability**|**Skype for Business 2016 client**|**Skype for Business on Mac client**|**Skype Meetings App**|**Skype for Business Web App**|**Lync Web App**|
+| Feature/capability | Skype for Business 2016 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Add computer audio  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |
-|Add video  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(requires plug-in)  <br/> |
-|Switch audio to a phone for authenticated participants  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Switch audio to a phone for guest participants  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||
-|View multiparty video (gallery view)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Video-based screen sharing  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png) (for meetings hosted in Skype for Business Online only) <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(View-only)  <br/> |||
-|Use in-meeting presenter controls  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Access detailed meeting roster  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Participate in multiparty IM  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Set IM messages as high importance  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Share the desktop (if enabled)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png)(requires plug-in)  <br/> |
-|Share a program (if enabled)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |
-|Take control of another user's shared desktop or program  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)(On Windows only; requires plug-in)  <br/> |
-|Let another user take control of your shared desktop or program  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Add anonymous participants (if enabled)  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Invite participants by name  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|Invite participants by phone number  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Invite participants by email  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Use dial-in audio meetings  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png)|
-|Initiate a Meet Now meeting  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||||
-|Record a meeting  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Add and download attachments  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Add and present Microsoft PowerPoint files  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Navigate Microsoft PowerPoint files  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Add and edit OneNote meeting notes  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||Edit only (not add)  <br/> |Edit only (not add)  <br/> |Edit only (not add)  <br/> |
-|Use a whiteboard  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Conduct polls  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Upload files to share with others  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
+|Add computer audio  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |
+|Add video  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |
+|Switch audio to a phone for authenticated participants  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Switch audio to a phone for guest participants  <br/> |&#x2714;|&#x2714;|&#x2714;|||
+|View multiparty video (gallery view)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Video-based screen sharing  <br/> |&#x2714;|&#x2714; (for meetings hosted in Skype for Business Online only) <br/> |&#x2714;(View-only)  <br/> |||
+|Use in-meeting presenter controls  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Access detailed meeting roster  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Participate in multiparty IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Set IM messages as high importance  <br/> |&#x2714;|||||
+|Share the desktop (if enabled)  <br/> |&#x2714;|&#x2714;|&#x2714; &#x2776; (requires plug-in)  <br/> |&#x2714; &#x2776; (requires plug-in)  <br/> |&#x2714; &#x2776; (requires plug-in)  <br/> |
+|Share a program (if enabled)  <br/> |&#x2714;||&#x2714;(On Windows only; requires plug-in)  <br/> |&#x2714;(On Windows only; requires plug-in)  <br/> |&#x2714;(On Windows only; requires plug-in)  <br/> |
+|Take control of another user's shared desktop or program  <br/> |&#x2714;||&#x2714;(On Windows only; requires plug-in)  <br/> |&#x2714;(On Windows only; requires plug-in)  <br/> |&#x2714;(On Windows only; requires plug-in)  <br/> |
+|Let another user take control of your shared desktop or program  <br/> |&#x2714;|||||
+|Add anonymous participants (if enabled)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Invite participants by name  <br/> |&#x2714;|&#x2714;||||
+|Invite participants by phone number  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Invite participants by email  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Use dial-in audio meetings  <br/> |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|Initiate a Meet Now meeting  <br/> |&#x2714;|&#x2714;||||
+|Record a meeting  <br/> |&#x2714;|||||
+|Add and download attachments  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Add and present Microsoft PowerPoint files  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Navigate Microsoft PowerPoint files  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Add and edit OneNote meeting notes  <br/> |&#x2714;||Edit only (not add)  <br/> |Edit only (not add)  <br/> |Edit only (not add)  <br/> |
+|Use a whiteboard  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Conduct polls  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Upload files to share with others  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Schedule a meeting or conference  <br/> |Outlook or Skype for Business Web Scheduler  <br/> |Outlook or Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |
-|Q&amp;A Manager  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Disable attendee video  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Disable meeting IM  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)||![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Mute audience  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|
-|Make everyone an attendee  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
-|Produce Skype Meeting Broadcast  <br/> |![checklist check-off](../../media/d551a87b-3ffe-4d16-b190-352a2042f65d.png)|||||
+|Q&amp;A Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Disable attendee video  <br/> |&#x2714;|||||
+|Disable meeting IM  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Mute audience  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Make everyone an attendee  <br/> |&#x2714;|||||
+|Produce Skype Meeting Broadcast  <br/> |&#x2714;|||||
    
-![read footnote 1](../../media/817e529d-a5e1-4969-a195-f3ba3c6a2e7f.png) Participants can't control desktops that are shared by Lync for Mac 2011 or Communicator for Mac 2011 users. Lync for Mac 2011 and Communicator for Mac 2011 users can control desktops shared by Windows users. This also won't work for Skype for Business Web App on Max OSX.
+ &#x2776;  Participants can't control desktops that are shared by Lync for Mac 2011 or Communicator for Mac 2011 users. Lync for Mac 2011 and Communicator for Mac 2011 users can control desktops shared by Windows users. This also won't work for Skype for Business Web App on Max OSX.
   
-![read footnote 2](../../media/e366e0ee-8e3f-4e83-8009-2e7eb5674a18.png) For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a 3rd party audio conferencing provider.
+ &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a 3rd party audio conferencing provider.
   
-![read footnote 3](../../media/f58a4c2c-e4b3-4954-9eee-1d5f7a89da53.png) The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
+ &#x2778;  The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
   
 ## Known issues and troubleshooting
 <a name="BKMK_Conferencing"> </a>
