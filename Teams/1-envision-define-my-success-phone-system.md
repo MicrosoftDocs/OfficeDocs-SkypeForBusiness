@@ -15,9 +15,7 @@ appliesto:
 
 # Define my success
 
-## Introduction
-
-This content provides an overview of the requirements for properly defining success for the deployment of Phone System with Calling Plans for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
+This article gives an overview of the requirements for defining success for the deployment of Phone System with Calling Plans for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
 
 <!--ENDOFSECTION-->
 

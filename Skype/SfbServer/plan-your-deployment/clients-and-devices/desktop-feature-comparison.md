@@ -46,7 +46,7 @@ This table covers the Enhanced Presence features that extend beyond a simple ind
 |Add a custom location  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||
 |Add a custom note  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
 |Use a photo from any public site for My Picture  <br/> (not available in Skype for Business Online)  <br/> |&#x2714;||&#x2714;|||||||
-   
+
  &#x2776;  Does not support publishing status based on calendar free/busy information.
   
 ## Contacts and Contact Groups support
