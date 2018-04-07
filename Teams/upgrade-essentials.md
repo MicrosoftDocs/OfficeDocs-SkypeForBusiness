@@ -96,7 +96,7 @@ Giving ample notice to your users will give them time to get familiar with Teams
 ## Step 5. Activate the user upgrade notification
 *(About one week before the upgrade)*
 
-Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that Skype for Business is becoming Teams. Note: For eligible tenants, Microsoft can also activate this on your behalf.
+Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that Skype for Business is becoming Teams.
 
 **Resources:**
 
@@ -123,7 +123,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *(Upgrade Day)*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams. Note: For eligible tenants, Microsoft can upgrade your tenant on your behalf.
+Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
 
 We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.
 
