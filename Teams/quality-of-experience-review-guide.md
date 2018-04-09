@@ -968,7 +968,7 @@ This chart report displays the total amount of successful call set up and call
 setup failures over time. Point to any one of the columns to display its
 individual values, as shown in the figure below.
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image16.png)
+![Chart with details for one column, showing 1,504,996 audio call streams and 8,742 call stream failures, for a total of 0.576% Audio Call Stream Setup Failure](media/quality-of-experience-review-guide-image16.png)
 
 _Figure 16 - Audio Reliability - Call Stream Setup Failures_
 
@@ -1005,7 +1005,7 @@ need remediation.
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image17.png)
+![Report that lists call setup failure reasons, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image17.png)
 
 _Figure 17 - Audio Setup Failures by Building or Subnet_
 
@@ -1051,7 +1051,7 @@ This chart report displays the total amount of audio streams, total audio
 streams dropped, and total stream dropped percentage. Point to any one of the
 columns to display its values, as shown in the following figure.
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image18.png)
+![Chart with details for one column, showing 1,504,996 audio call streams and 64,497 dropped audio call streams, for a total of 4.278% Audio Call Stream Dropped](media/quality-of-experience-review-guide-image18.png)
 
 _Figure 18 - Total call dropped failure percentage_
 
@@ -1088,7 +1088,7 @@ in the template, one for investigating conferencing and the other for two-party.
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 
-![SELF NEEDS ALT TEXT](media/quality-of-experience-review-guide-image19.png)
+![Report that lists number and percentage of dropped calls, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image19.png)
 
 _Figure 19 – Audio call dropped failures by building or subnet_
 
@@ -1160,7 +1160,7 @@ experiences, depending on the distribution of that 3 percent.
 To assess the overall percentage of poor calls for the organization use the
 Quality Overall chart report.
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image20.png)
+![Chart with details for one column, showing 668,505 good-quality calls, 40,184 unclassified calls, and 8,160 poor-quality calls for a total of 1.206% poor quality calls](media/quality-of-experience-review-guide-image20.png)
 
 _Figure 20 – Audio Quality - Overall_
 
@@ -1235,7 +1235,7 @@ your managed network.
 > [!TIP]
 > Common home networks are difficult to triage due to their widespread use. A separate report that uses the firewall IP has been added to the All Networks template to assist with remediating offices that use common networks.
 
-![SELF NEEDS ALT TEXT](media/quality-of-experience-review-guide-image22.png)
+![Report that lists connection types, transport types, and PCR greater than 3% along with various reasons for poor quality organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image22.png)
 
 _Figure 22 - Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
@@ -1311,7 +1311,7 @@ All further reports in this section will focus on narrowing down specific
 buildings and subnets where TCP is most commonly used. Further sub-reports break
 down TCP usage by both conferencing and two-party calls.
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image23.png)
+![Chart showing the number of TCP audio streams per month](media/quality-of-experience-review-guide-image23.png)
 
 _Figure 23 – Audio Streams with TCP Usage_
 
@@ -1337,7 +1337,7 @@ This table report identifies the volume of TCP versus UDP usage reporting on the
 latest month for conferences for audio, video, and video-based screen sharing
 (VBSS).
 
-![SELF NEED ALT TEXT](media/quality-of-experience-review-guide-image24.png)
+![Report showing the volume of TCP versus UDP conference streams, with PCR shown for comparison](media/quality-of-experience-review-guide-image24.png)
 
 _Figure 24 – TCP vs. UDP - Conferencing_
 
@@ -1376,7 +1376,7 @@ we’ll focus the discussion here on conferencing only.
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![SELF](media/quality-of-experience-review-guide-image25.png)
+![Report that lists TCP streams, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image25.png)
 
 _Figure 25 – TCP Streams by Building and Subnet - Conferencing_
 
