@@ -6,6 +6,7 @@
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Office 365 URLs and IP address ranges](Office-365-URLs-IP-address-ranges.md)
+## [Limits and specifications for Teams](limits-specifications-teams.md)
 
 
 
