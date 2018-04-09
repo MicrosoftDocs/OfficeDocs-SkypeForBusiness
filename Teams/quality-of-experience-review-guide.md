@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/06/2018
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -16,7 +16,7 @@ appliesto:
 # Quality of Experience Review Guide
 
 This guide is about the Drive Value phase for Microsoft Teams and Skype for
-Business Online.
+Business Online. You can [download a Word version](downloads/quality-of-experience-review-guide.docx) of this guide.
 
 # Introduction
 
