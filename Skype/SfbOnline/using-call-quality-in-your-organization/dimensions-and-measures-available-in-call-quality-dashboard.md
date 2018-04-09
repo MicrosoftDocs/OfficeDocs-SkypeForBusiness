@@ -332,7 +332,7 @@ The following table lists the dimensions currently available in CQD:
 
 Dimensions that are provided as range or group of values are shown using the following format:
   
- _<sort order string> [<lower bound inclusive> - <upper bound exclusive)_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>)_
   
 For example, the Duration (Minutes) dimension represents the call duration in seconds with the value reported as a range of values.
   
@@ -354,7 +354,7 @@ The <sort order string> is used to control the sort order when presenting the da
 
 Dimensions that are provided as an enumeration pair are shown using the following format:
   
- _<enumeration value from one end point> : < enumeration value from the other endpoint>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
   
 The ordering of the enumeration values is consistent but doesn't reflect ordering of the first or second endpoints.
   
