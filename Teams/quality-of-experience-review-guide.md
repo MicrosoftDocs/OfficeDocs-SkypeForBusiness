@@ -16,7 +16,7 @@ appliesto:
 # Quality of Experience Review Guide
 
 This guide is about the Drive Value phase for Microsoft Teams and Skype for
-Business Online. You can [download a Word version](downloads/quality-of-experience-review-guide.docx) of this guide.
+Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
 
 ## Introduction
 
