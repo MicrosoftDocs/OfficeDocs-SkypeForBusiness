@@ -49,7 +49,7 @@ For example, each row represents a pair of User Agents involved in a stream:
 |OC Phone (Skype for Business IP Phone)  <br/> |OC (Skype for Business client)  <br/> |OC (Skype for Business client)  <br/> |OC Phone (Skype for Business IP Phone)  <br/> |FALSE  <br/> |
    
 > [!NOTE]
-> That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension which can be used to help identify which endpoint was the caller or callee. 
+> That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
   
 ## Dimensions
 
