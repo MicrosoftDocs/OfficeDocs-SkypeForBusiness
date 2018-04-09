@@ -18,7 +18,7 @@ appliesto:
 This guide is about the Drive Value phase for Microsoft Teams and Skype for
 Business Online. You can [download a Word version](downloads/quality-of-experience-review-guide.docx) of this guide.
 
-# Introduction
+## Introduction
 
 To have the greatest impact on improving the user experience, organizations need
 to operationalize the key areas that are shown in the following figure.
@@ -69,7 +69,7 @@ network, and location information while differentiating internal from external
 subnets. For more information, see [Building Mapping](#building-mapping) later
 in this document.
 
-## What is the CQD?
+### What is the CQD?
 
 You use the Call Quality Dashboard (CQD) to gain insight into the quality of
 calls made by using Teams and Skype for Business services. CQD is designed to
@@ -82,7 +82,7 @@ insight into overall call quality, call reliability, and user experience.
 > [!NOTE]
 > CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
 
-## Intended audience
+### Intended audience
 
 This document is intended to be used by partner and customer stakeholders with
 roles such as Collaboration Lead/Architect, Consultant, Change
@@ -93,7 +93,7 @@ This document is also intended to be used by the designated quality champion(s).
 For more information, see [the Quality Champion
 role](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management#the-quality-champion-role).
 
-# Prerequisites
+## Prerequisites
 
 Before using this guide, make sure you have the proper tenant
 [roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
@@ -121,9 +121,9 @@ to allow access to reporting features only.
 
 Understanding the key concepts of CQD helps maximize the impact you can make in
 improving your users’ experience with Teams or Skype for Business Online.
-Additional resources can be found in the [Appendix](#appendix).
+Additional resources can be found in the [Appendix](#other-resources).
 
-# What is quality?
+## What is quality?
 
 When discussing quality in Teams and Skype for Business, it’s important to
 define the term to achieve a common understanding. Quality, as defined here, is
@@ -133,7 +133,7 @@ a combination of service metrics and user experience.
 
 _Figure 2 - What is quality?_
 
-## Define your target metrics
+### Define your target metrics
 
 This section discusses the core service metrics that we use to assess how
 services experience health. By continually assessing and driving efforts to keep
@@ -159,7 +159,7 @@ It’s important to discuss and define your organization’s targets to meet you
 business objectives. Ideally, you should identify these targets prior to
 deployment.
 
-### Audio PCR % 
+#### Audio PCR % 
 
 Audio Poor Call Ratio (PCR) represents the organization’s overall percentage of
 calls that have poor audio quality. This metric is meant to highlight areas
@@ -170,7 +170,7 @@ important too, but investigations differs on an organizational and user basis.
 Consider providing best practices for external users, and look at external calls
 independently from the overall organization.
 
-### Call Setup Failures % 
+#### Call Setup Failures % 
 
 This represents any media session that couldn’t be established. Given the
 severity of the impact on the user experience measured here, the goal is to
@@ -180,17 +180,17 @@ deployment, but it’s still important to watch on a regular basis. As your
 operational rigor matures, you can expand this metric to include video and
 desktop-sharing workloads.
 
-### Call Drop Failures % 
+#### Call Drop Failures % 
 
 This applies to an audio workload where the session terminated unexpectedly. As
 your operational rigor matures, you can expand this metric to include video and
 desktop-sharing workloads.
 
-## Service metrics
+### Service metrics
 
 Service metric targets consist of specific client-based metrics.
 
-### PCR
+#### PCR
 
 The basis for determining whether a call is classified as poor is by using the
 poor call ratio (PCR). PCR is made up of the five network metrics described in
@@ -209,13 +209,13 @@ _Table 2 - Poor Call Service Metrics_
 | NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/en-us/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
 | Average ratio of concealed samples \> 7% or 0.07 | One or more of these network metrics, although individually weren’t poor, caused the client to self-heal the media. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.                                                                                                                | High values indicate that significant levels of loss concealment were applied, and resulted in distorted or lost audio.                                                  |
 
-### Client and device readiness
+#### Client and device readiness
 
 You need a solid client and device strategy to ensure that your users have a
 consistent and positive user experience. A few key principles drive each
 readiness strategy.
 
-#### Client readiness
+##### Client readiness
 
 A strong client readiness strategy ensures that your users are running the most
 recent version of the client while enjoying the best experience possible.
@@ -233,7 +233,7 @@ further enhance your client readiness strategy.
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
 
 
-#### Device readiness
+##### Device readiness
 
 No one single strategy can affect the user experience more than your device
 readiness strategy. Most organizations are happy to remove unnecessary devices
@@ -258,7 +258,7 @@ devices](https://technet.microsoft.com/en-us/office/dn788944.aspx). Use the
 with managing your devices. You can also use the Rate My Call sample reports to
 further enhance your device readiness strategy.
 
-## User experience
+### User experience
 
 Analyzing the user experience is more art than science, because the metrics
 gathered here don’t always mean that there’s a problem with the network or
@@ -280,7 +280,7 @@ your users’ perspective:
 
 -   Can I set up and maintain a call?
 
-### RMC
+#### RMC
 
 RMC is built into Teams and Skype for Business and is automatically configured
 to be displayed after one in every 10 calls, or 10 percent of all calls. This
@@ -300,7 +300,7 @@ more information about RMC in Skype for Business Online and guidance for
 educating users to give useful RMC responses, see the following [blog
 post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
-## Categories of quality
+### Categories of quality
 
 The success of operationalizing a high-quality and reliable deployment depends
 on your building operational rigor. Specifically, pay special attention to the
@@ -335,7 +335,7 @@ deployment configurations. After you’ve achieved the state you want by meeting
 the targets you’ve defined, performing these tasks will help you maintain that
 state.
 
-### Service management tasks
+#### Service management tasks
 
 In a cloud-first world, you must perform certain service management tasks to
 maintain high-quality user experiences. These tasks range from ensuring there is
@@ -344,7 +344,7 @@ validating that quality of service (QoS) is in place on all managed network
 areas, and—lastly—staying on top of [Office 365 IP ranges on
 firewalls](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US).
 
-### Network tasks
+#### Network tasks
 
 There are two categories of network tasks: reliability and quality. Reliability
 focuses on measuring the user’s ability to make calls successfully and stay
@@ -354,7 +354,7 @@ for Business Online by the user’s client during and after the call has ended.
 Given the critical impact that reliability has on the user experience, begin
 assessing and investigating those metrics before diving into quality.
 
-### Endpoints tasks
+#### Endpoints tasks
 
 The main task in this category is validating which client versions are running
 Skype for Business on desktop builds from the last six months to ensure users
@@ -370,7 +370,7 @@ experience.
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
 
 
-# Using the reports
+## Using the reports
 
 This section describes the fundamentals of working with CQD. Guidance is given
 for the following topics:
@@ -393,9 +393,9 @@ for the following topics:
 
 -   Filtering reports in CQD
 
-For more in-depth training and resources, see the [Appendix](#appendix).
+For more in-depth training and resources, see the [Appendix](#other-resources).
 
-## Tenant ID
+### Tenant ID
 
 Some CQD reports require that you include a filter for your tenant ID. Due to
 the way CQD aggregates data, federated participant telemetry is included.
@@ -410,7 +410,7 @@ Permission requirements
 
 -   Skype for Business Administrator Role
 
-### Azure AD Portal
+#### Azure AD Portal
 
 1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
 
@@ -419,7 +419,7 @@ Permission requirements
 3.  Under **Manage**, select **Properties**. The tenant ID is shown in the
     **Directory ID** box.
 
-### Azure PowerShell
+#### Azure PowerShell
 
 1.  [Install the Microsoft Azure PowerShell Service Management
     module](https://docs.microsoft.com/en-us/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
@@ -430,7 +430,7 @@ Permission requirements
 
 3.  The tenant ID is listed in the output.
 
-### Skype for Business Online Admin Center
+#### Skype for Business Online Admin Center
 
 1.  Go to <https://portal.office.com>
 
@@ -440,7 +440,7 @@ Permission requirements
 
 4.  The tenant ID is listed as **Organization ID** on the Welcome page.
 
-### Skype for Business Online using PowerShell
+#### Skype for Business Online using PowerShell
 
 1.  [Connect to Skype for Business Online via
     PowerShell](https://technet.microsoft.com/en-us/library/dn362839(v=ocs.15).aspx).
@@ -450,13 +450,13 @@ Permission requirements
 
 3.  The tenant ID is displayed as a GUID.
 
-## Teams vs. Skype for Business
+### Teams vs. Skype for Business
 
 CQD can report on both Teams and Skype for Business telemetry. However, there
 might be times when you want to develop a report to look at Teams telemetry
 separate from Skype for Business.
 
-### Summary reports
+#### Summary reports
 
 To modify the summary reports page to look at only Teams or Skype for Business,
 select the **Product Filter** drop-down menu from the top of the screen, and
@@ -466,7 +466,7 @@ then select the product you want.
 
 _Figure 4 - Select a Product Filter_
 
-### Detailed reports
+#### Detailed reports
 
 To filter a detailed report, add the filter **Is Teams** to the report and set
 it to True or False. For more information, see [Editing
@@ -476,7 +476,7 @@ Reports](#editing-reports) later in this section.
 
 _Figure 5 - Adding a Microsoft Teams filter to a report_
 
-## Dimensions, measures, and filters
+### Dimensions, measures, and filters
 
 A well-formed CQD query contains all three of the following parameters:
 
@@ -497,9 +497,9 @@ For more information, see [Dimensions and measures available in
 CQD](https://aka.ms/cqd-dm).
 
 For dimensions, measures, and filters for the reports used in the CQD templates,
-see the [Appendix](#_Dimensions,_Measures_and).
+see the [Appendix](#CQD-training).
 
-## First vs. second 
+### First vs. second 
 
 Many of the dimensions and measures in CQD are classified as first or second.
 CQD doesn’t use caller/callee fields—these have been renamed first and Second
@@ -521,7 +521,7 @@ For more information about determining the first or second endpoint when they’
 both the same, see [Dimensions and measures available in
 CQD](https://aka.ms/cqd-dm).
 
-## Stream vs. call
+### Stream vs. call
 
 You need to understand the difference between a call and a stream to properly
 choose which dimensions or measures you’ll be looking at in CQD.
@@ -541,7 +541,7 @@ For additional guidance on whether the dimension or measure is referring to a
 call or a stream, see [Dimensions and measures available in
 CQD](https://aka.ms/cqd-dm)
 
-## Good, poor, and unclassified calls
+### Good, poor, and unclassified calls
 
 A call is categorized either as good, poor, or unclassified. Let’s take a moment
 to talk about each one in more detail.
@@ -555,7 +555,7 @@ guide](#pcr).
 metrics. These are often short calls—usually less than 60 seconds—where averages
 couldn’t be computed and a QoE report wasn’t generated.
 
-## Access CQD Online
+### Access CQD Online
 
 You can access CQD one of two ways.
 
@@ -568,7 +568,7 @@ You can access CQD one of two ways.
 
 _Figure 6 – Accessing CQD through the Skype for Business admin center_
 
-## Getting started
+### Getting started
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the
 reports described in this guide are custom detailed reports. To get started
@@ -600,7 +600,7 @@ Point to the bar charts and trend lines to display detailed values. The report
 that has focus will show the action menu: **Edit**, **Clone**, **Delete**,
 **Download**, and **Export Report Tree**.
 
-## Editing reports
+### Editing reports
 
 When you select **Edit** on the action menu of a report, you’ll open Query
 Editor. Each report is backed by a query. A report is a visualization of the
@@ -633,13 +633,13 @@ _Figure 9 - Report Editor_
 4.  Use the **Edit** box at the bottom of the screen to create or edit a
     detailed description of the report.
 
-## Filtering reports
+### Filtering reports
 
 The templates provided includes several built-in queries and report filters. The
 following sections describe the most common filters used throughout the
 templates.
 
-### CQD filter
+#### CQD filter
 
 You can use the CQD filter, or URL filter, to temporarily filter every report
 query. The most common CQD filter you’ll use is to filter reports to exclude
@@ -660,7 +660,7 @@ Id]\|[TENANTID]&tenant=TENANTID
 > [!NOTE]
 > The URL example above is for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
 
-### Query filters
+#### Query filters
 
 Query filters are implemented by using the Report Editor. These filters are used
 to reduce the number of records returned by CQD, thus minimizing the report’s
@@ -675,7 +675,7 @@ _Table 3 - Query filters_
 | Popular home subnets | Without a valid building file to separate managed from unmanaged networks, home networks will get included in the reports. These home subnets are outside the scope of IT’s control and can be quickly excluded from a report. Popular home subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | Inside vs. outside   | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.                                                                                                                                                                                | Second Inside Corp = Inside                               |
 
-### Report filters
+#### Report filters
 
 Report filters are implemented by adding a filter to the rendered report either
 in the Report Editor or directly to the report. The following reports filters
@@ -690,7 +690,7 @@ _Table 4 - Report Filter_
 | Numeric    | Filters for any numeric characters.    | [0-9]                             |
 | Percentage | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
 
-# Import the CQD templates
+## Import the CQD templates
 
 This guide includes two curated CQD templates. These templates accelerate your
 usage of CQD and provide you an opportunity to quickly leverage CQD’s
@@ -726,7 +726,7 @@ information into CQD, as described in the next section.
 > The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
 
 
-# Building mapping
+## Building mapping
 
 In a Teams or Skype for Business Online deployment, all clients are external.
 That has the implication that by default, all clients are reported as outside in
@@ -740,7 +740,7 @@ By uploading network and building information to CQD Online, you enable CQD to
 determine whether a client was connected to an internal corporate/managed
 network or to an external/unmanaged network.
 
-## Building data file structure
+### Building data file structure
 
 The format of the data file you upload must meet the following requirements to
 pass the validation check before uploading.
@@ -789,7 +789,7 @@ _Table 5 - Building file structure_
 \*While not required by CQD, the templates are configured to display Building
 and Network name.
 
-### Supernetting
+#### Supernetting
 
 You can use supernetting, commonly called Classless Inter-Domain Routing (CIDR,)
 in place of defining each subnet. A *supernet* is a combination of several
@@ -839,7 +839,7 @@ Here are a few things to consider before you implement supernetting:
 > The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports. 
 
 
-### VPN
+#### VPN
 
 The quality of experience (QoE) data that clients send to Office 365—which is
 where CQD data is sourced from—includes a VPN flag. However, this flag relies on
@@ -870,7 +870,7 @@ _Figure 11 - VPN using building name_
 > [!NOTE]
 > VPN connections have been known to misidentify the network connection as wired when the underlying internet connection is wireless. When looking at quality over VPN connections, you can’t assume that the connection type has been accurately identified.
 
-## Uploading building information
+### Uploading building information
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page,
 accessed by selecting the **Tenant Data Upload** link tag on the upper-right
@@ -914,7 +914,7 @@ _Figure 14 - Building data upload error_
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you’ve already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
 
-## Missing subnets
+### Missing subnets
 
 After uploading building information for managed networks, every managed network
 should have a building association. However, this isn’t always the case;
@@ -937,7 +937,7 @@ missing, update the original building data file and re-upload it to CQD.
 
 _Figure 15 - Missing Building Report_
 
-# Reliability investigations
+## Reliability investigations
 
 The first step to improving quality is to assess the state of audio reliability
 across the organization. Because audio reliability is vital to a positive user
@@ -953,7 +953,7 @@ Throughout this section, we’ll cover methods to investigate both areas.
 > Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information.
 
 
-## Call setup
+### Call setup
 
 Prioritize remediating call setup failures in this area first, because these
 failures have a significant negative impact on the user experience.
@@ -962,7 +962,7 @@ Begin your investigation by assessing the percentage of overall call setup
 failures for the organization, and then prioritize areas of investigation based
 on the highest percentage by building or network.
 
-### Call setup failures overall
+#### Call setup failures overall
 
 This chart report displays the total amount of successful call set up and call
 setup failures over time. Point to any one of the columns to display its
@@ -972,7 +972,7 @@ individual values, as shown in the figure below.
 
 _Figure 16 - Audio Reliability - Call Stream Setup Failures_
 
-#### Analysis
+##### Analysis
 
 This report displays your organization’s audio call setup usage and failures
 over time. By using this report, you can answer the following questions and
@@ -996,7 +996,7 @@ that might need remediation. Although the overall failure rate might be below
 the target metric, often the failure rates for one or more buildings or networks
 are above the metric and need remediation.
 
-### Call setup failures by building and subnet 
+#### Call setup failures by building and subnet 
 
 This table report is used to discover and isolate any buildings or networks that
 need remediation.
@@ -1009,7 +1009,7 @@ need remediation.
 
 _Figure 17 - Audio Setup Failures by Building or Subnet_
 
-#### Remediation 
+##### Remediation 
 
 Focus your remediation efforts on buildings or subnets that have the largest
 volume of failures first, because this will maximize impact to the user
@@ -1037,7 +1037,7 @@ _Table 7 - Next Steps for Call Setup Failure Remediation_
 | Verify                | Leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
 
 
-## Call drop
+### Call drop
 
 Unlike call setup failures, there is no reason code to indicate why call dropped
 failures occurred, which makes it difficult to isolate a specific root cause. To
@@ -1045,7 +1045,7 @@ better triage dropped calls, use an inferred approach. By remediating any areas
 of interest for audio, patching clients, and driving usage of certified devices
 for Teams and Skype for Business, you’d expect call dropped failures to decline.
 
-### Call drop failures overall
+#### Call drop failures overall
 
 This chart report displays the total amount of audio streams, total audio
 streams dropped, and total stream dropped percentage. Point to any one of the
@@ -1055,7 +1055,7 @@ columns to display its values, as shown in the following figure.
 
 _Figure 18 - Total call dropped failure percentage_
 
-#### Analysis
+##### Analysis
 
 This chart report displays your organization’s usage and failures over time
 related to call drops. By using this report, you can answer the following
@@ -1078,7 +1078,7 @@ remediation. Although the overall drop rate might be below the target metric,
 often the drop rate for one or more buildings or networks is above the metric
 and needs remediation.
 
-### Call drop failures by building or subnet
+#### Call drop failures by building or subnet
 
 Failures in this table report indicate that the call was dropped unexpectedly
 and resulted in a negative user experience. There are two table reports included
@@ -1092,7 +1092,7 @@ in the template, one for investigating conferencing and the other for two-party.
 
 _Figure 19 – Audio call dropped failures by building or subnet_
 
-#### Remediation
+##### Remediation
 
 Using the preceding table report, you can now isolate “hot spots” in the managed
 network where call drops occur above the defined target metric. Focus your
@@ -1133,7 +1133,7 @@ _Table 9 - Next steps for call drop remediation_
 | Devices                                  | The majority of device failures are due to using devices that aren’t certified for Teams or Skype for Business. Failures usually take the form of the integrated speakers or mics that are being used, or earbud/mic combinations that are plugged into the 3.5 mm audio jack on a device. Microsoft’s current recommendation is that any users who are experiencing call drops—or poor calls in general—and are using integrated devices or drivers should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). |
 | User Behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor) for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.     |
 
-# Quality investigations
+## Quality investigations
 
 The next step to assess the state of audio quality across the deployment is to
 investigate Audio Poor Call Ratio (PCR), TCP, and proxy usage. It’s important to
@@ -1145,7 +1145,7 @@ with the appropriate teams for remediation activities.
 > Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
 
 
-## Investigate call quality
+### Investigate call quality
 
 The overall PCR percentage is primarily used to indicate whether the
 organization is meeting defined audio metric targets. It’s important to note
@@ -1155,7 +1155,7 @@ example, if the organizational audio PCR percentage is 3 percent in December,
 which meets the sample target, specific buildings might still be having poor
 experiences, depending on the distribution of that 3 percent.
 
-### Overall organizational poor call percentage
+#### Overall organizational poor call percentage
 
 To assess the overall percentage of poor calls for the organization use the
 Quality Overall chart report.
@@ -1164,7 +1164,7 @@ Quality Overall chart report.
 
 _Figure 20 – Audio Quality - Overall_
 
-#### Investigation
+##### Investigation
 
 This chart report displays your organization’s usage and PCR over time. By using
 this report, you can answer the following questions:
@@ -1183,7 +1183,7 @@ further investigation. Although the overall PCR might be below the target
 metric, often the PCR for one or more buildings or networks is above the metric
 and needs further investigation.
 
-### Audio quality overall
+#### Audio quality overall
 
 There are two report trees included in the templates for audio quality, one for
 investigating conferencing and the other for two-party calls. For the purposes
@@ -1199,7 +1199,7 @@ for conferencing and two-party by wired and Wi-Fi.
 
 _Figure 21 – Audio Quality - Conferencing_
 
-#### Investigation
+##### Investigation
 
 This chart report displays your organization’s conferencing or two-party usage
 and PCR over time. By using this report, you can answer the following questions:
@@ -1218,7 +1218,7 @@ investigation. Although the overall PCR might be below the target metric, often
 the PCR for one or more buildings or networks is above the metric and needs
 remediation.
 
-### Poor audio stream by building and subnet
+#### Poor audio stream by building and subnet
 
 This table report gives you additional insight into what contributed to the
 calls’ being classified as poor and helps to isolate hot spots in the managed
@@ -1239,7 +1239,7 @@ your managed network.
 
 _Figure 22 - Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
-#### Remediation
+##### Remediation
 
 Focus your remediation efforts on buildings or networks that have the largest
 volume of audio streams, because this will maximize impact and help to improve
@@ -1282,7 +1282,7 @@ _Table 9 - Common contributors to high PCR_
 | Devices                                  | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business and produce superior quality. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy.   |
 
 
-## Investigate TCP audio sessions
+### Investigate TCP audio sessions
 
 TCP is considered a failback transport and not the primary transport you want
 for real-time media. The reason it’s a failback transport is due to the stateful
@@ -1302,7 +1302,7 @@ information about firewall rules for Teams and Skype for Business Online, see
 > Having a valid [building file](#building-mapping) uploaded is recommended to be able to quickly distinguish inside from outside audio streams when looking at TCP usage. 
 
 
-### Audio streams with TCP usage overall
+#### Audio streams with TCP usage overall
 
 This report indicates the overall TCP usage for audio over the last seven
 months, as shown below.
@@ -1315,7 +1315,7 @@ down TCP usage by both conferencing and two-party calls.
 
 _Figure 23 – Audio Streams with TCP Usage_
 
-#### Investigation
+##### Investigation
 
 This chart report displays your organization’s overall TCP usage. By using this
 report, you can answer the following questions:
@@ -1331,7 +1331,7 @@ usage, take the time to investigate by using the sub-reports to look for any
 buildings or networks that might need remediation. Ideally, you want as few
 TCP-based audio sessions as possible on the managed network.
 
-### TCP vs. UDP
+#### TCP vs. UDP
 
 This table report identifies the volume of TCP versus UDP usage reporting on the
 latest month for conferences for audio, video, and video-based screen sharing
@@ -1341,7 +1341,7 @@ latest month for conferences for audio, video, and video-based screen sharing
 
 _Figure 24 – TCP vs. UDP - Conferencing_
 
-#### Analysis
+##### Analysis
 
 Although you want TCP usage to be as low as possible, you might see a bit of TCP
 usage in an otherwise healthy deployment. To compare UDP to TCP usage, divide
@@ -1361,7 +1361,7 @@ So now that you’ve determined that there is a high usage of TCP-based audio in
 your organization, what do you do next? Go to the **TCP Streams by Building and
 Subnet** reports to break down the TCP usage by building and subnets.
 
-### TCP streams by building and subnet
+#### TCP streams by building and subnet
 
 In the provided CQD templates, go to the TCP Streams by Building and Subnet
 table reports by using either the managed or All Networks template. There are
@@ -1380,7 +1380,7 @@ we’ll focus the discussion here on conferencing only.
 
 _Figure 25 – TCP Streams by Building and Subnet - Conferencing_
 
-#### Remediation
+##### Remediation
 
 This report identifies specific buildings and subnets that are contributing to
 the volume of TCP usage. An additional report is also included to identify the
@@ -1400,7 +1400,7 @@ _Table 10 - Remediation* guidance for TCP streams by building and subnet_
 | Configure firewall | Verify [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. Though there are many IP addresses and ports that need to be opened, for media-related TCP issues, focus your initial efforts on the following: Verify the following [media subnets](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) are in your firewall rules. Refer to Row 4 in the table shown for specific media subnet information. [UDP ports 3478–3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): These ports are the preferred media ports and must be opened, otherwise the client will fail back to TCP port 443. |
 | Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to check for connectivity issues to specific Office 365 IP addresses and ports from the affected building or subnet.    |
 
-## Investigate HTTP proxy usage
+### Investigate HTTP proxy usage
 
 HTTP proxies aren’t the preferred path for establishing media sessions, for a
 multitude of reasons. Many contain deep packet inspection features that can
@@ -1416,7 +1416,7 @@ for media-based traffic.
 > Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
 
 
-### Audio streams with HTTP proxy usage overall
+#### Audio streams with HTTP proxy usage overall
 
 This report outlines the proxy usage over time on a monthly scale. The HTTP
 proxy stream report in this section of the template is much like the TCP
@@ -1427,7 +1427,7 @@ is connected over HTTP.
 
 _Figure 26 – Audio Streams with HTTP Proxy Usage_
 
-#### Analysis
+##### Analysis
 
 If you see a high volume of HTTP usage, consult your networking team to ensure
 the proper exclusions are in place so that clients are directly routing to Teams
@@ -1445,7 +1445,7 @@ proxy as outlined in the article [Skype for Business should use proxy server to
 sign in instead of trying direct
 connection](https://support.microsoft.com/en-us/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
 
-### HTTP proxy streams by building and subnet
+#### HTTP proxy streams by building and subnet
 
 This report identifies specific buildings and subnets that are contributing to
 HTTP usage.
@@ -1460,7 +1460,7 @@ HTTP usage.
 
 _Figure 27 – HTTP Proxy Usage by Building and Subnet_
 
-#### Remediation
+##### Remediation
 
 Focus your remediation efforts on any buildings or subnets that have HTTP proxy
 usage. The most common cause of HTTP usage is missing exception rules in
@@ -1470,7 +1470,7 @@ needs to be updated.
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are excluded
 from your proxy.
 
-# Endpoint investigations
+## Endpoint investigations
 
 This section is focused on the tasks for reporting on Skype for
 Business–specific client versions and the use of certified devices.
@@ -1479,7 +1479,7 @@ Business–specific client versions and the use of certified devices.
 > Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
 
 
-## Determine client versions
+### Determine client versions
 
 The report in this space focuses on identifying Skype for Business client
 versions in use and their relative volume in the environment.
@@ -1509,7 +1509,7 @@ below:
 
 _Figure 28 - Client version report_
 
-### Remediation
+#### Remediation
 
 A critical part of driving high-quality user experiences is ensuring that
 managed clients are running up-to-date versions of Skype for Business. This
@@ -1540,7 +1540,7 @@ average. If you notice clients are falling behind, work with the team
 responsible for managing Office updates and ensure that they’re approving and
 deploying client patches regularly.
 
-## Devices investigations
+### Devices investigations
 
 To make use of the following device report, it’s best to understand the concept
 of the mean opinion score (MOS). MOS is the gold-standard measurement to gauge
@@ -1570,7 +1570,7 @@ itself (which is more likely, for example, with built-in laptop speakers and
 microphones). For more information, see [Phones and Devices for Skype for
 Business](https://technet.microsoft.com/en-us/office/dn947482).
 
-### Organizational usage of capture devices (microphones) by volume
+#### Organizational usage of capture devices (microphones) by volume
 
 This report is used to assess microphone usage by volume and MOS score, and can
 be found in the accompanying templates under Clients & Devices*.*
@@ -1585,7 +1585,7 @@ be found in the accompanying templates under Clients & Devices*.*
 
 _Figure 29 - – Device (Microphone) Report_
 
-#### Remediation
+##### Remediation
 
 The first task is to determine the MOS target you would like to attain. MOS
 scores range from 1 to 5, with 5 being the best. Choose a reasonable target
@@ -1620,16 +1620,14 @@ calculating the usage of certified or approved devices. Organizations typically
 keep a list of all approved devices, so filtering and sorting the data should be
 straightforward.
 
-## Appendix
-
-## Lync Networking Guide
+## Appendix A. Lync Networking Guide
 
 For more background on the Teams and Skype for Business networking concepts and
 rationale behind their importance to quality, the [Lync Server 2013 Networking
 Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/)
 is still applicable.
 
-## Network performance requirements
+## Appendix B. Network performance requirements
 
 The quality of real-time media (audio, video, and application sharing) over IP
 is greatly affected by the quality of end-to-end network connectivity. For
@@ -1651,12 +1649,16 @@ For more information, see the following article about [media quality and network
 performance](https://aka.ms/performancerequirements) for Teams and Skype for
 Business Online.
 
-## Other resources
+<a name="other-resources"></a>
+
+## Appendix C. Other resources
 
 ### Building data file
 
 -   [Turning on and using CQD in Skype for Business
     Online](https://support.office.com/en-us/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c?ui=en-US&rs=en-US&ad=US)
+
+<a name="CQD-training"></a>
 
 ### CQD training
 
