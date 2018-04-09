@@ -3,10 +3,12 @@ title: Use the Microsoft Teams Meeting add-in in Outlook
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 03/12/2018
+audience: Admin
+ms.date: 04/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 ms.custom:
 - NewAdminCenter_Update
@@ -58,7 +60,16 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
 
+## Troubleshooting
+
+If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
+
+- Restart the Teams desktop client.
+- Sign out and then sign back in to the Teams desktop client.
+- Restart the Outlook desktop client. (Make sure Outlook isn’t running in admin mode.)
+- Make sure the logged-in user account name does not contain spaces. (This is a known issue, and will be fixed in a future update.)
+- Make sure single sign-on (SSO) is enabled.
+
 For general guidance about how to disable add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 
 Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
