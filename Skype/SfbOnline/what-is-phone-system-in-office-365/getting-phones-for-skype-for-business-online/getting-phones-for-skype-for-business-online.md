@@ -102,6 +102,9 @@ For full device features and capabilities, check the manufacturer user guides.
 |Delegation  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Contact Picture Integration  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
 ||||||
+
+    > [!NOTE]
+    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
    
 ## What else should you know?
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
