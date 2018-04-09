@@ -42,7 +42,7 @@ The most recent changes to CQD are as follows:
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to [Call Quality dashboard](https://aka.ms/CQDOnline). 
+> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
   
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
