@@ -36,7 +36,7 @@ Skype for Business Server 2015 requires the Windows Server operating system and 
   
 Watch the video steps for **install prerequisites**:
   
-![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+[!video https://www.microsoft.com/en-us/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
   
 ### Install required roles and features for front-end servers
 
