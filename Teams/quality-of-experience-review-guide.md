@@ -692,7 +692,7 @@ _Table 4 - Report Filter_
 
 ## Import the CQD templates
 
-This guide includes two curated CQD templates. These templates accelerate your
+This guide includes [two curated CQD templates](https://github.com/NonaAllison/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). These templates accelerate your
 usage of CQD and provide you an opportunity to quickly leverage CQD’s
 capabilities to make an impact on your users’ Teams or Skype for Business
 experience. The All Networks template, though optimized to work with a building
@@ -902,7 +902,7 @@ _Figure 13 - Building data upload banner_
 
 3.  After selecting **Start date**, select **Upload** to upload the file to the CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-![Screenshot of a dialog in the Call Quality Dashboard that describes an error message when importing building data.](media/quality-of-experience-review-guide-image14.png)
+![Screenshot of a dialog box in the Call Quality Dashboard that describes an error message when importing building data.](media/quality-of-experience-review-guide-image14.png)
 
 _Figure 14 - Building data upload error_
 
@@ -968,7 +968,7 @@ This chart report displays the total amount of successful call set up and call
 setup failures over time. Point to any one of the columns to display its
 individual values, as shown in the figure below.
 
-![Chart with details for one column, showing 1,504,996 audio call streams and 8,742 call stream failures, for a total of 0.576% Audio Call Stream Setup Failure](media/quality-of-experience-review-guide-image16.png)
+![Screenshot of a chart that shows percentage of Audio Call Stream Setup Failure](media/quality-of-experience-review-guide-image16.png)
 
 _Figure 16 - Audio Reliability - Call Stream Setup Failures_
 
@@ -1051,7 +1051,7 @@ This chart report displays the total amount of audio streams, total audio
 streams dropped, and total stream dropped percentage. Point to any one of the
 columns to display its values, as shown in the following figure.
 
-![Chart with details for one column, showing 1,504,996 audio call streams and 64,497 dropped audio call streams, for a total of 4.278% Audio Call Stream Dropped](media/quality-of-experience-review-guide-image18.png)
+![Screenshot of a chart showing percentage of Audio Call Streams Dropped](media/quality-of-experience-review-guide-image18.png)
 
 _Figure 18 - Total call dropped failure percentage_
 
@@ -1160,7 +1160,7 @@ experiences, depending on the distribution of that 3 percent.
 To assess the overall percentage of poor calls for the organization use the
 Quality Overall chart report.
 
-![Chart with details for one column, showing 668,505 good-quality calls, 40,184 unclassified calls, and 8,160 poor-quality calls for a total of 1.206% poor quality calls](media/quality-of-experience-review-guide-image20.png)
+![Screenshot of a chart showing percentage of poor quality calls](media/quality-of-experience-review-guide-image20.png)
 
 _Figure 20 – Audio Quality - Overall_
 
@@ -1311,7 +1311,7 @@ All further reports in this section will focus on narrowing down specific
 buildings and subnets where TCP is most commonly used. Further sub-reports break
 down TCP usage by both conferencing and two-party calls.
 
-![Chart showing the number of TCP audio streams per month](media/quality-of-experience-review-guide-image23.png)
+![Screenshot of a chart showing the number of TCP audio streams per month](media/quality-of-experience-review-guide-image23.png)
 
 _Figure 23 – Audio Streams with TCP Usage_
 
