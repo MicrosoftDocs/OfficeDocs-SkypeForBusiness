@@ -20,18 +20,16 @@ Microsoft Teams, the hub for teamwork and communications in Office 365, now prov
 We'll update this page as additional cloud voice features for Teams are released over time.
 
 
-## Practical guidance for Audio Conferencing in Microsoft Teams
+
+## Audio Conferencing in Microsoft Teams
+
 
 Audio Conferencing in Office 365 allows participants to join your Teams meetings from any telephone.
 
 Here's what you get with [Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=858992) in Office 365.
 
-This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases&mdash;Envision, Onboard, and Drive Value&mdash;to help you plan, deliver, and operate an Audio Conferencing implementation toward succesful business outcomes.
 
-> [!TIP]
-> In this practical guidance, we provide example outputs for each activity and key discussion. The examples throughout this document are enclosed inside Tip callouts and they serve as a template that you can reuse. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
-
-## Practical guidance for Phone System with Calling Plans in Microsoft Teams
+## Phone System with Calling Plans in Microsoft Teams
 
 Phone System is an Office 365 feature that provides the ability to manage call routing, policies, and user provisioning. This includes phone calling management system, call routing, and call control.
 
@@ -39,7 +37,18 @@ Office 365 Calling Plans is an add-on service for the Phone System feature, deli
 
 To learn more, read [Here's what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
-This practical guidance takes you through the Office 365 FastTrack customer journey framework and its three phases&mdash;Envision, Onboard, and Drive Value&mdash;to help you plan, deliver, and operate a successful Phone System with Calling Plans implementation.
+
+## Practical Guidance for Audio Conferencing and Phone System with Calling Plans in Microsoft Teams
+
+This practical guidance is organized using the Office 365 FastTrack customer journey framework and its three phases - Envision, Onboard, and Drive Value. It is intended to help you plan, deliver, and operate a successful Audio Conferencing or Phone System with Calling Plans implementation.
+
+|Envision  |Onboard  |Drive Value  |
+|---------|---------|---------|
+|Define my success <br> Make my service decisions <br> Evaluate my environment <br> Plan my service management <br> Plan my users' experience <br> Document my success plan    | Prepare my service <br> Prepare my users <br> Deploy my service  <br> <br> <br> <br>     | Operate my service <br> Enhance my service <br> <br> <br> <br> <br>      |
+
+The content is presented in an ordered fashion, and is designed to take you through an end-to-end deployment journey from start to end. If you are already actively deploying, we still encourage you to reference the applicable content areas.
+
+
 
 > [!TIP]
 > In this practical guidance, we're providing example outputs for each activity and key discussion. The examples throughout this document are enclosed inside Tip callouts and they serve as a template that you can reuse. You'll see "TBA" (to be added) for information that you need to complete as part of your planning process.
