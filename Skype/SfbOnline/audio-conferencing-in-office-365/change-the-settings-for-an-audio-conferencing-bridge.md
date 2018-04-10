@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,7 +21,7 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
 ---
 
 # Change the settings for an Audio Conferencing bridge
@@ -32,19 +32,20 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 
   > [!IMPORTANT]
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
-  
-## Change the settings for an audio conferencing bridge 
 
-### Using the Microsoft Teams and Skype for Business Admin Center
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+## Using the Microsoft Teams and Skype for Business Admin Center
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+
+2. At the top of the **Conference bridges** page, click **Bridge settings**. 
 
 3. In the **Bridge settings** pane, select: 
-  - **Enable meeting entry and exit notifications to be turned on** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+  - **Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+    When you turn on **Meeting entry and exit notifications**, you can select these options:
     
   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     
@@ -59,7 +60,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
  
 6. Click **Apply**. 
 
-### Using Skype for Business Online
+## Using Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     
@@ -74,9 +75,6 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     
   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
-    
-    > [!NOTE]
-    > Using **Tone** as the announcement type is currently available to all customers as a preview feature.
   
   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
     
@@ -103,7 +101,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their audio conferencing configuration changes**, and then click **Save**.
+4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.
     
     See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
     
