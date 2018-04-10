@@ -85,6 +85,6 @@ Browsers
 Operating systems
 -----------------
 
-For information about operating system requirements, see [Get clients for Microsoft Teams](get-clients.md#desktop-clients).
+For information about operating system requirements, see [Get clients for Microsoft Teams](get-clients.md).
 
 
