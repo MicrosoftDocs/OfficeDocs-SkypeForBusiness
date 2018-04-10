@@ -47,7 +47,7 @@ When ordering new phones for Skype for Business, it is important to buy phones w
    
 For more details on Polycom phones, see [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_top_2.html)
+For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
   
 For more details on AudioCodes phones, see [Skype for Business IP Phones](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
