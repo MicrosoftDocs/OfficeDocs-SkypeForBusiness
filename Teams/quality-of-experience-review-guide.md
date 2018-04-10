@@ -96,7 +96,7 @@ role](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-manag
 ## Prerequisites
 
 Before using this guide, make sure you have the proper tenant
-[roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+[roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 assigned so that you can access CQD.
 
 -   **Office 365 Global Administrator role:** Accesses all administrative
@@ -105,7 +105,7 @@ assigned so that you can access CQD.
 
 -   **Skype for Business Administrator role:** Configures Skype for Business for
     your organization and is able to view all the [activity
-    reports](https://support.office.com/en-us/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)
+    reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)
     in the Office 365 admin center. This role is required even if you deploy
     only Teams.
 
@@ -113,10 +113,10 @@ Alternatively, you can assign the following role to an Office 365 user account
 to allow access to reporting features only.
 
 -   **Reports Reader:** Can view all the [activity
-    reports](https://support.office.com/en-us/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)
+    reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)
     in the Office 365 admin center, any reports from the [Office 365 Adoption
     content
-    pack](https://support.office.com/en-us/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f),
+    pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f),
     and CQD reports.
 
 Understanding the key concepts of CQD helps maximize the impact you can make in
@@ -206,7 +206,7 @@ _Table 2 - Poor Call Service Metrics_
 | Jitter \>30 ms                                   | This is the average change in delay between successive packets. Teams and Skype for Business can adapt to some levels of jitter through buffering. It’s only when the jitter exceeds the buffering that a participant notices the effects of jitter.                                                                                                                         | The packets arriving at different speeds cause a speaker’s voice to sound robotic.                                                                                       |
 | Packet loss rate \>10% or 0.1                    | This is often defined as a percentage of packets that are lost. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact to back-to-back burst losses that cause audio to cut out completely.                                                                                                                               | The packets being dropped and not arriving at their intended destination cause gaps in the media, resulting in missed syllables and words, and choppy video and sharing. |
 | Round-trip time \>500 ms                         | This is the time it takes to get an IP packet from point A to point B and back to point A. This network propagation delay is tied to the physical distance between the two points and the speed of light and includes additional overhead taken by the various devices in the network path.                                                                                  | The packets taking too long to arrive at their destination cause a walkie-talkie effect.                                                                                 |
-| NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/en-us/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
+| NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
 | Average ratio of concealed samples \> 7% or 0.07 | One or more of these network metrics, although individually weren’t poor, caused the client to self-heal the media. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.                                                                                                                | High values indicate that significant levels of loss concealment were applied, and resulted in distorted or lost audio.                                                  |
 
 #### Client and device readiness
@@ -253,7 +253,7 @@ We always recommend that Teams and Skype for Business users use a certified
 headset or speaker when participating in a voice call by using a desktop client.
 For more information about Microsoft certified devices, review this [article
 about phones and qualified
-devices](https://technet.microsoft.com/en-us/office/dn788944.aspx). Use the
+devices](https://technet.microsoft.com/office/dn788944.aspx). Use the
 [Device Report](#devices-investigations), later in this guide, for assistance
 with managing your devices. You can also use the Rate My Call sample reports to
 further enhance your device readiness strategy.
@@ -342,7 +342,7 @@ maintain high-quality user experiences. These tasks range from ensuring there is
 sufficient bandwidth to reach the service without saturating internet links,
 validating that quality of service (QoS) is in place on all managed network
 areas, and—lastly—staying on top of [Office 365 IP ranges on
-firewalls](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US).
+firewalls](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
 #### Network tasks
 
@@ -422,7 +422,7 @@ Permission requirements
 #### Azure PowerShell
 
 1.  [Install the Microsoft Azure PowerShell Service Management
-    module](https://docs.microsoft.com/en-us/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+    module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
 2.  Open an Azure PowerShell command window and run the following script,
     entering your Office 365 credentials when prompted:  
@@ -443,7 +443,7 @@ Permission requirements
 #### Skype for Business Online using PowerShell
 
 1.  [Connect to Skype for Business Online via
-    PowerShell](https://technet.microsoft.com/en-us/library/dn362839(v=ocs.15).aspx).
+    PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
 
 2.  Run the following command:  
     **(Get-cstenant).tenantid**
@@ -502,7 +502,7 @@ see the [Appendix](#CQD-training).
 ### First vs. second 
 
 Many of the dimensions and measures in CQD are classified as first or second.
-CQD doesn’t use caller/callee fields—these have been renamed first and Second
+CQD doesn’t use caller/callee fields—these have been renamed _first_ and _second_
 because there are intervening steps between the caller and callee. The following
 logic determines which endpoint involved in the stream or call is labeled as
 first:
@@ -1033,8 +1033,8 @@ _Table 7 - Next Steps for Call Setup Failure Remediation_
 
 | Remediation           | Guidance     |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips). Verify that the [media subnets](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. Verify that the necessary TCP and UDP ports are opened in the firewall. Media prefers UDP over TCP. TCP is considered a failback protocol.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
-| Verify                | Leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
+| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips). Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. Verify that the necessary TCP and UDP ports are opened in the firewall. Media prefers UDP over TCP. TCP is considered a failback protocol.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
+| Verify                | Leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
 
 
 ### Call drop
@@ -1128,7 +1128,7 @@ _Table 9 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance     |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Network/internet                         | Now that you know which building is affected, work with your network team to monitor bandwidth at that building to determine whether there are issues with overutilization. If the issue is discovered to be related to network congestion, consider increasing bandwidth to that building. <br><br>**QoS:** If increasing bandwidth is impossible or cost-prohibitive, consider implementing QoS. This will guarantee media packets on the managed network are prioritized above non-media traffic. Alternatively, if there is no clear evidence that bandwidth is the culprit, consider these solutions:<br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/en-us/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment. <br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885)</li></ul>         |
+| Network/internet                         | Now that you know which building is affected, work with your network team to monitor bandwidth at that building to determine whether there are issues with overutilization. If the issue is discovered to be related to network congestion, consider increasing bandwidth to that building. <br><br>**QoS:** If increasing bandwidth is impossible or cost-prohibitive, consider implementing QoS. This will guarantee media packets on the managed network are prioritized above non-media traffic. Alternatively, if there is no clear evidence that bandwidth is the culprit, consider these solutions:<br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment. <br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul>         |
 | Clients (Skype for Business Online Only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.                                                                                                                                                              |
 | Devices                                  | The majority of device failures are due to using devices that aren’t certified for Teams or Skype for Business. Failures usually take the form of the integrated speakers or mics that are being used, or earbud/mic combinations that are plugged into the 3.5 mm audio jack on a device. Microsoft’s current recommendation is that any users who are experiencing call drops—or poor calls in general—and are using integrated devices or drivers should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). |
 | User Behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor) for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.     |
@@ -1273,12 +1273,12 @@ _Table 9 - Common contributors to high PCR_
 
 | Remediation                              | Guidance       |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Networks                                 | An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. **Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. This tool helps you assess the performance of a subnet and validate the readiness of the network against the Microsoft performance [requirements](https://aka.ms/performancerequirements).<br><ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) </li></ul>        |
-| Quality of Service (QoS)                 | QoS is a proven method to help prioritize packets on a network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is limited or constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times. <br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/en-us/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
+| Networks                                 | An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. **Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. This tool helps you assess the performance of a subnet and validate the readiness of the network against the Microsoft performance [requirements](https://aka.ms/performancerequirements).<br><ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) </li></ul>        |
+| Quality of Service (QoS)                 | QoS is a proven method to help prioritize packets on a network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is limited or constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times. <br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
 | Wi-Fi                                    | Wi-Fi can have a significant impact on call quality. Wi-Fi design doesn’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. **QoS:** Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services where speed and latency are vital. Consult your wireless vendor for specifics, and consider implementing QoS on your wireless network to prioritize Skype for Business and Teams media. **AP density:** Access points (APs) might be too far apart or not in an ideal location. To minimize potential interference, place extra APs in conference rooms and in locations that aren’t obstructed by walls or other objects. **2.4 GHz vs. 5 GHz:** 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. **Signal strength:** Traditionally measured in dBm (power ratio in decibels), this measures the strength of the wireless signal. After a device is connected to an AP, it doesn’t want to let go easily. As the device moves away from the AP, the signal strength falls off to a point that induces a poor connection even though another, closer AP is available. If possible, work with your AP vendor to ensure that the APs are configured to drop a device when signal strength falls below an acceptable level. This will ensure that the device doesn’t hang on to a weak AP. This is a good solution when you can’t easily add more APs. **Wireless driver:** When all else fails, ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. |
 | Network device                           | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure the network devices from the user to the internet are maintained and up to date.     |
 | VPN                                      | It has been well-documented that VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for audio) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality.        |
-| Clients (Skype for Business Online Only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://technet.microsoft.com/en-us/library/jj219427.aspx).      |
+| Clients (Skype for Business Online Only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx).      |
 | Devices                                  | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business and produce superior quality. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy.   |
 
 
@@ -1397,8 +1397,8 @@ _Table 10 - Remediation* guidance for TCP streams by building and subnet_
 
 | Remediation        | Guidance     |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configure firewall | Verify [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. Though there are many IP addresses and ports that need to be opened, for media-related TCP issues, focus your initial efforts on the following: Verify the following [media subnets](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) are in your firewall rules. Refer to Row 4 in the table shown for specific media subnet information. [UDP ports 3478–3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): These ports are the preferred media ports and must be opened, otherwise the client will fail back to TCP port 443. |
-| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53885) to check for connectivity issues to specific Office 365 IP addresses and ports from the affected building or subnet.    |
+| Configure firewall | Verify [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. Though there are many IP addresses and ports that need to be opened, for media-related TCP issues, focus your initial efforts on the following: Verify the following [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) are in your firewall rules. Refer to Row 4 in the table shown for specific media subnet information. [UDP ports 3478–3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): These ports are the preferred media ports and must be opened, otherwise the client will fail back to TCP port 443. |
+| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for connectivity issues to specific Office 365 IP addresses and ports from the affected building or subnet.    |
 
 ### Investigate HTTP proxy usage
 
@@ -1443,7 +1443,7 @@ For organizations that can’t bypass the proxy, ensure that the Skype for
 Business client is configured to sign in properly when it’s located behind a
 proxy as outlined in the article [Skype for Business should use proxy server to
 sign in instead of trying direct
-connection](https://support.microsoft.com/en-us/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
+connection](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
 
 #### HTTP proxy streams by building and subnet
 
@@ -1491,13 +1491,13 @@ Version numbers for Skype for Business 2015 and 2016 can be found via the links
 below:
 
 -   [Office 365 client update channel
-    releases](https://technet.microsoft.com/en-us/office/mt465751?f=255&MSPPError=-2147217396)
+    releases](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Office 365 Version and Build numbers for Click to
-    run](https://support.office.com/en-us/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7?ui=en-US&rs=en-US&ad=US)
+-   [Office 365 version and build numbers for Click to
+    run](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
 
 -   [Skype for Business downloads and
-    updates](https://technet.microsoft.com/en-us/office/dn788954.aspx)
+    updates](https://technet.microsoft.com/office/dn788954.aspx)
 
 > [!NOTE] 
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.  
@@ -1568,7 +1568,7 @@ By supplying users with devices certified for Teams and Skype for Business, you
 reduce the likelihood of encountering negative experiences due to the device
 itself (which is more likely, for example, with built-in laptop speakers and
 microphones). For more information, see [Phones and Devices for Skype for
-Business](https://technet.microsoft.com/en-us/office/dn947482).
+Business](https://technet.microsoft.com/office/dn947482).
 
 #### Organizational usage of capture devices (microphones) by volume
 
@@ -1656,7 +1656,7 @@ Business Online.
 ### Building data file
 
 -   [Turning on and using CQD in Skype for Business
-    Online](https://support.office.com/en-us/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c?ui=en-US&rs=en-US&ad=US)
+    Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
 
 <a name="CQD-training"></a>
 
@@ -1669,7 +1669,7 @@ Business Online.
     guide and workshop.
 
 -   [CQD Dimensions and Measures online
-    guide](https://support.office.com/en-us/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+    guide](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
 
 ### Call Analytics training
 
@@ -1677,13 +1677,13 @@ Business Online.
     Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
 -   [Set up Skype for Business Call
-    Analytics](https://support.office.com/en-us/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+    Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
 -   [What's the difference between Call Analytics and Call Quality
-    Dashboard?](https://support.office.com/en-us/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+    Dashboard?](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
 
 -   [Use Call Analytics to troubleshoot poor Skype for Business call
-    quality](https://support.office.com/en-us/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+    quality](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
 
 ### Call Analytics support
 
@@ -1705,10 +1705,10 @@ Business Online.
 ### Tenant reporting
 
 -   [Office 365 Adoption Content
-    Pack](https://blogs.office.com/en-us/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
+    Pack](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
 -   [Skype for Business Online
-    reporting](https://support.office.com/en-us/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+    reporting](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
 
 -   [Microsoft Teams
     reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
