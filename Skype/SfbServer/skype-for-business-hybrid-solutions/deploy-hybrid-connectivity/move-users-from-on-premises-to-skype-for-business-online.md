@@ -26,7 +26,7 @@ Before actually moving the user to Office 365, you should first confirm that the
   
 ### To confirm that an on-premises user account has been synchronized with Office 365
 
-1. Using an tenant admin account, open the [Office 365 admin center](https://portal.office.com/) for your tenant.
+1. Using an tenant admin account, open the [Office 365 admin center](https://portal.office.com/) for your tenant.  Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365
     
 2. On the left navigation pane, click **Users** and then **Active Users**.
     

@@ -195,7 +195,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for some/all available scenarios. To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</p>
-<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
+<p>Learn more about the [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="odd">
@@ -203,7 +203,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</p>
-<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
+<p>Learn more about the [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="even">

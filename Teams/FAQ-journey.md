@@ -131,7 +131,7 @@ There are no plans to support 3rd party audio conferencing providers (ACP) in Te
 
 ### What is the plan for video interoperability support for Teams meetings?
 
-Meeting room devices are critical to our vision for the modern workplace. We announced on September 25 at Ignite that we are working with Blue Jeans and Pexip to deliver cloud video interoperability with Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Teams for their business needs. 
+Meeting room devices are critical to our vision for the modern workplace. We announced on September 25 at Ignite that we are working with Blue Jeans, Pexip, and Polycom to deliver cloud video interoperability with Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Teams for their business needs. 
 
 ### Will the latest generation of Skype Room Systems (V2) support meetings in Teams?
 
