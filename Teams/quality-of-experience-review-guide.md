@@ -66,7 +66,7 @@ building and network information, it can still be used while you work toward
 collecting and uploading building information. Uploading building information
 into CQD enables the service to enhance reporting by adding custom building,
 network, and location information while differentiating internal from external
-subnets. For more information, see [Building Mapping](#building-mapping) later
+subnets. For more information, see [Building mapping](#building-mapping) later
 in this document.
 
 ### What is the CQD?
@@ -297,7 +297,7 @@ metrics can miss.
 You can use CQD to report on RMC user responses, and sample reports are included
 in the CQD template. However, they aren’t discussed in detail in this guide. For
 more information about RMC in Skype for Business Online and guidance for
-educating users to give useful RMC responses, see the following [blog
+educating users to give useful RMC responses, see this [blog
 post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
 ### Categories of quality
@@ -470,7 +470,7 @@ _Figure 4 - Select a Product Filter_
 
 To filter a detailed report, add the filter **Is Teams** to the report and set
 it to True or False. For more information, see [Editing
-Reports](#editing-reports) later in this section.
+reports](#editing-reports) later in this section.
 
 ![Screenshot of the Call Quality Dashboard depicting the filer that can be added to a detailed report.](media/quality-of-experience-review-guide-image5.png)
 
@@ -1567,7 +1567,7 @@ of the experience being delivered to the users.
 By supplying users with devices certified for Teams and Skype for Business, you
 reduce the likelihood of encountering negative experiences due to the device
 itself (which is more likely, for example, with built-in laptop speakers and
-microphones). For more information, see [Phones and Devices for Skype for
+microphones). For more information, see [Phones and devices for Skype for
 Business](https://technet.microsoft.com/office/dn947482).
 
 #### Organizational usage of capture devices (microphones) by volume
