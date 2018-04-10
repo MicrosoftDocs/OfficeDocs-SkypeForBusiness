@@ -34,7 +34,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
 
 > [!CAUTION]
-> [!INCLUDE [updating-admin-interfaces](updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## Using the Microsoft Teams and Skype for Business Admin Center
 
