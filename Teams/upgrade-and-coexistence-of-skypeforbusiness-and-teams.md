@@ -3,7 +3,7 @@ title: Upgrade journey and coexistence of Skype for Business and Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/04/2018
+ms.date: 04/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -12,15 +12,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
-
-# Upgrade journey and coexistence of Skype for Business and Microsoft Teams
+# Understand coexistence and upgrade modes for Skype for Business and Teams
 
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there is some overlapping functionality between the two apps, we recommend that you review the available upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams.
 
-As with any deployment, we strongly encourage you to [pilot your intended plan](pilot-essentials.md) with a selected group of users before rolling out Teams to your broader organization. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan to keep users in the know and accelerate their acceptance of Teams. 
-
 > [!IMPORTANT]
-> The Skype for Business to Teams upgrade journey is rapidly evolving. This article will help you understand the upcoming Teams upgrade, but it doesn't include end-to-end upgrade instructions. A successful upgrade from Skype for Business will include both technical and user readiness-focused activities. We're working on this guidance now, and we'll be publishing it soon.
+> This article outlines the various modes that enable you to manage which modalities in Skype for Business and Teams are available to your users. As with any deployment, we strongly encourage you to [pilot your intended plan](pilot-essentials.md) with a selected group of users before upgrading your organization to Teams. Remember, introducing new technology can be disruptive for users. Take time to assess user readiness and implement a communication and training plan prior to implementing any of the modes outlined herein.
  
 ## Upgrade and coexistence modes defined
 To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams.
