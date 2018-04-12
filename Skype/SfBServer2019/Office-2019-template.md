@@ -83,6 +83,6 @@ List any security or compliance impact of this feature here. Cover the following
 
 #### 
 
-[Some Article](path/to/some/article.md)
+[Some Article](Office-2019-template.md)
 
-[Some Article](path/to/some/article.md)
+[Some Article](Office-2019-template.md)
