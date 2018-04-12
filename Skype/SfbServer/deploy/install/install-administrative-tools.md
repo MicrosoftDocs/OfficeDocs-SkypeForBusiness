@@ -31,7 +31,7 @@ The installation media for Skype for Business Server 2015 provides a flexible ex
   
 Watch the video steps for **Install administrative tools**:
   
-![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/99a5c436-963b-4eed-b423-651568c87cb1?autoplay=false]
   
 ### Install Skype for Business Server 2015 administrative tools from the Deployment Wizard
 

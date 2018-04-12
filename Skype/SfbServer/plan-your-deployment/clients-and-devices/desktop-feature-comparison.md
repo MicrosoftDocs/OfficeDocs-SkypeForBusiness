@@ -132,7 +132,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Mute Audience  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Make everyone an attendee  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Produce Skype Meeting Broadcast  <br/> |&#x2714;|||||||||||
-|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;||&#x2714;|||||||||
+|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;|Skype for Business Online only <br/>|&#x2714;|||||||||
 |Synchronize delegates between Skype for Business and Outlook  <br/> |&#x2714;||&#x2714;|||||||||
 |Video Based Screen Sharing  <br/> |&#x2714;| Skype for Business Online only <br/> |&#x2714;||&#x2714;|||||||
 |Set Video Spotlight (lock video)  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|

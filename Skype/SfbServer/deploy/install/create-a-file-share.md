@@ -31,7 +31,7 @@ This section walks you through creating a basic Windows Server file share. A bas
   
 Watch the video steps for **create a file share**:
   
-![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](../../media/MSN_Video_Widget.gif)
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/dbef31be-e899-4a32-a1ca-370053284f56?autoplay=false]
   
 ### Create a basic file share
 
