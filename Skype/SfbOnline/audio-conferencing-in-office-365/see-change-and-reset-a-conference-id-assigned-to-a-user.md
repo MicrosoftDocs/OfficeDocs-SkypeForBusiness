@@ -104,7 +104,6 @@ You can reset a conference ID for a user if, for example, if they forget it.
     
 - The conference ID for all of your audio conferencing users will be 7 digits by default, and the number of digits can't be changed.
     
-- If the user is moved from Microsoft as the audio conferencing provider to a third-party audio conferencing provider or the audio conferencing provider is set to **None**, the conference ID will no longer work. See [Assign a third-party as the audio conferencing provider](assign-a-third-party-as-the-audio-conferencing-provider.md) or [Moving a user's audio conferencing provider to Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
     
 ## Want to know how to manage with Windows PowerShell?
 
@@ -124,5 +123,5 @@ You can reset a conference ID for a user if, for example, if they forget it.
     
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

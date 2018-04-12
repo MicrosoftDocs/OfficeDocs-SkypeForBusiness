@@ -95,5 +95,5 @@ To see a table with the license or licenses you will need for each feature, see 
 ## Related topics
 [Skype for Business PSTN usage report](../skype-for-business-online-reporting/pstn-usage-report.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

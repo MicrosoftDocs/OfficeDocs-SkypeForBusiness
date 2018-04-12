@@ -408,9 +408,8 @@ In this case all media traffic for the end point in the internet can flow direct
 
 The host machine must be able to reach external resources to successfully install, update, and manage Cloud Connector. The following table shows the destinations and ports required between the host machine and external resources. 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Direction  <br/> |Source IP  <br/> |Destination IP  <br/> |Source Port  <br/> |Destination Port  <br/> |Protocol  <br/> |Purpose  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Outbound  <br/> |Cloud Connector host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Certificate Revocation List (CRL)  <br/> |
 |Outbound  <br/> |Cloud Connectorr host IPs  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |Cloud Connector update  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |

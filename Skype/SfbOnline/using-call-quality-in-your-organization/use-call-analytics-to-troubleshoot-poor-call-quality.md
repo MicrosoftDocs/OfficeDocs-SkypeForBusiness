@@ -25,8 +25,8 @@ description: "Use Call Analytics details about devices, networks, and connectivi
 
 Call Analytics helps you to troubleshoot call or connection problems with Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Skype for Business account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
   
-    > [!NOTE]
-    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> [!NOTE]
+> Call Analytics is currently in preview. Text and images described here may not match your experience.
   
 ## Troubleshoot call quality problems using Call Analytics
 
@@ -73,5 +73,5 @@ For audio sessions that do have quality of experience (QoE) data, the following 
 
 [What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

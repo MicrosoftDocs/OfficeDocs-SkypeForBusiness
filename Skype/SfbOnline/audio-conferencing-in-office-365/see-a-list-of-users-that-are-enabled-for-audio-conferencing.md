@@ -30,11 +30,13 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
   
 ## Viewing a list of users
 
-1. Sign in to Office 365 with your work or school account.
+**Using the Microsoft Teams and Skype for Business Admin Center**
+
+- In the left navigation, click **Users**.
+
+**Using the Skype for Business admin center**
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**.
+- In the left navigation, go to **Audio conferencing** > **Users**.
     
 ## What else should I know?
 
@@ -84,4 +86,4 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
     
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

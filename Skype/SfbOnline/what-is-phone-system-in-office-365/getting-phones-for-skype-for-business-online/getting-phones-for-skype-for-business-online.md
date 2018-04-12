@@ -47,7 +47,7 @@ When ordering new phones for Skype for Business, it is important to buy phones w
    
 For more details on Polycom phones, see [Voice Solutions for Microsoft](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
   
-For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_top_2.html)
+For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
   
 For more details on AudioCodes phones, see [Skype for Business IP Phones](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
@@ -102,6 +102,9 @@ For full device features and capabilities, check the manufacturer user guides.
 |Delegation  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Contact Picture Integration  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
 ||||||
+
+    > [!NOTE]
+    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
    
 ## What else should you know?
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
@@ -113,5 +116,5 @@ For step-by-step setup instructions, see [Deploying Skype for Business Online ph
 
 [Country and region availability for Audio Conferencing and Calling Plans](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

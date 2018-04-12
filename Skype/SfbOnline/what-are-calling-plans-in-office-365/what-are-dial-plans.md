@@ -22,6 +22,9 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your organization.  "
+search.appverid: 
+- MED150
+- MOE150
 ---
 
 # What are dial plans?
@@ -156,5 +159,5 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -3,15 +3,13 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audio Conferencing in Office 365 
-### [Assign a third-party as the audio conferencing provider](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md)
+## [Audio Conferencing in Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Audio Conferencing supported languages](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
 ### [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 ### [Change the settings for an Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Change the phone numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Compare audio conferencing providers](../audio-conferencing-in-office-365/compare-audio-conferencing-providers.md)
 ### [Dialing out from a meeting so other people can join it](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
 ### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
@@ -19,7 +17,6 @@
 ### [Enable users to record their name when they join a meeting](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Manage the Audio Conferencing settings for my organization](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
 ### [Manage the Audio Conferencing settings for a user](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user.md)
-### [Moving a user's audio conferencing provider to Microsoft](../audio-conferencing-in-office-365/moving-a-user-s-audio-conferencing-provider-to-microsoft.md)
 ### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](../audio-conferencing-in-office-365/outbound-calling-restriction-policies.md)
 ### [Phone numbers for Audio Conferencing](../audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing.md)
 ### [Reset a conference ID for a user](../audio-conferencing-in-office-365/reset-a-conference-id-for-a-user.md)
@@ -29,7 +26,7 @@
 ### [See a list of users that are enabled for Audio Conferencing](../audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)
 ### [Send an email to a user with their dial-in information](../audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information.md)
 ### [Set the PIN length for Audio Conferencing meetings](../audio-conferencing-in-office-365/set-the-PIN-length-for-audio-conferencing-meetings.md)
-### [Set up Audio Conferencing](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
+### [Set up Audio Conferencing](../audio-conferencing-in-office-365//set-up-audio-conferencing.md)
 ### [Set auto attendant languages](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)
 ### [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)
 ### [Setting up the Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
@@ -94,10 +91,19 @@
 ### [Make changes to Skype Meeting Broadcast settings](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### License options based on your plan
+#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [Office 365 Enterprise E1, E3, and E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [Add funds and manage Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Calling Plans for Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -169,3 +175,4 @@
 ### [Code of practice for the United Kingdom (U.K.)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Complaint handling code for the United Kingdom (U.K.)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Data collection practices](../accessibility-and-regulatory/data-collection-practices.md)
+### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)

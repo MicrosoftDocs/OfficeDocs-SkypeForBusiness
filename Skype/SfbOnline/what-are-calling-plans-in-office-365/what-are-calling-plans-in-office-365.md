@@ -23,6 +23,7 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: "Learn what Office 365 Callings Plans (PSTN calling) are, what regions it's available in, and where to go for step by step instructions on how to set it up. "
+search.appverid: "MED150, MOE150"
 ---
 
 # What are Calling Plans in Office 365?
@@ -67,5 +68,5 @@ To learn more about Phone System, Calling Plans, and audio conferencing, see thi
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
