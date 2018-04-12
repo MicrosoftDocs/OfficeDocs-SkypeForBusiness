@@ -6,6 +6,7 @@
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Office 365 URLs and IP address ranges](Office-365-URLs-IP-address-ranges.md)
+## [Limits and specifications for Teams](limits-specifications-teams.md)
 
 
 
@@ -224,7 +225,7 @@
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 ### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
-## [3 - Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
