@@ -3,7 +3,7 @@ title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -748,7 +748,7 @@ the nature of the issue.
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements    | Ensure that the Teams’ endpoint continues to meet all the software requirements for Teams [Get clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).                                                                                                                                                                                       | Monthly   |               |
 | Endpoint firewalls       | Maintain the appropriate exclusions on the endpoint firewall based on the information in the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) article. Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed |               |
-| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | As needed |               |
+| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | As needed |               |
 | Endpoint management      | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies.                                                                                                                                                                                                        | Monthly   |               |
 | Endpoint troubleshooting | Troubleshooting tasks can include; verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors.                                                                                                                                                                                               | As needed |               |
 
