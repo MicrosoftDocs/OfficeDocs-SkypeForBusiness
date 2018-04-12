@@ -3,7 +3,7 @@ title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -675,7 +675,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) for more detail). It’s essential to
+driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
