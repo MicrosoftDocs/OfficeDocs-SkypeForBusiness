@@ -28,8 +28,8 @@
 ## Deploy
 ### [Install](../deploy/install.md)
 
-## Migrate
-## [Migration](../migration/migration-to-skype-for-business-server-2019/migration-to-skype-for-business-server-2019.md)
+
+## [Migrate](../migration/migration-to-skype-for-business-server-2019/migration-to-skype-for-business-server-2019.md)
 <!---
 ### [Migration to Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019/migration-to-skype-for-business-server-2019.md)
  
@@ -120,7 +120,7 @@
 #### [Back up systems and data](../migration/migration-to-skype-for-business-server-2019/back-up-systems-and-data-w14-to-w15.md)
 #### [Configure clients for migration](../migration/migration-to-skype-for-business-server-2019/configure-clients-for-migration-w14-to-w15.md)
 #### [Verify legacy environment you are migration from](../migration/migration-to-skype-for-business-server-2019/verify-lync-server-2010-environment.md)
-### [Phase 3: Deploy Skype for Business Server 2019 pilot pool](../migration/migration-to-skype-for-business-server-2019/phase-3-deploy-lync-server-2013-pilot-pool-w14-to-w15.md)
+### [Phase 3: Deploy pilot pool](../migration/migration-to-skype-for-business-server-2019/phase-3-deploy-lync-server-2013-pilot-pool-w14-to-w15.md)
 #### [Prepare Active Directory for pilot pool](../migration/migration-to-skype-for-business-server-2019/prepare-active-directory-for-lync-server.md)
 #### [Download topology from existing deployment](../migration/migration-to-skype-for-business-server-2019/download-topology-from-existing-deployment.md)
 #### [Deploy pilot pool](../migration/migration-to-skype-for-business-server-2019/deploy-lync-server-2013-pilot-pool-w14-to-w15.md)
