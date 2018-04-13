@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Guidance for signing in to Microsoft Teams by using modern authentication.
-ms.reviewer: 
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
