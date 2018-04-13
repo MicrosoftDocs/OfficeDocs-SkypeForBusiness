@@ -3,10 +3,12 @@ title: Office 365 licensing for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2018
+ms.date: 04/13/2018
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
+localization_priority: Normal
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ms.custom:
 - NewAdminCenter_Update
@@ -20,15 +22,18 @@ Office 365 licensing for Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-The following Office 365 subscriptions enable users for Teams:
+The following Office 365 subscriptions enable users for Teams.
 
-|Small Business Plans  |Enterprise Plans  |Education Plans  |
-|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 Education         |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |
-|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |
-|     |Office 365 Enterprise E5         |Office 365 Education E5   
-      |Office 365 Enterprise F1 |  |
+|Small Business Plans  |Enterprise Plans  |Education Plans  |Developer Plans |
+|---------|---------|---------|---------|
+|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Business Essentials     |
+|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |Office 365 Business Premium     |
+|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |Office 365 Enterprise E1  |
+|     |Office 365 Enterprise E5         |Office 365 Education E5  | Office 365 Enterprise E3
+      |Office 365 Enterprise F1 |  | |Office 365 Education E5 |
+|   |    |   |Office 365 Education |
+|   |    |   |Office 365 Education Plus |
+|   |    |   |Office 365 Education E5 |
 
 > [!NOTE]
 > Teams is also available for non-profit organizations. Government licensing is not currently supported but is being investigated for future support.
