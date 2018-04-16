@@ -7,7 +7,6 @@ ms.reviewer: mikedav, oscarr
 ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 097af064-dcc4-4ee0-b4ac-517073fedd9e
-ms.assetid: 
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online

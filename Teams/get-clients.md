@@ -7,7 +7,7 @@ ms.date: 03/27/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ninadara; vichau
 localization_priority: Normal
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
 ms.custom:

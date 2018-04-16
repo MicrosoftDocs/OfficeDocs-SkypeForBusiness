@@ -17,7 +17,6 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 description: "Before the people in your organization can use Skype Meeting Broadcast, you need to enable it. To do this, you need to know how to use Windows PowerShell. If you don't know Windows PowerShell, consider hiring a Microsoft partner to do this step for you."
 ---
 
