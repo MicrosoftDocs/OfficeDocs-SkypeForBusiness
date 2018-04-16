@@ -3,7 +3,7 @@ title: Office 365 licensing for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/13/2018
+ms.date: 04/16/2018
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -28,9 +28,9 @@ The following Office 365 subscriptions enable users for Teams.
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Business Essentials     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |Office 365 Business Premium     |
-|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |Office 365 Enterprise E1  |
+|Office 365 Enterprise F1     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |Office 365 Enterprise E1  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | Office 365 Enterprise E3
-      |Office 365 Enterprise F1 |  | |Office 365 Education E5 |
+      | |  | |Office 365 Education E5 |
 |   |    |   |Office 365 Education |
 |   |    |   |Office 365 Education Plus |
 |   |    |   |Office 365 Education E5 |
