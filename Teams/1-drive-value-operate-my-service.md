@@ -947,6 +947,6 @@ will also directly translate to improvements in video and desktop sharing.
 
 We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
-[Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+[Quality Experience Review Guide](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->
