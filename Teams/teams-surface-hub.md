@@ -179,7 +179,8 @@ The following is an example of adding an MDM policy configured from a central MD
 1. Under the **Device Management** section, tap **+**.<br>
    The **Connect to work or school** dialog box will open. 
 2. Enter the policy e-mail address and password when prompted.<br>
-   There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
+   > [!NOTE]
+   > There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
 3. It'll take a few minutes for the MDM policy settings to sync. If you want to force a sync, tap the **MDM account** button, and then tap the **Info** button. This will bring up the Info window where you can then tap **Sync**. 
 4. To verify that you have what you need, you can check the registry. You should see two keys under **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
    The **VtcAppMeetingHandlingMode** DWORD value indicates that Teams is the default app. The following values are recognized. <br><br>
@@ -193,13 +194,13 @@ The following is an example of adding an MDM policy configured from a central MD
  
 ### Configure MDM via USB key 
  
-The packages can be found at \\scratch2\scratch\TeamsOnShub\ppkg. Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store (either Dev or Dogfood), and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
+The packages can be found at [\\\scratch2\scratch\TeamsOnShub\ppkg](\\scratch2\scratch\TeamsOnShub\ppkg). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store (either Dev or Dogfood), and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
  
-1. Attach the USB with the .ppkg file in its root folder to a Surface Hub device's USB port where you want to apply the new configuration. 
+1. Attach the USB key to the Surface Hub device. 
 2. Open the **Settings** app on a Surface Hub device. 
 3. Click the **Add Package** button. 
 4. Select the **Removable Media** option from the drop-down menu. 
-5. Select the .ppkg file name from where you want to apply the new configuration to this device.
+5. Select the .ppkg file.
 
 ## Known issues
  
@@ -207,6 +208,5 @@ The packages can be found at \\scratch2\scratch\TeamsOnShub\ppkg. Pick the appro
 |Issue  |Comment  |
 |---------|---------|
 |When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known issue and will be corrected in a future release.         |
-|When a user is in a chat session and clicks a shared file, the meeting agenda page will appear and the file will not open.     |This is a known issue and will be corrected in a future release.         |
 |When a user is in a chat session, the user cannot like or bookmark any chat message from the chat window.     |This is a known issue and will be corrected in a future release.         |
 |When a user is in a chat session and tries to share a GIF file, the GIF appears small and the video play button is separate from the video.     |This is a known issue and will be corrected in a future release.         |
