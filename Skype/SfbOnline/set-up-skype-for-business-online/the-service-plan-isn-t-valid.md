@@ -3,7 +3,6 @@ title: "The user's Skype for Business Online service plan isn't valid"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
 ms.tgt.pltfrm: cloud

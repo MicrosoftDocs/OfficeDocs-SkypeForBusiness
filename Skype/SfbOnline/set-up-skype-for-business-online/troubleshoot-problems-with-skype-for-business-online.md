@@ -3,7 +3,6 @@ title: "Troubleshoot problems with Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911
 ms.tgt.pltfrm: cloud
