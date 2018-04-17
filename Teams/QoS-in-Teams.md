@@ -201,8 +201,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 ```
 Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
 ```
-
-   ![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png)
 
 5.  Select **Apply** to activate the filter.
 
