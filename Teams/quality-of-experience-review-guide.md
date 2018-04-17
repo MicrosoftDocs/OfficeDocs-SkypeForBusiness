@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -720,7 +720,7 @@ information into CQD, as described in the next section.
 
 ![Screenshot of a pop-up window that notifies the user that the template was successfully imported.](media/quality-of-experience-review-guide-imagestep5.png)
 
-1.  Repeat steps 4 and 5 for the second CQD template.
+6.  Repeat steps 4 and 5 for the second CQD template.
 
 > [!NOTE]
 > The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
