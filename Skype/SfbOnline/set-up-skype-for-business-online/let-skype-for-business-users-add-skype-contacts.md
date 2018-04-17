@@ -3,7 +3,6 @@ title: "Let Skype for Business users add Skype contacts"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
 ms.tgt.pltfrm: cloud
