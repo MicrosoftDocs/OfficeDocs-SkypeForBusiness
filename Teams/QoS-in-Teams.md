@@ -163,9 +163,8 @@ To verify that the values from the Group Policy object have been set, perform th
     ```
     gpresult /H >gp.html
     ```
-
-
-    ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png)
+ 
+   ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png)
 
 3.  In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
 
