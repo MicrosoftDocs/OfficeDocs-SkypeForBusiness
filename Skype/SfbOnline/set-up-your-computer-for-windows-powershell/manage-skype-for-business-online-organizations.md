@@ -3,7 +3,6 @@ title: "Manage Skype for Business Online organizations"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
 ms.tgt.pltfrm: cloud
