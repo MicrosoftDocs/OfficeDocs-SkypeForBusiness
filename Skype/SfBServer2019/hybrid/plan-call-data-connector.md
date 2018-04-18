@@ -9,9 +9,11 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "<topic description>"
+description: "Overview of using SfBO telemetry tools to monitor an on-prem implementation in a hybrid scenario."
 ---
 <!-- PM William Looney  -->
+
+[!INCLUDE [disclaimer](../disclaimer.md)]
 # Plan call data connector
 
 The Skype for Business Server Call Data Connector enables SfB on-premise Server admins to leverage the SfB Online call quality management tools such as Call Analytics (CA) and Call Quality Dashboard (CQD) tools by connecting the call telemetry from their on-premise SfB deployment to the data pipelines used in SfB Online.

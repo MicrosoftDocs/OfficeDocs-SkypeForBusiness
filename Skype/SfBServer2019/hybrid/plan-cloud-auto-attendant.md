@@ -9,10 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "<topic description>"
+description: "Overview of using a Cloud PBX Auto Attendant."
 ---
 <!-- PM Francois Doremieux  -->
 # Plan cloud auto attendant
+
+[!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## Feature Overview 
 This feature enables the use of the existing Cloud PBX Auto Attendant Service as an intuitively, natively integrated solution for Skype for Business Server. 
