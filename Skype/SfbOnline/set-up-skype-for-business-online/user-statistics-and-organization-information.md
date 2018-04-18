@@ -3,7 +3,6 @@ title: "User statistics and organization information"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
 ms.tgt.pltfrm: cloud

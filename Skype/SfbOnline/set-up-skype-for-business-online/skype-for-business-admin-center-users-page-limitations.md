@@ -3,7 +3,6 @@ title: "Skype for Business Online admin center users page limitations"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
 ms.tgt.pltfrm: cloud

@@ -3,7 +3,6 @@ title: "Test your Skype for Business Online installation"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e
 ms.tgt.pltfrm: cloud

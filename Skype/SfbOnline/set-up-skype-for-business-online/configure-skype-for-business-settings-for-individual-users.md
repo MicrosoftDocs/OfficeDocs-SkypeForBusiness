@@ -3,7 +3,6 @@ title: "Admins Configure Skype for Business settings for individual users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
