@@ -1,14 +1,16 @@
 ---
-title: QoS in Microsoft Teams
+title: QoS in Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
 ms.date: 04/17/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: rowille
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-
+appliesto:
+- Microsoft Teams
 ---
 
 # Quality of Service (QoS) in Microsoft Teams
@@ -159,12 +161,12 @@ To verify that the values from the Group Policy object have been set, perform th
     gpresult /R >gp.txt
     ```
 
-    This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html.
+    This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
     ```
     gpresult /H >gp.html
     ```
  
-   ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png)
+   ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
 
 3.  In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
 
@@ -211,7 +213,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
     Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
 
-    ![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png)
+    ![Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.](media/Qos-in-Teams-Image4.png "Screenshot of the Display Filter dialog box in Network Monitor, showing the filters to apply.")
 
 5.  Select **Apply** to activate the filter.
 
@@ -219,7 +221,7 @@ Network Monitor is a tool you can [download from Microsoft](https://www.microsof
 
 7.  In the **Frame Details** window, expand the IPv4 list item and note the value at the end of the line that begins with **DSCP**. 
 
-    ![Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.](media/Qos-in-Teams-Image5.png)
+    ![Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.](media/Qos-in-Teams-Image5.png "Screenshot of the Frame Details dialog box in Network Monitor, highlighting DSCP settings.")
 
 In this example, the DSCP value is set to 46. This is correct, because the source port used is 50019, which indicates that this is a voice workload. 
 
