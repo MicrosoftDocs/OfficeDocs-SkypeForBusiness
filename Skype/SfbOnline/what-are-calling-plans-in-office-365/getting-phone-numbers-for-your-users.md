@@ -29,7 +29,7 @@ Before you can set up users in your organization to make and receive phone calls
   
 There are three ways to get new user numbers:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users.](getting-phone-numbers-for-your-users.md).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
@@ -40,9 +40,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, you can [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## 
-
- **Get new phone numbers for your users**
+## Get new phone numbers for your users
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -50,7 +48,8 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. On the **Add new user numbers** page, choose the following:
     
