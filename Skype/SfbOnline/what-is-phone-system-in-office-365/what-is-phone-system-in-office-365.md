@@ -13,7 +13,9 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
-ms.custom: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
 description: "Learn about what Phone System can do for you. "
 ---
 
