@@ -115,7 +115,7 @@ The recommended method of implementing these QoS policies is to use the client s
 > [!NOTE]
 > If you've already configured QoS based on source port ranges for Skype for Business Online, the same configuration will apply to Teams and no further changes will be required. If you’ve deployed Skype for Business Server on-premises, you’ll need to redesign your QoS policies.
 
-## Set DSCP markings
+## Setting DSCP markings
 
 There are multiple approaches to setting the proper DSCP markings for traffic classification:
 
