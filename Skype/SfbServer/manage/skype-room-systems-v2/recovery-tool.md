@@ -27,8 +27,8 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 <a name="Windows-ver"> </a>
 ## Verify Windows Version 
 
-1. Login to an admin account by going to **Settings> Windows Setting> Admin Sign In** from the Skype Room Systems v2 device. This option brings you to the login screen.
-2. Sign into an admin account, the default admin account being `admin` with the password `sfb`.
+1. Login to an admin privileged account by going to **Settings> Windows Setting> Admin Sign In** from the Skype Room Systems v2 device. This option brings you to the login screen.
+2. Sign into a user account that is part of the administrator group on the device, the default admin account being `admin` with the password `sfb`.
 3. Click on the start menu and type `winver.exe` into the search box and click **Run Command* on the result.
 4. Make note of the number after 'Version' on the second line of the info pane.
 
@@ -38,7 +38,7 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 <a name="Windows-up"> </a>
 ## Update Windows before recovery (if needed)
 
-1. While still logged in as an admin user, launch an elevated Powershell prompt.
+1. While still logged in as an admin privileged user, launch an elevated Powershell prompt.
 2. Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.
 3. Run Windows Update and install the update for Windows 1709.
 4. After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu). The update may be done from the link or using Windows Update.
@@ -47,7 +47,7 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 <a name="Perform"> </a>
 ## Perform a recovery
 
-1. Sign in to the admin account on your Skype Room Systems v2 device, and launch an elevated command prompt.
+1. Sign in to an admin privileged account on your Skype Room Systems v2 device, and launch an elevated command prompt.
 2. Verify from the Skype Room Systems v2 device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Skype Room Systems v2 installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
 3. Run the Powershell.exe command `-file "<path to RecoveryTool.ps1>" -ExecutionPolicy Unrestricted`.
 4. When prompted by the script select option `1:"Repair System"`.
