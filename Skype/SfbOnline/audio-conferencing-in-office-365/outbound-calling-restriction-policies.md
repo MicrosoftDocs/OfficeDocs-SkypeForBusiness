@@ -3,7 +3,6 @@ title: "Outbound calling restriction policies for Audio Conferencing and user PS
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online

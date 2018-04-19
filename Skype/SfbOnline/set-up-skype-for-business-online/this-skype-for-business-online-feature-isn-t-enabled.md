@@ -3,7 +3,6 @@ title: "This Skype for Business Online feature isn't enabled"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
 ms.tgt.pltfrm: cloud
