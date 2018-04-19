@@ -32,8 +32,8 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 3. Click on the start menu and type `winver.exe` into the search box and click **Run Command* on the result.
 4. Make note of the number after 'Version' on the second line of the info pane.
 
-> [NOTE]
->  If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps. If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.
+>[!NOTE]
+>If the Version shown is 1607 or earlier, follow the steps in the <a href="#Windows-up">Update Windows before recovery</a> steps before proceding to the <a href="#Perform">Perform a recovery</a> steps. If the Version shown is greater than 1607, follow only the steps in <a href="#Perform">Perform a recovery</a>.
 
 <a name="Windows-up"> </a>
 ## Update Windows before recovery (if needed)
@@ -42,7 +42,7 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 2. Run the command `Remove-Item -Path 'c:\Recovery\OEM\$oem$\$1\Rigel' -Force -Recurse`.
 3. Run Windows Update and install the update for Windows 1709.
 4. After the update to 1709 is complete sign back into admin account and install [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu). The update may be done from the link or using Windows Update.
-5. Install any additional updates available from Windows Update.
+5. As an optional step, install any additional updates available from Windows Update.
 
 <a name="Perform"> </a>
 ## Perform a recovery
