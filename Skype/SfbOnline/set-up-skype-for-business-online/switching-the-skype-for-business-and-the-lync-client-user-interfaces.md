@@ -3,7 +3,6 @@ title: "Switching between the Skype for Business and the Lync client user interf
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a2394a4c-7522-484c-a047-7b3289742be0
 ms.tgt.pltfrm: cloud
