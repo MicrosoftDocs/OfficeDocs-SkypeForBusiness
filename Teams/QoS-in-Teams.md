@@ -68,7 +68,7 @@ The guidance for implementing QoS for Teams is based on four scenarios:
     > [!NOTE]
     > If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
 
-*  **Scenario 4:** You’ve deployed, or are deploying, Teams and want to implement QoS via port-based tagging with a custom port range.
+*  **Scenario 4:** You’ve deployed, or are deploying, Teams and want to implement QoS via port-based tagging by using a custom port range.
 
 ## Recommended DSCP markings
 
@@ -187,7 +187,7 @@ To verify that the values from the Group Policy object have been set, perform th
     | Local Port|REG_SZ|50000-50019|
     | Protocol|REG_SZ|*|
     | Remote IP|REG_SZ|*|
-    | Remote Ip Prefix|REG_SZ|*|
+    | Remote IP Prefix|REG_SZ|*|
     | Remote Port|REG_SZ|*|
     | Throttle Rate|REG_SZ|-1|
     
