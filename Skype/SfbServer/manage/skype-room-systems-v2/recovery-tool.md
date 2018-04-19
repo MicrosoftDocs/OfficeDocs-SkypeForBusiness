@@ -49,7 +49,7 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 
 1. Sign in to the admin account on your Skype Room Systems v2 device, and launch an elevated command prompt.
 2. Verify from the Skype Room Systems v2 device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Skype Room Systems v2 installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
-3. Run the Powershell.exe command `-file "<path to RecoveryTool.ps1>" -ExecutionPolicy Unrestricted`.
+3. Run the Powershell.exe command `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4. When prompted by the script select option `1:"Repair System"`.
 5. Upon completion, reboot the Skype Room Systems v2 device. It will reboot again automatically and come up fully recovered the second time.
 
