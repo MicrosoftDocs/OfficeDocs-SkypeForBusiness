@@ -25,22 +25,21 @@ Known issues for Microsoft Teams
 
 Select a Teams feature area to see a current list of its known issues.
 > [!div class="op_single_selector"] 
-> - [Authentication](known-issues.md#Authentication)
-> - [Guest Access](known-issues.md#GuestAccess)
-> - [Files](known-issues.md#Files)
-> - [Teams](known-issues.md#Teams)
-> - [Client](known-issues.md#Client)
-> - [Environment](known-issues.md#Environment)
-> - [Browser](known-issues.md#Browser)
-> - [Administration](known-issues.md#Administration)
-> - [Provisioning](known-issues.md#Provisioning)
-> - [Apps](known-issues.md#Apps)
-> - [Meetings](known-issues.md#Meetings)
-> - [Chat](known-issues.md#Chat)
-> - [Channels](known-issues.md#Channels)
-> - [Mobile](known-issues.md#Mobile)
-> - [Tabs](known-issues.md#Tabs)
-> - [People](known-issues.md#People)
+> - [Authentication](Known-issues.md#Authentication)
+> - [Guest Access](Known-issues.md#GuestAccess)
+> - [Teams](Known-issues.md#Teams)
+> - [Client](Known-issues.md#Client)
+> - [Environment](Known-issues.md#Environment)
+> - [Browser](Known-issues.md#Browser)
+> - [Administration](Known-issues.md#Administration)
+> - [Provisioning](Known-issues.md#Provisioning)
+> - [Apps](Known-issues.md#Apps)
+> - [Meetings](Known-issues.md#Meetings)
+> - [Chat](Known-issues.md#Chat)
+> - [Channels](Known-issues.md#Channels)
+> - [Mobile](Known-issues.md#Mobile)
+> - [Tabs](Known-issues.md#Tabs)
+> - [People](Known-issues.md#People)
 
 
 ***
