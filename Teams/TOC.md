@@ -28,6 +28,7 @@
 ### [Grow adoption NEW](Teams-overview.md)
 ## [FAQ](FAQ-journey.md)
 
+<!--
 # Get started
 ## [Overview of Teams](Teams-overview.md)
 ## [Office 365 licensing for Teams](office-365-licensing.md)
@@ -257,6 +258,7 @@
 ## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Drive value through user adoption](continue-journey.md) -->
 <!-- ## [5 - Upgrade to Teams](upgrade-to-Teams.md) -->
+<!--
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Upgrade to Teams](upgrade-to-Teams.md)
@@ -325,4 +327,5 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+-->
 
