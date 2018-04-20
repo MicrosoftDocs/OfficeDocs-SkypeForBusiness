@@ -44,6 +44,45 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                         </div>
                     </div>
                     <div class="cardText">
+                        <h3>Get started with Skype for Business<br><br>Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the [Upgrade Essentials checklist](upgrade-essentials.md) steps you through activities designed to quickly move your entire organization to Teams.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>We're here to help</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                        </div>
+                    </div>
+                    <div class="cardText">
                         <h3>Get started with Skype for Business</h3>
                     </div>
                 </div>
