@@ -25,7 +25,14 @@ Whether your organization is already using Teams alongside Skype for Business or
 
 To facilitate your upgrade to Teams, Microsoft is working hard to bring you the right level of guidance for your organization, whether it's a small organization, a large enterprise, or somewhere in between. Below are some resources to get you started. More information will be coming online over time, so please check back when your organization is ready to upgrade from Skype for Business to Teams.
 
-[//]: # (Note from Debbie: For Docs: Create two boxes that are also links to the respective sub-pages.)
+A simple image link might be the ticket. First one is the svg file on the S4 converter site, the second is a link to the png file in the pull request branch. It seems the PNG files overwrote the SVG files--could that be?
+
+[<img src="https://s4.aconvert.com/convert/p3r68-cdx67/cb3vh-h4lm6.svg">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working)
+
+
+[<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials.png?branch=pr-en-us-695">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working)
+
+
 
 | Upgrade Essentials | Upgrade Pro |
 |--------------------|-------------|
