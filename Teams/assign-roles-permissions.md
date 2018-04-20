@@ -85,7 +85,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     $Setting = $template.CreateDirectorySetting()
 
-    $setting["EnableGroupCreation"] = "false"
+    $setting["EnableGroupCreation"] = "true"
 
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 

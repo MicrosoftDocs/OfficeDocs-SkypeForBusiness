@@ -3,7 +3,7 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## Audio Conferencing in Office 365(../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Audio Conferencing in Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Audio Conferencing supported languages](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,7 +33,6 @@
 ### [Start an Audio Conference over the phone without a PIN](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Turn on or off entry and exit announcements for meetings](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [Using Audio Conferencing dynamic IDs in your organization](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Calling Plans in Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Add, change, or remove an emergency location for your organization](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
