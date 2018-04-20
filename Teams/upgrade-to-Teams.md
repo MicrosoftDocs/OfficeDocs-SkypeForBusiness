@@ -44,8 +44,7 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Upgrade Essentials</h3>
-                        <p>Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the [Upgrade Essentials checklist](upgrade-essentials.md) steps you through activities designed to quickly move your entire organization to Teams.</p>
+                        <h3>Get started with Skype for Business</h3>
                     </div>
                 </div>
             </div>
@@ -63,8 +62,7 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Upgrade Pro</h3>
-                        <p> (Coming mid-2018) Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better meet the unique attributes of an organization.</p>
+                        <h3>We're here to help</h3>
                     </div>
                 </div>
             </div>
