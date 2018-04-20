@@ -3,7 +3,7 @@ title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -599,7 +599,7 @@ user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions, and report to a steering committee about progress and any open issues.
 
-The [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) includes activities
+The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes activities
 that assess and provide remediation guidance in key areas that have the greatest
 impact on improving user experience. The guidance provided in the Quality
 Experience Review Guide focuses on using CQD Online as the primary tool to
@@ -631,7 +631,7 @@ CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=L
 [Upload Building
 information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[Quality of Experience Review Guide](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -675,7 +675,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) for more detail). It’s essential to
+driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
@@ -748,7 +748,7 @@ the nature of the issue.
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements    | Ensure that the Teams’ endpoint continues to meet all the software requirements for Teams [Get clients for Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).                                                                                                                                                                                       | Monthly   |               |
 | Endpoint firewalls       | Maintain the appropriate exclusions on the endpoint firewall based on the information in the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) article. Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed |               |
-| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | As needed |               |
+| Wi-Fi drivers            | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | As needed |               |
 | Endpoint management      | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies.                                                                                                                                                                                                        | Monthly   |               |
 | Endpoint troubleshooting | Troubleshooting tasks can include; verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors.                                                                                                                                                                                               | As needed |               |
 
@@ -947,6 +947,6 @@ will also directly translate to improvements in video and desktop sharing.
 
 We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
-[Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+[Quality Experience Review Guide](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

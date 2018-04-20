@@ -1,11 +1,9 @@
 ---
 title: "Set up your network for Skype Meeting Broadcast"
 ms.author: tonysmit
-ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: dfa736b9-4920-4f48-b8c0-b5487ec6086f
 ms.tgt.pltfrm: cloud

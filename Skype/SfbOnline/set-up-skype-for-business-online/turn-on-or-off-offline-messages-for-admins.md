@@ -3,7 +3,6 @@ title: "Turn on or off Offline Messages for admins"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 8967a77f-caa2-4680-aa22-8faa32c716e4
 ms.tgt.pltfrm: cloud
