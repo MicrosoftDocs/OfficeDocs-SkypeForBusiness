@@ -79,11 +79,11 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_get-started.svg" alt="Get started" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-Teams-upgrade-essentials.svg?branch=pr-en-us-695" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Skype for Business</h3>
+                        <h3>Upgrade Essentials</h3>
                     </div>
                 </div>
             </div>
@@ -97,11 +97,11 @@ To facilitate your upgrade to Teams, Microsoft is working hard to bring you the 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_support.svg" alt="Help" />
+                            <img src="https://s4.aconvert.com/convert/p3r68-cdx67/cb3vh-h4lm6.svg" alt="Upgrade Pro" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We're here to help</h3>
+                        <h3>Upgrade Pro</h3>
                     </div>
                 </div>
             </div>
