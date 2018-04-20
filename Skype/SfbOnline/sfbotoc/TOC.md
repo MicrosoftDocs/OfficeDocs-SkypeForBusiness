@@ -71,6 +71,7 @@
 ### [What are dial plans?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Phone System in Office 365
+### [What is Phone System in Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Create a Phone System call queue](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
