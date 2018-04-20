@@ -26,10 +26,6 @@ Whether your organization is already using Teams alongside Skype for Business or
 To facilitate your upgrade to Teams, Microsoft is working hard to bring you the right level of guidance for your organization, whether it's a small organization, a large enterprise, or somewhere in between. Below are some resources to get you started. More information will be coming online over time, so please check back when your organization is ready to upgrade from Skype for Business to Teams.
 
 
-<table border-color=dodgerblue>
-<tr><td border-color=dodgerblue>column</td><td border-color=dodgerblue>column2</td></tr>
-</table>
-
 
 |   |   |
 | - | - |
