@@ -25,12 +25,15 @@ Whether your organization is already using Teams alongside Skype for Business or
 
 To facilitate your upgrade to Teams, Microsoft is working hard to bring you the right level of guidance for your organization, whether it's a small organization, a large enterprise, or somewhere in between. Below are some resources to get you started. More information will be coming online over time, so please check back when your organization is ready to upgrade from Skype for Business to Teams.
 
-A simple image link might be the ticket. 
+|   |   |
+| - | - |
+| [<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials_svg.svg?branch=pr-en-us-695" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams) | [<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro.png?branch=pr-en-us-695" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better meet the unique attributes of an organization.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working) |
 
-[<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials_svg.svg?branch=pr-en-us-695">](https://https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)
 
 
-[<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials.png?branch=pr-en-us-695">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working)
+
+
+
 
 
 
