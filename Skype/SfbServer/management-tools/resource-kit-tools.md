@@ -79,7 +79,8 @@ The primary scenarios for the tool are the following:
     
 The ABSConfig tool can be started by using the ABSConfig.exe file. The tool opens to the **Configure Attributes** tab. This table has options to map Active Directory Domain Services attributes to the attribute fields for Skype for Business Server 2015 and to specify which users to include or exclude in Address Book Service files based on specific attribute filters. It also has options to customize which value of the phone number to be included in the Address Book file. The **Restore Defaults** option enables administrators to restore Address Book Service settings to default values.
 
-Note:  Re-mapping of AD attributes to different OC Field Names will only work for Address Book File Download, and is not supported by Address Book Web Query.
+> [!NOTE]
+> Re-mapping of AD attributes to different OC Field Names will only work for Address Book File Download, and is not supported by Address Book Web Query.
   
 ### Output
 
