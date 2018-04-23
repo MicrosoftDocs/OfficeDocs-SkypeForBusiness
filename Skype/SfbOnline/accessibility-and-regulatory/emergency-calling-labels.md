@@ -20,15 +20,13 @@ ms.custom:
 - Calling Plans
 description: "You can download these labels for emergency calling when you are using Calling Plans in Office 365."
 ---
-# Emergency Calling Labels
+# Emergency calling labels
 
 These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.
 
 [Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
-
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
