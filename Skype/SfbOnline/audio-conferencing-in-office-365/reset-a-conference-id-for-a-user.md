@@ -25,14 +25,11 @@ description: "Learn the steps to reset a user's meeting conference ID, and get l
 
 # Reset a conference ID for a user
 
-When your organizations hasn't been enabled for dynamic conference IDs, a static conference ID is automatically created when a Skype for Business or Microsoft Teams user is enabled for Audio Conferencing using Microsoft as the provider. This conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
+A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
   
 > [!NOTE]
-> If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only by default. Unfortunately, you won't be able to change it in the Skype for Business Admin Center or using Windows Powershell. You will have to contact Microsoft support. 
-  
-Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or use one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, [go here](using-audio-conferencing-dynamic-ids-in-your-organization.md).
-  
-Conference IDs are only automatically set only for Skype for Business and Microsoft Teams users enabled for Audio Conferencing using Microsoft as their audio conferencing provider. If you need to reset a conference ID for a user who is using a third-party audio conferencing provider (ACP), you will need to manually enter a conference ID on the properties page for the user.
+> If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only by default. Unfortunately, there's no ability to change it in the Skype for Business Admin Center or using Windows Powershell to become static, as this is now unsupported.
+Conference IDs are only automatically set only for Skype for Business and Microsoft Teams users enabled for Audio Conferencing. 
   
 ## Resetting the conference ID for a user
 
