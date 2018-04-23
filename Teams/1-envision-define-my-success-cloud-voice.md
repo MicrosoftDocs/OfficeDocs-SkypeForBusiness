@@ -1,5 +1,5 @@
 ---
-title: Define success in Audio Conferencing - Microsoft Teams
+title: Define success in Audio Conferencing or Phone System with Calling Plans - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,7 +7,7 @@ ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Measure the results of your Audio Conferencing deployment and verify you've achieved the outcomes you wanted.
+description: Measure the results of your Audio Conferencing or Phone System with Calling Plans deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -19,17 +19,13 @@ This article gives an overview of the requirements for defining success for the 
 
 <!--ENDOFSECTION-->
 
+**Audio Conferencing** provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, private branch exchange (PBX), or mobile phones. This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
+
+**Phone System with Calling Plans** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on.
+
+<!--ENDOFSECTION-->
+
 ## Define business use cases for Audio Conferencing or Phone System with Calling Plans
-
-### Audio Conferencing
-Audio Conferencing provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, PBX, or mobile phones.
-
-This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
-
-### Phone System with Calling Plans
-Organizations can use Phone System with Calling Plans to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices.
-
-Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy private branch exchange (PBX) solutions, the conclusion of a public switched telephone network (PSTN) service provider contract, and so on.
 
 To begin with, core project stakeholders need to define business use cases that support the implementation of Audio Conferencing or Phone System with Calling Plans.
 
@@ -98,7 +94,7 @@ The business use cases defined in the previous step include an organizational sc
 >|Business Unit Representatives|<ul><li>Contribute to user-based adoption guides and materials.</li><li>Contribute to and review business use cases.</li></ul>|TBA|
 >|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met.</li><li>Engage resources to be involved in the Onboard phase activities.</li><li>Participate in meetings to review and prepare reports on deployment status.</li></ul>|TBA|
 >|IT Admins|<ul><li>Assist with test planning and execution. This role is for IT pros.</li></ul>|TBA|
->|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing service, all up.</li><li>Own the Audio Conferencing service.</li></ul>|TBA|
+>|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing or Phone System with Calling Plans service, all up.</li><li>Own the Audio Conferencing or Phone System with Calling Plans service.</li></ul>|TBA|
 >|Quality Champions|<ul><li>Drive quality, reliability, and user feedback.</li><li>Identify quality trends and drive remediation with the respective teams.</li><li>Report through the steering committee back to leadership.</li><li>Report on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score.</li></ul>|TBA|
 
 <br>
