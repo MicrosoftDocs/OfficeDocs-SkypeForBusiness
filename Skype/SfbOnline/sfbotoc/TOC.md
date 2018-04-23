@@ -176,4 +176,5 @@
 ### [Code of practice for the United Kingdom (U.K.)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Complaint handling code for the United Kingdom (U.K.)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Data collection practices](../accessibility-and-regulatory/data-collection-practices.md)
+### [Emergency Calling Labels](../accessibility-and-regulatory/emergency-calling-labels.md)
 ### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
