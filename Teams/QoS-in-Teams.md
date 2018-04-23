@@ -3,7 +3,7 @@ title: QoS in Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
-ms.date: 04/17/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -119,7 +119,7 @@ The recommended method of implementing these QoS policies is to use the client s
 
 There are multiple approaches to setting the proper DSCP markings for traffic classification:
 
--  **DSCP marking at the endpoint:** This is generally the preferred option, because the endpoint itself provides the proper markings. Currently this can be done by using a Group Policy object, but it can only be used on domain-joined Windows clients. Mac OSX or mobile clients, for example, don’t provide a mechanism to mark traffic by using DSCP values.
+-  **DSCP marking at the endpoint:** This is generally the preferred option, because the endpoint itself provides the proper markings. Currently this can be done by using a Group Policy object, but it can only be used on domain-joined Windows clients. Mobile clients don’t provide a mechanism to mark traffic by using DSCP values. Although you can’t configure non&ndash;domain-joined Windows clients to tag traffic, clients such as Mac OS have hard-coded tags and will always tag traffic as described above.
 
 -  **Port-based DSCP tagging by using access control lists (ACLs) on routers:** This is a very common option encountered in heterogeneous Windows and Mac environments. In this scenario, the network team marks the traffic at the ingress/egress routers (typically located on the WAN) based on the source port ranges defined for each modality. Although this works across platforms, it only marks traffic at the WAN edge—not all the way to the client machine—and therefore incurs management overhead.
 	
