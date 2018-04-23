@@ -55,10 +55,9 @@ Only team owners, or members who are granted permissions, can sideload apps into
 
 ![Screenshot of the expanded Apps section in Tenant-wide settings.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
 
-
 ## Creating and uploading app packages 
 
-To learn more about apps, read [Develop apps for Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+To learn more about apps, see [Develop apps for Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
 
 
 
