@@ -3,7 +3,6 @@ title: "Video Skype for Business Online external communications"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a4fa9dea-1de3-461c-a32a-f1bf54596c16
 ms.tgt.pltfrm: cloud

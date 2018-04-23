@@ -3,7 +3,6 @@ title: "Manage user accounts"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b
 ms.tgt.pltfrm: cloud

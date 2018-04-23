@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/09/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -692,7 +692,7 @@ _Table 4 - Report Filter_
 
 ## Import the CQD templates
 
-This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). These templates accelerate your
+This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). These templates accelerate your
 usage of CQD and provide you an opportunity to quickly leverage CQD’s
 capabilities to make an impact on your users’ Teams or Skype for Business
 experience. The All Networks template, though optimized to work with a building
@@ -720,7 +720,7 @@ information into CQD, as described in the next section.
 
 ![Screenshot of a pop-up window that notifies the user that the template was successfully imported.](media/quality-of-experience-review-guide-imagestep5.png)
 
-1.  Repeat steps 4 and 5 for the second CQD template.
+6.  Repeat steps 4 and 5 for the second CQD template.
 
 > [!NOTE]
 > The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
