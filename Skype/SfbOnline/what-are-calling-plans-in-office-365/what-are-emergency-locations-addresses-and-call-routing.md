@@ -68,7 +68,7 @@ Emergency addresses and locations are used during the process of routing emergen
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
 
