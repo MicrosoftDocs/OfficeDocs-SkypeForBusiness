@@ -157,7 +157,7 @@
 ### [Start an Audio Conference over the phone without a PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Audio Conferencing Complimentary Dial Out Period](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Audio Conferencing Complimentary Dial Out Period](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 ## Calling plans
@@ -193,8 +193,8 @@
 ### [Transferring numbers common questions](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [What are Calling Plans in Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [What are emergency locations, addresses and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Phone System
@@ -210,7 +210,7 @@
 
 
 # Security & compliance
-## [Skype for Business and Teams data collection practices](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Skype for Business and Teams data collection practices](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
@@ -278,8 +278,8 @@
 
 
 # Accessibility
-## [Accessibility Declaration of Conformance for Skype for Business Online in France](/SkypeForBusiness/accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/accessibility-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Accessibility Declaration of Conformance for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 #Teams for Education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
