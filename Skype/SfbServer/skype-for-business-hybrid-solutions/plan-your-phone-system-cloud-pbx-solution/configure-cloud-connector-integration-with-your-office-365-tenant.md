@@ -100,11 +100,11 @@ After adding your users to Office 365, enable their accounts for Phone System in
 - Assign the policy to your user and configure the user's business voice phone number, which you specify with the value of the **Identity** parameter:
     
   ```
-  Set-CsUser -Identity "<User principal name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
+  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
     > [!NOTE]
-    > You must specify a user's Identity by their User Principal name (UPN), e.g. Bob.Kelley@contoso.com. 
+    > You can also specify a user's Identity by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly"). 
   
 You can then verify that the users were added and enabled using the following script:
   
