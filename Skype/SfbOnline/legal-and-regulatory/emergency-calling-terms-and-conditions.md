@@ -30,13 +30,13 @@ Emergency Services calling operates differently with Calling Plans in Office 365
 The differences in our Emergency Services calling capabilities include the following: (i) Skype for Business may not know the actual location of a caller making an Emergency Services call, which could result in the call being routed to the wrong Emergency Services call center and/or emergency services being dispatched to the wrong location; (ii) if the user's device has no power, is experiencing a power outage or, for any reason, cannot otherwise access the Internet, the user cannot make an Emergency Services call through Calling Plans in Office 365; and (iii) although Calling Plans in Office 365 can be used anywhere in the world where an Internet connection is available, users should not make an Emergency Services call from a location outside their home country/region because the call likely will not be routed to the appropriate call center in that country/region.
   
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](../what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions.md)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true))
 
   
  
