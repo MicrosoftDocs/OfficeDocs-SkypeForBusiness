@@ -66,17 +66,17 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
 8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
   ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+  Set-CsUser -Identity "<User principal name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
   ```
 
     For example:
     
   ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+  Set-CsUser -Identity "Bob.Kelly@contoso.com" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
   ```
 
     > [!NOTE]
-    > You can also specify a user by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly"). 
+    > You must specify a user by their User Principal name (UPN). 
   
 ## Update the Line URI and dial plan for users enabled for Phone System in Office 365
 
