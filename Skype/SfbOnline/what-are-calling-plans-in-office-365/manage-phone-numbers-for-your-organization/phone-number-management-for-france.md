@@ -42,7 +42,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Emergency calling labels](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
