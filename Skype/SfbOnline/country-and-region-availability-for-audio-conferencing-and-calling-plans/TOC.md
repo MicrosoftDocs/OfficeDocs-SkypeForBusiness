@@ -34,6 +34,7 @@
 ### [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Turn on or off entry and exit announcements for meetings](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
 ## [Calling Plans in Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Add, change, or remove an emergency location for your organization](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Add or remove an emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +60,7 @@
 #### [Phone number management for the U.S.](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [How many phone numbers can you get?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [More about Calling Line ID and Calling Party Name](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[More about Calling Line ID and Calling Party Name](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Search for phone numbers for users](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [See a list of phone numbers in your organization](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Set the Caller ID for a user](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -160,12 +161,12 @@
 ### [Manage user accounts](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Manage your organization using the Skype for Business Online Connector](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Accessibility and regulatory
-### [Accessibility Declaration of Conformance for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Accessibility solutions for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [Complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Code of practice for the United Kingdom (U.K.)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Complaint handling code for the United Kingdom (U.K.)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Data collection practices](../accessibility-and-regulatory/data-collection-practices.md)
-### [Emergency calling labels](../accessibility-and-regulatory/emergency-calling-labels.md)
-### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## Legal and regulatory
+### [Accessibility Declaration of Conformance for Skype for Business Online in France](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [Accessibility solutions for Skype for Business Online in France](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [Code of practice for the United Kingdom (U.K.)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [Complaint handling code for the United Kingdom (U.K.)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Data collection practices](../legal-and-regulatory/data-collection-practices.md)
+### [Emergency calling labels](../legal-and-regulatory/emergency-calling-labels.md)
+### [End of life program for the integration of Skype for Business with third-party audio conferencing](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
