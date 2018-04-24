@@ -35,7 +35,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 > [!CAUTION]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## Using the Microsoft Teams and Skype for Business Admin Center
+## ![teams-logo-30x30.png](../images/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 
@@ -59,7 +59,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
  
 6. Click **Apply**. 
 
-## Using Skype for Business admin center
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     
