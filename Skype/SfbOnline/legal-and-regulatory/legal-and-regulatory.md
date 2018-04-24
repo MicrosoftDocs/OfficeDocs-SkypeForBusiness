@@ -1,5 +1,5 @@
 ---
-title: "Accessibility and regulatory"
+title: "Legal and regulatory"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,4 +19,4 @@ ms.custom:
 - Legal
 description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
-# Accessibility and regulatory
+# Legal and regulatory
