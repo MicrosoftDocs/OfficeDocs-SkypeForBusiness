@@ -48,4 +48,4 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
