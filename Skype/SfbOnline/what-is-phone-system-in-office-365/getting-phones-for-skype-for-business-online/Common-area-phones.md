@@ -24,7 +24,10 @@ description: "Learn the deployment steps to get the correct firmware, update it 
 
 
 # Common Area Phones
+A common area phone, or CAP, is a phone commonly placed in a shared area and not associated with an individual use. For example, a reception area phone, door phone or meeting room phone. There is a different phone sign in process for CAP phones. CAPs are set up as devices rather than users.
 
-##New Heading
+##Prerequisites for Common Area Phones
+
+
 
 ##New Heading
