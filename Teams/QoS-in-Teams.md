@@ -7,6 +7,7 @@ ms.date: 02/16/2018
 ms.topic: article
 ms.service: msteams
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 
 ---
