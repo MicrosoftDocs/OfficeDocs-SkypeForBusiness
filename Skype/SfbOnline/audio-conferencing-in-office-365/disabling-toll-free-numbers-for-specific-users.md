@@ -61,7 +61,7 @@ When toll-free numbers are disabled for a given organizer:
  
 4. Click **Save**. 
  
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+ > [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **Using PowerShell**  
 

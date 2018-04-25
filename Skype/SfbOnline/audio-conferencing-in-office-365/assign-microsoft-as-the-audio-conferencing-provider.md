@@ -45,7 +45,8 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 5. Click **Save**.
 
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ### Using a Windows PowerShell script for a small number of users
 
