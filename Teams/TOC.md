@@ -1,9 +1,10 @@
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Upgrade to Teams](upgrade-to-Teams.md)
-### [Upgrade Essentials checklist](upgrade-essentials.md)
-### [Upgrade Pro guide NEW](Teams-overview.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Plan for your journey NEW](Teams-overview.md)
+## [Upgrade Essentials checklist](upgrade-essentials.md)
+## [Upgrade Pro guide NEW](Teams-overview.md)
+### [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Plan for the journey NEW](Teams-overview.md)
+## [Understand coexistence and upgrade modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [Plan for quality](envision-planning-for-service-management-and-quality-complete-guide.md)
 ## [Is Teams ready for me? NEW](Teams-overview.md)
 ## [Prepare my environment for Teams](prepare-teams.md)
@@ -30,6 +31,7 @@
 
 <!-- BEGIN REAL TOC -->
 
+<!--
 # Get started
 ## [Overview of Teams](Teams-overview.md)
 ## [Office 365 licensing for Teams](office-365-licensing.md)
@@ -326,3 +328,4 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+-->
