@@ -30,7 +30,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## Assign Microsoft as the audio conferencing provider
 
-### Using the Skype for Business admin center
+### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
 1. Go to the **Office 365 admin center** > **Skype for Business**.
     
@@ -44,6 +44,8 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
     > Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.
   
 5. Click **Save**.
+
+> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ### Using a Windows PowerShell script for a small number of users
 

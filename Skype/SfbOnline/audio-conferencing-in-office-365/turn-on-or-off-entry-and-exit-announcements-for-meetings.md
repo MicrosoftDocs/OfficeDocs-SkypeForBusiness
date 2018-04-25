@@ -31,7 +31,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Setting meeting join options
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
@@ -45,7 +45,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     
 6. After you make your changes, click **Apply**.
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -57,6 +57,8 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     
 5. After you make your changes, click **Save**.
     
+> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## Want to know how to manage with Windows PowerShell?
 
 - To save time or automate this, you can use the [Set-CsOnlineDialInConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet.

@@ -25,15 +25,13 @@ description: "Learn how to assign a conference ID to a user in Skype for Busines
 
 # See, change, and reset a conference ID assigned to a user
 
-A conferencing ID is automatically assigned to a Skype for Business or Microsoft Teams user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned can be either static or dynamic and is sent in the meeting invite when the meeting is scheduled.
+A conferencing ID is automatically assigned to a Skype for Business or Microsoft Teams user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID. 
   
-Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or use one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, [go here](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use the **Skype for Business admin center** and Windows PowerShell to view, change, and reset their conference ID.
   
-Although a static conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use the **Skype for Business admin center** and Windows PowerShell to view, change, and reset their conference ID.
+An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. For more information about resetting a conference organizer's PIN, [go here](reset-a-conference-id-for-a-user.md). 
   
-An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN.
-  
-## View and change conference IDs
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) View and change conference IDs
 
 ### To view the conference ID
 
@@ -50,7 +48,9 @@ You can view their conference ID and send it to users.
     > [!TIP]
     > You can send all of the conferencing information to the user in an email that includes the conference ID and audio phone numbers by clicking the **Send conference info via email** link after you select the user on the **Users** page.
   
-    You can use Windows PowerShell to view the conference ID for a user. To do so, run:
+> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+You can use Windows PowerShell to view the conference ID for a user. To do so, run:
     
   ```
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
@@ -74,7 +74,7 @@ To edit or change the conference ID for a user, run:
   > [!TIP]
   > A conference ID must contain 7 digits, and you can't change it in the Skype for Business admin center or by using Windows PowerShell. 
   
-### To reset the conference ID
+### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) To reset the conference ID
 
 You can reset a conference ID for a user if, for example, if they forget it.
   

@@ -29,13 +29,15 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
   
 ## Viewing a list of users
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 - In the left navigation, click **Users**.
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 - In the left navigation, go to **Audio conferencing** > **Users**.
+
+> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## What else should I know?
 

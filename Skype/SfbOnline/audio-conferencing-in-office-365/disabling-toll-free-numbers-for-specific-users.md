@@ -39,7 +39,7 @@ When toll-free numbers are disabled for a given organizer:
 
 ## Disabling toll-free numbers for specific users 
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
 
@@ -51,7 +51,7 @@ When toll-free numbers are disabled for a given organizer:
 
 5. Click **Apply.** 
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users. 
 
@@ -60,6 +60,8 @@ When toll-free numbers are disabled for a given organizer:
 3. Clear **Allow using toll-free numbers to join the meetings of this user**. 
  
 4. Click **Save**. 
+ 
+> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **Using PowerShell**  
 
