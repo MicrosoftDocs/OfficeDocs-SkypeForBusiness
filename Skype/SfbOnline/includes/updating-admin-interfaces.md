@@ -1,1 +1,1 @@
-We are in the process of frequently updating how you will manage features found in Skype for Business and Microsoft Teams, so the steps might be slightly different than what you see. Use the link below to let us know if you have feedback.We are frequently updating how you can manage features found in Microsoft Teams. Steps might be a little different.
+We are frequently updating how you can manage features found in Microsoft Teams. Steps might be a little different.
