@@ -1,3 +1,37 @@
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [Upgrade to Teams](upgrade-to-Teams.md)
+## [Upgrade Essentials checklist](upgrade-essentials.md)
+## [Upgrade Pro guide NEW](Teams-overview.md)
+### [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Plan for the journey NEW](Teams-overview.md)
+## [Understand coexistence and upgrade modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [Plan for quality](envision-planning-for-service-management-and-quality-complete-guide.md)
+## [Is Teams ready for me? NEW](Teams-overview.md)
+## [Prepare my environment for Teams](prepare-teams.md)
+### [Prerequisites NEW](Teams-overview.md)
+### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+### [Discover my environment](environmental-discovery-for-microsoft-teams-rollout.md)
+### [Prepare my network](prepare-network.md)
+### [Monitor quality NEW](Teams-overview.md)
+## [Prepare my organization for Teams](2-onboard-prepare-my-users.md)
+### [Organizational change management NEW](Teams-overview.md)
+### [WAS Awareness training and support NOW Prepare my user readiness plan NEW](Teams-overview.md)
+## [Prepare my IT pros for Teams NEW](Teams-overview.md)
+## [Plan to run Teams alongside Skype for Business NEW](Teams-overview.md)
+## [Conduct a Teams pilot side by side with Skype for Business NEW](Teams-overview.md)
+### [Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+### [Execute upgrade from Skype for Business Online to Teams NEW](Teams-overview.md)
+### [Execute upgrade from Skype for Business on-premises to Teams NEW](Teams-overview.md)
+### [Upgrade FAQ is different?](FAQ-journey.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate my service](1-drive-value-operate-my-service.md)
+### [Enhance my service](2-drive-value-enhance-my-service.md)
+### [Grow adoption NEW](Teams-overview.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- BEGIN REAL TOC -->
+
+<!--
 # Get started
 ## [Overview of Teams](Teams-overview.md)
 ## [Office 365 licensing for Teams](office-365-licensing.md)
@@ -94,9 +128,8 @@
 
 
 ## [Deployment guidance](cloud-voice-deployment.md)
-### [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
+### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
 ### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 ### [Plan my service management](4-envision-plan-my-service-management.md)
@@ -227,11 +260,8 @@
 ### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
 ## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
-<!-- ## [5 - Upgrade to Teams](upgrade-to-Teams.md) -->
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade to Teams](upgrade-to-Teams.md)
-## [Manage Teams using PowerShell](manage-teams-powershell.md)
 
 
 
@@ -298,3 +328,4 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+-->
