@@ -68,7 +68,7 @@ A Virtual Desktop Infrastructure (VDI) environment is used in some organizations
   
 ### Skype Room Systems v2
 
-Skype Room Systems v2 is Microsoft's latest conferencing solution which uses a familiar Skype for Business interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Skype Room Systems v2 uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. Software is updated via both Windows store and Windows Update. See [Plan for Skype Room Systems v2](skype-room-systems-v2-splash.md) for details on using these room consoles in your deployment.
+Skype Room Systems v2 is Microsoft's latest conferencing solution which uses a familiar Skype for Business interface and is easily deployed and managed, leveraging existing equipment like LCD panels for ease of installation. Skype Room Systems v2 uses a purpose-built UWP app running on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. Software is updated via both Windows store and Windows Update. See [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md) for details on using these room consoles in your deployment.
   
 ### Skype for Business on Surface Hub
 
@@ -151,7 +151,7 @@ See the following articles to understand the supported features, platforms, oper
     
 - [Skype for Business on Mac client requirements](mac-requirements.md)
     
-- [Plan for Skype Room Systems v2](skype-room-systems-v2-splash.md)
+- [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
     
 - [Plan for Skype for Business in VDI environments](vdi-environments.md)
     

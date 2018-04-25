@@ -100,7 +100,7 @@
 #### [Video resolutions](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Meetings clients](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 #### [Requirements for Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-#### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-splash.md)
+#### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
 ##### [OMS management](../plan-your-deployment/clients-and-devices/oms-management.md)
 #### [VDI environments](../plan-your-deployment/clients-and-devices/vdi-environments.md)

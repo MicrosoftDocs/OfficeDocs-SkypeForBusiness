@@ -1,5 +1,5 @@
 ---
-title: "Preparing your Skype for Business Environment"
+title: "Prepare your Skype for Business Environment"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,7 +12,7 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "This article explains the infrastructure preparations for deploying Skype Room Systems v2."
 ---
  
-# Preparing your Skype for Business Environment
+# Prepare your Skype for Business Environment
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Skype Room Systems v2.
   
@@ -162,7 +162,7 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 
 #### 
 
-[Skype Room Systems v2 Admin Guide](skype-room-systems-v2-splash.md)
+[Plan Skype Room Systems v2 ](skype-room-systems-v2-0.md)
 
 [Skype Room Systems v2 requirements](requirements.md)
   
