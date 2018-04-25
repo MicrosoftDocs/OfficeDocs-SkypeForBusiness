@@ -51,6 +51,7 @@ Here is an example of the email that is sent:
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## What else should you know about this email?
 
 - There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
