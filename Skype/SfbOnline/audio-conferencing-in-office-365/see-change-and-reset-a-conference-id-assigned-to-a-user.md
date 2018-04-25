@@ -48,7 +48,8 @@ You can view their conference ID and send it to users.
     > [!TIP]
     > You can send all of the conferencing information to the user in an email that includes the conference ID and audio phone numbers by clicking the **Send conference info via email** link after you select the user on the **Users** page.
   
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
     

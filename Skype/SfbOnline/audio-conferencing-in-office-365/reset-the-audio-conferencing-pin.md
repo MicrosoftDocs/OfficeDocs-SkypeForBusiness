@@ -39,7 +39,8 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
     
 4. In the Action pane, under **PIN**, click **Reset**.
  
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
 ## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Have a user reset his or her own PIN
 

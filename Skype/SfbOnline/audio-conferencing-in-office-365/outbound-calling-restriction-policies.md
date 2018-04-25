@@ -60,7 +60,8 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Click **Save**.
 
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **Using PowerShell**
 

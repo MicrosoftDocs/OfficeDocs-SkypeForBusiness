@@ -59,7 +59,8 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
  
 6. Click **Apply**. 
  
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
 

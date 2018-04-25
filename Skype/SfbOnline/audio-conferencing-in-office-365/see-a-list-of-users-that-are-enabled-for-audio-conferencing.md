@@ -37,7 +37,8 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
     
 - In the left navigation, go to **Audio conferencing** > **Users**.
 
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ## What else should I know?
 

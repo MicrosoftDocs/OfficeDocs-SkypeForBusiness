@@ -119,7 +119,8 @@ By default, emails will be sent to your users, but if you want to prevent them f
     
 3. Click **Save**. 
 
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 **Using Windows PowerShell**
   

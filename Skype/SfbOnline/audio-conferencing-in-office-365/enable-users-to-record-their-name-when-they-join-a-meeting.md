@@ -54,7 +54,8 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     
 3. After you make your changes, click **Save**.
     
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## Want to know how to manage with Windows PowerShell?
 

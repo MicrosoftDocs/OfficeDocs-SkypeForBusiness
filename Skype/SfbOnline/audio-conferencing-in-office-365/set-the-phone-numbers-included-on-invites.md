@@ -68,7 +68,8 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
     
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Reset audio conferencing phone numbers
 

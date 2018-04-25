@@ -28,7 +28,9 @@ description: "As an Office 365 admin, you can edit the Audio Conferencing settin
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
   
 ![Shows the Audio Conferencing Properties page for a user](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
-  
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
@@ -51,7 +53,8 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 |**Allow unauthenticated callers to be the first people in a meeting** <br/> |Select this option to allow unauthenticated callers to be the first to join meetings.  <br/> |
 |**Restrictions to dial-outs from meetings of this user** <br/> |Select an option in this list if you want to restrict dial-outs to domestic only, or if you want to prevent all dial-outs from meetings.  <br/> |
    
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## Related topics
 

@@ -70,7 +70,9 @@ See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId
   
 See [See, change, and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Change the audio conferencing provider from Microsoft to a third-party provider
+## Change the audio conferencing provider from Microsoft to a third-party provider
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -87,7 +89,8 @@ See [See, change, and reset a conference ID assigned to a user](see-change-and-r
   
 6. Click **Save**. 
     
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Enable or disable emails sent to audio conferencing users
 

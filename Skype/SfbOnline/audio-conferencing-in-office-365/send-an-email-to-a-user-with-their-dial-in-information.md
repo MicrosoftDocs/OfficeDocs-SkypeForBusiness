@@ -48,9 +48,9 @@ Here is an example of the email that is sent:
     
 > [!TIP]
 > You can also send email to the user with the audio conferencing settings by editing the user's properties and then clicking **Audio conferencing** > **Send conference info via email**. 
-  
-> [!Note> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 ## What else should you know about this email?
 
 - There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
