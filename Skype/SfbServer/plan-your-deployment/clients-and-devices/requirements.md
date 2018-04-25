@@ -132,7 +132,7 @@ In addition, you will probably want a copy of the [Powershell script](https://go
 
 #### 
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-splash.md)
   
 [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
   

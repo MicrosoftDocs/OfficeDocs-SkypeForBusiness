@@ -252,7 +252,7 @@ Some management functions, like manually installing a private CA certificate, re
 #### 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-splash.md)
   
 [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
   

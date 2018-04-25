@@ -145,7 +145,7 @@ For validation, you should be able to use any Skype for Business client to log i
 
 #### 
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-splash.md)
   
 [Deploy Skype Room Systems v2](room-systems-v2.md)
   
