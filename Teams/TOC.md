@@ -94,9 +94,8 @@
 
 
 ## [Deployment guidance](cloud-voice-deployment.md)
-### [Define my success - Audio Conferencing](1-envision-define-my-success-audio-conferencing.md)
+### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [Define my success - Phone System with Calling Plans](1-envision-define-my-success-phone-system.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
 ### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 ### [Plan my service management](4-envision-plan-my-service-management.md)
