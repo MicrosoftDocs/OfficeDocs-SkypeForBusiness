@@ -49,7 +49,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
-  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
   - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
 <!-- HP dock is still pending  -->  
