@@ -7,7 +7,7 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Measure the results of your Audio Conferencing or Phone System with Calling Plans deployment, and verify you've achieved the outcomes you wanted.
+description: Choose the right level of guidance for your organization as you prepare to upgrade to Teams. 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -20,7 +20,7 @@ Congratulations on your pending upgrade to Microsoft Teams! Teams combines every
 Whether your organization is already using Teams alongside Skype for Business or you're just getting started with Teams, Microsoft is here to support you through the upgrade process. Your success is our success.
 
 > [!Important]
-> Teams has the power to transform the way your users work. A successful upgrade will include both technical and user readiness-focused activities.
+> Teams has the power to transform the way your users work. To have a successful upgrade, you'll need to include both technical and user readiness-focused activities.
 
 To facilitate your upgrade to Teams, Microsoft is working hard to bring you the right level of guidance for your organization, whether it's a small organization, a large enterprise, or somewhere in between. Below are some resources to get you started. More information will be coming online over time, so please check back when your organization is ready to upgrade from Skype for Business to Teams.
 
