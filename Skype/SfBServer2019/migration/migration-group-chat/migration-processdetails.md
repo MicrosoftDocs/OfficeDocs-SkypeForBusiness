@@ -111,7 +111,8 @@ Perform the following steps to migrate your legacy Group Chat Server.
     
 12. Delete the trusted application and trusted application pool using Windows PowerShell cmdlets. This deletes these items from the Central Management store and the associated Trusted Service Entries (TSEs) from the Active Directory. Alternatively, this step works by using the Topology Builder (the trusted applications/pools have a dedicated node there, also).
     
-13. You can now begin to enable Persistent Chat Server functionality through the new clients. For details about enabling Persistent Chat Server, see [Deploying Persistent Chat Server in Lync Server 2013](../../deployment/deploying-persistent-chat-server/deploying-persistent-chat-server.md).
+13. You can now begin to enable Persistent Chat Server functionality through the new clients. For details about enabling Persistent Chat Server, see 
+<!-- [Deploying Persistent Chat Server in Lync Server 2013](../../deployment/deploying-persistent-chat-server/deploying-persistent-chat-server.md). -->
     
     > [!IMPORTANT]
     > Lync Server 2013 supports multiple Persistent Chat Server pools. However, we support migrating a Lync 2010 Group Chat or Office Communications Server 2007 R2 Group Chat pool to a single Lync Server 2013, Persistent Chat Server pool. You can add additional new Persistent Chat Server pools in your deployment to meet the regulatory needs (for example, keeping data within a given geography). 
