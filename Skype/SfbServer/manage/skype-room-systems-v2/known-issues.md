@@ -1,5 +1,5 @@
 ---
-title: "Known issues for Skype Room Systems v2 "
+title: "Known issues"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "This article discusses known issues for Skype Room Systems v2 current branch versions."
 ---
 
-# Known issues for Skype Room Systems v2 
+# Known issues 
  
 This article lists the known issues for Skype Room Systems v2, by feature area.
 

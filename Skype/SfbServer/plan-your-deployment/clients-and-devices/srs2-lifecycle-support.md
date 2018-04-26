@@ -1,5 +1,5 @@
 ---
-title: "Support for Skype Room Systems v2 current branch versions"
+title: "Support for current branch versions"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "This article discusses lifecycle support for Skype Room Systems v2."
 ---
 
-# Support for Skype Room Systems v2 current branch versions
+# Support for current branch versions
  
 Microsoft plans to release current branch updates for Skype Room Systems v2 a few times per year with each update version supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest current branch version.
 

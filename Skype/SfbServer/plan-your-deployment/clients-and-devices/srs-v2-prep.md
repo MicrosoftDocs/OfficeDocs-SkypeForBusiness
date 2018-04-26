@@ -1,5 +1,5 @@
 ---
-title: "Prepare your Skype for Business Environment"
+title: "Prepare your Environment"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,9 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "This article explains the infrastructure preparations for deploying Skype Room Systems v2."
 ---
  
-# Prepare your Skype for Business Environment
+# Prepare your environment
 
-This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Skype Room Systems v2.
+This section contains an overview of the steps required to prepare your Skype for Business environment so that you can use all of the features of Skype Room Systems v2.
   
 1. Prepare a device account for each Skype Room Systems v2 console. See [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) for details.
     

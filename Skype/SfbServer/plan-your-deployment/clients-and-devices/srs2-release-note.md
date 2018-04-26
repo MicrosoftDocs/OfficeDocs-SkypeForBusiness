@@ -1,5 +1,5 @@
 ---
-title: "Skype Room Systems v2 release notes"
+title: "Release notes"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "This article discusses cumulative improvements in Skype Room Systems v2."
 ---
 
-# Skype Room Systems v2 release notes 
+# Release notes 
 
 This article discusses cumulative improvements in Skype Room Systems v2.
 
