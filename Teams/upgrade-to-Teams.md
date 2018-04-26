@@ -21,12 +21,17 @@ We understand that your upgrade journey may take some time and, as a valued Skyp
 
 
 <table>
-<tr><td><img src="media/upgrade-to-teams-success-framework.png?branch=Upgrade-working" width=400 alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends by laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change."></td><td> To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.</td></tr></table>
+<tbody>
+<tr><td><img src="media/upgrade-to-teams-success-framework.png?branch=Upgrade-working" width=400 alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends by laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change."></td><td> To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.</td></tr></tbody></table>
+
+<table>
+<tbody>
+<tr><td><img src="media/upgrade-to-teams-success-framework.png?branch=Upgrade-working" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends by laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change."></td><td> To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.</td></tr></tbody></table>
 
 We understand that customers are not a one-sized-fits-all. For added flexibility, we’ve organized the framework into two paths, Upgrade Essentials and Upgrade Pro, enabling you to select the optimal upgrade journey to meet your organization’s needs.
 
--  Upgrade Essentials is designed for smaller customers or those with simple deployments (eg IM only), who can quickly and easily move all of their users to Teams at once.
--  Upgrade Pro is targeted for customers with more complex deployment scenarios (eg hybrid, Voice workloads, etc) who may require more time to upgrade as well as benefit from a phased upgrade approach.
+-  **Upgrade Essentials** is designed for smaller customers or those with simple deployments (eg IM only), who can quickly and easily move all of their users to Teams at once.
+-  **Upgrade Pro** is targeted for customers with more complex deployment scenarios (eg hybrid, Voice workloads, etc) who may require more time to upgrade as well as benefit from a phased upgrade approach.
  
 
 
