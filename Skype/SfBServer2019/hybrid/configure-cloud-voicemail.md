@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "cloud voicemail"
+description: "Instructions for implementing cloud-based voicemail for users homed on-premises."
 ---
 
 # Deploy cloud-based voicemail
