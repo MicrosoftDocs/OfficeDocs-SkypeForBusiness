@@ -1,5 +1,5 @@
 ---
-title: "Skype Room Systems v2 Admin Guide"
+title: "Skype Room Systems v2 Administration"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,10 +10,10 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: "This guide explains the relevant planning considerations for deploying Skype Room Systems v2, and how to deploy and manage the system."
+description: "The relevant planning considerations for deploying Skype Room Systems v2, and how to deploy and manage the system."
 ---
 
-<h2>Skype Room Systems v2 Admin Guide</h2>
+<h2>Skype Room Systems v2 Administration</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -43,7 +43,7 @@ description: "This guide explains the relevant planning considerations for deplo
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
+        <a href="../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -61,7 +61,7 @@ description: "This guide explains the relevant planning considerations for deplo
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
+        <a href="../deploy/deploy-clients/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -79,7 +79,7 @@ description: "This guide explains the relevant planning considerations for deplo
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
+        <a href="../manage/skype-room-systems-v2/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -97,9 +97,6 @@ description: "This guide explains the relevant planning considerations for deplo
         </a>
     </li>
 </ul>
-
-
- <!-- [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)  [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)  [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md) -->
 
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
