@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: "Summary: Learn how to configure voice mail escape in Skype for Business Server 2015 by using the Skype for Business Server Management Shell."
 ---
