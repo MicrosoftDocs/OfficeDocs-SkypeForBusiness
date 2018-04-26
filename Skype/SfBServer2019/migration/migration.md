@@ -2,8 +2,7 @@
 title: "Migration"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
