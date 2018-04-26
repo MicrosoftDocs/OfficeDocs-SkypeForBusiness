@@ -20,12 +20,7 @@ This article explains the relevant planning considerations for deploying Skype R
   
 Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.
   
-<<<<<<< HEAD
 Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sure you have the necessary hardware and software. also review [Skype Room Systems v2 requirements](requirements.md). 
-=======
-
-Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
->>>>>>> origin/dstrome-working
 
   
 > [!NOTE]
@@ -35,10 +30,6 @@ Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sur
 
   Skype Room Systems v2 offers: 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/dstrome-working
  **Built for Skype for Business**
   
 - One-touch join of Skype Meetings
@@ -115,12 +106,9 @@ Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sur
   
 &#x2778; - Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
 
-<<<<<<< HEAD
 &#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
 
 &#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
-=======
->>>>>>> origin/dstrome-working
   
 &#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
 
