@@ -17,7 +17,7 @@ description: "Summary: Configure your non-server requirements for Skype for Busi
  
 **Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
   
-What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
+What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -98,17 +98,17 @@ Skype for Business Server 2015's supported topologies are:
     
 We have diagrams and descriptions to help you determine what topology you have in your environment, or what you may need to set up prior to installing Skype for Business Server 2015. To keep it simple, we're also including a key:
   
-![The is a key to the icons used for Skype for Business topology diagrams](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![The is a key to the icons used for Skype for Business topology diagrams](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### Single forest with single domain
 
-![Diagram of Active Directory single forest with a single domain](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagram of Active Directory single forest with a single domain](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 It doesn't get easier than this, it's a single domain forest, this is a common topology.
   
 #### Single forest with a single tree and multiple domains
 
-![A single forest, single tree and mutiple domains diagram](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![A single forest, single tree and mutiple domains diagram](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 This diagram shows a single forest, again, but it has one or more child domains as well (there are three in this specific example). So the domain the users are created in might be different from the domain Skype for Business Server 2015 is deployed to. Why worry about this? It's important to remember that when you deploy a Skype for Business Server Front End pool, all the servers in that pool need to be in a single domain. You can have cross-domain administration via Skype for Business Server's support of Windows universal administrator groups.
   
@@ -116,7 +116,7 @@ Back to the diagram above, you can see that users from one domain are able to ac
   
 #### Single forest with multiple trees and disjoint namespaces
 
-![A single forest, multiple  trees and disjoint namespaces diagram](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![A single forest, multiple  trees and disjoint namespaces diagram](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 It may be that you've got a topology similar to this diagram, where you have one forest, but within that forest are multiple domains, with separate AD namespaces. If that's the case, this diagram's a good illustration, as we have users in three different domains accessing Skype for Business Server 2015. Solid lines indicate they're accessing a Skype for Business Server pool in their own domain, while a dashed line indicates they're going to a pool in a different tree altogether.
   
@@ -124,7 +124,7 @@ As you can see, users in the same domain, the same tree, or even a different tre
   
 #### Multiple forests in a central forest topology
 
-![Multiple forests in a central forest topology diagram](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Multiple forests in a central forest topology diagram](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2015 does support multiple forests configured in a central forest topology. If you're not sure that's what you have, the central forest in the topology uses objects in it to represent users in the other forests, and hosts user accounts for any users in the forest.
   
@@ -135,7 +135,7 @@ Clearly, if your AD infrastructure is in-place moving to this topology might not
 #### Multiple forests in a Skype for Business resource forest topology
 <a name="BKMK_multipleforestopology"> </a>
 
-![Multiple forests in a resource forest topology diagram](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Multiple forests in a resource forest topology diagram](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2015. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
@@ -153,7 +153,7 @@ In this topology, there are one or more user forests, and Skype for Business Ser
 #### Multiple forests in a resource forest topology with Skype for Business Online and Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Office 365 using Azure AD Connect. All users are enabled for Skype for Business via Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Office 365 using Azure AD Connect. All users are enabled for Skype for Business via Office 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
 With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Office 365.
   
@@ -168,7 +168,7 @@ In this scenario, it is supported to deploy Exchange on-premises, Exchange Onlin
 
 In this scenario, there are one or more on-premises user forests, and Skype for Business is deployed in a dedicated resource forest and is configured for hybrid mode with Skype for Business Online. Exchange Server can be deployed on-premises in the same resource forest or a different forest and may be configured for hybrid with Exchange Online. Alternatively, email services may be provided exclusively by Exchange Online for the on-premises accounts.
   
-For more information, see [Configure a multi-forest environment for hybrid Skype for Business](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
+For more information, see [Configure a multi-forest environment for hybrid Skype for Business](../../SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
   
 ## Domain Name System (DNS)
 <a name="DNS"> </a>
@@ -197,7 +197,7 @@ This seems like it would be logical for any computer already joined to a domain,
   
 And definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are the ones that are going to be supported by external DNS and public Certificate Authorities (you'll need to assign FQDNs to the SN in the certificate, don't forget), so you'll spare yourself a lot of grief if you name with this in mind.
   
-For further reading on DNS requirements for Networking, check out the [Networking](../../plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
+For further reading on DNS requirements for Networking, check out the [Networking](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
   
 ## Certificates
 <a name="Certs"> </a>
