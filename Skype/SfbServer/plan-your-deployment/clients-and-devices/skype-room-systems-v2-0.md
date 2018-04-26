@@ -20,12 +20,12 @@ This article explains the relevant planning considerations for deploying Skype R
   
 Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.
   
-Before you being preparing your environment, be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
+Before you begin preparing your environment, be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
   
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
   
-Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
+
   
  **Built for Skype for Business**
   

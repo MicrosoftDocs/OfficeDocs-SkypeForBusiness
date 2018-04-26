@@ -209,10 +209,10 @@
 
 
 # Security & compliance
+## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Skype for Business and Teams data collection practices](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
