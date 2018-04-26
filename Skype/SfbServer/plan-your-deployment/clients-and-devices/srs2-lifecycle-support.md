@@ -40,7 +40,6 @@ All releases are listed in the [Skype Room Systems v2 release notes](srs2-releas
 
 [Skype Room Systems v2 release notes](srs2-release-note.md)
 
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
-
-[Manage Skype Room Systems v2](skype-room-systems-v2.md)
 #### 

@@ -56,7 +56,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 **New feature(s)** introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware 
 
-
+<a name="Ver4"> </a>
 ### Update 4 
 ##### (00/00/0000)
 **New feature(s)** introduced in this update: 
@@ -64,7 +64,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
     
 - Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)
 
-
+<a name="Ver3"> </a>
 ### Update 3 
 ##### (00/00/0000)
 **New feature(s)** introduced in this update:  
@@ -76,36 +76,37 @@ This article discusses cumulative improvements in Skype Room Systems v2.
     
 - OEM Support for Environment Controls (Crestron)
     
+The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
 
-
+<a name="Ver2"> </a>
 ### Update 2 
-##### (00/00/0000)
+##### 11/16/2017 
 **New feature(s)** introduced in this update:  
-- Dual-Screen support (for legacy system parity) &#x2777;
+- Dual-Screen support (for legacy system parity)
     
-- Themability (built-in themes and the ability to set custom theme) &#x2777;
-- Ability to Give Feedback for public builds &#x2777;
+- Themability (built-in themes and the ability to set custom theme) 
+- Ability to Give Feedback for public builds 
     
-- Improved Telemetry around meeting join reliability &#x2777;
+- Improved Telemetry around meeting join reliability 
     
-- Additional OMS reporting &#x2777;
+- Additional OMS reporting 
     
-- Ability for IT Admin to configure devices remotely &#x2777;
+- Ability for IT Admin to configure devices remotely 
     <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
-
+<a name="Ver1"> </a>
 ### Update 1 
-##### (00/00/0000) 
+##### 03/15/2017
 **New feature(s)** introduced in this update: 
 
-- In-app user selection of meeting room audio and video USB devices &#x2776;
+- In-app user selection of meeting room audio and video USB devices 
 
 - Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan 
-Skype Room Systems v2 management with OMS](oms-management.md)) &#x2776;
+Skype Room Systems v2 management with OMS](oms-management.md)) 
 
-
+<a name="Ver0"> </a>
 ### Release to Market 
-##### (00/00/0000)
+##### 12/7/2016
 **Feature(s):** 
 
  **Built for Skype for Business**
@@ -141,7 +142,7 @@ Skype Room Systems v2 management with OMS](oms-management.md)) &#x2776;
     
 - Windows AppLocker locks down the device to the Skype Meeting app
     
-- Monitored and managed as a Windows 10 Enterprise device via Intune and SCCM (MDM)
+- Monitored and managed as a Wi[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)ndows 10 Enterprise device via Intune and SCCM (MDM)
     
 - Enterprise-grade reliability
     
@@ -157,5 +158,9 @@ Skype Room Systems v2 management with OMS](oms-management.md)) &#x2776;
 #### 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Manage Skype Room Systems v2](skype-room-systems-v2.md)
+[Prepare your Skype for Business Environment](srs-v2-prep.md)
+[Support for Skype Room Systems v2 current branch versions](srs2-lifecycle-support.md)
+[Known issues for Skype Room Systems v2](../../manage/skype-room-systems-v2/known-issues.md)
+
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 #### 
