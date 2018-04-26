@@ -18,4 +18,4 @@ This section explains how to migrate from Microsoft Lync Server 2010, Microsoft 
 
 - [Migration to Skype for Business Server 2019](migration-to-skype-for-business-server-2019/migration-to-skype-for-business-server-2019.md)
 
-- [Migration Persistent Chat to Skype for Business Server 2019](migration-group-chat/migration-from-group-chat.md)
+- [Migrate Persistent Chat to Skype for Business Server 2019](migration-group-chat/migration-from-group-chat.md)
