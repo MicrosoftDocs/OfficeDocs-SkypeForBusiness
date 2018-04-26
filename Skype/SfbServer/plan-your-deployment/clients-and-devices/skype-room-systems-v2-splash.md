@@ -61,7 +61,7 @@ description: "This guide explains the relevant planning considerations for deplo
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2y">
+        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
