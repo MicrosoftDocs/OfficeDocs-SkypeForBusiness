@@ -1,3 +1,36 @@
+# [Journey from Skype for Business to Teams](upgrade-to-Teams.md)
+## [Upgrade Essentials checklist](upgrade-essentials.md)
+## [Upgrade Pro guide NEW](Teams-overview.md)
+### [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Plan for the journey NEW](Teams-overview.md)
+## [Understand coexistence and upgrade modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+## [Plan for quality](envision-planning-for-service-management-and-quality-complete-guide.md)
+## [Is Teams ready for me? NEW](Teams-overview.md)
+## [Prepare my environment for Teams](prepare-teams.md)
+### [Prerequisites NEW](Teams-overview.md)
+### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+### [Discover my environment](environmental-discovery-for-microsoft-teams-rollout.md)
+### [Prepare my network](prepare-network.md)
+### [Monitor quality NEW](Teams-overview.md)
+## [Prepare my organization for Teams](2-onboard-prepare-my-users.md)
+### [Organizational change management NEW](Teams-overview.md)
+### [WAS Awareness training and support NOW Prepare my user readiness plan NEW](Teams-overview.md)
+## [Prepare my IT pros for Teams NEW](Teams-overview.md)
+## [Plan to run Teams alongside Skype for Business NEW](Teams-overview.md)
+## [Conduct a Teams pilot side by side with Skype for Business NEW](Teams-overview.md)
+### [Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+### [Execute upgrade from Skype for Business Online to Teams NEW](Teams-overview.md)
+### [Execute upgrade from Skype for Business on-premises to Teams NEW](Teams-overview.md)
+### [Upgrade FAQ is different?](FAQ-journey.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate my service](1-drive-value-operate-my-service.md)
+### [Enhance my service](2-drive-value-enhance-my-service.md)
+### [Grow adoption NEW](Teams-overview.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- BEGIN REAL TOC -->
+
+<!--
 # Get started
 ## [Overview of Teams](Teams-overview.md)
 ## [Office 365 licensing for Teams](office-365-licensing.md)
@@ -294,3 +327,4 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+-->
