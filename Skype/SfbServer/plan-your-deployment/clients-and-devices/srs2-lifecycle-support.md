@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "This article discusses lifecycle support for Skype Room Systems v2 current branch versions."
+description: "This article discusses lifecycle support for Skype Room Systems v2."
 ---
 
 # Support for Skype Room Systems v2 current branch versions
@@ -26,7 +26,7 @@ Security Updates (Only) servicing phase After a new current branch version is re
 
 All support ends after the twelve (12) month lifecycle for a current branch version has expired or if more than two updates have been released since then. At that time, customers must update to a supported current branch version.
 
-
+All releases are listed in the [Skype Room Systems v2 release notes](srs2-release-note.md#Versions). 
  
 
 
@@ -38,7 +38,7 @@ All support ends after the twelve (12) month lifecycle for a current branch vers
 #### 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Skype Room Systems v2 release notes](release-note.md)
+[Skype Room Systems v2 release notes](srs2-release-note.md)
 
 
 
