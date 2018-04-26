@@ -33,7 +33,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../media/srs-room.png" alt="People at a conference table with Skype Room Systems v2 equipment" />
+                            <img src="../media/srs-room.png" alt="People at a conference table with Skype Room Systems v2 equipment" />
                         </div>
                     </div>
                 </div>
