@@ -110,10 +110,6 @@ Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sur
 
 &#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
   
-
-    
-  - It must be able to receive an IP address using DHCP (note: Skype Room Systems v2 cannot be configured with a static IP address at the first unit startup)
-  
 &#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
 
 &#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
