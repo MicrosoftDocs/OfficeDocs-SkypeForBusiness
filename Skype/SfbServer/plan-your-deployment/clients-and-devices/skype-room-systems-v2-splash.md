@@ -33,7 +33,7 @@ description: "This guide explains the relevant planning considerations for deplo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../../media/srsv2-room.png" alt="People at a conference table with Skype Room Systems v2 equipment" />
+                            <img src="../../media/srs-room.png" alt="People at a conference table with Skype Room Systems v2 equipment" />
                         </div>
                     </div>
                 </div>
@@ -99,9 +99,7 @@ description: "This guide explains the relevant planning considerations for deplo
 </ul>
 
 
- [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md) 
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+ <!-- [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)  [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)  [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md) -->
 
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
