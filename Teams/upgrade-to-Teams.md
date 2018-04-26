@@ -1,16 +1,15 @@
 ---
 title: Upgrade to Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: serdars
-ms.date: 04/19/2018
-ms.topic: landing-page
-layout: LandingPage
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 05/30/2018
+ms.topic: article
 ms.service: msteams
-ms.reviewer: ritikag
-description: Manage your upgrade to Microsoft Teams from Skype for Business
+ms.reviewer: dearbeen
+description: Measure the results of your Audio Conferencing or Phone System with Calling Plans deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
