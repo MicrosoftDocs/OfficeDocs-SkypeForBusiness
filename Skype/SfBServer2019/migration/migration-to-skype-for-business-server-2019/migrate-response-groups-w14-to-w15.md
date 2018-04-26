@@ -69,7 +69,8 @@ The following procedure for migrating Response Group configurations assumes that
 
 1. Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.
     
-2. Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](../../operations/lync-server-administrative-tools/open-lync-server-administrative-tools.md).
+2. Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see 
+<!-- [Open Lync Server 2013 administrative tools](../../operations/lync-server-administrative-tools/open-lync-server-administrative-tools.md). -->
     
 3. In the left navigation pane, click **Response Groups**.
     

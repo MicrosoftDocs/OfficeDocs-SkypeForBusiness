@@ -76,7 +76,7 @@ Perform the following steps to migrate your legacy Group Chat Server.
   
 1. Shut down the Lync Server 2010, Group Chat, Office Communications Server 2007 R2 Group Chat or Lync Server 2013, Persistent Chat Server services. All services must be stopped, so plan to do this at a time when there is enough downtime. As previously described, make sure to back up your current Group Chat database.
     
-2. Run the Windows PowerShell **Export-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator). For details about the export/import cmdlets, see [Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013](../../deployment/deploying-persistent-chat-server/troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cm.md).
+2. Run the Windows PowerShell **Export-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator). For details about the export/import cmdlets, see
     
     Inspect the exported contents.
     
@@ -86,8 +86,8 @@ Perform the following steps to migrate your legacy Group Chat Server.
     
 5. Run the Windows PowerShell **Import-CsPersistentChatData** cmdlet (import tool), with a **WhatIf** command to populate the Back End Server of the Persistent Chat Server pool with migrated data. Some conversions happen in the process to accommodate the simplified administration model. Fix any errors or warnings that appear. 
     
-6. Run the Persistent Chat Server Windows PowerShell **Import-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator). For details about the export/import cmdlets, see [Troubleshooting Persistent Chat Server configuration using Windows PowerShell cmdlets in Lync Server 2013](../../deployment/deploying-persistent-chat-server/troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cm.md).
-    
+6. Run the Persistent Chat Server Windows PowerShell **Import-CsPersistentChatData** cmdlet as a member of the Persistent Chat administrator RBAC role (CsPersistentChatAdministrator). For details about the export/import cmdlets, see 
+
 7. You must XCOPY all uploaded files (the entire folder) to the new Lync Server 2013, Persistent Chat file store.
     
     > [!IMPORTANT]

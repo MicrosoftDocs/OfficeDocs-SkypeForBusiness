@@ -14,6 +14,6 @@ description: "For details, see Deploying clients and devices in Lync Server 2013
 
 # Deploy Lync Server 2013 clients [W14 to W15]
 []
-For details, see [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md) in the Deployment documentation. 
+<!-- For details, see [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md) in the Deployment documentation.  -->
   
 

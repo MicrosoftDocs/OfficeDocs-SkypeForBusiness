@@ -19,7 +19,8 @@ One of the first steps required for migration to Lync Server 2013 is to deploy a
 When you deploy a pilot pool, you use the Define New Front End Pool wizard. You should deploy the same features and workloads in your Lync Server 2013 pilot pool that you have in your Lync Server 2010 pool. If you deployed Archiving Server, Monitoring Server, or System Center Operations Manager for archiving or monitoring your Lync Server 2010 environment, and you want to continue archiving or monitoring throughout the migration, you need to also deploy these features in your pilot environment. The version you deployed to archive or monitor your Lync Server 2010 environment will not capture data in your Lync Server 2013 environment. 
   
 > [!NOTE]
-> The following procedure discusses features and settings you should consider as part of your overall pilot pool deployment process. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, refer to the [Deploying Lync Server 2013](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md) deployment guide. 
+> The following procedure discusses features and settings you should consider as part of your overall pilot pool deployment process. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, refer to the 
+<!-- [Deploying Lync Server 2013](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md) deployment guide.  -->
   
 ### To deploy a Lync Server 2013 pilot pool
 
@@ -38,7 +39,8 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
   
      ![Define New Front End Pool Wizard FQDN page](../../media/migration_lyncserver_config_w15_newpoolwizard_pool_page_final.jpg)
   
-5. On the **Select features** page, select the check boxes for the features that you want on this Front End pool. For example, if you are deploying only instant messaging (IM) and presence features, you would select the Conferencing check box to allow multiparty IM, but would not select the Dial-in (PSTN) conferencing, Enterprise Voice, or Call Admission Control check boxes, because they represent voice, video, and collaborative conferencing features. For additional information on selecting features, see [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](../../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation. 
+5. On the **Select features** page, select the check boxes for the features that you want on this Front End pool. For example, if you are deploying only instant messaging (IM) and presence features, you would select the Conferencing check box to allow multiparty IM, but would not select the Dial-in (PSTN) conferencing, Enterprise Voice, or Call Admission Control check boxes, because they represent voice, video, and collaborative conferencing features. For additional information on selecting features, see 
+<!-- [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](../../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
     
      ![Front End Pool Select features page](../../media/migration_lyncserver_config_w15_newpoolwizard_select_features_final.jpg)
   
@@ -64,6 +66,7 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
   
 11. When the publish process has completed, click **Finish**.
     
-To install a local copy of the configuration store and start the required services, see [Setting up Front End Servers and Front End pools for Lync Server 2013](../../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation. 
+To install a local copy of the configuration store and start the required services, see 
+<!-- [Setting up Front End Servers and Front End pools for Lync Server 2013](../../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->
   
 

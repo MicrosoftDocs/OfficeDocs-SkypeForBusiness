@@ -47,5 +47,5 @@ After migrating to Lync Server 2013, you must be aware of how the change impacts
 
 #### 
 
-[Planning for simple URLs in Lync Server 2013](../../planning/planning-for-manageability-and-virtualization/planning-for-simple-urls.md)
+<!-- [Planning for simple URLs in Lync Server 2013](../../planning/planning-for-manageability-and-virtualization/planning-for-simple-urls.md) -->
 

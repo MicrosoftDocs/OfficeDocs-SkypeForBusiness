@@ -14,7 +14,8 @@ description: "This topic highlights configuration settings you should be aware o
 
 # Deploy pilot Edge Server [W14 to W15]
 []
-This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server. The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see [Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access. 
+This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server. The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see 
+<!-- [Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
 As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
   
@@ -46,9 +47,11 @@ As you navigate through the **Define New Edge Pool** wizard, review the key conf
   
 8. Click **Finish** and then **Publish** the topology. 
     
-9. Follow the steps in [Install Edge Servers for Lync Server 2013](../../deployment/deploying-external-user-access/install-edge-servers.md) in the Deployment documentation to install the files on the new Edge Server, configure certificates, and start the services. 
+9. Follow the steps in the Deployment documentation to install the files on the new Edge Server, configure certificates, and start the services. 
+<!-- [Install Edge Servers for Lync Server 2013](../../deployment/deploying-external-user-access/install-edge-servers.md) in -->
     
-It's very important that you follow the guidelines in the topics [Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation. This section merely provided some guidance on configuration settings when installing these server roles. 
+It's very important that you follow the guidelines in the topics in the Deployment documentation. This section merely provided some guidance on configuration settings when installing these server roles. 
+[Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md)
   
 You should now have a legacy Lync Server 2010 Edge Server deployed in parallel with a Lync Server 2013 Edge server deployment. Verify that both deployments are running properly, services are started, and you can administer each deployment prior to moving to the next phase. 
   

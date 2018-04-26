@@ -18,7 +18,7 @@ This topic contains the recommended client deployment steps you should take befo
   
 ### To configure clients before migration
 
-1. Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010. For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at [https://go.microsoft.com/fwlink/p/?linkid=232630](https://go.microsoft.com/fwlink/p/?linkid=232630).
+1. Deploy the most recent server, client, and device updates (hotfixes) for existing installation.
     
 2. On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.
     
@@ -26,10 +26,10 @@ This topic contains the recommended client deployment steps you should take befo
 
 #### 
 
-[New and changed settings for Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/new-and-changed-settings-for-lync-2013.md)
+<!-- [New and changed settings for Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/new-and-changed-settings-for-lync-2013.md)
   
 [Client interoperability in Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/client-interoperability-in-lync-2013.md)
 #### 
 
-[Planning for clients and devices in Lync Server 2013](../../planning/planning-for-clients-and-devices-in-lync-server/planning-for-clients-and-devices-in-lync-server.md)
+[Planning for clients and devices in Lync Server 2013](../../planning/planning-for-clients-and-devices-in-lync-server/planning-for-clients-and-devices-in-lync-server.md) -->
 

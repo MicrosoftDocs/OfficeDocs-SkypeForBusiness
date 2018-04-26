@@ -16,13 +16,13 @@ description: "Before you begin, we recommend that you read this document and the
 []
 Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:
   
-- [Deploying Lync Server 2013](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md)
+<!-- - [Deploying Lync Server 2013](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md)
     
 - [Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-en.md)
     
 - [Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md)
     
-- [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md)
+- [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md) -->
     
 ## In this section
 

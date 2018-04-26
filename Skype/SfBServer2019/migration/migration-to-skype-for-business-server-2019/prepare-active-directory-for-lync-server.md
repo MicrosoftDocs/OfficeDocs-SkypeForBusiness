@@ -14,7 +14,8 @@ description: "Prior to deploying Lync Server 2013 in a coexistence state with Ly
 
 # Prepare Active Directory for Lync Server
 []
-Prior to deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Lync Server 2013. The schema extensions add the Active Directory classes and attributes that are required by Lync Server 2013. For additional information, see the topic [Preparing Active Directory Domain Services for Lync Server 2013](../../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md).
+Prior to deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Lync Server 2013. The schema extensions add the Active Directory classes and attributes that are required by Lync Server 2013. For additional information, see the topic 
+<!-- [Preparing Active Directory Domain Services for Lync Server 2013](../../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
 ### To prepare Active Directory for Lync Server 2013
 

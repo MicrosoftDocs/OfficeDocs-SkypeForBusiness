@@ -56,7 +56,8 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
     
 3. Click **Survivable Branch Appliance…**
     
-9. Follow the directions in the wizard that opens. For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md).
+9. Follow the directions in the wizard that opens. For information about wizard items, see 
+<!-- [Define a Survivable Branch Appliance or Server in Lync Server 2013](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md). -->
     
     > [!NOTE]
     > A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store. 

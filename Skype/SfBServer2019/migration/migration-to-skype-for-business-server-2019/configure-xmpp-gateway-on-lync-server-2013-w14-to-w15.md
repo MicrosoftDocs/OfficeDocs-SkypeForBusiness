@@ -107,7 +107,8 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 9. **Connection Type:** Defines the various rules and dialback settings. 
     
-  - **TLS Negotiation** Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation -including not valid and known error configurations - see [Negotiation settings for XMPP federated partners in Lync Server 2013](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md).
+  - **TLS Negotiation** Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation -including not valid and known error configurations - see 
+  <!-- [Negotiation settings for XMPP federated partners in Lync Server 2013](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md). -->
     
 > **Required** The XMPP service requires TLS negotiation. 
     
