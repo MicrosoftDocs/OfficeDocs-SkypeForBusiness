@@ -115,9 +115,9 @@ Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sur
 #### 
 [Prepare your Skype for Business Environment](srs-v2-prep.md)
 
-[Skype Room Systems v2 release notes](../../manage/skype-room-systems-v2/release-note.md)
+[Release notes](srs2-release-note.md)
 
-[Support for Skype Room Systems v2 current branch versions](../../manage/skype-room-systems-v2/lifecycle-support.md)
+[Support for current branch versions](srs2-lifecycle-support.md)
 
 [Known issues for Skype Room Systems v2](../../manage/skype-room-systems-v2/known-issues.md)
 
