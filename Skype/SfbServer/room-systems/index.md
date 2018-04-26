@@ -43,7 +43,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -61,7 +61,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
         </a>
     </li>
     <li>
-        <a href="../deploy/deploy-clients/room-systems-v2">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -79,7 +79,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
         </a>
     </li>
     <li>
-        <a href="../manage/skype-room-systems-v2/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
