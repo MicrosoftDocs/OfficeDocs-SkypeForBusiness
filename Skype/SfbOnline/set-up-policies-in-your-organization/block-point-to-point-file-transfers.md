@@ -3,7 +3,6 @@ title: "Block Point-to-Point file transfers"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud

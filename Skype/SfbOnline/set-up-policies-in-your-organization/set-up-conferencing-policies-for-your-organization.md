@@ -3,7 +3,6 @@ title: "Set up conferencing policies for your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud

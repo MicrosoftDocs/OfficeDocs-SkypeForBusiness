@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -41,7 +40,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting e phone numbers for your users.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting e phone numbers for your users.](getting-phone-numbers-for-your-users.md).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
@@ -121,9 +120,9 @@ To learn more, see [Quick reference: Using Windows PowerShell to do common Skype
 
 [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

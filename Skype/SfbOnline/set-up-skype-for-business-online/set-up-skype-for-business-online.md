@@ -3,7 +3,6 @@ title: "Set up Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud

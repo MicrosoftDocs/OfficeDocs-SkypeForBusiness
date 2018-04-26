@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e51880ae-d09d-46ba-8eaf-7b8b330e37a6
 ms.tgt.pltfrm: cloud
@@ -100,9 +99,9 @@ Address validation is an important part of setting up Calling Plans in Office 36
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

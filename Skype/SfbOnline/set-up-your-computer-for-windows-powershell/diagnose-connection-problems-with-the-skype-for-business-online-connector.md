@@ -3,7 +3,6 @@ title: "Diagnose connection problems with the Skype for Business Online Connecto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
 ms.tgt.pltfrm: cloud

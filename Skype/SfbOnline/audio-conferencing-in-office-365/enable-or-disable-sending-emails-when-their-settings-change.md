@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
@@ -87,19 +86,6 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
 ## What else should you know?
 
 - When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
-    
-- By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and also use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet.
-    
-    > [!NOTE]
-    >  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address.
-  
-  - Enter the email address in the  _SendEmailFromAddress_ parameter.
-    
-  - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
-    
-  - Set the  _SendEmailOverride_ parameter to _True_.
-    
-  -  `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
 - Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.
     

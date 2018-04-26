@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
 ms.tgt.pltfrm: cloud
@@ -40,9 +39,9 @@ An example:
 ## Related topics
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mpottier, dougand
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 20c654da-30ee-4e4f-a764-8b7d8844431d
 ms.tgt.pltfrm: cloud
