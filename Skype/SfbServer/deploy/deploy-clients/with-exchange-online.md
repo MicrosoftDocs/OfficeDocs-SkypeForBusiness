@@ -59,16 +59,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
     
-    > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Skype for Business Server 2015 on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
-  
-5. Click **Finish** to create the account.
-    
-6. After you've created the account, run a directory synchronization. When it's complete, go to the users page and verify that the two accounts created in the previous steps have merged.
-    
-7. You need to connect to Azure AD to apply some account settings. You can run this cmdlet to connect.
+4. You need to connect to Azure AD to apply some account settings. You can run this cmdlet to connect.
     
    ```
    Connect-MsolService -Credential $cred
@@ -79,6 +71,16 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. In **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Skype Room Systems v2 accounts will be created in, click **New**, and the click **User**.
     
 2. Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
+
+
+3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
+    
+    > [!NOTE]
+    > Selecting **Password never expires** is a requirement for Skype for Business Server 2015 on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
+  
+4. Click **Finish** to create the account.
+    
+5. After you've created the account, run a directory synchronization. When it's complete, go to the users page and verify that the two accounts created in the previous steps have merged.
     
 ### Assign an Office 365 license
 
@@ -93,6 +95,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ```
+
 
 ### Enable the user account with Skype for Business Server 2015
 

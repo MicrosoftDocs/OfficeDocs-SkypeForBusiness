@@ -5,7 +5,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
@@ -45,7 +44,7 @@ Monthly minutes available for each organization and each country/region are loca
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Office 365 admin center**.   
 ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md).
+For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md).
   
 ## How to buy a Calling Plan
 
