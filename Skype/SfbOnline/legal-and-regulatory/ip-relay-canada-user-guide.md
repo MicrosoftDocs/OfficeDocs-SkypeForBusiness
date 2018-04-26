@@ -76,7 +76,7 @@ Please contact Special Projects at [specialprojects@northern911.com](mailto:spec
 
 ## Related topics
 
-[IP Relay in Canada - sig nup](ip-relay-canada-email-signup.md)
+[IP Relay in Canada - sign up](ip-relay-canada-email-signup.md)
 
 
 
