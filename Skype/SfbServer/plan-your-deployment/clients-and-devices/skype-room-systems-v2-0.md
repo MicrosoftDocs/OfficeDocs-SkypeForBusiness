@@ -20,14 +20,22 @@ This article explains the relevant planning considerations for deploying Skype R
   
 Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.
   
+<<<<<<< HEAD
 Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
+=======
+Before you begin preparing your environment, be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
+>>>>>>> master
   
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
   
 
+<<<<<<< HEAD
   Skype Room Systems v2 offers: 
 
+=======
+  
+>>>>>>> master
  **Built for Skype for Business**
   
 - One-touch join of Skype Meetings
@@ -103,6 +111,34 @@ Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sur
 &#x2777; - Feature introduced in Update 2 (SW Ver. 3.0.6.0). 
   
 &#x2778; - Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
+<<<<<<< HEAD
+=======
+  
+&#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
+
+&#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
+  
+## Preparing your Skype for Business Environment
+
+This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Skype Room Systems v2.
+  
+1. Prepare a device account for each Skype Room Systems v2 console. See [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) for details.
+    
+2. Ensure that there is a working network/Internet connection for the device to use. 
+    
+  - It must be able to receive an IP address using DHCP (note: Skype Room Systems v2 cannot be configured with a static IP address at the first unit startup)
+    
+  - It must have these ports open (in addition to opening the normal ports for Skype for Business media):
+    
+  - HTTPS: 443
+    
+  - HTTP: 80
+    
+  - If your network runs through a proxy, you'll need the proxy address or script information as well.
+    
+    > [!NOTE]
+    > Skype Room Systems v2 does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Skype Room Systems v2 have HDCP options turned off. 
+>>>>>>> master
   
 &#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
 

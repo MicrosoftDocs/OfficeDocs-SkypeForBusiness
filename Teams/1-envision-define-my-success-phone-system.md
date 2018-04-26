@@ -11,6 +11,7 @@ description: Measure the results of your Phone System with Calling Plans deploym
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
 ---
 
 # Define my success

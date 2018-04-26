@@ -34,7 +34,7 @@ Skype for Business Server 2015 is tightly integrated with Active Directory Domai
   
 Watch the video steps for **Prepare Active Directory**:
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/272c856b-b3e0-4324-9635-42720c48b75a?autoplay=false]
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/RE1Ybuk]
   
 ### Prepare Active Directory from the Deployment Wizard
 
