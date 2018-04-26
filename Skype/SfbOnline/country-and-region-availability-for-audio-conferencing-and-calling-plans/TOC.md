@@ -161,25 +161,14 @@
 ### [Manage user accounts](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Manage your organization using the Skype for Business Online Connector](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-<<<<<<< HEAD
-## Accessibility and regulatory
-### [Accessibility Declaration of Conformance for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Accessibility solutions for Skype for Business Online in France](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [IP Relay in Canada - sign up](../accessibility-and-regulatory/ip-relay-canada-email-signup.md)
-### [IP Relay in Canada - user guide](../accessibility-and-regulatory/ip-relay-canada-user-guide.md)
-### [Complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Code of practice for the United Kingdom (U.K.)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Complaint handling code for the United Kingdom (U.K.)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Data collection practices](../accessibility-and-regulatory/data-collection-practices.md)
-### [End of life program for the integration of Skype for Business with third-party audio conferencing](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
-=======
 ## Legal and regulatory
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [Accessibility solutions for Skype for Business Online in France](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [IP Relay in Canada - sign up](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [IP Relay in Canada - user guide](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Code of practice for the United Kingdom (U.K.)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Complaint handling code for the United Kingdom (U.K.)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Data collection practices](../legal-and-regulatory/data-collection-practices.md)
 ### [Emergency calling labels](../legal-and-regulatory/emergency-calling-labels.md)
 ### [End of life program for the integration of Skype for Business with third-party audio conferencing](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
->>>>>>> master
