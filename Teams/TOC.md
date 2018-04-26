@@ -1,5 +1,4 @@
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Upgrade to Teams](upgrade-to-Teams.md)
+# [Journey from Skype for Business to Teams](upgrade-to-Teams.md)
 ## [Upgrade Essentials checklist](upgrade-essentials.md)
 ## [Upgrade Pro guide NEW](Teams-overview.md)
 ### [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

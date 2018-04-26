@@ -15,25 +15,26 @@ appliesto:
 
 # Upgrade to Microsoft Teams
 
-Congratulations on your pending upgrade to Microsoft Teams! Teams combines everything you know and appreciate about Skype for Business with the addition of collaboration tools, app integration, and file storage, creating a true hub for teamwork.
+Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, we invite you to upgrade to Microsoft Teams, enabling you to experience this full suite of communication and collaboration capabilities in a single client experience.
 
-Whether your organization is already using Teams alongside Skype for Business or you're just getting started with Teams, Microsoft is here to support you through the upgrade process. Your success is our success.
+We understand that your upgrade journey may take some time and, as a valued Skype for Business customer, Microsoft is here to support you every step of the way. Whether you are just getting started with Teams, already using Teams alongside Skype for Business or ready to upgrade, we are working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization. 
 
-> [!Important]
-> Teams has the power to transform the way your users work. To have a successful upgrade, you'll need to include both technical and user readiness-focused activities.
-
-To facilitate your upgrade to Teams, Microsoft is working hard to bring you the right level of guidance for your organization, whether it's a small organization, a large enterprise, or somewhere in between. Below are some resources to get you started. More information will be coming online over time, so please check back when your organization is ready to upgrade from Skype for Business to Teams.
+To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.
 
 
+
+We understand that customers are not a one-sized-fits-all. For added flexibility, we’ve organized the framework into two paths, Upgrade Essentials and Upgrade Pro, enabling you to select the optimal upgrade journey to meet your organization’s needs.
+
+-  Upgrade Essentials is designed for smaller customers or those with simple deployments (eg IM only), who can quickly and easily move all of their users to Teams at once.
+-  Upgrade Pro is targeted for customers with more complex deployment scenarios (eg hybrid, Voice workloads, etc) who may require more time to upgrade as well as benefit from a phased upgrade approach.
+ 
 
 |   |   |
 | - | - |
-| [<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials_svg.svg?branch=pr-en-us-695" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working) | [<img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro.png?branch=pr-en-us-695" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better meet the unique attributes of an organization.">](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams) |
+| [<img src="media/upgrade-to-teams-upgrade-essentials.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working) | [<img src="media/upgrade-to-teams-upgrade-pro.png?branch=pr-en-us-695" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization.">](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams) |
+> [!div class="nextstepaction"]
+> Go to Upgrade Essentials(https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)
 
+> [!Important]
+> If you are an Admin on your O365 tenant, you may start seeing upgrade options in your PowerShell cmdlet or Teams Admin Portal. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, be sure to validate feature availability, as well as technical and user readiness prior to activating any upgrade options for your tenant.
 
-
-
-For more information, see the following resources:
-
--   [FAQ](faq-journey.md): We understand you might have questions about the upgrade process, so we provided some answers to common questions we hear from customers.  
--   [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
