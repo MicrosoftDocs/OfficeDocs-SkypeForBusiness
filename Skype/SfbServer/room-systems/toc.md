@@ -1,0 +1,1 @@
+# [Skype Room Systems v2 Admin Guide](index.md)
