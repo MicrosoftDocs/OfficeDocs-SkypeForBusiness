@@ -35,14 +35,9 @@ We understand that customers are not a one-sized-fits-all. For added flexibility
 > [!div class="nextstepaction"]
 > [Go to Upgrade Essentials](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)
 
-<table>
-<colgroup>
-<col width="50%">
-<col width="50%">
-</colgroup>
-<tbody>
-<tr class="even"><td>[<img src="https://review.docs.microsoft.com/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working)</td></tr>
-<td>[<img src="https://review.docs.microsoft.com/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization.">](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)</td></tr></tbody></table>
+|   |   |
+| - | - |
+| [<img src="https://review.docs.microsoft.com/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working) | [<img src="https://review.docs.microsoft.com/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization.">](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)
 
 
 
