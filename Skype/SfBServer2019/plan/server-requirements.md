@@ -1,7 +1,7 @@
 ---
 title: "Server requirements for Skype for Business Server 2019"
-ms.author: <ms alias>
-author: <github alias>
+ms.author: serdars
+author: serdars
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro

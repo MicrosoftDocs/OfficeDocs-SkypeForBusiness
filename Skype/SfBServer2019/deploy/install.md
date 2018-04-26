@@ -1,7 +1,7 @@
 ---
 title: "<topic title>"
-ms.author: <ms alias>
-author: <github alias>
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
