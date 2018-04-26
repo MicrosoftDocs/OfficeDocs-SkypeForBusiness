@@ -1,5 +1,5 @@
 ---
-title: QoS in Microsoft Teams - Microsoft Teams
+title: Quality of Service in Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
