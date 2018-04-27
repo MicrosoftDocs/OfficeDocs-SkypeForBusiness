@@ -30,7 +30,7 @@ We understand that your upgrade journey may take some time and, as a valued Skyp
 <col width="50%">
 </colgroup>
 <tbody>
-<tr class="even"><td><img src="media/upgrade-to-teams-success-framework.png?branch=Upgrade-working" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends by laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change."></td><td> To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.</td></tr>
+<tr><td><img src="media/upgrade-to-teams-success-framework.png?branch=Upgrade-working" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends by laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change."></td><td> To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips and resources throughout. Each step builds up on the one prior and, for optimal results, we recommend following the steps in order.</td></tr>
 </tbody></table>
 
 We understand that customers are not a one-sized-fits-all. For added flexibility, we’ve organized the framework into two paths, Upgrade Essentials and Upgrade Pro, enabling you to select the optimal upgrade journey to meet your organization’s needs.
@@ -40,10 +40,12 @@ We understand that customers are not a one-sized-fits-all. For added flexibility
  
 
 
-|   |   |
-| - | - |
-| [<img src="media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams.">](https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working) | [<img src="media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization.">](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams)
-
+<table>
+<tbody>
+<tr><td><b>Upgrade Essentials</b> is designed for smaller customers or those with simple deployments (eg IM only), who can quickly and easily move all of their users to Teams at once.<br>
+<a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<td><b>Upgrade Pro</b> is targeted for customers with more complex deployment scenarios (eg hybrid, Voice workloads, etc) who may require more time to upgrade as well as benefit from a phased upgrade approach.<br>
+<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams"><img src="media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr></tbody></table>
 
 
 > [!Important]
