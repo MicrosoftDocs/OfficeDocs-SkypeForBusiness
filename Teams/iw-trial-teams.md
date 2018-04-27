@@ -16,7 +16,7 @@ MS.collection: Strat_MT_TeamsAdmin
 Manage the IW trial offer for Microsoft Teams
 =============================================
 
-Microsoft Teams is a great collaborative tool for the organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The IW trial offer for Microsoft Teams offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
+Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The IW trial offer for Microsoft Teams offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
 
 ## What's in the offer
 
