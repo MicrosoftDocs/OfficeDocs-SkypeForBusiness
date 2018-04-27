@@ -56,5 +56,7 @@ To set up a common area phones, you’ll need to do these in order:
 	4.	Assign Calling Plan (If using Microsoft Phone System with Calling Plans). 
 	
 	5.	In SfB Admin Center, assign a telephone number if you have one available or request a new telephone number 
+
+Add two more sections
 	
 	
