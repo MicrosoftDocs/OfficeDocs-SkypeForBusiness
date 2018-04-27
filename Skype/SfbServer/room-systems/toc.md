@@ -1,5 +1,5 @@
 # [Skype Room Systems v2 Administration](index.md)
-## [Plan ](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+## [Plan](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Support for current versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
