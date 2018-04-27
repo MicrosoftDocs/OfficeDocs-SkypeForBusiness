@@ -20,12 +20,12 @@ This article explains the relevant planning considerations for deploying Skype R
   
 Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.
   
-Before you being preparing your environment, be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
+Before you begin preparing your environment, be sure you have the necessary hardware and software. For more information, see [Skype Room Systems v2 requirements](requirements.md). 
   
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
   
-Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
+
   
  **Built for Skype for Business**
   
@@ -51,11 +51,11 @@ Skype Room Systems v2 is Microsoft's latest conferencing solution designed to tr
     
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
     
-- In-app user selection of meeting room audio and video USB devices U1
+- In-app user selection of meeting room audio and video USB devices &#x2776;
     
-- Dual-Screen support (for legacy system parity) U2
+- Dual-Screen support (for legacy system parity) &#x2777;
     
-- Themability (built-in themes and the ability to set custom theme) U2
+- Themability (built-in themes and the ability to set custom theme) &#x2777;
     
  **Easy to Deploy, Simple to Manage**
   
@@ -73,39 +73,39 @@ Skype Room Systems v2 is Microsoft's latest conferencing solution designed to tr
     
 - Runs on Surface Pro 4 tablet
     
-- Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan Skype Room Systems v2 management with OMS](oms-management.md)) U1
+- Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan Skype Room Systems v2 management with OMS](oms-management.md)) &#x2776;
     
-- Ability to Give Feedback for public builds U2
+- Ability to Give Feedback for public builds &#x2777;
     
-- Improved Telemetry around meeting join reliability U2
+- Improved Telemetry around meeting join reliability &#x2777;
     
-- Additional OMS reporting U2
+- Additional OMS reporting &#x2777;
     
-- Ability for IT Admin to configure devices remotely U2
+- Ability for IT Admin to configure devices remotely &#x2777;
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- Runs on Surface Pro tablet U3
+- Runs on Surface Pro tablet &#x2778;
     
-- Supports Windows 10 Enterprise Creator's Update (English language, build 1703) U3
+- Supports Windows 10 Enterprise Creator's Update (English language, build 1703) &#x2778;
     
-- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware U3
+- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware &#x2778;
     
-- OEM Support for Environment Controls (Crestron) U3
+- OEM Support for Environment Controls (Crestron) &#x2778;
     
-- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardwareU4
+- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware &#x2779;
     
-- Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)U4
+- Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio) &#x2779;
 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)U5 dock hardware  
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware &#x277A;  
     
-U1 - Feature introduced in Update 1 (SW Ver. 2.0.2.0).
+&#x2776; - Feature introduced in Update 1 (SW Ver. 2.0.2.0).
   
-U2- Feature introduced in Update 2 (SW Ver. 3.0.6.0). 
+&#x2777; - Feature introduced in Update 2 (SW Ver. 3.0.6.0). 
   
-U3- Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
+&#x2778; - Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
   
-U4- Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
+&#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
 
-U5- Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
+&#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
   
 ## Preparing your Skype for Business Environment
 

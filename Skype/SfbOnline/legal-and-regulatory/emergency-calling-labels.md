@@ -27,6 +27,7 @@ These are emergency calling (911) disclaimer labels or stickers for use with Ave
 [Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 
 ## Related topics
+
 [Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)

@@ -26,12 +26,12 @@ The following table provides information for users with Exchange Online hosted i
 
 **Actions supported:** 
 
-| User's mailbox is hosted in:   | Create teams   |Join teams|Create channels|Create and view meetings|Modify user profile picture|Add and configure connectors|Add and configure tabs|Add and configure bots|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes|Yes|Yes|No|No|No|Yes| Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes|Yes|Yes|Yes*|No|No|Yes|Yes|
+| User's mailbox is hosted in: | eDisovery| Legal Hold | Retention| Team and Channel mgmt |Create and view meetings| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes(allowed list)|No|No|Yes|No|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes(allowed list)|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
                                                             
 *\*Exchange 2016 CU3 and above supported*
 
