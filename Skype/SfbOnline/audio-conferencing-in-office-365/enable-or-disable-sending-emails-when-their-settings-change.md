@@ -56,11 +56,11 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
-4. Click **Apply**.
+4. Click **Save**.
   
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     

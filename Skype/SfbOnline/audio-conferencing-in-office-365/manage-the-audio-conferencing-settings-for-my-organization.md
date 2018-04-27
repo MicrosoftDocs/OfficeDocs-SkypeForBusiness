@@ -94,8 +94,16 @@ See [See, change, and reset a conference ID assigned to a user](see-change-and-r
   
 ## Enable or disable emails sent to audio conferencing users
 
-You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
-  
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+
+4. Click **Save**.
+
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in to Office 365 with your work or school account.
@@ -142,7 +150,19 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
   
 See [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Reset the meeting conference ID
+## Reset the meeting conference ID
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Reset conference ID**.  
+
+4. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**  
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -157,10 +177,20 @@ See [Emails that are automatically sent to users when their Audio Conferencing s
   
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Reset a conference organizer's PIN
+## Reset a conference organizer's PIN
 
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**. 
   
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
+
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business** and in the left navigation, click **Audio conferencing**.
@@ -173,7 +203,20 @@ Users will receive an email with their PIN when they're enabled for audio confer
   
 See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Send an email with Audio Conferencing information to a user
+## Send an email with Audio Conferencing information to a user
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Send conference info in email**. 
+
+    > [!NOTE]
+    > When you do this, the audio conferencing PIN isn't sent to the user. 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**  
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -188,7 +231,7 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
   
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Setting the default audio conferencing phone number for meeting organizers
+## Setting the default audio conferencing phone number for meeting organizers
 
  **To set the default audio conferencing phone number for meeting organizers when you are enabling a user for Audio Conferencing**
   
@@ -232,9 +275,27 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
     
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Setting audio conferencing bridge settings
+## Setting audio conferencing bridge settings
 
- **Set the meeting experience when callers join a meeting**
+**Set the meeting experience when callers join a meeting**
+
+ ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.
+
+    This is enabled by default. If you disable this option, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
+
+4. Under Entry/exit announcement type, choose either **Tones** or **Names or phone numbers**. 
+
+    If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**. 
+
+1. Click **Save**.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -255,6 +316,16 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Set the PIN length for meetings**
+
+ ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+
+3. In the **Bridge settings** pane, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -269,6 +340,22 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Enable or disable email from being sent to audio users**
+
+ ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their audio conferencing settings change**.
+
+4. Click **Save**. 
+ 
+    You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.
+    
+    If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -284,7 +371,17 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
     
     See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
     
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  See and set the primary and secondary languages on an audio conferencing bridge
+## See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge
+
+ ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. Select a phone number from the list and click **Edit**.
+
+3. Choose the languages you want under **Default language** and **Alternate languages (optional)**.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
 
 1. Sign in to Office 365 with your work or school account.
     
