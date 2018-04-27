@@ -275,7 +275,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
     
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
-## Setting audio conferencing bridge settings
+## Choosing audio conferencing bridge settings
 
 **Set the meeting experience when callers join a meeting**
 
@@ -289,7 +289,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 
     This is enabled by default. If you disable this option, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-4. Under Entry/exit announcement type, choose either **Tones** or **Names or phone numbers**. 
+4. Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**. 
 
     If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**. 
 
@@ -324,6 +324,8 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
 
 3. In the **Bridge settings** pane, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
+
+    The PIN must be between 4 and 12 digits. The default is 5.
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center** 
   
