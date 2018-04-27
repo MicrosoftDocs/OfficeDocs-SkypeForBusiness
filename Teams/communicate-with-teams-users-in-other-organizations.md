@@ -35,7 +35,7 @@ Follow these steps:
 
 ### Step 2 - Enable a Teams organization to communicate with another Teams organization
 
-![teams-logo-30x30.png](../media/teams-logo-30x30.png)**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
    1. In the left navigation, go to **Org-wide settings** > **External access**. 
 
@@ -58,7 +58,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Communicate with users in a Skype for Business Online organization
 
-## ![sfb-logo-30x30.png](../media/sfb-logo-30x30.png) Using Skype for Business admin center
+![sfb-logo-30x30.png](../media/sfb-logo-30x30.png) **Using Skype for Business admin center**
 
 Have the admin in that organization do these steps:
     
