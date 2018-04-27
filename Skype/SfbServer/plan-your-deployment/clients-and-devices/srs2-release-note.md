@@ -18,8 +18,8 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 <a name="Versions"> </a>
 ##  Version history
 
-| Release | Published to Microsoft Store | Support End |
-| ---     | ---                          | ---         |
+| Release | Published to <br>Microsoft Store | Support End |
+| ---     | ---                              | ---         |
 | Update 7 (3.1.104.0)|            |            |
 | Update 6 (3.1.100.0)|            |            |
 | Update 5 (3.1.98.0) |            |            |
@@ -31,7 +31,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 
 <a name="Whatsnew"> </a>
-## What's new in Skype Room Systems v2
+## Skype Room Systems v2 feature introduction
 
 <a name="Ver7"> </a>
 ### Update 7 (3.1.104.0) 
@@ -68,7 +68,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 ### Update 3 
 ##### (00/00/0000)
 **New feature(s)** introduced in this update:  
-- Runs on Surface Pro tablet  
+- Runs on Surface Pro (2017) tablet  
     
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
     
@@ -142,7 +142,7 @@ Skype Room Systems v2 management with OMS](oms-management.md))
     
 - Windows AppLocker locks down the device to the Skype Meeting app
     
-- Monitored and managed as a Wi[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)ndows 10 Enterprise device via Intune and SCCM (MDM)
+- Monitored and managed as a Windows 10 Enterprise device via Intune and SCCM (MDM)
     
 - Enterprise-grade reliability
     
@@ -159,8 +159,12 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Prepare your Skype for Business Environment](srs-v2-prep.md)
+
 [Support for Skype Room Systems v2 current branch versions](srs2-lifecycle-support.md)
+
 [Known issues for Skype Room Systems v2](../../manage/skype-room-systems-v2/known-issues.md)
 
 [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+
+[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### 
