@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for configuring the Call Data Connector feature, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business online tools."
 ---
 
-# Deploy call data connector
+# Configure call data connector
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 

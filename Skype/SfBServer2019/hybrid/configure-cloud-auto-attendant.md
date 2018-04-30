@@ -14,7 +14,7 @@ description: "Instructions for implementing a cloud-based auto attendant for voi
 <!-- Francois Doremieux  -->
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-# Deploy cloud auto attendant
+# Configure cloud auto attendant
 
 
 
