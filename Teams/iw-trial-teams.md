@@ -72,6 +72,10 @@ Admins can disable the ability for end users to claim trial apps and services wi
 
 ### Upgrade users from the trial license
 
-To upgrade users from the trial license, you need to purchase a SKU that includes Teams, remove the Teams trial SKU from the user, and then assign the newly purchased license.
+To upgrade users from the trial license, do the following:
+
+1. Purchase a SKU that includes Teams.
+2. Remove the Teams trial SKU from the user.
+3. Then assign the newly purchased license.
 
 For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).
