@@ -43,11 +43,6 @@ Use the steps in this article when:
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-To see how this works, watch this video:
-***
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
-***
-
 You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
   
 1. Sign in with your Office 365 admin account. 
