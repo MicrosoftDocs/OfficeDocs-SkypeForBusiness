@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for migrating users to the Teams Client."
+description: "Instructions for migrating users to the Teams client."
 ---
 
 # <Topic title>

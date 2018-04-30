@@ -1,5 +1,5 @@
 ---
-title: "Deploy cloud auto attendant"
+title: "Configure cloud auto attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars

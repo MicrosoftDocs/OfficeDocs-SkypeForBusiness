@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Overview of using SfBO telemetry tools to monitor an on-prem implementation in a hybrid scenario."
+description: "Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario."
 ---
 <!-- PM William Looney  -->
 

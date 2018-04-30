@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "A Discussion of the available Hybrid solutions in SfB server 2019."
+description: "A Discussion of the available hybrid solutions in Skype for Business Server 2019."
 ---
 
 # <Topic title>

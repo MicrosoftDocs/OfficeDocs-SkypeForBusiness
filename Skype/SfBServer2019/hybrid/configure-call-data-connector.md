@@ -1,5 +1,5 @@
 ---
-title: "Deploy call data connector"
+title: "Configure call data connector"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for deploying the Call Data Connector feature, which allows telemetry from SfB on-premises to be viewed using SfB online tools"
+description: "Instructions for configuring the Call Data Connector feature, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business online tools."
 ---
 
 # Deploy call data connector
