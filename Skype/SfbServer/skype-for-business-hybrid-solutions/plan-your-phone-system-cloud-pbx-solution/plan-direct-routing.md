@@ -3,7 +3,7 @@ title: "Plan Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 5/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -20,11 +20,6 @@ Microsoft Phone System Direct Routing lets you connect a supported, customer-pro
 
   > [!NOTE]
   > Skype for Business Online also lets you pair a customer-provided SBC, but requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contract, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud. 
-
-With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party Public Switched Telephone Network (PSTN) equipment. Direct Routing enables you to: 
-
-- Use virtually any PSTN trunk with Microsoft Phone System. 
-- Configure interoperability between customer-owned telephony equipment, such as a third-party private branch exchange (PBX), analog devices, and Microsoft Phone System.
 
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party Public Switched Telephone Network (PSTN) equipment. Direct Routing enables you to: 
 
@@ -61,8 +56,8 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs](**NEED URL**)).|
 |Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, for example, PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (Note: For configuration of the PSTN trunks to SBC, please refer to the SBC vendors or trunk providers.)|
 |Office 365 tenant|An Office 365 tenant that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
-|User registrar|User must be homed in Office 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Office 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/><br/>```Get-CsOnlineUser -Identity <user> | fl HostingProvider```<br/>The output of the cmdlet should show:<br/><br/> ```HostingProvider : sipfed.online.lync.com```|
-|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com; that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/>```Get-CsTenant | fl Domains```<br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|User registrar|User must be homed in Office 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Office 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/>```Get-CsOnlineUser -Identity <user> \| fl HostingProvider``` <br/><br/>The output of the cmdlet should show:<br/> ```HostingProvider : sipfed.online.lync.com```|
+|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com; that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/>```Get-CsTenant \| fl Domains```<br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Public IP address for the SBC|A public IP address that can be used to connect to the SBC. Based on the type of SBC, the SBC can use NAT.|
 |Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC Domain names](**NEED URL**).|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
