@@ -280,11 +280,11 @@ In the following example,  we demonstrate how to configure Routes, PSTN Usages, 
 
 In a  Skype for Business Remote PowerShell session type:
 
-```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
+   ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
 
 Validate that the usage was created:
 
-```Get-CSOnlinePSTNUsage```
+   ```Get-CSOnlinePSTNUsage```
 
 > [!TIP]
 > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
@@ -293,41 +293,41 @@ The following screenshot shows the result of running the PowerShell command ```G
     
 **INSERT SCREENSHOT 5: Names truncated**
 
-```
-PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
-
-Identity		: Global
-Usage		: {testusage, US and Canada, International, karlUsage. . .}
-
-PS C:\windows\System32\WindowsPowerShell\v1.0>
-```
+  ```
+  PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
+  
+  Identity		: Global
+  Usage		: {testusage, US and Canada, International, karlUsage. . .}
+  
+  PS C:\windows\System32\WindowsPowerShell\v1.0>
+  ```
 
 In this screen shot, you can see the result of the running the PowerShell command *(Get-CSOnlinePSTNUsage).usage* with full names displayed (not truncated).    
 
 **INSERT SCREEN SHOT 6: Full names**
 
-```
-PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
-testusage
-US and Canada
-International
-karlUsage
-New test env
-Tallinn Lab Sonus
-karlUsage2
-Unrestricted
-Two trunks
-PS C:\windows\System32\WindowsPowerShell\v1.0> 
-```
+  ```
+  PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
+  testusage
+  US and Canada
+  International
+  karlUsage
+  New test env
+  Tallinn Lab Sonus
+  karlUsage2
+ Unrestricted
+  Two trunks
+  PS C:\windows\System32\WindowsPowerShell\v1.0> 
+  ```
 
 **Step 2:** In a PowerShell session in Skype for Business Online, create three routes, Redmond 1, Redmond 2, and Other+1, as detailed in the previous table:
 
 To create the “Redmond 1” route, enter:
 
-```
-New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
-(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-```
+  ```
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+  ```
 **INSERT SCREEN SHOT 7: Example of Redmond 1 voice route**
 
 ```
