@@ -18,7 +18,6 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-
 description: "Learn how to set up Phone System (Cloud PBX) for your organization. "
 ---
 
