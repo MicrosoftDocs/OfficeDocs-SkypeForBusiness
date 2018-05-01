@@ -7,8 +7,10 @@ ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: "Summary: Learn how to deploy Call Via Work in Skype for Business Server 2015 for some or all of your users."
 ---

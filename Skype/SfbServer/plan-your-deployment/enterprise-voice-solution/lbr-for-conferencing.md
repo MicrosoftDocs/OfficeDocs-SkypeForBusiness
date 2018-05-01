@@ -7,9 +7,11 @@ ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: "Planning for location-based routing for conferencing in Skype for Business Server Enterprise Voice, including consultative call transfers."
 ---

@@ -7,8 +7,10 @@ ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: "Read about how to install and configure Busy Options in Skype for Business Server 2015."
 ---

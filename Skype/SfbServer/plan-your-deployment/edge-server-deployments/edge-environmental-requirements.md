@@ -6,9 +6,11 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 
 description: "Summary: Learn about the environmental requirements for Edge Server in Skype for Business Server 2015."

@@ -7,9 +7,11 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: "Summary: Review the load balancing considerations before implementing Skype for Business Server 2015."
 ---
