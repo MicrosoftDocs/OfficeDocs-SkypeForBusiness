@@ -73,11 +73,9 @@ To pair the SBC to the tenant, in the PowerShell session, type the following and
 ```
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurentSessions <Max Concurrent Session which SBC capable handling> -Enabled $true 
 ```
-  > [!NOTES]
-  > 1. We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.
-  > 2. You only can pair the SBC with FQDN, here domain portion of the name matches one of the domain registered in your tenant, except *.onmicrosoft.com. Using *.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:
-  >- abc.xyz
-  >- abc.onmictrrosoft.com<br/><br/>
+  > [!NOTE]
+  > - We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.<br/><br/>
+  > - You only can pair the SBC with FQDN, here domain portion of the name matches one of the domain registered in your tenant, except *.onmicrosoft.com. Using *.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:<br/><br/>     abc.xyz<br/>abc.onmictrrosoft.com<br/><br/>
   > For the SBC name you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc the system will not let you pair the SBC as the domain is not owned by this tenant.
 
 **INSERT SCREENSHOT 2: Pairing the SBC**
@@ -110,12 +108,11 @@ The following table lists the additional parameters that you can use in setting 
 |No|ForwardCallHistory |Indicates whether call history information will be forwarded through the trunk. If enabled, the Office 365 PSTN Proxy sends two headers: History-info and Referred-By. The default value is **False** ($False). |False|True<br/>False|Boolean|
 |No|ForwardPAIIndicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller. The default value is **False** ($False).|False|True<br/>False|Boolean|
 |No|SendSIPOptions |Defines if an SBC will or will not send the SIP options. If disabled, the SBC will be excluded from Monitoring and Alerting system. We highly recommend that you enable SIP options. Default value is **True**. |True|True<br/>False|Boolean|
-|No|MaxConcurentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent session is 90% or higher than this value. If parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent session every 24 hours. |Null|Null 
-1 to 100,000 ||
+|No|MaxConcurentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent session is 90% or higher than this value. If parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent session every 24 hours. |Null|Null<br/>1 to 100,000 ||
 |No|Enabled*|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC, while it is being updated or during maintenance. |False|True<br/>False|Boolean|
 |||||||
 
-***Note about the “Enabled” parameter:** 
+**Note about the “Enabled” parameter:** 
 If the SBC is in “Disabled” state (for example, the tenant administrator run the command: Set-CSOnlinePSTNGateway -Fqdn sbc1.contoso.biz -Enabled $false) the SBC will: 
 
 - If two or more SBC exist in one route (for example sbc1.contoso.com and sbc2.contoso.com) and sbc2.contoso.com is functional the sbc1.contoso.com will be demoted, meaning that outbound calls will not be placed to that SBC 
@@ -132,7 +129,9 @@ Verify the connection:
 
 After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: 
 
-```Get-CSOnlinePSTNGateway```
+```
+Get-CSOnlinePSTNGateway
+```
 
 The paired gateway should appear in the list as shown in Screenshot 4, and verify that  the parameter *Enabled* displays the value **True**.
 
