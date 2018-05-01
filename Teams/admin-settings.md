@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag 
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin 

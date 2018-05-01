@@ -7,9 +7,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: "Summary: Learn how to install the Skype for Business Server 2015 system components on each server in the topology. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---

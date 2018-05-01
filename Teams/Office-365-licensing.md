@@ -8,7 +8,7 @@ ms.topic: article
 audience: Admin
 ms.service: msteams
 ms.reviewer: dearbeen, ninadara
-localization_priority: Normal
+localization_priority: Priority
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ms.custom:
 - NewAdminCenter_Update

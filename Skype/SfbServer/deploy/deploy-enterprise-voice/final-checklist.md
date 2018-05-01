@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: "Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice."
 ---
