@@ -7,8 +7,10 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: "Understand the ways you can access Skype for Business features from Outlook and other Microsoft Office applications."
 ---

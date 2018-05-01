@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether 
@@ -27,7 +27,6 @@ f1keywords:
 - O365P_SFBVoiceCreditAether 
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 description: "Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continuous phone system access. "
 ---
 

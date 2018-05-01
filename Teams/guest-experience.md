@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Learn about the Microsoft Teams functionality available to guest users.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: "Summary: Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel."
 ---
