@@ -23,8 +23,6 @@ description: "Use this table to find information on getting and managing phone n
 ---
 
 # Phone number management for Canada
-> [!IMPORTANT]
-> Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). 
 
 Use this table to find information on getting and managing phone numbers in Canada for Skype for Business Online and Microsoft Teams. 
 
