@@ -284,8 +284,9 @@ In a  Skype for Business Remote PowerShell session type:
 
 Validate that the usage was created:
 
-   ```Get-CSOnlinePSTNUsage```
-
+  ```
+  Get-CSOnlinePSTNUsage
+  ```
    
   > [!TIP]
   > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
@@ -369,10 +370,11 @@ In some cases there is a need to route all calls to the same SBC, please use -Nu
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-Validate that you’ve correctly configured the  route by running this PowerShell command:
+Validate that you’ve correctly configured the  route by running this PowerShell command: 
 
-```Get-CSOnlineVoiceRoute```
-
+  ```
+  Get-CSOnlineVoiceRoute
+  ```
 
 This screen shot shows how to verify the configuration you’ve just made:
 
