@@ -7,12 +7,13 @@ ms.date: 1/27/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: "This topic describes how to enable users for Phone System in Office 365 with on-premises PSTN connectivity. Before following the steps in this topic, you should read the following: ."
 ---

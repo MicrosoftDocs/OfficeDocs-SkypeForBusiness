@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

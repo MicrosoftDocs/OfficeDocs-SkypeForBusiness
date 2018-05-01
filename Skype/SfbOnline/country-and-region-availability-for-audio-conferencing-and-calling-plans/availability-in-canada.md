@@ -47,8 +47,6 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
 
 ## Calling Plans
-> [!IMPORTANT]
-> Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
     
 |**Feature**|**Details**|
 |:-----|:-----|

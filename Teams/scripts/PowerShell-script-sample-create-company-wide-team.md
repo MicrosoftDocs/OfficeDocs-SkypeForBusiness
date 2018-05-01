@@ -7,6 +7,7 @@ ms.date: 02/07/2018
 ms.topic: article
 ms.service: msteams
 description: Use this PowerShell script to create a public, company-wide team in Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 ---
 

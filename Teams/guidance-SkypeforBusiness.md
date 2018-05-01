@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Guidance for using Skype for Business and Microsoft Teams side by side.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 robots: noindex
 redirect_url: http://docs.microsoft.com/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams
