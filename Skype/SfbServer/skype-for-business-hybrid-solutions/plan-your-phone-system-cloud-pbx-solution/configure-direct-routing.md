@@ -286,8 +286,10 @@ In the following example,  we demonstrate how to configure Routes, PSTN Usages, 
 
     ```Get-CSOnlinePSTNUsage```
 
+
    > [!TIP]
-   > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```(Get-CSOnlinePSTNUsage).Usage```
+   > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
+
 
    The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
     
@@ -326,7 +328,7 @@ In the following example,  we demonstrate how to configure Routes, PSTN Usages, 
     New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
     (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
     ```
-    ***INSERT SCREEN SHOT 7: Example of Redmond 1 voice route**
+    **INSERT SCREEN SHOT 7: Example of Redmond 1 voice route**
 
     ```
     PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -368,7 +370,8 @@ In the following example,  we demonstrate how to configure Routes, PSTN Usages, 
 
     Validate that you’ve correctly configured the  route by running this PowerShell command:
 
-    ```Get-CSOnlineVoiceRoute```
+      ```Get-CSOnlineVoiceRoute```
+
 
     This screen shot shows how to verify the configuration you’ve just made:
 
