@@ -1,33 +1,33 @@
 ---
-title: Define success in Audio Conferencing - Microsoft Teams
+title: Define success in Audio Conferencing or Phone System with Calling Plans - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Measure the results of your Audio Conferencing deployment and verify you've achieved the outcomes you wanted.
-localization_priority: Priority
+description: Measure the results of your Audio Conferencing or Phone System with Calling Plans deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
 ---
 
 # Define my success
 
-This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
+This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing or Phone System with Calling Plans for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
 
 <!--ENDOFSECTION-->
 
-## Define business use cases for Audio Conferencing
+**Audio Conferencing** provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, private branch exchange (PBX), or mobile phones. This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
 
-Audio Conferencing provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, PBX, or mobile phones.
+**Phone System with Calling Plans** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on.
 
-This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
+<!--ENDOFSECTION-->
 
-To begin with, core project stakeholders need to define business use cases that support the implementation of Audio Conferencing.
+## Define business use cases for Audio Conferencing or Phone System with Calling Plans
+
+To begin with, core project stakeholders need to define business use cases that support the implementation of Audio Conferencing or Phone System with Calling Plans.
 
 Business use cases are meant to define and document expected and measurable business outcomes, and include the following:
 
@@ -40,7 +40,7 @@ Business use cases are meant to define and document expected and measurable busi
 -   The expected and measurable business outcomes if these challenges are overcome
 
 > [!TIP]
-> The following is an example of a completed business use case:
+> The following is an example of a completed business use case for Audio Conferencing:
 >|         |
 >|---------|
 >|**Description of current business process**<br>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.|
@@ -48,23 +48,33 @@ Business use cases are meant to define and document expected and measurable busi
 >|**How technology can overcome these challenges**<br>With the adoption of Microsoft Teams as a modern communications and collaboration platform, internal users are expected to primarily join meetings by using their PCs equipped with optimized headsets and meeting-room devices. The Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio isn’t favorable for the internal participants.|
 >|**Expected, measurable, business outcomes**<br>The move to Teams as a modern communications and collaboration platform, combined with the Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service.|
 
+> [!TIP]
+> The following is an example of a completed business use case for Phone System with Calling Plans:
+>|         |
+>|---------|
+>|**Description of current business process**<br>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
+>|**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso’s monthly telephony service cost.|
+>|**How technology can overcome these challenges**<br>Phone System with Calling Plans will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, because the phone service can be delivered via the cloud over the network with no dependency on a traditional phone system.|
+>|**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
+
+
 In addition to defining your business use cases, to set the project boundaries you should aim to drive clarity around:
 
--   **Organizational scope:** The implementation of Audio Conferencing might encompass the whole organization or just specific business units.
+-   **Organizational scope:** The implementation of Audio Conferencing or Phone System with Calling Plans might encompass the whole organization or just specific business units.
 
 -   **Project timeline:** The specific timeline the project will run.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li><li>What are all the business use cases for Phone System with Calling Plans you can identify in your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li><li>Document all business use cases for Phone System with Calling Plans for your organization.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## Identify key stakeholders
 
-The business use cases defined in the previous step include an organizational scope for the Audio Conferencing implementation, and based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
+The business use cases defined in the previous step include an organizational scope for the Audio Conferencing or Phone System with Calling Plans implementation, and based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
 
 > [!TIP]
 > Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
@@ -84,7 +94,7 @@ The business use cases defined in the previous step include an organizational sc
 >|Business Unit Representatives|<ul><li>Contribute to user-based adoption guides and materials.</li><li>Contribute to and review business use cases.</li></ul>|TBA|
 >|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met.</li><li>Engage resources to be involved in the Onboard phase activities.</li><li>Participate in meetings to review and prepare reports on deployment status.</li></ul>|TBA|
 >|IT Admins|<ul><li>Assist with test planning and execution. This role is for IT pros.</li></ul>|TBA|
->|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing service, all up.</li><li>Own the Audio Conferencing service.</li></ul>|TBA|
+>|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing or Phone System with Calling Plans service, all up.</li><li>Own the Audio Conferencing or Phone System with Calling Plans service.</li></ul>|TBA|
 >|Quality Champions|<ul><li>Drive quality, reliability, and user feedback.</li><li>Identify quality trends and drive remediation with the respective teams.</li><li>Report through the steering committee back to leadership.</li><li>Report on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score.</li></ul>|TBA|
 
 <br>
@@ -112,6 +122,17 @@ OKRs contain the objectives you set in the beginning of the project, and you def
 >|---------|---------|---------|
 >|Deploy Audio Conferencing in Teams by end of fiscal year 2018|FY18Q1: Deploy Audio Conferencing in Teams globally|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
 >|Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018|FY18Q2: Decommission legacy PSTN Conferencing service globally|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
+
+
+> [!TIP]
+> Example of OKRs relevant to Phone System with Calling Plans implementation can be referenced below:
+><br>
+>
+>**Vision: Increase productivity by maximizing Office 365 investments**
+>|Objectives  |Key Results  |To Do  |
+>|---------|---------|---------|
+>|Deploy Phone System with Calling Plans in European branch offices by end of fiscal year 2018|FY18Q3: Deploy Phone System with Calling Plans in London office|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
+>|Decommission legacy PBX in London office by end of fiscal year 2018|FY18Q4: Decommission legacy PBX in London office|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
 
 KSIs measure quality and success of the key results, and complement the binary nature of OKRs (achieved or not achieved) by detailing good and/or bad results.
 
@@ -146,13 +167,13 @@ You need to identify business risks as part of this exercise, and define a mitig
 >|Risk  |Likelihood  |Impact  |Overall  |Mitigation plan  |
 >|---------|---------|---------|---------|---------|
 >|Upcoming merger will add up to 1,000 people|High|High|High|<ul><li>For merged companies, create a separate OKR that applies to their own project phases (Envision, Onboard, Drive Value)</li><li>Don’t include these OKRs in existing OKRs</li></ul>|
->|Telephone number porting will delay project completion|High|High|High|<ul><li>Prepare all the information required to support telephone number porting ahead of time (customer service record, billing details, Letter of Authorization)</li><li>Adjust the project timeline to accommodate the turnaround time of telephone number porting execution</li><li>Communicate the use of new dial-in conferencing numbers to external participants</li></ul>|
+>|Telephone number porting will delay project completion|High|High|High|<ul><li>Prepare all the information required to support telephone number porting ahead of time (customer service record, billing details, Letter of Authorization)</li><li>Adjust the project timeline to accommodate the turnaround time of telephone number porting execution</li><li>Communicate the use of new dial-in conferencing numbers to external participants</li><li>Use temporary telephone numbers with Caller ID manipulation</li></ul>|
 >|Planned network redesign|High|Medium|Medium|<ul><li>Before implementing Teams as a modern communications and collaboration platform, conduct a network readiness assessment for sites in scope of the project</li></ul>|
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Phone System with Calling Plans in your organization? What are the mitigation plans for the identified risks?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
 
 <!--ENDOFSECTION-->
