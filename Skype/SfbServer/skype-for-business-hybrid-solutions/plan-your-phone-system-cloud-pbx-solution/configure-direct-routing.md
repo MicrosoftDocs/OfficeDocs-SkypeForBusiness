@@ -276,175 +276,175 @@ All routes associated with the PSTN Usage “US and Canada” and the PSTN Usage
 
 In the following example,  we demonstrate how to configure Routes, PSTN Usages, and Routing policies, and we assign the policy to the user.
 
-1. Create PSTN Usage “US and Canada.”
+**Step 1:** Create PSTN Usage “US and Canada.”
 
-   In a  Skype for Business Remote PowerShell session type:
+In a  Skype for Business Remote PowerShell session type:
 
-    ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
+```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
 
-    Validate that the usage was created:
+Validate that the usage was created:
 
-    ```Get-CSOnlinePSTNUsage```
+```Get-CSOnlinePSTNUsage```
 
+> [!TIP]
+> If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
 
-   > [!TIP]
-   > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
-
-
-   The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
+The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
     
-    **INSERT SCREENSHOT 5: Names truncated**
+**INSERT SCREENSHOT 5: Names truncated**
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
 
-    Identity		: Global
-    Usage		: {testusage, US and Canada, International, karlUsage. . .}
+Identity		: Global
+Usage		: {testusage, US and Canada, International, karlUsage. . .}
 
-    PS C:\windows\System32\WindowsPowerShell\v1.0>
-    ```
-    In this screen shot, you can see the result of the running the PowerShell command (Get-CSOnlinePSTNUsage).usage with full names displayed (not truncated).    
+PS C:\windows\System32\WindowsPowerShell\v1.0>
+```
 
-    **INSERT SCREEN SHOT 6: Full names**
+In this screen shot, you can see the result of the running the PowerShell command *(Get-CSOnlinePSTNUsage).usage* with full names displayed (not truncated).    
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
-    testusage
-    US and Canada
-    International
-    karlUsage
-    New test env
-    Tallinn Lab Sonus
-    karlUsage2
-    Unrestricted
-    Two trunks
-    PS C:\windows\System32\WindowsPowerShell\v1.0> 
-    ```
-2. In a PowerShell session in Skype for Business Online, create three routes, Redmond 1, Redmond 2, and Other+1  as detailed in the previous table:
+**INSERT SCREEN SHOT 6: Full names**
 
-    To create the “Redmond 1” route, enter:
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
+testusage
+US and Canada
+International
+karlUsage
+New test env
+Tallinn Lab Sonus
+karlUsage2
+Unrestricted
+Two trunks
+PS C:\windows\System32\WindowsPowerShell\v1.0> 
+```
 
-    ```
-    New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
-    (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-    ```
-    **INSERT SCREEN SHOT 7: Example of Redmond 1 voice route**
+**Step 2:** In a PowerShell session in Skype for Business Online, create three routes, Redmond 1, Redmond 2, and Other+1, as detailed in the previous table:
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-    Identity                : Redmond 1
-    Priority       		: 1
-    Description	 	:
-    NumberPattern 		: ^\+1(425|206) (\d{7})$
-    OnlinePstnUsages 	: {US and Canada}
-    OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
-    Name		 	: Redmond 1
-    SuppressCallerId	:
-    AlternateCallerId	:
-    ```
-    To create the Redmond 2 route, enter:
+To create the “Redmond 1” route, enter:
 
-    ```
-    New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
-    (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
-    ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
+**INSERT SCREEN SHOT 7: Example of Redmond 1 voice route**
 
-    To create the Other +1 route, enter:
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+Identity                : Redmond 1
+Priority       		: 1
+Description	 	:
+NumberPattern 		: ^\+1(425|206) (\d{7})$
+OnlinePstnUsages 	: {US and Canada}
+OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
+Name		 	: Redmond 1
+SuppressCallerId	:
+AlternateCallerId	:
+```
+To create the Redmond 2 route, enter:
 
-    ```
-    New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
-     -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
-    ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
+```
 
-    > [!CAUTION]
-    > Make sure that your regular expression in the NumberPattern attribute is a valid expression. You can test it using this website: [https://www.regexpal.com](https://www.regexpal.com)
+To create the Other +1 route, enter:
 
-    In some cases there is a need to route all calls to the same SBC, please use -NumberPattern “.*”
+```
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+-OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
+```
 
-    - Route all calls to same SBC
+> [!CAUTION]
+> Make sure that your regular expression in the NumberPattern attribute is a valid expression. You can test it using this website: [https://www.regexpal.com](https://www.regexpal.com)
+
+In some cases there is a need to route all calls to the same SBC, please use -NumberPattern “.*”
+
+- Route all calls to same SBC
 
     ```
     Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-    Validate that you’ve correctly configured the  route by running this PowerShell command:
+Validate that you’ve correctly configured the  route by running this PowerShell command:
 
-      ```Get-CSOnlineVoiceRoute```
+```Get-CSOnlineVoiceRoute```
 
 
-    This screen shot shows how to verify the configuration you’ve just made:
+This screen shot shows how to verify the configuration you’ve just made:
 
-    **INSERT SCREEN SHOT 9: Result of Get-CsOnlineVoiceRoute command**
+**INSERT SCREEN SHOT 9: Result of Get-CsOnlineVoiceRoute command**
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 
-    Identity			: Redmond 1 
-    Priority       		: 1
-    Description	 	: 
-    NumberPattern 		: ^\+1(425|206) (\d{7})$
-    OnlinePstnUsages 	: {US and Canada}	 
-    OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
-    Name		 	: Redmond 1
-    Identity		: Redmond 2 
-    Priority       		: 2
-    Description	 	: 
-    NumberPattern 		: ^\+1(425|206) (\d{7})$
-    OnlinePstnUsages 	: {US and Canada}	 
-    OnlinePstnGatewayList	: {sbc3.contoso.biz, sbc4.contoso.biz}
-    Name		 	: Redmond 2
+Identity			: Redmond 1 
+Priority       		: 1
+Description	 	: 
+NumberPattern 		: ^\+1(425|206) (\d{7})$
+OnlinePstnUsages 	: {US and Canada}	 
+OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
+Name		 	: Redmond 1
+Identity		: Redmond 2 
+Priority       		: 2
+Description	 	: 
+NumberPattern 		: ^\+1(425|206) (\d{7})$
+OnlinePstnUsages 	: {US and Canada}	 
+OnlinePstnGatewayList	: {sbc3.contoso.biz, sbc4.contoso.biz}
+Name		 	: Redmond 2
     
-    Identity		: Other +1 
-    Priority       		: 4
-    Description	 	: 
-    NumberPattern 		: ^\+1(425|206) (\d{7})$
-    OnlinePstnUsages 	: {US and Canada}	 
-    OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
-    Name		 	: Other +1
-    ```
+Identity		: Other +1 
+Priority       		: 4
+Description	 	: 
+NumberPattern 		: ^\+1(425|206) (\d{7})$
+OnlinePstnUsages 	: {US and Canada}	 
+OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
+Name		 	: Other +1
+```
 
-    In the example, the route “Other +1” was automatically assigned priority 
+In the example, the route “Other +1” was automatically assigned priority 
 
-3.	Create a Voice Routing Policy  “US Only” and add to the policy the PSTN Usage “US and Canada.”
+**Step 3:** Create a Voice Routing Policy  “US Only” and add to the policy the PSTN Usage “US and Canada.”
 
-    In a PowerShell session in Skype for Business Online, type:
+In a PowerShell session in Skype for Business Online, type:
 
-    ```New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"```
+```New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"```
 
-    The result is shown in this screen shot:
+The result is shown in this screen shot:
 
-    **INSERT SCREEN SHOT 10: Voice Routing Policy US Only with US and Canada added**
+**INSERT SCREEN SHOT 10: Voice Routing Policy US Only with US and Canada added**
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> NewCsOnlineVoiceRoutingPolicy “US Only” -OnlinePstnUsages “US and Canada”
-    Identity	    : Tag:US only
-    OnlinePstnUsages    : {US and Canada}
-    Description    	    :
-    RouteType    	    : BYOT
-    ```
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> NewCsOnlineVoiceRoutingPolicy “US Only” -OnlinePstnUsages “US and Canada”
+Identity	    : Tag:US only
+OnlinePstnUsages    : {US and Canada}
+Description    	    :
+RouteType    	    : BYOT
+```
 
-4.	Grant to user Spence Low a voice routing policy by using PowerShell.
+**Step 4:** Grant to user Spence Low a voice routing policy by using PowerShell.
 
-    - In a Powershell session in Skype for Business Online, type:
+- In a Powershell session in Skype for Business Online, type:
 
     ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
 
-    - Validate the policy assignment by entering this command:
+- Validate the policy assignment by entering this command:
 
     ```Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy```
 
-    **INSERT SCREEN SHOT 11: Validate the assigned voice routing policy**
+**INSERT SCREEN SHOT 11: Validate the assigned voice routing policy**
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlineUser “Spencer Low” | select OnlineVoiceRouting Policy
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlineUser “Spencer Low” | select OnlineVoiceRouting Policy
 
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    US Only
+OnlineVoiceRoutingPolicy
+------------------------
+US Only
 
-    PS C:\windows\System32\WindowsPowerShell\v1.0>
-    ```
+PS C:\windows\System32\WindowsPowerShell\v1.0>
+```
 
 ##### Creating a Voice Routing Policy with several PSTN Usages
 
