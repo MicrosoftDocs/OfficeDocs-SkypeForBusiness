@@ -17,7 +17,6 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-
 description: "Learn about what Phone System can do for you. "
 ---
 
