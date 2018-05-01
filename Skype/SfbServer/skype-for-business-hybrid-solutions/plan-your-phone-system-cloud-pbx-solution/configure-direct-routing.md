@@ -286,10 +286,9 @@ Validate that the usage was created:
 
    ```Get-CSOnlinePSTNUsage```
 
-test text....
    
-> [!TIP]
-> If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
+  > [!TIP]
+  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
 
 The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
     
@@ -358,8 +357,8 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
-> [!CAUTION]
-> Make sure that your regular expression in the NumberPattern attribute is a valid expression. You can test it using this website: [https://www.regexpal.com](https://www.regexpal.com)
+  > [!CAUTION]
+  > Make sure that your regular expression in the NumberPattern attribute is a valid expression. You can test it using this website: [https://www.regexpal.com](https://www.regexpal.com)
 
 In some cases there is a need to route all calls to the same SBC, please use -NumberPattern “.*”
 
@@ -478,10 +477,10 @@ The following table  summarizes routing policy “No Restrictions” usage desig
 |International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route for any number pattern |
 |||||||
 
-   > [!NOTE]
-   > 1. The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage “International” must be placed after the PSTN Usage “US Only.” To change the order of the PSTN Usages, please run ```Set-CSOnlineRouteRoutingPolicy``` command. <br/>For example, to change the order from “US and Canada” first and “International” second to the reverse oder run:<br/>   ```Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsage    
+  > [!NOTE]
+  > 1. The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage “International” must be placed after the PSTN Usage “US Only.” To change the order of the PSTN Usages, please run ```Set-CSOnlineRouteRoutingPolicy``` command. <br/>For example, to change the order from “US and Canada” first and “International” second to the reverse oder run:<br/>   ```Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsage    
    s @{Replace="International", "US and Canada"}```<br/>
-   > 2. The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
+  > 2. The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
 
 ##### Example Voice Routing Policy for user John Woods
 
