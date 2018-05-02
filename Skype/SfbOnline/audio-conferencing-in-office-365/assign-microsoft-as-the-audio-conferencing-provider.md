@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-- Strat_SB_PSTN
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business."
 ---
 # Assign Microsoft as the audio conferencing provider

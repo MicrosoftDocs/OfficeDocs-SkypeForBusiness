@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
@@ -133,6 +133,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 
 ## Mobile
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to see auto-favorited channels  <br/> |Some members aren't able to see auto-favorited channels on the mobile app.  <br/> |Members must sign in to the desktop or web app first to see auto-favorited channels on their mobile app.  <br/> |4/30/18  <br/>|
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users might not be able to switch accounts on Intune-managed mobile devices  <br/> |Users might not be able to switch accounts on Intune-managed mobile devices.  <br/> |No workaround.  <br/> |9/20/17  <br/>|
@@ -144,6 +149,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Mobile Client Teams Layout differences  <br/> |Teams are listed in alphabetical order and the channels can't be collapsed on the mobile client.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
+
 
 ## People
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
