@@ -71,9 +71,10 @@ To pair the SBC to the tenant, in the PowerShell session, type the following and
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurentSessions <Max Concurrent Session which SBC capable handling> -Enabled $true 
 ```
   > [!NOTE]
-  > - We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.<br/><br/>
-  > - You can only pair the SBC with FQDN, here**[Should this be "where?"**] domain portion of the name matches one of the domains registered in your tenant, except *.onmicrosoft.com. Using *.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:<br/><br/>     abc.xyz<br/>abc.onmictrrosoft.com<br/><br/>
-  > For the SBC name you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
+  > We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.
+
+  > [!NOTE]
+  > You can only pair the SBC with FQDN, where the domain portion of the name matches one of the domains registered in your tenant, except *.onmicrosoft.com. Using *.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names: abc.xyz and abc<span></span>.onmicrosoft.com. For the SBC name you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
 
 
 ```
