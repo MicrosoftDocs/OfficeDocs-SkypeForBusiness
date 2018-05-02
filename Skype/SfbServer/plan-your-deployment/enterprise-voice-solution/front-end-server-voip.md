@@ -7,9 +7,11 @@ ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: "Learn about the Enterprise Voice components that are located on Front End Servers in Skype for Business Server, including translation service and various routing components."
 ---

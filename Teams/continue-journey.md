@@ -7,6 +7,7 @@ ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for continuing your journey from Skype for Business to Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

@@ -7,9 +7,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: "Find information on Microsoft's Phone System in Office 365 (Cloud PBX) solutions for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud."
 ---

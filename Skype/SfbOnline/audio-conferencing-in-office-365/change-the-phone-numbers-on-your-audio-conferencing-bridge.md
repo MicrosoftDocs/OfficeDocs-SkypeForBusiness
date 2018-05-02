@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone."
 ---
@@ -49,6 +48,9 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
     > [!NOTE]
     > After a new phone number has been assigned, even if the number became the new default number, the default number for existing users won't change. To set the default toll or a toll-free number that is added to an organizer's meeting invites, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ### Step 2 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
 The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).

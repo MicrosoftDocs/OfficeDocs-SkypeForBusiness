@@ -15,12 +15,11 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. "
 ---
 
