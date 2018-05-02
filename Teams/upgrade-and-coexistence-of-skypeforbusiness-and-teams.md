@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Details of Skype for Business and Microsoft Teams coexistence options and modes, and upgrade journeys to Teams from Skype for Business with example scenarios.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

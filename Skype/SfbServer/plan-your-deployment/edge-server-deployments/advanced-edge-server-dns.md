@@ -6,13 +6,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection:
+localization_priority: Priority
+ms.collection: 
 - IT_Skype16
-- IT_Skype16
+- Strat_SB_Hybrid
 ms.custom:
-- Strat_SB_Hybrid
-- Strat_SB_Hybrid
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: "Summary: Review scenarios for Skype for Business Server 2015 deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help."
 ---

@@ -8,19 +8,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: "Insert introduction here."
+description: "Topology builder topics"
 ---
 
 # Help-TopoBld
  
-Insert introduction here.
+This node contains help topics for the Skype for Business Server topology builder.
   
-## Section Heading
 
-Insert section body here.
-  
-### Subsection Heading
-
-Insert subsection body here.
   
 

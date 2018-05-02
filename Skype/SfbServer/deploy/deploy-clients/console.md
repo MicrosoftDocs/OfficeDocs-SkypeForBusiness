@@ -7,8 +7,9 @@ ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: Strat_SB_Admin
+ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: "This article describes how to set up the Skype Room Systems v2 console device and its peripherals."
 ---
