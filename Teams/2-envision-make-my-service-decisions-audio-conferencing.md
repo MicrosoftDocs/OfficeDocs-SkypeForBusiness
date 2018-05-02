@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

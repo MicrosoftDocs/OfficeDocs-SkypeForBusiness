@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: "Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers."
 ---

@@ -7,10 +7,10 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
 ms.custom:
-- Strat_SB_Hybrid
-- Strat_SB_Hybrid
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: "Learn about deploying a single PSTN site in Cloud Connector Edition."
 ---

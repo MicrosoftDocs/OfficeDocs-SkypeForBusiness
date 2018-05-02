@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. "
 ---
@@ -35,7 +34,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 > [!NOTE]
 > There can be a maximum of one toll and one toll-free phone number on the meeting invite for a meeting organizer, but there is also a link located at the bottom of each meeting invite that opens the full list of all dial-in phone numbers that can be used to join a meeting. 
   
-## Setting the default dial-in phone number for a meeting organizer
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Set the default dial-in phone number for a meeting organizer
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -68,7 +67,10 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
     
-## Reset audio conferencing phone numbers
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Reset audio conferencing phone numbers
 
 1. In the **Skype for Business admin center**, choose **Audio conferencing**.
     
