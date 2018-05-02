@@ -12,6 +12,7 @@ metadata:
   ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   ms.custom:
   - NewAdminCenter_Update

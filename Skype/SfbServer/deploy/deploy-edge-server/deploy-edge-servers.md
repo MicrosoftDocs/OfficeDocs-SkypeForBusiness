@@ -7,8 +7,10 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: "Summary: Learn how to deploy Edge Servers into your Skype for Business Server 2015 environment."
 ---

@@ -7,12 +7,13 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: "Learn how to enable Phone System in Office 365 voice services for your Skype for Business users."
 ---

@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. "
 ---
 
