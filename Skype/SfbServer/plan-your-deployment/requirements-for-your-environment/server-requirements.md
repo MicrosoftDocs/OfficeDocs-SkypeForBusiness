@@ -150,12 +150,13 @@ There are some things you're going to need to install or configure for any serve
 |Silverlight  <br/> |You can install the latest version of Silverlight at [this link](https://www.microsoft.com/silverlight/).  <br/> |
    
 To help you out, here's a sample PowerShell script you can run to automate this:
-  
+
+```
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
 
-[!NOTE] The command looks for source files in a specific order. If you are online, the command accesses Windows Update. However, if you are offline, you need to make sure the source files are available to the command. For more information about using PowerShell to install roles and features, see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) and [Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
-```
+[!NOTE] 
+The command looks for source files in a specific order. If you are online, the command accesses Windows Update. However, if you are offline, you need to make sure the source files are available to the command. For more information about using PowerShell to install roles and features, see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) and [Install-WindowsFeature](https://technet.microsoft.com/en-us/library/jj205467.aspx). Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 
  **Directors also need:**
   
