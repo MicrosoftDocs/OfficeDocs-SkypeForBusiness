@@ -20,7 +20,7 @@ Skype Room Systems v2 provides a complete Skype for Business meeting experience
 that brings HD video, audio, and content sharing to meetings of all sizes, from
 small huddle areas to large conference rooms.
 
-![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems setup. ](media/0edc36fc0f39c2d1dda6b00bfb11b5d5.png)
+![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems setup.](../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems setup.")
 
 [Skype Room Systems version 2
 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
@@ -34,17 +34,11 @@ Skype Room Systems v2 includes the following key components to deliver a great
 user experience:
 
 -   Touchscreen control panel
-
 -   Compute
-
 -   Skype Room Systems application
-
 -   Dock / Extender
-
 -   Peripheral devices (camera, microphone, speaker)
-
 -   External screens (maximum of two)
-
 -   HDMI input
 
 You can procure these components as preinstalled bundles from a number of
@@ -81,7 +75,7 @@ Use the approach illustrated below to guide you through your deployment, and
 customize the sample outputs provided throughout this article as needed for your
 organization.
 
-![](media/96dd47f72facc84d1a1c5ce580d4e7d1.png)
+![Alt text here](../media/room-systems-image2.png "Alt text here")
 
 The first step is to inventory your organization’s existing meeting and
 conference rooms to understand their environment, room size, layout, and
