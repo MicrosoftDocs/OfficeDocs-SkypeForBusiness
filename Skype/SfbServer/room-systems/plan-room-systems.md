@@ -58,16 +58,10 @@ installation.
 You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype
 for Business hybrid or on-premises deployments.
 
-| Decision points | Will you deploy Skype Room Systems v2 in your organization? |
-|-----------------|-------------------------------------------------------------|
-
-
--   How will you procure your Skype Room Systems v2 systems—bundled, as separate
-    components, or as an integrated unit?
-
-| Next steps | Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 systems and the peripheral devices that would be appropriate for the room size. |   |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
-|            |                                                                                                                                                                                                     |   |
+<table>
+<tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ol></td></tr>
+<tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 systems and the peripheral devices that would be appropriate for the room size.</li></ol></td></tr>
+</table>
 
 ## Room inventory and capability planning
 
@@ -95,17 +89,10 @@ does have sufficient power for the screens and Skype Room Systems devices. There
 are many factors to consider that your audio-visual (AV) team or partner will be
 able to advise on.
 
-| Decision points | Which sites are in scope for your deployment? |
-|-----------------|-----------------------------------------------|
-
-
--   Which rooms are in scope for this deployment?
-
-    -   Who will undertake the meeting rooms inventory?
-
-| Next steps | Review the rooms in scope, and configure Skype Room Systems for them. |   |   |
-|------------|-----------------------------------------------------------------------|---|---|
-
+<table>
+<tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ol></td></tr>
+<tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the rooms in scope, and configure Skype Room Systems for them.</li></ol></td></tr>
+</table>
 
 Sample meeting/conference room inventory
 
@@ -135,24 +122,19 @@ configuration per room type, and use this as a template for your deployment.
 
 **Pro Tip** – Some room types might not be applicable for your deployment.
 
-| Decision points | From your inventory, which types of rooms are in scope for your deployment? |
-|-----------------|-----------------------------------------------------------------------------|
-
-
--   Which systems will you deploy for each room type?
-
-| Next steps | Start to gather key operational material for your chosen systems, and engage your procurement team. |   |
-|------------|-----------------------------------------------------------------------------------------------------|---|
-
+<table>
+<tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ol></td></tr>
+<tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ol></td></tr>
+</table>
 
 Sample Skype Room Systems deployment template for your organization
 
 | **Room Type / Size** | **Number of People**  | Skype Room Systems v**2 System** | **Peripheral devices**  | **Display (s)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Focus 10’ by 9’      | 2-4                   |                                  |                         |                 |
-| Small 16’ by 16’     | 4-6                   |                                  |                         |                 |
-| Medium 18’ by 20’    | 6-12                  |                                  |                         |                 |
-| Large 15’ by 20’     | 12-16                 |                                  |                         |                 |
+| Focus 10’ by 9’      | 2&ndash;4                   |                                  |                         |                 |
+| Small 16’ by 16’     | 4&ndash;6                   |                                  |                         |                 |
+| Medium 18’ by 20’    | 6&ndash;12                  |                                  |                         |                 |
+| Large 15’ by 20’     | 12&ndash;16                 |                                  |                         |                 |
 
 **Pro Tip –** Now is a great time to start gathering information about the Skype
 Room Systems v2 solution you’ve chosen. We recommend that you work with your
@@ -180,12 +162,7 @@ configuration and assignment. This might be a good approach for a staged rollout
 across many sites. Or, you might choose to ship the bundles directly to your
 sites.
 
-| Decision points | Will you ship the components directly to a site or to a staging facility? |
-|-----------------|---------------------------------------------------------------------------|
-
-
--   Who will manage the staging facility (if you decide to use one)?
-
-| Next steps | Confirm that your sites are ready. |   |
-|------------|------------------------------------|---|
-
+<table>
+<tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ol></td></tr>
+<tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm that your sites are ready.</li></ol></td></tr>
+</table>
