@@ -63,6 +63,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> When a Calling Plan (domestic or domestic and international)  user in the U.S. dials a phone number in Canada it will be treated as a domestic call. This is also the case when a user in Canada will make a call to a U.S. number.
   
 ## Communications Credits
 
