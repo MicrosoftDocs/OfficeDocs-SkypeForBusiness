@@ -47,7 +47,12 @@ You can install the required roles and features using Server Manager.
 1. Install the prerequisite software features listed in [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). The required software must be on the server that will run Skype for Business Server 2015.
     
     > [!CAUTION]
-    > Windows Server 2012 R2 does not install all of the source files for the required features by default. If the server is not connected to the Internet, you will need to insert the Windows Server 2012 R2 media and select **Specify an alternate source path** in order to install the required features. The source files are located in the sources\sxs directory. For example, if the Windows Server 2012 R2 media is in drive D, you would set the path to `d:\sources\sxs`. > It is important that you have the latest updates from Windows Update. If you are not connected to the Internet, you will need to manually install all relevant updates as well as any prerequisites to the required updates. 
+    > Windows Server 2012 R2 does not install all of the source files for the required features by default. 
+    > If the server is not connected to the Internet, you will need to insert the Windows Server 2012 R2 media and select **Specify an alternate source path** in order to install the required features. 
+    > The source files are located in the sources\sxs directory. 
+    > For example, if the Windows Server 2012 R2 media is in drive D, you would set the path to `d:\sources\sxs`. 
+    > It is important that you have the latest updates from Windows Update. 
+    > If you are not connected to the Internet, you will need to manually install all relevant updates as well as any prerequisites to the required updates. 
   
 1. When the dialog box indicates that the installation has completed, you will need to reboot the server to complete the process.
     
@@ -57,6 +62,7 @@ You can install the required roles and features using Server Manager.
 
 
 > [!IMPORTANT]
-> The prerequisites for servers performing roles other than front-end server, such as the role of Director, Persistent Chat, or Edge, have their own prerequisites. For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> The prerequisites for servers performing roles other than front-end server, such as the role of Director, Persistent Chat, or Edge, have their own prerequisites. 
+> For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 
