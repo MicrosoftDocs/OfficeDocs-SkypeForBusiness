@@ -19,7 +19,7 @@ Microsoft Phone System Direct Routing lets you connect a supported, customer-pro
 ![Shows configuration of on-premises PSTN connectivity with Microsoft Teams client](../../media/PlanDirectRouting1-PSTNwithTeams.png)
 
   > [!NOTE]
-  > Skype for Business Online also lets you pair a customer-provided SBC, but requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contract, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud. 
+  > Skype for Business Online also lets you pair a customer-provided SBC, but this requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contrast, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud. 
 
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party Public Switched Telephone Network (PSTN) equipment. Direct Routing enables you to: 
 
@@ -54,10 +54,10 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |**Infrastructure requirement**|**You need the following**|
 |:--- |:--- |
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs] **NEED URL**.|
-|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, for example, PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (Note: For configuration of the PSTN trunks to SBC, please refer to the SBC vendors or trunk providers.)|
+|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (Note: For configuration of the PSTN trunks to SBC, please refer to the SBC vendors or trunk providers.)|
 |Office 365 tenant|An Office 365 tenant that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
 |User registrar|User must be homed in Office 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Office 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>The output of the cmdlet should show:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com; that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Public IP address for the SBC|A public IP address that can be used to connect to the SBC. Based on the type of SBC, the SBC can use NAT.|
 |Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC Domain names]**NEED URL**.|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
@@ -77,7 +77,7 @@ Users of Direct Routing must have the following licenses assigned in Office 365:
 - Microsoft Teams 
 - Microsoft Audio Conferencing 
 
-The Audio Conferencing license is required for adding external participants to scheduled meetings either by dialing out to them or by providing the dial in number. 
+The Audio Conferencing license is required for adding external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number. 
  
   > [!NOTE]
   > The E5 license includes both Phone System and Audio Conferencing.   
@@ -89,7 +89,7 @@ In addition, you must ensure the following:
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. Microsoft Phone System with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful, for example, when the user is assigned a Microsoft Calling Plan, but wants to route some calls via SBC. One of the most common scenarios are calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed via Microsoft Calling Plan; but calls to the phones connected to third-party PBXs go to the SBC, therefore stay within the enterprise network and not to the PSTN. 
+Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful, for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls via SBC. One of the most common scenarios are calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed via Microsoft Calling Plan; but calls to the phones connected to third-party PBXs go to the SBC, therefore stay within the enterprise network and not to the PSTN. 
 
 For more information about Phone System licensing, see [Get the most from Office with Office 365 and Office 365 Plan Options](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2). 
 
@@ -104,7 +104,7 @@ The following table shows examples of DNS names registered for the tenant, wheth
 |**DNS name**|**Can be used for SBC FQDN**|**Examples of FQDN names**|
 |:--- |:--- |:--- |
 contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|No|**Non-Valid name:**<br/>sbc1.europe.contoso.com (requires registering domain name europe.contoso.com in “Domains” first)
+|contoso.onmicrosoft.com|No|**Non-valid name:**<br/>sbc1.europe.contoso.com (requires registering domain name europe.contoso.com in “Domains” first)
 |
 
 It is possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
@@ -139,16 +139,11 @@ Microsoft is working on adding additional certification authorities based on cus
 
 The connection point for Direct Routing are the following three FQDNs:
 
-- **sip.pstnhub.microsoft.com** – Global FQDN – must be tried first. When the SBC sends a request to resolve this name, the Microsoft Azure DNS servers return an IP address pointing to the primary Azure datacenter assigned to the SBC. The assignment is based on performance metrics of the datacenters and geographical proximity to the SBC. The IP address returned corresponds to the primary FQDN
+- **sip.pstnhub.microsoft.com** – Global FQDN – must be tried first. When the SBC sends a request to resolve this name, the Microsoft Azure DNS servers return an IP address pointing to the primary Azure datacenter assigned to the SBC. The assignment is based on performance metrics of the datacenters and geographical proximity to the SBC. The IP address returned corresponds to the primary FQDN.
 - **sip2.pstnhub.microsoft.com** – Secondary FQDN – geographically maps to the second priority region.
 - **sip3.pstnhub.microsoft.com** – Tertiary FQDN – geographically maps to the third priority region.
 
-Placing these three FQDNs in order are required to:
-
-- Provide optimal experience (less loaded and closest to the SBC datacenter assigned by querying the first FQDN).
-- Provide failover when connection from an SBC is established to a datacenter that is experiencing a temporary issue. For more information, see Failover mechanism.  
-
-Placing these three FQDNs in order are required to:
+Placing these three FQDNs in order is required to:
 
 - Provide optimal experience (less loaded and closest to the SBC datacenter assigned by querying the first FQDN).
 - Provide failover when connection from an SBC is established to a datacenter that is experiencing a temporary issue. For more information, see [Failover mechanism](#failover-mechanism-for-sip-signaling) below.  
@@ -172,7 +167,7 @@ SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 
 ### Failover mechanism for SIP Signaling
 
-The SBC makes a DNS query to resolve sip.pstnhub.microsoft.com. Based on the SBC location and the datacenter performance metrics, the primary datacenter is selected. If the primary datacenter experiences an issue, the SBC will try the sip2.pstnhub.microsoft.com which resolves to the second assigned datacenter, and, in the rare case that datacenters in two regions are not available, the SBC retries the last FQDN (sip3.pstnhub.microsoft.com) which provides the tertiary datacenter IP.
+The SBC makes a DNS query to resolve sip.pstnhub.microsoft.com. Based on the SBC location and the datacenter performance metrics, the primary datacenter is selected. If the primary datacenter experiences an issue, the SBC will try the sip2.pstnhub.microsoft.com, which resolves to the second assigned datacenter, and, in the rare case that datacenters in two regions are not available, the SBC retries the last FQDN (sip3.pstnhub.microsoft.com), which provides the tertiary datacenter IP.
 
 The table below summarizes the relationships between primary, secondary, and tertiary datacenters:
 
