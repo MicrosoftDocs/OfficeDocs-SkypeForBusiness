@@ -1,5 +1,5 @@
 ---
-title: "Configure XMPP gateway on Lync Server 2013 [W14 to W15]"
+title: "Configure XMPP gateway on Lync Server 2013"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
 description: "The final steps for migrating your XMPP Gateway are to configure certificates for the Lync Server 2013 Edge Server, deploy the Lync Server 2013 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Lync Server 2013 deployment before performing these steps."
 ---
 
-# Configure XMPP gateway on Lync Server 2013 [W14 to W15]
+# Configure XMPP gateway on Lync Server 2013
 []
 The final steps for migrating your XMPP Gateway are to configure certificates for the Lync Server 2013 Edge Server, deploy the Lync Server 2013 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Lync Server 2013 deployment before performing these steps.
   

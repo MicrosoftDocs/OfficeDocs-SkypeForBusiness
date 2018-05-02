@@ -1,5 +1,5 @@
 ---
-title: "Migration process [W14 to W15]"
+title: "Migration process"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 13d71f4b-9d5e-4ea3-9e93-29fdad7ac68f
 description: "The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration. This topic describes why you should use side-by-side migration and also includes information about coexistence testing."
 ---
 
-# Migration process [W14 to W15]
+# Migration process
 []
 The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration. This topic describes why you should use side-by-side migration and also includes information about coexistence testing.
   

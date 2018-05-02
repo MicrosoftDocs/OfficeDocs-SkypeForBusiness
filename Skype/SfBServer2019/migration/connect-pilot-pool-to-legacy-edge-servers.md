@@ -1,5 +1,5 @@
 ---
-title: "Connect pilot pool to legacy Edge Servers [W14 to W15]"
+title: "Connect pilot pool to legacy Edge Servers"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: c3b67220-5705-47f6-852e-415204f3626c
 description: "After deploying Lync Server 2013, you need to configure a federation route for your site. In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route."
 ---
 
-# Connect pilot pool to legacy Edge Servers [W14 to W15]
+# Connect pilot pool to legacy Edge Servers
 []
 After deploying Lync Server 2013, you need to configure a federation route for your site. In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route. 
   

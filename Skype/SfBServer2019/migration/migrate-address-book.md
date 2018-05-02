@@ -1,5 +1,5 @@
 ---
-title: "Migrate Address Book [W14 to W15]"
+title: "Migrate Address Book"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 description: "In general, the Lync Server 2010 Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your Lync Server 2010 environment:"
 ---
 
-# Migrate Address Book [W14 to W15]
+# Migrate Address Book
 []
 In general, the Lync Server 2010 Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your Lync Server 2010 environment: 
   

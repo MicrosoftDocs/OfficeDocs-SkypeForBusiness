@@ -1,5 +1,5 @@
 ---
-title: "Verify pilot pool coexistence with legacy pool [W14 to W15]"
+title: "Verify pilot pool coexistence with legacy pool"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 description: "In this articleVerify that Lync Server 2013 services have startedOpen the Lync Server 2013 Control PanelDon't attempt to open the topology in Lync Server 2010 Topology Builder"
 ---
 
-# Verify pilot pool coexistence with legacy pool [W14 to W15]
+# Verify pilot pool coexistence with legacy pool
 []
  **In this article**
   

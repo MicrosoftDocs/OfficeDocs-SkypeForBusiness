@@ -1,5 +1,5 @@
 ---
-title: "Migrate existing meetings and meeting content [W14 to W15]"
+title: "Migrate existing meetings and meeting content"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
 description: "When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:"
 ---
 
-# Migrate existing meetings and meeting content [W14 to W15]
+# Migrate existing meetings and meeting content
 []
 When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:
   

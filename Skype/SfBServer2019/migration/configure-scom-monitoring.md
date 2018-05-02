@@ -1,5 +1,5 @@
 ---
-title: "Configure SCOM monitoring [W14 to W15]"
+title: "Configure SCOM monitoring"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 4003d225-2a33-448c-abd9-571750661140
 description: "After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager."
 ---
 
-# Configure SCOM monitoring [W14 to W15]
+# Configure SCOM monitoring
 []
 After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.
   
@@ -28,7 +28,7 @@ Instructions for carrying out each of these tasks are provided below.
 
 1. Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node. 
     
-2. Apply Lync Server 2010 updates to this server. See the topic [Apply Lync Server 2010 updates [W14 to W15]](apply-lync-server-2010-updates-w14-to-w15.md).
+2. Apply Lync Server 2010 updates to this server. See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).
     
 ### Update the central discovery candidate server registry key.
 

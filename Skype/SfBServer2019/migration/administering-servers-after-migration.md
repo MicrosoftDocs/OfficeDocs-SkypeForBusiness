@@ -1,5 +1,5 @@
 ---
-title: "Administering servers after migration [W14 to W15]"
+title: "Administering servers after migration"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 7b08f048-c951-4050-b77c-0fff351620e7
 description: "In general, you must use the administrative tool that corresponds to the server version that you want to manage. You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer. Also, the Lync Server 2013 Control Panel is not installed automatically on each server. To install the Lync Server 2013 Control Panel, follow the procedure inside the topic Install Lync Server 2013 administrative tools in the Deployment documentation."
 ---
 
-# Administering servers after migration [W14 to W15]
+# Administering servers after migration
 []
 In general, you must use the administrative tool that corresponds to the server version that you want to manage. You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer. Also, the Lync Server 2013 Control Panel is not installed automatically on each server. To install the Lync Server 2013 Control Panel, follow the procedure in the Deployment documentation. 
   

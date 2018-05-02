@@ -1,5 +1,5 @@
 ---
-title: "Migrate dial-in access numbers [W14 to W15]"
+title: "Migrate dial-in access numbers"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: e0dfaed2-64c7-45cb-aaa9-d6117a26625d
 description: "Migrating dial-in access numbers from Lync Server 2010 to Lync Server 2013 requires running the Move-CsApplicationEndpoint cmdlet to migrate the contact objects. During the Lync Server 2010 and Lync Server 2013 coexistence period, dial-in access numbers that you created in Lync Server 2013 behave similarly to the dial-in access numbers that you create in Lync Server 2010, as described in this section."
 ---
 
-# Migrate dial-in access numbers [W14 to W15]
+# Migrate dial-in access numbers
 []
 Migrating dial-in access numbers from Lync Server 2010 to Lync Server 2013 requires running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects. During the Lync Server 2010 and Lync Server 2013 coexistence period, dial-in access numbers that you created in Lync Server 2013 behave similarly to the dial-in access numbers that you create in Lync Server 2010, as described in this section. 
   

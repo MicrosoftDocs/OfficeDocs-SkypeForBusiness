@@ -1,5 +1,5 @@
 ---
-title: "Configure federation routes and media traffic [W14 to W15]"
+title: "Configure federation routes and media traffic"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 description: "Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries. After you migrate to your Lync Server 2013 pilot pool, you need to transition from the federation route of your Lync Server 2010 Edge Servers to the federation route of your Lync Server 2013 Edge Servers."
 ---
 
-# Configure federation routes and media traffic [W14 to W15]
+# Configure federation routes and media traffic
 []
 Federation is a trust relationship between two or more SIP domains that permits users in separate organizations to communicate across network boundaries. After you migrate to your Lync Server 2013 pilot pool, you need to transition from the federation route of your Lync Server 2010 Edge Servers to the federation route of your Lync Server 2013 Edge Servers. 
   

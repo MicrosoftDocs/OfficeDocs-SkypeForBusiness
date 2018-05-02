@@ -1,5 +1,5 @@
 ---
-title: "Configure the meeting join page [W14 to W15]"
+title: "Configure the meeting join page"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
 description: "When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user's computer. If a client is already installed, that client opens and joins the meeting. If a client is not installed, by default the 2013 version of Lync Web App opens."
 ---
 
-# Configure the meeting join page [W14 to W15]
+# Configure the meeting join page
 []
 When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user's computer. If a client is already installed, that client opens and joins the meeting. If a client is not installed, by default the 2013 version of Lync Web App opens.
   

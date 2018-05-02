@@ -1,5 +1,5 @@
 ---
-title: "Stop Lync Server 2010 services [W14 to W15]"
+title: "Stop Lync Server 2010 services"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 description: "You can use Lync Server Control Panel to start or stop all the Lync Server 2010 services running on a specific computer or to start or stop a specific Lync Server 2010 service."
 ---
 
-# Stop Lync Server 2010 services [W14 to W15]
+# Stop Lync Server 2010 services
 []
 You can use Lync Server Control Panel to start or stop all the Lync Server 2010 services running on a specific computer or to start or stop a specific Lync Server 2010 service.
   

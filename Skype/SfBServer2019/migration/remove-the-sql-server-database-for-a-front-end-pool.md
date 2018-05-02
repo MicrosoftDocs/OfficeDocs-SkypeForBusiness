@@ -1,5 +1,5 @@
 ---
-title: "Remove the SQL Server database for a Front End pool [W14 to W15]"
+title: "Remove the SQL Server database for a Front End pool"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
 description: "After you remove a Microsoft Lync Server 2010 Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server."
 ---
 
-# Remove the SQL Server database for a Front End pool [W14 to W15]
+# Remove the SQL Server database for a Front End pool
 []
 After you remove a Microsoft Lync Server 2010 Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
   

@@ -1,5 +1,5 @@
 ---
-title: "Configure trusted application servers [W14 to W15]"
+title: "Configure trusted application servers"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
 description: "In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Lync Server 2013 pool. In a mixed environment, both the legacy Lync Server 2010 pool and the Lync Server 2013 pool appear in the drop down list. Selecting the legacy pool is not supported."
 ---
 
-# Configure trusted application servers [W14 to W15]
+# Configure trusted application servers
 []
 In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Lync Server 2013 pool. In a mixed environment, both the legacy Lync Server 2010 pool and the Lync Server 2013 pool appear in the drop down list. Selecting the legacy pool is not supported.
   

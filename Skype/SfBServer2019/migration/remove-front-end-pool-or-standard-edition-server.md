@@ -1,5 +1,5 @@
 ---
-title: "Remove Front End pool or Standard Edition server [W14 to W15]"
+title: "Remove Front End pool or Standard Edition server"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
 description: "This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server. When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process. When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder."
 ---
 
-# Remove Front End pool or Standard Edition server [W14 to W15]
+# Remove Front End pool or Standard Edition server
 []
 This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server. When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process. When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.
   

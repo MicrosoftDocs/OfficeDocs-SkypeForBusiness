@@ -1,5 +1,5 @@
 ---
-title: "Migrating Archiving and Monitoring servers [W14 to W15]"
+title: "Migrating Archiving and Monitoring servers"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 77831579-df45-4697-b8c5-207b74a07a40
 description: "If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools. If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process."
 ---
 
-# Migrating Archiving and Monitoring servers [W14 to W15]
+# Migrating Archiving and Monitoring servers
 []
 If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools. If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process. 
   

@@ -41,22 +41,22 @@ interoperability
     
 ## In This Section
 
-- [Before you begin the migration [W14 to W15]](before-you-begin-the-migration-w14-to-w15.md)
+- [Before you begin the migration](before-you-begin-the-migration.md)
     
-- [Phase 1: Plan your migration from Lync Server 2010 [W14 to W15]](phase-1-plan-your-migration-from-lync-server-2010-w14-to-w15.md)
+- [Phase 1: Plan your migration from Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
     
-- [Phase 2: Prepare for migration [W14 to W15]](phase-2-prepare-for-migration-w14-to-w15.md)
+- [Phase 2: Prepare for migration](phase-2-prepare-for-migration.md)
     
-- [Phase 3: Deploy Lync Server 2013 pilot pool [W14 to W15]](phase-3-deploy-lync-server-2013-pilot-pool-w14-to-w15.md)
+- [Phase 3: Deploy Lync Server 2013 pilot pool](phase-3-deploy-lync-server-2013-pilot-pool.md)
     
-- [Phase 4: Move test users to the pilot pool [W14 to W15]](phase-4-move-test-users-to-the-pilot-pool-w14-to-w15.md)
+- [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md)
     
-- [Phase 5: Add Lync Server 2013 Edge Server to pilot pool [W14 to W15]](phase-5-add-lync-server-2013-edge-server-to-pilot-pool-w14-to-w15.md)
+- [Phase 5: Add Lync Server 2013 Edge Server to pilot pool](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
     
-- [Phase 6: Move from pilot deployment into production [W14 to W15]](phase-6-move-from-pilot-deployment-into-production-w14-to-w15.md)
+- [Phase 6: Move from pilot deployment into production](phase-6-move-from-pilot-deployment-into-production.md)
     
-- [Phase 7: Complete post-migration tasks [W14 to W15]](phase-7-complete-post-migration-tasks-w14-to-w15.md)
+- [Phase 7: Complete post-migration tasks](phase-7-complete-post-migration-tasks.md)
     
-- [Phase 8: Decommission legacy pools [W14 to W15]](phase-8-decommission-legacy-pools-w14-to-w15.md)
+- [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md)
     
 

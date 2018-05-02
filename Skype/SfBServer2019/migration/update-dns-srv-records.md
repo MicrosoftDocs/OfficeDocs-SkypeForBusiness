@@ -1,5 +1,5 @@
 ---
-title: "Update DNS SRV records [W14 to W15]"
+title: "Update DNS SRV records"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 9542b91a-108c-4980-89ec-634905cbbf26
 description: "To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group."
 ---
 
-# Update DNS SRV records [W14 to W15]
+# Update DNS SRV records
 []
 To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.
   

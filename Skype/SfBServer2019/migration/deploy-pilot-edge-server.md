@@ -1,5 +1,5 @@
 ---
-title: "Deploy pilot Edge Server [W14 to W15]"
+title: "Deploy pilot Edge Server"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
 description: "This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server. The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see Deploying external user access in Lync Server 2013 in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access."
 ---
 
-# Deploy pilot Edge Server [W14 to W15]
+# Deploy pilot Edge Server
 []
 This topic highlights configuration settings you should be aware of prior to deploying your Lync Server 2013 Edge Server. The deployment and configuration processes for Lync Server 2013 are very similar to Lync Server 2010. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see 
 <!-- [Deploying external user access in Lync Server 2013](../../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

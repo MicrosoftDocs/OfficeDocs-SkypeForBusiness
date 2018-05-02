@@ -1,5 +1,5 @@
 ---
-title: "Change simple URLs after migration [W14 to W15]"
+title: "Change simple URLs after migration"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
 description: "Lync Server supports three simple URLs:"
 ---
 
-# Change simple URLs after migration [W14 to W15]
+# Change simple URLs after migration
 []
 Lync Server supports three simple URLs:
   

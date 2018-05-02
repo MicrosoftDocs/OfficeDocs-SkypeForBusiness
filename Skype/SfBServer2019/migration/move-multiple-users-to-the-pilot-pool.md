@@ -1,5 +1,5 @@
 ---
-title: "Move multiple users to the pilot pool [W14 to W15]"
+title: "Move multiple users to the pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 90d0590c-922c-4933-b778-9dd850b59310
 description: "In this articleTo move multiple users by using the Lync Server 2013 Control PanelTo move multiple users by using the Lync Server 2013 Management ShellTo move all users at the same time by using the Lync Server 2013 Management Shell"
 ---
 
-# Move multiple users to the pilot pool [W14 to W15]
+# Move multiple users to the pilot pool
 []
  **In this article**
   

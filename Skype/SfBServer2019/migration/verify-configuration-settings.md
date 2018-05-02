@@ -1,5 +1,5 @@
 ---
-title: "Verify configuration settings [W14 to W15]"
+title: "Verify configuration settings"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 51c2d1d9-63f7-43ab-88ca-b8913da7cede
 description: "You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 Get-CsManagementStoreReplicationStatus cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed."
 ---
 
-# Verify configuration settings [W14 to W15]
+# Verify configuration settings
 []
 You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed. 
   

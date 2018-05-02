@@ -1,5 +1,5 @@
 ---
-title: "Remove the SQL Server database for a Monitoring server [W14 to W15]"
+title: "Remove the SQL Server database for a Monitoring server"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
 description: "After you remove a Microsoft Lync Server 2010 Monitoring Server, you can remove the SQL Server databases that hosted the server data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server."
 ---
 
-# Remove the SQL Server database for a Monitoring server [W14 to W15]
+# Remove the SQL Server database for a Monitoring server
 []
 After you remove a Microsoft Lync Server 2010 Monitoring Server, you can remove the SQL Server databases that hosted the server data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
   

@@ -1,5 +1,5 @@
 ---
-title: "Apply Lync Server 2010 updates [W14 to W15]"
+title: "Apply Lync Server 2010 updates"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
 description: "Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment. For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at https://go.microsoft.com/fwlink/p/?linkid=232630."
 ---
 
-# Apply Lync Server 2010 updates [W14 to W15]
+# Apply Lync Server 2010 updates
 []
 Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment. For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at [https://go.microsoft.com/fwlink/p/?linkid=232630](https://go.microsoft.com/fwlink/p/?linkid=232630).
   

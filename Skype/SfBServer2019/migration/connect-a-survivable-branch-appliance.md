@@ -1,5 +1,5 @@
 ---
-title: "Connect a Survivable Branch Appliance [W14 to W15]"
+title: "Connect a Survivable Branch Appliance"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
 description: "Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology. Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA. These steps are summarized below:"
 ---
 
-# Connect a Survivable Branch Appliance [W14 to W15]
+# Connect a Survivable Branch Appliance
 []
 Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology. Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA. These steps are summarized below:
   

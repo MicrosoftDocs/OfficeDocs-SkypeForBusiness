@@ -1,5 +1,5 @@
 ---
-title: "Migrating multiple sites and pools [W14 to W15]"
+title: "Migrating multiple sites and pools"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: a6d726d2-564d-4b39-a97c-5656a673292a
 description: "Lync Server 2013 supports multi-site and multi-pool deployments. The process of migrating multiple pools from Lync Server 2010 to Lync Server 2013 requires the following considerations:"
 ---
 
-# Migrating multiple sites and pools [W14 to W15]
+# Migrating multiple sites and pools
 []
 Lync Server 2013 supports multi-site and multi-pool deployments. The process of migrating multiple pools from Lync Server 2010 to Lync Server 2013 requires the following considerations: 
   
@@ -26,6 +26,6 @@ Lync Server 2013 supports multi-site and multi-pool deployments. The process of 
     
 5. After verifying that the Lync Server 2010 pool is empty, you can then deactivate the pool. 
     
-    For details about how to deactivate the legacy Lync Server 2010 pool and servers, see [Phase 8: Decommission legacy pools [W14 to W15]](phase-8-decommission-legacy-pools-w14-to-w15.md).
+    For details about how to deactivate the legacy Lync Server 2010 pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).
     
 

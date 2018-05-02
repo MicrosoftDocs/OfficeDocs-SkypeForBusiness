@@ -1,5 +1,5 @@
 ---
-title: "Configure clients for migration [W14 to W15]"
+title: "Configure clients for migration"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
 description: "This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013. These configuration changes should be made on Lync Server 2010."
 ---
 
-# Configure clients for migration [W14 to W15]
+# Configure clients for migration
 []
 This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013. These configuration changes should be made on Lync Server 2010.
   

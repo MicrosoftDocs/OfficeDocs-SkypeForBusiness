@@ -1,5 +1,5 @@
 ---
-title: "Deploy Lync Server 2013 pilot pool [W14 to W15]"
+title: "Deploy Lync Server 2013 pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: a81aba1e-e636-434b-8c56-4150435bb55d
 description: "One of the first steps required for migration to Lync Server 2013 is to deploy a pilot pool. The pilot pool is where you test coexistence of Lync Server 2013 with your Lync Server 2010 deployment. Coexistence is a temporary state that lasts until you have moved all users and pools to Lync Server 2013."
 ---
 
-# Deploy Lync Server 2013 pilot pool [W14 to W15]
+# Deploy Lync Server 2013 pilot pool
 []
 One of the first steps required for migration to Lync Server 2013 is to deploy a pilot pool. The pilot pool is where you test coexistence of Lync Server 2013 with your Lync Server 2010 deployment. Coexistence is a temporary state that lasts until you have moved all users and pools to Lync Server 2013. 
   

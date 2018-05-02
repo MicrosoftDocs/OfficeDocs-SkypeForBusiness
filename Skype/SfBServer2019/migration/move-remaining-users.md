@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
-description: "You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell. You must meet some requirements to ensure a smooth transition to Lync Server 2013. For details about prerequisites to completing the procedures in this topic, see Configure clients for migration [W14 to W15]. For detailed steps about moving users, see Phase 4: Move test users to the pilot pool [W14 to W15]."
+description: "You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell. You must meet some requirements to ensure a smooth transition to Lync Server 2013. For details about prerequisites to completing the procedures in this topic, see Configure clients for migration. For detailed steps about moving users, see Phase 4: Move test users to the pilot pool."
 ---
 
 # Move remaining users to Lync Server 2013
 []
-You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell. You must meet some requirements to ensure a smooth transition to Lync Server 2013. For details about prerequisites to completing the procedures in this topic, see [Configure clients for migration [W14 to W15]](configure-clients-for-migration-w14-to-w15.md). For detailed steps about moving users, see [Phase 4: Move test users to the pilot pool [W14 to W15]](phase-4-move-test-users-to-the-pilot-pool-w14-to-w15.md).
+You can move users to the new Lync Server 2013 deployment by using either Lync Server Control Panel or Lync Server Management Shell. You must meet some requirements to ensure a smooth transition to Lync Server 2013. For details about prerequisites to completing the procedures in this topic, see [Configure clients for migration](configure-clients-for-migration.md). For detailed steps about moving users, see [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).
   
 > [!IMPORTANT]
 > You cannot use the Active Directory Users and Computers snap-in or the Lync Server 2010 administrative tools to move users from your legacy environment to Lync Server 2013. 

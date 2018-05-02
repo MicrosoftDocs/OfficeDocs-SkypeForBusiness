@@ -1,5 +1,5 @@
 ---
-title: "Verify federation and remote access for external users [W14 to W15]"
+title: "Verify federation and remote access for external users"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: a383fefb-c428-4462-93fd-15ba540fa867
 description: "After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected. Tests for external user access should include each type of external user that your organization supports, including any or all of the following."
 ---
 
-# Verify federation and remote access for external users [W14 to W15]
+# Verify federation and remote access for external users
 []
 After transitioning the federation route to the Lync Server 2013 Edge Server, you should perform some functional tests to verify that federation performs as expected. Tests for external user access should include each type of external user that your organization supports, including any or all of the following.
   

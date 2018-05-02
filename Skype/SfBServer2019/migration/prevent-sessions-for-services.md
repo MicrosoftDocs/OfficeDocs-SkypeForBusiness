@@ -1,5 +1,5 @@
 ---
-title: "Prevent sessions for services [W14 to W15]"
+title: "Prevent sessions for services"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,7 +12,7 @@ ms.assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
 description: "You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service."
 ---
 
-# Prevent sessions for services [W14 to W15]
+# Prevent sessions for services
 []
 You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service.
   

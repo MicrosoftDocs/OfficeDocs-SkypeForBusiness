@@ -1,5 +1,5 @@
 ---
-title: "Phase 1 Plan your migration from Lync Server 2010 [W14 to W15]"
+title: "Phase 1 Plan your migration from Lync Server 2010"
 ms.author: kenwith
 author: kenwith
 manager: laurawi
@@ -12,22 +12,22 @@ ms.assetid: 1461b343-05cd-44a3-b722-4c297708de31
 description: "This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013."
 ---
 
-# Phase 1: Plan your migration from Lync Server 2010 [W14 to W15]
+# Phase 1: Plan your migration from Lync Server 2010
 []
 This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013. 
   
 ## In This Section
 
-- [User migration [W14 to W15]](user-migration-w14-to-w15.md)
+- [User migration](user-migration.md)
     
-- [Migrating Archiving and Monitoring servers [W14 to W15]](migrating-archiving-and-monitoring-servers-w14-to-w15.md)
+- [Migrating Archiving and Monitoring servers](migrating-archiving-and-monitoring-servers.md)
     
-- [Migrating Group Chat servers [W14 to W15]](migrating-group-chat-servers-w14-to-w15.md)
+- [Migrating Group Chat servers](migrating-group-chat-servers.md)
     
-- [Administering servers after migration [W14 to W15]](administering-servers-after-migration-w14-to-w15.md)
+- [Administering servers after migration](administering-servers-after-migration.md)
     
-- [Migrating multiple sites and pools [W14 to W15]](migrating-multiple-sites-and-pools-w14-to-w15.md)
+- [Migrating multiple sites and pools](migrating-multiple-sites-and-pools.md)
     
-- [Migrating XMPP federation [W14 to W15]](migrating-xmpp-federation-w14-to-w15.md)
+- [Migrating XMPP federation](migrating-xmpp-federation.md)
     
 
