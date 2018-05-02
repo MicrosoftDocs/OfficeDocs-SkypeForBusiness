@@ -577,4 +577,6 @@ To assign a policy that sets Microsoft Teams as the preferred calling client, ma
 
 ```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”```
 
+## See also
 
+[Plan Direct Routing](plan-direct-routing.md)
