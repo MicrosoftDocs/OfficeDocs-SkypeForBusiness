@@ -1,5 +1,5 @@
 ---
-title: "Install prerequisites for Skype for Business Server 2015"
+title: "Install prerequisites for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: "Summary: Learn about the servers and server roles you must configure before you install Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn about the servers and server roles you must configure before you install Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
-# Install prerequisites for Skype for Business Server 2015
+# Install prerequisites for Skype for Business Server
  
-**Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn about the servers and server roles you must configure before you install Skype for Business Server. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Installing prerequisites consists of setting up Windows Server by installing the required roles and features on each of the servers in the topology. The requirements are based on the role the server will fulfill in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing prerequisites is step 1 of 8.
   
@@ -26,7 +26,7 @@ Installing prerequisites consists of setting up Windows Server by installing the
   
 ## Setup Windows Server
 
-Skype for Business Server 2015 requires the Windows Server operating system and a number of prerequisites before it can be installed. For details on planning for prerequisites, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype for Business Server requires the Windows Server operating system and a number of prerequisites before it can be installed. For details on planning for prerequisites, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 > [!TIP]
 > This procedure uses Windows Server 2012 R2. If you are using a different version of Windows Server, the procedure might be slightly different. 
@@ -44,7 +44,7 @@ Watch the video steps for **install prerequisites**:
 
 You can install the required roles and features using Server Manager. 
     
-1. Install the prerequisite software features listed in [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). The required software must be on the server that will run Skype for Business Server 2015.
+1. Install the prerequisite software features listed in [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). The required software must be on the server that will run Skype for Business Server.
     
     > [!CAUTION]
     > Windows Server 2012 R2 does not install all of the source files for the required features by default. 
@@ -63,6 +63,6 @@ You can install the required roles and features using Server Manager.
 
 > [!IMPORTANT]
 > The prerequisites for servers performing roles other than front-end server, such as the role of Director, Persistent Chat, or Edge, have their own prerequisites. 
-> For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 
