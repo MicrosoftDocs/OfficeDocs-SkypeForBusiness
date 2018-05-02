@@ -7,9 +7,11 @@ ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: "Summary: Choose your topology for Skype for Business Server 2015. Learn about server collocation for Skype for Business Server 2015."
 ---

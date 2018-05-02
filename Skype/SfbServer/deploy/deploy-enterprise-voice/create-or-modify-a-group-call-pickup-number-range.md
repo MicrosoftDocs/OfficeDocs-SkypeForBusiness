@@ -7,13 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection:
+localization_priority: Priority
+ms.collection: 
 - IT_Skype16
-- IT_Skype16
-ms.custom:
 - Strat_SB_Admin
-- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: "Create or modify a Group Call Pickup number range in Skype for Business Server Enterprise Voice."
 ---

@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365P_DialInConfDesc
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
 description: "Learn how to set up dial-in or audio conferencing for the people in your business who need to join conference calls using a phone. "

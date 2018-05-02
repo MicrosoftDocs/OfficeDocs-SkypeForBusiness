@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: "Deploy E9-1-1 in Skype for Business Server Enterprise Voice. Includes prerequisites and deployment process checklist."
 ---

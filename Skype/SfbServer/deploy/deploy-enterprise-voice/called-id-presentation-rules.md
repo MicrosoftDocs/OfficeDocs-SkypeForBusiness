@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: "Summary: Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015."
 ---

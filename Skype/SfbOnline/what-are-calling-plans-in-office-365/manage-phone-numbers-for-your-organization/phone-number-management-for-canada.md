@@ -15,17 +15,14 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Use this table to find information on getting and managing phone numbers in Canada for Skype for Business Online and Microsoft Teams."
 ---
 
 # Phone number management for Canada
-> [!IMPORTANT]
-> Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com). 
 
 Use this table to find information on getting and managing phone numbers in Canada for Skype for Business Online and Microsoft Teams. 
 
