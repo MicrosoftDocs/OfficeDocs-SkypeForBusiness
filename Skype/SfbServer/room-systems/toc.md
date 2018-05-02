@@ -1,6 +1,5 @@
 # [Skype Room Systems v2 Administration](index.md)
-## [Plan](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-### [Plan Skype Room Systems](plan-room-systems.md)
+## [Plan](plan-room-systems.md)
 ## [Deploy](../deploy/deploy-clients/room-systems-v2.md)
 ### [Introduction](deploy-intro-text.md)
 ### [At scale](../deploy/deploy-clients/room-systems-scale.md)
