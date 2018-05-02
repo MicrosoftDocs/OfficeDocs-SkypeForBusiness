@@ -28,7 +28,7 @@ We recommend that you confirm that your SBC has already been configured as recom
 
 ## Configuring Microsoft Phone System and users for Direct Routing 
 
-ou can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures. 
+You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures. 
 
 - Pair the SBC with a Microsoft Phone System and validate the pairing 
 - Enable users for Direct Routing Service 
@@ -106,7 +106,7 @@ The following table lists the additional parameters that you can use in setting 
 |Yes|SipSignallingPort |Listening port used for communicating with Direct Routing services by using the Transport Layer Security (TLS) protocol.|None|Any port|0 to 65535 |
 |No|FailoverTimeSeconds |When set to **True**, outbound calls that are not answered by the gateway within 10 seconds are routed to the next available trunk; if there are no additional trunks, then the call is automatically dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily. The default value is **True**.|True|True<br/>False|Boolean|
 |No|ForwardCallHistory |Indicates whether call history information will be forwarded through the trunk. If enabled, the Office 365 PSTN Proxy sends two headers: History-info and Referred-By. The default value is **False** ($False). |False|True<br/>False|Boolean|
-|No|ForwardPAIIndicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller. The default value is **False** ($False).|False|True<br/>False|Boolean|
+|No|ForwardPAI|Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller. The default value is **False** ($False).|False|True<br/>False|Boolean|
 |No|SendSIPOptions |Defines if an SBC will or will not send the SIP options. If disabled, the SBC will be excluded from Monitoring and Alerting system. We highly recommend that you enable SIP options. Default value is **True**. |True|True<br/>False|Boolean|
 |No|MaxConcurentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent session is 90% or higher than this value. If parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent session every 24 hours. |Null|Null<br/>1 to 100,000 ||
 |No|Enabled*|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC, while it is being updated or during maintenance. |False|True<br/>False|Boolean|
@@ -127,11 +127,7 @@ Verify the connection:
  
 ##### Validate if SBC is on the list of paired SBCs 
 
-After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: 
-
-```
-Get-CSOnlinePSTNGateway
-```
+After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: ```Get-CSOnlinePSTNGateway```
 
 The paired gateway should appear in the list as shown in Screenshot 4, and verify that  the parameter *Enabled* displays the value **True**.
 
@@ -175,8 +171,8 @@ When you are ready to enable users for the Direct Routing Service, follow these 
 
 There are two options for creating a new user in Office 365, however, we recommend that your organization select and use one option to avoid routing issues: 
 
-- Create the user in on-premise Active Directory and sync the user to the cloud:  [https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)  
-- Create the user directly in the Office 365 Administrator Portal: [https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
+- Create the user in on-premise Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).  
+- Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
   If you build the system which co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create use in on-premises Active Directory and sync the user to the cloud (Option 1). 
 
@@ -265,8 +261,8 @@ The following table summarizes the configuration using three voice routes. In th
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|US only|“Redmond 1”|^\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US only|“Redmond 2”|^\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US only|“Redmond 1”|^\\+1(425\|206)(\d{7})$|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US only|“Redmond 2”|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US only|"Other +1”|^\\+1(\d{10})$|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
 
@@ -282,14 +278,10 @@ In a  Skype for Business Remote PowerShell session type:
 
    ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
 
-Validate that the usage was created:
-
-  ```
-  Get-CSOnlinePSTNUsage
-  ```
+Validate that the usage was created: ``` Get-CSOnlinePSTNUsage```
    
   > [!TIP]
-  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```Get-CSOnlinePSTNUsage).Usage```
+  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```(Get-CSOnlinePSTNUsage).Usage```
 
 The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
     
@@ -298,8 +290,8 @@ The following screenshot shows the result of running the PowerShell command ```G
   ```
   PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
   
-  Identity		: Global
-  Usage		: {testusage, US and Canada, International, karlUsage. . .}
+  Identity	: Global
+  Usage	: {testusage, US and Canada, International, karlUsage. . .}
   
   PS C:\windows\System32\WindowsPowerShell\v1.0>
   ```
@@ -484,7 +476,7 @@ The following table  summarizes routing policy “No Restrictions” usage desig
    s @{Replace="International", "US and Canada"}```<br/>
   > 2. The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
 
-##### Example Voice Routing Policy for user John Woods
+##### Example of Voice Routing Policy for user John Woods
 
 The steps to create PSTN Usage “International”, voice route “International,” Voice Routing Policy “No Restrictions,” and then assigning it to the user “John Woods” are as follows.
 
@@ -494,7 +486,7 @@ First, create the PSTN Usage “International”:
 
     ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}```
 
-2.	Next, create the new voice route “International”
+2.	Next, create the new voice route “International.”
 
     ```
     New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
