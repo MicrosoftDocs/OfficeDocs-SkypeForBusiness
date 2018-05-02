@@ -1,5 +1,5 @@
 ---
-title: "Install Skype for Business Server 2015 on servers in the topology"
+title: "Install Skype for Business Server on servers in the topology"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: "Summary: Learn how to install the Skype for Business Server 2015 system components on each server in the topology. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to install the Skype for Business Server system components on each server in the topology. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
-# Install Skype for Business Server 2015 on servers in the topology
+# Install Skype for Business Server on servers in the topology
  
-**Summary:** Learn how to install the Skype for Business Server 2015 system components on each server in the topology. Download a free trial of Skype for Business Server 2015 from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to install the Skype for Business Server system components on each server in the topology. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Once the topology is loaded into the Central Management Store and Active Directory knows which servers will perform which roles, you need to install the Skype for Business Server system on each of the servers in the topology. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5 as outlined in the diagram. Installing the Skype for Business Server system is step 7 of 8.
   
@@ -50,13 +50,13 @@ Once you have published a topology, you can install the Skype for Business Serve
   
 ### Install Skype for Business Server system
 
-1. Insert the Skype for Business Server 2015 installation media. If the setup does not automatically begin, double-click **Setup**.
+1. Insert the Skype for Business Server installation media. If the setup does not automatically begin, double-click **Setup**.
     
 2. The installation media requires Microsoft Visual C++ to run. A dialog will pop up asking if you want to install it. Click **Yes.**
     
 3. Carefully review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and click **OK**. 
     
-4. Smart Setup is a feature in Skype for Business Server 2015 where you can connect to the Internet to check for updates from Microsoft Update (MU) during the installation process, as shown in the figure. This provides a better experience by making sure you have the most recent updates for the product. Click **Install** to begin the installation.
+4. Smart Setup is a feature in Skype for Business Server where you can connect to the Internet to check for updates from Microsoft Update (MU) during the installation process, as shown in the figure. This provides a better experience by making sure you have the most recent updates for the product. Click **Install** to begin the installation.
     
     > [!NOTE]
     > Many organizations have Windows Server Update Services (WSUS) deployed in their corporate environments. WSUS lets administrators fully manage the distribution of updates that are released through Microsoft Update to computers in their network. As part of the Cumulative Update 1 release Skype for Business Server introduced support for Smart Setup to work with WSUS. Customers with WSUS who are deploying Skype for Business Server for the first time or upgrading from the Lync Server 2013 environment using the In-Place Upgrade feature will have Smart Setup fetching Skype for Windows updates from WSUS as opposed to fetching updates from MU. Customers wanting to use Smart Setup need to run the SmartSetupWithWSUS.psq on all the machines before running Setup.exe. 
@@ -114,7 +114,7 @@ Once you have published a topology, you can install the Skype for Business Serve
     > [!IMPORTANT]
     > The selection of which hash digest and signing algorithm is dependent on the clients and the servers that will use the certificate, and other computers and devices that clients and servers will communicate with who must also know how to use the algorithms used in the certificate. For information on which digest lengths are supported in the operating system and some client applications, see [Windows PKI blog - SHA2 and Windows](https://go.microsoft.com/fwlink/p/?LinkId=287002). 
   
-    Each Standard Edition or Front End server requires up to four certificates: the oAuthTokenIssuer certificate, a default certificate, a web internal certificate, and a web external certificate. However, you can request and assign a single default certificate with appropriate subject alternative name entries as well as the oAuthTokenIssuer certificate. For details about the certificate requirements, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+    Each Standard Edition or Front End server requires up to four certificates: the oAuthTokenIssuer certificate, a default certificate, a web internal certificate, and a web external certificate. However, you can request and assign a single default certificate with appropriate subject alternative name entries as well as the oAuthTokenIssuer certificate. For details about the certificate requirements, see [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
     
     > [!IMPORTANT]
     > The following procedure describes how to configure certificates from an internal Active Directory Certificate Services based certificate authority. 

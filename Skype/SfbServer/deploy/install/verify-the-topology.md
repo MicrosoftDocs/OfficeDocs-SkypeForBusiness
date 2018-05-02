@@ -1,5 +1,5 @@
 ---
-title: "Verify the topology in Skype for Business Server 2015"
+title: "Verify the topology in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: "Summary: Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
-# Verify the topology in Skype for Business Server 2015
+# Verify the topology in Skype for Business Server
  
-**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server 2015 from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to verify the Skype for Business Server topology and Active Directory servers are working as expected. Download a free trial of Skype for Business Server from the [Microsoft Evaluation center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 After you have the topology published and the Skype for Business Server system components installed on each of the servers in the topology, you are ready to verify that the topology is working as expected. This includes verifying that the configuration has propagated out to all of the Active Directory servers so that the entire domain knows Skype for Business is available in the domain. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Verifying the topology is step 8 of 8.
   
