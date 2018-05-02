@@ -1,5 +1,5 @@
 ---
-title: "Deploy cloud Voicemail"
+title: "Configure cloud Voicemail"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for implementing cloud-based voicemail for users homed on-premises."
 ---
 
-# Deploy cloud-based voicemail
+# Configure cloud-based voicemail
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Planning considerations for implementing  hybrid connectivity to SfBO and EXO  in SfB Server 2019."
+description: "Planning considerations for implementing hybrid connectivity to SfBO and EXO  in SfB Server 2019."
 ---
 
 # <Topic title>
