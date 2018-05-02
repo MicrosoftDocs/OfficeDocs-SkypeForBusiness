@@ -32,7 +32,7 @@ Conference IDs are only automatically set only for Skype for Business and Micros
   
 ## Resetting the conference ID for a user
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
 
@@ -42,7 +42,7 @@ Conference IDs are only automatically set only for Skype for Business and Micros
 
 2. In the **Reset conference id** window, click **Ok**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.   
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.
     
@@ -51,6 +51,9 @@ Conference IDs are only automatically set only for Skype for Business and Micros
 > [!NOTE]
 > After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings. 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## What else should I know?
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.
@@ -87,4 +90,4 @@ Conference IDs are only automatically set only for Skype for Business and Micros
     
 ## Related topics
 
-[Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md)
+[Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md)
