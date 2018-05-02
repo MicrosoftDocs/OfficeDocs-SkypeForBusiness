@@ -118,7 +118,7 @@ Verify the connection:
 
 After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
 
-The paired gateway should appear in the list as shown in Screenshot 4, and verify that  the parameter *Enabled* displays the value **True**.
+The paired gateway should appear in the list as shown in the example belwow, and verify that the parameter *Enabled* displays the value **True**.
 
  ```
 C:> Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -224,7 +224,7 @@ The following diagram shows two examples of voice routing policies in call flow.
 
 **Call Flow 1 (on the left):** If a user makes a call to  +1 425 XXX XX XX or +1 206 XXX XX XX, the call is routed  to SBC sbc1<span></span>.contoso.biz or sbc2<span></span>.contoso.biz. If neither sbc1<span></span>.contoso.biz nor sbc2<span></span>.contoso.biz are available, the call is dropped. 
 
-**Call Flow 2 (on teh right):** If a user makes a call to  +1 425 XXX XX XX or +1 206 XXX XX XX, the call is first routed to SBC sbc1<span></span>.contoso.biz or sbc2<span></span>.contoso.biz. If neither SBC is available, the route with lower priority will be tried (sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz). If none of the SBCs are available, the call is dropped. 
+**Call Flow 2 (on the right):** If a user makes a call to  +1 425 XXX XX XX or +1 206 XXX XX XX, the call is first routed to SBC sbc1<span></span>.contoso.biz or sbc2<span></span>.contoso.biz. If neither SBC is available, the route with lower priority will be tried (sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz). If none of the SBCs are available, the call is dropped. 
 
 ![Shows voice routing policy examples](../../media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -267,16 +267,12 @@ In a  Skype for Business Remote PowerShell session, type:
 
    ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
 
-Validate that the usage was created: 
-
- ```Get-CSOnlinePSTNUsage```
+Validate that the usage was created: ```Get-CSOnlinePSTNUsage```
    
   > [!TIP]
-  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: 
+  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```(Get-CSOnlinePSTNUsage).Usage```
 
-```(Get-CSOnlinePSTNUsage).Usage```
-
-The following screenshot shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
+The following example shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
     
   ```
   PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
@@ -287,7 +283,7 @@ The following screenshot shows the result of running the PowerShell command ```G
   PS C:\windows\System32\WindowsPowerShell\v1.0>
   ```
 
-In this screen shot, you can see the result of the running the PowerShell command *(Get-CSOnlinePSTNUsage).usage* with full names displayed (not truncated).    
+In the example below, you can see the result of the running the PowerShell command *(Get-CSOnlinePSTNUsage).usage* with full names displayed (not truncated).    
 
  
   ```
@@ -416,7 +412,6 @@ RouteType    	    : BYOT
 
     ```Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy```
 
-**INSERT SCREEN SHOT 11: Validate the assigned voice routing policy**
 
 ```
 PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlineUser “Spencer Low” | select OnlineVoiceRouting Policy
