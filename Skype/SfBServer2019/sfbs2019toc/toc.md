@@ -27,15 +27,15 @@
 
 ## Deploy
 <!-- ### [Install](../deploy/install.md) -->
-### [Install](../../deploy/install/install.md)
-#### [Install prerequisites](../../deploy/install/install-prerequisites.md)
-#### [Create a file share](../../deploy/install/create-a-file-share.md)
-#### [Install administrative tools](../../deploy/install/install-administrative-tools.md)
-#### [Prepare Active Directory](../../deploy/install/prepare-active-directory.md)
-#### [Create DNS records](../../deploy/install/create-dns-records.md)
-#### [Create and publish new topology](../../deploy/install/create-and-publish-new-topology.md)
-#### [Install Skype for Business Server](../../deploy/install/install-skype-for-business-server.md)
-#### [Verify the topology](../../deploy/install/verify-the-topology.md)
+### [Install](../../SfbServer/deploy/install/install.md)
+#### [Install prerequisites](../../SfbServer/deploy/install/install-prerequisites.md)
+#### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md)
+#### [Install administrative tools](../../SfbServer/deploy/install/install-administrative-tools.md)
+#### [Prepare Active Directory](../../SfbServer/deploy/install/prepare-active-directory.md)
+#### [Create DNS records](../../SfbServer/deploy/install/create-dns-records.md)
+#### [Create and publish new topology](../../SfbServer/deploy/install/create-and-publish-new-topology.md)
+#### [Install Skype for Business Server](../../SfbServer/deploy/install/install-skype-for-business-server.md)
+#### [Verify the topology](../../SfbServer/deploy/install/verify-the-topology.md)
 
 
 ## [Migrate](../migration/migration-to-skype-for-business-server-2019/migration-to-skype-for-business-server-2019.md)
