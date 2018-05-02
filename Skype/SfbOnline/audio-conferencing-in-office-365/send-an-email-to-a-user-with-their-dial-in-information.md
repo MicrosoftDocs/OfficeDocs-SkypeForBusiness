@@ -30,14 +30,12 @@ Sometimes Skype for Business or Microsoft Teams users may need you to send them 
     
 - The user's conference ID.
     
-    > [!NOTE]
-    > Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or use one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, [go here](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
-  
+   
 Here is an example of the email that is sent:
   
 ![Dial-in conferencing email](../images/audio-conferencing-info.png)
   
-## Send an email with audio conferencing information to a user
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Send an email with audio conferencing information to a user
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -49,7 +47,10 @@ Here is an example of the email that is sent:
     
 > [!TIP]
 > You can also send email to the user with the audio conferencing settings by editing the user's properties and then clicking **Audio conferencing** > **Send conference info via email**. 
-  
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## What else should you know about this email?
 
 - There are several emails that are sent to users in your organization after they are enabled for audio conferencing:

@@ -33,7 +33,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
@@ -46,7 +46,7 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 4. Click **Apply**.
 
-**Using Skype for Business online**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using Skype for Business online**
 
 You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
     
@@ -61,6 +61,9 @@ You must be an [Office 365 global admin](https://support.office.com/article/da58
   
 4. Click **Save**.
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## Want else should I know?
 
 - To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
