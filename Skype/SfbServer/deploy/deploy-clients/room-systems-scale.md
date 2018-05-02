@@ -17,7 +17,7 @@ description: "Read this topic to learn about deploying Skype Room Systems v2 at 
  
 Read this topic to learn stuff. 
 
-
+Turgay to update.
   
 ## See also
 
