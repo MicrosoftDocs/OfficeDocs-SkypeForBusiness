@@ -73,7 +73,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.
   > 2. You can only pair the SBC with FQDN, where the domain portion of the name matches one of the domains registered in your tenant, except *.onmicrosoft.com. Using *.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:<br/><br/>
-  > abc.xyz<br/>abc.onmicrosoft.com<br/><br/>
+  > **abc**.xyz<br/>**abc**.onmicrosoft.com<br/><br/>
   > For the SBC name, you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
 
 ```
@@ -453,10 +453,8 @@ The following table  summarizes routing policy “No Restrictions” usage desig
 
 
   > [!NOTE]
-  > The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage “International” must be placed after the PSTN Usage “US Only.” To change the order of the PSTN Usages, please run the `Set-CSOnlineRouteRoutingPolicy` command. <br/>For example, to change the order from “US and Canada” first and “International” second to the reverse order run:<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
-
-> [!NOTE]
-> The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
+  > - The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage “International” must be placed after the PSTN Usage “US Only.” To change the order of the PSTN Usages, please run the `Set-CSOnlineRouteRoutingPolicy` command. <br/>For example, to change the order from “US and Canada” first and “International” second to the reverse order run:<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+ > - The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
 
 ##### Example of Voice Routing Policy for user John Woods
 
