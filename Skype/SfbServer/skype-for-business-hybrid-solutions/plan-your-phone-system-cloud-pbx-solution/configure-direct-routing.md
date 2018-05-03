@@ -28,9 +28,9 @@ We recommend that you confirm that your SBC has already been configured as recom
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
-- Pair the SBC with a Microsoft Phone System and validate the pairing 
-- Enable users for Direct Routing Service 
-- Ensure that Microsoft Teams is the preferred calling client for the users 
+- [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
+- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
 
 ## Pair the SBC to Direct Routing Service of Phone System 
 
