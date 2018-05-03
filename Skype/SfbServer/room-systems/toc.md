@@ -29,7 +29,7 @@
 ### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
 ### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
-## [Deploy]
+## Deploy
 ### [Deployment overview](deploy-intro-text.md)
 ### [Configure accounts](../deploy/deploy-clients/room-systems-v2.md)
 ### [At scale](../deploy/deploy-clients/room-systems-scale.md)
@@ -40,7 +40,7 @@
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
 ### [Adoption and change management](manage-intro-text.md)
-## [Manage]
+## Manage
 ### [Management overview](manage-intro-text.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
