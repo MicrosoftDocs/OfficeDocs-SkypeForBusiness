@@ -14,7 +14,7 @@ description: "This article discusses troubleshooting for Skype Room Systems v2."
 # Troubleshoot 
  
 SRS v2 breaks, but you can fix it.
-
+<!-- placeholder topic for future content -->
 
 <a name="See"> </a>  
 ## See also
