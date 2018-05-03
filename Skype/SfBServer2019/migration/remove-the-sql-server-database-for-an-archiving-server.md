@@ -8,17 +8,16 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 6e8a1fcd-ed09-43b0-82c9-60e7ce116a01
-description: "After you remove a Microsoft Lync Server 2010 Archiving Server, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server."
+description: "After you remove an Archiving Server, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server."
 ---
 
 # Remove the SQL Server database for an Archiving server
-[]
-After you remove a Microsoft Lync Server 2010 Archiving Server, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
+
+After you remove an Archiving Server, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
   
 ### To remove the SQL Server database using Topology Builder
 
-1. On the Lync Server 2013 Front End Server, open Topology Builder.
+1. On the Skype for Business Server 2019 Front End Server, open Topology Builder.
     
 2. In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Archiving Server, and then click **Delete**.
     
@@ -28,7 +27,7 @@ After you remove a Microsoft Lync Server 2010 Archiving Server, you can remove t
 
 1. To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files. 
     
-2. Open the Lync Server Management Shell.
+2. Open the Skype for Business Server Management Shell.
     
 3. At the command line, type the following:
     

@@ -1,5 +1,5 @@
 ---
-title: "Verify Lync Server 2010 environment"
+title: "Verify legacy environment"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,51 +8,50 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
-description: "Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started. It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool. Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting. Verifying your legacy Lync Server 2010 deployment entails the following:"
+description: "Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started. It is important to identify key services and features that exist in your legacy environment, prior to deploying a Skype for Business Server 2019 pilot pool. Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting."
 ---
 
-# Verify Lync Server 2010 environment
-[]
-Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started. It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool. Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting. Verifying your legacy Lync Server 2010 deployment entails the following:
+# Verify the legacy environment
+
+description: "Before deploying Skype for Business Server 2019 in a coexistence state, you need to verify that legacy services have been configured and started. It is important to identify key services and features that exist in your legacy environment, prior to deploying a Skype for Business Server 2019 pilot pool. Before deploying Microsoft Skype for Business Server 2019 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting. Verifying your legacy deployment entails the following
   
-- Verifying the Lync Server 2010 services are started
+- Verifying the legacy services are started
     
-- Reviewing the topology and users in Lync Server 2010.
+- Reviewing the topology and users.
     
 - Verifying the federation and Edge server settings.
     
 - Verifying XMPP services and federated partners.
     
-### Verify Lync Server 2010 Services are started
+### Verify legacy Services are started
 
-1. From the Lync Server 2010 Front End Server, navigate to the Administrative Tools\Services applet.
+1. From the legacy Front End Server, navigate to the Administrative Tools\Services applet.
     
 2. Verify that the following services are running on the Front End Server:
     
      ![List of services running on Front End Server](../../media/migration_lyncserver_config_w14_services.jpg)
   
-### Review the Lync Server 2010 topology in Lync Server Control Panel
+### Review the legacy topology in Skype for Business Server Control Panel
 
 1. Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.
     
-2. Open the Lync Server Control Panel.
+2. Open the Skype for Business Server Control Panel.
     
-3. Select **Topology**. Verify that the various servers in your Lync Server 2010 deployment are listed.
+3. Select **Topology**. Verify that the various servers in your legacy deployment are listed.
     
-     ![Lync Server 2010 Control Panel topology page](../../media/migration_lyncserver_2010_topology.JPG)
+     ![Control Panel topology page](../../media/migration_lyncserver_2010_topology.JPG)
   
-### To review Lync Server 2010 users in Lync Server Control Panel
+### To review legacy users in Skype for Business Server Control Panel
 
-1. Open the Lync Server Control Panel.
+1. Open the Skype for Business Server Control Panel.
     
 2. Select **Users** and then click **Find**.
     
-3. Verify that the **Registrar Pool** column points to the Lync Server 2010 pool for each user listed. 
+3. Verify that the **Registrar Pool** column points to the legacy pool for each user listed. 
     
-     ![Lync Server 2010 Control Panel listing users](../../media/migration_lyncserver_2010_allusers.JPG)
+     ![Control Panel listing users](../../media/migration_lyncserver_2010_allusers.JPG)
   
-### To verify Lync Server 2010 Edge and Federation Settings
+### To verify legacy Edge and Federation Settings
 
 1. Start Topology Builder.
     
@@ -60,7 +59,7 @@ Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, 
     
 3. Choose a file name and save the topology with the default .tbxml file type.
     
-4. Expand the Lync Server 2010 node to reveal the various server roles in the deployment.
+4. Expand the legacy installs node to reveal the various server roles in the deployment.
     
 5. Select the site node and verify if a **Site federation route assignment** value is set. 
     

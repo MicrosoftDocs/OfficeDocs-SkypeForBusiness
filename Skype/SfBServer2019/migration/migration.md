@@ -13,6 +13,9 @@ description: 'This section explains how to migrate from Microsoft Lync Server 20
 
 # Migration
 This section explains how to migrate from Microsoft Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.
+
+> [!IMPORTANT]
+> Throughout the content we refer to 'legacy' to refer to the legacy Lync Server 2013 or Skype for Business Server 2015 that you are migrating to Skype for Business Server 2019.
   
 ## In this section
 

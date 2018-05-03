@@ -8,19 +8,18 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
-description: "You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service."
+description: "You can use the legacy installs Control Panel to prevent new sessions for all the legacy services running on a specific computer or to prevent new sessions for a specific legacy service."
 ---
 
 # Prevent sessions for services
-[]
-You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for all the Lync Server 2010 services running on a specific computer or to prevent new sessions for a specific Lync Server 2010 service.
-  
-### To prevent new sessions for all Lync Server services on a computer
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.
+You can use the legacy installs Control Panel to prevent new sessions for all the legacy services running on a specific computer or to prevent new sessions for a specific legacy service.
+  
+### To prevent new sessions for services on a computer
+
+1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2019.
     
-2. Open Lync Server Control Panel.
+2. Open Lync/Skype for Business Control Panel.
     
 3. In the left navigation bar, click **Topology** and then click **Status**.
     
@@ -32,9 +31,9 @@ You can use Microsoft Lync Server 2010 Control Panel to prevent new sessions for
     
 ### To prevent new sessions for a specific service
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.
+1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2019.
     
-2. Open Lync Server Control Panel.
+2. Open Lync/Skype for Business Control Panel.
     
 3. In the left navigation bar, click **Topology** and then click **Status**.
     

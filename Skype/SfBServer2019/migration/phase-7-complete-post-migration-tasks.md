@@ -8,13 +8,12 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
-description: "The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013."
+description: "The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019."
 ---
 
 # Phase 7: Complete post-migration tasks
-[]
-The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013.
+
+The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019.
   
 ## In This Section
 
@@ -34,7 +33,7 @@ The topics in this section describe tasks that you will need to perform after yo
     
 - [Configure trusted application servers](configure-trusted-application-servers.md)
     
-- [Deploy Lync Server 2013 clients](deploy-lync-server-2013-clients.md)
+- [Deploy Skype for Business Server 2019 clients](deploy-clients.md)
     
 - [Connect a Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

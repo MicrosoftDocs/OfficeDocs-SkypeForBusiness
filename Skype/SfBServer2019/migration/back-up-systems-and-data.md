@@ -3,7 +3,7 @@ title: "Back up systems and data"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/9/2016
+ms.date: 12/9/2018
 ms.audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
