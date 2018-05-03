@@ -44,23 +44,26 @@ The following are the three high-level steps to let you connect, or pair, the SB
 
 You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Using Windows PowerShell to manage Skype for Business Online](https://technet.microsoft.com/library/dn362831.aspx). 
  
-After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type the following in the PowerShell session and press Enter: 
+After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
 
-```gcm *onlinePSTNGateway*```
+```
+gcm *onlinePSTNGateway*
+```
 
 You should see the four functions shown here that will let you manage the SBCs. 
 
 
-```
-CommandType    Name                       Version    Source 
------------    ----                       -------    ------ 
-Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
-Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
-Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
-Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
- 
-PS C:\windows\System32\WindowsPowershell\v1.0> 
-```
+
+    CommandType    Name                       Version    Source 
+    -----------    ----                       -------    ------ 
+    Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
+    Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
+    Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
+    Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
+     
+    PS C:\windows\System32\WindowsPowershell\v1.0> 
+
+
 ### Pair the SBC to the tenant 
 
 To pair the SBC to the tenant, in the PowerShell session, type the following and press Enter: 
