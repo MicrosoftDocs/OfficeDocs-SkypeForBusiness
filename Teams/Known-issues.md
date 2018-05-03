@@ -74,6 +74,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Users can't recreate a pre-existing channel name  <br/> |Once a channel name has been created, even if it's deleted, it cannot be recreated. Our system maintains this data for information protection scenarios.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Renaming a channel in Microsoft Teams does not rename the corresponding folder in SharePoint Online  <br/> |If a channel is renamed in Microsoft Teams, the folder in the SharePoint Online document library corresponding to the team does not change to match. Instead, a new folder is created to match the new channel name. The files in the original document library folder are not migrated.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+
 ## Chat
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
