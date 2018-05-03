@@ -39,7 +39,7 @@
 ### [With Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
-### [Adoption and change management](manage-intro-text.md)
+### [Adoption and change management](adoption-and-change-management.md)
 ## Manage
 ### [Management overview](manage-intro-text.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)

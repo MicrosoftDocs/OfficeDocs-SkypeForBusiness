@@ -1,5 +1,5 @@
 ---
-title: "Needs a good title"
+title: "Management overview for Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +11,11 @@ localization_priority: Normal
 description: "Needs a good description."
 ---
 
-## Adoption and change management 
-
-Skype Room Systems v2 systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your campaign identifies the benefits the new system will have for your users and the key talking points team leads can use to discuss with their teams. 
-
-## Maintenance and operations 
+# Management overview 
 
 It’s essential that you develop and execute ongoing maintenance and operations to ensure that your Skype Room Systems v2 systems are available for your users and deliver a great user experience. 
 
-### Monitoring 
+## Monitoring 
 
 Monitoring Skype Room Systems v2 systems consists of two key activities:
 
@@ -42,7 +38,7 @@ Using this guidance, you can create a simple-to-use dashboard to identify any is
 <tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Define your quality and reliability monitoring approach.</li></ol></td></tr>
 </table>
 
-### Quality and reliability monitoring (CQD)
+## Quality and reliability monitoring (CQD)
 
 We recommend that you implement ongoing operational quality and reliability monitoring procedures as part of your deployment to monitor the trending of call and meeting quality and reliability, identifying any areas of concern and working toward a resolution. 
 
@@ -50,11 +46,11 @@ When you upload your building information to CQD you can investigate call qualit
 
 We recommend that you review and follow the [Quality of Experience Review Guide](https://aka.ms/qerguide) to identify quality and reliability trends, and create an action plan to resolve them. 
 
-### Updating the Skype Room Systems v2 OS and Skype Room Systems application 
+## Updating the Skype Room Systems v2 OS and Skype Room Systems application 
 
 We recommend that you update the Skype Room Systems v2 OS and Skype Room Systems v2 application to benefit from product updates and improvements. For detailed guidance, see [Manage Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#software-updates). 
 
-### Troubleshooting
+## Troubleshooting
 
 We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Skype Room Systems v2 issues. The options you have for PowerShell remote management are described [in this article](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
 
