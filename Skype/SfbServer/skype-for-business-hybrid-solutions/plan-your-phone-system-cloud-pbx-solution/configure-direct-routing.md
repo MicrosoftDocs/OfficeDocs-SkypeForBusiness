@@ -541,8 +541,9 @@ Direct Routing will route calls only to Microsoft Teams, so you need to make sur
  
 2. Next, review the different policy instances. 
 
-    ```Get-CsTeamsCallingPolicy``` 
-    ```Get-CsTeamsInteropPolicy``` 
+    ``Get-CsTeamsCallingPolicy`` 
+
+    ``Get-CsTeamsInteropPolicy`` 
 
 Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
 
