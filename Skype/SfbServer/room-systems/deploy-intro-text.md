@@ -130,7 +130,7 @@ Planning for configuration and deployment covers the following key areas:
 
 Each Skype Room Systems v2 device requires a dedicated and unique resource account that must be enabled for both Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Deploy Skype Room Systems v2](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/room-systems-v2). 
 
-**Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Skype Room Systems v2 systems to meetings. Some organizations use the *Site*-*Room Name*(*Max Room Capacity*)-RS convention, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
+**Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Skype Room Systems v2 systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
 If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. 
 
@@ -141,18 +141,14 @@ If your organization has many conference rooms that require multiple, provisione
 </table>
 
 
-
-
 ### Device software installation 
 
-When planning to deploy the Skype Room Systems consoles, you have a number of
-options to consider to install the required software. Common scenarios and
-approaches are described in the following table.
+When planning to deploy Skype Room Systemsv2, you have a number of options to consider to install the required software. Common scenarios and approaches are described in the following table. 
 
 | **Scenario**                                                                                                                                                         | **Approach**                                                                                                                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Deploying a small number of Skype Room Systems devices (\<10).                                                                                                       | If using Surface Pro–based Skype Room Systems, follow the [installation instructions for a per-device install](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console). If using an integrated solution, deploy by using the vendor image and configure settings as required. |
-| Deploying between 10 and 50 devices from a single vendor.                                                                                                            | Create a WIM-based image, pause after [step 6 in the guidance](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console), and capture a distribution image by using cloning distribution technology.                                                                            |
+| Deploying a small number of Skype Room Systems v2 devices (\<10).                                                                                                       | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
+| Deploying between 10 and 50 devices from a single vendor.                                                                                                            | Create a WIM-based image, pause after [step 6 in the guidance](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console), and capture a distribution image to be used with your cloning distribution technology                                                                           |
 | Deploying more than 50 Skype Room Systems devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as System Center Configuration Manager.                                                                                                                                                                                      |
 
 **Pro Tip** - Each Skype Room Systems v2 system must have a valid and unique
