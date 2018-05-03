@@ -3,7 +3,7 @@ title: "Front End Mediation Service Settings Expander for Lync Server 2010"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

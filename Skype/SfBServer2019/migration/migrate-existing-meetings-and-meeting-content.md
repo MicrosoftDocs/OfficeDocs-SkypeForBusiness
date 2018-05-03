@@ -3,18 +3,17 @@ title: "Migrate existing meetings and meeting content"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
-description: "When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:"
+description: "When a user account is moved from to a Skype for Business Server 2019 server, the following information is moved with that user account:"
 ---
 
 # Migrate existing meetings and meeting content
-[]
-When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:
+
+When a user account is moved to a Skype for Business Server 2019 server, the following information is moved with that user account:
   
 - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
     

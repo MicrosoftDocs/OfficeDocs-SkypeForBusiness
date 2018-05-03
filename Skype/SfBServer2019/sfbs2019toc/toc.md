@@ -45,7 +45,6 @@
 ### [Phase 1: Plan your migration](../migration/phase-1-plan-your-migration.md)
 #### [User migration](../migration/user-migration.md)
 #### [Migrating Archiving and Monitoring servers](../migration/migrating-archiving-and-monitoring-servers.md)
-#### [Migrating Group Chat servers](../migration/migrating-group-chat-servers.md)
 #### [Administering servers after migration](../migration/administering-servers-after-migration.md)
 #### [Migrating multiple sites and pools](../migration/migrating-multiple-sites-and-pools.md)
 #### [Migrating XMPP federation](../migration/migrating-xmpp-federation.md)

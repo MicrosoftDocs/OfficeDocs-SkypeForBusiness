@@ -3,7 +3,7 @@ title: "Move multiple users to the pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
