@@ -32,7 +32,7 @@ After you deploy the pilot pool, you need to verify the coexistence of the two p
     
 **Skype for Business Server 2019 services**
 
-![List of Skype for Business Server Services Started](../../media/Migration_LyncServer_from_LyncServer2010_ServicesStarted.png)
+![List of Skype for Business Server Services Started](../media/Migration_LyncServer_from_LyncServer2010_ServicesStarted.png)
   
 ## Open the Skype for Business Server 2019 Control Panel
 <a name="sectionSection1"> </a>
@@ -41,7 +41,7 @@ From the Front End Server in your Skype for Business Server 2019 deployment, ope
   
 **Open Skype for Business Server 2019 Control Panel**
 
-![Select URL dialog box](../../media/Migration_LyncServer_from_LyncServer2010_CPanelOpenDialog.png)
+![Select URL dialog box](../media/Migration_LyncServer_from_LyncServer2010_CPanelOpenDialog.png)
   
 > [!IMPORTANT]
 > On Skype for Business Server 2019, you must upgrade Silverlight to Silverlight version 5 prior to using the Skype for Business Server Control Panel. 
@@ -50,7 +50,7 @@ This topology now includes legacy and Skype for Business Server 2019 server role
   
 **Skype for Business Server 2019 Control Panel Topology page**
 
-![Skype for Business Server Control Panel - Topology page](../../media/migration_lyncserver_config_w15_lcsp_topology.JPG)
+![Skype for Business Server Control Panel - Topology page](../media/migration_lyncserver_config_w15_lcsp_topology.JPG)
   
 ## Don't attempt to open the topology in the legacy Topology Builder
 <a name="sectionSection2"> </a>
@@ -59,6 +59,6 @@ If you attempt to open the topology using the legacy Topology Builder, you will 
   
 **Topology Builder error message**
 
-![Topology Builder MMC Snap Error](../../media/Migration_LyncServer_from_LyncServer2010_TopoBuilderErrorMsg.png)
+![Topology Builder MMC Snap Error](../media/Migration_LyncServer_from_LyncServer2010_TopoBuilderErrorMsg.png)
   
 

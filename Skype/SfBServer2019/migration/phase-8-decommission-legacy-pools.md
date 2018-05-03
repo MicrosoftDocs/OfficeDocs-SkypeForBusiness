@@ -25,7 +25,7 @@ For dated, but exhaustive, article on removing servers and server roles, and a s
 
 > [Update DNS SRV records](update-dns-srv-records.md)
     
-> [Move the legacy install Central Management Server to Skype for Business Server 2019](move-thecentral-management-server.md)
+> [Move the legacy install Central Management Server to Skype for Business Server 2019](move-the-central-management-server.md)
     
 > [Move Conference Directories](move-conference-directories.md)
     

@@ -14,7 +14,7 @@ description: "Prior to deploying Skype for Business Server 2019 in a coexistence
 # Prepare Active Directory for Skype for Business Server
 
 Prior to deploying Skype for Business Server 2019 in a coexistence state, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. For additional information, see the topic 
-<!-- [Preparing Active Directory Domain Services for Skype for Business Server 2019](../../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
+<!-- [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
 ### To prepare Active Directory for Skype for Business Server 2019
 
@@ -22,10 +22,10 @@ Prior to deploying Skype for Business Server 2019 in a coexistence state, you mu
     
 2. Select **Prepare Active Directory**.
     
-     ![Skype for Business Server 2019 Deployment Wizard, Welcome page](../../media/migration_lyncserver_config_w15_deploy_wizard.jpg)
+     ![Skype for Business Server 2019 Deployment Wizard, Welcome page](../media/migration_lyncserver_config_w15_deploy_wizard.jpg)
   
 3. Complete steps 1 through 5.
     
-     ![Deployment Wizard, Active Directory Prearation](../../media/migration_lyncserver_config_w15_prepad_final.jpg)
+     ![Deployment Wizard, Active Directory Prearation](../media/migration_lyncserver_config_w15_prepad_final.jpg)
   
 

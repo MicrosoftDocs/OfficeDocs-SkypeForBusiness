@@ -19,7 +19,7 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
   
 > [!NOTE]
 > The following procedure discusses features and settings you should consider as part of your overall pilot pool deployment process. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, refer to the 
-<!-- [Deploying Skype for Business Server 2019](../../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md) deployment guide.  -->
+<!-- [Deploying Skype for Business Server 2019](../deployment/deploying-lync-server-2013/deploying-lync-server-2013.md) deployment guide.  -->
   
 ### To deploy a Skype for Business Server 2019 pilot pool
 
@@ -29,43 +29,43 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
     
 3. Right click **Enterprise Edition Front End pools**, and select **New Front End Pool**.
     
-     ![Topology Builder Server pool selection submenu](../../media/migration_lyncserver_config_w15_newpool_tb.JPG)
+     ![Topology Builder Server pool selection submenu](../media/migration_lyncserver_config_w15_newpool_tb.JPG)
   
 4. Enter the pool FQDN. When you define your pilot pool, you can choose to deploy an Enterprise Edition Front End pool or a Standard Edition server. Skype for Business Server 2019 does not require that your pilot pool features match what was deployed in your legacy pool.
     
     > [!CAUTION]
     > The pool or server fully qualified domain name (FQDN) that you define for the pilot pool must be unique. It cannot match the name of the currently deployed legacy pool, or any other servers currently deployed. 
   
-     ![Define New Front End Pool Wizard FQDN page](../../media/migration_lyncserver_config_w15_newpoolwizard_pool_page_final.jpg)
+     ![Define New Front End Pool Wizard FQDN page](../media/migration_lyncserver_config_w15_newpoolwizard_pool_page_final.jpg)
   
 5. On the **Select features** page, select the check boxes for the features that you want on this Front End pool. For example, if you are deploying only instant messaging (IM) and presence features, you would select the Conferencing check box to allow multiparty IM, but would not select the Dial-in (PSTN) conferencing, Enterprise Voice, or Call Admission Control check boxes, because they represent voice, video, and collaborative conferencing features. For additional information on selecting features, see 
-<!-- [Define and configure a Front End pool or Standard Edition server in Skype for Business Server 2019](../../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
+<!-- [Define and configure a Front End pool or Standard Edition server in Skype for Business Server 2019](../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
     
-     ![Front End Pool Select features page](../../media/migration_lyncserver_config_w15_newpoolwizard_select_features_final.jpg)
+     ![Front End Pool Select features page](../media/migration_lyncserver_config_w15_newpoolwizard_select_features_final.jpg)
   
 6. On the **Select collocated server roles** page, we recommend you collocate the Mediation Server in Skype for Business Server 2019. When merging a legacy topology with Skype for Business Server 2019, we require that you first collocate the legacy Mediation Server. After merging the topologies and configuring the Skype for Business Server 2019 Mediation Server, you can decide whether to keep the collocated Mediation Server, or change it to a stand-alone server when you move the Mediation Server role to Skype for Business Server 2019 later in the deployment process. 
     
-     ![Front End Pool Select collocated server roles page](../../media/migration_lyncserver_config_w15_newpoolwizard_select_collocated_roles.jpg)
+     ![Front End Pool Select collocated server roles page](../media/migration_lyncserver_config_w15_newpoolwizard_select_collocated_roles.jpg)
   
 7. On the **Associate server roles with this Front End pool** page, during pilot pool deployment, do not choose the **Enable an Edge pool to be used by the media component of this Front End pool** option. This is a feature you will enable and bring online in a later phase of migration. Keep this setting cleared for now. 
     
-     ![Associate server roles with Front End pool page](../../media/migration_lyncserver_config_w15_newpoolwizard_associate_roles.jpg)
+     ![Associate server roles with Front End pool page](../media/migration_lyncserver_config_w15_newpoolwizard_associate_roles.jpg)
   
 8. On the **Select an Office Web Apps Server** page, click **New**, and specify the FQDN of the application server.
     
-     ![Define New Office Web Apps Server FQDN properties](../../media/migration_lyncserver_config_w15_newpoolwizard_select_appserver_final.jpg)
+     ![Define New Office Web Apps Server FQDN properties](../media/migration_lyncserver_config_w15_newpoolwizard_select_appserver_final.jpg)
   
 9. On the **Define the Archiving SQL Server store** page, when defining the SQL Server store for both Skype for Business Server Archiving and Monitoring, select the SQL Server instance created earlier for Skype for Business Server 2019. 
     
-     ![Define Archiving SQL Server store page](../../media/migration_lyncserver_config_w15_newpoolwizard_select_archiving_store.jpg)
+     ![Define Archiving SQL Server store page](../media/migration_lyncserver_config_w15_newpoolwizard_select_archiving_store.jpg)
   
 10. To publish your topology, right-click the **Skype for Business Server** node, and then click **Publish Topology**.
     
-     ![Topology Builder displaying a configured topology](../../media/migration_lyncserver_w15_publish_topology.JPG)
+     ![Topology Builder displaying a configured topology](../media/migration_lyncserver_w15_publish_topology.JPG)
   
 11. When the publish process has completed, click **Finish**.
     
 To install a local copy of the configuration store and start the required services, see 
-<!-- [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->
+<!-- [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->
   
 

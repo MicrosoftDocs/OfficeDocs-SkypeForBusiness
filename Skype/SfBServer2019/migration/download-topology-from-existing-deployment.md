@@ -25,12 +25,12 @@ When creating a Skype for Business Server 2019 pool, you will use the Central Ma
     
 4. Select **Download Topology from existing deployment**.
     
-     ![Deployment Wizard Topology Builder settings](../../media/migration_lyncserver_2013_downloadtopology.JPG)
+     ![Deployment Wizard Topology Builder settings](../media/migration_lyncserver_2013_downloadtopology.JPG)
   
 5. Choose a file name and save the topology with the default .tbxml file type.
     
 6. Expand the Skype for Business Server node, as shown, to reveal the various server roles in the deployment.
     
-     ![Topology Builder server role general properties](../../media/migration_lyncserver_2013_tb_prepool_deployment.JPG)
+     ![Topology Builder server role general properties](../media/migration_lyncserver_2013_tb_prepool_deployment.JPG)
   
 

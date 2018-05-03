@@ -19,7 +19,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
 
 **List of users in the Skype for Business Server 2019 Control Panel**
 
-![Skype for Business Server Control Panel, Move User dialog](../../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
+![Skype for Business Server Control Panel, Move User dialog](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
   
 1. Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.
     
@@ -35,7 +35,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     
 7. Click **Action** and then click **Move selected users to pool**. Click **OK**.
     
-     ![Move Users, destination registrar pool dialog box](../../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Move Users, destination registrar pool dialog box](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 8. Verify that the **Registrar pool** column for the user now contains the Skype for Business Server 2019 pool, which indicates that the user has been successfully moved. 
     
@@ -57,7 +57,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
 
 4. The **RegistrarPool** identity now points to the Skype for Business Server 2019 pool. The presence of this identity confirms that the user has been successfully moved. 
     
-     ![Output from Get-CsUser cmdlet with Identity filter](../../media/migration_lyncserver_w15_movesingleuser_getcsuser.JPG)
+     ![Output from Get-CsUser cmdlet with Identity filter](../media/migration_lyncserver_w15_movesingleuser_getcsuser.JPG)
   
     > [!NOTE]
     > For details about the **Get-CsUser** cmdlet, run: **Get-Help Get-CsUser -Detailed**
