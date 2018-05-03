@@ -52,7 +52,7 @@ gcm *onlinePSTNGateway*
 
 Your command will return the four functions shown here that will let you manage the SBCs. 
 
-~~~~    
+```
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
@@ -61,7 +61,7 @@ Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
  
 PS C:\windows\System32\WindowsPowershell\v1.0> 
-~~~~    
+```   
 
 
 ### Pair the SBC to the tenant 
@@ -78,8 +78,10 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > For the SBC name, you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
 
 ```
-PS C:\> New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
- 
+New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
+```
+Returns:
+``` 
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -120,9 +122,11 @@ After you pair the SBC, validate that the SBC is present in the list of paired S
 
 The paired gateway should appear in the list as shown in the example belwow, and verify that the parameter *Enabled* displays the value **True**.
 
- ```
-C:> Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
- 
+```
+Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
+```
+Returns:
+``` 
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -181,7 +185,9 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 1. Connect to remote PowerShell.
 2. Issue the command: 
 
-    ```Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool``` 
+```
+Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+``` 
 
 ### Configure the phone number and enable enterprise voice and voicemail 
 
@@ -192,11 +198,15 @@ To add the phone number and enable for voicemail:
 1. Connect to a remote PowerShell session. 
 2. Enter the command: 
     
-    ```Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+ phone number```
+```
+Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+ phone number
+```
 
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
-```Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true```
+```
+Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
 
@@ -265,29 +275,38 @@ In the following example,  we demonstrate how to configure Routes, PSTN Usages, 
 
 In a  Skype for Business Remote PowerShell session, type:
 
-   ```Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}```
+```
+Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="US and Canada"}
+```
 
-Validate that the usage was created: ```Get-CSOnlinePSTNUsage```
+Validate that the usage was created: 
+```
+Get-CSOnlinePSTNUsage
+```
    
-  > [!TIP]
-  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```(Get-CSOnlinePSTNUsage).Usage```
-
-The following example shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
-    
+Which returns:
   ```
-  PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlinePstnUsage
-  
   Identity	: Global
   Usage    	: {testusage, US and Canada, International, karlUsage. . .}
   
   PS C:\windows\System32\WindowsPowerShell\v1.0>
   ```
 
+  > [!TIP]
+  > If you have several PSTN Usage designs, the names of the PSTN Usages might truncate when you use the Get-. To get the names without truncation, use the command: ```(Get-CSOnlinePSTNUsage).Usage```
+
+The following example shows the result of running the PowerShell command ```Get-CSOnlinePSTNUsage``` and displays with the truncated names: 
+    
+
+
 In the example below, you can see the result of the running the PowerShell command *(Get-CSOnlinePSTNUsage).usage* with full names displayed (not truncated).    
 
  
-  ```
-  PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
+```
+PS C:\windows\System32\WindowsPowerShell\v1.0> (Get-CsOnlinePstnUsage).usage
+```
+Which returns:
+```
   testusage
   US and Canada
   International
@@ -309,10 +328,8 @@ To create the “Redmond 1” route, enter:
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
-
+Which returns:
 ```
-PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-
 Identity                : Redmond 1
 Priority       		: 1
 Description	 	:
@@ -349,17 +366,15 @@ In some cases there is a need to route all calls to the same SBC; please use -Nu
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
-Validate that you’ve correctly configured the route by running this PowerShell command: 
+Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` Powershell command.
 
-  ```
-  Get-CSOnlineVoiceRoute
-  ```
-
-This example shows how to verify the configuration you’ve just made:
+To verify the configuration you’ve just made enter:
 
 ```
 PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-
+```
+Which should return:
+```
 Identity	    		: Redmond 1 
 Priority       		: 1
 Description	 	: 
@@ -395,7 +410,6 @@ In a PowerShell session in Skype for Business Online, type:
 The result is shown in this example:
 
 ```
-PS C:\windows\System32\WindowsPowerShell\v1.0> NewCsOnlineVoiceRoutingPolicy “US Only” -OnlinePstnUsages “US and Canada”
 Identity	    : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description    	    :
@@ -414,8 +428,6 @@ RouteType    	    : BYOT
 
 
 ```
-PS C:\windows\System32\WindowsPowerShell\v1.0> Get-CsOnlineUser “Spencer Low” | select OnlineVoiceRouting Policy
-
 OnlineVoiceRoutingPolicy
 ------------------------
 US Only
@@ -471,20 +483,19 @@ The steps to create PSTN Usage “International”, voice route “International
     ```
     New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
     ```
+Which returns:
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-
-    Identity		: International 
-    Priority       		: 5
-    Description	 	: 
-    NumberPattern 		: \d+
-    OnlinePstnUsages 	: {International}	 
-    OnlinePstnGatewayList	: {sbc2.contoso.biz, sbc5.contoso.biz}
-    Name		 	: International
-    SupressCallerId		:
-    AlternateCallerId	:
-    ```
+```
+Identity    	          	: International 
+Priority              		: 5
+Description    	        	: 
+NumberPattern     	     	: \d+
+OnlinePstnUsages        	: {International}	 
+OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                            : International
+SupressCallerId    		:
+AlternateCallerId       	:
+```
 3.	Next, create a Voice Routing Policy “No Restrictions”. The PSTN Usage “Redmond 1” and “Redmond “ are reused in this voice routing policy to preserve special handling for calls to number “+1 425 XXX XX XX” and “+1 206 XXX XX XX” as local or on-premise calls.
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
@@ -493,32 +504,37 @@ The steps to create PSTN Usage “International”, voice route “International
 
     a. If a call made to number “+1425 XXX XX XX” with the usages configured as in the following example, the call follows the route set in “US and Canada” usage and the special routing logic is applied. That is, the call is routed using  sbc1<span></span>.contoso.biz and sbc2<span></span>.contoso.biz first, and then  sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz as the backup routes. 
 
-    b.	If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic.
+    b.	If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
+Which returns
+
+```
     Identity		: International 
     OnlinePstnUsages 	: {US and Canada, International}	 
     Description		:  
     RouteType	 	: BYOT
-    ```
+```
 
-4.	Assign the voice routing policy to the user “John Woods”.
+4.	Assign the voice routing policy to the user “John Woods” using the following command.
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”```
-  
-    ```
-    PS C:\windows\System32\WindowsPowerShell\v1.0> Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
 
-    PS C:\windows\System32\WindowsPowerShell\v1.0> Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-
+Then verify the assignment using the command:   
+```
+Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+```
+Which returns:
+```
     OnlineVoiceRoutingPolicy
     ------------------------
     No Restrictions
-
-    PS C:\windows\System32\WindowsPowerShell\v1.0>
-    ```
+```
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
@@ -538,13 +554,19 @@ Direct Routing will route calls only to Microsoft Teams, so you need to make sur
 
 1. First, use the following cmdlet in a remote PowerShell session in the Skype for Business Online admin center to see which policies the user has been assigned. 
 
-    ```Get-CsOnlineUser -identity <User Name> | fl *teams*```
+```
+Get-CsOnlineUser -identity <User Name> | fl *teams*
+```
  
 2. Next, review the different policy instances. 
 
-    ``Get-CsTeamsCallingPolicy`` 
-
-    ``Get-CsTeamsInteropPolicy`` 
+```
+Get-CsTeamsCallingPolicy
+``` 
+and
+```
+Get-CsTeamsInteropPolicy
+``` 
 
 Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
 
@@ -552,7 +574,9 @@ Before Microsoft Teams users can use the service, there are additional steps you
 
 You need to make sure that the user has a TeamsCallingPolicy with AllowCalling = True. This policy can either be the Global policy in your tenant or a specific policy granted to the user. If you need to grant a user a specific policy, you can use the cmdlet:
 
-```Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>```
+```
+Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
+```
 
 ### Teams Interop Policy
 
@@ -563,7 +587,9 @@ Make sure that the user has the preferred calling client to set to Microsoft Tea
 
 To assign a policy that sets Microsoft Teams as the preferred calling client, make sure that the user is granted a policy with CallingDefaultClient = Teams. An example cmdlet is shown below:
 
-```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”```
+```
+Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
+```
 
 ## See also
 
