@@ -63,7 +63,7 @@
 #### [Connect pilot pool to legacy Edge Servers](../migration/connect-pilot-pool-to-legacy-edge-servers.md)
 #### [Configure XMPP gateway access policies and certificates](../migration/configure-xmpp-gateway-access-policies-and-certificates.md)
 ### [Phase 4: Move test users to pilot pool](../migration/phase-4-move-test-users-to-the-pilot-pool.md)
-#### [View current users in legacy pool](../migration/view-current-users.md)
+#### [View current users in legacy pool](../migration/view-current-users-in-legacy-pool.md)
 #### [Verify user replication has completed](../migration/verify-user-replication-has-completed.md)
 #### [Move a single user to pilot pool](../migration/move-a-single-user-to-the-pilot-pool.md)
 #### [Move multiple users to pilot pool](../migration/move-multiple-users-to-the-pilot-pool.md)
