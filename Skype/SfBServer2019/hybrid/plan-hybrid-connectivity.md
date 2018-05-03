@@ -99,7 +99,7 @@ You'll learn more about Active Directory configuration in the sections that foll
     
 The following diagram shows a Skype for Business "split domain" hybrid configuration. Users A and B are homed online but are discoverable by on-premises users; users C and D are homed on premises, but are discoverable by online users.
   
-![SfB Hybrid connectivity - split domain](../media/c4fc9311-1930-4a58-877f-3c1524dfab5c.png)
+![SfB Hybrid connectivity - split domain](../../sfbserver/media/c4fc9311-1930-4a58-877f-3c1524dfab5c.png)
   
 You might also be familiar with the term "hybrid voice"—which refers to on-premises voice trunks that provide functionality to users homed in the cloud. Hybrid voice enables migration to the cloud while preserving on-premises voice configuration. If you already have a Skype for Business Server deployment, the first step to enable hybrid voice is to configure a split domain environment. 
   
@@ -107,7 +107,7 @@ For example, assume your company has a large mobile field support organization t
   
 The following diagram shows a Skype for Business hybrid voice deployment:
   
-![SfB split domain with Cloud PBX](../media/5e755772-269e-45ce-8b48-2e06ababfe6c.png)
+![SfB split domain with Cloud PBX](../../sfbserver/media/5e755772-269e-45ce-8b48-2e06ababfe6c.png)
   
 For more information about setting up a hybrid voice solution with your Skype for Business Server deployment, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md). 
   
