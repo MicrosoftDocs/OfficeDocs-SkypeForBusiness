@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "Needs a good description."
 ---
 
-## Maintenance and operations 
+## Management overview 
 
 It’s essential that you develop and execute ongoing maintenance and operations to ensure that your Skype Room Systems v2 systems are available for your users and deliver a great user experience. 
 
