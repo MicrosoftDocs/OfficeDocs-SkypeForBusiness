@@ -1,7 +1,7 @@
 ---
 title: "Plan Skype Room Systems v2"
 ms.author: jambirk
-author: lehewe
+author: jambirk
 manager: serdars
 ms.date: 5/4/2018
 ms.audience: ITPro
