@@ -50,10 +50,9 @@ After you establish a remote PowerShell session, please validate that you can se
 gcm *onlinePSTNGateway*
 ```
 
-You should see the four functions shown here that will let you manage the SBCs. 
+Your command will return the four functions shown here that will let you manage the SBCs. 
 
-
-
+    
     CommandType    Name                       Version    Source 
     -----------    ----                       -------    ------ 
     Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
@@ -62,6 +61,7 @@ You should see the four functions shown here that will let you manage the SBCs.
     Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
      
     PS C:\windows\System32\WindowsPowershell\v1.0> 
+    
 
 
 ### Pair the SBC to the tenant 
