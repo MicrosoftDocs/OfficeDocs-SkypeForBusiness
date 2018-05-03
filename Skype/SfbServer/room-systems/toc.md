@@ -31,7 +31,7 @@
 ### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 ## [Deploy]
 ### [Deployment overview](deploy-intro-text.md)
-### [Configure accounts]((../deploy/deploy-clients/room-systems-v2.md))
+### [Configure accounts]((../deploy/deploy-clients/room-systems-v2.md)
 ### [At scale](../deploy/deploy-clients/room-systems-scale.md)
 ### [With Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [With Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
