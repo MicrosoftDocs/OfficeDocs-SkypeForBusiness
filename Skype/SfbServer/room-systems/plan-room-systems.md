@@ -24,7 +24,7 @@ Skype Room Systems v2 provides a complete Skype for Business meeting experience 
 
 ![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.](../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.")
 
-[Skype Room Systems v2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Skype Room Systems v2 and how it can add value as part of your Skype for Business deployment. in addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
+[Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Skype Room Systems v2 and how it can add value as part of your Skype for Business deployment. in addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
 
 ## Skype Room Systems v2 components 
@@ -56,7 +56,7 @@ You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype fo
 
 Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided throughout this article as needed for your organization.
 
-![Alt text here](../media/room-systems-image2.png "Alt text here")
+![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
 
 The first step is to inventory your organization’s existing meeting and conference rooms to understand their environment, room size, layout, and purpose, and to identify the capabilities you want each room in scope to have in the future such as which richer collaboration capabilities will be enabled in the room. 
 

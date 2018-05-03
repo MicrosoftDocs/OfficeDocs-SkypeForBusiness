@@ -29,7 +29,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#certificates)
 -   [Proxy](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#proxy)
 
-**Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/en-us/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/en-us/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
+**Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
 
 <table>
 <tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Confirm that your sites meet the key requirements for Skype Room Systems v2.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ol></td></tr>
@@ -107,7 +107,7 @@ Define one organizational unit in your on-premises Active Directory or Azure AD 
 
 Create a Group Policy object assigned to the organization unit that contains your Skype Room Systems computer accounts. Use this to: 
 
--   [Set power and local account settings](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2#configuring-group-policy-for-skype-room-systems-v2).
+-   [Set power and local account settings](https://docs.microsoft.com/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2#configuring-group-policy-for-skype-room-systems-v2).
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a
     simple script: Enable-PSRemoting -Force
@@ -190,7 +190,7 @@ You can manually configure each Skype Room Systems v2 system. Alternatively, you
 
 For more information about how to use the XML configuration file, see [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](https://docs.microsoft.com/en-gb/skypeforbusiness/manage/skype-room-systems-v2/xml-config-file). 
 
-You can use [remote PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell) to pull the Skype Room Systems v2 configuration for reporting needs. 
+You can use [remote PowerShell](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell) to pull the Skype Room Systems v2 configuration for reporting needs. 
 
 
 
@@ -201,7 +201,7 @@ You can use [remote PowerShell](https://docs.microsoft.com/en-us/skypeforbusines
 
 ### Testing
 
-After the Skype Room Systems v2 system has been deployed, you should test it. Check that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Skype Room Systems v2 is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console#skype-room-systems-v2-deployment-checklist). 
+After the Skype Room Systems v2 system has been deployed, you should test it. Check that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Skype Room Systems v2 is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console#skype-room-systems-v2-deployment-checklist). 
 
 We recommend that as part of the general Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 
@@ -281,7 +281,7 @@ While the properties for the basic configuration will allow the user account to 
    
 The best way to set up user accounts is to configure them using remote Windows PowerShell. [Microsoft provides scripts](https://go.microsoft.com/fwlink/?linkid=870105) that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.
   
-If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Office 365](https://technet.microsoft.com/en-us/itpro/surface-hub/create-a-device-account-using-office-365).
+If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
 ## See also
 
