@@ -38,7 +38,7 @@ Use the following procedures to transition the federation route and the media tr
     
 5. Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy environment. 
     
-     ![Edit Properties dialog, Federation route page](../../media/migration_lyncserver_w15_federation_disable.JPG)
+     ![Edit Properties dialog, Federation route page](../media/migration_lyncserver_w15_federation_disable.JPG)
   
 6. Click **OK** to close the Edit Properties page. 
     
@@ -58,7 +58,7 @@ Use the following procedures to transition the federation route and the media tr
     
 4. Clear the **Enable federation for this Edge pool (port 5061)** check box entry and select **OK** to close the page. 
     
-     ![Edit Properties, General, clear Enable federation](../../media/migration_lyncserver_w15_federation_remove.JPG)
+     ![Edit Properties, General, clear Enable federation](../media/migration_lyncserver_w15_federation_remove.JPG)
   
 5. From the **Action** menu, select **Publish Topology**, and then click **Next**.
     
@@ -66,7 +66,7 @@ Use the following procedures to transition the federation route and the media tr
     
 7. Verify federation for the legacy Edge server is disabled.
     
-     ![Topology Builder, Edge pool, federation disabled](../../media/migration_lyncserver_w15_federation_verify_disabled.JPG)
+     ![Topology Builder, Edge pool, federation disabled](../media/migration_lyncserver_w15_federation_verify_disabled.JPG)
   
 ### To configure certificates on the legacy Edge Server
 
@@ -88,7 +88,7 @@ Use the following procedures to transition the federation route and the media tr
     
 4. Select the check box entry for **Enable federation for this Edge pool (port 5061)** and then click **OK** to close the page. 
     
-     ![Edit Properties dialog, General page](../../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
+     ![Edit Properties dialog, General page](../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
   
 5. From the **Action** menu, select **Publish Topology**, and then click **Next**.
     
@@ -96,7 +96,7 @@ Use the following procedures to transition the federation route and the media tr
     
 7. Verify **Federation (port 5061)** is set to **Enabled**.
     
-     ![Topology Builder, Edge pool, Federation enabled](../../media/migration_lyncserver_w15_federation_verify_2013_enabled.JPG)
+     ![Topology Builder, Edge pool, Federation enabled](../media/migration_lyncserver_w15_federation_verify_2013_enabled.JPG)
   
 ### To update Skype for Business Server 2019 Edge Server federation next hop
 
@@ -106,7 +106,7 @@ Use the following procedures to transition the federation route and the media tr
     
 3. On the **General** page, under **Next hop selection**, select from the drop-down list the Skype for Business Server 2019 pool.
     
-     ![Edit Properties dialog, Next hop page](../../media/migration_lyncserver_w15_federation_configure_nexthop.JPG)
+     ![Edit Properties dialog, Next hop page](../media/migration_lyncserver_w15_federation_configure_nexthop.JPG)
   
 4. Click **OK** to close the Edit Properties page. 
     
@@ -122,7 +122,7 @@ Use the following procedures to transition the federation route and the media tr
     
 3. In the **Associations** section, select the **Associate Edge pool (for media components)** check box. 
     
-     ![Edit Properties, General, Associate Edge pool](../../media/migration_lyncserver_w15_federation_enable_W15media.JPG)
+     ![Edit Properties, General, Associate Edge pool](../media/migration_lyncserver_w15_federation_enable_W15media.JPG)
   
 4. From the drop down box, select the Skype for Business Server 2019 Edge Server.
     
@@ -139,7 +139,7 @@ Use the following procedures to transition the federation route and the media tr
   
 3. On the **General** page, verify the **Enable federation for this Edge pool (Port 5061)** setting is checked. 
     
-     ![Edit Properties dialog, General page](../../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
+     ![Edit Properties dialog, General page](../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
   
 4. Click **OK** to close the Edit Properties page. 
     
@@ -151,7 +151,7 @@ Use the following procedures to transition the federation route and the media tr
     
 8. Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Skype for Business Server 2019 Edge Server listed. 
     
-     ![Edit Properties, Federation route page](../../media/migration_lyncserver_w15_federation_site_enablefed.JPG)
+     ![Edit Properties, Federation route page](../media/migration_lyncserver_w15_federation_site_enablefed.JPG)
   
 9. Click **OK** to close the **Edit Properties** page. 
     
