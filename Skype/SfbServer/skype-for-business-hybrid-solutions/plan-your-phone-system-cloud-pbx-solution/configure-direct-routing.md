@@ -531,6 +531,19 @@ Before a user can see the Calls tab in Microsoft Teams, you need to enable priva
 
     ![Screen shot showing Allow private calling turned on.](../../media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
+### Set Microsoft Teams as the preferred calling client for the users
+
+Direct Routing will route calls only to Microsoft Teams, so you need to make sure that Microsoft Teams is the preferred calling client for the users. This is controlled by the TeamsCallingPolicy and the TeamsInteropPolicy. 
+
+1. First, use the following cmdlet in a remote PowerShell session in the Skype for Business Online admin center to see which policies the user has been assigned. 
+
+    ```Get-CsOnlineUser -identity <User Name> | fl *teams*```
+ 
+2. Next, review the different policy instances. 
+
+    ```Get-CsTeamsCallingPolicy``` 
+    ```Get-CsTeamsInteropPolicy``` 
+
 Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
 
 #### Teams Calling Policy
