@@ -1,3 +1,16 @@
+---
+title: "Needs a good title"
+ms.author: jambirk
+author: lehewe
+manager: serdars
+ms.date: 5/4/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: "Needs a good description."
+---
+
 ## Adoption and change management 
 
 Skype Room Systems v2 systems introduce new capabilities to your users. It’s
