@@ -3,7 +3,7 @@ title: "PSTN connectivity components in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro

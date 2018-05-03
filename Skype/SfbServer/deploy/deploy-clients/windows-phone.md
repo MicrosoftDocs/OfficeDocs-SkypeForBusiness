@@ -3,7 +3,7 @@ title: "Install and test Skype for Business for Windows Phone"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

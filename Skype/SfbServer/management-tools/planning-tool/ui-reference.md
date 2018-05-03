@@ -2,7 +2,7 @@
 title: "Planning Tool UI Reference"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
