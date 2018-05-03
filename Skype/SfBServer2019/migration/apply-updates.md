@@ -12,7 +12,7 @@ description: "Before you migrate updates must be applied to your environment. Fo
 ---
 
 # Apply updates
-[]
+
 Before you migrate updates must be applied to your environment. For the most up-to-date information, see **Updates Resource Center** at [https://go.microsoft.com/fwlink/p/?linkid=232630](https://go.microsoft.com/fwlink/p/?linkid=232630).
   
 

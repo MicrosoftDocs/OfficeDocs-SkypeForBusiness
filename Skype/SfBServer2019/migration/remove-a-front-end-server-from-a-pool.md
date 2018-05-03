@@ -8,7 +8,6 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
 description: "The Front End Server cannot exist as a stand-alone computer. It must be defined as a Front End pool, even if there is only a single computer in the pool."
 ---
 

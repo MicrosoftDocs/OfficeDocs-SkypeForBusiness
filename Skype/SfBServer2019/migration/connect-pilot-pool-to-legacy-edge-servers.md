@@ -12,7 +12,7 @@ description: "After deploying Skype for Business Server 2019, you need to config
 ---
 
 # Connect pilot pool to legacy Edge Servers
-[]
+
 After deploying Skype for Business Server 2019, you need to configure a federation route for your site. In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route. 
   
 To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.

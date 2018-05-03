@@ -8,7 +8,6 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
 description: "The topics in this section describe tasks you must complete prior to moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment."
 ---
 

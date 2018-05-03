@@ -12,7 +12,7 @@ description: "After your users are moved to Skype for Business Server 2019 pools
 ---
 
 # Migrate response groups
-[]
+
 After your users are moved to Skype for Business Server 2019 pools, you can migrate your response groups. Migrating response groups includes copying agent groups, queues, workflows, audio files, and moving Response Group contact objects from the legacy deployment to the Skype for Business Server 2019 pool. After you migrate your legacy response groups, calls to the response groups are handled by the Response Group application in the Skype for Business Server 2019 pool. Calls to response groups are no longer handled by the legacy pool.
   
 > [!NOTE]

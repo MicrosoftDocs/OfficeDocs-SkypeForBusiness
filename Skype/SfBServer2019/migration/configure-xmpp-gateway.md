@@ -12,7 +12,7 @@ description: "The final steps for migrating your XMPP Gateway are to configure c
 ---
 
 # Configure XMPP gateway on Skype for Business Server 2019
-[]
+
 The final steps for migrating your XMPP Gateway are to configure certificates for the Skype for Business Server 2019 Edge Server, deploy the Skype for Business Server 2019 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Skype for Business Server 2019 deployment before performing these steps.
   
 > [!IMPORTANT]

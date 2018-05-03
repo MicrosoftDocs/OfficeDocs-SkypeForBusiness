@@ -12,7 +12,7 @@ description: "After migrating to Microsoft Skype for Business Server 2019, you m
 ---
 
 # Configure SCOM monitoring
-[]
+
 After migrating to Microsoft Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.
   
 - Apply updates to a server elected to manage the central discovery logic.

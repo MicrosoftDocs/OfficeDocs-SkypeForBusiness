@@ -12,7 +12,7 @@ description: "Before decommissioning a pool you must perform the following proce
 ---
 
 # Move Conference Directories
-[]
+
 Before decommissioning a pool you must perform the following procedure for each conference directory in your legacy pool.
   
 ## To Move a Conference Directory to Skype for Business Server 2019

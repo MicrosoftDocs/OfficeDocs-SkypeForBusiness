@@ -12,12 +12,12 @@ description: "XMPP federation defines an external deployment based on the eXtens
 ---
 
 # Configure XMPP gateway access policies and certificates
-[]
-XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:
+
+XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows users access to XMPP domain users by:
   
 - IM and Presence - person to person only
     
-- Creation of XMPP federated contacts in the Lync client
+- Creation of XMPP federated contacts in the Skype for Business client
     
 When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers, or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates. 
   
@@ -26,7 +26,7 @@ When you configure policies for support of extensible messaging and presence pro
   
 ### Configure an External Access Policy to Enable Users for Skype for Business Server 2019 XMPP Gateway
 
-1. Open Lync Server Control Panel.
+1. Open Skype for Business Server Control Panel.
     
 2. In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.
     

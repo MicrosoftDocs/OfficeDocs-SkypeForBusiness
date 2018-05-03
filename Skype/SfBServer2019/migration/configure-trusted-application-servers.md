@@ -16,7 +16,7 @@ description: "In a mixed environment, if you create a new trusted application se
 In a mixed environment, if you create a new trusted application server, you must set the next hop pool to be a Skype for Business Server 2019 pool. In a mixed environment, both the legacy pool and the Skype for Business Server 2019 pool appear in the drop down list. Selecting the legacy pool is not supported.
   
 > [!IMPORTANT]
-> If you are migrating a trusted application server from a previous version of Lync Server, you should also update the version of UCMA you are using. If you create a new Trusted Application Pool for Skype for Business Server 2019, you should update UCMA to the version that is included with Skype for Business Server 2019 or the latest version available. 
+> If you are migrating a trusted application server, you should also update the version of UCMA you are using. If you create a new Trusted Application Pool for Skype for Business Server 2019, you should update UCMA to the version that is included with Skype for Business Server 2019 or the latest version available. 
   
 ### Select Skype for Business Server 2019 as next hop when creating a Trusted application server
 

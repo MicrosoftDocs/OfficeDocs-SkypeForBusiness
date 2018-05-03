@@ -12,7 +12,7 @@ description: "In this articleTo move multiple users by using the Skype for Busin
 ---
 
 # Move multiple users to the pilot pool
-[]
+
  **In this article**
   
 [To move multiple users by using the Skype for Business Server 2019 Control Panel](#sectionSection0)

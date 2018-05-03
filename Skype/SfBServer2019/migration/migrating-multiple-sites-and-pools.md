@@ -12,7 +12,7 @@ description: "Skype for Business Server 2019 supports multi-site and multi-pool 
 ---
 
 # Migrating multiple sites and pools
-[]
+
 Skype for Business Server 2019 supports multi-site and multi-pool deployments. The process of migrating multiple pools to Skype for Business Server 2019 requires the following considerations: 
   
 1. After deploying a Skype for Business Server 2019 pilot pool, you need to define a subset of pilot users that will be moved to the Skype for Business Server 2019 pool, and a methodology for validating the functionality of the users. For example, after moving a user to the pilot pool, verify the user's conference policy has moved to Skype for Business Server 2019. 

@@ -12,7 +12,7 @@ description: "After migrating to Skype for Business Server 2019, you need to mov
 ---
 
 # Move the legacy Central Management Server to Skype for Business Server 2019
-[]
+
 After migrating to Skype for Business Server 2019, you need to move the Central Management Server to the Skype for Business Server 2019 Front End Server or pool, before you can remove the legacy server. 
   
 The Central Management Server is a single master/multiple replica system, where the read/write copy of the database is held by the Front End Server that contains the Central Management Server. Each computer in the topology, including the Front End Server that contains the Central Management Server, has a read-only copy of the Central Management store data in the SQL Server database (named RTCLOCAL by default) installed on the computer during setup and deployment. The local database receives replica updates by way of the Skype for Business Server Replica Replicator Agent that runs as a service on all computers. The name of the actual database on the Central Management Server and the local replica is XDS, which is made up of the xds.mdf and xds.ldf files. The master database location is referenced by a service control point (SCP) in Active Directory Domain Services. All tools that use the Central Management Server to manage and configure Skype for Business Server use the SCP to locate the Central Management store.

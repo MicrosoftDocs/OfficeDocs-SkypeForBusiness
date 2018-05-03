@@ -19,7 +19,7 @@ You can use the legacy installs Control Panel to prevent new sessions for all th
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2019.
     
-2. Open Lync/Skype for Business Control Panel.
+2. Open Skype for Business Control Panel.
     
 3. In the left navigation bar, click **Topology** and then click **Status**.
     
@@ -33,7 +33,7 @@ You can use the legacy installs Control Panel to prevent new sessions for all th
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2019.
     
-2. Open Lync/Skype for Business Control Panel.
+2. Open Skype for Business Control Panel.
     
 3. In the left navigation bar, click **Topology** and then click **Status**.
     

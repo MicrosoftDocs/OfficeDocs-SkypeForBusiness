@@ -12,7 +12,7 @@ description: "In general, the Address Book is migrated along with the rest of yo
 ---
 
 # Migrate Address Book
-[]
+
 In general, the Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your legacy environment: 
   
 - Set the **PartitionbyOU** WMI property to group Address Book entries by organizational unit (OU). 
@@ -41,7 +41,7 @@ If you set the value for **UseNormalizationRules** to False so that users can us
 1. Find the Company_Phone_Number_Normalization_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Skype for Business Server 2019 pilot pool.
     
     > [!NOTE]
-    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. The path is **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,**. This file can be copied and renamed as **Company_Phone_Number_Normalization_Rules.txt** to the address book shared folder's root directory. For example, the address book shared in **$serverX**, the path will be similar to: **\\$serverX \LyncFileShare\2-WebServices-1\ABFiles**. 
+    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. The path is **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,**. This file can be copied and renamed as **Company_Phone_Number_Normalization_Rules.txt** to the address book shared folder's root directory. For example, the address book shared in **$serverX**, the path will be similar to: **\\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
   
 2. Use a text editor, such as Notepad, to open the Company_Phone_Number_Normalization_Rules.txt file.
     

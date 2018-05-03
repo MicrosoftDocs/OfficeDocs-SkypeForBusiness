@@ -8,7 +8,6 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 13d71f4b-9d5e-4ea3-9e93-29fdad7ac68f
 description: "The recommended and supported migration procedure for Skype for Business Server 2019 is side-by-side migration. This topic describes why you should use side-by-side migration and also includes information about coexistence testing."
 ---
 

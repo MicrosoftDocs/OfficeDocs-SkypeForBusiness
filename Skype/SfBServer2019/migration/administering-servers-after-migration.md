@@ -12,7 +12,7 @@ description: "In general, you must use the administrative tool that corresponds 
 ---
 
 # Administering servers after migration
-[]
+
 In general, you must use the administrative tool that corresponds to the server version that you want to manage. You cannot install administrative tools from different releases on the same computer.
   
 > [!IMPORTANT]

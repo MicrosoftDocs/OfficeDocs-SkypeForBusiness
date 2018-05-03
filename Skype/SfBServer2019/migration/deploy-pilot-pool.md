@@ -12,7 +12,7 @@ description: "One of the first steps required for migration to Skype for Busines
 ---
 
 # Deploy Skype for Business Server 2019 pilot pool
-[]
+
 One of the first steps required for migration to Skype for Business Server 2019 is to deploy a pilot pool. The pilot pool is where you test coexistence of Skype for Business Server 2019 with your legacy deployment. Coexistence is a temporary state that lasts until you have moved all users and pools to Skype for Business Server 2019. 
   
 When you deploy a pilot pool, you use the Define New Front End Pool wizard. You should deploy the same features and workloads in your Skype for Business Server 2019 pilot pool that you have in your legacy pool. If you deployed Archiving Server, Monitoring Server, or System Center Operations Manager for archiving or monitoring your legacy environment, and you want to continue archiving or monitoring throughout the migration, you need to also deploy these features in your pilot environment. The version you deployed to archive or monitor your legacy environment will not capture data in your Skype for Business Server 2019 environment. 
