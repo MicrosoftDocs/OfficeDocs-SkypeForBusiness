@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0986800-8ee4-4d50-9e9c-39f7c4e67bed
 description: "Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool. In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool. These are the test users we will move to the Lync Server 2013 pool."

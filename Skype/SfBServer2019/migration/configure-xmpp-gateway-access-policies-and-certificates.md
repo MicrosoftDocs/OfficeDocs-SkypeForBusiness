@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows users access to XMPP domain users by:"
 ---

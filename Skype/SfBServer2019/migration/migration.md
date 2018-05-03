@@ -5,7 +5,7 @@ author: kenwith
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27b8010d-0554-4031-bedf-5f63b3606dbe
 description: 'This section explains how to migrate from Microsoft Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.'

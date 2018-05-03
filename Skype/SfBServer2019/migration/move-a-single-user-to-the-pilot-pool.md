@@ -1,48 +1,47 @@
 ---
-title: "Move a single user to the pilot pool [W14 to W15 ]"
+title: "Move a single user to the pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
-description: "You can move a user from your Lync Server 2010 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell. In the example below, in the Registrar pool column, pool01.contoso.net is the Lync Server 2010 pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Lync Server 2013 pool using Lync Server 2013 Control Panel and Lync Server Management Shell."
+description: "You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the Registrar pool column, pool01.contoso.net is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell."
 ---
 
-# Move a single user to the pilot pool [W14 to W15 ]
+# Move a single user to the pilot pool
 []
-You can move a user from your Lync Server 2010 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell. In the example below, in the Registrar pool column, **pool01.contoso.net** is the Lync Server 2010 pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Lync Server 2013 pool using Lync Server 2013 Control Panel and Lync Server Management Shell. 
+You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the Registrar pool column, **pool01.contoso.net** is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell. 
   
-## To move a user by using the Lync Server 2013 Control Panel
+## To move a user by using the Skype for Business Server 2019 Control Panel
 
-**List of users in the Lync Server 2013 Control Panel**
+**List of users in the Skype for Business Server 2019 Control Panel**
 
-![Lync Server Control Panel, Move User dialog](../../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
+![Skype for Business Server Control Panel, Move User dialog](../../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
   
 1. Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.
     
-2. Open **Lync Server Control Panel**.
+2. Open **Skype for Business Server Control Panel**.
     
 3. Click **Users**, click Search, and then click **Find**.
     
-4. Select a user that you want to move to the Lync Server 2013 pool. In this example, we will move user Sara Davis.
+4. Select a user that you want to move to the Skype for Business Server 2019 pool. In this example, we will move user Sara Davis.
     
 5. On the **Action** menu, select **Move selected users to pool**.
     
-6. From the drop-down list, select the Lync Server 2013 pool.
+6. From the drop-down list, select the Skype for Business Server 2019 pool.
     
 7. Click **Action** and then click **Move selected users to pool**. Click **OK**.
     
      ![Move Users, destination registrar pool dialog box](../../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-8. Verify that the **Registrar pool** column for the user now contains the Lync Server 2013 pool, which indicates that the user has been successfully moved. 
+8. Verify that the **Registrar pool** column for the user now contains the Skype for Business Server 2019 pool, which indicates that the user has been successfully moved. 
     
-## To move a user by using the Lync Server 2013 Management Shell
+## To move a user by using the Skype for Business Server 2019 Management Shell
 
-1. Open the Lync Server Management Shell.
+1. Open the Skype for Business Server Management Shell.
     
 2. At the command line, type the following: 
     
@@ -56,7 +55,7 @@ You can move a user from your Lync Server 2010 pool to your Lync Server 2013 pil
   Get-CsUser -Identity "David Pelton"
   ```
 
-4. The **RegistrarPool** identity now points to the Lync Server 2013 pool. The presence of this identity confirms that the user has been successfully moved. 
+4. The **RegistrarPool** identity now points to the Skype for Business Server 2019 pool. The presence of this identity confirms that the user has been successfully moved. 
     
      ![Output from Get-CsUser cmdlet with Identity filter](../../media/migration_lyncserver_w15_movesingleuser_getcsuser.JPG)
   

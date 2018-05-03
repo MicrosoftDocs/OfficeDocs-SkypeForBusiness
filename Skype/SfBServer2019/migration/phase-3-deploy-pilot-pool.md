@@ -1,28 +1,28 @@
 ---
-title: "Phase 3 Deploy Lync Server 2013 pilot pool"
+title: "Phase 3 Deploy Skype for Business Server 2019 pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: "This section covers the steps required to deploy a pilot pool of Lync Server 2013. The deployment of Lync Server 2013 requires using Topology Builder to define your topology and the components you want to deploy, preparing your environment for deployment of the Lync Server 2013 components, publishing your topology design on the first Front End Server, and then installing and configuring Lync Server 2013 software for the components for your deployment. When completed, your Lync Server 2013 pilot pool deployment will coexist with an existing Lync Server 2010 pool."
+description: "This section covers the steps required to deploy a pilot pool of Skype for Business Server 2019. The deployment of Skype for Business Server 2019 requires using Topology Builder to define your topology and the components you want to deploy, preparing your environment for deployment of the Skype for Business Server 2019 components, publishing your topology design on the first Front End Server, and then installing and configuring Skype for Business Server 2019 software for the components for your deployment. When completed, your Skype for Business Server 2019 pilot pool deployment will coexist with an existing legacy pool."
 ---
 
-# Phase 3: Deploy Lync Server 2013 pilot pool
-[]
-This section covers the steps required to deploy a pilot pool of Lync Server 2013. The deployment of Lync Server 2013 requires using Topology Builder to define your topology and the components you want to deploy, preparing your environment for deployment of the Lync Server 2013 components, publishing your topology design on the first Front End Server, and then installing and configuring Lync Server 2013 software for the components for your deployment. When completed, your Lync Server 2013 pilot pool deployment will coexist with an existing Lync Server 2010 pool.
+# Phase 3: Deploy Skype for Business Server 2019 pilot pool
+
+This section covers the steps required to deploy a pilot pool of Skype for Business Server 2019. The deployment of Skype for Business Server 2019 requires using Topology Builder to define your topology and the components you want to deploy, preparing your environment for deployment of the Skype for Business Server 2019 components, publishing your topology design on the first Front End Server, and then installing and configuring Skype for Business Server 2019 software for the components for your deployment. When completed, your Skype for Business Server 2019 pilot pool deployment will coexist with an existing legacy pool.
   
 ## In This Section
 
-- [Prepare Active Directory for Lync Server](prepare-active-directory-for-lync-server.md)
+- [Prepare Active Directory for Skype for Business Server](prepare-active-directory.md)
     
 - [Download topology from existing deployment](download-topology-from-existing-deployment.md)
     
-- [Deploy Lync Server 2013 pilot pool](deploy-lync-server-2013-pilot-pool.md)
+- [Deploy Skype for Business Server 2019 pilot pool](deploy-pilot-pool.md)
     
 - [Verify pilot pool coexistence with legacy pool](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

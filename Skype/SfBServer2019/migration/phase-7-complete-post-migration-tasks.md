@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
 description: "The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013."

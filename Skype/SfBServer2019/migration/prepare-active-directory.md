@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54cd597d-0c2d-479c-8c52-1babc53f71dc
 description: "Prior to deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you must perform some additional Active Directory tasks to configure the schema, forest, and domain for Lync Server 2013. The schema extensions add the Active Directory classes and attributes that are required by Lync Server 2013. For additional information, see the topic Preparing Active Directory Domain Services for Lync Server 2013."

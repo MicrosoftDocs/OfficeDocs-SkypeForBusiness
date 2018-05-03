@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 description: "You can use Lync Server Control Panel to start or stop all the Lync Server 2010 services running on a specific computer or to start or stop a specific Lync Server 2010 service."

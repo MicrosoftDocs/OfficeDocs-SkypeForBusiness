@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 3/9/2018
 ms.audience: End User
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "When a user clicks a meeting link in a meeting request, the meeting join page detects which client is already installed on the user's computer. If a client is already installed, that client opens and joins the meeting. If a client is not installed, by default the Web App opens."
 ---

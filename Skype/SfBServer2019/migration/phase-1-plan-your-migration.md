@@ -1,20 +1,19 @@
 ---
-title: "Phase 1 Plan your migration from Lync Server 2010"
+title: "Phase 1 Plan your migration"
 ms.author: kenwith
 author: kenwith
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 1461b343-05cd-44a3-b722-4c297708de31
-description: "This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013."
+description: "This section covers planning topics for migrating to Skype for Business Server 2019."
 ---
 
-# Phase 1: Plan your migration from Lync Server 2010
+# Phase 1: Plan your migration
 []
-This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013. 
+This section covers planning topics for migrating to Skype for Business Server 2019. 
   
 ## In This Section
 

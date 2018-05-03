@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 description: "In this articleVerify that Lync Server 2013 services have startedOpen the Lync Server 2013 Control PanelDon't attempt to open the topology in Lync Server 2010 Topology Builder"

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 description: "The procedures outlined in this topic are designed to guide you through the process of removing a Microsoft Lync Server 2010 Enterprise Edition Front End pool or a Standard Edition Front End Server. After migrating to Lync Server 2013, this is one of the first steps to decommissioning your legacy Lync Server 2010 environment."

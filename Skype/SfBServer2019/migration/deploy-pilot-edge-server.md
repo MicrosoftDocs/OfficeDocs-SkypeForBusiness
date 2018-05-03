@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
 description: "This topic highlights configuration settings you should be aware of prior to deploying your Skype for Business Server 2019 Edge Server. The deployment and configuration processes for Skype for Business Server 2019 are very similar to Skype for Business Server 2015. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see Deploying external user access in Skype for Business Server 2019 in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access."

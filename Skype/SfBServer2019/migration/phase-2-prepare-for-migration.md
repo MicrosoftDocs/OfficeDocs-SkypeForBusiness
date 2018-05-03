@@ -6,19 +6,19 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: "Before you begin your migration to Lync Server 2013 from Lync Server 2010, follow the steps described in this section."
+description: "Before you begin your migration to Skype for Business Server 2019, follow the steps described in this section."
 ---
 
 # Phase 2: Prepare for migration
-[]
-Before you begin your migration to Lync Server 2013 from Lync Server 2010, follow the steps described in this section.
+
+Before you begin your migration to Skype for Business Server 2019, follow the steps described in this section.
   
 ## In This Section
 
-- [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md)
+- [Apply updates](apply-updates.md)
     
 - [Configure DNS records for pilot pool deployment](configure-dns-records-for-pilot-pool-deployment.md)
     
@@ -28,6 +28,6 @@ Before you begin your migration to Lync Server 2013 from Lync Server 2010, follo
     
 - [Configure clients for migration](configure-clients-for-migration.md)
     
-- [Verify Lync Server 2010 environment](verify-lync-server-2010-environment.md)
+- [Verify environment](verify-environment.md)
     
 

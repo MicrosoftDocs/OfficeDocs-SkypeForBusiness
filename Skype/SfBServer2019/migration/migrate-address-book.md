@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "In general, the Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your legacy environment:"
 ---

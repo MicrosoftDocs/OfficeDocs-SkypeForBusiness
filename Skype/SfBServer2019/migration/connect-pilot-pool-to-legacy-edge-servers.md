@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
-ms.prod: office-online-server
+ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: "After deploying Skype for Business Server 2019, you need to configure a federation route for your site. In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route."
 ---
