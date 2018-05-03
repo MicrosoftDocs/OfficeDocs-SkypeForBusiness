@@ -16,6 +16,9 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 If you have not already done so, read [Plan Direct Routing](plan-direct-routing.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
 
+  > [!NOTE]
+  > This document is intended for IT professionals.  
+
 This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Using Windows PowerShell to manage Skype for Business Online](https://technet.microsoft.com/library/dn362831.aspx). 
 
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
@@ -23,18 +26,13 @@ We recommend that you confirm that your SBC has already been configured as recom
 - AudioCodes deployment documentation 
 - Ribbon deployment documentation
 
-  > [!NOTE]
-  > This document is intended for IT professionals.  
-
-## Configuring Microsoft Phone System and users for Direct Routing 
-
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
 - Pair the SBC with a Microsoft Phone System and validate the pairing 
 - Enable users for Direct Routing Service 
 - Ensure that Microsoft Teams is the preferred calling client for the users 
 
-### Pair the SBC to Direct Routing Service of Phone System 
+## Pair the SBC to Direct Routing Service of Phone System 
 
 The following are the three high-level steps to let you connect, or pair, the SBC to the Direct Routing interface: 
 
@@ -42,7 +40,7 @@ The following are the three high-level steps to let you connect, or pair, the SB
 - Pair the SBC 
 - Validate the pairing 
 
-#### Connect to  Skype for Business Online by using PowerShell 
+### Connect to  Skype for Business Online by using PowerShell 
 
 You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Using Windows PowerShell to manage Skype for Business Online](https://technet.microsoft.com/library/dn362831.aspx). 
  
@@ -63,7 +61,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
  
 PS C:\windows\System32\WindowsPowershell\v1.0> 
 ```
-#### Pair the SBC to the tenant 
+### Pair the SBC to the tenant 
 
 To pair the SBC to the tenant, in the PowerShell session, type the following and press Enter: 
 
@@ -107,13 +105,13 @@ The following table lists the additional parameters that you can use in setting 
 |No|MaxConcurrentSessions |Used by alerting system. When any value is set, the alerting system will generate an alert to the tenant administrator when the number of concurrent session is 90% or higher than this value. If parameter is not set, the alerts are not generated. However, the monitoring system will report number of concurrent session every 24 hours. |Null|Null<br/>1 to 100,000 ||
 |No|Enabled*|Used to enable this SBC for outbound calls. Can be used to temporarily remove the SBC, while it is being updated or during maintenance. |False|True<br/>False|Boolean|
  
-#### Verify the SBC pairing 
+### Verify the SBC pairing 
 
 Verify the connection: 
 - Check if the SBC is on the list of paired SBCs. 
 - Validate SIP Options. 
  
-##### Validate if SBC is on the list of paired SBCs 
+#### Validate if SBC is on the list of paired SBCs 
 
 After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
 
@@ -137,7 +135,7 @@ Enabled               : True
 C:\> 
 ```
 
-##### Validate SIP Options flow 
+#### Validate SIP Options flow 
 
 To validate the pairing using outgoing SIP Options, use the SBC management interface and see that the SBC get 200 OK responses to the outgoing OPTIONS.
   
@@ -145,7 +143,7 @@ When Direct Routing sees incoming OPTIONS, it will start sending outgoing option
 
 To validate the pairing using incoming SIP Options, use the SBC management interface and see that the SBC gets reply on the OPTIONS messages coming in from Direct Routing and that the response code is 200 OK.  
 
-### Enable users for Direct Routing Service 
+## Enable users for Direct Routing Service 
 
 When you are ready to enable users for the Direct Routing Service, follow these steps: 
 
@@ -154,7 +152,7 @@ When you are ready to enable users for the Direct Routing Service, follow these 
 3. Configure the phone number and enable enterprise voice and voicemail. 
 4. Configure voice routing. The route is automatically validated.  
 
-#### Create a user in Office 365 and assign the license 
+### Create a user in Office 365 and assign the license 
 
 There are two options for creating a new user in Office 365. However, we recommend that your organization select and use one option to avoid routing issues: 
 
@@ -173,7 +171,7 @@ Optional licenses:
 - Calling Plan 
 - Audio Conferencing 
 
-#### Ensure that the user is homed in Skype for Business Online 
+### Ensure that the user is homed in Skype for Business Online 
 
 Direct Routing requires the user to be homed in Skype for Business Online. You can check this by looking at the RegistrarPool parameter. It needs to have a value in the infra.lync.com domain.
 
@@ -182,7 +180,7 @@ Direct Routing requires the user to be homed in Skype for Business Online. You c
 
     ```Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool``` 
 
-#### Configure the phone number and enable enterprise voice and voicemail 
+### Configure the phone number and enable enterprise voice and voicemail 
 
 After you have created the user and assigned a license, the next step is to configure their phone number and voicemail. This can be done in one step. 
 
@@ -202,7 +200,7 @@ The phone number used has to be configured as a full E.164 phone number with cou
   > [!NOTE]
   > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
-#### Configure Voice Routing 
+### Configure Voice Routing 
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific SBC based on: 
 
@@ -217,7 +215,7 @@ Call routing is made up of the following elements:
 - Voice Routes – number pattern and set of Online PSTN Gateways to use for calls where calling number matches the pattern 
 - Online PSTN Gateway - pointer at SBC, also stores the configuration that is applied when call is placed via the SBC, such as forward P-Asserted-Identity (PAI) or Preferred Codecs; can be added to Voice Routes 
 
-##### Creating a voice routing policy with one PSTN Usage 
+#### Creating a voice routing policy with one PSTN Usage 
 
 The following diagram shows two examples of voice routing policies in call flow.
 
@@ -256,7 +254,7 @@ The following table summarizes the configuration using three voice routes. In th
 
 **[Sentence unclear - missing a verb?]**All routes associated with the PSTN Usage “US and Canada” and the PSTN Usage associated with the Voice Routing Policy “US Only.” In this example, the voice routing policy is assigned to user Spencer Low.
 
-##### Examples of call routes
+#### Examples of call routes
 
 In the following example,  we demonstrate how to configure Routes, PSTN Usages, and Routing policies, and we assign the policy to the user.
 
@@ -422,7 +420,7 @@ US Only
 PS C:\windows\System32\WindowsPowerShell\v1.0>
 ```
 
-##### Creating a Voice Routing Policy with several PSTN Usages
+#### Creating a Voice Routing Policy with several PSTN Usages
 
 The Voice Routing Policy created previously only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
@@ -456,7 +454,7 @@ The following table  summarizes routing policy “No Restrictions” usage desig
   > - The order of PSTN Usages in Voice Routing Policies is critical. The usages are applied in order, and if a match is found in the first usage, then other usages are never evaluated. The PSTN Usage “International” must be placed after the PSTN Usage “US Only.” To change the order of the PSTN Usages, please run the `Set-CSOnlineRouteRoutingPolicy` command. <br/>For example, to change the order from “US and Canada” first and “International” second to the reverse order run:<br/>   `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - The priority for  “Other +1” and “International” Voice routes are assigned automatically. They don’t matter as long as they have lower priorities than “Redmond 1” and “Redmond 2.”
 
-##### Example of Voice Routing Policy for user John Woods
+#### Example of Voice Routing Policy for user John Woods
 
 The steps to create PSTN Usage “International”, voice route “International,” Voice Routing Policy “No Restrictions,” and then assigning it to the user “John Woods” are as follows.
 
@@ -521,7 +519,7 @@ The steps to create PSTN Usage “International”, voice route “International
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
-### Enable Calling for Microsoft Teams
+## Enable Calling for Microsoft Teams
 
 Before a user can see the Calls tab in Microsoft Teams, you need to enable private calling for the tenant in Microsoft Teams. To do this:
 
@@ -531,7 +529,7 @@ Before a user can see the Calls tab in Microsoft Teams, you need to enable priva
 
     ![Screen shot showing Allow private calling turned on.](../../media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
-### Set Microsoft Teams as the preferred calling client for the users
+## Set Microsoft Teams as the preferred calling client for the users
 
 Direct Routing will route calls only to Microsoft Teams, so you need to make sure that Microsoft Teams is the preferred calling client for the users. This is controlled by the TeamsCallingPolicy and the TeamsInteropPolicy. 
 
@@ -547,13 +545,13 @@ Direct Routing will route calls only to Microsoft Teams, so you need to make sur
 
 Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
 
-#### Teams Calling Policy
+### Teams Calling Policy
 
 You need to make sure that the user has a TeamsCallingPolicy with AllowCalling = True. This policy can either be the Global policy in your tenant or a specific policy granted to the user. If you need to grant a user a specific policy, you can use the cmdlet:
 
 ```Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>```
 
-#### Teams Interop Policy
+### Teams Interop Policy
 
 Make sure that the user has the preferred calling client to set to Microsoft Teams. This can be done in two ways:
 
