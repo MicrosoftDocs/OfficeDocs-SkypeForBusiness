@@ -52,16 +52,16 @@ gcm *onlinePSTNGateway*
 
 Your command will return the four functions shown here that will let you manage the SBCs. 
 
-    
-    CommandType    Name                       Version    Source 
-    -----------    ----                       -------    ------ 
-    Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
-    Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
-    Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
-    Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-     
-    PS C:\windows\System32\WindowsPowershell\v1.0> 
-    
+~~~~    
+CommandType    Name                       Version    Source 
+-----------    ----                       -------    ------ 
+Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
+Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
+Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
+Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
+ 
+PS C:\windows\System32\WindowsPowershell\v1.0> 
+~~~~    
 
 
 ### Pair the SBC to the tenant 
