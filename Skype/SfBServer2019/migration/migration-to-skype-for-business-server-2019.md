@@ -13,7 +13,10 @@ description: "The topics in this section guide you through the process of migrat
 
 # Migration to Skype for Business Server 2019
 
-The topics in this section guide you through the process of migrating to Skype for Business Server 2019. This document covers migrating from Skype for Business Server 2019 or Skype for Business Server 2015 to Skype for Business Server 2019. 
+The topics in this section guide you through the process of migrating to Skype for Business Server 2019. This document covers migrating Lync Server 2013 or Skype for Business Server 2015 to Skype for Business Server 2019.
+
+> [!IMPORTANT]
+> Throughout the content we refer to 'legacy' to refer to the legacy Lync Server 2013 or Skype for Business Server 2015 that you are migrating to Skype for Business Server 2019.
   
 > [!IMPORTANT]
 > This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process. 
@@ -27,6 +30,8 @@ This document defines terms as specified in the following list.
 **coexistence:** The temporary environment that exists during migration when some functionality has been migrated to Skype for Business Server 2019 and other functionality still remains on a prior version.
     
 **interoperability:** The ability of your deployment to operate successfully during the period of coexistence.
+
+**legacy:** The system you are migrating away which is either Lync Server 2013 or Skype for Business Server 2015.
     
 ## In This Section
 
