@@ -210,7 +210,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
   
 ## Setting the default audio conferencing phone number for meeting organizers
 
- **To set the default audio conferencing phone number for meeting organizers when you are enabling a user for Audio Conferencing**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**  
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -232,25 +232,6 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
- **To set the default audio conferencing phone number for meeting organizers after you have enabled a user for audio conferencing**
-  
-1. Sign in to Office 365 with your work or school account.
-    
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, select the user you want, and in the Action page, click **Edit**.
-    
-4. On the **Properties** page, under **Provider name**, use the drop-down list to select the audio conferencing provider.
-    
-  - If the user uses Microsoft as the audio conferencing provider, you can choose the default audio conferencing phone number from the list.  
-    
-  - If the user uses a third-party ACP as the audio conferencing provider, you will need to manually enter the Toll and if required, the Toll-free phone number.
-    
-    The default audio conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting.
-    
-5. Click **Save**. 
-    
-See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
 ## Choosing audio conferencing bridge settings
 
@@ -374,7 +355,20 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
     
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md).
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  See audio conferencing dial-in numbers
+## See audio conferencing dial-in numbers
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. Select a phone number from the list and click **Edit**. Here you can:
+    
+  - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+    
+  - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
+
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**  
 
 1. Sign in to Office 365 with your work or school account.
     
