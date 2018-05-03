@@ -2,29 +2,28 @@
 title: "Connect a Survivable Branch Appliance"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
-description: "Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology. Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA. These steps are summarized below:"
+description: "Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Skype for Business Server 2019, the SBA must be disassociated from the Front End pool while the pool is upgraded, Once the pool has been migrated to Skype for Business Server 2019, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy topology in Topology Builder and then adding the SBA to the Skype for Business Server 2019 topology. Users homed on the legacy SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Skype for Business Server 2019 topology, those users can then be moved back to the SBA. These steps are summarized below:"
 ---
 
 # Connect a Survivable Branch Appliance
 []
-Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Lync Server 2013, the SBA must be disassociated from the Lync Server 2010 Front End pool while the pool is upgraded, Once the pool has been migrated to Lync Server 2013, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy Lync Server 2010 topology in Topology Builder and then adding the SBA to the Lync Server 2013 topology. Users homed on the legacy Lync Server 2010 SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Lync Server 2013 topology, those users can then be moved back to the SBA. These steps are summarized below:
+Every Survivable Branch Appliance (SBA) is associated with a Front End pool which serves as a backup registrar for the SBA. When the Front End pool is migrated to Skype for Business Server 2019, the SBA must be disassociated from the Front End pool while the pool is upgraded, Once the pool has been migrated to Skype for Business Server 2019, the SBA can be re-associated with the upgraded Front End pool. This involves deleting the SBA from the legacy topology in Topology Builder and then adding the SBA to the Skype for Business Server 2019 topology. Users homed on the legacy SBA must first be moved to another Front End pool before removing the SBA from the topology. Once the SBA is added to the Skype for Business Server 2019 topology, those users can then be moved back to the SBA. These steps are summarized below:
   
-1. Move branch users homed on the legacy SBA Lync Server 2010 to another Front End pool.
+1. Move branch users homed on the legacy SBA to another Front End pool.
     
-2. Remove SBA from the legacy Lync Server 2010 topology to disconnect the existing Front End pool as a backup registrar.
+2. Remove SBA from the legacy topology to disconnect the existing Front End pool as a backup registrar.
     
-3. Add SBA to the Lync Server 2013 topology and configure this new Front End pool as the backup registrar. 
+3. Add SBA to the Skype for Business Server 2019 topology and configure this new Front End pool as the backup registrar. 
     
-4. Move the branch users to the new Lync Server 2013 SBA.
+4. Move the branch users to the new Skype for Business Server 2019 SBA.
     
-### Add Lync Server 2010 SBA Branch Site to Your Topology
+### Add legacy SBA Branch Site to Your Topology
 
 1. Open **Topology Builder**.
     
@@ -46,21 +45,21 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
     
 7. Click **Next**, and then do one of the following:
     
-1. If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+1. If you are using a Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
     
-8. To associate the legacy Lync Server 2010 SBA to the Lync Server 2013 Front End pool:
+8. To associate the legacy SBA to the Skype for Business Server 2019 Front End pool:
     
 1. Expand the branch site that has been created. 
     
-2. Right click on **Lync Server 2010** and then click **New**.
+2. Right click on legacy version and then click **New**.
     
 3. Click **Survivable Branch Appliance…**
     
 9. Follow the directions in the wizard that opens. For information about wizard items, see 
-<!-- [Define a Survivable Branch Appliance or Server in Lync Server 2013](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md). -->
+<!-- [Define a Survivable Branch Appliance or Server in Skype for Business Server 2019](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md). -->
     
     > [!NOTE]
-    > A Lync Server 2010 Survivable Branch Appliance can only be associated with a Lync Server 2010 Monitoring Store. 
+    > A Survivable Branch Appliance can only be associated with a Monitoring Store. 
   
 10. If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.
     

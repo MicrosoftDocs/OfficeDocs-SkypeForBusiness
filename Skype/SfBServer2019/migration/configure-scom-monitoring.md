@@ -2,21 +2,20 @@
 title: "Configure SCOM monitoring"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: 4003d225-2a33-448c-abd9-571750661140
-description: "After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager."
+description: "After migrating to Microsoft Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager."
 ---
 
 # Configure SCOM monitoring
 []
-After migrating to Microsoft Lync Server 2013, you must complete a few tasks to configure Lync Server 2013 to work with System Center Operations Manager.
+After migrating to Microsoft Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.
   
-- Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.
+- Apply updates to a server elected to manage the central discovery logic.
     
 - Update the central discovery candidate server registry key.
     
@@ -24,11 +23,11 @@ After migrating to Microsoft Lync Server 2013, you must complete a few tasks to 
     
 Instructions for carrying out each of these tasks are provided below.
   
-### Apply Lync Server 2010 updates to a server elected to manage the central discovery logic.
+### Apply updates to a server elected to manage the central discovery logic.
 
 1. Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node. 
     
-2. Apply Lync Server 2010 updates to this server. See the topic [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).
+2. Apply updates to this server. See the topic [Apply updates](apply-updates.md).
     
 ### Update the central discovery candidate server registry key.
 

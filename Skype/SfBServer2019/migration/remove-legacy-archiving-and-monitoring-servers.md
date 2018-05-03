@@ -2,7 +2,7 @@
 title: "Remove legacy Archiving and Monitoring servers"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: get-started-article

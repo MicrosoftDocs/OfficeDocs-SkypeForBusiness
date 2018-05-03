@@ -2,27 +2,26 @@
 title: "Change simple URLs after migration"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
-description: "Lync Server supports three simple URLs:"
+description: "Skype for Business Server supports simple URLs."
 ---
 
 # Change simple URLs after migration
-[]
-Lync Server supports three simple URLs:
+
+Skype for Business Server supports three simple URLs:
   
 - **Meet** is used as the base URL for all conferences in the site or organization. With the Meet simple URL, links to join meetings are easy to comprehend, and easy to communicate and distribute. 
     
 - **Dial-in** enables access to the Dial-in Conferencing Settings webpage. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information. 
     
-- **Admin** enables quick access to the Lync Server Control Panel. The Admin simple URL is internal to your organization. 
+- **Admin** enables quick access to the Skype for Business Server Control Panel. The Admin simple URL is internal to your organization. 
     
-After migrating to Lync Server 2013, you must be aware of how the change impacts your DNS records and certificates for simple URLs. If the legacy Lync Server 2010 Director remains in use in the topology, no changes to your simple URLs are required. If the Lync Server 2010 Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Lync Server 2013 pools. Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.
+After migrating to Skype for Business Server, you must be aware of how the change impacts your DNS records and certificates for simple URLs. If the legacy Skype for Business Server Director remains in use in the topology, no changes to your simple URLs are required. If the Skype for Business Server Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Skype for Business Server pools. Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.
   
 ## Changing Simple URLs after Migration
 
@@ -38,7 +37,7 @@ After migrating to Lync Server 2013, you must be aware of how the change impacts
 
 1. In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.
     
-2. Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Lync Server 2013 Control Panel, and then click **OK**.
+2. Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.
     
     > [!TIP]
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin. _\<domain\>_. 

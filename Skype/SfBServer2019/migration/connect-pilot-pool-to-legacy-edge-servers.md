@@ -2,39 +2,38 @@
 title: "Connect pilot pool to legacy Edge Servers"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: c3b67220-5705-47f6-852e-415204f3626c
-description: "After deploying Lync Server 2013, you need to configure a federation route for your site. In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route."
+description: "After deploying Skype for Business Server 2019, you need to configure a federation route for your site. In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route."
 ---
 
 # Connect pilot pool to legacy Edge Servers
 []
-After deploying Lync Server 2013, you need to configure a federation route for your site. In order to use the federated route that is being used by Lync Server 2010, Lync Server 2013 must be configured to use this route. 
+After deploying Skype for Business Server 2019, you need to configure a federation route for your site. In order to use the federated route that is being used by the legacy installation, Skype for Business Server 2019 must be configured to use this route. 
   
-To enable the Lync Server 2013 site to use the Director and Edge Server of the Lync Server 2010 deployment, use Topology Builder to associate the legacy Edge pool.
+To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.
   
 ## To associate the legacy Edge pool by using Topology Builder
 
 1. Open **Topology Builder**. 
     
-2. Select your site, which is directly below the **Lync Server** node. 
+2. Select your site, which is directly below the **Skype for Business Server** node. 
     
 3. On the **Actions** menu, click **Edit Properties**.
     
 4. In the left pane, select **Federation route**.
     
-5. Under **Site federation route assignment**, select **Enable SIP federation**, and then select the Lync Server 2010 Director, or the Lync Server 2010 Edge Server if no Director is listed.
+5. Under **Site federation route assignment**, select **Enable SIP federation**, and then select the legacy Director, or the legacy Edge Server if no Director is listed.
     
      ![Edit Properties, Federation route page](../../media/migration_lyncserver_w15_federation_fromTB.JPG)
   
 6. Click **OK** to close the **Edit Properties** page. 
     
-7. In Topology Builder, under the Lync Server 2013 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.
+7. In Topology Builder, under the Skype for Business Server 2019 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.
     
 8. Under **Associations**, select the check box next to **Associate Edge pool (for media components)**. 
     
@@ -44,7 +43,7 @@ To enable the Lync Server 2013 site to use the Director and Edge Server of the L
   
 10. Click **OK** to close the **Edit Properties** page. 
     
-11. In **Topology Builder**, select the top-most node, **Lync Server**.
+11. In **Topology Builder**, select the top-most node, **Skype for Business Server**.
     
 12. From the **Action** menu, click **Publish Topology**, and then click **Next**.
     

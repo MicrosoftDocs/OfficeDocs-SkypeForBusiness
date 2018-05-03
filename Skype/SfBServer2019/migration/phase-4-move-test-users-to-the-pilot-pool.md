@@ -2,7 +2,7 @@
 title: "Phase 4 Move test users to the pilot pool"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: get-started-article

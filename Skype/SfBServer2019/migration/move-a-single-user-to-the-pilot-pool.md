@@ -2,7 +2,7 @@
 title: "Move a single user to the pilot pool [W14 to W15 ]"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
+manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: get-started-article

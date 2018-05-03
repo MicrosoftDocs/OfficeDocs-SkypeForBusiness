@@ -1,25 +1,24 @@
 ---
-title: "Configure XMPP gateway on Lync Server 2013"
+title: "Configure XMPP gateway"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 11/17/2014
+manager: serdars
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
-description: "The final steps for migrating your XMPP Gateway are to configure certificates for the Lync Server 2013 Edge Server, deploy the Lync Server 2013 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Lync Server 2013 deployment before performing these steps."
+description: "The final steps for migrating your XMPP Gateway are to configure certificates for the Skype for Business Server 2019 Edge Server, deploy the Skype for Business Server 2019 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Skype for Business Server 2019 deployment before performing these steps."
 ---
 
-# Configure XMPP gateway on Lync Server 2013
+# Configure XMPP gateway on Skype for Business Server 2019
 []
-The final steps for migrating your XMPP Gateway are to configure certificates for the Lync Server 2013 Edge Server, deploy the Lync Server 2013 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Lync Server 2013 deployment before performing these steps.
+The final steps for migrating your XMPP Gateway are to configure certificates for the Skype for Business Server 2019 Edge Server, deploy the Skype for Business Server 2019 XMPP Gateway, and update the DNS records for the XMPP Gateway. These steps should be performed in parallel to minimize the down time of your XMPP Gateway. All users must be moved to your Microsoft Skype for Business Server 2019 deployment before performing these steps.
   
 > [!IMPORTANT]
 > XMPP federation is not supported for users who are homed on survivable branch appliances. This applies to both seeing presence information and exchanging IM messages. 
   
-### Configure XMPP Gateway Certificates on the Lync Server 2013 Edge Server
+### Configure XMPP Gateway Certificates on the Skype for Business Server 2019 Edge Server
 
 1. On the Edge Server, in the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
@@ -65,7 +64,7 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 16. Copy the request file and submit to your public certification authority.
     
-17. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Lync Server Management console:
+17. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. You do this by typing in the Skype for Business Server Management console:
     
   ```
   Stop-CsWindowsService
@@ -75,9 +74,9 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
   Start-CsWindowsService
   ```
 
-### Configure a new Lync Server 2013 XMPP Gateway
+### Configure a new Skype for Business Server 2019 XMPP Gateway
 
-1. Open Lync Server Control Panel.
+1. Open Skype for Business Server Control Panel.
     
 2. In the left navigation bar, click **Federation and External Access** and then click **XMPP Federated Partners**.
     
@@ -93,22 +92,22 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 8. **Partner type** The **Partner type** is a required setting. You must choose one of the following to describe and enforce what contacts can be added. You can select from: 
     
-  - **Federated** A **Federated** partner type represents a high level of trust between the Lync Server deployment and the XMPP partner. This partner type is recommended for federating with XMPP servers within the same enterprise or where there is an established business relationship. XMPP contacts in Federated partners can: 
+  - **Federated** A **Federated** partner type represents a high level of trust between the Skype for Business Server deployment and the XMPP partner. This partner type is recommended for federating with XMPP servers within the same enterprise or where there is an established business relationship. XMPP contacts in Federated partners can: 
     
-1. Add Lync contacts and view their presence without express authorization from the Lync user.
+1. Add contacts and view their presence without express authorization from the user.
     
-2. Send instant messages to Lync contacts whether or not the Lync user has added them into their contact list.
+2. Send instant messages to contacts whether or not the user has added them into their contact list.
     
-3. See a Lync user's status notes.
+3. See a user's status notes.
     
-  - **Public verified** A **Public verified** partner is a public XMPP provider that is trusted to verify the identity of its users. XMPP contacts in Public Verified networks can add Lync contacts and view their presence and send instant messages to them without express authorization from the Lync users. XMPP contacts in public verified networks never see a Lync users' status notes. This setting is not recommended. 
+  - **Public verified** A **Public verified** partner is a public XMPP provider that is trusted to verify the identity of its users. XMPP contacts in Public Verified networks can add Skype for Business Server contacts and view their presence and send instant messages to them without express authorization from the Skype for Business Server users. XMPP contacts in public verified networks never see a users' status notes. This setting is not recommended. 
     
-  - **Public unverified** A **Public unverified** partner is a public XMPP provider that is not trusted to verify the identity of its users. XMPP users on Public Unverified networks cannot communicate with Lync users unless the Lync user has expressly authorized them by adding them to the contact list. XMPP users on public unverified networks never see Lync users' status notes. This setting is recommended for any federation with public XMPP providers such as Google Talk. 
+  - **Public unverified** A **Public unverified** partner is a public XMPP provider that is not trusted to verify the identity of its users. XMPP users on Public Unverified networks cannot communicate with users unless the user has expressly authorized them by adding them to the contact list. XMPP users on public unverified networks never see users' status notes. This setting is recommended for any federation with public XMPP providers such as Google Talk. 
     
 9. **Connection Type:** Defines the various rules and dialback settings. 
     
   - **TLS Negotiation** Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation -including not valid and known error configurations - see 
-  <!-- [Negotiation settings for XMPP federated partners in Lync Server 2013](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md). -->
+  <!-- [Negotiation settings for XMPP federated partners in Skype for Business Server 2019](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md). -->
     
 > **Required** The XMPP service requires TLS negotiation. 
     
@@ -134,7 +133,7 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 10. Click **Commit** to save your changes to the site or user policy. 
     
-### Update DNS Records for Lync Server 2013 XMPP Gateway
+### Update DNS Records for Skype for Business Server 2019 XMPP Gateway
 
 - To configure DNS for XMPP federation, you add the following SRV record to your external DNS:_xmpp-server._tcp.\<domain name\> The SRV record will resolve to the Access Edge FQDN of the Edge server, with a port value of 5269.
     

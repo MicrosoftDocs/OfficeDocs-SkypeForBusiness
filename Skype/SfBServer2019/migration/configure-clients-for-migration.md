@@ -2,25 +2,24 @@
 title: "Configure clients for migration"
 ms.author: kenwith
 author: kenwith
-manager: laurawi
-ms.date: 12/9/2016
+manager: serdars
+ms.date: 12/9/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
-description: "This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013. These configuration changes should be made on Lync Server 2010."
+description: "This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015."
 ---
 
 # Configure clients for migration
-[]
-This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013. These configuration changes should be made on Lync Server 2010.
+
+This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015 (the version you are migrating **from**.
   
 ### To configure clients before migration
 
 1. Deploy the most recent server, client, and device updates (hotfixes) for existing installation.
     
-2. On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.
+2. On the previous version of Skype for Business Server, use Client Version Filtering to only allow clients with the most current updates installed.
     
 ## See also
 
