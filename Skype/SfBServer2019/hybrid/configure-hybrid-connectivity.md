@@ -1,5 +1,5 @@
 ---
-title: "<Configure hybribd connectivity>"
+title: "Configure hybribd connectivity"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
