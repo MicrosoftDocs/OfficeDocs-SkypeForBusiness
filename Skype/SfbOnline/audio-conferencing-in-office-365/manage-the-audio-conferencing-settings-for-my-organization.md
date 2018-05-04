@@ -68,29 +68,7 @@ See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId
 >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 See [See, change, and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
-  
-## Change the audio conferencing provider from Microsoft to a third-party provider
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
-1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
-    
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then and select the user you want to change the audio conferencing provider for.
-    
-4. In the Action pane, click **Edit**. 
-    
-5. On the **Properties** page, under **Provider name**, choose the audio conferencing provider for the user.
-    
-    > [!NOTE]
-    > You can only select Microsoft as the audio conferencing provider or **None** if you have selected multiple users.
-  
-6. Click **Save**. 
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## Enable or disable emails sent to audio conferencing users
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**

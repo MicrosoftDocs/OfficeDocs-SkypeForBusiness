@@ -83,7 +83,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -94,5 +94,5 @@ Desktop logs, also known as bootstrapper logs, contains log data that occurs bet
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
