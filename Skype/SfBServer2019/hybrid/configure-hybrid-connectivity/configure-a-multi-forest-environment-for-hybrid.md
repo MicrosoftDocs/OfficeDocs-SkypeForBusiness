@@ -3,18 +3,13 @@ title: "Configure a multi-forest environment for hybrid Skype for Business"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/17/2017
+ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection:
-- Ent_O365_Hybrid
-- IT_Skype16
-- IT_Skype4B_Hybrid
-- Strat_SB_Hybrid
 ms.custom: 
-ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: "The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario."
 ---
 
@@ -22,7 +17,7 @@ description: "The following sections provide guidance on how to configure an env
  
 The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario. 
   
-![Multi-Forest Environment for Hybrid](../../media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Multi-Forest Environment for Hybrid](../../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## Validate the Forest Topology
 
@@ -91,7 +86,7 @@ This will be a standard deployment of the Windows Server 2012 R2 AD FS and shoul
   
 Once deployed, you then have to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click Microsoft Office 365 Identity Platform and then click Edit Claim Rules. Edit the first rule and change ObjectSID to employeeNumber. 
   
-![Multi-forest Edit Rules Screen](../../media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Multi-forest Edit Rules Screen](../../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## Configure AAD Connect
 
@@ -101,7 +96,7 @@ AAD Connect does not synchronize the accounts between on-premises forests. It us
   
 When finished and AAD Connect is merging, if you look at an object in the metaverse, you should see something similar to this: 
   
-![Multi-forest Metaverse Object Screen](../../media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Multi-forest Metaverse Object Screen](../../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 The green highlighted attributes were merged from Office 365, the yellow are from the user forest and the blue are from the resource forest. 
   

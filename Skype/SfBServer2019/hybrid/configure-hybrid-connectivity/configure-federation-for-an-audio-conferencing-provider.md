@@ -3,18 +3,13 @@ title: "Configure federation for an audio conferencing provider in your hybrid d
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/8/2017
+ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection:
-- Ent_O365_Hybrid
-- IT_Skype16
-- IT_Skype4B_Hybrid
-- Strat_SB_Hybrid
 ms.custom: 
-ms.assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 description: "Summary: Learn how to configure federation for an audio conferencing provider in Skype for Business Online."
 ---
 

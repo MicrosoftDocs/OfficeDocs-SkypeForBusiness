@@ -3,18 +3,13 @@ title: "Move users from Skype for Business Online to on premises"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/19/2017
+ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection:
-- Ent_O365_Hybrid
-- IT_Skype16
-- IT_Skype4B_Hybrid
-- Strat_SB_Hybrid
 ms.custom: 
-ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: "Summary: Learn how to move user accounts from online to on premises in Skype for Business Server."
 ---
 

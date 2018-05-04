@@ -3,19 +3,13 @@ title: "Move users from on premises to Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/12/2018
+ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection:
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
-- IT_Skype16
-- IT_Skype4B_Hybrid
-- Strat_SB_Hybrid
 ms.custom: 
-ms.assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 description: "Summary: Learn how to migrate user settings and move users to Skype for Business Online."
 ---
 

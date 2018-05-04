@@ -1,26 +1,21 @@
 ---
-title: "Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online"
+title: "Configure hybrid connectivity between Skype for Business Server and Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/8/2017
+ms.date: 5/04/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection:
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
-- IT_Skype16
-- IT_Skype4B_Hybrid
-- Strat_SB_Hybrid
 ms.custom: 
-ms.assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 
-description: "Summary: Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online."
+
+description: "Summary: Read this topic to learn how to configure hybrid connectivity between Skype for Business Server and Skype for Business Online."
 ---
 
-# Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online
+# Configure hybrid connectivity between Skype for Business Server and Skype for Business Online
  
 **Summary:** Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online.
   
