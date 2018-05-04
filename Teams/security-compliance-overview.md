@@ -123,7 +123,7 @@ In the Security & compliance center, when you set up a retention policy, for Tea
 
 ### Can we include Teams in org-wide policies? 
 
-No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: New-TeamsRetentionCompliancePolicy & New-TeamsComplianceRetentionRule. These cmdlets have get and set versions as well.
+No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). These cmdlets have get and set versions as well.
 
 ### Are these retention policies retroactive? 
 
@@ -152,7 +152,7 @@ Here are the cmdlets we created for Teams. They follow existing nomenclature and
 
 |Policy|Rule|
 |---|---|
-|New-TeamsRetentionCompliancePolicy| New-TeamsRetentionComplianceRule|
+|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
 |Get-TeamsRetentionCompliancePolicy| Get-TeamsRetentionComplianceRule|
 |Get- TeamsRetentionCompliancePolicy| Set- TeamsRetentionComplianceRule|
 |Remove- TeamsRetentionCompliancePolicy| Remove- TeamsRetentionComplianceRule|
