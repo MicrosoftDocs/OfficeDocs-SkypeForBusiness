@@ -4,8 +4,7 @@
 ## Hybrid
 ### [Hybrid solutions](../hybrid/hybrid-solutions.md)
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
-### Configure hybrid connectivity
-#### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity/configure-hybrid-connectivity.md)
+### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity/configure-hybrid-connectivity.md)
 #### [Configure federation with Skype for Business Online](../hybrid/configure-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
 #### [Configure federation for an audio conferencing provider](../hybrid/configure-hybrid-connectivity/configure-federation-for-an-audio-conferencing-provider.md) 
 #### [Move users from on premises to Skype for Business Online](../hybrid/configure-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md)
