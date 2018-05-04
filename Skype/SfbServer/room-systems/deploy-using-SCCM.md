@@ -1,5 +1,19 @@
-Deploy Skype Room Systems v2 mass deployment guide
-==================================================
+---
+title: "Skype Room Systems v2 mass deployment guide
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 5/4/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: "Needs a good description."
+---
+
+# Deploy Skype Room Systems v2 mass deployment guide
+
+**CONTENT IS FOR PROOF OF CONCEPT ONLY--NOT EDITED NOR CLEANED UP, FORMAT-WISE**
 
 This article provides all the required information to assist you create your
 Skype Room Systems v2 deployments using System Center Configuration Manager.
