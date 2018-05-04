@@ -73,8 +73,7 @@
 ### [What are emergency locations, addresses and call routing?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [What are dial plans?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Phone System in Office 365
-### [What is Phone System in Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Phone System in Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Create a Phone System call queue](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -87,6 +86,7 @@
 ### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [What are Phone System auto attendants?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Blocked user licenses for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
