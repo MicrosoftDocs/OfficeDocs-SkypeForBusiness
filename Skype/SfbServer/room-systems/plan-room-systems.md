@@ -18,13 +18,13 @@ This article introduces an end-to-end approach to planning, delivering, and oper
 
 You’ll find planning information below covering the recommended approach and key decisions that you need to make, with links to supporting technical information. We recommend that you review the Plan, Deploy, and Manage sections even if you’re already fully deployed.
 
-## Overview of Skype Room Systems
+## Overview of Skype Room Systems v2
 
 Skype Room Systems v2 provides a complete Skype for Business meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
 
 ![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.](../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.")
 
-[Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Skype Room Systems v2 and how it can add value as part of your Skype for Business deployment. in addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
+[Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Skype Room Systems v2 and how it can add value as part of your Skype for Business deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
 
 ## Skype Room Systems v2 components 
