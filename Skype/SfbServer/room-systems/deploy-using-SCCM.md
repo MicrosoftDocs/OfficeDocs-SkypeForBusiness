@@ -1,5 +1,5 @@
 ---
-title: "Skype Room Systems v2 mass deployment guide
+title: "Skype Room Systems v2 mass deployment guide"
 ms.author: jambirk
 author: jambirk
 manager: serdars
