@@ -14,6 +14,9 @@ description: "Read this topic to learn how Microsoft Phone System Direct Routing
 
 # Plan Direct Routing
 
+  > [!NOTE]
+  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
+
 Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System.  With this capability, for example, you can configure on-premises PSTN connectivity with Microsoft Teams client, as shown in the following diagram: 
 
 ![Shows configuration of on-premises PSTN connectivity with Microsoft Teams client](../../media/PlanDirectRouting1-PSTNwithTeams.png)
