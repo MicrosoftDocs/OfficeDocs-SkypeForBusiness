@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
