@@ -12,126 +12,109 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "This article explains the relevant planning considerations for deploying Skype Room Systems v2, the next generation of Skype Room Systems."
 ---
 
-# Plan for Skype Room Systems v2
- 
-This article explains the relevant planning considerations for deploying Skype Room Systems v2, the next generation of Skype Room Systems. 
-  
- Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
-  
-Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.
-  
-Before you [Prepare your Skype for Business Environment](srs-v2-prep.md), be sure you have the necessary hardware and software. also review [Skype Room Systems v2 requirements](requirements.md). 
+# Plan Skype Room Systems v2 
 
-  
-> [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
-  
+This article introduces an end-to-end approach to planning, delivering, and operating Skype Room Systems version 2 (v2) as part of your overall meeting and conference room strategy.
+
+You’ll find planning information below covering the recommended approach and key decisions that you need to make, with links to supporting technical information. We recommend that you review the Plan, Deploy, and Manage sections even if you’re already fully deployed.
+
+## Overview of Skype Room Systems v2
+
+Skype Room Systems v2 provides a complete Skype for Business meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
+
+![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.](../../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Skype Room Systems v2 setup.")
+
+[Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Skype Room Systems v2 and how it can add value as part of your Skype for Business deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
 
-  Skype Room Systems v2 offers: 
+## Skype Room Systems v2 components 
 
- **Built for Skype for Business**
-  
-- One-touch join of Skype Meetings
-    
-- Skype Meeting experience optimized for rooms with screen-filling HD video and HD wideband audio
-    
-- All participants can connect to the Skype Meeting using their device of choice from wherever they may be located
-    
-- Invite people from your directory where you can instantly see their availability or via a phone call
-    
-- Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
-    
- **Transform Any Meeting Room**
-  
-- Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
-    
-- Re-use existing investments in your front of room display or projectors
-    
-- Works in all types of meeting spaces from huddle spaces to large conference rooms
-    
-- Certified Skype for Business audio and video devices are available for various room sizes
-    
-- Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
-    
-- In-app user selection of meeting room audio and video USB devices &#x2776;
-    
-- Dual-Screen support (for legacy system parity) &#x2777;
-    
-- Themability (built-in themes and the ability to set custom theme) &#x2777;
-    
- **Easy to Deploy, Simple to Manage**
-  
-- Always-on appliance that will automatically wake up the displays when it detects people in the room
-    
-- Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App
-    
-- Windows AppLocker locks down the device to the Skype Meeting app
-    
-- Monitored and managed as a Windows 10 Enterprise device via Intune and SCCM (MDM)
-    
-- Enterprise-grade reliability
-    
-- Low training effort of end-users due to familiar Skype user interface
-    
-- Runs on Surface Pro 4 tablet
-    
-- Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan Skype Room Systems v2 management with OMS](oms-management.md)) &#x2776;
-    
-- Ability to Give Feedback for public builds &#x2777;
-    
-- Improved Telemetry around meeting join reliability &#x2777;
-    
-- Additional OMS reporting &#x2777;
-    
-- Ability for IT Admin to configure devices remotely &#x2777;
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- Runs on Surface Pro tablet &#x2778;
-    
-- Supports Windows 10 Enterprise Creator's Update (English language, build 1703) &#x2778;
-    
-- Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware &#x2778;
-    
-- OEM Support for Environment Controls (Crestron) &#x2778;
-    
-- Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware &#x2779;
-    
-- Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio) &#x2779;
+Skype Room Systems v2 includes the following key components to deliver a great user experience:
 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware &#x277A;  
-    
-&#x2776; - Feature introduced in Update 1 (SW Ver. 2.0.2.0).
-  
-&#x2777; - Feature introduced in Update 2 (SW Ver. 3.0.6.0). 
-  
-&#x2778; - Feature introduced in Update 3 (SW Ver. 3.0.12.0). 
+-   Touchscreen control panel
+-   Compute
+-   Skype Room Systems v2 application
+-   Dock/extender
+-   Peripheral devices (camera, microphone, speaker)
+-   External screens (maximum of two)
+-   HDMI input
 
-&#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
+You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](../../plan-your-deployment/clients-and-devices/requirements). 
 
-&#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
-  
-&#x2779; - Feature introduced in Update 4 (SW Ver. 3.0.15.0). 
+In addition to the Surface Pro/dock combination, you can also purchase Skype Room Systems v2 with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
 
-&#x277A; - Feature introduced in Update 5 (SW Ver. 3.1.98.0). 
-  
+Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see LINK TO Device software installation. 
 
-  
-## See also
+You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. 
 
-#### 
-[Prepare your Skype for Business Environment](srs-v2-prep.md)
+<table>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ol></td></tr>
+</table>
 
-[Release notes](srs2-release-note.md)
+## Room inventory and capability planning
 
-[Support for current branch versions](srs2-lifecycle-support.md)
+Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided throughout this article as needed for your organization.
 
-[Known issues for Skype Room Systems v2](../../manage/skype-room-systems-v2/known-issues.md)
+![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
 
-[Skype Room Systems v2 requirements](requirements.md)
-***  
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
-[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
-  
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+The first step is to inventory your organization’s existing meeting and conference rooms to understand their environment, room size, layout, and purpose, and to identify the capabilities you want each room in scope to have in the future such as which richer collaboration capabilities will be enabled in the room. 
 
+After you create an inventory of the equipment and capabilities in each existing room, your requirements for that room feed into your device selection planning to create a rich conferencing solution. The modalities (audio, video) needed for each room—in addition to room size and purpose—all play an important role in deciding which solution is most appropriate for each room. 
+
+As part of your discovery, it’s key to consider room acoustics and layout. For example, check that the chairs in the room won’t block the camera view. Verify that the room doesn’t have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Skype Room Systems v2. There are many factors to consider that your audio-visual (AV) team or partner will be able to advise on. 
+
+<table>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the rooms in scope, and define Skype Room Systems v2 configurations for them.</li></ol></td></tr>
+</table>
+
+_Sample meeting/conference room inventory_
+
+| **Site**  | **Room name** | **Room type** | **Number of people**  | **In scope?** | **Current room capabilities**       | **Future room capabilities**                             |
+|-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
+| London HQ | Curie         | Medium        | 6&ndash;12                  | Yes          | Speakerphone                        | 1 screen, audio and video plus presentation<br>PSTN Access |
+| Sydney HQ | Hill          | Large         | 12&ndash;16                 | Yes          | Legacy AV unit, 1 screen and camera | 2 screens, audio and video plus presentation<br>PSTN Access |
+
+**Pro Tip** – If you have many sites to inventory, you might want to download
+and use the [Site Rollout and Migration Planning - Site
+Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15).
+
+## Device selection 
+
+Evaluate which Skype Room Systems v2 solution is the most suitable for each room based on the future capabilities you want for the room. Decide which AV peripheral devices are the best fit, depending on room size and layout. 
+
+For guidance for the type of system and peripheral devices by room type and size, see the [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements) article. 
+
+Based on the vendor you prefer, use the information provided in the requirements article to define your Skype Room Systems v2 and supported peripheral device configuration per room type, and use this as a template for your deployment. 
+
+**Pro Tip** – Some room types might not be applicable for your deployment.
+
+<table>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ol></td></tr>
+</table>
+
+_Sample Skype Room Systems v2 deployment template for your organization_
+
+| **Room type/size** | **Number of people**  | **Skype Room Systems v2 system** | **Peripheral devices**  | **Display(s)** |
+|----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
+| Focus 10' by 9'      | 2&ndash;4                   |                                  |                         |                 |
+| Small 16' by 16'     | 4&ndash;6                   |                                  |                         |                 |
+| Medium 18' by 20'    | 6&ndash;12                  |                                  |                         |                 |
+| Large 15' by 20'     | 12&ndash;16                 |                                  |                         |                 |
+
+**Pro Tip –** Now is a great time to start gathering information about the Skype Room Systems v2 solution you’ve chosen. We recommend that you work with your vendor to discuss completing the design template to capture information that will be relevant to your deployment; you can [download this handy template](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) from MyAdvisor. 
+
+## Procurement 
+
+You can procure your chosen system as a bundle, separate components, or an integrated solution via device partners. Or, you can acquire a partner device dock and prepare your own Skype Room Systems v2 solution by using Surface Pro and existing, supported AV peripheral devices. 
+
+You can acquire devices from a number of partners who are listed in the [requirements article](../../plan-your-deployment/clients-and-devices/requirements). Please visit the device partners’ websites to learn more about these solutions and procurement options. 
+
+Depending on your deployment scale and approach, you might decide to have the Skype Room Systems v2 and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
+
+<table>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm that your sites are ready.</li></ol></td></tr>
+</table>
