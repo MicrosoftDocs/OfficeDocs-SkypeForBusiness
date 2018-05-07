@@ -1,9 +1,9 @@
 ---
-title: "Deploy Skype Room Systems v2"
+title: "Configure accounts for Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +15,7 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: "Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015."
 ---
 
-# Deploy Skype Room Systems v2
+# Configure accounts for Skype Room Systems v2
  
 Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015.
   
