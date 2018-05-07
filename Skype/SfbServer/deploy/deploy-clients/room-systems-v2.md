@@ -53,7 +53,7 @@ If you already have a resource mailbox account set up for the meeting space wher
   
 With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Skype Room Systems v2 management with OMS](with-oms.md), and [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md). 
   
-## Basic Configuration
+## Basic configuration
 
 These properties represent the minimum configuration for a user account to work with Skype Room Systems v2. Your user account may require further setup.
   
@@ -63,7 +63,7 @@ These properties represent the minimum configuration for a user account to work 
 |Skype for Business is enabled  <br/> |Skype for Business must be enabled in order to use various conferencing features, like video calls, IM, and screen-sharing. Both Skype for Business Online and Skype for Business Server are supported.  <br/> |
 |Password-enabled  <br/> |The user account must be enabled with a password, or it cannot authenticate with either Exchange or Skype for Business Server.  <br/> |
    
-## Advanced Configuration
+## Advanced configuration
 
 While the properties for the basic configuration will allow the user account to be set up in a simple environment, it is possible your environment has other restrictions on directory accounts that must be met in order for Skype Room Systems v2 to successfully use the user account.
   
