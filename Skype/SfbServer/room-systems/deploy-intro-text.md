@@ -19,17 +19,17 @@ description: "Read this topic to learn about Skype Room Systems v2 and how it in
  
 Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015.
   
-This topic introduces how to create accounts used by Skype Room Systems v2 in Microsoft Exchange and Skype for Business Server 2015. Deployment instructions for Skype Room Systems v2 devices is covered in [Configure a Skype Room Systems v2 console](console.md). Your infrastructure will likely fall into one of the following configurations:
+This topic introduces how to create accounts used by Skype Room Systems v2 in Microsoft Exchange and Skype for Business Server 2015. Deployment instructions for Skype Room Systems v2 devices is covered in [Configure a Skype Room Systems v2 console](../deploy/deploy-clients/console.md). Your infrastructure will likely fall into one of the following configurations:
   
-- Online deployment: Your organization's environment is deployed entirely on Office 365. For more information, see [Deploy Skype Room Systems v2 with Office 365](with-office-365.md).
+- Online deployment: Your organization's environment is deployed entirely on Office 365. For more information, see [Deploy Skype Room Systems v2 with Office 365](../deploy/deploy-clients/with-office-365.md).
     
-- On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server 2015 are hosted. For more information, see [Deploy Skype Room Systems v2 with Skype for Business Server 2015](with-skype-for-business-server-2015.md)
+- On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server 2015 are hosted. For more information, see [Deploy Skype Room Systems v2 with Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
     
 - Hybrid deployment: Your organization has a mix of services, with some hosted on premises and some hosted online through Office 365. With Skype Room Systems v2, the following hybrid scenarios are supported: 
     
-  - Exchange Online with Skype for Business Server 2015 on premises. For more information, see [Deploy Skype Room Systems v2 with Exchange Online (Hybrid)](with-exchange-online.md).
+  - Exchange Online with Skype for Business Server 2015 on premises. For more information, see [Deploy Skype Room Systems v2 with Exchange Online (Hybrid)](../deploy/deploy-clients/with-exchange-online.md).
     
-  - Exchange on premises with Skype for Business Online. For more information, see [Deploy Skype Room Systems v2 with Exchange on premises (Hybrid)](with-exchange-on-premises.md).
+  - Exchange on premises with Skype for Business Online. For more information, see [Deploy Skype Room Systems v2 with Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md).
     
 Which configuration you have will affect how you prepare for device setup.
   
@@ -51,7 +51,7 @@ You can think of a user account as the resource account that people recognize as
   
 If you already have a resource mailbox account set up for the meeting space where you're installing Skype Room Systems v2, you can change that resource account into a user account. Once that's done, all you need to do is add the user account to a Skype Room Systems v2 device. See user account setup examples provided below.
   
-With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Skype Room Systems v2 management with OMS](with-oms.md), and [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md). 
+With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Skype Room Systems v2 management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Skype Room Systems v2 management with OMS](../deploy/deploy-clients/with-oms.md), and [Manage Skype Room Systems v2 devices with OMS](../manage/skype-room-systems-v2/oms.md). 
   
 ## Basic configuration
 
@@ -79,9 +79,9 @@ If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some ste
 
 #### 
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Configure a Skype Room Systems v2 console](console.md)
+[Configure a Skype Room Systems v2 console](../deploy/deploy-clients/console.md)
   
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
