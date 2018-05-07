@@ -39,11 +39,11 @@ Skype Room Systems v2 includes the following key components to deliver a great u
 -   External screens (maximum of two)
 -   HDMI input
 
-You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements). 
+You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md). 
 
 In addition to the Surface Pro/dock combination, you can also purchase Skype Room Systems v2 with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
 
-Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see LINK TO Device software installation. 
+Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](../../deploy/deploy-clients/room-systems-scale.md). 
 
 You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. 
 
@@ -84,7 +84,7 @@ Questionnaire](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?Se
 
 Evaluate which Skype Room Systems v2 solution is the most suitable for each room based on the future capabilities you want for the room. Decide which AV peripheral devices are the best fit, depending on room size and layout. 
 
-For guidance for the type of system and peripheral devices by room type and size, see the [Skype Room Systems v2 requirements](requirements) article. 
+For guidance for the type of system and peripheral devices by room type and size, see the [Skype Room Systems v2 requirements](requirements.md) article. 
 
 Based on the vendor you prefer, use the information provided in the requirements article to define your Skype Room Systems v2 and supported peripheral device configuration per room type, and use this as a template for your deployment. 
 
@@ -110,7 +110,7 @@ _Sample Skype Room Systems v2 deployment template for your organization_
 
 You can procure your chosen system as a bundle, separate components, or an integrated solution via device partners. Or, you can acquire a partner device dock and prepare your own Skype Room Systems v2 solution by using Surface Pro and existing, supported AV peripheral devices. 
 
-You can acquire devices from a number of partners who are listed in the [requirements article](requirements). Please visit the device partners’ websites to learn more about these solutions and procurement options. 
+You can acquire devices from a number of partners who are listed in the [requirements article](requirements.md). Please visit the device partners’ websites to learn more about these solutions and procurement options. 
 
 Depending on your deployment scale and approach, you might decide to have the Skype Room Systems v2 and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
 
