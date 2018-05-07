@@ -19,7 +19,7 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. "
+description: "See steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
 ---
 
 # Manage the Audio Conferencing settings for my organization
@@ -208,7 +208,17 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
   
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
   
-## Setting the default audio conferencing phone number for meeting organizers
+## Setting the phone numbers included on invites
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. Next to **Audio Conferencing**, click **Edit**.
+ 
+3. In the **Audio Conferencing** pane, you can set the **Toll number** and, if allowed, the **Toll-free number**.
+
+4. Click **Save**.
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**  
   
@@ -218,17 +228,9 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
     
-4. In the Action pane, in the user's properties, click **Edit**.
-    
-5. On the **Properties** page, under **Provider name**, use the drop-down list to select the audio conferencing provider.
-    
-  - If you select Microsoft as the audio conferencing provider, you can choose the default audio conferencing phone number from the list.  
-    
-  - If you select a third-party ACP as the audio conferencing provider, you will need to manually enter the Toll and if required, the Toll-free phone number. These phone numbers will be the default phone number.
-    
-    The default audio conferencing phone number of a user is the number that is shown on the meeting invite when they schedule a meeting.
-    
-6. Click **Save**. 
+4. In the Action pane, you can set the **Toll number** and, if allowed, the **Toll-free number**.
+
+5. Click **Save**.
     
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
   
