@@ -176,10 +176,9 @@ If you want to manage updates manually, and are unable to follow the normal proc
     
 2. Run the following script targeting the Skype Room Systems v2 devices, changing \<share\> to the device share as appropriate:
     
-  ```
-  Add-AppxPackage -Update -ForceApplicationShutdown -Path \\<share>\Rigel\x64\Ship\AppPackages\*\*.appx -DependencyPath (Get-ChildItem \\<share>\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx | Foreach-Object {$_.FullName}) 
-
-  ```
+```
+Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+```
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
