@@ -12,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: "Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015."
+description: "Read this article to learn about deploying Skype Room Systems v2."
 ---
 
 # Deployment overview
 
-This will become the introductory article for the Deploy section.
+This article is the introductory article for the Deploy section. NEEDS TEXT HERE.
 
 ## Site readiness 
 
