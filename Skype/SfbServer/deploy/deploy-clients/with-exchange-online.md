@@ -7,8 +7,10 @@ ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: "Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online."
 ---

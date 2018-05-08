@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
-localization_priority: Normal
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 description: Learn how to use activity reports to see how users in your organization are using Microsoft Teams.
 appliesto: 

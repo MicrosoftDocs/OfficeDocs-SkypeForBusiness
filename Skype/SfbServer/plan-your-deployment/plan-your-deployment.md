@@ -7,9 +7,11 @@ ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 
 description: "Summary: Explore these links to learn how to develop conceptual, logical, and physical designs for configuring Skype for Business Server 2015 features, servers, and topologies."
