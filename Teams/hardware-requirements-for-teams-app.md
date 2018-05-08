@@ -25,11 +25,11 @@ appliesto:
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   PC: 1024 x 768 1024 by 768 screen resolution |
 |Graphics Hardware |  Minimum of 128 megabytes (MB) graphics memory
-|Operating system  |    Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1.  For the best experience, use the latest version of any operating system.|
+|Operating system  |    Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 in 32 and 64-bit.  For the best experience, use the latest version of any operating system.|
 |Browser    |   The current version of Internet Explorer, Microsoft Edge, Safari, Chrome, or Firefox. Get more details.   |
 |.NET version    |  Requires .NET 4.5 CLR.       |
 |Data and voice    |    Minimum 1.6 gigahertz (GHz) or faster processor. We recommend 2.0 gigahertz (32 bit or 64 bit).     |
-|Video     |   Please review [Skype for Business client video requirements](https://go.microsoft.com/fwlink/p/?LinkID=620427)for exact client requirements.    |
+|Video     |   Please review [Skype for Business client video requirements](https://go.microsoft.com/fwlink/p/?LinkID=620427)  for exact client requirements.    |
 |Video source    |  USB 2.0 video camera       |
 |Meetings    |    Minimum 1.6 gigahertz (GHz) or faster processor. We recommend 2.0 gigahertz (32 bit or 64 bit).     |
 |Devices    |   Standard laptop camera, microphone, and speakers. We recommend that you use [certified devices](https://go.microsoft.com/fwlink/p/?LinkID=620428) for the best experiences.      |
@@ -45,3 +45,7 @@ appliesto:
 |Browser    |   Safari 5 or later      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
+
+### Related topics
+[Get Teams apps](get-clients.md)
+[Deployment Procedure (Recommended)](msi-deployment.md)
