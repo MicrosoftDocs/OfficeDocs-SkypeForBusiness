@@ -1,5 +1,5 @@
 ---
-title: "Support for current branch versions"
+title: "Version Support"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,20 +11,20 @@ localization_priority: Normal
 description: "This article discusses lifecycle support for Skype Room Systems v2."
 ---
 
-# Support for current branch versions
+# Version support
  
-Microsoft plans to release current branch updates for Skype Room Systems v2 a few times per year with each update version supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest current branch version.
+Microsoft plans to release updates for Skype Room Systems v2 a few times per year with each update supported for twelve (12) months from its general availability (GA) release date. Technical support will be provided for the entire twelve (12) months. However, our support structure is now dynamic, evolving into two distinct servicing phases that depend on the availability of the latest  version.
 
-Servicing and Critical Updates servicing phase When running the latest current branch version of Skype Room Systems v2, you will receive regular updates, that contain Security and Servicing updates.
+Servicing and Critical Updates servicing phase When running the latest  version of Skype Room Systems v2, you will receive regular updates, that contain Security and Servicing updates.
 
 
-Security Updates (Only) servicing phase After a new current branch version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
+Security Updates (Only) servicing phase After a new  version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
 
 
 > [NOTE]
-> The latest current branch version is always in the Servicing and Critical Updates servicing phase. This means that in the event that you encounter a code defect that warrants a critical update, you must have the latest current branch version installed in order to receive a fix. All other supported current branch versions will only be eligible to receive security updates.
+> The latest version is always in the Servicing and Critical Updates servicing phase. This means that in the event that you encounter a code defect that warrants a critical update, you must have the latest version installed in order to receive a fix. All other supported  versions will only be eligible to receive security updates.
 
-All support ends after the twelve (12) month lifecycle for a current branch version has expired or if more than two updates have been released since then. At that time, customers must update to a supported current branch version.
+All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. At that time, customers must update to a supported  version.
 
 All releases are listed in the [Skype Room Systems v2 release notes](srs2-release-note.md#Versions). 
  
