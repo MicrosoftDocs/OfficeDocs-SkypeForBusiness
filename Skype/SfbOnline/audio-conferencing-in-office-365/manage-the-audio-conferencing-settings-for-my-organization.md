@@ -47,28 +47,6 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 > [!NOTE]
 > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window. 
   
-## Assign a conference ID for a user
-
-A conference ID is automatically assigned to a user when they are set up for audio conferencing using Microsoft as the audio conferencing provider. The conference ID is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
-  
-The Skype for Business admin center can't be used to assign a conference ID to a user, but you can use the Windows PowerShell cmdlet to do this.
-  
-To set the conference ID for a user, run:
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> A conference ID must contain 7 digits, and you can't change it in the Skype for Business admin center or by using Windows PowerShell. 
-  
-See [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) to learn more about the cmdlet.
-  
-> [!IMPORTANT]
->  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
-  
-See [See, change, and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
-    
 ## Enable or disable emails sent to audio conferencing users
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
@@ -405,7 +383,7 @@ There are several settings that you can manage at the organization level using W
 To get more help on each cmdlet, see [Skype for Business Online cmdlets](https://go.microsoft.com/fwlink/?LinkId=627324).
 
 Here are the organization-level settings: 
-> 
+ 
 - **Setting entry/exit notifications** The default is _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 

@@ -57,7 +57,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - When a meeting starts, all of the users in the lobby will automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using his PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
     
-- The default setting to not allow a meeting to be started by anonymous callers.
+- The default setting is to not allow a meeting to be started by anonymous callers.
     
 - When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     
