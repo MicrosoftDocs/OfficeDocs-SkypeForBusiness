@@ -16,9 +16,9 @@
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
-### [Adoption and change management](adoption-and-change-management.md)
 ## Manage
 ### [Management overview](manage-intro-text.md)
+### [Adoption and change management](adoption-and-change-management.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 <!-- add back, maybe? Looks like the stub James created has disappeared but maybe we need it
 ### [Troubleshooting](../manage/skype-room-systems-v2/troubleshooting.md)
