@@ -1,5 +1,5 @@
 ---
-title: "Inboound Call blocking Using Powershell for Skype for Business Onlin"
+title: "Inbound Call blocking Using Powershell for Skype for Business Onlin"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,7 +24,7 @@ description: "Use PowerShell to manage inbound call blocking in Skype for Busine
 
 Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant global list of number patterns to be defined, so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected. 
 
-The feature only works on inbound calls originating from the PSTN and only works on a tenant global basis and is not available on a per user basis.
+This inbound call blocking feature only works on inbound calls originating from the PSTN and only works on a tenant global basis and is not available on a per user basis.
 
 This feature is not yet available for Direct Routing.
 
@@ -32,7 +32,7 @@ This feature is not yet available for Direct Routing.
  Blocked callers may experience slightly different behaviors when they have been blocked. The behavior will be based on how the blocked caller’s carrier handles the notification that the call is not allowed to be successfully completed. Examples may include a carrier message stating the call cannot be completed as dialed, or simply dropping the call.
 
 ## Call Blocking Admin Controls and Information
-Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. It does not matter what order the expressions are listed – the first pattern matched in the list will result in the call being blocked. When a new number or pattern is added/removed in the blocked callers list it may take up to 24 hours to for the pattern to become active.
+Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. It does not matter what order the expressions are listed – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
 
 ## Call Blocking PowerShell Commands
 
@@ -69,7 +69,6 @@ We recommend that you provide a meaningful name to easily understand why the pat
 Patterns are matched using Regular Expressions (regex). 
 Allow for replication time before testing and validating.
 
-
 #### Allowing a Number
 
 In this example, the identity parameter if (is?) required:
@@ -87,7 +86,6 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 #### A Note on Regex
 As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex). There are multiple tools available online to help validate a regex pattern match. If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant. 
-
 
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
