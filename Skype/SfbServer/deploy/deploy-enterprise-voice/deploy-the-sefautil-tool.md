@@ -23,7 +23,7 @@ Deploying the SEFAUtil tool in Skype for Business Server.
 To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool. 
   
 > [!IMPORTANT]
-> Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK must be installed on any computer where you plan to run the SEFAUtil tool. 
+> Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK must be installed on any computer where you plan to run the SEFAUtil tool. Download it here: [Microsoft Unified Communications Managed API 3.0 Software Development Kit](https://www.microsoft.com/en-us/download/details.aspx?id=10566).
   
 You can run the SEFAUtil tool in any Front End pool in your deployment.
   
