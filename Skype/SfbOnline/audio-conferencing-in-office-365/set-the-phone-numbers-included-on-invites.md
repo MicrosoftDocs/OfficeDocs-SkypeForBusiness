@@ -34,7 +34,28 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 > [!NOTE]
 > There can be a maximum of one toll and one toll-free phone number on the meeting invite for a meeting organizer, but there is also a link located at the bottom of each meeting invite that opens the full list of all dial-in phone numbers that can be used to join a meeting. 
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Set the default dial-in phone number for a meeting organizer
+## Set the default dial-in phone number for a meeting organizer
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+    ![Shows selecting users in the Microsoft Teams and Skype for Business Admin Center](../images/teamsselectusers.png)
+
+2. At the top of the page, click **Edit**.
+
+    ![Click Edit in the Microsoft Teams and Skype for Business Admin Center](../images/teamsedituser.png)
+
+3. Next to **Audio Conferencing**, click **Edit**. 
+    
+    ![Click Edit next to Audio conferencing](../images/teamseditaudioconf.png)
+
+4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -66,11 +87,23 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Reset audio conferencing phone numbers
+
+## Change the audio conferencing phone number for users
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Next to **Audio Conferencing**, click **Edit**. 
+    
+4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
+
+## Reset audio conferencing phone numbers
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the **Skype for Business admin center**, choose **Audio conferencing**.
     

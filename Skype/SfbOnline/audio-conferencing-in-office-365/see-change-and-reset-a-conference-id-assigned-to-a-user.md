@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
 ---
 
-# See, change, and reset a conference ID assigned to a user
+# View and reset a conference ID assigned to a user
 
 A conferencing ID is automatically assigned to a Skype for Business or Microsoft Teams user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID. 
   
@@ -30,9 +30,35 @@ Although a conference ID will be automatically created and assigned to a user, t
   
 An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. For more information about resetting a conference organizer's PIN, [go here](reset-a-conference-id-for-a-user.md). 
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) View and change conference IDs
+## View and reset conference IDs
 
 ### To view the conference ID
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, look under **Conference ID**.
+
+    > [!TIP]
+    > You can send all of the conferencing information to the user in an email that includes the conference ID and audio phone numbers by clicking the **Send conference info in email** link.
+
+  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+You can use Windows PowerShell to view the conference ID for a user. To do so, run:
+    
+  ```
+  Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
+  ```
+
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 You can view their conference ID and send it to users.
   
@@ -46,9 +72,6 @@ You can view their conference ID and send it to users.
     
     > [!TIP]
     > You can send all of the conferencing information to the user in an email that includes the conference ID and audio phone numbers by clicking the **Send conference info via email** link after you select the user on the **Users** page.
-  
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
     
@@ -58,26 +81,29 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
-### To assign or change the conference ID
-
-You can assign or change a conference ID for a user if, for example, someone wants a conference ID that's easy to remember.
-
-  > [!NOTE]
-  > The Skype for Business admin center can't be used to edit a conference ID that has been automatically created, but you can use Windows PowerShell to edit or change a conference ID that you have set. 
-     
-To edit or change the conference ID for a user, run:
-    
-  ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
-  ```
-
-  > [!TIP]
-  > A conference ID must contain 7 digits, and you can't change it in the Skype for Business admin center or by using Windows PowerShell. 
   
-### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) To reset the conference ID
+### To reset the conference ID
 
 You can reset a conference ID for a user if, for example, if they forget it.
   
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Reset conference ID**.
+
+4. In the **Reset conference ID** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+    
+    You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
+    
+  ```
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  ```
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
