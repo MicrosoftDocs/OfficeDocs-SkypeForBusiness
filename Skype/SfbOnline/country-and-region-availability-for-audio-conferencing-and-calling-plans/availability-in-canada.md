@@ -51,8 +51,10 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |3000 domestic minutes or 600 international minutes (whichever is reached first per calendar month). <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>3000 minute Domestic Calling Plan </li></li><li>600 minute for Domestic and International Calling Plans</li></li> 
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+> [!Note]
+> Calls to the U.S. are treated as domestic calls.
    
 ## Toll and toll-free numbers for services
 
