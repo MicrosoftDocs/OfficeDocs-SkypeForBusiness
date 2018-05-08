@@ -38,7 +38,19 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 > [!NOTE]
 > Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  To view your audio conferencing phone numbers
+## To view your audio conferencing phone numbers
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+2.  View the phone numbers that are available for audio conferencing.
+
+- You can also view the location and primary language that will be used by the audio conferencing auto attendant.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -53,8 +65,6 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Want to know how to manage with Windows PowerShell?
 
