@@ -9,12 +9,12 @@
 ## Deploy
 ### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configure accounts](deploy-intro-text.md)
-### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [With Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [With Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [With Exchange Online (Hybrid)](../deploy/deploy-clients/with-exchange-online.md)
 ### [With Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configure a console](../deploy/deploy-clients/console.md)
+### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
 ### [Adoption and change management](adoption-and-change-management.md)
 ## Manage
