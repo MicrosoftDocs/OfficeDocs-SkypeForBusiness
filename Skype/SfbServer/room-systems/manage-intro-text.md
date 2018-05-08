@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "Needs a good description."
+description: "Management overview for Skype Room Systems v2."
 ---
 
 # Management overview 
