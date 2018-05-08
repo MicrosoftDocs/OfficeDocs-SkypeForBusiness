@@ -1,5 +1,5 @@
 ---
-title: "Skype Room Systems v2 Administration"
+title: "Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "The relevant planning considerations for deploying Skype Room Systems v2, and how to deploy and manage the system."
 ---
 
-<h2>Skype Room Systems v2 Administration</h2>
+<h2>Skype Room Systems v2</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -22,6 +22,8 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                     <div class="cardText">
                         <p>Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Skype Room Systems v2 is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room. </p>
                         <p>Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs on a Surface Pro 4 or Surface Pro in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.</p>
+                        <p></p>
+                        <p><b>Note:</b> These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the users of the system. Users will be more interested in the <a href="https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2">online help.</a> </p>
                     </div>
                 </div>
             </div>

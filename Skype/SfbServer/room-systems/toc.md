@@ -1,4 +1,4 @@
-# [Skype Room Systems v2 Administration](index.md)
+# [Skype Room Systems v2](index.md)
 ## Plan
 ### [Overview of Skype Room Systems v2 planning](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Support for current versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
