@@ -31,15 +31,16 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 
 |**Tablet**|**Processor**|**RAM**|**Disk**|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4    |Core i5  |4GB  |128GB  |
+|Surface Pro 4    |Core i5  |8GB  |256GB  |
+|Surface Pro   |Core i5  |4GB  |128GB  |
+|Surface Pro   |Core i5  |8GB  |256GB  |
+|Surface Pro   |Core i7  |8GB  |128GB  |
+|Surface Pro   |Core i7  |16GB  |512GB  |
+|Surface Pro  |Core i7  |16GB  |1TB  |
    
-&sup1; — Core M3 processors are not supported on this model.
+> [NOTE]
+> Core M3 processors are not supported.
     
  
     
