@@ -17,9 +17,9 @@ description: "Use this topic to obtain scripts used with Skype Room Systems v2."
 
 # Skype Room Systems v2 Scripts
  
-Copy each of the text in this article into a file named in the section heading. These Powershell scripts are used in deploying Skype Room Systems v2: 
-* [CreateSrsMedia.ps1](#createsrsmediaps1) is used to create a software image for the console device.  
-* [SkypeRoomProvisioningScript.ps1](#skyperoomprovisioningscriptps1) is used to set up Skype for Business and Exchange accounts the devices will use.  
+Copy each of the sections in this article into a text file named in the section heading. These files are used in deploying Skype Room Systems v2: 
+* [CreateSrsMedia.ps1](#createsrsmediaps1) is a Powershell script used to create a software image for the console device.  
+* [SkypeRoomProvisioningScript.ps1](#skyperoomprovisioningscriptps1) is a Powershell script used to set up Skype for Business and Exchange accounts the devices will use.  
 * [SkypeRoomSystems_v2.omsview](#skyperoomsystemsv2omsview)  is used when setting up management of Skype Room Systems v2 using OMS.
   
 <a name="CreateSrs"></a>
