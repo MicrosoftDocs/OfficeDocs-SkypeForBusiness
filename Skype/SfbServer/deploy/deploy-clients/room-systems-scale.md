@@ -15,39 +15,25 @@ description: "Read this topic to learn about deploying Skype Room Systems v2 at 
 
 # Deploy Skype Room Systems v2 mass deployment guide
 
-This article gives you all the necessary information to create your Skype Room
-Systems v2 deployments by using System Center Configuration Manager.
+This article gives you all the necessary information to create your Skype Room Systems v2 deployments by using System Center Configuration Manager.
 
-With the easy-to-use methods provided by System Center Configuration Manager,
-you can deploy the operating system and other applications to multiple target
-devices.
+With the easy-to-use methods provided by System Center Configuration Manager, you can deploy the operating system and other applications to multiple target devices.
 
-Use the approach illustrated below to guide you through your Configuration
-Manager configuration, and customize the sample packages and scripts provided
-throughout this guidance as needed for your organization.
+Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
 **Note/Important**
 
-This solution has only been tested with Surface Pro–based deployments. Follow
-the manufacturer’s guidelines for configurations that aren’t based on Surface
-Pro.
+This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
 
 ## Validate prerequisites
 
-To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
-the following prerequisites and requirements.
+To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet the following prerequisites and requirements.
 
 ### System Center Configuration Manager requirements
 
--   System Center Configuration Manager version must be at least 1706 or above.
-    We recommend using 1710 or later. Check out [Support for Windows 10 in
-    System Center Configuration
-    Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)
-    to learn about the Windows 10 versions that Configuration Manager supports.
+-   System Center Configuration Manager version must be at least 1706 or above.     We recommend using 1710 or later. Check out [Support for Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) to learn about the Windows 10 versions that Configuration Manager supports.
 
--   A supported version of Windows Assessment and Deployment Kit (ADK) for
-    Windows 10 must be installed. See the versions of the [Windows 10
-    ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk)
+-   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk)
     that you can use with different versions of Configuration Manager, and
     ensure that your deployment includes the correct version.
 
@@ -96,8 +82,7 @@ adapters and Surface
 deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)
 for more information.
 
-Configure System Center Configuration Manager for operating system deployment
------------------------------------------------------------------------------
+## Configure System Center Configuration Manager for operating system deployment
 
 This article assumes you already have a healthy System Center Configuration
 Manager deployment, and doesn’t detail all the steps required to deploy and
@@ -209,8 +194,7 @@ Windows PE and connecting to Configuration Manager for the rest of the
 deployment process. For more information, see [How to Create Bootable
 Media](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
-Create Configuration Manager packages
--------------------------------------
+## Create Configuration Manager packages
 
 Configuration Manager requires a number of packages to deploy and configure the
 Skype Room System v2 units.
@@ -809,11 +793,11 @@ the following conditions apply:
 -   Select the **This package contains source files** check box, enter the path
     to the **SRS v2 – Sysprep Package** folder, and then select **Next**.
 
-1.  Select **Do not create a program**, and then select **Next**.
+3.  Select **Do not create a program**, and then select **Next**.
 
-2.  Review the **Confirm the settings** page, and then select **Next**.
+4.  Review the **Confirm the settings** page, and then select **Next**.
 
-3.  Select **Close**.
+5.  Select **Close**.
 
 ### Create the Windows 10 Enterprise package
 
@@ -904,8 +888,7 @@ Repeat the same steps for other Surface Pro models you might have. For more
 information, see [Manage drivers in System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-Distribute Configuration Manager packages
------------------------------------------
+## Distribute Configuration Manager packages
 
 All the packages must be distributed to the servers that have been assigned the
 distribution point role in the Configuration Manager hierarchy. Follow the
@@ -967,8 +950,7 @@ You can review the status of your package distribution in the Configuration
 Manager console by going to **Monitoring** \> **Distribution Status** \>
 **Content Status**.
 
-Configuration Manager task sequences
-------------------------------------
+## Configuration Manager task sequences
 
 You use task sequences with System Center Configuration Manager to automate the
 steps for deploying an operating system image to a destination computer. To
@@ -1020,26 +1002,26 @@ meet your needs.
         provide a UI to set a computer name for the Skype Room Systems v2 unit
         during the deployment.
 
-        1.  This is an optional step, but it can only be disabled if you want to
+        -  This is an optional step, but it can only be disabled if you want to
             manage computer naming through an alternate process.
 
-        2.  Verify that the **SRS v2 - Set-SRSComputerName** package is
+        -  Verify that the **SRS v2 - Set-SRSComputerName** package is
             selected. If it isn’t, browse to the package and select it.
 
     4.  **Apply Operating System**: This step specifies the operating system
         image to be deployed and the unattended Sysprep answer file to use.
 
-        1.  Verify that the correct Windows 10 Enterprise operating system image
+        -  Verify that the correct Windows 10 Enterprise operating system image
             file is selected.
 
-        2.  Verify that **Use an unattended or Sysprep answer file for a custom
+        -  Verify that **Use an unattended or Sysprep answer file for a custom
             installation** is enabled, and the **SRS v2 - Sysprep Package** is
             selected. Also ensure that **File Name** is set to **unattend.xml**.
 
     5.  **Apply Windows Settings**: This step gathers information about the
         Windows installation.
 
-        1.  Provide licensing and registration information including the product
+        -  Provide licensing and registration information including the product
             key, local administrator account password, and time zone (depending
             on your needs).
 
@@ -1051,11 +1033,11 @@ meet your needs.
         you have. Update each step to specify the relevant driver package
         associated with this deployment.
 
-        1.  Each driver package is configured to leverage Windows Management
+        -   Each driver package is configured to leverage Windows Management
             Instrumentation (WMI) filters to deploy relevant drivers and
             firmware based on the Surface Pro make and model.
 
-        2.  We highly recommend that you not alter the configuration of these
+        -   We highly recommend that you not alter the configuration of these
             drivers, otherwise deployment might fail.
 
     8.  **Set up Windows and Configuration Manager**: This step deploys and
@@ -1065,10 +1047,10 @@ meet your needs.
     9.  **Install Root Certificate**: This step distributes the root certificate
         for non–domain-joined devices, and therefore is optional.
 
-        1.  Remove or disable this step if you don’t need to deploy a root
+        -   Remove or disable this step if you don’t need to deploy a root
             certificate to the Skype Room Systems v2 units.
 
-        2.  If you do need to perform this step, verify that the **SRS v2 – Root
+        -   If you do need to perform this step, verify that the **SRS v2 – Root
             Certificate Package** is selected.
 
     10. **Install and Configure OMS Agent**: This step installs the 64-bit
@@ -1158,48 +1140,41 @@ and configure Skype Room Systems v2 units.
 
     6.  Do one of the following:
 
-        1.  \*Select **PXE boot**, and drag it to the top of the list.
-            Alternatively, you can swipe left on network adapter to boot to the
-            device immediately. This won’t affect the boot order.  
-            or
+        -   Select **PXE boot**, and drag it to the top of the list. Alternatively, you can swipe left on network adapter to boot to the device immediately. This won’t affect the boot order.
+        -   Select the USB flash drive that holds the boot media.
 
->   \*Select the USB flash drive that holds the boot media.
+3.  Select **Exit**, and then select **Restart Now**.
 
-1.  Select **Exit**, and then select **Restart Now**.
+4.  When prompted, select **Enter** for network boot service.
 
-2.  When prompted, select **Enter** for network boot service.
-
-3.  Windows PE will load into memory, and the Task Sequence Wizard will start.
+5.  Windows PE will load into memory, and the Task Sequence Wizard will start.
     Select **Next** to continue.
 
-4.  Select the task sequence that you imported earlier, and then select
+6.  Select the task sequence that you imported earlier, and then select
     **Next**.
 
-5.  After the disk configuration is applied, you’ll be prompted to specify a
+7.  After the disk configuration is applied, you’ll be prompted to specify a
     computer name for the device. The user interface will display a recommended
     computer name based on the serial number of the Surface Pro device. You can
     either accept the proposed name or specify a new one. Follow the
     instructions on the computer name assignment screen. When you select
     **Accept**, the deployment begins.
 
-6.  The rest of the deployment process is automatic and doesn’t ask for any more
+8.  The rest of the deployment process is automatic and doesn’t ask for any more
     user input.
 
-7.  After the deployment task sequence finishes configuring the device, you’ll
+9.  After the deployment task sequence finishes configuring the device, you’ll
     see the following configuration screen that asks you to configure the Skype
     Room Systems v2 application settings.
 
-![](media/ce67f921ae819e90e5ff663f46a3c149.png)
+    ![ALT TEXT HERE](../../media/room-systems-scale-image1.png)
 
-1.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
+10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
     the application settings.
 
-2.  Validate that the capabilities listed in [Skype Room Systems v2
-    help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-    are working on the deployed device.
+11.  Validate that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
 
-To troubleshoot a failed installation, check the SMSTS.log file, which logs all
-the steps executed in a Configuration Manager task sequence.
+To troubleshoot a failed installation, check the SMSTS.log file, which logs all the steps executed in a Configuration Manager task sequence.
 
 The SMSTS.log file is stored on one of a number of paths, depending on the stage
 of the build process. Check the following table to identify the path to the
