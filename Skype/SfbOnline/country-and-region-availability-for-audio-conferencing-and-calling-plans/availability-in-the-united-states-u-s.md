@@ -51,17 +51,10 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans. |There are three plan options available per calendar month:
-- 120 Minute Domestic Calling Plan (availability is limited)
-- 240 Minute Domestic Calling Plan (availability is limited)
-- 1200 Minute Domestic Calling Plan
-- 1200 Minute Domestic Calling Plan
-- 600 Minutes for International calls (if you have purchased a Domestic & International Calling Plan)
-
-United States domestic calling includes calls to all 50 U.S. states and Puerto Rico. Users assigned with the license usage location of U.S. and/or Puerto Rico share the same pool of minutes.
-|||
-|:-----|:-----|
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan (availability is limited)</li><li>240 minute Domestic Calling Plan (availability is limited)</li></li><li>3000 minute Domestic Calling Plan </li></li><li>600 minutes for Domestic and International Calling Plans</li></li> 
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+>[!Note] 
+> United States domestic calling includes calls to all 50 U.S. states and Puerto Rico. Users assigned with the license usage location of U.S. and/or Puerto Rico share the same pool of minutes.
    
 ## Toll and toll-free numbers for services
 
