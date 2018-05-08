@@ -51,7 +51,7 @@ You create the CAP by configuring the settings before you set up the physical ph
 #### Purchase the Common Area Phone SKU. 
     In the Office 365 admin center, go to **Billing > Purchase Services**, and add **Common Area Phone**.
 
-#### Set up the common area phone 
+#### Set up the common area phone  <!-- this section could use a screen shot-->
 
 **Create user** 
 1. Assign Common Area Phone SKU
@@ -93,7 +93,6 @@ Enable Common Area Phone Mode on Polycom VVX by following these steps:
 1. In your browser, use the web interface to enable CAP mode on the VVX
 2. Go to **Setting**  and in the Skype for Business Setting option, select **Common Area Phone**.
 3. Click **Save** to save your configuration settings.
-
 
 Now that the CAP phone mode is enabled, set up the phone using the phone's display.
 
