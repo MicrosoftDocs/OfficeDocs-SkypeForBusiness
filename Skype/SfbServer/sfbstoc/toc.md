@@ -768,8 +768,8 @@
 #### [Changes made by domain preparation](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)
 #### [Changes made by Grant-CsSetupPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md)
 #### [Changes made by Grant-CsOUPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md)
-## [Help topics]
-### [Help-DepWiz]
+## Help topics
+### Help-DepWiz
 #### [Prepare Single Standard Edition Server (Intro)](../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md)
 #### [Prepare Single Standard Edition Server (Invoke)](../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md)
 #### [View Certificate](../help-topics/help-depwiz/view-certificate.md)
@@ -840,7 +840,7 @@
 #### [Deployment Wizard: Path to MSI installer](../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md)
 #### [Deployment Wizard: Windows Update](../help-topics/help-depwiz/deployment-wizard-windows-update.md)
 #### [Deployment Wizard: Unified Communications API](../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md)
-### [Help-LSCP]
+### Help-LSCP
 #### [Use the Control Panel](../help-topics/help-lscp/use-the-control-panel.md)
 #### [Client Version Policy: Create New or Edit Existing](../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md)
 #### [Client Version Policy](../help-topics/help-lscp/client-version-policy.md)
@@ -1009,7 +1009,7 @@
 #### [Hybrid wizard: Move User](../help-topics/help-lscp/hybrid-wizard-move-user.md)
 #### [Hybrid Manageability wizard](../help-topics/help-lscp/hybrid-manageability-wizard.md)
 #### [Hybrid wizard: Sign in to Office 365](../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md)
-### [Help-Planning]
+### Help-Planning
 #### [Archiving](../management-tools/planning-tool/archiving.md)
 #### [Audio Video Conferencing](../management-tools/planning-tool/audio-video-conferencing.md)
 #### [Branch Sites](../management-tools/planning-tool/branch-sites.md)
@@ -1035,7 +1035,7 @@
 #### [Voice Infrastructure](../management-tools/planning-tool/voice-infrastructure.md)
 #### [Voice Traffic](../management-tools/planning-tool/voice-traffic.md)
 #### [Web Conferencing](../management-tools/planning-tool/web-conferencing.md)
-### [Help-TopoBld]
+### Help-TopoBld
 #### [Add Additional SIP Domains](../help-topics/help-topobld/add-additional-sip-domains.md)
 #### [Add Archiving Server File Store](../help-topics/help-topobld/add-archiving-server-file-store.md)
 #### [Add Archiving Server](../help-topics/help-topobld/add-archiving-server.md)
