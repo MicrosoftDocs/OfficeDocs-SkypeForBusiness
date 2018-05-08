@@ -102,7 +102,7 @@ _Sample Skype Room Systems v2 deployment template for your organization_
 | Focus 10' by 9'      | 2&ndash;4                   |                                  |                         |                 |
 | Small 16' by 16'     | 4&ndash;6                   |                                  |                         |                 |
 | Medium 18' by 20'    | 6&ndash;12                  |                                  |                         |                 |
-| Large 15' by 20'     | 12&ndash;16                 |                                  |                         |                 |
+| Large 15' by 32'     | 12&ndash;16                 |                                  |                         |                 |
 
 **Pro Tip –** Now is a great time to start gathering information about the Skype Room Systems v2 solution you’ve chosen. We recommend that you work with your vendor to discuss completing the design template to capture information that will be relevant to your deployment; you can [download this handy template](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) from MyAdvisor. 
 
