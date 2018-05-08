@@ -9,7 +9,7 @@
 ## Deploy
 ### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configure accounts](deploy-intro-text.md)
-### [Deploy by using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
+### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [With Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [With Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [With Exchange Online (Hybrid)](../deploy/deploy-clients/with-exchange-online.md)
@@ -20,6 +20,9 @@
 ## Manage
 ### [Management overview](manage-intro-text.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+<!-- add back, maybe? Looks like the stub James created has disappeared but maybe we need it
+### [Troubleshooting](../manage/skype-room-systems-v2/troubleshooting.md)
+-->
 ### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 ### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
