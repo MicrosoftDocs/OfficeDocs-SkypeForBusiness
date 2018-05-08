@@ -153,7 +153,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-Push an XML configuration file or theme graphic)
+Push an XML configuration file (or theme graphic)
   
 ```
 $movefile = "<path>";
