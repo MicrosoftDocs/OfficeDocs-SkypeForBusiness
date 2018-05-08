@@ -16,6 +16,14 @@ description: "This article discusses known issues for Skype Room Systems v2 curr
 This article lists the known issues for Skype Room Systems v2, by feature area.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
+<a name="update"> </a>  
+## Update 
+
+| Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
+|  ---        |      ---             |   ---            | --- |
+|  App out of date         |    The Skype Room Systems v2 console shows a "system config out of date" error.                |   [Use the Skype Room Systems v2 recovery tool](recovery-tool.md)             |  None |
+
+
 <a name="OS-conflicts"> </a>  
 ## User interface 
 

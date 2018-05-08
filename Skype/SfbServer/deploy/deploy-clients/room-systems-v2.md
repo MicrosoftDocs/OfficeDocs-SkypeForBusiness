@@ -17,7 +17,14 @@ description: "Read this article to learn about deploying Skype Room Systems v2."
 
 # Deployment overview
 
-This article is the introductory article for the Deploy section. NEEDS TEXT HERE.
+Deployment of Skype Room Systems v2 essentially breaks down into  phases:
+- Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Skype Room Systems v2](../../room-systems/deploy-intro-text.md))
+- Reimaging Microsoft Surface tablets to work as Skype Room Systems v2 consoles (see [Configure a Skype Room Systems v2 console](console.md) or [Deploy Skype Room Systems v2 mass deployment guide](room-systems-scale.md))
+- (Optional) Setting up OMS management of your systems (see [Deploy Skype Room Systems v2 management with OMS](with-oms.md))
+- Setting up consoles in actual meeting rooms and connecting the needed peripheral devices (see the OEM documentation for your set of devices)
+
+A/V techs can be used for the last task, but your organization's IT department will need to do the other parts of the process. 
+
 
 ## Site readiness 
 
