@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
@@ -20,7 +20,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Unable to add members to teams when UsersPermissionToReadOtherUsersEnabled is set to false  <br/> |When the setting UsersPermissionToReadOtherUsersEnabled is set to false in AAD, customer is unable to add external/internal members in Microsoft Teams, and the following error message is displayed: "We couldn't add member. We ran into an issue. Please try again later." However, members can be added directly to Office 365 groups.    <br/> |Change the setting UsersPermissionToReadOtherUsersEnabled to true in AAD.  <br/> |4/10/18  <br/> |
+|Unable to add members to teams when UsersPermissionToReadOtherUsersEnabled is set to false  <br/> |When this value is set to false in AAD, customer is unable to add external/internal members in Microsoft Teams, and the following error message is displayed: "We couldn't add member. We ran into an issue. Please try again later." However, members can be added directly to Office 365 groups.    <br/> |Change this setting to true in AAD.  <br/> |4/10/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
