@@ -53,7 +53,7 @@ In order to function properly, the Skype Room Systems v2 device must have access
     
 - Access to HTTP ports 80 and 443.
     
-- TCP and UDP ports configured as described in [Port requirements for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398798%28v=ocs.15%29.aspx) for on premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
+- TCP and UDP ports configured as described in [Port and protocol requirements for servers](../network-requirements/ports-and-protocols.md) for on premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
     
 > [!IMPORTANT]
 > Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth. 
@@ -71,19 +71,19 @@ You will install certificates the same way you would for any other Windows clien
 
 Skype Room Systems v2 is designed to inherit Proxy settings from the Windows OS. Access the Windows OS in the following manner:
   
-1. In the Skype Room Systems v2 UI, click on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is "sfb").
+1. In the Skype Room Systems v2 UI, click on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
     
-2. Tap on "Settings" followed by tapping on the "Go to Windows" button and then tapping on the "got to Admin Sign In" button and then clicking the "Administrator" button (if the computer is domain joined choose "Other User," then use .\admin as the user name).
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is domain joined choose **Other User,** then use .\admin as the user name).
     
-3. In the "Search Windows" box bottom left type in regedit (either long press the screen or right click and choose "Run as administrator").
+3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right click and choose **Run as administrator**).
     
 4. Click on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
     
     You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
     
-5. Click on File and then choose "Load Hive."
+5. Click on File and then choose **Load Hive.**
     
-6. Browse the to the following folder "C:\Users\Skype" and type in the File name box NTUSER.dat and press the open button
+6. Browse the to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
     
 7. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
@@ -162,7 +162,7 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 
 #### 
 
-[Plan Skype Room Systems v2 ](skype-room-systems-v2-0.md)
+[Plan Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Skype Room Systems v2 requirements](requirements.md)
   
