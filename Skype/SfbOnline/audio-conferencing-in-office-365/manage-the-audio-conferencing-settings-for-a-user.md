@@ -44,6 +44,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 |**Invites from this user can include toll-free number**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, toggle **Include toll-free numbers in meeting requests from this user** On or Off. |
 |**Dial-out permissions**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out permission from meetings**.|
 
+![Shows the Audio Conferencing settings for a user](../images/sfbaudioconf-usersettings.png)
  
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
  
