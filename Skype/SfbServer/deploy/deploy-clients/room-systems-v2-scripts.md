@@ -8,8 +8,10 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
-ms.collection: - Strat_SB_Admin
+ms.collection: 
+- Strat_SB_Admin
 ms.custom:
+ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: "Use this topic to obtain scripts used with Skype Room Systems v2."
 ---
 
