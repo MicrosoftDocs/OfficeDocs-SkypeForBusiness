@@ -127,7 +127,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
-In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
+In addition, you will probably want a copy of the [Powershell script](../../deploy/deploy-clients/room-systems-v2-scripts.md)used to provision Skype Room Systems v2 accounts.
   
 ## See also
 
