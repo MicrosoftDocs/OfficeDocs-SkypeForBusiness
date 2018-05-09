@@ -268,7 +268,7 @@ to host package source files:
 1.  In the **SRS v2 - OS Updates Package** folder, create a new PowerShell
     script named **Install-SRSv2-OS-Updates.ps1**.
 
-2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script.
+2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script. Alternatively, you can download the Install-SRSv2-OS-Updates.ps1 script from [here]().
 ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -369,7 +369,7 @@ the following conditions apply:
 1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML
     application named **Set-SRSComputerName.hta** .
 
-2.  Copy the following script into the **Set-SRSComputerName.hta** file.
+2.  Copy the following script into the **Set-SRSComputerName.hta** file. Alternatively, you can download the Set-SRSComputerName.hta file from [here]().
 
 ```
 <!DOCTYPE HTML>
@@ -486,7 +486,7 @@ End Sub
 1.  In the **SRS v2 – Sysprep Package** folder, create a new XML file named
     **Unattend.xml** .
 
-2.  Copy the following text into the **Unattend.xml** file.
+2.  Copy the following text into the **Unattend.xml** file. Alternatively, you can download the Unattend.xml file from [here]().
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -741,7 +741,7 @@ software updates.
 You can download and easily import a sample task sequence and customize it to
 meet your needs.
 
-1.  **Download** the sample task sequence, and copy the downloaded zip file to a
+1.  [**Download**]() the sample task sequence, and copy the downloaded zip file to a
     shared location.
 
 2.  In the Configuration Manager console, go to **Software Library** \>
