@@ -13,7 +13,7 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: "Read this topic to learn about deploying Skype Room Systems v2 at large scale deployments."
 ---
 
-# Deploy Skype Room Systems by using System Center Configuration Manager
+# Deploy Skype Room Systems v2 by using System Center Configuration Manager
 
 This article gives you all the necessary information to create your Skype Room Systems v2 deployments by using System Center Configuration Manager.
 
