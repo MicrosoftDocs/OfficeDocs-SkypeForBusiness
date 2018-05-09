@@ -45,7 +45,7 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
 > An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
   
 1. Download the [MSU for KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
+2. Download the [CreateSrsMedia.ps1 script](room-systems-v2-scripts.md#createsrsmediaps1).
 3. Place the MSU for KB4056892 in the same directory as the CreateSrsMedia.ps1 script.
 4. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
 
