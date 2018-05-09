@@ -932,9 +932,11 @@ meet your needs.
 
     1.  **Restart in Windows PE**: This step restarts and then boots the
         computer into Windows PXE. No changes are required for this step.
+
     2.  **Partition Disk 0 – UEFI**: This step wipes the disk configuration and
         creates partitions based on the configured settings. We recommend that
         you don’t make any changes to this step.
+
     3.  **Set SRS Computer Name**: This step includes an HTML application to
         provide a UI to set a computer name for the Skype Room Systems v2 unit
         during the deployment.
@@ -942,6 +944,7 @@ meet your needs.
             manage computer naming through an alternate process.
         -  Verify that the **SRS v2 - Set-SRSComputerName** package is
             selected. If it isn’t, browse to the package and select it.
+
     4.  **Apply Operating System**: This step specifies the operating system
         image to be deployed and the unattended Sysprep answer file to use.
         -  Verify that the correct Windows 10 Enterprise operating system image
@@ -949,13 +952,16 @@ meet your needs.
         -  Verify that **Use an unattended or Sysprep answer file for a custom
             installation** is enabled, and the **SRS v2 - Sysprep Package** is
             selected. Also ensure that **File Name** is set to **unattend.xml**.
+
     5.  **Apply Windows Settings**: This step gathers information about the
         Windows installation.
         -  Provide licensing and registration information including the product
             key, local administrator account password, and time zone (depending
             on your needs).
+
     6.  **Apply Network Settings**: This step allows you to specify a workgroup
         or Active Directory domain name and organizational unit.
+
     7.  **Apply Drivers:** This step and its sub-steps are used to deploy
         applicable device drivers and firmware based on the Surface Pro model
         you have. Update each step to specify the relevant driver package
@@ -965,54 +971,62 @@ meet your needs.
             firmware based on the Surface Pro make and model.
         -   We highly recommend that you not alter the configuration of these
             drivers, otherwise deployment might fail.
+
     8.  **Set up Windows and Configuration Manager**: This step deploys and
         configures the Configuration Manager client. Update this step to specify
         the built-in Configuration Manager Client Package.
+
     9.  **Install Root Certificate**: This step distributes the root certificate
         for non–domain-joined devices, and therefore is optional.
         -   Remove or disable this step if you don’t need to deploy a root
             certificate to the Skype Room Systems v2 units.
         -   If you do need to perform this step, verify that the **SRS v2 – Root
             Certificate Package** is selected.
+
     10. **Install and Configure OMS Agent**: This step installs the 64-bit
         version of the Microsoft Operations Management Suite agent and
         configures the agent to connect to your Log Analytics workspace.
-        1.  Disable this step only if you’re going to use some other platforms
+        -   Disable this step only if you’re going to use some other platforms
             to monitor the health of your Skype Room Systems v2 units.
-        2.  Edit this step and update the command-line parameters to specify
+        -   Edit this step and update the command-line parameters to specify
             your **Workspace ID** and **Workspace Key**.
-        3.  See [Connect Windows computers to the Log Analytics service in
+        -   See [Connect Windows computers to the Log Analytics service in
             Azure](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms#configure-test-devices-for-operations-management-suite-setup)
             for more information about obtaining the Operations Management Suite
             Workspace ID and the primary key.
-        4.  Verify that the **SRS v2 – Microsoft OMS Agent Package** is
+        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is
             selected.
-        5.  For more information about monitoring the health of your Skype Room
+        -   For more information about monitoring the health of your Skype Room
             Systems v2 deployment, see [Plan Skype Room Systems v2 management
             with
             OMS](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management)
             and [Deploy Skype Room Systems v2 management with
             OMS](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms#configure-test-devices-for-operations-management-suite-setup).
+
     11. **Copy SRS v2 Configuration Files**: This step copies the required setup
         and configuration files from the Skype Room Systems v2 deployment kit to
         the local hard drive. No customization is required for this step.
+
     12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating
         system updates required with the Skype Room Systems v2 deployment. Do
         the following:
-        1.  Check [Configure a Skype Room Systems v2
+        -   Check [Configure a Skype Room Systems v2
             console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console)
             to see which updates are required.
-        2.  Verify that your **SRS v2 – OS Updates Package** includes all the
+        -   Verify that your **SRS v2 – OS Updates Package** includes all the
             required updates.
-        3.  Verify that the S**RS v2 – OS Updates Package** is selected.
-        4.  Verify that the PowerShell execution policy is set to **Bypass**.
+        -   Verify that the S**RS v2 – OS Updates Package** is selected.
+        -   Verify that the PowerShell execution policy is set to **Bypass**.
+
     13. **Restart Computer**: This step reboots the computer after the mandatory
         operating system updates are installed. No customization is required for
         this step.
+
     14. **Add Local Skype User**: This step creates the local Skype account used
         to automatically sign in to Windows and start the Skype Room Systems v2
         application. This step doesn’t have any software package associated with
         it, and no customization is required for it.
+
     15. **Set up and configure SRS application**: This step installs and
         configures the Skype Room Systems v2 application. This step uses the
         locally copied bits to install the application and therefore doesn’t
@@ -1074,18 +1088,20 @@ and configure Skype Room Systems v2 units.
     see the following configuration screen that asks you to configure the Skype
     Room Systems v2 application settings.
 
-    ![ALT TEXT HERE](../../media/room-systems-scale-image1.png)
+    ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image1.png)
 
 10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
     the application settings.
 
 11.  Validate that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
 
-To troubleshoot a failed installation, check the SMSTS.log file, which logs all the steps executed in a Configuration Manager task sequence.
+
+To troubleshoot a failed installation, check the **SMSTS.log** file, which logs all the steps executed in a Configuration Manager task sequence.
 
 The SMSTS.log file is stored on one of a number of paths, depending on the stage
 of the build process. Check the following table to identify the path to the
 SMSTS.log file.
+
 
 | **Deployment phase**                                                            | **Task sequence log path**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
