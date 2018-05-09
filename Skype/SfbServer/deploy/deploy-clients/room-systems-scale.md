@@ -268,26 +268,19 @@ to host package source files:
 
 2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script.
 
+> ```
 >   \# Install-SRSv2-OS-Updates.ps1
-
 >   \$strPath = split-path -parent \$MyInvocation.MyCommand.Definition
-
 >   \$total = gci \$strPath \*.msu \| measure \| Select-Object -expand Count
-
 >   \$i = 0
-
 >   gci \$strPath \*.msu \| ForEach-Object {
-
->   \$i++
-
->   WUSA ""\$_.FullName /quiet /norestart""
-
->   Write-Progress -activity "Applying Mandatory Updates" -status "Installing
->   \$\_ .. \$i of \$total" -percentComplete ((\$i / \$total) \* 100)
-
->   Wait-Process -name wusa
-
+>      \$i++
+>      WUSA ""\$_.FullName /quiet /norestart""
+>      Write-Progress -activity "Applying Mandatory Updates" -status "Installing
+>      \$\_ .. \$i of \$total" -percentComplete ((\$i / \$total) \* 100)
+>      Wait-Process -name wusa
 >   }
+> ```
 
 1.  Download the mandatory Windows Update packages into the same folder.  
     **Note** At the time this article was published, only
