@@ -1,5 +1,5 @@
 ---
-title: "Inbound Call blocking Using Powershell for Skype for Business Onlin"
+title: "Block Inbound Calls in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,19 +10,15 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto:
-- Skype for Business
+appliesto: Skype for Business
 localization_priority: Normal
 f1keywords: None
-ms.custom:
-- PowerShell
-description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
+ms.custom: PowerShell description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
 
- 
-# Inbound PSTN Call Blocking for Calling Plans
+ # Block Inbound Calls
 
-Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant global list of number patterns to be defined, so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected. 
+Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected. 
 
 This inbound call blocking feature only works on inbound calls originating from the PSTN and only works on a tenant global basis and is not available on a per user basis.
 
@@ -71,7 +67,7 @@ Allow for replication time before testing and validating.
 
 #### Allowing a Number
 
-In this example, the identity parameter if (is?) required:
+In this example, the identity parameter is  required:
 `Remove-CsInboundBlockedNumberPattern -Identity “<identity>”`
  
 If the Identity is not known, use the *Get-CsInb
@@ -88,4 +84,4 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex). There are multiple tools available online to help validate a regex pattern match. If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant. 
 
 ## Related topics
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Set up your computer for skype for business online management using Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
