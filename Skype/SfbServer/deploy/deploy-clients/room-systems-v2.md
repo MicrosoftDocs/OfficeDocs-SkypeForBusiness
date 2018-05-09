@@ -144,11 +144,12 @@ When planning to deploy Skype Room Systemsv2, you have a number of options to co
 
 | **Scenario**            | **Approach**         |
 |-------------------------|-----------------------|   
- | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
+|Deploying a small number of Skype Room Systems devices (<10). | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
 | Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
 | Deploying more than 50 Skype Room Systems devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as System Center Configuration Manager.  |
 
 **Pro Tip** - Each Skype Room Systems v2 must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it’s important to develop a naming convention for Skype Room Systems v2 deployments that allows support personnel to easily locate the Skype Room Systems v2 that has been flagged as requiring an action. An example might be using a pattern of SRS-*Site*-*Room Name* (SRS-LON-CURIE). 
+
 
 As part of the deployment, you’ll also need to consider your strategy for managing and configuring the [local accounts](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) that are created by the Skype Room Systems application installer.
 
