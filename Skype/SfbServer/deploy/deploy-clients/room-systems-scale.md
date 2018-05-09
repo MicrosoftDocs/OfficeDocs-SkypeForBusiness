@@ -62,8 +62,8 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
     server, configured for automatic IP address distribution to the subnets
     where Skype Room Systems v2 units will be deployed.
 
-    -   Note  
-        DHCP lease duration must be set to a value longer than the image
+    - > [!NOTE]
+      >  DHCP lease duration must be set to a value longer than the image
         deployment duration. Otherwise, the deployment might fail.
 
 -   Your network, including switches and virtual LANs (VLANs), should be
