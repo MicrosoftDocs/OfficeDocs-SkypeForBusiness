@@ -27,12 +27,10 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 - One of the following tablets:
     
 **Supported tablets**
-
-
-|**Tablet**|**Processor**|**RAM**|**Disk**|
+|Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4    |Core i5  |4GB  |128GB  |
-|Surface Pro 4    |Core i5  |8GB  |256GB  |
+|Surface Pro 4    |Core i5  |8GB  |256GB  |    
 |Surface Pro   |Core i5  |4GB  |128GB  |
 |Surface Pro   |Core i5  |8GB  |256GB  |
 |Surface Pro   |Core i7  |8GB  |128GB  |
@@ -42,11 +40,11 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 > [NOTE]
 > Core M3 processors are not supported.
     
- 
+The [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) is also supported.  
     
 - One of the following docking station options to secure the tablet to the meeting room table. 
     
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
