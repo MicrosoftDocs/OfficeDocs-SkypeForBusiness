@@ -99,13 +99,19 @@ From the Dashboard, go to **Meetings** > **Conference bridges** > **Bridge setti
 
 Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. For more details, see [Change the settings for an Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md).
 
-## Step 7: Assign the audio conferencing provider and dial-in phone numbers
+## Step 7: Assign dial-in phone numbers for users who lead meetings
 
-Now you need to make sure that Microsoft is assigned as the provider, and set the toll and toll-free numbers for them at the same time.
+After you have created an Audio Conferencing bridge, you need to set the toll and toll-free numbers for your users.
 
-Assign Microsoft as the provider to people in your organization who lead or schedule meetings, by going to **Office 365 admin center** > **Skype for Business** > **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. If you need more details, see [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+You will need to do this for all of the people in your organization who lead or schedule meetings. To do this:
 
-When you are setting the provider, you can also set the toll and toll-free numbers that will be added to meeting invites for that user. Simply select the phone numbers from the drop-down lists. For more details, see [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). 
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center:**
+
+From the Dashboard, click **Users**, select the user from the list, click **Edit**, click **Edit** under **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+
+Go to the**Office 365 admin center** > **Skype for Business** > **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. If you need more details, see [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 
 ## Step 8: Set up meeting invitations (optional)
