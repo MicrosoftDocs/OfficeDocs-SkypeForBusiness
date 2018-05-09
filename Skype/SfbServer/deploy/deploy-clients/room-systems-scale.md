@@ -1105,24 +1105,23 @@ SMSTS.log file.
 
 | **Deployment phase**                                                            | **Task sequence log path**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE, before HDD format                                                        | X:\\windows\\temp\\smstslog\\smsts.log             |
+| WinPE, before HDD format                                                        | X:\\Windows\\Temp\\smstslog\\smsts.log             |
 | WinPE, after HDD format                                                         | C:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
 | Operating system deployed, before the Configuration Manager agent was installed | c:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
-| Operating system and the Configuration Manager agent deployed                   | %windir%\\system32\\ccm\\logs\\Smstslog\\smsts.log |
-| Task sequence execution complete                                                | %windir%\\system32\\ccm\\logs\\smsts.log           |
+| Operating system and the Configuration Manager agent deployed                   | %windir%\\System32\\ccm\\logs\\Smstslog\\smsts.log |
+| Task sequence execution complete                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
-**Note**
-
-You can select F8 at any time during the task sequence to open a command console
+> [!NOTE]
+> You can select F8 at any time during the task sequence to open a command console
 and get access to the SMSTS.log file.
 
 To resolve PXE boot issues, check the two log files on the Configuration Manager
 server that are specific to PXE actions:
 
--   Pxecontrol.log, located in the Configuration Manager installation logs
+-   **Pxecontrol.log**, located in the Configuration Manager installation logs
     directory
 
--   Smspxe.log, located in Configuration Manager Management Point (MP) logs
+-   **Smspxe.log**, located in Configuration Manager Management Point (MP) logs
     directory
 
 For a complete list of the log files that you can use to further troubleshoot
