@@ -204,7 +204,7 @@ Create the following folder structure on the System Center Configuration Manager
 ```
 3.  Download the mandatory Windows Update packages into the same folder.  
     > [!NOTE]
-    > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Skype Room Systems v2 console](deploy-clients/console), to see whether any other updates are required.
+    > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Skype Room Systems v2 console](console.md), to see whether any other updates are required.
 
 4.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
@@ -630,14 +630,14 @@ You can download and easily import a sample task sequence and customize it to me
     10. **Install and Configure OMS Agent**: This step installs the 64-bit version of the Microsoft Operations Management Suite agent and configures the agent to connect to your Log Analytics workspace.
         -   Disable this step only if you’re going to use some other platforms to monitor the health of your Skype Room Systems v2 units.
         -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
-        -   See [Connect Windows computers to the Log Analytics service in Azure](with-oms#configure-test-devices-for-operations-management-suite-setup) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
+        -   See [Connect Windows computers to the Log Analytics service in Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
         -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is selected.
-        -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management) and [Deploy Skype Room Systems v2 management with OMS](with-oms#configure-test-devices-for-operations-management-suite-setup).
+        -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
 
     11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Skype Room Systems v2 deployment kit to the local hard drive. No customization is required for this step.
 
     12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating system updates required with the Skype Room Systems v2 deployment. Do the following:
-        -   Check [Configure a Skype Room Systems v2 console](console) to see which updates are required.
+        -   Check [Configure a Skype Room Systems v2 console](console.md) to see which updates are required.
         -   Verify that your **SRS v2 – OS Updates Package** includes all the required updates.
         -   Verify that the **SRS v2 – OS Updates Package** is selected.
         -   Verify that the PowerShell execution policy is set to **Bypass**.
