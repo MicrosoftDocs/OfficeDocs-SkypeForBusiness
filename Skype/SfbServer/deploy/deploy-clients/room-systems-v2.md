@@ -89,20 +89,6 @@ _Sample Skype Room Systems v2 service account planning table_
 | Sydney HQ | Hill          | Large         | 2 Screens, audio and video plus presentation<br>Dial-in conferencing access<br> PSTN access  | Enabled for Skype for Business, enabled for Exchange (Resource Mailbox)<br> Enabled for Audio Conferencing <br>Enabled for Phone System |
 
 
-### Plan for operations 
-
-Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it’s key to agree who will undertake these tasks. 
-
-Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Skype Room Systems v2 devices going forward to monitor performance, and deploy software updates and hotfixes. 
-
-Consider which helpdesk queue you’ll route Skype Room Systems v2֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Skype Room Systems v2 and the key troubleshooting steps they can take. 
-
-
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who will manage Skype Room Systems v2.</li><li>Decide which helpdesk queue to route Skype Room Systems–related calls to.</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Prepare to host accounts. </li></ol></td></tr>
-</table>
-
 ### Prepare to host Skype Room Systems v2 machine and service accounts (optional)
 
 To enable you to manage and report on your Skype Room Systems v2 machine and service accounts, prepare your on-premises Active Directory or Azure Active Directory (Azure AD). 

@@ -47,17 +47,27 @@ Typically, the bundles and integrated units include preinstalled software, where
 
 You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ul></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul></td></tr>
-</table>
-
 |    |     |
 |-----------|------------|
 |![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ul> |
 | ![](../../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul> |
 
+## Identify who will perform planning tasks
 
+
+
+| Task                       | Who might undertake the task           | Assigned to | Links to this content |
+|----------------------------|----------------------------------------|-------------|-----------------------|
+| Inventory rooms            | Facilities / AV team / IT Project Team |             |                       |
+| Plan capabilities          | IT Project Team                        |             |                       |
+| Device selection           | IT Project Team / AV Team              |             |                       |
+| Procurement                | IT Project Team / AV Team              |             |                       |
+| Site readiness             | Facilities / AV team / IT Project Team |             |                       |
+| Service readiness          | IT Project Team                        |             |                       |
+| Configuration              | IT Project Team                        |             |                       |
+| Deployment                 | Facilities / AV team / IT Project Team |             |                       |
+| Adoption                   | Facilities / AV team / IT Project Team |             |                       |
+| Maintenance and operations | AV team / IT Project Team              |             |                       |
 
 
 ## Room inventory and capability planning
@@ -72,10 +82,10 @@ After you create an inventory of the equipment and capabilities in each existing
 
 As part of your discovery, it’s key to consider room acoustics and layout. For example, check that the chairs in the room won’t block the camera view. Verify that the room doesn’t have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Skype Room Systems v2. There are many factors to consider that your audio-visual (AV) team or partner will be able to advise on. 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the rooms in scope, and define Skype Room Systems v2 configurations for them.</li></ul></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul> |
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Skype Room Systems v2 configurations for them.</li></ul>|
 
 _Sample meeting/conference room inventory_
 
@@ -98,10 +108,10 @@ Based on the vendor you prefer, use the information provided in the requirements
 
 **Pro Tip** – Some room types might not be applicable for your deployment.
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
 
 _Sample Skype Room Systems v2 deployment template for your organization_
 
@@ -122,7 +132,25 @@ You can acquire devices from a number of partners who are listed in the [require
 
 Depending on your deployment scale and approach, you might decide to have the Skype Room Systems v2 and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm that your sites are ready.</li></ul></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Confirm that your sites are ready.</li></ul>|
+
+## Plan for operations 
+
+Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it’s key to agree who will undertake these tasks. 
+
+Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Skype Room Systems v2 devices going forward to monitor performance, and deploy software updates and hotfixes. 
+
+Consider which helpdesk queue you’ll route Skype Room Systems v2֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Skype Room Systems v2 and the key troubleshooting steps they can take. 
+
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Skype Room Systems v2.</li><li>Decide which helpdesk queue to route Skype Room Systems–related calls to.</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
+
+
+## Plan for adoption and change management
+
+Skype Room Systems v2 systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your campaign identifies the benefits the new system will have for your users and the key talking points team leads can use to discuss with their teams. 
