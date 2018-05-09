@@ -69,8 +69,6 @@
 #### Plan Microsoft Phone System Direct Routing
 ##### [Plan Direct Routing](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [Configure Direct Routing](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
-##### [Migrate to Direct Routing]
-##### [Supportability statement]
 ### [Plan hybrid connectivity](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Deploy hybrid connectivity](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Configure federation with Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)

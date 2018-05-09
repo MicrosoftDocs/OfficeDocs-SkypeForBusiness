@@ -455,28 +455,28 @@ The steps to create PSTN Usage “International”, voice route “International
 
 1.	First, create the PSTN Usage “International." In a remote PowerShell session in Skype for Business Online, enter:
 
-```
-Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
-```
+  ```
+  Set-CsOnlinePstnUsage  -Identity Global -Usage @{Add="International"}
+  ```
 
 2.	Next, create the new voice route “International.”
 
-```
-New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-```
-Which returns:
+  ```
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+  ```
+  Which returns:
 
-```
-Identity    	          	: International 
-Priority              		: 5
-Description    	        	: 
-NumberPattern     	     	: \d+
-OnlinePstnUsages        	: {International}	 
-OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-Name                            : International
-SupressCallerId    		:
-AlternateCallerId       	:
-```
+  ```
+  Identity    	          	: International 
+  Priority              		: 5
+  Description    	        	: 
+  NumberPattern     	     	: \d+
+  OnlinePstnUsages        	: {International}	 
+  OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
+  Name                            : International
+  SupressCallerId    		:
+  AlternateCallerId       	:
+  ```
 3.	Next, create a Voice Routing Policy “No Restrictions”. The PSTN Usage “Redmond 1” and “Redmond “ are reused in this voice routing policy to preserve special handling for calls to number “+1 425 XXX XX XX” and “+1 206 XXX XX XX” as local or on-premise calls.
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
@@ -487,35 +487,35 @@ AlternateCallerId       	:
 
     b.	If “International” PSTN usage is before “US and Canada,” calls to + 1425 XXX XX XX are routed to sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz as part of the routing logic. Enter the command:
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
-```
+    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
 
-Which returns
+   Which returns
 
-```
-    Identity		: International 
-    OnlinePstnUsages 	: {US and Canada, International}	 
-    Description		:  
-    RouteType	 	: BYOT
-```
+   ```
+   Identity		: International 
+   OnlinePstnUsages 	: {US and Canada, International}	 
+   Description		:  
+   RouteType	 	: BYOT
+   ```
 
 4.	Assign the voice routing policy to the user “John Woods” using the following command.
 
-```
-Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-```
+  ```
+  Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+  ```
 
-Then verify the assignment using the command:   
-```
-Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
-```
-Which returns:
-```
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
-```
+  Then verify the assignment using the command:   
+
+  ```
+  Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+  ```
+  Which returns:
+
+  ```
+  OnlineVoiceRoutingPolicy
+  ------------------------
+  No Restrictions
+  ```
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
@@ -535,19 +535,20 @@ Direct Routing will route calls only to Microsoft Teams, so you need to make sur
 
 1. First, use the following cmdlet in a remote PowerShell session in the Skype for Business Online admin center to see which policies the user has been assigned. 
 
-```
-Get-CsOnlineUser -identity <User Name> | fl *teams*
-```
+  ```
+  Get-CsOnlineUser -identity <User Name> | fl *teams*
+  ```
  
 2. Next, review the different policy instances. 
 
-```
-Get-CsTeamsCallingPolicy
-``` 
+  ```
+  Get-CsTeamsCallingPolicy
+  ``` 
 and
-```
-Get-CsTeamsInteropPolicy
-``` 
+
+  ```
+  Get-CsTeamsInteropPolicy
+  ``` 
 
 Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
 
