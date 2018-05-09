@@ -136,7 +136,8 @@ Use the following instructions to verify that the operating system deployment
 3.  Select the **Network Access Account** tab. Set up one or more accounts, and
     then select **OK**.
 
-The accounts don’t need any special rights, except for the **Access this
+> [!NOTE]
+> The accounts don’t need any special rights, except for the **Access this
 computer from the network** right on the distribution point server. A generic
 domain user account will be appropriate. For more information, see [Manage
 accounts to access content in System Center Configuration
@@ -160,13 +161,11 @@ Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accou
 
 5.  *Optional:* To customize the deployment experience, select the
     **Customization** tab.
-
-    1.  Enable **command support (testing only)** if you want to have access to
+    -   Enable **command support (testing only)** if you want to have access to
         a command prompt during the deployment. When this is enabled, you can
         start a command prompt by selecting F8 at any time during the
         deployment.
-
-    2.  You can also specify a custom background image to be displayed during
+    -   You can also specify a custom background image to be displayed during
         the deployment. To set an image, enable **Specify the custom background
         image file (UNC path** and select your background.
 
@@ -176,9 +175,8 @@ Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accou
 For more information, see [Manage boot images with System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
 
-Note
-
-You can create a bootable USB media to initiate Configuration Manager task
+> [!NOTE]
+> You can create a bootable USB media to initiate Configuration Manager task
 sequence–based deployments for environments that have no PXE support. The
 bootable media contains only the boot image, optional prestart commands and
 their required files, and Configuration Manager binaries to support booting into
@@ -208,8 +206,7 @@ distribution point server role.
 | Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                  |
 | Surface Pro 4                        | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro 4                |
 
-For more information, see [Packages and programs in System Center Configuration
-Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+For more information, see [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
 ### Create folders for the package source files
 
@@ -221,25 +218,15 @@ central administration site or primary site, or on a server share you’re using
 to host package source files:
 
 -   SRS v2 - Microsoft OMS Agent Package
-
 -   SRS v2 - OS Updates Package
-
 -   SRS v2 - Root Certificate Package
-
 -   SRS v2 - Set-SRSComputerName Package
-
 -   SRS v2 - SRS Application Package
-
 -   SRS v2 - Sysprep Package
-
 -   Drivers
-
     -   Surface Pro
-
     -   Surface Pro 4
-
 -   Operating Systems
-
     -   Windows 10 Enterprise
 
 ### Create the Microsoft Operations Management Suite agent package
