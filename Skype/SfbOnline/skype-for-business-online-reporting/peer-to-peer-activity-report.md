@@ -51,7 +51,7 @@ You can get a view into your Skype for Business peer-to-peer activity by looking
 ![Skype peer to peer report with callouts.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
+![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

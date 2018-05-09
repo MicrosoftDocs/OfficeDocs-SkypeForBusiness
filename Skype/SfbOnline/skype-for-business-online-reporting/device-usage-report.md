@@ -48,7 +48,7 @@ You can get a view into the devices that are using the Skype for Business app by
 ![Skype for Business device usage report](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. 
+![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business device usage** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
