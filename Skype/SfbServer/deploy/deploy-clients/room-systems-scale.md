@@ -660,14 +660,11 @@ You can download and easily import a sample task sequence and customize it to me
 
 5.  Select **Available** on the **Purpose** drop down list.
 
-> [!WARNING]
-> It is very important that **Purpose** is set to **Available**. Make sure that
-the **Purpose** is **NOT** set to **Required**. This might cause all computers
-to get the Skype Room Systems deployment image on when booted.
-
 6.  Select **Only Media and PXE** in the **Make available to the following**
     list, and then select **Next**.
-
+> [!WARNING]
+> It is very important that **Purpose** is set to **Available**. Make sure that
+the **Purpose** is **NOT** set to **Required**. Also make sure that you select **Only Media and PXE** in the **Make available to the following**. Setting these values to something else might cause all computers to get the Skype Room Systems deployment image when booted.
 7.  Do not specify any schedule and select **Next**.
 
 8.  Do not change anything within the **User Experience** section and select
