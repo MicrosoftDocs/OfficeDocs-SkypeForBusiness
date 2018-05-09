@@ -62,8 +62,7 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
     server, configured for automatic IP address distribution to the subnets
     where Skype Room Systems v2 units will be deployed.
 
-    - > [!NOTE]
-      >  DHCP lease duration must be set to a value longer than the image
+    -   **Note:** DHCP lease duration must be set to a value longer than the image
         deployment duration. Otherwise, the deployment might fail.
 
 -   Your network, including switches and virtual LANs (VLANs), should be
@@ -72,9 +71,8 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
     media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)
     for your deployments, if PXE support isn’t enabled.
 
-**Note**
-
-For Surface Pro devices, booting from the network (PXE boot) is only supported
+> [!NOTE]
+> For Surface Pro devices, booting from the network (PXE boot) is only supported
 when you use an Ethernet adapter or docking station from Microsoft. Third-party
 Ethernet adapters don’t support PXE boot with Surface Pro. See [Ethernet
 adapters and Surface
@@ -117,20 +115,15 @@ Use the following instructions to verify that the operating system deployment
 2.  Select the distribution point server that will serve the Skype Room Systems
     v2 deployment, and then select **Properties**.
 
-3.  Select the **PXE** tab, and ensure that the following settings are enabled:
-
-    1.  Enable PXE support for clients
-
-    2.  Allow this distribution point to respond to incoming PXE requests
-
-    3.  Enable unknown computer support
+3.  Select the **PXE** tab, and ensure that the following settings are enabled: 
+    -   Enable PXE support for clients
+    -   Allow this distribution point to respond to incoming PXE requests
+    -   Enable unknown computer support
 
 4.  *Optional:* To enable multicast support, select the **Multicast** tab, and
     ensure that the following settings are enabled:
-
-    1.  Enable multicast to simultaneously send data to multiple clients
-
-    2.  Configure the UDP port range as per your network team’s recommendation
+    -   Enable multicast to simultaneously send data to multiple clients
+    -   Configure the UDP port range as per your network team’s recommendation
 
 ### Configure the Network Access Account
 
