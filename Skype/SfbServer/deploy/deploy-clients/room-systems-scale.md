@@ -784,11 +784,8 @@ environment.
     -   For Surface Pro 4:
         <https://www.microsoft.com/en-us/download/details.aspx?id=49498>
 
->        [!IMPORTANT]
->        The drivers must be compatible with the Windows 10 Enterprise build and
-        the Skype Room Systems v2 deployment kit version. For more information,
-        see [Download the latest firmware and drivers for Surface
-        devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
+> [!IMPORTANT]
+> The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
 
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and
     at the command prompt, enter one of the following commands:
@@ -826,7 +823,8 @@ environment.
 
 12. Move all the imported drivers to the newly created folder for easier
     navigation and operation.
-> [!INFORMATION]
+
+> [!INFO]
 > Repeat the same steps for other Surface Pro models you might have. For more
 information, see [Manage drivers in System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
