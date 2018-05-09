@@ -17,8 +17,8 @@ description: "Read this article to learn about deploying Skype Room Systems v2."
 
 # Deployment overview
 
-Deployment of Skype Room Systems v2 essentially breaks down into  phases:
-- Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Skype Room Systems v2](../../room-systems/deploy-intro-text.md))
+Deployment of Skype Room Systems v2 essentially breaks down into phases:
+- Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md))
 - Reimaging Microsoft Surface tablets to work as Skype Room Systems v2 consoles (see [Configure a Skype Room Systems v2 console](console.md) or [Deploy Skype Room Systems v2 mass deployment guide](room-systems-scale.md))
 - (Optional) Setting up OMS management of your systems (see [Deploy Skype Room Systems v2 management with OMS](with-oms.md))
 - Setting up consoles in actual meeting rooms and connecting the needed peripheral devices (see the OEM documentation for your set of devices)
@@ -30,11 +30,15 @@ A/V techs can be used for the last task, but your organization's IT department w
 
 While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
+<!-- These are now links to nowhere; ask Lester and James about them.
+
 You can find out more about these dependencies in the planning guidance links below:
 
--   [Network](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#check-network-availability)
--   [Certificates](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#certificates)
--   [Proxy](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#proxy)
+-   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
+-   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
+
+-->
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
 
@@ -72,7 +76,7 @@ Depending on the collaboration scenarios that you’ve decided to enable with yo
 | Dial-in conferencing            | Enable meetings started *directly* from the Skype Room Systems v2 console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Skype Room Systems v2 console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
 
-For more information about Skype Room Systems accounts, see [Deploy Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/room-systems-v2).
+For more information about Skype Room Systems accounts, see [Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md).
 
 
 |    |     |
@@ -100,12 +104,12 @@ Define one organizational unit in your on-premises Active Directory or Azure AD 
 
 Create a Group Policy object assigned to the organization unit that contains your Skype Room Systems computer accounts. Use this to: 
 
--   [Set power and local account settings](https://docs.microsoft.com/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2#configuring-group-policy-for-skype-room-systems-v2).
+-   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-skype-room-systems-v2).
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a
     simple script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Manage Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell). 
+You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
@@ -121,7 +125,7 @@ Planning for configuration and deployment covers the following key areas:
 
 ### Account provisioning 
 
-Each Skype Room Systems v2 device requires a dedicated and unique resource account that must be enabled for both Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Deploy Skype Room Systems v2](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/room-systems-v2). 
+Each Skype Room Systems v2 device requires a dedicated and unique resource account that must be enabled for both Skype for Business and Exchange. This account must have a room mailbox hosted on Exchange and be enabled as a meeting room in the Skype for Business deployment. On the Exchange side, calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md). 
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Skype Room Systems v2 systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
@@ -140,8 +144,8 @@ When planning to deploy Skype Room Systemsv2, you have a number of options to co
 
 | **Scenario**            | **Approach**         |
 |-------------------------|-----------------------|   
- | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
-| Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console), and capture a distribution image to be used with your cloning distribution technology.    |
+ | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
+| Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
 | Deploying more than 50 Skype Room Systems devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as System Center Configuration Manager.  |
 
 **Pro Tip** - Each Skype Room Systems v2 must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it’s important to develop a naming convention for Skype Room Systems v2 deployments that allows support personnel to easily locate the Skype Room Systems v2 that has been flagged as requiring an action. An example might be using a pattern of SRS-*Site*-*Room Name* (SRS-LON-CURIE). 
@@ -150,7 +154,7 @@ As part of the deployment, you’ll also need to consider your strategy for mana
 
 We provide guidance on how to use the [Microsoft Operations Management Suite](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management) to monitor the Skype Room Systems v2 deployment and report on availability, hardware/software errors, and Skype Room Systems v2 application version. If you decide to use Microsoft Operations Management Suite, you should install the Operations Management Suite agent as part of the software installation process and configure the workspace connection information for your workspace. 
 
-An additional consideration is whether the Skype Room Systems v2 will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/domain-joining-considerations). 
+An additional consideration is whether the Skype Room Systems v2 will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|
@@ -181,9 +185,9 @@ After each Skype Room Systems v2 system has been physically deployed and the sup
 
 You can manually configure each Skype Room Systems v2 system. Alternatively, you can use a centrally stored, per–Skype Room Systems XML configuration file to manage the application settings and leverage a start-up GPO script to reapply the configuration you want, each time the Skype Room Systems v2 system boots. 
 
-For more information about how to use the XML configuration file, see [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](https://docs.microsoft.com/en-gb/skypeforbusiness/manage/skype-room-systems-v2/xml-config-file). 
+For more information about how to use the XML configuration file, see [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](../../manage/skype-room-systems-v2/xml-config-file.md). 
 
-You can use [remote PowerShell](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell) to pull the Skype Room Systems v2 configuration for reporting needs. 
+You can use [remote PowerShell](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell) to pull the Skype Room Systems v2 configuration for reporting needs. 
 
 |    |     |
 |-----------|------------|
@@ -192,7 +196,7 @@ You can use [remote PowerShell](https://docs.microsoft.com/skypeforbusiness/mana
 
 ### Testing
 
-After the Skype Room Systems v2 system has been deployed, you should test it. Check that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Skype Room Systems v2 is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](https://docs.microsoft.com/en-gb/skypeforbusiness/deploy/deploy-clients/console#skype-room-systems-v2-deployment-checklist). 
+After the Skype Room Systems v2 system has been deployed, you should test it. Check that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Skype Room Systems v2 is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#skype-room-systems-v2-deployment-checklist). 
 
 We recommend that as part of the general Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 
