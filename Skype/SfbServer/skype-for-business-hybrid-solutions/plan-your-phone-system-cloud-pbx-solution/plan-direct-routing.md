@@ -39,7 +39,7 @@ Direct Routing also supports users who have the additional license for the Micro
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that dialing out does not route through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions). 
  
-Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements, and provides information about SBC connectivity: 
+Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity: 
 
 - [Infrastructure requirements](#infrastructure-requirements)
 - [Licensing and other requirements](#licensing-and-other-requirements)
@@ -94,7 +94,7 @@ Direct Routing also supports users who are licensed for Microsoft Calling Plan. 
 
 Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful, for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls via SBC. One of the most common scenarios are calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed via Microsoft Calling Plan; but calls to the phones connected to third-party PBXs go to the SBC, therefore stay within the enterprise network and not to the PSTN. 
 
-For more information about Phone System licensing, see [Get the most from Office with Office 365 and Office 365 Plan Options](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2). 
+For more information about Phone System licensing, see [Get the most from Office with Office 365](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2) and [Office 365 Plan Options](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx). 
 
 For more information about Phone System licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
