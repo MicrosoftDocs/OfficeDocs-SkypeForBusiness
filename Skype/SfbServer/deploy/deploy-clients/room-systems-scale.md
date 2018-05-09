@@ -660,7 +660,7 @@ environment.
 12. Move all the imported drivers to the newly created folder for easier
     navigation and operation.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Repeat the same steps for other Surface Pro models you might have. For more
 information, see [Manage drivers in System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
@@ -717,7 +717,7 @@ instructions below to initiate package distribution.
 > [!NOTE]
 > Package distribution might take some time, depending on the package size,
 Configuration Manager hierarchy, number of distribution point servers, and
-networking.
+the bandwidth available in your network.
 
 > All the packages must be distributed before you can start deploying a Skype Room
 Systems v2 unit.
@@ -947,7 +947,7 @@ SMSTS.log file.
 | Operating system and the Configuration Manager agent deployed                   | %windir%\\System32\\ccm\\logs\\Smstslog\\smsts.log |
 | Task sequence execution complete                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
-> [!NOTE]
+> [!TIP]
 > You can select F8 at any time during the task sequence to open a command console
 and get access to the SMSTS.log file.
 
