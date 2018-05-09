@@ -46,7 +46,7 @@ By default, **Allow external apps in Microsoft Teams** is turned on, with all ap
 To turn on some apps (and turn off others), turn off **Allow sideloading of external apps**. Then turn off any apps you don't want your users to use. Optional: Turn off **Enable new external apps by default** (if you want to control new apps). 
 
 > [!NOTE]
-> Default apps, such as those built by Microsoft, are not affected by the **Enable new external apps by default** setting.
+> Default apps, such as those built by Microsoft, are not affected by the **Enable new external apps by default** setting. New apps are enabled by default when released by Microsoft.
 
 When this switch is turned on, users can activate new apps as soon as they're added to the Teams app catalog. To open the Teams app catalog, click **Store** at the bottom of Teams, then click **Apps**. If you want to control which apps are available, turn this switch off. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
 
