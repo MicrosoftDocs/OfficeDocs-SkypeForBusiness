@@ -285,7 +285,7 @@ Which returns a list of names that may be truncated:
   Identity	: Global
   Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```
-In the example below, you can see the result of the running the PowerShell command `*(Get-CSOnlinePSTNUsage).usage*` to display full names (not truncated).    
+In the example below, you can see the result of the running the PowerShell command *`(Get-CSOnlinePSTNUsage).usage`* to display full names (not truncated).    
 ```
  testusage
  US and Canada
