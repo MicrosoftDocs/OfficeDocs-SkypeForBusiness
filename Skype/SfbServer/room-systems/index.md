@@ -13,17 +13,18 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "The relevant planning considerations for deploying Skype Room Systems v2, and how to deploy and manage the system."
 ---
 
-<h2>Skype Room Systems v2</h2>
+<h2>Skype Room Systems v2: the Next Generation of Skype Room Systems </h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Skype Room Systems v2 is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app.</p>
-                        <p>Skype Room Systems v2 uses a purpose-built UWP app which acts as the Skype Meeting user interface. It runs in a console mode (once deployed the UWP app is the only app that will run on the device) and it requires its own device account on your Skype for Business implementation. It leverages existing equipment like LCD panels and relatively inexpensive peripheral cameras and microphones to provide a quality meeting room experience. Software is updated via both Windows store and Windows Update.</p>
+                        <p>Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Skype for Business experience that is simple to use, deploy, and manage. </p>
+                        <p>Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants. </p>
+                        <p>Select the right system and audio video peripherals from one of our partners: Logitech, Crestron, Polycom, Lenovo, and HP.</p>
                         <p></p>
-                        <p><b>Note:</b> These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the users of the system. Users will be more interested in the <a href="https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2">online help.</a> </p>
+                        <p><b>Note:</b> These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the end users of the system. End users will be more interested in the <a href="https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2">online help.</a> </p>
                     </div>
                 </div>
             </div>
@@ -101,4 +102,4 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 </ul>
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Teams Support is coming very soon. <br><br>Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
