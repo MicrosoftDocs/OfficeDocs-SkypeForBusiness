@@ -682,7 +682,6 @@ to get the Skype Room Systems deployment image on when booted.
 
 12.  Select **Close**.
 
-
 Validate and troubleshoot the solution
 --------------------------------------
 
