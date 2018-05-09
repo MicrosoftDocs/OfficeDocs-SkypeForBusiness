@@ -37,9 +37,8 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 ### Update 7 (3.1.104.0) 
 ##### (00/00/0000)
 **New feature(s)** introduced in this update: 
-- ITPro improvements? 
-- Admin improvements?
-- Client/user improvements?
+- Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems
+- Improvements to prepare for future operating system updates
 
 <a name="Ver6"> </a>
 ### Update 6 (3.1.100.0) 
