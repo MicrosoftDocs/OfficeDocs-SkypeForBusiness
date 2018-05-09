@@ -8,7 +8,7 @@
 ### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 ## Deploy
 ### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
-### [Configure accounts](deploy-intro-text.md)
+### [Configure accounts](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [With Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [With Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
 ### [With Exchange Online (Hybrid)](../deploy/deploy-clients/with-exchange-online.md)
@@ -19,7 +19,6 @@
 ### [Skype Room Systems v2 Scripts](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## Manage
 ### [Management overview](manage-intro-text.md)
-### [Adoption and change management](adoption-and-change-management.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 <!-- add back, maybe? Looks like the stub James created has disappeared but maybe we need it
 ### [Troubleshooting](../manage/skype-room-systems-v2/troubleshooting.md)
