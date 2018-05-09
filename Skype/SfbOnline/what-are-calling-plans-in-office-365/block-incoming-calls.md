@@ -1,4 +1,4 @@
----
+--
 title: "Block Inbound Calls in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -16,6 +16,7 @@ f1keywords: None
 ms.custom: - PowerShell
 description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
+
 
  # Block Inbound Calls
 
