@@ -665,7 +665,6 @@ You can download and easily import a sample task sequence and customize it to me
 the **Purpose** is **NOT** set to **Required**. This might cause all computers
 to get the Skype Room Systems deployment image on when booted.
 
-
 6.  Select **Only Media and PXE** in the **Make available to the following**
     list, and then select **Next**.
 
