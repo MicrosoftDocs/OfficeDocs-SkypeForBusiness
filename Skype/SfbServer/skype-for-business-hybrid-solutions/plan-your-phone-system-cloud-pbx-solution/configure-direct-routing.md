@@ -298,7 +298,7 @@ In the example below, you can see the result of the running the PowerShell comma
  Two trunks
   ```
 
-**Step 2:** In a PowerShell session in Skype for Business Online, create three routes: Redmond 1, Redmond 2, and Other+1, as detailed in the previous table.
+**Step 2:** In a PowerShell session in Skype for Business Online, create three routes: Redmond 1, Redmond 2, and Other+1, as detailed in the previous table. 
 
 To create the “Redmond 1” route, enter:
 
