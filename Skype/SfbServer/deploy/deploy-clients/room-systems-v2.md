@@ -109,7 +109,7 @@ Create a Group Policy object assigned to the organization unit that contains you
 -   Enable PowerShell remoting. You can configure a start-up script to run a
     simple script: Enable-PSRemoting -Force
 
-You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
+You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## Configuration and deployment 
