@@ -119,7 +119,7 @@ Verify the connection:
 
 After you pair the SBC, validate that the SBC is present in the list of paired SBCs by running the following command  in a remote PowerShell session: `Get-CSOnlinePSTNGateway`
 
-The paired gateway should appear in the list as shown in the example belwow, and verify that the parameter *Enabled* displays the value **True**. Enter:
+The paired gateway should appear in the list as shown in the example below, and verify that the parameter *Enabled* displays the value **True**. Enter:
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -311,7 +311,7 @@ Which returns:
 ```
 Identity                : Redmond 1
 Priority       		: 1
-Description	 	:
+Description	     	:
 NumberPattern 		: ^\+1(425|206) (\d{7})$
 OnlinePstnUsages 	: {US and Canada}
 OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
