@@ -21,11 +21,10 @@ With the easy-to-use methods provided by System Center Configuration Manager, yo
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
+![Skype Room Systems v2 deployment process with Configuration Manager](../../media/room-systems-scale-image1.png)
+
 > [!NOTE]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
-
-
-![Skype Room Systems v2 deployment process with Configuration Manager](../../media/room-systems-scale-image1.png)
 
 ## Validate prerequisites
 
