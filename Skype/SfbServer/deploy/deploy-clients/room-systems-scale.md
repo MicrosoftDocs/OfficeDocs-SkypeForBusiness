@@ -878,16 +878,15 @@ instructions below to initiate package distribution.
 
     4.  Select **Next**, and then select **Close**.
 
-**Note**
-
-Package distribution might take some time, depending on the package size,
+> [!NOTE]
+> Package distribution might take some time, depending on the package size,
 Configuration Manager hierarchy, number of distribution point servers, and
 networking.
 
-All the packages must be distributed before you can start deploying a Skype Room
+> All the packages must be distributed before you can start deploying a Skype Room
 Systems v2 unit.
 
-You can review the status of your package distribution in the Configuration
+> You can review the status of your package distribution in the Configuration
 Manager console by going to **Monitoring** \> **Distribution Status** \>
 **Content Status**.
 
