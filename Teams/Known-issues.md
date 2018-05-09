@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/8/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
@@ -72,7 +72,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|When a user leaves the company, it appears in Microsoft Teams as "Unknown user"<br/> |When a user leaves the company, it appears in Microsoft Teams as "Unknown user." Also, the conversation tab displays: "Unknown user has been added to the team." Issue filed as: https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |No workaround.  <br/> |9/12/17  <br/> |
+|When a user leaves the company, it appears in Microsoft Teams as "Unknown user"<br/> |When a user leaves the company, it appears in Microsoft Teams as "Unknown user." Also, the conversation tab displays: "Unknown user has been added to the team." <br/> |No workaround.  <br/> |9/12/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
