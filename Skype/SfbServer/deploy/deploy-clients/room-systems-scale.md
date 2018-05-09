@@ -371,173 +371,93 @@ the following conditions apply:
 
 2.  Copy the following script into the **Set-SRSComputerName.hta** file.
 
->   \<!DOCTYPE HTML\>
-
->   \<html\>
-
->   \<head\>
-
->   \<title\>Set SRS Computer Name\</title\>
-
->   \<HTA:APPLICATION
-
->   APPLICATIONNAME="Set SRS Computer Name"
-
->   ID="SetSRSComputerName"
-
->   VERSION="1.0"
-
->   SCROLL="no"
-
->   SINGLEINSTANCE="yes"
-
->   WINDOWSTATE="maximize"
-
->   MaximizeButton="no"
-
->   MinimizeButton="no"
-
->   SysMenu="no"
-
->   ShowInTaskbar="no"
-
->   Caption="no"
-
->   /\>
-
->   \<style type="text/css"\>
-
->   body {
-
->   background-color: \#fdfeff;
-
->   color: darkblue;
-
->   font-family: Calibri;
-
->   font-size: 12pt;
-
->   margin: 4em 3em;
-
->   }
-
->   \</style\>
-
->   \</head\>
-
->   \<script language="VBScript"\>
-
->   Public strNewComputerName
-
->   Sub GenerateComputerName()
-
->   strComputer = "."
-
->   Set objWMIService = GetObject("winmgmts:\\\\" & strComputer &
->   "\\root\\cimv2")
-
->   Set colItems = objWMIService.ExecQuery("Select \* from Win32_BIOS",,48)
-
->   For Each objItem in colItems
-
->   strSerialNumber = objItem.SerialNumber
-
->   Next
-
->   strNewComputerName = "SRS-" & right(replace(strSerialNumber, "-","") ,10)
-
->   TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
-
->   strHTMLText = strHTMLText & "\<br\> Computer name to be assigned: \<font
->   color = red\>" & strNewComputerName & "\</font\>"
-
->   strHTMLText = strHTMLText & "\<br\>\<br\> Click Accept to use this as the
->   computer name and continue deployment, or Change to set a new name."
-
->   strHTMLText = strHTMLText & "\<p\>\<input type=""button"" value=""Accept""
->   name = ""Accept_Button"" onclick=""SetComputerName"" /\>"
-
->   strHTMLText = strHTMLText & " \<input type=""button"" value=""Change"" name
->   = ""Change_Button"" onclick=""ChangeComputerName"" /\>"
-
->   TextArea2.innerHTML = strHTMLText
-
->   End Sub
-
->   Sub SetComputerName()
-
->   dim result
-
->   result = MsgBox("Computer Name to be assigned: " & strNewComputerName
->   &vbcrlf & "Are you sure you want to continue?", 36)
-
->   If (result = vbYes) then
-
->   SET env = CreateObject("Microsoft.SMS.TSEnvironment")
-
->   env("OSDComputerName") = strNewComputerName
-
->   self.close
-
->   elseif (result = vbNo) then
-
->   Window_OnLoad
-
->   End If
-
->   End Sub
-
->   Sub UpdateComputerName()
-
->   strNewComputerName = newcomputername.value
-
->   if len(trim(strNewComputerName)) = 0 then
-
->   MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
-
->   exit sub
-
->   end if
-
->   SetComputerName
-
->   End Sub
-
->   Sub ChangeComputerName()
-
->   TextArea2.innerHTML = "\<p\>Type the new computer name and click Accept:
->   \<input type=""text"" name=""newcomputername"" value =" & strNewComputerName
->   & " /\>"
-
->   TextArea2.innerHTML = TextArea2.innerHTML & "\<br\>\<input type=""button""
->   value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName""
->   /\>"
-
->   End Sub
-
->   Sub Window_OnLoad
-
->   Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
-
->   oTSProgressUI.CloseProgressDialog
-
->   GenerateComputerName
-
->   End Sub
-
->   \</script\>
-
->   \<body\>
-
->   \<span id = "TextArea1"\>\</span\>
-
->   \<span id = "TextArea2"\>
-
->   \</span\>
-
->   \</body\>
-
->   \</html\>
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Set SRS Computer Name</title>
+<HTA:APPLICATION
+  APPLICATIONNAME="Set SRS Computer Name"
+  ID="SetSRSComputerName"
+  VERSION="1.0"
+  SCROLL="no"
+  SINGLEINSTANCE="yes"
+  WINDOWSTATE="maximize"
+  MaximizeButton="no"
+  MinimizeButton="no"
+  SysMenu="no"
+  ShowInTaskbar="no"
+  Caption="no"
+  />
+<style type="text/css">
+body {
+	background-color: #fdfeff;
+	color: darkblue;
+	font-family: Calibri;
+	font-size: 12pt;
+	margin: 4em 3em;
+}
+</style>
+</head>
+<script language="VBScript">
+Public strNewComputerName
+Sub GenerateComputerName()
+	strComputer = "."
+	Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+	Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
+	For Each objItem in colItems
+		strSerialNumber = objItem.SerialNumber
+	Next
+	strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
+	TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
+	strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
+	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
+	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
+	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
+	TextArea2.innerHTML = strHTMLText	
+End Sub
+
+Sub SetComputerName()
+	dim result
+	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
+	If (result = vbYes) then 
+		SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+		env("OSDComputerName") = strNewComputerName
+		self.close	
+	elseif (result = vbNo) then
+		Window_OnLoad
+	End If
+End Sub
+
+Sub UpdateComputerName()
+	strNewComputerName = newcomputername.value
+	if len(trim(strNewComputerName)) = 0 then
+		MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
+		exit sub
+	end if
+	SetComputerName
+End Sub
+
+Sub ChangeComputerName()
+	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
+	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
+End Sub
+
+Sub Window_OnLoad
+	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
+	oTSProgressUI.CloseProgressDialog
+	GenerateComputerName
+End Sub
+</script>
+
+<body>
+<span id = "TextArea1"></span>
+<span id = "TextArea2">
+</span>
+</body>
+</html>
+
+```
 
 1.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
@@ -568,172 +488,86 @@ the following conditions apply:
 
 2.  Copy the following text into the **Unattend.xml** file.
 
->   \<?xml version="1.0" encoding="utf-8"?\>
-
->   \<unattend xmlns="urn:schemas-microsoft-com:unattend"\>
-
->   \<servicing\>
-
->   \<package action="configure"\>
-
->   \<assemblyIdentity name="Microsoft-Windows-Foundation-Package"
->   version="10.0.15063.0" processorArchitecture="amd64"
->   publicKeyToken="31bf3856ad364e35" language="" /\>
-
->   \<selection name="Client-DeviceLockdown" state="true" /\>
-
->   \<selection name="Client-EmbeddedLogon" state="true" /\>
-
->   \<selection name="Client-EmbeddedBootExp" state="true" /\>
-
->   \<selection name="Client-EmbeddedShellLauncher" state="true" /\>
-
->   \<selection name="Client-KeyboardFilter" state="true" /\>
-
->   \<selection name="Internet-Explorer-Optional-amd64" state="false" /\>
-
->   \<selection name="MediaPlayback" state="false" /\>
-
->   \<selection name="WindowsMediaPlayer" state="false" /\>
-
->   \<selection name="Xps-Foundation-Xps-Viewer" state="false" /\>
-
->   \<selection name="WorkFolders-Client" state="false" /\>
-
->   \<selection name="SMB1Protocol" state="false" /\>
-
->   \<selection name="SearchEngine-Client-Package" state="false" /\>
-
->   \<selection name="Printing-Foundation-Features" state="false" /\>
-
->   \<selection name="FaxServicesClientPackage" state="false" /\>
-
->   \<selection name="Printing-Foundation-InternetPrinting-Client" state="false"
->   /\>
-
->   \<selection name="Printing-XPSServices-Features" state="false" /\>
-
->   \<selection name="Printing-PrintToPDFServices-Features" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V-Hypervisor" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V-All" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V" state="false" /\>
-
->   \</package\>
-
->   \</servicing\>
-
->   \<settings pass="auditSystem"\>
-
->   \<component name="Microsoft-Windows-Shell-Setup"
->   processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
->   language="neutral" versionScope="nonSxS"
->   xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
->   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\>
-
->   \<AutoLogon\>
-
->   \<Enabled\>true\</Enabled\>
-
->   \<Username\>Admin\</Username\>
-
->   \<Password\>
-
->   \<Value\>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \</AutoLogon\>
-
->   \<UserAccounts\>
-
->   \<LocalAccounts\>
-
->   \<LocalAccount wcm:action="add"\>
-
->   \<Password\>
-
->   \<Value\>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \<Name\>Admin\</Name\>
-
->   \<Group\>Administrators\</Group\>
-
->   \<DisplayName\>Administrator\</DisplayName\>
-
->   \<Description\>Administrator\</Description\>
-
->   \</LocalAccount\>
-
->   \</LocalAccounts\>
-
->   \</UserAccounts\>
-
->   \</component\>
-
->   \</settings\>
-
->   \<settings pass="oobeSystem"\>
-
->   \<component name="Microsoft-Windows-Shell-Setup"
->   processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
->   language="neutral" versionScope="nonSxS"
->   xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
->   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\>
-
->   \<OOBE\>
-
->   \<HideEULAPage\>true\</HideEULAPage\>
-
->   \<HideLocalAccountScreen\>true\</HideLocalAccountScreen\>
-
->   \<HideOEMRegistrationScreen\>true\</HideOEMRegistrationScreen\>
-
->   \<HideOnlineAccountScreens\>true\</HideOnlineAccountScreens\>
-
->   \<HideWirelessSetupInOOBE\>true\</HideWirelessSetupInOOBE\>
-
->   \<SkipMachineOOBE\>true\</SkipMachineOOBE\>
-
->   \<SkipUserOOBE\>true\</SkipUserOOBE\>
-
->   \<ProtectYourPC\>1\</ProtectYourPC\>
-
->   \</OOBE\>
-
->   \<AutoLogon\>
-
->   \<Enabled\>true\</Enabled\>
-
->   \<Username\>Skype\</Username\>
-
->   \<Password\>
-
->   \<Value\>UABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \</AutoLogon\>
-
->   \</component\>
-
->   \</settings\>
-
->   \<cpi:offlineImage
->   cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim\#SRSImage"
->   xmlns:cpi="urn:schemas-microsoft-com:cpi" /\>
-
->   \</unattend\>
+```
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+    <servicing>
+        <package action="configure">
+            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.15063.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
+            <selection name="Client-DeviceLockdown" state="true" />
+            <selection name="Client-EmbeddedLogon" state="true" />
+            <selection name="Client-EmbeddedBootExp" state="true" />
+            <selection name="Client-EmbeddedShellLauncher" state="true" />
+            <selection name="Client-KeyboardFilter" state="true" />
+            <selection name="Internet-Explorer-Optional-amd64" state="false" />
+            <selection name="MediaPlayback" state="false" />
+            <selection name="WindowsMediaPlayer" state="false" />
+            <selection name="Xps-Foundation-Xps-Viewer" state="false" />
+            <selection name="WorkFolders-Client" state="false" />
+            <selection name="SMB1Protocol" state="false" />
+            <selection name="SearchEngine-Client-Package" state="false" />
+            <selection name="Printing-Foundation-Features" state="false" />
+            <selection name="FaxServicesClientPackage" state="false" />
+            <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
+            <selection name="Printing-XPSServices-Features" state="false" />
+            <selection name="Printing-PrintToPDFServices-Features" state="false" />
+            <selection name="Microsoft-Hyper-V-Hypervisor" state="false" />
+            <selection name="Microsoft-Hyper-V-All" state="false" />
+            <selection name="Microsoft-Hyper-V" state="false" />
+        </package>
+    </servicing>
+    <settings pass="auditSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AutoLogon>
+                <Enabled>true</Enabled>
+                <Username>Admin</Username>
+                <Password>
+                    <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </Password>
+            </AutoLogon>
+            <UserAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Name>Admin</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Administrator</DisplayName>
+                        <Description>Administrator</Description>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
+        </component>
+    </settings>
+    <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <OOBE>
+                <HideEULAPage>true</HideEULAPage>
+                <HideLocalAccountScreen>true</HideLocalAccountScreen>
+                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+                <SkipMachineOOBE>true</SkipMachineOOBE>
+                <SkipUserOOBE>true</SkipUserOOBE>
+                <ProtectYourPC>1</ProtectYourPC>
+            </OOBE>
+            <AutoLogon>
+                <Enabled>true</Enabled>
+                <Username>Skype</Username>
+                <Password>
+                    <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </Password>
+            </AutoLogon>
+        </component>
+    </settings>
+    <cpi:offlineImage cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim#SRSImage" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>
+
+```
 
 3.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
