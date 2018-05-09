@@ -24,6 +24,9 @@ Use the approach illustrated below to guide you through your Configuration Manag
 > [!NOTE]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
 
+
+![Skype Room Systems v2 deployment process with Configuration Manager](../../media/room-systems-scale-image1.png)
+
 ## Validate prerequisites
 
 To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet the following prerequisites and requirements.
@@ -1088,7 +1091,7 @@ and configure Skype Room Systems v2 units.
     see the following configuration screen that asks you to configure the Skype
     Room Systems v2 application settings.
 
-    ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image1.png)
+    ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image2.png)
 
 10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
     the application settings.
