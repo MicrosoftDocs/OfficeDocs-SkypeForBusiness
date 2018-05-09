@@ -35,25 +35,30 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 <a name="Ver7"> </a>
 ### Update 7 (3.1.104.0) 
-##### (00/00/0000)
-**New feature(s)** introduced in this update: 
-- Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems
-- Improvements to prepare for future operating system updates
-
-<a name="Ver6"> </a>
-### Update 6 (3.1.100.0) 
-##### (00/00/0000)
+##### (04/16/2018)
 **New feature(s)** introduced in this update: 
 - ITPro improvements? 
 - Admin improvements?
 - Client/user improvements?
 
+<a name="Ver6"> </a>
+### Update 6 (3.1.100.0) 
+##### (03/16/2018)
+**New feature(s)** introduced in this update: 
+- Application updated to improve telemetry.
+
+### Update ? (3.1.99.0) 
+##### (03/14/2018)
+**New feature(s)** introduced in this update: 
+- Fixes an issue where intermittent meeting join issues may occur.
+- Fixes an issue know to result in a device "hang" experience.
 
 <a name="Ver5"> </a>
-### Update 5 (3.1.98.0)  
+### (3.1.98.0)  
 ##### (00/00/0000)
 **New feature(s)** introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware 
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware.
+- NOTE: Building an image with 3.1.98.0 and Windows 10 Version 1709 requires the addition of Win10 January Update KB4056892.  Also, a PS1 script has been made available to more quickly build images.
 
 <a name="Ver4"> </a>
 ### Update 4 
