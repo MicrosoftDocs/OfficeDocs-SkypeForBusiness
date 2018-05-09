@@ -869,6 +869,42 @@ meet your needs.
         have any software packages associated with it. No customization is
         required for this step.
 
+### Create deployment for the task sequence
+
+1.  Select the task sequence, and then select **Deploy**.
+
+2.  Select **Browse** to select target collection for deployment.
+
+3.  Select **All Unknown Computers** and then select **OK**.
+
+4.  Select **Next**.
+
+5.  Select **Available** on the **Purpose** drop down list.
+
+> [!WARNING]
+> It is very important that **Purpose** is set to **Available**. Make sure that
+the **Purpose** is **NOT** set to **Required**. This might cause all computers
+to get the Skype Room Systems deployment image on when booted.
+
+
+6.  Select **Only Media and PXE** in the **Make available to the following**
+    list, and then select **Next**.
+
+7.  Do not specify any schedule and select **Next**.
+
+8.  Do not change anything within the **User Experience** section and select
+    **Next**.
+
+9.  Do not change anything within the **Alerts** section and select **Next**.
+
+10.  Do not change anything within the **Distribution Points** section and select
+    **Next**.
+
+11.  Confirm the settings and then select **Next**.
+
+12.  Select **Close**.
+
+
 Validate and troubleshoot the solution
 --------------------------------------
 
