@@ -24,25 +24,29 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
     
-- One of the following tablets:
+- One of the following tablets or consoles:
     
 **Supported tablets**
 |Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4    |Core i5  |4GB  |128GB  |
 |Surface Pro 4    |Core i5  |8GB  |256GB  |    
-|Surface Pro   |Core i5  |4GB  |128GB  |
-|Surface Pro   |Core i5  |8GB  |256GB  |
-|Surface Pro   |Core i7  |8GB  |128GB  |
-|Surface Pro   |Core i7  |16GB  |512GB  |
-|Surface Pro  |Core i7  |16GB  |1TB  |
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
+|Surface Pro (2017) |Core i7  |16GB  |1TB  |
    
 > [NOTE]
 > Core M3 processors are not supported.
+
+**Supported consoles**
+|Console|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+ <!-- HP dock is still pending  -->  
     
-The [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) is also supported.  
-    
-- One of the following docking station options to secure the tablet to the meeting room table. 
+- One of the following docking station options to secure a tablet to the meeting room table. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
@@ -50,8 +54,7 @@ The [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) is also supported.
     
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
