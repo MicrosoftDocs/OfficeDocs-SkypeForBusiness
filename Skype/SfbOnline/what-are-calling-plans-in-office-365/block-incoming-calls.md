@@ -13,7 +13,7 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 f1keywords: None
-ms.custom: PowerShell description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
+ms.custom:"Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
 
  # Block Inbound Calls
