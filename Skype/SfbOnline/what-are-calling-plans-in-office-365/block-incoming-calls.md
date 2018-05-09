@@ -9,7 +9,7 @@ ms.assetid:
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+ms.audience: - Admin
 appliesto: - Skype for Business
 localization_priority: Normal
 f1keywords: None
@@ -85,4 +85,4 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex). There are multiple tools available online to help validate a regex pattern match. If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant. 
 
 ## Related topics
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Set up your computer for skype for business online management using Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
