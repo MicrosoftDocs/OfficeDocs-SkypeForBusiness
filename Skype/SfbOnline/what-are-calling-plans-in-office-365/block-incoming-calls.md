@@ -1,4 +1,4 @@
---
+---
 title: "Block Inbound Calls in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -14,7 +14,7 @@ appliesto: - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom: - PowerShell
-description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
+ms.description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
 
 
