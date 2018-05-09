@@ -267,7 +267,6 @@ to host package source files:
     script named **Install-SRSv2-OS-Updates.ps1**.
 
 2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script.
-
 ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -282,7 +281,7 @@ to host package source files:
    }
 ```
 3.  Download the mandatory Windows Update packages into the same folder.  
-    > [!NOTE]    
+    > [!NOTE]
     > At the time this article was published, only
     [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)
     was required. Check [Configure a Skype Room Systems v2
@@ -734,26 +733,21 @@ the following conditions apply:
 
 >   \</unattend\>
 
-1.  In the Configuration Manager console, go to **Software Library** \>
+3.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
     Package**.
 
-2.  Enter the following information to create the package:
-
+4.  Enter the following information to create the package:
 -   Name: **SRS v2 - Sysprep Package**
-
 -   Manufacturer: **Microsoft Corporation**
-
 -   Version: **1.0.0**
-
 -   Select the **This package contains source files** check box, enter the path
     to the **SRS v2 – Sysprep Package** folder, and then select **Next**.
+5.  Select **Do not create a program**, and then select **Next**.
 
-3.  Select **Do not create a program**, and then select **Next**.
+6.  Review the **Confirm the settings** page, and then select **Next**.
 
-4.  Review the **Confirm the settings** page, and then select **Next**.
-
-5.  Select **Close**.
+7.  Select **Close**.
 
 ### Create the Windows 10 Enterprise package
 
@@ -785,28 +779,21 @@ need to create a driver package for each Surface Pro model you have in your
 environment.
 
 1.  Download the latest drivers and firmware.
-
     -   For Surface Pro:
         <https://www.microsoft.com/en-us/download/details.aspx?id=55484>
-
     -   For Surface Pro 4:
         <https://www.microsoft.com/en-us/download/details.aspx?id=49498>
 
-        Important
-
-        The drivers must be compatible with the Windows 10 Enterprise build and
+>        [!IMPORTANT]
+>        The drivers must be compatible with the Windows 10 Enterprise build and
         the Skype Room Systems v2 deployment kit version. For more information,
         see [Download the latest firmware and drivers for Surface
         devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
 
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and
     at the command prompt, enter one of the following commands:
-
-    -   msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="
-        C:\\_Sources\\Drivers\\Surface Pro"
-
-    -   msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="
-        C:\\_Sources\\Drivers\\Surface Pro 4"
+    -   `msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro"`
+    -   `msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro 4"`
 
 3.  In the Configuration Manager console, go to **Software Library** \>
     **Operating Systems** \> **Drivers**, and then select **Import Driver**.
@@ -839,8 +826,8 @@ environment.
 
 12. Move all the imported drivers to the newly created folder for easier
     navigation and operation.
-
-Repeat the same steps for other Surface Pro models you might have. For more
+> [!INFORMATION]
+> Repeat the same steps for other Surface Pro models you might have. For more
 information, see [Manage drivers in System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
