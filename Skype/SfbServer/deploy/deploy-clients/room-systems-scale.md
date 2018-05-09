@@ -21,7 +21,7 @@ With the easy-to-use methods provided by System Center Configuration Manager, yo
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
-![Skype Room Systems v2 deployment process with Configuration Manager](../../media/room-systems-scale-image1.png)
+![Skype Room Systems v2 deployment process using Configuration Manager](../../media/room-systems-scale-image1.png)
 
 > [!NOTE]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
@@ -32,128 +32,77 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
 
 ### System Center Configuration Manager requirements
 
--   System Center Configuration Manager version must be at least 1706 or above.     We recommend using 1710 or later. Check out [Support for Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) to learn about the Windows 10 versions that Configuration Manager supports.
+-   System Center Configuration Manager version must be at least 1706 or above. We recommend using 1710 or later. Check out [Support for Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) to learn about the Windows 10 versions that Configuration Manager supports.
 
--   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk)
-    that you can use with different versions of Configuration Manager, and
-    ensure that your deployment includes the correct version.
+-   A supported version of Windows Assessment and Deployment Kit (ADK) for Windows 10 must be installed. See the versions of the [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) that you can use with different versions of Configuration Manager, and ensure that your deployment includes the correct version.
 
--   The site system servers must have been assigned the distribution point role,
-    and the boot images should be enabled for [preboot execution environment
-    (PXE)
-    support](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)
-    to enable network-initiated deployments. If PXE support isn’t enabled, you
-    can use [bootable
-    media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)
-    for your deployments.
+-   The site system servers must have been assigned the distribution point role, and the boot images should be enabled for [preboot execution environment (PXE) support](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) to enable network-initiated deployments. If PXE support isn’t enabled, you can use [bootable media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments.
 
--   A network access account must be configured to support new computer (bare
-    metal) deployment scenarios. To learn more about the configuration of a
-    network access account, see [Manage accounts to access content in System
-    Center Configuration
-    Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   A network access account must be configured to support new computer (bare metal) deployment scenarios. To learn more about the configuration of a network access account, see [Manage accounts to access content in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   We recommend that you enable [multicast
-    support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network),
-    if you’re likely to deploy the same Skype Room Systems v2 image to multiple
-    units at the same time.
+-   We recommend that you enable [multicast support](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), if you’re likely to deploy the same Skype Room Systems v2 image to multiple units at the same time.
 
 ### Networking requirements
 
--   Your network should have a Dynamic Host Configuration Protocol (DHCP)
-    server, configured for automatic IP address distribution to the subnets
-    where Skype Room Systems v2 units will be deployed.
+-   Your network should have a Dynamic Host Configuration Protocol (DHCP) server, configured for automatic IP address distribution to the subnets where Skype Room Systems v2 units will be deployed.
 
-    -   **Note:** DHCP lease duration must be set to a value longer than the image
-        deployment duration. Otherwise, the deployment might fail.
+    > [!NOTE]
+    > DHCP lease duration must be set to a value longer than the image deployment duration. Otherwise, the deployment might fail.
 
--   Your network, including switches and virtual LANs (VLANs), should be
-    configured to support PXE. Refer to your network vendor for more information
-    about IP Helper and PXE configuration. Alternatively, you can use [bootable
-    media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)
-    for your deployments, if PXE support isn’t enabled.
+-   Your network, including switches and virtual LANs (VLANs), should be configured to support PXE. Refer to your network vendor for more information about IP Helper and PXE configuration. Alternatively, you can use [bootable media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) for your deployments, if PXE support isn’t enabled.
 
-> [!NOTE]
-> For Surface Pro devices, booting from the network (PXE boot) is only supported
-when you use an Ethernet adapter or docking station from Microsoft. Third-party
-Ethernet adapters don’t support PXE boot with Surface Pro. See [Ethernet
-adapters and Surface
-deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)
-for more information.
+    > [!NOTE]
+    > For Surface Pro devices, booting from the network (PXE boot) is only supported when you use an Ethernet adapter or docking station from Microsoft. Third-party Ethernet adapters don’t support PXE boot with Surface Pro. See [Ethernet adapters and Surface deployment](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) for more information.
 
 ## Configure System Center Configuration Manager for operating system deployment
 
-This article assumes you already have a healthy System Center Configuration
-Manager deployment, and doesn’t detail all the steps required to deploy and
-configure Configuration Manager from scratch. The [documentation and the
-configuration guidance](https://docs.microsoft.com/sccm/) on the System Center
-Configuration Manager is a great resource; we recommend you start with these
-resources if you haven’t yet deployed Configuration Manager.
+This article assumes you already have a healthy System Center Configuration Manager deployment, and doesn’t detail all the steps required to deploy and configure Configuration Manager from scratch. The [documentation and the configuration guidance](https://docs.microsoft.com/sccm/) on the System Center Configuration Manager is a great resource; we recommend you start with these resources if you haven’t yet deployed Configuration Manager.
 
-Use the following instructions to verify that the operating system deployment
-(OSD) features are configured properly:
+Use the following instructions to verify that the operating system deployment (OSD) features are configured properly.
 
 ### Validate and upgrade Configuration Manager
 
-1.  In the Configuration Manager console, go to **Administration** \> **Updates
-    and Servicing**.
+1.  In the Configuration Manager console, go to **Administration** \> **Updates and Servicing**.
 
-2.  Check the installed build and applicable updates that haven’t been installed
-    yet.
+2.  Check the installed build and applicable updates that haven’t been installed yet.
 
-3.  Review [Support for Windows 10 in System Center Configuration
-    Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client);
-    if you need to upgrade your deployment, select the update you want to
-    install, and then select **Download**.
+3.  Review [Support for Windows 10 in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); if you need to upgrade your deployment, select the update you want to install, and then select **Download**.
 
-4.  After the download is complete, select the update, and then select **Install
-    Update Pack**.
+4.  After the download is complete, select the update, and then select **Install Update Pack**.
 
 ### Configure distribution points to support PXE and multicast
 
-1.  In the Configuration Manager console, go to **Administration** \>
-    **Distribution Points**.
+1.  In the Configuration Manager console, go to **Administration** \> **Distribution Points**.
 
-2.  Select the distribution point server that will serve the Skype Room Systems
-    v2 deployment, and then select **Properties**.
+2.  Select the distribution point server that will serve the Skype Room Systems v2 deployment, and then select **Properties**.
 
 3.  Select the **PXE** tab, and ensure that the following settings are enabled: 
     -   Enable PXE support for clients
     -   Allow this distribution point to respond to incoming PXE requests
     -   Enable unknown computer support
 
-4.  *Optional:* To enable multicast support, select the **Multicast** tab, and
-    ensure that the following settings are enabled:
+4.  *Optional:* To enable multicast support, select the **Multicast** tab, and ensure that the following settings are enabled:
     -   Enable multicast to simultaneously send data to multiple clients
     -   Configure the UDP port range as per your network team’s recommendation
 
 ### Configure the Network Access Account
 
-1.  In the Configuration Manager console, go to **Administration** \> **Site
-    Configuration** \> **Sites**, and then select the site.
+1.  In the Configuration Manager console, go to **Administration** \> **Site Configuration** \> **Sites**, and then select the site.
 
-2.  In the **Settings** group, select **Configure Site Components** \>
-    **Software Distribution**.
+2.  In the **Settings** group, select **Configure Site Components** \> **Software Distribution**.
 
-3.  Select the **Network Access Account** tab. Set up one or more accounts, and
-    then select **OK**.
+3.  Select the **Network Access Account** tab. Set up one or more accounts, and then select **OK**.
 
 > [!NOTE]
-> The accounts don’t need any special rights, except for the **Access this
-computer from the network** right on the distribution point server. A generic
-domain user account will be appropriate. For more information, see [Manage
-accounts to access content in System Center Configuration
-Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> The accounts don’t need any special rights, except for the **Access this computer from the network** right on the distribution point server. A generic domain user account will be appropriate. For more information, see [Manage accounts to access content in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### Configure a boot image
 
-1.  In the Configuration Manager console, go to **Software Library** \>
-    **Operating System** \> **Boot Images**.
+1.  In the Configuration Manager console, go to **Software Library** \> **Operating System** \> **Boot Images**.
 
 2.  Select **Boot image (x64)**, and then select **Properties**.
 
-3.  Select the **Data Source** tab, and enable **Deploy this boot image from the
-    PXE-enabled distribution point**.
+3.  Select the **Data Source** tab, and enable **Deploy this boot image from the PXE-enabled distribution point**.
 
 4.  Select the **Optional Components** tab to install required components:
 
@@ -161,39 +110,22 @@ Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accou
 
     2.  Select **OK** to add HTML application support in to the boot image.
 
-5.  *Optional:* To customize the deployment experience, select the
-    **Customization** tab.
-    -   Enable **command support (testing only)** if you want to have access to
-        a command prompt during the deployment. When this is enabled, you can
-        start a command prompt by selecting F8 at any time during the
-        deployment.
-    -   You can also specify a custom background image to be displayed during
-        the deployment. To set an image, enable **Specify the custom background
-        image file (UNC path** and select your background.
+5.  *Optional:* To customize the deployment experience, select the **Customization** tab.
+    -   Enable **command support (testing only)** if you want to have access to a command prompt during the deployment. When this is enabled, you can         start a command prompt by selecting F8 at any time during the deployment.
+    -   You can also specify a custom background image to be displayed during the deployment. To set an image, enable **Specify the custom background image file (UNC path** and select your background.
 
-6.  When asked, select **Yes** and distribute the updated boot image to your
-    distribution points.
+6.  When asked, select **Yes** and distribute the updated boot image to your distribution points.
 
-For more information, see [Manage boot images with System Center Configuration
-Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+For more information, see [Manage boot images with System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
 
 > [!NOTE]
-> You can create a bootable USB media to initiate Configuration Manager task
-sequence–based deployments for environments that have no PXE support. The
-bootable media contains only the boot image, optional prestart commands and
-their required files, and Configuration Manager binaries to support booting into
-Windows PE and connecting to Configuration Manager for the rest of the
-deployment process. For more information, see [How to Create Bootable
-Media](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
+> You can create a bootable USB media to initiate Configuration Manager task sequence–based deployments for environments that have no PXE support. The bootable media contains only the boot image, optional prestart commands and their required files, and Configuration Manager binaries to support booting into Windows PE and connecting to Configuration Manager for the rest of the deployment process. For more information, see [How to Create Bootable Media](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## Create Configuration Manager packages
 
-Configuration Manager requires a number of packages to deploy and configure the
-Skype Room System v2 units.
+Configuration Manager requires a number of packages to deploy and configure the Skype Room System v2 units.
 
-You need to create and configure the following packages, and then distribute
-them to the Configuration Manager site systems that have been assigned the
-distribution point server role.
+You need to create and configure the following packages, and then distribute them to the Configuration Manager site systems that have been assigned the distribution point server role.
 
 | **Package name**                     | **Type**               | **Description**                                                                        |
 |--------------------------------------|------------------------|----------------------------------------------------------------------------------------|
@@ -212,12 +144,9 @@ For more information, see [Packages and programs in System Center Configuration 
 
 ### Create folders for the package source files
 
-Configuration Manager requires package source files to be organized in a
-specific folder structure when they’re first created and when they’re updated.
+Configuration Manager requires package source files to be organized in a specific folder structure when they’re first created and when they’re updated.
 
-Create the following folder structure on the System Center Configuration Manager
-central administration site or primary site, or on a server share you’re using
-to host package source files:
+Create the following folder structure on the System Center Configuration Manager central administration site or primary site, or on a server share you’re using to host package source files:
 
 -   SRS v2 - Microsoft OMS Agent Package
 -   SRS v2 - OS Updates Package
@@ -233,16 +162,11 @@ to host package source files:
 
 ### Create the Microsoft Operations Management Suite agent package
 
-1.  Download the Operations Management Suite X-64 agent from
-    <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1.  Download the Operations Management Suite X-64 agent from <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2.  Extract the package into the **SRS v2 - Microsoft OMS Agent Package** folder
-    by opening a Command Prompt window and entering **MMASetup-AMD64.exe /C:**
-    at the command prompt.
+2.  Extract the package into the **SRS v2 - Microsoft OMS Agent Package** folder by opening a Command Prompt window and entering **MMASetup-AMD64.exe /C:**     at the command prompt.
 
-3.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
-    Package**.
+3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 4.  Enter the following information to create the package:
 
@@ -250,12 +174,9 @@ to host package source files:
 
     -   Manufacturer**: Microsoft Corporation**
 
-    -   Version**: 8.1.11081.0** (enter the version of the downloaded
-        installation file)
+    -   Version**: 8.1.11081.0** (enter the version of the downloaded installation file)
 
-    -   Select the **This package contains source files** check box, enter the
-        path to the **SRS v2 - Microsoft OMS Agent Package** folder, and then
-        select **Next**.
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 - Microsoft OMS Agent Package** folder, and then select **Next**.
 
 5.  Select **Do not create a program**, and then select **Next**.
 
@@ -265,8 +186,7 @@ to host package source files:
 
 ### Create the operating system updates package
 
-1.  In the **SRS v2 - OS Updates Package** folder, create a new PowerShell
-    script named **Install-SRSv2-OS-Updates.ps1**.
+1.  In the **SRS v2 - OS Updates Package** folder, create a new PowerShell script named **Install-SRSv2-OS-Updates.ps1**.
 
 2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script.
 ```
@@ -284,23 +204,15 @@ to host package source files:
 ```
 3.  Download the mandatory Windows Update packages into the same folder.  
     > [!NOTE]
-    > At the time this article was published, only
-    [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)
-    was required. Check [Configure a Skype Room Systems v2
-    console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console),
-    to see whether any other updates are required.
+    > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Skype Room Systems v2 console](deploy-clients/console), to see whether any other updates are required.
 
-4.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
-    Package**.
+4.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 5.  Enter the following information to create the package:
     -   Name: **SRS v2 – OS Updates Package**
     -   Manufacturer: **Microsoft Corporation**
     -   Version: **1.0.0**
-    -   Select the **This package contains source files** check box, enter the
-        path to the **SRS v2 - OS Updates Package** folder, and then select
-        **Next**.
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 - OS Updates Package** folder, and then select **Next**.
 
 6.  Select **Do not create a program**, and then select **Next**.
 
@@ -310,27 +222,20 @@ to host package source files:
 
 ### Create the root certificate package (optional)
 
-You create this package to distribute the root certificate for devices that
-won’t be joined to an Active Directory domain. Create this package only if both
-the following conditions apply:
+You create this package to distribute the root certificate for devices that won’t be joined to an Active Directory domain. Create this package only if both the following conditions apply:
 -   Your deployment includes on-premises Lync or Skype for Business Server.
 -   Skype Room Systems v2 units are configured to work in a workgroup instead of
     a domain member.
 
-1.  Copy the root certificate into the **SRS v2 – Root Certificate Package**
-    folder.
+1.  Copy the root certificate into the **SRS v2 – Root Certificate Package** folder.
 
-2.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
-    Package**.
+2.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 3.  Enter the following information to create the package:
     -   Name: **SRS v2 – Root Certificate Package**
     -   Manufacturer: *Your organization’s name*
     -   Version: **1.0.0**
-    -   Select the **This package contains source files** check box, enter the
-        path to the **SRS v2 – Root Certificate Package** folder, and then
-        select **Next**.
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 – Root Certificate Package** folder, and then select **Next**.
 
 4.  Select **Do not create a program**, and then select **Next**.
 
@@ -340,24 +245,18 @@ the following conditions apply:
 
 ### Create the Skype Room Systems v2 deployment kit package
 
-1.  Download the latest version of the **Skype Room Systems v2 deployment kit**
-    from <https://go.microsoft.com/fwlink/?linkid=851168>, and install it to a
-    workstation.
+1.  Download the latest version of the **Skype Room Systems v2 deployment kit** from <https://go.microsoft.com/fwlink/?linkid=851168>, and install it to a workstation.
 
-2.  Copy the content from **C:\\Program Files (x86)\\Skype Room System
-    Deployment Kit** to the **SRS v2 - SRS Application Package** folder.
+2.  Copy the content from **C:\\Program Files (x86)\\Skype Room System Deployment Kit** to the **SRS v2 - SRS Application Package** folder.
 
-3.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
+3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create
     Package**.
 
 4.  Enter the following information to create the package:
     -   Name: **SRS v2 – SRS Application Package**
     -   Manufacturer: **Microsoft Corporation**
     -   Version: **3.1.104.0** (enter the version of the downloaded installation file)
-    -   Select the **This package contains source files** check box, enter the
-        path to the **SRS v2 – SRS Application Package** folder, and then select
-        **Next**.
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 – SRS Application Package** folder, and then select **Next**.
 5.  Select **Do not create a program**, and then select **Next**.
 
 6.  Review the **Confirm the settings** page, and then select **Next**.
@@ -366,8 +265,7 @@ the following conditions apply:
 
 ### Create the computer name assignment package
 
-1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML
-    application named **Set-SRSComputerName.hta** .
+1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML application named **Set-SRSComputerName.hta** .
 
 2.  Copy the following script into the **Set-SRSComputerName.hta** file.
 
@@ -459,9 +357,7 @@ End Sub
 
 ```
 
-1.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
-    Package**.
+1.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 2.  Enter the following information to create the package:
 
@@ -471,9 +367,7 @@ End Sub
 
     -   Version: **1.0.0**
 
-    -   Select the **This package contains source files** check box, enter the
-        path to the **SRS v2 - Set-SRSComputerName Package** folder, and then
-        select **Next**.
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 - Set-SRSComputerName Package** folder, and then select **Next**.
 
 3.  Select **Do not create a program**, and then select **Next**.
 
@@ -483,8 +377,7 @@ End Sub
 
 ### Create the Sysprep package
 
-1.  In the **SRS v2 – Sysprep Package** folder, create a new XML file named
-    **Unattend.xml** .
+1.  In the **SRS v2 – Sysprep Package** folder, create a new XML file named **Unattend.xml** .
 
 2.  Copy the following text into the **Unattend.xml** file.
 
@@ -569,16 +462,13 @@ End Sub
 
 ```
 
-3.  In the Configuration Manager console, go to **Software Library** \>
-    **Application Management** \> **Packages**, and then select **Create
-    Package**.
+3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 4.  Enter the following information to create the package:
 -   Name: **SRS v2 - Sysprep Package**
 -   Manufacturer: **Microsoft Corporation**
 -   Version: **1.0.0**
--   Select the **This package contains source files** check box, enter the path
-    to the **SRS v2 – Sysprep Package** folder, and then select **Next**.
+-   Select the **This package contains source files** check box, enter the path to the **SRS v2 – Sysprep Package** folder, and then select **Next**.
 5.  Select **Do not create a program**, and then select **Next**.
 
 6.  Review the **Confirm the settings** page, and then select **Next**.
@@ -587,170 +477,114 @@ End Sub
 
 ### Create the Windows 10 Enterprise package
 
-1.  Obtain a Windows 10 Enterprise x64 media, and copy the **install.wim** file
-    to the **Operating Systems\\Windows 10 Enterprise** folder.
+1.  Obtain a Windows 10 Enterprise x64 media, and copy the **install.wim** file to the **Operating Systems\\Windows 10 Enterprise** folder.
 
-2.  In the Configuration Manager console, go to **Software Library** \>
-    **Operating Systems** \> **Operating System Images**, and then select **Add
-    Operating System Image**.
+2.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Operating System Images**, and then select **Add Operating System Image**.
 
-3.  Specify the path to the **install.wim** file you just copied, and then
-    select **Next**.
+3.  Specify the path to the **install.wim** file you just copied, and then select **Next**.
 
-4.  Update the **Version** field to match the build number of the Windows 10
-    Enterprise image, and then select **Next**.
+4.  Update the **Version** field to match the build number of the Windows 10 Enterprise image, and then select **Next**.
 
 5.  Review the **Details** page, and then select **Next**.
 
 6.  Select **Close**.
 
-For more information, see [Manage operating system images with System Center
-Configuration
-Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
+For more information, see [Manage operating system images with System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
 
 ### Create Surface Pro device driver packages
 
-Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You
-need to create a driver package for each Surface Pro model you have in your
-environment.
+Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You need to create a driver package for each Surface Pro model you have in your environment.
 
 1.  Download the latest drivers and firmware.
     -   For Surface Pro:
-        <https://www.microsoft.com/en-us/download/details.aspx?id=55484>
+        <https://www.microsoft.com/download/details.aspx?id=55484>
     -   For Surface Pro 4:
-        <https://www.microsoft.com/en-us/download/details.aspx?id=49498>
+        <https://www.microsoft.com/download/details.aspx?id=49498>
 
 > [!IMPORTANT]
 > The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
 
-2.  Extract the downloaded driver and firmware. Open a Command Prompt window and
-    at the command prompt, enter one of the following commands:
+2.  Extract the downloaded driver and firmware. Open a Command Prompt window and at the command prompt, enter one of the following commands:
     -   `msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro"`
     -   `msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro 4"`
 
-3.  In the Configuration Manager console, go to **Software Library** \>
-    **Operating Systems** \> **Drivers**, and then select **Import Driver**.
+3.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Drivers**, and then select **Import Driver**.
 
-4.  Select **Import all drivers in the following network path (UNC)**, select
-    the source folder (for example, C:\\_Sources\\Drivers\\Surface Pro), and
-    then select **Next**.
+4.  Select **Import all drivers in the following network path (UNC)**, select the source folder (for example, C:\\_Sources\\Drivers\\Surface Pro), and then select **Next**.
 
-5.  On the **Specify the details for the imported drivers** page, select all the
-    listed drivers, and then select **Enable these drivers and allow computers
-    to install them**.
+5.  On the **Specify the details for the imported drivers** page, select all the listed drivers, and then select **Enable these drivers and allow computers to install them**.
 
-6.  Select **Categories**, create a new category that matches the Surface model,
-    select **OK**, and then select **Next**.
+6.  Select **Categories**, create a new category that matches the Surface model, select **OK**, and then select **Next**.
 
 7.  Select **New Package**.
 
-8.  Specify the package name that matches the Surface Pro model, enter a folder
-    path to store the driver package files in, select **OK**, and then select
-    **Next**.
+8.  Specify the package name that matches the Surface Pro model, enter a folder path to store the driver package files in, select **OK**, and then select **Next**.
 
-9.  On the **boot images** page, ensure that no boot images are selected, and
-    then select **Next**.
+9.  On the **boot images** page, ensure that no boot images are selected, and then select **Next**.
 
 10. Select **Close**.
 
-11. Go to **Software Library** \> **Operating Systems** \> **Drivers**, select
-    **Folder \> Create Folder**, and enter a folder name that matches the
-    Surface Pro model that you just imported the drivers for.
+11. Go to **Software Library** \> **Operating Systems** \> **Drivers**, select **Folder \> Create Folder**, and enter a folder name that matches the Surface Pro model that you just imported the drivers for.
 
-12. Move all the imported drivers to the newly created folder for easier
-    navigation and operation.
+12. Move all the imported drivers to the newly created folder for easier navigation and operation.
 
 > [!NOTE]
-> Repeat the same steps for other Surface Pro models you might have. For more
-information, see [Manage drivers in System Center Configuration
-Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+> Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
 ## Distribute Configuration Manager packages
 
-All the packages must be distributed to the servers that have been assigned the
-distribution point role in the Configuration Manager hierarchy. Follow the
-instructions below to initiate package distribution.
+All the packages must be distributed to the servers that have been assigned the distribution point role in the Configuration Manager hierarchy. Follow the instructions below to initiate package distribution.
 
 1.  Distribute software packages.
 
-    1.  In the Configuration Manager console, go to **Software Library** \>
-        **Application Management** \> **Packages**. Select all the software
-        packages you want to distribute, and then select **Distribute Content**.
+    1.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**. Select all the software packages you want to distribute, and then select **Distribute Content**.
 
     2.  Review the list of packages, and then select **Next**.
 
-    3.  Add all the distribution point servers (or distribution point groups,
-        depending on your Configuration Manager hierarchy) to the list, and then
-        select **Next**.
+    3.  Add all the distribution point servers (or distribution point groups, depending on your Configuration Manager hierarchy) to the list, and then select **Next**.
 
     4.  Select **Next**, and then select **Close**.
 
 2.  Distribute driver packages.
 
-    1.  In the Configuration Manager console, go to **Software Library** \>
-        **Operating Systems** \> **Driver Packages**. Select all the driver
-        packages you want to distribute, and then select **Distribute Content**.
+    1.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Driver Packages**. Select all the driver packages you want to distribute, and then select **Distribute Content**.
 
     2.  Review the list of packages, and then select **Next**.
 
-    3.  Add all the distribution point servers (or distribution point groups,
-        depending on your Configuration Manager hierarchy) to the list, and then
-        select **Next**.
+    3.  Add all the distribution point servers (or distribution point groups, depending on your Configuration Manager hierarchy) to the list, and then select **Next**.
 
     4.  Select **Next**, and then select **Close**.
 
 3.  Distribute operating system packages.
 
-    1.  In the Configuration Manager console, go to **Software Library** \>
-        **Operating Systems** \> **Operating System Images**. Select all the
-        operating system images you want to distribute, and then select
-        **Distribute Content**.
+    1.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Operating System Images**. Select all the operating system images you want to distribute, and then select **Distribute Content**.
 
     2.  Review the list of packages, and then select **Next**.
 
-    3.  Add all the distribution point servers (or distribution point groups,
-        depending on your Configuration Manager hierarchy) to the list, and then
-        select **Next**.
+    3.  Add all the distribution point servers (or distribution point groups, depending on your Configuration Manager hierarchy) to the list, and then select **Next**.
 
     4.  Select **Next**, and then select **Close**.
 
 > [!NOTE]
-> Package distribution might take some time, depending on the package size,
-Configuration Manager hierarchy, number of distribution point servers, and
-the bandwidth available in your network.
+> Package distribution might take some time, depending on the package size, Configuration Manager hierarchy, number of distribution point servers, and the bandwidth available in your network.
 
-> All the packages must be distributed before you can start deploying a Skype Room
-Systems v2 unit.
+> All the packages must be distributed before you can start deploying a Skype Room Systems v2 unit.
 
-> You can review the status of your package distribution in the Configuration
-Manager console by going to **Monitoring** \> **Distribution Status** \>
-**Content Status**.
+> You can review the status of your package distribution in the Configuration Manager console by going to **Monitoring** \> **Distribution Status** \> **Content Status**.
 
 ## Configuration Manager task sequences
 
-You use task sequences with System Center Configuration Manager to automate the
-steps for deploying an operating system image to a destination computer. To
-deploy a Skype Room Systems v2 unit in an automated fashion, you create a task
-sequence that references the boot image used to start the destination Skype Room
-Systems v2 computer, the Windows 10 Enterprise operating system image that you
-want to install, and any other additional content, such as other applications or
-software updates.
+You use task sequences with System Center Configuration Manager to automate the steps for deploying an operating system image to a destination computer. To deploy a Skype Room Systems v2 unit in an automated fashion, you create a task sequence that references the boot image used to start the destination Skype Room Systems v2 computer, the Windows 10 Enterprise operating system image that you want to install, and any other additional content, such as other applications or software updates.
 
 ### Import the sample task sequence
 
-You can download and easily import a sample task sequence and customize it to
-meet your needs.
+You can download and easily import a sample task sequence and customize it to meet your needs.
 
-1.  **Download** the sample task sequence, and copy the downloaded zip file to a
-    shared location.
+1.  **Download** the sample task sequence, and copy the downloaded zip file to a shared location.
 
-2.  In the Configuration Manager console, go to **Software Library** \>
-    **Operating Systems** \> **Task Sequences**, and then select **Import Task
-    Sequence**.
+2.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Task Sequences**, and then select **Import Task Sequence**.
 
-3.  Select **Browse**, go to the shared folder location you used in step 1,
-    select the **Skype Room Systems v2 Deployment (EN-US).zip** file, and then
-    select **Next**.
+3.  Select **Browse**, go to the shared folder location you used in step 1, select the **Skype Room Systems v2 Deployment (EN-US).zip** file, and then select **Next**.
 
 4.  Set **Action** to **Create New**, and then select **Next**.
 
@@ -766,122 +600,59 @@ meet your needs.
 
 1.  Walk through each step and complete the recommended updates:
 
-    1.  **Restart in Windows PE**: This step restarts and then boots the
-        computer into Windows PXE. No changes are required for this step.
+    1.  **Restart in Windows PE**: This step restarts and then boots the computer into Windows PXE. No changes are required for this step.
 
-    2.  **Partition Disk 0 – UEFI**: This step wipes the disk configuration and
-        creates partitions based on the configured settings. We recommend that
-        you don’t make any changes to this step.
+    2.  **Partition Disk 0 – UEFI**: This step wipes the disk configuration and creates partitions based on the configured settings. We recommend that you not make any changes to this step.
 
-    3.  **Set SRS Computer Name**: This step includes an HTML application to
-        provide a UI to set a computer name for the Skype Room Systems v2 unit
-        during the deployment.
-        -  This is an optional step, but it can only be disabled if you want to
-            manage computer naming through an alternate process.
-        -  Verify that the **SRS v2 - Set-SRSComputerName** package is
-            selected. If it isn’t, browse to the package and select it.
+    3.  **Set SRS Computer Name**: This step includes an HTML application to provide a UI to set a computer name for the Skype Room Systems v2 unit during the deployment.
+        -  This is an optional step, but it can only be disabled if you want to manage computer naming through an alternate process.
+        -  Verify that the **SRS v2 - Set-SRSComputerName** package is selected. If it isn’t, browse to the package and select it.
 
-    4.  **Apply Operating System**: This step specifies the operating system
-        image to be deployed and the unattended Sysprep answer file to use.
-        -  Verify that the correct Windows 10 Enterprise operating system image
-            file is selected.
-        -  Verify that **Use an unattended or Sysprep answer file for a custom
-            installation** is enabled, and the **SRS v2 - Sysprep Package** is
-            selected. Also ensure that **File Name** is set to **unattend.xml**.
+    4.  **Apply Operating System**: This step specifies the operating system image to be deployed and the unattended Sysprep answer file to use.
+        -  Verify that the correct Windows 10 Enterprise operating system image file is selected.
+        -  Verify that **Use an unattended or Sysprep answer file for a custom installation** is enabled, and the **SRS v2 - Sysprep Package** is selected. Also ensure that **File Name** is set to **unattend.xml**.
 
-    5.  **Apply Windows Settings**: This step gathers information about the
-        Windows installation.
-        -  Provide licensing and registration information including the product
-            key, local administrator account password, and time zone (depending
-            on your needs).
+    5.  **Apply Windows Settings**: This step gathers information about the Windows installation.
+        -  Provide licensing and registration information including the product key, local administrator account password, and time zone (depending on your needs).
 
-    6.  **Apply Network Settings**: This step allows you to specify a workgroup
-        or Active Directory domain name and organizational unit.
+    6.  **Apply Network Settings**: This step allows you to specify a workgroup or Active Directory domain name and organizational unit.
 
-    7.  **Apply Drivers:** This step and its sub-steps are used to deploy
-        applicable device drivers and firmware based on the Surface Pro model
-        you have. Update each step to specify the relevant driver package
-        associated with this deployment.
-        -   Each driver package is configured to leverage Windows Management
-            Instrumentation (WMI) filters to deploy relevant drivers and
-            firmware based on the Surface Pro make and model.
-        -   We highly recommend that you not alter the configuration of these
-            drivers, otherwise deployment might fail.
+    7.  **Apply Drivers:** This step and its sub-steps are used to deploy applicable device drivers and firmware based on the Surface Pro model you have. Update each step to specify the relevant driver package associated with this deployment.
+        -   Each driver package is configured to leverage Windows Management Instrumentation (WMI) filters to deploy relevant drivers and firmware based on the Surface Pro make and model.
+        -   We highly recommend that you not alter the configuration of these drivers, otherwise deployment might fail.
 
-    8.  **Set up Windows and Configuration Manager**: This step deploys and
-        configures the Configuration Manager client. Update this step to specify
-        the built-in Configuration Manager Client Package.
+    8.  **Set up Windows and Configuration Manager**: This step deploys and configures the Configuration Manager client. Update this step to specify the built-in Configuration Manager Client Package.
 
-    9.  **Install Root Certificate**: This step distributes the root certificate
-        for non–domain-joined devices, and therefore is optional.
-        -   Remove or disable this step if you don’t need to deploy a root
-            certificate to the Skype Room Systems v2 units.
-        -   If you do need to perform this step, verify that the **SRS v2 – Root
-            Certificate Package** is selected.
+    9.  **Install Root Certificate**: This step distributes the root certificate for non–domain-joined devices, and therefore is optional.
+        -   Remove or disable this step if you don’t need to deploy a root certificate to the Skype Room Systems v2 units.
+        -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** is selected.
 
-    10. **Install and Configure OMS Agent**: This step installs the 64-bit
-        version of the Microsoft Operations Management Suite agent and
-        configures the agent to connect to your Log Analytics workspace.
-        -   Disable this step only if you’re going to use some other platforms
-            to monitor the health of your Skype Room Systems v2 units.
-        -   Edit this step and update the command-line parameters to specify
-            your **Workspace ID** and **Workspace Key**.
-        -   See [Connect Windows computers to the Log Analytics service in
-            Azure](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms#configure-test-devices-for-operations-management-suite-setup)
-            for more information about obtaining the Operations Management Suite
-            Workspace ID and the primary key.
-        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is
-            selected.
-        -   For more information about monitoring the health of your Skype Room
-            Systems v2 deployment, see [Plan Skype Room Systems v2 management
-            with
-            OMS](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management)
-            and [Deploy Skype Room Systems v2 management with
-            OMS](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms#configure-test-devices-for-operations-management-suite-setup).
+    10. **Install and Configure OMS Agent**: This step installs the 64-bit version of the Microsoft Operations Management Suite agent and configures the agent to connect to your Log Analytics workspace.
+        -   Disable this step only if you’re going to use some other platforms to monitor the health of your Skype Room Systems v2 units.
+        -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
+        -   See [Connect Windows computers to the Log Analytics service in Azure](with-oms#configure-test-devices-for-operations-management-suite-setup) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
+        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is selected.
+        -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management) and [Deploy Skype Room Systems v2 management with OMS](with-oms#configure-test-devices-for-operations-management-suite-setup).
 
-    11. **Copy SRS v2 Configuration Files**: This step copies the required setup
-        and configuration files from the Skype Room Systems v2 deployment kit to
-        the local hard drive. No customization is required for this step.
+    11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Skype Room Systems v2 deployment kit to the local hard drive. No customization is required for this step.
 
-    12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating
-        system updates required with the Skype Room Systems v2 deployment. Do
-        the following:
-        -   Check [Configure a Skype Room Systems v2
-            console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console)
-            to see which updates are required.
-        -   Verify that your **SRS v2 – OS Updates Package** includes all the
-            required updates.
-        -   Verify that the S**RS v2 – OS Updates Package** is selected.
+    12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating system updates required with the Skype Room Systems v2 deployment. Do the following:
+        -   Check [Configure a Skype Room Systems v2 console](console) to see which updates are required.
+        -   Verify that your **SRS v2 – OS Updates Package** includes all the required updates.
+        -   Verify that the **SRS v2 – OS Updates Package** is selected.
         -   Verify that the PowerShell execution policy is set to **Bypass**.
 
-    13. **Restart Computer**: This step reboots the computer after the mandatory
-        operating system updates are installed. No customization is required for
-        this step.
+    13. **Restart Computer**: This step reboots the computer after the mandatory operating system updates are installed. No customization is required for this step.
 
-    14. **Add Local Skype User**: This step creates the local Skype account used
-        to automatically sign in to Windows and start the Skype Room Systems v2
-        application. This step doesn’t have any software package associated with
-        it, and no customization is required for it.
+    14. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Skype Room Systems v2 application. This step doesn’t have any software package associated with it, and no customization is required for it.
 
-    15. **Set up and configure SRS application**: This step installs and
-        configures the Skype Room Systems v2 application. This step uses the
-        locally copied bits to install the application and therefore doesn’t
-        have any software packages associated with it. No customization is
-        required for this step.
+    15. **Set up and configure SRS application**: This step installs and configures the Skype Room Systems v2 application. This step uses the locally copied bits to install the application and therefore doesn’t have any software packages associated with it. No customization is required for this step.
 
-Validate and troubleshoot the solution
---------------------------------------
+## Validate and troubleshoot the solution
 
-After you’ve completed the System Center Configuration Manager task sequences,
-you’ll need to perform a test run to validate that the task sequence can deploy
-and configure Skype Room Systems v2 units.
+After you’ve completed the System Center Configuration Manager task sequences, you’ll need to perform a test run to validate that the task sequence can deploy and configure Skype Room Systems v2 units.
 
-1.  Connect the test device to the wired network by using one of the supported
-    Ethernet adapters or using the Surface dock. If PXE boot functionality
-    hasn’t been configured for your environment, you can use the boot image on
-    the USB flash drive [that you created
-    earlier](https://docs.microsoft.com/en-us/sccm/osd/deploy-use/create-bootable-media)
-    to boot from USB and connect to Configuration Manager.
+1.  Connect the test device to the wired network by using one of the supported Ethernet adapters or using the Surface dock. If PXE boot functionality hasn’t been configured for your environment, you can use the boot image on the USB flash drive [that you created earlier](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) to boot from USB and connect to Configuration Manager.
 
 2.  Access the firmware and initiate PXE boot:
 
@@ -897,46 +668,33 @@ and configure Skype Room Systems v2 units.
 
     6.  Do one of the following:
 
-        -   Select **PXE boot**, and drag it to the top of the list. Alternatively, you can swipe left on network adapter to boot to the device immediately. This won’t affect the boot order.
+        -   Select **PXE boot**, and drag it to the top of the list. Alternatively, you can swipe left on the network adapter to boot to the device immediately. This won’t affect the boot order.
         -   Select the USB flash drive that holds the boot media.
 
 3.  Select **Exit**, and then select **Restart Now**.
 
 4.  When prompted, select **Enter** for network boot service.
 
-5.  Windows PE will load into memory, and the Task Sequence Wizard will start.
-    Select **Next** to continue.
+5.  Windows PE will load into memory, and the Task Sequence Wizard will start. Select **Next** to continue.
 
-6.  Select the task sequence that you imported earlier, and then select
-    **Next**.
+6.  Select the task sequence that you imported earlier, and then select **Next**.
 
-7.  After the disk configuration is applied, you’ll be prompted to specify a
-    computer name for the device. The user interface will display a recommended
-    computer name based on the serial number of the Surface Pro device. You can
-    either accept the proposed name or specify a new one. Follow the
-    instructions on the computer name assignment screen. When you select
-    **Accept**, the deployment begins.
+7.  After the disk configuration is applied, you’ll be prompted to specify a computer name for the device. The user interface will display a recommended computer name based on the serial number of the Surface Pro device. You can either accept the proposed name or specify a new one. Follow the instructions on the computer name assignment screen. When you select **Accept**, the deployment begins.
 
-8.  The rest of the deployment process is automatic and doesn’t ask for any more
-    user input.
+8.  The rest of the deployment process is automatic and doesn’t ask for any more user input.
 
-9.  After the deployment task sequence finishes configuring the device, you’ll
-    see the following configuration screen that asks you to configure the Skype
-    Room Systems v2 application settings.
+9.  After the deployment task sequence finishes configuring the device, you’ll see the following configuration screen that asks you to configure the Skype Room Systems v2 application settings.
 
     ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image2.png)
 
-10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
-    the application settings.
+10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure the application settings.
 
 11.  Validate that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
 
 
 To troubleshoot a failed installation, check the **SMSTS.log** file, which logs all the steps executed in a Configuration Manager task sequence.
 
-The SMSTS.log file is stored on one of a number of paths, depending on the stage
-of the build process. Check the following table to identify the path to the
-SMSTS.log file.
+The SMSTS.log file is stored on one of a number of paths, depending on the stage of the build process. Check the following table to identify the path to the SMSTS.log file.
 
 
 | **Deployment phase**                                                            | **Task sequence log path**                         |
@@ -948,19 +706,12 @@ SMSTS.log file.
 | Task sequence execution complete                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
 > [!TIP]
-> You can select F8 at any time during the task sequence to open a command console
-and get access to the SMSTS.log file.
+> You can select F8 at any time during the task sequence to open a command console and get access to the SMSTS.log file.
 
-To resolve PXE boot issues, check the two log files on the Configuration Manager
-server that are specific to PXE actions:
+To resolve PXE boot issues, check the two log files on the Configuration Manager server that are specific to PXE actions:
 
--   **Pxecontrol.log**, located in the Configuration Manager installation logs
-    directory
+-   **Pxecontrol.log**, located in the Configuration Manager installation logs directory
 
--   **Smspxe.log**, located in Configuration Manager Management Point (MP) logs
-    directory
+-   **Smspxe.log**, located in Configuration Manager Management Point (MP) logs directory
 
-For a complete list of the log files that you can use to further troubleshoot
-your Configuration Manager installation, see [Log files in System Center
-Configuration
-Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+For a complete list of the log files that you can use to further troubleshoot your Configuration Manager installation, see [Log files in System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
