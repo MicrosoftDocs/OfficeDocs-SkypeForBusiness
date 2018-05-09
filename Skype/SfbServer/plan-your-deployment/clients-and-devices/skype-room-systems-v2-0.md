@@ -48,9 +48,17 @@ Typically, the bundles and integrated units include preinstalled software, where
 You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. 
 
 <table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ul></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul></td></tr>
 </table>
+
+|    |     |
+|-----------|------------|
+|![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ul> |
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul> |
+
+
+
 
 ## Room inventory and capability planning
 
@@ -65,8 +73,8 @@ After you create an inventory of the equipment and capabilities in each existing
 As part of your discovery, it’s key to consider room acoustics and layout. For example, check that the chairs in the room won’t block the camera view. Verify that the room doesn’t have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Skype Room Systems v2. There are many factors to consider that your audio-visual (AV) team or partner will be able to advise on. 
 
 <table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the rooms in scope, and define Skype Room Systems v2 configurations for them.</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Which rooms are in scope for this deployment?</li><li>Which sites are in scope for your deployment?</li><li>Who will undertake the meeting rooms inventory?</li></ul></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the rooms in scope, and define Skype Room Systems v2 configurations for them.</li></ul></td></tr>
 </table>
 
 _Sample meeting/conference room inventory_
@@ -91,8 +99,8 @@ Based on the vendor you prefer, use the information provided in the requirements
 **Pro Tip** – Some room types might not be applicable for your deployment.
 
 <table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul></td></tr>
 </table>
 
 _Sample Skype Room Systems v2 deployment template for your organization_
@@ -115,6 +123,6 @@ You can acquire devices from a number of partners who are listed in the [require
 Depending on your deployment scale and approach, you might decide to have the Skype Room Systems v2 and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
 
 <table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm that your sites are ready.</li></ol></td></tr>
+<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul></td></tr>
+<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Confirm that your sites are ready.</li></ul></td></tr>
 </table>
