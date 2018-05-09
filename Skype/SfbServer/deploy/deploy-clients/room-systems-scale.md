@@ -281,9 +281,9 @@ to host package source files:
       Wait-Process -name wusa
    }
 ```
-
 3.  Download the mandatory Windows Update packages into the same folder.  
-    **Note** At the time this article was published, only
+    > [!NOTE]    
+    > At the time this article was published, only
     [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)
     was required. Check [Configure a Skype Room Systems v2
     console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console),
@@ -312,9 +312,7 @@ to host package source files:
 You create this package to distribute the root certificate for devices that
 won’t be joined to an Active Directory domain. Create this package only if both
 the following conditions apply:
-
 -   Your deployment includes on-premises Lync or Skype for Business Server.
-
 -   Skype Room Systems v2 units are configured to work in a workgroup instead of
     a domain member.
 
@@ -326,13 +324,9 @@ the following conditions apply:
     Package**.
 
 3.  Enter the following information to create the package:
-
     -   Name: **SRS v2 – Root Certificate Package**
-
     -   Manufacturer: *Your organization’s name*
-
     -   Version: **1.0.0**
-
     -   Select the **This package contains source files** check box, enter the
         path to the **SRS v2 – Root Certificate Package** folder, and then
         select **Next**.
@@ -357,18 +351,12 @@ the following conditions apply:
     Package**.
 
 4.  Enter the following information to create the package:
-
     -   Name: **SRS v2 – SRS Application Package**
-
     -   Manufacturer: **Microsoft Corporation**
-
-    -   Version: **3.1.104.0** (enter the version of the downloaded installation
-        file)
-
+    -   Version: **3.1.104.0** (enter the version of the downloaded installation file)
     -   Select the **This package contains source files** check box, enter the
         path to the **SRS v2 – SRS Application Package** folder, and then select
         **Next**.
-
 5.  Select **Do not create a program**, and then select **Next**.
 
 6.  Review the **Confirm the settings** page, and then select **Next**.
