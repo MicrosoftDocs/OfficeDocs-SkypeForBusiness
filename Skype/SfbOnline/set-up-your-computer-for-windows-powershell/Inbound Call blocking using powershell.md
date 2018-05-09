@@ -32,14 +32,14 @@ This feature is not yet available for Direct Routing.
  Blocked callers may experience slightly different behaviors when they have been blocked. The behavior will be based on how the blocked caller’s carrier handles the notification that the call is not allowed to be successfully completed. Examples may include a carrier message stating the call cannot be completed as dialed, or simply dropping the call.
 
 ## Call Blocking Admin Controls and Information
-Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. It does not matter what order the expressions are listed – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
+Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
 
 ## Call Blocking PowerShell Commands
 
 *InboundBlockedNumberPattern*
 Number patterns are managed via the *CsInboundBlockedNumberPattern* commands **New**, **Get**, **Set**, and **Remove**.  
 
-You can manage a given pattern by using these commandlets, including the ability to toggle the activation of a given pattern.
+You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern.
 - *Get-CsInboundBlockedNumberPattern*
 Returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.
 - *New-CsInboundBlockedNumberPattern*
