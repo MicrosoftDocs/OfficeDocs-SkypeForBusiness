@@ -38,10 +38,10 @@ You can find out more about these dependencies in the planning guidance links be
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Confirm that your sites meet the key requirements for Skype Room Systems v2.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to plan your device deployment and configuration.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for Skype Room Systems v2.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
 
 **Pro Tip -** From a site-by-site planning perspective, you might find the following assets useful. They cover more than just Skype Room Systems v2 and can be used in a full rollout of Skype for Business Online:
 
@@ -75,10 +75,10 @@ Depending on the collaboration scenarios that you’ve decided to enable with yo
 For more information about Skype Room Systems accounts, see [Deploy Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/room-systems-v2).
 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which scenarios you’ll support, and identify licensing requirements for your Skype Room Systems v2 service accounts.</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Plan for operations.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you’ll support, and identify licensing requirements for your Skype Room Systems v2 service accounts.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li></ul>| 
 
 
 _Sample Skype Room Systems v2 service account planning table_
@@ -128,10 +128,10 @@ Each Skype Room Systems v2 device requires a dedicated and unique resource accou
 If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. 
 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the naming convention for your Skype Room Systems v2 accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to plan your device deployment.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your Skype Room Systems v2 accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>| 
 
 
 ### Device software installation 
@@ -152,10 +152,10 @@ We provide guidance on how to use the [Microsoft Operations Management Suite](ht
 
 An additional consideration is whether the Skype Room Systems v2 will be domain-joined. Information about the benefits of domain joining can be found in [Skype Room System domain joining considerations](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/domain-joining-considerations). 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Skype Room Systems device-naming convention to be used during your deployment.</li><li>Decide whether you’ll join Skype Room Systems v2 devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you’ll use Operations Management Suite to monitor the Skype Room Systems v2 deployment.</li><li>Decide which method you’ll use to deploy the software and agents to the Skype Room Systems v2 system in preparation for the device deployment. </li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start to plan your device deployment approach.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the Skype Room Systems device-naming convention to be used during your deployment.</li><li>Decide whether you’ll join Skype Room Systems v2 devices to your domain, and how to manage and configure local accounts. </li><li>Decide whether you’ll use Operations Management Suite to monitor the Skype Room Systems v2 deployment.</li><li>Decide which method you’ll use to deploy the software and agents to the Skype Room Systems v2 system in preparation for the device deployment. </li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment approach.</li></ul>| 
 
 
 ### Device deployment
@@ -163,10 +163,10 @@ An additional consideration is whether the Skype Room Systems v2 will be domain-
 After you’ve deployed your software to the Skype Room Systems v2 units, create your plan to ship the devices and their assigned peripheral devices to your rooms, and then proceed to installation and configuration. 
 
 
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the Skype Room Systems v2 devices on site and undertake the configuration and testing.</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Start device testing.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install the Skype Room Systems v2 devices on site and undertake the configuration and testing.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>| 
 
 _Sample deployment table_
 
@@ -185,12 +185,10 @@ For more information about how to use the XML configuration file, see [Manage a 
 
 You can use [remote PowerShell](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#remote-management-using-powershell) to pull the Skype Room Systems v2 configuration for reporting needs. 
 
-
-
-<table>
-<tr><td>![](../../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide whether you’ll manually configure each Skype Room Systems v2 system or use a central XML file (one per Skype Room Systems v2 device).</li></ol></td></tr>
-<tr><td>![](../../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Define your remote management approach.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you’ll manually configure each Skype Room Systems v2 system or use a central XML file (one per Skype Room Systems v2 device).</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your remote management approach.</li></ul>| 
 
 ### Testing
 
