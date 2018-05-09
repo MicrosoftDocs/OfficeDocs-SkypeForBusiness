@@ -21,9 +21,10 @@ With the easy-to-use methods provided by System Center Configuration Manager, yo
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
-**Note/Important**
+![Skype Room Systems v2 deployment process with Configuration Manager](../../media/room-systems-scale-image1.png)
 
-This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
+> [!NOTE]
+> This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
 
 ## Validate prerequisites
 
@@ -63,8 +64,7 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
     server, configured for automatic IP address distribution to the subnets
     where Skype Room Systems v2 units will be deployed.
 
-    -   Note  
-        DHCP lease duration must be set to a value longer than the image
+    -   **Note:** DHCP lease duration must be set to a value longer than the image
         deployment duration. Otherwise, the deployment might fail.
 
 -   Your network, including switches and virtual LANs (VLANs), should be
@@ -73,9 +73,8 @@ To deploy Skype Room Systems v2 with Configuration Manager, ensure that you meet
     media](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)
     for your deployments, if PXE support isn’t enabled.
 
-**Note**
-
-For Surface Pro devices, booting from the network (PXE boot) is only supported
+> [!NOTE]
+> For Surface Pro devices, booting from the network (PXE boot) is only supported
 when you use an Ethernet adapter or docking station from Microsoft. Third-party
 Ethernet adapters don’t support PXE boot with Surface Pro. See [Ethernet
 adapters and Surface
@@ -118,20 +117,15 @@ Use the following instructions to verify that the operating system deployment
 2.  Select the distribution point server that will serve the Skype Room Systems
     v2 deployment, and then select **Properties**.
 
-3.  Select the **PXE** tab, and ensure that the following settings are enabled:
-
-    1.  Enable PXE support for clients
-
-    2.  Allow this distribution point to respond to incoming PXE requests
-
-    3.  Enable unknown computer support
+3.  Select the **PXE** tab, and ensure that the following settings are enabled: 
+    -   Enable PXE support for clients
+    -   Allow this distribution point to respond to incoming PXE requests
+    -   Enable unknown computer support
 
 4.  *Optional:* To enable multicast support, select the **Multicast** tab, and
     ensure that the following settings are enabled:
-
-    1.  Enable multicast to simultaneously send data to multiple clients
-
-    2.  Configure the UDP port range as per your network team’s recommendation
+    -   Enable multicast to simultaneously send data to multiple clients
+    -   Configure the UDP port range as per your network team’s recommendation
 
 ### Configure the Network Access Account
 
@@ -144,7 +138,8 @@ Use the following instructions to verify that the operating system deployment
 3.  Select the **Network Access Account** tab. Set up one or more accounts, and
     then select **OK**.
 
-The accounts don’t need any special rights, except for the **Access this
+> [!NOTE]
+> The accounts don’t need any special rights, except for the **Access this
 computer from the network** right on the distribution point server. A generic
 domain user account will be appropriate. For more information, see [Manage
 accounts to access content in System Center Configuration
@@ -168,13 +163,11 @@ Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accou
 
 5.  *Optional:* To customize the deployment experience, select the
     **Customization** tab.
-
-    1.  Enable **command support (testing only)** if you want to have access to
+    -   Enable **command support (testing only)** if you want to have access to
         a command prompt during the deployment. When this is enabled, you can
         start a command prompt by selecting F8 at any time during the
         deployment.
-
-    2.  You can also specify a custom background image to be displayed during
+    -   You can also specify a custom background image to be displayed during
         the deployment. To set an image, enable **Specify the custom background
         image file (UNC path** and select your background.
 
@@ -184,9 +177,8 @@ Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accou
 For more information, see [Manage boot images with System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
 
-Note
-
-You can create a bootable USB media to initiate Configuration Manager task
+> [!NOTE]
+> You can create a bootable USB media to initiate Configuration Manager task
 sequence–based deployments for environments that have no PXE support. The
 bootable media contains only the boot image, optional prestart commands and
 their required files, and Configuration Manager binaries to support booting into
@@ -216,8 +208,7 @@ distribution point server role.
 | Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                  |
 | Surface Pro 4                        | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro 4                |
 
-For more information, see [Packages and programs in System Center Configuration
-Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+For more information, see [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
 ### Create folders for the package source files
 
@@ -229,25 +220,15 @@ central administration site or primary site, or on a server share you’re using
 to host package source files:
 
 -   SRS v2 - Microsoft OMS Agent Package
-
 -   SRS v2 - OS Updates Package
-
 -   SRS v2 - Root Certificate Package
-
 -   SRS v2 - Set-SRSComputerName Package
-
 -   SRS v2 - SRS Application Package
-
 -   SRS v2 - Sysprep Package
-
 -   Drivers
-
     -   Surface Pro
-
     -   Surface Pro 4
-
 -   Operating Systems
-
     -   Windows 10 Enterprise
 
 ### Create the Microsoft Operations Management Suite agent package
@@ -288,65 +269,51 @@ to host package source files:
     script named **Install-SRSv2-OS-Updates.ps1**.
 
 2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script.
-
->   \# Install-SRSv2-OS-Updates.ps1
-
->   \$strPath = split-path -parent \$MyInvocation.MyCommand.Definition
-
->   \$total = gci \$strPath \*.msu \| measure \| Select-Object -expand Count
-
->   \$i = 0
-
->   gci \$strPath \*.msu \| ForEach-Object {
-
->   \$i++
-
->   WUSA ""\$_.FullName /quiet /norestart""
-
->   Write-Progress -activity "Applying Mandatory Updates" -status "Installing
->   \$\_ .. \$i of \$total" -percentComplete ((\$i / \$total) \* 100)
-
->   Wait-Process -name wusa
-
->   }
-
-1.  Download the mandatory Windows Update packages into the same folder.  
-    **Note** At the time this article was published, only
+```
+   # Install-SRSv2-OS-Updates.ps1
+   $strPath = split-path -parent $MyInvocation.MyCommand.Definition
+   $total = gci $strPath *.msu | measure | Select-Object -expand Count
+   $i = 0
+   gci $strPath *.msu | ForEach-Object {
+      $i++
+      WUSA ""$_.FullName /quiet /norestart""
+      Write-Progress -activity "Applying Mandatory Updates" -status "Installing
+      $_ .. $i of $total" -percentComplete (($i / $total) * 100)
+      Wait-Process -name wusa
+   }
+```
+3.  Download the mandatory Windows Update packages into the same folder.  
+    > [!NOTE]
+    > At the time this article was published, only
     [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)
     was required. Check [Configure a Skype Room Systems v2
     console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console),
     to see whether any other updates are required.
 
-2.  In the Configuration Manager console, go to **Software Library** \>
+4.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
     Package**.
 
-3.  Enter the following information to create the package:
-
+5.  Enter the following information to create the package:
     -   Name: **SRS v2 – OS Updates Package**
-
     -   Manufacturer: **Microsoft Corporation**
-
     -   Version: **1.0.0**
-
     -   Select the **This package contains source files** check box, enter the
         path to the **SRS v2 - OS Updates Package** folder, and then select
         **Next**.
 
-4.  Select **Do not create a program**, and then select **Next**.
+6.  Select **Do not create a program**, and then select **Next**.
 
-5.  Review the **Confirm the settings** page, and then select **Next**.
+7.  Review the **Confirm the settings** page, and then select **Next**.
 
-6.  Select **Close**.
+8.  Select **Close**.
 
 ### Create the root certificate package (optional)
 
 You create this package to distribute the root certificate for devices that
 won’t be joined to an Active Directory domain. Create this package only if both
 the following conditions apply:
-
 -   Your deployment includes on-premises Lync or Skype for Business Server.
-
 -   Skype Room Systems v2 units are configured to work in a workgroup instead of
     a domain member.
 
@@ -358,13 +325,9 @@ the following conditions apply:
     Package**.
 
 3.  Enter the following information to create the package:
-
     -   Name: **SRS v2 – Root Certificate Package**
-
     -   Manufacturer: *Your organization’s name*
-
     -   Version: **1.0.0**
-
     -   Select the **This package contains source files** check box, enter the
         path to the **SRS v2 – Root Certificate Package** folder, and then
         select **Next**.
@@ -389,18 +352,12 @@ the following conditions apply:
     Package**.
 
 4.  Enter the following information to create the package:
-
     -   Name: **SRS v2 – SRS Application Package**
-
     -   Manufacturer: **Microsoft Corporation**
-
-    -   Version: **3.1.104.0** (enter the version of the downloaded installation
-        file)
-
+    -   Version: **3.1.104.0** (enter the version of the downloaded installation file)
     -   Select the **This package contains source files** check box, enter the
         path to the **SRS v2 – SRS Application Package** folder, and then select
         **Next**.
-
 5.  Select **Do not create a program**, and then select **Next**.
 
 6.  Review the **Confirm the settings** page, and then select **Next**.
@@ -414,173 +371,93 @@ the following conditions apply:
 
 2.  Copy the following script into the **Set-SRSComputerName.hta** file.
 
->   \<!DOCTYPE HTML\>
-
->   \<html\>
-
->   \<head\>
-
->   \<title\>Set SRS Computer Name\</title\>
-
->   \<HTA:APPLICATION
-
->   APPLICATIONNAME="Set SRS Computer Name"
-
->   ID="SetSRSComputerName"
-
->   VERSION="1.0"
-
->   SCROLL="no"
-
->   SINGLEINSTANCE="yes"
-
->   WINDOWSTATE="maximize"
-
->   MaximizeButton="no"
-
->   MinimizeButton="no"
-
->   SysMenu="no"
-
->   ShowInTaskbar="no"
-
->   Caption="no"
-
->   /\>
-
->   \<style type="text/css"\>
-
->   body {
-
->   background-color: \#fdfeff;
-
->   color: darkblue;
-
->   font-family: Calibri;
-
->   font-size: 12pt;
-
->   margin: 4em 3em;
-
->   }
-
->   \</style\>
-
->   \</head\>
-
->   \<script language="VBScript"\>
-
->   Public strNewComputerName
-
->   Sub GenerateComputerName()
-
->   strComputer = "."
-
->   Set objWMIService = GetObject("winmgmts:\\\\" & strComputer &
->   "\\root\\cimv2")
-
->   Set colItems = objWMIService.ExecQuery("Select \* from Win32_BIOS",,48)
-
->   For Each objItem in colItems
-
->   strSerialNumber = objItem.SerialNumber
-
->   Next
-
->   strNewComputerName = "SRS-" & right(replace(strSerialNumber, "-","") ,10)
-
->   TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
-
->   strHTMLText = strHTMLText & "\<br\> Computer name to be assigned: \<font
->   color = red\>" & strNewComputerName & "\</font\>"
-
->   strHTMLText = strHTMLText & "\<br\>\<br\> Click Accept to use this as the
->   computer name and continue deployment, or Change to set a new name."
-
->   strHTMLText = strHTMLText & "\<p\>\<input type=""button"" value=""Accept""
->   name = ""Accept_Button"" onclick=""SetComputerName"" /\>"
-
->   strHTMLText = strHTMLText & " \<input type=""button"" value=""Change"" name
->   = ""Change_Button"" onclick=""ChangeComputerName"" /\>"
-
->   TextArea2.innerHTML = strHTMLText
-
->   End Sub
-
->   Sub SetComputerName()
-
->   dim result
-
->   result = MsgBox("Computer Name to be assigned: " & strNewComputerName
->   &vbcrlf & "Are you sure you want to continue?", 36)
-
->   If (result = vbYes) then
-
->   SET env = CreateObject("Microsoft.SMS.TSEnvironment")
-
->   env("OSDComputerName") = strNewComputerName
-
->   self.close
-
->   elseif (result = vbNo) then
-
->   Window_OnLoad
-
->   End If
-
->   End Sub
-
->   Sub UpdateComputerName()
-
->   strNewComputerName = newcomputername.value
-
->   if len(trim(strNewComputerName)) = 0 then
-
->   MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
-
->   exit sub
-
->   end if
-
->   SetComputerName
-
->   End Sub
-
->   Sub ChangeComputerName()
-
->   TextArea2.innerHTML = "\<p\>Type the new computer name and click Accept:
->   \<input type=""text"" name=""newcomputername"" value =" & strNewComputerName
->   & " /\>"
-
->   TextArea2.innerHTML = TextArea2.innerHTML & "\<br\>\<input type=""button""
->   value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName""
->   /\>"
-
->   End Sub
-
->   Sub Window_OnLoad
-
->   Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
-
->   oTSProgressUI.CloseProgressDialog
-
->   GenerateComputerName
-
->   End Sub
-
->   \</script\>
-
->   \<body\>
-
->   \<span id = "TextArea1"\>\</span\>
-
->   \<span id = "TextArea2"\>
-
->   \</span\>
-
->   \</body\>
-
->   \</html\>
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Set SRS Computer Name</title>
+<HTA:APPLICATION
+  APPLICATIONNAME="Set SRS Computer Name"
+  ID="SetSRSComputerName"
+  VERSION="1.0"
+  SCROLL="no"
+  SINGLEINSTANCE="yes"
+  WINDOWSTATE="maximize"
+  MaximizeButton="no"
+  MinimizeButton="no"
+  SysMenu="no"
+  ShowInTaskbar="no"
+  Caption="no"
+  />
+<style type="text/css">
+body {
+	background-color: #fdfeff;
+	color: darkblue;
+	font-family: Calibri;
+	font-size: 12pt;
+	margin: 4em 3em;
+}
+</style>
+</head>
+<script language="VBScript">
+Public strNewComputerName
+Sub GenerateComputerName()
+	strComputer = "."
+	Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+	Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
+	For Each objItem in colItems
+		strSerialNumber = objItem.SerialNumber
+	Next
+	strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
+	TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
+	strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
+	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
+	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
+	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
+	TextArea2.innerHTML = strHTMLText	
+End Sub
+
+Sub SetComputerName()
+	dim result
+	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
+	If (result = vbYes) then 
+		SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+		env("OSDComputerName") = strNewComputerName
+		self.close	
+	elseif (result = vbNo) then
+		Window_OnLoad
+	End If
+End Sub
+
+Sub UpdateComputerName()
+	strNewComputerName = newcomputername.value
+	if len(trim(strNewComputerName)) = 0 then
+		MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
+		exit sub
+	end if
+	SetComputerName
+End Sub
+
+Sub ChangeComputerName()
+	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
+	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
+End Sub
+
+Sub Window_OnLoad
+	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
+	oTSProgressUI.CloseProgressDialog
+	GenerateComputerName
+End Sub
+</script>
+
+<body>
+<span id = "TextArea1"></span>
+<span id = "TextArea2">
+</span>
+</body>
+</html>
+
+```
 
 1.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
@@ -611,193 +488,102 @@ the following conditions apply:
 
 2.  Copy the following text into the **Unattend.xml** file.
 
->   \<?xml version="1.0" encoding="utf-8"?\>
-
->   \<unattend xmlns="urn:schemas-microsoft-com:unattend"\>
-
->   \<servicing\>
-
->   \<package action="configure"\>
-
->   \<assemblyIdentity name="Microsoft-Windows-Foundation-Package"
->   version="10.0.15063.0" processorArchitecture="amd64"
->   publicKeyToken="31bf3856ad364e35" language="" /\>
-
->   \<selection name="Client-DeviceLockdown" state="true" /\>
-
->   \<selection name="Client-EmbeddedLogon" state="true" /\>
-
->   \<selection name="Client-EmbeddedBootExp" state="true" /\>
-
->   \<selection name="Client-EmbeddedShellLauncher" state="true" /\>
-
->   \<selection name="Client-KeyboardFilter" state="true" /\>
-
->   \<selection name="Internet-Explorer-Optional-amd64" state="false" /\>
-
->   \<selection name="MediaPlayback" state="false" /\>
-
->   \<selection name="WindowsMediaPlayer" state="false" /\>
-
->   \<selection name="Xps-Foundation-Xps-Viewer" state="false" /\>
-
->   \<selection name="WorkFolders-Client" state="false" /\>
-
->   \<selection name="SMB1Protocol" state="false" /\>
-
->   \<selection name="SearchEngine-Client-Package" state="false" /\>
-
->   \<selection name="Printing-Foundation-Features" state="false" /\>
-
->   \<selection name="FaxServicesClientPackage" state="false" /\>
-
->   \<selection name="Printing-Foundation-InternetPrinting-Client" state="false"
->   /\>
-
->   \<selection name="Printing-XPSServices-Features" state="false" /\>
-
->   \<selection name="Printing-PrintToPDFServices-Features" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V-Hypervisor" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V-All" state="false" /\>
-
->   \<selection name="Microsoft-Hyper-V" state="false" /\>
-
->   \</package\>
-
->   \</servicing\>
-
->   \<settings pass="auditSystem"\>
-
->   \<component name="Microsoft-Windows-Shell-Setup"
->   processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
->   language="neutral" versionScope="nonSxS"
->   xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
->   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\>
-
->   \<AutoLogon\>
-
->   \<Enabled\>true\</Enabled\>
-
->   \<Username\>Admin\</Username\>
-
->   \<Password\>
-
->   \<Value\>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \</AutoLogon\>
-
->   \<UserAccounts\>
-
->   \<LocalAccounts\>
-
->   \<LocalAccount wcm:action="add"\>
-
->   \<Password\>
-
->   \<Value\>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \<Name\>Admin\</Name\>
-
->   \<Group\>Administrators\</Group\>
-
->   \<DisplayName\>Administrator\</DisplayName\>
-
->   \<Description\>Administrator\</Description\>
-
->   \</LocalAccount\>
-
->   \</LocalAccounts\>
-
->   \</UserAccounts\>
-
->   \</component\>
-
->   \</settings\>
-
->   \<settings pass="oobeSystem"\>
-
->   \<component name="Microsoft-Windows-Shell-Setup"
->   processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
->   language="neutral" versionScope="nonSxS"
->   xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"
->   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\>
-
->   \<OOBE\>
-
->   \<HideEULAPage\>true\</HideEULAPage\>
-
->   \<HideLocalAccountScreen\>true\</HideLocalAccountScreen\>
-
->   \<HideOEMRegistrationScreen\>true\</HideOEMRegistrationScreen\>
-
->   \<HideOnlineAccountScreens\>true\</HideOnlineAccountScreens\>
-
->   \<HideWirelessSetupInOOBE\>true\</HideWirelessSetupInOOBE\>
-
->   \<SkipMachineOOBE\>true\</SkipMachineOOBE\>
-
->   \<SkipUserOOBE\>true\</SkipUserOOBE\>
-
->   \<ProtectYourPC\>1\</ProtectYourPC\>
-
->   \</OOBE\>
-
->   \<AutoLogon\>
-
->   \<Enabled\>true\</Enabled\>
-
->   \<Username\>Skype\</Username\>
-
->   \<Password\>
-
->   \<Value\>UABhAHMAcwB3AG8AcgBkAA==\</Value\>
-
->   \<PlainText\>false\</PlainText\>
-
->   \</Password\>
-
->   \</AutoLogon\>
-
->   \</component\>
-
->   \</settings\>
-
->   \<cpi:offlineImage
->   cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim\#SRSImage"
->   xmlns:cpi="urn:schemas-microsoft-com:cpi" /\>
-
->   \</unattend\>
-
-1.  In the Configuration Manager console, go to **Software Library** \>
+```
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+    <servicing>
+        <package action="configure">
+            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.15063.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
+            <selection name="Client-DeviceLockdown" state="true" />
+            <selection name="Client-EmbeddedLogon" state="true" />
+            <selection name="Client-EmbeddedBootExp" state="true" />
+            <selection name="Client-EmbeddedShellLauncher" state="true" />
+            <selection name="Client-KeyboardFilter" state="true" />
+            <selection name="Internet-Explorer-Optional-amd64" state="false" />
+            <selection name="MediaPlayback" state="false" />
+            <selection name="WindowsMediaPlayer" state="false" />
+            <selection name="Xps-Foundation-Xps-Viewer" state="false" />
+            <selection name="WorkFolders-Client" state="false" />
+            <selection name="SMB1Protocol" state="false" />
+            <selection name="SearchEngine-Client-Package" state="false" />
+            <selection name="Printing-Foundation-Features" state="false" />
+            <selection name="FaxServicesClientPackage" state="false" />
+            <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
+            <selection name="Printing-XPSServices-Features" state="false" />
+            <selection name="Printing-PrintToPDFServices-Features" state="false" />
+            <selection name="Microsoft-Hyper-V-Hypervisor" state="false" />
+            <selection name="Microsoft-Hyper-V-All" state="false" />
+            <selection name="Microsoft-Hyper-V" state="false" />
+        </package>
+    </servicing>
+    <settings pass="auditSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AutoLogon>
+                <Enabled>true</Enabled>
+                <Username>Admin</Username>
+                <Password>
+                    <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </Password>
+            </AutoLogon>
+            <UserAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Name>Admin</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Administrator</DisplayName>
+                        <Description>Administrator</Description>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
+        </component>
+    </settings>
+    <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <OOBE>
+                <HideEULAPage>true</HideEULAPage>
+                <HideLocalAccountScreen>true</HideLocalAccountScreen>
+                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+                <SkipMachineOOBE>true</SkipMachineOOBE>
+                <SkipUserOOBE>true</SkipUserOOBE>
+                <ProtectYourPC>1</ProtectYourPC>
+            </OOBE>
+            <AutoLogon>
+                <Enabled>true</Enabled>
+                <Username>Skype</Username>
+                <Password>
+                    <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
+                </Password>
+            </AutoLogon>
+        </component>
+    </settings>
+    <cpi:offlineImage cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim#SRSImage" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>
+
+```
+
+3.  In the Configuration Manager console, go to **Software Library** \>
     **Application Management** \> **Packages**, and then select **Create
     Package**.
 
-2.  Enter the following information to create the package:
-
+4.  Enter the following information to create the package:
 -   Name: **SRS v2 - Sysprep Package**
-
 -   Manufacturer: **Microsoft Corporation**
-
 -   Version: **1.0.0**
-
 -   Select the **This package contains source files** check box, enter the path
     to the **SRS v2 – Sysprep Package** folder, and then select **Next**.
+5.  Select **Do not create a program**, and then select **Next**.
 
-3.  Select **Do not create a program**, and then select **Next**.
+6.  Review the **Confirm the settings** page, and then select **Next**.
 
-4.  Review the **Confirm the settings** page, and then select **Next**.
-
-5.  Select **Close**.
+7.  Select **Close**.
 
 ### Create the Windows 10 Enterprise package
 
@@ -829,28 +615,18 @@ need to create a driver package for each Surface Pro model you have in your
 environment.
 
 1.  Download the latest drivers and firmware.
-
     -   For Surface Pro:
         <https://www.microsoft.com/en-us/download/details.aspx?id=55484>
-
     -   For Surface Pro 4:
         <https://www.microsoft.com/en-us/download/details.aspx?id=49498>
 
-        Important
-
-        The drivers must be compatible with the Windows 10 Enterprise build and
-        the Skype Room Systems v2 deployment kit version. For more information,
-        see [Download the latest firmware and drivers for Surface
-        devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
+> [!IMPORTANT]
+> The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
 
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and
     at the command prompt, enter one of the following commands:
-
-    -   msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="
-        C:\\_Sources\\Drivers\\Surface Pro"
-
-    -   msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="
-        C:\\_Sources\\Drivers\\Surface Pro 4"
+    -   `msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro"`
+    -   `msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro 4"`
 
 3.  In the Configuration Manager console, go to **Software Library** \>
     **Operating Systems** \> **Drivers**, and then select **Import Driver**.
@@ -884,7 +660,8 @@ environment.
 12. Move all the imported drivers to the newly created folder for easier
     navigation and operation.
 
-Repeat the same steps for other Surface Pro models you might have. For more
+> [!NOTE]
+> Repeat the same steps for other Surface Pro models you might have. For more
 information, see [Manage drivers in System Center Configuration
 Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
@@ -937,16 +714,15 @@ instructions below to initiate package distribution.
 
     4.  Select **Next**, and then select **Close**.
 
-**Note**
-
-Package distribution might take some time, depending on the package size,
+> [!NOTE]
+> Package distribution might take some time, depending on the package size,
 Configuration Manager hierarchy, number of distribution point servers, and
-networking.
+the bandwidth available in your network.
 
-All the packages must be distributed before you can start deploying a Skype Room
+> All the packages must be distributed before you can start deploying a Skype Room
 Systems v2 unit.
 
-You can review the status of your package distribution in the Configuration
+> You can review the status of your package distribution in the Configuration
 Manager console by going to **Monitoring** \> **Distribution Status** \>
 **Content Status**.
 
@@ -986,8 +762,7 @@ meet your needs.
 
 1.  Select the imported task sequence, and then select **Edit**.
 
->   The Task Sequence Editor opens and displays each sequential step that you
->   need to deploy and configure a Skype Room Systems v2 unit.
+     The Task Sequence Editor opens and displays each sequential step that you need to deploy and configure a Skype Room Systems v2 unit.
 
 1.  Walk through each step and complete the recommended updates:
 
@@ -1001,26 +776,21 @@ meet your needs.
     3.  **Set SRS Computer Name**: This step includes an HTML application to
         provide a UI to set a computer name for the Skype Room Systems v2 unit
         during the deployment.
-
         -  This is an optional step, but it can only be disabled if you want to
             manage computer naming through an alternate process.
-
         -  Verify that the **SRS v2 - Set-SRSComputerName** package is
             selected. If it isn’t, browse to the package and select it.
 
     4.  **Apply Operating System**: This step specifies the operating system
         image to be deployed and the unattended Sysprep answer file to use.
-
         -  Verify that the correct Windows 10 Enterprise operating system image
             file is selected.
-
         -  Verify that **Use an unattended or Sysprep answer file for a custom
             installation** is enabled, and the **SRS v2 - Sysprep Package** is
             selected. Also ensure that **File Name** is set to **unattend.xml**.
 
     5.  **Apply Windows Settings**: This step gathers information about the
         Windows installation.
-
         -  Provide licensing and registration information including the product
             key, local administrator account password, and time zone (depending
             on your needs).
@@ -1032,11 +802,9 @@ meet your needs.
         applicable device drivers and firmware based on the Surface Pro model
         you have. Update each step to specify the relevant driver package
         associated with this deployment.
-
         -   Each driver package is configured to leverage Windows Management
             Instrumentation (WMI) filters to deploy relevant drivers and
             firmware based on the Surface Pro make and model.
-
         -   We highly recommend that you not alter the configuration of these
             drivers, otherwise deployment might fail.
 
@@ -1046,32 +814,25 @@ meet your needs.
 
     9.  **Install Root Certificate**: This step distributes the root certificate
         for non–domain-joined devices, and therefore is optional.
-
         -   Remove or disable this step if you don’t need to deploy a root
             certificate to the Skype Room Systems v2 units.
-
         -   If you do need to perform this step, verify that the **SRS v2 – Root
             Certificate Package** is selected.
 
     10. **Install and Configure OMS Agent**: This step installs the 64-bit
         version of the Microsoft Operations Management Suite agent and
         configures the agent to connect to your Log Analytics workspace.
-
-        1.  Disable this step only if you’re going to use some other platforms
+        -   Disable this step only if you’re going to use some other platforms
             to monitor the health of your Skype Room Systems v2 units.
-
-        2.  Edit this step and update the command-line parameters to specify
+        -   Edit this step and update the command-line parameters to specify
             your **Workspace ID** and **Workspace Key**.
-
-        3.  See [Connect Windows computers to the Log Analytics service in
+        -   See [Connect Windows computers to the Log Analytics service in
             Azure](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms#configure-test-devices-for-operations-management-suite-setup)
             for more information about obtaining the Operations Management Suite
             Workspace ID and the primary key.
-
-        4.  Verify that the **SRS v2 – Microsoft OMS Agent Package** is
+        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is
             selected.
-
-        5.  For more information about monitoring the health of your Skype Room
+        -   For more information about monitoring the health of your Skype Room
             Systems v2 deployment, see [Plan Skype Room Systems v2 management
             with
             OMS](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management)
@@ -1085,17 +846,13 @@ meet your needs.
     12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating
         system updates required with the Skype Room Systems v2 deployment. Do
         the following:
-
-        1.  Check [Configure a Skype Room Systems v2
+        -   Check [Configure a Skype Room Systems v2
             console](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/console)
             to see which updates are required.
-
-        2.  Verify that your **SRS v2 – OS Updates Package** includes all the
+        -   Verify that your **SRS v2 – OS Updates Package** includes all the
             required updates.
-
-        3.  Verify that the S**RS v2 – OS Updates Package** is selected.
-
-        4.  Verify that the PowerShell execution policy is set to **Bypass**.
+        -   Verify that the S**RS v2 – OS Updates Package** is selected.
+        -   Verify that the PowerShell execution policy is set to **Bypass**.
 
     13. **Restart Computer**: This step reboots the computer after the mandatory
         operating system updates are installed. No customization is required for
@@ -1167,39 +924,40 @@ and configure Skype Room Systems v2 units.
     see the following configuration screen that asks you to configure the Skype
     Room Systems v2 application settings.
 
-    ![ALT TEXT HERE](../../media/room-systems-scale-image1.png)
+    ![Initial setup screen for Skype Room Systems v2 application](../../media/room-systems-scale-image2.png)
 
 10.  Plug the Surface Pro into the Skype Room Systems v2 console, and configure
     the application settings.
 
 11.  Validate that the capabilities listed in [Skype Room Systems v2 help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device.
 
-To troubleshoot a failed installation, check the SMSTS.log file, which logs all the steps executed in a Configuration Manager task sequence.
+
+To troubleshoot a failed installation, check the **SMSTS.log** file, which logs all the steps executed in a Configuration Manager task sequence.
 
 The SMSTS.log file is stored on one of a number of paths, depending on the stage
 of the build process. Check the following table to identify the path to the
 SMSTS.log file.
 
+
 | **Deployment phase**                                                            | **Task sequence log path**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE, before HDD format                                                        | X:\\windows\\temp\\smstslog\\smsts.log             |
+| WinPE, before HDD format                                                        | X:\\Windows\\Temp\\smstslog\\smsts.log             |
 | WinPE, after HDD format                                                         | C:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
 | Operating system deployed, before the Configuration Manager agent was installed | c:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
-| Operating system and the Configuration Manager agent deployed                   | %windir%\\system32\\ccm\\logs\\Smstslog\\smsts.log |
-| Task sequence execution complete                                                | %windir%\\system32\\ccm\\logs\\smsts.log           |
+| Operating system and the Configuration Manager agent deployed                   | %windir%\\System32\\ccm\\logs\\Smstslog\\smsts.log |
+| Task sequence execution complete                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
-**Note**
-
-You can select F8 at any time during the task sequence to open a command console
+> [!TIP]
+> You can select F8 at any time during the task sequence to open a command console
 and get access to the SMSTS.log file.
 
 To resolve PXE boot issues, check the two log files on the Configuration Manager
 server that are specific to PXE actions:
 
--   Pxecontrol.log, located in the Configuration Manager installation logs
+-   **Pxecontrol.log**, located in the Configuration Manager installation logs
     directory
 
--   Smspxe.log, located in Configuration Manager Management Point (MP) logs
+-   **Smspxe.log**, located in Configuration Manager Management Point (MP) logs
     directory
 
 For a complete list of the log files that you can use to further troubleshoot
