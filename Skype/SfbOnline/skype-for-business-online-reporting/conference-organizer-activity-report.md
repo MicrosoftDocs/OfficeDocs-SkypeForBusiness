@@ -49,7 +49,7 @@ You can get a view into your Skype for Business conferences that were organized 
 ![Skype for business Organized conferences report](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business Conference Organizer Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
+![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business Conference Organizer Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

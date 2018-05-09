@@ -104,13 +104,16 @@ The following tables provide recommendations for peripherals based on room size:
    
 **Skype Room Systems v2 Certified Video Peripherals**
 
-|**Room Type**|**Number of People**|**Device by Optimal room size**|**Comments**|
+|Room Type|Number of People|Device by Optimal room size|Comments|
 |:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100  <br/> ||
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech PTZ Pro often bundled with Logitech Group  <br/> |
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
 |**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
    
+ > [!NOTE]
+ > Front of room display resolution should be set to no greater than 1920x1080p.
+
 ## Required Software Downloads
 
 You will need the following downloads to build your own Skype Room Systems v2 image:
