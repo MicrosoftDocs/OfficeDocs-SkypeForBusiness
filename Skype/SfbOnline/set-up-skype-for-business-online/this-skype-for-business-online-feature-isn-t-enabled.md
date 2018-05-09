@@ -3,7 +3,6 @@ title: "This Skype for Business Online feature isn't enabled"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
 ms.tgt.pltfrm: cloud
@@ -36,5 +35,5 @@ Sorry, it looks like the user isn't licensed for this feature.
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

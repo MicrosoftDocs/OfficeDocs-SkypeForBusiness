@@ -3,7 +3,6 @@ title: "Test your Skype for Business Online installation"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e
 ms.tgt.pltfrm: cloud
@@ -29,7 +28,7 @@ Here's what you need:
     
 - A computer for each test account. Set them up like a typical computer would be in your organization.
     
-- An account with an audio conferencing provider for Skype for Business Online. To learn more, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- An account with an audio conferencing provider for Skype for Business Online. 
     
 ## What do you want to do?
 
@@ -69,8 +68,6 @@ To provide telephone access to Skype for Business Online meetings, set up an acc
 - For each user in your organization who schedules or leads meetings, a conference code and personal identification number (PIN).
     
 After setting up your users for audio conferencing, they receive an automated email message with the dial-in numbers and conference code. This information is also automatically added to new Skype for Business meeting requests.
-  
-For details, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **To add audio conferencing information to the account of one of your test users**
   
@@ -137,5 +134,5 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

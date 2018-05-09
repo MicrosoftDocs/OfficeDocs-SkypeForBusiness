@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
@@ -16,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
@@ -71,10 +69,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
   
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.) But if you have users who have been using a third-party audio conferencing provider (ACP), you will need to [Moving a user's audio conferencing provider to Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
-  
-> [!NOTE]
-> If you want to use a third-party ACP, choose **Audio conferencing** > **Microsoft bridge**. At the bottom of the page, click **If you would like to configure a third-party audio conferencing provider instead, click here**. 
+When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)  
   
 ## Step 3: Other admin tasks
 
@@ -100,6 +95,3 @@ The following steps are **optional**, but a lot of admins like to do them:
 [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md)
   
 [Set options for online meetings and conference calls](http://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

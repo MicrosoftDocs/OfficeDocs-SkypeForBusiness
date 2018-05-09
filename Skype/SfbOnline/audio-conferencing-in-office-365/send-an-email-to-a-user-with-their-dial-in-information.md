@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
@@ -16,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Send your users an email with their audio conferencing information."
 ---
@@ -32,14 +30,30 @@ Sometimes Skype for Business or Microsoft Teams users may need you to send them 
     
 - The user's conference ID.
     
-    > [!NOTE]
-    > Static IDs are used when people in your organization don't want to remember a random number; they can select a certain number or use one that's easy to remember. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. If you want to assign dynamic rather than static conference IDs, [go here](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
-  
+   
 Here is an example of the email that is sent:
   
 ![Dial-in conferencing email](../images/audio-conferencing-info.png)
   
 ## Send an email with audio conferencing information to a user
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Send conference info in email**.
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -51,7 +65,7 @@ Here is an example of the email that is sent:
     
 > [!TIP]
 > You can also send email to the user with the audio conferencing settings by editing the user's properties and then clicking **Audio conferencing** > **Send conference info via email**. 
-  
+
 ## What else should you know about this email?
 
 - There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
@@ -110,7 +124,4 @@ Here is an example of the email that is sent:
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

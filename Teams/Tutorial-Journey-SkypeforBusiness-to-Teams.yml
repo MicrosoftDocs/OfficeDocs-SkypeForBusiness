@@ -12,6 +12,7 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto: 
   - Microsoft Teams
@@ -40,7 +41,7 @@ items:
 
         - Microsoft Ignite 2017 session: [How to enable and configure Microsoft Teams for your users](https://myignite.microsoft.com/sessions/53318)
 
-        - [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md) 
+        - [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) 
 
         If you have any questions or feedback about this training, please:
 
@@ -162,7 +163,7 @@ items:
     ### To learn more
     - [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
     - [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-    - [Running Skype for Business and Microsoft Teams side-by-side](guidance-SkypeforBusiness.md)
+    - [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
     ### Next steps
 

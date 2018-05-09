@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -16,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: "Learn how to setup Skype for Busineses to use another language for your organization's default voicemail greeting. "
 ---
 
@@ -38,6 +36,8 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     > Users can change their own greeting language through their settings after they sign in. 
   
 - **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+
+- **Do you want to change the voicemail prompt language?** Go to [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**.
     
 ## Change the system language for everyone in your organization
 
@@ -71,5 +71,5 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     
 - [Enable or change a keyboard layout language](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

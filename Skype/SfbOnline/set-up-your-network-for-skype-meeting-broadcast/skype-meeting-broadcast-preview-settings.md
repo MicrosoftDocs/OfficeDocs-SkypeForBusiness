@@ -4,7 +4,6 @@ mms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
 ms.tgt.pltfrm: cloud
@@ -31,5 +30,5 @@ The Skype for Business customer preview program provides you early access to new
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

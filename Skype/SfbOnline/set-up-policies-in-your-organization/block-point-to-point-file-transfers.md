@@ -3,7 +3,6 @@ title: "Block Point-to-Point file transfers"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1
 ms.tgt.pltfrm: cloud
@@ -121,5 +120,5 @@ You can apply this to a user by creating a new policy and granting it to that us
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

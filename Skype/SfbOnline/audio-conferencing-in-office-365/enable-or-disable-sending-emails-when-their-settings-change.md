@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
@@ -16,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. "
 ---
@@ -52,22 +50,32 @@ Here is an example of the email that is sent to users when they are enabled for 
     
 ## Enable or disable email from being sent to users
 
-You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
-  
- **Using the Skype for Business admin center**
-  
-1. Sign in to Office 365 with your work or school account.
-    
-2. Go to the **Office 365 admin center** > **Skype for Business**, and in the left navigation, click **Audio conferencing**.
-    
-3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
-    
+You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
+
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
+
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
+
 4. Click **Save**.
+  
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+    
+1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
+    
+2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
+    
+3. Click **Save**.
     
     > [!TIP]
     > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
   
- **Using Windows PowerShell**
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+**Using Windows PowerShell**
   
 - Run the following to disable sending emails: 
     
@@ -80,19 +88,6 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 ## What else should you know?
 
 - When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
-    
-- By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and also use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) cmdlet.
-    
-    > [!NOTE]
-    >  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address.
-  
-  - Enter the email address in the  _SendEmailFromAddress_ parameter.
-    
-  - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
-    
-  - Set the  _SendEmailOverride_ parameter to _True_.
-    
-  -  `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
 - Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.
     
@@ -131,7 +126,4 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

@@ -3,7 +3,6 @@ title: "Customize meeting invitations"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
@@ -66,8 +65,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 ## Related topics
 <a name="__top"> </a>
 
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

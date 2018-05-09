@@ -3,10 +3,11 @@ title: Pilot Microsoft Teams alongside Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -98,7 +99,7 @@ For optimal validation, look to include approximately 2-5% of your user base, or
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s).</td>
+<td align="left"><strong>Next Action:</strong> Identify your pilot test group(s) using [Select users for your Teams pilot](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) guidance.</td>
 </tr>
 </thead>
 <tbody>
@@ -122,7 +123,9 @@ A successful pilot experience provides your participants with clearly defined ta
 
 ## Step Four: Create your Communications
 
-Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants. In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot.
+Educating your pilot participants on what is happening, when and why, as well as what is expected of them, is crucial to the success of your pilot. To drive excitement and maximum participation, be sure to include end-user value messaging when communicating with your pilot participants.
+
+In addition, be sure your communications include links to training and support where users can get additional information as they progress through the pilot. A good help topic to include is [Switch to Teams from Skype for Business](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), which shows some familar features, as well as some new features that are only available in Microsoft Teams.
 
 <table>
 <thead>
@@ -140,7 +143,7 @@ Educating your pilot participants on what is happening, when and why, as well as
 With all the logistics in place, you are now ready to begin your pilot. Conducting your pilot includes communicating to your pilot users, monitoring your network/usage to ensure your network and quality remains healthy, gathering feedback from participants, and reviewing help desk tickets for questions related to Teams.
 
 > [!IMPORTANT]
-> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Enable Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+> Teams is turned on by default, but before you begin your pilot, check to be sure all your pilot users are enabled for Teams. For help doing this, read [Manage user access to Teams](user-access.md).
 > 
 
 Here's a suggested timeline for a 30-day pilot:
@@ -193,7 +196,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for some/all available scenarios. To facilitate the learning curve, we strongly encourage rolling out features over time, in lieu of an all-at-once approach.</p>
-<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
+<p>Learn more about the [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your end-users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="odd">
@@ -201,7 +204,7 @@ Based on your outcomes, here are a few recommended paths your organization may t
 <br>-and-<br><br>
 <li>Satisfactory network health</li></ul></td>
 <td align="left"><p>Deploying Teams and Skype for Business side-by-side for all scenarios, encouraging users to lead with Teams where feasible. In addition, reach out to your account team or Microsoft Support to let them know your organization may be ready to go to Teams.</p>
-<p>Learn more about [running Skype for Business and Teams side-by-side](guidance-SkypeforBusiness.md).</p>
+<p>Learn more about the [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Download <a href="https://go.microsoft.com/fwlink/?linkid=859044">user readiness templates</a> to facilitate communication with your users about their new side-by-side experience.</p></td>
 </tr>
 <tr class="even">
