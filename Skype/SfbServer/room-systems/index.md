@@ -13,7 +13,7 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: "The relevant planning considerations for deploying Skype Room Systems v2, and how to deploy and manage the system."
 ---
 
-<h2>Skype Room Systems v2: the Next Generation of Skype Room Systems </h2>
+<h2>Skype Room Systems v2 &#x2013; <br>the Next Generation of Skype Room Systems </h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
