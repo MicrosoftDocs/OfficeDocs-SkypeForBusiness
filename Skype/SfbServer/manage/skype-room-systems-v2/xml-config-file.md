@@ -105,9 +105,9 @@ At startup, if a Skype Room Systems v2 console finds an XML file named SkypeSett
   
 Depending on how many Skype Room Systems v2 devices your enterprise has and how you choose to manage to configure them, there are a number of ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Skype Room Systems v2 devices are discussed in:
   
-- [Configuring Group Policy for Skype Room Systems v2](skype-room-systems-v2.md#GroupPolicy)
+- [Configuring Group Policy for Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
     
-- [Remote Management using PowerShell](skype-room-systems-v2.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+- [Remote Management using PowerShell](room-systems-v2-operations.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
 You are free to use any method you like so long as you can use it to transfer files and trigger a restart on the console device. The file must be readable, writable, and delete-able by the device's local user account (preferably, it should be owned by and have full privileges granted to that user). If the file permissions are not set correctly, the software may fail to apply the settings, may fail to delete the file upon successful processing, and could even potentially crash.
   
@@ -128,5 +128,5 @@ The XML configuration file must be updated at device startup to recognize the th
 [Manage Skype Room Systems v2](skype-room-systems-v2.md)
 #### 
 
-[Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+[Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
