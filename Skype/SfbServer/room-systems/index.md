@@ -45,13 +45,13 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
+        <a href="https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/media/common/i_tasks.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,13 +63,13 @@ description: "The relevant planning considerations for deploying Skype Room Syst
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
+        <a href="https://docs.microsoft.com/SkypeForBusiness/deploy/deploy-clients/room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/media/common/i_deploy.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,13 +81,13 @@ description: "The relevant planning considerations for deploying Skype Room Syst
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
+        <a href="https://docs.microsoft.com/SkypeForBusiness/manage/skype-room-systems-v2/skype-room-systems-v2">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_management.svg" alt="Manage" />
+                            <img src="https://docs.microsoft.com/media/common/i_management.svg" alt="Manage" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -101,6 +101,6 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 </ul>
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Teams support is coming very soon. <br><br>Earlier platforms like Lync Server 2013 are not expected to work with Skype Room Systems v2. 
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Microsoft Teams support is coming very soon. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
 
-These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the end users of the system. End users will be more interested in the [online help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the users of the system. Users will be more interested in the [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
