@@ -32,7 +32,7 @@ Although your organization might not be ready to upgrade just yet, we recommend 
 
 ## COMING SOON
 
-Our Upgrade Pro content is continually evolving. More information will be available soon, including new Upgrade and Post-upgrade articles. Be sure to check back for the latest guidance, and  read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
+Our Upgrade Pro content is continually evolving. More information will be available soon, including new Upgrade and Post-upgrade articles. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 
 > [!Important]
