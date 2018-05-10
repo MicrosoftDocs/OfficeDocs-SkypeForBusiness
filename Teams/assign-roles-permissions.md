@@ -3,11 +3,12 @@ title: Assign roles and permissions in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -15,6 +16,9 @@ appliesto:
 
 Assign roles and permissions in Microsoft Teams
 ===============================================
+
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Within Microsoft Teams there are two roles: **Owner** and **Member**. By default, a user that creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
@@ -82,7 +86,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     $Setting = $template.CreateDirectorySetting()
 
-    $setting["EnableGroupCreation"] = "false"
+    $setting["EnableGroupCreation"] = "true"
 
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 

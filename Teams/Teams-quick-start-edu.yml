@@ -12,6 +12,7 @@ metadata:
   ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   ms.custom:
   - NewAdminCenter_Update
@@ -96,7 +97,7 @@ items:
     Deploying software is not the only thing required to drive change in your organization. Empowering collaboration is more about people than technology. To successfully drive adoption of Office 365 and Teams, stay focused on your users’ experience. Here’s a quick checklist of our best practices to get you started. Microsoft partners can also help you design the right adoption plan for your organization.
 
     1. **Read [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
-    2. **Study [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
+    2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
     3. **Capture feedback from your users** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
     
     5. **Nurture your champions and highlight your wins.** Reward employees for embracing these new tools and using them in innovative ways that relate to business outcomes for your company. This, above anything, will ensure continued adoption of Office 365 and Teams.
@@ -187,6 +188,8 @@ items:
   durationInMinutes: 7
   content: |
     If you have multiple license types within your organization, you'll see them in in the following drop down. Some examples are **Business and Enterprise** or **Education - Faculty and Staff** or **Education - Student** and **Guest**. The following section will outline how you can manage these groups. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings. 
+
+    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
@@ -297,7 +300,7 @@ items:
   durationInMinutes: 1
   content: |
 
-    Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md)
+    Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
 
     The setup file for the Teams client is an executable file that can be downloaded by administrators and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
 
@@ -312,15 +315,7 @@ items:
     
     Internet browser support: 
     
-    Teams supports the following internet browsers: 
-      - Internet Explorer 11
-      - Microsoft Edge
-      - The latest version of Chrome, plus two previous versions
-      - The latest version of Firefox, plus two previous versions
-
-
-    > [!NOTE]
-    > Safari isn't currently supported.Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
+    [!INCLUDE [browser-support](includes/browser-support.md)]
 
 
 - title: Adoption, feedback, and support
@@ -328,9 +323,9 @@ items:
   content: |
 
     Adoption content (more coming all the time - keep checking back!):
-        - [Email templates for getting started guides](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Email-templates-Teams-for-Education.zip?raw=true)
-        - Quick start short videos for end users (Coming)
-        - Internal social campaign templates (Coming)
+        - [Email templates for getting started guides](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Email-templates-Teams-for-Education.zipr?raw=true)
+        - Quick start short videos for end users
+        - Internal social campaign templates
 
 
     Call to action:
@@ -354,6 +349,3 @@ items:
     [Explore the Office 365 Education help center](https://support.office.com/education)
 
     [Find more resources for education](https://education.microsoft.com/)
-    
-- content: |
-    

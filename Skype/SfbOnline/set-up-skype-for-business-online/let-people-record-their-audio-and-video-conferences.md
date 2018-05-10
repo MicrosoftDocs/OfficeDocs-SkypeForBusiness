@@ -3,7 +3,6 @@ title: "Let people record their audio and video conferences"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
 ms.tgt.pltfrm: cloud
@@ -43,5 +42,5 @@ For details, see [Lync recording save and publish](https://support.office.com/en
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

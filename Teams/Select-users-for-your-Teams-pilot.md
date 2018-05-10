@@ -1,3 +1,19 @@
+---
+title: Select users for your Microsoft Teams pilot 
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 03/02/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: dearbeen
+description: How to select users for your Microsoft Teams pilot as part of your journey from Skype for Business to Teams.
+localization_priority: Priority
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
+---
+
 Select users for your Teams pilot 
 ==================================
 

@@ -4,7 +4,6 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -39,10 +38,10 @@ The most recent changes to CQD are as follows:
     
 - Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
     
-Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
-> Information about updates and changes to the dashboard can be found by clicking **Good news!** in the dashboard. You can go to [Call Quality dashboard](https://aka.ms/CQDOnline). 
+> Information about updates and changes to the dashboard can be found by clicking the link in the **Good news!** banner when it is displayed on the dashboard.
   
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
@@ -111,9 +110,9 @@ Use the data on this tab to evaluate call quality status and trends by looking a
   
 ![CQD Data key](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as * Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
+Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*  , this makes the *Poor %*  unaffected by the presence with multiple *Unclassified*  streams. For what is used for classifying a stream as poor or good, refer to [Call Quality Thresholds](https://aka.ms/cqd_quality_thresholds).
   
-Use the scale on the left to measure the call count values.
+Use the scale on the left to measure the stream count values.
   
 ![CQD data count](../images/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
@@ -128,7 +127,7 @@ You can also obtain the actual numerical values by hovering the mouse over a bar
   
 ![CQD Data numeric](../images/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
-The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall stream, the less reliable the reported Poor percentage values are.
+The overall stream volume is an important factor in determining how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
 ### Server-Client tab and Client-Client tabs
 
@@ -144,7 +143,7 @@ These two tabs provide additional details for the streams that took place in the
     
 #### Inside Test
 
-During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets in the uploaded Building information, then it is considered Inside. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*  . Please note that Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
+During processing, the CQD back-end classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test will always classify the streams as *Outside*. Please note that Inside Test for Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
   
 #### Wired vs. wifi
 
@@ -160,7 +159,7 @@ In the Summary and Location Enhanced Reports, you can use the **Product Filter**
   
 ![Screenshot shows the Product Filter control with options for All, Microsoft Teams, and Skype for Business.](../images/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-In Detailed reports, you can use the Teams dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
+In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data as part of defining the report.
   
 ## Upload Building information
 <a name="BKMKFeaturesOfTheCQD"> </a>
@@ -173,7 +172,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
 2. After selecting the file data type, click **Browse** to choose a data file.
     
-  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must contain quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
+  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
     
   - The data file must be no larger than 50MB in size.
     
@@ -189,7 +188,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
   
 5. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
     
-    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, remove, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
+    Each record shows one uploaded tenant data file, with file type, last update time, time period, description, a remove icon, and a download icon. To remove a file, select the trash bin icon in the table. To download a file, select the download icon in the **Download** column of the table.
     
      ![CQD My Uploads table](../images/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
@@ -204,9 +203,9 @@ The format of the data file you upload must meet the following to pass the valid
     
 - For each column, the data type can only be String, Number, or Bool. If it is Number, the value must be a numeric value; if it is Bool, the value must be either 0 or 1.
     
-- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimited (i.e., a tab or comma). This just assigns that field an empty string value.
+- For each column, if the data type is string, the data can be empty (but still must be separated by an appropriate delimiter (i.e., a tab or comma). This just assigns that field an empty string value.
     
-- There must be 14 columns for each row, and each column must have the following data type, and the columns must be in the order listed in the following table:
+- There must be 14 columns for each row, each column must have the following data type, and the columns must be in the order listed in the following table:
     
 |**Column Name**|**Data type**|**Example**|
 |:-----|:-----|:-----|
@@ -231,7 +230,7 @@ The format of the data file you upload must meet the following to pass the valid
 ## Selecting media type in detailed reports
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific for a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
+The detailed reports support looking at quality and media reliability for audio, video, application sharing, and video-based screen-sharing media types. Dimensions, measures, and filters that are specific to a single media type have "Audio", "Video", "AppSharing", or "VBSS" as a prefix.
   
 ![Call Quality Dashboard Dimensions.](../images/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
@@ -246,5 +245,5 @@ If you want to view the dimensions and measures for a single media type, the new
 
 [Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

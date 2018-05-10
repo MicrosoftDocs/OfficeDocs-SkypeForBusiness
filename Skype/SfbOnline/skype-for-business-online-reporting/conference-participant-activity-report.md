@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
@@ -48,7 +47,7 @@ This report, along with the other Skype for Business reports, gives you details 
 ![Skype conference participant activity report](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business Conference Participant Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
+![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business Conference Participant Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
@@ -109,5 +108,5 @@ If your organization's policies prevents you from viewing reports where user inf
 ## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

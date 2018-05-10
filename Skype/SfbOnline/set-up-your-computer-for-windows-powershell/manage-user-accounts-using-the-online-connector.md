@@ -3,7 +3,6 @@ title: "Manage user accounts using the Online Connector"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b
 ms.tgt.pltfrm: cloud
@@ -111,5 +110,5 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
