@@ -50,11 +50,11 @@ description: "Skype for Business to Teams upgrade journey."
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials-icon.png?branch=upgrade-working" alt="Upgrade Essentials" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials-icon.png?branch=upgrade-working" width="400" alt="Upgrade Essentials" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Plan</h3>
+                        <h3>Upgrade Essentials</h3>
                     </div>
                 </div>
             </div>
@@ -68,11 +68,11 @@ description: "Skype for Business to Teams upgrade journey."
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro-icon.png?branch=upgrade-working" alt="Upgrade Pro" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro-icon.png?branch=upgrade-working" width="400px" alt="Upgrade Pro" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy</h3>
+                        <h3>Upgrade Pro</h3>
                     </div>
                 </div>
             </div>
