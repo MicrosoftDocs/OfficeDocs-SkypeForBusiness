@@ -19,6 +19,8 @@ description: "This topic describes benefits, planning considerations, and requir
 
 ## Overview 
 
+This topic describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail.
+
 Cloud Voicemail Service enables all your Skype for Business users--whether they are homed on premises or online--to have access to the same voicemail service in the Microsoft Cloud. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
 - Access to voicemail in their Exchange mailbox by using the Skype for Business Online and/or Teams client. 
