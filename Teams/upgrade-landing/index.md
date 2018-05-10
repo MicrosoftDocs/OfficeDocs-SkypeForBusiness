@@ -44,13 +44,13 @@ description: "Skype for Business to Teams upgrade journey."
 </ul>
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/user-access">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=upgrade-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-essentials-icon.png?branch=upgrade-working" alt="Upgrade Essentials" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ description: "Skype for Business to Teams upgrade journey."
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/upgrade-to-teams-upgrade-pro-icon.png?branch=upgrade-working" alt="Upgrade Pro" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -79,7 +79,7 @@ description: "Skype for Business to Teams upgrade journey."
         </div>
         </a>
     </li>
-    <li>
+<!--    <li>
         <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/user-access">
         <div class="cardSize">
             <div class="cardPadding">
@@ -97,5 +97,8 @@ description: "Skype for Business to Teams upgrade journey."
         </div>
         </a>
     </li>
+-->
 </ul>
 
+> [!Important]
+> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, be sure to validate that the features you need are available, and verify that your technical team and user population are ready before you activate any upgrade options for your tenant.
