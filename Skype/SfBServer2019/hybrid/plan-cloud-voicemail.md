@@ -38,8 +38,6 @@ Cloud Voicemail provides the same functionality as Exchange Unified Messaging (U
 
 In a hybrid environment, Cloud Voicemail works as follows:
 
-INSERT HIGH-LEVEL DIAGRAM HERE
-
 ![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 1. For users homed on premises, unanswered calls are sent by the on-premises Skype for Business Server to the online Cloud Voicemail Service.
