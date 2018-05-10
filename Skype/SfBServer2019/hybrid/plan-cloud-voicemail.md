@@ -43,6 +43,9 @@ Note:  Exchange UM is being deprecated.  For more information, see INSERT LINK H
 
 The following diagram shows Cloud Voicemail in a hybrid deployment:
 
+**IS THE DIAGRAM ACCURATE?**
+
+
 ![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Unanswered calls are handled as follows:  **IS THE FOLLOWING CORRECT?**
