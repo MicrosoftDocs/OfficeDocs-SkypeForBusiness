@@ -51,7 +51,7 @@ You can think of a user account as the resource account that people recognize as
   
 If you already have a resource mailbox account set up for the meeting space where you're installing Skype Room Systems v2, you can change that resource account into a user account. Once that's done, all you need to do is add the user account to a Skype Room Systems v2 device. See user account setup examples provided below.
   
-With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Skype Room Systems v2 management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Skype Room Systems v2 management with OMS](with-oms.md), and [Manage Skype Room Systems v2 devices with OMS](../manage/skype-room-systems-v2/oms.md). 
+With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Skype Room Systems v2 management with OMS](with-oms.md), and [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md). 
   
 ## Basic configuration
 
@@ -71,7 +71,7 @@ While the properties for the basic configuration will allow the user account to 
 |:-----|:-----|
 |Certificate-based authentication  <br/> |Certificates may be required for both Exchange and Skype for Business Server. To deploy certificates, you can load them when logged in as Admin.  <br/> |
    
-The best way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](room-systems-v2-scripts.md),  a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.
+The best way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](room-systems-v2-scripts.md), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.
   
 If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
@@ -79,9 +79,9 @@ If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some ste
 
 #### 
 
-[Plan for Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Configure a Skype Room Systems v2 console](console.md)
   
-[Manage Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
