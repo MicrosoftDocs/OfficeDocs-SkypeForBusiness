@@ -12,7 +12,7 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
-PowerShell description: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
+ms.custom: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
 
  # Block Inbound Calls
@@ -28,7 +28,6 @@ This feature is not yet available for Direct Routing.
 
 ## Call Blocking Admin Controls and Information
 Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
-
 ## Call Blocking PowerShell Commands
 
 *InboundBlockedNumberPattern*
