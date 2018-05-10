@@ -15,12 +15,11 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.PortingNumbersOverview
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: "Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them."
 ---

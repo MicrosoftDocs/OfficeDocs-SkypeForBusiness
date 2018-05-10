@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: ms.lync.lac.GetNewNumbers
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us."
 robots: noindex
 redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization

@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: "Summary: Plan for your Skype for Business Server 2015 Server Edge environment. This topic introduces you to Edge concepts and lets you get organized with our more in-depth topics."
 ---

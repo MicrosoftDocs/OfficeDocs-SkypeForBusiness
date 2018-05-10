@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: "A summary of the Enterprise Voice components in Skype for Business Server."
 ---

@@ -7,8 +7,10 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: "Read this topic to review planning considerations for implementing media bypass with Cloud Connector Edition version 2.0 and later. For information about deploying media bypass, see Deploy media bypass in Cloud Connector Edition."
 ---

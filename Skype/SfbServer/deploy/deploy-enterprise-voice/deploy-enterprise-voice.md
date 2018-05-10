@@ -7,9 +7,11 @@ ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: "Summary: Learn how to deploy Enterprise Voice for Skype for Business Server 2015 at a central site."
 ---

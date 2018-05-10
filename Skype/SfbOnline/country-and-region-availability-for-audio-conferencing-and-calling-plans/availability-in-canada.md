@@ -47,14 +47,14 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
 
 ## Calling Plans
-> [!IMPORTANT]
-> Canada is only available to preview and early adopters customers. For more information, see [Skype Preview Programs](https://www.skypepreview.com).
     
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |3000 domestic minutes or 600 international minutes (whichever is reached first per calendar month). <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>3000 minute Domestic Calling Plan </li></li><li>600 minute for Domestic and International Calling Plans</li></li> 
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+> [!Note]
+> Calls to the U.S. are treated as domestic calls.
    
 ## Toll and toll-free numbers for services
 
@@ -65,6 +65,9 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+
+> [!Note] 
+> When a Calling Plan (domestic or domestic and international)  user in the U.S. dials a phone number in Canada it will be treated as a domestic call. This is also the case when a user in Canada will make a call to a U.S. number.
   
 ## Communications Credits
 

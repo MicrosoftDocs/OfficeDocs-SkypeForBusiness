@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number."
 ---
 

@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. "
 ---
@@ -53,16 +52,16 @@ Here is an example of the email that is sent to users when they are enabled for 
 
 You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
-4. Click **Apply**.
+4. Click **Save**.
   
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     
@@ -73,6 +72,9 @@ You can use Microsoft Teams, the Skype for Business admin center, or Windows Pow
     > [!TIP]
     > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 **Using Windows PowerShell**
   
 - Run the following to disable sending emails: 
