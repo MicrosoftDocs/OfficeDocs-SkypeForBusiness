@@ -39,7 +39,7 @@ Cloud Voicemail provides the same functionality as Exchange Unified Messaging (U
 
 Note:  Exchange UM is being deprecated.  For more information,see INSERT LINK HERE.
 
-In a hybrid environment, Cloud Voicemail works as follows:
+The following diagram shows Cloud Voicemail in a hybrid deployment:
 
 ![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
