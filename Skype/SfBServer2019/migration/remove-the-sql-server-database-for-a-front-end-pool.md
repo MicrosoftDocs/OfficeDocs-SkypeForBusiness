@@ -3,7 +3,6 @@ title: "Remove the SQL Server database for a Front End pool"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

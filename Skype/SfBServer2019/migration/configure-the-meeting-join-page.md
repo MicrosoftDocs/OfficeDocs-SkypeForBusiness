@@ -3,7 +3,6 @@ title: "Configure the meeting join page"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/9/2018
 ms.audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

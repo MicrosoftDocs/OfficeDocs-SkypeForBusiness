@@ -3,7 +3,6 @@ title: "Remove legacy Archiving and Monitoring servers"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/9/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
