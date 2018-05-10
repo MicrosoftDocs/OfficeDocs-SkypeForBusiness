@@ -1,11 +1,10 @@
 ---
-title: "Deploying Skype for Business Online phones"
+title: "Set up Common Area Phones"
 description: Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Common Area Phones. 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -23,7 +22,8 @@ ms.custom:
 ---
 
 
-## Common Area Phones
+# Set up Common Area Phones
+
 A common area phone, or CAP, is typically placed in a shared area and not associated with an individual user. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically  sign in to the network. In the steps below, we’ll help you set up an account for Microsoft Phone System with Calling Plans and then deploy a CAP.
 
 ## Prerequisites for Common Area Phones
@@ -33,7 +33,6 @@ Confirm that you have the following:
 	- Purchased Common Area Phone SKU 
 	- Updated firmware (See Supported Firmware in topichttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 	- Approved  phones (view the list at https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
-
 
 ## Check the firmware for your phone
 - **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
@@ -83,30 +82,31 @@ You create the CAP by configuring the settings before you set up the physical ph
 	
 ## Configure Phone
 
-**Prepare the physical phones** 
+**Prepare the physical phones**
 
-Your selected phone needs to have the Common Area Phone mode. 
+Your chosen phone needs to have the Common Area Phone mode. 
 
 ***Example Polycom VVX phone***
 
-Enable Common Area Phone Mode on Polycom VVX by following these steps:
+Enable Common Area Phone Mode for the Polycom VVX by following these steps:
 1. In your browser, use the web interface to enable CAP mode on the VVX
 2. Go to **Setting**  and in the Skype for Business Setting option, select **Common Area Phone**.
-3. Click **Save** to save your configuration settings.
+3. Click **Yes** to save your configuration settings.
 
-Now that the CAP phone mode is enabled, set up the phone using the phone's display.
+Now that the CAP phone mode is enabled, set up the phone using the phone's display. The display should show "CaAP is enabled."
 
-1. In the Settings, select **Advanced**.
-2. Enter password.
-3. In Administration settings, select **Common Area Phone Settings**.
-4. Enable Common Area Phone and CAP Admin
-5. Select **Save Config**.
+1. Click **Settings**.
+2. Select **Advanced**.
+3. Enter the password.
+4. In Administration settings, select **Common Area Phone Settings**.
+5. Enable **CAP** and **CAP Admin Mode**.
+6. Click **Save Config**.
 
 Your phone is ready to be provisioned, which you'll do when you sign in on the home screen.
 
-1. Sign in by selecting **settings > features > Skype for Business.**
-2. Select User Credentials, and select select **web sign-in (CAP)** to generate a code..
-3. Go to the provisioning portal http://aka.ms/skypecap, and sign in as **admin**.
+1. Sign in by selecting **Settings** > **Features** > **Skype for Business.**
+2. Select **User Credentials**, and select **web sign-in (CAP)** to generate a code..
+3. Go to the provisioning portal at http://aka.ms/skypecap, and sign in as **admin**.
 4. Enter display name (for example, Main Reception) to view your CAP.
 
 >[Note]
@@ -114,7 +114,7 @@ If “Search for Common Area Phones only” is checked, clear the checkbox and s
 
 5. In the pairing code window, enter the code displayed on the phone and click **Provision**.
 
-Wht this last step, the phone should sign in automatically.
+Following this last step, the phone should sign in automatically.
 
 Learn more about available phones at [](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
 
