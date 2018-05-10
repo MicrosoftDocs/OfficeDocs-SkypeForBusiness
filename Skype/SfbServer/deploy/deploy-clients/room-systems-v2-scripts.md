@@ -89,13 +89,23 @@ Copy each of the sections in this article into a text file named in the section 
 Revision history
     1.0.0  - Initial release
     1.0.1  - Support source media with WIM >4GB
-#>
+    1.1.0  - Switch Out-Null to Write-Debug for troubleshooting
+             Record transcripts for troubleshooting
+             Require the script be run from a path without spaces
+             Require the script be run from an NTFS filesystem
+             Soft check for sufficient scratch space
+             Warn that the target USB drive will be wiped
+             Rethrow exceptions after cleanup on main path
 
+#>
+[CmdletBinding()]
+param()
 
 $ErrorActionPreference = "Stop"
+$DebugPreference = if($PSCmdlet.MyInvocation.BoundParameters["Debug"]) { "Continue" } else { "SilentlyContinue" }
 Set-StrictMode -Version Latest
 
-$CreateSrsMediaScriptVersion = "1.0.1"
+$CreateSrsMediaScriptVersion = "1.1.0"
 
 function Remove-Directory {
   <#
@@ -119,10 +129,10 @@ param(
     if (Test-Path $cleanup) {
         Remove-Item -Path $cleanup -Recurse -Force
     }
-    New-Item -ItemType Directory $cleanup | Out-Null
+    New-Item -ItemType Directory $cleanup | Write-Debug
 
     # Use robocopy to clear out the guts of the victim path
-    & robocopy $cleanup $path /mir | Out-Null
+    & robocopy $cleanup $path /mir | Write-Debug
 
     # Remove the folders, now that they're empty.
     Remove-Item $path -Force
@@ -323,7 +333,7 @@ param(
 )
     $node.SelectNodes("comment()") |
     ForEach-Object {
-        $node.RemoveChild($_) | Out-Null
+        $node.RemoveChild($_) | Write-Debug
     }
 }
 
@@ -357,9 +367,9 @@ param(
     $NKey = $xml.CreateElement("", "Key", $XmlNs["u"])
     $NKey.InnerText = $key
     $NProductKey = $xml.CreateElement("", "ProductKey", $XmlNs["u"])
-    $NProductKey.AppendChild($NWillShowUi) | Out-Null
-    $NProductKey.AppendChild($NKey) | Out-Null
-    $node.PrependChild($NProductKey) | Out-Null
+    $NProductKey.AppendChild($NWillShowUi) | Write-Debug
+    $NProductKey.AppendChild($NKey) | Write-Debug
+    $node.PrependChild($NProductKey) | Write-Debug
 }
 
 function Set-AutoUnattend-Sysprep-Mode {
@@ -492,7 +502,7 @@ function SyncSubdirectory {
   )
 
   $Paths = Join-Path -Path @($Src, $Dst) -ChildPath $Subdir
-  & robocopy /mir $Paths $Flags | Out-Null
+  & robocopy /mir $Paths $Flags | Write-Debug
 }
 
 function SyncSubdirectories {
@@ -554,396 +564,451 @@ function PrintWhereToGetScript {
 ####
 ## Start of main script
 ####
-$AutoUnattendCompatLevel = 0
 
-if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
-    [Security.Principal.WindowsBuiltInRole] "Administrator")) {
-    Write-Host "This script must be run from an elevated console."
-    exit
-}
-
-Write-Host ("Script version {0}" -f $CreateSrsMediaScriptVersion)
-PrintWhereToGetScript
-Write-Host ""
-
-# Determine OEM status
-$IsOem = $null
-Write-Host "What type of customer are you?"
-do {
-    switch (Read-Host -Prompt "OEM or Enterprise") {
-        "OEM" {
-            $IsOem = $true
-        }
-
-        "Enterprise" {
-            $IsOem = $false
-        }
-
-        Default {
-            $IsOem = $null
-        }
-    }
-} while ($IsOem -eq $null)
-
-
-if ($true) {
-    $i = 1
-
-    Write-Host ("Please make sure you have all of the following available:")
-    Write-Host ("")
-    Write-Host ("{0}. A FAT32-formatted USB drive." -f $i++)
-    Write-Host ("{0}. Your SRSv2 deployment kit MSI" -f $i++)
-    PrintWhereToGetSrsV2
-if ($IsOem) {
-    Write-Host ("{0}. Windows 10 Enterprise IoT media that matches your SRSv2 deployment kit." -f $i++)
-} else {
-    Write-Host ("{0}. Windows 10 Enterprise media that matches your SRSv2 deployment kit." -f $i++)
-}
-    Write-Host ("{0}. Driver MSI appropriate for your hardware, and that matches your Windows media." -f $i++)
-    PrintWhereToGetDrivers
-if ($IsOem) {
-    Write-Host ("{0}. your ePKEA license key." -f $i++)
-}
-    Write-Host ("{0}. Any language pack (LP and/or LIP) files to be included." -f $i++)
-    PrintWhereToGetLangpacks -IsOem:$IsOem
-    Write-Host ("{0}. The necessary cumulative update MSU (if applicable)." -f $i++)
-    Write-Host ("   Cumulative updates can be downloaded from the catalog at https://www.catalog.update.microsoft.com/Home.aspx")
-    Write-Host ("")
-    Write-Host ("Please do not continue until you have all these items in order.")
-    Write-Host ("")
-}
-
-
-# Acquire the SRS deployment kit
-Write-Host "Looking for an SRS deployment kit..."
-$SrsKitPattern = "SRSDeploymentKit-*.msi"
-$SRSDKS = @(Get-Item -Path (Join-Path $PSScriptRoot $SrsKitPattern))
-
-if ($SRSDKS -eq $null -or $SRSDKS.Count -eq 0) {
-    Write-Host "Could not locate an SRS deployment kit."
-    Write-Host "Please place your SRSDeploymentKit MSI file in the same directory as this script."
-    Write-Host ("SRS deployment kits have names of the form '{0}'." -f $SrsKitPattern)
-    Write-Host "You can download the latest SRS deployment kit from:"
-    PrintWhereToGetSrsV2
-    exit
-}
-
-if ($SRSDKS.Count -eq 1) {
-    $SRSDK = $SRSDKS[0]
-    Write-Host ("Located deployment kit {0}" -f $SRSDK.Name)
-} else {
-    Write-Host "Located multiple deployment kits. Please select one."
-    $SRSDK = $SRSDKS[(Get-TextListSelection $SRSDKS -Property "Name")]
-}
-
-
-## Extract the deployment kit.
-$RigelMedia = Join-Path $PSScriptRoot "SRSv2"
-
-if (Test-Path $RigelMedia) {
-  Remove-Directory $RigelMedia
-}
-
-Write-Host "Extracting the deployment kit... " -NoNewline
-Start-Process "msiexec" -ArgumentList ("/a {0} /qn TARGETDIR={1}" -f $SRSDK.FullName, $RigelMedia) -NoNewWindow -Wait
-Write-Host "done."
-
-
-## Pull relevant values from the deployment kit
-$RigelMedia = Join-Path $RigelMedia "Skype Room System Deployment Kit"
-
-$UnattendFile = Join-Path $RigelMedia "AutoUnattend.xml"
-
-$xml = New-Object System.Xml.XmlDocument
-$XmlNs = @{"u"="urn:schemas-microsoft-com:unattend"}
-$xml.Load($UnattendFile)
-
-# Check if we're compatible with this kit.
-if (!(Test-Unattend-Compat -Xml $xml -Rev $AutoUnattendCompatLevel)) {
-    Write-Host "This version of CreateSrsMedia is not compatible with your deployment kit."
-    PrintWhereToGetScript
-    exit
-}
-
-$SrsKitOs = (Select-Xml -Namespace $XmlNs -Xml $xml -XPath "//u:assemblyIdentity/@version").Node.Value
-$DriverDest = ((Select-Xml -Namespace $XmlNs -Xml $xml -XPath "//u:DriverPaths/u:PathAndCredentials/u:Path/text()").ToString())
-
-Write-Host "This deployment kit is built for Windows build $SrsKitOs."
-Write-Host "This deployment kit draws its drivers from $DriverDest."
-
-$DriverDest = $DriverDest.Replace("%configsetroot%", $RigelMedia)
-
-# Acquire the driver pack
-Write-Host "Looking for a driver pack..."
-$DriverPattern = ("*_Win10_{0}_*_*.msi" -f ($SrsKitOs.Split(".")[2]))
-$DriverPacks = @(Get-Item -Path (Join-Path $PSScriptRoot $DriverPattern))
-
-if ($DriverPacks -eq $null -or $DriverPacks.Count -eq 0) {
-    Write-Host "Could not locate a driver pack."
-    Write-Host "Please place your OS-appropriate driver pack in the same directory as this script."
-    Write-Host ("You need a driver pack with a name in the form of '{0}'." -f $DriverPattern)
-    Write-Host "REMEMBER, you MUST use a driver pack that matches the hardware this installation media will be used with."
-    Write-Host "You can download an appropriate driver pack from one of the following locations:"
-    PrintWhereToGetDrivers
-    exit
-}
-
-if ($DriverPacks.Count -eq 1) {
-    $DriverPack = $DriverPacks[0]
-    Write-Host ("Located Driver Pack {0}" -f $DriverPack.Name)
-} else {
-    Write-Host "Located multiple driver packs. Please select one."
-    $DriverPack = $DriverPacks[(Get-TextListSelection $DriverPacks -Property "Name")]
-}
-
-
-## Extract the driver pack
-$DriverMedia = Join-Path $PSScriptRoot "Drivers"
-
-if (Test-Path $DriverMedia) {
-  Remove-Directory $DriverMedia
-}
-
-Write-Host "Extracting the drivers... " -NoNewline
-Start-Process "msiexec" -ArgumentList ("/a {0} /qn TARGETDIR={1}" -f $DriverPack.FullName, $DriverMedia) -NoNewWindow -Wait
-Write-Host "done."
-
-# Acquire the language packs
-$LanguagePacks = @(Get-Item -Path (Join-Path $PSScriptRoot "*.cab"))
-$InstallLP = New-Object System.Collections.ArrayList
-$InstallLIP = New-Object System.Collections.ArrayList
-
-Write-Host "Identifying language packs... "
-ForEach ($LanguagePack in $LanguagePacks) {
-    $package = (Get-WindowsPackage -Online -PackagePath $LanguagePack)
-    if ($package.ReleaseType -ine "LanguagePack") {
-        Write-Warning "$LanguagePack is not a language pack."
-        continue
-    }
-    $parts = $package.PackageName.Split("~")
-    if ($parts[2] -ine "amd64") {
-        Write-Warning "$LanguagePack is not for the right architecture."
-        continue
-    }
-    if ($parts[4] -ine $SrsKitOs) {
-        Write-Warning "$LanguagePack is not for the right OS version."
-        continue
-    }
-    $type = ($package.CustomProperties |? {$_.Name -ieq "LPType"}).Value
-    if ($type -ieq "LIP") {
-        $InstallLIP.Add($LanguagePack) | Out-Null
-    } elseif ($type -ieq "Client") {
-        $InstallLP.Add($LanguagePack) | Out-Null
-    } else {
-        Write-Warning "$LanguagePack is of unknown type."
-    }
-}
-Write-Host "... done identifying language packs."
-
-
-# Acquire the updates
-Write-Host "Identifying updates... " -NoNewline
-$InstallUpdates = @(Get-Item -Path (Join-Path $PSScriptRoot "*.msu"))
-Write-Host "done."
-
-if ($InstallLP.Count -eq 0 -and $InstallLIP.Count -eq 0 -and $InstallUpdates -ne $null) {
-    Write-Warning "THIS IS YOUR ONLY CHANCE TO PRE-INSTALL LANGUAGE PACKS."
-    Write-Host "Because you are pre-installing an update, you will NOT be able to pre-install language packs to the image at a later point."
-    Write-Host "You are currently building an image with NO pre-installed language packs."
-    Write-Host "Are you ABSOLUTELY SURE this is what you intended?"
-
-    do {
-        $confirmation = (Read-Host -Prompt "YES or NO")
-        if ($confirmation -eq "YES") {
-            Write-Warning "PROCEEDING TO GENERATE SLIPSTREAM IMAGE WITH NO PRE-INSTALLED LANGUAGE PACKS."
-            break
-        }
-
-        if ($confirmation -eq "NO") {
-            Write-Host "Please place the LP and LIP cab files you wish to use in this directory, and run the script again."
-            Write-Host ""
-            Write-Host "You can download language packs from the following locations:"
-            PrintWhereToGetLangpacks -IsOem:$IsOem
-            exit
-        }
-
-        Write-Host "Invalid option."
-    } while ($true)
-}
-
-# Discover and prompt for selection of a reasonable target drive
-$TargetDrive = $null
-
-$ValidTargetDrives = @([System.IO.DriveInfo]::getdrives() | ? { $_.DriveType -eq "Removable" -and $_.DriveFormat -eq "FAT32" })
-
-if ($ValidTargetDrives.Count -eq 0) {
-    Write-Host "You do not have any valid media plugged in. Ensure that you have a FAT32 formatted removable drive inserted into the computer."
-    exit
-}
-
-$TargetDrive = ($ValidTargetDrives[(Get-TextListSelection -Options $ValidTargetDrives -Property "Name" -Prompt "Please select a target drive" -AllowDefault:$false)]).RootDirectory.FullName
-
-# Acquire the Windows install media root
-do {
-    $WindowsMedia = Read-Host -Prompt "Please enter the path to the root of your Windows install media"
-} while (!(Test-OsPath -OsPath $WindowsMedia -KitOsRequired $SrsKitOs -IsOem:$IsOem))
-
-# Acquire the ePKEA
-$LicenseKey = ""
-if ($IsOem) {
-    do {
-        $LicenseKey = Read-Host -Prompt "Please enter your ePKEA"
-    } while (!(Test-ePKEA $LicenseKey))
-}
-
-###
-## Let the user know what we've discovered
-###
-
-Write-Host ""
-if ($IsOem) {
-    Write-Host "Creating OEM media."
-} else {
-    Write-Host "Creating Enterprise media."
-}
-Write-Host ""
-Write-Host "Using SRSv2 kit:      " $SRSDK
-Write-Host "Using driver pack:    " $DriverPack
-Write-Host "Using Windows media:  " $WindowsMedia
-
-Write-Host "Using language packs: "
-ForEach ($pack in $InstallLP) {
-    Write-Host "    $pack"
-}
-ForEach ($pack in $InstallLIP) {
-    Write-Host "    $pack"
-}
-
-Write-Host "Using updates:        "
-ForEach ($update in $InstallUpdates) {
-    Write-Host "    $update"
-}
-Write-Host "Writing stick at:     " $TargetDrive
-Write-Host ""
-
-
-###
-## Make the stick.
-###
-
-# Windows
-Write-Host "Copying Windows... " -NoNewline
-## Exclude install.wim, since apparently some Windows source media are not USB EFI compatible (?) and have WIMs >4GB in size.
-& robocopy $WindowsMedia $TargetDrive /mir /xf install.wim | Out-Null
-Write-Host "done."
-
-$NewInstallWim = (Join-Path $PSScriptRoot "install.wim")
-$InstallWimMnt = (Join-Path $PSScriptRoot "com-mnt")
+Start-Transcript
 
 try {
-    mkdir $InstallWimMnt | Out-Null
+    $AutoUnattendCompatLevel = 0
 
-    Write-Host "Copying the installation image... " -NoNewline
-    Export-WindowsImage -DestinationImagePath "$NewInstallWim" -SourceImagePath (Join-Path (Join-Path $WindowsMedia "sources") "install.wim") -SourceName "Windows 10 Enterprise" | Out-Null
-    Write-Host "done."
-
-    # Image update
-    if ($InstallLP.Count -gt 0 -or $InstallLIP.Count -gt 0 -or $InstallUpdates -ne $null) {
-        Write-Host "Mounting the installation image... " -NoNewline
-        Mount-WindowsImage -ImagePath "$NewInstallWim" -Path "$InstallWimMnt" -Name "Windows 10 Enterprise" | Out-Null
-        Write-Host "done."
-
-        Write-Host "Applying language packs... " -NoNewline
-        ForEach ($pack in $InstallLP) {
-            Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$pack" -ErrorAction Stop | Out-Null
-        }
-        ForEach ($pack in $InstallLIP) {
-            Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$pack" -ErrorAction Stop | Out-Null
-        }
-        Write-Host "done."
-
-        Write-Host "Applying updates... " -NoNewline
-        ForEach ($update in $InstallUpdates) {
-            Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$update" -ErrorAction Stop | Out-Null
-        }
-        Write-Host "done."
-
-        Write-Host "Cleaning up the installation image... " -NoNewline
-        Set-ItemProperty (Join-Path (Join-Path $TargetDrive "sources") "lang.ini") -name IsReadOnly -value $false
-        & dism /quiet /image:$InstallWimMnt /gen-langini /distribution:$TargetDrive
-        & dism /quiet /image:$InstallWimMnt /cleanup-image /startcomponentcleanup /resetbase
-        Write-Host "done."
-
-        Write-Host "Unmounting the installation image... " -NoNewline
-        Dismount-WindowsImage -Path $InstallWimMnt -Save | Out-Null
-        rmdir $InstallWimMnt
-        Write-Host "done."
+    if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(`
+        [Security.Principal.WindowsBuiltInRole] "Administrator")) {
+        Write-Host "This script must be run from an elevated console."
+        exit
     }
 
-    Write-Host "Splitting the installation image... " -NoNewline
-    Split-WindowsImage -ImagePath "$NewInstallWim" -SplitImagePath (Join-Path (Join-Path $TargetDrive "sources") "install.swm") -FileSize 2047 | Out-Null
-    del $NewInstallWim
+    Write-Host ("Script version {0}" -f $CreateSrsMediaScriptVersion)
+    PrintWhereToGetScript
+    Write-Host ""
+
+    # Initial sanity checks
+
+    # There is difficulty invoking msiexec if the MSI's path contains a space.
+    if ($PSScriptRoot.Contains(" ")) {
+        # Much gratitude to
+        # The person who can remove
+        # This limitation
+        Write-Host "Please run this script from a path that does not contain spaces."
+        exit
+    }
+
+    $ScriptDrive = [System.IO.DriveInfo]::GetDrives() |? { (Split-Path -Path $_.Name -Qualifier) -eq (Split-Path -Path $PSScriptRoot -Qualifier) }
+
+    if ($ScriptDrive.DriveFormat -ne "NTFS") {
+        Write-Host "This script must be run from an NTFS filesystem, as it can potentially cache very large files."
+        exit
+    }
+
+    # Perform an advisory space check
+    $EstimatedCacheSpace =  (1024*1024*1024*1.5) + # Estimated unpacked driver size
+                            (1024*1024*1024*16) +  # Estimated exported WIM size
+                            (1024*1024*100)        # Estimated unpacked SRSv2 kit size
+    if ($ScriptDrive.AvailableFreeSpace -lt $EstimatedCacheSpace) {
+        Write-Warning "The drive this script is running from may not have enough free space for the script to complete successfully."
+        Write-Warning ("You should ensure at least {0:F2}GiB are available before continuing." -f ($EstimatedCacheSpace / (1024*1024*1024)) )
+        Write-Warning "Would you like to proceed anyway?"
+        do {
+            $confirmation = (Read-Host -Prompt "YES or NO")
+            if ($confirmation -eq "YES") {
+                Write-Warning "Proceeding despite potentially insufficient scratch space."
+                break
+            }
+
+            if ($confirmation -eq "NO") {
+                Write-Host "Please re-run the script after you make more space available on the current drive, or move the script to a drive with more available space."
+                exit
+            }
+
+            Write-Host "Invalid option."
+        } while ($true)
+    }
+
+    # Determine OEM status
+    $IsOem = $null
+    Write-Host "What type of customer are you?"
+    do {
+        switch (Read-Host -Prompt "OEM or Enterprise") {
+            "OEM" {
+                $IsOem = $true
+            }
+
+            "Enterprise" {
+                $IsOem = $false
+            }
+
+            Default {
+                $IsOem = $null
+            }
+        }
+    } while ($IsOem -eq $null)
+
+
+    if ($true) {
+        $i = 1
+
+        Write-Host ("Please make sure you have all of the following available:")
+        Write-Host ("")
+        Write-Host ("{0}. A FAT32-formatted USB drive." -f $i++)
+        Write-Host ("   The contents of this drive WILL BE LOST!")
+        Write-Host ("{0}. Your SRSv2 deployment kit MSI" -f $i++)
+        PrintWhereToGetSrsV2
+    if ($IsOem) {
+        Write-Host ("{0}. Windows 10 Enterprise IoT media that matches your SRSv2 deployment kit." -f $i++)
+    } else {
+        Write-Host ("{0}. Windows 10 Enterprise media that matches your SRSv2 deployment kit." -f $i++)
+    }
+        Write-Host ("{0}. Driver MSI appropriate for your hardware, and that matches your Windows media." -f $i++)
+        PrintWhereToGetDrivers
+    if ($IsOem) {
+        Write-Host ("{0}. your ePKEA license key." -f $i++)
+    }
+        Write-Host ("{0}. Any language pack (LP and/or LIP) files to be included." -f $i++)
+        PrintWhereToGetLangpacks -IsOem:$IsOem
+        Write-Host ("{0}. The necessary cumulative update MSU (if applicable)." -f $i++)
+        Write-Host ("   Cumulative updates can be downloaded from the catalog at https://www.catalog.update.microsoft.com/Home.aspx")
+        Write-Host ("")
+        Write-Host ("Please do not continue until you have all these items in order.")
+        Write-Host ("")
+    }
+
+
+    # Acquire the SRS deployment kit
+    Write-Host "Looking for an SRS deployment kit..."
+    $SrsKitPattern = "SRSDeploymentKit-*.msi"
+    $SRSDKS = @(Get-Item -Path (Join-Path $PSScriptRoot $SrsKitPattern))
+
+    if ($SRSDKS -eq $null -or $SRSDKS.Count -eq 0) {
+        Write-Host "Could not locate an SRS deployment kit."
+        Write-Host "Please place your SRSDeploymentKit MSI file in the same directory as this script."
+        Write-Host ("SRS deployment kits have names of the form '{0}'." -f $SrsKitPattern)
+        Write-Host "You can download the latest SRS deployment kit from:"
+        PrintWhereToGetSrsV2
+        exit
+    }
+
+    if ($SRSDKS.Count -eq 1) {
+        $SRSDK = $SRSDKS[0]
+        Write-Host ("Located deployment kit {0}" -f $SRSDK.Name)
+    } else {
+        Write-Host "Located multiple deployment kits. Please select one."
+        $SRSDK = $SRSDKS[(Get-TextListSelection $SRSDKS -Property "Name")]
+    }
+
+
+    ## Extract the deployment kit.
+    $RigelMedia = Join-Path $PSScriptRoot "SRSv2"
+
+    if (Test-Path $RigelMedia) {
+      Remove-Directory $RigelMedia
+    }
+
+    Write-Host "Extracting the deployment kit... " -NoNewline
+    Start-Process "msiexec" -ArgumentList ("/a {0} /qn TARGETDIR={1}" -f $SRSDK.FullName, $RigelMedia) -NoNewWindow -Wait
     Write-Host "done."
-} catch {
-    try { Dismount-WindowsImage -Path $InstallWimMnt -Discard -ErrorAction SilentlyContinue } catch {}
-    del $InstallWimMnt -Force -ErrorAction SilentlyContinue
-    del $NewInstallWim -Force -ErrorAction SilentlyContinue
-    exit
+
+
+    ## Pull relevant values from the deployment kit
+    $RigelMedia = Join-Path $RigelMedia "Skype Room System Deployment Kit"
+
+    $UnattendFile = Join-Path $RigelMedia "AutoUnattend.xml"
+
+    $xml = New-Object System.Xml.XmlDocument
+    $XmlNs = @{"u"="urn:schemas-microsoft-com:unattend"}
+    $xml.Load($UnattendFile)
+
+    # Check if we're compatible with this kit.
+    if (!(Test-Unattend-Compat -Xml $xml -Rev $AutoUnattendCompatLevel)) {
+        Write-Host "This version of CreateSrsMedia is not compatible with your deployment kit."
+        PrintWhereToGetScript
+        exit
+    }
+
+    $SrsKitOs = (Select-Xml -Namespace $XmlNs -Xml $xml -XPath "//u:assemblyIdentity/@version").Node.Value
+    $DriverDest = ((Select-Xml -Namespace $XmlNs -Xml $xml -XPath "//u:DriverPaths/u:PathAndCredentials/u:Path/text()").ToString())
+
+    Write-Host "This deployment kit is built for Windows build $SrsKitOs."
+    Write-Host "This deployment kit draws its drivers from $DriverDest."
+
+    $DriverDest = $DriverDest.Replace("%configsetroot%", $RigelMedia)
+
+    # Acquire the driver pack
+    Write-Host "Looking for a driver pack..."
+    $DriverPattern = ("*_Win10_{0}_*_*.msi" -f ($SrsKitOs.Split(".")[2]))
+    $DriverPacks = @(Get-Item -Path (Join-Path $PSScriptRoot $DriverPattern))
+
+    if ($DriverPacks -eq $null -or $DriverPacks.Count -eq 0) {
+        Write-Host "Could not locate a driver pack."
+        Write-Host "Please place your OS-appropriate driver pack in the same directory as this script."
+        Write-Host ("You need a driver pack with a name in the form of '{0}'." -f $DriverPattern)
+        Write-Host "REMEMBER, you MUST use a driver pack that matches the hardware this installation media will be used with."
+        Write-Host "You can download an appropriate driver pack from one of the following locations:"
+        PrintWhereToGetDrivers
+        exit
+    }
+
+    if ($DriverPacks.Count -eq 1) {
+        $DriverPack = $DriverPacks[0]
+        Write-Host ("Located Driver Pack {0}" -f $DriverPack.Name)
+    } else {
+        Write-Host "Located multiple driver packs. Please select one."
+        $DriverPack = $DriverPacks[(Get-TextListSelection $DriverPacks -Property "Name")]
+    }
+
+
+    ## Extract the driver pack
+    $DriverMedia = Join-Path $PSScriptRoot "Drivers"
+
+    if (Test-Path $DriverMedia) {
+      Remove-Directory $DriverMedia
+    }
+
+    Write-Host "Extracting the drivers... " -NoNewline
+    Start-Process "msiexec" -ArgumentList ("/a {0} /qn TARGETDIR={1}" -f $DriverPack.FullName, $DriverMedia) -NoNewWindow -Wait
+    Write-Host "done."
+
+    # Acquire the language packs
+    $LanguagePacks = @(Get-Item -Path (Join-Path $PSScriptRoot "*.cab"))
+    $InstallLP = New-Object System.Collections.ArrayList
+    $InstallLIP = New-Object System.Collections.ArrayList
+
+    Write-Host "Identifying language packs... "
+    ForEach ($LanguagePack in $LanguagePacks) {
+        $package = (Get-WindowsPackage -Online -PackagePath $LanguagePack)
+        if ($package.ReleaseType -ine "LanguagePack") {
+            Write-Warning "$LanguagePack is not a language pack."
+            continue
+        }
+        $parts = $package.PackageName.Split("~")
+        if ($parts[2] -ine "amd64") {
+            Write-Warning "$LanguagePack is not for the right architecture."
+            continue
+        }
+        if ($parts[4] -ine $SrsKitOs) {
+            Write-Warning "$LanguagePack is not for the right OS version."
+            continue
+        }
+        $type = ($package.CustomProperties |? {$_.Name -ieq "LPType"}).Value
+        if ($type -ieq "LIP") {
+            $InstallLIP.Add($LanguagePack) | Write-Debug
+        } elseif ($type -ieq "Client") {
+            $InstallLP.Add($LanguagePack) | Write-Debug
+        } else {
+            Write-Warning "$LanguagePack is of unknown type."
+        }
+    }
+    Write-Host "... done identifying language packs."
+
+
+    # Acquire the updates
+    Write-Host "Identifying updates... " -NoNewline
+    $InstallUpdates = @(Get-Item -Path (Join-Path $PSScriptRoot "*.msu"))
+    Write-Host "done."
+
+    if ($InstallLP.Count -eq 0 -and $InstallLIP.Count -eq 0 -and $InstallUpdates -ne $null) {
+        Write-Warning "THIS IS YOUR ONLY CHANCE TO PRE-INSTALL LANGUAGE PACKS."
+        Write-Host "Because you are pre-installing an update, you will NOT be able to pre-install language packs to the image at a later point."
+        Write-Host "You are currently building an image with NO pre-installed language packs."
+        Write-Host "Are you ABSOLUTELY SURE this is what you intended?"
+
+        do {
+            $confirmation = (Read-Host -Prompt "YES or NO")
+            if ($confirmation -eq "YES") {
+                Write-Warning "PROCEEDING TO GENERATE SLIPSTREAM IMAGE WITH NO PRE-INSTALLED LANGUAGE PACKS."
+                break
+            }
+
+            if ($confirmation -eq "NO") {
+                Write-Host "Please place the LP and LIP cab files you wish to use in this directory, and run the script again."
+                Write-Host ""
+                Write-Host "You can download language packs from the following locations:"
+                PrintWhereToGetLangpacks -IsOem:$IsOem
+                exit
+            }
+
+            Write-Host "Invalid option."
+        } while ($true)
+    }
+
+    # Discover and prompt for selection of a reasonable target drive
+    $TargetDrive = $null
+
+    $ValidTargetDrives = @([System.IO.DriveInfo]::getdrives() | ? { $_.DriveType -eq "Removable" -and $_.DriveFormat -eq "FAT32" })
+
+    if ($ValidTargetDrives.Count -eq 0) {
+        Write-Host "You do not have any valid media plugged in. Ensure that you have a FAT32 formatted removable drive inserted into the computer."
+        exit
+    }
+
+    Write-Host ""
+    Write-Host "Reminder: all data on the drive you select will be lost!"
+    Write-Host ""
+
+    $TargetDrive = ($ValidTargetDrives[(Get-TextListSelection -Options $ValidTargetDrives -Property "Name" -Prompt "Please select a target drive" -AllowDefault:$false)]).RootDirectory.FullName
+
+    # Acquire the Windows install media root
+    do {
+        $WindowsMedia = Read-Host -Prompt "Please enter the path to the root of your Windows install media"
+    } while (!(Test-OsPath -OsPath $WindowsMedia -KitOsRequired $SrsKitOs -IsOem:$IsOem))
+
+    # Acquire the ePKEA
+    $LicenseKey = ""
+    if ($IsOem) {
+        do {
+            $LicenseKey = Read-Host -Prompt "Please enter your ePKEA"
+        } while (!(Test-ePKEA $LicenseKey))
+    }
+
+    ###
+    ## Let the user know what we've discovered
+    ###
+
+    Write-Host ""
+    if ($IsOem) {
+        Write-Host "Creating OEM media."
+    } else {
+        Write-Host "Creating Enterprise media."
+    }
+    Write-Host ""
+    Write-Host "Using SRSv2 kit:      " $SRSDK
+    Write-Host "Using driver pack:    " $DriverPack
+    Write-Host "Using Windows media:  " $WindowsMedia
+
+    Write-Host "Using language packs: "
+    ForEach ($pack in $InstallLP) {
+        Write-Host "    $pack"
+    }
+    ForEach ($pack in $InstallLIP) {
+        Write-Host "    $pack"
+    }
+
+    Write-Host "Using updates:        "
+    ForEach ($update in $InstallUpdates) {
+        Write-Host "    $update"
+    }
+    Write-Host "Writing stick at:     " $TargetDrive
+    Write-Host ""
+
+
+    ###
+    ## Make the stick.
+    ###
+
+    # Windows
+    Write-Host "Copying Windows... " -NoNewline
+    ## Exclude install.wim, since apparently some Windows source media are not USB EFI compatible (?) and have WIMs >4GB in size.
+    & robocopy $WindowsMedia $TargetDrive /mir /xf install.wim | Write-Debug
+    Write-Host "done."
+
+    $NewInstallWim = (Join-Path $PSScriptRoot "install.wim")
+    $InstallWimMnt = (Join-Path $PSScriptRoot "com-mnt")
+
+    try {
+        mkdir $InstallWimMnt | Write-Debug
+
+        Write-Host "Copying the installation image... " -NoNewline
+        Export-WindowsImage -DestinationImagePath "$NewInstallWim" -SourceImagePath (Join-Path (Join-Path $WindowsMedia "sources") "install.wim") -SourceName "Windows 10 Enterprise" | Write-Debug
+        Write-Host "done."
+
+        # Image update
+        if ($InstallLP.Count -gt 0 -or $InstallLIP.Count -gt 0 -or $InstallUpdates -ne $null) {
+            Write-Host "Mounting the installation image... " -NoNewline
+            Mount-WindowsImage -ImagePath "$NewInstallWim" -Path "$InstallWimMnt" -Name "Windows 10 Enterprise" | Write-Debug
+            Write-Host "done."
+
+            Write-Host "Applying language packs... " -NoNewline
+            ForEach ($pack in $InstallLP) {
+                Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$pack" -ErrorAction Stop | Write-Debug
+            }
+            ForEach ($pack in $InstallLIP) {
+                Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$pack" -ErrorAction Stop | Write-Debug
+            }
+            Write-Host "done."
+
+            Write-Host "Applying updates... " -NoNewline
+            ForEach ($update in $InstallUpdates) {
+                Add-WindowsPackage -Path "$InstallWimMnt" -PackagePath "$update" -ErrorAction Stop | Write-Debug
+            }
+            Write-Host "done."
+
+            Write-Host "Cleaning up the installation image... " -NoNewline
+            Set-ItemProperty (Join-Path (Join-Path $TargetDrive "sources") "lang.ini") -name IsReadOnly -value $false
+            & dism /quiet /image:$InstallWimMnt /gen-langini /distribution:$TargetDrive
+            & dism /quiet /image:$InstallWimMnt /cleanup-image /startcomponentcleanup /resetbase
+            Write-Host "done."
+
+            Write-Host "Unmounting the installation image... " -NoNewline
+            Dismount-WindowsImage -Path $InstallWimMnt -Save | Write-Debug
+            rmdir $InstallWimMnt
+            Write-Host "done."
+        }
+
+        Write-Host "Splitting the installation image... " -NoNewline
+        Split-WindowsImage -ImagePath "$NewInstallWim" -SplitImagePath (Join-Path (Join-Path $TargetDrive "sources") "install.swm") -FileSize 2047 | Write-Debug
+        del $NewInstallWim
+        Write-Host "done."
+    } catch {
+        try { Dismount-WindowsImage -Path $InstallWimMnt -Discard -ErrorAction SilentlyContinue } catch {}
+        del $InstallWimMnt -Force -ErrorAction SilentlyContinue
+        del $NewInstallWim -Force -ErrorAction SilentlyContinue
+        throw
+    }
+
+    # Drivers
+    Write-Host "Injecting drivers... " -NoNewline
+    & robocopy $DriverMedia $DriverDest /mir | Write-Debug
+    Write-Host "done."
+
+    # Rigel
+    Write-Host "Copying Rigel build... " -NoNewline
+    SyncSubdirectories $RigelMedia $TargetDrive | Write-Debug
+    & robocopy $RigelMedia $TargetDrive /xd * | Write-Debug
+    Write-Host "done."
+
+    # Snag and update the unattend
+    Write-Host "Configuring unattend files... " -NoNewline
+
+    $RootUnattendFile = ([io.path]::Combine($TargetDrive, 'AutoUnattend.xml'))
+    $InnerUnattendFile = ([io.path]::Combine($TargetDrive, '$oem$', '$1', 'Rigel', 'x64', 'Scripts', 'Provisioning', 'AutoUnattend.xml'))
+
+    ## Handle the root unattend
+    $xml = New-Object System.Xml.XmlDocument
+    $xml.Load($RootUnattendFile)
+    if ($IsOem) {
+        Add-AutoUnattend-Key $xml $LicenseKey
+    }
+    Set-AutoUnattend-Sysprep-Mode -Xml $xml -Shutdown
+    $xml.Save($RootUnattendFile)
+
+    ## Handle the inner unattend
+    $xml = New-Object System.Xml.XmlDocument
+    $xml.Load($InnerUnattendFile)
+    if ($IsOem) {
+        Add-AutoUnattend-Key $xml "NJMFF-TXKRR-VG2JY-KMV92-FX8WP"
+    }
+    Set-AutoUnattend-Sysprep-Mode -Xml $xml -Reboot
+    $xml.Save($InnerUnattendFile)
+
+    Write-Host "done."
+
+
+    Write-Host "Cleaning up... " -NoNewline
+
+    Remove-Directory $DriverMedia
+    Remove-Directory $RigelMedia
+
+    Write-Host "done."
+
+
+    Write-Host ""
+    Write-Host "Please safely eject your USB stick before removing it."
+
+    if ($InstallUpdates -ne $null) {
+        Write-Warning "DO NOT PRE-INSTALL LANGUAGE PACKS AFTER THIS POINT"
+        Write-Warning "You have applied a Windows Update to this media. Any pre-installed language packs must be added BEFORE Windows updates."
+    }
+} finally {
+    Stop-Transcript
 }
 
-# Drivers
-Write-Host "Injecting drivers... " -NoNewline
-& robocopy $DriverMedia $DriverDest /mir | Out-Null
-Write-Host "done."
-
-# Rigel
-Write-Host "Copying Rigel build... " -NoNewline
-SyncSubdirectories $RigelMedia $TargetDrive | Out-Null
-& robocopy $RigelMedia $TargetDrive /xd * | Out-Null
-Write-Host "done."
-
-# Snag and update the unattend
-Write-Host "Configuring unattend files... " -NoNewline
-
-$RootUnattendFile = ([io.path]::Combine($TargetDrive, 'AutoUnattend.xml'))
-$InnerUnattendFile = ([io.path]::Combine($TargetDrive, '$oem$', '$1', 'Rigel', 'x64', 'Scripts', 'Provisioning', 'AutoUnattend.xml'))
-
-## Handle the root unattend
-$xml = New-Object System.Xml.XmlDocument
-$xml.Load($RootUnattendFile)
-if ($IsOem) {
-    Add-AutoUnattend-Key $xml $LicenseKey
-}
-Set-AutoUnattend-Sysprep-Mode -Xml $xml -Shutdown
-$xml.Save($RootUnattendFile)
-
-## Handle the inner unattend
-$xml = New-Object System.Xml.XmlDocument
-$xml.Load($InnerUnattendFile)
-if ($IsOem) {
-    Add-AutoUnattend-Key $xml "NJMFF-TXKRR-VG2JY-KMV92-FX8WP"
-}
-Set-AutoUnattend-Sysprep-Mode -Xml $xml -Reboot
-$xml.Save($InnerUnattendFile)
-
-Write-Host "done."
-
-
-Write-Host "Cleaning up... " -NoNewline
-
-Remove-Directory $DriverMedia
-Remove-Directory $RigelMedia
-
-Write-Host "done."
-
-
-Write-Host ""
-Write-Host "Please safely eject your USB stick before removing it."
-
-if ($InstallUpdates -ne $null) {
-    Write-Warning "DO NOT PRE-INSTALL LANGUAGE PACKS AFTER THIS POINT"
-    Write-Warning "You have applied a Windows Update to this media. Any pre-installed language packs must be added BEFORE Windows updates."
-}
 ```
 
 <a name="CreateRoom"></a>
