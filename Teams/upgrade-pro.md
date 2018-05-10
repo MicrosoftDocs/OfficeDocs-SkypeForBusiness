@@ -15,7 +15,7 @@ appliesto:
 
 # Upgrade Pro
 
-Designed for larger organizations—or those with highly customized deployments of Skype for Business—Upgrade Pro guidance accounts for a longer upgrade lifecycle in addition to a variety of upgrade scenarios (voice, hybrid, Skype Room Systems, and so on), which will be covered in the coming months. Monitor the roadmap for the enhancements that are planned for Microsoft Teams; this will help you identify the right upgrade timeline for your organization. 
+Designed for larger organizations—or those with highly customized deployments of Skype for Business—Upgrade Pro guidance accounts for a longer upgrade lifecycle in addition to a variety of upgrade scenarios (voice, hybrid, Skype Room Systems, and so on), which will be covered in the coming months. Monitor the [Skype for Business to Teams capabilities roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Microsoft Teams; this will help you identify the right upgrade timeline for your organization. 
 
 Although your organization might not be ready to upgrade just yet, we recommend getting started with the pre-upgrade activities listed below. Not only will your organization be able to start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you.
 
@@ -30,7 +30,7 @@ Although your organization might not be ready to upgrade just yet, we recommend 
 -   Pilot Teams alongside Skype for Business – updated page for review in this doc
 -   Enable the optimal coexistence mode for your organization – Laszlo/Agus working on this doc
 
-## COMING SOON
+## Coming soon
 
 Our Upgrade Pro content is continually evolving. More information will be available soon, including new Upgrade and Post-upgrade articles. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
