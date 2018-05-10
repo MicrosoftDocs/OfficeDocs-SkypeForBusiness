@@ -24,8 +24,8 @@ Although your organization might not be ready to upgrade just yet, we recommend 
 **Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s critical that you devote ample time in preparation. You can start realizing the value of Teams as you prepare for your upgrade. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams.
 
 -   Gather your project team and envision your organization on Teams – new page for review in this doc
--   [Understand upgrade and coexistence modes](../upgrade-and-coexistence.md)
--   [Optimize your current environment for Teams](../prepare-teams.md)
+-   [Understand upgrade and coexistence modes](upgrade-and-coexistence.md)
+-   [Optimize your current environment for Teams](prepare-teams.md)
 -   Assess organization and user readiness – new pages for review in this doc
 -   Pilot Teams alongside Skype for Business – updated page for review in this doc
 -   Enable the optimal coexistence mode for your organization – Laszlo/Agus working on this doc
