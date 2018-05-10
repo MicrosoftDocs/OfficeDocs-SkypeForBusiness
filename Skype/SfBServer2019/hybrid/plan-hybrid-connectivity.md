@@ -52,7 +52,7 @@ This topic contains the following sections:
     
 - [User policies and features](plan-hybrid-connectivity.md#BKMK_UserPolicies)
     
-After you have read this topic and are ready to deploy, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). The deployment topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
+After you have read this topic and are ready to deploy, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../../sfbserver/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). The deployment topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
@@ -81,7 +81,7 @@ The on-premises Active Directory is authoritative, which means that you must do 
     
 - If your users are homed in Skype for Business Online, once their account is synchronized to Azure AD, you need to assign them a Skype for Business Online plan 2 license. 
     
-- After Skype for Business Online users are assigned a license, you need to enable them for Skype for Business or for Enterprise Voice on premises. For more information, see [Enable the users for Enterprise Voice on premises](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). For more information about hybrid voice requirements, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- After Skype for Business Online users are assigned a license, you need to enable them for Skype for Business or for Enterprise Voice on premises. For more information, see [Enable the users for Enterprise Voice on premises](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). For more information about hybrid voice requirements, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
     
 You'll learn more about Active Directory configuration in the sections that follow. But first, an overview of the terminology and acronyms used in the diagrams below, and in many of the hybrid connectivity topics:
   
@@ -109,9 +109,9 @@ The following diagram shows a Skype for Business hybrid voice deployment:
   
 ![SfB split domain with Cloud PBX](../../sfbserver/media/5e755772-269e-45ce-8b48-2e06ababfe6c.png)
   
-For more information about setting up a hybrid voice solution with your Skype for Business Server deployment, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md). 
+For more information about setting up a hybrid voice solution with your Skype for Business Server deployment, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md). 
   
-You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online. You can also configure a hybrid voice solution that does not require a full Skype for Business Server deployment by using Cloud Connector Edition. For more information about all Skype for Business hybrid solutions and planning your move to the cloud, see [Skype for Business hybrid solutions](skype-for-business-hybrid-solutions.md).
+You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online. You can also configure a hybrid voice solution that does not require a full Skype for Business Server deployment by using Cloud Connector Edition. For more information about all Skype for Business hybrid solutions and planning your move to the cloud, see [Skype for Business hybrid solutions](hybrid-solutions.md).
   
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
@@ -131,9 +131,9 @@ To implement and deploy hybrid connectivity between Skype for Business Server an
     
     To support Single Sign-on with Office 365 so that users can use the same login credentials as they do for on premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365. 
     
-- Enabled federation between your on-premises Skype for Business deployment and your Office 365 tenant. Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. For more information, see [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Enabled federation between your on-premises Skype for Business deployment and your Office 365 tenant. Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online.md).
     
-- Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. Before you try to move users from on-premises to Skype for Business Online, you'll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment. For more information, see [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. Before you try to move users from on-premises to Skype for Business Online, you'll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online.md).
     
 ## Multi-forest support
 <a name="BKMK_MultiForest"> </a>
@@ -144,7 +144,7 @@ Users can access Skype for Business functionality in another forest if the follo
     
 - The forest hosting Skype for Business must trust the forest containing the users.
     
-For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
+For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
   
 ## Exchange co-existence
 <a name="BKMK_Exchange"> </a>
@@ -159,7 +159,7 @@ To support co-existence with Exchange, keep the following in mind:
     
   - Server side conversation history, Archiving, Unified Contact Store, HighRes Photo requires Exchange 2013 or later, and you must enable OAuth Server to Server communication. For more information, see [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
     
-For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## Administrator credentials
 <a name="BKMK_Credentials"> </a>
@@ -196,11 +196,11 @@ There are some differences in the features supported in clients, as well as the 
     
 - Microsoft Surface Hub
     
-Before you decide where you want to home users in your organization, you should review the [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) to determine the client support for the various configurations of Skype for Business Server. See also:
+Before you decide where you want to home users in your organization, you should review the [Desktop client feature comparison for Skype for Business](../../sfbserver/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) to determine the client support for the various configurations of Skype for Business Server. See also:
   
-- [Plan for clients and devices](../plan-your-deployment/clients-and-devices/clients-and-devices.md)
+- [Plan for clients and devices](../../sfbserver/plan-your-deployment/clients-and-devices/clients-and-devices.md)
     
-- [Mobile client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
+- [Mobile client feature comparison for Skype for Business](../../sfbserver/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
     
 ## Topology requirements
 <a name="BKMK_Topology"> </a>
@@ -246,7 +246,7 @@ To configure your deployment for hybrid with Skype for Business Online, you need
 ## Federation Allowed/Blocked Lists requirements
 <a name="BKMK_Federation"> </a>
 
-The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured. These are sometimes referred to as allowed partner servers ordirect federation partners. You should be familiar with the difference between Open Federation and Closed Federation, referred to as partner discovery andallowed partner domain list, respectively, in on-premises deployments.
+The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured. These are sometimes referred to as allowed partner servers or direct federation partners. You should be familiar with the difference between Open Federation and Closed Federation, referred to as partner discovery and allowed partner domain list, respectively, in on-premises deployments.
   
 The following requirements must be met to successfully configure a hybrid deployment:
   
@@ -261,7 +261,7 @@ The following requirements must be met to successfully configure a hybrid deploy
 ## DNS settings
 <a name="BKMK_DNS"> </a>
 
-When creating DNS records for hybrid deployments, all Skype for Business external DNS records should point to the on-premises infrastructure. For details on required DNS records, please refer to [DNS requirements for Skype for Business Server 2015](../plan-your-deployment/network-requirements/dns.md).
+When creating DNS records for hybrid deployments, all Skype for Business external DNS records should point to the on-premises infrastructure. For details on required DNS records, please refer to [DNS requirements for Skype for Business Server 2015](../../sfbserver/plan-your-deployment/network-requirements/dns.md).
   
 Additionally you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:
   
@@ -296,7 +296,7 @@ In addition to the port requirements for internal communication, you must also c
 |STUN  <br/> |UDP  <br/> |A/V Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
    
-For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
+For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   
 ## User accounts and data
 <a name="BKMK_UserAccounts"> </a>
@@ -306,13 +306,13 @@ In a hybrid deployment, any user that you want to home online must first be crea
 When you synchronize user accounts between your on-premises deployment and online tenant using AAD Connect, you need to synchronize the AD accounts for all Skype for Business or Lync users in your organization, even if users are not moved to online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.
   
 > [!IMPORTANT]
-> All user management, including user moves between on-premises and Skype for Business Online, must be done using the latest installed version of the administrative tools. The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet. The cmdlet to move users from your on-premises deployment to Skype for Business Online, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), must be run from the administrative tools connected to your on-premises deployment. For more information about moving users, see [Move users from on premises to Skype for Business Online](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md). 
+> All user management, including user moves between on-premises and Skype for Business Online, must be done using the latest installed version of the administrative tools. The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet. The cmdlet to move users from your on-premises deployment to Skype for Business Online, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), must be run from the administrative tools connected to your on-premises deployment. For more information about moving users, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md). 
   
 > [!IMPORTANT]
 > If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant, and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
   
 > [!NOTE]
-> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md). 
+> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](move-users-from-skype-for-business-online-to-on-premises.md). 
   
 You should also consider the following user-related issues when planning for a hybrid deployment.
   
