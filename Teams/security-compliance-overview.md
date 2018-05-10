@@ -123,7 +123,7 @@ In the Security & compliance center, when you set up a retention policy, for Tea
 
 ### Can we include Teams in org-wide policies? 
 
-No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: New-TeamsRetentionCompliancePolicy & New-TeamsComplianceRetentionRule. These cmdlets have get and set versions as well.
+No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). These cmdlets have get and set versions as well.
 
 ### Are these retention policies retroactive? 
 
@@ -152,10 +152,10 @@ Here are the cmdlets we created for Teams. They follow existing nomenclature and
 
 |Policy|Rule|
 |---|---|
-|New-TeamsRetentionCompliancePolicy| New-TeamsRetentionComplianceRule|
-|Get-TeamsRetentionCompliancePolicy| Get-TeamsRetentionComplianceRule|
-|Get- TeamsRetentionCompliancePolicy| Set- TeamsRetentionComplianceRule|
-|Remove- TeamsRetentionCompliancePolicy| Remove- TeamsRetentionComplianceRule|
+|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### If there are multiple retention policies for Teams with varying durations, which one wins?
 
@@ -222,6 +222,15 @@ To learn more about the launch of India and UK data residency for Teams, read An
 To see which region houses data for your tenant, go to the [Office 365 Admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
 ![Screenshot of the Data location table, including Teams, in the Office 365 Admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+
+How do Conditional Access policies work for Teams?
+-------------------------
+
+Microsoft Teams relies heavily on Exchange Online, SharePoint Online and Skype for business online for core productivity scenarios, like meetings, calendars, interop chats & file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user signs directly into Microsoft Teams - on any client. 
+
+Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online users may still be able to access those resources directly. For more informaton about setting up a conditional access policy in the azure portal, please go here: (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+
+Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
 Privacy in Teams
 --------------------------

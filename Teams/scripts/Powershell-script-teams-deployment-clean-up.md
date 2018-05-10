@@ -38,9 +38,10 @@ try
         # Uninstall app
         $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
-    }
+    }{
     Write-Host "Deleting Teams directory"
     Remove-Item –Path $TeamsPath -Recurse
+    }
 }
 catch
 {

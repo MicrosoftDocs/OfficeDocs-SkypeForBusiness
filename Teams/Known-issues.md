@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
@@ -20,12 +20,20 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Unable to add members to teams when UsersPermissionToReadOtherUsersEnabled is set to false  <br/> |When this value is set to false in AAD, customer is unable to add external/internal members in Microsoft Teams, and the following error message is displayed: "We couldn't add member. We ran into an issue. Please try again later." However, members can be added directly to Office 365 groups.    <br/> |Change this setting to true in AAD.  <br/> |4/10/18  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
 
 ## Apps
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Connector options is missing for some teams  <br/> |When you right-click a channel, the Connectors option is not present for any member of the team.  <br/> |The creator of the team must have an online mailbox; otherwise, no Connector option will be available. This is expected behavior.  <br/> |6/26/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|"Assignments" app remains visble when disabled  <br/> |When the "Assignments" app is disabled in the admin center, it remains visible within the Teams client for EDU-licensed users. Selecting it when disabled will return an error indicating, "Doh! Something went wrong..."  <br/> |No workaround.  <br/> |12/29/17  <br/> |
 
 ## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -64,11 +72,15 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|When a user leaves the company, it appears in Microsoft Teams as "Unknown user"<br/> |When a user leaves the company, it appears in Microsoft Teams as "Unknown user." Also, the conversation tab displays: "Unknown user has been added to the team." Issue filed as: https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |No workaround.  <br/> |9/12/17  <br/> |
+|When a user leaves the company, it appears in Microsoft Teams as "Unknown user"<br/> |When a user leaves the company, it appears in Microsoft Teams as "Unknown user." Also, the conversation tab displays: "Unknown user has been added to the team." <br/> |No workaround.  <br/> |9/12/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users can't recreate a pre-existing channel name  <br/> |Once a channel name has been created, even if it's deleted, it cannot be recreated. Our system maintains this data for information protection scenarios.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Renaming a channel in Microsoft Teams does not rename the corresponding folder in SharePoint Online  <br/> |If a channel is renamed in Microsoft Teams, the folder in the SharePoint Online document library corresponding to the team does not change to match. Instead, a new folder is created to match the new channel name. The files in the original document library folder are not migrated.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
 
 ## Chat
 
@@ -167,6 +179,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
 
 ## Tabs
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/> |
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Tabs not working since Conditional Access was enabled <br/> |Some tabs may not load anymore in the Desktop Client since Conditional Access was enabled on the tenant. The tabs load when using the Web Client. Some tabs that might be affected are: PowerBI, Forms, VSTS, PowerApps, and SharePoint List.  <br/> |To see affected tabs you must use Teams in Edge, IE, or Chrome with the Windows 10 Accounts extension installed. Some tabs still depend on web authentication, which doesn't work in the Desktop Client when CA is enabled. We are working with partners to enable these scenarios; so far we have enabled Planner, OneNote, and Stream. <br/> |4/5/18  <br/>|
