@@ -12,7 +12,7 @@ description: "Before you begin, we recommend that you read this document and the
 
 # Before you begin the migration
 
-Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding roles:
+Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding roles:  **ADD LINKS OR REVISE INTRO***
     
 ## In this section
 

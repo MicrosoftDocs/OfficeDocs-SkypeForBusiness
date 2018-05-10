@@ -42,6 +42,6 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin._\<domain\>_. 
   
 ## See also
-
+ **REPLACE OR REMOVE THIS LINK**
 [Planning for simple URLs in Lync Server 2013](../../planning/planning-for-manageability-and-virtualization/planning-for-simple-urls.md)
 

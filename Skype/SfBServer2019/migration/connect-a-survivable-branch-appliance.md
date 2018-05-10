@@ -52,7 +52,7 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
     
     3. Click **Survivable Branch Appliance…**
     
-9. Follow the directions in the wizard that opens. For information about wizard items, see 
+9. Follow the directions in the wizard that opens. For information about wizard items, see  **REPLACE OR REMOVE THIS LINK** 
 [Define a Survivable Branch Appliance or Server in Skype for Business Server 2019](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md).
     
     > [!NOTE]
