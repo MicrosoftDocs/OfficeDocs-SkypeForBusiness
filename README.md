@@ -8,9 +8,9 @@ When you contribute your work will go directly into the content set after being 
 
 # Quick Start
 
-## Contribute using the GitHub website
-
 **The following guidance is for Office PowerShell but the same process applies for any Markdown document on GitHub.**
+
+## Contribute using the GitHub website
 
 [![Image of Quick Start video](images/edit_video_capture.jpg)](https://support.office.com/en-us/article/edit-powershell-cmdlet-in-github-dcd20227-3764-48ce-ad6e-763af8b48daf?ui=en-US&rs=en-US&ad=US)
 
