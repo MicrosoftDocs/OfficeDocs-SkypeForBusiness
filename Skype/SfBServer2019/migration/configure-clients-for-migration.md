@@ -13,7 +13,7 @@ description: "This topic contains the recommended client deployment steps you sh
 
 # Configure clients for migration
 
-This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015 (the version you are migrating **from**.
+This topic contains the recommended client deployment steps you should take before migrating to Skype for Business Server 2019. These configuration changes should be made on Lync Server 2013 or Skype for Business Server 2015 (the version you are migrating **from**).
   
 ### To configure clients before migration
 
@@ -23,12 +23,9 @@ This topic contains the recommended client deployment steps you should take befo
     
 ## See also
 
-#### 
-
-<!-- [New and changed settings for Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/new-and-changed-settings-for-lync-2013.md)
+[New and changed settings for Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/new-and-changed-settings-for-lync-2013.md)
   
 [Client interoperability in Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/client-interoperability-in-lync-2013.md)
-#### 
 
-[Planning for clients and devices in Lync Server 2013](../../planning/planning-for-clients-and-devices-in-lync-server/planning-for-clients-and-devices-in-lync-server.md) -->
+[Planning for clients and devices in Lync Server 2013](../../planning/planning-for-clients-and-devices-in-lync-server/planning-for-clients-and-devices-in-lync-server.md) 
 

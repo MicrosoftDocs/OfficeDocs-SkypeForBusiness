@@ -166,7 +166,8 @@ Use the following procedures to transition the federation route and the media tr
 3. Wait for Active Directory replication to occur to all pools in the deployment.
     
     > [!NOTE]
-    > You may see the following message: > **Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Skype for Business Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.**> This warning is expected and can be safely ignored. 
+    > You may see the following message: **Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Skype for Business Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.** 
+    > This warning is expected and can be safely ignored. 
   
 ### To configure Skype for Business Server 2019 Edge Server
 
