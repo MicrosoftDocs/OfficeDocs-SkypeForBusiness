@@ -118,6 +118,6 @@ If “Search for Common Area Phones only” is checked, clear the checkbox and s
 
 Following this last step, the phone should sign in automatically.
 
-Learn more about available phones at [](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
+Learn more about available phones at [Deploying Skype for Business Online phones](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
 
 
