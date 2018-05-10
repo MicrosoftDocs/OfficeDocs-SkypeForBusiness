@@ -7,6 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn the decisions you should make when planning for Office 365 groups such as choosing Public and Private groups, using the Teams client or the Office 365 admin web console, and how to educate your Teams about using conversations.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
