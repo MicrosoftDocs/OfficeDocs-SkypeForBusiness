@@ -37,11 +37,11 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 7. On the **Name and Security Settings** page, do the following: 
     
-1. In **Friendly name**, type a display name for the certificate.
+    1. In **Friendly name**, type a display name for the certificate.
     
-2. In **Bit length**, specify the bit length (typically, the default of 2048).
+    2. In **Bit length**, specify the bit length (typically, the default of 2048).
     
-3. Verify that the **Mark certificate private key as exportable** check box is selected. 
+    3. Verify that the **Mark certificate private key as exportable** check box is selected. 
     
 8. On the **Organization Information** page, type the name for the organization and the organizational unit (for example, a division or department). 
     

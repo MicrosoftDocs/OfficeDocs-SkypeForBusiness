@@ -13,6 +13,6 @@ description: "For details, see Deploying clients and devices in Skype for Busine
 
 # Deploy Skype for Business Server clients
 
-<!-- For details, see [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md) in the Deployment documentation.  -->
+For details, see [Deploying clients and devices in Lync Server 2013](../../deployment/deploying-clients-and-devices/deploying-clients-and-devices.md) in the Deployment documentation.
   
 
