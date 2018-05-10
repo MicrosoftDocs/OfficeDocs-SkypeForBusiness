@@ -68,7 +68,7 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
 |\<SkypeSettings\>  <br/> |Container for all elements.  <br/> ||Required.  <br/> |
 | \<AutoScreenShare\> <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> | If true, auto screen share is enabled. <br/> |
 |\<HideMeetingName\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |If true, meeting names are hidden.  <br/> |
-|\<UserAccount\>  <br/> |Container  <br/> |First &#x2776; <br/> |Container for credentials parameters.  <br/> The sign in address, Exchange address, or email address are usually the same, such as RanierConf@contoso.com.  <br/> |
+|\<UserAccount\>  <br/> |Container  <br/> |First &#x2776; <br/> |Container for credentials parameters.  <br/> The sign in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Enabled by default.  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Disabled by default.  <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||The sign in name for the console's Skype for Business device account.  <br/> |
@@ -114,9 +114,9 @@ You are free to use any method you like so long as you can use it to transfer fi
 ## Custom Theme Images
 <a name="Themes"> </a>
 
-The custom theme image file must be placed in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, just enter the file name and extension in the <CustomThemeImageUrl> variable.
+The custom theme image file must be placed in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, just enter the file name and extension in the \<CustomThemeImageUrl\> variable.
   
-The image file should be exactly 3840X1080 pixels and must be one of the following file formats: jpg, jpeg, png and bmp. If your organization wants a custom image, a graphic designer will find our [Custom Theme Photoshop Template](https://go.microsoft.com/fwlink/?linkid=870441) useful. It contains further detail on where to place various elements in a theme image and what areas appear on consoles and displays.
+The image file should be exactly 3840X1080 pixels and must be one of the following file formats: jpg, jpeg, png and bmp. If your organization wants a custom image, a graphic designer will find our [Custom Theme Photoshop Template](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbServer/downloads/SRS_ThemingTemplate_v1.2.psd?raw=true) useful. It contains further detail on where to place various elements in a theme image and what areas appear on consoles and displays.
   
 The XML configuration file must be updated at device startup to recognize the theme image. Once the new XML file is processed and deleted, the theme graphic file will be deleted from the directory.
   
