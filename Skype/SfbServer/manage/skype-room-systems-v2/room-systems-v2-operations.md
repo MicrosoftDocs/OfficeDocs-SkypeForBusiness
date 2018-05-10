@@ -33,7 +33,7 @@ The logs will be output as a ZIP file in c:\rigel.
 ## Front of Room Display Settings
 <a name="Display"> </a>
 
-Configure the Front of Room display to Extended mode. Doing so will ensure that the console UI is not duplicated on that display when power cycling the display.
+Configure the Front of Room display to Extended mode. Doing so will ensure that the console UI is not duplicated on that display when you cycle power on the display.
   
 > [!NOTE]
 > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
@@ -41,10 +41,10 @@ Configure the Front of Room display to Extended mode. Doing so will ensure that 
 ## Skype Room Systems v2 Reset (Factory Restore)
 <a name="Reset"> </a>
 
-If Skype Room Systems v2 isn't running well, performing a factory reset may help. This can be done in the Settings app from the "Recovery" tab. Beneath the "Reset this PC" header, select "Get started" followed by "Remove everything." Follow the remaining prompts as desired to reset the device.
+If Skype Room Systems v2 isn't running well, performing a factory reset might help. This can be done in the Settings app on the **Recovery** tab. Beneath **Reset this PC**, select **Get started**, and then **Remove everything**. Follow the remaining prompts to reset the device.
   
 > [!NOTE]
-> There is a known issue where the Skype Room Systems v2 can become unusable if the "Keep my files - Removes Apps and settings, but keeps your personal files" option is selected during the Windows Reset process. **Do not** use this option.
+> There is a known issue where the Skype Room Systems v2 can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do _not_ use this option.
   
 ## Supported Remote Options
 <a name="RemoteOptions"> </a>
@@ -63,7 +63,7 @@ The following table summarizes the possible remote operations and the methods yo
 ## Configuring Group Policy for Skype Room Systems v2
 <a name="GroupPolicy"> </a>
 
-This section covers system settings that Skype Room Systems v2 depends on to function properly. When joining Skype Room Systems v2 to a domain, please ensure that your group policy does not override the following settings:
+This section covers system settings that Skype Room Systems v2 depends on to function properly. When joining Skype Room Systems v2 to a domain, ensure that your group policy doesn't override the settings in the following table.
   
 
 |**Setting**|**Allows**|
@@ -72,12 +72,12 @@ This section covers system settings that Skype Room Systems v2 depends on to fun
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Skype Room Systems v2 to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
    
-Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Transferring files using Group Policies is discussed in [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
 ## Remote Management using PowerShell
 <a name="RemotePS"> </a>
 
-You can perform the following management operations remotely using PowerShell (see the table below for script samples):
+You can perform the following management operations remotely by using PowerShell (see the table below for script samples):
   
 - Get attached devices
     
@@ -89,26 +89,26 @@ You can perform the following management operations remotely using PowerShell (s
     
 - Retrieve logs
     
-- Transfer files (requires a domain joined Skype Room Systems v2)
+- Transfer files (requires a domain-joined Skype Room Systems v2)
     
 > [!NOTE]
-> This functionality is off by default. You need to enable remote PowerShell for your environment on the Skype Room Systems v2 system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](https://technet.microsoft.com/en-us/library/hh849694.aspx)** for information on how to enable remote PowerShell.
+> This functionality is off by default. You need to enable remote PowerShell for your environment on the Skype Room Systems v2 system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** for information about how to enable remote PowerShell.
   
 For example, you can enable Remote PowerShell as follows:
   
 1. Sign in as Admin on a Skype Room Systems v2 device.
     
-2. Launch an elevated PowerShell command prompt.
+2. Open an elevated PowerShell command prompt.
     
 3. Enter the following command: Enable-PSRemoting -force
     
 To perform a management operation:
   
-1. Sign into a PC with account credentials that have permission to run PowerShell commands on a Skype Room Systems v2 device.
+1. Sign in to a PC with account credentials that have permission to run PowerShell commands on a Skype Room Systems v2 device.
     
-2. Launch a regular PowerShell command prompt on your PC.
+2. Open a regular PowerShell command prompt on the PC.
     
-3. Copy the command text from the table below and paste it into the prompt.
+3. Copy the command text from the table below and paste it at the prompt.
     
 4. Replace  `<Device fqdn>` fields with FQDN values appropriate to your environment.
     
@@ -163,15 +163,15 @@ Copy-Item $movefile $targetDevice
 ## Software updates
 <a name="SWupdate"> </a>
 
-By default, Skype Room Systems v2 will attempt to connect to the Windows Store to get the latest version of Skype Room Systems v2 software, so the device will require regular internet access. Be sure the Skype Room Systems v2 device is loaded with the latest version of the app, before contacting Microsoft with support issues.
+By default, Skype Room Systems v2 attempts to connect to the Windows Store to get the latest version of Skype Room Systems v2 software, so the device will require regular internet access. Before contacting Microsoft with support issues, be sure the Skype Room Systems v2 device is loaded with the latest version of the app.
   
-By default, Skype Room Systems v2 will connect to Windows Update to retrieve OS as well as USB peripheral firmware updates and install them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
+By default, Skype Room Systems v2 connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
   
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/en-us/store) to [Distribute offline apps](https://docs.microsoft.com/en-us/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)) that can be used with SCCM. The deployment kit release lags behind the store release, so it may not always match the latest available build.
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)) that can be used with SCCM. The deployment kit release lags behind the store release, so it might not always match the latest available build.
   
 ### To update using Powershell
 
-1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a device accessible share.
+1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
     
 2. Run the following script targeting the Skype Room Systems v2 devices, changing \<share\> to the device share as appropriate:
     
@@ -182,61 +182,61 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ## Admin mode and device management
 <a name="AdminMode"> </a>
 
-Some management functions, like manually installing a private CA certificate, require placing the Surface 4 device in Admin mode. 
+Some management functions, like manually installing a private CA certificate, require placing the Surface Pro device in Admin mode. 
   
 ### Switching to Admin Mode and back when the Skype Room Systems v2 app is running
 
-1. Hang up any ongoing calls and return to the home screen.
+1. Hang up any ongoing calls, and return to the home screen.
     
-2. Click on the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
+2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
     
 3. Select **Settings**.
     
 4. Enter the Administrator Password. The Setup screen will appear.
     
     > [!NOTE]
-    > If the device is not domain joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb' but it is recommended that your organization change this for security reasons as soon as possible. If the machine is domain joined, you can sign in with an appropriately-privileged domain account. 
+    > If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb' but it is recommended that your organization change this for security reasons as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account. 
   
-5. Click on **Windows Settings** on the left column.
+5. Select **Windows Settings** in the left column.
     
 6. Choose **Go to Admin Sign-in**.
     
 7. Enter the Administrator Password. This will gracefully log off the app and take you to the Windows login screen. 
     
-8. Log in to the desktop with your administrative credentials. You will have the necessary privileges to manage the device.
+8. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
     
 9. Perform the necessary administrative tasks.
     
 10. Sign out from the Admin account.
     
-11. Return to Skype Room Systems v2 by selecting the user account icon on the far left of the screen and select **Skype**.
+11. Return to Skype Room Systems v2 by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
     
-    If the **Skype** user is not listed, you may have to select **other user** and enter **.\skype** as the user name, and sign in.
+    If the **Skype** user is not listed, you might have to select **other user** and enter **.\skype** as the user name, and sign in.
     
- The console is now back in its normal operation mode.The following procedure requires you to attach a keyboard to the device if one is not already attached. 
+The console is now back in its normal operation mode.The following procedure requires you to attach a keyboard to the device if one is not already attached. 
   
 ### Switching to Admin Mode and back when the Skype Room Systems v2 app crashes
 
 1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 
     
-2. Log into the desktop with your administrative credentials.
+2. Log in to the desktop with your administrative credentials.
     
     > [!NOTE]
-    > This method does not log the Skype user off or gracefully terminate the app, but you would only use it if the app was not responding and the other method was not available. 
+    > This method doesn't log the Skype user off or gracefully terminate the app, but you'd use it if the app wasn't responding and the other method wasn't available. 
   
 3. Perform the necessary administrative tasks.
     
-4. Restart the machine when you are finished.
+4. Restart the machine when you're finished.
     
- The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You may remove the keyboard if it was attached to allow you to perform this procedure.
+ The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
 ## Troubleshooting tips
 <a name="TS"> </a>
 
-- Meeting invitations may not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether or not to allow external users to schedule a meeting.
+- Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting.
     
-- Skype Room Systems v2 does not support Exchange AutoDiscover redirects via Exchange 2010.
+- Skype Room Systems v2 doesn't support Exchange AutoDiscover redirects via Exchange 2010.
     
-- In general, it is a good practice for IT admins to disable any audio endpoints not intended for use.
+- In general, it's a good practice for IT admins to disable any audio endpoints they don't intend to use.
     
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera remote control.
     
@@ -244,13 +244,3 @@ Some management functions, like manually installing a private CA certificate, re
     
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
     
-### See also
-<a name="TS"> </a>
-
-
-[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
-[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)
-

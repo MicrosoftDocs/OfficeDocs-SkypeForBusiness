@@ -33,10 +33,10 @@ We recommend that you use Microsoft Operations Manager Suite to monitor your Sky
 
 Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Skype Room Systems v2 units across your deployment. 
 
-<table>
-<tr><td>![](../media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Confirm that you'll use Operations Management Suite to monitor your Skype Room Systems v2 deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ol></td></tr>
-<tr><td>![](../media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Define your quality and reliability monitoring approach.</li></ol></td></tr>
-</table>
+|    |     |
+|-----------|------------|
+|![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that you'll use Operations Management Suite to monitor your Skype Room Systems v2 deployment.</li><li>Decide the target distribution list you’ll use for email alerts.</li></ul>|
+|![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Define your quality and reliability monitoring approach.</li></ul>|
 
 ## Quality and reliability monitoring (CQD)
 
@@ -59,7 +59,11 @@ For more information about troubleshooting and admin mode, see [Manage Skype Roo
 ### See also
 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+
 [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
+
 [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
+
 [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)
