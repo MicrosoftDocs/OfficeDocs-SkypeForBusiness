@@ -35,7 +35,25 @@ Here is an example of the email that is sent:
   
 ![Dial-in conferencing email](../images/audio-conferencing-info.png)
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Send an email with audio conferencing information to a user
+## Send an email with audio conferencing information to a user
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Send conference info in email**.
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -47,9 +65,6 @@ Here is an example of the email that is sent:
     
 > [!TIP]
 > You can also send email to the user with the audio conferencing settings by editing the user's properties and then clicking **Audio conferencing** > **Send conference info via email**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## What else should you know about this email?
 

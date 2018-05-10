@@ -34,7 +34,7 @@ Conference IDs are only automatically set only for Skype for Business and Micros
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
-1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. At the top of the page, click **Edit**.
 
