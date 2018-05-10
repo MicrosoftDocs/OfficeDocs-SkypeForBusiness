@@ -2,7 +2,7 @@
 ## [Upgrade Essentials checklist](../upgrade-essentials.md)
 ## [Upgrade Pro guide](../upgrade-pro.md)
 ### [Tutorial: Journey from Skype for Business to Teams](../Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Plan for the journey](../pilot-essentials.md)
+## [Plan for the journey](../upgrade-plan-journey.md)
 ## [Understand coexistence and upgrade modes for Skype for Business and Teams](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [Plan for quality]
 ## [Prepare my environment]
