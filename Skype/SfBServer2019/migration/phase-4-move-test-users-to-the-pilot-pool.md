@@ -3,7 +3,6 @@ title: "Phase 4 Move test users to the pilot pool"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

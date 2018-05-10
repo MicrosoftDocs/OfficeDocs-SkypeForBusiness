@@ -3,7 +3,6 @@ title: "Change simple URLs after migration"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -40,11 +39,9 @@ After migrating to Skype for Business Server, you must be aware of how the chang
 2. Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.
     
     > [!TIP]
-    > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin. _\<domain\>_. 
+    > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin._\<domain\>_. 
   
 ## See also
-
-#### 
-
-<!-- [Planning for simple URLs in Lync Server 2013](../../planning/planning-for-manageability-and-virtualization/planning-for-simple-urls.md) -->
+ **REPLACE OR REMOVE THIS LINK**
+[Planning for simple URLs in Lync Server 2013](../../planning/planning-for-manageability-and-virtualization/planning-for-simple-urls.md)
 

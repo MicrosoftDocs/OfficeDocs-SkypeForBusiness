@@ -3,7 +3,6 @@ title: "Migrate response groups"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -68,8 +67,8 @@ The following procedure for migrating Response Group configurations assumes that
 
 1. Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see 
-<!-- [Open Skype for Business Server 2019 administrative tools](../../operations/lync-server-administrative-tools/open-lync-server-administrative-tools.md). -->
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. For details about the different methods you can use to start Skype for Business Server Control Panel, see  **REPLACE OR REMOVE THIS LINK** 
+[Open Skype for Business Server 2019 administrative tools](../../operations/lync-server-administrative-tools/open-lync-server-administrative-tools.md).
     
 3. In the left navigation pane, click **Response Groups**.
     

@@ -3,7 +3,6 @@ title: "Configure XMPP gateway"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -37,11 +36,11 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 7. On the **Name and Security Settings** page, do the following: 
     
-1. In **Friendly name**, type a display name for the certificate.
+    1. In **Friendly name**, type a display name for the certificate.
     
-2. In **Bit length**, specify the bit length (typically, the default of 2048).
+    2. In **Bit length**, specify the bit length (typically, the default of 2048).
     
-3. Verify that the **Mark certificate private key as exportable** check box is selected. 
+    3. Verify that the **Mark certificate private key as exportable** check box is selected. 
     
 8. On the **Organization Information** page, type the name for the organization and the organizational unit (for example, a division or department). 
     
@@ -94,11 +93,11 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
   - **Federated** A **Federated** partner type represents a high level of trust between the Skype for Business Server deployment and the XMPP partner. This partner type is recommended for federating with XMPP servers within the same enterprise or where there is an established business relationship. XMPP contacts in Federated partners can: 
     
-1. Add contacts and view their presence without express authorization from the user.
+    1. Add contacts and view their presence without express authorization from the user.
+       
+    2. Send instant messages to contacts whether or not the user has added them into their contact list.
     
-2. Send instant messages to contacts whether or not the user has added them into their contact list.
-    
-3. See a user's status notes.
+    3. See a user's status notes.
     
   - **Public verified** A **Public verified** partner is a public XMPP provider that is trusted to verify the identity of its users. XMPP contacts in Public Verified networks can add Skype for Business Server contacts and view their presence and send instant messages to them without express authorization from the Skype for Business Server users. XMPP contacts in public verified networks never see a users' status notes. This setting is not recommended. 
     
@@ -106,35 +105,35 @@ The final steps for migrating your XMPP Gateway are to configure certificates fo
     
 9. **Connection Type:** Defines the various rules and dialback settings. 
     
-  - **TLS Negotiation** Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation -including not valid and known error configurations - see 
-  <!-- [Negotiation settings for XMPP federated partners in Skype for Business Server 2019](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md). -->
+  - **TLS Negotiation** Defines the TLS negotiation rules. An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported. Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision. To view all possible settings and details for SASL, TLS and Dialback negotiation -including not valid and known error configurations - see **REPLACE OR REMOVE THIS LINK**
+  [Negotiation settings for XMPP federated partners in Skype for Business Server 2019](../../operations/managing-federation-and-external-access-to-lync-server-2013/negotiation-settings-for-xmpp-federated-partners.md).
     
-> **Required** The XMPP service requires TLS negotiation. 
+    > **Required** The XMPP service requires TLS negotiation. 
     
-> **Optional** The XMPP service indicates that TLS is mandatory-to-negotiate. 
+    > **Optional** The XMPP service indicates that TLS is mandatory-to-negotiate. 
     
-> **Not Supported** The XMPP service does not support TLS. 
+    > **Not Supported** The XMPP service does not support TLS. 
     
   - **SASL negotiation** Defines the SASL negotiation rules. An XMPP service can require SASL, can make SASL optional, or you define that SASL is not supported. Choosing Optional leaves the requirement up to the partner XMPP service for a mandatory-to-negotiate decision. 
     
-> **Required** The XMPP service requires SASL negotiation. 
+    > **Required** The XMPP service requires SASL negotiation. 
     
-> **Optional** The XMPP service indicates that SASL is mandatory-to-negotiate. 
+    > **Optional** The XMPP service indicates that SASL is mandatory-to-negotiate. 
     
-> **Not Supported** The XMPP service does not support SASL. 
+    > **Not Supported** The XMPP service does not support SASL. 
     
   - **Support server dialback negotiation** The support server dialback negotiation process uses the domain name system (DNS) and an authoritative server to verify that the request came from a valid XMPP partner. To do this, the originating server creates a message of a specific type with a generated dialback key and looks up the receiving server in DNS. The originating server sends the key in an XML stream to the resulting DNS lookup, presumably the receiving server. On receipt of the key over the XML stream, the receiving server does not respond to the originating server, but sends the key to a known authoritative server. The authoritative server verifies that the key is either valid or not valid. If not valid, the receiving server does not respond to the originating server. If the key is valid, the receiving server informs the originating server that the identity and key is valid and the conversation can commence. 
     
     There are two valid states for **Dialback negotiation**:
     
-> **True** The XMPP server is configured to use Dialback negotiation if a request should be received from an originating server. 
+    > **True** The XMPP server is configured to use Dialback negotiation if a request should be received from an originating server. 
     
-> **False** The XMPP server is not configured to use Dialback negotiation and if a request should be received from an originating server, it will be ignored. 
+    > **False** The XMPP server is not configured to use Dialback negotiation and if a request should be received from an originating server, it will be ignored. 
     
 10. Click **Commit** to save your changes to the site or user policy. 
     
 ### Update DNS Records for Skype for Business Server 2019 XMPP Gateway
 
-- To configure DNS for XMPP federation, you add the following SRV record to your external DNS:_xmpp-server._tcp.\<domain name\> The SRV record will resolve to the Access Edge FQDN of the Edge server, with a port value of 5269.
+To configure DNS for XMPP federation, you add the following SRV record to your external DNS:_xmpp-server._tcp.\<domain name\> The SRV record will resolve to the Access Edge FQDN of the Edge server, with a port value of 5269.
     
 

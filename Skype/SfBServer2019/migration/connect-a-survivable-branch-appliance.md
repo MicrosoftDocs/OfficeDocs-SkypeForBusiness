@@ -3,7 +3,6 @@ title: "Connect a Survivable Branch Appliance"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -37,26 +36,24 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool whic
     
 6. (Optional) In the next **Define New Branch Site** dialog box, do any of the following: 
     
-1. Click **City**, and then type the name of the city in which the branch site is located.
+    1. Click **City**, and then type the name of the city in which the branch site is located.
     
-2. Click **State/Region**, and then type the name of the state or region in which the branch site is located.
+    2. Click **State/Region**, and then type the name of the state or region in which the branch site is located.
     
-3. Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.
+    3. Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.
     
-7. Click **Next**, and then do one of the following:
-    
-1. If you are using a Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+7. Click **Next**, and then, if you are using a Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
     
 8. To associate the legacy SBA to the Skype for Business Server 2019 Front End pool:
     
-1. Expand the branch site that has been created. 
+    1. Expand the branch site that has been created. 
     
-2. Right click on legacy version and then click **New**.
+    2. Right click on legacy version and then click **New**.
     
-3. Click **Survivable Branch Appliance…**
+    3. Click **Survivable Branch Appliance…**
     
-9. Follow the directions in the wizard that opens. For information about wizard items, see 
-<!-- [Define a Survivable Branch Appliance or Server in Skype for Business Server 2019](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md). -->
+9. Follow the directions in the wizard that opens. For information about wizard items, see  **REPLACE OR REMOVE THIS LINK** 
+[Define a Survivable Branch Appliance or Server in Skype for Business Server 2019](../../deployment/deploying-branch-sites/define-a-survivable-branch-appliance-or-server.md).
     
     > [!NOTE]
     > A Survivable Branch Appliance can only be associated with a Monitoring Store. 
