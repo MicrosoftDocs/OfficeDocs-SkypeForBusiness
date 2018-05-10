@@ -3,7 +3,7 @@ title: "Skype Room Systems v2 maintenance and operations"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -244,17 +244,13 @@ Some management functions, like manually installing a private CA certificate, re
     
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
     
-## See also
+### See also
 <a name="TS"> </a>
 
-#### 
-[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
+[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-  
 [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
 [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
-  
 [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)
 

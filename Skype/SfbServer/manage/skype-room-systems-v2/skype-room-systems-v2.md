@@ -3,12 +3,11 @@ title: "Management overview for Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/4/2018
+ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: "Management overview for Skype Room Systems v2."
 ---
 
@@ -28,9 +27,9 @@ Monitoring Skype Room Systems v2 systems consists of two key activities:
 
 To ensure that users are able to use the Skype Room Systems v2 units, the units must be on, connected to the network with the Skype Room Systems v2 application correctly configured, and be connected to functioning peripheral devices. 
 
-Information about the state of the Skype Room Systems v2 application and connected peripheral devices is written by the Skype Room Systems v2 application to the Windows event log and documented [in this article](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/oms#understand-the-log-entries). 
+Information about the state of the Skype Room Systems v2 application and connected peripheral devices is written by the Skype Room Systems v2 application to the Windows event log and documented [in this article](oms.md#understand-the-log-entries). 
 
-We recommend that you use Microsoft Operations Manager Suite to monitor your Skype Room Systems v2 systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Skype Room Systems v2 management with OMS](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/with-oms). 
+We recommend that you use Microsoft Operations Manager Suite to monitor your Skype Room Systems v2 systems. For guidance on how to set up monitoring and basic alerting, see [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md). 
 
 Using this guidance, you can create a simple-to-use dashboard to identify any issues with your Skype Room Systems v2 units across your deployment. 
 
@@ -49,10 +48,18 @@ We recommend that you review and follow the [Quality of Experience Review Guide]
 
 ## Updating the Skype Room Systems v2 OS and Skype Room Systems application 
 
-We recommend that you update the Skype Room Systems v2 OS and Skype Room Systems v2 application to benefit from product updates and improvements. For detailed guidance, see [Manage Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#software-updates). 
+We recommend that you update the Skype Room Systems v2 OS and Skype Room Systems v2 application to benefit from product updates and improvements. For detailed guidance, see [Manage Skype Room Systems v2](room-systems-v2-operations.md#software-updates). 
 
 ## Troubleshooting
 
-We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Skype Room Systems v2 issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](../manage/skype-room-systems-v2/skype-room-systems-v2.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
+We recommend that you set up Operations Management Suite alerting as described in the section above so that your operations team and helpdesk will be alerted to any Skype Room Systems v2 issues. The options you have for PowerShell remote management are described in [Remote Management using PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). In the event that a peripheral device is disconnected, you might need to rely on local “smart hands” or IT support to investigate and reconnect the devices. 
 
-For more information about troubleshooting and admin mode, see [Manage Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/manage/skype-room-systems-v2/skype-room-systems-v2#admin-mode-and-device-management). 
+For more information about troubleshooting and admin mode, see [Manage Skype Room Systems v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
+
+### See also
+
+[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
+[Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
+[Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md)
