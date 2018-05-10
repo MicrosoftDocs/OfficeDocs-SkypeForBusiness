@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for implementing cloud-based voicemail for users homed on-premises."
 ---
 
-# Configure cloud-based voicemail
+# Configure Cloud Voicemail Service
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
