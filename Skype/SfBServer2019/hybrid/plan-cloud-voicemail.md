@@ -19,16 +19,13 @@ description: "This topic describes benefits, planning considerations, and requir
 
 ## Overview 
 
-Cloud Voicemail enables all your Skype for Business users to have access to the same voicemail service in the Microsoft Cloud. 
+Cloud Voicemail enables all your Skype for Business users--whether they are homed on premises or online--to have access to the same voicemail service in the Microsoft Cloud. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
-If you have an on-premises Skype for Business Server, Cloud Voicemail simplifies the task of maintaining a hybrid environment in which some of your users are homed on premises and some are homed online.  
-
-Cloud Voicemail provides the following benefits for both your on-premises and online users:
-
-- Access to voicemail both from the Skype for Business and/or Teams client and from their Exchange mailbox. 
+- Access to voicemail in their Exchange mailbox by using the Skype for Business Online and/or Teams client. 
 
 - Ability to use the web-based portal to manage their voicemail options. 
 
+If you have an on-premises Skype for Business Server, Cloud Voicemail simplifies the task of maintaining a hybrid environment in which some of your users are homed on premises and some are homed online.  
 
 Cloud Voicemail provides the same functionality as Exchange Unified Messaging (UM) did previously.  Your administration tasks are greatly simplified because:
 
@@ -43,9 +40,12 @@ In a hybrid environment, Cloud Voicemail works as follows:
 
 INSERT HIGH-LEVEL DIAGRAM HERE
 
-1. Unanswered calls are sent by the on-premises Skype for Business Server to the online Cloud Voicemail Service.
+![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+
+1. For users homed on premises, unanswered calls are sent by the on-premises Skype for Business Server to the online Cloud Voicemail Service.
 2. The Service processes the voicemail, including transcription.
-3.  The Service then deposits the voicemail in the Exchange mailbox of the users, regardless of whether they are homed on-premises or online.
+3.  The Service then deposits the voicemail in the Exchange mailbox of the user, whether the mailbox is on-premises on online.  
+4. Users have access to their voicemail from either their Skype for Businss Online or Teams client, and from their Exchange mailbox.
 
 ##Requirements
 
