@@ -160,6 +160,9 @@ Create the following folder structure on the System Center Configuration Manager
 -   Operating Systems
     -   Windows 10 Enterprise
 
+> [!TIP]
+> You may also [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) and use the zip file that includes the folder structure for the packages, the scripts that you need to use, and the task sequence template, that you need to import.
+
 ### Create the Microsoft Operations Management Suite agent package
 
 1.  Download the Operations Management Suite X-64 agent from <https://go.microsoft.com/fwlink/?LinkId=828603>.
@@ -188,7 +191,7 @@ Create the following folder structure on the System Center Configuration Manager
 
 1.  In the **SRS v2 - OS Updates Package** folder, create a new PowerShell script named **Install-SRSv2-OS-Updates.ps1**.
 
-2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script. Alternatively, you can download the Install-SRSv2-OS-Updates.ps1 script from [here]().
+2.  Copy the script below into the **Install-SRSv2-OS-Updates.ps1** script. Alternatively, you can download the Install-SRSv2-OS-Updates.ps1 script from [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
 ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -267,7 +270,7 @@ You create this package to distribute the root certificate for devices that wonâ
 
 1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML application named **Set-SRSComputerName.hta** .
 
-2.  Copy the following script into the **Set-SRSComputerName.hta** file. Alternatively, you can download the Set-SRSComputerName.hta file from [here]().
+2.  Copy the following script into the **Set-SRSComputerName.hta** file. Alternatively, you can download the Set-SRSComputerName.hta file from [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
 
 ```
 <!DOCTYPE HTML>
@@ -379,7 +382,7 @@ End Sub
 
 1.  In the **SRS v2 â€“ Sysprep Package** folder, create a new XML file named **Unattend.xml** .
 
-2.  Copy the following text into the **Unattend.xml** file. Alternatively, you can download the Unattend.xml file from [here]().
+2.  Copy the following text into the **Unattend.xml** file. Alternatively, you can download the Unattend.xml file from [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -404,9 +407,9 @@ End Sub
             <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
             <selection name="Printing-XPSServices-Features" state="false" />
             <selection name="Printing-PrintToPDFServices-Features" state="false" />
-            <selection name="Microsoft-Hyper-V-Hypervisor" state="false" />
-            <selection name="Microsoft-Hyper-V-All" state="false" />
-            <selection name="Microsoft-Hyper-V" state="false" />
+            <selection name="Microsoft-Hyper-V-Hypervisor" state="true" />
+            <selection name="Microsoft-Hyper-V-All" state="true" />
+            <selection name="Microsoft-Hyper-V" state="true" />
         </package>
     </servicing>
     <settings pass="auditSystem">
