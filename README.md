@@ -1,5 +1,3 @@
-# Short URL: aka.ms/office-powershell
-
 # Overview
 A repository to hold the help reference content for Microsoft Teams and Skype for Business. The expert knowledge around Microsoft Teams and Skype for Business is distributed amongst customers, MVPs, partners, product teams, support, and other community members. This open repo is designed to provide a mechanism for those that wish to contribute their knowledge back into the docs so others can benefit.
 
@@ -12,7 +10,7 @@ When you contribute your work will go directly into the content set after being 
 
 ## Contribute using the GitHub website
 
-** The following guidance is for Office PowerShell but the same process applies for any Markdown document on GitHub. **
+**The following guidance is for Office PowerShell but the same process applies for any Markdown document on GitHub.**
 
 [![Image of Quick Start video](images/edit_video_capture.jpg)](https://support.office.com/en-us/article/edit-powershell-cmdlet-in-github-dcd20227-3764-48ce-ad6e-763af8b48daf?ui=en-US&rs=en-US&ad=US)
 
