@@ -45,36 +45,38 @@ In addition to the Surface Pro/dock combination, you can also purchase Skype Roo
 
 Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](../../deploy/deploy-clients/room-systems-scale.md). 
 
-You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. 
+You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. Microsoft Teams support is coming very soon.
 
 |    |     |
 |-----------|------------|
 |![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Skype Room Systems v2 in your organization? </li><li>How will you procure your Skype Room Systems v2 systems—bundled, as separate components, or as an integrated unit?</li></ul> |
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul> |
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Skype Room Systems v2 and the peripheral devices that would be appropriate for the room size.</li></ul> |
 
-## Identify who will perform planning tasks
+## Identify who will undertake the key activities throughout your deployment
 
+Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided throughout these articles as needed for your organization.
 
+Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
+
+![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
+
+You might need to coordinate these activities across several teams. We provide a high-level view of the main activities that you should cover, and also suggestions for the teams who are typically involved in deploying and managing conference room systems, to help you decide who you need to work with.
 
 | Task                       | Who might undertake the task           | Assigned to | Links to this content |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| Inventory rooms            | Facilities / AV team / IT Project Team |             |                       |
-| Plan capabilities          | IT Project Team                        |             |                       |
-| Device selection           | IT Project Team / AV Team              |             |                       |
-| Procurement                | IT Project Team / AV Team              |             |                       |
-| Site readiness             | Facilities / AV team / IT Project Team |             |                       |
-| Service readiness          | IT Project Team                        |             |                       |
-| Configuration              | IT Project Team                        |             |                       |
-| Deployment                 | Facilities / AV team / IT Project Team |             |                       |
-| Adoption                   | Facilities / AV team / IT Project Team |             |                       |
-| Maintenance and operations | AV team / IT Project Team              |             |                       |
+| Inventory rooms            | Facilities / AV team / IT Project Team |             | [Room inventory and capability planning](#room-inventory-and-capability-planning)        |
+| Plan capabilities          | IT Project Team                        |             | [Room inventory and capability planning](#room-inventory-and-capability-planning)                       |
+| Device selection           | IT Project Team / AV Team              |             | [Device selection](#device-selection)                      |
+| Procurement                | IT Project Team / AV Team              |             | [Procurement](#procurement)                      |
+| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](#site-readiness)                      |
+| Service readiness          | IT Project Team                        |             | [Service readiness](#service-readiness)                      |
+| Configuration              | IT Project Team                        |             | [Configuration and deployment](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
+| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
+| Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management)                      |
+| Maintenance and operations | AV team / IT Project Team              |             | [Management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
 
 
 ## Room inventory and capability planning
-
-Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided throughout this article as needed for your organization.
-
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
 
 The first step is to inventory your organization’s existing meeting and conference rooms to understand their environment, room size, layout, and purpose, and to identify the capabilities you want each room in scope to have in the future such as which richer collaboration capabilities will be enabled in the room. 
 
@@ -126,24 +128,24 @@ _Sample Skype Room Systems v2 deployment template for your organization_
 
 ## Procurement 
 
-You can procure your chosen system as a bundle, separate components, or an integrated solution via device partners. Or, you can acquire a partner device dock and prepare your own Skype Room Systems v2 solution by using Surface Pro and existing, supported AV peripheral devices. 
+You can procure your chosen system as a bundle or an integrated solution via device partners. You can also acquire a partner device dock and prepare your own Skype Room Systems v2 solution by using a Surface Pro device and existing, _supported_ AV peripheral devices. 
 
-You can acquire devices from a number of partners who are listed in the [requirements article](requirements.md). Please visit the device partners’ websites to learn more about these solutions and procurement options. 
+You can acquire Skype Room Systems v2 from a number of partners who are listed in the [requirements article](requirements.md). Please visit the partners’ websites to learn more about these solutions and procurement options. 
 
 Depending on your deployment scale and approach, you might decide to have the Skype Room Systems v2 and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
 
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Confirm that your sites are ready.</li></ul>|
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
 
 ## Plan for operations 
 
-Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it’s key to agree who will undertake these tasks. 
+Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it’s key to agree who will undertake these tasks early in your deployment. 
 
 Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Skype Room Systems v2 devices going forward to monitor performance, and deploy software updates and hotfixes. 
 
-Consider which helpdesk queue you’ll route Skype Room Systems v2֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Skype Room Systems v2 and the key troubleshooting steps they can take. 
+Consider which helpdesk queue you’ll route Skype Room Systems v2֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Skype Room Systems v2 and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and the [known issues list](../../manage/skype-room-systems-v2/known-issues.md).
 
 |    |     |
 |-----------|------------|
@@ -153,4 +155,6 @@ Consider which helpdesk queue you’ll route Skype Room Systems v2֪–related c
 
 ## Plan for adoption and change management
 
-Skype Room Systems v2 systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your campaign identifies the benefits the new system will have for your users and the key talking points team leads can use to discuss with their teams. 
+Skype Room Systems v2 systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your campaign identifies the benefits the new system will have for your users and the key talking points leads can use to discuss with their teams. 
+
+Consider scheduling show-and-tell events and poster drops at each site to inform your users of the new capabilities. You might also create in-room “quick start guides.” Consider finding a meetings champion on each site who can help others get up to speed and start using the devices.

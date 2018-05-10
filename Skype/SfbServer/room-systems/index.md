@@ -20,7 +20,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Skype for Business experience that is simple to use, deploy, and manage. </p>
+                        <p>Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Skype for Business experience that's simple to use, deploy, and manage. </p>
                         <p>Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants. </p>
                         <p>Select the right system and audio video peripherals from one of our partners: Logitech, Crestron, Polycom, Lenovo, and HP.</p>
                         <p></p>

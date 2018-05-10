@@ -18,12 +18,14 @@ description: "Read this article to learn about deploying Skype Room Systems v2."
 # Deployment overview
 
 Deployment of Skype Room Systems v2 essentially breaks down into phases:
+
+- Confirming that your deployment locations (rooms) meet the deployment dependencies
 - Creating Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md))
 - Reimaging Microsoft Surface tablets to work as Skype Room Systems v2 consoles (see [Configure a Skype Room Systems v2 console](console.md) or [Deploy Skype Room Systems v2 mass deployment guide](room-systems-scale.md))
-- (Optional) Setting up OMS management of your systems (see [Deploy Skype Room Systems v2 management with OMS](with-oms.md))
-- Setting up consoles in actual meeting rooms and connecting the needed peripheral devices (see the OEM documentation for your set of devices)
+- (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Skype Room Systems v2 management with OMS](with-oms.md))
+- Setting up consoles in meeting rooms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
-A/V techs can be used for the last task, but your organization's IT department will need to do the other parts of the process. 
+AV techs can be used for the last task, but your organization's IT department will need to do the other parts of the process. 
 
 
 ## Site readiness 
@@ -63,7 +65,6 @@ You can find out more about these dependencies in the planning guidance links be
 To prepare for your Skype Room Systems deployment, do the following key, central tasks:
 
 -   Define Skype Room Systems service account features.
--   Plan for operations: define who will manage the Skype Room Systems units, define helpdesk queues, and provide an FAQ for the helpdesk.
 -   Prepare an organizational unit and Active Directory group to hold your Skype Room Systems machine and service accounts, and—optionally—prepare Group Policy objects (GPOs) to enable PowerShell remoting.
 
 ### Define Skype Room Systems service account features 
@@ -82,7 +83,7 @@ For more information about Skype Room Systems accounts, see [Configure accounts 
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which scenarios you’ll support, and identify licensing requirements for your Skype Room Systems v2 service accounts.</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host machine and service accounts.</li></ul>| 
 
 
 _Sample Skype Room Systems v2 service account planning table_
@@ -146,7 +147,7 @@ When planning to deploy Skype Room Systemsv2, you have a number of options to co
 |-------------------------|-----------------------|   
 |Deploying a small number of Skype Room Systems devices (<10). | If using Surface Pro–based Skype Room Systems v2, follow the [installation instructions for a per-device install](console.md). [This handy video walks you through the process.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) If using an integrated solution, deploy by using the vendor image and configure settings as required. |
 | Deploying between 10 and 50 devices from a single vendor.     | Create a WIM-based image, pause after [step 6 in the guidance](console.md), and capture a distribution image to be used with your cloning distribution technology.    |
-| Deploying more than 50 Skype Room Systems devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as System Center Configuration Manager.  |
+| Deploying more than 50 Skype Room Systems devices, deploying devices from more than one vendor, or requiring organization-specific agents as part of the deployment. | Use a task sequencer–based software build and distribution platform, such as [System Center Configuration Manager](with-oms.md).  |
 
 **Pro Tip** - Each Skype Room Systems v2 must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it’s important to develop a naming convention for Skype Room Systems v2 deployments that allows support personnel to easily locate the Skype Room Systems v2 that has been flagged as requiring an action. An example might be using a pattern of SRS-*Site*-*Room Name* (SRS-LON-CURIE). 
 
