@@ -1,4 +1,4 @@
-# [Upgrade journey - TOC based on combined guidance doc](index.md)
+# [Upgrade journey - experimental TOC](index.md)
 ## [Upgrade Essentials checklist](../upgrade-essentials.md)
 ## [Upgrade Pro guide](../upgrade-pro.md)
 ### [Tutorial: Journey from Skype for Business to Teams](../Tutorial-Journey-SkypeforBusiness-to-Teams.yml)

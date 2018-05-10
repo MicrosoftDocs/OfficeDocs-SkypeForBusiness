@@ -42,6 +42,7 @@ description: "Skype for Business to Teams upgrade journey."
         </div>
     </li>
 </ul>
+<!--
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=upgrade-working">
@@ -79,7 +80,7 @@ description: "Skype for Business to Teams upgrade journey."
         </div>
         </a>
     </li>
-<!--    <li>
+    <li>
         <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/user-access">
         <div class="cardSize">
             <div class="cardPadding">
@@ -97,8 +98,8 @@ description: "Skype for Business to Teams upgrade journey."
         </div>
         </a>
     </li>
--->
 </ul>
+-->
 
 We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths, Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
