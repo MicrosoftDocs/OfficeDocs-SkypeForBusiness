@@ -18,11 +18,8 @@
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
 ### [Skype Room Systems v2 Scripts](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## Manage
-### [Management overview](manage-intro-text.md)
-### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-<!-- add back, maybe? Looks like the stub James created has disappeared but maybe we need it
-### [Troubleshooting](../manage/skype-room-systems-v2/troubleshooting.md)
--->
+### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+### [Maintenance and operations](../manage/skype-room-systems-v2/skype-room-systems-v2-operations.md)
 ### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 ### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
