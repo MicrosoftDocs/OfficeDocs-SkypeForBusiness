@@ -79,7 +79,7 @@ You create the CAP by configuring the settings before you set up the physical ph
 2. Select a number from the available list of phone numbers number.
 3. Confirm your selection by selecting **Voice** and **Phone Numbers**.
 
-    >[Note]
+    >[!NOTE]
     Voice users only show if they have the Phone System licence applied, although even after applying, it can take time to refresh. Sometime reopening Skype for Business Admin center helps.
 	
 ## Configure Phone
@@ -111,7 +111,7 @@ Your phone is ready to be provisioned, which you'll do when you sign in on the h
 3. Go to the provisioning portal at http://aka.ms/skypecap, and sign in as **admin**.
 4. Enter display name (for example, Main Reception) to view your CAP.
 
->[Note]
+>[!NOTE]
 If “Search for Common Area Phones only” is checked, clear the checkbox and search again.
 
 5. In the pairing code window, enter the code displayed on the phone and click **Provision**.
