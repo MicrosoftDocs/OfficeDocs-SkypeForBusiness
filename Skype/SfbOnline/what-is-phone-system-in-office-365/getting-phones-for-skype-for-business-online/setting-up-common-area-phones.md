@@ -24,7 +24,13 @@ ms.custom:
 # Set up common area phones
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
 
+<<<<<<< HEAD
 ## Prerequisites for common area phones
+=======
+# Set up Common Area Phones
+
+A common area phone, or CAP, is typically placed in a shared area and not associated with an individual user. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically  sign in to the network. In the steps below, we’ll help you set up an account for Microsoft Phone System with Calling Plans and then deploy a CAP.
+>>>>>>> master
 
 The first thing you need to do is to confirm that you have the following:
 
@@ -38,10 +44,18 @@ The first thing you need to do is to confirm that you have the following:
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. 
 
+<<<<<<< HEAD
     Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
 
 ## Setting up a Common Area Phone
 You will need to follow these steps:
+=======
+## Check the firmware for your phone
+- **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
+- **Yealink phones**, go to **Status** on the main phone screen.
+- **AudioCodes phones**, go to **Menu** > **Device Status** > **Firmware version** from the start screen. 
+- **Lync Phone Edition (LPE) phones**, go to **Menu** > **System Information** from the start screen.
+>>>>>>> master
 
 ### Set up your user account for the phone
 
@@ -89,7 +103,14 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
 5. While you're there you will need to add an emergency address. Once you search, look under the **Select emergency address** to pick the right one for you.
 6. Click **Save** and your user should look like this:
 
+<<<<<<< HEAD
     ![cap-user-number.png](../../images/cap-user-number.png)
+=======
+    >[!NOTE]
+    Voice users only show if they have the Phone System licence applied, although even after applying, it can take time to refresh. Sometime reopening Skype for Business Admin center helps.
+	
+## Configure Phone
+>>>>>>> master
 
    > [!Note]
    > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
@@ -111,7 +132,12 @@ The phone or phones you have must have the Common Area Phone mode turned on. You
     2. Then go to **Setting**  and in the **Skype for Business Setting** option, select **Common Area Phone**.
     3. Click **Yes** to save your settings.
 
+<<<<<<< HEAD
 - Now that the CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
+=======
+>[!NOTE]
+If “Search for Common Area Phones only” is checked, clear the checkbox and search again.
+>>>>>>> master
 
     1. Click **Settings**.
     2. Select **Advanced**.

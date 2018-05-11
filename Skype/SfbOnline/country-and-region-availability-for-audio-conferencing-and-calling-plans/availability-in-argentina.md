@@ -34,7 +34,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Buenos Aires. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li>Buenos Aires</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> | Not available <br/> |
    
 ## Phone System
@@ -58,7 +58,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Buenos Aires <br/>  Cordoba <br/>  La Plata <br/>  Mar Del Plata <br/>  Mendoza <br/>  Rosario <br/>  San Miguel de Tucuman <br/> |
+|What capitals or major cities can you get toll numbers for?   | <ul><li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll free numbers available?  <br/> |Yes  <br/> |
    
