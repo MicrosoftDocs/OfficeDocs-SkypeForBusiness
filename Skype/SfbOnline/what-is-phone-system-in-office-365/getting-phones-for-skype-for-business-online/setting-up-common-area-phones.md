@@ -30,9 +30,11 @@ A common area phone, or CAP, is typically placed in a shared area and not associ
 
 Confirm that you have the following:
 
-	- Purchased Common Area Phone SKU 
-	- Updated firmware (See Supported Firmware in topichttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
-	- Approved  phones (view the list at https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
+- 	- Purchased Common Area Phone SKU 
+- 	- Updated firmware (See Supported Firmware in this topic:
+        https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+- 	- Approved  phones (view the list at:            
+        https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)
 
 ## Check the firmware for your phone
 - **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
@@ -116,6 +118,6 @@ If “Search for Common Area Phones only” is checked, clear the checkbox and s
 
 Following this last step, the phone should sign in automatically.
 
-Learn more about available phones at [](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
+Learn more about available phones at [Deploying Skype for Business Online phones](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
 
 

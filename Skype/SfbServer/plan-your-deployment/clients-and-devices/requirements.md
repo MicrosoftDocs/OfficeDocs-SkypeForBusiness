@@ -24,35 +24,37 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
     
-- One of the following tablets:
+- One of the following tablets or consoles:
     
 **Supported tablets**
-
-
-|**Tablet**|**Processor**|**RAM**|**Disk**|
+|Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4    |Core i5  |4GB  |128GB  |
+|Surface Pro 4    |Core i5  |8GB  |256GB  |    
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
+|Surface Pro (2017) |Core i7  |16GB  |1TB  |
    
-&sup1; — Core M3 processors are not supported on this model.
+> [NOTE]
+> Core M3 processors are not supported.
+
+**Supported consoles**
+|Console|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- One of the following docking station options to secure a tablet to the meeting room table. 
     
-- One of the following docking station options to secure the tablet to the meeting room table. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
@@ -129,7 +131,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
-In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
+In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md),  used to provision Skype Room Systems v2 accounts.
   
 ## See also
 
