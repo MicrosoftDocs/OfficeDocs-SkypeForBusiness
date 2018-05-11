@@ -22,7 +22,8 @@ ms.custom:
 ---
 
 
-## Set up Common Area Phones
+# Set up Common Area Phones
+
 A common area phone, or CAP, is typically placed in a shared area and not associated with an individual user. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically  sign in to the network. In the steps below, we’ll help you set up an account for Microsoft Phone System with Calling Plans and then deploy a CAP.
 
 ## Prerequisites for Common Area Phones
@@ -34,7 +35,6 @@ Confirm that you have the following:
         https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 - 	- Approved  phones (view the list at:            
         https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones)
-
 
 ## Check the firmware for your phone
 - **Polycom VVX phones**, go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
