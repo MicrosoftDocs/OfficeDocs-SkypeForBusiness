@@ -3,7 +3,7 @@ title: Check your environment’s readiness for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 5/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -19,6 +19,8 @@ Check your environment’s readiness for Microsoft Teams
 
 The transition to the cloud will vary by each organization, and current state may have an impact on how Teams will function.
 
+Educational institutions are strongly encouraged to [deploy School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) before deploying Microsoft Teams. School Data Sync uses your school’s SIS roster data to automatically create classes and groups for Microsoft Teams and other applications.
+
 To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online. If you haven't deployed these services, or if you have a different setup, refer to these links for help:
 
 -   If your organization has not deployed any Office 365 workloads, see [Getting Started with Office 365 for business.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
@@ -30,5 +32,7 @@ To get the best experience on Teams, your organization must have deployed Exchan
 -   If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](Exchange-Teams-interact.md).
 
 -   If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
+
+- If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) before deploying Microsoft Teams.
 
 																			   
