@@ -271,6 +271,7 @@ You create this package to distribute the root certificate for devices that wonâ
 1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML application named **Set-SRSComputerName.hta** .
 
 2.  Copy the following script into the **Set-SRSComputerName.hta** file. Alternatively, you can download the Set-SRSComputerName.hta file from [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+
 ```
 <!DOCTYPE HTML>
 <html>
