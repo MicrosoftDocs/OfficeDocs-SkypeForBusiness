@@ -58,7 +58,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |<<ul><li>Bangkok <li>  Chiang Mai <li>  Chon Buri <li>  Nakhon Ratchasima </ul> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Bangkok <li>  Chiang Mai <li>  Chon Buri <li>  Nakhon Ratchasima </ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    
