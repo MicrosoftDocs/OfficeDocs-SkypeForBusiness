@@ -58,7 +58,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Buenos Aires <br/>  Cordoba <br/>  La Plata <br/>  Mar Del Plata <br/>  Mendoza <br/>  Rosario <br/>  San Miguel de Tucuman <br/> |
+|What capitals or major cities can you get toll numbers for?   | <li>Buenos Aires <li>Cordoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll free numbers available?  <br/> |Yes  <br/> |
    
