@@ -34,8 +34,6 @@
 ### [Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Turn on or off entry and exit announcements for meetings](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Calling Plans in Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Add, change, or remove an emergency location for your organization](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Add or remove an emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
