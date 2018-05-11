@@ -27,7 +27,8 @@ https://docs.microsoft.com/en-us/SkypeForBusiness/management-tools/call-quality-
 Set up monitoring: 
 https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/deploy-monitoring
 
-https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/call-detail-recording-and-qoe 
+CDR command Set-CsQoEConfiguration may have a new option that sends to SfBOL  https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/call-detail-recording-and-qoe     
+
 
 ### Minimum Hybrid config steps - onprem side
  Preferably these steps are already called out elsewhere. Carolyn will likely know where. her plan topic should sort out what flavors of hybrid are in play
