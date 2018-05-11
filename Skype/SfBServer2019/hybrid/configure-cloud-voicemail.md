@@ -1,5 +1,5 @@
 ---
-title: "Configure cloud Voicemail"
+title: "Configure Cloud Voicemail"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for implementing cloud-based voicemail for users homed Skype for Business Server."
+description: "Instructions for implementing cloud-based voicemail for users homed on Skype for Business Server."
 ---
 
 # Configure Cloud Voicemail Service
-<!-- PM Roy Kunz  -->
+<!-- PM Roy Kunz  See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## Overview 
 See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an overview of Cloud Voicemail functionality.
- <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for example. -->
+ <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
 ## Shared SIP Address Space
 <!--https://technet.microsoft.com/en-us/library/gg398067(v=ocs.15).aspx#Shared SIP Address Space -->
@@ -48,7 +48,7 @@ To integrate Skype for Business Server 2019 with  Cloud voicemail, you must conf
 
 ## Enable Users for Cloud Voicemail
 
-To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must run the Set-CsUser cmdlet to set the value of the HostedVoiceMail parameter. This parameter also signals Skype for Business Server 2019 to light up the “call voice mail” indicator.
+To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must run the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet to set the value of the HostedVoiceMail parameter. This parameter also signals Skype for Business Server 2019 to light up the “call voice mail” indicator.
 
 - The following example enables Pilar Ackerman’s user account for Cloud Voicemail: \
      `Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True`
@@ -61,4 +61,3 @@ To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must
 
 The cmdlet verifies that no hosted voice mail policy (global, site-level or per-user) applies to this user. If a policy does apply, the cmdlet fails.
 
-See the Skype for Business Server Management Shell documentation, for details about using the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
