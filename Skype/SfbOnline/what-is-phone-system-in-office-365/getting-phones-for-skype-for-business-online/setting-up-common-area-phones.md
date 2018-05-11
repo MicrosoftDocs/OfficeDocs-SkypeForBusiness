@@ -22,8 +22,9 @@ ms.custom:
 ---
 
 
-## Set up Common Area Phones
-A common area phone, or CAP, is typically placed in a shared area and not associated with an individual user. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically  sign in to the network. In the steps below, we’ll help you set up an account for Microsoft Phone System with Calling Plans and then deploy a CAP.
+# Set up Common Area Phones
+
+A common area phone (CAP) is typically placed in a shared area and not associated with an individual user. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically  sign in to the network. In the steps below, we’ll help you set up an account for Microsoft Phone System with Calling Plans and then deploy a CAP.
 
 ## Prerequisites for Common Area Phones
 
