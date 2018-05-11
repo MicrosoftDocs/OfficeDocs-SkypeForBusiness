@@ -41,6 +41,7 @@
 ### [Add or remove an emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [Block incoming calls](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Calling Plans known issues](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Change the emergency address for a user](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -76,7 +77,8 @@
 ## [Phone System in Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Create a Phone System call queue](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
-#### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+### [Setting up Common Area Phones (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Here's what you get with Phone System](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Phone System voicemail
