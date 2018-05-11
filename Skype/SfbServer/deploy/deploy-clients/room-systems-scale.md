@@ -23,7 +23,7 @@ Use the approach illustrated below to guide you through your Configuration Manag
 
 ![Skype Room Systems v2 deployment process using Configuration Manager](../../media/room-systems-scale-image1.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer’s guidelines for configurations that aren’t based on Surface Pro.
 
 ## Validate prerequisites
@@ -508,8 +508,8 @@ Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You n
 > The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
 
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and at the command prompt, enter one of the following commands:
-    -   `msiexec /a C:\\SurfacePro_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro"`
-    -   `msiexec /a C:\\SurfacePro4_Win10.msi /passive TARGETDIR="C:\\_Sources\\Drivers\\Surface Pro 4"`
+    -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
+    -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
 3.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Drivers**, and then select **Import Driver**.
 
