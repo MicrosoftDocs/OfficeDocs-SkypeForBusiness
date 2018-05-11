@@ -21,7 +21,7 @@ Servicing and Critical Updates servicing phase When running the latest  version 
 Security Updates (Only) servicing phase After a new  version is released, support for older branches will reduce to Security updates only for the remainder of the twelve (12) month Servicing Updates support lifecycle.
 
 
-> [NOTE]
+> [!NOTE]
 > The latest version is always in the Servicing and Critical Updates servicing phase. This means that in the event that you encounter a code defect that warrants a critical update, you must have the latest version installed in order to receive a fix. All other supported  versions will only be eligible to receive security updates.
 
 All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. At that time, customers must update to a supported  version.
