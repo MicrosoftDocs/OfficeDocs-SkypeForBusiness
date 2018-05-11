@@ -26,7 +26,7 @@ Security Updates (Only) servicing phase After a new  version is released, suppor
 
 All support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. At that time, customers must update to a supported  version.
 
-All releases are listed in the [Skype Room Systems v2 release notes](srs2-release-note.md#Versions). 
+All releases are listed in the [Skype Room Systems v2 release notes](srs2-release-note.md). 
  
 
 
