@@ -17,7 +17,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-- description: Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Common Area Phones.
+description: Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Common Area Phones.
 ---
 
 # Set up common area phones

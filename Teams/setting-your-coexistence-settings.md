@@ -26,7 +26,7 @@ appliesto:
 
 ## Setting your upgrade options for your users
 
-![teams-logo-30x30.png](../media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Org-wide settings** > **Teams upgrade**. 
 
