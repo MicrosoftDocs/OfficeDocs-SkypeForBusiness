@@ -31,6 +31,7 @@ to configure both Call Detail Recording and Quality of Experience, or run the fo
 ```
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
+Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 
@@ -42,7 +43,7 @@ Call Data Connector requires the following Hybrid connection:
 - Office 365 federation enabled
 - A shared SIP address space for Skype for Business Server and Office  365 is configured.
 
-once all these are set up, 
+once all these are set up, admins get a checkbox option to enable CDC. Once enabled, they should set or confirm their CDC settings in parallel with CDR and QoE settings
 
 **So the Hybrid wizard enables Data Connector, it's a single option in a longer process.**
 

@@ -21,6 +21,11 @@ description: "Instructions for implementing cloud-based voicemail for users home
 See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an overview of Cloud Voicemail functionality.
  <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
+### Pre -requisites
+
+
+
+
 ## Shared SIP Address Space
 <!--https://technet.microsoft.com/en-us/library/gg398067(v=ocs.15).aspx#Shared SIP Address Space -->
 
@@ -57,7 +62,7 @@ To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must
 - The following example disables Pilar Ackerman’s user account for hosted voice mail:  \
     `Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False`
 
-**QUESTION:<BR> Verify: are we still using the HostedVoiceMail parameter, or is there a new parameter not yet public?<br> If the user is already on hosted exchange UM is this part needed?<br> What about migrating users from hosted EXCH UM to Cloud VM?**
+**QUESTION:<BR> Verify: are we still using the HostedVoiceMail parameter for Set-CsUser , or is there a new parameter not yet public?<br> If the user is already on hosted exchange UM is this part needed?<br> What about migrating users from hosted EXCH UM to Cloud VM?**
 
 The cmdlet verifies that no hosted voice mail policy (global, site-level or per-user) applies to this user. If a policy does apply, the cmdlet fails.
 
