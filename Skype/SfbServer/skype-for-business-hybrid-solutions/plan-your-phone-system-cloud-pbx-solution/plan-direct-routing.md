@@ -211,7 +211,7 @@ At this moment three SBC vendors are in process of certification:
 - Ribbon (formerly Sonus),  the pages with interconnection instructions and product description:
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
- - ThinkTel, ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
+- ThinkTel, ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
  
 ## See also
 
