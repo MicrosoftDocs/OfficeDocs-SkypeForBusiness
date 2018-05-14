@@ -29,20 +29,11 @@ Tip: Take time to identity the ideal Executive Sponsor, someone who helps set th
 
 *Optional: Create a steering committee*. Sometimes large or more complex projects end up with ‘too many cooks in the kitchen’, resulting in disconnects between the stakeholder groups. For these projects, you may elect to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. More information on implementing a steering committee can be found in the [steering committee guide](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
 
-*Decision Points: Who are the right resources to represent your stakeholder team
-for this project?*
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who are the right resources to represent your stakeholder team for this project?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Leverage the table below as a guideline noting that this list is not all-inclusive or exclusive.<br><b>Tip</b><br>Build a [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further identify those who are accountable vs those who simply need to be kept informed in a particular area of the project.</li><li>Determine whether to create a steering committee and assign roles as appropriate.</li></ul>|
 
-*Next Steps:*
-
--   *Consider the scope of your project and assign the relevant stakeholders.
-    Leverage the table below as a guideline noting that this list is not
-    all-inclusive or exclusive. TIP: Build a* [RACI
-    matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) *to
-    further identify those who are accountable vs those who simply need to be
-    kept informed in a particular area of the project.*
-
--   *Determine whether to create a steering committee and assign roles as
-    appropriate.*
 
 | Roles                           | Responsibility                                                                  | Name(s)          |
 |---------------------------------|---------------------------------------------------------------------------------|------------------|
@@ -73,24 +64,14 @@ for this project?*
 
 Taking time to define your project vision, scope, goals and governance will help ensure all project stakeholders are aligned and working toward the same end results. This is especially critical given that the technical readiness team and user readiness team will be working independently to pull their respective pieces together. Once you complete this section, refer to it throughout your project to ensure you are on track for your desired end-state. Use the goals section to measure against your outcomes and mitigate as needed.
 
-*Decision Points:*
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What are you wanting to accomplish with this project (eg why are you doing it)?</li><li>What does success look like?</li><li>What are the risks and what is your mitigation plan?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the sections below with your project team and sponsors.</li><li>Document your Vision, Scope, Goals and Risks for this project.</li><li>Revisit your project team to validate the right team has been engaged.</li></ul>|
 
--   *What are you wanting to accomplish with this project (eg why are you doing
-    it?)*
+### Project Vision
 
--   *What does success look like?*
-
--   *What are the risks and what is your mitigation plan?*
-
-*Next Steps:*
-
--   *Discuss the sections below with your project team and sponsors.*
-
--   *Document your Vision, Scope, Goals and Risks for this project.*
-
--   *Revisit your project team to validate the right team has been engaged.*
-
-*Project Vision.* Your vision is the “big picture” or long-term end-state
+Your vision is the “big picture” or long-term end-state
 answering the question, “Why are we doing this project?” An ideal vision
 addresses your **organization’s business drivers** as well as **end user
 value-add** perspectives. As an example:
@@ -117,9 +98,12 @@ Consider the following discussion points to help define your vision:
 -   The expected and measurable business outcomes if these challenges are
     overcome
 
-TIP: Identify *use cases and personas* to further refine your project vision.
+> [!TIP]
+> Identify *use cases* and *personas* to further refine your project vision.
 
-*Project Scope:* Your long-term vision may be realized over time and through
+### Project Scope
+
+Your long-term vision may be realized over time and through
 various phases. The project scope defines the focus of your project *at this
 time* and serves to keep your project team focused on the current tasks,
 enabling you to realize your long-term vision**.** For example, your scope might
@@ -137,7 +121,9 @@ time. As part of the project scope, you should consider assessing:
 -   The need to conduct a *pilot* to validate technical and user readiness
     within your organization.
 
-*Project Goals.* Your goals define the intended outcome and enable you to
+### Project Goals
+
+Your goals define the intended outcome and enable you to
 measure success of the project. Goals can be defined as objectives and key
 results (OKRs), and the measures of project success can be defined as a list of
 key success indicators (KSIs). Full participation from project stakeholders in
@@ -145,27 +131,15 @@ defining OKRs and KSIs is essential to help ensure they feel a sense of
 ownership and to align these measures of success to defined project tasks. Goals
 should include a mix of technical and user-focused success.
 
->   **OKRs** contain the *objectives* you set in the beginning of the project,
->   and the *key results* you measure on a defined cadence (e.g. monthly,
->   quarterly). Reviewing your key results enables you to ensure your project
->   deliverables are on schedule or identify/mitigate issues to get your project
->   back on track. OKRs are typically measured as Achieved or Not Achieved.
+**OKRs** contain the *objectives* you set in the beginning of the project, and the *key results* you measure on a defined cadence (e.g. monthly, quarterly). Reviewing your key results enables you to ensure your project deliverables are on schedule or identify/mitigate issues to get your project back on track. OKRs are typically measured as Achieved or Not Achieved.
 
->   **KSIs** measure quality and success of the key results and complement the
->   binary nature of OKRs by detailing good and/or bad results.
-
->   When defining KSIs, we recommend that you use “specific, measurable,
->   assignable, realistic, time-related” (SMART) criteria:
+**KSIs** measure quality and success of the key results and complement the binary nature of OKRs by detailing good and/or bad results. When defining KSIs, we recommend that you use “specific, measurable, assignable, realistic, time-related” (SMART) criteria:
 
 -   Specific: target a specific area for improvement
-
 -   Measurable: quantify, or at least suggest an indicator of, progress
-
 -   Assignable: specify who will do it
-
 -   Realistic: state what results can realistically be achieved, given available
     resources
-
 -   Time-related: specify when the results can be achieved
 
 Below are examples of OKRs and KSIs for the initial phases of a Skype for
@@ -173,30 +147,10 @@ Business to Teams upgrade project.
 
 | Objective                                                                                                                                                              | Key Result                                                                | To Do                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------|
-| Pilot Teams alongside Skype for Business, in [Collab Only mode](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | FY18Q2: 500-user pilot conducted and completed                            | Identify pilot users                                      |
-| Successfully run Collab Only mode for all users in organization, alongside Skype for Business                                                                          | 60% of Skype for Business users are using Teams within 30 days of rollout | Design and execute broad communications and training plan |
+| Pilot Teams alongside Skype for Business, in [Collab Only mode](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | FY18Q2: 500-user pilot conducted and completed                            | <ul><li>Identify pilot users</li><li>Create pilot test plan</li><li>Enable pilot users on Teams</li><li>Implement pilot</li><li>Execute pilot feedback survey</li><li>Measure pilot success</li></ul>              |
+| Successfully run Collab Only mode for all users in organization, alongside Skype for Business                                                                          | <ul><li>60% of Skype for Business users are using Teams within 30 days of rollout</li><li>User satisfaction of Teams is \>=80%</li></ul> | <ul><li>Design and execute broad communications and training plan</li><li>Enable all users for Teams, collab-only</li><li>Track usage monthly</li><li>Gather user feedback</li><li>Monitor network health/quality</li><li>Mitigate as needed</li></ul> |
 
--   Create pilot test plan
 
--   Enable pilot users on Teams
-
--   Implement pilot
-
--   Execute pilot feedback survey
-
--   Measure pilot success
-
--   User satisfaction of Teams is \>=80%
-
--   Enable all users for Teams, collab-only
-
--   Track usage monthly
-
--   Gather user feedback
-
--   Monitor network health/quality
-
--   Mitigate as needed
 
 | Type                  | Key Success Indicator                                                                   | How Measured                                                                      | Success Criteria                                       | Measured                             |
 |-----------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
@@ -207,14 +161,13 @@ Business to Teams upgrade project.
 | **User satisfaction** | I would recommend Teams to others                                                       | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) via post-pilot survey | NPS = \> 0                                             | Post pilot, Post rollout             |
 | **Business driver**   | Cost savings                                                                            | *Accounts Payable*                                                                | \$X million cost expenditure in 3rd party solutions    | 6 months/1 year/5 years post rollout |
 
-*TIP*: To help ensure your project remains on track, consider defining both
-smaller short-term milestones and bigger long-term goals. This includes metrics
-that you will capture as part of your *user pilot*. When considering your
-timeline, leverage the [Skype to Teams
-roadmap](https://skypeandteams.blob.core.windows.net/artefacts/Skype%20for%20Business%20to%20Teams%20Capabilities%20Roadmap.pdf)
-if you are waiting on certain features not yet available in Teams.
 
-*Risks and Mitigation*. With any project, unforeseen factors may arise and throw your project off track. Proactively assessing potential risks and defining a mitigation plan will help overcome issues that may arise, enabling your project to continue toward your goals. A *risk register* is an excellent tool to track Project Risk, Risk Likelihood, Risk Impact and documenting your Mitigation Plan. Here is a sample risk register:
+> [!TIP]
+> To help ensure your project remains on track, consider defining both smaller short-term milestones and bigger long-term goals. This includes metrics that you will capture as part of your *user pilot*. When considering your timeline, leverage the [Skype to Teams roadmap](https://skypeandteams.blob.core.windows.net/artefacts/Skype%20for%20Business%20to%20Teams%20Capabilities%20Roadmap.pdf) if you are waiting on certain features not yet available in Teams.
+
+### Risks and Mitigation
+
+With any project, unforeseen factors may arise and throw your project off track. Proactively assessing potential risks and defining a mitigation plan will help overcome issues that may arise, enabling your project to continue toward your goals. A *risk register* is an excellent tool to track Project Risk, Risk Likelihood, Risk Impact and documenting your Mitigation Plan. Here is a sample risk register:
 
 | Risk                   | Likelihood | Impact | Overall | Mitigation Plan                                                                                                                       |
 |------------------------|------------|--------|---------|---------------------------------------------------------------------------------------------------------------------------------------|
@@ -222,7 +175,9 @@ if you are waiting on certain features not yet available in Teams.
 | **Low User adoption**  | High       | High   | High    | Proactively work with users during pilot and deployment phases; Implement a targeted awareness and training campaign to create desire |
 |                        |            |        |         |                                                                                                                                       |
 
-*Governance.* The final step in planning is to agree on the governance model for your Teams deployment. This includes things like who can create teams, what policies and processes can you implement to help users optimize Teams, are there features that need to be considered for compliance? Taking time to define your governance model for Teams can help drive a positive user experience while faciliating the management of Teams with IT and your support desk. If your organization already has a governance board, engage them as part of your project stakeholder team and align Teams policies and processes with other operational models already in place. 
+### Governance
+
+The final step in planning is to agree on the governance model for your Teams deployment. This includes things like who can create teams, what policies and processes can you implement to help users optimize Teams, are there features that need to be considered for compliance? Taking time to define your governance model for Teams can help drive a positive user experience while faciliating the management of Teams with IT and your support desk. If your organization already has a governance board, engage them as part of your project stakeholder team and align Teams policies and processes with other operational models already in place. 
 
 Link to the Teams governance page.
 
