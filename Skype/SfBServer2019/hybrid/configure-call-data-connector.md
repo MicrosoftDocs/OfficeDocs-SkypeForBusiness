@@ -23,6 +23,17 @@ To perform these tasks, you will need to be authenticated to your Office 365 Ten
 
 ##  Server configuration
 
+### Set up monitoring 
+
+Follow the steps provided in https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/deploy-monitoring
+to configure both Call Detail Recording and Quality of Experience, or run the following commands from within the Skype for Business Server Management Shell:
+
+```
+Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
+Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
+```
+
+
 ###  Configuring hybrid and other dependencies
 
 Call Data Connector requires the following Hybrid connection:
@@ -31,24 +42,10 @@ Call Data Connector requires the following Hybrid connection:
 - Office 365 federation enabled
 - A shared SIP address space for Skype for Business Server and Office  365 is configured.
 
-T
+once all these are set up, 
 
-**Is there any plan to support running CQD in parallel both online and onprem? If so, is there a required order? Could one perhaps set up Monitoring and CQD onprem first and then migrate the functionality to OL?**
+**So the Hybrid wizard enables Data Connector, it's a single option in a longer process.**
 
-
-### Set up monitoring 
-
-CQD onprem uses data produced when monitoring and Call Detail Recording is implemented, sending call data from FE servers to a Monitor server role (explained in onprem CQD doc), which has its call data replicated to a local SQL server and read by the CQD app. Assuming a dedicated monitoring server will be implemented onprem then the replication will instead be sent to a repository in Azure, we should be able to re-use or point to the steps provided in https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/deploy-monitoring
-
-If the functions of a Monitoring Server will happen in the cloud, we'll need to understand which cmdlets or options set that up, or if setting that up happens in the updated Control Panel or Topology Builder.
-
-### Set up Call Detail Recording 
-
-This is already documented for onprem,  but this may be where the switch is thrown and our onprem data gets sent to CQD OL. My guess is  the CDR command Set-CsQoEConfiguration may have a new option that sends to SfBOL  https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/deploy-monitoring/call-detail-recording-and-qoe  
-   
-
-Onprem CQD docs for reference
-https://docs.microsoft.com/en-us/SkypeForBusiness/management-tools/call-quality-dashboard/deploy-0
 
 
 ## CQD Online
