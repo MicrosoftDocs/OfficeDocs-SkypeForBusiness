@@ -166,7 +166,7 @@ After data is collected and custom fields are mapped, you can use Operations Man
 
 You can import an Operations Management Suite dashboard and start monitoring your devices immediately. Take the following steps to import the dashboard:
 
-1.  Download the [dashboard](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview).
+1.  Get the [SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md) dashboard file.
 2.  Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).
 3.  Open **View Designer**.
 4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
