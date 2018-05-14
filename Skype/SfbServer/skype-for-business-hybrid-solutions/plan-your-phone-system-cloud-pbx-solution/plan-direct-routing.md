@@ -206,12 +206,12 @@ Microsoft only supports the certified SBC to pair with Direct Routing. Because E
 
 Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. There is also a joint support process between Microsoft and the SBC vendors established. 
 
-At this moment three SBC vendors are in process of certification:
-- AudioCodes, [the page with interconnection instructions and product description](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Ribbon (formerly Sonus),  the pages with interconnection instructions and product description:
+The following vendors are in the process of being certified:
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-sbcs-media-gateways)
+- Ribbon (formerly Sonus):
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel, ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
+- ThinkTel: ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
  
 ## See also
 
