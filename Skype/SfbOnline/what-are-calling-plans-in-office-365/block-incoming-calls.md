@@ -26,9 +26,9 @@ This feature is not yet available for Direct Routing.
 >[!NOTE]
  Blocked callers may experience slightly different behaviors when they have been blocked. The behavior will be based on how the blocked caller’s carrier handles the notification that the call is not allowed to be successfully completed. Examples may include a carrier message stating the call cannot be completed as dialed, or simply dropping the call.
 
-## Call Blocking Admin Controls and Information
+#### Call Blocking Admin Controls and Information
 Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
-## Call Blocking PowerShell Commands
+#### Call Blocking PowerShell Commands
 
 *InboundBlockedNumberPattern*
 Number patterns are managed via the *CsInboundBlockedNumberPattern* commands **New**, **Get**, **Set**, and **Remove**.  
@@ -49,8 +49,8 @@ Returns the parameters for the global blocked number list including Enabled (Tru
 - *Set-CsTenantBlockedCallingNumbers*
 Allows modifying the global tenant blocked calls to be turned on/off at the tenant level.
 
-### Examples
-#### Blocking a Number
+#### Examples
+### Blocking a Number
 
 In this example, the -Enabled and -Description parameters are optional:
 
@@ -63,7 +63,7 @@ We recommend that you provide a meaningful name to easily understand why the pat
 Patterns are matched using Regular Expressions (regex). 
 Allow for replication time before testing and validating.
 
-#### Allowing a Number
+### Allowing a Number
 
 In this example, the identity parameter is  required:
 `Remove-CsInboundBlockedNumberPattern -Identity “<identity>”`
@@ -81,5 +81,5 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 #### A Note on Regex
 As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex). There are multiple tools available online to help validate a regex pattern match. If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant. 
 
-## Related topics
+##### Related topics
 [Set up your computer for Skype for Business Online management using Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
