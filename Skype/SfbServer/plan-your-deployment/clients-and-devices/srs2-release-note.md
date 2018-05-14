@@ -33,52 +33,49 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 | RTM (1.0.8) | 12/7/2016  | 
 
 
-
 ## Skype Room Systems v2 feature introduction and issue resolution
 
-
 ### 3.1.104.0 (04/16/2018)
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems
 - Improvements to prepare for future operating system updates
 
 
 ### 3.1.100.0 (03/16/2018)
-**New feature(s)** introduced in this update: 
+Introduced in this update:  
 - Application updated to improve telemetry.
 
 ### 3.1.99.0 (03/14/2018)
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - Fixes an issue where intermittent meeting join issues may occur.
-- Fixes an issue know to result in a device "hang" experience.
+- Fixes an issue known to result in a device "hang" experience.
 
 ### 3.1.98.0  (3/8/2018)
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - Bug/Crash fixes to improve stability
 - Support for variable-sized console
 - Peripheral audio processing offloading (additional media whitelisting)
-- Also includes optimizations which will enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.  
+- Optimizations which will enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.  
 
 <!--### 3.1.97.0 (00/00/0000)
-**New feature(s)** introduced in this update: 
+Introduced in this update:  
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
 
 
 ### 3.0.16.0 (11/27/2017)
-**New feature(s)** introduced in this update: 
-- Fixes an issue with "Give Feedback" feature.
+Introduced in this update:  
+- Fixes an issue with the "Give Feedback" feature.
 
 ### 3.0.15.0 (10/3/2017)
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)
-- [10:52 AM] David Groom
-- resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room.
+- Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room.
 
 
 ### 3.0.12.0 (9/1/2017)
-**New feature(s)** introduced in this update:  
-- Runs on Surface Pro (2017) tablet  
+Introduced in this update:   
+- Runs on a Surface Pro (2017) tablet  
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)    
 - Support for [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware    
 - OEM Support for Environment Controls (Crestron)
@@ -86,11 +83,11 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
 
 ### 3.0.8.0 (8/4/2017) 
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - Resolves issues observed when searching for federated users through the Participants search field. Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results. 
 
 ### 3.0.6.0 (7/7/2017) 
-**New feature(s)** introduced in this update:  
+Introduced in this update: 
 - Dual-Screen support (for legacy system parity)   
 - Themability (built-in themes and the ability to set custom theme) 
 - Ability to Give Feedback for public builds     
@@ -101,7 +98,7 @@ The 64-bit version of Windows 10 Enterprise Anniversary edition (English languag
 
 
 ### 2.0.2.0 (03/15/2017)
-**New feature(s)** introduced in this update: 
+Introduced in this update: 
 - In-app user selection of meeting room audio and video USB devices
 - Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan 
 Skype Room Systems v2 management with OMS](oms-management.md)) 
@@ -111,43 +108,28 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 
  **Built for Skype for Business**
   
-- One-touch join of Skype Meetings
-    
+- One-touch join of Skype Meetings    
 - Skype Meeting experience optimized for rooms with screen-filling HD video and HD wideband audio
-    
 - All participants can connect to the Skype Meeting using their device of choice from wherever they may be located
-    
 - Invite people from your directory where you can instantly see their availability or via a phone call
-    
 - Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
     
  **Transform Any Meeting Room**
   
 - Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
-    
 - Re-use existing investments in your front of room display or projectors
-    
 - Works in all types of meeting spaces from huddle spaces to large conference rooms
-    
 - Certified Skype for Business audio and video devices are available for various room sizes
-    
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
-    
     
  **Easy to Deploy, Simple to Manage**
   
 - Always-on appliance that will automatically wake up the displays when it detects people in the room
-    
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App
-    
 - Windows AppLocker locks down the device to the Skype Meeting app
-    
 - Monitored and managed as a Windows 10 Enterprise device via Intune and SCCM (MDM)
-    
 - Enterprise-grade reliability
-    
 - Low training effort of end-users due to familiar Skype user interface
-    
 - Runs on Surface Pro 4 tablet
  
 
