@@ -34,7 +34,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for Amsterdam. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for:<br/><ul><li> Amsterdam</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -47,12 +47,12 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
-
+    
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |1200 domestic minutes or 600 international minutes (whichever is reached first per calendar month).  <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>3000 minute Domestic Calling Plan </li></li><li>600 minute for Domestic and International Calling Plans</li></li> 
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## Toll and toll-free numbers for services
 

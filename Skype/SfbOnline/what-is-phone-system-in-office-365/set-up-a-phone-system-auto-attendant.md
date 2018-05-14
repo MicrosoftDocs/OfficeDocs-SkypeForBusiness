@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. "
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: QoS in Microsoft Teams - Microsoft Teams
+title: Quality of Service in Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

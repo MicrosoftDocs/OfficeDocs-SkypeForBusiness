@@ -15,13 +15,12 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need."
 ---
 
@@ -80,6 +79,6 @@ If you still need help, please let us know how we can help you. In your Help req
 
     
 ## Related topics
-[Emergency calling terms and conditions](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

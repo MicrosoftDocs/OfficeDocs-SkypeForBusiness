@@ -24,35 +24,37 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
   
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
     
-- One of the following tablets:
+- One of the following tablets or consoles:
     
 **Supported tablets**
-
-
-|**Tablet**|**Processor**|**RAM**|**Disk**|
+|Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro 4 &sup1;  <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |4GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i5  <br/> |8GB  <br/> |256GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |8GB  <br/> |128GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |512GB  <br/> |
-|Surface Pro &sup1; <br/> |Core i7  <br/> |16GB  <br/> |1TB  <br/> |
+|Surface Pro 4    |Core i5  |4GB  |128GB  |
+|Surface Pro 4    |Core i5  |8GB  |256GB  |    
+|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
+|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
+|Surface Pro (2017) |Core i7  |16GB  |1TB  |
    
-&sup1; — Core M3 processors are not supported on this model.
+> [!NOTE]
+> Core M3 processors are not supported.
+
+**Supported consoles**
+|Console|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+ <!-- HP dock is still pending  -->  
     
- 
+- One of the following docking station options to secure a tablet to the meeting room table. 
     
-- One of the following docking station options to secure the tablet to the meeting room table. 
-    
-  - [Logitech SmartDock](https://www.logitech.com/en-us/product/smartdock)
+  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
     
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
     
-  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-  - [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  
-<!-- HP dock is still pending  -->  
+
  
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
@@ -100,17 +102,20 @@ The following tables provide recommendations for peripherals based on room size:
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5m  <br/> |Logitech Connect  <br/> |The Logitech Connect devices include a camera so it must be positioned at the front of the room (not center of table) to capture local meeting attendees.  <br/> |
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Playback volume may be limited for larger rooms.  <br/> |
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees).  <br/> In general, rooms with long rectangular or u-shaped tables may benefit from additional satellite microphones.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |3m  <br/> This distance also applies to the area covered by each additional satellite microphone connected to the audio device in question.  <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |All audio devices listed in this row support satellite microphone options.  <br/> CX5100 includes a built-in 360 degree camera so that the device can be positioned in the center of table.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
+|**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |3m  <br/> This distance also applies to the area covered by each additional satellite microphone connected to the audio device in question.  <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |All audio devices listed in this row support satellite microphone options.  <br/> CX5100 includes a built-in 360 degree camera so that the device can be positioned in the center of table.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
    
 **Skype Room Systems v2 Certified Video Peripherals**
 
-|**Room Type**|**Number of People**|**Device by Optimal room size**|**Comments**|
+|Room Type|Number of People|Device by Optimal room size|Comments|
 |:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100  <br/> ||
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech PTZ Pro often bundled with Logitech Group  <br/> |
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
-|**Large** <br/> 15' x 20'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
+|**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
    
+ > [!NOTE]
+ > Front of room display resolution should be set to no greater than 1920x1080p.
+
 ## Required Software Downloads
 
 You will need the following downloads to build your own Skype Room Systems v2 image:
@@ -126,7 +131,7 @@ You will need the following downloads to build your own Skype Room Systems v2 im
     
 These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
   
-In addition, you will probably want a copy of the [Powershell script](https://go.microsoft.com/fwlink/?linkid=870105) used to provision Skype Room Systems v2 accounts.
+In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](../../deploy/deploy-clients/room-systems-v2-scripts.md),  used to provision Skype Room Systems v2 accounts.
   
 ## See also
 

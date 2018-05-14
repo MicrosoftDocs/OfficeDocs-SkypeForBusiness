@@ -15,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -118,7 +118,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-03202018)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -153,7 +153,7 @@ In Audio Conferencing there is a feature named "*Call Me*" and it can be used to
 Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). For those users, you will need to [set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> During the introductory period, users in all organizations can dial out to when using the Call Me feature or when adding other people to a meeting to any of the following countries/regions at no additional charge, but this is subject to the [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> During the introductory period, users in all organizations can dial out to when using the Call Me feature or when adding other people to a meeting to any of the following countries/regions at no additional charge, but this is subject to the [Audio Conferencing complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### Phone System
 With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.

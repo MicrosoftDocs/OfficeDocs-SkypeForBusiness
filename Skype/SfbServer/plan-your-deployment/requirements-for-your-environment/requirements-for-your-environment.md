@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: "Summary: Outline of topics for systems requirements and network or infrastructure requirements for Skype for Business Server 2015. If you need to install or configure anything as a prerequisite to installing and deploying Skype for Business Server 2015, it will be here."
 ---

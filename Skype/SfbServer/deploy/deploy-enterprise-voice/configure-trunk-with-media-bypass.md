@@ -7,9 +7,11 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: "Summary: Configure a trunk with media bypass enabled for Skype for Business Server 2015. This will let you minimize the number of Mediation Servers, presuming your SIP trunk provider supports it."
 ---
