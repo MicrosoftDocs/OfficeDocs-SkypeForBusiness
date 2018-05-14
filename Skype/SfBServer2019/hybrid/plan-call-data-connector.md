@@ -24,7 +24,11 @@ This topic describes benefits, planning considerations, and requirements for imp
 
 Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can view call quality for your entire organization online.
 
-With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools. These tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
+With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools as shown in the following diagram:
+
+![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-1.png)
+
+The CA and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
 
 - Call Analytics focuses on quality problems with specific calls. It shows detailed information about calls and meetings for each user in a Skype for Business acouunt.  With Call Analytics, you can assign permissions to a Helpdesk operator who can then monitor calls without having access to the rest of the Skype for Business Admin center.
 
