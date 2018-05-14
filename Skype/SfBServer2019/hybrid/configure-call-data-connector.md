@@ -12,22 +12,28 @@ ms.collection:
 description: "Instructions for configuring the Call Data Connector feature, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business online tools."
 ---
 
-# Configure call data connector
+# Configure Call Data Connector
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard.
+This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard. This configuration is primarily done using a wizard built into the Skype for Business Server Control Panel.
 
-For now, links to SFBOL and server 2015 content are provided as a reference while we determine what we can leverage from existing content and what we will need to create.
+To perform these tasks, you will need to be authenticated to your Office 365 Tenant and be a Server Admin for Skype for Business Server and also A Global Administrator is Office 365.
+
 
 ##  Server configuration
 
 ###  Configuring hybrid and other dependencies
 
-**At this time we need clarification on which of the several flavors of hybrid are intended. Therefore this section is TBD** 
+Call Data Connector requires the following Hybrid connection:
+- Edge server federation is enabled 
+- Federation between Skype for Business Server and Office 365 is established
+- Office 365 federation enabled
+- A shared SIP address space for Skype for Business Server and Office  365 is configured.
 
-Is there a plan to support running CQD in parallel both online and onprem? 
-Is there a required order? Could one perhaps set up Monitoring and CQD onprem first and then migrate the functionality to OL?
+T
+
+**Is there any plan to support running CQD in parallel both online and onprem? If so, is there a required order? Could one perhaps set up Monitoring and CQD onprem first and then migrate the functionality to OL?**
 
 
 ### Set up monitoring 

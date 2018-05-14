@@ -1,7 +1,7 @@
 ---
 title: "Plan call data connector"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
