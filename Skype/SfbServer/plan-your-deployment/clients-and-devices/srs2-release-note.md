@@ -18,27 +18,29 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 ##  Version history
 
-| Release | Published to <br>Microsoft Store | Support End |
-| ---     | ---                              | ---         |
-| 3.1.104.0|            |            |
-| 3.1.100.0|            |            |
-| 3.1.98.0 |            |            |
-| 3.0.15.0 |            |            |
-| 3.0.12.0 |            |            |
-| 3.0.6.0 | 11/16/2017 | 11/16/2018 |
-| 2.0.2.0  | 03/15/2017 | 03/15/2018 |
-| RTM (1.0.8)       | 12/7/2016  | 12/07/2017 |
+| Release | Published to <br>Microsoft Store | 
+| ---     | ---                              |
+| 3.1.104.0|  04/16/2018    |            
+| 3.1.100.0|  03/16/2018    |            
+| 3.1.99.0 | 3/14/2018      |   
+| 3.1.98.0    | 3/8/2018    |   
+|  3.0.16.0    |  11/27/2017   |
+| 3.0.15.0 | 10/3/2017  |            
+| 3.0.12.0 |  9/1/2017  |            
+| 3.0.8.0 | 11/16/2017 | 
+| 3.0.6.0 | 11/16/2017 | 
+| 2.0.2.0  | 03/15/2017 | 
+| RTM (1.0.8) | 12/7/2016  | 
 
 
 
-## Skype Room Systems v2 feature introduction
+## Skype Room Systems v2 feature introduction and issue resolution
 
 
 ### 3.1.104.0 (04/16/2018)
 **New feature(s)** introduced in this update: 
-- ITPro improvements? 
-- Admin improvements?
-- Client/user improvements?
+- Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems
+- Improvements to prepare for future operating system updates
 
 
 ### 3.1.100.0 (03/16/2018)
@@ -50,20 +52,31 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 - Fixes an issue where intermittent meeting join issues may occur.
 - Fixes an issue know to result in a device "hang" experience.
 
-
-### 3.1.98.0 (00/00/0000)
+### 3.1.98.0  (3/8/2018)
 **New feature(s)** introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) dock hardware.
-- NOTE: Building an image with 3.1.98.0 and Windows 10 Version 1709 requires the addition of Win10 January Update KB4056892.  Also, a PS1 script has been made available to more quickly build images.
+- Bug/Crash fixes to improve stability
+- Support for variable-sized console
+- Peripheral audio processing offloading (additional media whitelisting)
+- Also includes optimizations which will enable IT Pros to build do-it-yourself images with Windows 10 Version 1709 January Update and later.  
+
+<!--### 3.1.97.0 (00/00/0000)
+**New feature(s)** introduced in this update: 
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
 
 
-### 3.0.15.0 (00/00/0000)
+### 3.0.16.0 (11/27/2017)
+**New feature(s)** introduced in this update: 
+- Fixes an issue with "Give Feedback" feature.
+
+### 3.0.15.0 (10/3/2017)
 **New feature(s)** introduced in this update: 
 - Support for [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- [10:52 AM] David Groom
+- resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room.
 
 
-### 3.0.12.0 (00/00/0000)
+### 3.0.12.0 (9/1/2017)
 **New feature(s)** introduced in this update:  
 - Runs on Surface Pro (2017) tablet  
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)    
@@ -72,8 +85,11 @@ This article discusses cumulative improvements in Skype Room Systems v2.
     
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
 
+### 3.0.8.0 (8/4/2017) 
+**New feature(s)** introduced in this update: 
+- Resolves issues observed when searching for federated users through the Participants search field. Previous to this fix, search results for external federated users may not have resolved correctly and instead returned incorrect results. 
 
-### 3.0.6.0 (11/16/2017) 
+### 3.0.6.0 (7/7/2017) 
 **New feature(s)** introduced in this update:  
 - Dual-Screen support (for legacy system parity)   
 - Themability (built-in themes and the ability to set custom theme) 
@@ -84,15 +100,13 @@ The 64-bit version of Windows 10 Enterprise Anniversary edition (English languag
     <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
-### 2.0.2.0 03/15/2017
+### 2.0.2.0 (03/15/2017)
 **New feature(s)** introduced in this update: 
-
 - In-app user selection of meeting room audio and video USB devices
 - Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan 
 Skype Room Systems v2 management with OMS](oms-management.md)) 
 
-### Release to Market 
-##### 12/7/2016
+### Release to Market  (12/7/2016)
 **Feature(s):** 
 
  **Built for Skype for Business**
