@@ -45,5 +45,5 @@ appliesto:
 
 
 ### Related topics
-[[Teams known issues](Known-issues.md)](Teams-overview.md)
 [Plan the journey](upgrade-plan-journey.md)
+[Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
