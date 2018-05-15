@@ -12,12 +12,10 @@
 #### [Configure a multi-forest environment for hybrid](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Plan Teams migration](../hybrid/plan-teams-migration.md)
 ### [Configure Teams migration](../hybrid/configure-teams-migration.md)
-### [Plan cloud voicemail](../hybrid/plan-cloud-voicemail.md)
-### [Configure cloud voicemail](../hybrid/configure-cloud-voicemail.md)
-### [Plan cloud auto attendant](../hybrid/plan-cloud-auto-attendant.md)
-### [Configure cloud auto attendant](../hybrid/configure-cloud-auto-attendant.md)
-### [Plan call data connector](../hybrid/plan-call-data-connector.md)
-### [Configure call data connector](../hybrid/configure-call-data-connector.md)
+### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
+### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
+### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
+### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
 
 
 ## Plan

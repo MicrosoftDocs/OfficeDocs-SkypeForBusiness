@@ -1,5 +1,5 @@
 ---
-title: "Plan call data connector"
+title: "Plan Call Data Connector"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,7 +22,7 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 ## Overview
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector.  For more information on configuring Call Data Connector, see INSERT LINK HERE.
 
-Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can view call quality for your entire organization online.
+Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 
 With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools, as shown in the following diagram:
 
@@ -38,7 +38,7 @@ The Call Analytics and CQD tools enable you to monitor the quality of calls and 
 
 For more information on Call Analytics and Call Quality Dashboard, see INSERT LINK(S) HERE.
 
-Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solutions with customized reports and workflows.  Call Data Connector allows you to configure sending some data to the cloud while keeping other data on premises, as shown in the following diagram:
+Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending some data to the cloud while keeping other data on premises, as shown in the following diagram:
 
 ![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
