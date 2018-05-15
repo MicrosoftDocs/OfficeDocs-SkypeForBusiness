@@ -76,7 +76,7 @@ If the Identity is not known, use the *Get-CsInb
 undBlockedNumberPattern* cmdlet to first locate the proper pattern and note the Identity. Then, run the *Remove* cmdlet and pass the appropriate Identity value.
 
 Allow for replication time before testing and validating.
-#### View all Number Patterns
+##### View all Number Patterns
 Running this cmdlet will return a list of all entered blocked numbers for a tenant: 
 `Get-CsInboundBlockedNumberPattern`
 
