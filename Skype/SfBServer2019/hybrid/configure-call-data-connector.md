@@ -1,7 +1,7 @@
 ---
 title: "Configure call data connector"
-ms.author: crowe
-author: CarolynRowe
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro
