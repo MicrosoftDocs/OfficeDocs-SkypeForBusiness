@@ -9,15 +9,16 @@ ms.reviewer: snigdhav
 description: 
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: Learn how Microsoft Teams works with the Multi-Geo Capabilities in Office 365.
+description: Learn how Microsoft Teams works with the Multi-Geo Capabilities in Office 365.
+appliesto: 
 - Microsoft Teams
 ---
 
 # Teams experience in an Office 365 ODB and SPO Multi-Geo-enabled tenancy
 
-Microsoft Teams is group chat software, the hub for teamwork in Office 365. It is powered by the Office 365 Groups service along with SharePoint and OneDrive for its files experience. In a ODB/SPO Multi-Geo tenancy, in which the tenant is extended to many geo locations such as North America, Europe, and Australia, the underlying files experience is Multi-Geo aware, so the Teams experience with file collaboration is also Multi-Geo aware. This is a key leading-edge capability for Teams to surface files hosted across multiple geos in its native files experience.
+Microsoft Teams is group chat software, the hub for teamwork in Office 365. It is powered by the Office 365 Groups service along with SharePoint and OneDrive for its files experience. In a OneDrive for Business/SharePoint Online Multi-Geo tenancy, in which the tenant is extended to many geographic locations such as North America, Europe, and Australia, the underlying files experience is Multi-Geo aware, so the Teams experience with file collaboration is also Multi-Geo aware. This is a key leading-edge capability for Teams to surface files hosted across multiple Geos in its native files experience.
 
-For example, in a Contoso tenancy with Europe as a satellite geo and North America as the central geo, a European satellite user will see his or her OneDrive files under the Files tab in left pane, although the files are hosted in the Europe data location and the United States is the tenant’s central location. Also, the user can access the most recently used files under the Recent view blade. Recent files may include files shared with the user from other geo users and might be mastered in other geo locations that the tenant is extended to. See the screenshot below for an example.
+For example, in a Contoso tenancy with Europe as a satellite geo and North America as the central Geo, a European satellite user will see his or her OneDrive files under the Files tab in left pane, although the files are hosted in the Europe data location and the United States is the tenant’s central location. Also, the user can access the most recently used files under the Recent view blade. Recent files may include files shared with the user from other geo users and might be mastered in other geo locations that the tenant is extended to. See the screenshot below for an example.
 
  SCREENSHOT
 
