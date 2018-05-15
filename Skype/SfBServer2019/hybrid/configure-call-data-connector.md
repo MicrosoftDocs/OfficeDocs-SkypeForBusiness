@@ -1,3 +1,4 @@
+
 ---
 title: "Configure call data connector"
 ms.author: jambirk
@@ -16,7 +17,11 @@ description: "Instructions for configuring the Call Data Connector feature, whic
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard. This configuration is primarily done using a wizard built into the Skype for Business Server Control Panel.
+This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard. This configuration is primarily done using a wizard built into the Skype for Business Server Control Panel.  IS THIS TRUE?  THERE ARE ALSO CMDLETS....   
+
+NOTE:  USERS CAN VIEW INFORMATION VIA CALL QUALITY DASHBOARD AND CALL ANALYTICS
+
+Before configuring Call Data Connector, see the planning document for information about this feature, benefits, and requirements: INSERT LINK HERE.
 
 To perform these tasks, you will need to be authenticated to your Office 365 Tenant and be a Server Admin for Skype for Business Server and also A Global Administrator is Office 365.
 
@@ -33,10 +38,11 @@ Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
-
+NOT SURE WHY WE NEED SERVER CONFIG HERE....    THIS IS NOW HANDLED IN THE CLOUD...   ALSO, WHY NOT POINT TO SERVER DOCS IF NEED BE?
 
 ###  Configuring hybrid and other dependencies
 
+I WOULD REMOVE THE FOLLOWING:   THIS IS A DUPLICATE OF THE REQUIREMENTS IN THE PLANNING DOC.  LET'S KEEP IT IN ONE PLACE.  
 Call Data Connector requires the following Hybrid connection:
 - Edge server federation is enabled 
 - Federation between Skype for Business Server and Office 365 is established
@@ -46,6 +52,8 @@ Call Data Connector requires the following Hybrid connection:
 once all these are set up, admins get a checkbox option to enable CDC. Once enabled, they should set or confirm their CDC settings in parallel with CDR and QoE settings
 
 **So the Hybrid wizard enables Data Connector, it's a single option in a longer process.**
+
+
 
 
 
