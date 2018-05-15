@@ -67,6 +67,23 @@ If you already have Skype for Business Server deployed, and you want to enable C
 
 - Central Management Store (CMS) topology information
 
+##Comparison of on-premises and online CQD reports
+
+| Feature reports | Skype for Business Online | Skype for Business Server   |
+|:---------------------------|:---------------------|:---------------------|:------------------|
+| Application sharing metric |Yes | Limited |
+| Customer building information| Yes | Yes |
+| Drill-down analytics | Yes | No |
+| Media reliability metrics | Yes | Limited |
+| Out-of-the-box reports | Yes | Yes |
+| Overview reports | Yes | No |
+| Per user reports | Yes | Yes |
+| Report set customization <br> (add, delete, modify reports) | Yes | Yes |
+| Video-based screen sharing metrics | Yes | No |
+| Data APIs for programmatic access <br> to CQD | No | Yes |
+
+
+
 
 
 
