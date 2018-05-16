@@ -17,6 +17,8 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 
 # Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
+
+##Overview
  
 **Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. 
 
@@ -30,12 +32,12 @@ After you have read this topic and are ready to configure hybrid connectivity, s
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
-## Overview
+## Split domain functionality
 <a name="BKMK_Overview"> </a>
 
  With hybrid connectivity set up between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams, you can have some users homed on-premises and some users homed online.
   
-This type of deployment is sometimes referred to as "split domain"—meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online or Teams as shown in the following diagram:
+This type of deployment is sometimes referred to as "split domain"--meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online or Teams, as shown in the following diagram:
 
 ![SfB Hybrid connectivity - split domain](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -98,8 +100,6 @@ Users can access Skype for Business functionality in another forest if the follo
 - The forest hosting Skype for Business must trust the forest containing the users.
     
 For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
-  
-
   
 ## Administrator credentials
 <a name="BKMK_Credentials"> </a>
