@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Planning considerations for implementing hybrid connectivity to Skype for Business Online and EXO  in Skype for Business Server 2019."
+description: "Planning considerations for implementing hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams."
 ---
 
 # <Topic title>
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 
-# Plan hybrid connectivity between Skype for Business Server and Skype for Business Online
+# Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
  
-**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions.
+**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. For more information on hybrid solutions, see Hybrid solutions.
   
-This topic provides an overview, and describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment—with users who were created in your on-premises Active Directory—and Skype for Business Online. 
+This topic provides an overview, and describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment—with users who were created in your on-premises Active Directory—and Skype for Business Online or Teams. 
   
 This topic contains the following sections:
   
@@ -59,13 +59,13 @@ After you have read this topic and are ready to deploy, see [Deploy hybrid conne
 ## Overview
 <a name="BKMK_Overview"> </a>
 
-Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online. This connectivity allows you to have some users homed on-premises and some users homed online.
+Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams. This connectivity allows you to have some users homed on-premises and some users homed online.
   
-This type of deployment is sometimes referred to as "split domain"—meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online as follows:
+This type of deployment is sometimes referred to as "split domain"—meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online or Teams as follows:
   
 - Users who are homed on premises interact with on premises Skype for Business servers
     
-- Users who are homed online interact with Skype for Business online services
+- Users who are homed online interact with Skype for Business or Teams online services
     
 - Users from both environments can collaborate with each other by using Instant Messaging, participating in conference calls, VoIP calls, and so on
     
@@ -101,17 +101,6 @@ The following diagram shows a Skype for Business "split domain" hybrid configura
   
 ![SfB Hybrid connectivity - split domain](../../sfbserver/media/c4fc9311-1930-4a58-877f-3c1524dfab5c.png)
   
-You might also be familiar with the term "hybrid voice"—which refers to on-premises voice trunks that provide functionality to users homed in the cloud. Hybrid voice enables migration to the cloud while preserving on-premises voice configuration. If you already have a Skype for Business Server deployment, the first step to enable hybrid voice is to configure a split domain environment. 
-  
-For example, assume your company has a large mobile field support organization that requires minimal PBX voice, but extensive smart phone use. You might choose to move these users to the cloud to take advantage of Microsoft's Phone System in Office 365 (Cloud PBX). If your company also has a large on-premises call center that requires advanced, complex contact center software as part of your on-premises PBX, you might choose to leave these users on premises. Users homed online and on premises both have PSTN connectivity through your on-premises deployment.
-  
-The following diagram shows a Skype for Business hybrid voice deployment:
-  
-![SfB split domain with Cloud PBX](../../sfbserver/media/5e755772-269e-45ce-8b48-2e06ababfe6c.png)
-  
-For more information about setting up a hybrid voice solution with your Skype for Business Server deployment, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md). 
-  
-You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online. You can also configure a hybrid voice solution that does not require a full Skype for Business Server deployment by using Cloud Connector Edition. For more information about all Skype for Business hybrid solutions and planning your move to the cloud, see [Skype for Business hybrid solutions](hybrid-solutions.md).
   
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
@@ -146,20 +135,7 @@ Users can access Skype for Business functionality in another forest if the follo
     
 For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
   
-## Exchange co-existence
-<a name="BKMK_Exchange"> </a>
 
-To support co-existence with Exchange, keep the following in mind:
-  
-- The best practice is to move the user's mailbox to Exchange Online before moving the user's Skype for Business home.
-    
-- Users with Exchange mailboxes on premises are supported with following known limitations:
-    
-  - Client sign on: Users may need to sign on twice during SfB client sign on
-    
-  - Server side conversation history, Archiving, Unified Contact Store, HighRes Photo requires Exchange 2013 or later, and you must enable OAuth Server to Server communication. For more information, see [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
-    
-For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## Administrator credentials
 <a name="BKMK_Credentials"> </a>
