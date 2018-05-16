@@ -18,9 +18,13 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 # Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
  
-**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. For more information about hybrid solutions, see Hybrid solutions.
+**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. 
+
+Hybrid solutions enable you to retain some on-premises control while also taking advantage of online services provided in the Microsoft cloud. With hybrid connectivity set up, and a variety of cloud services available to your online and on-premises users, you can choose to move your users to the cloud based on your schedule and business need.
+
+You might choose to get call control through Microsoft Phone System in the cloud, for example, while retaining your on-premises PSTN connectiviy.  Both your online and on-premises users can take advantage of some cloud services, such as Cloud Voicemail. For more information about all Skype for Business and Teams hybrid solutions available to you, see Hybrid solutions.  
   
-This topic provides an overview, and describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment—with users who were created in your on-premises Active Directory—and Skype for Business Online or Teams. 
+This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Skype for Business Online or Teams. 
     
 After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](../../sfbserver/skype-for-business-hybrid-solutions/configure-hybrid-connectivity/deploy-hybrid-connectivity.md). The confiruation topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
   
@@ -29,7 +33,7 @@ After you have read this topic and are ready to configure hybrid connectivity, s
 ## Overview
 <a name="BKMK_Overview"> </a>
 
- This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams. This connectivity allows you to have some users homed on-premises and some users homed online.
+ With hybrid connectivity set up between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams, you can have some users homed on-premises and some users homed online.
   
 This type of deployment is sometimes referred to as "split domain"—meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online or Teams as follows:
   
