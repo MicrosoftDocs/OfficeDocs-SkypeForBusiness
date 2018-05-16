@@ -204,10 +204,10 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 Microsoft only supports the certified SBC to pair with Direct Routing. Because Enterprise Voice is critical for business, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible. 
 
-Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. There is also a joint support process between Microsoft and the SBC vendors established. 
+Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. There is also a joint support process between Microsoft and the SBC vendors established.  
 
 The following vendors are in the process of being certified:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-sbcs-media-gateways)
+- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Ribbon (formerly Sonus):
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)

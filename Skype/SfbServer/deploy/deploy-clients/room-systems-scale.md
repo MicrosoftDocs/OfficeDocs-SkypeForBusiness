@@ -576,7 +576,7 @@ You use task sequences with System Center Configuration Manager to automate the 
 
 You can download and easily import a sample task sequence and customize it to meet your needs.
 
-1.  [**Download**]() the sample task sequence, and copy the downloaded zip file to a
+1.  [**Download**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) the sample task sequence, and copy the downloaded zip file to a
     shared location.
 2.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Task Sequences**, and then select **Import Task Sequence**.
 
