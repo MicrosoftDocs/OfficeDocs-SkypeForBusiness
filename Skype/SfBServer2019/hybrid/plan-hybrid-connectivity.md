@@ -251,7 +251,9 @@ When you synchronize user accounts between your on-premises deployment and onlin
   
 > [!IMPORTANT]
 > If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant, and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
-  
+ 
+
+**IS THE FOLLOWING STILL TRUE?? DO WE NEED THE REFERENCED TOPIC??** 
 > [!NOTE]
 > If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](../../sfbserver/move-users-from-skype-for-business-online-to-on-premises.md). 
   
