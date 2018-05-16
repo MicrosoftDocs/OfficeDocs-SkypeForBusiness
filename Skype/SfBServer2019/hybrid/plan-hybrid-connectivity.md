@@ -20,7 +20,7 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 ##Overview
  
-**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. 
+Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. 
 
 Hybrid solutions enable you to retain some on-premises control while also taking advantage of online services provided in the Microsoft cloud. With hybrid connectivity set up, and a variety of cloud services available to your online and on-premises users, you can choose to move your users to the cloud based on your schedule and business need.
 
@@ -28,7 +28,7 @@ Hybrid solutions enable you to retain some on-premises control while also taking
   
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Skype for Business Online or Teams. 
     
-After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](../../sfbserver/skype-for-business-hybrid-solutions/configure-hybrid-connectivity/deploy-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
+After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity/deploy-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
@@ -252,7 +252,7 @@ When you synchronize user accounts between your on-premises deployment and onlin
 > If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant, and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
   
 > [!NOTE]
-> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](move-users-from-skype-for-business-online-to-on-premises.md). 
+> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](../../sfbserver/move-users-from-skype-for-business-online-to-on-premises.md). 
   
 You should also consider the following user-related issues when planning for a hybrid deployment.
   
