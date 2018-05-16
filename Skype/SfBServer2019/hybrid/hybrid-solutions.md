@@ -16,6 +16,11 @@ description: "A Discussion of the available hybrid solutions in Skype for Busine
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
+PLACEHOLDER TOPIC FOR HYBRID SOLUTIONS 
+
+IN PROGRESS...
+
+
 You might also be familiar with the term "hybrid voice"—which refers to on-premises voice trunks that provide functionality to users homed in the cloud. Hybrid voice enables migration to the cloud while preserving on-premises voice configuration. If you already have a Skype for Business Server deployment, the first step to enable hybrid voice is to configure a split domain environment. 
   
 For example, assume your company has a large mobile field support organization that requires minimal PBX voice, but extensive smart phone use. You might choose to move these users to the cloud to take advantage of Microsoft's Phone System in Office 365 (Cloud PBX). If your company also has a large on-premises call center that requires advanced, complex contact center software as part of your on-premises PBX, you might choose to leave these users on premises. Users homed online and on premises both have PSTN connectivity through your on-premises deployment.
