@@ -18,48 +18,18 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 # Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
  
-**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. For more information on hybrid solutions, see Hybrid solutions.
+**Summary:** Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. For more information about hybrid solutions, see Hybrid solutions.
   
 This topic provides an overview, and describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment—with users who were created in your on-premises Active Directory—and Skype for Business Online or Teams. 
-  
-This topic contains the following sections:
-  
-- [Overview](plan-hybrid-connectivity.md#BKMK_Overview)
     
-- [Infrastructure requirements](plan-hybrid-connectivity.md#BKMK_Infrastructure)
-    
-- [Multi-forest support](plan-hybrid-connectivity.md#BKMK_MultiForest)
-    
-- [Exchange co-existence](plan-hybrid-connectivity.md#BKMK_Exchange)
-    
-- [Administrator credentials](plan-hybrid-connectivity.md#BKMK_Credentials)
-    
-- [Skype for Business Online PowerShell](plan-hybrid-connectivity.md#BKMK_PowerShell)
-    
-- [Skype for Business client support](plan-hybrid-connectivity.md#BKMK_ClientSupport)
-    
-- [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology)
-    
-- [Federation Allowed/Blocked Lists requirements](plan-hybrid-connectivity.md#BKMK_Federation)
-    
-- [DNS settings](plan-hybrid-connectivity.md#BKMK_DNS)
-    
-- [Firewall considerations](plan-hybrid-connectivity.md#BKMK_Firewall)
-    
-- [Port and protocol requirements](plan-hybrid-connectivity.md#BKMK_Ports)
-    
-- [User accounts and data](plan-hybrid-connectivity.md#BKMK_UserAccounts)
-    
-- [User policies and features](plan-hybrid-connectivity.md#BKMK_UserPolicies)
-    
-After you have read this topic and are ready to deploy, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../../sfbserver/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). The deployment topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
+After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](../../sfbserver/skype-for-business-hybrid-solutions/configure-hybrid-connectivity/deploy-hybrid-connectivity.md). The confiruation topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
 ## Overview
 <a name="BKMK_Overview"> </a>
 
-Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams. This connectivity allows you to have some users homed on-premises and some users homed online.
+ This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online or Teams. This connectivity allows you to have some users homed on-premises and some users homed online.
   
 This type of deployment is sometimes referred to as "split domain"—meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online or Teams as follows:
   
