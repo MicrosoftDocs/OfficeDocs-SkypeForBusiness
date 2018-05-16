@@ -42,7 +42,7 @@ This type of deployment is sometimes referred to as "split domain"—meaning use
 
 **ARE ALL THE FOLLOWING TRUE??**
   
-- Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  **IS THIS TRUE?  USERS HOMED ON PREM HAVE ACCESS TO CLOUD VOICEMAIL?**
+- Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  **TRUE??**
     
 - Users who are homed online interact with Skype for Business or Teams online services.
     
@@ -52,7 +52,7 @@ This type of deployment is sometimes referred to as "split domain"—meaning use
     
 The on-premises Active Directory is authoritative, which means that you must do the following to ensure that on-premises and online users are discoverable to one another:
   
-- All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. 
+- All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD.   **TRUE??**
     
 - If your users are homed on premises for Skype for Business, then you need to enable them for Skype for Business on premises.
     
@@ -64,24 +64,7 @@ The on-premises Active Directory is authoritative, which means that you must do 
 - 
 - **WHAT ABOUT TEAMS?** IF you want move your users to Teams, you still need to enable hybrid connectivity as described, including setting up Skype for Business Online accounts, and then migrate your users to Teams.   **IS THIS HOW IT WORKS?**
     
-You'll learn more about Active Directory configuration in the sections that follow. But first, an overview of the terminology and acronyms used in the diagrams below, and in many of the hybrid connectivity topics:
-  
-- PSTN - Public Switched Telephone Network
-    
-- PBX - Private Branch Exchange phone system
-    
-- Phone System - Microsoft's Cloud PBX phone system offering
-    
-- Trunk - Telephony line that connects PBXs to the PSTN—A trunk might use Session Initiation Protocol (SIP)—A Voice over Internet Protocol (VoIP)—or the older Time-Division Multiplexing (TDM) technology 
-    
-- SBC - Session Border Controller - Device that serves as a firewall and router in telephony networks. For example, provides security, connectivity, interoperability, and Quality of Services. 
-    
-- PSTN gateway - A device that serves as a router in telephony networks, capable of doing most of what an SBC can do except security and NAT traversal.
-    
-The following diagram shows a Skype for Business "split domain" hybrid configuration. Users A and B are homed online but are discoverable by on-premises users; users C and D are homed on premises, but are discoverable by online users.
-  
 
-  
   
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
