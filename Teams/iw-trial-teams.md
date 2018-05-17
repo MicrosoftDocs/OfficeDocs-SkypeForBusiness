@@ -45,8 +45,6 @@ In addition, if your tenant is ineligible for the Microsoft Teams Commercial Clo
 
 At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). (For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).) Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
 
-GOV and EDU tenants are not eligible for the IW trial.
-
 ## How users sign up for the trial
 
 Eligible users can sign up for the IW trial by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). If eligible, they will see the following screen to start the trial. 
