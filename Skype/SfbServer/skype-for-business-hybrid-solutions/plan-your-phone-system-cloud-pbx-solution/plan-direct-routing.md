@@ -187,9 +187,9 @@ The table below summarizes the relationships between primary, secondary, and ter
 |The tertiary datacenter (sip3.pstnhub.microsoft.com)|ASIA|ASIA|EU|
 |||||
 
-## Media traffic: IP addresses and port ranges
+## Media traffic: Port ranges
 
-The media traffic flows to and from a separate service in the Microsoft Cloud. The IP range of the Media Processors is shown in the following table:
+The media traffic flows to and from a separate service in the Microsoft Cloud. The port range of the Media Processors is shown in the following table: 
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
