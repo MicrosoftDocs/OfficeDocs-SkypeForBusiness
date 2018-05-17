@@ -49,7 +49,6 @@
 ## [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
 ## [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-## [Teams experience in a OneDrive and SharePoint Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
 
 
