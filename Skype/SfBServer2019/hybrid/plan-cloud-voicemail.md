@@ -25,7 +25,7 @@ Cloud Voicemail enables all your Skype for Business 2019 users--whether they are
 
 - Access to voicemail in their Exchange mailbox by using the Skype for Business Online, Teams, or Outlook clients 
 
-- Ability to use the web-based portal to manage their voicemail options. 
+- Ability to use the web-based portal to manage their voicemail options
 
 - **WHAT ELSE?**
 
@@ -68,31 +68,30 @@ If you already have Skype for Business Server deployed, and you want to enable C
 
 - Hybrid connectivity between your on-premises server and the online service. This is sometimes called a split domain configuration. For details, see Plan hybrid connectivity and Configure hybrid connectivity.
 
-   -Enabled federation between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.
+     - Enabled federation between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.
 
-   - Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
+     - Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
 
 - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory (and the necessary Skype for Business and Exchange attributes) with Office 365. For more information, see Connect Active Directory with Azure Active Directory.   
 
 - An Office 365 tenant with Skype for Business Online license enabled.  
 
- NOTE: If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--then you need the ON-PREM license.  **NEED DETAILS ABOUT THE ON-PREM-ONLY LICENSE.**
-
-- On-premises users must be enabled for voice and hosted voicemail in Skype for Business Server, For more information, see INSERT LINK HERE.
+- On-premises users must be enabled for voice and hosted voicemail in Skype for Business Server. For more information, see INSERT LINK HERE.
 
 - **ANYTHING MISSING?**
 
+NOTE: If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, then you need the ON-PREM license.  **NEED DETAILS ABOUT THE ON-PREM-ONLY LICENSE.**
+
 ##Migration and interoperability
 
-**HOW GNARLY WILL MIGRATION BE?  DO WE LINK OFF TO MORE GNARLY ARTICLE?**
+If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued service for voice messaging.  Keep the following in mind:
 
-**NEED TO EXPLAIN VARIOUS MIGRATION PATHS...  NEED TO EXPLAIN SCENARIOS IN TABLE...  IF YOU ARE RUNNING EXCHANGE SERVER 2016, EXCHANGE SERVER 2019, SFB SERVER 2015, 2019, ETC.** 
+- Exchange Server 2019 no longer provides Exchange UM functionality
+- Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
-**ACCORDING TO ROY, FOR TAP, SFB 2015 DOES NOT WORK WITH CLOUD VOICEMAIL, SO MUST UPGRADE TO SFB 2019.  WILL 2015 WORK WITH CLOUD VOICEMAIL FOR BETA?  ROY FOLLOWING UP...**
+Version interoperability and supported topologies for Cloud Voicemail are listed in the following table: 
 
-**AT TAP, GUIDANCE IS UPGRADE SFB 2019 FIRST, THEN UPGRADE TO EXCHANGE SERVER 2019, THE START MOVING USERS TO EXCHANGE SERVER 2019...**
-
-Version interoperability and supported topologies for Cloud Voicemail are listed below:  **IS THE FOLLOWING ACCURATE? ROY STILL WORKING ON TABLE...**
+ **IS THE FOLLOWING ACCURATE? ROY STILL WORKING ON TABLE...**
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---------------------------    |:---------------------|:---------------------|:------------------|:---------------------- |
@@ -102,10 +101,6 @@ Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Cloud Voicema
 
 \* Until deprecated.
 
-NOTE:  If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued service for voice messaging.  Keep the following in mind:
-
-- Exchange Server 2019 no longer provides Exchange UM functionality
-- Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
 Microsoft recommends the following migration paths:
 
@@ -117,13 +112,23 @@ Microsoft recommends the following migration paths:
 
 - TBD
 
+**HOW GNARLY WILL MIGRATION BE?  DO WE LINK OFF TO MORE GNARLY MIGRATION ARTICLE?**
+
+**NEED TO EXPLAIN VARIOUS MIGRATION PATHS/SCENARIOS IN TABLE...  IF YOU ARE RUNNING EXCHANGE SERVER 2016, EXCHANGE SERVER 2019, SFB SERVER 2015, 2019, ETC.** 
+
+**ACCORDING TO ROY, FOR TAP, SFB 2015 DOES NOT WORK WITH CLOUD VOICEMAIL, SO MUST UPGRADE TO SFB 2019.  WILL 2015 WORK WITH CLOUD VOICEMAIL FOR BETA?  ROY FOLLOWING UP...**
+
+**AT TAP, GUIDANCE IS UPGRADE TO SFB 2019 FIRST, THEN UPGRADE TO EXCHANGE SERVER 2019, THEN START MOVING USERS TO EXCHANGE SERVER 2019...WHAT IS GUIDANCE FOR BETA?  THIS DOC IS TARGETED FOR BETA**
+
+
+
+**-------------------------------------------------**
+
 **QUESTIONS:**
 
 **THE GOAL OF THIS TOPIC SHOULD BE HIGH-LEVEL WITH POINTERS TO OTHER DOCS FOR DETAILS ABOUT HYBRID CONNECTIVITY, CONFIGURING VOICEMAIL, EXCHANGE UM MIGRATION, ETC.  HOWEVER, ARE WE MISSING IMPORTANT CONCEPTS AND PREREQUISITES SPECIFIC TO THIS FEATURE/SCENARIO THAT SHOULD BE DESCRIBED IN THIS DOCUMENT?**
 
-**HOW MUCH DO WE NEED TO SAY ABOUT EXCHANGE UM IN THIS TOPIC?  DO WE NEED TO DOCUMENT MIXED SCENARIOS?  FOR EXAMPLE, CUSTOMER HAS SOME CUSTOMERS STILL USING EXCHANGE UM ON PREM, BUT SOME USERS USING CLOUD VOICEMAIL? CUSTOMERS WHO STILL HAVE AN ONPREM PBX?  CUSTOMERS WITH MIXED VERSIONS OF SERVERS?**
-
-**DO WE NEED SPECIFIC GUIDANCE ON EXCHANGE UM MIGRATION TO VOICEMAIL IN THIS DOC?  OR POINT TO MORE GNARLY MIGRATION DOC?  WHAT ARE THE SUPPORTED MIGRATION PATHS FOR BETA, GA?    DIAL PLANS? LICENSES? SPLIT DOMAIN AND MOVING USERS ONLINE?**
+**HOW MUCH DO WE NEED TO SAY ABOUT EXCHANGE UM IN THIS TOPIC?  WE PROBABLY WANT TO LINK TO OTHER DOCS FOR SPECIFICS ABOUT THE VARIOUS MIXED SCENARIOS AND RECOMMENDED MIGRATION PATHS. FOR EXAMPLE, CUSTOMER HAS SOME USERS STILL USING EXCHANGE UM ON PREM, BUT SOME USERS USING CLOUD VOICEMAIL? CUSTOMERS WHO STILL HAVE AN ONPREM PBX?  CUSTOMERS WITH MIXED VERSIONS OF SERVERS?**
 
 **HOW LONG IS EXCHANGE UM BEING SUPPORTED?** 
 
