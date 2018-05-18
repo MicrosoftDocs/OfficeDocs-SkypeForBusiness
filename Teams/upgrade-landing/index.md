@@ -34,7 +34,7 @@ description: "Skype for Business to Teams upgrade journey."
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/upgrade-to-Teams-success-framework.png" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends with laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change." />
+                            <img src="../media/Teams-overview.png" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends with laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change." />
                         </div>
                     </div>
                 </div>
@@ -100,6 +100,9 @@ description: "Skype for Business to Teams upgrade journey."
     </li>
 </ul>
 -->
+
+
+![Ensure your project is set up for success with the right project team. Define your project scope, goals and governance. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team > Define your project scope, goals and governance > Confirm both technical and user readiness > Execute your rollout plan > Maintain momentum to maximize results.")
 
 We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
