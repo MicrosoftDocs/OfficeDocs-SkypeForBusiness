@@ -20,27 +20,20 @@ Once your project team is secured and your vision, scope/goals defined, the next
 -   Use Cases: Evaluating how the new technology will improve user productivity. This information will make the change relevant for users based on how they work.
 -   Personas: Assessing individuals or groups which may require personalized attention. This information will enable you to target training and awareness for those who expect or need more focused attention (eg Executives)
 
-NOTE: The assessment activities provided below are adaptable to any change initiative in your organization. Simply address the questions based on the scope of your project. In the discussion of these activities, “new solution” can apply to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to Teams.
+> [!Note]
+> The assessment activities provided below are adaptable to any change initiative in your organization. Simply address the questions based on the scope of your project. In the discussion of these activities, “new solution” can apply to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to Teams.
 
-*Decision Points:*
-
--   *What is the culture your organization when it comes to change?*
-
--   *How can the new technology optimize the way users work?*
-
--   *Who are the users that may require special attention to get them to change
-    the way they work?*
-
-*Next Steps*
-
--   *Leverage the following guidance and associated activities to capture your
-    organization’s user readiness profile.*
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Who are the users that may require special attention to get them to change the way they work?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Leverage the following guidance and associated activities to capture your organization’s user readiness profile.</li></ul>|
 
 ## Organizational change readiness
 
 An organizational readiness assessment helps determine how receptive (or not) your users may be to changing the way they work and adopting new technology. Understanding how users react to change, empowers your organization to proactively address concerns, adjust your rollout plan for optimal reception and identify users who can actually help you faciliate the change with their peers.
 
 ### Activity
+
 Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don’t worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you need help getting started, simply evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
 
 #### What percent of users fall unto each bucket?
@@ -115,15 +108,15 @@ Begin by segmenting your user base into persona/cohort groups (eg Executives, Ro
 
 Identify targeted user profiles that require specific technical/user readiness assistance. See below for a sample persona assessment for an Executive profile.
 
-|                            |                                   |
-|----------|-----------------------------------------------------|
-| **What are core characteristics that define this persona (eg who are they, what do they do)?**    | <ul><li>Voice/brand of organization internally and externally</li><li>Relationship focused</li><li>Fast-paced, dynamic schedules</li><li>Utilize mobile devices to stay connected</li><li>Rely on delegates as their ‘eyes and ears’</li><li>Spend majority of day in meetings or on phone calls</li></ul>  |
-| **What are common use cases for this persona?** *Apply the universal use cases above to this persona then elaborate on specific scenarios.* | <ul><li>Personal Productivity<ul><li>Customer, rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/Stakeholder reviews</li><li>1:Many – All hands</li></ul></li><li>Project Collaboration</li></ul>         |
-| **What functionality is required?**    | <ul><li>Delegate synchronization</li><li>Contact management (internal and external)</li><li>Audio calling (PC and PSTN)</li><li>Video calling</li><li>Multiple device support</li><li>Application sharing</li></ul>     |
-| **What devices will they need?**     | <ul><li>Desk phone, “puck” speakerphone, web cam, desktop client, mobile client</li></ul>  |
-| **What is the value for this persona to use Teams?**  | <ul><li>Teams mobile app delivers high-quality experience when traveling – take Teams on-the-go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul>   |
-| **What training will they require?**   | <ul><li>White glove</li><li>Short session - 15-min hands-on</li></ul>       |
-| **Rollout timing**   | <ul><li>Enlist segment of users for pilot</li><li>Include in initial phase of broad rollout</li><li>Include in secondary phase of broad rollout after solid results are proven</li></ul>   |
+<table>
+<tr><th colspan="2">Persona/Profile: Executive</th></tr>
+<tr><td>What are core characteristics that define this persona (eg who are they, what do they do)?</td><td><ul><li>Voice/brand of organization internally and externally</li><li>Relationship focused</li><li>Fast-paced, dynamic schedules</li><li>Utilize mobile devices to stay connected</li><li>Rely on delegates as their ‘eyes and ears’</li><li>Spend majority of day in meetings or on phone calls</li></ul></td></tr>
+<tr><td>What are common use cases for this persona?<br><ital>Apply the universal use cases above to this persona then elaborate on specific scenarios.</ital></td><td><ul><li>Personal Productivity<ul><li>Customer, rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/Stakeholder reviews</li><li>1:Many – All hands</li></ul></li><li>Project Collaboration</li></ul></td></tr>
+<tr><td>What functionality is required?</td><td><ul><li>Delegate synchronization</li><li>Contact management (internal and external)</li><li>Audio calling (PC and PSTN)</li><li>Video calling</li><li>Multiple device support</li><li>Application sharing</li></ul></td></tr>
+<tr><td>What devices will they need?</td><td><ul><li>Desk phone, “puck” speakerphone, web cam, desktop client, mobile client</li></ul></td></tr>
+<tr><td>What is the value for this persona to use Teams?</td><td><ul><li>Teams mobile app delivers high-quality experience when traveling – take Teams on-the-go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul></td></tr>
+<tr><td>What training will they require?</td><td><ul><li>White glove</li><li>Short session - 15-min hands-on</li></ul></td></tr>
+<tr><td>Rollout timing</td><td><ul><li>Enlist segment of users for pilot</li><li>Include in initial phase of broad rollout</li><li>Include in secondary phase of broad rollout after solid results are proven</li></ul></td></tr>
 
 
 
