@@ -21,37 +21,26 @@ description: "Instructions for implementing cloud-based voicemail for users home
 See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an overview of Cloud Voicemail functionality.
  <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
-### Pre -requisites
+### Prerequisites
+The following configurations need to happen before the Cloud Voicemail feature can be configured:
+- [Deploy Enterprise Voice in Skype for Business Server 2015](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)
+- [Deploy Edge Server in Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md)
+- [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
+- [Integrate Skype for Business Server with Exchange Server](../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md) or <BR> [Configure integration between on-premises Skype for Business Server 2015 and Exchange Online Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md) 
 
+**(We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area? Both refer to integration with Exchange UM, is that different in any way from integrating with Exchange without UM?) <br> We don't know the line between integration with and without UM.**
 
+## Configure Azure Cloud voicemail as the Hosting Provider on the edge server 
 
+```
+New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
+```
+**Questions:**
+- Replace -Identity "Exchange Online" with ? 
+- Replace -ProxyFqdn "exap<span></span>.um.outlook.com" with ?
+- Is this the only command in integrating with exchange OL, or is this specific to UM?
 
-## Shared SIP Address Space
-<!--https://technet.microsoft.com/en-us/library/gg398067(v=ocs.15).aspx#Shared SIP Address Space -->
-
-**QUESTION:<BR> PLEASE AFFIRM: ARE WE USING A SHARED SIP ADDRESS SPACE? <BR> Is this already configured as part of hybrid config?**
-
-To integrate Skype for Business Server 2019 with  Cloud voicemail, you must configure _a shared SIP address space_. In this configuration, the same SIP domain address space is available to both Skype for Business Server 2019 and the  Cloud voicemail service provider.
-
->[!NOTE]
-> Use of the shared SIP address space is similar to the approach used in a cross-premises Skype for Business Server 2019 environment, in which some users are homed in the Skype for Business Server deployment and some are homed in a hosted deployment (such as Skype for Business Online). The SIP domain is split between them. When you integrate Skype for Business Server 2019 with  Cloud voicemail, ensure that you include  Cloud voicemail in the shared SIP address space. 
-
-1. Configure the Edge Server for federation by running the **[Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csaccessedgeconfiguration?view=skype-ps)** cmdlet to set the following parameters:
-    - **UseDnsSrvRouting** specifies that Edge Servers will rely on DNS SRV records when sending and receiving federation requests.
-    - **AllowFederatedUsers** specifies whether internal users are allowed to communicate with users from federated domains. This property also determines whether internal users can communicate with users in a split domain scenario.
-    - **EnablePartnerDiscovery** specifies whether Skype for Business Server 2019 will use DNS records to try to discover partner domains that are not listed in the Active Directory allowed domains list. If False, Skype for Business Server 2019 will federate only with domains that are found on the allowed domains list. This parameter is required if you use DNS service routing. In most deployments, the value is set to false to avoid opening up federation to all partners.
-2. Replicate the Central Management store to the Edge Server and verify the replication. For details, follow the steps in https://technet.microsoft.com/en-us/library/gg398983(v=ocs.15).aspx 
-3. Configure a _hosting provider_ on the Edge Server by running the **[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/new-cshostingprovider?view=skype-ps)** cmdlet to set the following parameters:
-    - **Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, **Cloud voicemail**.
-    - **Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. Must be set to **True**.
-    - **EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. Must be set to **True**.
-    - **HostsOCSUsers** indicates whether the hosting provider is used to host Skype for Business Server 2019 accounts. Must be set to **False**.
-    - **ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, **proxyserver<span></span>.fabrikam.com**. Contact your hosting provider for this information. This value cannot be modified. If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.
-     - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server 2019 topology. Must be set to **False**.
-
-**QUESTION:<BR> NEED THE PROXY FQDN FOR  CLOUD VM**
-
-## Enable Users for Cloud Voicemail
+## Enable a User for Cloud Voicemail
 
 To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must run the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet to set the value of the HostedVoiceMail parameter. This parameter also signals Skype for Business Server 2019 to light up the “call voice mail” indicator.
 
@@ -62,7 +51,12 @@ To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must
 - The following example disables Pilar Ackerman’s user account for hosted voice mail:  \
     `Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False`
 
-**QUESTION:<BR> Verify: are we still using the HostedVoiceMail parameter for Set-CsUser , or is there a new parameter not yet public?<br> If the user is already on hosted exchange UM is this part needed?<br> What about migrating users from hosted EXCH UM to Cloud VM?**
 
 The cmdlet verifies that no hosted voice mail policy (global, site-level or per-user) applies to this user. If a policy does apply, the cmdlet fails.
 
+**QUESTIONS:**
+- Verify: are we still using the HostedVoiceMail parameter for Set-CsUser , or is there a new parameter not yet public?<br> 
+- If the user is already on hosted exchange UM is this part needed?<br> 
+- What about migrating users from hosted EXCH UM to Cloud VM?<br> 
+- This approach is one at a time.  Is there a bulk mechanism?<br> 
+- It would make sense if there was another command in which we defined who or where the Host is, if not Exchange UM than the new Cloud voicemail provider. Is there something like this?
