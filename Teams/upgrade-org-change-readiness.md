@@ -36,24 +36,14 @@ NOTE: The assessment activities provided below are adaptable to any change initi
 -   *Leverage the following guidance and associated activities to capture your
     organization’s user readiness profile.*
 
-**Organizational Change Readiness:** An organizational readiness assessment
-helps determine how receptive (or not) your users may be to changing the way
-they work and adopting new technology. Understanding how users react to change,
-empowers your organization to proactively address concerns, adjust your rollout
-plan for optimal reception and identify users who can actually help you
-faciliate the change with their peers.
+## Organizational change readiness
 
->   **Activity:** Use the following conversation starters to conduct an
->   organizational readiness assessment and document the culture of your
->   organization when it comes to change. This information can help inform how
->   much awareness and training you might need to implement for your project.
->   Don’t worry about exact numbers. This exercise represents a general
->   understanding of your organizational culture. If you need help getting
->   started, simply evaluate a past rollout; this can help you anticipate how
->   users might react to change and help you proactively address the reactions
->   you expect.
+An organizational readiness assessment helps determine how receptive (or not) your users may be to changing the way they work and adopting new technology. Understanding how users react to change, empowers your organization to proactively address concerns, adjust your rollout plan for optimal reception and identify users who can actually help you faciliate the change with their peers.
 
--   **What percent of users fall unto each bucket?**
+### Activity
+Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don’t worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you need help getting started, simply evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
+
+#### What percent of users fall unto each bucket?
 
 | **Type of User**                                               | **%** |
 |----------------------------------------------------------------|-------|
@@ -61,41 +51,27 @@ faciliate the change with their peers.
 | *Informed* – accept the solution once value is demonstrated    |       |
 | *Laggards* – Reject the solution, even when pushed into change |       |
 
->   *TIP: Enlist your early adopters for your pilot testing as well as to serve
->   as peer champions. Champions to help evangelize new technology and lead-by
->   example to show their peers how to realize value. Learn more about creating
->   a formal* [champions
->   program](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf)*.
->   Your laggards may need more convincing before adopting a new technology. If
->   more than 20% of your organization falls into this bucket, spend more time
->   communicating the value messaging and delivering tailored training. In
->   addition, support them through the change by open a feedback loop to better
->   understand and address their hesitations.*
+> [!Tip]
+> Enlist your early adopters for your pilot testing as well as to serve as peer champions. Champions to help evangelize new technology and lead-by example to show their peers how to realize value. Learn more about creating a formal [champions program](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Your laggards may need more convincing before adopting a new technology. If more than 20% of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by open a feedback loop to better understand and address their hesitations.
 
--   **What % of users fall into each competency?**
+#### What percent of users fall into each competency?
 
-    | **Type of Learner**                                                        | **%** |
+| **Type of Learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* – seek out resources, learn by doing                      |       |
 | *Team-player* – group, interactive training; will go along with co-workers |       |
 | *Hand-holding* – Expect white-glove or 1:1 assistance                      |       |
 
-    > [!Tip]
-    > Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If you have 20% or more in the Team Player category, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you will find executives or targeted roles in the Hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience.*
+> [!Tip]
+> Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If you have 20% or more in the Team Player category, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you will find executives or targeted roles in the Hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience.*
 
-1.  **Use Cases**. Articulating specific use cases in your awareness and
-    training plan makes users feel like you truly are designing technology for
-    the way they work. There are universal use cases (scenarios that apply to
-    everyone in your organization regardless of role) as well as targeted use
-    cases based on user profiles. For each, it’s important to identify the
-    current process, challenges and how the new technology will optimize the
-    user experience. Then, use that information in your communication plan to
-    help showcase the value of the new technology and generate user desire to
-    give it a try.
+## Use cases
 
->   **Activity:** Document 5-7 universal and targeted use cases for your
->   organization. Here are some conversation starters to review with your
->   project team. In addition, see samples below.
+Articulating specific use cases in your awareness and training plan makes users feel like you truly are designing technology for the way they work. There are universal use cases (scenarios that apply to everyone in your organization regardless of role) as well as targeted use cases based on user profiles. For each, it’s important to identify the current process, challenges and how the new technology will optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate user desire to give it a try.
+
+### Activity
+
+Document 5-7 universal and targeted use cases for your organization. Here are some conversation starters to review with your project team. In addition, see samples below. 
 
 -   What is your use case/scenario?
 
@@ -108,150 +84,47 @@ faciliate the change with their peers.
 
 -   Select specific use cases to highlight in your communications.
 
-      
-    **Example of universal use cases for teamwork/collaboration**
+ The following table shows examples of universal use cases for teamwork and collaboration.
 
-| **Use Case**        | **Personal Productivity**                                         | **Meetings**                                                     | **Group Projects**                                          |
-|---------------------|-------------------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------------------|
-| **Characteristics** | Daily “to do” list                                                | Conference calls or online meeting                               | Project work with many stakeholders                         |
-| **Challenges**      | Emails/attachments get lost                                       | Little/no context pre-meeting                                    | Hallway conversations’ cause disconnect with group          |
-| **With Teams**      | Send online and offline messages alleviating tracking people down | Build momentum pre-meeting with conversation and content sharing | Hold all conversations in team/channel driving transparency |
+| **Use case**        | **Personal Productivity**       | **Meetings**      | **Group Projects**     |
+|---------------------|---------------------------------|-----------------|--------------------------|
+| **Characteristics** | <ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul>     | <ul><li>Conference calls or online meeting</li><li>Internal and/or external attendees</li><li>In office/remote participants</li></ul>                               | <ul><li>Project work with many stakeholders</li><li>Information and document sharing</li><li>Using multiple apps</li></ul>    |
+| **Challenges**      | <ul><li>Emails/attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies on desktop</li></ul>      | <ul><li>Little/no context pre-meeting </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch-up if absent</li><li>Post-meeting momentum is lost</li></ul>   | <ul><li>Hallway conversations cause disconnect with group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul>          |
+| **With Teams**      | <ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversation with file attach reducing need to search multiple places or ending up with multiple versions</li></ul> | <ul><li>Build momentum pre-meeting with conversation and content sharing</li><li>Join across devices</li><li>Connect with video, app sharing ensuring alignment</li><li>Record for absent attendees</li><li>Capture notes, actions (\@mention) for accountability and easy follow-up</li></ul><br>_All within one interface!_ | <ul><li>Hold all conversations in team/channel driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> |
 
--   Dependency on others to get your job done
 
--   Internal and/or external attendees
+The following table shows an example of a targeted use case.
 
--   In office/remote participants
+| **Use Case**    | **Marketing: Working on new product launch campaign**      |
+|-----------------|------------------------------------------------------------|
+| **Characteristics** | <ul><li>Cross-team stakeholder status meetings</li><li>Campaign, creatives and messaging reviews with field, legal and PR teams</li><li>Project tracking to meet launch deadline</li></ul>                                                                                |
+| **Challenges**      | <ul><li>Emailing creatives result in multiple versions</li><li>Hallway conversations’ cause disconnect with group</li><li>Tracking project note in One Note, status report in Word and conversations in IM and email&mdash;too many tools to balance and keep aligned</li></ul>                                                                       |
+| **With Teams**      | <ul><li>Persistent conversation with file attach reducing need to search multiple places or ending up with multiple versions</li><li>One location for conversations, files, project notes and status reports enabling stakeholder to get and stay up to speed quickly</li><li>Pin project notes and status report to Tabs for easy access</li><li>\@mention team members when needing a response or feedback alleviating need to track them down or wait until they are online</li></ul> |
 
--   Information/doc sharing
+ 
+> [!Tip]
+> Need help getting started? Visit the productity library: http://aka.ms/productivitylibrary
 
--   Utilizing multiple apps
+## Personas
 
--   Calls go to voicemail
+People-level analsyis means understanding your user personas and use cases. Taking time to understand who your users are and how they work will enable you to ensure they have what they need to be successful implementing the change. This may inlude targeted messaging, training or even devices such as headsets and web cams. For example, an exeuctive may expect 1:1 training while a traveling field rep may benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who can move to Teams today versus who may be best served later on.
 
--   Colleagues are offline
+Begin by segmenting your user base into persona/cohort groups (eg Executives, Road Warriors, Collaboration Workers, Retail, etc). For manageability, keep your list to no more than eight groups.
 
--   Outdated local copies on desktop
+### Activity
 
--   Remote participants feel left behind
+Identify targeted user profiles that require specific technical/user readiness assistance. See below for a sample persona assessment for an Executive profile.
 
--   Lack of visual connection
+|                            |                                   |
+|----------|-----------------------------------------------------|
+| **What are core characteristics that define this persona (eg who are they, what do they do)?**    | <ul><li>Voice/brand of organization internally and externally</li><li>Relationship focused</li><li>Fast-paced, dynamic schedules</li><li>Utilize mobile devices to stay connected</li><li>Rely on delegates as their ‘eyes and ears’</li><li>Spend majority of day in meetings or on phone calls</li></ul>  |
+| **What are common use cases for this persona?** *Apply the universal use cases above to this persona then elaborate on specific scenarios.* | <ul><li>Personal Productivity<ul><li>Customer, rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/Stakeholder reviews</li><li>1:Many – All hands</li></ul></li><li>Project Collaboration</li></ul>         |
+| **What functionality is required?**    | <ul><li>Delegate synchronization</li><li>Contact management (internal and external)</li><li>Audio calling (PC and PSTN)</li><li>Video calling</li><li>Multiple device support</li><li>Application sharing</li></ul>     |
+| **What devices will they need?**     | <ul><li>Desk phone, “puck” speakerphone, web cam, desktop client, mobile client</li></ul>  |
+| **What is the value for this persona to use Teams?**  | <ul><li>Teams mobile app delivers high-quality experience when traveling – take Teams on-the-go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul>   |
+| **What training will they require?**   | <ul><li>White glove</li><li>Short session - 15-min hands-on</li></ul>       |
+| **Rollout timing**   | <ul><li>Enlist segment of users for pilot</li><li>Include in initial phase of broad rollout</li><li>Include in secondary phase of broad rollout after solid results are proven</li></ul>   |
 
--   Challenging to catch-up if absent
 
--   Post-meeting momentum is lost
 
--   Frustration about doc location and versioning
-
--   Confusion about accountability
-
--   Persistent conversation with file attach reducing need to search multiple
-    places or ending up with multiple versions
-
--   Join across devices
-
--   Connect with video, app sharing ensuring alignment
-
--   Record for absent attendees\*\*
-
--   Capture notes, actions (\@mention) for accountability and easy follow-up
-
-*All within one interface!*
-
--   Link to relevant docs; pin critical ones to ensure visibility
-
--   Streamline doc versioning
-
--   Access Office and 3rd party apps making true hub for teamwork
-
-**Example of targeted use case**
-
-| **Use Case**        | **Marketing: Working on new product launch campaign**                                                                |
-|---------------------|----------------------------------------------------------------------------------------------------------------------|
-| **Characteristics** | Cross-team stakeholder status meetings                                                                               |
-| **Challenges**      | Emailing creatives result in multiple versions                                                                       |
-| **With Teams**      | Persistent conversation with file attach reducing need to search multiple places or ending up with multiple versions |
-
--   Campaign, creatives and messaging reviews with field, legal and PR teams
-
--   Project tracking to meet launch deadline
-
--   Hallway conversations’ cause disconnect with group
-
--   Tracking project note in One Note, status report in Word and conversations
-    in IM and Email – too many tools to balance and keep aligned
-
--   One location for conversations, files, project notes and status reports
-    enabling stakeholder to get and stay up to speed quickly
-
--   Pin project notes and status report to Tabs for easy access
-
--   \@mention team members when needing a response or feedback alleviating need
-    to track them down or wait until they are online
-
-Tip: Need help getting started. Visit the productity library:
-**http://aka.ms/productivitylibrary**
-
--   **Personas**. People-level analsyis means understanding your user personas
-    and use cases. Taking time to understand who your users are and how they
-    work will enable you to ensure they have what they need to be successful
-    implementing the change. This may inlude targeted messaging, training or
-    even devices such as headsets and web cams. For example, an exeuctive may
-    expect 1:1 training while a traveling field rep may benefit from a training
-    video they can watch at their leisure. In addition, your people-level
-    analysis can help identify who can move to Teams today versus who may be
-    best served later on.
-
-    Begin by segmenting your user base into persona/cohort groups (eg
-    Executives, Road Warriors, Collaboration Workers, Retail, etc). For
-    manageability, keep your list to no more than eight groups.
-
->   **Activity:** Identify targeted user profiles that require specific
->   technical/user readiness assistance. See below for a sample persona
->   assessment for an Executive profile.
-
-| Persona/Profile: Executive                                                                                                                  |                                                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What are core characteristics that define this persona (eg who are they, what do they do)?**                                              | Voice/brand of organization internally and externally                                                                                                 |
-| **What are common use cases for this persona?** *Apply the universal use cases above to this persona then elaborate on specific scenarios.* | Personal Productivity                                                                                                                                 |
-| **What functionality is required?**                                                                                                         | Delegate synchronization                                                                                                                              |
-| **What devices will they need?**                                                                                                            | Desk phone, “puck” speakerphone, web cam, desktop client, mobile client                                                                               |
-| **What is the value for this persona to use Teams?**                                                                                        | Teams mobile app delivers high-quality experience when traveling – take Teams on-the-go                                                               |
-| **What training will they require?**                                                                                                        | White glove                                                                                                                                           |
-| **Rollout timing**                                                                                                                          | Enlist segment of users for pilot Include in initial phase of broad rollout Include in secondary phase of broad rollout once solid results are proven |
-
--   Relationship focused
-
--   Fast-paced, dynamic schedules
-
--   Utilize mobile devices to stay connected
-
--   Rely on delegates as their ‘eyes and ears’
-
--   Spend majority of day in meetings or on phone calls
-
--   Customer, rapport building calls
-
-Meetings
-
--   C-level/Stakeholder reviews
-
--   1:Many – All hands
-
-Project Collaboration
-
--   Contact management (internal and external)
-
--   Audio calling (PC and PSTN)
-
--   Video calling
-
--   Multiple device support
-
--   Application sharing
-
--   Streamlined document repository offers quick access to status reports and
-    conversations, saving time and frustration
-
--   Short session - 15-min hands-on
 
