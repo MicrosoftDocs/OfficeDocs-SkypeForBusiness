@@ -34,7 +34,7 @@
 ## [Office 365 licensing for Teams](office-365-licensing.md)
 ## [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Manage the IW trial offer for Teams](iw-trial-teams.md)
+## [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ## [Set up Communications Credits for your organization](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
