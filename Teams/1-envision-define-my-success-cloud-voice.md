@@ -1,13 +1,13 @@
 ---
-title: Define success in Audio Conferencing or Phone System with Calling Plans - Microsoft Teams
+title: Define success in Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/23/2018
+ms.date: 05/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Measure the results of your Audio Conferencing or Phone System with Calling Plans deployment, and verify you've achieved the outcomes you wanted.
+description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -15,19 +15,21 @@ appliesto:
 
 # Define my success
 
-This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing or Phone System with Calling Plans for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
+This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing, Phone System with Calling Plans, or Microsoft Phone System Direct Routing for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
 
 <!--ENDOFSECTION-->
 
 **Audio Conferencing** provides organizations with additional entry points to any meetings (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using traditional landline, private branch exchange (PBX), or mobile phones. This is useful when the organizer or participants aren’t in front of a computer, or when data connections are unavailable or too unreliable to support voice communications—such as in a remote area with spotty mobile data coverage, or connected to a free, public Wi-Fi service with limited bandwidth, or when meeting participants prefer to dial in to the meeting by using a telephony endpoint that’s readily accessible to them.
 
-**Phone System with Calling Plans** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on.
+**Phone System with Calling Plans (“Calling Plans”)** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on. With Calling Plans, Microsoft facilitates connectivity to the PSTN.
+
+**Phone System Direct Routing (“Direct Routing”)** gives organizations the same benefits listed above for Calling Plans, except that PSTN connectivity is facilitated by a third-party provider rather than Microsoft. This allows for deployment in countries where Calling Plans aren’t available, or in deployments where an existing PSTN service provider contract needs to be maintained or interoperability with certain on-premises systems is required.
 
 <!--ENDOFSECTION-->
 
-## Define business use cases for Audio Conferencing or Phone System with Calling Plans
+## Define business use cases for Audio Conferencing, Calling Plans, or Direct Routing
 
-To begin with, core project stakeholders need to define business use cases that support the implementation of Audio Conferencing or Phone System with Calling Plans.
+To begin with, core project stakeholders need to define business use cases that support the implementation of Audio Conferencing, Calling Plans, or Direct Routing.
 
 Business use cases are meant to define and document expected and measurable business outcomes, and include the following:
 
@@ -44,37 +46,49 @@ Business use cases are meant to define and document expected and measurable busi
 >|         |
 >|---------|
 >|**Description of current business process**<br>Contoso currently relies on PSTN conferencing services provided by the incumbent local telephony provider chargeable by meeting minutes for internal meetings and meetings involving external parties.|
->|**Challenges with existing business process**<br>Contoso spends roughly USD 1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings. The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service isn’t aligned with the plan for the organization to adopt Teams as a modern communications and collaboration platform.|
+>|**Challenges with existing business process**<br>Contoso spends roughly USD1 million per year for the current PSTN conferencing service, with 75% of the cost incurred for internal meetings. The use of traditional telephony endpoints to join the meetings hosted by the PSTN conferencing service isn’t aligned with the plan for the organization to adopt Teams as a modern communications and collaboration platform.|
 >|**How technology can overcome these challenges**<br>With the adoption of Microsoft Teams as a modern communications and collaboration platform, internal users are expected to primarily join meetings by using their PCs equipped with optimized headsets and meeting-room devices. The Audio Conferencing service will be available to support external participants or to support situations where the use of PC audio isn’t favorable for the internal participants.|
 >|**Expected, measurable, business outcomes**<br>The move to Teams as a modern communications and collaboration platform, combined with the Audio Conferencing service, will greatly reduce the cost to deliver the PSTN conferencing service.|
 
+<br>
+
 > [!TIP]
-> The following is an example of a completed business use case for Phone System with Calling Plans:
+> The following is an example of a completed business use case for Calling Plans:
 >|         |
 >|---------|
 >|**Description of current business process**<br>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
 >|**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso’s monthly telephony service cost.|
->|**How technology can overcome these challenges**<br>Phone System with Calling Plans will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, because the phone service can be delivered via the cloud over the network with no dependency on a traditional phone system.|
->|**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Phone System with Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
+>|**How technology can overcome these challenges**<br>Calling Plans will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, because the phone service can be delivered via the cloud over the network with no dependency on a traditional phone system.|
+>|**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Calling Plans will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
+<br>
+
+> [!TIP]
+> The following is an example of a completed business use case for Direct Routing:
+>|         |
+>|---------|
+>|**Description of current business process**<br>Standard configuration of Contoso’s office workspaces includes a desktop phone for every desk. Each employee has been given a direct inward dialing (DID) phone number. The desktop phones are connected to a PBX system, and connected to PSTN via a session initiation protocol (SIP) trunk. Employees can only make and receive phone calls at their assigned desktop phones.|
+>|**Challenges with existing business process**<br>Usage analysis of the desktop phones shows that only 10% of the desktop phones are actively used, with the rest configured either to forward calls to mobile phones or to simultaneously ring to mobile phones. Maintaining the existing PBX system and associated desktop phones contributes to 20% of Contoso’s monthly telephony service cost.|
+>|**How technology can overcome these challenges**<br>The SIP trunk provider contract was recently signed and will be in place for three years. Direct Routing allows PSTN connectivity to be provided by the SIP trunk provider and also will allow a user’s personal computer to receive and place phone calls over the data network by leveraging the native Microsoft Teams app. This removes the need to roll out and maintain desktop phones, and opens the opportunity to decommission the existing PBX system, while maintaining a limited on-premises session border controller (SBC) footprint.|
+>|**Expected, measurable, business outcomes**<br>Removing maintenance requirements and decommissioning legacy PBX and desktop phones will deliver a 20% reduction in monthly telephony service expenses. Direct Routing will simplify office workspaces, allowing Contoso to expand its operations by establishing new offices with minimal upfront telephony costs.|
 
 In addition to defining your business use cases, to set the project boundaries you should aim to drive clarity around:
 
--   **Organizational scope:** The implementation of Audio Conferencing or Phone System with Calling Plans might encompass the whole organization or just specific business units.
+-   **Organizational scope:** The implementation of Audio Conferencing, Calling Plans, or Direct Routing might encompass the whole organization or just specific business units.
 
 -   **Project timeline:** The specific timeline the project will run.
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li><li>What are all the business use cases for Phone System with Calling Plans you can identify in your organization?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li><li>Document all business use cases for Phone System with Calling Plans for your organization.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are all the business use cases for Audio Conferencing you can identify in your organization?</li><li>What are all the business use cases for Calling Plans you can identify in your organization?</li><li>What are all the business use cases for Direct Routing you can identify in your organization?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document all business use cases for Audio Conferencing for your organization.</li><li>Document all business use cases for Calling Plans for your organization.</li><li>Document all business use cases for Direct Routing for your organization.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## Identify key stakeholders
 
-The business use cases defined in the previous step include an organizational scope for the Audio Conferencing or Phone System with Calling Plans implementation, and based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
+The business use cases defined in the previous step include an organizational scope for the Audio Conferencing, Calling Plans, or Direct Routing implementation. Based on that, you can complete the comprehensive stakeholder matrix to include the right people to involve in the project.
 
 > [!TIP]
 > Below is an example of stakeholder matrix template that you can use to document the project stakeholders:
@@ -94,7 +108,7 @@ The business use cases defined in the previous step include an organizational sc
 >|Business Unit Representatives|<ul><li>Contribute to user-based adoption guides and materials.</li><li>Contribute to and review business use cases.</li></ul>|TBA|
 >|Deployment Lead|<ul><li>Ensure that deployment prerequisites are met.</li><li>Engage resources to be involved in the Onboard phase activities.</li><li>Participate in meetings to review and prepare reports on deployment status.</li></ul>|TBA|
 >|IT Admins|<ul><li>Assist with test planning and execution. This role is for IT pros.</li></ul>|TBA|
->|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing or Phone System with Calling Plans service, all up.</li><li>Own the Audio Conferencing or Phone System with Calling Plans service.</li></ul>|TBA|
+>|Service Owner|<ul><li>Be responsible for the operation of the Audio Conferencing, Calling Plans, or Direct Routing service, all up.</li><li>Own the Audio Conferencing, Calling Plans,or Direct Routing service.</li></ul>|TBA|
 >|Quality Champions|<ul><li>Drive quality, reliability, and user feedback.</li><li>Identify quality trends and drive remediation with the respective teams.</li><li>Report through the steering committee back to leadership.</li><li>Report on quality, reliability, and user sentiment through Rate My Call and Net Promoter Score.</li></ul>|TBA|
 
 <br>
@@ -114,25 +128,38 @@ Full participation from project stakeholders in defining OKRs and KSIs is essent
 OKRs contain the objectives you set in the beginning of the project, and you define measurable key results on a quarterly basis. You review key results monthly to track the status of the overall project, and—based on progress—you adjust quarterly plans as needed.
 
 > [!TIP]
-> Example of OKRs relevant to Audio Conferencing implementation can be referenced below:
+> Examples of OKRs relevant to an Audio Conferencing implementation can be referenced below:
 ><br>
 >
 >**Vision: Increase productivity by maximizing Office 365 investments**
->|Objectives  |Key Results  |To Do  |
+>|Objectives  |Key results  |To do  |
 >|---------|---------|---------|
 >|Deploy Audio Conferencing in Teams by end of fiscal year 2018|FY18Q1: Deploy Audio Conferencing in Teams globally|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
 >|Decommission legacy PSTN Conferencing service globally by mid of fiscal year 2018|FY18Q2: Decommission legacy PSTN Conferencing service globally|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
 
+<br>
 
 > [!TIP]
-> Example of OKRs relevant to Phone System with Calling Plans implementation can be referenced below:
+> Examples of OKRs relevant to a Calling Plans implementation can be referenced below:
 ><br>
 >
 >**Vision: Increase productivity by maximizing Office 365 investments**
->|Objectives  |Key Results  |To Do  |
+>|Objectives  |Key results  |To do  |
 >|---------|---------|---------|
->|Deploy Phone System with Calling Plans in European branch offices by end of fiscal year 2018|FY18Q3: Deploy Phone System with Calling Plans in London office|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
+>|Deploy Calling Plans in European branch offices by end of fiscal year 2018|FY18Q3: Deploy Calling Plans in London office|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
 >|Decommission legacy PBX in London office by end of fiscal year 2018|FY18Q4: Decommission legacy PBX in London office|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
+
+> [!TIP]
+> Examples of OKRs relevant to a Direct Routing implementation can be referenced below:
+><br>
+>
+>**Vision: Increase productivity by maximizing Office 365 investments**
+>|Objectives  |Key results  |To do  |
+>|---------|---------|---------|
+>|Deploy Direct Routing in Canadian branch offices by end of fiscal year 2018|FY18Q3: Deploy Direct Routing in Toronto office|Envision<ul><li>Create success plan</li><li>Create detailed technical implementation plan</li></ul><p>Onboard<ul><li>Execute success plan</li><li>Execute technical implementation plan</li></ul>|
+>|Decommission legacy PBX in Toronto office by end of fiscal year 2018|FY18Q4: Decommission legacy PBX in Toronto office|Drive Value<ul><li>Boost user engagement and drive adoption</li><li>Manage and prepare change</li><li>Measure, share success, and iterate</li>|
+
+<br>
 
 KSIs measure quality and success of the key results, and complement the binary nature of OKRs (achieved or not achieved) by detailing good and/or bad results.
 
@@ -169,12 +196,13 @@ You need to identify business risks as part of this exercise, and define a mitig
 >|Upcoming merger will add up to 1,000 people|High|High|High|<ul><li>For merged companies, create a separate OKR that applies to their own project phases (Envision, Onboard, Drive Value)</li><li>Don’t include these OKRs in existing OKRs</li></ul>|
 >|Telephone number porting will delay project completion|High|High|High|<ul><li>Prepare all the information required to support telephone number porting ahead of time (customer service record, billing details, Letter of Authorization)</li><li>Adjust the project timeline to accommodate the turnaround time of telephone number porting execution</li><li>Communicate the use of new dial-in conferencing numbers to external participants</li><li>Use temporary telephone numbers with Caller ID manipulation</li></ul>|
 >|Planned network redesign|High|Medium|Medium|<ul><li>Before implementing Teams as a modern communications and collaboration platform, conduct a network readiness assessment for sites in scope of the project</li></ul>|
+>|SBC configuration|High|High|High|<ul><li>Before implementing Teams as replacement for the existing PBX, confirm that you can meet all SBC configuration requirements</li><li>Confirm that SBC support resources have the proper skill set to configure SBC for Direct Routing</li></ul>|
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Phone System with Calling Plans in your organization? What are the mitigation plans for the identified risks?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs, KSIs, and establish the risks register.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>What are your organization's OKRs and KSIs?</li><li>What risks have you identified relevant to the implementation of Audio Conferencing in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Calling Plans in your organization? What are the mitigation plans for the identified risks?</li><li>What risks have you identified relevant to the implementation of Direct Routing in your organization? What are the mitigation plans for the identified risks?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the OKRs and KSIs, and establish the risks register.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -216,6 +244,6 @@ The steering committee meets at a recurring interval throughout the lifetime of 
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether a steering committee is required for your organization.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Identify members of the steering committee.</li><li>Schedule steering committee meetings.</li><li>Prepare for steering committee meetings.</li><li>Hold steering committee meetings.</li><li>Take action based on steering committee meeting input.</li></ul>|
 
-Additional detailed guidance on how to operate a proper steering committee can be found in the steering committee guide available [here](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
+Additional detailed guidance on how to operate a proper steering committee can be found in the [steering committee guide](envision-steering-committee-complete-guide.md).
 
 <!--ENDOFSECTION-->
