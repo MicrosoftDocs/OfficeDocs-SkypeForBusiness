@@ -1,5 +1,5 @@
 ---
-title: Make Phone System with Calling Plans service decisions - Microsoft Teams
+title: Make Phone System Direct Routing service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
@@ -7,7 +7,7 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers. 
+description: Learn about Direct Routing, licensing and configuration decision tat need to be made.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -15,7 +15,10 @@ appliesto:
 
 # Make my service decisions
 
-To plan for the technical implementation of Phone System with Calling Plans, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
+To plan for the technical implementation of Phone System Direct Routing, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
+
+> [!NOTE]
+> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
 
 ## Calling in Teams
 

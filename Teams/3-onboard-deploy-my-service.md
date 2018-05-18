@@ -3,7 +3,7 @@ title: Deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -42,7 +42,7 @@ dial tone to a specific site. Instead, they focus on activities and tasks
 recommended to onboard users easily and have them start consuming Teams voice
 workloads through a fast and smooth transition with a high adoption rate, while
 minimizing support requirements. For technical guidance on how to best configure
-your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [networking for Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking), and [enabling Office 365](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
+your environment for Teams voice, see the onboarding checklists for [configuring Teams voice workloads](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [configuring Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [networking for Teams](onboarding-checklist-configure-networking.md), and [enabling Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -53,6 +53,9 @@ perception of a Teams voice deployment. Activities and tasks are grouped into
 the following focus areas:
 
 -   Validation of service readiness
+    - Audio Conferencing
+    - Calling Plans
+    - Direct Routing
 
 -   User enablement
 
@@ -113,7 +116,6 @@ to Microsoft Teams voice.
 > [!TIP]
 > Repeat the steps above for all the locations you have.
 
-
 > [!IMPORTANT]
 > Some steps might not be applicable to all locations and sites. If a
 specific activity isn’t relevant to a site, you must select **Not applicable**
@@ -127,10 +129,9 @@ the activity list and the associated timeline weekly, and present them at
 of the status of each site and any possible deviations from the deployment
 schedule.
 
-
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide if the Site Enablement Playbook is required for your deployment.</li><li>Decide who will be responsible for customizing the Site Enablement Playbook for Microsoft Teams for every site you'll deploy.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Site Enablement Playbook.</li><li>Customize the Site Enablement Playbook for your first site.</li><li>Repeat as needed for additional sites.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide if the Site Enablement Playbook is required for your deployment.</li><li>Decide who will be responsible for customizing the Site Enablement Playbook for Microsoft Teams for every site you’ll deploy.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Customize the Site Enablement Playbook for your first site.</li><li>Repeat as needed for additional sites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

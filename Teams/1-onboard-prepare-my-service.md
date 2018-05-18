@@ -3,7 +3,7 @@ title: Prepare to deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -19,17 +19,17 @@ This article gives an overview of the requirements for preparing cloud voice ser
 
 ## Onboarding checklists for Microsoft Teams voice workloads
 
-The following checklists walk you through the steps for implementing Audio
-Conferencing and Phone System with Calling Plans capabilities in Microsoft
-Teams.
+The following checklists walk you through the steps for implementing Audio Conferencing, Phone System with Calling Plans (“Calling Plans”), and Phone System Direct Routing (“Direct Routing”) capabilities in Microsoft Teams.
 
-*  [Prepare Office 365 for Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365)
+*  [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
-*  [Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities)
+*  [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Configure networking](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)
+*  [Configure networking](onboarding-checklist-configure-networking.md)
 
-*  [Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams)
+*  [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+
+*  [Configure Direct Routing in Teams]()
 
 The tasks and activities in these checklists are the core “to-do” items that
 apply to every deployment of cloud voice capabilities with Teams. You can
@@ -37,11 +37,8 @@ customize the checklists to include the activities and tasks that are specific
 to your own Teams journey.
 
 >[!NOTE]
->This guidance focuses solely on Phone System with Calling Plans and
-Audio Conferencing. If you’re new to Teams, review [Overview of Microsoft
-Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview). For general
-guidance for planning your Teams deployment, see the [Microsoft Teams Planning
-Guide](https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams).
+>This guidance focuses solely on Calling Plans, Audio Conferencing, and Direct Routing. If you’re new to Teams, review [Overview of Microsoft Teams](teams-overview.md). For general
+guidance for planning your Teams deployment, see the [Microsoft Teams Planning Guide](quick-start-enable-teams.md).
 
 Use the provided checklists to track the status of each individual activity and
 task, and to be sure you haven’t skipped any critical steps. Each activity
@@ -74,7 +71,7 @@ configure those settings.
 
 ## Continue onboarding
 
-After you complete this checklist, you’ll have successfully added voice
+After you complete these checklists, you’ll have successfully added voice
 capabilities to your Teams deployment.
 
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site, and help ensure that you plan
@@ -105,10 +102,10 @@ testing phase.
 ## Define your testing approach
 
 In its simplest form, your testing approach is based on your reviewing the
-feature capabilities of the Audio Conferencing or Phone System with
-Calling Plans service and developing a test plan to verify that your
+feature capabilities of the Audio Conferencing, Calling Plans, or Direct Routing service and developing a test plan to verify that your
 functionality requirements are met for users in scope. The following is an
 example test plan for the Onboard phase of an audio conferencing implementation.
+
 
 | Audio Conferencing feature to test | Results summary | Additional notes |
 |------------|-----------------|------------------|
@@ -117,43 +114,49 @@ example test plan for the Onboard phase of an audio conferencing implementation.
 | Join other people to an existing meeting by dialing out via the PSTN | Pass/Fail | TBD |
 
 
-| Phone System with Calling Plans feature to test | Results summary | Additional notes |
+
+| Calling Plans or Direct Routing feature to test | Results summary | Additional notes |
 |----------------------------------------------------|-----------------|------------------|
-| Make a PSTN call to by dialing a PSTN number       | Pass/Fail       | TBD |
+| Make a PSTN call by dialing a PSTN number       | Pass/Fail       | TBD |
 | Receive a PSTN call by dialing your PSTN number from an external line (mobile, landline) | Pass/Fail | TBD|
-|Transfer a PSTN call from one Teams user to another | Pass/Fail | TBD |
+| Transfer a PSTN call from one Teams user to another | Pass/Fail | TBD |
 
 
 >[!TIP]
 >To assist with test-case creation as a starting point, see the list
-of audio conferencing user guidance available at [Teams Meetings and
-calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
+of user guidance available at [Teams Meetings and calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings).
 
 <!--ENDOFSECTION-->
 
 ## Set up cloud voice workloads for Teams
 
 Now that you’ve defined your testing approach, the next step is configuring your
-service environment and users in scope for Teams cloud voice features. For
-additional information, see [Technical Planning for Audio
-Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing#technical-planning-for-audio-conferencing)
-and [Set up Audio Conferencing for Skype for Business and Microsoft
-Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
-in addition to [Technical Planning for Phone System with Calling
-Plans](https://docs.microsoft.com/microsoftteams/phone-system-with-calling-plans#technical-planning-for-phone-system-with-calling-plans)
-and [Set up Calling Plans for Skype for Business and Microsoft
-Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+service environment and users in scope for Teams cloud voice features.
+
+For additional information, see:
+
+- [Technical Planning for Audio Conferencing](audio-conferencing.md#technical-planning-for-audio-conferencing)
+
+- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+
+- [Technical Planning for Phone System with Calling Plans](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+
+- [Set up Calling Plans for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+
+- [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing)
+
+- [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing)
 
 <!--ENDOFSECTION-->
 
 ### Execute the test plan
 
-After the user and audio conferencing service environments have been configured,
+[//]: # (Edit okay? "User" seemed a bit ambiguous to me.)
+After the user environment and the service have been configured,
 the last step of testing includes test plan execution with focus on feature and
 functionality validation. 
 
-**Audio Conferencing testing prerequisites and assumptions for users and sites in
-scope:**
+**Audio Conferencing testing prerequisites and assumptions for users and sites in scope:**
 
 -   Business use case definition for the Audio Conferencing service has
     been completed.
@@ -166,8 +169,7 @@ scope:**
 -   The list of dedicated and shared audio conferencing dial in numbers with
     language preference have been identified and configured.
 
--   [Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+-   [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
     (if required) have been set up for your organization.
 
 -   Audio Conferencing conference bridge settings have been identified and
@@ -181,13 +183,13 @@ scope:**
 -   Audio Conferencing compliance requirements have been identified and
     configured.
 
-**Phone System with Calling Plans testing prerequisites and assumptions for users and
+**Calling Plans testing prerequisites and assumptions for users and
 sites in scope:**
 
--   Business use case definition for the Phone System with Calling Plans
+-   Business use case definition for the Calling Plans
     service has been completed.
 
--   Licensing required for Phone System with Calling Plans is available and
+-   Licensing required for Calling Plans is available and
     has been assigned.
 
 -   The list of organizational sites and user groups have been identified.
@@ -199,21 +201,41 @@ sites in scope:**
     Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
     (if required) have been set up for your organization.
 
--   Tenant user policies and dial plan settings that support Phone System
-    with Calling Plans scenarios have been identified, configured, and applied.
+-   Tenant user policies and dial plan settings that support Calling Plans scenarios have been identified, configured, and applied.
 
--   Phone System with Calling Plans compliance requirements have been
+-   Calling Plans compliance requirements have been
     identified and configured.
 
+**Direct Routing testing prerequisites and assumptions for users and
+sites in scope:**
+
+> [!NOTE]
+> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
+
+-   Business use case definition for the Direct Routing service has been completed.
+
+-   Licensing required for Direct Routing is available and has been assigned.
+
+-   The list of organizational sites and user groups have been identified.
+
+-   A [certified session border controller (SBC)](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
+
+-   Enterprise voice has been enabled, and the phone numbers have been assigned.
+
+-   Voice routing policies have been identified, configured, and assigned.
+
+-   Microsoft Teams has been set as the preferred calling client for the users in scope.
+ 
+-   Direct Routing compliance requirements have been identified and configured.
+
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><li>Decide which Phone System with Calling Plans feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Phone System with Calling Plans.</li><li>Identify service configuration requirement for Phone System with Calling Plans.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Phone System with Calling Plans features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Phone System with Calling Plans features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><br><li>Decide whether Direct Routing or Calling Plans will be deployed and configured.<li>Decide which Phone System feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Calling Plans or Direct Routing.</li><li>Identify service configuration requirement for Calling Plans or Direct Routing.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Calling Plans or Direct Routing features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Calling Plans or Direct Routing features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
 </table>
 
 
-For additional detailed guidance on how to perform testing for Audio Conferencing in Teams, see the [detailed testing guide for Audio Conferencing]  (https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Audio-Conferencing).
+For additional detailed guidance on how to perform testing for Audio Conferencing in Teams, see the [detailed testing guide for Audio Conferencing](onboarding-test-plan-for-enterprises-Audio-Conferencing.md).
 
-For additional detailed guidance on how to perform testing for Phone System
-with Calling Plans in Teams, see the [detailed testing guide for Phone System](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Phone-System).
+For additional detailed guidance on how to perform testing for Calling Plans in Teams, see the [detailed testing guide for Phone System](onboarding-test-plan-for-enterprises-Phone-System.md).
 
 <!--ENDOFSECTION-->
