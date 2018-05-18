@@ -3,7 +3,7 @@ title: "<topic title>"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 5/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +12,7 @@ ms.collection:
 description: "A Discussion of the available hybrid solutions in Skype for Business Server 2019."
 ---
 
-NOTE: The following is copied from 2015 and is in progress. Additional in-progress placeholder content can be found [below](#placeholder-topic-for-hybrid-solutions).
+NOTE: THE FOLLOWING IS COPIED FROM 2015 AND IS IN PROGRESS. Additional in-progress placeholder content can be found [below](#placeholder-topic-for-hybrid-solutions).
 
 
 # Skype for Business hybrid solutions
