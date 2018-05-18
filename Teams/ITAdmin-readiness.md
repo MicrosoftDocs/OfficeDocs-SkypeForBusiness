@@ -31,6 +31,7 @@ Learn about Teams and drive usage in your organization. Check back frequently fo
 | [Audio Conferencing videos](audio-conferencing-videos.md) |Videos introducing Audio Conferencing in Teams to the IT admin.  |
 | [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml) | This training introduces meetings in Teams. It covers meeting capabilities, plus requirements and planning considerations. |
 | Deploying and operating Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Direct Routing for Microsoft Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | Deep dive into Guest Access <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery in Microsoft Teams <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Teams: Step-by-step intro for using, enabling and managing the experience <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
