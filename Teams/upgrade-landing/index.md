@@ -101,9 +101,10 @@ description: "Skype for Business to Teams upgrade journey."
 </ul>
 -->
 
-We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
 ![Ensure your project is set up for success with the right project team. Define your project scope, goals and governance. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team > Define your project scope, goals and governance > Confirm both technical and user readiness > Execute your rollout plan > Maintain momentum to maximize results.")
+
+We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
 ### To get started...
 
