@@ -12,8 +12,8 @@
 ### [Prepare my network]
 ### [Monitor quality]
 ## [Prepare my organization]
-### [Assess organizational change readiness]
-### [Prepare a user readiness plan]
+### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare my IT pros]
 ## [Pilot Teams/run coexistence](../pilot-essentials.md)
 ## [Upgrade to Teams](../upgrade-to-teams.md)
