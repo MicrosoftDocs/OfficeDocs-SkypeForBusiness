@@ -207,7 +207,7 @@ param(
 
     # Non-OEMs need to use normal Windows 10 Enterprise.
     if (!$IsOem -and $IsIoT) {
-        Write-Host "You appear to have specified a path to Windows 10 Enterprise IoT media. However, you need to use Windows 10 Enterprise media."
+        Write-Host "You appear to have specified a path to Windows 10 Enterprise IoT media, or a Multiple-Editions version that does not include Enterprise Edition. However, you need to use Windows 10 Enterprise media."
         return $false
     }
 
