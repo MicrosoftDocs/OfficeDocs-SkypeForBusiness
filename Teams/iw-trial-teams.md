@@ -43,7 +43,7 @@ Also, your tenant is NOT eligible for the trial if:
 
 In addition, if your tenant is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
 
-At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). (For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).) Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
+At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
 
 ## How users sign up for the trial
 
