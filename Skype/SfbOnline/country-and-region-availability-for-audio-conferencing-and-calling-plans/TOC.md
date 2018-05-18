@@ -146,8 +146,7 @@
 ### [Media Quality and Network Connectivity Performance](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Proxy Servers for Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## Using Call Quality in your organization
-### [Call Analytics and Call Quality Dashboard](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Call Analytics and Call Quality Dashboard] (../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensions and measures available in Call Quality Dashboard](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Skype for Business Call Analytics](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Turning on and using Call Quality Dashboard](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
