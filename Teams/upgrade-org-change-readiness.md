@@ -14,36 +14,13 @@ appliesto:
 ---
 # Assess organizational change readiness - ROUGH
 
-Once your *project team* is secured and your vision, *scope/goals* defined, the
-next step on your upgrade journey is ensuring organizational and user readiness,
-an activity completed in parallel with your technical readiness. To realize
-value from Teams, users must actually use it. Simply enabling Teams doesn’t
-guarantee goal achievement. Further, users have different use cases, varying
-learning styles and adapt to new technology at different speeds. The good news
-is that managing change isn’t all that complicated, but it does take a focused
-effort. The guided discussions below are designed to help you understand your
-user base so that you can prepare the right level of education to facilitate and
-accelerate user adoption. There are three ways you should look at your user
-base:
+Once your project team is secured and your vision, scope/goals defined, the next step on your upgrade journey is ensuring organizational and user readiness, an activity completed in parallel with your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee goal achievement. Further, users have different use cases, varying learning styles and adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are three ways you should look at your user base:
 
--   **Organizational Change Readiness**: Understanding how quickly (or not)
-    users typically react to change. This information will help inform the
-    amount of awareness, training and value-selling you may need to do to drive
-    user adoption.
+-   Organizational Change Readiness: Understanding how quickly (or not) users typically react to change. This information will help inform the amount of awareness, training and value-selling you may need to do to drive user adoption.
+-   Use Cases: Evaluating how the new technology will improve user productivity. This information will make the change relevant for users based on how they work.
+-   Personas: Assessing individuals or groups which may require personalized attention. This information will enable you to target training and awareness for those who expect or need more focused attention (eg Executives)
 
--   **Use Cases:** Evaluating how the new technology will improve user
-    productivity. This information will make the change relevant for users based
-    on how they work.
-
--   **Personas:** Assessing individuals or groups which may require personalized
-    attention. This information will enable you to target training and awareness
-    for those who expect or need more focused attention (eg Executives)
-
-NOTE: The assessment activities provided below are adaptable to any change
-initiative in your organization. Simply address the questions based on the scope
-of your project. In the discussion of these activities, “new solution” can apply
-to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to
-Teams.
+NOTE: The assessment activities provided below are adaptable to any change initiative in your organization. Simply address the questions based on the scope of your project. In the discussion of these activities, “new solution” can apply to Audio Calling, Audio Conferencing, or your upgrade from Skype for Business to Teams.
 
 *Decision Points:*
 
@@ -97,20 +74,14 @@ faciliate the change with their peers.
 
 -   **What % of users fall into each competency?**
 
-| **Type of Learner**                                                        | **%** |
+    | **Type of Learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* – seek out resources, learn by doing                      |       |
 | *Team-player* – group, interactive training; will go along with co-workers |       |
 | *Hand-holding* – Expect white-glove or 1:1 assistance                      |       |
 
->   *TIP: Not everyone learns the same way. For those who are self-motivated,
->   point to Microsoft’s online videos and training articles. If you have 20% or
->   more in the Team Player category, enlist your training team or a partner to
->   deliver live, interactive training (in person or online). Typically, you
->   will find executives or targeted roles in the Hand-holding category. This is
->   a critical group who would benefit from personalized, short training
->   sessions. Enlist your champions to help deliver training to these users, for
->   an optimal experience.*
+    > [!Tip]
+    > Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If you have 20% or more in the Team Player category, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you will find executives or targeted roles in the Hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience.*
 
 1.  **Use Cases**. Articulating specific use cases in your awareness and
     training plan makes users feel like you truly are designing technology for
