@@ -28,7 +28,7 @@ After you’ve secured your project team and defined your vision, scope, and goa
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization’s user readiness profile.</li></ul>|
 
 ## Organizational change readiness
