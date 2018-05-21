@@ -15,7 +15,7 @@ appliesto:
 
 ![User Readiness](media/upgrade-banner-tech-readiness.png "Pretend this illustrates User Readiness")
 
-# Assess organizational change readiness - ROUGH
+# Assess organizational change readiness
 
 After you’ve secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal.  Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are three ways you should look at your user base: 
 

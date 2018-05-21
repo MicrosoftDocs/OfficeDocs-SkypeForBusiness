@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Prepare my user readiness plan - ROUGH
+# Prepare my user readiness plan
 
 An optimal user readiness plan incorporates how you’ll communicate, train, and support your users as you pilot, onboard, and upgrade to Teams. As you discovered in [Prepare my organization](), readiness is not one-size-fits-all. To ensure optimal receptiveness to the new technology, use a combination of broad-reach messaging (incorporating the vision/value messaging and universal use cases) and messaging, training, and support tailored to the personas and cohorts you’ve defined and also to your laggards, as appropriate. This personalized plan will help facilitate user adoption by enabling users to more quickly relate to Teams, while demonstrating that you understand their needs.
 
