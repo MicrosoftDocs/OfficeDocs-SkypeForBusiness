@@ -1,0 +1,2 @@
+
+# Partner qualification for Lync
