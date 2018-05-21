@@ -46,7 +46,6 @@ To use the Skype for Business Web App, a user must have one of the following sup
   
 **Operating System and minimum browser support for Skype for Business Web App**
 
-
 | Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Firefox 12.X or later | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
@@ -91,7 +90,6 @@ If the user is on a network not configured as described, many app features may o
 <a name="BKMK_Conferencing"> </a>
 
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
-  
 
 | Feature/capability | Skype for Business 2016 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -174,9 +172,7 @@ Other supported values are:
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-
