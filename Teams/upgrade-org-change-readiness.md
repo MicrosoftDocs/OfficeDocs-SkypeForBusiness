@@ -13,8 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-> [!div class="mx-imgBorder"]
-> ![User Readiness](media/upgrade-banner-tech-readiness.png "Pretend this illustrates User Readiness")
+![User Readiness](media/upgrade-banner-tech-readiness.png "Pretend this illustrates User Readiness")
 
 # Assess organizational change readiness - ROUGH
 
