@@ -21,7 +21,6 @@ description: "Skype for Business to Teams upgrade journey."
                     <div class="cardText">
                         <p>Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.</p>
                         <p>Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.</p>
-                        <p>To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order.</p>
                     </div>
                 </div>
             </div>
@@ -42,8 +41,7 @@ description: "Skype for Business to Teams upgrade journey."
     </li>
 </ul>
 
-
-As illustrated below, a successful project begins by bringing the right project team together and solidifying the scope, goals, and timeline. This helps create a solid foundation for your project. From there, it’s critical to prepare for both technical _and_ user readiness before moving on to the implementation phase. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit, establish an operational plan that monitors for quality and accelerates user adoption.
+To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order.As illustrated below, a successful project begins by bringing the right project team together and solidifying the scope, goals, and timeline. This helps create a solid foundation for your project. From there, it’s critical to prepare for both technical _and_ user readiness before moving on to the implementation phase. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit, establish an operational plan that monitors for quality and accelerates user adoption.
 
 ![Ensure your project is set up for success with the right project team. Define your project scope, goals and governance. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team > Define your project scope, goals and governance > Confirm both technical and user readiness > Execute your rollout plan > Maintain momentum to maximize results.")
 
