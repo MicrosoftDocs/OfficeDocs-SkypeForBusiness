@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -692,7 +693,7 @@ _Table 4 - Report Filter_
 
 ## Import the CQD templates
 
-This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). These templates accelerate your
+This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). These templates accelerate your
 usage of CQD and provide you an opportunity to quickly leverage CQD’s
 capabilities to make an impact on your users’ Teams or Skype for Business
 experience. The All Networks template, though optimized to work with a building
@@ -1679,8 +1680,8 @@ Business Online.
 -   [Set up Skype for Business Call
     Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
--   [What's the difference between Call Analytics and Call Quality
-    Dashboard?](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Call Analytics and Call Quality
+    Dashboard](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
 
 -   [Use Call Analytics to troubleshoot poor Skype for Business call
     quality](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)

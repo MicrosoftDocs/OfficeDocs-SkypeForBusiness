@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: How to perform a detailed environmental discovery as you plan your journey from Skype for Business to Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

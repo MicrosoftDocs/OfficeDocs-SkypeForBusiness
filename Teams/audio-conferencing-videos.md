@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

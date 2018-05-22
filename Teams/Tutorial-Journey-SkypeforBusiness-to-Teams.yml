@@ -6,12 +6,12 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: tbinder
   ms.reviewer: tbinder
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto: 
   - Microsoft Teams

@@ -7,13 +7,14 @@ ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: "Summary: Learn about Skype for Business Server 2015 integration with Exchange and SharePoint."
 ---
@@ -30,8 +31,7 @@ The following tables list the features supported in a hybrid deployment when int
   
  **Skype for Business Server on premises and Exchange on premises**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> |For more information, see [IM and Presence](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -51,8 +51,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Server on premises and Exchange Online**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -72,8 +71,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Online and Exchange on premises**
   
-|
-|
+ 
 |**Feature**|**Notes**|
 |:-----|:-----|
 |Presence in Outlook  <br/> ||
@@ -90,8 +88,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Online and Exchange Online**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> ||

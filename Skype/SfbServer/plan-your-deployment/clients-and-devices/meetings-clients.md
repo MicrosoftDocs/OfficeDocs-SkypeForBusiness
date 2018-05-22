@@ -7,9 +7,11 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: "Summary: IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps."
 ---
@@ -43,7 +45,6 @@ Skype Meetings App offers a simplified browser experience for downloading and in
 To use the Skype for Business Web App, a user must have one of the following supported operating system and browser combinations. 
   
 **Operating System and minimum browser support for Skype for Business Web App**
-
 
 | Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Firefox 12.X or later | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -89,7 +90,6 @@ If the user is on a network not configured as described, many app features may o
 <a name="BKMK_Conferencing"> </a>
 
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
-  
 
 | Feature/capability | Skype for Business 2016 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -172,9 +172,7 @@ Other supported values are:
 <a name="BKMK_Conferencing"> </a>
 
 #### 
-
 [Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+
 #### 
-
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-

@@ -7,13 +7,14 @@ ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: "Summary: Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions."
 ---
@@ -293,10 +294,10 @@ In addition to the port requirements for internal communication, you must also c
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Access Edge  <br/> |Office 365  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Access Edge  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
-|STUN  <br/> |TCP  <br/> |A/V Edge  <br/> |Office 365  <br/> |50000-59999  <br/> |443, 50000-59999  <br/> |Open for audio, video, application sharing sessions  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V Edge  <br/> |443  <br/> |50000-59999  <br/> |Open for audio, video, application sharing sessions  <br/> |
+|STUN  <br/> |TCP  <br/> |A/V Edge  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |Open for audio, video, application sharing sessions  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V Edge  <br/> |50000-59999  <br/> |443  <br/> |Open for audio, video, application sharing sessions  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |443  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
    
 For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   

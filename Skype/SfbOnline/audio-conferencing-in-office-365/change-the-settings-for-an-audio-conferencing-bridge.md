@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
 ---
@@ -32,9 +31,10 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   > [!IMPORTANT]
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
 
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## ![teams-logo-30x30.png](../images/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
-   > [!NOTE]
-   > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 
@@ -57,8 +57,11 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
  
 6. Click **Apply**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using Skype for Business admin center
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     
@@ -68,13 +71,13 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+  - When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
     
-  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     
-  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
   
-  - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
+   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
     
 3. After you make your changes, click **Save**.
     

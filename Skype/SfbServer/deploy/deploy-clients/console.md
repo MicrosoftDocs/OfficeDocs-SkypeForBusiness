@@ -7,8 +7,9 @@ ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: Strat_SB_Admin
+ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: "This article describes how to set up the Skype Room Systems v2 console device and its peripherals."
 ---
@@ -159,7 +160,7 @@ The Skype Room Systems v2 device needs to trust the certificates used by the Sky
 
 1. Download the CA certificate to your computer and save it to "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
     
-2. Place the Surface 4 in admin mode (see [Admin mode and device management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+2. Place the Surface 4 in admin mode (see [Admin mode and device management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 3. Run the following command:
     
@@ -170,11 +171,11 @@ The Skype Room Systems v2 device needs to trust the certificates used by the Sky
 ### Join an Active Directory Domain (Optional)
 <a name="Certs"> </a>
 
-You can join Skype Room Systems v2 devices to your domain. Skype Room Systems v2 devices should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Skype Room Systems v2. A common example are password enforcement policies that will prevent Skype Room Systems v2 from starting up automatically. For information about the management of GPO settings, please refer to [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md). 
+You can join Skype Room Systems v2 devices to your domain. Skype Room Systems v2 devices should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Skype Room Systems v2. A common example are password enforcement policies that will prevent Skype Room Systems v2 from starting up automatically. For information about the management of GPO settings, please refer to [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md). 
   
 ### To join Skype Room System v2 to a domain
 
-1. Sign into the console from the admin account (see [Admin mode and device management](../../manage/skype-room-systems-v2/skype-room-systems-v2.md#AdminMode)).
+1. Sign into the console from the admin account (see [Admin mode and device management](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
 2. Launch elevated Powershell command prompt.
     

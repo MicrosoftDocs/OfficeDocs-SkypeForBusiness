@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-- Strat_SB_PSTN
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business."
 ---
 # Assign Microsoft as the audio conferencing provider
@@ -30,7 +29,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## Assign Microsoft as the audio conferencing provider
 
-### Using the Skype for Business admin center
+### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
 1. Go to the **Office 365 admin center** > **Skype for Business**.
     
@@ -44,6 +43,9 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
     > Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.
   
 5. Click **Save**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ### Using a Windows PowerShell script for a small number of users
 
@@ -67,7 +69,7 @@ You can save the following script as a PowerShell script file and then run it us
    
   ```
 Script.ps1 -UserList <List of users>
-./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.

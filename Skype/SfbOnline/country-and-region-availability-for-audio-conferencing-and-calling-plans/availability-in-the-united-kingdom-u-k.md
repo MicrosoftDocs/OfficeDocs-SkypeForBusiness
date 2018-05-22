@@ -34,7 +34,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |**Feature**|**Details**|
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
-|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for London. If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li> London</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
    
 ## Phone System
@@ -47,18 +47,19 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Voicemail  <br/> |Available  <br/> |
    
 ## Calling Plans
-
+    
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans  <br/> |1200 domestic minutes or 600 international minutes (whichever is reached first per calendar month).  <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>3000 minute Domestic Calling Plan </li></li><li>600 minute for Domestic and International Calling Plans</li></li> 
+|Can make outbound calls to premium numbers? <br/> | Partially supported: Calls to shared cost numbers (prefixes 44843, 44844, 44845, 44870, 44871, 44872) are supported.  Calls to 449XX prefixes are not supported. <br/> |
+|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## Toll and toll-free numbers for services
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Birmingham <br/>  Bolton <br/>  Bournemouth <br/>  Bradford <br/>  Brighton <br/>  Bristol <br/>  Coventry <br/>  Hull <br/>  Leeds <br/>  Leicester <br/>  Liverpool <br/>  London <br/>  Manchester <br/>  Newcastle <br/>  Nottingham <br/>  Plymouth <br/>  Sheffield <br/>  Stoke-on-Trent <br/>  Teesside (Middlesbrough) <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Hull <li>  Leeds <li>  Leicester <li>  Liverpool <li>  London <li>  Manchester <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough) </ul> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Upgrade journey and coexistence of Skype for Business and Microsoft Teams
+title: Understand coexistence and upgrade journey for Skype for Business and Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
@@ -8,11 +8,12 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Details of Skype for Business and Microsoft Teams coexistence options and modes, and upgrade journeys to Teams from Skype for Business with example scenarios.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
-# Understand coexistence and upgrade modes for Skype for Business and Teams
+# Understand coexistence and upgrade journey for Skype for Business and Teams
 
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there is some overlapping functionality between the two apps, we recommend that you review the available upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams.
 

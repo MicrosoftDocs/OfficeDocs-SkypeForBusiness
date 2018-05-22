@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
