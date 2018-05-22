@@ -33,7 +33,7 @@ description: "Skype for Business to Teams upgrade journey."
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/Teams-overview.png" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends with laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change." />
+                            <img src="../media/Teams-overview-upgrade.png" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends with laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change." />
                         </div>
                     </div>
                 </div>
