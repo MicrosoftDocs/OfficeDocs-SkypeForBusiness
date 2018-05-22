@@ -95,13 +95,13 @@ After you enable external communication for your entire business, you can turn i
     
 3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
     
-    ![Choose Skype for Business](../skype/sfbonline/images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Choose Skype for Business](media/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. In the **Skype for Business admin center**, choose **External communications**.
     
     On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.
     
-    ![Choose External contacts](../skype/SfbOnline/images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![Choose External contacts](media/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. Choose **Save**.
     
@@ -113,9 +113,10 @@ After you enable external communication for your entire business, you can turn i
 ## Related topics
 <a name="bk_preview"> </a>
 
-[Set up Skype for Business Online](../skype/sfbonline/set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Set up Skype for Business Online](../Skype/SfbOnline/set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
   
-[Let Skype for Business users add Skype contacts](../skype/sfbonline/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
+[Let Skype for Business users add Skype contacts](../Skype/SfbOnline/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
   
   
  
