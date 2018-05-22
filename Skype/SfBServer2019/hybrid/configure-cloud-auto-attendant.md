@@ -16,11 +16,13 @@ description: "Instructions for implementing a cloud-based auto attendant for voi
 
 # Configure cloud auto attendant
 
+In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
+## Server Configuration
 
 
-<Intro text. What is this article about?>
+## Online Configuration
 
-
-
+[Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 
