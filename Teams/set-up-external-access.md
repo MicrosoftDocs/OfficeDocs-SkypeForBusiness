@@ -14,7 +14,7 @@ localization_priority: Normal
 description: "See how to configure Teams to let users talk to users in another organization, or let outside contacts talk to them. "
 ---
 
-# Allow users to contact external Skype for Business users
+# Allow users to contact external Teams users
 
 <<I don't know if this note applies to Teams.>>
 > [!NOTE]
