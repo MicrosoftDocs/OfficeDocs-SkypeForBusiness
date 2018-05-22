@@ -16,7 +16,7 @@ description: "See how to configure Teams to let users talk to users in another o
 
 # Allow users to contact external Skype for Business users
 
-<<I don't know if this applies to Teams.>>
+<<I don't know if this note applies to Teams.>>
 > [!NOTE]
 > Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
   
@@ -53,7 +53,7 @@ To test your setup, you need a contact on Teams who's not behind your company fi
   
 1. After you change your external communications settings, **WAIT UP TO 24 HOURS TO TEST**.
     
-2. Search for your contact in Skype for Business, and send a request to chat.
+2. Search for your contact in Teams, and send a request to chat.
     
     If you get a message that it couldn't be sent due to company policy, you need to double-check your [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
     
@@ -72,7 +72,7 @@ After you enable external communication with other Teams users, your users can f
 ## Tips on setting up communications with federated businesses
 <a name="bk_preview"> </a>
 
-<<Not sure if this section applies.>>
+<<Does this section apply? Are there other links we should include?>>
 
 - To configure federation between Skype for Business 2015 and Skype for Business Online, see this TechNet article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
