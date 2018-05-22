@@ -15,10 +15,6 @@ description: "See how to configure Teams to let users talk to users in another o
 ---
 
 # Allow users to contact external Teams users
-
-<<I don't know if this note applies to Teams.>>
-> [!NOTE]
-> Skype for Business federation isn't available to Office 365 operated by 21Vianet and Office 365 Germany organizations. 
   
 Use the steps in this article when:
   
@@ -31,8 +27,9 @@ Use the steps in this article when:
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>
 
-You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png)**Using the Microsoft Teams and Skype for Business Admin Center**.
 1. In the left navigation, go to **Org-wide settings** > **External access**. 
 
 2. At the top of the **External access** page, turn on **External access**. 
@@ -51,7 +48,7 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
   
 To test your setup, you need a contact on Teams who's not behind your company firewall.
   
-1. After you change your external communications settings, **WAIT UP TO 24 HOURS TO TEST**.
+1. After you change your External Access settings, **WAIT UP TO 24 HOURS TO TEST**.
     
 2. Search for your contact in Teams, and send a request to chat.
     
@@ -64,52 +61,16 @@ To test your setup, you need a contact on Teams who's not behind your company fi
 ## How to find others, and be found, when connecting with another business
 <a name="bk_preview"> </a>
 
-<<I don't know if the federated part applies to Teams.>>
-
-After you enable external communication with other Teams users, your users can find federated Teams users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
+After you enable External Access with other Teams users, your users can find federated Teams users by searching for their sign-in name: for example, Rob@contoso.com. Then they will need to add the person to their list of contacts.
   
   
 ## Tips on setting up communications with federated businesses
 <a name="bk_preview"> </a>
-
-<<Does this section apply? Are there other links we should include?>>
-
-- To configure federation between Skype for Business 2015 and Skype for Business Online, see this TechNet article: [Configure federation with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- To configure federation between Lync and Skype for Business Online, see this TechNet article: [Configuring Federation Support for a Lync Online Customer](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- When two Teams users with Office 365 domains are communicating with each other on separate domains, they can only use Teams features (for example, video conversations or desktop sharing) that are turned on in both organizations.
     
-- When two Skype for Business users in Office 365 are communicating with each other on separate domains, they can only use Skype for Business features (for example, video conversations or desktop sharing) that are turned on in both organizations.
-    
-- If a Skype for Business user in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
-    
-## Turn off external communication for specific individuals
-<a name="bk_preview"> </a>
-
-<<Does this procedure stay the same? >>
-
-After you enable external communication for your entire business, you can turn it off for only specific individuals.
+- If Teams users in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
   
-1. Sign in with your Office 365 admin account.
-    
-2. In the Office 365 admin center, go to **Users** > **Active users**.
-    
-3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
-    
-    ![Choose Skype for Business](media/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
-  
-4. In the **Skype for Business admin center**, choose **External communications**.
-    
-    On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.
-    
-    ![Choose External contacts](media/4e546321-a065-48ed-8ac7-1e112a780eab.png)
-  
-5. Choose **Save**.
-    
-> [!NOTE]
-> You may have to wait up to 24 hours for your changes to take effect. 
-  
-  
-   
 ## Related topics
 <a name="bk_preview"> </a>
 
