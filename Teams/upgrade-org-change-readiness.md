@@ -13,7 +13,13 @@ appliesto:
 - Microsoft Teams
 ---
 
-![User Readiness](media/upgrade-banner-tech-readiness.png "Pretend this illustrates User Readiness")
+![User Readiness](media/upgrade-banner-tech-readiness.png "User Readiness")
+
+This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm you have completed the following activities:
+
+-   [Confirmed your project team and project scope](upgrade-plan-journey.md)
+-   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
 
 # Assess organizational change readiness
 
