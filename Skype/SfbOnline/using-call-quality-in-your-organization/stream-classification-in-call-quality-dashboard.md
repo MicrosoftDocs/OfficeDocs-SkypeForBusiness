@@ -1,5 +1,5 @@
 ---
-title: "Setting up Call Quality Dashboard (CQD) using VBSS classifiers"
+title: "Stream Classification in Call Quality Dashboard"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "This topic <need intro>..........."
+description: "Learn how stream quality is classified in the Call Quality Dashboard for Microsoft Teams and Skype for Business Online."
 ---
 
-# Setting up Call Quality Dashboard (CQD) using VBSS classifiers
+# Stream Classification in Call Quality Dashboard
 
-## What are VBSS classifiers?
+## Classifier Definitions
 
 
 ## How can they be used?
@@ -31,4 +31,5 @@ description: "This topic <need intro>..........."
 
 ## Related Topics
 [Turning on and using Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
