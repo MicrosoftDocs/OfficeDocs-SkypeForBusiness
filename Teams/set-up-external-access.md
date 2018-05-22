@@ -71,13 +71,5 @@ After you enable External Access with other Teams users, your users can find fed
     
 - If Teams users in your organization is put on an In-Place or Litigation Hold, any IM conversations between that user and other Skype for Business or Skype users will be saved in **Recoverable Items** in their mailbox. These conversations aren't saved in the **Conversations History** folder in their mailbox.
   
-## Related topics
 <a name="bk_preview"> </a>
-
-[Set up Skype for Business Online](../Skype/SfbOnline/set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-
-  
-[Let Skype for Business users add Skype contacts](../Skype/SfbOnline/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
-  
-  
  
