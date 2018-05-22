@@ -22,13 +22,13 @@ See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an o
  <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
 ### Prerequisites
-The following configurations need to happen before the Cloud Voicemail feature can be configured:
-- [Deploy Enterprise Voice in Skype for Business Server 2015](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)
-- [Deploy Edge Server in Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md)
+The following configurations need be in place before the Cloud Voicemail feature can be configured for a user homed onprem:
+- [Deploy Enterprise Voice in Skype for Business Server 2015](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) **Required or optional?**
+- [Deploy Edge Server in Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md) 
 - [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
 - [Integrate Skype for Business Server with Exchange Server](../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md) or <BR> [Configure integration between on-premises Skype for Business Server 2015 and Exchange Online Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md) 
 
-**(We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area? Both refer to integration with Exchange UM, is that different in any way from integrating with Exchange without UM?) <br> We don't know the line between integration with and without UM.**
+**(That article's title is really confusing. We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area?**
 
 ## Configure Azure Cloud voicemail as the Hosting Provider on the edge server 
 
@@ -55,8 +55,11 @@ To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must
 The cmdlet verifies that no hosted voice mail policy (global, site-level or per-user) applies to this user. If a policy does apply, the cmdlet fails.
 
 **QUESTIONS:**
-- Verify: are we still using the HostedVoiceMail parameter for Set-CsUser , or is there a new parameter not yet public?<br> 
-- If the user is already on hosted exchange UM is this part needed?<br> 
-- What about migrating users from hosted EXCH UM to Cloud VM?<br> 
-- This approach is one at a time.  Is there a bulk mechanism?<br> 
-- It would make sense if there was another command in which we defined who or where the Host is, if not Exchange UM than the new Cloud voicemail provider. Is there something like this?
+- Verify: are we  using the HostedVoiceMail parameter for Set-CsUser to set the host, or is there a new parameter not yet public?<br> 
+- What differences are there when migrating users from hosted EXCH UM to Cloud VM?<br> 
+- This approach is one at a time.  Is there a bulk mechanism to set users at a site or global level? Like piping get and set commands as shown: 
+```
+Get-CsUser -filter {HostedVoiceMail -eq $null} | Set-CsUser -HostedVoiceMail $true
+Get-CsUser -filter {HostedVoiceMail -eq $false} | Set-CsUser -HostedVoiceMail $true
+```
+- What needs to be configured on the Exchange online side? Either straight integration with on-prem, Azure hosted VM, or Exch UM?
