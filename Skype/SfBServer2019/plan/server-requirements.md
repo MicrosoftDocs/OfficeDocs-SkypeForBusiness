@@ -48,7 +48,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, Video Inter
   
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.  <br/> |
+|CPU  <br/> |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
 |Memory  <br/> |16 gigabytes.  <br/> |
 |Disk  <br/> |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.  <br/> |
 |Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
@@ -65,16 +65,16 @@ Once you have the hardware in place, you'll need to install operating systems (O
    
 If it's not on this list, it won't work properly, please don't try it for new installs of Skype for Business Server 2019.
   
-## Back end databases that will work with Skype for Business Server 2015
+## Back end databases that will work with Skype for Business Server 2019
 <a name="DBs"> </a>
 
-When installing Skype for Business Server 2019 Standard Edition, you'll have SQL Server 2016 Express (64-bit edition) is automatically installed as well.
+When installing Skype for Business Server 2019 Standard Edition, you'll have SQL Server 2016 Express (64-bit edition) with SP1 is automatically installed as well.
   
 Skype for Business Server 2019 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2015/2016 Enterprise (64-bit edition), and you must run with the latest updates.  <br/> ||
+|Microsoft SQL Server 2016/2017 Enterprise (64-bit edition), and you must run with the latest updates, and with AlwaysOn availability groups.  <br/> ||
  |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
@@ -82,9 +82,9 @@ If you don't see the SQL Server edition you want to use listed here, you can't u
 > [!NOTE]
 > You're also going to need to install SQL Server Reporting Services for the Monitoring Server role. 
   
-### SQL Mirroring, SQL Clustering, and SQL Always On
+### SQL Clustering, and SQL Always On
 
-You are able to use SQL Mirroring or SQL Clustering with Skype for Business Server 2019, it's supported. SQL Mirroring's set up through the Skype for Business Server Topology Builder. If you're intent on setting up SQL Clustering, that's done in SQL Server.
+You are able to use SQL Clustering with Skype for Business Server 2019, it's supported. If you're intent on setting up SQL Clustering, that's done in SQL Server.
   
 Make sure you have an active/passive configuration for SQL Clustering, as that's what's supported. Don't share the passive node with any other SQL instance.
   
@@ -92,16 +92,15 @@ You can have the following for failover clustering:
   
 Two-node:
   
-- Microsoft SQL Server 2015/2016 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016/2017 Standard (64-bit edition), and we recommend running with the latest service pack.
     
 Sixteen-node:
   
-- Microsoft SQL Server 2015/2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016/2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
     
-If you need to read up more on SQL Mirroring, we have a Back End Server high availability in the Skype for Business Server 2019 topic. Configure SQL Server clustering for Skype for Business Server 2019 has the steps for getting clustering ready.
-  
-> [!NOTE]
-> New to this release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
+Configure SQL Server clustering for Skype for Business Server 2019 has the steps for getting clustering ready.
+ 
+SQL Always On is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
   
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
@@ -123,7 +122,7 @@ There are some things you're going to need to install or configure for any serve
 |**Software/Role**|**Details**|
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> We should also note Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select that on the list.  <br/> |
-|Windows Media Format Runtime  <br/> | For Windows Server 2016, Windows Server 2012, and Windows Server 2012 R2, you'll need to install the **Media Foundation** feature in **Server Manager**. Now, you actually can start your Skype for Business Server 2015 installation without this one, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. Better to do it ahead of time. <br/> |
+|Windows Media Format Runtime  <br/> | For Windows Server 2016, Windows Server 2012, and Windows Server 2012 R2, you'll need to install the **Media Foundation** feature in **Server Manager**. Now, you actually can start your Skype for Business Server 2019 installation without this one, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. Better to do it ahead of time. <br/> |
 |Silverlight  <br/> |You can install the latest version of Silverlight at [this link](https://www.microsoft.com/silverlight/).  <br/> |
    
 To help you out, here's a sample PowerShell script you can run to automate this:
