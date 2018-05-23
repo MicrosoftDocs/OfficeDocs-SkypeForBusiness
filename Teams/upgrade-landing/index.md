@@ -37,7 +37,7 @@ Select one of the options below or explore both to determine the optimal path fo
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams."></a><br><p>Upgrade Essentials is designed for smaller customers or those with simple deployments (for example, IM only), who can quickly and easily move all their users to Teams at once.</p>
+                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams."></a><p>Upgrade Essentials is designed for smaller customers or those with simple deployments (for example, IM only), who can quickly and easily move all their users to Teams at once.</p>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ Select one of the options below or explore both to determine the optimal path fo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                             <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach."></a><br><p>Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach.</p>
+                             <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach."></a><p>Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach.</p>
                         </div>
                     </div>
                 </div>
