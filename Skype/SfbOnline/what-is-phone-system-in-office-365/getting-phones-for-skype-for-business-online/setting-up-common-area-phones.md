@@ -110,7 +110,7 @@ The phone or phones you have must have the Common Area Phone mode turned on. You
     2. Then go to **Setting**  and in the **Skype for Business Setting** option, select **Common Area Phone**.
     3. Click **Yes** to save your settings.
 
-- Now that the CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
+- Now that CAP mode is enabled, set up the phone using the phone's display. The display should show **CaAP is enabled**. Then do the following:
 
     1. Click **Settings**.
     2. Select **Advanced**.
