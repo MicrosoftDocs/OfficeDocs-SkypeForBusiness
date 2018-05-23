@@ -12,34 +12,12 @@ localization_priority: Normal
 description: "Skype for Business to Teams upgrade journey."
 ---
 
-<h2>Skype for Business to Microsoft Teams <br>upgrade journey </h2>
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p>Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.</p>
-                        <p>Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/Teams-overview-upgrade.png" alt="Project stakeholders form a coalition to define the scope and goals of the project, ensuring that plans focus on both technical and user readiness. The process continues through deployment and implementation, and ends with laying the groundwork for monitoring quality, growing user adoption, and iteratively managing change." />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+## Skype for Business to Microsoft Teams <br>upgrade journey
+
+
+Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.
+
+Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
 
 ### Upgrade journey framework
 
