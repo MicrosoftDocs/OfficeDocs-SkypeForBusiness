@@ -39,7 +39,6 @@
 ### [Add or remove an emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Block incoming calls](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Calling Plans known issues](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Change the emergency address for a user](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -150,7 +149,6 @@
 ### [Set up Skype for Business Call Analytics](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Turning on and using Call Quality Dashboard](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Use Call Analytics to troubleshoot poor call quality](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Skype for Business Online reporting](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Activity report](../skype-for-business-online-reporting/activity-report.md)
