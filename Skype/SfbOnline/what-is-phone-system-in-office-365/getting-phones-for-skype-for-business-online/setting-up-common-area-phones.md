@@ -29,7 +29,7 @@ The first thing you need to do is to confirm that you have the following:
 
  - Purchase Common Area Phone license and a Calling Plan.
  - Search for and buy approved phones (view the list [here](deploying-skype-for-business-online-phones.md)).         
- - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md).  You can check the firmware on you phone by doing this:       
+ - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:       
     - **Polycom VVX phones**: Go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
     - **Yealink phones**: Go to **Status** on the main phone screen.
     - **AudioCodes phones**: Go to **Menu** > **Device Status** > **Firmware version** from the start screen. 
@@ -42,9 +42,7 @@ The first thing you need to do is to confirm that you have the following:
 ## Setting up a Common Area Phone
 You will need to follow these steps:
 
-### Set up your user account for the phone
-
-#### Step 1 - Buy the licenses
+### Step 1 - Buy the licenses
 1. In the Office 365 admin center, go to **Billing** > **Purchase services**, and add **Other plans**.
 
     ![CAP-license.png](../../images/cap-license.png)
@@ -56,7 +54,7 @@ You will need to follow these steps:
 
 For more info on licenses, see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-#### Step 2 - Create a new user account for the phone and assign the licenses
+### Step 2 - Create a new user account for the phone and assign the licenses
 1. In the Office 365 admin center, go to **Users** > **Active Users** > **Add a user**.
 2. Put in a **User name** like “Main" for the first name and "Reception” for the second name.
 3. Put in a **Display name** if it doesn't autogenerate one like "Main Reception".
@@ -79,8 +77,10 @@ For more info on licenses, see [Skype for Business and Microsoft Teams add-on li
 
 For more details, see [Add a user](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
 
-#### Step 3 - Assign a phone number to the user
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+### Step 3 - Assign a phone number to the Common Area Phone user account
+
+[sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Assign a phone number to the user using the **Skype for Business admin center**
+
 1. In the Office 365 admin center > **Admin centers** > **Skype for Business**.
 2. In the **Skype for Business admin center** >  **Voice** > **Phone numbers**.
 3. Select a number from the list of phone numbers and click **Assign**.
@@ -97,11 +97,11 @@ For more stuff, see [Getting phone numbers for your users](../../what-are-callin
 
 If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Office 365. See, [Transfer phone numbers to Office 365](../../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
 
-## Step 4 - Setting up your phone
+### Step 4 - Setting up your phone
 
 **Setting the mode on a phone**
 
-The phone or phones you have must have the Common Area Phone mode turned on. You might want to check on that to make sure they do. 
+The phone or phones you have must have the **Common Area Phone mode** turned on. You might want to check on that to make sure they do. 
 
 **Here's an example for how to set up a Polycom VVX phone**
 
@@ -127,7 +127,7 @@ The phone or phones you have must have the Common Area Phone mode turned on. You
     4. Enter the display name (for example, Main Reception).
 
        > [!Note]
-       > If **Search for Common Area Phones only** is checked, clear the checkbox and search again.`
+       > If **Search for Common Area Phones only** is checked, clear the checkbox and search again.
 
     5. In the pairing code window, enter the code displayed on the phone and click **Provision**.
 
