@@ -390,8 +390,6 @@ Use the information from the previous sections of this article to document your 
 
 -   Voicemail configuration details
 
--   Conference bridge settings assignments
-
 -   Caller ID masking configuration details
 
 -   Tenant dial plans
