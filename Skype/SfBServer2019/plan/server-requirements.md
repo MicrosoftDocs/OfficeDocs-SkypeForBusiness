@@ -3,7 +3,6 @@ title: "Server requirements for Skype for Business Server 2019"
 ms.author: serdars
 author: serdars
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -35,20 +34,30 @@ As you might expect, there are some preparations to make before you begin deploy
 
 Now that you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers will require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
   
-Recommended hardware for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers:
+Recommended hardware for Standard Edition servers:
+
+|**Hardware component**|**Recommended**|
+|:-----|:-----|
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|Memory  <br/> |32 gigabytes (GB).  <br/> |
+|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
+|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out of band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+
+
+Recommended hardware for Front End Servers and Back End Servers:
   
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
-|Memory  <br/> |32 gigabytes (GB).  <br/> |
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|Memory  <br/> |64 gigabytes (GB).  <br/> |
 |Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
 |Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out of band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
    
-Recommended hardware for Edge Servers, standalone Mediation Servers, Video Interop Servers, and Directors:
+Recommended hardware for Edge Servers, standalone Mediation Servers, ???Video Interop Servers???, and Directors:
   
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
 |Memory  <br/> |16 gigabytes.  <br/> |
 |Disk  <br/> |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.  <br/> |
 |Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
@@ -185,9 +194,6 @@ And we have some PowerShell code below for this too:
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 
- **Persistent Chat Servers also need:**
-  
-Message Queuing, which is also called MSMQ. It's a Windows Server component, and you can install it under the Features section in Server Manager. If you want to read more about this, check out [Installing and Managing Message Queuing](https://technet.microsoft.com/en-us/library/cc771474.aspx).
   
  **Last thoughts:**
   
