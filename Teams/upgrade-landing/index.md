@@ -12,14 +12,14 @@ localization_priority: Normal
 description: "Skype for Business to Teams upgrade journey."
 ---
 
-## Skype for Business to Microsoft Teams <br>upgrade journey
+# Skype for Business to Microsoft Teams upgrade journey
 
 
 Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.
 
 Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
 
-### Upgrade journey framework
+## Upgrade journey framework
 
 To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order. As illustrated below, a successful project begins by bringing the right project team together and solidifying the scope, goals, and timeline. This helps create a solid foundation for your project. From there, it’s critical to prepare for both technical _and_ user readiness before moving on to the implementation phase. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit, establish an operational plan that monitors for quality and accelerates user adoption.
 
@@ -27,7 +27,7 @@ To help take the guesswork out of your upgrade journey, we’ve employed a prove
 
 We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
-### To get started...
+## To get started...
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to share your feedback.
 
