@@ -274,7 +274,7 @@ specific SBCs by using Direct Routing.
 
 > [!TIP]
 > SBCs can be designated as *active* and *backup*. That means when the SBC that’s
-> configured as active for this number pattern—or number pattern + specific
+> configured as active for this number pattern — or number pattern + specific
 > user—isn’t available, the calls will be routed to a backup SBC.
 
 |         |         |         |
