@@ -71,13 +71,13 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-    When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+  - When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
     
-  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     
-  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
   
-  - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
+   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear the check box, callers won't be asked to record their name before they join a meeting.
     
 3. After you make your changes, click **Save**.
     

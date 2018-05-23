@@ -295,9 +295,9 @@ In addition to the port requirements for internal communication, you must also c
 |SIP (MTLS)  <br/> |TCP  <br/> |Access Edge  <br/> |Office 365  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Access Edge  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
 |STUN  <br/> |TCP  <br/> |A/V Edge  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |Open for audio, video, application sharing sessions  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V Edge  <br/> |any  <br/> |443  <br/> |Open for audio, video, application sharing sessions  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V Edge  <br/> |50000-59999  <br/> |443  <br/> |Open for audio, video, application sharing sessions  <br/> |
 |STUN  <br/> |UDP  <br/> |A/V Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |any  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
+|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
    
 For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   
