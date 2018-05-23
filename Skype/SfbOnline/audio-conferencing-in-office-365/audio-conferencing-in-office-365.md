@@ -42,9 +42,9 @@ For pricing info, see [Pricing for Audio Conferencing](https://products.office.c
 ## Where is it available?
 With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
 
-Toll-free phone numbers (service numbers) are available, but only in some countries/regions. To see what is available in your country or region, go [here](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Toll-free phone numbers (service numbers) are available, but only in some countries/regions. To see what is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-After you have decided you want Audio Conferencing for your organization, you need to buy 1 **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
+After you have decided you want Audio Conferencing for your organization, you need to buy one **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
 
 ## How do conferencing bridges work?
 When you are setting up Audio Conferencing for Skype for Business or Microsoft Teams, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set will be included on the meeting invites for Skype for Business and Microsoft Teams apps. You can [change the phone numbers on your conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md), and you can also [change other audio conferencing bridge settings](change-the-settings-for-an-audio-conferencing-bridge.md). 
@@ -83,7 +83,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information.
 
 ## How do you set it up?
-After you have decided to set up Audio Conferencing for your users, you can follow the steps [here](set-up-audio-conferencing.md) to do so.
+After you have decided to set up Audio Conferencing for your users, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md) for steps you can follow to do so.
 
 ## Related topics
 

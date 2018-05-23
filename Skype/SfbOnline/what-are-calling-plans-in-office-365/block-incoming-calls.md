@@ -10,7 +10,11 @@ ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto: 
+<<<<<<< HEAD
 - Skype for Business Online
+=======
+- Skype for Business
+>>>>>>> master
 localization_priority: Normal
 ms.custom: "Use PowerShell to manage inbound call blocking in Skype for Business Online."
 ---
@@ -23,9 +27,10 @@ This inbound call blocking feature only works on inbound calls originating from 
 
 This feature is not yet available for Direct Routing.
 
->[Note]
+>[NOTE]
  Blocked callers may experience slightly different behaviors when they have been blocked. The behavior will be based on how the blocked caller’s carrier handles the notification that the call is not allowed to be successfully completed. Examples may include a carrier message stating the call cannot be completed as dialed, or simply dropping the call.
 
+<<<<<<< HEAD
 ## Call Blocking Admin Controls and Information
 Admin controls for blocking numbers use PowerShell only. 
 - Number block patterns are defined as regular expression patterns. 
@@ -33,6 +38,12 @@ Admin controls for blocking numbers use PowerShell only.
 - A new number or pattern added or removed in the blocked callers list may take up to 24 hours to become active.
 
 ## Call Blocking PowerShell Commands
+=======
+### Call Blocking Admin Controls and Information
+Admin controls for blocking numbers are provided using PowerShell only. Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant – the first pattern matched in the list will result in the call being blocked. A new number or pattern added or removed in the blocked callers list may take up to 24 hours to for the pattern to become active.
+
+### Call Blocking PowerShell Commands
+>>>>>>> master
 
 *InboundBlockedNumberPattern*
 Number patterns are managed via the *CsInboundBlockedNumberPattern* commands **New**, **Get**, **Set**, and **Remove**.  
@@ -76,7 +87,12 @@ If the Identity is not known, use the *Get-CsInb
 undBlockedNumberPattern* cmdlet to first locate the proper pattern and note the Identity. Then, run the *Remove* cmdlet and pass the appropriate Identity value.
 
 Allow for replication time before testing and validating.
+<<<<<<< HEAD
 ##### View all Number Patterns
+=======
+
+#### View all Number Patterns
+>>>>>>> master
 Running this cmdlet will return a list of all entered blocked numbers for a tenant: 
 `Get-CsInboundBlockedNumberPattern`
 
@@ -85,5 +101,9 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 #### A Note on Regex
 As stated earlier, the pattern matching for blocking callers is done by using Regular Expressions (regex). There are multiple tools available online to help validate a regex pattern match. If you are not familiar with regex patterns, we recommend that you take some time to familiarize yourself with the basics and to make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant. 
 
+<<<<<<< HEAD
 #### Related topics
+=======
+### Related topics
+>>>>>>> master
 [Set up your computer for Skype for Business Online management using Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )

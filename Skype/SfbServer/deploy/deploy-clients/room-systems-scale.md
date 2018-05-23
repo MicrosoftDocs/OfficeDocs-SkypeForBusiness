@@ -271,94 +271,93 @@ You create this package to distribute the root certificate for devices that wonâ
 1.  In the **SRS v2 - Set-SRSComputerName Package** folder, create a new HTML application named **Set-SRSComputerName.hta** .
 
 2.  Copy the following script into the **Set-SRSComputerName.hta** file. Alternatively, you can download the Set-SRSComputerName.hta file from [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
-
-```
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Set SRS Computer Name</title>
-<HTA:APPLICATION
-  APPLICATIONNAME="Set SRS Computer Name"
-  ID="SetSRSComputerName"
-  VERSION="1.0"
-  SCROLL="no"
-  SINGLEINSTANCE="yes"
-  WINDOWSTATE="maximize"
-  MaximizeButton="no"
-  MinimizeButton="no"
-  SysMenu="no"
-  ShowInTaskbar="no"
-  Caption="no"
-  />
-<style type="text/css">
-body {
-	background-color: #fdfeff;
-	color: darkblue;
-	font-family: Calibri;
-	font-size: 12pt;
-	margin: 4em 3em;
-}
-</style>
-</head>
-<script language="VBScript">
-Public strNewComputerName
-Sub GenerateComputerName()
-	strComputer = "."
-	Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
-	Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
-	For Each objItem in colItems
-		strSerialNumber = objItem.SerialNumber
-	Next
-	strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
-	TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
-	strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
-	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
-	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
-	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-	TextArea2.innerHTML = strHTMLText	
-End Sub
-
-Sub SetComputerName()
-	dim result
-	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-	If (result = vbYes) then 
-		SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
-		env("OSDComputerName") = strNewComputerName
-		self.close	
-	elseif (result = vbNo) then
-		Window_OnLoad
-	End If
-End Sub
-
-Sub UpdateComputerName()
-	strNewComputerName = newcomputername.value
-	if len(trim(strNewComputerName)) = 0 then
-		MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
-		exit sub
-	end if
-	SetComputerName
-End Sub
-
-Sub ChangeComputerName()
-	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
-	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
-End Sub
-
-Sub Window_OnLoad
-	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
-	oTSProgressUI.CloseProgressDialog
-	GenerateComputerName
-End Sub
-</script>
-
-<body>
-<span id = "TextArea1"></span>
-<span id = "TextArea2">
-</span>
-</body>
-</html>
-
-```
+    ```
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+    <title>Set SRS Computer Name</title>
+    <HTA:APPLICATION
+      APPLICATIONNAME="Set SRS Computer Name"
+      ID="SetSRSComputerName"
+      VERSION="1.0"
+      SCROLL="no"
+      SINGLEINSTANCE="yes"
+      WINDOWSTATE="maximize"
+      MaximizeButton="no"
+      MinimizeButton="no"
+      SysMenu="no"
+      ShowInTaskbar="no"
+      Caption="no"
+      />
+    <style type="text/css">
+    body {
+    	background-color: #fdfeff;
+    	color: darkblue;
+    	font-family: Calibri;
+    	font-size: 12pt;
+    	margin: 4em 3em;
+    }
+    </style>
+    </head>
+    <script language="VBScript">
+    Public strNewComputerName
+    Sub GenerateComputerName()
+    	strComputer = "."
+    	Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+    	Set colItems = objWMIService.ExecQuery("Select * from Win32_BIOS",,48)
+    	For Each objItem in colItems
+    		strSerialNumber = objItem.SerialNumber
+    	Next
+    	strNewComputerName = "SRS-"  & right(replace(strSerialNumber, "-","") ,10)
+    	TextArea1.innerHTML = "The serial number of the device: " & strSerialNumber
+    	strHTMLText = strHTMLText & "<br> Computer name to be assigned: <font color = red>" & strNewComputerName & "</font>"
+    	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
+    	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
+    	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
+    	TextArea2.innerHTML = strHTMLText	
+    End Sub
+    
+    Sub SetComputerName()
+    	dim result
+    	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
+    	If (result = vbYes) then 
+    		SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+    		env("OSDComputerName") = strNewComputerName
+    		self.close	
+    	elseif (result = vbNo) then
+    		Window_OnLoad
+    	End If
+    End Sub
+    
+    Sub UpdateComputerName()
+    	strNewComputerName = newcomputername.value
+    	if len(trim(strNewComputerName)) = 0 then
+    		MsgBox "Computer name cannot be empty." &vbcrlf & "Update and try again.",16
+    		exit sub
+    	end if
+    	SetComputerName
+    End Sub
+    
+    Sub ChangeComputerName()
+    	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
+    	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
+    End Sub
+    
+    Sub Window_OnLoad
+    	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
+    	oTSProgressUI.CloseProgressDialog
+    	GenerateComputerName
+    End Sub
+    </script>
+    
+    <body>
+    <span id = "TextArea1"></span>
+    <span id = "TextArea2">
+    </span>
+    </body>
+    </html>
+    
+    ```
 3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
 4.  Enter the following information to create the package:
@@ -577,7 +576,7 @@ You use task sequences with System Center Configuration Manager to automate the 
 
 You can download and easily import a sample task sequence and customize it to meet your needs.
 
-1.  [**Download**]() the sample task sequence, and copy the downloaded zip file to a
+1.  [**Download**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) the sample task sequence, and copy the downloaded zip file to a
     shared location.
 2.  In the Configuration Manager console, go to **Software Library** \> **Operating Systems** \> **Task Sequences**, and then select **Import Task Sequence**.
 
