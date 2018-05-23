@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: "Summary: Review the port usage considerations before implementing Skype for Business Server 2015."
+description: "Summary: Review the port usage considerations before implementing Skype for Business Server."
 ---
 
 # Port and protocol requirements for servers
  
-**Summary:** Review the port usage considerations before implementing Skype for Business Server 2015.
+**Summary:** Review the port usage considerations before implementing Skype for Business Server.
   
 Skype for Business Server requires that specific ports on the external and internal firewalls be open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   
@@ -80,7 +80,7 @@ The following table lists the ports that need to be open on each internal server
 |Front End Servers where the Central Management store resides  <br/> | Skype for Business Server Master Replicator Agent service <br/> |445  <br/> |TCP  <br/> |Used to push configuration data from the Central Management store to servers running Skype for Business Server.  <br/> |
 |All Servers  <br/> |SQL Browser  <br/> |1434  <br/> |UDP  <br/> |SQL Browser for local replicated copy of Central Management store data in local SQL Server instance  <br/> |
 |All internal servers  <br/> |Various  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Media port range used for audio conferencing on all internal servers. Used by all servers that terminate audio: Front End Servers (for Skype for Business Server Conferencing Attendant service, Skype for Business Server Conferencing Announcement service, and Skype for Business Server Audio/Video Conferencing service), and Mediation Server.  <br/> |
-|Office Web Apps Servers  <br/> ||443  <br/> ||Used by Skype for Business Server 2015 to connect to Office Web Apps Server.  <br/> |
+|Office Web Apps Servers  <br/> ||443  <br/> ||Used by Skype for Business Server to connect to Office Web Apps Server.  <br/> |
 |Directors  <br/> |Skype for Business Server Front-End service  <br/> |5060  <br/> |TCP  <br/> |Optionally used for static routes to trusted services, such as remote call control servers.  <br/> |
 |Directors  <br/> |Skype for Business Server Front-End service  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Inter-server communication between Front End and Director. Additionally, client certificate publish (to Front End Servers) or validate if the client certificate has already been published.  <br/> |
 |Directors  <br/> |Skype for Business Server Web Compatibility service  <br/> |80  <br/> |TCP  <br/> |Used for initial communication from Directors to the web farm FQDNs (the URLs used by IIS web components). In normal operation, will switch to HTTPS traffic, using port 443 and protocol type TCP.  <br/> |
