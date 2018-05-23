@@ -15,9 +15,9 @@ appliesto:
 
 
 
-![User Readiness](media/upgrade-banner-tech-readiness.png "User Readiness")
+![User Readiness](media/upgrade-banner-user-readiness.png "User Readiness")
 
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm you have completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm you have completed the following activities:
 
 -   [Confirmed your project team and project scope](upgrade-plan-journey.md)
 -   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
@@ -37,6 +37,12 @@ An optimal user readiness plan incorporates how you’ll communicate, train, and
 |------------------------------------------------|-------------------------------------------|-------------------------------------|
 | <ul><li>Email<br>**Tip:** Use our sample pilot, coexistence, and upgrade emails to customize your email campaign.</li><li>Posters and digital signage</li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams/channels</li><li>Gamification</li></ul> | <ul><li>Microsoft-published online articles and videos</li><li>Resources:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>In-product assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul> | <ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-service (intranet site)</li><li>[Online help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop (surveys, ratings)</li></ul> |
 
+<div class="mx-tableFixed">
+<table>
+<th><td>What communication channels will you leverage?</td><td>What training channels will you leverage?</td><td>What support channels will you use?</td></th>
+<tr><td><ul><li>Email<br>**Tip:** Use our sample pilot, coexistence, and upgrade emails to customize your email campaign.</li><li>Posters and digital signage</li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams/channels</li><li>Gamification</li></ul></td><td><ul><li>Microsoft-published online articles and videos</li><li>Resources:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>In-product assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-service (intranet site)</li><li>[Online help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop (surveys, ratings)</li></ul></td></tr>
+</table>
+</div>
 
 After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to onboard your users to Teams.
 
