@@ -50,50 +50,7 @@ The table below shows the difference in permissions between an owner and a membe
 Permissions to create teams
 ---------------------------
 
-By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users.
-
-If your organization is interested in doing this, the instructions below outlines the tasks required to do so.
-
-1.  Identify or create a security group (SG) of users who will have delegated permissions to create Office 365 groups.
-
-    a.  **Action:** Set up a security group in Office 365 so you can add your users who can create Office 365 groups.
-
-    b.  For more information, see [Create, edit, or delete a security group in the Office 365 admin center](https://support.office.com/article/Create-edit-or-delete-a-security-group-in-the-Office-365-admin-center-55c96b32-e086-4c9e-948b-a018b44510cb).
-
-2.  Verify that the company-wide control for users to create groups is enabled.
-
-    a.  **Action:** Run the following PowerShell script and verify UsersPermissiontoCreateGroupsEnabled parameter is set to **True.**
-
-    ```
-    Connect-MsolService
-
-    Get-MsolCompanyInformation
-    ```
-
-    b. 	If this is not true, run the Set-MsolCompanySettings  cmdlet **to set it to True**.
-Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
-
-    c. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
-
-3.  Configure Office 365 Group settings to allow only identified security group has permissions to create groups
-
-    a.  **Action:** Create a group settings object that contains the configuration settings of the group that will be assigned delegated permissions to create groups. 
-
-    ```
-    Connect-AzureAD
-
-    $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
-
-    $Setting = $template.CreateDirectorySetting()
-
-    $setting["EnableGroupCreation"] = "true"
-
-    $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
-
-    New-AzureADDirectorySetting -DirectorySetting $settings
-    ```
-
-    b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
+By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Office 365 Groups](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions).
 
 
 ||||
