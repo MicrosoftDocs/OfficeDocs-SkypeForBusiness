@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
 description: Walks you through everything you need to know about the journey to Microsoft Teams from Skype for Business Online.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -30,7 +31,7 @@ For best results, we recommend that you follow this guidance in order:
 
 [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
 
-[3 - Enable Teams side-by-side with Skype for Business](guidance-SkypeforBusiness.md)
+[3 - Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - Drive value through user adoption](continue-journey.md)
 
@@ -41,7 +42,7 @@ For best results, we recommend that you follow this guidance in order:
 
 [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 
-[Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
+[Microsoft Teams Roadmap](https://aka.ms/teamsroadmap)
 
 [Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 

@@ -3,7 +3,6 @@ title: "Set up mobile policies for your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
 ms.tgt.pltfrm: cloud
@@ -141,5 +140,5 @@ If you have already created a policy, you can use the [Set-CsMobilityPolicy](htt
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

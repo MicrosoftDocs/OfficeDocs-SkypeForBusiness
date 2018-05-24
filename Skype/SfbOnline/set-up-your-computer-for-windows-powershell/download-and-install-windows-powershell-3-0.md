@@ -3,7 +3,6 @@ title: "Download and install Windows PowerShell 3.0"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
@@ -146,5 +145,5 @@ If basic authentication has been set to true, then you're ready to use PowerShel
 ## Related topics
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

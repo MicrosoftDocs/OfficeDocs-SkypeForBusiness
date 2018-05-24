@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
@@ -25,6 +26,8 @@ Microsoft Teams brings together the full breadth and depth of Office 365, to pro
 
 Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
 
+Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD. Admins can centrally manage how guests participate within their Office 365 environment and easily view, add, or revoke a guest’s access to the host tenant.
+
 Teams provides a persistent chat capability, calling and meetings, easy access to other components of Office 365 as well as a robust extensibility story.  This provides a hub for teamwork that is appropriate for enterprise companies, small organizations and everyone in between.  
 
 To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.  
@@ -36,11 +39,12 @@ Teams is built on existing Microsoft technologies, woven together by Office 365 
 
 Out of the box, a team created in Teams will create an Office 365 Group, a SharePoint Online site (complete with a document library), and an Exchange Online group mailbox, which will be used by Teams to store information such as meeting invites. A team can be created using existing Office 365 Groups, allowing existing group memberships, and contents stored in SharePoint Online and Exchange Online to be ported to Teams.
 
-To complement the Teams capability as a persistent chat board where informal, real-time conversations take place, Teams also provides a meeting experience built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+To complement the Teams capability as a persistent chat board where informal, real-time conversations take place, Teams also provides a calling and meeting experience built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
 
 Office 365 Groups leverage identities stored in Azure Active Directory (Azure AD) and as such, all authentication and authorization capabilities in Azure AD, such as support for multi-factor authentication (MFA), are readily available for use by Teams.
 
-Teams also provides a calling and meetings experience that is built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+> [!NOTE]
+> Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default. For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. This update will gradually roll out across Outlook and Teams in the coming months.
 
 
 Microsoft Teams and Office 365
@@ -66,7 +70,7 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 -   Helps teams looking to iterate quickly on a project while sharing files and collaborating on shared deliverables.
 
--   Allows Users looking to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
+-   Allows users to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
 
 ![Microsoft Outlook icon.](media/Overview_of_Microsoft_Teams_image2.png)
 
@@ -113,6 +117,6 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 While the Teams Admin FAQ was handy when we first released Teams, it quickly became a "junk drawer" that made it hard to find anything specific. So we busted apart the FAQ and incorporated its valuable information into the Teams documentation that you're looking at right now. You'll find all the information that was in the FAQ in this documentation, in context.
 
-If you're looking for something that you can't find here, please tell us about it in the **Comments** section below. We try to respond to your comments within 24 hours.
+If you're looking for something that you can't find here, please tell us about it in the **Feedback** section below. We try to respond to your feedback within 24 hours.
 
 By the way, we **do** still have an FAQ for the [Journey from Skype for Business to Microsoft Teams](FAQ-journey.md). 

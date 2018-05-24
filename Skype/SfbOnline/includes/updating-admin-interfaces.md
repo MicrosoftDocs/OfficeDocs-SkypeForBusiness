@@ -1,0 +1,1 @@
+We are frequently updating how you can manage features found in Microsoft Teams. Steps might be a little different.

@@ -15,18 +15,18 @@ description: Skype for Business
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="https://technet.microsoft.com/en-us/library/gg293124.aspx">
+                                <a href="/SkypeForBusiness/skype-for-business-online">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_server.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_online.svg" alt="Skype for Business Online" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype for Business Server</h3>
-                                                    <p>Deploy and manage Skype for Business Server for your organization.</p>
+                                                    <h3>Skype for Business Online</h3>
+                                                    <p>Find resources for managing Skype for Business Online in your Office 365 environment.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -34,18 +34,37 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/SkypeForBusiness/skype-for-business-online">
+                                <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_online.svg" alt="" />
+                                                        <img src="/Office/media/hybrid-environment.svg" alt="Hybrid solutions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype for Business Online</h3>
-                                                    <p>Find resources for managing Skype for Business Online in your Office 365 environment.</p>
+                                                    <h3>Hybrid Solutions</h3>
+                                                    <p>Find information on planning a Skype for Business hybrid deployment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/skype-for-business-server-2015">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_server.svg" alt="Skype for Business Server" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype for Business Server</h3>
+                                                    <p>Deploy and manage Skype for Business Server for your organization.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -59,7 +78,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/powershell_reference.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/powershell_reference.svg" alt="PowerShell" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -97,12 +116,31 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/journey_skype_business_teams.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/journey_skype_business_teams.svg" alt="Journey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Journey from Skype for Business to Microsoft Teams</h3>
                                                     <p>Find guidance and tools to explore your optimal path to Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="https://support.office.com/skype-for-business">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="/Office/media/Office-help-support-training.svg" alt="End users" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>End users</h3>
+                                                    <p>Find help, training, and technical support for Skype for Business users on support.office.com.</p>
                                                 </div>
                                             </div>
                                         </div>

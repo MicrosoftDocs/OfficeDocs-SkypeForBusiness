@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lolaj, rowille
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

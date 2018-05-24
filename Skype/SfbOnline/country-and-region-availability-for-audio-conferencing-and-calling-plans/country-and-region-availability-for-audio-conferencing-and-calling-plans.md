@@ -1,10 +1,10 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.date: 02/21/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
@@ -16,13 +16,12 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-- Strat_SB_PSTN
 - LIL_Placement
 description: "You can select a country/region to see if Audio Conferencing, Phone System, Calling Plans, Communications Credits, and whether toll and toll free phone numbers are available or not."
 ---
@@ -120,7 +119,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-02052018)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/country-and-region-availabilty/country-and-region-availability-(v-05042018)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -155,12 +154,12 @@ In Audio Conferencing there is a feature named "*Call Me*" and it can be used to
 Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). For those users, you will need to [set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> During the introductory period, users in all organizations can dial out to when using the Call Me feature or when adding other people to a meeting to any of the following countries/regions at no additional charge, but this is subject to the [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> During the introductory period, users in all organizations can dial out to when using the Call Me feature or when adding other people to a meeting to any of the following countries/regions at no additional charge, but this is subject to the [Audio Conferencing complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### Phone System
 With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
 
-In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. You can find those phone numbers by going [here](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 
@@ -198,5 +197,5 @@ If you don't set up Communications Credits and assign a license to users and you
 ## Related topics
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

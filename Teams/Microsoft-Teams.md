@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams documentation and practical guidance
 description: Microsoft Teams documentation and practical guidance
+ms.topic: hub-page
 ---
 <div id="main" class="v2">
     <div class="container">

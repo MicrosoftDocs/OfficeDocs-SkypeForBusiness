@@ -3,7 +3,6 @@ title: "Outbound calling restriction policies for Audio Conferencing and user PS
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 2/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -12,10 +11,9 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
 ---
@@ -35,19 +33,36 @@ Outbound call controls can be applied on a per-user basis and provide the follow
    > A call is determined to be domestic if the called phone number is in the same country as the country that has been set in Office 365 for the organizer of the meeting (in the case of audio conferencing) or the end user (in the case of end user PSTN calls). 
 
 
-## Restrict audio conferencing outbound calls using the Skype for Business admin center 
+## Restrict audio conferencing outbound calls 
 
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
-1.	Go to the **Office 365 admin center** > **Skype for Business**.
-2.	In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
-3.	In the Action pane, click **Edit**.
-4.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
+
+4. In the **Conference bridge provider** pane, under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+
+5. Click **Apply**. 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
+
+2.	In the Action pane, click **Edit**.
+
+3.	Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
     ![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
 
-## Restrict audio conferencing and end user outbound calls using PowerShell
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+**Using PowerShell**
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
@@ -66,6 +81,3 @@ The following table provides an overview of each policy.
 |    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    User in the conference can only dial out to   domestic numbers, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    User in the conference cannot make any dial   out, and this user can only make outbound call to domestic PSTN numbers.    |
 |    Identity='tag:DialoutCPCandPSTNDisabled'    |    User in the conference cannot make any dial   out, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

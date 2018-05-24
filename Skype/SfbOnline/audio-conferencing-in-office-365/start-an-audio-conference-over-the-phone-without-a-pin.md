@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
 ms.tgt.pltfrm: cloud
@@ -16,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. "
 ---
@@ -34,19 +32,32 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## Enable or disable anonymous callers from joining a meeting
 
-1. Sign in to Office 365 with your work or school account.
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**. 
+
+2. Select a user in the list, and then click **Edit** at the top of the page. 
+
+3. Click the menu next to **Conference Bridges**, and then click **Edit**.
+
+4. In the **Conference bridge provider** pane, enable or disable **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+4. Click **Apply**. 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
-3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**. 
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**. 
     
-4. In the list, select the user and in the Action pane click **Edit**. 
+2. In the list, select the user and in the Action pane click **Edit**. 
     
-5. On the user's properties page, under **Meeting options**, select or clear **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
+3. On the user's properties page, under **Meeting options**, select or clear **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
     
-6. Click **Save**. 
+4. Click **Save**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
- **To enable or disable anonymous callers to all of your user's meetings using Windows Powershell**
+ **Using Windows Powershell**
   
 - Run the following: 
     
@@ -56,7 +67,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## What else should you know?
 
-- If you want to reset the PIN, see [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md).
+- If you want to reset the PIN, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
     
 - If anonymous access, or not requiring a PIN to start a meeting, is enabled:
     
@@ -93,7 +104,4 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## Related topics
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](set-up-audio-conferencing.md)
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

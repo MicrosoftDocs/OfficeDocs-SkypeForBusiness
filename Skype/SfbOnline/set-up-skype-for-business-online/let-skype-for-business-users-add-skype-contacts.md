@@ -3,7 +3,6 @@ title: "Let Skype for Business users add Skype contacts"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/23/2018
 ms.topic: article
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
 ms.tgt.pltfrm: cloud
@@ -98,5 +97,5 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
   
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
