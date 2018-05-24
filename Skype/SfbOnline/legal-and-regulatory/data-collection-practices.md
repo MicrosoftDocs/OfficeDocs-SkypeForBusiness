@@ -73,8 +73,9 @@ Usage data collection is on by default, but on-premises admins can turn it off u
 End users cannot turn usage data collection on or off.
   
 For Skype Meetings App and the join launcher web pages, the way to control telemetry is through this policy:
-  
-Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
+ 
+`Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
+
   
 This policy defaults to false, so telemetry collection is off by default. This setting is per-pool and controls all users who connect with Skype Meetings App to a meeting hosted on that server.
   
@@ -95,9 +96,9 @@ Error reporting requires two things:
   
 - The DisableAutomaticSendTracing Group Policy setting be set to False on the server or in the tenant admin center (this is the default state). See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) for more information.
     
-- End users individually opt in from the General tab (click the gear icon and the Option dialog opens with the General tab displayed) in the Skype for Business client.
+- End users individually opt in from the General tab (click the gear icon ![Gear icon](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) and then the **Options** dialog opens with the **General** tab displayed) in the Skype for Business client.
     
-     ![Gear icon](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+ 
   
 ![Skype for Business data collection checkbox in the Options > General dialog](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
