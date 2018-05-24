@@ -54,13 +54,13 @@ for a list of these countries.
 
 After confirming that your organization can obtain the Phone System feature,
 compile the list of user locations or offices where you’ll be implementing Phone
-System, based on the list of available countries and regions. Also include the
-Phone System service you’ll implement for each location you have.
+System, based on the list of available countries and regions. Also identify the users 
+who you are going to enable Calling Plans or Direct Routing for each location you have.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Identify the user locations or offices in which you’ll implement Phone System.<li>Decide which Phone System service you’ll implement for each location you have.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices to be enabled for Phone System.<li>Document which Phone System service to be implemented for each location you have.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Identify the user locations or offices in which you’ll implement Phone System.<li>Identify the users who you are going to enable Calling Plans or Direct Routing for each location you have.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the user locations or offices to be enabled for Phone System.<li>Document the list of users who you are going to enable Calling Plans or Direct Routing for each location you have</ul>|
 
 > [!TIP]
 > Below is an example of a Direct Routing site enablement list.
@@ -128,12 +128,15 @@ Office 365:
 
 -   Microsoft Teams
 
--   Audio Conferencing
+-   Audio Conferencing (optional)
 
-The Audio Conferencing license is required for adding external participants to
+Audio Conferencing license is required for adding external participants to
 scheduled meetings, either by dialing out to them or by providing the dial-in
 number. When an external participant is dialed out to, the Audio Conferencing
-service places the call by using online calling capabilities.
+service places the call by using online calling capabilities. Audio Conferencing 
+license is optional, and only required for user who will be organizing Teams conferences 
+that include Audio Conferencing.
+
 
 > [!NOTE]
 > To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
@@ -279,8 +282,8 @@ specific SBCs by using Direct Routing.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the voice policies, PSTN usages, and voice routes that you’ll create to support user locations or offices in scope for the Direct Routing implementation.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document voice policies, PSTN usages, and voice routes  for your organization.<li>Document the users to be assigned for each voice policy you define.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the voice routing policies, PSTN usages, and voice routes that you’ll create to support user locations or offices in scope for the Direct Routing implementation.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document voice routing policies, PSTN usages, and voice routes  for your organization.<li>Document the users to be assigned for each voice routing policy you define.</ul>|
 
 > [!TIP]
 > Use the following template to document the voice policies for your Direct
@@ -303,7 +306,8 @@ calls through Direct Routing, you need to configure the necessary policies to
 ensure incoming calls are received in Teams.
 
 > [!NOTE]
-> Direct Routing calls can’t be placed or received by using Skype for Business.
+> Users who are enabled for Direct Routing can’t place or receive Direct Routing 
+> calls by using Skype for Business, and therefore must be deployed the Teams client.
 
 You can configure your users to set Teams as their preferred client for calls by
 one of the following two methods:
@@ -341,6 +345,6 @@ main sections:
 
 -   SBC configuration details
 
--   Voice policy and routing details
+-   Voice routing policy and routing details
 
 -   Interop and calling policy details
