@@ -109,6 +109,5 @@ To remove the Skype for Business for Windows Phone app from your mobile device:
 
 #### 
 
-
 [Getting started with Skype for Business for Windows Phone 8.1]()
 

@@ -144,7 +144,6 @@ In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](
 [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-#### 
 
 [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
 

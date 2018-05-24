@@ -50,7 +50,6 @@ For details about testing devices, see [Add a Device to Test Update Functionalit
 #### 
 
 [Test Device](test-device.md)
-#### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
