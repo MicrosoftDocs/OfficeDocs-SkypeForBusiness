@@ -153,7 +153,7 @@ and other requirements of Direct Routing](https://docs.microsoft.com/SkypeForBus
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.<li>Decide whether you’ll need Communications Credits for your Direct Routing implementation.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license.<li>Document the division, department, office, or user groups you’ll enable Communications Credits for.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license.<li>If Audio Conferencing with toll-free numbers is in scope, document the division, department, office, or user groups you’ll enable Communications Credits.</ul>|
 
 ## Office 365 considerations
 
