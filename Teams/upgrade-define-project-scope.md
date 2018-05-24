@@ -13,6 +13,12 @@ appliesto:
 - Microsoft Teams
 ---
 
+![Project Definition stage](media/upgrade-banner-project-definition.png "Project Definition")
+
+This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
+
+-   [Enlisted project stakeholders](upgrade-enlist-stakeholders.md)
+
 # Define your project scope 
 
 Taking time to define your project vision, scope, goals, and governance will help ensure all project stakeholders are aligned and working toward the same end results. This is especially critical given that the technical readiness team and user readiness team will be working independently to pull their respective pieces together. After you complete this section, refer to it throughout your project to ensure you’re on track to achieve the end state you wanted. Use the goals that you identify below to measure against your outcomes, and mitigate as needed.

@@ -13,11 +13,12 @@ appliesto:
 - Microsoft Teams
 ---
 
-![User Readiness](media/upgrade-banner-tech-readiness.png "User Readiness")
+![User Readiness](media/upgrade-banner-user-readiness.png "User Readiness")
 
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm you have completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Tecnical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
 
--   [Confirmed your project team and project scope](upgrade-plan-journey.md)
+-   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 
