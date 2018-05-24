@@ -15,7 +15,9 @@ description: "Summary: Learn how to deploy monitoring in Skype for Business Serv
 # Deploy monitoring in Skype for Business Server 2015
  
 **Summary:** Learn how to deploy monitoring in Skype for Business Server 2015.
-  
+ 
+Before performing these tasks, review [Plan for monitoring in Skype for Business Server 2015](../../plan-your-deployment/monitoring.md).
+ 
 You will typically implement monitoring services within your topology by completing the following two steps:
   
 1. Enabling monitoring at the same time you set up a new Skype for Business Server pool. (In Skype for Business Server 2015, monitoring is enabled or disabled on a pool-by-pool basis.) Note that you can enable monitoring for a pool without actually collecting monitoring data, a process explained in the Configuring Call Detail Recording and Quality of Experience Settings section of this documentation.
@@ -88,4 +90,8 @@ If you prefer, you can also enable QoE monitoring from within the Skype for Busi
     
 As noted, the preceding examples enable monitoring at the global scope; that is, they enable CDR and QoE monitoring throughout your organization. Alternatively, you can create separate CDR and QoE configuration settings at the site scope, and then selectively enable or disable monitoring for each site. For example, you could enable CDR monitoring for your Redmond site, yet disable CDR monitoring for your Dublin site. For more information on managing your monitoring configuration settings, see the Deployment guide topic [Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015](call-detail-recording-and-qoe.md).
   
+## See also
 
+#### 
+
+[Plan for monitoring in Skype for Business Server 2015](../../plan-your-deployment/monitoring.md)
