@@ -3,6 +3,8 @@
 ## [Upgrade Pro](../upgrade-pro.md)
 <!-- ### [Tutorial: Journey from Skype for Business to Teams](../Tutorial-Journey-SkypeforBusiness-to-Teams.yml) -->
 ## [Plan for your journey](../upgrade-plan-journey.md)
+### [Enlist your project stakeholders](../upgrade-enlist-stakeholders.md)
+### [Define your project scope](../upgrade-define-project-scope.md)
 ## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [Plan for quality]
 ## [Prepare my environment]
