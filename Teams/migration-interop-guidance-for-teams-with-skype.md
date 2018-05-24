@@ -58,7 +58,7 @@ To account for the introduction of coexistence modes and the pending retirement 
 
 6.	Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Federation is in pilot and progressively becoming available. If your organization requires federation, you should not upgrade until federation support is in place. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with other Teams users.
 
-7.	To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use Move-CsUser from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode.
+7.	To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode.
 
 8.	The core policies for managing upgrade and interop are TeamsUpgradePolicy and TeamsInteropPolicy.  However, TeamsInteropPolicy is in the process of being retired and all functionality will be superseded by TeamsUpgradePolicy. Until the transition is complete, customers must set both TeamsUpgradePolicy and TeamsInteropPolicy consistently (as described [later](#important) in this document) to ensure proper functioning, or use the new Modern Portal, which does this automatically.
 
@@ -74,7 +74,7 @@ To simplify manageability and increase end user satisfaction, interop and migrat
 
 - *Incoming routing* : In which client (Teams or Skype for Business) do incoming chats and calls land? This functionality replaces what was previously handled by TeamsInteropPolicy. TeamsInteropPolicy will be retired after the transition is complete. ***During the transition, both TeamsUpgradePolicy and TeamsInteropPolicy must be set in a coordinated manner, as described in the next section***.
 - *Meeting scheduling* : Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook? Outlook add-in support is expected to be deployed in the coming weeks. Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
-- *Client experience*: What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is dependent on the upcoming TeamsAppPolicy. When this new policy is in place, TeamsUpgradePolicy will have a dependency on it to ensure that Teams is configured properly for the desired mode.
+- *Client experience* : What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is dependent on the upcoming TeamsAppPolicy. When this new policy is in place, TeamsUpgradePolicy will have a dependency on it to ensure that Teams is configured properly for the desired mode.
 
 The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings will allow mixed usage of both clients, but with no overlapping functionality. Islands mode allows usage of both clients, but with overlapping functionality. For example, in Islands mode, a user could initiate a chat in either Skype for Business or Teams, but in SfBWithTeamsCollab, they can only chat in Skype for Business. Note that not all modes are yet available.  
 </br>
@@ -148,7 +148,7 @@ Components that previously honored TeamsInteropPolicy are in the process of bein
 As described previously, TeamsInteropPolicy will be replaced by TeamsUpgradePolicy. Until this transition is complete, only the three specific instances of TeamsInteropPolicy listed below are supported. In each case, the value of CallingDefaultClient matches the value of ChatDefaultClient, and AllowEndUserClientOverride is always false. 
 </br>
 </br>
-**Supported Instances of TeamsInteropPolicy prior to retirement**
+**Supported instances of TeamsInteropPolicy prior to retirement**
 |Identity|AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
 |`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
@@ -174,25 +174,26 @@ To prepare for these upcoming changes, customers must do the following:
 </br>
    |Identity|AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
-   |DisallowOverrideCallingDefaultChatDefault|False|Default|Default|
-   |DisallowOverrideCallingSfbChatSfb|False|Sfb|Sfb|
-   |DisallowOverrideCallingTeamsChatTeams|False|Teams|Teams|
+   |`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
+   |`DisallowOverrideCallingSfbChatSfb`|False|Sfb|Sfb|
+   |`DisallowOverrideCallingTeamsChatTeams`|False|Teams|Teams|
    |||||
 
     Use the following cmdlet syntax, where $policy is one of the above values of identity:
 
     `Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
 
-    **Microsoft requests that customers update their policies by June 30, 2018.** Sometime after that, Microsoft will be removing the other instances of TeamsInteropPolicy. ***Organizations that do not update to one of these instances will eventually have their users automatically updated to one of these instances. We obviously prefer that customers do this, so you can choose what is best for your users.***
+    **Microsoft requests that customers update their policies by June 30, 2018.** Sometime after that, Microsoft will be removing the other instances of TeamsInteropPolicy.</br> 
+    ***Organizations that do not update to one of these instances will eventually have their users automatically updated to one of these instances. We obviously prefer that customers do this, so you can choose what is best for your users.***
 
 2. If you customized the built-in global policy, undo this. Your global policy should have the following values:
 </br>
 </br>
     |Parameter|Value|
     |---|---|
-    |AllowEndUserClientOverride|False|
-    |CallingDefaultClient|Default|
-    |ChatDefaultClient|Default|
+    |`AllowEndUserClientOverride`|False|
+    |`CallingDefaultClient`|Default|
+    |`ChatDefaultClient`|Default|
     |||
 
     If any of the values are different than above, run the following to remove any tenant-specific customizations:
@@ -202,9 +203,10 @@ To prepare for these upcoming changes, customers must do the following:
 ## Detailed mode descriptions
 </br>
 </br>
+
 |Mode|Explanation|
 |---|---|
-|**Islands (default)**|A single user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Can initiate chats and VOIP calls in either Skype for Business or Teams client. Note: Users with Skype for Business homed on-premises cannot initiate from Teams to reach another Skype for Business user.<li>Receives chats & VOIP calls initiated in Skype for Business by another user in their Skype for Business client.<li>Receives VOIP calls initiated in Teams by another user in their Teams client.<li>Receives chats initiated in Teams by another user in:<ul><li>Skype for Business provided the recipient is homed online and never logged in to Teams<li>Teams in all other cases.</ul><li>Has PSTN functionality as noted below:<ul><li>If the user is homed in Skype for Business on-premises, PSTN calls are initiated and received in Skype for Business.<li>f the user is homed online, the user has Phone System, in which case the user:<ul><li>Initiates and receives PSTN calls in Teams if the user is configured for Direct Routing<li>Initiates and receives PSTN calls in Skype for Business if the user has an MS Calling Plan or connects to the PSTN network via either Skype for Business Cloud Connector Edition or an on-premises deployment of Skype for Business Server (hybrid voice)</ul></ul><li>Can schedule meetings in Teams or Skype for Business (and will see both plug-ins by default).<li>Can join any Skype for Business or Teams meeting; the meeting will open in the respective client.</ul>|
+|**Islands**</br>(default)|A single user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Can initiate chats and VOIP calls in either Skype for Business or Teams client. Note: Users with Skype for Business homed on-premises cannot initiate from Teams to reach another Skype for Business user.<li>Receives chats & VOIP calls initiated in Skype for Business by another user in their Skype for Business client.<li>Receives VOIP calls initiated in Teams by another user in their Teams client.<li>Receives chats initiated in Teams by another user in:<ul><li>Skype for Business provided the recipient is homed online and never logged in to Teams<li>Teams in all other cases.</ul><li>Has PSTN functionality as noted below:<ul><li>If the user is homed in Skype for Business on-premises, PSTN calls are initiated and received in Skype for Business.<li>If the user is homed online, the user has Phone System, in which case the user:<ul><li>Initiates and receives PSTN calls in Teams if the user is configured for Direct Routing<li>Initiates and receives PSTN calls in Skype for Business if the user has an MS Calling Plan or connects to the PSTN network via either Skype for Business Cloud Connector Edition or an on-premises deployment of Skype for Business Server (hybrid voice)</ul></ul><li>Can schedule meetings in Teams or Skype for Business (and will see both plug-ins by default).<li>Can join any Skype for Business or Teams meeting; the meeting will open in the respective client.</ul>|
 |**SfBOnly**|A single user runs only Skype for Business. This user:</br><ul><li>Can initiate chats and calls from Skype for Business only.<li>Receives any chat/call in their Skype for Business client, regardless of where initiated, unless the initiator is a Teams user with Skype for Business homed on-premises.*<li>Can schedule only Skype for Business meetings, but can join Skype for Business or Teams meetings.</br>\**Using Islands mode with on-premises users is not recommended in combination with other users in SfBOnly mode. If a Teams user with Skype for Business homed on-premises initiates a call or chat to an SfBOnly user, the SfBOnly user is not reachable and receives a missed chat/call email.*|
 |**SfBWithTeamsCollab**|A single user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Has the functionality of a user in SfBOnly mode.<li>Has Teams enabled only for group collaboration (Channels); chat/calling/meeting scheduling are disabled.</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**</br>(planned)|A single user runs both Skype for Business and Teams side-by-side. This user:<ul><li>Has the chat and calling functionality of user in SfBOnly mode.<li>Has Teams enabled for group collaboration (Channels); chat and calling are disabled.<li>Can schedule only Teams meetings, but can join Skype for Business or Teams meetings.</ul>|
