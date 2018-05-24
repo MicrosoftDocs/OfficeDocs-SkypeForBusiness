@@ -88,37 +88,29 @@ Articulating specific use cases in your awareness and training plan makes users 
 
 The following table shows examples of universal use cases for teamwork and collaboration.
 
-| **Use case**        | **Personal Productivity**       | **Meetings**      | **Group Projects**     |
-|---------------------|---------------------------------|-----------------|--------------------------|
-| **Characteristics** | <ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul>     | <ul><li>Conference calls or online meetings</li><li>Internal and/or external attendees</li><li>In-office/remote participants</li></ul>                               | <ul><li>Project work with many stakeholders</li><li>Information and doc sharing</li><li>Using multiple apps</li></ul>    |
-| **Challenges**      | <ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul>      | <ul><li>Little or no context provided before meetings </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch up if you missed the meeting</li><li>Post-meeting momentum is lost</li></ul>   | <ul><li>Hallway conversations cause disconnect with the larger group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul>     |
-| **With Teams**      | <ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul> | <ul><li>Build momentum before meetings with conversation and content sharing</li><li>Join across devices</li><li>Connect with video and app sharing, ensuring alignment</li><li>Record meetings for absent attendees</li><li>Capture notes, actions (&#64;mentions) for accountability and easy follow-up</li></ul><br>_All within one interface!_ | <ul><li>Hold all conversations in a team/channel, driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> |
-
-THIS IS A REVERSED VERSION OF THE PRECEDING TABLE, SO "USE CASE" TRULY IS A COLUMN HEADING.
-
 | **Use case**        | **Characteristics**       | **Challenges**      | **With Teams**     |
 |---------------------|---------------------------------|-----------------|--------------------------|
 | **Personal productivity** | <ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul>     |<ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul>     | <ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul>   |
 | **Meetings**      | <ul><li>Conference calls or online meetings</li><li>Internal and/or external attendees</li><li>In-office/remote participants</li></ul>  | <ul><li>Little to no context provided before meetings </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch up if you missed the meeting</li><li>Post-meeting momentum is lost</li></ul>   | <ul><li>Build momentum before the meeting with conversation and content sharing</li><li>Join across devices</li><li>Connect with video and app sharing, ensuring alignment</li><li>Record meetings for absent attendees</li><li>Capture notes, actions (&#64;mentions) for accountability and easy follow-up</li></ul> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_All within one interface!_ |       |
 | **Group projects**      | <ul><li>Project work with many stakeholders</li><li>Information and document sharing</li><li>Using multiple apps</li></ul>   | <ul><li>Hallway conversations cause disconnect with the larger group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul> | <ul><li>Hold all conversations in team/channel, driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> |
 
+<table>
+<tbody>
+<tr><th width="15%">Use case</th><th width="25%">Characteristics</th><th width="25%">Challenges</th><th width="35%">With Teams</th></tr>
+<tr><td>Personal productivity</td><td><ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul></td><td><ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul></td><td><ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul></td></tr>
+</tbody>
+</table>
 
 
 
 The following table shows an example of a targeted use case.
 
-| **Use case**    | **Marketing: Working on new product launch campaign**      |
+| &nbsp;   | **Marketing use case: Working on new product launch campaign**      |
 |-----------------|------------------------------------------------------------|
 | **Characteristics** | <ul><li>Cross-team stakeholder status meetings</li><li>Campaign, creative material, and messaging reviews with field, legal, and PR teams</li><li>Project tracking to meet launch deadline</li></ul>                                                                                |
 | **Challenges**      | <ul><li>Emailing creative materials results in multiple versions</li><li>Hallway conversations cause disconnect with the larger group</li><li>Tracking project notes in OneNote, status reports in Word, and conversations in IM and email&mdash;too many tools to balance and keep aligned</li></ul>                                                                       |
 | **With Teams**      | <ul><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li><li>Having one location for conversations, files, project notes, and status reports enables stakeholders to quickly get—and stay—up to speed</li><li>Pin project notes and status report to tabs for easy access</li><li>&#64;mention team members to get a response or feedback, alleviating the need to track them down or wait until they’re back online</li></ul> |
 
-
-THIS IS A FLIPPED VERSION OF THE PRECEDING TABLE
-
-| **Use case**        | **Characteristics**       | **Challenges**      | **With Teams**     |
-|---------------------|---------------------------------|-----------------|--------------------------|
-| **Marketing: Working on new product launch campaign** | <ul><li>Cross-team stakeholder status meetings</li><li>Campaign, creative material, and messaging reviews with field, legal, and PR teams</li><li>Project tracking to meet launch deadline</li></ul>  | <ul><li>Emailing creative materials results in multiple versions</li><li>Hallway conversations cause disconnect with the larger group</li><li>Tracking project notes in OneNote, status reports in Word, and conversations in IM and email&mdash;too many tools to balance and keep aligned</li></ul>    | <ul><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li><li>Having one location for conversations, files, project notes, and status reports enables stakeholders to quickly get—and stay—up to speed</li><li>Pin project notes and status report to tabs for easy access</li><li>&#64;mention team members to get a response or feedback, alleviating the need to track them down or wait until they’re back online</li></ul> |
 
 > [!Tip]
 > Need help getting started? Visit the productivity library: http://aka.ms/productivitylibrary
@@ -127,7 +119,8 @@ THIS IS A FLIPPED VERSION OF THE PRECEDING TABLE
 
 By doing people-level analysis, you gain understanding of your user personas and use cases. Taking time to understand who your users are and how they work, you‘ll help ensure they have what they need to be successful as they implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training while a traveling field rep might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who can move to Teams today versus who might be best served by waiting until later. 
 
-Begin by segmenting your user base into persona/cohort groups (for example, executives, „road warriors,“ collaborative workers, or retail). For manageability, keep your list to no more than eight groups or 
+Begin by segmenting your user base into persona/cohort groups (for example, executives, “road warriors,” collaborative workers, or retail). For manageability, keep your list to no more than eight groups.
+ 
 ### Activity
 
 Identify targeted user profiles that require specific technical or user readiness assistance. See below for a sample persona assessment for an Executive profile.

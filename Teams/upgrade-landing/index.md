@@ -23,11 +23,12 @@ Your upgrade journey might take some time, and we’re here to support you every
 
 To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order. As illustrated below, a successful project begins by bringing the right project team together and solidifying the scope, goals, and timeline. This helps create a solid foundation for your project. From there, it’s critical to prepare for both technical _and_ user readiness before moving on to the implementation phase. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit, establish an operational plan that monitors for quality and accelerates user adoption.
 
-![Ensure your project is set up for success with the right project team. Define your project scope, goals and governance. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team > Define your project scope, goals and governance > Confirm both technical and user readiness > Execute your rollout plan > Maintain momentum to maximize results.")
-
-We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
+> [!Tip]
+> To help you navigate through your upgrade journey, look for this graphic on related pages to identify where you are in the process. ![Ensure your project is set up for success with the right project team. Define your project scope, goals and governance. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team > Define your project scope, goals and governance > Confirm both technical and user readiness > Execute your rollout plan > Maintain momentum to maximize results.")
 
 ## To get started...
+
+We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to share your feedback.
 
