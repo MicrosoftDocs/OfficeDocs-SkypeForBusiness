@@ -134,7 +134,7 @@ Audio Conferencing license is required for adding external participants to
 scheduled meetings, either by dialing out to them or by providing the dial-in
 number. When an external participant is dialed out to, the Audio Conferencing
 service places the call by using online calling capabilities. Audio Conferencing 
-license is optional, and only required for user who will be organizing Teams conferences 
+license is optional, and only required for users who will be organizing Teams conferences 
 that include Audio Conferencing.
 
 
