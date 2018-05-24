@@ -26,7 +26,7 @@ To achieve the most realistic results, the pilot should involve actual users, mi
 | ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
 
 > [!Tip]
-> Use the sample [Pilot resources](https://go.microsoft.com/fwlink/?linkid=859067) to help design your communications, test plan, and feedback survey.
+> Use the sample [pilot resources](https://go.microsoft.com/fwlink/?linkid=859067) to help design your communications, test plan, and feedback survey.
 
 ## 1. Outline pilot logistics
 
