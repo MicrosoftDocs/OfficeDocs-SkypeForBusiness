@@ -19,13 +19,11 @@ description: "Instructions for configuring the Cloud Call Data Connector feature
 This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA). This configuration can be done <!--using a wizard built into the Skype for Business Server Control Panel or--> by using Skype for Business Server Management Shell commands.  
 
 > [!NOTE]
-> The online CQD Dashboard will not yet read the data. For now, only the online CA dashboard will show the on-prem data.
-
+> The online CQD Dashboard will not yet read the data. For now, only the online CA dashboard will show on-prem data.
 
 Before configuring Call Data Connector (CDC), all the required configurations must be complete. See the planning document for information about this feature, benefits, and requirements:  [Plan Call Data Connector](plan-call-data-connector.md).
 
 To perform these tasks, you will need to be authenticated to your Office 365 Tenant and be a Server Admin for Skype for Business Server and also a Global Administrator in Office 365.
-
 
 ##  Server configuration
 
@@ -37,8 +35,7 @@ Follow the steps provided in [Deploy monitoring in Skype for Business Server 201
 
 ###  Configuring hybrid and other dependencies
 
-Call Data Connector requires previously enabling Split-domain hybrid and  all the features described in [Requirements](plan-call-data-connector.md#requirements).
-
+Call Data Connector requires previously enabling split-domain hybrid and  all the features described in [Requirements](plan-call-data-connector.md#requirements).
 
 ### Enable Call Data Connector
 <!--Once all the requirements are set up, you can run the Hybrid Setup Wizard in the Skype for Business Control Panel. If all the requirements are met, at the end of the wizard you  see a checkbox option to turn on Call Data Connector. Select the box labeled **Yes, Turn on**. 
@@ -51,7 +48,7 @@ To do this from within the Skype for Business Server Control Panel, complete the
     
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
 To Enable Call Data Connector: 
-1.	Login to SFBOnline Powershell (TRPS).
+1.	Login to SFBOnline as an admin.
 2.	If enabling the connector for the first time, run the command: 
     ``` 
     New-CsCloudCallDataConnection | Set-CsCloudCallDataConnectorConfiguration -TenantId “<tenant_id>” 
@@ -73,16 +70,13 @@ New-CsCloudCallDataConnection | Set-CsCloudCallDataConnectorConfiguration -Tenan
 ```
 This will establish an Aria tenant if it has not already been enabled, or refresh the token cache as needed.
 
-## CQD Online
+## Call Quality Dashboard Online
 
 If you have not already done so, turn on CQD online as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](../../SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
-
 
 **Is activation as described there the same as for pure SfBOL?** 
 
 ### Viewing onprem data through the online dashboard
-
-
 
  Once CQD is Activated, you can switch between online Skype for Business, Teams, and Skype for Business Server data views as described in  [Selecting product data to see in reports](../../SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md#selecting-product-data-to-see-in-reports).
 
@@ -91,7 +85,6 @@ If you have not already done so, turn on CQD online as described in [Turning on 
 
 You can enable and disable Call Data Connector(CDC) for a particular site or for your entire Skype for Business Server deployment; that can be done with the Control Panel or with the Management Shell using a command as simple as this:
 
-  
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
@@ -121,7 +114,6 @@ New-CsCloudCallDataCollector -Identity "site:Redmond" -EnableCallDataConnector $
 ```
 
 Keep in mind that settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording  and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
-  
 
 For more information, type the following commands from within the Skype for Business Server Management Shell:
   
