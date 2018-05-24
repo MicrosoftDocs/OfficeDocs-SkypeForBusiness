@@ -139,7 +139,7 @@ that include Audio Conferencing.
 
 
 > [!NOTE]
-> To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
+> To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you should set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
 
 Audio Conferencing and Phone System can be licensed separately as add-on
 services for existing customers who have Office 365 E3 or E1 subscription plans;
