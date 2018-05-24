@@ -88,7 +88,7 @@ To enable Skype for Business, you must have the following:
    You can also set a phone number for the room as follows:
     
    ```
-   Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
+   Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
 
 6. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
