@@ -88,7 +88,7 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 
 > [!TIP]
-> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you’ll capture as part of your user pilot. When considering your timeline, use the [Skype to Teams roadmap](https://skypeandteams.blob.core.windows.net/artefacts/Skype%20for%20Business%20to%20Teams%20Capabilities%20Roadmap.pdf) if you’re waiting for features that aren’t yet available in Teams.
+> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you’ll capture as part of your user pilot. When considering your timeline, use the [Skype to Teams roadmap](https://aka.ms/skype2teamsroadmap) if you’re waiting for features that aren’t yet available in Teams.
 
 ## Risks and mitigation
 
@@ -102,9 +102,9 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 ## Timeline
 
-As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the day you plan to complete the upgrade. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
+As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
  
--   **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://skypeandteams.blob.core.windows.net/artefacts/Skype%20for%20Business%20to%20Teams%20Capabilities%20Roadmap.pdf) to gauge when Teams will be ready for your organization.
+-   **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://aka.ms/skype2teamsroadmap) to gauge when Teams will be ready for your organization.
 -   **User grouops (cohorts)**: Determine whether you’ll be enabling Teams or upgrading users by cohorts, which could affect the timeline of your overall upgrade journey.
 -   **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your upgrade timeline.
 -   **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.

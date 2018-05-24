@@ -30,7 +30,7 @@ To achieve the most realistic results, the pilot should involve actual users, mi
 
 ## 1. Outline pilot logistics
 
-A successful pilot has defined start and end dates, and [clearly defined goals](upgrade-define-project-scope.md#project-goals) for measuring success. These goals should align with the scope of your broader project, as documented in [Plan for your journey](upgrade-plan-journey.md). You should also ensure that you’ve included the right stakeholders for the duration of the project.  You’ll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
+A successful pilot has defined start and end dates, and [clearly defined goals](upgrade-define-project-scope.md#project-goals) for measuring success. These goals should align with the scope of your broader project, as you documented when you [defined your project scope](upgrade-define-project-scope.md), and will be used to inform your path forward after your pilot is over. You should also ensure that you’ve included the right stakeholders for the duration of the project.  You’ll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
 
 Start small, and add to your pilot as appropriate—whether by adding workloads or features, or additional users—making time to assess results and adjust your pilot as you iterate. You might even opt to run subsequent pilots as new Teams features are released per the roadmap.
 
@@ -51,17 +51,20 @@ Your organization might choose to pilot all functionality at once, or use a grad
 
 It’s crucial to the success of your pilot that you educate pilot participants on what’s happening, when, and why, and what’s expected of them. To drive excitement and maximum participation, be sure to include user value messaging in addition to links to training and support where users can get additional information as they progress through the pilot. Here are a few sample resources to get you started with your pilot communications plan:
 
--   [Pilot Essentials resources](https://go.microsoft.com/fwlink/?linkid=859067), including email templates and sample feedback survey questions
+-   [Pilot resources](https://go.microsoft.com/fwlink/?linkid=859067), including email templates and sample feedback survey questions
 -   [Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), a quick-start guide designed to help Skype for Business users get started with Teams
 
 ## 5. Conduct your pilot
 
 With all the logistics in place, you’re now ready to begin your pilot. Conducting your pilot includes communicating with your users, monitoring your network and usage to ensure your network performance and call quality remain healthy, gathering feedback from participants, and reviewing helpdesk tickets for questions related to Teams.
 
-> [!Tip]
-> The following tips can help ensure the success of your pilot:
+### Tips for pilot success
+
+The following tips can help ensure the success of your pilot:
 -   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](user-access.md) you want to validate.
 -   Weekly, throughout your pilot, meet with your project stakeholders to review user feedback, usage data, network data, and helpdesk tickets to ensure your pilot is running smoothly. Make any adjustments as needed.
+
+### Suggested timeline
 
 Here's a suggested timeline for a 30-day pilot:
 
