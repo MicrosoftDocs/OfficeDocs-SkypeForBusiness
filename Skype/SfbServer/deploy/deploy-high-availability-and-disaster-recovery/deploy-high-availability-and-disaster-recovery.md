@@ -28,7 +28,6 @@ This section tells how to deploy these features, and also covers what steps you 
 #### 
 
 [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](alwayson-availability-group.md)
-#### 
 
 [Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015](front-end-pools-for-disaster-recovery.md)
   

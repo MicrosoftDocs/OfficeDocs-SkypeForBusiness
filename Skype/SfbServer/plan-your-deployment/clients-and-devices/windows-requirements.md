@@ -72,7 +72,6 @@ The Skype for Business on Mac support requirements are detailed in [Skype for Bu
 [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md)
   
 [Skype for Business on Mac client requirements](mac-requirements.md)
-#### 
 
 [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3)
   

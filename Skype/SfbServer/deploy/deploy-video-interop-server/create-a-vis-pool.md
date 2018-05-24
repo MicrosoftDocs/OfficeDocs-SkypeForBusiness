@@ -63,7 +63,6 @@ All tasks performed using Topology Builder should now be complete. Proceed to in
 #### 
 
 [Deploy the VIS server role in Skype for Business Server 2015](deploy-the-vis-server-role.md)
-#### 
 
 [Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   

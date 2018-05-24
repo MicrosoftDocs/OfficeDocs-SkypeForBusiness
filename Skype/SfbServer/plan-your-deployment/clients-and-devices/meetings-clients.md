@@ -174,5 +174,4 @@ Other supported values are:
 #### 
 [Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-#### 
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

@@ -150,7 +150,6 @@ This procedure is optional. If you do not use it, external users will continue t
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-#### 
 
 [Configuring the Meeting Join Page](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
   
