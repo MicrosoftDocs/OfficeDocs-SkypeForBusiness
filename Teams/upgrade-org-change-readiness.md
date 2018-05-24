@@ -96,7 +96,7 @@ The following table shows examples of universal use cases for teamwork and colla
 
 <table>
 <tbody>
-<tr><th width="15%">Use case</th><th width="25%">Characteristics</th><th width="25%">Challenges</th><th width="35%">With Teams</th></tr>
+<tr><th width="10%">Use case</th><th width="30%">Characteristics</th><th width="30%">Challenges</th><th width="30%">With Teams</th></tr>
 <tr><td>Personal productivity</td><td><ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul></td><td><ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul></td><td><ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul></td></tr>
 </tbody>
 </table>
