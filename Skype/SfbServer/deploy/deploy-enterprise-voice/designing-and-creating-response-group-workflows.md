@@ -642,10 +642,8 @@ The following list describes some best practices for designing your IVR:
 #### 
 
 [(Optional) Define Response Group holiday sets in Skype for Business 2015](optional-define-response-group-holiday-sets.md)
-#### 
 
 [(Optional) Define Response Group business hours in Skype for Business 2015](optional-define-response-group-business-hours.md)
-#### 
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   

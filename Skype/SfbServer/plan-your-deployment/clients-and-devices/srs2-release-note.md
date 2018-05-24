@@ -149,4 +149,3 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-#### 
