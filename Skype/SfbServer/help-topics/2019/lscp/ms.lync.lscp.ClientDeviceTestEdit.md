@@ -49,7 +49,7 @@ For details about testing devices, see [Add a Device to Test Update Functionalit
 
 #### 
 
-[Test Device](test-device.md)
+[Test Device](ms.lync.lscp.ClientDeviceTestMain.md)
 #### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)

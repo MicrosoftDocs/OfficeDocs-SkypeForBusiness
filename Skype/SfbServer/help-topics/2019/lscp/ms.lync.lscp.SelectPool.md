@@ -18,7 +18,7 @@ description: "Use the Select a Service dialog box to find services available in 
  
 Use the **Select a Service** dialog box to find services available in your environment. To use an existing service, click a service in the list and then click **OK**. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 ## Tasks you can perform
 
@@ -30,7 +30,7 @@ You can perform the following tasks on the **Select a Service** page:
     
 - [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 ## To configure categories for chat rooms
 

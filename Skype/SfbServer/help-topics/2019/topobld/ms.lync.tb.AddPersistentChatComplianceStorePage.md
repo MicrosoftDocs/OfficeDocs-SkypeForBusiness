@@ -44,11 +44,11 @@ Click **Help** to access context sensitive help, such as this page.
 
 #### 
 
-[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/configure-compliance.md)
+[Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015](../../../manage/persistent-chat/configure-compliance.md)
 

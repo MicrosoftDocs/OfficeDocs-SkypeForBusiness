@@ -21,6 +21,6 @@ You can use the **Uncommitted Voice Configuration Settings** dialog box to revie
 > [!IMPORTANT]
 > If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 
