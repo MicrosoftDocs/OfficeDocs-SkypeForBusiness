@@ -13,7 +13,7 @@ appliesto:
 
 # Teams cloud meeting recording
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to Microsoft Stream, so users can share it securely across their organization.    
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/en-us/stream/), so users can share it securely across their organization.    
 
 Related: [Teams meeting recording end user documentation](http://aka.ms/recordmeeting)
 
@@ -36,21 +36,22 @@ This section explains how you can set up and plan for recording Teams meetings.
 
 ### Enable Microsoft Stream for users in the organization 
 
-Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the Stream licensing overview for more details.  Note that Microsoft Stream is not included in Business Essentials or Business Premium plans.   
+Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/en-us/stream/license-overview) for more details.  Note that Microsoft Stream is not included in Business Essentials or Business Premium plans.   
 
-Learn more about how you can assign licenses to users in Office 365 so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/en-us/stream/disable-user-organization). 
+Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/en-us/stream/disable-user-organization). 
 
 ### Ensure that users have upload video permissions in Microsoft Stream 
 
-By default, everyone in the company can create content in Stream, once Stream is enabled and the license is assigned to the user. A Microsoft Stream administrator can restrict employees for creating content in Stream. The users who are in this restricted list will not be able to record meetings. 
+By default, everyone in the company can create content in Stream, once Stream is enabled and the license is assigned to the user. A Microsoft Stream administrator can [restrict employees for creating content](https://docs.microsoft.com/en-us/stream/restrict-uploaders) in Stream. The users who are in this restricted list will not be able to record meetings. 
 
 ### Notify employees to consent to company guidelines in Microsoft Stream 
 
-If a Microsoft Stream administrator has set up company guideline policy and requires employees to accept this policy before saving content, users must do so before recording in Microsoft Teams. Before you roll out the recording feature in the organization, make sure users have consented to the policy. 
+If a Microsoft Stream administrator has [set up company guideline policy](https://docs.microsoft.com/en-us/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, users must do so before recording in Microsoft Teams. Before you roll out the recording feature in the organization, make sure users have consented to the policy. 
  
 ### Enable/disable cloud recording for users  
 
-Use the setting AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell to control whether a user’s meetings are allowed to be recorded or not. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell here.   
+Use the setting AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell to control whether a user’s meetings are allowed to be recorded or not. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+  
 Note that both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, the users get Global policy, which has recording enabled by default.  
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user: 
