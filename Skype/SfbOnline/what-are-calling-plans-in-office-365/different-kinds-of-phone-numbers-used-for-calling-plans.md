@@ -24,7 +24,7 @@ description: "Skype for Business Online uses different telephone number types de
 
 # Different kinds of phone numbers used for Calling Plans
 
-Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number. Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Skype for Business administration center, you may submit a phone number request to the Microsoft telephone number service desk.
+Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number. Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Skype for Business admin center, you may submit a phone number request to the Microsoft telephone number service desk.
   
 - **Subscriber Numbers**
     
@@ -40,9 +40,9 @@ Skype for Business Online uses different telephone number types depending on the
     
     Toll service numbers may incur a toll cost to the caller, and there are two kinds:
     
-  - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
-    
-  - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
+      - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+        
+      - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
     
   - **Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller. Skype for Business Online provides national toll-free numbers in over 60 countries/regions.
     
