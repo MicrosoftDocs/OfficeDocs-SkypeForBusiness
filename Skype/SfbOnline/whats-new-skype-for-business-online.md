@@ -24,7 +24,7 @@ Find out what's new in Skype for Business Online.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/document.svg" alt="Document" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
                         </div>
                     </div>
                     <div class="cardText">
