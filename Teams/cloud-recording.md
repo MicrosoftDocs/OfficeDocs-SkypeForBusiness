@@ -1,5 +1,5 @@
 ---
-title: Cloud recording
+title: Teams cloud meeting recording
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -11,7 +11,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Cloud Recording
+# Teams cloud meeting recording
 
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to Microsoft Stream, so users can share it securely across their organization.    
 
