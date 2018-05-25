@@ -112,9 +112,7 @@ Learn how to manage Skype for Business Online for your organization.
 
 ---
 
-<h2>What's new in Skype for Business Online</h2>
-
-<p>Find out what's new in Skype for Business Online.</p>
+<h2>What's new</h2>
 
 <ul class="panelContent cardsF">
     <li>
