@@ -26,9 +26,9 @@ You can perform the following tasks on the **User Search** Control Panel page:
     
 - [Enable or Disable Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Move User](move-user.md)
+- [Move User](ms.lync.lscp.UserMove.md)
     
-- [Move All Users](move-all-users.md)
+- [Move All Users](ms.lync.lscp.UserMoveAll.md)
     
 - [Assign Policies to Users](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
@@ -68,9 +68,9 @@ Add additional descriptive text, as appropriate.
   
 ### Search Results Menus
 
-- **Enable users** Click to open the [Users: New Lync Server User](users-new-lync-server-user.md) dialog, where you can add a new user to Skype for Business Server.
+- **Enable users** Click to open the [Users: New Lync Server User](ms.lync.lscp.UserNew.md) dialog, where you can add a new user to Skype for Business Server.
     
-    To add a new contact, click the down arrow and then select **Enable contacts** to open the [Users: New Contact Objects](users-new-contact-objects.md) dialog.
+    To add a new contact, click the down arrow and then select **Enable contacts** to open the [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md) dialog.
     
 - **Edit** Click **Edit** and then click **Show details** to display the details of the selected user, or click **Select all search results** to select all users displayed in the results table.
     
@@ -80,11 +80,11 @@ Add additional descriptive text, as appropriate.
     
   - **Temporarily disable for Lync Server** Disables the user account in Skype for Business Server until you re-enable it, without removing the user account.
     
-  - **Assign Policies** Opens the [Users: Assign Policies](users-assign-policies.md) dialog, where you can configure the policies assigned to the user.
+  - **Assign Policies** Opens the [Users: Assign Policies](ms.lync.lscp.UserAssignPolicy.md) dialog, where you can configure the policies assigned to the user.
     
-  - **View PIN status** Opens the [Users: View PIN Status](users-view-pin-status.md) dialog, which displays the PIN data for the selected user.
+  - **View PIN status** Opens the [Users: View PIN Status](ms.lync.lscp.UserViewPin.md) dialog, which displays the PIN data for the selected user.
     
-  - **Set PIN** Opens the [Set PIN](set-pin.md) dialog, where you can set the PIN for the selected user.
+  - **Set PIN** Opens the [Set PIN](ms.lync.lscp.UserSetPin.md) dialog, where you can set the PIN for the selected user.
     
   - **Lock PIN** Locks the PIN for the user.
     
@@ -94,8 +94,8 @@ Add additional descriptive text, as appropriate.
     
   - **Remove user certificate** Removes all certificates granted to the user.
     
-  - **Move selected users to pool** Opens the [Move User](move-user.md) dialog, where you can select a pool to move the selected user to.
+  - **Move selected users to pool** Opens the [Move User](ms.lync.lscp.UserMove.md) dialog, where you can select a pool to move the selected user to.
     
-  - **Move all users to pool** Opens the [Move User](move-user.md) dialog, where you can select a pool to move all selected users to.
+  - **Move all users to pool** Opens the [Move User](ms.lync.lscp.UserMove.md) dialog, where you can select a pool to move all selected users to.
     
 
