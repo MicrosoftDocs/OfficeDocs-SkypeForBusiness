@@ -1,4 +1,4 @@
----
+O---
 title: "Configure call data connector"
 ms.author: jambirk
 author: jambirk
@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for configuring the Cloud Call Data Connector feature, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business online tools."
+description: "Instructions for configuring the Cloud Call Data Connector feature, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business Online tools."
 ---
 
 # Configure Call Data Connector
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-This article explains how to configure viewing Skype for Business server Call Quality Data using the Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA). This configuration can be done <!--using a wizard built into the Skype for Business Server Control Panel or--> by using Skype for Business Server Management Shell commands.  
+This article explains how to configure viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA). This configuration can be done <!--using a wizard built into the Skype for Business Server Control Panel or--> by using Skype for Business Server Management Shell commands.  
 
 > [!NOTE]
-> The online CQD Dashboard will not yet read the data. For now, only the online CA dashboard will show on-prem data.
+> The online CQD Dashboard will not yet read the data. For now, only the online CA dashboard will show on-premesis data.
 
 Before configuring Call Data Connector (CDC), all the required configurations must be complete. See the planning document for information about this feature, benefits, and requirements:  [Plan Call Data Connector](plan-call-data-connector.md).
 
-To perform these tasks, you will need to be authenticated to your Office 365 Tenant and be a Server Admin for Skype for Business Server and also a Global Administrator in Office 365.
+To perform these tasks, you will need to be authenticated to your Office 365 tenant and be a Server Admin for Skype for Business Server and also a Global Administrator in Office 365.
 
 ##  Server configuration
 
@@ -33,9 +33,9 @@ Data generated from enabling Call Data Recording (CDR) and Quality of Experience
 
 Follow the steps provided in [Deploy monitoring in Skype for Business Server 2015](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
 
-###  Configuring hybrid and other dependencies
+###  Configuring hybrid connectivity and other dependencies
 
-Call Data Connector requires previously enabling split-domain hybrid and  all the features described in [Requirements](plan-call-data-connector.md#requirements).
+Call Data Connector requires previously setting up hybrid connectivity.  For more information, see  [Requirements](plan-call-data-connector.md#requirements).
 
 ### Enable Call Data Connector
 <!--Once all the requirements are set up, you can run the Hybrid Setup Wizard in the Skype for Business Control Panel. If all the requirements are met, at the end of the wizard you  see a checkbox option to turn on Call Data Connector. Select the box labeled **Yes, Turn on**. 
@@ -48,7 +48,7 @@ To do this from within the Skype for Business Server Control Panel, complete the
     
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
 To Enable Call Data Connector: 
-1.	Login to SFBOnline as an admin.
+1.	Login to Skype for Business Online as an admin.
 2.	If enabling the connector for the first time, run the command: 
     ``` 
     New-CsCloudCallDataConnection | Set-CsCloudCallDataConnectorConfiguration -TenantId “<tenant_id>” 
@@ -58,7 +58,7 @@ To Enable Call Data Connector:
     Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnectorConfiguration -TenantId “<tenant_id>”
     ```
 
-You can also replace the `tenant_id` part by something like  `-TenantId (Get-CsTenant).TenantID`.
+You can also replace the `tenant_id` part with something like  `-TenantId (Get-CsTenant).TenantID`.
 **What effect will that have?**
 
 > [!NOTE]
@@ -83,7 +83,7 @@ If you have not already done so, turn on CQD online as described in [Turning on 
 
 ## Call Data Connector options
 
-You can enable and disable Call Data Connector(CDC) for a particular site or for your entire Skype for Business Server deployment; that can be done with the Control Panel or with the Management Shell using a command as simple as this:
+You can enable and disable Call Data Connector(CDC) for a particular site or for your entire Skype for Business Server deploymentby using the Control Panel or the Management Shell.  The following is an example of using the Management Shell:
 
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
@@ -93,10 +93,10 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
   
 |Property|Description|Default Value|
 |:-----|:-----|:-----|
-|EnableCallDataConnector  <br/> |Indicates whether or not CDC is enabled. If True, Monitoring records will be forwarded to online monitoring.  <br/> |True  <br/> |
+|EnableCallDataConnector  <br/> |Indicates whether or not CDC is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |True  <br/> |
 | Identity | Determines the scope level for the command: global or site.   | $True  |
 
-If you need to modify these global settings you can do so by using the Set-CsCloudCallDataConnectorConfiguration cmdlet. For example, this command (run from within the Skype for Business Server Management Shell) disables CDC at the global scope; that's done by setting the EnableCallDataConnector property to False ($False):
+If you need to modify these global settings, you can do so by using the Set-CsCloudCallDataConnectorConfiguration cmdlet. For example, the following command (run from the Skype for Business Server Management Shell) disables CDC at the global scope by setting the EnableCallDataConnector property to False ($False):
   
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
