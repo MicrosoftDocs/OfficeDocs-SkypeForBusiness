@@ -24,12 +24,12 @@ Skype for Business Server 2015 web conferencing includes document collaboration,
   
 For planning details about enabling web conferencing in your organization, see the following topics: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Hardware and software requirements for conferencing in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Plan for dial-in conferencing in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Plan for large meetings in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

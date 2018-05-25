@@ -51,7 +51,7 @@ For details about testing devices, see [Add a Device to Test Update Functionalit
 
 #### 
 
-[Test Device: Create New or Edit Existing](test-device-create-new-or-edit-existing.md)
+[Test Device: Create New or Edit Existing](ms.lync.lscp.ClientDeviceTestEdit.md)
 #### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
