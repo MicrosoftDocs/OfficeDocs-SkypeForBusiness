@@ -22,5 +22,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Create a New URL Filter to Handle Hyperlinks in IM Conversations](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
 

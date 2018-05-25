@@ -49,5 +49,5 @@ The following lists describe the menus, commands, fields, and properties on the 
 
 #### 
 
-[Device Log Configuration](device-log-configuration.md)
+[Device Log Configuration](ms.lync.lscp.ClientDeviceCfgMain.md)
 
