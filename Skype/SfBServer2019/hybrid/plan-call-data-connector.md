@@ -30,7 +30,7 @@ With Call Data Connector, the Skype for Business Server pushes call data to the 
 
 ![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
-The server pushes both Quality of Experience (QoE) and Call Data Recording (CDR) data to the online service.
+The server pushes both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.
 
 The Call Analytics and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
 
@@ -67,9 +67,8 @@ If you already have Skype for Business Server deployed, and you want to enable C
 
 - On-premises users must be enabled for ...
 
-- Central Management Store (CMS) topology information
 
-## Comparison of on-premises and online CQD reports
+## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
 
 | Feature reports | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
