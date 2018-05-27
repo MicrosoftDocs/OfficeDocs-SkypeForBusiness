@@ -15,7 +15,7 @@ appliesto:
 
 # Define my success
 
-This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing, Phone System with Calling Plans, or Microsoft Phone System Direct Routing for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
+This article gives an overview of the requirements for defining success for the deployment of Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
 
 <!--ENDOFSECTION-->
 
@@ -23,7 +23,7 @@ This article gives an overview of the requirements for defining success for the 
 
 **Phone System with Calling Plans (“Calling Plans”)** gives organizations a way to modernize their workplace by enabling users to make business-related phone calls from their computers and mobile devices. Workplace modernization can be part of any number of scenarios—an activity-based working implementation, a major office move, an office fit-out refresh, retiring a legacy PBX solution, the conclusion of a PSTN service provider contract, and so on. With Calling Plans, Microsoft facilitates connectivity to the PSTN.
 
-**Phone System Direct Routing (“Direct Routing”)** gives organizations the same benefits listed above for Calling Plans, except that PSTN connectivity is facilitated by a third-party provider rather than Microsoft. This allows for deployment in countries where Calling Plans aren’t available, or in deployments where an existing PSTN service provider contract needs to be maintained or interoperability with certain on-premises systems is required.
+**Phone System Direct Routing (“Direct Routing”)** gives organizations the same benefits listed above for Calling Plans, except that PSTN connectivity is facilitated by a third-party provider rather than Microsoft. This allows for deployment in countries where Calling Plans aren’t available, or in deployments where an existing PSTN service provider contract needs to be maintained or interoperability with certain on-premises systems is required. One additional scenario to consider Direct Routing is telephony system interoperability. While users are being transitioned to Calling in Teams, some users might remain on legacy PBXs. Direct Routing enables both use cases to coexist. The call traffic between the users on legacy systems and Teams users stay within the organization.
 
 <!--ENDOFSECTION-->
 
