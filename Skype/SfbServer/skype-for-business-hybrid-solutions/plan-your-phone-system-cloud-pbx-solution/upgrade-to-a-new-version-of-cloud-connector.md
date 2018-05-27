@@ -7,8 +7,10 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: "Learn about how to upgrade your Cloud Connector Edition deployment."
 ---

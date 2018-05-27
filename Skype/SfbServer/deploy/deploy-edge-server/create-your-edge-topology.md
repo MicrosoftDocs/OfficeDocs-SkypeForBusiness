@@ -7,8 +7,10 @@ ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: "Summary: Learn how to build, publish, and export your Edge Server topology in Skype for Business Server 2015."
 ---

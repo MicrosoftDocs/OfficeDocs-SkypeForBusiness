@@ -7,9 +7,11 @@ ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: "Summary: Review the IP Address type considerations below before implementing Skype for Business Server 2015."
 ---

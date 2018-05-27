@@ -14,11 +14,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: "Learn about add-on licenses, features, and how to buy for Office 365 Enterprise (without Audio Conferencing) plans. "
 ---

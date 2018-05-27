@@ -7,8 +7,10 @@ ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: "Read this topic for information on how to deploy Skype Room Systems v2 with Office 365."
 ---

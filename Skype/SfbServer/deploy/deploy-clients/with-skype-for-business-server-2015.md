@@ -7,8 +7,10 @@ ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: "Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015."
 ---

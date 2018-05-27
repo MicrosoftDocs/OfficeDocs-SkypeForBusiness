@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: "Planning for private (secondary) telephone lines in Skype for Business Server Enterprise Voice."
 ---

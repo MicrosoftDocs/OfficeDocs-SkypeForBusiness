@@ -6,8 +6,10 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: "Summary: Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server 2015."
 ---

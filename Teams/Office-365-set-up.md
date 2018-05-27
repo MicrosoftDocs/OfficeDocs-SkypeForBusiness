@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Learn how to turn on Microsoft Teams for your Office 365 organization.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin

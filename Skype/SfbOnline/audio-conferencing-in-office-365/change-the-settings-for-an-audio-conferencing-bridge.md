@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
 ---
@@ -35,7 +34,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 > [!CAUTION]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## Using the Microsoft Teams and Skype for Business Admin Center
+## ![teams-logo-30x30.png](../images/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 
@@ -58,8 +57,11 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
  
 6. Click **Apply**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## Using Skype for Business admin center
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     

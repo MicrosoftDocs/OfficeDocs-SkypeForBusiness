@@ -7,9 +7,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: "Summary: Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm."
 ---
@@ -147,11 +149,23 @@ There are some things you're going to need to install or configure for any serve
 |Windows Media Format Runtime  <br/> | For Windows Server 2016, Windows Server 2012, and Windows Server 2012 R2, you'll need to install the **Media Foundation** feature in **Server Manager**. Now, you actually can start your Skype for Business Server 2015 installation without this one, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2015 install continues. Better to do it ahead of time. <br/> |
 |Silverlight  <br/> |You can install the latest version of Silverlight at [this link](https://www.microsoft.com/silverlight/).  <br/> |
    
+> [!NOTE] 
+> You may also need to enable Directory Browsing if you are using a load balancer. 
+> Otherwise a blank page will load which the load balancer might consider a failure. 
+
 To help you out, here's a sample PowerShell script you can run to automate this:
-  
+
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
+Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
+
+> [!NOTE] 
+> The command looks for source files in a specific order. 
+> If you are online, the command accesses Windows Update. 
+> However, if you are offline, you need to make sure the source files are available to the command. 
+> For more information about using PowerShell to install roles and features, 
+> see [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx) 
+> Don't forget to run Windows Update again after you install prerequisites, even if you use the PowerShell command.
 
  **Directors also need:**
   

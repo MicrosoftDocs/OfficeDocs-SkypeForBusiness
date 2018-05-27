@@ -7,8 +7,10 @@ ms.date: 3/30/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: "Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing."
 ---

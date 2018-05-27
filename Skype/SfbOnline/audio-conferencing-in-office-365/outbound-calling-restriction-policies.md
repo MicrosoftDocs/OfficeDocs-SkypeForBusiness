@@ -11,10 +11,9 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Administrators can control the type of audio conferencing and end user PSTN calls that can be made by users."
 ---
@@ -36,9 +35,9 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ## Restrict audio conferencing outbound calls 
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
-1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. At the top of the page, click **Edit**.
 
@@ -48,7 +47,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Click **Apply**. 
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1.	In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
 
@@ -59,6 +58,9 @@ Outbound call controls can be applied on a per-user basis and provide the follow
     ![The Restrictions to dial-outs options](../images/restrictions-to-dial-outs.png)
 
 5. Click **Save**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **Using PowerShell**
 

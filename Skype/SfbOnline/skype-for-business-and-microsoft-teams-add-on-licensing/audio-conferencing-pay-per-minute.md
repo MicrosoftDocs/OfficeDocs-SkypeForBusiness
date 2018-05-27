@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 description: "In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
 ---
 

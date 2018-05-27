@@ -8,19 +8,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: "Insert introduction here."
+description: "Planning tool topics"
 ---
 
 # Help-Planning
  
-Insert introduction here.
+The topics in this node provide help for the Skype for Business Server planning tool.
   
-## Section Heading
 
-Insert section body here.
-  
-### Subsection Heading
-
-Insert subsection body here.
   
 

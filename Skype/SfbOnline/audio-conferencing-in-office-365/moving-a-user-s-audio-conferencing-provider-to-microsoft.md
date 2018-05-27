@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.PSTNConferencingEnableUsers
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Change your Skype for Business users from third-party audio conferencing providers (ACP) to a Microsoft dial-in conferencing provider. "
 robots: noindex

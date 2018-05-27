@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbean
 description: Guidance for starting your journey from Skype for Business to Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

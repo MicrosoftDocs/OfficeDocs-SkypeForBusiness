@@ -38,9 +38,9 @@ You should familiarize yourself as necessary on how to use the OMS View Designer
   
 ### Related Tasks
 
-1. Once subscribed to OMS, create custom fields (described in [Map custom fields](../../deploy/deploy-clients/with-oms.md#Custom_fields)) needed to parse the information that will be sent from Skype Room Systems v2 consoles. This includes understanding the JSON schema documented in [Understand the log entries](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. Once subscribed to OMS, create custom fields (as described in [Map custom fields](../../deploy/deploy-clients/with-oms.md#Custom_fields)) needed to parse the information that will be sent from Skype Room Systems v2 consoles. This includes understanding the JSON schema documented in [Understand the log entries](../../manage/skype-room-systems-v2/oms.md#Telemetry).
     
-2. Develop a Skype Room Systems v2 management view in OMS (see [Define the SRS v2 views in OMS](../../deploy/deploy-clients/with-oms.md#Views)) using the View Designer mentioned earlier.
+2. Develop a Skype Room Systems v2 management view in OMS. You can either [Create a Skype Room Systems v2 dashboard by using the import method](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) or [Create a Skype Room Systems v2 dashboard manually](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## Individual Skype Room Systems v2 Console requirements
 

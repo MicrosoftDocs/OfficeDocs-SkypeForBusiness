@@ -7,12 +7,13 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: "For a user to use Phone System in Office 365 (Cloud PBX), you must first enable them for Enterprise Voice and assign them a phone number. You do this using your on-premises deployment while the user is still homed in the on-premises deployment."
 ---

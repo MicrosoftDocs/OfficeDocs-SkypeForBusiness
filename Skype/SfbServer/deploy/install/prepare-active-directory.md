@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: "Summary: Learn how to prepare your Active Directory domain for an installation of Skype for Business Server 2015. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
@@ -34,7 +36,7 @@ Skype for Business Server 2015 is tightly integrated with Active Directory Domai
   
 Watch the video steps for **Prepare Active Directory**:
   
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/272c856b-b3e0-4324-9635-42720c48b75a?autoplay=false]
+> [!video https://www.microsoft.com/en-us/videoplayer/embed/RE1Ybuk]
   
 ### Prepare Active Directory from the Deployment Wizard
 

@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: "Design and create Response Group workflows, in Skype for Business Server Enterprise Voice. Both hunt group workflows and interactive workflows are covered."
 ---

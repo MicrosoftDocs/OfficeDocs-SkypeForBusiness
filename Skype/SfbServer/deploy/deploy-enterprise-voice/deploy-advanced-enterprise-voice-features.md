@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: "Deploy advanced Enterprise Voice features in Skype for Business Server."
 ---

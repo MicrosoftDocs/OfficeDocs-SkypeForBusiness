@@ -7,9 +7,11 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: "Skype for Business Server Enterprise Voice supports M:N trunking between Mediation Server and components such as PSTN gateways, session border controllers, and IP-PBX."
 ---

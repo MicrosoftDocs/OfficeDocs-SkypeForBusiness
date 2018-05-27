@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: "Enable call admission control in Skype for Business Server Enterprise Voice."
 ---

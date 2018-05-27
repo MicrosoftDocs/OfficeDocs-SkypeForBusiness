@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: "Summary: Learn how to review, publish, or cancel voice routing configuration changes in Skype for Business Server 2015 by using the Skype for Business Server Control Panel."
 ---

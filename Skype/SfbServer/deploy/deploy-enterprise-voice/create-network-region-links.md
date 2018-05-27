@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: "Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server."
 ---

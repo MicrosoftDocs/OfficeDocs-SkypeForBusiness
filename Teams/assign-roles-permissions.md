@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

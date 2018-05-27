@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: "Summary: Learn how to install the files for Mediation Server in Skype for Business Server 2015."
 ---

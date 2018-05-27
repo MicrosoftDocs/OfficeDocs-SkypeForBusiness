@@ -15,12 +15,11 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
 robots: noindex

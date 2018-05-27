@@ -7,12 +7,13 @@ ms.date: 12/19/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: "Summary: Learn how to move user accounts from online to on premises in Skype for Business Server."
 ---

@@ -7,10 +7,10 @@ ms.date: 12/5/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
 ms.custom:
-- Strat_SB_Hybrid
-- Strat_SB_Hybrid
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: "Troubleshoot your Cloud Connector Edition deployment."
 ---

@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---

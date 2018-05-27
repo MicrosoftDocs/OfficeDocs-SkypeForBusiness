@@ -7,9 +7,11 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: "Learn about SIP trunking in Skype for Business Server Enterprise Voice"
 ---

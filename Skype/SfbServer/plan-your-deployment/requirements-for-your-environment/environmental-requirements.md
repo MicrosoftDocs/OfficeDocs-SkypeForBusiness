@@ -7,9 +7,11 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
 ---
@@ -352,9 +354,9 @@ Skype for Business Server 2015 is able to use the same file share for all file s
   
 - A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [Creating a Cluster](https://support.microsoft.com/kb/284838) KB article will help you with those details.
+- We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [How to create file shares on a cluster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) article will help you with those details.
     
-> [!CAUTION]
+> [!CAUTION] 
 > You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 
   
 

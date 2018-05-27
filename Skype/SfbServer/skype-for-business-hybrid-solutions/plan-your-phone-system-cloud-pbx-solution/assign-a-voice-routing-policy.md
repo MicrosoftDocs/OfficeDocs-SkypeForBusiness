@@ -7,19 +7,20 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: "Summary: Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity."
 ---
 
 # Assign a Voice Routing Policy
  
-**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity.
+**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity. 
   
 Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them. One is an on-premises voice routing policy that you will assign on premises. This policy can be global or user-specific and defines what PSTN usage records are associated with the user. This topic explains how to assign this policy.
   

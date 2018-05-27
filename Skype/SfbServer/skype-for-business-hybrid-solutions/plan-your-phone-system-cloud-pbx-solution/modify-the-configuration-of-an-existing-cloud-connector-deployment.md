@@ -7,10 +7,10 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
 ms.custom:
-- Strat_SB_Hybrid
-- Strat_SB_Hybrid
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: "Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment."
 ---

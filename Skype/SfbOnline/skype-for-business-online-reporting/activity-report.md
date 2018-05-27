@@ -50,7 +50,7 @@ You can get a view into your user's Skype for Business activity by looking at th
   
 ***
 ![Number 1](../images/sfbcallout1.png)<br/>
-The **Skype for Business Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days.
+The **Skype for Business Activity**  email activity report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for up to 28 days from the current date (not the date the report was generated).
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

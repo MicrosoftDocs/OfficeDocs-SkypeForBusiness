@@ -7,9 +7,11 @@ ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: "Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing."
 ---

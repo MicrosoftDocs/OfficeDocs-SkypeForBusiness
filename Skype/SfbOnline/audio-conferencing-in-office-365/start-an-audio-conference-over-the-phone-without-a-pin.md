@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. "
 ---
@@ -33,7 +32,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## Enable or disable anonymous callers from joining a meeting
 
-**Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**. 
 
@@ -45,7 +44,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     
 4. Click **Apply**. 
 
-**Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**. 
     
@@ -54,6 +53,9 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 3. On the user's properties page, under **Meeting options**, select or clear **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
     
 4. Click **Save**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
  **Using Windows Powershell**
   
@@ -65,7 +67,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 ## What else should you know?
 
-- If you want to reset the PIN, see [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-for-a-user.md).
+- If you want to reset the PIN, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
     
 - If anonymous access, or not requiring a PIN to start a meeting, is enabled:
     

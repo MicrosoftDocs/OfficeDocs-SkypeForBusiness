@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: "Configure E9-1-1 voice routes in Skype for Business Server Enterprise Voice."
 ---

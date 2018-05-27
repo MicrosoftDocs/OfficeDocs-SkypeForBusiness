@@ -7,13 +7,14 @@ ms.date: 1/26/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: 
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: "Learn about the planning considerations for Phone System in Office 365 (Cloud PBX) with on-premises PSTN connectivity."
 ---

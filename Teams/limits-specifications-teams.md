@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

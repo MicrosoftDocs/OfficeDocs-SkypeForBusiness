@@ -68,7 +68,7 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
 |\<SkypeSettings\>  <br/> |Container for all elements.  <br/> ||Required.  <br/> |
 | \<AutoScreenShare\> <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> | If true, auto screen share is enabled. <br/> |
 |\<HideMeetingName\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |If true, meeting names are hidden.  <br/> |
-|\<UserAccount\>  <br/> |Container  <br/> |First &#x2776; <br/> |Container for credentials parameters.  <br/> The sign in address, Exchange address, or email address are usually the same, such as RanierConf@contoso.com.  <br/> |
+|\<UserAccount\>  <br/> |Container  <br/> |First &#x2776; <br/> |Container for credentials parameters.  <br/> The sign in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Enabled by default.  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Disabled by default.  <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||The sign in name for the console's Skype for Business device account.  <br/> |
@@ -105,16 +105,16 @@ At startup, if a Skype Room Systems v2 console finds an XML file named SkypeSett
   
 Depending on how many Skype Room Systems v2 devices your enterprise has and how you choose to manage to configure them, there are a number of ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Skype Room Systems v2 devices are discussed in:
   
-- [Configuring Group Policy for Skype Room Systems v2](skype-room-systems-v2.md#GroupPolicy)
+- [Configuring Group Policy for Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
     
-- [Remote Management using PowerShell](skype-room-systems-v2.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+- [Remote Management using PowerShell](room-systems-v2-operations.md#RemotePS) and [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
 You are free to use any method you like so long as you can use it to transfer files and trigger a restart on the console device. The file must be readable, writable, and delete-able by the device's local user account (preferably, it should be owned by and have full privileges granted to that user). If the file permissions are not set correctly, the software may fail to apply the settings, may fail to delete the file upon successful processing, and could even potentially crash.
   
 ## Custom Theme Images
 <a name="Themes"> </a>
 
-The custom theme image file must be placed in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, just enter the file name and extension in the <CustomThemeImageUrl> variable.
+The custom theme image file must be placed in **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, just enter the file name and extension in the \<CustomThemeImageUrl\> variable.
   
 The image file should be exactly 3840X1080 pixels and must be one of the following file formats: jpg, jpeg, png and bmp. If your organization wants a custom image, a graphic designer will find our [Custom Theme Photoshop Template](https://go.microsoft.com/fwlink/?linkid=870441) useful. It contains further detail on where to place various elements in a theme image and what areas appear on consoles and displays.
   
@@ -128,5 +128,5 @@ The XML configuration file must be updated at device startup to recognize the th
 [Manage Skype Room Systems v2](skype-room-systems-v2.md)
 #### 
 
-[Configure a File Item](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+[Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 

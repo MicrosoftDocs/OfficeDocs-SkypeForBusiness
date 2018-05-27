@@ -7,9 +7,11 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: "Summary: Review these posters as needed while planning, implementing, or managing Skype for Business Server 2015."
 ---

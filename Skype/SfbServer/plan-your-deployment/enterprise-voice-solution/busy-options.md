@@ -7,8 +7,10 @@ ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: "Read about the Busy Options feature in Skype for Business Server 2015."
 ---

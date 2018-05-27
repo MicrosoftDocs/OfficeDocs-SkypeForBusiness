@@ -7,9 +7,11 @@ ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: "Summary: Learn about your options for planning a unified voice and communications solution in Skype for Business Server 2015."
 ---

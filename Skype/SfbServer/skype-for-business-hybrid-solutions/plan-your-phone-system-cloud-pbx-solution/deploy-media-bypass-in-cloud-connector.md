@@ -7,8 +7,10 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: "Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later."
 ---

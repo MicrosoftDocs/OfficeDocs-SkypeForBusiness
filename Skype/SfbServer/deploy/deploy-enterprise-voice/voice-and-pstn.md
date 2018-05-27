@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: "Summary: Learn how to configure voice policies, PSTN usage records, and voice routes in Skype for Business Server 2015."
 ---

@@ -12,6 +12,7 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
+  localization_priority: Priority
   ms.collection: Strat_MT_TeamsAdmin
   appliesto: 
   - Microsoft Teams

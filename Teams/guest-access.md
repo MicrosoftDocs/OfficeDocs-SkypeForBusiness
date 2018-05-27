@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

@@ -6,9 +6,11 @@ ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: "Summary: Review these scenarios to help you plan your Edge Server topology in Skype for Business Server 2015 ."
 ---

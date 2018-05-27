@@ -7,9 +7,11 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: "Create or modify network regions, network sites, and associate network subnets in Skype for Business Server. All these are used for the advanced Enterprise Voice features: media bypass, call admission control, and location-based routing."
 ---

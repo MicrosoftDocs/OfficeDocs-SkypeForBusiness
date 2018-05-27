@@ -7,8 +7,10 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: "Read this topic to learn about hardware, software, and infrastructure requirements for running Skype for Business on a Mac."
 ---

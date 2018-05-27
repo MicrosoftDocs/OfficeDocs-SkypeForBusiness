@@ -60,7 +60,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> | Adelaide <br/>  Brisbane <br/>  Canberra <br/>  Darwin <br/>  Melbourne <br/>  Newcastle <br/>  Perth <br/>  Sydney <br/>  Wollongong <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    

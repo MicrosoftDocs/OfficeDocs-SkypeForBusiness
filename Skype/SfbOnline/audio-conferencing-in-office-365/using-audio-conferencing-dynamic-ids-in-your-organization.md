@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 Robots: noindex
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user
 redirect_document_id: TRUE

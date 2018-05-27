@@ -7,9 +7,11 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: 
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: "Summary: Learn how to view PSTN usage records by using the Skype for Business Server Control Panel or the Skype for Business Server Management Shell."
 ---

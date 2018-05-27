@@ -7,9 +7,11 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: "Planning for response groups in Skype for Business Server Enterprise Voice, which enables you to set up call routing to groups of users. Includes audio file requirements."
 ---

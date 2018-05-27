@@ -15,14 +15,13 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: "Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. "
 ---
@@ -43,7 +42,7 @@ Monthly minutes available for each organization and each country/region are loca
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Office 365 admin center**.   
 ![User's license location](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../accessibility-and-regulatory/complimentary-dial-out-period.md).
+For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](../legal-and-regulatory/complimentary-dial-out-period.md).
   
 ## How to buy a Calling Plan
 

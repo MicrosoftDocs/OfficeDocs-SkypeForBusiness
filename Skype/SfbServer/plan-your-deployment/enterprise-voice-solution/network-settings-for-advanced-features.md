@@ -7,9 +7,11 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection: 
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom:
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: "Learn about network regions, network sites, and IP subnets. All these must be configured to deploy Plan for media bypass in Skype for Business 2015, Plan for call admission control in Skype for Business Server 2015), or Plan for emergency services in Skype for Business Server 2015 in Skype for Business Server Enterprise Voice."
 ---

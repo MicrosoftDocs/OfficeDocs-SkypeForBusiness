@@ -7,8 +7,10 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Office 365 tenant."
 ---
@@ -100,11 +102,11 @@ After adding your users to Office 365, enable their accounts for Phone System in
 - Assign the policy to your user and configure the user's business voice phone number, which you specify with the value of the **Identity** parameter:
     
   ```
-  Set-CsUser -Identity "<User principal name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
+  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
     > [!NOTE]
-    > You must specify a user's Identity by their User Principal name (UPN), e.g. Bob.Kelley@contoso.com. 
+    > You can also specify a user's Identity by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly"). 
   
 You can then verify that the users were added and enabled using the following script:
   

@@ -15,10 +15,9 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)"
 ---

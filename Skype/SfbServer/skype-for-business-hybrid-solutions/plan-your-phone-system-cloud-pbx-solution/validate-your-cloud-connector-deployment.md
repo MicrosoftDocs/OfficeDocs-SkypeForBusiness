@@ -7,8 +7,10 @@ ms.date: 3/2/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection: 
+- Strat_SB_Hybrid
+ms.custom:
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: "After you've completed the steps to deploy and configure Skype for Business Cloud Connector Edition, verify that you can make and receive calls."
 ---

@@ -8,7 +8,6 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: "This article discusses how to use the recovery tool for Skype Room Systems v2, which you would use to bring an out of date system into a supported state."
 ---
 
@@ -60,6 +59,7 @@ You may also need to install [KB4089848](http://download.windowsupdate.com/d/msd
 
 
 #### 
+[Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Manage Skype Room Systems v2](skype-room-systems-v2.md)
 #### 

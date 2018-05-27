@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
 description: "Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. "
 ---
 
@@ -66,7 +65,7 @@ This is the minimum software release required for supported phones to work with 
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |December 2016  <br/> |
    
 > [!NOTE]
-> Lync Phone Edition (LPE) phones you have set up for your on-premises deployment must be updated to the minimum or later required firmware prior to moving those users over to Skype for Business Online. If you move your users from on-premises to Skype for Business Online before you update the firmware on the phones, those phones won't be able to connect to Skype for Business Online. 
+Lync Phone Edition (LPE) phones you have set up for your on-premises deployment must be updated to the minimum or later required firmware prior to moving those users over to Skype for Business Online. If you move your users from on-premises to Skype for Business Online before you update the firmware on the phones, those phones won't be able to connect to Skype for Business Online. 
   
 ## Required Licenses
 

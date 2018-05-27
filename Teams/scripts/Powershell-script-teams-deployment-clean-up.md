@@ -7,6 +7,7 @@ ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 description: Use this PowerShell script to create a public, company-wide team in Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 ---
 
@@ -31,19 +32,20 @@ $TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 
 
 try
 {
-    if ([System.IO.File]::Exists($TeamsUpdateExePath)) {
+    if (Test-Path -Path $TeamsUpdateExePath) {
         Write-Host "Uninstalling Teams process"
 
         # Uninstall app
-        $proc = Start-Process $TeamsUpdateExePath "-uninstall -s" -PassThru
+        $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
-    }
+    }{
     Write-Host "Deleting Teams directory"
-    Remove-Item –path $TeamsPath -recurse
+    Remove-Item –Path $TeamsPath -Recurse
+    }
 }
 catch
 {
-    Write-Output "Uninstall failed with exception $_.exception.message"
+    Write-Error -ErrorRecord $_
     exit /b 1
 }
 

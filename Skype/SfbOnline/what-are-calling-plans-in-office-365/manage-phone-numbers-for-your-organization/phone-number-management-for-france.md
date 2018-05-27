@@ -15,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Use this table to find information on getting and managing phone numbers in France for Skype for Business Online and Microsoft Teams."
 ---
 
@@ -42,7 +41,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Emergency calling labels](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
