@@ -242,9 +242,9 @@ ranges](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-so
 > Use the following template to document the SBC details for your Direct Routing deployment.
 > | **SBC DNS Name (FQDN)** | **SBC make and model** | **Certificate** | **Location**  | **IP address** | **SIP signaling port** | **NAT?** | **Max concurrent sessions** | **Media bypass enabled?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
-> | SBC-Europe.constoso.com | TBD | \*.constoso.com | Amsterdam | TBD | TBD | Yes | TBD | No |
-> | SBC-Asia.contoso.com | TBD | \*.constoso.com | Hong Kong SAR | TBD | TBD | No | TBD | Yes |
-> | SBC-Africa.contoso.com | TBD | \*.constoso.com | Johannesburg | TBD | TBD | Yes | TBD | Yes |
+> | SBC-Europe.contoso.com | TBD | \*.contoso.com | Amsterdam | TBD | TBD | Yes | TBD | No |
+> | SBC-Asia.contoso.com | TBD | \*.contoso.com | Hong Kong SAR | TBD | TBD | No | TBD | Yes |
+> | SBC-Africa.contoso.com | TBD | \*.contoso.com | Johannesburg | TBD | TBD | Yes | TBD | Yes |
 
 ## Voice routing
 
