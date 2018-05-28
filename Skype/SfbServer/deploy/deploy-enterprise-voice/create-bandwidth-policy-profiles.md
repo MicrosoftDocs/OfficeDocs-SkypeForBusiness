@@ -1,9 +1,8 @@
 ---
-title: "Create bandwidth policy profiles in Skype for Business Server 2015"
+title: "Create bandwidth policy profiles in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,13 +15,13 @@ ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: "Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server."
 ---
 
-# Create bandwidth policy profiles in Skype for Business Server 2015
+# Create bandwidth policy profiles in Skype for Business Server 
  
 Create or modify bandwidth policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 Bandwidth policies define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied tobandwidth policy profiles, which can be applied to multiple network sites for call admission control.
   
-For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+For guidelines about what bandwidth limits you should set in your CAC deployment, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions. For example, the 5Mb_Link bandwidth policy profile sets the following limits: 
   

@@ -1,9 +1,8 @@
 ---
-title: "Managing application-level Response Group settings in Skype for Business 2015"
+title: "Managing application-level Response Group settings in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: "Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice."
 ---
 
-# Managing application-level Response Group settings in Skype for Business 2015
+# Managing application-level Response Group settings in Skype for Business
  
 Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice.
   

@@ -1,9 +1,8 @@
 ---
-title: "Enable Group Call Pickup for users and assign a group number in Skype for Business 2015"
+title: "Enable Group Call Pickup for users and assign a group number in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: "Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number."
 ---
 
-# Enable Group Call Pickup for users and assign a group number in Skype for Business 2015
+# Enable Group Call Pickup for users and assign a group number in Skype for Business 
  
 Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.
   

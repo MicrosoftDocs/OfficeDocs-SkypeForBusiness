@@ -1,9 +1,8 @@
 ---
-title: "Create or modify an agent group in Skype for Business 2015"
+title: "Create or modify an agent group in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: "Create or modify an agent group in Response Group, in Skype for Business Server Enterprise Voice."
 ---
 
-# Create or modify an agent group in Skype for Business 2015
+# Create or modify an agent group in Skype for Business
  
 Create or modify an agent group in Response Group, in Skype for Business Server Enterprise Voice.
   

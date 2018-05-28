@@ -1,9 +1,8 @@
 ---
-title: "Enable call admission control in Skype for Business Server 2015"
+title: "Enable call admission control in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: "Enable call admission control in Skype for Business Server Enterprise Voice."
 ---
 
-# Enable call admission control in Skype for Business Server 2015
+# Enable call admission control in Skype for Business Server
  
 Enable call admission control in Skype for Business Server Enterprise Voice. 
   

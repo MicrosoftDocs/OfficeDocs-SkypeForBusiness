@@ -1,9 +1,8 @@
 ---
-title: "Create or modify a voice route in Skype for Business 2015"
+title: "Create or modify a voice route in Skype for Business"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: "Summary: Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel."
+description: "Summary: Learn how to create or modify a voice route in Skype for Business Server by using the Skype for Business Server Control Panel."
 ---
 
-# Create or modify a voice route in Skype for Business 2015
+# Create or modify a voice route in Skype for Business
  
-**Summary:** Learn how to create or modify a voice route in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
+**Summary:** Learn how to create or modify a voice route in Skype for Business Server by using the Skype for Business Server Control Panel.
   
 ### To create a voice route by using the Skype for Business Server Control Panel
 
@@ -53,7 +52,7 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 11. To associate one or more Public Switched Telephone Network (PSTN) usages with the voice route, click **Select** and choose a record from the list of PSTN usage records that have been defined for your Enterprise Voice deployment.
     
     > [!NOTE]
-    > To view the properties of each of the available PSTN usage records, see [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md). > To create or edit PSTN usage records, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md)
+    > To view the properties of each of the available PSTN usage records, see [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > To create or edit PSTN usage records, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
   
 12. Arrange the PSTN usage records for optimum performance. To change a record's position in the list, highlight the record name and click the up or down arrow.
     
@@ -65,7 +64,7 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 14. Click **OK** to save the voice route.
     
     > [!IMPORTANT]
-    > Whenever you create a voice route, you must run the **Commit All** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md). 
+    > Whenever you create a voice route, you must run the **Commit All** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md). 
   
 ### To modify a voice route
 
@@ -100,7 +99,7 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 9. To associate one or more PSTN usages with the voice route, click **Select** and choose a record from the list of PSTN usage records that have been defined for your Enterprise Voice deployment.
     
     > [!NOTE]
-    > To view the properties of each of the available PSTN usage records, see [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md). > To create or edit PSTN usage records, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md). 
+    > To view the properties of each of the available PSTN usage records, see [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). > To create or edit PSTN usage records, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md). 
   
 10. Arrange the PSTN usage records for optimum performance. To change a record's position in the list, highlight the record name and click the up or down arrow.
     
@@ -114,15 +113,15 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
 13. On the **Route** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a voice route, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a voice route, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 
 #### 
 
-[View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md)
+[View PSTN usage records in Skype for Business](view-pstn-usage-records.md)
   
-[Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md)
+[Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
   
-[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
+[Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
 

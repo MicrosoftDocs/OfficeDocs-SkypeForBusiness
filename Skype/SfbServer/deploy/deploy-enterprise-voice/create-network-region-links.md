@@ -1,9 +1,8 @@
 ---
-title: "Create network region links in Skype for Business Server 2015"
+title: "Create network region links in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,13 +15,13 @@ ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: "Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server."
 ---
 
-# Create network region links in Skype for Business Server 2015
+# Create network region links in Skype for Business Server
  
 Create or modify network region links, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   
 Regions within a network are linked through physical WAN connectivity. A network region link creates a link between two regions configured for Call Admission Control (CAC) and sets the bandwidth limitations on audio and video traffic between these regions.
   
-The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions. Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+The example topology has a link between the North America and APAC regions, and a link between the EMEA and APAC regions. Each of these region links is constrained by WAN bandwidth, as described in Region Link Bandwidth Information table in [Example: Gathering requirements for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### To create network region links by using Skype for Business Server Management Shell
 

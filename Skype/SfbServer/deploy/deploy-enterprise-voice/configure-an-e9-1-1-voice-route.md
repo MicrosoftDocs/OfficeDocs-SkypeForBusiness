@@ -1,9 +1,8 @@
 ---
-title: "Configure an E9-1-1 voice route in Skype for Business Server 2015"
+title: "Configure an E9-1-1 voice route in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,11 +15,11 @@ ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: "Configure E9-1-1 voice routes in Skype for Business Server Enterprise Voice."
 ---
 
-# Configure an E9-1-1 voice route in Skype for Business Server 2015
+# Configure an E9-1-1 voice route in Skype for Business Server
  
 Configure E9-1-1 voice routes in Skype for Business Server Enterprise Voice. 
   
-To deploy E9-1-1, you first need to configure an emergency call voice route. For details about creating voice routes, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md). You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk. 
+To deploy E9-1-1, you first need to configure an emergency call voice route. For details about creating voice routes, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md). You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk. 
   
 > [!NOTE]
 > To include location information in an E9-1-1 INVITE, you need to configure the SIP trunk that connects to the E9-1-1 service provider to route emergency calls through the gateway. To do this, set the EnablePIDFLOSupport flag on the **Set-CsTrunkConfiguration** cmdlet to True. The default value for EnablePIDFLOSupport is False. For example: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` It is not necessary to enable receiving locations for fallback public switched telephone network (PSTN) gateways and Emergency Location Identification Number (ELIN) gateways.
@@ -33,7 +32,7 @@ To deploy E9-1-1, you first need to configure an emergency call voice route. For
     
 3. Run the following cmdlet to create a new PSTN usage record. 
     
-    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](voice-and-pstn.md).
+    This must be the same name that you will use for the **PSTN** setting in the location policy. Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages. For details, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business](voice-and-pstn.md).
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
