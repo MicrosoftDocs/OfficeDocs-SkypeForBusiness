@@ -16,21 +16,21 @@ appliesto:
 # Conduct a user pilot
 
 
-By deploying new technologies, your organization can realize business value such as cost savings, security compliance, employee satisfaction, and operational efficiencies, but it can also affect your users’ productivity and organizational infrastructure (that is, your network). Before enabling new technology across your organization, conduct a formal user pilot. Just like you’d paint a small patch of color on a wall before painting the whole room, you’d test a broad rollout on a smaller scale by conducting a pilot, so you can  validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
+By deploying new technologies, your organization can realize business value such as cost savings, security compliance, employee satisfaction, and operational efficiencies, but it can also affect your users’ productivity and organizational infrastructure (your network). Before enabling new technology across your organization, conduct a formal user pilot. Just like you’d paint a small patch of color on a wall before painting the whole room, you’d test a broad rollout on a smaller scale by conducting a pilot to validate technical and user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
 
 To achieve the most realistic results, the pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. Sometimes considered Phase 1 of a rollout, the ideal pilot leverages the preparation you’ve already started and implements your defined plan with a targeted group of users. 
 
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the guidance below to design and execute your formal pilot, including:<ul><li>Pilot logistics—defining scope, success metrics, and timeline.</li><li>Pilot participants—selecting the right users.</li><li>Test plan and feedback survey—designing targeted and relevant scenarios for testing.</li><li>Communications plan—creating an awareness campaign to inform and engage pilot participants.</li><li>Pilot execution—implementing your pilot in accordance with your timeline.</li><li>Pilot assessment—gathering insights, measuring success against the goals you defined, and determining next steps.</li></li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
 
 > [!Tip]
-> Use the sample [Pilot Essentials resources](https://go.microsoft.com/fwlink/?linkid=859067) to help design your communications, test plan, and feedback survey.
+> Use the sample [pilot resources](https://go.microsoft.com/fwlink/?linkid=859067) to help design your communications, test plan, and feedback survey.
 
 ## 1. Outline pilot logistics
 
-A successful pilot has defined start and end dates, and clearly defined goals for measuring success. These goals should align with the scope of your broader project, as documented in [Plan for your journey](upgrade-plan-journey.md). You should also ensure that you’ve included the right stakeholders for the duration of the project.  You’ll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
+A successful pilot has defined start and end dates, and [clearly defined goals](upgrade-define-project-scope.md#project-goals) for measuring success. These goals should align with the scope of your broader project, as you documented when you [defined your project scope](upgrade-define-project-scope.md), and will be used to inform your path forward after your pilot is over. You should also ensure that you’ve included the right stakeholders for the duration of the project.  You’ll want to be sure to allow enough time to run the pilot and assess its impact: we recommend a minimum of 30 days.
 
 Start small, and add to your pilot as appropriate—whether by adding workloads or features, or additional users—making time to assess results and adjust your pilot as you iterate. You might even opt to run subsequent pilots as new Teams features are released per the roadmap.
 
@@ -51,17 +51,20 @@ Your organization might choose to pilot all functionality at once, or use a grad
 
 It’s crucial to the success of your pilot that you educate pilot participants on what’s happening, when, and why, and what’s expected of them. To drive excitement and maximum participation, be sure to include user value messaging in addition to links to training and support where users can get additional information as they progress through the pilot. Here are a few sample resources to get you started with your pilot communications plan:
 
--   [Pilot Essentials resources](https://go.microsoft.com/fwlink/?linkid=859067), including email templates and sample feedback survey questions
+-   [Pilot resources](https://go.microsoft.com/fwlink/?linkid=859067), including email templates and sample feedback survey questions
 -   [Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), a quick-start guide designed to help Skype for Business users get started with Teams
 
 ## 5. Conduct your pilot
 
 With all the logistics in place, you’re now ready to begin your pilot. Conducting your pilot includes communicating with your users, monitoring your network and usage to ensure your network performance and call quality remain healthy, gathering feedback from participants, and reviewing helpdesk tickets for questions related to Teams.
 
-> [!Tip]
-> The following tips can help ensure the success of your pilot:
+### Tips for pilot success
+
+The following tips can help ensure the success of your pilot:
 -   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](user-access.md) you want to validate.
 -   Weekly, throughout your pilot, meet with your project stakeholders to review user feedback, usage data, network data, and helpdesk tickets to ensure your pilot is running smoothly. Make any adjustments as needed.
+
+### Suggested timeline
 
 Here's a suggested timeline for a 30-day pilot:
 
@@ -79,7 +82,7 @@ After your pilot is complete, it’s time to gather all feedback surveys, final 
 
 Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offer support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout. 
 
-If your pilot results indicate:
+If your pilot results indicate that:
 
 -   **User satisfaction and network quality are ideal**, you might be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
