@@ -1,9 +1,8 @@
 ---
-title: "Plan for Call Via Work in Skype for Business Server 2015"
+title: "Plan for Call Via Work in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: "Planning for Call Via Work in Skype for Business Server, which enables integration between Skype for Business and your PBX phone system, so that users can use Skype for Business to control their PBX phones."
 ---
 
-# Plan for Call Via Work in Skype for Business Server 2015
+# Plan for Call Via Work in Skype for Business Server
  
 Planning for Call Via Work in Skype for Business Server, which enables integration between Skype for Business and your PBX phone system, so that users can use Skype for Business to control their PBX phones.
   

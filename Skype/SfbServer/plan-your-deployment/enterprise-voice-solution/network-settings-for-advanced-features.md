@@ -1,9 +1,8 @@
 ---
-title: "Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015"
+title: "Network settings for the advanced Enterprise Voice features in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,14 +12,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: "Learn about network regions, network sites, and IP subnets. All these must be configured to deploy Plan for media bypass in Skype for Business 2015, Plan for call admission control in Skype for Business Server 2015), or Plan for emergency services in Skype for Business Server 2015 in Skype for Business Server Enterprise Voice."
+description: "Learn about network regions, network sites, and IP subnets. All these must be configured to deploy Plan for media bypass in Skype for Business, Plan for call admission control in Skype for Business Server), or Plan for emergency services in Skype for Business Server in Skype for Business Server Enterprise Voice."
 ---
 
-# Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015
+# Network settings for the advanced Enterprise Voice features in Skype for Business Server
  
-Learn about network regions, network sites, and IP subnets. All these must be configured to deploy [Plan for media bypass in Skype for Business 2015](media-bypass.md), [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)), or [Plan for emergency services in Skype for Business Server 2015](emergency-services.md) in Skype for Business Server Enterprise Voice.
+Learn about network regions, network sites, and IP subnets. All these must be configured to deploy [Plan for media bypass in Skype for Business](media-bypass.md), [Plan for call admission control in Skype for Business Server](call-admission-control.md), or [Plan for emergency services in Skype for Business Server](emergency-services.md) in Skype for Business Server Enterprise Voice.
   
-Skype for Business Server has three advanced Enterprise Voice features: [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)), [Plan for emergency services in Skype for Business Server 2015](emergency-services.md), and [Plan for media bypass in Skype for Business 2015](media-bypass.md). These features share certain configuration requirements for network regions, network sites, and association of each subnet in the Skype for Business Server topology with a network site. 
+Skype for Business Server has three advanced Enterprise Voice features: [Plan for call admission control in Skype for Business Server](call-admission-control.md), [Plan for emergency services in Skype for Business Server](emergency-services.md), and [Plan for media bypass in Skype for Business](media-bypass.md). These features share certain configuration requirements for network regions, network sites, and association of each subnet in the Skype for Business Server topology with a network site. 
   
 This topic provides an overview of the configuration requirements that are common to all three of these advanced Enterprise Voice features.
   
@@ -33,11 +32,11 @@ A network region is a network hub or network backbone used only in the configura
   
 CAC requires that every network region have an associated Skype for Business Server central site, which manages media traffic within the region (that is, it makes decisions based on policies that you have configured, regarding whether or not a real-time audio or video session can be established). Skype for Business Server central sites do not represent geographical locations, but rather logical groups of servers that are configured as a pool or a set of pools. 
   
-To configure a network region, you can either use the **Regions** tab on the **Network Configuration** section of Skype for Business Server Control Panel, or run the **New-CsNetworkRegion** or **Set-CsNetworkRegion** Skype for Business Server Management Shell cmdlets. For instructions, see [Deploy network regions, sites and subnets in Skype for Business 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
+To configure a network region, you can either use the **Regions** tab on the **Network Configuration** section of Skype for Business Server Control Panel, or run the **New-CsNetworkRegion** or **Set-CsNetworkRegion** Skype for Business Server Management Shell cmdlets. For instructions, see [Deploy network regions, sites and subnets in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
   
 The same network region definitions are shared by all three advanced Enterprise Voice features. If you have already created network regions for one feature, you do not need to create new network regions for the other features. You may, however, need to modify an existing network region definition to apply feature-specific settings. For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and, later, you deploy call admission control, you must modify each of the network region definitions to specify a central site.
   
-To associate a Skype for Business Server central site with a network region, you specify the central site name, either by using the **Network Configuration** section of Skype for Business Server Control Panel, or by running the **New-CsNetworkRegion** or **Set-CsNetworkRegion** cmdlets. For instructions, see [Deploy network regions, sites and subnets in Skype for Business 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
+To associate a Skype for Business Server central site with a network region, you specify the central site name, either by using the **Network Configuration** section of Skype for Business Server Control Panel, or by running the **New-CsNetworkRegion** or **Set-CsNetworkRegion** cmdlets. For instructions, see [Deploy network regions, sites and subnets in Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) in the Deployment documentation, or refer to the Skype for Business Server Management Shell documentation.
   
 ## Network Sites
 
@@ -67,9 +66,9 @@ To associate subnets with network sites, you can either use the **Network Config
 
 #### 
 
-[Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)
+[Plan for call admission control in Skype for Business Server](call-admission-control.md)
   
-[Plan for emergency services in Skype for Business Server 2015](emergency-services.md)
+[Plan for emergency services in Skype for Business Server](emergency-services.md)
   
-[Plan for media bypass in Skype for Business 2015](media-bypass.md)
+[Plan for media bypass in Skype for Business](media-bypass.md)
 
