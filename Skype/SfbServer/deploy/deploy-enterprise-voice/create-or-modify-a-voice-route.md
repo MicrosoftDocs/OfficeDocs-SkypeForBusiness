@@ -117,8 +117,6 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
   
 ## See also
 
-#### 
-
 [View PSTN usage records in Skype for Business](view-pstn-usage-records.md)
   
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)

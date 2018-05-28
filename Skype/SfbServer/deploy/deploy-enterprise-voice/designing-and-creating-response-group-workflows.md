@@ -638,8 +638,6 @@ The following list describes some best practices for designing your IVR:
   
 ## See also
 
-#### 
-
 [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md)
 
 [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)

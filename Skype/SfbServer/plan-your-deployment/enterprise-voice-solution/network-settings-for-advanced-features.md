@@ -64,8 +64,6 @@ To associate subnets with network sites, you can either use the **Network Config
   
 ## See also
 
-#### 
-
 [Plan for call admission control in Skype for Business Server](call-admission-control.md)
   
 [Plan for emergency services in Skype for Business Server](emergency-services.md)

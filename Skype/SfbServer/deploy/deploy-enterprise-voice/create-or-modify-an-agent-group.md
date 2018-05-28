@@ -139,8 +139,6 @@ Use one of the following procedures to create or modify an agent group.
 
 ## See also
 
-#### 
-
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
 [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)

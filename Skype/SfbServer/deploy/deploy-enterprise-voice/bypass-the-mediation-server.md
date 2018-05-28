@@ -39,8 +39,6 @@ If you do not have good connectivity between Skype for Business endpoints and al
     
 ## See also
 
-#### 
-
 [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)

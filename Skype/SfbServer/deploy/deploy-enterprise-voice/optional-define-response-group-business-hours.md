@@ -58,8 +58,6 @@ Business hour settings define when the workflow is available to answer calls and
 
 ## See also
 
-#### 
-
 [New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

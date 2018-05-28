@@ -49,7 +49,5 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
 
 ## See also
 
-#### 
-
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
 

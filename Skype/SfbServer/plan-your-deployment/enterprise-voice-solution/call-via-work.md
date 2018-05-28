@@ -93,9 +93,7 @@ To enable any users for Call Via Work, you must have some pre-requisites in plac
   
 ## See also
 
-#### 
-
-[Plan for remote call control in Skype for Business 2015](remote-call-control.md)
+[Plan for remote call control in Skype for Business](remote-call-control.md)
   
 [Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
 

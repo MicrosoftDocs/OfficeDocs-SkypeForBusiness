@@ -33,8 +33,6 @@ For more information, see [Remote Call Control](https://go.microsoft.com/fwlink/
   
 ## See also
 
-#### 
-
 [Plan for Call Via Work in Skype for Business Server](call-via-work.md)
   
 [Desktop client feature comparison for Skype for Business](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)

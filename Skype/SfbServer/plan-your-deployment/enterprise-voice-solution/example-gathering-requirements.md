@@ -52,7 +52,7 @@ To prepare for call admission control, gather the information described in the f
      ![Network Topology Example with 3 Network Regions](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
   
     > [!NOTE]
-    > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see the "[Components and topologies for call admission control in Skype for Business](components-and-topologies.md)" topic in the Planning documentation. 
+    > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see [Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
   
     In the preceding example network topology, there are three network regions, each with a Skype for Business Server central site that manages CAC. The appropriate central site for a network region is chosen by the geographic vicinity. Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable. 
     

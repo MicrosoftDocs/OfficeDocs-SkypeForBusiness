@@ -64,8 +64,6 @@ The example topology has a link between the North America and APAC regions, and 
     
 ## See also
 
-#### 
-
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)

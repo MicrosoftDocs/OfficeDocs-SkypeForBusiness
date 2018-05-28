@@ -26,7 +26,5 @@ Call Park orbits must not be normalized. Check your dial plans to be sure that y
   
 ## See also
 
-#### 
-
 [Create or modify a dial plan in Skype for Business Server](dial-plans.md)
 

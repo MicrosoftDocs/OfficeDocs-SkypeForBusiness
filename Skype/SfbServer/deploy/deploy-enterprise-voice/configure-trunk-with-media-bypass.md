@@ -178,8 +178,6 @@ A trunk configuration as described below groups a set of parameters that are app
 After you have configured the trunk, continue configuring media bypass by choosing between global media bypass options, as described in [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md) in the Deployment documentation.
 ## See also
 
-#### 
-
 [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md)
 
 [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)

@@ -71,8 +71,6 @@ The call pickup group number ranges must comply with the following rules:
   
 ## See also
 
-#### 
-
 [New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
   
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)

@@ -163,8 +163,6 @@ Use one of the following procedures to configure unassigned number ranges for th
   
 ## See also
 
-#### 
-
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   
 [Set-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/set-csunassignednumber?view=skype-ps)

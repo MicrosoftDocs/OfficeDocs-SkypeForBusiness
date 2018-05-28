@@ -42,7 +42,5 @@ After you add call pickup group numbers to the call park orbit table, you use th
 
 ## See also
 
-#### 
-
 [Disable Group Pickup for Users](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 

@@ -95,8 +95,6 @@ Follow these steps if you want to define a translation rule by entering a set of
   
 ## See also
 
-#### 
-
 [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md)
   
 [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md)

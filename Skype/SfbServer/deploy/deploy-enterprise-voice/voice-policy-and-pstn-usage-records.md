@@ -330,8 +330,6 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
 ## See also
 
-#### 
-
 [View PSTN usage records in Skype for Business](view-pstn-usage-records.md)
   
 [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)

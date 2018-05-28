@@ -23,9 +23,9 @@ The advanced Enterprise Voice features are [call admission control](../../plan-y
   
 Call admission control and E9-1-1 have additional configuration requirements for network sites:
   
-- Call admission control requires that a bandwidth policy profile be specified for each site that is constrained by WAN bandwidth limitations. If you plan to deploy call admission control, you must[Create bandwidth policy profiles in Skype for Business Server](create-bandwidth-policy-profiles.md) before you configure your network sites.
+- Call admission control requires that a bandwidth policy profile be specified for each site that is constrained by WAN bandwidth limitations. If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Skype for Business Server](create-bandwidth-policy-profiles.md) before you configure your network sites.
     
-- E9-1-1 requires that a location policy be specified for each site. If you plan to deploy E9-1-1, you must[Create location policies in Skype for Business Server](create-location-policies.md) before you configure your network sites.
+- E9-1-1 requires that a location policy be specified for each site. If you plan to deploy E9-1-1, you must [Create location policies in Skype for Business Server](create-location-policies.md) before you configure your network sites.
     
 ## Create or modify a Network Region
 
@@ -312,7 +312,6 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 ## See also
 <a name="BKMK_AssociateSubnets"> </a>
 
-#### 
 
 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   

@@ -109,8 +109,6 @@ To create a new announcement, you need to perform the following steps:
   
 ## See also
 
-#### 
-
 [Create or delete an announcement in Skype for Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)

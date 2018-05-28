@@ -39,7 +39,7 @@ This section includes procedures for deployments in which a Mediation Server is 
 - [Create or modify a translation rule for caller ID presentation in Skype for Business Server](caller-id-presentation-rules.md)
     
 - [Create or modify a translation rule for called ID presentation in Skype for Business Server](called-id-presentation-rules.md)
-    
+
 - [Create or modify a normalization rule in Skype for Business](normalization-rules.md)
     
 - [Create or modify a dial plan in Skype for Business Server](dial-plans.md)
@@ -53,8 +53,6 @@ This section includes procedures for deployments in which a Mediation Server is 
 - [Deploy call management features in Skype for Business](deploy-call-management-features.md)
     
 ## See also
-
-#### 
 
 [Plan for Enterprise Voice in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
