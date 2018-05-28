@@ -51,9 +51,6 @@ The following topics introduce and detail the Planning Tool.
     
 ## See also
 
-#### 
-
 [Install Skype for Business Server 2015](../../deploy/install/install.md)
   
 [Plan for instant messaging and presence in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)
-
