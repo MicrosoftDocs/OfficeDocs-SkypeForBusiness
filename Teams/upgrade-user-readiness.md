@@ -44,6 +44,7 @@ An optimal user readiness plan incorporates how you’ll communicate, train, and
 </table>
 </div>
 
-After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to onboard your users to Teams.
 
+After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to onboard your users to Teams.
+WHERE SHOULD THIS LINK TO?
 

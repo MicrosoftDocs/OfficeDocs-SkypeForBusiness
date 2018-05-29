@@ -14,6 +14,7 @@ appliesto:
 ---
 
 ![Conduct a user pilot](media/upgrade-banner-deployment.png "Conduct a user pilot")
+
 INTRO TEXT GOES HERE. 
 
 # Conduct a user pilot

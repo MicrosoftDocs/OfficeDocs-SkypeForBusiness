@@ -14,7 +14,8 @@ appliesto:
 ---
 
 ![Begin your upgrade journey](media/upgrade-banner-stakeholders.png "Begin your upgrade journey")
-PLEASE NOTE DIFFERENT (SUGGESTED) ALT TEXT. INTRO TEXT GOES HERE. 
+
+INTRO TEXT GOES HERE. 
 
 
 # Plan for your journey

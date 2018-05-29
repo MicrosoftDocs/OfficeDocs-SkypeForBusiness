@@ -124,11 +124,13 @@ Identify targeted user profiles that require specific technical or user readines
 <table>
 <tr><th colspan="2">Persona/Profile: Executive</th></tr>
 <tr><td>What core characteristics define this persona (that is, who are they, what do they do)</td><td><ul><li>Voice/brand of the organization internally and externally</li><li>Relationship-focused</li><li>Fast-paced, dynamic schedules</li><li>Use mobile devices to stay connected</li><li>Rely on delegates as their “eyes and ears”</li><li>Spend most of their day in meetings or on the phone</li></ul></td></tr>
-<tr><td>What are common use cases for this persona?<br><ital>Apply the universal use cases above to this persona, then elaborate on specific scenarios.</ital></td><td><ul><li>Personal productivity<ul><li>Customer and rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/stakeholder reviews</li><li>One-to-many: All-hands</li></ul></li><li>Project collaboration<ul><li>TBD??</li></ul></li></ul></td></tr>
+<tr><td>What are common use cases for this persona?<br><ital>Apply the universal use cases above to this persona, then elaborate on specific scenarios.</ital></td><td><ul><li>Personal productivity<ul><li>Customer and rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/stakeholder reviews</li><li>One-to-many: All-hands</li></ul></li><li>Project collaboration</li></ul></td></tr>
 <tr><td>What functionality is required?</td><td><ul><li>Delegate synchronization</li><li>Contact management (internal and external)</li><li>Audio calling (PC and PSTN)</li><li>Video calling</li><li>Multiple device support</li><li>Application sharing</li></ul></td></tr>
 <tr><td>What devices will they need?</td><td><ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</li></ul></td></tr>
 <tr><td>What is the value for this persona to use Teams?</td><td><ul><li>Teams mobile app delivers high-quality experience when traveling: take Teams on the go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul></td></tr>
 <tr><td>What training will they require?</td><td><ul><li>White glove</li><li>Short session: 15-minute hands-on</li></ul></td></tr>
 <tr><td>Rollout timing</td><td><ul><li>Enlist a segment of users for the pilot</li><li>Include in the initial phase of the broad rollout</li><li>Include in the secondary phase of the broad rollout after solid results are proven</li></ul></td></tr>
 
-Use the information you’ve gathered above to inform your [user readiness plan](upgrade-user-readiness.md)
+
+
+Use the information you’ve gathered above to inform your [user readiness plan](upgrade-user-readiness.md).
