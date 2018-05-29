@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![User Readiness](media/upgrade-banner-user-readiness.png "User Readiness")
+![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Tecnical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
 
@@ -48,22 +48,33 @@ Use the following conversation starters to conduct an organizational readiness a
 
 #### What percentage of users fall into each bucket?
 
+<!--
 | **Type of user**                                               | **%** |
 |----------------------------------------------------------------|-------|
 | *Early adopters* request the solution before it’s available.   |       |
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
+-->
+| Early adopters  | Informed users  | Laggards |
+|-----------------|-----------------|----------|
+| These users request the solution before it’s available. | These users accept the solution as soon as its value is demonstrated. | These users reject the solution, even when pushed into change. |
+
 
 > [!Tip]
 > Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations. 
 
 #### What percentage of users fall into each competency?
 
+<!-- 
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
+-->
+| Self-motivated  | Team players  | Hand-holding seekers |
+|-----------------|-----------------|----------|
+| These learners seek out resources, learn by doing. | These users enjoy group and interact training; they’ll go along with coworkers. | These users expect “white glove” or one-on-one assistance. |
 
 > [!Tip]
 > Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If 20 percent or more are team players, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you’ll find executives or targeted roles in the hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience. 

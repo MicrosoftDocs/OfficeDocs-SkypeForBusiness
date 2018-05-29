@@ -12,7 +12,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Drive operational excellence](media/upgrade-banner-op-excellence.png "Drive operational excellence")
+![Stages of the upgrade journey, with emphasis on Operational Excellence](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on Operational Excellence")
 
 NEEDS INTRO
 

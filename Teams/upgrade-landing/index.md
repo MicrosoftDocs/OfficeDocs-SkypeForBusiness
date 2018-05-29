@@ -32,59 +32,6 @@ We understand that customers don’t come one-size-fits-all. For added flexibili
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to [share your feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u).
 
-FORMAT SURVEY: LIST THE CHOICES VERTICALLY?
-
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                       <p>Upgrade Essentials is designed for smaller customers or those with simple deployments (for example, IM only), who can quickly and easily move all their users to Teams at once.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageText">
-                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach."></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p>Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach.</p>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                   <div class="cardImage">
-                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams."></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-
-
-...OR SIDE BY SIDE?
 
 <table>
 <tbody>

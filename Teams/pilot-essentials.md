@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Conduct a user pilot](media/upgrade-banner-deployment.png "Conduct a user pilot")
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 INTRO TEXT GOES HERE. 
 
