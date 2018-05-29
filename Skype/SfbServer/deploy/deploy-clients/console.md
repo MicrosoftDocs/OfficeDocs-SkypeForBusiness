@@ -232,8 +232,6 @@ Use the following checklist while doing a final verification that the console de
 ## See also
 <a name="Checklist"> </a>
 
-#### 
-
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Deploy Skype Room Systems v2](room-systems-v2.md)
@@ -241,4 +239,3 @@ Use the following checklist while doing a final verification that the console de
 [Configure a Skype Room Systems v2 console](console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

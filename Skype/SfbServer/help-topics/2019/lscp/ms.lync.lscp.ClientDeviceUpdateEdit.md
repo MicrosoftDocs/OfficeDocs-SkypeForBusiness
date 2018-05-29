@@ -47,7 +47,4 @@ The following lists describe the menus, commands, fields, and properties on the 
     
 ## See also
 
-#### 
-
 [Device Log Configuration](ms.lync.lscp.ClientDeviceCfgMain.md)
-

@@ -93,7 +93,4 @@ Click **Help** to read this help topic.
   
 ## See also
 
-#### 
-
 [Define and Configure a Front End Pool or Standard Edition Server](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

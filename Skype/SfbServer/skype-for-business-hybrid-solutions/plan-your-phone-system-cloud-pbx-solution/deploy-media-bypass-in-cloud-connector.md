@@ -179,7 +179,4 @@ At this point, clients making DNS queries from the Amsterdam subnet for hybridvo
 ## See also
 <a name="Example"> </a>
 
-#### 
-
 [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
-

@@ -56,9 +56,6 @@ While using OMS to manage your Skype Room Systems v2 conference devices, you'll 
     
 ## See also
 
-#### 
-
 [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md)
   
 [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md)
-

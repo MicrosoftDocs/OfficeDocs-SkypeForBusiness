@@ -110,8 +110,6 @@ To create a new announcement, you need to perform the following steps:
   
 ## See also
 
-#### 
-
 [Create or delete an announcement in Skype for Business Server 2015](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
@@ -121,4 +119,3 @@ To create a new announcement, you need to perform the following steps:
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
   
 [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
-
