@@ -15,7 +15,12 @@ appliesto:
 
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-INTRO TEXT GOES HERE. 
+This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you’ve completed the following activities:
+
+-   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Prepared your environment](upgrade-prepare-environment.md)
+-   [Prepared your organization](upgrade-prepare-organization.md)
 
 # Conduct a user pilot
 

@@ -15,7 +15,7 @@ appliesto:
 
 ![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
 
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Tecnical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
