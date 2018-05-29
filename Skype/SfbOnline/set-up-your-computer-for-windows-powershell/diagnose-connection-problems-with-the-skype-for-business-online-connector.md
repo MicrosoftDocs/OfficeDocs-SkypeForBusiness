@@ -47,7 +47,7 @@ The PowerShell execution policy helps to determine which configuration files can
   
 - **Error**: *Import-Module : File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.*
 
-- **Resolution** To resolve this issue, start PowerShell as an administrator, and then run the following command:
+- **Resolution**: To resolve this issue, start PowerShell as an administrator, and then run the following command:
     ```
     Set-ExecutionPolicy RemoteSigned
     ```

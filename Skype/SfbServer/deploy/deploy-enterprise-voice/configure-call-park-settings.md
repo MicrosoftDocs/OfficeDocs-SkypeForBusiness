@@ -58,7 +58,6 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
 #### 
 
 [Customize Call Park music on hold inSkype for Business 2015](customize-call-park-music-on-hold.md)
-#### 
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   
