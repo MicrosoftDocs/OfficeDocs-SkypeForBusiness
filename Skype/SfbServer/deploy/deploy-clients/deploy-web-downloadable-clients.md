@@ -145,8 +145,6 @@ This procedure is optional. If you do not use it, external users will continue t
 ## See also
 <a name="SMA_Enable"> </a>
 
-#### 
-
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
@@ -156,4 +154,3 @@ This procedure is optional. If you do not use it, external users will continue t
 [Microsoft Online Services Privacy Statement](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
 [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
-

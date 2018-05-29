@@ -34,11 +34,8 @@ For more information, see [Remote Call Control](https://go.microsoft.com/fwlink/
   
 ## See also
 
-#### 
-
 [Plan for Call Via Work in Skype for Business Server 2015](call-via-work.md)
   
 [Desktop client feature comparison for Skype for Business](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
 [Make a Skype for Business call but use your PBX desk phone for audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
-

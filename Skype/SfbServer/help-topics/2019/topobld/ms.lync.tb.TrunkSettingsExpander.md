@@ -37,9 +37,6 @@ To edit or modify the settings for a SIP trunk, you do the following:
   
 ## See also
 
-#### 
-
 [SIP Trunking Deployment Checklist](http://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
   
 [Components and Topologies for SIP Trunking](http://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
-

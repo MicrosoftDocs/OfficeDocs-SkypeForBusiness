@@ -121,8 +121,6 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## See also
 
-#### 
-
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Deploy Skype Room Systems v2](room-systems-v2.md)
@@ -130,4 +128,3 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 [Configure a Skype Room Systems v2 console](console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

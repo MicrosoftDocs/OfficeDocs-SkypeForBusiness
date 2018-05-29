@@ -136,8 +136,6 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 <a name="See"> </a>  
 ## See also
 
-
-#### 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Prepare your Skype for Business Environment](srs-v2-prep.md)

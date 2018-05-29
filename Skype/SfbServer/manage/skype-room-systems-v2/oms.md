@@ -36,11 +36,8 @@ Understanding these event descriptions alerts you to problems quickly, and provi
 |4000  <br/> Information  <br/> |This is an App Restart event. Every time the app is restarted, it will log this event into the Windows event log.  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> The Skype for Business app may restart for a variety of reasons. compare the restart frequency of devices in the same building and in different buildings, keeping in mind known issues like power fluctuations and failures, as this may provide clues to infrastructure problems. <br/> |
    
 ## See also
-<a name="Telemetry"> </a>
-
-#### 
+<a name="Telemetry"></a>
 
 [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Deploy Skype Room Systems v2 management with OMS](../../deploy/deploy-clients/with-oms.md)
-

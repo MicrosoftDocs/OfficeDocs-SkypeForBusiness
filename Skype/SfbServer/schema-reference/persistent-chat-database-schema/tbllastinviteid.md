@@ -32,7 +32,4 @@ tblLastInviteId contains the last invite ID that was generated (and used in the 
    
 ## See also
 
-#### 
-
 [tblPrincipalInvites](tblprincipalinvites.md)
-
