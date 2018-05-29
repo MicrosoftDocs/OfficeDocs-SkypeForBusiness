@@ -129,7 +129,7 @@ Identify targeted user profiles that require specific technical or user readines
 <tr><td>What devices will they need?</td><td><ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</li></ul></td></tr>
 <tr><td>What is the value for this persona to use Teams?</td><td><ul><li>Teams mobile app delivers high-quality experience when traveling: take Teams on the go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul></td></tr>
 <tr><td>What training will they require?</td><td><ul><li>White glove</li><li>Short session: 15-minute hands-on</li></ul></td></tr>
-<tr><td>Rollout timing</td><td><ul><li>Enlist a segment of users for the pilot</li><li>Include in the initial phase of the broad rollout</li><li>Include in the secondary phase of the broad rollout after solid results are proven</li></ul></td></tr>
+<tr><td>Rollout timing</td><td><ul><li>Enlist a segment of users for the pilot</li><li>Include in the initial phase of the broad rollout</li><li>Include in the secondary phase of the broad rollout after solid results are proven</li></ul></td></tr></table>
 
 
 
