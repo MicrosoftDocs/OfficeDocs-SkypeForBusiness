@@ -13,6 +13,9 @@ appliesto:
 - Microsoft Teams
 ---
 
+![Conduct a user pilot](media/upgrade-banner-deployment.png "Conduct a user pilot")
+INTRO TEXT GOES HERE. 
+
 # Conduct a user pilot
 
 
@@ -78,14 +81,15 @@ Here's a suggested timeline for a 30-day pilot:
  
 ## 6. Assess learnings and evaluate your go-forward plan
 
-After your pilot is complete, it’s time to gather all feedback surveys, final network stats, and support tickets for analysis against your goals and determination of whether you’ll implement your go-forward plan. You might find that your organization is ready for a broad deployment, or you want to extend your pilot to more users, or you want to revisit the pilot at a later date after any concerns you’ve identified have been mitigated. Remember that your pilot is a great way to predict technical and user outcomes in a _controlled_ environment; be thoughtful about jumping ahead too quickly.
+After your pilot is complete, it’s time to gather all feedback surveys, final network stats, and support tickets for analysis against your goals and determine whether you’ll implement your go-forward plan. You might find that your organization is ready for a broad deployment, or you want to extend your pilot to more users, or you want to revisit the pilot at a later date after any concerns you’ve identified have been mitigated. Remember that your pilot is a great way to predict technical and user outcomes in a _controlled_ environment; be thoughtful about jumping ahead too quickly.
 
-Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offer support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout. 
+If your results indicate:
 
-If your pilot results indicate that:
-
--   **User satisfaction and network quality are ideal**, you might be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
+-   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
    -   Enabling Teams alongside Skype for Business across your broader organization
    -   Upgrading users from Skype for Business to Teams
--   **User satisfaction and network quality aren’t satisfactory**, take time to make the appropriate adjustments to your plan and revisit your pilot.
+-   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
+
+> [!Tip]
+> Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout. 

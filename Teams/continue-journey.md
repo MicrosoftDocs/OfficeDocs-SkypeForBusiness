@@ -12,6 +12,9 @@ appliesto:
 - Microsoft Teams
 ---
 
+![Drive operational excellence](media/upgrade-banner-op-excellence.png "Drive operational excellence")
+NEEDS INTRO
+
 # Drive operational excellence with Microsoft Teams
 
 Technology is innovating at an unprecedented pace. Staying current and enabling a modern workplace environment has become a standard in how organizations operate. As Microsoft Teams, Microsoft 365, and Microsoft’s intelligent communication vision continue to unfold, having an operational plan in place will help ensure your organization is set up for long-term success. An optimal operational plan includes monitoring your environment for health and quality, continuing user momentum to optimize adoption, and planning for new functionality that will continue to come online over time. 
@@ -37,9 +40,7 @@ The lifecycle of any given technology has shifted to a dynamic growth cycle. Thi
 -   Monitor the Teams [roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
 -   Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
-INSERT IMAGE HERE
-
-
+![Example form showing expected release dates and notes about new functionality, listed with next steps and owners](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")
 
 
 <!--

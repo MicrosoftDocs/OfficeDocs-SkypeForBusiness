@@ -30,30 +30,33 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn’t all-inclusive.<br><b>Tip</b><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li><li>Decide whether to create a steering committee, and assign roles as appropriate.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn’t all-inclusive.<br>Tip:<br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li><li>Decide whether to create a steering committee, and assign roles as appropriate.</li></ul>|
 
 
-| Roles                           | Responsibility                                                                  | Name(s)          |
-|---------------------------------|---------------------------------------------------------------------------------|------------------|
-| **Sponsorship coalition**       |                                                                                 |                  |
-| Executive Sponsor               | Drives overall messaging and accountability                                     | \<insert notes\> |
-| Business Sponsor                | Facilitates new technology requests for their business unit                      | \<insert notes\> |
-| Department Managers             | Represents the teams most affected by this change                                   | \<insert notes\> |
-| Human Resources Manager         | Is accountable for talent management                                               | \<insert notes\> |
-| Project Manager/Lead            | Oversees the transition project, ensures completion of all tasks                | \<insert notes\> |
-| **Project team**                |                                                                                 |                  |
-| Collaboration Lead/ Architect   | Is responsible for creating and implementing the solution architecture                | \<insert notes\> |
-| Network Lead                    | Provides insights into network design and execution                             | \<insert notes\> |
-| Security Lead                   | Provides insights into security design, process, and implementation              | \<insert notes\> |
-| Synchronous Communications Lead | Is responsible for presence tooling such as chat, meetings, and calling             | \<insert notes\> |
-| Asynchronous Collaboration Led  | Is responsible for asynchronous tooling such as SharePoint, OneDrive, and so on         | \<insert notes\> |
-| Telephony Lead                  | Provides insights into telephony design and implementation                      | \<insert notes\> |
-| Service Owner/ Quality Champion | Is responsible for operation of Teams all-up, including the quality of the user experience | \<insert notes\> |
-| Desktop and Devices Lead        | Provides input into clients, devices, and desktop apps                           | \<insert notes\> |
-| IT Pro/Tenant Admin             | Ensures the network readiness and Office 365 portal configurations are in place           | \<insert notes\> |
-| Support/Help Desk Lead          | Manages the readiness of your support desk                                          | \<insert notes\> |
-| Change Management Lead          | Oversees the user change management and adoption program                                       | \<insert notes\> |
-| Marketing Lead                  | Designs and implements communications campaigns                                 | \<insert notes\> |
-| Training Lead                   | Designs and implements training plans                                            | \<insert notes\> |
-| \<Insert other\>                |                                                                                 |                  |
-|                                 |                                                                                 |                  |
+| Roles                           | Responsibility                                                                  |
+|---------------------------------|---------------------------------------------------------------------------------|
+| **Sponsorship coalition**       |                                                                                 | 
+| Executive Sponsor               | Drives overall messaging and accountability                                     |
+| Business Sponsor                | Facilitates new technology requests for their business unit                     |
+| Department Managers             | Represents the teams most affected by this change                               | 
+| Human Resources Manager         | Is accountable for talent management                                            | 
+| Project Manager/Lead            | Oversees the transition project, ensures completion of all tasks                | 
+| **Project team**                |                                                                                 | 
+| Collaboration Lead/ Architect   | Is responsible for creating and implementing the solution architecture          | 
+| Network Lead                    | Provides insights into network design and execution                             | 
+| Security Lead                   | Provides insights into security design, process, and implementation             | 
+| Synchronous Communications Lead | Is responsible for presence tooling such as chat, meetings, and calling         | 
+| Asynchronous Collaboration Led  | Is responsible for asynchronous tooling such as SharePoint, OneDrive, and so on | 
+| Telephony Lead                  | Provides insights into telephony design and implementation                      | 
+| Service Owner/ Quality Champion | Is responsible for operation of Teams all-up, including the quality of the user experience | 
+| Desktop and Devices Lead        | Provides input into clients, devices, and desktop apps                          | 
+| IT Pro/Tenant Admin             | Ensures the network readiness and Office 365 portal configurations are in place | 
+| Support/Help Desk Lead          | Manages the readiness of your support desk                                      | 
+| Change Management Lead          | Oversees the user change management and adoption program                        | 
+| Marketing Lead                  | Designs and implements communications campaigns                                 | 
+| Training Lead                   | Designs and implements training plans                                           |
+| \<Insert other\>                |                                                                                 | 
+|                                 |                                                                                 |  
+
+After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](upgrade-define-project-scope.md).
+

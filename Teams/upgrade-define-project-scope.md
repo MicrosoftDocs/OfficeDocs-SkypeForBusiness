@@ -26,7 +26,7 @@ Taking time to define your project vision, scope, goals, and governance will hel
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what’s your plan to mitigate those risks?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>•	Revisit your project team to validate that you’ve engaged the right team.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you’ve engaged the right team.</li></ul>|
 
 ## Project vision
 
@@ -50,7 +50,7 @@ Consider the following discussion points to help refine your vision:
 
 ## Project scope
 
-Your vision might only be realized over time, through various phases. The project scope defines the focus of your project at this time and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
+Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
 
 -   The best way for Skype for Business and Teams to coexist before you move to Teams.
 -   [The various modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), and which would be optimal for your organization.
@@ -79,8 +79,8 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 | Type      | Key success indicator      | How measured    | Success criteria     | Measured                             |
 |-----|-------------------------------|----------------|----------|---------------------------|
-| **Network and quality**  | Percentage of poor audio calls should be minimal                                        | Call Quality Dashboard *(CQD)*                                                    | \<3% of poor calls with Teams                          | Weekly, then monthly                 |
-| **Usage and awareness**  | The \<Chat Meetings, Calling\> experience is equal to or better than Skype for Business | Survey                                                                            | 80% agree or strongly agree                            | Weekly through pilot, post-rollout   |
+| **Network and quality**  | Percentage of poor audio calls should be minimal                                        | [Call Quality Dashboard (CQD)](https://aka.ms/sof-cqd)                       | \<3% of poor calls with Teams                          | Weekly, then monthly                 |
+| **Usage and awareness**  | The chat, meetings, and calling experience is equal to or better than Skype for Business | Survey                                                                            | 80% agree or strongly agree                            | Weekly through pilot, post-rollout   |
 | **Usage and adoption**   | Users actively use the solution                                                         | Office 365 reports or CQD                                                            | 90% participation from pilot users, better than the current solution | Weekly, then monthly                 |
 | **Usage and training**   | I had adequate training/help resources to successfully use Teams      | Post-pilot survey    | 80% agree or strongly agree                            | Post-pilot, post-rollout             |
 | **User satisfaction** | I would recommend Teams to others         | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) via post-pilot survey | NPS \> 0                                             | Post-pilot, post-rollout             |
@@ -114,4 +114,4 @@ As you scope your upgrade journey, be sure to set a timeline for key milestones 
 As a reference point, a sample timeline is provided for the pre/during/post-upgrade phases of the Upgrade Pro journey, which we encourage you to adjust as needed to align with the specific needs of your organization.
 -->
 
-After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your technical readiness and organizational readiness planning activities.
+After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](upgrade-prepare-environment.md) and [organizational readiness](upgrade-prepare-organization.md) planning activities.

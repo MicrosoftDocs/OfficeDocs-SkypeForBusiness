@@ -131,6 +131,4 @@ Identify targeted user profiles that require specific technical or user readines
 <tr><td>What training will they require?</td><td><ul><li>White glove</li><li>Short session: 15-minute hands-on</li></ul></td></tr>
 <tr><td>Rollout timing</td><td><ul><li>Enlist a segment of users for the pilot</li><li>Include in the initial phase of the broad rollout</li><li>Include in the secondary phase of the broad rollout after solid results are proven</li></ul></td></tr>
 
-
-
-
+Use the information you’ve gathered above to inform your [user readiness plan](upgrade-user-readiness.md)
