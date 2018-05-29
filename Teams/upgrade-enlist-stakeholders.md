@@ -55,8 +55,8 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Change Management Lead          | Oversees the user change management and adoption program                        | 
 | Marketing Lead                  | Designs and implements communications campaigns                                 | 
 | Training Lead                   | Designs and implements training plans                                           |
-| \<Insert other\>                |                                                                                 | 
-|                                 |                                                                                 |  
+
+
 
 After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](upgrade-define-project-scope.md).
 
