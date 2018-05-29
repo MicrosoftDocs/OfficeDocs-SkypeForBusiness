@@ -30,7 +30,7 @@ The following checklists walk you through the steps for implementing Audio Confe
 
 *  [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
-*  [Configure Direct Routing in Teams]()
+*  [Configure Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
 The tasks and activities in these checklists are the core “to-do” items that
 apply to every deployment of cloud voice capabilities with Teams. You can
@@ -147,8 +147,6 @@ For additional information, see:
 - [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing)
 
 - [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing)
-
-<!--ENDOFSECTION-->
 
 ### Execute the test plan
 

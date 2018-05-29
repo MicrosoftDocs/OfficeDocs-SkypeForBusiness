@@ -902,8 +902,6 @@ creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.
 
-<!--ENDOFSECTION-->
-
 ### Daily/weekly/monthly/as-needed tasks
 
 | Activity                    | Description                                                                                                                                                                                                                                                                                                                                                                                                             | Cadence   | Team assigned |
