@@ -7,13 +7,13 @@
 ### [Define your project scope](../upgrade-define-project-scope.md)
 ## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [Plan for quality]
-## [Prepare my environment]
+## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Prerequisites]
 ### [Evaluate my environment]
 ### [Discover my environment]
 ### [Prepare my network]
 ### [Monitor quality]
-## [Prepare my organization]
+## [Prepare my organization](../upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare my IT pros]

@@ -202,7 +202,6 @@ The following scenarios are supported during migration and coexistence:
 #### 
 
 [Configure IP address types in Skype for Business](ip-address-types.md)
-#### 
 
 [IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
   
