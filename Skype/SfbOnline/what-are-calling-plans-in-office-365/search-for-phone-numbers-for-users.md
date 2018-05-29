@@ -33,14 +33,18 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 ## Search for phone numbers
 
  **To search for phone numbers for your users**
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
+  
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. On the **Add new user numbers** page, click the **Country** and **State** lists to select the state that you want to select numbers from, and then select the area code for the city from the **City** list.
     
