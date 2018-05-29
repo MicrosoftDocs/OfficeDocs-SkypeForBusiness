@@ -32,6 +32,8 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN usage details report
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
+
 - Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
     
     > [!NOTE]
