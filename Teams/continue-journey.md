@@ -13,6 +13,7 @@ appliesto:
 ---
 
 ![Drive operational excellence](media/upgrade-banner-op-excellence.png "Drive operational excellence")
+
 NEEDS INTRO
 
 # Drive operational excellence with Microsoft Teams
