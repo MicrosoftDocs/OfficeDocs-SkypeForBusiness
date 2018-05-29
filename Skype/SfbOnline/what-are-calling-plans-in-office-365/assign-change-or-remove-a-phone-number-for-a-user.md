@@ -37,7 +37,7 @@ In the Skype for Business client, the phone number you assign will be listed in 
 > [!IMPORTANT]
 > If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.
   
-## Assigning a number
+## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
 When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.
   
@@ -53,8 +53,10 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
-    
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+   > [!NOTE]
+ For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+ 
+   
     
 4. On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.
     
@@ -72,7 +74,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     > [!NOTE]
     > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
-## Changing a number
+
 
  **To change a phone number for a user**
   
@@ -94,7 +96,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 9. Click **Save**.
     
-## Removing a number
+
 
  **To remove a phone number from a user**
   
