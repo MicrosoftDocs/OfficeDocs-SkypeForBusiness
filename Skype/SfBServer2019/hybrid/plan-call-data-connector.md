@@ -26,13 +26,19 @@ This topic describes benefits, planning considerations, and requirements for imp
 
 Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 
+With Call Data Connector, you can perform the following tasks by using a single toolset:
+
+- Monitor your user experience across Microsoft Teams, Skype for Business Online, and Skype for Business Server.
+
+- View and troubleshoot problems across your network
+
+- Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility. 
+
 With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools, as shown in the following diagram:
 
 ![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 The server pushes both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.
-
-You have the ability to monitor your user experience across Microsoft Teams, SfBO, and SfB Server from a single toolset.  Can view and troubleshoot problems across your network...   Can assign helpdesk to admin roles for CA, you can empower helpdesk workers to view and troubleshoot....   
 
 The Call Analytics and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
 
@@ -51,19 +57,19 @@ Of course, you might want to keep some call quality data on premises. This might
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
 
-If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, the following are required:        
+If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you ahve hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration.        
 
-  **IS THE FOLLOWING CORRECT?**
-
-- Hybrid connectivity between your on-premises server and the online service. This is sometimes called a split domain configuration. For details, see Plan hybrid connectivity and Configure hybrid connectivity.
+Hybrid connectivity requires the following:
 
 - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
 
 - An Office 365 tenant with Skype for Business Online enabled.  
 
-- Enabled federation between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.  
+- Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.  
 
-- Enabled shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
+- A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
+
+For more information, see Plan hybrid connectivity and Configure hybrid connectivity.
 
 
 ## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
