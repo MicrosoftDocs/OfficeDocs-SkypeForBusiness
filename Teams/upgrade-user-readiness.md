@@ -15,7 +15,7 @@ appliesto:
 
 
 
-![User Readiness](media/upgrade-banner-user-readiness.png "User Readiness")
+![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
 
@@ -44,7 +44,9 @@ An optimal user readiness plan incorporates how you’ll communicate, train, and
 </table>
 </div>
 
+[//]: # (Eventually the following link should point to the "Upgrade" section of the Upgrade Pro article, but that doesn't exist yet.)
 
-After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to onboard your users to Teams.
-WHERE SHOULD THIS LINK TO?
+After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [onboard your users to Teams](upgrade-pro.md).
+
+
 

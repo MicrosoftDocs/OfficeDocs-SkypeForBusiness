@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Project Definition stage](media/upgrade-banner-project-definition.png "Project Definition")
+![Stages of the upgrade journey, with emphasis on Project Definition](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on Project Definition")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
 

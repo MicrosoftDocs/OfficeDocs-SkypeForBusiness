@@ -12,9 +12,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Drive operational excellence](media/upgrade-banner-op-excellence.png "Drive operational excellence")
+![Stages of the upgrade journey, with emphasis on Operational Excellence](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on Operational Excellence")
 
-NEEDS INTRO
+This article is part of the Operational Excellence stage of your upgrade journey, and begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
 # Drive operational excellence with Microsoft Teams
 
@@ -38,7 +38,7 @@ To realize maximum benefit and business outcomes with Teams, users must actually
 
 The lifecycle of any given technology has shifted to a dynamic growth cycle. This means that the Teams and Microsoft 365 roadmaps will continue to unfold, with new functionality lighting up on a regular cadence. Establishing a change cycle within your organization will ensure you’re ready to manage continual collaboration improvements and realize maximum value. This can include:
 
--   Monitor the Teams [roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
+-   Monitor the Teams [roadmap](https://aka.ms/skype2teamsroadmap).
 -   Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
 ![Example form showing expected release dates and notes about new functionality, listed with next steps and owners](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")
