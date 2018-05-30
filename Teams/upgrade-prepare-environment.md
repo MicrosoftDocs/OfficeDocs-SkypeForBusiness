@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Technical Readiness](media/upgrade-banner-tech-readiness.png "Technical Readiness")
+![Stages of the upgrade journey, with emphasis on Technical Readiness](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on Technical Readiness")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. 
 

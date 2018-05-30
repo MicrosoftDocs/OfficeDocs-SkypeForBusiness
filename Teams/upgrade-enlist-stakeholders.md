@@ -14,7 +14,7 @@ appliesto:
 ---
 
 
-![Project Stakeholders stage](media/upgrade-banner-stakeholders.png "Project Stakeholders")
+![Stages of the upgrade journey, with emphasis on gathering your team of Project Stakeholders](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of Project Stakeholders")
 
 This article is part of the Project Stakeholders stage of your upgrade journey, the first and most essential activity you complete for your project’s success. 
 
@@ -25,7 +25,7 @@ From implementing project deliverables to driving accountability, your stakehold
 > [!Tip]
 > Take time to identify the ideal executive sponsor, someone who can help set the tone of your project, leads by example, and holds others accountable. This should be a senior manager or executive who has authority over the project scope and vision. They should also be the final decision-maker in removing blockers and resolving conflict to help keep the project on time and on budget.
 
-Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the     [steering committee guide](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
+Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
 
 |    |     |
 |-----------|------------|
