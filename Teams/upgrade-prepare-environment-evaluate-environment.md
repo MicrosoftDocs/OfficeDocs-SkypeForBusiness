@@ -7,7 +7,7 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
-description: Needs one 
+description: Use this guidance to learn about the requirements for properly evaluating your current environment for using cloud voice services.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

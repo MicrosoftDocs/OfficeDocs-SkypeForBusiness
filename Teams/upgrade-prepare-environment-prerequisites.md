@@ -7,7 +7,7 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
-description: Needs one 
+description: Use this guidance to learn about the prerequisites to deploy Teams in your organization
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
