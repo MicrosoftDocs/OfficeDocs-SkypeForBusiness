@@ -65,7 +65,4 @@ For more information, see the help topic for the [Set-CsCdrConfiguration](https:
   
 ## See also
 
-#### 
-
 [Call detail recording (CDR) in Skype for Business Server 2015](call-detail-recording-cdr.md)
-

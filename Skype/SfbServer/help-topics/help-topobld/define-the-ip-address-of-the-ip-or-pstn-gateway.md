@@ -22,7 +22,4 @@ If you select **Use all configured IP addresses**, all addresses configured on t
   
 ## See also
 
-#### 
-
 [Dial-In Conferencing Requirements](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
-

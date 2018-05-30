@@ -45,7 +45,4 @@ If you are integrating Skype for Business Online with Exchange Server on premise
   
 ## See also
 
-#### 
-
 [Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
-

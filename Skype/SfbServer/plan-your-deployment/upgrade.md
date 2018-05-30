@@ -178,11 +178,8 @@ For co-existence topologies of Lync Server 2010 and Lync Server 2013, align firs
 ## See also
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-#### 
-
 [Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
 [Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
 [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)
-

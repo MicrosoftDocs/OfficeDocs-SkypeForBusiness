@@ -42,7 +42,4 @@ Click **Help** to access context sensitive help, such as this page.
   
 ## See also
 
-#### 
-
 [Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
-

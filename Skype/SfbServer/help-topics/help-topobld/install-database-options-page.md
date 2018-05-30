@@ -38,7 +38,4 @@ You configure advanced options for the placement of database and log files on yo
   
 ## See also
 
-#### 
-
 [SQL Server Data and Log File Placement](http://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
-

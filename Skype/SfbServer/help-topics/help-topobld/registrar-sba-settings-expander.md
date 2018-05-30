@@ -35,7 +35,4 @@ You edit the settings for **Resiliency** and configure the following properties:
   
 ## See also
 
-#### 
-
 [Planning for Enterprise Voice Resiliency](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
-

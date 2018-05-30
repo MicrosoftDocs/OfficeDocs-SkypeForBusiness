@@ -221,7 +221,7 @@ The network bandwidth numbers in these tables represent one-way traffic only and
 Quality of Service (QoS) is a networking technology that is used in some organizations to help provide an optimal end-user experience for audio and video communications. QoS is most frequently used on networks where bandwidth is limited: with a large number of network packets competing for a fairly small amount of available bandwidth, QoS enables administrators to assign higher priorities to packets carrying audio or video data. By giving these packets a higher priority, audio and video communications are likely to complete faster, and with less interruption, than network sessions involving things such as file transfers, web browsing, or database backups. That's because network packets used for file transfers or database backups are assigned a "best effort" priority.
   
 > [!NOTE]
-> As a rule, QoS applies only to communication sessions on your internal network. When you implement QoS, you configure your servers and routers to support packet marking in a particular manner that may not be supported on the Internet or on other networks. Even if Quality if Service is supported on other networks, there is no guarantee that QoS will be configured in exactly the same way you configured the service. If you are using MPLS, you'll need to work with your MPLS provider. 
+> As a rule, QoS applies only to communication sessions on your internal network. When you implement QoS, you configure your servers and routers to support packet marking in a particular manner that may not be supported on the Internet or on other networks. Even if Quality of Service is supported on other networks, there is no guarantee that QoS will be configured in exactly the same way you configured the service. If you are using MPLS, you'll need to work with your MPLS provider. 
   
 Skype for Business Server does not require QoS, but it is strongly recommended. If you experience packet loss issues on the network your available solutions are to add more bandwidth or to implement QoS. If adding more bandwidth is not possible, then implementing QoS might be your only toll to resolve the problem.
   
@@ -251,8 +251,6 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
 ## See also
 <a name="man_QOS"> </a>
 
-#### 
-
 [Plan for IPv6 in Skype for Business](ipv6.md)
   
 [Load balancing requirements for Skype for Business](load-balancing.md)
@@ -260,4 +258,3 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
 [DNS requirements for Skype for Business Server 2015](dns.md)
   
 [Port and protocol requirements for servers](ports-and-protocols.md)
-

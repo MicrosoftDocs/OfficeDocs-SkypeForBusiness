@@ -30,9 +30,6 @@ You can perform the following tasks on the **Topology**: **Server Application** 
     
 ## See also
 
-#### 
-
 [Enable or Disable a Microsoft SIP Processing Language (MSPL) Server Application](http://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
   
 [Mark a Microsoft SIP Processing Language (MSPL) Application as Critical or Not Critical](http://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
-

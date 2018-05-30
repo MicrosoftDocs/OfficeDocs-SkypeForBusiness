@@ -22,7 +22,4 @@ To add new computers to an existing pool, you must reset the pool to allow the W
   
 ## See also
 
-#### 
-
 [Create and publish new topology in Skype for Business Server 2015](../../../deploy/install/create-and-publish-new-topology.md)
-

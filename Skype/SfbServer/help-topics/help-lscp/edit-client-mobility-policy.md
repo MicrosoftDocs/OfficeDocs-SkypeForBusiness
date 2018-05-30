@@ -36,9 +36,6 @@ For details about mobility policies, see [Mobility Policies](http://technet.micr
   
 ## See also
 
-#### 
-
 [Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-

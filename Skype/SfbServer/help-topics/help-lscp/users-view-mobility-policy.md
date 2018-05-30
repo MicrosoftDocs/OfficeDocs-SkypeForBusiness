@@ -22,11 +22,8 @@ For details about assigning mobility policies, see [Assign a Per-User Mobility P
   
 ## See also
 
-#### 
-
 [Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
   
 [Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
   
 [Mobility Policies](http://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
-

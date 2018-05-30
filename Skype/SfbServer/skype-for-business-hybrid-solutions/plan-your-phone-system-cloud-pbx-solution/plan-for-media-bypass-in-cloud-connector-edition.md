@@ -107,7 +107,4 @@ With media bypass enabled, media traffic between a client and an SBC or gateway 
   
 ## See also
 
-#### 
-
 [Deploy media bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)
-
