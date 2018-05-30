@@ -17,7 +17,7 @@
 ### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
 
 
-## Plan
+## Plan 
 ### System requirements
 #### [Server requirements](../plan/server-requirements.md)
 #### [Environmental requirements](../plan/environmental-requirements.md)
