@@ -61,15 +61,12 @@ The following table describes Skype for Business support for various versions of
    
 ## See also
  
-
 [Windows client requirements and software support](windows-requirements.md)
   
 [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md)
-#### 
 
 [Client Interoperability in Lync 2013](http://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)
   
 [Client System Requirements](http://technet.microsoft.com/library/38f3a465-dac1-4381-bc59-270a4ef07ced.aspx)
   
 [Lync Windows Store App Requirements](http://technet.microsoft.com/library/5f2e0a40-8450-4f61-b6f6-913fc1906020.aspx)
-

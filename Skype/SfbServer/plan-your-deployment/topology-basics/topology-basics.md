@@ -279,7 +279,4 @@ The file share can be on a separate server, or you can collocate it on the same 
     
 ## See also
 
-#### 
-
 [Reference topologies for Skype for Business Server 2015](reference-topologies.md)
-

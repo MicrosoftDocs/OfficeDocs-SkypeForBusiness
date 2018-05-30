@@ -34,8 +34,6 @@ This section explains these features, and also covers what steps you can take fo
   
 ## See also
 
-#### 
-
 [Front End Pool high availability and management](high-availability.md)
   
 [Front End pool disaster recovery in Skype for Business Server 2015](disaster-recovery.md)
@@ -45,4 +43,3 @@ This section explains these features, and also covers what steps you can take fo
 [Back End Server high availability in Skype for Business Server 2015](back-end-server.md)
   
 [File sharing high availability in Skype for Business Server 2015](file-sharing.md)
-

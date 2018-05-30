@@ -65,11 +65,8 @@ To associate subnets with network sites, you can either use the **Network Config
   
 ## See also
 
-#### 
-
 [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)
   
 [Plan for emergency services in Skype for Business Server 2015](emergency-services.md)
   
 [Plan for media bypass in Skype for Business 2015](media-bypass.md)
-

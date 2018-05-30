@@ -51,8 +51,9 @@ You can get a view into your Skype for Business conferences that were organized 
 ***
 ![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business Conference Organizer Activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
@@ -76,7 +77,9 @@ You can filter the series you see on the chart by clicking on an item in the leg
 ![Number 8](../images/sfbcallout8.png)<br/>The table shows you a breakdown of the organized conference activities per user. This shows all users that have Skype for Business assigned to them and conferences that they organized. You can add additional columns to the table. 
 *    **User name** is the name of the user. 
 *    **Deleted** indicates that the user's license was removed.<br/><br/>
-     **Note:**  Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.<br/> <br/>
+    > [!NOTE]
+    > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+     
 *    **Deleted date** is the date on which the user's license was removed. 
 *    **Last activity date (UTC)** is the last activity date (UTC) for that user. 
 *    **IM** shows the total number of IM conferences that were organized. 

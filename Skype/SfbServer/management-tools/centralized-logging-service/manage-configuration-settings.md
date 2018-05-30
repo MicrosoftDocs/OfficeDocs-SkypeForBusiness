@@ -176,8 +176,6 @@ For example, to remove a Centralized Logging Service configuration that you crea
 If you choose to remove a site-level configuration, the site will use the global settings.
 ## See also
 
-#### 
-
 [Configure providers for Centralized Logging Service in Skype for Business Server 2015](configure-providers.md)
   
 [Configure scenarios for the Centralized Logging Service in Skype for Business Server 2015](configure-scenarios.md)
@@ -191,4 +189,3 @@ If you choose to remove a site-level configuration, the site will use the global
 [New-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
   
 [Remove-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
-

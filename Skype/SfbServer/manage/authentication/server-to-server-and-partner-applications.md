@@ -57,9 +57,6 @@ Note that OAuth is a core part of the product and cannot be disabled or removed.
   
 ## See also
 
-#### 
-
 [Assign a server-to-server authentication certificate to Skype for Business Server 2015](assign-a-server-to-server-certificate.md)
   
 [Configure a hybrid environment in Skype for Business Server 2015](configure-a-hybrid-environment.md)
-

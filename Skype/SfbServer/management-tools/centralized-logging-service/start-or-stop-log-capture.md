@@ -135,7 +135,4 @@ Acting as the companion command to Start-CsClsLogging, the Stop-CsClsLogging cmd
 ## See also
 <a name="stop"> </a>
 
-#### 
-
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
-
