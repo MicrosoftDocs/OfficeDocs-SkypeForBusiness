@@ -37,7 +37,7 @@ In the Skype for Business client, the phone number you assign will be listed in 
 > [!IMPORTANT]
 > If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
+
 
 When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.
   
@@ -46,8 +46,10 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
- **Assign a phone number to a user**
-  
+ ## Assign a phone number to a user
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
@@ -76,8 +78,10 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
   
 
 
- **To change a phone number for a user**
-  
+ ## Change a phone number for a user
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
@@ -98,8 +102,10 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
     
 
 
- **To remove a phone number from a user**
-  
+ ## Remove a phone number from a user
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
