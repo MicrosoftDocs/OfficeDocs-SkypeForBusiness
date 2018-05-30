@@ -21,7 +21,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 Teams combines multiple Office 365 services and is therefore dependent on the correct implementation and operation of these services. These services include but are not limited to SharePoint Online, Exchange Online, and OneDrive for Business.
 
-While not all services are required it is highly recommended to implement them. If you choose to not implement certain services, this will impact the functionality that Teams can offer your organization. For example, while you are not required to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in groups. Not implementing SharePoint Online will affect functionality offered through the client.
+While not all services are required, it is highly recommended to implement all of them. If you choose to not implement certain services, this will impact the functionality that Teams can offer your organization. For example, while you are not required to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in group conversations. Not implementing SharePoint Online will affect functionality offered through the client.
 
 Go to the following articles to learn about the requirements:
 - [Office 365 groups and Microsoft Teams ](Office-365-groups.md)

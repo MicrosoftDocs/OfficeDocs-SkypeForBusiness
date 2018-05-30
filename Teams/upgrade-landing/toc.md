@@ -9,7 +9,7 @@
 ## [Plan for quality]
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Prerequisites](../upgrade-prepare-environment-prerequisites.md)
-### [Evaluate my environment]
+### [Evaluate my environment](../upgrade-prepare-environment-evaluate-environment.md)
 ### [Discover my environment]
 ### [Prepare my network]
 ### [Monitor quality]
