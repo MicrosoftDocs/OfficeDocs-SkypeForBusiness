@@ -10,7 +10,7 @@
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Prerequisites](../upgrade-prepare-environment-prerequisites.md)
 ### [Evaluate my environment](../upgrade-prepare-environment-evaluate-environment.md)
-### [Discover my environment]
+### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network]
 ### [Monitor quality]
 ## [Prepare my organization](../upgrade-prepare-organization.md)
