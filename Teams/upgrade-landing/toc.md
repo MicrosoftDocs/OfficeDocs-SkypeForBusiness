@@ -8,7 +8,7 @@
 ## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ## [Plan for quality]
 ## [Prepare my environment](../upgrade-prepare-environment.md)
-### [Prerequisites]
+### [Prerequisites](../upgrade-prepare-environment-prerequisites.md)
 ### [Evaluate my environment]
 ### [Discover my environment]
 ### [Prepare my network]
