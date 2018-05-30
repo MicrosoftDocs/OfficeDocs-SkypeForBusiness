@@ -1,7 +1,7 @@
 ---
 title: "Device Log Configuration"
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -54,7 +54,4 @@ The following lists describe the menus, commands, fields, and properties on the 
     
 ## See also
 
-#### 
-
 [Modify Settings for Log Files of Device Update Activity](http://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)
-

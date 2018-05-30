@@ -495,7 +495,6 @@ Operations Management Suite provides built-in solutions through its [solution ga
 
 ## See also
 
-#### 
 [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md)

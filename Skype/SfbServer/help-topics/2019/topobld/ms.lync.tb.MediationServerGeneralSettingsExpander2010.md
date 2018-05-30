@@ -41,9 +41,6 @@ You edit the properties of the Mediation Servers in this dialog. Along the left 
     
 ## See also
 
-#### 
-
 [Overview of SIP Trunking](http://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
   
 [PSTN Gateway Deployment Options](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-
