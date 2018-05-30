@@ -21,24 +21,33 @@ description: "Instructions for implementing cloud-based voicemail for users home
 See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an overview of Cloud Voicemail functionality.
  <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
+Configuring Cloud Voicemail involves the following tasks: 
+- [Configure Azure Cloud voicemail as the Hosting Provider on the edge server](#configure-azure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server)
+- [Enable a User for Cloud Voicemail](#enable-a-user-for-cloud-voicemail)
+
+**Is the second task something we can configure at the site level or in bulk by some other means??**
+
 ### Prerequisites
 The following configurations need be in place before the Cloud Voicemail feature can be configured for a user homed onprem:
-- [Deploy Enterprise Voice in Skype for Business Server 2015](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) **Required or optional?**
+- [Deploy Enterprise Voice in Skype for Business Server 2015](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) **Is this required or optional?**
 - [Deploy Edge Server in Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md) 
 - [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
 - [Integrate Skype for Business Server with Exchange Server](../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md) or <BR> [Configure integration between on-premises Skype for Business Server 2015 and Exchange Online Web App](../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md) 
 
-**(That article's title is really confusing. We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area?**
+**(That last article's title is really confusing. We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area?**
 
 ## Configure Azure Cloud voicemail as the Hosting Provider on the edge server 
+
+Run the following cmdlet in the Skype for Business Management shell:
 
 ```
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 **Questions:**
-- Replace -Identity "Exchange Online" with ? 
-- Replace -ProxyFqdn "exap<span></span>.um.outlook.com" with ?
-- Is this the only command in integrating with exchange OL, or is this specific to UM?
+- **Replace -Identity "Exchange Online" with what?** seems likely there's a new option needed for Exch on prem
+- **Replace -ProxyFqdn "exap<span></span>.um.outlook.com" with what?** Seems likely this will be different if Exch is online vs onprem.
+- **What changes are there to the command when integrating with Exch on prem?**
+- **Is this the only command in integrating with exchange OL, or is this specific to UM?** the integration for Exch OL that doesn't involve Exch UM is not clearly documented
 
 ## Enable a User for Cloud Voicemail
 
@@ -55,8 +64,8 @@ To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must
 The cmdlet verifies that no hosted voice mail policy (global, site-level or per-user) applies to this user. If a policy does apply, the cmdlet fails.
 
 **QUESTIONS:**
-- Verify: are we  using the HostedVoiceMail parameter for Set-CsUser to set the host, or is there a new parameter not yet public?<br> 
-- What differences are there when migrating users from hosted EXCH UM to Cloud VM?<br> 
+- **Verify: are we  using the HostedVoiceMail parameter for Set-CsUser to set the host, or is there a new parameter not yet public?** 
+- **What differences are there when migrating users from hosted EXCH UM to Cloud VM?** 
 - This approach is one at a time.  Is there a bulk mechanism to set users at a site or global level? Like piping get and set commands as shown: 
 ```
 Get-CsUser -filter {HostedVoiceMail -eq $null} | Set-CsUser -HostedVoiceMail $true
