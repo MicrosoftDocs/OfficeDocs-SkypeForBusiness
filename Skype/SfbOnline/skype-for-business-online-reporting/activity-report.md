@@ -78,8 +78,10 @@ The X axis on both charts is the selected date range for this specific report.
 ![Number 7](../images/sfbcallout7.png)<br/>
 The table shows you a breakdown of all the conferencing activities per user. This shows all users who have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table.
 *    **Username** is the name of the user.
-*    **Deleted** indicates that the user's license was removed.<br/><br/>       [!NOTE]
-    Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+*    **Deleted** indicates that the user's license was removed.<br/><br/>
+    > [!NOTE]
+    > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+     
 *    **Deleted date** is the date on which the user's license was removed.
 *    **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference.
 *    **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used.
