@@ -32,6 +32,8 @@ With Call Data Connector, the Skype for Business Server pushes call data to the 
 
 The server pushes both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.
 
+You have the ability to monitor your user experience across Microsoft Teams, SfBO, and SfB Server from a single toolset.  Can view and troubleshoot problems across your network...   Can assign helpdesk to admin roles for CA, you can empower helpdesk workers to view and troubleshoot....   
+
 The Call Analytics and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
 
 - Call Analytics focuses on quality problems with specific calls. It shows detailed information about calls and meetings for each user in a Skype for Business account.  With Call Analytics, you can assign permissions to a Helpdesk operator who can then monitor calls without having access to the rest of the Skype for Business Admin center.
@@ -57,15 +59,11 @@ If you already have Skype for Business Server deployed, and you want to enable C
 
 - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
 
-- An Office 365 tenant with Skype for Business Online enabled.  If you want to enable Teams, see Migration to Teams.
-
-- You must have the following licenses:    **WHAT ARE THE REQUIRED LICENSES?**
+- An Office 365 tenant with Skype for Business Online enabled.  
 
 - Enabled federation between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.  
 
 - Enabled shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
-
-- On-premises users must be enabled for ...
 
 
 ## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
