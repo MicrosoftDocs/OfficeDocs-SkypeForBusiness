@@ -100,7 +100,7 @@ The unified data collection agents are automatically installed and activated on 
     
 - Microsoft SQL Server 2012 Standard Edition (64-bit edition)
     
-- Microsoft SQL Server 2014 Enterprise Edition(64-bit edition)
+- Microsoft SQL Server 2014 Enterprise Edition (64-bit edition)
     
 - Microsoft SQL Server 2014 Standard Edition (64-bit edition)
     
@@ -119,6 +119,6 @@ Monitoring data can share a SQL Server instance with other types of data. Typica
 In other words, you can't have two instances of the LcsCdr database in the same instance of SQL Server. If you need multiple instances of the LcsCdr database then you need to configure multiple instances of SQL Server.
   
 ## See also
-<a name="topologies"> </a>
+
 
 [Deploying Monitoring](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
