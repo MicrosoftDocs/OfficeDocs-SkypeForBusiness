@@ -95,6 +95,8 @@ Before you can create and set up your call queues, you will need to get or trans
   
 ## Step 3 - Create a new Call Queue
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 In the **Skype for Business admin center**, click **Call routing** > **Call queues**, then click **Add new**:
   
 ### Set the call queue display name, phone number and domain (if any)
