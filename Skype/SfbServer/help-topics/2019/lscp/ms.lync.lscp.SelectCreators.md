@@ -38,8 +38,6 @@ For details about Persistent Chat Server features and capabilities, see [Overvie
   
 ## See also
 
-#### 
-
 [Understanding Persistent Chat Membership](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
   
 [Using Categories to Administer Persistent Chat Server](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
@@ -47,4 +45,3 @@ For details about Persistent Chat Server features and capabilities, see [Overvie
 [Moving a Chat Room from One Category to Another](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
   
 [Creating or Editing a New Room](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-

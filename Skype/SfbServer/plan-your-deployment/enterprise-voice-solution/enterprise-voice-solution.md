@@ -41,11 +41,8 @@ Of course, you can have some of your users enabled for Enterprise Voice while ot
   
 ## See also
 
-#### 
-
 [Plan for Enterprise Voice in Skype for Business Server 2015](enterprise-voice.md)
   
 [Plan for Call Via Work in Skype for Business Server 2015](call-via-work.md)
   
 [Plan for remote call control in Skype for Business 2015](remote-call-control.md)
-

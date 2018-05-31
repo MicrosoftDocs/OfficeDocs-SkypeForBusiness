@@ -1,8 +1,8 @@
-# [Upgrade journey from Skype for Business to Microsoft Teams](index.md)
+# [Upgrade from Skype for Business to Microsoft Teams](index.md)
 ## [Upgrade Essentials](../upgrade-essentials.md)
 ## [Upgrade Pro](../upgrade-pro.md)
 <!-- ### [Tutorial: Journey from Skype for Business to Teams](../Tutorial-Journey-SkypeforBusiness-to-Teams.yml) -->
-## [Plan for your journey](../upgrade-plan-journey.md)
+## [Plan for your upgrade](../upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](../upgrade-enlist-stakeholders.md)
 ### [Define your project scope](../upgrade-define-project-scope.md)
 ## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

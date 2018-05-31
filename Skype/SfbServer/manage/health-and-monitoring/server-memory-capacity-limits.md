@@ -42,7 +42,4 @@ If the amount of memory available on the Front End Server is lower than 1,500 MB
   
 ## See also
 
-#### 
-
 [Monitor mobility for performance in Skype for Business Server 2015](monitor-mobility-performance.md)
-

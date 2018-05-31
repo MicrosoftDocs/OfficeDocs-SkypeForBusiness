@@ -129,7 +129,4 @@ For details about how to enable or disable Unified Messaging on Microsoft Exchan
     
 ## See also
 
-#### 
-
 [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business](deployment-overview.md)
-

@@ -178,7 +178,4 @@ If you use a VPN server, we recommend that you follow these guidelines:
     
 ## See also
 
-#### 
-
 [Branch site SIP trunking in Skype for Business Server 2015](branch-site.md)
-

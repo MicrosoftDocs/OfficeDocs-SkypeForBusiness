@@ -31,9 +31,6 @@ Most Edge components are deployed in a perimeter network. The following componen
     
 ## See also
 
-#### 
-
 [Plan for Edge Server deployments in Skype for Business Server 2015](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
 [Edge Server system requirements in Skype for Business Server 2015](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
-

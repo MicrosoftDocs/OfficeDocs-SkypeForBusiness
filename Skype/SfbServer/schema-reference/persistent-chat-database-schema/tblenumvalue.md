@@ -43,7 +43,4 @@ tblEnumValue is a hardcoded table that contains the Visibility and Behavior valu
    
 ## See also
 
-#### 
-
 [tblNode](tblnode.md)
-
