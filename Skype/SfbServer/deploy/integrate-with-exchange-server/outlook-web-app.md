@@ -82,9 +82,6 @@ Get-CsHostingProvider -LocalStore
 
 ## See also
 
-#### 
-
 [Providing Skype for Business Server 2015 users voice mail on hosted Exchange UM](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
 [Hosted Exchange Unified Messaging integration in Skype for Business Server 2015](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
-

@@ -71,7 +71,4 @@ After you have finished installing the Skype for Business Server Planning Tool, 
     
 ## See also
 
-#### 
-
 [Editing the Design](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
-

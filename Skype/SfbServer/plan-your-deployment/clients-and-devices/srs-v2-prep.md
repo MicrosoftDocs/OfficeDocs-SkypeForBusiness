@@ -160,8 +160,6 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
   
 ## See also
 
-#### 
-
 [Plan Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Skype Room Systems v2 requirements](requirements.md)
@@ -171,4 +169,3 @@ Much like any Windows device, the Machine Name can be renamed by right clicking 
 [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

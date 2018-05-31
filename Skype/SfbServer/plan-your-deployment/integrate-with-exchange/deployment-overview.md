@@ -40,7 +40,4 @@ description: "Summary: Review this topic while planning to integrate Skype for B
    
 ## See also
 
-#### 
-
 [Plan for Exchange Unified Messaging integration in Skype for Business](unified-messaging.md)
-

@@ -103,7 +103,4 @@ Exporting your design to Microsoft Visio creates a diagram for use in your docum
 ## See also
 <a name="Optional_Software"> </a>
 
-#### 
-
 [Installing the Planning Tool](http://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
-

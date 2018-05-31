@@ -44,6 +44,8 @@ Use the steps in this article when:
 <a name="bk_preview"> </a>
 
 You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in both organizations to do this.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in with your Office 365 admin account. 
     

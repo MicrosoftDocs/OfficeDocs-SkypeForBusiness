@@ -92,6 +92,4 @@ As noted, the preceding examples enable monitoring at the global scope; that is,
   
 ## See also
 
-#### 
-
 [Plan for monitoring in Skype for Business Server 2015](../../plan-your-deployment/monitoring.md)

@@ -30,6 +30,8 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
   
 ## Change the emergency address for a user
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
