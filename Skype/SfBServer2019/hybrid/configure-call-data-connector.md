@@ -37,14 +37,13 @@ To do this from within the Skype for Business Server Control Panel, complete the
 1. Click **Monitoring and Archiving**.
     
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
-To enable Call Data Connector, you'll use the following cmdlets:
+To configure Call Data Connector, you'll use the following cmdlets:
 
-**IS THE FOLLOWING CORRECT?  NOTE THAT RAHUL'S FEEDBACK AND THE SPEC HAVE CONFLICTING INFO.  THE FOLLOWING IS BASED ON RAHUL'S FEEDBACK:**
-
-**WE NEED HELP VERIFYING CMDLET NAMES AND PURPOSES.  FEEDBACK, SPECS, AND THE NAMES THEMSELVES ARE A BIT CONFUSING:  New-CsCloudCallDataConnection, New-CsCloudCallDataConnector, Set-CsCloudCallDataConnectorConfiguration
+**IS THE FOLLOWING CORRECT?  NOTE THAT RAHUL'S FEEDBACK AND THE SPEC HAVE CONFLICTING INFO.  WE NEED HELP VERIFYING CMDLET NAMES AND PURPOSES: New-CsCloudCallDataConnection, New-CsCloudCallDataConnector, Set-CsCloudCallDataConnectorConfiguration THE FOLLOWING IS BASED ON RAHUL'S FEEDBACK:**
 
 - New-CsCLoudCallDataConnection is an online cmdlet that establishes an online data collector.
-- Set-CsCLoudCallDataConnector is an on-premises cmdlet that establishes the connection with the online data connector. **TRUE?**
+- Get-CsCloudCallDataConnection is an online cmdlet that retrieves an existing online data collector.   **TRUE??**
+- Set-CsCLoudCallDataConnector is an on-premises cmdlet that establishes the connection with the online data connector. **TRUE?**  
 
 For example:
 
@@ -54,7 +53,7 @@ For example:
     ``` 
     New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector   
     ```
-3.	If you get an error that the connection already exists, this means that the cloud call data connection already exists for your tenant. In this case, run the command: 
+3.	If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
     ```
     Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector  
@@ -68,6 +67,7 @@ You can enable Call Data Connector (CDC) for a particular site or for your entir
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
+
 In addition to the global settings, CDC configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDC forwarding for the Redmond site but disable CDC forwarding for the Dublin site, as shown in the following example:
   
 ```
@@ -78,7 +78,7 @@ New-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDa
 New-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
-Keep in mind that settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording  and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
+Settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
 
 Values for the most commonly-used setting used by CDC are shown in the following table:  
 |Property|Description|Default Value|
