@@ -88,7 +88,7 @@ Values for the most commonly-used setting used by CDC are shown in the following
 
 
 
-**Disable Call Data Connector**
+## Disable Call Data Connector
 
 Disabling CDC does not dissociate the monitoring store from the Front End pool, nor does it uninstall or otherwise affect the backend monitoring database. When you disable CDC, you temporarily stop Skype for Business Server from forwarding the monitoring data to the online CQD dashboard. 
 
@@ -118,7 +118,7 @@ New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector
 ```
 This will establish an online data collector if it has not already been enabled, and refresh the token. **Still not clear why token refresh would be needed**
 
-##For more information
+## For more information
 
 For more information on the cmdlets, you can specify the Get-Help command from within the Skype for Business Server Management Shell.  For example:
   
