@@ -28,7 +28,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
   
 ## See also
 
-#### 
-
 [Plan for Video Interop Server in Skype for Business Server 2015](../../../plan-your-deployment/video-interop-server.md)
-

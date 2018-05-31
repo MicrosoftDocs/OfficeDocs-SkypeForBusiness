@@ -81,7 +81,4 @@ The Windows PowerShell cmdlets for video trunk configuration mentioned previousl
   
 ## See also
 
-#### 
-
 [Configure CUCM for Interoperation with Skype for Business Server 2015](configure-cucm-for-interoperation.md)
-

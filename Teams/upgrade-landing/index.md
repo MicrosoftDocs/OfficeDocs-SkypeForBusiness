@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business to Teams upgrade journey"
+title: Skype for Business to Microsoft Teams upgrade
 ms.author: dearben
 author: lolaj
 manager: serdars
@@ -9,10 +9,10 @@ ms.audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "Skype for Business to Teams upgrade journey."
+description: Skype for Business to Teams upgrade
 ---
 
-# Skype for Business to Microsoft Teams upgrade journey
+# Skype for Business to Microsoft Teams upgrade
 
 
 Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.

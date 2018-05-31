@@ -313,8 +313,6 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 ## See also
 <a name="BKMK_AssociateSubnets"> </a>
 
-#### 
-
 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -330,4 +328,3 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
-

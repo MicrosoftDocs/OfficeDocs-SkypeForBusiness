@@ -331,8 +331,6 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
 ## See also
 
-#### 
-
 [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md)
   
 [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md)
@@ -340,4 +338,3 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
   
 [Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md)
-

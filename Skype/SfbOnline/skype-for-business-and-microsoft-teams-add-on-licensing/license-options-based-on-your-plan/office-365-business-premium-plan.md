@@ -33,8 +33,10 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
     Note that the Skype app isn't part of the Office 365 suite, so it won't be integrated with Outlook 2016 the way Skype for Business is. This means your contacts in Outlook 2016 won't show up in Skype; you'll need to add your contacts to Skype.
     
     We recommend starting with the Skype app to see if it meets your needs. If it doesn't, then consider the next option, to upgrade your plan.
+
+    > [!IMPORTANT]
+    > You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
     
-    **IMPORTANT**: You have to set a toggle to allow your employees to use Skype for Business to search for Skype users. See [Let Skype for Business users add Skype contacts](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
     
 - **Option 2. Upgrade your plan, and buy a Phone System and a Domestic or Domestic and International Calling Plan**.
 

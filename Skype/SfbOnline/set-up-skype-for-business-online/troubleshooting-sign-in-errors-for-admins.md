@@ -84,8 +84,10 @@ If the user cannot sign in after you have tried the suggestions in the previous 
 <a name="add-a-firewall"> </a>
 
 This procedure is a possible fix for the following error message: **Sign-in address not found**.
+
+> [!NOTE]
+> The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
- **NOTE**: The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
 To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow these steps:
   

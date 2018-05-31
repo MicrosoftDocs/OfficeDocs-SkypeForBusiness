@@ -136,7 +136,4 @@ At this point the CUCM video gateway is configured to work with the VIS. Corresp
   
 ## See also
 
-#### 
-
 [Configure a VTC for Interoperation with Skype for Business Server 2015](configure-a-vtc-for-interoperation.md)
-

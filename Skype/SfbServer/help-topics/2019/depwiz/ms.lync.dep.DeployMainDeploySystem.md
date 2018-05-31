@@ -22,7 +22,5 @@ If you are updating a currently deployed server, you must make the changes that 
   
 ## See also
 
-#### 
-
 [Deployment](http://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
 

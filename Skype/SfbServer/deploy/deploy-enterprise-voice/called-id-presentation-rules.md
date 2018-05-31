@@ -96,8 +96,6 @@ Follow these steps if you want to define a translation rule by entering a set of
   
 ## See also
 
-#### 
-
 [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md)
   
 [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md)
@@ -105,4 +103,3 @@ Follow these steps if you want to define a translation rule by entering a set of
 [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
 
 [Deploy media bypass in Skype for Business Server 2015](deploy-media-bypass.md)
-

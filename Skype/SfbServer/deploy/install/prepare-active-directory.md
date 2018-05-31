@@ -171,6 +171,5 @@ Watch the video steps for **Prepare Active Directory**:
   
 
 ## See also
-
-#### 
+ 
 [Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

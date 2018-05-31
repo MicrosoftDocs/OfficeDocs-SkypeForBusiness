@@ -22,7 +22,4 @@ For details, see [PSTN connectivity components in Skype for Business Server 2015
   
 ## See also
 
-#### 
-
 [PSTN Gateway Deployment Options](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-

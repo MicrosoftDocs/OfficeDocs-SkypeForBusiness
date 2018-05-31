@@ -39,7 +39,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 ## Step 3: Get phone numbers
 There are three ways to get new user numbers:
 
-- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting e phone numbers for your users.](getting-phone-numbers-for-your-users.md).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get numbers for your users using the Skype for Business admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
     
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
@@ -49,21 +49,37 @@ There are three ways to get new user numbers:
 <a name="bkmk_add_addresses"> </a>
 An emergency address must be associated with a phone number; when this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider. 
 
-To add an emergency address for your organization, in the Skype for Business admin center go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
+**To add an emergency address for your organization**
 
-To add an emergency location for your organization, in the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+In the Skype for Business admin center, go to  **Voice** > **Emergency locations** > **Add new address**. See [Add or remove and emergency address for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
+
+**To add an emergency location for your organization** 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+In the Skype for Business admin center, go to **Voice** > **Emergency locations** > **Add new address**. See [Add, change, or remove an emergency location  for your organization](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) for details.
 
     
 ## Step 5: Assign an emergency address and a phone number to a user
 <a name="bkmk_add_addresses"> </a>
 When you are setting up Calling Plans in Office 365, you must assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. 
 
-To add an emergency address for a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) for more details.
+**To add an emergency address for a user** 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+In the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) for more details.
 
    > [!NOTE]
    > You can also assign an emergency address when you assign a phone number.
 
-To assign a phone number to a user, in the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) for more details.
+**To assign a phone number to a user**
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+In the Skype for Business admin center, go to **Voice** > **Voice users** > **Assign number** > **Change location**. See [Assign, change, or remove a phone number for a user](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) for more details.
 
 ## Step 6: Tell your users about their new phone numbers
 <a name="bkmk_add_addresses"> </a>

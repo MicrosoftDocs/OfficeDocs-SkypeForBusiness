@@ -186,9 +186,6 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   
 ## See also
 
-#### 
-
 [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   
 [Video-based screen-sharing (VBSS) is available in Skype for Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
-
