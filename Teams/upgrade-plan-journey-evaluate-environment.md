@@ -1,5 +1,5 @@
 ---
-title: Prepare my environment - Evaluate my environment
+title: Plan for your upgrade - Evaluate your environment
 author: turgayo
 ms.author: lolaj
 manager: lehewe
