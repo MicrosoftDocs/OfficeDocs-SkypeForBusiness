@@ -66,7 +66,17 @@ You can enable Call Data Connector (CDC) for a particular site or for your entir
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
+In addition to the global settings, CDC configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDC forwarding for the Redmond site but disable CDC forwarding for the Dublin site, as shown in the following example:
+  
+```
+New-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
+```
 
+```
+New-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
+```
+
+Keep in mind that settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording  and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
 
 Values for the most commonly-used setting used by CDC are shown in the following table:  
 |Property|Description|Default Value|
@@ -74,18 +84,7 @@ Values for the most commonly-used setting used by CDC are shown in the following
 |EnableCallDataConnector  <br/> |Indicates whether or not CDC is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$True  <br/> |
 | Identity | Determines the scope level for the command: global or site.   | $True  |
 
-In addition to the global settings, CDC configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDC forwarding for the Redmond site but disable CDC forwarding for the Dublin site. To create new CDC forwarding configuration settings at the site scope, use a command similar to this:
-  
-```
-New-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
-```
-```
-New-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
-```
-Keep in mind that settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording  and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
 
-
-```
 
 **Disable Call Data Connector**
 
