@@ -24,5 +24,3 @@
 ### [Enhance my service]
 ### [Grow adoption]
 ## [Upgrade FAQ](../FAQ-journey.md)
-
-
