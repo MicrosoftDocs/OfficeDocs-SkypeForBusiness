@@ -50,10 +50,12 @@ For example:
 
 1.	Log in to Skype for Business Online as an administrator.
 2.	If enabling the connector for the first time, run the command: 
+
     ``` 
     New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector   
     ```
 3.	If you get an error that the connection already exists, this means that the cloud call data connection already exists for your tenant. In this case, run the command: 
+
     ```
     Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector  
     ```
@@ -110,6 +112,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 ## Refresh your Call Data Connector
 
 Provided you are logged in to Office 365, you can refresh the token cached on-premises at any time by running the following series of cmdlets:
+
 ```
 New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector 
 ```
