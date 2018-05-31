@@ -44,6 +44,7 @@ To configure Call Data Connector, you'll use the following cmdlets:
 - New-CsCLoudCallDataConnection is an online cmdlet that establishes an online data collector.
 - Get-CsCloudCallDataConnection is an online cmdlet that retrieves an existing online data collector.   **TRUE??**
 - Set-CsCLoudCallDataConnector is an on-premises cmdlet that establishes the connection with the online data connector. **TRUE?**  
+- Set-CsCloudCallDataConnectorConfiguration is an on-premises cmdlet that enables you to customize the scope level of your configuration; for example, global or site level. 
 
 For example:
 
@@ -71,11 +72,11 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 In addition to the global settings, CDC configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDC forwarding for the Redmond site but disable CDC forwarding for the Dublin site, as shown in the following example:
   
 ```
-New-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
+Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
 
 ```
-New-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
+Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
 Settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
