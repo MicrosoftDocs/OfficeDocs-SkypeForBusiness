@@ -35,7 +35,8 @@ Guest access is included with all Office 365 Business Premium, Office 365 Enterp
 A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone can be added as guest in Microsoft Teams. This means that anyone with a business (with an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can participate as a guest in Teams with full access to teams chats, meetings and files.
 All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
 
-  
+> [!NOTE]
+> Users in your organization with standalone Office 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guest to your organization since Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned with Office 365 Business Premium, Office 365 Enterprise, and Office 365 Education subscriptions.  
       
 
 Organizations using Teams can provide external access to teams, documents in channels, resources, chats, and applications to their partners, while maintaining complete control over their own corporate data. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure Active Directory.  

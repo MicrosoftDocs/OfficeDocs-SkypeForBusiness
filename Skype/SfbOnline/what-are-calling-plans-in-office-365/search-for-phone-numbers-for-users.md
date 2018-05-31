@@ -24,7 +24,7 @@ description: "See how to search for phone numbers you can assign to your users, 
 
 # Search for phone numbers for users
 
-When you are setting up users in your organization to make and receive phone calls, you must use the **Skype for Business admin center**and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
+When you are setting up users in your organization to make and receive phone calls, you must use the **Skype for Business admin center** and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
 Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
@@ -33,14 +33,18 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 ## Search for phone numbers
 
  **To search for phone numbers for your users**
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
+  
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.  
     
-    **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 4. On the **Add new user numbers** page, click the **Country** and **State** lists to select the state that you want to select numbers from, and then select the area code for the city from the **City** list.
     

@@ -178,8 +178,6 @@ Where each provider defined with the Add directive has already been defined usin
 When you remove a scenario by using the **Remove-CsClsScenario** cmdlet, you completely remove the scenario from the scope. To use the scenarios that you created and the providers that were a part of the scenario, you create new providers and assign them to a new scenario.
 ## See also
 
-#### 
-
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
 [New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
@@ -189,4 +187,3 @@ When you remove a scenario by using the **Remove-CsClsScenario** cmdlet, you com
 [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
 [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
-

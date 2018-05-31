@@ -45,7 +45,4 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## See also
 
-#### 
-
 [Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-

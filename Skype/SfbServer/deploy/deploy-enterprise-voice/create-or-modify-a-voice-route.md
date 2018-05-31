@@ -118,11 +118,8 @@ description: "Summary: Learn how to create or modify a voice route in Skype for 
   
 ## See also
 
-#### 
-
 [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md)
   
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md)
   
 [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
-

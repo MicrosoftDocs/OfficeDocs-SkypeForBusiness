@@ -1680,8 +1680,8 @@ Business Online.
 -   [Set up Skype for Business Call
     Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
--   [What's the difference between Call Analytics and Call Quality
-    Dashboard?](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+-   [Call Analytics and Call Quality
+    Dashboard](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
 
 -   [Use Call Analytics to troubleshoot poor Skype for Business call
     quality](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)

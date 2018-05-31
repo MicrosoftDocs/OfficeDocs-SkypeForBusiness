@@ -275,7 +275,6 @@ When the input validation is successful, the message shown below is displayed.
   
 Click **OK**. BandwidthUtilizationAnalyzer.xlsm is automatically started. Follow the instructions in the message box. For details, see **Using BandwidthUtilizationAnalyzer.xlsm** in the next section.
   
-#### 
 
 ### Using BandwidthUtilizationAnalyzer.xlsm
 

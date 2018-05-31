@@ -182,8 +182,8 @@ This section makes the assumption that there is a single QoEMetrics DB in the en
 
 |**Machine**|**CPU Cores**|**RAM**|**QoE Archive and Cube on same disk**|**QoE Archive and SQL Temp DB on same disk**|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtual mmachine  <br/> |4  <br/> |7 GB  <br/> |Yes  <br/> |Yes  <br/> |
-|4 Ccore  <br/> |4  <br/> |20 GB  <br/> |Yes  <br/> |No  <br/> |
+|Virtual machine  <br/> |4  <br/> |7 GB  <br/> |Yes  <br/> |Yes  <br/> |
+|4 core  <br/> |4  <br/> |20 GB  <br/> |Yes  <br/> |No  <br/> |
 |8 core  <br/> |8  <br/> |32 GB  <br/> |Yes  <br/> |No  <br/> |
 |16 core  <br/> |16  <br/> |128 GB  <br/> |No  <br/> |No  <br/> |
    

@@ -31,8 +31,7 @@ The following tables list the features supported in a hybrid deployment when int
   
  **Skype for Business Server on premises and Exchange on premises**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> |For more information, see [IM and Presence](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -52,8 +51,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Server on premises and Exchange Online**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> |For more information, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -73,8 +71,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Online and Exchange on premises**
   
-|
-|
+ 
 |**Feature**|**Notes**|
 |:-----|:-----|
 |Presence in Outlook  <br/> ||
@@ -91,8 +88,7 @@ The following tables list the features supported in a hybrid deployment when int
    
  **Skype for Business Online and Exchange Online**
   
-|
-|
+
 |**Feature**|**Notes**|
 |:-----|:-----|
 |IM/Presence in Outlook  <br/> ||

@@ -36,7 +36,4 @@ To implement unified contact store in Skype for Business Server 2015:
   
 ## See also
 
-#### 
-
 [Deploy unified contact store in Skype for Business Server 2015](../../deploy/deploy-unified-contact-store.md)
-

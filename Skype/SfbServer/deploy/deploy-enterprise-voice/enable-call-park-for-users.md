@@ -60,7 +60,4 @@ You can enable Call Park at the global scope, or at the site scope or user scope
 
 ## See also
 
-#### 
-
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md)
-

@@ -46,7 +46,9 @@ Refer to this article for a list of [Dimensions and measures available in Call Q
 ## Activate Microsoft Call Quality Dashboard (CQD) Summary Reports
 
 Before you can start using the CQD, you'll need to activate it for your Office 365 organization.
-  
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
     
 2. In the left pane, under **Admin centers**, select **Skype for Business** to open the Skype for Business admin center.
@@ -55,11 +57,11 @@ Before you can start using the CQD, you'll need to activate it for your Office 3
     
      ![Skype for Business tools](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. On the page that opens, log in with your Global Administrator account, and then provide the credentials for the account when prompted.
+4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
     
      ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-After you login, once activated, the CQD will begin collecting and processing data.
+After you sign in, once activated, the CQD will begin collecting and processing data.
   
 > [!NOTE]
 > It may take a couple of hours to process enough data to display meaningful results in the reports. 
@@ -243,7 +245,7 @@ If you want to view the dimensions and measures for a single media type, the new
 
 [Use Call Analytics to troubleshoot poor  call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Cll Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  
