@@ -1,7 +1,7 @@
 ---
 title: "Client Version Configuration"
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2014
 ms.audience: ITPro

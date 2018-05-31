@@ -246,7 +246,4 @@ For additional information about Operations Manager, see the following blogs:
   
 ## See also
 
-#### 
-
 [Skype for Business Server 2015 Management Tools](../../management-tools/management-tools.md)
-

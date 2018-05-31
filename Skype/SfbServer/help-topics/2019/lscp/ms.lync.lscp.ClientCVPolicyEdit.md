@@ -1,7 +1,7 @@
 ---
 title: "Client Version Policy Create New or Edit Existing"
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro

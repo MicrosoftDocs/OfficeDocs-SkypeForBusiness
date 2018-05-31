@@ -95,7 +95,5 @@ After the prerequisites are in place, do the following:
 
 ## See also
 
-#### 
-
 [Plan for Call Via Work in Skype for Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "Test Device"
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -49,8 +49,6 @@ The following lists describe the menus, commands, fields, and properties on the 
 For details about testing devices, see [Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) in the Operations documentation.
 ## See also
 
-#### 
-
 [Test Device: Create New or Edit Existing](test-device-create-new-or-edit-existing.md)
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
@@ -58,4 +56,3 @@ For details about testing devices, see [Add a Device to Test Update Functionalit
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [View Software Updates for Devices in Your Organization](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

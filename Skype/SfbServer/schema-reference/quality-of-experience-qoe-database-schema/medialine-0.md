@@ -20,7 +20,7 @@ Each record represents one media line. (One audio session usually contains one a
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Referenced from the [Session table](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenced from the [Session table](session.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 is main audio, 1 is main video, and 2 is panoramic video, 3 is Application/Desktop Sharing. This label must be unique within a single session.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |0 is main audio, 1 is main video, and 2 is panoramic video, 3 is Application/Desktop Sharing, 16 is Video based Screen Sharing (VbSS). This label must be unique within a single session.  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |This column is present but not used in Microsoft Lync Server 2013. Information about the connectivity used for a media line is captured in the CallerConnectivityICE and CalleeConnectivityICE columns.  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Information about Interactive Connectivity Establishment (ICE) process described in bits flags. For details, refer to the  *Quality of Experience Monitoring Server Protocol Specification*  , available for download. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Same as CallerIceWarningFlags, but on the callee side. For details, refer to the  *Quality of Experience Monitoring Server Protocol Specification*  , available for download. <br/> |

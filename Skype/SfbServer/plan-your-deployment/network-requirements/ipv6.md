@@ -199,8 +199,6 @@ The following scenarios are supported during migration and coexistence:
 ## See also
 <a name="migration"> </a>
 
-#### 
-
 [Configure IP address types in Skype for Business](ip-address-types.md)
 
 [IP Version 6 Addressing Architecture](https://tools.ietf.org/html/rfc4291)
@@ -208,4 +206,3 @@ The following scenarios are supported during migration and coexistence:
 [IPv6 Global Unicast Address Format](https://tools.ietf.org/html/rfc3587)
   
 [Unique Local IPv6 Unicast Addresses](https://tools.ietf.org/html/rfc4193)
-
