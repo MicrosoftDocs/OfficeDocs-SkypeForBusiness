@@ -1,20 +1,19 @@
 ---
-title: "Call Diagnostic Summary Report in Skype for Business Server 2015"
+title: "Call Diagnostic Summary Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: "Summary: Learn about the Call Diagnostic Summary Report used in Skype for Business Server 2015."
+description: "Summary: Learn about the Call Diagnostic Summary Report used in Skype for Business Server."
 ---
 
-# Call Diagnostic Summary Report in Skype for Business Server 2015
+# Call Diagnostic Summary Report in Skype for Business Server
  
-**Summary:** Learn about the Call Diagnostic Summary Report used in Skype for Business Server 2015.
+**Summary:** Learn about the Call Diagnostic Summary Report used in Skype for Business Server.
   
 The Call Diagnostic Summary Report provides an overall look at failed peer-to-peer and conferencing sessions. The report shows the overall failure rate for both types of sessions, and further breaks the failure information down by session modality type:
   
@@ -30,7 +29,7 @@ The Call Diagnostic Summary Report provides an overall look at failed peer-to-pe
     
 ## Accessing the Call Diagnostic Summary Report
 
-The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015](peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report. You can also access the [Conference Diagnostic Report in Skype for Business Server 2015](conference-diagnostic-report.md) by clicking any of the following conference metrics:
+The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. From the Call Diagnostic Summary Report you can access the [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) by clicking the Failure rate metric under the Peer-to-Peer Session Summary section of the report. You can also access the [Conference Diagnostic Report in Skype for Business Server](conference-diagnostic-report.md) by clicking any of the following conference metrics:
   
 - Overall session failure rate
     
@@ -40,7 +39,7 @@ The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home 
     
 ## Making the Best Use of the Call Diagnostic Summary Report
 
-The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Skype for Business Server 2015. The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015](peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.
+The Call Diagnostic Summary Report includes graphs that compare failure rates for the various modalities used in Skype for Business Server. The columns in these graphs are actually hotlinks; for example, if you click the Instant messaging column for peer-to-peer sessions, you'll drill down to an instance of the [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md), a report that provides additional details about all the instant messaging sessions included in the Call Diagnostic Summary Report.
   
 ## Filters
 

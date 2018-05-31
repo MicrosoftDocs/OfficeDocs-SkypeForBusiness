@@ -1,36 +1,35 @@
 ---
-title: "Using Monitoring Reports in Skype for Business Server 2015"
+title: "Using Monitoring Reports in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: "Summary: Learn about Monitoring Reports in Skype for Business Server 2015."
+description: "Summary: Learn about Monitoring Reports in Skype for Business Server."
 ---
 
-# Using Monitoring Reports in Skype for Business Server 2015
+# Using Monitoring Reports in Skype for Business Server 
  
-**Summary:** Learn about Monitoring Reports in Skype for Business Server 2015.
+**Summary:** Learn about Monitoring Reports in Skype for Business Server.
   
-Skype for Business Server 2015 includes a set of standard reports that are published by Microsoft SQL Server Reporting Service. These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.
+Skype for Business Server includes a set of standard reports that are published by Microsoft SQL Server Reporting Service. These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.
   
 To use these reports, you must install Monitoring Reports on a computer that is running an instance of the SQL Server.
   
 ## In This Section
 
-- [Using the Monitoring Dashboard in Skype for Business Server 2015](monitoring-dashboard.md) Provides administrators with a quick overview of their system health and system usage.
+- [Using the Monitoring Dashboard in Skype for Business Server](monitoring-dashboard.md) Provides administrators with a quick overview of their system health and system usage.
     
-- [System usage reports in Skype for Business Server 2015](system-usage-reports.md) Provides system usage information based on CDR data collected by Skype for Business Server.
+- [System usage reports in Skype for Business Server](system-usage-reports.md) Provides system usage information based on CDR data collected by Skype for Business Server.
     
-- [Call Diagnostic Reports (per user) in Skype for Business Server 2015](call-diagnostic-reports-per-user.md) Provides per-user information about failed peer-to-peer and conferencing sessions.
+- [Call Diagnostic Reports (per user) in Skype for Business Server](call-diagnostic-reports-per-user.md) Provides per-user information about failed peer-to-peer and conferencing sessions.
     
-- [Call Diagnostic Reports in Skype for Business Server 2015](call-diagnostic-reports.md) Provides summary information and diagnostic data for failed peer-to-peer and conferencing sessions.
+- [Call Diagnostic Reports in Skype for Business Server](call-diagnostic-reports.md) Provides summary information and diagnostic data for failed peer-to-peer and conferencing sessions.
     
-- [Media Quality Diagnostic Reports in Skype for Business Server 2015](media-quality-diagnostic-reports.md) Provides information about call quality as well as diagnostic and troubleshooting information for failed calls.
+- [Media Quality Diagnostic Reports in Skype for Business Server](media-quality-diagnostic-reports.md) Provides information about call quality as well as diagnostic and troubleshooting information for failed calls.
     
 ## Locating Records
 

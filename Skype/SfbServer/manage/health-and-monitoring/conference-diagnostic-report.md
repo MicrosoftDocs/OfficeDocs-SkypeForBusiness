@@ -1,20 +1,19 @@
 ---
-title: "Conference Diagnostic Report in Skype for Business Server 2015"
+title: "Conference Diagnostic Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: "Summary: Learn about the Conference Diagnostic Report used in Skype for Business Server 2015."
+description: "Summary: Learn about the Conference Diagnostic Report used in Skype for Business Server."
 ---
 
-# Conference Diagnostic Report in Skype for Business Server 2015
+# Conference Diagnostic Report in Skype for Business Server
  
-**Summary:** Learn about the Conference Diagnostic Report used in Skype for Business Server 2015.
+**Summary:** Learn about the Conference Diagnostic Report used in Skype for Business Server.
   
 The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions. Note that Skype for Business Server distinguishes between different kinds of failure:
   
@@ -32,7 +31,7 @@ If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total 
   
 ## Accessing the Conference Diagnostic Report
 
-The Conference Diagnostic Report is accessed from the Monitoring Reports home page. You can access the [Failure Distribution Report in Skype for Business Server 2015](failure-distribution-report.md) by clicking either of the following metrics:
+The Conference Diagnostic Report is accessed from the Monitoring Reports home page. You can access the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md) by clicking either of the following metrics:
   
 - Unexpected failure volume
     
@@ -40,7 +39,7 @@ The Conference Diagnostic Report is accessed from the Monitoring Reports home pa
     
 ## Making the Best Use of the Conference Diagnostic Report
 
-The Conference Diagnostic Report includes a series of graphs. Each of the columns shown in the graph is actually a hyperlink. If you click a column, you'll drill down to the [Failure Distribution Report in Skype for Business Server 2015](failure-distribution-report.md) for that time period and that conference type.
+The Conference Diagnostic Report includes a series of graphs. Each of the columns shown in the graph is actually a hyperlink. If you click a column, you'll drill down to the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md) for that time period and that conference type.
   
 ## Filters
 

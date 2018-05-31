@@ -1,22 +1,21 @@
 ---
-title: "Rate my Call in Skype for Business Server 2015"
+title: "Rate my Call in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: "Summary: Learn about the Rate My Call feature in Skype for Business Server 2015."
+description: "Summary: Learn about the Rate My Call feature in Skype for Business Server."
 ---
 
-# Rate my Call in Skype for Business Server 2015
+# Rate my Call in Skype for Business Server
  
-**Summary:** Learn about the Rate My Call feature in Skype for Business Server 2015.
+**Summary:** Learn about the Rate My Call feature in Skype for Business Server.
   
-Rate My Call is a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.
+Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.
   
 The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls. In addition, administrators can enable a custom field to provide feedback.
   

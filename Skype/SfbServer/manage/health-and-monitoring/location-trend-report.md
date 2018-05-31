@@ -1,20 +1,19 @@
 ---
-title: "Location Trend Report in Skype for Business Server 2015"
+title: "Location Trend Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: "Summary: Learn about the Location Trend Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Location Trend Report in Skype for Business Server."
 ---
 
-# Location Trend Report in Skype for Business Server 2015
+# Location Trend Report in Skype for Business Server
  
-**Summary:** Learn about the Location Trend Report in Skype for Business Server 2015.
+**Summary:** Learn about the Location Trend Report in Skype for Business Server.
   
 The Location Trend Report provides call quality trend information for network locations.
   

@@ -1,22 +1,21 @@
 ---
-title: "Device Report in Skype for Business Server 2015"
+title: "Device Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: "Summary: Learn about the Device Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Device Report in Skype for Business Server."
 ---
 
-# Device Report in Skype for Business Server 2015
+# Device Report in Skype for Business Server
  
-**Summary:** Learn about the Device Report in Skype for Business Server 2015.
+**Summary:** Learn about the Device Report in Skype for Business Server.
   
-The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call. If you are interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Skype for Business Server 2015](ip-phone-inventory-report.md) instead.
+The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call. If you are interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Skype for Business Server](ip-phone-inventory-report.md) instead.
   
 The Device Report is extremely useful for administrators in determining if a specific type of device is experiencing high volumes of poor quality calls than others. In turn, this could influence any decisions you must make when it comes time to buy new devices or to replace existing devices.
   
@@ -47,13 +46,13 @@ If you would rather see combined totals for a given device (for example, for the
    
 ## Accessing the Device Report
 
-The Device Report is typically accessed from the Monitoring Reports home page. However, if you are viewing the [Call Detail Report in Skype for Business Server 2015](call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:
+The Device Report is typically accessed from the Monitoring Reports home page. However, if you are viewing the [Call Detail Report in Skype for Business Server](call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:
   
 - Capture Device
     
 - Render Device
     
-From the Device Report you can drill down to the [Call List Report in Skype for Business Server 2015](call-list-report-0.md) by clicking either of the following metrics:
+From the Device Report you can drill down to the [Call List Report in Skype for Business Server](call-list-report-0.md) by clicking either of the following metrics:
   
 - Call volume
     
@@ -100,7 +99,7 @@ When it comes to device names, the Device Report is extremely detailed; for exam
 - Aastra 6725ip Microphone (USB Audio Device)-V0
     
 > [!NOTE]
-> Keep in mind that capture device names might not be the same if you are running localized versions of Skype for Business Server 2015. A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish. 
+> Keep in mind that capture device names might not be the same if you are running localized versions of Skype for Business Server. A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish. 
   
 Often times you'll want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number. One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\Data\Devices_Report.csv). You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:
   

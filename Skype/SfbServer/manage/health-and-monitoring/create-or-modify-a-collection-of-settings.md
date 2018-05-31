@@ -1,24 +1,23 @@
 ---
-title: "Create or modify a collection of CDR configuration settings in Skype for Business Server 2015"
+title: "Create or modify a collection of CDR configuration settings in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: "Summary: Learn about Call detail recording (CDR) in Skype for Business Server 2015."
+description: "Summary: Learn about Call detail recording (CDR) in Skype for Business Server."
 ---
 
-# Create or modify a collection of CDR configuration settings in Skype for Business Server 2015
+# Create or modify a collection of CDR configuration settings in Skype for Business Server
  
-**Summary:** Learn about Call detail recording (CDR) in Skype for Business Server 2015.
+**Summary:** Learn about Call detail recording (CDR) in Skype for Business Server.
   
 Call detail recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.
   
-When you install Skype for Business Server 2015 a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom settings at the site scope. Whenever these site-scoped settings are used, they take precedence over the global settings. For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage CDR in Redmond.
+When you install Skype for Business Server a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom settings at the site scope. Whenever these site-scoped settings are used, they take precedence over the global settings. For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage CDR in Redmond.
   
 You can create CDR configuration settings by using either Skype for Business Server Control Panel or the [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet. You can use Skype for Business Server Control Panel or the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet to modify existing settings. If you are using Skype for Business Server Control Panel to create or modify settings, the following options will be available to you:
   
