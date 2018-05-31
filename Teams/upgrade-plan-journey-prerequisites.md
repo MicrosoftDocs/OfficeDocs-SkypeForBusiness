@@ -1,5 +1,5 @@
 ---
-title: Prepare my environment - Prerequisites
+title: Plan for your upgrade - Prerequisites
 author: turgayo
 ms.author: lolaj
 manager: lehewe
