@@ -21,7 +21,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 # Microsoft Teams and Skype for Business coexistence and interoperability
 
-If your organization uses Skype for Business today and you intend to start using Teams alongside Skype for Business—or you intend to start upgrading to Teams—it's important to understand how the two applications coexist, when and how they interoperate, and how to manage users’ migration all the way to their eventual upgrade from Skype for Business to Teams.
+If your organization uses Skype for Business today and you intend to start using Teams alongside Skype for Business—or you intend to start upgrading to Teams—it’s important to understand how the two applications coexist, when and how they interoperate, and how to manage users’ migration all the way to their eventual upgrade from Skype for Business to Teams.
 
 > [!Note]
 > Before taking a deeper look into the coexistence and interoperability of Teams and Skype for Business, you should become familiar with the concepts of coexistence and upgrade journeys, in addition to the coexistence modes described in this article, to help you choose the best upgrade journey for your organization. For more information, see [Understand coexistence and upgrade journeys for Skype for Business and Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). 
@@ -34,7 +34,8 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 
 This coexistence mode is called **Islands**, to express the notion that each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. There’s no need for interoperability in **Islands** mode because users run both clients and can communicate natively in the client from which the communication was initiated.
 
-The vast majority of organizations—in particular, virtually all Skype for Business Online customers—are likely to deploy **Islands** mode. If you plan to move to Teams rapidly and you don’t expect to support coexistence for long, you should consider **Islands** mode.
+> [!Tip]
+> The vast majority of organizations—in particular, virtually all Skype for Business Online customers—are likely to deploy **Islands** mode. If you plan to move to Teams rapidly and you don’t expect to support coexistence for long, you should consider **Islands** mode.
 
 If the default **Islands** coexistence mode doesn’t meet the needs of your organization, you can assign another coexistence mode to a given user. This situation should only apply to a small subset of customers who anticipate having an extended period of coexistence because they have a very complex deployment or requirements, such as on-premises—and in particular, enterprise voice—deployments. These other coexistence modes are all designed to ensure that there will be no overlapping capability between Teams and Skype for Business for a given user. These modes can be assigned to any or all users, and multiple modes can coexist in one organization. A user who has been assigned one of these other coexistence modes needs interoperability to receive communications sent to them from a different client, because they only have one client capable of receiving that communication. The additional coexistence modes are:
 

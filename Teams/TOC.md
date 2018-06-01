@@ -16,7 +16,6 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ## [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-
 ## [Sign in to Teams](sign-in-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
@@ -229,6 +228,7 @@
 ## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [4 - Drive value through user adoption](continue-journey.md)
+## [Technical reference](migration-interop-guidance-for-teams-with-skype.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
