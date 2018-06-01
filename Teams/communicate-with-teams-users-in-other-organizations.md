@@ -31,7 +31,7 @@ Follow these steps:
 ### Step 1 - Setup your firewall and open the following ports:
     - TCP port 80
     - TCP port 443
-    - Next port
+    - Next port please
 
 ### Step 2 - Enable a Teams organization to communicate with another Teams organization
 
