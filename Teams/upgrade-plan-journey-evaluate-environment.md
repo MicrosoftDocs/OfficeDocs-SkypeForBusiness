@@ -45,12 +45,8 @@ computing, such as a readiness assessment of PCs and mobile devices to support
 Audio Conferencing and Phone System with Calling Plan business use cases, from
 hardware requirements to software requirements.
 
-Environmental discovery can also uncover whether you need to [transfer phone
-numbers to
-Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
-Knowing this will help your organization adjust its project plan accordingly and
-prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](upgrade-prepare-environment-discover-environment.md)
-from MyAdvisor to perform environmental discovery.
+You can use the [Environmental discovery for Microsoft Teams rollout](upgrade-prepare-environment-discover-environment.md) to perform environmental discovery.
+
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
@@ -73,6 +69,5 @@ Use the following considerations to assess your organization’s preparedness to
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>If you answered "yes" to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered "no" to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
 </table>
-
 
 <!--ENDOFSECTION-->
