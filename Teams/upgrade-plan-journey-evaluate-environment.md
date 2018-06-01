@@ -65,6 +65,7 @@ Deployment puts a new technology at a user's fingertips, but business results ar
 
 Use the following considerations to assess your organization’s preparedness to address user change management.
 
+<br>
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Have you had previous success with user adoption of software or services?</li><li>Can you track usage uptake?</li><li>Do you have the resources to design and manage an initial&mdash;and ongoing&mdash;adoption campaign (awareness, training, and support)?</li><li>Do you have a dedicated user adoption/change management team, or can you invest in those resources to ensure business outcomes?</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>If you answered "yes" to all of the above, identify the right user change management stakeholders and begin your user readiness planning.</li><li>If you answered "no" to some or all of the above, consider engaging outside resources to assist with driving change management and adoption-related activities for your organization.</li></ol></td></tr>
