@@ -1,5 +1,5 @@
 ---
-title: Plan for your upgrade - Prerequisites and environmental dependencies
+title: Prerequisites and environmental dependencies
 author: turgayo
 ms.author: lolaj
 manager: lehewe
