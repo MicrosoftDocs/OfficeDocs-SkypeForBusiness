@@ -29,28 +29,28 @@ The following table shows the end-state for a user provisioned for the selected 
 |User object attributes |Phone System with Calling Plans|Phone System with on-premises PSTN connectivity via Skype for Business Server|Phone System with on-premises PSTN connectivity via Cloud Connector|Phone System with on-premises PSTN connectivity via Direct Routing|
 |---|---|---|---|---|
 |Client|Skype for Business or Teams |Skype for Business |Skype for Business |Teams|
-|Licenses|Skype Business Online</br>Plan 2</br></br>MCOProfessional or MCOSTANDARD)</br></br>Phone System (MCOEV)</br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD</br></br>Phone System (MCOEV)</br></br>Teams|
+|Licenses|Skype Business Online</br>Plan 2</br></br>MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD</br></br></br>Phone System (MCOEV)</br></br>Teams|
 OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Azure Active Directory.|The phone number can be managed either in on-premises Active Directory or in Azure Active Directory. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
 |LineURI|PSTN Calling phone number|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
 |HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
-|VoiceRoutingPolicy|Has a value|Has a value|Has a value|Has a value|
+|VoiceRoutingPolicy|Has a value|Has a value|Has a value|N/A|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Has a value|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly or Islands|$Null|$Null|Islands or TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – please read the note below.|Teams or Skype for Business |Skype for Business|SfB|Teams|
+|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient – please read the note below.|Teams or SfB |SfB|SfB|Teams|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|N/A|N/A|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/A|N/A|True|
 ||||||
 
-<sup>1</sup>Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in “Migration and interoperability Guidance for organizations using Teams together with Skype for Business” 
+<sup>1</sup>Choosing the right mode of the TeamsUpgradePolicy depends on the scenario. Please read about the voice experience in different modes in [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](../../teams/migration-interop-guidance-for-teams-with-skype.md).
 
 <sup>2</sup>As previously announced, TeamsInteropPolicy will be retired (targeted for the end of Q3), and its functionality is being consolidated into TeamsUpgradePolicy. Interop and migration will be managed using “coexistence mode” as determined by TeamsUpgradePolicy, which is now available. Selection of the user’s mode will govern both routing of incoming calls and chats and in which client the user can initiate chats and calls or schedule meetings. While TeamsInteropPolicy will be retired, it still needs to be set in parallel with TeamsUpgradePolicy during the phaseout.  
 
 As part of this effort, Microsoft recently updated the “Microsoft Teams & Skype for Business Admin Center” (also known as Modern Portal) to reflect the new management model based on coexistence modes. In Modern Portal, configuring TeamsUpgradePolicy will now automatically also set TeamsInteropPolicy to consistent value, so TeamsInteropPolicy is no longer exposed in the user interface. However, admins using PowerShell must still set both TeamsUpgradePolicy and TeamsInteropPolicy together to ensure proper routing. After the transition to TeamsUpgradePolicy is complete, it will no longer be necessary to also set TeamsInteropPolicy.
 
-For more information, please refer to “Migration and interoperability Guidance for organizations using Teams together with Skype for Business.”
+For more information, please refer to [Migration and interoperability Guidance for organizations using Teams together with Skype for Business](../../teams/migration-interop-guidance-for-teams-with-skype.md).
 
 ## Migrating from Calling Plans
 
