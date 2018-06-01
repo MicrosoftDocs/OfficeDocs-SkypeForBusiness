@@ -49,12 +49,10 @@ IT admins can choose their preferred method to distribute the installation files
 
 #### Windows
 
-The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.
-
-
+The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
 > [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed. Matching the Office architecture is better for related and integrated features across the Office 365 suite of apps.
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows/Office that is installed.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
