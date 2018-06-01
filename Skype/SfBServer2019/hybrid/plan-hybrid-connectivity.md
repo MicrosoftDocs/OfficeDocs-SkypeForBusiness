@@ -1,9 +1,8 @@
 ---
-title: "<topic title>"
+title: "Plan hybrid connectivity"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
