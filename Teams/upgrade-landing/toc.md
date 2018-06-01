@@ -12,7 +12,7 @@
 ### [Microsoft Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
-### [Prepare my network]
+### [Prepare my network](../upgrade-prepare-environment-prepare-network.md)
 ### [Monitor quality]
 ## [Prepare my organization](../upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
