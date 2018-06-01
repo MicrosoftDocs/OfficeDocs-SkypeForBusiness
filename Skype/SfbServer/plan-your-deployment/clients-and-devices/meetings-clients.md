@@ -154,19 +154,9 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
     
 - You may need to [turn on JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) support in your browser for some Skype for Business Web App features to work as expected.
     
-### Cryptographic requirements due to ASP .NET 4.5
+### AES Support 
 
-As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. If a client is using AES as the machine key validation value you will need to reset the machine key value to SHA-1 or another supported algorithm on the Skype Meetings App site level on IIS. If necessary, see [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) for instructions.
-  
-Other supported values are:
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- The values AES, 3DES, and MD5 are no longer allowed, as they once were in ASP.NET 4.[Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) has more details.
+As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. [Cryptographic requirements due to ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) has more details.
   
 ## See also
 <a name="BKMK_Conferencing"> </a>
