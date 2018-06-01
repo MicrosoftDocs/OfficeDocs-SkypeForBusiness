@@ -77,7 +77,6 @@ Using the Meeting Migration Service, you can optionally update meeting invites t
     
 ```
 	Start-CsExMeetingMigration user@contoso.com
-
 ```
 
 - You can also view the meeting migration status. All meetings would be rescheduled once there are no operations in  *Pending*  or *In-Progress*  state.
