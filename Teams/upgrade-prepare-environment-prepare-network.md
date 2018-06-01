@@ -25,25 +25,6 @@ performance, you should prepare your network for Teams.
 
 ![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
-## Key takeaways
-
-These are the main takeaways from this guidance. You must:
-
--   Open TCP ports 80 and 443 outgoing from clients that will use Teams.
-
--   Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
-
--   Ensure that you have sufficient bandwidth for deploying Teams by completing
-    the [Network
-    Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
-
--   Run the [Network Assessment
-    Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
-    that you meet the requirements described in [Media quality and network
-    connectivity
-    performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
-    from both the edge segment and the client segment.
-
 ## Why should you prepare your network?
 
 Before we look at the steps to be taken, it’s important to understand what can
@@ -307,3 +288,22 @@ maintain these areas as part of your service management planning.
 </table>
 
 <!--ENDOFSECTION-->
+
+## Key takeaways
+
+These are the main takeaways from this guidance. You must:
+
+-   Open TCP ports 80 and 443 outgoing from clients that will use Teams.
+
+-   Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
+
+-   Ensure that you have sufficient bandwidth for deploying Teams by completing
+    the [Network
+    Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+
+-   Run the [Network Assessment
+    Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
+    that you meet the requirements described in [Media quality and network
+    connectivity
+    performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+    from both the edge segment and the client segment.
