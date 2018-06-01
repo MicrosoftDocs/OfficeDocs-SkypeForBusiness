@@ -34,12 +34,8 @@ All releases are listed in the [Skype Room Systems v2 release notes](srs2-releas
 <a name="See"> </a>  
 ## See also
 
-
-#### 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Skype Room Systems v2 release notes](srs2-release-note.md)
 
 [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
-
-#### 

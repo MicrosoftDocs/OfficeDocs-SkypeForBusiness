@@ -25,14 +25,10 @@ This section tells how to deploy these features, and also covers what steps you 
   
 ## See also
 
-#### 
-
 [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](alwayson-availability-group.md)
-#### 
 
 [Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015](front-end-pools-for-disaster-recovery.md)
   
 [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
   
 [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

@@ -59,7 +59,4 @@ For more information, see the help topic for the [Get-CsPinPolicy](https://docs.
   
 ## See also
 
-#### 
-
 [Create a new PIN policy in Skype for Business Server 2015](create-a-new-pin-policy.md)
-

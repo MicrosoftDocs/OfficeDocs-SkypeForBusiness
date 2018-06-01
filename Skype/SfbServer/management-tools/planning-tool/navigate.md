@@ -39,12 +39,8 @@ Additionally, hardware information is displayed in the overview under the Action
   
 ## See also
 
-#### 
-
 [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
-#### 
 
 [Editing the Design](http://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
   
 [Reviewing the Administrator Reports](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

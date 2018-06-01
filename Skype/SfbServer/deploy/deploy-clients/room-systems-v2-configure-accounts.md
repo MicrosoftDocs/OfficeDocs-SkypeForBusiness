@@ -77,8 +77,6 @@ If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some ste
   
 ## See also
 
-#### 
-
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Configure a Skype Room Systems v2 console](console.md)

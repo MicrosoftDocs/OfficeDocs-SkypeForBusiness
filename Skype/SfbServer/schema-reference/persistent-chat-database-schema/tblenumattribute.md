@@ -38,7 +38,4 @@ tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior 
    
 ## See also
 
-#### 
-
 [tblNode](tblnode.md)
-
