@@ -1,5 +1,5 @@
 ---
-title: Prepare my environment - Discover my environment
+title: Discover my environment
 author: turgayo
 ms.author: lolaj
 manager: lehewe

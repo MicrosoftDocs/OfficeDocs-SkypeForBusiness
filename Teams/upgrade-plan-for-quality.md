@@ -1,5 +1,5 @@
 ---
-title: Prepare my environment - Evaluate my environment
+title: Plan for service management and quality
 author: turgayo
 ms.author: lolaj
 manager: lehewe
