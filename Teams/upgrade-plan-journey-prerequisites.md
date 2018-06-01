@@ -1,5 +1,5 @@
 ---
-title: Plan for your upgrade - Prerequisites
+title: Plan for your upgrade - Prerequisites and environmental dependencies
 author: turgayo
 ms.author: lolaj
 manager: lehewe
@@ -7,7 +7,7 @@ ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
-description: Use this guidance to learn about the prerequisites to deploy Teams in your organization
+description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -27,3 +27,10 @@ Go to the following articles to learn about the requirements:
 - [Office 365 groups and Microsoft Teams ](Office-365-groups.md)
 - [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md) 
 - [How Exchange and Teams interact ](Exchange-Teams-interact.md)
+
+ [!INCLUDE [environment-readiness](environment-readiness.md)]
+
+
+|  |  |  |
+|---------|---------|---------|
+|![Next Steps icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps |[Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)|
