@@ -28,9 +28,11 @@ Go to the following articles to learn about the requirements:
 - [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md) 
 - [How Exchange and Teams interact ](Exchange-Teams-interact.md)
 
- [!INCLUDE [environment-readiness](environment-readiness.md)]
+
+[!INCLUDE [environment-readiness](environment-readiness.md)]
 
 
-|  |  |  |
-|---------|---------|---------|
-|![Next Steps icon.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Next Steps |[Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)|
+
+<table>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td>[Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)</td></tr>
+</table>
