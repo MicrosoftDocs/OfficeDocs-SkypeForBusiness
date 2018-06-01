@@ -57,6 +57,20 @@ website](https://myadvisor.fasttrack.microsoft.com/) by using the Network
 Planner. The Network Planner provides per-site bandwidth planning for Teams and
 offers recommendations for optimizing network performance.
 
+> [!IMPORTANT]
+>If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It is therefore extremely important to have the expected bandwidth available.
+
+
+|Activity  |Download Bandwidth  |Upload Bandwidth  |Traffic Flow |
+|---------|---------|---------|---------|
+|**Peer to peer Audio Call**     |0.1 Mb         |0.1Mb         |Client <> Client         |
+|**Peer to peer Video Call (full screen)**     |4 Mb         |4Mb         |Client <> Client          |
+|**Peer to peer Desktop Sharing (1920*1080 resolution)**     |4 Mb         |4 Mb         |Client <> Client          |
+|**2 Participant Meeting**     |4 Mb         |4 Mb         |Client <> Office 365         |
+|**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
+|**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
+|**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
+
 ### Local internet egress
 
 Many networks were designed to use a hub and spoke topology. In this topology,
@@ -78,6 +92,27 @@ performance and ultimately provide the best experience for users. For more
 detail, see the blog post [Getting the best connectivity and performance in
 Office
 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+
+
+To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
+
+The two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge) must meet the following requirements:
+
+
+|**Value**  |**Client to Microsoft Edge**  |**Customer Edge to Microsoft Edge**  |
+|---------|---------|---------|
+|**Latency (one way)**     |< 50ms          |< 30ms          |
+|**Latency (RTT or Round-trip Time)** |< 100ms         |< 60ms         |
+|**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
+|**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
+|**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
+|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
+
+To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. The tool includes limited documentation, but a deeper documentation around the usage of the tool can be found here: [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800). By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
+
+> [!NOTE]
+> This is the same Network Readiness Assessment that is recommended to be run for customers who are looking to successfully deploy Skype for Business.
+
 
 ### VPN
 
@@ -168,6 +203,21 @@ instead of UDP. For more information about proxy servers and bypassing, see
 ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
+
+## Additional network considerations
+### External Name Resolution
+
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365.
+
+### NAT Pool Size
+
+When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.
+
+To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+
+### Intrusion Detection and Prevention Guidance
+
+If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Office 365 URLs is whitelisted.
 
 ## Test the network
 
