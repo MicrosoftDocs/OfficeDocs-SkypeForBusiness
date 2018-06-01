@@ -30,7 +30,7 @@ You must configure the data generated from enabling Call Data Recording (CDR) an
 ## Enable Call Data Connector
 <!--Once all the requirements are set up, you can run the Hybrid Setup Wizard in the Skype for Business Control Panel. If all the requirements are met, at the end of the wizard you  see a checkbox option to turn on Call Data Connector. Select the box labeled **Yes, Turn on**. 
 
-Once CDC is enabled, you can set or confirm specific CDC settings for scope the same way you can set CDR and QoE settings, which have their own tabs in the Control Panel.
+Once Call Data Connector is enabled, you can set or confirm specific Call Data Connector settings for scope the same way you can set CDR and QoE settings, which have their own tabs in the Control Panel.
 
 To do this from within the Skype for Business Server Control Panel, complete the following procedure:
   
@@ -39,10 +39,10 @@ To do this from within the Skype for Business Server Control Panel, complete the
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
 To configure Call Data Connector, you'll use the following cmdlets:
 
-- `New-CsCloudCallDataConnection` is an online cmdlet that establishes an online data collector.
-- `Get-CsCloudCallDataConnection` is an online cmdlet that retrieves an existing online data collector.   
-- `Set-CsCloudCallDataConnector` is an on-premises cmdlet that  saves an on-premises copy of the connection information created by the `New-CsCloudCallDataConnection` cmdlet.  
-- `Set-CsCloudCallDataConnectorConfiguration` is an on-premises cmdlet that enables you to enable or disable the connector and to customize the scope level. 
+- The New-CsCloudCallDataConnection cmdlet is an online cmdlet that establishes an online data collector.
+- The Get-CsCloudCallDataConnection cmdlet is an online cmdlet that retrieves an existing online data collector.   
+- The Set-CsCloudCallDataConnector cmdlet is an on-premises cmdlet that  saves an on-premises copy of the connection information created by the New-CsCloudCallDataConnection cmdlet.  
+- The Set-CsCloudCallDataConnectorConfiguration cmdlet is an on-premises cmdlet that enables you to enable or disable the connector and to customize the scope level. 
 
 For example:
 
@@ -61,13 +61,13 @@ For example:
 <!--You can also replace the `tenant_id` part with something like  `-TenantId (Get-CsTenant).TenantID`.
 **What effect will that have?**-->
 
-You can enable Call Data Connector (CDC) for a particular site or for your entire Skype for Business Server deployment by using the Set-CsCloudCallDataConnectorConfiguration cmdlet.  For example, the following command enables CDC at the global scope:
+You can enable Call Data Connector for a particular site or for your entire Skype for Business Server deployment by using the Set-CsCloudCallDataConnectorConfiguration cmdlet.  For example, the following command enables Call Data Connector at the global scope:
 
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
-In addition to the global settings, CDC configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable CDC forwarding for the Redmond site but disable CDC forwarding for the Dublin site, as shown in the following example:
+In addition to the global settings, Call Data Connector configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable Call Data Connector forwarding for the Redmond site but disable Call Data Connector forwarding for the Dublin site, as shown in the following example:
   
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
@@ -77,19 +77,19 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDa
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
-Settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose CDC forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
+Settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose Call Data Connector forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
 
-Values for the most commonly-used setting used by CDC are shown in the following table:  
+Values for the most commonly-used setting used by Call Data Connector are shown in the following table:  
 |Property|Description|Default Value|
 |:-----|:-----|:-----|
-|EnableCallDataConnector  <br/> |Indicates whether or not CDC is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$True  <br/> |
+|EnableCallDataConnector  <br/> |Indicates whether or not Call Data Connector is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$True  <br/> |
 | Identity | Determines the scope level for the command: global or site.   | $True  |
 
 ## Disable Call Data Connector
 
-Disabling CDC does not dissociate the monitoring store from the Front End pool, nor does it uninstall or otherwise affect the backend monitoring database. When you disable CDC, you temporarily stop Skype for Business Server from forwarding the monitoring data to the online CQD dashboard. 
+Disabling Call Data Connector does not dissociate the monitoring store from the Front End pool, nor does it uninstall or otherwise affect the backend monitoring database. When you disable Call Data Connector, you temporarily stop Skype for Business Server from forwarding the monitoring data to the online CQD dashboard. 
 
-The following command disables CDC at the global scope by setting the EnableCallDataConnector property to False ($False):
+The following command disables Call Data Connector at the global scope by setting the EnableCallDataConnector property to $False:
   
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
