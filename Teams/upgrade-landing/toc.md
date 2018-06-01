@@ -9,6 +9,7 @@
 ### [Plan for quality](../upgrade-plan-for-quality.md)
 ### [Evaluate my environment](../upgrade-plan-journey-evaluate-environment.md)
 ## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Microsoft Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network]
