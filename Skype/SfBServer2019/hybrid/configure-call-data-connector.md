@@ -39,12 +39,10 @@ To do this from within the Skype for Business Server Control Panel, complete the
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
 To configure Call Data Connector, you'll use the following cmdlets:
 
-**IS THE FOLLOWING CORRECT?  NOTE THAT RAHUL'S FEEDBACK AND THE SPEC HAVE CONFLICTING INFO.  WE NEED HELP VERIFYING CMDLET NAMES AND PURPOSES: New-CsCloudCallDataConnection, New-CsCloudCallDataConnector, Set-CsCloudCallDataConnectorConfiguration THE FOLLOWING IS BASED ON RAHUL'S FEEDBACK:**
-
-- New-CsCLoudCallDataConnection is an online cmdlet that establishes an online data collector.
-- Get-CsCloudCallDataConnection is an online cmdlet that retrieves an existing online data collector.   **TRUE??**
-- Set-CsCLoudCallDataConnector is an on-premises cmdlet that establishes the connection with the online data connector. **TRUE?**  
-- Set-CsCloudCallDataConnectorConfiguration is an on-premises cmdlet that enables you to customize the scope level of your configuration; for example, global or site level. 
+- `New-CsCloudCallDataConnection` is an online cmdlet that establishes an online data collector.
+- `Get-CsCloudCallDataConnection` is an online cmdlet that retrieves an existing online data collector.   
+- `Set-CsCloudCallDataConnector` is an on-premises cmdlet that  saves an on-premises copy of the connection information created by the `New-CsCloudCallDataConnection` cmdlet.  
+- `Set-CsCloudCallDataConnectorConfiguration` is an on-premises cmdlet that enables you to enable or disable the connector and to customize the scope level. 
 
 For example:
 
@@ -87,8 +85,6 @@ Values for the most commonly-used setting used by CDC are shown in the following
 |EnableCallDataConnector  <br/> |Indicates whether or not CDC is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$True  <br/> |
 | Identity | Determines the scope level for the command: global or site.   | $True  |
 
-
-
 ## Disable Call Data Connector
 
 Disabling CDC does not dissociate the monitoring store from the Front End pool, nor does it uninstall or otherwise affect the backend monitoring database. When you disable CDC, you temporarily stop Skype for Business Server from forwarding the monitoring data to the online CQD dashboard. 
@@ -117,14 +113,14 @@ Provided you are logged in to Office 365, you can refresh the token cached on-pr
 ```
 New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector 
 ```
-This will establish an online data collector if it has not already been enabled, and refresh the token. **Still not clear why token refresh would be needed**
+This will establish an online data collector if it has not already been enabled, and refresh the token. A refresh would be needed if the token data has been corrupted or the token has expired. 
 
 ## For more information
 
 For more information on the cmdlets, you can specify the Get-Help command from within the Skype for Business Server Management Shell.  For example:
   
 ```
-Get-Help New-CsCloudCallDataConnector | more
+Get-Help New-CsCloudCallDataConnection | more
 Get-Help Set-CsCloudCallDataConnectorConfiguration | more
 Get-Help Set-CsCloudCallDataConnector | more 
 ```
