@@ -34,5 +34,5 @@ Go to the following articles to learn about the requirements:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td>[Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)</td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td>Visit [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md) for properly evaluating your current environment for Teams.</td></tr>
 </table>
