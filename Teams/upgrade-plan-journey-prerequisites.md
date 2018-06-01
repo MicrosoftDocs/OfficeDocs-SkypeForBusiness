@@ -23,6 +23,7 @@ Teams combines multiple Office 365 services and is therefore dependent on the co
 
 While not all services are required, it is highly recommended to implement all of them. If you choose to not implement certain services, this will impact the functionality that Teams can offer your organization. For example, while you are not required to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in group conversations. Not implementing SharePoint Online will affect functionality offered through the client.
 
+See the following articles to learn about the prerequisites and how Teams interact with other technologies:
 
 -   If your organization has not deployed any Office 365 workloads, see [Getting Started with Office 365 for business.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
@@ -34,14 +35,10 @@ While not all services are required, it is highly recommended to implement all o
 
 -   If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
+-   Check how [Office 365 groups and Microsoft Teams interact](Office-365-groups.md)
+
 - If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) before deploying Microsoft Teams.
-
 																		   
-See the following articles to learn about How Teams interact with other technologies:
-- [Office 365 groups and Microsoft Teams ](Office-365-groups.md)
-- [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md) 
-- [How Exchange and Teams interact ](Exchange-Teams-interact.md)
-
 <table>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td>Visit [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md) for properly evaluating your current environment for Teams.</td></tr>
 </table>
