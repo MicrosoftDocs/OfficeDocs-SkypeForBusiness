@@ -15,7 +15,7 @@
 ### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
 ### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 ### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
-
+### [Migrating to Direct Routing](../hybrid/migrating-to-direct-routing.md)
 
 ## Plan 
 ### System requirements
