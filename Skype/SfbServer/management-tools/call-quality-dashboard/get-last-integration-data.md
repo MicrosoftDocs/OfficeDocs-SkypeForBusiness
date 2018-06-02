@@ -65,7 +65,4 @@ This feature is disabled by default and it needs to be enabled by configuring th
 "LastDataIntegrationStart": null,
 "LastCubeProcessingStart": "01/18/2015 10:30:16"
 }
-
 ```
-
-

@@ -36,7 +36,7 @@ Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
 That will return data similar to this:
   
-```
+<pre>
 Identity                                EnableDialInConferencing
 --------                                ------------------------
 Global                                                      True
@@ -44,8 +44,7 @@ site:Redmond                                               False
 site:Dublin                                                False
 Tag:RedmondDialInUsers                                      True
 Tag:DublinDialInUsers                                       True
-
-```
+</pre>
 
 ## Filters
 

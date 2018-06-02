@@ -60,7 +60,6 @@ Get Users returns a list of users in the repository.
 "loginName": "SAMPLEDOMAIN\\testuser2",
 "defaultItemId": 1774
 }]
-
 ```
 
 
