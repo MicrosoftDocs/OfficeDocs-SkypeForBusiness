@@ -92,7 +92,7 @@ To mitigate this, one or more of the following options may be helpful:
     
 The numbers in this table are influenced by individual networks and by the content being shared. Please test to establish baselines for your network or networks.
   
-|**1080p Content**|**RPD Average**|**RDP Peak**|**VbSS Average**|**VbSS Peak**|
+|**1080p Content**|**RDP Average**|**RDP Peak**|**VbSS Average**|**VbSS Peak**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
