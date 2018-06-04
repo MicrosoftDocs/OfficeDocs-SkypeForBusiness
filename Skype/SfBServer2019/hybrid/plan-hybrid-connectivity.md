@@ -18,7 +18,7 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 
-##Overview
+## Overview
  
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams. Setting up hybrid connectivity is the first step in deploying many Skype for Business hybrid solutions. 
 
