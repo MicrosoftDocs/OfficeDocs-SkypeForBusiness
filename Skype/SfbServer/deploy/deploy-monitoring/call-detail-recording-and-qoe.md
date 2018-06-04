@@ -82,5 +82,3 @@ Get-Help Set-CsCdrConfiguration | more
 Get-Help New-CsQoEConfiguration | more
 Get-Help Set-CsQoEConfiguration | more
 ```
-
-

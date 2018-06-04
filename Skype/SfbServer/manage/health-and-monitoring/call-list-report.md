@@ -68,7 +68,7 @@ $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -
 
 That will information similar to this:
   
-```
+<pre>
 Count    Name
 -----    ----
   160    Redmond Help Desk
@@ -76,7 +76,7 @@ Count    Name
    31    North America Customer Support
    16    EMEA Customer Support
    14    Employment Opportunities
-```
+</pre>
 
 ## Filters
 

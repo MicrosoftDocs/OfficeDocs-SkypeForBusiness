@@ -65,7 +65,6 @@ If you use an Emergency Location Identification Number (ELIN) gateway, include t
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
-
    ```
 
 2. Run the following cmdlet to add wireless locations to the location database.
@@ -120,7 +119,6 @@ If you use an Emergency Location Identification Number (ELIN) gateway, include t
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
-
    ```
 
 3. Run the following cmdlet to validate the addresses in the location database.
@@ -145,7 +143,6 @@ If you use Emergency Location Identification Number (ELIN) gateways, you also ne
     
   ```
   Publish-CsLisConfiguration
-
   ```
 
 

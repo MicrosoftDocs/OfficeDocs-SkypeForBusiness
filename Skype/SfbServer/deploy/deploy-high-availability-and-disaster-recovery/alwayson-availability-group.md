@@ -427,5 +427,3 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
      ```
 
      - Repeat the previous two steps (fail over the group to a secondary replica, then use  `Install-CsDatabase -Update`) for each replica in the group.
-    
-

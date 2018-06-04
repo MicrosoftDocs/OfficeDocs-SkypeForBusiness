@@ -41,7 +41,7 @@ $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Na
 
 That will return data similar to this:
   
-```
+<pre>
 Count    Name
 -----    ----
   267    POLYCOM, CX700
@@ -55,8 +55,7 @@ Count    Name
    11    Microsoft, CPE_A
     9    POLYCOM, CX500
     7    Aastra, 6721ip
-
-```
+</pre>
 
 Similarly, these two commands tell you which phones logged on to the system but were never actually used to make a call (the value of the Last activity metric is blank, indicating that there hasn't been any last activity):
   
@@ -67,7 +66,7 @@ $phones | Where-Object {$_."Last activity" -eq ""}
 
 That returns data similar to this for each phone that has not been used:
   
-```
+<pre>
 Manufacturer     : POLYCOM
 Hardware version : CX600
 MAC address      : 00-04-F2-00-01-76
@@ -76,7 +75,7 @@ User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta)
 Last logon time  : 8/30/2010 4:44:48 PM
 Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
-```
+</pre>
 
 Another interesting way to use the IP Phone Inventory Report is this: if you have the MAC address of an IP Phone you can find out the user who last used that phone simply by entering that address in the MAC address text box. The IP Phone Inventory report will then report back (among other things) the SIP address of the user who last logged on with that phone. Alternatively, you can enter a user SIP address (in the User URI prefix box) to find out all the phones that have been used by that user.
   

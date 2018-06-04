@@ -218,5 +218,3 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
   ```
   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
   ```
-
-

@@ -37,12 +37,12 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
 
 By default, any time you run Invoke-CsCdrDatabasePurge you will see a prompt similar to this one for each database table that must be purged:
   
-```
+<pre>
 Confirm
 Are you sure you want to perform this action?
 Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
-```
+</pre>
 
 You must type either Y (for Yes) or A (for Yes to All) before the database purging will actually take place. If you would prefer to suppress these confirmation prompts, add the following parameter to the end of your call to Invoke-CsCdrDatabasePurge:
   

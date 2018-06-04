@@ -84,13 +84,13 @@ If you want to display the Lync user interface when users launch the Skype for B
     
     The key should look like the following:
     
-  ```
-  [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+ <pre>
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
 "CanSharePptInCollab"=dword:00000001
 "CanShareOneNoteInCollab"=dword:00000001
 "CanAppShareInCollab"=dword:00000001
 "EnableSkypeUI"=hex:00,00,00,00
-  ```
+</pre>
 
 The Lync user interface will now be displayed when users launch the Skype for Business client for the first time.
   
@@ -102,9 +102,7 @@ In the **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** key, create a
   
 The key should look like the following:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### Turn off the client tutorial
 

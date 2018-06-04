@@ -54,15 +54,15 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 That command will return a list similar to this:
   
-```
-From user
-----
-Pilar.Ackerman@litwareinc.com
-Henrik.Jensen@litwareinc.com
-Gilead.Amosnino@litwareinc.com
-David.Ahs@litwareinc.com
-Ken.Myer@litwareinc.com
-```
+<pre>
+    From user
+    ----
+    Pilar.Ackerman@litwareinc.com
+    Henrik.Jensen@litwareinc.com
+    Gilead.Amosnino@litwareinc.com
+    David.Ahs@litwareinc.com
+    Ken.Myer@litwareinc.com
+</pre>
 
 These two commands report back the total number of failed sessions that each user was involved in:
   
@@ -73,7 +73,7 @@ $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -
 
 That will return data similar to this:
   
-```
+<pre>
 Count    Name
  -----    ----
     20    Pilar.Ackerman@litwareinc.com
@@ -81,7 +81,7 @@ Count    Name
     16    Gilead.Amosnino@litwareinc.com
     16    Ken.Myero@litwareinc.com
     14    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 ## Filters
 

@@ -123,19 +123,17 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
-
    ```
 
     For example:
     
    ```
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
-
    ```
 
     You will see the following:
     
-  ```
+ <pre>
   Database Name:rtcxds 
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
@@ -209,8 +207,7 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
           Account: LOS_A\AB14-lct$
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
-
-  ```
+</pre>
 
 2. Verify the following:
     
@@ -248,14 +245,12 @@ To remove the SQL mirroring of a pool in Topology Builder, you must first use a 
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
-
 ```
 
 For example, to remove mirroring and drop the databases for the User databases, type the following:
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
-
 ```
 
 The  `-DropExistingDatabasesOnMirror` option causes the affected databases to be deleted from the mirror.

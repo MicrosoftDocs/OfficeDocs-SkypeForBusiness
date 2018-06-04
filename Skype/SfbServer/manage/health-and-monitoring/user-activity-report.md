@@ -64,7 +64,7 @@ $x | Group-Object "From user" | Select Name | Sort-Object Name
 
 In other words:
   
-```
+<pre>
 Name
 ----
 David.Ahs@litwareinc.com
@@ -72,7 +72,7 @@ Gilead.Amosnino@litwareinc.com
 Henrik.Jensen@litwareinc.com
 Ken.Myer@litwareinc.com
 Pilar.Ackerman@litwareinc.com
-```
+</pre>
 
 This command lists the unique users (based on the total number of sessions that they participated in:
   
@@ -82,7 +82,7 @@ $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descendi
 
 That returns data similar to this:
   
-```
+<pre>
 Count    Name
 -----    ----
   523    Ken.Myer@litwareinc.com
@@ -90,7 +90,7 @@ Count    Name
    29    Pilar.Ackerman@litwareinc.com
    17    Gilead.Amosnino@litwareinc.com
    10    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 This command limits the reported sessions to those that included audio as a modality:
   

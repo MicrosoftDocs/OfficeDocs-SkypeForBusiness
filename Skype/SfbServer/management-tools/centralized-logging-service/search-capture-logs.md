@@ -165,7 +165,6 @@ The resulting search returns all log entries that have trace components for SIPS
     
   ```
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-
   ```
 
 ## Read capture logs from the Centralized Logging Service

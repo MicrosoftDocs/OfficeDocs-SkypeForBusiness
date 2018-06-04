@@ -31,7 +31,6 @@ The following command creates a new emergency number with dial string 911 by usi
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 The next command associates the number with the specified location policy by specifying the EmergencyNumbers parameter in the Set-CsLocationPolicy cmdlet:

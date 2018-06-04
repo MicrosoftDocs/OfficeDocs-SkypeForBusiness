@@ -75,5 +75,3 @@ In the preceding command, the SipUri represents the SIP address of a user with a
 > If you receive a 401 response from this cmdlet, it is probably because the default configuration for Exchange does not include support for accepting Oauth tokens. For more information about using Oauth in Exchange, see [Configure OAuth authentication with SharePoint 2013 and Skype for Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkId=513103). 
   
 If the test succeeds and connectivity has been established, you can then proceed to configure optional features such as archiving integration and the unified contact store.
-  
-

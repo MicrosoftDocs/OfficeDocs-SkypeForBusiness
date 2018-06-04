@@ -76,17 +76,8 @@ You can also configure the external access for SIP federated domains by running 
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"
-```
-
-```
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 

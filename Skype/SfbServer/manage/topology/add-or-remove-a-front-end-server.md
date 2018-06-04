@@ -60,5 +60,3 @@ You can use the following procedure when adding or removing a Front End Server.
    ```
    Start-CsPool
    ```
-
-

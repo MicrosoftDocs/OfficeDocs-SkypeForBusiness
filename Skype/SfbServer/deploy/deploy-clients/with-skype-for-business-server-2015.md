@@ -97,7 +97,6 @@ Before you begin to deploy Skype Room Systems v2, be sure you have the right per
    Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
    Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
    Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
-
    ```
 
    Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.
@@ -116,7 +115,6 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com
 Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
 Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
-
 ```
 
 ## See also

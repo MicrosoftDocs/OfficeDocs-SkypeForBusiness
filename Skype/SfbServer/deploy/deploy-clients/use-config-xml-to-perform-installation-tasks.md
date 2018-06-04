@@ -71,9 +71,9 @@ Detailed information about using the Config.xml file to perform Office installat
     
 3. Modify the element entry with the silent options that you want to use. Make sure that you remove the comment delimiters, "\<!--" and "--\>". For example, use the following syntax:
     
-  ```
+  <pre>
   < DistributionPoint Location="\\server\share\Skype15" />
-  ```
+  </pre>
 
 4. Save the Config.xml file.
     

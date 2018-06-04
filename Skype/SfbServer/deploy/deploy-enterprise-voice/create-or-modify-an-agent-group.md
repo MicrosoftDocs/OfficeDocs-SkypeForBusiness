@@ -125,7 +125,6 @@ Use one of the following procedures to create or modify an agent group.
     
    ```
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
- 
    ```
 
     > [!IMPORTANT]

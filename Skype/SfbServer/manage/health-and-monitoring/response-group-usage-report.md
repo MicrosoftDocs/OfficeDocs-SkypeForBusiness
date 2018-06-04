@@ -70,20 +70,18 @@ Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 
 That will return data similar to this:
   
-```
+<pre>
 Name                            PrimaryUri
 ----                            ----------
 Customer Support                sip:support@litwareinc.com
 Help Desk                       sip:helpdesk@litwareinc.com
 New Ad Campaign                 sip:newads@litwareinc.com
-
-```
+</pre>
 
 This command returns information for a single workflow, the one with the name New Ad Campaign:
   
 ```
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
-
 ```
 
 ## Filters

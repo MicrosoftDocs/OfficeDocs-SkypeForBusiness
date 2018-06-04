@@ -44,7 +44,7 @@ Use **New-CsCpsConfiguration** cmdlet or the **Set-CsCpsConfiguration** cmdlet t
    ```
 
    > [!TIP]
-   > Use the **Get-CsSite** cmdlet to identify the site. For details, see Lync Server Management Shell documentation.
+   > Use the **Get-CsSite** cmdlet to identify the site. For details, see Skype for Business Server Management Shell documentation.
   
     For example:
     

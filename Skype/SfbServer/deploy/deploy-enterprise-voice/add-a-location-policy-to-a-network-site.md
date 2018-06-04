@@ -41,7 +41,6 @@ For details about working with network sites, see the Lync Server Management She
     
   ```
   Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-
   ```
 
 ### To assign a location policy to a new network site

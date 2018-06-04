@@ -46,5 +46,3 @@ In Skype for Business Server, however, multiple trunks can now be assigned to a 
   ```
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```
-
-

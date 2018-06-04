@@ -47,7 +47,6 @@ There is no action required to enable the base feature, however but if you want 
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
 ## Accessing Rate My Call Data
