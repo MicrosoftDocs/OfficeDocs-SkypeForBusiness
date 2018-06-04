@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for implementing cloud-based voicemail for users homed on Skype for Business Server."
 ---
 
-# Configure Cloud Voicemail Service
+# Configure Cloud Voicemail service
 <!-- PM Roy Kunz  See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
@@ -22,7 +22,7 @@ See the [Plan Cloud Voicemail Service](plan-cloud-voicemail.md) article for an o
  <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
 
 Configuring Cloud Voicemail involves the following tasks: 
-- [Configure Azure Cloud voicemail as the Hosting Provider on the edge server](#configure-azure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server)
+- [Configure Cloud Voicemail as the Hosting Provider on the edge server](#configure-azure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server)
 - [Enable a User for Cloud Voicemail](#enable-a-user-for-cloud-voicemail)
 
 **Is the second task something we can configure at the site level or in bulk by some other means??**
@@ -36,7 +36,7 @@ The following configurations need be in place before the Cloud Voicemail feature
 
 **(That last article's title is really confusing. We don't seem to have any other article for integrating SfB and Exch Online (without Exch UM), is https://blogs.technet.microsoft.com/nexthop/2016/03/29/integrate-on-premise-lync-or-skype-for-business-with-office-365-unified-messaging-um/  or https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid-scenario/ in the general area?**
 
-## Configure Azure Cloud voicemail as the Hosting Provider on the edge server 
+## Configure Cloud Voicemail as the hosting provider on the Edge Server 
 
 Run the following cmdlet in the Skype for Business Management shell:
 
@@ -49,7 +49,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 - **What changes are there to the command when integrating with Exch on prem?**
 - **Is this the only command in integrating with exchange OL, or is this specific to UM?** the integration for Exch OL that doesn't involve Exch UM is not clearly documented
 
-## Enable a User for Cloud Voicemail
+## Enable a user for Cloud Voicemail
 
 To enable a user’s voice mail calls to be routed to  Cloud voicemail, you must run the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet to set the value of the HostedVoiceMail parameter. This parameter also signals Skype for Business Server 2019 to light up the “call voice mail” indicator.
 
@@ -71,4 +71,4 @@ The cmdlet verifies that no hosted voice mail policy (global, site-level or per-
 Get-CsUser -filter {HostedVoiceMail -eq $null} | Set-CsUser -HostedVoiceMail $true
 Get-CsUser -filter {HostedVoiceMail -eq $false} | Set-CsUser -HostedVoiceMail $true
 ```
-- What needs to be configured on the Exchange online side? Either straight integration with on-prem, Azure hosted VM, or Exch UM?
+- What needs to be configured on the Exchange online side? Either straight integration with on-prem, hosted VM, or Exch UM?
