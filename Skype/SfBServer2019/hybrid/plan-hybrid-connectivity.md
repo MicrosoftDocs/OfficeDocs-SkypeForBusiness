@@ -44,7 +44,7 @@ This type of configuration is sometimes referred to as "split domain"--meaning u
 
 **ARE ALL THE FOLLOWING TRUE??**
   
-- Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  **TRUE??**
+- Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  
     
 - Users who are homed online interact with Skype for Business or Teams online services.
     
@@ -63,8 +63,8 @@ The on-premises Active Directory is authoritative, which means that you must do 
 - If your users are homed in Skype for Business Online, once their account is synchronized to Azure AD, you need to assign them a Skype for Business Online plan 2 license. 
     
 - After Skype for Business Online users are assigned a license, you need to enable them for Skype for Business or for Enterprise Voice on premises. For more information, see [Enable the users for Enterprise Voice on premises](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). For more information about hybrid voice requirements, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
-- 
-- **WHAT ABOUT TEAMS?** IF you want move your users to Teams, you still need to enable hybrid connectivity as described, including setting up Skype for Business Online accounts, and then migrate your users to Teams.   **IS THIS HOW IT WORKS?**
+
+- **WHAT ABOUT TEAMS?** If you want move your users to Teams, you still need to enable hybrid connectivity as described, including setting up Skype for Business Online accounts, and then migrate your users to Teams.  For more information, see Migrate on-premises users to Teams.  **IS THIS HOW IT WORKS?**
     
 
   
