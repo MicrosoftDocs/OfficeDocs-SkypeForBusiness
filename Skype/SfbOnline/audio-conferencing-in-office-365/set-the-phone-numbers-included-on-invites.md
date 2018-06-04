@@ -131,7 +131,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - Use the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet to change the default toll or toll-free number of users based on their original default number or their location.
     
     > [!NOTE]
-    > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
+    > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge** cmdlet.
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 

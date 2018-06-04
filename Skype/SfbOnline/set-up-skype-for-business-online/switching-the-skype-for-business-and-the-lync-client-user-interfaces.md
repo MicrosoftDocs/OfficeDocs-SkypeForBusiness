@@ -124,37 +124,37 @@ This table shows the user experience when the policy is first applied to users:
 |**Admin policy setting**|**User interface displayed**|
 |:-----|:-----|
 |The policy isn't set. |The user will continue using the Skype for Business client user interface.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```<br/>|The user will continue using the Skype for Business client user interface.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```<br/>|The user will be asked to switch to the Skype for Business (Lync) client user interface. They can switch later.|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>```|The user will be using the Skype for Business client user interface. |
-```Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>```|The user will be asked to switch to the Skype for Business (Lync) client user interface. An admin can change the setting in the future that will switch them to the Skype for Business client user interface. |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|The user will continue using the Skype for Business client user interface.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|The user will be asked to switch to the Skype for Business (Lync) client user interface. They can switch later.|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|The user will be using the Skype for Business client user interface. |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|The user will be asked to switch to the Skype for Business (Lync) client user interface. An admin can change the setting in the future that will switch them to the Skype for Business client user interface. |
    
 This table shows the user experience when the policy is changed:
   
 |**Admin policy setting**|**Skype for Business (Lync) user interface**|**Skype for Business user interface**|
 |:-----|:-----|:-----|
-|```Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI```|The user will be asked to switch to the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
-|```Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI```|The user will continue to use the Skype for Business (Lync) interface.  <br/> |The user will be asked to switch to the Skype for Business (Lync) client user interface.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|The user will be asked to switch to the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|The user will continue to use the Skype for Business (Lync) interface.  <br/> |The user will be asked to switch to the Skype for Business (Lync) client user interface.  <br/> |
 |The policy isn't set.  <br/> |Users will never see the Skype for Business (Lync) client user interface if the policy is not set. They will always use the Skype for Business client user interface.  <br/> |The user will continue to use the Skype for Business client user interface.  <br/> |
    
 This table shows all the Online custom policies available. There are new policies created to give admins flexibility in retaining the old custom policy while switching between the EnableSkypeUI flags. Please use the cmdlets from above to grant one of the below policies to your users.
   
 |**Policy name**|**EnableSkypeUI**|
 |:-----|:-----|
-```ClientPolicyDefaultPhoto```||
-```ClientPolicyDefaultPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoIMURL```||
-```ClientPolicyNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoIMURLPhoto```||
-```ClientPolicyNoIMURLPhotoDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingI```||
-```ClientPolicyNoSaveIMNoArchivingDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURL```||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI``` |False|
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto``` ||
-```ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI```|False|
-```ClientPolicyNoSaveIMNoArchivingPhoto```||
-```ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI``` |False|
+`ClientPolicyDefaultPhoto`||
+`ClientPolicyDefaultPhotoDisableSkypeUI` |False|
+`ClientPolicyNoIMURL`||
+`ClientPolicyNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoIMURLPhoto`||
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingI`||
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURL`||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|False|
+`ClientPolicyNoSaveIMNoArchivingPhoto`||
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
 
    
 To get started with Windows PowerShell, see these topics:
@@ -199,9 +199,7 @@ In the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** key, cre
   
 The key should look like the following:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### Turn off the client tutorial
 

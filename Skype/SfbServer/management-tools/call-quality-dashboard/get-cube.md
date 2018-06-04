@@ -84,7 +84,6 @@ Get Cube operation returns the list of available dimensions and measurements.
 "Description": "Description of Audio Good Streams JPDR Count"
 }]
 }
-
 ```
 
  *KPIs*  - Reserved. The KPIs section of a request payload allows Run Query operation to return values for the KPIs defined in the cube. No KPIs exist in the QoE Cube yet.

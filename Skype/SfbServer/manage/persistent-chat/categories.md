@@ -130,5 +130,3 @@ You can remove a category by using the **Remove-CsPersistentChatCategory** cmdle
 ```
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```
-
-
