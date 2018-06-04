@@ -127,7 +127,6 @@ Watch the video steps for **Prepare Active Directory**:
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
- 
    ```
 
     > [!NOTE]
@@ -137,7 +136,6 @@ Watch the video steps for **Prepare Active Directory**:
     
    ```
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
-
    ```
 
     > [!NOTE]

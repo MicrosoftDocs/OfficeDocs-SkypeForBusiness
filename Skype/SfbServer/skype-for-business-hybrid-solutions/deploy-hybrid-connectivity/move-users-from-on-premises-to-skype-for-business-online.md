@@ -84,5 +84,3 @@ You can verify that the user was moved successfully in the following ways:
   ```
   Get-CsUser -Identity
   ```
-
-

@@ -42,7 +42,6 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
-
   ```
 
     > [!NOTE]

@@ -48,7 +48,6 @@ You may, however, need to modify an existing network region definition to apply 
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     In this example, you created a network region called "NorthAmerica" that is associated with a central site with site ID CHICAGO.
@@ -89,7 +88,6 @@ You may, however, need to modify an existing network region definition to apply 
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     In this example, you modified an existing network region called "NorthAmerica" (created using the procedures earlier in this topic) by changing the description. If a description existed for the "NorthAmerica" region, this command overwrites it with this value; if no description had been set, then this command sets it.
@@ -132,7 +130,6 @@ If you have already created network sites for one of these features, you do not 
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     In this example, you created a network site called "Chicago" that is in the "NorthAmerica" network region.
@@ -186,7 +183,6 @@ If you have already created network sites for one of these features, you do not 
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     In this example, the site called "Albuquerque" is moved to the "NorthAmerica" network region. To modify the network site configuration to deploy call admission control, E9-1-1, or media bypass, modify the network site settings by running the Set-CsNetworkSite cmdlet with the BWPolicyProfileID or LocationPolicy parameter, respectively.

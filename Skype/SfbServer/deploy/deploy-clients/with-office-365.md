@@ -52,9 +52,9 @@ To enable Skype for Business, you must have the following:
     
   If you are changing an existing resource mailbox:
     
-   ```
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-   ```
+```
+Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+```
 
   If you're creating a new resource mailbox:
     

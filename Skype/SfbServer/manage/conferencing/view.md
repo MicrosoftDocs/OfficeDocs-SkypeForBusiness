@@ -44,7 +44,7 @@ Get-CsConferencingPolicy
 
 The cmdlet returns information such as the following:
   
-```
+<pre>
 Identity                                  : Global
 AllowIPAudio                              : True
 AllowIPVideo                              : True
@@ -79,8 +79,7 @@ AppSharingBitRateKb                       : 50000
 FileTransferBitRateKb                     : 50000
 TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
-
-```
+</pre>
 
 For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
   

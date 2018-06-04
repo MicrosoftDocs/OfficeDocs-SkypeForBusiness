@@ -372,5 +372,3 @@ The following code sample contains a sample XSL transform:
 </xsl:stylesheet>
 
 ```
-
-
