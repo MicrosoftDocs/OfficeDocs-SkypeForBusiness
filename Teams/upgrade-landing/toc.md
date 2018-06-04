@@ -14,6 +14,7 @@
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network](../upgrade-prepare-environment-prepare-network.md)
 ### [Operate my service](../upgrade-operate-my-service.md)
+### [Monitor quality](../upgrade-monitor-quality.md)
 ## [Prepare my organization](../upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
