@@ -123,10 +123,6 @@ The XML configuration file must be updated at device startup to recognize the th
 ## See also
 <a name="Themes"> </a>
 
-#### 
-
 [Manage Skype Room Systems v2](skype-room-systems-v2.md)
-#### 
 
 [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
-

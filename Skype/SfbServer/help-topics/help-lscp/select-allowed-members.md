@@ -40,7 +40,4 @@ For details about Persistent Chat Server features and capabilities, see [Overvie
   
 ## See also
 
-#### 
-
 [Understanding Persistent Chat Membership](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-

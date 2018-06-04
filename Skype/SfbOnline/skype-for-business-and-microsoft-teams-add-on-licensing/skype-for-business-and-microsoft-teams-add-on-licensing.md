@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business and Microsoft Teams add-on licensing"
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -119,7 +119,4 @@ The following are possible reasons for failures and the actions you can take to 
 ## See also
 <a name="tshoot_VDI"> </a>
 
-#### 
-
 [Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
-
