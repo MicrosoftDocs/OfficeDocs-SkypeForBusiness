@@ -8,7 +8,7 @@
 #### [Configure federation with Skype for Business Online](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configure federation for an audio conferencing provider](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
 #### [Move users from on premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Configure a multi-forest environment for hybrid](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)### [Migrating to Direct Routing](../hybrid/migrating-to-direct-routing.md)
+#### [Configure a multi-forest environment for hybrid](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Migrating to Direct Routing](../hybrid/migrating-to-direct-routing.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](../user-accounts-in-a-hybrid-environment-with-pstn-connectivity.md)
 ### [Plan Teams migration](../hybrid/plan-teams-migration.md)
