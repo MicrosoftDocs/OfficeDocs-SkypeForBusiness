@@ -12,6 +12,7 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
 - Skype for Business 
+- Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
@@ -117,8 +118,7 @@ Friday, April 27, 2018
 
 <!-- end of table -->|
 
-### 
-Security Framework for SfBO
+### Security Framework for SfBO
 This chapter provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. 
 These elements are as follows:
 - Azure Active Directory (AAD) provides a single trusted back-end repository for user accounts. 
@@ -205,7 +205,7 @@ User trust is attached to each message that originates from a user, not to the u
 
 Users with valid credentials issued by a federated partner are trusted but optionally prevented by additional constraints from enjoying the full range of privileges accorded to internal users.
 
-For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see Media Traversal<!-- need link -->.
+For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [[media traversal](#rtp-replay-attack)](#external-user-av-traffic-traversal).
 
 Client certificates provide an alternate way for users to be authenticated by SFBO. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. 
 
