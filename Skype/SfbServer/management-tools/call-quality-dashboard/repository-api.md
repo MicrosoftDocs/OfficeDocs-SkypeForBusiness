@@ -58,7 +58,6 @@ Remember to include the exact protocol, host name, and port (if any). Do not to 
       <traceLog enabled="true" fileName="repository_trace.log" />
     </diagnostics>
  </repositoryConfiguration>
-
 ```
 
 

@@ -71,7 +71,6 @@ To verify that the Dial-in Conferencing Settings webpage and the dial-in access 
    User name:  testuser1@contoso.com
    Password:  ********
 Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-
   ```
 
     The resulting report shows either Success or Failure, along with specific diagnostic information. The -Verbose flag provides more detailed information about how many access numbers were found and details about them.

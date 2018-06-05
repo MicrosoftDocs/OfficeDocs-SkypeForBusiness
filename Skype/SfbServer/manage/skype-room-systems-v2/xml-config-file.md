@@ -56,7 +56,6 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
  	     </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 If the XML file is badly formed (meaning a variable value is of the wrong type, elements are out of order, elements are unclosed, and so on), settings found up to the point where the error is found are applied, then the rest of the file is ignored during processing. Any unknown elements in the XML are ignored. If a parameter is omitted, it remains unchanged on the device. If a parameter's value is invalid, its prior value remains unchanged.
