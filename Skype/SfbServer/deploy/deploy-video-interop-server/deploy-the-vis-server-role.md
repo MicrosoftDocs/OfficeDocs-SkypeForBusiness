@@ -30,7 +30,4 @@ To set up the VIS service on the server just created in Topology Builder, start 
 The software for this service is now installed and running. You may open the Services mmc tool to see if the **Skype for Business Server Video Interop Server** service is running along with other Skype for Business Server services. Next, you must configure the VIS server or pool.
 ## See also
 
-#### 
-
 [Configure the Video Interop Server in Skype for Business Server 2015](configure-the-vis.md)
-

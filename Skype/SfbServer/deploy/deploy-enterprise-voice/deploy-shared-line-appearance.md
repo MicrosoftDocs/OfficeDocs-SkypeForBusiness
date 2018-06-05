@@ -47,8 +47,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     c. Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:
     
   ```
-   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
-				
+   Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV	
   ```
 
 ### Create an SLA group and add users to it
@@ -56,10 +55,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 1. Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-		  -MaxNumberOfCalls <Number> -BusyOption
-		  <BusyOnBusy|Voicemail|Forward> [-Target
-		  <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     The Set-CsSlaConfiguration cmdlet marks the Enterprise Voice account SLAGroup1 as an SLA entity, and the number of SLAGroup1 becomes the number for the SLA group. All calls to SLAGroup1 will ring the entire SLA group.
@@ -69,8 +65,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     The command sets the maximum number of concurrent calls for the new SLA group to 3, and for calls in excess of that to hear a busy signal:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-		  -BusyOption BusyOnBusy
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
   ```
 
     You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.
@@ -88,8 +83,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     The following example adds a user to the SLA group. Each user added to the group must be a valid Enterprise Voice-enabled user:
     
   ```
-  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-		  sip:SLA_Delegate1@contoso.com
+  Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
   ```
 
     Repeat the cmdlet for each user you want to add to the group. Users can only belong to a single SLA group.
@@ -99,15 +93,13 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 - Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-		  -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
     The following example sets calls that exceed the maximum number of concurrent calls to be forwarded to the telephone number 202-555-1234. The target could be a user in your organization instead of a phone number; in that case, the syntax for the person to receive the forwarded calls is the same as when you specify a delegate:  `sip:<NameofDelegate@domain>`. The other possible parameter for  `BusyOption` is `Voicemail`:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-		  -Target tel:+2025551234]
+  Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234]
   ```
 
 ### Configure the SLA group Missed Call Option
@@ -115,17 +107,13 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 1. Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
     
   ```
-  Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-		  -MissedCallOption <Option> -MissedCallForwardTarget
-		  <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+  Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
   ```
 
 2. The following example specifies that missed calls are to be forwarded to the user named  `sla_forward_number`. The valid options for the  `-MissedCallOption` parameter are `Forward`,  `BusySignal`, or  `Disconnect`. If you choose  `Forward`, you must also include the  `-MissedCallForwardTarget` parameter, with a user or phone number as the target:
     
   ```
-  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-		  Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-    -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+  Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
   ```
 
 ### Remove a delegate from a group
@@ -133,15 +121,13 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 - Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet:
     
   ```
-  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-		  <NameOfDelegate@domain>
+  Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
     For example:
     
   ```
-  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-		  sip:SLA_Delegate3@contoso.com
+  Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
 ### Delete an SLA group
@@ -150,7 +136,6 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     
   ```
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
-		  
   ```
 
     For example: 

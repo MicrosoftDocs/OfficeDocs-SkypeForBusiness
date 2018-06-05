@@ -46,7 +46,6 @@ To use the Skype for Business Web App, a user must have one of the following sup
   
 **Operating System and minimum browser support for Skype for Business Web App**
 
-
 | Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Firefox 12.X or later | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
@@ -91,7 +90,6 @@ If the user is on a network not configured as described, many app features may o
 <a name="BKMK_Conferencing"> </a>
 
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
-  
 
 | Feature/capability | Skype for Business 2016 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -156,27 +154,15 @@ For End-users, the [online help](https://aka.ms/smahelp) for these apps is readi
     
 - You may need to [turn on JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) support in your browser for some Skype for Business Web App features to work as expected.
     
-### Cryptographic requirements due to ASP .NET 4.5
+### AES Support 
 
-As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. If a client is using AES as the machine key validation value you will need to reset the machine key value to SHA-1 or another supported algorithm on the Skype Meetings App site level on IIS. If necessary, see [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) for instructions.
-  
-Other supported values are:
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- The values AES, 3DES, and MD5 are no longer allowed, as they once were in ASP.NET 4.[Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) has more details.
+As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. [Cryptographic requirements due to ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) has more details.
   
 ## See also
 <a name="BKMK_Conferencing"> </a>
 
-#### 
+[Skype Meetings App minimum network requirements](minimum-network-requirements.md)
 
 [Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
-#### 
 
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-

@@ -16,7 +16,6 @@
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
-### [Skype Room Systems v2 Scripts](../deploy/deploy-clients/room-systems-v2-scripts.md)
 ## Manage
 ### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)

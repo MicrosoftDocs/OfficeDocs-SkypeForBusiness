@@ -32,7 +32,4 @@ tblLastChatId contains the last chat ID that was generated (and used in the tblC
    
 ## See also
 
-#### 
-
 [tblChat](tblchat.md)
-

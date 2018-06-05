@@ -27,15 +27,14 @@ In an organization with a typical number of conferences per user, we recommend t
 The format of a conference ID is as follows: 
   
 ```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-
+  <housekeeping digit (1 digit)><conference directory (usually 1-2 digits> 
+  <conference number (variable number of digits><check digit (1 digit)>
 ```
 
 To create a conference directory, use the **New-CsConferenceDirectory** cmdlet. For example, the following command creates a conference directory with the identity 42, hosted on the pool atl-cs-001.litwareinc.com:
   
 ```
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
-
 ```
 
 For more information, see [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).

@@ -49,7 +49,6 @@ Get Item returns a specific item in the repository.
 "type": "application/json",
 "subItemIds": [1653, 1710]
 }
-
 ```
 
  *itemId*  - ID of the item.

@@ -1,9 +1,9 @@
 ---
-title: Manage the IW trial offer for Microsoft Teams
+title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -13,10 +13,10 @@ description: Office 365 users who are not licensed for Microsoft Teams can initi
 MS.collection: Strat_MT_TeamsAdmin
 ---
 
-Manage the IW trial offer for Microsoft Teams
-=============================================
+Manage the Microsoft Teams Commercial Cloud Trial offer
+=======================================================
 
-Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The IW trial offer for Microsoft Teams offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
+Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
 
 ## What's in the offer
 
@@ -34,11 +34,16 @@ The service plans included in this offer are:
 
 ## Who is eligible
 
-Users who do not have an Office 365 license that includes Teams can initiate the IW trial offer. For example, if a user has Office 365 Business Premium (which includes Teams), and the Teams service plan is disabled, they are not eligible for the trial.
+Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business Premium (which includes Teams), and the Teams service plan is disabled, they are not eligible for the trial.
 
-At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). (For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
+Also, your tenant is NOT eligible for the trial if: 
+- You are a Syndication Partner Customer
+- You are a Reseller Partner Customer
+- You are a GCC, GOV, or EDU customer
 
-GOV and EDU tenants are not eligible for the IW trial.
+In addition, if your tenant is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
+
+At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
 
 ## How users sign up for the trial
 

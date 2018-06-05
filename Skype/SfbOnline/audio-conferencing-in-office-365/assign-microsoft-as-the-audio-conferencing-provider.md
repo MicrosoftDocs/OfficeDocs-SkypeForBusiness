@@ -69,7 +69,7 @@ You can save the following script as a PowerShell script file and then run it us
    
   ```
 Script.ps1 -UserList <List of users>
-./Script.ps1 -UserList "user01@constoso.com,    user02@contoso.com, user03@contoso.com"
+./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Example 2:** You can run this script by providing a .csv file that contains the email address (alias) of each user that you want updated.
