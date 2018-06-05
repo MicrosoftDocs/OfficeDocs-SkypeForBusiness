@@ -37,7 +37,6 @@ The next example removes certificates issued for Mediation Server and Edge Serve
   
 ```
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
-
 ```
 
 ## Parameters
