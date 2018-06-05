@@ -30,8 +30,7 @@ The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
-
+The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app. and 
 Desktop client
 --------------
 
@@ -52,7 +51,7 @@ IT admins can choose their preferred method to distribute the installation files
 The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
 > [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows/Office that is installed.
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
