@@ -96,6 +96,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises. <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises. <br/> |11/2/16  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Skype for Business and Teams interoperability <br/> |Once users are upgraded to Teams they cannot close the Teams client and then use the Skype for Business client in the same manner as before they upgraded to Teams. <br/> | Once users have upgraded to Teams they should have the Teams and Skype for Business clients open at the same time or only have the Teams client open. They should avoid only having the Skype for Business client open otherwise messages will go to email.<br/> |05/01/18  <br/> |
+
 ## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

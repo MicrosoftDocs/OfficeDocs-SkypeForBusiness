@@ -297,7 +297,6 @@ $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
-
 ```
 
 You must run this setup task must be run from inside the enterprise:
@@ -435,5 +434,3 @@ Synthetic transactions run from inside of System Center Operations Manager will 
   
 > [!IMPORTANT]
 > By default, Skype for Business Server 2015 saves log files to a folder that is not shared. To make these logs readily accessible, you should share this folder. For example: \\atl-watcher-001.litwareinc.com\WatcherNode. 
-  
-

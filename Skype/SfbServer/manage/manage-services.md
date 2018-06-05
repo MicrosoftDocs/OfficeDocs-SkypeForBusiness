@@ -101,7 +101,6 @@ You can use Skype for Business Server Control Panel to start or stop all the Sky
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
-
   ```
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 

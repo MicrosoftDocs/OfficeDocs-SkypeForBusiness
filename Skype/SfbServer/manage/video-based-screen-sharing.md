@@ -92,7 +92,7 @@ To mitigate this, one or more of the following options may be helpful:
     
 The numbers in this table are influenced by individual networks and by the content being shared. Please test to establish baselines for your network or networks.
   
-|**1080p Content**|**RPD Average**|**RDP Peak**|**VbSS Average**|**VbSS Peak**|
+|**1080p Content**|**RDP Average**|**RDP Peak**|**VbSS Average**|**VbSS Peak**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
@@ -116,7 +116,8 @@ There are situations where screen-sharing will transition to RDP, like these:
 - If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000, Skype for Business Room System Devices, or Skype for Business Mobile Apps. 
 - If a user is sharing from the Skype for Business Web App.
 - If someone is using Skype for Businesson Mac and not is homed on Skype for Business Online.
-- If someone starts any Program/Windows Sharing, and/or recording during the session.
+- If someone starts any Program/Windows Sharing.
+- If someone starts recording the session.
 - If someone invokes Remote Screen Control during the session.
 
     Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
