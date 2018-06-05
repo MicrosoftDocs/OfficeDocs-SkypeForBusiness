@@ -19,9 +19,6 @@ appliesto:
 
 Microsoft Teams on Surface Hub - Admin Help
 ===========================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
 
 > [!NOTE]
 > This feature is currently in preview and could change as it is released or updated. 
