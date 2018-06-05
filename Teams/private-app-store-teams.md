@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Private App Store
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
