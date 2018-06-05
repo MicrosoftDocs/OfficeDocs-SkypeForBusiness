@@ -134,7 +134,7 @@ interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
 Teams](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact)
 
 [Microsoft Teams and Skype for Business
-interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)
 
 <!--ENDOFSECTION-->
 
