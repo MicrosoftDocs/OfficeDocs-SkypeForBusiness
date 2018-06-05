@@ -32,7 +32,4 @@ Quality of Experience (QoE) records numeric data that indicates the media qualit
     
 ## See also
 
-#### 
-
 [Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
-

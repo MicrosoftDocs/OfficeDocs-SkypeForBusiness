@@ -509,7 +509,7 @@ The following table lists the measures currently available in Call Quality Dashb
 
 [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[What's the difference between Call Analytics and Call Quality Dashboard?](Difference-between-call-analytics-and-call-quality-dashboard.md)
+[Call Analytics and Call Quality Dashboard](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

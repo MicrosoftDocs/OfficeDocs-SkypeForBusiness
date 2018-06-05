@@ -35,7 +35,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 2: Buy and assign Phone System and Calling Plan licenses
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). If you want to assign multiple users in bulk, see (../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). If you want to assign multiple users in bulk, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ## Step 3: Get phone numbers for your users
 
@@ -49,7 +49,10 @@ You have three ways of getting numbers for your users:
 You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users. 
 
 ### Get new user phone numbers 
-  
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+ 
 1. Sign in to Office 365 with your work or school account.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
@@ -73,6 +76,9 @@ Sometimes (depending on your country/region) you won't be able to get your new n
 In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
 ### Get new service numbers
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -258,7 +264,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
     
 3. In the Action pane under **Product licenses**, click **Edit**.
     
-4. On the **Product licenses** page, toggle ** Communications Credits** to **On** to assign this license, and then click **Save**.
+4. On the **Product licenses** page, toggle **Communications Credits** to **On** to assign this license, and then click **Save**.
     
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.

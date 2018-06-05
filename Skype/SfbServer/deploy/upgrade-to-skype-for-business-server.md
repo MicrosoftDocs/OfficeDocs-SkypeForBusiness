@@ -232,8 +232,6 @@ If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installin
   
 ## See also
 
-#### 
-
 [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
 [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
@@ -241,4 +239,3 @@ If the In-Place Upgrade fails on **Verifying upgrade readiness** or ** Installin
 [Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md)
   
 [Install Skype for Business Server 2015](install/install.md)
-

@@ -73,7 +73,8 @@ For detailed instructions about configuring these settings, see the section "Off
 1. Sign in to https://portal.azure.com.
 2. Click **Azure Active directory** in the left pane.
 3. Under **Manage**, click **User settings**.
-4. In **External users**, make sure **Members can invite** is set to **Yes**.![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+4. Under **External users**, click **Manage External collaboration settings**
+5. On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
 
 	
 

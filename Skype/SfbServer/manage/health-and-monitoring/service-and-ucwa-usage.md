@@ -54,7 +54,4 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
   
 ## See also
 
-#### 
-
 [Monitor for server memory capacity limits in Skype for Business Server 2015](server-memory-capacity-limits.md)
-

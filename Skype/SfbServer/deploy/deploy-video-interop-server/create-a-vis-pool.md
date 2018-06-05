@@ -60,12 +60,8 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
 All tasks performed using Topology Builder should now be complete. Proceed to installing the software on the new VIS server or servers.
 ## See also
 
-#### 
-
 [Deploy the VIS server role in Skype for Business Server 2015](deploy-the-vis-server-role.md)
-#### 
 
 [Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   
 [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
-

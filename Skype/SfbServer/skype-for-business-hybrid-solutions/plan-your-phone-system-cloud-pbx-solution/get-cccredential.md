@@ -49,7 +49,6 @@ $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
 $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($bstr);
 Write-Host $text
-
 ```
 
 ## Parameters

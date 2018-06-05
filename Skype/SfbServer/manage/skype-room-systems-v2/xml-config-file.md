@@ -56,7 +56,6 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
  	     </CustomThemeColor>
   </Theming>
 </SkypeSettings>
-
 ```
 
 If the XML file is badly formed (meaning a variable value is of the wrong type, elements are out of order, elements are unclosed, and so on), settings found up to the point where the error is found are applied, then the rest of the file is ignored during processing. Any unknown elements in the XML are ignored. If a parameter is omitted, it remains unchanged on the device. If a parameter's value is invalid, its prior value remains unchanged.
@@ -123,10 +122,6 @@ The XML configuration file must be updated at device startup to recognize the th
 ## See also
 <a name="Themes"> </a>
 
-#### 
-
 [Manage Skype Room Systems v2](skype-room-systems-v2.md)
-#### 
 
 [Configure a File Item](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
-

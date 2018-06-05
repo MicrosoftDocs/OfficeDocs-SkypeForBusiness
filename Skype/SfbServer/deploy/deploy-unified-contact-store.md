@@ -72,7 +72,6 @@ When you deploy Skype for Business Server 2015 and publish the topology, unified
    ```
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
-
    ```
 
     > [!NOTE]
@@ -83,7 +82,6 @@ When you deploy Skype for Business Server 2015 and publish the topology, unified
    ```
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
-
    ```
 
     > [!NOTE]
