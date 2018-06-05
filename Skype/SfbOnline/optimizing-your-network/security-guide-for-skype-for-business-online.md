@@ -112,7 +112,7 @@ Friday, April 27, 2018
 |:-----|:-----|:-----|
 |**header row 1 col 1** |**header row 1 col 2** |
 |IP Address|Actual address of computer or NATed address|
-|SIP URI|[jeremylos@litwareinc.com](jeremylos@litwareinc.com)|
+|SIP URI|[david.campbell@contoso.com](david.campbell@contoso.com)|
 |Name|Jeremy Los (as defined in Active Directory Domain Services)|
 |||||
 
