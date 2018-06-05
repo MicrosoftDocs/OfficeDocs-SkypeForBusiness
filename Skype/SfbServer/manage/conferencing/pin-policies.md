@@ -44,7 +44,6 @@ To view information about PIN policies, use the **Get-CsPinPolicy** cmdlet. For 
   
 ```
 Get-CsPinPolicy -Identity "site:Redmond"
-
 ```
 
 For more information, including a complete syntax description and list of parameters, see [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
@@ -90,7 +89,6 @@ The following command changes the value of the MinPasswordLength for all the PIN
   
 ```
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
-
 ```
 
 For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
@@ -172,7 +170,6 @@ The following command modifies the PIN policy assigned to the Redmond site. In t
   
 ```
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
-
 ```
 
 For more information, including a complete syntax description and list of parameters, see [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).

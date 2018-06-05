@@ -56,7 +56,7 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
     
     > [!NOTE]
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
-> 
+ 
   ```
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
@@ -68,7 +68,7 @@ If you want more information about starting Windows PowerShell, see [Connect to 
 ## Turn on client app feedback reporting for all the users in your organization
 
 To enable feedback reporting for users in your organization and allow them to submit device screen shots, run:
-> 
+ 
   ```
   Set-CsClientPolicy -Identity EnableOnlineFeedback -EnableOnlineFeedback $true -EnableOnlineFeedbackScreenshots $true
   ```
