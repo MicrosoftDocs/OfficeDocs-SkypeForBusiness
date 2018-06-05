@@ -99,10 +99,9 @@ The following tables list the data that is required for SfBO to operate.
 |Presence Status|Away, Available, Busy, Do Not Disturb, Offline|
 |||||
 
-<!-- end of table -->|
+<!-- end of table -->
 
-Friday, April 27, 2018
-9:11 AM
+
 
 ***Table 2 - Mandatory Data***
 
@@ -116,7 +115,7 @@ Friday, April 27, 2018
 |Name|Jeremy Los (as defined in Active Directory Domain Services)|
 |||||
 
-<!-- end of table -->|
+<!-- end of table -->
 
 ### Security Framework for SfBO
 This chapter provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. 
