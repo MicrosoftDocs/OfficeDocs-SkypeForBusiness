@@ -38,9 +38,7 @@ This configuration is performed using the Skype for Business Server Management S
 
 ```
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
-
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
-
 ```
 
 ## See also

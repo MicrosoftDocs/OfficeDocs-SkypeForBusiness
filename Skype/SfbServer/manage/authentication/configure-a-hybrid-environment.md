@@ -97,7 +97,7 @@ Get-MsolServicePrincipal
 
 You should get back information similar to this for all your service principals:
   
-```
+<pre>
 ExtensionData        : System.Runtime.Serialization.ExtensionDataObject
 AccountEnabled       : True
 Addresses            : {}
@@ -106,7 +106,7 @@ DisplayName          : Skype for Business Server
 ObjectId             : aada5fbd-c0ae-442a-8c0b-36fec40602e2
 ServicePrincipalName : SkypeForBusinessServer/litwareinc.com
 TrustedForDelegation : True
-```
+</pre>
 
 The next step is to import, encode, and assign the X.509 certificate. To import and encode the certificate, use the following Windows PowerShell commands, being sure to specify the complete file path to your .CER file when you call the Import method:
   
@@ -133,14 +133,14 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 That command will return data like this one:
   
-```
+<pre>
 Type      : Asymmetric
 Value     : 
 KeyId     : bc2795f3-2387-4543-a95d-f92c85c7a1b0
 StartDate : 6/1/2012 8:00:00 AM
 EndDate   : 5/31/2013 8:00:00 AM
 Usage     : Verify
-```
+</pre>
 
 You can then delete the certificate by using a command similar to this:
   
@@ -154,7 +154,6 @@ In the following example, lync.contoso.com is the external Web services URL for 
   
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
-
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames

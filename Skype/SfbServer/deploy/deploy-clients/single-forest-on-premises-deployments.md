@@ -104,7 +104,6 @@ After you create a resource mailbox account for the conferencing rooms, use Skyp
    ```
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
-
    ```
 
 > [!NOTE]

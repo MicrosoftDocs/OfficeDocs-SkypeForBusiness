@@ -61,5 +61,3 @@ or
 ```
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```
-
-
