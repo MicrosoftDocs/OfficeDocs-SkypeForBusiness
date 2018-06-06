@@ -272,12 +272,14 @@ Meeting participants fall into three groups, each with its own privileges and re
 A presenter can also promote an attendee to the role of presenter during the meeting.
 
 #### Participant Types
-Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into internal and external users:
-- Internal users have Azure Active Directory credentials within the enterprise.
-- External users are those who temporarily or permanently connect to an enterprise from locations outside the corporate firewall. They might have Active Directory credentials. Lync Server 2010 provides conferencing support for the following types of external users:
-    - Remote users who have a persistent Active Directory identity within the enterprise. They include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-    - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by Lync Server 2010. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.
-    - Anonymous users do not have an Active Directory identity and are not federated with the enterprise. 
+
+Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
+1.	**Users that belong to the tenant**&npsp;&npsp;These users have a credential in Azure Active Directory for the tenant.
+    a.	Inside corpnet – These users are joining from inside the corporate network.
+    b.	Remote users – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+2.	**Users that do not belong to the tenant**&npsp;&npsp;These users do not have credentials in Azure Active Directory for the tenant.
+    a.	Federated Users - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SFBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.
+    b.	Anonymous Users - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
