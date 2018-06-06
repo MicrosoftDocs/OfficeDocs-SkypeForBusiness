@@ -34,8 +34,8 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 
 This coexistence mode is called **Islands**, to express the notion that each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. There’s no need for interoperability in **Islands** mode because users run both clients and can communicate natively in the client from which the communication was initiated.
 
-> [!Important]
-> Most organizations are likely to deploy in **Islands** mode. If you plan to move to Teams rapidly and you don’t expect to support coexistence for long, we recommend you use **Islands** mode.
+> [!Tip]
+> Most organizations are likely to deploy in **Islands** mode. If you plan to move to Teams rapidly and you don’t expect to support coexistence for long, we recommend you use **Islands** mode. 
 
 If you’re a Skype for Business on-premises or hybrid customer and the default **Islands** coexistence mode doesn’t meet the needs of your organization, you can assign another coexistence mode to a given user. This situation should only apply to a subset of customers who anticipate having an extended period of coexistence because they have a very complex deployment or requirements, large enterprise voice deployments, dependency on third-party applications built on the Skype for Business platform, unusual regulatory or legal situations, or long-term contractual obligations.
 
