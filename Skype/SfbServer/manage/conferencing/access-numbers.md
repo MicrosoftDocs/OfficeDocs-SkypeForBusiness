@@ -44,12 +44,11 @@ The following command returns a collection of all the dial-in conferencing acces
   
 ```
 Get-CsDialInConferencingAccessNumber
-
 ```
 
 The following is an example of the type of information returned:
   
-```
+<pre>
 Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                      CN=Application Contacts,CN=RTCService=Services,
                      CN=Configuration,DC=litwareinc,DC=com
@@ -62,8 +61,7 @@ SecondaryLanguages : {}
 Pool               : atl-cs-001.litwareinc.com
 HostingProvider    :
 Regions            : {US}
-
-```
+</pre>
 
 For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
@@ -133,14 +131,12 @@ The following command modifies the DisplayName property for the dial-in conferen
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
-
 ```
 
 In the next example, the dial-in conferencing access number with the Identity sip:RedmondDialIn@litwareinc.com is modified to include two regions: Redmond and Seattle. To do this, the Regions parameter is called, followed by the two regions (two string values separated by commas). Note that this command will fail unless both the Redmond and Seattle regions have already been defined in dial plans.
   
 ```
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
-
 ```
 
 For more information, see [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).

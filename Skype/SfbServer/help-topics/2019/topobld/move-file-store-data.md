@@ -65,7 +65,6 @@ If you need to remove the file server that is currently acting as the file store
     
   ```
   Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
   ```
 
     > [!TIP]
@@ -81,9 +80,6 @@ If you need to remove the file server that is currently acting as the file store
     
 ## See also
 
-#### 
-
 [Reassign a Server to a Different File Store](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   
 [Remove a file store](http://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

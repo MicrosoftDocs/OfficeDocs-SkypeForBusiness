@@ -42,8 +42,6 @@ Click **Help** to access context sensitive help, such as this page.
   
 ## See also
 
-#### 
-
 [Plan for Persistent Chat Server in Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
@@ -55,4 +53,3 @@ Click **Help** to access context sensitive help, such as this page.
 [Topology Basics for Skype for Business Server 2015](../../../plan-your-deployment/topology-basics/topology-basics.md)
   
 [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-

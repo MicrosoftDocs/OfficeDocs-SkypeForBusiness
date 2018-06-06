@@ -26,9 +26,11 @@ The new Skype for Business **Reports** dashboard shows you the activity overview
  Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
 > [!NOTE]
-> You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
+> You can see all of the Skype for Business reports when you sign in as an administrator to the Office 365 admin center. 
   
 ## How to get to the Skype for Business users blocked report
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **Users blocked**.
     

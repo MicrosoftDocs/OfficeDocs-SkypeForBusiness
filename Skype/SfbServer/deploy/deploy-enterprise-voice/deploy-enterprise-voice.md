@@ -55,7 +55,4 @@ This section includes procedures for deployments in which a Mediation Server is 
     
 ## See also
 
-#### 
-
 [Plan for Enterprise Voice in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
-

@@ -43,14 +43,11 @@ A Public Switched Telephone Network (PSTN) usage record specifies a class of cal
 
     This command returns information similar to the following:
     
-  ```
+<pre>
   Identity : Global
   Usage    : {Internal, Local, Long Distance}
-  ```
+</pre>
 
 ## See also
 
-#### 
-
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](voice-policy-and-pstn-usage-records.md)
-

@@ -118,7 +118,6 @@ You can assign per-user dial plans with Windows PowerShell and the [Grant-CsDial
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
-
   ```
 
 > [!NOTE]

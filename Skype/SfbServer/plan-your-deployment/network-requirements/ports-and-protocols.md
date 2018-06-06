@@ -22,9 +22,12 @@ description: "Summary: Review the port usage considerations before implementing 
   
 Skype for Business Server requires that specific ports on the external and internal firewalls be open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   
-While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create yourfirewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
+While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create yourfirewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
   
 You can also find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
+> [!NOTE]
+> - Skype for Business Online users should refer to [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - You can have hardware or software firewalls, we don't require specific models or versions. What matters is what ports are whitelisted so the firewall won't impair the functioning of Skype for Business Server.
   
 ## Port and Protocol Details
 

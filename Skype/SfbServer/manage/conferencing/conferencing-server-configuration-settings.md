@@ -39,7 +39,6 @@ The following command creates a new collection of conferencing configuration set
   
 ```
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
-
 ```
 
 Note that you can have only one such collection per site, so this command would fail if the Redmond site already has a collection of conferencing configuration settings. 
@@ -56,7 +55,6 @@ Finally, the third command uses the **Set-CsConferencingConfiguration** cmdlet t
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
-
 ```
 
 If you do not call the **Set-CsConferencingConfiguration** cmdlet, the new settings will never take effect. Instead, they will disappear as soon as you end your Windows PowerShell session or delete the variable $x.

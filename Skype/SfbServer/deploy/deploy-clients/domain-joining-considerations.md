@@ -53,7 +53,6 @@ $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
-
 ```
 
 Even if you create a separate OU and block inheritance, there are some policies which could cause issues at a higher level. A Group Policy with No Override setting beats an OU with a Block Policy Inheritance setting. For more information, see the article "No Override as Compared to Block Policy Inheritance" in the Group Policy documentation at http://technet.microsoft.com/en-us/library/cc978255.aspx.
@@ -61,8 +60,6 @@ Even if you create a separate OU and block inheritance, there are some policies 
 You may have multiple approaches to solving these problems. We advise you to consult with your Active Directory experts to ensure you are provided with an OU that has appropriate GPO settings, or at least an OU in which the previously described policies do not exist. It is advised to enable Quality of Service (QoS) for Skype Room System devices.
 
 ## See also
-
-#### 
   
 [Device Configuration: Create New or Edit Existing](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

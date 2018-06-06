@@ -65,7 +65,6 @@ Run Query operation provides the ability to run a query on the cube based on spe
 "Type": 0
 }
 }
-
 ```
 
  *Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.
@@ -123,5 +122,3 @@ Run Query operation provides the ability to run a query on the cube based on spe
  *Data Result*  - The result of the query. It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.
   
  *Result is From Cache*  - For diagnostics. Indicates whether the result came from the cache or from the QoE Cube.
-  
-

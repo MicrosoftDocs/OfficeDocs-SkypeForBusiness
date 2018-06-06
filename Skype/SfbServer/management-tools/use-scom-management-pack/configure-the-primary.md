@@ -105,5 +105,3 @@ In general, it is easier to import the management packs by using the Operations 
   ```
   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
   ```
-
-

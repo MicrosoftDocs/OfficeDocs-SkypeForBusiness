@@ -104,9 +104,6 @@ Configuring an ADFS Proxy or Reverse Proxy to support Skype for Business two-fac
   
 ## See also
 
-#### 
-
 [Configure two-factor authentication in Skype for Business Server 2015](configure.md)
   
 [Configure two-factor authentication in Skype for Business Server 2015](configure.md)
-
