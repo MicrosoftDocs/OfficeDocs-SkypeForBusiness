@@ -165,9 +165,7 @@ inform users, the helpdesk, and your operations teams to prepare to handle user
 escalations.
 
 The following sections describe the tools that you can leverage to monitor for
-[Service
-incidents](https://technet.microsoft.com/library/office-365-service-health.aspx?f=255&MSPPError=-2147217396#Service
-incidents) that affect the Teams service. A summary of the benefits of each
+[Service incidents](https://technet.microsoft.com/library/office-365-service-health.aspx#Anchor_1) that affect the Teams service. A summary of the benefits of each
 tool, and when you should use each one is included in the table below.
 
 | Monitoring Tool                       | Benefits                                            | When to use                                                                                  |
@@ -213,8 +211,7 @@ administrators who use System Center now have the option to import the Office
 within Operations Manager in System Center. Using this tool gives you access to
 the status of your subscribed services, active and resolved service incidents,
 and your Message Center communications (upcoming changes). For more information,
-refer to the following [blog
-post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+refer to the following [blog post](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
 
 If you leverage System Center to monitor Teams service health (and dependent
 services), you can further customize the management pack to alert or notify
@@ -228,9 +225,7 @@ You can monitor service health and upcoming changes by leveraging the Office 365
 Service Communications API to access Office 365 service health and changes
 programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Office 365 service communications, potentially
-simplifying how you monitor your environment. For more information, see [Office
-365 for Enterprise
-developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+simplifying how you monitor your environment. For more information, see [Office 365 for Enterprise developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
 
 ### Daily/weekly/monthly/as-needed tasks
 
