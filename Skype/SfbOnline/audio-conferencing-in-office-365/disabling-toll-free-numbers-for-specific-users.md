@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 02/23/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -13,10 +12,9 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: "Administrators can control how organizers can use toll-free numbers for their meetings." 
 ---
@@ -38,18 +36,35 @@ When toll-free numbers are disabled for a given organizer:
 
  - Participants can continue joining meetings of the organizer using toll numbers. 
 
-## Disabling toll-free numbers for specific users using the Skype for Business admin center 
- 1. Go to the **Office 365 admin center** > **Skype for Business**. 
- 2. In the Skype for Business admin center, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users. 
- 3. In the Action pane, click **Edit**. 
- 4. Check or clear **Allow using toll-free numbers to join the meetings of this user**. 
- 5. Click **Save**. 
+## Disabling toll-free numbers for specific users 
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from teh list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
+
+4. In the **Conference bridge provider** pane, turn off **Allow using toll-free numbers in the Conferencing bridge of your organization to join the meetings of this user**. 
+
+5. Click **Apply.** 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users. 
+
+2. In the Action pane, click **Edit**. 
+
+3. Clear **Allow using toll-free numbers to join the meetings of this user**. 
  
-## Disabling toll-free numbers for specific users using PowerShell  
+4. Click **Save**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+ 
+**Using PowerShell**  
 
 You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
  - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
-
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).

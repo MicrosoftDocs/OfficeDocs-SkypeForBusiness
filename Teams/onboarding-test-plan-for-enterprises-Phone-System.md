@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Validate that your organization's expectations are met through testing Phone System in Teams features, functionality, and usability.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -109,7 +110,7 @@ defined, the next criteria for evaluation will be the interoperability
 experience with Teams. For additional information about the interoperability
 experience along with configuration options available, see [Microsoft Teams and
 Skype for Business
-interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 #### Phone System with Calling Plans feature definition
 

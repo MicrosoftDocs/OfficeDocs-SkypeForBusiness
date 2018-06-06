@@ -3,7 +3,6 @@ title: "Troubleshooting Skype for Business Online sign-in errors for administrat
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 ms.tgt.pltfrm: cloud
@@ -85,8 +84,10 @@ If the user cannot sign in after you have tried the suggestions in the previous 
 <a name="add-a-firewall"> </a>
 
 This procedure is a possible fix for the following error message: **Sign-in address not found**.
+
+> [!NOTE]
+> The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
- **NOTE**: The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
 To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow these steps:
   
@@ -211,5 +212,5 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -3,7 +3,6 @@ title: "Turn on or off mobile phone notifications"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3
 ms.tgt.pltfrm: cloud
@@ -29,6 +28,8 @@ On Android and Windows Phones, Skype for Business notifications pop up in real t
 ## Turn push notifications off for all the Windows Phone or Apple devices in your organization
 <a name="__top"> </a>
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 1. Sign in to Office 365.
     
 2. Go to the **Office 365 admin center** > **Skype for Business**.
@@ -52,5 +53,5 @@ Keep in mind:
 
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

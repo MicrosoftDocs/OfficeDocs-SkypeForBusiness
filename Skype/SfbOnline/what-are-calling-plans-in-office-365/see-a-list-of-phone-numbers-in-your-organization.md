@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
@@ -16,11 +15,10 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Learn how to see a list of all the phone numbers in your organization, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
 ---
 
@@ -29,6 +27,9 @@ description: "Learn how to see a list of all the phone numbers in your organizat
 There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Office 365.
   
 ## To see a list of all phone numbers that you have for your organization
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -57,6 +58,9 @@ There are different types of phone numbers that you can assign to users or other
     
 ## To see all of the phone numbers that are assigned to users
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
+
 When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers can be assigned to them.
   
 1. Sign in to Office 365 with your work or school account.
@@ -77,6 +81,9 @@ When you are setting up users, you might just want to see the list of the phone 
   - **No number assigned** to user.
     
 ## To see the phone numbers that are assigned to voice users
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 
 When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.
   
@@ -102,9 +109,9 @@ When you are setting up users in your organization to make and receive phone cal
 
 [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

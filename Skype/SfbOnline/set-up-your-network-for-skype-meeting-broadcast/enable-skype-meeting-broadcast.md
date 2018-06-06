@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 ms.tgt.pltfrm: cloud
@@ -17,7 +16,6 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-ms.assetid: 5299cce0-850e-42dc-b6ae-2d0ee775c4a9
 description: "Before the people in your organization can use Skype Meeting Broadcast, you need to enable it. To do this, you need to know how to use Windows PowerShell. If you don't know Windows PowerShell, consider hiring a Microsoft partner to do this step for you."
 ---
 
@@ -29,6 +27,8 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 > Skype Meeting Broadcast is turned off by default because distribution of the media content of a broadcast meeting uses Microsoft Azure's Content Delivery Network (CDN) to achieve very high scale to support thousands of people watching a broadcast. The chunked media content passing through the CDN is encrypted, and the CDN cache has a limited lifetime. Also, the Azure CDN component may not yet meet all elements of the EU Model Clauses stemming from the EU Data Protection Directive. By enabling this feature, you acknowledge this notice. 
   
 ## Enable Skype Meeting Broadcast using the Skype for Business admin center
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
@@ -97,5 +97,5 @@ To skip this step and instead add another business to your federation, see [Allo
   
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

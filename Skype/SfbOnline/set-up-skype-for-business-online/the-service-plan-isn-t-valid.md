@@ -3,7 +3,6 @@ title: "The user's Skype for Business Online service plan isn't valid"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b
 ms.tgt.pltfrm: cloud
@@ -32,5 +31,5 @@ Go to the **Office 365 admin center** > **Active users** and assign a valid serv
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

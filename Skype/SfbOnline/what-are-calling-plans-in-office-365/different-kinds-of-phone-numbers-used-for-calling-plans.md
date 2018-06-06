@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
@@ -16,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: "Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number."
 ---
 
 # Different kinds of phone numbers used for Calling Plans
 
-Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number. Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Skype for Business administration center, you may submit a phone number request to the Microsoft telephone number service desk.
+Skype for Business Online uses different telephone number types depending on the purpose for which you want to use the telephone number. Skype for Business Online uses **subscriber** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing in Office 365, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than subscriber (or user) numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Skype for Business admin center, you may submit a phone number request to the Microsoft telephone number service desk.
   
 - **Subscriber Numbers**
     
@@ -42,9 +40,9 @@ Skype for Business Online uses different telephone number types depending on the
     
     Toll service numbers may incur a toll cost to the caller, and there are two kinds:
     
-  - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
-    
-  - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
+      - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic telephone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+        
+      - **Non-Geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
     
   - **Toll-Free Service Numbers** These service numbers don't typically incur a toll cost to the caller. Skype for Business Online provides national toll-free numbers in over 60 countries/regions.
     
@@ -59,9 +57,9 @@ Skype for Business Online uses different telephone number types depending on the
 
 [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

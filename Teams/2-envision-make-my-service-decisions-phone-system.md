@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers. 
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -15,12 +16,14 @@ appliesto:
 
 # Make my service decisions
 
+To plan for the technical implementation of Phone System with Calling Plans, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
+
 ## Calling in Teams
 
-With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail and emergency calling (enhanced 911).
+With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail.
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> The latest Teams roadmap for identifying Teams Phone System with Calling Plan features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
 
 ## Phone System in Teams
 
@@ -28,7 +31,7 @@ For Teams users to be able to place and receive PSTN calls, they need to be enab
 
 To enable connectivity to the PSTN, your organization can use Microsoft as its telecommunications service provider. Eventually, you’ll also have the option to “bring your own” telecommunications service provider to enable connectivity to PSTN for Phone System.
 
-> [!MPORTANT]
+> [!IMPORTANT]
 > The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
 
 ## Phone System with Calling Plans
@@ -387,8 +390,6 @@ Use the information from the previous sections of this article to document your 
 -   Phone number acquisition, phone numbers, and emergency location details
 
 -   Voicemail configuration details
-
--   Conference bridge settings assignments
 
 -   Caller ID masking configuration details
 

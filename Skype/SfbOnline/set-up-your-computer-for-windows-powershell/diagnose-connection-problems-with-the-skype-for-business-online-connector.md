@@ -3,7 +3,6 @@ title: "Diagnose connection problems with the Skype for Business Online Connecto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416
 ms.tgt.pltfrm: cloud
@@ -48,7 +47,7 @@ The PowerShell execution policy helps to determine which configuration files can
   
 - **Error**: *Import-Module : File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.*
 
-- **Resolution** To resolve this issue, start PowerShell as an administrator, and then run the following command:
+- **Resolution**: To resolve this issue, start PowerShell as an administrator, and then run the following command:
     ```
     Set-ExecutionPolicy RemoteSigned
     ```
@@ -141,5 +140,5 @@ Although each administrator is allowed to have as many as three simultaneous con
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -3,7 +3,6 @@ title: "Test your Skype for Business Online installation"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e
 ms.tgt.pltfrm: cloud
@@ -29,7 +28,7 @@ Here's what you need:
     
 - A computer for each test account. Set them up like a typical computer would be in your organization.
     
-- An account with an audio conferencing provider for Skype for Business Online. To learn more, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- An account with an audio conferencing provider for Skype for Business Online. 
     
 ## What do you want to do?
 
@@ -44,7 +43,7 @@ Here's what you need:
 ## Set up test accounts
 <a name="__toc328126910"> </a>
 
-1. Go to **Admin** > **Office 365** > **Users and groups**, then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
+1. Go to **Admin** > **Office 365** > **Users and groups**, and then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
     
 2. When you come to Step 4 (Email), enter your own email address. You'll then have a record of the new user's name and password. 
     
@@ -70,11 +69,9 @@ To provide telephone access to Skype for Business Online meetings, set up an acc
     
 After setting up your users for audio conferencing, they receive an automated email message with the dial-in numbers and conference code. This information is also automatically added to new Skype for Business meeting requests.
   
-For details, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
-  
  **To add audio conferencing information to the account of one of your test users**
   
-1. Click **Audio Conferencing** > **Uusers**.
+1. Click **Audio Conferencing** > **Users**.
     
 2. Click the names of the users you want to set up for dial-in conferencing, and then click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
@@ -137,5 +134,5 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -3,7 +3,6 @@ title: "Download and install Windows PowerShell 3.0"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
@@ -30,17 +29,17 @@ If you are running Windows 7 or Windows Server 2008 R2, you might also be runnin
     
 2. In the PowerShell console, type the following command and then press ENTER:
     
-    ```
+   ```
    Get-Host | Select-Object Version
    ```
 
 3. Information similar to the following should then be displayed in the console window:
     
-    ```
-    Version
-    -------
+    <pre>
+    Version <BR>
+    ------- <BR>
     3.0
-    ```
+    </pre>
 
     If the returned Version number is 3.0, then you are running Windows PowerShell 3.0. If the returned Version number is not 3.0, then you'll need to install Windows PowerShell 3.0. You can download Windows Management Framework 3.0, which includes Windows PowerShell 3.0, from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
@@ -62,9 +61,11 @@ After PowerShell is running, you must change the execution policy to allow the r
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
-    > [!NOTE]
-    >  When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator. 
-  
+   
+ 
+> [!NOTE]
+> When you run the preceding command, you might receive the following error message:> *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* This error message typically occurs if you are not running PowerShell under administrator credentials. Close your session of PowerShell, and start a new session as an administrator.
+ 
 To verify that the execution policy has been configured correctly, type the following at the PowerShell prompt and then press ENTER:
   
 ```
@@ -73,9 +74,7 @@ Get-ExecutionPolicy
 
 If you get back the following value, then everything has been configured correctly:
   
-```
-RemoteSigned
-```
+`RemoteSigned`
 
 If you are not currently running Windows PowerShell 3.0, you'll also need to download and install Windows Management Framework 3.0 from the Microsoft Download Center. This is an installation package that includes Windows PowerShell 3.0 and Windows Remote Management (WinRM) 3.0. This installation package might be required if you are running Windows 7 and have not yet updated to Windows PowerShell 3.0. If you are running Windows Server 2012, Windows Server 2012 R2, Windows 8, or Windows 8.1, there should be no need to install Windows PowerShell 3.0. Windows PowerShell 3.0 comes preinstalled on those operating systems.
   
@@ -109,11 +108,11 @@ Get-Service winrm
 
 Information about the WinRM service will then be displayed on screen:
   
-```
+<pre>
 Status   Name               DisplayName
 ------   ----               -----------
 Running  winrm              Windows Remote Management (WS-Manag...
-```
+</pre>
 
 If the service Status does not equal "Running", start the WinRM service by typing the following command and then pressing ENTER:
   
@@ -129,7 +128,7 @@ winrm set winrm/config/client/auth '@{Basic="True"}'
 
 Information similar to the following will be displayed onscreen:
   
-```
+<pre>
 Auth
     Basic = true
     Digest = true
@@ -137,7 +136,7 @@ Auth
     Negotiate = true
     Certificate = true
     CredSSP = false
-```
+</pre>
 
 If basic authentication has been set to true, then you're ready to use PowerShell to connect to Skype for Business Online.
   
@@ -146,5 +145,5 @@ If basic authentication has been set to true, then you're ready to use PowerShel
 ## Related topics
 [Set up your computer for Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

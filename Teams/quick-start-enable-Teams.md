@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -40,7 +41,7 @@ Watch this short video with simple guidance to consider when planning your teams
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-If Microsoft Teams is not enabled in your Office 365 tenant and you are an Office 365 administrator follow the instructions in our article [Set up Microsoft Teams in your Office 365 organization](office-365-set-up.md) to ensure your users have access to the application.
+If Microsoft Teams is not enabled in your Office 365 tenant and you are an Office 365 administrator follow the instructions in our article [Manage user access to Teams](user-access.md) to ensure your users have access to the application.
 
 ## Step 3: Complete technical planning
 

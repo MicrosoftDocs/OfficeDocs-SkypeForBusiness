@@ -3,7 +3,6 @@ title: "Let people record their audio and video conferences"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28
 ms.tgt.pltfrm: cloud
@@ -24,6 +23,8 @@ description: "How to turn on recording for audio and video conferences, and lear
 
 ## Choose the default recording setting for a single user or everyone in your organization
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 1. Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.
     
 2. On the **Users** page, select the user or users from the list, and then click **Edit**.
@@ -43,5 +44,5 @@ For details, see [Lync recording save and publish](https://support.office.com/en
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: brendonb, markjjo
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -40,5 +39,5 @@ Mailboxes that are not on hold will not have any meeting data saved. For example
 
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
   
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

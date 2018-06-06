@@ -3,7 +3,6 @@ title: "Configure presence in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ce59ac0b-8115-4c6b-8174-e3aef982d3cb
 ms.tgt.pltfrm: cloud
@@ -27,7 +26,9 @@ By default, anyone who can communicate with one of the people in your organizati
 ![An example of a person's online status in Skype for Business.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
   
 As the **[admin](http://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for everyone in your business, you can choose who sees their online presence in Skype for Business.
-  
+ 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+ 
 1. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
     
 2. In the **Skype for Business admin center**, choose **organization**.
@@ -51,5 +52,5 @@ For information about what your users can change in Skype for Business, see thes
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 

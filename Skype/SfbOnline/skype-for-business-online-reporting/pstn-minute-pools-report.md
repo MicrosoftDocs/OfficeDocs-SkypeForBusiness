@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
@@ -36,6 +35,8 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN minute pools report
 
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+
 - Go to **Office 365 admin center** > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.
     
 > [!NOTE]
@@ -54,12 +55,11 @@ This is what the report looks like.
 ***
 ![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
 *    **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
-     * MCOPSTNPP - Communications Credits
      * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans
      * MCOPSTN2 - International Calling Plan
      * MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
+     * MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)
      * MCOMEETADD - Audio Conferencing
-     * MCOMEETACPEA - Pay Per Minute Audio Conferencing
 *    **Capability Description** is a description of the license type utilized for the call.
 *    **Country Minute Pool** is the license usage location of the user(s) who share the minute pool. 
 *    **Used Minutes** is the number of minutes used each month.
@@ -89,5 +89,5 @@ This is what the report looks like.
 ## Related topics
 [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).  
+  
+   

@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Measure the results of your Phone System with Calling Plans deployment and verify you've achieved the outcomes you wanted.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
 ---
 
 # Define my success
 
-## Introduction
-
-This content provides an overview of the requirements for properly defining success for the deployment of Phone System with Calling Plans for your organization. By properly defining your success, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the outcomes you wanted.
+This article gives an overview of the requirements for defining success for the deployment of Phone System with Calling Plans for your organization. By properly defining what success looks like, you can measure your results as you progress through your deployment and verify that the outcomes you achieve are the ones you wanted.
 
 <!--ENDOFSECTION-->
 

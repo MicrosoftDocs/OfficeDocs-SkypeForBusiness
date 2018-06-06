@@ -8,12 +8,15 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Choose a deployment model, develop a responsible-accountable-consulted-informed (RACI) matrix, create execution and governance plans.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
 # Document my success plan
+
+This article gives an overview of the requirements for properly documenting your cloud voice deployment. By defining and documenting all decision points and next steps while planning your cloud voice deployment, you can make sure all stakeholders and project team members are aligned on delivering successful outcomes. 
 
 ## Execution planning 
 
