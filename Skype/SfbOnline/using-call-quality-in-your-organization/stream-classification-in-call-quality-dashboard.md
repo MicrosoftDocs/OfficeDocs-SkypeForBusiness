@@ -65,7 +65,7 @@ An application sharing stream is marked as poor if one or more of the following 
 
 **Metric**|**Condition**|**Explanation**|
 |:-----|:-----|:-----|
-|Spoiled Tile Percent Total|> 36|Percentage of tiles which are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server.|
+|Spoiled Tile Percent Total|> 36|Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server.|
 |AppSharing RDP Tile Processing Latency Average|> 400|Average latency in milliseconds processing tiles on the RDP Stack at the conferencing server.|
 |AppSharing Relative OneWay Average|> 1.75|Average relative one-way delay between the endpoints in milliseconds for application sharing streams.|
 
@@ -77,10 +77,10 @@ To check for ICE connectivity failures, examine the dimensions "First Connectivi
 
 If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
 
-- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g. some third-party endpoints may not send QoE) or was not able to be sent (e.g. network outage), CQD is unable to classify the stream.
+- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
 
 > [!TIP]
-> The "QoE Record Available" dimension can be used to determine if a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
+> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
 
 - **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
 
