@@ -66,11 +66,11 @@ who you are going to enable Calling Plans or Direct Routing for each location yo
 > Below is an example of a Direct Routing site enablement list.
 > | **Office**                     | **Location**   | **Phone System service** |
 > |--------------------------------|----------------|--------------------------|
-> | One Epping Road                | Australia      | Legacy PSTN service      |
-> | 100 Cyberport Road             | Hong Kong SAR  | Direct Routing           |
-> | One Marina Boulevard           | Singapore      | Direct Routing           |
-> | 32 London Bridge Street        | United Kingdom | Calling Plans            |
-> | 39 quai du Président Roosevelt | France         | Calling Plans            |
+> | One Epping Road                | Australia      | Legacy PSTN service |
+> | 100 Cyberport Road             | Hong Kong SAR  | Phone System Direct Routing |
+> | One Marina Boulevard           | Singapore      | Phone System Direct Routing |
+> | 32 London Bridge Street        | United Kingdom | Phone System with Calling Plans |
+> | 39 quai du Président Roosevelt | France         | Phone System with Calling Plans |
 
 ## Phone numbers and emergency locations
 
@@ -80,6 +80,17 @@ the emergency services are provided by your PSTN service provider.
 
 > [!NOTE]
 > With Direct Routing, your users can continue using their own phone numbers, provided by the PSTN service provider.
+
+> [!TIP]
+> You can use the following template to document the phone numbers details.
+>|User |Phone number |
+>|-----|-------------|
+>|Emily Braun | +44 23 4567 8901 |
+>|Lidia Holloway | +44 23 4567 89112 |
+>|Louis Lahr | +44 23 4567 8921 |
+>|Marcel Beauchamp | TBA |
+>|Rachelle Cormier | TBA |
+>|Isabell Potvin | TBA |
 
 ## Voicemail
 
