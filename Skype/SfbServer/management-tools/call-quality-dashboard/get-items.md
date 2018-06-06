@@ -60,7 +60,4 @@ Get Items returns all Items in the repository.
 "userId": 0,
 "type": "application/json"
 }]
-
 ```
-
-

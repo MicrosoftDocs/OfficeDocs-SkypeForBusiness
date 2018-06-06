@@ -26,5 +26,3 @@ If you are trying to determine the modality type for the values in LcsCDR.Sessio
 ```
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```
-
-
