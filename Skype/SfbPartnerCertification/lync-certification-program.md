@@ -16,7 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-description: "Partner qualification requirementf for Lync."
+description: "Partner qualification requirement for Lync."
 ---
 
 # Partner qualification for Lync
