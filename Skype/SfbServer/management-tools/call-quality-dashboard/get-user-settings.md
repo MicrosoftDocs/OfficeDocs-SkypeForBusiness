@@ -55,7 +55,4 @@ Get User Settings returns a list of settings for a specified user.
 "key": "ShowTimeStamps",
 "value": "true"
 }]
-
 ```
-
-

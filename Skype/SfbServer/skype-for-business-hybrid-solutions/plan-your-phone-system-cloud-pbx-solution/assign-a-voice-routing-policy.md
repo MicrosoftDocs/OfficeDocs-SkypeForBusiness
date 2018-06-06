@@ -47,14 +47,12 @@ Before using a global voice routing policy for your Phone System in Office 365 w
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-
   ```
 
     For example:
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-
   ```
 
 ## Creating a new voice routing policy

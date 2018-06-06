@@ -43,7 +43,6 @@ Get Dimension Members operation returns the list of members of a specific dimens
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
  **Response** - The response includes an HTTP status code and a set of response headers.
@@ -78,7 +77,4 @@ Get Dimension Members operation returns the list of members of a specific dimens
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

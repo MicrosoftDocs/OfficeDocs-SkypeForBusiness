@@ -171,9 +171,8 @@ Following are solutions to commonly encountered issues:
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
-- 
     
-    **Issue: The Get-CcRunningVersion cmdlet returns an empty value if there is a deployed appliance running on the host.**
+-    **Issue: The Get-CcRunningVersion cmdlet returns an empty value if there is a deployed appliance running on the host.**
     
     **Resolution:** This can happen when you upgrade from 1.3.4 or 1.3.8 to 1.4.1. After you install version 1.4.1 with the .msi, you must run `Register-CcAppliance` before you run any other cmdlet. `Register-CcAppliance` will migrate the module.ini file from %UserProfile%\CloudConnector to %ProgramData%\CloudConnector. If you missed it, a new module.ini will be created in %ProgramData%\CloudConnector folder and replace the running/backup version information for 1.3.4 or 1.3.8.
     
@@ -204,21 +203,19 @@ Following are solutions to commonly encountered issues:
     
     For Cloud Connector releases before 2.0:
     
-  ```
-  Reset-CcCACertificate 
-Renew-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Renew-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Or for Cloud Connector release 2.0 and later:
     
-  ```
-  Reset-CcCACertificate 
-Update-CcServerCertificate 
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate 
+    Update-CcServerCertificate 
+    Remove-CcLegacyServerCertificate 
+    ```
 
 3. Run the Exit-CcUpdate cmdlet to start services and and exit maintenance mode.
     
@@ -236,27 +233,25 @@ Remove-CcLegacyServerCertificate
     
     For Cloud Connector releases before 2.0:
     
-  ```
-  Reset-CcCACertificate
-Renew-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Renew-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
     Or for Cloud Connector release 2.0 and later:
     
-  ```
-  Reset-CcCACertificate
-Update-CcServerCertificate
-Remove-CcLegacyServerCertificate 
-
-  ```
+    ```
+    Reset-CcCACertificate
+    Update-CcServerCertificate
+    Remove-CcLegacyServerCertificate 
+    ```
 
   - On the first appliance, run the following cmdlet to back up the CA files to the \<SiteRoot\> folder. Later, on all other appliances in the same site, the Reset-CcCACertificate cmdlet will consume the CA backup files automatically and appliances will use the same root certificate.
     
-  ```
-  Backup-CcCertificationAuthority
-  ```
+    ```
+    Backup-CcCertificationAuthority
+    ```
 
   - Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode. 
     
@@ -270,55 +265,51 @@ Remove-CcLegacyServerCertificate
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- 
-    
-    **Issue: After you change the password for the host server account you used for the deployment, you receive the following error message: "ConvertTo-SecureString : Key not valid for use in specified state." in %ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log or while running the Get-CcCredential cmdlet.**
+- **Issue: After you change the password for the host server account you used for the deployment, you receive the following error message: "ConvertTo-SecureString : Key not valid for use in specified state." in %ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log or while running the Get-CcCredential cmdlet.**
     
     **Resolution:** All Cloud Connector credentials are stored in the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml". When the password on the host server changes, you will need to update the locally stored credentials.
     
     **If you are running Cloud Connector version 1.4.2,** regenerate all Cloud Connector passwords by following these steps:
     
-1. Restart the host server.
+    1. Restart the host server.
     
-2. Delete the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml".
+    2. Delete the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml".
     
-3. Launch a PowerShell console as administrator, and then run "Register-CcAppliance -Local" to re-enter the passwords following the description. Enter the same passwords you entered before for the Cloud Connector deployment.
+    3. Launch a PowerShell console as administrator, and then run "Register-CcAppliance -Local" to re-enter the passwords following the description. Enter the same passwords you entered before for the Cloud Connector deployment.
     
     **If you are running Cloud Connector version 2.0 or later,** regenerate all Cloud Connector passwords by following these steps:
     
-1. Restart the host server.
+    1. Restart the host server.
     
-2. Delete the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml" .
+    2. Delete the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml" .
     
-3. Launch a PowerShell console as administrator, and then run "Register-CcAppliance -Local" to re-enter the passwords following the description. 
+    3. Launch a PowerShell console as administrator, and then run "Register-CcAppliance -Local" to re-enter the passwords following the description. 
     
     If the cached password file was generated with Cloud Connector version 1.4.2, use the VMAdmin password for the CceService password when prompted. Enter the same password you entered before for the Cloud Connector deployment for all other accounts.
     
     If the cached password file was generated with Cloud Connector version 1.4.2 and the DomainAdmin and VMAdmin passwords are different, you must perform the following steps:
     
-1. Run Set-CcCredential -AccountType DomainAdmin as follows:
+    1. Run Set-CcCredential -AccountType DomainAdmin as follows:
     
-1. When prompted for the old account credential, enter the credential you used for the CceService password.
+    2. When prompted for the old account credential, enter the credential you used for the CceService password.
     
-2. When prompted for the new account credential, enter the password for the DomainAdmin password you used before.
+    3. When prompted for the new account credential, enter the password for the DomainAdmin password you used before.
     
     If the cached password file was generated with Cloud Connector version 2.0 or later, by default, VmAdmin and DomainAdmin use the same password as CceService. If you changed the DomainAdmin and VMAdmin passwords, you must perform the following steps:
     
-1. Run Set-CcCredential -AccountType DomainAdmin as follows:
+    1. Run Set-CcCredential -AccountType DomainAdmin as follows:
     
-1. When prompted for the old account credential, enter the credential you used for the CceService password
+        1. When prompted for the old account credential, enter the credential you used for the CceService password
     
-2. When prompted for the new account credential, enter the password for the DomainAdmin password you used before.
+        2. When prompted for the new account credential, enter the password for the DomainAdmin password you used before.
     
-2. Run Set-CcCredential -AccountType VmAdmin as follows:
+    2. Run Set-CcCredential -AccountType VmAdmin as follows:
     
-1. When prompted for the old account credential, enter the credential you used for the CceService password
+        1. When prompted for the old account credential, enter the credential you used for the CceService password
     
-2. When prompted for the new account credential, enter the password for the VmAdmin password you used before. 
+        2. When prompted for the new account credential, enter the password for the VmAdmin password you used before. 
     
-- 
-    
-    **Issue: With Cloud Connector version 2.1 and later, when running Register-CcAppliance or other cmdlets on the appliance, you receive an error message such as: "For Each-Object : The property 'Common' cannot be found on this object. Verify that the property exists. At C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char:14"**
+- **Issue: With Cloud Connector version 2.1 and later, when running Register-CcAppliance or other cmdlets on the appliance, you receive an error message such as: "For Each-Object : The property 'Common' cannot be found on this object. Verify that the property exists. At C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char:14"**
     
     **Resolution:** Cloud Connector 2.1 and later requires .NET Framework 4.6.1 or later. Please update .NET Framework on the appliance to version 4.6.1 or later and run the cmdlet(s) again.
     
@@ -342,9 +333,7 @@ Remove-CcLegacyServerCertificate
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- 
-    
-    **Issue: You need to check for and install Windows updates manually on the host server or virtual machines.**
+-  **Issue: You need to check for and install Windows updates manually on the host server or virtual machines.**
     
     **Resolution:** We recommend that you take advantage of automated OS updates provided by Skype for Business Cloud Connector Edition. After an appliance is registered for online management and auto OS update is enabled, the host server and virtual machines will check and install Windows Updates automatically according to the OS update time window settings.
     
@@ -354,15 +343,13 @@ Remove-CcLegacyServerCertificate
     
     For information about how to manually update your Cloud Connector deployment, see the following section.
     
-- 
-    
-    **Issue: When Cloud Connector updates to a new build, Cloud Connector cmdlets are not updated.** This sometimes happens if a PowerShell window is left open when automatic update occurs.
+-   **Issue: When Cloud Connector updates to a new build, Cloud Connector cmdlets are not updated.** This sometimes happens if a PowerShell window is left open when automatic update occurs.
     
     **Resolution:** To load the updated cmdlets, you can do either of the following steps:
     
-  - Close PowerShell on the Cloud Connector appliance, and then reopen PowerShell.
+     - Close PowerShell on the Cloud Connector appliance, and then reopen PowerShell.
     
-  - Or, you can run Import-Module CloudConnector -Force. 
+     - Or, you can run Import-Module CloudConnector -Force. 
     
 ## Install Windows updates manually
 
@@ -411,5 +398,3 @@ If you need to install anti-virus software on the Cloud Connector host machine, 
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - The process Microsoft.Rtc.CCE.ManagementService.exe.
-    
-

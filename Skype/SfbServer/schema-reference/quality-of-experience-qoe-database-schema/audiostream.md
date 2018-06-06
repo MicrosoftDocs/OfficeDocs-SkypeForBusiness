@@ -16,7 +16,7 @@ description: "Each record represents one audio stream. One audio media line usua
  
 Each record represents one audio stream. One audio media line usually contains two audio streams.
   
-|****Column****|****Data Type****|****Key/Index****|****Details****|
+|Column|Data Type|Key/Index|Details|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Referenced from the [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenced from the [MediaLine table](medialine-0.md).  <br/> |
@@ -80,5 +80,3 @@ Each record represents one audio stream. One audio media line usually contains t
 |**AudioPostFECPLR** <br/> |float  <br/> ||Packet loss rate after forward error correction has been applied.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
 |**EncodeStereoPercent** <br/> |float  <br/> ||Percentage of the call encoded as stereo.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
 |**AecCaptureStereoPercent** <br/> |float  <br/> ||Percentage of the call captured as stereo by the acoustic echo canceller.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
-   
-

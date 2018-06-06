@@ -48,7 +48,6 @@ Get User Setting returns a single user setting.
 "key": "ShowDescriptions",
 "value": "true"
 }
-
 ```
 
  *userId*  - ID of the user.

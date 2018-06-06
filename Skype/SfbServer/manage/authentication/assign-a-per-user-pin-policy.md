@@ -89,7 +89,6 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
-
   ```
 
 ### To unassign a per-user PIN policy

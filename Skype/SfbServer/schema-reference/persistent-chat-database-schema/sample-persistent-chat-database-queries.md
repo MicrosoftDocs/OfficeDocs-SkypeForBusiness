@@ -24,7 +24,6 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY nodeName
   ORDER BY ChatMessages DESC
-
 ```
 
 Use the following example to get a list of your most active users after a certain date.
@@ -35,7 +34,6 @@ SELECT prinName as Name, count(*) as ChatMessages
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
   GROUP BY prinName
   ORDER BY ChatMessages DESC
-
 ```
 
 Use the following example to get a list of everyone who ever sent a message with "Hello World" in it.
@@ -73,5 +71,3 @@ SELECT prinName
   where inv.prinID = 5 AND inv.prinID = p.prinID and inv.nodeID = n.nodeID
   ORDER BY invID DESC
 ```
-
-

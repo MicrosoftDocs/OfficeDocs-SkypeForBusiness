@@ -74,20 +74,15 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
     > [!NOTE]
     > The installation of additional NICs to support the PSTN IP address configuration on stand-alone Mediation Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
-## Deploy IP address types on a Edge Server
+## Deploy IP address types on an Edge Server
 
-Using Topology Builder, perform the steps in the following procedure to deploy IP address types on an Edge Server.
+Using Topology Builder, perform the following steps:
   
 ### To deploy IP address types on an Edge Server
 
 1. In Topology Builder, under **Edge pools**, right-click the server within a pool, and then select **Edit Properties**. (Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)
     
-2. In the **Edit Properties** window, select the IP address configuration that you want to support. The following figures show a dual stack configuration for the internal interface and the external interface.
-    
-   **Dual stacked Edge Server internal interface**
-
-   **Dual stacked Edge Server external interface**
+2. In the **Edit Properties** window, select the IP address configuration that you want to support.    
 
 3. For each address type that you select, you must supply appropriate internal and external addresses.
     
-
