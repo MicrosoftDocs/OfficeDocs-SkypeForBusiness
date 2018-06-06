@@ -24,7 +24,8 @@ Technology is innovating at an unprecedented pace. Staying current and enabling 
 
 The status of your network affects the user experience. When a user has a poor experience (for example, call drops or lag time when joining meetings), they correlate this to the technology itself, leaving them with the impression that the technology doesn’t work and opening the door for unsupported apps. Implementing a plan to monitor and mitigate network health will help ensure a positive user experience in addition to reducing calls to your support desk. For more information, see the following articles:
 
--   [Operate my service](1-drive-value-operate-my-service.md)
+-   [Operate my service](upgrade-operate-my-service.md)
+-   [Monitor Quality](upgrade-monitor-quality.md)
 -   [Enhance my service](2-drive-value-enhance-my-service.md)
 
 ## Drive user momentum and adoption
