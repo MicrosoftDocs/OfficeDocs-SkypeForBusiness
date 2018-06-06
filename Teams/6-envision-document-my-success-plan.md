@@ -107,9 +107,9 @@ of a cloud voice implementation.
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | US: New York                             | 2000                | Yes                | Phone System with Calling Plans | Q1 CY2018          |
 | Ireland: Dublin                          | 300                 | Yes                | Phone System with Calling Plans | Q1 CY2018          |
-| Austria: Vienna                          | 500                 | Yes                | N/A                             | Q2 CY2018          |
+| Austria: Vienna                          | 500                 | Yes                | Phone System Direct Routing     | Q2 CY2018          |
 | Italy: Milan                             | 200                 | Yes                | N/A                             | Q2 CY2018          |
-| South America: Brazil                    | 1500                | Yes                | N/A                             | Q2 CY2018          |
+| South America: Brazil                    | 1500                | Yes                | Phone System Direct Routing     | Q2 CY2018          |
 | India: Delhi                             | 7000                | Yes                | N/A                             | Q3 CY2018          |
 
 
