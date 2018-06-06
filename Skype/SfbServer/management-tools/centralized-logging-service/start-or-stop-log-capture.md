@@ -70,7 +70,6 @@ The Centralized Logging Service provides two ways to issue commands. A number of
     
   ```
   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-
   ```
 
     The successful execution of this scenario returns a result like the following:

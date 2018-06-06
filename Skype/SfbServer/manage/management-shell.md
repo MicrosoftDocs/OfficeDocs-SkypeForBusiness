@@ -60,7 +60,7 @@ Things to know about Windows PowerShell in Skype for Business Server:
   ```
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
-// Run Update-Help against the local help files
+  // Run Update-Help against the local help files
    Update-Help -Module SkypeforBusiness -SourcePath \\UpdateShare\HelpDownload
   ```
 

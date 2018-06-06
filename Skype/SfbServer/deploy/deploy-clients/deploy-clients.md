@@ -56,4 +56,4 @@ The topics in this section describe how to use and customize the Windows Install
     
 ## See also
 
-[Deploy the Skype for Business client for your organization](https://support.officeppe.com/en-us/article/Deploy-the-Skype-for-Business-client-for-your-organization-8c563b81-22c9-4024-9efe-9fe28c7bbc96?ui=en-US&amp;rs=en-US&amp;ad=US)
+[Deploy the Skype for Business client in Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

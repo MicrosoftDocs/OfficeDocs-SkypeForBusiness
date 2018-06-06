@@ -45,15 +45,15 @@ To view information about all your PIN policies, type the following command in t
 
 That will return information similar to this:
 
-  ```
-  Identity             : Global
+<pre>
+Identity             : Global
 Description          :
 MinPasswordLength    : 5
 PINHistoryCount      : 0
 AllowCommonPatterns  : False
 PINLifetime          : 0
 MaximumLogonAttempts :
-  ```
+</pre>
 
 For more information, see the help topic for the [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) cmdlet.
   

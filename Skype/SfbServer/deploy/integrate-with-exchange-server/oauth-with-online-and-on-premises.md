@@ -67,7 +67,6 @@ These next two commands will assign the UserApplication and ArchiveApplication m
   
 ```
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN> 
-
 ```
 
 ```
