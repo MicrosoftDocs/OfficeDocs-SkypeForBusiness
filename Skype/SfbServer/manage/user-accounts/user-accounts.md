@@ -195,9 +195,6 @@ For more information, see the help topic for the [Disable-CsUser](https://docs.m
 ## See also
 <a name="Remove"> </a>
 
-#### 
-
 [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)
   
 [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps)
-

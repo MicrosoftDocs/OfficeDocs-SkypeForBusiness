@@ -82,7 +82,6 @@ The following command assigns a PIN number to the user Ken Myer. Because the Pin
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
-
   ```
 
 ### To assign a specific PIN number to a user

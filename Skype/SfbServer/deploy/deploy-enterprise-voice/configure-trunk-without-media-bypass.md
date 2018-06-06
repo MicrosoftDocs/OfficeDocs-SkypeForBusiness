@@ -160,10 +160,6 @@ A trunk configuration, as described below, groups a set of parameters that are a
   
 ## See also
 
-#### 
-
 [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md)
-#### 
 
 [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-

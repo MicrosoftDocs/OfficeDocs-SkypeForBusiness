@@ -263,8 +263,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 The BuildingTypeId and BuildingTypeDesc parameters are required.
@@ -413,7 +412,7 @@ By default, after you import building/network data it will only apply to records
   
 To tag all the previous records with this new data, you will need to run the CqdUpdateBuilding stored procedure as shown below: 
   
-Give it the date of your first record( identify that using the Select MIN(StartTime) FROM CqdPartitionedStreamView SQL command ), an EndDate of tomorrow, then NULL for the last two values.
+Give it the date of your first record (identify that using the Select MIN(StartTime) FROM CqdPartitionedStreamView SQL command ), an EndDate of tomorrow, then NULL for the last two values.
   
 Once the data is associated with stream data, the SSIS Cube needs to reprocess all records. This also applies when bulk adding BSSID/ISP data. Ensure that "Process Full" is selected.
   

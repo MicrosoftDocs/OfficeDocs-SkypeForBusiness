@@ -152,7 +152,4 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
   
 ## See also
 
-#### 
-
 [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
-

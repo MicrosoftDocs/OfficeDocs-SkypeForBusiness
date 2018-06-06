@@ -111,11 +111,7 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-That will return a single value representing the total number of calls made using an Aastra capture device. For example:
-  
-```
-384
-```
+That will return a single value representing the total number of calls made using an Aastra capture device. For example: 384
 
 ## Filters
 

@@ -108,16 +108,12 @@ The following table details the features supported under various combinations of
 ## See also
 <a name="feature_support"> </a>
 
-#### 
-
 [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [Configure OAuth between Skype for Business Online and Exchange on premises](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
-#### 
 
 [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [How to integrate Exchange Server 2013 with Lync Server 2013, Skype for Business Online, or a Lync Server 2013 hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
 [Configure partner applications in Skype for Business Server 2015 and Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
-

@@ -40,15 +40,14 @@ You can view CDR configuration settings by using Windows PowerShell and the Get-
 
     That will return information similar to this:
     
-  ```
-  Identity               : Global
+<pre>
+Identity               : Global
 EnableCDR              : True
 EnablePurging          : True
 KeepCallDetailForDays  : 90
 KeepErrorReportForDays : 60
 PurgeHourOfDay         : 2
-
-  ```
+</pre>
 
 For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) cmdlet.
   

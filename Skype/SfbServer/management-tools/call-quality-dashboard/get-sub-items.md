@@ -56,7 +56,6 @@ Get Sub-Items returns a specific Item's sub-items.
 "userId": 0,
 "type": "json"
 }]
-
 ```
 
 The Item object returned by Sub-Items operation only contains the following three fields. 

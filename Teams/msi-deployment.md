@@ -17,7 +17,7 @@ appliesto:
 Install Microsoft Teams using MSI
 =================================
 
-To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](http://aka.ms/teams32bitmsi) and [64-bit](http://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment. 
+To use System Center Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both [32-bit](https://aka.ms/teams32bitmsi) and [64-bit](https://aka.ms/teams64bitmsi)) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment. 
  
 > [!Note] 
 > To learn more about SCCM, see [Introduction to System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
@@ -37,7 +37,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 > We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service. 
 
 
-## Target machine requirements
+## Target computer requirements
 
 - .NET framework 4.5 or later
 - Windows 7 or later
