@@ -8,8 +8,7 @@
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate my environment](../upgrade-plan-journey-evaluate-environment.md)
 ### [Plan for quality](../upgrade-plan-for-quality.md)
-## [Understand coexistence and upgrade modes](../upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Microsoft Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Plan your upgrade journey](../upgrade-plan-upgrade-journey.md)
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network](../upgrade-prepare-environment-prepare-network.md)
@@ -18,7 +17,9 @@
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare my IT pros]
 ## [Pilot Teams/run coexistence](../pilot-essentials.md)
-<!-- ## [Upgrade to Teams](../upgrade-to-teams.md)-->
+## [Upgrade to Teams](../upgrade-to-teams.md)
+### [Execute Skype for Business Online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Execute Skype for Business on-premises to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
 ## [Drive value through user adoption](../continue-journey.md)
 ### [Operate my service](../upgrade-operate-my-service.md)
 ### [Monitor quality](../upgrade-monitor-quality.md)
