@@ -39,9 +39,6 @@ After you have enabled Skype for Business or Microsoft Teams users in your organ
     
 - In the left navigation, go to **Audio conferencing** > **Users**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## What else should I know?
 
 - When you view the list of users that are enabled, you can select a user from the list and use the Action pane to edit the audio conferencing settings for that user.
