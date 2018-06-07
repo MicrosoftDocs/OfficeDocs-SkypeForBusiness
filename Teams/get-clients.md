@@ -85,6 +85,9 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 -   **Windows Phone**: Windows 10 Mobile
 
+> [!NOTE]
+> The mobile version must be available to the public in order for Teams to work as expected.
+
 Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.
 
 
