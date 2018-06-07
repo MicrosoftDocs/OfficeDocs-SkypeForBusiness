@@ -189,7 +189,10 @@ The table below summarizes the relationships between primary, secondary, and ter
 
 ## Media traffic: Port ranges
 
-The media traffic flows to and from a separate service in the Microsoft Cloud. The port range of the Media Processors is shown in the following table: 
+The media traffic flows to and from a separate service in the Microsoft Cloud. The IP range for Media traffic:
+- 52.112.0.0 /14 (IP addresses from 52.112.0.1 to 52.115.255.254).
+
+The port range of the Media Processors is shown in the following table: 
 
 |**Traffic**|**From**|**To**|**Source port**|**Destination port**|
 |:--- |:--- |:--- |:--- |:--- |
