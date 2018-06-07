@@ -8,7 +8,7 @@
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate my environment](../upgrade-plan-journey-evaluate-environment.md)
 ### [Plan for quality](../upgrade-plan-for-quality.md)
-### [Plan your upgrade journey](../upgrade-plan-upgrade-journey)
+### [Plan your upgrade journey](../upgrade-plan-upgrade-journey.md)
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network](../upgrade-prepare-environment-prepare-network.md)
