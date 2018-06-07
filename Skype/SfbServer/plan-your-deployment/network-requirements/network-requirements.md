@@ -256,5 +256,3 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
 [Load balancing requirements for Skype for Business](load-balancing.md)
   
 [DNS requirements for Skype for Business Server 2015](dns.md)
-  
-[Port and protocol requirements for servers](ports-and-protocols.md)
