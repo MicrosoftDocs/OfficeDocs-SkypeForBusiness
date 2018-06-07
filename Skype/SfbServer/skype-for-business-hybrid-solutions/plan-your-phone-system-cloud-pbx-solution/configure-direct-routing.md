@@ -202,7 +202,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
@@ -329,7 +329,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 To create the Other +1 route, enter:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -370,7 +370,7 @@ Name		 	: Redmond 2
 Identity		: Other +1 
 Priority       		: 4
 Description	 	: 
-NumberPattern 		: ^\+1(425|206) (\d{7})$
+NumberPattern 		: ^\\+1(\d{10})$
 OnlinePstnUsages 	: {US and Canada}	 
 OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
 Name		 	: Other +1
