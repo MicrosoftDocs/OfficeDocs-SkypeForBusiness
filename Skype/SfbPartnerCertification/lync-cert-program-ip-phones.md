@@ -16,26 +16,25 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-description: "Partner qualification requirements for Lync."
+description: "Read about qualified devices for the Lync client on Windows-based machines."
 ---
 
 # Phones and devices qualified for  Lync
 
 ## IP phones
-<!-- note that this list was linked to the areas on the page. Still needed? -->
-The Compatible Devices Program qualified devices for Lync client on Windows-based machines.
+<!-- I am recommending a slight rewrite to introduce this topic: -->
+The Compatible Devices Program has a large number vendors who have gone through the provide qualified devices for Lync client on Windows-based machines.
 
-[Qualified products table]()
-[IP phones tested features comparison]()
-[Just want to search for Lync Qualified hardware?]()
-[Related resources and support]()
+## Qualified products table
 
-### Qualified products table
+It is important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (refer to the table that follows).
 
 [Note]
-It is important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (reference the following table). If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta/evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country support, and documentation including release notes and known issues. 
+If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country support, and documentation including release notes and known issues. 
 
 Contact the vendors for more information about these products.
+
+***Table - Qualified IP Phones***
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -68,3 +67,7 @@ Contact the vendors for more information about these products.
 |Yealink SIP-T22P|March 2015|7.7.0.26|Not tested|7.7.0.26|
 |Yealink SIP-T48G|March 2015|35.7.0.26|Not tested|35.7.0.26|
 |||
+
+## Just want to search for tested hardware?
+
+To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).
