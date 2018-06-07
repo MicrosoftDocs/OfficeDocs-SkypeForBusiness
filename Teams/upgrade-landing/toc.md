@@ -17,7 +17,9 @@
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare my IT pros]
 ## [Pilot Teams/run coexistence](../pilot-essentials.md)
-<!-- ## [Upgrade to Teams](../upgrade-to-teams.md)-->
+## [Upgrade to Teams](../upgrade-to-teams.md)
+### [Execute Skype for Business Online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnline)
+### [Execute Skype for Business on-premises to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnpremises)
 ## [Drive value through user adoption](../continue-journey.md)
 ### [Operate my service](../upgrade-operate-my-service.md)
 ### [Monitor quality](../upgrade-monitor-quality.md)
