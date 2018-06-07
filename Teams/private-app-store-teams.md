@@ -14,21 +14,21 @@ appliesto:
 - Microsoft Teams
 ---
 
-Manage the Microsoft Teams Private App Store
+Publish Apps to the Microsoft Teams Private App Store
 ============================================
 
 > [!IMPORTANT]
 > This page describes a pre-release feature and contains preliminary content that might change substantially before it is released. Any screenshots are placeholders and might look different than what you see.
 
-You can use the Microsoft Teams Private App Store to build and distribute your line-of-business applications to your organization. 
+You can use the Microsoft Teams Private App Store to test and distribute line-of-business applications to your organization. 
 
 The Microsoft Teams Private App Store lets you distribute your line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions to your users. 
  
-There are two methods to manage the Teams Private App Store:
+There are two methods to publish apps to the Teams Private App Store:
 - Directly from the Teams client 
-- Cmdlets that leverage Microsoft Graph APIs (This method is not yet available.)
+- Cmdlets that leverage Microsoft Graph APIs (This method is not yet available for preview.)
 
-## Manage the Teams Private App Store from the Teams client
+## Publish an App to the Teams Private App Store from the Teams client
 
 ### Get a Teams app package
 
