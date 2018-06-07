@@ -46,6 +46,8 @@ System with Calling Plans (“Calling Plans”) aren’t available, or in deploy
 where an existing PSTN service provider contract needs to be maintained or
 interoperability with certain on-premises systems is required.
 
+<!--ENDOFSECTION-->
+
 ## Availability of Direct Routing
 
 Direct Routing is available in any country where Office 365 is available. See
@@ -72,6 +74,8 @@ who you are going to enable Calling Plans or Direct Routing for each location yo
 > | 32 London Bridge Street        | United Kingdom | Phone System with Calling Plans |
 > | 39 quai du Président Roosevelt | France         | Phone System with Calling Plans |
 
+<!--ENDOFSECTION-->
+
 ## Phone numbers and emergency locations
 
 Phone System requires every user in your organization to have a unique direct
@@ -91,6 +95,8 @@ the emergency services are provided by your PSTN service provider.
 >|Marcel Beauchamp | TBA |
 >|Rachelle Cormier | TBA |
 >|Isabell Potvin | TBA |
+
+<!--ENDOFSECTION-->
 
 ## Voicemail
 
@@ -126,6 +132,8 @@ For more information about voicemail in a Phone System implementation, see [Set 
 
 > [!NOTE]
 > To use Teams and voicemail, your users must have Exchange mailboxes. See [How Exchange and Microsoft Teams interact](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) for more details.
+
+<!--ENDOFSECTION-->
 
 ## Licensing for Direct Routing
 
@@ -166,6 +174,8 @@ and other requirements of Direct Routing](https://docs.microsoft.com/SkypeForBus
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.<li>Decide whether you’ll need Communications Credits for your Direct Routing implementation.</ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the division, department, office, or user groups you’ll assign a Phone System license.<li>If Audio Conferencing with toll-free numbers is in scope, document the division, department, office, or user groups you’ll enable Communications Credits.</ul>|
 
+<!--ENDOFSECTION-->
+
 ## Office 365 considerations
 
 Any user who will be enabled for Direct Routing must be homed in Office 365. For
@@ -185,6 +195,8 @@ FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether any users need to be migrated to Skype for Business Online to support Direct Routing.<li>Identify the users who need to be enabled for Teams.</ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document the list of users who need to move to Skype for Business Online and be enabled for Teams.</ul>|
+
+<!--ENDOFSECTION-->
 
 ## SBC considerations
 
@@ -257,6 +269,8 @@ ranges](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-so
 > | SBC-Asia.contoso.com | TBD | \*.contoso.com | Hong Kong SAR | TBD | TBD | No | TBD | Yes |
 > | SBC-Africa.contoso.com | TBD | \*.contoso.com | Johannesburg | TBD | TBD | Yes | TBD | Yes |
 
+<!--ENDOFSECTION-->
+
 ## Voice routing
 
 You need to configure Microsoft Phone System to route the calls to the specific
@@ -310,6 +324,8 @@ specific SBCs by using Direct Routing.
 > The PSTN Usages in Voice Routing Policies are applied in order, and if a match
 > is found in the first usage, other usages are never evaluated.
 
+<!--ENDOFSECTION-->
+
 ## Calling and Interop policies
 
 Direct Routing is only supported with Microsoft Teams. To place or receive PSTN
@@ -342,6 +358,8 @@ For more details, see [Set Microsoft Teams as the preferred calling client for t
 To have your users see the Calls tab in the Teams client, you need to enable
 private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
 
+<!--ENDOFSECTION-->
+
 ## Document service decisions
 
 Use the information from the previous sections of this article to document your
@@ -359,3 +377,5 @@ main sections:
 -   Voice routing policy and routing details
 
 -   Interop and calling policy details
+
+<!--ENDOFSECTION-->
