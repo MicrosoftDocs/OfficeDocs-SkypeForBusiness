@@ -1,5 +1,5 @@
 ---
-title: "Environmental requirements for Skype for Business Server 2019"
+title: "Infrastructure requirements for Skype for Business Server 2019"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,13 +11,13 @@ localization_priority: Normal
 description: "Summary: Configure your non-server requirements for Skype for Business Server 2019. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
 ---
 
-# Environmental requirements for Skype for Business Server 2019
+# Infrastructure requirements for Skype for Business Server 2019
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
  
-**Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
+**Summary:** Configure your infrastructure requirements for Skype for Business Server 2019. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
   
-What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
+What is an infrastructure requirement for Skype for Business Server 2019? Well, we've put everything that's not directly server related into this topic. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -30,12 +30,12 @@ What is an environmental requirement for Skype for Business Server 2015? Well, w
 ## Active Directory
 <a name="AD"> </a>
 
-While a lot of configuration data for servers and services is stored in Skype for Business Server 2015's Central Management store, there are some things still stored in Active Directory:
+While a lot of configuration data for servers and services is stored in Skype for Business Server 2019's Central Management store, there are some things still stored in Active Directory:
   
 |**Active Directory objects**|**Object types**|
 |:-----|:-----|
 |Schema extensions  <br/> |User object extensions  <br/> |
-||Extensions for Lync Server 2013 and Lync Server 2010, to maintain backward compatibility with the previous supported versions.  <br/> |
+||Extensions for Skype for Business Server 2015 and Lync Server 2013, to maintain backward compatibility with the previous supported versions.  <br/> |
 |Data  <br/> |User SIP URI and other user settings  <br/> |
 ||Contact objects for applications (like the Response Group application and the Conferencing Attendant application).  <br/> |
 ||Data published for backward compatibility.  <br/> |
@@ -56,7 +56,7 @@ So, what Domain Controller OS can be used? We have the following list:
     
 - Windows Server 2008
     
-Now, the domain functional level of any domain you deploy Skype for Business Server 2015 into, and the forest functional level of any forest you deploy Skype for Business Server 2015 into, have to be one of the following:
+Now, the domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2015 into, have to be one of the following:
   
 - Windows Server 2016
     
@@ -74,9 +74,9 @@ Can you have read-only domain controllers in these environments? Sure, as long a
   
 Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
   
-Skype for Business Server 2015 also doesn't support renaming domains. If you've really got to do that, then you'll need to uninstall Skype for Business Server 2015, do the domain rename, and then reinstall Skype for Business Server 2015.
+Skype for Business Server 2019 also doesn't support renaming domains. If you've really got to do that, then you'll need to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
   
-Finally, you may be dealing with a domain with a locked-down AD DS environment, and that's all right. We have more information on how to deploy Skype for Business Server 2015 into that sort of environment in the Deployment docs.
+Finally, you may be dealing with a domain with a locked-down AD DS environment, and that's all right. We have more information on how to deploy Skype for Business Server 2019 into a locked-down AD DS environment in the Deployment documentation.
   
 ### AD Topologies
 
@@ -126,7 +126,7 @@ As you can see, users in the same domain, the same tree, or even a different tre
 
 ![Multiple forests in a central forest topology diagram](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
-Skype for Business Server 2015 does support multiple forests configured in a central forest topology. If you're not sure that's what you have, the central forest in the topology uses objects in it to represent users in the other forests, and hosts user accounts for any users in the forest.
+Skype for Business Server 2019 does support multiple forests configured in a central forest topology. If you're not sure that's what you have, the central forest in the topology uses objects in it to represent users in the other forests, and hosts user accounts for any users in the forest.
   
 How does this work? Well, a directory synchronization product (such as Forefront Identity Manager, or FIM) manages your organization's user accounts throughout their existence. When an account is created or deleted from a forest, that change is synched up to the corresponding contact in the central forest.
   
@@ -137,11 +137,11 @@ Clearly, if your AD infrastructure is in-place moving to this topology might not
 
 ![Multiple forests in a resource forest topology diagram](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
-A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2015. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
+A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2019. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
 Note that Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
-To deploy Skype for Business Server 2015 in this type of topology, you'd create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you'll need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
+To deploy Skype for Business Server 2019 in this type of topology, you'd create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you'll need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
   
 #### Multiple forests in a Skype for Business resource forest topology with Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
@@ -173,9 +173,9 @@ For more information, see [Configure a multi-forest environment for hybrid Skype
 ## Domain Name System (DNS)
 <a name="DNS"> </a>
 
-Skype for Business Server 2015 requires DNS, for the following reasons:
+Skype for Business Server 2019 requires DNS, for the following reasons:
   
-- DNS enables Skype for Business Server 2015 to discover internal servers or pools, allowing for server-to-server communications.
+- DNS enables Skype for Business Server 2019 to discover internal servers or pools, allowing for server-to-server communications.
     
 - DNS allows client machines to discover the Front End pool or Standard Edition server being used for SIP transactions.
     
@@ -189,11 +189,11 @@ Skype for Business Server 2015 requires DNS, for the following reasons:
     
 - And it's used in DNS load balancing.
     
-It's important to note that Skype for Business Server 2015 doesn't support internationalized domain names (IDNs).
+It's important to note that Skype for Business Server 2019 doesn't support internationalized domain names (IDNs).
   
-And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server being used by Skype for Business Server 2015. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
+And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server being used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
   
-This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2015 server or pool, for that matter.
+This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool, for that matter.
   
 And definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are the ones that are going to be supported by external DNS and public Certificate Authorities (you'll need to assign FQDNs to the SN in the certificate, don't forget), so you'll spare yourself a lot of grief if you name with this in mind.
   
@@ -202,7 +202,7 @@ For further reading on DNS requirements for Networking, check out the [Networkin
 ## Certificates
 <a name="Certs"> </a>
 
-One of the most important things you can do before deploying is make sure you have your certificates in order. Skype for Business Server 2015 needs a public key infrastructure (PKI) for transport layer security (TLS) and mutual transport layer security (MTLS) connections. Basically, to communicate securely in a standardized way, Skype for Business Server uses certificates issued by Certificate Authorities (CAs).
+One of the most important things you can do before deploying is make sure you have your certificates in order. Skype for Business Server 2019 needs a public key infrastructure (PKI) for transport layer security (TLS) and mutual transport layer security (MTLS) connections. Basically, to communicate securely in a standardized way, Skype for Business Server uses certificates issued by Certificate Authorities (CAs).
   
 These are some of the things that Skype for Business Server 2015 uses certificates for:
   
@@ -224,11 +224,11 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
     
 - All server certificates must contain a CRL Distribution Point (CDP).
     
-- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2015 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
+- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2019 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
     
-- Auto-enrollment is supported for internal servers running Skype for Business Server 2015.
+- Auto-enrollment is supported for internal servers running Skype for Business Server 2019.
     
-- Auto-enrollment is not supported for Skype for Business Server 2015 Edge Servers.
+- Auto-enrollment is not supported for Skype for Business Server 2019 Edge Servers.
     
 - When you submit a web-based certificate request to a Windows Server 2003 CA, you must submit it from a computer running either Windows Server 2003 with SP2 or Windows XP.
     
@@ -248,9 +248,9 @@ So that's a lot to think about, and definitely, there's a variety of comfort lev
 
 You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's one located in your domain). If you want to, you can request these certificates from an external CA (one located on the internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](https://support.microsoft.com/kb/929395/en-us) list.
   
-You're also going to need certificates when Skype for Business Server 2015 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate these other apps and servers can use in a supported way. Skype for Business Server 2015 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2015.
+You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
   
-Skype for Business Server 2015 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
+Skype for Business Server 2019 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
   
 To try and keep things straightforward, we've put the certificate requirements for Standard Edition servers, Front End pools, and other roles, into the following tables, with the fictional contoso.com being used for examples (you'll probably be using something else for your environment). These are all standard web server certificates, with private keys that are non-exportable. Some additional things to note:
   
@@ -302,7 +302,7 @@ When installing your Persistent Chat Server, you're going to need a certificate 
   
 ### Certificates for external user access (Edge)
 
-Skype for Business Server 2015 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
+Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
   
 Your reverse proxy (RP) is also going to use a public certificate, and it encrypts the communication from your RP to clients, and the RP to internal servers by using HTTP (or more precisely, TLS over HTTP).
   
@@ -320,7 +320,7 @@ Which certs? You'll need SAN names for automatic discovery on the certificates h
     
 We'll list the specifics in each table below.
   
-Now, this is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2015 without intending to deploy mobility, and that comes up down the line when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricy.
+Now, this is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up down the line when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricy.
   
 If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The Planning for Mobility topic has more info on this.
   
@@ -347,7 +347,7 @@ This SAN needs to be assigned to the certificate that's assigned to the SSL List
 ## File Share
 <a name="Fileshare"> </a>
 
-Skype for Business Server 2015 is able to use the same file share for all file storage. You do need to keep the following in mind:
+Skype for Business Server 2019 is able to use the same file share for all file storage. You do need to keep the following in mind:
   
 - A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
