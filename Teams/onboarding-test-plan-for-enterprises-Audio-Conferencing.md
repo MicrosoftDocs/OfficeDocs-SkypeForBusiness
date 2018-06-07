@@ -105,7 +105,7 @@ Now that the Audio Conferencing persona and features have been defined, the next
 criteria for evaluation will be the interoperability experience with Teams. For
 additional information about the interoperability experience along with
 configuration options available, see [Microsoft Teams and Skype for Business
-interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 #### Audio Conferencing feature definition
 
