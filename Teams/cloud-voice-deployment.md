@@ -3,7 +3,7 @@ title: Cloud voice deployment
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 05/16/2018
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
@@ -46,7 +46,7 @@ To learn more, read [Here’s what you get with Phone System in Office 365](http
 
 Direct Routing works with the Phone System feature to give people in your organization the ability make and receive phone calls outside of the organization over the PSTN, where PSTN connectivity is provided via third-party service providers.
 
-To learn more, read [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing) and [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing))
+To learn more, read [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing) and [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing).
 
 ## Practical guidance for Audio Conferencing, Calling Plans, and Direct Routing in Microsoft Teams
 

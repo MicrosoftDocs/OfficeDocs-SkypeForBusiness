@@ -2,7 +2,7 @@
 title: Document your Microsoft Teams success plan
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams

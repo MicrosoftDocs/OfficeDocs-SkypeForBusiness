@@ -2,7 +2,7 @@
 title: Upgrade to Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams

@@ -2,8 +2,8 @@
 title: Prepare to deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/16/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
