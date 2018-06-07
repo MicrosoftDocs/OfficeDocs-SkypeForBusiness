@@ -27,14 +27,14 @@ description: "Security guide for Skype for Business Online <add description>"
 Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
 
 
-### Trustworthy by Design
+## Trustworthy by Design
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
-### Trustworthy by Default
+## Trustworthy by Default
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
 
-### How SfBO Handles Common Security Threats
+## How SfBO Handles Common Security Threats
 This section identifies the more common threats to the security of the SFBO Service and how Microsoft mitigates each threat.
 
 
@@ -80,7 +80,7 @@ Spim is unsolicited commercial instant messages or presence subscription request
 ### Viruses and Worms
 A virus is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce additional, similar code units, but that unlike a virus does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.  Standard client security best practices such as periodically scanning for viruses can mitigate this issue.  
 
-### Personally Identifiable Information
+## Personally Identifiable Information
 SfBO has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
 - **Enhanced presence data**&nbsp;&nbsp;&nbsp;Enhanced presence data is information that a user can choose to share or not share over a link to a federated partner or with contacts within an organization. This data is not shared with users on a public IM network. Client policies and other client configuration may put some control with the system administrator. In the SfBO service, enhanced presence privacy mode can be configured for an individual user to prevent SfBO users not on the user’s Contacts list from seeing the user’s presence information. 
 - **Mandatory data**&nbsp;&nbsp;&nbsp;Mandatory data is data that is required for the proper operation of the server or the client. This is information that is necessary at a server or network level for the purposes of routing, state maintenance, and signaling.
@@ -117,16 +117,12 @@ The following tables list the data that is required for SfBO to operate.
 
 <!-- end of table -->
 
-### Security Framework for SfBO
-This chapter provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. 
+## Security Framework for SfBO
+This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. 
 These elements are as follows:
 - Azure Active Directory (AAD) provides a single trusted back-end repository for user accounts. 
 - Public key infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.
 - Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
-- Industry-standard protocols for user authentication, where possible.
-- Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts.
-- 
-These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for SfBO.
 
 The topics in this section describe how each of these fundamental elements works to enhance the security of the SfBO service.
 
@@ -146,7 +142,7 @@ SfBO requires all server certificates to contain one or more Certificate Revocat
 #### Enhanced Key Usage
 All components of the SfBO service require all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. 
 
-#### TLS and MTLS for SfBO
+### TLS and MTLS for SfBO
 TLS and MTLS protocols provide encrypted communications and endpoint authentication on the Internet. SfBO uses these two protocols to create the network of trusted servers and to ensure that all communications over that network are encrypted. All SIP communications between servers occur over MTLS. SIP communications from client to server occur over TLS.
 
 TLS enables users, through their client software, to authenticate the SfBO servers to which they connect. On a TLS connection, the client requests a valid certificate from the server. To be valid, the certificate must have been issued by a CA that is also trusted by the client and the DNS name of the server must match the DNS name on the certificate. If the certificate is valid, the client uses the public key in the certificate to encrypt the symmetric encryption keys to be used for the communication, so only the original owner of the certificate can use its private key to decrypt the contents of the communication. The resulting connection is trusted and from that point is not challenged by other trusted servers or clients. Within this context, Secure Sockets Layer (SSL) as used with Web services can be associated as TLS-based.
@@ -155,7 +151,7 @@ Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication
 
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker’s computer without the knowledge of either party. TLS and SfBO’s specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using end-to-end encryption coordinated using the Public Key cryptography between the two endpoints, and an attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication. 
 
-#### Encryption for SfBO
+### Encryption for SfBO
 SfBO uses TLS and MTLS to encrypt instant messages. All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter.
 
 The following table summarizes the protocol used by SfBO.
@@ -179,16 +175,16 @@ The following table summarizes the protocol used by SfBO.
 
 <!-- end of table -->
 
-### Media Encryption
+#### Media Encryption
 Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP. 
 
 SfBO generates username/passwords for secure access to media relays over TURN. Media relays exchange the username/password over a TLS-secured SIP channel.
 
 
-### FIPS
+#### FIPS
 SfBO uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. 
-User and Client Authentication 
 
+### User and Client Authentication 
 A trusted user is one whose credentials have been authenticated by AAD in O365. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
@@ -204,14 +200,14 @@ User trust is attached to each message that originates from a user, not to the u
 
 Users with valid credentials issued by a federated partner are trusted but optionally prevented by additional constraints from enjoying the full range of privileges accorded to internal users.
 
-For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [[media traversal](#rtp-replay-attack)](#external-user-av-traffic-traversal).
+For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC. For details, see [media traversal](#external-user-av-traffic-traversal).
 
 Client certificates provide an alternate way for users to be authenticated by SFBO. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. 
 
 ### Windows PowerShell and SfBO Management Tools
 In SfBO, IT Admins can manage their service via the O365 Admin portal or by using Tenant Remote PowerShell (TRPS).  Tenant admins use Modern Authentication to authenticate to TRPS.
 
-Configuring Access to SfBO at your Internet Boundary
+### Configuring Access to SfBO at your Internet Boundary
 For SfBO to function properly (users able to join meetings etc.), customers need to configure their internet access such that outbound UDP and TCP traffic to services in the SfBO cloud is allowed.  For more details, see here: https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 
@@ -263,7 +259,7 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 - Conference scheduling is restricted to users who have an AAD account and an SfBO license.
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
-#### Participant Roles
+### Participant Roles
 Meeting participants fall into three groups, each with its own privileges and restrictions:
 - **Organizer**&nbsp;&nbsp;The user who creates a meeting, whether impromptu or by scheduling. An organizer must be an authenticated enterprise user and have control over all end-user aspects of a meeting.
 - **Presenter**&nbsp;&nbsp;A user who is authorized to present information at a meeting, using whatever media is supported. A meeting organizer is by definition also a presenter and determines who else can be a presenter. An organizer can make this determination when a meeting is scheduled or while the meeting is under way.
@@ -271,9 +267,10 @@ Meeting participants fall into three groups, each with its own privileges and re
 
 A presenter can also promote an attendee to the role of presenter during the meeting.
 
-#### Participant Types
+### Participant Types
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
+<!-- Theresa: clean up the sub-bullets -->
 1.	**Users that belong to the tenant**&npsp;&npsp;These users have a credential in Azure Active Directory for the tenant.
     a.	Inside corpnet – These users are joining from inside the corporate network.
     b.	Remote users – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
@@ -283,7 +280,7 @@ Meeting participants are also categorized by location and credentials. You can u
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
-#### Participant Admittance
+### Participant Admittance
 In SfBO, anonymous users are transferred to a waiting area called the lobby. Presenters can then either admit these users to the meeting or reject them. These users are transferred to the lobby, the leader is notified, and the users then wait until a leader either accepts or rejects them or their connection times out. While in the lobby, the users hear music. 
 
 By default, participants dialing in from the PSTN go directly to the meeting, but this option can be changed to force dial-in participants to go to the lobby.  
@@ -294,7 +291,7 @@ Meeting organizers control whether participants can join a meeting without waiti
 - **Anyone**&nbsp;&nbsp;Anyone (there are no restrictions)who has access to the meeting link gets in to the meeting directly.
 When any method except Organizer only (locked) is specified, the meeting organizer can also specify People dialing in by phone bypass the lobby. 
 
-#### Presenter Capabilities
+### Presenter Capabilities
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
 - **Organizer only**&nbsp;&nbsp; Only the meeting organizer can present.
 - **People from my company**&nbsp;&nbsp; All internal users can present.
