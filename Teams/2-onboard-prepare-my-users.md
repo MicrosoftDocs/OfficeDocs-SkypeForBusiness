@@ -2,7 +2,7 @@
 title: Prepare users for Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
