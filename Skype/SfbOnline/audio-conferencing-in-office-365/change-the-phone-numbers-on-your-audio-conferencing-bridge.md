@@ -38,9 +38,6 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 ### Step 1 - Assign the new phone number to your audio conferencing bridge
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 1. Sign in to Office 365 with your work account.
     
 2. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**.
