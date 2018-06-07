@@ -25,6 +25,9 @@ description: "Learn how to view a list of users in your organization that are en
 # See a list of users that are enabled for Audio Conferencing
 
 After you have enabled Skype for Business or Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Viewing a list of users
 

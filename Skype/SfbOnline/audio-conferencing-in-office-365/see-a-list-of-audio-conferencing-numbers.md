@@ -37,7 +37,10 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
   
 > [!NOTE]
 > Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## To view your audio conferencing phone numbers
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**

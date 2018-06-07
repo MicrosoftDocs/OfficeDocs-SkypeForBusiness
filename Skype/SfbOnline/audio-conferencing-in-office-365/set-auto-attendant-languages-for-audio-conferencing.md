@@ -30,6 +30,9 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 > [!NOTE]
 >  You can configure the languages on domestic audio access phone numbers only.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Set the conferencing auto attendant languages
 
