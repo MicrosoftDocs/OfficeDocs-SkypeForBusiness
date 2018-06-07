@@ -2,7 +2,7 @@
 title: Make Phone System with Calling Plans service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
@@ -16,11 +16,11 @@ appliesto:
 
 # Make my service decisions
 
-To plan for the technical implementation of Phone System with Calling PLans, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
+To plan for the technical implementation of Phone System with Calling Plans, you must make a series of service decisions ahead of time to better prepare your organization to implement a solution that meets your defined business requirements.
 
 ## Calling in Teams
 
-With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail and emergency calling (enhanced 911).
+With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail.
 
 > [!NOTE]
 > The latest Teams roadmap for identifying Teams Phone System with Calling Plan features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
@@ -32,7 +32,7 @@ For Teams users to be able to place and receive PSTN calls, they need to be enab
 To enable connectivity to the PSTN, your organization can use Microsoft as its telecommunications service provider. Eventually, you’ll also have the option to “bring your own” telecommunications service provider to enable connectivity to PSTN for Phone System.
 
 > [!IMPORTANT]
-> The ability to choose your own telecommunications service provider for Phone System will be available in the future. To learn more about the projected timeline, please review the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+> The ability to use your own telecommunications service provider for Phone System with your Teams deployment is also available with Phone System Direct Routing. To learn more about Direct Routing, please review the [Direct Routing guidance](2-envision-make-my-service-decisions-direct-routing.md).
 
 ## Phone System with Calling Plans
 
@@ -56,6 +56,9 @@ Before you plan for the implementation of Calling Plans in Teams, verify that th
 > [!IMPORTANT]
 > Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be based in a country or region where the Calling Plans service is available, or where the Calling Plans service can be purchased.
 
+> [!NOTE]
+> If Calling Plans are not available in your area, you can use [Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md) to enable your users using Teams with PSTN capabilities.
+
 After confirming that your organization can obtain the Calling Plans service, compile the list of user locations or offices where you’ll be implementing the Calling Plans service, based on the list of available countries and regions.
 
 <br>
@@ -66,13 +69,13 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 > [!TIP]
 > Below is an example of a Phone System with Calling Plans site enablement list.
->|Office   |Location |Phone System service  |
->|---------|---------|---------|
->|One Epping Road|Australia|Legacy PSTN service|
->|100 Cyberport Road|Hong Kong SAR|Legacy PSTN service|
->|One Marina Boulevard|Singapore|Legacy PSTN service|
->|32 London Bridge Street|United Kingdom|Phone System with Calling Plans|
->|39 quai du Président Roosevelt|France|Phone System with Calling Plans|
+> | **Office**                     | **Location**   | **Phone System service** |
+> |--------------------------------|----------------|--------------------------|
+> | One Epping Road                | Australia      | Legacy PSTN service |
+> | 100 Cyberport Road             | Hong Kong SAR  | Phone System Direct Routing |
+> | One Marina Boulevard           | Singapore      | Phone System Direct Routing |
+> | 32 London Bridge Street        | United Kingdom | Phone System with Calling Plans |
+> | 39 quai du Président Roosevelt | France         | Phone System with Calling Plans |
 
 <!--ENDOFSECTION-->
 
@@ -390,8 +393,6 @@ Use the information from the previous sections of this article to document your 
 -   Phone number acquisition, phone numbers, and emergency location details
 
 -   Voicemail configuration details
-
--   Conference bridge settings assignments
 
 -   Caller ID masking configuration details
 
