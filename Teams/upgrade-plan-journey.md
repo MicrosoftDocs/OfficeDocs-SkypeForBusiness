@@ -9,7 +9,10 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: PLACEHOLDER 
 MS.collection: Strat_MT_TeamsAdmin
-appliesto:
+robots: noindex
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
+redirect_document_id: TRUE
+appliesto: 
 - Microsoft Teams
 ---
 
