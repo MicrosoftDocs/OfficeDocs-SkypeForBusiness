@@ -75,7 +75,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 <a name="step-4"></a>
 
-## Step 4. Notify your users that Skype for Business is becoming Teams
+## Step 4. Notify your users that they’ll be upgrading from Skype for Business to Teams
 
 *(About two to three weeks before the upgrade)*
 
@@ -96,7 +96,7 @@ Giving ample notice to your users will give them time to get familiar with Teams
 ## Step 5. Activate the user upgrade notification
 *(About one week before the upgrade)*
 
-Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that Skype for Business is becoming Teams.
+Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that users are being upgraded from Skype for Business to Teams.
 
 **Resources:**
 
@@ -106,7 +106,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 <a name="step-6"></a>
 
-## Step 6. Remind your users that Skype for Business is becoming Teams
+## Step 6. Remind your users that they’ll be upgrading from Skype for Business to Teams
 *(About five days before the upgrade)*
 
 Users are busy with their daily responsibilities. Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams. This is the perfect time to remind users about available training and how to get started with Teams.
