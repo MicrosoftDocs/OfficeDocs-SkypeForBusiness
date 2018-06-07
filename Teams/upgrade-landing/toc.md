@@ -12,6 +12,7 @@
 ## [Prepare my environment](../upgrade-prepare-environment.md)
 ### [Discover my environment](../upgrade-prepare-environment-discover-environment.md)
 ### [Prepare my network](../upgrade-prepare-environment-prepare-network.md)
+### [Prepare my service](../upgrade-prepare-environment-prepare-service.md)
 ## [Prepare my organization](../upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
