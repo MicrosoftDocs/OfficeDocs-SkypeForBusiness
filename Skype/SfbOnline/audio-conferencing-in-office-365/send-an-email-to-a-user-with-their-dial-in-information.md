@@ -46,10 +46,6 @@ Here is an example of the email that is sent:
 
 2. At the top of the page, click **Edit**.
 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the left navigation, click **Users**, and then select the user from teh list of available users.
