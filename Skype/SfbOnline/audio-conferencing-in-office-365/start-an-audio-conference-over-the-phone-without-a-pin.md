@@ -57,8 +57,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     
 4. Click **Save**. 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
     
  **Using Windows Powershell**
   
