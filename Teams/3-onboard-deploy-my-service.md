@@ -2,7 +2,7 @@
 title: Deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams

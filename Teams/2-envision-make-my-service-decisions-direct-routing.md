@@ -2,12 +2,13 @@
 title: Make Phone System Direct Routing service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/23/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Learn about Direct Routing, licensing and the decisions that need to be made.
+description: Learn about Direct Routing, licensing, and the decisions that need to be made.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

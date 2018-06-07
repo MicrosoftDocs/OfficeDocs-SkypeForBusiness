@@ -2,13 +2,14 @@
 title: Define success in Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/14/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ---

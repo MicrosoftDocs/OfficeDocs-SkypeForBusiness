@@ -2,12 +2,13 @@
 title: Onboarding checklist for configuring Direct Routing in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/16/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Follow the core, to-do tasks and activities in this checklist when you configure Direct Routing in Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
