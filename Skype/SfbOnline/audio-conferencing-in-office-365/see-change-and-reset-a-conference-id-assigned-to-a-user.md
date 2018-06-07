@@ -47,11 +47,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
     > [!TIP]
     > You can send all of the conferencing information to the user in an email that includes the conference ID and audio phone numbers by clicking the **Send conference info in email** link.
-
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
     
   ```
