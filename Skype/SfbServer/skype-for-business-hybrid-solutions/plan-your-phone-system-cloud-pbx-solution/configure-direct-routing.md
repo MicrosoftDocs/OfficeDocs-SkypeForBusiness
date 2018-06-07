@@ -97,7 +97,7 @@ There are additional options that can be set during the pairing. In the previous
  
 The following table lists the additional parameters that you can use in setting parameters for *New-CsOnlinePstnGateway*. 
 
-|**Required?**|**Name**|**Description**|**Default**|**Possible values**|**Type and restrictions**|
+|Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String,  list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/en-us/help/909264)|
 |No|MediaBypass |The parameter reserved for future use. Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
@@ -408,9 +408,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Which returns:
 <pre>
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
 </pre>
 
 #### Creating a Voice Routing Policy with several PSTN Usages
