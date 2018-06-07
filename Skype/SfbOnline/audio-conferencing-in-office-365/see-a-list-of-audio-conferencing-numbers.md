@@ -50,9 +50,6 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 
 - You can also view the location and primary language that will be used by the audio conferencing auto attendant.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
