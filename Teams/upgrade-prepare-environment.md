@@ -23,6 +23,6 @@ To drive a successful Teams migration within your organization, it's quite impor
 
 These activities should be completed in parallel with your user readiness preparation:
 
-- [Performing an environmental discovery](upgrade-prepare-environment-discover-environment): This includes a sample questionnaire to confirm your organizations readiness for the successful migration to Teams.
+- [Performing an environmental discovery](upgrade-prepare-environment-discover-environment.md): This includes a sample questionnaire to confirm your organizations readiness for the successful migration to Teams.
 - [Preparing your network](upgrade-prepare-environment-prepare-network.md): Planning, preparation and remediation steps for your network to support Teams workloads.
 - [Preparing for rollout](upgrade-prepare-environment-prepare-service.md): Onboarding checklists to ensure your Teams configuration is ready to support migration of your users from Skype for Business to Teams.
