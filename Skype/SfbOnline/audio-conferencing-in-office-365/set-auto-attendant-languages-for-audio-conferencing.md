@@ -64,9 +64,6 @@ You must be an [Office 365 global admin](https://support.office.com/article/da58
   
 4. Click **Save**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## Want else should I know?
 
 - To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
