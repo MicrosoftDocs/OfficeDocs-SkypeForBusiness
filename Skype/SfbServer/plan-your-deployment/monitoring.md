@@ -89,22 +89,8 @@ Note that you can make this decision before you deploy monitoring or after you d
 ## SQL requirements for monitoring
 <a name="topologies"> </a>
 
-The unified data collection agents are automatically installed and activated on each Front End server when you enable Monitoring. You will need to install and configure one of the following databases to act as the backend data store for your monitoring data:
-  
-- Microsoft SQL Server 2008 R2 Enterprise Edition (64-bit edition)
-    
-- Microsoft SQL Server 2008 R2 Standard Edition (64-bit edition)
-    
-- Microsoft SQL Server 2012 Enterprise Edition (64-bit edition)
-    
-- Microsoft SQL Server 2012 Standard Edition (64-bit edition)
-    
-- Microsoft SQL Server 2014 Enterprise Edition (64-bit edition)
-    
-- Microsoft SQL Server 2014 Standard Edition (64-bit edition)
-    
-32-bit versions of SQL Server cannot be used as the backend store. Skype for Business Server 2015 does not support the Express Editions of SQL Server 2008 or SQL Server 2012. For more information on database requirements for Skype for Business Server 2015 see the topic [Database Software Support](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx).
-  
+The unified data collection agents are automatically installed and activated on each Front End server when you enable Monitoring. For supported versions of SQL Server and other details, see [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)
+   
 Monitoring data can share a SQL Server instance with other types of data. Typically, the call detail recording database (LcsCdr) and the Quality of Experience database (QoEMetrics) share the same SQL instance; it is also common for the two monitoring databases to be in the same SQL instance as the archiving database (LcsLog). About the only real requirement with SQL Server instances is that any one instance of SQL Server is limited to the following:
   
 - One instance of the Skype for Business Server 2015 backend database. (As a general rule, it is not recommended that your monitoring database be collocated in the same SQL instance, or even on the same computer, as the backend database. Although technically possible, you run the risk of the monitoring database using up disk space needed by the backend database.) 
