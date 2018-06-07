@@ -33,7 +33,6 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
 Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.
@@ -61,7 +60,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-

@@ -69,6 +69,8 @@
 #### Plan Microsoft Phone System Direct Routing
 ##### [Plan Direct Routing](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [Configure Direct Routing](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
+##### [Migrating to Direct Routing](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/migrating-to-direct-routing.md)
+##### [User accounts in a hybrid environment with PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/user-accounts-in-a-hybrid-environment-with-pstn.md)
 ### [Plan hybrid connectivity](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Deploy hybrid connectivity](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Configure federation with Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
@@ -102,6 +104,7 @@
 #### [Compatibility with Office](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [Video resolutions](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Meetings clients](../plan-your-deployment/clients-and-devices/meetings-clients.md)
+##### [Skype Meetings App minimum network requirements](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Requirements for Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)

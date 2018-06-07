@@ -41,4 +41,17 @@ The ICE and TURN protocols also use the Digest challenge as described in the IET
   
 Client certificates provide an alternate way for users to be authenticated by Skype for Business Server 2015. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. (This certificate must have a subject name or subject alternative name that identifies the user and must be issued by a Root CA that is trusted by servers running Skype for Business Server 2015, be within the certificate's validity period, and not have been revoked.) To be authenticated, users only need to type in a personal identification number (PIN). Certificates are particularly useful for telephones, mobile phones, and other devices where it is difficult to enter a user name and password.
   
+### Cryptographic requirements due to ASP .NET 4.5 
 
+As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 and this may cause Skype Meetings App to fail to start. If a client is using AES as the machine key validation value you will need to reset the machine key value to SHA-1 or another supported algorithm on the Skype Meetings App site level on IIS. If necessary, see [IIS 8.0 ASP.NET Configuration Management](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) for instructions.
+  
+Other supported values are:
+  
+- HMACSHA256
+    
+- HMACSHA384
+    
+- HMACSHA512
+    
+ The values AES, 3DES, and MD5 are no longer allowed, as they once were in ASP.NET 4. [Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) has more details.
+  

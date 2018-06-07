@@ -148,8 +148,7 @@ To create this alert pair:
 - The query for the error alert is:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
     The query uses the computer filter  *where Computer contains "MediationServer"*  . The filter selects only the computer whose name contains the string "MediationServer".
@@ -161,8 +160,7 @@ To create this alert pair:
 - The query for the reset alert is:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     The reset query does exactly the opposite thing of the error query. For each computer, it will return one if the last event is the service start event; it will return nothing if the last event is the service stop event.
@@ -174,9 +172,7 @@ To create this alert:
 - The query for the error alert is:
     
   ```
-  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName 
-== "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
+  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
     For each computer, the query will get the last counters for inbound call and outbound call and sum those two values. It will return one log if the sum value exceeds 500; it will return nothing if it doesn't. In short, the query would return a list of servers whose concurrent calls are too many in the time window.
@@ -184,10 +180,7 @@ To create this alert:
 - The query for the reset alert is:
     
   ```
-  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==
- "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
-
+  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     The reset query does exactly the opposite thing of the error query. For each computer, the query will get the last counters for inbound call and outbound call and sum those two values. It will return one log if the sum value is less than 500; it will return nothing otherwise.
@@ -197,8 +190,7 @@ To create this alert:
 To create this alert, the query is:
   
 ```
-search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==
- "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
+search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
 The query will get all processor usage counter and service stop event from all computers and return one log if either processor usage exceeds 90% or service is ever stopped. 

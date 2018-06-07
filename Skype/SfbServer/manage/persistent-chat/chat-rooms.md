@@ -126,7 +126,6 @@ To enable a chat room, set the Disabled parameter to False:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## Get information about rooms
