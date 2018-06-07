@@ -55,9 +55,6 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
