@@ -23,7 +23,6 @@ description: "Security guide for Skype for Business Online <add description>"
 
 # Security in Skype for Business Online
 
-## Skype for Business Online and Security
 Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
 
 
