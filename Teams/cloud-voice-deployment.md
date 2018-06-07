@@ -3,7 +3,7 @@ title: Cloud voice deployment
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 05/16/2018
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
