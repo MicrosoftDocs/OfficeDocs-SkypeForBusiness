@@ -30,7 +30,7 @@ When some of your users are ready to use only Teams for their day-to-day communi
 
 If it’s not feasible for your whole organization to move to Teams, you can start by piloting Teams alongside Skype for Business in **Islands** coexistence mode. When the additional coexistence modes, such as **Skype for Business with Teams collaboration** and **Skype for Business with Teams collaboration and meetings**, are available, you can also start by fully adopting Teams as a group collaboration solution first while keeping Skype for Business as your organization’s unified communications solution. Another option is to start moving meetings to Teams in addition to introducing Teams group collaboration capabilities, while keeping the rest of the unified communications capabilities in Skype for Business.
 
-![A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of Skype for Business with Teams collaboration&ndash;only mode, Skype for Business with Teams collaboration and meetings mode, Islands mode, Teams-only mode and Skype for Business&ndash;only mode.](media/upgrade_and_coexistence_building_block.png)
+![A screenshot of upgrade building blocks from Skype for Business to Teams, consisting of Skype for Business with Teams collaboration&ndash;only mode, Skype for Business with Teams collaboration and meetings mode, Islands mode, Teams-only mode and Skype for Business&ndash;only mode.](media/upgrade_journeys_building_block.png)
 
 The following table compares coexistence and upgrade modes.
 
@@ -57,16 +57,16 @@ You can take multiple approaches to upgrading from Skype for Business, either on
 ### Direct upgrade journey
 The direct upgrade journey is illustrated in the following diagram.
 
-![A screenshot of the direct upgrade journey. All users initially use Teams in Islands mode, then transition to Teams-only mode, with the end state of the entire organization upgraded to Teams.](media/upgrade_and_coexistence_direct_upgrade_journey.png)
+![A screenshot of the direct upgrade journey. All users initially use Teams in Islands mode, then transition to Teams-only mode, with the end state of the entire organization upgraded to Teams.](media/upgrade_journey_direct_upgrade.png)
 
 Teams is deployed to all users in the organization and configured in **Islands** mode. When your organization determines that Teams is ready to fulfill all of your communications and collaboration needs, all users are upgraded to **Teams only** mode. At that point, Skype for Business can be retired from the environment.
 
 ### Gradual upgrade journey
 An example of a gradual upgrade journey is illustrated in the following diagram.
 
-![In the gradual upgrade journey, cohorts of users initially use Teams in a variety of upgrade modes, side by side with Skype for Business. Some cohorts transition to Teams-only mode, while one group of users stays with Skype for Business with Teams collaboration and meetings mode.](media/upgrade_and_coexistence_gradual_upgrade_journey.png)
+![In the gradual upgrade journey, cohorts of users initially use Teams in Islands mode for evaluation and then in a variety of upgrade modes for early adoption, side by side with Skype for Business. Some cohorts transition to Teams-only mode, while one group of users stays with Skype for Business with Teams collaboration and meetings mode.](media/upgrade_journey_gradual_upgrade.png)
 
-Teams is deployed in the organization by using different coexistence and upgrade modes for different groups of users. For example, a group of users can be enabled for **Islands** mode, another enabled for **Skype for Business with Teams collaboration and meetings** mode, while a third group of users might initially be enabled for **Skype for Business with Teams collaboration only** mode.
+Teams is deployed in the organization in **Islands** mode for evalution and then move to different coexistence and upgrade modes for different groups of users. For example, a group of users can be enabled for **Islands** mode, another enabled for **Skype for Business with Teams collaboration and meetings** mode, while a third group of users might initially be enabled for **Skype for Business with Teams collaboration only** mode.
 
 Over time, groups of users can be upgraded to **Teams only** mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only. <br><br>
 <table>
