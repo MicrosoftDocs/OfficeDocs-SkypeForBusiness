@@ -23,8 +23,7 @@ description: "Security guide for Skype for Business Online <add description>"
 
 #  Security and Skype for Business Online
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
-
+Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the [Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-security).
 
 ## Trustworthy by Design
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -284,6 +283,5 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **Everyone including people outside my company**&nbsp;&nbsp; Everyone (there are no restrictions) who joins the meeting can present.
 - **People I choose**&nbsp;&nbsp;The meeting organizer specifies which users can present by adding them to a list of presenters.
 
-
 ## Learn more
-Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security)
+[Office 365 Trust Center](https://products.office.com/en-us/business/office-365-trust-center-security)
