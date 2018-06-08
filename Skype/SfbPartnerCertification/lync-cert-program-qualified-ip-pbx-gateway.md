@@ -320,7 +320,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td>MX-One</td>
 			<td>4.1 SP3</td>
 			<td>IP-PBX</td>
-			<td><img alt="Qualified with SRTP and TLS" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified with SRTP and TLS" width="20" />+S </td>
+			<td align ="center" valign="middle">&#x2714;+S </td>
 		</tr>
 		<tr>
 			<td colspan="4" style="display:none;"> </td>
