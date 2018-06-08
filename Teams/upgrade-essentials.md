@@ -9,9 +9,6 @@ ms.service: msteams
 ms.reviewer: lsomi
 description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams
 MS.collection: Strat_MT_TeamsAdmin
-robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
-redirect_document_id: TRUE
 appliesto: 
 - Microsoft Teams
 ---
