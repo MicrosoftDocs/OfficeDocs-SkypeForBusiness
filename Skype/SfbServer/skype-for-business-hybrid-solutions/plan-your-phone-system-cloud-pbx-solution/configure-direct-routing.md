@@ -97,7 +97,7 @@ There are additional options that can be set during the pairing. In the previous
  
 The following table lists the additional parameters that you can use in setting parameters for *New-CsOnlinePstnGateway*. 
 
-|**Required?**|**Name**|**Description**|**Default**|**Possible values**|**Type and restrictions**|
+|Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String,  list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/en-us/help/909264)|
 |No|MediaBypass |The parameter reserved for future use. Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
@@ -202,7 +202,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
@@ -329,7 +329,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 To create the Other +1 route, enter:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -370,7 +370,7 @@ Name		 	: Redmond 2
 Identity		: Other +1 
 Priority       		: 4
 Description	 	: 
-NumberPattern 		: ^\+1(425|206) (\d{7})$
+NumberPattern 		: ^\\+1(\d{10})$
 OnlinePstnUsages 	: {US and Canada}	 
 OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
 Name		 	: Other +1
@@ -408,9 +408,9 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Which returns:
 <pre>
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
 </pre>
 
 #### Creating a Voice Routing Policy with several PSTN Usages
