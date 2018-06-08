@@ -31,6 +31,9 @@ Sometimes people in your organization will need to use a phone to call in to a m
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
 For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](audio-conferencing-common-questions.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Step 1: Find out if Audio Conferencing is available in your country/region
 <a name="__top"> </a>
