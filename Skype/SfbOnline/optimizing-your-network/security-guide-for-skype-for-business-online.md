@@ -21,9 +21,7 @@ ms.custom:
 description: "Security guide for Skype for Business Online <add description>"
 ---
 
-# Security in Skype for Business Online
-
-## Skype for Business Online and Security
+# Skype for Business Online and Security
 Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices.  For full details, please see the Office 365 Trust Center (https://products.office.com/en-us/business/office-365-trust-center-security).
 
 
@@ -33,10 +31,8 @@ Skype for Business Online is designed and developed in compliance with the Micro
 ### Trustworthy by Default
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
-
 ### How SfBO Handles Common Security Threats
 This section identifies the more common threats to the security of the SFBO Service and how Microsoft mitigates each threat.
-
 
 ### Compromised-Key Attack
 A key is a secret code or number that is used to encrypt, decrypt, or validate secret information. There are two sensitive keys in use in public key infrastructure (PKI) that must be considered: the private key that each certificate holder has and the session key that is used after a successful identification and session key exchange by the communicating partners.  A compromised-key attack occurs when the attacker determines the private key or the session key. When the attacker is successful in determining the key, the attacker can use the key to decrypt encrypted data without the knowledge of the sender.
@@ -112,7 +108,7 @@ The following tables list the data that is required for SfBO to operate.
 |**header row 1 col 1** |**header row 1 col 2** |
 |IP Address|Actual address of computer or NATed address|
 |SIP URI|<u>david.campbell@contoso.com</u>|
-|Name|Jeremy Los (as defined in Active Directory Domain Services)|
+|Name|David Campbell (as defined in Active Directory Domain Services)|
 |||||
 
 <!-- end of table -->
@@ -124,8 +120,8 @@ These elements are as follows:
 - Public key infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.
 - Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - Industry-standard protocols for user authentication, where possible.
-- Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts.
-- 
+- Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts. <!-- delete the prior bullets? -->
+
 These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for SfBO.
 
 The topics in this section describe how each of these fundamental elements works to enhance the security of the SfBO service.
@@ -163,7 +159,6 @@ The following table summarizes the protocol used by SfBO.
 ***Table 3 - Traffic Protection***
 
 <!--start table here no header -->
-
 
 |||
 |:-----|:-----|:-----|
@@ -227,7 +222,6 @@ TCP 50,000 outbound is used for SfBO, including for application and desktop shar
 ### External User A/V Traffic Traversal
 Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
 
-
 ![Call sequence in Meeting Join](../images/sfbo-call-sequence-security.png)
 
 
@@ -265,19 +259,19 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 
 #### Participant Roles
 Meeting participants fall into three groups, each with its own privileges and restrictions:
-- **Organizer**&nbsp;&nbsp;The user who creates a meeting, whether impromptu or by scheduling. An organizer must be an authenticated enterprise user and have control over all end-user aspects of a meeting.
-- **Presenter**&nbsp;&nbsp;A user who is authorized to present information at a meeting, using whatever media is supported. A meeting organizer is by definition also a presenter and determines who else can be a presenter. An organizer can make this determination when a meeting is scheduled or while the meeting is under way.
-- **Attendee**&nbsp;&nbsp;A user who has been invited to attend a meeting but who is not authorized to act as a presenter.
+- **Organizer** &nbsp;&nbsp; The user who creates a meeting, whether impromptu or by scheduling. An organizer must be an authenticated enterprise user and have control over all end-user aspects of a meeting.
+- **Presenter** &nbsp;&nbsp; A user who is authorized to present information at a meeting, using whatever media is supported. A meeting organizer is by definition also a presenter and determines who else can be a presenter. An organizer can make this determination when a meeting is scheduled or while the meeting is under way.
+- **Attendee** &nbsp;&nbsp; A user who has been invited to attend a meeting but who is not authorized to act as a presenter.
 
 A presenter can also promote an attendee to the role of presenter during the meeting.
 
 #### Participant Types
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.	**Users that belong to the tenant**&npsp;&npsp;These users have a credential in Azure Active Directory for the tenant.
-    a.	Inside corpnet – These users are joining from inside the corporate network.
+1.	**Users that belong to the tenant** &nbsp;&nbsp; These users have a credential in Azure Active Directory for the tenant.
+    a. Inside corpnet – These users are joining from inside the corporate network.
     b.	Remote users – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.	**Users that do not belong to the tenant**&npsp;&npsp;These users do not have credentials in Azure Active Directory for the tenant.
+2.	**Users that do not belong to the tenant**&nbsp;&nbsp;These users do not have credentials in Azure Active Directory for the tenant.
     a.	Federated Users - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SFBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.
     b.	Anonymous Users - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
@@ -301,5 +295,8 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **Everyone including people outside my company**&nbsp;&nbsp; Everyone (there are no restrictions) who joins the meeting can present.
 - **People I choose**&nbsp;&nbsp;The meeting organizer specifies which users can present by adding them to a list of presenters.
 
+<!-- need some link? 
 
 ## Related topics
+
+-->

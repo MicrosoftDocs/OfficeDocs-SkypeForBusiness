@@ -2,7 +2,7 @@
 title: Operations Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -134,7 +134,7 @@ interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)
 Teams](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact)
 
 [Microsoft Teams and Skype for Business
-interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability)
+interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)
 
 <!--ENDOFSECTION-->
 
@@ -901,8 +901,6 @@ teams](https://docs.microsoft.com/MicrosoftTeams/assign-roles-permissions#permis
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow
 users to submit requests that are processed by an assigned team.
-
-<!--ENDOFSECTION-->
 
 ### Daily/weekly/monthly/as-needed tasks
 

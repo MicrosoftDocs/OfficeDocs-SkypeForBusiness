@@ -36,6 +36,9 @@ When toll-free numbers are disabled for a given organizer:
 
  - Participants can continue joining meetings of the organizer using toll numbers. 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## Disabling toll-free numbers for specific users 
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
