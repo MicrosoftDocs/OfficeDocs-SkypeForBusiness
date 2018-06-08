@@ -1,21 +1,28 @@
 ---
-title: Prepare my organization
+title: Prepare my organization for upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Needs one 
+description: Assess your organization's readiness to accept change, and prepare a plan for getting users ready to upgrade from Skype for Business to Microsoft Teams  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
+![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+
+-   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
 
 # Prepare my organization
 
