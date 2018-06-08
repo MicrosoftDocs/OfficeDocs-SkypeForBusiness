@@ -216,6 +216,7 @@ TCP 50,000 outbound is used for SfBO, including for application and desktop shar
 ### External User A/V Traffic Traversal
 Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
 
+
 ![Call sequence in Meeting Join](../../images/sfbo-call-sequence-security.png) <!-- broken -->
 
 1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>The user initiates the join procedure by clicking the meeting URL in the email which initiates a client detection process on the user’s machine.  If the client is detected, this client is launched.  If it is not detected, the user is redirected to the web client.<p/>
