@@ -21,6 +21,7 @@
 ## [Pilot Teams/run coexistence](../pilot-essentials.md)
 ## [Upgrade to Teams](../upgrade-to-teams.md)
 ### [Execute Skype for Business Online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Execute Skype for Business Online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
 ### [Execute Skype for Business on-premises to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
 ## [Drive value through user adoption](../continue-journey.md)
 ### [Operate my service](../upgrade-operate-my-service.md)
