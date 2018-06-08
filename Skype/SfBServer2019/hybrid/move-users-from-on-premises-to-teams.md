@@ -126,17 +126,17 @@ To move users to Teams by using the Skype for Business Control Panel:
 
 1. Open the Skype for Business Control Panel and sign in to your Office 365 account.
 
-![Signing in to Office 365](../media/sign-in-to-office-365.png)
-<< Is this image necessary? >>
+    ![Signing in to Office 365](../media/sign-in-to-office-365.png)
+    << Is this image necessary? >>
 
 2. Select **Users** in the left navigation, and select the users to migrate. 
 
- <<  Need clear screen shot, or don't include. >>
+     <<  Need clear screen shot, or don't include. >>
 
 3. On the **Action** menu, choose **Move selected users to Teams**. 
 
-![Clicking Next to confirm migration](../media/migration-confirmation.png)
-<< Is this image necessary? >>
+    ![Clicking Next to confirm migration](../media/migration-confirmation.png)
+    << Is this image necessary? >>
 
 4. Click **Next** to confirm your migration. 
 
