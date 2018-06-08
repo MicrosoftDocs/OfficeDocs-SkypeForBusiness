@@ -73,7 +73,7 @@ There are four general principles that help you understand call flows for Micros
 
 To learn more about the details on the media path that is chosen, see https://www.youtube.com/watch?v=aD5mUg2ZzLQ.
 
-## Call Flows in various Topologies
+## Call Flows in Various Topologies
 ### Teams Online ("pure") Topology
 This topology is used by customers that leverage Teams services from the cloud without deploying any server, such as Skype for business and SBC for Direct Routing, on premise. In addition, the interface to Office 365 is done via the Internet without Azure Express Route. 
 
@@ -130,7 +130,7 @@ In step 7, flow 4, from Customer Network to Office 365, and flow 3, from remote 
 **Customer Network to External User (direct media):**
  
 In step 7, flow 2, from Customer Network to Internet (client's peer), is selected.
->Notes: 
+>**Notes**: 
 >- Direct media with remote mobile user (i.e., not relayed through Office 365 cloud) is optional. In other words, customer may block this path and by doing so, enforce a media path through Transport Relay in Office 365 cloud.
 >- Media is bidirectional. The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective. 
 
@@ -263,28 +263,28 @@ Additional Flows (on top of Teams Online "pure" topology):
 
 *Figure 17 - Internal User Direct Routing*
  
->**Note**: SBC MUST have a public IP address that is routable from Office 365
+>**Note**: SBC MUST have a public IP address that is routable from Office 365.
 
 Signaling and Media from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
-Signaling and Media from client within Customer Network to Office 365 cloud use flow 4
+Signaling and Media from client within Customer Network to Office 365 cloud use flow 4.
 
 
 **Remote User Direct Routing (media is routed through a media server (MP) in Office 365)**
 
 *Figure 18 - Remote User Direct Routing*
  
->**Note**: SBC MUST have a public IP address that is routable from Office 365
+>**Note**: SBC MUST have a public IP address that is routable from Office 365.
 
 Signaling and Media from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
-Signaling and Media from client on the Internet to Office 365 cloud use flow 3
+Signaling and Media from client on the Internet to Office 365 cloud use flow 3.
 
 **Internal user Direct Routing (media bypass)**
 
 *Figure 19 - Internal user Direct Routing*
  
->**Note**: SBC MUST have a public IP address that is routable from Office 365
+>**Note**: SBC MUST have a public IP address that is routable from Office 365.
 
 Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
@@ -296,7 +296,7 @@ Media from client within Customer Network to SBC within Customer Network use flo
 
 *Figure 20 - Remote user Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)*
  
->**Note**: SBC MUST have a public IP address that is routable from Office 365 and Internet
+>**Note**: SBC MUST have a public IP address that is routable from Office 365 and Internet.
 
 Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.
 
@@ -366,4 +366,4 @@ For example:
 7. Teams User A and Teams User B invoke ICE connectivity tests and selects flows 1 and 3, which are relayed by Teams Transport Relay in Office 365 cloud.
 8. Teams Users send telemetry to Office 365 via flows 1 and 3
 
->**Note**: Flow 4 must be enabled to support dependencies of Teams application on other micro-services that mandates flow 4
+>**Note**: Flow 4 must be enabled to support dependencies of Teams application on other micro-services that mandates flow 4.
