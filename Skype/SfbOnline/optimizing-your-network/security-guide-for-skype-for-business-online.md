@@ -154,12 +154,13 @@ The following table summarizes the protocol used by SfBO.
 
 ***Table 3 - Traffic Protection***
 
-<!--start table here no header -->
+<!--start table here with header -->
+
 
 |||
-|:-----|:-----|:-----|
+|:-----|:-----|
 |**Traffic type**|**Protected by**|
-|Server-to-server|MTLS |
+|Server-to-server|MTLS|
 |Client-to-server|TLS|
 |Instant messaging and presence|TLS (if configured for TLS)|
 |Audio and video and desktop sharing of media|SRTP|
