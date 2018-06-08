@@ -46,7 +46,4 @@ tblPrincipalType contains principal types to categorize what is in the tblPrinci
    
 ## See also
 
-#### 
-
 [tblPrincipal](tblprincipal.md)
-

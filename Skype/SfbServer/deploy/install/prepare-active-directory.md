@@ -127,7 +127,6 @@ Watch the video steps for **Prepare Active Directory**:
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
- 
    ```
 
     > [!NOTE]
@@ -137,7 +136,6 @@ Watch the video steps for **Prepare Active Directory**:
     
    ```
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
-
    ```
 
     > [!NOTE]
@@ -171,6 +169,5 @@ Watch the video steps for **Prepare Active Directory**:
   
 
 ## See also
-
-#### 
+ 
 [Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

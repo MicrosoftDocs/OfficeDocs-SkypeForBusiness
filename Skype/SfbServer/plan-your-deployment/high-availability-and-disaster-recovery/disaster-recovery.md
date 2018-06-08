@@ -94,7 +94,4 @@ Another possible solution is to use IPSec just to help secure the data sent by t
   
 ## See also
 
-#### 
-
 [Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
-

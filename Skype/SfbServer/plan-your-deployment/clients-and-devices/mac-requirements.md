@@ -69,11 +69,8 @@ For more information, refer to: [Deploying Mobility in Lync Server 2013](https:/
 ## See also
 <a name="Infrastructure"> </a>
 
-#### 
-
 [DNS requirements for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
 
 [Frequently Asked Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [Known issues ](https://go.microsoft.com/fwlink/p/?LinkId=798228)
-

@@ -109,5 +109,4 @@ Additionally, to enable Microsoft Office Communications Server 2007 R2 and Micro
 
 ## See also
 
-#### 
 [Prepare Active Directory for Skype for Business Server 2015](../../deploy/install/prepare-active-directory.md)

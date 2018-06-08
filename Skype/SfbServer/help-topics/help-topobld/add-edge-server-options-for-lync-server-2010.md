@@ -29,9 +29,6 @@ You define a new Edge Server or Edge pool and are presented with the opportunity
     
 ## See also
 
-#### 
-
 [Planning for External User Access](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
   
 [Deploying External User Access](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
-

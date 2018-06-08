@@ -29,7 +29,4 @@ The **Define New Office Web Apps Server** wizard defines a new Office Web Apps S
   
 ## See also
 
-#### 
-
 [Components and Topologies for Conferencing](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
-

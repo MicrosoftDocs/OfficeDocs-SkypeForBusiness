@@ -323,27 +323,21 @@ The following steps describe how to create a custom proxy configuration for Edge
 1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
     
   ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
   ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" 
--UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. Verify that all other proxy authentication types have been successfully disabled by running the following command:
     
   ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com"
- | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
 ## See also
 
-#### 
-
 [Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
   
 [Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use.md)
-

@@ -27,8 +27,21 @@ description: "Find out what you should know about PINs and how to reset them. "
 A PIN is a code made up of numbers that is created for each Skype for Business and Microsoft Teams user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they are the meeting organizer and allow them to start a meeting over the phone. If they use the Skype for Business or Microsoft Teams app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
   
 Meetings can be started when an authenticated user joins using a Skype for Business or Microsoft Teams app or when the organizer joins with his or her PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Reset a user's PIN
+## Reset a user's PIN
+
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
+2. At the top of the page, click **Edit**.
+
+3. Under **Audio Conferencing**, click **Reset PIN**.
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -41,9 +54,16 @@ Meetings can be started when an authenticated user joins using a Skype for Busin
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Have a user reset his or her own PIN
+## Have a user reset his or her own PIN
 
-A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Conferencing** page. Thsi page can be accessed in one of three ways:
+![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
+1. Have the user go to [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Click **Reset PIN**. 
+
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
+
+A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Conferencing** page. This page can be accessed in one of three ways:
 
 * In a browser, go to [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * In Skype for Business, click the **Show Menu** arrow next to **Options**, and then click **Tools** > **Dial-in Conference Settings**.

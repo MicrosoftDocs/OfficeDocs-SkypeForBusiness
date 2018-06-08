@@ -31,14 +31,12 @@ To deploy Skype Room Systems v2 with Exchange Online, follow the steps below. Be
 
 1. Start a remote Windows PowerShell session on a PC and connect to Exchange Online as follows:
     
-  ```
-  Set-ExecutionPolicy Unrestricted
+```
+Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/ps1-liveid/ -Credential $cred -Authentication Basic 
--AllowRedirection
-
-  ```
+$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+```
 
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Skype Room Systems v2.
     
@@ -103,12 +101,11 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 1. Create a remote Windows PowerShell session from a PC as follows:
     
-  ```
-  Import-Module LyncOnlineConnector  
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-
-  ```
+    ```
+    Import-Module LyncOnlineConnector  
+    $cssess=New-CsOnlineSession -Credential $cred  
+    Import-PSSession $cssess -AllowClobber
+    ```
 
 2. To enable your Skype Room Systems v2 account for Skype for Business Server 2015, run this command:
     

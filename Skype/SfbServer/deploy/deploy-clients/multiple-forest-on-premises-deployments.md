@@ -39,7 +39,6 @@ To deploy Skype Room System in a multi-forest environment:
 ```
 $cred=Get-Credential AuthForest\LinkedRoomTest1
 Set-mailbox -Alias LinkedRoomTest1 -LinkedMasterAccount AuthForest\LinkedRoomTest1 -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -Name LinkedRoomTest1 -LinkedCredential $cred -Identity LinkedRoomTest1
-
 ```
 
 

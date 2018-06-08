@@ -43,7 +43,7 @@ Here's what you need:
 ## Set up test accounts
 <a name="__toc328126910"> </a>
 
-1. Go to **Admin** > **Office 365** > **Users and groups**, then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
+1. Go to **Admin** > **Office 365** > **Users and groups**, and then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
     
 2. When you come to Step 4 (Email), enter your own email address. You'll then have a record of the new user's name and password. 
     
@@ -71,7 +71,7 @@ After setting up your users for audio conferencing, they receive an automated em
   
  **To add audio conferencing information to the account of one of your test users**
   
-1. Click **Audio Conferencing** > **Uusers**.
+1. Click **Audio Conferencing** > **Users**.
     
 2. Click the names of the users you want to set up for dial-in conferencing, and then click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     

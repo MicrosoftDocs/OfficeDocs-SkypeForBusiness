@@ -30,7 +30,4 @@ The options in this dialog present you with these choices:
     
 ## See also
 
-#### 
-
 [Publishing Office Web Apps Server Using a Reverse Proxy Server](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
-

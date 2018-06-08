@@ -53,7 +53,6 @@ Get Item Ancestors returns a specific items ancestors from the repository.
 "item2": 1,
 "item3": "All Audio Streams"
 }]
-
 ```
 
  *Item1*  - ID of the item.

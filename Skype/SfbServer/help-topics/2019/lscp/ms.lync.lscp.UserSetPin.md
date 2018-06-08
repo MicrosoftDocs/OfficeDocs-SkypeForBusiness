@@ -24,7 +24,4 @@ For details about the different procedures that you can perform by using the Sky
   
 ## See also
 
-#### 
-
 [User PINs](http://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
-

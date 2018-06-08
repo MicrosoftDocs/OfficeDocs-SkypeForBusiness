@@ -89,7 +89,6 @@ You can assign per-user PIN policies by using Windows PowerShell and the **Grant
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
-
   ```
 
 ### To unassign a per-user PIN policy
@@ -104,7 +103,4 @@ For details, see [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/modul
   
 ## See also
 
-#### 
-
 [Create a new PIN policy in Skype for Business Server 2015](create-a-new-pin-policy.md)
-

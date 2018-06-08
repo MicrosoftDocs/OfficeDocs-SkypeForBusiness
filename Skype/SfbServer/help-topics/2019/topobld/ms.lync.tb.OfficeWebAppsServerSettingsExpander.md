@@ -28,7 +28,4 @@ Select the check box **Office Web Apps Server is deployed in an external network
   
 ## See also
 
-#### 
-
 [Components and Topologies for Conferencing](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
-
