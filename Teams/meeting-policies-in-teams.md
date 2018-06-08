@@ -19,7 +19,7 @@ description: Learn to manage meeting policy settings in Teams.
 Meeting policies are used to control the features that are available to meeting participants for meeting that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign uses to the policy. 
 
 ## Here are the settings you can change to fit your needs
-<a name="bkparticipantsandguests"> </a>
+<a name="bkgeneral"> </a>
 
 - **General**
     - **Name** This is the name of the policy that will appear on the Meeting policies page. It can't contain special chararcters or be long than 64 characters.
