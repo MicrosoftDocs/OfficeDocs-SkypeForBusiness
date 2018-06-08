@@ -1,19 +1,21 @@
 ---
-title: Evaluate your environment
+title: Evaluate your environment - Microsoft Teams
 author: turgayo
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: turgayo
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
+ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for using cloud voice services.
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Technical Readiness](media/upgrade-banner-tech-readiness.png "Technical Readiness")
+![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. 
 
@@ -23,27 +25,17 @@ This article gives an overview of the requirements for properly evaluating your 
 
 ## Introduction to evaluating your environment 
 
-To achieve your objective key results (OKRs), you previously made key service
-decisions. The next step is to perform environmental discovery to evaluate all
-aspects relating to your IT and telephony infrastructure, networking, and
-operations to confirm that your organization is ready to implement the solution.
+To achieve your objective key results (OKRs), you previously made key service decisions. The next step is to perform environmental discovery to evaluate all aspects relating to your IT and telephony infrastructure, networking, and operations to confirm that your organization is ready to implement the solution.
 
-Environmental discovery must include network readiness assessment to ensure your
-network can support the implementation of the Audio Conferencing or Phone System
-with Calling Plan services.
+Environmental discovery must include network readiness assessment to ensure your network can support the implementation of the Audio Conferencing or Phone System with Calling Plan services.
 
-You identify technical risks as part of an environmental assessment and adoption
-readiness evaluation, and develop a mitigation plan for each identified risk.
-You should incorporate this information in the risk register.
+You identify technical risks as part of an environmental assessment and adoption readiness evaluation, and develop a mitigation plan for each identified risk. You should incorporate this information in the risk register.
 
 <!--ENDOFSECTION-->
 
 ## Current environment
 
-As part of your environmental discovery, include all matters related to end-user
-computing, such as a readiness assessment of PCs and mobile devices to support
-Audio Conferencing and Phone System with Calling Plan business use cases, from
-hardware requirements to software requirements.
+As part of your environmental discovery, include all matters related to end-user computing, such as a readiness assessment of PCs and mobile devices to support Audio Conferencing and Phone System with Calling Plan business use cases, from hardware requirements to software requirements.
 
 You can use the [Environmental discovery for Microsoft Teams rollout](upgrade-prepare-environment-discover-environment.md) to perform environmental discovery.
 

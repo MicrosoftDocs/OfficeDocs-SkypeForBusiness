@@ -1,15 +1,17 @@
 ---
 title: Upgrade Essentials checklist - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
+ms.author: dearbeen
 manager: serdars
-ms.date: 05/11/2018
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lsomi
-description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams
+ms.reviewer: dearbeen
+description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams 
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 

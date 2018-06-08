@@ -1,15 +1,18 @@
 ---
 title: Skype for Business to Microsoft Teams upgrade
-ms.author: dearben
-author: lolaj
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-layout: LandingPage
-ms.date: 5/10/2018
-ms.audience: ITPro
-ms.topic: landing-page
-ms.prod: skype-for-business-itpro
-localization_priority: Normal
-description: Skype for Business to Teams upgrade
+ms.date: 06/30/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: dearbeen
+description: Skype for Business to Teams upgrade NEEDS BETTER DESCRIPTION
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
 ---
 
 # Skype for Business to Microsoft Teams upgrade

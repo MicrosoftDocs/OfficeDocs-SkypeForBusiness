@@ -1,13 +1,15 @@
 ---
-title: Upgrade Pro for Microsoft Teams
+title: Upgrade Pro for Microsoft Teams - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance if you're in a large org or you have heavily customized your Skype for Business deployment. 
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
