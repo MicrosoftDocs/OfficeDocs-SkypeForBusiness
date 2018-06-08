@@ -17,7 +17,7 @@ appliesto:
 
 ![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
-This article is part of the Operational Excellence stage of your upgrade journey, and begins as soon as you've completed your upgrade from Skype for Business to Teams.
+This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
 # Quality of Experience Review Guide
 
