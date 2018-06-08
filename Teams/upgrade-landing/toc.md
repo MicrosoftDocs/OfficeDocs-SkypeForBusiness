@@ -6,7 +6,7 @@
 ### [Enlist your project stakeholders](../upgrade-enlist-stakeholders.md)
 ### [Define your project scope](../upgrade-define-project-scope.md)
 ### [Understand coexistence and interoperability](../upgrade-understand-coexistence-and-interoperability.md)
-## [Plan for quality BELONGS HERE?](../upgrade-plan-for-quality.md)
+## [Plan for quality TOP NODE?](../upgrade-plan-for-quality.md)
 ## [Prepare my environment for Teams](../upgrade-prepare-environment.md)
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate my environment](../upgrade-plan-journey-evaluate-environment.md)
@@ -17,7 +17,7 @@
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare my IT pros for Teams]
-## [Plan your upgrade journey NEED BETTER NAME](../upgrade-plan-upgrade-journey.md)
+## [Plan your upgrade journey NAME?](../upgrade-plan-upgrade-journey.md)
 ## [Pilot Teams/run coexistence](../pilot-essentials.md)
 ## [Upgrade to Teams](../upgrade-to-teams.md)
 ### [Execute Skype for Business online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
