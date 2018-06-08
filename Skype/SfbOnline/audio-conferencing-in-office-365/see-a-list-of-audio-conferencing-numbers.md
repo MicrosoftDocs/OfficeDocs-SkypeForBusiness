@@ -37,7 +37,10 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
   
 > [!NOTE]
 > Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## To view your audio conferencing phone numbers
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
@@ -46,9 +49,6 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 2.  View the phone numbers that are available for audio conferencing.
 
 - You can also view the location and primary language that will be used by the audio conferencing auto attendant.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 

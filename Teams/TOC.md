@@ -73,6 +73,7 @@
 ## [Dialing out from a meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
@@ -100,6 +101,7 @@
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 ### [Plan my service management](4-envision-plan-my-service-management.md)
 ### [Plan my users experience](5-envision-plan-my-users-experience.md)

@@ -16,7 +16,7 @@ description: "The UriTypes Table contains the different URI (Uniform resource id
  
 The UriTypes Table contains the different URI (Uniform resource identifier) types monitored in Skype for Business Server 2015.
 
-When the CDR DB is created, two records to represent PhoneUri and UserUri are created, and others 
+When the CDR DB is created, two records to represent PhoneUri and UserUri are created, and records created after that are dynamically assigned UriTypeId. 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
