@@ -20,7 +20,7 @@ description: "Summary: Information for organizations who don't use Office 365 an
  
 **Summary:**  Information for organizations who don't use Office 365 and need to access meetings hosted by organizations that do. This article is not intended for the users of these apps.
   
-To allow users to use Skype Meetings App to  attend meetings hosted in Skype for Business Online, network administrators of organizations who don't use <token>nm-office-365-short</token> should whitelist or otherwise make available the FQDNs, IPs, and ports mentioned below.
+To allow users to use Skype Meetings App to  attend meetings hosted in Skype for Business Online, network administrators of organizations who don't use Office 365 should whitelist or otherwise make available the FQDNs, IPs, and ports mentioned below.
 
 ## Requirements for Skype Meetings App connectivity
 
