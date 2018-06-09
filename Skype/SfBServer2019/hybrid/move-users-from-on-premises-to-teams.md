@@ -74,22 +74,25 @@ By default, the value of DownloadTeams is True, but you must also set NotifySfbU
 ### Make sure your users have a valid license  
 Before migration, the on-premises user must be given a valid license, as follows:
 
-•	User must have a Teams license.
-•	If the user is configured to use on-premises Enterprise Voice, they must have an online voice license when moving. 
-•	If the user is configured for on-premises dial-in conferencing, they must have a license for Phone System (Cloud PBX).
+- 	User must have a Teams license.
+-	If the user is configured to use on-premises Enterprise Voice, they must have an online voice license when moving. 
+-	If the user is configured for on-premises dial-in conferencing, they must have a license for Phone System (Cloud PBX).
 
 ### Voice configuration requirements
-If your on-premises users have on-premises voice, you must plan and configure Microsoft Phone System Direct Routing, which lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System. With this capability, you can configure on-premises PSTN connectivity with the Microsoft Teams client. For more information, see [Plan Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md) and [Configure Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md).
 
 If your on-premises users have on-premises voice, you have two options:
-- Migrate users, keeping the ability to make and receive calls using the Teams client.
-- Migrate users without telephony capabilities. 
 
-    If you migrate without preserving the telephony capabilities, make sure users have appropriate licenses in the cloud. 
+-  Migrate users, keeping the ability to make and receive calls using the Teams client.
 
-User who are migrated with telephony functionality can choose either Microsoft Calling Plan or Direct Routing to connect the telephony services to Teams. 
+  User who are migrated with telephony functionality can choose either Microsoft Calling Plan or Direct Routing to connect the telephony services to Teams.  
 
- You must plan and configure Microsoft Phone System Direct Routing, which lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System. With this capability, you can configure on-premises PSTN connectivity with the Microsoft Teams client. For more information, see [Plan Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md) and [Configure Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md).
+    -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see <insert link here>. 
+    
+    -  Direct Routing lets you use virtually any PSTN trunk,  and you can configure interoperability between customer-owned telephony equipment and Microsfot Phone System.  For more information, see [Plan Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md) and [Configure Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md).
+
+-  Migrate users without telephony capabilities. 
+
+   If you migrate without preserving the telephony capabilities, make sure users have appropriate licenses in the cloud. 
 
 ### Assign a Teams Upgrade policy  
 You can use online tools to manage user policies, such as to control routing of incoming messages and calls. For more information, see << NEED LINK >>.
