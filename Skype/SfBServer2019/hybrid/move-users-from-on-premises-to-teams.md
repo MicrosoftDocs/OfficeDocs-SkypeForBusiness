@@ -84,7 +84,7 @@ If your on-premises users have on-premises voice, you have two options:
 
 -  **Migrate users with telephony capabilities.** Users can make and receive calls using the Teams client.  You can choose either Microsoft Calling Plan or Direct Routing to connect the telephony services to Teams.  
 
-    -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see <insert link here>. 
+    -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see INSERT LINK HERE. 
     
     -  Direct Routing lets you use virtually any PSTN trunk,  and you can configure interoperability between customer-owned telephony equipment and Microsoft Phone System.  For more information, see [Plan Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md) and [Configure Direct Routing](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md).
 
