@@ -110,7 +110,7 @@ Select features include:
 ###### Streamline workflow and increase productivity with instant information about who is where.
   [Trio Enterprise Attendant](http://www.trio.com)
 
-Developed upon a Scandinavian model, ***Trio Enterprise Attendant Console*** brings you a high-end switchboard solution which integrates fully with the voice telephony and collaboration capabilities of Lync. When using the attendant console you can for example camp on busy Lync users or transfer calls to mobile phones. You will also get returning calls if the destination doesn't answer so that you may transfer to someone else in the same department.
+Developed on a Scandinavian model, ***Trio Enterprise Attendant Console*** brings you a high-end switchboard solution that integrates fully with the voice telephony and collaboration capabilities of Lync. When using the attendant console, you can, for example, camp on busy Lync users or transfer calls to mobile phones. You will also get returning calls if the destination doesn't answer so that you may transfer to someone else in the same department.
 Additional Functions:
 - Rich presence support to review employees current presence status
 - Return calls to same attendant or attendant group.
@@ -127,11 +127,11 @@ Additional Functions:
 -----------------
 ## UCS Attendant Console
 
-UCS Attendant Console offers all features a receptionist needs to offer professional call handling and managing the availability of organizations in a user friendly easy to use application.
+###### UCS Attendant Console offers all receptionist features: professional call handling and managing the availability of organizations in a user friendly easy-to-use application.
 
 [UCS Attendant Console](http://www.unexus.nl)
 
-***UCS Attendant Console*** is a user friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. It provides in a comprehensive way features for call queueing, personal parking, fallback-, internal- and external queues and the ability to contact employees via different media, such as IM, email, SMS, phone or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. <!-- what does this mean? Who is "they?" -->They are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
+***UCS Attendant Console*** is a user-friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. The app provides comprehensive features for call queueing, personal parking, fallback-, internal- and external queues, and the ability to contact employees via different media, such as IM, email, SMS, phone, or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. <!-- what does this mean? Who is "they?" -->They are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
 
 ---------------------------
 
@@ -143,12 +143,13 @@ UCS Attendant Console offers all features a receptionist needs to offer professi
 
  
 ***Vision 80/20*** is a presence and availability management system with features that provides an advanced Attendant console that complements and optimizes the Lync platform. The functionality corresponds to demands for high availability and a user-friendly interface in order to provide the best possible customer service.
-All the demands made on attendants for the latest information are met by the powerful search engine which presents the information in a clear way. The information is kept updated by integrations to i.e. AD, Exchange Calendar, Lync-presence, Social Media and geo-position.
+
+All the demands made on attendants for the latest information are met by the powerful search engine that presents the information in a clear way. The information is kept updated by integrations to IE, AD, Exchange Calendar, Lync-presence, social media and geo-position.
 
 Benefits:
 - Advanced attendant functionality supporting large organizations
 - Expanded queue functionality
-- Intelligent handling of Line state and mobile phone line state
+- Intelligent handling of line state and mobile phone line state
 - Reason for absence and time of return in Lync client
 - Clear information to callers with Spoken Presence, including reason for absence and expected time of return
 - Statistics on calls and attendant queues
@@ -161,7 +162,7 @@ Benefits:
 
 [Zylinc Attendant Console](http://www.zylinc.com)
 
-***Zylinc Attendant Console for Lync*** is a business solution unifying all customer interactions regardless of media used. Specifically designed to facilitate receptionist customer service by monitoring transferred calls to the destination, accurately and speedily.
+***Zylinc Attendant Console for Lync*** is a business solution unifying all customer interactions regardless of media used. Specifically designed to facilitate receptionist customer service, Zylinc monitors transferred calls to the destination accurately and speedily.
 - Mobile and desktop client, with online queue and receptionist overview
 - Advanced call queuing with callback and IVR
 - Calendar integration, absence feature and unified presence
