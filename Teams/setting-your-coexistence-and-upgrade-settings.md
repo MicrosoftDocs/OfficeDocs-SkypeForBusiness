@@ -56,5 +56,7 @@ Settings assigned at a user level take precedence over settings applied at the o
 
 ### Related topics
 [Plan the journey](upgrade-plan-journey.md)
+
 [Understand coexistence and upgrade journey for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
