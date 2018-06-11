@@ -41,7 +41,7 @@ Available now in 8 languages, that is, English, Dutch, French, German, Spanish, 
 ## Competella Multimedia Attendant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>For Lync: 2010 2013 </small>
 
 ##### Benefit with new multimedia and unified communications possibilities.
-[Competella](competella.com)
+[Competella](www.competella.com)
 
 The ***Competella Multimedia Attendant for Lync*** is an advanced switchboard attendant system integrating call control with an advanced directory search tool, access to presence, calendar, e-mail, SMS and Instant messaging (IM). The system adds attendant functionality to Lync beyond the level found in legacy PBX's. The queue handler supports multiple queues with an advanced ACD function, scheduling and voice announcements. Traffic Analysis Reports and Call Recording of attendant calls are standard functions.
 Competella Multimedia Attendant is Lync-native, it is built directly on the Lync platform. It is easy to install, no separate application platform is needed. In a mixed environment where Lync is connected to a PBX, Competella Multimedia Attendant can support both.
@@ -58,7 +58,7 @@ Optional functions:
 __________________________
 ## Mitel
 
-[Mitel InAttend](need link)
+[Mitel InAttend](www.mitel.com)
 
 ***Mitel InAttend*** is a multi-featured attendant solution. InAttend is built on open standards and offers advanced collaboration features. The InAttend console provides all necessary information for efficient call handling supporting Enterprise Voice. It offers powerful search options, calendar integration, Lync presence and line state information and many other features.
 
@@ -78,7 +78,7 @@ InAttend provides:
 ## PeterConnects Enterprise Attendant Console from JDM Software
 
 ###### Facilitate easy and fast call handling.
-peterconnects.com
+[PeterConnects Enterprise Attendant Console](www.peterconnects.com)
 
 ***PeterConnects Attendant Console*** is a powerful operator console allowing fast and easy call handling of large numbers of telephone calls. Calls can be easily answered and transferred to employees using keyboard, mouse or touchscreen. Most operations can be done by single keystroke. 
 
@@ -89,7 +89,7 @@ Numerous interfaces are supported, <!-- missing text? -->combine sources, create
 For Lync:
 2013
 
-[Samroxx Attendant Console](samroxx.com)
+[Samroxx Attendant Console](www.samroxx.com)
 video demo
 
 ***Samroxx Attendant Console & Soft Phone*** is designed to give you the full power of an attendant console providing a native SIP connection to MS Lync. A user-installable and user-maintainable solution, it takes just 5 minutes to download, install and configure.
@@ -108,7 +108,7 @@ Select features include:
 ## Trio Enterprise Attendant
 
 ###### Streamline workflow and increase productivity with instant information about who is where.
-  [Trio Enterprise Attendant](trio.com)
+  [Trio Enterprise Attendant](www.trio.com)
 
 Developed upon a Scandinavian model, ***Trio Enterprise Attendant Console*** brings you a high-end switchboard solution which integrates fully with the voice telephony and collaboration capabilities of Lync. When using the attendant console you can for example camp on busy Lync users or transfer calls to mobile phones. You will also get returning calls if the destination doesn't answer so that you may transfer to someone else in the same department.
 Additional Functions:
@@ -129,7 +129,7 @@ Additional Functions:
 
 UCS Attendant Console offers all features a receptionist needs to offer professional call handling and managing the availability of organizations in a user friendly easy to use application.
 
-[UCS Attendant Console](unexus.nl)
+[UCS Attendant Console](www.unexus.nl)
 
 ***UCS Attendant Console*** is a user friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. It provides in a comprehensive way features for call queueing, personal parking, fallback-, internal- and external queues and the ability to contact employees via different media, such as IM, email, SMS, phone or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. <!-- what does this mean? Who is "they?" -->They are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
 
@@ -139,7 +139,7 @@ UCS Attendant Console offers all features a receptionist needs to offer professi
 
 ###### Reduce call handling time
 
-[Visionutveckling Vision 80/20](visionutveckling.se)
+[Visionutveckling Vision 80/20](www.visionutveckling.se)
 
  
 ***Vision 80/20*** is a presence and availability management system with features that provides an advanced Attendant console that complements and optimizes the Lync platform. The functionality corresponds to demands for high availability and a user-friendly interface in order to provide the best possible customer service.
@@ -159,7 +159,7 @@ Benefits:
 ## Zylinc Attendant Console
 ###### Handle an entire company's calls quickly and efficiently.
 
-[Zylinc Attendant Console](zylinc.com)
+[Zylinc Attendant Console](www.zylinc.com)
 
 ***Zylinc Attendant Console for Lync*** is a business solution unifying all customer interactions regardless of media used. Specifically designed to facilitate receptionist customer service by monitoring transferred calls to the destination, accurately and speedily.
 - Mobile and desktop client, with online queue and receptionist overview
