@@ -30,6 +30,9 @@ As the meeting organizer, you can dial out using a Skype for Business or Microso
     
 - You as the meeting organizer have been enabled for audio conferencing.
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
  **Step 1:** In the invite meeting, use the **Invite More People** option to dial out to a phone number.
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)

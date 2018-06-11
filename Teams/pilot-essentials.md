@@ -1,15 +1,17 @@
 ---
-title: Pilot Microsoft Teams alongside Skype for Business
+title: Pilot Microsoft Teams alongside Skype for Business - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
+ms.reviewer: dearbeen
+description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business  
 localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 

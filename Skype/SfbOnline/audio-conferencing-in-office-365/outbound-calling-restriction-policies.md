@@ -32,6 +32,8 @@ Outbound call controls can be applied on a per-user basis and provide the follow
    > [!NOTE]
    > A call is determined to be domestic if the called phone number is in the same country as the country that has been set in Office 365 for the organizer of the meeting (in the case of audio conferencing) or the end user (in the case of end user PSTN calls). 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## Restrict audio conferencing outbound calls 
 

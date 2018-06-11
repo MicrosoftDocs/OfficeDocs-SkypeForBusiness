@@ -34,6 +34,9 @@ Sometimes Skype for Business or Microsoft Teams users may need you to send them 
 Here is an example of the email that is sent:
   
 ![Dial-in conferencing email](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Send an email with audio conferencing information to a user
 
@@ -42,10 +45,6 @@ Here is an example of the email that is sent:
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. At the top of the page, click **Edit**.
-
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 

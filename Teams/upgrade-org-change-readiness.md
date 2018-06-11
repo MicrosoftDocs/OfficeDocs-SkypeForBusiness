@@ -1,26 +1,33 @@
 ---
-title: Assess organizational change readiness
+title: Assess organizational change readiness before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Needs one 
+description: Ensure your organization and users are ready for Microsoft Teams  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
+![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.
+
+<!-- Do we really want this verbiage on a second-tier page? If so, should it be on every Tech Readiness page too? 
+
+ Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
+-->
 
 # Assess organizational change readiness
 

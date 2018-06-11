@@ -2,7 +2,7 @@
 title: Plan Microsoft Teams service management
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
@@ -98,8 +98,9 @@ operational roles mapping exercise that you performed to support this project.
 |Network Operations|Run LAN, WAN, Wi-Fi, and internet access|TBA|TBA|
 |Client & Endpoints Team|Manage desktop deployments|TBA|TBA|
 |Identity Operations|Manage identity infrastructure (Active Directory, Active Directory Federation Services, Azure AD)|TBA|TBA|
-|Adoption/change management|Manage awareness, training, and adoption for the solution|TBA|TBA|
+|Adoption/Change Management|Manage awareness, training, and adoption for the solution|TBA|TBA|
 |Exchange Operations|Manage the Exchange environment|TBA|TBA|
+|Telephony Operations|Manage the SBC's and the phone numbers|TBA|TBA|
 
 To facilitate a more detailed operational roles mapping, including the tasks
 associated with each operational role, you can use the [Operational Role Mapping

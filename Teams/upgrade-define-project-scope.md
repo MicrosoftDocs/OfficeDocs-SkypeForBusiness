@@ -1,19 +1,21 @@
 ---
-title: Define the scope of your Skype for Business to Teams upgrade journey
+title: Define the scope of your Skype for Business to Teams upgrade journey - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Scope your upgrade project by refining your vision and goals. 
+description: Scope your upgrade project by refining your vision and goals.  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on Project Definition](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on Project Definition")
+![Stages of the upgrade journey, with emphasis on the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
 

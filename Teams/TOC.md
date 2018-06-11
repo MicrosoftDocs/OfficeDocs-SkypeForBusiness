@@ -62,7 +62,7 @@
 # Apps & services
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Manage the Teams Private App Store](private-app-store-teams.md)
+## [Publish the Teams Private App Store](private-app-store-teams.md)
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use T-Bot to help users with Teams](t-bot.md)
@@ -101,6 +101,7 @@
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 ### [Plan my service management](4-envision-plan-my-service-management.md)
 ### [Plan my users experience](5-envision-plan-my-users-experience.md)

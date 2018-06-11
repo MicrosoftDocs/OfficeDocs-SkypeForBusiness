@@ -1,21 +1,23 @@
 ---
-title: Execute Skype for Business Online to Teams upgrade
-author: arachman
-ms.author: MyAdvisor
-manager: lehewe
-ms.date: 05/30/2018
+title: Execute Skype for Business Online to Teams upgrade - Microsoft Teams
+author: arachmanGitHub
+ms.author: arachman
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
-description: Execute your upgrade to Teams from Skype for Business Online. 
+ms.reviewer: dearbeen
+description: Execute your upgrade to Teams from Skype for Business Online 
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on Technical Readiness](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on Technical Readiness")
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of the Deployment stage of your upgrade journey.
+This article is part of the Deployment and Implementation stage of your upgrade journey.
 
 # Execute Skype for Business Online to Teams upgrade
 

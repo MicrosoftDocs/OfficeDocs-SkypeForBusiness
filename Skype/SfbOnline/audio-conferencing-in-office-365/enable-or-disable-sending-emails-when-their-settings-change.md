@@ -48,6 +48,9 @@ Here is an example of the email that is sent to users when they are enabled for 
     
   - When the audio conferencing provider of a user is changed to Microsoft.
     
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## Enable or disable email from being sent to users
 
 You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.

@@ -1,22 +1,23 @@
 ---
-title: Operations Guide for Microsoft Teams
-author: rmw2890
-ms.author: MyAdvisor
-manager: lehewe
-ms.date: 04/12/2018
+title: Operations Guide for Microsoft Teams - Microsoft Teams
+author: turgayo
+ms.author: turgayo
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
-description: Tasks and activities required for Teams service management, including monitoring service health, assessing and ensuring network quality and usage.
+ms.reviewer: dearbeen
+description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage  
 localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on Operational Excellence](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on Operational Excellence")
+![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
-This article is part of the Operational Excellence stage of your upgrade journey, and begins as soon as you've completed your upgrade from Skype for Business to Teams.
+This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
 # Operate my service
 
