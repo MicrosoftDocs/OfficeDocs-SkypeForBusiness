@@ -54,7 +54,11 @@
           "**/*.md",
           "**/**.yml"
         ],
+<<<<<<< HEAD
         "src": "SfBServer2019",
+=======
+        "src": "SfbPartnerCertification",
+>>>>>>> master
         "dest": ".",
         "exclude": [
           "**/obj/**",
