@@ -1,5 +1,5 @@
 ---
-title: Setting your coexistence settings
+title: Setting your coexistence and upgrade settings
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -13,7 +13,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Setting your coexistence settings
+# Setting your coexistence and upgrade settings
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
