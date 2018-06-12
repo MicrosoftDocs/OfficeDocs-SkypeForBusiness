@@ -21,7 +21,7 @@ This article is part of the Operational Excellence stage of your upgrade journey
 
 # Quality of Experience Review Guide
 
-The [Quality of Experience Review Guide](https://aka.ms/qerguide) has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
+The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
 
 ![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")
 

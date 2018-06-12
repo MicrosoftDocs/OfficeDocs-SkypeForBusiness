@@ -167,10 +167,10 @@ tool, and when you should use each one, is included in the following table.
 
 | Monitoring Tool                       | Benefits                                            | When to use                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Office 365 portal                     | Available from any device with a supported browser. | Use when you don’t require real-time notifications.                                          |
+| Office 365 portal                     | Available from any device with a supported browser. | Use when you don’t need real-time notifications.                                          |
 | Office 365 Admin app                  | Provides push notifications to your mobile device.  | Use when you need to be notified of service incidents while you’re on the go.                  |
 | Microsoft System Center               | Integration with Microsoft System Center.           | Use when you need advanced monitoring capabilities and notification support.                       |
-| Office 365 Service Communications API | Programmatic access to Office 365 service health.   | Use when you require integration with a third-party monitoring tool or want to build your own solution. |
+| Office 365 Service Communications API | Programmatic access to Office 365 service health.   | Use when you need integration with a third-party monitoring tool or want to build your own solution. |
 
 > [!NOTE]
 > Only individuals who are assigned the **global admin** or **service
@@ -408,11 +408,11 @@ investigating the items below, in order, to determine where the problem is.
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends
-    do exist, use the [endpoint troubleshooting](upgrade-operate-my-service.md#endpoint-troubleshooting)
+    do exist, use the [endpoint troubleshooting](#endpoint-troubleshooting)
     section later in this article to try to solve the problem before engaging support.
 
 3.  Work with the training and adoption team to gather direct feedback from
-    users (see [Assess user sentiment](upgrade-operate-my-service.md#assess-user-sentiment) later in this article), and to check the effectiveness of
+    users (see [Assess user sentiment](#assess-user-sentiment) later in this article), and to check the effectiveness of
     awareness and adoption activities.
 
 ### Daily/weekly/monthly/as-needed tasks
@@ -528,7 +528,7 @@ online survey tool.
 Many core planning elements go into optimizing, right-sizing, and remediating
 your network infrastructure to ensure a high-quality, efficient path to the
 Microsoft Teams service. The planning tasks and requirements are covered in our
-previous [Network Readiness](upgrade-prepare-environment-prepare-network.md) guidance. Networks often evolve over
+[network readiness](upgrade-prepare-environment-prepare-network.md) guidance. Networks often evolve over
 time due to upgrades, expansion, or other business requirements. It’s important
 that you account for your requirements for Teams in your network planning
 activities.
@@ -700,8 +700,7 @@ the nature of the issue.
     issues. Follow the workaround provided (if there is one) to resolve the
     issue.
 
-4.  **Visit the Microsoft tech community:** The [Microsoft Teams tech
-    community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
+4.  **Visit the Microsoft Teams community:** The [Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
     offers dedicated spaces for Teams. The Teams community provides a discussion
     list, blog posts, and announcements centered around Teams. You can post a
     question or search previous discussions for solutions to your issue.
@@ -728,7 +727,7 @@ the nature of the issue.
 
 [Get clients for Microsoft Teams](get-clients.md)
 
-[Microsoft Teams tech community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
+[Microsoft Teams community](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
 [Known issues for Microsoft Teams](known-issues.md)
 
