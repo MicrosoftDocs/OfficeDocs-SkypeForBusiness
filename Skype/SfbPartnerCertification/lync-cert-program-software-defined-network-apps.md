@@ -23,179 +23,101 @@ ms.custom:
 description: "Applications that have been validated as using Lync 2013 APIs."
 ---
 
-# Validated Lync Applications
-The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They have not necessarily been tested by third parties.
+# Software Defined Networking Applications
+See Skype for Business SDN applications [here](https://technet.microsoft.com/en-us/mt147899). <!-- this will need to change -->
+
+Applications built on the Lync SDN API provide the ability to quickly detect quality affecting issues on the network and deliver prescriptive resolutions and traffic prioritization. Manage the Lync experience with automated root-cause analysis of network issues. Access real time, session-level metrics for network events across modalities, sessions, and IP topology layers.
+
+Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third party testing and then included here.
+
+Developers can download the [Lync SDN API](https://www.microsoft.com/en-us/download/details.aspx?id=39714) from the Microsoft Download Center. 
+
+## Aruba Networks Wi-Fi
+--------
+For Lync:
+2013
+
+###### Offer uninterrupted Lync on mobile devices.
+[Aruba networks](http://arubanetworks.com)
+
+Like a high performance vehicle, Lync benefits from smooth network pavement on which to run. The new Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation. Used together with an Aruba controller-based Wi-Fi network, the Lync SDN API opens a window into Lync calls in flight. 
+
+Call set-up data pushed over the API enables an Aruba Wi-Fi to deliver Quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time. End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems). 
+
+With the Lync SDN API and Aruba Wi-Fi, you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.
+
+### Arrow Systems Integration
+------
+###### Lync 2013
+
+##### Comprehensive view of Lync sessions, trends, and server infrastructure
+
+[Arrow Systems Integration](http://arrowsi.com)
+
+***Arrow Systems Integration*** PRISM OneView for Lync simplifies the job of the Lync administrator, providing the tools needed to maintain and improve the Lync UC environment. Leveraging the power of Microsoft’s SDN API, the user sees call sessions in real time with complete call quality metrics. Key values are easily pulled into dashboard widgets for ease of daily tracking, or graphed over time to identify performance trends. The health of all Lync servers is displayed graphically, with key performance indicators thresholded against the recommendations of Microsoft. 
+
+Common concerns such as certificate expiration, patch levels and database utilization are tracked. Service failures, performance degradation and other alert conditions may be configured to send notifications. Multi-vendor integration monitors crucial components such as session border controllers, and metrics from integrated voice switches (Avaya and others) are correlated for a unified view of call quality.
+
+## Dell Wi-Fi
+--------
+###### Lync 2013
+
+##### Offer uninterrupted Lync on mobile devices.
+
+[Dell](htp://dell.com)
+
+<!-- oh, come on. Repeating this marketing line?? "Like a high performance vehicle, Lync benefits from smooth network pavement on which to run. The Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation." -->
+Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, the SDN API opens a window into Lync calls in flight. Call set-up data pushed over the API enables Dell W-Series Wi-Fi to deliver quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time. 
+
+End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems). With the Lync SDN API and Dell W-Series Wi-Fi you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.
+
+## Extreme Network
+--------
+###### Lync 2013
+
+##### Gain in-depth visibility into application and network response times.
+[Extreme Network](http://extremenetworks.com)
+
+***Extreme Networks*** integration with Lync includes in-depth analytics into Lync environments across wired and wireless networks, including connectivity, infrastructure, and endpoint performance; and SDN integration that resolves implementation challenges arising from Lync end system QoS provisioning and static network policies.
+
+The Lync SDN API relays detailed information regarding calls and sessions to Extreme Networks OneFabric Connect, where the data is utilized to provide control over the quality of audio/video and application sharing. Administrators leverage these analytics to gain in-depth visibility into application and network response times, enable predictive analysis that speeds troubleshooting and diagnostics, enabling IT to better support Lync throughout the organization.
+
+## HP Networking Optimizer
+--------
+###### Lync 2013
+
+##### Dynamically automate policy deployment.
+
+[HP](http://HP.com)
+
+The ***HP Network Optimizer SDN Application*** automates policy deployment dynamically on a per-session basis for voice, video, and application sharing to deliver a better user experience and reduce operational costs. 
+
+When a desktop sharing, voice, or video session is initiated using a Lync client in the campus or branch office, the Lync Server in the data center provides the HP Network Optimizer SDN Application with session details via the Lync SDN API, such as source and destination IP address, protocol type, application ports, and bandwidth requirements at the start and end of every call. Network Optimizer then uses these per-session application details to dynamically provision QoS policy in a trusted manner via the HP Virtual Application Networks (VAN) SDN Controller using OpenFlow.
+
+## Meru Collaborator
+--------
+
+###### Lync 2013
+##### Enable predictable quality of service accross end to end wired and wireless networks.
+[Meru Networks](http://merunetworks.com)
+
+***Meru Collaborator*** is an SDN application that integrates with Lync to detect QoS (Quality of Service) issues on a heterogeneous wired/wireless network, deliver prescriptive resolution options and prioritize traffic across multi-vendor wired and wireless networks to deliver predictable Quality of Service and outstanding experience.
+- End to end flow control across the unified (wired & wireless) network.
+- Single pane of glass for policy deployment.
+- Diagnosis/Troubleshooting across the unified network.
 
 
-## [Active Communications - ACS for Lync](http://www.activecommunications.nl/en_nl/unified-communications)
------------------
-Shorten Lync install and implementation times. Administer Lync in single and multi-forest environments without Active Directory schema changes. Centralize call-forwarding and automate user management.
+## Nectar UC Diagnostics
+--------
+###### Lync 2010
+###### Lync 2013
 
-## [Aditi Distribution List Mirror](http://info.aditi.com/distribution-list-mirror)
------------------
-Streamline organization-wide group email communications making them more meaningful, effective, and engaging by enabling their distribution through Lync persistent chat.
+##### Gain unique real-time insight into issues that impact Lync performance.
+[Nectar Corp](http://nectarcorp.com)
 
-## [Astound Technologies GPower Point-Of-Care](http://www.astoundtech.com/)
+***Nectar's UC Diagnostics (UCD)*** module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis. 
 
------------------
-
-Share live video and data between primary care physicians, specialists and medical teams anywhere, at any time.
-
-## [BluePosition Lync Search](http://go.blueposition.com/?id=4003)
------------------
-Extend Lync toast, by displaying additional relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
-
-## [BluePosition UC Mobile Status](http://go.blueposition.com/?id=4002)
------------------
-Integrate mobile device presence with Lync. See when a mobile contact is busy on the phone. Extend the devices that can provide presence data.
-
-## [Bressner Technology FonComfort Professional](http://bressner.com/foncomfort-professional/)
-----------------
-
-Pick up other's calls, change settings for managers, BusyOnBusy options to avoid interruptions and Hotkey call handling with enhanced call handling and Manager/Admin functions for users.
-
-## [Bressner Technology FonComfort QuickLink](http://bressner.com/foncomfort-featurepacks/)
------------------
-Provide Manager/Admins and Team members with rich Presence information and 1 click calling, pickup and transferring to improve efficiency and productivity.
-
-## [Colima Cerebro](https://colima.de/en/products.html)
------------------
-Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and white lists, offline instant message, and expanded presence alerts.
-
-## [DC Stockade Ethical Wall & Content Filter](http://www.devcentrics.com/Home/DCF)
------------------
-Implement communications barriers between groups or partners. Block or mask usage of certain words.
-
-## [Derdack Enterprise Alert](http://www.derdack.com/en/solutions/alert-and-emergency-notifications-for-microsoft-lync/)
------------------
-Ensure rapid response to critical events with fully automated emergency callouts, escalation chains and application-to-person notifications, real-time delivery tracking, acknowledgements and status replies.
-
-## [Desire2Learn Online Rooms for Lync](http://www.desire2learn.com/)
------------------
-Leverage existing course context and structure for the simple creation and management of online meetings within the Desire2Learn Learning Environment.
-
-## [Enabling Technologies CRM Sync](http://enablingtechcorp.com/LyncApps/ETCCRMSync.aspx)
------------------
-Make Lync calls to a client and automatically log information including time, person called, and notes into CRM without having to open the CRM application.
-## [Enabling Technologies Iris](http://enablingtechcorp.com/LyncApps/ETCIris.aspx)
------------------
-Bring IM window immediately into focus on message receipt. Automatically reply to IMs. And dial highlighted numbers with a hot key with this suite.
-
-## [EventBuilder L+](https://www.eventbuilder.com/L-plus.asp)
------------------
-Manage, promote, and deliver events and training with Lync. Broadcast to large audiences, collect registration fees, add pass/fail grading for participants, and much more.
-
-## [Ferrari electronic Office Master Entry Control](http://www.ferrari-electronic.com/en/home.html)
------------------
-Use video door phones in combination with Lync. Identify the person at the door, interact with them, and unlock a door.
-
-## [Ferrari electronic Office Master SIP2Lync](http://www.ferrari-electronic.com/en/home.html)
------------------
-Integrate incompatible phone devices fully into Lync. They then act like any other registered phone.
-
-## [Fujitsu SAP BCM Presence integration](http://www.fujitsu.com/fi/english/)
------------------
-Synchronize presence information from Lync to SAP BCM Contact Center. Give customer service and switchboard agents better employee presence information for greater efficiency and reachability.
-
-## [Groupo Unika Coolab](http://www.grupounika.com.mx/coolab)
------------------
-Automate business processes with a plug-in interface for workflow controls, documents review, workflow rendering; all of that with the same experience as sending instant messages.
-
-## [HotelMagix Lync Edition](http://www.ipmagix.com/products-detais.php?id=376)
------------------
-Offer guest access to hotel services and information anytime, anywhere, wakeup call, DND, valet, and other requests with one click from an IP phone or mobile.
-
-## [Insource Technology Virtual Receptionist](http://www.insource.com/solutions/unified-communications/insource-virtual-assistant)
------------------
-Allow visitors to serve themselves with a touch-screen in a lobby or entrance. Selecting the appropriate option places a call to the desired person.
-
-## [Kuando Busylight](http://www.busylight.com/busylight-lync.html)
------------------
-Increase productivity with a powerful LED light that shows Lync presence status in the office. Choose from 8 different ringtones for incoming calls.
-
-## [Landis Computer Attendant Pro for Lync](http://landiscomputer.com/pages/attendantpro.aspx)
------------------
-Handle Lync calls with a single click.
-
-## [MachPanel Lync Module from Machsol](http://www.machsol.com/products/lync/default.aspx)
------------------
-Streamline cloud hosting of Lync along with Exchange, Sharepoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
-
-## [Modality Systems Wallboard](http://www.modalitydev.net/2013/01/modality-wallboard-demo-video/)
------------------
-Bring remote locations closer by providing an on-demand "portal" window between offices. Kinect integration allows calls to be started using gestures, rather than touch.
-
-## [MultiUX Ethical Wall for Lync](http://www.multiux.com/)
------------------
-Allow the management of communication routes for Lync real-time communications services. Manage security of information exchange, avoiding improper use, and improving effectiveness of real-time collaboration.
-
-## MultiUX Visual-Challenged Client for Lync
------------------
-Allow people with visual challenges to use Lync services with particular attention to voice.
-
-## [NTeam Lync Extender](http://www.nteam.de/de/communications/Seiten/Loesung.aspx?Loesung=004&Titel=nteam%20Lync%20Extender)
------------------
-See location, address, previous activities, opportunity, and company data about the person you're communicating with. Update tasks and activities during the conversation.
-
-## [ProtonMedia Protosphere](http://www.protonmedia.com/)
------------------
-Enable remote workers to more efficiently learn and collaborate in an always-on, socially immersive 3D environment.
-
-## [Pulsar IT Unified Communications for Contact Center (UC3)](http://www.pulsarit.net/solutions/products)
------------------
-Manage inbound communications to enhance relations and call experience with customers. Integrate into existing Information Systems and applications with caller identification, and call distribution.
-
-## [Quarta AllTalk](http://www.quarta-embedded.ru/products/28.html)
------------------
-Integrate Lync quickly and easily into any existing Windows application along with support for .NET, RT, and web. Ideally suited for kiosks in helpdesk scenarios.
-
-## [Ronco Verannounce](http://www.verapresence.com/verannounce)
------------------
-Page audible messages to Lync Clients and zoned overhead paging systems anywhere in the enterprise. Audible messages may be delivered on demand or on schedule.
-
-## Saab SAFE
------------------
-Bring situational awareness with complete integrated communication, resource management to mission critical operations. Saab SAFE includes automatic dispatch and incident management.
-
-## [Sierra Gold VTS](http://call-accounting-management-software.com/sai-announces-compatibility-and-support-for-microsoft-lync-server-2013/)
------------------
-Collect and process call records to support enterprise business decisions regarding security accountability and productivity.
-
-## [TE Systems ANYNODE](http://www.te-systems.de/index.php?id=168&L=2)
------------------
-Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing and call handling.
-
-## [UMojo GRM System](http://www.umojo.com/?page_id=3901)
------------------
-Automate facilities management with Lync, including license plate recognition, real-time inventory tracking, and customer services for drivers at the gate.
-
-## [Umojo Speech IVR](http://www.umojo.com/)
------------------
-Provide a scalable web services platform for communications, integrated with virtually any modality. Support hybrid cloud and on-premise architectures.
-
-## [Uncommon Solutions VisitorLink](http://www.visitorlink.com/)
------------------
-Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer a consistent and professional experience to visitors.
-
-## [Verapresence Proximity Pickup](http://www.verapresence.com/lync-products/proximity-pickup/)
------------------
-Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
-
-## [Viases PostOffice for Lync](http://www.viases.com/en/postoffice-for-lync/)
------------------
-Support various types of call transfers, and distribution models. Blacklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
-
-## [Vytru VA-50](http://www.vytru.com/va-50.html)
------------------
-Serve guests anywhere via touch kiosks fitted with cameras and microphones by connecting them with your specialists who are using Lync to provide audio/video consultations.
-
-## [Vytru VC-40](http://www.vytru.com/vc-40.html)
------------------
-Conduct video conferences on Lync through a single device that can be controlled using your voice commands, hand gestures, mouse, keyboard, and touch enabled screens.
-
-## [Yaguti Lync Agent](http://www.yaguti.eu/en/products/microsoft/uc/Pages/yaguti_lync_agent.aspx)
------------------
-Show planning information, request grades / timetables for students and teachers, get sales data from your CRM/ERP all with Lync.
+Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
 ### Related resources
 [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
