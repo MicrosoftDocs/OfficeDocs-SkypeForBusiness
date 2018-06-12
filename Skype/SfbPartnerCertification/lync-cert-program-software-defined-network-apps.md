@@ -37,7 +37,7 @@ Developers can download the [Lync SDN API](https://www.microsoft.com/en-us/downl
 For Lync:
 2013
 
-###### Offer uninterrupted Lync on mobile devices.
+##### Offer uninterrupted Lync on mobile devices.
 [Aruba networks](http://arubanetworks.com)
 
 Like a high performance vehicle, Lync benefits from smooth network pavement on which to run. The new Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation. Used together with an Aruba controller-based Wi-Fi network, the Lync SDN API opens a window into Lync calls in flight. 
