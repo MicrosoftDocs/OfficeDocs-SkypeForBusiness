@@ -82,7 +82,6 @@ After you have enabled his mailbox, the user kenmyer@litwareinc.com should be ab
   
 ```
 $credential = Get-Credential "litwareinc\kenmyer"
-
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
@@ -90,8 +89,5 @@ If you have a second user who has been enabled for unified messaging you can use
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
-
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
-
-

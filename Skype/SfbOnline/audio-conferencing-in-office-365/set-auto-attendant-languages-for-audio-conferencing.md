@@ -30,6 +30,9 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 > [!NOTE]
 >  You can configure the languages on domestic audio access phone numbers only.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Set the conferencing auto attendant languages
 
@@ -61,9 +64,6 @@ You must be an [Office 365 global admin](https://support.office.com/article/da58
   
 4. Click **Save**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## Want else should I know?
 
 - To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).

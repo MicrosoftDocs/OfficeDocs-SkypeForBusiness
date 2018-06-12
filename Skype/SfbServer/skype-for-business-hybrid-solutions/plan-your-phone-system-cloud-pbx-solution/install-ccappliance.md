@@ -20,7 +20,6 @@ The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector E
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
-
 ```
 
 ## Examples

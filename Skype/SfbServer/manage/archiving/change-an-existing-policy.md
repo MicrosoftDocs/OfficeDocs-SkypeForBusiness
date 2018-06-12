@@ -55,21 +55,18 @@ To enable the archiving of internal communication sessions, set the value of the
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 To enable the archiving of external communication sessions, set the value of the ArchiveExternal parameter to True ($True): 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
 To enable the archiving of both internal and external communication sessions, set the value of both the ArchiveInternal and ArchiveExternal parameters to True: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### Disable archiving policies
@@ -78,5 +75,4 @@ To disable archiving altogether, set the value of both the ArchiveInternal and A
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

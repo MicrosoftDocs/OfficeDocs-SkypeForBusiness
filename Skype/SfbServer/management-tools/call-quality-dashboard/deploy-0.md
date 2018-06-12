@@ -263,8 +263,7 @@ INSERT INTO
 [BuildingTypeDesc])
 VALUES
 (1, 
-'Headquarters') 
-  
+'Headquarters')   
 ```
 
 The BuildingTypeId and BuildingTypeDesc parameters are required.

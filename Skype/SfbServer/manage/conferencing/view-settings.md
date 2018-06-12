@@ -46,7 +46,7 @@ Get-CsMeetingConfiguration
 
 This command will return information similar to the following:
   
-```
+<pre>
 Identity                        : Global
 PstnCallersBypassLobby          : True
 EnableAssignedConferenceType    : True
@@ -59,8 +59,7 @@ LegalURL                        :
 HelpURL                         :
 CustomFooterText                :
 AllowConferenceRecording        : True
-
-```
+</pre>
 
 For more information, including a complete list of parameters, see [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
   

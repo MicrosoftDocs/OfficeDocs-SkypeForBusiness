@@ -47,7 +47,6 @@ Get User returns a user record from the repository.
 "loginName": "system",
 "defaultItemId": 1655
 }
-
 ```
 
  *userId*  - ID of the user.

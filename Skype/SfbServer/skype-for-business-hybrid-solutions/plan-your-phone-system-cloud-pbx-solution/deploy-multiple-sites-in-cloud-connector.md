@@ -41,7 +41,6 @@ ExternalSIPIPs=192.168.1.4
 ExternalMRFQDNPoolName=mr1
 ExternalMRIPs=192.168.1.4
 ExternalMRPublicIPs=23.99.115.35
-
 ```
 
 PSTN Site 2
@@ -60,7 +59,6 @@ ExternalSIPIPs=192.168.1.5
 ExternalMRFQDNPoolName=mr2
 ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
-
 ```
 
 For each PSTN site that you want to add, follow the steps in [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md).

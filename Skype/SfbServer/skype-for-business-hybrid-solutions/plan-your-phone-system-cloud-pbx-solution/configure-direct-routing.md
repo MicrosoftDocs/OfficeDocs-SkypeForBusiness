@@ -55,14 +55,14 @@ gcm *onlinePSTNGateway*
 
 Your command will return the four functions shown here that will let you manage the SBCs. 
 
-```
+<pre>
 CommandType    Name                       Version    Source 
 -----------    ----                       -------    ------ 
 Function       Get-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       New-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt 
 Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt 
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
-```   
+</pre>   
 
 
 ### Pair the SBC to the tenant 
@@ -82,7 +82,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Returns:
-``` 
+<pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -92,12 +92,12 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True   
-```
+</pre>
 There are additional options that can be set during the pairing. In the previous example, however, only the minimum required parameters are shown. 
  
 The following table lists the additional parameters that you can use in setting parameters for *New-CsOnlinePstnGateway*. 
 
-|**Required?**|**Name**|**Description**|**Default**|**Possible values**|**Type and restrictions**|
+|Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String,  list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/en-us/help/909264)|
 |No|MediaBypass |The parameter reserved for future use. Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
@@ -125,7 +125,7 @@ The paired gateway should appear in the list as shown in the example below, and 
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Which returns:
-``` 
+<pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
 SipSignallingPort     : 5067 
@@ -137,7 +137,7 @@ ForwardPai            : False
 SendSipOptions        : True 
 MaxConcurrentSessions : 100 
 Enabled               : True 
-```
+</pre>
 
 #### Validate SIP Options flow 
 
@@ -202,7 +202,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremisLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
@@ -286,7 +286,7 @@ Which returns a list of names that may be truncated:
   Usage    	: {testusage, US and Canada, International, karlUsage. . .}
 ```
 In the example below, you can see the result of the running the PowerShell command *`(Get-CSOnlinePSTNUsage).usage`* to display full names (not truncated).    
-```
+<pre>
  testusage
  US and Canada
  International
@@ -296,7 +296,7 @@ In the example below, you can see the result of the running the PowerShell comma
  karlUsage2
  Unrestricted
  Two trunks
-  ```
+</pre>
 
 **Step 2:** In a PowerShell session in Skype for Business Online, create three routes: Redmond 1, Redmond 2, and Other+1, as detailed in the previous table. 
 
@@ -308,7 +308,7 @@ To create the “Redmond 1” route, enter:
   ```
 
 Which returns:
-```
+<pre>
 Identity                : Redmond 1
 Priority       		: 1
 Description	     	:
@@ -318,7 +318,7 @@ OnlinePstnGatewayList	: {sbc1.contoso.biz, sbc2.contoso.biz}
 Name		 	: Redmond 1
 SuppressCallerId	:
 AlternateCallerId	:
-```
+</pre>
 To create the Redmond 2 route, enter:
 
 ```
@@ -329,7 +329,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 To create the Other +1 route, enter:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -351,7 +351,7 @@ Validate that you’ve correctly configured the route by running the `Get-CSOnli
 New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Which should return:
-```
+<pre>
 Identity	    	: Redmond 1 
 Priority       		: 1
 Description	 	: 
@@ -370,11 +370,11 @@ Name		 	: Redmond 2
 Identity		: Other +1 
 Priority       		: 4
 Description	 	: 
-NumberPattern 		: ^\+1(425|206) (\d{7})$
+NumberPattern 		: ^\\+1(\d{10})$
 OnlinePstnUsages 	: {US and Canada}	 
 OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
 Name		 	: Other +1
-```
+</pre>
 
 In the example, the route “Other +1” was automatically assigned priority. 
 
@@ -388,12 +388,12 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 
 The result is shown in this example:
 
-```
+<pre>
 Identity	    : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description    	    :
 RouteType    	    : BYOT
-```
+</pre>
 
 **Step 4:** Grant to user Spence Low a voice routing policy by using PowerShell.
 
@@ -407,12 +407,11 @@ RouteType    	    : BYOT
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 Which returns:
-```
-OnlineVoiceRoutingPolicy
-------------------------
-US Only
-
-```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ---------------------
+    US Only
+</pre>
 
 #### Creating a Voice Routing Policy with several PSTN Usages
 
@@ -466,7 +465,7 @@ The steps to create PSTN Usage “International”, voice route “International
   ```
   Which returns:
 
-  ```
+  <pre>
   Identity    	          	: International 
   Priority              		: 5
   Description    	        	: 
@@ -476,10 +475,12 @@ The steps to create PSTN Usage “International”, voice route “International
   Name                            : International
   SupressCallerId    		:
   AlternateCallerId       	:
-  ```
+</pre>
 3.	Next, create a Voice Routing Policy “No Restrictions”. The PSTN Usage “Redmond 1” and “Redmond “ are reused in this voice routing policy to preserve special handling for calls to number “+1 425 XXX XX XX” and “+1 206 XXX XX XX” as local or on-premise calls.
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", ”International”
+```
 
     Take note of the order of PSTN Usages:
 
@@ -491,12 +492,12 @@ The steps to create PSTN Usage “International”, voice route “International
 
    Which returns
 
-   ```
+  <pre>
    Identity		: International 
    OnlinePstnUsages 	: {US and Canada, International}	 
    Description		:  
    RouteType	 	: BYOT
-   ```
+  </pre>
 
 4.	Assign the voice routing policy to the user “John Woods” using the following command.
 
@@ -511,11 +512,11 @@ The steps to create PSTN Usage “International”, voice route “International
   ```
   Which returns:
 
-  ```
-  OnlineVoiceRoutingPolicy
-  ------------------------
-  No Restrictions
-  ```
+<pre>
+    OnlineVoiceRoutingPolicy
+    ------------------------
+    No Restrictions
+</pre>
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 

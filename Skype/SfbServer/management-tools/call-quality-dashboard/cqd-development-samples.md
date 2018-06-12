@@ -59,8 +59,7 @@ Let us take a simple example first. If we want to show the Audio Good Stream and
   
 What we need is to send a call to the Data Service with the proper parameters, and show the query results in an HTML table. The following is a sample of the JavaScript code:
   
-```
-        
+```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -90,7 +89,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 	       }
             });
         });
-
 ```
 
 This example can be further deconstructed into three steps:
@@ -184,7 +182,6 @@ Enclosing the JavaScript code into an HTML page, and the page will show a report
     </table>
 </body>
 </html>
-
 ```
 
 So far, the report is still very simple. The user can add more measurements, dimensions, or filters to customize the report. For example, if you want to show AppSharing poor call percentage, then a new measurement regarding AppSharing needs to be added. If you want to show all TCP calls v.s. UDP calls, a new dimension regarding transportation type should be added. If you want to show the number of poor calls within a specific building, then a new filter should be added to select the calls to and from that building.
@@ -306,7 +303,6 @@ A quick example is as follows, the code contains a block that is a simple exampl
     </script>
 </body>
 </html>
-
 ```
 
 The above will result in a web page like the one in the figure (without the report definition upon initial visit). Get the report set ID from CQD portal (it is after '/#/' sign in CQD portal URL (E.g. in the first figure the report set ID is 3024), and put this report set ID into the input section of this web page. Press the "load" button and see the full definition (measurements, dimensions, filters lists) of the report set.
@@ -731,7 +727,4 @@ HTML code for Example 3 (Scorecard sample):
     </script>
 </body>
 </html>
-
 ```
-
-

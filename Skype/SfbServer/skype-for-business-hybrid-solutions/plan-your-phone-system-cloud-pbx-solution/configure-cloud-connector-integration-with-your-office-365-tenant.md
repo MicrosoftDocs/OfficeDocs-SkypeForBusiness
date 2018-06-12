@@ -161,7 +161,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
     Use the default SIP domain of Cloud Connector (the first SIP domain in the .ini file) as the user domain.
     
-    Do not assign any Office 365 licenses (such as E5) to the account you create. Wait for Office 365 AD sync to complete.
+    Assign an Office 365 licenses (such as E5) to the account you create.
     
 2. Start a tenant remote PowerShell session using your tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created:
     

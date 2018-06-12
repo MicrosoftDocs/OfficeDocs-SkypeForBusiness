@@ -30,13 +30,13 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
   
 > [!NOTE]
 > To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Steps when you are assigning a new service phone number to your conference bridge
 
 ### Step 1 - Assign the new phone number to your audio conferencing bridge
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. Sign in to Office 365 with your work account.
     
@@ -77,7 +77,6 @@ Using the Meeting Migration Service, you can optionally update meeting invites t
     
 ```
 	Start-CsExMeetingMigration user@contoso.com
-
 ```
 
 - You can also view the meeting migration status. All meetings would be rescheduled once there are no operations in  *Pending*  or *In-Progress*  state.

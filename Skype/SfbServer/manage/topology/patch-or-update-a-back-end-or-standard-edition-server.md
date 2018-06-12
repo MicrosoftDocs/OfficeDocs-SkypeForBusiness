@@ -78,5 +78,3 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     Install-CsDatabase -Update -LocalDatabases
 
     ```
-
-

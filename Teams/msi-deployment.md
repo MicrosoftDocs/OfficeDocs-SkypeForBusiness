@@ -37,7 +37,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 > We don't recommended that you change the default install locations, as this could break the update flow. Having too old a version will eventually block users from accessing the service. 
 
 
-## Target machine requirements
+## Target computer requirements
 
 - .NET framework 4.5 or later
 - Windows 7 or later
