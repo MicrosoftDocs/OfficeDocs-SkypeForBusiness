@@ -475,12 +475,10 @@ promotor score (NPS), which is described in the following section.
 ### NPS 
 
 Net promoter score (NPS) is an industrywide customer loyalty metric and a good
-approach to use to assess user sentiment.
+approach to use to assess user sentiment. NPS can be calculated by asking two questions:
+“How likely are you to recommend Teams to a colleague?”, followed by the freeform question, “Why?”
 
-NPS can be calculated by asking two questions: “How likely are you to recommend
-Teams to a colleague?”, followed by the freeform question, “Why?”
-
-The NPS is an index, ranging from –100 to 100, that measures a customer’s
+NPS is an index, ranging from –100 to 100, that measures a customer’s
 willingness to recommend a company’s product or service. NPS is based on an
 anonymous survey that’s delivered to users through email or other electronic
 means. NPS measures the loyalty between a provider and a consumer. It consists
@@ -519,7 +517,7 @@ online survey tool.
 
 [Net Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
-[Using Yammer to Collect Feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
+[Using Yammer to collect feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
 
 [Best practices for user feedback](best-practices-feedback.md)
 
@@ -561,7 +559,7 @@ be performed at regular intervals.
 
 [Office 365 URLs and IP address ranges](https://aka.ms/o365ips)
 
-[Building Data Schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
+[Building data schema](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#tenant-data-file-format-and-building-data-file-structure)
 
 <!--ENDOFSECTION-->
 
@@ -636,7 +634,7 @@ The Teams client has minimum requirements in terms of the underlying software
 platform. These requirements might change over time, and therefore it’s
 important that you monitor them for changes. For example, the Teams client has a
 minimum iOS version. If the client uses an internet browser, the browser needs
-to be kept current as well. A list of supported platforms can be found in [Get Clients for Microsoft Teams](get-clients.md).
+to be kept current as well. A list of supported platforms can be found in [Get clients for Microsoft Teams](get-clients.md).
 
 ### Endpoint firewalls
 
@@ -711,15 +709,15 @@ the nature of the issue.
 5.  **Contact Microsoft Support:** You can contact Microsoft Support for issues
     with Teams online or by phone. For information, see [Contact support for Microsoft Teams](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     For Premier customers, support requests can be initiated by following the
-    guidance at [Contact Support for Microsoft Teams (Premier
-    Customers)](https://support.microsoft.com/premier/contacts).
+    guidance at [Contact support for Microsoft Teams (Premier
+    customers)](https://support.microsoft.com/premier/contacts).
 
 ### Daily/weekly/monthly/as-needed tasks
 
 | Activity | Description | Cadence | Team assigned |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
-| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in the [Office 365 URLs and IP address ranges](https://aka.ms/o365ips) article. Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed | |
+| Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
+| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed | |
 | Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)). | As needed | |
 | Endpoint management | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies. | Monthly | |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors. | As needed | |
@@ -756,7 +754,7 @@ of these common administration tasks.
 
 The Teams service has multiple settings that can be configured tenant-wide.
 Changes made to the tenant settings affect all users who have been enabled for
-Teams. For a detailed list of these settings, see [Turn on Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
+Teams. For a detailed list of these settings, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
 
 ### User administration
 
@@ -787,13 +785,13 @@ duties. The following tasks are commonly required to support users in Teams.
 
 [Manage the Audio Conferencing settings for a user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
 
-[Reset the Audio Conferencing PIN for a user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user)
+[Reset the Audio Conferencing PIN](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
 
 ### License management
 
 As your organization grows or contracts, it’s important that you plan licensing
 for current and future needs. There is a base Teams license, in addition to
-licensing for cloud voice capabilities ([Phone System](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system?ui=en-US&rs=en-US&ad=US) and [Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
+licensing for cloud voice capabilities ([Phone System](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) and [Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
 
 For Teams, Phone System licenses require associated [Calling Plan](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 licenses. Calling Plan licensing enables you to make and receive domestic and/or
@@ -813,7 +811,7 @@ and therefore need to be monitored and provisioned for accordingly.
 You can leverage the [PSTN usage report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
 to help you monitor your usage of Calling Plan minutes and Communications
 Credits. Based on the results of this activity, you can adjust your licensing
-accordingly. Coming soon, we will offer a [PSTN minute pool](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)
+accordingly. Coming soon, we will offer a [PSTN minute pools](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)
 report to more effectively assist with this task.
 
 ### Telephone number management
@@ -824,7 +822,7 @@ Microsoft’s number inventory. Both methods are described in [Getting phone num
 
 There is a limit to the number of telephone numbers you can provision from
 Microsoft’s number inventory. The limits are determined by a number of factors
-detailed in [How many phone numbers can you get](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+detailed in [How many phone numbers can you get?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
 The limits depend on the type of numbers—toll-free service numbers, toll service
 numbers, and subscriber (user) numbers. Each has its own limits and must be
 managed independently. If you’re nearing the limit (or you’ve reached the
