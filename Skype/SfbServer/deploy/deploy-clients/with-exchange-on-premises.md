@@ -61,7 +61,7 @@ If you are deploying Skype Room Systems v2 with Exchange on premises, you will b
 1. Enable the remote mailbox by opening your on-premises Exchange management shell with administrator permissions and run the following command:
      
    ```
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -RemoteRoutingAddress 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
    ```
 
 2. Start a remote Windows PowerShell session and connect to Microsoft Exchange. From your Office 365 tenant, run the following commands:
