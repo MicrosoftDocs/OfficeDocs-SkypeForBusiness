@@ -3,7 +3,6 @@ title: "Infrastructure requirements for Skype for Business Server 2019"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
