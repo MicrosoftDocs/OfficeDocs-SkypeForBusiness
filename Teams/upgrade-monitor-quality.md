@@ -21,11 +21,11 @@ This article is part of the Operational Excellence stage of your upgrade journey
 
 # Quality of Experience Review Guide
 
-The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience, as shown in the figure below.
+The [Quality of Experience Review Guide](https://aka.ms/qerguide) has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.
 
-![The key areas to examine during a quality experience review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a quality experience review: audio, reliability, and user survey results.")
+![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")
 
-By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
 -   Incomplete firewall or proxy configuration
 
@@ -39,8 +39,8 @@ By continually assessing and remediating the areas described in this document, y
 
 -   Problematic subnets or network devices
 
-The guidance provided in the Quality Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-We highly recommend that you nominate the quality champion early on. After being nominated, they should start to familiarize themselves with the content in the [Quality Experience Review Guide](https://aka.ms/qerguide).
+We highly recommend that you nominate the quality champion early on. After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

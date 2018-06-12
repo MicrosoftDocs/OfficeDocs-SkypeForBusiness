@@ -55,7 +55,7 @@ upon in the following sections.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -404,7 +404,7 @@ ensure that the next batch of sites or users don’t encounter the same issues.
 First, pinpoint whether this is an adoption or technical problem. Begin by
 investigating the items below, in order, to determine where the problem is.
 
-1.  Validate quality by performing a [Quality Experience Review](upgrade-monitor-quality.md).
+1.  Validate quality by performing a [Quality of Experience Review](upgrade-monitor-quality.md).
 
 2.  Work with the helpdesk team to check that there are no trending technical
     issues preventing users from accessing or using the service. If issue trends
@@ -577,7 +577,7 @@ the organization’s size and complexity, this could be any person or group with
 passion for ensuring a high-quality user experience.
 
 The quality champion leverages existing tools and documented processes, such as
-Call Quality Dashboard (CQD) and the Quality Experience Review Guide, to monitor
+Call Quality Dashboard (CQD) and the Quality of Experience Review Guide, to monitor
 user experience, identify quality trends, and drive remediation where needed.
 The quality champion should work with the respective teams to drive remediation
 actions and report to a steering committee about progress and any open issues.
@@ -592,14 +592,14 @@ will also directly translate to improvements in video and desktop sharing.
 
 We strongly recommend that you nominate the quality champion early on. After
 being nominated, they should start to familiarize themselves with the content in
-the Quality Experience Review Guide and associated training materials.
+the Quality of Experience Review Guide and associated training materials.
 
 ### Daily/weekly/monthly/as-needed tasks
 
 | Activity | Description | Cadence | Team Assigned |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|---------------|
 | Nominate and train quality champion(s) | Nominate and train a quality champion. | As needed | |
-| Perform Quality Experience Reviews | Perform a Quality Experience Review (QER) to identify trends in quality and reliability, review against defined targets, and report out to key stakeholders in the organization. | Monthly (weekly during deployments) | |
+| Perform Quality of Experience Reviews (QERs) | Perform a QER to identify trends in quality and reliability, review against defined targets, and report out to key stakeholders in the organization. | Monthly (weekly during deployments) | |
 | Drive remediation | Coordinate remediation efforts across the organization based on the QER assessments and findings. | As needed | |
 | Update building data in CQD | Update or add new building definitions in CQD when changes are made to the network (see [Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | As needed | |
 | Fill the Quality Champion role | End-to-end responsibility for quality in the organization. This includes:<ul><li>Ensure that the QER is being conducted regularly.</li><li>Report out to key stakeholders on quality status.</li><li>Ensure the building data definitions are up to date.</li><li>Coordinate remediation efforts across the organization to ensure that users have a high-quality experience with Teams.</li></ul> | Daily | |
@@ -651,7 +651,7 @@ will have specific guidance for how to update the exclusions.
 Wi-Fi drivers might be problematic. As an example, a driver might have very
 aggressive roaming behaviors between access points that can induce unnecessary
 access-point switching, leading to poor call quality. A poorly performing Wi-Fi
-driver might be discovered through a Quality Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It’s essential to
+driver might be discovered through a Quality of Experience Review (see [Quality of Experience Review Guide](https://aka.ms/qerguide) for more detail). It’s essential to
 implement a quality-driven process that monitors new Wi-Fi drivers and ensures
 that they’re tested before being deployed to the general user population.
 
