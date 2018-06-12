@@ -232,6 +232,8 @@ Microsoft Teams is supported separately as a cloud app in Azure Active Directory
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
+Microsoft Teams desktop application supports AppLocker.  For more information about AppLocker prerequisites, please see: Requirements to use AppLocker (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
+
 Privacy in Teams
 --------------------------
 
