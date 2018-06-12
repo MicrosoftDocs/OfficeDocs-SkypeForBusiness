@@ -67,7 +67,6 @@ If you are deploying Skype Room Systems v2 with Exchange on premises, you will b
 2. Start a remote Windows PowerShell session and connect to Microsoft Exchange. From your Office 365 tenant, run the following commands:
     
    ```
-   Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 'https://outlook.office365.com/ps1-liveid/' -Credential $cred -Authentication Basic -AllowRedirection 
