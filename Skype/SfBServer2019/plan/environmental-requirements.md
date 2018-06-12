@@ -287,7 +287,7 @@ Certificates for Survivable Branch Appliance (SBA 2015 for Skype for Business Se
 |:-----|:-----|:-----|:-----|
 |Default  <br/> |FQDN of the appliance  <br/> |SIP.\<sipdomain\> (you need only one entry per SIP domain)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
      
-### Certificates for external user access (Edge)
+### Certificates for external user access (Edge) 
 
 Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
   

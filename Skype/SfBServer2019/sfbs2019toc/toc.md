@@ -19,7 +19,7 @@
 
 
 ## Plan
-### System requirements
+### System requirements 
 #### [Server requirements](../plan/server-requirements.md)
 #### [Infrastructure requirements](../plan/environmental-requirements.md)
 #### [Load balancing requirements](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
