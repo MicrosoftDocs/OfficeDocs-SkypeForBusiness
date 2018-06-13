@@ -19,7 +19,7 @@ The following sections provide guidance on how to configure an environment that 
   
 ![Multi-Forest Environment for Hybrid](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## Validate the Forest Topology
+## Validate the forest topology
 
 Multiple user forests are supported. Keep the following in mind: 
   
@@ -37,11 +37,11 @@ For more information, please refer to [Environmental requirements for Skype for 
 
 Skype for Business users homed on premises can have Exchange homed on premises or online. Skype for Business Online users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
   
-## Configure Forest Trusts
+## Configure forest trusts
 
 The trusts required are two-way transitive trusts between the resource forest and each of the user forests. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
   
-## Synchronize Accounts into the forest hosting Skype for Business
+## Synchronize accounts into the forest hosting Skype for Business
 
 When Skype for Business Server is deployed in one forest (a resource forest), but provides functionality to users in one or more other forests (account forests), users in the other forests must be represented as disabled user objects in the forest where Skype for Business Server is deployed. An identity management product, such as Microsoft Identity Manager, needs to be deployed and configured to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Azure Active Directory Connect will not properly synchronize contacts into Azure AD for use with Skype.
   
@@ -66,11 +66,11 @@ Do not sync the UPN's between the forests. We found during testing that we neede
     
 ## Create an Office 365 tenant
 
-You will next need to provision an Office 365 tenant to use with your deployment. For more information, please see [Office 365 Provisioning Steps](https://social.technet.microsoft.com/wiki/contents/articles/22808.office-365-provisioning-steps.aspx). 
+You will next need to provision an Office 365 tenant to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
-## Configure AD FS
+## Configure Active Directory Federation Services
 
-Once you have a tenant, you will next need to configure Active Directory Federation Services (AD FS) ineach of the user forests. This assumes you have a unique SIP and SMTP address and User Principal Name (UPN) for each forest. AD FS is optional and is used here to get single-sign on. DirSync with Password Sync is also supported and can also be used in place of AD FS. 
+Once you have a tenant, you will need to configure Active Directory Federation Services (AD FS) in each of the user forests. This assumes you have a unique SIP and SMTP address and User Principal Name (UPN) for each forest. AD FS is optional and is used here to get single-sign on. DirSync with Password Sync is also supported and can also be used in place of AD FS. 
   
 Only deployments with matching SIP/SMTP and UPNs were tested. Not having matching SIP/SMTP/UPNs may result in reduced functionality, such as problems with Exchange integration and single-sign on. 
   
