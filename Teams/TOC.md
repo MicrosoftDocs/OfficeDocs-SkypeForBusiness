@@ -259,7 +259,7 @@
 ### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Manage
-### [Let your users communicate with other people](let-your-teams-users-communicate-with other-people.md)
+### [Let your users communicate with other people](let-your-teams-users-communicate-with-other-people.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
