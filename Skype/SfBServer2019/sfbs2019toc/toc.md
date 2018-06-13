@@ -10,8 +10,6 @@
 #### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 #### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
 #### [Configure a multi-forest environment for hybrid](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [Plan Teams migration](../hybrid/plan-teams-migration.md)
-### [Configure Teams migration](../hybrid/configure-teams-migration.md)
 ### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
 ### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
 ### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
