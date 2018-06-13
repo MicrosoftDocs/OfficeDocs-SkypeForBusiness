@@ -1,5 +1,5 @@
 ---
-title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
+title: "Skype for Business - Networking"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,7 +22,7 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 # Planning for Optimal Skype for Business Experience over Wi-Fi
 
 ## Overview
-In a mobile first, cloud first world, wireless is quickly becoming the basis of communications in the office, at home, and in public. Skype for Business provides a communication platform that help you to connect anywhere with the security, compliance and control required in the enterprise environment. Moving to a wireless communications platform simplifies the infrastructure and reduces the overall cost. Successful enterprise wireless communication deployment requires careful planning following best practices, an understanding of the real-time communication workloads for audio and video, and appropriate QoS policy application.
+In a mobile first, cloud first world, wireless or Wi-Fi is quickly becoming the basis of communications in the office, at home, and in public. Skype for Business provides a communication platform that help you to connect anywhere with the security, compliance and control required in the enterprise environment. Moving to a wireless communications platform simplifies the infrastructure and reduces the overall cost. Successful enterprise wireless communication deployment requires careful planning following best practices, an understanding of the real-time communication workloads for audio and video, and appropriate QoS policy application.
 
 This page provides the collective information to help you plan an optimal Skype for Business experience in a wireless world as well as success stories.
 
@@ -36,7 +36,7 @@ The Microsoft approach to drive quality and agility into the wireless networks c
 > “Our strong partnership with Microsoft encompasses joint engineering work, go to market activities, and supporting Microsoft as a long-term Aruba Wi-Fi customer. We have been promoting Skype for Business to our customers for years, so when the time for a UCC upgrade at our own campus Skype for Business was clearly the path forward. The significant capital and operating savings we achieved were consistent with those reported by our customers.”  
 ***Kevin Canty, VP of Operations, Aruba Networks***
 
-### Additional Resource
+## Additional Resources
 Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
