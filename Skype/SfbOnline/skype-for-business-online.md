@@ -126,7 +126,9 @@ Learn how to manage Skype for Business Online for your organization.
                     </div>
                     <div class="cardText">
                         <h3>Articles</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a 
+                        href="/what-is-phone-system-in-office-365/setting-up-your-phone-system.md">Setting up Phone System in your organization</a></p>
+                        <p><a href="/legal-and-regulatory/end-of-integration-with-3rd-party-providers.md">Third-party integration with Audio Conferencing</a></p>
                     </div>
                 </div>
             </div>
@@ -143,7 +145,8 @@ Learn how to manage Skype for Business Online for your organization.
                     </div>
                     <div class="cardText">
                         <h3>New features</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a href="/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md">Calling Plans in Canada (General Availability)</a></p>
+                        <p><a href="/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md">Calling Plans in Australia (Preview only)</a></p>
                     </div>
                 </div>
             </div>
@@ -160,7 +163,7 @@ Learn how to manage Skype for Business Online for your organization.
                     </div>
                     <div class="cardText">
                         <h3>Major updates</h3>
-                        <p><a href=" ">Link name</a></p>
+                        <p><a href="/audio-conferencing-in-office-365/set-up-audio-conferencing.md">Set up Audio Conferencing</a></p>
                     </div>
                 </div>
             </div>
