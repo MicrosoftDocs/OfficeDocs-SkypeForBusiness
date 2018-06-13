@@ -111,7 +111,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="https://erhverv.tdc.dk/loesninger/skype-for-business">TDC Erhverv</a></td>
 			<td>Skype for Business Trunk</td>
-			<td>![Qualified](../media/redcheckmark.png)<!-- need to fix this! --></td>
+			<td>![Qualified](media/red_checkmark.png)<!-- need to fix this! --></td>
 		</tr>
 		<tr>
 			<td><a href="http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm">Colt Technology Services</a></td>
