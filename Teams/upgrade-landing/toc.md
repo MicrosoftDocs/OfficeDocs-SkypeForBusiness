@@ -6,7 +6,7 @@
 ### [Enlist your project stakeholders](../upgrade-enlist-stakeholders.md)
 ### [Define your project scope](../upgrade-define-project-scope.md)
 ### [Understand coexistence and interoperability](../upgrade-understand-coexistence-and-interoperability.md)
-## [Plan for quality TOP NODE?](../upgrade-plan-for-quality.md)
+## [Plan for quality](../upgrade-plan-for-quality.md)
 ## [Prepare my environment for Teams](../upgrade-prepare-environment.md)
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate my environment](../upgrade-plan-journey-evaluate-environment.md)
