@@ -58,7 +58,8 @@ We recommend that you visit the vendor's web site for the latest information reg
 Pre-release tested with Skype for Business, software version may change upon completion of official testing.
 
 All gateways qualified with Lync Server 2013 are forward compatible and supported with Skype for Business 2015. For a list of Lync 2013 qualified gateways please see here.
-If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
+
+If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
 
 ## Additional Resources
 Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
