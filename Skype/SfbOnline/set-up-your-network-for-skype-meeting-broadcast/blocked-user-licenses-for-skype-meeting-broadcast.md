@@ -47,17 +47,10 @@ Skype Meeting Broadcast will be blocked if any of the following user licenses ar
     
 - Office 365 Education E3 Student
     
-- Office 365 A3 student use benefit
+- Office 365 A1 student use benefit
     
-- Office 365 A5 student use benefit
-    
-- Office 365 A5 w/o PSTN conferencing student use benefit
-    
-- Microsoft 365 A3 student use benefits
-    
-- Microsoft 365 A5 student use benefits
-    
-- Microsoft 365 A5 student use benefits w/o PSTN Conferencing
+- Microsoft 365 A1 student use benefits
+
     
 ## Related topics
 
