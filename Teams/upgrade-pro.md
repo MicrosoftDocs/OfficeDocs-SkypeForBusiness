@@ -26,7 +26,7 @@ Segmented into three phases, Upgrade Pro covers:
 -    **Post-upgrade**: After your entire organization is on Teams, implement a plan to maximize value. This includes monitoring your network for quality, promoting adoption of Teams while ensuring that Skype for Business usage is winding down, and planning for expanded functionality as the Teams roadmap continues to evolve.
  
 > [!NOTE]
-> The plan below is based on the assumption that you’ve enabled [Islands mode](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md#islands-mode) for your users before the upgrade and you’ve segmented your upgrade journey into four upgrade groups or waves, allowing you to control the user upgrade experience while maintaining momentum. Adjust the plan as needed to meet the needs of your organization. Additional guidance based on expanded coexistence capabilities will be available later this year.
+> The plan below is based on the assumption that you’ve enabled [**Islands** mode](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md#islands-mode) for your users before the upgrade and you’ve segmented your upgrade journey into four upgrade groups, or waves, allowing you to control the user upgrade experience while maintaining momentum. Adjust the plan as needed to meet the needs of your organization. Additional guidance based on expanded coexistence capabilities will be available later this year.
 
 ## Pre-Upgrade
 
@@ -58,7 +58,7 @@ Day 45 until upgrade begins
 
 ## Upgrade
 
-**Make the official move to Teams.** When you upgrade your users, you move them into Teams-only coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
+**Make the official move to Teams.** When you upgrade your users, you move them into **Teams only** coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
 
 Days 1&ndash;2
 -   Validate that you’ve completed the pre-upgrade activities described above.
@@ -75,7 +75,7 @@ Day 14
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 
 Day 21
--   Move upgrade group 1 to Teams-only mode.
+-   Move upgrade group 1 to **Teams only** mode.
 -   Send a “Welcome to Teams” notification to upgrade group 1.
 
 Days 14&ndash;42
