@@ -12,20 +12,20 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: 
-description: "Read this topic to learn about configuring accounts for Skype Room Systems v2 in Exchange and Skype for Business Server 2015."
+description: "Read this topic to learn about configuring accounts for Skype Room Systems v2 in Exchange and Skype for Business."
 ---
 
 # Configure accounts for Skype Room Systems v2
  
-Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business Server 2015.
+Read this topic to learn about Skype Room Systems v2 and how it integrates with Exchange and Skype for Business.
   
-This topic introduces how to create accounts used by Skype Room Systems v2 in Microsoft Exchange and Skype for Business Server 2015. Deployment instructions for Skype Room Systems v2 devices is covered in [Configure a Skype Room Systems v2 console](console.md). Your infrastructure will likely fall into one of the following configurations:
+This topic introduces how to create accounts used by Skype Room Systems v2 in Microsoft Exchange and Skype for Business . Deployment instructions for Skype Room Systems v2 devices is covered in [Configure a Skype Room Systems v2 console](console.md). Your infrastructure will likely fall into one of the following configurations:
   
 - Online deployment: Your organization's environment is deployed entirely on Office 365. For more information, see [Deploy Skype Room Systems v2 with Office 365](with-office-365.md).
     
 - On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server 2015 are hosted. For more information, see [Deploy Skype Room Systems v2 with Skype for Business Server 2015](with-skype-for-business-server-2015.md)
     
-- Hybrid deployment: Your organization has a mix of services, with some hosted on premises and some hosted online through Office 365. With Skype Room Systems v2, the following hybrid scenarios are supported: 
+- Hybrid deployments: Your organization has a mix of services, with some hosted on premises and some hosted online through Office 365. With Skype Room Systems v2, the following hybrid scenarios are supported: 
     
   - Exchange Online with Skype for Business Server 2015 on premises. For more information, see [Deploy Skype Room Systems v2 with Exchange Online (Hybrid)](with-exchange-online.md).
     
@@ -71,7 +71,7 @@ While the properties for the basic configuration will allow the user account to 
 |:-----|:-----|
 |Certificate-based authentication  <br/> |Certificates may be required for both Exchange and Skype for Business Server. To deploy certificates, you can load them when logged in as Admin.  <br/> |
    
-The best way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts.
   
 If you prefer to use the Office 365 UI over Windows PowerShell cmdlets, some steps can be performed manually. See [Creating a device account using Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   
