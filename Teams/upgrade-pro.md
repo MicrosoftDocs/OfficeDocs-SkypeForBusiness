@@ -33,7 +33,7 @@ Segmented into three phases, Upgrade Pro covers:
 **Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams.
 
 Days 1&ndash;5
--   [Gather your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
 -   [Define your project scope](upgrade-define-project-scope.md).
 -   [Understand upgrade and coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
 
@@ -95,7 +95,7 @@ Days 1&ndash;14
 Ongoing
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 -   Drive user momentum with email, newsletters, or other communications that focus on upcoming new features, success stories, and so on. <!-- – NOTE – add direct links back to SWT or Teams adoption content-->
--   Plan technical readiness and user readiness initiatives to prepare for new functionality and Microsoft 365 optimization. <!-- (point to blog??)-->
+-   Plan technical and user readiness initiatives to prepare for new functionality and Microsoft 365 optimization. <!-- (point to blog??)-->
 
 > [!Note]
 > Our Upgrade Pro content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
