@@ -20,9 +20,9 @@ appliesto:
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Essentials checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
-These ten easy steps provide everything you need for upgrade success. Note that the timeline is an approximation; you should adjust it based on your organization’s upgrade schedule.
+These ten easy steps provide everything you need for a successful upgrade. They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.
 
-Not familiar with Teams? [Read about how Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
+Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
 
 Have questions about your upgrade? View our FAQ.
 
@@ -54,9 +54,9 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 **Resources:**
 
--   [Overview of Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
--   [Learn about teams and channels](https://docs.microsoft.com/MicrosoftTeams/teams-channels-overview)
--   [Complete technical planning](https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams#step-3-complete-technical-planning)
+-   [Overview of Teams](Teams-overview.md)
+-   [Learn about teams and channels](teams-channels-overview.md)
+-   [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
 
 
 [Return to top](#about-upgrade-essentials)
@@ -88,7 +88,7 @@ Giving ample notice to your users will give them time to get familiar with Teams
 
 **Resources:**
 
--   [Manage Teams features in your organization](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+-   [Manage Teams features in your organization](enable-features-office-365.md)
 -   [Sample email: announcement to users about Skype for Business](#step-4-email)
 
 [Return to top](#about-upgrade-essentials)
@@ -160,8 +160,7 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 
 **Resources:**
 
--   [Sample email: check in with users](#step-9-email), plus [user
-    surveys](#step-9-surveys)
+-   [Sample email: check in with users](#step-9-email), plus [user surveys](#step-9-surveys)
 
 [Return to top](#about-upgrade-essentials)
 
@@ -323,7 +322,6 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ### Email to ask users to give teams and channels a try, for step 10
 
-[//]: # (Debbie, I added this subject line. Is it okay?)
 Subject line: 
 
 ```
@@ -333,7 +331,7 @@ CALL TO ACTION: Give teams and channels a try
 Body of email:
 
 ````
-Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
+Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
 
 CALL TO ACTION: Give teams and channels a try
 
@@ -363,7 +361,7 @@ Indicate how skilled you are at performing the following activities in Teams and
 
 | **What, if anything, is preventing you from using Microsoft Teams?**   | **Select all that apply** |
 |--------|-------|
-|  I’ve never heard about it    | &#9744; |
+| I’ve never heard about it    | &#9744; |
 | I don’t have it installed on my computer   |  &#9744;  |
 | I don't understand how it would benefit me or the people I work with   |  &#9744;  |
 | I haven't had time to evaluate it for my needs   |  &#9744;  |

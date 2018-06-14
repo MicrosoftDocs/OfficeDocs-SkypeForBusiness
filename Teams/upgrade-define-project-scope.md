@@ -112,8 +112,6 @@ As you scope your upgrade journey, be sure to set a timeline for key milestones 
 -   **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 -   **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
 
-<!--
-As a reference point, a sample timeline is provided for the pre/during/post-upgrade phases of the Upgrade Pro journey, which we encourage you to adjust as needed to align with the specific needs of your organization.
--->
+As a reference point, a sample timeline is provided for the [pre-upgrade](upgrade-pro.md#pre-upgrade), [upgrade](upgrade-pro.md#upgrade), and [post-upgrade](upgrade-pro.md#post-upgrade) phases of the Upgrade Pro journey, which we encourage you to adjust as needed to align with the specific needs of your organization.
 
 After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](upgrade-prepare-environment.md) and [organizational readiness](upgrade-prepare-organization.md) planning activities.
