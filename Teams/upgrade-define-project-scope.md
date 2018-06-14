@@ -48,7 +48,7 @@ Consider the following discussion points to help refine your vision:
 -   The expected and measurable business outcomes if these challenges are overcome
 
 > [!TIP]
-> Identify *use cases* and *personas* to further refine your project vision.
+> Identify use cases and personas to further refine your project vision.
 
 ## Project scope
 
