@@ -26,9 +26,11 @@ Teams and channels
 |-----------|---------------|
 |Number of teams a user can create | 250         |
 |Number of members in a team | 2,500       |
-|Number of teams a global admin can create        | Unlimited   |
+|Number of teams a global admin can create        | Unlimited&dagger   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200         |
+
+&dagger; After a threshold (currently 300,000) you will need to contact support to increase threshold size.
 
 Meetings and calls 
 ------------------
