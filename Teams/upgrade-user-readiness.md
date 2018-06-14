@@ -48,9 +48,7 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 </table>
 </div>
 
-[//]: # (Eventually the following link should point to the "Upgrade" section of the Upgrade Pro article, but that doesn't exist yet.)
-
-After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [onboard your users to Teams](upgrade-pro.md).
+After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [onboard your users to Teams](upgrade-pro.md#upgrade).
 
 
 
