@@ -1,5 +1,5 @@
 ---
-title: "E-911 services for Skype for Business"
+title: "Audio conferencing providers for Skype for Business Online"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,19 +10,19 @@ ms.service: skype-for-business
 ms.collection: Lync
 ms.audience: Admin
 appliesto:
-- Lync
+- Skype for Business Online
 - Skype for Business 
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
-description: "Microsoft Lync supports two methods of placing E-911 calls: Using a qualified service delivered via a SIP trunk, and using a qualified gateway that provides ELIN capabilities."
+description: "Microsoft Lync supports the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones."
 ---
 
-#Audio conferencing providers for Skype for Business Online
+# Audio conferencing providers for Skype for Business Online
 Dial-in audio conferencing, which is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones, can be achieved through interoperability with leading third-party audio conferencing services.
 
-Vendors listed in the following table have been certified with Skype for Business Online.
+Vendors listed in the following table have been certified for Skype for Business Online.
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
