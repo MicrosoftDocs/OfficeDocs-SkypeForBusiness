@@ -50,12 +50,14 @@ For example:
 2.	If enabling the connector for the first time, run the command: 
 
     ``` 
-    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector   
+    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector 
+<!-- -TenantId <tenant_id> -->  
     ```
 3.	If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
     ```
-    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector  
+    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector 
+<!-- -TenantId <tenant_id> -->  
     ```
 
 <!--You can also replace the `tenant_id` part with something like  `-TenantId (Get-CsTenant).TenantID`.

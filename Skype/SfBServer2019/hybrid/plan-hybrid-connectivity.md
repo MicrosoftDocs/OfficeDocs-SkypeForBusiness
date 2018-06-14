@@ -254,7 +254,7 @@ When you synchronize user accounts between your on-premises deployment and onlin
 
 **IS THE FOLLOWING STILL TRUE?? DO WE NEED THE REFERENCED TOPIC??** 
 > [!NOTE]
-> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](../../sfbserver/move-users-from-skype-for-business-online-to-on-premises.md). 
+> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](../../SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md). 
   
 You should also consider the following user-related issues when planning for a hybrid deployment.
   

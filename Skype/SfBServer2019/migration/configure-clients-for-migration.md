@@ -21,12 +21,10 @@ This topic contains the recommended client deployment steps you should take befo
 2. On the previous version of Skype for Business Server, use Client Version Filtering to only allow clients with the most current updates installed.
     
 ## See also
- **REPLACE OR REMOVE THIS LINK**
-[New and changed settings for Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/new-and-changed-settings-for-lync-2013.md)
-  
- **REPLACE OR REMOVE THIS LINK**
-[Client interoperability in Lync 2013](../../planning/planning-for-clients-and-devices-in-lync-server/client-interoperability-in-lync-2013.md)
 
- **REPLACE OR REMOVE THIS LINK**
-[Planning for clients and devices in Lync Server 2013](../../planning/planning-for-clients-and-devices-in-lync-server/planning-for-clients-and-devices-in-lync-server.md) 
+[New and changed settings for Lync 2013](https://technet.microsoft.com/en-us/library/jj205204(v=ocs.15).aspx) -->
+ 
+[Client interoperability in Lync 2013](https://technet.microsoft.com/en-us/library/jj204672(v=ocs.15).aspx) -->
+ <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 
+ [Plan for clients and devices](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
