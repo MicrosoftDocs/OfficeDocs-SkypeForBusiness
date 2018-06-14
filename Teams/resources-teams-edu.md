@@ -19,25 +19,29 @@ Microsoft Teams resources for Education admins
 
 ## Adoption content
 
+Use customizable email templates and customizable or ready-to-print posters and flyers to get your organization excited about Microsoft Teams.
+
 |Customizable email templates |         |
 |---------|---------|
-|Learn the Teams Basics<br> ![Screenshot of the Learn the Teams Basics email template.](media/outlook-template-teams-basics.png)   |Customize your learning environment<br>![Screenshot of the Customize your learning environment email template.](media/outlook-template-teams-learn.png)       |
-|See how to streamline your workflow in Teams<br>![Screenshot of the See how to streamline your workflow in teams email template.](media/outlook-template-teams-workflow.png)     | Learn how to chat like a pro<br>![Screenshot of the Learn how to chat like a pro email template.](media/outlook-template-teams-chat.png)        |
-|Take Teams on the go<br>![Screenshot of the Take Teams on the go email template.](media/outlook-template-teams-connect.png)    |          |
+|**Learn the Teams Basics**<br>[Download the .zip file](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/getting-started.zip)<br> ![Screenshot of the Learn the Teams Basics email template.](media/outlook-template-teams-basics.png)   |**Customize your learning environment**<br>[Download the .zip file](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/customize-learning.zip)<br>![Screenshot of the Customize your learning environment email template.](media/outlook-template-teams-learn.png)       |
+|**See how to streamline your workflow in Teams**<br>[Download the .zip file](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/workflows.zip)<br>![Screenshot of the See how to streamline your workflow in teams email template.](media/outlook-template-teams-workflow.png)     |**Learn how to chat like a pro**<br>[Download the .zip file](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/chat.zip)<br>![Screenshot of the Learn how to chat like a pro email template.](media/outlook-template-teams-chat.png)        |
+|**Take Teams on the go**<br>[Download the .zip file](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/get-teams.zip)<br>![Screenshot of the Take Teams on the go email template.](media/outlook-template-teams-connect.png)    |          |
 
 |Customizable flyers and posters  |        |
 |---------|---------|
-|[Introducing Microsoft Teams for Education - Values](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx)<br>![Screenshot of the Introducing Microsoft Teams for Education - Values poster.](media/poster-intro-values.png)    |[Introducing Microsoft Teams for Education - Features](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx)(<br>![Screenshot of the Introducing Microsoft Teams for Education - Features poster.](media/poster-intro-features.png)          |
+|[Introducing Microsoft Teams for Education - Values](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx)<br>![Screenshot of the Introducing Microsoft Teams for Education - Values poster.](media/poster-intro-values.png)    |[Introducing Microsoft Teams for Education - Features](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx)<br>![Screenshot of the Introducing Microsoft Teams for Education - Features poster.](media/poster-intro-features.png)          |
 |[Empower with Microsoft Teams - Values](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx)<br>![Screenshot of the Empower with Microsoft Teams - Values poster.](media/poster-empower-values.png)   |[Empower with Microsoft Teams - Features](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx)<br>![Screenshot of the Empower with Microsoft Teams - Features poster.](media/poster-empower-features.png)          |
-|[The value of Microsoft Teams for Education](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx)<br>![Screenshot of the value of Microsoft Teams for Education flyer.](media/flyer-values.png)    |         |
+|[The value of Microsoft Teams for Education](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx)<br>![Screenshot of the value of Microsoft Teams for Education flyer.](media/flyer-values.png)    |[The features of Microsoft Teams for Education](https://github.com/microsoftdocs/officedocs-skypeforbusiness/blob/teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx)<br>![Screenshot of the value of Microsoft Teams for Education flyer.](media/flyer-values.png)        |
 
 ## Call to action
+
 - Check out our hands-on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/) (5 minutes to complete)
 - Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
 - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
 - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
     
 ## Additional resources
+
 - [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
 - Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
 - Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
