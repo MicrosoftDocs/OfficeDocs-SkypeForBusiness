@@ -24,7 +24,7 @@ These ten easy steps provide everything you need for a successful upgrade. Theyâ
 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrationsâ€”providing a single hub for teamwork in Office 365.
 
-Have questions about your upgrade? View our FAQ.
+Have questions about your upgrade? View our [FAQ](faq-journey.md).
 
 <a name="step-1"></a>
 
