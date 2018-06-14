@@ -79,7 +79,7 @@ Day 21
 -   Send a “Welcome to Teams” notification to upgrade group 1.
 
 Days 14&ndash;42
--   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. That is, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
+-   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
 
 Day 45
 -   Send [post-upgrade feedback surveys](upgrade-essentials.md#sample-surveys) to all users.
