@@ -347,7 +347,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-9-surveys"></a>
 
-## Sample surveys, for the check-in email in step 9
+## Sample surveys
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you would like to learn more about.
 

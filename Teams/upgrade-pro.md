@@ -58,7 +58,7 @@ Day 45 until upgrade begins
 
 ## Upgrade
 
-**Make the official move to Teams.** When you upgrade your users, you move them into Teams-only coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect it might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
+**Make the official move to Teams.** When you upgrade your users, you move them into Teams-only coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
 
 Days 1&ndash;2
 -   Validate that you’ve completed the pre-upgrade activities described above.
@@ -79,10 +79,10 @@ Day 21
 -   Send a “Welcome to Teams” notification to upgrade group 1.
 
 Days 14&ndash;42
--   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
+-   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. That is, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
 
 Day 45
--   Send [post-upgrade feedback surveys](upgrade-essentials.md#Sample-surveys-for-the-check-in-email-in-step-9) to all users.
+-   Send [post-upgrade feedback surveys](upgrade-essentials.md#sample-surveys) to all users.
 
 ## Post-Upgrade
 
