@@ -58,47 +58,47 @@ Day 45 until upgrade begins
 
 ## Upgrade
 
-**Make the official move to Teams.** When you upgrade your users, you move them into a Teams-Oonly mode. Teams becomes their primary app for chat, meetings, calling, and collaboration and disables access to the Skype for Business app is disabled. While Although the technical aspects of this phase are quite simple, consider the effect it might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
+**Make the official move to Teams.** When you upgrade your users, you move them into Teams-only coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect it might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
 
 Days 1&ndash;2
--   Validate completion of the Pre-Upgrade activities above
--   Segment your user base into four upgrade groups
--   Send upgrade announcement notification to all users
--   Enable Notify mode for all users
+-   Validate that you’ve completed the pre-upgrade activities described above.
+-   Segment your user base into four upgrade groups.
+-   Send notification of the upgrade to all users.
+-   Enable **Notify** mode for all users.
 
 Day 7
--   Send 2-week upgrade notification to upgrade group 1
--   Monitor network health, help desk calls, etc for any technical or user upgrade experience issues and mitigate as needed
+-   Send notification to upgrade group 1 that their upgrade will begin in two weeks.
+-   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 
 Day 14
--   Send 1-week reminder upgrade notification to upgrade group 1
--   Monitor network health, help desk calls, etc for any technical or user upgrade experience issues and mitigate as needed
+-   Send a reminder to upgrade group 1 that their upgrade will begin in one week.
+-   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 
 Day 21
--   Move upgrade group 1 to TeamsOnly mode
--   Send Welcome to Teams notification to upgrade group 1
+-   Move upgrade group 1 to Teams-only mode.
+-   Send a “Welcome to Teams” notification to upgrade group 1.
 
 Days 14&ndash;42
--   Repeat above upgrade activities for remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21 and upgrade group 4 notifications on day 28, allowing for completion of all upgrades by day 42.
+-   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
 
 Day 45
--   Send post-upgrade feedback survey to all users
+-   Send [post-upgrade feedback surveys](upgrade-essentials.md#Sample-surveys-for-the-check-in-email-in-step-9) to all users.
 
 ## Post-Upgrade
 
-**Maximize business value with Teams.** After your organization is fully upgraded to Teams, take time to evaluate success against your goals and implement a plan to continue forward momentum.
+**Maximize business value with Teams.** After your organization is fully upgraded to Teams, take time to evaluate your success against your goals and implement a plan to continue forward momentum.
 
 Days 1&ndash;14
--   Assess initial upgrade success against the goals you established in the Pre-Upgrade phase
--   Implement a mitigation plan for any goals not on track
+-   Assess your initial upgrade success against the goals you established in the pre-upgrade phase.
+-   Implement a mitigation plan for any goals that aren’t on track.
 
 Ongoing
--   Monitor network health, help desk calls, etc for any technical or user upgrade experience issues and mitigate as needed
--   Drive user momentum with email, newsletter or other communication (eg focus on new features, success stories, etc) – NOTE – add direct links back to SWT or Teams adoption content
--   Plan for new functionality, Microsoft 365 optimization with technical and user readiness planning (point to blog??)
+-   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
+-   Drive user momentum with email, newsletters, or other communications that focus on upcoming new features, success stories, and so on. <!-- – NOTE – add direct links back to SWT or Teams adoption content-->
+-   Plan technical readiness and user readiness initiatives to prepare for new functionality and Microsoft 365 optimization. <!-- (point to blog??)-->
 
 > [!Note]
-> Our Upgrade Pro content is continually evolving. More information will be available soon, including new upgrade and post-upgrade articles. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
+> Our Upgrade Pro content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
 > If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
