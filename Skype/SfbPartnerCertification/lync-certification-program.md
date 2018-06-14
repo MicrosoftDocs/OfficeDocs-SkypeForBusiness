@@ -20,3 +20,4 @@ description: "Partner qualification requirements for Lync."
 ---
 
 # Partner qualification for Lync
+Place holder only? or node?
