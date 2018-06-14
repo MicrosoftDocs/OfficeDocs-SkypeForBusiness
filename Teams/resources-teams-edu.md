@@ -19,7 +19,7 @@ Microsoft Teams resources for Education admins
 
 ## Adoption content
 
-Use customizable email templates and customizable or ready-to-print posters and flyers to get your organization excited about Microsoft Teams.
+Create customized email messages, posters, and flyers with your school's information and logo. Or use ready-to-print posters and flyers to get your organization excited about Microsoft Teams.
 
 |Customizable email templates |         |
 |---------|---------|
