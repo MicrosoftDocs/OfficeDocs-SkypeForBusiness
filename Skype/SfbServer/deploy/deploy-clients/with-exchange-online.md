@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems v2 with Exchange Online (Hybrid)"
+title: "Deploy Skype Room Systems v2 with Exchange Online"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -15,11 +15,15 @@ ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: "Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online."
 ---
 
-# Deploy Skype Room Systems v2 with Exchange Online (Hybrid)
+# Deploy Skype Room Systems v2 with Exchange Online 
  
-Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online.
+Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online and Skype for Business Server on-premises.
   
-If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell (see Appendix: PowerShell) to achieve the same end result as documented here, and for other deployment options. You should then use the provided Windows PowerShell script to verify your Skype Room Systems v2 setup. (See Account Verification Script.)
+If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options. 
+
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
+
+
   
 ## Deploy Skype Room Systems v2 with Exchange Online
 
@@ -136,6 +140,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 For validation, you should be able to use any Skype for Business client to log in to this account.
   
 ## See also
+
+[Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
 
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
