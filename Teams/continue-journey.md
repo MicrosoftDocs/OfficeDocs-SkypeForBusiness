@@ -29,7 +29,7 @@ The status of your network affects the user experience. When a user has a poor e
 
 -   [Operate my service](upgrade-operate-my-service.md)
 -   [Monitor quality](upgrade-monitor-quality.md)
--   [Enhance my service](2-drive-value-enhance-my-service.md)
+-   [Enhance my service](upgrade-enhance-my-service.md)
 
 ## Drive user momentum and adoption
 
@@ -37,6 +37,7 @@ To realize maximum benefit and business outcomes with Teams, users must actually
 
 -   Enlisting peer champions to help evangelize and encourage fellow users.
 -   Checking the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
+-   Leveraging the [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to enhance awareness and share best practices.
 
 ## Prepare for new functionality
 

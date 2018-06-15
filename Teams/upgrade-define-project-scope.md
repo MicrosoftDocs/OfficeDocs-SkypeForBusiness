@@ -107,11 +107,11 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
  
 -   **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://aka.ms/skype2teamsroadmap) to gauge when Teams will be ready for your organization.
--   **User grouops (cohorts)**: Determine whether you’ll be enabling Teams or upgrading users by cohorts, which could affect the timeline of your overall upgrade journey.
+-   **Upgrade groups**: Determine whether you’ll be enabling Teams or upgrading users by upgrade groups, which could affect the timeline of your overall upgrade journey.
 -   **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your upgrade timeline.
 -   **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 -   **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
 
-As a reference point, a sample timeline is provided for the [pre-upgrade](upgrade-pro.md#pre-upgrade), [upgrade](upgrade-pro.md#upgrade), and [post-upgrade](upgrade-pro.md#post-upgrade) phases of the Upgrade Pro journey, which we encourage you to adjust as needed to align with the specific needs of your organization.
+As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](upgrade-pro.md), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
 After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](upgrade-prepare-environment.md) and [organizational readiness](upgrade-prepare-organization.md) planning activities.

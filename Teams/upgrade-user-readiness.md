@@ -48,7 +48,7 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 </table>
 </div>
 
-After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [onboard your users to Teams](upgrade-pro.md#upgrade).
+After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [pilot Teams in your organization](pilot-essentials.md).
 
 
 
