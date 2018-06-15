@@ -17,15 +17,15 @@
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Prepare IT pros for Teams]
-## [Pilot Teams/run coexistence](../pilot-essentials.md)
+## [Conduct a user pilot](../pilot-essentials.md)
 ## [Plan your upgrade/Choose your upgrade journey](../upgrade-plan-upgrade-journey.md)
-## [Upgrade to Teams](../upgrade-to-teams.md)
+## [Execute your upgrade to Teams](../upgrade-to-teams.md)
 ### [Execute Skype for Business online to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Execute Skype for Business hybrid to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
 ### [Execute Skype for Business on-premises to Teams upgrade](../upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
 ## [Drive value through user adoption](../continue-journey.md)
 ### [Operate your service](../upgrade-operate-my-service.md)
 ### [Monitor quality](../upgrade-monitor-quality.md)
-### [Enhance your service]
+### [Enhance your service](../upgrade-enhance-my-service.md)
 ## [Upgrade FAQ](../FAQ-journey.md)
 

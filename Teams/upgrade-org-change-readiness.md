@@ -88,7 +88,7 @@ Use the following conversation starters to conduct an organizational readiness a
 
 ## Use cases
 
-Articulating specific use cases in your awareness and training plan makes users feel that you truly are designing technology for the way they work. You can developThere are universal use cases (scenarios that apply to everyone in your organization regardless of role) in addition to targeted use cases based on user profiles. For each, it’s important to identify the challenges of the current process and explain how the new technology can optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate a desire in users to give it a try.
+Articulating specific use cases in your awareness and training plan makes users feel that you truly understand the way they work. There are universal use cases (scenarios that apply to everyone in your organization regardless of role) in addition to targeted use cases based on user profiles. For each, it’s important to identify the challenges of the current process and explain how the new technology can optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate a desire in users to give it a try.
 
 ### Activity
 
