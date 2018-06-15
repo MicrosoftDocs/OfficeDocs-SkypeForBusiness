@@ -25,7 +25,9 @@ This article is part of the User Readiness stage (or Technical Readiness stage??
 
 # Prepare IT pros
 
-These links are suggested for this article in the combined doc:
+From the combined doc:
+
+Training for IT pros, get familiar with tools they need to use in Teams. Links to videos and core content.
 
 https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness
 
