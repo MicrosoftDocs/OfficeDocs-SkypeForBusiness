@@ -15,9 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
+This article is part of the User Readiness (or Technical??) stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage.
 
 # Prepare IT pros
 
