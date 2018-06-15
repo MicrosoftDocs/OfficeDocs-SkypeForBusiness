@@ -25,4 +25,14 @@ This article is part of the User Readiness stage (or Technical Readiness stage??
 
 # Prepare IT pros
 
-NEEDS TEXT? Or maybe isn't needed at all.
+These links are suggested for this article in the combined doc:
+
+https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness
+
+https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-guides
+ 
+https://docs.microsoft.com/en-us/MicrosoftTeams/support-resources
+ 
+https://docs.microsoft.com/en-us/MicrosoftTeams/connectivity-issues
+ 
+https://docs.microsoft.com/en-us/MicrosoftTeams/log-files
