@@ -17,7 +17,13 @@ appliesto:
 
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
-This article is part of the Deployment and Implementation stage of your upgrade journey.
+This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
+
+-   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
+-   [Prepared your environment](upgrade-prepare-environment.md)
+-   [Prepared your organization](upgrade-prepare-organization.md)
 
 # Execute Skype for Business hybrid to Teams upgrade
 

@@ -17,12 +17,11 @@ appliesto:
 
 ![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
 # Prepare my organization
 
