@@ -17,9 +17,9 @@ description: "Read this topic for information on how to deploy Skype Room System
 
 # Deploy Skype Room Systems v2 with Office 365
  
-Read this topic for information on how to deploy Skype Room Systems v2 with Office 365.
-  
-This topic describes how to add a device account for Skype Room Systems v2 when you have an Office 365 online deployment.
+Read this topic for information on how to deploy Skype Room Systems v2 with Office 365, where Skype for Business and Exchange are both online. 
+
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
   
 ## Deploy Skype Room Systems v2 with Office 365
 
@@ -175,6 +175,8 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number. 
   
 ## See also
+
+[Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
 
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
