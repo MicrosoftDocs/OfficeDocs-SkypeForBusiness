@@ -43,4 +43,27 @@
 
 
 # Lync Partner Qualification
+### Applications
+(populate this+)
+### Devices
+##### [Phones and devices qualified for  Lync](../lync-cert-program-ip-phones.md)
+##### [USB audio and video devices](../lync-cert-program-usb-and-video.md)
+##### [Partner qualification for Lync - Lync Room Systems](../lync-cert-program-lync-room-systems.md)
+##### [Meeting room devices and solutions](../lync-cert-program-meeting-room-devices.md)
+##### [Partner qualification for Lync - PCs optimized for Lync](../lync-cert-program-pcs-optimized-for-lync.md)
 
+
+### Infrastructure
+##### [IP PBXs and Gateways](../lync-cert-program-qualified-ip-pbx-gateway.md)
+##### [Supported IP PBXs](../lync-cert-program-supported-ip-pbxs.md)
+##### [Survivable branch appliances](../lync-cert-program-survivable-branch-appliances.md)
+##### [Partner qualification for Lync](../lync-cert-program-sbcs-lync-server.md)
+##### [Partner qualification for Lync](../lync-cert-program-hardware-load-balancers.md)
+##### [Partner qualification for Lync](../lync-cert-program-reverse-proxies.md)
+##### [Partner qualification for Lync](../lync-cert-program-virtual-desktop-lync-server.md)
+
+### Services
+
+### Video
+
+### Certified Support
