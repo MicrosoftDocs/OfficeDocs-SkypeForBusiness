@@ -16,7 +16,7 @@
 ## [Prepare your organization for Teams](../upgrade-prepare-organization.md)
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
-## [Prepare IT pros for Teams]
+## [Prepare IT pros for Teams](../upgrade-prepare-IT-pros.md)
 ## [Conduct a user pilot](../pilot-essentials.md)
 ## [Plan your upgrade/Choose your upgrade journey](../upgrade-plan-upgrade-journey.md)
 ## [Execute your upgrade to Teams](../upgrade-to-teams.md)
