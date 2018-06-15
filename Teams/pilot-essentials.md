@@ -21,6 +21,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 

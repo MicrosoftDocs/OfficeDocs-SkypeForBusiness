@@ -21,7 +21,7 @@ This article is part of the Operational Excellence stage of your upgrade journey
 
 # Operate my service
 
-This article gives an overview of the requirements for successfully operating cloud voice services for your organization. By properly operating your cloud voice services, you can be sure you’re providing a high-quality, reliable experience for your organization.
+This article gives an overview of the requirements for successfully operating Teams for your organization after you’ve upgraded. By properly operating your Teams services, you can be sure you’re providing a high-quality, reliable experience for your organization.
 
 ## Introduction to the Operations Guide
 
@@ -55,7 +55,7 @@ upon in the following sections.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -691,7 +691,7 @@ the nature of the issue.
     Assessment 
     Tool](https://www.microsoft.com/download/details.aspx?id=53885) to
     perform a connectivity test to validate that the media ports have been
-    opened correctly for cloud voice capabilities. Detailed steps on how to run
+    opened correctly for Teams capabilities. Detailed steps on how to run
     the connectivity tests are provided in the [network readiness](upgrade-prepare-environment-prepare-network.md)
     guidance.
 
@@ -766,71 +766,6 @@ duties. The following tasks are commonly required to support users in Teams.
 
 [Manage user access to Microsoft Teams](user-access.md)
 
-#### Common tasks for Phone System
-
-[Assign, change, or remove a phone number for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user)
-
-[Assign or change an emergency address for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user)
-
-[Add, change, or remove an emergency location for your organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
-
-[Create and manage dial plans](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
-
-#### Common tasks for Audio Conferencing
-
-[Change the settings for an Audio Conferencing bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
-
-[Change the phone numbers on your Audio Conferencing bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
-
-[Manage the Audio Conferencing settings for a user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
-
-[Reset the Audio Conferencing PIN](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
-
-### License management
-
-As your organization grows or contracts, it’s important that you plan licensing
-for current and future needs. There is a base Teams license, in addition to
-licensing for cloud voice capabilities ([Phone System](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) and [Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
-
-For Teams, Phone System licenses require associated [Calling Plan](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
-licenses. Calling Plan licensing enables you to make and receive domestic and/or
-international phone calls. These plans are usage-based and have minute pools
-associated with them. Provisioning [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
-will ensure you never run out of service.
-
-Audio Conferencing allows for tolled dial-in conferencing and domestic dial-out
-conferencing services. Toll-free dial-in conferencing or non-domestic dial-out
-scenarios might cause you to incur additional charges for which [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
-are required.
-
-Communications Credits can supplement both Calling Plan and Audio Conferencing
-licenses. Both Calling Plan licenses and Communication Credits are usage-based,
-and therefore need to be monitored and provisioned for accordingly.
-
-You can leverage the [PSTN usage report](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
-to help you monitor your usage of Calling Plan minutes and Communications
-Credits. Based on the results of this activity, you can adjust your licensing
-accordingly. Coming soon, we will offer a [PSTN minute pools](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report)
-report to more effectively assist with this task.
-
-### Telephone number management
-
-There are two methods to acquire numbers in Teams: You can port telephone
-numbers from another provider or you can provision the numbers directly from
-Microsoft’s number inventory. Both methods are described in [Getting phone numbers for your users](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
-
-There is a limit to the number of telephone numbers you can provision from
-Microsoft’s number inventory. The limits are determined by a number of factors
-detailed in [How many phone numbers can you get?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
-The limits depend on the type of numbers—toll-free service numbers, toll service
-numbers, and subscriber (user) numbers. Each has its own limits and must be
-managed independently. If you’re nearing the limit (or you’ve reached the
-limit), you can apply for an increment to the limit. This process is described
-in the article in the previous paragraph.
-
-There might be times when a number isn’t available to be provisioned in a region
-where service is available. For information about the process for requesting
-numbers, see [Manage phone numbers for your organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ### Team creation (optional)
 
