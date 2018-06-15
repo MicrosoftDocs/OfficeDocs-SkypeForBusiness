@@ -17,7 +17,7 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers with 
 
 
  
-**Summary:** Prepare your Skype for Business Server 2019 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Diretory. amd DNS are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
 As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article will walk you through planning for the following:
   
