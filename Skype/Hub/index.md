@@ -40,7 +40,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/SkypeForBusiness/images/SkypeForBusiness-Hybrid-400x140.svg" alt="Hybrid solutions" />
+                                                        <img src="/SkypeForBusiness/images/SkypeForBusiness-hybrid-400x140.svg" alt="Hybrid solutions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -135,7 +135,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/SkypeForBusiness/images/SkypeForBusiness-RoomServices-400x140.svg" alt="Room Systems" />
+                                                        <img src="/SkypeForBusiness/images/SkypeForBusiness-RoomSystems-400x140.svg" alt="Room Systems" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
