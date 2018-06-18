@@ -129,7 +129,7 @@ description: Skype for Business
                                 </a>
                             </li>                            
                             <li>
-                                <a href="https://support.office.com/skype-for-business">
+                                <a href="https://docs.microsoft.com/en-us/SkypeForBusiness/room-systems/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
