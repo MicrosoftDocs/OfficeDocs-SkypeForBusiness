@@ -27,7 +27,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 # Upgrade from a Skype for Business hybrid deployment to Teams
 
-Follow the guidance in this article if you have deployed Skype for Business or Microsoft Lync on-premises and configured it in a hybrid deployment with your Office 365 tenant, and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. For either upgrade journey, you need to move your users to Skype for Business Online (if they aren’t already homed online) and then assign them the appropriate coexistence and upgrade mode. 
+Follow the guidance in this article if you’ve deployed Skype for Business or Microsoft Lync on-premises and configured it in a hybrid deployment with your Office 365 tenant, and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. For either upgrade journey, you need to move your users to Skype for Business Online (if they aren’t already homed online) and then assign them the appropriate coexistence and upgrade mode. 
 
 ## Step 1: Move users to Skype for Business Online
 
@@ -35,10 +35,10 @@ This step applies to users who are currently homed on-premises. For more informa
 
 ## Step 2: Assign a coexistence and upgrade mode
 
-After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the journey that your organization has chosen. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
+After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
 
 
-[//]: # (Should the description of Step 2 actually quote it directly? That is, "assign a coexistence and upgrade mode" rather than "upgrade users to Teams"? )
+[//]: # (Is it okay that Step 2 actually says "assign a coexistence and upgrade mode" rather than "upgrade users to Teams"?)
 
 
 > [!NOTE]
@@ -46,9 +46,9 @@ After you’ve moved your users to Skype for Business Online, you can assign the
 
 ## Phone System and Teams upgrade
 
-[//]: # (Would it be more accurate to say "...and Microsoft will be your PSTN provider"?)
+[//]: # (Would it be more accurate to say "...and Microsoft WILL BE your PSTN provider"?)
 
-If you’re transitioning your Skype for Business hybrid deployment to Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider—assuming you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+If you’re transitioning your Skype for Business hybrid deployment to Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider—and assuming that you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
-[//]: # (Not sure what "...to Direct Routing" refers to in the first sentence.)
-If Calling Plans isn’t available or you intend to use your existing PSTN connectivity provider, you need to transition your enterprise voice deployment or hybrid voice deployment that uses your existing on-premises deployment or Cloud Connector Edition to Microsoft Phone System Direct Routing. To upgrade your users to Teams, see the additional considerations described in [placeholder link to Direct Routing Journeys].
+[//]: # (Please double-check that the content between the em dashes belongs together.)
+If Calling Plans isn’t available or you intend to use your existing PSTN connectivity provider, you need to transition your enterprise voice deployment—or hybrid voice deployment that uses your existing on-premises deployment or Cloud Connector Edition—to Microsoft Phone System Direct Routing. To upgrade your users to Teams, see the additional considerations described in [placeholder link to Direct Routing Journeys].

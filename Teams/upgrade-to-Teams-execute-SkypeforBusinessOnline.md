@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Execute your upgrade to Teams from Skype for Business Online 
+description: Considerations for upgrading to Teams from Skype for Business Online 
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -31,12 +31,12 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 ## Assign the coexistence and upgrade mode
 
-[//]: # (Agus, )
+[//]: # (Agus, please double-check this edit. I didn't find "TeamsOnly upgrade policy." Maybe it should be "...by assigning the TeamsOnly mode of TeamsUpgradePolicy"?)
 
-Upgrading to Teams can be accomplished by assigning TeamsOnly upgrade policy, which can be performed using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
+Upgrading to Teams can be accomplished by assigning TeamsUpgradePolicy, which can be performed by using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 ## Phone System and Teams upgrade
 
 If your Skype for Business Online deployment includes Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider, upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
-If your Skype for Business Online deployment includes Phone System with Cloud Connector Edition, upgrading your users to Teams will need to include additional considerations as described in [placeholder link to Direct Routing Journeys].
+If your Skype for Business Online deployment includes Phone System with Cloud Connector Edition, see the additional considerations described in [placeholder link to Direct Routing Journeys].
