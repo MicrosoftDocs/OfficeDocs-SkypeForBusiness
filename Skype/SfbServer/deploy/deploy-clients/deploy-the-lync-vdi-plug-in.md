@@ -14,7 +14,7 @@ description: "This topic discusses deployment procedures for using Skype for Bus
 
 # Deploy the Lync VDI plug-in with Skype for Business Server 2015
  
-This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop. 
+This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop. Planning considerations are at [Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Their users are on local Windows computers and using clients on a virtual desktop. Using Skype for Business on a connection like that requires additional VDI plug-in software.
   
