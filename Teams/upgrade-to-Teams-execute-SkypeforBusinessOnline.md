@@ -33,9 +33,7 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 [//]: # (Agus, please double-check this edit. I didn't find "TeamsOnly upgrade policy." Maybe it should be "...by assigning the TeamsOnly mode of TeamsUpgradePolicy"?)
 
-Upgrading to Teams can be accomplished by assigning TeamsUpgradePolicy, which can be performed by using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md).
-
-[//]: # (Also, please note that I took away the anchor in the link immediately preceding this comment. The link you had in your original--migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence--won't work until the hyphen is removed from "co-existence" in the target article.)
+Upgrading to Teams can be accomplished by assigning TeamsUpgradePolicy, which can be performed by using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 ## Phone System and Teams upgrade
 

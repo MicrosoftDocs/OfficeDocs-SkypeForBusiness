@@ -43,7 +43,7 @@ After you’ve completed your hybrid setup, move users to Skype for Business Onl
 
 ## Step 3: Assign a coexistence and upgrade mode
 
-After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
+After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 [//]: # (Is it okay that Step 3 actually says "assign a coexistence and upgrade mode" rather than "upgrade users to Teams"?)
 
