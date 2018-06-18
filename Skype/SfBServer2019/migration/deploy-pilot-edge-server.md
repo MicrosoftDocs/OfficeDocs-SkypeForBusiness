@@ -31,7 +31,7 @@ As you navigate through the **Define New Edge Pool** wizard, review the key conf
   
 4. On the **Select features** page, do not enable federation or XMPP federation. Federation and XMPP federation are both currently routed through the legacy Edge Server. These features will be configured in a later phase of migration. 
     
-     ![Select Features dialog box](../media/migration_ocs_topo_edgepool_page3.JPG)
+     ![Select Features dialog box]()
   
 5. Next, continue completing the following wizard pages: **External FQDNs**, **Define the internal IP address**, and **Define the external IP address**.
     
