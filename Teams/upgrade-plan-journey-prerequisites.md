@@ -1,21 +1,27 @@
 ---
-title: Prerequisites and environmental dependencies
+title: Prerequisites and environmental dependencies for Microsoft Teams - Microsoft Teams
 author: turgayo
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: turgayo
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: turgayo
-description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization
+ms.reviewer: dearbeen
+description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Technical Readiness](media/upgrade-banner-tech-readiness.png "Technical Readiness")
+![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. 
+This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
+
+-   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+-   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
 # Environmental dependencies
 

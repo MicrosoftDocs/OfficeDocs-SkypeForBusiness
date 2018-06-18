@@ -33,6 +33,9 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 > [!NOTE]
 > There can be a maximum of one toll and one toll-free phone number on the meeting invite for a meeting organizer, but there is also a link located at the bottom of each meeting invite that opens the full list of all dial-in phone numbers that can be used to join a meeting. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Set the default dial-in phone number for a meeting organizer
 
@@ -51,9 +54,6 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     ![Click Edit next to Audio conferencing](../images/teamseditaudioconf.png)
 
 4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 

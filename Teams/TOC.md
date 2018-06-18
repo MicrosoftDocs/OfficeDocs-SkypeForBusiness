@@ -13,15 +13,16 @@
 
 
 # Setup
+## [Overview of a Teams deployment](deployment-overview.md)
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ## [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ## [Sign in to Teams](sign-in-teams.md)
-## [Overview of a Teams deployment](deployment-overview.md)
 ## [Set up Teams in your Office 365 organization](Office-365-set-up.md)
 ## [Turn on Teams features in your Office 365 organization](enable-features-office-365.md)
 ## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ## [Install Microsoft Teams using MSI](msi-deployment.md)
+## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ## [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -41,6 +42,7 @@
 
 # Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+## [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
@@ -62,7 +64,7 @@
 # Apps & services
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Manage the Teams Private App Store](private-app-store-teams.md)
+## [Publish the Teams Private App Store](private-app-store-teams.md)
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use T-Bot to help users with Teams](t-bot.md)
@@ -101,6 +103,7 @@
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 ### [Plan my service management](4-envision-plan-my-service-management.md)
 ### [Plan my users experience](5-envision-plan-my-users-experience.md)
@@ -256,6 +259,7 @@
 ### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Manage
+### [Let your users communicate with other people](let-your-teams-users-communicate-with-other-people.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
@@ -264,8 +268,6 @@
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
-
-
 
 
 # Troubleshoot & support

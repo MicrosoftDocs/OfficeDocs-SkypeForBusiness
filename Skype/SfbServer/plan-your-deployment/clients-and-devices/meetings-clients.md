@@ -161,8 +161,6 @@ As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 a
 ## See also
 <a name="BKMK_Conferencing"> </a>
 
-[Skype Meetings App minimum network requirements](minimum-network-requirements.md)
-
 [Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

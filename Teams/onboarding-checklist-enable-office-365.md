@@ -2,7 +2,7 @@
 title: Onboarding checklist for enabling the Office 365 service for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/16/2018
 ms.topic: article
 ms.service: msteams

@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "This article discusses known issues for Skype Room Systems v2 current branch versions."
+description: "This article discusses known issues for Skype Room Systems v2, by feature area."
 ---
 
 # Known issues 
@@ -50,7 +50,7 @@ Always use a wired 1 Gbps network connection to assure you will have the needed 
 ***
 If your Skype Room Systems v2 device loses trust with the domain (for example, if you remove the Skype Room Systems v2 from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
 ***
-The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
+The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0. 
 ***
 
 <a name="See"> </a>  

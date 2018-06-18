@@ -1,26 +1,27 @@
 ---
-title: Assess organizational change readiness
+title: Assess organizational change readiness before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Needs one 
+description: Ensure your organization and users are ready for Microsoft Teams  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
+![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
 # Assess organizational change readiness
 
@@ -81,7 +82,7 @@ Use the following conversation starters to conduct an organizational readiness a
 
 ## Use cases
 
-Articulating specific use cases in your awareness and training plan makes users feel that you truly are designing technology for the way they work. You can developThere are universal use cases (scenarios that apply to everyone in your organization regardless of role) in addition to targeted use cases based on user profiles. For each, it’s important to identify the challenges of the current process and explain how the new technology can optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate a desire in users to give it a try.
+Articulating specific use cases in your awareness and training plan makes users feel that you truly understand the way they work. There are universal use cases (scenarios that apply to everyone in your organization regardless of role) in addition to targeted use cases based on user profiles. For each, it’s important to identify the challenges of the current process and explain how the new technology can optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate a desire in users to give it a try.
 
 ### Activity
 

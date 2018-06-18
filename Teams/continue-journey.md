@@ -1,20 +1,23 @@
 ---
-title: Drive value with Microsoft Teams through user adoption
+title: Drive value with Microsoft Teams through user adoption - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-description: Guidance for continuing your journey from Skype for Business to Microsoft Teams.
+ms.reviewer: dearbeen
+description: Guidance for continuing your journey from Skype for Business to Microsoft Teams 
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on Operational Excellence](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on Operational Excellence")
+![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
-This article is part of the Operational Excellence stage of your upgrade journey, and begins as soon as you've completed your upgrade from Skype for Business to Teams.
+This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
 # Drive operational excellence with Microsoft Teams
 
@@ -25,8 +28,8 @@ Technology is innovating at an unprecedented pace. Staying current and enabling 
 The status of your network affects the user experience. When a user has a poor experience (for example, call drops or lag time when joining meetings), they correlate this to the technology itself, leaving them with the impression that the technology doesn’t work and opening the door for unsupported apps. Implementing a plan to monitor and mitigate network health will help ensure a positive user experience in addition to reducing calls to your support desk. For more information, see the following articles:
 
 -   [Operate my service](upgrade-operate-my-service.md)
--   [Monitor Quality](upgrade-monitor-quality.md)
--   [Enhance my service](2-drive-value-enhance-my-service.md)
+-   [Monitor quality](upgrade-monitor-quality.md)
+-   [Enhance my service](upgrade-enhance-my-service.md)
 
 ## Drive user momentum and adoption
 
@@ -34,6 +37,7 @@ To realize maximum benefit and business outcomes with Teams, users must actually
 
 -   Enlisting peer champions to help evangelize and encourage fellow users.
 -   Checking the [Office 365 Adoption Guide](https://go.microsoft.com/fwlink/?linkid=859045) for tips on boosting engagement and driving adoption.
+-   Leveraging the [Teams Customer Success Kit](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) to enhance awareness and share best practices.
 
 ## Prepare for new functionality
 
