@@ -20,10 +20,12 @@ description: "Summary: These features have been removed from Skype for Business 
 
 The following features are found in Skype for Business Server 2015 but are no longer present in Skype for Business Server 2019: 
 
-- Persistent chat (136 topics impacted, leave unevergreened deliberately?)
+- Persistent chat (136 topics impacted, leave unevergreened deliberately? create new stub topic in 2019 toc explaining deprecation?)
     - [Plan for Persistent Chat Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
     - [Deploy Persistent Chat Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)
-    - [Manage Persistent Chat Server in Skype for Business Server 2015](../SfbServer/manage/persistent-chat/persistent-chat.md) 
+    - [Manage Persistent Chat Server in Skype for Business Server 2015](../SfbServer/manage/persistent-chat/persistent-chat.md)
+
+There is no migration topic for Pchat, but there is one for XMPP. Reconcile w/ Ken.  
 
 - SQL Mirroring (most HADR topics impacted, 49 topics)
     - [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)\
@@ -69,6 +71,7 @@ Will the 2019 help for topology builder, control panel, planning tool, and other
 ## Evergreen
 
 Documentation for the following features (including all relevant plan/deploy/manage nodes) applies equally to Skype for Business Server 2015 and 2019:
+- Requirements (Server, env, network)
 - Monitoring (plan, deploy, manage)  &#x2714;
 - Archiving (plan, deploy, manage)  &#x2714;
 - Capacity planning
@@ -77,6 +80,7 @@ Documentation for the following features (including all relevant plan/deploy/man
 - Edge (unclear, verify w/ Heidi)
 - Enterprise Voice (plan, deploy, manage)
 - Exchange integration (plan, deploy, manage)
+- HADR
 - Modern Auth
 - Security (plan, deploy, manage)
 - IM and Presence (plan, deploy, manage)

@@ -21,7 +21,7 @@ XMPP federation defines an external deployment based on the eXtensible Messaging
 When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers, or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates. 
   
 > [!NOTE]
-> XMPP functionality is deprecated in Skype for Business Server 2019, but can be contionued in legacy server in coexistence with Skype for Business Server 2019, Make sure, you already deployed the legacy server (Skyep for Business Server 2015 / Lync Server 2013) XMPP Gateway, and configured the access policies to enable users for legacy XMPP Gateway. For details, see [Migrationg XMPP Federation](migrating-xmpp-federation.md). 
+> XMPP functionality is deprecated in Skype for Business Server 2019, but can be continued in a legacy server in coexistence with Skype for Business Server 2019. Make sure you have already deployed the legacy server (Skype for Business Server 2015 / Lync Server 2013) XMPP Gateway, and configured the access policies to enable users for legacy XMPP Gateway. For details, see [Migrating XMPP Federation](migrating-xmpp-federation.md). 
   
 ### Configure an External Access Policy to Enable Users for legacy XMPP Gateway
 
