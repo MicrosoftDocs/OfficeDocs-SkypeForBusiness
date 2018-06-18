@@ -31,7 +31,7 @@ There is no migration topic for Pchat, but there is one for XMPP. Reconcile w/ K
     - [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)\
     Can't omit entirely, as other methods are still supported. Likely candidates for alerts.
 - XMPP Gateway (7 Edge topics impacted, so collaborate w/Heidi)   
-    - Migration [Configure XMPP gateway on Skype for Business Server 2019](migration/configure-xmpp-gateway.md) \
+    - Migration [Configure XMPP gateway access policies and certificates](migration/configure-xmpp-gateway-access-policies-and-certificates.md) \
      (what happened? check w/ Ken)
     - [Configure XMPP gateway access policies and certificates](migration/configure-xmpp-gateway-access-policies-and-certificates.md)
     - [XMPP Federated Partners](../SfbServer/help-topics/help-lscp/xmpp-federated-partners.md)
