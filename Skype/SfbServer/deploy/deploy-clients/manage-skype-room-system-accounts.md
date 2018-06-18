@@ -14,7 +14,10 @@ description: "Read this topic to learn how to manage Skype Room System accounts.
 
 # Manage Skype Room System accounts
  
-Read this topic to learn how to manage Skype Room System accounts.
+Read this topic to learn how to manage Skype Room System accounts. 
+
+> [!NOTE]
+> Skype Room Systems v2 is a different product with different dependencies and deployment procedures. For information on Skype Room Systems v2, see the Skype Room Systems v2 [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
   
 ## Move the Skype Room System account between pools
 
