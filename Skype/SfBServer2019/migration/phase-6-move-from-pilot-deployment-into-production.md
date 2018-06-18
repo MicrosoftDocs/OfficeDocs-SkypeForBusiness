@@ -24,6 +24,4 @@ The topics in this section describe tasks you must complete prior to moving your
     
 - [Move remaining users to Skype for Business Server 2019](move-remaining-users.md)
     
-- [Configure XMPP gateway on Skype for Business Server 2019](configure-xmpp-gateway.md)
-    
 
