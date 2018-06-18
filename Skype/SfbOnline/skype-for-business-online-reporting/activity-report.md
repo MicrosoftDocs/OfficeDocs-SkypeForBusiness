@@ -18,6 +18,7 @@ f1keywords:
 ms.custom:
 - Reporting
 description: "Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. "
+search.appverid: "MET150"
 ---
 
 # Activity report
