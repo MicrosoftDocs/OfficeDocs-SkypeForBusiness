@@ -52,7 +52,7 @@ After you’ve moved your users to Skype for Business Online, you can assign the
 
 ## Phone System and Teams upgrade
 
-[//]: # (Would it be more accurate to say "...and Microsoft WILL BE be your PSTN provider"?)
+[//]: # (Would it be more accurate to say "...and Microsoft WILL BE your PSTN provider"?)
 
 If you’re transitioning your Skype for Business on-premises deployment from enterprise voice to Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider—and assuming that you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
