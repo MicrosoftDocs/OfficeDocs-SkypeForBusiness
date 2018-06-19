@@ -25,10 +25,10 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
-# THIS NEEDS TO BECOME A PROPER NODE FOR AGUS'S THREE NEW TOPICS
+# Upgrade to Teams - NEEDS WORK
 
-Gerblab gerblab gerblab:
+Choose your upgrade journey based on your current deployment of Skype for Business:
 
--   [Execute Skype for Business Online to Teams upgrade](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
--   [Execute Skype for Business hybrid to Teams upgrade](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
--   [Execute Skype for Business on-premises to Teams upgrade](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+-   [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+-   [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+-   [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
