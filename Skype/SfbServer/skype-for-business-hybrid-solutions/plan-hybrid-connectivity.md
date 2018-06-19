@@ -124,7 +124,7 @@ To implement and deploy hybrid connectivity between Skype for Business Server an
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this topic.
     
     > [!NOTE]
-    > For a Hybrid environment to work correctly, every SIP domain that exists in your Onpremises environment needs to also exist in your Office 365 tenant and vice-versa. You cannot have some SIP domains online only and some domains Onprem only, this is not a supported topology in Skype for Business. Otherwise, Presence, IM and other features will not work correctly.
+    > Every SIP domain that exists in your on-premises environment must also exist in your Office 365 tenant and vice-versa. You cannot have some SIP domains online only and some domains on-premises only. Otherwise, presence, IM and other features will not work correctly.
     
 - A Microsoft Office 365 tenant with Skype for Business Online enabled. 
     
