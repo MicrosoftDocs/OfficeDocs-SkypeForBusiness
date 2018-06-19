@@ -21,7 +21,7 @@ A team owner in Microsoft Teams can add and manage guests in their teams via the
     
 
 > [!NOTE]
-> Before guests can join a team, an admin must enable guest access in Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see [Turn on or off guest access for Microsoft Teams](set-up-guests.md). 
+> Before guests can join a team, an admin must enable guest access in Teams. To do that, see [Turn on or off guest access for Microsoft Teams](set-up-guests.md). 
   
     
     
@@ -41,4 +41,5 @@ While using Teams, text and icons give all team members clear indication of gues
 Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) on how to remove yourself from the organizations. Alternatively, the resource organization's admin can remove guest users from the tenant.
+> Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) on how to remove yourself from the organizations. 
+Alternatively, the organization's admin can remove guest users from the tenant.
