@@ -1,5 +1,5 @@
 ---
-title: Execute Skype for Business on-premises to Teams upgrade - Microsoft Teams
+title: Upgrade from Skype for Business on-premises to Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Execute your upgrade to Teams from Skype for Business on-premises
+description: Considerations for upgrading to Teams from Skype for Business on-premises.
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -25,33 +25,33 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
-# Execute Skype for Business on-premises to Teams upgrade
+# Upgrade from a Skype for Business on-premises deployment to Teams
 
-If Skype for Business or Lync is deployed on-premises and your organization wants to upgrade to Teams, selectively, with multiple coexistence modes, or all-in based on the upgrade journey that has been decided for your organization, the first step that needs to be completed is to setup hybrid connectivity with your Office 365 tenant. Subsequently, you need to move your users to Skype for Business Online and then assign the appropriate coexistence and upgrade mode to your users.
+Follow the guidance in this article if you’ve deployed Skype for Business or Microsoft Lync on-premises and your organization wants to upgrade to Teams either selectively—by using multiple coexistence modes—or all-in. The first step is to set up hybrid connectivity with your Office 365 tenant, and then move your users to Skype for Business Online and assign them the appropriate coexistence and upgrade mode.
 
 ## Step 1: Deploy hybrid connectivity
 
-Deploying hybrid connectivity is the key prerequisite before you can upgrade your users to Teams. This may involve new deployment of external connectivity of your existing Skype for Business or Lync deployment, or just a matter of configuring the hybrid relationship with your Office 365 tenant.
+The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity. This might involve deploying new external connectivity for your existing Skype for Business or Lync deployment, or simply configuring a hybrid relationship with your Office 365 tenant.
 
 For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## Step 2: Move users to Skype for Business Online
 
-After hybrid setup is completed, you need to move the users to be upgraded to Skype for Business Online.
+After you’ve completed your hybrid setup, move users to Skype for Business Online.
 
 For more information, see [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
-## Step 3: Assign coexistence and upgrade mode
+## Step 3: Assign a coexistence and upgrade mode
 
-Once your users are migrated to Skype for Business Online, you can apply the appropriate coexistence mode based on the journey that your organization has decided to undertake.
+After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen.
 
-For more information, see [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
+For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 > [!NOTE]
-> With Skype for Business Server 2019 and future cumulative update of Skype for Business Server 2015, you will be able to perform Step 2 (moving users to Skype for Business Online and Step 3 (upgrade users to Teams) in a single step. More information will be provided once Skype for Business Server 2019 is released.
+> With Skype for Business Server 2019 and a future cumulative update of Skype for Business Server 2015, you’ll be able to perform Step 2 (moving users to Skype for Business Online) and Step 3 (upgrade users to Teams) in a single step. More information will be provided after Skype for Business Server 2019 is released.
 
 ## Phone System and Teams upgrade
 
-If you’re transitioning your Skype for Business on-premises deployment from enterprise voice to Phone System with Calling Plans—Microsoft as your PSTN provider, assuming you’ve completed the phone number porting, upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+If you’re transitioning your Skype for Business on-premises deployment from enterprise voice to Phone System with Calling Plans and Microsoft will be your public switched telephone network (PSTN) provider—and assuming that you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
-Alternatively, if Calling Plans is not available, you need to transition your enterprise voice deployment to Direct Routing. Upgrading your users to Teams will need to include additional considerations as described in [placeholder link to Direct Routing Journeys].
+If Calling Plans isn’t available, you need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. To upgrade your users to Teams, see the additional considerations described in [placeholder link to Direct Routing Journeys].

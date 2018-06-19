@@ -1,5 +1,5 @@
 ---
-title: Execute Skype for Business Online to Teams upgrade - Microsoft Teams
+title: Upgrade from Skype for Business Online to Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Execute your upgrade to Teams from Skype for Business Online 
+description: Considerations for upgrading to Teams from Skype for Business Online 
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -25,18 +25,18 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
-# Execute Skype for Business Online to Teams upgrade
+# Upgrade from Skype for Business Online to Teams
 
-Upgrading your users from Skype for Business to Teams, selectively or all-in, based on the upgrade journey that has been decided for your organization, in a wholly Skype for Business Online deployment, can be accomplished by assigning the appropriate coexistence and upgrade mode to your users.
+Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams,. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 
-## Assign coexistence and upgrade mode
+## Assign the coexistence and upgrade mode
 
-Upgrading to Teams can be accomplished by assigning TeamsOnly upgrade policy, which can be performed using Microsoft Teams & Skype for Business Admin Center or Skype for Business remote Windows Powershell session.
+Upgrading to Teams can be accomplished by assigning `TeamsOnly` mode of `TeamsUpgradePolicy`, which can be performed by using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session.
 
-For more information, see [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence).
+For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 ## Phone System and Teams upgrade
 
-If your Skype for Business Online deployment includes the implementation of Phone System with Calling Plans—Microsoft as your PSTN provider, upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+If your Skype for Business Online deployment includes Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider, upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
-For Skype for Business Online deployment that includes the implementation of Phone System with Cloud Connector Edition, upgrading your users to Teams will need to include additional considerations as described in [placeholder link to Direct Routing Journeys].
+If your Skype for Business Online deployment includes Phone System with Cloud Connector Edition, see the additional considerations described in [placeholder link to Direct Routing Journeys].
