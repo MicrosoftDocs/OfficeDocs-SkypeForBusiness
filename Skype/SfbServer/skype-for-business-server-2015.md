@@ -26,7 +26,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +44,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/SkypeForBusiness/sfbserver/media/icon-hybrid.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
 
                         </div>
                     </div>
@@ -63,7 +63,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_upgrade.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_architecture.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +117,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_download-generic.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
