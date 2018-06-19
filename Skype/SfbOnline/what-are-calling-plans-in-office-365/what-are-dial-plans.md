@@ -20,9 +20,6 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Office 365 and how to choose one for your organization.  "
-search.appverid: 
-- MED150
-- MOE150
 ---
 
 # What are dial plans?

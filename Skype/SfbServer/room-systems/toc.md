@@ -23,3 +23,22 @@
 ### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md)
+# Skype Room Systems (v1)
+## Plan
+### [Deploy Skype Room System in Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Deploy
+### [Provisioning of Skype Room System Exchange and Skype Accounts](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+#### [Skype Room System single forest on-premises deployments](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
+#### [Skype Room System multiple forest on-premises deployments](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
+#### [Provisioning Skype Room System accounts in Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Skype Room System hybrid deployments](../deploy/deploy-clients/hybrid-deployments.md)
+#### [Skype Room System and Skype for Business federated partners](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Conferencing policy for Skype Room System accounts](../deploy/deploy-clients/conferencing-policy.md)
+### [Skype Room System trusted domains](../deploy/deploy-clients/trusted-domains.md)
+### [Skype Room System migration considerations](../deploy/deploy-clients/migration-considerations.md)
+### [Skype Room System domain joining considerations](../deploy/deploy-clients/domain-joining-considerations.md)
+### [Skype Room System: Skype for Business software license](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+### [Skype Room System manageability and tools](../deploy/deploy-clients/manageability-and-tools.md)
+### [Skype Room System room setup scripts](../deploy/deploy-clients/room-setup-scripts.md)
+## Manage
+### [Manage Skype Room System accounts](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
