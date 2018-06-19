@@ -341,7 +341,7 @@ In some cases there is a need to route all calls to the same SBC; please use -Nu
 - Route all calls to same SBC
 
     ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern "." 
+    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
      -OnlinePstnGatewayList sbc1.contoso.biz
     ```
 
