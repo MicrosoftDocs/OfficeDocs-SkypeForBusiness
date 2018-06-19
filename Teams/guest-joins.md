@@ -41,4 +41,4 @@ While using Teams, text and icons give all team members clear indication of gues
 Guests can leave the team at any time via Teams web and desktop clients. For details, see  [How do I leave a team?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Although users can leave a team on their own, only an admin can remove users from the tenant. 
+> Leaving the team doesn't remove the guest account from the organization/tenant. See [Leave an organization as a guest user](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) on how to remove yourself from the organizations. Alternatively, the resource organization's admin can remove guest users from the tenant.
