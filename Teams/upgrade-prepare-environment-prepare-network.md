@@ -1,5 +1,5 @@
 ---
-title: Prepare my network - Microsoft Teams
+title: Prepare your network - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -23,7 +23,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare my network
+# Prepare your network
 
 Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.
 

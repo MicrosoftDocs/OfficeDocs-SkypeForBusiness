@@ -1,5 +1,5 @@
 ---
-title: Prepare my service - Microsoft Teams
+title: Prepare your service - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -23,13 +23,13 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare my service
+# Prepare your service
 
 This article gives an overview of the requirements for preparing your organization for collaboration and cloud voice services with Teams. By preparing properly, you can be sure you’re ready to provide these capabilities to your organization.
 
 ## Onboarding checklists for Microsoft Teams rollout
 
-The following checklists walk you through the steps for deploying Microsoft Teams in your organization.
+The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
 -  [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
