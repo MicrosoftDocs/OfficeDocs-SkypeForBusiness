@@ -1,5 +1,5 @@
 ---
-title: Upgrade from Skype for Business on-premises to Teams - Microsoft Teams
+title: Upgrade from a Skype for Business on-premises deployment to Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from Skype for Business on-premises.
+description: Considerations for upgrading to Teams from a Skype for Business on-premises deployment.
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin

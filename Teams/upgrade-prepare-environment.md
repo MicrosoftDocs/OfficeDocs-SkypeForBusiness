@@ -23,7 +23,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare your environment 
+# Prepare your environment for upgrading to Teams
 
 To drive a successful Teams upgrade in your organization, it’s important that you validate your current Skype for Business environment and your network readiness. Taking time to plan individual steps can help accelerate your deployment and ensure that you haven’t skipped any important action items.
 
