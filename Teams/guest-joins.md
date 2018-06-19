@@ -21,7 +21,7 @@ A team owner in Microsoft Teams can add and manage guests in their teams via the
     
 
 > [!NOTE]
-> Before guests can join a team, an admin must enable guest access in Teams. To do that,  [sign in](https://portal.office.com/adminportal/home) with your Office 365 global admin account. Then, choose **Settings** > **Services &amp; add-ins** > **Microsoft Teams**. Select **Guest** in **Select the user/license type you want to configure**, and select **On** in **Turn Microsoft Teams on or off for all users of this type**. It can take up to an hour for the settings to take effect. For more details, see [Turn on or off guest access for Microsoft Teams](set-up-guests.md). 
+> Before guests can join a team, an admin must enable guest access in Teams. To do that, see [Turn on or off guest access for Microsoft Teams](set-up-guests.md). 
   
     
     
