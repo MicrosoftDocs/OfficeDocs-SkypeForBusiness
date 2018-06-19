@@ -1,5 +1,5 @@
 ---
-title: Prepare my environment for upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
+title: Prepare your environment for upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars

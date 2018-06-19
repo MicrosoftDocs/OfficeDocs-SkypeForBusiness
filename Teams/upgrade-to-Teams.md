@@ -25,7 +25,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
-# Upgrade to Teams - NEEDS WORK
+# Perform your upgrade to Teams
 
 Choose your upgrade journey based on your current deployment of Skype for Business:
 
