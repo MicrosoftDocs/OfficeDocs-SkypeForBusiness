@@ -14,35 +14,65 @@ description: "Summary: These features have been removed from Skype for Business 
 
 # Skype for Business Server 2019 deprecations
 
+For new features in 2019, we are writing new topics. For features 2015 and 2019 have in common, we will make many topics release agnostic and they will be visible in the TOC for both products. For features being removed, we will in some cases deliberately not surface some topics in the 2019 TOC, and these 2015 articles will remain release specific with notes explaining the differences between releases.
+
+ Persitent Chat, SQL Mirroring, and XMPP Gateway functionalities are no longer available as Skype for Business Server 2019 features. Persistent Chat functionality is available in Teams and we recommend adopting Teams for situations requiring that functionality. SQL Mirroring can be replaced with other methods that are still supported. XMPP Gateway services can be maintained using a coexistence environment, if they were previously deployed. If you want to continue using these features, then plan a coexistence environment where some users remain in legacy pools.
+
 <!-- In addition to deprecations, this document reflects notes on what topic areas can and can't be evergreened to generically apply to 2019 and 2015 alike. It's not a doc plan in that it provides no schedule, but it is a general plan of attack to deal with legacy topics requiring minimal investment for 2019's release. -->
 
 [!INCLUDE [disclaimer](disclaimer.md)]
 
-The following features are found in Skype for Business Server 2015 but are no longer present in Skype for Business Server 2019: 
+The following features are found in Skype for Business Server 2015 but are no longer present in Skype for Business Server 2019. They are discussed in these topics, which will need to have appropriate notices added, and the references to server versions will be left specific to 2015 
 
-- Persistent chat (136 topics impacted, leave unevergreened deliberately? create new stub topic in 2019 toc explaining deprecation?)
+<!-- (136 topics impacted, leave unevergreened deliberately? create new stub topic in 2019 toc explaining deprecation?)-->
+- Persistent chat 
     - [Plan for Persistent Chat Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
     - [Deploy Persistent Chat Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)
     - [Manage Persistent Chat Server in Skype for Business Server 2015](../SfbServer/manage/persistent-chat/persistent-chat.md)
+    - and about 133 more topics
 
-There is no migration topic for Pchat, but there is one for XMPP. Reconcile w/ Ken.  
+Suggest adding this note: 
 
-- SQL Mirroring (most HADR topics impacted, 49 topics)
-    - [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)\
-    Can't omit entirely, as other methods are still supported. Likely candidates for alerts.
-- XMPP Gateway (7 Edge topics impacted, so collaborate w/Heidi)   
-    - Migration [Configure XMPP gateway access policies and certificates](migration/configure-xmpp-gateway-access-policies-and-certificates.md) \
-     (what happened? check w/ Ken)
+> [!NOTE]
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. Teams offers similar functionality, refer to INSERT LINK HERE.
+
+<!-- There is no migration topic for Pchat, but there is one for XMPP. Reconcile w/ Ken. -->  
+<!-- (most HADR topics impacted, 15 topics) -->
+- SQL Mirroring 
+     - [Back End Server high availability in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
+    - [Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+    - [Server requirements for Skype for Business Server 2019](plan/server-requirements.md)
+
+Suggest adding this note: 
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
+<!-- so we offer the other methods instead -->
+
+<!-- (7 Edge topics impacted, so collaborate w/Heidi, parallell topics in migration) -->
+- XMPP Gateway    
+    - Migration [Configure XMPP gateway access policies and certificates](migration/configure-xmpp-gateway-access-policies-and-certificates.md)  <!--    (what happened? check w/ Ken) -->
     - [Configure XMPP gateway access policies and certificates](migration/configure-xmpp-gateway-access-policies-and-certificates.md)
-    - [XMPP Federated Partners](../SfbServer/help-topics/help-lscp/xmpp-federated-partners.md)
-- In-place upgrades from previous versions (Ken working on installation and migration topics, need to sync)
-    - [Plan to upgrade to Skype for Business Server 2015](../SfbServer/plan-your-deployment/upgrade.md)
-- Support for TLS 1.0 and 1.1 (1 topic, see Heidi)
-    -  [Encryption for Skype for Business Server 2015](../SfbServer/plan-your-deployment/security/encryption.md)
+    - [Feature Overview (Planning Tool)](../SfbServer/management-tools/planning-tool/feature-overview.md)
+    - [Configure watcher node test users and settings](../SfbServer/management-tools/use-scom-management-pack/test-users-and-settings.md)
+    - [Edge Server environmental requirements in Skype for Business Server 2015](../SfbServer/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+    - [Edge Server system requirements in Skype for Business Server 2015](../SfbServer/plan-your-deployment/edge-server-deployments/system-requirements.md)
+    - [Topology Basics for Skype for Business Server 2015](../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)
+    - [Migrating XMPP federation](migration/migrating-xmpp-federation.md)
+    -  [Phase 3: Deploy Skype for Business Server 2019 pilot pool](migration/phase-3-deploy-pilot-pool.md)
+    - [Verify the legacy environment](migration/verify-environment.md)
 
+Migration topics describe how to set up coexistence for XMPP, but the 2015 topics should get a pointer inside a note. Suggest this:
+
+> [!NOTE]
+> XMPP Gateways are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](migration/migrating-xmpp-federation.md) for more information.
 
 <!-- 
-The file counts reflect file hits in searches, and in some cases refer to un-migrated 2013 topics we can link to once they are migrated. 
+- In-place upgrades from previous versions (Ken working on installation and migration topics, need to sync)
+    - [Plan to upgrade to Skype for Business Server 2015](../SfbServer/plan-your-deployment/upgrade.md) -->
+
+
+<!-- The file counts reflect file hits in searches, and in some cases refer to un-migrated 2013 topics we can link to once they are migrated. 
 
 The following deprecation notes may be necessary. Or not. If 2019 has a seperate toc but single sources files from 2015 folders we can simply omit entire files and nodes from the 2019 toc and reffrain from evergreening them, so they self-identify as 2015 topics.
 
@@ -56,17 +86,12 @@ The following deprecation notes may be necessary. Or not. If 2019 has a seperate
 > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The Clustering and AlwaysOn methods are preferred with Skype for Business Server 2019.
 
 > [!NOTE]
-> In-place upgrades from previous versions are available in Skype for Business Server 2015 but are not available  in Skype for Business Server 2019. See *Migration link*
+> In-place upgrades from previous versions are available in Skype for Business Server 2015 but are not available in Skype for Business Server 2019. See *Migration link*
 
 Add following to encryption.md:
 > [!SECURITY NOTE]
 > To ensure the strongest cryptographic protocol is used, Skype for Business Server 2019 will offer TLS encryption protocols in the following order to clients: **TLS 2.0, TLS 1.2**. TLS is a critical aspect of Skype for Business Server 2019 and thus it is required in order to maintain a supported environment. 
 -->
-
-### Online Help
-
-Will the 2019 help for topology builder, control panel, planning tool, and other tools get evergreened too?
-
 
 ## Evergreen
 
@@ -80,7 +105,7 @@ Documentation for the following features (including all relevant plan/deploy/man
 - Edge (unclear, verify w/ Heidi)
 - Enterprise Voice (plan, deploy, manage)
 - Exchange integration (plan, deploy, manage)
-- HADR
+- HADR (except SQL Mirroring)
 - Modern Auth
 - Security (plan, deploy, manage)
 - IM and Presence (plan, deploy, manage)
@@ -88,12 +113,9 @@ Documentation for the following features (including all relevant plan/deploy/man
 - VIS role (plan, deploy, manage)
 - Topology management
 - User account management
-
-We can also evergreen: 
-- Schema references
 - Technical diagrams
 
 ## New items
 New items we may need by RTM include: 
 - What's new in 2019
-- Deprecated (this document, after we massage out my chatter)
+- Deprecated (this document)
