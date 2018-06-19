@@ -41,7 +41,9 @@
 
 
 # Lync Partner Qualification
-### Applications [Qualified Lync applications](../lync-cert-program-qualified-lync-apps.md)
+
+### Applications 
+##### [Qualified Lync applications](../lync-cert-program-qualified-lync-apps.md)
 
 ### Devices
 ##### [Phones and devices qualified for  Lync](../lync-cert-program-ip-phones.md)
