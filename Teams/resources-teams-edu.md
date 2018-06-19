@@ -3,7 +3,7 @@ title: Microsoft Teams resources for Education admins
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/19/2018
+ms.date: 06/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
