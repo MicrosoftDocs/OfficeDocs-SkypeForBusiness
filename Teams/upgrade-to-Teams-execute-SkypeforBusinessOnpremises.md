@@ -1,5 +1,5 @@
 ---
-title: Upgrade from a Skype for Business on-premises deployment to Teams - Microsoft Teams
+title: Upgrade from Skype for Business on-premises to Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from a Skype for Business on-premises deployment
+description: Considerations for upgrading to Teams from Skype for Business on-premises.
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -31,29 +31,25 @@ Follow the guidance in this article if you’ve deployed Skype for Business or M
 
 ## Step 1: Deploy hybrid connectivity
 
-[//]: # (Edit okay? I didn't quite know what "new deployment of external connectivity of your existing Skype for Business or Lync deployment" meant.)
-
 The key prerequisite for upgrading your users to Teams is to deploy hybrid connectivity. This might involve deploying new external connectivity for your existing Skype for Business or Lync deployment, or simply configuring a hybrid relationship with your Office 365 tenant.
 
 For more information, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## Step 2: Move users to Skype for Business Online
 
-After you’ve completed your hybrid setup, move users to Skype for Business Online. For more information, see [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+After you’ve completed your hybrid setup, move users to Skype for Business Online.
+
+For more information, see [Move users from on premises to Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
 ## Step 3: Assign a coexistence and upgrade mode
 
 After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
-
-[//]: # (Is it okay that Step 3 actually says "assign a coexistence and upgrade mode" rather than "upgrade users to Teams"?)
 
 > [!NOTE]
 > With Skype for Business Server 2019 and a future cumulative update of Skype for Business Server 2015, you’ll be able to perform Step 2 (moving users to Skype for Business Online) and Step 3 (upgrade users to Teams) in a single step. More information will be provided after Skype for Business Server 2019 is released.
 
 ## Phone System and Teams upgrade
 
-[//]: # (Would it be more accurate to say "...and Microsoft WILL BE your PSTN provider"?)
-
-If you’re transitioning your Skype for Business on-premises deployment from enterprise voice to Phone System with Calling Plans and Microsoft is your public switched telephone network (PSTN) provider—and assuming that you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
+If you’re transitioning your Skype for Business on-premises deployment from enterprise voice to Phone System with Calling Plans and Microsoft will be your public switched telephone network (PSTN) provider—and assuming that you’ve completed the phone number porting—upgrading your users to Teams will automatically transition inbound PSTN calling to Teams.
 
 If Calling Plans isn’t available, you need to transition your enterprise voice deployment to Microsoft Phone System Direct Routing. To upgrade your users to Teams, see the additional considerations described in [placeholder link to Direct Routing Journeys].
