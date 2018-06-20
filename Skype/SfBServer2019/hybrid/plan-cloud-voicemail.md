@@ -1,5 +1,5 @@
 ---
-title: "Plan Cloud Voicemail Service"
+title: "Plan Cloud Voicemail service"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "This topic describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
+description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
 <!-- PM Roy Kuntz  -->
 
@@ -19,7 +19,7 @@ description: "This topic describes benefits, planning considerations, and requir
 
 ## Overview 
 
-This topic describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail.
+This article describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail.
 
 Cloud Voicemail enables all your Skype for Business 2019 users--whether they are homed on premises or online--to have access to the same voicemail service in the Microsoft Cloud. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
@@ -58,23 +58,21 @@ Unanswered calls are handled as follows:
 4.  The Service then deposits the voicemail in the Exchange mailbox of the user, whether the mailbox is on-premises on online.  
 5. Users can access their voicemail from either their Skype for Business Online, Teams, or Outlook client.
 
-##Requirements
+## Requirements
 
-The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server 2019 and supported topologies, see INSERT LINK HERE.
+The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
 
-If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for both your on-premises and online users, the following are required:        
+- **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
 
-  **IS THE FOLLOWING CORRECT?**
+    - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
 
-- Hybrid connectivity between your on-premises server and the online service. This is sometimes called a split domain configuration. For details, see Plan hybrid connectivity and Configure hybrid connectivity.
+    - An Office 365 tenant with Skype for Business Online enabled.  
 
-     - Enabled federation between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.
+    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online).  
 
-     - Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
+    - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
 
-- Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory (and the necessary Skype for Business and Exchange attributes) with Office 365. For more information, see Connect Active Directory with Azure Active Directory.   
-
-- An Office 365 tenant with Skype for Business Online license enabled.  
+    For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
 
 - On-premises users must be enabled for voice and hosted voicemail in Skype for Business Server. For more information, see INSERT LINK HERE.
 
