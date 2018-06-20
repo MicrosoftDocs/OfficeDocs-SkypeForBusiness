@@ -59,7 +59,7 @@ For more information, please refer to [Migration and interoperability Guidance f
 
 For more information about migrating from Calling Plans, see:
 
-- [Set up Calling Plans](../../skype/SfbOnline/what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+- [Set up Calling Plans](../skype/SfbOnline/what-are-calling-plans-in-office-365/set-up-calling-plans.md)
 - [Set-CsOnlineVoice User](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/en-us/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
