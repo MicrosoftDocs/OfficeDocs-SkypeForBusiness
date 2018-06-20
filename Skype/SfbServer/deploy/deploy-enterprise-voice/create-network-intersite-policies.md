@@ -1,8 +1,9 @@
 ---
-title: "Create network intersite policies in Skype for Business Server"
+title: "Create network intersite policies in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: "Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server."
 ---
 
-# Create network intersite policies in Skype for Business Server
+# Create network intersite policies in Skype for Business Server 2015
  
 Create network inter-site policies, which are used by Enterprise Voice call admission control in Skype for Business Server. 
   

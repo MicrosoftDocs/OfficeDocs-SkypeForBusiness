@@ -1,8 +1,9 @@
 ---
-title: "Assign location policy scope in Skype for Business Server"
+title: "Assign location policy scope in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: "Planning location policies for an E9-1-1 deployment in Skype for Business Server Enterprise Voice."
 ---
 
-# Assign location policy scope in Skype for Business Server
+# Assign location policy scope in Skype for Business Server 2015
  
 Planning location policies for an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   

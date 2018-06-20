@@ -1,21 +1,22 @@
 ---
-title: "Configure call detail recording and Quality of Experience settings in Skype for Business Server"
+title: "Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: "Summary: Learn how to configure CDR and QoE in Skype for Business Server."
+description: "Summary: Learn how to configure CDR and QoE in Skype for Business Server 2015."
 ---
 
-# Configure call detail recording and Quality of Experience settings in Skype for Business Server
+# Configure call detail recording and Quality of Experience settings in Skype for Business Server 2015
  
-**Summary:** Learn how to configure CDR and QoE in Skype for Business Server.
+**Summary:** Learn how to configure CDR and QoE in Skype for Business Server 2015.
   
-Configure CDR and QoE monitoring using SQL Server Reporting Services reports for Skype for Business Server.
+Configure CDR and QoE monitoring using SQL Server Reporting Services reports for Skype for Business Server 2015.
   
 ## Configure CDR and QoE
 
@@ -25,14 +26,14 @@ After you have associated a monitoring store with a Front End pool, set up the m
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-When you install Skype for Business Server, you will also install a predefined collection of global configuration settings for both CDR and QoE. Default values for some of the more commonly-used settings used by Call Detail Recording are shown in the following table:
+When you install Skype for Business Server 2015, you will also install a predefined collection of global configuration settings for both CDR and QoE. Default values for some of the more commonly-used settings used by Call Detail Recording are shown in the following table:
   
 |**Property**|**Description**|**Default Value**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Indicates whether or not CDR is enabled. If True, all CDR records will be collected and written to the monitoring database.  <br/> |True  <br/> |
 |EnablePurging  <br/> |Indicates whether or not CDR records will periodically be deleted from the database. If True, records will be deleted after the time period specified by the properties KeepCallDetailForDays (for CDR records) and KeepErrorReportForDays (for CDR errors). If False, CDR records will be maintained indefinitely.  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |Indicates the number of days that CDR records will be kept in the database; any records older than the specified number of days will automatically be deleted. However, this will occur only if purging has been enabled.  <br/> KeepCallDetailForDays can be set to any integer value between 1 and 2562 days (approximately 7 years).  <br/> |60 days  <br/> |
-|KeepErrorReportForDays  <br/> |Indicates the number of days that CDR error reports are kept; any reports older than the specified number of days will automatically be deleted. CDR error reports are diagnostic reports uploaded by client applications such as Skype for Business Server.  <br/> You can set this property to any integer value between 1 and 2562 days.  <br/> |60 days  <br/> |
+|KeepErrorReportForDays  <br/> |Indicates the number of days that CDR error reports are kept; any reports older than the specified number of days will automatically be deleted. CDR error reports are diagnostic reports uploaded by client applications such as Skype for Business Server 2015.  <br/> You can set this property to any integer value between 1 and 2562 days.  <br/> |60 days  <br/> |
    
 Similarly, default values for selected QoE settings are shown in this table:
   

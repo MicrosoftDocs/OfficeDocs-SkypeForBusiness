@@ -1,8 +1,9 @@
 ---
-title: "Inter-trunk routing in Skype for Business Server"
+title: "Inter-trunk routing in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: "Learn how Skype for Business Server Enterprise Voice supports inter-trunk routing."
 ---
 
-# Inter-trunk routing in Skype for Business Server
+# Inter-trunk routing in Skype for Business Server 2015
  
 Learn how Skype for Business Server Enterprise Voice supports inter-trunk routing.
   

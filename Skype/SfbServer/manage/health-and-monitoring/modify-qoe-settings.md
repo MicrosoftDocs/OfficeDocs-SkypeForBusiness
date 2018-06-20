@@ -1,19 +1,20 @@
 ---
-title: "Modify Quality of Experience settings in Skype for Business Server"
+title: "Modify Quality of Experience settings in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: "Summary: Learn how to specify retention of QoE data in Skype for Business Server."
+description: "Summary: Learn how to specify retention of QoE data in Skype for Business Server 2015."
 ---
 
-# Modify Quality of Experience settings in Skype for Business Server
+# Modify Quality of Experience settings in Skype for Business Server 2015
  
-**Summary:** Learn how to specify retention of QoE data in Skype for Business Server.
+**Summary:** Learn how to specify retention of QoE data in Skype for Business Server 2015.
   
 By default, Quality of Experience (QoE) data is purged after 60 days. You can use the settings on the **Quality of Experience Data** page to retain the data for a longer or shorter period of time. If you disable QoE, data that was captured before QoE was enabled will also be subject to purging.
   

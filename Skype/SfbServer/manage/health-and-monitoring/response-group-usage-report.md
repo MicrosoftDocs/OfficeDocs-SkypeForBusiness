@@ -1,21 +1,22 @@
 ---
-title: "Response Group Usage Report in Skype for Business Server"
+title: "Response Group Usage Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: "Summary: Learn about the Response Group application in Skype for Business Server."
+description: "Summary: Learn about the Response Group application in Skype for Business Server 2015."
 ---
 
-# Response Group Usage Report in Skype for Business Server
+# Response Group Usage Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Response Group application in Skype for Business Server.
+**Summary:** Learn about the Response Group application in Skype for Business Server 2015.
   
-The Response Group application provides a way for Skype for Business Server to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions. Typically, Response Group calls are not routed to an individual person but, instead, are routed to a team of people referred to as an agent group. For example, if someone calls the phone number for your help desk, Skype for Business Server can automatically route that call to the first available help desk agent. Alternatively, Skype for Business Server could ask a series of questions ("Press 1 if you are having hardware problems. Press 2 if you are having software problems. Press 3 if you are having network problems."), and then route the call to the most appropriate help desk agent based on the answer to those questions.
+The Response Group application provides a way for Skype for Business Server 2015 to answer and route phone calls based on the number that was dialed and, optionally, on the caller's responses to a series of questions. Typically, Response Group calls are not routed to an individual person but, instead, are routed to a team of people referred to as an agent group. For example, if someone calls the phone number for your help desk, Skype for Business Server 2015 can automatically route that call to the first available help desk agent. Alternatively, Skype for Business Server could ask a series of questions ("Press 1 if you are having hardware problems. Press 2 if you are having software problems. Press 3 if you are having network problems."), and then route the call to the most appropriate help desk agent based on the answer to those questions.
   
 The Response Group Usage Report provides a detailed look at the number of phone calls received by all your Response Group workflows, then breaks those calls down into more finite categories such as Offered calls, Answered calls, and Abandoned calls.
   
@@ -39,7 +40,7 @@ The Response Group Usage Report allows you to filter on a workflow URI (the SIP 
   
 ## Accessing the Response Group Usage Report
 
-The Response Group Usage Report is accessed from the Monitoring Reports home page. You can drill down to the [Response Group Call List Report in Skype for Business Server](call-list-report.md) by clicking any of the following metrics:
+The Response Group Usage Report is accessed from the Monitoring Reports home page. You can drill down to the [Response Group Call List Report in Skype for Business Server 2015](call-list-report.md) by clicking any of the following metrics:
   
 - Received calls
     

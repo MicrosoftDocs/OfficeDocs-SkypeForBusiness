@@ -1,8 +1,9 @@
 ---
-title: "Direct SIP connections in Skype for Business Server"
+title: "Direct SIP connections in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: "Direct SIP connections are supported between Skype for Business Server and both PSTN gateways and IP-PBX in Enterprise Voice."
 ---
 
-# Direct SIP connections in Skype for Business Server
+# Direct SIP connections in Skype for Business Server 2015
  
 Direct SIP connections are supported between Skype for Business Server and both PSTN gateways and IP-PBX in Enterprise Voice.
   
@@ -118,7 +119,7 @@ Here are the main questions to consider. Keep in mind that the answers to these 
 
 The Mediation Servers can route calls through multiple gateways, Session Border Controllers (SBCs) provided by Internet telephony service providers, or a combination of the two. Additionally, multiple Mediation Servers in the pool can interact with multiple gateways. The logical route defined between a Mediation Server and gateway is called a trunk. When an internal user places a PSTN call, outbound routing logic on the Front End pool chooses which trunk to route over out of all possible combinations that may be available for routing that particular call. With DNS load balancing, if a call fails to reach a gateway due to an issue with a particular Mediation Server in the pool, the call will be retried to an alternate Mediation Server in the pool. 
   
-For details about planning for multiple gateways, see [M:N trunk in Skype for Business Server](m-n-trunk.md).
+For details about planning for multiple gateways, see [M:N trunk in Skype for Business Server 2015](m-n-trunk.md).
   
 For details about other outbound routing enhancements, see [Call Routes](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
   

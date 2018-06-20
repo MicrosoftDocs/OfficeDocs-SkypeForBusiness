@@ -1,8 +1,9 @@
 ---
-title: "Choose an E9-1-1 service provider for Skype for Business Server"
+title: "Choose an E9-1-1 service provider for Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: "Choosing your service provider for an E9-1-1 deployment in Skype for Business Server Enterprise Voice."
 ---
 
-# Choose an E9-1-1 service provider for Skype for Business Server
+# Choose an E9-1-1 service provider for Skype for Business Server 2015
  
 Choosing your service provider for an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   

@@ -1,19 +1,20 @@
 ---
-title: "Media Quality Summary Report in Skype for Business Server"
+title: "Media Quality Summary Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 6/29/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: "Summary: Learn about the Media Quality Summary Report in Skype for Business Server."
+description: "Summary: Learn about the Media Quality Summary Report in Skype for Business Server 2015."
 ---
 
-# Media Quality Summary Report in Skype for Business Server
+# Media Quality Summary Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Media Quality Summary Report in Skype for Business Server.
+**Summary:** Learn about the Media Quality Summary Report in Skype for Business Server 2015.
   
 The Media Quality Summary Report is perhaps your best bet for analyzing call quality in your organization: this report provides detailed Quality of Experience (QoE) call metrics broken down into the following categories:
   
@@ -33,13 +34,13 @@ The Media Quality Summary Report is perhaps your best bet for analyzing call qua
     
 When you first open the report, you see summary information for each of these categories. Without leaving the report, you can expand each category to look at subcategories such as calls made from Office Communicator 2007 R2 to Skype for Business. In turn, you can then drill down into these subcategories to see details about each call made within that subcategory.
   
-In Skype for Business Server the Media Quality Summary Report further breaks the data down into three call types: audio calls, video calls, and application sharing calls. Each call type has its own section in the report, and its own custom set of call metrics.
+In Skype for Business Server 2015 the Media Quality Summary Report further breaks the data down into three call types: audio calls, video calls, and application sharing calls. Each call type has its own section in the report, and its own custom set of call metrics.
   
 The Media Quality Summary Report also allows you to apply filters that enable you to compare the call quality of wired calls vs. wireless calls, internal calls vs. external calls, and VPN calls vs. non-VPN calls.
   
 ## Accessing the Media Quality Summary Report
 
-The Media Quality Summary Report is accessed from the Monitoring Reports home page. You can drill down to the [Call List Report in Skype for Business Server](call-list-report-0.md) by clicking either of the following metrics:
+The Media Quality Summary Report is accessed from the Monitoring Reports home page. You can drill down to the [Call List Report in Skype for Business Server 2015](call-list-report-0.md) by clicking either of the following metrics:
   
 - Call volume
     

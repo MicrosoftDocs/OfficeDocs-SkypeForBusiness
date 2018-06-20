@@ -1,23 +1,24 @@
 ---
-title: "IP Phone Inventory Report in Skype for Business Server"
+title: "IP Phone Inventory Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: "Summary: Learn about the IP Phone Inventory Report in Skype for Business Server."
+description: "Summary: Learn about the IP Phone Inventory Report in Skype for Business Server 2015."
 ---
 
-# IP Phone Inventory Report in Skype for Business Server
+# IP Phone Inventory Report in Skype for Business Server 2015
  
-**Summary:** Learn about the IP Phone Inventory Report in Skype for Business Server.
+**Summary:** Learn about the IP Phone Inventory Report in Skype for Business Server 2015.
   
 The IP Phone Inventory Report reports information about the IP phones currently in use in your organization. The IP Inventory Report provides a detailed list of the IP phones that were actually used during the specified reporting period. Among other things, this report lets administrators know if there are any old, outdated phones still in use that should be replaced; it can also alert administrators to the fact that there are expensive phones in the organization that are rarely being used. That type of information can be invaluable when it comes time to purchase new phones or to redistribute existing phones. (For example, a user who rarely uses his or her expensive phone might be asked to swap phones with a user who uses his or her phone much more frequently.)
   
-It should be noted that this report does have a few limitations when it comes to being used as a true inventory report. For one thing, the IP Phone Report simply lists all the phones that logged on to Skype for Business Server during the specified time period, sorted by their last logon time. If a phone did not log on during the specified time period then it will not be listed in the inventory report. That includes phones that logged on before the time period started and were still logged on during the specified time interval. For example, suppose you wanted to look at all the phone inventory for July, 2015. Suppose, as well, that several phones logged on to Skype for Business Server on June 30, 2015, and were still logged on as of July 1st. Those phones will not show up on the inventory report for July 1st.
+It should be noted that this report does have a few limitations when it comes to being used as a true inventory report. For one thing, the IP Phone Report simply lists all the phones that logged on to Skype for Business Server during the specified time period, sorted by their last logon time. If a phone did not log on during the specified time period then it will not be listed in the inventory report. That includes phones that logged on before the time period started and were still logged on during the specified time interval. For example, suppose you wanted to look at all the phone inventory for July, 2015. Suppose, as well, that several phones logged on to Skype for Business Server on June 30, 2015 and were still logged on as of July 1st. Those phones will not show up on the inventory report for July 1st.
   
 It's also important to note that the inventory report could include phones that your organization no longer uses. For example, suppose a number of Fabrikam phones logged on to the system on July 1, 2015; 5 days later your organization got rid of all those Fabrikam phones and replaced them with a newer Contoso model. The Fabrikam phones will still appear on the "inventory" report simply because they logged on to the system during the month of July.
   

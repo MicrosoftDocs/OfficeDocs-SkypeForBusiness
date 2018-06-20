@@ -1,8 +1,9 @@
 ---
-title: "Plan for Call Via Work in Skype for Business Server"
+title: "Plan for Call Via Work in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: "Planning for Call Via Work in Skype for Business Server, which enables integration between Skype for Business and your PBX phone system, so that users can use Skype for Business to control their PBX phones."
 ---
 
-# Plan for Call Via Work in Skype for Business Server
+# Plan for Call Via Work in Skype for Business Server 2015
  
 Planning for Call Via Work in Skype for Business Server, which enables integration between Skype for Business and your PBX phone system, so that users can use Skype for Business to control their PBX phones.
   
@@ -93,7 +94,9 @@ To enable any users for Call Via Work, you must have some pre-requisites in plac
   
 ## See also
 
-[Plan for remote call control in Skype for Business](remote-call-control.md)
+#### 
+
+[Plan for remote call control in Skype for Business 2015](remote-call-control.md)
   
 [Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
 

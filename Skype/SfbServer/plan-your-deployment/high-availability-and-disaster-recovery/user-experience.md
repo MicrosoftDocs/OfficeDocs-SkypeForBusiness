@@ -1,8 +1,9 @@
 ---
-title: "User experience during pool failure in Skype for Business Server"
+title: "User experience during pool failure in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,7 +13,7 @@ ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: "Learn about what users experience when a Front End pool fails over or fails back during disaster recovery in Skype for Business Server."
 ---
 
-# User experience during pool failure in Skype for Business Server
+# User experience during pool failure in Skype for Business Server 2015
  
 Learn about what users experience when a Front End pool fails over or fails back during disaster recovery in Skype for Business Server.
   

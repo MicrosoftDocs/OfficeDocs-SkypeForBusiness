@@ -1,8 +1,9 @@
 ---
-title: "Plan your Enterprise Voice solution in Skype for Business Server"
+title: "Plan your Enterprise Voice solution in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: "Summary: Learn about your options for planning a unified voice and communications solution in Skype for Business Server."
+description: "Summary: Learn about your options for planning a unified voice and communications solution in Skype for Business Server 2015."
 ---
 
-# Plan your Enterprise Voice solution in Skype for Business Server
+# Plan your Enterprise Voice solution in Skype for Business Server 2015
  
-**Summary:** Learn about your options for planning a unified voice and communications solution in Skype for Business Server.
+**Summary:** Learn about your options for planning a unified voice and communications solution in Skype for Business Server 2015.
   
 Skype for Business Server offers two on-premises Enterprise Voice options—Enterprise Voice and Call Via Work—for you to integrate the telephone system of your organization with your Skype for Business Server deployment, making for a true unified communications solution. Both options enable users to use their Skype for Business client to initiate voice calls with other users, both inside and outside of your organization.
   
@@ -40,11 +41,8 @@ Of course, you can have some of your users enabled for Enterprise Voice while ot
   
 ## See also
 
-#### 
-
-[Plan for Enterprise Voice in Skype for Business Server](enterprise-voice.md)
+[Plan for Enterprise Voice in Skype for Business Server 2015](enterprise-voice.md)
   
-[Plan for Call Via Work in Skype for Business Server](call-via-work.md)
+[Plan for Call Via Work in Skype for Business Server 2015](call-via-work.md)
   
-[Plan for remote call control in Skype for Business](remote-call-control.md)
-
+[Plan for remote call control in Skype for Business 2015](remote-call-control.md)
