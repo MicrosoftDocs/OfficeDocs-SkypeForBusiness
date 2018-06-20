@@ -34,7 +34,7 @@ As you proceed with your upgrade, keep these things in mind:
  
 -   User communication is key. Keeping users informed about what’s changing, why it's changing, and how they can prepare for the change will help facilitate and accelerate their acceptance and adoption of Teams. The communications in this checklist are timed to accompany the technical changes required on the back end.
 -   Users can still access Skype for Business meetings. Although new online meetings will be scheduled in Teams, existing Skype for Business meetings remain unchanged, which gives users extra time after the upgrade to transition their meetings. Users can simply select the link from their calendar to join their Skype for Business meetings, as they do today.
--   Users decide whether they’ll use Teams. Never doubt that [shadow IT](https://en.wikipedia.org/wiki/Shadow_IT) is real. Because users have so many communication and collaboration tools available, you’ll need to take time to track usage before and after your upgrade, and verify that users have successfully onboarded to Teams. For easy reference, this checklist includes links to guidance for pulling usage data and sample feedback surveys.
+-   Users decide whether they’ll use Teams. Never doubt that shadow IT is real. Because users have so many communication and collaboration tools available, you’ll need to take time to track usage before and after your upgrade, and verify that users have successfully onboarded to Teams. For easy reference, this checklist includes links to guidance for pulling usage data and sample feedback surveys.
 
 <a name="step-1"></a>
 
