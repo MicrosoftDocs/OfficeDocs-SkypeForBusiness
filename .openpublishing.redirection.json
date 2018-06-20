@@ -4,12 +4,31 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/block-incoming-calls.md", 
       "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365", 
       "redirect_document_id": true 
-  
     },
     {
       "source_path": "Teams/teams-and-skypeforbusiness-interoperability.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability", 
       "redirect_document_id": true 
-    }
+    },
+    {
+      "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.SfBPowerShell.md", 
+      "redirect_url": "https://docs.microsoft.com/powershell/skype/intro?view=skype-ps", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.HubPage.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.GettingStarted.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/manage/manage", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.SetupHybrid.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity", 
+      "redirect_document_id": true 
+    }    
   ] 
 }
