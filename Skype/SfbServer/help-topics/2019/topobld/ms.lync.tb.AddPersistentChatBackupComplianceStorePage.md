@@ -3,7 +3,6 @@ title: "Add Persistent Chat Compliance Backup SQL Server Store"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
