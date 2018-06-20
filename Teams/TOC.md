@@ -259,7 +259,7 @@
 ### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Manage
-### [Let your users communicate with other people](let-your-teams-users-communicate-with other-people.md)
+### [Let your users communicate with other people](let-your-teams-users-communicate-with-other-people.md)
 ### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ### [Prepare your organization's network for Teams](prepare-network.md)
 ### [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
@@ -268,6 +268,7 @@
 ### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ### [Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 
 
 # Troubleshoot & support
@@ -286,6 +287,7 @@
 
 #Teams for Education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+## [Teams resources for Education admins](resources-teams-edu.md)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 

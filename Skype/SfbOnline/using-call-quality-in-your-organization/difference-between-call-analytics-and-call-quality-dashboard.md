@@ -26,6 +26,7 @@ Skype for Business gives you two ways to monitor and troubleshoot call-quality p
   
 > [!NOTE]
 > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> Only last 30 days of data is available in Call Analytics.
   
 ## What's Call Analytics, and when should I use it?
 

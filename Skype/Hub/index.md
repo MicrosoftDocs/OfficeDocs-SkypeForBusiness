@@ -21,7 +21,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_online.svg" alt="Skype for Business Online" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Online-400x140.svg" alt="Skype for Business Online" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -40,7 +40,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/Office/media/hybrid-environment.svg" alt="Hybrid solutions" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-hybrid-400x140.svg" alt="Hybrid solutions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -59,7 +59,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/skype_business_server.svg" alt="Skype for Business Server" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Server-400x140.svg" alt="Skype for Business Server" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -78,7 +78,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/powershell_reference.svg" alt="PowerShell" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Powershell-400x140.svg" alt="PowerShell" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -97,7 +97,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/Microsoft_teams.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-MicrosoftTeams-400x140.svg" alt="Microsoft Teams" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -116,12 +116,31 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/skypeforbusiness/journey_skype_business_teams.svg" alt="Journey" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-JourneytoTeams-400x140.svg" alt="Journey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Journey from Skype for Business to Microsoft Teams</h3>
                                                     <p>Find guidance and tools to explore your optimal path to Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/room-systems/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-RoomSystems-400x140.svg" alt="Room Systems" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype Room Systems v2</h3>
+                                                    <p>Learn how to plan, deploy, and manage Skype Room Systems v2.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,7 +154,7 @@ description: Skype for Business
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="/Office/media/Office-help-support-training.svg" alt="End users" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-EndUsers-400x140.svg" alt="End users" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

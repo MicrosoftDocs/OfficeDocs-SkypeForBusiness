@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room System in Skype for Business Server"
+title: "Deployment overview for Skype Room System"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +12,15 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: "Read about how do deploy Skype Room System, a meeting room solution consisting of integrated hardware and software that is optimized to join Skype for Business meetings."
 ---
 
-# Deploy Skype Room System in Skype for Business Server
+# Deployment planning for Skype Room System in Skype for Business
  
 Read about how do deploy Skype Room System, a meeting room solution consisting of integrated hardware and software that is optimized to join Skype for Business meetings.
   
 > [!NOTE]
 > For the purposes of this content, Skype for Business for SMART Room System, Crestron RL, and Polycom CX8000 will be referred to as Skype Room System. 
+
+> [!NOTE]
+> Skype Room Systems v2 is a different product with different dependencies and deployment procedures. For information on Skype Room Systems v2, see [Plan Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Skype Room System is a Skype for Business unified communications client that has been optimized for Skype for Business meetings in physical conference rooms.
   
