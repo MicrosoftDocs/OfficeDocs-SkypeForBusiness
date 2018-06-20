@@ -1,4 +1,4 @@
 ---
-redirect_url: ../../../../../Teams/get-clients
+redirect_url: ../../../../../MicrosoftTeams/get-clients
 redirect_document_id: TRUE 
 ---
