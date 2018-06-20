@@ -139,25 +139,81 @@ Add following to encryption.md:  -- done!
 
 ## Evergreen
 
+Where a link exists, it should be ok to evergreen the topic linked to.
+
 Documentation for the following features (including all relevant plan/deploy/manage nodes) applies equally to Skype for Business Server 2015 and 2019:
-- Requirements (Server, env, network)
 - Monitoring (plan, deploy, manage)  &#x2714; (need to reassess for MCX)
 - Archiving (plan, deploy, manage)  &#x2714;
+- Authentication (Manage), Modern Authentication (Plan)
 - Capacity planning
+    - [Capacity planning for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/capacity.md)
+    - [Estimating voice usage and traffic for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md)
+    - [Deployment guidelines for Mediation Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md)
+    - [Capacity planning user model usage for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/user-model.md)
+    - [User models in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/user-models.md)
 - Clients (plan, deploy, manage)
 - Conferencing (plan, deploy, manage)
-- Edge (unclear, verify w/ Heidi)
+    - [Plan your conferencing topology for Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md)
+    - [Plan for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing.md)
+    - [Plan for dial-in conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/dial-in-conferencing.md)
+    - [Hardware and software requirements for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+    - [Plan for large meetings in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/large-meetings.md)
+    - [Deploy conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md)
+    - [Configure dial-in conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md)
+    - [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/office-web-app-server.md)
+    - [Deploy SRS v1 Administrative Web Portal in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md)
+    - [Manage dial-in conferencing access numbers in Skype for Business Server 2015](../SfbServer/manage/conferencing/access-numbers.md)
+    - [Assign conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/assign-policies.md)
+    - [Manage conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-policies.md)
+    - [Manage conferencing server configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md)
+    - [Manage conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing.md)
+    - [Create conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-policies.md)
+    - [Create meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-settings.md)
+    - [Delete conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-policies.md)
+    - [Delete meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-settings.md)
+    - [Manage dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/dial-in-conferencing.md)
+    - [Create conference directories in Skype for Business Server 2015](../SfbServer/manage/conferencing/directories.md)
+    - [Enable or disable dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/enable-or-disable.md)
+    - [Manage conference join and leave announcements in Skype for Business Server 2015](../SfbServer/manage/conferencing/join-and-leave-announcements.md)
+    - [Manage key mapping for DTMF commands in Skype for Business Server 2015](../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md)
+    - [Manage meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-configuration-settings.md)
+    - [Configure the meeting join page in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-join-page.md)
+    - [Modify conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-policies.md)
+    - [Modify meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-settings.md)
+    - [Configure PIN-less meeting join in Skype for Business Server](../SfbServer/manage/conferencing/pin-less-meeting-join.md)
+    - [Manage PIN policies for dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/pin-policies.md)
+    - [Test dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/tests.md)
+    - [View meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/view-settings.md)
+    - [View conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/view.md)
+    - [Send welcome email to dial-in users in Skype for Business Server 2015](../SfbServer/manage/conferencing/welcome-emails.md)
+- Edge (unclear, verify w/ Heidi  XMPP Gateway related topics in Edge)
 - Enterprise Voice (plan, deploy, manage)
 - Exchange integration (plan, deploy, manage)
-- HADR (except SQL Mirroring)
+- HADR (except for adding SQL Mirroring deprecation notes)
 - Modern Auth
 - Security (plan, deploy, manage) encryption.md now has 2 security notes RE: TLS, still need to add links to converted blog topics on TLS 1.0 and 1.1
-- IM and Presence (plan, deploy, manage)
+- IM and Presence (plan, deploy)
+    - [Plan for instant messaging and presence in Skype for Business Server 2015](../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)
+    - [Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server 2015](../SfbServer/deploy/im-and-presence/enable-or-disable-offline-im.md)
+    - [Deploy instant messaging and presence in Skype for Business Server 2015](../SfbServer/deploy/im-and-presence/im-and-presence.md) 
 - Mobility (plan, deploy, manage)
-- VIS role (plan, deploy, manage)
+- SRS v1 and v2 (plan,deploy,manage)
+- VIS role (plan, deploy)
+    - [Plan for Video Interop Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/video-interop-server.md)
+    - [Configure a VTC for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
+    - [Configure CUCM for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
+    - [Configure the Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md)
+    - [Create a VIS pool in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md)
+    - [Deploy the VIS server role in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+    - [Deploy Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md)  
 - Topology management
 - User account management
-- Technical diagrams
+    - [Manage user accounts for Skype for Business Server 2015](../SfbServer/manage/user-accounts/user-accounts.md)
+    - [Customize user account properties for Skype for Business Server 2015](../SfbServer/manage/user-accounts/customize-properties.md)
+- [Technical diagrams for Skype for Business Server 2015](../SfbServer/technical-diagrams.md)
+
+As these topics are evergreened, they get added into the TOC for 2019, they are already in the SFBServer TOC.
+
 
 ## New items
 New items we may need by RTM include: 
