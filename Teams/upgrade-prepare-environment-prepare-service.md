@@ -1,5 +1,5 @@
 ---
-title: Prepare my service - Microsoft Teams
+title: Prepare your service for upgrading to Teams - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
@@ -23,13 +23,13 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare my service
+# Prepare your service for upgrading to Teams
 
 This article gives an overview of the requirements for preparing your organization for collaboration and cloud voice services with Teams. By preparing properly, you can be sure you’re ready to provide these capabilities to your organization.
 
 ## Onboarding checklists for Microsoft Teams rollout
 
-The following checklists walk you through the steps for deploying Microsoft Teams in your organization.
+The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
 -  [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
@@ -45,7 +45,9 @@ The tasks and activities in these checklists are the core “to-do” items that
 
 Use the provided checklists to track the status of each individual activity and task, and to be sure you haven’t skipped any critical steps. Each activity includes a detailed description of required actions and references to additional information that you can use to complete that activity.
 
-Although we recommend that you follow the checklists in order, the exact sequence will depend on the scope of your deployment and the configuration and complexity of your environment. They’re organized to support either a “greenfield” Teams deployment (one with no previous Skype for Business Online presence) or migrating from Skype for Business Online to Teams. If you’re migrating from Skype for Business Online, you might have already completed some of these activities and can ignore them now.
+[//]: # (@Debbie, should I delete this mention of a "greenfield" deployment?)
+
+Although we recommend that you follow the checklists in order, the exact sequence will depend on the scope of your deployment and the configuration and complexity of your environment. They’re organized to support either a “greenfield” Teams deployment (one with no previous Skype for Business Online presence) or upgrading from Skype for Business Online to Teams. If you’re upgrading from Skype for Business Online, you might have already completed some of these activities and can ignore them now.
 
 When you’re onboarding users on a per-site basis, we highly recommended that you use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a supplementary guide to these checklists.
 
@@ -63,4 +65,7 @@ When you’re onboarding users on a per-site basis, we highly recommended that y
 
 After you complete this checklist, you’ll have successfully deployed Teams in your organization.
 
+[//]: # (@Turgay, I commented out this next paragraph because it's cloud voice-specific.)
+<!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
+-->

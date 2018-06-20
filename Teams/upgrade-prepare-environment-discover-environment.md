@@ -1,5 +1,5 @@
 ---
-title: Discover my environment in preparation for upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
+title: Discover your environment in preparation for upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars

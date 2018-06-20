@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
+![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
-This article is part of the User Readiness stage (or Technical Readiness stage??) of your upgrade journey, an activity you complete in parallel with the Technical (or User??) Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
+This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare IT pros
+# Prepare IT pros for Teams
 
-From the combined doc:
+_Notes about this article from the OneNote/combined Word doc:_
 
 Training for IT pros, get familiar with tools they need to use in Teams. Links to videos and core content.
 
