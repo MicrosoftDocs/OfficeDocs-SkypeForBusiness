@@ -1,72 +1,58 @@
 # [Skype for Business Partner Certification Program](../skype-certification-program.md)
-
-### Phones and Devices
-##### [IP Phones](../skype-cert-program-devices.md)
-##### [USB audio and video devices](../skype-cert-program-devices-usb-devices.md)
-##### [PCs](../skype-cert-program-devices-pcs.md)
-##### [Meeting room devices and solutions](../skype-cert-program-devices-meeting-rooms.md)
-
-### Infrastructure
-##### [Gateways](../skype-cert-program-infra-gateways.md)
-##### [IP PBXs](../skype-cert-program-infra-ip-pbxs.md)
-##### [Survivable branch appliances](../skype-cert-program-infra-sba.md)
-##### [Session Border Controllers](../skype-cert-program-infra-sbc.md)
+## Phones and Devices
+### [IP Phones](../skype-cert-program-devices.md)
+### [USB audio and video devices](../skype-cert-program-devices-usb-devices.md)
+### [PCs](../skype-cert-program-devices-pcs.md)
+### [Meeting room devices and solutions](../skype-cert-program-devices-meeting-rooms.md)
+## Infrastructure
+### [Gateways](../skype-cert-program-infra-gateways.md)
+### [IP PBXs](../skype-cert-program-infra-ip-pbxs.md)
+### [Survivable branch appliances](../skype-cert-program-infra-sba.md)
+### [Session Border Controllers](../skype-cert-program-infra-sbc.md)
 ##### [Reverse Proxy](../skype-cert-program-infra-rev-proxy.md)
 ##### [Reverse Proxy](../skype-cert-program-infra-load-balancers.md)
-
-### Networking
+## Networking
 ##### [Wi-Fi for Skype for Business](../skype-cert-program-networking-wifi.md)
 ##### [Wired for Skype for Business](../skype-cert-program-networking-wired.md)
 ##### [SDN for Skype for Business](../skype-cert-program-networking-sdn.md)
-
-### Services
-##### [SIP Trunking services](../skype-cert-program-services-sip-trunking.md)
-##### [E-911 service providers](../skype-cert-program-services-e911.md)
-##### [Audio conferencing providers for Skype for Business Online](../skype-cert-program-services-acps.md)
-
-### IT Pro
-##### [Network Pre-Assessment](../skype-certification-program-it-pro-tools-pre-assessment.md)
-##### [Migration](../skype-certification-program-it-pro-tools-migration.md)
-##### [User and Policy Provisioning](../skype-certification-program-it-pro-tools-user-policy.md)
-##### [Monitoring and Troubleshooting](../skype-certification-program-it-pro-tools-monitor-troubleshoot.md)
-##### [Reporting](../skype-certification-program-it-pro-tools-reporting.md)
-
-### Video
-##### [Video for Skype for Business](../skype-certification-program-video.md)
-
-### ISV
-##### [Contact Centers](../skype-certification-program-isv-contact-centers.md)
-##### [Attendant Console](../skype-certification-program-isv-attendant-consoles.md)
-##### [Call Recording & Compliance](../skype-certification-program-isv-call-recording.md)
-
-
+## Services
+### [SIP Trunking services](../skype-cert-program-services-sip-trunking.md)
+### [E-911 service providers](../skype-cert-program-services-e911.md)
+### [Audio conferencing providers for Skype for Business Online](../skype-cert-program-services-acps.md)
+## IT Pro
+### [Network Pre-Assessment](../skype-certification-program-it-pro-tools-pre-assessment.md)
+### [Migration](../skype-certification-program-it-pro-tools-migration.md)
+### [User and Policy Provisioning](../skype-certification-program-it-pro-tools-user-policy.md)
+### [Monitoring and Troubleshooting](../skype-certification-program-it-pro-tools-monitor-troubleshoot.md)
+### [Reporting](../skype-certification-program-it-pro-tools-reporting.md)
+## Video
+### [Video for Skype for Business](../skype-certification-program-video.md)
+## ISV
+### [Contact Centers](../skype-certification-program-isv-contact-centers.md)
+### [Attendant Console](../skype-certification-program-isv-attendant-consoles.md)
+### [Call Recording & Compliance](../skype-certification-program-isv-call-recording.md)
 # Lync Partner Qualification
-
-### Applications 
-##### [Qualified Lync applications](../lync-cert-program-qualified-lync-apps.md)
-
-### Devices
-##### [Phones and devices qualified for  Lync](../lync-cert-program-ip-phones.md)
-##### [USB audio and video devices](../lync-cert-program-usb-and-video.md)
-##### [Partner qualification for Lync - Lync Room Systems](../lync-cert-program-lync-room-systems.md)
-##### [Meeting room devices and solutions](../lync-cert-program-meeting-room-devices.md)
-##### [Partner qualification for Lync - PCs optimized for Lync](../lync-cert-program-pcs-optimized-for-lync.md)
-
-### Infrastructure
-##### [IP PBXs and Gateways](../lync-cert-program-qualified-ip-pbx-gateway.md)
-##### [Supported IP PBXs](../lync-cert-program-supported-ip-pbxs.md)
-##### [Survivable branch appliances](../lync-cert-program-survivable-branch-appliances.md)
-##### [Partner qualification for Lync](../lync-cert-program-sbcs-lync-server.md)
-##### [Partner qualification for Lync](../lync-cert-program-hardware-load-balancers.md)
-##### [Partner qualification for Lync](../lync-cert-program-reverse-proxies.md)
-##### [Partner qualification for Lync](../lync-cert-program-virtual-desktop-lync-server.md)
-
-### Services
-##### [Partner qualification for Lync](../lync-cert-program-sip-trunking-services.md)
-##### [E-911 Services qualified for Lync](../lync-cert-program-e-911-service-providers.md)
-
-### Video
-##### [USB audio and video devices](../lync-cert-program-usb-and-video.md)
+## Applications 
+### [Qualified Lync applications](../lync-cert-program-qualified-lync-apps.md)
+## Devices
+### [Phones and devices qualified for  Lync](../lync-cert-program-ip-phones.md)
+### [USB audio and video devices](../lync-cert-program-usb-and-video.md)
+### [Partner qualification for Lync - Lync Room Systems](../lync-cert-program-lync-room-systems.md)
+### [Meeting room devices and solutions](../lync-cert-program-meeting-room-devices.md)
+### [Partner qualification for Lync - PCs optimized for Lync](../lync-cert-program-pcs-optimized-for-lync.md)
+## Infrastructure
+### [IP PBXs and Gateways](../lync-cert-program-qualified-ip-pbx-gateway.md)
+### [Supported IP PBXs](../lync-cert-program-supported-ip-pbxs.md)
+### [Survivable branch appliances](../lync-cert-program-survivable-branch-appliances.md)
+### [Partner qualification for Lync](../lync-cert-program-sbcs-lync-server.md)
+### [Partner qualification for Lync](../lync-cert-program-hardware-load-balancers.md)
+### [Partner qualification for Lync](../lync-cert-program-reverse-proxies.md)
+### [Partner qualification for Lync](../lync-cert-program-virtual-desktop-lync-server.md)
+## Services
+### [Partner qualification for Lync](../lync-cert-program-sip-trunking-services.md)
+### [E-911 Services qualified for Lync](../lync-cert-program-e-911-service-providers.md)
+## Video
+### [USB audio and video devices](../lync-cert-program-usb-and-video.md)
 
 <!-- ### Certified Support
 https://partnersolutions.skypeforbusiness.com/solutionscatalog -->
