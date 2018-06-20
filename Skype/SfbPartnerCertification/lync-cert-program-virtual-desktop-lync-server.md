@@ -1,5 +1,5 @@
 ---
-title: "Partner qualification for Lync"
+title: "Virtual Desktop Infrastructure for Lync Server 2013"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -26,7 +26,7 @@ The Virtual Desktop Infrastructure (VDI) Partner platforms and client hardware p
 
 ### About VDI
 
-With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This is done through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
+With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This is done through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
 
 #### See also:
 <!-- note that both links below will need updating -->
