@@ -3,7 +3,6 @@ title: "Response Groups Queue Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -64,6 +63,6 @@ The following list describes the fields on the page.
     
   - **Forward to another queue** If you select this option, browse to the queue that is to receive calls when the queue overflow threshold is met.
     
-For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.
+For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.
   
 

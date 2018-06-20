@@ -3,7 +3,6 @@ title: "Call Park"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -50,6 +49,6 @@ The following list describes the fields on the page.
     
 - **Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.
     
-For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business 2015](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
+For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](http://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).
   
 
