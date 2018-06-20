@@ -67,6 +67,7 @@ Days 1&ndash;2: Confirm that your organization is ready for the upgrade.
 -   Enable **Notify** mode for all users.
 
 _Days 7 through 45: Implement your upgrade from Skype for Business to Teams._
+
 Day 7
 -   Send notification to upgrade group 1 that their upgrade will begin in two weeks.
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
