@@ -1,9 +1,8 @@
 ---
-title: "Plan for Location-Based Routing in Skype for Business 2015"
+title: "Plan for Location-Based Routing in Skype for Business"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: "Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing."
 ---
 
-# Plan for Location-Based Routing in Skype for Business 2015
+# Plan for Location-Based Routing in Skype for Business
  
 Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing.
   

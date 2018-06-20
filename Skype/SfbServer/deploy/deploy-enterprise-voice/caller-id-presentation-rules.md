@@ -1,9 +1,8 @@
 ---
-title: "Create or modify a translation rule for caller ID presentation in Skype for Business Server 2015"
+title: "Create or modify a translation rule for caller ID presentation in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: "Summary: Learn how to configure Caller ID by using the Skype for Business Server Control Panel."
 ---
 
-# Create or modify a translation rule for caller ID presentation in Skype for Business Server 2015
+# Create or modify a translation rule for caller ID presentation in Skype for Business Server
  
 **Summary:** Learn how to configure Caller ID by using the Skype for Business Server Control Panel.
   

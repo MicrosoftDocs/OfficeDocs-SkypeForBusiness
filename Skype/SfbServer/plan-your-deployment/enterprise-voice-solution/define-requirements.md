@@ -1,9 +1,8 @@
 ---
-title: "Define your requirements for emergency calls in Skype for Business Server 2015"
+title: "Define your requirements for emergency calls in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: "Summarizes the steps necessary for enabling E9-1-1 in Skype for Business Server Enterprise Voice, depending on whether you have a SIP trunk E9-1-1 service provider or an ELIN gateway."
 ---
 
-# Define your requirements for emergency calls in Skype for Business Server 2015
+# Define your requirements for emergency calls in Skype for Business Server
  
 Summarizes the steps necessary for enabling E9-1-1 in Skype for Business Server Enterprise Voice, depending on whether you have a SIP trunk E9-1-1 service provider or an ELIN gateway.
   
@@ -26,15 +25,15 @@ Before you begin a Skype for Business Server E9-1-1 deployment, you should first
 
 |**SIP trunk service provider**|**ELIN gateway**|
 |:-----|:-----|
-|[Define the scope of the E9-1-1 deployment in Skype for Business Server 2015](scope.md) <br/> |[Define the scope of the E9-1-1 deployment in Skype for Business Server 2015](scope.md) <br/> |
-|[Define the network elements used to determine location in Skype for Business Server 2015](network-location.md) <br/> |[Define the network elements used to determine location in Skype for Business Server 2015](network-location.md) <br/> |
-|[Enable users for E9-1-1 in Skype for Business Server 2015](enable-users.md) <br/> |[Enable users for E9-1-1 in Skype for Business Server 2015](enable-users.md) <br/> |
-|[Manage locations for SIP trunk service providers in Skype for Business Server 2015](manage-locations.md) <br/> |[Manage locations for ELIN gateways in Skype for Business Server 2015](elin-gateways.md) <br/> |
-|[Define the user experience for manually acquiring a location in Skype for Business Server 2015](manually-acquiring-a-location.md) <br/> |[Define the user experience for manually acquiring a location in Skype for Business Server 2015](manually-acquiring-a-location.md) <br/> |
-|[Design the SIP trunk for E9-1-1 in Skype for Business Server 2015](design-the-sip-trunk.md) <br/> |[Include the security desk in Skype for Business Server 2015](security-desk.md) <br/> |
-|[Include the security desk in Skype for Business Server 2015](security-desk.md) <br/> |[Plan location policies for Skype for Business Server 2015](location-policies.md) <br/> |
-|[Choose an E9-1-1 service provider for Skype for Business Server 2015](choose-a-service-provider.md) <br/> |[Assign location policy scope in Skype for Business Server 2015](location-policy-scope.md) <br/> |
-|[Plan location policies for Skype for Business Server 2015](location-policies.md) <br/> ||
-|[Assign location policy scope in Skype for Business Server 2015](location-policy-scope.md) <br/> ||
+|[Define the scope of the E9-1-1 deployment in Skype for Business Server](scope.md) <br/> |[Define the scope of the E9-1-1 deployment in Skype for Business Server](scope.md) <br/> |
+|[Define the network elements used to determine location in Skype for Business Server](network-location.md) <br/> |[Define the network elements used to determine location in Skype for Business Server](network-location.md) <br/> |
+|[Enable users for E9-1-1 in Skype for Business Server](enable-users.md) <br/> |[Enable users for E9-1-1 in Skype for Business Server](enable-users.md) <br/> |
+|[Manage locations for SIP trunk service providers in Skype for Business Server](manage-locations.md) <br/> |[Manage locations for ELIN gateways in Skype for Business Server](elin-gateways.md) <br/> |
+|[Define the user experience for manually acquiring a location in Skype for Business Server](manually-acquiring-a-location.md) <br/> |[Define the user experience for manually acquiring a location in Skype for Business Server](manually-acquiring-a-location.md) <br/> |
+|[Design the SIP trunk for E9-1-1 in Skype for Business Server](design-the-sip-trunk.md) <br/> |[Include the security desk in Skype for Business Server](security-desk.md) <br/> |
+|[Include the security desk in Skype for Business Server](security-desk.md) <br/> |[Plan location policies for Skype for Business Server](location-policies.md) <br/> |
+|[Choose an E9-1-1 service provider for Skype for Business Server](choose-a-service-provider.md) <br/> |[Assign location policy scope in Skype for Business Server](location-policy-scope.md) <br/> |
+|[Plan location policies for Skype for Business Server](location-policies.md) <br/> ||
+|[Assign location policy scope in Skype for Business Server](location-policy-scope.md) <br/> ||
    
 

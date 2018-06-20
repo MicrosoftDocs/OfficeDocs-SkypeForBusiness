@@ -1,9 +1,8 @@
 ---
-title: "Security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015"
+title: "Security and configuration prerequisites for Enterprise Voice in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: "Summary: Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015."
+description: "Summary: Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server."
 ---
 
-# Security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015
+# Security and configuration prerequisites for Enterprise Voice in Skype for Business Server
  
-**Summary:** Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server 2015.
+**Summary:** Learn about the security and configuration prerequisites for Enterprise Voice in Skype for Business Server.
   
 Before deploying Enterprise Voice, verify that your infrastructure meets the following security, user configuration, and scenario-specific hardware prerequisites. 
   
@@ -54,8 +53,8 @@ If you are newly deploying the Enterprise Voice workload at this time, before yo
 
 After verifying software and environmental prerequisites for Enterprise Voice you can either:
   
-- Install the Mediation Server, as described in [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](deploy-a-mediation-server.md), but only if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.
+- Install the Mediation Server, as described in [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md), but only if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.
     
-- Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configure trunks in Skype for Business Server 2015](configure-trunks.md).
+- Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configure trunks in Skype for Business Server](configure-trunks.md).
     
 

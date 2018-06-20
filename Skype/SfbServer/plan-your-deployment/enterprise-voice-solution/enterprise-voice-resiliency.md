@@ -1,9 +1,8 @@
 ---
-title: "Plan for Enterprise Voice resiliency in Skype for Business Server 2015"
+title: "Plan for Enterprise Voice resiliency in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: "Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers."
 ---
 
-# Plan for Enterprise Voice resiliency in Skype for Business Server 2015
+# Plan for Enterprise Voice resiliency in Skype for Business Server
  
 Learn how to support voice resiliency in Skype for Business Server Enterprise Voice, at both central sites and branch sites. Branch site options include deploying Survivable Branch Appliances or Survivable Branch Servers.
   
@@ -280,7 +279,7 @@ To help ensure that inbound calls to branch site users will reach those users wh
 > [!NOTE]
 > To account for the consumption of central site resources by any branch site users that rely on the central site for presence, conferencing, or failover, we recommend that you consider each branch site user as if the user were registered with the central site. There are currently no limits on the number of branch site users, including users registered with a Survivable Branch Appliance. 
   
-We also recommend that you create a user-level dial plan and voice policy, and then assign it to branch site users. For details, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create the VoIP Routing Policy for Branch Users](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in the Deployment documentation.
+We also recommend that you create a user-level dial plan and voice policy, and then assign it to branch site users. For details, see [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create the VoIP Routing Policy for Branch Users](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) in the Deployment documentation.
   
 #### Routing Extension Numbers
 

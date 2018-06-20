@@ -1,20 +1,19 @@
 ---
-title: "Failure Distribution Report in Skype for Business Server 2015"
+title: "Failure Distribution Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: "Summary: Learn about the Failure Distribution Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Failure Distribution Report in Skype for Business Server."
 ---
 
-# Failure Distribution Report in Skype for Business Server 2015
+# Failure Distribution Report in Skype for Business Server
  
-**Summary:** Learn about the Failure Distribution Report in Skype for Business Server 2015.
+**Summary:** Learn about the Failure Distribution Report in Skype for Business Server.
   
 The Failure Distribution Report ranks failed sessions in the following categories:
   
@@ -40,13 +39,13 @@ You can use these categories to determine exactly where a problem is occurring a
 
 You can access the Failure Distribution Report from any of the following reports by clicking either the **Expected failure volume** or the **Unexpected failure volume** metric:
   
-- [Top Failures Report in Skype for Business Server 2015](top-failures-report.md)
+- [Top Failures Report in Skype for Business Server](top-failures-report.md)
     
-- [Conference Diagnostic Report in Skype for Business Server 2015](conference-diagnostic-report.md)
+- [Conference Diagnostic Report in Skype for Business Server](conference-diagnostic-report.md)
     
-- [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015](peer-to-peer-activity-diagnostic-report.md)
+- [Peer-to-Peer Activity Diagnostic Report in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-From the Failure Distribution Report, you can click any of the following metrics to view the [Failure List Report in Skype for Business Server 2015](failure-list-report.md):
+From the Failure Distribution Report, you can click any of the following metrics to view the [Failure List Report in Skype for Business Server](failure-list-report.md):
   
 - Top diagnostic reasons (sessions)
     

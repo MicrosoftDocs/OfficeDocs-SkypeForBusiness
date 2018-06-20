@@ -1,20 +1,19 @@
 ---
-title: "Conference Summary Subreport in Skype for Business Server 2015"
+title: "Conference Summary Subreport in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: "Summary: Learn about the Conference Summary Subreport in Skype for Business Server 2015."
+description: "Summary: Learn about the Conference Summary Subreport in Skype for Business Server."
 ---
 
-# Conference Summary Subreport in Skype for Business Server 2015
+# Conference Summary Subreport in Skype for Business Server
  
-**Summary:** Learn about the Conference Summary Subreport in Skype for Business Server 2015.
+**Summary:** Learn about the Conference Summary Subreport in Skype for Business Server.
   
 The Conference Summary Subreport provides an overall view of failed conference sessions. These failed sessions are further broken down by session type: Focus sessions and MCU sessions.
   

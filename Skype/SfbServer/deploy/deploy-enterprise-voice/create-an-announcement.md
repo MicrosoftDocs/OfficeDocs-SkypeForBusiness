@@ -1,9 +1,8 @@
 ---
-title: "Create or delete an announcement in Skype for Business Server 2015"
+title: "Create or delete an announcement in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: "Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled."
 ---
 
-# Create or delete an announcement in Skype for Business Server 2015
+# Create or delete an announcement in Skype for Business Server
  
 Create or delete announcements for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled.
   
@@ -110,7 +109,7 @@ To create a new announcement, you need to perform the following steps:
   
 ## See also
 
-[Create or delete an announcement in Skype for Business Server 2015](create-an-announcement.md)
+[Create or delete an announcement in Skype for Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   
@@ -119,3 +118,4 @@ To create a new announcement, you need to perform the following steps:
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
   
 [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+

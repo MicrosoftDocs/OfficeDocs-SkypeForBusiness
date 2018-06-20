@@ -1,20 +1,19 @@
 ---
-title: "Location Report in Skype for Business Server 2015"
+title: "Location Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-description: "Summary: Learn about the Location Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Location Report in Skype for Business Server."
 ---
 
-# Location Report in Skype for Business Server 2015
+# Location Report in Skype for Business Server
  
-**Summary:** Learn about the Location Report in Skype for Business Server 2015.
+**Summary:** Learn about the Location Report in Skype for Business Server.
   
 The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet). If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.
   
@@ -56,7 +55,7 @@ The following table lists the information provided in the Location Report.
 |**Call volume** <br/> |Yes  <br/> |Total number of calls placed.  <br/> |
 |**Poor call percentage** <br/> |Yes  <br/> |Percentage of calls classified as poor calls. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).  <br/> |
 |**Round trip (ms)** <br/> |Yes  <br/> |Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.  <br/> High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.  <br/> |
-|**Degradation (MOS)** <br/> |Yes  <br/> |Average amount of mean opinion score (MOS) degradation experienced during a call. Degradation values can range from a low of 0.0 to a high of 5.0. A value of 0.5 or less represents acceptable degradation. Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5. In Skype for Business Server 2015, a set of algorithms predict how users would have rated a call.  <br/> High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.  <br/> |
+|**Degradation (MOS)** <br/> |Yes  <br/> |Average amount of mean opinion score (MOS) degradation experienced during a call. Degradation values can range from a low of 0.0 to a high of 5.0. A value of 0.5 or less represents acceptable degradation. Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5. In Skype for Business Server, a set of algorithms predict how users would have rated a call.  <br/> High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.  <br/> |
 |**Packet loss** <br/> |Yes  <br/> |Average rate of RTP packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.  <br/> |
 |**Jitter** <br/> |Yes  <br/> |Average jitter detected between RTP packet arrivals. (Jitter is a measure of the "shakiness" of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.  <br/> |
 |**Healer concealed ratio** <br/> |Yes  <br/> |Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.  <br/> |

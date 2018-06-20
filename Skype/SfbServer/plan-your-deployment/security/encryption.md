@@ -22,6 +22,9 @@ Skype for Business Server 2015 uses TLS and MTLS to encrypt instant messages. Al
   
 > [!SECURITY NOTE]
 > To ensure the strongest cryptographic protocol is used, Skype for Business Server 2015 will offer TLS encryption protocols in the following order to clients: **TLS 1.2 , TLS 1.1, TLS 1.0**. TLS is a critical aspect of Skype for Business Server 2015 and thus it is required in order to maintain a supported environment. 
+
+> [!SECURITY NOTE]
+> To ensure the strongest cryptographic protocol is used, Skype for Business Server 2019 will offer TLS encryption protocols in the following order to clients: **TLS 2.0, TLS 1.2**. TLS is a critical aspect of Skype for Business Server 2019 and thus it is required in order to maintain a supported environment. 
   
 The following table summarizes the protocol requirements for each type of traffic. 
   

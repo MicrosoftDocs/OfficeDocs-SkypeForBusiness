@@ -1,9 +1,8 @@
 ---
-title: "(Optional) Verify Response Group deployment in Skype for Business 2015"
+title: "(Optional) Verify Response Group deployment in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: "Verify your Response Group deployment success, in Skype for Business Server Enterprise Voice."
 ---
 
-# (Optional) Verify Response Group deployment in Skype for Business 2015
+# (Optional) Verify Response Group deployment in Skype for Business
  
 Verify your Response Group deployment success, in Skype for Business Server Enterprise Voice.
   

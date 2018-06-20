@@ -1,20 +1,19 @@
 ---
-title: "Conference Activity Report in Skype for Business Server 2015"
+title: "Conference Activity Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: "Summary: Learn about the Conference Activity Report used in Skype for Business Server 2015."
+description: "Summary: Learn about the Conference Activity Report used in Skype for Business Server."
 ---
 
-# Conference Activity Report in Skype for Business Server 2015
+# Conference Activity Report in Skype for Business Server
  
-**Summary:** Learn about the Conference Activity Report used in Skype for Business Server 2015.
+**Summary:** Learn about the Conference Activity Report used in Skype for Business Server.
   
 The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held? Information like this is useful not only in its own right, but also as a troubleshooting tool. For example, suppose users are complaining that the network seems particularly slow in the middle of the day. A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.
   
@@ -22,7 +21,7 @@ If the slow network is causing problems, you can encourage users to reschedule s
   
 ## Accessing the Conference Activity Report
 
-The Conference Activity Report is accessed from the [Conference Summary Report in Skype for Business Server 2015](conference-summary-report.md) by clicking either one of the following metrics:
+The Conference Activity Report is accessed from the [Conference Summary Report in Skype for Business Server](conference-summary-report.md) by clicking either one of the following metrics:
   
 - Total conferences
     

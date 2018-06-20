@@ -1,9 +1,8 @@
 ---
-title: "(Optional) Define Response Group business hours in Skype for Business 2015"
+title: "(Optional) Define Response Group business hours in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: "Create or modify Response Group business hours, in Skype for Business Server Enterprise Voice."
 ---
 
-# (Optional) Define Response Group business hours in Skype for Business 2015
+# (Optional) Define Response Group business hours in Skype for Business 
  
 Create or modify Response Group business hours, in Skype for Business Server Enterprise Voice.
   
@@ -22,7 +21,7 @@ Create or modify Response Group business hours, in Skype for Business Server Ent
 Business hour settings define when the workflow is available to answer calls and specify the actions to take for calls outside of business hours. Response Group administrators can use the **New-CsRgsHoursOfBusiness** cmdlet to create predefined schedules that you can use for any number of response groups.
   
 > [!TIP]
-> When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow. For details, see [Designing and creating response group workflows in Skype for Business 2015](designing-and-creating-response-group-workflows.md). 
+> When you create or modify a workflow, you can specify a custom schedule that applies only to that workflow. For details, see [Designing and creating response group workflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > If a workflow is defined as a Managed workflow, then any user who is assigned the CsResponseGroupManager role can set and modify custom business hours for workflows that they manage. 

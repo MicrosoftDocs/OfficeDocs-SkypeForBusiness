@@ -1,5 +1,5 @@
 ---
-title: "Create and publish new topology in Skype for Business Server 2015"
+title: "Create and publish new topology in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: "Summary: Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
 ---
 
-# Create and publish new topology in Skype for Business Server 2015
+# Create and publish new topology in Skype for Business Server
  
-**Summary:** Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server 2015 from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to create, publish, and verify a new topology before you install Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Before you can install the Skype for Business Server system on each of the servers in the topology, you must create a topology and publish it. When you publish a topology, you are loading the topology information into the Central Management Store database. If this is an Enterprise Edition pool, you are creating the Central Management Store database the first time you publish a new topology. If this is Standard Edition, you will need to run the Prepare First Standard Edition Server process from the Deployment Wizard before you publish a topology. This prepares for Standard Edition by installing a SQL Server Express Edition instance and creating the Central Management Store. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. How to create and publish a new topology is described in step 6 of 8.
   
@@ -82,7 +82,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
   
 5. On the **Select collocated server roles** page, you can choose to collocate the Mediation server on the Front End server, or you can choose to deploy it as a standalone server.
     
-    If you intend to collocate the Mediation server on the Enterprise Edition Front End pool, ensure the check box is selected. The server role will be deployed on the pool servers. If you intend to deploy the Mediation server as a stand-alone server, clear the appropriate check box. You will deploy the Mediation server in a separate deployment step after you completely deploy the Front End server. For planning details about a collocation, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+    If you intend to collocate the Mediation server on the Enterprise Edition Front End pool, ensure the check box is selected. The server role will be deployed on the pool servers. If you intend to deploy the Mediation server as a stand-alone server, clear the appropriate check box. You will deploy the Mediation server in a separate deployment step after you completely deploy the Front End server. For planning details about a collocation, see [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
 6. By using the **Associate server roles with this Front End pool** page, you can define and associate server roles with the Front End pool. The following role is available:
     
@@ -100,7 +100,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
    - In this case, you will select the roles that you intend to deploy or associate with the new Front End server. In either case, you will proceed with the definition of the roles, set up any needed hardware, and proceed with the installation.
     
-7. Next, you will define the SQL Server store that will be used with the topology. In this example, we use the Default instance. For more information about SQL Server features, such as High Availability, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+7. Next, you will define the SQL Server store that will be used with the topology. In this example, we use the Default instance. For more information about SQL Server features, such as High Availability, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
    - To use an existing SQL Server store that has already been defined in your topology, select an instance from **SQL store**.
     
@@ -127,7 +127,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     For this example, we will click **Define a new file store**, enter the **file server FQDN** and **file share**, and then click **Next**.
     
     > [!NOTE]
-    > The file share for Skype for Business Server can be collocated but it is not recommended for performance reasons. Note that in this example, the file share has been located on a single dedicated server that will act as the file share. However, other more robust file share systems, such as DFS using Windows Server 2012 R2, are recommended. For details about supported file share systems, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). For more information about creating the file share, see [Create a file share in Skype for Business Server 2015](create-a-file-share.md). You can define the file share without the file share having been created. You will need to create the file share in the location you define before you publish the topology. 
+    > The file share for Skype for Business Server can be collocated but it is not recommended for performance reasons. Note that in this example, the file share has been located on a single dedicated server that will act as the file share. However, other more robust file share systems, such as DFS using Windows Server 2012 R2, are recommended. For details about supported file share systems, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). For more information about creating the file share, see [Create a file share in Skype for Business Server](create-a-file-share.md). You can define the file share without the file share having been created. You will need to create the file share in the location you define before you publish the topology. 
   
 10. On the Specify the Web Services URL page, you must decide if you need to override the internal Web Services pool base URL. The reason for this override has to do with load balancing. Basic SIP traffic can be load balanced through simple DNS load balancing. However, the HTTP/S Web Services network traffic must use a supported Hardware or Software load balancing solution. For supported load balancers, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483). In this example, we used DNS load balancing for SIP traffic and a supported software load balancing solution. Because we are dividing the traffic this way, we need to override the internal Web Services pool FQDN. Alternatively, if we had a top line load balancer and sent all traffic through it instead of using DNS load balancing for SIP traffic, we would not need to override the Web Services URL. 
     
@@ -193,7 +193,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
     When you have verified the topology and there are no validation errors, you should be ready to publish the topology. If there are validation errors, you must correct them before you can publish the topology.
     
-6. Right-click the **Skype for Business Server 2015** node, and then click **Publish Topology**.
+6. Right-click the **Skype for Business Server** node, and then click **Publish Topology**.
     
 7. On the **Publish the topology** page, click **Next**.
     
@@ -207,7 +207,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
 9. On the **Select databases** page, select the databases you want to publish.
     
     > [!NOTE]
-    > If you don't have the appropriate rights to create the databases, you can clear the check boxes next to those databases, and someone with appropriate rights can later create the databases. For details about requirements, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+    > If you don't have the appropriate rights to create the databases, you can clear the check boxes next to those databases, and someone with appropriate rights can later create the databases. For details about requirements, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 10. Optionally click **Advanced**. By using Advanced SQL Server data file placement options, you can select between the following options: 
     
@@ -236,6 +236,6 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
     The "Completed with warnings" message for the database creation does not mean there was an error. The installation process has to change settings in SQL Server for Skype for Business Server to work correctly. When a setting is changed in SQL Server, it is logged as a warning so that SQL Server administrators can understand exactly what the installation process completed. If you receive a warning, you can select the record, and then click **View Logs** to view the details of the warning.
     
-    When the topology has been successfully published, you can begin installing a local replica of the Central Management store on each server running Skype for Business Server 2015 in your topology. We recommend that you begin with the first Front End pool. 
+    When the topology has been successfully published, you can begin installing a local replica of the Central Management store on each server running Skype for Business Server in your topology. We recommend that you begin with the first Front End pool. 
     
 

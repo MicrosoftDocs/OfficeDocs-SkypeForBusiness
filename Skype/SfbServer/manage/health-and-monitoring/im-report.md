@@ -1,26 +1,25 @@
 ---
-title: "Peer-to-Peer IM Report in Skype for Business Server 2015"
+title: "Peer-to-Peer IM Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: "Summary: Learn about the Peer-to-Peer IM Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Peer-to-Peer IM Report in Skype for Business Server."
 ---
 
-# Peer-to-Peer IM Report in Skype for Business Server 2015
+# Peer-to-Peer IM Report in Skype for Business Server
  
-**Summary:** Learn about the Peer-to-Peer IM Report in Skype for Business Server 2015.
+**Summary:** Learn about the Peer-to-Peer IM Report in Skype for Business Server.
   
 The Peer-to-Peer IM Report provides trend information about peer-to-peer instant messaging (IM) sessions, broken down by pool and by authentication type. The report can show either the total number of sessions held during the specified time period (for example, day-by-day or hour-by-hour), or it can show the total number of instant messages sent during that time period.
   
 ## Accessing the Peer-to-Peer IM Report
 
-You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Skype for Business Server 2015](peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:
+You can access the Peer-to-Peer IM Report only by opening the [Peer-to-Peer Activity Summary Report in Skype for Business Server](peer-to-peer-activity-summary-report.md) and then clicking either of the following metrics:
   
 - Total peer-to-peer IM sessions
     
