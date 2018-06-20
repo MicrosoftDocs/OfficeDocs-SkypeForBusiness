@@ -51,7 +51,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_management.svg" alt="Manage" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Manage" />
                         </div>
                     </div>
                     <div class="cardText">
