@@ -18,9 +18,9 @@ description: "Instructions for implementing cloud-based voicemail for users home
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## Overview 
-This article describes how to configure the Microsoft Cloud Voicemail service for your Skype for Business on-premises users.  
+This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.  
 
-This article assumes that you already have Skype for Business Server deployed in a supported topology and that you have met the prerequisites for setting up hybrid connectivity.
+This article assumes that you already have Skype for Business Server deployed in a supported topology, and that you have met the prerequisites for setting up hybrid connectivity.
 
 For more information about the benefits, planning considerations, and requirements for implementing Cloud Voicemail, see [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
@@ -46,17 +46,17 @@ Configuring Cloud Voicemail involves the following tasks:
 
 You configure Cloud Voicemail as the hosting provider on the Edge Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
-- **Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, Hosted Exchange UM.
+- **Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, Cloud Voicemail. 
 
-- **Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. Must be set to True.
+- **Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. This parameter must be set to True.
 
-- **EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. Must be set to True.
+- **EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario. This parameter must be set to True.
 
-- **HostsOCSUsers** indicates whether the hosting provider is used to host Lync Server 2013 accounts. Must be set to False.
+- **HostsOCSUsers** indicates whether the hosting provider is used to host Skype for Business Server accounts. This parameter must be set to False.
 
-- **ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, proxyserver.fabrikam.com. Contact your hosting provider for this information. This value cannot be modified. If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.
+- **ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, proxyserver.contoso.com. Contact your hosting provider for this information. This value cannot be modified. If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.
 
-**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server 2013 topology. Must be set to False.
+- **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology. This parameter must be set to False.
 
 For example, in the Skype for Business Management shell, the following cmdlet ...
 
@@ -72,7 +72,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 ## Enable a user for Cloud Voicemail
 
-To enable a user’s voice mail calls to be routed to  Cloud Voicemail, you use the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet with the HostedVoiceMail parameter. 
+To enable a user’s voice mail calls to be routed to Cloud Voicemail, you use the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet with the HostedVoiceMail parameter. 
 
 For example, the following command enables a user account for Cloud Voicemail: 
 
