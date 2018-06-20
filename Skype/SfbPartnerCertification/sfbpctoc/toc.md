@@ -1,4 +1,4 @@
-# [Skype for Business Partner Certification Program](../skype-certification-program.md)
+# [Skype for Business Partner Certification Program](../skype-certification-program.md) <!--https://technet.microsoft.com/en-us/office/Dn947481 -->
 ## Phones and Devices
 ### [IP Phones](../skype-cert-program-devices.md)
 ### [USB audio and video devices](../skype-cert-program-devices-usb-devices.md)
@@ -9,12 +9,12 @@
 ### [IP PBXs](../skype-cert-program-infra-ip-pbxs.md)
 ### [Survivable branch appliances](../skype-cert-program-infra-sba.md)
 ### [Session Border Controllers](../skype-cert-program-infra-sbc.md)
-##### [Reverse Proxy](../skype-cert-program-infra-rev-proxy.md)
-##### [Reverse Proxy](../skype-cert-program-infra-load-balancers.md)
+#### [Reverse Proxy](../skype-cert-program-infra-rev-proxy.md)
+#### [Reverse Proxy](../skype-cert-program-infra-load-balancers.md)
 ## Networking
-##### [Wi-Fi for Skype for Business](../skype-cert-program-networking-wifi.md)
-##### [Wired for Skype for Business](../skype-cert-program-networking-wired.md)
-##### [SDN for Skype for Business](../skype-cert-program-networking-sdn.md)
+### [Wi-Fi for Skype for Business](../skype-cert-program-networking-wifi.md)
+### [Wired for Skype for Business](../skype-cert-program-networking-wired.md)
+### [SDN for Skype for Business](../skype-cert-program-networking-sdn.md)
 ## Services
 ### [SIP Trunking services](../skype-cert-program-services-sip-trunking.md)
 ### [E-911 service providers](../skype-cert-program-services-e911.md)
