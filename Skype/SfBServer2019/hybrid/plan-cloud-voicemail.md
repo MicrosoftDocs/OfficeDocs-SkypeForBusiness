@@ -68,7 +68,7 @@ The following requirements assume that you already have Skype for Business Serve
 
     - An Office 365 tenant with Skype for Business Online enabled.  
 
-    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online).  
+    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online.md).  
 
     - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
 
