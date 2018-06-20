@@ -16,7 +16,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
   > [!NOTE]
   > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
 
-If you have not already done so, read [Plan Direct Routing](plan-direct-routing.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
+If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
 
   > [!NOTE]
   > This document is intended for IT professionals.  
