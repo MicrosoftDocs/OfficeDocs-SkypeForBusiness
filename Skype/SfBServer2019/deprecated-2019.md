@@ -17,7 +17,7 @@ description: "Summary: These features have been removed from Skype for Business 
 For new features in 2019, we are writing new topics. For features 2015 and 2019 have in common, we will make many topics release agnostic and they will be visible in the TOC for both products. For features being removed, we will in some cases deliberately not surface some topics in the 2019 TOC, and these 2015 articles will remain release specific with notes explaining the differences between releases.
 
  Persitent Chat, SQL Mirroring, and XMPP Gateway functionalities are no longer available as Skype for Business Server 2019 features. Persistent Chat functionality is available in Teams and we recommend adopting Teams for situations requiring that functionality. SQL Mirroring can be replaced with other methods that are still supported. XMPP Gateway services can be maintained using a coexistence environment, if they were previously deployed. If you want to continue using these features, then plan a coexistence environment where some users remain in legacy pools.
-<!--  above paragraph elaborates on [Migrating multiple sites and pools](migration/migrating-multiple-sites-and-pools.md) 
+<!--  above paragraph elaborates on [Migrating multiple sites and pools](migration/migrating-multiple-sites-and-pools.md) -->
 
 
 
@@ -27,7 +27,7 @@ For new features in 2019, we are writing new topics. For features 2015 and 2019 
 
 
 
-In addition to deprecations, this document reflects notes on what topic areas can and can't be evergreened to generically apply to 2019 and 2015 alike. It's not a doc plan in that it provides no schedule, but it is a general plan of attack to deal with legacy topics requiring minimal investment for 2019's release. -->
+<!-- In addition to deprecations, this document reflects notes on what topic areas can and can't be evergreened to generically apply to 2019 and 2015 alike. It's not a doc plan in that it provides no schedule, but it is a general plan of attack to deal with legacy topics requiring minimal investment for 2019's release. -->
 
 [!INCLUDE [disclaimer](disclaimer.md)]
 
