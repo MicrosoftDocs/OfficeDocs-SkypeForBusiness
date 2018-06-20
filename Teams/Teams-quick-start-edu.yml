@@ -318,34 +318,14 @@ items:
     [!INCLUDE [browser-support](includes/browser-support.md)]
 
 
-- title: Adoption, feedback, and support
+- title: Resources, feedback, and support
   durationInMinutes: 1
   content: |
 
-    Adoption content (more coming all the time - keep checking back!):
-        - [Email templates for getting started guides](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Email-templates-Teams-for-Education.zipr?raw=true)
-        - [Quick start short videos for end users](https://aka.ms/teamseducators)
-        - Internal social campaign templates
+    [Teams resources for Education admins](resources-teams-edu.md)
 
-
-    Call to action:
-        - Check out our hands-on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/) (5 minutes to complete)
-        - Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
-        - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
-        - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
-    
-    Additional Resources:
-        - [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
-        - Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
-        - Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
-
-    
     [Send a suggestion](https://aka.ms/eduuservoice)
 
     [Contact support](https://aka.ms/o365portal)
 
-    [Ask the Teams community](https://aka.ms/msteamscommunity)
-
-    [Explore the Office 365 Education help center](https://support.office.com/education)
-
-    [Find more resources for education](https://education.microsoft.com/)
+    
