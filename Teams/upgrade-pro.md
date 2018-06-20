@@ -32,7 +32,7 @@ Segmented into three phases, Upgrade Pro covers:
 
 **Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams.
 
-Days 1&ndash;5. Create your upgrade plan to help ensure your organization is set up for long-term success. 
+Days 1&ndash;5: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
 -   [Define your project scope](upgrade-define-project-scope.md).
 -   [Understand upgrade and coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
@@ -58,9 +58,9 @@ Day 45 until upgrade begins:
 
 ## Upgrade
 
-**Make the official move to Teams.** When you upgrade your users, you move them into **Teams only** coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to approximately 45 days.
+**Make the official move to Teams.** When you upgrade your users, you move them into **Teams only** coexistence mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
 
-Days 1&ndash;2: Confirm that your organization is ready to upgrade.
+Days 1&ndash;2: Confirm that your organization is ready for the upgrade.
 -   Validate that you’ve completed the pre-upgrade activities described above.
 -   Segment your user base into four upgrade groups.
 -   Send notification of the upgrade to all users.
