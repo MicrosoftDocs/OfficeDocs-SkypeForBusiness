@@ -287,6 +287,7 @@
 
 #Teams for Education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+## [Teams resources for Education admins](resources-teams-edu.md)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
 
