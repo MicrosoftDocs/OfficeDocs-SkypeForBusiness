@@ -33,6 +33,18 @@ Download these tools to walk you through planning, delivering, and adopting Team
     
     Use this PowerPoint deck to lead a workshop with your organization to plan your Teams rollout. The workshop introduces Teams and guides your team through decision points and next steps.
 
+- Government Cloud Customers
+
+   Your journey to Teams is much like our commercial customers experience. As Microsoft Teams becomes generally available in your tenancy July 19th we encourage you to start with our [Admin quick start guide](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Our [security and compliance](https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview) overview will help you feel confident about Teams in your environment.  To accommodate the requirements of our government cloud customers there are a few differences between the GCC cloud and that of commercial customers. The following features will be unavailable at GA, or disabled by default with the option for an admin to enable as noted:
+
+|**Capability**|**Reason**|
+|:-----|:-----|:-----|:-----|
+|Call and Meeting Recording  <br/> |Recording is dependent on Microsoft Stream, which will be coming to GCC in the future.  <br/> |
+|Apps <br/ | Apps (Bots, Tabs, Connectors) will not be available initially, but we are working on making these available once all their components can meet the FedRAMP Moderate compliance bar.  <br/>|
+|Email a Channel <br/> | Current architecture not supported in the GCC environment. <br/> |
+|Unified Presence <br/> |We are finishing work for our commercial customers first for this important feature. This will arrive to GCC in the future. <br/> |
+|Email Notifications <br/> |Current architecture not supported in the GCC environment. Work is ongoing to bring this feature to GCC in the future. <br/>|
+|Giphy  <br/> |Disabled by default, but can be enabled by an admin. Please note that Giphy does send gif search terms outside of the compliance boundary. <br/> |
 
 ### See also
 
