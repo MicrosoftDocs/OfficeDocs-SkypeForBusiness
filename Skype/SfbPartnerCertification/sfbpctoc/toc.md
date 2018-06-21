@@ -25,12 +25,8 @@
 ### [User and Policy Provisioning](../skype-bus/it-pro-tools-user-policy.md) 
 ### [Monitoring and Troubleshooting](../skype-bus/it-pro-tools-monitor-troubleshoot.md) 
 ### [Reporting](../skype-bus/it-pro-tools-reporting.md) 
-## Video
-### [Video for Skype for Business](../skype-bus/video.md)  
-## ISV
-### [Contact Centers](../skype-bus/isv-contact-centers.md) 
-### [Attendant Console](../skype-bus/isv-attendant-consoles.md) 
-### [Call Recording & Compliance](../skype-bus/isv-call-recording.md) 
+## [Video](../skype-bus/video.md)   
+##  [ISV](../skype-bus/isv-overview.md)
 # Lync Partner Qualification
 ## Applications 
 ### [Qualified Lync applications](../lync-cert/qualified-lync-apps.md) 

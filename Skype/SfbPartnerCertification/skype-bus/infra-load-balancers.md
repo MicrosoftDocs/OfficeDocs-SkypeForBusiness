@@ -35,7 +35,7 @@ Listed here are load balancers that work with Skype for Business.
 			<td align="center" valign="top"><strong>Software Version</strong></td>
 		</tr>
 		<tr align="left" valign="top">
-			<td><a href="https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/deploying-skype-for-business-server-2015-with-netscaler.pdf" title="Nestcaler Deployment Guide with Skype for Business">Citrix</a>(PDF)</td>
+			<td><a href="https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/deploying-skype-for-business-server-2015-with-netscaler.pdf" title="Nestcaler Deployment Guide with Skype for Business">Citrix</a>&nbsp;(PDF)</td>
 			<td>NetScaler VPX NS10.5</td>
 			<td>Build 56.22.nc</td>
 		</tr>
@@ -54,13 +54,5 @@ Listed here are load balancers that work with Skype for Business.
 	</tbody>
 </table>
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
-
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
-
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
-
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.

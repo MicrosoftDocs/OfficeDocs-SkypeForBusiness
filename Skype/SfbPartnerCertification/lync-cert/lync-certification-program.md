@@ -29,15 +29,15 @@ It is recommended that you visit the vendor's web site for the latest informatio
 
 ### USB audio and video devices
 
-All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](lync-cert-program-usb-and-video.md) page.
+All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](usb-and-video.md) page.
 
 ### IP phones
 
-All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [IP desk phones](lync-cert-program-ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" are not currently supported in Lync Online Dedicated.
+All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [Phones and devices qualified for  Lync](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" are not currently supported in Lync Online Dedicated.
 
 ### Meeting room devices
 
-All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, please visit the [Meeting room devices](lync-cert-program-meeting-room-devices.md) page.
+All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, please visit the [Meeting room devices](meeting-room-devices.md) page.
 
 ### Video infrastructure
 
@@ -70,10 +70,10 @@ Video infrastructure provides interoperability and connectivity capabilities bet
 
 SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination and emergency services using the SIP protocol. 
 
-All SIP Trunking providers qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For additional information about qualified SIP trunk carries and devices, go to  [SIP trunking services](lync-cert-program-sip-trunking-services.md).
+All SIP Trunking providers qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For additional information about qualified SIP trunk carries and devices, go to  [SIP trunking services](sip-trunking-services.md).
 
 ### Session border controllers
 
 Session border controllers (SBCs) provide a secure gateway capability between a customer's datacenter and the Microsoft Online Dedicated environment. 
 
-All Session Border Controllers (SBCs) that qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For a list of qualified SBC products, go to [Session Border Controllers](lync-cert-program-sbcs-lync-server.md).
+All Session Border Controllers (SBCs) that qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For a list of qualified SBC products, go to [Session Border Controllers](sbcs-lync-server.md).

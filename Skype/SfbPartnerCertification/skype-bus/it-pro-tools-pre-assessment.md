@@ -75,7 +75,6 @@ For an online service network readiness assessment, the tool assesses the perfor
 
 Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-#### Learn more
-View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.
+

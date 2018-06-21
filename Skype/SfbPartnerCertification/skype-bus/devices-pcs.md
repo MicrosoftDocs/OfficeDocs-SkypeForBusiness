@@ -33,13 +33,5 @@ Monitors require an embedded camera and embedded speakerphone, both passing Lync
 
 [View PC's and devices certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
-
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
-
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
-
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.

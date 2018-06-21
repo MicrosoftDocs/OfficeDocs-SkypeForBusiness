@@ -28,7 +28,7 @@ Billing and enhanced reporting applications enable organizations to monitor, tra
 ###### Lync 2013
 
 ##### Ensure UC and VoIP quality of experience and network quality of service.
-[CA](www.CA.com)
+[CA](http://www.CA.com) 
 
 CA Unified Communications Monitor is a network-based voice and video monitoring solution that helps organizations ensure UC and VoIP quality of experience and network quality of service. UC and VoIP delivery metrics – such as jitter, latency, and packet loss – along with call quality metrics – such as MOS, provide full insight into UC quality of experience. Customized alerts and thresholds help pinpoint where problems reside and help identify which network paths experience the most severe problems. UC Monitor also helps you to track trends through capacity planning reports that illustrate busy-hour call attempts and the effects of call volume on call performance. UC Monitor integrates with CA Performance Center and many other CA Technologies solutions for a comprehensive view of systems and network performance.
 
@@ -125,9 +125,7 @@ Key capabilities include:
 
 nGenius Voice | Video Manager NetScout enables IT organizations to optimize and protect service delivery for voice, video, and data services while simplifying IT operations.
 
-Periscope GC
-For Lync:
-2013
+Periscope GC For Lync 2013
 
 Unified Communications usage and expense management for Lync deployments.
 cvt.com.au

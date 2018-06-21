@@ -71,7 +71,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 		<tr>
 			<td>Mediant Virtual Edition SBC</td>
-			<td> <img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td> &#x2714;</td>
 			<td>7.20A.000.042</td>
 		</tr>
 		<tr align="left" valign="top">
@@ -107,7 +107,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 		<tr>
 			<td>GX SW SBC</td>
-			<td> <img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td> &#x2714;</td>
 			<td>7.20A.000.042</td>
 		</tr>
 		<tr align="left" valign="top">
@@ -118,7 +118,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 		<tr align="left" valign="top">
 			<td>Oracle Enterprise SBC AP4600</td>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>ECZ7.5.0 Patch 2 (Build 143)</td>
 		</tr>
 		<tr align="left" valign="top">
@@ -128,12 +128,12 @@ Listed here are the session border controllers that are certified for Skype for 
 			<td>4.2.4</td>
 		</tr>
 		<tr>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>05.01.00-R000</td>
 		</tr>
 		<tr>
 			<td>SWe Lite</td>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>6.1.2</td>
 		</tr>
 		<tr>
@@ -142,7 +142,7 @@ Listed here are the session border controllers that are certified for Skype for 
 			<td>5.0.0.395</td>
 		</tr>
 		<tr>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>6.1.0 Build 457</td>
 		</tr>
 		<tr>
@@ -157,12 +157,12 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 		<tr align="left" valign="top">
 			<td>SBC 5110</td>
-			<td> <img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td> &#x2714;</td>
 			<td>05.01.00 R000f</td>
 		</tr>
 		<tr>
 			<td>SBC 5400</td>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>05.01.00-R000</td>
 		</tr>
 		<tr>
@@ -171,7 +171,7 @@ Listed here are the session border controllers that are certified for Skype for 
 			<td>4.2.4</td>
 		</tr>
 		<tr>
-			<td><img alt="EXUM Supported" height="19" src="dn788945.Red_Check(en-us,MSDN.10).png" title="Certified with EXUM Support" width="20" /></td>
+			<td>&#x2714;</td>
 			<td>05.01.00-R000</td>
 		</tr>
 	</tbody>
@@ -183,11 +183,3 @@ All Lync Server 2013 qualified session border controllers are forward compatible
 
 If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
 
-## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
-
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
-
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
-
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.

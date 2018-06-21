@@ -29,7 +29,7 @@ description: "The Attendant console applications allow attendants to manage comm
 
 
 #####  Manage business dialogues with a touch
-<a href="http://www.workstreampeople.com/anywhere365-lync-unified-contact-center/Social-Reception-Attendant">workstreampeople.com
+[workstreampeople.com](http://www.workstreampeople.com/anywhere365-lync-unified-contact-center/Social-Reception-Attendant)
 		
 ***Workstreampeople*** envisions with Anywhere365 that a contact center is no longer a physical &quot;switchboard&quot; entity where incoming calls are manually routed to persons within an organization, but a transparent technology that acts as a natural extension to people's intuitive way of engaging with others.</p>
 

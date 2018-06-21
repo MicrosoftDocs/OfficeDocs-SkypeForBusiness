@@ -111,7 +111,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="https://erhverv.tdc.dk/loesninger/skype-for-business">TDC Erhverv</a></td>
 			<td>Skype for Business Trunk</td>
-			<td>![Qualified](media/red_checkmark.png)<!-- need to fix this! --></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm">Colt Technology Services</a></td>
@@ -121,7 +121,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.columbus-business.com/">Columbus Business Solutions</a></td>
 			<td>CBS Cloud Voice</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.comscentre.com/microsoft-lync-certified-sip">Comscentre</a></td>
@@ -131,7 +131,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365">Elisa</a></td>
 			<td>SIP Trunking</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.fujitsu.com/fi/services/infrastructure-services/network/">Fujitsu</a></td>
@@ -156,7 +156,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.intelepeer.com/">IntelePeer</a></td>
 			<td>IntelePeer SIP Trunking</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx">Internet Solutions</a></td>
@@ -171,12 +171,12 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.ipvision.dk/microsoft-lync/">ipvision a/s</a></td>
 			<td>VIP Trunk</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.kordia.co.nz/">Kordia</a></td>
 			<td>Onkor Voice</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://level3.com/lync">Level 3</a></td>
@@ -191,12 +191,12 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.netstream.ch/index.php?id=506">Netstream</a></td>
 			<td>Lync Connect</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td><a href="https://www.nuwave.com/integration/skype-for-business.html  ">Nuwave Communications, Inc.</a></td>
 			<td>NuWave Connect</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.masergy.com/solutions/unified-communications">Masergy Communications</a></td>
@@ -206,12 +206,12 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.onesourcenetworks.com/lync-trunking/">One Source Networks</a></td>
 			<td>Lync Trunking</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td><a href="http://www.onestreamnetworks.com/Default.aspx?RD=3339">OneStream Networks</a></td>
 			<td>Skype for Business SIP Trunking</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.orange-business.com/en/voice-and-telephony">Orange Business Services</a></td>
@@ -236,7 +236,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://pure-ip.com/microsoft-Lync-voice-trunks">Pure-IP</a></td>
 			<td>OneLync SIP Trunks</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.qsc.de/ipfonie-extended-link/">QSC AG</a></td>
@@ -251,7 +251,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr align="left" valign="top">
 			<td><a href="http://www.redskye911.com/e911-for-lync">Red Sky Technologies</a></td>
 			<td>E911 Anywhere</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://business.rogers.com/">Rogers Business Solutions</a></td>
@@ -281,12 +281,12 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr align="left" valign="top">
 			<td><a href="https://www.talktalkbusiness.co.uk/products/voice/sip-trunking/sip-trunks/" title="TalkTalk Business SIP Trunks">TalkTalk Business</a></td>
 			<td>TalkTalk Business SIP Trunking</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.tatacommunications.com/GSC/index.html">Tata Communications</a></td>
 			<td>Global SIP Connect</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://tdc.se/">Tele2 Sweden</a></td>
@@ -301,7 +301,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.telavox.se/telefoni-for-vaxlar/#specification-5">Telavox</a></td>
 			<td>SIP Trunk</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="https://www.tele2.se/foretag/upptack/datanatstjanster/integration-services/allt-om-integration/unified-communication/skype-for-business">Tele2</a></td>
@@ -351,7 +351,7 @@ The following table lists the SIP trunking services that are certified for Skype
 		<tr>
 			<td><a href="http://www.toplink.de/lync-2013">toplink GmbH</a></td>
 			<td>tpl_sip.business LC</td>
-			<td><img alt="Qualified" height="19" src="https://i-technet.sec.s-msft.com/dn788945.Red_Check(en-us,MSDN.10).png" title="Qualified" width="20" /></td>
+			<td>&#x2714;</td>
 		</tr>
 		<tr>
 			<td><a href="http://www.t-systems.com/">T-Systems International GmbH</a></td>
@@ -429,13 +429,5 @@ The following table lists the SIP trunking services that are certified for Skype
 ## SIP Trunk Service Qualification Process
 The SIP trunk service provider interoperability program qualifies services offered by providers connecting enterprise, on-premise Skype for Business voice networks to a service provider offering PSTN origination, termination and emergency services by making use of the SIP protocol.
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
-
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
-
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
-
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.

@@ -21,10 +21,10 @@ description: "Information on how to join the Skype for Business Certification Pr
 
 # How to Join
 
-## How to Join requirements and available programs
+## Requirements and available programs
 Some programs already have sufficient partners to achieve our current product and market reach needs and are not seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
 
-Vendors interested in submitting their products for the Certified for Skype for Business program must have:
+Vendors interested in submitting their products for the **Certified for Skype for Business** program must have:
 - A proven record of developing and marketing enterprise grade and industry leading communications products
 - Evidence of ability to achieve the technical requirements of the program
 - Established global support channels (some programs may also require global enterprise sales channels)
@@ -32,14 +32,16 @@ Vendors interested in submitting their products for the Certified for Skype for 
 - Commitment to pay testing fees* and support customer trials as required by the program
 - Commitment to share product usage data for purposes of enhancing customer support and program planning
 
-[Note]
-For testing fees payable to independent lab, contact the certification lab from Current Programs table for more information.
+> [!NOTE]
+> For testing fees payable to independent lab, contact the certification lab from Current Programs table for more information.
 
 Vendors that meet the general requirements for partners above may follow the process outlined here to request admission:
 1. Confirm that the program that you are seeking to join is seeking new partners by reviewing the table below.
 
-2. Email the alias listed in the table. You must clearly indicate which program you are seeking to join. Responses will be assessed and if further information is needed, candidates will be contacted for a more comprehensive discussion under NDA.<p>Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there is capacity in the program at the time. Program Terms and Conditions will be made available for acceptance when these requirements are fulfilled.</p>
-3. Sign the terms and agreements.</br></br>
+2. Email the alias listed in the table. You must clearly indicate which program you are seeking to join. Responses will be assessed and if further information is needed, candidates will be contacted for a more comprehensive discussion under NDA.
+
+    Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there is capacity in the program at the time. Program **Terms and Conditions** will be made available for acceptance when these requirements are fulfilled.
+1. Sign the terms and agreements.</br></br>
    Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
 ## Current programs
@@ -176,5 +178,6 @@ Programs that are not listed below are currently closed.
 			<td align="center" valign="top">Not seeking partners</td>
 		</tr>
 	</table> </br> </br>
-[NOTE]
-Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results do not constitute a certification or endorsement from Microsoft and would not be used in any Microsoft material.
+
+> [!NOTE]
+> Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results do not constitute a certification or endorsement from Microsoft and would not be used in any Microsoft material.

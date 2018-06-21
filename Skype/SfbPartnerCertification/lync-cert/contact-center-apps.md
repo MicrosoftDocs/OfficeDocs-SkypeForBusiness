@@ -121,7 +121,7 @@ Integrating Aspect Unified IP with Microsoft Lync Server 2013 connects customers
 
 ##### Maximize a Lync investment with a complete and seamlessly integrated contact center.
 
-[Clarity Connect](connect.claritycon.com) 
+[Clarity Connect](http://connect.claritycon.com) 
 
 ***Clarity Connect*** is used across multiple continents and many different industries by companies looking to leverage Lync for their contact centers or help desk. As a native, server-based application, Connect acts as in additional Lync Server role to supply contact center functionality without any added desktop clients.
 
