@@ -24,7 +24,7 @@ description: "SIP Trunking and E-911 services partner qualification requirements
 
 SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP.
 
-E-911 service providers provide routing of emergency calls from Lync to the correct emergency dispatch center responsible for deploying emergency responders for the given client location. To learn about E-911, see [E-911 Services](lync-cert-program-e-911-service-providers.md)
+E-911 service providers provide routing of emergency calls from Lync to the correct emergency dispatch center responsible for deploying emergency responders for the given client location. To learn about E-911, see [E-911 Services](e-911-service-providers.md)
 
 ### SIP trunking services qualified for Lync Server 2013
 

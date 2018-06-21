@@ -74,6 +74,6 @@ The survivable branch appliances (SBAs) along with the relevant firmware shown i
 	</tr>
 </table>
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available progra
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available progra
 
 

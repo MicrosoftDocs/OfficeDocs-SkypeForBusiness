@@ -28,7 +28,7 @@ The IT Pro Tools program outlines partner solutions that make it easier to deplo
 - Partner provides at minimum one private customer reference that successfully used the software in a deployment of over 10,000 users.
 - Partner provides established Tier 1 support system and membership in TSA.NET to manage support inquiries with Microsoft on behalf of customers.
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 #### Learn more
 View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.

@@ -37,7 +37,7 @@ All of these specifications apply equally for Lync 2013 as they do for Skype for
 
 [Browse USB devices Certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 ## Additional Resources
 Learn about [Skype for Business certification](overview.md).
