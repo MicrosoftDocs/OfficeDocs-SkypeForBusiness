@@ -1,21 +1,22 @@
 ---
-title: "PSTN Conference Summary Report in Skype for Business Server"
+title: "PSTN Conference Summary Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: "Summary: Learn about the PSTN Conference Summary Report in Skype for Business Server."
+description: "Summary: Learn about the PSTN Conference Summary Report in Skype for Business Server 2015."
 ---
 
-# PSTN Conference Summary Report in Skype for Business Server
+# PSTN Conference Summary Report in Skype for Business Server 2015
  
-**Summary:** Learn about the PSTN Conference Summary Report in Skype for Business Server.
+**Summary:** Learn about the PSTN Conference Summary Report in Skype for Business Server 2015.
   
-In Skype for Business Server, a PSTN conference is any conference in which at least one participant dials in to the audio portion by a using a PSTN (public switched telephone network) phone. (A PSTN phone is a "landline," a cell phone, or any other phone which does not make use of Voice over IP.) Although referred to as PSTN conferences in the Monitoring Reports, these conferences are perhaps more-commonly known as dial-in conferences.
+In Skype for Business Server 2015, a PSTN conference is any conference in which at least one participant dials in to the audio portion by a using a PSTN (public switched telephone network) phone. (A PSTN phone is a "landline," a cell phone, or any other phone which does not make use of Voice over IP.) Although referred to as PSTN conferences in the Monitoring Reports, these conferences are perhaps more-commonly known as dial-in conferences.
   
 The PSTN Conference Summary Report provides information about all the PSTN conferences held in your organization (that is, all the conferences that had at least one dial-in user). The report includes information about the total number of PSTN conferences, the total number of people who participated in those conferences, and, perhaps, most important, the total number of dial-in users (the Total PSTN participants metric).
   
@@ -25,7 +26,7 @@ The PSTN Conference Summary Report can only be accessed from the Monitoring Repo
   
 ## Making the Best Use of the PSTN Conference Summary Report
 
-To determine the percentage of all your conferences that include dial-in users, compare the value of the Total PSTN conferences metric with the Total conferences metric found on the [Conference Summary Report in Skype for Business Server](conference-summary-report.md).
+To determine the percentage of all your conferences that include dial-in users, compare the value of the Total PSTN conferences metric with the Total conferences metric found on the [Conference Summary Report in Skype for Business Server 2015](conference-summary-report.md).
   
 If you don't see as many PSTN conferences as you might have expected to see, keep in mind that the ability to organize a conference that allows dial-in users depends on the conferencing policy that has been assigned to a user: if very few of your users are allowed to hold PSTN conferences you would obviously see very few PSTN conferences. You can quickly verify which of your conferencing policies (if any) allow users to schedule PSTN conferences by running the following command from within the Skype for Business Server Management Shell:
   

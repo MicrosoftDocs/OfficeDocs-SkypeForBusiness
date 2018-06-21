@@ -1,8 +1,9 @@
 ---
-title: "Include the security desk in Skype for Business Server"
+title: "Include the security desk in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: "Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice."
 ---
 
-# Include the security desk in Skype for Business Server
+# Include the security desk in Skype for Business Server 2015
  
 Planning how to include your organization's security desk in an E9-1-1 deployment, in Skype for Business Server Enterprise Voice.
   

@@ -1,8 +1,9 @@
 ---
-title: "Plan for PSTN connectivity in Skype for Business Server"
+title: "Plan for PSTN connectivity in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: "Plan for PSTN connectivity in Enterprise Voice in Skype for Business Server."
 ---
 
-# Plan for PSTN connectivity in Skype for Business Server
+# Plan for PSTN connectivity in Skype for Business Server 2015
  
 Plan for PSTN connectivity in Enterprise Voice in Skype for Business Server.
   
@@ -33,14 +34,14 @@ Depending on its size, geographic coverage, and existing voice infrastructure, a
   
 ## In this section
 
-- [SIP trunking in Skype for Business Server](sip-trunking.md)
+- [SIP trunking in Skype for Business Server 2015](sip-trunking.md)
     
-- [Direct SIP connections in Skype for Business Server](direct-sip.md)
+- [Direct SIP connections in Skype for Business Server 2015](direct-sip.md)
     
-- [M:N trunk in Skype for Business Server](m-n-trunk.md)
+- [M:N trunk in Skype for Business Server 2015](m-n-trunk.md)
     
-- [Translation rules in Skype for Business Server](translation-rules.md)
+- [Translation rules in Skype for Business Server 2015](translation-rules.md)
     
-- [Plan for outbound voice routing in Skype for Business Server](outbound-voice-routing.md)
+- [Plan for outbound voice routing in Skype for Business Server 2015](outbound-voice-routing.md)
     
 

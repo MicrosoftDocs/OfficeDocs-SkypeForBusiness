@@ -1,8 +1,9 @@
 ---
-title: "Export or import a voice route configuration file in Skype for Business"
+title: "Export or import a voice route configuration file in Skype for Business 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: "Summary: Learn how to export or import a voice routing configuration file in Skype for Business Server by using the Skype for Business Server Control Panel."
+description: "Summary: Learn how to export or import a voice routing configuration file in Skype for Business Server 2015 by using the Skype for Business Server Control Panel."
 ---
 
-# Export or import a voice route configuration file in Skype for Business
+# Export or import a voice route configuration file in Skype for Business 2015
  
-**Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server by using the Skype for Business Server Control Panel.
+**Summary:** Learn how to export or import a voice routing configuration file in Skype for Business Server 2015 by using the Skype for Business Server Control Panel.
   
 If you want to save your voice routing configuration without publishing it, follow these steps to save and retrieve a snapshot of your voice routing configuration. 
   
@@ -52,6 +53,6 @@ If you have made any uncommitted changes to the settings on any page within the 
 6. Click **Commit**, and then click **Commit all**.
     
     > [!NOTE]
-    > Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 

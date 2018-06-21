@@ -1,8 +1,9 @@
 ---
-title: "PSTN connectivity components in Skype for Business Server"
+title: "PSTN connectivity components in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: "Learn about SIP trunking and PSTN gateways for Enterprise Voice in Skype for Business Server."
 ---
 
-# PSTN connectivity components in Skype for Business Server
+# PSTN connectivity components in Skype for Business Server 2015
  
 Learn about SIP trunking and PSTN gateways for Enterprise Voice in Skype for Business Server.
   

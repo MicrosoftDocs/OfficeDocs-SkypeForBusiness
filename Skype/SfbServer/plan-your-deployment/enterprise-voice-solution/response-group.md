@@ -1,8 +1,9 @@
 ---
-title: "Plan for the Response Group application in Skype for Business Server"
+title: "Plan for the Response Group application in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: "Planning for response groups in Skype for Business Server Enterprise Voice, which enables you to set up call routing to groups of users. Includes audio file requirements."
 ---
 
-# Plan for the Response Group application in Skype for Business Server
+# Plan for the Response Group application in Skype for Business Server 2015
  
 Planning for response groups in Skype for Business Server Enterprise Voice, which enables you to set up call routing to groups of users. Includes audio file requirements.
   

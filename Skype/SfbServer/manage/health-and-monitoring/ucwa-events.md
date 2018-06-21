@@ -1,21 +1,22 @@
 ---
-title: "UCWA events in Skype for Business Server"
+title: "UCWA events in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: "Summary: Learn about the Unified Communications Web API (UCWA) in Skype for Business Server."
+description: "Summary: Learn about the Unified Communications Web API (UCWA) in Skype for Business Server 2015."
 ---
 
-# UCWA events in Skype for Business Server
+# UCWA events in Skype for Business Server 2015
  
-**Summary:** Learn about the Unified Communications Web API (UCWA) in Skype for Business Server.
+**Summary:** Learn about the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
   
-Skype for Business Server uses the Unified Communications Web API (UCWA) for a number of purposes, from accessing Microsoft Exchange for contact searches to updating presence for mobile clients.
+Skype for Business Server 2015 uses the Unified Communications Web API (UCWA) for a number of purposes, from accessing Microsoft Exchange for contact searches to updating presence for mobile clients.
   
 UCWA will write records of operational behavior as event types Informational, Warning, and Error. The following table describes the events that can be written by the UCWA components.
   

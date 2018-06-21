@@ -1,8 +1,9 @@
 ---
-title: "Plan for the Announcement application in Skype for Business"
+title: "Plan for the Announcement application in Skype for Business 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: "Planning for the announcement application in Skype for Business Server Enterprise Voice, which configures what to do with phone calls to unassigned phone numbers in your organizations. Includes audio file requirements."
 ---
 
-# Plan for the Announcement application in Skype for Business 
+# Plan for the Announcement application in Skype for Business 2015
  
 Planning for the announcement application in Skype for Business Server Enterprise Voice, which configures what to do with phone calls to unassigned phone numbers in your organizations. Includes audio file requirements.
   

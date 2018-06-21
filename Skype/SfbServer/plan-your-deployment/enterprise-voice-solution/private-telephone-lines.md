@@ -1,8 +1,9 @@
 ---
-title: "Plan for private telephone lines with Skype for Business"
+title: "Plan for private telephone lines with Skype for Business 2015"
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: "Planning for private (secondary) telephone lines in Skype for Business Server Enterprise Voice."
 ---
 
-# Plan for private telephone lines with Skype for Business
+# Plan for private telephone lines with Skype for Business 2015
  
 Planning for private (secondary) telephone lines in Skype for Business Server Enterprise Voice.
   

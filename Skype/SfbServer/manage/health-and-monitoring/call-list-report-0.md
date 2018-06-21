@@ -1,21 +1,22 @@
 ---
-title: "Call List Report in Skype for Business Server"
+title: "Call List Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: "Summary: Learn about the Call List Report used in Skype for Business Server."
+description: "Summary: Learn about the Call List Report used in Skype for Business Server 2015."
 ---
 
-# Call List Report in Skype for Business Server
+# Call List Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Call List Report used in Skype for Business Server.
+**Summary:** Learn about the Call List Report used in Skype for Business Server 2015.
   
-The Call List Report provides Quality of Experience (QoE) metrics for individual calls made and received in your organization. Note that the actual metrics reported will depend on how you access the Call List report. For example, if you open the report from the [Device Report in Skype for Business Server](device-report.md), you'll see metrics such as the following, metrics that are also reported on the Device Report:
+The Call List Report provides Quality of Experience (QoE) metrics for individual calls made and received in your organization. Note that the actual metrics reported will depend on how you access the Call List report. For example, if you open the report from the [Device Report in Skype for Business Server 2015](device-report.md), you'll see metrics such as the following, metrics that are also reported on the Device Report:
   
 - Caller's microphone
     
@@ -27,7 +28,7 @@ The Call List Report provides Quality of Experience (QoE) metrics for individual
     
 - Ratio of voice switch time 
     
-However, if you open the Call List Report from the [Location Report in Skype for Business Server](location-report.md), you won't see any of those metrics; instead, you'll see metrics like these:
+However, if you open the Call List Report from the [Location Report in Skype for Business Server 2015](location-report.md), you won't see any of those metrics; instead, you'll see metrics like these:
   
 - Round trip (ms)
     
@@ -43,15 +44,15 @@ Those are the metrics reported on the Location Report. However, from the Call Li
 
 The Call List Report can be accessed from any of the following reports:
   
-- The [Location Report in Skype for Business Server](location-report.md) (by clicking the Call volume or Poor call percentage metric)
+- The [Location Report in Skype for Business Server 2015](location-report.md) (by clicking the Call volume or Poor call percentage metric)
     
-- The [Device Report in Skype for Business Server](device-report.md) (by clicking the Call volume or Poor call percentage metric)
+- The [Device Report in Skype for Business Server 2015](device-report.md) (by clicking the Call volume or Poor call percentage metric)
     
-- The [Media Quality Summary Report in Skype for Business Server](summary.md) (by clicking the Call volume or Poor call percentage metric)
+- The [Media Quality Summary Report in Skype for Business Server 2015](summary.md) (by clicking the Call volume or Poor call percentage metric)
     
-- The [Server Performance Report in Skype for Business Server](server-performance.md) (by clicking the Call volume or Poor call percentage metric)
+- The [Server Performance Report in Skype for Business Server 2015](server-performance.md) (by clicking the Call volume or Poor call percentage metric)
     
-From within the Call List Report you can access the [Call Detail Report in Skype for Business Server](call-detail-report.md) by clicking the Detail metric.
+From within the Call List Report you can access the [Call Detail Report in Skype for Business Server 2015](call-detail-report.md) by clicking the Detail metric.
   
 ## Making the Best Use of the Call List Report
 

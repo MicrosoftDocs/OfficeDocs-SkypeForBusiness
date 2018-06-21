@@ -1,8 +1,9 @@
 ---
-title: "Define additional trunks in Topology Builder in Skype for Business Server"
+title: "Define additional trunks in Topology Builder in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: "Summary: Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server."
+description: "Summary: Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server 2015."
 ---
 
-# Define additional trunks in Topology Builder in Skype for Business Server
+# Define additional trunks in Topology Builder in Skype for Business Server 2015
  
-**Summary:** Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server.
+**Summary:** Learn how to define an additional trunk between a Mediation Server and a gateway peer in Topology Builder in Skype for Business Server 2015.
   
 Follow these steps to define an additional trunk to which you can associate a peer with a Mediation Server. A peer provides users enabled for Enterprise Voice with connectivity to the Public Switched Telephone Network (PSTN). A peer can be a PSTN gateway, an IP-PBX, or a Session Border Controller (SBC) for an Internet Telephony Service Provider (ITSP).
   
 A trunk is a logical connection between a Mediation Server and a gateway.
   
 > [!NOTE]
-> This topic assumes that you have setup a PSTN gateway and root trunk with at least one collocated or stand-alone Mediation Server or pool as described in [Define a gateway in Topology Builder in Skype for Business Server](define-a-gateway.md) in the Deployment documentation.
+> This topic assumes that you have setup a PSTN gateway and root trunk with at least one collocated or stand-alone Mediation Server or pool as described in [Define a gateway in Topology Builder in Skype for Business Server 2015](define-a-gateway.md) in the Deployment documentation.
   
 ### To define an additional trunk between a Mediation Server and a gateway peer
 
