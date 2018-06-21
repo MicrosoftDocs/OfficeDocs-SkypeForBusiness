@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947482
 description: "Skype for Businees Certification of PCs ensures that workers can use their PCs as their complete unified communications endpoint"
 ---
 

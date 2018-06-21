@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947484
 description: "Microsoft Lync supports two methods of placing E-911 calls: Using a qualified service delivered via a SIP trunk, and using a qualified gateway that provides ELIN capabilities."
 ---
 

@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947482 
 description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
 ---
 

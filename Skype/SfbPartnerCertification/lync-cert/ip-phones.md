@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
+- dn788944
 description: "Read about qualified devices for the Lync client on Windows-based machines."
 ---
 
@@ -29,8 +30,8 @@ The Compatible Devices Program has a large number vendors who have gone through 
 
 It is important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (refer to the table that follows).
 
-[Note]
-If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country support, and documentation including release notes and known issues. 
+> [!NOTE]
+> If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country support, and documentation including release notes and known issues. 
 
 Contact the vendors for more information about these products.
 

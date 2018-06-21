@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business Certification
+- dn947964
 description: "Skype for Business Server migration tools perform a variety of tasks including analyzing the data, highlighting mismatches or duplicates, that help clean up the data."
 ---
 

@@ -19,10 +19,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "Applications that have been validated as using Lync 2013 APIs."
 ---
-
+ 
 # Software Defined Networking Applications
 See Skype for Business SDN applications [here](../skype-bus/networking-sdn.md). 
 

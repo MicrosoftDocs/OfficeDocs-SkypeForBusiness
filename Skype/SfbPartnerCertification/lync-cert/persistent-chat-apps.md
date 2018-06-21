@@ -16,10 +16,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
-
+ 
 # Persistent chat applications
 Collaborate with a group in topic-based persistent discussion rooms. Share ideas and information by posting messages. Find ideas and information by browsing or searching the chat history. Search for content within and across rooms. Create notifications and filters to track conversations in particular rooms and about specific topics.
 

@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947964
 description: "Skype for Business Server Monitoring and Troubleshooting tools validate tool provides real time visibility into complex multi-vendor networks and platforms that can cause issues with the user’s audio, video or collaboration experience."
 ---
 

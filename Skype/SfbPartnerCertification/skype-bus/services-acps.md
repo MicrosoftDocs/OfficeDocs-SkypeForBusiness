@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947484
 description: "Skype for Business enables dial-in audio conferencing is available through interoperability with third-party audio conferencing services."
 ---
 

@@ -16,10 +16,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
-
+ 
 # Recording applications
 Recording applications allow for the recording, storage, and retrieval of communications for training review, quality analysis and to meet compliance requirements.
 

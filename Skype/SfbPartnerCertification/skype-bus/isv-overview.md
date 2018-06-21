@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- mt845419
 description: "ISV Certification program ensures that qualified business solutions meet customer expectations for interoperability with Skype for Business Server and Skype for Business eco-system."
 ---
 

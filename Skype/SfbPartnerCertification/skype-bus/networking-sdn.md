@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- mt147899
 description: "Planning the optimal Skype for Business experience in a wired world."
 ---
 

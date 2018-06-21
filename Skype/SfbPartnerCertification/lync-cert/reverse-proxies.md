@@ -1,5 +1,5 @@
 ---
-title: "Reverse proxies partner qualification for Lync Server"
+title: "Reverse proxies"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,13 +16,11 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
-description: "Reverse proxies partner qualification for Lync."
+- dn788945
+description: "This lists the server reverse proxy products that have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed below have completed extensive testing and are posted with detailed deployment white papers to assist in configuration.."
 ---
 
-# Reverse proxies partner qualification for Lync Server
-
-## Reverse proxies
+# Reverse proxies 
 
 The server reverse proxy products listed in this page have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed in the table that follows have completed extensive testing and are posted with detailed deployment white papers to assist in configuration.
 

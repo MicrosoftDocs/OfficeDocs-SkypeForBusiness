@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- mt147899
 description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
 ---
 
@@ -23,7 +24,7 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 Wi-Fi connectivity quality is a critical success factor for unified communications and user productivity. Microsoft understands the challenges of today’s business climate and the crippling effect that downtime, whether planned or otherwise, can have on organizations and employees. Communications downtime can have costly or even business-ending consequences.
 
 ## Planning for Skype for Business over WiFi
-Visit this page to [view the collective information to help you plan an optimal Skype for Business experience in a wireless world](https://technet.microsoft.com/en-us/office/mt147901), along with a few success stories. <!--  add to this folder  -->
+Visit this page to [view the collective information to help you plan an optimal Skype for Business experience in a wireless world](plan-wifi.md), along with a few success stories.
 
 In partnership with device partners, Microsoft is proactively certifying Skype for Business over Wi-Fi to ensure that they meet Microsoft’s standards to take the Skype for Business wireless experience to new heights. We have certification for following Wi-Fi categories:
 - Access Point

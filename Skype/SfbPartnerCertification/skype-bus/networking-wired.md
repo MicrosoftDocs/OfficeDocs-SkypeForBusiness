@@ -16,9 +16,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- mt147899
 description: "Planning the optimal Skype for Business experience in a wired world."
 ---
-
+ 
 # Wired for Skype for Business
 Listed in the table that follows are the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s website for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. Please contact the listed partner for more information on these products.
 

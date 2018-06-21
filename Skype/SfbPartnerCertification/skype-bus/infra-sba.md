@@ -16,9 +16,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947483
 description: "List of Survivable Branch Appliances that have been independently qualified with Skype for Business Server."
 ---
-
+ 
 # Survivable branch appliances
 The survivable branch appliances (SBAs) along with the relevant firmware shown in the table that follows have been independently qualified with Skype for Business Server. We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a quick start guide, release notes and any known issues.
 

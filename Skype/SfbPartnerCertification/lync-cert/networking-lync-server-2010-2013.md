@@ -16,7 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788945
 description: "Partner qualification requirements for Lync."
 ---
 

@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947483
 description: "List of Session Border Controllers that have been independently qualified with Skype for Business Server."
 ---
 

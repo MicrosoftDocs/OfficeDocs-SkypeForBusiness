@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947483
 description: "Information about certified gateways for Skype for Business."
 ---
 
@@ -59,7 +60,7 @@ Pre-release tested with Skype for Business, software version may change upon com
 
 All gateways qualified with Lync Server 2013 are forward compatible and supported with Skype for Business 2015. For a list of Lync 2013 qualified gateways please see here.
 
-If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 ## Additional Resources
 Learn about [Skype for Business certification](overview.md).

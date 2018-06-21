@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Skype Certification
+- Skype for Business Certification
+- dn947481
 description: "Information on how to join the Skype for Business Certification Program and the available programs."
 ---
 

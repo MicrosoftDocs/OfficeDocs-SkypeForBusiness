@@ -15,10 +15,11 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business Certification
+- Dn947481
 description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
 ---
-<!-- was  https://technet.microsoft.com/en-us/office/Dn947481 -->
+
 # Skype for Business certification program
 
 The **Skype for Business Certification Program** is designed to offer Microsoft customers badges or designations as indicators of third party solutions that demonstrate a high quality experience and compatibility when used with **Skype for Business**.

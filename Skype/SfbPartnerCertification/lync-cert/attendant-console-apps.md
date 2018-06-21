@@ -19,7 +19,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "The Attendant console applications allow attendants to manage communications for an enterprise."
 ---
 
@@ -28,7 +28,8 @@ description: "The Attendant console applications allow attendants to manage comm
 ## Anywhere365 Social Reception Attendant
 
 
-#####  Manage business dialogues with a touch
+**Manage business dialogues with a touch**
+
 [workstreampeople.com](http://www.workstreampeople.com/anywhere365-lync-unified-contact-center/Social-Reception-Attendant)
 		
 ***Workstreampeople*** envisions with Anywhere365 that a contact center is no longer a physical &quot;switchboard&quot; entity where incoming calls are manually routed to persons within an organization, but a transparent technology that acts as a natural extension to people's intuitive way of engaging with others.</p>
@@ -38,9 +39,11 @@ Since we believe that anybody could be a contact center, the reception is a role
 Available now in 8 languages, that is, English, Dutch, French, German, Spanish, Portuguese, Danish, and Swedish
 
 ---------------------
-## Competella Multimedia Attendant &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>For Lync: 2010 2013 </small>
+## Competella Multimedia Attendant 
+For Lync: 2010, 2013 
 
-##### Benefit with new multimedia and unified communications possibilities.
+
+**Benefit with new multimedia and unified communications possibilities.**
 [Competella](http://www.competella.com)
 
 The ***Competella Multimedia Attendant for Lync*** is an advanced switchboard attendant system integrating call control with an advanced directory search tool, access to presence, calendar, e-mail, SMS and Instant messaging (IM). The system adds attendant functionality to Lync beyond the level found in legacy PBX's. The queue handler supports multiple queues with an advanced ACD function, scheduling and voice announcements. Traffic Analysis Reports and Call Recording of attendant calls are standard functions.
@@ -55,7 +58,8 @@ Optional functions:
     - whispering
     - barge-in
 - Multi-tenant support
-__________________________
+
+--------
 ## Mitel
 
 [Mitel InAttend](http://www.mitel.com)
@@ -74,10 +78,12 @@ InAttend provides:
 - Calendar information (Exchange)
 - Future-proof scalable solution based on open standards
 - Multi-tenant support
+
 ------------------------------
 ## PeterConnects Enterprise Attendant Console from JDM Software
 
-###### Facilitate easy and fast call handling.
+**Facilitate easy and fast call handling.**
+
 [PeterConnects Enterprise Attendant Console](http://www.peterconnects.com)
 
 ***PeterConnects Attendant Console*** is a powerful operator console allowing fast and easy call handling of large numbers of telephone calls. Calls can be easily answered and transferred to employees using keyboard, mouse or touchscreen. Most operations can be done by single keystroke. 
@@ -86,8 +92,8 @@ Numerous interfaces are supported, <!-- missing text? -->combine sources, create
 
 -----------------------------------
 ## Samroxx Attendant Console & Soft Phone
-For Lync:
-2013
+
+For Lync: 2013
 
 [Samroxx Attendant Console](http://www.samroxx.com)
 video demo
@@ -107,8 +113,9 @@ Select features include:
 ---------------------
 ## Trio Enterprise Attendant
 
-###### Streamline workflow and increase productivity with instant information about who is where.
-  [Trio Enterprise Attendant](http://www.trio.com)
+**Streamline workflow and increase productivity with instant information about who is where.**
+
+[Trio Enterprise Attendant](http://www.trio.com)
 
 Developed on a Scandinavian model, ***Trio Enterprise Attendant Console*** brings you a high-end switchboard solution that integrates fully with the voice telephony and collaboration capabilities of Lync. When using the attendant console, you can, for example, camp on busy Lync users or transfer calls to mobile phones. You will also get returning calls if the destination doesn't answer so that you may transfer to someone else in the same department.
 Additional Functions:
@@ -127,7 +134,7 @@ Additional Functions:
 -----------------
 ## UCS Attendant Console
 
-###### UCS Attendant Console offers all receptionist features: professional call handling and managing the availability of organizations in a user friendly easy-to-use application.
+**UCS Attendant Console offers all receptionist features: professional call handling and managing the availability of organizations in a user friendly easy-to-use application.**
 
 [UCS Attendant Console](http://www.unexus.nl)
 
@@ -137,7 +144,7 @@ Additional Functions:
 
 ## Visionutveckling Vision 80/20
 
-###### Reduce call handling time
+**Reduce call handling time**
 
 [Visionutveckling Vision 80/20](http://www.visionutveckling.se)
 
@@ -158,7 +165,7 @@ Benefits:
 -------------------
 
 ## Zylinc Attendant Console
-###### Handle an entire company's calls quickly and efficiently.
+**Handle an entire company's calls quickly and efficiently.**
 
 [Zylinc Attendant Console](http://www.zylinc.com)
 

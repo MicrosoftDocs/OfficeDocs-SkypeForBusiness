@@ -19,7 +19,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "Applications that have been validated as using Lync 2013 APIs."
 ---
 

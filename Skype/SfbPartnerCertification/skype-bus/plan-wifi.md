@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business Certification
+- mt147901
 description: "Planning for Optimal Skype for Business Experience over Wi-Fi."
 ---
 

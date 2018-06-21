@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947484
 description: "Microsoft Lync supports the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones."
 ---
 

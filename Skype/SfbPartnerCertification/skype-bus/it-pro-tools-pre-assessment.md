@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business Certification
+- dn947964
 description: "Skype for Business Network Pre-Assessment tools help customers determine if their network meets  connectivity and performance requirements to handle Skype for Business media traffic."
 ---
 

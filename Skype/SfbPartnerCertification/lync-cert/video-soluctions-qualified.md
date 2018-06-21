@@ -381,7 +381,10 @@ Notes:
 
 ## Vendor support
 [LifeSize](http://www.lifesize.com/Partners/Technology_Partners/Microsoft.aspx)
+
 [Polycom](http://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
+
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
+
 --------------
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](http://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)

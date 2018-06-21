@@ -16,7 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 
@@ -25,7 +25,7 @@ Billing and enhanced reporting applications enable organizations to monitor, tra
 
 ## CA Unified Communications Monitor
 -------------------
-###### Lync 2013
+**Lync 2013**
 
 ##### Ensure UC and VoIP quality of experience and network quality of service.
 [CA](http://www.CA.com) 

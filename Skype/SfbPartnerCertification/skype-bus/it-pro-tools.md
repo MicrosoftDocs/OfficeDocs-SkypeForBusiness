@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business  Certification
+- dn947964
 description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
 ---
 

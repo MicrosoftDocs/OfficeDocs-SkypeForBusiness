@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947483
 description: "List of Reverse Proxy Servers that have been independently qualified with Skype for Business Server."
 ---
 

@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- mt779140
 description: "Microsoft tests and qualifies video teleconference systems (VTCs), and gateways for interoperability with Skype for Business."
 ---
 

@@ -15,7 +15,8 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom:
-- Lync Certification
+- Skype for Business Certification
+- dn947964
 description: "Skype for Business Server User and Policy Provisioning tools validate the ability of the tool to perform single and bulk provisioning of existing AD users."
 ---
 

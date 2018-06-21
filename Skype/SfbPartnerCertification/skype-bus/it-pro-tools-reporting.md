@@ -16,9 +16,10 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
+- dn947964
 description: "Skype for Business Server Reporting tool lets admins anayze and pivot data against time, network location, and more, to determine changes in call quality and other network or UC issues."
 ---
-
+ 
 # Reporting
 The certified reporting tools let customers view trends in network performance and UC issues in a single window.
 
