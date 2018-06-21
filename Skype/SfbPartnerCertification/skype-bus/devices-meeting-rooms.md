@@ -32,7 +32,7 @@ Lync Room Systems (LRS) are designed to extend the Lync meeting experience to th
 
 Lync Room Systems will manage the Skype for Business transition in a two-stage approach. At general availability, Lync Room Systems will be forward compatible with the new Skype for Business Server product while maintaining the same client user experience. Meanwhile, LRS devices will continue to receive quarterly client updates. Once LRS re-branding is completed later in 2015, devices will make the final Skype for Business transition using the same regular update process on existing hardware and compatible with both Lync Server 2013 and Skype for Business Server. Microsoft will work closely with its OEM partners as it transitions to Certified for Skype for Business during this process. Finally, customers will be able to follow the transition process and update details via the Skype for Business team blog.
 
-You can find detailed specifications here: [Lync Room Systems Optimized on Lync 2013](https://technet.microsoft.com/en-us/office/dn788944.aspx).
+You can find detailed specifications here: [Phones and devices qualified for  Lync](../lync-cert/ip-phones.md).
 
 ## USB based audio/video end points designed for conference rooms
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Supporting plug & play features with Lync and Skype for Business clients, passing products provide a great experience for end-users and administrators.
@@ -42,11 +42,11 @@ The USB certification program ensures that USB peripherals such as headsets, spe
 - Plug and play: once connected, a device registers on the Skype for Business client and is ready to use
 - Basic call control across PC and devices with answer/hang-up, mute/unmute, and volume control.
 - Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio
-- Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view](https://technet.microsoft.com/en-us/office/dn788953)
+- Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view  
 
 ### Administrator Experience
 - Firmware and fixes remote software update and contractual SLA for hardware updates
-- Full outline of [Lync test specifications and tools](https://technet.microsoft.com/en-us/office/dn788953) <!-- technet - replace -->
+- Full outline of [Lync test specifications and tools](https://technet.microsoft.com/en-us/office/dn788953) <!-- technet - add page to folder -->
 
 All of these specifications apply equally for Lync 2013 as they do for Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 

@@ -31,7 +31,7 @@ The USB certification program ensures that USB peripherals such as headsets, spe
 
 ### Administrator Experience
 - Firmware and fixes remote software update and contractual SLA for hardware updates
-- Full outline of [Lync test specifications and tools](https://technet.microsoft.com/en-us/office/dn788953) <!-- note another technet link-->
+- Full outline of [test specifications and tools](test-spec.md) 
 
 All of these specifications apply equally for Lync 2013 as they do for Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 
@@ -40,7 +40,7 @@ All of these specifications apply equally for Lync 2013 as they do for Skype for
 If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md) for requirements and available programs.
 
 ## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
+Learn about [Skype for Business certification](overview.md).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 

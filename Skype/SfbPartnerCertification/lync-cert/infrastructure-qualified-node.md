@@ -25,4 +25,4 @@ Find out more about the Microsoft Unified Communications Open Interoperability P
 
 These pages details infrastructure and services qualified with Lync Server. <!-- note that this was the landing page with tiles that have  become pages -->
 
-For information on Office Communications Server 2007 and Office Communications Server 2007 R2, please see [Unified Communications Open Interoperability Program for Office Communications Server](https://technet.microsoft.com/office/ocs/bb735838). <!-- this will need to change -->
+

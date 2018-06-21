@@ -24,7 +24,7 @@ description: "Applications that have been validated as using Lync 2013 APIs."
 ---
 
 # Software Defined Networking Applications
-See Skype for Business SDN applications [here](https://technet.microsoft.com/en-us/mt147899). <!-- this will need to change -->
+See Skype for Business SDN applications [here](../skype-bus/networking-sdn.md). 
 
 Applications built on the Lync SDN API provide the ability to quickly detect quality affecting issues on the network and deliver prescriptive resolutions and traffic prioritization. Manage the Lync experience with automated root-cause analysis of network issues. Access real time, session-level metrics for network events across modalities, sessions, and IP topology layers.
 

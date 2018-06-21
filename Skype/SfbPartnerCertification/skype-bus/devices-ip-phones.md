@@ -24,14 +24,14 @@ Microsoft plans to test and certify IP phones for Skype for Business through the
 
 In the meantime, Skype for Business Server supports backwards compatibility with all of our Lync qualified IP phones, and devices which are supported for Skype for Business Online will be announced as soon as they are qualified.
 
-Find details of our Lync qualified IP Phones [here](https://technet.microsoft.com/en-us/office/dn788944.aspx). <!-- another technet link to replace -->
+Find details of our [qualified IP Phones](infra-gateways.md).
 
 [Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)
 
 If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
 
 ## Additional Resources
-Learn about [Skype for Business certification](https://technet.microsoft.com/en-us/office/dn947483).
+Learn about [Skype for Business certification](infra-gateways.md).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 

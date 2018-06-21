@@ -50,7 +50,7 @@ We recommend that you visit each vendor's website for the latest information reg
 		<td align="center" valign="top"><strong>Hardware Components Tested</strong></td>
 		<td align="center" valign="top"><strong>Firmware Version Tested</strong></td>
 		<td align="center" valign="top"><strong>Lync Server Version Supported</strong></td>
-		<td align="center" valign="top"><strong>TechNet Library Documentation, Known Issues, Support</strong></td>
+		<td align="center" valign="top"><strong>Documentation, Known Issues, Support</strong></td>
 	</tr>
 	<tbody>
 		<tr align="left" valign="top">

@@ -605,4 +605,4 @@ We recommend that you visit the vendor's web site for the latest information reg
 </table>
 
 <!-- end of last HTML table -->
-For more information on Direct SIP configurations with Lync Server, please see [PSTN Connectivity Components](https://technet.microsoft.com/library/gg398504.aspx) <!-- will need to replace this link --> from the Lync TechNet library.
+For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity)<!-- will need to replace this link -->.

@@ -51,7 +51,7 @@ IP PBXs that have been tested by Microsoft such that specific configurations hav
 
 These devices have not gone through the formal certification program nor was testing requested by the vendor. These configurations utilize the commercially available production SIP trunk interface of the IP-PBX vendor but may not be supported by the IP-PBX vendor. In addition, IP-PBX vendor-provided complete documentation for installation and set-up, release notes, or documented support processes may not be available. Wherever possible, Microsoft will endeavor to provide documentation for installation and set-up.
 
-All IP PBXs tested with Lync Server 2013 are forward compatible and supported with Skype for Business 2015. See [here](https://technet.microsoft.com/en-us/office/dn788945) for a list of Lync Server 2013 supported and qualified IP-PBXs.
+All IP PBXs tested with Lync Server 2013 are forward compatible and supported with Skype for Business 2015. Review the Lync Server 2013 supported and qualified [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md).
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available progra
 

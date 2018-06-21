@@ -136,4 +136,4 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 	</tr>
 </table>
 
-For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="http://technet.microsoft.com/library/gg398477.aspx">Planning for Branch-Site Voice Resiliency</a>; from the Lync Technet Library.
+For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="http://technet.microsoft.com/library/gg398477.aspx">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->

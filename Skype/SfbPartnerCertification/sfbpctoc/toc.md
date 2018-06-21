@@ -1,4 +1,4 @@
-# [Skype for Business certification program](../skype-bus/overview.md)  <!--https://technet.microsoft.com/en-us/office/Dn947481 -->
+# [Skype for Business certification program](../skype-bus/overview.md)  
 ## Phones and Devices
 ### [IP Phones](../skype-bus/devices-ip-phones.md)
 ### [USB audio and video devices](../skype-bus/devices-usb-devices.md) 

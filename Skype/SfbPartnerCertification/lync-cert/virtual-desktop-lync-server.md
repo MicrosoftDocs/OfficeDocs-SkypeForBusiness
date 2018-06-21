@@ -30,8 +30,8 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 
 #### See also:
 <!-- note that both links below will need updating -->
-[Deploying the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204683(v=ocs.15)
-[Troubleshooting the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204713(v=ocs.15)
+[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
+[Troubleshooting the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204713(v=ocs.15) <!-- 2013 yet to migrate -->
 
 ## VDI environments
 The following table lists the VDI partners and their products which have been tested with the Lync 2013 VDI plug-in. 
@@ -76,7 +76,7 @@ The following table lists the VDI partners and their products which have been te
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
-				<p><a href="http://technet.microsoft.com/en-us/windowsserver/ee236407.aspx">http://technet.microsoft.com/en-us/windowsserver/ee236407.aspx</a></p>
+				<p><a href="https://www.microsoft.com/en-us/itpro/windows">https://www.microsoft.com/en-us/itpro/windows</a></p>
 				<p>* mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
 			</td>
 		</tr>

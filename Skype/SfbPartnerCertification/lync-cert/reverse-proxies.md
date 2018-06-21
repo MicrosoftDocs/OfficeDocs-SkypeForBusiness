@@ -80,7 +80,7 @@ Please contact the vendor for more information on these products.
 			<td>Microsoft</td>
 			<td>Forefront Threat Management Gateway (TMG) **</td>
 			<td>2010</td>
-			<td><a href="http://technet.microsoft.com/library/gg398069(v=ocs.15)">Setting up Reverse Proxy Servers with TMG</a></td>
+			<td><a href="http://technet.microsoft.com/library/gg398069(v=ocs.15)"><!-- 2013 yet to migrate -->Setting up Reverse Proxy Servers with TMG</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Microsoft</td>
@@ -118,7 +118,7 @@ Please contact the vendor for more information on these products.
 			<td>Microsoft</td>
 			<td>Forefront Threat Management Gateway (TMG) **</td>
 			<td>2010</td>
-			<td><a href="http://technet.microsoft.com/library/gg398069(v=ocs.14)">Setting up Reverse Proxy Servers with TMG</a></td>
+			<td><a href="https://docs.microsoft.com/en-us/previous-versions/office/skype-server-2010/gg398069(v=ocs.14)">Setting up Reverse Proxy Servers with TMG</a></td>
 		</tr>
 	</tbody>
 </table>

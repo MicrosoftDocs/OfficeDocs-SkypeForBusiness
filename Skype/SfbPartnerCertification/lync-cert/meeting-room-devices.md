@@ -25,7 +25,7 @@ description: "Partner qualification requirements for Lync."
 *Find details about our Skype-qualified IP Phones*
 
 ## Meeting room devices and solutions
-Microsoft tests and qualifies meeting room solutions for Lync under the [Unified Communications Open Interoperability Program (UCOIP)](https://technet.microsoft.com/en-us/office/dn788948) <!-- note that these are technet topic links and will have to change --> and [Compatible Devices Program](https://technet.microsoft.com/en-us/office/dn788951#compatible_devices). Meeting room solutions optimized for Lync offer high-quality audio and video and reduce the need to set up and troubleshoot equipment.
+Microsoft tests and qualifies meeting room solutions for Lync under the [Unified Communications Open Interoperability Program (UCOIP)](https://technet.microsoft.com/en-us/office/dn788951) <!-- add to folder --> and [Compatible Devices Program](https://technet.microsoft.com/en-us/office/dn788951#compatible_devices)<!-- part of above -->. Meeting room solutions optimized for Lync offer high-quality audio and video and reduce the need to set up and troubleshoot equipment.
 
 - IP conference phones
 - USB speakerphones designed for conference rooms
@@ -33,7 +33,7 @@ Microsoft tests and qualifies meeting room solutions for Lync under the [Unified
 
 ## Video Solutions Qualified for Lync
 
-Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our [Video Interoperability Program](https://technet.microsoft.com/en-us/office/dn788951#video_interop). Our Video Interoperability program tests:
+Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our [Video Interoperability Program](https://technet.microsoft.com/en-us/office/dn788951#video_interop)<!-- part of above -->. Our Video Interoperability program tests:
 
 - **Video endpoints** enable direct registration as an end point on Office Communications Server 2007 R2 and Lync Server.
 - **Video infrastructure** to enable multipoint video conference bridge with Lync users and enable standards based VTCs to connect via a gateway.
