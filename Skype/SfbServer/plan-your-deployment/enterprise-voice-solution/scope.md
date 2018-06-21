@@ -1,8 +1,9 @@
 ---
-title: "Define the scope of the E9-1-1 deployment in Skype for Business Server"
+title: "Define the scope of the E9-1-1 deployment in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: "Decisions necessary for planning an E9-1-1 deployment in Skype for Business Server Enterprise Voice."
 ---
 
-# Define the scope of the E9-1-1 deployment in Skype for Business Server
+# Define the scope of the E9-1-1 deployment in Skype for Business Server 2015
  
 Decisions necessary for planning an E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   

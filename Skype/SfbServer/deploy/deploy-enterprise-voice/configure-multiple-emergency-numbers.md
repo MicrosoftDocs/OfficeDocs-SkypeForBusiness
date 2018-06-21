@@ -1,8 +1,9 @@
 ---
-title: "Configure multiple emergency numbers in Skype for Business"
+title: "Configure multiple emergency numbers in Skype for Business 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 4/21/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +12,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: "Read this topic to learn how to configure multiple emergency numbers in Skype for Business Server."
+description: "Read this topic to learn how to configure multiple emergency numbers in Skype for Business Server 2015."
 ---
 
-# Configure multiple emergency numbers in Skype for Business
+# Configure multiple emergency numbers in Skype for Business 2015
  
-Read this topic to learn how to configure multiple emergency numbers in Skype for Business Server.
+Read this topic to learn how to configure multiple emergency numbers in Skype for Business Server 2015.
   
-Skype for Business Server now supports multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. Before you configure your environment to support multiple emergency numbers, be sure to read [Plan for multiple emergency numbers in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+Skype for Business Server now supports multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. Before you configure your environment to support multiple emergency numbers, be sure to read [Plan for multiple emergency numbers in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
   
 > [!NOTE]
 > If you have not yet upgraded to the November 2016 Cumulative Update, see [Updates to Skype for Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). With the November 2016 Cumulative Update, the number of support emergency numbers increases from 5 to 100. 

@@ -27,7 +27,8 @@ Skype for Business Server uses the following archiving components:
 - **Archiving data storage**. Data storage for Skype for Business Server 2015 can be implemented as Skype for Business Server SQL Server databases, or, if you have an Exchange deployment, integrated with Exchange storage. 
     
 Archiving also requires file storage, but archiving uses the same file storage as the Front End Servers or Standard Edition Server.
-
+  
+For a list of hardware and software requirements for archiving, see [Hardware and software requirements for archiving in Skype for Business Server 2015](hardware-and-software-requirements.md).
   
 ## Determine your organizations requirements for archiving
 

@@ -1,21 +1,22 @@
 ---
-title: "Plan for monitoring in Skype for Business Server"
+title: "Plan for monitoring in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
-description: "Summary: Review this topic while planning for the monitoring service in Skype for Business Server."
+description: "Summary: Review this topic while planning for the monitoring service in Skype for Business Server 2015."
 ---
 
-# Plan for monitoring in Skype for Business Server
+# Plan for monitoring in Skype for Business Server 2015
  
-**Summary:** Review this topic while planning for the monitoring service in Skype for Business Server.
+**Summary:** Review this topic while planning for the monitoring service in Skype for Business Server 2015.
   
-The monitoring service in Skype for Business Server provides a way for administrators to collect usage and quality data for the communication sessions that take place in their organization, which allows them to identify trends and problems. Ongoing monitoring of your deployment allows you to catch problems early and keep your organization's users satisfied. 
+The monitoring service in Skype for Business Server 2015 provides a way for administrators to collect usage and quality data for the communication sessions that take place in their organization, which allows them to identify trends and problems. Ongoing monitoring of your deployment allows you to catch problems early and keep your organization's users satisfied. 
   
 Monitoring in Skype for Business Server does not require a separate server role (as was the case in earlier Lync versions); instead, the monitoring service is built into each Front End server. Monitoring is not enabled by default in Skype for Business Server. This article will help you determine whether to enable Monitoring during or after your initial Skype for Business Server configuration, and what SQL resources you'll need to support Monitoring activities. If you're not sure exactly what is or is not monitored and how monitoring can be helpful, go to [Basics about Monitoring](monitoring.md#Basics). To begin your planning process, go to [Define your requirements for monitoring](monitoring.md#requirements). For more details on the SQL requirements for monitoring, go to [SQL requirements for monitoring](monitoring.md#topologies).
   
@@ -39,7 +40,7 @@ The basic call detail information collected by Skype for Business Server for eac
     
 - **Device Inventory Management**. Asset management information helps administrators identify old devices still in use that need to be replaced, and identify expensive devices that are unused or under-used.
     
-- **Help Desk**. Troubleshooting data helps support engineers determine why a user's call failed, without having to collect server or client side logs. This information can be readily accessed and understood by support personnel who do not have a deep technical knowledge of the Skype for Business client and Skype for Business Server.
+- **Help Desk**. Troubleshooting data helps support engineers determine why a user's call failed, without having to collect server or client side logs. This information can be readily accessed and understood by support personnel who do not have a deep technical knowledge of the Skype for Business client and Skype for Business Server 2015.
     
 - **System Troubleshooting**. Enables administrators to detect major issues that might prevent end users from performing basic tasks like joining a conference, establishing a call, or sending an instant message.
     
@@ -56,23 +57,23 @@ At the end of each call, SIP-compliant endpoints transmit this information to th
 ## Define your requirements for monitoring
 <a name="requirements"> </a>
 
-There are still several key issues that should be addressed before you begin to install and configure monitoring with Skype for Business Server:
+There are still several key issues that should be addressed before you begin to install and configure monitoring with Skype for Business Server 2015:
   
- **When do you want to install monitoring?** Monitoring can be installed and configured at the same time you install and configured Skype for Business Server; the Skype for Business Server Deployment Wizard will provide you with the opportunity to associate your Front End pools with a monitoring database during setup. Alternatively, you can install monitoring after Skype for Business Server itself has been installed; this can be done by using Topology Builder to associate your Front End pools and servers with a monitoring database, and then publishing the revised topology.
+ **When do you want to install monitoring?** Monitoring can be installed and configured at the same time you install and configured Skype for Business Server 2015; the Skype for Business Server 2015 Deployment Wizard will provide you with the opportunity to associate your Front End pools with a monitoring database during setup. Alternatively, you can install monitoring after Skype for Business Server 2015 itself has been installed; this can be done by using Topology Builder to associate your Front End pools and servers with a monitoring database, and then publishing the revised topology.
   
 Keep in mind that SQL Server must be installed and configured before you deploy and configure monitoring. However, you only need to deploy SQL Server itself; the monitoring databases will be created for you when you publish your Skype for Business Server topology.
   
- **What type of data do you want to monitor?** Skype for Business Server enables you to monitor two general types of data: call detailing recording (CDR) data and Quality of Experience (QoE) data. Call detail recording provides a way for you to track the usage of Skype for Business Server features such as Voice over IP (VoIP) phone calls; instant messaging (IM); file transfers; audio/video (A/V) conferencing; and application sharing sessions. This information helps you know which Skype for Business Server features are being used (and which ones are not) and also provides information as to when these features are being used. Quality of Experience data allows you to maintain a record of the quality of audio and video calls made in your organization, including such things as the number of network packets lost, background noise, and the amount of "jitter" (differences in packet delay).
+ **What type of data do you want to monitor?** Skype for Business Server 2015 enables you to monitor two general types of data: call detailing recording (CDR) data and Quality of Experience (QoE) data. Call detail recording provides a way for you to track the usage of Skype for Business Server 2015 features such as Voice over IP (VoIP) phone calls; instant messaging (IM); file transfers; audio/video (A/V) conferencing; and application sharing sessions. This information helps you know which Skype for Business Server 2015 features are being used (and which ones are not) and also provides information as to when these features are being used. Quality of Experience data allows you to maintain a record of the quality of audio and video calls made in your organization, including such things as the number of network packets lost, background noise, and the amount of "jitter" (differences in packet delay).
   
-If you choose to enable monitoring in Skype for Business Server you can enable both CDR monitoring and QoE monitoring, or you can choose to enable one type of monitoring while leaving the other type disabled. For example, suppose your users only use instant messaging and file transfers, and do not make audio or video calls. In that case, there might be little reason to enable QoE monitoring. Likewise, Skype for Business Server makes it easy to enable and disable monitoring after monitoring has been deployed. For example, you might choose to deploy monitoring but initially leave QoE monitoring disabled. If your users begin to experience problems with audio or video calls you could then enable QoE monitoring and use that data to help you troubleshoot and resolve those problems.
+If you choose to enable monitoring in Skype for Business Server 2015 you can enable both CDR monitoring and QoE monitoring, or you can choose to enable one type of monitoring while leaving the other type disabled. For example, suppose your users only use instant messaging and file transfers, and do not make audio or video calls. In that case, there might be little reason to enable QoE monitoring. Likewise, Skype for Business Server 2015 makes it easy to enable and disable monitoring after monitoring has been deployed. For example, you might choose to deploy monitoring but initially leave QoE monitoring disabled. If your users begin to experience problems with audio or video calls you could then enable QoE monitoring and use that data to help you troubleshoot and resolve those problems.
   
-There is no particular advantage (or disadvantage) to installing monitoring at the same time you install Skype for Business Server vs. installing monitoring after Skype for Business Server has been installed. The one point to keep in mind is that, before you install monitoring, you must select a computer to host the backend monitoring store, and a supported version of SQL Server must be installing and configured on that computer before that computer can be used for monitoring. If you have already installed SQL Server on a computer and that computer is ready for use then you can install monitoring at the same time you install Skype for Business Server. If you do not have a backend computer ready then you can proceed to install Skype for Business Server by itself, then install monitoring whenever the backend computer is ready for use.
+There is no particular advantage (or disadvantage) to installing monitoring at the same time you install Skype for Business Server 2015 vs. installing monitoring after Skype for Business Server 2015 has been installed. The one point to keep in mind is that, before you install monitoring, you must select a computer to host the backend monitoring store, and a supported version of SQL Server must be installing and configured on that computer before that computer can be used for monitoring. If you have already installed SQL Server on a computer and that computer is ready for use then you can install monitoring at the same time you install Skype for Business Server 2015. If you do not have a backend computer ready then you can proceed to install Skype for Business Server 2015 by itself, then install monitoring whenever the backend computer is ready for use.
   
- **How many backend monitoring databases do you need?** It was estimated that a collocated database for both monitoring and archiving could support 240,000 Skype for Business Server users). In addition, a single monitoring database can be used by multiple Front End pools; if you have three Front End pools in your organization then you could associate all three of those pools with the same backend store.
+ **How many backend monitoring databases do you need?** It was estimated that a collocated database for both monitoring and archiving could support 240,000 Skype for Business Server 2015 users). In addition, a single monitoring database can be used by multiple Front End pools; if you have three Front End pools in your organization then you could associate all three of those pools with the same backend store.
   
 For many organizations, database capacity will not be the deciding factor when determining the number of backend monitoring databases that will be required. Instead, a more important consideration could be network speed. Suppose you have three Front End pools, but one of those pools is located across a slow network connection. In that case, you might want to use two monitoring databases: one database to service the two pools with the good network connection, and a separate database to service the pool with the slower network connection.
   
-You should also take into account that Skype for Business Server supports the use of mirror databases. "Database mirroring" provides a way for you to simultaneously maintain two copies of a database, with each database residing on a different server. Any time data is written to a primary database that same data is also written to the mirror database. If the primary database should fail or otherwise become unavailable, you can "fail over" to the mirror database by using a simple Skype for Business Server PowerShell command. For example:
+You should also take into account that Skype for Business Server 2015 supports the use of mirror databases. "Database mirroring" provides a way for you to simultaneously maintain two copies of a database, with each database residing on a different server. Any time data is written to a primary database that same data is also written to the mirror database. If the primary database should fail or otherwise become unavailable, you can "fail over" to the mirror database by using a simple Skype for Business Server 2015 PowerShell command. For example:
   
 ```
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
@@ -80,17 +81,31 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 This is important for planning purposes simply because mirroring will require you to double your required number of databases: in addition to each primary database you will need a second database to act as the mirror.
   
- **Do your Skype for Business Server sites need their own custom monitoring configurations?** When you install Skype for Business Server you also install global collections of CDR and QoE configuration settings; these global collections give you the ability to apply the same CDR and QoE settings to your entire organization. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
+ **Do your Skype for Business Server 2015 sites need their own custom monitoring configurations?** When you install Skype for Business Server 2015 you also install global collections of CDR and QoE configuration settings; these global collections give you the ability to apply the same CDR and QoE settings to your entire organization. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
   
-However, there might also be times when you want to apply different settings to different sites. For example, perhaps you want to use both CDR and QoE monitoring in your Redmond site, but only use CDR monitoring in your Dublin site. Likewise, you might want to retain monitoring data for 60 days in the Redmond site but only need to maintain this type of data for 30 days in the Dublin site. Skype for Business Server allows you to create separate collections of CDR and QoE configuration settings at the site scope; that enables you to manage each site differently. (This includes both enabling and disabling monitoring as well as configuring management settings such as how long data is to be retained.)
+However, there might also be times when you want to apply different settings to different sites. For example, perhaps you want to use both CDR and QoE monitoring in your Redmond site, but only use CDR monitoring in your Dublin site. Likewise, you might want to retain monitoring data for 60 days in the Redmond site but only need to maintain this type of data for 30 days in the Dublin site. Skype for Business Server 2015 allows you to create separate collections of CDR and QoE configuration settings at the site scope; that enables you to manage each site differently. (This includes both enabling and disabling monitoring as well as configuring management settings such as how long data is to be retained.)
   
 Note that you can make this decision before you deploy monitoring or after you deploy monitoring. For example, you can deploy monitoring and then manage the entire organization by using the global settings. If you later change your mind, you can create a separate collection of settings for, say, the Redmond site, and then use those settings to manage monitoring for Redmond. (Settings applied at the site scope always take precedence over settings applied at the global scope.) If you change your mind again, you can simply delete the configuration settings applied to the Redmond site. When a collection of site settings is removed then the global collection of settings will automatically be applied to that site.
   
 ## SQL requirements for monitoring
 <a name="topologies"> </a>
 
-The unified data collection agents are automatically installed and activated on each Front End server when you enable Monitoring. For supported versions of SQL Server and other details, see [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)
-   
+The unified data collection agents are automatically installed and activated on each Front End server when you enable Monitoring. You will need to install and configure one of the following databases to act as the backend data store for your monitoring data:
+  
+- Microsoft SQL Server 2008 R2 Enterprise Edition (64-bit edition)
+    
+- Microsoft SQL Server 2008 R2 Standard Edition (64-bit edition)
+    
+- Microsoft SQL Server 2012 Enterprise Edition (64-bit edition)
+    
+- Microsoft SQL Server 2012 Standard Edition (64-bit edition)
+    
+- Microsoft SQL Server 2014 Enterprise Edition (64-bit edition)
+    
+- Microsoft SQL Server 2014 Standard Edition (64-bit edition)
+    
+32-bit versions of SQL Server cannot be used as the backend store. Skype for Business Server 2015 does not support the Express Editions of SQL Server 2008 or SQL Server 2012. For more information on database requirements for Skype for Business Server 2015 see the topic [Database Software Support](http://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx).
+  
 Monitoring data can share a SQL Server instance with other types of data. Typically, the call detail recording database (LcsCdr) and the Quality of Experience database (QoEMetrics) share the same SQL instance; it is also common for the two monitoring databases to be in the same SQL instance as the archiving database (LcsLog). About the only real requirement with SQL Server instances is that any one instance of SQL Server is limited to the following:
   
 - One instance of the Skype for Business Server 2015 backend database. (As a general rule, it is not recommended that your monitoring database be collocated in the same SQL instance, or even on the same computer, as the backend database. Although technically possible, you run the risk of the monitoring database using up disk space needed by the backend database.) 

@@ -1,22 +1,23 @@
 ---
-title: "Server Performance Report in Skype for Business Server"
+title: "Server Performance Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 
-description: "Summary: Learn about the Server Performance Report in Skype for Business Server."
+description: "Summary: Learn about the Server Performance Report in Skype for Business Server 2015."
 ---
 
-# Server Performance Report in Skype for Business Server
+# Server Performance Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Server Performance Report in Skype for Business Server.
+**Summary:** Learn about the Server Performance Report in Skype for Business Server 2015.
   
-The Server Performance Report provides a list of Skype for Business Server servers that have experienced the highest percentage of poor calls. The report breaks down servers by server type, reporting separate statistics for the following types:
+The Server Performance Report provides a list of Skype for Business Server 2015 servers that have experienced the highest percentage of poor calls. The report breaks down servers by server type, reporting separate statistics for the following types:
   
 - Mediation Server
     
@@ -36,7 +37,7 @@ It's important to note that the ranking shown in this report as relative ranking
   
 ## Accessing the Server Performance Report
 
-The Server Performance Report is accessed from the Monitoring Reports home page. You can drill down to the [Call List Report in Skype for Business Server](call-list-report-0.md) by clicking either of the following metrics:
+The Server Performance Report is accessed from the Monitoring Reports home page. You can drill down to the [Call List Report in Skype for Business Server 2015](call-list-report-0.md) by clicking either of the following metrics:
   
 - Call volume
     

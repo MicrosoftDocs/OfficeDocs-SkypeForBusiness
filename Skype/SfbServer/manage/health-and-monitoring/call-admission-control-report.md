@@ -1,19 +1,20 @@
 ---
-title: "Call Admission Control Report in Skype for Business Server"
+title: "Call Admission Control Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: "Summary: Learn about the Call Admission Control Reports used in Skype for Business Server."
+description: "Summary: Learn about the Call Admission Control Reports used in Skype for Business Server 2015."
 ---
 
-# Call Admission Control Report in Skype for Business Server
+# Call Admission Control Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Call Admission Control Reports used in Skype for Business Server.
+**Summary:** Learn about the Call Admission Control Reports used in Skype for Business Server 2015.
   
 The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control. Call Admission Control provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints. For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls. If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.
   

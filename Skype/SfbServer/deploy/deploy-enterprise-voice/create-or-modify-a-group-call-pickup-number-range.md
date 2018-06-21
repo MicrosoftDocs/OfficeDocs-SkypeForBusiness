@@ -1,8 +1,9 @@
 ---
-title: "Create or modify a Group Call Pickup number range in Skype for Business"
+title: "Create or modify a Group Call Pickup number range in Skype for Business 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: "Create or modify a Group Call Pickup number range in Skype for Business Server Enterprise Voice."
 ---
 
-# Create or modify a Group Call Pickup number range in Skype for Business
+# Create or modify a Group Call Pickup number range in Skype for Business 2015
  
 Create or modify a Group Call Pickup number range in Skype for Business Server Enterprise Voice.
   

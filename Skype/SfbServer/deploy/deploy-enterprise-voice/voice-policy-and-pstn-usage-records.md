@@ -1,8 +1,9 @@
 ---
-title: "Create or modify a voice policy and configure PSTN usage records in Skype for Business"
+title: "Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,12 +16,12 @@ ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: "Summary: Create or modify voice policies and configure PSTN usage records by using the Skype for Business Server Control Panel."
 ---
 
-# Create or modify a voice policy and configure PSTN usage records in Skype for Business
+# Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015
  
 **Summary:** Create or modify voice policies and configure PSTN usage records by using the Skype for Business Server Control Panel.
   
 > [!NOTE]
-> Each voice policy must have at least one associated Public Switched Telephone Network (PSTN) usage record. To see a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see [View PSTN usage records in Skype for Business](view-pstn-usage-records.md). 
+> Each voice policy must have at least one associated Public Switched Telephone Network (PSTN) usage record. To see a listing of all PSTN usage records available in your Enterprise Voice deployment and view their properties, see [View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md). 
   
 ### To create a voice policy
 
@@ -92,7 +93,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from the PSTN usage record, highlight the route, and then click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. 
     
@@ -108,7 +109,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from this PSTN usage record, highlight the route, and then click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and lick **Show details**. 
     
@@ -146,7 +147,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from the PSTN usage record, highlight the route and click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. 
     
@@ -162,7 +163,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from this PSTN usage record, highlight the route and click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. 
     
@@ -175,9 +176,9 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 12. On the **Voice Policy** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
-13. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details on how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
+13. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details on how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md).
     
 ### To modify a voice policy
 
@@ -241,7 +242,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from the PSTN usage record, highlight the route and click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. 
     
@@ -257,7 +258,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from this PSTN usage record, highlight the route and click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. 
     
@@ -295,7 +296,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
    - To remove a route from the PSTN usage record, highlight the route and click **Remove**.
     
-   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+   - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
    - To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**. For details, see [Modify a Voice Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -311,7 +312,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
     
      - To remove a route from this PSTN usage record, highlight the route and click **Remove**.
     
-     - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
+     - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
     
      - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. For details, see [Modify a Voice Route](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -324,17 +325,16 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 11. On the **Voice Policy** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
-12. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details about how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
+12. (Optional) Voicemail Escape detects that a call was immediately answered by the user's mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user's other endpoints giving the user the opportunity to answer the call. For details about how to configure a voice mail policy, see [Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md).
     
 ## See also
 
-[View PSTN usage records in Skype for Business](view-pstn-usage-records.md)
+[View PSTN usage records in Skype for Business 2015](view-pstn-usage-records.md)
   
-[Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)
+[Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md)
   
-[Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
+[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
   
-[Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md)
-
+[Configure voice mail escape in Skype for Business 2015](configure-voice-mail-escape.md)

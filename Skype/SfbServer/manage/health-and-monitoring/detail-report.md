@@ -1,19 +1,20 @@
 ---
-title: "Conference Detail Report in Skype for Business Server"
+title: "Conference Detail Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: "Summary: Learn about the Conference Detail Report used in Skype for Business Server."
+description: "Summary: Learn about the Conference Detail Report used in Skype for Business Server 2015."
 ---
 
-# Conference Detail Report in Skype for Business Server
+# Conference Detail Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Conference Detail Report used in Skype for Business Server.
+**Summary:** Learn about the Conference Detail Report used in Skype for Business Server 2015.
   
 The Conference Detail Report provides detailed information about all the users who participated in a conference. For example, you can see such information as the date and time that a user joined the conference, the date and time that the user left the conference, and the user agent of the endpoint that was used to connect that user to the conference. You can also see information the user's role in each conference (for example, Presenter or Attendee). Perhaps most important, you get quickly see which users successfully join and complete the conference, and which users were not able to successfully join and complete the conference.
   
@@ -21,13 +22,13 @@ The Conference Detail Report provides detailed information about all the users w
 
 The Conference Detail Report can be accessed from the following reports:
   
-- The [Call Admission Control Report in Skype for Business Server](call-admission-control-report.md) (by clicking the Detail metric for a conference)
+- The [Call Admission Control Report in Skype for Business Server 2015](call-admission-control-report.md) (by clicking the Detail metric for a conference)
     
-- The [Failure List Report in Skype for Business Server](failure-list-report.md) (by clicking the Conference metric)
+- The [Failure List Report in Skype for Business Server 2015](failure-list-report.md) (by clicking the Conference metric)
     
-- The [User Activity Report in Skype for Business Server](user-activity-report.md) (by clicking the Conference URI metric)
+- The [User Activity Report in Skype for Business Server 2015](user-activity-report.md) (by clicking the Conference URI metric)
     
-From the Conference Detail Report you can access the [Diagnostic Report in Skype for Business Server](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
+From the Conference Detail Report you can access the [Diagnostic Report in Skype for Business Server 2015](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
   
 ## Filters
 

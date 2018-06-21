@@ -1,8 +1,9 @@
 ---
-title: "Deployment process for the Announcement application in Skype for Business Server"
+title: "Deployment process for the Announcement application in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: "Deployment process and steps for Announcement application in Skype for Business Server Enterprise Voice."
 ---
 
-# Deployment process for the Announcement application in Skype for Business Server
+# Deployment process for the Announcement application in Skype for Business Server 2015
  
 Deployment process and steps for Announcement application in Skype for Business Server Enterprise Voice.
   
@@ -29,7 +30,7 @@ This section provides an overview of the steps involved in deploying the Announc
 
 |**Phase**|**Steps**|**Roles**|**Deployment documentation**|
 |:-----|:-----|:-----|:-----|
-|Configure Announcement settings  <br/> | Create the announcement by recording and uploading audio files or by using text-to-speech (TTS). <br/>  Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Create or delete an announcement in Skype for Business Server](create-an-announcement.md) <br/> [Create or modify an unassigned number range in Skype for Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Verify your Announcement deployment  <br/> |Test by listening to announcements to verify that your configuration works as expected.  <br/> |-  <br/> |[(Optional) Verify Announcement deployment in Skype for Business](optional-verify-announcement-deployment.md) <br/> |
+|Configure Announcement settings  <br/> | Create the announcement by recording and uploading audio files or by using text-to-speech (TTS). <br/>  Configure the unassigned number ranges in the unassigned number table and associate them with the appropriate announcement. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Create or delete an announcement in Skype for Business Server 2015](create-an-announcement.md) <br/> [Create or modify an unassigned number range in Skype for Business Server 2015](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Verify your Announcement deployment  <br/> |Test by listening to announcements to verify that your configuration works as expected.  <br/> |-  <br/> |[(Optional) Verify Announcement deployment in Skype for Business 2015](optional-verify-announcement-deployment.md) <br/> |
    
 

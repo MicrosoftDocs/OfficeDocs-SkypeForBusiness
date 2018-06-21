@@ -1,8 +1,9 @@
 ---
-title: "Plan for Group Call Pickup in Skype for Business"
+title: "Plan for Group Call Pickup in Skype for Business 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: "Planning for Group Call Pickup in Skype for Business Server Enterprise Voice, which enables users to answer calls originally intended for others."
 ---
 
-# Plan for Group Call Pickup in Skype for Business
+# Plan for Group Call Pickup in Skype for Business 2015
  
 Planning for Group Call Pickup in Skype for Business Server Enterprise Voice, which enables users to answer calls originally intended for others.
   

@@ -1,8 +1,9 @@
 ---
-title: "Configure a secondary Location Information service in Skype for Business Server"
+title: "Configure a secondary Location Information service in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: "Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice."
 ---
 
-# Configure a secondary Location Information service in Skype for Business Server
+# Configure a secondary Location Information service in Skype for Business Server 2015
  
 Configure a secondary location source (SLS) database for E9-1-1 in Skype for Business Server Enterprise Voice. 
   
@@ -34,4 +35,3 @@ Skype for Business Server provides a web service interface that you can use to p
 ## See also
 
 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
-

@@ -1,8 +1,9 @@
 ---
-title: "Create or modify a dial plan in Skype for Business Server"
+title: "Create or modify a dial plan in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: "Summary: Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel."
 ---
 
-# Create or modify a dial plan in Skype for Business Server
+# Create or modify a dial plan in Skype for Business Server 2015
  
 **Summary:** Learn how to create or modify a dial plan by using the Skype for Business Server Control Panel.
   
@@ -62,7 +63,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
     
     - To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**. In **Select Normalization Rules**, highlight the rules you want to associate with the dial plan and then click **OK**.
     
-   - To define a new normalization rule and associate it with the dial plan, click **New**. For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
+   - To define a new normalization rule and associate it with the dial plan, click **New**. For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business 2015](normalization-rules.md).
     
    - To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**. 
     
@@ -71,7 +72,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
    - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
     
      > [!NOTE]
-     > Each dial plan must have at least one associated normalization rule. For information about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
+     > Each dial plan must have at least one associated normalization rule. For information about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
   
 10. Verify that the dial plan's normalization rules are arranged in the correct order. To change a rule's position in the list, highlight the rule name and then click the up or down arrow.
     
@@ -85,7 +86,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 13. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To modify a dial plan
 
@@ -121,7 +122,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
     
    - To choose one or more rules from a list of all normalization rules available in your Enterprise Voice deployment, click **Select**. In the **Select Normalization Rules** dialog box, highlight the rules that you want to associate with the dial plan and then click **OK**.
     
-   - To define a new normalization rule and associate it with the dial plan, click **New**. For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business](normalization-rules.md).
+   - To define a new normalization rule and associate it with the dial plan, click **New**. For details about defining a new rule, see [Create or modify a normalization rule in Skype for Business 2015](normalization-rules.md).
     
    - To edit a normalization rule that is already associated with the dial plan, highlight the rule name and click **Show details**. 
     
@@ -130,7 +131,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
    - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
     
     > [!NOTE]
-    > Each dial plan must have at least one associated normalization rule. For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
+    > Each dial plan must have at least one associated normalization rule. For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
   
 10. Verify that the dial plan's normalization rules are arranged in the correct order. To change a rule's position in the list, highlight the rule name and then click the up or down arrow.
     
@@ -147,9 +148,8 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 13. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Any time you create or modify a dial plan, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 
-[Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
-
+[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)

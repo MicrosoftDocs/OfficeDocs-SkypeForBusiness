@@ -1,8 +1,9 @@
 ---
-title: "File sharing high availability in Skype for Business Server"
+title: "File sharing high availability in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,7 +13,7 @@ ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: "Learn about ensuring high availability of your file shares in Skype for Business Server, using DFS."
 ---
 
-# File sharing high availability in Skype for Business Server
+# File sharing high availability in Skype for Business Server 2015
  
 Learn about ensuring high availability of your file shares in Skype for Business Server, using DFS.
   

@@ -181,6 +181,7 @@
 #### [Topologies supported](../plan-your-deployment/modern-authentication/topologies-supported.md)
 ### [Monitoring](../plan-your-deployment/monitoring.md)
 ### [Archiving](../plan-your-deployment/archiving/archiving.md)
+#### [Hardware and software requirements](../plan-your-deployment/archiving/hardware-and-software-requirements.md)
 ### [Conferencing](../plan-your-deployment/conferencing/conferencing.md)
 #### [Hardware and software requirements](../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
 #### [Conferencing topology](../plan-your-deployment/conferencing/conferencing-topology.md)

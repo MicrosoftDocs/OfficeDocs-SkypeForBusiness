@@ -1,8 +1,9 @@
 ---
-title: "Plan for high availability and disaster recovery in Skype for Business Server"
+title: "Plan for high availability and disaster recovery in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 1/29/2018
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -14,7 +15,7 @@ ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: "Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering."
 ---
 
-# Plan for high availability and disaster recovery in Skype for Business Server
+# Plan for high availability and disaster recovery in Skype for Business Server 2015
  
 Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering. 
   
@@ -35,10 +36,10 @@ This section explains these features, and also covers what steps you can take fo
 
 [Front End Pool high availability and management](high-availability.md)
   
-[Front End pool disaster recovery in Skype for Business Server](disaster-recovery.md)
+[Front End pool disaster recovery in Skype for Business Server 2015](disaster-recovery.md)
   
-[User experience during pool failure in Skype for Business Server](user-experience.md)
+[User experience during pool failure in Skype for Business Server 2015](user-experience.md)
   
-[Back End Server high availability in Skype for Business Server](back-end-server.md)
+[Back End Server high availability in Skype for Business Server 2015](back-end-server.md)
   
-[File sharing high availability in Skype for Business Server](file-sharing.md)
+[File sharing high availability in Skype for Business Server 2015](file-sharing.md)

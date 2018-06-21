@@ -1,19 +1,20 @@
 ---
-title: "Monitor Mobility Service and UCWA usage in Skype for Business Server"
+title: "Monitor Mobility Service and UCWA usage in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-description: "Summary: Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server."
+description: "Summary: Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server 2015."
 ---
 
-# Monitor Mobility Service and UCWA usage in Skype for Business Server
+# Monitor Mobility Service and UCWA usage in Skype for Business Server 2015
  
-**Summary:** Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server.
+**Summary:** Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server 2015.
   
 On an ongoing basis, you should monitor the CPU and memory that is used by the Skype for Business Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA). To monitor usage, you can use the following:
   
@@ -23,7 +24,7 @@ On an ongoing basis, you should monitor the CPU and memory that is used by the S
     
 - The **CPU** and **Processor** performance counters.
     
-For most deployments, UCWA CPU usage should be below 15 percent on average. Memory usage should fall within the limits described in [Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md).
+For most deployments, UCWA CPU usage should be below 15 percent on average. Memory usage should fall within the limits described in [Monitor for server memory capacity limits in Skype for Business Server 2015](server-memory-capacity-limits.md).
   
 In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:
   
@@ -40,7 +41,7 @@ In addition to CPU and memory usage counters, you can use the following performa
     
 - The **CPU** and **Processor** performance counters.
     
-For most deployments, Mobility Service CPU usage should be below 15 percent, on average. Memory usage should fall within the limits described in [Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md).
+For most deployments, Mobility Service CPU usage should be below 15 percent, on average. Memory usage should fall within the limits described in [Monitor for server memory capacity limits in Skype for Business Server 2015](server-memory-capacity-limits.md).
   
 In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:
   
@@ -53,4 +54,4 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
   
 ## See also
 
-[Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md)
+[Monitor for server memory capacity limits in Skype for Business Server 2015](server-memory-capacity-limits.md)
