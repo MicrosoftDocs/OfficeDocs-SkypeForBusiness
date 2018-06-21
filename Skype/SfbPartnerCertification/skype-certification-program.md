@@ -21,7 +21,7 @@ description: "Skype for Business certification program and Microsoft plans to te
 
 # Skype for Business certification program
 
-The Skype for Business Certification Program is designed to offer Microsoft customers badges or designations as indicators of third party solutions that demonstrate a high quality experience and compatibility when used with Skype for Business.
+The **Skype for Business Certification Program** is designed to offer Microsoft customers badges or designations as indicators of third party solutions that demonstrate a high quality experience and compatibility when used with **Skype for Business**.
 
 There are two certification levels, each having different specification requirements.
 1. Certified for Skype for Business
