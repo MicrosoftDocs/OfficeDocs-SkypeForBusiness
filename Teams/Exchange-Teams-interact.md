@@ -21,7 +21,7 @@ For the full Microsoft Teams experience, every user should be enabled for Exchan
 
 Users' Exchange mailboxes can be hosted online or on-premises. Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures, add and configure connectors, tabs, and bots.
 
-Users hosted on either Exchange Online Dedicated - Legacy, or Exchange on-premises, must be synchronized to Azure Active Directory for Office 365. They can create and join teams and channels, add and configure tabs and bots, and chat and call. However, they can’t modify user profile pictures, or add and configure connectors. They can receive messages from connectors configured by other users. For creating and viewing meetings, you need to have the latest Exchange 2016 Cumulative Update (CU), or one of the two immediately previous CUs, installed.
+Users hosted on either Exchange Online Dedicated - Legacy, or Exchange on-premises, must be synchronized to Azure Active Directory for Office 365. They can create and join teams and channels, add and configure tabs and bots, and chat and call. However, they can’t modify user profile pictures, or add and configure connectors. They can receive messages from connectors configured by other users. For creating and viewing meetings, it's a mixed bag: Creating and viewing meetings is supported for Exchange 2016 cumulative update 3 (CU3) and above, but not for versions prior to Exchange 2016 CU3.
 
 The following table provides information for users with Exchange Online hosted in various environments.
 
@@ -32,9 +32,9 @@ The following table provides information for users with Exchange Online hosted i
 |**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|No|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016<sup>*</sup>)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
-
-*<sup>\*</sup>Latest Exchange 2016 CU, or one of the two immediately previous CUs, supported*
+|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
+                                                            
+*\*Exchange 2016 CU3 and above supported*
 
 Additional information:
 
