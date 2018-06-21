@@ -1,9 +1,8 @@
 ---
-title: "Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015"
+title: "Deploy paired Front End pools for disaster recovery in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: "You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement."
 ---
 
-# Deploy paired Front End pools for disaster recovery in Skype for Business Server 2015
+# Deploy paired Front End pools for disaster recovery in Skype for Business Server
  
 You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement.
   
@@ -77,4 +76,4 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
   
 ## See also
 
-[Front End pool disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Front End pool disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

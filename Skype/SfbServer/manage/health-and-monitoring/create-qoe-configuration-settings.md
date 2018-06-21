@@ -1,24 +1,23 @@
 ---
-title: "Create Quality of Experience configuration settings in Skype for Business Server 2015"
+title: "Create Quality of Experience configuration settings in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: "Summary: Learn about Quality of Experience (QoE) settings in Skype for Business Server 2015."
+description: "Summary: Learn about Quality of Experience (QoE) settings in Skype for Business Server."
 ---
 
-# Create Quality of Experience configuration settings in Skype for Business Server 2015
+# Create Quality of Experience configuration settings in Skype for Business Server
  
-**Summary:** Learn about Quality of Experience (QoE) settings in Skype for Business Server 2015.
+**Summary:** Learn about Quality of Experience (QoE) settings in Skype for Business Server.
   
 Quality of Experience (QoE) metrics track the quality of audio and video calls made in your organization, including such things as the number of network packets lost, background noise, and the amount of "jitter" (differences in packet delay). These metrics are stored in a database apart from other data (such as call detail records), which allows you to enable and disable QoE independent of other data recording.
   
-When you install Skype for Business Server 2015, a single, global collection of QoE configuration settings is created for you. Administrators also have the option of creating custom settings at the site scope. Whenever these site-scoped settings are used, they take precedence over the global settings. For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage QoE in Redmond.
+When you install Skype for Business Server, a single, global collection of QoE configuration settings is created for you. Administrators also have the option of creating custom settings at the site scope. Whenever these site-scoped settings are used, they take precedence over the global settings. For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage QoE in Redmond.
   
 QoE configuration settings can be created by using either Skype for Business Server Control Panel or the [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet. If you are using Skype for Business Server Control Panel to create new settings the following options will be available to you:
   

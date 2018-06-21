@@ -1,26 +1,25 @@
 ---
-title: "Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015"
+title: "Peer-to-Peer Activity Diagnostic Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: "Summary: Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server."
 ---
 
-# Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015
+# Peer-to-Peer Activity Diagnostic Report in Skype for Business Server
  
-**Summary:** Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server 2015.
+**Summary:** Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server.
   
-The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions. Note that Skype for Business Server 2015 distinguishes between different kinds of failure:
+The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions. Note that Skype for Business Server distinguishes between different kinds of failure:
   
-- **Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone. Because the call was not answered, the call is technically considered a failure. On the other hand, this was an expected failure: Skype for Business Server 2015 does not expect you to answer the phone if you're not available to answer the phone. Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.
+- **Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone. Because the call was not answered, the call is technically considered a failure. On the other hand, this was an expected failure: Skype for Business Server does not expect you to answer the phone if you're not available to answer the phone. Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.
     
-- **Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose you call someone and that person is available to answer the call; however, when Skype for Business Server 2015 tries to route your call to voice mail the call fails because connectivity to Exchange Unified Messaging has been lost. That's an unexpected error: you would expect that calls could always be routed to voice mail. As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.
+- **Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose you call someone and that person is available to answer the call; however, when Skype for Business Server tries to route your call to voice mail the call fails because connectivity to Exchange Unified Messaging has been lost. That's an unexpected error: you would expect that calls could always be routed to voice mail. As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.
     
 Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, in the preceding illustration, we have the following values:
   
@@ -32,7 +31,7 @@ If you add 2024 + 469 + 16 you get a total of 2,509 sessions, yet the Total sess
   
 ## Accessing the Peer-to-Peer Activity Diagnostic Report
 
-The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page. You can access the [Failure Distribution Report in Skype for Business Server 2015](failure-distribution-report.md) by clicking either of the following metrics:
+The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page. You can access the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md) by clicking either of the following metrics:
   
 - Unexpected failure volume
     

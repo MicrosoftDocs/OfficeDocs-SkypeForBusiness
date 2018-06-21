@@ -1,9 +1,8 @@
 ---
-title: "Branch site SIP trunking in Skype for Business Server 2015"
+title: "Branch site SIP trunking in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,11 +15,11 @@ ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: "Learn about SIP trunking at branch sites in Skype for Business Server Enterprise Voice."
 ---
 
-# Branch site SIP trunking in Skype for Business Server 2015
+# Branch site SIP trunking in Skype for Business Server
  
 Learn about SIP trunking at branch sites in Skype for Business Server Enterprise Voice.
   
-In some cases, you may need to implement distributed SIP trunking at selected branch sites. To determine whether a SIP trunk is needed for a branch site, and for details about the supported topology options for deploying SIP trunks in branch sites, see [SIP trunking in Skype for Business Server 2015](sip-trunking.md).
+In some cases, you may need to implement distributed SIP trunking at selected branch sites. To determine whether a SIP trunk is needed for a branch site, and for details about the supported topology options for deploying SIP trunks in branch sites, see [SIP trunking in Skype for Business Server](sip-trunking.md).
   
 ## Example Branch Site SIP Trunk Requirements Analysis
 

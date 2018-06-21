@@ -1,20 +1,19 @@
 ---
-title: "Server Media Quality Trend Report in Skype for Business Server 2015"
+title: "Server Media Quality Trend Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: "Summary: Learn about the Server Media Quality Trend Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Server Media Quality Trend Report in Skype for Business Server."
 ---
 
-# Server Media Quality Trend Report in Skype for Business Server 2015
+# Server Media Quality Trend Report in Skype for Business Server
  
-**Summary:** Learn about the Server Media Quality Trend Report in Skype for Business Server 2015.
+**Summary:** Learn about the Server Media Quality Trend Report in Skype for Business Server.
   
 The Server Media Quality Trend Report provides a way for you to graphically compare up to five servers on Quality of Experience metrics such as call volume, poor call percentage, packet loss, and jitter. This makes it easier to do such things as identify servers that are performing poorly, identify servers that are underutilized, or identify servers that are being overused.
   
@@ -22,15 +21,15 @@ The Server Media Quality Trend Report provides a way for you to graphically comp
 
 The Server Media Quality Trend Report can be accessed from either one of the following report:
   
-- [Server Performance Report in Skype for Business Server 2015](server-performance.md) (by clicking the Trend metric)
+- [Server Performance Report in Skype for Business Server](server-performance.md) (by clicking the Trend metric)
     
-- [Call Detail Report in Skype for Business Server 2015](call-detail-report.md) (by clicking the A/V edge server metric. If the caller or callee is a server, you can also reach the Server Quality Media Trend Report by clicking the endpoint name.)
+- [Call Detail Report in Skype for Business Server](call-detail-report.md) (by clicking the A/V edge server metric. If the caller or callee is a server, you can also reach the Server Quality Media Trend Report by clicking the endpoint name.)
     
 ## Making the Best Use of Server Media Quality Trend Report
 
-When you click the Trend metric on the [Server Performance Report in Skype for Business Server 2015](server-performance.md) for a specific server, the Server Media Quality Trend Report will open. However, you will see only a blank instance of that report; the server you selected on the Server Performance Report will not be displayed onscreen. Instead, you will need to select that server from the Servers dropdown. Note, too that the Servers dropdown includes a Select All option. This option will not work if you have more than 5 servers; the Server Media Quality Trend Report can only display data for a maximum of 5 servers at a time.
+When you click the Trend metric on the [Server Performance Report in Skype for Business Server](server-performance.md) for a specific server, the Server Media Quality Trend Report will open. However, you will see only a blank instance of that report; the server you selected on the Server Performance Report will not be displayed onscreen. Instead, you will need to select that server from the Servers dropdown. Note, too that the Servers dropdown includes a Select All option. This option will not work if you have more than 5 servers; the Server Media Quality Trend Report can only display data for a maximum of 5 servers at a time.
   
-On the graphs displayed by the Server Media Quality Trend Report, the points labeled Call Volume and Poor Call Percentage are hotlinks; clicking a point on the graph will open an instance of the [Call List Report in Skype for Business Server 2015](call-list-report-0.md) showing the total calls (or poor calls) for the specified time period.
+On the graphs displayed by the Server Media Quality Trend Report, the points labeled Call Volume and Poor Call Percentage are hotlinks; clicking a point on the graph will open an instance of the [Call List Report in Skype for Business Server](call-list-report-0.md) showing the total calls (or poor calls) for the specified time period.
   
 ## Filters
 

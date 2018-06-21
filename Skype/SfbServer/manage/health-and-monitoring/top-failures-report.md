@@ -1,20 +1,19 @@
 ---
-title: "Top Failures Report in Skype for Business Server 2015"
+title: "Top Failures Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: "Summary: Learn about the Top Failures Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Top Failures Report in Skype for Business Server."
 ---
 
-# Top Failures Report in Skype for Business Server 2015
+# Top Failures Report in Skype for Business Server
  
-**Summary:** Learn about the Top Failures Report in Skype for Business Server 2015.
+**Summary:** Learn about the Top Failures Report in Skype for Business Server.
   
 The Top Failures Report provides a look at the most-commonly reported failures and their trends over time. Failures are based on a combination of the following two metrics:
   
@@ -26,7 +25,7 @@ Information is reported not only for the total number of sessions where a failur
   
 ## Accessing the Top Failures Report
 
-The Top Failures Report is accessed from the Monitoring Reports home page. Clicking the Reported sessions metric will take you to the [Failure Distribution Report in Skype for Business Server 2015](failure-distribution-report.md).
+The Top Failures Report is accessed from the Monitoring Reports home page. Clicking the Reported sessions metric will take you to the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md).
   
 ## Making the Best Use of the Top Failures Report
 

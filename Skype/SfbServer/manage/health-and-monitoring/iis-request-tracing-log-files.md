@@ -1,20 +1,19 @@
 ---
-title: "Monitoring IIS request tracing log files in Skype for Business Server 2015"
+title: "Monitoring IIS request tracing log files in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: "Summary: Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients."
+description: "Summary: Learn about the Mobility Service (Mcx) in Skype for Business Server support for legacy clients."
 ---
 
-# Monitoring IIS request tracing log files in Skype for Business Server 2015
+# Monitoring IIS request tracing log files in Skype for Business Server 
  
-**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server 2015 support for legacy clients.
+**Summary:** Learn about the Mobility Service (Mcx) in Skype for Business Server support for legacy clients.
   
 This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
   

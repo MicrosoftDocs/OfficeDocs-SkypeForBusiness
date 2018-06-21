@@ -1,26 +1,25 @@
 ---
-title: "Failure List Report in Skype for Business Server 2015"
+title: "Failure List Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: "Summary: Learn about the Failure List Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Failure List Report in Skype for Business Server."
 ---
 
-# Failure List Report in Skype for Business Server 2015
+# Failure List Report in Skype for Business Server 
  
-**Summary:** Learn about the Failure List Report in Skype for Business Server 2015.
+**Summary:** Learn about the Failure List Report in Skype for Business Server.
   
 The Failure List report provides information about the individual participants who took part in a failed peer-to-peer or conferencing session. This information includes the URI of the user who experienced the problem, as well as the SIP Response code and Diagnostic ID associated with the failure.
   
 ## Accessing the Failure List Report
 
-The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server 2015](failure-distribution-report.md):
+The Failure List Report is accessed by clicking any of the following metrics on the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md):
   
 - Top diagnostic reasons (sessions)
     
@@ -38,7 +37,7 @@ The Failure List Report is accessed by clicking any of the following metrics on 
     
 - Top from user agents (sessions)
     
-From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server 2015](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session. You can also access the Conference Detail Report by clicking the Conference metric for a conference.
+From the Failure List Report you can access the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) by clicking the Session detail metric for a peer-to-peer session. You can also access the Conference Detail Report by clicking the Conference metric for a conference.
   
 ## Making the Best Use of the Failure List Report
 

@@ -1,9 +1,8 @@
 ---
-title: "Call admission control deployment final checklist for Skype for Business Server 2015"
+title: "Call admission control deployment final checklist for Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: "Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice."
 ---
 
-# Call admission control deployment: final checklist for Skype for Business Server 2015
+# Call admission control deployment: final checklist for Skype for Business Server
  
 Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice. 
   
@@ -27,11 +26,11 @@ Use the following checklist to verify that you have completed all the necessary 
     > [!NOTE]
     > Edge Servers are not required to implement CAC. 
   
-- Make sure that CAC is enabled, as specified in [Enable call admission control in Skype for Business Server 2015](enable-call-admission-control.md).
+- Make sure that CAC is enabled, as specified in [Enable call admission control in Skype for Business Server](enable-call-admission-control.md).
     
 - Make sure that CAC is enabled in all central sites. This can be done through the Topology Builder. If a warning is generated when you publish,  *do not*  ignore it.
     
-- Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings. It is also essential that every subnet be associated to a network site, as explained in [Deploy network regions, sites and subnets in Skype for Business 2015](deploy-network.md).
+- Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings. It is also essential that every subnet be associated to a network site, as explained in [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md).
     
 - Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.
     

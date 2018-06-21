@@ -1,24 +1,23 @@
 ---
-title: "Delete an existing collection of CDR configuration settings in Skype for Business Server 2015"
+title: "Delete an existing collection of CDR configuration settings in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: "Summary: Learn how to remove CDR configuration settings in Skype for Business Server 2015."
+description: "Summary: Learn how to remove CDR configuration settings in Skype for Business Server."
 ---
 
-# Delete an existing collection of CDR configuration settings in Skype for Business Server 2015
+# Delete an existing collection of CDR configuration settings in Skype for Business Server
  
-**Summary:** Learn how to remove CDR configuration settings in Skype for Business Server 2015.
+**Summary:** Learn how to remove CDR configuration settings in Skype for Business Server.
   
 Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.
   
-When you install Skype for Business Server 2015, a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom setting collections that can be applied to individual sites. By design, settings configured at the site scope take precedence over settings configured at the global scope. If you delete site-scoped settings, then CDR will be managed in that site by using the global settings.
+When you install Skype for Business Server, a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom setting collections that can be applied to individual sites. By design, settings configured at the site scope take precedence over settings configured at the global scope. If you delete site-scoped settings, then CDR will be managed in that site by using the global settings.
   
 Note that you can also "delete" the global settings. However, the global settings will not actually be removed. Instead, all the properties in that collection will be reset to their default values. For example, by default purging is enabled in a collection of CDR configuration settings. Suppose you modify the global collection so that purging is disabled. If you later delete the global settings, all the properties will be reset to their default values. In this case, that means that purging will once again be enabled.
   
@@ -66,5 +65,5 @@ For more information, see the help topic for the [Remove-CsCdrConfiguration](htt
   
 ## See also
 
-[Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server 2015](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

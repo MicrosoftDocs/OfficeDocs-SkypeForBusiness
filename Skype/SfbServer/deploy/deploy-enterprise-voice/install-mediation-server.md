@@ -1,9 +1,8 @@
 ---
-title: "Install the files for Mediation Server in Skype for Business Server 2015"
+title: "Install the files for Mediation Server in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
-description: "Summary: Learn how to install the files for Mediation Server in Skype for Business Server 2015."
+description: "Summary: Learn how to install the files for Mediation Server in Skype for Business Server."
 ---
 
-# Install the files for Mediation Server in Skype for Business Server 2015
+# Install the files for Mediation Server in Skype for Business Server
  
-**Summary:** Learn how to install the files for Mediation Server in Skype for Business Server 2015.
+**Summary:** Learn how to install the files for Mediation Server in Skype for Business Server.
   
 To successfully complete this procedure, you should be logged on to the server, at the minimum, as a local administrator and a domain user who has membership in at least the RTCUniversalReadOnlyAdmins group.
   
 Use the steps in this topic to run Skype for Business Server Deployment Wizard to install the files for Mediation Server on a computer that you added to a Mediation Server pool after you have used Topology Builder to define and publish the pool. When installing files Mediation Server, you also install and assign the certificate required by each computer in a Mediation Server pool. 
   
 > [!NOTE]
-> This topic assumes that you have already defined and published a stand-alone Mediation Server pool in your topology, as described in [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](deploy-a-mediation-server.md). 
+> This topic assumes that you have already defined and published a stand-alone Mediation Server pool in your topology, as described in [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md). 
   
 ### To install the files for a stand-alone Mediation Server pool
 
@@ -55,5 +54,5 @@ Use the steps in this topic to run Skype for Business Server Deployment Wizard t
     
 13. On the computer where you are running Skype for Business Server Control Panel, verify on the **Topology** page of Skype for Business Server Control Panel that the service status of the Mediation Server is shown as a green check mark. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**. 
     
-If you added more than one computer to the Mediation Server pool, perform the steps in this procedure on all other computers in the Mediation Server pool. If you do not need to install files for Mediation Server for any other computers, then follow the procedures in [Configure trunks in Skype for Business Server 2015](configure-trunks.md) to configure settings for the trunk connection between this Mediation Server pool (or all Mediation Servers at a site) and its peer.
+If you added more than one computer to the Mediation Server pool, perform the steps in this procedure on all other computers in the Mediation Server pool. If you do not need to install files for Mediation Server for any other computers, then follow the procedures in [Configure trunks in Skype for Business Server](configure-trunks.md) to configure settings for the trunk connection between this Mediation Server pool (or all Mediation Servers at a site) and its peer.
 

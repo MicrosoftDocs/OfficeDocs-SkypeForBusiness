@@ -1,9 +1,8 @@
 ---
-title: "Deploy network regions, sites and subnets in Skype for Business 2015"
+title: "Deploy network regions, sites and subnets in Skype for Business"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,17 +15,17 @@ ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: "Create or modify network regions, network sites, and associate network subnets in Skype for Business Server. All these are used for the advanced Enterprise Voice features: media bypass, call admission control, and location-based routing."
 ---
 
-# Deploy network regions, sites and subnets in Skype for Business 2015
+# Deploy network regions, sites and subnets in Skype for Business
  
 Create or modify network regions, network sites, and associate network subnets in Skype for Business Server. All these are used for the advanced Enterprise Voice features: media bypass, call admission control, and location-based routing.
   
-The advanced Enterprise Voice features are [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), and [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). These features all require you to create network regions, network sites, and subnets. For example, all of these features require that each subnet in your topology be associated with a specific network site, and each network site must be associated with a network region. For more information on these terms, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+The advanced Enterprise Voice features are [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), and [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). These features all require you to create network regions, network sites, and subnets. For example, all of these features require that each subnet in your topology be associated with a specific network site, and each network site must be associated with a network region. For more information on these terms, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 Call admission control and E9-1-1 have additional configuration requirements for network sites:
   
-- Call admission control requires that a bandwidth policy profile be specified for each site that is constrained by WAN bandwidth limitations. If you plan to deploy call admission control, you must[Create bandwidth policy profiles in Skype for Business Server 2015](create-bandwidth-policy-profiles.md) before you configure your network sites.
+- Call admission control requires that a bandwidth policy profile be specified for each site that is constrained by WAN bandwidth limitations. If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Skype for Business Server](create-bandwidth-policy-profiles.md) before you configure your network sites.
     
-- E9-1-1 requires that a location policy be specified for each site. If you plan to deploy E9-1-1, you must[Create location policies in Skype for Business Server 2015](create-location-policies.md) before you configure your network sites.
+- E9-1-1 requires that a location policy be specified for each site. If you plan to deploy E9-1-1, you must [Create location policies in Skype for Business Server](create-location-policies.md) before you configure your network sites.
     
 ## Create or modify a Network Region
 
@@ -309,6 +308,7 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 ## See also
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -324,3 +324,4 @@ For example, if the IP address list in the alert specifies 10.121.248.226 and 10
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+
