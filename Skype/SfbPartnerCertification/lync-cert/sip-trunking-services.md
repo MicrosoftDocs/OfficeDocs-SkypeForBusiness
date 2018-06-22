@@ -28,6 +28,9 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 
 ## SIP trunking services qualified for Lync Server 2013
 
+
+
+
 <table border="1" cellpadding="0" cellspacing="0" class="shaded" style="border-collapse:collapse;border:solid 1px" width="90%" xmlns="_http://www.w3.org/1999/xhtml">
 	<tbody>
 		<tr bgcolor="#DEDEDE">
@@ -380,8 +383,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 		<tr>
 			<td headers="th124D29200000"><a href="http://www.cellip.com/tjanster/microsoft-lync/">Cellip</a></td>
 			<td headers="th124D29200001">Sip-trunk Lync</td>
-			<td headers="th124D29200002">&#x2611; 
- &#10004;&#x2714;
+			<td align=center headers="th124D29200002">&#x2714;
 </td>
 		</tr>
 		<tr>

@@ -1,5 +1,5 @@
 ---
-title: "Partner qualification for Lync - Lync Room Systems"
+title: "Lync Room Systems"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,9 +20,8 @@ ms.custom:
 description: "Read about the qualified Lync Room System products have been tested and are optimized for Lync."
 ---
 
-# Partner qualification for Lync - Lync Room Systems
+#  Lync Room Systems
 
-## Lync Room Systems
 Lync Room Systems are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. The hardware includes, at a minimum, one or two large touch-enabled displays, high definition video cameras and microphones, and a console in the conference room that enables participation without a laptop or desktop from within the meeting room. These products have been tested and are optimized for Lync.
 
 > [!NOTE]

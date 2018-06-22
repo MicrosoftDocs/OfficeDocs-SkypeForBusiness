@@ -42,7 +42,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 		<td width="16%"><strong>Software Version Tested</strong></td>
 		<td width="43%"><strong>Vendor's Lync Page</strong></td>
 	</tr>
-	<tr align="left" valign="top">
+	 <tr align="left" valign="top">
 		<td rowspan="2"><a href="http://www.a10networks.com/solutions/application_solutions_microsoft.php">A10Networks</a></td>
 		<td>AX Series 1000, 2200, 3200</td>
 		<td rowspan="2">2.4.3</td>

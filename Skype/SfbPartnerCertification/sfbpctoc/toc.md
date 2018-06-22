@@ -32,6 +32,7 @@
 ## Lync Partner Qualification
 ### Applications 
 #### [Qualified Lync applications](../lync-cert/qualified-lync-apps.md) 
+#### [Lync ISV qualification program participation](../lync-cert/participation.md)
 #### [Attendant Console Applications](../lync-cert/attendant-console-apps.md)
 #### [Billing & Enhanced Reporting Applications](../lync-cert/billing-reporting-apps.md)
 #### [Contact center applications](../lync-cert/contact-center-apps.md)
@@ -59,5 +60,5 @@
 #### [Services qualified for Lync](../lync-cert/sip-trunking-services.md)  
 #### [E-911 Services qualified for Lync](../lync-cert/e-911-service-providers.md) 
 ### Video
-#### [USB audio and video devices](../lync-cert/usb-and-video.md) 
+#### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md)   
 ### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)

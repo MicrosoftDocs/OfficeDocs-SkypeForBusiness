@@ -95,9 +95,11 @@ The following table lists the VDI partners and their products which have been te
 		</tr>
 	</tbody>
 </table>
-<br />
+
+
 
 ## Client hardware platforms
+
 The Lync 2013 VDI Plug-in must be installed on the local machine in combination with the VDI Partner's local client. The Plug-in uses the local machine's processing, memory and network resources to provide an optimal media experience for the end-user. 
 
 The Lync 2013 VDI Plug-in is available in 32-bit and 64-bit versions and is supported on clients meeting following requirements.

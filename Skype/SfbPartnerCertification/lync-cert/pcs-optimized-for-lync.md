@@ -1,5 +1,5 @@
 ---
-title: "Partner qualification for Lync - PCs optimized for Lync"
+title: "PCs optimized for Lync"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,9 +20,8 @@ ms.custom:
 description: "Learn about how PCs that are optimized for Lync let workers use all the tools and features of the platform without the need of any USB peripheral."
 ---
 
-# Partner qualification for Lync - PCs optimized for Lync
+# PCs optimized for Lync
 
-## PCs optimized for Lync
 With software-based telephony, Lync enables workers to use their PCs as complete unified communications endpoints. PCs that are optimized for Microsoft Lync empower workers to use all the tools and features of the platform without the need of any USB peripheral. Form factors tested include, all-in-one desktops, convertible tablets, laptops and monitors*.
 
 All of these form factors are tested to deliver:

@@ -197,7 +197,7 @@ Please contact the listed partner for more information on these products.
 		<td>ExtremeXOS 15.3.14</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a =href="https://support.hpe.com/hpesc/public/home/signin">HP</a></td>
+		<td><a href="https://support.hpe.com/hpesc/public/home/signin">HP</a></td>
 		<td>HP 2610, 2910al, 3500yl, 5400zl, 8200zl</td>
 	</tr>
 	<tr align="left" valign="top">
@@ -206,5 +206,3 @@ Please contact the listed partner for more information on these products.
 	</tr>
 </table>
 
-### Additional Resources
-[Lync Server 2010 protocol workloads poster](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=ad8ff3fb-014e-4fd7-8003-436d896ab0c6)
