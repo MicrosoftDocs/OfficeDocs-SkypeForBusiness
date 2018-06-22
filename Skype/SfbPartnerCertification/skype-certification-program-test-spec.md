@@ -18,7 +18,7 @@ ms.custom:
 - Lync Certification
 - Skype for Business Certification program
 - dn788953
-description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
+description: "Test specifications describe the unified Skype and Lync requirements for USB peripherals, PCs, and Lync room systems, plus links to test tools and white papers."
 ---
 
 # Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems
@@ -60,7 +60,7 @@ Use the following table to find the specifications that describe the unified Sky
 <br>
 
 ## Skype Specifications
-Use the following table to find the Skype specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014.
+Use the following table to find the Skype specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014.<!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
 
 <table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
@@ -83,7 +83,7 @@ Use the following table to find the Skype specifications to follow for USB perip
 <br>
 
 ## Lync Specifications
-Use the following table to find the Lync specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014.
+Use the following table to find the Lync specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014..<!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
 <table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="100" />
@@ -166,6 +166,10 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 	</tr>
 </table>
 
+### Related resources 
+<!-- note that the compatible devices progr is a technet doc that I'm working on next-->
+[Phones and devices home](skype-cert-program-devices-ip-phones.md#ip-phones)
+[Compatible Devices Program](https://technet.microsoft.com/en-us/office/dn788951#compatibledevices)
 
 If you are a vendor seeking to join the certification program, see [How to Join](skype-certification-program-how-to-join.md#how-to-join) for requirements and available programs.
 
