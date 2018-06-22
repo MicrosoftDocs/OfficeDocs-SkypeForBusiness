@@ -37,7 +37,9 @@ The most recent changes to CQD are as follows:
 - Includes Microsoft Teams data in addition to Skype for Business Online data.
     
 - Summary reports include a product filter to select all data, Microsoft Teams data, or Skype for Business Online data.
-    
+
+- Video and VBSS stream quality classification logic has been updated. Refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md) for the latest classifier definitions.
+
 Refer to this article for a list of [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
