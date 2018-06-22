@@ -25,7 +25,7 @@ Microsoft plans to test and certify IP phones for Skype for Business through the
 
 In the meantime, Skype for Business Server supports backwards compatibility with all of our Lync qualified IP phones, and devices which are supported for Skype for Business Online will be announced as soon as they are qualified.
 
-Find details of our [qualified IP Phones](infra-gateways.md).
+Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
 
 [Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)
 

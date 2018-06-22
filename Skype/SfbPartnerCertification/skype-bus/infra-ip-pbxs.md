@@ -21,7 +21,9 @@ description: "Information about certified gateways for Skype for Business."
 ---
 
 # IP PBXs
+
 IP PBXs that have been tested by Microsoft such that specific configurations have obtained the ‘Works with Skype for Business’ designation (where applicable with known limitations). Review the following table.
+
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="605" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>

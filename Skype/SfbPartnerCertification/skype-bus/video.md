@@ -234,10 +234,9 @@ The table that follows describes the features available for the 3rd party VTC as
 	</tr>
 </table>
 
-[*]
-Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience is not present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee are not available on VTC.
+\* Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience is not present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee are not available on VTC.
 
-[**]
+\*\*
 Desktop sharing using RDP from a device sends content as video over the people channel. Polycom support for VBSS is currently planned for certification.
 
 ## Video infrastructure

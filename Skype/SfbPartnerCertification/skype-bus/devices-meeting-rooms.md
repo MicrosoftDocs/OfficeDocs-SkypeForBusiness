@@ -39,7 +39,7 @@ You can find detailed specifications here: [Phones and devices qualified for  Ly
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Supporting plug & play features with Lync and Skype for Business clients, passing products provide a great experience for end-users and administrators.
 
 ### End-User Experience
-[- Automatic selection of default audio device and prioritization if multiple audio peripherals are present
+- Automatic selection of default audio device and prioritization if multiple audio peripherals are present
 - Plug and play: once connected, a device registers on the Skype for Business client and is ready to use
 - Basic call control across PC and devices with answer/hang-up, mute/unmute, and volume control.
 - Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio

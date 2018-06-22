@@ -1,4 +1,5 @@
 # [Skype for Business certification program](../skype-bus/overview.md)  
+## [How to Join](../skype-bus/how-to-join.md)
 ## Phones and Devices
 ### [IP Phones](../skype-bus/devices-ip-phones.md)
 ### [USB audio and video devices](../skype-bus/devices-usb-devices.md) 
@@ -19,7 +20,7 @@
 ### [SIP Trunking services](../skype-bus/services-sip-trunking.md) 
 ### [E-911 service providers](../skype-bus/services-e911.md) 
 ### [Audio conferencing providers for Skype for Business Online](../skype-bus/services-acps.md)
-## IT Pro
+##  [IT Pro](../skype-bus/it-pro-tools.md)
 ### [Network Pre-Assessment](../skype-bus/it-pro-tools-pre-assessment.md) 
 ### [Migration](../skype-bus/it-pro-tools-migration.md) 
 ### [User and Policy Provisioning](../skype-bus/it-pro-tools-user-policy.md) 
