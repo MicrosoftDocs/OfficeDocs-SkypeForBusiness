@@ -53,10 +53,10 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 	</tr>
 	<tr align="left" valign="top">
 		<td><strong>Qualification Date</strong></td>
-		<td>Jan-13</td>
-		<td>Jan-13</td>
-		<td>Jan-13</td>
-		<td>Oct-12</td>
+		<td>Jan-2013</td>
+		<td>Jan-2013</td>
+		<td>Jan-2013</td>
+		<td>Oct-2012</td>
 		<td align="left" valign="top">Feb-2017</td>
 	</tr>
 	<tr align="left" valign="top">
@@ -137,7 +137,7 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 		<td>Lync Server 2010</td>
 		<td>Lync Server 2010</td>
 		<td>Lync Server 2010</td>
-		<td align="left" valign="top">Skype for Business Server 2015 On Premises</td>
+		<td align="left" valign="top">Skype for Business Server 2015 </td>
 	</tr>
 </table>
 
@@ -375,9 +375,9 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 	</tr>
 </table>
 
-Notes:
-- Product information is provided by the hardware manufacturers.
-- Lync Server 2010 is backward compatible with products qualified for Microsoft Office Communications Server 2007 R2, excluding Lync 2010 new features.
+> [!NOTE]
+> - Product information is provided by the hardware manufacturers.
+> - Lync Server 2010 is backward compatible with products qualified for Microsoft Office Communications Server 2007 R2, excluding Lync 2010 new features.
 
 ## Vendor support
 [LifeSize](http://www.lifesize.com/Partners/Technology_Partners/Microsoft.aspx)
@@ -386,5 +386,5 @@ Notes:
 
 [Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
---------------
+* * *
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](http://blogs.technet.com/b/uc/archive/2011/09/02/what-devices-have-been-certified-for-mac.aspx)

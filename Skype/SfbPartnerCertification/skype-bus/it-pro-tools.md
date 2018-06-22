@@ -31,5 +31,5 @@ The IT Pro Tools program outlines partner solutions that make it easier to deplo
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-#### Learn more
+## Related resources
 View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.

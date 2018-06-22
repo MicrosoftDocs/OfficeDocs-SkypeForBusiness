@@ -29,8 +29,8 @@ All of these form factors are tested to deliver:
 
 All of these criteria apply equally for Skype for Business as they do for Lync 2013, therefore all PCs that are qualified for Lync 2013 are also Certified for Skype for Business
 
-[Note]
-Monitors require an embedded camera and embedded speakerphone, both passing Lync Logo specs (including USB HID support). The display is not tested.
+> [!NOTE]
+> Monitors require an embedded camera and embedded speakerphone, both passing Lync Logo specs (including USB HID support). The display is not tested.
 
 [View PC's and devices certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 

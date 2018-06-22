@@ -51,8 +51,10 @@ Microsoft Lync supports two methods of placing E-911 calls: Using a qualified se
 		</tr>
 	</tbody>
 </table>
-<p xmlns="http://www.w3.org/1999/xhtml">Learn more about E911 services here: <a href="https://technet.microsoft.com/library/gg398154.aspx">Emergency Services (E9-1-1)</a>.<!-- 2013 topic yet to migrate --></p>
-<p xmlns="http://www.w3.org/1999/xhtml"> </p>
+
+Learn more about E911 services here: <a href="https://technet.microsoft.com/library/gg398154.aspx">Emergency Services (E9-1-1)</a>.<!-- 2013 topic yet to migrate -->
+
+
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="100" />

@@ -76,7 +76,7 @@ Vendors listed in the following table have been certified for Skype for Business
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
+### Additional Resources
 Learn about [Skype for Business certification](../skype-bus/overview.md) .
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com

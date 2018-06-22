@@ -28,19 +28,19 @@ Lync Online Dedicated offers interoperability with customer's on-premises sessio
 
 It is recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
 
-### USB audio and video devices
+## USB audio and video devices
 
 All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](usb-and-video.md) page.
 
-### IP phones
+## IP phones
 
 All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [Phones and devices qualified for  Lync](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" are not currently supported in Lync Online Dedicated.
 
-### Meeting room devices
+## Meeting room devices
 
 All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, please visit the [Meeting room devices](meeting-room-devices.md) page.
 
-### Video infrastructure
+## Video infrastructure
 
 Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. Listed below are the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
 
@@ -67,13 +67,13 @@ Video infrastructure provides interoperability and connectivity capabilities bet
 	</tr>
 </table>
 
-### SIP trunking
+## SIP trunking
 
 SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination and emergency services using the SIP protocol. 
 
 All SIP Trunking providers qualified for Lync Server 2013 are supported in ***Lync Online Dedicated***. For additional information about qualified SIP trunk carries and devices, go to  [SIP trunking services](sip-trunking-services.md).
 
-### Session border controllers
+## Session border controllers
 
 Session border controllers (SBCs) provide a secure gateway capability between a customer's datacenter and the Microsoft Online Dedicated environment. 
 

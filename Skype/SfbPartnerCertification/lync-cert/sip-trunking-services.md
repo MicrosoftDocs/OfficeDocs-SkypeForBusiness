@@ -26,7 +26,7 @@ SIP trunking enables connectivity to the public switched telephony network (PSTN
 
 E-911 service providers provide routing of emergency calls from Lync to the correct emergency dispatch center responsible for deploying emergency responders for the given client location. To learn about E-911, see [E-911 Services](e-911-service-providers.md)
 
-### SIP trunking services qualified for Lync Server 2013
+## SIP trunking services qualified for Lync Server 2013
 
 <table border="1" cellpadding="0" cellspacing="0" class="shaded" style="border-collapse:collapse;border:solid 1px" width="90%" xmlns="_http://www.w3.org/1999/xhtml">
 	<tbody>
@@ -338,7 +338,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 	</tbody>
 </table>
 
-### SIP trunking services qualified for Lync Server 2010</h3>
+## SIP trunking services qualified for Lync Server 2010
 
 <table border="1" cellpadding="0" cellspacing="0" class="shaded" style="border-collapse:collapse;border:solid 1px" xmlns="_http://www.w3.org/1999/xhtml">
 	<colgroup>

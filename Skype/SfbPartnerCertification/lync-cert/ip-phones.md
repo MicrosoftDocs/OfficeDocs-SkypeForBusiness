@@ -37,9 +37,8 @@ Contact the vendors for more information about these products.
 
 ***Table - Qualified IP Phones***
 
-||||||
+|Qualified Product|Qualification Date|Firmware Version Qualified for Lync Server 2013|Firmware Version Qualified for Lync Online|Firmware Version Qualified for Lync Server 2010|
 |:-----|:-----|:-----|:-----|:-----|
-|**Qualified Product**|**Qualification Date**|**Firmware Version Qualified for Lync Server 2013**|**Firmware Version Qualified for Lync Online**|**Firmware Version Qualified for Lync Server 2010**|
 |AudioCodes 420HD|October 2013|AudioCodes UC420HD_2.0.1.44.9|Not tested|AudioCodes UC420HD_2.0.1.44.9|
 |AudioCodes 440HD|June 2014|AudioCodes UC440HD_2.0.3.21|Not tested|AudioCodes UC440HD_2.0.3.21|
 |AudioCodes 430HD|July 2014July 2014|AudioCodes UC430HD_2.0.3.19|Not tested|

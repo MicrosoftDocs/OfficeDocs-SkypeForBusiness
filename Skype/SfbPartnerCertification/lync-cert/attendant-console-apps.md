@@ -38,7 +38,7 @@ Since we believe that anybody could be a contact center, the reception is a role
 
 Available now in 8 languages, that is, English, Dutch, French, German, Spanish, Portuguese, Danish, and Swedish
 
----------------------
+* * *
 ## Competella Multimedia Attendant 
 For Lync: 2010, 2013 
 
@@ -59,7 +59,7 @@ Optional functions:
     - barge-in
 - Multi-tenant support
 
---------
+* * *
 ## Mitel
 
 [Mitel InAttend](http://www.mitel.com)
@@ -79,7 +79,7 @@ InAttend provides:
 - Future-proof scalable solution based on open standards
 - Multi-tenant support
 
-------------------------------
+* * *
 ## PeterConnects Enterprise Attendant Console from JDM Software
 
 **Facilitate easy and fast call handling.**
@@ -90,7 +90,7 @@ InAttend provides:
 
 Numerous interfaces are supported, <!-- missing text? -->combine sources, create a rich telephone directory, and send messages from the console (email, SMS, Chat). The automated attendant adds the functionality to create an open/closed profile, welcome message, choice menus and queue messaging. There are different ways to show the presence-status of employees within the attendant-console; telephony, Lync, Outlook, building access-system. The Web based statistics-module allows customers to compose reports of all calls.
 
------------------------------------
+* * *
 ## Samroxx Attendant Console & Soft Phone
 
 For Lync: 2013
@@ -110,7 +110,7 @@ Select features include:
 - Inline display of Exchange and Notes calendar information, even showing in the Busy Lamp Field
 - Multi-vendor cross-platform solution
 
----------------------
+* * *
 ## Trio Enterprise Attendant
 
 **Streamline workflow and increase productivity with instant information about who is where.**
@@ -131,7 +131,7 @@ Additional Functions:
 - Real hybrid solutions with multiple PBX/Lync systems
 - Supports Lync native UCMA solutions
  
------------------
+* * *
 ## UCS Attendant Console
 
 **UCS Attendant Console offers all receptionist features: professional call handling and managing the availability of organizations in a user friendly easy-to-use application.**
@@ -140,7 +140,7 @@ Additional Functions:
 
 ***UCS Attendant Console*** is a user-friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. The app provides comprehensive features for call queueing, personal parking, fallback-, internal- and external queues, and the ability to contact employees via different media, such as IM, email, SMS, phone, or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. <!-- what does this mean? Who is "they?" -->They are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
 
----------------------------
+* * *
 
 ## Visionutveckling Vision 80/20
 
@@ -162,7 +162,7 @@ Benefits:
 - Statistics on calls and attendant queues
 - Call Center functionality with skill-based routing, multiple overflow options
 
--------------------
+* * *
 
 ## Zylinc Attendant Console
 **Handle an entire company's calls quickly and efficiently.**

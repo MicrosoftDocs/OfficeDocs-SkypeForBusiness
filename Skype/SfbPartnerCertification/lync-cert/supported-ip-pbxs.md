@@ -26,6 +26,7 @@ IP PBXs listed in the table that follows are supported by Microsoft, although th
 
 Sufficient internal testing has been performed by Microsoft such that specific configurations are supported by Microsoft (where applicable with known limitations). These configurations utilize the commercially available production SIP trunk interface of the IP-PBX vendor but may not be supported by the IP-PBX vendor. In addition, IP-PBX vendor-provided complete documentation for installation and set-up, release notes, or documented support processes may not be available. Wherever possible, Microsoft will endeavor to provide documentation for installation and set-up.
 
+## Supported for Lync 2013
 ***Table 1 - Supported for Lync 2013***
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
@@ -151,7 +152,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 <br />
 <!-- Lync 2010 -->
 
-### Supported in Lync 2010
+## Supported in Lync 2010
 
 ***Table 2 - IP PBXs supported in Lync 2010***
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
@@ -265,7 +266,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Comfort noise generation is not supported. As a result, comfort noise is not played on Microsoft Lync. When a Lync user configures call forward or simul-ring to a PSTN IVR number, the calling party will not hear early media played from the IVR.</li>
 				</ol>
-				<p>* Note on Cisco Unified Session Manager: Cisco states that Unified Session Manager is based on the same SIP capability as Unified Communications Manager. As such, it is supported with the same capabilities as the qualified version of Unified Communications Manager.</p>
+				<p>* <b>Note:</b> Cisco states that Unified Session Manager is based on the same SIP capability as Unified Communications Manager. As such, it is supported with the same capabilities as the qualified version of Unified Communications Manager.</p>
 			</td>
 		</tr>
 		<tr align="left" valign="top">

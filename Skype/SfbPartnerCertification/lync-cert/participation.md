@@ -26,18 +26,18 @@ Microsoft Lync ISV Qualification Program, qualifies ISV solutions that integrate
 An initial API validation self-test will confirm Lync 2013 APIs are being used in the application. These results are then used to submit an application for qualification.
 Lync 2013 applications that fall under certain categories are eligible for and may require comprehensive third-party testing. Validated applications not subject to third-party testing are listed as validated applications.
  
-## Requirements for application qualification:
+## Requirements for application qualification
 - Application must use Lync 2013 APIs.
 - Application must pass the validation self-test with the provided test tool.
 - Application submitted for qualification must pass third-party testing.
  
-## Validation:
+## Validation
 - There is no fee for the validation self-test. Sign in to Microsoft Platform Ready with the Windows Live ID associated with your Microsoft Partner Network account.
 - Register your application to access and run the test tool.
 - Copy the questionnaire below into email, and then complete it.
 - Email the questionnaire and successful test results to lyncISVQual@microsoft.com.
  
-## Qualification:
+## Qualification
 - The Lync application qualification team will follow up with you after reviewing your submission. There is a third-party fee associated with qualification testing. It is handled by a third-party company and the price is negotiated with them.
 - The qualification process can take between 3-4 weeks depending on the complexity of the application.
 - After your product successfully passes the technical qualification requirements at the third-party lab, you may be asked to provide marketing information for display on this website.
@@ -46,9 +46,8 @@ Lync 2013 applications that fall under certain categories are eligible for and m
 ## Questionnaire
 <!-- this could use a little intro text. as in how to fill out, use, or send questionnaire -->
 
-||||
+|Role |Information to be provided |
 |:-----|:-----|:-----|
-|**Role** |**Information to be provided** |
 |Company|Name<br>Address<br/>Country|
 |Contact Person |Name<br>Title<br>Email<br>Phone|
 |Lead Developer |Name<br>Email| 
@@ -56,4 +55,4 @@ Lync 2013 applications that fall under certain categories are eligible for and m
 |Additional information |Target Audience/Sector<br/>Product Description|
 |||||
 
-<!-- end of table -->
+ 

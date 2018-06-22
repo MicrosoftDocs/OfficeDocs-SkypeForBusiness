@@ -43,7 +43,7 @@ Learn more about E911 services here: [Emergency Services (E9-1-1)](https://techn
 
 ***Table 2 - E-911 ELIN Gateways***
 
-|**Company**|**Qualified Product**|
+|Company|Qualified Product|
 |:-----|:-----|:-----|
 |911 Enable|Emergency Gateway (EGW)|
 |Audiocodes|Mediant Gateway & SBA version 6.4|

@@ -33,11 +33,7 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 - ***Array of Directors***&nbsp;&nbsp; In this scenario, the hardware load balancer serves as the connectivity point to multiple Directors in an array.
 - ***Array of Edge Servers***&nbsp;&nbsp; In this scenario, if the hardware load balancer supports multiple virtual IP addresses (VIP), it will serve as the connectivity point to both the internal and external NICs for multiple Edge Servers in an array. If the hardware load balancer only supports a single VIP, then two hardware load balancers are required to load balance Edge Servers, one for the internal NICs and one for the external NICs of the Edge Server.
 
-#### Hardware load balancers for Lync Server
-
-Note that these devices are backwards compatible with Office Communications Server 2007 R2. 
-
-Please contact the vendor for more information on these products.
+***Hardware load balancers for Lync Server***
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<tr bgcolor="#DEDEDE">
@@ -142,13 +138,17 @@ Please contact the vendor for more information on these products.
 	</tr>
 </table>
 
-<p>Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.</p>
+Note that these devices are backwards compatible with Office Communications Server 2007 R2. 
+
+Please contact the vendor for more information on these products.
+
+Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.
 
 ## Software load balancers for Lync Server
 
 Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. Please contact the vendor for more information on these products.
 
-#### Software load balancers for Lync Server
+***Software load balancers for Lync Server***
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<tr bgcolor="#DEDEDE">
@@ -211,4 +211,4 @@ Software load balancers listed in the table that follows  have been tested by th
 	</tr>
 </table>
 
-<p xmlns="http://www.w3.org/1999/xhtml">Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.</p>
+Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.

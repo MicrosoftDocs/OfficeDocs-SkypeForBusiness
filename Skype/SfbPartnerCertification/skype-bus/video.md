@@ -233,8 +233,10 @@ The table that follows describes the features available for the 3rd party VTC as
 		<td align="center" valign="top">✔<br />(same as Skype for Business client)</td>
 	</tr>
 </table>
-<p>[*]
-Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience is not present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee are not available on VTC.</p>
+
+[*]
+Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience is not present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee are not available on VTC.
+
 [**]
 Desktop sharing using RDP from a device sends content as video over the people channel. Polycom support for VBSS is currently planned for certification.
 
@@ -360,10 +362,10 @@ Desktop sharing using RDP from a device sends content as video over the people c
 		</tr>
 	</table>
 
-[Notes]
-1. Cloud service based video interop solutions are updated frequently and don't have set version numbers. Instead of testing a specific version, cloud services have implemented real time telemetry and have live-site support process coordination with Microsoft.
-2. Features supported for Online differ from those supported for On-premise. Video interop for O365 is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
-3. Pexip support for VBSS is currently in tech preview state.
+> [!NOTE]
+> 1. Cloud service based video interop solutions are updated frequently and don't have set version numbers. Instead of testing a specific version, cloud services have implemented real time telemetry and have live-site support process coordination with Microsoft.
+> 2. Features supported for Online differ from those supported for On-premise. Video interop for O365 is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
+> 3. Pexip support for VBSS is currently in tech preview state.
 
 Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
 

@@ -32,7 +32,7 @@ With third-party testing, the program defines specific requirements for interope
 
 Designed with enterprise-class industry standards, testing covers performance, reliability, and SDK/API utilization.
 
------------------------------
+* * *
 ### Related resources
 [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 

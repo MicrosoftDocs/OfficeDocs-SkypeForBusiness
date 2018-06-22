@@ -24,21 +24,23 @@ description: "The Lync qualificaton program helps ensure that qualified applicat
 Billing and enhanced reporting applications enable organizations to monitor, track and report both financial and time information for an entire organization's communications stream.
 
 ## CA Unified Communications Monitor
--------------------
+* * *
 **Lync 2013**
 
-##### Ensure UC and VoIP quality of experience and network quality of service.
+ **Ensure UC and VoIP quality of experience and network quality of service.**
+
 [CA](http://www.CA.com) 
 
 CA Unified Communications Monitor is a network-based voice and video monitoring solution that helps organizations ensure UC and VoIP quality of experience and network quality of service. UC and VoIP delivery metrics – such as jitter, latency, and packet loss – along with call quality metrics – such as MOS, provide full insight into UC quality of experience. Customized alerts and thresholds help pinpoint where problems reside and help identify which network paths experience the most severe problems. UC Monitor also helps you to track trends through capacity planning reports that illustrate busy-hour call attempts and the effects of call volume on call performance. UC Monitor integrates with CA Performance Center and many other CA Technologies solutions for a comprehensive view of systems and network performance.
 
 Dell Software MessageStats for Lync
 
--------------------
+* * *
 
-###### Lync 2013
+**Lync 2013**
 
-##### Track unified communications usage, analyze trends, and create reports.
+**Track unified communications usage, analyze trends, and create reports.**
+
 [Dell](http://dell.com)
  
 *Dell MessageStats for Lync* delivers deep insight into unified communications usage by enhancing Lync's built-in reporting capabilities with comprehensive usage reporting and analysis.
@@ -48,10 +50,11 @@ Armed with usage and trend data, your organization can maximize its adoption of 
 
 
 ## Integrated Research Prognosis 10
--------------------
-###### Lync 2013<br/>2010
+* * *
+**Lync 2013<br/>2010**
 
-##### Provide complete visibility and actionable insight to control complex, multi-vendor unified communications environments anytime, anywhere.
+**Provide complete visibility and actionable insight to control complex, multi-vendor unified communications environments anytime, anywhere.**
+
 [Prognosis](http://Prognosis.com)
 
 Prognosis 10 provides complete visibility and actionable insight to control complex, multi-vendor unified communications (UC) environments more effectively, when and where you want. Deliver superior performance and lower operational costs.
@@ -66,10 +69,10 @@ Easily deploy using any standard HTML5 browser. Prognosis 10 delivers a rapid re
 Avoid finger-pointing, with visibility and control of the entire communications ecosystem: applications, hardware, SBCs, network path, voice quality, CTI, integrations, configurations, web services, virtualization, usage, and more.
 
 ## ISI Telemanagement Solutions Infortel Select
------------------
-###### Lync 2013<br/>2010
+* * *
+ **Lync 2013<br/>2010**
 
-##### Leverage information on how employees communicate to improve business processes and run more efficiently. Manage Lync Server network capacity to identify critical network choke points.
+  **Leverage information on how employees communicate to improve business processes and run more efficiently. Manage Lync Server network capacity to identify critical network choke points.**
 
 [ISI](http://isi-info.com)
 
@@ -79,10 +82,10 @@ Infortel Select uses an advanced GUI based on Microsoft Silverlight, and provide
 It builds on ISI Telemanagement Solutions' 30+ year tradition of assisting clients with all issues related to Telecom Management. ISI provides Call Accounting and Telecom Management solutions that optimize information, productivity, and costs involving data, wireless, voice, and unified communications.
 
 ## Mind CTI PhonEX ONE
------------------
-###### Lync 2013<br/>2010
+* * *
+  **Lync 2013<br/>2010**
 
-##### Quickly and precisely analyze unified communications usage.
+  **Quickly and precisely analyze unified communications usage.**
 [Mind CTI](http://mindcti.com)
  
 ***PhonEX ONE*** web-based call accounting provides telecom traffic tracking and control for world-wide organizations as its architecture supports multiple currencies and languages or geographically dispersed data sources.
@@ -93,10 +96,11 @@ Reporting offers a quick and precise analysis of the unified communications usag
 Fraud detection module provides companies the possibility to track and alert any system misuse or urgent situations.
 
 ## Nectar UC Diagnostics
------------------
-###### Lync 2013<br/>2010
+* * *
+  **Lync 2013<br/>2010**
 
-##### Gain unique real-time insight into issues that impact Lync performance.
+  **Gain unique real-time insight into issues that impact Lync performance.**
+
 [Nectar Corp](http://nectarcorp.com)
 
 Nectar's UC Diagnostics (UCD) module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis. 
@@ -109,11 +113,12 @@ Optimize Lync UC service management and users' experience with:
 - Real-time and historic trending and reporting for greater predictability, management, and capacity planning
 
 ## nGenius Voice | Video Manager
------------------
-###### Lync 2013<br/>2010
+* * *
+  **Lync 2013<br/>2010**
 
-##### Proactively monitor performance and user experience for Microsoft Lync Server.
-[Net Scout}(http://netscout.com)
+  **Proactively monitor performance and user experience for Microsoft Lync Server.**
+
+[Net Scout](http://netscout.com)
 
 ***nGenius Voice | Video Manager from NetScout*** is a unified communications performance monitoring solution enabling comprehensive service delivery management for Lync Server deployments by delivering real-time visibility into end-to-end call performance for voice and video sessions. Flexible workflows enable powerful analysis and troubleshooting procedures supporting both proactive and reactive service management tasks. A broad range of immediate and measurable benefits are provided which accelerate the adoption and deployment of Microsoft Lync.
 
@@ -197,7 +202,7 @@ Description
 PowerView is a comprehensive reporting and billing solution for Lync that enables organizations to optimize infrastructure, track return on investment, and implement billing for many scenarios.
 PowerView includes a scalable data warehouse that produces rich reports on the operation and management of Lync Server across an entire deployment over an unlimited period of time. Instant Messaging, voice, application sharing, audio and video conferencing, are all tracked and reported.
 Administrators can drill-down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
------------------------------
+* * *
 ### Related resources
 [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 

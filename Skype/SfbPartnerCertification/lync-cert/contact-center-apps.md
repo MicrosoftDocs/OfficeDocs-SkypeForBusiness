@@ -24,10 +24,11 @@ description: "The Lync qualificaton program helps ensure that qualified applicat
 Contact center applications act as a central point in an enterprise from which all communications and customer contacts can be managed.
 
 ## Acqueon AiQ for Lync
---------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Provide Intelligent, multi-channel customer service with a Lync-native contact center.
+  **Provide Intelligent, multi-channel customer service with a Lync-native contact center.**
+
 [Acqeon](http://acqueon.com)
 
 ***AiQ*** is a complete contact center solution for Lync. By extending Lync into the contact center businesses can consolidate their communications infrastructure with Lync, reducing the cost and complexity of maintaining multiple vendor platforms.
@@ -49,10 +50,11 @@ Full UCMA integration with Lync client and softphone integration
 Acqueon offers 24/7 support with offices worldwide including locations in Dallas, TX (US), Princeton, NJ (US) and Chennai, India (APAC and EMEA).
 
 ## AdvaTel Espera
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Enhance response groups with call center features.
+  **Enhance response groups with call center features.**
+
 [AdvaTel](http://advatel.com)
 
 ***Espera*** leverages real-time and historical reporting with Lync response groups for call center call handling and queuing.
@@ -64,21 +66,23 @@ In addition to reporting, Espera adds call wrap-up and one click agent log-on an
 Note that Espera was tested with the quality of assurance testing program.
 
 ## Anywhere365 Unified Contact Center for Lync
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Manage real-time role model based contact center dialogues for Lync.
-Workstreampeople](http://workstreampeople.com)
+  **Manage real-time role model based contact center dialogues for Lync.**
+
+[Workstreampeople](http://workstreampeople.com)
 
 Rethinking the contact center for unified communications, ***Anywhere365*** is a unified contact center for Lync that helps maintain organizational balance with role model based managed communications. More than a contact center, it's a flexible, real time dialogue management platform to redesign dialogue experiences. Detailed live reporting allows for quick and easy decision making. 
 
 Due to its design philosophy, Anywhere365 is flexible and can be implemented to meet a variety of needs. Out of the box Anywhere365 offers, voice, webchat, recording, dialogue intelligence, CRM integration, quality monitoring, wallboard, mobile integration, and more. Expansion is easy with a server based licensing model.
 
 ## Altigen MaxACD
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Improve call handling with an integrated Lync native applications suite.
+  **Improve call handling with an integrated Lync native applications suite.**
+
 [Altigen](http://Altigen.com)
 
 ***MaxACD*** Lync native contact center combines several separate compelling contact center productivity applications into one integrated system that works with Lync Server 2010 & 2013 to handle automatic call distribution (ACD), skills-based data-directed routing, call recording, and reporting functions.
@@ -99,10 +103,10 @@ Advanced call queuing
 Agents and supervisors are located in the Lync pool, with corresponding MaxACD agent profiles. This unique architecture allows Lync administrators to keep 100% of the Lync client call control within the Lync environment.
 
 ## Aspect Unified IP
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Unify customer engagement strategies for improved contact center performance.
+  **Unify customer engagement strategies for improved contact center performance.**
 [Aspect](http://aspect.com)
 
 ***Aspect*** is the only provider of a fully-integrated, multi-channel interaction management and workforce optimization platform for contact centers.<br/>
@@ -116,10 +120,10 @@ Agents and supervisors are located in the Lync pool, with corresponding MaxACD a
 Integrating Aspect Unified IP with Microsoft Lync Server 2013 connects customers through voice and instant messaging (IM) and empowers agents to find experts for first call resolution using presence and desktop sharing.
 
 ## Clarity Connect
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Maximize a Lync investment with a complete and seamlessly integrated contact center.
+**Maximize a Lync investment with a complete and seamlessly integrated contact center.**
 
 [Clarity Connect](http://connect.claritycon.com) 
 
@@ -141,10 +145,10 @@ Clarity Connect includes the following out-of-the-box features:
 - Self-installer
 
 Computer Talk ice Contact Center
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Enhance organizational effectiveness with contextual routing and application integration.
+  **Enhance organizational effectiveness with contextual routing and application integration.**
 
 [Computer Talk](http://computer-talk.com)
  
@@ -158,10 +162,11 @@ Our application solutions and services allow banking, finance, government, healt
 We are a Microsoft Gold partner in communications and application development, communications partner of the year in Canada, and online service advisor.
 
 CreaLog Contact Center and IVR
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Multichannel Contact Center and IVR with speech recognition
+  **Multichannel Contact Center and IVR with speech recognition**
+
 [CreaLog](http://creaLog.com)
 
 *CreaLog* is the European provider of a seamlessly integrated, multi-channel contact center and IVR platform with customers in 30 countries.
@@ -176,10 +181,11 @@ Features include:
 - 24/7 Support
 
 ## Enghouse Interactive's Intuition Enterprise
-------
-###### Lync 2010
+* * *
+  **Lync 2010**
 
-##### Improve first-call resolution rates and improve customer satisfaction.
+  **Improve first-call resolution rates and improve customer satisfaction.**
+
 [Enghouse Interactive](http://datapulse.com)
  
 ***Enghouse Interactive*** provides organizations with a flexible, modular suite of contact management applications (including contact center, attendant-operator console, IVR and call recording) that are fully integrated with the voice telephony and unified communication capabilities of Lync 2010.
@@ -189,10 +195,11 @@ Intuition Enterprise extends the collaboration and communication capabilities of
 Enghouse Interactive is ideally positioned to help enhance the functionality of Microsoft Lync, and help ensure tight interoperability with other back office Microsoft platforms like Microsoft Exchange and Active Directory.
 
 ## Genesys SIP Contact Center
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Transform customer service operation by utilizing Lync voice, video, and IM infrastructure for your contact center.
+  **Transform customer service operation by utilizing Lync voice, video, and IM infrastructure for your contact center.**
+
 [Genesys](http://Genesyslab.com)
 
 Enjoy the rich collaboration and multimedia capabilities of Lync when communicating with contact center peers, and out to customers. Genesys delivers voice, video, and IM interactions from the PSTN, Skype, or Lync clients on a company website to agents. Gehesys SIP provides skills-based routing, unified reporting, and multi-channel capabilities.
@@ -205,10 +212,10 @@ Genesys SIP Server with Lync also offers:
 - Genesys serves over 50% of the global 200, including some of the world's largest banking, insurance, airline, automotive and telecommunications companies.
 
 ## Geomant Contact Expert - Contact Center for Microsoft Lync
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Improve customer service by bringing the benefits of Lync into the Contact Center.
+  **Improve customer service by bringing the benefits of Lync into the Contact Center.**
 
 [Geomant](http://Geomant.com)
  
@@ -225,10 +232,11 @@ Geomant's IVR for Lync allows the creation of simple or sophisticated interactiv
 Contact Expert cost-effectively leverages Lync, utilizing rather than replacing features, improving the Lync return on investment.
 
 ## Interactive Intelligence Customer Interaction Center Integration with Microsoft Lync
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Unify communications to better care for customers.
+  **Unify communications to better care for customers.**
+
 [Interactive Intelligence](http://inin.com)
  
 The ***Interactive Intelligence Customer Interaction Center (CIC)*** and Microsoft Lync Server 2013 integration provides a feature-rich contact center add-on to Lync enterprise telephony deployments. The combined solution helps mid-size to large enterprises improve collaboration between contact center agents and business users through shared features such as presence management, directory look-up, instant messaging, video, and more.
@@ -251,10 +259,11 @@ Key Features Include:
 - No need for third-party gateways
 
 ## Dolphin Q
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Bring greater effectiveness to customer interactions in a CRM enabled contact center.
+  **Bring greater effectiveness to customer interactions in a CRM enabled contact center.**
+
 [Dolphin](http://loxysoft.com)
 
 Developed exclusively for Lync, ***Dolphin Q*** is a software only solution for operating a professional contact center. Linking call information from Lync, customer records from Dynamics CRM, and agent information from Active Directory, Dolphin Q enables efficient and professional customer care, in a native Lync interface.
@@ -276,10 +285,11 @@ Highlights include:
 Loxysoft AS, part of Loxysoft Group and formerly known as Dolphin Software AS, is the largest supplier of full-service support systems for Contact centers and other contact-intensive organizations in the Nordic countries. Watch our brief [video](https://www.youtube.com/watch?v=eulNwbxgzew) for a product overview.
 
 ## Luware LUCS Contact Center for Microsoft Lync
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+ **Lync 2010<br/>Lync 2013**
 
-##### Communicate with customers anytime independent of device.
+  **Communicate with customers anytime independent of device.**
+
 [Luware](http://luware.net)
 
 A streamlined customer service contact center to manage, workflows and unify communications with business processes, ***LUCS*** brings phone, IM, email, and web contacts together in one customer service management system. Contacts are quickly channeled to the appropriate person by a number of criteria including language, location, expertise, responsibility level. Conferencing can quickly be established to hand off a customer from one representative to another.
@@ -288,12 +298,12 @@ Easily customize reporting with LUC's Microsoft SQL integration.
 LUCS is for customer service-oriented companies looking of unify all their contact center sources into one smart and effective system. It enables companies to focus on customer service processes to improve service and save time and money.
 
 ## Mitel MiContact Center for Microsoft Lync
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Dynamically distribute calls, emails, live chats and social media interactions.
+  **Dynamically distribute calls, emails, live chats and social media interactions.**
 
-[Mitel}(http://mitel.com)
+[Mitel](http://mitel.com)
  
 Built natively on the Lync call control server and Lync desktop client, ***MiContact Center for Lync*** is an end-to-end Lync contact centre solution. It provides automatic distribution and management of voice, email, web chat and social media interactions, screen pop of the caller’s database record to the agent’s desktop PC and the ability for agents to discreetly request supervisor assistance without the caller knowing. 
 
@@ -305,10 +315,11 @@ Supervision: Real-time monitoring, reporting and resource forecasting.
 Interactive Voice Response: Provide customers with in-queue messaging, web and voice call-backs. Interactive menus guide customers to the services they seek. Access to queue statistics routes calls to queues which aren't busy.
 
 Netcall Liberty ContactCentre with Lync Integration
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Maximize customer satisfaction, harnessing the benefits of Lync for effortless customer engagement.
+  **Maximize customer satisfaction, harnessing the benefits of Lync for effortless customer engagement.**
+
 [Netcall](http://netcall.com)
  
 ***Netcall Liberty ContactCentre*** with Lync integration is a fully-integrated automatic call distribution solution (ACD), with multimedia interaction management including web chat, email and social customer service.
@@ -329,10 +340,11 @@ It delivers:
 - Easy instant messaging for internal communication allowing desktop and context sharing between agents, supervisors and back-office 
  
 ## T-Metrics Lync Contact Center
-------
-###### Lync 2013
+* * *
+  **Lync 2013**
 
-##### Enable multimedia collaborative customer service.
+  **Enable multimedia collaborative customer service.**
+
 [T-Metrics](http://tmetrics.com)
 
 The ***T-Metrics Contact Center*** empowers organizations to leverage inherent Lync features such as presence, voice, instant messaging, video, and collaboration when managing simple or complex customer interactions.
@@ -353,10 +365,11 @@ Features:
 The T-Metrics Contact Center can support agents off of legacy switches and Lync simultaneously. This multi-switch multi-vendor capability provides a seamless and elegant strategy for sites to migrate contact centers from legacy systems to Lync.
 
 ## Trio Enterprise
-------
-###### Lync 2010<br/>Lync 2013
+* * *
+ **Lync 2010<br/>Lync 2013**
 
-##### Interact with customers swiftly and efficiently.
+  **Interact with customers swiftly and efficiently.**
+
 [Trio Enterprise](http://trio.com)
 
 A multimedia Contact Center with Attendant functionality, Trio Enterprise from Enghouse Interactive is developed upon a Scandinavian model. Integrating fully with the voice telephony and collaboration capabilities of MS Lync it also supports Microsoft Exchange and Active Directory. Manage all types of customer interactions such as Voice Call, Exchange UM Voicemail, SMS, e-mail, Web Chat & Web Callback, in one single application.
@@ -374,10 +387,10 @@ Additional Functions:
 
 
 ## UCS Contact Center
-------
-###### Lync 2013
+* * *
+**Lync 2013**
 
-##### UCS Contact Center is a native Lync state-of-the-art full-featured multichannel contact center. It enables organizations to offer enhanced customer services experience and optimize business processes and productivity.
+**UCS Contact Center is a native Lync state-of-the-art full-featured multichannel contact center. It enables organizations to offer enhanced customer services experience and optimize business processes and productivity.**
 
 [UCS](http://www.unexus.nl)
 
@@ -386,8 +399,8 @@ Additional Functions:
 UCS Contact Center is a native Lync application and also supports hybrid architectures. Its user-friendly client applications range from the standard Lync client, UCS Professional Agent client to a UCS Supervisor client, providing real-time performance monitoring, management of the contact center, reporting and analysis. UCS Contact Center is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
 
 ## Voxtron's Lync Communication Center
---------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
 Combine unified communication possibilities with contact center facilities. Install ***Voxtron Communication Center*** and its newly developed Voxtron Client for Microsoft Lync. You have all Lync facilities at your disposal with extra benefits.
 
@@ -404,10 +417,11 @@ The Voxtron Client for Microsoft Lync integrates your Lync application in a stra
 
 
 Zeacom Communications Center
---------
-###### Lync 2010<br/>Lync 2013
+* * *
+  **Lync 2010<br/>Lync 2013**
 
-##### Seamlessly blend voice, email, chat, SMS, social media, and CRM to optimize agent productivity.
+  **Seamlessly blend voice, email, chat, SMS, social media, and CRM to optimize agent productivity.**
+
 [Zeacom](http://zeacom.com)
 
 Built on 20 years of experience delivering enterprise-grade contact center solutions, Zeacom Communications Center (ZCC) offers a clear migration path to Lync from most traditional telephony platforms.
@@ -418,9 +432,10 @@ We offer multi-channel contact center solutions native to Lync that seamlessly b
 With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has the resources to assist Lync customers and partners in all aspects of pre-sales activity, design, deployment, and support.
 
 ## Zylinc Contact Center for Lync
-##### Lync 2013
+**Lync 2013**
 
-##### Improve customer service and agent utilization.
+**Improve customer service and agent utilization.**
+
 [Zylinc](http://zylinc.com)
 
 ***Zylinc Contact Center for Lync*** is a business solution for highly effective multimedia customer interaction, designed to ease agent handling by integration to xRM systems, with real time queue statistics for the supervisors, and historical statistics for management.

@@ -30,7 +30,7 @@ For more information on optimizing Wi-Fi networks with Microsoft Lync, please se
 
 Please contact the listed partner for more information on these products.
 
-### WiFi
+## WiFi
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
@@ -160,7 +160,7 @@ Please contact the listed partner for more information on these products.
 	</tr>
 </table>
 
-### Wired
+## Wired
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>

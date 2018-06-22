@@ -25,7 +25,7 @@ Listed in the table that follows are the network infrastructure solutions that h
 
 If you are looking to optimize your network using Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
 
-## Wired Infrastructure
+  ***Wired Infrastructure***
 <table border="1" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse;background-color:white;" width="65%" xmlns="http://www.w3.org/1999/xhtml">
 	<tr bgcolor="#DEDEDE">
 		<td><strong>Vendor</strong></td>
@@ -64,7 +64,7 @@ If you are looking to optimize your network using Microsoft Lync, please see the
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
+## Related resources
 Learn about [Skype for Business certification](infra-gateways.md).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com

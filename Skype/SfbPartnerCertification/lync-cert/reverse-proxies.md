@@ -26,7 +26,7 @@ The server reverse proxy products listed in this page have completed solution te
 
 We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
 
-### Qualified for Lync 2013
+## Qualified for Lync 2013
 
 Please contact the vendor for more information on these products.
 
@@ -94,9 +94,9 @@ Please contact the vendor for more information on these products.
 		</tr>
 	</tbody>
 </table>
-<p xmlns="http://www.w3.org/1999/xhtml">** In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.</p>
+** In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.
 
-### Qualified for Lync 2010
+## Qualified for Lync 2010
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<tr bgcolor="#DEDEDE">
@@ -120,4 +120,4 @@ Please contact the vendor for more information on these products.
 		</tr>
 	</tbody>
 </table>
-<p xmlns="http://www.w3.org/1999/xhtml">** In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.</p>
+** In November, 2012, Microsoft ceased license sales of Forefront Threat Management Gateway 2010, or TMG. TMG is still a fully supported product, and is still available for sale on appliances sold by third parties.

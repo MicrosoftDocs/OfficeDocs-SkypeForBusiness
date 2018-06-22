@@ -23,14 +23,14 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 # USB audio and video devices
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Supporting plug & play features with Lync and Skype for Business clients, passing products provide a great experience for end-users and administrators.
 
-### End-User Experience
+## End-User Experience
 - Automatic selection of default audio device and prioritization if multiple audio peripherals are present
 - Plug and play: once connected, a device registers on the Skype for Business client and is ready to use
 - Basic call control across PC and devices with answer/hang-up, mute/unmute, and volume control.
 - Audio quality (embedded in the device): no echo or excessive glitches, echo cancellation across devices, wideband audio
 - Video quality: Noise, color, image detail, jitter, latency, frame rate, field of view
 
-### Administrator Experience
+## Administrator Experience
 - Firmware and fixes remote software update and contractual SLA for hardware updates
 - Full outline of [test specifications and tools](test-spec.md) 
 
@@ -40,7 +40,7 @@ All of these specifications apply equally for Lync 2013 as they do for Skype for
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-## Additional Resources
+### Additional Resources
 Learn about [Skype for Business certification](overview.md).
 
 For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com

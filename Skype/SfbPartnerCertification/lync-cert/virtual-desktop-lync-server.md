@@ -24,11 +24,11 @@ description: "Partner qualification requirements for Lync."
 
 The Virtual Desktop Infrastructure (VDI) Partner platforms and client hardware platforms listed in the table that follows are supported in Lync Server 2013. For a given configuration to be supported, both the VDI partner platform and the client hardware platform need to be supported.
 
-### About VDI
+## About VDI
 
 With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This is done through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
 
-#### See also:
+### Related resources
 <!-- note that both links below will need updating -->
 [Deploying the Lync VDI Plug-in](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
 [Troubleshooting the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204713(v=ocs.15) <!-- 2013 yet to migrate -->
@@ -90,8 +90,7 @@ The following table lists the VDI partners and their products which have been te
 		<tr>
 			<td colspan="4" valign="top">
 				<p><a href="http://www.vmware.com/solutions/desktop/business-process-desktop/partners.html" title="http://www.vmware.com/solutions/desktop/business-process-desktop/partners.html">http://www.vmware.com/solutions/desktop/business-process-desktop/partners.html</a></p>
-				<p> </p>
-			</td>
+							</td>
 		</tr>
 	</tbody>
 </table>
