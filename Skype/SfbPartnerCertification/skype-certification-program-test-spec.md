@@ -56,8 +56,7 @@ Use the following table to find the specifications that describe the unified Sky
 		<td><a href="http://download.microsoft.com/download/E/1/0/E108B62D-C15D-4C45-874F-42E785B10B99/SkypeforBusiness_Logo_3_0.zip">SkypeforBusiness_Logo_Specification_3_0.zip</a></td>
 	</tr>
 </table>
-<!-- end of HTML table 1 -->
-<br>
+
 
 ## Skype Specifications
 Use the following table to find the Skype specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014.<!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
@@ -79,8 +78,7 @@ Use the following table to find the Skype specifications to follow for USB perip
 		<td><a href="http://download.microsoft.com/download/0/8/7/087ECA26-58AF-41CA-BD1B-8F12BB85E179/SkypeCertification_V6.3.2_and8.3.1.zip">SkypeCertification_V6.3.2_and8.3.1.zip</a></td>
 	</tr>
 </table>
-<!-- end of table 2 -->
-<br>
+
 
 ## Lync Specifications
 Use the following table to find the Lync specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014..<!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
@@ -132,8 +130,6 @@ Use the following table to find the Lync specifications to follow for USB periph
 	</tr>
 </table>
 
-<!-- end of table 3 -->
-<br>
 
 ## Test tools and white papers for Skype and Lync logo qualification
 Use the following table to find the tools for testing USB peripherals, PCs, and Lync Room Systems, for Skype and Lync qualification.</p>

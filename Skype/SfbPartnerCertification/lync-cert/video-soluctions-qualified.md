@@ -33,7 +33,7 @@ For more information on which products are currently under test read the *UC Com
 
 Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpoints%20Comparison%20Table.pdf).
 
-<!-- note that there is a year missing from the Qualification Date for it to make sense -->
+
 ***Video Endpoints***
 <table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="720" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>

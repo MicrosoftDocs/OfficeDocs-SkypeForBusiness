@@ -27,6 +27,7 @@
 ### [Reporting](../skype-bus/it-pro-tools-reporting.md) 
 ## [Video](../skype-bus/video.md)   
 ##  [ISV](../skype-bus/isv-overview.md)
+### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
 ## Lync Partner Qualification
 ### Applications 
 #### [Qualified Lync applications](../lync-cert/qualified-lync-apps.md) 
@@ -58,6 +59,4 @@
 #### [E-911 Services qualified for Lync](../lync-cert/e-911-service-providers.md) 
 ### Video
 #### [USB audio and video devices](../lync-cert/usb-and-video.md) 
-
-<!-- ### Certified Support
-https://partnersolutions.skypeforbusiness.com/solutionscatalog -->
+### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)

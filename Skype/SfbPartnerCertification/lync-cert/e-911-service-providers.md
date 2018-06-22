@@ -39,7 +39,7 @@ Microsoft Lync supports two methods of placing E-911 calls: Using a qualified se
 ||
 
 Learn more about E911 services here: [Emergency Services (E9-1-1)](https://technet.microsoft.com/library/gg398154.aspx).
-<!-- links to 2013 to be migrated-->
+<!-- links to 2013 to be migrated -->
 
 ***Table 2 - E-911 ELIN Gateways***
 
