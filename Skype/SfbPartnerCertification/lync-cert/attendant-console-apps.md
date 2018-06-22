@@ -88,7 +88,7 @@ InAttend provides:
 
 ***PeterConnects Attendant Console*** is a powerful operator console allowing fast and easy call handling of large numbers of telephone calls. Calls can be easily answered and transferred to employees using keyboard, mouse or touchscreen. Most operations can be done by single keystroke. 
 
-Numerous interfaces are supported, <!-- missing text? -->combine sources, create a rich telephone directory, and send messages from the console (email, SMS, Chat). The automated attendant adds the functionality to create an open/closed profile, welcome message, choice menus and queue messaging. There are different ways to show the presence-status of employees within the attendant-console; telephony, Lync, Outlook, building access-system. The Web based statistics-module allows customers to compose reports of all calls.
+Numerous interfaces are supported,the app can combine sources, create a rich telephone directory, and send messages from the console (email, SMS, Chat). The automated attendant adds the functionality to create an open/closed profile, welcome message, choice menus and queue messaging. There are different ways to show the presence-status of employees within the attendant-console; telephony, Lync, Outlook, building access-system. The Web based statistics-module allows customers to compose reports of all calls.
 
 * * *
 ## Samroxx Attendant Console & Soft Phone
@@ -138,7 +138,7 @@ Additional Functions:
 
 [UCS Attendant Console](http://www.unexus.nl)
 
-***UCS Attendant Console*** is a user-friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. The app provides comprehensive features for call queueing, personal parking, fallback-, internal- and external queues, and the ability to contact employees via different media, such as IM, email, SMS, phone, or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. <!-- what does this mean? Who is "they?" -->They are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
+***UCS Attendant Console*** is a user-friendly application for reception and switchboard attendants, enabling them to efficiently handle voice calls. The app provides comprehensive features for call queueing, personal parking, fallback-, internal- and external queues, and the ability to contact employees via different media, such as IM, email, SMS, phone, or video. A detailed address book can be searched by name, department or any other attribute, showing current and future presence. Switchboard attendants are the representatives of the organization and as a spider in the web take care of your organization's availability. UCS Attendant Console is available in the languages: Danish, Dutch, English, French, German, Spanish, Italian, Norwegian and Swedish.
 
 * * *
 

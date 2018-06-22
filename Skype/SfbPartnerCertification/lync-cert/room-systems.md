@@ -30,7 +30,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 <br/>
 
 ***Table - Qualified Lync Room Systems***
-<!-- html table here -->
+
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col />
@@ -100,7 +100,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 	</tbody>
 </table>
-<!-- this is table end -->
+
 
 ## Just want to search for tested hardware?
 To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).

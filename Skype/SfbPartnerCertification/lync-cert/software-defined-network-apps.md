@@ -66,7 +66,6 @@ Common concerns such as certificate expiration, patch levels and database utiliz
 
 [Dell](htp://dell.com)
 
-<!-- oh, come on. Repeating this marketing line?? "Like a high performance vehicle, Lync benefits from smooth network pavement on which to run. The Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation." -->
 Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, the SDN API opens a window into Lync calls in flight. Call set-up data pushed over the API enables Dell W-Series Wi-Fi to deliver quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time. 
 
 End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems). With the Lync SDN API and Dell W-Series Wi-Fi you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.

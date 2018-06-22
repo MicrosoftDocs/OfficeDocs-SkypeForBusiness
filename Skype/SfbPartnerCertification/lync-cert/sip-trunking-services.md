@@ -480,11 +480,6 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 			<td headers="th124D29200002"> </td>
 		</tr>
 		<tr>
-			<td headers="th124D29200000">OI</td> <!-- need a link? -->
-			<td headers="th124D29200001">SIP Trunk</td>
-			<td headers="th124D29200002"> </td>
-		</tr>
-		<tr>
 			<td headers="th124D29200000"><a href="http://www.onexs.com">OneXS</a></td>
 			<td headers="th124D29200001">OneConnect SIP Trunk</td>
 			<td headers="th124D29200002"> </td>

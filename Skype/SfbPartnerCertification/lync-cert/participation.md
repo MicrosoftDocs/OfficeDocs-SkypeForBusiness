@@ -44,15 +44,16 @@ Lync 2013 applications that fall under certain categories are eligible for and m
 - It is possible that an application will fall outside of the program’s testing capabilities. The qualification team will notify you if the product isn’t able to be qualified.        
  
 ## Questionnaire
-<!-- this could use a little intro text. as in how to fill out, use, or send questionnaire -->
+
+Complete this questionnaire and email it along with  successful test results to lyncISVQual@microsoft.com.
 
 |Role |Information to be provided |
-|:-----|:-----|:-----|
+|:-----|:-----|
 |Company|Name<br>Address<br/>Country|
 |Contact Person |Name<br>Title<br>Email<br>Phone|
 |Lead Developer |Name<br>Email| 
 |Related Contacts at Microsoft|(Lync partner engineering, partner account manager, etc.)|
 |Additional information |Target Audience/Sector<br/>Product Description|
-|||||
+|||
 
  

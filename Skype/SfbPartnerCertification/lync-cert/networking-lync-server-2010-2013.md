@@ -115,9 +115,9 @@ Please contact the listed partner for more information on these products.
 		<td>09.12.01.0067</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="2"><a =href="https://support.hpe.com/hpesc/public/home/signin">HP </a>
+		<td rowspan="2"><a href="https://support.hpe.com/hpesc/public/home/signin">HP</a>
 <!-- this link no longer works 
-<a ref="http://h17007.www1.hp.com/us/en/networking/solutions/allianceone/lync.aspx#.U6LD2HlOVaQ">HP, H3C</a> -->
+<a href="http://h17007.www1.hp.com/us/en/networking/solutions/allianceone/lync.aspx#.U6LD2HlOVaQ">HP, H3C</a> -->
         </td>
 		<td>MSM720/MSM760/MSM765 zl/MSM775 zl Wireless LAN Controllers<br />and<br />MSM430/MSM460/MSM466/MSM466-R and HP 425 Access Points</td>
 		<td>MSM720</td>

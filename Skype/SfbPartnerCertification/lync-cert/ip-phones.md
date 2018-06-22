@@ -23,8 +23,8 @@ description: "Read about qualified devices for the Lync client on Windows-based 
 # Phones and devices qualified for  Lync
 
 ## IP phones
-<!-- I am recommending a slight rewrite to introduce this topic: -->
-The Compatible Devices Program has a large number vendors who have gone through the provide qualified devices for Lync client on Windows-based machines.
+ 
+The Compatible Devices Program is used by vendors to  qualify their devices for use with the Lync client on Windows-based machines.
 
 ## Qualified products table
 

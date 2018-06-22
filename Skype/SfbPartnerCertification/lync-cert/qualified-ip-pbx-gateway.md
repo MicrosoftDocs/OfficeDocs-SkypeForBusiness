@@ -29,7 +29,7 @@ The tables that follow list the PSTN gateways and IP-PBX products along with the
 We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
 
 ### Qualified for Lync 2013
-<!-- start of first HTML table with caption -->
+
 ***Table 1 - Qualified IP PBXs & Gateways  for Lync 2013***
 
  &#x2714;= Qualified&nbsp;&nbsp;&nbsp;&nbsp;&#x2714;+S = Qualified with SRTP & TLS
@@ -604,5 +604,5 @@ We recommend that you visit the vendor's web site for the latest information reg
 	</tbody>
 </table>
 
-<!-- end of last HTML table -->
-For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity)<!-- will need to replace this link -->.
+
+For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity).

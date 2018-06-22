@@ -150,7 +150,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 	</tbody>
 </table>
 <br />
-<!-- Lync 2010 -->
+
 
 ## Supported in Lync 2010
 
