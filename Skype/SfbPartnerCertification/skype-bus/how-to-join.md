@@ -76,7 +76,7 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="middle">
 			<td>PCs</td>
 			<td style="text-align:center" valign="top">Not seeking partners</td>
-			<td><a href="https://technet.microsoft.com/en-us/office/dn788953">https://technet.microsoft.com/en-us/office/dn788953</a></td>
+			<td>[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md) </td>
 			<td rowspan="3" style="text-align:center" valign="middle">
 				<p><a href="http://www.asttechlabs.com/">AST</a></p>
 				<p><a href="http://www.pal-acoustics.com/">PAL</a></p>
@@ -85,7 +85,7 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td>USB Audio and Video Devices</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="https://technet.microsoft.com/en-us/office/dn788953">https://technet.microsoft.com/en-us/office/dn788953</a></td>
+			<td>[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Meeting Room Devices and Solutions</td>

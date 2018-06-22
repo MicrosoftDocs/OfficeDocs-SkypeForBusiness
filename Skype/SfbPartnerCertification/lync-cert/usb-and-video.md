@@ -41,7 +41,7 @@ USB audio and video devices are tested and qualified for Lync through the <!-- n
 ## Administrator Experience
 - TSANet: Device makers and Microsoft participate in common support infrastructure (TSANet) for rapid resolution of support tickets
 - Firmware and fixes remote software update and contractual SLA for hardware updates
-- [Lync test specifications and tools](https://technet.microsoft.com/en-us/office/dn788953)<!-- add to this folder -->
+- [Lync test specifications and tools](../skype-bus/test-spec.md)
 
 All peripherals Optimized for Lync work with Lync 2013, Lync Online, and Lync Server 2010. 
 
