@@ -3,7 +3,6 @@ title: "Topology Builder Startup Dialog"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,7 +15,7 @@ description: "You start Topology Builder to configure the properties and configu
 
 # Topology Builder Startup Dialog
  
-You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment. On startup, Topology Builder displays a dialog that asks what the source of the topology document will be. You select one of three options:
+You start Topology Builder to configure the properties and configuration of your deployment. On startup, Topology Builder displays a dialog that asks what the source of the topology document will be. You select one of three options:
   
 - **Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server. This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.
     
@@ -28,6 +27,6 @@ You start Topology Builder to configure the properties and configuration of your
   
 ## See also
 
-[Introduction to Lync Server 2013 Preview](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[Introduction to Lync Server 2013](http://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
   
 [Lync Server Administrative Tools](http://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
