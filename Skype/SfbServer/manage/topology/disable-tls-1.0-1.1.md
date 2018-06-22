@@ -44,8 +44,8 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 - Lync 2013 (Skype for Business) Desktop Client, MSI and C2R, including Basic [15.0.5023.1000 and higher](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype for Business 2016 Desktop Client, MSI [16.0.4678.1000 and higher](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323), including Basic
 - Skype for Business 2016 Click to Run Require the [April 2018](https://docs.microsoft.com/en-us/officeupdates/release-notes-office365-proplus) Updates: 
-    - Monthly and Semi-Annual Targeted, 16.0<span></span>.<span></span>9126.2152 and higher
-    - Semi-Annual and Deferred Channel, 16.0<span></span>.<span></span>8431.2242 and higher
+    - Monthly and Semi-Annual Targeted, 16.0,9126.2152 and higher
+    - Semi-Annual and Deferred Channel, 16.0,8431.2242 and higher
 - Skype for Business on Mac 16.15 and higher
 - Skype for Business for iOS and Android 6.19 and higher
 - Skype Web App 2015 CU6 HF2 and higher (ships with Server)
@@ -484,7 +484,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 1. [Install prerequisites for Skype for Business Server](../../deploy/install/install-prerequisites.md)  
 2. 2. Install .NET 4.7: 
     - **Note:** We first introduced support for .NET 4.7 in Skype for Business Server 2015 CU5+ (6.0.9319.281). Therefore, in later steps below we will be updating Core Components prior to the main install.
-    - Download: https://www.microsoft.com/en-us/download/details.aspx?id=55167</br>.
+    - Download: https://www.microsoft.com/en-us/download/details.aspx?id=55167.
     - Reference: [Software that should be installed before a Skype for Business Server 2015 deployment](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. Copy ISO Files/Folders: 
     - With the Skype for Business Server 2015 ISO attached, open the root directory of the drive it is attached as (Ex: D:\) in File Explorer.
