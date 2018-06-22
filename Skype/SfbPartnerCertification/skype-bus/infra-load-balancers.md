@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Certification Program - Load Balancers"
+title: "Load Balancers"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,7 +20,8 @@ ms.custom:
 description: "List of Load Balancers that have been independently qualified with Skype for Business Server."
 ---
 
-# Reverse Proxy
+# Load Balancers
+
 Listed here are load balancers that work with Skype for Business.
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="605" xmlns="http://www.w3.org/1999/xhtml">

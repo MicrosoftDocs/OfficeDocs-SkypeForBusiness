@@ -177,8 +177,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 	</tbody>
 </table>
-[*]
-This device was pre-release tested with Skype for Business. Upon completion of official qualification testing, the software version may change.
+\* This device was pre-release tested with Skype for Business. Upon completion of official qualification testing, the software version may change.
 
 All Lync Server 2013 qualified session border controllers are forward compatible and supported with Skype for Business 2015. See [this list of Lync Server 2013 qualified SBCs](../lync-cert/sbcs-lync-server.md).
 
