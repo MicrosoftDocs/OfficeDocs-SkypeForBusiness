@@ -32,7 +32,7 @@ This impacts the network on two levels: traffic will flow between the Microsoft 
 
 To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
 
-The two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge) must meet the following requirements:
+For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
 
 
 |Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
@@ -54,6 +54,7 @@ Bandwidth requirements
 
 Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner in MyAdvisor](http://aka.ms/bwcalc/).
 
+<!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
 > [!IMPORTANT]
@@ -69,7 +70,7 @@ The content you will find below can be used as supplemental background informati
 |**3 participant meeting**     |8 Mb         |6.5 Mb         |Client <> Office 365           |
 |**4 participant meeting**     |5.5 Mb         |4 Mb         |Client <> Office 365           |
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
-
+-->
 
 Additional network considerations
 ---------------
