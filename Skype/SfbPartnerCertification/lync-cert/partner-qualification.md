@@ -115,8 +115,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 
 ***Technical qualifications timeline***
 
-![Technical qualification timeline for video solution partners](media/timeline4technicalqualification.png)
- 
+![timeline](../media/timeline4technicalqualification.png)
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
