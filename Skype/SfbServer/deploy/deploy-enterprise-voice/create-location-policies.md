@@ -1,9 +1,8 @@
 ---
-title: "Create location policies in Skype for Business Server 2015"
+title: "Create location policies in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,22 +15,22 @@ ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: "Read this topic to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice."
 ---
 
-# Create location policies in Skype for Business Server 2015
+# Create location policies in Skype for Business Server
  
 Read this topic to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice. 
   
-Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration. A location policy contains the settings that define how E9-1-1 will be implemented. For more information, see [Plan location policies for Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration. A location policy contains the settings that define how E9-1-1 will be implemented. For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
   
 You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.
   
 > [!NOTE]
-> Skype for Business Server now supports the configuration of multiple emergency numbers for a client. If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business 2015](configure-multiple-emergency-numbers.md). 
+> Skype for Business Server now supports the configuration of multiple emergency numbers for a client. If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business](configure-multiple-emergency-numbers.md). 
   
 You can edit the global location policy and create new tagged location policies. A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy. Tagged policies are assigned to subnets or users. 
   
 To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.
   
-For more information, see [Plan location policies for Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
   
 |**Element**|**Value**|
 |:-----|:-----|

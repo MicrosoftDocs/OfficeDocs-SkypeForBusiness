@@ -1,9 +1,8 @@
 ---
-title: "Plan for Enterprise Voice in Skype for Business Server 2015"
+title: "Plan for Enterprise Voice in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: "Enterprise Voice planning basics in Skype for Business Server, including sites, regions, network links between sites, and estimating voice usage traffic."
 ---
 
-# Plan for Enterprise Voice in Skype for Business Server 2015
+# Plan for Enterprise Voice in Skype for Business Server
  
 Enterprise Voice planning basics in Skype for Business Server, including sites, regions, network links between sites, and estimating voice usage traffic.
   
@@ -50,24 +49,24 @@ For example, an organization with 10,000 users and medium traffic would require 
 
 See the following sections for more information on planning your Enterprise Voice deployment.
   
-- [Components required for Enterprise Voice in Skype for Business Server 2015](components-required-for-enterprise-voice.md)
+- [Components required for Enterprise Voice in Skype for Business Server](components-required-for-enterprise-voice.md)
     
-- [Plan for PSTN connectivity in Skype for Business Server 2015](pstn-connectivity-0.md)
+- [Plan for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md)
     
-- [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](network-settings-for-advanced-features.md)
+- [Network settings for the advanced Enterprise Voice features in Skype for Business Server](network-settings-for-advanced-features.md)
     
-- [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md)
+- [Plan for call admission control in Skype for Business Server](call-admission-control.md)
     
-- [Plan for emergency services in Skype for Business Server 2015](emergency-services.md)
+- [Plan for emergency services in Skype for Business Server](emergency-services.md)
     
-- [Plan for media bypass in Skype for Business 2015](media-bypass.md)
+- [Plan for media bypass in Skype for Business](media-bypass.md)
     
-- [Plan for private telephone lines with Skype for Business 2015](private-telephone-lines.md)
+- [Plan for private telephone lines with Skype for Business](private-telephone-lines.md)
     
-- [Plan for Location-Based Routing in Skype for Business 2015](location-based-routing.md)
+- [Plan for Location-Based Routing in Skype for Business](location-based-routing.md)
     
-- [Plan for call management features in Skype for Business 2015](call-management-features.md)
+- [Plan for call management features in Skype for Business](call-management-features.md)
     
-- [Plan for Enterprise Voice resiliency in Skype for Business Server 2015](enterprise-voice-resiliency.md)
+- [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)
     
 

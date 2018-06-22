@@ -1,9 +1,8 @@
 ---
-title: "Translation rules in Skype for Business Server 2015"
+title: "Translation rules in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: "Learn about translation rules and dial string normalization in Skype for Business Server Enterprise Voice."
 ---
 
-# Translation rules in Skype for Business Server 2015
+# Translation rules in Skype for Business Server
  
 Learn about translation rules and dial string normalization in Skype for Business Server Enterprise Voice.
   

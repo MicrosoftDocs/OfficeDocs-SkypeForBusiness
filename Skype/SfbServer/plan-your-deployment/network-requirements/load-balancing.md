@@ -3,7 +3,6 @@ title: "Load balancing requirements for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: "Summary: Review the load balancing considerations before implementing Skype for Business Server 2015."
+description: "Summary: Review the load balancing considerations before implementing Skype for Business Server."
 ---
 
 # Load balancing requirements for Skype for Business
  
-**Summary:** Review the load balancing considerations before implementing Skype for Business Server 2015.
+**Summary:** Review the load balancing considerations before implementing Skype for Business Server.
   
 Load balancing distributes traffic among the servers in a pool. If you have Front End pools, Mediation Server pools, or Edge Server pools, you need to deploy load balancing for these pools.
   

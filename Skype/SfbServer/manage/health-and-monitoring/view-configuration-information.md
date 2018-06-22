@@ -1,24 +1,23 @@
 ---
-title: "View CDR configuration information in Skype for Business Server 2015"
+title: "View CDR configuration information in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: "Summary: Learn how to use Call Detail Recording (CDR) in Skype for Business Server 2015."
+description: "Summary: Learn how to use Call Detail Recording (CDR) in Skype for Business Server."
 ---
 
-# View CDR configuration information in Skype for Business Server 2015
+# View CDR configuration information in Skype for Business Server
  
-**Summary:** Learn how to use Call Detail Recording (CDR) in Skype for Business Server 2015.
+**Summary:** Learn how to use Call Detail Recording (CDR) in Skype for Business Server.
   
 Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.
   
-When you install Skype for Business Server 2015, a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom setting collections that can be applied to individual sites. You can view the CDR configuration settings in use in your organization by using Skype for Business Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) cmdlet.
+When you install Skype for Business Server, a single, global collection of CDR configuration settings is created for you. Administrators also have the option of creating custom setting collections that can be applied to individual sites. You can view the CDR configuration settings in use in your organization by using Skype for Business Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) cmdlet.
   
 ### To view CDR configuration information by using Skype for Business Server Control Panel
 

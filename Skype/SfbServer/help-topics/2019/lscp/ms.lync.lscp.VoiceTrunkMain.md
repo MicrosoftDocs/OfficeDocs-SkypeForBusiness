@@ -3,6 +3,7 @@ title: "Trunk Configuration"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -17,11 +18,11 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Configure a trunk with media bypass in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configure a trunk with media bypass in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
     
-- [Configure a trunk without media bypass in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Configure a trunk without media bypass in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
     
-- [Create or modify a translation rule for called ID presentation in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 - [Create or Modify a Translation Rule Manually](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
     

@@ -3,6 +3,7 @@ title: "Archiving Configuration Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -24,7 +25,7 @@ You use Archiving configurations to control archiving options for your deploymen
 - **Pool configuration (optional)** You can specify one or more pool Archiving configurations, to control archiving options for a specific pool. A pool configuration overrides the global configuration and site configuration, but only for the pools specified in Archiving pool configurations. You can edit or delete pool configurations.
     
 > [!NOTE]
-> Archiving configurations apply to users homed on Skype for Business Server, and, if you enable the Microsoft Exchange integration option to use Exchange to store archiving data in Microsoft Exchange, to users homed on Exchange. However, some options are implemented slightly differently for users homed on Exchange, as described in the next section. 
+> Archiving configurations apply to users homed on Skype for Business Server, and, if you enable the Microsoft Exchange integration option to use Exchange 2013 to store archiving data in Microsoft Exchange, to users homed on Exchange 2013. However, some options are implemented slightly differently for users homed on Exchange 2013, as described in the next section. 
   
 To configure the settings for a new or existing Archiving configuration, specify the following options:
 - **Name** Each Archiving configuration requires a name. The name is determined by the type of configuration you are adding or editing:
@@ -53,7 +54,7 @@ To configure the settings for a new or existing Archiving configuration, specify
     
     Both IM and conferencing automatically recover after the failures are corrected.
     
-- **Microsoft Exchange integration** Select this option if you have users who are homed on Exchange. With this option, Exchange is used to store data for those users, if their mailboxes have been placed on In-Place Hold. If all your users are homed on Exchange, you do not need to set up separate SQL Server databases for storage of archiving data.
+- **Microsoft Exchange integration** Select this option if you have users who are homed on Exchange 2013. With this option, Exchange 2013 is used to store data for those users, if their mailboxes have been placed on In-Place Hold. If all your users are homed on Exchange 2013, you do not need to set up separate SQL Server databases for storage of archiving data.
     
 - **Enable purging of archiving data** Select this option to enable purging and specify purging options, which include the following:
     
@@ -62,7 +63,7 @@ To configure the settings for a new or existing Archiving configuration, specify
   - Purging after the archiving data has been exported (which includes data that has been uploaded to Exchange, if you enable Microsoft Exchange integration).
     
     > [!NOTE]
-    > If you enable Microsoft Exchange integration, purging for users homed on Exchange and with their mailboxes placed on In-Place Hold is controlled by Exchange. The only exception is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
+    > If you enable Microsoft Exchange integration, purging for users homed on Exchange 2013 and with their mailboxes placed on In-Place Hold is controlled by Exchange. The only exception is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
   
 For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../../manage/archiving/archiving.md).
 

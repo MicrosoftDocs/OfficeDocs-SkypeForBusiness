@@ -1,22 +1,21 @@
 ---
-title: "Peer-to-Peer Activity Summary Report in Skype for Business Server 2015"
+title: "Peer-to-Peer Activity Summary Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: "Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server."
 ---
 
-# Peer-to-Peer Activity Summary Report in Skype for Business Server 2015
+# Peer-to-Peer Activity Summary Report in Skype for Business Server
  
-**Summary:** Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server 2015.
+**Summary:** Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server.
   
-The Peer-to-Peer Activity Summary Report provides an overall view of your peer-to-peer communication sessions. A peer-to-peer session typically involves just two users, and does not require the use of the Skype for Business Server conferencing services. By comparison, a conference typically involves more than two users and requires the use of Skype for Business Server 2015 conferencing services. Conference activity is reported on the Conference Summary Report.
+The Peer-to-Peer Activity Summary Report provides an overall view of your peer-to-peer communication sessions. A peer-to-peer session typically involves just two users, and does not require the use of the Skype for Business Server conferencing services. By comparison, a conference typically involves more than two users and requires the use of Skype for Business Server conferencing services. Conference activity is reported on the Conference Summary Report.
   
 The Peer-to-Peer Activity Summary Report helps you answer questions like the following:
   
@@ -28,7 +27,7 @@ The Peer-to-Peer Activity Summary Report helps you answer questions like the fol
     
 ## Accessing the Peer-to-Peer Activity Summary Report
 
-You access the Peer-to-Peer Activity Summary Report from the Monitoring Reports home page. You open the [Peer-to-Peer IM Report in Skype for Business Server 2015](im-report.md) by clicking either of the following metrics:
+You access the Peer-to-Peer Activity Summary Report from the Monitoring Reports home page. You open the [Peer-to-Peer IM Report in Skype for Business Server](im-report.md) by clicking either of the following metrics:
   
 - Total peer-to-peer IM sessions
     

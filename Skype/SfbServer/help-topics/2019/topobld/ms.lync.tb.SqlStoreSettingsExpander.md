@@ -3,6 +3,7 @@ title: "SQL Store Settings Expander"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

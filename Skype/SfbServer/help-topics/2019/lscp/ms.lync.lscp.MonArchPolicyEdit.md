@@ -3,6 +3,7 @@ title: "Archiving Policy Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -24,7 +25,7 @@ You use Archiving policies to control archiving of internal and external communi
 - **User policies (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving for internal or external communications for a specific user. A user policy overrides the global policy and site policies, but only for the user(s) to whom you assign a user policy. You can edit or delete user policies.
     
 > [!NOTE]
-> If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange policies control archiving for users homed on Exchange. To enable archiving for those users, the user's mailbox must be placed on In-Place Hold. 
+> If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange 2013 policies control archiving for users homed on Exchange 2013. To enable archiving for those users, the user's mailbox must be placed on In-Place Hold. 
   
 To configure the settings for a new or existing Archiving policy, you specify the following options:
 - **Name** Each Archiving policy requires a name. The name is determined by the type of policy that you are adding or editing:

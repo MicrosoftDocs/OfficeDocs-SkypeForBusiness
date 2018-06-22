@@ -3,6 +3,7 @@ title: "Associate Front End With Office Web Apps Server Page"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

@@ -1,9 +1,8 @@
 ---
-title: "Configure the location database in Skype for Business Server 2015"
+title: "Configure the location database in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: "Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice."
 ---
 
-# Configure the location database in Skype for Business Server 2015
+# Configure the location database in Skype for Business Server
  
 Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice. 
   

@@ -1,20 +1,19 @@
 ---
-title: "Enable Quality of Experience in Skype for Business Server 2015"
+title: "Enable Quality of Experience in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: "Summary: learn how to enable Quality of Experience (QoE) in Skype for Business Server 2015."
+description: "Summary: learn how to enable Quality of Experience (QoE) in Skype for Business Server."
 ---
 
-# Enable Quality of Experience in Skype for Business Server 2015
+# Enable Quality of Experience in Skype for Business Server
  
-**Summary:** learn how to enable Quality of Experience (QoE) in Skype for Business Server 2015.
+**Summary:** learn how to enable Quality of Experience (QoE) in Skype for Business Server.
   
 Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions. For details, see [Planning for Monitoring](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) in the Planning documentation.
   
@@ -25,7 +24,7 @@ Use the following procedure to enable QoE for your whole organization or each si
   
 ### To enable QoE by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     

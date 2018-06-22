@@ -1,9 +1,8 @@
 ---
-title: "(Optional) Verify Call Park deployment in Skype for Business 2015"
+title: "(Optional) Verify Call Park deployment in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: "Verifying your deployment of Call Park in Skype for Business Server Enterprise Voice."
 ---
 
-# (Optional) Verify Call Park deployment in Skype for Business 2015
+# (Optional) Verify Call Park deployment in Skype for Business
  
 Verifying your deployment of Call Park in Skype for Business Server Enterprise Voice. 
   

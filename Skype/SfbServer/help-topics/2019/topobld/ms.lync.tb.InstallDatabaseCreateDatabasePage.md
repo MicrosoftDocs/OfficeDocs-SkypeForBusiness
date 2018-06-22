@@ -3,6 +3,7 @@ title: "Install and Create Databases"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -20,7 +21,7 @@ You select the databases that you want to create for your deployment. By default
  **Select the databases you want to create**: Select the checkbox of any databases that you intend to deploy and configure. Select the check box of any or all databases that you will deploy. 
   
 > [!CAUTION]
-> The SQL Server must already have been configured for the instance (if any) and firewall ports must be opened to accommodate the instance that you are deploying the databases to. For details, see [Configure SQL Server](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> The SQL Server must already have been configured for the instance (if any) and firewall ports must be opened to accommodate the instance that you are deploying the databases to. For details, see [Configure SQL Server for Lync Server 2013 Preview](http://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
   
  **Advanced**: Click on the SQL Server and click the **Advanced** button to choose options for the database file locations on your SQL Server. For details on advanced database file placement, see [Database Installation Using Lync Server Management Shell](http://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
   

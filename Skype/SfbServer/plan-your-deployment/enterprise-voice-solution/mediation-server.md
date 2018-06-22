@@ -1,9 +1,8 @@
 ---
-title: "Mediation Server component in Skype for Business Server 2015"
+title: "Mediation Server component in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: "Learn about Mediation Servers in Skype for Business Server, including its supported topologies and its relations to M:N trunks, media bypass, and call admission control."
 ---
 
-# Mediation Server component in Skype for Business Server 2015
+# Mediation Server component in Skype for Business Server
  
 Learn about Mediation Servers in Skype for Business Server, including its supported topologies and its relations to M:N trunks, media bypass, and call admission control.
   
@@ -81,13 +80,13 @@ Call admission control (CAC), manages real-time session establishment, based on 
   
 Media bypass and bandwidth reservation are mutually exclusive. If media bypass is employed for a call, call admission control is not performed for that call. The assumption here is that there are no links with constrained bandwidth involved in the call. If call admission control is used for a particular call that involves the Mediation Server, that call cannot employ media bypass.
   
-For details about media bypass or call admission control, see [Plan for media bypass in Skype for Business 2015](media-bypass.md) or [Plan for call admission control in Skype for Business Server 2015](call-admission-control.md).
+For details about media bypass or call admission control, see [Plan for media bypass in Skype for Business](media-bypass.md) or [Plan for call admission control in Skype for Business Server](call-admission-control.md).
   
 ## Enhanced 9-1-1 (E9-1-1) and Mediation Server
 
 The Mediation Server has extended capabilities so that it can correctly interact with Enhanced 9-1-1 (E9-1-1) service providers. No special configuration is needed on the Mediation Server. The SIP extensions required for E9-1-1 interaction are, by default, included in the Mediation Server's SIP protocol for its interactions with a gateway peer (PSTN gateway, IP-PBX, or the SBC of an Internet Telephony Service Provider, including E9-1-1 Service Providers)
   
-Whether the SIP trunk to an E9-1-1 Service Provider can be terminated on an existing Mediation Server pool or will require stand-alone Mediation Servers will depend on whether the E9-1-1 SBC can interact with a pool of Mediation Servers. For details, see [M:N trunk in Skype for Business Server 2015](m-n-trunk.md).
+Whether the SIP trunk to an E9-1-1 Service Provider can be terminated on an existing Mediation Server pool or will require stand-alone Mediation Servers will depend on whether the E9-1-1 SBC can interact with a pool of Mediation Servers. For details, see [M:N trunk in Skype for Business Server](m-n-trunk.md).
   
 ## Media bypass and Mediation Server
 
@@ -156,7 +155,7 @@ You can use the Microsoft Lync Server 2013, Planning Tool to evaluate whether co
 > [!NOTE]
 > Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC. Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs. Media bypass is supported only with products and versions listed at [Unified Communications Open Interoperability Program - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
-If branch site resiliency is required, a Survivable Branch Appliance or combination of a Front End Server, a Mediation Server, and a gateway must be deployed at the branch site. (The assumption with branch site resiliency is that presence and conferencing are not resilient at the site.) For guidance on branch site planning for voice, see [Plan for Enterprise Voice resiliency in Skype for Business Server 2015](enterprise-voice-resiliency.md).
+If branch site resiliency is required, a Survivable Branch Appliance or combination of a Front End Server, a Mediation Server, and a gateway must be deployed at the branch site. (The assumption with branch site resiliency is that presence and conferencing are not resilient at the site.) For guidance on branch site planning for voice, see [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
   
 For interactions with an IP-PBX, if the IP-PBX does not correctly support early media interactions with multiple early dialogs and RFC 3960 interactions, there can be clipping of the first few words of the greeting for incoming calls from the IP-PBX to Skype for Business endpoints. This issue can be more severe if a Mediation Server at a central site is routing calls for an IP-PBX where the route terminates at a branch site, because more time is needed for signaling to complete. If you experience this behavior, deploying a Mediation Server at the branch site is the only way to reduce clipping of the first few words.
   

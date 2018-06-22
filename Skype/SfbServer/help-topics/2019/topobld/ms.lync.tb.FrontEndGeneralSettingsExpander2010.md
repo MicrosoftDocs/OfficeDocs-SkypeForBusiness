@@ -3,6 +3,7 @@ title: "Front End General Settings Expander for Lync Server 2010"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -34,7 +35,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
     
 - If you selected Conferencing, **Dial-in (PSTN) conferencing** can be selected. Select the check box to enable dial-in conferencing features.
     
-- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and [Plan for Enterprise Voice in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Select the check box **Enterprise Voice** if you intend to deploy features to enable Lync Server 2013 to act as your telephone voice system using voice over IP (VoIP) technologies, including the option of deploying handset telephones, SIP trunks, or public switched telephone network connectivity using Mediation Server, PSTN Gateways, and IP-PBX, in combination or alone, based on the design and requirements. For detail on Enterprise Voice, see [Enterprise Voice](http://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) and [Plan for Enterprise Voice in Skype for Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
     
     **Associations**
     

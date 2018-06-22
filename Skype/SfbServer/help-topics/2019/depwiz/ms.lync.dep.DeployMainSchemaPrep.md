@@ -3,6 +3,7 @@ title: "Prepare Schema"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -20,7 +21,7 @@ To prepare the schema for Active Directory Domain Services, you run the Prepare 
 > [!IMPORTANT]
 > To extend the schema, you must be logged into the domain as a member of the Schema Admins group and the Enterprise Admins group. 
   
-Classes and attributes are added to extend the Active Directory Domain Services schema to support Skype for Business Server server, service, and user objects. Before extending the schema, you should take a System State backup of the domain controller that holds the schema master role. For details about the backup process for Windows Server 2008 R2 with SP1, see [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198). For Windows Server 2003 and Windows Server 2003 R2, see [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199).
+Classes and attributes are added to extend the Active Directory Domain Services schema to support Skype for Business Server 2015 server, service, and user objects. Before extending the schema, you should take a System State backup of the domain controller that holds the schema master role. For details about the backup process for Windows Server 2008 R2 with SP1, see [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198). For Windows Server 2003 and Windows Server 2003 R2, see [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199).
   
 > [!CAUTION]
 > Extending the schema is not reversible. You should make all possible efforts to limit the potential impact of a failed schema extension, and to ensure that the extension of the schema will be successful. This is particularly critical in the event of loss of communication or any other failure at the server. You should perform a backup of the schema master domain controller and a complete backup of Active Directory. 
