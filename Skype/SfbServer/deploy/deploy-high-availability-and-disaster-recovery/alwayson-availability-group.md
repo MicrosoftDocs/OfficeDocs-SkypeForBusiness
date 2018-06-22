@@ -1,8 +1,9 @@
 ---
-title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server"
+title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +13,7 @@ ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: "Deploy (install) an Always On Availability Group in your Skype for Business Server deployment."
 ---
 
-# Deploy an Always On Availability Group on a Back End Server in Skype for Business Server
+# Deploy an Always On Availability Group on a Back End Server in Skype for Business Server 2015
  
 Deploy (install) an Always On Availability Group (AG) in your Skype for Business Server deployment.
   
@@ -116,7 +117,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the**Summary** page, verify all settings and click Finish.
     
-7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
+7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
     
 8. After the pool and the AG are deployed, perform some final steps to make sure that the SQL logins are on each of the replicas in the AlwaysOn Availability Group. 
     

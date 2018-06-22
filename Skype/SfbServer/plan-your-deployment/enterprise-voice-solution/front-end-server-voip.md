@@ -1,8 +1,9 @@
 ---
-title: "Front End Server VoIP components for Skype for Business Server"
+title: "Front End Server VoIP components for Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: "Learn about the Enterprise Voice components that are located on Front End Servers in Skype for Business Server, including translation service and various routing components."
 ---
 
-# Front End Server VoIP components for Skype for Business Server
+# Front End Server VoIP components for Skype for Business Server 2015
  
 Learn about the Enterprise Voice components that are located on Front End Servers in Skype for Business Server, including translation service and various routing components.
   
@@ -31,7 +32,7 @@ The VoIP components located on Front End Servers are as follows:
     
 - Intercluster Routing component
     
-- [Mediation Server component in Skype for Business Server](mediation-server.md)
+- [Mediation Server component in Skype for Business Server 2015](mediation-server.md)
     
 ## Translation Service
 

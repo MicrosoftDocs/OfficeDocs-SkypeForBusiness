@@ -1,19 +1,20 @@
 ---
-title: "Diagnostic Report in Skype for Business Server"
+title: "Diagnostic Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: "Summary: Learn about the Diagnostic Report in Skype for Business Server."
+description: "Summary: Learn about the Diagnostic Report in Skype for Business Server 2015."
 ---
 
-# Diagnostic Report in Skype for Business Server
+# Diagnostic Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Diagnostic Report in Skype for Business Server.
+**Summary:** Learn about the Diagnostic Report in Skype for Business Server 2015.
   
 The Diagnostic Report provides diagnostic and troubleshooting information for a failed session. This information includes both the Diagnostic ID and the Diagnostic header that were reported when the session failed. The Diagnostic ID is a unique identifier (in the form of an ms-diagnostics header) that gets attached to a SIP message, while the Diagnostic header provides an accompanying description for the Diagnostic ID. The report might also contain valuable troubleshooting details that are known by the reporting component. For example:
   
@@ -25,7 +26,7 @@ The Diagnostic Report provides diagnostic and troubleshooting information for a 
     
 ## Accessing the Diagnostic Report
 
-The Diagnostic Report can be accessed by clicking the Diagnostic Report (Detail) metric on either the [Peer-to-Peer Session Detail Report in Skype for Business Server](peer-to-peer-session-detail-report.md) or the Conference Detail Report.
+The Diagnostic Report can be accessed by clicking the Diagnostic Report (Detail) metric on either the [Peer-to-Peer Session Detail Report in Skype for Business Server 2015](peer-to-peer-session-detail-report.md) or the Conference Detail Report.
   
 ## Filters
 

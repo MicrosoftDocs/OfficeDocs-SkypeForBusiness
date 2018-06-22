@@ -1,8 +1,9 @@
 ---
-title: "Create or modify a translation rule for called ID presentation in Skype for Business Server"
+title: "Create or modify a translation rule for called ID presentation in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: "Summary: Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server."
+description: "Summary: Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015."
 ---
 
-# Create or modify a translation rule for called ID presentation in Skype for Business Server
+# Create or modify a translation rule for called ID presentation in Skype for Business Server 2015
  
-**Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.
+**Summary:** Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server 2015.
   
 Follow these steps if you want to define a translation rule by entering a set of values in the **Build a Translation Rule** tool and enabling Skype for Business Server Control Panel to generate the corresponding matching pattern and translation rule for you. Alternatively, you can a write regular expression manually to define the matching pattern and translation rule. For details, see [Create or Modify a Translation Rule Manually](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
   
@@ -25,7 +26,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 
 1. Open Skype for Business Server Control Panel.
     
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
+2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
     
 3. Under **Name** on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
     
@@ -62,13 +63,13 @@ Follow these steps if you want to define a translation rule by entering a set of
 8. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
    > [!NOTE]
-   > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+   > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To define a translation rule manually
 
 1. Open Skype for Business Server Control Panel
     
-2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md) through step 9.
+2. To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md) through step 9.
     
 3. In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.
     
@@ -91,15 +92,14 @@ Follow these steps if you want to define a translation rule by entering a set of
 9. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a translation rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 
-[Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md)
+[Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md)
   
-[Configure a trunk without media bypass in Skype for Business Server](configure-trunk-without-media-bypass.md)
+[Configure a trunk without media bypass in Skype for Business Server 2015](configure-trunk-without-media-bypass.md)
   
-[Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md)
+[Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md)
 
-[Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)
-
+[Deploy media bypass in Skype for Business Server 2015](deploy-media-bypass.md)

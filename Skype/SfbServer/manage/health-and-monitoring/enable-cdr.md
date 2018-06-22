@@ -1,19 +1,20 @@
 ---
-title: "Enable call detail recording in Skype for Business Server"
+title: "Enable call detail recording in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: "Summary: Learn how to enable Call detail recording (CDR) records in Skype for Business Server."
+description: "Summary: Learn how to enable Call detail recording (CDR) records in Skype for Business Server 2015."
 ---
 
-# Enable call detail recording in Skype for Business Server
+# Enable call detail recording in Skype for Business Server 2015
  
-**Summary:** Learn how to enable Call detail recording (CDR) records in Skype for Business Server.
+**Summary:** Learn how to enable Call detail recording (CDR) records in Skype for Business Server 2015.
   
 Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings. The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings. 
   
@@ -24,7 +25,7 @@ Use the following procedure to enable CDR for your whole organization or each si
   
 ### To enable CDR with Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     

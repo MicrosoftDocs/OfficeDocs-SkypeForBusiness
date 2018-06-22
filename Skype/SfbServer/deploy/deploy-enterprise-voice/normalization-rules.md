@@ -1,8 +1,9 @@
 ---
-title: "Create or modify a normalization rule in Skype for Business"
+title: "Create or modify a normalization rule in Skype for Business 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: "Summary: Learn how to define, create, and modify a normalization rule in Skype for Business Server."
+description: "Summary: Learn how to define, create, and modify a normalization rule in Skype for Business Server 2015."
 ---
 
-# Create or modify a normalization rule in Skype for Business
+# Create or modify a normalization rule in Skype for Business 2015
  
-**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.
+**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server 2015.
   
 Define, create, and modify normalization rules in Skype for Business Server.
   
@@ -25,7 +26,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
 1. Open Skype for Business Server Control Panel
     
-2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.
+2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server 2015](dial-plans.md) through step 11 or [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.
     
 3. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).
     
@@ -67,13 +68,13 @@ Define, create, and modify normalization rules in Skype for Business Server.
 11. On the **Dial Plan** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 ### To define a normalization rule manually
 
 1. Open Skype for Business Server Control Panel
     
-2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md). 
+2. (Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server 2015](dial-plans.md). 
     
 3. In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).
     
@@ -100,6 +101,6 @@ Define, create, and modify normalization rules in Skype for Business Server.
 11. On the **Dial Plan** page, click **Commit**, and then click **Commit all**.
     
     > [!NOTE]
-    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
   
 

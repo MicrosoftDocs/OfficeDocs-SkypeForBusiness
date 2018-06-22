@@ -1,8 +1,9 @@
 ---
-title: "Back End Server high availability in Skype for Business Server"
+title: "Back End Server high availability in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,7 +13,7 @@ ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: "Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering."
 ---
 
-# Back End Server high availability in Skype for Business Server
+# Back End Server high availability in Skype for Business Server 2015
  
 Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering.
   
@@ -94,7 +95,7 @@ To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you 
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
   
-For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## SQL Server Failover Clustering
 

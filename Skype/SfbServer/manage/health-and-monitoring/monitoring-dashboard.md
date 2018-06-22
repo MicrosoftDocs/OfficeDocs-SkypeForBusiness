@@ -1,21 +1,22 @@
 ---
-title: "Using the Monitoring Dashboard in Skype for Business Server"
+title: "Using the Monitoring Dashboard in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: "Summary: Learn about the Monitoring Dashboard in Skype for Business Server."
+description: "Summary: Learn about the Monitoring Dashboard in Skype for Business Server 2015."
 ---
 
-# Using the Monitoring Dashboard in Skype for Business Server
+# Using the Monitoring Dashboard in Skype for Business Server 2015
  
-**Summary:** Learn about the Monitoring Dashboard in Skype for Business Server.
+**Summary:** Learn about the Monitoring Dashboard in Skype for Business Server 2015.
   
-The Monitoring Dashboard provides administrators with a quick overview of their Skype for Business Server system health and system usage. The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:
+The Monitoring Dashboard provides administrators with a quick overview of their Skype for Business Server 2015 system health and system usage. The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:
   
 - Totals for the current day. Note that values shown for the current day represent data that has been recorded from midnight until the current time (based on the local time of the reporting server). That means that you will typically be viewing data for a partial day and not for a 24-hour period. For example, if the local time of the server is 8:00 AM, you see eight hours' worth of data because there are eight hours between midnight and the current time of 8:00 AM.
     
@@ -23,7 +24,7 @@ The Monitoring Dashboard provides administrators with a quick overview of their 
     
 - Totals for the month, and trend totals for the past six months (for system usage only).
     
-Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
+Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server 2015 Monitoring Reports:
   
 ```
 Get-CsReportingConfiguration
@@ -171,7 +172,7 @@ The Monitoring Dashboard provides a number of ways to export the current dashboa
     
 - Word
     
-To export the current dashboard view (and its values), click the desired export option. Skype for Business Server generates a report in the specified format and then give you the option of opening that report or saving it. Note that, by default, Skype for Business Server titles the report **Monitoring Dashboard** and saves it to your Downloads folder. To give the report a different name or to store it in a different folder, click the arrow next to the **Save** button and then click **Save As**. If you are fine with name **Monitoring Dashboard** and with having the report saved in the Downloads folder you can just click the **Save** button.
+To export the current dashboard view (and its values), click the desired export option. Skype for Business Server 2015 generates a report in the specified format and then give you the option of opening that report or saving it. Note that, by default, Skype for Business Server titles the report **Monitoring Dashboard** and saves it to your Downloads folder. To give the report a different name or to store it in a different folder, click the arrow next to the **Save** button and then click **Save As**. If you are fine with name **Monitoring Dashboard** and with having the report saved in the Downloads folder you can just click the **Save** button.
   
 It's possible that, when you try to export dashboard data, a **Security Alert** dialog box will appear along with the message "Your current settings do not allow this file to be downloaded." If that occurs, do the following:
   
@@ -179,7 +180,7 @@ It's possible that, when you try to export dashboard data, a **Security Alert** 
     
 - In the **Internet Options** dialog box, on the **Security** tab, click **Trusted sites** and then click **Sites**.
     
-- In the **Trusted sites** dialog box, click **Add** to add the Skype for Business Server that is running Skype for Business Server Reports to the collections of trusted websites.
+- In the **Trusted sites** dialog box, click **Add** to add the Skype for Business Server 2015 that is running Skype for Business Server Reports to the collections of trusted websites.
     
 - Click **Close** and then click **OK**.
     

@@ -54,7 +54,7 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "src": "SfBServer2019",
+        "src": "SfbPartnerCertification",
         "dest": ".",
         "exclude": [
           "**/obj/**",

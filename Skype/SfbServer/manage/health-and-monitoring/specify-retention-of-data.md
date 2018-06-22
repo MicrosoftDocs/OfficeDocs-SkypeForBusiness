@@ -1,19 +1,20 @@
 ---
-title: "Specify retention of CDR data in Skype for Business Server"
+title: "Specify retention of CDR data in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: "Summary: Learn how to manage call detail recording (CDR) data for Skype for Business Server."
+description: "Summary: Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015."
 ---
 
-# Specify retention of CDR data in Skype for Business Server
+# Specify retention of CDR data in Skype for Business Server 2015
  
-**Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server.
+**Summary:** Learn how to manage call detail recording (CDR) data for Skype for Business Server 2015.
   
 By default, call detail recording (CDR) data is purged after 60 days. You can use the settings on the **Call Detail Recording** page to retain the data for a longer or shorter period of time. If you disable CDR, data that was captured before CDR was enabled will also be subject to purging.
   
@@ -24,7 +25,7 @@ Use the following procedures to configure purge settings for CDR data.
   
 ### To specify retention of CDR data
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
+1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -64,4 +65,4 @@ For more information, see the help topic for the [Set-CsCdrConfiguration](https:
   
 ## See also
 
-[Call detail recording (CDR) in Skype for Business Server](call-detail-recording-cdr.md)
+[Call detail recording (CDR) in Skype for Business Server 2015](call-detail-recording-cdr.md)

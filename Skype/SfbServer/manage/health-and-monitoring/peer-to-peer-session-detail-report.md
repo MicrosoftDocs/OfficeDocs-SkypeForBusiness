@@ -1,19 +1,20 @@
 ---
-title: "Peer-to-Peer Session Detail Report in Skype for Business Server"
+title: "Peer-to-Peer Session Detail Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: "Summary: Learn about the Peer-to-Peer Session Detail Report in Skype for Business Server."
+description: "Summary: Learn about the Peer-to-Peer Session Detail Report in Skype for Business Server 2015."
 ---
 
-# Peer-to-Peer Session Detail Report in Skype for Business Server
+# Peer-to-Peer Session Detail Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Peer-to-Peer Session Detail Report in Skype for Business Server.
+**Summary:** Learn about the Peer-to-Peer Session Detail Report in Skype for Business Server 2015.
   
 The Peer-to-Peer Session Detail Report returns detailed information about a peer-to-peer session. For example, if you select an instant messaging session, the report will tell you the number of messages sent by each of the two users in the session.
   
@@ -29,7 +30,7 @@ The Peer-to-Peer Session Detail Report can be accessed from any of the following
     
 - Failure List Report 
     
-From within the Peer-to-Peer Session Detail Report you can access the [Diagnostic Report in Skype for Business Server](diagnostic-report.md) by clicking the Diagnostic Report (Details) metric. You can also access the Top Failures Report by clicking either of these two metrics:
+From within the Peer-to-Peer Session Detail Report you can access the [Diagnostic Report in Skype for Business Server 2015](diagnostic-report.md) by clicking the Diagnostic Report (Details) metric. You can also access the Top Failures Report by clicking either of these two metrics:
   
 - Response
     

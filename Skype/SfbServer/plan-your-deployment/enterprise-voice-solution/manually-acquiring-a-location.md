@@ -1,8 +1,9 @@
 ---
-title: "Define the user experience for manually acquiring a location in Skype for Business Server"
+title: "Define the user experience for manually acquiring a location in Skype for Business Server 2015"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: "Planning for roaming users in an E9-1-1 deployment using SIP trunking providers, in Skype for Business Server Enterprise Voice."
 ---
 
-# Define the user experience for manually acquiring a location in Skype for Business Server
+# Define the user experience for manually acquiring a location in Skype for Business Server 2015
  
 Planning for roaming users in an E9-1-1 deployment using SIP trunking providers, in Skype for Business Server Enterprise Voice.
   

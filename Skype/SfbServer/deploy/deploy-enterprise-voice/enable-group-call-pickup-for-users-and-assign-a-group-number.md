@@ -1,8 +1,9 @@
 ---
-title: "Enable Group Call Pickup for users and assign a group number in Skype for Business"
+title: "Enable Group Call Pickup for users and assign a group number in Skype for Business 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,7 +16,7 @@ ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: "Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number."
 ---
 
-# Enable Group Call Pickup for users and assign a group number in Skype for Business 
+# Enable Group Call Pickup for users and assign a group number in Skype for Business 2015
  
 Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.
   
@@ -43,4 +44,3 @@ After you add call pickup group numbers to the call park orbit table, you use th
 ## See also
 
 [Disable Group Pickup for Users](http://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
-

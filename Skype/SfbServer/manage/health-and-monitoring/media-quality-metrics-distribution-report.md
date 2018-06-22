@@ -1,19 +1,20 @@
 ---
-title: "The Media Quality Metrics Distribution Report in Skype for Business Server"
+title: "The Media Quality Metrics Distribution Report in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: "Summary: Learn about the Media Quality Metrics Distribution Report in Skype for Business Server."
+description: "Summary: Learn about the Media Quality Metrics Distribution Report in Skype for Business Server 2015."
 ---
 
-# The Media Quality Metrics Distribution Report in Skype for Business Server 
+# The Media Quality Metrics Distribution Report in Skype for Business Server 2015
  
-**Summary:** Learn about the Media Quality Metrics Distribution Report in Skype for Business Server.
+**Summary:** Learn about the Media Quality Metrics Distribution Report in Skype for Business Server 2015.
   
 The Media Quality Metrics Distribution Report enables you to see a graph that shows the distribution values for a Quality of Experience metric such as jitter or packet loss. For example, suppose your users make a total of 10 phone calls; those 10 calls report the following roundtrip times:
   

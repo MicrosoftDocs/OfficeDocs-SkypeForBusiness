@@ -1,20 +1,22 @@
 ---
-title: "Associate a monitoring store with a Front End pool in Skype for Business Server"
+title: "Associate a monitoring store with a Front End pool in Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: "Summary: Learn how to associate Front End pools with a monitoring store used by Skype for Business Server."
+description: "Summary: Learn how to associate Front End pools with a monitoring store used by Skype for Business Server 2015."
 ---
 
-# Associate a monitoring store with a Front End pool in Skype for Business Server 
-**Summary:** Learn how to associate Front End pools with a monitoring store used by Skype for Business Server.
+# Associate a monitoring store with a Front End pool in Skype for Business Server 2015
+ 
+**Summary:** Learn how to associate Front End pools with a monitoring store used by Skype for Business Server 2015.
   
-In Skype for Business Server, monitoring data can only be collected on Front End pools that have been associated with a monitoring store, a task typically carried out when you define a Front End pool in Topology Builder.
+In Skype for Business Server 2015, monitoring data can only be collected on Front End pools that have been associated with a monitoring store, a task typically carried out when you define a Front End pool in Topology Builder.
   
 ## Associate a monitoring store with a Front End pool
 

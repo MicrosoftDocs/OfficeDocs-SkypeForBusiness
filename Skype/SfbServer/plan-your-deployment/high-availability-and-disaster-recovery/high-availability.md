@@ -3,6 +3,7 @@ title: "Front End Pool high availability and management"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -72,7 +73,7 @@ You should watch for a couple of other factors to ensure that your Front End poo
   
 - When you move users to the pool for the first time, be sure at least three of the Front End Servers are running.
     
-- If you establish a pairing relationship between this pool and another pool for disaster recovery purposes, then after establishing that relationship you must be sure this pool has three Front End servers running simultaneously at some time to properly synchronize data with the backup pool. For more information on pool pairing and disaster recovery features, see [Plan for high availability and disaster recovery in Skype for Business Server](high-availability-and-disaster-recovery.md). 
+- If you establish a pairing relationship between this pool and another pool for disaster recovery purposes, then after establishing that relationship you must be sure this pool has three Front End servers running simultaneously at some time to properly synchronize data with the backup pool. For more information on pool pairing and disaster recovery features, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](high-availability-and-disaster-recovery.md). 
     
 ## Front End pool with two Front End servers
 
