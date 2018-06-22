@@ -136,8 +136,7 @@ Programs that are not listed below are currently closed.
 			<td rowspan="2"><strong>IT Pro</strong></td>
 			<td>Network Pre-Assessment</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td rowspan="2">
-				<p><br /></p>
+			<td rowspan="2">				 
 				<p style="text-align: center">Available on admission to program</p>
 			</td>
 			<td style="text-align:center">N/A</td>
@@ -162,7 +161,6 @@ Programs that are not listed below are currently closed.
 			<td>Call Recording and Compliance</td>
 			<td align="center" valign="top">Not seeking partners</td>
 			<td rowspan="3">
-				<p><br /></p>
 				<p style="text-align: center">Available on admission to program</p>
 			</td>
 			<td rowspan="3" style="text-align:center" valign="middle">

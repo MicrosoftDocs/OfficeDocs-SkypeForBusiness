@@ -30,7 +30,7 @@ Find USB audio and video devices that are optimized for Microsoft Lync, includin
 To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the partner solutions catalog.
 
 ## About "Optimized for Lync" devices
-USB audio and video devices are tested and qualified for Lync through the <!-- need fresh link here --> [Compatible Devices Program](https://technet.microsoft.com/en-us/office/dn788951#compatible_devices). USB desk phones and handsets, personal speakerphones, corded and wireless headsets, and HD webcams Optimized for Microsoft Lync are tested to provide the following:
+USB audio and video devices are tested and qualified for Lync through the [Compatible Devices Program](../sfbpctoc/partner-qualification.md#compatible-devices-program). USB desk phones and handsets, personal speakerphones, corded and wireless headsets, and HD webcams Optimized for Microsoft Lync are tested to provide the following:
 - Lync User Experience
 - Plug and play: once connected, a device registers on Lync server and is ready to use
 - First run experience: Automatic detection of a device with a direct link to user guide and other useful tools and documentation

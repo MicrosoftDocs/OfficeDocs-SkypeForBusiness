@@ -82,7 +82,7 @@ Use the following table to find the Skype specifications to follow for USB perip
 
 
 ## Lync Specifications
-Use the following table to find the Lync specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014..<!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
+Use the following table to find the Lync specifications to follow for USB peripherals, PCs, and Lync room systems until the Unified Specifications become enforced in September 2014. <!-- consider rewriting to "were enforced" or "became enforced" as this will unfairly date the current topic. Possibly delete that last phrase now? -->
 <table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="100" />
@@ -164,9 +164,10 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 </table>
 
 ### Related resources 
-<!-- note that the compatible devices progr is a technet doc that I'm working on next-->
+ 
 [Phones and devices home](devices-ip-phones.md)
-[Compatible Devices Program](https://technet.microsoft.com/en-us/office/dn788951#compatibledevices)
+
+[Compatible Devices Program](../sfbpctoc/partner-qualification.md#compatible-devices-program)
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

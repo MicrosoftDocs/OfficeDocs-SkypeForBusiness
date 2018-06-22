@@ -16,6 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
+- dn788951
 description: "Partner qualification requirements for Lync include Infrastructure,
 Services, Video Interoperability Program, and
 Compatible Devices Program."
@@ -23,9 +24,9 @@ Compatible Devices Program."
 
 
 # Partner qualification processes
-<!-- consider writing an intro rather than using index list -->
+ 
 ## Infrastructure
-With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the [infrastructure certified for Skype for Business](skype-cert-program-infra.md#gateways). <!-- note: I couldn't help myself and had to rewrite the two sentences to get away from passive voice when I  corrected the link -->
+With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../skype-bus/infra.md). 
  
 ## Lync Services
 E911 service provider and other services vendors interested in qualifying their offering for Lync Server or Exchange Server must meet both technical and marketing requirements. Participation in the program is solely at Microsoft’s discretion. Upon successful completion, the product, service, and firmware combinations tested will be listed on this site.
@@ -51,22 +52,21 @@ Once all of these criteria have been met the UCOIP administrators will be aware 
 
 If you have any questions on the program please contact the MSUCOIP Administrators at msucoip@microsoft.com.
 
-### Approximated timeline for qualification
-The timeline that follows shows the approximated timeline for the qualification process. The timeline diagram also indicates tasks that can be performed concurrently as well as suggested order of precedence. The times are not guaranteed since scheduling could preempt the flow.
-<p>
+### Approximate timeline for qualification
+The timeline that follows shows the approximate timeline for the qualification process. The timeline diagram also indicates tasks that can be performed concurrently as well as suggested order of precedence. The times are not guaranteed since scheduling could preempt the flow.
+ 
 
 ***Partner qualification timeline for Microsoft Partner Program***
 
-![Qualification timeline for Skype for Business](media/OIPpartneringTimeline.png)
-</p>
+![Qualification timeline for Skype for Business](../media/OIPpartneringTimeline.jpg)
 
 To begin the process, vendors should:
 - Download the trial versions of the product.
 - Register to join the Microsoft Unified Communications Open Interoperability Program by visiting Microsoft Connect, logging in with their Passport account, click Invitations on the left navigation, and use this Invitation code: oip-YJ3X-7FK4
 
-[Note]
-You must use a Passport account that matches your corporate email address.
-- Fill out the survey and click Submit. To be approved, you must provide your corporate email address from an enterprise telephony infrastructure vendor.
+> [!NOTE]
+> You must use a Passport account that matches your corporate email address.
+> - Fill out the survey and click Submit. To be approved, you must provide your corporate email address from an enterprise telephony infrastructure vendor.
 
 Upon approval into the program (please allow 4-5 business days), Microsoft will provide access to the technical specifications, documentation on the program requirements and information on how to engage with tekVizion.
  
@@ -111,12 +111,12 @@ The specific details of qualification will be provided from Microsoft to the par
 ### Approximate timeline for qualification
 
 The diagram that follows displays the approximated timeline for the qualification process. The timeline shows tasks that can be performed concurrently as well as suggested order of precedence. The times are not guaranteed since scheduling could preempt the flow.
-<p>
+ 
 
 ***Technical qualifications timeline***
 
 ![Technical qualification timeline for video solution partners](media/timeline4technicalqualification.png)
-</p>
+ 
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
