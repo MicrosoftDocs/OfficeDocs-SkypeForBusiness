@@ -29,317 +29,69 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 ## SIP trunking services qualified for Lync Server 2013
 
 
-
-
-<table border="1" cellpadding="0" cellspacing="0" class="shaded" style="border-collapse:collapse;border:solid 1px" width="90%" xmlns="_http://www.w3.org/1999/xhtml">
-	<tbody>
-		<tr bgcolor="#DEDEDE">
-			<td><strong>Carrier</strong></td>
-			<td><strong>Service Name</strong></td>
-			<td><strong>Qualified with TLS &amp; SRTP</strong></td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.acceleratedconnections.com/">Accelerated Connections</a></td>
-			<td headers="th159D00300001">ACI SIP Trunk</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000">AT&amp;T</td>
-			<td headers="th159D00300001">AT&amp;T IP Flexible Reach Service</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.broadconnect.ca/ip-telephone/sip-trunking/">Broad-Connect</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.adpt-tech.com/">BroadSoft Adaption</a></td>
-			<td headers="th159D00300001">OfficeTrunk</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://brokerteam.eu/microsoft-lync">BROKERTEAM</a></td>
-			<td headers="th159D00300001">SIP Trunk Brokerteam - Winvision Voice</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.globalservices.bt.com/uk/en/products/one_voice">BT Global Services</a></td>
-			<td headers="th159D00300001">BT One Voice</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://c3ntro.com/landing/sip/rznbcwnebh.html">C3NTRO</a></td>
-			<td headers="th159D00300001">Lync SIP Connect</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.circuitid.com/cloud-sip/?ePlatform=lync">Circuit ID</a></td>
-			<td headers="th159D00300001">Cloud SIP</td>
-			<td> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.cirque.dk/da-dk/erhverv/microsoft-certificering.html">Cirque A/S</a></td>
-			<td headers="th159D00300001">Lync Trunk</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm">Colt Technology Services</a></td>
-			<td headers="th159D00300001">VoIP Access</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.columbus-business.com/">Columbus Business Solutions</a></td>
-			<td headers="th159D00300001">CBS Cloud Voice</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.comscentre.com/microsoft-lync-certified-sip">Comscentre</a></td>
-			<td headers="th159D00300001">Comscentre Sip Connect for Microsoft Lync</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365">Elisa</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.fujitsu.com/fi/services/infrastructure-services/network/">Fujitsu</a></td>
-			<td headers="th159D00300001">SIP Trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://g12communications.com/">G12 Communications</a></td>
-			<td headers="th159D00300001">Lync SIP Trunks</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.gamma.co.uk/partners/products/voice/sip-trunks/">Gamma</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.globalconnect.dk/produkter/telefoni/lync">GlobalConnect</a></td>
-			<td headers="th159D00300001">GlobalConnect SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.intelepeer.com/">IntelePeer</a></td>
-			<td headers="th159D00300001">IntelePeer SIP Trunking</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx">Internet Solutions</a></td>
-			<td headers="th159D00300001">Internet Solutions SIP Trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.interoute.com/product/interoute-one">Interoute</a></td>
-			<td headers="th159D00300001">Interoute One</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.ipvision.dk/microsoft-lync/">ipvision a/s</a></td>
-			<td headers="th159D00300001">VIP Trunk</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.kordia.co.nz/">Kordia</a></td>
-			<td headers="th159D00300001">Onkor Voice</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://level3.com/lync">Level 3</a></td>
-			<td headers="th159D00300001">Level 3 Communications SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.magneticnorth.com/cloud-pbx/sip-trunks">Magnetic North</a></td>
-			<td headers="th159D00300001">Cloud PBX</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.netstream.ch/index.php?id=506">Netstream</a></td>
-			<td headers="th159D00300001">Lync Connect</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.masergy.com/solutions/unified-communications">Masergy Communications</a></td>
-			<td headers="th159D00300001">Intelligent SIP Trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.onesourcenetworks.com/lync-trunking/">One Source Networks</a></td>
-			<td headers="th159D00300001">Lync Trunking</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.orange-business.com/en/products/business-talk">Orange Business Services</a></td>
-			<td headers="th159D00300001">Business Talk (SIP Trunking)</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.peerlessnetwork.com/enterprise-service/">Peerless Network</a></td>
-			<td headers="th159D00300001">Enterprise SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.phonero.no/">Phonero</a></td>
-			<td headers="th159D00300001">Phonero SIP-trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://pure-ip.com/microsoft-Lync-voice-trunks">Pure-IP</a></td>
-			<td headers="th159D00300001">OneLync SIP Trunks</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.qsc.de/ipfonie-extended-link/">QSC AG</a></td>
-			<td headers="th159D00300001">IPfonie extended link</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.redwoodtech.com/products/microsoft-lync/">Redwood Technologies</a></td>
-			<td headers="th159D00300001">SIP Trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://business.rogers.com/">Rogers Business Solutions</a></td>
-			<td headers="th159D00300001">Rogers Business Solutions (RBS) SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.sbc-europe.com/sip-trunking">SBC Europe</a></td>
-			<td headers="th159D00300001">SIP Trunking for Microsoft Lync (2013)</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.sotelsystems.com/business-voip">SoTel Systems, LLC</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ">Sprint</a></td>
-			<td headers="th159D00300001">Global SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.swisscom.ch/solutions/de/start/loesungen/telefonie-ucc/enterprise-telephony/hosted-enterprise-telephony.html">Swisscom (Switzerland)</a></td>
-			<td headers="th159D00300001">VoIP Gate</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.tatacommunications.com/GSC/index.html">Tata Communications</a></td>
-			<td headers="th159D00300001">Global SIP Connect</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://tdc.se/element.php?dogtag=tdcs_erb_fas_but">TDC</a></td>
-			<td headers="th159D00300001">TDC Business Trunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.telappliant.com/sip-trunking#tab_overview">Telappliant</a></td>
-			<td headers="th159D00300001">talkAssure SIP Trunking for Microsoft Lync</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.telavox.se/telefoni-for-vaxlar/#specification-5">Telavox</a></td>
-			<td headers="th159D00300001">SIP Trunk</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.tele2.nl/zakelijk/telefonie/voip-bellen/?gclid=CjwKEAjw-JqgBRCAyqjoic27nlQSJABBTpFEPqylpfzn4si30OM_T7hTqYhAPfNK3pBlpjhjyUzhbxoCasnw_wcB">Tele2</a></td>
-			<td headers="th159D00300001">VoIP Connect</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.globalsolutions.telefonica.com/en/multinational/products-services/unified-communication-and-collaboration/">Telefonica Business Solutions</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.gen-i.co.nz/solutions/collaboration/voice-connect/">Telecom New Zealand / Gen-I</a></td>
-			<td headers="th159D00300001">Voice Connect</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.sonera.fi/">TeliaSonera Finland Oyj</a></td>
-			<td headers="th159D00300001">Sonera Business Voice Access</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.telio.no/">Telio Telecom AS</a></td>
-			<td headers="th159D00300001">Telio SipTrunk</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.telkomsel.com/">Telkomsel</a></td>
-			<td headers="th159D00300001">Telkomsel Connect</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking">Telus</a></td>
-			<td headers="th159D00300001">IP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.thinktel.ca/en/sip-for-lync">Thinktel</a></td>
-			<td headers="th159D00300001">SIP Trunking</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.toplink.de/lync-2013">toplink GmbH</a></td>
-			<td headers="th159D00300001">tpl_sip.business LC</td>
-			<td align=center>&#x2714;</td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.t-systems.com/">T-Systems International GmbH</a></td>
-			<td headers="th159D00300001">Corporate SIP Germany</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.twtelecom.com/telecom-solutions/voice-solutions/business-voice-services/">tw telecom</a></td>
-			<td headers="th159D00300001">Managed SIP Services</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.verizonbusiness.com/products/advanced-communications/">Verizon Business</a></td>
-			<td headers="th159D00300001">IP Trunking Services</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.vodafone.de/business/firmenkunden/loesungen/ip-anlagen-anschluss.html">Vodafone GmbH</a></td>
-			<td headers="th159D00300001">IP Anlagen-Anschluss</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/">Vodafone Netherlands</a></td>
-			<td headers="th159D00300001">Vodafone Office Voice (VoV) and Corporate Net over IP (CNoIP)</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.voxbone.com/microsoft-lync.jsf">Voxbone SA</a></td>
-			<td headers="th159D00300001">VoxDID, Vox800</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://westipc.com/products-and-services/voice-services/maxxconnect-ip-trunking/">West IP Communications</a></td>
-			<td headers="th159D00300001">MaxxConnect</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000">Widevoice, LLC</td>
-			<td headers="th159D00300001">SIMPLE LYNC TRUNK</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-		<tr>
-			<td headers="th159D00300000"><a href="http://www.xo.com/unified-communications/sip/">XO Communications</a></td>
-			<td headers="th159D00300001">XO SIP Services</td>
-			<td headers="th159D00300002"> </td>
-		</tr>
-	</tbody>
-</table>
+|Carrier |Service Name  |Qualified with TLS &amp; SRTP  |
+|:--- |:---  |:---:  |
+| [Accelerated Connections](http://www.acceleratedconnections.com/)     | ACI SIP Trunk    |      |
+|AT&amp;T |AT&amp;T IP Flexible Reach Service  |    |
+|[Broad-Connect](http://www.broadconnect.ca/ip-telephone/sip-trunking/)  |SIP Trunking  |  |
+|[BroadSoft Adaption](http://www.adpt-tech.com/)  |OfficeTrunk  |  |
+|[BROKERTEAM](http://brokerteam.eu/microsoft-lync)  |SIP Trunk Brokerteam - Winvision Voice  |  |
+|[BT Global Services](http://www.globalservices.bt.com/uk/en/products/one_voice)  |BT One Voice  | |
+|[C3NTRO](http://c3ntro.com/landing/sip/rznbcwnebh.html)  | Lync SIP Connect |  |
+|[Circuit ID](http://www.circuitid.com/cloud-sip/?ePlatform=lync)  | Cloud SIP |  |
+|[Lync Trunk](http://www.cirque.dk/da-dk/erhverv/microsoft-certificering.html)  |Cirque A/S  |&#x2714;  |
+|[Colt Technology Services](http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)  |VoIP Access  |  |
+|[Columbus Business Solutions](http://www.columbus-business.com/)  | CBS Cloud Voice | &#x2714; |
+|[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip)  |Comscentre Sip Connect for Microsoft Lync |  |
+|[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365)  |SIP Trunking  |&#x2714;  |
+|[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)  |SIP Trunk  |  |
+|[G12 Communications](http://g12communications.com/)  | Lync SIP Trunks |  |
+|[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/)  | SIP Trunking |  |
+|[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/lync)  |GlobalConnect SIP Trunking  |  |
+|[IntelePeer](http://www.intelepeer.com/)  | IntelePeer SIP Trunking< | &#x2714; |
+|[Internet Solutions](https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx)  |Internet Solutions SIP Trunk |  |
+|[Interoute](http://www.interoute.com/product/interoute-one)  | Interoute One |  |
+|[ipvision a/s](http://www.ipvision.dk/microsoft-lync/)  | VIP Trunk |&#x2714;  |
+|[Kordia](http://www.kordia.co.nz/)  | Onkor Voice | &#x2714; |
+|[Level 3](http://level3.com/lync)  |Level 3 Communications SIP Trunking  |  |
+|[Magnetic North](http://www.magneticnorth.com/cloud-pbx/sip-trunks)  |Cloud PBX  |  |
+|[Netstream](http://www.netstream.ch/index.php?id=506)  |Lync Connect  | &#x2714; |
+|[Masergy Communications](http://www.masergy.com/solutions/unified-communications)  | Intelligent SIP Trunk |  |
+|[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/)  | Lync Trunking | &#x2714; |
+|[Orange Business Services](http://www.orange-business.com/en/products/business-talk)  | Business Talk (SIP Trunking) |  |
+|[Peerless Network](http://www.peerlessnetwork.com/enterprise-service/)  |Enterprise SIP Trunking |  |
+|[Phonero](http://www.phonero.no/)  | Phonero SIP-trunk |  |
+|[Pure-IP](http://pure-ip.com/microsoft-Lync-voice-trunks)  |OneLync SIP Trunks  | &#x2714; |
+|[QSC AG](http://www.qsc.de/ipfonie-extended-link/)  |IPfonie extended link  |  |
+|[Redwood Technologies](http://www.redwoodtech.com/products/microsoft-lync/)  | SIP Trunk |  |
+|[Rogers Business Solutions](http://business.rogers.com/)  | Rogers Business Solutions (RBS) SIP Trunking |  |
+|[SBC Europe](https://www.sbc-europe.com/sip-trunking)  | SIP Trunking for Microsoft Lync (2013) |  |
+|[SoTel Systems, LLC](http://www.sotelsystems.com/business-voip)  | SIP Trunking |  |
+|[Sprint](https://www.sprint.com/business/solutions/sprint_enablers/sip_trunking/index.html?INTNAV=ATG:HE:SIPTrunking#.U6LRQnlOVaQ)  |Global SIP Trunking  |  |
+|[Swisscom (Switzerland)](http://www.swisscom.ch/solutions/de/start/loesungen/telefonie-ucc/enterprise-telephony/hosted-enterprise-telephony.html)  |VoIP Gate  |  |
+|[Tata Communications](http://www.tatacommunications.com/GSC/index.html)  | Global SIP Connect | &#x2714; |
+|[TDC](http://tdc.se/element.php?dogtag=tdcs_erb_fas_but)  | TDC Business Trunk |  |
+|[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview)  | talkAssure SIP Trunking for Microsoft Lync |  |
+|[Telavox](http://www.telavox.se/telefoni-for-vaxlar/#specification-5)  | SIP Trunk | &#x2714; |
+|[Tele2](https://www.tele2.nl/zakelijk/telefonie/voip-bellen/?gclid=CjwKEAjw-JqgBRCAyqjoic27nlQSJABBTpFEPqylpfzn4si30OM_T7hTqYhAPfNK3pBlpjhjyUzhbxoCasnw_wcB)  |VoIP Connect  |  |
+|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/en/multinational/products-services/unified-communication-and-collaboration/)  | SIP Trunking |  |
+|[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/)  | Voice Connect |  |
+|[TeliaSonera Finland Oyj](http://www.sonera.fi/)  |Sonera Business Voice Access  |  |
+|[Telio Telecom AS](http://www.telio.no/)  |Telio SipTrunk  |  |
+|[Telkomsel](http://www.telkomsel.com/)  | Telkomsel Connect |  |
+|[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking)  |IP Trunking  |  |
+|[Thinktel](http://www.thinktel.ca/en/sip-for-lync)  | SIP Trunking |  |
+| [toplink GmbH](http://www.toplink.de/lync-2013) |tpl_sip.business LC  | &#x2714;  |
+| [T-Systems International GmbH](http://www.t-systems.com/) |Corporate SIP Germany  |   |
+| [tw telecom](http://www.twtelecom.com/telecom-solutions/voice-solutions/business-voice-services/) | Managed SIP Services |   |
+| [Verizon Business](http://www.verizonbusiness.com/products/advanced-communications/) | IP Trunking Services |   |
+| [Vodafone GmbH](http://www.vodafone.de/business/firmenkunden/loesungen/ip-anlagen-anschluss.html) | IP Anlagen-Anschluss |   |
+| [Vodafone Netherlands](https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/) | Vodafone Office Voice (VoV) and Corporate Net over IP (CNoIP) |   |
+| [Voxbone SA](http://www.voxbone.com/microsoft-lync.jsf) |VoxDID, Vox800  |   |
+| [West IP Communications](http://westipc.com/products-and-services/voice-services/maxxconnect-ip-trunking/) |MaxxConnect |   |
+| Widevoice, LLC | SIMPLE LYNC TRUNK |   |
+| [XO Communications](http://www.xo.com/unified-communications/sip/) | XO SIP Services |   |
+| | | |
 
 ## SIP trunking services qualified for Lync Server 2010
 
