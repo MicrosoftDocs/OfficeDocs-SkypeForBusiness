@@ -84,6 +84,7 @@ This is what the report looks like.
      *    **MCOPSTNPP** - Communications Credits <br/> **MCOPSTN1** - Domestic Calling Plan (3000 min US / 1200 min EU plans) 
      *    **MCOPSTN2** - International Calling Plan 
      *    **MCOPSTN5** - Domestic Calling Plan (120 min calling plan) 
+     *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing 
 ***

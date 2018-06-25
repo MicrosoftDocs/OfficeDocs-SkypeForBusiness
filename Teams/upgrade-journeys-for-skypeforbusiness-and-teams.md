@@ -1,9 +1,9 @@
 ---
 title: Understand upgrade journeys for Skype for Business and Microsoft Teams
 author: arachmanGitHub
-ms.author: MyAdvisor
+ms.author: arachman
 manager: serdars
-ms.date: 08/06/2018
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
