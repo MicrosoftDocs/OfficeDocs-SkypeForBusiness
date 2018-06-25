@@ -163,9 +163,12 @@ Documentation for the following features (including all relevant plan/deploy/man
     - [Plan for large meetings in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/large-meetings.md) 
         - Contains link to 2015 non-evergreened topic: "Configure your on-premises deployment for Skype Meeting Broadcast"
     - [Deploy conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md)
+        - Contains links to 2015-only topics: "Server requirements for Skype for Business Server 2015," "Environmental requirements for Skype for Business Server 2015," "Plan for Edge Server deployments in Skype for Business Server 2015," "Deploy Edge Server in Skype for Business Server 2015"
     - [Configure dial-in conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md)
-    - [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/office-web-app-server.md)
-    - [Deploy SRS v1 Administrative Web Portal in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md)
+        - Contains "Skype for Business 2015" in UI steps x 2.
+    - [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/office-web-app-server.md) &#x2714;
+    - [Deploy SRS v1 Administrative Web Portal in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md) 
+        - Contains external links to "Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015," "Updates for Skype for Business Server 2015." Step 3 of installation includes "%Program Files%\Skype for Business Server 2015" file location. Also, link to "Required DNS Records for Automatic Client Sign-In" has note that the content is no longer being updated. Are screen shots OK as is?
     - [Manage dial-in conferencing access numbers in Skype for Business Server 2015](../SfbServer/manage/conferencing/access-numbers.md)
     - [Assign conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/assign-policies.md)
     - [Manage conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-policies.md)
