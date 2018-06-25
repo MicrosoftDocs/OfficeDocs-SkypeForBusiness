@@ -1,21 +1,20 @@
 ---
-title: "Capacity planning user model usage for Skype for Business Server 2015"
+title: "Capacity planning user model usage for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
-description: "This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in User models in Skype for Business Server 2015."
+description: "This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in User models in Skype for Business Server."
 ---
 
-# Capacity planning user model usage for Skype for Business Server 2015
+# Capacity planning user model usage for Skype for Business Server 
  
-This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Skype for Business Server 2015](user-models.md).
+This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Skype for Business Server](user-models.md).
   
 > [!NOTE]
 > All recommendations in this article assume that you have installed Skype for Business Cumulative Update, November 2015, or later on your servers. 
@@ -40,7 +39,7 @@ The following table summarizes our recommendations.
 |**Server role**|**Maximum number of users supported**|
 |:-----|:-----|
 |Front End pool with twelve Front End Servers and one Back End Server or a mirrored pair of Back End Servers.  <br/> |80,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 152,000 endpoints.  <br/> |
-|A/V Conferencing  <br/> |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).  <br/> |
+|A/V Conferencing  <br/> |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).  <br/> |
 |One Edge Server  <br/> |12,000 concurrent remote users.  <br/> |
 |One Director  <br/> |12,000 concurrent remote users.  <br/> |
 |Monitoring and Archiving  <br/> |The Monitoring and Archiving front end services run on each Front End Server, instead of on separate server roles.  <br/> Monitoring and Archiving each still require their own database stores. If you also run Exchange 2013 or later, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.  <br/> |
@@ -62,7 +61,7 @@ If instead you had started with six Front End Servers for your 30,000 users and 
   
 The maximum number of users in a Front End pool is 80,000. The maximum number of Front End Servers in a pool is 12. 
   
-For a Front End pool with 80,000 users, twelve Front End Servers will be good for performance, in typical deployments that follow the [User models in Skype for Business Server 2015](user-models.md). Deployments designed to support disaster recovery failover assume that a maximum of 40,000 users can be hosted in each of two paired Front End pools, in which each pool has enough Front End Servers to contain the users in both pools, should one pool need to be failed over to the other.
+For a Front End pool with 80,000 users, twelve Front End Servers will be good for performance, in typical deployments that follow the [User models in Skype for Business Server](user-models.md). Deployments designed to support disaster recovery failover assume that a maximum of 40,000 users can be hosted in each of two paired Front End pools, in which each pool has enough Front End Servers to contain the users in both pools, should one pool need to be failed over to the other.
   
 The number of users supported with good performance by a particular Front End pool may differ from these numbers for the following reasons:
   
@@ -70,7 +69,7 @@ The number of users supported with good performance by a particular Front End po
     
 - Your organization's usage is very different from the user models, for example, if you have a lot more conferencing traffic.
     
-The following table shows the average bandwidth for IM and presence, given the user model, as defined in [User models in Skype for Business Server 2015](user-models.md).
+The following table shows the average bandwidth for IM and presence, given the user model, as defined in [User models in Skype for Business Server](user-models.md).
   
 |**Average bandwidth per user**|**Bandwidth requirements per Front End Server with 6,660 users**|
 |:-----|:-----|
@@ -81,15 +80,15 @@ The following table shows the average bandwidth for IM and presence, given the u
   
 ## Conferencing Maximums
 
-Given the user model that 5% of users in a pool may be in a conference at any one time, a pool of 80,000 users could have about 4,000 users in conferences simultaneously. These conferences are expected to be a mix of media (some IM-only, some IM with audio, some audio/video, for example) and number of participants. There isn't a hard limit for the actual number of conferences allowed, and actual usage determines the actual performance. For example, if your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers or A/V Conferencing Servers than the recommendations found in this article. For details about the assumptions in the user model, see [User models in Skype for Business Server 2015](user-models.md).
+Given the user model that 5% of users in a pool may be in a conference at any one time, a pool of 80,000 users could have about 4,000 users in conferences simultaneously. These conferences are expected to be a mix of media (some IM-only, some IM with audio, some audio/video, for example) and number of participants. There isn't a hard limit for the actual number of conferences allowed, and actual usage determines the actual performance. For example, if your organization has many more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers or A/V Conferencing Servers than the recommendations found in this article. For details about the assumptions in the user model, see [User models in Skype for Business Server](user-models.md).
   
 The maximum supported conference size hosted by a regular Skype for Business Server Front End pool which also hosts users is 250 participants. While a 250-user conference is happening, the pool still supports other conferences as well, such that a total of 5% of pool users are in concurrent conferences. For example, in a pool of twelve Front End Servers and 80,000 users, while the 250-user conference is happening, Skype for Business Server supports 3,750 other users participating in smaller conferences.
   
 Regardless of the number of users homed on the Front End pool or Standard Edition server, Skype for Business Server supports a minimum of 125 other users participating in smaller conferences on the same pool or server which is hosting a 250-user conference. 
   
-To enable conferences that have between 250 and 1000 users, you can set up a separate Front End pool just to host those conferences. This Front End pool won't host any users. For details, please see [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).
+To enable conferences that have between 250 and 1000 users, you can set up a separate Front End pool just to host those conferences. This Front End pool won't host any users. For details, please see [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
   
-If your organization has a lot more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers than we recommendation in this document (up to a limit of 12 Front End Servers). For details about the assumptions in the user model, see [User models in Skype for Business Server 2015](user-models.md).
+If your organization has a lot more mixed-mode conferences than are assumed in the user model, you might need to deploy more Front End Servers than we recommendation in this document (up to a limit of 12 Front End Servers). For details about the assumptions in the user model, see [User models in Skype for Business Server](user-models.md).
   
 ## Edge Server
 
@@ -121,9 +120,9 @@ If you collocate Mediation Server with Front End Server, Mediation Server runs o
   
 If you deploy a stand-alone Mediation Server pool, then how many Mediation Servers to deploy depends on many factors, including the hardware used for Mediation Server, the number of VoIP users you have, the number of gateway peers that each Mediation Server pool controls, the busy hour traffic through those gateways, and the percentage of calls with media that bypasses the Mediation Server. 
   
-The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) and that hyper-threading is enabled. For details about Mediation Server scalability, see [Estimating voice usage and traffic for Skype for Business Server 2015](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype for Business Server 2015](mediation-server-deployment-guidelines.md).
+The following tables provide a guideline for how many concurrent calls a Mediation Server can handle, assuming that the hardware for the Mediation Servers meets the requirements in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) and that hyper-threading is enabled. For details about Mediation Server scalability, see [Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md) and [Deployment guidelines for Mediation Server in Skype for Business Server](mediation-server-deployment-guidelines.md).
   
-All the following tables assume usage as summarized in [User models in Skype for Business Server 2015](user-models.md).
+All the following tables assume usage as summarized in [User models in Skype for Business Server](user-models.md).
   
 **Stand-alone Mediation Server Capacity: 70% Internal Users, 30% External users with non-bypass call capacity (media transcoding performed by Mediation Server)**
 
@@ -151,7 +150,7 @@ All the following tables assume usage as summarized in [User models in Skype for
 
 Although much of the database information is stored primarily on the Front End Servers, you should make sure your Back End Servers meet the hardware recommendations listed earlier in this section and in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
   
-To provide high availability of your Back End Server, we recommend deploying AlwaysOn Availability Groups or server mirroring. For more information, see [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+To provide high availability of your Back End Server, we recommend deploying AlwaysOn Availability Groups or server mirroring. For more information, see [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 ## Monitoring and Archiving
 

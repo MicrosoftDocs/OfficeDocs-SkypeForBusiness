@@ -1,9 +1,8 @@
 ---
-title: "Deployment guidelines for Mediation Server in Skype for Business Server 2015"
+title: "Deployment guidelines for Mediation Server in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: "This topic describes planning guidelines for Mediation Server deployment."
 ---
 
-# Deployment guidelines for Mediation Server in Skype for Business Server 2015
+# Deployment guidelines for Mediation Server in Skype for Business Server
  
 This topic describes planning guidelines for Mediation Server deployment.
   
@@ -35,7 +34,7 @@ If you deployed PSTN gateways, IP-PBXs, or Session Border Controllers (SBCs) tha
     
 - Accept traffic from any Mediation Server in a pool.
     
-You can use the Microsoft Lync Server 2013, Planning Tool to evaluate whether collocating the Mediation Server with your Front End pool can handle the load. If your environment can't meet these requirements, then you'll need to deploy a stand-alone Mediation Server pool.
+You can use the Skype for Business Planning Tool to evaluate whether collocating the Mediation Server with your Front End pool can handle the load. If your environment can't meet these requirements, then you'll need to deploy a stand-alone Mediation Server pool.
   
 ## Central Site and Branch Site Considerations
 
