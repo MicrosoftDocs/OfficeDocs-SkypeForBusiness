@@ -146,19 +146,9 @@ These instructions include the current workarounds for installing Teams for Surf
    b. Tap **Surface Hub Device account, management**.<br>
    c. On the left, tap the **Apps & Features** tab.<br> 
    d. On the right, tap the **Open Store** button. 
-2. Open the Edge browser. 
-3. In the location bar of Edge, type in one of the following ms-windows-store protocol links to see Teams for Surface Hub in the Microsoft Store. 
-
-|Build      | ms-windows-store protocol link  |
-|-----------|---------|
-|Dev        | ms-windows-store://pdp/?productid=9N8NWZVTB53S  |
-|Dogfood    | ms-windows-store://pdp/?productid=9MVV3NT3WPJ2  |
-|Tap        | ms-windows-store://pdp/?productid=9NGRP1GCM35Q  |
-|Production | ms-windows-store://pdp/?productid=9PCZM4LGF8S6  |
-
-4. The Microsoft Store should appear showing the version you linked above for Microsoft Teams for Surface Hub. Tap the **Get the app** button to install. 
-5. When the installation is complete, restart the Surface Hub. 
-6. After the Surface Hub restarts, you should be able to start the Teams app from the **Start** menu and join a meeting from the calendar. 
+2. From the Microsoft Store, search for *Microsoft Teams*. The **Microsoft Teams for Surface Hub (Preview)** will be displayed. Tap the **Get the app** button to install.  
+3. When the installation is complete, restart the Surface Hub. 
+4. After the Surface Hub restarts, you should be able to start the Teams app from the **Start** menu and join a meeting from the calendar. 
 
 ## Make Teams the default VTC application
 
@@ -171,13 +161,13 @@ There are two options for configuring MDM policies:
 
 ### Device management configuration
 
-The following is an example of adding an MDM policy configured from a central MDM authority. If you are on the corporate network, you can follow the below instructions verbatim, including user account. 
+The following is an example of adding an MDM policy configured from a central MDM authority. If you are on the corporate network, you can use the following instructions verbatim, including user account. 
  
 1. Under the **Device Management** section, tap **+**.<br>
    The **Connect to work or school** dialog box will open. 
 2. Enter the policy e-mail address and password when prompted.<br>
-   > [!NOTE]
-   > There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
+> [!NOTE]
+> There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
 3. It'll take a few minutes for the MDM policy settings to sync. If you want to force a sync, tap the **MDM account** button, and then tap the **Info** button. This will bring up the Info window where you can then tap **Sync**. 
 4. To verify that you have what you need, you can check the registry. You should see two keys under **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
    The **VtcAppMeetingHandlingMode** DWORD value indicates that Teams is the default app. The following values are recognized. <br><br>
@@ -191,21 +181,23 @@ The following is an example of adding an MDM policy configured from a central MD
  
 ### Configure MDM via USB key 
  
-The packages can be found at [\\\scratch2\scratch\TeamsOnShub\ppkg](\\scratch2\scratch\TeamsOnShub\ppkg). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store (either Dev or Dogfood), and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
+The packages can be found at [tbd - add correct download link](\\scratch2\scratch\TeamsOnShub\ppkg). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store, and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
  
 1. Attach the USB key to the Surface Hub device. 
 2. Open the **Settings** app on a Surface Hub device. 
-3. Click the **Add Package** button. 
-4. Select the **Removable Media** option from the drop-down menu. 
-5. Select the .ppkg file.
+3. Open **Surface Hub Device Account Management**.
+4. Open **Device Management**. 
+5. Click **Add or Remove a provisioning package**. 
+6. Click **Add Package**.
+7. Select the **Removable Media** option from the drop-down menu. 
+8. Add the **Allowbuildspreview.ppkg**, and then select the Surface Hub package you want to add. 
+9. Restart the Surface Hub device. 
 
 ## Known issues
  
 |Issue  |Comment  |
 |---------|---------|
-|When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known issue and will be corrected in a future release.         |
-|When a user is in a chat session, the user cannot like or bookmark any chat message from the chat window.     |This is a known issue and will be corrected in a future release.         |
-|When a user is in a chat session and tries to share a GIF file, the GIF appears small and the video play button is separate from the video.     |This is a known issue and will be corrected in a future release.         |
+|When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known limitation.         |
 
 > [!NOTE]
 > If your device or your organization's devices are not currently part of the Windows Insider Program and you are in countries covered by General Data Protection Regulation (GDPR) (or you have manually changed your telemetry settings to Basic), then you must re-check that you have permitted full telemetry before you join the Insider Program. GDPR changed the default behavior of Surface Hub devices in the EU to set telemetry to Basic.
