@@ -1,24 +1,23 @@
 ---
-title: "Plan for dial-in conferencing in Skype for Business Server 2015"
+title: "Plan for dial-in conferencing in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: "Summary: Read this topic to learn about planning for dial-in conferencing in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about planning for dial-in conferencing in Skype for Business Server."
 ---
 
-# Plan for dial-in conferencing in Skype for Business Server 2015
+# Plan for dial-in conferencing in Skype for Business Server
  
-**Summary:** Read this topic to learn about planning for dial-in conferencing in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about planning for dial-in conferencing in Skype for Business Server.
   
 Dial-in conferencing is an optional feature of Skype for Business Server that allows meeting attendees to join the audio portion of a meeting by calling in to the meeting from a phone. Dial-in conferencing is a subset of audio conferencing and requires additional configuration. This topic describes what you need to think about before deploying dial-in conferencing for your organization. 
   
-Some of the components required for dial-in conferencing are specific to dial-in conferencing and some are Enterprise Voice components. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. This section describes the components that are needed for dial-in conferencing. For more information about planning a complete Enterprise Voice solution, see [Plan your Enterprise Voice solution in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Some of the components required for dial-in conferencing are specific to dial-in conferencing and some are Enterprise Voice components. Although dial-in conferencing uses some of the same components that Enterprise Voice uses, you can deploy dial-in conferencing even if you do not deploy Enterprise Voice. This section describes the components that are needed for dial-in conferencing. For more information about planning a complete Enterprise Voice solution, see [Plan your Enterprise Voice solution in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 Dial-in conferencing requires that you provide connectivity to the public switched telephone network (PSTN) by deploying a Mediation Server. In addition to deploying a Mediation Server, you need to consider the following to allow dial-in conferencing for your organization:
   
@@ -43,7 +42,7 @@ You can deploy a Mediation Server in a central site or in a branch site. In a ce
   
 You can deploy a PSTN gateway in a central site or in a branch site. In a branch site, the PSTN gateway can be stand-alone or a component of the Survivable Branch Appliance.
   
-For details about Mediation Server and PSTN gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), and [Define a gateway in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+For details about Mediation Server and PSTN gateway requirements, see [Mediation Server component in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md), and [Define a gateway in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## Plan for dial plans, access numbers, and conferencing regions
 
@@ -79,7 +78,7 @@ Before you configure the dial plans, is it important to plan how you want to nam
     
 - Any user from any location can call any dial-in access number to join a conference.
     
-For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+For more information about creating a dial plan, see [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) and [Create or modify a normalization rule in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## Plan for conference directories
 
