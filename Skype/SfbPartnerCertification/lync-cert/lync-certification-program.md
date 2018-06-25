@@ -44,28 +44,15 @@ All meeting room devices that are "Qualified for Lync" are supported in Lync Onl
 
 Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. Listed below are the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
 
-<table border="1" cellpadding="0" cellspacing="0" class="shaded" style="border-collapse:collapse; border: solid 1px ;" width="66%" xmlns="_http://www.w3.org/1999/xhtml">
-	<tr bgcolor="#DEDEDE">
-		<td id="th0F9608F00000"><strong>Manufacturer</strong></td>
-		<td id="th0F9608F00001"><strong>Product</strong></td>
-		<td id="th0F9608F00002"><strong>Device type</strong></td>
-	</tr>
-	<tr align="left" valign="top">
-		<td>Polycom</td>
-		<td>HDX 4500, 6000, 7000, 8000;<br />Firmware 3.1.0-23277 or greater</td>
-		<td>VTC</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td>Polycom</td>
-		<td>RMX 1500, 2000</td>
-		<td>MCU</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td headers="th0F9608F00000">Radvision</td>
-		<td headers="th0F9608F00001">SCOPIA Video Gateway for Microsoft Lync</td>
-		<td headers="th0F9608F00002">Gateway</td>
-	</tr>
-</table>
+
+|Manufacturer  |Product  |Device type  |
+|:---------|:---------|:---------|
+|Polycom     |HDX 4500, 6000, 7000, 8000;<br />Firmware 3.1.0-23277 or greater         |    VTC     |
+|Polycom     |RMX 1500, 2000         |     MCU    |
+|Radvision     |   SCOPIA Video Gateway for Microsoft Lync      |    Gateway     |
+|     |         |         |
+
+
 
 ## SIP trunking
 

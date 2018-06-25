@@ -70,13 +70,13 @@ Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, t
 
 End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems). With the Lync SDN API and Dell W-Series Wi-Fi you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.
 
-## Extreme Network
+## Extreme Networks
 * * *
   **Lync 2013**
 
   **Gain in-depth visibility into application and network response times.**
 
-[Extreme Network](http://extremenetworks.com)
+[Extreme Networks](http://extremenetworks.com)
 
 ***Extreme Networks*** integration with Lync includes in-depth analytics into Lync environments across wired and wireless networks, including connectivity, infrastructure, and endpoint performance; and SDN integration that resolves implementation challenges arising from Lync end system QoS provisioning and static network policies.
 

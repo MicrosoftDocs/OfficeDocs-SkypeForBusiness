@@ -120,39 +120,12 @@ Clients which do not meet the preceding requirements are not supported by Micros
 
 The specific VDI client terminals tested by the VDI client manufacturers and validated by Microsoft are as follows. 
 
-<table border="1" cellpadding="0" cellspacing="0" class="grid" style="border-collapse:collapse;" xmlns="http://www.w3.org/1999/xhtml">
-	<colgroup>
-		<col width="60" />
-		<col width="120" />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td valign="top"><strong>Vendor</strong></td>
-			<td valign="top"><strong>Tested terminals</strong></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td rowspan="3">Dell Wyse</td>
-			<td valign="top">R90L7</td>
-		</tr>
-		<tr>
-			<td valign="top">X90m7</td>
-		</tr>
-		<tr>
-			<td valign="top">Z90D7</td>
-		</tr>
-		<tr>
-			<td rowspan="3">HP</td>
-			<td valign="top">t510</td>
-		</tr>
-		<tr>
-			<td valign="top">t5740e</td>
-		</tr>
-		<tr>
-			<td valign="top">t610</td>
-		</tr>
-	</tbody>
-</table>
+|Vendor | Tested terminals |
+|:---------|:---------|
+|Dell Wyse|  R90L7, X90m7, Z90D7 |
+|HP     |  t510, t5740e, t610 |
+|      |         |
+
+
 
 For additional information about specific thin clients, please contact the client hardware manufacturer.

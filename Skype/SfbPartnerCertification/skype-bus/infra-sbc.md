@@ -115,7 +115,7 @@ Listed here are the session border controllers that are certified for Skype for 
 			<td rowspan="2"><a href="https://www.oracle.com/industries/communications/enterprise/products/session-border-controller/index.html">Oracle</a></td>
 			<td>Net-Net 3820</td>
 			<td> </td>
-			<td>ECX6.4.0 MR-5 GA (Build 455)*</td>
+			<td>ECX6.4.0 MR-5 GA (Build 455) &Dagger; </td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Oracle Enterprise SBC AP4600</td>
@@ -149,7 +149,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		<tr>
 			<td>SBC 2000</td>
 			<td> </td>
-			<td>4.1.1 Build 376*</td>
+			<td>4.1.1 Build 376 &Dagger;</td>
 		</tr>
 		<tr>
 			<td>SBC 5000</td>
@@ -177,7 +177,7 @@ Listed here are the session border controllers that are certified for Skype for 
 		</tr>
 	</tbody>
 </table>
-\* This device was pre-release tested with Skype for Business. Upon completion of official qualification testing, the software version may change.
+&Dagger; This device was pre-release tested with Skype for Business. Upon completion of official qualification testing, the software version may change.
 
 All Lync Server 2013 qualified session border controllers are forward compatible and supported with Skype for Business 2015. See [this list of Lync Server 2013 qualified SBCs](../lync-cert/sbcs-lync-server.md).
 
