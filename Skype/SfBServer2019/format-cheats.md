@@ -12,9 +12,7 @@ ms.collection:
 description: "Markdown has Easter eggs. Who knew?"
 ---
 
-
 [!INCLUDE [disclaimer](disclaimer.md)]
-
 
 # Formatting Cheat Sheet
 
