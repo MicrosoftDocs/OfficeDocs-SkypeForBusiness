@@ -24,36 +24,14 @@ description: "Skype for Business Server User and Policy Provisioning tools valid
 
 User and Policy Provisioning tools certification validates the ability of the tool to perform single and bulk provisioning of existing AD users by enabling them for EV and assigning DIDs, dial plans and policies at the user level for Skype for Business Server 2015.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="863" xmlns="http://www.w3.org/1999/xhtml">
-	<colgroup>
-		<col width="84" />
-		<col width="179" />
-		<col width="200" />
-		<col width="101" />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td align="center" valign="top"><strong>Vendor</strong></td>
-			<td align="center" valign="top"><strong>Tool Version Certified</strong></td>
-			<td align="center" valign="top"><strong>Certified For</strong></td>
-			<td align="center" valign="top"><strong>Certification Date</strong></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr align="left" valign="top">
-			<td><strong>Unify Square</strong></td>
-			<td>PowerSuite Provisioning 1.0</td>
-			<td>Skype for Business Server 2015</td>
-			<td>July 2015</td>
-		</tr>
-		<tr align="left" valign="top">
-			<td><strong>Unimax</strong></td>
-			<td>2nd Nature Enterprise Edition 8.4G7</td>
-			<td>Skype for Business Server 2015</td>
-			<td>Sept 2016</td>
-		</tr>
-	</tbody>
-</table>
+
+|Vendor  |Tool Version Certified  |Certified For  | Certification Date |
+|:---------|:---------|:---------|:--- |
+|Unify Square |PowerSuite Provisioning 1.0|Skype for Business Server 2015 |July 2015 |
+|Row2     |         |         |  |
+|  Unimax    | 2nd Nature Enterprise Edition 8.4G7 |Skype for Business Server 2015 |Sept 2016|
+|  |  |  |  |
+
 
 Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
 

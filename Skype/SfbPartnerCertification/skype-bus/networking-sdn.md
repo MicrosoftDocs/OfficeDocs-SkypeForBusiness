@@ -29,40 +29,18 @@ UC SDN allows Skype for Business to dynamically interact with the network to ens
 
 This table lists the SDN solutions certified for Skype for Business.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="500px" xmlns="http://www.w3.org/1999/xhtml">
-	<tr bgcolor="#DEDEDE">
-		<td align="center" valign="top"><strong>Vendor</strong></td>
-		<td align="center" valign="top"><strong>Certified Product</strong></td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://www.arubanetworks.com/">Aruba, a Hewlett Packard Enterprise Company</a></td>
-		<td>Wi-Fi, Network Optimizer</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://www.arrowsi.com/">Arrow Systems</a></td>
-		<td>Prism OneView</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://www.dell.com/us/business/p/w-series-airwave/pd">Dell</a></td>
-		<td>Wi-Fi</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
-		<td>OneFabric Connect</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://ir.com/">IR</a></td>
-		<td>Prognosis</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://www.merunetworks.com/Products/Software/Meru-Center.html">Meru Networks</a></td>
-		<td>Meru Collaborator</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="http://nectarcorp.com/">Nectar</a></td>
-		<td>UC Diagnostics</td>
-	</tr>
-</table>
+
+| Vendor  | Certified Product  |
+|:---------|:---------|
+| [Aruba, a Hewlett Packard Enterprise Company](http://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
+|[Arrow Systems](http://www.arrowsi.com/) | Prism OneView |
+|[Dell](http://www.dell.com/us/business/p/w-series-airwave/pd) |Wi-Fi |
+|[Extreme Networks](http://www.extremenetworks.com/product/microsoft-lync-solutions) |  OneFabric Connect |
+|[IR](http://ir.com/) |Prognosis|
+|[Meru Networks](http://www.merunetworks.com/Products/Software/Meru-Center.html) |Meru Collaborator |
+|[Nectar](http://nectarcorp.com/)  |   UC Diagnostics      |
+|     |         |
+
 
 All SDN solutions qualified on Lync 2013 will be considered certified for Skype for Business.
 
