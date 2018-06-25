@@ -77,11 +77,11 @@
 #### [Call Via Work](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Remote call control](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Monitoring](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-## [Capacity](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [User model](../../SfbServer/plan-your-deployment/capacity/user-model.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Estimating voice traffic](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Mediation Server deployment guidelines](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [User models](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Capacity](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [User model](../../SfbServer/plan-your-deployment/capacity/user-model.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Estimating voice traffic](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Mediation Server deployment guidelines](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [User models](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ## Deploy

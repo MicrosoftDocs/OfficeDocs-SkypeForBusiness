@@ -145,7 +145,7 @@ Documentation for the following features (including all relevant plan/deploy/man
 - Monitoring (plan, deploy, manage)  &#x2714; (need to reassess for MCX)
 - Archiving (plan, deploy, manage)  &#x2714;
 - Authentication (Manage), Modern Authentication (Plan)
-- Capacity planning
+- Capacity planning &#x2714;
     - [Capacity planning for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/capacity.md)
     - [Estimating voice usage and traffic for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md)
     - [Deployment guidelines for Mediation Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md)
