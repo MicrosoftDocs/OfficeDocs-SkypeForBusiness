@@ -22,6 +22,7 @@
 ### [SIP Trunking services](../skype-bus/services-sip-trunking.md) 
 ### [E-911 service providers](../skype-bus/services-e911.md) 
 ### [Audio conferencing providers](../skype-bus/services-acps.md)
+### [Lync Online Dedicated](../lync-cert/online-dedicated.md)
 ##  [IT Pro](../skype-bus/it-pro-tools.md)
 ### [Network Pre-Assessment](../skype-bus/it-pro-tools-pre-assessment.md) 
 ### [Migration](../skype-bus/it-pro-tools-migration.md) 
@@ -31,7 +32,7 @@
 ## [Video](../skype-bus/video.md)   
 ##  [ISV](../skype-bus/isv-overview.md)
 ### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
-## Lync Partner Qualification
+## [Lync Partner Qualification](../lync-cert/partner-qualification.md)
 ### Applications 
 #### [Qualified Lync applications](../lync-cert/qualified-lync-apps.md) 
 #### [Lync ISV qualification program participation](../lync-cert/participation.md)
