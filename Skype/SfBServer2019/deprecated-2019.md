@@ -144,7 +144,8 @@ Where a link exists, it should be ok to evergreen the topic linked to.
 Documentation for the following features (including all relevant plan/deploy/manage nodes) applies equally to Skype for Business Server 2015 and 2019:
 - Monitoring (plan, deploy, manage)  &#x2714; (need to reassess for MCX)
 - Archiving (plan, deploy, manage)  &#x2714;
-- Authentication (Manage)
+- Authentication (Manage) &#x2714;
+    - Please check "How to use Modern Authentication (ADAL) with Skype for Business" for applicability to 2019.
 - Modern Authentication (Plan)
 - Capacity planning &#x2714;
     - [Capacity planning for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/capacity.md)

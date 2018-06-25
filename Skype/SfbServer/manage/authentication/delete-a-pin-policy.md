@@ -1,21 +1,20 @@
 ---
-title: "Delete a PIN policy in Skype for Business Server 2015"
+title: "Delete a PIN policy in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: "Summary: Delete a user's dial-in conferencing PIN for Skype for Business Server 2015."
+description: "Summary: Delete a user's dial-in conferencing PIN for Skype for Business Server."
 ---
 
-# Delete a PIN policy in Skype for Business Server 2015
+# Delete a PIN policy in Skype for Business Server
  
-**Summary:** Delete a user's dial-in conferencing PIN for Skype for Business Server 2015.
+**Summary:** Delete a user's dial-in conferencing PIN for Skype for Business Server.
   
 Follow these steps to delete a personal identification number (PIN) policy.
   
@@ -24,7 +23,7 @@ Follow these steps to delete a personal identification number (PIN) policy.
   
 ### To delete a PIN policy in Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
