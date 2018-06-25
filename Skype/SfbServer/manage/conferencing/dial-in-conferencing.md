@@ -1,28 +1,27 @@
 ---
-title: "Manage dial-in conferencing in Skype for Business Server 2015"
+title: "Manage dial-in conferencing in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: "Summary: Learn how to manage dial-in conferencing in Skype for Business Server 2015."
+description: "Summary: Learn how to manage dial-in conferencing in Skype for Business Server."
 ---
 
-# Manage dial-in conferencing in Skype for Business Server 2015
+# Manage dial-in conferencing in Skype for Business Server
  
-**Summary:** Learn how to manage dial-in conferencing in Skype for Business Server 2015.
+**Summary:** Learn how to manage dial-in conferencing in Skype for Business Server.
   
-This topic describes how to manage dial-in conferencing. For more information about how to plan and configure dial-in conferencing at deployment, see [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+This topic describes how to manage dial-in conferencing. For more information about how to plan and configure dial-in conferencing at deployment, see [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 You can perform the following tasks to manage dial-in conferencing: enable or disable dial-in conferencing, manage access numbers, manage PIN policies for dial in conferencing, manage conference join and leave announcements, modify key mappings for DTMF commands, and welcome users to dial-in conferencing. 
   
-For more information about managing dial plans, see [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+For more information about managing dial plans, see [Create or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-For more information about PSTN usage, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
+For more information about PSTN usage, see [Configure voice policies, PSTN usage records, and voice routes in Skype for Business](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## Manage dial-in conferencing by using Skype for Business Server Control Panel
 

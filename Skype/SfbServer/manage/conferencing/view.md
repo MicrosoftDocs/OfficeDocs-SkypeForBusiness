@@ -1,20 +1,19 @@
 ---
-title: "View conferencing policies in Skype for Business Server 2015"
+title: "View conferencing policies in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: "Summary: Learn how to view conferencing policies in Skype for Business Server 2015."
+description: "Summary: Learn how to view conferencing policies in Skype for Business Server."
 ---
 
-# View conferencing policies in Skype for Business Server 2015
+# View conferencing policies in Skype for Business Server
  
-**Summary:** Learn how to view conferencing policies in Skype for Business Server 2015.
+**Summary:** Learn how to view conferencing policies in Skype for Business Server.
   
 You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   
@@ -32,7 +31,7 @@ You can view conferencing policies by using Skype for Business Server Control Pa
     
     **Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.
     
-    For details about configuring the settings, see [Create conferencing policies in Skype for Business Server 2015](create-policies.md).
+    For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).
     
 ## View conferencing policies by using Skype for Business Server Management Shell
 
