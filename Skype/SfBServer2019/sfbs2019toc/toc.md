@@ -334,7 +334,7 @@
 #### [Conferencing server configuration settings](../../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Dial-in conferencing](../../SfbServer/manage/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Enable or disable](../../SfbServer/manage/conferencing/enable-or-disable.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Access numbers](.../../SfbServer/manage/conferencing/access-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Access numbers](../../SfbServer/manage/conferencing/access-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [PIN policies](../../SfbServer/manage/conferencing/pin-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Join and leave announcements](../../SfbServer/manage/conferencing/join-and-leave-announcements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Key mapping for DTMF commands](../../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
