@@ -145,8 +145,8 @@ Documentation for the following features (including all relevant plan/deploy/man
 - Monitoring (plan, deploy, manage)  &#x2714; (need to reassess for MCX)
 - Archiving (plan, deploy, manage)  &#x2714;
 - Authentication (Manage) &#x2714;
-    - Please check "How to use Modern Authentication (ADAL) with Skype for Business" for applicability to 2019.
-- Modern Authentication (Plan)
+    - Please check "How to use Modern Authentication (ADAL) with Skype for Business" for applicability to 2019 (as well as Office 2013 references).
+- Modern Authentication (Plan) &#x2714;
 - Capacity planning &#x2714;
     - [Capacity planning for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/capacity.md)
     - [Estimating voice usage and traffic for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md)
